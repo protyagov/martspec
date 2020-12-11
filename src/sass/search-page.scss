@@ -1,0 +1,23 @@
+
+.search-page-section-searchbar {
+    position: relative;
+    display: table;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-color:  $cl-color-hover-panel;
+    h3 {
+        padding-top: 1vmin;
+        font-weight: 600;
+        font-size: 2.2rem;
+        padding-bottom: 2vmin;
+    }
+
+    h4 {
+        @extend .text-muted;
+        font-weight: 400;
+    }
+}

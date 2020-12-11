@@ -1,0 +1,38 @@
+.widget-pie {
+    figure {
+        ul {
+            // margin: 0;
+            padding: 0 0 0 0.9rem;
+            list-style: none;
+            // margin-top:  -1rem;
+        }
+
+        li {
+            margin: 0 0 0.1rem;
+            padding: 0;
+            text-align: left;
+        }
+
+
+        .shape-circle {
+            display: inline-block;
+            vertical-align: middle;
+            width: 0.8rem;
+            height: 0.8rem;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+    }
+}

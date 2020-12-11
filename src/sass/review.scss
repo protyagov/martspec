@@ -1,0 +1,42 @@
+.rr-review-upsert {
+    @extend .card;
+    font-family: os4;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background: $cl-color-bg-card;
+
+    h4 {
+        font-family: os3;
+        @extend .card-title;
+        @extend .card-heading
+    }
+
+    label {
+        margin-bottom: -0.3rem;
+        margin-left: 0.1rem;
+        font-family: "os3";
+        font-size: 1.4rem;
+        color: #999;
+
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .card-heading {
+        margin-top: 2.2rem;
+        margin-left: 1.2rem;
+    }
+}
+
+
+//---------------------------------------------------------------------------------------------------------------------
+.rr-card-review-response {
+    background-color: $cl-color-bg-card;
+    margin-bottom: -1rem;
+
+    textarea {
+        font-size: 1.2rem;
+    }
+}

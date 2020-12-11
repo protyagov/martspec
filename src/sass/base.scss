@@ -1,0 +1,188 @@
+@import "font.scss";
+@import "color.scss";
+
+$pw-screen-mm: 420px;
+$pw-screen-sm: 576px;
+$pw-screen-md: 768px;
+$pw-screen-lg: 992px;
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: os3; // -webkit-font-smoothing: antialiased;
+
+    @media only screen and (min-width: $pw-screen-lg) {
+        font-size: 13px;
+    }
+
+    @media only screen and (max-width: $pw-screen-lg - 1) {
+        font-size: 12px;
+    }
+
+    @media only screen and (max-width: $pw-screen-md - 1) {
+        font-size: 11px;
+    }
+
+    @media only screen and (max-width: $pw-screen-sm - 1) {
+        font-size: 10px;
+    }
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.text-muted {
+    color: $cl-color-text-peter-aerts;
+}
+
+hr.small {
+    max-width: 120px;
+}
+
+
+.vl {
+    border-left: 1px solid #d2d6db;
+    height: 1.7rem;
+    //position: absolute;
+    left: 50%;
+    //margin-left: -3px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    top: 0;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.pull-right {
+    float: right
+}
+
+.pull-left {
+    float: left
+}
+/*---------------- Call to Action Section ----------------*/
+
+.callout {
+    // display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/logo.png) no-repeat center scroll;
+    background-size: contain;
+    background-origin: content-box;
+    padding-bottom: 1rem;
+    opacity: 0.75;
+}
+
+.call-to-action {
+    padding: 50px 0;
+
+    .btn {
+        margin: 10px;
+    }
+}
+
+
+/*---------------- Toast ----------------*/
+.toast {
+    opacity: 0.9 !important;
+}
+
+
+// When resolution <= 1200px, hide short text and show full text
+@media (max-width: $pw-screen-mm) {
+    .hide-mm {
+        display: none;
+    }
+}
+
+
+/*---------------- Login Page ----------------*/
+.z-100 {
+    z-index: 100;
+}
+
+.z-400 {
+    z-index: 400;
+}
+
+.z-500 {
+    z-index: 500;
+}
+
+.z-550 {
+    z-index: 550;
+}
+
+.z-1000 {
+    z-index: 1000;
+}
+
+.z-1500 {
+    z-index: 1500;
+}
+
+.rr-cursor-pointer {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.rr-nooverflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 10rem;
+}
+
+hr {
+    border: 0;
+    margin: 1.35em auto;
+    max-width: 100%;
+    background-position: 50%;
+    box-sizing: border-box;
+}
+
+
+/*---------------- Link ----------------*/
+.rr-a {
+    font-family: os4;
+    text-decoration: none;
+    color: $rr-color-blue-nav;
+
+    &:hover {
+        cursor: pointer;
+        color: $rr-c-waterdrop;
+        text-decoration: underline;
+    }
+}
+
+/*---------------- Footer ----------------*/
+.rr-footer {
+    @extend .fixed-bottom;
+
+    p {
+        margin-top: 0.5rem;
+        color: #AAA;
+    }
+
+    a {
+        text-decoration: none;
+        color: #AAA;
+
+        &:hover {
+            color: #fafafa;
+        }
+    }
+}

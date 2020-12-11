@@ -1,0 +1,89 @@
+@import "color.scss";
+
+//----------------------------
+.rr-badgeSimpleGreen {
+  color: $rr-color-green;
+  font-family: os3;
+  font-size: 1.4rem;
+  border: 1px solid;
+
+  padding-left: 1.2rem;
+  padding-right: 1.0rem;
+  border-radius: 0.4rem;
+  display: inline-block;
+  margin-left: 1rem;
+
+  margin-bottom: 1rem;
+}
+
+//----------------------------
+.rr-badgeSimplePurple {
+  @extend .rr-badgeSimpleGreen;
+  color: $rr-color-main;
+}
+
+//----------------------------
+.rr-badge {
+  color: $rr-color-text-recruiter;
+  font-family: os3;
+  font-size: 1.4rem;
+  border: 1px solid $rr-color-text-recruiter;
+
+  padding: 0.2rem;
+  padding-left: 1.2rem;
+  padding-right: 1.0rem;
+  border-radius: 0.4rem;
+  display: inline-block;
+  margin-left: 1rem;
+
+  margin-bottom: 1rem;
+
+  i {
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    color: $rr-color-dark;
+    font-size: 1.9rem;
+  }
+
+  &:hover {
+    color: black;
+    background-color: $placeholder-text;
+    font-family: os4;
+  }
+}
+
+//----------------------------
+.rr-badge-purple {
+  color: white;
+  background-color: $rr-color-main;
+  font-family: os3;
+  font-size: 1.4rem;
+  border: 1px solid $rr-color-text-recruiter;
+  padding: 0.2rem 1rem 0.3rem 1.2rem;
+
+  border-radius: 0.4rem;
+  display: inline-block;
+  margin-left: 1rem;
+
+  margin-bottom: 1rem;
+
+  i {
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    color: white;
+    font-size: 1.9rem;
+
+    &:hover {
+      // color: #fff;
+      color: #2A3F54;
+      cursor: pointer;
+    }
+  }
+}
+
+//----------------------------
+.rr-badge-green {
+  @extend .rr-badge-purple;
+  background-color: $rr-color-green;
+  border: 1px solid #499a71;
+}

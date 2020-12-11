@@ -1,0 +1,17 @@
+# Group 1 -- All Crawlers
+User-agent: *
+Allow: /
+Allow: /profile/
+Allow: /agency/
+Allow: /img/
+Allow: /icon/
+Allow: /about/jobseeker
+Allow: /about/recruiter
+Disallow: /auth/
+Disallow: /test/
+Disallow: /email/
+Disallow: /error/
+Disallow: /option/
+Disallow: /font/
+
+Sitemap:  https://recruiter.reviews/sitemap.txt

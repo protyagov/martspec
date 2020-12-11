@@ -1,0 +1,57 @@
+/*---------------- Footer ----------------*/
+
+footer {
+    background-color: $pw-color-side-bar; //$brand-overlay-color;
+    float: left;
+    width: 100%;
+    color: white;
+    padding-top: 0.4rem;
+    position: relative;
+
+    ul {
+        padding: 0;
+        margin: 0;
+        clear: both;
+
+        li {
+            padding: 0 0 0 3rem;
+            margin: 0.3rem 0 0 0;
+            list-style: none;
+            position: relative;
+
+            &:before {
+                color: $cl-color-text-gray-ccc;
+                position: absolute;
+                left: 0;
+                top: -0.2rem; // font-family: FontAwesome;
+                font-family: fontello; // @include FontAwesome;
+            }
+
+            &.address {
+                &:before {
+                    font-size: 1.3rem;
+                    content: "\e811";
+                }
+            }
+
+            &.phone {
+                &:before {
+                    @extend .icon-mobile;
+                    font-size: 1.3rem;
+                }
+            }
+
+            &.email {
+                &:before {
+                    font-family: fontello;
+                    font-size: 1.3rem;
+                    content: "\e807";
+                }
+            }
+        }
+    }
+
+    span {
+        margin-top: 0.5rem;
+    }
+}

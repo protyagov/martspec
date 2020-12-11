@@ -1,0 +1,353 @@
+//---------------------------------------------------------------------------------------------------------------------
+.rr-card-recruiter-search {
+    @extend .text-left;
+    @extend .card;
+
+    font-family: os4;
+
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-width: 1;
+    border-radius: 0;
+
+    background: white;
+
+    .rr-rating {
+        position: absolute;
+        top: 1rem;
+        right: 0;
+    }
+
+    @media only screen and (max-width: $pw-screen-sm - 1) {
+        margin-left: 2%;
+        margin-right: 3%;
+
+        .rr-img-avatar {
+            img {
+                margin-right: 1rem;
+            }
+
+            i {
+                margin-left: -1.2rem;
+            }
+        }
+    }
+
+    @media only screen and (min-width: $pw-screen-sm) {
+        margin-left: 15%;
+        margin-right: 15%;
+
+        .rr-footer-monitor-offset {
+            margin-left: 14vmin;
+        }
+
+        .rr-img-avatar {
+            img {
+                margin-right: 2rem;
+            }
+
+            i {
+                margin-left: -2.1rem;
+            }
+        }
+    }
+
+
+
+    h4 {
+        font-family: os6;
+        padding: 1rem 0;
+        @extend .card-title;
+        @extend .card-heading;
+        color: $rr-color-text-recruiter;
+    }
+
+    h5 {
+        margin-top: -1.4rem;
+        margin-left: 3.8rem;
+        // color: $placeholder-text;
+        color: $sc-color-gray-dark;
+
+        a {
+            color: $sc-color-gray-dark;
+        }
+    }
+
+    .rr-footer-monitor {
+        @extend .btn;
+        font-size: 1.2rem;
+        color: $sc-color-gray-dark !important;
+        font-family: os3;
+
+        &:hover {
+            cursor: pointer;
+            color: $rr-color-main !important;
+            text-decoration: none;
+        }
+    }
+
+    label {
+        margin-bottom: -0.3rem;
+        margin-left: 0.1rem;
+        color: #999999;
+    }
+
+    p {
+        font-size: 1.2rem;
+        font-family: os4;
+        max-lines: 2;
+        color: $rr-color-dark;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        /* Needed to make it work */
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        /* number of lines to show */
+        -webkit-box-orient: vertical;
+    }
+
+    .card-footer {
+        border: none;
+        background-color: none;
+        background: none;
+        background-image: linear-gradient(white, $sc-color-gray-light 90%);
+    }
+
+
+    .card-body {
+        margin-left: 2.6rem;
+    }
+
+    .card-heading {
+        margin-top: 2.2rem;
+        margin-left: 1.2rem;
+    }
+
+
+    &:hover {
+        // box-shadow: 0px 0px 150px #000000;
+        z-index: 2;
+        -webkit-transition: all 200ms ease-in;
+        -webkit-transform: scale(1.01);
+        -ms-transition: all 200ms ease-in;
+        -ms-transform: scale(1.01);
+        -moz-transition: all 200ms ease-in;
+        -moz-transform: scale(1.01);
+        transition: all 200ms ease-in;
+        transform: scale(1.01);
+        // background-color:#ececec81;
+        cursor: pointer;
+        background-color: #617fde05;
+
+        h4 {
+            font-family: os7;
+        }
+
+        h5,
+        p {
+            // font-family: os4;
+            color: black;
+        }
+    }
+}
+
+//---------------------------------------------------------------------------------------------------------------------
+.rr-recruiter-profile {
+    @extend .text-left;
+    @extend .card;
+    font-family: os4;
+ 
+    // border: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    border-color: $sc-color-gray-light !important;
+    background: white;
+
+    @media only screen and (min-width: $pw-screen-md) {
+        margin-left: 15%;
+        margin-right: 15%;
+
+        .rr-footer-monitor-offset {
+            margin-left: 14vmin;
+        }
+    }
+
+    @media only screen and (max-width: $pw-screen-sm - 1) {
+        margin-left: 2%;
+        margin-right: 3%;
+    }
+
+
+    h4 {
+        color: $sc-color-gray-dark;
+
+        span {
+            font-family: os6;
+            color: $rr-color-text-recruiter;
+        }
+
+        a {
+            i {
+                padding-left: 1rem;
+                padding-top: 0.3rem;
+                // color: $sc-color-gray-dark;
+                font-size: 1.4rem;
+                vertical-align: top;
+
+                &:hover {
+                    color: black;
+                }
+            }
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    h5 {
+        margin-top: -0.7rem;
+        color: $sc-color-gray-dark;
+
+        a {
+            color: $sc-color-gray-dark;
+
+            &:hover {
+                color: $rr-color-main;
+                font-family: os6;
+            }
+        }
+    }
+
+    .rr-img-avatar {
+        img {
+            margin-right: 1.4rem;
+        }
+    }
+
+
+    label {
+        margin-bottom: -0.3rem;
+        margin-left: 0.1rem;
+        color: #999999;
+    }
+
+
+    p {
+        font-size: 1.2rem;
+        font-family: os4;
+        color: $rr-color-dark;
+        margin-left: 1rem;
+    }
+
+    .card-heading {
+        margin-top: 2.2rem;
+    }
+}
+
+
+//---------------------------------------------------------------------------------------------------------------------
+.rr-card-recruiter-review-card {
+    @extend .text-left;
+    @extend .card;
+    font-family: os4;
+    color: $rr-color-dark;
+
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    background: white;
+
+
+    @media only screen and (min-width: $pw-screen-md) {
+        margin-left: 15%;
+        margin-right: 15%;
+
+        .rr-footer-monitor-offset {
+            margin-left: 14vmin;
+        }
+    }
+
+    @media only screen and (max-width: $pw-screen-sm - 1) {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .stars {
+        margin-left: -0.3rem;
+        white-space: nowrap;
+
+        .fo {
+            white-space: nowrap;
+
+            &:hover {
+                cursor: pointer !important;
+            }
+        }
+
+        .title {
+            color: $sc-color-gray-dark;
+        }
+
+        // Thumb Up/Down icon
+        .review-recommend {
+            margin-top: 0.3rem;
+            font-size: 1.6rem;
+            font-family: os3;
+
+            i {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .recruiter-response {
+        margin-left: 3rem;
+        font-size: 1.2rem;
+        font-family: os3i;
+
+        h4 {
+            padding: 1rem 0;
+            // font-family: os4i;
+            // color: $rr-color-text-recruiter;
+            color: $rr-color-black;
+        }
+
+        h5 {
+            margin-top: -1.4rem;
+
+            color: $sc-color-gray-dark;
+        }
+
+        p {
+            // font-family: os3i;
+
+        }
+    }
+
+    .rr-card-header {
+        @extend .no-gutters;
+        margin-top: 2rem;
+
+
+        .review-headline {
+            font-weight: bold;
+            font-size: 1.3rem;
+            font-family: os6;
+            margin-top: -0.3rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    .card-text {
+        color: $rr-color-dark;
+        font-size: 1.3rem;
+
+    }
+}
