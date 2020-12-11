@@ -4,12 +4,6 @@ import _ from "src/i18n/locale"
 import { Footer } from "../part/footer";
 import ContactUs from "src/part/contact-us";
 import Spinner from "../part/spinner";
-
-import NavBarSignIn from "../part/navbar-signin";
-import { Typeahead } from "../part/typeahead";
-import { API_BASE_URL } from "../env";
-import IdNameModel from "../model/id-name";
-import AppState from "../state";
 import NavigationBar from "src/part/navbar";
 const p1 = require("src/img/p_electrolyte.png").default;
 const p2 = require("src/img/p_mass.png").default;
