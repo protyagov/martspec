@@ -1,0 +1,144 @@
+{
+    "NO_DATA": "NO DATA",
+    "MORE_RESULTS": "Show More",
+    "MAIN": {
+        "HEAD": "Simplicity of health tracking",
+        "SUBHEAD": "Apps to make daily tasks agile and effortless",
+        "IMG": "Apple Watch wellness and health apps",
+        "P1": {
+            "HEAD": "Electrolyte",
+            "SUBHEAD": "most vital minerals",
+            "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
+            "BTN": "Get the facts",
+            "IMG": "Record electrolytes and minerals with you Apple Watch"
+        },
+        "P2": {
+            "HEAD": "Log Mass",
+            "SUBHEAD": "the ultimate weight tracker",
+            "TEXT": "Tracking your weight increases your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
+            "BTN": "Take a look",
+            "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage"
+        },
+        "P3": {
+            "HEAD": "Log Vitamin",
+            "SUBHEAD": "share your experience",
+            "TEXT": "Tracking your essential vitamins has so many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
+            "BTN": "Read more",
+            "IMG": "Track the most esential vitamins directly on your wrist"
+        },
+        "P4": {
+            "HEAD": "Log Waist",
+            "SUBHEAD": "waistline circumference",
+            "TEXT": "Waist circumference is a measurement taken around the abdomen at the level of the umbilicus (belly button).",
+            "BTN": "Learn More",
+            "IMG": "Keep track of your waist size directly from you arm"
+        }
+    },
+    "NAV": {
+        "HOME": "home",
+        "BACK": "back"
+    },
+    "PRODUCT": {
+        "P1": {
+            "NAV_TITLE": "Electrolyte",
+            "HEAD1": "Accountability",
+            "DESC1": "We have a responsibility to ourselves for our health.  No one can make us lose weight or choose healthy foods.  We must decide this for ourselves.",
+            "HEAD2": "Get Recognized",
+            "DESC2": "Request reviews and get recognized for the job done well, promote yourself, build your brand.",
+            "HEAD3": "Candidate Stats",
+            "DESC3_1": "Apple Health Integration",
+            "DESC3_2": "60% have stated that timely communication during the application process makes a positive impact on their mind.",
+            "DESC3_3": "80% say that a single negative experience can change their decision even at the last minute.",
+            "DESC3_4": "94% would like to receive interview feedback, but only 41% have received it in the past."
+        },
+        "P2": {
+            "NAV_TITLE": "Log Mass",
+            "HEAD1": "Accountability",
+            "DESC1": "We have a responsibility to ourselves for our health.  No one can make us lose weight or choose healthy foods.  We must decide this for ourselves.",
+            "HEAD2": "Be Honest",
+            "DESC2": "Logging our weight makes it real. While that sound strange; it’s real. This is data, recorded facts. They are real whether we record them or not. ",
+            "HEAD3": "Commitment",
+            "DESC3": "Logging daily is important, it keeps healthy habits in front of our minds.  Every time we make a log entry, we are reminded of our commitment to health. Skipping a day here and there makes it easier to skip 2 days, then 3 days. Then, before you know it, you’ve stopped and you are back to your old habits.",
+            "HEAD4": "App Features",
+            "DESC4_1": "Apple Health Integration",
+            "DESC4_2": "History of past recordings with percentage difference",
+            "DESC4_3": "All watch sizes, all watch face complication types",
+            "DESC4_4": "Does not need companion iPhone app"
+        }
+    },
+    "ENUM": {
+        "NEVER": "Never",
+        "NO_INTERVIEW": "No Interview",
+        "WEEK": "One Week",
+        "TWO_WEEKS": "Two Weeks",
+        "MONTH": "Month",
+        "OVER_MONTH": "Over Month",
+        "NO_JOB": "No Offer",
+        "ENTRY": "Entry level",
+        "MIDDLE": "Middle level",
+        "SENIOR": "Senior level"
+    },
+    "QUESTION": {
+        "PROFILE_DELETE_MENU": "Delete",
+        "PROFILE_DELETE_TOOLTIP": "Delete profile",
+        "PROFILE_DELETED": "Profile has been successfully deleted",
+        "PROFILE_DELETE_YES": "Yes, Delete",
+        "PROFILE_DELETE_CANCEL": "Close and decide later",
+        "PROFILE_DELETE_TEXT": "You are about to delete this profile. This operation is irreversible. Would you like to continue?",
+        "PROFILE_DELETE_TITLE": "DELETE PROFILE",
+        "PROFILE_SHARE_TITLE": "Share Profile",
+        "PROFILE_SHARE_TEXT": "Found great recruiter, -  %{name}.",
+        "PROFILE_SHARE_BTN": "COPY"
+    },
+    "EMAIL": {
+        "UNSUBSCRIBE": {
+            "HEAD": "Unsubscribe Successful",
+            "TEXT": "You will not receive this kind of emails any more.",
+            "BTN": "Home"
+        }
+    },
+    "INVALID_RESET_PASSWORD_TOKEN": {
+        "msg": "Please try to request a password recovery link again",
+        "head": "Expired Recovery Link"
+    },
+    "API": {
+        "ERROR": {
+            "INVALID_ENDPOINT": "Looks like something broke on our side. Sorry for inconvenience.",
+            "LOGIN_REQUIRED": "This operation requires authorization. Please login and try again.",
+            "RECRUITER_NOT_FOUND": "Sorry, we are unable to locate recruiter's profile.",
+            "RECRUITER_NAME": "Please check this recruite name, looks like there might be an error there",
+            "REVIEW_HEADLINE_LENGTH": "Review headline is too long",
+            "REVIEW_LENGTH": "Review is too long. Please make it less than 1000 charachers.",
+            "RATE_YOURSELF": "You cannot rate your own profile",
+            "EMAIL_NOT_CONFIRMED": "Action is forbidden. Please confirm your email first.",
+            "ACCOUNT_OWNERSHIP": "It is forbidden to update an account you do not own",
+            "SECURITY_CODE": "Invalid security code. Please make sure you enter all digits correctly. If problem continues please request a new code.",
+            "SECURITY_CODE_EXPIRED": "This security code has expired, please request a new code.",
+            "REQUIRED_HEADLINE": "Headline is required.",
+            "REQUIRED_RATING": "Please enter rating.",
+            "REQUIRED_OWNER_NAME_VISIBILITY": "Should your review be published as Anonymous?",
+            "REQUIRED_KNOW_COMPANY": "Please enter recruiter's knowledge of the company",
+            "REQUIRED_KNOW_SPECIALITY": "Please enter recruiter's knowledge of your specialty",
+            "REQUIRED_GOT_HIRED": "Did you get aa offer? If so, how long did it take?",
+            "REQUIRED_KNOW_PROFILE": "How well recruiter knows your profile?",
+            "REQUIRED_GOT_INTERVIEW": "Did you get an interview? If so, how long did it take?",
+            "REQUIRED_SENIORITY_LEVEL": "Please indicate position level",
+            "AGENCY_NAME": "Please enter agency name. If you do not know one select Unknown Agency from the list.",
+            "INVALID_AGENCY_ID": "Loks like we have some trouples finding this agency. Please refresh page and try to select that agency again."
+        },
+        "CODE": {
+            "400": "Error",
+            "401": "Please SignIn",
+            "403": "Access Denied",
+            "404": "Not Found"
+        }
+    },
+    "ERROR": {
+        "500_HEAD": "unexpected error",
+        "500_TEXT": "Sorry, something went wrong on our end. If this problem persists please contact us from the Home page or via email at support@recruiter.reviews",
+        "500_BTN": "Home",
+        "404_HEAD": "page not found",
+        "404_TEXT": "Some of our pages, such as password restore or email confirmation, only have short lifespan. Please visit the Home page of our site.",
+        "404_BTN": "Home"
+    }
+}
