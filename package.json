@@ -58,7 +58,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "predeploy": "yarn prod",
+    "predeploy": "webpack --config webpack.prod.js",
     "deploy": "gh-pages -d build",
     "prod": "webpack --config webpack.prod.js",
     "svr": "webpack serve --config webpack.dev.js",

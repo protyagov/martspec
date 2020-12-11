@@ -17,7 +17,7 @@ module.exports = {
     output: {
         filename: '[name].[chunkhash:3].js',
         path: path.resolve(__dirname, 'build'),
-        publicPath: "/"
+        publicPath: ""
     },
     plugins: [
         new OptimizeCssAssetsPlugin({
