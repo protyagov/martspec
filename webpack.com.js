@@ -17,7 +17,7 @@ module.exports = {
     output: {
         filename: '[name].[chunkhash:3].js',
         path: path.resolve(__dirname, 'build'),
-        publicPath: ""
+        publicPath: "/"
     },
     plugins: [
         new OptimizeCssAssetsPlugin({
@@ -48,7 +48,8 @@ module.exports = {
                     flatten: true,
                     to: 'i18n'
                 },                
-                { from: 'src/../robots.txt' }
+                { from: 'src/../robots.txt' },
+                { from: 'src/404.html' }
             ],
             options: {
                 concurrency: 100,

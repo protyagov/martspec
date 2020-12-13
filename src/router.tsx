@@ -17,13 +17,42 @@ import PrivacyPolicy from "./landing/private-policy";
 
 
 export function App() {
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect != location.href) {
+        history.replaceState(null, null, redirect);
+        // REMOVE THIS - just showing the redirect route in the UI
+        // document.body.setAttribute('message', 'This page was redirected by 404.html, from the route: ' + redirect);
+        switch (location.pathname) {
+            case "/":
+                return <MainPage />;
+            case "/product/electrolyte":
+                return <P1Electrolyte />;
+            case "/product/logmass":
+                return <P2LogMass />;
+            case "/product/logwaist":
+                return <P4Waist />;
+            case "/product/logvitamin":
+                return <P3LogVitamin />;
+            default:
+                return <Error_404 />;
+        }
+        return <MainPage />
+    }
+    else {
+        // REMOVE THIS - just showing the redirect route in the UI
+        // document.body.setAttribute('message', 'This page was loaded directly from the index.html file');
+        return <MainPage />
+    }
+
+
     return <Router>
         <Suspense fallback={<div>Loading route...</div>}>
             <Switch>
                 <Route exact path="/" component={MainPage} />
 
                 <Route exact path="/product/electrolyte" component={P1Electrolyte} />
-                <Route exact path="/product/logmass" component={P2LogMass} />
+                <Route path="/product/logmass" component={P2LogMass} />
                 <Route exact path="/product/logvitamin" component={P3LogVitamin} />
                 <Route exact path="/product/logwaist" component={P4Waist} />
 
