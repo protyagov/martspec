@@ -15,51 +15,51 @@ interface NavBarSignInProps {
 }
 
 export default function NavBarSignIn(props: NavBarSignInProps) {
-    let history = useHistory();
+    // let history = useHistory();
 
     function leftButtonClick() {
         if (props.leftButtonCommand)
             props.leftButtonCommand();
         else if (props.letfButtonRedirectPage)
-            history.push(props.letfButtonRedirectPage);
+            history.pushState(null, null, props.letfButtonRedirectPage);
         else if (history.length == 0)
-            history.push("/")
+            history.pushState(null, null, "/")
         else
-            history.goBack();
+            history.back();
     }
 
     function signInButton() {
-        if (!AuthAPI.isLoggedIn)
-            return <div className="rButton" style={{ marginRight: "-1rem" }}>
-                <button className="btn" onClick={() =>
-                    history.push({ pathname: '/auth/login', state: { pathname: history.location.pathname } })}>
-                    <span className="rText">{_("AUTH.LOGIN.SIGN_IN")}</span>
-                    <i className="fo icon-user-o fo-2x" />
-                </button>
-            </div >
+        // if (!AuthAPI.isLoggedIn)
+        //     return <div className="rButton" style={{ marginRight: "-1rem" }}>
+        //         <button className="btn" onClick={() =>
+        //             history.push({ pathname: '/auth/login', state: { pathname: history.location.pathname } })}>
+        //             <span className="rText">{_("AUTH.LOGIN.SIGN_IN")}</span>
+        //             <i className="fo icon-user-o fo-2x" />
+        //         </button>
+        //     </div >
 
-        const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-        const url = AuthAPI.user?.imageUrl;
+        // const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+        // const url = AuthAPI.user?.imageUrl;
 
-        if (url) {
-            let cssProperties: any = {}
-            cssProperties['--avatar-top'] = url ? '-0.4rem' : "0.05rem";
-            return <div className="rButton" style={{ marginRight: url ? "-1rem" : "0.4rem" }}>
-                <button className="btn d-flex" onClick={() => history.push('/option')}
-                    style={cssProperties}>
-                    {vw > 380 && <span className="rText">{AuthAPI.user?.name}</span>}
-                    <Avatar src={url} size={url ? "3rem" : "2rem"} />
-                </button>
-            </div>
-        }
+        // if (url) {
+        //     let cssProperties: any = {}
+        //     cssProperties['--avatar-top'] = url ? '-0.4rem' : "0.05rem";
+        //     return <div className="rButton" style={{ marginRight: url ? "-1rem" : "0.4rem" }}>
+        //         <button className="btn d-flex" onClick={() => history.push('/option')}
+        //             style={cssProperties}>
+        //             {vw > 380 && <span className="rText">{AuthAPI.user?.name}</span>}
+        //             <Avatar src={url} size={url ? "3rem" : "2rem"} />
+        //         </button>
+        //     </div>
+        // }
 
 
-        return <div className="rButton" style={{ marginRight: "-1rem" }}>
-            <button className="btn btn-link" onClick={() => history.push('/option')}>
-                {vw > 380 && <span className="rText">{AuthAPI.user?.name}</span>}
-                <i className="fo icon-user fo-2x" />
-            </button>
-        </div>
+        // return <div className="rButton" style={{ marginRight: "-1rem" }}>
+        //     <button className="btn btn-link" onClick={() => history.push('/option')}>
+        //         {vw > 380 && <span className="rText">{AuthAPI.user?.name}</span>}
+        //         <i className="fo icon-user fo-2x" />
+        //     </button>
+        // </div>
     }
 
     function leftButton() {

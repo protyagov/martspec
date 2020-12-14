@@ -24,7 +24,9 @@ export default function P1Electrolyte() {
                 <div className="row" >
                     <div className="col-sm-12 col-md-9 order-last order-md-1">
                         <h1>{_("PRODUCT.P1.HEAD1")}</h1>
-                        <h3 className="mt-3">{_("PRODUCT.P1.DESC1")}</h3>
+                        <h3 className="mt-3">{_("PRODUCT.P1.DESC1")}                            <a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm">
+                            <br /><small>National Institutes of Health Reference</small>
+                        </a> </h3>
 
 
                         <h1>{_("PRODUCT.P1.HEAD2")}</h1>

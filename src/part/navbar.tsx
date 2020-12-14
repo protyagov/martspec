@@ -14,15 +14,15 @@ interface NavBarProps {
 }
 
 export default function NavigationBar(props: NavBarProps) {
-    let history = useHistory();
+    // let history = useHistory();
 
     function leftButtonClick() {
         if (props.leftButtonCommand)
             props.leftButtonCommand();
         else if (props.letfButtonRedirectPage)
-            history.push(props.letfButtonRedirectPage);
+            history.pushState(null, null, props.letfButtonRedirectPage);
         else
-            history.goBack();
+            history.back();
     }
 
     function rightButtonClick() {
@@ -30,7 +30,7 @@ export default function NavigationBar(props: NavBarProps) {
             props.rightButtonCommand();
 
         if (props.rightButtonRedirectPage)
-            history.push(props.rightButtonRedirectPage);
+            history.pushState(null, null, props.rightButtonRedirectPage);
     }
 
     return (
