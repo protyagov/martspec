@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://rr-client/./src/img/private_policy.svg"],"names":[],"mappings":"sHAAA,QAAe,IAA0B","file":"206.8fd.js","sourcesContent":["export default __webpack_public_path__ + \"img/private_policy.svg\";"],"sourceRoot":""}

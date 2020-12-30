@@ -1,17 +1,13 @@
 # Group 1 -- All Crawlers
 User-agent: *
 Allow: /
-Allow: /profile/
-Allow: /agency/
+Allow: /product/electrolyte
+Allow: /product/logmass
 Allow: /img/
 Allow: /icon/
-Allow: /about/jobseeker
-Allow: /about/recruiter
-Disallow: /auth/
-Disallow: /test/
-Disallow: /email/
-Disallow: /error/
-Disallow: /option/
+Allow: /product/logwaist
+Allow: /product/logvitamin
+Allow: /privacy-policy
 Disallow: /font/
 
-Sitemap:  https://recruiter.reviews/sitemap.txt
+#Sitemap:  https://recruiter.reviews/sitemap.txt
