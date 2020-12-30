@@ -338,3 +338,16 @@
         background-color: #728ee2
     }
 }
+
+.ms-btn-apple {
+    display: inline-block;
+    width: 157px;
+    height: 52px;
+    background-size: cover;
+    background-image: url(src/img/apple_btn.svg);
+
+    &:hover,
+    &:focus {
+        filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(23deg) brightness(108%) contrast(101%);
+    }
+}

@@ -1,8 +1,5 @@
 import * as React from "react";
-import { useHistory } from "react-router-dom";
-import AuthAPI from "src/api/auth";
 import _ from "src/i18n/locale";
-import Avatar from "./avatar";
 const logo = require("src/img/logo.png").default;
 
 interface NavBarSignInProps {

@@ -4,7 +4,7 @@ import React from "react";
 export interface AvatarModel {
     imgLo: string;
     imgHi: string;
-    size?: string;
+    text?: string;
 }
 
 
@@ -25,8 +25,8 @@ export default function IronImage(props: AvatarModel) {
         }
     }, [])
 
-    return <span className="rr-img">
+    return <span>
         {/* @ts-ignore */}
-        <img src={props.imgLo} style={{ '--image-size': props.size }} ref={photoImg} />
+        <img src={props.imgLo} ref={photoImg} style={{ width: "100%" }} alt={props.text} />
     </span>
 }

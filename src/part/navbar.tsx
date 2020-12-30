@@ -1,5 +1,4 @@
 import * as React from "react";
-import { useHistory } from "react-router-dom";
 
 interface NavBarProps {
     title: string;

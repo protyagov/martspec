@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Footer } from "src/part/footer";
 import NavBarSignIn from "src/part/navbar-signin";
-const logo = require("src/img/private_policy.svg").default;
+const logo = require("src/img/privacy.svg").default;
 
 export default function PrivacyPolicy() {
     return (<>

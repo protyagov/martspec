@@ -3,7 +3,7 @@ import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
 import MetaTags from 'react-meta-tags';
 import NavigationBar from "src/part/navbar";
-const logo = require("src/img/jobseeker_main.svg").default;
+const logo = require("src/img/electrolyte.svg").default;
 
 export default function P1Electrolyte() {
     return (
@@ -42,7 +42,7 @@ export default function P1Electrolyte() {
                     </div>
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src={logo} alt="Job Seeker" />
+                        <img src={logo} className="mx-auto" alt="Recruiter" />                          
                     </div>
                 </div>
             </section>

@@ -43,13 +43,10 @@ module.exports = {
         }),
         new CopyPlugin({
             patterns: [
-                {
-                    from: 'src/i18n/*.json',
-                    flatten: true,
-                    to: 'i18n'
-                },                
+                { from: 'src/i18n/*.json', flatten: true, to: 'i18n' },
                 { from: 'src/../robots.txt' },
-                { from: 'src/404.html' }
+                { from: 'src/404.html' },
+                { from: 'src/img/*.png', to: "img", flatten: true }
             ],
             options: {
                 concurrency: 100,
@@ -72,18 +69,13 @@ module.exports = {
             maxInitialRequests: 80,
             enforceSizeThreshold: 50000,
             cacheGroups: {
-                react: {
-                    chunks: 'initial',
-                    test: /[\\/]node_modules[\\/](react|react-dom|scheduler|react-is|react-router|react-router-dom|prop-types|react-rating-stars-component|react-code-input|react-meta-tags)[\\/]/,
-                    name: "react"
-                },
                 app_lazy: {
                     test: /(private-policy.tsx)|([\\/]src[\\/]email)|(react-dom-server*)/,
                     name: "app.lazy"
                 },
                 vendor: {
                     chunks: 'initial',
-                    test: /[\\/]node_modules[\\/](bootstrap|toastr|superagent|date-fns|node-polyglot|popper.js|history*|for-each|es-abstract|component-emmiter|object-keys)[\\/]/,
+                    test: /[\\/]node_modules[\\/](react|react-dom|react-meta-tags|bootstrap|toastr|superagent|date-fns|node-polyglot|popper.js|history*|for-each|es-abstract|component-emmiter|object-keys)[\\/]/,
                     name: "vendor"
                 }
             },

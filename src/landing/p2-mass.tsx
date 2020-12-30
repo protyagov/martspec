@@ -1,17 +1,17 @@
 import * as React from "react";
 import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
-import NavBarSignIn from "src/part/navbar-signin";
 import MetaTags from 'react-meta-tags';
 import NavigationBar from "src/part/navbar";
-const logo = require("src/img/mass.svg").default;
+import IronImage from "src/part/iron-image";
+const logo = require("src/img/mass2.svg").default;
 
 export default function P2LogMass() {
     return (
         <div>
             <MetaTags>
                 <meta property="og:title" content={_("MAIN.P1_HEAD")} />
-                <meta property="og:image" content={"https://recruiter.reviews" + logo} />
+                <meta property="og:image" content={"https://martspec.com" + logo} />
                 <meta property="og:description" content={_("MAIN.P2.TEXT")} />
                 <meta name="yandex-verification" content="7bed02dd516e3d48" />
 
@@ -22,6 +22,7 @@ export default function P2LogMass() {
             <div className="fixed-top bg-white" >
                 <NavigationBar title={_("PRODUCT.P2.NAV_TITLE")} />
             </div>
+
             <section className="rr-s-about">
                 <div className="row" >
                     <div className="col-sm-12 col-md-9 order-last order-md-1">
@@ -47,13 +48,29 @@ export default function P2LogMass() {
                         </h3>
                     </div>
 
-                    {/* <a className="app-store" href="https://itunes.apple.com/us/app/vekt-track-your-weight-fast/id1114721073?ls=1&amp;mt=8" target="_blank" title="Download Vekt on the App Store"></a> */}
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src={logo} alt="Recruiter" />
+                        <img src={logo} className="mx-auto" alt="Recruiter" />
                     </div>
                 </div>
             </section>
+
+
+            <div className="container mb-5 pb-5">
+                <div className="row align-items-center justify-content-sm-center" >
+                    <div className="col-md-7 col-12 pb-5">
+                        <IronImage imgLo="/img/p_mass_screens_sm.png" imgHi="/img/p_mass_screens.png" text={_("MAIN.P2.IMG")} />
+                    </div>
+                    <div className="col-md-5 col-12 text-center pb-5">
+                        <a href={`https://apps.apple.com/${_("APPSTORE")}/app/log-mass/id1507588203`}
+                            target="_blank" title={_("MAIN.P2.DWN")}>
+                            <span className="ms-btn-apple my-5 float-md-right text-center"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
             <Footer />
         </div>
     )

@@ -1,5 +1,6 @@
 {
     "NO_DATA": "NO DATA",
+    "APPSTORE": "US",
     "MORE_RESULTS": "Show More",
     "MAIN": {
         "HEAD": "Simplicity of health tracking",
@@ -17,7 +18,8 @@
             "SUBHEAD": "the ultimate weight tracker",
             "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
             "BTN": "Take a look",
-            "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage"
+            "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
+            "DWN": "Download Free Log Mass app from Apple AppStore"            
         },
         "P3": {
             "HEAD": "Log Vitamin",
@@ -66,18 +68,6 @@
             "DESC4_4": "Does not need companion iPhone app"
         }
     },
-    "ENUM": {
-        "NEVER": "Never",
-        "NO_INTERVIEW": "No Interview",
-        "WEEK": "One Week",
-        "TWO_WEEKS": "Two Weeks",
-        "MONTH": "Month",
-        "OVER_MONTH": "Over Month",
-        "NO_JOB": "No Offer",
-        "ENTRY": "Entry level",
-        "MIDDLE": "Middle level",
-        "SENIOR": "Senior level"
-    },
     "QUESTION": {
         "PROFILE_DELETE_MENU": "Delete",
         "PROFILE_DELETE_TOOLTIP": "Delete profile",
@@ -96,49 +86,5 @@
             "TEXT": "You will not receive this kind of emails any more.",
             "BTN": "Home"
         }
-    },
-    "INVALID_RESET_PASSWORD_TOKEN": {
-        "msg": "Please try to request a password recovery link again",
-        "head": "Expired Recovery Link"
-    },
-    "API": {
-        "ERROR": {
-            "INVALID_ENDPOINT": "Looks like something broke on our side. Sorry for inconvenience.",
-            "LOGIN_REQUIRED": "This operation requires authorization. Please login and try again.",
-            "RECRUITER_NOT_FOUND": "Sorry, we are unable to locate recruiter's profile.",
-            "RECRUITER_NAME": "Please check this recruite name, looks like there might be an error there",
-            "REVIEW_HEADLINE_LENGTH": "Review headline is too long",
-            "REVIEW_LENGTH": "Review is too long. Please make it less than 1000 charachers.",
-            "RATE_YOURSELF": "You cannot rate your own profile",
-            "EMAIL_NOT_CONFIRMED": "Action is forbidden. Please confirm your email first.",
-            "ACCOUNT_OWNERSHIP": "It is forbidden to update an account you do not own",
-            "SECURITY_CODE": "Invalid security code. Please make sure you enter all digits correctly. If problem continues please request a new code.",
-            "SECURITY_CODE_EXPIRED": "This security code has expired, please request a new code.",
-            "REQUIRED_HEADLINE": "Headline is required.",
-            "REQUIRED_RATING": "Please enter rating.",
-            "REQUIRED_OWNER_NAME_VISIBILITY": "Should your review be published as Anonymous?",
-            "REQUIRED_KNOW_COMPANY": "Please enter recruiter's knowledge of the company",
-            "REQUIRED_KNOW_SPECIALITY": "Please enter recruiter's knowledge of your specialty",
-            "REQUIRED_GOT_HIRED": "Did you get aa offer? If so, how long did it take?",
-            "REQUIRED_KNOW_PROFILE": "How well recruiter knows your profile?",
-            "REQUIRED_GOT_INTERVIEW": "Did you get an interview? If so, how long did it take?",
-            "REQUIRED_SENIORITY_LEVEL": "Please indicate position level",
-            "AGENCY_NAME": "Please enter agency name. If you do not know one select Unknown Agency from the list.",
-            "INVALID_AGENCY_ID": "Loks like we have some trouples finding this agency. Please refresh page and try to select that agency again."
-        },
-        "CODE": {
-            "400": "Error",
-            "401": "Please SignIn",
-            "403": "Access Denied",
-            "404": "Not Found"
-        }
-    },
-    "ERROR": {
-        "500_HEAD": "unexpected error",
-        "500_TEXT": "Sorry, something went wrong on our end. If this problem persists please contact us from the Home page or via email at support@recruiter.reviews",
-        "500_BTN": "Home",
-        "404_HEAD": "page not found",
-        "404_TEXT": "Some of our pages, such as password restore or email confirmation, only have short lifespan. Please visit the Home page of our site.",
-        "404_BTN": "Home"
     }
 }

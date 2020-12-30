@@ -4,7 +4,7 @@ import { Footer } from "src/part/footer";
 import NavBarSignIn from "src/part/navbar-signin";
 import MetaTags from 'react-meta-tags';
 
-const logo = require("src/img/recruiter_main.svg").default;
+const logo = require("src/img/vitamin.svg").default;
 
 export default function P3LogVitamin() {
     return (

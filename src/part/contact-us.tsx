@@ -1,6 +1,5 @@
 import * as React from "react";
 import * as toastr from "toastr";
-import * as request from "superagent";
 import { API_BASE_URL } from 'src/env';
 import MessageModel from "src/model/message";
 import AppState from "src/state";
@@ -25,12 +24,12 @@ export default function ContactUs(props: ContactUs) {
         }
         console.log(message);
         props.setIsLoading(true);
-        request.post(API_BASE_URL + 'v1/mail/send')
-            .set({ 'Content-Type': 'application/json', 'credentials': 'same-origin' })
-            .send(message)
-            .then(_res => toastr.success("Message Sent", "Thank you for your message. We appreciate your feedback."))
-            .catch(err => AppState.handleError(err, true))
-            .finally(() => props.setIsLoading(false));
+        // request.post(API_BASE_URL + 'v1/mail/send')
+        //     .set({ 'Content-Type': 'application/json', 'credentials': 'same-origin' })
+        //     .send(message)
+        //     .then(_res => toastr.success("Message Sent", "Thank you for your message. We appreciate your feedback."))
+        //     .catch(err => AppState.handleError(err, true))
+        //     .finally(() => props.setIsLoading(false));
 
     }
 
