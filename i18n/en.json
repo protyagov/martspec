@@ -1,6 +1,6 @@
 {
     "NO_DATA": "NO DATA",
-    "APPSTORE": "US",
+    "APPSTORE": "us",
     "MORE_RESULTS": "Show More",
     "MAIN": {
         "HEAD": "Simplicity of health tracking",
@@ -11,7 +11,8 @@
             "SUBHEAD": "most vital minerals",
             "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
             "BTN": "Get the facts",
-            "IMG": "Record electrolytes and minerals with you Apple Watch"
+            "IMG": "Record electrolytes and minerals with you Apple Watch",
+            "DWN": "Download Free Electrolyte tracker app from the Apple AppStore"      
         },
         "P2": {
             "HEAD": "Log Mass",
@@ -19,7 +20,7 @@
             "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
             "BTN": "Take a look",
             "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
-            "DWN": "Download Free Log Mass app from Apple AppStore"            
+            "DWN": "Download Free Log Mass app from the Apple AppStore"            
         },
         "P3": {
             "HEAD": "Log Vitamin",
@@ -42,7 +43,6 @@
     },
     "PRODUCT": {
         "P1": {
-            "NAV_TITLE": "Electrolyte",
             "HEAD1": "Medical Fact",
             "DESC1": "If more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",
             "HEAD2": "Get Recognized",
