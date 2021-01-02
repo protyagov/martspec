@@ -1,7 +1,11 @@
 {
-    "NO_DATA": "NO DATA",
     "APPSTORE": "us",
-    "MORE_RESULTS": "Show More",
+    "BTN": {
+        "SRC1": "Read source article.",
+        "FACT": "See Facts",
+        "SRC2": "Get facts from the source article.",
+        "WIKI": "Read full article on WiKi."
+    },
     "MAIN": {
         "HEAD": "Simplicity of health tracking",
         "SUBHEAD": "Apps to make daily tasks agile and effortless",
@@ -12,7 +16,7 @@
             "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
             "BTN": "Get the facts",
             "IMG": "Record electrolytes and minerals with you Apple Watch",
-            "DWN": "Download Free Electrolyte tracker app from the Apple AppStore"      
+            "DWN": "Download Free Electrolyte tracker app from the Apple AppStore"
         },
         "P2": {
             "HEAD": "Log Mass",
@@ -20,21 +24,23 @@
             "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
             "BTN": "Take a look",
             "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
-            "DWN": "Download Free Log Mass app from the Apple AppStore"            
+            "DWN": "Download Free Log Mass app from the Apple AppStore"
         },
         "P3": {
             "HEAD": "Log Vitamin",
             "SUBHEAD": "share your experience",
             "TEXT": "Tracking your essential vitamins has so many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
             "BTN": "Read more",
-            "IMG": "Track the most esential vitamins directly on your wrist"
+            "IMG": "Track the most esential vitamins directly on your wrist",
+            "DWN": "Download Free Log Vitamin app from the Apple AppStore"
         },
         "P4": {
             "HEAD": "Log Waist",
             "SUBHEAD": "waistline circumference",
             "TEXT": "Waist circumference is a measurement taken around the abdomen at the level of the umbilicus (belly button).",
             "BTN": "Learn More",
-            "IMG": "Keep track of your waist size directly from you arm"
+            "IMG": "Keep track of your waist size directly from you arm",
+            "DWN": "Download Free Log Waist app from the Apple AppStore"
         }
     },
     "NAV": {
@@ -43,15 +49,17 @@
     },
     "PRODUCT": {
         "P1": {
-            "HEAD1": "Role",
-            "DESC1": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
-            "HEAD2": "Risks",
-            "DESC2": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte.",
-            "HEAD3": "Candidate Stats",
-            "DESC3_1": "Apple Health Integration",
-            "DESC3_2": "60% have stated that timely communication during the application process makes a positive impact on their mind.",
-            "DESC3_3": "80% say that a single negative experience can change their decision even at the last minute.",
-            "DESC3_4": "94% would like to receive interview feedback, but only 41% have received it in the past."
+            "ABOUT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more. Track electrolyte consumption with Apple Watch App.",
+            "HEAD1": "Magnesium",
+            "DESC1": "Regulates heart rhythm, nerve function, muscle contraction, blood pressure and sugar levels, participates in making protein, bone, and DNA. Magnesium deficiency leads to loss of appetite, nausea, vomiting, fatigue, and weakness; while high levels of it might cause Hypermagnesemia. ",
+            "HEAD2": "Calcium",
+            "DESC2": "Helps muscles to move and nerves to carry messages between the brain and every body part. Assists blood vessels to move blood throughout the body. Participates in the release of hormones and enzymes that affect almost every function in the human body. About 99% of the body’s calcium supply is stored in the bones and teeth. ",
+            "HEAD3": "Potassium",
+            "DESC3": "Used for almost everything in the body, including proper kidney and heart function, muscle contraction, and nerve transmission. Potassium deficiency can increase blood pressure and deplete calcium in bones. ",
+            "HEAD4": "Iron",
+            "DESC4": "A vital part of hemoglobin and myoglobin, proteins that carry oxygen to body tissues and muscles.  Red blood cells contain more than half of the human body iron. ",
+            "HEAD5": "Risks",
+            "DESC5": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. "
         },
         "P2": {
             "HEAD1": "Accountability",
