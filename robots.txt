@@ -3,10 +3,10 @@ User-agent: *
 Allow: /
 Allow: /product/electrolyte
 Allow: /product/logmass
-Allow: /img/
-Allow: /icon/
 Allow: /product/logwaist
 Allow: /product/logvitamin
+Allow: /img/
+Allow: /icon/
 Allow: /privacy-policy
 Disallow: /font/
 
