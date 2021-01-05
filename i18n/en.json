@@ -86,15 +86,18 @@
             "DESC3_4": "94% would like to receive interview feedback, but only 41% have received it in the past."
         },
         "P4": {
+            "ABOUT": "LogWaist Apple Watch app enables you to track waist circumference directly from your wrist, see your progress over time and is absolutely free.",
             "HEAD1": "Medical Fact",
             "DESC1": "If more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",
-            "HEAD2": "Get Recognized",
-            "DESC2": "Request reviews and get recognized for the job done well, promote yourself, build your brand.",
-            "HEAD3": "Candidate Stats",
-            "DESC3_1": "Apple Health Integration",
-            "DESC3_2": "60% have stated that timely communication during the application process makes a positive impact on their mind.",
-            "DESC3_3": "80% say that a single negative experience can change their decision even at the last minute.",
-            "DESC3_4": "94% would like to receive interview feedback, but only 41% have received it in the past."
+            "HEAD2": "Better than BMI",
+            "LINK2": "Study by American Heart Association",
+            "DESC2": " has shown that measuring waist line might be a better way to predict heart diseases risk than widely used body mass index.",
+            "HEAD3": "Body composition",
+            "DESC3": "When you're gaining muscle and losing inches of fat your weight might not change much. That's why body composition can tell you more than the scale, it tells you the true story.",
+            "HEAD4": "Elevated Cardiovascular Risk",
+            "DESC4_1": "Men: 40 inches or more (102cm)",
+            "DESC4_2": "Women: 35 inches or more (88cm)",
+            "DESC4_3": "Source: "
         }
     },
     "QUESTION": {
