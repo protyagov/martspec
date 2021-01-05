@@ -1,7 +1,7 @@
 import * as React from "react";
 import MainPage from "src/landing/main";
 import Error_404 from 'src/error/404';
-import P4Waist from "./landing/p4-waist";
+import P4LogWaist from "./landing/p4-waist";
 import P1Electrolyte from "./landing/p1-electrolyte";
 import P2LogMass from "./landing/p2-mass";
 import P3LogVitamin from "./landing/p3-vitamin";
@@ -17,6 +17,9 @@ export function App() {
     else
         redirect = redirect.replace(location.href, '/');
 
+    if (redirect.length > 1)
+        redirect = redirect.replace(/\/$/, "");
+
     history.replaceState(null, null, redirect);
 
 
@@ -28,7 +31,7 @@ export function App() {
         case "/product/logmass":
             return <P2LogMass />;
         case "/product/logwaist":
-            return <P4Waist />;
+            return <P4LogWaist />;
         case "/product/logvitamin":
             return <P3LogVitamin />;
         case "/privacy-policy":

@@ -34,7 +34,7 @@ export const Footer = () =>
 
     <footer className="rr-footer">
         {/* <p className="text-muted text-center">v{version} - &copy; 2020 - AgentSpec LLC. All rights reserved.</p> */}
-        <p className="text-center">Copyright &copy; 2020 Martspec LLC. All rights reserved. | 
+        <p className="text-center">Copyright &copy; 2021 Martspec LLC. All rights reserved. | 
         <a href="/privacy-policy"> Privacy Policy</a></p>
         {/* <LanguageSwitcher /> */}
 

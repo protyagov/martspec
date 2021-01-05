@@ -4,23 +4,27 @@ import { Footer } from "src/part/footer";
 import MetaTags from 'react-meta-tags';
 import NavigationBar from "src/part/navbar";
 import IronImage from "src/part/iron-image";
-const logo = require("src/img/mass2.svg").default;
+const logo = require("src/img/mass.svg").default;
 
 export default function P2LogMass() {
     return (
         <div>
             <MetaTags>
-                <meta property="og:title" content={_("MAIN.P1_HEAD")} />
-                <meta property="og:image" content={"https://martspec.com" + logo} />
+                <meta property="og:title" content={_("MAIN.P2.HEAD")} />
+                <meta property="og:image" content="https://martspec.com/img/p_mass.png" />
                 <meta property="og:description" content={_("MAIN.P2.TEXT")} />
-                <meta name="yandex-verification" content="7bed02dd516e3d48" />
+                <meta property="og:url" content="https://martspec.com/product/logmass" />
 
-                <title>{_("MAIN.P1_HEAD")}</title>
+                <meta name="twitter:title" content={_("MAIN.P2.HEAD")} />
+                <meta name="twitter:description" content={_("MAIN.P2.TEXT")} />
+
+                <title>{_("MAIN.P2.HEAD")}</title>
+                <link rel="canonical" href="https://martspec.com/product/logmass" />
                 <meta name="description" content={_("MAIN.P2.TEXT")} />
             </MetaTags>
 
             <div className="fixed-top bg-white" >
-                <NavigationBar title={_("PRODUCT.P2.NAV_TITLE")} />
+                <NavigationBar title={_("MAIN.P2.HEAD")} />
             </div>
 
             <section className="rr-s-about">

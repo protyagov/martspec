@@ -98,7 +98,7 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            <ContactUs setIsLoading={setIsLoading} />
+            {/* <ContactUs setIsLoading={setIsLoading} /> */}
             <Footer />
         </div>
     );

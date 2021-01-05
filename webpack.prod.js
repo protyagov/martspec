@@ -10,7 +10,7 @@ module.exports = merge(common, {
 
     // plugins: [
     //     new FaviconsWebpackPlugin({
-    //         logo: 'src/img/logo.png',
+    //         logo: 'src/img/logo.org.png',
     //         prefix: "icon/",
     //         inject: true,
     //         mode: 'webapp',
