@@ -1,17 +1,25 @@
 import * as Polyglot from "node-polyglot";
 import eb from "src/event-bus";
 
-
 class Locale {
-
-    // _polyglot = new Polyglot({ allowMissing: true, locale: navigator.language.slice(0, 2) });
     _polyglot = new Polyglot({ allowMissing: true });
     _translations: { [id: string]: number } = {};
+    SUPPORTED_LANG = ['en', 'ru', 'de']
 
     //-------------------------------------------------------------------------------------------------------
     constructor() {
-        const code = localStorage.getItem('locale') || 'en';
+        let code = localStorage.getItem('locale');
+
+        if (code == null) {
+            if (window.location.host == 'martspec.ru')
+                code = 'ru';
+            else
+                code = navigator.language.split(/-|_/)[0];
+            if (!this.SUPPORTED_LANG.includes(code))
+                code = "en";
+        }
         this.language = code;
+        console.log("Selected Language: " + code);
     }
 
     //-------------------------------------------------------------------------------------------------------
@@ -36,7 +44,7 @@ class Locale {
         this._polyglot.locale(code)
         localStorage.setItem('locale', code);
         // callback();
-        eb.send("LANG");
+        eb.send("LANG_CHANGED");
     }
 
     //-------------------------------------------------------------------------------------------------------
@@ -47,7 +55,10 @@ class Locale {
             .then((translation) => this.setTranslation(code, translation))
             .catch((err) => {
                 console.error(err);
-                // console.error(`Could not load ${this.language}.json.`);
+                if (code != 'en')
+                    this.language = 'en';
+                else
+                    this.setTranslation(code, {});
             });
     }
 }

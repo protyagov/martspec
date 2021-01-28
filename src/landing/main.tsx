@@ -2,24 +2,15 @@ import * as React from "react";
 import _ from "src/i18n/locale"
 import { Footer } from "../part/footer";
 import ContactUs from "src/part/contact-us";
-import Spinner from "../part/spinner";
-import NavigationBar from "src/part/navbar";
 import IronImage from "src/part/iron-image";
+import NavBarLang from "src/part/navbar-signin";
 const logo = require("src/img/logo_256.png").default;
 
 
 export default function LandingPage() {
-    const [isLoading, setIsLoading] = React.useState(false);
-
     return (
         <div>
-            <NavigationBar
-                leftButtonText=" "
-                leftButtonIcon=" "
-                rightButtonIcon="fo icon-language"
-                title="" />
-            {/* <NavBarSignIn leftIsHomeLogo={true} title="" /> */}
-            <Spinner show={isLoading} marginTop='50%' />
+            <NavBarLang/>
 
             <section id="header" className="ms-s-header">
                 <div className="text-vertical-center">
@@ -28,7 +19,6 @@ export default function LandingPage() {
                     <h4>{_("MAIN.SUBHEAD")}</h4>
                 </div>
             </section>
-
 
             <section className="rr-s-product pw-color-bg-secondary">
                 <div className="ms-product-row">

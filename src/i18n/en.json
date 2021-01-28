@@ -46,7 +46,7 @@
     },
     "NAV": {
         "HOME": "home",
-        "BACK": "back"
+        "BACK": "Back"
     },
     "PRODUCT": {
         "P1": {
@@ -111,25 +111,6 @@
             "DESC4_1": "Men: 40 inches or more (102cm)",
             "DESC4_2": "Women: 35 inches or more (88cm)",
             "DESC4_3": "Source: "
-        }
-    },
-    "QUESTION": {
-        "PROFILE_DELETE_MENU": "Delete",
-        "PROFILE_DELETE_TOOLTIP": "Delete profile",
-        "PROFILE_DELETED": "Profile has been successfully deleted",
-        "PROFILE_DELETE_YES": "Yes, Delete",
-        "PROFILE_DELETE_CANCEL": "Close and decide later",
-        "PROFILE_DELETE_TEXT": "You are about to delete this profile. This operation is irreversible. Would you like to continue?",
-        "PROFILE_DELETE_TITLE": "DELETE PROFILE",
-        "PROFILE_SHARE_TITLE": "Share Profile",
-        "PROFILE_SHARE_TEXT": "Found great recruiter, -  %{name}.",
-        "PROFILE_SHARE_BTN": "COPY"
-    },
-    "EMAIL": {
-        "UNSUBSCRIBE": {
-            "HEAD": "Unsubscribe Successful",
-            "TEXT": "You will not receive this kind of emails any more.",
-            "BTN": "Home"
         }
     }
 }

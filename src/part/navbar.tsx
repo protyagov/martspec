@@ -1,7 +1,10 @@
 import * as React from "react";
+import _ from "src/i18n/locale"
+const logo = require("src/img/logo.png").default;
 
 interface NavBarProps {
     title: string;
+    leftButtonHide?: boolean;
     leftButtonIcon?: string;
     leftButtonText?: string;
     letfButtonRedirectPage?: string;
@@ -24,6 +27,15 @@ export default function NavigationBar(props: NavBarProps) {
             history.back();
     }
 
+    function leftButton() {
+        return <div className="lButton">
+            <a className="btn btn-link" href='/'>
+                <img src={logo} className="img-fluid" alt={_("NAV.HOME")} />
+            </a>
+        </div>
+
+    }
+
     function rightButtonClick() {
         if (props.rightButtonCommand)
             props.rightButtonCommand();
@@ -34,10 +46,7 @@ export default function NavigationBar(props: NavBarProps) {
 
     return (
         <nav className="rr-navbar">
-            <div className="lButton" onClick={leftButtonClick}>
-                <i className={props.leftButtonIcon || "fo icon-left-open-big"} />
-                <span className="lText" >{props.leftButtonText || "Back"}</span>
-            </div>
+            {!props.leftButtonHide && leftButton()}
 
             <h2 className="title">{props.title}</h2>
 

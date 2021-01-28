@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Footer } from "src/part/footer";
-import NavBarSignIn from "src/part/navbar-signin";
+import NavBarLang from "src/part/navbar-signin";
 const logo = require("src/img/privacy.svg").default;
 
 export default function PrivacyPolicy() {
     return (<>
-        <NavBarSignIn leftIsHomeLogo={true} title="" />
+        <NavBarLang />
 
         <div className="container rr-private-policy pb-5">
             <h3 className="text-center">Privacy Policy</h3>

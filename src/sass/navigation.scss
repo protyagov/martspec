@@ -41,7 +41,7 @@
     @extend .btn;
     @extend .btn-link;
     margin-left: -1rem;
-    margin-bottom: -0.7rem;
+    margin-bottom: -2.7rem;
   }
 
   .rButton {
@@ -152,6 +152,7 @@
   // padding-top: 9rem;
   padding-top: 2rem;
 }
+
 
 
 //-------------------------------------------------------------------------------------------------
@@ -282,4 +283,10 @@
       }
     }
   }
+}
+
+//-------------------------------------------------------------------------------------------------
+.ms-navbar-nav {
+  @extend .navbar-nav;
+  font-size: 1.6rem;
 }

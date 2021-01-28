@@ -1,83 +1,29 @@
 import * as React from "react";
-import _ from "src/i18n/locale";
+import _, {locale} from "src/i18n/locale";
 const logo = require("src/img/logo.png").default;
 
-interface NavBarSignInProps {
-    title: string;
-    leftIsHomeLogo?: boolean;
-    leftButtonIcon?: string;
-    leftButtonText?: string;
-    letfButtonRedirectPage?: string;
-    leftButtonCommand?: () => void;
-}
+export default function NavBarLang() {
+    return <div className="pos-f-t">
 
-export default function NavBarSignIn(props: NavBarSignInProps) {
-    // let history = useHistory();
+        <nav className="navbar">
+            <a className="navbar-brand" href="#" />
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 
-    function leftButtonClick() {
-        if (props.leftButtonCommand)
-            props.leftButtonCommand();
-        else if (props.letfButtonRedirectPage)
-            history.pushState(null, null, props.letfButtonRedirectPage);
-        else if (history.length == 0)
-            history.pushState(null, null, "/")
-        else
-            history.back();
-    }
-
-    function signInButton() {
-        // if (!AuthAPI.isLoggedIn)
-        //     return <div className="rButton" style={{ marginRight: "-1rem" }}>
-        //         <button className="btn" onClick={() =>
-        //             history.push({ pathname: '/auth/login', state: { pathname: history.location.pathname } })}>
-        //             <span className="rText">{_("AUTH.LOGIN.SIGN_IN")}</span>
-        //             <i className="fo icon-user-o fo-2x" />
-        //         </button>
-        //     </div >
-
-        // const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-        // const url = AuthAPI.user?.imageUrl;
-
-        // if (url) {
-        //     let cssProperties: any = {}
-        //     cssProperties['--avatar-top'] = url ? '-0.4rem' : "0.05rem";
-        //     return <div className="rButton" style={{ marginRight: url ? "-1rem" : "0.4rem" }}>
-        //         <button className="btn d-flex" onClick={() => history.push('/option')}
-        //             style={cssProperties}>
-        //             {vw > 380 && <span className="rText">{AuthAPI.user?.name}</span>}
-        //             <Avatar src={url} size={url ? "3rem" : "2rem"} />
-        //         </button>
-        //     </div>
-        // }
-
-
-        // return <div className="rButton" style={{ marginRight: "-1rem" }}>
-        //     <button className="btn btn-link" onClick={() => history.push('/option')}>
-        //         {vw > 380 && <span className="rText">{AuthAPI.user?.name}</span>}
-        //         <i className="fo icon-user fo-2x" />
-        //     </button>
-        // </div>
-    }
-
-    function leftButton() {
-        if (props.leftIsHomeLogo === true)
-            return <div className="lButton">
-                <a className="btn btn-link" href='/'>
-                    <img src={logo} alt="Recruiter Review Home" />
-                </a>
+                <i className="fo icon-language" />
+                {/* <span className="navbar-toggler-icon"></span> */}
+            </button>
+        </nav>
+        <div className="collapse" id="navbarToggleExternalContent">
+            <div className="p-4 text-right">
+                <ul className="ms-navbar-nav">
+                    <li className="nav-item" hidden={locale.language == 'en'}>
+                        <a className="nav-link" href="/en">English</a>
+                    </li>
+                    <li className="nav-item" hidden={locale.language == 'ru'}>
+                        <a className="nav-link" href="/ru">Russian</a>
+                    </li>
+                </ul>
             </div>
-
-        return <div className="lButton" onClick={leftButtonClick}>
-            <i className={props.leftButtonIcon || "fo icon-left-open-big"} />
-            <span className="lText" >{props.leftButtonText || "Back"}</span>
         </div>
-    }
-
-    return <nav className="rr-navbar-signin">
-        {leftButton()}
-
-        <h2 className="title">{props.title}</h2>
-
-        {signInButton()}
-    </nav>
+    </div>
 }

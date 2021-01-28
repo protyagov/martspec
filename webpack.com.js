@@ -39,7 +39,7 @@ module.exports = {
             title: 'Recruiter Reviews',
             // chunksSortMode: 'auto',
             filename: 'index.html',
-            inject: "head",
+            inject: "body",
         }),
         new CopyPlugin({
             patterns: [
@@ -72,10 +72,6 @@ module.exports = {
             maxInitialRequests: 80,
             enforceSizeThreshold: 50000,
             cacheGroups: {
-                app_lazy: {
-                    test: /(private-policy.tsx)|([\\/]src[\\/]email)|(react-dom-server*)/,
-                    name: "app.lazy"
-                },
                 vendor: {
                     chunks: 'initial',
                     test: /[\\/]node_modules[\\/](react|react-dom|react-meta-tags|bootstrap|toastr|superagent|date-fns|node-polyglot|popper.js|history*|for-each|es-abstract|component-emmiter|object-keys)[\\/]/,

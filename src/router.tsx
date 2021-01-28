@@ -36,7 +36,6 @@ export function App() {
             return <P3LogVitamin />;
         case "/privacy-policy":
             return <PrivacyPolicy />;
-        // return <React.Component context={React.lazy(() => import(/* webpackChunkName: "app_lazy" */'src/landing/private-policy'))} />
         default:
             return <Error_404 />;
     }
