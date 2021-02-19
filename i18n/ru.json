@@ -1,55 +1,51 @@
 {
-    "MAIN_PAGE_HEADER": "Ваш рекрутер",
-    "ERROR_DUPLICATE_RECRUITER_EMAIL": "ERROR_DUPLICATE_RECRUITER_EMAIL",
-    "ERROR_INVALID_AGENCY_ID": "Agiency doe not exist",
-    "HTTP_500_ERROR_MESSAGE": "Something went wrong on our end. Head back to main page.",
-    "ERROR_REQUIRED_EMAIL": "ERROR_REQUIRED_EMAIL",
-    "THANK_YOU_FOR_REVIEW": "Thank you for submitting review !",
-    "R_CREATE": {
-        "EXPERIENCE_LABEL": "Select your experience level?",
-        "EXPERIENCE_ENTRY": "Entry level",
-        "EXPERIENCE_MIDDLE": "Middle level",
-        "EXPERIENCE_SENIOR": "Senior level",
-        "CONTACT_LABEL": "Initial Contact is initiated by",
-        "CONTACT_SELF": "Myself",
-        "CONTACT_RECR": "Recruiter",
-        "CONTACT_REFERRAL": "Referral",
-        "ANON_LABEL": "Should your review be anonymous?",
-        "ANON_YES": "Yes, make it Anonymous",
-        "ANON_NO": "No, use my profile Name",
-        "DESCRIBE_YOURSELF": "Describe youself?",
-        "JOB_SEEKER": "Job Seeker",
-        "HIRING_MAN": "Hiring Manager",
-        "AGENCY_PLACEHOLDER": "Ex: LikedIn, Inc.",
-        "R_PLACEHOLDER": "Ex: John Doe",
-        "R_LABEL": "Recruiter Name",
-        "EMAIL_LABEL": "Recruiter Email",
-        "EMAIL_PLACEHOLDER": "Ex: john.doe@gemail.com",
-        "AGENCY_LABEL": "Agency Name",
-        "HEADLINE_LABEL": "Add a headline",
-        "HEADLINE_PLACEHOLDER": "What is the most important to know ?",
-        "REVIEW_LABEL": "Write your review",
-        "REVIEW_PLACEHOLDER": "What did you like or dislike? Pros and Cons working with this recruiter?",
-        "RATING_LABEL": "Overall Rating",
-        "FRIEND_LABEL": "Would you recommend the recruiter friend",
-        "FRIEND_YES": "Yes",
-        "FRIEND_NO": "No",
-        "INTERVIEW_LABEL": "Time to first interview",
-        "JOB_LABEL": "Time to job",
-        "JOB_NO": "No Hire",
-        "KNOW_PROFILE": "My Profile Knowledge",
-        "KNOW_SPECIALITY": "Knowledge of my speciality",
-        "KNOW_COMPANY": "Knowledge of my company",
-        "CANDIATE_QUALITY": "Good Candidate Quality",
-        "NAV_NEXT": "Дальше",
-        "NAV_SUBMIT": "Submit",
-        "NAV_TITLE": "Add Recruiter",
-        "NAV_EVOKE": "Evoke",
-        "NAV_RATE": "Rate",
-        "NAV_DOC_TITLE": "Create Review | RR"
+    "APPSTORE": "ru",
+    "BTN": {
+        "SRC1": "Read source article.",
+        "FACT": "See Facts",
+        "SRC2": "Get facts from the source article.",
+        "WIKI": "Read full article on WiKi.",
+        "MORE": "Learn more"
     },
-    "INVALID_RESET_PASSWORD_TOKEN": {
-        "msg": "Please try to request password recovery link again",
-        "head": "Expired Recovery Link"
+    "MAIN": {
+        "HEAD": "Здоровье и Фитнес",
+        "SUBHEAD": "Легкость учета показателей здоровья",
+        "IMG": "Apple Watch wellness and health apps",
+        "P1": {
+            "HEAD": "重量,质量",
+            "SUBHEAD": "most vital minerals",
+            "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
+            "BTN": "Get the facts",
+            "IMG": "Record electrolytes and minerals with you Apple Watch",
+            "DWN": "Download Free Electrolyte tracker app from the Apple AppStore"
+        },
+        "P2": {
+            "HEAD": "Log Mass",
+            "SUBHEAD": "the ultimate weight tracker",
+            "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
+            "BTN": "Take a look",
+            "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
+            "DWN": "Download Free Log Mass app from the Apple AppStore"
+        },
+        "P3": {
+            "HEAD": "Log Vitamin",
+            "SUBHEAD": "share your experience",
+            "TEXT": "Tracking your essential vitamins has so many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
+            "BTN": "Read more",
+            "IMG": "Track the most esential vitamins directly on your wrist",
+            "DWN": "Download Free Log Vitamin app from the Apple AppStore"
+        },
+        "P4": {
+            "HEAD": "Log Waist",
+            "SUBHEAD": "waistline circumference",
+            "TEXT": "Waist circumference is a measurement taken around the abdomen at the level of the umbilicus (belly button).",
+            "BTN": "Learn More",
+            "IMG": "Keep track of your waist size directly from you arm",
+            "DWN": "Download Free Log Waist app from the Apple AppStore"
+        }
+    },
+    "NAV": {
+        "HOME": "home",
+        "BACK": "Back"
     }
 }
