@@ -1,5 +1,5 @@
 https://martspec.com
-https://martspec.com/product/electrolyte
-https://martspec.com/product/logmass
-https://martspec.com/product/logvitamin
-https://martspec.com/product/logwaist
+https://martspec.com/electrolyte
+https://martspec.com/logmass
+https://martspec.com/logvitamin
+https://martspec.com/logwaist
