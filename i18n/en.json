@@ -80,7 +80,7 @@
             "HEAD1": "Improving diet decisions",
             "DESC1": "The application is an excellent vitamin tracker that might improve your diet and customize nutrient targets at the same time.",
             "HEAD2": "Adopt Healthier Lifestyle",
-            "DESC2": "Wearable activity trackers offer considerable promise for helping users to adopt healthier lifestyles. ",            
+            "DESC2": "Wearable activity trackers offer considerable promise for helping users to adopt healthier lifestyles. ",
             "HEAD3": "Vitamin A",
             "DESC3": "Important for normal vision, the immune system, and reproduction. Helps the heart, lungs, kidneys, and other organs work properly. ",
             "HEAD4": "Vitamin C - Ascorbic Acid",
@@ -99,9 +99,10 @@
             "DESC0": "Needed to turn food into energy. It helps keep your nervous system, digestive system and skin healthy. "
         },
         "P4": {
-            "ABOUT": "LogWaist Apple Watch app enables you to track waist circumference directly from your wrist, see your progress over time and is absolutely free.",
+            "ABOUT": "LogWaist app enables you to track waist circumference directly from your wrist, see your progress over time and is absolutely free.",
             "HEAD1": "Medical Fact",
             "DESC1": "If more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",
+            "LINK1": "National Institutes of Health, USA",
             "HEAD2": "Better than BMI",
             "LINK2": "Study by American Heart Association",
             "DESC2": " has shown that measuring waist line might be a better way to predict heart diseases risk than widely used body mass index.",
@@ -110,7 +111,8 @@
             "HEAD4": "Elevated Cardiovascular Risk",
             "DESC4_1": "Men: 40 inches or more (102cm)",
             "DESC4_2": "Women: 35 inches or more (88cm)",
-            "DESC4_3": "Source: "
+            "DESC4_3": "Every 2 inch(5cm) of waist size raise risk by 17% in men and 13% in women, regardless of BMI",
+            "DESC4_4": "Source: "
         }
     }
 }
