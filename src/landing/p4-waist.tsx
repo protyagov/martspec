@@ -1,31 +1,14 @@
 import * as React from "react";
 import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
-import MetaTags from 'react-meta-tags';
 import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
 const logo = require("src/img/waist.svg").default;
 
 export default function P4LogWaist() {
     return (
-        <div>
-            <MetaTags>
-                <meta property="og:title" content={_("MAIN.P4.HEAD")} />
-                <meta property="og:image" content="https://martspec.com/img/p_waist.png" />
-                <meta property="og:description" content={_("MAIN.P4.TEXT")} />
-                <meta property="og:url" content="https://martspec.com/product/logwaist" />
-
-                <meta name="twitter:title" content={_("MAIN.P4.HEAD")} />
-                <meta name="twitter:description" content={_("MAIN.P4.TEXT")} />
-
-                <title>{_("MAIN.P4.HEAD")}</title>
-                <link rel="canonical" href="https://martspec.com/product/logwaist" />
-                <meta name="description" content={_("MAIN.P4.TEXT")} />
-            </MetaTags>
-
-            <div className="fixed-top bg-white" >
-                <NavigationBar title={_("MAIN.P4.HEAD")} />
-            </div>
+        <>
+            <NavigationBar title={_("MAIN.P4.HEAD")} />
 
             <section className="rr-s-about">
                 <div className="row" >
@@ -46,7 +29,7 @@ export default function P4LogWaist() {
                         <h1>{_("PRODUCT.P4.HEAD1")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P4.DESC1")}
                             <a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm" target="_blank">
-                                <br /><small><i>National Institutes of Health Reference</i></small>
+                                <br /><small><i>{_("PRODUCT.P4.LINK1")}</i></small>
                             </a>
                         </h3>
 
@@ -56,10 +39,16 @@ export default function P4LogWaist() {
                             <ul>
                                 <li>{_("PRODUCT.P4.DESC4_1")}</li>
                                 <li>{_("PRODUCT.P4.DESC4_2")}</li>
-                                <li><i><small>{_("PRODUCT.P4.DESC4_3")}
+                                <li>{_("PRODUCT.P4.DESC4_3")}</li>
+                                <li><i><small>{_("PRODUCT.P4.DESC4_4")}
                                     <a href="https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.107.739714" target="_blank">
                                         Circulation, Vol. 117, No. 13
-                                    </a></small></i>
+                                    </a>
+                                    , &nbsp;
+                                    <a href="https://www.cnn.com/2008/HEALTH/conditions/11/12/healthmag.waist.death.risk/" target="_blank">
+                                        CNN
+                                    </a>
+                                </small></i>
                                 </li>
                             </ul>
                         </h3>
@@ -89,6 +78,6 @@ export default function P4LogWaist() {
             </div>
 
             <Footer />
-        </div>
+        </>
     )
 }

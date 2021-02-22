@@ -1,7 +1,6 @@
 import * as React from "react";
 import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
-import MetaTags from 'react-meta-tags';
 import NavigationBar from "src/part/navbar";
 import IronImage from "src/part/iron-image";
 const logo = require("src/img/vitamin.svg").default;
@@ -9,20 +8,6 @@ const logo = require("src/img/vitamin.svg").default;
 export default function P3LogVitamin() {
     return (
         <div>
-            <MetaTags>
-                <meta property="og:title" content={_("MAIN.P3.HEAD")} />
-                <meta property="og:image" content="https://martspec.com/img/p_vitamin.png" />
-                <meta property="og:description" content={_("MAIN.P3.TEXT")} />
-                <meta property="og:url" content="https://martspec.com/product/logvitamin" />
-
-                <meta name="twitter:title" content={_("MAIN.P3.HEAD")} />
-                <meta name="twitter:description" content={_("MAIN.P3.TEXT")} />
-
-                <title>{_("MAIN.P3.HEAD")}</title>
-                <link rel="canonical" href="https://martspec.com/product/logvitamin" />
-                <meta name="description" content={_("MAIN.P3.TEXT")} />
-            </MetaTags>
-
             <div className="fixed-top bg-white" >
                 <NavigationBar title={_("MAIN.P3.HEAD")} />
             </div>

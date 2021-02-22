@@ -13,14 +13,9 @@
   }
 
   .title {
-    // max-width: 128px;
-    white-space: nowrap !important;
-    text-overflow: ellipsis !important;
-    max-width: 55%;
-    overflow: hidden;
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%, 0);
+    // position: static;
+    left: 40%;
+    transform: translate(-40%, 0);
   }
 
   .rText {
@@ -42,6 +37,7 @@
     @extend .btn-link;
     margin-left: -1rem;
     margin-bottom: -2.7rem;
+    margin-top: -2rem;
   }
 
   .rButton {

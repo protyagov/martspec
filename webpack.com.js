@@ -34,13 +34,27 @@ module.exports = {
             'window.jQuery': 'jquery',
             Popper: ['popper.js', 'default'],
         }),
-        new HtmlWebpackPlugin({
-            template: './src/index.template.en.ejs',
-            title: 'Recruiter Reviews',
-            // chunksSortMode: 'auto',
-            filename: 'index.html',
-            inject: "body",
-        }),
+
+        // --------------- Static Content EN --------------- 
+        new HtmlWebpackPlugin({ template: './src/template/en/main.ejs', filename: 'index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/main.ejs', filename: 'en/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/logmass.ejs', filename: 'logmass/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/logmass.ejs', filename: 'en/logmass/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/electrolyte.ejs', filename: 'electrolyte/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/electrolyte.ejs', filename: 'en/electrolyte/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/logvitamin.ejs', filename: 'logvitamin/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/logvitamin.ejs', filename: 'en/logvitamin/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/logwaist.ejs', filename: 'logwaist/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/logwaist.ejs', filename: 'en/logwaist/index.html', inject: 'body' }),
+
+        // --------------- Static Content RU --------------- 
+        new HtmlWebpackPlugin({ template: './src/template/ru/main.ejs', filename: 'ru/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/ru/logmass.ejs', filename: 'ru/logmass/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/ru/electrolyte.ejs', filename: 'ru/electrolyte/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/ru/logvitamin.ejs', filename: 'ru/logvitamin/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/ru/logwaist.ejs', filename: 'ru/logwaist/index.html', inject: 'body' }),
+        // --------------- Static Content DE --------------- 
+
         new CopyPlugin({
             patterns: [
                 { from: 'src/i18n/*.json', flatten: true, to: 'i18n' },
@@ -49,7 +63,8 @@ module.exports = {
                 { from: 'src/404.html' },
                 { from: 'src/img/*.png', to: "img", flatten: true },
                 { from: 'src/img/icon', to: "icon", flatten: true },
-                { from: 'src/product', to: "product", flatten: false },
+                // { from: 'src/product', to: "product", flatten: false },
+                // { from: 'src/product', to: "product", flatten: false },
             ],
             options: {
                 concurrency: 100,

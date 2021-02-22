@@ -1,7 +1,6 @@
 import * as React from "react";
 import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
-import MetaTags from 'react-meta-tags';
 import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
 const logo = require("src/img/electrolyte.svg").default;
@@ -9,20 +8,6 @@ const logo = require("src/img/electrolyte.svg").default;
 export default function P1Electrolyte() {
     return (
         <div>
-            <MetaTags>
-                <meta property="og:title" content={_("MAIN.P1.HEAD")} />
-                <meta property="og:image" content="https://martspec.com/img/p_electrolyte.png" />
-                <meta property="og:description" content={_("MAIN.P1.TEXT")} />
-                <meta property="og:url" content="https://martspec.com/product/electrolyte" />
-
-                <meta name="twitter:title" content={_("MAIN.P1.HEAD")} />
-                <meta name="twitter:description" content={_("MAIN.P1.TEXT")} />
-
-                <title>{_("MAIN.P1.HEAD")}</title>
-                <link rel="canonical" href="https://martspec.com/product/logwaist" />
-                <meta name="description" content={_("MAIN.P1.TEXT")} />
-            </MetaTags>
-
             <div className="fixed-top bg-white" >
                 <NavigationBar title={_("MAIN.P1.HEAD")} />
             </div>

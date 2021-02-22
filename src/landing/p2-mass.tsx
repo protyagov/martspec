@@ -9,20 +9,6 @@ const logo = require("src/img/mass.svg").default;
 export default function P2LogMass() {
     return (
         <div>
-            <MetaTags>
-                <meta property="og:title" content={_("MAIN.P2.HEAD")} />
-                <meta property="og:image" content="https://martspec.com/img/p_mass.png" />
-                <meta property="og:description" content={_("MAIN.P2.TEXT")} />
-                <meta property="og:url" content="https://martspec.com/product/logmass" />
-
-                <meta name="twitter:title" content={_("MAIN.P2.HEAD")} />
-                <meta name="twitter:description" content={_("MAIN.P2.TEXT")} />
-
-                <title>{_("MAIN.P2.HEAD")}</title>
-                <link rel="canonical" href="https://martspec.com/product/logmass" />
-                <meta name="description" content={_("MAIN.P2.TEXT")} />
-            </MetaTags>
-
             <div className="fixed-top bg-white" >
                 <NavigationBar title={_("MAIN.P2.HEAD")} />
             </div>

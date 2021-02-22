@@ -1,115 +1,36 @@
-@font-face {
-    font-family: fa;
-    src: url(../font/fontawesome-webfont.woff2) format('woff2');
-    font-style: normal
-}
-
-
 @import './font-vector.scss';
 
 @font-face {
-    font-family: Comf;
-    src: url(../font/Comfortaa-Regular.woff2) format("woff2");
-    font-weight: 500;
-    font-style: normal
-}
-
-@font-face {
-    font-family: ms;
-    src: url(../font/museo-sans-500.woff2) format('woff2');
-    font-weight: 500;
-    font-style: normal
-}
-@font-face {
     font-family: os3;
-    src: local('Open Sans Light'), local('OpenSans-Light'), url('../font/snake3.woff2') format('woff2');
+    src: url(../font/rubik-v12-300.woff2) format("woff2");
     font-weight: 300;
-    font-style: normal;
+    font-style: normal
 }
-// @font-face {
-//     font-family: os3;
-//     src: local('Open Sans Light'), local('OpenSans-Light'), url('../font/OpenSans-Light.woff2') format('woff2');
-//     font-weight: 300;
-//     font-style: normal;
-// }
-
-@font-face {
-    font-family: os3i;
-    src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'), url('../font/OpenSans-LightItalic.woff2') format('woff2');
-    font-weight: 300;
-    font-style: italic;
-}
-
-// @font-face {
-//     font-family: os4;
-//     src: local('Open Sans Regular'), local('OpenSans-Regular'), url('../font/OpenSans-Regular.woff2') format('woff2');
-//     font-weight: 400;
-//     font-style: normal;
-// }
 
 @font-face {
     font-family: os4;
-    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('../font/snake4.woff2') format('woff2');
+    src: url(../font/rubik-v12-400.woff2) format("woff2");
     font-weight: 400;
-    font-style: normal;
+    font-style: normal
 }
 
 @font-face {
-    font-family: os4i;
-    src: local('Open Sans Italic'), local('OpenSans-Italic'), url('../font/OpenSans-Italic.woff2') format('woff2');
-    font-weight: 400;
-    font-style: italic;
+    font-family: os5;
+    src: url(../font/rubik-v12-500.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal
 }
 
 @font-face {
     font-family: os6;
-    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url('../font/snake6.woff2') format('woff2');
+    src: url(../font/rubik-v12-600.woff2) format("woff2");
     font-weight: 600;
-    font-style: normal;
-}
-// @font-face {
-//     font-family: os6;
-//     src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url('../font/OpenSans-SemiBold.woff2') format('woff2');
-//     font-weight: 600;
-//     font-style: normal;
-// }
-
-@font-face {
-    font-family: os6i;
-    src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url('../font/OpenSans-SemiBoldItalic.woff2') format('woff2');
-    font-weight: 600;
-    font-style: italic;
+    font-style: normal
 }
 
 @font-face {
     font-family: os7;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../font/OpenSans-Bold.woff2') format('woff2');
+    src: url(../font/rubik-v12-700.woff2) format("woff2");
     font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: os7i;
-    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('../font/OpenSans-BoldItalic.woff2') format('woff2');
-    font-weight: 700;
-    font-style: italic;
-}
-@font-face {
-    font-family: os8;
-    src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url('../font/snake8.woff2') format('woff2');
-    font-weight: 800;
-    font-style: normal;
-}
-// @font-face {
-//     font-family: os8;
-//     src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url('../font/OpenSans-ExtraBold.woff2') format('woff2');
-//     font-weight: 800;
-//     font-style: normal;
-// }
-
-@font-face {
-    font-family: os8i;
-    src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url('../font/OpenSans-ExtraBoldItalic.woff2') format('woff2');
-    font-weight: 800;
-    font-style: italic;
+    font-style: normal
 }

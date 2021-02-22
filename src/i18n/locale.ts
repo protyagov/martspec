@@ -29,12 +29,22 @@ class Locale {
 
     //-------------------------------------------------------------------------------------------------------
     set language(code: string) {
-        // if (this.language === code)
-        //     return;
+        if (this.language === code)
+            return;
+        if (code === "")
+            code = this.language;
         if (code in this._translations)
             this.setTranslation(code, this._translations[code])
         else
             this.fetchTranslation(code);
+    }
+
+    //-------------------------------------------------------------------------------------------------------
+    i18nLink(path: string) {
+        if (!this.language || this.language == "en")
+            return path
+
+        return '/' + this.language + (path.startsWith('/') ? "" : "/") + path
     }
 
     //-------------------------------------------------------------------------------------------------------

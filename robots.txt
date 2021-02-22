@@ -1,10 +1,10 @@
 # Group 1 -- All Crawlers
 User-agent: *
 Allow: /
-Allow: /product/electrolyte
-Allow: /product/logmass
-Allow: /product/logwaist
-Allow: /product/logvitamin
+Allow: /electrolyte
+Allow: /logmass
+Allow: /logwaist
+Allow: /logvitamin
 Allow: /img/
 Allow: /icon/
 Allow: /privacy-policy

@@ -6,6 +6,7 @@ import P1Electrolyte from "./landing/p1-electrolyte";
 import P2LogMass from "./landing/p2-mass";
 import P3LogVitamin from "./landing/p3-vitamin";
 import PrivacyPolicy from "./landing/private-policy";
+import { locale } from "src/i18n/locale";
 
 
 
@@ -20,23 +21,31 @@ export function App() {
     if (redirect.length > 1)
         redirect = redirect.replace(/\/$/, "");
 
-    history.replaceState(null, null, redirect);
-
-
-    switch (redirect) {
+    switch (setLanguage(redirect)) {
         case "/":
             return <MainPage />;
-        case "/product/electrolyte":
+        case "/electrolyte":
             return <P1Electrolyte />;
-        case "/product/logmass":
+        case "/logmass":
             return <P2LogMass />;
-        case "/product/logwaist":
+        case "/logwaist":
             return <P4LogWaist />;
-        case "/product/logvitamin":
+        case "/logvitamin":
             return <P3LogVitamin />;
         case "/privacy-policy":
             return <PrivacyPolicy />;
         default:
             return <Error_404 />;
     }
+}
+
+function setLanguage(url: string) {
+    var res = url.split("/");
+    if (res[1].length === 2) {
+        locale.language = res[1];
+        url = url.replace("/" + res[1], "");
+        console.log("LANG: " + res[1]);
+    }
+    console.log("URL: " + url);
+    return url || "/";
 }
