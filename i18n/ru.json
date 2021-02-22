@@ -1,7 +1,7 @@
 {
     "APPSTORE": "us",
     "BTN": {
-        "SRC1": "Read source article.",
+        "SRC1": "Перейти к источнику.",
         "FACT": "See Facts",
         "SRC2": "Get facts from the source article.",
         "WIKI": "Read full article on WiKi.",
@@ -13,53 +13,53 @@
         "IMG": "Apple Watch wellness and health apps",
         "P1": {
             "HEAD": "Electrolyte",
-            "SUBHEAD": "most vital minerals",
+            "SUBHEAD": "минеральные элементы",
             "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
-            "BTN": "Get the facts",
+            "BTN": "Перейти к фактам",
             "IMG": "Record electrolytes and minerals with you Apple Watch",
-            "DWN": "Download Free Electrolyte tracker app from the Apple AppStore"
+            "DWN": "Скачать бесплатное приложение Electrolyte из магазина Apple Store"
         },
         "P2": {
             "HEAD": "Log Mass",
-            "SUBHEAD": "the ultimate weight tracker",
-            "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
-            "BTN": "Take a look",
+            "SUBHEAD": "самый легкий дневник веса",
+            "TEXT": "Отслеживание массы тела повышает эффективность тренеровок и является хорошим мотиватором в достижения поставленной цели.",
+            "BTN": "Перейти",
             "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
-            "DWN": "Download Free Log Mass app from the Apple AppStore"
+            "DWN": "Скачать бесплатное приложение Log Mass из магазина Apple Store"
         },
         "P3": {
             "HEAD": "Log Vitamin",
-            "SUBHEAD": "прием витаминов",
-            "TEXT": "Учет приема наиболее существенны витаминов имеет множество плюсов, - увеличение энергии, избежание скачков настроения, определения ритма дня и тд",
-            "BTN": "Читать все",
-            "IMG": "Track the most esential vitamins directly on your wrist",
-            "DWN": "Download Free Log Vitamin app from the Apple AppStore"
+            "SUBHEAD": "Формула красоты и здоровья",
+            "TEXT": "Запись дозы и времени приема витаминов. Недельная история на умных часах Apple Watch и полная синхронизация с приложением Apple Здоровье. Все очень просто и понятно, бесплатно и без реклам!",
+            "BTN": "Посмотреть",
+            "IMG": "Учет приема наиболее существенны витаминов непосредственно с ваших умных часов Apple Watch",
+            "DWN": "Скачать бесплатное приложение Log Vitamin из магазина Apple Store"
         },
         "P4": {
             "HEAD": "Log Waist",
-            "SUBHEAD": "обхват талии",
-            "TEXT": "Самый легкий способ учета окружности талии с умных часов Apple Watch.",
+            "SUBHEAD": "Узкая талия – здоровое сердце",
+            "TEXT": "Самый легкий способ учета окружности талии с умных часов Apple Watch. Полная синхронизация с приложением Apple Здоровье.",
             "BTN": "Узнать Больше",
             "IMG": "Измерения объема талии с умных часов",
-            "DWN": "Скачать бесплатное приложениеLog Waist из магазина Apple Store"
+            "DWN": "Скачать бесплатное приложение Log Waist из магазина Apple Store"
         }
     },
     "NAV": {
-        "HOME": "home",
-        "BACK": "Back"
+        "HOME": "Домой",
+        "BACK": "Назад"
     },
     "PRODUCT": {
         "P1": {
             "ABOUT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more. Track electrolyte intake with Apple Watch App.",
             "HEAD1": "Magnesium",
             "DESC1": "Regulates heart rhythm, nerve function, muscle contraction, blood pressure and sugar levels, participates in making protein, bone, and DNA. Magnesium deficiency leads to loss of appetite, nausea, vomiting, fatigue, and weakness; while high levels of it might cause Hypermagnesemia. ",
-            "HEAD2": "Calcium",
+            "HEAD2": "Кальций",
             "DESC2": "Helps muscles to move and nerves to carry messages between the brain and every body part. Assists blood vessels to move blood throughout the body. Participates in the release of hormones and enzymes that affect almost every function in the human body. About 99% of the body’s calcium supply is stored in the bones and teeth. ",
             "HEAD3": "Potassium",
             "DESC3": "Used for almost everything in the body, including proper kidney and heart function, muscle contraction, and nerve transmission. Potassium deficiency can increase blood pressure and deplete calcium in bones. ",
-            "HEAD4": "Iron",
+            "HEAD4": "Железо",
             "DESC4": "A vital part of hemoglobin and myoglobin, proteins that carry oxygen to body tissues and muscles.  Red blood cells contain more than half of the human body iron. ",
-            "HEAD5": "Risks",
+            "HEAD5": "Риски",
             "DESC5": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. "
         },
         "P2": {
@@ -76,18 +76,18 @@
             "DESC4_4": "Does not need companion iPhone app"
         },
         "P3": {
-            "ABOUT": "LogVitamin Apple Watch app enables you to track esential vitamins intake directly from your wrist, see your progress over time and is absolutely free.",
+            "ABOUT": "Сбалансированный витаминный комплекс защищает организм от окислительных процессов и преждевременного старения, способствует снижению риска различных заболеваний, увеличивает энергию и помогает избежание скачков настроения.",
             "HEAD1": "Improving diet decisions",
             "DESC1": "The application is an excellent vitamin tracker that might improve your diet and customize nutrient targets at the same time.",
             "HEAD2": "Adopt Healthier Lifestyle",
             "DESC2": "Wearable activity trackers offer considerable promise for helping users to adopt healthier lifestyles. ",
-            "HEAD3": "Vitamin A",
+            "HEAD3": "Витамин А",
             "DESC3": "Important for normal vision, the immune system, and reproduction. Helps the heart, lungs, kidneys, and other organs work properly. ",
-            "HEAD4": "Vitamin C - Ascorbic Acid",
+            "HEAD4": "Витамин C - Аскорбиновая Кислота",
             "DESC4": "Helps to protect cells and keeps them healthy, maintains healthy skin, blood vessels, bones and cartilage. Helps with wound healing. ",
-            "HEAD5": "Vitamin D",
+            "HEAD5": "Витамин Д",
             "DESC5": "Regulates the amount of calcium and phosphate in the body. These nutrients are needed to keep bones, teeth and muscles healthy. A lack of vitamin D can lead to bone deformities such as rickets in children, and bone pain caused by a condition called osteomalacia in adults. ",
-            "HEAD6": "Vitamin E",
+            "HEAD6": "Витамин Е",
             "DESC6": "Important to vision, reproduction, and the health of your blood, brain and skin. Has antioxidant properties. The recommended daily amount of vitamin E for adults is 15 milligrams a day. ",
             "HEAD7": "Vitamin B12 - Cobalamin",
             "DESC7": "Formation of red blood cells and health of the nerve tissues. Help the body convert food (carbohydrates) into fuel (glucose), which is used to produce energy. ",
@@ -99,15 +99,15 @@
             "DESC0": "Needed to turn food into energy. It helps keep your nervous system, digestive system and skin healthy. "
         },
         "P4": {
-            "ABOUT": "Удобный и легкий учет объема тали с Ваших умных часов. История записей, и синхронизация с Apple Здоровье.",
+            "ABOUT": "Простой и удобный дневник размера тали на ваших часах Apple Watch. Не требует аккаунта и регистрации. История измерений синхронизуется с приложением Apple Здоровье, и до 7 дней храниться на часах.",
             "HEAD1": "Медицинский факт",
             "DESC1": "Риск диабета 2 типа и сердечно сосудистых заболеваний увеличивается когда больше жира расположено в талии, а не в районе бедер.",
             "LINK1": "Национальным институтом здравоохранения, США",
             "HEAD2": "Лучше индекса массы тела",
             "LINK2": "Исследования Американской кардиологической ассоциации ",
-            "DESC2": " показали, что измерения размера талии точнее прогнозируют риск заболеваний сердца чем широко используемый ИМТ (Индекс Массы Тела) ",
+            "DESC2": " показали, что измерения размера талии точнее прогнозируют риск заболеваний сердца чем широко используемый ИМТ (Индекс Массы Тела). ",
             "HEAD3": "Форма тела",
-            "DESC3": "При увеличении мышечной ткани и потере сантиметров жира ваш вес может остаться неизменным. Именно поэтому ваша фигура лучше стрелки на весах отражаем ваше здоровье.",
+            "DESC3": "Вес может остаться неизменным при одновременном наращивании мышечной массы и избавлении от жира. Именно поэтому фигура, форма вашего тела, лучше отражает ваше здоровье.",
             "HEAD4": "Повышеный риск заболевания сердца",
             "DESC4_1": "Мужчины: 102 см и более",
             "DESC4_2": "Женщины: 88см и более",

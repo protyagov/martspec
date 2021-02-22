@@ -37,10 +37,10 @@
         },
         "P4": {
             "HEAD": "Log Waist",
-            "SUBHEAD": "waistline circumference",
-            "TEXT": "Waist circumference is a measurement taken around the abdomen at the level of the umbilicus (belly button).",
+            "SUBHEAD": "tiny waist - healthy heart",
+            "TEXT": "The easiest way to track waist circumference on Apple Watch. All records get synced to your Apple Health.",
             "BTN": "Learn More",
-            "IMG": "Keep track of your waist size directly from you arm",
+            "IMG": "Keep track of your waist size (belly button) directly from you arm",
             "DWN": "Download Free Log Waist app from the Apple AppStore"
         }
     },
@@ -99,7 +99,7 @@
             "DESC0": "Needed to turn food into energy. It helps keep your nervous system, digestive system and skin healthy. "
         },
         "P4": {
-            "ABOUT": "LogWaist app enables you to track waist circumference directly from your wrist, see your progress over time and is absolutely free.",
+            "ABOUT": "Easy to use waist circumference tracker for Apple Watch. Does not require accout nor registration. Absolutely Free. All records get synced to your Apple Health app and past 7 days can be accessed directly from your wrist.",
             "HEAD1": "Medical Fact",
             "DESC1": "If more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",
             "LINK1": "National Institutes of Health, USA",
