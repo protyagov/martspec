@@ -2,10 +2,10 @@
     "APPSTORE": "us",
     "BTN": {
         "SRC1": "Перейти к источнику.",
-        "FACT": "See Facts",
-        "SRC2": "Get facts from the source article.",
+        "FACT": "Открыть ссылку на источник.",
+        "SRC2": "Прочитать полную статью.",
         "WIKI": "Read full article on WiKi.",
-        "MORE": "Learn more"
+        "MORE": "Узнать больше."
     },
     "MAIN": {
         "HEAD": "Здоровье и Фитнес",
@@ -30,7 +30,7 @@
         "P3": {
             "HEAD": "Log Vitamin",
             "SUBHEAD": "Формула красоты и здоровья",
-            "TEXT": "Запись дозы и времени приема витаминов. Недельная история на умных часах Apple Watch и полная синхронизация с приложением Apple Здоровье. Все очень просто и понятно, бесплатно и без реклам!",
+            "TEXT": "Запись дневной нормы и времени приема витаминов. Недельная история на умных часах Apple Watch и полная синхронизация с приложением Apple Здоровье. Все очень просто и понятно, бесплатно и без реклам!",
             "BTN": "Посмотреть",
             "IMG": "Учет приема наиболее существенны витаминов непосредственно с ваших умных часов Apple Watch",
             "DWN": "Скачать бесплатное приложение Log Vitamin из магазина Apple Store"
@@ -77,16 +77,16 @@
         },
         "P3": {
             "ABOUT": "Сбалансированный витаминный комплекс защищает организм от окислительных процессов и преждевременного старения, способствует снижению риска различных заболеваний, увеличивает энергию и помогает избежание скачков настроения.",
-            "HEAD1": "Improving diet decisions",
-            "DESC1": "The application is an excellent vitamin tracker that might improve your diet and customize nutrient targets at the same time.",
-            "HEAD2": "Adopt Healthier Lifestyle",
-            "DESC2": "Wearable activity trackers offer considerable promise for helping users to adopt healthier lifestyles. ",
-            "HEAD3": "Витамин А",
-            "DESC3": "Important for normal vision, the immune system, and reproduction. Helps the heart, lungs, kidneys, and other organs work properly. ",
+            "HEAD1": "Улучшение диеты",
+            "DESC1": "Тракер приема витаминов мотивирует улучшить диету и быть более разборчивым в выборе продуктов, что в свою очередь помогает нашему телу и разуму.",
+            "HEAD2": "Здоровый образ жизни",
+            "DESC2": "Носимые устройства(wearable) помогают своим владельцам перейти к более здоровому образу жизни. ",
+            "HEAD3": "Витамин А - Бета-каротин",
+            "DESC3": "Важен для имунной системы и репродуктивной функции организма. Помогает сердцу, легким и почкам работать правильно. Сильнейший антиоксидант, регулирует обновление эпителия кожи, рост волос и функцию зрения, защищая организм от разрушительного действия свободных радикалов. ",
             "HEAD4": "Витамин C - Аскорбиновая Кислота",
-            "DESC4": "Helps to protect cells and keeps them healthy, maintains healthy skin, blood vessels, bones and cartilage. Helps with wound healing. ",
+            "DESC4": "Защищает клетки и держит их в здоровом состоянии. Поддерживает кровиностные сосуды, кости и хрящи. Важен для заживления ран тк помогает в развитии соединительной ткани, процессов регенерации и заживления. Дает устойчивость к различным видам стресса, обеспечения нормального иммунологического статуса организма и поддержания процессов кроветворения. ",
             "HEAD5": "Витамин Д",
-            "DESC5": "Regulates the amount of calcium and phosphate in the body. These nutrients are needed to keep bones, teeth and muscles healthy. A lack of vitamin D can lead to bone deformities such as rickets in children, and bone pain caused by a condition called osteomalacia in adults. ",
+            "DESC5": "Регулирует кол-во кальция и фасфата в теле поддерживая тем самым зворовые зубы, кости и мышцы. Низкое содержание этого витамина вызывает проблемы с костями, - рахит у дерей и остеомаляция у взрослых. ",
             "HEAD6": "Витамин Е",
             "DESC6": "Important to vision, reproduction, and the health of your blood, brain and skin. Has antioxidant properties. The recommended daily amount of vitamin E for adults is 15 milligrams a day. ",
             "HEAD7": "Vitamin B12 - Cobalamin",
@@ -99,7 +99,7 @@
             "DESC0": "Needed to turn food into energy. It helps keep your nervous system, digestive system and skin healthy. "
         },
         "P4": {
-            "ABOUT": "Простой и удобный дневник размера тали на ваших часах Apple Watch. Не требует аккаунта и регистрации. История измерений синхронизуется с приложением Apple Здоровье, и до 7 дней храниться на часах.",
+            "ABOUT": "Удобный и простой дневник размера тали на ваших часах Apple Watch. Не требует аккаунта и регистрации. История измерений синхронизуется с приложением Apple Здоровье, и до 7 дней храниться на часах.",
             "HEAD1": "Медицинский факт",
             "DESC1": "Риск диабета 2 типа и сердечно сосудистых заболеваний увеличивается когда больше жира расположено в талии, а не в районе бедер.",
             "LINK1": "Национальным институтом здравоохранения, США",
