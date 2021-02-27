@@ -4,7 +4,7 @@
         "SRC1": "Перейти к источнику",
         "FACT": "Открыть ссылку на источник",
         "SRC2": "Прочитать полную статью",
-        "WIKI": "Read full article on WiKi.",
+        "WIKI": "Прочитать всю статью на Виклопедии.",
         "MORE": "Узнать больше"
     },
     "MAIN": {
@@ -14,9 +14,9 @@
         "P1": {
             "HEAD": "Electrolyte",
             "SUBHEAD": "минеральные элементы",
-            "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
+            "TEXT": "Электролиты играют жизненно важную роль в поддержании гомеостаза в организме. Регулируют работу сердца, неврологические функции, баланс жидкости, доставку кислорода к тканям, кислотно-щелочной баланс, и многое другое.",
             "BTN": "Перейти к фактам",
-            "IMG": "Record electrolytes and minerals with you Apple Watch",
+            "IMG": "Журнал приема электролитов на часах Apple Watch",
             "DWN": "Скачать бесплатное приложение Electrolyte из магазина Apple Store"
         },
         "P2": {
@@ -50,7 +50,7 @@
     },
     "PRODUCT": {
         "P1": {
-            "ABOUT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more. Track electrolyte intake with Apple Watch App.",
+            "ABOUT": "Электролиты играют жизненно важную роль в поддержании гомеостаза в организме. Регулируют работу сердца, неврологические функции, баланс жидкости, доставку кислорода к тканям, кислотно-щелочной баланс, и многое другое.",
             "HEAD1": "Magnesium",
             "DESC1": "Regulates heart rhythm, nerve function, muscle contraction, blood pressure and sugar levels, participates in making protein, bone, and DNA. Magnesium deficiency leads to loss of appetite, nausea, vomiting, fatigue, and weakness; while high levels of it might cause Hypermagnesemia. ",
             "HEAD2": "Кальций",
@@ -63,22 +63,23 @@
             "DESC5": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. "
         },
         "P2": {
-            "HEAD1": "Accountability",
-            "DESC1": "We have a responsibility to ourselves for our health.  No one can make us lose weight or choose healthy foods.  We must decide this for ourselves.",
-            "HEAD2": "Honesty",
-            "DESC2": "Logging our weight makes it real. While that sound strange; it’s real. This is data, recorded facts. They are real whether we record them or not. ",
-            "HEAD3": "Commitment",
-            "DESC3": "Logging daily is important, it keeps healthy habits in front of our minds.  Every time we make a log entry, we are reminded of our commitment to health. Skipping a day here and there makes it easier to skip 2 days, then 3 days. Then, before you know it, you’ve stopped and you are back to your old habits.",
-            "HEAD4": "App Features",
-            "DESC4_1": "Apple Health Integration",
-            "DESC4_2": "History of past recordings with percentage difference",
-            "DESC4_3": "All watch sizes, all watch face complication types",
-            "DESC4_4": "Does not need companion iPhone app"
+            "ABOUT": "Дневник массы тела повышает эффективность тренеровок и является хорошим мотиватором в достижения поставленной цели. Все синхронизуется с приложением Apple Здоровье и до 7 дней доступно с часов Apple. Ввод веса прост и понятен, работает бесплатно и без реклам!",
+            "HEAD1": "Ответственность",
+            "DESC1": "Мы в ответе за наше здоровье. Не найти несогласных со знаменитой пословицей: «Здоровье дороже денег». Невозможно назвать точную цену нашему здоровью. Здоровье бесценно. Никто кроме нас не может привести наш вес в норму.",            
+            "HEAD2": "Честность",
+            "DESC2": "Когда мы записываем вес это становиться реальностью. Возможно это звучит странно, но это реальная запись. Это данные, записанные факты. Они позволяют посмотреть наши показатели за неделю, месяцы и даже годы, и тем самым честно оценить наш прогресс.",
+            "HEAD3": "Постоянство",
+            "DESC3": "Ежедневное ведение записей формирует привычку. Каждый раз записывая вес мы напоминаем себе о нашем стремлении и здоровому образу жизни. Пропустив день сегодня мы можем пропустить 2 через неделю, потом 3... и совсем скоро можем остановиться полностью вернувшись к старым пагубным привычкам.",
+            "HEAD4": "Особенности LogMass",
+            "DESC4_1": "Полная интеграция с Apple Здоровье",
+            "DESC4_2": "История измерений за 7 дней доступна прямо с часов",
+            "DESC4_3": "Поддержка всех расширений циферблатов",
+            "DESC4_4": "Не требует отдельного приложения на iPhone"
         },
         "P3": {
             "ABOUT": "Сбалансированный витаминный комплекс защищает организм от окислительных процессов и преждевременного старения, способствует снижению риска различных заболеваний, увеличивает энергию и помогает избежание скачков настроения.",
             "HEAD1": "Улучшение диеты",
-            "DESC1": "Тракер приема витаминов мотивирует улучшить диету и быть более разборчивым в выборе продуктов, что в свою очередь помогает нашему телу и разуму.",
+            "DESC1": "Тракер приема витаминов мотивирует улучшить диету и стать более разборчивым в выборе продуктов, что в свою очередь помогает нашему телу и разуму. Все данные синхронизуются в Apple Здоровье, и до 7 дней доступны к просмотру с часов.",
             "HEAD2": "Здоровый образ жизни",
             "DESC2": "Носимые устройства(wearable) помогают своим владельцам перейти к более здоровому образу жизни. ",
             "HEAD3": "Витамин А - Бета-каротин",
@@ -94,9 +95,9 @@
             "HEAD8": "Витамин B7 - Биотин",
             "DESC8": "Биотин называют “витамином красоты” благодаря его положительному воздействию на состояние волос, кожи и ногтей. Необходим для правильного протекания энергетического метаболизма. Регулирует уровень глюкозы в крови, защищает от разрушения клетки мозга, участвует в клеточном делении, поддерживает нормальное функционирование надпочечников, щитовидной железы, сердечно-сосудистой системы. ",
             "HEAD9": "Витамин B9 - Фолиевая кислота",
-            "DESC9": "Needed to make red and white blood cells in the bone marrow, convert carbohydrates into energy, and produce DNA and RNA. ",
+            "DESC9": "Формирование красных и белых кровяных тельцов в костном мозге. Помогает организму создавать клетки ДНК и РНК, а также конвертировать угеводы в глюкозу. ",
             "HEAD0": "Витамин B3 - Ниацин",
-            "DESC0": "Needed to turn food into energy. It helps keep your nervous system, digestive system and skin healthy. "
+            "DESC0": "Важен для переработки пищи в энергию. Помогает нервной и пищеварительной системам оставаться здоровыми, а коже выглыдить хорошо. "
         },
         "P4": {
             "ABOUT": "Удобный и простой дневник размера тали на ваших часах Apple Watch. Не требует аккаунта и регистрации. История измерений синхронизуется с приложением Apple Здоровье, и до 7 дней храниться на часах.",
