@@ -21,7 +21,7 @@
         },
         "P2": {
             "HEAD": "Log Mass",
-            "SUBHEAD": "the ultimate weight tracker",
+            "SUBHEAD": "easy weight journal",
             "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
             "BTN": "Take a look",
             "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
@@ -29,8 +29,8 @@
         },
         "P3": {
             "HEAD": "Log Vitamin",
-            "SUBHEAD": "share your experience",
-            "TEXT": "Tracking your essential vitamins has so many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
+            "SUBHEAD": "the ultimate vitamin tracker",
+            "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
             "BTN": "Read more",
             "IMG": "Track the most esential vitamins directly on your wrist",
             "DWN": "Download Free Log Vitamin app from the Apple AppStore"
