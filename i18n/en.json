@@ -48,6 +48,10 @@
         "HOME": "home",
         "BACK": "Back"
     },
+    "FOOTER": {
+        "C": "Copyright © 2021 Martspec LLC. All rights reserved.",
+        "PP": "Privacy Policy"
+    },
     "PRODUCT": {
         "P1": {
             "ABOUT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more. Track electrolyte intake with Apple Watch App.",
