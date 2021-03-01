@@ -47,7 +47,6 @@
     "popper.js": "^1.14.4",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
-    "react-meta-tags": "^1.0.0",
     "toastr": "^2.1.4"
   },
   "scripts": {

@@ -7,73 +7,75 @@ const logo = require("src/img/vitamin.svg").default;
 
 export default function P3LogVitamin() {
     return (
-        <div>
-            <div className="fixed-top bg-white" >
-                <NavigationBar title={_("MAIN.P3.HEAD")} />
-            </div>
+        <>
+            <NavigationBar title={_("MAIN.P3.HEAD")} />
 
             <section className="rr-s-about">
                 <div className="row" >
                     <div className="col-sm-12 col-md-9 order-last order-md-1">
                         <h3 className="mt-4">{_("PRODUCT.P3.ABOUT")}</h3>
+
                         <h1>{_("PRODUCT.P3.HEAD1")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P3.DESC1")}</h3>
 
 
                         <h1>{_("PRODUCT.P3.HEAD2")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P3.DESC2")}
-                            <small><i><a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-017-4888-1" target="_blank">
-                                {_("BTN.SRC2")}
-                            </a></i></small>
+                            <a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-017-4888-1" target="_blank">
+                                <small><i>{_("BTN.SRC2")}.</i></small>
+                            </a>
                         </h3>
 
                         <h1>{_("PRODUCT.P3.HEAD3")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P3.DESC3")}
                             <a href="https://ods.od.nih.gov/factsheets/VitaminA-Consumer/" target="_blank">
-                                {_("BTN.SRC1")}
+                                <small><i>{_("BTN.SRC1")}.</i></small>
                             </a>
                         </h3>
 
                         <h1>{_("PRODUCT.P3.HEAD4")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P3.DESC4")}
                             <a href="https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-c/" target="_blank">
-                                {_("BTN.FACT")}
+                                <i><small>{_("BTN.FACT")}.</small></i>
                             </a>
                         </h3>
 
                         <h1>{_("PRODUCT.P3.HEAD5")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P3.DESC5")}
                             <a href="https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/" target="_blank">
-                                {_("BTN.MORE")}.
+                                <i><small>{_("BTN.MORE")}.</small></i>
                             </a>
                         </h3>
                         <h1>{_("PRODUCT.P3.HEAD6")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P3.DESC6")}
                             <a href="https://www.mayoclinic.org/drugs-supplements-vitamin-e/art-20364144" target="_blank">
-                                {_("BTN.SRC1")}
+                                <i><small>{_("BTN.SRC1")}.</small></i>
                             </a>
                         </h3>
                         <h1>{_("PRODUCT.P3.HEAD7")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P3.DESC7")}
                             <a href="https://www.mountsinai.org/health-library/supplement/vitamin-b12-cobalamin" target="_blank">
-                                {_("BTN.SRC2")}.
+                                <i><small>{_("BTN.SRC2")}.</small></i>
                             </a>
                         </h3>
                         <h1>{_("PRODUCT.P3.HEAD8")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P3.DESC8")}
                             <a href="https://www.healthline.com/health/biotin-hair-growth" target="_blank">
-                                {_("BTN.MORE")}.
-                            </a></h3>
+                                <i><small>{_("BTN.MORE")}.</small></i>
+                            </a>
+                        </h3>
                         <h1>{_("PRODUCT.P3.HEAD9")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P3.DESC9")}
                             <a href="https://ods.od.nih.gov/factsheets/Folate-Consumer/" target="_blank">
-                                {_("BTN.SRC1")}.
-                            </a></h3>
+                                <i><small>{_("BTN.SRC1")}.</small></i>
+                            </a>
+                        </h3>
                         <h1>{_("PRODUCT.P3.HEAD0")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P3.DESC0")}
                             <a href="https://www.mayoclinic.org/drugs-supplements-niacin/art-20364984" target="_blank">
-                                {_("BTN.FACT")}.
-                            </a></h3>
+                                <i><small>{_("BTN.FACT")}.</small></i>
+                            </a>
+                        </h3>
 
                     </div>
 
@@ -101,6 +103,6 @@ export default function P3LogVitamin() {
 
 
             <Footer />
-        </div >
+        </>
     )
 }

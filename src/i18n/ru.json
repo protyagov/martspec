@@ -1,11 +1,11 @@
 {
     "APPSTORE": "us",
     "BTN": {
-        "SRC1": "Перейти к источнику.",
-        "FACT": "See Facts",
-        "SRC2": "Get facts from the source article.",
-        "WIKI": "Read full article on WiKi.",
-        "MORE": "Learn more"
+        "SRC1": "Перейти к источнику",
+        "FACT": "Открыть ссылку на источник",
+        "SRC2": "Прочитать полную статью",
+        "WIKI": "Прочитать всю статью на Виклопедии",
+        "MORE": "Узнать больше"
     },
     "MAIN": {
         "HEAD": "Здоровье и Фитнес",
@@ -13,10 +13,10 @@
         "IMG": "Apple Watch wellness and health apps",
         "P1": {
             "HEAD": "Electrolyte",
-            "SUBHEAD": "минеральные элементы",
-            "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
+            "SUBHEAD": "водно-солевой баланс",
+            "TEXT": "Электролиты играют жизненно важную роль в поддержании гомеостаза в организме. Регулируют работу сердца, неврологические функции, баланс жидкости, доставку кислорода к тканям, кислотно-щелочной баланс, и многое другое.",
             "BTN": "Перейти к фактам",
-            "IMG": "Record electrolytes and minerals with you Apple Watch",
+            "IMG": "Журнал приема электролитов на часах Apple Watch",
             "DWN": "Скачать бесплатное приложение Electrolyte из магазина Apple Store"
         },
         "P2": {
@@ -30,7 +30,7 @@
         "P3": {
             "HEAD": "Log Vitamin",
             "SUBHEAD": "Формула красоты и здоровья",
-            "TEXT": "Запись дозы и времени приема витаминов. Недельная история на умных часах Apple Watch и полная синхронизация с приложением Apple Здоровье. Все очень просто и понятно, бесплатно и без реклам!",
+            "TEXT": "Запись дневной нормы и времени приема витаминов. Недельная история на умных часах Apple Watch и полная синхронизация с приложением Apple Здоровье. Все очень просто и понятно, бесплатно и без реклам!",
             "BTN": "Посмотреть",
             "IMG": "Учет приема наиболее существенны витаминов непосредственно с ваших умных часов Apple Watch",
             "DWN": "Скачать бесплатное приложение Log Vitamin из магазина Apple Store"
@@ -48,58 +48,63 @@
         "HOME": "Домой",
         "BACK": "Назад"
     },
+    "FOOTER": {
+        "C": "© Martspec LLC, 2021 г. Все права защищены.",
+        "PP": "Политика конфиденциальности"
+    },
     "PRODUCT": {
         "P1": {
-            "ABOUT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more. Track electrolyte intake with Apple Watch App.",
-            "HEAD1": "Magnesium",
-            "DESC1": "Regulates heart rhythm, nerve function, muscle contraction, blood pressure and sugar levels, participates in making protein, bone, and DNA. Magnesium deficiency leads to loss of appetite, nausea, vomiting, fatigue, and weakness; while high levels of it might cause Hypermagnesemia. ",
+            "ABOUT": "Электролиты - вещества, благодаря которым по нашему телу передаются электрические импульсы. Регулируют работу сердца, неврологические функции, баланс жидкости, доставку кислорода к тканям, кислотно-щелочной баланс, поддержании гомеостаза и многое другое. Легкий и удобный способ ввода элктролитов с часов Apple, синхронизация с приложением Apple Здоровье. Работает бесплатно и без реклам!",
+            "HEAD1": "Магний",
+            "DESC1": "Регуляция ритма сердца, мышечных сокращений, нервные функции, кровяного давления и уровня сахара. Участвует в создании белков, костей и молекул ДНК. Нехватка магния вызывает потерю аппетита, слабость, тошноту и даже рвоту. Переизбыток магния может вызвать Гипермагниемию. ",
             "HEAD2": "Кальций",
-            "DESC2": "Helps muscles to move and nerves to carry messages between the brain and every body part. Assists blood vessels to move blood throughout the body. Participates in the release of hormones and enzymes that affect almost every function in the human body. About 99% of the body’s calcium supply is stored in the bones and teeth. ",
-            "HEAD3": "Potassium",
-            "DESC3": "Used for almost everything in the body, including proper kidney and heart function, muscle contraction, and nerve transmission. Potassium deficiency can increase blood pressure and deplete calcium in bones. ",
+            "DESC2": "Помогает мышцам сокращаться, сосудам перемещать кровь в организме, а нервам доставлять сигналы из мозга ко всем частям тела. Участвует в высвобождение гормонов и ферментов влияющих на практически каждый процесс в человеческом теле. Кости и зубы содержат 99% кальция организма. ",
+            "HEAD3": "Калий",
+            "DESC3": "Участвует практически во всех процессах организма, включая корректную работу почек и сердца, сокращение мышц, и передачу нервных сигналов. Нехватка калия может увеличить кровяное давления и начать вымывать кальций из костей и зубов. ",
             "HEAD4": "Железо",
-            "DESC4": "A vital part of hemoglobin and myoglobin, proteins that carry oxygen to body tissues and muscles.  Red blood cells contain more than half of the human body iron. ",
+            "DESC4": "Жизненно важная часть гемоглобина и миоглобина (белки отвечающие за доставку кислорода ко всем клеткам тела). Эритроциты содержат больше половины всего желаза организма. ",
             "HEAD5": "Риски",
-            "DESC5": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. "
+            "DESC5": "Дисбаланс электролитов может развиться как от чрезмерного, так и от недостаточного их принятия, а так же если потери либо слишком велики или недостаточны. Переизбыток обычно свидетельствует о серьезных заболеваниях. К примеру, повышенный уровень калия обычно говорит о почечной недостаточности. Нехватка солей часто выражается в упадоке сил, сонливости, головокружении и аритмии. При наличии этих симптомов стоит обратиться к специалисту. "
         },
         "P2": {
-            "HEAD1": "Accountability",
-            "DESC1": "We have a responsibility to ourselves for our health.  No one can make us lose weight or choose healthy foods.  We must decide this for ourselves.",
-            "HEAD2": "Honesty",
-            "DESC2": "Logging our weight makes it real. While that sound strange; it’s real. This is data, recorded facts. They are real whether we record them or not. ",
-            "HEAD3": "Commitment",
-            "DESC3": "Logging daily is important, it keeps healthy habits in front of our minds.  Every time we make a log entry, we are reminded of our commitment to health. Skipping a day here and there makes it easier to skip 2 days, then 3 days. Then, before you know it, you’ve stopped and you are back to your old habits.",
-            "HEAD4": "App Features",
-            "DESC4_1": "Apple Health Integration",
-            "DESC4_2": "History of past recordings with percentage difference",
-            "DESC4_3": "All watch sizes, all watch face complication types",
-            "DESC4_4": "Does not need companion iPhone app"
+            "ABOUT": "Дневник массы тела повышает эффективность тренеровок и является хорошим мотиватором в достижения поставленной цели. Все синхронизуется с приложением Apple Здоровье и до 7 дней доступно с часов Apple. Ввод веса прост и понятен, работает бесплатно и без реклам!",
+            "HEAD1": "Ответственность",
+            "DESC1": "Мы в ответе за наше здоровье. Не найти несогласных со знаменитой пословицей: «Здоровье дороже денег». Невозможно назвать точную цену нашему здоровью. Здоровье бесценно. Никто кроме нас не может привести наш вес в норму.",
+            "HEAD2": "Честность",
+            "DESC2": "Когда мы записываем вес это становиться реальностью. Возможно это звучит странно, но это реальная запись. Это данные, записанные факты. Они позволяют посмотреть наши показатели за неделю, месяцы и даже годы, и тем самым честно оценить наш прогресс.",
+            "HEAD3": "Постоянство",
+            "DESC3": "Ежедневное ведение записей формирует привычку. Каждый раз записывая вес мы напоминаем себе о нашем стремлении и здоровому образу жизни. Пропустив день сегодня мы можем пропустить 2 через неделю, потом 3... и совсем скоро можем остановиться полностью вернувшись к старым пагубным привычкам.",
+            "HEAD4": "Особенности LogMass",
+            "DESC4_1": "Полная интеграция с Apple Здоровье",
+            "DESC4_2": "История измерений за 7 дней доступна прямо с часов",
+            "DESC4_3": "Поддержка всех расширений циферблатов",
+            "DESC4_4": "Не требует отдельного приложения на iPhone"
         },
         "P3": {
             "ABOUT": "Сбалансированный витаминный комплекс защищает организм от окислительных процессов и преждевременного старения, способствует снижению риска различных заболеваний, увеличивает энергию и помогает избежание скачков настроения.",
-            "HEAD1": "Improving diet decisions",
-            "DESC1": "The application is an excellent vitamin tracker that might improve your diet and customize nutrient targets at the same time.",
-            "HEAD2": "Adopt Healthier Lifestyle",
-            "DESC2": "Wearable activity trackers offer considerable promise for helping users to adopt healthier lifestyles. ",
-            "HEAD3": "Витамин А",
-            "DESC3": "Important for normal vision, the immune system, and reproduction. Helps the heart, lungs, kidneys, and other organs work properly. ",
+            "HEAD1": "Улучшение диеты",
+            "DESC1": "Тракер приема витаминов мотивирует улучшить диету и стать более разборчивым в выборе продуктов, что в свою очередь помогает нашему телу и разуму. Все данные синхронизуются в Apple Здоровье, и до 7 дней доступны к просмотру с часов.",
+            "HEAD2": "Здоровый образ жизни",
+            "DESC2": "Носимые устройства(wearable) помогают своим владельцам перейти к более здоровому образу жизни. ",
+            "HEAD3": "Витамин А - Бета-каротин",
+            "DESC3": "Важен для имунной системы и репродуктивной функции организма. Помогает сердцу, легким и почкам работать правильно. Сильнейший антиоксидант, регулирует обновление эпителия кожи, рост волос и функцию зрения, защищая организм от разрушительного действия свободных радикалов. ",
             "HEAD4": "Витамин C - Аскорбиновая Кислота",
-            "DESC4": "Helps to protect cells and keeps them healthy, maintains healthy skin, blood vessels, bones and cartilage. Helps with wound healing. ",
+            "DESC4": "Защищает клетки и держит их в здоровом состоянии. Поддерживает кровиностные сосуды, кости и хрящи. Важен для заживления ран тк помогает в развитии соединительной ткани, процессов регенерации и заживления. Дает устойчивость к различным видам стресса, обеспечения нормального иммунологического статуса организма и поддержания процессов кроветворения. ",
             "HEAD5": "Витамин Д",
-            "DESC5": "Regulates the amount of calcium and phosphate in the body. These nutrients are needed to keep bones, teeth and muscles healthy. A lack of vitamin D can lead to bone deformities such as rickets in children, and bone pain caused by a condition called osteomalacia in adults. ",
-            "HEAD6": "Витамин Е",
-            "DESC6": "Important to vision, reproduction, and the health of your blood, brain and skin. Has antioxidant properties. The recommended daily amount of vitamin E for adults is 15 milligrams a day. ",
-            "HEAD7": "Vitamin B12 - Cobalamin",
-            "DESC7": "Formation of red blood cells and health of the nerve tissues. Help the body convert food (carbohydrates) into fuel (glucose), which is used to produce energy. ",
-            "HEAD8": "Vitamin B7 - Biotin",
-            "DESC8": "Helps to convert nutrients into energy and plays an important role in the health of hair, skin, and nails. ",
-            "HEAD9": "Vitamin B9 - Folate",
-            "DESC9": "Needed to make red and white blood cells in the bone marrow, convert carbohydrates into energy, and produce DNA and RNA. ",
-            "HEAD0": "Vitamin B3 - Niacin",
-            "DESC0": "Needed to turn food into energy. It helps keep your nervous system, digestive system and skin healthy. "
+            "DESC5": "Регулирует количество кальция и фасфата в теле поддерживая тем самым зворовые зубы, кости и мышцы. Низкое содержание этого витамина вызывает проблемы с костями, - рахит у дерей и остеомаляция у взрослых. ",
+            "HEAD6": "Витамин Е - Токоферол",
+            "DESC6": "Поддерживает здоровье и красоту организма защищая от разрушительных факторов внешней среды. Если клетки, ткани и органы получают витамин Е в достаточном количестве, то уменьшается риск развития многих болезней, замедляются процессы старения. В частности, являясь мощным антиоксидантом, витамин Е участвует в образовании волокон, позволяющих коже оставаться упругой. ",
+            "HEAD7": "Витамин B12 - Кобаламин",
+            "DESC7": "Формирование эритроцитов и защита нервных тканей. Помогает организму конвертировать угеводы в глюкозу которая необходима для производства энергии. ",
+            "HEAD8": "Витамин B7 - Биотин",
+            "DESC8": "Биотин называют “витамином красоты” благодаря его положительному воздействию на состояние волос, кожи и ногтей. Необходим для правильного протекания энергетического метаболизма. Регулирует уровень глюкозы в крови, защищает от разрушения клетки мозга, участвует в клеточном делении, поддерживает нормальное функционирование надпочечников, щитовидной железы, сердечно-сосудистой системы. ",
+            "HEAD9": "Витамин B9 - Фолиевая кислота",
+            "DESC9": "Формирование красных и белых кровяных тельцов в костном мозге. Помогает организму создавать клетки ДНК и РНК, а также конвертировать угеводы в глюкозу. ",
+            "HEAD0": "Витамин B3 - Ниацин",
+            "DESC0": "Важен для переработки пищи в энергию. Помогает нервной и пищеварительной системам оставаться здоровыми, а коже выглыдить хорошо. "
         },
         "P4": {
-            "ABOUT": "Простой и удобный дневник размера тали на ваших часах Apple Watch. Не требует аккаунта и регистрации. История измерений синхронизуется с приложением Apple Здоровье, и до 7 дней храниться на часах.",
+            "ABOUT": "Удобный и простой дневник размера тали на ваших часах Apple Watch. Не требует аккаунта и регистрации. История измерений синхронизуется с приложением Apple Здоровье, и до 7 дней храниться на часах.",
             "HEAD1": "Медицинский факт",
             "DESC1": "Риск диабета 2 типа и сердечно сосудистых заболеваний увеличивается когда больше жира расположено в талии, а не в районе бедер.",
             "LINK1": "Национальным институтом здравоохранения, США",

@@ -10,4 +10,4 @@ Allow: /icon/
 Allow: /privacy-policy
 Disallow: /font/
 
-#Sitemap:  https://recruiter.reviews/sitemap.txt
+Sitemap:  https://martspec.com/sitemap.txt

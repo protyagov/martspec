@@ -1,5 +1,5 @@
 import * as React from "react";
-import _ from "src/i18n/locale"
+import _, { locale } from "src/i18n/locale"
 const logo = require("src/img/logo.png").default;
 
 interface NavBarProps {
@@ -18,22 +18,12 @@ interface NavBarProps {
 export default function NavigationBar(props: NavBarProps) {
     // let history = useHistory();
 
-    function leftButtonClick() {
-        if (props.leftButtonCommand)
-            props.leftButtonCommand();
-        else if (props.letfButtonRedirectPage)
-            history.pushState(null, null, props.letfButtonRedirectPage);
-        else
-            history.back();
-    }
-
     function leftButton() {
         return <div className="lButton">
-            <a className="btn btn-link" href='/'>
+            <a className="btn btn-link" href={locale.i18nLink("/")}>
                 <img src={logo} className="img-fluid" alt={_("NAV.HOME")} />
             </a>
         </div>
-
     }
 
     function rightButtonClick() {

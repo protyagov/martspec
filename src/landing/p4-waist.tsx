@@ -54,8 +54,6 @@ export default function P4LogWaist() {
                         </h3>
                     </div>
 
-
-
                     <div className="col-sm-12 col-md-3 order-sm-1">
                         <img src={logo} className="mx-auto" alt="Recruiter" />
                     </div>

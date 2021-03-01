@@ -21,7 +21,7 @@
         },
         "P2": {
             "HEAD": "Log Mass",
-            "SUBHEAD": "the ultimate weight tracker",
+            "SUBHEAD": "easy weight journal",
             "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
             "BTN": "Take a look",
             "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
@@ -29,8 +29,8 @@
         },
         "P3": {
             "HEAD": "Log Vitamin",
-            "SUBHEAD": "share your experience",
-            "TEXT": "Tracking your essential vitamins has so many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
+            "SUBHEAD": "the ultimate vitamin tracker",
+            "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
             "BTN": "Read more",
             "IMG": "Track the most esential vitamins directly on your wrist",
             "DWN": "Download Free Log Vitamin app from the Apple AppStore"
@@ -48,6 +48,10 @@
         "HOME": "home",
         "BACK": "Back"
     },
+    "FOOTER": {
+        "C": "Copyright © 2021 Martspec LLC. All rights reserved.",
+        "PP": "Privacy Policy"
+    },
     "PRODUCT": {
         "P1": {
             "ABOUT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more. Track electrolyte intake with Apple Watch App.",
@@ -63,10 +67,11 @@
             "DESC5": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. "
         },
         "P2": {
+            "ABOUT": "Body weight journal is the perfect tool to increase efficiency of your exercises and motivation to reach the goal. All data is synced to Apple Health and available on your watch for 7 days for a quick look. Everything is easy and absolutely free.",
             "HEAD1": "Accountability",
             "DESC1": "We have a responsibility to ourselves for our health.  No one can make us lose weight or choose healthy foods.  We must decide this for ourselves.",
             "HEAD2": "Honesty",
-            "DESC2": "Logging our weight makes it real. While that sound strange; it’s real. This is data, recorded facts. They are real whether we record them or not. ",
+            "DESC2": "Logging our weight makes it real. While that sounds strange; it’s real. This is data, recorded facts. They are real whether we record them or not. ",
             "HEAD3": "Commitment",
             "DESC3": "Logging daily is important, it keeps healthy habits in front of our minds.  Every time we make a log entry, we are reminded of our commitment to health. Skipping a day here and there makes it easier to skip 2 days, then 3 days. Then, before you know it, you’ve stopped and you are back to your old habits.",
             "HEAD4": "App Features",
@@ -78,10 +83,10 @@
         "P3": {
             "ABOUT": "LogVitamin Apple Watch app enables you to track esential vitamins intake directly from your wrist, see your progress over time and is absolutely free.",
             "HEAD1": "Improving diet decisions",
-            "DESC1": "The application is an excellent vitamin tracker that might improve your diet and customize nutrient targets at the same time.",
+            "DESC1": "This app is an excellent vitamin tracker that might improve your diet and customize nutrient targets at the same time.",
             "HEAD2": "Adopt Healthier Lifestyle",
             "DESC2": "Wearable activity trackers offer considerable promise for helping users to adopt healthier lifestyles. ",
-            "HEAD3": "Vitamin A",
+            "HEAD3": "Vitamin A - Beta carotene",
             "DESC3": "Important for normal vision, the immune system, and reproduction. Helps the heart, lungs, kidneys, and other organs work properly. ",
             "HEAD4": "Vitamin C - Ascorbic Acid",
             "DESC4": "Helps to protect cells and keeps them healthy, maintains healthy skin, blood vessels, bones and cartilage. Helps with wound healing. ",

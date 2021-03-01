@@ -169,10 +169,10 @@ hr {
 }
 
 /*---------------- Footer ----------------*/
-.rr-footer {
-    @extend .fixed-bottom;
-
+.ms-footer {
     p {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         margin-top: 0.5rem;
         color: #AAA;
     }

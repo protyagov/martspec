@@ -16,7 +16,7 @@ module.exports = merge(common, {
     //         mode: 'webapp',
     //         favicons: {
     //             appName: 'agentspec',
-    //             appDescription: 'Recruiter Reviews',
+    //             appDescription: 'Martspec',
     //             developerName: 'AgentSpec',
     //             prefix: 'icon/',
     //             developerURL: null,             // prevent retrieving from the nearest package.json

@@ -8,9 +8,7 @@ const logo = require("src/img/electrolyte.svg").default;
 export default function P1Electrolyte() {
     return (
         <div>
-            <div className="fixed-top bg-white" >
-                <NavigationBar title={_("MAIN.P1.HEAD")} />
-            </div>
+            <NavigationBar title={_("MAIN.P1.HEAD")} />
 
             <section className="rr-s-about">
                 <div className="row" >
@@ -21,7 +19,7 @@ export default function P1Electrolyte() {
                         <h3 className="mt-3">
                             {_("PRODUCT.P1.DESC1")}
                             <a href="https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional" target="_blank">
-                                {_("BTN.SRC1")}
+                                <small><i>{_("BTN.SRC1")}.</i></small>
                             </a>
                         </h3>
 
@@ -30,7 +28,7 @@ export default function P1Electrolyte() {
                         <h3 className="mt-3">
                             {_("PRODUCT.P1.DESC2")}
                             <a href="https://ods.od.nih.gov/factsheets/Calcium-Consumer" target="_blank">
-                                {_("BTN.FACT")}
+                                <small><i>{_("BTN.FACT")}.</i></small>
                             </a>
                         </h3>
 
@@ -39,7 +37,7 @@ export default function P1Electrolyte() {
                         <h3 className="mt-3">
                             {_("PRODUCT.P1.DESC3")}
                             <a href="https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional" target="_blank">
-                                {_("BTN.SRC2")}
+                                <small><i>{_("BTN.SRC2")}.</i></small>
                             </a>
                         </h3>
 
@@ -47,7 +45,7 @@ export default function P1Electrolyte() {
                         <h3 className="mt-3">
                             {_("PRODUCT.P1.DESC4")}
                             <a href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional" target="_blank">
-                                {_("BTN.FACT")}
+                                <small><i>{_("BTN.FACT")}.</i></small>
                             </a>
                         </h3>
 
@@ -55,7 +53,7 @@ export default function P1Electrolyte() {
                         <h3 className="mt-3">
                             {_("PRODUCT.P1.DESC5")}
                             <a href="https://en.wikipedia.org/wiki/Electrolyte_imbalance" target="_blank">
-                                {_("BTN.WIKI")}
+                                <small><i>{_("BTN.WIKI")}.</i></small>
                             </a>
                         </h3>
 

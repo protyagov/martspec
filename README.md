@@ -2,11 +2,10 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+### Deploy
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* yarn deploy
+* Go to GitHub settings for the martspec and update and set custom domain to martspec.com
 
 <!-- ### How do I get set up? ### -->
 

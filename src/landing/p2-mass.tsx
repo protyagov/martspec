@@ -1,24 +1,22 @@
 import * as React from "react";
 import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
-import MetaTags from 'react-meta-tags';
 import NavigationBar from "src/part/navbar";
 import IronImage from "src/part/iron-image";
 const logo = require("src/img/mass.svg").default;
 
 export default function P2LogMass() {
     return (
-        <div>
-            <div className="fixed-top bg-white" >
-                <NavigationBar title={_("MAIN.P2.HEAD")} />
-            </div>
+        <>
+            <NavigationBar title={_("MAIN.P2.HEAD")} />
 
             <section className="rr-s-about">
                 <div className="row" >
                     <div className="col-sm-12 col-md-9 order-last order-md-1">
+                        <h3 className="mt-4">{_("PRODUCT.P2.ABOUT")}</h3>
+
                         <h1>{_("PRODUCT.P2.HEAD1")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P2.DESC1")}</h3>
-
 
                         <h1>{_("PRODUCT.P2.HEAD2")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P2.DESC2")}</h3>
@@ -60,8 +58,7 @@ export default function P2LogMass() {
                 </div>
             </div>
 
-
             <Footer />
-        </div>
+        </>
     )
 }
