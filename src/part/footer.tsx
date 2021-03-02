@@ -15,8 +15,6 @@ export function LanguageSwitcher() {
 
 
 export const Footer = () =>
-    <footer className="ms-footer">
-        <p className="text-center">{_("FOOTER.C")} |
-            <a href="/privacy-policy"> {_("FOOTER.PP")}</a>
-        </p>
+    <footer >
+        <p>{_("FOOTER.C")} <br/> <a href="/privacy-policy"> {_("FOOTER.PP")}</a></p>
     </footer>

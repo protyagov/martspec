@@ -10,7 +10,7 @@ export default function P3LogVitamin() {
         <>
             <NavigationBar title={_("MAIN.P3.HEAD")} />
 
-            <section className="rr-s-about">
+            <section className="rr-s-about ms-s-offset">
                 <div className="row" >
                     <div className="col-sm-12 col-md-9 order-last order-md-1">
                         <h3 className="mt-4">{_("PRODUCT.P3.ABOUT")}</h3>

@@ -28,12 +28,6 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: 'style.[chunkhash:3].css'
         }),
-        new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery',
-            'window.jQuery': 'jquery',
-            Popper: ['popper.js', 'default'],
-        }),
 
         // --------------- Static Content EN --------------- 
         new HtmlWebpackPlugin({ template: './src/template/en/main.ejs', filename: 'index.html', inject: 'body' }),
@@ -71,7 +65,7 @@ module.exports = {
                 concurrency: 100,
             },
         })
-        //  , new BundleAnalyzerPlugin()
+        // , new BundleAnalyzerPlugin()
     ],
     resolve: {
         extensions: [".ts", ".tsx", ".js", ".json", ".scss", ".jsx"],
@@ -90,7 +84,7 @@ module.exports = {
             cacheGroups: {
                 vendor: {
                     chunks: 'initial',
-                    test: /[\\/]node_modules[\\/](react|react-dom|bootstrap|scheduler|node-polyglot|jquery|popper.js|history*|for-each|es-abstract|component-emmiter|object-keys)[\\/]/,
+                    test: /[\\/]node_modules[\\/](react|react-dom|bootstrap|scheduler|node-polyglot|history*|get-intrinsic|has-symbols|object-assign|is-callable|for-each|es-abstract|component-emmiter|object-keys)[\\/]/,
                     name: "vendor"
                 }
             },

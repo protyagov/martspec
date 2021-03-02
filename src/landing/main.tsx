@@ -19,7 +19,7 @@ export default function LandingPage() {
             </section>
 
             <section className="rr-s-product pw-color-bg-secondary">
-                <div className="ms-product-row">
+                <div className="row ms-s-offset">
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <p className="mt-2">{_("MAIN.P1.SUBHEAD")}</p>
                         <h1>{_("MAIN.P1.HEAD")}</h1>
@@ -34,7 +34,7 @@ export default function LandingPage() {
 
 
             <section className="rr-s-product my-5">
-                <div className="ms-product-row">
+                <div className="row ms-s-offset">
                     <div className="col-md-4">
                         <IronImage imgLo="/img/p_mass_sm.webp" imgHi="/img/p_mass.webp" text={_("MAIN.P2.IMG")} />
                     </div>
@@ -50,7 +50,7 @@ export default function LandingPage() {
 
 
             <section className="rr-s-product pw-color-bg-secondary">
-                <div className="ms-product-row">
+                <div className="row ms-s-offset">
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <p className="mt-2">{_("MAIN.P3.SUBHEAD")}</p>
                         <h1>{_("MAIN.P3.HEAD")}</h1>
@@ -66,7 +66,7 @@ export default function LandingPage() {
 
 
             <section className="rr-s-product my-5">
-                <div className="ms-product-row">
+                <div className="row ms-s-offset">
                     <div className="col-md-4">
                         <IronImage imgLo="/img/p_waist_sm.webp" imgHi="/img/p_waist.webp" text={_("MAIN.P4.IMG")} />
                     </div>

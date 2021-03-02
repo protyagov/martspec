@@ -16,16 +16,19 @@
 //---------------------------------------------------------------------------------------------------------------------
 .ms-s-header {
   @extend .rr-s;
-  
+
 
   h1 {
     padding-left: 3rem;
     padding-right: 5rem;
-    // padding-top: 1vmin;
     font-weight: 600;
-    // font-size: 2.2rem;
+    font-family: os4;
     font-size: 4.2rem;
     padding-bottom: 2vmin;
+
+    @media only screen and (max-width: $pw-screen-sm - 1) {
+      font-size: 3rem;
+    }
   }
 
   h4 {
@@ -45,11 +48,26 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.1;    
+    opacity: 0.1;
   }
 }
 
 
+//---------------------------------------------------------------------------------------------------------------------
+.ms-s-offset {
+  @extend .justify-content-around;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2.5rem;
+
+  @media only screen and (max-width: $pw-screen-sm - 1) {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+}
 
 //---------------------------------------------------------------------------------------------------------------------
 .rr-s-product {
@@ -58,24 +76,6 @@
   outline: none;
   letter-spacing: normal;
   font-family: os4;
-
-  .ms-product-row {
-    @extend .row;
-    @extend .justify-content-around;
-
-    @media only screen and (min-width: $pw-screen-md) {
-      margin-left: 10%;
-      margin-right: 10%;
-      margin-bottom: 2.5rem;
-    }
-
-    @media only screen and (max-width: $pw-screen-sm - 1) {
-      margin-left: 4%;
-      margin-right: 4%;
-      margin-top: 0.5rem;
-      margin-bottom: 2rem;
-    }
-  }
 
   h1 {
     font-family: os6;
@@ -98,7 +98,6 @@
 
 //---------------------------------------------------------------------------------------------------------------------
 .rr-s-about {
-  @extend .container;
   padding-top: 5rem;
   padding-bottom: 5rem;
 
@@ -108,15 +107,13 @@
     margin: auto;
     display: block;
     height: 45vmin;
-    // margin-left: -10rem;
     margin-top: 10rem;
-    // margin-right: 5rem;
   }
 
   h1 {
     font-family: os6;
     color: $ms-c-main1;
-    margin-top: 4rem;
+    margin-top: 5rem;
   }
 
   h3 {
@@ -137,7 +134,6 @@
       height: auto;
       margin: auto;
       margin-left: -1rem;
-      // max-width: 33rem;
     }
   }
 

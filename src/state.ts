@@ -59,15 +59,6 @@ export default class AppState {
         //     toastr.error(_(e.message), e.title, { preventDuplicates: true });
     }
 
-    //-------------------------------------------------------------------------------------------------------
-    static isNullOrEmpty(obj: any[]) {
-        return obj == null || obj.length === 0;
-    }
-
-    //-------------------------------------------------------------------------------------------------------
-    static isNullOrEmptyString(str: string) {
-        return str == null || str.trim().length === 0;
-    }
 }
 
 
@@ -93,11 +84,3 @@ Storage.prototype.getJson = function (key: string) {
     var value = this.getItem(key);
     return value == null ? value : JSON.parse(value);
 };
-
-
-/**==========================================================================================================
-// Don't do this if you can use `Object.defineProperty`
-*/
-String.prototype.isNullOrEmpty = function () {
-    return this == null || this.trim().length === 0;
-}

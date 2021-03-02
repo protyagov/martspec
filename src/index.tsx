@@ -9,6 +9,4 @@ import eb from 'src/event-bus';
 eb.addEvent("LANG_CHANGED", (lang: string) =>
     ReactDOM.render(<App />, document.getElementById('root'))
 );
-// ReactDOM.render(<App />, document.getElementById('root'))
-// eb.send("LANG_CHANGED");
-locale.language ="";
+locale.language = "";

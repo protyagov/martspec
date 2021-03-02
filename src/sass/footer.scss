@@ -47,6 +47,23 @@ footer {
         }
     }
 
+    p {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-top: 0.5rem;
+        color: #AAA;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: #AAA;
+
+        &:hover {
+            color: #fafafa;
+        }
+    }
+
     span {
         margin-top: 0.5rem;
     }

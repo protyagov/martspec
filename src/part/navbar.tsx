@@ -1,49 +1,23 @@
 import * as React from "react";
 import _, { locale } from "src/i18n/locale"
-const logo = require("src/img/logo.png").default;
+import NavBarLang from "./navbar-signin";
 
 interface NavBarProps {
     title: string;
-    leftButtonHide?: boolean;
-    leftButtonIcon?: string;
-    leftButtonText?: string;
-    letfButtonRedirectPage?: string;
-    rightButtonIcon?: string;
-    rightButtonText?: string;
-    rightButtonRedirectPage?: string;
-    rightButtonCommand?: () => void;
-    leftButtonCommand?: () => void;
 }
 
 export default function NavigationBar(props: NavBarProps) {
-    // let history = useHistory();
-
-    function leftButton() {
-        return <div className="lButton">
-            <a className="btn btn-link" href={locale.i18nLink("/")}>
-                <img src={logo} className="img-fluid" alt={_("NAV.HOME")} />
-            </a>
-        </div>
-    }
-
-    function rightButtonClick() {
-        if (props.rightButtonCommand)
-            props.rightButtonCommand();
-
-        if (props.rightButtonRedirectPage)
-            history.pushState(null, null, props.rightButtonRedirectPage);
-    }
-
     return (
         <nav className="rr-navbar">
-            {!props.leftButtonHide && leftButton()}
+            <div className="lButton">
+                <a className="btn btn-link" href={locale.i18nLink("/")}>
+                    <img src="/img/logo.png" className="img-fluid" alt={_("NAV.HOME")} />
+                </a>
+            </div>
 
             <h2 className="title">{props.title}</h2>
 
-            <div className="btn btn-link rButton" onClick={rightButtonClick}>
-                <span className="rText">{props.rightButtonText}</span>
-                <i className={props.rightButtonIcon || " "} />
-            </div>
+            <NavBarLang />
         </nav>
     )
 }

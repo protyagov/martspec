@@ -646,10 +646,10 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bootstrap@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.0.tgz#97b9f29ac98f98dfa43bf7468262d84392552fd7"
-  integrity sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw==
+bootstrap@^5.0.0-beta2:
+  version "5.0.0-beta2"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.0.0-beta2.tgz#ab1504a12807fa58e5e41408e35fcea42461e84b"
+  integrity sha512-e+uPbPHqTQWKyCX435uVlOmgH9tUt0xtjvyOC7knhKgOS643BrQKuTo+KecGpPV7qlmOyZgCfaM4xxPWtDEN/g==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -1165,15 +1165,15 @@ css-declaration-sorter@^4.0.1:
     timsort "^0.3.0"
 
 css-loader@^5.0.0:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-5.0.2.tgz#24f758dae349bad0a440c50d7e2067742e0899cb"
-  integrity sha512-gbkBigdcHbmNvZ1Cg6aV6qh6k9N6XOr8YWzISLQGrwk2mgOH8LLrizhkxbDhQtaLtktyKHD4970S0xwz5btfTA==
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-5.1.1.tgz#9362d444a0f7c08c148a109596715c904e252879"
+  integrity sha512-5FfhpjwtuRgxqmusDidowqmLlcb+1HgnEDMsi2JhiUrZUcoc+cqw+mUtMIF/+OfeMYaaFCLYp1TaIt9H6I/fKA==
   dependencies:
     camelcase "^6.2.0"
     cssesc "^3.0.0"
     icss-utils "^5.1.0"
     loader-utils "^2.0.0"
-    postcss "^8.2.4"
+    postcss "^8.2.6"
     postcss-modules-extract-imports "^3.0.0"
     postcss-modules-local-by-default "^4.0.0"
     postcss-modules-scope "^3.0.0"
@@ -1919,9 +1919,9 @@ fastq@^1.6.0:
     reusify "^1.0.4"
 
 favicons-webpack-plugin@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/favicons-webpack-plugin/-/favicons-webpack-plugin-5.0.1.tgz#ce8195992abc959cfd067c3ffd7292cb35a5e9ca"
-  integrity sha512-kCx5/r4p+nQZLcsR3j5cJ9rMRPBMP0JuE8WNZpc9KthuIiqi1F3teGSyTUFkEBwJ0fk0CYdLq7jJa+frCt8Izg==
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/favicons-webpack-plugin/-/favicons-webpack-plugin-5.0.2.tgz#0837a753ee4485785fa2cec1c3b83472f9ff60ce"
+  integrity sha512-D/A+Ze0x57+YZBU69hK/lR3NI636qQnKduWyQm0THGl1y3jt16whPHHsi8yjsuXvetv84Eh/I/yYJbAMC2iQxg==
   dependencies:
     "@types/favicons" "5.5.0"
     find-root "^1.1.0"
@@ -2431,12 +2431,12 @@ html-entities@^1.3.1:
   integrity sha512-8nxjcBcd8wovbeKx7h3wTji4e6+rhaVuPNpMqwWgnHh+N9ToqsCs6XztWRBPQ+UtzsoMAdKZtUENoVzU/EMtZA==
 
 html-loader@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/html-loader/-/html-loader-2.0.0.tgz#32e98b39cf7ce8be6851fa5466abe06015425a46"
-  integrity sha512-/8yd7xrPJM0ugzz4VDK/xLV39nPGpelwehonX/msg/N5ORvQj9G4VncX5coIWKkOSLBANseNaEcW+3Ga0twDWg==
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/html-loader/-/html-loader-2.1.1.tgz#61174d43a4fe97b2a79c3b6206736e6725e13b97"
+  integrity sha512-L6HUVgr2aeGMyiool2raoBQb8Lue2UTAhUsHvsMLyNxfBHMtOz1NJL1GyE4VbyAoYBK5PJp1I9Aw+FqS3d2eTA==
   dependencies:
     html-minifier-terser "^5.1.1"
-    parse5-sax-parser "^6.0.1"
+    parse5 "^6.0.1"
 
 html-minifier-terser@^5.0.1, html-minifier-terser@^5.1.1:
   version "5.1.1"
@@ -2452,9 +2452,9 @@ html-minifier-terser@^5.0.1, html-minifier-terser@^5.1.1:
     terser "^4.6.3"
 
 html-webpack-plugin@>=5.0.0, html-webpack-plugin@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.1.0.tgz#1c11bbe01ab9d1262c4b601edebcf394364b1f60"
-  integrity sha512-2axkp+2NHmvHUWrKe1dY4LyM3WatQEdFChr42OY7R/Ad7f0AQzaKscGCcqN/FtQBxo8rdfJP7M3RMFDttqok3g==
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.2.0.tgz#d675ad0027a89de6b3d9950e0b57656dcfd97fbf"
+  integrity sha512-0wkVlJKq7edCN793gdLgdAm5m196qI2vb5SGXy4AtGOFB/lYKyS10+3Vkhe6Bo0acddAW3QVw+0ysgWoko/IEQ==
   dependencies:
     "@types/html-minifier-terser" "^5.0.0"
     html-minifier-terser "^5.0.1"
@@ -2992,11 +2992,6 @@ jest-worker@^26.3.0, jest-worker@^26.6.2:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-jquery@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
-  integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
-
 js-base64@^2.1.8:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.6.4.tgz#f4e686c5de1ea1f867dbcad3d46d969428df98c4"
@@ -3161,10 +3156,15 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.0.0, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.5, lodash@~4.17.10:
+lodash@^4.0.0, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5, lodash@~4.17.10:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+
+lodash@^4.17.20:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loglevel@^1.6.8:
   version "1.7.1"
@@ -3905,13 +3905,6 @@ parse-json@^4.0.0:
     error-ex "^1.3.1"
     json-parse-better-errors "^1.0.1"
 
-parse5-sax-parser@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/parse5-sax-parser/-/parse5-sax-parser-6.0.1.tgz#98b4d366b5b266a7cd90b4b58906667af882daba"
-  integrity sha512-kXX+5S81lgESA0LsDuGjAlBybImAChYRMT+/uKCEXFBFOeEhS52qUCydGhU3qLRD8D9DVjaUo821WK7DM4iCeg==
-  dependencies:
-    parse5 "^6.0.1"
-
 parse5@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
@@ -4051,11 +4044,6 @@ pkg-dir@^4.1.0, pkg-dir@^4.2.0:
   integrity sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
   dependencies:
     find-up "^4.0.0"
-
-popper.js@^1.16.1:
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
-  integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
 
 portfinder@^1.0.26:
   version "1.0.28"
@@ -4384,7 +4372,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.27:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.2.4:
+postcss@^8.2.6:
   version "8.2.6"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.6.tgz#5d69a974543b45f87e464bc4c3e392a97d6be9fe"
   integrity sha512-xpB8qYxgPuly166AGlpRjUdEYtmOWx2iCwGmrv4vqZL9YPVviDVPZPRXxnXr6xPZOdxQ9lp3ZBFCRgWJ7LE3Sg==

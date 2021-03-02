@@ -3,14 +3,13 @@ import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
 import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
-const logo = require("src/img/waist.svg").default;
 
 export default function P4LogWaist() {
     return (
         <>
             <NavigationBar title={_("MAIN.P4.HEAD")} />
 
-            <section className="rr-s-about">
+            <section className="rr-s-about ms-s-offset">
                 <div className="row" >
                     <div className="col-sm-12 col-md-9 order-last order-md-1">
                         <h3 className="mt-4">{_("PRODUCT.P4.ABOUT")}</h3>
@@ -55,7 +54,7 @@ export default function P4LogWaist() {
                     </div>
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src={logo} className="mx-auto" alt="Recruiter" />
+                        <img src="/img/waist.svg" className="mx-auto" alt="Recruiter" />
                     </div>
                 </div>
             </section>

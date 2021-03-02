@@ -1,5 +1,6 @@
-@import 'font.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'font.scss';
+
 @import 'base.scss';
 @import 'navigation.scss';
 @import 'section.scss';
@@ -9,9 +10,3 @@
 @import 'iron-image.scss';
 @import 'button.scss';
 
-
-.dropdown-menu { 
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important; 
-    margin-top: 0px !important; 
-    width: 100% !important; 
-} 

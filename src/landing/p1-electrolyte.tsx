@@ -10,7 +10,7 @@ export default function P1Electrolyte() {
         <div>
             <NavigationBar title={_("MAIN.P1.HEAD")} />
 
-            <section className="rr-s-about">
+            <section className="rr-s-about ms-s-offset">
                 <div className="row" >
                     <div className="col-sm-12 col-md-9 order-last order-md-1">
                         <h3 className="mt-3">{_("PRODUCT.P1.ABOUT")}</h3>

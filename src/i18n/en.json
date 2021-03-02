@@ -1,10 +1,10 @@
 {
     "APPSTORE": "us",
     "BTN": {
-        "SRC1": "Read source article.",
+        "SRC1": "Read source article",
         "FACT": "See Facts",
-        "SRC2": "Get facts from the source article.",
-        "WIKI": "Read full article on WiKi.",
+        "SRC2": "Get facts from the source article",
+        "WIKI": "Read full article on WiKi",
         "MORE": "Learn more"
     },
     "MAIN": {
@@ -51,6 +51,11 @@
     "FOOTER": {
         "C": "Copyright © 2021 Martspec LLC. All rights reserved.",
         "PP": "Privacy Policy"
+    },
+    "ERROR": {
+        "404_HEAD": "Page Not Found",
+        "404_TEXT": "This page does not exist. Please make sure you used correct url.",
+        "404_BTN": "Home"
     },
     "PRODUCT": {
         "P1": {

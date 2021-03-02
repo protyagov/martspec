@@ -27,6 +27,6 @@ export default function IronImage(props: AvatarModel) {
 
     return <span>
         {/* @ts-ignore */}
-        <img src={props.imgLo} ref={photoImg} style={{ width: "100%" }} alt={props.text} />
+        <img src={props.imgLo} ref={photoImg} style={{ width: "100%"}} alt={props.text} />
     </span>
 }
