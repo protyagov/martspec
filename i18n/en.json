@@ -1,10 +1,10 @@
 {
     "APPSTORE": "us",
     "BTN": {
-        "SRC1": "Read source article.",
+        "SRC1": "Read source article",
         "FACT": "See Facts",
-        "SRC2": "Get facts from the source article.",
-        "WIKI": "Read full article on WiKi.",
+        "SRC2": "Get facts from the source article",
+        "WIKI": "Read full article on WiKi",
         "MORE": "Learn more"
     },
     "MAIN": {
