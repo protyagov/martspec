@@ -90,7 +90,7 @@ export default function P3LogVitamin() {
             <div className="container mb-5 pb-5">
                 <div className="row align-items-center justify-content-sm-center" >
                     <div className="col-md-7 col-12 pb-5">
-                        <IronImage imgLo="/img/p_vitamin_screens_sm.png" imgHi="/img/p_vitamin_screens.png" text={_("MAIN.P3.IMG")} />
+                        <IronImage imgLo="/img/p_vitamin_screens_sm.webp" imgHi="/img/p_vitamin_screens.webp" text={_("MAIN.P3.IMG")} />
                     </div>
                     <div className="col-md-5 col-12 text-center pb-5">
                         <a href={`https://apps.apple.com/${_("APPSTORE")}/app/log-vitamin/id1507629553`}

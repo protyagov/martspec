@@ -62,6 +62,7 @@ module.exports = {
                 { from: 'src/../sitemap.txt' },
                 { from: 'src/404.html' },
                 { from: 'src/img/*.png', to: "img", flatten: true },
+                { from: 'src/img/*.webp', to: "img", flatten: true },
                 { from: 'src/img/icon', to: "icon", flatten: true },
                 // { from: 'src/product', to: "product", flatten: false },
                 // { from: 'src/product', to: "product", flatten: false },
@@ -70,7 +71,7 @@ module.exports = {
                 concurrency: 100,
             },
         })
-        // , new BundleAnalyzerPlugin()
+        //  , new BundleAnalyzerPlugin()
     ],
     resolve: {
         extensions: [".ts", ".tsx", ".js", ".json", ".scss", ".jsx"],
@@ -89,7 +90,7 @@ module.exports = {
             cacheGroups: {
                 vendor: {
                     chunks: 'initial',
-                    test: /[\\/]node_modules[\\/](react|react-dom|react-meta-tags|bootstrap|toastr|superagent|date-fns|node-polyglot|popper.js|history*|for-each|es-abstract|component-emmiter|object-keys)[\\/]/,
+                    test: /[\\/]node_modules[\\/](react|react-dom|bootstrap|scheduler|node-polyglot|jquery|popper.js|history*|for-each|es-abstract|component-emmiter|object-keys)[\\/]/,
                     name: "vendor"
                 }
             },

@@ -1,4 +1,3 @@
-import * as toastr from "toastr";
 import ErrorModel from "./model/error";
 import _ from "./i18n/locale";
 
@@ -56,8 +55,8 @@ export default class AppState {
                 break;
         }
 
-        if (show)
-            toastr.error(_(e.message), e.title, { preventDuplicates: true });
+        // if (show)
+        //     toastr.error(_(e.message), e.title, { preventDuplicates: true });
     }
 
     //-------------------------------------------------------------------------------------------------------

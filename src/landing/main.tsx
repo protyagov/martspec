@@ -1,10 +1,8 @@
 import * as React from "react";
 import _, { locale } from "src/i18n/locale"
 import { Footer } from "../part/footer";
-import ContactUs from "src/part/contact-us";
 import IronImage from "src/part/iron-image";
 import NavBarLang from "src/part/navbar-signin";
-const logo = require("src/img/logo_256.png").default;
 
 
 export default function LandingPage() {
@@ -14,7 +12,7 @@ export default function LandingPage() {
 
             <section id="header" className="ms-s-header">
                 <div className="text-vertical-center">
-                    <img src={logo} alt={_("MAIN.HEAD")} />
+                    <img src="/img/logo_256.webp" alt={_("MAIN.HEAD")} />
                     <h1>{_("MAIN.HEAD")}</h1>
                     <h4>{_("MAIN.SUBHEAD")}</h4>
                 </div>
@@ -29,7 +27,7 @@ export default function LandingPage() {
                         <a href={locale.i18nLink("electrolyte")} className="mt-3 rr-btn-large">{_("MAIN.P1.BTN")}</a>
                     </div>
                     <div className="col-md-4 order-sm-1">
-                        <IronImage imgLo="/img/p_electrolyte_sm.png" imgHi="/img/p_electrolyte.png" text={_("MAIN.P1.IMG")} />
+                        <IronImage imgLo="/img/p_electrolyte_sm.webp" imgHi="/img/p_electrolyte.webp" text={_("MAIN.P1.IMG")} />
                     </div>
                 </div>
             </section>
@@ -38,7 +36,7 @@ export default function LandingPage() {
             <section className="rr-s-product my-5">
                 <div className="ms-product-row">
                     <div className="col-md-4">
-                        <IronImage imgLo="/img/p_mass_sm.png" imgHi="/img/p_mass.png" text={_("MAIN.P2.IMG")} />
+                        <IronImage imgLo="/img/p_mass_sm.webp" imgHi="/img/p_mass.webp" text={_("MAIN.P2.IMG")} />
                     </div>
 
                     <div className="col-md-6 align-self-center">
@@ -61,7 +59,7 @@ export default function LandingPage() {
                     </div>
 
                     <div className="col-md-4 order-sm-1">
-                        <IronImage imgLo="/img/p_vitamin_sm.png" imgHi="/img/p_vitamin.png" text={_("MAIN.P3.IMG")} />
+                        <IronImage imgLo="/img/p_vitamin_sm.webp" imgHi="/img/p_vitamin.webp" text={_("MAIN.P3.IMG")} />
                     </div>
                 </div>
             </section>
@@ -70,7 +68,7 @@ export default function LandingPage() {
             <section className="rr-s-product my-5">
                 <div className="ms-product-row">
                     <div className="col-md-4">
-                        <IronImage imgLo="/img/p_waist_sm.png" imgHi="/img/p_waist.png" text={_("MAIN.P4.IMG")} />
+                        <IronImage imgLo="/img/p_waist_sm.webp" imgHi="/img/p_waist.webp" text={_("MAIN.P4.IMG")} />
                     </div>
 
                     <div className="col-md-6 align-self-center">
