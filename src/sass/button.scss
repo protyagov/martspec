@@ -18,23 +18,6 @@
     }
 }
 
-.rr-btn-o {
-    @extend .btn;
-    border-radius: 2rem;
-    border-color: $rr-color-main;
-    font-size: 1rem;
-    font-family: os6 !important; // padding: 3rem 4÷rem;
-    text-transform: uppercase;
-    background-color: white;
-    color: $rr-color-main !important;
-
-    &:hover {
-        color: white !important;
-        background-color: #728ee2
-    }
-}
-
-
 .rr-btn-large {
     @extend .pw-button;
     @extend .btn;
@@ -50,31 +33,6 @@
     font-weight: 600; // letter-spacing: 1px;
     padding: 0.8rem 2+rem;
     border-radius: 2rem;
-}
-
-.icon-button {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    outline: none;
-    border: 0;
-    background: transparent;
-}
-
-.cl-btn-material {
-    width: 6rem;
-    height: 6rem;
-    padding: 10px 16px;
-    border-radius: 3rem;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-right: 2rem;
-}
-
-.cl-position-absolute {
-    @extend .position-absolute;
-    bottom: 0;
-    margin-bottom: 5rem;
 }
 
 .unstyled-button {
@@ -105,23 +63,6 @@
         text-decoration: underline;
         color: white;
         font-size: 1rem;
-    }
-}
-
-.rr-btn-amazon {
-    @extend .btn;
-    font-size: 1.2rem;
-    color: $sc-color-gray-dark !important;
-    font-family: os4;
-
-    &:hover {
-        cursor: pointer;
-        color: $rr-color-main !important;
-        text-decoration: none;
-    }
-
-    &:focus {
-        box-shadow: none;
     }
 }
 

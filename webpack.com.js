@@ -5,6 +5,7 @@ const
     BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin,
     CopyPlugin = require('copy-webpack-plugin'),
     OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
+    HtmlWebpackInjectPreload = require('@principalstudio/html-webpack-inject-preload'),
     HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -29,6 +30,7 @@ module.exports = {
             filename: 'style.[chunkhash:3].css'
         }),
 
+
         // --------------- Static Content EN --------------- 
         new HtmlWebpackPlugin({ template: './src/template/en/main.ejs', filename: 'index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/main.ejs', filename: 'en/index.html', inject: 'body' }),
@@ -48,6 +50,19 @@ module.exports = {
         new HtmlWebpackPlugin({ template: './src/template/ru/logvitamin.ejs', filename: 'ru/logvitamin/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/ru/logwaist.ejs', filename: 'ru/logwaist/index.html', inject: 'body' }),
         // --------------- Static Content DE --------------- 
+
+        new HtmlWebpackInjectPreload({
+            files: [
+                {
+                    match: /.*\.woff2$/,
+                    attributes: { as: 'font', type: 'font/woff2', crossorigin: true },
+                },
+                // {
+                //     match: /.\.[a-z-0-9]*.css$/,
+                //     attributes: { as: 'style' },
+                // },
+            ]
+        }),
 
         new CopyPlugin({
             patterns: [
@@ -84,7 +99,8 @@ module.exports = {
             cacheGroups: {
                 vendor: {
                     chunks: 'initial',
-                    test: /[\\/]node_modules[\\/](react|react-dom|bootstrap|scheduler|node-polyglot|history*|get-intrinsic|has-symbols|object-assign|is-callable|for-each|es-abstract|component-emmiter|object-keys)[\\/]/,
+                    //|get-intrinsic|has-symbols|object-assign|is-callable|for-each|es-abstract|component-emmiter|object-keys)
+                    test: /[\\/]node_modules[\\/](react|react-dom|bootstrap|scheduler|node-polyglot|history*)[\\/]/,
                     name: "vendor"
                 }
             },

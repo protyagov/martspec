@@ -61,7 +61,7 @@ export default function P1Electrolyte() {
                     </div>
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src={logo} className="mx-auto" alt="Recruiter" />
+                        <img src={logo} className="mx-auto" alt={_("MAIN.P1.IMG")} />
                     </div>
                 </div>
             </section>

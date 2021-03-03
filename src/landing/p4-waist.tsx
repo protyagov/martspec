@@ -3,6 +3,7 @@ import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
 import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
+const logo = require("src/img/waist.svg").default;
 
 export default function P4LogWaist() {
     return (
@@ -54,7 +55,7 @@ export default function P4LogWaist() {
                     </div>
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src="/img/waist.svg" className="mx-auto" alt="Recruiter" />
+                        <img src={logo} className="mx-auto" alt={_("MAIN.P4.IMG")} />
                     </div>
                 </div>
             </section>
@@ -63,7 +64,7 @@ export default function P4LogWaist() {
             <div className="container mb-5 pb-5">
                 <div className="row align-items-center justify-content-sm-center" >
                     <div className="col-md-7 col-12 pb-5">
-                        <IronImage imgLo="/img/p_waist_screens_sm.webp" imgHi="/img/p_waist_screens.webp" text={_("MAIN.P1.IMG")} />
+                        <IronImage imgLo="/img/p_waist_screens_sm.webp" imgHi="/img/p_waist_screens.webp" text={_("MAIN.P4.IMG")} />
                     </div>
                     <div className="col-md-5 col-12 text-center pb-5">
                         <a href={`https://apps.apple.com/${_("APPSTORE")}/app/log-waist/id1506250420`}

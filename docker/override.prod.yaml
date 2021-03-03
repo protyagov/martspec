@@ -1,8 +1,0 @@
-version: '3.8'
-
-services:
-  ui:
-    image: sedera1.azurecr.io/subledger-ui:v1
-    domainname: subledger-ui
-    environment:
-      - __API_BASE_URL__="http://subledger-api.southcentralus.azurecontainer.io"

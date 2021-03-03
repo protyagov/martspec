@@ -46,6 +46,11 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.8.6.tgz#ad75ebe8dbecfa145af3c7e4d0ae98016458d005"
   integrity sha512-1oXH2bAFXz9SttE1v/0Jp+2ZVePsPEAPGIuPKrmljWZcS3FPBEn2Q4WcANozZC0YiCjTWOF55k0g6rbSZS39ew==
 
+"@principalstudio/html-webpack-inject-preload@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@principalstudio/html-webpack-inject-preload/-/html-webpack-inject-preload-1.2.6.tgz#d80b6017026b3e17e5df9934b9b7bb69387e3b3f"
+  integrity sha512-wcSTcBIFHvRudDduVQIrtiOIeZjkmCozJCJxceb3rsmSjTRkDec6gh1naftcShLxWZgRSw0tzlwoI522RjhaKA==
+
 "@types/bootstrap@^5.0.1":
   version "5.0.8"
   resolved "https://registry.yarnpkg.com/@types/bootstrap/-/bootstrap-5.0.8.tgz#23725bf155be5eea507aa66e2ef8fa247b311b72"
@@ -151,13 +156,6 @@
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
   integrity sha512-7EJYyKTL7tFR8+gDbB6Wwz/arpGa0Mywk1TJbNzKzHtzbwVmY4HR9WqS5VV7dsBUKQmPNr192jHr/VpBluj/hg==
-
-"@types/toastr@^2.1.35":
-  version "2.1.38"
-  resolved "https://registry.yarnpkg.com/@types/toastr/-/toastr-2.1.38.tgz#ec68b55167cd2041f415467e9809e65bc3be06df"
-  integrity sha512-zKF+vbPVkkwBaMy0lm5NdI117mOoxWOQf2eXOuP/upQ5lHDSfNK/bVoo/x8/IN1hLzO81g+JvTpZQhqr0gKyYg==
-  dependencies:
-    "@types/jquery" "*"
 
 "@webassemblyjs/ast@1.11.0":
   version "1.11.0"
@@ -5389,11 +5387,6 @@ stylehacks@^4.0.0:
     browserslist "^4.0.0"
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
-
-stylelint-config-recommended@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-3.0.0.tgz#e0e547434016c5539fe2650afd58049a2fd1d657"
-  integrity sha512-F6yTRuc06xr1h5Qw/ykb2LuFynJ2IxkKfCMf+1xqPffkxh0S09Zc902XCffcsw/XMFq/OzQ1w54fLIDtmRNHnQ==
 
 supports-color@^2.0.0:
   version "2.0.0"

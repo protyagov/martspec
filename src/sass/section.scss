@@ -17,6 +17,11 @@
 .ms-s-header {
   @extend .rr-s;
 
+  .text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+}
 
   h1 {
     padding-left: 3rem;
@@ -32,7 +37,7 @@
   }
 
   h4 {
-    @extend .text-muted;
+    color: $cl-color-text-peter-aerts;
     // font-weight: 300;
     font-size: 2rem;
     margin-bottom: 20vmin;

@@ -81,7 +81,7 @@ export default function P3LogVitamin() {
 
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src={logo} className="mx-auto" alt="Recruiter" />
+                        <img src={logo} className="mx-auto" alt={_("MAIN.P3.IMG")} />
                     </div>
                 </div>
             </section>

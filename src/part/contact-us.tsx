@@ -1,8 +1,5 @@
 import * as React from "react";
-import * as toastr from "toastr";
-import { API_BASE_URL } from 'src/env';
 import MessageModel from "src/model/message";
-import AppState from "src/state";
 
 
 interface ContactUs {
@@ -16,10 +13,6 @@ export default function ContactUs(props: ContactUs) {
     function sendMessage(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
         if (message.body.length < 10) {
-            toastr.error(
-                "Please include more details in your message, so that we can address it in a better way.",
-                "Message is too short"
-            );
             return;
         }
         console.log(message);
