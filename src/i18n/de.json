@@ -1,0 +1,127 @@
+{
+    "APPSTORE": "de",
+    "BTN": {
+        "SRC1": "Quellartikel lesen",
+        "FACT": "Siehe Fakten",
+        "SRC2": "Holen Sie sich Fakten aus dem Quellartikel",
+        "WIKI": "Lesen Sie den vollständigen Artikel über WiKi",
+        "MORE": "Mehr erfahren"
+    },
+    "MAIN": {
+        "HEAD": "Gesundheit und Fitness",
+        "SUBHEAD": "Machen Sie tägliche Aufgaben agil und mühelos",
+        "IMG": "Einfachheit der Gesundheitsverfolgung, Apple Watch Wellness- und Gesundheits-Apps",
+        "P1": {
+            "HEAD": "Electrolyte",
+            "SUBHEAD": "wasser-Salz-Gleichgewicht",
+            "TEXT": "Elektrolyte spielen eine wichtige Rolle bei der Aufrechterhaltung der Homöostase im Körper. Sie helfen bei der Regulierung des Herzens und der neurologischen Funktion, des Flüssigkeitshaushalts, der Sauerstoffzufuhr, des Säure-Base-Gleichgewichts und vielem mehr.",
+            "BTN": "Weiterlesen",
+            "IMG": "Nehmen Sie Elektrolyte und Mineralien mit Ihrer Apple Watch auf",
+            "DWN": "Laden Sie die kostenlose Elektrolyt-Tracker-App aus dem Apple AppStore herunter"
+        },
+        "P2": {
+            "HEAD": "Log Mass",
+            "SUBHEAD": "Gewichtsjournal",
+            "TEXT": "Das Verfolgen Ihres Gewichts steigert Ihre Effizienz in Bezug auf Ihre Zeit und Ihr Training. Es wird Sie nicht nur dazu bringen, es besser zu machen, sondern Sie auch dazu bringen, Ihre eigene Konkurrenz zu sein!",
+            "BTN": "Schau mal",
+            "IMG": "Speichern Sie Körpermasse direkt von Ihrer Apple Watch in Apple Health Storage",
+            "DWN": "Laden Sie die kostenlose Log Mass-App aus dem Apple AppStore herunter"
+        },
+        "P3": {
+            "HEAD": "Log Vitamin",
+            "SUBHEAD": "der ultimative Vitamin Tracker",
+            "TEXT": "Das Verfolgen Ihrer essentiellen Vitamine hat viele Vorteile, angefangen bei der Behandlung von Nahrungsmittelunverträglichkeiten bis hin zur Steigerung der Energie, zur Vermeidung von Stimmungsschwankungen und zur Förderung des Tagesrhythmus.",
+            "BTN": "Weiterlesen",
+            "IMG": "Verfolgen Sie die wichtigsten Vitamine direkt am Handgelenk",
+            "DWN": "Laden Sie die kostenlose Log Vitamin App aus dem Apple AppStore herunter"
+        },
+        "P4": {
+            "HEAD": "Log Waist",
+            "SUBHEAD": "winzige Taille - gesundes Herz",
+            "TEXT": "Der einfachste Weg, um den Taillenumfang auf der Apple Watch zu verfolgen. Alle Datensätze werden mit Ihrem Apple Health synchronisiert.",
+            "BTN": "Erfahren Sie mehr",
+            "IMG": "Behalten Sie Ihre Taillengröße (Bauchnabel) direkt von Ihrem Arm aus im Auge",
+            "DWN": "Laden Sie die kostenlose Log Waist-App aus dem Apple AppStore herunter"
+        }
+    },
+    "NAV": {
+        "HOME": "Hauptseite"
+    },
+    "FOOTER": {
+        "C": "Copyright © 2021 Martspec LLC. Alle Rechte vorbehalten.",
+        "PP": "Datenschutz-Bestimmungen"
+    },
+    "ERROR": {
+        "404_HEAD": "Seite nicht gefunden",
+        "404_TEXT": "Diese Seite existiert nicht. Bitte stellen Sie sicher, dass Sie die richtige URL verwendet haben.",
+        "404_BTN": "Hauptseite"
+    },
+    "PRODUCT": {
+        "P1": {
+            "ABOUT": "Elektrolyte spielen eine wichtige Rolle bei der Aufrechterhaltung der Homöostase im Körper. Sie helfen bei der Regulierung des Herzens und der neurologischen Funktion, des Flüssigkeitshaushalts, der Sauerstoffzufuhr, des Säure-Base-Gleichgewichts und vielem mehr. Verfolgen Sie die Elektrolytaufnahme mit der Apple Watch App.",
+            "HEAD1": "Magnesium",
+            "DESC1": "Reguliert den Herzrhythmus, die Nervenfunktion, die Muskelkontraktion, den Blutdruck und den Zuckerspiegel und ist an der Herstellung von Protein, Knochen und DNA beteiligt. Magnesiummangel führt zu Appetitlosigkeit, Übelkeit, Erbrechen, Müdigkeit und Schwäche; während hohe Werte Hypermagnesiämie verursachen können. ",
+            "HEAD2": "Kalzium",
+            "DESC2": "Hilft den Muskeln, sich zu bewegen, und den Nerven, Botschaften zwischen dem Gehirn und jedem Körperteil zu transportieren. Hilft Blutgefäßen, Blut durch den Körper zu bewegen. Beteiligt sich an der Freisetzung von Hormonen und Enzymen, die nahezu jede Funktion im menschlichen Körper beeinflussen. Etwa 99% der körpereigenen Kalziumversorgung wird in Knochen und Zähnen gespeichert. ",
+            "HEAD3": "Kalium",
+            "DESC3": "Wird für fast alles im Körper verwendet, einschließlich der richtigen Nieren- und Herzfunktion, Muskelkontraktion und Nervenübertragung. Kaliummangel kann den Blutdruck erhöhen und Kalzium in den Knochen verbrauchen. ",
+            "HEAD4": "Eisen",
+            "DESC4": "Ein wichtiger Bestandteil von Hämoglobin und Myoglobin, Proteinen, die Sauerstoff zu Körpergeweben und Muskeln transportieren. Rote Blutkörperchen enthalten mehr als die Hälfte des menschlichen Körpers Eisen. ",
+            "HEAD5": "Risiken",
+            "DESC5": "Elektrolytstörungen können entstehen, wenn zu wenig oder zu viel Elektrolyt verbraucht und zu wenig oder zu viel Elektrolyt ausgeschieden wird. "
+        },
+        "P2": {
+            "ABOUT": "Das Body Weight Journal ist das perfekte Werkzeug, um die Effizienz Ihrer Übungen und die Motivation zum Erreichen des Ziels zu steigern. Alle Daten werden mit Apple Health synchronisiert und sind 7 Tage lang auf Ihrer Uhr verfügbar, um einen schnellen Überblick zu erhalten. Alles ist einfach und absolut kostenlos.",
+            "HEAD1": "Rechenschaftspflicht",
+            "DESC1": "Wir haben eine Verantwortung für unsere Gesundheit. Niemand kann uns dazu bringen, Gewicht zu verlieren oder gesunde Lebensmittel zu wählen. Das müssen wir selbst entscheiden.",
+            "HEAD2": "Ehrlichkeit",
+            "DESC2": "Das Protokollieren unseres Gewichts macht es real. Während das seltsam klingt; Es ist echt. Dies sind Daten, aufgezeichnete Fakten. Sie sind real, ob wir sie aufnehmen oder nicht. ",
+            "HEAD3": "Engagement",
+            "DESC3": "Tägliches Protokollieren ist wichtig, es hält gesunde Gewohnheiten vor Augen. Jedes Mal, wenn wir einen Protokolleintrag machen, werden wir an unser Engagement für die Gesundheit erinnert. Das Überspringen eines Tages hier und da erleichtert das Überspringen von 2 Tagen und dann von 3 Tagen. Dann, bevor Sie es wissen, haben Sie aufgehört und sind zu Ihren alten Gewohnheiten zurückgekehrt.",
+            "HEAD4": "App-Funktionen",
+            "DESC4_1": "Apple Health Integration",
+            "DESC4_2": "Verlauf vergangener Aufnahmen mit prozentualer Differenz",
+            "DESC4_3": "Alle Uhrengrößen, alle Komplikationsarten des Zifferblatts",
+            "DESC4_4": "Benötigt keine begleitende iPhone App"
+        },
+        "P3": {
+            "ABOUT": "Mit der LogVitamin Apple Watch App können Sie die Aufnahme wichtiger Vitamine direkt vom Handgelenk aus verfolgen, Ihren Fortschritt im Laufe der Zeit verfolgen und sind absolut kostenlos.",
+            "HEAD1": "Ernährungsentscheidungen verbessern",
+            "DESC1": "Diese App ist ein ausgezeichneter Vitamin-Tracker, der Ihre Ernährung verbessern und gleichzeitig die Nährstoffziele anpassen kann.",
+            "HEAD2": "Nehmen Sie einen gesünderen Lebensstil an",
+            "DESC2": "Tragbare Aktivitäts-Tracker bieten vielversprechende Möglichkeiten, um Benutzern zu einem gesünderen Lebensstil zu verhelfen. ",
+            "HEAD3": "Vitamin A - Beta-Carotin",
+            "DESC3": "Wichtig für das normale Sehen, das Immunsystem und die Fortpflanzung. Hilft, dass Herz, Lunge, Nieren und andere Organe richtig funktionieren. ",
+            "HEAD4": "Vitamin C - Ascorbinsäure",
+            "DESC4": "Schützt die Zellen und hält sie gesund. Unterstützt Blutgefäße, Knochen und Knorpel. Wichtig für die Wundheilung t k hilft bei der Entwicklung von Bindegewebe, Regenerationsprozessen und Heilung. Gibt Widerstand gegen verschiedene Arten von Stress, die Gewährleistung des normalen immunologischen Status des Körpers und die Aufrechterhaltung der Prozesse der Hämatopoese. ",
+            "HEAD5": "Vitamin D",
+            "DESC5": "Reguliert die Menge an Kalzium und Phosphat im Körper. Diese Nährstoffe werden benötigt, um Knochen, Zähne und Muskeln gesund zu halten. Ein Mangel an Vitamin D kann bei Kindern zu Knochendeformitäten wie Rachitis und Knochenschmerzen führen, die durch eine als Osteomalazie bezeichnete Erkrankung bei Erwachsenen verursacht werden. ",
+            "HEAD6": "Vitamin E",
+            "DESC6": "Unterstützt die Gesundheit und Schönheit des Körpers beim Schutz vor schädlichen Umweltfaktoren. Wenn Zellen, Gewebe und Organe Vitamin E in ausreichender Menge erhalten, verringert sich das Risiko für viele Krankheiten, verlangsamt den Alterungsprozess. Insbesondere als starkes Antioxidans ist Vitamin E an der Bildung von Fasern beteiligt, die es der Haut ermöglichen, elastisch zu bleiben. ",
+            "HEAD7": "Vitamin B12 - Cobalamin",
+            "DESC7": "Bildung roter Blutkörperchen und Gesundheit des Nervengewebes. Helfen Sie dem Körper, Lebensmittel (Kohlenhydrate) in Kraftstoff (Glukose) umzuwandeln, der zur Energieerzeugung verwendet wird. ",
+            "HEAD8": "Vitamin B7 - Biotin",
+            "DESC8": "Hilft bei der Umwandlung von Nährstoffen in Energie und spielt eine wichtige Rolle für die Gesundheit von Haaren, Haut und Nägeln. ",
+            "HEAD9": "Vitamin B9 - Folsäure",
+            "DESC9": "Wird benötigt, um rote und weiße Blutkörperchen im Knochenmark zu bilden, Kohlenhydrate in Energie umzuwandeln und DNA und RNA zu produzieren. ",
+            "HEAD0": "Vitamin B3 - Niacin",
+            "DESC0": "Muss Lebensmittel in Energie umwandeln. Es hilft, Ihr Nervensystem, Ihr Verdauungssystem und Ihre Haut gesund zu halten. "
+        },
+        "P4": {
+            "ABOUT": "Einfach zu bedienender Taillenumfang-Tracker für die Apple Watch. Erfordert weder Accout noch Registrierung. Absolut frei. Alle Datensätze werden mit Ihrer Apple Health App synchronisiert und die letzten 7 Tage können direkt von Ihrem Handgelenk aus aufgerufen werden.",
+            "HEAD1": "Medizinische Tatsache",
+            "DESC1": "Wenn sich mehr Fett um Ihre Taille als um Ihre Hüften befindet, besteht ein höheres Risiko für Erkrankungen wie Herzerkrankungen und Typ-2-Diabetes. ",
+            "LINK1": "National Institutes of Health, USA",
+            "HEAD2": "Besser als BMI",
+            "LINK2": "Studie der American Heart Association",
+            "DESC2": " hat gezeigt, dass die Messung der Taille ein besserer Weg ist, um das Risiko von Herzerkrankungen vorherzusagen, als der weit verbreitete Body-Mass-Index.",
+            "HEAD3": "Körperzusammensetzung",
+            "DESC3": "Wenn Sie Muskeln aufbauen und Zentimeter Fett verlieren, ändert sich Ihr Gewicht möglicherweise nicht wesentlich. Deshalb kann die Körperzusammensetzung Ihnen mehr als die Skala erzählen, sie erzählt Ihnen die wahre Geschichte.",
+            "HEAD4": "Erhöhtes kardiovaskuläres Risiko",
+            "DESC4_1": "Männer: 102 cm oder mehr",
+            "DESC4_2": "Frauen: 88 cm oder mehr",
+            "DESC4_3": "Alle 5 cm Taillengröße erhöhen das Risiko bei Männern um 17% und bei Frauen um 13%, unabhängig vom BMI",
+            "DESC4_4": "Quelle: "
+        }
+    }
+}

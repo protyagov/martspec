@@ -8,3 +8,8 @@ https://martspec.com/ru/electrolyte
 https://martspec.com/ru/logmass
 https://martspec.com/ru/logvitamin
 https://martspec.com/ru/logwaist
+https://martspec.com/de
+https://martspec.com/de/electrolyte
+https://martspec.com/de/logmass
+https://martspec.com/de/logvitamin
+https://martspec.com/de/logwaist

@@ -14,6 +14,9 @@ export default function NavBarLang() {
             <li className="nav-item" hidden={locale.language == 'ru'}>
                 <a className="nav-link" href="/ru">Русский</a>
             </li>
+            <li className="nav-item" hidden={locale.language == 'de'}>
+                <a className="nav-link" href="/de">Deutsche</a>
+            </li>
         </ul>
     </div>
 }
