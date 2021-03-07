@@ -1,0 +1,127 @@
+{
+    "APPSTORE": "fr",
+    "BTN": {
+        "SRC1": "Lire l'article source",
+        "FACT": "Voir les faits",
+        "SRC2": "Obtenez des faits à partir de l'article source",
+        "WIKI": "Lire l'article complet sur WiKi",
+        "MORE": "Apprendre encore plus"
+    },
+    "MAIN": {
+        "HEAD": "Simplicité du suivi de la santé",
+        "SUBHEAD": "Des applications pour rendre les tâches quotidiennes agiles et sans effort",
+        "IMG": "Applications de bien-être et de santé Apple Watch",
+        "P1": {
+            "HEAD": "Electrolyte",
+            "SUBHEAD": "les minéraux les plus vitaux",
+            "TEXT": "Les électrolytes jouent un rôle essentiel dans le maintien de l'homéostasie dans le corps. Ils aident à réguler le cœur et la fonction neurologique, l'équilibre hydrique, l'apport d'oxygène, l'équilibre acido-basique et bien plus encore.",
+            "BTN": "Obtenir les faits",
+            "IMG": "Enregistrez des électrolytes et des minéraux avec votre Apple Watch",
+            "DWN": "Téléchargez l'application gratuite Electrolyte Tracker sur l'AppStore d'Apple"
+        },
+        "P2": {
+            "HEAD": "Log Mass",
+            "SUBHEAD": "journal de poids facile",
+            "TEXT": "Le suivi de votre poids augmente votre efficacité en termes de temps et d'entraînement. Non seulement cela vous poussera à faire mieux, mais vous conduira également à être votre propre compétition!",
+            "BTN": "regarde",
+            "IMG": "Enregistrez la masse corporelle directement de votre Apple Watch dans le stockage de santé Apple",
+            "DWN": "Téléchargez gratuitement l'application Log Mass depuis l'AppStore d'Apple"
+        },
+        "P3": {
+            "HEAD": "Log Vitamin",
+            "SUBHEAD": "le traqueur ultime de vitamines",
+            "TEXT": "Le suivi de vos vitamines essentielles présente de nombreux avantages, allant de la gestion des intolérances alimentaires à l'augmentation de l'énergie, en évitant les changements d'humeur et en alimentant les rythmes de votre journée.",
+            "BTN": "Lire la suite",
+            "IMG": "Suivez les vitamines les plus essentielles directement sur votre poignet",
+            "DWN": "Téléchargez l'application Free Log Vitamin depuis l'AppStore d'Apple"
+        },
+        "P4": {
+            "HEAD": "Log Waist",
+            "SUBHEAD": "petite taille - cœur en bonne santé",
+            "TEXT": "Le moyen le plus simple de suivre le tour de taille sur Apple Watch. Tous les enregistrements sont synchronisés avec votre santé Apple.",
+            "BTN": "apprendre encore plus",
+            "IMG": "Gardez une trace de votre tour de taille (nombril) directement depuis votre bras",
+            "DWN": "Téléchargez gratuitement l'application Log Waist depuis l'AppStore d'Apple"
+        }
+    },
+    "NAV": {
+        "HOME": "domicile"
+    },
+    "FOOTER": {
+        "C": "© 2021 Martspec LLC. Tous les droits sont réservés.",
+        "PP": "Politique de confidentialité"
+    },
+    "ERROR": {
+        "404_HEAD": "Page non trouvée",
+        "404_TEXT": "Cette page n'existe pas. Veuillez vous assurer que vous avez utilisé la bonne URL.",
+        "404_BTN": "Domicile"
+    },
+    "PRODUCT": {
+        "P1": {
+            "ABOUT": "Les électrolytes jouent un rôle essentiel dans le maintien de l'homéostasie dans le corps. Ils aident à réguler le cœur et la fonction neurologique, l'équilibre hydrique, l'apport d'oxygène, l'équilibre acido-basique et bien plus encore. Suivez l'apport d'électrolytes avec l'application Apple Watch.",
+            "HEAD1": "Magnésium",
+            "DESC1": "Régule le rythme cardiaque, la fonction nerveuse, la contraction musculaire, la pression artérielle et les niveaux de sucre, participe à la fabrication de protéines, d'os et d'ADN. Une carence en magnésium entraîne une perte d'appétit, des nausées, des vomissements, de la fatigue et de la faiblesse; tandis que des niveaux élevés de celui-ci peuvent provoquer une hypermagnésémie. ",
+            "HEAD2": "Calcium",
+            "DESC2": "Aide les muscles à bouger et les nerfs à transmettre des messages entre le cerveau et chaque partie du corps. Aide les vaisseaux sanguins à faire circuler le sang dans tout le corps. Participe à la libération d'hormones et d'enzymes qui affectent presque toutes les fonctions du corps humain. Environ 99% de l'apport en calcium du corps est stocké dans les os et les dents. ",
+            "HEAD3": "Potassium",
+            "DESC3": "Utilisé pour presque tout dans le corps, y compris la fonction rénale et cardiaque appropriée, la contraction musculaire et la transmission nerveuse. Une carence en potassium peut augmenter la tension artérielle et épuiser le calcium des os. ",
+            "HEAD4": "Le fer",
+            "DESC4": "Une partie vitale de l'hémoglobine et de la myoglobine, des protéines qui transportent l'oxygène vers les tissus et les muscles du corps. Les globules rouges contiennent plus de la moitié du fer du corps humain. ",
+            "HEAD5": "Des risques",
+            "DESC5": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte. "
+        },
+        "P2": {
+            "ABOUT": "Le journal de poids corporel est l'outil parfait pour augmenter l'efficacité de vos exercices et la motivation pour atteindre l'objectif. Toutes les données sont synchronisées avec Apple Health et disponibles sur votre montre pendant 7 jours pour un aperçu rapide. Tout est simple et absolument gratuit.",
+            "HEAD1": "Responsabilité",
+            "DESC1": "Nous avons une responsabilité envers nous-mêmes pour notre santé. Personne ne peut nous faire perdre du poids ou choisir des aliments sains. Nous devons en décider nous-mêmes. ",
+            "HEAD2": "Honnêteté",
+            "DESC2": "Enregistrer notre poids le rend réel. Bien que cela semble étrange; c'est vrai. Ce sont des données, des faits enregistrés. Ils sont réels, que nous les enregistrions ou non. ",
+            "HEAD3": "Engagement",
+            "DESC3": "La journalisation quotidienne est importante, elle garde des habitudes saines devant nos esprits. Chaque fois que nous faisons une entrée de journal, nous nous rappelons notre engagement en faveur de la santé. Sauter une journée ici et là permet de sauter plus facilement 2 jours, puis 3 jours. Ensuite, avant que vous ne vous en rendiez compte, vous vous êtes arrêté et vous êtes revenu à vos anciennes habitudes. ",
+            "HEAD4": "Fonctionnalités de l'application",
+            "DESC4_1": "Intégration Apple Health",
+            "DESC4_2": "Historique des enregistrements passés avec différence de pourcentage",
+            "DESC4_3": "Toutes les tailles de montre, tous les types de complications de visage de montre",
+            "DESC4_4": "N'a pas besoin d'une application iPhone compagnon"
+        },
+        "P3": {
+            "ABOUT": "L'application Apple Watch vous permet de suivre votre apport en vitamines essentielles directement à partir de votre poignet, de voir vos progrès au fil du temps et est absolument gratuite.",
+            "HEAD1": "Améliorer le régime alimentaire",
+            "DESC1": "Le suivi de la prise de vitamines motive à améliorer le régime alimentaire et à devenir plus pointilleux sur les choix alimentaires, ce qui aide notre corps et notre esprit. Toutes les données sont synchronisées dans Apple Santé, et jusqu'à 7 jours sont consultables à partir de la montre. ",
+            "HEAD2": "Vie saine",
+            "DESC2": "Les appareils portables (wearable) aident leurs propriétaires à passer à un mode de vie plus sain. ",
+            "HEAD3": "Vitamine A-Bêta-carotène",
+            "DESC3": "Important pour le système immunitaire et la fonction de reproduction du corps. Aide le cœur, les poumons et les reins à fonctionner correctement. L'antioxydant le plus puissant régule le renouvellement de l'épithélium de la peau, la croissance des cheveux et la fonction visuelle, protégeant le corps contre les effets destructeurs des radicaux libres. ",
+            "HEAD4": "Vitamine C-Acide Ascorbique",
+            "DESC4": "Protège les cellules et les maintient en bonne santé. Soutient les vaisseaux sanguins, les OS et le cartilage. Important pour la cicatrisation des plaies t K aide au développement du tissu conjonctif, des processus de régénération et de guérison. Donne une résistance à divers types de stress, assurer l'état immunologique normal du corps et maintenir les processus d'Hématopoïèse. ",
+            "HEAD5": "Vitamine D",
+            "DESC5": "Régule la quantité de calcium et de phosphate dans le corps en maintenant ainsi des dents, des OS et des muscles sains. La faible teneur en cette vitamine provoque des problèmes osseux - rachitisme chez les enfants et ostéomalacie chez les adultes. ",
+            "HEAD6": "Vitamine E-Tocophérol",
+            "DESC6": "Soutient la santé et la beauté du corps tout en protégeant contre les facteurs destructeurs de l'environnement extérieur. Si les cellules, les tissus et les organes reçoivent suffisamment de vitamine e, le risque de développer de nombreuses maladies diminue et le processus de vieillissement ralentit. En particulier, en tant qu'antioxydant puissant, la vitamine E participe à la formation de fibres permettant à la peau de rester élastique. ",
+            "HEAD7": "Vitamine B12-Cobalamine",
+            "DESC7": "Formation de globules rouges et protection des tissus nerveux. Aide le corps à convertir les glucides en glucose qui est nécessaire à la production d'énergie. ",
+            "HEAD8": "Vitamine B7-Biotine",
+            "DESC8": "La biotine est appelée 'vitamine de beauté' en raison de ses effets positifs sur l'état des cheveux, de la peau et des ongles. Nécessaire au bon déroulement du métabolisme énergétique. Régule le niveau de glucose dans le sang, protège contre la destruction des cellules du cerveau, participe à la division cellulaire, soutient le fonctionnement normal des glandes surrénales, de la thyroïde, du système cardiovasculaire. ",
+            "HEAD9": "Vitamine B9-acide Folique",
+            "DESC9": "Formation de globules rouges et blancs dans la moelle osseuse. Aide le corps à créer des cellules d'ADN et d'ARN et à convertir les glucides en glucose. ",
+            "HEAD0": "Vitamine B3-Niacine",
+            "DESC0": "Important pour transformer les aliments en énergie. Aide les systèmes nerveux et digestif à rester en bonne santé et la peau à bien paraître. "
+        },
+        "P4": {
+            "ABOUT": "Un journal de taille taille pratique et simple sur votre Apple Iwatch. Ne nécessite pas de compte et d'inscription. L'historique des mesures est synchronisé avec l'application Apple Health, et jusqu'à 7 jours sont stockés sur la montre.",
+            "HEAD1": "Fait Médical",
+            "DESC1": "Si plus de graisse est située autour de votre taille plutôt que autour de vos hanches, vous êtes plus à risque de maladies, y compris les maladies cardiaques et le diabète de type 2.",
+            "LINK1": "Les Instituts nationaux de la Santé, états-unis",
+            "HEAD2": "Mieux que l'IMC",
+            "LINK2": "Étude réalisée par l'American Heart Association",
+            "DESC2": " a montré que la mesure de la taille pourrait être un meilleur moyen de prédire le risque de maladie cardiaque qu'un indice de masse corporelle largement utilisé.",
+            "HEAD3": "Composition corporelle",
+            "DESC3": "Lorsque vous gagnez du muscle et que vous perdez des centimètres de graisse, votre poids peut ne pas changer beaucoup. C'est pourquoi la composition corporelle peut vous en dire plus que l'échelle, elle vous raconte la vraie histoire.",
+            "HEAD4": "Risque cardiovasculaire élevé",
+            "DESC4_1": "Hommes: 40 pouces ou plus (102 cm)",
+            "DESC4_2": "Femmes: 35 pouces ou plus (88 cm)",
+            "DESC4_3": "Chaque 5 cm supplémentaire à la taille augmente le risque de 13% chez les femmes et de 17% chez les hommes, quel que soit l'IMC (Indice de Masse Corporelle)",
+            "DESC4_4": "La source: "
+        }
+    }
+}

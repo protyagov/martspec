@@ -17,6 +17,9 @@ export default function NavBarLang() {
             <li className="nav-item" hidden={locale.language == 'de'}>
                 <a className="nav-link" href="/de">Deutsche</a>
             </li>
+            <li className="nav-item" hidden={locale.language == 'fr'}>
+                <a className="nav-link" href="/fr">Français</a>
+            </li>
             <li className="nav-item" hidden={locale.language == 'hi'}>
                 <a className="nav-link" href="/hi">हिन्दी</a>
             </li>
@@ -26,6 +29,13 @@ export default function NavBarLang() {
             <li className="nav-item" hidden={locale.language == 'es'}>
                 <a className="nav-link" href="/es">Español</a>
             </li>
+            <li className="nav-item" hidden={locale.language == 'cn'}>
+                <a className="nav-link" href="/cn">中文</a>
+            </li>
+            <li className="nav-item" hidden={locale.language == 'jp'}>
+                <a className="nav-link" href="/jp">日本語</a>
+            </li>
+
         </ul>
     </div>
 }
