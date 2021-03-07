@@ -13,7 +13,7 @@ export default function LandingPage() {
             <section id="header" className="ms-s-header">
                 <div className="text-vertical-center">
                     <img src="/img/logo_256.webp" alt={_("MAIN.HEAD")} />
-                    <h1>{_("MAIN.HEAD")}</h1>
+                    <h1>{_('MAIN.HEAD')}</h1>
                     <h4>{_("MAIN.SUBHEAD")}</h4>
                 </div>
             </section>

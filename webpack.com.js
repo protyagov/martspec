@@ -8,6 +8,11 @@ const
     HtmlWebpackInjectPreload = require('@principalstudio/html-webpack-inject-preload'),
     HtmlWebpackPlugin = require('html-webpack-plugin');
 
+
+function arrayOfPages() {
+
+}
+
 module.exports = {
     entry: {
         app: './src/index.tsx'
@@ -22,45 +27,23 @@ module.exports = {
     },
     plugins: [
         new OptimizeCssAssetsPlugin({
-            cssProcessorPluginOptions: {
-                preset: ['default', { discardComments: { removeAll: true } }],
-            }
+            cssProcessorPluginOptions: { preset: ['default', { discardComments: { removeAll: true } }], }
         }),
-        new MiniCssExtractPlugin({
-            filename: 'style.[chunkhash:3].css'
-        }),
+        new MiniCssExtractPlugin({ filename: 'style.[chunkhash:3].css' }),
 
 
         // --------------- Static Content EN --------------- 
         new HtmlWebpackPlugin({ template: './src/template/en/main.ejs', filename: 'index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/en/main.ejs', filename: 'en/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/logmass.ejs', filename: 'logmass/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/en/logmass.ejs', filename: 'en/logmass/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/electrolyte.ejs', filename: 'electrolyte/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/en/electrolyte.ejs', filename: 'en/electrolyte/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/logvitamin.ejs', filename: 'logvitamin/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/en/logvitamin.ejs', filename: 'en/logvitamin/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/logwaist.ejs', filename: 'logwaist/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/en/logwaist.ejs', filename: 'en/logwaist/index.html', inject: 'body' }),
-        // --------------- Static Content RU --------------- 
-        new HtmlWebpackPlugin({ template: './src/template/ru/main.ejs', filename: 'ru/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/ru/logmass.ejs', filename: 'ru/logmass/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/ru/electrolyte.ejs', filename: 'ru/electrolyte/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/ru/logvitamin.ejs', filename: 'ru/logvitamin/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/ru/logwaist.ejs', filename: 'ru/logwaist/index.html', inject: 'body' }),
-        // --------------- Static Content DE --------------- 
-        new HtmlWebpackPlugin({ template: './src/template/de/main.ejs', filename: 'de/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/de/logmass.ejs', filename: 'de/logmass/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/de/electrolyte.ejs', filename: 'de/electrolyte/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/de/logvitamin.ejs', filename: 'de/logvitamin/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/de/logwaist.ejs', filename: 'de/logwaist/index.html', inject: 'body' }),
 
         new HtmlWebpackInjectPreload({
-            files: [
-                {
-                    match: /.*\.woff2$/,
-                    attributes: { as: 'font', type: 'font/woff2', crossorigin: true },
-                },
+            files: [{
+                match: /.*\.woff2$/,
+                attributes: { as: 'font', type: 'font/woff2', crossorigin: true },
+            },
                 // {
                 //     match: /.\.[a-z-0-9]*.css$/,
                 //     attributes: { as: 'style' },
@@ -85,7 +68,14 @@ module.exports = {
             },
         })
         // , new BundleAnalyzerPlugin()
-    ],
+    ].concat(...[...['ru', 'de', 'fr', 'hi', 'en'].map(x => [
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/main.ejs`, filename: x + '/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/logmass.ejs`, filename: x + '/logmass/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/electrolyte.ejs`, filename: x + '/electrolyte/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/logvitamin.ejs`, filename: x + '/logvitamin/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/logwaist.ejs`, filename: x + '/logwaist/index.html', inject: 'body' }),
+    ])]),
+    //--------------------------------------------------------------------------------------------------------------------------------------------
     resolve: {
         extensions: [".ts", ".tsx", ".js", ".json", ".scss", ".jsx"],
         alias: {
