@@ -29,11 +29,11 @@ export default function NavBarLang() {
             <li className="nav-item" hidden={locale.language == 'es'}>
                 <a className="nav-link" href="/es">Español</a>
             </li>
-            <li className="nav-item" hidden={locale.language == 'cn'}>
-                <a className="nav-link" href="/cn">中文</a>
+            <li className="nav-item" hidden={locale.language == 'zh'}>
+                <a className="nav-link" href="/zh">中文</a>
             </li>
-            <li className="nav-item" hidden={locale.language == 'jp'}>
-                <a className="nav-link" href="/jp">日本語</a>
+            <li className="nav-item" hidden={locale.language == 'ja'}>
+                <a className="nav-link" href="/ja">日本語</a>
             </li>
 
         </ul>

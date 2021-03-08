@@ -4,7 +4,7 @@ import eb from "src/event-bus";
 class Locale {
     _polyglot = new Polyglot({ allowMissing: true });
     _translations: { [id: string]: number } = {};
-    SUPPORTED_LANG = ['en', 'ru', 'de', 'hi', 'es', 'fr', 'cn', 'jp', 'pt']
+    SUPPORTED_LANG = ['en', 'ru', 'de', 'hi', 'es', 'fr', 'zh', 'ja', 'pt']
 
     //-------------------------------------------------------------------------------------------------------
     constructor() {
