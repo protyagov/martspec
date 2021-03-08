@@ -1,127 +1,124 @@
 {
     "APPSTORE": "cn",
     "BTN": {
-        "SRC1": "Read source article",
-        "FACT": "See Facts",
-        "SRC2": "Get facts from the source article",
-        "WIKI": "Read full article on WiKi",
-        "MORE": "Learn more"
+        "SRC1": "阅读源文章",
+        "FACT": "见事实",
+        "SRC2": "从源文章中获取事实",
+        "WIKI": "阅读有关WiKi的完整文章",
+        "MORE": "了解更多"
     },
     "MAIN": {
-        "HEAD": "Simplicity of health tracking",
-        "SUBHEAD": "Apps to make daily tasks agile and effortless",
-        "IMG": "Apple Watch wellness and health apps",
+        "HEAD": "健康追踪的简单性",
+        "SUBHEAD": "使日常任务变得敏捷而轻松的应用程序",
+        "IMG": "Apple Watch 健康与健康应用",
         "P1": {
             "HEAD": "Electrolyte",
-            "SUBHEAD": "most vital minerals",
-            "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
-            "BTN": "Get the facts",
-            "IMG": "Record electrolytes and minerals with your Apple Watch",
-            "DWN": "Download Free Electrolyte tracker app from the Apple AppStore"
+            "SUBHEAD": "水盐平衡",
+            "TEXT": "电解质在维持体内稳态方面起着至关重要的作用。 它们有助于调节心脏和神经功能，体液平衡，氧气输送，酸碱平衡等。",
+            "BTN": "掌握事实",
+            "IMG": "使用 Apple Watch 记录电解质和矿物质",
+            "DWN": "从 Apple AppStore 下载免费的电解质跟踪器应用程序"
         },
         "P2": {
             "HEAD": "Log Mass",
-            "SUBHEAD": "easy weight journal",
-            "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
-            "BTN": "Take a look",
-            "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
-            "DWN": "Download Free Log Mass app from the Apple AppStore"
+            "SUBHEAD": "重量杂志",
+            "TEXT": "跟踪体重可以提高您的时间和锻炼效率。 它不仅会促使您做得更好，而且还会促使您成为自己的竞争者！",
+            "BTN": "看一看",
+            "IMG": "将体重直接从Apple Watch节省到Apple Health Storage中",
+            "DWN": "从 Apple AppStore 下载免费的Log Mass应用程序"
         },
         "P3": {
             "HEAD": "Log Vitamin",
-            "SUBHEAD": "the ultimate vitamin tracker",
-            "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
-            "BTN": "Read more",
-            "IMG": "Track the most essential vitamins directly on your wrist",
-            "DWN": "Download Free Log Vitamin app from the Apple AppStore"
+            "SUBHEAD": "最终的维生素追踪器",
+            "TEXT": "跟踪必需的维生素有很多好处，从帮助解决食物不耐症到增加能量，避免情绪变化以及为您的日常节奏加油。",
+            "BTN": "阅读更多",
+            "IMG": "直接在手腕上追踪最基本的维生素",
+            "DWN": "从 Apple AppStore 下载免费的 Log Vitamin 应用程序"
         },
         "P4": {
             "HEAD": "Log Waist",
-            "SUBHEAD": "tiny waist - healthy heart",
-            "TEXT": "The easiest way to track waist circumference on Apple Watch. All records get synced to your Apple Health.",
-            "BTN": "Learn More",
-            "IMG": "Keep track of your waist size (belly button) directly from your arm",
-            "DWN": "Download Free Log Waist app from the Apple AppStore"
+            "SUBHEAD": "细腰-心脏健康",
+            "TEXT": "在 Apple Watch 上追踪腰围的最简单方法。 所有记录都会同步到您的Apple健康状况。",
+            "BTN": "了解更多",
+            "IMG": "直接从手臂追踪腰围大小（腹部按钮）",
+            "DWN": "从 Apple AppStore 下载免费的Log Waist应用程序"
         }
     },
-    "NAV": {
-        "HOME": "home"
-    },
     "FOOTER": {
-        "C": "Copyright © 2021 Martspec LLC. All rights reserved.",
-        "PP": "Privacy Policy"
+        "C": "版权所有 © 2021 Martspec LLC。 版权所有。",
+        "PP": "隐私政策"
     },
     "ERROR": {
-        "404_HEAD": "Page Not Found",
-        "404_TEXT": "This page does not exist. Please make sure you used the correct URL.",
-        "404_BTN": "Home"
+        "404_HEAD": "网页未找到",
+        "404_TEXT": "本页面不存在。 请确保您使用了正确的URL。",
+        "404_BTN": "家"
     },
     "PRODUCT": {
         "P1": {
-            "ABOUT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more. Track electrolyte intake with Apple Watch App.",
-            "HEAD1": "Magnesium",
-            "DESC1": "Regulates heart rhythm, nerve function, muscle contraction, blood pressure and sugar levels, participates in making protein, bone, and DNA. Magnesium deficiency leads to loss of appetite, nausea, vomiting, fatigue, and weakness; while high levels of it might cause Hypermagnesemia. ",
-            "HEAD2": "Calcium",
-            "DESC2": "Helps muscles to move and nerves to carry messages between the brain and every body part. Assists blood vessels to move blood throughout the body. Participates in the release of hormones and enzymes that affect almost every function in the human body. About 99% of the body’s calcium supply is stored in the bones and teeth. ",
-            "HEAD3": "Potassium",
-            "DESC3": "Used for almost everything in the body, including proper kidney and heart function, muscle contraction, and nerve transmission. Potassium deficiency can increase blood pressure and deplete calcium in bones. ",
-            "HEAD4": "Iron",
-            "DESC4": "A vital part of hemoglobin and myoglobin, proteins that carry oxygen to body tissues and muscles.  Red blood cells contain more than half of the human body iron. ",
-            "HEAD5": "Risks",
-            "DESC5": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. "
+            "ABOUT": "电解质在维持体内稳态方面起着至关重要的作用。 它们有助于调节心脏和神经功能，体液平衡，氧气输送，酸碱平衡等。 使用Apple Watch应用程序跟踪电解质的摄入量。",
+            "HEAD1": "镁",
+            "DESC1": "调节心律，神经功能，肌肉收缩，血压和糖水平，参与蛋白质，骨骼和DNA的制造。 镁缺乏会导致食欲不振，恶心，呕吐，疲劳和虚弱; 高水平可能会导致高镁血症。 ",
+            "HEAD2": "钙",
+            "DESC2": "帮助肌肉运动和神经在大脑和身体各个部位之间传递信息。 协助血管将血液输送到全身。 参与影响人体几乎所有功能的激素和酶的释放。 人体大约99％的钙供应存储在骨骼和牙齿中。 ",
+            "HEAD3": "钾盐",
+            "DESC3": "用于几乎所有的身体，包括正常的肾脏和心脏功能，肌肉收缩和神经传递。 钾缺乏会增加血压并消耗骨骼中的钙。 ",
+            "HEAD4": "铁",
+            "DESC4": "血红蛋白和肌红蛋白的重要组成部分是将氧气携带到身体组织和肌肉的蛋白质。 红细胞含有人体铁的一半以上。 ",
+            "HEAD5": "风险性",
+            "DESC5": "消耗过多或过多的电解质以及排出过多或过多的电解质会导致电解质失衡。"
         },
         "P2": {
-            "ABOUT": "Body weight journal is the perfect tool to increase efficiency of your exercises and motivation to reach the goal. All data is synced to Apple Health and available on your watch for 7 days for a quick look. Everything is easy and absolutely free.",
-            "HEAD1": "Accountability",
-            "DESC1": "We have a responsibility to ourselves for our health.  No one can make us lose weight or choose healthy foods.  We must decide this for ourselves.",
-            "HEAD2": "Honesty",
-            "DESC2": "Logging our weight makes it real. While that sounds strange; it’s real. This is data, recorded facts. They are real whether we record them or not. ",
-            "HEAD3": "Commitment",
-            "DESC3": "Logging daily is important, it keeps healthy habits in front of our minds.  Every time we make a log entry, we are reminded of our commitment to health. Skipping a day here and there makes it easier to skip 2 days, then 3 days. Then, before you know it, you’ve stopped and you are back to your old habits.",
-            "HEAD4": "App Features",
-            "DESC4_1": "Apple Health Integration",
-            "DESC4_2": "History of past recordings with percentage difference",
-            "DESC4_3": "All watch sizes, all watch face complication types",
-            "DESC4_4": "Does not need companion iPhone app"
+            "ABOUT": "体重日志是提高锻炼效率和达到目标的动力的理想工具。 所有数据都同步到Apple Health，并在您的手表上可用7天，以供快速查看。 一切都很简单，而且完全免费。",
+            "HEAD1": "问责制",
+            "DESC1": "我们对自己的健康负有责任。 没有人能使我们减肥或选择健康食品。 我们必须自己决定。",
+            "HEAD2": "诚实",
+            "DESC2": "记录我们的体重使其真实。 虽然听起来很奇怪； 它是真实的。 这是数据，记录的事实。 无论我们是否录制它们，它们都是真实的。 ",
+            "HEAD3": "承诺",
+            "DESC3": "每天进行日志记录很重要，它可以使我们养成健康的习惯。 每次输入日志时，都会提醒我们对健康的承诺。 在这里和那里跳过一天，可以轻松跳过2天，然后跳过3天。 然后，在不知不觉中，您已经停下脚步，回到了以前的习惯。 ",
+            "HEAD4": "应用功能",
+            "DESC4_1": "苹果健康整合",
+            "DESC4_2": "过去录音的历史记录，具有百分比差异",
+            "DESC4_3": "所有表款，所有表盘并发症类型",
+            "DESC4_4": "不需要配套的iPhone应用程序"
         },
         "P3": {
-            "ABOUT": "LogVitamin Apple Watch app enables you to track essential vitamins intake directly from your wrist, see your progress over time and is absolutely free.",
-            "HEAD1": "Improving diet decisions",
-            "DESC1": "This app is an excellent vitamin tracker that might improve your diet and customize nutrient targets at the same time.",
-            "HEAD2": "Adopt Healthier Lifestyle",
-            "DESC2": "Wearable activity trackers offer considerable promise for helping users to adopt healthier lifestyles. ",
-            "HEAD3": "Vitamin A - Beta carotene",
-            "DESC3": "Important for normal vision, the immune system, and reproduction. Helps the heart, lungs, kidneys, and other organs work properly. ",
-            "HEAD4": "Vitamin C - Ascorbic Acid",
-            "DESC4": "Helps to protect cells and keeps them healthy, maintains healthy skin, blood vessels, bones and cartilage. Helps with wound healing. ",
-            "HEAD5": "Vitamin D",
-            "DESC5": "Regulates the amount of calcium and phosphate in the body. These nutrients are needed to keep bones, teeth and muscles healthy. A lack of vitamin D can lead to bone deformities such as rickets in children, and bone pain caused by a condition called osteomalacia in adults. ",
-            "HEAD6": "Vitamin E",
-            "DESC6": "Important to vision, reproduction, and the health of your blood, brain and skin. Has antioxidant properties. The recommended daily amount of vitamin E for adults is 15 milligrams a day. ",
-            "HEAD7": "Vitamin B12 - Cobalamin",
-            "DESC7": "Formation of red blood cells and health of the nerve tissues. Help the body convert food (carbohydrates) into fuel (glucose), which is used to produce energy. ",
-            "HEAD8": "Vitamin B7 - Biotin",
-            "DESC8": "Helps to convert nutrients into energy and plays an important role in the health of hair, skin, and nails. ",
-            "HEAD9": "Vitamin B9 - Folate",
-            "DESC9": "Needed to make red and white blood cells in the bone marrow, convert carbohydrates into energy, and produce DNA and RNA. ",
-            "HEAD0": "Vitamin B3 - Niacin",
-            "DESC0": "Needed to turn food into energy. It helps keep your nervous system, digestive system and skin healthy. "
+            "ABOUT": "Apple Watch 应用程序使您可以直接从手腕跟踪必需的维生素摄入量，查看随时间推移的进展情况，并且完全免费。",
+            "HEAD1": "改善饮食决定",
+            "DESC1": "此应用程序是一款出色的维生素追踪器，可以改善您的饮食习惯并同时自定义营养指标。",
+            "HEAD2": "采取更健康的生活方式",
+            "DESC2": "穿戴式活动跟踪器为帮助用户采用更健康的生活方式提供了可观的前景。 ",
+            "HEAD3": "维生素 A - β-胡萝卜素",
+            "DESC3": "对于正常视力，免疫系统和生殖很重要。 帮助心脏，肺，肾脏和其他器官正常工作。 ",
+            "HEAD4": "维生素 C - 抗坏血酸",
+            "DESC4": "帮助保护细胞并使其健康，维持健康的皮肤，血管，骨骼和软骨。 帮助伤口愈合。 ",
+            "HEAD5": "维生素 D",
+            "DESC5": "调节体内钙和磷酸盐的含量。 需要这些营养素来保持骨骼，牙齿和肌肉健康。 缺乏维生素D会导致骨骼畸形，例如儿童病，以及成年人因骨软化症引起的骨痛。 ",
+            "HEAD6": "维生素 E",
+            "DESC6": "对于视觉，生殖以及血液，大脑和皮肤的健康非常重要。 具有抗氧化性能。 成人的建议维生素E每日建议量为每天15毫克。 ",
+            "HEAD7": "维生素 B12 - 钴胺素",
+            "DESC7": "红细胞的形成和神经组织的健康。 帮助人体将食物（碳水化合物）转换为燃料（葡萄糖），用于产生能量。 ",
+            "HEAD8": "维生素 B7 - 生物素",
+            "DESC8": "帮助将营养物质转化为能量，并在头发，皮肤和指甲的健康中发挥重要作用。 ",
+            "HEAD9": "维生素 B9 - 叶酸",
+            "DESC9": "需要在骨髓中制造红细胞和白细胞，将碳水化合物转化为能量，并产生 DNA 和 RNA。",
+            "HEAD0": "维生素 B3 - 烟酸",
+            "DESC0": "需要将食物转化为能量。 它有助于保持您的神经系统，消化系统和皮肤健康。 "
         },
         "P4": {
-            "ABOUT": "Easy to use waist circumference tracker for Apple Watch. Does not require account nor registration. Absolutely Free. All records get synced to your Apple Health app and the past 7 days can be accessed directly from your wrist.",
-            "HEAD1": "Medical Fact",
-            "DESC1": "If more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",
-            "LINK1": "National Institutes of Health, USA",
-            "HEAD2": "Better than BMI",
-            "LINK2": "Study by American Heart Association",
-            "DESC2": " has shown that measuring waistline might be a better way to predict heart disease risk than a widely used body mass index.",
-            "HEAD3": "Body composition",
-            "DESC3": "When you're gaining muscle and losing inches of fat your weight might not change much. That's why body composition can tell you more than the scale, it tells you the true story.",
-            "HEAD4": "Elevated Cardiovascular Risk",
-            "DESC4_1": "Men: 40 inches or more (102cm)",
-            "DESC4_2": "Women: 35 inches or more (88cm)",
-            "DESC4_3": "Every 2 inch(5cm) of waist size raise the risk by 17% in men and 13% in women, regardless of BMI",
-            "DESC4_4": "Source: "
+            "ABOUT": "易于使用的Apple Watch腰围追踪器。 不需要帐户或注册。 完全免费。 所有记录都已同步到您的Apple Health应用程序，过去7天可以直接从手腕访问。",
+            "HEAD1": "医学事实",
+            "DESC1": "如果更多的脂肪位于您的腰部而不是臀部周围，则您患心脏病和2型糖尿病的风险更高。",
+            "LINK1": "美国国立卫生研究院",
+            "HEAD2": "比BMI好",
+            "LINK2": "美国心脏协会的研究",
+            "DESC2": " 研究表明，与广泛使用的体重指数相比，测量腰围可能是更好的预测心脏病风险的方法。",
+            "HEAD3": "身体构成",
+            "DESC3": "当您增加肌肉而失去几英寸的脂肪时，您的体重可能不会有太大变化。 这就是为什么身体成分可以告诉您的不仅仅是规模，还可以告诉您真实的故事。",
+            "HEAD4": "心血管风险升高",
+            "DESC4_1": "男子：102厘米或以上",
+            "DESC4_2": "女性：88厘米或以上",
+            "DESC4_3": "腰围每5厘米增加，男性，女性的风险分别为17％和13％",
+            "DESC4_4": "来源："
         }
     }
 }
