@@ -29,83 +29,80 @@
         },
         "P3": {
             "HEAD": "Log Vitamin",
-            "SUBHEAD": "the ultimate vitamin tracker",
-            "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
-            "BTN": "Read more",
-            "IMG": "Track the most essential vitamins directly on your wrist",
-            "DWN": "Download Free Log Vitamin app from the Apple AppStore"
+            "SUBHEAD": "el mejor rastreador de vitaminas",
+            "TEXT": "El seguimiento de sus vitaminas esenciales tiene muchos beneficios, desde ayudar a controlar las intolerancias alimentarias hasta aumentar la energía, evitar cambios de humor y estimular el ritmo de su día.",
+            "BTN": "leer más",
+            "IMG": "Realice un seguimiento de las vitaminas más esenciales directamente en su muñeca",
+            "DWN": "Descargue la aplicación gratuita Log Vitamin de la AppStore de Apple"
         },
         "P4": {
             "HEAD": "Log Waist",
-            "SUBHEAD": "tiny waist - healthy heart",
-            "TEXT": "The easiest way to track waist circumference on Apple Watch. All records get synced to your Apple Health.",
-            "BTN": "Learn More",
-            "IMG": "Keep track of your waist size (belly button) directly from your arm",
-            "DWN": "Download Free Log Waist app from the Apple AppStore"
-        }
-    },
-    "NAV": {
-        "HOME": "home"
+            "SUBHEAD": "cintura pequeña - corazón sano",
+            "TEXT": "La forma más sencilla de realizar un seguimiento de la circunferencia de la cintura en el Apple Watch. Todos los registros se sincronizan con su Apple Health.",
+            "BTN": "aprende más",
+            "IMG": "Lleve un registro del tamaño de su cintura (ombligo) directamente desde su brazo",
+            "DWN": "Descargue la aplicación gratuita Log Waist de la AppStore de Apple"
+        }   
     },
     "FOOTER": {
         "C": "Copyright © 2021 Martspec LLC. All rights reserved.",
-        "PP": "Privacy Policy"
+        "PP": "Política de privacidad"
     },
     "ERROR": {
-        "404_HEAD": "Page Not Found",
-        "404_TEXT": "This page does not exist. Please make sure you used the correct URL.",
-        "404_BTN": "Home"
+        "404_HEAD": "Página no encontrada",
+        "404_TEXT": "Esta página no existe. Asegúrese de haber utilizado la URL correcta.",
+        "404_BTN": "Casa"
     },
     "PRODUCT": {
         "P1": {
-            "ABOUT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more. Track electrolyte intake with Apple Watch App.",
-            "HEAD1": "Magnesium",
-            "DESC1": "Regulates heart rhythm, nerve function, muscle contraction, blood pressure and sugar levels, participates in making protein, bone, and DNA. Magnesium deficiency leads to loss of appetite, nausea, vomiting, fatigue, and weakness; while high levels of it might cause Hypermagnesemia. ",
-            "HEAD2": "Calcium",
-            "DESC2": "Helps muscles to move and nerves to carry messages between the brain and every body part. Assists blood vessels to move blood throughout the body. Participates in the release of hormones and enzymes that affect almost every function in the human body. About 99% of the body’s calcium supply is stored in the bones and teeth. ",
-            "HEAD3": "Potassium",
-            "DESC3": "Used for almost everything in the body, including proper kidney and heart function, muscle contraction, and nerve transmission. Potassium deficiency can increase blood pressure and deplete calcium in bones. ",
-            "HEAD4": "Iron",
-            "DESC4": "A vital part of hemoglobin and myoglobin, proteins that carry oxygen to body tissues and muscles.  Red blood cells contain more than half of the human body iron. ",
-            "HEAD5": "Risks",
-            "DESC5": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. "
+            "ABOUT": "Los electrolitos juegan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Ayudan a regular el corazón y la función neurológica, el equilibrio de líquidos, el suministro de oxígeno, el equilibrio ácido-base y mucho más. Realice un seguimiento de la ingesta de electrolitos con la aplicación Apple Watch.",
+            "HEAD1": "Magnesio",
+            "DESC1": "Regula el ritmo cardíaco, la función nerviosa, la contracción muscular, la presión arterial y los niveles de azúcar, participa en la producción de proteínas, huesos y ADN. La deficiencia de magnesio provoca pérdida de apetito, náuseas, vómitos, fatiga y debilidad; mientras que niveles altos pueden causar hipermagnesemia. ",
+            "HEAD2": "Calcio",
+            "DESC2": "Ayuda a los músculos a moverse y a los nervios a llevar mensajes entre el cerebro y todas las partes del cuerpo. Ayuda a los vasos sanguíneos a mover la sangre por todo el cuerpo. Participa en la liberación de hormonas y enzimas que afectan casi todas las funciones del cuerpo humano. Aproximadamente el 99% del suministro de calcio del cuerpo se almacena en los huesos y los dientes. ",
+            "HEAD3": "Potasio",
+            "DESC3": "Se utiliza para casi todo en el cuerpo, incluida la función adecuada de los riñones y el corazón, la contracción muscular y la transmisión nerviosa. La deficiencia de potasio puede aumentar la presión arterial y reducir el calcio en los huesos. ",
+            "HEAD4": "Hierro",
+            "DESC4": "Una parte vital de la hemoglobina y la mioglobina, proteínas que transportan oxígeno a los tejidos y músculos del cuerpo. Los glóbulos rojos contienen más de la mitad del hierro del cuerpo humano. ",
+            "HEAD5": "Riesgos",
+            "DESC5": "Los desequilibrios de electrolitos pueden desarrollarse al consumir muy poco o demasiado electrolito, así como al excretar muy poco o demasiado electrolito. "
         },
         "P2": {
-            "ABOUT": "Body weight journal is the perfect tool to increase efficiency of your exercises and motivation to reach the goal. All data is synced to Apple Health and available on your watch for 7 days for a quick look. Everything is easy and absolutely free.",
-            "HEAD1": "Accountability",
-            "DESC1": "We have a responsibility to ourselves for our health.  No one can make us lose weight or choose healthy foods.  We must decide this for ourselves.",
-            "HEAD2": "Honesty",
-            "DESC2": "Logging our weight makes it real. While that sounds strange; it’s real. This is data, recorded facts. They are real whether we record them or not. ",
-            "HEAD3": "Commitment",
-            "DESC3": "Logging daily is important, it keeps healthy habits in front of our minds.  Every time we make a log entry, we are reminded of our commitment to health. Skipping a day here and there makes it easier to skip 2 days, then 3 days. Then, before you know it, you’ve stopped and you are back to your old habits.",
-            "HEAD4": "App Features",
-            "DESC4_1": "Apple Health Integration",
-            "DESC4_2": "History of past recordings with percentage difference",
-            "DESC4_3": "All watch sizes, all watch face complication types",
-            "DESC4_4": "Does not need companion iPhone app"
+            "ABOUT": "El diario de peso corporal es la herramienta perfecta para aumentar la eficiencia de sus ejercicios y la motivación para alcanzar la meta. Todos los datos se sincronizan con Apple Health y están disponibles en su reloj durante 7 días para verlos rápidamente. Todo es fácil y absolutamente gratis.",
+            "HEAD1": "Responsabilidad",
+            "DESC1": "Tenemos una responsabilidad con nosotros mismos por nuestra salud. Nadie puede hacernos perder peso o elegir alimentos saludables. Debemos decidir esto por nosotros mismos. ",
+            "HEAD2": "Honestidad",
+            "DESC2": "Registrar nuestro peso lo hace real. Si bien eso suena extraño; es real. Estos son datos, hechos registrados. Son reales tanto si los registramos como si no. ",
+            "HEAD3": "Compromiso",
+            "DESC3": "La tala diaria es importante, mantiene hábitos saludables frente a nuestras mentes. Cada vez que hacemos una entrada en el registro, se nos recuerda nuestro compromiso con la salud. Saltarse un día aquí y allá hace que sea más fácil saltarse 2 días y luego 3 días. Luego, antes de que te des cuenta, te detuviste y volviste a tus viejos hábitos. ",
+            "HEAD4": "Funciones de la aplicación",
+            "DESC4_1": "Integración de salud de Apple",
+            "DESC4_2": "Historial de grabaciones pasadas con diferencia porcentual",
+            "DESC4_3": "Todos los tamaños de relojes, todos los tipos de complicaciones de la esfera del reloj",
+            "DESC4_4": "No necesita una aplicación de iPhone complementaria"
         },
         "P3": {
-            "ABOUT": "LogVitamin Apple Watch app enables you to track essential vitamins intake directly from your wrist, see your progress over time and is absolutely free.",
-            "HEAD1": "Improving diet decisions",
-            "DESC1": "This app is an excellent vitamin tracker that might improve your diet and customize nutrient targets at the same time.",
-            "HEAD2": "Adopt Healthier Lifestyle",
-            "DESC2": "Wearable activity trackers offer considerable promise for helping users to adopt healthier lifestyles. ",
-            "HEAD3": "Vitamin A - Beta carotene",
-            "DESC3": "Important for normal vision, the immune system, and reproduction. Helps the heart, lungs, kidneys, and other organs work properly. ",
-            "HEAD4": "Vitamin C - Ascorbic Acid",
-            "DESC4": "Helps to protect cells and keeps them healthy, maintains healthy skin, blood vessels, bones and cartilage. Helps with wound healing. ",
-            "HEAD5": "Vitamin D",
-            "DESC5": "Regulates the amount of calcium and phosphate in the body. These nutrients are needed to keep bones, teeth and muscles healthy. A lack of vitamin D can lead to bone deformities such as rickets in children, and bone pain caused by a condition called osteomalacia in adults. ",
-            "HEAD6": "Vitamin E",
-            "DESC6": "Important to vision, reproduction, and the health of your blood, brain and skin. Has antioxidant properties. The recommended daily amount of vitamin E for adults is 15 milligrams a day. ",
-            "HEAD7": "Vitamin B12 - Cobalamin",
-            "DESC7": "Formation of red blood cells and health of the nerve tissues. Help the body convert food (carbohydrates) into fuel (glucose), which is used to produce energy. ",
-            "HEAD8": "Vitamin B7 - Biotin",
-            "DESC8": "Helps to convert nutrients into energy and plays an important role in the health of hair, skin, and nails. ",
-            "HEAD9": "Vitamin B9 - Folate",
-            "DESC9": "Needed to make red and white blood cells in the bone marrow, convert carbohydrates into energy, and produce DNA and RNA. ",
-            "HEAD0": "Vitamin B3 - Niacin",
-            "DESC0": "Needed to turn food into energy. It helps keep your nervous system, digestive system and skin healthy. "
+            "ABOUT": "La aplicación Apple Watch le permite realizar un seguimiento de la ingesta de vitaminas esenciales directamente desde su muñeca, ver su progreso a lo largo del tiempo y es absolutamente gratis.",
+            "HEAD1": "Mejorar las decisiones dietéticas",
+            "DESC1": "Esta aplicación es un excelente rastreador de vitaminas que puede mejorar su dieta y personalizar los objetivos de nutrientes al mismo tiempo. ",
+            "HEAD2": "Estilo de vida más saludable",
+            "DESC2": "Los rastreadores de actividad portátiles ofrecen una promesa considerable para ayudar a los usuarios a adoptar estilos de vida más saludables. ",
+            "HEAD3": "Vitamina A - Beta caroteno",
+            "DESC3": "Importante para la visión normal, el sistema inmunológico y la reproducción. Ayuda a que el corazón, los pulmones, los riñones y otros órganos funcionen correctamente. ",
+            "HEAD4": "Vitamina C - Ácido ascórbico",
+            "DESC4": "Ayuda a proteger las células y las mantiene sanas, mantiene la piel, los vasos sanguíneos, los huesos y el cartílago sanos. Ayuda con la cicatrización de heridas. ",
+            "HEAD5": "Vitamina D",
+            "DESC5": "Regula la cantidad de calcio y fosfato en el organismo. Estos nutrientes son necesarios para mantener saludables los huesos, dientes y músculos. La falta de vitamina D puede provocar deformidades óseas como raquitismo en los niños y dolor de huesos causado por una afección llamada osteomalacia en los adultos. ",
+            "HEAD6": "Vitamina E",
+            "DESC6": "Importante para la visión, la reproducción y la salud de la sangre, el cerebro y la piel. Tiene propiedades antioxidantes. La cantidad diaria recomendada de vitamina E para adultos es de 15 miligramos al día. ",
+            "HEAD7": "Vitamina B12 - Cobalamina",
+            "DESC7": "Formación de glóbulos rojos y salud de los tejidos nerviosos. Ayuda al cuerpo a convertir los alimentos (carbohidratos) en combustible (glucosa), que se utiliza para producir energía. ",
+            "HEAD8": "Vitamina B7 - Biotina",
+            "DESC8": "Ayuda a convertir los nutrientes en energía y juega un papel importante en la salud del cabello, la piel y las uñas. ",
+            "HEAD9": "Vitamina B9 - Folato",
+            "DESC9": "Necesario para producir glóbulos rojos y blancos en la médula ósea, convertir carbohidratos en energía y producir ADN y ARN. ",
+            "HEAD0": "Vitamina B3 - Niacina",
+            "DESC0": "Necesario para convertir la comida en energía. Ayuda a mantener saludables su sistema nervioso, sistema digestivo y piel. "
         },
         "P4": {
             "ABOUT": "Easy to use waist circumference tracker for Apple Watch. Does not require account nor registration. Absolutely Free. All records get synced to your Apple Health app and the past 7 days can be accessed directly from your wrist.",

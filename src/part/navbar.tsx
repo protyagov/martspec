@@ -11,7 +11,7 @@ export default function NavigationBar(props: NavBarProps) {
         <nav className="rr-navbar">
             <div className="lButton">
                 <a className="btn btn-link" href={locale.i18nLink("/")}>
-                    <img src="/img/logo.png" className="img-fluid" alt={_("NAV.HOME")} />
+                    <img src="/img/logo.png" className="img-fluid" alt={_("ERROR.404_BTN")} />
                 </a>
             </div>
 
