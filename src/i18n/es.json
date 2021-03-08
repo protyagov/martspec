@@ -105,20 +105,20 @@
             "DESC0": "Necesario para convertir la comida en energía. Ayuda a mantener saludables su sistema nervioso, sistema digestivo y piel. "
         },
         "P4": {
-            "ABOUT": "Easy to use waist circumference tracker for Apple Watch. Does not require account nor registration. Absolutely Free. All records get synced to your Apple Health app and the past 7 days can be accessed directly from your wrist.",
-            "HEAD1": "Medical Fact",
-            "DESC1": "If more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",
-            "LINK1": "National Institutes of Health, USA",
-            "HEAD2": "Better than BMI",
-            "LINK2": "Study by American Heart Association",
-            "DESC2": " has shown that measuring waistline might be a better way to predict heart disease risk than a widely used body mass index.",
-            "HEAD3": "Body composition",
-            "DESC3": "When you're gaining muscle and losing inches of fat your weight might not change much. That's why body composition can tell you more than the scale, it tells you the true story.",
-            "HEAD4": "Elevated Cardiovascular Risk",
-            "DESC4_1": "Men: 40 inches or more (102cm)",
-            "DESC4_2": "Women: 35 inches or more (88cm)",
-            "DESC4_3": "Every 2 inch(5cm) of waist size raise the risk by 17% in men and 13% in women, regardless of BMI",
-            "DESC4_4": "Source: "
+            "ABOUT": "Rastreador de circunferencia de cintura fácil de usar para Apple Watch. No requiere cuenta ni registro. Absolutamente libre. Todos los registros se sincronizan con su aplicación Apple Health y se puede acceder a los últimos 7 días directamente desde su muñeca.",
+            "HEAD1": "Hecho médico",
+            "DESC1": "Si hay más grasa alrededor de su cintura en lugar de alrededor de sus caderas, tiene un mayor riesgo de padecer afecciones que incluyen enfermedades cardíacas y diabetes tipo 2.",
+            "LINK1": "Institutos Nacionales de Salud, EE. UU.",
+            "HEAD2": "Mejor que el IMC",
+            "LINK2": "Estudio de la American Heart Association",
+            "DESC2": " ha demostrado que medir la cintura podría ser una mejor manera de predecir el riesgo de enfermedad cardíaca que un índice de masa corporal ampliamente utilizado. ",
+            "HEAD3": "Composición corporal",
+            "DESC3": "Cuando está ganando músculo y perdiendo centímetros de grasa, es posible que su peso no cambie mucho. Es por eso que la composición corporal puede decirte más que la escala, te dice la historia real.",
+            "HEAD4": "Riesgo cardiovascular elevado",
+            "DESC4_1": "Hombres: 40 pulgadas o más (102 cm)",
+            "DESC4_2": "Mujeres: 35 pulgadas o más (88 cm)",
+            "DESC4_3": "Cada 2 pulgadas (5 cm) del tamaño de la cintura aumenta el riesgo en un 17% en los hombres y en un 13% en las mujeres, independientemente del IMC",
+            "DESC4_4": "Fuente: "
         }
     }
 }
