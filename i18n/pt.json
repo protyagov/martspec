@@ -1,0 +1,124 @@
+{
+    "APPSTORE": "pt",
+    "BTN": {
+        "SRC1": "Leia o artigo fonte",
+        "FACT": "Veja os fatos",
+        "SRC2": "Obtenha fatos do artigo de origem",
+        "WIKI": "Leia o artigo completo sobre WiKi",
+        "MORE": "Saber mais"
+    },
+    "MAIN": {
+        "HEAD": "Simplicidade de rastreamento de saúde",
+        "SUBHEAD": "Aplicativos para tornar as tarefas diárias ágeis e sem esforço",
+        "IMG": "Aplicativos de bem-estar e saúde Apple Watch",
+        "P1": {
+            "HEAD": "Electrolyte",
+            "SUBHEAD": "equilíbrio água-sal",
+            "TEXT": "Os eletrólitos desempenham um papel vital na manutenção da homeostase no corpo. Eles ajudam a regular o coração e a função neurológica, equilíbrio de fluidos, fornecimento de oxigênio, equilíbrio ácido-básico e muito mais.",
+            "BTN": "Obtenha os fatos",
+            "IMG": "Registre eletrólitos e minerais com seu Apple Watch",
+            "DWN": "Baixe o aplicativo gratuito Electrolyte tracker da Apple AppStore"
+        },
+        "P2": {
+            "HEAD": "Log Mass",
+            "SUBHEAD": "diário de peso fácil",
+            "TEXT": "Rastrear seu peso aumenta sua eficiência em termos de tempo e exercícios. Não só o levará a fazer melhor, mas também o levará a ser seu próprio competidor!",
+            "BTN": "Dê uma olhada",
+            "IMG": "Economize massa corporal diretamente do seu Apple Watch no armazenamento de saúde da Apple",
+            "DWN": "Baixe o aplicativo Log Mass grátis na AppStore da Apple"
+        },
+        "P3": {
+            "HEAD": "Log Vitamin",
+            "SUBHEAD": "o melhor rastreador de vitaminas",
+            "TEXT": "Rastrear suas vitaminas essenciais tem muitos benefícios, desde ajudar a controlar as intolerâncias alimentares até aumentar a energia, evitar mudanças no humor e alimentar o ritmo do seu dia.",
+            "BTN": "Consulte Mais informação",
+            "IMG": "Rastreie as vitaminas mais essenciais diretamente no seu pulso",
+            "DWN": "Baixe o aplicativo Log Vitamin gratuito na AppStore da Apple"
+        },
+        "P4": {
+            "HEAD": "Log Waist",
+            "SUBHEAD": "cintura fina - coração saudável",
+            "TEXT": "A maneira mais fácil de monitorar a circunferência da cintura no Apple Watch. Todos os registros são sincronizados com a saúde da sua Apple.",
+            "BTN": "Saber mais",
+            "IMG": "Acompanhe o tamanho da sua cintura (umbigo) diretamente do seu braço",
+            "DWN": "Baixe o aplicativo Log Waist grátis na AppStore da Apple"
+        }
+    },
+    "FOOTER": {
+        "C": "© 2021 Martspec LLC. Todos os direitos reservados.",
+        "PP": "Política de Privacidade"
+    },
+    "ERROR": {
+        "404_HEAD": "Página não encontrada",
+        "404_TEXT": "Esta página não existe. Certifique-se de usar o URL correto.",
+        "404_BTN": "Casa"
+    },
+    "PRODUCT": {
+        "P1": {
+            "ABOUT": "Os eletrólitos desempenham um papel vital na manutenção da homeostase no corpo. Eles ajudam a regular o coração e a função neurológica, equilíbrio de fluidos, fornecimento de oxigênio, equilíbrio ácido-básico e muito mais. Monitore a ingestão de eletrólitos com o aplicativo Apple Watch.",
+            "HEAD1": "Magnésio",
+            "DESC1": "Regula o ritmo cardíaco, a função nervosa, a contração muscular, a pressão sanguínea e os níveis de açúcar, participa da produção de proteínas, ossos e DNA. A deficiência de magnésio leva à perda de apetite, náuseas, vômitos, fadiga e fraqueza; enquanto altos níveis podem causar hipermagnesemia. ",
+            "HEAD2": "Cálcio",
+            "DESC2": "Ajuda os músculos a se moverem e os nervos a transmitir mensagens entre o cérebro e todas as partes do corpo. Auxilia os vasos sanguíneos a moverem o sangue por todo o corpo. Participa da liberação de hormônios e enzimas que afetam quase todas as funções do corpo humano. Cerca de 99% do suprimento de cálcio do corpo é armazenado nos ossos e dentes. ",
+            "HEAD3": "Potássio",
+            "DESC3": "Usado para quase tudo no corpo, incluindo função renal e cardíaca adequada, contração muscular e transmissão nervosa. A deficiência de potássio pode aumentar a pressão arterial e esgotar o cálcio nos ossos. ",
+            "HEAD4": "Ferro",
+            "DESC4": "Parte vital da hemoglobina e da mioglobina, proteínas que transportam oxigênio para os tecidos e músculos do corpo. Os glóbulos vermelhos contêm mais da metade do ferro do corpo humano. ",
+            "HEAD5": "Riscos",
+            "DESC5": "Os desequilíbrios eletrolíticos podem ocorrer consumindo pouco ou muito eletrólito, bem como excretando muito pouco ou muito eletrólito."
+        },
+        "P2": {
+            "ABOUT": "O diário de peso corporal é a ferramenta perfeita para aumentar a eficiência dos seus exercícios e a motivação para atingir o objetivo. Todos os dados são sincronizados com o Apple Health e ficam disponíveis no seu relógio por 7 dias para uma visualização rápida. Tudo é fácil e totalmente gratuito.",
+            "HEAD1": "Prestação de contas",
+            "DESC1": "Temos uma responsabilidade para conosco mesmos por nossa saúde. Ninguém pode nos fazer perder peso ou escolher alimentos saudáveis. Devemos decidir isso por nós mesmos. ",
+            "HEAD2": "Honestidade",
+            "DESC2": "Registrar nosso peso o torna real. Embora isso pareça estranho; é real. São dados, fatos registrados. Eles são reais, quer os gravemos ou não. ",
+            "HEAD3": "Comprometimento",
+            "DESC3": "A extração diária é importante, pois mantém hábitos saudáveis em nossas mentes. Cada vez que fazemos um registro, somos lembrados de nosso compromisso com a saúde. Pular um dia aqui e ali torna mais fácil pular 2 dias, do que 3 dias. Então, antes que você perceba, você parou e está de volta aos seus velhos hábitos.",
+            "HEAD4": "Recursos do aplicativo",
+            "DESC4_1": "Integração de saúde da Apple",
+            "DESC4_2": "Histórico de gravações anteriores com diferença percentual",
+            "DESC4_3": "Todos os tamanhos de relógio, todos os tipos de complicações do mostrador do relógio",
+            "DESC4_4": "Não precisa de aplicativo complementar para iPhone"
+        },
+        "P3": {
+            "ABOUT": "O aplicativo Apple Watch permite que você acompanhe a ingestão de vitaminas essenciais diretamente de seu pulso, veja seu progresso ao longo do tempo e é totalmente gratuito.",
+            "HEAD1": "Melhorando a dieta",
+            "DESC1": "Este aplicativo é um excelente rastreador de vitaminas que pode melhorar sua dieta e, ao mesmo tempo, personalizar as metas de nutrientes. ",
+            "HEAD2": "Estilo de Vida Mais Saudável",
+            "DESC2": "Rastreadores de atividades vestíveis oferecem uma promessa considerável para ajudar os usuários a adotarem estilos de vida mais saudáveis. ",
+            "HEAD3": "Vitamina A - beta-caroteno",
+            "DESC3": "Importante para a visão normal, o sistema imunológico e a reprodução. Ajuda o coração, os pulmões, os rins e outros órgãos a funcionarem corretamente. ",
+            "HEAD4": "Vitamina C - Ácido Ascórbico",
+            "DESC4": "Ajuda a proteger as células e a mantê-las saudáveis, mantém a pele, os vasos sanguíneos, os ossos e a cartilagem saudáveis. Ajuda na cicatrização de feridas. ",
+            "HEAD5": "Vitamina D",
+            "DESC5": "Regula a quantidade de cálcio e fosfato no corpo. Esses nutrientes são necessários para manter os ossos, dentes e músculos saudáveis. A falta de vitamina D pode causar deformidades ósseas, como raquitismo em crianças, e dor óssea causada por uma doença chamada osteomalácia em adultos. ",
+            "HEAD6": "Vitamina E",
+            "DESC6": "Importante para a visão, a reprodução e a saúde do sangue, do cérebro e da pele. Possui propriedades antioxidantes. A quantidade diária recomendada de vitamina E para adultos é de 15 miligramas por dia. ",
+            "HEAD7": "Vitamina B12 - Cobalamina",
+            "DESC7": "Formação de glóbulos vermelhos e saúde dos tecidos nervosos. Ajuda o corpo a converter alimentos (carboidratos) em combustível (glicose), que é usado para produzir energia. ",
+            "HEAD8": "Vitamina B7 - Biotina",
+            "DESC8": "Ajuda a converter nutrientes em energia e desempenha um papel importante na saúde do cabelo, da pele e das unhas. ",
+            "HEAD9": "Vitamina B9 - Folato",
+            "DESC9": "Necessário para produzir glóbulos vermelhos e brancos na medula óssea, converter carboidratos em energia e produzir DNA e RNA. ",
+            "HEAD0": "Vitamina B3 - Niacina",
+            "DESC0": "Necessário para transformar comida em energia. Ajuda a manter o sistema nervoso, o sistema digestivo e a pele saudáveis. "
+        },
+        "P4": {
+            "ABOUT": "Rastreador de circunferência de cintura fácil de usar para Apple Watch. Não requer conta nem registro. Absolutamente grátis. Todos os registros são sincronizados com seu aplicativo Apple Health e os últimos 7 dias podem ser acessados diretamente de seu pulso.",
+            "HEAD1": "Fato Médico",
+            "DESC1": "Se houver mais gordura localizada ao redor de sua cintura, em vez de em torno de seus quadris, você corre um risco maior de contrair doenças, incluindo doenças cardíacas e diabetes tipo 2. ",
+            "LINK1": "National Institutes of Health, EUA",
+            "HEAD2": "Melhor que IMC",
+            "LINK2": "Estudo da American Heart Association",
+            "DESC2": " demonstrou que medir a cintura pode ser a melhor maneira de prever o risco de doenças cardíacas do que um índice de massa corporal amplamente utilizado.",
+            "HEAD3": "Composição do corpo",
+            "DESC3": "Quando você está ganhando músculos e perdendo centímetros de gordura, seu peso pode não mudar muito. É por isso que a composição corporal pode dizer mais do que a escala, ela conta a história verdadeira. ",
+            "HEAD4": "Risco Cardiovascular Elevado",
+            "DESC4_1": "Homens: 40 polegadas ou mais (102 cm)",
+            "DESC4_2": "Mulheres: 35 polegadas ou mais (88 cm)",
+            "DESC4_3": "Cada 5 cm do tamanho da cintura aumenta o risco em 17% nos homens e 13% nas mulheres, independentemente do IMC",
+            "DESC4_4": "Fonte: "
+        }
+    }
+}
