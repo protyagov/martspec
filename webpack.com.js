@@ -68,7 +68,7 @@ module.exports = {
             },
         })
         // , new BundleAnalyzerPlugin()
-    ].concat(...[...['ru', 'de', 'fr', 'hi', 'en'].map(x => [
+    ].concat(...[...['ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'pt', 'ru', 'zh'].map(x => [
         new HtmlWebpackPlugin({ template: `./src/template/${x}/main.ejs`, filename: x + '/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/logmass.ejs`, filename: x + '/logmass/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/electrolyte.ejs`, filename: x + '/electrolyte/index.html', inject: 'body' }),
