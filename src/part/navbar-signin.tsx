@@ -35,7 +35,9 @@ export default function NavBarLang() {
             <li className="nav-item" hidden={locale.language == 'ja'}>
                 <a className="nav-link" href="/ja">日本語</a>
             </li>
-
+            <li className="nav-item" hidden={locale.language == 'ar'}>
+                <a className="nav-link" href="/ar">عربي</a>
+            </li>
         </ul>
     </div>
 }

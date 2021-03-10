@@ -4,7 +4,7 @@ import eb from "src/event-bus";
 class Locale {
     _polyglot = new Polyglot({ allowMissing: true });
     _translations: { [id: string]: number } = {};
-    SUPPORTED_LANG = ['en', 'ru', 'de', 'hi', 'es', 'fr', 'zh', 'ja', 'pt']
+    SUPPORTED_LANG = ['ar', 'en', 'ru', 'de', 'hi', 'es', 'fr', 'zh', 'ja', 'pt']
 
     //-------------------------------------------------------------------------------------------------------
     constructor() {
@@ -53,7 +53,6 @@ class Locale {
         this._polyglot.extend(translation);
         this._polyglot.locale(code)
         localStorage.setItem('locale', code);
-        // callback();
         eb.send("LANG_CHANGED");
     }
 
