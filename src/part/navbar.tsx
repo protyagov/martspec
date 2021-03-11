@@ -1,5 +1,5 @@
 import * as React from "react";
-import _, { locale } from "src/i18n/locale"
+import _, { Locale } from "src/i18n/locale"
 import NavBarLang from "./navbar-signin";
 
 interface NavBarProps {
@@ -10,7 +10,7 @@ export default function NavigationBar(props: NavBarProps) {
     return (
         <nav className="rr-navbar">
             <div className="lButton">
-                <a className="btn btn-link" href={locale.i18nLink("/")}>
+                <a className="btn btn-link" href={Locale.i18nLink("/")}>
                     <img src="/img/logo.png" className="img-fluid" alt={_("ERROR.404_BTN")} />
                 </a>
             </div>

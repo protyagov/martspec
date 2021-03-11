@@ -1,13 +1,13 @@
 import * as Polyglot from "node-polyglot";
 import eb from "src/event-bus";
 
-class Locale {
-    _polyglot = new Polyglot({ allowMissing: true });
-    _translations: { [id: string]: number } = {};
-    SUPPORTED_LANG = ['ar', 'en', 'ru', 'de', 'hi', 'es', 'fr', 'zh', 'ja', 'pt']
+export class Locale {
+    private static _polyglot = new Polyglot({ allowMissing: true });
+    private static _translations: { [id: string]: number } = {};
+    private static SUPPORTED_LANG = ['ar', 'en', 'ru', 'de', 'hi', 'es', 'fr', 'zh', 'ja', 'pt']
 
     //-------------------------------------------------------------------------------------------------------
-    constructor() {
+    public static init() {
         let code = localStorage.getItem('locale');
 
         if (code == null) {
@@ -15,71 +15,76 @@ class Locale {
                 code = 'ru';
             else
                 code = navigator.language.split(/-|_/)[0];
-            if (!this.SUPPORTED_LANG.includes(code))
+            if (!Locale.SUPPORTED_LANG.includes(code))
                 code = "en";
         }
-        this.language = code;
+        Locale.language = code;
         console.log("Selected Language: " + code);
     }
 
     //-------------------------------------------------------------------------------------------------------
-    get language(): string {
-        return this._polyglot.locale() as string;
+    static get language(): string {
+        return Locale._polyglot.locale() as string;
+    }
+
+    static setLanguageFromUrl(url: string): string {
+        var res = url.split("/");
+        if (res[1].length === 2) {
+            Locale.language = res[1];
+            url = url.replace("/" + res[1], "");
+            console.log("LANG: " + res[1]);
+        }
+        console.log("URL: " + url);
+        return url || "/";
     }
 
     //-------------------------------------------------------------------------------------------------------
-    set language(code: string) {
-        if (this.language === code)
+    static set language(code: string) {
+        if (Locale.language === code && Locale._translations[code])
             return;
         if (code === "")
-            code = this.language;
-        if (code in this._translations)
-            this.setTranslation(code, this._translations[code])
+            code = Locale.language;
+        if (code in Locale._translations)
+            Locale.setTranslation(code, Locale._translations[code])
         else
-            this.fetchTranslation(code);
+            Locale.fetchTranslation(code);
+    }
+
+    static translate(key: string, options?: Polyglot.InterpolationOptions): string {
+        return Locale._polyglot.t(key, options);
     }
 
     //-------------------------------------------------------------------------------------------------------
-    i18nLink(path: string) {
-        if (!this.language || this.language == "en")
+    static i18nLink(path: string) {
+        if (!Locale.language || Locale.language == "en")
             return path
 
-        return '/' + this.language + (path.startsWith('/') ? "" : "/") + path
+        return '/' + Locale.language + (path.startsWith('/') ? "" : "/") + path
     }
 
     //-------------------------------------------------------------------------------------------------------
-    private setTranslation(code: string, translation: any) {
-        this._translations[code] = translation;
-        this._polyglot.extend(translation);
-        this._polyglot.locale(code)
+    private static setTranslation(code: string, translation: any) {
+        Locale._translations[code] = translation;
+        Locale._polyglot.extend(translation);
+        Locale._polyglot.locale(code)
         localStorage.setItem('locale', code);
         eb.send("LANG_CHANGED");
     }
 
     //-------------------------------------------------------------------------------------------------------
-    private fetchTranslation(code: string) {
+    private static fetchTranslation(code: string) {
         console.log("Fetching Locale for " + code);
         fetch(`/i18n/${code}.json`)
             .then(res => res.json())
-            .then((translation) => this.setTranslation(code, translation))
+            .then((translation) => Locale.setTranslation(code, translation))
             .catch((err) => {
                 console.error(err);
                 if (code != 'en')
-                    this.language = 'en';
+                    Locale.language = 'en';
                 else
-                    this.setTranslation(code, {});
+                    Locale.setTranslation(code, {});
             });
     }
 }
 
-
-export const locale = new Locale();
-export var _ = locale._polyglot.t.bind(locale._polyglot);
-export default _;
-
-
-        // var t0 = performance.now();
-
-        // let h2 = polyglot.t("Войти");
-        // var t1 = performance.now();
-        // console.log('Took', (t1 - t0).toFixed(4), 'milliseconds to generate:', 'Poly');
+export default Locale.translate;
