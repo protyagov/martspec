@@ -7,6 +7,8 @@ import P2LogMass from "./landing/p2-mass";
 import P3LogVitamin from "./landing/p3-vitamin";
 import PrivacyPolicy from "./landing/private-policy";
 import { Locale } from "src/i18n/locale";
+import P5BodyZinc from "./landing/p5-bodyzinc";
+import P6BodySize from "./landing/p6-bodysize";
 
 
 
@@ -32,6 +34,10 @@ export function App() {
             return <P4LogWaist />;
         case "/logvitamin":
             return <P3LogVitamin />;
+        case "/bodyzinc":
+            return <P5BodyZinc />;
+        case "/bodysize":
+            return <P6BodySize />;
         case "/privacy-policy":
             return <PrivacyPolicy />;
         default:

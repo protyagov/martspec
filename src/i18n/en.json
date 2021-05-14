@@ -42,6 +42,22 @@
             "BTN": "Learn More",
             "IMG": "Keep track of your waist size (belly button) directly from your arm",
             "DWN": "Download Free Log Waist app from the Apple AppStore"
+        },
+        "P5": {
+            "HEAD": "Body Zinc",
+            "SUBHEAD": "Boosts immune system",
+            "TEXT": "Zinc may enhance immune function, stabilize blood sugar levels, and help keep your skin, eyes, and heart healthy.",
+            "BTN": "Узнать Больше",
+            "IMG": "Измерения объема талии с умных часов",
+            "DWN": "Скачать бесплатное приложение ЛокВайст из магазина Apple Store"
+        },
+        "P6": {
+            "HEAD": "Body Size",
+            "SUBHEAD": "Boosts immune system",
+            "TEXT": "Самый легкий способ учета окружности талии с умных часов Apple Watch. Полная синхронизация с приложением Apple Здоровье.",
+            "BTN": "Узнать Больше",
+            "IMG": "Измерения объема талии с умных часов",
+            "DWN": "Скачать бесплатное приложение ЛокВайст из магазина Apple Store"
         }
     },
     "FOOTER": {
@@ -105,6 +121,34 @@
             "DESC0": "Needed to turn food into energy. It helps keep your nervous system, digestive system and skin healthy. "
         },
         "P4": {
+            "ABOUT": "Easy to use waist circumference tracker for Apple Watch. Does not require account nor registration. Absolutely Free. All records get synced to your Apple Health app and the past 7 days can be accessed directly from your wrist.",
+            "HEAD1": "Medical Fact",
+            "DESC1": "If more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",
+            "LINK1": "Healthline",
+            "HEAD2": "Better than BMI",
+            "LINK2": "Study by American Heart Association",
+            "DESC2": " has shown that measuring waistline might be a better way to predict heart disease risk than a widely used body mass index.",
+            "HEAD3": "Body composition",
+            "DESC3": "When you're gaining muscle and losing inches of fat your weight might not change much. That's why body composition can tell you more than the scale, it tells you the true story.",
+            "HEAD4": "Elevated Cardiovascular Risk",
+            "DESC4_1": "Men: 40 inches or more (102cm)",
+            "DESC4_2": "Women: 35 inches or more (88cm)",
+            "DESC4_3": "Every 2 inch(5cm) of waist size raise the risk by 17% in men and 13% in women, regardless of BMI",
+            "DESC4_4": "Source: "
+        },
+        "P5": {
+            "ABOUT": "Easy to use dietary zinc tracker for Apple Watch. Auto sync with Apple Health, does not require registration and absolutely free.",
+            "HEAD1": "Age-Related Diseases",
+            "DESC1": "Zinc may significantly reduce your risk of age-related diseases, such as pneumonia, infection and age-related macular degeneration (AMD). It may relieve oxidative stress and improve immune response by boosting the activity of T-cells and natural killer cells, which help protect your body from infection. Older adults who supplement with zinc experience improved influenza vaccination response, reduced risk of pneumonia and boosted mental performance.",
+            "LINK1": "National Institutes of Health, USA",
+            "HEAD2": "Wound Healing Acceleration",            
+            "DESC2": "Zinc is commonly used in hospitals as a treatment for burns, certain ulcers and other skin injuries. In fact, your skin holds a relatively high amount — about 5% — of your body’s zinc content.",
+            "LINK2": "Study by American Heart Association",
+            "HEAD3": "Decreases Inflammation",
+            "DESC3": "Decreases oxidative stress and reduces levels of certain inflammatory proteins in your body. Oxidative stress leads to chronic inflammation, a contributing factor in a wide array of chronic illnesses, such as heart disease, cancer and mental decline.",
+            "HEAD4": "Elevated Cardiovascular Risk"
+        },
+        "P6": {
             "ABOUT": "Easy to use waist circumference tracker for Apple Watch. Does not require account nor registration. Absolutely Free. All records get synced to your Apple Health app and the past 7 days can be accessed directly from your wrist.",
             "HEAD1": "Medical Fact",
             "DESC1": "If more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",

@@ -80,6 +80,40 @@ export default function LandingPage() {
                 </div>
             </section>
 
+
+            <section className="rr-s-product pw-color-bg-secondary">
+                <div className="row ms-s-offset">
+                    <div className="col-md-6 align-self-center order-last order-md-1">
+                        <p className="mt-2">{_("MAIN.P5.SUBHEAD")}</p>
+                        <h1>{_("MAIN.P5.HEAD")}</h1>
+                        <h2>{_("MAIN.P5.TEXT")}</h2>
+                        <a href={Locale.i18nLink("bodyzinc")} className="mt-3 rr-btn-large">{_("MAIN.P5.BTN")}</a>
+                    </div>
+
+                    <div className="col-md-4 order-sm-1">
+                        <IronImage imgLo="/img/p_vitamin_sm.webp" imgHi="/img/p_vitamin.webp" text={_("MAIN.P5.IMG")} />
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section className="rr-s-product my-5">
+                <div className="row ms-s-offset">
+                    <div className="col-md-4">
+                        <IronImage imgLo="/img/p_waist_sm.webp" imgHi="/img/p_waist.webp" text={_("MAIN.P6.IMG")} />
+                    </div>
+
+                    <div className="col-md-6 align-self-center">
+                        <p className="mt-2">{_("MAIN.P6.SUBHEAD")}</p>
+                        <h1>{_("MAIN.P6.HEAD")}</h1>
+                        <h2>{_("MAIN.P6.TEXT")}</h2>
+                        <a href={Locale.i18nLink("bodysize")} className="mt-3 rr-btn-large pull-right">{_("MAIN.P6.BTN")}</a>
+                    </div>
+                </div>
+            </section>
+
             {/* <ContactUs setIsLoading={setIsLoading} /> */}
             <Footer />
         </div>
