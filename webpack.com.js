@@ -59,6 +59,7 @@ module.exports = {
                 { from: 'src/404.html' },
                 { from: 'src/img/*.png', to: "img", flatten: true },
                 { from: 'src/img/*.webp', to: "img", flatten: true },
+                { from: 'src/img/*.jpg', to: "img", flatten: true },
                 { from: 'src/img/icon', to: "icon", flatten: true },
                 // { from: 'src/product', to: "product", flatten: false },
                 // { from: 'src/product', to: "product", flatten: false },

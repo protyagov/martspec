@@ -1,6 +1,6 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale"
-import NavBarLang from "./navbar-signin";
+import NavBarLang from "./navbar-lang";
 
 interface NavBarProps {
     title: string;

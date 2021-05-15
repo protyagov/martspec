@@ -1,6 +1,10 @@
-# README #
+# Images WebP#
 
-This README would normally document whatever steps are necessary to get your application up and running.
+* Run in image folder img.sh to convert all PNG to WebP
+* p_XXX_screens.png == 730x280
+* p_XXX_screens_sm.png == 125x48
+* p_XXX.png == 1010x1010
+* p_XXX_sm.png == 55x55
 
 ### Deploy
 

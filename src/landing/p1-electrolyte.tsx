@@ -70,7 +70,7 @@ export default function P1Electrolyte() {
             <div className="container mb-5 pb-5">
                 <div className="row align-items-center justify-content-sm-center" >
                     <div className="col-md-7 col-12 pb-5">
-                        <IronImage imgLo="/img/p_electrolyte_screens_sm.webp" imgHi="/img/p_electrolyte_screens.webp" text={_("MAIN.P1.IMG")} />
+                        <IronImage imgLo="/img/p_electrolyte_screens_sm.webp" imgHi="/img/p_electrolyte_screensf.webp" text={_("MAIN.P1.IMG")} />
                     </div>
                     <div className="col-md-5 col-12 text-center pb-5">
                         <a href={`https://apps.apple.com/${_("APPSTORE")}/app/electrolyte/id1507719251`}

@@ -18,6 +18,8 @@ export default function P4LogWaist() {
                         <h1>{_("PRODUCT.P4.HEAD3")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P4.DESC3")}</h3>
 
+
+                        {/* Better than BMI */}
                         <h1>{_("PRODUCT.P4.HEAD2")}</h1>
                         <h3 className="mt-3">
                             <a href="https://www.heart.org/en/news/2019/03/19/waist-size-predicts-heart-attacks-better-than-bmi-especially-in-women" target="_blank">
@@ -26,6 +28,8 @@ export default function P4LogWaist() {
                             {_("PRODUCT.P4.DESC2")}
                         </h3>
 
+
+                        {/* Medical Fact */}
                         <h1>{_("PRODUCT.P4.HEAD1")}</h1>
                         <h3 className="mt-3">{_("PRODUCT.P4.DESC1")}
                             <a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm" target="_blank">
@@ -34,6 +38,7 @@ export default function P4LogWaist() {
                         </h3>
 
 
+                        {/* Elevated Cardio Risk */}
                         <h1>{_("PRODUCT.P4.HEAD4")}</h1>
                         <h3 className="mt-3">
                             <ul>

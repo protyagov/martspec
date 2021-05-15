@@ -2,7 +2,7 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale"
 import { Footer } from "../part/footer";
 import IronImage from "src/part/iron-image";
-import NavBarLang from "src/part/navbar-signin";
+import NavBarLang from "src/part/navbar-lang";
 
 
 export default function LandingPage() {

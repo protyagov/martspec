@@ -4,11 +4,6 @@ $brand-primary: #fed136;
 $gray-darkest: #222;
 $ms-color-bg-card-home:#062F4F;
 
-// - range colors
-$pw-color-slider-blue:#3BADE3; // rgb(59, 173, 227);
-$pw-color-slider-pink: #e8313f; //#FF5024;//rgb(255, 53, 127);
-$pw-color-slider-purple: #9844b7;
-$pw-color-slider-ltpurple: #576fe6;
 
 /////////
 $pw-color-bg-secondary: #f4f4f5; // #f7f7f7;
@@ -29,13 +24,6 @@ $cl-color-hover-panel: #2a5987;
 $rr-color-bg-light: #F9F9F9;
 $rr-color-gray-f2: #f2f2f2;
 
-
-// $anaconda-black: #112226
-// $anaconda-green: #63AE56
-// $anaconda-hover: #2D699C
-// $anaconda-bg_gr: #E0EFEF
-// $anaconda-footr: #182340
-
 $ms-c-bg-gray: #E6E6E6;
 
 $ms-c-main1: #2387d8;
@@ -52,8 +40,6 @@ $rr-color-red: #e1666a;
 $rr-c-orange: #BF4803;
 $pw-color-button-text: #666;
 $rr-color-green: #1abb9c;
-$cl-color-blue: #118DF0;
-$rr-color-blue-nav: #1983FF;
 $placeholder-text: #bbbbbb;
 $rr-color-text-light: #e9e9e9;
 $cl-color-text-panel2: rgba(255, 255, 255, 0.75); // #e7e7e7;
@@ -62,46 +48,15 @@ $rr-color-text-recruiter: #276ea3;
 $rr-color-text-agency: #ca9e58;
 $rr-color-main:#617fde;
 
-// $rr-color-main-dark:#4f66ad;
 $rr-color-main-dark:#516ab3;
-// $rr-color-main-dark:#626f99;
 $rr-color-gold: #ded661;
 $rr-color-text-label: #999999;
 
 $rr-color-coral: #E89025;
-// $rr-color-text-agency: #499a71;
-// $rr-color-text-agency: #1abb9c;
 
 $sc-color-gray-dark: #9FA8AC;
 $sc-color-gray-light: #D2D6DB;
 
-.rr-c-linkedin {
-    color: #2D65BC;
-}
-
-.rr-c-facebook {
-    color: #4CA2F4 !important;
-}
-
-.rr-color-text-main {
-    color: $rr-color-main;
-}
-
-.rr-color-text-black {
-    color: $rr-color-black;
-}
-
-.rr-color-text-dark {
-    color: $rr-color-dark;
-}
-
-.rr-color-text-red {
-    color: $rr-color-red;
-}
-
-.rr-color-text-gold {
-    color: $rr-color-gold;
-}
 
 .sc-color-gray-light {
     color: $sc-color-gray-light;
@@ -109,18 +64,6 @@ $sc-color-gray-light: #D2D6DB;
 
 .rr-color-text-recruiter {
     color: $rr-color-text-recruiter;
-}
-
-.rr-color-text-agency {
-    color: $rr-color-text-agency;
-}
-
-.rr-color-bg-gray-f2 {
-    background-color: $rr-color-gray-f2;
-}
-
-.rr-color-bg-light {
-    background-color: $rr-color-bg-light;
 }
 
 .rr-color-black {
@@ -131,42 +74,6 @@ $sc-color-gray-light: #D2D6DB;
     color: #acb2b9;
 }
 
-.rr-color-text-green {
-    color: $rr-color-green;
-}
-
 .pw-color-bg-secondary {
     background-color: $pw-color-bg-secondary;
-}
-
-.rr-color-text-coral {
-    color: $rr-color-coral;
-}
-
-.rr-color-black {
-    color: $rr-color-black;
-}
-
-.pw-color-button-text {
-    color: $pw-color-button-text;
-}
-
-.pw-color-service {
-    color: #e1666a;
-}
-
-.pw-color-scarlet {
-    color: $pw-color-scarlet;
-}
-
-.pw-color-bright {
-    color: #F9C000 //;
-}
-
-.pw-color-heater {
-    color: orange;
-}
-
-.pw-color-volt {
-    color: $pw-color-volt;
 }
