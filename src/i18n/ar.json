@@ -42,6 +42,22 @@
             "BTN": "يتعلم أكثر",
             "IMG": "تتبع حجم الخصر الخاص بك (زر البطن) مباشرة من ذراعك",
             "DWN": "قم بتنزيل تطبيق مجاني Log Waist من متجر تطبيق Apple"
+        },
+        "P5": {
+            "HEAD": "Body Zinc",
+            "SUBHEAD": "Boosts immune system",
+            "TEXT": "Zinc may enhance immune function, stabilize blood sugar levels, and help keep your skin, eyes, and heart healthy.",
+            "BTN": "Узнать Больше",
+            "IMG": "Измерения объема талии с умных часов",
+            "DWN": "Скачать бесплатное приложение ЛокВайст из магазина Apple Store"
+        },
+        "P6": {
+            "HEAD": "Body Size",
+            "SUBHEAD": "Boosts immune system",
+            "TEXT": "Самый легкий способ учета окружности талии с умных часов Apple Watch. Полная синхронизация с приложением Apple Здоровье.",
+            "BTN": "Узнать Больше",
+            "IMG": "Измерения объема талии с умных часов",
+            "DWN": "Скачать бесплатное приложение ЛокВайст из магазина Apple Store"
         }
     },
     "FOOTER": {
