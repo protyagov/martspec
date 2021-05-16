@@ -42,6 +42,22 @@
             "BTN": "apprendre encore plus",
             "IMG": "Gardez une trace de votre tour de taille (nombril) directement depuis votre bras",
             "DWN": "Téléchargez gratuitement l'application Log Waist depuis l'AppStore d'Apple"
+        },
+        "P5": {
+            "HEAD": "Body Zinc",
+            "SUBHEAD": "suivi la consommation de zinc",
+            "TEXT": "Magnifique dans sa simplicité, son corps de traqueur en zinc pour votre montre. Apple Health activé. De vrais résultats. Libérer. Zéro publicité.",
+            "BTN": "Discover wellness",
+            "IMG": "Suivez votre consommation quotidienne de supplément de zinc",
+            "DWN": "Obtenez une application Bodyzinc gratuite d'Apple Store"
+        },
+        "P6": {
+            "HEAD": "Body Size",
+            "SUBHEAD": "beau corps - construit par vous!",
+            "TEXT": "Suivez vos hanches, votre taille et votre poitrine sur votre montre. Prise en charge complète d'Apple Health. Temps de chargement rapide. Complétement gratuit.",
+            "BTN": "Forme parfaite",
+            "IMG": "Mesurer la taille de la poitrine, la largeur de buste, la circonférence de la taille et la longueur des hanches à l'aide d'une montre sur votre poignet",
+            "DWN": "Obtenez une application GRATUITE GRATUITE TAILLE POUR Apple Watch directement à partir de l'Apple App Store"
         }
     },
     "FOOTER": {

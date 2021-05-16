@@ -42,6 +42,22 @@
             "BTN": "了解更多",
             "IMG": "直接从手臂追踪腰围大小（腹部按钮）",
             "DWN": "从 Apple AppStore 下载免费的Log Waist应用程序"
+        },
+        "P5": {
+            "HEAD": "Body Zinc",
+            "SUBHEAD": "跟踪锌消耗量",
+            "TEXT": "简约的机身锌质追踪器为您的手表带来美丽。 启用了Apple Health。 实际结果。 自由。 零个广告。",
+            "BTN": "发现健康",
+            "IMG": "跟踪您的日常消费锌补充剂",
+            "DWN": "从Apple Store免费获得FeedZinc应用程序"
+        },
+        "P6": {
+            "HEAD": "Body Size",
+            "SUBHEAD": "美丽的身体。 由您打造！",
+            "TEXT": "在手表上追踪臀部，腰部和胸部。全面支持Apple Health。快速加载时间。完全免费。",
+            "BTN": "完美的形状",
+            "IMG": "使用手腕上的手表测量胸部尺寸，胸围宽度，腰围和臀部长度",
+            "DWN": "直接从Apple App Store获取Apple Watch的免费体型应用程序"
         }
     },
     "FOOTER": {

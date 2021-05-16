@@ -42,6 +42,22 @@
             "BTN": "Erfahren Sie mehr",
             "IMG": "Behalten Sie Ihre Taillengröße (Bauchnabel) direkt von Ihrem Arm aus im Auge",
             "DWN": "Laden Sie die kostenlose Log Waist-App aus dem Apple AppStore herunter"
+        },
+        "P5": {
+            "HEAD": "Body Zinc",
+            "SUBHEAD": "verfolgung der zinkaufnahme",
+            "TEXT": "Schön in seiner Einfachheit Körper Zink Tracker für Ihre Uhr. Apple Health aktiviert. Echte Ergebnisse. Kostenlos. Keine Werbung.",
+            "BTN": "Wellness entdecken",
+            "IMG": "Verfolgen Sie Ihren Alltagsverbrauch von Zinkergänzungen",
+            "DWN": "Holen Sie sich kostenlos Bodyzinc-Anwendung von Apple Store"
+        },
+        "P6": {
+            "HEAD": "Body Size",
+            "SUBHEAD": "schöner Körper - von dir gebaut!",
+            "TEXT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Uhr. Volle Unterstützung von Apple Health. Schnelle Ladezeit. Absolut frei.",
+            "BTN": "Perfekte Form",
+            "IMG": "Messen Sie die Brustgröße, die Büste Breite, den Taillenumfang und die Hüftlänge mit der Uhr an Ihrem Handgelenk",
+            "DWN": "Holen Sie sich die kostenlose Body-Size-App für Apple Watch direkt aus dem Apple App Store"
         }
     },
     "FOOTER": {

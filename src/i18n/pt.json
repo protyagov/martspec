@@ -42,6 +42,22 @@
             "BTN": "Saber mais",
             "IMG": "Acompanhe o tamanho da sua cintura (umbigo) diretamente do seu braço",
             "DWN": "Baixe o aplicativo Log Waist grátis na AppStore da Apple"
+        },
+        "P5": {
+            "HEAD": "Body Zinc",
+            "SUBHEAD": "rastreamento ingestão zinco",
+            "TEXT": "Bonito em sua simplicidade rastreador de zinco no corpo para o seu relógio. Apple Health ativado. Resultados reais. Livre. Zero anúncios.",
+            "BTN": "Descubra bem-estar",
+            "IMG": "Acompanhe seu consumo diário de suplemento de zinco",
+            "DWN": "Obtenha gratuitamente o aplicativo BodyZinc da Apple Store"
+        },
+        "P6": {
+            "HEAD": "Body Size",
+            "SUBHEAD": "bela figura - corpo saudável",
+            "TEXT": "Acompanhe seus quadris, cintura e peito no relógio. Suporte total da Apple Health. Tempo de carregamento rápido. Absolutamente grátis.",
+            "BTN": "Forma perfeita",
+            "IMG": "Medir o tamanho do peito, largura do busto, circunferência da cintura e comprimento dos quadris usando um relógio no seu pulso",
+            "DWN": "Obter para o aplicativo gratuito do tamanho do corpo para o Apple Watch diretamente da Apple App Store"
         }
     },
     "FOOTER": {
