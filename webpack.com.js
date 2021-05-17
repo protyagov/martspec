@@ -55,7 +55,7 @@ module.exports = {
             patterns: [
                 { from: 'src/i18n/*.json', flatten: true, to: 'i18n' },
                 { from: 'src/../robots.txt' },
-                { from: 'src/../sitemap.txt' },
+                { from: 'src/../sitemap.xml' },
                 { from: 'src/404.html' },
                 { from: 'src/img/*.png', to: "img", flatten: true },
                 { from: 'src/img/*.webp', to: "img", flatten: true },

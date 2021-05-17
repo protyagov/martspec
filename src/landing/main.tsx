@@ -91,7 +91,7 @@ export default function LandingPage() {
                     </div>
 
                     <div className="col-md-4 order-sm-1">
-                        <IronImage imgLo="/img/p_vitamin_sm.webp" imgHi="/img/p_vitamin.webp" text={_("MAIN.P5.IMG")} />
+                        <IronImage imgLo="/img/p_bodyzinc_sm.webp" imgHi="/img/p_bodyzinc.webp" text={_("MAIN.P5.IMG")} />
                     </div>
                 </div>
             </section>
@@ -102,7 +102,7 @@ export default function LandingPage() {
             <section className="rr-s-product my-5">
                 <div className="row ms-s-offset">
                     <div className="col-md-4">
-                        <IronImage imgLo="/img/p_waist_sm.webp" imgHi="/img/p_waist.webp" text={_("MAIN.P6.IMG")} />
+                        <IronImage imgLo="/img/p_bodysize_sm.webp" imgHi="/img/p_bodysize.webp" text={_("MAIN.P6.IMG")} />
                     </div>
 
                     <div className="col-md-6 align-self-center">

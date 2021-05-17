@@ -3,7 +3,6 @@ import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
 import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
-const logo = require("src/img/bodysize.jpg").default;
 
 export default function P6BodySize() {
     return (
@@ -50,7 +49,7 @@ export default function P6BodySize() {
                     </div>
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src={logo} className="mx-auto" alt={_("MAIN.P6.IMG")} />
+                        <img src="img/bodysize.webp" className="mx-auto" alt={_("MAIN.P6.IMG")} />
                     </div>
                 </div>
             </section>
