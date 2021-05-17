@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>https://martspec.com</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/logmass/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/logvitamin/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/logwaist/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/electrolyte/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+       <url>
+      <loc>https://martspec.com/bodysize/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+       <url>
+      <loc>https://martspec.com/bodyzinc/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+
+<!-- English  -->
+   <url>
+      <loc>https://martspec.com/en/</en/loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/logmass/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/logvitamin/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/en/logwaist/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/en/electrolyte/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+       <url>
+      <loc>https://martspec.com/en/bodysize/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+       <url>
+      <loc>https://martspec.com/en/bodyzinc/</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+
+</urlset>

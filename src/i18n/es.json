@@ -135,6 +135,28 @@
             "DESC4_2": "Mujeres: 35 pulgadas o más (88 cm)",
             "DESC4_3": "Cada 2 pulgadas (5 cm) del tamaño de la cintura aumenta el riesgo en un 17% en los hombres y en un 13% en las mujeres, independientemente del IMC",
             "DESC4_4": "Fuente: "
+        },
+        "P5": {
+            "ABOUT": "Fácil de usar Rastreador de zinc dietético para el reloj Apple. Sincronización automática con Apple Health, no requiere registro y absolutamente gratis.",
+            "HEAD1": "Enfermedades relacionadas con la edad",
+            "DESC1": "El zinc puede reducir significativamente su riesgo de enfermedades relacionadas con la edad, como neumonía, infección y degeneración macular relacionada con la edad (AMD). Puede aliviar el estrés oxidativo y mejorar la respuesta inmune al aumentar la actividad de las células T y las células asesinas naturales, que ayudan a proteger su cuerpo de la infección. Los adultos mayores que complementan con la experiencia de zinc mejoraron la respuesta a la vacunación de la influenza, reduce el riesgo de neumonía y aumentó el rendimiento mental.",
+            "LINK1": "Institutos Nacionales de la Salud, EE. UU.",
+            "HEAD2": "Aceleración de curación de heridas",
+            "DESC2": "El zinc se usa comúnmente en los hospitales como un tratamiento para quemaduras, ciertas úlceras y otras lesiones en la piel. De hecho, su piel tiene una cantidad relativamente alta, alrededor del 5%, del contenido de zinc de su cuerpo.",
+            "LINK2": "Estudio de American Heart Association",
+            "HEAD3": "Disminuye la inflamación",
+            "DESC3": "Disminuye el estrés oxidativo y reduce los niveles de ciertas proteínas inflamatorias en su cuerpo. El estrés oxidativo conduce a la inflamación crónica, un factor contribuyente en una amplia gama de enfermedades crónicas, como las enfermedades cardíacas, el cáncer y el declive mental."
+        },
+        "P6": {
+            "ABOUT": "Haga un seguimiento de sus caderas, cintura y pecho en su reloj de Apple. Soporte completo de la salud de Apple. Tiempo de carga rápido. Absolutamente libre.",
+            "HEAD1": "Composición corporal",
+            "DESC1": "Cuando estás ganando músculo y perdiendo pulgadas de grasa, tu peso podría no cambiar mucho. Es por eso que la composición corporal puede decirte más que la escala, le dice la historia real.",
+            "LINK1": "Línea de salud",
+            "HEAD2": "Pecho",
+            "DESC2": "¿Por qué medir? No somos conscientes de cualquier necesidad médica o de bienestar para eso. Sin embargo, el ancho del cofre (busto) es una de las mediciones más importantes de las proporciones del cuerpo perfecto. Se cree que las proporciones correctas son más atractivas que el tamaño general o la altura del cuerpo.",
+            "HEAD3": "Cintura",
+            "HEAD4": "Caderas",
+            "DESC4": "La evidencia muestra que la grasa alrededor de los muslos y la parte trasera es más difícil de cambiar que la grasa alrededor de la cintura. La proporción de cintura a cadera se usa comúnmente como un indicador o medida de salud, y el riesgo de desarrollar condiciones de salud graves."
         }
     }
 }

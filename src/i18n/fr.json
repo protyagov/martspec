@@ -135,6 +135,28 @@
             "DESC4_2": "Femmes: 35 pouces ou plus (88 cm)",
             "DESC4_3": "Chaque 5 cm supplémentaire à la taille augmente le risque de 13% chez les femmes et de 17% chez les hommes, quel que soit l'IMC (Indice de Masse Corporelle)",
             "DESC4_4": "La source: "
+        },
+        "P5": {
+            "ABOUT": "Facile à utiliser le tracker zinc diététique pour Apple Watch. Synchronisation automatique avec la santé Apple, ne nécessite pas d'inscription et absolument libre.",
+            "HEAD1": "Maladies liées à l'âge",
+            "DESC1": "Le zinc peut réduire considérablement votre risque de maladies liées à l'âge, telles que la pneumonie, l'infection et la dégénérescence maculaire liée à l'âge (AMD). Il peut soulager le stress oxydatif et améliorer la réponse immunitaire en augmentant l'activité des cellules T et des cellules tueuses naturelles, qui aident à protéger votre corps de l'infection. Les personnes âgées qui complètent avec l'expérience du zinc ont une réponse de vaccination de la grippe améliorée, un risque de pneumonie et une performance mentale renforcée.",
+            "LINK1": "Instituts de santé nationaux, États-Unis",
+            "HEAD2": "Accélération de la cicatrisation des plaies",
+            "DESC2": "Le zinc est couramment utilisé dans les hôpitaux comme traitement des brûlures, de certains ulcères et d'autres blessures à la peau. En fait, votre peau détient une quantité relativement élevée - environ 5% - du contenu du zinc de votre corps.",
+            "LINK2": "Étude de l'American Heart Association",
+            "HEAD3": "Diminue l'inflammation",
+            "DESC3": "Diminue le stress oxydatif et réduit les niveaux de certaines protéines inflammatoires de votre corps. Le stress oxydatif entraîne une inflammation chronique, un facteur contribuant dans une vaste gamme de maladies chroniques, telles que la maladie cardiaque, le cancer et le déclin mentale."
+        },
+        "P6": {
+            "ABOUT": "Suivez vos hanches, votre taille et votre poitrine sur votre montre Apple. Soutien complet de la santé Apple. Temps de chargement rapide. Complétement gratuit.",
+            "HEAD1": "La composition corporelle",
+            "DESC1": "Lorsque vous gagnez du muscle et que vous perdez des pouces de graisse, votre poids pourrait ne pas changer beaucoup. C'est pourquoi la composition corporelle peut vous dire plus que la balance, il vous raconte la vraie histoire.",
+            "LINK1": "Santé en ligne",
+            "HEAD2": "Poitrine",
+            "DESC2": "Pourquoi mesurer? Nous ne sommes au courant d'aucun besoin médical ou de bien-être. Cependant, la largeur de la poitrine (buste) est l'une des mesures les plus importantes des proportions parfaites du corps. On pense que les proportions correctes sont plus attrayantes que la taille ou la hauteur globale du corps.",
+            "HEAD3": "Taille",
+            "HEAD4": "les hanches",
+            "DESC4": "Les preuves montrent que la graisse autour des cuisses et de l'arrière est plus difficile à déplacer que la graisse autour de la taille. Le ratio de taille à hanches est couramment utilisé comme indicateur ou mesure de la santé et le risque de développer des conditions de santé graves."
         }
     }
 }

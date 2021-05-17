@@ -135,6 +135,28 @@
             "DESC4_2": "Frauen: 88 cm oder mehr",
             "DESC4_3": "Alle 5 cm Taillengröße erhöhen das Risiko bei Männern um 17% und bei Frauen um 13%, unabhängig vom BMI",
             "DESC4_4": "Quelle: "
+        },
+        "P5": {
+            "ABOUT": "Einfach zu bedienender Ernährungszink-Tracker für Apple Watch. Auto Sync mit Apple Health erfordert keine Registrierung und absolut kostenlos.",
+            "HEAD1": "Altersbedingte Krankheiten",
+            "DESC1": "Zink kann Ihr Risiko von altersbedingten Erkrankungen wie Lungenentzündung, Infektion und altersbedingter Makuladegeneration (AMD) erheblich reduzieren. Es kann oxidativer Stress lindern und die Immunantwort verbessern, indem die Aktivität von T-Zellen und natürlichen Killerzellen stärkt, die dazu beitragen, Ihren Körper vor Infektionen zu schützen. Ältere Erwachsene, die mit Zinkerlebnis ergänzen, verbesserten die Influenza-Impfung, ein geringes Risiko der Lungenentzündung und die stärkste mentale Leistung.",
+            "LINK1": "Nationale Gesundheitsinstitute, USA",
+            "HEAD2": "Wundheilungsbeschleunigung.",
+            "DESC2": "Zink wird häufig in Krankenhäusern als Behandlung von Verbrennungen, bestimmten Geschwüren und anderen Hautverletzungen verwendet. Tatsächlich hält Ihre Haut einen relativ hohen Betrag - etwa 5% des Zinkgehalts Ihres Körpers.",
+            "LINK2": "Studie von American Heart Association",
+            "HEAD3": "Verringert Entzündungen",
+            "DESC3": "Verringert oxidativen Stress und verringert die Gewährleistung bestimmter entzündlicher Proteine in Ihrem Körper. Oxidativer Stress führt zu chronischen Entzündungen, ein beitragender Faktor in einer Vielzahl chronischer Erkrankungen, wie Herzkrankheiten, Krebs und geistiger Rückgang."
+        },
+        "P6": {
+            "ABOUT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Apple-Uhr. Volle Unterstützung der Apfelgesundheit. Schnelle Ladezeit. Absolut frei.",
+            "HEAD1": "Körperzusammensetzung",
+            "DESC1": "Wenn Sie Muskeln gewinnen und Zentimeter Fett verlieren, ändert sich Ihr Gewicht möglicherweise nicht viel. Deshalb kann die Körperkomposition Ihnen mehr als die Waage erzählen, er sagt Ihnen die wahre Geschichte.",
+            "LINK1": "Gesundheitslinie",
+            "HEAD2": "Brustf / Busen",
+            "DESC2": "Warum messen? Wir sind keinem medizinischen oder Wellnessbedürfnis dafür bewusst. Die Brust-Breite ist jedoch einer der wichtigsten Messungen perfekter Körperanteile. Es wird angenommen, dass korrekte Anteile attraktiver sind als die Gesamtgröße oder Höhe des Körpers.",
+            "HEAD3": "Taille",
+            "HEAD4": "Hüfte",
+            "DESC4": "Beweise zeigen, dass Fett um die Oberschenkel und Backside schwieriger ist, sich um die Taille zu verschieben, als Fett zu verschieben. Die Taillen-to-HIPS-Verhältnis wird üblicherweise als Indikator oder Gesundheitsmaß verwendet, und das Risiko, ernsthafte Gesundheitszustände zu entwickeln."
         }
     }
 }
