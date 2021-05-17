@@ -38,6 +38,8 @@ module.exports = {
         new HtmlWebpackPlugin({ template: './src/template/en/electrolyte.ejs', filename: 'electrolyte/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/logvitamin.ejs', filename: 'logvitamin/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/logwaist.ejs', filename: 'logwaist/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/bodyzinc.ejs', filename: 'bodyzinc/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/bodysize.ejs', filename: 'bodysize/index.html', inject: 'body' }),
 
         new HtmlWebpackInjectPreload({
             files: [{
@@ -75,6 +77,8 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/electrolyte.ejs`, filename: x + '/electrolyte/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/logvitamin.ejs`, filename: x + '/logvitamin/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/logwaist.ejs`, filename: x + '/logwaist/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/bodyzinc.ejs`, filename: x + '/bodyzinc/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/bodysize.ejs`, filename: x + '/bodysize/index.html', inject: 'body' }),
     ])]),
     //--------------------------------------------------------------------------------------------------------------------------------------------
     resolve: {
