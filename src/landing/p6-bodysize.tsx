@@ -49,7 +49,7 @@ export default function P6BodySize() {
                     </div>
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src="img/bodysize.webp" className="mx-auto" alt={_("MAIN.P6.IMG")} />
+                        <img src="/img/bodysize.webp" className="mx-auto" alt={_("MAIN.P6.IMG")} />
                     </div>
                 </div>
             </section>
