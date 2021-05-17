@@ -5,9 +5,11 @@ Allow: /electrolyte
 Allow: /logmass
 Allow: /logwaist
 Allow: /logvitamin
+Allow: /bodyzinc
+Allow: /bodysize
 Allow: /img/
 Allow: /icon/
 Allow: /privacy-policy
 Disallow: /font/
 
-Sitemap:  https://martspec.com/sitemap.txt
+Sitemap: https://martspec.com/sitemap.xml

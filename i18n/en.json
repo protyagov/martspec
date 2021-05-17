@@ -23,7 +23,7 @@
             "HEAD": "Log Mass",
             "SUBHEAD": "easy weight journal",
             "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
-            "BTN": "Take a look",
+            "BTN": "Give up the fat",
             "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
             "DWN": "Download Free Log Mass app from the Apple AppStore"
         },
@@ -31,7 +31,7 @@
             "HEAD": "Log Vitamin",
             "SUBHEAD": "the ultimate vitamin tracker",
             "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
-            "BTN": "Read more",
+            "BTN": "Vitaminize",
             "IMG": "Track the most essential vitamins directly on your wrist",
             "DWN": "Download Free Log Vitamin app from the Apple AppStore"
         },
@@ -39,9 +39,25 @@
             "HEAD": "Log Waist",
             "SUBHEAD": "tiny waist - healthy heart",
             "TEXT": "The easiest way to track waist circumference on Apple Watch. All records get synced to your Apple Health.",
-            "BTN": "Learn More",
+            "BTN": "Flat your belly",
             "IMG": "Keep track of your waist size (belly button) directly from your arm",
             "DWN": "Download Free Log Waist app from the Apple AppStore"
+        },
+        "P5": {
+            "HEAD": "Body Zinc",
+            "SUBHEAD": "AmaZinc tracker for your watch",
+            "TEXT": "Zinc may enhance immune function, stabilize blood sugar levels, and help keep your skin, eyes, and heart healthy.",
+            "BTN": "Discover wellness",
+            "IMG": "Track your everyday consumption of zinc supplement",
+            "DWN": "Get free of charge BodyZinc application from Apple Store"
+        },
+        "P6": {
+            "HEAD": "Body Size",
+            "SUBHEAD": "Beautiful body. Built by you!",
+            "TEXT": "Track your hips, waist and chest with this app directly from your Apple Watch. Full support of Apple Health. Fast load time. Absolutely free.",
+            "BTN": "Perfect Shape",
+            "IMG": "Measure chest size, bust width, waist circumference and hips length using watch on your wrist",
+            "DWN": "Get for free BodySize app for Apple Watch directly from the Apple App Store"
         }
     },
     "FOOTER": {
@@ -108,7 +124,7 @@
             "ABOUT": "Easy to use waist circumference tracker for Apple Watch. Does not require account nor registration. Absolutely Free. All records get synced to your Apple Health app and the past 7 days can be accessed directly from your wrist.",
             "HEAD1": "Medical Fact",
             "DESC1": "If more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",
-            "LINK1": "National Institutes of Health, USA",
+            "LINK1": "Healthline",
             "HEAD2": "Better than BMI",
             "LINK2": "Study by American Heart Association",
             "DESC2": " has shown that measuring waistline might be a better way to predict heart disease risk than a widely used body mass index.",
@@ -119,6 +135,29 @@
             "DESC4_2": "Women: 35 inches or more (88cm)",
             "DESC4_3": "Every 2 inch(5cm) of waist size raise the risk by 17% in men and 13% in women, regardless of BMI",
             "DESC4_4": "Source: "
+        },
+        "P5": {
+            "ABOUT": "Easy to use dietary zinc tracker for Apple Watch. Auto sync with Apple Health, does not require registration and absolutely free.",
+            "HEAD1": "Age-Related Diseases",
+            "DESC1": "Zinc may significantly reduce your risk of age-related diseases, such as pneumonia, infection and age-related macular degeneration (AMD). It may relieve oxidative stress and improve immune response by boosting the activity of T-cells and natural killer cells, which help protect your body from infection. Older adults who supplement with zinc experience improved influenza vaccination response, reduced risk of pneumonia and boosted mental performance.",
+            "LINK1": "National Institutes of Health, USA",
+            "HEAD2": "Wound Healing Acceleration",            
+            "DESC2": "Zinc is commonly used in hospitals as a treatment for burns, certain ulcers and other skin injuries. In fact, your skin holds a relatively high amount — about 5% — of your body’s zinc content.",
+            "LINK2": "Study by American Heart Association",
+            "HEAD3": "Decreases Inflammation",
+            "DESC3": "Decreases oxidative stress and reduces levels of certain inflammatory proteins in your body. Oxidative stress leads to chronic inflammation, a contributing factor in a wide array of chronic illnesses, such as heart disease, cancer and mental decline.",
+            "HEAD4": "Elevated Cardiovascular Risk"
+        },
+        "P6": {
+            "ABOUT": "Track your hips, waist and chest on your Apple Watch. Full support of Apple Health. Fast load time. Absolutely free.",
+            "HEAD1": "Body Composition",
+            "DESC1": "When you're gaining muscle and losing inches of fat your weight might not change much. That's why body composition can tell you more than the scale, it tells you the true story.",            
+            "LINK1": "Healthline",
+            "HEAD2": "Chest / Bust",
+            "DESC2": "Why measure? We are not aware of any medical or wellness need for that. However, the chest (bust) width is one of the most important measurements of perfect body proportions. Correct proportions are believed to be more attractive than the overall size or height of the body.",
+            "HEAD3": "Waist",
+            "HEAD4": "Hips",
+            "DESC4": "Evidence shows that fat around the thighs and backside is harder to shift than fat around the waist. The waist-to-hips ratio is commonly used as an indicator or measure of health, and the risk of developing serious health conditions."
         }
     }
 }

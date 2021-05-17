@@ -42,6 +42,22 @@
             "BTN": "Saber mais",
             "IMG": "Acompanhe o tamanho da sua cintura (umbigo) diretamente do seu braço",
             "DWN": "Baixe o aplicativo Log Waist grátis na AppStore da Apple"
+        },
+        "P5": {
+            "HEAD": "Body Zinc",
+            "SUBHEAD": "rastreamento ingestão zinco",
+            "TEXT": "Bonito em sua simplicidade rastreador de zinco no corpo para o seu relógio. Apple Health ativado. Resultados reais. Livre. Zero anúncios.",
+            "BTN": "Descubra bem-estar",
+            "IMG": "Acompanhe seu consumo diário de suplemento de zinco",
+            "DWN": "Obtenha gratuitamente o aplicativo BodyZinc da Apple Store"
+        },
+        "P6": {
+            "HEAD": "Body Size",
+            "SUBHEAD": "bela figura - corpo saudável",
+            "TEXT": "Acompanhe seus quadris, cintura e peito no relógio. Suporte total da Apple Health. Tempo de carregamento rápido. Absolutamente grátis.",
+            "BTN": "Forma perfeita",
+            "IMG": "Medir o tamanho do peito, largura do busto, circunferência da cintura e comprimento dos quadris usando um relógio no seu pulso",
+            "DWN": "Obter para o aplicativo gratuito do tamanho do corpo para o Apple Watch diretamente da Apple App Store"
         }
     },
     "FOOTER": {
@@ -119,6 +135,28 @@
             "DESC4_2": "Mulheres: 35 polegadas ou mais (88 cm)",
             "DESC4_3": "Cada 5 cm do tamanho da cintura aumenta o risco em 17% nos homens e 13% nas mulheres, independentemente do IMC",
             "DESC4_4": "Fonte: "
+        },
+        "P5": {
+            "ABOUT": "Fácil de usar rastreador de zinco dietético para a Apple Watch. Sincronizar automaticamente com a Apple Health, não requer registro e absolutamente livre.",
+            "HEAD1": "Doenças relacionadas à idade",
+            "DESC1": "O zinco pode reduzir significativamente o risco de doenças relacionadas à idade, como pneumonia, infecção e degeneração macular relacionada à idade (AMD). Pode aliviar o estresse oxidativo e melhorar a resposta imune impulsionando a atividade de células T e células assassinas naturais, que ajudam a proteger seu corpo da infecção. Adultos mais velhos que suplementam com experiência de zinco melhoraram a resposta de vacinação contra influenza, redução do risco de pneumonia e impulsionou o desempenho mental.",
+            "LINK1": "Institutos Nacionais de Saúde, EUA",
+            "HEAD2": "Aceleração de cicatrização de feridas",
+            "DESC2": "O zinco é comumente usado em hospitais como tratamento para queimaduras, certas úlceras e outras lesões na pele. Na verdade, sua pele detém uma quantidade relativamente alta - cerca de 5% - do conteúdo do zinco do seu corpo.",
+            "LINK2": "Estudo pela American Heart Association",
+            "HEAD3": "Diminui a inflamação",
+            "DESC3": "Diminui o estresse oxidativo e reduz os níveis de certas proteínas inflamatórias em seu corpo. O estresse oxidativo leva à inflamação crônica, um fator contribuinte em uma ampla gama de doenças crônicas, como doenças cardíacas, câncer e declínio mental."            
+        },
+        "P6": {
+            "ABOUT": "Acompanhe seus quadris, cintura e peito no seu relógio de maçã. Apoio completo da saúde da Apple. Tempo de carga rápido. Absolutamente grátis.",
+            "HEAD1": "Composição do corpo",
+            "DESC1": "Quando você está ganhando músculo e perder centímetros de gordura, seu peso pode não mudar muito. É por isso que a composição corporal pode lhe dizer mais do que a escala, diz a história verdadeira.",
+            "LINK1": "Linha de saúde.",
+            "HEAD2": "Peito",
+            "DESC2": "Por que medir? Não estamos cientes de qualquer médico ou bem-estar precisam disso. No entanto, a largura do peito (busto) é uma das medidas mais importantes de proporções perfeitas. Acredita-se que as proporções corretas sejam mais atraentes do que o tamanho ou a altura total do corpo.",
+            "HEAD3": "Cintura",
+            "HEAD4": "Quadris",
+            "DESC4": "Evidências mostram que gordura em torno das coxas e parte traseira é mais difícil de mudar do que gordura ao redor da cintura. A proporção de cintura para quadris é comumente usada como indicador ou medida de saúde, e o risco de desenvolver graves condições de saúde."
         }
     }
 }
