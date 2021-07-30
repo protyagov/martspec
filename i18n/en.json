@@ -36,12 +36,12 @@
             "DWN": "Download Free Log Vitamin app from the Apple AppStore"
         },
         "P4": {
-            "HEAD": "Log Waist",
+            "HEAD": "Waist Size",
             "SUBHEAD": "tiny waist - healthy heart",
             "TEXT": "The easiest way to track waist circumference on Apple Watch. All records get synced to your Apple Health.",
             "BTN": "Flat your belly",
             "IMG": "Keep track of your waist size (belly button) directly from your arm",
-            "DWN": "Download Free Log Waist app from the Apple AppStore"
+            "DWN": "Download Free body waist app from the Apple AppStore"
         },
         "P5": {
             "HEAD": "Body Zinc",
@@ -149,7 +149,7 @@
             "HEAD4": "Elevated Cardiovascular Risk"
         },
         "P6": {
-            "ABOUT": "Track your hips, waist and chest on your Apple Watch. Full support of Apple Health. Fast load time. Absolutely free.",
+            "ABOUT": "Track your hips, waist and chest on your Apple Watch. Auto calculates body shape using Bradley Bayou formula. Full support of Apple Health. iCloud backups. Fast load time. Absolutely free.",
             "HEAD1": "Body Composition",
             "DESC1": "When you're gaining muscle and losing inches of fat your weight might not change much. That's why body composition can tell you more than the scale, it tells you the true story.",            
             "LINK1": "Healthline",
@@ -157,7 +157,9 @@
             "DESC2": "Why measure? We are not aware of any medical or wellness need for that. However, the chest (bust) width is one of the most important measurements of perfect body proportions. Correct proportions are believed to be more attractive than the overall size or height of the body.",
             "HEAD3": "Waist",
             "HEAD4": "Hips",
-            "DESC4": "Evidence shows that fat around the thighs and backside is harder to shift than fat around the waist. The waist-to-hips ratio is commonly used as an indicator or measure of health, and the risk of developing serious health conditions."
+            "DESC4": "Evidence shows that fat around the thighs and backside is harder to shift than fat around the waist. The waist-to-hips ratio is commonly used as an indicator or measure of health, and the risk of developing serious health conditions.",
+            "HEAD5": "Body Shape",
+            "DESC5": "Are you a pear 🍐? An apple 🍎 ? Or maybe a hourglass? Finding out your true body shape is more than one of those pointless online tests. Understanding your body shape might help you discover the most effective workout. Several studies suggest that it can help improve your health."
         }
     }
 }

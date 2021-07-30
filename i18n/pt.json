@@ -36,12 +36,12 @@
             "DWN": "Baixe o aplicativo Free Vitamin Tracker da Apple App Store"
         },
         "P4": {
-            "HEAD": "Log Waist",
+            "HEAD": "Cintura",
             "SUBHEAD": "cintura fina - coração saudável",
             "TEXT": "A maneira mais fácil de monitorar a circunferência da cintura no Apple Watch. Todos os registros são sincronizados com a saúde da sua Apple.",
             "BTN": "Saber mais",
             "IMG": "Acompanhe o tamanho da sua cintura (umbigo) diretamente do seu braço",
-            "DWN": "Baixe o aplicativo Log Waist grátis na AppStore da Apple"
+            "DWN": "Baixe o aplicativo de cintura grátis na Apple App Store"
         },
         "P5": {
             "HEAD": "Body Zinc",
@@ -148,7 +148,7 @@
             "DESC3": "Diminui o estresse oxidativo e reduz os níveis de certas proteínas inflamatórias em seu corpo. O estresse oxidativo leva à inflamação crônica, um fator contribuinte em uma ampla gama de doenças crônicas, como doenças cardíacas, câncer e declínio mental."            
         },
         "P6": {
-            "ABOUT": "Acompanhe seus quadris, cintura e peito no seu relógio de maçã. Apoio completo da saúde da Apple. Tempo de carga rápido. Absolutamente grátis.",
+            "ABOUT": "Rastreie seus quadris, cintura e peito em seu Apple Watch. O Auto calcula a forma do corpo usando a fórmula de Bradley Bayou. Suporte total da Apple Health. Backups do iCloud. Tempo de carregamento rápido. Absolutamente grátis.",
             "HEAD1": "Composição do corpo",
             "DESC1": "Quando você está ganhando músculo e perder centímetros de gordura, seu peso pode não mudar muito. É por isso que a composição corporal pode lhe dizer mais do que a escala, diz a história verdadeira.",
             "LINK1": "Linha de saúde.",
@@ -156,7 +156,9 @@
             "DESC2": "Por que medir? Não estamos cientes de qualquer médico ou bem-estar precisam disso. No entanto, a largura do peito (busto) é uma das medidas mais importantes de proporções perfeitas. Acredita-se que as proporções corretas sejam mais atraentes do que o tamanho ou a altura total do corpo.",
             "HEAD3": "Cintura",
             "HEAD4": "Quadris",
-            "DESC4": "Evidências mostram que gordura em torno das coxas e parte traseira é mais difícil de mudar do que gordura ao redor da cintura. A proporção de cintura para quadris é comumente usada como indicador ou medida de saúde, e o risco de desenvolver graves condições de saúde."
+            "DESC4": "Evidências mostram que gordura em torno das coxas e parte traseira é mais difícil de mudar do que gordura ao redor da cintura. A proporção de cintura para quadris é comumente usada como indicador ou medida de saúde, e o risco de desenvolver graves condições de saúde.",
+            "HEAD5": "Formato corporal",
+            "DESC5": "O formato do seu corpo é uma maçã 🍎 ou uma pêra 🍐? Ou talvez uma ampulheta? Descobrir a verdadeira forma do seu corpo é mais do que um daqueles testes online inúteis. Compreender a forma do seu corpo pode ajudá-lo a descobrir o treino mais eficaz. Estudos sugerem que pode ajudar a melhorar sua saúde."
         }
     }
 }

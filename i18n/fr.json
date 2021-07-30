@@ -36,12 +36,12 @@
             "DWN": "Téléchargez l'application GRATUITE Vitamin Tracker depuis l'Apple App Store"
         },
         "P4": {
-            "HEAD": "Log Waist",
+            "HEAD": "Taille",
             "SUBHEAD": "taille étroite - coeur sain",
             "TEXT": "Le moyen le plus simple de suivre le tour de taille sur Apple Watch. Tous les enregistrements sont synchronisés avec votre santé Apple.",
             "BTN": "apprendre encore plus",
             "IMG": "Gardez une trace de votre tour de taille (nombril) directement depuis votre bras",
-            "DWN": "Téléchargez gratuitement l'application Log Waist depuis l'AppStore d'Apple"
+            "DWN": "Téléchargez l'application de taille gratuite sur l'App Store d'Apple"
         },
         "P5": {
             "HEAD": "Body Zinc",
@@ -148,7 +148,7 @@
             "DESC3": "Diminue le stress oxydatif et réduit les niveaux de certaines protéines inflammatoires de votre corps. Le stress oxydatif entraîne une inflammation chronique, un facteur contribuant dans une vaste gamme de maladies chroniques, telles que la maladie cardiaque, le cancer et le déclin mentale."
         },
         "P6": {
-            "ABOUT": "Suivez vos hanches, votre taille et votre poitrine sur votre montre Apple. Soutien complet de la santé Apple. Temps de chargement rapide. Complétement gratuit.",
+            "ABOUT": "Suivez vos hanches, votre taille et votre poitrine sur votre Apple Watch. Calcule automatiquement la forme du corps à l'aide de la formule Bradley Bayou. Prise en charge complète d'Apple Health. Sauvegardes iCloud. Temps de chargement rapide. Complétement gratuit.",
             "HEAD1": "La composition corporelle",
             "DESC1": "Lorsque vous gagnez du muscle et que vous perdez des pouces de graisse, votre poids pourrait ne pas changer beaucoup. C'est pourquoi la composition corporelle peut vous dire plus que la balance, il vous raconte la vraie histoire.",
             "LINK1": "Santé en ligne",
@@ -156,7 +156,9 @@
             "DESC2": "Pourquoi mesurer? Nous ne sommes au courant d'aucun besoin médical ou de bien-être. Cependant, la largeur de la poitrine (buste) est l'une des mesures les plus importantes des proportions parfaites du corps. On pense que les proportions correctes sont plus attrayantes que la taille ou la hauteur globale du corps.",
             "HEAD3": "Taille",
             "HEAD4": "les hanches",
-            "DESC4": "Les preuves montrent que la graisse autour des cuisses et de l'arrière est plus difficile à déplacer que la graisse autour de la taille. Le ratio de taille à hanches est couramment utilisé comme indicateur ou mesure de la santé et le risque de développer des conditions de santé graves."
+            "DESC4": "Les preuves montrent que la graisse autour des cuisses et de l'arrière est plus difficile à déplacer que la graisse autour de la taille. Le ratio de taille à hanches est couramment utilisé comme indicateur ou mesure de la santé et le risque de développer des conditions de santé graves.",
+            "HEAD5": "Forme du corps",
+            "DESC5": "Votre corps a-t-il la forme d'une pomme 🍎 ou d'une poire 🍐? Ou peut-être un sablier ? Découvrir la vraie forme de votre corps est plus qu'un de ces tests en ligne inutiles. Comprendre la forme de votre corps peut vous aider à découvrir l'entraînement le plus efficace. Des études suggèrent que cela peut aider à améliorer votre santé."
         }
     }
 }

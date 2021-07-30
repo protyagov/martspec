@@ -36,12 +36,12 @@
             "DWN": "Descargue la aplicación gratuita Log Vitamin de la AppStore de Apple"
         },
         "P4": {
-            "HEAD": "Log Waist",
+            "HEAD": "Cintura",
             "SUBHEAD": "cintura pequeña - corazón sano",
             "TEXT": "La forma más sencilla de realizar un seguimiento de la circunferencia de la cintura en el Apple Watch. Todos los registros se sincronizan con su Apple Health.",
             "BTN": "aprende más",
             "IMG": "Lleve un registro del tamaño de su cintura (ombligo) directamente desde su brazo",
-            "DWN": "Descargue la aplicación gratuita Log Waist de la AppStore de Apple"
+            "DWN": "Descargue la aplicación de cintura gratuita desde la App Store de Apple"
         },
         "P5": {
             "HEAD": "Body Zinc",
@@ -148,7 +148,7 @@
             "DESC3": "Disminuye el estrés oxidativo y reduce los niveles de ciertas proteínas inflamatorias en su cuerpo. El estrés oxidativo conduce a la inflamación crónica, un factor contribuyente en una amplia gama de enfermedades crónicas, como las enfermedades cardíacas, el cáncer y el declive mental."
         },
         "P6": {
-            "ABOUT": "Haga un seguimiento de sus caderas, cintura y pecho en su reloj de Apple. Soporte completo de la salud de Apple. Tiempo de carga rápido. Absolutamente libre.",
+            "ABOUT": "Rastrea tus caderas, cintura y pecho en tu Apple Watch. Auto calcula la forma del cuerpo usando la fórmula de Bradley Bayou. Soporte completo de Apple Health. Copias de seguridad de iCloud. Tiempo de carga rápido. Absolutamente libre.",
             "HEAD1": "Composición corporal",
             "DESC1": "Cuando estás ganando músculo y perdiendo pulgadas de grasa, tu peso podría no cambiar mucho. Es por eso que la composición corporal puede decirte más que la escala, le dice la historia real.",
             "LINK1": "Línea de salud",
@@ -156,7 +156,9 @@
             "DESC2": "¿Por qué medir? No somos conscientes de cualquier necesidad médica o de bienestar para eso. Sin embargo, el ancho del cofre (busto) es una de las mediciones más importantes de las proporciones del cuerpo perfecto. Se cree que las proporciones correctas son más atractivas que el tamaño general o la altura del cuerpo.",
             "HEAD3": "Cintura",
             "HEAD4": "Caderas",
-            "DESC4": "La evidencia muestra que la grasa alrededor de los muslos y la parte trasera es más difícil de cambiar que la grasa alrededor de la cintura. La proporción de cintura a cadera se usa comúnmente como un indicador o medida de salud, y el riesgo de desarrollar condiciones de salud graves."
+            "DESC4": "La evidencia muestra que la grasa alrededor de los muslos y la parte trasera es más difícil de cambiar que la grasa alrededor de la cintura. La proporción de cintura a cadera se usa comúnmente como un indicador o medida de salud, y el riesgo de desarrollar condiciones de salud graves.",
+            "HEAD5": "Forma del cuerpo",
+            "DESC5": "¿Tu cuerpo tiene forma de manzana 🍎 o de pera 🍐? ¿O quizás un reloj de arena? Descubrir la verdadera forma de su cuerpo es más que una de esas pruebas en línea inútiles. Comprender la forma de su cuerpo puede ayudarlo a descubrir el entrenamiento más efectivo. Los estudios sugieren que puede ayudar a mejorar su salud."
         }
     }
 }
