@@ -32,7 +32,7 @@ export default function P6BodySize() {
                             </a>
                             {_("PRODUCT.P4.DESC2")}
                         </h3>
-
+                        
 
                         {/* Hips Width */}
                         <h1>{_("PRODUCT.P6.HEAD4")}</h1>
@@ -46,6 +46,10 @@ export default function P6BodySize() {
                             </a>
                         </h3>
 
+
+                        {/* Body Shape */}
+                        <h1>{_("PRODUCT.P6.HEAD5")}</h1>
+                        <h3 className="mt-3">{_("PRODUCT.P6.DESC5")}</h3>
                     </div>
 
                     <div className="col-sm-12 col-md-3 order-sm-1">

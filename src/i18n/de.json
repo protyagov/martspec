@@ -36,12 +36,12 @@
             "DWN": "Laden Sie die kostenlose Vitamin Tracker-App aus dem Apple App Store herunter"
         },
         "P4": {
-            "HEAD": "Log Waist",
+            "HEAD": "Taille",
             "SUBHEAD": "winzige taille - gesundes herz",
             "TEXT": "Der einfachste Weg, um den Taillenumfang auf der Apple Watch zu verfolgen. Alle Datensätze werden mit Ihrem Apple Health synchronisiert.",
             "BTN": "Erfahren Sie mehr",
             "IMG": "Behalten Sie Ihre Taillengröße (Bauchnabel) direkt von Ihrem Arm aus im Auge",
-            "DWN": "Laden Sie die kostenlose Log Waist-App aus dem Apple AppStore herunter"
+            "DWN": "Laden Sie die kostenlose Taillen-App aus dem Apple App Store herunter"
         },
         "P5": {
             "HEAD": "Body Zinc",
@@ -148,7 +148,7 @@
             "DESC3": "Verringert oxidativen Stress und verringert die Gewährleistung bestimmter entzündlicher Proteine in Ihrem Körper. Oxidativer Stress führt zu chronischen Entzündungen, ein beitragender Faktor in einer Vielzahl chronischer Erkrankungen, wie Herzkrankheiten, Krebs und geistiger Rückgang."
         },
         "P6": {
-            "ABOUT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Apple-Uhr. Volle Unterstützung der Apfelgesundheit. Schnelle Ladezeit. Absolut frei.",
+            "ABOUT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Apple Watch. Auto berechnet die Körperform mithilfe der Bradley Bayou-Formel. Volle Unterstützung von Apple Health. iCloud-Backups. Schnelle Ladezeit. Absolut frei.",
             "HEAD1": "Körperzusammensetzung",
             "DESC1": "Wenn Sie Muskeln gewinnen und Zentimeter Fett verlieren, ändert sich Ihr Gewicht möglicherweise nicht viel. Deshalb kann die Körperkomposition Ihnen mehr als die Waage erzählen, er sagt Ihnen die wahre Geschichte.",
             "LINK1": "Gesundheitslinie",
@@ -156,7 +156,9 @@
             "DESC2": "Warum messen? Wir sind keinem medizinischen oder Wellnessbedürfnis dafür bewusst. Die Brust-Breite ist jedoch einer der wichtigsten Messungen perfekter Körperanteile. Es wird angenommen, dass korrekte Anteile attraktiver sind als die Gesamtgröße oder Höhe des Körpers.",
             "HEAD3": "Taille",
             "HEAD4": "Hüfte",
-            "DESC4": "Beweise zeigen, dass Fett um die Oberschenkel und Backside schwieriger ist, sich um die Taille zu verschieben, als Fett zu verschieben. Die Taillen-to-HIPS-Verhältnis wird üblicherweise als Indikator oder Gesundheitsmaß verwendet, und das Risiko, ernsthafte Gesundheitszustände zu entwickeln."
+            "DESC4": "Beweise zeigen, dass Fett um die Oberschenkel und Backside schwieriger ist, sich um die Taille zu verschieben, als Fett zu verschieben. Die Taillen-to-HIPS-Verhältnis wird üblicherweise als Indikator oder Gesundheitsmaß verwendet, und das Risiko, ernsthafte Gesundheitszustände zu entwickeln.",
+            "HEAD5": "Körperform",
+            "DESC5": "Ist Ihre Körperform ein Apfel 🍎 oder eine Birne 🍐? Oder vielleicht eine Sanduhr? Ihre wahre Körperform herauszufinden ist mehr als nur einer dieser sinnlosen Online-Tests. Das Verständnis Ihrer Körperform kann Ihnen helfen, das effektivste Training zu finden. Studien deuten darauf hin, dass es helfen kann, Ihre Gesundheit zu verbessern."
         }
     }
 }
