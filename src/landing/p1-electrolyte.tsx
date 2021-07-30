@@ -3,7 +3,10 @@ import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
 import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
-const logo = require("src/img/electrolyte.svg").default;
+// import logo from "src/img/electrolyte.svg"
+// const logo = require("src/img/electrolyte.svg").default;
+
+
 
 export default function P1Electrolyte() {
     return (
@@ -61,7 +64,7 @@ export default function P1Electrolyte() {
                     </div>
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src={logo} className="mx-auto" alt={_("MAIN.P1.IMG")} />
+                        <img src="/img/electrolyte.svg" className="mx-auto" alt={_("MAIN.P1.IMG")} />
                     </div>
                 </div>
             </section>
@@ -70,7 +73,7 @@ export default function P1Electrolyte() {
             <div className="container mb-5 pb-5">
                 <div className="row align-items-center justify-content-sm-center" >
                     <div className="col-md-7 col-12 pb-5">
-                        <IronImage imgLo="/img/p_electrolyte_screens_sm.webp" imgHi="/img/p_electrolyte_screensf.webp" text={_("MAIN.P1.IMG")} />
+                        <IronImage imgLo="/img/p_electrolyte_screens_sm.webp" imgHi="/img/p_electrolyte_screens.webp" text={_("MAIN.P1.IMG")} />
                     </div>
                     <div className="col-md-5 col-12 text-center pb-5">
                         <a href={`https://apps.apple.com/${_("APPSTORE")}/app/electrolyte/id1507719251`}

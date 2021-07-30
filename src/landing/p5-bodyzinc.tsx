@@ -3,7 +3,6 @@ import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
 import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
-const logo = require("src/img/bodyzinc.svg").default;
 
 export default function P5BodyZinc() {
     return <>
@@ -42,7 +41,7 @@ export default function P5BodyZinc() {
                 </div>
 
                 <div className="col-sm-12 col-md-3 order-sm-1">
-                    <img src={logo} className="img-fluid" alt={_("MAIN.P5.IMG")} />
+                    <img src="/img/bodyzinc.svg" className="img-fluid" alt={_("MAIN.P5.IMG")} />
                 </div>
             </div>
         </section>

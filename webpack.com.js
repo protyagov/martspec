@@ -55,16 +55,15 @@ module.exports = {
 
         new CopyPlugin({
             patterns: [
-                { from: 'src/i18n/*.json', flatten: true, to: 'i18n' },
+                { context:'src/i18n/', from: '*.json',  to: 'i18n' },
                 { from: 'src/../robots.txt' },
                 { from: 'src/../sitemap.xml' },
                 { from: 'src/404.html' },
-                { from: 'src/img/*.png', to: "img", flatten: true },
-                { from: 'src/img/*.webp', to: "img", flatten: true },
-                { from: 'src/img/*.jpg', to: "img", flatten: true },
-                { from: 'src/img/icon', to: "icon", flatten: true },
-                // { from: 'src/product', to: "product", flatten: false },
-                // { from: 'src/product', to: "product", flatten: false },
+                { context: 'src/img/', from: '*.svg', to: "img" },
+                { context: 'src/img/', from: '*.png', to: "img" },
+                { context: 'src/img/', from: '*.webp', to: "img"},
+                { context: 'src/img/', from: '*.jpg', to: "img"},
+                { context: 'src/img/icon/', from: '*', to: "icon"},
             ],
             options: {
                 concurrency: 100,
@@ -121,16 +120,12 @@ module.exports = {
                 ],
             },
             {
-                test: /\.less$/,
-                loader: "less-loader"
-            },
-            {
                 test: /\.(png|svg|jpg|gif)$/,
-                use: ['file-loader?name=img/[name].[ext]']
+                type: 'asset/resource',
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
-                use: ['file-loader?name=font/[name].[ext]']
+                type: 'asset/resource',                
             },
             {
                 test: /\.(t|j)sx?$/,

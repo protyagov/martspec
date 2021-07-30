@@ -3,7 +3,6 @@ import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
 import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
-const logo = require("src/img/waist.svg").default;
 
 export default function P4LogWaist() {
     return (
@@ -60,7 +59,7 @@ export default function P4LogWaist() {
                     </div>
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src={logo} className="mx-auto" alt={_("MAIN.P4.IMG")} />
+                        <img src="/img/waist.svg" className="mx-auto" alt={_("MAIN.P4.IMG")} />
                     </div>
                 </div>
             </section>

@@ -23,6 +23,33 @@ export class Locale {
     }
 
     //-------------------------------------------------------------------------------------------------------
+    static languageName(code: string): string {
+        switch (code) {
+            case 'en':
+                return "English"
+            case 'ru':
+                return "Русский"
+            case 'de':
+                return "Deutsche"
+            case 'fr':
+                return "Français"
+            case 'hi':
+                return "हिन्दी"
+            case 'pt':
+                return "Português"
+            case 'es':
+                return "Español"
+            case 'zh':
+                return "中文"
+            case 'ja':
+                return "日本語"
+            case 'ar':
+                return "عربي"
+        }
+        return "English"
+    }
+
+    //-------------------------------------------------------------------------------------------------------
     static get language(): string {
         return Locale._polyglot.locale() as string;
     }

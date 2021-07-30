@@ -3,7 +3,6 @@ import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
 import IronImage from "src/part/iron-image";
-const logo = require("src/img/mass.svg").default;
 
 export default function P2LogMass() {
     return (
@@ -38,7 +37,7 @@ export default function P2LogMass() {
 
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src={logo} className="mx-auto" alt={_("MAIN.P2.IMG")} />
+                        <img src="/img/mass.svg" className="mx-auto" alt={_("MAIN.P2.IMG")} />
                     </div>
                 </div>
             </section>

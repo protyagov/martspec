@@ -3,9 +3,8 @@ import _, { Locale } from "src/i18n/locale";
 
 export default function NavBarLang() {
     return <div className="dropdown float-end" >
-
-        <button className="btn btn-link dropdown-toggle shadow-none" data-bs-toggle="dropdown">
-            <i className="fo fo-2x icon-language mt-3" />
+        <button className="btn btn-link dropdown-toggle shadow-none" data-bs-toggle="dropdown" style={{fontSize:"1.5rem"}}>
+           {Locale.languageName(Locale.language)}<i className="fo fo-2x icon-language mt-3" />
         </button>
         <ul className="ms-navbar-nav dropdown-menu dropdown-menu-end border-0">
             <li className="nav-item" hidden={Locale.language == 'en'}>

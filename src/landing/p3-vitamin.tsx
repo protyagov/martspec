@@ -3,7 +3,7 @@ import _ from "src/i18n/locale"
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
 import IronImage from "src/part/iron-image";
-const logo = require("src/img/vitamin.svg").default;
+
 
 export default function P3LogVitamin() {
     return (
@@ -81,7 +81,7 @@ export default function P3LogVitamin() {
 
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src={logo} className="mx-auto" alt={_("MAIN.P3.IMG")} />
+                        <img src="/img/vitamin.svg" className="mx-auto" alt={_("MAIN.P3.IMG")} />
                     </div>
                 </div>
             </section>
