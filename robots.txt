@@ -2,7 +2,7 @@
 User-agent: *
 Allow: /
 Allow: /electrolyte
-Allow: /logmass
+Allow: /bodymass
 Allow: /logwaist
 Allow: /logvitamin
 Allow: /bodyzinc

@@ -34,7 +34,7 @@ module.exports = {
 
         // --------------- Static Content EN --------------- 
         new HtmlWebpackPlugin({ template: './src/template/en/main.ejs', filename: 'index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/en/logmass.ejs', filename: 'logmass/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/bodymass.ejs', filename: 'bodymass/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/electrolyte.ejs', filename: 'electrolyte/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/logvitamin.ejs', filename: 'logvitamin/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/logwaist.ejs', filename: 'logwaist/index.html', inject: 'body' }),
@@ -72,7 +72,7 @@ module.exports = {
         // , new BundleAnalyzerPlugin()
     ].concat(...[...['ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'pt', 'ru', 'zh'].map(x => [
         new HtmlWebpackPlugin({ template: `./src/template/${x}/main.ejs`, filename: x + '/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: `./src/template/${x}/logmass.ejs`, filename: x + '/logmass/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/bodymass.ejs`, filename: x + '/bodymass/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/electrolyte.ejs`, filename: x + '/electrolyte/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/logvitamin.ejs`, filename: x + '/logvitamin/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/logwaist.ejs`, filename: x + '/logwaist/index.html', inject: 'body' }),

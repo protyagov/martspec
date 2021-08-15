@@ -4,7 +4,7 @@ import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
 import IronImage from "src/part/iron-image";
 
-export default function P2LogMass() {
+export default function P2bodymass() {
     return (
         <>
             <NavigationBar title={_("MAIN.P2.HEAD")} />
