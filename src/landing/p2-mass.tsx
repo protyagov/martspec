@@ -31,6 +31,9 @@ export default function P2bodymass() {
                                 <li>{_("PRODUCT.P2.DESC4_2")}</li>
                                 <li>{_("PRODUCT.P2.DESC4_3")}</li>
                                 <li>{_("PRODUCT.P2.DESC4_4")}</li>
+                                <li>{_("PRODUCT.P2.DESC4_5")}</li>
+                                <li>{_("PRODUCT.P2.DESC4_6")}</li>
+                                <li>{_("PRODUCT.P2.DESC4_7")}</li>
                             </ul>
                         </h3>
                     </div>
