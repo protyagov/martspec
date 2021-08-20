@@ -20,12 +20,12 @@
             "DWN": "Téléchargez l'application gratuite Electrolyte Tracker sur l'AppStore d'Apple"
         },
         "P2": {
-            "HEAD": "Log Mass",
+            "HEAD": "Body Mass",
             "SUBHEAD": "journal de poids facile",
             "TEXT": "Le suivi de votre poids augmente votre efficacité en termes de temps et d'entraînement. Non seulement cela vous poussera à faire mieux, mais vous conduira également à être votre propre compétition!",
             "BTN": "regarde",
             "IMG": "Enregistrez la masse corporelle directement de votre Apple Watch dans le stockage de santé Apple",
-            "DWN": "Téléchargez gratuitement l'application Log Mass depuis l'AppStore d'Apple"
+            "DWN": "Téléchargez gratuitement l'application Body Mass depuis l'AppStore d'Apple"
         },
         "P3": {
             "HEAD": "Vitamines",
