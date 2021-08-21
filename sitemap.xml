@@ -4,407 +4,330 @@
 
    <url>
       <loc>https://martspec.com</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/bodymass/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/logvitamin/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
     <url>
-      <loc>https://martspec.com/logwaist/</loc>
-      <lastmod>2021-05-17</lastmod>
+      <loc>https://martspec.com/waistsize/</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
       <loc>https://martspec.com/electrolyte/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/bodysize/</loc>
-      <lastmod>2021-07-29</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/bodyzinc/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
 
 <!-- English  -->
    <url>
       <loc>https://martspec.com/en/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/en/bodymass/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/en/logvitamin/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
     <url>
-      <loc>https://martspec.com/en/logwaist/</loc>
-      <lastmod>2021-05-17</lastmod>
+      <loc>https://martspec.com/en/waistsize/</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
       <loc>https://martspec.com/en/electrolyte/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/en/bodysize/</loc>
-      <lastmod>2021-07-29</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/en/bodyzinc/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
 
 <!-- Arabic  -->
    <url>
       <loc>https://martspec.com/ar/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/ar/bodymass/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/ar/logvitamin/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
     <url>
-      <loc>https://martspec.com/ar/logwaist/</loc>
-      <lastmod>2021-05-17</lastmod>
+      <loc>https://martspec.com/ar/waistsize/</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
       <loc>https://martspec.com/ar/electrolyte/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/ar/bodysize/</loc>
-      <lastmod>2021-07-29</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/ar/bodyzinc/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
 
 <!-- China ZH  -->
    <url>
       <loc>https://martspec.com/zh/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/zh/bodymass/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/zh/logvitamin/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
     <url>
-      <loc>https://martspec.com/zh/logwaist/</loc>
-      <lastmod>2021-05-17</lastmod>
+      <loc>https://martspec.com/zh/waistsize/</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
       <loc>https://martspec.com/zh/electrolyte/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/zh/bodysize/</loc>
-      <lastmod>2021-07-29</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/zh/bodyzinc/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
 
 <!-- French FR  -->
    <url>
       <loc>https://martspec.com/fr/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/fr/bodymass/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/fr/logvitamin/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
     <url>
-      <loc>https://martspec.com/fr/logwaist/</loc>
-      <lastmod>2021-05-17</lastmod>
+      <loc>https://martspec.com/fr/waistsize/</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
       <loc>https://martspec.com/fr/electrolyte/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/fr/bodysize/</loc>
-      <lastmod>2021-07-29</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/fr/bodyzinc/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
 
 <!-- German DE  -->
    <url>
       <loc>https://martspec.com/de/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/de/bodymass/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/de/logvitamin/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
     <url>
-      <loc>https://martspec.com/de/logwaist/</loc>
-      <lastmod>2021-05-17</lastmod>
+      <loc>https://martspec.com/de/waistsize/</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
       <loc>https://martspec.com/de/electrolyte/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/de/bodysize/</loc>
-      <lastmod>2021-07-29</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/de/bodyzinc/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
 
 <!-- Hindi HI  -->
    <url>
       <loc>https://martspec.com/hi/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/hi/bodymass/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/hi/logvitamin/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
     <url>
-      <loc>https://martspec.com/hi/logwaist/</loc>
-      <lastmod>2021-05-17</lastmod>
+      <loc>https://martspec.com/hi/waistsize/</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
       <loc>https://martspec.com/hi/electrolyte/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/hi/bodysize/</loc>
-      <lastmod>2021-07-29</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/hi/bodyzinc/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
 
 <!-- Japanise JA  -->
    <url>
       <loc>https://martspec.com/ja/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/ja/bodymass/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/ja/logvitamin/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
     <url>
-      <loc>https://martspec.com/ja/logwaist/</loc>
-      <lastmod>2021-05-17</lastmod>
+      <loc>https://martspec.com/ja/waistsize/</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
       <loc>https://martspec.com/ja/electrolyte/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/ja/bodysize/</loc>
-      <lastmod>2021-07-29</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/ja/bodyzinc/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
 
 <!-- Portuguese PT  -->
    <url>
       <loc>https://martspec.com/pt/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/pt/bodymass/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/pt/logvitamin/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
     <url>
-      <loc>https://martspec.com/pt/logwaist/</loc>
-      <lastmod>2021-05-17</lastmod>
+      <loc>https://martspec.com/pt/waistsize/</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
       <loc>https://martspec.com/pt/electrolyte/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/pt/bodysize/</loc>
-      <lastmod>2021-07-29</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/pt/bodyzinc/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
 
 <!-- Russian RU  -->
    <url>
       <loc>https://martspec.com/ru/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/ru/bodymass/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/ru/logvitamin/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
     <url>
-      <loc>https://martspec.com/ru/logwaist/</loc>
-      <lastmod>2021-05-17</lastmod>
+      <loc>https://martspec.com/ru/waistsize/</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
       <loc>https://martspec.com/ru/electrolyte/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/ru/bodysize/</loc>
-      <lastmod>2021-07-29</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/ru/bodyzinc/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
 
 <!-- Spanish ES  -->
    <url>
       <loc>https://martspec.com/es/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/es/bodymass/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/es/logvitamin/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
     <url>
-      <loc>https://martspec.com/es/logwaist/</loc>
-      <lastmod>2021-05-17</lastmod>
+      <loc>https://martspec.com/es/waistsize/</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
       <loc>https://martspec.com/es/electrolyte/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/es/bodysize/</loc>
-      <lastmod>2021-07-29</lastmod>
       <changefreq>monthly</changefreq>
    </url>
        <url>
       <loc>https://martspec.com/es/bodyzinc/</loc>
-      <lastmod>2021-05-17</lastmod>
       <changefreq>monthly</changefreq>
    </url>
 

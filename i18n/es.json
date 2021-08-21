@@ -84,7 +84,7 @@
             "DESC5": "Los desequilibrios de electrolitos pueden desarrollarse al consumir muy poco o demasiado electrolito, así como al excretar muy poco o demasiado electrolito. "
         },
         "P2": {
-            "ABOUT": "El diario de peso corporal es la herramienta perfecta para aumentar la eficiencia de sus ejercicios y la motivación para alcanzar la meta. Todos los datos se sincronizan con Apple Health y están disponibles en su reloj durante 7 días para verlos rápidamente. Todo es fácil y absolutamente gratis.",
+            "ABOUT": "El diario de peso corporal es la herramienta perfecta para aumentar la eficiencia de sus ejercicios y la motivación para alcanzar la meta. Todos los datos se sincronizan con Apple Health y se almacenan de forma segura en su iCloud. Todo es fácil y absolutamente gratis. Cero anuncios y sin compras dentro de la aplicación.",
             "HEAD1": "Responsabilidad",
             "DESC1": "Tenemos una responsabilidad con nosotros mismos por nuestra salud. Nadie puede hacernos perder peso o elegir alimentos saludables. Debemos decidir esto por nosotros mismos. ",
             "HEAD2": "Honestidad",
@@ -94,8 +94,11 @@
             "HEAD4": "Funciones de la aplicación",
             "DESC4_1": "Integración de salud de Apple",
             "DESC4_2": "Historial de grabaciones pasadas con diferencia porcentual",
-            "DESC4_3": "Todos los tamaños de relojes, todos los tipos de complicaciones de la esfera del reloj",
-            "DESC4_4": "No necesita una aplicación de iPhone complementaria"
+            "DESC4_3": "Todos los tamaños de reloj, todos los tipos de widgets de esfera de reloj",
+            "DESC4_4": "Copias de seguridad de iCloud",
+            "DESC4_5": "Funciona sin iPhone",
+            "DESC4_6": "Estilo minimalista",
+            "DESC4_7": "Gratis, sin anuncios y sin compras dentro de la aplicación"
         },
         "P3": {
             "ABOUT": "La aplicación Apple Watch le permite realizar un seguimiento de la ingesta de vitaminas esenciales directamente desde su muñeca, ver su progreso a lo largo del tiempo y es absolutamente gratis.",

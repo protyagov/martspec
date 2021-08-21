@@ -84,7 +84,7 @@
             "DESC5": "Os desequilíbrios eletrolíticos podem ocorrer consumindo pouco ou muito eletrólito, bem como excretando muito pouco ou muito eletrólito."
         },
         "P2": {
-            "ABOUT": "O diário de peso corporal é a ferramenta perfeita para aumentar a eficiência dos seus exercícios e a motivação para atingir o objetivo. Todos os dados são sincronizados com o Apple Health e ficam disponíveis no seu relógio por 7 dias para uma visualização rápida. Tudo é fácil e totalmente gratuito.",
+            "ABOUT": "O diário de peso corporal é a ferramenta perfeita para aumentar a eficiência dos seus exercícios e a motivação para atingir o objetivo. Todos os dados são sincronizados com o Apple Health e armazenados com segurança em seu iCloud. Tudo é fácil e totalmente gratuito. Zero ADs e nenhuma compra no aplicativo.",
             "HEAD1": "Prestação de contas",
             "DESC1": "Temos uma responsabilidade para conosco mesmos por nossa saúde. Ninguém pode nos fazer perder peso ou escolher alimentos saudáveis. Devemos decidir isso por nós mesmos. ",
             "HEAD2": "Honestidade",
@@ -93,9 +93,12 @@
             "DESC3": "A extração diária é importante, pois mantém hábitos saudáveis em nossas mentes. Cada vez que fazemos um registro, somos lembrados de nosso compromisso com a saúde. Pular um dia aqui e ali torna mais fácil pular 2 dias, do que 3 dias. Então, antes que você perceba, você parou e está de volta aos seus velhos hábitos.",
             "HEAD4": "Recursos do aplicativo",
             "DESC4_1": "Integração de saúde da Apple",
-            "DESC4_2": "Histórico de gravações anteriores com diferença percentual",
-            "DESC4_3": "Todos os tamanhos de relógio, todos os tipos de complicações do mostrador do relógio",
-            "DESC4_4": "Não precisa de aplicativo complementar para iPhone"
+            "DESC4_2": "Histórico de gravações anteriores com a diferença percentual",
+            "DESC4_3": "Todos os tamanhos de relógio, todos os tipos de widget de mostrador de relógio",
+            "DESC4_4": "Backups do iCloud",
+            "DESC4_5": "Funciona sem iPhone",
+            "DESC4_6": "Estilo minimalista",
+            "DESC4_7": "Grátis, sem anúncios e sem compras no aplicativo"
         },
         "P3": {
             "ABOUT": "O aplicativo Apple Watch permite que você acompanhe a ingestão de vitaminas essenciais diretamente de seu pulso, veja seu progresso ao longo do tempo e é totalmente gratuito.",

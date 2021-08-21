@@ -84,7 +84,7 @@
             "DESC5": "Elektrolytstörungen können entstehen, wenn zu wenig oder zu viel Elektrolyt verbraucht und zu wenig oder zu viel Elektrolyt ausgeschieden wird. "
         },
         "P2": {
-            "ABOUT": "Das Body Weight Journal ist das perfekte Werkzeug, um die Effizienz Ihrer Übungen und die Motivation zum Erreichen des Ziels zu steigern. Alle Daten werden mit Apple Health synchronisiert und sind 7 Tage lang auf Ihrer Uhr verfügbar, um einen schnellen Überblick zu erhalten. Alles ist einfach und absolut kostenlos.",
+            "ABOUT": "Das Bodyweight Journal ist das perfekte Werkzeug, um die Effizienz Ihrer Übungen und die Motivation zum Erreichen des Ziels zu steigern. Alle Daten werden mit Apple Health synchronisiert und sicher in Ihrer iCloud gespeichert. Alles ist einfach und absolut kostenlos. Keine Anzeigen und keine In-App-Käufe.",
             "HEAD1": "Rechenschaftspflicht",
             "DESC1": "Wir haben eine Verantwortung für unsere Gesundheit. Niemand kann uns dazu bringen, Gewicht zu verlieren oder gesunde Lebensmittel zu wählen. Das müssen wir selbst entscheiden.",
             "HEAD2": "Ehrlichkeit",
@@ -93,9 +93,12 @@
             "DESC3": "Tägliches Protokollieren ist wichtig, es hält gesunde Gewohnheiten vor Augen. Jedes Mal, wenn wir einen Protokolleintrag machen, werden wir an unser Engagement für die Gesundheit erinnert. Das Überspringen eines Tages hier und da erleichtert das Überspringen von 2 Tagen und dann von 3 Tagen. Dann, bevor Sie es wissen, haben Sie aufgehört und sind zu Ihren alten Gewohnheiten zurückgekehrt.",
             "HEAD4": "App-Funktionen",
             "DESC4_1": "Apple Health Integration",
-            "DESC4_2": "Verlauf vergangener Aufnahmen mit prozentualer Differenz",
-            "DESC4_3": "Alle Uhrengrößen, alle Komplikationsarten des Zifferblatts",
-            "DESC4_4": "Benötigt keine begleitende iPhone App"
+            "DESC4_2": "Historie vergangener Aufnahmen mit der prozentualen Differenz",
+            "DESC4_3": "Alle Uhrengrößen, alle Watchface-Widget-Typen",
+            "DESC4_4": "iCloud-Backups",
+            "DESC4_5": "Funktioniert ohne iPhone",
+            "DESC4_6": "Minimalistischer Stil",
+            "DESC4_7": "Kostenlos, keine Anzeigen und keine In-App-Käufe"
         },
         "P3": {
             "ABOUT": "Mit der LogVitamin Apple Watch App können Sie die Aufnahme wichtiger Vitamine direkt vom Handgelenk aus verfolgen, Ihren Fortschritt im Laufe der Zeit verfolgen und sind absolut kostenlos.",
