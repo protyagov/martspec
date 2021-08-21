@@ -84,7 +84,7 @@
             "DESC5": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte. "
         },
         "P2": {
-            "ABOUT": "Le journal de poids corporel est l'outil parfait pour augmenter l'efficacité de vos exercices et la motivation pour atteindre l'objectif. Toutes les données sont synchronisées avec Apple Health et disponibles sur votre montre pendant 7 jours pour un aperçu rapide. Tout est simple et absolument gratuit.",
+            "ABOUT": "Le journal de poids corporel est l'outil parfait pour augmenter l'efficacité de vos exercices et votre motivation pour atteindre l'objectif. Toutes les données sont synchronisées avec Apple Health et stockées en toute sécurité dans votre iCloud. Tout est facile et absolument gratuit. Zéro AD et aucun achat in-app.",
             "HEAD1": "Responsabilité",
             "DESC1": "Nous avons une responsabilité envers nous-mêmes pour notre santé. Personne ne peut nous faire perdre du poids ou choisir des aliments sains. Nous devons en décider nous-mêmes. ",
             "HEAD2": "Honnêteté",
@@ -93,9 +93,12 @@
             "DESC3": "La journalisation quotidienne est importante, elle garde des habitudes saines devant nos esprits. Chaque fois que nous faisons une entrée de journal, nous nous rappelons notre engagement en faveur de la santé. Sauter une journée ici et là permet de sauter plus facilement 2 jours, puis 3 jours. Ensuite, avant que vous ne vous en rendiez compte, vous vous êtes arrêté et vous êtes revenu à vos anciennes habitudes. ",
             "HEAD4": "Fonctionnalités de l'application",
             "DESC4_1": "Intégration Apple Health",
-            "DESC4_2": "Historique des enregistrements passés avec différence de pourcentage",
-            "DESC4_3": "Toutes les tailles de montre, tous les types de complications de visage de montre",
-            "DESC4_4": "N'a pas besoin d'une application iPhone compagnon"
+            "DESC4_2": "Historique des enregistrements passés avec la différence en pourcentage",
+            "DESC4_3": "Toutes les tailles de montres, tous les types de widgets de cadrans de montres",
+            "DESC4_4": "Sauvegardes iCloud",
+            "DESC4_5": "Fonctionne sans iPhone",
+            "DESC4_6": "Style minimaliste",
+            "DESC4_7": "Gratuit, zéro annonce et aucun achat in-app"
         },
         "P3": {
             "ABOUT": "L'application Apple Watch vous permet de suivre votre apport en vitamines essentielles directement à partir de votre poignet, de voir vos progrès au fil du temps et est absolument gratuite.",

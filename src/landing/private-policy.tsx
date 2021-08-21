@@ -364,7 +364,7 @@ export default function PrivacyPolicy() {
                 <ul>
                     <li>By visiting this page on our website: <a href="https://martspec.com/privacy-policy" rel="external nofollow noopener" target="_blank">https://martspec.com/privacy-policy</a></li>
                     <li>Via our facebook messager at <a href="https://www.facebook.com/martspec"  target="_blank">Martspec @ FaceBook</a></li>
-                    <li>If you have questions or comments about your privacy rights, you may email us at social@martspec.com.</li>
+                    <li>Via our facebook messager at <a href="https://twitter.com/MartspecCom"  target="_blank">Martspec @ Twitter</a></li>                    
                 </ul>
             </section>
 
