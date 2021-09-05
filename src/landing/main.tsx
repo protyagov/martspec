@@ -75,7 +75,7 @@ export default function LandingPage() {
                         <p className="mt-2">{_("MAIN.P4.SUBHEAD")}</p>
                         <h1>{_("MAIN.P4.HEAD")}</h1>
                         <h2>{_("MAIN.P4.TEXT")}</h2>
-                        <a href={Locale.i18nLink("logwaist")} className="mt-3 rr-btn-large pull-right">{_("MAIN.P4.BTN")}</a>
+                        <a href={Locale.i18nLink("waistline")} className="mt-3 rr-btn-large pull-right">{_("MAIN.P4.BTN")}</a>
                     </div>
                 </div>
             </section>

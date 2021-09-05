@@ -1,7 +1,7 @@
 import * as React from "react";
 import MainPage from "src/landing/main";
 import Error_404 from 'src/error/404';
-import P4LogWaist from "./landing/p4-waist";
+import P4WaistLine from "./landing/p4-waist";
 import P1Electrolyte from "./landing/p1-electrolyte";
 import P2bodymass from "./landing/p2-mass";
 import P3LogVitamin from "./landing/p3-vitamin";
@@ -30,8 +30,8 @@ export function App() {
             return <P1Electrolyte />;
         case "/bodymass":
             return <P2bodymass />;
-        case "/logwaist":
-            return <P4LogWaist />;
+        case "/waistline":
+            return <P4WaistLine />;
         case "/logvitamin":
             return <P3LogVitamin />;
         case "/bodyzinc":
