@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 Allow: /electrolyte
 Allow: /bodymass
-Allow: /waistsize
+Allow: /waistline
 Allow: /logvitamin
 Allow: /bodyzinc
 Allow: /bodysize
