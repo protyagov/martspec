@@ -75,7 +75,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodymass.ejs`, filename: x + '/bodymass/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/electrolyte.ejs`, filename: x + '/electrolyte/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/logvitamin.ejs`, filename: x + '/logvitamin/index.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: `./src/template/${x}/waistline.ejs`, filename: x + '/waist/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/waistline.ejs`, filename: x + '/waistline/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodyzinc.ejs`, filename: x + '/bodyzinc/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodysize.ejs`, filename: x + '/bodysize/index.html', inject: 'body' }),
     ])]),
