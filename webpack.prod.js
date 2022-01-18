@@ -1,6 +1,6 @@
 const
     { merge } = require('webpack-merge'),
-    webpack = require('webpack'),
+    // webpack = require('webpack'),
     common = require('./webpack.com.js'),
     FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 

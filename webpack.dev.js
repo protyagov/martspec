@@ -9,7 +9,7 @@ module.exports = merge(common, {
         new webpack.DefinePlugin({
             __API_BASE_URL__: JSON.stringify("http://s-api.recruiter.reviews/"),
             __MAINTENANCE_MODE__: false,
-            __IN_DEBUG__: JSON.stringify("Alex"),
+            __IN_DEBUG__: JSON.stringify("Merhn"),
         }),
     ],
     devtool: 'inline-source-map',
