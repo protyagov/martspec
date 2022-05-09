@@ -20,7 +20,7 @@
             "DWN": "Baixe o aplicativo gratuito Electrolyte tracker da Apple AppStore"
         },
         "P2": {
-            "HEAD": "Body Mass",
+            "HEAD": "Peso",
             "SUBHEAD": "diário de peso fácil",
             "TEXT": "Rastrear seu peso aumenta sua eficiência em termos de tempo e exercícios. Não só o levará a fazer melhor, mas também o levará a ser seu próprio competidor!",
             "BTN": "Dê uma olhada",
@@ -52,12 +52,20 @@
             "DWN": "Obtenha gratuitamente o aplicativo BodyZinc da Apple Store"
         },
         "P6": {
-            "HEAD": "Body Size",
+            "HEAD": "Aparência - Rastreador simples",
             "SUBHEAD": "bela figura - corpo saudável",
             "TEXT": "Acompanhe seus quadris, cintura e peito no relógio. Suporte total da Apple Health. Tempo de carregamento rápido. Absolutamente grátis.",
             "BTN": "Forma perfeita",
             "IMG": "Medir o tamanho do peito, largura do busto, circunferência da cintura e comprimento dos quadris usando um relógio no seu pulso",
             "DWN": "Obter para o aplicativo gratuito do tamanho do corpo para o Apple Watch diretamente da Apple App Store"
+        },
+        "P7": {
+            "HEAD": "Emoção - Alegria, Raiva & Medo",
+            "SUBHEAD": "teste de psicologia mais rápido",
+            "TEXT": "Mudanças de humor inesperadas? Mudanças emocionais intensas? Descubra a causa raiz em apenas 1 minuto.",
+            "BTN": "Conheça a si mesmo",
+            "IMG": "O teste de personalidade mais rápido do mundo. Selecione 8 cores e conheça seu estado mental atual.",
+            "DWN": "Obter gratuitamente o aplicativo para Apple Watch, iPhone ou iPad diretamente da Apple App Store"
         }
     },
     "FOOTER": {
@@ -162,6 +170,25 @@
             "DESC4": "Evidências mostram que gordura em torno das coxas e parte traseira é mais difícil de mudar do que gordura ao redor da cintura. A proporção de cintura para quadris é comumente usada como indicador ou medida de saúde, e o risco de desenvolver graves condições de saúde.",
             "HEAD5": "Formato corporal",
             "DESC5": "O formato do seu corpo é uma maçã 🍎 ou uma pêra 🍐? Ou talvez uma ampulheta? Descobrir a verdadeira forma do seu corpo é mais do que um daqueles testes online inúteis. Compreender a forma do seu corpo pode ajudá-lo a descobrir o treino mais eficaz. Estudos sugerem que pode ajudar a melhorar sua saúde."
+        },
+        "P7": {
+            "ABOUT_1": "Estresse 😠, ansiedade 😬, depressão☹️ ou mudanças repentinas de humor? Os eventos econômicos, políticos e sociais atuais contribuem muito para nossos níveis de estresse e muitas pessoas experimentam mudanças de humor mesmo durante o mesmo dia.",
+            "ABOUT_2": "Na incerteza geral sobre nossa posição e o que esperar a seguir, a incapacidade de prever o que esperar no futuro afeta nosso humor de maneira negativa. Essa incerteza parece ser uma nova norma em nossa vida.",
+            "ABOUT_3": "Existem poucos de nós que passam a vida com a ausência de desejos de um adepto budista e, portanto, a maioria de nós quer algo e deseja evitar outra coisa; isso por si só introduz algum estresse na tarefa de viver, mas é uma coisa bastante normal e não se qualifica como um \"problema\" ou um \"conflito\". Apenas fornece alguma tensão para enfrentarmos.",
+            "HEAD1": "Como funciona?",
+            "DESC1_1": "Olhe para o anel colorido e selecione uma cor que você mais gosta. Restam 7 cores. Das 7 cores, selecione a que você mais gosta agora, e assim por diante até ficar sem cores. Em seguida, você repete a rotina acima. Ao repetir, não tente reproduzir a seleção anterior. Esqueça isso e selecione apenas as cores com base em sua preferência neste momento específico. Deixe sua sub-mente fazer o trabalho.",
+            "DESC1_2": "A chave para o sucesso deste teste é selecionar as cores que você gosta neste momento. NÃO tente associar cores a objetos, — carros, roupas, prédios, etc. Basta selecionar a cor que você mais gosta neste momento específico. Em média, leva menos de um minuto para chegar aos resultados.",
+            "HEAD2": "Why does it work?",
+            "DESC2_1": "Colors surrounded mankind since the beginning of time, influenced humans for generations. In the beginning, human life was ruled by two uncontrollable factors: night and day. Light and darkness. For thousands of years man's actions, such as attack (red) or retreat (green) were embedded into submind. The colors of nature have had their influence on us, and these influences are deep-rooted in our subminds. Colors and their subconscious meaning are there, whether we like it or not. That meaning is independent of race, language, education level, social status, etc.",
+            "DESC2_2": "Because of this, a color test is an optimal tool to analyze family conflicts, personal life issues, casual mood changes, and even for conducting forensic psychological examinations.",
+            "HEAD3": "Use cases",
+            "DESC3_1": "Some organizations use color tests to control the dynamics of the volitional and emotional spheres of athletes both during training and during competition. This enables the trainer to anticipate in advance and purposefully eliminate breakdowns due to the depletion of the energy or volitional capabilities of the athletes.",
+            "DESC3_2": "Several sources suggest some color tests work even in cases of defective color-vision or even actual color blindness since the acceptability of a particu­lar color is somatically. In a need of release from tension or stress, then the instinctive response will be to choose the darker colors. If there is a need to dissipate energy then the instinctive response will be for the brighter colors.",
+            "HEAD4": "Safe and Secure",
+            "DESC4": "Privacy is not something that you are merely entitled to, it’s an absolute prerequisite. We do not send your data to our servers, we do not share with any 3rd party, and will never be used for advertisement purposes. Your data is only stored on your Apple service (Apple Health store and iCloud). We do NOT store your data on our servers.",
+            "HEAD5": "DISCLAIMER",
+            "DESC5_1": "All content found on the martpsec.com website and our mobile apps have been created for informational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment.",
+            "DESC5_2": "Use our software is solely at your own risk. It is provided on an “as is” and “as available” basis. Martspec makes no warranty that our apps and/or any content therein will meet your requirements, or will be uninterrupted, timely, secure, current, accurate, complete, or error-free or that the results that may be obtained by use of the site and/or any content therein will be accurate or reliable. You understand and acknowledge that your sole and exclusive remedy with respect to any defect in or dissatisfaction with the app is to cease using the app."
         }
     }
 }

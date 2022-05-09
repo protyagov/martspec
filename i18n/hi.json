@@ -20,7 +20,7 @@
             "DWN": "ऐपल ऐपस्टोर से फ्री इलेक्ट्रोलाइट ट्रैकर ऐप डाउनलोड करें"
         },
         "P2": {
-            "HEAD": "Body Mass",
+            "HEAD": "वजन",
             "SUBHEAD": "सबसे हल्का वजन डायरी",
             "TEXT": "अपने वजन को ट्रैक करना आपके समय और वर्कआउट के संदर्भ में आपकी कार्यक्षमता को बढ़ाता है। यह न केवल आपको बेहतर करने के लिए प्रेरित करेगा, बल्कि आपको अपनी खुद की प्रतियोगिता बनाने के लिए प्रेरित करेगा!",
             "BTN": "जरा देखो तो",
@@ -52,12 +52,20 @@
             "DWN": "ऐप्पल स्टोर से नि: शुल्क बॉडीज़िक एप्लिकेशन प्राप्त करें"
         },
         "P6": {
-            "HEAD": "Body Size",
+            "HEAD": "शरीर का आकार",
             "SUBHEAD": "सुंदर आकृति - स्वस्थ शरीर",
             "TEXT": "अपनी घड़ी पर अपने कूल्हों, कमर और छाती को ट्रैक करें। Apple स्वास्थ्य का पूरा समर्थन। फास्ट लोड समय। बिल्कुल नि: शुल्क।",
             "BTN": "उपयुक्त आकार",
             "IMG": "अपनी कलाई पर घड़ी का उपयोग करके छाती का आकार, बस्ट चौड़ाई, कमर परिधि और कूल्हों की लंबाई को मापें",
             "DWN": "ऐप्पल स्टोर से नि: शुल्क बॉडीज़िक एप्लिकेशन प्राप्त करें"
+        },
+        "P7": {
+            "HEAD": "भावना",
+            "SUBHEAD": "सबसे तेज मनोविज्ञान परीक्षण",
+            "TEXT": "अप्रत्याशित मिजाज? तीव्र भावनात्मक परिवर्तन? केवल 1 मिनट में मूल कारण का पता लगाएं।",
+            "BTN": "खुद को जानें",
+            "IMG": "दुनिया का सबसे तेज व्यक्तित्व परीक्षण। 8 रंगों का चयन करें और अपने मन की वर्तमान स्थिति को जानें",
+            "DWN": "सीधे ऐप्पल ऐप स्टोर से ऐप्पल वॉच, आईफोन या आईपैड के लिए मुफ्त ऐप प्राप्त करें"
         }
     },
     "FOOTER": {
@@ -163,6 +171,25 @@
             "DESC4": "साक्ष्य बताते हैं कि जांघों और पीछे के चारों ओर वसा कमर के चारों ओर वसा की तुलना में स्थानांतरित करना कठिन होता है। कमर से-कूल्हों का अनुपात आमतौर पर सूचक या स्वास्थ्य के उपाय के रूप में उपयोग किया जाता है, और गंभीर स्वास्थ्य परिस्थितियों को विकसित करने का जोखिम होता है।",
             "HEAD5": "शरीर का आकार",
             "DESC5": "क्या आपका शरीर सेब या नाशपाती के आकार का है? या शायद एक घंटे का चश्मा? अपने वास्तविक शरीर के आकार का पता लगाना उन व्यर्थ ऑनलाइन परीक्षणों में से एक से अधिक है। अपने शरीर के आकार को समझने से आपको सबसे प्रभावी कसरत खोजने में मदद मिल सकती है। अध्ययनों से पता चलता है कि यह आपके स्वास्थ्य को बेहतर बनाने में मदद कर सकता है।"
+        },
+        "P7": {
+            "ABOUT_1": "तनाव , चिंता , अवसाद☹️ या अचानक मूड में बदलाव? वर्तमान आर्थिक, राजनीतिक और सामाजिक घटनाएं हमारे तनाव के स्तर में बहुत योगदान देती हैं और बहुत से लोग एक ही दिन में भी मूड में बदलाव का अनुभव करते हैं।",
+            "ABOUT_2": "हमारी स्थिति के बारे में सामान्य अनिश्चितता और आगे क्या उम्मीद की जाए, भविष्य में क्या उम्मीद की जाए, इसका अनुमान लगाने में असमर्थता हमारे मूड को नकारात्मक तरीके से प्रभावित करती है। यह अनिश्चितता हमारे जीवन में एक नया मानदंड प्रतीत होता है।",
+            "ABOUT_3": "वास्तव में हममें से कुछ ऐसे हैं जो एक बौद्ध निपुण की इच्छाहीनता के साथ जीवन व्यतीत करते हैं, और इसलिए हम में से अधिकांश कुछ चाहते हैं और कुछ और से बचना चाहते हैं; यह अपने आप में जीवन जीने के कार्य में कुछ तनाव का परिचय देता है, लेकिन यह काफी सामान्य बात है और यह एक \"समस्या\" या \"संघर्ष\" के रूप में योग्य नहीं है। यह केवल हमें संघर्ष करने के लिए कुछ तनाव प्रदान करता है।",
+            "HEAD1": "यह कैसे काम करता है?",
+            "DESC1_1": "रंगीन अंगूठी को देखें और एक रंग चुनें जो आपको सबसे अच्छा लगे। 7 रंग बाकी हैं। 7 रंगों में से, वह चुनें जिसे आप अभी सबसे अच्छा पसंद करते हैं, और इसी तरह जब तक आप रंगों से बाहर नहीं निकल जाते। इसके बाद, आप उपरोक्त दिनचर्या को दोहराएं। जब आप इसे दोहराते हैं, तो पिछले चयन को पुन: पेश करने का प्रयास न करें। इसके बारे में भूल जाओ और इस विशिष्ट क्षण में केवल अपनी पसंद के आधार पर रंगों का चयन करें। अपने अवचेतन मन को काम करने दें।",
+            "DESC1_2": "इस परीक्षण की सफलता की कुंजी इस समय अपने पसंदीदा रंगों का चयन करना है। वस्तुओं के साथ रंगों को जोड़ने की कोशिश न करें, - कार, कपड़े, भवन, आदि। बस उस रंग का चयन करें जो आपको इस विशेष क्षण में सबसे अच्छा लगता है। औसतन, परिणाम प्राप्त करने में एक मिनट से भी कम समय लगता है।",
+            "HEAD2": "Why does it work?",
+            "DESC2_1": "Colors surrounded mankind since the beginning of time, influenced humans for generations. In the beginning, human life was ruled by two uncontrollable factors: night and day. Light and darkness. For thousands of years man's actions, such as attack (red) or retreat (green) were embedded into submind. The colors of nature have had their influence on us, and these influences are deep-rooted in our subminds. Colors and their subconscious meaning are there, whether we like it or not. That meaning is independent of race, language, education level, social status, etc.",
+            "DESC2_2": "Because of this, a color test is an optimal tool to analyze family conflicts, personal life issues, casual mood changes, and even for conducting forensic psychological examinations.",
+            "HEAD3": "Use cases",
+            "DESC3_1": "Some organizations use color tests to control the dynamics of the volitional and emotional spheres of athletes both during training and during competition. This enables the trainer to anticipate in advance and purposefully eliminate breakdowns due to the depletion of the energy or volitional capabilities of the athletes.",
+            "DESC3_2": "Several sources suggest some color tests work even in cases of defective color-vision or even actual color blindness since the acceptability of a particu­lar color is somatically. In a need of release from tension or stress, then the instinctive response will be to choose the darker colors. If there is a need to dissipate energy then the instinctive response will be for the brighter colors.",
+            "HEAD4": "Safe and Secure",
+            "DESC4": "Privacy is not something that you are merely entitled to, it’s an absolute prerequisite. We do not send your data to our servers, we do not share with any 3rd party, and will never be used for advertisement purposes. Your data is only stored on your Apple service (Apple Health store and iCloud). We do NOT store your data on our servers.",
+            "HEAD5": "DISCLAIMER",
+            "DESC5_1": "All content found on the martpsec.com website and our mobile apps have been created for informational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment.",
+            "DESC5_2": "Use our software is solely at your own risk. It is provided on an “as is” and “as available” basis. Martspec makes no warranty that our apps and/or any content therein will meet your requirements, or will be uninterrupted, timely, secure, current, accurate, complete, or error-free or that the results that may be obtained by use of the site and/or any content therein will be accurate or reliable. You understand and acknowledge that your sole and exclusive remedy with respect to any defect in or dissatisfaction with the app is to cease using the app."
         }
     }
 }

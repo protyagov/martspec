@@ -30,6 +30,11 @@
       <loc>https://martspec.com/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
+   </url>
+       <url>
+      <loc>https://martspec.com/emotion/</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- English  -->
    <url>
@@ -58,6 +63,11 @@
    </url>
        <url>
       <loc>https://martspec.com/en/bodyzinc/</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   </url>
+       <url>
+      <loc>https://martspec.com/en/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -90,6 +100,11 @@
       <loc>https://martspec.com/ar/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
+   </url>
+       <url>
+      <loc>https://martspec.com/ar/emotion/</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- China ZH  -->
    <url>
@@ -118,6 +133,11 @@
    </url>
        <url>
       <loc>https://martspec.com/zh/bodyzinc/</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   </url>
+       <url>
+      <loc>https://martspec.com/zh/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -150,6 +170,11 @@
       <loc>https://martspec.com/fr/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
+   </url>
+       <url>
+      <loc>https://martspec.com/fr/emotion/</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- German DE  -->
    <url>
@@ -178,6 +203,11 @@
    </url>
        <url>
       <loc>https://martspec.com/de/bodyzinc/</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   </url>
+       <url>
+      <loc>https://martspec.com/de/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -210,6 +240,11 @@
       <loc>https://martspec.com/hi/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
+   </url>
+       <url>
+      <loc>https://martspec.com/hi/emotion/</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- Japanise JA  -->
    <url>
@@ -240,7 +275,11 @@
       <loc>https://martspec.com/ja/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
-
+   </url>
+       <url>
+      <loc>https://martspec.com/ja/emotion/</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 <!-- Portuguese PT  -->
    <url>
       <loc>https://martspec.com/pt/</loc>
@@ -268,6 +307,11 @@
    </url>
        <url>
       <loc>https://martspec.com/pt/bodyzinc/</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   </url>
+       <url>
+      <loc>https://martspec.com/pt/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -330,5 +374,9 @@
       <loc>https://martspec.com/es/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
-
+   </url>
+       <url>
+      <loc>https://martspec.com/es/emotion/</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 </urlset> 

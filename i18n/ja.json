@@ -20,12 +20,12 @@
             "DWN": "Apple AppStore から無料の電解質トラッカーアプリをダウンロードします"
         },
         "P2": {
-            "HEAD": "Body Mass",
+            "HEAD": "体重",
             "SUBHEAD": "手首の体重ジャーナル",
             "TEXT": "あなたの体重を追跡することはあなたの時間とトレーニングの面であなたの効率を高めます。 それはあなたをより良くするように促すだけでなく、あなた自身の競争になるようにあなたを駆り立てます！",
             "BTN": "見てください",
             "IMG": "AppleWatch から Apple ヘルスストレージに直接体重を節約する",
-            "DWN": "Apple AppStore から無料の bodymass アプリをダウンロードします"
+            "DWN": "Apple AppStore から無料の 体重 アプリをダウンロードします"
         },
         "P3": {
             "HEAD": "ビタミンログ",
@@ -52,12 +52,20 @@
             "DWN": "アップルストアから無料BodyZincアプリケーションを入手"
         },
         "P6": {
-            "HEAD": "Body Size",
+            "HEAD": "体型  -  美しいボディフォーム。 測定、記録、改善します",
             "SUBHEAD": "美しい体。 あなたによって建てられました！",
             "TEXT": "時計で腰、腰、胸を追跡します。 AppleHealthの完全サポート。読み込み時間が短い。絶対に無料です。",
             "BTN": "完全な形",
             "IMG": "あなたの手首の腕時計を使用して胸のサイズ、バストの幅、ウエスト円周およびヒップの長さ",
-            "DWN": "Apple App Storeから直接Apple Watch用の無料BodySizeアプリを入手してください"
+            "DWN": "Apple App Storeから直接Apple Watch用の無料体型アプリを入手してください"
+        },
+        "P7": {
+            "HEAD": "感情",
+            "SUBHEAD": "喜び、怒り、恐れ、驚き、恥、興味、罪悪感",
+            "TEXT": "予期しない気分のむら？ 激しい感情の変化？ わずか1分で根本的な原因を突き止めます。",
+            "BTN": "自分を知る",
+            "IMG": "世界最速の性格検査。 8色を選択して、現在の心の状態を確認してください。",
+            "DWN": "Apple App Storeから直接、Apple Watch、iPhone、またはiPad用の無料アプリを入手してください"
         }
     },
     "FOOTER": {
@@ -162,6 +170,25 @@
             "DESC4": "証拠は、太ももの周りの脂肪が腰の周りの脂肪よりも難しいことを示しています。 腰からHIPSの比率は、一般に、健康の指標または尺度として使用されており、深刻な健康状態を発展させる危険性があります。",
             "HEAD5": "体型",
             "DESC5": "あなたの体型はリンゴですか、それともナシですか？ それとも砂時計？ あなたの本当の体型を見つけることは、それらの無意味なオンラインテストの1つ以上です。 あなたの体の形を理解することはあなたが最も効果的なトレーニングを発見するのを助けるかもしれません。 研究はそれがあなたの健康を改善するのを助けることができることを示唆しています。"
+        },
+        "P7": {
+            "ABOUT_1": "ストレス😠、不安😬、うつ病☹️または突然の気分の変化？現在の経済的、政治的、社会的出来事は私たちのストレスレベルに大きく貢献しており、多くの人々が同じ日でも気分の変化を経験しています。",
+            "ABOUT_2": "私たちの立場と次に何を期待するかについての一般的な不確実性は、将来何を期待するかを予測できないことは、私たちの気分に悪影響を及ぼします。その不確実性は私たちの生活の新しい規範のようです。",
+            "ABOUT_3": "仏教の達人の欲求不満で人生を歩む私たちの数は確かに少ないので、私たちのほとんどは何かを望んでいて、他の何かを避けたいと思っています。これ自体が生活の仕事にいくらかのストレスをもたらしますが、それはごく普通のことであり、「問題」や「対立」とは見なされません。それは単に私たちが取り組むための緊張を与えるだけです。",
+            "HEAD1": "それはどのように機能しますか？",
+            "DESC1_1": "色付きのリングを見て、あなたが一番好きな色を選択してください。残り7色です。 7色の中から、今一番好きな色を選び、色がなくなるまで続けます。次に、上記のルーチンを繰り返します。それを繰り返すときは、前の選択を再現しようとしないでください。それを忘れて、この特定の瞬間にあなたの好みに基づいて色を選択するだけです。あなたのサブマインドに仕事をさせてください。",
+            "DESC1_2": "このテストを成功させる秘訣は、現時点で好きな色を選択することです。車、衣服、建物などのオブジェクトに色を関連付けようとしないでください。この特定の瞬間に最も好きな色を選択するだけです。平均して、結果が得られるまでに1分もかかりません。",
+            "HEAD2": "Why does it work?",
+            "DESC2_1": "Colors surrounded mankind since the beginning of time, influenced humans for generations. In the beginning, human life was ruled by two uncontrollable factors: night and day. Light and darkness. For thousands of years man's actions, such as attack (red) or retreat (green) were embedded into submind. The colors of nature have had their influence on us, and these influences are deep-rooted in our subminds. Colors and their subconscious meaning are there, whether we like it or not. That meaning is independent of race, language, education level, social status, etc.",
+            "DESC2_2": "Because of this, a color test is an optimal tool to analyze family conflicts, personal life issues, casual mood changes, and even for conducting forensic psychological examinations.",
+            "HEAD3": "Use cases",
+            "DESC3_1": "Some organizations use color tests to control the dynamics of the volitional and emotional spheres of athletes both during training and during competition. This enables the trainer to anticipate in advance and purposefully eliminate breakdowns due to the depletion of the energy or volitional capabilities of the athletes.",
+            "DESC3_2": "Several sources suggest some color tests work even in cases of defective color-vision or even actual color blindness since the acceptability of a particu­lar color is somatically. In a need of release from tension or stress, then the instinctive response will be to choose the darker colors. If there is a need to dissipate energy then the instinctive response will be for the brighter colors.",
+            "HEAD4": "Safe and Secure",
+            "DESC4": "Privacy is not something that you are merely entitled to, it’s an absolute prerequisite. We do not send your data to our servers, we do not share with any 3rd party, and will never be used for advertisement purposes. Your data is only stored on your Apple service (Apple Health store and iCloud). We do NOT store your data on our servers.",
+            "HEAD5": "DISCLAIMER",
+            "DESC5_1": "All content found on the martpsec.com website and our mobile apps have been created for informational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment.",
+            "DESC5_2": "Use our software is solely at your own risk. It is provided on an “as is” and “as available” basis. Martspec makes no warranty that our apps and/or any content therein will meet your requirements, or will be uninterrupted, timely, secure, current, accurate, complete, or error-free or that the results that may be obtained by use of the site and/or any content therein will be accurate or reliable. You understand and acknowledge that your sole and exclusive remedy with respect to any defect in or dissatisfaction with the app is to cease using the app."
         }
     }
 }
