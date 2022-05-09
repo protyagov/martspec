@@ -20,12 +20,12 @@
             "DWN": "Téléchargez l'application gratuite Electrolyte Tracker sur l'AppStore d'Apple"
         },
         "P2": {
-            "HEAD": "Body Mass",
+            "HEAD": "Poids - Masse corporelle saine",
             "SUBHEAD": "journal de poids facile",
             "TEXT": "Le suivi de votre poids augmente votre efficacité en termes de temps et d'entraînement. Non seulement cela vous poussera à faire mieux, mais vous conduira également à être votre propre compétition!",
             "BTN": "regarde",
             "IMG": "Enregistrez la masse corporelle directement de votre Apple Watch dans le stockage de santé Apple",
-            "DWN": "Téléchargez gratuitement l'application Body Mass depuis l'AppStore d'Apple"
+            "DWN": "Téléchargez gratuitement l'application Poids depuis l'AppStore d'Apple"
         },
         "P3": {
             "HEAD": "Vitamines",
@@ -52,12 +52,20 @@
             "DWN": "Obtenez une application Bodyzinc gratuite d'Apple Store"
         },
         "P6": {
-            "HEAD": "Body Size",
+            "HEAD": "Belle Forme - Traqueur Simple",
             "SUBHEAD": "beau corps - construit par vous!",
             "TEXT": "Suivez vos hanches, votre taille et votre poitrine sur votre montre. Prise en charge complète d'Apple Health. Temps de chargement rapide. Complétement gratuit.",
             "BTN": "Forme parfaite",
             "IMG": "Mesurer la taille de la poitrine, la largeur de buste, la circonférence de la taille et la longueur des hanches à l'aide d'une montre sur votre poignet",
             "DWN": "Obtenez une application GRATUITE GRATUITE TAILLE POUR Apple Watch directement à partir de l'Apple App Store"
+        },
+        "P7": {
+            "HEAD": "Émotion",
+            "SUBHEAD": "test de psychologie le plus rapide",
+            "TEXT": "Des sautes d'humeur inattendues ? Changements émotionnels intenses ? Déterminez la cause profonde en seulement 1 minute.",
+            "BTN": "Se connaitre",
+            "IMG": "Le test de personnalité le plus rapide au monde. Sélectionnez 8 couleurs et connaissez votre état d'esprit actuel",
+            "DWN": "Obtenez gratuitement une application pour Apple Watch, iPhone ou iPad directement depuis l'App Store d'Apple"
         }
     },
     "FOOTER": {
@@ -162,6 +170,25 @@
             "DESC4": "Les preuves montrent que la graisse autour des cuisses et de l'arrière est plus difficile à déplacer que la graisse autour de la taille. Le ratio de taille à hanches est couramment utilisé comme indicateur ou mesure de la santé et le risque de développer des conditions de santé graves.",
             "HEAD5": "Forme du corps",
             "DESC5": "Votre corps a-t-il la forme d'une pomme 🍎 ou d'une poire 🍐? Ou peut-être un sablier ? Découvrir la vraie forme de votre corps est plus qu'un de ces tests en ligne inutiles. Comprendre la forme de votre corps peut vous aider à découvrir l'entraînement le plus efficace. Des études suggèrent que cela peut aider à améliorer votre santé."
+        },
+        "P7": {
+            "ABOUT_1": "Stress 😠, anxiété 😬, dépression☹️ ou sautes d'humeur ? Les événements économiques, politiques et sociaux actuels contribuent beaucoup à notre niveau de stress et de nombreuses personnes subissent des changements d'humeur même au cours de la même journée.",
+            "ABOUT_2": "Dans l'incertitude générale quant à notre position et à quoi s'attendre ensuite, l'incapacité de prédire à quoi s'attendre dans le futur affecte notre humeur de manière négative. Cette incertitude semble être une nouvelle norme dans notre vie.",
+            "ABOUT_3": "Il y a peu d'entre nous en effet qui traversent la vie avec l'absence de désir d'un adepte bouddhiste, et donc la plupart d'entre nous veulent quelque chose et souhaitent éviter autre chose ; cela en soi introduit un certain stress dans la tâche de vivre, mais c'est une chose tout à fait normale et ne se qualifie pas comme un « problème » ou comme un « conflit ». Cela fournit simplement une certaine tension à laquelle nous devons faire face.",
+            "HEAD1": "Comment ça marche?",
+            "DESC1_1": "Regardez l'anneau coloré et sélectionnez la couleur que vous préférez. Il reste 7 couleurs. Parmi les 7 couleurs, sélectionnez celle qui vous plaît le plus maintenant, et ainsi de suite jusqu'à épuisement des couleurs. Ensuite, vous répétez la routine ci-dessus. Lorsque vous le répétez, n'essayez pas de reproduire la sélection précédente. Oubliez cela et ne sélectionnez que les couleurs en fonction de vos préférences à ce moment précis. Laissez votre sous-esprit faire le travail.",
+            "DESC1_2": "The key to this test success is to select colors you like right at this moment. Do NOT try to associate colors with objects, — cars, clothes, buildings, etc. Just select the color you like the best at this particular moment. On average, it takes less than one minute to get to the results.",
+            "HEAD2": "Why does it work?",
+            "DESC2_1": "Colors surrounded mankind since the beginning of time, influenced humans for generations. In the beginning, human life was ruled by two uncontrollable factors: night and day. Light and darkness. For thousands of years man's actions, such as attack (red) or retreat (green) were embedded into submind. The colors of nature have had their influence on us, and these influences are deep-rooted in our subminds. Colors and their subconscious meaning are there, whether we like it or not. That meaning is independent of race, language, education level, social status, etc.",
+            "DESC2_2": "Because of this, a color test is an optimal tool to analyze family conflicts, personal life issues, casual mood changes, and even for conducting forensic psychological examinations.",
+            "HEAD3": "Use cases",
+            "DESC3_1": "Some organizations use color tests to control the dynamics of the volitional and emotional spheres of athletes both during training and during competition. This enables the trainer to anticipate in advance and purposefully eliminate breakdowns due to the depletion of the energy or volitional capabilities of the athletes.",
+            "DESC3_2": "Several sources suggest some color tests work even in cases of defective color-vision or even actual color blindness since the acceptability of a particu­lar color is somatically. In a need of release from tension or stress, then the instinctive response will be to choose the darker colors. If there is a need to dissipate energy then the instinctive response will be for the brighter colors.",
+            "HEAD4": "Safe and Secure",
+            "DESC4": "Privacy is not something that you are merely entitled to, it’s an absolute prerequisite. We do not send your data to our servers, we do not share with any 3rd party, and will never be used for advertisement purposes. Your data is only stored on your Apple service (Apple Health store and iCloud). We do NOT store your data on our servers.",
+            "HEAD5": "DISCLAIMER",
+            "DESC5_1": "All content found on the martpsec.com website and our mobile apps have been created for informational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment.",
+            "DESC5_2": "Use our software is solely at your own risk. It is provided on an “as is” and “as available” basis. Martspec makes no warranty that our apps and/or any content therein will meet your requirements, or will be uninterrupted, timely, secure, current, accurate, complete, or error-free or that the results that may be obtained by use of the site and/or any content therein will be accurate or reliable. You understand and acknowledge that your sole and exclusive remedy with respect to any defect in or dissatisfaction with the app is to cease using the app."
         }
     }
 }

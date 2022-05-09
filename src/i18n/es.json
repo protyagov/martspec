@@ -20,12 +20,12 @@
             "DWN": "Descargue la aplicación gratuita de seguimiento de electrolitos de la AppStore de Apple"
         },
         "P2": {
-            "HEAD": "Body Mass",
+            "HEAD": "Peso - Diario de masa corporal",
             "SUBHEAD": "diario de peso fácil",
             "TEXT": "El seguimiento de su peso aumenta su eficiencia en términos de su tiempo y entrenamientos. ¡No solo te impulsará a hacerlo mejor, sino que también te llevará a ser tu propia competencia!",
             "BTN": "Echar un vistazo",
             "IMG": "Guarde masa corporal directamente desde su Apple Watch en Apple Health Storage",
-            "DWN": "Descargue la aplicación gratuita Body Mass desde la AppStore de Apple"
+            "DWN": "Descargue la aplicación gratuita Peso desde la AppStore de Apple"
         },
         "P3": {
             "HEAD": "Vitaminas",
@@ -52,13 +52,21 @@
             "DWN": "Recibe la aplicación gratuita de Bodyzinc de Apple Store"
         },
         "P6": {
-            "HEAD": "Body Size",
+            "HEAD": "Apariencia  - Rastreador Fácil",
             "SUBHEAD": "hermosa figura - cuerpo sano",
             "TEXT": "Rastrea tus caderas, cintura y pecho en tu reloj. Soporte completo de Apple Health. Tiempo de carga rápido. Absolutamente libre.",
             "BTN": "Cuerpo perfecto",
             "IMG": "Mida el tamaño del pecho, el ancho del busto, la circunferencia de la cintura y la longitud de las caderas usando un reloj en su muñeca",
             "DWN": "Obtenga la aplicación gratuita de tamaño corporal para Apple Watch directamente desde Apple App Store"
-        }   
+        },
+        "P7": {
+            "HEAD": "Emoción",
+            "SUBHEAD": "prueba de psicología más rápida",
+            "TEXT": "¿Cambios de humor inesperados? ¿Cambios emocionales intensos? Averigüe la causa raíz en solo 1 minuto.",
+            "BTN": "Conócete a ti mismo",
+            "IMG": "El test de personalidad más rápido del mundo. Selecciona 8 colores y conoce tu estado mental actual.",
+            "DWN": "Obtenga una aplicación gratuita para Apple Watch, iPhone o iPad directamente desde Apple App Store"
+        }
     },
     "FOOTER": {
         "C": "Copyright © 2021 Martspec LLC. All rights reserved.",
@@ -162,6 +170,25 @@
             "DESC4": "La evidencia muestra que la grasa alrededor de los muslos y la parte trasera es más difícil de cambiar que la grasa alrededor de la cintura. La proporción de cintura a cadera se usa comúnmente como un indicador o medida de salud, y el riesgo de desarrollar condiciones de salud graves.",
             "HEAD5": "Forma del cuerpo",
             "DESC5": "¿Tu cuerpo tiene forma de manzana 🍎 o de pera 🍐? ¿O quizás un reloj de arena? Descubrir la verdadera forma de su cuerpo es más que una de esas pruebas en línea inútiles. Comprender la forma de su cuerpo puede ayudarlo a descubrir el entrenamiento más efectivo. Los estudios sugieren que puede ayudar a mejorar su salud."
+        },
+        "P7": {
+            "ABOUT_1": "¿Estrés 😠, ansiedad 😬, depresión☹️ o cambios de humor repentinos? Los acontecimientos económicos, políticos y sociales actuales contribuyen mucho a nuestros niveles de estrés y muchas personas experimentan cambios de humor incluso durante el mismo día.",
+            "ABOUT_2": "En general, la incertidumbre sobre nuestra posición y qué esperar a continuación, la incapacidad de predecir qué esperar en el futuro afecta nuestro estado de ánimo de manera negativa. Esa incertidumbre parece ser una nueva norma en nuestra vida.",
+            "ABOUT_3": "De hecho, somos pocos los que vamos por la vida con la ausencia de deseos de un adepto budista y, por lo tanto, la mayoría de nosotros queremos algo y deseamos evitar otra cosa; esto en sí introduce algo de tensión en la tarea de vivir, pero es algo bastante normal y no califica como un \"problema\" o un \"conflicto\". Simplemente nos proporciona cierta tensión con la que lidiar.",
+            "HEAD1": "¿Como funciona?",
+            "DESC1_1": "Mira el anillo de color y selecciona el color que más te guste. Quedan 7 colores. De los 7 colores, selecciona el que más te guste ahora, y así sucesivamente hasta quedarte sin colores. A continuación, repite la rutina anterior. Cuando lo repita, no intente reproducir la selección anterior. Olvídate de eso y solo selecciona colores según tu preferencia en ese momento específico. Deja que tu mente secundaria haga el trabajo.",
+            "DESC1_2": "La clave para el éxito de esta prueba es seleccionar los colores que te gustan en este momento. NO intente asociar los colores con objetos, automóviles, ropa, edificios, etc. Simplemente seleccione el color que más le guste en ese momento en particular. En promedio, se tarda menos de un minuto en llegar a los resultados.",
+            "HEAD2": "Why does it work?",
+            "DESC2_1": "Colors surrounded mankind since the beginning of time, influenced humans for generations. In the beginning, human life was ruled by two uncontrollable factors: night and day. Light and darkness. For thousands of years man's actions, such as attack (red) or retreat (green) were embedded into submind. The colors of nature have had their influence on us, and these influences are deep-rooted in our subminds. Colors and their subconscious meaning are there, whether we like it or not. That meaning is independent of race, language, education level, social status, etc.",
+            "DESC2_2": "Because of this, a color test is an optimal tool to analyze family conflicts, personal life issues, casual mood changes, and even for conducting forensic psychological examinations.",
+            "HEAD3": "Use cases",
+            "DESC3_1": "Some organizations use color tests to control the dynamics of the volitional and emotional spheres of athletes both during training and during competition. This enables the trainer to anticipate in advance and purposefully eliminate breakdowns due to the depletion of the energy or volitional capabilities of the athletes.",
+            "DESC3_2": "Several sources suggest some color tests work even in cases of defective color-vision or even actual color blindness since the acceptability of a particu­lar color is somatically. In a need of release from tension or stress, then the instinctive response will be to choose the darker colors. If there is a need to dissipate energy then the instinctive response will be for the brighter colors.",
+            "HEAD4": "Safe and Secure",
+            "DESC4": "Privacy is not something that you are merely entitled to, it’s an absolute prerequisite. We do not send your data to our servers, we do not share with any 3rd party, and will never be used for advertisement purposes. Your data is only stored on your Apple service (Apple Health store and iCloud). We do NOT store your data on our servers.",
+            "HEAD5": "DISCLAIMER",
+            "DESC5_1": "All content found on the martpsec.com website and our mobile apps have been created for informational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment.",
+            "DESC5_2": "Use our software is solely at your own risk. It is provided on an “as is” and “as available” basis. Martspec makes no warranty that our apps and/or any content therein will meet your requirements, or will be uninterrupted, timely, secure, current, accurate, complete, or error-free or that the results that may be obtained by use of the site and/or any content therein will be accurate or reliable. You understand and acknowledge that your sole and exclusive remedy with respect to any defect in or dissatisfaction with the app is to cease using the app."
         }
     }
 }

@@ -7,6 +7,7 @@ Allow: /waistline
 Allow: /logvitamin
 Allow: /bodyzinc
 Allow: /bodysize
+Allow: /emotion
 Allow: /img/
 Allow: /icon/
 Allow: /privacy-policy
