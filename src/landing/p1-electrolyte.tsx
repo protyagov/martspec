@@ -76,7 +76,7 @@ export default function P1Electrolyte() {
                         <IronImage imgLo="/img/p_electrolyte_screens_sm.webp" imgHi="/img/p_electrolyte_screens.webp" text={_("MAIN.P1.IMG")} />
                     </div>
                     <div className="col-md-5 col-12 text-center pb-5">
-                        <a href={`https://apps.apple.com/${_("APPSTORE")}/app/electrolyte/id1507719251`}
+                        <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1507719251`}
                             target="_blank" title={_("MAIN.P1.DWN")}>
                             <span className="ms-btn-apple my-5 float-md-right text-center" />
                         </a>

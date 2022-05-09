@@ -14,9 +14,17 @@ module.exports = merge(common, {
     ],
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: './build',
+        // contentBase: './build',
         port: 3000,
-        disableHostCheck: true,
+        allowedHosts: 'all',
+        // watchFiles: ['src/**/*.tsx', 'public/**/*'],
+        // progress: true,
+        open: {
+            app: {
+                name: 'google-chrome',
+            },
+        },
+        // disableHostCheck: true,
         historyApiFallback: true
     },
 });

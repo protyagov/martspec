@@ -15,7 +15,7 @@ module.exports = merge(common, {
     //         inject: true,
     //         mode: 'webapp',
     //         favicons: {
-    //             appName: 'agentspec',
+    //             appName: 'martspec',
     //             appDescription: 'Martspec',
     //             developerName: 'AgentSpec',
     //             prefix: 'icon/',

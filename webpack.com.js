@@ -17,9 +17,9 @@ module.exports = {
     entry: {
         app: './src/index.tsx'
     },
-    devServer: {
-        contentBase: './build'
-    },
+    // devServer: {
+    //     contentBase: './build'
+    // },
     output: {
         filename: '[name].[chunkhash:3].js',
         path: path.resolve(__dirname, 'build'),

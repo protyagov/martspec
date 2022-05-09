@@ -93,7 +93,7 @@ export default function P3LogVitamin() {
                         <IronImage imgLo="/img/p_vitamin_screens_sm.webp" imgHi="/img/p_vitamin_screens.webp" text={_("MAIN.P3.IMG")} />
                     </div>
                     <div className="col-md-5 col-12 text-center pb-5">
-                        <a href={`https://apps.apple.com/${_("APPSTORE")}/app/log-vitamin/id1507629553`}
+                        <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1519596234`}
                             target="_blank" title={_("MAIN.P3.DWN")}>
                             <span className="ms-btn-apple my-5 float-md-right text-center"></span>
                         </a>

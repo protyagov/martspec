@@ -9,6 +9,7 @@ import PrivacyPolicy from "./landing/private-policy";
 import { Locale } from "src/i18n/locale";
 import P5BodyZinc from "./landing/p5-bodyzinc";
 import P6BodySize from "./landing/p6-bodysize";
+import P7Emotion from "./landing/p7-emotion";
 
 
 
@@ -36,6 +37,8 @@ export function App() {
             return <P3LogVitamin />;
         case "/bodyzinc":
             return <P5BodyZinc />;
+        case "/emotion":
+            return <P7Emotion />;
         case "/bodysize":
             return <P6BodySize />;
         case "/privacy-policy":

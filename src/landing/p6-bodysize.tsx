@@ -65,7 +65,7 @@ export default function P6BodySize() {
                         <IronImage imgLo="/img/p_bodysize_screens_sm.webp" imgHi="/img/p_bodysize_screens.webp" text={_("MAIN.P6.IMG")} />
                     </div>
                     <div className="col-md-5 col-12 text-center pb-5">
-                        <a href={`https://apps.apple.com/${_("APPSTORE")}/app/body-size/id1520126181`}
+                        <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1564205068`}
                             target="_blank" title={_("MAIN.P1.DWN")}>
                             <span className="ms-btn-apple my-5 float-md-right text-center"></span>
                         </a>

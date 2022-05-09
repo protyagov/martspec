@@ -53,7 +53,7 @@ export default function P5BodyZinc() {
                     <IronImage imgLo="/img/p_bodyzinc_screens_sm.webp" imgHi="/img/p_bodyzinc_screens.webp" text={_("MAIN.P5.IMG")} />
                 </div>
                 <div className="col-md-5 col-12 text-center pb-5">
-                    <a href={`https://apps.apple.com/${_("APPSTORE")}/app/body-zinc/id1547395353`}
+                    <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1547395353`}
                         target="_blank" title={_("MAIN.P1.DWN")}>
                         <span className="ms-btn-apple my-5 float-md-right text-center"></span>
                     </a>

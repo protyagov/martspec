@@ -70,7 +70,7 @@ export default function P4WaistLine() {
                     <IronImage imgLo="/img/p_waist_screens_sm.webp" imgHi="/img/p_waist_screens.webp" text={_("MAIN.P4.IMG")} />
                 </div>
                 <div className="col-md-5 col-12 text-center pb-5">
-                    <a href={`https://apps.apple.com/${_("APPSTORE")}/app/log-waist/id1506250420`}
+                    <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1506250420`}
                         target="_blank" title={_("MAIN.P1.DWN")}>
                         <span className="ms-btn-apple my-5 float-md-right text-center"></span>
                     </a>
