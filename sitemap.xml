@@ -30,8 +30,7 @@
       <loc>https://martspec.com/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
-   </url>
-       <url>
+   <url>
       <loc>https://martspec.com/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -65,8 +64,7 @@
       <loc>https://martspec.com/en/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
-   </url>
-       <url>
+   <url>
       <loc>https://martspec.com/en/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -100,8 +98,7 @@
       <loc>https://martspec.com/ar/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
-   </url>
-       <url>
+   <url>
       <loc>https://martspec.com/ar/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -165,10 +162,9 @@
       <loc>https://martspec.com/fr/bodysize/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/fr/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
-   </url>
    </url>
        <url>
       <loc>https://martspec.com/fr/emotion/</loc>
@@ -238,8 +234,7 @@
       <loc>https://martspec.com/hi/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
-   </url>
-       <url>
+   <url>
       <loc>https://martspec.com/hi/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -277,6 +272,7 @@
       <loc>https://martspec.com/ja/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
+
 <!-- Portuguese PT  -->
    <url>
       <loc>https://martspec.com/pt/</loc>
