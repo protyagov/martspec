@@ -119,24 +119,23 @@
       <loc>https://martspec.com/zh/logvitamin/</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/zh/waistline</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/zh/electrolyte/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/zh/bodysize/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/zh/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
-   </url>
-       <url>
+   <url>
       <loc>https://martspec.com/zh/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -189,24 +188,23 @@
       <loc>https://martspec.com/de/logvitamin/</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/de/waistline</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/de/electrolyte/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+      <url>
       <loc>https://martspec.com/de/bodysize/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+      <url>
       <loc>https://martspec.com/de/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
-   </url>
-       <url>
+   <url>
       <loc>https://martspec.com/de/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -232,7 +230,7 @@
       <loc>https://martspec.com/hi/electrolyte/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/hi/bodysize/</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -259,24 +257,23 @@
       <loc>https://martspec.com/ja/logvitamin/</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/ja/waistline</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/ja/electrolyte/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/ja/bodysize/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/ja/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
-   </url>
-       <url>
+   <url>
       <loc>https://martspec.com/ja/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -301,16 +298,15 @@
       <loc>https://martspec.com/pt/electrolyte/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/pt/bodysize/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/pt/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
-   </url>
-       <url>
+   <url>
       <loc>https://martspec.com/pt/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -328,19 +324,19 @@
       <loc>https://martspec.com/ru/logvitamin/</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/ru/waistline</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/ru/electrolyte/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/ru/bodysize/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/ru/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -358,24 +354,23 @@
       <loc>https://martspec.com/es/logvitamin/</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/es/waistline</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/es/electrolyte/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/es/bodysize/</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/es/bodyzinc/</loc>
       <changefreq>monthly</changefreq>
    </url>
-   </url>
-       <url>
+   <url>
       <loc>https://martspec.com/es/emotion/</loc>
       <changefreq>monthly</changefreq>
    </url>
