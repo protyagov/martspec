@@ -40,6 +40,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: './src/template/en/waistline.ejs', filename: 'waistline/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/bodyzinc.ejs', filename: 'bodyzinc/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/bodysize.ejs', filename: 'bodysize/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/emotion.ejs', filename: 'emotion/index.html', inject: 'body' }),
 
         new HtmlWebpackInjectPreload({
             files: [{
@@ -79,6 +80,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/waistline.ejs`, filename: x + '/waistline/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodyzinc.ejs`, filename: x + '/bodyzinc/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodysize.ejs`, filename: x + '/bodysize/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/emotion.ejs`, filename: x + '/emotion/index.html', inject: 'body' }),
     ])]),
     //--------------------------------------------------------------------------------------------------------------------------------------------
     resolve: {
