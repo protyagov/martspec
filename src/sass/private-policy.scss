@@ -6,15 +6,18 @@
         font-size: 4rem;
         margin-bottom: 1rem;
     }
-
+    h2 {
+        margin-top: 2rem;
+        font-family: os4;
+        font-size: 2rem;
+        color: $rr-color-dark;
+    }
     h3 {
         margin-top: 2rem;
         font-family: os6;
         font-size: 2rem;
         margin-bottom: 1rem;
-        // color: $rr-color-text-recruiter;
         color: $rr-color-dark;
-        // color: #234569;
     }
     h4 {
         margin-top: 3rem;
@@ -30,13 +33,11 @@
         margin-bottom: 0.3rem;
         color: $rr-color-text-recruiter;        
     }
-
     p {
         font-family: os4;        
         color: $rr-color-black;
-        // margin-bottom: 3rem;
+        margin-bottom: 3rem;
     }
-
     img {
         display: block;
         padding-top: 3rem;
@@ -44,7 +45,6 @@
         margin-right: auto;
         max-width: 30vmax;
     }
-
     section {
         padding-top: 10vmin;
         font-family: os4;

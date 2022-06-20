@@ -8,6 +8,8 @@ Allow: /logvitamin
 Allow: /bodyzinc
 Allow: /bodysize
 Allow: /emotion
+Allow: /about
+Allow: /mission
 Allow: /img/
 Allow: /icon/
 Allow: /privacy-policy

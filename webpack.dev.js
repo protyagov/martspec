@@ -14,17 +14,22 @@ module.exports = merge(common, {
     ],
     devtool: 'inline-source-map',
     devServer: {
-        // contentBase: './build',
         port: 3000,
         allowedHosts: 'all',
-        // watchFiles: ['src/**/*.tsx', 'public/**/*'],
-        // progress: true,
         open: {
             app: {
                 name: 'google-chrome',
             },
         },
-        // disableHostCheck: true,
         historyApiFallback: true
     },
+
+    module: {
+        rules: [
+            {
+                test: /\.(sa|sc|c)ss$/,
+                use: ['style-loader', 'css-loader', 'sass-loader'],
+            },
+        ]
+    }
 });

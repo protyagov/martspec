@@ -1,10 +1,8 @@
 const
     path = require('path'),
     webpack = require('webpack'),
-    MiniCssExtractPlugin = require('mini-css-extract-plugin'),
     BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin,
     CopyPlugin = require('copy-webpack-plugin'),
-    OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
     HtmlWebpackInjectPreload = require('@principalstudio/html-webpack-inject-preload'),
     HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -13,21 +11,12 @@ module.exports = {
     entry: {
         app: './src/index.tsx'
     },
-    // devServer: {
-    //     contentBase: './build'
-    // },
     output: {
         filename: '[name].[chunkhash:3].js',
         path: path.resolve(__dirname, 'build'),
         publicPath: "/"
     },
     plugins: [
-        new OptimizeCssAssetsPlugin({
-            cssProcessorPluginOptions: { preset: ['default', { discardComments: { removeAll: true } }], }
-        }),
-        new MiniCssExtractPlugin({ filename: 'style.[chunkhash:3].css' }),
-
-
         // --------------- Static Content EN --------------- 
         new HtmlWebpackPlugin({ template: './src/template/en/main.ejs', filename: 'index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/bodymass.ejs', filename: 'bodymass/index.html', inject: 'body' }),
@@ -37,7 +26,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: './src/template/en/bodyzinc.ejs', filename: 'bodyzinc/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/bodysize.ejs', filename: 'bodysize/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/emotion.ejs', filename: 'emotion/index.html', inject: 'body' }),
-        
+
         // --------------- Static Content EN Without Slash--------------- 
         new HtmlWebpackPlugin({ template: './src/template/en/bodymass.ejs', filename: 'bodymass.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/electrolyte.ejs', filename: 'electrolyte.html', inject: 'body' }),
@@ -50,13 +39,8 @@ module.exports = {
         new HtmlWebpackInjectPreload({
             files: [{
                 match: /.*\.woff2$/,
-                attributes: { as: 'font', type: 'font/woff2', crossorigin: true },
-            },
-                // {
-                //     match: /.\.[a-z-0-9]*.css$/,
-                //     attributes: { as: 'style' },
-                // },
-            ]
+                attributes: { as: 'font', type: 'font/woff2', crossorigin: true }
+            }]
         }),
 
         new CopyPlugin({
@@ -114,7 +98,6 @@ module.exports = {
             cacheGroups: {
                 vendor: {
                     chunks: 'initial',
-                    //|get-intrinsic|has-symbols|object-assign|is-callable|for-each|es-abstract|component-emmiter|object-keys)
                     test: /[\\/]node_modules[\\/](react|react-dom|bootstrap|scheduler|node-polyglot|history*)[\\/]/,
                     name: "vendor"
                 }
@@ -123,19 +106,6 @@ module.exports = {
     },
     module: {
         rules: [
-            {
-                test: /\.(sa|sc|c)ss$/,
-                use: [
-                    {
-                        loader: MiniCssExtractPlugin.loader,
-                        options: {
-                            //hmr: process.env.NODE_ENV === 'development', // webpack 4 only
-                        },
-                    },
-                    'css-loader',
-                    'sass-loader',
-                ],
-            },
             {
                 test: /\.(png|svg|jpg|gif)$/,
                 type: 'asset/resource',

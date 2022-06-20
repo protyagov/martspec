@@ -17,7 +17,7 @@
     "css-minimizer-webpack-plugin": "^3.4.1",
     "cssnano": "^5.1.7",
     "favicons-webpack-plugin": "^5.0.1",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^4.0.0",
     "hard-source-webpack-plugin": "^0.13.1",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
@@ -26,8 +26,9 @@
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "prop-types": "^15.8.1",
     "regenerator-runtime": "^0.13.2",
-    "sass-loader": "^12.6.0",
-    "source-map-loader": "^3.0.1",
+    "sass-loader": "^13.0.0",
+    "source-map-loader": "^4.0.0",
+    "style-loader": "^3.3.1",
     "ts-loader": "^9.3.0",
     "typescript": "^4.6.4",
     "webpack": "^5.72.0",
@@ -43,9 +44,9 @@
     "react-dom": "^18.1.0"
   },
   "scripts": {
-    "predeploy": "webpack --config webpack.prod.js",
+    "predeploy": "webpack --config webpack.prd.js",
     "deploy": "gh-pages -d build",
-    "prod": "webpack --config webpack.prod.js",
+    "prod": "webpack --config webpack.prd.js",
     "svr": "webpack serve --config webpack.dev.js"
   }
 }

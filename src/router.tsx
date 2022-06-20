@@ -10,7 +10,8 @@ import { Locale } from "src/i18n/locale";
 import P5BodyZinc from "./landing/p5-bodyzinc";
 import P6BodySize from "./landing/p6-bodysize";
 import P7Emotion from "./landing/p7-emotion";
-
+import About from "src/landing/about";
+import Mission from "src/landing/mission";
 
 
 export function App() {
@@ -43,6 +44,10 @@ export function App() {
             return <P6BodySize />;
         case "/privacy-policy":
             return <PrivacyPolicy />;
+        case "/about":
+            return <About />
+        case "/mission":
+            return <Mission />
         default:
             return <Error_404 />;
     }

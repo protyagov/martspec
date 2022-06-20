@@ -2,12 +2,31 @@ const
     { merge } = require('webpack-merge'),
     // webpack = require('webpack'),
     common = require('./webpack.com.js'),
+    MiniCssExtractPlugin = require('mini-css-extract-plugin'),
+    OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
     FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = merge(common, {
     mode: 'production',
     devtool: 'source-map', //cheap-module-eval-source-map
 
+    plugins: [
+        new OptimizeCssAssetsPlugin({
+            cssProcessorPluginOptions: { preset: ['default', { discardComments: { removeAll: true } }], }
+        }),
+        new MiniCssExtractPlugin({
+            filename: 'style.[chunkhash:3].css'
+        }),
+    ],
+
+    module: {
+        rules: [
+            {
+                test: /\.(sa|sc|c)ss$/,
+                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+            },
+        ]
+    }
     // plugins: [
     //     new FaviconsWebpackPlugin({
     //         logo: 'src/img/logo.org.png',
