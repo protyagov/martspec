@@ -70,7 +70,9 @@
     },
     "FOOTER": {
         "C": "Copyright © 2021 Martspec LLC. All rights reserved.",
-        "PP": "Política de privacidad"
+        "PP": "Política de privacidad",
+        "ABOUT": "Sobre nosotros",
+        "MISSION": "Misión"
     },
     "ERROR": {
         "404_HEAD": "Página no encontrada",
@@ -190,5 +192,23 @@
             "DESC5_1": "Todo el contenido que se encuentra en el sitio web martpsec.com y nuestras aplicaciones móviles se han creado solo con fines informativos. No pretende ser un sustituto del consejo, diagnóstico o tratamiento médico profesional.",
             "DESC5_2": "El uso de nuestro software es bajo su propio riesgo. Se proporciona \"tal cual\" y \"según disponibilidad\". Martspec no garantiza que nuestras aplicaciones y/o el contenido de las mismas satisfaga sus requisitos o que sean ininterrumpidos, oportunos, seguros, actuales, precisos, completos o libres de errores o que los resultados que puedan obtenerse mediante el uso del sitio y/o cualquier contenido allí será exacto o confiable. Usted comprende y reconoce que su único y exclusivo recurso con respecto a cualquier defecto o insatisfacción con la aplicación es dejar de usarla."
         }
+    },
+    "MISSION": {
+        "HEAD": "Misión",
+        "M": "Hacemos que sea rápido y fácil para todos hacer un seguimiento de su salud y bienestar.",
+        "P1": "Nuestra misión nos lleva a hacer todo lo posible para expandir el potencial humano. Lo hacemos siguiendo 3 conceptos básicos:",
+        "P1_1": "Creación de innovaciones tecnológicas innovadoras",
+        "P1_2": "Hacer que nuestras aplicaciones sean más inspiradoras y hermosas",
+        "P1_3": "Escuchar los comentarios de nuestras comunidades",
+        "P2": "Para lograr nuestra ambición, estamos comenzando con la ciencia. La investigación científica y los análisis publicados juegan un papel importante en el desarrollo de mejoras. Con nuestros usuarios, estamos buscando formas de rastrear, medir y aplicar el bienestar de manera más eficiente. La retroalimentación es una herramienta importante para desbloquear futuras innovaciones, incluida la creación de nuevas aplicaciones, mejoras a las existentes e incluso la eliminación de aplicaciones que no benefician a las personas."
+    },
+    "ABOUT": {
+        "HEAD": "About us",
+        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That leads to significant changes to our body and health. ",
+        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. it keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
+        "P3": "People who track their wellness daily make better progress than those who do not.",
+        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make it easy to track body weight and record measurements directly into Apple Health from your wrist. That clean and minimalistic app got popular.",
+        "P5": "We have built a few more apps only for Apple Watch devices.  In 2021 we began building cross-platform apps that work on all kinds of Apple devices from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, called Emotion, to address mental wellness. The quickest personality test ever created.",
+        "P6": "We make all our apps available free of charge, we do not have any monetization, do not show ADs and never use personal data for profit."
     }
 }
