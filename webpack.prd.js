@@ -3,13 +3,11 @@ const
     // webpack = require('webpack'),
     common = require('./webpack.com.js'),
     MiniCssExtractPlugin = require('mini-css-extract-plugin'),
-    OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
-    FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+    // FaviconsWebpackPlugin = require('favicons-webpack-plugin'),
+    OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = merge(common, {
     mode: 'production',
-    devtool: 'source-map', //cheap-module-eval-source-map
-
     plugins: [
         new OptimizeCssAssetsPlugin({
             cssProcessorPluginOptions: { preset: ['default', { discardComments: { removeAll: true } }], }
