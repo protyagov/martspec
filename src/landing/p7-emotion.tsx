@@ -43,7 +43,7 @@ export default function P7Emotion() {
                     </div>
 
                     <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src="/img/p_emotion_face.webp" className="mx-auto" alt={_("MAIN.P6.IMG")} />
+                        <img src="/img/emotion.webp" className="mx-auto" alt={_("MAIN.P6.IMG")} />
                     </div>
                 </div>
             </section>

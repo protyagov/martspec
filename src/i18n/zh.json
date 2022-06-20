@@ -70,7 +70,9 @@
     },
     "FOOTER": {
         "C": "版权所有 © 2021 Martspec LLC。 版权所有。",
-        "PP": "隐私政策"
+        "PP": "隐私政策",
+        "ABOUT": "关于我们",
+        "MISSION": "使命"
     },
     "ERROR": {
         "404_HEAD": "网页未找到",
@@ -190,5 +192,23 @@
             "DESC5_1": "在 martpsec.com 网站和我们的移动应用程序上找到的所有内容仅供参考。它不能替代专业的医疗建议、诊断或治疗。",
             "DESC5_2": "使用我们的软件需要您自担风险。它是在“原样”和“可用”的基础上提供的。 Martspec 不保证我们的应用程序和/或其中的任何内容将满足您的要求，或不会中断、及时、安全、最新、准确、完整或无错误，也不保证使用本网站可能获得的结果和/或其中的任何内容将是准确或可靠的。您理解并承认，您对应用程序的任何缺陷或不满意的唯一和排他性补救措施是停止使用该应用程序。"
         }
+    },
+    "MISSION": {
+        "HEAD": "使命",
+        "M": "我们让每个人都能快速轻松地跟踪他们的健康状况。",
+        "P1": "我们的使命要求我们尽一切可能扩大人的潜力。 我们通过遵循三个基本概念来做到这一点：",
+        "P1_1": "创造突破性的技术创新",
+        "P1_2": "让我们的应用程序更具启发性和美丽",
+        "P1_3": "倾听社区的反馈",
+        "P2": "为了实现我们的雄心壮志，我们从科学开始。 已发表的科学研究和分析在增强功能的开发中发挥着重要作用。 与我们的用户一起，我们正在寻找更有效地跟踪、衡量和应用健康的方法。 反馈是开启未来创新的重要工具，包括创建新应用、改进现有应用，甚至淘汰不造福于人们的应用。"
+    },
+    "ABOUT": {
+        "HEAD": "关于我们",
+        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That leads to significant changes to our body and health. ",
+        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. it keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
+        "P3": "People who track their wellness daily make better progress than those who do not.",
+        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make it easy to track body weight and record measurements directly into Apple Health from your wrist. That clean and minimalistic app got popular.",
+        "P5": "We have built a few more apps only for Apple Watch devices.  In 2021 we began building cross-platform apps that work on all kinds of Apple devices from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, called Emotion, to address mental wellness. The quickest personality test ever created.",
+        "P6": "We make all our apps available free of charge, we do not have any monetization, do not show ADs and never use personal data for profit."
     }
 }

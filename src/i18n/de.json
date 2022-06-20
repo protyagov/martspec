@@ -70,7 +70,9 @@
     },
     "FOOTER": {
         "C": "Copyright © 2021 Martspec LLC. Alle Rechte vorbehalten.",
-        "PP": "Datenschutz-Bestimmungen"
+        "PP": "Datenschutz-Bestimmungen",
+        "ABOUT": "Über uns",
+        "MISSION": "Mission"
     },
     "ERROR": {
         "404_HEAD": "Seite nicht gefunden",
@@ -190,5 +192,23 @@
             "DESC5_1": "Alle Inhalte auf der Website martpsec.com und unseren mobilen Apps wurden nur zu Informationszwecken erstellt. Es ist nicht als Ersatz für professionelle medizinische Beratung, Diagnose oder Behandlung gedacht.",
             "DESC5_2": "Die Nutzung unserer Software erfolgt ausschließlich auf eigene Gefahr. Es wird „wie besehen“ und „wie verfügbar“ bereitgestellt. Martspec übernimmt keine Garantie dafür, dass unsere Apps und/oder darin enthaltene Inhalte Ihren Anforderungen entsprechen oder ununterbrochen, zeitgerecht, sicher, aktuell, genau, vollständig oder fehlerfrei sind oder dass die Ergebnisse, die durch die Nutzung der Website erzielt werden können und/oder alle darin enthaltenen Inhalte korrekt oder zuverlässig sind. Sie verstehen und erkennen an, dass Ihr einziges und ausschließliches Rechtsmittel in Bezug auf Mängel oder Unzufriedenheit mit der App darin besteht, die Nutzung der App einzustellen."
         }
+    },
+    "MISSION": {
+        "HEAD": "Mission",
+        "M": "Wir machen es jedem schnell und einfach, seine Gesundheit und sein Wohlbefinden zu verfolgen.",
+        "P1": "Unsere Mission besteht darin, alles zu tun, um das menschliche Potenzial zu erweitern. Wir tun dies, indem wir die drei grundlegenden Konzepte befolgen:",
+        "P1_1": "Bahnbrechende technologische Innovationen schaffen",
+        "P1_2": "Unsere Apps inspirierender und schöner machen",
+        "P1_3": "Auf das Feedback unserer Communities hören",
+        "P2": "Um unser Ziel zu erreichen, beginnen wir mit der Wissenschaft. Veröffentlichte wissenschaftliche Forschungsergebnisse und Analysen spielen eine wichtige Rolle bei der Entwicklung von Verbesserungen. Gemeinsam mit unseren Nutzern suchen wir nach Möglichkeiten, Wellness effizienter zu verfolgen, zu messen und anzuwenden. Feedback ist ein wichtiges Instrument, um zukünftige Innovationen freizusetzen, einschließlich der Erstellung neuer Apps, Verbesserungen bestehender Apps und sogar der Einstellung von Apps, die den Menschen nicht zugute kommen."
+    },
+    "ABOUT": {
+        "HEAD": "Über uns",
+        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That leads to significant changes to our body and health. ",
+        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. it keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
+        "P3": "People who track their wellness daily make better progress than those who do not.",
+        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make it easy to track body weight and record measurements directly into Apple Health from your wrist. That clean and minimalistic app got popular.",
+        "P5": "We have built a few more apps only for Apple Watch devices.  In 2021 we began building cross-platform apps that work on all kinds of Apple devices from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, called Emotion, to address mental wellness. The quickest personality test ever created.",
+        "P6": "We make all our apps available free of charge, we do not have any monetization, do not show ADs and never use personal data for profit."
     }
 }

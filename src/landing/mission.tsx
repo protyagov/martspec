@@ -4,9 +4,9 @@ import NavigationBar from "src/part/navbar";
 import _ from "src/i18n/locale"
 
 export default function Mission() {
-    return (<>
+    return <>
         <NavigationBar title="" />
-        <div className="container rr-private-policy pb-5">
+        <div className="ms-base-page pb-5">
             <img src="/img/mission.svg" alt={_("MISSION.HEAD")} />
             <h1 className="text-center">{_("MISSION.HEAD")}</h1>
             <h2 className="text-center">{_("MISSION.M")}</h2>
@@ -23,5 +23,4 @@ export default function Mission() {
         </div>
         <Footer />
     </>
-    );
 }

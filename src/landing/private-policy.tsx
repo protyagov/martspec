@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
     return (<>
         <NavigationBar title="" />
 
-        <div className="container rr-private-policy pb-5">
+        <div className="ms-base-page pb-5">
             <h3 className="text-center">Privacy Policy</h3>
             <img src="/img/privacy.svg" alt="Privacy Policy" />
 

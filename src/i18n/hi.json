@@ -70,7 +70,9 @@
     },
     "FOOTER": {
         "C": "कॉपीराइट © 2021 मार्टस्पेक एलएलसी। सर्वाधिकार सुरक्षित।",
-        "PP": "गोपनीयता नीति"
+        "PP": "गोपनीयता नीति",
+        "ABOUT": "हमारे बारे में",
+        "MISSION": "मिशन"
     },
     "ERROR": {
         "404_HEAD": "पृष्ठ नहीं मिला",
@@ -191,5 +193,23 @@
             "DESC5_1": "martpsec.com वेबसाइट और हमारे मोबाइल ऐप पर मिलने वाली सभी सामग्री केवल सूचना के उद्देश्यों के लिए बनाई गई है। यह पेशेवर चिकित्सा सलाह, निदान, या उपचार के लिए एक विकल्प होने का इरादा नहीं है।",
             "DESC5_2": "हमारे सॉफ़्टवेयर का उपयोग पूरी तरह से आपके अपने जोखिम पर है। यह \"जैसा है\" और \"जैसा उपलब्ध है\" के आधार पर प्रदान किया जाता है। मार्टस्पेक कोई वारंटी नहीं देता है कि हमारे ऐप्स और/या उसमें कोई भी सामग्री आपकी आवश्यकताओं को पूरा करेगी, या निर्बाध, समय पर, सुरक्षित, वर्तमान, सटीक, पूर्ण, या त्रुटि मुक्त होगी या परिणाम जो साइट के उपयोग से प्राप्त किए जा सकते हैं और/या उसमें कोई भी सामग्री सटीक या विश्वसनीय होगी। आप समझते हैं और स्वीकार करते हैं कि ऐप में किसी भी दोष या असंतोष के संबंध में आपका एकमात्र और अनन्य उपाय ऐप का उपयोग बंद करना है।"
         }
+    },
+    "MISSION": {
+        "HEAD": "मिशन",
+        "M": "हम सभी के लिए अपने स्वास्थ्य और कल्याण को ट्रैक करना त्वरित और आसान बनाते हैं।",
+        "P1": "हमारा मिशन हमें मानवीय क्षमता का विस्तार करने के लिए हर संभव प्रयास करने के लिए प्रेरित करता है। हम बुनियादी 3 अवधारणाओं का पालन करके ऐसा करते हैं:",
+        "P1_1": "अभूतपूर्व तकनीकी नवाचारों का निर्माण",
+        "P1_2": "हमारे ऐप्स को अधिक प्रेरक और सुंदर बनाना",
+        "P1_3": "हमारे समुदायों की प्रतिक्रिया सुनना",
+        "P2": "अपनी महत्वाकांक्षा को प्राप्त करने के लिए हम विज्ञान से शुरुआत कर रहे हैं। प्रकाशित विज्ञान अनुसंधान और विश्लेषण संवर्द्धन के विकास में एक महत्वपूर्ण भूमिका निभाते हैं। अपने उपयोगकर्ताओं के साथ, हम वेलनेस को अधिक कुशलता से ट्रैक करने, मापने और लागू करने के तरीकों पर विचार कर रहे हैं। फीडबैक भविष्य के नवाचारों को अनलॉक करने के लिए एक महत्वपूर्ण उपकरण है, जिसमें नए ऐप्स का निर्माण, मौजूदा में सुधार, और यहां तक ​​कि ऐसे ऐप्स भी शामिल हैं जो लोगों को लाभ नहीं पहुंचाते हैं।"
+    },
+    "ABOUT": {
+        "HEAD": "हमारे बारे में",
+        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That leads to significant changes to our body and health. ",
+        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. it keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
+        "P3": "People who track their wellness daily make better progress than those who do not.",
+        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make it easy to track body weight and record measurements directly into Apple Health from your wrist. That clean and minimalistic app got popular.",
+        "P5": "We have built a few more apps only for Apple Watch devices.  In 2021 we began building cross-platform apps that work on all kinds of Apple devices from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, called Emotion, to address mental wellness. The quickest personality test ever created.",
+        "P6": "We make all our apps available free of charge, we do not have any monetization, do not show ADs and never use personal data for profit."
     }
 }

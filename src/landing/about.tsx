@@ -4,10 +4,10 @@ import NavigationBar from "src/part/navbar";
 import _ from "src/i18n/locale"
 
 export default function About() {
-    return (<>
+    return <>
         <NavigationBar title="" />
 
-        <div className="container rr-private-policy pb-5">
+        <div className="ms-base-page pb-5">
             <img src="/img/about.svg" alt={_("ABOUT.HEAD")} />
             <h1 className="text-center pt-3">{_("ABOUT.HEAD")}</h1>
             <section>
@@ -21,5 +21,4 @@ export default function About() {
         </div>
         <Footer />
     </>
-    )
 }

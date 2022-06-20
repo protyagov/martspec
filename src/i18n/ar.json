@@ -70,7 +70,9 @@
     },
     "FOOTER": {
         "C": "حقوق النشر © 2021 مارسبيك ذ.م.م. كل الحقوق محفوظة.",
-        "PP": "سياسة خاصة"
+        "PP": "سياسة خاصة",
+        "ABOUT": "معلومات عنا",
+        "MISSION": "بعثة"
     },
     "ERROR": {
         "404_HEAD": "الصفحة غير موجودة",
@@ -190,5 +192,23 @@
             "DESC5_1": "تم إنشاء جميع المحتويات الموجودة على موقع الويب martpsec.com وتطبيقات الأجهزة المحمولة الخاصة بنا لأغراض إعلامية فقط. لا يُقصد به أن يكون بديلاً عن الاستشارة الطبية المتخصصة أو التشخيص أو العلاج.",
             "DESC5_2": "استخدام برنامجنا هو على مسؤوليتك الخاصة فقط. يتم تقديمها على أساس \"كما هي\"  و \"حسب توفرها\". لا تقدم Martspec أي ضمانات بأن تطبيقاتنا و / أو أي محتوى فيها سوف يلبي متطلباتك ، أو أنه سيكون غير متقطع ، أو في الوقت المناسب ، أو آمن ، أو محدث ، أو دقيق ، أو كامل ، أو خالي من الأخطاء أو أن النتائج التي يمكن الحصول عليها عن طريق استخدام الموقع و / أو أي محتوى فيه سيكون دقيقًا أو موثوقًا به. أنت تدرك وتقر بأن الحل الوحيد والحصري لك فيما يتعلق بأي خلل في التطبيق أو عدم رضائك عنه هو التوقف عن استخدام التطبيق."
         }
+    },
+    "MISSION": {
+        "HEAD": "بعثة",
+        "M": "نحن جعلها سريعة وسهلة للجميع لتتبع صحتهم والعافية.",
+        "P1": "مهمتنا تأخذنا إلى بذل كل ما في وسعنا لتوسيع الإمكانات البشرية. نقوم بذلك باتباع ثلاثة مفاهيم أساسية:",
+        "P1_1": "ابتكار ابتكارات تكنولوجية رائدة",
+        "P1_2": "جعل تطبيقاتنا أكثر إلهاما وجمالا",
+        "P1_3": "الاستماع إلى ملاحظات مجتمعاتنا",
+        "P2": "لتحقيق طموحنا ، نبدأ بالعلم. تلعب الأبحاث العلمية والتحليلات المنشورة دورًا مهمًا في تطوير التحسينات. مع مستخدمينا ، نحن نبحث عن طرق لتتبع وقياس وتطبيق العافية بشكل أكثر كفاءة. تعد التعليقات أداة مهمة لإطلاق العنان للابتكارات المستقبلية ، بما في ذلك إنشاء تطبيقات جديدة ، وتحسينات على التطبيقات الحالية ، وحتى تطبيقات غروب الشمس التي لا تفيد الناس."
+    },
+    "ABOUT": {
+        "HEAD": "معلومات عنا",
+        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That leads to significant changes to our body and health. ",
+        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. it keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
+        "P3": "People who track their wellness daily make better progress than those who do not.",
+        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make it easy to track body weight and record measurements directly into Apple Health from your wrist. That clean and minimalistic app got popular.",
+        "P5": "We have built a few more apps only for Apple Watch devices.  In 2021 we began building cross-platform apps that work on all kinds of Apple devices from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, called Emotion, to address mental wellness. The quickest personality test ever created.",
+        "P6": "We make all our apps available free of charge, we do not have any monetization, do not show ADs and never use personal data for profit."
     }
 }

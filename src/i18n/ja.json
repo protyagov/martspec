@@ -70,7 +70,9 @@
     },
     "FOOTER": {
         "C": "© 2021 Martspec LLC。 全著作権所有。",
-        "PP": "個人情報保護方針"
+        "PP": "個人情報保護方針",
+        "ABOUT": "私たちに関しては",
+        "MISSION": "ミッション"
     },
     "ERROR": {
         "404_HEAD": "ページが見つかりません",
@@ -190,5 +192,23 @@
             "DESC5_1": "martpsec.com Webサイトおよび当社のモバイルアプリにあるすべてのコンテンツは、情報提供のみを目的として作成されています。専門的な医療アドバイス、診断、または治療に代わるものではありません。",
             "DESC5_2": "当社のソフトウェアの使用は、ご自身の責任で行ってください。これは、「現状有姿」および「利用可能な範囲」で提供されます。 Martspecは、当社のアプリおよび/またはその中のコンテンツがお客様の要件を満たしていること、または中断がなく、タイムリーで、安全で、最新で、正確で、完全で、エラーがないこと、またはサイトの使用によって得られる可能性のある結果を保証しません。および/またはその中のコンテンツは正確または信頼できるものになります。あなたは、アプリの欠陥または不満に関する唯一かつ排他的な救済策は、アプリの使用を中止することであることを理解し、認めます。"
         }
+    },
+    "MISSION": {
+        "HEAD": "ミッション",
+        "M": "誰もが自分の健康状態をすばやく簡単に追跡できるようにします。",
+        "P1": "私たちの使命は、人間の可能性を拡大するために可能な限りのことをすることです。 これを行うには、基本的な3つの概念に従います。",
+        "P1_1": "画期的な技術革新を作成します。",
+        "P1_2": "私たちのアプリをより刺激的で美しいものにする",
+        "P1_3": "私たちのコミュニティのフィードバックを聞く",
+        "P2": "私たちの野心を達成するために、私たちは科学から始めています。 公開された科学研究と分析は、拡張機能の開発において重要な役割を果たします。 ユーザーとともに、ウェルネスをより効率的に追跡、測定、適用する方法を模索しています。 フィードバックは、新しいアプリの作成、既存のアプリの改善、さらには人々に利益をもたらさないアプリの廃止など、将来のイノベーションを解き放つための重要なツールです。"
+    },
+    "ABOUT": {
+        "HEAD": "私たちに関しては",
+        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That leads to significant changes to our body and health. ",
+        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. it keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
+        "P3": "People who track their wellness daily make better progress than those who do not.",
+        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make it easy to track body weight and record measurements directly into Apple Health from your wrist. That clean and minimalistic app got popular.",
+        "P5": "We have built a few more apps only for Apple Watch devices.  In 2021 we began building cross-platform apps that work on all kinds of Apple devices from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, called Emotion, to address mental wellness. The quickest personality test ever created.",
+        "P6": "We make all our apps available free of charge, we do not have any monetization, do not show ADs and never use personal data for profit."
     }
 }
