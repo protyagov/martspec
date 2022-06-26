@@ -1,7 +1,7 @@
 const
     path = require('path'),
     webpack = require('webpack'),
-    BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin,
+    // BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin,
     CopyPlugin = require('copy-webpack-plugin'),
     HtmlWebpackInjectPreload = require('@principalstudio/html-webpack-inject-preload'),
     HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -50,8 +50,9 @@ module.exports = {
                 { from: 'src/../sitemap.xml' },
                 { from: 'src/html/404.html' },
                 { from: 'src/html/pmail_22c30242162cf766f0b95cf7fe1e790e.html' },
+                { from: 'CNAME' },
                 { context: 'src/img/', from: '*.svg', to: "img" },
-                { context: 'src/img/', from: '*.png', to: "img" },
+                // { context: 'src/img/', from: '*.png', to: "img" },
                 { context: 'src/img/', from: '*.webp', to: "img" },
                 { context: 'src/img/', from: '*.jpg', to: "img" },
                 { context: 'src/img/icon/', from: '*', to: "icon" },
@@ -98,7 +99,7 @@ module.exports = {
             cacheGroups: {
                 vendor: {
                     chunks: 'initial',
-                    test: /[\\/]node_modules[\\/](react|react-dom|bootstrap|scheduler|node-polyglot|history*)[\\/]/,
+                    test: /[\\/]node_modules[\\/](react|react-dom|bootstrap|scheduler|node-polyglot|@popperjs|get-intrinsic|es-abstract|object-keys|object-inspect)[\\/]/,
                     name: "vendor"
                 }
             },

@@ -12,7 +12,8 @@ export default function LandingPage() {
 
             <section id="header" className="ms-s-header">
                 <div className="text-vertical-center">
-                    <img src="/img/logo_256.webp" alt={_("MAIN.HEAD")} />
+                    {/* <img src="/img/logo_256.webp" alt={_("MAIN.HEAD")} /> */}
+                    <img src="/img/logo.512.webp" height={64} width={64} className="mx-auto img-fluid" alt={_("MAIN.HEAD")} />
                     <h1>{_('MAIN.HEAD')}</h1>
                     <h4>{_("MAIN.SUBHEAD")}</h4>
                 </div>
@@ -28,7 +29,7 @@ export default function LandingPage() {
                     </div>
 
                     <div className="col-md-4 order-sm-1">
-                        <IronImage imgLo="/img/p_vitamin_sm.webp" imgHi="/img/p_vitamin.webp" text={_("MAIN.P3.IMG")} />
+                        <IronImage imgLo="/img/p_vitamin.64.webp" imgHi="/img/p_vitamin.512.webp" text={_("MAIN.P3.IMG")} h={540} w={540} />
                     </div>
                 </div>
             </section>
@@ -36,7 +37,7 @@ export default function LandingPage() {
             <section className="rr-s-product my-5">
                 <div className="row ms-s-offset">
                     <div className="col-md-4">
-                        <IronImage imgLo="/img/p_bodysize_sm.webp" imgHi="/img/p_bodysize.webp" text={_("MAIN.P6.IMG")} />
+                        <IronImage imgLo="/img/p_bodysize.64.webp" imgHi="/img/p_bodysize.512.webp" text={_("MAIN.P6.IMG")} h={540} w={540} />
                     </div>
 
                     <div className="col-md-6 align-self-center">
@@ -57,7 +58,7 @@ export default function LandingPage() {
                         <a href={Locale.i18nLink("electrolyte")} className="mt-3 rr-btn-large">{_("MAIN.P1.BTN")}</a>
                     </div>
                     <div className="col-md-4 order-sm-1">
-                        <IronImage imgLo="/img/p_electrolyte_sm.webp" imgHi="/img/p_electrolyte.webp" text={_("MAIN.P1.IMG")} />
+                        <IronImage imgLo="/img/p_electrolyte.64.webp" imgHi="/img/p_electrolyte.512.webp" text={_("MAIN.P1.IMG")} h={540} w={540} />
                     </div>
                 </div>
             </section>
@@ -65,7 +66,7 @@ export default function LandingPage() {
             <section className="rr-s-product my-5">
                 <div className="row ms-s-offset">
                     <div className="col-md-4">
-                        <IronImage imgLo="/img/p_mass_sm.webp" imgHi="/img/p_mass.webp" text={_("MAIN.P2.IMG")} />
+                        <IronImage imgLo="/img/p_mass.64.webp" imgHi="/img/p_mass.512.webp" text={_("MAIN.P2.IMG")} h={540} w={540} />
                     </div>
 
                     <div className="col-md-6 align-self-center">
@@ -88,7 +89,7 @@ export default function LandingPage() {
                     </div>
 
                     <div className="col-md-4 order-sm-1">
-                        <IronImage imgLo="/img/p_bodyzinc_sm.webp" imgHi="/img/p_bodyzinc.webp" text={_("MAIN.P5.IMG")} />
+                        <IronImage imgLo="/img/p_zinc.64.webp" imgHi="/img/p_zinc.512.webp" text={_("MAIN.P5.IMG")} h={540} w={540} />
                     </div>
                 </div>
             </section>
@@ -96,7 +97,7 @@ export default function LandingPage() {
             <section className="rr-s-product my-5">
                 <div className="row ms-s-offset">
                     <div className="col-md-4">
-                        <IronImage imgLo="/img/p_waist_sm.webp" imgHi="/img/p_waist.webp" text={_("MAIN.P4.IMG")} />
+                        <IronImage imgLo="/img/p_waist.64.webp" imgHi="/img/p_waist.512.webp" text={_("MAIN.P4.IMG")} h={540} w={540} />
                     </div>
 
                     <div className="col-md-6 align-self-center">
@@ -118,7 +119,7 @@ export default function LandingPage() {
                     </div>
 
                     <div className="col-md-4 order-sm-1">
-                        <IronImage imgLo="/img/p_emotion_sm.webp" imgHi="/img/p_emotion.webp" text={_("MAIN.P7.IMG")} />
+                        <IronImage imgLo="/img/p_emotion.64.webp" imgHi="/img/p_emotion.512.webp" text={_("MAIN.P7.IMG")} h={540} w={540} />
                     </div>
                 </div>
             </section>

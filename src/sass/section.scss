@@ -97,8 +97,20 @@
     font-size: 1.1rem;
     color: $rr-c-orange;
   }
+}
 
-
+.ms-back {
+  &:before {
+    content: "";
+    background: linear-gradient(180deg, black 20%,  white 70%);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+  }
 }
 
 //---------------------------------------------------------------------------------------------------------------------

@@ -5,65 +5,65 @@ import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
 
 export default function P7Emotion() {
-    return (
-        <>
-            <NavigationBar title={_("MAIN.P7.HEAD")} />
+    return <>
+        <NavigationBar />
 
-            <section className="rr-s-about ms-s-offset">
-                <div className="row" >
-                    <div className="col-sm-12 col-md-9 order-last order-md-1">
-                        <h3 className="mt-4">{_("PRODUCT.P7.ABOUT_1")}</h3>
-                        <h3 className="mt-4">{_("PRODUCT.P7.ABOUT_2")}</h3>
-                        <h3 className="mt-4">{_("PRODUCT.P7.ABOUT_3")}</h3>
+        <div className="ms-base-page pb-5 ms-back">
+            <img src="/img/emotion.512.webp" className="img-fluid" alt={_("MAIN.P3.IMG")} height={512} width={512} />
+            <h1 className="text-center pt-3 ">{_("MAIN.P7.HEAD")}</h1>
 
-                        {/* Body compostion */}
-                        <h1>{_("PRODUCT.P7.HEAD1")}</h1>
-                        <h3 className="mt-3">{_("PRODUCT.P7.DESC1_1")}</h3>
-                        <h3 className="mt-3">{_("PRODUCT.P7.DESC1_2")}</h3>
-
-
-                        {/* Chest and Bust */}
-                        <h1>{_("PRODUCT.P7.HEAD2")}</h1>
-                        <h3 className="mt-3">{_("PRODUCT.P7.DESC2_1")}</h3>
-                        <h3 className="mt-3">{_("PRODUCT.P7.DESC2_2")}</h3>
-                        
-                        <h1>{_("PRODUCT.P7.HEAD3")}</h1>
-                        <h3 className="mt-3">{_("PRODUCT.P7.DESC3_1")}</h3>
-                        <h3 className="mt-3">{_("PRODUCT.P7.DESC3_2")}</h3>
-
-                        {/* Hips Width */}
-                        <h1>{_("PRODUCT.P7.HEAD4")}</h1>
-                        <h3 className="mt-3">{_("PRODUCT.P7.DESC4")}</h3>
-
-
-                        {/* Body Shape */}
-                        <h1>{_("PRODUCT.P7.HEAD5")}</h1>
-                        <h3 className="mt-3">{_("PRODUCT.P7.DESC5_1")}</h3>
-                        <h3 className="mt-3">{_("PRODUCT.P7.DESC5_2")}</h3>
-                    </div>
-
-                    <div className="col-sm-12 col-md-3 order-sm-1">
-                        <img src="/img/emotion.webp" className="mx-auto" alt={_("MAIN.P6.IMG")} />
-                    </div>
-                </div>
+            <section>
+                <p className="mt-4">{_("PRODUCT.P7.ABOUT_1")}</p>
+                <p className="mt-4">{_("PRODUCT.P7.ABOUT_2")}</p>
+                <p className="mt-4">{_("PRODUCT.P7.ABOUT_3")}</p>
+                <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1562956213`}
+                    target="_blank" title={_("MAIN.P7.DWN")} className="float-center" >
+                    <span className="ms-btn-apple" />
+                </a>
             </section>
 
+            <section>
+                <h4>{_("PRODUCT.P7.HEAD1")}</h4>
+                <p className="mt-3">{_("PRODUCT.P7.DESC1_1")}</p>
+                <p className="mt-3">{_("PRODUCT.P7.DESC1_2")}</p>
+            </section>
 
-            <div className="container mb-5 pb-5">
-                <div className="row align-items-center justify-content-sm-center" >
-                    <div className="col-md-7 col-12 pb-5">
-                        <IronImage imgLo="/img/p_emotion_screens_sm.webp" imgHi="/img/p_emotion_screens.webp" text={_("MAIN.P6.IMG")} />
-                    </div>
-                    <div className="col-md-5 col-12 text-center pb-5">
-                        <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1562956213`}
-                            target="_blank" title={_("MAIN.P1.DWN")}>
-                            <span className="ms-btn-apple my-5 float-md-right text-center"></span>
-                        </a>
-                    </div>
-                </div>
+            <div className="text-center">
+                <IronImage imgLo="/img/p_emotion_screens3.64.webp" imgHi="/img/p_emotion_screens3.512.webp" text={_("MAIN.P7.IMG")} h={512} w={512} />
             </div>
 
-            <Footer />
-        </>
-    )
+            <section>
+                <h4>{_("PRODUCT.P7.HEAD2")}</h4>
+                <p className="mt-3">{_("PRODUCT.P7.DESC2_1")}</p>
+                <p className="mt-3">{_("PRODUCT.P7.DESC2_2")}</p>
+            </section>
+
+            <section>
+                <h4>{_("PRODUCT.P7.HEAD3")}</h4>
+                <p className="mt-3">{_("PRODUCT.P7.DESC3_1")}</p>
+                <p className="mt-3">{_("PRODUCT.P7.DESC3_2")}</p>
+            </section>
+
+            <div className="pb-5 text-center">
+                <IronImage imgLo="/img/p_emotion_screens2.64.webp" imgHi="/img/p_emotion_screens2.512.webp" text={_("MAIN.P7.IMG")} h={512} w={512} />
+            </div>
+
+            <section>
+                <h4>{_("PRODUCT.P7.HEAD4")}</h4>
+                <p className="mt-3">{_("PRODUCT.P7.DESC4")}</p>
+            </section>
+
+            <section>
+                <h4>{_("PRODUCT.P7.HEAD5")}</h4>
+                <p className="mt-3">{_("PRODUCT.P7.DESC5_1")}</p>
+                <p className="mt-3">{_("PRODUCT.P7.DESC5_2")}</p>
+            </section>
+        </div>
+
+        <div className="pb-5 text-center">
+            <IronImage imgLo="/img/p_emotion_screens.64.webp" imgHi="/img/p_emotion_screens.512.webp" text={_("MAIN.P7.IMG")} h={512} w={512} />
+        </div>
+
+        <Footer />
+    </>
 }

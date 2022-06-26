@@ -5,7 +5,7 @@ import _ from "src/i18n/locale"
 
 export default function About() {
     return <>
-        <NavigationBar title="" />
+        <NavigationBar />
 
         <div className="ms-base-page pb-5">
             <img src="/img/about.svg" alt={_("ABOUT.HEAD")} />

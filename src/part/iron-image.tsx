@@ -5,6 +5,8 @@ export interface AvatarModel {
     imgLo: string;
     imgHi: string;
     text?: string;
+    h: number;
+    w: number;
 }
 
 
@@ -25,8 +27,8 @@ export default function IronImage(props: AvatarModel) {
         }
     }, [])
 
-    return <span>
-        {/* @ts-ignore */}
-        <img src={props.imgLo} ref={photoImg} style={{ width: "100%"}} alt={props.text} />
-    </span>
+    {/* @ts-ignore */ }
+    return <img src={props.imgLo} ref={photoImg} width={props.w} height={props.h}
+
+        className="mx-auto img-fluid" alt={props.text} />
 }

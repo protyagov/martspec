@@ -3,7 +3,7 @@ import _, { Locale } from "src/i18n/locale"
 import NavBarLang from "./navbar-lang";
 
 interface NavBarProps {
-    title: string;
+    title?: string;
 }
 
 export default function NavigationBar(props: NavBarProps) {
@@ -11,7 +11,7 @@ export default function NavigationBar(props: NavBarProps) {
         <nav className="rr-navbar">
             <div className="lButton">
                 <a className="btn btn-link" href={Locale.i18nLink("/")}>
-                    <img src="/img/logo.png" className="img-fluid" alt={_("ERROR.404_BTN")} />
+                    <img src="/img/logo.64.webp" className="img-fluid" alt={_("ERROR.404_BTN")} width={64} height={64}/>
                 </a>
             </div>
 
