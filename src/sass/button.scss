@@ -35,14 +35,6 @@
     border-radius: 2rem;
 }
 
-.unstyled-button {
-    border: none !important;
-    padding: 0;
-    background: none;
-}
-
-
-
 .rr-btn-lang {
     @extend .btn;
     @extend .btn-link;

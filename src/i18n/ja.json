@@ -204,11 +204,11 @@
     },
     "ABOUT": {
         "HEAD": "私たちに関しては",
-        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That leads to significant changes to our body and health. ",
-        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. it keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
-        "P3": "People who track their wellness daily make better progress than those who do not.",
-        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make it easy to track body weight and record measurements directly into Apple Health from your wrist. That clean and minimalistic app got popular.",
-        "P5": "We have built a few more apps only for Apple Watch devices.  In 2021 we began building cross-platform apps that work on all kinds of Apple devices from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, called Emotion, to address mental wellness. The quickest personality test ever created.",
-        "P6": "We make all our apps available free of charge, we do not have any monetization, do not show ADs and never use personal data for profit."
+        "P1": "会社Martspecは2020年の春に設立されました。 その間、多くの人々が家に滞在し、遠隔地で働いていました。 私たちの毎日のルーチンが変更されました。 私たちの多くは定期的に運動を停止します。 それは私たちの体と健康に大きな変化をもたらします。",
+        "P2": "私たちはその状況を改善し、健康と健康を追跡するためのアプリを人々に提供したかったのです。 それは私たちの心の前で健康的な習慣を保ちます。 私達が丸太の記入項目を作る度に、私達は健康への私達の責任を思い出させる。",
+        "P3": "彼らの健康を毎日追跡する人々は、そうでない人よりも良い進歩を遂げます。",
+        "P4": "私たちは、態度、生活、そして最終的には世界を変えるためのアイデアの力を本当に信じています。 最初のアイデアは、ウェアラブルデバイスから直接体重を追跡するアプリでした。 Apple Watch用の体重追跡アプリを作成して、体重を簡単に入力し、手首からApple Healthに直接測定値を記録できるようにしました。 その簡単でミニマルなアプリが人気を得ました。",
+        "P5": "私たちは、Apple Watchデバイス用のいくつかのより多くのアプリを構築しました。  2021年には、小型のApple WatchからiPadやMacbookに至るまで、あらゆる種類のAppleデバイスで動作するクロスプラットフォームアプリの構築を開始しました。 物理的な健康と健康の追跡に加えて、私たちは精神的な健康に対処するために、感情と呼ばれる私たちの最初のアプリを作成しました。 これまでに作成された最速の性格テスト。",
+        "P6": "私たちはすべてのアプリを無料で利用できるようにし、収益化を行わず、広告を表示せず、個人データを利益のために使用することはありません。"
     }
 }
