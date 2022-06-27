@@ -204,11 +204,11 @@
     },
     "ABOUT": {
         "HEAD": "معلومات عنا",
-        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That leads to significant changes to our body and health. ",
-        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. it keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
-        "P3": "People who track their wellness daily make better progress than those who do not.",
-        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make it easy to track body weight and record measurements directly into Apple Health from your wrist. That clean and minimalistic app got popular.",
-        "P5": "We have built a few more apps only for Apple Watch devices.  In 2021 we began building cross-platform apps that work on all kinds of Apple devices from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, called Emotion, to address mental wellness. The quickest personality test ever created.",
-        "P6": "We make all our apps available free of charge, we do not have any monetization, do not show ADs and never use personal data for profit."
+        "P1": "تأسست شركة مارتسبيك في ربيع عام 2020. خلال ذلك الوقت بقي الكثير من الناس في المنزل وعملوا عن بعد. تم تغيير روتيننا اليومي. الكثير منا يتوقف عن ممارسة الرياضة بانتظام. وهذا يؤدي إلى تغييرات كبيرة في الجسم والصحة.",
+        "P2": "أردنا تحسين هذا الوضع وتزويد الأشخاص بتطبيقات لتتبع الصحة والعافية. إنها تحافظ على العادات الصحية أمام أذهاننا. في كل مرة نقوم فيها بإدخال سجل ، يتم تذكيرنا بالتزامنا بالصحة.",
+        "P3": "الأشخاص الذين يتتبعون عافيتهم يوميا يحققون تقدما أفضل من أولئك الذين لا يفعلون ذلك.",
+        "P4": "ونحن نعتقد حقا في قوة الأفكار لتغيير المواقف, حياة, و, في نهاية المطاف, العالم. كانت الفكرة الأولى عبارة عن تطبيق لتتبع وزن الجسم مباشرة من الأجهزة القابلة للارتداء. لقد أنشأنا التطبيق تتبع الوزن لساعة أبل لتجعل من السهل إدخال وزن الجسم وتسجيل القياسات مباشرة في صحة أبل من معصمك. هذا التطبيق سهل وأضيق الحدود حصلت شعبية.",
+        "P5": "لقد بنينا عدد قليل من التطبيقات فقط لأجهزة أبل ووتش.  في عام 2021 ، بدأنا في بناء تطبيقات عبر الأنظمة الأساسية تعمل على جميع أنواع أجهزة أبل من ساعة أبل الصغيرة إلى أجهزة آي باد وماك بوك. بالإضافة إلى العافية البدنية وتتبع الصحة ، أنشأنا أول تطبيق لدينا ، ودعا العاطفة ، لمعالجة العافية العقلية. أسرع اختبار شخصية تم إنشاؤه على الإطلاق.",
+        "P6": "نجعل جميع تطبيقاتنا متاحة مجانا ، وليس لدينا أي تسييل ، ولا نعرض إعلانات ولا نستخدم البيانات الشخصية أبدا من أجل الربح."
     }
 }

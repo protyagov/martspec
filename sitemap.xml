@@ -34,6 +34,14 @@
       <loc>https://martspec.com/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- English  -->
    <url>
@@ -66,6 +74,14 @@
    </url>
    <url>
       <loc>https://martspec.com/en/emotion</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/about</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -102,6 +118,14 @@
       <loc>https://martspec.com/ar/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/ar/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ar/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- China ZH  -->
    <url>
@@ -134,6 +158,14 @@
    </url>
    <url>
       <loc>https://martspec.com/zh/emotion</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/about</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -170,6 +202,14 @@
       <loc>https://martspec.com/fr/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/fr/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/fr/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- German DE  -->
    <url>
@@ -202,6 +242,14 @@
    </url>
    <url>
       <loc>https://martspec.com/de/emotion</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/about</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -238,6 +286,14 @@
       <loc>https://martspec.com/hi/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/hi/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/hi/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- Japanise JA  -->
    <url>
@@ -270,6 +326,14 @@
    </url>
    <url>
       <loc>https://martspec.com/ja/emotion</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/about</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -306,6 +370,14 @@
       <loc>https://martspec.com/pt/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/pt/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/pt/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- Russian RU  -->
    <url>
@@ -334,6 +406,14 @@
    </url>
    <url>
       <loc>https://martspec.com/ru/bodyzinc</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/about</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -370,4 +450,13 @@
       <loc>https://martspec.com/es/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/es/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/es/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+
 </urlset> 

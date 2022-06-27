@@ -204,11 +204,11 @@
     },
     "ABOUT": {
         "HEAD": "Über uns",
-        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That leads to significant changes to our body and health. ",
-        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. it keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
-        "P3": "People who track their wellness daily make better progress than those who do not.",
-        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make it easy to track body weight and record measurements directly into Apple Health from your wrist. That clean and minimalistic app got popular.",
-        "P5": "We have built a few more apps only for Apple Watch devices.  In 2021 we began building cross-platform apps that work on all kinds of Apple devices from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, called Emotion, to address mental wellness. The quickest personality test ever created.",
-        "P6": "We make all our apps available free of charge, we do not have any monetization, do not show ADs and never use personal data for profit."
+        "P1": "Die Firma Martspec wurde im Frühjahr 2020 gegründet. In dieser Zeit blieben viele Menschen zu Hause und arbeiteten remote. Unsere täglichen Routinen haben sich verändert. Viele von uns hören auf, regelmäßig Sport zu treiben. Das führt zu erheblichen Veränderungen unseres Körpers und unserer Gesundheit.",
+        "P2": "Wir wollten diese Situation verbessern und Menschen Apps zur Verfügung stellen, um Gesundheit und Wohlbefinden zu verfolgen. es hält gesunde Gewohnheiten vor unseren Augen. Jedes Mal, wenn wir einen Protokolleintrag machen, werden wir an unser Engagement für die Gesundheit erinnert.",
+        "P3": "Menschen, die ihr Wohlbefinden täglich verfolgen, machen bessere Fortschritte als diejenigen, die dies nicht tun.",
+        "P4": "Wir glauben fest an die Kraft von Ideen, Einstellungen, Leben und letztendlich die Welt zu verändern. Die erste Idee war eine App, um das Körpergewicht direkt von tragbaren Geräten aus zu verfolgen. Wir haben die Gewichtsverfolgungs-App für die Apple Watch entwickelt, um die Eingabe des Körpergewichts und die Aufzeichnung von Messungen direkt von Ihrem Handgelenk aus in Apple Health zu vereinfachen. Diese einfache und minimalistische App wurde populär.",
+        "P5": "Wir haben ein paar weitere Apps nur für Apple Watch-Geräte entwickelt.  Im Jahr 2021 begannen wir mit der Entwicklung plattformübergreifender Apps, die auf allen Arten von Apple-Geräten funktionieren, von der kleinen Apple Watch über iPads bis hin zu MacBooks. Neben körperlichem Wohlbefinden und Gesundheitstracking haben wir unsere erste App namens Emotion entwickelt, die sich mit mentalem Wohlbefinden befasst. Der schnellste Persönlichkeitstest, der jemals erstellt wurde.",
+        "P6": "Wir stellen alle unsere Apps kostenlos zur Verfügung, haben keine Monetarisierung, schalten keine Werbung und verwenden niemals personenbezogene Daten für Profit."
     }
 }

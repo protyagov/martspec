@@ -205,11 +205,11 @@
     },
     "ABOUT": {
         "HEAD": "हमारे बारे में",
-        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That leads to significant changes to our body and health. ",
+        "P1": "कंपनी मार्टस्पेक की स्थापना 2020 के वसंत में हुई थी ।  उस दौरान बहुत से लोग घर पर रहे और दूर से काम किया ।  हमारी दैनिक दिनचर्या बदल गई ।  हममें से कई लोग नियमित व्यायाम करना बंद कर देते हैं ।  इससे हमारे शरीर और स्वास्थ्य में महत्वपूर्ण बदलाव आते हैं । ",
         "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. it keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
-        "P3": "People who track their wellness daily make better progress than those who do not.",
-        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make it easy to track body weight and record measurements directly into Apple Health from your wrist. That clean and minimalistic app got popular.",
-        "P5": "We have built a few more apps only for Apple Watch devices.  In 2021 we began building cross-platform apps that work on all kinds of Apple devices from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, called Emotion, to address mental wellness. The quickest personality test ever created.",
-        "P6": "We make all our apps available free of charge, we do not have any monetization, do not show ADs and never use personal data for profit."
+        "P3": "जो लोग अपने कल्याण को दैनिक ट्रैक करते हैं वे उन लोगों की तुलना में बेहतर प्रगति करते हैं जो नहीं करते हैं । ",
+        "P4": "हम वास्तव में दृष्टिकोण, जीवन और अंततः, दुनिया को बदलने के लिए विचारों की शक्ति में विश्वास करते हैं ।  पहला विचार पहनने योग्य उपकरणों से सीधे शरीर के वजन को ट्रैक करने के लिए एक ऐप था ।  हमने ऐप्पल वॉच के लिए वेट ट्रैकिंग ऐप बनाया है ताकि शरीर के वजन को इनपुट करना आसान हो और माप को सीधे आपकी कलाई से ऐप्पल हेल्थ में रिकॉर्ड किया जा सके ।  यह आसान और न्यूनतर ऐप लोकप्रिय हो गया । ",
+        "P5": "हमने केवल ऐप्पल वॉच डिवाइस के लिए कुछ और ऐप बनाए हैं ।   2021 में हमने क्रॉस-प्लेटफ़ॉर्म ऐप बनाना शुरू किया जो छोटे ऐप्पल वॉच से लेकर आईपैड और मैकबुक तक सभी प्रकार के ऐप्पल डिवाइस पर काम करते हैं ।  शारीरिक कल्याण और स्वास्थ्य ट्रैकिंग के अलावा, हमने मानसिक कल्याण को संबोधित करने के लिए अपना पहला ऐप बनाया है, जिसे इमोशन कहा जाता है ।  अब तक का सबसे तेज व्यक्तित्व परीक्षण । ",
+        "P6": "हम अपने सभी ऐप्स नि: शुल्क उपलब्ध कराते हैं, हमारे पास कोई मुद्रीकरण नहीं है, विज्ञापन नहीं दिखाते हैं और कभी भी लाभ के लिए व्यक्तिगत डेटा का उपयोग नहीं करते हैं । "
     }
 }
