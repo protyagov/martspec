@@ -28,6 +28,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: './src/template/en/emotion.ejs', filename: 'emotion/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/about.ejs', filename: 'about/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/mission.ejs', filename: 'mission/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/pp.ejs', filename: 'privacy-policy/index.html', inject: 'body' }),
 
         // --------------- Static Content EN Without Slash--------------- 
         new HtmlWebpackPlugin({ template: './src/template/en/bodymass.ejs', filename: 'bodymass.html', inject: 'body' }),
@@ -39,6 +40,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: './src/template/en/emotion.ejs', filename: 'emotion.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/about.ejs', filename: 'about.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/mission.ejs', filename: 'mission.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/pp.ejs', filename: 'privacy-policy/index.html', inject: 'body' }),
 
         new HtmlWebpackInjectPreload({
             files: [{
