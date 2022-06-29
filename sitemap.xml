@@ -42,6 +42,10 @@
       <loc>https://martspec.com/about</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
 
 <!-- English  -->
    <url>
@@ -84,6 +88,10 @@
       <loc>https://martspec.com/en/about</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/en/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
 
 <!-- Arabic  -->
    <url>
