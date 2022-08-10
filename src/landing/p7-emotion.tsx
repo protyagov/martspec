@@ -15,7 +15,6 @@ export default function P7Emotion() {
             <section>
                 <p className="mt-4">{_("PRODUCT.P7.ABOUT_1")}</p>
                 <p className="mt-4">{_("PRODUCT.P7.ABOUT_2")}</p>
-                <p className="mt-4">{_("PRODUCT.P7.ABOUT_3")}</p>
                 <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1562956213`}
                     target="_blank" title={_("MAIN.P7.DWN")} className="float-center" >
                     <span className="ms-btn-apple" />
