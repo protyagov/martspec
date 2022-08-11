@@ -1,36 +1,29 @@
 import * as React from "react";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
+import _ from "src/i18n/locale"
 
 export default function PrivacyPolicy() {
     return (<>
         <NavigationBar title="" />
 
         <div className="ms-base-page pb-5">
-            <h3 className="text-center">Privacy Policy</h3>
+            <h3 className="text-center">{_("PP.HEAD")}</h3>
             <img src="/img/privacy.svg" alt="Privacy Policy" />
 
             <section>
-                <h6>Last updated: August 20, 2021</h6>
-
-                <p>
-                    Protecting your private information is our priority. This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of
-                    Your information when You use any of our mobile apps, visit our website at martspec.com or engage with us in other related ways - including sales, marketing or
-                    events.
-                </p>
-                <p>
-                    The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have
-                    in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.</p>
-                <p>We use Your Personal data to provide and improve the Service. By using the Service or any our mobile apps, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
+                <h6>{_("PP.DATE")}</h6>
+                <p>{_("PP.P1")}</p>
+                <p>{_("PP.P2")}</p>
+                <p>{_("PP.P3")}</p>
             </section>
 
 
             <section>
-                <h3>Interpretation and Definitions</h3>
-                <h4>Interpretation</h4>
+                <hr />
+                <h4>{_("PP.DEFINITION.HEAD")}</h4>
                 <p>The words of which the initial letter is capitalized have meanings defined under the following conditions.
                     The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
-                <h4>Definitions</h4>
                 <p>For the purposes of this Privacy Policy:</p>
                 <ul>
                     <li>
@@ -87,7 +80,7 @@ export default function PrivacyPolicy() {
 
 
             <section>
-                <h3>Collecting Your Personal Data</h3>
+                <hr />
                 <h4>Types of Data Collected</h4>
                 <h5>Personal Data</h5>
                 <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
@@ -123,8 +116,10 @@ export default function PrivacyPolicy() {
                         </li>
                     </ul>
                 </p>
+            </section>
 
-
+            <section>
+                <hr />
                 <h4>Tracking Technologies</h4>
                 <p>We use Cookies or similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies might include
                     but not limited to beacons, browser session storage, Cookies, tags, and scripts to collect and track information and to improve and analyze Our Service.
@@ -153,10 +148,11 @@ export default function PrivacyPolicy() {
                 <p>
                     Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.
                 </p>
+            </section>
 
-
-                <br /><br />
-                <h3>Use of Your Personal Data</h3>
+            <section>
+                <hr />
+                <h4>Use of Your Personal Data</h4>
                 <h5>Disclose of your personal information may happen in the following situations:</h5>
                 <ul>
                     <li><strong>Law Enforcement:</strong> We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements).</li>
@@ -217,7 +213,8 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-                <h3>Children Under Thirteen</h3>
+                <hr />
+                <h4>Children Under Thirteen</h4>
                 <p>
                     We do not knowingly collect personally identifiable information from children under the age of thirteen. If you are under the age of thirteen, you must
                     ask your parent or guardian for permission to use this Service or any of our mobile applications.
@@ -225,7 +222,8 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-                <h3>What are your Privacy Rights ?</h3>
+                <hr />
+                <h4>What are your Privacy Rights ?</h4>
                 <p>
                     In some regions (like the EEA and UK), you have certain rights under applicable data protection laws. These may include the right (i) to
                     request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing
@@ -255,7 +253,8 @@ export default function PrivacyPolicy() {
 
 
             <section>
-                <h3>CCPA Privacy</h3>
+                <hr />
+                <h4>CCPA Privacy</h4>
 
                 <h4>Your California Privacy Rights (California's Shine the Light law)</h4>
                 <p>Under California Civil Code Section 1798 (California's Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties' direct marketing purposes.</p>
@@ -310,7 +309,7 @@ export default function PrivacyPolicy() {
                 </ul>
 
 
-                <h4>Personal Information Collecting and Sharing</h4>
+                <h4>Personal Information Collecting and Sharing under CCPA</h4>
                 <p>We do not sell personal information. More information about our data collection and sharing practices can be found in this privacy notice.
                     You may contact us by referring to the contact details at the bottom of this document.
                 </p>
@@ -345,26 +344,29 @@ export default function PrivacyPolicy() {
 
 
             <section>
-                <h3>Links to Other Websites</h3>
+                <hr />
+                <h4>Links to Other Websites</h4>
                 <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
                 <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
             </section>
 
 
             <section>
-                <h3>Changes to this Privacy Policy</h3>
+                <hr />
+                <h4>Changes to this Privacy Policy</h4>
                 <p>We may update our Privacy Policy from time to time. The updated version will be indicated by an updated "Last updated" date and the updated version will be effective as soon as it is accessible. </p>
                 <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
             </section>
 
 
             <section>
-                <h3>Contact Us</h3>
+                <hr />
+                <h4>Contact Us</h4>
                 If you have any questions about this Privacy Policy, You can contact us:
                 <ul>
                     <li>By visiting this page on our website: <a href="https://martspec.com/privacy-policy" rel="external nofollow noopener" target="_blank">https://martspec.com/privacy-policy</a></li>
-                    <li>Via our facebook messager at <a href="https://www.facebook.com/martspec"  target="_blank">Martspec @ FaceBook</a></li>
-                    <li>Via our facebook messager at <a href="https://twitter.com/MartspecCom"  target="_blank">Martspec @ Twitter</a></li>                    
+                    <li>Via our facebook messager at <a href="https://www.facebook.com/martspec" target="_blank">Martspec @ FaceBook</a></li>
+                    <li>Via our facebook messager at <a href="https://twitter.com/MartspecCom" target="_blank">Martspec @ Twitter</a></li>
                 </ul>
             </section>
 
