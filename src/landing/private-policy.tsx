@@ -22,58 +22,57 @@ export default function PrivacyPolicy() {
             <section>
                 <hr />
                 <h4>{_("PP.DEFINITION.HEAD")}</h4>
-                <p>The words of which the initial letter is capitalized have meanings defined under the following conditions.
-                    The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
-                <p>For the purposes of this Privacy Policy:</p>
+                <p>{_("PP.DEFINITION.P1")}</p>
+                <p>{_("PP.DEFINITION.P2")}</p>
                 <ul>
                     <li>
-                        <p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.ACCOUNT.STRONG")}</strong>{_("PP.DEFINITION.UL.ACCOUNT.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>App</strong> refers to any mobile application of ours that references or links to this policy and designed for smarge phone, wearable device, tablet or computer.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.APP.STRONG")}</strong>{_("PP.DEFINITION.UL.APP.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Business</strong>, for the purpose of the CCPA (California Consumer Privacy Act), refers to the Company as the legal entity that collects Consumers' personal information and determines the purposes and means of the processing of Consumers' personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.BUSINESS.STRONG")}</strong>{_("PP.DEFINITION.UL.BUSINESS.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Martspec LLC, Austin, TX 78749.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.COMPANY.STRONG")}</strong>{_("PP.DEFINITION.UL.COMPANY.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Consumer</strong>, for the purpose of the CCPA (California Consumer Privacy Act), means a natural person who is a California resident. A resident, as defined in the law, includes (1) every individual who is in the USA for other than a temporary or transitory purpose, and (2) every individual who is domiciled in the USA who is outside the USA for a temporary or transitory purpose.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.CONSUMER.STRONG")}</strong>{_("PP.DEFINITION.UL.CONSUMER.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.COOKIES.STRONG")}</strong>{_("PP.DEFINITION.UL.COOKIES.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Country</strong> refers to: Texas, United States</p>
+                        <p><strong>{_("PP.DEFINITION.UL.COUNTRY.STRONG")}</strong>{_("PP.DEFINITION.UL.COUNTRY.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.DEVICE.STRONG")}</strong>{_("PP.DEFINITION.UL.DEVICE.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</p>
-                        <p>For the purposes of the CCPA, Personal Data means any information that identifies, relates to, describes or is capable of being associated with, or could reasonably be linked, directly or indirectly, with You.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.PERSONAL_DATA.STRONG")}</strong>{_("PP.DEFINITION.UL.PERSONAL_DATA.P1")}</p>
+                        <p>{_("PP.DEFINITION.UL.PERSONAL_DATA.P2")}</p>
                     </li>
                     <li>
-                        <p><strong>Sale</strong>, for the purpose of the CCPA (California Consumer Privacy Act), means selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a Consumer's Personal information to another business or a third party for monetary or other valuable consideration.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.SALE.STRONG")}</strong>{_("PP.DEFINITION.UL.SALE.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Service</strong> refers to our Website, App, and other related services, including any sales, marketing, or events.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.SERVICE.STRONG")}</strong>{_("PP.DEFINITION.UL.SERVICE.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.SERVICE_PROVIDER.STRONG")}</strong>{_("PP.DEFINITION.UL.SERVICE_PROVIDER.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Third-party Social Media Service</strong> refers to any website or any social network website through which a User can log in or create an account to use the Service.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.THIRD_PARTY_MEDIA.STRONG")}</strong>{_("PP.DEFINITION.UL.THIRD_PARTY_MEDIA.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</p>
+                        <p><strong>{_("PP.DEFINITION.UL.USAGE_DATA.STRONG")}</strong>{_("PP.DEFINITION.UL.USAGE_DATA.P1")}</p>
                     </li>
                     <li>
-                        <p><strong>Website</strong> refers to Martspec, accessible from <a href="https://martspec.com/" rel="external nofollow noopener" target="_blank">https://martspec.com/</a></p>
+                        <p><strong>{_("PP.DEFINITION.UL.WEBSITE.STRONG")}</strong>{_("PP.DEFINITION.UL.WEBSITE.P1")}<a href="https://martspec.com/" rel="external nofollow noopener" target="_blank">{_("PP.DEFINITION.UL.WEBSITE.A")}</a></p>
                     </li>
                     <li>
-                        <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
+                        <p><strong>{_("PP.DEFINITION.UL.YOU.STRONG")}</strong>{_("PP.DEFINITION.UL.YOU.P1")}</p>
                     </li>
                 </ul>
             </section>
