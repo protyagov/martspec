@@ -320,8 +320,8 @@ export default function PrivacyPolicy() {
                 {_("PP.CONTACT.TEXT")}
                 <ul>
                     <li>{_("PP.CONTACT.UL.L1.TEXT")}<a href="https://martspec.com/privacy-policy" rel="external nofollow noopener" target="_blank">{_("PP.CONTACT.UL.L1.A")}</a></li>
-                    <li>{_("PP.CONTACT.UL.L2.TEXT")}<a href="https://www.facebook.com/martspec" target="_blank">{_("PP.CONTACT.UL.L2.A")}</a></li>
-                    <li>{_("PP.CONTACT.UL.L3.TEXT")}<a href="https://twitter.com/MartspecCom" target="_blank">{_("PP.CONTACT.UL.L3.A")}</a></li>
+                    <li>{_("PP.CONTACT.UL.L2.TEXT")}<a href="https://vk.com/martspec" target="_blank">{_("PP.CONTACT.UL.L2.A")}</a></li>
+                    <li>{_("PP.CONTACT.UL.L3.TEXT")}<a href="https://vc.ru/s/TiZ" target="_blank">{_("PP.CONTACT.UL.L3.A")}</a></li>
                 </ul>
             </section>
 
