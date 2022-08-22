@@ -587,12 +587,19 @@
                     "A": "https://martspec.com/privacy-policy"
                 },
                 "L2": {
-                    "TEXT": "Via our VKontakte messager at ",
-                    "A": "Martspec @ VK"
+                    "TEXT": "Via our FaceBook messager at ",
+                    "A": "Martspec @ FaceBook",
+                    "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "Via our VC messager at ",
-                    "A": "Martspec @ VC"
+                    "TEXT": "Via our Twitter messager at ",
+                    "A": "Martspec @ Twitter",
+                    "LINK": "https://twitter.com/MartspecCom"
+                },
+                "L4": {
+                    "TEXT": "Via our LinkedIn group at ",
+                    "A": "Martspec @ LinkedIn",
+                    "LINK": "https://www.linkedin.com/company/martspec/"
                 }
             }
         }

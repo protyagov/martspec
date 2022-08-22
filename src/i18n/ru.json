@@ -586,11 +586,18 @@
                 },
                 "L2": {
                     "TEXT": "Через наш мессенджер ВКонтакте на ",
-                    "A": "Martspec @ VK"
+                    "A": "Martspec @ VK",
+                    "LINK": "https://vk.com/martspec"
                 },
                 "L3": {
                     "TEXT": "Через наш мессенджер VC на ",
-                    "A": "Martspec @ VC"
+                    "A": "Martspec @ VC",
+                    "LINK": "https://vc.ru/s/TiZ"
+                },
+                "L4": {
+                    "TEXT": "Через нашу группу LinkedIn на ",
+                    "A": "Martspec @ LinkedIn",
+                    "LINK": "https://www.linkedin.com/company/martspec/"
                 }
             }
         }

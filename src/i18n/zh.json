@@ -514,7 +514,7 @@
             "UL1": {
                 "L1": {
                     "STRONG": "评论权。",
-                    "文本": "您必须正确了解收集了哪些类别的个人数据以及使用这些数据的目的。"
+                    "TEXT": "您必须正确了解收集了哪些类别的个人数据以及使用这些数据的目的。"
                 },
                 "L2": {
                     "STRONG": "访问权/请求权。",
@@ -537,7 +537,7 @@
                 },
                 "L5": {
                     "STRONG": "删除个人数据的权利。",
-                    "文本": "您也有权要求删除在过去 12 个月内收集的您的个人数据。"
+                    "TEXT": "您也有权要求删除在过去 12 个月内收集的您的个人数据。"
                 },
                 "L6": {
                     "STRONG": "不受歧视的权利。",
@@ -585,12 +585,19 @@
                     "A": "https://martspec.com/privacy-policy"
                 },
                 "L2": {
-                    "TEXT": "通过我们的信使 VKontakte ",
-                    "A": "Martspec @ VK"
+                    "TEXT": "通过我们的 Facebook 消息器 ",
+                    "A": "Martspec @ FaceBook",
+                    "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "通过我们的 VC 信使 ",
-                    "A": "Martspec @ VC"
+                    "TEXT": "通过您的 Twitter 消息 ",
+                    "A": "Martspec @ Twitter",
+                    "LINK": "https://twitter.com/MartspecCom"
+                },
+                "L4": {
+                    "TEXT": "通过我们的 LinkedIn 组 ",
+                    "A": "Martspec @ LinkedIn",
+                    "LINK": "https://www.linkedin.com/company/martspec/"
                 }
             }
         }
