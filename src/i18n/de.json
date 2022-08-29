@@ -281,7 +281,7 @@
                 },
                 "WEBSITE":{
                     "STRONG": "Website",
-                    "P1": " bezieht sich auf die Martspec, die von verfügbar ist",
+                    "P1": " bezieht sich auf die Martspec, die von verfügbar ist ",
                     "A": "https://martspec.com/"
                 },
                 "YOU":{
@@ -472,7 +472,7 @@
                 "TEXT": "Wenn Sie ansässig sind, sind die Kontaktdaten der Datenschutzbehörden hier geschützt: ",
                 "A": "https://www.edoeb.admin.ch/edoeb/en/home.html"
             },
-            "P5": "Если вы в любое время захотите просмотреть или изменить информацию в своей учетной записи или прекратить действие своей учетной записи, вы можете:\nВойти в настройки своей учетной записи и обновить свою учетную запись пользователя.\nПо вашему запросу на удаление вашей учетной записи мы деактивируем или удалить свою учетную запись и информацию из наших активных баз данных. Тем не менее, мы можем хранить некоторую информацию в наших файлах для предотвращения мошенничества, устранения неполадок, помощи в любых расследованиях, обеспечения соблюдения наших Условий использования и/или соблюдения применимых требований законодательства."
+            "P5": "Wenn Sie Ihre Kontoinformationen überprüfen oder ändern oder Ihr Konto jederzeit kündigen möchten, haben Sie folgende Möglichkeiten:\nGehen Sie zu Ihren Kontoeinstellungen und aktualisieren Sie Ihr Benutzerkonto.\nAuf Ihren Wunsch hin, Ihr Konto zu löschen, werden wir Ihr Konto deaktivieren oder entfernen und Informationen aus unseren aktiven Datenbanken. Wir können jedoch einige Informationen in unseren Dateien aufbewahren, um Betrug zu verhindern, Probleme zu beheben, bei Ermittlungen zu helfen, unsere Nutzungsbedingungen durchzusetzen und/oder geltende gesetzliche Anforderungen zu erfüllen."
         },
 
         "CCPA": {
