@@ -189,7 +189,7 @@
             "DESC4": "Datenschutz ist nicht etwas, worauf Sie nur Anspruch haben, sondern eine absolute Voraussetzung. Wir senden Ihre Daten nicht an unsere Server, geben sie nicht an Dritte weiter und werden niemals für Werbezwecke verwendet. Ihre Daten werden nur auf Ihrem Apple-Dienst (Apple Health Store und iCloud) gespeichert. Wir speichern Ihre Daten NICHT auf unseren Servern.",
             "HEAD5": "HAFTUNGSAUSSCHLUSS",
             "DESC5_1": "Alle Inhalte auf der Website martpsec.com und unseren mobilen Apps wurden nur zu Informationszwecken erstellt. Es ist nicht als Ersatz für professionelle medizinische Beratung, Diagnose oder Behandlung gedacht.",
-            "DESC5_2": "Die Nutzung unserer Software erfolgt ausschließlich auf eigene Gefahr. Es wird „wie besehen“ und „wie verfügbar“ bereitgestellt. Martspec übernimmt keine Garantie dafür, dass unsere Apps und/oder darin enthaltene Inhalte Ihren Anforderungen entsprechen oder ununterbrochen, zeitgerecht, sicher, aktuell, genau, vollständig oder fehlerfrei sind oder dass die Ergebnisse, die durch die Nutzung der Website erzielt werden können und/oder alle darin enthaltenen Inhalte korrekt oder zuverlässig sind. Sie verstehen und erkennen an, dass Ihr einziges und ausschließliches Rechtsmittel in Bezug auf Mängel oder Unzufriedenheit mit der App darin besteht, die Nutzung der App einzustellen."
+            "DESC5_2": "Die Nutzung unserer Software erfolgt ausschließlich auf eigene Gefahr. Es wird \"wie besehen\" und \"wie verfügbar\" bereitgestellt. Martspec übernimmt keine Garantie dafür, dass unsere Apps und/oder darin enthaltene Inhalte Ihren Anforderungen entsprechen oder ununterbrochen, zeitgerecht, sicher, aktuell, genau, vollständig oder fehlerfrei sind oder dass die Ergebnisse, die durch die Nutzung der Website erzielt werden können und/oder alle darin enthaltenen Inhalte korrekt oder zuverlässig sind. Sie verstehen und erkennen an, dass Ihr einziges und ausschließliches Rechtsmittel in Bezug auf Mängel oder Unzufriedenheit mit der App darin besteht, die Nutzung der App einzustellen."
         }
     },
     "MISSION": {
@@ -212,6 +212,394 @@
         "P7": "Deshalb sind alle unsere Apps kostenlos erhältlich. Wir haben keine Monetarisierung, zeigen keine Werbung und verwenden niemals personenbezogene Daten für Profit."
     },
     "PP": {
-        "HEAD": "Datenschutzrichtlinie"
+        "HEAD": "Datenschutzrichtlinie",
+        "DATE": "Zuletzt aktualisiert: 20. August 2022",
+        "P1": "Der Schutz Ihrer personenbezogenen Daten ist unsere Priorität. Die Datenschutzrichtlinie beschreibt unsere Richtlinien und Verfahren in Bezug auf die Erfassung, Verwendung und Offenlegung Ihrer Daten, insbesondere wenn Sie eine unserer mobilen Anwendungen verwenden, unsere Website unter martspec.com besuchen oder Interaktion mit uns auf andere relevante Weise, einschließlich Verkauf, Marketing oder Veranstaltungen.",
+        "P2": "Der Zweck dieser Datenschutzerklärung besteht darin, Ihnen so klar wie möglich zu erklären, welche Informationen wir sammeln, wie wir sie verwenden und welche Rechte Sie diesbezüglich haben Wenn Sie nicht einverstanden sind, hören Sie bitte sofort auf, unsere Dienste zu nutzen.",
+        "P3": "Wir verwenden Ihre personenbezogenen Daten, um den Service bereitzustellen und zu verbessern. Durch die Nutzung des Service oder einer unserer mobilen Anwendungen stimmen Sie der Erfassung und Nutzung von Informationen gemäß der aktuellen Datenschutzrichtlinie zu.",
+        "DEFINITION": {
+            "HEAD": "Interpretation und Definitionen",
+            "P1": "Wörter, in denen der Anfangsbuchstabe großgeschrieben wird, haben die folgenden Definitionen. Die folgenden Definitionen haben dieselbe Bedeutung, egal ob sie im Singular oder Plural stehen.",
+            "P2": "Für die Zwecke der aktuellen Datenschutzrichtlinie:",
+            "UL": {
+                "ACCOUNT": {
+                    "STRONG": "Konto",
+                    "P1": " bedeutet ein einzigartiges Konto, das für Sie erstellt wurde, um auf unseren Dienst oder Teile davon zuzugreifen."
+                },
+                "APP": {
+                    "STRONG": "Bewerbung",
+                     "P1": " bezieht sich auf eine unserer mobilen Anwendungen, die auf diese Richtlinie verweist oder verweist und für Smartphones, Wearables, Tablets oder Computer bestimmt ist."
+                },
+                "BUSINESS":{
+                    "STRONG": "Geschäftlich",
+                    "P1": " für die Zwecke des \"CCPA\" (Kalifornisches Verbraucherschutzgesetz) bezieht sich auf das Unternehmen als die Einheit, die die personenbezogenen Daten der Verbraucher sammelt und die Zwecke und Mittel der Verarbeitung der personenbezogenen Daten der Verbraucher festlegt, oder auf deren Grundlage dass diese Informationen gesammelt werden, und dass allein oder gemeinsam mit anderen die Zwecke und Mittel der Verarbeitung der personenbezogenen Daten von Verbrauchern bestimmt, die im US-Bundesstaat Kalifornien geschäftlich tätig sind."
+                },
+                "COMPANY":{
+                    "STRONG": "Unternehmen",
+                    "P1": " (im Folgenden in dieser Vereinbarung als das \"Unternehmen\", \"wir\", \"uns\" oder \"unser\" bezeichnet) bezieht sich auf Martspec LLC, Austin, TX 78749."
+                },
+                "CONSUMER":{
+                    "STRONG": "Verbraucher",
+                    "P1": " bezeichnet für die Zwecke des \"CCPA\" (California Consumer Privacy Act) eine Person, die in Kalifornien ansässig ist. Ein Einwohner im Sinne des Gesetzes ist (1) jede Person, die sich im Vereinigten Staaten nicht vorübergehend oder zu vorübergehenden Zwecken, und (2) jede in den USA ansässige Person, die sich zu einem vorübergehenden oder vorübergehenden Zweck außerhalb der USA aufhält."
+                },
+                "COOKIES":{
+                    "STRONG": "\"Cookies\"",
+                    "P1": " (dies sind kleine Dateien, die von einer Website auf Ihrem Computer, Mobilgerät oder einem anderen Gerät abgelegt werden und unter anderem Informationen über Ihren Browserverlauf auf dieser Website enthalten."
+                },
+                "COUNTRY":{
+                    "STRONG": "Land",
+                    "P1": " gilt für: Texas, USA"
+                },
+                "DEVICE":{
+                    "STRONG": "Gerät",
+                    "P1": " bedeutet jedes Gerät, das auf den Dienst zugreifen kann, wie z. B. ein Computer, ein Mobiltelefon oder ein digitales Tablet."
+                },
+                "PERSONAL_DATA":{
+                    "STRONG": "Persönliche Daten",
+                    "P1": " alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.",
+                    "P2": " Für die Zwecke des \"CCPA\" sind personenbezogene Daten alle Informationen, die Sie identifizieren, sich auf Sie beziehen, beschreiben oder mit Ihnen in Verbindung stehen können oder vernünftigerweise direkt oder indirekt mit Ihnen verknüpft werden können."
+                },
+                "SALE":{
+                    "STRONG": "Ausverkauf",
+                    "P1": " für die Zwecke des \"CCPA\" (California Consumer Privacy Act) bezeichnet den Verkauf, die Vermietung, die Freigabe, die Offenlegung, den Vertrieb, die Bereitstellung, die Übertragung oder andere Kommunikation, ob mündlich, schriftlich, elektronisch oder auf andere Weise, der personenbezogenen Daten eines Verbrauchers an eine andere Person, ein Unternehmen oder einen Dritten gegen eine finanzielle oder andere geldwerte Gegenleistung."
+                },
+                "SERVICE":{
+                    "STRONG": "Dienst",
+                    "P1": " bezieht sich auf unsere Website, App und andere damit verbundene Dienste, einschließlich Verkäufe, Marketing oder Veranstaltungen."
+                },
+                "SERVICE_PROVIDER":{
+                    "STRONG": "Dienstanbieter",
+                    "P1": " bezeichnet jede natürliche oder juristische Person, die Daten im Namen des Unternehmens verarbeitet. Dies bezieht sich auf Drittunternehmen oder Einzelpersonen, die vom Unternehmen beschäftigt werden, um den Service zu erleichtern, den Service im Namen des Unternehmens bereitzustellen und Dienstleistungen zu erbringen im Zusammenhang mit dem Dienst oder um dem Unternehmen bei der Analyse der Nutzung des Dienstes zu helfen."
+                },
+                "THIRD_PARTY_MEDIA":{
+                    "STRONG": "Social Media-Dienst von Drittanbietern",
+                    "P1": " bezieht sich auf jede Website oder Website eines sozialen Netzwerks, über die sich der Benutzer anmelden oder ein Konto erstellen kann, um den Service zu nutzen."
+                },
+                "USAGE_DATA":{
+                    "STRONG": "Nutzungsdaten",
+                    "P1": " bezieht sich auf automatisch gesammelte Daten, die entweder bei der Nutzung des Dienstes oder von der Infrastruktur des Dienstes selbst generiert werden (z. B. die Dauer eines Seitenbesuchs)."
+                },
+                "WEBSITE":{
+                    "STRONG": "Website",
+                    "P1": " bezieht sich auf die Martspec, die von verfügbar ist ",
+                    "A": "https://martspec.com/"
+                },
+                "YOU":{
+                    "STRONG": "Du",
+                    "P1": " bedeutet die Person, die auf den Dienst zugreift oder ihn nutzt, oder das Unternehmen oder eine andere juristische Person, in deren Namen diese Person auf den Dienst zugreift oder ihn nutzt, je nach Fall."
+                }
+            }
+        },
+
+        "TYPES_OF_DATA": {
+            "HEAD4": "Arten der erhobenen Daten",
+             "HEAD5": {
+                "PERSONAL_DATA": "Persönliche Daten",
+                "USAGE_DATA": "Nutzungsdaten",
+                "INFORMATION_COLLECTED": "Mit unserer Anwendung auf Ihrem Gerät erfasste Informationen"
+             },
+             "P1": "Bei der Nutzung unseres Dienstes können wir Sie bitten, uns bestimmte personenbezogene Daten zur Verfügung zu stellen, die verwendet werden können, um Sie zu kontaktieren oder zu identifizieren. Zu den personenbezogenen Daten können unter anderem gehören:",
+             "P2": "Nutzungsdaten werden automatisch erhoben, wenn Sie den Service nutzen.",
+             "P3": "Nutzungsdaten können Informationen wie die Internetprotokolladresse Ihres Geräts (z. B. IP-Adresse), den Browsertyp, die Browserversion, die von Ihnen besuchten Seiten unseres Dienstes, die Uhrzeit und das Datum Ihrer Besuche sowie die dafür verbrachte Zeit enthalten Seiten, eindeutige Gerätekennungen und andere Diagnosedaten.",
+             "P4": "Wenn Sie von oder über ein mobiles Gerät auf den Dienst zugreifen, erfassen wir möglicherweise automatisch bestimmte Informationen, einschließlich, aber nicht beschränkt auf den Typ des von Ihnen verwendeten mobilen Geräts, die eindeutige Kennung Ihres mobilen Geräts, die IP Ihres mobilen Geräts Adresse, Ihr mobiles Betriebssystem, Typ des von Ihnen verwendeten mobilen Internetbrowsers, eindeutige Gerätekennungen und andere Diagnosedaten.",
+             "P5": "Wir können auch Informationen sammeln, die Ihr Browser sendet, wenn Sie unseren Service besuchen oder wenn Sie von oder über ein mobiles Gerät auf den Service zugreifen.",
+             "P6": "Wir können Zugriff oder Berechtigungen für bestimmte Funktionen Ihres Geräts anfordern, einschließlich der Funktionen Ihres Mobilgeräts und anderer Funktionen. Wenn Sie unseren Zugriff oder unsere Berechtigungen ändern möchten, können Sie dies in Ihren Geräteeinstellungen tun. Diese Informationen sind in erster Linie für die Sicherheit und den Betrieb unserer App, für die Fehlerbehebung und für unsere internen Analysen und Berichte erforderlich.",
+             "UL1": {
+                "EMAIL": "E-Mail-Adresse",
+                "FIRST_LAST_NAMES": "Vor- und Nachname",
+                "USAGE_DATA": "Nutzungsdaten"
+            },
+            "UL2": {
+                "MOBILE_ACCESS": {
+                    "STRONG": "Mobilgerätezugriff. ",
+                    "TEXT": "Wir können Zugriff auf oder Berechtigungen für bestimmte Funktionen Ihres Mobilgeräts anfordern, einschließlich Apple Health und anderer Funktionen Ihres Mobilgeräts. Wenn Sie unseren Zugriff oder unsere Berechtigungen ändern möchten, können Sie dies in Ihren Geräteeinstellungen tun."
+                },
+                "MOBILE_DATA": {
+                    "STRONG": "Mobilgerätedaten.",
+                    "TEXT": "Wir erfassen automatisch Geräteinformationen (wie Ihre Mobilgerät-ID, Modell und Hersteller), Betriebssystem, Versionsinformationen und Systemkonfigurationsinformationen, Geräte- und Anwendungsidentifikationsnummern, Browsertyp und -version, Hardwaremodell und Internetprotokoll ( IP)-Adresse (oder Proxy-Server) Wenn Sie unsere Anwendung verwenden, können wir auch Informationen über das mit Ihrem Mobilgerät verbundene Telefonnetz, das Betriebssystem oder die Plattform Ihres Mobilgeräts, den Typ des von Ihnen verwendeten Mobilgeräts und die eindeutige ID erfassen Ihr mobiles Gerät und Informationen über die Funktionen unserer Anwendung, auf die Sie zugegriffen haben."
+                },
+                "PUSH_NOTIFICATIONS": {
+                    "STRONG": "Popup-Benachrichtigung.",
+                    "TEXT": "Wir können verlangen, dass wir Ihnen Push-Benachrichtigungen über Ihr Konto oder bestimmte Funktionen der App senden. Wenn Sie den Erhalt solcher Mitteilungen ablehnen möchten, können Sie sie in Ihren Geräteeinstellungen deaktivieren."
+                }
+            }
+        },
+
+        "TRACKING": {
+            "HEAD4": "Tracking-Technologien",
+            "HEAD5": "Verwaltung der Funktionen \"DO-NOT-TRACK\"",
+            "P1": {
+                "TEXT": "Wir verwenden Cookies oder ähnliche Tracking-Technologien, um Aktivitäten auf unserem Service zu verfolgen und bestimmte Informationen zu speichern. Tracking-Technologien können unter anderem Beacons, Speicherung von Browsersitzungen, Cookies, Tags und Skripte zum Sammeln und Verfolgen umfassen Informationen zu erhalten und unseren Service zu verbessern und zu analysieren.\nSie können Ihren Browser so einstellen, dass er alle Cookies ablehnt oder anzeigt, wenn ein Cookie gesendet wird.\nMehr über Cookies: ",
+                "A": "Alles über \"Cookies\""
+            },
+            "P2": "Wir verwenden \"Persistent\" (bleibt auf Ihrem PC oder Mobilgerät, wenn Sie sich abmelden) und \"Session\" (gelöscht, sobald Sie Ihren Webbrowser schließen)\nTracking-Technologie für die Zwecke von unter:",
+            "P3": "Die meisten Webbrowser und einige mobile Betriebssysteme und mobile Anwendungen enthalten eine \"Do Not Track\"-Funktion (\"DNT\") oder eine Einstellung, die Sie aktivieren können, um Ihre Datenschutzpräferenzen zu signalisieren, dass keine Daten über Ihre Online-Aktivitäten verfolgt und gesammelt werden. Derzeit gibt es keinen einzigen technologischen Standard für die Erkennung und Implementierung von DNT-Signalen. Daher reagieren wir derzeit nicht auf Browser-DNT-Signale oder andere Mechanismen, die Sie automatisch über Ihre Entscheidung informieren, nicht im Internet verfolgt zu werden Online-Tracking-Standard, den wir in Zukunft befolgen müssen, werden wir Sie in einer überarbeiteten Version dieser Datenschutzerklärung über diese Praxis informieren.",
+            "UL": {
+                "NECESSARY": {
+                    "P1": "Erforderlich/wesentlich",
+                    "P2": "Typ: Sitzung",
+                    "P3": "Betrieben von: Uns",
+                    "P4": "Zweck: Um Ihnen die über die Website verfügbaren Dienste bereitzustellen und Ihnen die Nutzung einiger ihrer Funktionen zu ermöglichen. Dies hilft, Benutzer zu authentifizieren\nund betrügerische Verwendung von Benutzerkonten zu verhindern. Ohne sie können die von Ihnen angeforderten Dienste nicht ausgeführt werden bereitgestellt und wir verwenden sie nur, um Ihnen diese Dienste bereitzustellen."
+                },
+                "FUNCTIONALITY": {
+                    "P1": "Funktionalität",
+                    "P2": "Typ: Permanent",
+                    "P3": "Betrieben von: Uns",
+                    "P4": "Zweck: Ermöglicht es uns, uns an die Entscheidungen zu erinnern, die Sie während der Nutzung der Website getroffen haben, z. B. an Ihre Registrierungsdaten oder Spracheinstellungen -Geben Sie bei jeder Nutzung der Website Ihre Präferenzen ein."
+                }
+            }
+        },
+
+        "PERSONAL_DATA": {
+            "USE": {
+                "HEAD4": "Verwendung Ihrer personenbezogenen Daten",
+                "HEAD5": {
+                    "DISCLOSE": "Die Offenlegung Ihrer personenbezogenen Daten kann in den folgenden Situationen erfolgen:",
+                    "USE": "Ihre personenbezogenen Daten können für folgende Zwecke verwendet werden:",
+                    "SHARING": "Ihre personenbezogenen Daten können in den folgenden Situationen weitergegeben werden:"
+                },
+                "UL1": {
+                    "LAW_ENFORCEMENT": {
+                        "STRONG": "Strafverfolgung:",
+                        "TEXT": " Wir können Ihre Daten offenlegen, wenn dies gesetzlich vorgeschrieben ist, um geltendem Recht, behördlichen Anfragen, Gerichtsverfahren, Gerichtsbeschlüssen oder Gerichtsverfahren nachzukommen, wie beispielsweise als Reaktion auf einen Gerichtsbeschluss oder eine Vorladung (einschließlich einer Reaktion an Behörden). Anforderungen der nationalen Sicherheit oder der Strafverfolgung erfüllen)."
+                    },
+                    "BUSINESS_TRANSFER": {
+                        "STRONG": "Geschäftsübertragung:",
+                        "TEXT": " Wir können Ihre Informationen im Zusammenhang mit oder während Verhandlungen über eine Fusion, den Verkauf von Unternehmensvermögen, die Finanzierung oder den Erwerb unseres gesamten oder eines Teils unseres Geschäfts an ein anderes Unternehmen weitergeben oder übertragen."
+                    },
+                    "OTHER": {
+                        "STRONG": "Andere rechtliche Anforderungen:",
+                        "TEXT": " Das Unternehmen kann Ihre personenbezogenen Daten in gutem Glauben offenlegen, dass eine solche Maßnahme erforderlich ist, um:",
+                        "UL": {
+                            "L1": "Einer rechtlichen Verpflichtung nachkommen",
+                            "L2": "Um die Rechte oder das Eigentum des Unternehmens zu schützen und zu schützen",
+                            "L3": "Um mögliche Straftaten im Zusammenhang mit dem Dienst zu verhindern oder zu untersuchen",
+                            "L4": "Schutz der persönlichen Sicherheit von Dienstnutzern oder der Öffentlichkeit",
+                            "L5": "Schutz vor gesetzlicher Haftung"
+                        }
+                    }
+                },
+                "UL2": {
+                    "L1": {
+                        "STRONG": "Um unseren Service bereitzustellen und aufrechtzuerhalten",
+                        "TEXT": ", einschließlich zur Überwachung der Nutzung unseres Dienstes."
+                    },
+                    "L2": {
+                        "STRONG": "Um Ihr Konto zu verwalten:",
+                        "TEXT": " Um Ihre Registrierung als Benutzer des Dienstes zu verwalten. Die von Ihnen angegebenen personenbezogenen Daten können Ihnen Zugriff auf verschiedene Funktionen des Dienstes geben, die Ihnen als registrierter Benutzer zur Verfügung stehen."
+                    },
+                    "L3": {
+                        "STRONG": "Zur Vertragsausführung:",
+                        "TEXT": " Wenn wir mit Ihnen einen Vertrag abgeschlossen haben, können wir Ihre personenbezogenen Daten verarbeiten, um die Bedingungen unseres Vertrags zu erfüllen."
+                    },
+                    "L4": {
+                        "STRONG": "Um Sie zu kontaktieren:",
+                        "TEXT": " Um mit Ihnen über E-Mail, Telefonanrufe, SMS oder andere gleichwertige Formen der elektronischen Kommunikation zu kommunizieren, wie z sinnvoll für ihre Umsetzung."
+                    },
+                    "L5": {
+                        "STRONG": "Um Sie zu versorgen:",
+                        "TEXT": " Neuigkeiten, Sonderangebote und allgemeine Informationen über andere Waren, Dienstleistungen und Veranstaltungen, die wir anbieten und denen ähneln, die Sie bereits gekauft oder nach denen Sie sich erkundigt haben, es sei denn, Sie haben sich entschieden, solche Informationen nicht zu erhalten."
+                    },
+                    "L6": {
+                        "STRONG": "Für legitime Interessen:",
+                        "TEXT": " Wir können Ihre Daten verarbeiten, wenn dies vernünftigerweise erforderlich ist, um unsere legitimen Geschäftsinteressen zu erfüllen."
+                    },
+                    "L7": {
+                        "STRONG": "Um Ihre Anfragen zu verwalten:",
+                        "TEXT": " Um Ihre Anfragen an uns zu bearbeiten und zu verwalten."
+                    },
+                    "L8": {
+                        "STRONG": "Feedback anfordern:",
+                        "TEXT": " Wir können Ihre Informationen verwenden, um Feedback anzufordern und Sie bezüglich Ihrer Nutzung unserer Dienste zu kontaktieren."
+                    }
+                },
+                "UL3": {
+                    "L1": {
+                        "STRONG": "Mit Dienstanbietern:",
+                        "TEXT": " Wir können Ihre personenbezogenen Daten an Dienstleister weitergeben, um die Nutzung unseres Dienstes zu überwachen und zu analysieren, um Sie zu kontaktieren."
+                    },
+                    "L2": {
+                        "STRONG": "Für Geschäftsübertragungen:",
+                        "TEXT": " Wir können Ihre personenbezogenen Daten im Zusammenhang mit oder während Verhandlungen über eine Fusion, den Verkauf von Unternehmensvermögen, die Finanzierung oder den Erwerb unseres gesamten oder eines Teils unseres Geschäfts an ein anderes Unternehmen weitergeben oder übertragen."
+                    },
+                    "L3": {
+                        "STRONG": "Mit Verzweigungen:",
+                        "TEXT": " Wir können Ihre Daten an unsere verbundenen Unternehmen weitergeben, in diesem Fall verlangen wir von diesen verbundenen Unternehmen, dass sie diese Datenschutzrichtlinie einhalten. Zu den verbundenen Unternehmen gehören unsere Muttergesellschaft und alle anderen Tochtergesellschaften, Joint-Venture-Partner oder andere Unternehmen, die wir kontrollieren oder die unter gemeinsamer Kontrolle mit uns stehen."
+                    },
+                    "L4": {
+                        "STRONG": "Mit Geschäftspartnern:",
+                        "TEXT": " Wir können Ihre Daten an unsere Geschäftspartner weitergeben, um Ihnen bestimmte Produkte, Dienstleistungen oder Werbeaktionen anzubieten."
+                    },
+                    "L5": {
+                        "STRONG": "Mit anderen Benutzern:",
+                        "TEXT": " Wenn Sie persönliche Informationen teilen oder anderweitig in öffentlichen Bereichen mit anderen Benutzern interagieren, können diese Informationen von allen Benutzern eingesehen und öffentlich geteilt werden. Wenn Sie mit anderen Benutzern interagieren oder sich über einen sozialen Netzwerkdienst eines Drittanbieters registrieren können Ihre Kontakte im sozialen Netzwerk des Drittanbieters Ihren Namen, Ihr Profil, Ihre Bilder und eine Beschreibung Ihrer Aktivitäten sehen. Auf die gleiche Weise können andere Benutzer Beschreibungen Ihrer Aktivitäten anzeigen, mit Ihnen kommunizieren und Ihr Profil anzeigen ."
+                    }
+                }
+            },
+            "RETENTION": {
+                "HEAD4": "Speicherung Ihrer personenbezogenen Daten",
+                "P1": "Das Unternehmen speichert Ihre personenbezogenen Daten nur so lange, wie dies für die in dieser Datenschutzrichtlinie dargelegten Zwecke erforderlich ist. Wir speichern und verwenden Ihre personenbezogenen Daten in dem Umfang, der zur Erfüllung unserer gesetzlichen Verpflichtungen erforderlich ist (z beispielsweise,\nwenn wir verpflichtet sind, Ihre Daten gemäß geltendem Recht aufzubewahren), Streitigkeiten beizulegen und unsere rechtlichen Vereinbarungen\nund Richtlinien durchzusetzen.",
+                "P2": "Das Unternehmen speichert Nutzungsdaten auch für interne Analysezwecke. Nutzungsdaten werden im Allgemeinen für einen kürzeren Zeitraum gespeichert,\naußer wenn die Daten zur Erhöhung der Sicherheit oder zur Verbesserung der Funktionalität unseres Dienstes verwendet werden oder wenn wir gesetzlich verpflichtet,\ndiese Daten länger aufzubewahren.",
+                "P3": "Sofern wir keine anhaltende berechtigte geschäftliche Notwendigkeit haben, Ihre personenbezogenen Daten zu verarbeiten, werden wir diese Daten entweder löschen oder anonymisieren\noder, wenn dies nicht möglich ist (z. B. weil Ihre personenbezogenen Daten in Backup-Archiven gespeichert wurden), \nWir werden Ihre personenbezogenen Daten sicher speichern und von der weiteren Verarbeitung isolieren, bis eine Löschung möglich ist."
+            },
+            "TRANSFER": {
+                "HEAD4": "Teilen Ihrer personenbezogenen Daten",
+                "P1": "Ihre Informationen, einschließlich personenbezogener Daten, werden in den Betriebsbüros des Unternehmens und an allen anderen Orten verarbeitet, an denen sich die an der Verarbeitung beteiligten Parteien befinden. Dies bedeutet, dass diese Informationen an Computer außerhalb von übertragen und dort gespeichert werden können Ihr Bundesstaat, Ihre Provinz, Ihr Land oder eine andere staatliche Gerichtsbarkeit, in der die Datenschutzgesetze von denen in Ihrer Gerichtsbarkeit abweichen können.",
+                "P2": "Durch die Nutzung unseres Dienstes stimmen Sie dieser Datenschutzrichtlinie zu und stimmen einer solchen Übertragung zu.",
+                "P3": "Das Unternehmen wird alle vernünftigerweise notwendigen Schritte unternehmen, um sicherzustellen, dass Ihre Daten in Übereinstimmung mit dieser Datenschutzrichtlinie sicher behandelt werden und dass keine Übertragung Ihrer personenbezogenen Daten an eine Organisation oder ein Land erfolgt, es sei denn, es sind angemessene Kontrollen vorhanden. einschließlich der Sicherheit Ihrer Daten und anderer persönlicher Informationen."
+            },
+            "SECURITY": {
+                "HEAD4": "Sicherheit Ihrer personenbezogenen Daten",
+                 "P": "Die Sicherheit Ihrer personenbezogenen Daten ist uns wichtig, aber denken Sie daran, dass keine Übertragungsmethode über das Internet oder elektronische Speichermethode 100 % sicher ist. wir können ihre absolute Sicherheit nicht garantieren."
+            }
+        },
+
+        "CHILD": {
+            "HEAD4": "Kinder unter dreizehn",
+            "P": "Wir erfassen wissentlich keine personenbezogenen Daten von Kindern unter dreizehn Jahren. Wenn Sie unter dreizehn Jahre alt sind, müssen Sie \n Ihre Eltern oder Ihren Vormund um Erlaubnis bitten, diesen Dienst oder eine unserer mobilen Anwendungen zu nutzen ."
+        },
+
+        "RIGHTS": {
+            "HEAD4": "Welche Datenschutzrechte haben Sie?",
+            "HEAD5": "Kontoinformationen",
+            "P1": "In einigen Regionen (z. B. dem EWR und dem Vereinigten Königreich) haben Sie gemäß den geltenden Datenschutzgesetzen bestimmte Rechte. Dazu kann das Recht gehören, \nZugriff auf Ihre personenbezogenen Daten anzufordern und eine Kopie davon zu erhalten (ii ) Berichtigung oder Löschung verlangen, (iii) die Verarbeitung\n Ihrer personenbezogenen Daten einschränken und (iv) gegebenenfalls Datenübertragbarkeit. Unter bestimmten Umständen haben Sie möglicherweise auch das Recht, der Verarbeitung Ihrer personenbezogenen Daten zu widersprechen. Um eine solche Anfrage zu stellen, verwenden Sie bitte die unten stehenden <b>Kontaktdaten</b>. Wir\nwerden jede Anfrage prüfen und Maßnahmen in Übereinstimmung mit den geltenden Datenschutzgesetzen ergreifen.",
+            "P2": "Falls wir uns auf Ihre Einwilligung zur Verarbeitung Ihrer personenbezogenen Daten stützen, haben Sie das Recht, Ihre Einwilligung jederzeit zu widerrufen. Bitte beachten Sie jedoch, dass dies die Rechtmäßigkeit der Verarbeitung vor dem Widerruf nicht berührt es wirkt sich auf die Verarbeitung Ihrer \npersönlichen Daten aus, die aus anderen legitimen Gründen als der Einwilligung durchgeführt wird.",
+            "P3": {
+                "TEXT": "Wenn Sie im EWR oder im Vereinigten Königreich ansässig sind und glauben, dass wir Ihre personenbezogenen Daten rechtswidrig verarbeiten, haben Sie auch das Recht, eine Beschwerde bei Ihrer örtlichen Datenschutzbehörde einzureichen. Ihre Kontaktdaten finden Sie hier: ",
+                "A": "https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm"
+            },
+            "P4": {
+                "TEXT": "Wenn Sie ansässig sind, sind die Kontaktdaten der Datenschutzbehörden hier geschützt: ",
+                "A": "https://www.edoeb.admin.ch/edoeb/en/home.html"
+            },
+            "P5": "Wenn Sie Ihre Kontoinformationen überprüfen oder ändern oder Ihr Konto jederzeit kündigen möchten, haben Sie folgende Möglichkeiten:\nGehen Sie zu Ihren Kontoeinstellungen und aktualisieren Sie Ihr Benutzerkonto.\nAuf Ihren Wunsch hin, Ihr Konto zu löschen, werden wir Ihr Konto deaktivieren oder entfernen und Informationen aus unseren aktiven Datenbanken. Wir können jedoch einige Informationen in unseren Dateien aufbewahren, um Betrug zu verhindern, Probleme zu beheben, bei Ermittlungen zu helfen, unsere Nutzungsbedingungen durchzusetzen und/oder geltende gesetzliche Anforderungen zu erfüllen."
+        },
+
+        "CCPA": {
+            "HEAD4": {
+                "CCPA": "\"CCPA\" Vertraulichkeit",
+                "CALIFORNIA": "Ihre Datenschutzrechte in Kalifornien (kalifornisches Gesetz \"Shine the Light\")",
+                "MINOR": "Kalifornische Datenschutzrechte für Minderjährige (California Code of Business and Professions Section 22581)",
+                "EXERCISING": "Ausübung Ihrer Datenschutzrechte \"CCPA\"",
+                "YOUR_RIGHTS": "Ihre Rechte gemäß \"CCPA\"",
+                "PERSONAL_INFORMATION": "Erfassung und Weitergabe personenbezogener Daten gemäß \"CCPA\""
+            },
+            "HEAD5": {
+                "SHARED": "Werden Ihre Informationen mit anderen geteilt?",
+                "YOUR_RIGHTS": "Ihre Rechte in Bezug auf Ihre personenbezogenen Daten",
+                "OTHER": "Andere Datenschutzrechte"
+            },
+            "P1": "Vorbehaltlich Abschnitt 1798 des kalifornischen Zivilgesetzbuchs (California Shine the Light Act) können Einwohner Kaliforniens, die eine bestehende Geschäftsbeziehung mit uns haben, einmal im Jahr Informationen über die Übertragung ihrer personenbezogenen Daten an Dritte für die Zwecke des Direktmarketings durch Dritte.",
+            "P2": "Wenn Sie zusätzliche Informationen gemäß dem kalifornischen Shine the Light-Gesetz anfordern möchten und in Kalifornien ansässig sind, können Sie uns über die unten stehenden Kontaktdaten kontaktieren.",
+            "P3": "Wenn Sie unter 18 Jahre alt sind, Ihren Wohnsitz in Kalifornien haben und ein registriertes Konto beim Dienst haben, haben Sie das Recht, die Löschung anstößiger Inhalte zu verlangen, die Sie öffentlich in den Diensten posten. Die Löschung solcher Inhalte zu verlangen Inhalte kontaktieren Sie uns bitte unter den untenstehenden Informationen und geben Sie die mit Ihrem Konto verknüpfte E-Mail-Adresse und eine Erklärung an, dass Sie in Kalifornien leben. Wir werden sicherstellen, dass die Daten nicht öffentlich auf den Diensten angezeigt werden, aber bitte beachten Sie, dass die Daten nicht vollständig oder vollständig von allen unseren Systemen entfernt (z. B. aus Backups etc.).",
+            "P4": "Section 22581 des California Business and Professions Code gestattet kalifornischen Einwohnern unter 18 Jahren, die registrierte Benutzer von Online-Sites, -Diensten oder -Anwendungen sind, die Entfernung von Inhalten oder Informationen, die sie öffentlich zugänglich gemacht haben, zu verlangen und durchzusetzen. ",
+            "P5": "Um die Löschung solcher Daten anzufordern, und wenn Sie in Kalifornien ansässig sind, können Sie uns über die nachstehenden Kontaktinformationen kontaktieren und die mit Ihrem Konto verknüpfte E-Mail-Adresse angeben.",
+            "P6": "Bitte beachten Sie, dass Ihre Anfrage keine vollständige oder umfassende Entfernung von Inhalten oder Informationen garantiert, die im Internet veröffentlicht wurden, und dass das Gesetz die Entfernung unter bestimmten Umständen möglicherweise nicht erlaubt oder verlangt.",
+            "P7": {
+                "TEXT1": "Um eines Ihrer Rechte gemäß \"CCPA\" auszuüben, und wenn Sie in Kalifornien ansässig sind. Der kalifornische Verhaltenskodex definiert \"Einwohner\" als:",
+                "TEXT2": "Alle anderen Personen werden als \"Nichtansässige\" definiert.\nWenn diese Definition von \"Ansässigen\" auf Sie zutrifft, müssen wir bestimmte Rechte und Pflichten in Bezug auf Ihre personenbezogenen Daten einhalten.",
+                "UL": {
+                    "L1": "jede Person, die sich zu einem nicht vorübergehenden oder vorübergehenden Zweck im Bundesstaat Kalifornien aufhält, und",
+                    "L2": "jede Person mit Wohnsitz im Bundesstaat Kalifornien, die sich für einen vorübergehenden oder vorübergehenden Zweck außerhalb des Bundesstaates Kalifornien aufhält"
+                }
+            },
+            "P8": "Das Unternehmen wird die erforderlichen Informationen innerhalb von 45 Tagen nach Erhalt Ihrer überprüfbaren Anfrage kostenlos offenlegen und bereitstellen. Die Frist für die Bereitstellung der erforderlichen Informationen kann einmalig um weitere 45 Tage verlängert werden, wenn dies vernünftigerweise erforderlich ist und mit vorheriger Ankündigung .",
+            "P9": "Gemäß dieser Datenschutzrichtlinie und dem Gesetz haben Sie als Einwohner Kaliforniens die folgenden Rechte:",
+            "P10": "Wir verkaufen keine personenbezogenen Daten. Weitere Informationen zu unserer Datenerfassung und -weitergabe finden Sie in dieser Datenschutzerklärung.\nSie können uns über die Kontaktinformationen am Ende dieses Dokuments kontaktieren.",
+            "P11": "Wenn Sie zur Ausübung Ihres Widerrufsrechts einen Bevollmächtigten einsetzen, können wir den Antrag ablehnen, wenn der Bevollmächtigte\nnicht nachweist, dass er tatsächlich bevollmächtigt ist, in Ihrem Namen zu handeln.",
+            "P12": "Wir können Ihre personenbezogenen Daten gemäß einer schriftlichen Vereinbarung zwischen uns und jedem Dienstanbieter an unsere Dienstanbieter weitergeben. Jeder Dienstanbieter ist eine kommerzielle Einheit, die Informationen in unserem Auftrag verarbeitet.",
+            "P13": "Wir können Ihre personenbezogenen Daten für unsere eigenen Geschäftszwecke verwenden, wie z. B. die Durchführung interner Forschungsarbeiten zur Entwicklung und Demonstration von Technologien. Dies wird nicht als \"Verkauf\" Ihrer personenbezogenen Daten betrachtet.",
+            "P14": "\"Martspec\" LLC hat in den letzten 12 Monaten keine personenbezogenen Daten für geschäftliche oder kommerzielle Zwecke an Dritte weitergegeben oder verkauft. \"Martspec\" LLC wird keine personenbezogenen Daten von Besuchern der zukünftigen Website, Benutzern und anderen verkaufen Verbraucher.",
+            "P15": "Um diese Rechte auszuüben, können Sie uns über die Kontaktinformationen am Ende dieses Dokuments kontaktieren. Wenn Sie eine Beschwerde darüber haben, wie wir Ihre Daten verarbeiten, würden wir gerne von Ihnen hören.",
+            "UL1": {
+                "L1": {
+                    "STRONG": "Recht auf Bemerkung.",
+                    "TEXT": " Sie müssen ordnungsgemäß darüber informiert werden, welche Kategorien personenbezogener Daten erhoben und für welche Zwecke sie verwendet werden."
+                },
+                "L2": {
+                    "STRONG": "Recht auf Zugriff / Recht auf Anfrage.",
+                    "TEXT": " \"CCPA\" ermöglicht es Ihnen, vom Unternehmen Informationen über die Offenlegung Ihrer personenbezogenen Daten anzufordern und zu erhalten, die das Unternehmen oder seine Tochtergesellschaften in den letzten 12 Monaten an Dritte für das Direktmarketing von Dritten gesammelt haben Zwecke."
+                },
+                "L3": {
+                    "STRONG": "Recht, dem Verkauf personenbezogener Daten zu widersprechen.",
+                    "TEXT": " Sie haben auch das Recht, das Unternehmen aufzufordern, Ihre personenbezogenen Daten nicht an Dritte zu verkaufen. Sie können eine solche Anfrage stellen, indem Sie unseren Abschnitt \"Meine personenbezogenen Daten nicht verkaufen\" oder unsere Webseite besuchen."
+                },
+                "L4": {
+                    "STRONG": "Das Recht auf Auskunft über Ihre personenbezogenen Daten.",
+                    "TEXT": " Sie haben das Recht, vom Unternehmen Informationen über die Offenlegung des Folgenden anzufordern und zu erhalten:",
+                    "UL": {
+                        "L1": "Kategorien der erhobenen personenbezogenen Daten",
+                        "L2": "Quellen, aus denen die personenbezogenen Daten erhoben wurden",
+                        "L3": "Der geschäftliche oder kommerzielle Zweck der Erhebung oder des Verkaufs personenbezogener Daten",
+                        "L4": "Kategorien von Dritten, an die wir personenbezogene Daten weitergeben",
+                        "L5": "Bestimmte personenbezogene Daten, die wir über Sie gesammelt haben"
+                    }
+                },
+                "L5": {
+                    "STRONG": "Recht auf Löschung personenbezogener Daten.",
+                    "TEXT": " Sie haben auch das Recht, die Löschung Ihrer in den letzten 12 Monaten erhobenen personenbezogenen Daten zu verlangen."
+                },
+                "L6": {
+                    "STRONG": "Das Recht, nicht diskriminiert zu werden.",
+                    "TEXT": " Sie haben das Recht, nicht wegen der Ausübung Ihrer Verbraucherrechte diskriminiert zu werden, einschließlich:",
+                    "UL": {
+                        "L1": "Weigerung, Ihnen Waren oder Dienstleistungen bereitzustellen",
+                        "L2": "Berechnung unterschiedlicher Preise oder Tarife für Waren oder Dienstleistungen, einschließlich der Nutzung von Rabatten oder anderen Vorteilen oder der Verhängung von Strafen",
+                        "L3": "Bereitstellung von Waren oder Dienstleistungen eines anderen Niveaus oder einer anderen Qualität",
+                        "L4": "Angenommen, Sie erhalten einen anderen Preis oder Tarif für Waren oder Dienstleistungen oder ein anderes Niveau oder eine andere Qualität von Waren oder Dienstleistungen."
+                    }
+                }
+            },
+            "UL2": {
+                "L1": "Recht auf Löschung von Daten – Antrag auf Löschung",
+                "L2": "Recht auf Auskunft – Auskunftsersuchen",
+                "L3": "Das Recht auf Nichtdiskriminierung bei der Ausübung des Rechts des Verbrauchers auf Privatsphäre",
+                "L4": "Verifizierungsprozess"
+            },
+            "UL3": {
+                "L1": "Sie können der Verarbeitung Ihrer personenbezogenen Daten widersprechen",
+                "L2": "Sie können die Berichtigung Ihrer personenbezogenen Daten verlangen, wenn diese unrichtig oder nicht mehr relevant sind, oder die Einschränkung der Datenverarbeitung verlangen",
+                "L3": "Sie können einen bevollmächtigten Vertreter ernennen, um in Ihrem Namen einen Antrag gemäß \"CCPA\" zu stellen. Wir können einen Antrag eines bevollmächtigten Vertreters ablehnen, der nicht nachweist, dass er tatsächlich bevollmächtigt war, in Ihrem Namen gemäß zu handeln mit \"CCPA\".",
+                "L4": "Sie können ein Opt-out für den zukünftigen Verkauf Ihrer personenbezogenen Daten an Dritte beantragen. Nach Erhalt einer Opt-out-Anfrage werden wir der Anfrage so schnell wie möglich nachkommen, jedoch nicht später als 15 Tage ab dem Datum der Anfrage."
+            }
+        },
+
+        "LINK": {
+            "HEAD4": "Links zu anderen Websites",
+             "P1": "Unser Service kann Links zu anderen Websites enthalten, die wir nicht betreiben. Wenn Sie auf einen Link eines Drittanbieters klicken, werden Sie auf die Website dieses Drittanbieters weitergeleitet. Wir empfehlen Ihnen dringend, die Datenschutzrichtlinie des jeweiligen Drittanbieters zu lesen Website, die Sie besuchen.",
+             "P2": "Wir haben keine Kontrolle über und sind nicht verantwortlich für den Inhalt, die Datenschutzrichtlinien oder Praktiken von Websites oder Diensten Dritter."
+        },
+
+        "CHANGES": {
+            "HEAD4": "Änderungen an dieser Datenschutzrichtlinie",
+            "P1": "Wir können unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Eine aktualisierte Version wird mit einem aktualisierten \"Zuletzt aktualisiert\"-Datum gekennzeichnet und die aktualisierte Version tritt in Kraft, sobald sie verfügbar ist.",
+            "P2": "Sie werden ermutigt, diese Datenschutzrichtlinie regelmäßig auf Änderungen zu überprüfen. Änderungen an dieser Datenschutzrichtlinie treten in Kraft, wenn sie auf dieser Seite veröffentlicht werden."
+        },
+
+        "CONTACT": {
+            "HEAD4": "Kontaktieren Sie uns",
+            "TEXT": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, können Sie uns kontaktieren:",
+            "UL": {
+                "L1": {
+                    "TEXT": "Durch den Besuch dieser Seite auf unserer Website: ",
+                    "A": "https://martspec.com/privacy-policy"
+                },
+                "L2": {
+                    "TEXT": "Über unseren Facebook-Messenger unter ",
+                    "A": "Martspec @ FaceBook",
+                    "LINK": "https://www.facebook.com/martspec"
+                },
+                "L3": {
+                    "TEXT": "Über unseren Twitter-Messager unter ",
+                    "A": "Martspec @ Twitter",
+                    "LINK": "https://twitter.com/MartspecCom"
+                },
+                "L4": {
+                    "TEXT": "Über unsere LinkedIn-Gruppe unter ",
+                    "A": "Martspec @ LinkedIn",
+                    "LINK": "https://www.linkedin.com/company/martspec/"
+                }
+            }
+        }
     }
 }
