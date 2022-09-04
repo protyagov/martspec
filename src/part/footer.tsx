@@ -18,7 +18,7 @@ export const Footer = () =>
     <footer>
         <div className="row text-center">
             <div className="col-md-2 col-sm-12 p-5">
-                <img src="/img/logo.64.webp" className="img-fluid " alt={_("MAIN.HEAD")} width={128} height={129} />
+                <img src="/img/logo.64.webp" className="img-fluid " alt={_("MAIN.HEAD")} width={128} height={128} />
                 <p>{_("FOOTER.C")} </p>
             </div>
             <div className="col-sm-12 col-md-10">
