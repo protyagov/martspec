@@ -62,6 +62,7 @@ module.exports = {
                 { context: 'src/img/', from: '*.webp', to: "img" },
                 { context: 'src/img/', from: '*.jpg', to: "img" },
                 { context: 'src/img/icon/', from: '*', to: "icon" },
+                { context: 'src/img/apple_btn/', from: '*', to: "apple_btn" },
             ],
             options: {
                 concurrency: 100,
