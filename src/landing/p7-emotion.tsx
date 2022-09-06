@@ -8,8 +8,8 @@ export default function P7Emotion() {
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page pb-5 ms-back">
-            <img src="/img/emotion.512.webp" className="img-fluid" alt={_("MAIN.P3.IMG")} height={512} width={512} />
+        <div className="ms-base-page pb-5">
+            <IronImage imgLo="/img/p_emotion_screens3.64.webp" imgHi="/img/p_emotion_screens3.512.webp" text={_("MAIN.P7.IMG")} h={512} w={512} />
             <h1 className="text-center pt-3 ">{_("MAIN.P7.HEAD")}</h1>
 
             <section>
@@ -28,7 +28,7 @@ export default function P7Emotion() {
             </section>
 
             <div className="text-center">
-                <IronImage imgLo="/img/p_emotion_screens3.64.webp" imgHi="/img/p_emotion_screens3.512.webp" text={_("MAIN.P7.IMG")} h={512} w={512} />
+                <IronImage imgLo="/img/p_emotion_screens2.64.webp" imgHi="/img/p_emotion_screens2.512.webp" text={_("MAIN.P7.IMG")} h={512} w={512} />
             </div>
 
             <section>
@@ -44,7 +44,7 @@ export default function P7Emotion() {
             </section>
 
             <div className="pb-5 text-center">
-                <IronImage imgLo="/img/p_emotion_screens2.64.webp" imgHi="/img/p_emotion_screens2.512.webp" text={_("MAIN.P7.IMG")} h={512} w={512} />
+                <IronImage imgLo="/img/p_emotion_screens4.64.webp" imgHi="/img/p_emotion_screens4.512.webp" text={_("MAIN.P3.IMG")} h={512} w={512} />
             </div>
 
             <section>
