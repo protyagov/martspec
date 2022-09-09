@@ -1,11 +1,12 @@
 import * as React from "react";
-import _ from "src/i18n/locale"
+import _, {Locale} from "src/i18n/locale"
 import { Footer } from "src/part/footer";
 import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
 
 
 export default function P1Electrolyte() {
+    console.log('src/img/apple_btn/'+ Locale.language +'.svg')
     return <>
         <NavigationBar />
 
@@ -18,7 +19,8 @@ export default function P1Electrolyte() {
                 <p className="mt-4">{_("PRODUCT.P1.ABOUT")}</p>
                 <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1507719251`}
                     target="_blank" title={_("MAIN.P1.DWN")} className="float-center" >
-                    <span className="ms-btn-apple" />
+                    {/*@ts-ignore*/}
+                    <span className="ms-btn-apple" style={{'--image-path': 'url(src/img/apple_btn/'+ Locale.language +'.svg)'}}/>
                 </a>
             </section>
 
