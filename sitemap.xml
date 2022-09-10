@@ -134,6 +134,10 @@
       <loc>https://martspec.com/ar/about</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/ar/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
 
 <!-- China ZH  -->
    <url>
@@ -176,6 +180,10 @@
       <loc>https://martspec.com/zh/about</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/zh/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
 
 <!-- French FR  -->
    <url>
@@ -218,6 +226,10 @@
       <loc>https://martspec.com/fr/about</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/fr/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
 
 <!-- German DE  -->
    <url>
@@ -260,6 +272,10 @@
       <loc>https://martspec.com/de/about</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/de/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
 
 <!-- Hindi HI  -->
    <url>
@@ -302,6 +318,10 @@
       <loc>https://martspec.com/hi/about</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/hi/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
 
 <!-- Japanise JA  -->
    <url>
@@ -344,6 +364,10 @@
       <loc>https://martspec.com/ja/about</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/ja/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
 
 <!-- Portuguese PT  -->
    <url>
@@ -386,6 +410,10 @@
       <loc>https://martspec.com/pt/about</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/pt/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
 
 <!-- Russian RU  -->
    <url>
@@ -424,6 +452,10 @@
       <loc>https://martspec.com/ru/about</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/ru/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
 
 <!-- Spanish ES  -->
    <url>
@@ -466,5 +498,9 @@
       <loc>https://martspec.com/es/about</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/es/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
 
 </urlset> 
