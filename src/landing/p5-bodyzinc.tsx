@@ -16,7 +16,7 @@ export default function P5BodyZinc() {
             <section>
                 <p className="mt-4">{_("PRODUCT.P5.ABOUT")}</p>
                 <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1547395353`}
-                    target="_blank" title={_("MAIN.P5.DWN")} className="float-center" >
+                    target="_blank" title={_("MAIN.P5.DWN")} className="apple-button-link" >
                     {/*@ts-ignore*/}
                     <span className="ms-btn-apple" style={{backgroundImage: 'url(/img/apple_btn/'+Locale.language+'.svg)'}}/>
                 </a>

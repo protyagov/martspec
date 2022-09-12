@@ -16,7 +16,7 @@ export default function P2bodymass() {
             <section>
                 <p className="mt-4">{_("PRODUCT.P2.ABOUT")}</p>
                 <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1507588203`}
-                    target="_blank" title={_("MAIN.P3.DWN")} className="float-center" >
+                    target="_blank" title={_("MAIN.P3.DWN")} className="apple-button-link" >
                     {/*@ts-ignore*/}
                     <span className="ms-btn-apple" style={{backgroundImage: 'url(/img/apple_btn/'+Locale.language+'.svg)'}}/>
                 </a>

@@ -30,11 +30,12 @@ export const Footer = () =>
                             <a className="footer-link" href="/mission"> {_("FOOTER.MISSION")}</a>
                         </div>
                     </div>
-                    <div className="col-md-2 col-12 text-center">
+                    <div className="col-md-2 col-12 text-center position-relative">
                         <a href={`https://apps.apple.com/${_("APPSTORE")}/developer/martspec-llc/id1506250419`}
-                            target="_blank" title={_("MAIN.P1.DWN")}>
+                            target="_blank" title={_("MAIN.P1.DWN")}
+                            className="apple-button-link position-absolute top-50 start-50 translate-middle">
                             {/*@ts-ignore*/}
-                            <span className="ms-btn-apple my-5 float-md-right text-center" style={{backgroundImage: 'url(/img/apple_btn/'+Locale.language+'.svg)'}}/>
+                            <span className="ms-btn-apple" style={{backgroundImage: 'url(/img/apple_btn/'+Locale.language+'.svg)'}}/>
                         </a>
                     </div>
                 </div>

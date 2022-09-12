@@ -58,12 +58,14 @@
     }
 }
 
+.apple-button-link,
 .ms-btn-apple {
     display: inline-block;
-    // width: 157px;
-    // height: 52px;
-    width: 150px;
-    height: 50px;
+    width: 195px;
+    height: 65px;
+}
+
+.ms-btn-apple {
     background-size: cover;
     background-image: url(src/img/apple_btn.svg);
 
