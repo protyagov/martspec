@@ -59,13 +59,10 @@
 }
 
 .ms-btn-apple {
-    display: inline-block;
-    // width: 157px;
-    // height: 52px;
-    width: 150px;
-    height: 50px;
     background-size: cover;
-    background-image: url(src/img/apple_btn.svg);
+    display: inline-block;
+    width: 135px;
+    height: 45px;
 
     &:hover,
     &:focus {
