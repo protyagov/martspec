@@ -1,0 +1,877 @@
+"COLOR_NUMBER"="color %d/8";
+"SELECT_COLOR_1"="Pick the color you are drawn to first";
+"SELECT_COLOR_2"="Pick your next color";
+"T_SUMMARY" = "Summary";
+"SELECT_COLOR_SHORT"="Tap best color";
+"TRIAL_NUMBER"="quiz %d/2";
+"B_NEXT" = "continue";
+"B_DONE" = "Done";
+"B_BACK" = "Back";
+"TITLE" = "Emotion";
+"SUBTITLE" = "The quickest personality test";
+"COMPD"="Know yourself";
+    
+"T_PASS_DONE1"="Well Done!";
+"T_PASS_DESC1"="The first half of the test is complete.";
+"T_PASS_DONE2"="Important";
+"T_PASS_DESC2"="As you select colors do NOT try to remember your choices from the first part. Do NOT try to associate colors with objects, - cars, clothes, buildings, etc. Just select the color you like the best at this moment.";
+
+"GROUP_TITLE_+" = "You Want";
+"GROUP_TITLE_x" = "You Are";
+"GROUP_TITLE_=" = "Awaits You";
+"GROUP_TITLE_-" = "Stress Source";
+"GROUP_TITLE_+-"= "Actual Problem";
+
+
+////////////////////////////////////////
+// ANXIETY
+"GROUP_TITLE_A" = "Anxiety";
+"A1" = "Insignificant anxiety";
+"A2" = "Mild anxiety";
+"A3" = "Emotional Tension";
+"A4" = "Disadaptation state";
+"A5" = "Physiological and psychological stress";
+
+// Shown under first section when applicable
+"*" = "There is a mild conflict";
+"**" = "There is a tangible conflict";
+"***" = "Serious internal conflict";
+
+
+////////////////////////////////////////
+// PRODUCTIVITY  --> Суммарного отклонения от аутогенной нормы (СО)
+"GROUP_TITLE_P" = "Productivity";
+"GROUP_DESC_P" = "Shows how productive you are. Use this to predict the effectiveness of your activities (including professional ones). Based on your color selection we calculate your mental tension. If the tension is high, your strength is spent on maintaining mental integrity, combating personal problems, overcoming fatigue, etc. That leads to lower productivity.
+
+For example, working long under constant volitional tension; constant lack of opportunity for proper rest; as well as severe chronic diseases that deplete the body, - all cause a significant increase in mental tension and lower productivity.
+
+High mental tension manifests itself in limited social activity and regular cases of “tiredness of everything”. No strength to even set new goals. Lack of confidence.  The mood is dominated by an anxious expectation of trouble. Disappointment with the life course. Your brain redirects all energy to dampen problems and reconcile opposing motives. Your attention is routed to the tense inner world.
+
+When your productivity is low you better stop what you are doing and rest. There is no point to continue with the current task because your productivity is not optimal.";
+"P1_short"="You need rest & recover";
+"P2_short"="Work less, rest more";
+"P3_short"="Good for routines";
+"P4_short"="Engage motivating activity";
+"P5_short"="Tackle hardest tasks";
+
+"P1"="You are overly fatigued. Mental tension is quite high. Your attention is easily distracted by extraneous things. You are getting stuck on emotional experiences. An absence of well-defined motives makes you reactive and purposeless. The mood can fluctuate between excitement and depression in the shortest time possible. The whole emotional state is dominated by anxiety, a premonition of trouble, and a lack of desire to do anything. Your reaction and handling of an extreme situation is unreliable.";
+"P2"="Your potential is low while unproductive mental tension is high. You force yourself to do certain things. Constant self-control increases fatigue. Prolonged intensive work might cost you dearly in terms of health. That cost will be very unequal to what you will be able to accomplish. Emotionally you experience anxiety, increased excitability, and uncertainty.  In a stressful situation, disruption of activity and behavior is likely.";
+"P3"="Average productivity level. You cope with your duties within the limits of the established average, nothing extraordinary. Routine work and activities are best suited. In a familiar environment, you move from work to rest and back, from one type of activity to another without significant difficulties. If necessary, you are able to overcome fatigue by volitional effort. However, that leads to a long period of reduced efficiency and well-being. To keep up good health and performance you need a clear division of work and rest time.";
+"P4"="You are active and experience only minor mental tension. You have enough energy for occasional bursts of hyperactivity inaccessible to most people. When motivated by interesting activity, you do not experience difficulties with short and long term memorization and reproduction of information.";
+"P5"="You are active and have no mental tension. Your actions are diverse, and overall efficiency is high. Emotionally you are optimistic and have strong-willed self-control. The will does not suppress your personality, it only coordinates your non-contradictory desires. With appropriate motivation, you are able to work intensively for a long time. In extreme situations, you effectively mobilize and focus on completing the task.";
+
+
+////////////////////////////////////////
+// ENERGY  --> Вегетативный Коэффициент
+"GROUP_TITLE_E" = "Energy";
+"GROUP_DESC_E"="You need the energy to engage in an activity. With little energy(red or orange levels) it is hard to complete an activity, and in such situations we recommend rest to recharge yourself. Also, too much energy(purple level) makes you fussy, overreactive and is not the best to maximize your efficiency. Green level is the best for any activity, mental or physical.";
+"E1"="Exhaustion. Chronic fatigue. Your mind is set to inactivity. You are not ready to act adequately in a stressful situation and not ready for tension resulting from that stress. As result, you react passively to difficulties. You need diverse and extensive recovery and rest.";
+"E2"="Energy usage is optimized. The need for recovery and rest is moderate. The energy potential is low but sufficient for successful activity in the usual tranquil conditions. In an extreme situation, there is likely to be a delay in decision-making.";
+"E3"="Your resources are mobilized and ready for engaged action. This energy level is optimal for physical and mental activities. In an extreme situation, your responses and decision-making speed are at max level. Expediency and success of your actions are most likely.";
+"E4"="You are overexcited and fussy. The energy level is too high. You might engage in an activity, not for the sake of the activity itself but only to discharge yourself. In difficult situations, your emotional self-control is decreased and you react feverishly: impulsivity, impatience, and rash actions.
+In extreme situations, the effectiveness of your actions is low while panic reactions are most likely. Diverse relaxing and soothing procedures are needed.";
+"E1_short"="Depleted";
+"E2_short"="Moderate";
+"E3_short"="Optimal";
+"E4_short"="Excessive";
+
+
+////////////////////////////////////////
+"PERCENT_MAN"="%.1f%% of people have this";
+"T_LIST_NEW_HISTORY" = "history";
+"NEW_TEST_ROW_TITLE"="New test";
+"NEW_TEST_ROW_SUBTITLE"="Tap to begin the test";
+
+
+////////////////////////////////////////
+/* Help Screen*/
+"HELP_ROW_TITLE"="Build together";
+"HELP_ROW_SUBTITLE"="Make this app better";
+"HELP_HEADER"="Help us";
+"HELP_INTRO"="This app is 100% free, has zero ADs, and does not use your data for profit. At Martspec, it's also one of our core values. We do not store your data, it is stored on your private Apple's iCloud.
+Please help us make this app even better. There are several ways you can help:";
+
+"HELP_OPT1_T" = "Review";
+"HELP_OPT1_D" = "What sets this app apart from others and encourages you to use it?  What do you like the best about this app? Are there any areas we, Martspec, can make better? We need to feel and understand the app helps you, improves your health and wellness.";
+"HELP_OPT1_B" = "Rate App";
+
+"HELP_OPT2_T" = "Friend";
+"HELP_OPT2_D" = "By sharing the app you can positively impact other people and help them learn something new.  Perhaps they can find this app as useful as you do.";
+"HELP_OPT2_B" = "Share it";
+
+"HELP_OPT3_T" = "Language";
+"HELP_OPT3_D" = "Perhaps your native language is not displayed correctly in this application. You can volunteer and help in grammatically correct spelling of the text.";
+"HELP_OPT3_B" = "Email Us";
+
+"HELP_OPT4_T" = "Social";
+"HELP_OPT4_D" = "We appreciate it if you support the cause of a healthy lifestyle by sharing good words about this app on a social network. This app might benefit and enrich other people's lives.";
+
+
+////////////////////////////////////////
+// Description for each functional group
+"GROUP_DESC_+" = "This group defines a desire for something. The main method of acting. The means to achieve the goal. At the same time, this group shows exactly what a person wants to achieve.";
+"GROUP_DESC_x" = "This group defines the present state of affairs. The situation in which you are now. How you are experiencing the situation at the moment. This group can also mean the type of actions required of you by current circumstances.";
+"GROUP_DESC_=" = "This group shows what is being held in reserve.  Not applicable at the moment and can be characterized as indifference. \n\nYou do not see it as something negative or meaningful, you see all this as impractical at the moment. However, if circumstances change in the future, all this could go into action.";
+"GROUP_DESC_-" = "This group shows dissatisfaction with certain basic human needs. This dissatisfaction causes a sense of loss and increases anxiety. This is likely perceived as an emotional rejection unconsciously by you. Usually, it manifests itself as obscure anxiety.\n\nStress usually causes a compensatory form of behavior. It rarely leads to stress resolution. Usually, everything turns into a form of satisfaction substitution.\n\nAny compensating substitution is a deviation from optimal behavior. Your common sense starts obeying some internal programs dictating certain behavior.";
+"GROUP_DESC_+-"= "This group defines a problem or conflict that has the potential to develop into a disorder, psychological or even medical. The source of the problem is in the  📌 \"Stress Source\"  group. Not every source of stress creates a problem. This app calculates if sufficient compensation for stress exists. If the compensation is insufficient, then an actual problem appears.\n\nOnly an experienced monk or a wise elder can live by renouncing earthly worries. We all want something. We have desires. We wish to achieve something. Perhaps we are trying to remove something from our lives. Of course, this creates a little stress. This is normal and is not a conflict, it is an incentive to action.\n\n\"Actual Problem\" always has several sides. It includes both the source of stress and the one who is trying to solve it. For example, a boss at work. The boss himself is not a problem. This becomes a problem when someone starts interacting with that person, trying to figure out HOW to solve a work situation in a certain way.\nSo the key to solving the problem is \"HOW\".";
+
+
+////////////////////////////////////////
+// GROUP +  Desired Objective 
+// TODO: TR: +7+5
+"+0"="You are unwilling to participate in anything and want to avoid all forms of motivation. You have put up with too much and are tired of external influences. You desire protection and non-involvement.";
+"+0+1"="You feel exhausted by conflict and quarreling. You desire protection from explanations and quarrels. You need a peaceful, calm environment to relax and recover.";
+"+0+2"="Existing circumstances seem hostile. You are exhausted by conflicts and quarrels. You want protection from it. You hide your intentions to avoid exposing them to an attack, so they will be safer and easier to achieve. You avoid steps that might cause opposition.";
+"+0+3"="You hide your magnified demands on life behind specious rationalization and cautious behavior. You desire to impress others with your achievements. The very desire is diplomatically hidden or masked.";
+"+0+4"="You are unhappy with the current situation. You want to be free from depressing and intolerable burdens. You seek a way out but feel there is no solution and there is no way out. You try to avoid involvement in arguments or conflicts.";
+"+0+5"="You are fascinated by the idea of idealized intimacy based on the charm and tenderness of both parties. You are afraid of allowing this to appear openly and prefer carefully probing tactics. In pursuit of this goal, you remain cold and hide your feelings.";
+"+0+6"="You seek protection from factors that can tire or exhaust. You long for a life of security and physical comfort, a life free from problems and anxiety.";
+"+0+7"="You feel unfair treatment and betrayal of hopes. You are unsatisfied with circumstances and try to rebel against them. You perceive the current situation as humiliation and insult.";
+
+"+1"="You long for a quiet, peaceful state, harmony in relationships, satisfaction and a sense of belonging.";
+"+1+0"="You need relief from stress and long for peace, calmness and satisfaction.";
+"+1+2"="You need a calm and harmonious environment. You want relief from stress peacefully, without unnecessary arguments. You seek freedom from conflicts or disagreements. You attempt to solve the current difficulties and problems by proceeding cautiously. You can feel subtly and show high attention to the smallest details.";
+"+1+3"="You strive for tender, pleasant and harmonious relationships. You desire an intimate union full of love, devotion and mutual trust. You attempt to establish trusting relationships with other people. You consider harmony in the family a prerequisite for personal happiness.";
+"+1+4"="You seek tenderness in relationships that would bring fulfillment and happiness. You are capable of strong emotional uplift, inspiration. You are willing to adapt and obey so that the tenderness-based union becomes a reality. At the same time, you require a precautionary attitude from others.";
+"+1+5"="You strive for sensitivity, harmony, affection and tenderness. You wish to dissolve in them. Subtly you feel aesthetic beauty and can imbue with the feelings of another.";
+"+1+6"="You seek refuge from conflicts that offers safety and physical at ease. You need considerate treatment and loving care. You are afraid of the loneliness and emptiness of separation.";
+"+1+7"="You urgently need rest, relaxation, peace and caring understanding. You believe to be treated with a lack of respect. You feel misunderstood by others. As a result, you became anxious and upset, feel overexcitement. You find the situation intolerable as long as your claims are not fulfilled.";
+
+"+2"="You seek flexibility and determination of will to strengthen the status and gain independence despite the difficulty of the current position. You strive to overcome resistance and achieve recognition.";
+"+2+0"="You want to strengthen your position and make a strong impression on people, despite unfavorable circumstances and a complete lack of appreciation or recognition. You are unapproachable. You can feel confident without staying under someone's influence. ";
+"+2+1"="You want to make a favorable impression and receive approval from others. There is a need to feel appreciated and admired.  You are touchy and easily hurt if not given adequate acknowledgment.";
+"+2+3"="You seek recognition and success. You want to overcome all obstacles and resistance. You strive to decide independently, to act consistently, to show initiative. You do not want to depend on the goodwill of others.";
+"+2+4"="Ambitious. You need recognition and want to impress and be looked up to. You strive to be popular and admirable. You seek to bridge the gap that separates you from others.";
+"+2+5"="Sensitive to the aesthetic. You want to make a favorable impression and strive to be seen as an extraordinary person. You constantly track (with intense attention) your successes and how others react to it.  This gives a sense of superiority and self-control. You use various, well-thought-out, methods to gain influence and special recognition.";
+"+2+6"="You believe too much is demanded of you and therefore feel exhausted. You attempt to overcome resistance and establish yourself despite possible unpleasant consequences. You are proud, uncomplaining and take a position of \"reluctant submission.\"  You need recognition, security and getting rid of at least some of the problems.";
+"+2+7"="You want to prove to yourself and others that nothing can affect you. You show superiority to any form of weakness. You act with harshness, despotically and willfully to not get offended.";
+
+"+3"="Strong, energetic, vital. You get satisfaction from the action. The most important thing is success or victory. You want to live life to the fullest.";
+"+3+0"="You want to sweep away everything that gets in the way. You follow your own impulses and participate in all sorts of extraordinary or exciting events. By doing this, you hope to dull the severity of the conflicts. However, due to impulsive behavior, you often behave in a risky manner.";
+"+3+1"="You strive for a life rich in activity and experience that brings erotic and emotional satisfaction. In this closeness you see the prerequisite for happiness.";
+"+3+2"="You stubbornly pursue the goals set for yourself and do not allow any deviations from the intended path. You want to overcome the obstacles to achieve special recognition. By the outcome of this activity you judge your ability to defend personal rights.";
+"+3+4"="You longs for success, excitement, a life full of impressions. You want to throw off the shackles of uncertainty. You strive to develop freely, conquer and live intensively. You are open to anything new. You have many interests. Enthusiastic. You seek to expand the field of activities and look to the future with optimism.";
+"+3+5"="You are absorbed by things that strongly excite or capture, cause erotic or any other excitement. You strive to excite others and interest them as a person, to be catchy. You want to keep others in the sphere of action of personal charm and influence. You are guided by your feelings. You skillfully manage your actions to not to jeopardize personal chances of success and not undermine others' confidence in you.";
+"+3+6"="You reject illusions, sentimentality and the desire for prestige. You prefer to take everything calmly and focus on satisfying comfort and safety need.";
+"+3+7"="You are abruptly overcoming obstacles. You feel something is missing in life. You want to catch up by living with exaggerated intensity. You believe this would free you from everything oppressing.";
+
+"+4"="You need a change of scenery to get rid of tension. A change of environment will open up new opportunities to express yourself more successfully where hopes will come true.";
+"+4+0"="You seek an escape from everything oppressing by clinging to vague hopes based on illusions.";
+"+4+1"="You hopes to find relief and satisfaction in a union based on love. The need for approval from others creates motivation to help others. In exchange, you expect warmth and understanding. You welcome new opportunities and ideas. You hope they will be fruitful and interesting. You anticipate intellectual enrichment from them.";
+"+4+2"="You are vigilant and profoundly observant. You seek new opportunities offering greater freedom and the chance to feel stronger. You want to prove yourself and to gain recognition. You believe there is a gap separating yourself from others. You strive to bridge the gap.";
+"+4+3"="You are driven by hopes and desires. The need to feel \"the cause\" and wider sphere of influence makes you restless, fussy. You risk spreading your forces by expanding activities too far.";
+"+4+5"="You long for interesting and exciting meetings or events. You are inclined to fantasize and imagine a lot. Day-dreaming happens often. You want to be loved solely because of personal charm.";
+"+4+6"="Exhausted, desperate. You need physical and mental relief, freedom from any problems, security and a chance to recover.";
+"+4+7"="You ignore the complexity and tension of the situations without trying to solve problems. Your actions are thoughtless, stubborn, unexpected and illogical.";
+
+"+5"="You feel the need to identify with someone or something. You wish to win support by your charm and amiability. You want to gain followers by personal charisma and friendliness. Sentimental. You yearn for a romantic tenderness.";
+"+5+0"="You long for subtle and sympathetic understanding. You want to protect yourself from disputes, conflicts, tiresome tension. You behave diplomatically and carefully.";
+"+5+1"="You long for a tender and sympathetic bond. You strive for perfect harmony. The need for tenderness and affection is high. You desire to become dearly loved. You are sensitive to aesthetic beauty. You are capable to be imbued with the feelings of another. You can get carried away by that.";
+"+5+2"="You want to make a favorable impression and like to be seen as an extraordinary person. You closely monitor your success in that and how others react. This gives you a sense of self-control and control over the situation. You deploy various techniques and clever tactics to get recognition and influence. You are drawn to everything aesthetic and nonordinary.";
+"+5+3"="You are easily carried away by anything exciting. It can be erotic or some other stimulations. You strive for recognition by others as an attractive and exciting personality. You do not let other people go out of the area of your charm. You use clever tactics to protect chances of success and avoid the distrust of others.";
+"+5+4"="You want interesting and exciting things to happen. You can make yourself well-liked by others using your charm and obvious interest to them. You are inclined to fantasize and imagine a lot. Day-dreaming happens often. ";
+"+5+6"="You want to find excitement in full of pleasures atmosphere and sensual luxury.";
+"+5+7"="You constantly seek a bond with another to fulfill your needs of sensual satisfaction. The bond should be based on an overlap of feelings and beliefs.";
+
+"+6"="You seek a calm state free from problems. In that state you hope to deal with real bodily needs, relax and recover.";
+"+6+0"="You strongly need rest and relaxation, freedom from conflict and the chance to recover. You want to protect yourself from negative and exhausting influences. You strive for a hassle-free lifestyle.";
+"+6+1"="You strive for conflict-free physical and tender satisfaction. You need patronage, a protector, to not suffer from separation or the emptiness of loneliness.";
+"+6+2"="You keep yourself under strict control to withstand under pressure and outside influence. You need a safe and calm environment to feel more secure and have a chance to recover.";
+"+6+3"="You are under the control of sensually strong impulses. You strive for the satisfaction of all physical needs. You have increased sensitivity to internal changes in the body.";
+"+6+4"="You feel hopes will not come true. As result, you surrender yourself with an idle life, free from any problems.";
+"+6+5"="You seek luxury, exciting pleasures, sensual comfort and the opportunity to satisfy addiction for voluptuousness.";
+"+6+7"="You set idealistic but unrealistic goals. You are extremely disappointed and ignore life in a tired self-disgust. You want to forget it all and recover in a comfortable, problem-free environment.";
+
+"+7"="The current situation appears unpleasant and over-demanding. You ignore anything that can change your point of view.";
+"+7+0"="The situation seems hopeless. You expresses dissatisfaction and strongly resist anything unpleasant. You try to protect yourself from everything that can irritate or deepen the depression.";
+"+7+1"="You suffer from effects of things that are rejected in this test as unpleasant. You strongly protests against them. You demand to be left alone.";
+"+7+2"="You stubbornly resists any restrictions or opposition. You hold strongly to own point of view. You believe it shows your independence and self-determination.";
+"+7+3"="Restrained over excitement causes suffering. The suppressed impulses might erupt in a powerful burst of uncontrolled extreme behavior.";
+"+7+4"="You seek to escape problems, difficulties and tensions through unexpected and inconsistent actions. You desperately want a way out. You are capable of reckless actions, up to self-destruction.";
+"+7+5"="You demand perfect blend and match of ideas and emotions. You do not compromise on this.";
+"+7+6"="You think the old goals are illusions. You feel bitter disappointment in expectations and turn away from them with annoyance. You seeks oblivion and relaxation in a calm and problem-free environment.";
+
+
+////////////////////////////////////////////
+// GROUP x  Situation now
+// This represents a barrier between the compensatory colors which precede it and the remaining colors the point at
+// which switching-off has ­ curred. The + group is thus the sole mechanism through which participating experience is
+// possible. Emphasizes the characteristics of the + group and makes them more compulsive.
+"x0"="You limit emotional readiness to communicate to avoid conflict tensions.";
+"x0x1"="You are relatively passive and in a static state. Some conflicts interfere with the peace of mind. You are unable to build relationships that would satisfy mutual affection and understanding.";
+"x0x2"="You try stubbornly to achieve the goals, despite the resistance and high difficulty of the situation. You hide intentions to weaken or defeat the opposition.";
+"x0x3"="There are challenges in making progress. You try to hide impulsiveness. Actions lead to problems and uncertainties. It makes you touchy and irritable.";
+"x0x4"="Unfulfilled hopes. Limited readiness for contacts. Internal tension. A way out is not visible.";
+"x0x5"="Fear of rejection. Extreme caution. You have difficulty to achieve the desired intimacy or similarity with others.";
+"x0x6"="You feel neglected. You want higher security, kind affection and lesser problems. You are unable to apply effort to achieve goals.";
+"x0x7"="You withdraw into yourself. The current situation causes stress. You attempt to get free from restrictive things.";
+
+"x1"="You act calmly and do not get upset much. You want to keep control of existing relationships. You like to feel relaxed and at ease in the company of close ones. You are ready for calmness, relieving stress and establishing close relationships.";
+"x1x0"="Sensitive and responsive. You are under some strain and need to relax in the company of someone close.";
+"x1x2"="Acts orderly, methodically and independently. Builds calm and lasting relationships. Needs the tender understanding, recognition and approval of someone.";
+"x1x3"="You work well in co-operation with others. You are unwilling to take the leading position. You want to base your own life on the mutual understanding and absence of disagreements. You desire a harmonious combination of sexual activity and kindness.";
+"x1x4"="Collectivist. You adapt to the group easily. You feel calm only when closely attached to a reliable person, group or organization. Your mood is affected by the group's attitude towards you.";
+"x1x5"="Sensitive. You need an aesthetic environment or an equally sensitive and understanding partner to share a warm intimacy. You are ready for such a relationship.";
+"x1x6"="You avoid excessive efforts and prefer a situation of peace and safety, provided by protection and care. You want friendly communication and physical comfort.";
+"x1x7"="You cannot handle insufficient respect from close people. You need warm companionship. You would break off relations and shut into yourself without it.";
+
+"x2"="You are persistent and demand what, in your opinion, belongs to you. You try to maintain the stability of personal position.";
+"x2x0"="Defensive state. You feel your current position is not strong enough and is under a thread. You are determined to pursue personal goals. You ignore anxiety and irritation caused by the opposition.";
+"x2x1"="You are accurate, methodical and self-contained. You like to prove one's case. You need respect, recognition and understanding of close ones. You prefer a calm environment.";
+"x2x3"="You are authoritative or vested with the authority of the position. You believe someone limits show of your initiative and feel existing difficulties put further successes into question. You search for a way to defeat the opposition and stubbornly adhere to the goals. ";
+"x2x4"="You are trying to improve personal position and prestige. You are dissatisfied with the present situation. You think some improvements are essential to self esteem and prestige.";
+"x2x5"="You try to improve your own image in the eyes of others. You want to obtain their compliance and agreement with your needs and wishes.";
+"x2x6"="You build a solid foundation for a reliable, problem-free future that should bring freedom and safety.";
+"x2x7"="You pursue personal goals and interests with stubborn determination. No concessions and compromises.";
+
+"x3"="Active. You believe progress is inadequate or received reward is not worth of applied effort.";
+"x3x0"="Irritable and impulsive. You focus on personal desires and activities. You try to realize yourself through them. The Consequences of such activities are of secondary importance. This leads to conflicts and stress.";
+"x3x1"="You prefer to work in collaboration with others. You want freedom from discord. You need a personal life based on mutual understanding and harmony of personal interests.";
+"x3x2"="Independent. You firmly follow your intentions and aspirations. You enjoy taking the initiative in overcoming obstacles and difficulties. You occupy or want a position of authority to have power over events. ";
+"x3x4"="Fickle and outgoing. You need to feel events are developing in the desired direction. Otherwise, annoyance can cause variance or futility of activities. You believe someone prevents you from actively expressing yourself.";
+"x3x5"="You easily participate in exciting or stimulating activities. You want to feel cheerful.";
+"x3x6"="You are opposed to extending yourself or making any excessive efforts, except perhaps in the sexual activity. You feel further success requires too much effort, more than you can give. You prefer moderate comfort and security over the rewards of great ambitions.";
+"x3x7"="You are annoyed by difficulties in the fulfillment of desires. You feel prevented from getting things that seem essential. Your unsatisfied demands might lead to withdraws into inner self with disgust.";
+
+"x4"="You are ready for contacts. You are attracted by anything new, modern or exciting. You get bored by everything trivial, common, ordinary or traditional. ";
+"x4x0"="You seek a solution to problems or anxiety. You struggle with the decision of the right course.";
+"x4x1"="You are easily influenced by others. You are affected by the mood of the group. You believe personal well-being depends on the harmony of relations with others. You seek to establish such a relationship and activities that would support them.";
+"x4x2"="You hope to get an improved position and higher prestige. This would make desirable things affordable.";
+"x4x3"="Friendly, restless and active. You are frustrated that things are progressing slowly in the desired direction. This leads to irritation, hesitation, and a lack of persistence in pursuing your goals.";
+"x4x5"="Imaginative and sensitive. You seek situations where these abilities could be shown. You prefer the company of equally sensitive people. Anything adventurous and unusual quickly evokes your interest and enthusiasm.";
+"x4x6"="Insecure. You look for a problem-free environment. You want to feel stability, emotional safety and physical at ease.";
+"x4x7"="You are hot-tempered and self-willed. You reject any advice from others. The existing situation has something threatening or elements of criticism. You seek a way out of it and might act suddenly and recklessly. You are tense and impatient.";
+
+"x5"="You seek an environment to safely nurture and express personal aesthetic and emotional elegance.";
+"x5x0"="You seek a close and understanding bond in an atmosphere of shared intimacy. You want protection against anxiety and conflicts.";
+"x5x1"="You want to share a bond of tender intimacy in an aesthetic atmosphere of peace and love.";
+"x5x2"="You are trying to improve your own image in the eyes of others. You use charm to insist on fulfilling your desires. You find demands made on you difficult, requiring too much effort.";
+"x5x3"="You easily engage in things affording excitement. You want to feel happy. You are enthusiastic about sensually inspiring stuff.";
+"x5x4"="Sensitive and imaginative. You seek an outlet for these qualities. You are ready for light, spurring contacts, especially of someone equally sensitive. Anything adventurous and unusual quickly evokes your interest.";
+"x5x6"="Sensitive. You enjoy things that give sensual pleasure. You reject anything tasteless, vulgar or rude.";
+"x5x7"="You need a close relationship. You seek understanding or a sense of community with someone. You demand at least some method satisfying necessity to feel recognized.";
+
+"x6"="You feel anxious and insecure in the existing situation. You need a feeling of high security and a warmer environment. Alternatively, a situation with less physical stress would help.";
+"x6x0"="You feel tired and unable to make any effort to reach goals. You think you are neglected. You lack warm affection. The situation seems not safe enough. You believe others are throwing at you too many problems.";
+"x6x1"="You evade extra effort. You need safety and gentle communication. You might be in poor physical condition. You need gentle care and attention.";
+"x6x2"="You struggle with hardships. It is difficult to meet the placed demands. You need a calm situation and want to feel at ease.";
+"x6x3"="You have difficulty in making progress. You no longer want to apply further efforts. You strive for a more relaxed environment where disturbance can be avoided.";
+"x6x4"="Insecure. You look for solid reasons to feel safe. You need an environment providing greater ease and fewer problems. You are unwilling to spend any efforts in an attempt to resolve this.";
+"x6x5"="Sensuous. You are longing for things that give physical and sensual pleasure. You reject anything tasteless, vulgar or rude.";
+"x6x7"="Overexertion. Possibly physical illness. You need nurturing help to heal. Emotional distress took a serious form. Self-esteem has dropped. You need a calm environment.";
+
+"x7"="You would break relations if your demands are not satisfied.";
+"x7x0"="Dissatisfied. You perceive the current situation as disgusting. You are tired from participating in that. You want to find a solution to all difficulties caused by the situation.";
+"x7x1"="You require quiet and peace. You want to have a close and devoted partner. You intend to make excessive demands on that partner. You are ready to break off the relationship if such demands are not met. This might cause complete withdrawal into the inner self.";
+"x7x2"="You believe your demands are extremely modest and must be met promptly. You stand by them stubbornly and make no concessions.";
+"x7x3"="You feel intentionally blocked and restricted from getting desired things. You plan to leave and \"slam the door\" if nothing works.";
+"x7x4"="You are unsatisfied with the existing situation. You perceive it as threatening or containing crucial elements. You seek a way out of it and refuse any advice from others. You might act suddenly and recklessly.";
+"x7x5"="You demand to have a close and understanding relationship. You refuse relationships that do not bring complete, refined intimacy. You want to feel similar to someone.";
+"x7x6"="Overstrain. Severe emotional distress. Possibly physical illness. Low self-esteem. You need caring help and a calm environment.";
+
+
+////////////////////////////////////////////
+// GROUP =  Indifferent
+"=0"="You are ready to participate in anything. You let yourself to be involved but avoid conflicts and unrest to reduce strain.";
+"=0=1"="High emotional expectations from relationships. You want to be admired by others. This leads to frustration and might push you into internal isolation. This is often caused by centration on the mother. It might result in resentment of the mother or strong attachment to her.";
+"=0=2"="You believe you are receiving less than should. You tolerate this and attempt to make the best of this situation.";
+"=0=3"="You experience apathy and anxiety. You feel surrounded and believe circumstances make you restraint personal desires. You are trying to avoid open conflicts and seek calm and peace.";
+"=0=4"="You are choosy and demanding in relations with partners and close people. You try to avoid open conflicts to keep chances of fulfilling hopes high.";
+"=0=5"="Egocentric. You react subtly and get easily offended.";
+"=0=6"="You are ready to get emotionally involved. You receive pleasure from satisfying physical, including sexual, needs.";
+"=0=7"="You feel forced to make compromises for now. You believe this helps to avoid isolation and keep the affection of some people.";
+
+"=1"="You stay emotionally unattached even when involved in a close relationship.";
+"=1=0"="You have high emotional claims and want to be in a close relationship. However, you do not seek any special depth of feelings.";
+"=1=2"="You think you deserve more, feel misunderstood and not appreciated enough. You believe there is a need to adapt to others. You feel close relationships bring no sense of emotional engagement.";
+"=1=3"="You feel disconnected from others. Difficulty in building kind and harmonious relationships leads to unhappiness. You believe in own inability to experience sincere affection.";
+"=1=4"="You are demanding and picky in choosing a partner. You know your own emotional requirements. You want to be independent of emotions. This makes emotional intimacy with anyone impossible.";
+"=1=5"="Egocentric. You get easily offended. Often you find yourself isolated in relationships.";
+"=1=6"="A sexual activity gives physical satisfaction. You do not fall in love and stay emotionally closed. You eat without much interest in food.";
+"=1=7"="Your current circumstances are forcing you to compromise. Temporally you give up liked things and subordinate your intentions and desires to the situation. Emotionally restrained. It is hard for you to build a firm heartwarming affection.";
+
+"=2"="Circumstances deny an opportunity to consolidate your position. You attempt to do the best in the situation.";
+"=2=0"="The lack of confidence. You do not want to admit it. You carefully avoid open conflicts and want to do the best in the situation.";
+"=2=1"="You think you deserve more. You feel misunderstood and not valued enough. You believe there is a need to adapt to others. You feel close relationships bring no sense of emotional engagement.";
+"=2=3"="Unhappy. Any attempt to defend your rights causes resistance. This leads to indignation. You listlessly give in and agree to adapt as much as possible. You want peace and quiet.";
+"=2=4"="You believe you have more problems and difficulties than others. You stubbornly pursue your goals and try to overcome difficulties. You show flexibility and adaptation.";
+"=2=5"="You think there is no person to rely on to get understanding or sympathy. You restrain emotions. You have a feeling of not getting a fair share and become touchy. You understand the need to compromise and try to make the best of the situation.";
+"=2=6"="You feel not much can be done in the existing circumstances. You want to make the best of the situation. You strive to satisfy physical, including sexual, needs.";
+"=2=7"="Emotional inhibition. You subordinate your desires and interests to the situation. Circumstances force compromise. You temporarily forgo desired things. It is hard for you to build a stable emotional bond.";
+
+"=3"="You are sluggish and apathetic because of past overexcitement. You try to relax and calm down. You want quiet and might become irritable without it.";
+"=3=0"="You are suffering and exhausted. You are troubled by the obstacles in the activity and do not want to do anything. You strive for silence and peace, and need the absence of anything that could upset you further. ";
+"=3=1"="Exhausted. Unhappy. You feel disconnected from others and unable to establish warm and harmonious relationships. You believe in own inability to experience heartfelt affection.";
+"=3=2"="Any attempt to defend your rights causes resistance. You believe nothing can be done to change the situation. You want to make the best of the situation.";
+"=3=4"="You want to expand your activity fields and believe personal desires and hopes are doable. You suffer from a fear of being prevented from completing what you started. You need a calm environment and friendly support for greater confidence.";
+"=3=5"="Egocentric. You get offended easily. You believe your needs and desires are misconceived. You feel there is no person to rely on.";
+"=3=6"="You feel trapped in an uncomfortable and distressing situation. You look for ways to relieve yourself. You are able to get physical, including sexual, satisfaction.";
+"=3=7"="The situation is obstructive and limiting. It temporally forces you to forgo all joys and delights.";
+
+"=4"="You believes in the reality of your ideas and hopes. You need encouragement and reassurance. You want guarantees against disappointment and loss. You are very picky in selecting a partner. ";
+"=4=0"="You want to be involved emotionally. You are picky in choosing a partner and choosy in relationships with close people. You need support. You try to avoid open conflicts to keep your chances of fulfilling hopes high.";
+"=4=1"="You are precise in emotional demands and very picky during intimacy. This leads to constant regret in how you view a perfect union.";
+"=4=2"="You feel offended due to minor difficulties and problems. You are stubbornly pursuing your goals. You stay flexible and adaptive to overcome difficulties.";
+"=4=3"="You desire to expand the activity field. You believe in the reality of your ideas and hopes. You becomes sluggish because of obstacles on the way to manifesting yourself. You need a calm environment and friendly support to gain confidence.";
+"=4=5"="Egocentric. Touchy. You believe in the reality of your ideas and hopes. You need support and encouragement to gain confidence.";
+"=4=6"="You are very picky in choosing a partner. You seek tempting but unrealistically perfect sex-life.";
+"=4=7"="You are very picky in choosing a partner. You believe in the reality of your ideas and hopes. The current situation forces you to compromise.";
+
+"=5"="Egocentric. Touchy. You hide your sensitivity from everyone except close people.";
+"=5=0"="Egocentric. Touchy. You feel lonely and want to get emotionally involved. You try to avoid open conflicts.";
+"=5=1"="Egocentric. Touchy. You feel lonely and isolated. You restrain yourself to allow any affection.";
+"=5=2"="Touchy. You think there is no person to rely on to get understanding or sympathy. You believe you deserve more. You restrain your emotions and understand the need to compromise. You want to make the best use of the situation.";
+"=5=3"="Egocentric. Touchy. You suffer when your desires or needs are misunderstood. You feel there is no person to turn to.";
+"=5=4"="Egocentric. Touchy. You believe in the reality of your ideas and hopes. You need support and encouragement to gain confidence.";
+"=5=6"="You are easily vulnerable, egocentric and touchy. You are able to get physical, including sexual, satisfaction. You remain emotionally indifferent.";
+"=5=7"="You allow intimacy in exceptional cases when every mental reservation is met. This is partially dictated by the current situation.";
+
+"=6"="You are ready to fulfill the physical, including sexual, needs.";
+"=6=0"="You are ready to get emotionally involved. You receive pleasure from satisfying physical, including sexual, needs. You try to avoid conflicts.";
+"=6=1"="You receive pleasure from satisfying physical, including sexual, needs. You are prone to emotional isolation. This blocks deep emotional attachment.";
+"=6=2"="You feel not much can be done in the existing circumstances. You want to make the best of the situation. You strive to satisfy physical, including sexual, needs.";
+"=6=3"="You feel trapped in an uncomfortable and distressing situation. You search for ways to relieve yourself. You are able to get physical, including sexual, satisfaction. At the same time, there should be no emotional tension, stress or fatigue.";
+"=6=4"="You are very picky in choosing a partner. You seek tempting but unrealistically perfect sex life. You strive for a guaranteed state of physical, including sexual, satisfaction to avoid disappointment.";
+"=6=5"="You are easily vulnerable, egocentric and touchy. You are able to get physical, including sexual, satisfaction. Your remain emotionally indifferent.";
+"=6=7"="Circumstances force you to compromise. You temporally give up some pleasures. You are able to get physical, including sexual, satisfaction.";
+
+"=7"="You believe there are obstacles on the way. The situation forces you to compromise. You temporarily give up some pleasures.";
+"=7=0"="You feel forced to make compromises for now. You believe this helps to avoid isolation and keep the affection of some people.";
+"=7=1"="It is hard to build a firm heartwarming affection. You are emotionally inhibited. The situation forces you to compromise. You are unable to experience moral satisfaction from the situation.";
+"=7=2"="The situation forces you to compromise. You subordinate your desires and interests to the situation and temporarily forgo desired things.";
+"=7=3"="The situation is obstructive and limiting. It temporally forces you to forgo all joys and delights.";
+"=7=4"="You are very picky in choosing a partner. You believe in the reality of your ideas and hopes. The current situation forces you to compromise.";
+"=7=5"="You allow intimacy in exceptional cases when every mental reservation is met. This is partially dictated by the current situation.";
+"=7=6"="Circumstances force you to compromise. You temporally give up some pleasures. You are able to get physical, including sexual, satisfaction.";
+
+
+
+////////////////////////////////////////////
+// GROUP -  Rejection - Stress Source
+"-0"="📌 You are impatient and engage rapidly.\n\nWHY: You believe life can give much more. There are still things that are worth pursuing. You opine life needs to be lived in full. You pursue your objectives with fierce intensity and will not let go of things. You become deeply involved and risk being unable to view things with sufficient objectivity or calmly enough. Hence, you are in danger of becoming agitated and of exhausting your nervous energy. You are unable to leave things alone. You feel at peace only when the goal is reached.";
+"-0-1"="📌 You will not rest or give in. You stay active to not fall into depression.\n\nWHY: You believe in your inability to cope with circumstances. You feel dependent on the attachments to a person or situation. You hide your vulnerability and keep resisting current conditions. It makes you depressed, touchy and eager. This leads to unease and the urge to get away from the situation. Your ability to focus may suffer.";
+"-0-2"="📌 High internal tension.\n\nWHY: You put high demands on yourself. You are exhausted and overstressed. Resilience and willpower are weakened. You feel the demands are too high. You continue to hold your ground. You perceive the situation as oppressive, coercive, unbearable and too cruel.  You want to get out of that situation but are afraid of your inability to make vital decisions.";
+"-0-3"="📌 All form of debilitating worries and excruciating annoyance as suppressed. irritability, outbursts of anger, cardiac complaints, sexual neurosis are possible.\n\nWHY: You perceive the situation as painful and unpleasant. You are irritated by the thought of being unable to achieve your goals. You are upset by your helplessness to deal with obstacles. You feel trapped and overexerted. There is a possibility of nervous exhaustion.";
+"-0-4"="📌 Excessive irritation and regret of unfulfilled expectations.\n\nWHY: You experience intense alertness due to unfulfilled desires. You try to inspire confidence in others to feel confident yourself. You want protection from future frustrations, neglect or absence of prestige. You doubt things will get better in the future. Nonetheless, you keep making excessive demands and refuse to compromise.";
+"-0-5"="📌 Tension caused by the susceptibility restriction.\n\nWHY: You enjoy everything subtle, elegant and refined. You maintain a clear vision of things and do not allow yourself to get carried away if there is even a shadow of distrust. You keep emotions at bay and closely monitor others' attitudes towards yourself. You consider yourself to be too trusting. You demand complete sincerity from others and want clarity in relationships. This leads to inhibition of feeling expression but sensitivity is increasing.";
+"-0-6"="📌 Ignored the body needs.\n\nWHY: You believe your goals are unreachable with the present measured lifestyle. You wish independence from physical satisfaction and sensual pleasures. You want to unite with people of the same high spiritual standards and desire to stand out from the crowd. Sometimes you want to be like everyone else, but you suppress such impulses as weakness. You strive to achieve your goals to maintain self-esteem and eliminate self-doubt. You believe only strict control over yourself allows maintaining superiority over others. You want to be loved and admired selflessly. You need attention, recognition, and respect.";
+"-0-7"="📌 Increased receptivity.\n\nWHY: You strive to get closer to others and want to eliminate inner emptiness. You desire to know life from all its sides, to experience all the variations, to live it to the fullest. You demand the freedom to do anything that appears right and worth attention. Any restrictions or constraints cause outrage.";
+
+"-1"="📌 You will not rest or give in. You stay active to not fall into depression.\n\nWHY: You believe in your inability to cope with circumstances. You feel dependent on the attachments to a person or situation. You hide your vulnerability and keep resisting current conditions. It makes you depressed, touchy and eager. This leads to unease and the urge to get away from the situation. Your ability to focus may suffer.";
+"-1-0"="📌 Impatience, anxiety, prone to depression.\n\nWHY:  You are afraid of trusting someone unconditionally and want a sense of belonging. You are afraid of being unable to cope with circumstances. You believe relationships or circumstances offer too little and require a lot from you in exchange. You become impatient and irritable until you receive everything deserved. Your urge to get out of that state causes restless fussiness and disrupts your ability to focus.";
+"-1-2"="📌 High stress overtrains stamina and willpower.\n\nWHY: The ongoing effort to solve problems overtaxes resilience and determination. You feel unbearable pressure in relationships and see no way to bring mutual trust and unity into the situation. Hence, you want to get rid of the relationship completely and stay alone.";
+"-1-3"="📌 Irritability, anger outbursts, cardiac complaints or sexual neurosis are possible.\n\nWHY: You are in pain from an unhappy relationship. You presume powerless to regain former intimacy and some show of mutual trust. You feel trapped and compelled to put up with this unbearable situation. You are on the verge of nervous exhaustion.";
+"-1-4"="📌 Emotional frustration causes anxiety and stress.\n\nWHY: You are unhappy with sensual relationships that appear very depressing. You want to get rid of this affection and not lose anything at the same time. You do not want to expose yourself to new danger, disappointment and feelings of insecurity. Such contradictory feelings only worsen the current condition. You are trying to suppress them and develop indifference.";
+"-1-5"="📌 Stress due to mutual misunderstanding\n\nWHY:  You feel like a stranger in your relationships. You find neither understanding nor a sensitive attitude. As a result, you cannot open up to others and are unable to correct this without the voluntary cooperation of others. You show impatience and temper. You feel bound and seek a way-out.";
+"-1-6"="📌 Stress and self-limitation are caused by emotional displeasure and low appreciation from others.\n\nWHY: You think you must have the cooperation of others to improve the current state of affairs. You feel no real union is possible due to a lack of recognition, trust and respect. This leads to higher sensitivity. You want to feel more confident and free. You perceive relationships as a burden and dependence. You wish to be alone to restore individuality. You are not ready to communicate because of self-restraint of sensuality. This leads to a strong desire to merge with others. You see self-confidence decrease as a weakness that needs to be overcome with help of apparent firmness and external determination. You believe constant self-control is the only way to assert yourself as a person. Only that seems to allow, despite real problems, to maintain a strong position.";
+"-1-7"="📌 Strive for independence is due to emotional unhappiness.\n\nWHY: You perceive the situation or relationship as dissatisfying. You see no way for improvement without the voluntary cooperation of others. As a result, you become incapable of heartfelt affection and devotion. You hide your vulnerability and think showing affection or excessive frankness is wrong. The current relationship seems like a burden. You want independence and a path clear of obstacles. At the same time you do not want to take risks or limit yourself in anything. All this causes increased and impatient reactions. Parallel desire to get rid of all this leads to severe anxiety and weakens your ability to focus.";
+
+"-2"="📌 Stamina, willpower and the ability to resist are at the limit.\n\nWHY: Determination and willpower, to deal with existing problems, weakened. You feel overtaxed, worn and stuck. You continue the fight. You perceive this situation as unbearable pressure and sense unreasonable cruelty and a humiliating position. You want to get out of the situation but do not take any drastic measures.";
+"-2-0"="📌 Pressure resistance is exhausted. This leads to low patience, stress, and irritation.\n\nWHY: You have no more willpower and resilience to deal with existing difficulties. It feels like a dead end. You think the effort was waisted to no avail. Nonetheless, you continue to push forward with frantic energy. This causes unbearable stress. You want to get rid of the situation but cannot force yourself to make such a decision. This leads to the inability to view the problem objectively or leave it alone.";
+"-2-1"="📌 Reduced ability to oppose problems. Emotional unhappiness.\n\nWHY: You have no more willpower and resilience to deal with existing difficulties that appear as deliberate opposition. You defend your position. You perceive the existing relationship as unbearable pressure and humiliating coercion. You need a sense of emotional satisfaction and collaboration. You believe that without them, it is impossible to improve the situation. You strive to get rid of all this.";
+"-2-3"="📌 Attempts to avoid influences lead to suffering and agitation. Irritability, outbursts of anger, cardiac complaints, sexual neurosis are possible.\n\nWHY: Unbearable pressure and unreasonable demands cause a feeling of humiliation. The injustice looks outrageous. You feel powerless to change the situation and unable to protect yourself.";
+"-2-4"="📌 Acute frustration due to conflict between anticipated and essential.\n\nWHY: Uncertainty and doubts that things will improve in the future are caused by frustration and unsatisfied hopes. That leads to putting off all essential decisions until later. This conflict between essential and anticipated creates high inner tension. You resort to banal conclusions instead of making a reasonable decision. You are inclined to engage in trifles as a means of salvation.";
+"-2-5"="📌 Feelings of humiliation and misjudgment.\n\nWHY: You get no trust, esteem and understanding in the current relationship. You feel a humiliating lack of attention and fear of losing the attractiveness and respect of others. It hurts self-esteem. You consider being bypassed, deprived of love and denied appreciation. You are broken by the struggle of fighting alone and feel no support from others. You want admiration but constantly get misunderstood. You feel there is no way to deal with it. You want to escape from the situation but has no strength to make such a vital decision.";
+"-2-6"="📌 Excessive self-control, aimed at winning the respect of others.\n\nWHY: You want to stand out from the crowd and unite with people of the same high living standards. This leads to high stress. However, you keep your attitude despite a lack of appreciation. You find the situation unpleasant. You want a way out of the situation but refuse to sacrifice your beliefs. You constantly postpone making the vital decision due to doubts about your ability to resist possible opposition. You need recognition from others, agreement with your wishes, and respect for your views. Only then you can feel safe and at ease.";
+"-2-7"="📌 Frustration at unacceptable restrictions on his freedom of action.\n\nWHY: You strive for independence and freedom from any restrictions. You seek to avoid hindrances, responsibilities and everything that limits freedom. You hope it will help you to avoid unpleasant relationships and stress. You feel a lot of pressure and want a way out, but lack the stamina and determination.";
+
+"-3"="📌 Irritability, anger outbursts, cardiac complaints or sexual neurosis are possible.\n\nWHY: There is a threat and danger in the current situation. Your goals are under threat. That leads to your indignant. You feel trapped, powerless to do anything and tired to nervous exhaustion.";
+"-3-0"="📌 Impatient, fickle and irritable. Hypertension or cardiac disorder is possible.\n\nWHY: The situation appears dangerous and unpleasant. The chance to achieve the desired goal is under threat. You try to resist all the extra exposure but feel powerless to save the situation. You are afraid of losing everything and missing something important in life. This leads to despair. You are unable to look at the situation objectively. You lost a sense of distance. You try to battle down obstacles in the realization of your desires. You are overly agitated and do not give yourself a break in the fight. Overstressed, you feel trapped and are on the verge of nervous exhaustion.";
+"-3-1"="📌 Impatient, irritated, and hectic. You resist new influences and are unable to relax. You are at the limit of your abilities. Hypertension or cardiac problems are possible.\n\nWHY: An unsatisfied close relationship leads to suffering. You feel unable to do anything to restore former intimacy and mutual trust. You believe in being linked to an unhappy situation and see no way to get out of it. This takes your mind to the verge of nervous exhaustion.";
+"-3-2"="📌 Inability to exert on the situation. Agitation. Hopelessness. All that leads to severe stress. Muscle spasms or cardiac disorders are possible.\n\nWHY: You feel being controlled against your own will and feel unbearable pressure. You worry a lot about what seems to be the hostility of the environment. Any demands on you are considered unreasonable. You meet such demands with indignation and indignation. You feel powerless to influence the situation and unable to protect yourself.";
+"-3-4"="📌 Disappointment leads to agitation and anxiety.\n\nWHY: You worry about succeeding in making a good impression. You believe you have the right to get anything you desired. You suffer when a situation becomes unfavorable. You feel helpless. Just one possible failure brings the feeling of high distress. That might lead to nervous exhaustion. You see yourself as a misled victim whose trust was exploited and you take that fiction for reality. You try to convince oneself that others are to blame for your failures.";
+"-3-5"="📌 Bitterness due to failure to get mutual understanding and a sense of security.\n\nWHY: Increased sensitivity. You are eager to experience everything and find the current situation very disappointing. You suffer from your lack of power in achieving the intended goal. Hence, you feel nervous exhaustion. You need kind understanding and confidence in safety.";
+"-3-6"="📌 Nervous exhaustion or sexual stress are caused by excessive self-restraint.\n\nWHY: You believe you are being underestimated and find the current situation unpleasant. You have no like-minded people to ally with and make yourself more secure. You strive for recognition and respect from others. Control of self sensuality makes it difficult to give oneself. This leads to isolation and causes uncertainty, a desire to \"surrender\" and merge with others. You perceive such insecurity as a weakness and attempt to hide it. You mask it with apparent self-confidence, determination, and manner of expression. By doing this, you seek to evoke a sense of superiority. You try to establish yourself in this unpleasant temporary situation. You want to be seen as a desirable partner and admired for your personal qualities.";
+"-3-7"="📌 Frustration is caused by an undesirable situation.\n\nWHY: You feel helpless in an unbearably painful situation and powerless to resolve it. You are irritated by the inability to achieve your goal. That leads to nervous exhaustion. You want to get out of that situation. You desire to gain the freedom to decide and act.";
+
+"-4"="📌 Irritability or severe restlessness.\n\nWHY: Your expectations do not come true. This creates uncertainty and wariness. You need to feel a sense of security, confidence and reliability. You are afraid of disappointment, loss of prestige or position. You do not believe the situation will improve in the future. This leads to setting high expectations and being uncompromising.";
+"-4-0"="📌 Fear to miss an opportunity. Uncertainty. Tension.\n\nWHY: You believe life should give much more than it gives, wishes and hopes must necessarily be realized by themselves. Otherwise, there is a feeling of being bypassed, that life is colorless. Uncertainty causes noticeable worry. You show intense attention to not miss an opportunity and try to do everything to avoid accidental failures, loss of prestige or position. You need a sense of security.";
+"-4-1"="📌 Emotional frustration leads to anxiety.\n\nWHY: The deepest emotional connection has cracked. It is disappointing and seems like an oppressing burden. On the one hand, you desire to be completely free from this attachment. On another hand, you do not want to lose anything, get exposed to new disappointments or uncertainties. You perceive this discrepancy as delusion and try to suppress it with an attitude of indifference and inaccessible severity. ";
+"-4-2"="📌 Acute frustration due to conflict between anticipated and essential.\n\nWHY: Uncertainty and doubts that things will improve in the future are caused by frustration and unsatisfied hopes. That leads to putting off all essential decisions until later. This conflict between essential and anticipated creates high inner tension. You resort to banal conclusions instead of making a reasonable decision. You are inclined to engage in trifles as a means of salvation.";
+"-4-3"="📌 Disappointment leads to agitation and anxiety.\n\nWHY: You worry about succeeding in making a good impression. You believe you have the right to get anything you desire and suffer when a situation becomes unfavorable. You feel helpless, and just one possible failure brings the feeling of high distress. That might lead to nervous exhaustion. You perceive yourself as a misled victim and your trust was exploited. You take fiction for reality. You try to convince yourself that others are to blame for your failures.";
+"-4-5"="📌 Distrust, restraint, withdrawal from others and isolation. \n\nWHY: You are afraid of being carried away by your inspiration and imagination. You do not want to be seduced by hopes that will cruelly disappoint. As a result, you suppress your natural enthusiasm and artistic nature. You feel you are being misled and abused. You warily watch others' intentions towards yourself and critically evaluate if they are sincere. This wariness easily turns into suspicion. You might leave to keep away from others.";
+"-4-6"="📌 Anxiety hidden behind self-confidence and indifference.\n\nWHY: The current situation looks unpleasant and uncertain. You want to stand out from the crowd but are unable to become a member of a society that satisfies your high demands. This brings a sense of loneliness and uncertainty. Isolation feeling causes a strong need for connection. It is given the main importance, everything else is secondary. The interest circle has narrowed. Even physical pleasures fade away. However, this need contradicts your idea of controlling your desires. This leads to tension. You want to prove to others the uniqueness of your character. You try to suppress the need for contact with other people. Unconsciously you hide the fear of inferiority and put on an appearance of careless confidence and external determination. You strive to win the respect of others and behave with apparent independence and swagger. Anyone critical of such behavior is faced with dismissive indifference. However, behind the assumed indifference hides a thirst for approval and esteem of others.";
+"-4-7"="📌 Cautious self-defense as protection against further failures.\n\nWHY: Unrealized expectations caused doubt and intense alertness. You want to act freely and reject any control except for self-control. You do not want to limit yourself to anything. You crave reliable guarantees of protection from further problems or position loss. You do not believe the situation will improve. This leads to a limiting of your desires, increasing demands and a refusal to make reasonable compromises.";
+
+"-5"="📌 Suppressed sensitivity\n\nWHY: You see yourself refined and possessing an increased sensuality. You feel delighted and fascinated. However, you make sure to not get carried away. You deeply control your sensual relationships and like to know exactly what is hidden behind them. You want to trust and demand absolute sincerity to prevent the heartless use of your credulity.";
+"-5-0"="📌 Restlessness and suppressed sensuality.\n\nWHY: You are convinced that life can give much more than it currently offers. You expect in the future to find a pleasant, sensual connection full of mutual understanding. On another hand, you fear living without full dedication, that others will get ahead. You strive not to miss a single opportunity. Nevertheless, you should take care not to let yourself be carried away by your enthusiasm. You carefully monitor your emotional relationships to know exactly what is hidden behind them. You demand absolute sincerity as protection from your tendency to excessive credulity.";
+"-5-1"="📌 You keep active, do not allow a break for yourself and suppress depression.\n\nWHY: You are unhappy with current relationships and unable to refine them without co-operation. You lack understanding, kindness and concessions from others. You become grumpy, annoyed, depressed, and desire to get out of the situation. If not in reality, then at least in fantasy. Your ability to focus may suffer.";
+"-5-2"="📌 Feelings of humiliation and misjudgment.\n\nWHY: You get no trust, esteem and understanding in the current relationship and feel a humiliating lack of attention. You fear losing the attractiveness and respect of others. It hurts self-esteem. You consider yourself being bypassed, deprived of love and denied appreciation. You are broken by the struggle of fighting alone. You want admiration but constantly get misunderstood and feel no support from others. It seems there is no way to deal with it. You want to escape from the situation but has no strength to make such a vital decision.";
+"-5-3"="📌 Bitterness due to failure to get mutual understanding and sense of security.\n\nWHY: Increased sensitivity. You are eager to experience everything. You find the current situation very disappointing and suffer from your lack of power in achieving the intended goal. Hence, you feel nervous exhaustion. You need kind understanding and confidence in safety.";
+"-5-4"="📌 Distrust, restraint, withdrawal from others and isolation. \n\nWHY: You are afraid of being carried away by your inspiration and imagination. You do not want to be seduced by hopes that will cruelly disappoint. As a result, you suppress your natural enthusiasm and artistic nature. You feel you are being misled and abused. You warily watch others' intentions towards yourself and critically evaluate if they are sincere. This wariness easily turns into suspicion. You might leave to keep away from others.";
+"-5-6"="📌 Inability to maintain the relationship in the desired state.\n\nWHY: You seek a partner who satisfies your aesthetic taste, shows deep understanding and contributes to the establishment of a calm atmosphere. However, the compulsive desire to demonstrate your individuality forces you to take a critical position towards everything, including your partner. This leads to relationship discord. Next, there is a rapprochement and then there is alienation. Hence, the desired ideal condition has no chance to develop. Because of this, you focus on inner experiences and restrict yourself in the realization of physical needs. You believe this proves superiority and rises you above the crowd. However, the absence of the desired relationship weighs heavily, causing uncertainty. You carefully hide it behind apparent determination and manner of expression. Insightful, critical, demanding and picky, you possess a delicate taste and tend independent views. These qualities allow you to give an independent assessment of what is happening and to express opinions authoritatively. You enjoy everything original, clever and fine. You strive to connect with people who can contribute to your intellectual development. You want to be seen as a worthy partner.";
+"-5-7"="📌 Uninvited restrictions or constraints.\n\nWHY: You strive for a relationship based on frankness, mutual trust and honesty. You demand the freedom to decide based on your own beliefs. This especially applies to close ones. You reject any authoritarian interference. You want relationships that do not force compromise and have no interference with your goals.";
+
+"-6"="📌 Lack of attention to the body's needs. Suppression of sexual or physical desires.\n\nWHY: You want to unite with people of the same high standards and desire to stand out from the crowd. This leads to isolation and prevents the willingness to meet others. On the other hand, you want to give in and give free rein to your feelings. However, you perceive it as a weakness that must be fought. You believe such self-limitation brings avowal. You think it makes you a unique and inimitable individual, rises you above the crowd. You crave attention and recognition.";
+"-6-0"="📌 Lack of attention to the body's needs. Suppression of sexual or physical desires.\n\nWHY: The current situation is unpleasant. You consider it temporal and ambitiously hope to get ahead with great self diligence and a little help from others. You are ready to give up the satisfaction of physical and sensual pleasures to achieve that goal. You want to unite with people of the same high standards and desire to stand out from the crowd. Your close control over the realization of sexual desire reduces sociability. This isolation leads to a desire to be like everyone else. However, you perceive such desires as a weakness that must be fought. You want to become a successful person and have a more interesting and respectable lifestyle if possible. You like to be loved and admired selflessly. You seek recognition and want to play a decisive role. You can interfere in other people's affairs without observing due restraint and unnecessarily expresses your opinion.";
+"-6-1"="📌 Lack of attention to the needs of the body. Exorbitant self-limitation.\n\nWHY: You see no way for situation improvement without the cooperation of others. The absence of reasonable recognition, trust and respect makes you think a real union is impossible and leads to hypersensitivity. You want to feel more free and confident. In this situation, any relationships are perceived as a burden and dependency. You desire solitude to restore your individuality. You are not ready to communicate because of sensuality restraints. That causes isolation and leads to a strong desire to merge with others. That might be even to the detriment of a sense of self-confidence. A decrease in self-confidence is perceived as a weakness. You try to fight it with the help of apparent firmness and external determination. You believe constant self-control is the only way to asset yourself as an individual. You think only this allows to maintain your position despite real difficulties.";
+"-6-2"="📌 Excessive self-control, aimed at winning the respect of others.\n\nWHY: You desire to stand out from the crowd and want to unite with people with the same high living standards. This leads to high stress. However, you keep your attitude despite a lack of appreciation. You find the situation unpleasant and want a way out of the situation but refuse to sacrifice your own beliefs. You constantly postpone making the vital decision due to doubts about your ability to resist possible opposition. You need recognition from others, agreement with your wishes, and respect for your views. Only then you can feel safe and at ease.";
+"-6-3"="📌 Lack of attention to the body's needs. Suppression of sexual or physical desires.\n\nWHY: The current situation seems threatening. You feel underestimated. Among equals, you do not feel the necessary security. You seek recognition and respect from others. The self-control of sensuality makes it difficult to give yourself. This leads to isolation and causes uncertainty, a desire to give in and merge with others. You consider this insecurity to be a drawback and mask it with apparent self-confidence, determination, and manner of expression. By doing so, you seek to evoke a sense of superiority and establish yourself. You need recognition, attention and admiration of your traits by others. You want to look like a worthy partner in the eyes of others.";
+"-6-4"="📌 Anxiety hidden behind self-confidence and indifference.\n\nWHY: The current situation looks unpleasant and uncertain.  You are unable to become a member of a society that satisfies your high demands. You want to stand out from the crowd. This brings a sense of loneliness and uncertainty. Isolation feeling causes a strong need for connection. It is given the main importance, everything else is secondary. The interest circle has narrowed. Even physical pleasures fade away. However, this need contradicts your idea of controlling your desires. This leads to tension. You want to prove to others the uniqueness of your character. You try to suppress the need for contact with other people. You unconsciously hide the fear of inferiority and put on an appearance of careless confidence and external determination. You strive to win the respect of others. You behave yourself with apparent independence and swagger. Anyone critical of such behavior is faced with dismissive indifference. However, behind the assumed indifference you hide a thirst for approval and esteem of others.";
+"-6-5"="📌 Increased sensitivity. A relationship does not stay desired.\n\nWHY: You are responsive and sensitive to the softness and subtlety of feelings. In a relationship, you crave mystical fusion and erotic fascination. This desire stays unsatisfied due to the lack of a suitable partner or due to unfavorable circumstances. You keep your emotional relationships under strict control and believe it helps to know what you can count on. An aesthete, you have a well-mannered and refined taste that lets you formulate your preferences and opinions, especially in the field of art and artistic creativity. You seek to establish connections with those who can contribute to your intellectual or artistic growth.";
+"-6-7"="📌 Unpleasant restrictions or prohibitions. A desire for independence.\n\nWHY: You want to freely follow your beliefs and principles. You wish to develop your abilities and gain respect for yourself as an individual. You hope your activity and diligence will eliminate internal contradictions. You pursue your interests and fight against interference. You strive to use every opportunity to act without obeying any restrictions and prohibitions. You ignore your body's needs and use the energy at your disposal to achieve as much as possible.";
+
+"-7"="📌 Rising tension.\n\nWHY: You strive to act freely and independently. You dismiss any hindrances, restrictions and prohibitions except the ones that are imposed by you.";
+"-7-0"="📌 Increased sensitivity and involvement.\n\nWHY: You strive to overcome the joyless emptiness and disconnection. You believe life should give much more than it gives. You are afraid to miss your share of life's benefits if unable to make the best use of each case. You follow your goals with frantic strength and get involved so deep that often exceeds your authority. You offer services and expertise whenever possible and consider yourself quite competent in any field. Therefore, you often get considered annoying and intrusive, interfering in other people's affairs.";
+"-7-1"="📌 Striving for independence is due to emotional unhappiness.\n\nWHY: You perceive your situation or relationship as dissatisfying and see no way for improvement without the voluntary cooperation of others. As a result, you become incapable of heartfelt affection and devotion. You hide your vulnerability and think showing affection or excessive frankness is wrong. The current relationship seems like a burden. You want independence and a path clear of obstacles. At the same time, you do not want to take a risk or limit yourself in anything. All this causes increased and impatient reactions. Parallel desire to get rid of all this leads to severe anxiety and weakens your ability to focus.";
+"-7-2"="📌 Frustration at intolerable restrictions on your freedom of action.\n\nWHY: You strive for independence and freedom from any restrictions. You seek to avoid hindrances, responsibilities, everything that limits your freedom. You hope it will help you to avoid unpleasant relationships and stress. You feel a lot of pressure and want a way out but lack stamina and determination.";
+"-7-3"="📌 Frustration is caused by undesirable situation.\n\nWHY: You feel helpless in this unbearably painful situation and powerless to resolve it. You are irritated by the inability to achieve your goal. That leads to nervous exhaustion. You want to get out of that situation and do not feel restrictions anymore. You desire to gain the freedom to decide and act.";
+"-7-4"="📌 Self-defense against further failures.\n\nWHY: Unrealized expectations caused doubt and intense alertness. You want to act freely and reject any control except for self-control. You do not want to limit yourself to anything. You crave reliable guarantees of protection from further problems or position loss. You do not believe the situation will improve. This leads to a limiting of your desires, increasing demands and a refusal to make reasonable compromises.";
+"-7-5"="📌 Unpleasant prohibitions or restrictions.\n\nWHY: Sensitive and impressionable. You are inclined to get carried away and admire. You seek an idealized and not yet realized situation with complete harmony of feelings and aspirations. You desire deep mutual understanding and dream up of a connection full of coherence of feelings and mutual understanding. You believe that would make life interesting. Since such an idealized contact is unrealistic, the expectations are not met. This causes tension. You try to suppress the tension. You accept only an ideal relationship and do not allow any interference with personal interests. You believe too easy trusting others would lead to a risk that they will take advantage of it. Therefore, you require proof of sincerity. You strictly monitor your standing.";
+"-7-6"="📌 You disagree with prohibitions or restrictions.\n\nWHY: You demand independence and resist any pressure from others. You want to make decisions by yourself, without anyone's intervention. You hate monotony and mediocrity and feel disgusted by the equalizing impersonal approach. You are practically unable to admit your own mistakes because you assume your own opinion is the most authoritative. You need to make an effort on yourself to recognize the other's point of view. You strive to prove yourself as a person and stand out thanks to your successes.";
+
+
+////////////////////////////////////////////
+// GROUP +-  Actual Problem
+"+0-0"="Dual attitudes. You fluctuate from restless displeasure to calm happiness.";
+"+0-1"="Stress and tension are likely caused by circumstances or unsatisfied emotional needs. You want to escape from that and create an image of calm by forbidding yourself to get involved.";
+"+0-2"="You have significant stress and can not consolidate your position under your opinion about personal merits. You refuse any responsibility and have groundless attempts to 'show yourself'. However, you do not want any further involvement and try to avoid excessive demands on your limited capabilities.";
+"+0-3"="Exhausted. Any further demands or excitement are unbearable. Anxiety and acute pain are caused by the feeling of helplessness. You are trying to escape that by refusing to participate in anything. You hide your vulnerability and use a cautious approach. You hope to achieve the goal eventually.";
+"+0-4"="Sullen and depressed. Unfulfilled hopes cause frustration. High anxiety is caused by the fear of setting new goals. You try to get rid of this by shutting in on yourself. You become circumspect.";
+"+0-5"="You find others exploit or misunderstand your trust. You want to become less trusting. As a result, you develop an arrogant and restrained attitude towards others. You participate in activity only when convinced of the sincerity of others.";
+"+0-6"="You feel low respect by others. You are unable to stand out among your comrades. You suppress normal sociability and do not allow yourself to get involved in group activities.";
+"+0-7"="You want to be undisturbed and feel a need to defend yourself from external influences. You are afraid of losing independence. ";
+
+"+1-0"="You fear being obstructed from achieving your own goals. You need to achieve a calm and stable state to free oneself from that fear.";
+"+1-1"="Dual attitudes. You fluctuate from restless displeasure to calm happiness.";
+"+1-2"="You do not have sufficient abilities or strength to cope with current circumstances. This leads to stress, anxiety and an unadmitted feeling of inferiority. You want to escape into a calmer and problem-less environment. You seek a situation where there is no need to defend your own rights and resist the pressure of those seeking to dominate.";
+"+1-3"="Unbearable feeling due to exhausted condition. You are annoyed by the demands on what is asked of your abilities. A feeling of incapability causes anxiety and suffering.  You give up struggling in order to escape from this situation and try to find a calm and peaceful environment to recover in conditions of security and peace.";
+"+1-4"="Unfulfilled hopes cause frustration. The fear of setting new goals leads to anxiety. You try to find salvation in a calm and balanced relationship. You believe it gives protection from disappointment and lack of respect.";
+"+1-5"="You want to become less trusting because others exploit or misunderstand your trust. You seek a calm relationship with sensual intimacy. In such a relationship everyone would know precisely the position of the other.";
+"+1-6"="You desire to be respected and appreciated, and you try to find it in communication based on mutual respect.";
+"+1-7"="You want to avoid involvement in disputes and disagreements, and prefer to be left alone.";
+
+"+2-0"="You are afraid of being obstructed from achieving your goals. You demand others to recognize your right to pursue your goals.";
+"+2-1"="Stress and tension are likely caused by circumstances or unsatisfied emotional needs. You deny their existence and hide unhappiness behind bogus asserts of independence and self-sufficiency.";
+"+2-2"="Dual attitudes. You fluctuate between self-insistence and a wish to avoid the opposing counter-resistance.";
+"+2-3"="Exhausted. Any further demands or excitement are unbearable. You feel helpless and incapable of controlling the course of events. This creates irritation and strong anxiety. You try to escape that by stubbornly defending your own viewpoint. Such attempts often fail. You become very touchy and sensitive to criticism.";
+"+2-4"="You fear there is no point in defining new goals. This leads to frustration and anxiety. You crave recognition, want to hold a high position and worry about actual odds to succeed. You react with protest to criticism and resist any influence attempts. You try to declare yourself by pedantically dominating in small things.";
+"+2-5"="You strive to strengthen your position and self-respect. You thoroughly analyze your and others' achievements. You demand clarity in everything.";
+"+2-6"="You adhere to high aesthetic standards and have an aversion to mediocrity. You need to be appreciated and respected as an exceptional person by others. This would increase your self-esteem and give you a feeling of being valuable.";
+"+2-7"="You resist external impacts and withstand tampering with your freedom to make decisions and build plans. You try to improve the current position and gain a foothold in it.";
+
+"+3-0"="You are afraid of being obstructed from achieving your goals. This forces you to act with tense and feverish haste.";
+"+3-1"="Stress and anxiety are likely caused by circumstances or unsatisfied emotional needs. You are trying to get out of that by creating intense activity aiming either at gaining personal success or at accruing experience.";
+"+3-2"="You have insufficient abilities or strength to cope with circumstances. This leads to stress, anxiety and an unadmitted feeling of inferiority. You attempt to get rid of all this by developing intense activity. You demand the right to do things your own way. Unhealthy self-control can lead to uncontrollable outbursts of anger.";
+"+3-3"="Dual attitudes. You fluctuate between a desire to do things your way and a wish to be left alone.";
+"+3-4"="Unfulfilled hopes cause frustration. The fear of setting new goals leads to anxiety. You want to be in a circle of like-minded people and have the ability to develop freely. You feel emptiness in your relationships and obstacles in development. You react to this vehemently and show even more intense activity aimed at achieving the goal at any cost.";
+"+3-5"="You want to act incontinently and freely. You are limited by the personal need to build everything on a rational, firm and well-defined foundation.";
+"+3-6"="You get pleasure from the activity itself. You want to be appreciated and respected for your own achievements.";
+"+3-7"="You struggle with restrictions or prohibitions. You demand to be given the opportunity to develop freely without help from the side.";
+
+"+4-0"="You are afraid of being obstructed from achieving your goals. This leads into a hectic search for satisfaction in unreal and pointless activities.";
+"+4-1"="Your stress and anxiety are likely caused by circumstances or unsatisfied emotional needs. You feel misunderstood and confused. You seek new situations or relationships in hope to get greater satisfaction and calmness.";
+"+4-2"="You have insufficient abilities or strength to cope with circumstances. This leads to stress, anxiety and an unadmitted feeling of inferiority. You seek external evidence of self-abilities and values in order to raise your self-esteem. You are inclined to blame others to remove the blame from yourself. You restlessly seek a way out and tend to spontaneous desires and impulsive rejections.";
+"+4-3"="Nervous excitement. Unpredictable behavior. Irritability. Reduced energy. Low tolerance for others' demands. You feel powerless to deal with all that. You think there is a threat in the circumstances and hope an intuitive solution will show up and lead to salvation.";
+"+4-4"="Dual attitudes. You fluctuate between an optimistic desire for achievement of something and dark pessimism.";
+"+4-5"="You fiercely criticize the existing conditions. You believe the conditions are barely defined and disorganize activities. You seek a way out to clarify the situation, bring order to it.";
+"+4-6"="You do not feel appreciated enough and seek opportunities to show your own worth.";
+"+4-7"="You believe opportunities and growth are constrained. You seek a way out and want to get rid of the restrictions.";
+
+"+5-0"="You are afraid of being obstructed from achieving your own goals. You use personal charm, hoping that it will help you achieve goals.";
+"+5-1"="Your stress and anxiety are likely caused by circumstances or unsatisfied emotional needs. You seek to escape into a perfectionlized environment of empathy and comprehension. You might start looking for an atmosphere of aestheticism.";
+"+5-2"="You have insufficient ability or strength to cope with circumstances. This leads to stress, anxiety and an unadmitted feeling of inferiority. You escape from this by fleeing into an illusory artificial world.";
+"+5-3"="Exhausted. Any further demands or excitement are unbearable. You feel helpless and not capable of controlling the course of events. This creates irritation and anxiety. You try to escape from this by fleeing into an illusory artificial world.";
+"+5-4"="Unfulfilled hopes cause frustration. The fear of setting new goals leads to anxiety. You escape from this by fleeing into an illusory artificial world. The world without disappointments where everything is as you desire.";
+"+5-5"="Dual attitudes. You fluctuate between the desire for easy fellowship and contempt for people because they lack taste and intelligence.";
+"+5-6"="You are impressed by everything unusual or original. This includes people with outstanding abilities. You try to adopt admired qualities and behave in an original way.";
+"+5-7"="You seek to decide your own fate and prevent any limitations of freedom to take action. You avoid criticism and use personal charm in dealing with people.";
+
+"+6-0"="You are afraid of being obstructed from achieving your goals. You want a more secure and conflict-free situation. You crave a state of stability and the opportunity to relax.";
+"+6-1"="Your stress and anxiety are likely caused by circumstances or unsatisfied emotional needs. You seek salvation in a safe, conflict-free situation. You want to get some rest and recover.";
+"+6-2"="You have insufficient ability or strength to cope with circumstances. This leads to stress, anxiety and an unadmitted feeling of inferiority. You seek salvation in a stable and secure atmosphere, free from any further demands. You want a chance to relax and recover.";
+"+6-3"="Exhausted. Any further demands or excitement are unbearable. You feel helpless and incapable of controlling the course of events. This creates irritation and strong anxiety. You seek salvation in a stable and secure environment. You want to get some rest and recover.";
+"+6-4"="The fear of setting new goals leads to anxiety. Misunderstood and underestimated. You suffer from a lack of close relationships. You seek salvation in a stable and secure environment. You want to get some rest and recover.";
+"+6-5"="You want to protect yourself against conflicts and criticism. You wish to establish yourself in a secure and stable position. You are inclined to treat others critically. Hence, it is difficult to please you.";
+"+6-6"="Dual attitudes. You fluctuate between the desire for safety and the thirst for recognition.";
+"+6-7"="You seek an environment without demands and disturbances. You want security.";
+
+"+7-0"="You are afraid of being obstructed from achieving your goals. It makes you use any opportunities that life offers. You only use them to prove that none of them is of any value. This destructive mockery becomes a means to hide your helplessness and a deep sense of hopelessness.";
+"+7-1"="Stress and anxiety are likely caused by circumstances or unsatisfied emotional needs. You feel misunderstood by others. As a result, you show an arrogant and defiant attitude toward others.";
+"+7-2"="You have insufficient abilities or strength to cope with circumstances. This leads to stress, anxiety and an unadmitted feeling of inferiority. Your inability to impose your will in any way forces you to over-react and show overzealousness. You blame others for all your own failures.";
+"+7-3"="Exhausted. Any further demands or excitement are unbearable. You feel helpless and distressed. You believe to be a victim in this situation and show resentment. You demand to be given the opportunity to act in your own way. ";
+"+7-4"="Unfulfilled hopes cause frustration. The fear of setting new goals leads to anxiety. You feel emptiness and self-contempt but do not want to admit the latter and attempt to hide it. You behave willfully and defiantly with others.";
+"+7-5"="Natural ability to analyze everything took a distorted form. You have a tendency to harsh criticism. You desire to deny and question everything without looking at the facts.";
+"+7-6"="You demand everyone's attention focus on you. You refuse to play impersonal or secondary roles. You want to play an eminent role that would make you recognizable or famous. You crave admiration and respect.";
+"+7-7"="Dual attitudes. You fluctuate between ordinary individualism and furious mockery of any other viewpoint.";
+
+
+//////////////////////////////////////////////
+// -----------------------------------------//
+//////////////////////////////////////////////
+// GROUP +  Desired Objective --> YOU WANT XXX
+"_+0"="Non-involvement";
+"_+0+1"="Calm and peaceful environment";
+"_+0+2"="Protection from conflicts and quarrels";
+"_+0+3"="Admiration by your achievements";
+"_+0+4"="Freedom from depressing burdens";
+"_+0+5"="Idealized tender intimacy";
+"_+0+6"="Freedom from problems and anxiety";
+"_+0+7"="Change of the current situation";
+
+"_+1"="Calm state and sense of belonging";
+"_+1+0"="Stress relief and calmness";
+"_+1+2"="Peaceful stress relief";
+"_+1+3"="Intimate union full of love";
+"_+1+4"="Tenderness in relationships";
+"_+1+5"="Sensitivity, harmony and tenderness";
+"_+1+6"="Refuge from conflicts.";
+"_+1+7"="Rest, peace and caring understanding";
+
+"_+2"="Recognition and resistance overcome";
+"_+2+0"="Make a strong impression";
+"_+2+1"="Feel appreciated and admired";
+"_+2+3"="Recognition and success";
+"_+2+4"="Popularity and adoration";
+"_+2+5"="Influence and special recognition";
+"_+2+6"="Recognition, security and less problems";
+"_+2+7"="Superiority to any weakness";
+
+"_+3"="Live life to the fullest";
+"_+3+0"="Follow your impulses";
+"_+3+1"="Erotic and emotional satisfaction";
+"_+3+2"="Special recognition from your success";
+"_+3+4"="Success, certainty, a life full of impressions";
+"_+3+5"="Charm and influence others";
+"_+3+6"="Comfort and security";
+"_+3+7"="Make up the leeway";
+
+"_+4"="A change of scenery";
+"_+4+0"="Escape all oppressing things";
+"_+4+1"="Relief and satisfaction";
+"_+4+2"="Prove yourself and gain recognition";
+"_+4+3"="Wider influence";
+"_+4+5"="Interesting or exciting events";
+"_+4+6"="Physical ease, no problems, security";
+"_+4+7"="Mindlessly solve problems";
+
+"_+5"="Identify with something, gain followers";
+"_+5+0"="Sympathetic understanding and no disputes";
+"_+5+1"="Sympathetic bond and perfect harmony";
+"_+5+2"="Appear as extraordinary person";
+"_+5+3"="Recognition of your exciting personality";
+"_+5+4"="Interesting and exciting events";
+"_+5+6"="Voluptuous atmosphere";
+"_+5+7"="Sensual satisfaction via a bond";
+
+"_+6"="Problem-free calm state";
+"_+6+0"="Hassle-free lifestyle and relaxation";
+"_+6+1"="Physical and tender satisfaction";
+"_+6+2"="Safe and calm environment";
+"_+6+3"="Satisfaction of all physical needs";
+"_+6+4"="Start believing";
+"_+6+5"="Voluptuousness satisfaction";
+"_+6+7"="Comfortable, problem-free environment";
+
+"_+7"="Relief of circumstances";
+"_+7+0"="Protection from anything depressing";
+"_+7+1"="To be left alone";
+"_+7+2"="Liberty and self-determination";
+"_+7+3"="Freedom to act";
+"_+7+4"="A way out of your problems";
+"_+7+5"="Perfect match of ideas and emotions";
+"_+7+6"="Calm and problem-free environment";
+
+
+////////////////////////////////////////////
+// GROUP x  Situation now --> YOU ARW XXXX
+// This represents a barrier between the compensatory colors which precede it and the remaining colors the point at
+// which switching-off has ­ curred. The + group is thus the sole mechanism through which participating experience is
+// possible. Emphasizes the characteristics of the + group and makes them more compulsive.
+"_x0"="Limiting emotional readiness";
+"_x0x1"="Relatively passive and unable to build relationships";
+"_x0x2"="Trying stubbornly to achieve your goals";
+"_x0x3"="Having issues in making progress";
+"_x0x4"="Unable to decide how to act";
+"_x0x5"="Unable to achieve the desired intimacy";
+"_x0x6"="Unable to apply effort to reach goals";
+"_x0x7"="Trying to free from restrictions";
+
+"_x1"="Acting calmly";
+"_x1x0"="Under some strain";
+"_x1x2"="Acting orderly and independently";
+"_x1x3"="Unwilling to take the leading position";
+"_x1x4"="Collectivist";
+"_x1x5"="Sensitive, ready for warm relationship";
+"_x1x6"="Avoiding excessive efforts";
+"_x1x7"="Unable to handle insufficient respect";
+
+"_x2"="Persistent";
+"_x2x0"="Determined to pursue the goals";
+"_x2x1"="Accurate, methodical and self-contained";
+"_x2x3"="Trying to defeat the opposition";
+"_x2x4"="Trying to improve your position";
+"_x2x5"="Trying to improve your image";
+"_x2x6"="Building a solid base the future";
+"_x2x7"="Pursuing your goals stubbornly";
+
+"_x3"="Active but doubt the progress";
+"_x3x0"="Focusing on personal desires";
+"_x3x1"="Working well in collaboration";
+"_x3x2"="Firmly following own intentions";
+"_x3x4"="Fickle and outgoing";
+"_x3x5"="Easily participating in exciting activities";
+"_x3x6"="Opposed to making any excessive efforts";
+"_x3x7"="Annoyed by issues in the desires pursuit";
+
+"_x4"="Attracted by anything new or exciting";
+"_x4x0"="Seeking a solution to problems";
+"_x4x1"="Easily influenced by others";
+"_x4x2"="Hoping for improved position";
+"_x4x3"="Frustrated with slow progress";
+"_x4x5"="Seeking situation to show your abilities";
+"_x4x6"="Looking for a problem-free environment";
+"_x4x7"="Seeking a way out of the current situation";
+
+"_x5"="Seeking to express the need for identification";
+"_x5x0"="Seeking a close bond in shared intimacy";
+"_x5x1"="Looking to share a bond of tender intimacy";
+"_x5x2"="Trying to improve your image";
+"_x5x3"="Easily engaging in exciting things";
+"_x5x4"="Sensitive and imaginative";
+"_x5x6"="Sensuous";
+"_x5x7"="Seeking close relationship";
+
+"_x6"="Anxious and insecure in this situation";
+"_x6x0"="Tired and unable to move toward goal";
+"_x6x1"="Evading extra effort";
+"_x6x2"="Struggling with hardships";
+"_x6x3"="Having issues in making progress";
+"_x6x4"="Longing fewer problems";
+"_x6x5"="Longing for physical and sensual pleasure";
+"_x6x7"="Deeply emotionally distressed";
+
+"_x7"="Stubborn in demands";
+"_x7x0"="Tired by current situation";
+"_x7x1"="Seeking a devoted partner";
+"_x7x2"="Standing by your demands stubbornly";
+"_x7x3"="Being obstructed in your desires";
+"_x7x4"="Seeking a way out of the current situation";
+"_x7x5"="Seeking close relationship";
+"_x7x6"="Deeply emotionally distressed";
+
+
+////////////////////////////////////////////
+// GROUP =  Indifferent -- YOU WILL XXX || Awaits you
+"_=0"="Participation in everything";
+"_=0=1"="Deep feelings from relationship";
+"_=0=2"="Receive less than should";
+"_=0=3"="Apathy and anxiety";
+"_=0=4"="Great demands from relations with close ones";
+"_=0=5"="Delicate reaction";
+"_=0=6"="Emotional Engagement";
+"_=0=7"="Involuntary compromises";
+
+"_=1"="Emotional detachment";
+"_=1=0"="Not seeking depth of feelings";
+"_=1=2"="Low appreciation";
+"_=1=3"="Isolation feeling";
+"_=1=4"="High demands in partner choosing";
+"_=1=5"="Hypersensitivity";
+"_=1=6"="Emotional closeness";
+"_=1=7"="Involuntary compromises";
+
+"_=2"="Position consolidation";
+"_=2=0"="Lack of confidence";
+"_=2=1"="Misunderstanding and undervaluation";
+"_=2=3"="Gave in, agree to adapt";
+"_=2=4"="Perseverance, following your goal";
+"_=2=5"="Compromise with maximum benefit";
+"_=2=6"="Striving to satisfy physical needs";
+"_=2=7"="Submission to the situation";
+
+"_=3"="Calming";
+"_=3=0"="Silence and peace";
+"_=3=1"="Disconnected feeling";
+"_=3=2"="The best use of the situation";
+"_=3=4"="Activity field extension";
+"_=3=5"="High sensitivity";
+"_=3=6"="Exit from distressing situation";
+"_=3=7"="Refusal of all joys and pleasures";
+
+"_=4"="Careful choice of partner";
+"_=4=0"="Careful search for a partner";
+"_=4=1"="Emotion precision";
+"_=4=2"="Flexibility and adaptability";
+"_=4=3"="Activity field expansion";
+"_=4=5"="Egocentrism, touchiness";
+"_=4=6"="Idealization of sexual life";
+"_=4=7"="Compromises in the current situation";
+
+"_=5"="Increased touchiness";
+"_=5=0"="Possibility of open conflicts";
+"_=5=1"="Troubles forming attachment";
+"_=5=2"="Restraint of emotions";
+"_=5=3"="Distress about misunderstanding";
+"_=5=4"="Insecurity";
+"_=5=6"="Emotional indifference";
+"_=5=7"="Intimacy only in exceptional cases";
+
+"_=6"="Satisfaction of physical needs";
+"_=6=0"="Emotional engagement";
+"_=6=1"="Emotional isolation";
+"_=6=2"="Satisfaction of physical needs";
+"_=6=3"="Getting rid of an unpleasant situation";
+"_=6=4"="Striving for a perfect sex life";
+"_=6=5"="Emotional indifference, but high vulnerability";
+"_=6=7"="Compromises and temporary denial of some pleasures";
+
+"_=7"="Compromises and giving up some pleasures for now";
+"_=7=0"="Forced compromises";
+"_=7=1"="Emotional suppression and unwitting compromises";
+"_=7=2"="Compromises and rejection of desirable things";
+"_=7=3"="Rejection of all joys and pleasures";
+"_=7=4"="Commitment to the set goals, forced compromises";
+"_=7=5"="Intimacy self-prohibition";
+"_=7=6"="Compromises and temporary denial of some pleasures";
+
+
+////////////////////////////////////////////
+// GROUP -  Rejection - Stress Source
+"_-0"="Hasty participation";
+"_-0-1"="Hectic frustration";
+"_-0-2"="Unbearable demands";
+"_-0-3"="Helpless anger";
+"_-0-4"="Vulnerability";
+"_-0-5"="Emotions suppression";
+"_-0-6"="Vanity";
+"_-0-7"="Future-oriented pursuit";
+
+"_-1"="Overwhelming situation";
+"_-1-0"="Joyless relationship";
+"_-1-2"="Overstrain";
+"_-1-3"="Painful relationship";
+"_-1-4"="Emotions in relationship";
+"_-1-5"="No mutual understanding";
+"_-1-6"="Low self-esteem";
+"_-1-7"="Fear to change";
+
+"_-2"="Indecision under stress";
+"_-2-0"="Fruitless stubbornness";
+"_-2-1"="Burnout";
+"_-2-3"="High demands";
+"_-2-4"="Loss of self-belief";
+"_-2-5"="Sense of insignificance";
+"_-2-6"="Indecision";
+"_-2-7"="Limited freedom";
+
+"_-3"="Powerlessness";
+"_-3-0"="Hassle and despair";
+"_-3-1"="Relationship discord";
+"_-3-2"="Helpless indignation";
+"_-3-4"="Bogus self-justification";
+"_-3-5"="Unfulfilled hope";
+"_-3-6"="Undervalued";
+"_-3-7"="Painful situation";
+
+"_-4"="Stagnation";
+"_-4-0"="Fear of mistake";
+"_-4-1"="Holds to unhappy emotion";
+"_-4-2"="Loss of self-belief";
+"_-4-3"="Bogus self-justification";
+"_-4-5"="Low self-esteem";
+"_-4-6"="Loss of trust";
+"_-4-7"="Over-caution";
+
+"_-5"="Sensation control";
+"_-5-0"="Controlled sensuality";
+"_-5-1"="Restlessness";
+"_-5-2"="Sense of insignificance";
+"_-5-3"="Unfulfilled hope";
+"_-5-4"="Low self-esteem";
+"_-5-6"="Excessive criticism";
+"_-5-7"="Freedom to act";
+
+"_-6"="Unique snowflake";
+"_-6-0"="Extravagance";
+"_-6-1"="Weak self-confidence";
+"_-6-2"="Indecision";
+"_-6-3"="Self-isolation";
+"_-6-4"="Loss of trust";
+"_-6-5"="Aestheticism";
+"_-6-7"="Purposefulness";
+
+"_-7"="Control own fate";
+"_-7-0"="Intrusiveness";
+"_-7-1"="Fear to change";
+"_-7-2"="Limited freedom";
+"_-7-3"="Painful situation";
+"_-7-4"="Over-caution";
+"_-7-5"="Inflated expectations";
+"_-7-6"="Excessive ambition";
+
+
+////////////////////////////////////////////
+// GROUP +-  Actual Problem
+"_+0-0"="Dual attitudes";
+"_+0-1"="Unsatisfied emotional needs";
+"_+0-2"="Excessive demands on you";
+"_+0-3"="New demand are unbearable";
+"_+0-4"="Unfulfilled hopes";
+"_+0-5"="Others exploit your trust";
+"_+0-6"="Sociability suppression";
+"_+0-7"="Fear to lose independence";
+
+"_+1-0"="Fear of being obstructed";
+"_+1-1"="Ambivalence";
+"_+1-2"="Inability to cope with situation";
+"_+1-3"="Exhausted condition";
+"_+1-4"="Unrealized hopes";
+"_+1-5"="Others exploit your trust";
+"_+1-6"="Desire for respect";
+"_+1-7"="Disputes and disagreements";
+
+"_+2-0"="Fear of obstacles";
+"_+2-1"="Unmet emotional needs";
+"_+2-2"="Ambivalent attitude";
+"_+2-3"="Exhausted, demands are unbearable";
+"_+2-4"="Fear defining new goals";
+"_+2-5"="Position strengthening";
+"_+2-6"="Respect from others";
+"_+2-7"="Resistance to external impacts";
+
+"_+3-0"="Fear someone will interfere";
+"_+3-1"="Dissatisfied emotions";
+"_+3-2"="Over demanding situation";
+"_+3-3"="Ambivalent attitude";
+"_+3-4"="Unfulfilled hopes";
+"_+3-5"="Self restraining";
+"_+3-6"="Respect by others";
+"_+3-7"="Restrictions";
+
+"_+4-0"="Fear of being blocked";
+"_+4-1"="Unmet emotions";
+"_+4-2"="Circumstances are too difficult";
+"_+4-3"="Feeling powerless";
+"_+4-4"="Duality";
+"_+4-5"="Chaotic conditions";
+"_+4-6"="Lack of appreciation";
+"_+4-7"="Limited growth possibility";
+
+"_+5-0"="Fear of being impeded";
+"_+5-1"="Unsatisfied emotions";
+"_+5-2"="Circumstances are over demanding";
+"_+5-3"="Tired, demands are unbearable";
+"_+5-4"="Fear setting new goals";
+"_+5-5"="Dual attitude";
+"_+5-6"="Original behavior";
+"_+5-7"="Freedom to choose and act";
+
+"_+6-0"="Fear of obstacles";
+"_+6-1"="Unsatisfied feelings";
+"_+6-2"="Circumstances are too requiring";
+"_+6-3"="Unbearable demands";
+"_+6-4"="Fear establishing new goals";
+"_+6-5"="Position strengthening";
+"_+6-6"="Dual attitudes";
+"_+6-7"="Lack of security";
+
+"_+7-0"="Fear of being stopped";
+"_+7-1"="Misunderstood by others";
+"_+7-2"="Demanding circumstances";
+"_+7-3"="Drained, demands are unbearable";
+"_+7-4"="Fear making new goals";
+"_+7-5"="Questioning everything";
+"_+7-6"="Crave for admiration";
+"_+7-7"="Dualism";
+

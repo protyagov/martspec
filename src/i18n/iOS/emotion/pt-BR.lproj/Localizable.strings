@@ -1,0 +1,887 @@
+"COLOR_NUMBER"="cor %d/8";
+"SELECT_COLOR_1"="Escolha a cor que você deseja primeiro";
+"SELECT_COLOR_2"="Escolha sua próxima cor";
+"T_SUMMARY" = "Resumo";
+"SELECT_COLOR_SHORT"="Melhor cor?";
+"TRIAL_NUMBER"="teste %d/2";
+"B_NEXT" = "próximo";
+"B_DONE" = "dispensar";
+"B_BACK" = "Voltar";
+"TITLE" = "Emoção";
+"SUBTITLE" = "Teste de personalidade mais rápido";
+"COMPD"="Entenda sua mente";
+
+"T_PASS_DONE1"="Bem feito!";
+"T_PASS_DESC1"="A primeira metade do teste está concluída.";
+"T_PASS_DONE2"="Importante";
+"T_PASS_DESC2"="Ao selecionar as cores, NÃO tente se lembrar de suas escolhas da primeira parte. NÃO tente associar cores a objetos, - carros, roupas, prédios, etc. Basta selecionar a cor que você mais gosta neste momento.";
+
+"GROUP_TITLE_+" = "Você quer";
+"GROUP_TITLE_x" = "Condição Atual";
+"GROUP_TITLE_=" = "Possível no futuro";
+"GROUP_TITLE_-" = "Fonte de estresse";
+"GROUP_TITLE_+-"= "Problema Atual";
+
+
+////////////////////////////////////////
+// ANXIETY
+"GROUP_TITLE_A" = "Nível de ansiedade";
+"A1" = "Pouca Ansiedade";
+"A2" = "Alguma ansiedade";
+"A3" = "Tensão Emocional";
+"A4" = "Estado de Desadaptação";
+"A5" = "Estresse fisiológico e psicológico";
+
+// Shown under first section when applicable
+"*" = "Há um conflito leve";
+"**" = "Há um conflito tangível";
+"***" = "Grave conflito interno";
+
+
+////////////////////////////////////////
+// PRODUCTIVITY
+"GROUP_TITLE_P" = "Produtividade";
+"GROUP_DESC_P" = "Mostra o quão produtivo você é. Use isso para prever a eficácia de suas atividades (incluindo profissionais). Com base na sua seleção de cores, calculamos sua tensão mental. Se a tensão for alta, sua força é gasta na manutenção da integridade mental, no combate aos problemas pessoais, na superação da fadiga, etc. Isso leva a uma menor produtividade.
+
+Por exemplo, trabalhar por muito tempo sob constante tensão volitiva; constante falta de oportunidade de descanso adequado; bem como doenças crônicas graves que esgotam o corpo, - todas causam um aumento significativo na tensão mental e menor produtividade.
+
+A alta tensão mental se manifesta em atividades sociais limitadas e casos regulares de “cansaço de tudo”. Sem forças para sequer definir novas metas. Falta de confiança. O humor é dominado por uma expectativa ansiosa de problemas. Decepção com o curso da vida. Seu cérebro redireciona toda a energia para amortecer os problemas e reconciliar motivos opostos. Sua atenção é direcionada para o mundo interior tenso.
+
+Quando sua produtividade está baixa é melhor parar o que está fazendo e descansar. Não adianta continuar com a tarefa atual porque sua produtividade não é a ideal.";
+"P1_short"="Você precisa descansar e se recuperar";
+"P2_short"="Trabalhe menos, descanse mais";
+"P3_short"="Bom para rotinas";
+"P4_short"="Envolver atividade motivadora";
+"P5_short"="Encare as tarefas mais difíceis";
+
+"P1"="Você está muito cansado. A tensão mental é bastante alta. Sua atenção é facilmente distraída por coisas estranhas. Você está ficando preso em experiências emocionais. A ausência de motivos bem definidos o torna reativo e sem propósito. O humor pode flutuar entre excitação e depressão no menor tempo possível. Todo o estado emocional é dominado pela ansiedade, uma premonição de problemas e falta de vontade de fazer qualquer coisa. Sua reação e manuseio de uma situação extrema não é confiável.";
+"P2"="Seu potencial é baixo enquanto a tensão mental improdutiva é alta. Você se força a fazer certas coisas. O autocontrole constante aumenta a fadiga. O trabalho intensivo prolongado pode custar muito caro em termos de saúde. Esse custo será muito desigual o que você será capaz de realizar. Emocionalmente, você experimenta ansiedade, aumento da excitabilidade e incerteza. Em uma situação estressante, é provável que haja interrupção da atividade e do comportamento.";
+"P3"="Nível de produtividade médio. Você lida com suas tarefas dentro dos limites da média estabelecida, nada de extraordinário. O trabalho e as atividades de rotina são mais adequados. Em um ambiente familiar, você passa do trabalho para o descanso e volta, de um tipo de atividade para outra sem dificuldades significativas. Se necessário, você é capaz de superar a fadiga por esforço volitivo. No entanto, isso leva a um longo período de eficiência e bem-estar reduzidos. Para manter uma boa saúde e desempenho, você precisa de uma divisão clara de tempo de trabalho e descanso.";
+"P4"="Você é ativo e experimenta apenas uma pequena tensão mental. Você tem energia suficiente para explosões ocasionais de hiperatividade inacessíveis para a maioria das pessoas. Quando motivado por atividades interessantes, você não sente dificuldades com memorização e reprodução de curto e longo prazo em formação.";
+"P5"="Você é ativo e não tem tensão mental. Suas ações são diversas e sua eficiência geral é alta. Emocionalmente você é otimista e tem autocontrole obstinado. A vontade não suprime sua personalidade, apenas coordena seus desejos não contraditórios. Com a motivação adequada, você é capaz de trabalhar intensamente por um longo tempo. Em situações extremas, você efetivamente se mobiliza e se concentra na conclusão da tarefa.";
+
+
+////////////////////////////////////////
+// ENERGY
+"GROUP_TITLE_E" = "Energia";
+"GROUP_DESC_E"="Você precisa de energia para se envolver em uma atividade. Com pouca energia (nível vermelho ou organge) é difícil completar uma atividade, e nessas situações recomendamos descansar para se recarregar. Além disso, muita energia (nível roxo ) deixa você exigente, reativo demais e não é o melhor para maximizar sua eficiência. O nível verde é o melhor para qualquer atividade, mental ou física.";
+"E1"="Exaustão. Fadiga crônica. Sua mente está definida para a inatividade. Você não está pronto para agir adequadamente em uma situação estressante e não está pronto para a tensão resultante desse estresse. Como resultado, você reage passivamente às dificuldades. Você precisa de diversos e extensa recuperação e descanso.";
+"E2"="O uso de energia é otimizado. A necessidade de recuperação e descanso é moderada. O potencial energético é baixo, mas suficiente para uma atividade bem-sucedida nas condições habituais de tranquilidade. Em uma situação extrema, é provável que haja um atraso na tomada de decisão fazer.";
+"E3"="Seus recursos estão mobilizados e prontos para ação engajada. Este nível de energia é ideal para atividades físicas e mentais. Em uma situação extrema, suas respostas e velocidade de tomada de decisão estão no nível máximo. A conveniência e o sucesso de suas ações são provavelmente.";
+"E4"="Você está superexcitado e agitado. O nível de energia é muito alto. Você pode se envolver em uma atividade não por causa da atividade em si, mas apenas descarregar-se. Em situações difíceis, seu autocontrole emocional diminui e você reage febrilmente: impulsividade, impaciência e ações precipitadas.
+Em situações extremas, a eficácia de suas ações é baixa, enquanto as reações de pânico são mais prováveis. São necessários diversos procedimentos relaxantes e calmantes.";
+"E1_short"="Esgotado";
+"E2_short"="Moderado";
+"E3_short"="Ótimo";
+"E4_short"="Excessivo";
+
+
+////////////////////////////////////////
+"PERCENT_MAN"="%.1f%% das pessoas tem isso";
+"T_LIST_NEW_HISTORY" = "história";
+"NEW_TEST_ROW_TITLE"="Novo teste";
+"NEW_TEST_ROW_SUBTITLE"="Toque para iniciar o teste";
+
+
+////////////////////////////////////////
+/* Help Screen*/
+"HELP_ROW_TITLE"="Construir juntos";
+"HELP_ROW_SUBTITLE"="Melhore este aplicativo";
+"HELP_HEADER"="Ajude-nos";
+"HELP_INTRO"="Este aplicativo é 100% gratuito, possui zero anúncios e não usa seus dados para fins lucrativos. Na Martspec, também é um dos nossos valores fundamentais. Nós não armazenamos seus dados, eles são armazenados no iCloud da sua Apple privada.
+Por favor, ajude-nos a tornar este aplicativo ainda melhor. Existem várias maneiras de você ajudar:";
+
+"HELP_OPT1_T" = "Revisão";
+"HELP_OPT1_D" = "O que diferencia este aplicativo dos outros e o incentiva a usá-lo? O que você mais gosta neste aplicativo? Existem áreas que nós, Martspec, podemos melhorar? Precisamos sentir e entender que o aplicativo ajuda você, melhora sua saúde e bem-estar.";
+"HELP_OPT1_B" = "Avaliar aplicativo";
+
+"HELP_OPT2_T" = "Amigo";
+"HELP_OPT2_D" = "Ao compartilhar o aplicativo, você pode impactar positivamente outras pessoas e ajudá-las a aprender algo novo. Talvez eles possam achar este aplicativo tão útil quanto você.";
+"HELP_OPT2_B" = "Compartilhe";
+
+"HELP_OPT3_T" = "Linguagem 🇧🇷";
+"HELP_OPT3_D" = "Talvez seu idioma nativo não seja exibido corretamente neste aplicativo. Você pode ser voluntário e ajudar na ortografia gramaticalmente correta do texto.";
+"HELP_OPT3_B" = "Contate-nos";
+
+"HELP_OPT4_T" = "Social";
+"HELP_OPT4_D" = "Agradecemos se você apoiar a causa de um estilo de vida saudável compartilhando boas palavras sobre este aplicativo em uma rede social. Este aplicativo pode beneficiar e enriquecer a vida de outras pessoas.";
+
+
+
+////////////////////////////////////////
+// Description for each functional group
+"GROUP_DESC_+" = "Este grupo define um desejo por algo. O principal método de agir. Os meios para atingir o objetivo. Ao mesmo tempo, este grupo mostra exatamente o que uma pessoa deseja alcançar.";
+"GROUP_DESC_x" = "Este grupo define o estado atual das coisas. A situação em que você está agora. Como você está vivenciando a situação no momento. Este grupo também pode significar o tipo de ações exigidas de você pelas circunstâncias atuais.";
+"GROUP_DESC_=" = "Este grupo mostra o que está sendo mantido em reserva. Não aplicável no momento e pode ser caracterizado como indiferença. \n\nVocê não vê isso como algo negativo ou significativo, você vê tudo isso como impraticável no No entanto, se as circunstâncias mudarem no futuro, tudo isso pode entrar em ação.";
+"GROUP_DESC_-" = "Este grupo mostra insatisfação com certas necessidades humanas básicas. Essa insatisfação causa uma sensação de perda e aumenta a ansiedade. Isso provavelmente é percebido como uma rejeição emocional inconscientemente por você. Geralmente, ela se manifesta como uma ansiedade obscura.\n \nO estresse geralmente causa uma forma compensatória de comportamento. Raramente leva à resolução do estresse. Normalmente, tudo se transforma em uma forma de substituição de satisfação.\n\nQualquer substituição compensatória é um desvio do comportamento ideal. Seu bom senso começa a obedecer a alguns programas internos ditando determinado comportamento.";
+"GROUP_DESC_+-" = "Este grupo define um problema ou conflito que tem o potencial de evoluir para um transtorno, psicológico ou mesmo médico. A origem do problema está no grupo 📌 \"Fonte de Estresse\". Nem todas as fontes de o estresse cria um problema. Este aplicativo calcula se existe compensação suficiente para o estresse. Se a compensação for insuficiente, então um problema real aparece.\n\nSomente um monge experiente ou um ancião sábio pode viver renunciando às preocupações terrenas. Todos nós queremos algo. Temos desejos. Desejamos alcançar algo. Talvez estejamos tentando remover algo de nossas vidas. Claro, isso cria um pouco de estresse. Isso é normal e não é um conflito, é um incentivo à ação.\n\n O \"Problema real\" sempre tem vários lados. Inclui tanto a fonte de estresse quanto aquele que está tentando resolvê-lo. Por exemplo, um chefe no trabalho. O próprio chefe não é um problema. Isso se torna um problema quando alguém começa a interagir com essa pessoa, tentando descobrir COMO resolver uma situação de trabalho de uma determinada maneira.\nEntão a chave para resolver o problema é \"COMO\".";
+
+
+
+////////////////////////////////////////
+// GROUP +  Desired Objective
+"+0"="Você não está disposto a participar de nada e quer evitar todas as formas de motivação. Você suportou demais e está cansado de influências externas. Você deseja proteção e não envolvimento.";
+"+0+1"="Você se sente exausto por conflitos e brigas. Você deseja proteção contra explicações e brigas. Você precisa de um ambiente tranquilo e calmo para relaxar e se recuperar.";
+"+0+2"="As circunstâncias existentes parecem hostis. Você está exausto por conflitos e brigas. Você quer proteção contra isso. Você esconde suas intenções para evitar expô-los a um ataque, para que sejam mais seguros e fáceis de alcançar. Você evita passos que possam causar oposição.";
+"+0+3"="Você esconde suas demandas ampliadas sobre a vida por trás de racionalização ilusória e comportamento cauteloso. Você deseja impressionar os outros com suas realizações. O próprio desejo é escondido ou mascarado diplomaticamente.";
+"+0+4"="Você está insatisfeito com a situação atual. Você quer estar livre de fardos deprimentes e intoleráveis. Você procura uma saída, mas sente que não há solução e não há saída. Você tenta evitar o envolvimento em discussões ou conflitos.";
+"+0+5"="Você é fascinado pela ideia de intimidade idealizada baseada no charme e ternura de ambas as partes. Você tem medo de permitir que isso apareça abertamente e prefere táticas de sondagem cuidadosas. Na busca desse objetivo, você permanece frio e esconde seus sentimentos.";
+"+0+6"="Você busca proteção contra fatores que podem cansar ou esgotar. Você anseia por uma vida de segurança e conforto físico, uma vida livre de problemas e ansiedade.";
+"+0+7"="Você sente tratamento injusto e traição de esperanças. Você está insatisfeito com as circunstâncias e tenta se rebelar contra elas. Você percebe a situação atual como humilhação e insulto.";
+
+"+1"="Você anseia por um estado calmo e pacífico, harmonia nos relacionamentos, satisfação e um sentimento de pertencimento.";
+"+1+0"="Você precisa de alívio do estresse e anseia por paz, calma e satisfação.";
+"+1+2"="Você precisa de um ambiente calmo e harmonioso. Você quer alívio do estresse pacificamente, sem discussões desnecessárias. Você busca a liberdade de conflitos ou desentendimentos. Você tenta resolver as dificuldades e problemas atuais procedendo com cautela. Você pode sentir sutilmente e mostrar muita atenção aos mínimos detalhes.";
+"+1+3"="Você se esforça para relacionamentos ternos, agradáveis e harmoniosos. Você deseja uma união íntima cheia de amor, devoção e confiança mútua. Você tenta estabelecer relações de confiança com outras pessoas. Você considera a harmonia na família um pré-requisito para a felicidade pessoal.";
+"+1+4"="Você busca ternura em relacionamentos que trariam satisfação e felicidade. Você é capaz de forte elevação emocional, inspiração. Você está disposto a se adaptar e obedecer para que a união baseada na ternura se torne uma realidade. Ao mesmo tempo, você exige uma atitude de precaução dos outros.";
+"+1+5"="Você busca sensibilidade, harmonia, afeto e ternura. Você deseja se dissolver neles. Sutilmente você sente a beleza estética e pode imbuir os sentimentos do outro.";
+"+1+6"="Você busca refúgio de conflitos que oferece segurança e bem-estar físico. Você precisa de tratamento atencioso e cuidado amoroso. Você tem medo da solidão e do vazio da separação.";
+"+1+7"="Você precisa urgentemente de descanso, relaxamento, paz e compreensão carinhosa. Você acredita ser tratado com falta de respeito. Você se sente incompreendido pelos outros. Como resultado, você ficou ansioso e chateado, sentiu superexcitação. Você acha a situação intolerável enquanto suas reivindicações não forem cumpridas.";
+
+"+2"="Você busca flexibilidade e determinação de vontade para fortalecer o status e ganhar independência apesar da dificuldade do cargo atual. Você se esforça para superar a resistência e alcançar o reconhecimento.";
+"+2+0"="Você deseja fortalecer sua posição e causar uma forte impressão nas pessoas, apesar das circunstâncias desfavoráveis e da completa falta de apreciação ou reconhecimento. Você é inacessível. Você pode se sentir confiante sem ficar sob a influência de alguém.";
+"+2+1"="Você quer causar uma impressão favorável e receber a aprovação dos outros. Há uma necessidade de se sentir apreciado e admirado. Você é sensível e facilmente se machuca se não receber o reconhecimento adequado.";
+"+2+3"="Você busca reconhecimento e sucesso. Você quer superar todos os obstáculos e resistências. Você se esforça para decidir de forma independente, agir de forma consistente, mostrar iniciativa. Você não quer depender da boa vontade dos outros.";
+"+2+4"="Ambicioso. Você precisa de reconhecimento e quer impressionar e ser admirado. Você se esforça para ser popular e admirável. Você procura preencher a lacuna que o separa dos outros.";
+"+2+5"="Sensível à estética. Você quer causar uma impressão favorável e se esforça para ser visto como uma pessoa extraordinária. Você acompanha constantemente (com intensa atenção) seus sucessos e como os outros reagem a eles. Isso dá uma sensação de superioridade e autocontrole. Você usa vários métodos bem pensados para ganhar influência e reconhecimento especial.";
+"+2+6"="Você acredita que muito é exigido de você e, portanto, se sente exausto. Você tenta superar a resistência e se estabelecer apesar das possíveis consequências desagradáveis. Você é orgulhoso, não reclama e assume uma posição de \"submissão relutante\". Você precisa de reconhecimento, segurança e se livrar de pelo menos alguns dos problemas.";
+"+2+7"="Você quer provar a si mesmo e aos outros que nada pode afetá-lo. Você mostra superioridade a qualquer forma de fraqueza. Você age com aspereza, despoticamente e deliberadamente para não se ofender.";
+
+"+3"="Forte, enérgico, vital. Você obtém satisfação com a ação. O mais importante é o sucesso ou a vitória. Você quer viver a vida ao máximo.";
+"+3+0"="Você quer varrer tudo o que fica no caminho. Você segue seus próprios impulsos e participa de todos os tipos de eventos extraordinários ou emocionantes. Ao fazer isso, você espera diminuir a gravidade dos conflitos. No entanto, devido ao comportamento impulsivo, muitas vezes você se comporta de maneira arriscada.";
+"+3+1"="Você luta por uma vida rica em atividade e experiência que traga satisfação erótica e emocional. Nesta proximidade você vê o pré-requisito para a felicidade.";
+"+3+2"="Você persegue obstinadamente os objetivos estabelecidos para si mesmo e não permite nenhum desvio do caminho pretendido. Você quer superar os obstáculos para alcançar um reconhecimento especial. Pelo resultado desta atividade, você julga sua capacidade de defender os direitos pessoais.";
+"+3+4"="Você anseia por sucesso, emoção, uma vida cheia de impressões. Você quer se livrar dos grilhões da incerteza. Você se esforça para se desenvolver livremente, conquistar e viver intensamente. Você está aberto a qualquer coisa nova. Você tem muitos interesses. Entusiasmado. Você busca ampliar o campo de atuação e olha para o futuro com otimismo.";
+"+3+5"="Você é absorvido por coisas que excitam ou capturam fortemente, causam excitação erótica ou qualquer outra. Você se esforça para excitar os outros e interessá-los como pessoa, para ser cativante. Você quer manter os outros na esfera de ação do charme e influência pessoal. Você é guiado por seus sentimentos. Você administra habilmente suas ações para não comprometer as chances pessoais de sucesso e não minar a confiança dos outros em você.";
+"+3+6"="Você rejeita as ilusões, o sentimentalismo e o desejo de prestígio. Você prefere levar tudo com calma e se concentrar em satisfazer a necessidade de conforto e segurança.";
+"+3+7"="Você está superando obstáculos abruptamente. Você sente que algo está faltando na vida. Você quer recuperar o atraso vivendo com intensidade exagerada. Você acredita que isso o libertaria de tudo o que oprime.";
+
+"+4"="Você precisa de uma mudança de cenário para se livrar da tensão. Uma mudança de ambiente abrirá novas oportunidades para se expressar com mais sucesso onde as esperanças se tornarão realidade.";
+"+4+0"="Você busca uma fuga de tudo o que oprime agarrando-se a vagas esperanças baseadas em ilusões.";
+"+4+1"="Você espera encontrar alívio e satisfação em uma união baseada no amor. A necessidade de aprovação dos outros cria motivação para ajudar os outros. Em troca, você espera calor e compreensão. Você acolhe novas oportunidades e ideias. Você espera que eles sejam frutíferos e interessantes. Você espera um enriquecimento intelectual deles.";
+"+4+2"="Você é vigilante e profundamente observador. Você procura novas oportunidades que ofereçam maior liberdade e a chance de se sentir mais forte. Você quer provar a si mesmo e ganhar reconhecimento. Você acredita que existe uma lacuna que o separa dos outros. Você se esforça para preencher a lacuna.";
+"+4+3"="Você é movido por esperanças e desejos. A necessidade de sentir \"a causa\" e uma esfera de influência mais ampla o deixa inquieto, agitado. Você corre o risco de espalhar suas forças expandindo demais as atividades.";
+"+4+5"="Você anseia por reuniões ou eventos interessantes e emocionantes. Você está inclinado a fantasiar e imaginar muito. Sonhar acordado acontece com frequência. Você quer ser amado apenas por causa de seu charme pessoal.";
+"+4+6"="Exausto, desesperado. Você precisa de alívio físico e mental, liberdade de qualquer problema, segurança e chance de recuperação.";
+"+4+7"="Você ignora a complexidade e a tensão das situações sem tentar resolver os problemas. Suas ações são impensadas, teimosas, inesperadas e ilógicas.";
+
+"+4"="Você precisa de uma mudança de cenário para se livrar da tensão. Uma mudança de ambiente abrirá novas oportunidades para se expressar com mais sucesso onde as esperanças se tornarão realidade.";
+"+4+0"="Você procura uma fuga de tudo o que oprime, agarrando-se a vagas esperanças baseadas em ilusões.";
+"+4+1"="Você espera encontrar alívio e satisfação em uma união baseada no amor. A necessidade de aprovação dos outros cria motivação para ajudar os outros. Em troca, você espera calor e compreensão. Você acolhe novas oportunidades e ideias. Você espera que eles sejam frutíferos e interessantes. Você antecipa o enriquecimento intelectual deles.";
+"+4+2"="Você é vigilante e profundamente observador. Você busca novas oportunidades que ofereçam maior liberdade e a chance de se sentir mais forte. Você quer provar a si mesmo e ganhar reconhecimento. Você acredita que há uma lacuna separando-se dos outros. Você se esforça para preencher a lacuna.";
+"+4+3"="Você é movido por esperanças e desejos. A necessidade de sentir \"a causa\" e uma esfera de influência mais ampla o deixa inquieto, agitado. Você corre o risco de espalhar suas forças expandindo demais as atividades.";
+"+4+5"="Você anseia por reuniões ou eventos interessantes e emocionantes. Você está inclinado a fantasiar e imaginar muito. Sonhar acordado acontece com frequência. Você quer ser amado apenas por causa do charme pessoal.";
+"+4+6"="Exausto, desesperado. Você precisa de alívio físico e mental, liberdade de qualquer problema, segurança e uma chance de se recuperar.";
+"+4+7"="Você ignora a complexidade e a tensão das situações sem tentar resolver os problemas. Suas ações são impensadas, teimosas, inesperadas e ilógicas.";
+
+"+5"="Você sente a necessidade de se identificar com alguém ou alguma coisa. Você deseja ganhar apoio por seu charme e amabilidade. Você quer ganhar seguidores por carisma pessoal e simpatia. Sentimental. Você anseia por uma ternura romântica.";
+"+5+0"="Você anseia por uma compreensão sutil e solidária. Você quer se proteger de disputas, conflitos, tensões cansativas. Você se comporta diplomaticamente e com cuidado.";
+"+5+1"="Você anseia por um vínculo terno e solidário. Você se esforça para a harmonia perfeita. A necessidade de ternura e afeto é alta. Você deseja se tornar muito amado. Você é sensível à beleza estética. Você é capaz de ser imbuído dos sentimentos do outro. Você pode se deixar levar por isso.";
+"+5+2"="Você quer causar uma impressão favorável e gosta de ser visto como uma pessoa extraordinária. Você monitora de perto seu sucesso nisso e como os outros reagem. Isso lhe dá uma sensação de autocontrole e controle sobre a situação. Você emprega várias técnicas e táticas inteligentes para obter reconhecimento e influência. Você é atraído por tudo o que é estético e incomum.";
+"+5+3"="Você é facilmente levado por qualquer coisa excitante. Pode ser erótico ou alguns outros estímulos. Você se esforça para ser reconhecido pelos outros como uma personalidade atraente e excitante. Você não permite que outras pessoas saiam da área do seu charme. Você usa táticas inteligentes para proteger as chances de sucesso e evitar a desconfiança dos outros.";
+"+5+4"="Você quer que coisas interessantes e emocionantes aconteçam. Você pode se tornar querido pelos outros usando seu charme e interesse óbvio para eles. Você está inclinado a fantasiar e imaginar muito. Sonhar acordado acontece com frequência.";
+"+5+6"="Você quer encontrar emoção em uma atmosfera cheia de prazeres e luxo sensual.";
+"+5+7"="Você busca constantemente um vínculo com outra pessoa para satisfazer suas necessidades de satisfação sensual. O vínculo deve ser baseado em uma sobreposição de sentimentos e crenças.";
+
+"+6"="Você procura um estado calmo, livre de problemas. Nesse estado você espera lidar com as necessidades corporais reais, relaxar e se recuperar.";
+"+6+0"="Você precisa muito de descanso e relaxamento, liberdade de conflitos e a chance de se recuperar. Você quer se proteger de influências negativas e exaustivas. Você se esforça para um estilo de vida livre de problemas.";
+"+6+1"="Você se esforça para obter satisfação física e terna sem conflitos. Você precisa de patrocínio, de um protetor, para não sofrer com a separação ou o vazio da solidão.";
+"+6+2"="Você se mantém sob estrito controle para resistir à pressão e à influência externa. Você precisa de um ambiente seguro e calmo para se sentir mais seguro e ter a chance de se recuperar.";
+"+6+3"="Você está sob o controle de impulsos sensualmente fortes. Você se esforça para a satisfação de todas as necessidades físicas. Você aumentou a sensibilidade às mudanças internas no corpo.";
+"+6+4"="Você sente que as esperanças não se tornarão realidade. Como resultado, você se entrega com uma vida ociosa, livre de quaisquer problemas.";
+"+6+5"="Você procura luxo, prazeres excitantes, conforto sensual e a oportunidade de satisfazer o vício da voluptuosidade.";
+"+6+7"="Você define metas idealistas, mas irrealistas. Você está extremamente desapontado e ignora a vida em uma auto-aversão cansada. Você quer esquecer tudo e se recuperar em um ambiente confortável e livre de problemas.";
+
+"+7"="A situação atual parece desagradável e muito exigente. Você ignora qualquer coisa que possa mudar seu ponto de vista.";
+"+7+0"="A situação parece desesperadora. Você expressa insatisfação e resiste fortemente a qualquer coisa desagradável. Você tenta se proteger de tudo que possa irritar ou aprofundar a depressão.";
+"+7+1"="Você sofre os efeitos de coisas que são rejeitadas neste teste como desagradáveis. Você protesta fortemente contra eles. Você exige ser deixado sozinho.";
+"+7+2"="Você resiste teimosamente a qualquer restrição ou oposição. Você se apega fortemente ao próprio ponto de vista. Você acredita que isso mostra sua independência e autodeterminação.";
+"+7+3"="A superexcitação causa sofrimento. Os impulsos suprimidos podem explodir em uma poderosa explosão de comportamento extremo descontrolado.";
+"+7+4"="Você procura escapar de problemas, dificuldades e tensões por meio de ações inesperadas e inconsistentes. Você quer desesperadamente uma saída. Você é capaz de ações imprudentes, até a autodestruição.";
+"+7+5"="Você exige dos outros a combinação perfeita de ideias e emoções com as suas. Você não se compromete com isso.";
+"+7+6"="Você acha que os velhos objetivos são ilusões. Você sente uma amarga decepção com as expectativas e se afasta delas com aborrecimento. Você busca o esquecimento e o relaxamento em um ambiente calmo e sem problemas.";
+
+
+////////////////////////////////////////////
+// GROUP x  Situation now
+// This represents a barrier between the compensa­tory colors which precede it and the remaining colors—the point at
+// which “switching-off” has oc­ curred. The + group is thus the sole mechanism through which participating experience is
+// possible. Emphasizes the characteristics of the + group and makes them more compulsive.
+"x0"="Você limita a prontidão emocional para se comunicar para evitar tensões de conflito.";
+"x0x1"="Você é relativamente passivo e em um estado estático. Alguns conflitos interferem na paz de espírito. Você é incapaz de construir relacionamentos que satisfaçam a afeição e a compreensão mútuas.";
+"x0x2"="Você tenta teimosamente atingir os objetivos, apesar da resistência e da alta dificuldade da situação. Você esconde intenções de enfraquecer ou derrotar a oposição.";
+"x0x3"="Há desafios para progredir. Você tenta esconder a impulsividade. As ações levam a problemas e incertezas. Isso o torna sensível e irritável.";
+"x0x4"="Esperanças não cumpridas. Prontidão limitada para contatos. Tensão interna. Uma saída não é visível.";
+"x0x5"="Medo de rejeição. Cuidado extremo. Você tem dificuldade em alcançar a desejada intimidade ou semelhança com os outros.";
+"x0x6"="Você se sente negligenciado. Você quer maior segurança, carinho e menos problemas. Você é incapaz de aplicar esforço para atingir metas.";
+"x0x7"="Você se recolhe em si mesmo. A situação atual causa estresse. Você tenta se libertar de coisas restritivas.";
+
+"x1"="Você age com calma e não fica muito chateado. Você deseja manter o controle dos relacionamentos existentes. Você gosta de se sentir relaxado e à vontade na companhia de pessoas próximas. Você está pronto para a calma, aliviando o estresse e estabelecendo relacionamentos próximos.";
+"x1x0"="Sensível e responsivo. Você está sob alguma tensão e precisa relaxar na companhia de alguém próximo.";
+"x1x2"="Atua de forma ordenada, metódica e independente. Constrói relacionamentos calmos e duradouros. Precisa da terna compreensão, reconhecimento e aprovação de alguém.";
+"x1x3"="Você trabalha bem em cooperação com os outros. Você não está disposto a assumir a posição de liderança. Você quer basear sua própria vida na compreensão mútua e na ausência de divergências. Você deseja uma combinação harmoniosa de atividade sexual e bondade.";
+"x1x4"="Coletivista. Você se adapta facilmente ao grupo. Você se sente calmo apenas quando está intimamente ligado a uma pessoa, grupo ou organização confiável. Seu humor é afetado pela atitude do grupo em relação a você.";
+"x1x5"="Confidencial. Você precisa de um ambiente estético ou de um parceiro igualmente sensível e compreensivo para compartilhar uma intimidade calorosa. Você está pronto para esse relacionamento.";
+"x1x6"="Você evita esforços excessivos e prefere uma situação de paz e segurança, proporcionada por proteção e cuidado. Você quer uma comunicação amigável e conforto físico.";
+"x1x7"="Você não consegue lidar com o respeito insuficiente de pessoas próximas. Você precisa de companhia calorosa. Você romperia relações e se fecharia em si mesmo sem isso.";
+
+"x2"="Você é persistente e exige o que, na sua opinião, lhe pertence. Você tenta manter a estabilidade da posição pessoal.";
+"x2x0"="Estado defensivo. Você sente que sua posição atual não é forte o suficiente e está sob um fio. Você está determinado a perseguir objetivos pessoais. Você ignora a ansiedade e a irritação causadas pela oposição.";
+"x2x1"="Você é preciso, metódico e auto-suficiente. Você gosta de provar o seu caso. Você precisa de respeito, reconhecimento e compreensão dos próximos. Você prefere um ambiente calmo.";
+"x2x3"="Você é autoritário ou investido com a autoridade da posição. Você acredita que alguém limita a demonstração de sua iniciativa e sente que as dificuldades existentes colocam em questão outros sucessos. Você procura uma maneira de derrotar a oposição e teimosamente adere aos objetivos.";
+"x2x4"="Você está tentando melhorar a posição pessoal e o prestígio. Você está insatisfeito com a situação atual. Você acha que algumas melhorias são essenciais para a auto-estima e prestígio.";
+"x2x5"="Você tenta melhorar sua própria imagem aos olhos dos outros. Você deseja obter sua conformidade e concordância com suas necessidades e desejos.";
+"x2x6"="Você constrói uma base sólida para um futuro confiável e livre de problemas que deve trazer liberdade e segurança.";
+"x2x7"="Você persegue objetivos e interesses pessoais com determinação teimosa. Sem concessões e compromissos.";
+
+"x3"="Ativo. Você acredita que o progresso é inadequado ou a recompensa recebida não vale o esforço aplicado.";
+"x3x0"="Irritável e impulsivo. Você se concentra em desejos e atividades pessoais. Você tenta se realizar através deles. As consequências de tais atividades são de importância secundária. Isso leva a conflitos e estresse.";
+"x3x1"="Você prefere trabalhar em colaboração com os outros. Você quer liberdade da discórdia. Você precisa de uma vida pessoal baseada na compreensão mútua e na harmonia de interesses pessoais.";
+"x3x2"="Independente. Você segue firmemente suas intenções e aspirações. Você gosta de tomar a iniciativa de superar obstáculos e dificuldades. Você ocupa ou quer uma posição de autoridade para ter poder sobre os acontecimentos.";
+"x3x4"="Inconstante e extrovertido. Você precisa sentir que os eventos estão se desenvolvendo na direção desejada. Caso contrário, o aborrecimento pode causar variação ou futilidade das atividades. Você acredita que alguém o impede de se expressar ativamente.";
+"x3x5"="Você participa facilmente de atividades excitantes ou estimulantes. Você quer se sentir alegre.";
+"x3x6"="Você se opõe a se estender ou fazer esforços excessivos, exceto talvez na atividade sexual. Você sente que mais sucesso requer muito esforço, mais do que você pode dar. Você prefere conforto e segurança moderados às recompensas de grandes ambições.";
+"x3x7"="Você está incomodado com as dificuldades na realização dos desejos. Você se sente impedido de conseguir coisas que parecem essenciais. Suas demandas insatisfeitas podem levar a retraimentos no eu interior com desgosto.";
+
+"x4"="Você está pronto para contatos. Você é atraído por qualquer coisa nova, moderna ou excitante. Você fica entediado com tudo o que é trivial, comum, comum ou tradicional.";
+"x4x0"="Você procura uma solução para problemas ou ansiedade. Você luta com a decisão do curso certo.";
+"x4x1"="Você é facilmente influenciado pelos outros. Você é afetado pelo humor do grupo. Você acredita que o bem-estar pessoal depende da harmonia das relações com os outros. Você procura estabelecer tal relacionamento e atividades que os apoiem.";
+"x4x2"="Você espera obter uma posição melhorada e maior prestígio. Isso tornaria as coisas desejáveis acessíveis.";
+"x4x3"="Amigável, inquieto e ativo. Você está frustrado porque as coisas estão progredindo lentamente na direção desejada. Isso leva à irritação, hesitação e falta de persistência em perseguir seus objetivos.";
+"x4x5"="Imaginativo e sensível. Você procura situações em que essas habilidades possam ser mostradas. Você prefere a companhia de pessoas igualmente sensíveis. Qualquer coisa aventureira e incomum evoca rapidamente seu interesse e entusiasmo.";
+"x4x6"="Inseguro. Você procura um ambiente livre de problemas. Você quer sentir estabilidade, segurança emocional e física à vontade.";
+"x4x7"="Você é temperamental e obstinado. Você rejeita qualquer conselho dos outros. A situação existente tem algo ameaçador ou elementos de crítica. Você procura uma saída e pode agir de repente e de forma imprudente. Você está tenso e impaciente.";
+
+"x5"="Você procura um ambiente para nutrir e expressar com segurança a elegância estética e emocional pessoal.";
+"x5x0"="Você busca um vínculo próximo e compreensivo em uma atmosfera de intimidade compartilhada. Você quer proteção contra ansiedade e conflitos.";
+"x5x1"="Você quer compartilhar um vínculo de terna intimidade em uma atmosfera estética de paz e amor.";
+"x5x2"="Você está tentando melhorar sua própria imagem aos olhos dos outros. Você usa o charme para insistir em satisfazer seus desejos. Você acha que as exigências feitas a você são difíceis, exigindo muito esforço.";
+"x5x3"="Você se envolve facilmente em coisas que proporcionam emoção. Você quer se sentir feliz. Você está entusiasmado com coisas sensualmente inspiradoras.";
+"x5x4"="Sensível e imaginativo. Você procura uma saída para essas qualidades. Você está pronto para contatos leves e estimulantes, especialmente de alguém igualmente sensível. Qualquer coisa aventureira e incomum rapidamente evoca seu interesse.";
+"x5x6"="Confidencial. Você gosta de coisas que dão prazer sensual. Você rejeita qualquer coisa sem gosto, vulgar ou rude.";
+"x5x7"="Você precisa de um relacionamento próximo. Você busca compreensão ou um senso de comunidade com alguém. Você exige pelo menos algum método que satisfaça a necessidade de se sentir reconhecido.";
+
+"x6"="Você se sente ansioso e inseguro na situação existente. Você precisa de uma sensação de alta segurança e um ambiente mais quente. Alternativamente, uma situação com menos estresse físico ajudaria.";
+"x6x0"="Você se sente cansado e incapaz de fazer qualquer esforço para alcançar metas. Você acha que é negligenciado. Você não tem afeto caloroso. A situação não parece suficientemente segura. Você acredita que os outros estão jogando em você muitos problemas.";
+"x6x1"="Você evita esforço extra. Você precisa de segurança e comunicação gentil. Você pode estar em más condições físicas. Você precisa de cuidados e atenção suaves.";
+"x6x2"="Você luta com dificuldades. É difícil atender às demandas colocadas. Você precisa de uma situação calma e quer se sentir à vontade.";
+"x6x3"="Você tem dificuldade em progredir. Você não quer mais aplicar esforços adicionais. Você se esforça para um ambiente mais relaxado, onde a perturbação possa ser evitada.";
+"x6x4"="Inseguro. Você procura razões sólidas para se sentir seguro. Você precisa de um ambiente que proporcione maior facilidade e menos problemas. Você não está disposto a gastar quaisquer esforços na tentativa de resolver isso.";
+"x6x5"="Sensual. Você está ansiando por coisas que dão prazer físico e sensual. Você rejeita qualquer coisa sem gosto, vulgar ou rude.";
+"x6x7"="Esforço excessivo. Possivelmente doença física. Você precisa de ajuda nutritiva para curar. A angústia emocional tomou uma forma séria. A autoestima caiu. Você precisa de um ambiente calmo.";
+
+"x7"="Você romperia relações se suas demandas não fossem satisfeitas.";
+"x7x0"="Insatisfeito. Você percebe a situação atual como repugnante. Você está cansado de participar disso. Você quer encontrar uma solução para todas as dificuldades causadas pela situação.";
+"x7x1"="Você precisa de silêncio e paz. Você quer ter um parceiro próximo e dedicado. Você pretende fazer exigências excessivas a esse parceiro. Você está pronto para romper o relacionamento se essas exigências não forem atendidas. Isso pode causar uma completa retirada para o eu interior.";
+"x7x2"="Você acredita que suas demandas são extremamente modestas e devem ser atendidas prontamente. Você os defende com teimosia e não faz concessões.";
+"x7x3"="Você se sente intencionalmente bloqueado e impedido de obter as coisas desejadas. Você planeja sair e \"bater a porta\" se nada funcionar.";
+"x7x4"="Você está insatisfeito com a situação existente. Você o percebe como ameaçador ou contendo elementos cruciais. Você procura uma saída e recusa qualquer conselho dos outros. Você pode agir de repente e de forma imprudente.";
+"x7x5"="Você exige ter um relacionamento próximo e compreensivo. Você recusa relacionamentos que não trazem intimidade completa e refinada. Você quer se sentir semelhante a alguém.";
+"x7x6"="Sobretensão. Grave sofrimento emocional. Possivelmente doença física. Baixa auto-estima. Você precisa de ajuda carinhosa e um ambiente calmo.";
+
+
+////////////////////////////////////////////
+// GROUP =  Indifferent
+"=0"="Você está pronto para participar de qualquer coisa. Você se deixa envolver, mas evita conflitos e inquietações para reduzir a tensão.";
+"=0=1"="Altas expectativas emocionais dos relacionamentos. Você quer ser admirado pelos outros. Isso leva à frustração e pode empurrá-lo para o isolamento interno. Isso geralmente é causado pela centralização na mãe. Pode resultar em ressentimento da mãe ou forte apego a ela.";
+"=0=2"="Você acredita que está recebendo menos do que deveria. Você tolera isso e tenta tirar o melhor proveito dessa situação.";
+"=0=3"="Você experimenta apatia e ansiedade. Você se sente cercado e acredita que as circunstâncias o fazem restringir desejos pessoais. Você está tentando evitar conflitos abertos e buscar calma e paz.";
+"=0=4"="Você é exigente e exigente nas relações com parceiros e pessoas próximas. Você tenta evitar conflitos abertos para manter altas as chances de cumprir as esperanças.";
+"=0=5"="Egocêntrico. Você reage sutilmente e se ofende facilmente.";
+"=0=6"="Você está pronto para se envolver emocionalmente. Você recebe prazer de satisfazer necessidades físicas, incluindo sexuais.";
+"=0=7"="Você se sente forçado a fazer concessões por enquanto. Você acredita que isso ajuda a evitar o isolamento e manter o carinho de algumas pessoas.";
+
+"=1"="Você permanece emocionalmente desapegado, mesmo quando envolvido em um relacionamento próximo.";
+"=1=0"="Você tem altas reivindicações emocionais e quer estar em um relacionamento próximo. No entanto, você não busca nenhuma profundidade especial de sentimentos.";
+"=1=2"="Você acha que merece mais, sente-se incompreendido e não apreciado o suficiente. Você acredita que há uma necessidade de se adaptar aos outros. Você sente que relacionamentos íntimos não trazem nenhuma sensação de envolvimento emocional.";
+"=1=3"="Você se sente desconectado dos outros. A dificuldade em construir relacionamentos gentis e harmoniosos leva à infelicidade. Você acredita na própria incapacidade de experimentar afeição sincera.";
+"=1=4"="Você é exigente e exigente na escolha de um parceiro. Você conhece suas próprias necessidades emocionais. Você quer ser independente das emoções. Isso torna a intimidade emocional com qualquer pessoa impossível.";
+"=1=5"="Egocêntrico. Você se ofende facilmente. Muitas vezes você se encontra isolado nos relacionamentos.";
+"=1=6"="Uma atividade sexual dá satisfação física. Você não se apaixona e fica emocionalmente fechado. Você come sem muito interesse em comida.";
+"=1=7"="Suas circunstâncias atuais estão forçando você a se comprometer. Temporariamente, você desiste das coisas que gosta e subordina suas intenções e desejos à situação. Emocionalmente contido. É difícil para você construir uma afeição firme e reconfortante.";
+
+"=2"="As circunstâncias negam a oportunidade de consolidar sua posição. Você tenta fazer o melhor na situação.";
+"=2=0"="A falta de confiança. Você não quer admitir. Você evita cuidadosamente conflitos abertos e quer fazer o melhor na situação.";
+"=2=1"="Você acha que merece mais. Você se sente incompreendido e não valorizado o suficiente. Você acredita que há uma necessidade de se adaptar aos outros. Você sente que relacionamentos íntimos não trazem nenhuma sensação de envolvimento emocional.";
+"=2=3"="Infeliz. Qualquer tentativa de defender seus direitos causa resistência. Isso leva à indignação. Você cede com indiferença e concorda em se adaptar o máximo possível. Você quer paz e sossego.";
+"=2=4"="Você acredita que tem mais problemas e dificuldades do que os outros. Você obstinadamente persegue seus objetivos e tenta superar as dificuldades. Você mostra flexibilidade e adaptação.";
+"=2=5"="Você acha que não há ninguém em quem confiar para obter compreensão ou simpatia. Você reprime emoções. Você tem a sensação de não receber uma parte justa e se torna sensível. Você entende a necessidade de se comprometer e tenta tirar o melhor proveito da situação.";
+"=2=6"="Você sente que não há muito que possa ser feito nas circunstâncias existentes. Você quer fazer o melhor da situação. Você se esforça para satisfazer necessidades físicas, inclusive sexuais.";
+"=2=7"="Inibição emocional. Você subordina seus desejos e interesses à situação. As circunstâncias forçam o compromisso. Você temporariamente renuncia às coisas desejadas. É difícil para você construir um vínculo emocional estável.";
+
+"=3"="Você é lento e apático por causa da superexcitação do passado. Você tenta relaxar e se acalmar. Você quer silêncio e pode ficar irritável sem ele.";
+"=3=0"="Você está sofrendo e exausto. Você está incomodado com os obstáculos na atividade e não quer fazer nada. Você luta pelo silêncio e pela paz, e precisa da ausência de qualquer coisa que possa perturbá-lo ainda mais.";
+"=3=1"="Exausta. Infeliz. Você se sente desconectado dos outros e incapaz de estabelecer relacionamentos calorosos e harmoniosos. Você acredita na própria incapacidade de sentir afeição sincera.";
+"=3=2"="Qualquer tentativa de defender seus direitos causa resistência. Você acredita que nada pode ser feito para mudar a situação. Você quer fazer o melhor da situação.";
+"=3=4"="Você quer expandir seus campos de atividade e acredita que desejos e esperanças pessoais são factíveis. Você sofre com o medo de ser impedido de completar o que começou. Você precisa de um ambiente calmo e apoio amigável para maior confiança.";
+"=3=5"="Egocêntrico. Você se ofende facilmente. Você acredita que suas necessidades e desejos são mal concebidos. Você sente que não há ninguém em quem confiar.";
+"=3=6"="Você se sente preso em uma situação desconfortável e angustiante. Você procura maneiras de se aliviar. Você é capaz de obter satisfação física, incluindo sexual.";
+"=3=7"="A situação é obstrutiva e limitante. Ele temporariamente o força a renunciar a todas as alegrias e prazeres.";
+
+"=4"="Você acredita na realidade de suas idéias e esperanças. Você precisa de encorajamento e segurança. Você quer garantias contra decepção e perda. Você é muito exigente na escolha de um parceiro.";
+"=4=0"="Você quer se envolver emocionalmente. Você é exigente na escolha de um parceiro e exigente nos relacionamentos com pessoas próximas. Você precisa de apoio. Você tenta evitar conflitos abertos para manter suas chances de cumprir as esperanças altas.";
+"=4=1"="Você é preciso nas demandas emocionais e muito exigente na intimidade. Isso leva a um arrependimento constante em como você vê uma união perfeita.";
+"=4=2"="Você se sente ofendido devido a pequenas dificuldades e problemas. Você está teimosamente perseguindo seus objetivos. Você permanece flexível e adaptável para superar as dificuldades.";
+"=4=3"="Você deseja expandir o campo de atividade. Você acredita na realidade de suas idéias e esperanças. Você se torna lento por causa dos obstáculos no caminho para se manifestar. Você precisa de um ambiente calmo e apoio amigável para ganhar confiança.";
+"=4=5"="Egocêntrico. Melindroso. Você acredita na realidade de suas idéias e esperanças. Você precisa de apoio e incentivo para ganhar confiança.";
+"=4=6"="Você é muito exigente na escolha de um parceiro. Você procura uma vida sexual tentadora, mas irrealisticamente perfeita.";
+"=4=7"="Você é muito exigente na escolha de um parceiro. Você acredita na realidade de suas idéias e esperanças. A situação atual força você a se comprometer.";
+
+"=5"="Egocêntrico. Melindroso. Você esconde sua sensibilidade de todos, exceto de pessoas próximas.b";
+"=5=0"="Egocêntrico. Melindroso. Você se sente sozinho e quer se envolver emocionalmente. Você tenta evitar conflitos abertos.";
+"=5=1"="Egocêntrico. Melindroso. Você se sente solitário e isolado. Você se restringe a permitir qualquer afeição.";
+"=5=2"="Melindroso. Você acha que não há ninguém em quem confiar para obter compreensão ou simpatia. Você acredita que merece mais. Você restringe suas emoções e entende a necessidade de se comprometer. Você quer fazer o melhor uso da situação.";
+"=5=3"="Egocêntrico. Melindroso. Você sofre quando seus desejos ou necessidades são mal compreendidos. Você sente que não há ninguém a quem recorrer.";
+"=5=4"="Egocêntrico. Melindroso. Você acredita na realidade de suas idéias e esperanças. Você precisa de apoio e incentivo para ganhar confiança.";
+"=5=6"="Você é facilmente vulnerável, egocêntrico e sensível. Você é capaz de obter satisfação física, incluindo sexual. Você permanece emocionalmente indiferente.";
+"=5=7"="Você permite a intimidade em casos excepcionais, quando todas as reservas mentais são atendidas. Isso é parcialmente ditado pela situação atual.";
+
+"=6"="Você está pronto para satisfazer as necessidades físicas, incluindo as sexuais.";
+"=6=0"="Você está pronto para se envolver emocionalmente. Você recebe prazer de satisfazer necessidades físicas, incluindo sexuais. Você tenta evitar conflitos.";
+"=6=1"="Você recebe prazer de satisfazer necessidades físicas, incluindo sexuais. Você é propenso ao isolamento emocional. Isso bloqueia o apego emocional profundo.";
+"=6=2"="Você sente que não há muito que possa ser feito nas circunstâncias existentes. Você quer fazer o melhor da situação. Você se esforça para satisfazer necessidades físicas, inclusive sexuais.";
+"=6=3"="Você se sente preso em uma situação desconfortável e angustiante. Você procura maneiras de se aliviar. Você é capaz de obter satisfação física, incluindo sexual. Ao mesmo tempo, não deve haver tensão emocional, estresse ou fadiga.";
+"=6=4"="Você é muito exigente na escolha de um parceiro. Você procura uma vida sexual tentadora, mas irrealisticamente perfeita. Você se esforça por um estado garantido de satisfação física, incluindo sexual, para evitar decepções.";
+"=6=5"="Você é facilmente vulnerável, egocêntrico e sensível. Você é capaz de obter satisfação física, incluindo sexual. Você permanece emocionalmente indiferente.";
+"=6=7"="As circunstâncias forçam você a se comprometer. Você temporariamente desiste de alguns prazeres. Você é capaz de obter satisfação física, incluindo sexual.";
+
+"=7"="Você acredita que há obstáculos no caminho. A situação força você a se comprometer. Você desiste temporariamente de alguns prazeres.";
+"=7=0"="Você se sente forçado a fazer concessões por enquanto. Você acredita que isso ajuda a evitar o isolamento e manter o carinho de algumas pessoas.";
+"=7=1"="É difícil construir uma afeição firme e reconfortante. Você está emocionalmente inibido. A situação força você a se comprometer. Você é incapaz de sentir satisfação moral com a situação.";
+"=7=2"="A situação força você a se comprometer. Você subordina seus desejos e interesses à situação e temporariamente renuncia às coisas desejadas.";
+"=7=3"="A situação é obstrutiva e limitante. Ele temporariamente o força a renunciar a todas as alegrias e prazeres.";
+"=7=4"="Você é muito exigente na escolha de um parceiro. Você acredita na realidade de suas idéias e esperanças. A situação atual força você a se comprometer.";
+"=7=5"="Você permite a intimidade em casos excepcionais, quando todas as reservas mentais são atendidas. Isso é parcialmente ditado pela situação atual.";
+"=7=6"="As circunstâncias forçam você a se comprometer. Você temporariamente desiste de alguns prazeres. Você é capaz de obter satisfação física, incluindo sexual.";
+
+
+
+////////////////////////////////////////////
+// GROUP -  Rejection
+"-0"="📌 Você é impaciente e se envolve rapidamente.\n\nRAZÃO: Você acredita que a vida pode dar muito mais. Ainda há coisas que valem a pena perseguir. Você opina que a vida precisa ser vivida em plenitude. Você persegue seus objetivos com intensidade feroz e não desiste das coisas. Você se envolve profundamente e corre o risco de ser incapaz de ver as coisas com suficiente objetividade ou com bastante calma. Portanto, você corre o risco de ficar agitado e esgotar sua energia nervosa. Você é incapaz de deixar as coisas sozinhas. Você se sente em paz apenas quando o objetivo é alcançado.";
+"-0-1"="📌 Você não vai descansar ou ceder. Você se mantém ativo para não cair em depressão.\n\nRAZÃO: Você acredita em sua incapacidade de lidar com as circunstâncias. Você se sente dependente dos apegos a uma pessoa ou situação. Você esconde sua vulnerabilidade e continua resistindo às condições atuais. Isso o deixa deprimido, sensível e ansioso. Isso leva ao desconforto e ao desejo de fugir da situação. Sua capacidade de se concentrar pode sofrer.";
+"-0-2"="📌 Alta tensão interna.\n\nRAZÃO: Você coloca altas exigências em si mesmo. Você está exausto e estressado. Resiliência e força de vontade são enfraquecidas. Você sente que as exigências são muito altas. Você continua se mantendo firme. Você percebe a situação como opressiva, coercitiva, insuportável e muito cruel. Você quer sair dessa situação, mas tem medo de sua incapacidade de tomar decisões vitais.";
+"-0-3"="📌 Todas as formas de preocupações debilitantes e aborrecimento excruciante são suprimidas. irritabilidade, explosões de raiva, queixas cardíacas, neurose sexual são possíveis.\n\nRAZÃO: Você percebe a situação como dolorosa e desagradável. Você está irritado com o pensamento de ser incapaz de alcançar seus objetivos. Você está chateado por sua impotência para lidar com os obstáculos. Você se sente preso e sobrecarregado. Existe a possibilidade de exaustão nervosa.";
+"-0-4"="📌 Irritação excessiva e arrependimento de expectativas não cumpridas.\n\nRAZÃO: Você experimenta um estado de alerta intenso devido a desejos não realizados. Você tenta inspirar confiança nos outros para se sentir confiante. Você quer proteção contra futuras frustrações, negligência ou ausência de prestígio. Você duvida que as coisas vão melhorar no futuro. No entanto, você continua fazendo exigências excessivas e se recusa a fazer concessões.";
+"-0-5"="📌 Tensão causada pela restrição de suscetibilidade.\n\nRAZÃO: Você gosta de tudo sutil, elegante e refinado. Você mantém uma visão clara das coisas e não se deixa levar se houver uma sombra de desconfiança. Você mantém as emoções sob controle e monitora de perto as atitudes dos outros em relação a si mesmo. Você se considera muito confiante. Você exige sinceridade completa dos outros e quer clareza nos relacionamentos. Isso leva à inibição da expressão do sentimento, mas a sensibilidade está aumentando.";
+"-0-6"="📌 Ignorado as necessidades do corpo.\n\nRAZÃO: Você acredita que seus objetivos são inalcançáveis com o atual estilo de vida medido. Você deseja independência da satisfação física e dos prazeres sensuais. Você quer se unir a pessoas com os mesmos altos padrões espirituais e deseja se destacar da multidão. Às vezes você quer ser como todo mundo, mas reprime impulsos como a fraqueza. Você se esforça para alcançar seus objetivos para manter a auto-estima e eliminar a dúvida. Você acredita que apenas o controle estrito sobre si mesmo permite manter a superioridade sobre os outros. Você quer ser amado e admirado desinteressadamente. Você precisa de atenção, reconhecimento e respeito.";
+"-0-7"="📌 Aumento da receptividade.\n\nRAZÃO: Você se esforça para se aproximar dos outros e quer eliminar o vazio interior. Você deseja conhecer a vida por todos os seus lados, experimentar todas as variações, vivê-la ao máximo. Você exige a liberdade de fazer qualquer coisa que pareça certa e digna de atenção. Quaisquer restrições ou restrições causam indignação.";
+
+"-1"="📌 Você não vai descansar ou ceder. Você se mantém ativo para não cair em depressão.\n\nRAZÃO: Você acredita em sua incapacidade de lidar com as circunstâncias. Você se sente dependente dos apegos a uma pessoa ou situação. Você esconde sua vulnerabilidade e continua resistindo às condições atuais. Isso o deixa deprimido, sensível e ansioso. Isso leva ao desconforto e ao desejo de fugir da situação. Sua capacidade de se concentrar pode sofrer.";
+"-1-0"="📌 Impaciência, ansiedade, propensão à depressão.\n\nRAZÃO: Você tem medo de confiar em alguém incondicionalmente e quer um sentimento de pertencimento. Você tem medo de ser incapaz de lidar com as circunstâncias. Você acredita que relacionamentos ou circunstâncias oferecem muito pouco e exigem muito de você em troca. Você se torna impaciente e irritável até receber tudo o que merece. Seu desejo de sair desse estado causa agitação inquieta e interrompe sua capacidade de se concentrar.";
+"-1-2"="📌 O alto estresse sobrecarrega a resistência e a força de vontade.\n\nRAZÃO: O esforço contínuo para resolver os problemas sobrecarrega a resiliência e a determinação. Você sente uma pressão insuportável nos relacionamentos e não vê como trazer confiança mútua e unidade para a situação. Portanto, você quer se livrar completamente do relacionamento e ficar sozinho.";
+"-1-3"="📌 Irritabilidade, explosões de raiva, queixas cardíacas ou neurose sexual são possíveis.\n\nRAZÃO: Você está sofrendo por causa de um relacionamento infeliz. Você se presume impotente para recuperar a antiga intimidade e alguma demonstração de confiança mútua. Você se sente preso e compelido a aturar essa situação insuportável. Você está à beira da exaustão nervosa.";
+"-1-4"="📌 A frustração emocional causa ansiedade e estresse.\n\nRAZÃO: Você está descontente com relacionamentos sensuais que parecem muito deprimentes. Você quer se livrar desse afeto e não perder nada ao mesmo tempo. Você não quer se expor a novos perigos, decepções e sentimentos de insegurança. Tais sentimentos contraditórios só pioram a condição atual. Você está tentando suprimi-los e desenvolver indiferença.";
+"-1-5"="📌 Estresse devido a mal-entendidos mútuos.\n\nRAZÃO: Você se sente um estranho em seus relacionamentos. Você não encontra nem compreensão nem atitude sensível. Como resultado, você não pode se abrir para outras pessoas e não pode corrigir isso sem a cooperação voluntária de outras pessoas. Você mostra impaciência e temperamento. Você se sente preso e procura uma saída.";
+"-1-6"="📌 O estresse e a autolimitação são causados pelo desprazer emocional e pela baixa valorização dos outros.\n\nRAZÃO: Você acha que deve ter a cooperação de outros para melhorar o estado atual das coisas. Você sente que nenhuma união real é possível devido à falta de reconhecimento, confiança e respeito. Isso leva a uma maior sensibilidade. Você quer se sentir mais confiante e livre. Você percebe os relacionamentos como um fardo e dependência. Você deseja ficar sozinho para restaurar a individualidade. Você não está pronto para se comunicar por causa do autocontrole da sensualidade. Isso leva a um forte desejo de se fundir com os outros. Você vê a diminuição da autoconfiança como uma fraqueza que precisa ser superada com a ajuda de uma aparente firmeza e determinação externa. Você acredita que o autocontrole constante é a única maneira de se afirmar como pessoa. Só isso parece permitir, apesar dos problemas reais, manter uma posição forte.";
+"-1-7"="📌 A luta pela independência se deve à infelicidade emocional.\n\nRAZÃO: Você percebe a situação ou relacionamento como insatisfatório. Você não vê como melhorar sem a cooperação voluntária de outros. Como resultado, você se torna incapaz de afeição e devoção sinceras. Você esconde sua vulnerabilidade e acha que mostrar afeto ou franqueza excessiva é errado. O relacionamento atual parece um fardo. Você quer independência e um caminho livre de obstáculos. Ao mesmo tempo, você não quer correr riscos ou se limitar a nada. Tudo isso causa reações aumentadas e impacientes. O desejo paralelo de se livrar de tudo isso leva a uma ansiedade severa e enfraquece sua capacidade de se concentrar.";
+
+"-2"="📌 Vigor, força de vontade e capacidade de resistir estão no limite.\n\nRAZÃO: Determinação e força de vontade, para lidar com os problemas existentes, enfraqueceram. Você se sente sobrecarregado, desgastado e preso. Você continua a luta. Você percebe essa situação como uma pressão insuportável e sente uma crueldade irracional e uma posição humilhante. Você quer sair da situação, mas não toma nenhuma medida drástica.";
+"-2-0"="📌 A resistência à pressão está esgotada. Isso leva a baixa paciência, estresse e irritação.\n\nRAZÃO: Você não tem mais força de vontade e resiliência para lidar com as dificuldades existentes. Parece um beco sem saída. Você acha que o esforço foi desperdiçado em vão. No entanto, você continua avançando com energia frenética. Isso causa um estresse insuportável. Você quer se livrar da situação, mas não pode se forçar a tomar tal decisão. Isso leva à incapacidade de ver o problema objetivamente ou deixá-lo sozinho.";
+"-2-1"="📌 Capacidade reduzida de se opor a problemas. Infelicidade emocional.\n\nRAZÃO: Você não tem mais força de vontade e resiliência para lidar com as dificuldades existentes que aparecem como oposição deliberada. Você defende sua posição. Você percebe o relacionamento existente como uma pressão insuportável e uma coerção humilhante. Você precisa de uma sensação de satisfação emocional e colaboração. Você acredita que sem eles é impossível melhorar a situação. Você se esforça para se livrar de tudo isso.";
+"-2-3"="📌 As tentativas de evitar as influências levam ao sofrimento e à agitação. Irritabilidade, explosões de raiva, queixas cardíacas, neurose sexual são possíveis.\n\nRAZÃO: Pressões insuportáveis e exigências irracionais causam um sentimento de humilhação. A injustiça parece escandalosa. Você se sente impotente para mudar a situação e incapaz de se proteger.";
+"-2-4"="📌 Frustração aguda devido ao conflito entre o previsto e o essencial.\n\nRAZÃO: A incerteza e as dúvidas de que as coisas vão melhorar no futuro são causadas por frustração e esperanças insatisfeitas. Isso leva a adiar todas as decisões essenciais para mais tarde. Esse conflito entre o essencial e o antecipado cria uma alta tensão interna. Você recorre a conclusões banais em vez de tomar uma decisão razoável. Você está inclinado a se envolver em ninharias como meio de salvação.";
+"-2-5"="📌 Sentimentos de humilhação e julgamento errôneo.\n\nRAZÃO: Você não obtém confiança, estima e compreensão no relacionamento atual. Você sente uma humilhante falta de atenção e medo de perder a atratividade e o respeito dos outros. Isso prejudica a auto-estima. Você considera ser ignorado, privado de amor e negado apreço. Você está quebrado pela luta de lutar sozinho e não sente apoio dos outros. Você quer admiração, mas é constantemente incompreendido. Você sente que não há como lidar com isso. Você quer escapar da situação, mas não tem forças para tomar uma decisão tão vital.";
+"-2-6"="📌 Autocontrole excessivo, visando conquistar o respeito dos outros.\n\nRAZÃO: Você quer se destacar da multidão e se unir a pessoas com os mesmos altos padrões de vida. Isso leva a um alto estresse. No entanto, você mantém sua atitude apesar da falta de apreciação. Você acha a situação desagradável. Você quer uma saída para a situação, mas se recusa a sacrificar suas crenças. Você constantemente adia a decisão vital devido a dúvidas sobre sua capacidade de resistir a uma possível oposição. Você precisa do reconhecimento dos outros, de acordo com seus desejos e respeito por seus pontos de vista. Só então você pode se sentir seguro e à vontade.";
+"-2-7"="📌 Frustração com restrições inaceitáveis à sua liberdade de ação.\n\nRAZÃO: Você luta pela independência e liberdade de quaisquer restrições. Você procura evitar obstáculos, responsabilidades e tudo que limita a liberdade. Você espera que isso o ajude a evitar relacionamentos desagradáveis e estresse. Você sente muita pressão e quer uma saída, mas não tem resistência e determinação.";
+
+"-3"="📌 Irritabilidade, explosões de raiva, queixas cardíacas ou neurose sexual são possíveis.\n\nRAZÃO: Há uma ameaça e perigo na situação atual. Seus objetivos estão sob ameaça. Isso leva à sua indignação. Você se sente preso, impotente para fazer qualquer coisa e cansado à exaustão nervosa.";
+"-3-0"="📌 Impaciente, inconstante e irritável. Hipertensão ou distúrbio cardíaco é possível.\n\nRAZÃO: A situação parece perigosa e desagradável. A chance de alcançar o objetivo desejado está sob ameaça. Você tenta resistir a toda a exposição extra, mas se sente impotente para salvar a situação. Você tem medo de perder tudo e perder algo importante na vida. Isso leva ao desespero. Você é incapaz de olhar para a situação objetivamente. Você perdeu a noção de distância. Você tenta lutar contra os obstáculos na realização de seus desejos. Você está excessivamente agitado e não se dá uma pausa na luta. Estressado demais, você se sente preso e está à beira da exaustão nervosa.";
+"-3-1"="📌 Impaciente, irritado e agitado. Você resiste a novas influências e não consegue relaxar. Você está no limite de suas habilidades. Hipertensão ou problemas cardíacos são possíveis.\n\nRAZÃO: Um relacionamento íntimo insatisfeito leva ao sofrimento. Você se sente incapaz de fazer qualquer coisa para restaurar a antiga intimidade e a confiança mútua. Você acredita em estar ligado a uma situação infeliz e não vê como sair dela. Isso leva sua mente à beira da exaustão nervosa.";
+"-3-2"="📌 Incapacidade de exercer sobre a situação. Agitação. Desesperança. Tudo isso leva a um estresse severo. Espasmos musculares ou distúrbios cardíacos são possíveis.\n\nRAZÃO: Você se sente controlado contra sua própria vontade e sente uma pressão insuportável. Você se preocupa muito com o que parece ser a hostilidade do ambiente. Quaisquer exigências sobre você são consideradas irracionais. Você atende a essas demandas com indignação e indignação. Você se sente impotente para influenciar a situação e incapaz de se proteger.";
+"-3-4"="📌 A decepção leva à agitação e ansiedade.\n\nRAZÃO: Você se preocupa em conseguir causar uma boa impressão. Você acredita que tem o direito de obter tudo o que deseja. Você sofre quando uma situação se torna desfavorável. Você se sente impotente. Apenas uma possível falha traz a sensação de grande angústia. Isso pode levar à exaustão nervosa. Você se vê como uma vítima enganada cuja confiança foi explorada e toma essa ficção como realidade. Você tenta se convencer de que os outros são os culpados por seus fracassos.";
+"-3-5"="📌 Amargura devido à falta de compreensão mútua e uma sensação de segurança.\n\nRAZÃO: Sensibilidade aumentada. Você está ansioso para experimentar tudo e acha a situação atual muito decepcionante. Você sofre com sua falta de poder para alcançar o objetivo pretendido. Assim, você sente exaustão nervosa. Você precisa de compreensão e confiança na segurança.";
+"-3-6"="📌 A exaustão nervosa ou o estresse sexual são causados pelo autocontrole excessivo.\n\nRAZÃO: Você acredita que está sendo subestimado e acha a situação atual desagradável. Você não tem pessoas que pensam como você para se aliar e se tornar mais seguro. Você luta pelo reconhecimento e respeito dos outros. O controle da auto-sensualidade torna difícil dar a si mesmo. Isso leva ao isolamento e causa incerteza, um desejo de \"entregar\" e se fundir com os outros. Você percebe essa insegurança como uma fraqueza e tenta escondê-la. Você a mascara com aparente autoconfiança, determinação e forma de expressão. Ao fazer isso, você procura evocar uma sensação de superioridade. Você tenta se estabelecer nessa desagradável situação temporária. Você quer ser visto como um parceiro desejável e admirado por suas qualidades pessoais.";
+"-3-7"="📌 A frustração é causada por uma situação indesejável.\n\nRAZÃO: Você se sente impotente em uma situação insuportavelmente dolorosa e impotente para resolvê-la. Você está irritado com a incapacidade de atingir seu objetivo. Isso leva à exaustão nervosa. Você quer sair dessa situação. Você deseja ganhar a liberdade de decidir e agir.";
+
+"-4"="📌 Irritabilidade ou inquietação grave.\n\nRAZÃO: Suas expectativas não se realizam. Isso cria incerteza e cautela. Você precisa sentir uma sensação de segurança, confiança e confiabilidade. Você tem medo de decepção, perda de prestígio ou posição. Você não acredita que a situação vai melhorar no futuro. Isso leva a criar grandes expectativas e ser intransigente.";
+"-4-0"="📌 Medo de perder uma oportunidade. Incerteza. Tensão.\n\nRAZÃO: Você acredita que a vida deve dar muito mais do que dá, desejos e esperanças devem necessariamente ser realizados por si mesmos. Caso contrário, há uma sensação de estar sendo contornado, de que a vida é incolor. A incerteza causa preocupação perceptível. Você mostra intensa atenção para não perder uma oportunidade e tenta fazer de tudo para evitar falhas acidentais, perda de prestígio ou posição. Você precisa de uma sensação de segurança.";
+"-4-1"="📌 A frustração emocional leva à ansiedade.\n\nRAZÃO: A conexão emocional mais profunda se quebrou. É decepcionante e parece um fardo opressor. Por um lado, você deseja estar completamente livre desse apego. Por outro lado, você não quer perder nada, ficar exposto a novas decepções ou incertezas. Você percebe essa discrepância como uma ilusão e tenta suprimi-la com uma atitude de indiferença e severidade inacessível.";
+"-4-2"="📌 Frustração aguda devido ao conflito entre o previsto e o essencial.\n\nRAZÃO: A incerteza e as dúvidas de que as coisas vão melhorar no futuro são causadas por frustração e esperanças insatisfeitas. Isso leva a adiar todas as decisões essenciais para mais tarde. Esse conflito entre o essencial e o antecipado cria uma alta tensão interna. Você recorre a conclusões banais em vez de tomar uma decisão razoável. Você está inclinado a se envolver em ninharias como meio de salvação.";
+"-4-3"="📌 A decepção leva à agitação e ansiedade.\n\nRAZÃO: Você se preocupa em conseguir causar uma boa impressão. Você acredita que tem o direito de conseguir tudo o que deseja e sofre quando uma situação se torna desfavorável. Você se sente impotente, e apenas uma possível falha traz a sensação de grande angústia. Isso pode levar à exaustão nervosa. Você se percebe como uma vítima enganada e sua confiança foi explorada. Você toma a ficção pela realidade. Você tenta se convencer de que os outros são os culpados por seus fracassos.";
+"-4-5"="📌 Desconfiança, contenção, afastamento dos outros e isolamento.\n\nRAZÃO: Você tem medo de ser levado por sua inspiração e imaginação. Você não quer ser seduzido por esperanças que irão decepcionar cruelmente. Como resultado, você suprime seu entusiasmo natural e sua natureza artística. Você sente que está sendo enganado e abusado. Você observa com cautela as intenções dos outros em relação a si mesmo e avalia criticamente se elas são sinceras. Essa cautela facilmente se transforma em suspeita. Você pode sair para ficar longe dos outros.";
+"-4-6"="📌 Ansiedade escondida atrás da autoconfiança e da indiferença.\n\nRAZÃO: A situação atual parece desagradável e incerta. Você quer se destacar da multidão, mas não consegue se tornar membro de uma sociedade que satisfaça suas altas demandas. Isso traz uma sensação de solidão e incerteza. O sentimento de isolamento causa uma forte necessidade de conexão. É dada a importância principal, todo o resto é secundário. O círculo de interesse se estreitou. Até os prazeres físicos desaparecem. No entanto, essa necessidade contradiz sua ideia de controlar seus desejos. Isso leva à tensão. Você quer provar aos outros a singularidade de seu personagem. Você tenta suprimir a necessidade de contato com outras pessoas. Inconscientemente, você esconde o medo da inferioridade e dá uma aparência de confiança descuidada e determinação externa. Você se esforça para ganhar o respeito dos outros e se comporta com aparente independência e arrogância. Qualquer um crítico de tal comportamento é confrontado com indiferença desdenhosa. No entanto, por trás da suposta indiferença esconde-se uma sede de aprovação e estima dos outros.";
+"-4-7"="📌 Autodefesa cautelosa como proteção contra novas falhas.\n\nRAZÃO: Expectativas não realizadas causavam dúvida e alerta intenso. Você quer agir livremente e rejeitar qualquer controle, exceto o autocontrole. Você não quer se limitar a nada. Você deseja garantias confiáveis de proteção contra outros problemas ou perda de posição. Você não acredita que a situação vai melhorar. Isso leva a uma limitação de seus desejos, exigências crescentes e uma recusa em fazer concessões razoáveis.";
+
+"-5"="📌 Sensibilidade suprimida\n\nRAZÃO: Você se vê refinado e possuindo uma sensualidade aumentada. Você se sente encantado e fascinado. No entanto, certifique-se de não se deixar levar. Você controla profundamente seus relacionamentos sensuais e gosta de saber exatamente o que está escondido atrás deles. Você quer confiar e exigir sinceridade absoluta para evitar o uso impiedoso de sua credulidade.";
+"-5-0"="📌 Inquietação e sensualidade reprimida.\n\nRAZÃO: Você está convencido de que a vida pode dar muito mais do que oferece atualmente. Você espera no futuro encontrar uma conexão agradável e sensual cheia de compreensão mútua. Por outro lado, você tem medo de viver sem dedicação total, que os outros cheguem à frente. Você se esforça para não perder uma única oportunidade. No entanto, você deve tomar cuidado para não se deixar levar pelo seu entusiasmo. Você monitora cuidadosamente seus relacionamentos emocionais para saber exatamente o que está escondido atrás deles. Você exige sinceridade absoluta como proteção contra sua tendência à credulidade excessiva.";
+"-5-1"="📌 Você se mantém ativo, não permite uma pausa para si mesmo e suprime a depressão.\n\nRAZÃO: Você está insatisfeito com os relacionamentos atuais e incapaz de refiná-los sem cooperação. Você não tem compreensão, bondade e concessões dos outros. Você fica mal-humorado, irritado, deprimido e deseja sair da situação. Se não na realidade, pelo menos na fantasia. Sua capacidade de se concentrar pode sofrer.";
+"-5-2"="📌 Sentimentos de humilhação e julgamento errôneo.\n\nRAZÃO: Você não recebe confiança, estima e compreensão no relacionamento atual e sente uma humilhante falta de atenção. Você tem medo de perder a atratividade e o respeito dos outros. Isso prejudica a auto-estima. Você se considera ignorado, privado de amor e negado apreço. Você está quebrado pela luta de lutar sozinho. Você quer admiração, mas é constantemente incompreendido e não sente apoio dos outros. Parece que não há como lidar com isso. Você quer escapar da situação, mas não tem forças para tomar uma decisão tão vital.";
+"-5-3"="📌 Amargura devido ao fracasso em obter compreensão mútua e sensação de segurança.\n\nRAZÃO: Sensibilidade aumentada. Você está ansioso para experimentar tudo. Você acha a situação atual muito decepcionante e sofre com sua falta de poder para alcançar o objetivo pretendido. Assim, você sente exaustão nervosa. Você precisa de compreensão e confiança na segurança.";
+"-5-4"="📌 Desconfiança, contenção, afastamento dos outros e isolamento.\n\nRAZÃO: Você tem medo de ser levado por sua inspiração e imaginação. Você não quer ser seduzido por esperanças que irão decepcionar cruelmente. Como resultado, você suprime seu entusiasmo natural e sua natureza artística. Você sente que está sendo enganado e abusado. Você observa com cautela as intenções dos outros em relação a si mesmo e avalia criticamente se elas são sinceras. Essa cautela facilmente se transforma em suspeita. Você pode sair para ficar longe dos outros.";
+"-5-6"="📌 Incapacidade de manter o relacionamento no estado desejado.\n\nRAZÃO: Você procura um parceiro que satisfaça seu gosto estético, demonstre profunda compreensão e contribua para o estabelecimento de uma atmosfera calma. No entanto, o desejo compulsivo de demonstrar sua individualidade o força a assumir uma posição crítica em relação a tudo, inclusive ao seu parceiro. Isso leva à discórdia no relacionamento. Em seguida, há uma reaproximação e depois há uma alienação. Assim, a condição ideal desejada não tem chance de se desenvolver. Por causa disso, você se concentra nas experiências internas e se restringe à realização das necessidades físicas. Você acredita que isso prova superioridade e eleva você acima da multidão. No entanto, a ausência da relação desejada pesa muito, causando incerteza. Você cuidadosamente esconde isso atrás de uma aparente determinação e forma de expressão. Perspicaz, crítico, exigente e exigente, você possui um gosto delicado e tende a visões independentes. Essas qualidades permitem que você faça uma avaliação independente do que está acontecendo e expresse opiniões com autoridade. Você gosta de tudo original, inteligente e fino. Você se esforça para se conectar com pessoas que podem contribuir para o seu desenvolvimento intelectual. Você quer ser visto como um parceiro digno.";
+"-5-7"="📌 Restrições ou restrições não convidadas.\n\nRAZÃO: Você se esforça para um relacionamento baseado na franqueza, confiança mútua e honestidade. Você exige a liberdade de decidir com base em suas próprias crenças. Isso se aplica especialmente aos próximos. Você rejeita qualquer interferência autoritária. Você quer relacionamentos que não forcem compromissos e não interfiram em seus objetivos.";
+
+"-6"="📌 Falta de atenção às necessidades do corpo. Supressão de desejos sexuais ou físicos.\n\nRAZÃO: Você quer se unir a pessoas com os mesmos padrões elevados e deseja se destacar da multidão. Isso leva ao isolamento e impede a vontade de conhecer outras pessoas. Por outro lado, você quer ceder e dar rédea solta aos seus sentimentos. No entanto, você percebe isso como uma fraqueza que deve ser combatida. Você acredita que essa autolimitação traz uma confissão. Você acha que isso faz de você um indivíduo único e inimitável, eleva você acima da multidão. Você anseia por atenção e reconhecimento.";
+"-6-0"="📌 Falta de atenção às necessidades do corpo. Supressão de desejos sexuais ou físicos.\n\nRAZÃO: A situação atual é desagradável. Você considera isso temporal e ambiciosamente espera progredir com grande auto diligência e uma pequena ajuda dos outros. Você está pronto para desistir da satisfação dos prazeres físicos e sensuais para atingir esse objetivo. Você quer se unir a pessoas com os mesmos padrões elevados e deseja se destacar da multidão. Seu controle próximo sobre a realização do desejo sexual reduz a sociabilidade. Esse isolamento leva a um desejo de ser como todo mundo. No entanto, você percebe esses desejos como uma fraqueza que deve ser combatida. Você quer se tornar uma pessoa de sucesso e ter um estilo de vida mais interessante e respeitável, se possível. Você gosta de ser amado e admirado desinteressadamente. Você busca reconhecimento e quer desempenhar um papel decisivo. Você pode interferir nos assuntos de outras pessoas sem observar a devida restrição e expressar desnecessariamente sua opinião.";
+"-6-1"="📌 Falta de atenção às necessidades do corpo. Autolimitação exorbitante.\n\nRAZÃO: Você não vê como melhorar a situação sem a cooperação dos outros. A ausência de reconhecimento razoável, confiança e respeito faz você pensar que uma união real é impossível e leva à hipersensibilidade. Você quer se sentir mais livre e confiante. Nessa situação, qualquer relacionamento é percebido como um fardo e dependência. Você deseja a solidão para restaurar sua individualidade. Você não está pronto para se comunicar por causa das restrições da sensualidade. Isso causa isolamento e leva a um forte desejo de se fundir com os outros. Isso pode ser até mesmo em detrimento de um senso de autoconfiança. Uma diminuição da autoconfiança é percebida como uma fraqueza. Você tenta combatê-lo com a ajuda de uma aparente firmeza e determinação externa. Você acredita que o autocontrole constante é a única maneira de se fortalecer como indivíduo. Você acha que só isso permite manter sua posição apesar das dificuldades reais.";
+"-6-2"="📌 Autocontrole excessivo, visando conquistar o respeito dos outros.\n\nRAZÃO: Você deseja se destacar da multidão e quer se unir a pessoas com os mesmos altos padrões de vida. Isso leva a um alto estresse. No entanto, você mantém sua atitude apesar da falta de apreciação. Você acha a situação desagradável e quer uma saída, mas se recusa a sacrificar suas próprias crenças. Você constantemente adia a decisão vital devido a dúvidas sobre sua capacidade de resistir a uma possível oposição. Você precisa do reconhecimento dos outros, de acordo com seus desejos e respeito por seus pontos de vista. Só então você pode se sentir seguro e à vontade.";
+"-6-3"="📌 Falta de atenção às necessidades do corpo. Supressão de desejos sexuais ou físicos.\n\nRAZÃO: A situação atual parece ameaçadora. Você se sente subestimado. Entre iguais, você não sente a segurança necessária. Você busca reconhecimento e respeito dos outros. O autocontrole da sensualidade torna difícil dar a si mesmo. Isso leva ao isolamento e causa incerteza, um desejo de ceder e se fundir com os outros. Você considera essa insegurança uma desvantagem e a mascara com aparente autoconfiança, determinação e forma de expressão. Ao fazer isso, você procura evocar uma sensação de superioridade e se estabelecer. Você precisa de reconhecimento, atenção e admiração de seus traços pelos outros. Você quer parecer um parceiro digno aos olhos dos outros.";
+"-6-4"="📌 Ansiedade escondida atrás da autoconfiança e da indiferença.\n\nRAZÃO: A situação atual parece desagradável e incerta. Você é incapaz de se tornar um membro de uma sociedade que satisfaça suas altas demandas. Você quer se destacar da multidão. Isso traz uma sensação de solidão e incerteza. O sentimento de isolamento causa uma forte necessidade de conexão. É dada a importância principal, todo o resto é secundário. O círculo de interesse se estreitou. Até os prazeres físicos desaparecem. No entanto, essa necessidade contradiz sua ideia de controlar seus desejos. Isso leva à tensão. Você quer provar aos outros a singularidade de seu personagem. Você tenta suprimir a necessidade de contato com outras pessoas. Você inconscientemente esconde o medo da inferioridade e dá uma aparência de confiança descuidada e determinação externa. Você se esforça para ganhar o respeito dos outros. Você se comporta com aparente independência e arrogância. Qualquer um crítico de tal comportamento é confrontado com indiferença desdenhosa. No entanto, por trás da suposta indiferença você esconde uma sede de aprovação e estima dos outros.";
+"-6-5"="📌 Sensibilidade aumentada. Um relacionamento não fica desejado.\n\nRAZÃO: Você é receptivo e sensível à suavidade e sutileza dos sentimentos. Em um relacionamento, você anseia por fusão mística e fascínio erótico. Este desejo permanece insatisfeito devido à falta de um parceiro adequado ou devido a circunstâncias desfavoráveis. Você mantém seus relacionamentos emocionais sob estrito controle e acredita que ajuda saber com o que pode contar. Esteta, você tem um gosto bem-educado e refinado que lhe permite formular suas preferências e opiniões, especialmente no campo da arte e da criatividade artística. Você procura estabelecer conexões com aqueles que podem contribuir para o seu crescimento intelectual ou artístico.";
+"-6-7"="📌 Restrições ou proibições desagradáveis. Um desejo de independência.\n\nRAZÃO: Você quer seguir livremente suas crenças e princípios. Você deseja desenvolver suas habilidades e ganhar respeito por si mesmo como indivíduo. Você espera que sua atividade e diligência eliminem as contradições internas. Você persegue seus interesses e luta contra a interferência. Você se esforça para usar todas as oportunidades para agir sem obedecer a quaisquer restrições e proibições. Você ignora as necessidades do seu corpo e usa a energia à sua disposição para alcançar o máximo possível.";
+
+"-7"="📌 Tensão crescente.\n\nRAZÃO: Você se esforça para agir de forma livre e independente. Você descarta quaisquer impedimentos, restrições e proibições, exceto aquelas impostas por você.";
+"-7-0"="📌 Maior sensibilidade e envolvimento.\n\nRAZÃO: Você se esforça para superar o vazio e a desconexão sem alegria. Você acredita que a vida deve dar muito mais do que dá. Você tem medo de perder sua parte dos benefícios da vida se não puder fazer o melhor uso de cada caso. Você segue seus objetivos com força frenética e se envolve tão profundamente que muitas vezes excede sua autoridade. Você oferece serviços e expertise sempre que possível e se considera bastante competente em qualquer área. Portanto, muitas vezes você é considerado irritante e intrusivo, interferindo nos assuntos de outras pessoas.";
+"-7-1"="📌 A busca pela independência se deve à infelicidade emocional.\n\nRAZÃO: Você percebe sua situação ou relacionamento como insatisfatório e não vê como melhorar sem a cooperação voluntária de outras pessoas. Como resultado, você se torna incapaz de afeição e devoção sinceras. Você esconde sua vulnerabilidade e acha que mostrar afeto ou franqueza excessiva é errado. O relacionamento atual parece um fardo. Você quer independência e um caminho livre de obstáculos. Ao mesmo tempo, você não quer se arriscar ou se limitar em nada. Tudo isso causa reações aumentadas e impacientes. O desejo paralelo de se livrar de tudo isso leva a uma ansiedade severa e enfraquece sua capacidade de se concentrar.";
+"-7-2"="📌 Frustração com restrições intoleráveis à sua liberdade de ação.\n\nRAZÃO: Você luta pela independência e liberdade de quaisquer restrições. Você procura evitar obstáculos, responsabilidades, tudo que limita sua liberdade. Você espera que isso o ajude a evitar relacionamentos desagradáveis e estresse. Você sente muita pressão e quer uma saída, mas não tem resistência e determinação.";
+"-7-3"="📌 A frustração é causada por uma situação indesejável.\n\nRAZÃO: Você se sente impotente nesta situação insuportavelmente dolorosa e impotente para resolvê-la. Você está irritado com a incapacidade de atingir seu objetivo. Isso leva à exaustão nervosa. Você quer sair dessa situação e não sente mais restrições. Você deseja ganhar a liberdade de decidir e agir.";
+"-7-4"="📌 Autodefesa contra novas falhas.\n\nRAZÃO: Expectativas não realizadas causavam dúvida e alerta intenso. Você quer agir livremente e rejeitar qualquer controle, exceto o autocontrole. Você não quer se limitar a nada. Você deseja garantias confiáveis de proteção contra outros problemas ou perda de posição. Você não acredita que a situação vai melhorar. Isso leva a uma limitação de seus desejos, exigências crescentes e uma recusa em fazer concessões razoáveis.";
+"-7-5"="📌 Proibições ou restrições desagradáveis.\n\nRAZÃO: Sensível e impressionável. Você está inclinado a se deixar levar e admirar. Você busca uma situação idealizada e ainda não realizada com completa harmonia de sentimentos e aspirações. Você deseja uma profunda compreensão mútua e sonha com uma conexão cheia de coerência de sentimentos e compreensão mútua. Você acredita que isso tornaria a vida interessante. Como tal contato idealizado não é realista, as expectativas não são atendidas. Isso causa tensão. Você tenta suprimir a tensão. Você aceita apenas um relacionamento ideal e não permite nenhuma interferência em interesses pessoais. Você acredita que confiar muito facilmente nos outros levaria ao risco de que eles se aproveitassem disso. Portanto, você precisa de uma prova de sinceridade. Você monitora estritamente sua posição.";
+"-7-6"="📌 Você discorda de proibições ou restrições.\n\nRAZÃO: Você exige independência e resiste a qualquer pressão dos outros. Você quer tomar decisões sozinho, sem a intervenção de ninguém. Você odeia a monotonia e a mediocridade e se sente enojado com a abordagem impessoal equalizadora. Você é praticamente incapaz de admitir seus próprios erros porque assume que sua opinião é a mais autorizada. Você precisa se esforçar para reconhecer o ponto de vista do outro. Você se esforça para provar a si mesmo como pessoa e se destacar graças aos seus sucessos.";
+
+
+////////////////////////////////////////////
+// GROUP +-  Actual Problem
+"+0-0"="Atitudes duplas. Você flutua do desagrado inquieto para a felicidade calma.";
+"+0-1"="O estresse e a tensão são provavelmente causados por circunstâncias ou necessidades emocionais insatisfeitas. Você quer escapar disso e criar uma imagem de calma, proibindo-se de se envolver.";
+"+0-2"="Você tem estresse significativo e não consegue consolidar sua posição sob sua opinião sobre méritos pessoais. Você recusa qualquer responsabilidade e tem tentativas infundadas de 'mostrar-se'. No entanto, você não quer mais envolvimento e tenta evitar demandas excessivas em suas capacidades limitadas.";
+"+0-3"="Exausta. Quaisquer outras exigências ou excitação são insuportáveis. A ansiedade e a dor aguda são causadas pela sensação de desamparo. Você está tentando escapar disso recusando-se a participar de qualquer coisa. Você esconde sua vulnerabilidade e usa uma abordagem cautelosa. Você espera alcançar o objetivo eventualmente.";
+"+0-4"="Sombrio e deprimido. Esperanças não cumpridas causam frustração. A alta ansiedade é causada pelo medo de estabelecer novos objetivos. Você tenta se livrar disso fechando-se em si mesmo. Você se torna circunspecto.";
+"+0-5"="Você descobre que outros exploram ou entendem mal sua confiança. Você quer se tornar menos confiante. Como resultado, você desenvolve uma atitude arrogante e contida em relação aos outros. Você participa da atividade apenas quando convencido da sinceridade dos outros.";
+"+0-6"="Você sente pouco respeito pelos outros. Você é incapaz de se destacar entre seus companheiros. Você suprime a sociabilidade normal e não se permite se envolver em atividades em grupo.";
+"+0-7"="Você quer não ser perturbado e sente a necessidade de se defender de influências externas. Você tem medo de perder a independência.";
+
+"+1-0"="Você tem medo de ser impedido de alcançar seus próprios objetivos. Você precisa alcançar um estado calmo e estável para se libertar desse medo.";
+"+1-1"="Atitudes duplas. Você flutua do desagrado inquieto para a felicidade calma.";
+"+1-2"="Você não tem habilidades ou força suficiente para lidar com as circunstâncias atuais. Isso leva ao estresse, ansiedade e um sentimento não admitido de inferioridade. Você quer escapar para um ambiente mais calmo e sem problemas. Você procura uma situação em que não haja necessidade de defender seus próprios direitos e resistir à pressão daqueles que buscam dominar.";
+"+1-3"="Sensação insuportável devido à condição exausta. Você está incomodado com as demandas sobre o que é pedido de suas habilidades. Um sentimento de incapacidade causa ansiedade e sofrimento. Você desiste de lutar para escapar dessa situação e tenta encontrar um ambiente calmo e tranquilo para se recuperar em condições de segurança e paz.";
+"+1-4"="Esperanças não cumpridas causam frustração. O medo de estabelecer novas metas leva à ansiedade. Você tenta encontrar a salvação em um relacionamento calmo e equilibrado. Você acredita que protege contra decepção e falta de respeito.";
+"+1-5"="Você quer se tornar menos confiante porque os outros exploram ou entendem mal sua confiança. Você procura um relacionamento calmo com intimidade sensual. Em tal relação, todos saberiam precisamente a posição do outro.";
+"+1-6"="Você deseja ser respeitado e apreciado e tenta encontrá-lo na comunicação baseada no respeito mútuo.";
+"+1-7"="Você quer evitar o envolvimento em disputas e desentendimentos e prefere ficar sozinho.";
+
+"+2-0"="Você tem medo de ser impedido de alcançar seus objetivos. Você exige que os outros reconheçam seu direito de perseguir seus objetivos.";
+"+2-1"="O estresse e a tensão são provavelmente causados por circunstâncias ou necessidades emocionais insatisfeitas. Você nega sua existência e esconde a infelicidade por trás de falsas afirmações de independência e auto-suficiência.";
+"+2-2"="Atitudes duplas. Você flutua entre a auto-insistência e o desejo de evitar a contra-resistência oposta.";
+"+2-3"="Exausta. Quaisquer outras exigências ou excitação são insuportáveis. Você se sente impotente e incapaz de controlar o curso dos acontecimentos. Isso cria irritação e forte ansiedade. Você tenta escapar disso defendendo obstinadamente seu próprio ponto de vista. Tais tentativas muitas vezes falham. Você se torna muito sensível e sensível às críticas.";
+"+2-4"="Você teme que não faça sentido definir novos objetivos. Isso leva à frustração e ansiedade. Você anseia por reconhecimento, deseja manter uma posição elevada e se preocupa com as chances reais de sucesso. Você reage com protesto às críticas e resiste a qualquer tentativa de influência. Você tenta se declarar dominando pedantemente em pequenas coisas.";
+"+2-5"="Você se esforça para fortalecer sua posição e auto-respeito. Você analisa minuciosamente as suas realizações e as dos outros. Você exige clareza em tudo.";
+"+2-6"="Você adere a altos padrões estéticos e tem aversão à mediocridade. Você precisa ser apreciado e respeitado como uma pessoa excepcional pelos outros. Isso aumentaria sua auto-estima e lhe daria uma sensação de ser valioso.";
+"+2-7"="Você resiste a impactos externos e resiste à adulteração de sua liberdade de tomar decisões e construir planos. Você tenta melhorar a posição atual e se firmar nela.";
+
+"+3-0"="Você tem medo de ser impedido de alcançar seus objetivos. Isso o força a agir com pressa tensa e febril.";
+"+3-0"="O estresse e a ansiedade são provavelmente causados por circunstâncias ou necessidades emocionais insatisfeitas. Você está tentando sair disso criando uma atividade intensa com o objetivo de obter sucesso pessoal ou acumular experiência.";
+"+3-1"="Você tem habilidades ou força insuficientes para lidar com as circunstâncias. Isso leva ao estresse, ansiedade e um sentimento não admitido de inferioridade. Você tenta se livrar de tudo isso desenvolvendo uma atividade intensa. Você exige o direito de fazer as coisas do seu jeito. O autocontrole doentio pode levar a explosões incontroláveis de raiva.";
+"+3-2"="Atitudes duplas. Você oscila entre o desejo de fazer as coisas do seu jeito e o desejo de ser deixado em paz.";
+"+3-4"="Esperanças não cumpridas causam frustração. O medo de estabelecer novas metas leva à ansiedade. Você quer estar em um círculo de pessoas afins e ter a capacidade de se desenvolver livremente. Você sente vazio em seus relacionamentos e obstáculos no desenvolvimento. Você reage a isso com veemência e mostra uma atividade ainda mais intensa visando atingir a meta a qualquer custo.";
+"+3-5"="Você quer agir incontinente e livremente. Você está limitado pela necessidade pessoal de construir tudo sobre uma base racional, firme e bem definida.";
+"+3-6"="Você obtém prazer da atividade em si. Você quer ser apreciado e respeitado por suas próprias realizações.";
+"+3-7"="Você luta com restrições ou proibições. Você exige ter a oportunidade de se desenvolver livremente sem ajuda do lado.";
+
+"+4-0"="Você tem medo de ser impedido de alcançar seus objetivos. Isso leva a uma busca agitada por satisfação em atividades irreais e sem sentido.";
+"+4-1"="Seu estresse e ansiedade são provavelmente causados por circunstâncias ou necessidades emocionais insatisfeitas. Você se sente incompreendido e confuso. Você procura novas situações ou relacionamentos na esperança de obter maior satisfação e tranquilidade.";
+"+4-2"="Você tem habilidades ou força insuficientes para lidar com as circunstâncias. Isso leva ao estresse, ansiedade e um sentimento não admitido de inferioridade. Você busca evidências externas de auto-habilidades e valores para aumentar sua auto-estima. Você está inclinado a culpar os outros para remover a culpa de si mesmo. Você busca incansavelmente uma saída e tende a desejos espontâneos e rejeições impulsivas.";
+"+4-3"="Excitação nervosa. Comportamento imprevisível. Irritabilidade. Energia reduzida. Baixa tolerância às exigências dos outros. Você se sente impotente para lidar com tudo isso. Você acha que há uma ameaça nas circunstâncias e espera que uma solução intuitiva apareça e leve à salvação.";
+"+4-4"="Doppelte Haltung. Sie schwanken zwischen optimistischem Leistungswillen und düsterem Pessimismus.";
+"+4-5"="Você critica ferozmente as condições existentes. Você acredita que as condições estão mal definidas e desorganizam as atividades. Você procura uma saída para esclarecer a situação, trazer ordem a ela.";
+"+4-6"="Você não se sente valorizado o suficiente e busca oportunidades para mostrar seu próprio valor.";
+"+4-7"="Você acredita que as oportunidades e o crescimento são limitados. Você procura uma saída e quer se livrar das restrições.";
+
+"+5-0"="Você tem medo de ser impedido de alcançar seus próprios objetivos. Você usa o charme pessoal, esperando que isso o ajude a alcançar objetivos.";
+"+5-1"="Seu estresse e ansiedade são provavelmente causados por circunstâncias ou necessidades emocionais insatisfeitas. Você procura escapar para um ambiente perfeccionista de empatia e compreensão. Você pode começar a procurar uma atmosfera de esteticismo.";
+"+5-2"="Você tem capacidade ou força insuficiente para lidar com as circunstâncias. Isso leva ao estresse, ansiedade e um sentimento não admitido de inferioridade. Você escapa disso fugindo para um mundo artificial ilusório.";
+"+5-3"="Exausta. Quaisquer outras exigências ou excitação são insuportáveis. Você se sente impotente e incapaz de controlar o curso dos acontecimentos. Isso cria irritação e ansiedade. Você tenta escapar disso fugindo para um mundo artificial ilusório.";
+"+5-4"="Esperanças não cumpridas causam frustração. O medo de estabelecer novas metas leva à ansiedade. Você escapa disso fugindo para um mundo artificial ilusório. O mundo sem decepções onde tudo é como você deseja.";
+"+5-5"="Atitudes duplas. Você oscila entre o desejo de companheirismo fácil e o desprezo pelas pessoas porque elas não têm bom gosto e inteligência.";
+"+5-6"="Você fica impressionado com tudo o que é incomum ou original. Isso inclui pessoas com habilidades excepcionais. Você tenta adotar qualidades admiradas e se comporta de maneira original.";
+"+5-7"="Você procura decidir seu próprio destino e evitar quaisquer limitações de liberdade para agir. Você evita críticas e usa charme pessoal ao lidar com as pessoas.";
+
+"+6-0"="Você tem medo de ser impedido de alcançar seus objetivos. Você quer uma situação mais segura e livre de conflitos. Você anseia por um estado de estabilidade e pela oportunidade de relaxar.";
+"+6-1"="Seu estresse e ansiedade são provavelmente causados por circunstâncias ou necessidades emocionais insatisfeitas. Você busca a salvação em uma situação segura e livre de conflitos. Você quer descansar um pouco e se recuperar.";
+"+6-2"="Você tem capacidade ou força insuficiente para lidar com as circunstâncias. Isso leva ao estresse, ansiedade e um sentimento não admitido de inferioridade. Você busca a salvação em uma atmosfera estável e segura, livre de quaisquer outras exigências. Você quer uma chance de relaxar e se recuperar.";
+"+6-3"="Exausta. Quaisquer outras exigências ou excitação são insuportáveis. Você se sente impotente e incapaz de controlar o curso dos acontecimentos. Isso cria irritação e forte ansiedade. Você busca a salvação em um ambiente estável e seguro. Você quer descansar um pouco e se recuperar.";
+"+6-4"="O medo de estabelecer novas metas leva à ansiedade. Incompreendido e subestimado. Você sofre com a falta de relacionamentos íntimos. Você busca a salvação em um ambiente estável e seguro. Você quer descansar um pouco e se recuperar.";
+"+6-5"="Você quer se proteger contra conflitos e críticas. Você deseja se estabelecer em uma posição segura e estável. Você está inclinado a tratar os outros de forma crítica. Por isso, é difícil agradá-lo.";
+"+6-6"="Atitudes duplas. Você oscila entre o desejo de segurança e a sede de reconhecimento.";
+"+6-7"="Você busca um ambiente sem exigências e perturbações. Você quer segurança.";
+
+"+7-0"="Você tem medo de ser impedido de alcançar seus objetivos. Faz você usar todas as oportunidades que a vida oferece. Você só os usa para provar que nenhum deles tem valor. Essa zombaria destrutiva se torna um meio de esconder seu desamparo e um profundo sentimento de desesperança.";
+"+7-1"="O estresse e a ansiedade são provavelmente causados por circunstâncias ou necessidades emocionais insatisfeitas. Você se sente incompreendido pelos outros. Como resultado, você mostra uma atitude arrogante e desafiadora em relação aos outros.";
+"+7-2"="Você tem habilidades ou força insuficientes para lidar com as circunstâncias. Isso leva ao estresse, ansiedade e um sentimento não admitido de inferioridade. Sua incapacidade de impor sua vontade de qualquer forma o força a reagir exageradamente e mostrar excesso de zelo. Você culpa os outros por todas as suas próprias falhas.";
+"+7-3"="Exausta. Quaisquer outras exigências ou excitação são insuportáveis. Você se sente impotente e angustiado. Você acredita ser uma vítima nesta situação e mostra ressentimento. Você exige ter a oportunidade de agir à sua maneira.";
+"+7-4"="Esperanças não cumpridas causam frustração. O medo de estabelecer novas metas leva à ansiedade. Você sente o vazio e o desprezo de si mesmo, não quer admitir o último e tentar escondê-lo. Você se comporta deliberadamente e desafiadoramente com os outros.";
+"+7-5"="A capacidade natural de analisar tudo assumiu uma forma distorcida. Você tem uma tendência a críticas duras. Você deseja negar e questionar tudo sem olhar para os fatos.";
+"+7-6"="Você exige que a atenção de todos se concentre em você. Você se recusa a desempenhar papéis impessoais ou secundários. Você quer desempenhar um papel eminente que o torne reconhecível ou famoso. Você anseia por admiração e respeito.";
+"+7-7"="Atitudes duplas. Você oscila entre o individualismo comum e a zombaria furiosa de qualquer outro ponto de vista.";
+
+
+//////////////////////////////////////////////
+// -----------------------------------------//
+//////////////////////////////////////////////
+// GROUP +  Desired Objective --> YOU WANT XXX
+"_+0"="Não envolvimento";
+"_+0+1"="Ambiente calmo e tranquilo";
+"_+0+2"="Proteção contra conflitos e brigas";
+"_+0+3"="Admiração por suas conquistas";
+"_+0+4"="Liberdade de fardos deprimentes";
+"_+0+5"="Intimidade terna idealizada";
+"_+0+6"="Livre de problemas e ansiedade";
+"_+0+7"="Mudança da situação atual";
+
+"_+1"="Estado calmo e sentimento de pertencimento";
+"_+1+0"="Alívio do estresse e calma";
+"_+1+2"="Alívio pacífico do estresse";
+"_+1+3"="União íntima cheia de amor";
+"_+1+4"="Ternura nos relacionamentos";
+"_+1+5"="Sensibilidade, harmonia e ternura";
+"_+1+6"="Refúgio de conflitos.";
+"_+1+7"="Descanso, paz e compreensão carinhosa";
+
+"_+2"="Reconhecimento e resistência superados";
+"_+2+0"="Cause uma boa impressão";
+"_+2+1"="Sinta-se apreciado e admirado";
+"_+2+3"="Reconhecimento e sucesso";
+"_+2+4"="Popularidade e adoração";
+"_+2+5"="Influência e reconhecimento especial";
+"_+2+6"="Reconhecimento, segurança e menos problemas";
+"_+2+7"="Superioridade a qualquer fraqueza";
+
+"_+3"="Viva a vida ao máximo";
+"_+3+0"="Siga seus impulsos";
+"_+3+1"="Satisfação erótica e emocional";
+"_+3+2"="Reconhecimento especial pelo seu sucesso";
+"_+3+4"="Sucesso, certeza, uma vida cheia de impressões";
+"_+3+5"="Encante e influencie os outros";
+"_+3+6"="Conforto e segurança";
+"_+3+7"="Compre a margem de manobra";
+
+"_+4"="Uma mudança de cenário";
+"_+4+0"="Fuja de todas as coisas opressoras";
+"_+4+1"="Alívio e satisfação";
+"_+4+2"="Prove-se e ganhe reconhecimento";
+"_+4+3"="Influência mais ampla";
+"_+4+5"="Eventos interessantes ou emocionantes";
+"_+4+6"="Facilidade física, sem problemas, segurança";
+"_+4+7"="Resolva problemas sem pensar";
+
+"_+5"="Identifique-se com algo, ganhe seguidores";
+"_+5+0"="Compreensão solidária e sem disputas";
+"_+5+1"="Vínculo simpático e harmonia perfeita";
+"_+5+2"="Aparecer como uma pessoa extraordinária";
+"_+5+3"="Reconhecimento de sua personalidade emocionante";
+"_+5+4"="Eventos interessantes e emocionantes";
+"_+5+6"="Atmosfera voluptuosa";
+"_+5+7"="Satisfação sensual através de um vínculo";
+
+"_+6"="Estado calmo sem problemas";
+"_+6+0"="Estilo de vida e relaxamento sem complicações";
+"_+6+1"="Satisfação física e sensível";
+"_+6+2"="Ambiente seguro e calmo";
+"_+6+3"="Satisfação de todas as necessidades físicas";
+"_+6+4"="Comece a acreditar";
+"_+6+5"="Satisfação com voluptuosidade";
+"_+6+7"="Ambiente confortável e sem problemas";
+
+"_+7"="Alívio das circunstâncias";
+"_+7+0"="Proteção contra qualquer coisa deprimente";
+"_+7+1"="Para ser deixado em paz";
+"_+7+2"="Liberdade e autodeterminação";
+"_+7+3"="Liberdade para agir";
+"_+7+4"="Uma saída para seus problemas";
+"_+7+5"="Combinação perfeita de ideias e emoções";
+"_+7+6"="Ambiente calmo e sem problemas";
+
+
+////////////////////////////////////////////
+// GROUP x  Situation now --> YOU ARW XXXX
+// This represents a barrier between the compensatory colors which precede it and the remaining colors the point at
+// which switching-off has ­ curred. The + group is thus the sole mechanism through which participating experience is
+// possible. Emphasizes the characteristics of the + group and makes them more compulsive.
+"_x0"="Você está limitando a prontidão emocional";
+"_x0x1"="Você é relativamente passivo e incapaz de construir relacionamentos";
+"_x0x2"="Você está tentando teimosamente alcançar seus objetivos";
+"_x0x3"="Você está tendo problemas para progredir";
+"_x0x4"="Você não consegue decidir como agir";
+"_x0x5"="Você não consegue alcançar a intimidade desejada";
+"_x0x6"="Você não consegue aplicar esforços para atingir metas";
+"_x0x7"="Você está tentando se livrar das restrições";
+
+"_x1"="Você está agindo com calma";
+"_x1x0"="Você está sob alguma tensão";
+"_x1x2"="Você está agindo de forma ordenada e independente";
+"_x1x3"="Você não está disposto a assumir a posição de liderança";
+"_x1x4"="Você é coletivista";
+"_x1x5"="Você é sensível, pronto para um relacionamento caloroso";
+"_x1x6"="Você está evitando esforços excessivos";
+"_x1x7"="Você não consegue lidar com respeito insuficiente";
+
+"_x2"="Você é persistente";
+"_x2x0"="Você está determinado a perseguir os objetivos";
+"_x2x1"="Você é preciso, metódico e autossuficiente";
+"_x2x3"="Você está tentando derrotar a oposição";
+"_x2x4"="Você está tentando melhorar sua posição";
+"_x2x5"="Você está tentando melhorar sua imagem";
+"_x2x6"="Você está construindo uma base sólida no futuro";
+"_x2x7"="Você está perseguindo seus objetivos teimosamente";
+
+"_x3"="Você está ativo, mas duvida do progresso";
+"_x3x0"="Você está se concentrando em desejos pessoais";
+"_x3x1"="Você está trabalhando bem em colaboração";
+"_x3x2"="Você está seguindo firmemente suas próprias intenções";
+"_x3x4"="Você é inconstante e extrovertido";
+"_x3x5"="Você está participando facilmente de atividades emocionantes";
+"_x3x6"="Você se opõe a fazer esforços excessivos";
+"_x3x7"="Você está incomodado com problemas na busca de desejos";
+
+"_x4"="Você é atraído por qualquer coisa nova ou excitante";
+"_x4x0"="Você está procurando uma solução para os problemas";
+"_x4x1"="Você é facilmente influenciado pelos outros";
+"_x4x2"="Você espera uma posição melhorada";
+"_x4x3"="Você está frustrado com o progresso lento";
+"_x4x5"="Você está procurando uma situação para mostrar suas habilidades";
+"_x4x6"="Você está procurando um ambiente livre de problemas";
+"_x4x7"="Você está procurando uma saída para a situação atual";
+
+"_x5"="Você está querendo expressar a necessidade de identificação";
+"_x5x0"="Você está procurando um vínculo próximo na intimidade compartilhada";
+"_x5x1"="Você deseja compartilhar um vínculo de terna intimidade";
+"_x5x2"="Você está tentando melhorar sua imagem";
+"_x5x3"="Você se envolve facilmente em coisas excitantes";
+"_x5x4"="Você é sensível e imaginativo";
+"_x5x6"="Você é sensual";
+"_x5x7"="Você está procurando um relacionamento próximo";
+
+"_x6"="Você está ansioso e inseguro nesta situação";
+"_x6x0"="Você está cansado e incapaz de se mover em direção ao objetivo";
+"_x6x1"="Você está evitando esforço extra";
+"_x6x2"="Você está lutando com dificuldades";
+"_x6x3"="Você está tendo problemas para progredir";
+"_x6x4"="Você está desejando menos problemas";
+"_x6x5"="Você anseia por prazer físico e sensual";
+"_x6x7"="Você está profundamente angustiado emocionalmente";
+
+"_x7"="Você é teimoso em demandas";
+"_x7x0"="Você está cansado da situação atual";
+"_x7x1"="Você está procurando um parceiro dedicado";
+"_x7x2"="Você mantém suas demandas teimosamente";
+"_x7x3"="Você está sendo obstruído em seus desejos";
+"_x7x4"="Você está procurando uma saída para a situação atual";
+"_x7x5"="Você está procurando um relacionamento próximo";
+"_x7x6"="Você está profundamente angustiado emocionalmente";
+
+
+////////////////////////////////////////////
+// GROUP =  Indifferent -- YOU WILL XXX
+"_=0"="Participação em tudo";
+"_=0=1"="Sentimentos profundos do relacionamento";
+"_=0=2"="Receba menos do que deveria";
+"_=0=3"="Apatia e ansiedade";
+"_=0=4"="Grandes demandas de relacionamento com os próximos";
+"_=0=5"="Reação delicada";
+"_=0=6"="Envolvimento Emocional";
+"_=0=7"="Compromissos involuntários";
+
+"_=1"="Desapego emocional";
+"_=1=0"="Não busca profundidade de sentimentos";
+"_=1=2"="Baixa valorização";
+"_=1=3"="Sensação de isolamento";
+"_=1=4"="Altas exigências na escolha do parceiro";
+"_=1=5"="Hipersensibilidade";
+"_=1=6"="Proximidade emocional";
+"_=1=7"="Compromissos involuntários";
+
+"_=2"="Consolidação de posição";
+"_=2=0"="Falta de confiança";
+"_=2=1"="Incompreensão e subvalorização";
+"_=2=3"="Cede, concorda em adaptar";
+"_=2=4"="Perseverança, seguindo seu objetivo";
+"_=2=5"="Compromisso com benefício máximo";
+"_=2=6"="Esforçando-se para satisfazer as necessidades físicas";
+"_=2=7"="Submissão à situação";
+
+"_=3"="Calmante";
+"_=3=0"="Silêncio e paz";
+"_=3=1"="Sensação de desconexão";
+"_=3=2"="O melhor uso da situação";
+"_=3=4"="Extensão do campo de atividade";
+"_=3=5"="Alta sensibilidade";
+"_=3=6"="Saída da situação angustiante";
+"_=3=7"="Recusa de todas as alegrias e prazeres";
+
+"_=4"="Escolha cuidadosa do parceiro";
+"_=4=0"="Pesquisa cuidadosa de um parceiro";
+"_=4=1"="Precisão de emoção";
+"_=4=2"="Flexibilidade e adaptabilidade";
+"_=4=3"="Expansão do campo de atividade";
+"_=4=5"="Egocentrismo, sensibilidade";
+"_=4=6"="Idealização da vida sexual";
+"_=4=7"="Compromissos na situação atual";
+
+"_=5"="Sensibilidade aumentada";
+"_=5=0"="Possibilidade de conflitos abertos";
+"_=5=1"="Problemas ao formar anexo";
+"_=5=2"="Restrição de emoções";
+"_=5=3"="Angústia por mal-entendido";
+"_=5=4"="Insegurança";
+"_=5=6"="Indiferença emocional";
+"_=5=7"="Intimidade apenas em casos excepcionais";
+
+"_=6"="Satisfação das necessidades físicas";
+"_=6=0"="Envolvimento emocional";
+"_=6=1"="Isolamento emocional";
+"_=6=2"="Satisfação das necessidades físicas";
+"_=6=3"="Livrar-se de uma situação desagradável";
+"_=6=4"="Em busca de uma vida sexual perfeita";
+"_=6=5"="Indiferença emocional, mas alta vulnerabilidade";
+"_=6=7"="Compromissos e negação temporária de alguns prazeres";
+
+"_=7"="Compromissos e abrindo mão de alguns prazeres por enquanto";
+"_=7=0"="Compromissos forçados";
+"_=7=1"="Supressão emocional e compromissos involuntários";
+"_=7=2"="Compromissos e rejeição de coisas desejáveis";
+"_=7=3"="Rejeição de todas as alegrias e prazeres";
+"_=7=4"="Compromisso com as metas estabelecidas, compromissos forçados";
+"_=7=5"="Autoproibição de intimidade";
+"_=7=6"="Compromissos e negação temporária de alguns prazeres";
+
+
+////////////////////////////////////////////
+// GROUP -  Rejection - Stress Source
+"_-0"="Participação precipitada";
+"_-0-1"="Frustração agitada";
+"_-0-2"="Exigências insuportáveis";
+"_-0-3"="Raiva impotente";
+"_-0-4"="Vulnerabilidade";
+"_-0-5"="Supressão de emoções";
+"_-0-6"="Vaidade";
+"_-0-7"="Perseguição orientada para o futuro";
+
+"_-1"="Situação esmagadora";
+"_-1-0"="Relação sem alegria";
+"_-1-2"="Excesso de esforço";
+"_-1-3"="Relação dolorosa";
+"_-1-4"="Emoções no relacionamento";
+"_-1-5"="Sem entendimento mútuo";
+"_-1-6"="Baixa auto-estima";
+"_-1-7"="Medo de mudar";
+
+"_-2"="Indecisão sob estresse";
+"_-2-0"="Teimosia infrutífera";
+"_-2-1"="Esgotamento";
+"_-2-3"="Altas demandas";
+"_-2-4"="Perda de autoconfiança";
+"_-2-5"="Sensação de insignificância";
+"_-2-6"="Indecisão";
+"_-2-7"="Liberdade limitada";
+
+"_-3"="Impotência";
+"_-3-0"="Aborrecimento e desespero";
+"_-3-1"="Discordância de relacionamento";
+"_-3-2"="Indignação impotente";
+"_-3-4"="Autojustificação falsa";
+"_-3-5"="Esperança não cumprida";
+"_-3-6"="Subvalorizado";
+"_-3-7"="Situação dolorosa";
+
+"_-4"="Estagnação";
+"_-4-0"="Medo de erro";
+"_-4-1"="Apega-se à emoção infeliz";
+"_-4-2"="Perda de autoconfiança";
+"_-4-3"="Autojustificação falsa";
+"_-4-5"="Baixa auto-estima";
+"_-4-6"="Perda de confiança";
+"_-4-7"="Excesso de cautela";
+
+"_-5"="Controle de sensações";
+"_-5-0"="Sensualidade controlada";
+"_-5-1"="Inquietude";
+"_-5-2"="Sensação de insignificância";
+"_-5-3"="Esperança não cumprida";
+"_-5-4"="Baixa auto-estima";
+"_-5-6"="Críticas excessivas";
+"_-5-7"="Liberdade para agir";
+
+"_-6"="Floco de neve único";
+"_-6-0"="Extravagância";
+"_-6-1"="Fraca autoconfiança";
+"_-6-2"="Indecisão";
+"_-6-3"="Auto-isolamento";
+"_-6-4"="Perda de confiança";
+"_-6-5"="Esteticismo";
+"_-6-7"="Propósito";
+
+"_-7"="Controlar o próprio destino";
+"_-7-0"="Intrusividade";
+"_-7-1"="Medo de mudar";
+"_-7-2"="Liberdade limitada";
+"_-7-3"="Situação dolorosa";
+"_-7-4"="Excesso de cuidado";
+"_-7-5"="Expectativas infladas";
+"_-7-6"="Ambição excessiva";
+
+
+
+////////////////////////////////////////////
+// GROUP +-  Actual Problem
+"_+0-0"="Atitudes duplas";
+"_+0-1"="Necessidades emocionais não satisfeitas";
+"_+0-2"="Excessivas exigências sobre você";
+"_+0-3"="Novas demandas são insuportáveis";
+"_+0-4"="Esperanças não cumpridas";
+"_+0-5"="Outros exploram sua confiança";
+"_+0-6"="Supressão de sociabilidade";
+"_+0-7"="Medo de perder a independência";
+
+"_+1-0"="Medo de ser obstruído";
+"_+1-1"="Ambivalência";
+"_+1-2"="Incapacidade de lidar com a situação";
+"_+1-3"="Condição de esgotado";
+"_+1-4"="Esperanças não realizadas";
+"_+1-5"="Outros exploram sua confiança";
+"_+1-6"="Desejo de respeito";
+"_+1-7"="Disputas e desacordos";
+
+"_+2-0"="Medo de obstáculos";
+"_+2-1"="Necessidades emocionais não atendidas";
+"_+2-2"="Atitude ambivalente";
+"_+2-3"="Exausto, as demandas são insuportáveis";
+"_+2-4"="Medo de definir novos objetivos";
+"_+2-5"="Reforço da posição";
+"_+2-6"="Respeito dos outros";
+"_+2-7"="Resistência a impactos externos";
+
+"_+3-0"="Temo que alguém interfira";
+"_+3-1"="Emoções insatisfeitas";
+"_+3-2"="Situação muito exigente";
+"_+3-3"="Atitude ambivalente";
+"_+3-4"="Esperanças não cumpridas";
+"_+3-5"="Auto-restrição";
+"_+3-6"="Respeito pelos outros";
+"_+3-7"="Restrições";
+
+"_+4-0"="Medo de ser bloqueado";
+"_+4-1"="Emoções não atendidas";
+"_+4-2"="As circunstâncias são muito difíceis";
+"_+4-3"="Sentindo-se impotente";
+"_+4-4"="Dualidade";
+"_+4-5"="Condições caóticas";
+"_+4-6"="Falta de apreciação";
+"_+4-7"="Possibilidade de crescimento limitada";
+
+"_+5-0"="Medo de ser impedido";
+"_+5-1"="Emoções insatisfeitas";
+"_+5-2"="As circunstâncias são muito exigentes";
+"_+5-3"="Cansado, as exigências são insuportáveis";
+"_+5-4"="Medo de estabelecer novas metas";
+"_+5-5"="Atitude dupla";
+"_+5-6"="Comportamento original";
+"_+5-7"="Liberdade para escolher e agir";
+
+"_+6-0"="Medo de obstáculos";
+"_+6-1"="Sentimentos insatisfeitos";
+"_+6-2"="As circunstâncias são muito exigentes";
+"_+6-3"="Exigências insuportáveis";
+"_+6-4"="Medo de estabelecer novas metas";
+"_+6-5"="Reforço da posição";
+"_+6-6"="Atitudes duplas";
+"_+6-7"="Falta de segurança";
+
+"_+7-0"="Medo de ser parado";
+"_+7-1"="Incompreendido pelos outros";
+"_+7-2"="Circunstâncias exigentes";
+"_+7-3"="Esgotado, as demandas são insuportáveis";
+"_+7-4"="Medo de fazer novas metas";
+"_+7-5"="Questionando tudo";
+"_+7-6"="Desejo por admiração";
+"_+7-7"="Dualismo";
