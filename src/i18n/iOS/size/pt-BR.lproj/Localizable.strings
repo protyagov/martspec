@@ -1,0 +1,251 @@
+"save" = "salvar";
+"SAVING" = "grava dados...";
+"NO_DATA"="sem dados";
+"DISCLAIMER" = "Esta ferramenta NÃO substitui qualquer serviço médico profissional.";
+
+/* titles */
+"TITLE" = "Ser Fitness";
+"COMPD" = "Tipo de corpo. Pêra ou Maçã?";
+"BSIZE" = "Corpo";
+"WAIST" = "Cintura";
+"CHEST" = "Peito";
+"BUST"  = "Peito";
+"HIPS"  = "Quadris";
+"SEX_M" = "Macho";
+"SEX_F" = "Fêmea";
+"HIP"   = "QUA";
+"CHT"   = "CIN";
+"WST"   = "WST";
+
+"HGT"   = "ALT";
+"ARMS"  = "Braço";
+"LEGS"  = "Perna";
+"NECK"  = "Pescoço";
+"SHLD"  = "Ombros";
+"MASS"  = "Peso";
+"HEIGHT"= "Altura";
+
+"TAB_MEASURE"="Medidas";
+"TAB_MONITOR"="Indicadores";
+"TAB_HELP"="Participar";
+
+"VAL_MIN"="mínima";
+"VAL_MAX"="máxima";
+"VAL_AVG"="média";
+
+"BT_ADD" = "Adicionar";
+"BT_DELETE" = "Apagar";
+"BT_UPDATE" = "Mudar";
+"TL_EDIT" = "Editar";
+
+/* units  */
+"cm"="cm";
+"in"="pol";
+"st"="🪨";
+"kg"="kg";
+"lb"="lb";
+"UNIT_M2"="m²";
+
+/* complications  */
+"August 25" = "25 de Agosto";
+
+/*  monitors  */
+"LEVEL_LOW"  = "baixo";
+"LEVEL_NORM" = "normal";
+"LEVEL_AVG"  = "moderado";
+"LEVEL_HIGH" = "alto";
+
+"LEVEL_UNDR_W" = "baixo peso";
+"LEVEL_NORM_W" = "saudável";
+"LEVEL_HIGH_W" = "peso alto";
+"LEVEL_OBES_W" = "obeso";
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// Body shape description
+"SHP_Head1"="Formato corporal";
+"SHP_Descr"="\n\nA forma do corpo pode dizer muito sobre a saúde. Mas é importante lembrar que é apenas um fator. Todas as formas e tamanhos podem ser saudáveis - ou em risco de problemas como doenças cardíacas ou diabetes.
+
+FORMAS DO CORPO:
+🍎 — Maçã
+🍐 — Pera
+⌛ — Ampulheta
+🍫 — Retângulo
+🍓 — Morango ou Triângulo";
+"Oval NAME"="Maçã / oval";
+"Oval DESC"="O peso tende a se formar em torno do estômago. A cintura é bastante indefinida e o corpo parece redondo. Cinturas maiores podem significar um risco maior de doenças cardíacas ou diabetes tipo 2, mesmo se o IMC for inferior a 25.";
+"Pear NAME"="Pêra";
+"Pear DESC"="Quadris são mais largos que o peito / busto. As áreas das nádegas e das coxas são maiores do que o resto do corpo. A cintura é bem definida. O peso tende a se formar na parte inferior do corpo. Os estudos são controversos quanto aos riscos para a saúde dessa forma corporal.";
+"Glass NAME"="Ampulheta";
+"Glass DESC"="Corpo bem equilibrado. O busto / tórax e os quadris têm medidas semelhantes, a cintura é pequena e bem definida. O ganho de peso pode ser difícil de detectar sem verificar a balança com freqüência.";
+"Rect NAME"="Retângulo";
+"Rect DESC"="Quadris e ombros têm largura semelhante. O corpo parece muito uniforme, sem curvas óbvias. O tamanho do busto / peito é pequeno a médio. Retângulos delgados têm uma aparência atlética e tendem a ter um metabolismo mais alto.";
+"UpTrg NAME"="Triângulo invertido";
+"UpTrg DESC"="Parte superior do corpo mais ampla. O peito / busto é mais largo que os quadris. A área do quadril é mais estreita. É provável que você não ganhe peso em gordura facilmente. A dieta é bastante eficaz na perda de peso.";
+//---------------------------------------------------------------------------------------
+"BMR_Head1" = "TMB";
+"BMR_Head2" = "Taxa metabólica basal";
+"BMR_Head3" = "calorias/dia";
+"BMR_Descr" = "Este é o número de calorias (energia) que você queima enquanto seu corpo executa funções básicas (basais) de sustentação da vida (respiração, batimentos cardíacos, produção de células, etc). Em outras palavras, esse é o número de calorias queimadas se você ficar o dia todo na cama.
+
+O uso de TMB por órgãos:
+• 27% — Fígado
+• 19% — Cérebro
+• 19% — Outros
+• 18% — Músculo
+• 10% — Rins
+•   7% — Coração
+
+❗Estresse, excitação ou temperatura podem aumentar ou diminuir a TMB.
+
+❗Pessoas com uma construção muscular pesada precisam de uma TMB mais alta do que uma pessoa com o mesmo peso, mas com uma porcentagem maior de gordura corporal.";
+//---------------------------------------------------------------------------------------
+"WHR_Head1" = "RCQ";
+"WHR_Head2" = "Relação cintura-quadril";
+"WHR_Descr" = "Números mais altos significam mais gordura ao redor da cintura. RCQ é um indicador de forma corporal e uma estimativa de riscos para a saúde:
+📕 alto risco
+📒 risco moderado
+📗 baixo risco
+
+COMO MEDIR
+• O tamanho da cintura é medido em torno da menor parte da cintura, logo acima do umbigo.
+• O tamanho dos quadris é medido em torno da maior parte de seus quadris – a parte mais larga de suas nádegas.
+
+🚼 FERTILIDADE
+Mulheres com RCQ de 0,7—0,8 tendem a ter níveis ótimos de estrogênio e taxas de gravidez mais altas do que mulheres com RCQ acima de 0,8. Homens com RCQ em torno de 0,9 são mais saudáveis e férteis.
+
+❗Este método é melhor do que o IMC para refletir a saúde geral, porque um peso saudável mostraria um IMC normal, enquanto pode haver muita gordura ao redor da barriga. O método funciona melhor para pessoas com mais de 155 cm de altura com IMC abaixo de 35.";
+//---------------------------------------------------------------------------------------
+"BMI_Head1" = "IMC";
+"BMI_Head2" = "Índice de massa corporal";
+"BMI_Descr" = "Este é um indicador clássico de gordura corporal com base na altura e no peso. O IMC é usado para categorizar o peso de uma pessoa como
+
+📘 abaixo do peso (abaixo de 18,5)
+📗 peso saudável (18,5 – 24,9)
+📒 excesso de peso (25 - 30)
+📕 obeso (acima de 30)
+
+Usamos a Classificação Internacional da OMS. No entanto, existem outros padrões. Por exemplo, em Hong Kong, a faixa de peso saudável é de 18,5 a 22,9.
+
+❗Embora o IMC seja o indicador geral de saúde do corpo mais utilizado, ele tem suas limitações. O IMC é apenas uma estimativa; não leva em conta a composição corporal. Devido a uma grande variedade de tipos de corpo, a distribuição de músculo, massa óssea e gordura, o IMC deve ser considerado juntamente com outras medidas.";
+//---------------------------------------------------------------------------------------
+"PII_Head1" = "ÍC";
+"PII_Head2" = "Índice de Corpulência";
+"PII_Descr" = "Este índice mostra a relação entre massa e crescimento. Essa proporção é usada para categorizar a massa corporal de uma pessoa como
+📘 abaixo do peso
+📗 saudável
+📒 excesso de peso
+📕 obeso
+
+Este índice é considerado uma melhoria em relação ao IMC porque tem maior sensibilidade e é considerado para produzir resultados válidos mesmo para valores extremos.
+
+❗No entanto, não leva em conta a constituição corporal nem diferencia os tipos de corpo, como masculino e feminino. Uma pessoa com muito músculo pode ser classificada como acima do peso.";
+//---------------------------------------------------------------------------------------
+"BSA_Head1" = "SC";
+"BSA_Head2" = "Superfície Corporal";
+"BSA_Descr" = "Esta é a área de superfície do seu corpo em m² (metro quadrado). A área de superfície corporal pode ser um melhor indicador da massa metabólica do que o peso corporal porque é menos afetada pela massa adiposa anormal. A área de superfície corporal é frequentemente usada para orientar a dosagem do medicamento. Também é usado para avaliar a gravidade de lesões na pele (como queimaduras).
+
+❗Não há área de superfície corporal alta ou baixa.
+
+Valores médios para adultos:
+♂ Homem: 1,91 m²
+♀ Mulher: 1,79 m²";
+//---------------------------------------------------------------------------------------
+"Adonis_Head1" = "Índice de Adônis";
+"Adonis_Head2" = "Relação ombro-cintura";
+"Adonis_Descr" = "O índice Adonis baseia-se em uma proporção de ombros para cintura relacionada à proporção áurea (1,61). É a proporção mais importante para a aparência geral do corpo e a chave para a percepção humana de beleza e atração.
+
+Valores ideais para adultos:
+♂ Homens: 1,6
+♀ Mulheres: 1,4
+
+
+COMO MEDIR
+• O tamanho da cintura é medido em torno da menor parte da cintura, logo acima do umbigo.
+• O tamanho dos ombros é medido em seu ponto mais largo, normalmente encontrado a meio caminho entre a clavícula e os mamilos.
+
+❗Independentemente da proporção, o ideal é que sua cintura não ultrapasse 45% da sua altura.";
+//---------------------------------------------------------------------------------------
+"TBW_Head1" = "Água corporal";
+"TBW_Head2" = "Nível de água corporal";
+"TBW_Descr" = "Estima a porcentagem de água do seu corpo (nos tecidos, sangue, ossos, etc.) como:
+
+📘 baixo (desidratação)
+📗 saudável
+📙 alto (superhidratação)
+
+Recomenda-se a ingestão diária de 3,7L de líquidos para homens e 2,7L para mulheres. Com o estômago vazio, a água entra no sangue em 5 minutos, com o estômago cheio, leva de 45 a 120 minutos. Com o estômago vazio, a água entra no sangue em 5 minutos, com o estômago cheio, pode levar de 45 a 120 minutos.
+
+❗A desidratação pode levar a lesões por calor, convulsões, problemas renais, choque hipovolêmico, queda da pressão arterial e do oxigênio no corpo.
+
+❗A superhidratação pode incluir confusão, desorientação, náusea, diluição dos eletrólitos e vômitos.
+
+💧O teor de água dos órgãos humanos
+• 83% - Pulmões
+• 79% - Músculo e rins
+• 73% — Cérebro e coração
+• 64% - Pele";
+//---------------------------------------------------------------------------------------
+"WSR_Head1" = "ÍCA";
+"WSR_Head2" = "Índice cintura-altura";
+"WSR_Descr" = "Esta é a medida da sua distribuição de gordura corporal classificada como:
+
+📘 abaixo do peso
+📗 peso saudável
+📙 excesso de peso
+📕 obeso
+
+Essa proporção é uma medida muito melhor do risco cardiovascular, diabetes e acidente vascular cerebral do que o IMC mais amplamente utilizado, porque é responsável pela distribuição da gordura abdominal, que é conhecida por aumentar os riscos mencionados acima.
+
+❗Tente manter o tamanho da cintura menor que a metade da sua altura. A proporção deve ser de 0,5 ou menos.
+
+
+COMO MEDIR
+• O tamanho da cintura é medido em torno da menor parte da cintura, logo acima do umbigo.
+• A estatura é medida quando você fica em pé, alinhado com a parede em um piso plano e duro, com as costas e os calcanhares tocando a parede e olhando para a frente.";
+//---------------------------------------------------------------------------------------
+"BFP_LEVEL_1" = "sem gordura";
+"BFP_LEVEL_2" = "atlético";
+"BFP_LEVEL_3" = "esportivo";
+"BFP_LEVEL_4" = "média";
+"BFP_LEVEL_5" = "obeso";
+
+"BFP_Head1" = "Gordo %";
+"BFP_Head2" = "Porcentagem de gordura corporal";
+"BFP_Descr" = "Esta é uma medida de aptidão corporal e um indicador da forma do corpo como:
+
+📘 corpo de alívio (somente gorduras essenciais)
+📗 corpo de atleta
+📒 forma física
+📙 forma média
+📕 obeso
+
+CONSISTE EM:
+• Gordura essencial — mantém a vida e as funções reprodutivas e é tipicamente entre 10 e 13% nas mulheres e 2 e 5% nos homens.
+• Gordura de armazenamento — isola o corpo para reter calor e armazena substrato energético para o metabolismo. Acumula-se principalmente sob a pele (gordura subcutânea) e ao redor dos principais órgãos (gordura visceral) do corpo.
+
+FUNÇÃO:
+Entrega de lipídios que o corpo usa para gerar energia. O acúmulo de gordura corporal é influenciado pela ingestão de alimentos, exercícios e fatores genéticos.
+
+❗Reduzir a gordura não é o mesmo que reduzir o peso corporal. Simplesmente diminuir a ingestão calórica não é suficiente. Perder 2% da gordura corporal em 30 dias é possível.
+
+❗O excesso ou insuficiência de gordura corporal pode levar a efeitos prejudiciais à saúde.";
+/////////////////////////////////////////////////////////////////////////////////////////
+/* Help Screen*/
+"HELP_HEADER"="Construir juntos";
+"HELP_INTRO"="Este aplicativo é 100% gratuito, tem zero anúncios e não vende seus dados. Acreditamos que a privacidade é um direito humano fundamental. Isso é incorporado aos nossos produtos desde o início do processo de design.
+Por favor, ajude-nos a tornar este aplicativo ainda melhor. Existem várias maneiras de ajudar:";
+
+"HELP_OPT1_T" = "Revisar";
+"HELP_OPT1_D" = "O que diferencia este aplicativo dos outros e incentiva você a usá-lo? O que você mais gosta neste aplicativo? Há alguma área em que podemos melhorar? Precisamos sentir e entender que o aplicativo ajuda você, melhora sua saúde e bem-estar.";
+"HELP_OPT1_B" = "Avaliar aplicativo";
+
+"HELP_OPT2_T" = "Amigo";
+"HELP_OPT2_D" = "Ao compartilhar o aplicativo, você pode impactar positivamente outras pessoas e ajudá-las a aprender algo novo. Talvez elas possam achar este aplicativo tão útil quanto você.";
+"HELP_OPT2_B" = "Compartilhe";
+
+"HELP_OPT3_T" = "Idioma 🇧🇷 🇵🇹";
+"HELP_OPT3_D" = "Sua língua nativa é exibida corretamente? Você tem uma sugestão para renomear alguma coisa? Você pode se voluntariar e ajudar com a ortografia gramaticalmente correta do texto. Mesmo que você altere uma palavra, seria de grande ajuda." ;
+"HELP_OPT3_B" = "Traduzir";
+
+"HELP_OPT4_T" = "Social";
+"HELP_OPT4_D" = "Agradecemos se você apoiar a causa de um estilo de vida saudável compartilhando boas palavras sobre este aplicativo em uma rede social. Este aplicativo pode beneficiar e enriquecer a vida de outras pessoas.";

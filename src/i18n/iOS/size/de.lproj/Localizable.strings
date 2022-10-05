@@ -1,0 +1,251 @@
+"save" = "Speichern";
+"SAVING" = "Daten speichern...";
+"NO_DATA"="keine daten";
+"DISCLAIMER" = "Dieses Tool ist KEIN Ersatz für einen professionellen medizinischen Dienst.";
+
+/* titles */
+"TITLE" = "Körperform";
+"COMPD" = "Schöner Körper. Von dir gebaut!";
+"BSIZE" = "Körper";
+"WAIST" = "Taille";
+"CHEST" = "Brust";
+"BUST"  = "Oberweite";
+"HIPS"  = "Hüften";
+"SEX_M" = "Männlich";
+"SEX_F" = "Weiblich";
+"HIP"   = "HÜF";
+"CHT"   = "BRU";
+"WST"   = "TAL";
+
+"HGT"   = "GRÖ";
+"ARMS"  = "Arme";
+"LEGS"  = "Beine";
+"NECK"  = "Hals";
+"SHLD"  = "Schultern";
+"MASS"  = "Gewicht";
+"HEIGHT"= "Größe";
+
+"TAB_MEASURE"="Messungen";
+"TAB_MONITOR"="Kennziffern";
+"TAB_HELP"="Teilnehmen";
+
+"VAL_MIN"="min";
+"VAL_MAX"="max";
+"VAL_AVG"="mittelwert";
+
+"BT_ADD" = "Hinzufügen";
+"BT_DELETE" = "Löschen";
+"BT_UPDATE" = "Ändern";
+"TL_EDIT" = "Fertig";
+
+/* units  */
+"cm"="cm";
+"in"="zoll";
+"st"="🪨";
+"kg"="kg";
+"lb"="Pfd";
+"UNIT_M2"="m²";
+
+/* complications  */
+"August 25" = "25 August";
+
+/*  monitors  */
+"LEVEL_LOW"  = "niedrig";
+"LEVEL_NORM" = "normal";
+"LEVEL_AVG"  = "mäßig";
+"LEVEL_HIGH" = "hoch";
+
+"LEVEL_UNDR_W" = "untergewicht";
+"LEVEL_NORM_W" = "gesund";
+"LEVEL_HIGH_W" = "übergewicht";
+"LEVEL_OBES_W" = "fettleibig";
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// Body shape description
+"SHP_Head1"="Körperform";
+"SHP_Descr"="\n\nDie Körperform kann viel über die Gesundheit aussagen. Aber es ist wichtig, sich daran zu erinnern, dass es nur ein Faktor ist. Alle Formen und Größen können gesund sein – oder einem Risiko für Probleme wie Herzkrankheiten oder Diabetes ausgesetzt sein.
+
+KÖRPERFORMEN:
+🍎 – Apfel
+🍐 – Birne
+⌛ – Sanduhr
+🍫 – Rechteck
+🍓 – Erdbeere oder Dreieck";
+"Oval NAME"="Apfel / Oval";
+"Oval DESC"="Gewicht neigt dazu, sich um den Magen herum zu bilden. Die Taille ist eher undefiniert und der Körper sieht rund aus. Größere Taillen können ein höheres Risiko für Herzerkrankungen oder Typ-2-Diabetes bedeuten, selbst wenn der BMI unter 25 liegt.";
+"Pear NAME"="Birne / Dreieck";
+"Pear DESC"="Hüften sind breiter als Brust/Brust. Gesäß- und Oberschenkelbereiche sind größer als der Rest des Körpers. Die Taille ist gut definiert. Das Gewicht neigt dazu, sich an der Unterseite des Körpers zu bilden. Studien zu den gesundheitlichen Risiken dieser Körperform sind umstritten.";
+"Glass NAME"="Sanduhr";
+"Glass DESC"="Gut ausbalancierter Körper. Brust/Brust und Hüfte haben ähnliche Maße, die Taille ist klein und gut definiert. Eine Gewichtszunahme kann schwer zu erkennen sein, ohne die Waage häufig zu überprüfen.";
+"Rect NAME"="Rechteck";
+"Rect DESC"="Hüften und Schultern haben eine ähnliche Breite. Der Körper sieht sehr gleichmäßig aus, ohne offensichtliche Kurven. Brust-/Brustumfang ist klein bis durchschnittlich. Schlanke Rechtecke sehen sportlich aus und haben tendenziell einen höheren Stoffwechsel.";
+"UpTrg NAME"="Invertiertes Dreieck";
+"UpTrg DESC"="Breiterer Oberkörper. Brust/Brust ist breiter als Hüften. Hüftbereich ist schmaler. Wahrscheinlich nehmen Sie nicht so leicht an Fett zu. Diät ist sehr effektiv beim Abnehmen.";
+//---------------------------------------------------------------------------------------
+"BMR_Head1" = "Grundumsatz";
+"BMR_Head2" = "Ruheenergiebedarf";
+"BMR_Head3" = "kalorien / tag";
+"BMR_Descr" = "Dies ist die Anzahl der Kalorien (Energie), die Sie verbrennen, während Ihr Körper grundlegende (basale) lebenserhaltende Funktionen ausführt (Atmung, Herzschlag, Zellproduktion usw.). Mit anderen Worten, das ist die Anzahl der verbrannten Kalorien, wenn Sie den ganzen Tag im Bett bleiben.
+
+Der Energieverbrauch der Organe:
+• 27 % — Leber
+• 19 % — Gehirn
+• 19 % — Sonstiges
+• 18 % — Muskel
+• 10 % — Nieren
+•   7 % — Herz
+
+❗Stress, Aufregung oder Temperatur können den Grundumsatz erhöhen oder verringern.
+
+❗Eine Person mit starker Muskulatur benötigt einen höheren Grundumsatz als eine Person mit dem gleichen Gewicht, aber einem höheren Körperfettanteil.";
+//---------------------------------------------------------------------------------------
+"WHR_Head1" = "THV";
+"WHR_Head2" = "Taille-Hüft-Verhältnis";
+"WHR_Descr" = "Höhere Zahlen bedeuten mehr Fett um die Taille. THV ist ein Körperformindikator und eine Schätzung des Gesundheitsrisikos:
+📕 hohes Risiko
+📒 mäßiges Risiko
+📗 geringes Risiko
+
+WIE MISST MAN
+• Die Taillenweite wird an der schmalsten Stelle Ihrer Taille direkt über Ihrem Bauchnabel gemessen.
+• Der Hüftumfang wird um den größten Teil Ihrer Hüfte herum gemessen – den breitesten Teil Ihres Gesäßes.
+
+🚼 FRUCHTBARKEIT
+Frauen mit einem THV von 0,7—0,8 haben tendenziell optimale Östrogenspiegel und höhere Schwangerschaftsraten als Frauen mit einem THV von über 0,8. Männer mit THV um 0,9 sind gesünder und fruchtbarer.
+
+❗Diese Methode ist besser als der BMI, um die allgemeine Gesundheit widerzuspiegeln, da ein gesundes Gewicht einen normalen BMI anzeigen würde, während am Bauch möglicherweise zu viel Fett vorhanden ist. Die Methode funktioniert am besten bei Personen, die größer als 155 cm sind und einen BMI unter 35 haben.";
+//---------------------------------------------------------------------------------------
+"BMI_Head1" = "BMI";
+"BMI_Head2" = "Body-Mass-Index";
+"BMI_Descr" = "Dies ist ein klassischer Indikator für Körperfett basierend auf Größe und Gewicht. BMI wird verwendet, um das Gewicht einer Person zu kategorisieren
+
+📘 untergewicht (unter 18,5)
+📗 gesundes gewicht (18,5 – 24,9)
+📒 übergewicht (25 — 30)
+📕 fettleibig (über 30)
+
+Wir verwenden die Internationale Klassifikation der WHO. Es gibt jedoch andere Standards. In Hongkong liegt der gesunde Gewichtsbereich beispielsweise zwischen 18,5 und 22,9.
+
+❗Obwohl der BMI der am weitesten verbreitete allgemeine Indikator für die Körpergesundheit ist, hat er seine Grenzen. BMI ist nur eine Schätzung; es berücksichtigt nicht die Körperzusammensetzung. Aufgrund einer Vielzahl von Körpertypen, der Verteilung von Muskeln, Knochenmasse und Fett sollte der BMI zusammen mit anderen Messungen berücksichtigt werden.";
+//---------------------------------------------------------------------------------------
+"PII_Head1" = "RI";
+"PII_Head2" = "Rohrer Index";
+"PII_Descr" = "Dieser Index zeigt die Beziehung zwischen Masse und Wachstum. Dieses Verhältnis wird verwendet, um die Körpermasse einer Person zu kategorisieren als
+📘 untergewicht
+📗 gesund
+📒 übergewicht
+📕 fettleibig
+
+Dieser Index gilt als Verbesserung gegenüber dem BMI, da er eine höhere Sensitivität aufweist und selbst bei Extremwerten gültige Ergebnisse liefern soll.
+
+❗Es berücksichtigt jedoch nicht den Körperbau und unterscheidet nicht zwischen Körpertypen wie männlich und weiblich. Eine Person mit viel Muskelmasse kann als übergewichtig eingestuft werden.";
+//---------------------------------------------------------------------------------------
+"BSA_Head1" = "KOF";
+"BSA_Head2" = "Körperoberfläche";
+"BSA_Descr" = "Das ist die Oberfläche deines Körpers in m² (Quadratmeter). KOF könnte ein besserer Indikator für die metabolische Masse sein als das Körpergewicht, da es weniger von abnormaler Fettmasse beeinflusst wird. KOF wird oft verwendet, um die Medikamentendosierung zu steuern. Es wird auch verwendet, um die Schwere von Hautverletzungen (z. B. Verbrennungen) zu beurteilen.
+
+❗Es gibt keine hohen oder niedrigen KOF.
+
+Durchschnittswerte für Erwachsene:
+♂ Mann: 2,06 m²
+♀ Frau: 1,83 m²";
+//---------------------------------------------------------------------------------------
+"Adonis_Head1" = "Adonis-Index";
+"Adonis_Head2" = "Verhältnis von Schulter zu Taille";
+"Adonis_Descr" = "Der Adonis-Index basiert auf einem Verhältnis von Schultern zu Taille, das mit dem Goldenen Schnitt (1,61) zusammenhängt. Es ist das wichtigste Verhältnis für das Gesamtbild des Körpers und der Schlüssel zur menschlichen Wahrnehmung von Schönheit und Anziehungskraft.
+
+Idealwerte für Erwachsene:
+♂ Männer: 1,6
+♀ Frauen: 1.4
+
+
+WIE MISST MAN
+• Die Taillenweite wird an der schmalsten Stelle Ihrer Taille direkt über Ihrem Bauchnabel gemessen.
+• Die Schultergröße wird an ihrer breitesten Stelle gemessen, normalerweise auf halbem Weg zwischen Schlüsselbein und Brustwarzen.
+
+❗Unabhängig von der Proportion sollte Ihre Taille idealerweise nicht mehr als 45% Ihrer Körpergröße betragen.";
+//---------------------------------------------------------------------------------------
+"TBW_Head1" = "Wasser %";
+"TBW_Head2" = "Körperwasserspiegel";
+"TBW_Descr" = "Schätzt den Wasseranteil Ihres Körpers (in Gewebe, Blut, Knochen usw.) wie folgt:
+
+📘 niedrig (dehydration)
+📗 gesund
+📙 hoch (überwässerung)
+
+Es wird empfohlen, jeden Tag 3,7 l Flüssigkeit für Männer und 2,7 l für Frauen zu sich zu nehmen. Auf nüchternen Magen gelangt Wasser in 5 min ins Blut, auf vollen Magen dauert es 45 bis 120 min. Auf nüchternen Magen gelangt Wasser in 5 min ins Blut, auf vollen Magen kann es 45 bis 120 min dauern.
+
+❗Austrocknung kann zu Hitzeschäden, Krampfanfällen, Nierenproblemen, hypovolämischem Schock, Blutdruck- und Sauerstoffabfall im Körper führen.
+
+❗Überwässerung kann Verwirrtheit, Orientierungslosigkeit, Übelkeit, Verdünnung der Elektrolyte und Erbrechen umfassen.
+
+💧Der Wassergehalt menschlicher Organe
+• 83 % – Lungen
+• 79 % – Muskeln und Nieren
+• 73 % – Gehirn und Herz
+• 64 % – Haut";
+//---------------------------------------------------------------------------------------
+"WSR_Head1" = "TGV";
+"WSR_Head2" = "Taille-Größe-Verhältnis";
+"WSR_Descr" = "Dies ist das Maß für Ihre Körperfettverteilung, klassifiziert als:
+
+📘 untergewicht
+📗 gesundes gewicht
+📙 übergewicht
+📕 fettleibig
+
+Dieses Verhältnis ist ein viel besseres Maß für das Herz-Kreislauf-, Diabetes- und Schlaganfallrisiko als der weiter verbreitete BMI, da es die Verteilung des Bauchfetts berücksichtigt, von dem bekannt ist, dass es die oben genannten Risiken erhöht.
+
+❗Versuchen Sie, die Taillenweite unter der Hälfte Ihrer Körpergröße zu halten. Das Verhältnis sollte 0,5 oder weniger betragen.
+
+
+WIE MISST MAN
+• Die Taillenweite wird an der schmalsten Stelle Ihrer Taille direkt über Ihrem Bauchnabel gemessen.
+• Die Statur wird gemessen, während Sie aufrecht stehen, mit der Wand auf einem ebenen, harten Boden ausgerichtet sind, wobei Ihr Rücken und Ihre Fersen die Wand berühren und Sie geradeaus schauen.";
+//---------------------------------------------------------------------------------------
+"BFP_LEVEL_1" = "fettarm";
+"BFP_LEVEL_2" = "athletisch";
+"BFP_LEVEL_3" = "sportlich";
+"BFP_LEVEL_4" = "mittel";
+"BFP_LEVEL_5" = "fettleibig";
+
+"BFP_Head1" = "Fett %";
+"BFP_Head2" = "Körperfettanteil";
+"BFP_Descr" = "Dies ist ein Maß für die Körperfitness und ein Indikator für die Körperform als:
+
+📘 entlastungskörper
+📗 sportlerkörper
+📒 fitnessform
+📙 durchschnittskörper
+📕 fettleibig
+
+BESTEHT AUS:
+• Essentielles Fett – erhält die Lebens- und Fortpflanzungsfunktionen aufrecht und liegt typischerweise zwischen 10 und 13 % bei Frauen und 2 bis 5 % bei Männern.
+• Speicherfett – isoliert den Körper, um Wärme zu speichern, und speichert Energiesubstrat für den Stoffwechsel. Es sammelt sich hauptsächlich unter der Haut (subkutanes Fett) und um die wichtigsten Organe (viszerales Fett) im Körper an.
+
+FUNKTION:
+Abgabe von Lipiden, die der Körper zur Energiegewinnung verwendet. Die Ansammlung von Körperfett wird durch Nahrungsaufnahme, Bewegung und genetische Faktoren beeinflusst.
+
+❗Fettabbau ist nicht dasselbe wie Körpergewicht zu reduzieren. Es reicht nicht aus, einfach nur die Kalorienzufuhr zu senken. Es ist möglich, 2 % des Körperfetts in 30 Tagen zu verlieren.
+
+❗Zu viel oder zu wenig Körperfett kann zu gesundheitlichen Beeinträchtigungen führen.";
+/////////////////////////////////////////////////////////////////////////////////////////
+/* Help Screen*/
+"HELP_HEADER"="Zusammen bauen";
+"HELP_INTRO"="Diese App ist 100 % kostenlos, hat keine Werbung und verkauft Ihre Daten nicht. Wir glauben, dass Datenschutz ein grundlegendes Menschenrecht ist. Dies ist von Beginn des Designprozesses an in unsere Produkte integriert.
+Bitte helfen Sie uns, diese App noch besser zu machen. Es gibt mehrere Möglichkeiten, wie Sie helfen können:";
+
+"HELP_OPT1_T" = "Überprüfung";
+"HELP_OPT1_D" = "Was unterscheidet diese App von anderen und ermutigt Sie, sie zu verwenden? Was gefällt Ihnen am besten an dieser App? Gibt es Bereiche, die wir verbessern können? Wir müssen das Gefühl haben und verstehen, dass die App Ihnen hilft, sich verbessert Ihre Gesundheit und Ihr Wohlbefinden.";
+"HELP_OPT1_B" = "App bewerten";
+
+"HELP_OPT2_T" = "Freund";
+"HELP_OPT2_D" = "Indem Sie die App teilen, können Sie andere Menschen positiv beeinflussen und ihnen helfen, etwas Neues zu lernen. Vielleicht finden sie diese App genauso nützlich wie Sie.";
+"HELP_OPT2_B" = "Teilen";
+
+"HELP_OPT3_T" = "Sprache 🇩🇪";
+"HELP_OPT3_D" = "Wird Ihre Muttersprache korrekt angezeigt? Haben Sie einen Vorschlag, etwas umzubenennen? Sie können sich freiwillig melden und bei der grammatikalisch korrekten Schreibweise des Textes helfen. Selbst wenn Sie ein Wort ändern, wäre es eine große Hilfe." ;
+"HELP_OPT3_B" = "Übersetzen";
+
+"HELP_OPT4_T" = "Soziale Netzwerke";
+"HELP_OPT4_D" = "Wir wissen es zu schätzen, wenn Sie die Sache eines gesunden Lebensstils unterstützen, indem Sie gute Worte über diese App in einem sozialen Netzwerk teilen. Diese App kann das Leben anderer Menschen fördern und bereichern.";

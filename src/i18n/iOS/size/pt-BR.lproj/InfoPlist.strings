@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "Ser Fitness";
+"CFBundleName" = "Ser Fitness";
+
+"NSHealthShareUsageDescription" = "Permitir ler seus dados de saúde permite que nosso aplicativo mostre medições salvas no aplicativo de saúde. Alguns cálculos, como relação de altura com outros tamanhos, não podem ser realizados sem ele.";
+"NSHealthUpdateUsageDescription" = "Permitir armazenar no aplicativo de saúde oferece a capacidade de sincronizar medições do nosso aplicativo com o aplicativo de saúde para categorias selecionadas.";
