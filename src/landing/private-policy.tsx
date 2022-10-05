@@ -317,7 +317,7 @@ export default function PrivacyPolicy() {
             <section>
                 <hr />
                 <h4>{_("PP.CONTACT.HEAD4")}</h4>
-                {_("PP.CONTACT.TEXT")}
+                <p>{_("PP.CONTACT.TEXT")}</p>
                 <ul>
                     <li>{_("PP.CONTACT.UL.L1.TEXT")}<a href="https://martspec.com/privacy-policy" rel="external nofollow noopener" target="_blank">{_("PP.CONTACT.UL.L1.A")}</a></li>
                     <li>{_("PP.CONTACT.UL.L2.TEXT")}<a href={_("PP.CONTACT.UL.L2.LINK")} target="_blank">{_("PP.CONTACT.UL.L2.A")}</a></li>
