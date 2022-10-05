@@ -1,0 +1,251 @@
+"save" = "save";
+"SAVING" = "Saving...";
+"NO_DATA"="no data";
+"DISCLAIMER" = "This tool is NOT a substitute for any professional medical service.";
+
+/* titles */
+"TITLE" = "Body Size";
+"COMPD" = "Beautiful body. Built by you!";
+"BSIZE" = "Body";
+"WAIST" = "Waist";
+"CHEST" = "Chest";
+"BUST"  = "Bust";
+"HIPS"  = "Hips";
+"SEX_M" = "Male";
+"SEX_F" = "Female";
+"HIP"   = "HIP";
+"CHT"   = "CST";
+"WST"   = "WST";
+
+"HGT"   = "HGT";
+"ARMS"  = "Arms";
+"LEGS"  = "Legs";
+"NECK"  = "Neck";
+"SHLD"  = "Shoulders";
+"MASS"  = "Weight";
+"HEIGHT"= "Height";
+
+"TAB_MEASURE"="Measure";
+"TAB_MONITOR"="Monitor";
+"TAB_HELP"="Engage";
+
+"VAL_MIN"="min";
+"VAL_MAX"="max";
+"VAL_AVG"="average";
+
+"BT_ADD" = "Add";
+"BT_DELETE" = "Delete";
+"BT_UPDATE" = "Update";
+"TL_EDIT" = "Edit";
+
+/* units  */
+"cm"="cm";
+"in"="in";
+"st"="st";
+"kg"="kg";
+"lb"="lb";
+"UNIT_M2"="m²";
+
+/* complications  */
+"August 25" = "August 25";
+
+/*  monitors  */
+"LEVEL_LOW"  = "low";
+"LEVEL_NORM" = "normal";
+"LEVEL_AVG"  = "moderate";
+"LEVEL_HIGH" = "high";
+
+"LEVEL_UNDR_W" = "underweight";
+"LEVEL_NORM_W" = "healthy";
+"LEVEL_HIGH_W" = "overweight";
+"LEVEL_OBES_W" = "obese";
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// Body shape description --  Bradley Bayou formula
+"SHP_Head1"="Body Shape";
+"SHP_Descr"="\n\nBody shape can say a lot about health. But it’s important to remember that it’s just one factor. All shapes and sizes can be healthy - or at risk for problems like heart disease or diabetes.
+
+SHAPES:
+🍎 — Apple
+🍐 — Pear
+⌛ — Hourglass
+🍫 — Rectangle
+🍓 — Strawberry or Triangle";
+"Oval NAME"="Apple";
+"Oval DESC"="Weight tends to form around stomach. Waistline is rather undefined and body looks round. Larger waists can mean a higher risk of heart disease or type 2 diabetes even if BMI is under 25.";
+"Pear NAME"="Pear";
+"Pear DESC"="Hips are wider than the chest/bust. Buttock and thigh areas are larger than the rest of the body. The waist is well-defined. Weight tends to form at the bottom of the body. Studies are controversial regarding the health risks of this body shape.";
+"Glass NAME"="Hourglass";
+"Glass DESC"="Well balanced body. Bust/chest and hips have similar measurements, waist is small and well-defined. Weight gain can be hard to spot without checking the scale often.";
+"Rect NAME"="Rectangle";
+"Rect DESC"="Hips and shoulders are a similar width. Body looks very even with no obvious curves.  Bust/chest size is small to average. Slender rectangles have an athletic look and tend to have a higher metabolism.";
+"UpTrg NAME"="Triangle";
+"UpTrg DESC"="Broader upper body. Chest/bust is wider than hips. Hip area is more narrow. Likely you do not gain weight in fat easily. Diet is quite effective at weight loss.";
+//---------------------------------------------------------------------------------------
+"BMR_Head1" = "BMR";
+"BMR_Head2" = "Resting Metabolic Rate";
+"BMR_Head3" = "calories / day";
+"BMR_Descr" = "This is the number of calories (energy) you burn as your body performs basic (basal) life-sustaining functions (breathing, heart beating, cell production, etc).  In other words, this is the number of calories burned if you stay all day in bed.
+
+The BMR usage by organs:
+• 27% — Liver
+• 19% — Brain
+• 19% — Other
+• 18% — Muscle
+• 10% — Kidneys
+•   7% — Heart
+
+❗Stress, excitement or temperature can increase or decrease BMR.
+
+❗Person with a heavy muscular built needs a higher BMR than a person of the same weight but with a higher percentage of body fat.";
+//---------------------------------------------------------------------------------------
+"WHR_Head1" = "WHR";
+"WHR_Head2" = "Waist-to-Hip Ratio";
+"WHR_Descr" = "Higher numbers mean more fat around the waist. WHR is a body shape indicator and a health risks estimation:
+📕 high risk
+📒 moderate risk
+📗 low risk
+
+HOW TO MEASURE
+• Waist size is measured around the smallest part of your waist, just above your belly button.
+• Hips size is measured around the largest part of your hips — the widest part of your buttocks.
+
+🚼 FERTILITY
+Women with WHR of 0.7-0.8 tend to have optimal estrogen levels and higher pregnancy rates than women with WHR above 0.8. Men with WHRs around 0.9 are more healthy and fertile.
+
+❗This method is better than BMI to reflect overall health because a healthy weight would show a normal BMI while there might be too much fat around the belly. The method works best for people taller than 155 cm with a BMI below 35.";
+//---------------------------------------------------------------------------------------
+"BMI_Head1" = "BMI";
+"BMI_Head2" = "Body Mass Index";
+"BMI_Descr" = "This is a classic measure of body fat based on height and weight. BMI is used to categorize a person's weigh as
+
+📘 underweight (below 18.5)
+📗 healthy weight (18.5 – 24.9)
+📒 overweight (25 — 30)
+📕 obese (exceeding 30)
+
+We use the International Classification of WHO. However, there are other standards. For example, in Hong Kong set the healthy weight range to 18.5 — 22.9.
+
+❗While BMI is the most widely used general indicator of body health, it has its limitations. BMI is only an estimate; it does not account for body composition. Due to a wide variety of body types, the distribution of muscle, bone mass, and fat, BMI should be considered along with other measurements.";
+//---------------------------------------------------------------------------------------
+"PII_Head1" = "PI";
+"PII_Head2" = "Ponderal Index";
+"PII_Descr" = "This index shows the relationship between mass and height. This ratio, aka Corpulence Index, is used to categorize a person's weight as
+
+📘 underweight
+📗 healthy
+📒 overweight
+📕 obese
+
+The ponderal index is considered an improvement over BMI because it has higher sensitivity and is considered to yield valid results even for extreme values.
+
+❗However, it does not account for body builds nor differentiates between body types, such as male and female. A person with a lot of muscle may get classified as overweight.";
+//---------------------------------------------------------------------------------------
+"BSA_Head1" = "BSA";
+"BSA_Head2" = "Body Surface Area";
+"BSA_Descr" = "This is the surface area of your body in m²(square meter). BSA might be a better indicator of metabolic mass than body weight because it is less affected by abnormal adipose mass. BSA is often used to guide drug dosing. It is also used to assess the severity of skin injuries (such as burns).
+
+❗There are no high or low BSA.
+
+Average values for adults:
+♂ Male: 2.06 m²
+♀ Female: 1.83 m²";
+//---------------------------------------------------------------------------------------
+"Adonis_Head1" = "Adonis Index";
+"Adonis_Head2" = "Shoulder to Waist Ratio";
+"Adonis_Descr" = "The Adonis index relies upon a shoulders to waist  proportion related to the Golden Ratio (1.61). It is the most important ratio for the overall look of the body and key to human perception of beauty and attraction.
+
+Ideal values for adults:
+♂ Men: 1.6
+♀ Women: 1.4
+
+
+HOW TO MEASURE
+• Waist size is measured around the smallest part of your waist, just above your belly button.
+• Shoulders size is measured at their widest point, typically found halfway between collarbone and nipples.
+
+❗Regardless of the proportion, your waist should ideally be no more than 45% of your height.";
+//---------------------------------------------------------------------------------------
+"TBW_Head1" = "TBW";
+"TBW_Head2" = "Total Body Water";
+"TBW_Descr" = "Estimates the water percentage of your body (in the tissues, blood, bones, etc.) as:
+
+📘 low (dehydration)
+📗 healthy
+📙 high (overhydration)
+
+It is recommended to intake every day 3.7L of fluids for men and 2.7L for women. On empty stomach water gets into the blood in 5 min, on a full stomach, it takes 45 to 120 min.On empty stomach water gets into the blood in 5 min, on a full stomach, it might take 45 to 120 min.
+
+❗Dehydration can lead to heat injuries, seizures, kidney problems, hypovolemic shock, drop in blood pressure and oxygen in the body.
+
+❗Overhydrating can include confusion, disorientation, nausea, dilution of the electrolytes, and vomiting.
+
+💧The water content of human organs
+• 83% — Lungs
+• 79% — Muscle and kidneys
+• 73% — Brain and heart
+• 64% — Skin";
+//---------------------------------------------------------------------------------------
+"WSR_Head1" = "WSR";
+"WSR_Head2" = "Waist to stature ratio";
+"WSR_Descr" = "Also known as waist to height ratio. This is the measure of your body fat distribution classified as:
+
+📘 underweight
+📗 healthy
+📙 overweight
+📕 obese
+
+This ratio is a much better measure of cardiovascular, diabetes and stroke risk than the more widely used BMI because it accounts for the distribution of abdominal fat, which is known to increase the aforementioned risks.
+
+❗Aim to keep the waist size less than half of your height. The ratio should be 0.5 or less.
+
+HOW TO MEASURE
+• Waist size is measured around the smallest part of your waist, just above your belly button.
+• Stature is measured as you stand upright, aligned with the wall on an even hard floor with your back and heels touching the wall and looking straight ahead.";
+//---------------------------------------------------------------------------------------
+"BFP_LEVEL_1" = "lean";
+"BFP_LEVEL_2" = "athletic";
+"BFP_LEVEL_3" = "sporty";
+"BFP_LEVEL_4" = "average";
+"BFP_LEVEL_5" = "obese";
+
+"BFP_Head1" = "BFP";
+"BFP_Head2" = "Body Fat Percentage";
+"BFP_Descr" = "This is a measure of body fitness and an indicator of body shape as:
+
+📘 lean body (essential fats only)
+📗 athlete body
+📒 fitness shape
+📙 average shape
+📕 obese
+
+CONSISTS OF:
+• Essential fat  —  maintains life and reproductive functions and is typically between 10 and 13% in females and 2 and 5% in males.
+• Storage fat  — insulates the body to retain heat and stores energy substrate for metabolism. It accumulates mostly beneath the skin (subcutaneous fat) and around the major organs (visceral fat) in the body.
+
+FUNCTION:
+Lipids delivery that the body uses to generate energy. Body fat accumulation is influenced by food intake, exercise and genetic factors.
+
+❗Reducing fat is not the same as reducing body weight. Simply lowering caloric intake is not sufficient. Losing 2% of body fat in 30 days is possible.
+
+❗Excess or insufficient body fat can lead to detrimental health effects.";
+/////////////////////////////////////////////////////////////////////////////////////////
+/* Help Screen*/
+"HELP_HEADER"="Build together";
+"HELP_INTRO"="This app is 100% free, has zero ADs, and does not share your data. We believe privacy is a fundamental human right. This is built into our products from the beginning of the design process.
+Please help us make this app even better. There are several ways you can help:";
+
+"HELP_OPT1_T" = "Review";
+"HELP_OPT1_D" = "What sets this app apart from others and encourages you to use it?  What do you like the best about this app? Are there any areas we can make better? We need to feel and understand the app helps you, improves your health and wellness.";
+"HELP_OPT1_B" = "Rate App";
+
+"HELP_OPT2_T" = "Friend";
+"HELP_OPT2_D" = "By sharing the app you can positively impact other people and help them learn something new.  Perhaps they can find this app as useful as you do.";
+"HELP_OPT2_B" = "Share it";
+
+"HELP_OPT3_T" = "Language";
+"HELP_OPT3_D" = "Does your native language displayed correctly? Do you have a suggestion to rename something? You can volunteer and help with the grammatically correct spelling of the text. Even if you change one word, it would be a great help.";
+"HELP_OPT3_B" = "Spell it";
+
+"HELP_OPT4_T" = "Social";
+"HELP_OPT4_D" = "We appreciate it if you support the cause of a healthy lifestyle by sharing good words about this app on a social network. This app might benefit and enrich other people's lives.";
