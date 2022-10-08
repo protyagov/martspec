@@ -102,6 +102,7 @@ O uso de TMB por órgãos:
 "WHR_Head1" = "RCQ";
 "WHR_Head2" = "Relação cintura-quadril";
 "WHR_Descr" = "Números mais altos significam mais gordura ao redor da cintura. RCQ é um indicador de forma corporal e uma estimativa de riscos para a saúde:
+
 📕 alto risco
 📒 risco moderado
 📗 baixo risco
@@ -131,6 +132,7 @@ Usamos a Classificação Internacional da OMS. No entanto, existem outros padrõ
 "PII_Head1" = "ÍC";
 "PII_Head2" = "Índice de Corpulência";
 "PII_Descr" = "Este índice mostra a relação entre massa e crescimento. Essa proporção é usada para categorizar a massa corporal de uma pessoa como
+
 📘 abaixo do peso
 📗 saudável
 📒 excesso de peso
