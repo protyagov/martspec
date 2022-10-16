@@ -9,13 +9,13 @@
 "BSIZE" = "Corpo";
 "WAIST" = "Cintura";
 "CHEST" = "Peito";
-"BUST"  = "Peito";
+"BUST"  = "Busto";
 "HIPS"  = "Quadris";
-"SEX_M" = "Macho";
-"SEX_F" = "Fêmea";
+"SEX_M" = "Masculino";
+"SEX_F" = "Feminino";
 "HIP"   = "QUA";
-"CHT"   = "CIN";
-"WST"   = "WST";
+"CHT"   = "PEI";
+"WST"   = "CIN";
 
 "HGT"   = "ALT";
 "ARMS"  = "Braço";
@@ -34,8 +34,8 @@
 "VAL_AVG"="média";
 
 "BT_ADD" = "Adicionar";
-"BT_DELETE" = "Apagar";
-"BT_UPDATE" = "Mudar";
+"BT_DELETE" = "Excluir";
+"BT_UPDATE" = "Atualizar";
 "TL_EDIT" = "Editar";
 
 /* units  */
@@ -55,9 +55,9 @@
 "LEVEL_AVG"  = "moderado";
 "LEVEL_HIGH" = "alto";
 
-"LEVEL_UNDR_W" = "baixo peso";
+"LEVEL_UNDR_W" = "abaixo do peso";
 "LEVEL_NORM_W" = "saudável";
-"LEVEL_HIGH_W" = "peso alto";
+"LEVEL_HIGH_W" = "sobrepeso";
 "LEVEL_OBES_W" = "obeso";
 
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -71,14 +71,14 @@ FORMAS DO CORPO:
 ⌛ — Ampulheta
 🍫 — Retângulo
 🍓 — Morango ou Triângulo";
-"Oval NAME"="Maçã / oval";
+"Oval NAME"="Maçã";
 "Oval DESC"="O peso tende a se formar em torno do estômago. A cintura é bastante indefinida e o corpo parece redondo. Cinturas maiores podem significar um risco maior de doenças cardíacas ou diabetes tipo 2, mesmo se o IMC for inferior a 25.";
-"Pear NAME"="Pêra";
+"Pear NAME"="Pera";
 "Pear DESC"="Quadris são mais largos que o peito / busto. As áreas das nádegas e das coxas são maiores do que o resto do corpo. A cintura é bem definida. O peso tende a se formar na parte inferior do corpo. Os estudos são controversos quanto aos riscos para a saúde dessa forma corporal.";
 "Glass NAME"="Ampulheta";
-"Glass DESC"="Corpo bem equilibrado. O busto / tórax e os quadris têm medidas semelhantes, a cintura é pequena e bem definida. O ganho de peso pode ser difícil de detectar sem verificar a balança com freqüência.";
+"Glass DESC"="Corpo bem equilibrado. O busto / tórax e os quadris têm medidas semelhantes, a cintura é pequena e bem definida. O ganho de peso pode ser difícil de detectar sem verificar a balança com frequência.";
 "Rect NAME"="Retângulo";
-"Rect DESC"="Quadris e ombros têm largura semelhante. O corpo parece muito uniforme, sem curvas óbvias. O tamanho do busto / peito é pequeno a médio. Retângulos delgados têm uma aparência atlética e tendem a ter um metabolismo mais alto.";
+"Rect DESC"="Quadris e ombros têm largura semelhante. O corpo parece muito uniforme, sem curvas óbvias. O tamanho do busto / peito é pequeno a médio. Retângulos esbeltos têm uma aparência atlética e tendem a ter um metabolismo mais alto.";
 "UpTrg NAME"="Triângulo invertido";
 "UpTrg DESC"="Parte superior do corpo mais ampla. O peito / busto é mais largo que os quadris. A área do quadril é mais estreita. É provável que você não ganhe peso em gordura facilmente. A dieta é bastante eficaz na perda de peso.";
 //---------------------------------------------------------------------------------------
@@ -91,7 +91,7 @@ O uso de TMB por órgãos:
 • 27% — Fígado
 • 19% — Cérebro
 • 19% — Outros
-• 18% — Músculo
+• 18% — Músculos
 • 10% — Rins
 •   7% — Coração
 
@@ -103,9 +103,9 @@ O uso de TMB por órgãos:
 "WHR_Head2" = "Relação cintura-quadril";
 "WHR_Descr" = "Números mais altos significam mais gordura ao redor da cintura. RCQ é um indicador de forma corporal e uma estimativa de riscos para a saúde:
 
-📕 alto risco
+📕 risco alto
 📒 risco moderado
-📗 baixo risco
+📗 risco baixo
 
 COMO MEDIR
 • O tamanho da cintura é medido em torno da menor parte da cintura, logo acima do umbigo.
@@ -114,7 +114,7 @@ COMO MEDIR
 🚼 FERTILIDADE
 Mulheres com RCQ de 0,7—0,8 tendem a ter níveis ótimos de estrogênio e taxas de gravidez mais altas do que mulheres com RCQ acima de 0,8. Homens com RCQ em torno de 0,9 são mais saudáveis e férteis.
 
-❗Este método é melhor do que o IMC para refletir a saúde geral, porque um peso saudável mostraria um IMC normal, enquanto pode haver muita gordura ao redor da barriga. O método funciona melhor para pessoas com mais de 155 cm de altura com IMC abaixo de 35.";
+❗Este método é melhor do que o IMC para refletir a saúde geral, porque um peso saudável mostraria um IMC normal, podendo haver muita gordura ao redor da barriga. O método funciona melhor para pessoas com mais de 1,55 m de altura com IMC abaixo de 35.";
 //---------------------------------------------------------------------------------------
 "BMI_Head1" = "IMC";
 "BMI_Head2" = "Índice de massa corporal";
@@ -122,20 +122,20 @@ Mulheres com RCQ de 0,7—0,8 tendem a ter níveis ótimos de estrogênio e taxa
 
 📘 abaixo do peso (abaixo de 18,5)
 📗 peso saudável (18,5 – 24,9)
-📒 excesso de peso (25 - 30)
+📒 acima do peso (25 - 30)
 📕 obeso (acima de 30)
 
 Usamos a Classificação Internacional da OMS. No entanto, existem outros padrões. Por exemplo, em Hong Kong, a faixa de peso saudável é de 18,5 a 22,9.
 
 ❗Embora o IMC seja o indicador geral de saúde do corpo mais utilizado, ele tem suas limitações. O IMC é apenas uma estimativa; não leva em conta a composição corporal. Devido a uma grande variedade de tipos de corpo, a distribuição de músculo, massa óssea e gordura, o IMC deve ser considerado juntamente com outras medidas.";
 //---------------------------------------------------------------------------------------
-"PII_Head1" = "ÍC";
+"PII_Head1" = "IC";
 "PII_Head2" = "Índice de Corpulência";
 "PII_Descr" = "Este índice mostra a relação entre massa e crescimento. Essa proporção é usada para categorizar a massa corporal de uma pessoa como
 
 📘 abaixo do peso
 📗 saudável
-📒 excesso de peso
+📒 acima do peso
 📕 obeso
 
 Este índice é considerado uma melhoria em relação ao IMC porque tem maior sensibilidade e é considerado para produzir resultados válidos mesmo para valores extremos.
@@ -144,13 +144,13 @@ Este índice é considerado uma melhoria em relação ao IMC porque tem maior se
 //---------------------------------------------------------------------------------------
 "BSA_Head1" = "SC";
 "BSA_Head2" = "Superfície Corporal";
-"BSA_Descr" = "Esta é a área de superfície do seu corpo em m² (metro quadrado). A área de superfície corporal pode ser um melhor indicador da massa metabólica do que o peso corporal porque é menos afetada pela massa adiposa anormal. A área de superfície corporal é frequentemente usada para orientar a dosagem do medicamento. Também é usado para avaliar a gravidade de lesões na pele (como queimaduras).
+"BSA_Descr" = "Esta é a área de superfície do seu corpo em m² (metros quadrados). A área de superfície corporal pode ser um melhor indicador da massa metabólica do que o peso corporal porque é menos afetada pela massa adiposa anormal. A área de superfície corporal é frequentemente usada para orientar a dosagem do medicamento. Também é usado para avaliar a gravidade de lesões na pele (como queimaduras).
 
 ❗Não há área de superfície corporal alta ou baixa.
 
 Valores médios para adultos:
-♂ Homem: 1,91 m²
-♀ Mulher: 1,79 m²";
+♂ Homem: 2,06 m²
+♀ Mulher: 1,83 m²";
 //---------------------------------------------------------------------------------------
 "Adonis_Head1" = "Índice de Adônis";
 "Adonis_Head2" = "Relação ombro-cintura";
@@ -175,7 +175,7 @@ COMO MEDIR
 📗 saudável
 📙 alto (superhidratação)
 
-Recomenda-se a ingestão diária de 3,7L de líquidos para homens e 2,7L para mulheres. Com o estômago vazio, a água entra no sangue em 5 minutos, com o estômago cheio, leva de 45 a 120 minutos. Com o estômago vazio, a água entra no sangue em 5 minutos, com o estômago cheio, pode levar de 45 a 120 minutos.
+Recomenda-se a ingestão diária de 3,7L de líquidos para homens e 2,7L para mulheres. Com o estômago vazio, a água entra no sangue em 5 minutos, com o estômago cheio, leva de 45 a 120 minutos.
 
 ❗A desidratação pode levar a lesões por calor, convulsões, problemas renais, choque hipovolêmico, queda da pressão arterial e do oxigênio no corpo.
 
@@ -187,16 +187,16 @@ Recomenda-se a ingestão diária de 3,7L de líquidos para homens e 2,7L para mu
 • 73% — Cérebro e coração
 • 64% - Pele";
 //---------------------------------------------------------------------------------------
-"WSR_Head1" = "ÍCA";
+"WSR_Head1" = "ICA";
 "WSR_Head2" = "Índice cintura-altura";
 "WSR_Descr" = "Esta é a medida da sua distribuição de gordura corporal classificada como:
 
 📘 abaixo do peso
 📗 peso saudável
-📙 excesso de peso
+📙 acima do peso
 📕 obeso
 
-Essa proporção é uma medida muito melhor do risco cardiovascular, diabetes e acidente vascular cerebral do que o IMC mais amplamente utilizado, porque é responsável pela distribuição da gordura abdominal, que é conhecida por aumentar os riscos mencionados acima.
+Essa proporção é uma medida muito melhor do risco cardiovascular, diabetes e acidente vascular cerebral do que o IMC mais amplamente utilizado, porque leva em conta a distribuição da gordura abdominal, que é conhecida por aumentar os riscos mencionados anteriormente.
 
 ❗Tente manter o tamanho da cintura menor que a metade da sua altura. A proporção deve ser de 0,5 ou menos.
 
@@ -208,21 +208,21 @@ COMO MEDIR
 "BFP_LEVEL_1" = "sem gordura";
 "BFP_LEVEL_2" = "atlético";
 "BFP_LEVEL_3" = "esportivo";
-"BFP_LEVEL_4" = "média";
+"BFP_LEVEL_4" = "médio";
 "BFP_LEVEL_5" = "obeso";
 
-"BFP_Head1" = "Gordo %";
+"BFP_Head1" = "Percentual de gordura corporal";
 "BFP_Head2" = "Porcentagem de gordura corporal";
 "BFP_Descr" = "Esta é uma medida de aptidão corporal e um indicador da forma do corpo como:
 
-📘 corpo de alívio (somente gorduras essenciais)
+📘 corpo magro (somente gorduras essenciais)
 📗 corpo de atleta
-📒 forma física
+📒 forma saudável
 📙 forma média
 📕 obeso
 
 CONSISTE EM:
-• Gordura essencial — mantém a vida e as funções reprodutivas e é tipicamente entre 10 e 13% nas mulheres e 2 e 5% nos homens.
+• Gordura essencial — mantém a vida e as funções reprodutivas e está tipicamente entre 10 e 13% nas mulheres e 2 e 5% nos homens.
 • Gordura de armazenamento — isola o corpo para reter calor e armazena substrato energético para o metabolismo. Acumula-se principalmente sob a pele (gordura subcutânea) e ao redor dos principais órgãos (gordura visceral) do corpo.
 
 FUNÇÃO:
@@ -234,7 +234,7 @@ Entrega de lipídios que o corpo usa para gerar energia. O acúmulo de gordura c
 /////////////////////////////////////////////////////////////////////////////////////////
 /* Help Screen*/
 "HELP_HEADER"="Construir juntos";
-"HELP_INTRO"="Este aplicativo é 100% gratuito, tem zero anúncios e não vende seus dados. Acreditamos que a privacidade é um direito humano fundamental. Isso é incorporado aos nossos produtos desde o início do processo de design.
+"HELP_INTRO"="Este aplicativo é 100% gratuito, tem zero anúncios e não compartilha seus dados. Acreditamos que a privacidade é um direito humano fundamental. Isso é incorporado aos nossos produtos desde o início do processo de design.
 Por favor, ajude-nos a tornar este aplicativo ainda melhor. Existem várias maneiras de ajudar:";
 
 "HELP_OPT1_T" = "Revisar";
