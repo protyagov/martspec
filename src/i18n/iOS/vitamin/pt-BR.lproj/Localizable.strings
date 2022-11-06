@@ -1,0 +1,102 @@
+"save" = "salvar";
+"SAVING" = "Salvando...";
+
+/* titles */
+"COMPD" = "O equilíbrio vitamínico é a chave para a beleza e a saúde";
+"TITLE" = "Vitamina";
+"CONFIG"= "Configurações";
+
+"NO_DATA"="sem dados";
+"VAL_MIN"="min";
+"VAL_MAX"="max";
+"VAL_AVG"="média";
+
+"BT_ADD" = "Adicionar";
+"BT_DELETE" = "Excluir";
+"BT_UPDATE" = "Atualizar";
+"TL_EDIT" = "Editar";
+"TAB_VITAMIN"= "Vitaminas";
+"TAB_MINERAL"="Minerais";
+"TAB_CUSTOM"="Meu elemento";
+
+// Vitamins
+"BIOTIN" = "Vitamina B7";
+"COBALAMIN" = "Vitamina B12";
+"FOLATE" = "Vitamina B9";
+"NIACIN" = "Vitamina B3";
+"VITAMIN A" = "Vitamina A";
+"VITAMIN C" = "Vitamina C";
+"VITAMIN D" = "Vitamina D";
+"VITAMIN E" = "Vitamina E";
+"VITAMIN K" = "Vitamina K";
+"THIAMIN" = "Vitamina B1";
+"PANTOTHENIC ACID" = "Vitamina B5";
+"PYRIDOXINE" = "Vitamina B6";
+"RIBOFLAVIN" = "Vitamina B2";
+
+// Minerals
+"IRON" = "Ferro";
+"POTASSIUM" = "Potássio";
+"MAGNESIUM" = "Magnésio";
+"CALCIUM" = "Cálcio";
+"CHROMIUM" = "Cromo";
+"CHLORIDE" = "Cloreto";
+"COPPER" = "Cobre";
+"IODINE" = "Iodo";
+"MANGANESE" = "Manganês";
+"MOLYBDENUM" = "Molibdênio";
+"PHOSPHORUS" = "Fósforo";
+"SELENIUM" = "Selênio";
+"SODIUM" = "Sódio";
+"ZINC" = "Zinco";
+
+/* units  */
+"mcg" = "mcg";
+"mg" = "mg";
+"g" = "💊";
+"UNIT_G" = "qualquer unidade";
+"UNIT_MG" = "miligramas";
+"UNIT_MCG"= "microgramas";
+
+/* complications  */
+"August 25" = "25 de agosto";
+"A • 789 mcg • 10/12" = "A • 789 mcg • 10/12";
+
+/* Help Screen*/
+"HELP_ROW_TITLE"="Construir juntos";
+"HELP_ROW_SUBTITLE"="Torne este aplicativo melhor";
+"HELP_INTRO"="Este aplicativo é 100% gratuito, tem zero anúncios e não usa seus dados para fins lucrativos. Na Martspec, também é um dos nossos valores principais. Não armazenamos seus dados, eles são armazenados em sua conta privada da Apple iCloud.
+Por favor, ajude-nos a tornar este aplicativo ainda melhor. Existem várias maneiras de ajudar:";
+
+"HELP_OPT1_T" = "Revisar";
+"HELP_OPT1_D" = "O que diferencia este aplicativo dos outros e o incentiva a usá-lo? Qual aspecto você mais gosta neste aplicativo? Há alguma área que podemos melhorar? ";
+"HELP_OPT1_B" = "Avaliar aplicativo";
+
+"HELP_OPT2_T" = "Amigo";
+"HELP_OPT2_D" = "Ao compartilhar o aplicativo, você pode impactar positivamente outras pessoas e ajudá-las a aprender algo novo. Talvez elas possam achar este aplicativo tão útil quanto você.";
+"HELP_OPT2_B" = "Compartilhe";
+
+"HELP_OPT3_T" = "Idioma 🇧🇷 🇵🇹";
+"HELP_OPT3_D" = "Sua língua nativa é exibida corretamente? Você tem uma sugestão para renomear alguma coisa? Você pode se voluntariar e ajudar com a ortografia gramaticalmente correta do texto. Mesmo que você altere uma palavra, seria de grande ajuda.";
+"HELP_OPT3_B" = "Traduzir";
+
+"HELP_OPT4_T" = "Social";
+"HELP_OPT4_D" = "Agradecemos se você apoiar a causa de um estilo de vida saudável compartilhando boas palavras sobre este aplicativo em uma rede social. Este aplicativo pode beneficiar e enriquecer a vida de outras pessoas.";
+
+"HELP_OPT5_T" = "Fale conosco";
+"HELP_OPT5_D" = "Se você tiver alguma dúvida, não hesite em nos contatar.";
+"HELP_OPT5_B" = "E-mail";
+
+/* Add new supplements dialog*/
+"CUS_ITEM_VIEW_T" = "Personalizar";
+"CUS_ITEM_ABBR_P" = "Abreviatura";
+"CUS_ITEM_NAME_F" = "máximo %lld caracteres";
+"CUS_ITEM_NAME_P" = "Título";
+"CUS_ITEM_UNIT_T" = "Unidade";
+"CUS_ITEM_MAKE_B" = "Salvar";
+"CUS_ITEM_NROW_T" = "Novo item";
+"CUS_ITEM_NROW_S" = "Adicionar elemento personalizado";
+"CUS_ITME_EDIT_T" = "Modificar";
+"CUS_ITME_EDIT_S" = "Editar elementos personalizados";
+"CUS_ITEM_ZERO_T" = "Não há vagas restantes";
+"CUS_ITEM_ZERO_S" = "Você usou todos os slots gratuitos. Remova um dos itens personalizados para adicionar um novo.";

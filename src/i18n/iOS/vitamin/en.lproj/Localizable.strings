@@ -1,0 +1,102 @@
+"save" = "save";
+"SAVING" = "Saving...";
+
+/* titles */
+"COMPD" = "Vitamin balance is the key to beauty and health";
+"TITLE" = "Vitamin";
+"CONFIG"= "Settings";
+
+"NO_DATA"="no data";
+"VAL_MIN"="min";
+"VAL_MAX"="max";
+"VAL_AVG"="average";
+
+"BT_ADD" = "Add";
+"BT_DELETE" = "Delete";
+"BT_UPDATE" = "Update";
+"TL_EDIT" = "Edit";
+"TAB_VITAMIN"= "Vitamins";
+"TAB_MINERAL"="Minerals";
+"TAB_CUSTOM"="Custom";
+
+// Vitamins
+"BIOTIN" = "Biotin";
+"COBALAMIN" = "Cobalamin";
+"FOLATE" = "Folate";
+"NIACIN" = "Niacin";
+"VITAMIN A" = "Vitamin A";
+"VITAMIN C" = "Vitamin C";
+"VITAMIN D" = "Vitamin D";
+"VITAMIN E" = "Vitamin E";
+"VITAMIN K" = "Vitamin K";
+"THIAMIN" = "Thiamin";
+"PANTOTHENIC ACID" = "Pantothenic Acid";
+"PYRIDOXINE" = "Pyridoxine";
+"RIBOFLAVIN" = "Riboflavin";
+
+// Minerals
+"IRON" = "Iron";
+"POTASSIUM" = "Potassium";
+"MAGNESIUM" = "Magnesium";
+"CALCIUM" = "Calcium";
+"CHROMIUM" = "Chromium";
+"CHLORIDE" = "Chloride";
+"COPPER" = "Copper";
+"IODINE" = "Iodine";
+"MANGANESE" = "Manganese";
+"MOLYBDENUM" = "Molybdenum";
+"PHOSPHORUS" = "Phosphorus";
+"SELENIUM" = "Selenium";
+"SODIUM" = "Sodium";
+"ZINC" = "Zinc";
+
+/* units  */
+"mcg" = "mcg";
+"mg" = "mg";
+"g" = "💊";
+"UNIT_G"  = "any unit";
+"UNIT_MG" = "milligrams";
+"UNIT_MCG"= "micrograms";
+
+/* complications  */
+"August 25" = "August 25";
+"A • 789 mcg • 10/12" = "A • 789 mcg • 10/12";
+
+/* Help Screen*/
+"HELP_ROW_TITLE"="Build together";
+"HELP_ROW_SUBTITLE"="Make this app better";
+"HELP_INTRO"="This app is 100% free, has zero ADs, and does not use your data for profit. At Martspec, it's also one of our core values. We do not store your data, it is stored on your private Apple's iCloud.
+Please help us make this app even better. There are several ways you can help:";
+
+"HELP_OPT1_T" = "Review";
+"HELP_OPT1_D" = "What sets this app apart from others and encourages you to use it?  What do you like the best about this app? Are there any areas we, Martspec, can make better? We need to feel and understand the app helps you, improves your health and wellness.";
+"HELP_OPT1_B" = "Rate App";
+
+"HELP_OPT2_T" = "Friend";
+"HELP_OPT2_D" = "By sharing the app you can positively impact other people and help them learn something new.  Perhaps they can find this app as useful as you do.";
+"HELP_OPT2_B" = "Share it";
+
+"HELP_OPT3_T" = "Language";
+"HELP_OPT3_D" = "Perhaps your native language is not displayed correctly in this application. You can volunteer and help in grammatically correct spelling of the text.";
+"HELP_OPT3_B" = "Translate it";
+
+"HELP_OPT4_T" = "Social";
+"HELP_OPT4_D" = "We appreciate it if you support the cause of a healthy lifestyle by sharing good words about this app on a social network. This app might benefit and enrich other people's lives.";
+
+"HELP_OPT5_T" = "Contact";
+"HELP_OPT5_D" = "If you have any questions, please feel free to contact us.";
+"HELP_OPT5_B" = "Email us";
+
+/* Add new supplements dialog*/
+"CUS_ITEM_VIEW_T" = "Customize";
+"CUS_ITEM_ABBR_P" = "Abbreviation";
+"CUS_ITEM_NAME_F" = "max %lld characters";
+"CUS_ITEM_NAME_P" = "Name";
+"CUS_ITEM_UNIT_T" = "Unit";
+"CUS_ITEM_MAKE_B" = "Save";
+"CUS_ITEM_NROW_T" = "New Item";
+"CUS_ITEM_NROW_S" = "Add custom supplement";
+"CUS_ITME_EDIT_T" = "Modify";
+"CUS_ITME_EDIT_S" = "Edit custom elements";
+"CUS_ITEM_ZERO_T" = "Zero slots left";
+"CUS_ITEM_ZERO_S" = "You have used all free slots. Please remove one of the custom items to add a new one.";

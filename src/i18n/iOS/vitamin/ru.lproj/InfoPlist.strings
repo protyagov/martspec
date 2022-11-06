@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "Витамин";
+"CFBundleName" = "Витамин";
+
+"NSHealthShareUsageDescription" = "Доступ чтения данных из Apple Здоровье необходим чтобы показать витамины и микроэлементы в приложении.";
+"NSHealthUpdateUsageDescription" = "Доступ обновления данных в Apple Здоровье необходим добавления туда данный из этого приложения.";
