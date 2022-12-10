@@ -1,27 +1,43 @@
 @import "color.scss";
 
-.rr-navbar {
-  @extend .navbar;
-  
-  .title {
-    // position: static;
-    left: 40%;
-    transform: translate(-40%, 0);
-  }
+// .rr-navbar {
+//   @extend .navbar;
 
-  .lButton {
-    @extend .btn;
-    @extend .btn-link;
-    margin-left: -1rem;
-    margin-bottom: -2.7rem;
-    margin-top: -2rem;
-  }
+//   .title {
+//     // position: static;
+//     left: 40%;
+//     transform: translate(-40%, 0);
+//   }
 
-}
+//   .lButton {
+//     @extend .btn;
+//     @extend .btn-link;
+//     margin-left: -1rem;
+//     margin-bottom: -2.7rem;
+//     margin-top: -2rem;
+//   }
+
+// }
 
 
 //-------------------------------------------------------------------------------------------------
 .ms-navbar-nav {
-  // @extend .navbar-nav;
+  @extend .navbar;
+  @extend .container;
   font-size: 1.6rem;
+
+  .collapse {
+    margin-left: 7rem;
+
+    .nav-item:not(:last-child) {
+      margin-left: 10rem;
+    }
+
+    .nav-item:last-child{
+      margin-left: 25rem;
+    }
+  }
+  // .navbar-collapse .nav-item:not(:last-child) {
+
+  // }
 }
