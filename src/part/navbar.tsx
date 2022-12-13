@@ -1,12 +1,7 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale"
-import NavBarLang from "./navbar-lang";
 
-interface NavBarProps {
-    title?: string;
-}
-
-export default function NavigationBar(props: NavBarProps) {
+export default function NavigationBar() {
     return (
         <nav className="ms-navbar-nav navbar-expand-lg">
             <div className="container-fluid">
@@ -16,10 +11,12 @@ export default function NavigationBar(props: NavBarProps) {
                 </a>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="/img/burger_menu.svg" alt={_("ERROR.404_BTN")} width={32} height={32}/>
+                    <span className="navbar-toggler-icon">
+                        <img src="/img/burger_menu.svg" alt={_("ERROR.404_BTN")} width={32} height={32}/>
+                    </span>
                 </button>
 
-                <div className="collapse navbar-collapse justify-content-center">
+                <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul className="navbar-nav">
 
                         <li className="nav-item dropdown">
@@ -27,9 +24,9 @@ export default function NavigationBar(props: NavBarProps) {
                                 About Us
                             </a>
                             <ul className="dropdown-menu dropdown-position border-1" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Company</a></li>
-                                <li><a className="dropdown-item" href="#">Mission</a></li>
-                                <li><a className="dropdown-item" href="#">Team</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">Company</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">Mission</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">Team</a></li>
                             </ul>
                         </li>
 
@@ -38,13 +35,13 @@ export default function NavigationBar(props: NavBarProps) {
                                 Applications
                             </a>
                             <ul className="dropdown-menu dropdown-position border-1" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Vitamin Book</a></li>
-                                <li><a className="dropdown-item" href="#">Body Size</a></li>
-                                <li><a className="dropdown-item" href="#">Electrolyte</a></li>
-                                <li><a className="dropdown-item" href="#">Body Mass</a></li>
-                                <li><a className="dropdown-item" href="#">Body Zinc</a></li>
-                                <li><a className="dropdown-item" href="#">Waistline</a></li>
-                                <li><a className="dropdown-item" href="#">Emotion</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">Vitamin Book</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">Body Size</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">Electrolyte</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">Body Mass</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">Body Zinc</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">Waistline</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">Emotion</a></li>
                             </ul>
                         </li>
 

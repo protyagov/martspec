@@ -2,13 +2,13 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale"
 import { Footer } from "../part/footer";
 import IronImage from "src/part/iron-image";
-import NavBarLang from "src/part/navbar-lang";
+import NavigationBar from "src/part/navbar";
 
 
 export default function LandingPage() {
     return (
         <div>
-            <NavBarLang />
+            <NavigationBar />
 
             <section id="header" className="ms-s-header">
                 <div className="text-vertical-center">
