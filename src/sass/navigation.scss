@@ -1,43 +1,38 @@
 @import "color.scss";
 
-// .rr-navbar {
-//   @extend .navbar;
-
-//   .title {
-//     // position: static;
-//     left: 40%;
-//     transform: translate(-40%, 0);
-//   }
-
-//   .lButton {
-//     @extend .btn;
-//     @extend .btn-link;
-//     margin-left: -1rem;
-//     margin-bottom: -2.7rem;
-//     margin-top: -2rem;
-//   }
-
-// }
-
-
-//-------------------------------------------------------------------------------------------------
 .ms-navbar-nav {
   @extend .navbar;
   @extend .container;
   font-size: 1.6rem;
 
   .collapse {
-    margin-left: 7rem;
 
     .nav-item:not(:last-child) {
-      margin-left: 10rem;
+      margin-left: 8rem;
     }
 
     .nav-item:last-child{
       margin-left: 25rem;
     }
-  }
-  // .navbar-collapse .nav-item:not(:last-child) {
 
-  // }
+    @media only screen and (max-width: 1300px) {
+      .nav-item:last-child{
+        margin-left: 15rem;
+      }
+    }
+
+    .dropdown ul{
+      border-radius: 8px;
+      box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+.dropdown-container{
+  position: relative;
+}
+
+.dropdown-position{
+  position: absolute !important;
+  transform: translate3d(0px, -15px, 0px) !important;
 }
