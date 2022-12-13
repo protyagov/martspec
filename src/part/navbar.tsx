@@ -21,27 +21,27 @@ export default function NavigationBar() {
 
                         <li className="nav-item dropdown">
                             <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                About Us
+                                {_("HEADER.ABOUT.TITLE")}
                             </a>
                             <ul className="dropdown-menu dropdown-position border-1" aria-labelledby="navbarDropdown">
-                                <li><a className="nav-link dropdown-item" href="#">Company</a></li>
-                                <li><a className="nav-link dropdown-item" href="#">Mission</a></li>
-                                <li><a className="nav-link dropdown-item" href="#">Team</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI1")}</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI2")}</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI1")}</a></li>
                             </ul>
                         </li>
 
                         <li className="nav-item dropdown">
                             <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Applications
+                                {_("HEADER.APPLICATION.TITLE")}
                             </a>
                             <ul className="dropdown-menu dropdown-position border-1" aria-labelledby="navbarDropdown">
-                                <li><a className="nav-link dropdown-item" href="#">Vitamin Book</a></li>
-                                <li><a className="nav-link dropdown-item" href="#">Body Size</a></li>
-                                <li><a className="nav-link dropdown-item" href="#">Electrolyte</a></li>
-                                <li><a className="nav-link dropdown-item" href="#">Body Mass</a></li>
-                                <li><a className="nav-link dropdown-item" href="#">Body Zinc</a></li>
-                                <li><a className="nav-link dropdown-item" href="#">Waistline</a></li>
-                                <li><a className="nav-link dropdown-item" href="#">Emotion</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI1")}</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI2")}</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI3")}</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI4")}</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI5")}</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI6")}</a></li>
+                                <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI7")}</a></li>
                             </ul>
                         </li>
 

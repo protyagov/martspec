@@ -68,6 +68,24 @@
             "DWN": "Get for free app for Apple Watch, iPhone or iPad directly from the Apple App Store"
         }
     },
+    "HEADER": {
+        "ABOUT":{
+            "TITLE": "About Us",
+            "LI1": "Company",
+            "LI2": "Mission",
+            "LI3": "Team"
+        },
+        "APPLICATION": {
+            "TITLE": "Applications",
+            "LI1": "Vitamin Book",
+            "LI2": "Body Size",
+            "LI3": "Electrolyte",
+            "LI4": "Body Mass",
+            "LI5": "Body Zinc",
+            "LI6": "Waistline",
+            "LI7": "Emotion"
+        }
+    },
     "FOOTER": {
         "C": "© 2022 Martspec LLC. All rights reserved.",
         "PP": "Privacy Policy",
