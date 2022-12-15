@@ -7,14 +7,15 @@
     font-size: 1rem;
     font-family: os6; // padding: 3rem 4÷rem;
     text-transform: uppercase;
-    background-color: $rr-color-main;
+    background-color: $ms-color-button;
+    
     color: white;
 
     &:hover,
     &:focus,
     &:active {
         color: white;
-        background-color: $rr-color-main-dark;
+        background-color: $ms-color-button-hover;
     }
 }
 
