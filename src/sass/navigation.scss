@@ -5,6 +5,12 @@
   @extend .container;
   font-size: 1.6rem;
 
+  @media only screen and (max-width: 991px) {
+    // styles for the nav element when screen is small
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+  }
+
   //------- the part of the nav-bar that collapses ---------
   .collapse {
 
@@ -30,6 +36,11 @@
       .nav-item:last-child{
         margin-left: 0rem;
       }
+
+      .nav-link{
+        display: inline-block;
+      }
+
     }
 
     .dropdown ul{
