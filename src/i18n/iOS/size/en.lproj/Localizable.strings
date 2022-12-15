@@ -175,7 +175,7 @@ HOW TO MEASURE
 📗 healthy
 📙 high (overhydration)
 
-It is recommended to intake every day 3.7L of fluids for men and 2.7L for women. On empty stomach water gets into the blood in 5 min, on a full stomach, it takes 45 to 120 min.On empty stomach water gets into the blood in 5 min, on a full stomach, it might take 45 to 120 min.
+It is recommended to intake every day 3.7L of fluids for men and 2.7L for women. On empty stomach water gets into the blood in 5 min, on a full stomach, it takes 45 to 120 min. On empty stomach water gets into the blood in 5 min, on a full stomach, it might take 45 to 120 min.
 
 ❗Dehydration can lead to heat injuries, seizures, kidney problems, hypovolemic shock, drop in blood pressure and oxygen in the body.
 
@@ -232,12 +232,14 @@ Lipids delivery that the body uses to generate energy. Body fat accumulation is 
 ❗Excess or insufficient body fat can lead to detrimental health effects.";
 /////////////////////////////////////////////////////////////////////////////////////////
 /* Help Screen*/
-"HELP_HEADER"="Build together";
-"HELP_INTRO"="This app is 100% free, has zero ADs, and does not share your data. We believe privacy is a fundamental human right. This is built into our products from the beginning of the design process.
+"HELP_ROW_TITLE"="Build together";
+"HELP_ROW_SUBTITLE"="Make this app better";
+"HELP_HEADER"="Help us";
+"HELP_INTRO"="This app is 100% free, has zero ADs, and does not use your data for profit. At Martspec, it's also one of our core values. We do not store your data, it is stored on your private Apple's iCloud.
 Please help us make this app even better. There are several ways you can help:";
 
 "HELP_OPT1_T" = "Review";
-"HELP_OPT1_D" = "What sets this app apart from others and encourages you to use it?  What do you like the best about this app? Are there any areas we can make better? We need to feel and understand the app helps you, improves your health and wellness.";
+"HELP_OPT1_D" = "What sets this app apart from others and encourages you to use it?  What do you like the best about this app? Are there any areas we, Martspec, can make better? We need to feel and understand the app helps you, improves your health and wellness.";
 "HELP_OPT1_B" = "Rate App";
 
 "HELP_OPT2_T" = "Friend";
@@ -245,8 +247,12 @@ Please help us make this app even better. There are several ways you can help:";
 "HELP_OPT2_B" = "Share it";
 
 "HELP_OPT3_T" = "Language";
-"HELP_OPT3_D" = "Does your native language displayed correctly? Do you have a suggestion to rename something? You can volunteer and help with the grammatically correct spelling of the text. Even if you change one word, it would be a great help.";
-"HELP_OPT3_B" = "Spell it";
+"HELP_OPT3_D" = "Perhaps your native language is not displayed correctly in this application. You can help grammatically correct or rephrase any text in this app.";
+"HELP_OPT3_B" = "Translate it";
 
 "HELP_OPT4_T" = "Social";
 "HELP_OPT4_D" = "We appreciate it if you support the cause of a healthy lifestyle by sharing good words about this app on a social network. This app might benefit and enrich other people's lives.";
+
+"HELP_OPT5_T" = "Contact";
+"HELP_OPT5_D" = "If you have any questions, please feel free to contact us.";
+"HELP_OPT5_B" = "Email us";

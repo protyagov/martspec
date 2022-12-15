@@ -17,7 +17,7 @@
 "TL_EDIT" = "Edit";
 "TAB_VITAMIN"= "Vitamins";
 "TAB_MINERAL"="Minerals";
-"TAB_CUSTOM"="Custom";
+"TAB_CUSTOM"="My Pills";
 
 // Vitamins
 "BIOTIN" = "Biotin";

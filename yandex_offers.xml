@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2020-11-22T14:37:38+03:00">
+    <shop>
+        <name>Martspec</name>
+        <company>Martspec LLC</company>
+        <url>https://martspec.com/ru</url>
+        <platform>uCoz</platform>
+        <categories>
+            <category id="1">Все товары/Компьютерная техника/Программное обеспечение</category>
+        </categories>
+        <delivery>
+        	false
+        </delivery>
+        <delivery-options>
+            <option cost="0" days="1"/>
+        </delivery-options>
+        <pickup-options>
+            <option cost="0" days="1"/>
+        </pickup-options>
+        <offers>
+            <offer id="01">
+                <name>Витамин - Трекинг Запись Учет</name>
+                <vendor>Martspec</vendor>
+                <vendorCode>MS01</vendorCode>
+                <url>https://apps.apple.com/ru/app/id1519596234</url>
+                <price>0</price>
+                <oldprice>9990</oldprice>
+                <enable_auto_discounts>true</enable_auto_discounts>
+                <currencyId>RUR</currencyId>
+                <categoryId>101</categoryId>
+                <picture>http://best.seller.ru/img/model_12345.jpg</picture>
+                <description>
+                    <![CDATA[          
+                        <p>Простой и удобный учёт витаминов и минералов. Полная поддержка Apple Здоровье и iCloud. Работает бесплатно, без реклам и внутренних покупок.</p>
+                        <p>Слово «ВИТАМИН» происходит от латинского слова «VITA», что означает «ЖИЗНЬ». Действительно, наша жизнь была бы невозможна без витаминов.</p>
+                    ]]>
+                </description>                
+                <manufacturer_warranty>false</manufacturer_warranty>
+                <condition type="preowned">
+                    <quality>excellent</quality>
+                    <reason>
+						Приложение работает на Apple Watch, iPhone, iPad и M1 Mac. Измерения синхронизируются между устройствами через iCloud и приложение Apple Health. При первом запуске вас попросят предоставить доступ для чтения/записи данных о питательных веществах из вашего приложения для здоровья.
+                    </reason>
+                </condition>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>

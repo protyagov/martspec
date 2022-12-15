@@ -12,7 +12,6 @@ export default function LandingPage() {
 
             <section id="header" className="ms-s-header">
                 <div className="text-vertical-center">
-                    {/* <img src="/img/logo_256.webp" alt={_("MAIN.HEAD")} /> */}
                     <img src="/img/logo.512.webp" height={64} width={64} className="mx-auto img-fluid" alt={_("MAIN.HEAD")} />
                     <h1>{_('MAIN.HEAD')}</h1>
                     <h4>{_("MAIN.SUBHEAD")}</h4>
