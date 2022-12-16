@@ -18,20 +18,28 @@ export default function LandingPage() {
                 </div>
             </section>
 
+
             <section className="rr-s-product pw-color-bg-secondary">
                 <div className="row ms-s-offset">
                     <div className="col-md-6 align-self-center order-last order-md-1">
-                        <h1><img src="/img/vitamin_logo.svg" className="img-fluid mb-2 me-3" width={48} /> {_("MAIN.P3.HEAD")}</h1>
+                        <h1 className="d-none d-md-block">
+                            <img src="/img/vitamin_logo.svg" className="img-fluid mb-2 me-3" width={48} />
+                            {_("MAIN.P3.HEAD")}
+                        </h1>
                         <p className="mt-2">{_("MAIN.P3.SUBHEAD")}</p>
                         <h2>{_("MAIN.P3.TEXT")}</h2>
                         <a href={Locale.i18nLink("logvitamin")} className="mt-3 rr-btn-large">{_("MAIN.P3.BTN")}</a>
                     </div>
-
                     <div className="col-md-4 order-sm-1">
+                        <h1 className="d-block d-md-none">
+                            <img src="/img/vitamin_logo.svg" className="img-fluid mb-2 me-3" width={48} />
+                            {_("MAIN.P3.HEAD")}
+                        </h1>
                         <IronImage imgLo="/img/vitamin.64.webp" imgHi="/img/vitamin.512.webp" i18n={true} text={_("MAIN.P3.IMG")} h={540} w={540} />
                     </div>
                 </div>
             </section>
+
 
             <section className="rr-s-product my-5">
                 <div className="row ms-s-offset">
@@ -48,6 +56,7 @@ export default function LandingPage() {
                 </div>
             </section>
 
+
             <section className="rr-s-product pw-color-bg-secondary">
                 <div className="row ms-s-offset">
                     <div className="col-md-6 align-self-center order-last order-md-1">
@@ -61,6 +70,7 @@ export default function LandingPage() {
                     </div>
                 </div>
             </section>
+
 
             <section className="rr-s-product my-5">
                 <div className="row ms-s-offset">
@@ -107,6 +117,7 @@ export default function LandingPage() {
                     </div>
                 </div>
             </section>
+
 
             <section className="rr-s-product pw-color-bg-secondary">
                 <div className="row ms-s-offset">
