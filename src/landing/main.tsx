@@ -20,7 +20,7 @@ export default function LandingPage() {
 
 
             <section className="rr-s-product pw-color-bg-secondary">
-                <div className="row ms-s-offset">
+                <div className="row ms-s-offset align-items-center">
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <h1 className="d-none d-md-block">
                             <img src="/img/vitamin_logo.svg" className="img-fluid mb-2 me-3" width={48} />
