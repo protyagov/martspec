@@ -1,6 +1,0 @@
-"CFBundleDisplayName" = "Körperform";
-"CFBundleName" = "Körperform";
-
-"NSHealthShareUsageDescription" = "Lesen Ihrer Gesundheitsdaten zulassen ermöglicht unserer App, Ihnen in der Gesundheits-App gespeicherte Messwerte anzuzeigen. Einige Berechnungen, wie z. B. das Höhenverhältnis zu anderen Größen, können ohne sie nicht durchgeführt werden.";
-
-"NSHealthUpdateUsageDescription" = "Speichern in der Gesundheits-App zulassen gibt Ihnen die Möglichkeit, Messungen von unserer App mit der Gesundheits-App für ausgewählte Kategorien zu synchronisieren.";

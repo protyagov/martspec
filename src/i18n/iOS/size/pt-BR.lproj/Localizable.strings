@@ -211,7 +211,7 @@ COMO MEDIR
 "BFP_LEVEL_4" = "médio";
 "BFP_LEVEL_5" = "obeso";
 
-"BFP_Head1" = "Percentual de gordura corporal";
+"BFP_Head1" = "Gordo %";
 "BFP_Head2" = "Porcentagem de gordura corporal";
 "BFP_Descr" = "Esta é uma medida de aptidão corporal e um indicador da forma do corpo como:
 
@@ -245,9 +245,13 @@ Por favor, ajude-nos a tornar este aplicativo ainda melhor. Existem várias mane
 "HELP_OPT2_D" = "Ao compartilhar o aplicativo, você pode impactar positivamente outras pessoas e ajudá-las a aprender algo novo. Talvez elas possam achar este aplicativo tão útil quanto você.";
 "HELP_OPT2_B" = "Compartilhe";
 
-"HELP_OPT3_T" = "Idioma 🇧🇷 🇵🇹";
-"HELP_OPT3_D" = "Sua língua nativa é exibida corretamente? Você tem uma sugestão para renomear alguma coisa? Você pode se voluntariar e ajudar com a ortografia gramaticalmente correta do texto. Mesmo que você altere uma palavra, seria de grande ajuda." ;
+"HELP_OPT3_T" = "Idioma 🇧🇷";
+"HELP_OPT3_D" = "Talvez seu idioma nativo não seja exibido corretamente neste aplicativo. Você pode ajudar a corrigir ou reformular qualquer texto neste aplicativo.";
 "HELP_OPT3_B" = "Traduzir";
 
 "HELP_OPT4_T" = "Social";
 "HELP_OPT4_D" = "Agradecemos se você apoiar a causa de um estilo de vida saudável compartilhando boas palavras sobre este aplicativo em uma rede social. Este aplicativo pode beneficiar e enriquecer a vida de outras pessoas.";
+
+"HELP_OPT5_T" = "Fale conosco";
+"HELP_OPT5_D" = "Se você tiver alguma dúvida, não hesite em nos contatar.";
+"HELP_OPT5_B" = "E-mail";
