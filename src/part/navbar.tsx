@@ -26,11 +26,15 @@ export default function NavigationBar() {
                 <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul className="navbar-nav">
 
-                        <li className="nav-item dropdown">
+                        <li className={
+                            navShow ? "nav-item dropend": "nav-item dropdown"
+                        }>
                             <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 {_("HEADER.ABOUT.TITLE")}
                             </a>
-                            <ul className="dropdown-menu dropdown-position border-1" aria-labelledby="navbarDropdown">
+
+                            <ul className="dropdown-menu dropdown-position border-1"
+                            aria-labelledby="navbarDropdown">
                                 <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI1")}</a></li>
                                 <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI2")}</a></li>
                                 <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI1")}</a></li>
@@ -53,7 +57,6 @@ export default function NavigationBar() {
                         </li>
 
                         <li className="nav-item dropdown">
-                            <div className="dropdown-container">
 
                                 <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img src="/img/language_dropdown.svg" alt={_("ERROR.404_BTN")} width={32} height={32}/>
@@ -90,7 +93,6 @@ export default function NavigationBar() {
                                         <a className="nav-link" href="/ar">عربي</a>
                                     </li>
                                 </ul>
-                            </div>
 
                         </li>
                     </ul>

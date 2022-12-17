@@ -65,11 +65,10 @@
   }
 }
 
-.dropdown-container{
-  position: relative;
-}
-
 .dropdown-position{
-  position: absolute !important;
   transform: translate3d(-10px, -15px, 0px) !important;
+
+  @media only screen and (max-width: 991px) {
+    transform: translate3d(250%, 0, 0px) !important;
+  }
 }
