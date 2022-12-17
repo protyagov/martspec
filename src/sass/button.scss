@@ -1,39 +1,27 @@
 @import "base.scss";
-
-
-.pw-button {
+.ms-btn {
     @extend .btn;
     border-radius: 2rem;
     font-size: 1rem;
     font-family: os6; // padding: 3rem 4÷rem;
     text-transform: uppercase;
     background-color: $ms-color-button;
-    
-    color: white;
 
-    &:hover,
-    &:focus,
-    &:active {
-        color: white;
+    &:hover {
         background-color: $ms-color-button-hover;
+    }
+
+    &:active {
+        background-color: $ms-color-button-active !important;
     }
 }
 
 .rr-btn-large {
-    @extend .pw-button;
-    @extend .btn;
-    @extend .btn-lg;
+    @extend .ms-btn;
+    color: white !important;
     font-family: os6;
     padding: 0.9rem 3+rem;
     border-radius: 2.1rem;
-    color: white !important;
-}
-
-.pw-btn-product {
-    @extend .pw-button;
-    font-weight: 600; // letter-spacing: 1px;
-    padding: 0.8rem 2+rem;
-    border-radius: 2rem;
 }
 
 .rr-btn-lang {
