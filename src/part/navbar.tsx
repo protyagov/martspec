@@ -9,35 +9,35 @@ function NavigationBarLanguageDropdown() {
                 <img src="/img/language_dropdown.svg" alt={_("ERROR.404_BTN")} width={32} height={32} />
             </a>
             <ul className="dropdown-menu dropdown-position border-1">
-                <li className="dropdown-item" hidden={Locale.language == 'en'}>
-                    <a className="nav-link" href="/en">English</a>
+                <li hidden={Locale.language == 'en'}>
+                    <a className="nav-link dropdown-item" href="/en">English</a>
                 </li>
-                <li className="dropdown-item" hidden={Locale.language == 'ru'}>
-                    <a className="nav-link" href="/ru">Русский</a>
+                <li hidden={Locale.language == 'ru'}>
+                    <a className="nav-link dropdown-item" href="/ru">Русский</a>
                 </li>
-                <li className="dropdown-item" hidden={Locale.language == 'de'}>
-                    <a className="nav-link" href="/de">Deutsche</a>
+                <li hidden={Locale.language == 'de'}>
+                    <a className="nav-link dropdown-item" href="/de">Deutsche</a>
                 </li>
-                <li className="dropdown-item" hidden={Locale.language == 'fr'}>
-                    <a className="nav-link" href="/fr">Français</a>
+                <li hidden={Locale.language == 'fr'}>
+                    <a className="nav-link dropdown-item" href="/fr">Français</a>
                 </li>
-                <li className="dropdown-item" hidden={Locale.language == 'hi'}>
-                    <a className="nav-link" href="/hi">हिन्दी</a>
+                <li hidden={Locale.language == 'hi'}>
+                    <a className="nav-link dropdown-item" href="/hi">हिन्दी</a>
                 </li>
-                <li className="dropdown-item" hidden={Locale.language == 'pt'}>
-                    <a className="nav-link" href="/pt">Português</a>
+                <li hidden={Locale.language == 'pt'}>
+                    <a className="nav-link dropdown-item" href="/pt">Português</a>
                 </li>
-                <li className="dropdown-item" hidden={Locale.language == 'es'}>
-                    <a className="nav-link" href="/es">Español</a>
+                <li hidden={Locale.language == 'es'}>
+                    <a className="nav-link dropdown-item" href="/es">Español</a>
                 </li>
-                <li className="dropdown-item" hidden={Locale.language == 'zh'}>
-                    <a className="nav-link" href="/zh">中文</a>
+                <li hidden={Locale.language == 'zh'}>
+                    <a className="nav-link dropdown-item" href="/zh">中文</a>
                 </li>
-                <li className="dropdown-item" hidden={Locale.language == 'ja'}>
-                    <a className="nav-link" href="/ja">日本語</a>
+                <li hidden={Locale.language == 'ja'}>
+                    <a className="nav-link dropdown-item" href="/ja">日本語</a>
                 </li>
-                <li className="dropdown-item" hidden={Locale.language == 'ar'}>
-                    <a className="nav-link" href="/ar">عربي</a>
+                <li hidden={Locale.language == 'ar'}>
+                    <a className="nav-link dropdown-item" href="/ar">عربي</a>
                 </li>
             </ul>
         </li>
