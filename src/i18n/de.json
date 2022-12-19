@@ -10,63 +10,160 @@
     "MAIN": {
         "HEAD": "Gesundheit und Fitness",
         "SUBHEAD": "Machen Sie tägliche Aufgaben agil und mühelos",
-        "IMG": "Einfachheit der Gesundheitsverfolgung, Apple Watch Wellness- und Gesundheits-Apps",
-        "P1": {
-            "HEAD": "Electrolyte",
-            "SUBHEAD": "wasser-Salz-Gleichgewicht",
-            "TEXT": "Elektrolyte spielen eine wichtige Rolle bei der Aufrechterhaltung der Homöostase im Körper. Sie helfen bei der Regulierung des Herzens und der neurologischen Funktion, des Flüssigkeitshaushalts, der Sauerstoffzufuhr, des Säure-Base-Gleichgewichts und vielem mehr.",
-            "BTN": "Weiterlesen",
-            "IMG": "Nehmen Sie Elektrolyte und Mineralien mit Ihrer Apple Watch auf",
-            "DWN": "Laden Sie die kostenlose Elektrolyt-Tracker-App aus dem Apple AppStore herunter"
-        },
-        "P2": {
-            "HEAD": "Gewicht - Körpermasse Tagebuch",
-            "SUBHEAD": "leichteste gewichtstagebuch",
-            "TEXT": "Das Verfolgen Ihres Gewichts steigert Ihre Effizienz in Bezug auf Ihre Zeit und Ihr Training. Es wird Sie nicht nur dazu bringen, es besser zu machen, sondern Sie auch dazu bringen, Ihre eigene Konkurrenz zu sein!",
-            "BTN": "Schau mal",
-            "IMG": "Speichern Sie Körpermasse direkt von Ihrer Apple Watch in Apple Health Storage",
-            "DWN": "Laden Sie die kostenlose Body Gewicht-App aus dem Apple AppStore herunter"
-        },
-        "P3": {
-            "HEAD": "Vitamin",
-            "SUBHEAD": "der ultimative Vitamin Tracker",
-            "TEXT": "Das Verfolgen Ihrer essentiellen Vitamine hat viele Vorteile, angefangen bei der Behandlung von Nahrungsmittelunverträglichkeiten bis hin zur Steigerung der Energie, zur Vermeidung von Stimmungsschwankungen und zur Förderung des Tagesrhythmus.",
-            "BTN": "Weiterlesen",
-            "IMG": "Verfolgen Sie die wichtigsten Vitamine direkt am Handgelenk",
-            "DWN": "Laden Sie die kostenlose Vitamin- und Nährstoffverfolgungs-App aus dem Apple AppStore herunter"
-        },
-        "P4": {
-            "HEAD": "Taille",
-            "SUBHEAD": "winzige taille - gesundes herz",
-            "TEXT": "Der einfachste Weg, um den Taillenumfang auf der Apple Watch zu verfolgen. Alle Datensätze werden mit Ihrem Apple Health synchronisiert.",
-            "BTN": "Erfahren Sie mehr",
-            "IMG": "Behalten Sie Ihre Taillengröße (Bauchnabel) direkt von Ihrem Arm aus im Auge",
-            "DWN": "Laden Sie die kostenlose Taillen-App aus dem Apple App Store herunter"
-        },
-        "P5": {
-            "HEAD": "Body Zinc",
-            "SUBHEAD": "verfolgung der zinkaufnahme",
-            "TEXT": "Schön in seiner Einfachheit Körper Zink Tracker für Ihre Uhr. Apple Health aktiviert. Echte Ergebnisse. Kostenlos. Keine Werbung.",
-            "BTN": "Wellness entdecken",
-            "IMG": "Verfolgen Sie Ihren Alltagsverbrauch von Zinkergänzungen",
-            "DWN": "Holen Sie sich kostenlos Bodyzinc-Anwendung von Apple Store"
-        },
-        "P6": {
-            "HEAD": "Körperform - Einfacher Tracker",
-            "SUBHEAD": "schöner Körper - von dir gebaut!",
-            "TEXT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Uhr. Volle Unterstützung von Apple Health. Schnelle Ladezeit. Absolut frei.",
-            "BTN": "Perfekte Form",
-            "IMG": "Messen Sie die Brustgröße, die Büste Breite, den Taillenumfang und die Hüftlänge mit der Uhr an Ihrem Handgelenk",
-            "DWN": "Holen Sie sich die kostenlose Körperform-App für Apple Watch direkt aus dem Apple App Store"
-        },
-        "P7": {
-            "HEAD": "Emotion",
-            "SUBHEAD": "schnellster psychologietest",
-            "TEXT": "Unerwartete Stimmungsschwankungen? Intensive emotionale Veränderungen? Finden Sie die Ursache in nur 1 Minute heraus.",
-            "BTN": "Sich selbst kennen",
-            "IMG": "Der schnellste Persönlichkeitstest der Welt. Wählen Sie 8 Farben aus und kennen Sie Ihren aktuellen Geisteszustand",
-            "DWN": "Holen Sie sich die kostenlose App für Apple Watch, iPhone oder iPad direkt aus dem Apple App Store"
-        }
+        "IMG": "Einfachheit der Gesundheitsverfolgung, Apple Watch Wellness- und Gesundheits-Apps"
+    },
+    "ELECTROLYTE": {
+        "HEAD": "Electrolyte",
+        "SUBHEAD": "wasser-Salz-Gleichgewicht",
+        "TEXT": "Elektrolyte spielen eine wichtige Rolle bei der Aufrechterhaltung der Homöostase im Körper. Sie helfen bei der Regulierung des Herzens und der neurologischen Funktion, des Flüssigkeitshaushalts, der Sauerstoffzufuhr, des Säure-Base-Gleichgewichts und vielem mehr.",
+        "BTN": "Weiterlesen",
+        "IMG": "Nehmen Sie Elektrolyte und Mineralien mit Ihrer Apple Watch auf",
+        "DWN": "Laden Sie die kostenlose Elektrolyt-Tracker-App aus dem Apple AppStore herunter",
+        "ABOUT": "Elektrolyte spielen eine wichtige Rolle bei der Aufrechterhaltung der Homöostase im Körper. Sie helfen bei der Regulierung des Herzens und der neurologischen Funktion, des Flüssigkeitshaushalts, der Sauerstoffzufuhr, des Säure-Base-Gleichgewichts und vielem mehr. Verfolgen Sie die Elektrolytaufnahme mit der Apple Watch App.",
+        "HEAD1": "Magnesium",
+        "DESC1": "Reguliert den Herzrhythmus, die Nervenfunktion, die Muskelkontraktion, den Blutdruck und den Zuckerspiegel und ist an der Herstellung von Protein, Knochen und DNA beteiligt. Magnesiummangel führt zu Appetitlosigkeit, Übelkeit, Erbrechen, Müdigkeit und Schwäche; während hohe Werte Hypermagnesiämie verursachen können. ",
+        "HEAD2": "Kalzium",
+        "DESC2": "Hilft den Muskeln, sich zu bewegen, und den Nerven, Botschaften zwischen dem Gehirn und jedem Körperteil zu transportieren. Hilft Blutgefäßen, Blut durch den Körper zu bewegen. Beteiligt sich an der Freisetzung von Hormonen und Enzymen, die nahezu jede Funktion im menschlichen Körper beeinflussen. Etwa 99% der körpereigenen Kalziumversorgung wird in Knochen und Zähnen gespeichert. ",
+        "HEAD3": "Kalium",
+        "DESC3": "Wird für fast alles im Körper verwendet, einschließlich der richtigen Nieren- und Herzfunktion, Muskelkontraktion und Nervenübertragung. Kaliummangel kann den Blutdruck erhöhen und Kalzium in den Knochen verbrauchen. ",
+        "HEAD4": "Eisen",
+        "DESC4": "Ein wichtiger Bestandteil von Hämoglobin und Myoglobin, Proteinen, die Sauerstoff zu Körpergeweben und Muskeln transportieren. Rote Blutkörperchen enthalten mehr als die Hälfte des menschlichen Körpers Eisen. ",
+        "HEAD5": "Risiken",
+        "DESC5": "Elektrolytstörungen können entstehen, wenn zu wenig oder zu viel Elektrolyt verbraucht und zu wenig oder zu viel Elektrolyt ausgeschieden wird. "
+    },
+    "MASS": {
+        "HEAD": "Gewicht - Körpermasse Tagebuch",
+        "SUBHEAD": "leichteste gewichtstagebuch",
+        "TEXT": "Das Verfolgen Ihres Gewichts steigert Ihre Effizienz in Bezug auf Ihre Zeit und Ihr Training. Es wird Sie nicht nur dazu bringen, es besser zu machen, sondern Sie auch dazu bringen, Ihre eigene Konkurrenz zu sein!",
+        "BTN": "Schau mal",
+        "IMG": "Speichern Sie Körpermasse direkt von Ihrer Apple Watch in Apple Health Storage",
+        "DWN": "Laden Sie die kostenlose Body Gewicht-App aus dem Apple AppStore herunter",
+        "ABOUT": "Das Bodyweight Journal ist das perfekte Werkzeug, um die Effizienz Ihrer Übungen und die Motivation zum Erreichen des Ziels zu steigern. Alle Daten werden mit Apple Health synchronisiert und sicher in Ihrer iCloud gespeichert. Alles ist einfach und absolut kostenlos. Keine Anzeigen und keine In-App-Käufe.",
+        "HEAD1": "Rechenschaftspflicht",
+        "DESC1": "Wir haben eine Verantwortung für unsere Gesundheit. Niemand kann uns dazu bringen, Gewicht zu verlieren oder gesunde Lebensmittel zu wählen. Das müssen wir selbst entscheiden.",
+        "HEAD2": "Ehrlichkeit",
+        "DESC2": "Das Protokollieren unseres Gewichts macht es real. Während das seltsam klingt; Es ist echt. Dies sind Daten, aufgezeichnete Fakten. Sie sind real, ob wir sie aufnehmen oder nicht. ",
+        "HEAD3": "Engagement",
+        "DESC3": "Tägliches Protokollieren ist wichtig, es hält gesunde Gewohnheiten vor Augen. Jedes Mal, wenn wir einen Protokolleintrag machen, werden wir an unser Engagement für die Gesundheit erinnert. Das Überspringen eines Tages hier und da erleichtert das Überspringen von 2 Tagen und dann von 3 Tagen. Dann, bevor Sie es wissen, haben Sie aufgehört und sind zu Ihren alten Gewohnheiten zurückgekehrt.",
+        "HEAD4": "App-Funktionen",
+        "DESC4_1": "Apple Health Integration",
+        "DESC4_2": "Historie vergangener Aufnahmen mit der prozentualen Differenz",
+        "DESC4_3": "Alle Uhrengrößen, alle Watchface-Widget-Typen",
+        "DESC4_4": "iCloud-Backups",
+        "DESC4_5": "Funktioniert ohne iPhone",
+        "DESC4_6": "Minimalistischer Stil",
+        "DESC4_7": "Kostenlos, keine Anzeigen und keine In-App-Käufe"
+    },
+    "VITAMIN": {
+        "HEAD": "Vitamin",
+        "SUBHEAD": "der ultimative Vitamin Tracker",
+        "TEXT": "Das Verfolgen Ihrer essentiellen Vitamine hat viele Vorteile, angefangen bei der Behandlung von Nahrungsmittelunverträglichkeiten bis hin zur Steigerung der Energie, zur Vermeidung von Stimmungsschwankungen und zur Förderung des Tagesrhythmus.",
+        "BTN": "Weiterlesen",
+        "IMG": "Verfolgen Sie die wichtigsten Vitamine direkt am Handgelenk",
+        "DWN": "Laden Sie die kostenlose Vitamin- und Nährstoffverfolgungs-App aus dem Apple AppStore herunter",
+        "ABOUT": "Mit der Vitamin-App können Sie die Aufnahme wichtiger Vitamine direkt von Ihrem Handgelenk aus verfolgen, wenn Sie die Apple Watch sowie iPhone und iPad verwenden. Sie können Ihren Fortschritt im Laufe der Zeit sehen, Datensätze werden nach Monaten gruppiert und automatisch mit Ihrer Apple Health synchronisiert. Die App ist absolut kostenlos, hat keine Werbung und verwendet Ihre Daten nicht gewinnbringend.",
+        "HEAD1": "Ernährungsentscheidungen verbessern",
+        "DESC1": "Diese App ist ein ausgezeichneter Vitamin-Tracker, der Ihre Ernährung verbessern und gleichzeitig die Nährstoffziele anpassen kann.",
+        "HEAD2": "Nehmen Sie einen gesünderen Lebensstil an",
+        "DESC2": "Tragbare Aktivitäts-Tracker bieten vielversprechende Möglichkeiten, um Benutzern zu einem gesünderen Lebensstil zu verhelfen. ",
+        "HEAD3": "Vitamin A - Beta-Carotin",
+        "DESC3": "Wichtig für das normale Sehen, das Immunsystem und die Fortpflanzung. Hilft, dass Herz, Lunge, Nieren und andere Organe richtig funktionieren. ",
+        "HEAD4": "Vitamin C - Ascorbinsäure",
+        "DESC4": "Schützt die Zellen und hält sie gesund. Unterstützt Blutgefäße, Knochen und Knorpel. Wichtig für die Wundheilung t k hilft bei der Entwicklung von Bindegewebe, Regenerationsprozessen und Heilung. Gibt Widerstand gegen verschiedene Arten von Stress, die Gewährleistung des normalen immunologischen Status des Körpers und die Aufrechterhaltung der Prozesse der Hämatopoese. ",
+        "HEAD5": "Vitamin D",
+        "DESC5": "Reguliert die Menge an Kalzium und Phosphat im Körper. Diese Nährstoffe werden benötigt, um Knochen, Zähne und Muskeln gesund zu halten. Ein Mangel an Vitamin D kann bei Kindern zu Knochendeformitäten wie Rachitis und Knochenschmerzen führen, die durch eine als Osteomalazie bezeichnete Erkrankung bei Erwachsenen verursacht werden. ",
+        "HEAD6": "Vitamin E",
+        "DESC6": "Unterstützt die Gesundheit und Schönheit des Körpers beim Schutz vor schädlichen Umweltfaktoren. Wenn Zellen, Gewebe und Organe Vitamin E in ausreichender Menge erhalten, verringert sich das Risiko für viele Krankheiten, verlangsamt den Alterungsprozess. Insbesondere als starkes Antioxidans ist Vitamin E an der Bildung von Fasern beteiligt, die es der Haut ermöglichen, elastisch zu bleiben. ",
+        "HEAD7": "Vitamin B12 - Cobalamin",
+        "DESC7": "Bildung roter Blutkörperchen und Gesundheit des Nervengewebes. Helfen Sie dem Körper, Lebensmittel (Kohlenhydrate) in Kraftstoff (Glukose) umzuwandeln, der zur Energieerzeugung verwendet wird. ",
+        "HEAD8": "Vitamin B7 - Biotin",
+        "DESC8": "Hilft bei der Umwandlung von Nährstoffen in Energie und spielt eine wichtige Rolle für die Gesundheit von Haaren, Haut und Nägeln. ",
+        "HEAD9": "Vitamin B9 - Folsäure",
+        "DESC9": "Wird benötigt, um rote und weiße Blutkörperchen im Knochenmark zu bilden, Kohlenhydrate in Energie umzuwandeln und DNA und RNA zu produzieren. ",
+        "HEAD0": "Vitamin B3 - Niacin",
+        "DESC0": "Muss Lebensmittel in Energie umwandeln. Es hilft, Ihr Nervensystem, Ihr Verdauungssystem und Ihre Haut gesund zu halten. "
+    },
+    "WAIST": {
+        "HEAD": "Taille",
+        "SUBHEAD": "winzige taille - gesundes herz",
+        "TEXT": "Der einfachste Weg, um den Taillenumfang auf der Apple Watch zu verfolgen. Alle Datensätze werden mit Ihrem Apple Health synchronisiert.",
+        "BTN": "Erfahren Sie mehr",
+        "IMG": "Behalten Sie Ihre Taillengröße (Bauchnabel) direkt von Ihrem Arm aus im Auge",
+        "DWN": "Laden Sie die kostenlose Taillen-App aus dem Apple App Store herunter",
+        "ABOUT": "Einfach zu bedienender Taillenumfang-Tracker für die Apple Watch. Erfordert weder Accout noch Registrierung. Absolut frei. Alle Datensätze werden mit Ihrer Apple Health App synchronisiert und die letzten 7 Tage können direkt von Ihrem Handgelenk aus aufgerufen werden.",
+        "HEAD1": "Medizinische Tatsache",
+        "DESC1": "Wenn sich mehr Fett um Ihre Taille als um Ihre Hüften befindet, besteht ein höheres Risiko für Erkrankungen wie Herzerkrankungen und Typ-2-Diabetes. ",
+        "LINK1": "National Institutes of Health, USA",
+        "HEAD2": "Besser als BMI",
+        "LINK2": "Studie der American Heart Association",
+        "DESC2": " hat gezeigt, dass die Messung der Taille ein besserer Weg ist, um das Risiko von Herzerkrankungen vorherzusagen, als der weit verbreitete Body-Mass-Index.",
+        "HEAD3": "Körperzusammensetzung",
+        "DESC3": "Wenn Sie Muskeln aufbauen und Zentimeter Fett verlieren, ändert sich Ihr Gewicht möglicherweise nicht wesentlich. Deshalb kann die Körperzusammensetzung Ihnen mehr als die Skala erzählen, sie erzählt Ihnen die wahre Geschichte.",
+        "HEAD4": "Erhöhtes kardiovaskuläres Risiko",
+        "DESC4_1": "Männer: 102 cm oder mehr",
+        "DESC4_2": "Frauen: 88 cm oder mehr",
+        "DESC4_3": "Alle 5 cm Taillengröße erhöhen das Risiko bei Männern um 17% und bei Frauen um 13%, unabhängig vom BMI",
+        "DESC4_4": "Quelle: "
+    },
+    "ZINC": {
+        "HEAD": "Body Zinc",
+        "SUBHEAD": "verfolgung der zinkaufnahme",
+        "TEXT": "Schön in seiner Einfachheit Körper Zink Tracker für Ihre Uhr. Apple Health aktiviert. Echte Ergebnisse. Kostenlos. Keine Werbung.",
+        "BTN": "Wellness entdecken",
+        "IMG": "Verfolgen Sie Ihren Alltagsverbrauch von Zinkergänzungen",
+        "DWN": "Holen Sie sich kostenlos Bodyzinc-Anwendung von Apple Store",
+        "ABOUT": "Einfach zu bedienender Ernährungszink-Tracker für Apple Watch. Auto Sync mit Apple Health erfordert keine Registrierung und absolut kostenlos.",
+        "HEAD1": "Altersbedingte Krankheiten",
+        "DESC1": "Zink kann Ihr Risiko von altersbedingten Erkrankungen wie Lungenentzündung, Infektion und altersbedingter Makuladegeneration (AMD) erheblich reduzieren. Es kann oxidativer Stress lindern und die Immunantwort verbessern, indem die Aktivität von T-Zellen und natürlichen Killerzellen stärkt, die dazu beitragen, Ihren Körper vor Infektionen zu schützen. Ältere Erwachsene, die mit Zinkerlebnis ergänzen, verbesserten die Influenza-Impfung, ein geringes Risiko der Lungenentzündung und die stärkste mentale Leistung.",
+        "LINK1": "Nationale Gesundheitsinstitute, USA",
+        "HEAD2": "Wundheilungsbeschleunigung.",
+        "DESC2": "Zink wird häufig in Krankenhäusern als Behandlung von Verbrennungen, bestimmten Geschwüren und anderen Hautverletzungen verwendet. Tatsächlich hält Ihre Haut einen relativ hohen Betrag - etwa 5% des Zinkgehalts Ihres Körpers.",
+        "LINK2": "Studie von American Heart Association",
+        "HEAD3": "Verringert Entzündungen",
+        "DESC3": "Verringert oxidativen Stress und verringert die Gewährleistung bestimmter entzündlicher Proteine in Ihrem Körper. Oxidativer Stress führt zu chronischen Entzündungen, ein beitragender Faktor in einer Vielzahl chronischer Erkrankungen, wie Herzkrankheiten, Krebs und geistiger Rückgang."
+    },
+    "SIZE": {
+        "HEAD": "Körperform - Einfacher Tracker",
+        "SUBHEAD": "schöner Körper - von dir gebaut!",
+        "TEXT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Uhr. Volle Unterstützung von Apple Health. Schnelle Ladezeit. Absolut frei.",
+        "BTN": "Perfekte Form",
+        "IMG": "Messen Sie die Brustgröße, die Büste Breite, den Taillenumfang und die Hüftlänge mit der Uhr an Ihrem Handgelenk",
+        "DWN": "Holen Sie sich die kostenlose Körperform-App für Apple Watch direkt aus dem Apple App Store",
+        "ABOUT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Apple Watch. Auto berechnet die Körperform mithilfe der Bradley Bayou-Formel. Volle Unterstützung von Apple Health. iCloud-Backups. Schnelle Ladezeit. Absolut frei.",
+        "HEAD1": "Körperzusammensetzung",
+        "DESC1": "Wenn Sie Muskeln gewinnen und Zentimeter Fett verlieren, ändert sich Ihr Gewicht möglicherweise nicht viel. Deshalb kann die Körperkomposition Ihnen mehr als die Waage erzählen, er sagt Ihnen die wahre Geschichte.",
+        "LINK1": "Gesundheitslinie",
+        "HEAD2": "Brustf / Busen",
+        "DESC2": "Warum messen? Wir sind keinem medizinischen oder Wellnessbedürfnis dafür bewusst. Die Brust-Breite ist jedoch einer der wichtigsten Messungen perfekter Körperanteile. Es wird angenommen, dass korrekte Anteile attraktiver sind als die Gesamtgröße oder Höhe des Körpers.",
+        "HEAD3": "Taille",
+        "HEAD4": "Hüfte",
+        "DESC4": "Beweise zeigen, dass Fett um die Oberschenkel und Backside schwieriger ist, sich um die Taille zu verschieben, als Fett zu verschieben. Die Taillen-to-HIPS-Verhältnis wird üblicherweise als Indikator oder Gesundheitsmaß verwendet, und das Risiko, ernsthafte Gesundheitszustände zu entwickeln.",
+        "HEAD5": "Körperform",
+        "DESC5": "Ist Ihre Körperform ein Apfel 🍎 oder eine Birne 🍐? Oder vielleicht eine Sanduhr? Ihre wahre Körperform herauszufinden ist mehr als nur einer dieser sinnlosen Online-Tests. Das Verständnis Ihrer Körperform kann Ihnen helfen, das effektivste Training zu finden. Studien deuten darauf hin, dass es helfen kann, Ihre Gesundheit zu verbessern."
+    },
+    "EMOTION": {
+        "HEAD": "Emotion",
+        "SUBHEAD": "schnellster psychologietest",
+        "TEXT": "Unerwartete Stimmungsschwankungen? Intensive emotionale Veränderungen? Finden Sie die Ursache in nur 1 Minute heraus.",
+        "BTN": "Sich selbst kennen",
+        "IMG": "Der schnellste Persönlichkeitstest der Welt. Wählen Sie 8 Farben aus und kennen Sie Ihren aktuellen Geisteszustand",
+        "DWN": "Holen Sie sich die kostenlose App für Apple Watch, iPhone oder iPad direkt aus dem Apple App Store",
+        "ABOUT_1": "Stress 😠, Angst 😬, Depressionen ☹️ oder plötzliche Stimmungsschwankungen? Aktuelle wirtschaftliche, politische und soziale Ereignisse tragen viel zu unserem Stresslevel bei und viele Menschen erleben sogar am selben Tag Stimmungsschwankungen.",
+        "ABOUT_2": "Die allgemeine Unsicherheit über unsere Position und was als nächstes zu erwarten ist, die Unfähigkeit vorherzusagen, was uns in der Zukunft erwarten wird, wirkt sich negativ auf unsere Stimmung aus. Diese Ungewissheit scheint eine neue Norm in unserem Leben zu sein.",
+        "HEAD1": "Wie funktioniert es?",
+        "DESC1_1": "Sehen Sie sich den farbigen Ring an und wählen Sie eine Farbe aus, die Ihnen am besten gefällt. Es sind noch 7 Farben übrig. Wählen Sie aus den 7 Farben die aus, die Ihnen jetzt am besten gefällt, und so weiter, bis Ihnen die Farben ausgehen. Als nächstes wiederholen Sie die obige Routine. Wenn Sie es wiederholen, versuchen Sie nicht, die vorherige Auswahl zu reproduzieren. Vergessen Sie es und wählen Sie in diesem Moment nur Farben aus, die Ihren Vorlieben entsprechen. Lassen Sie Ihren Untergeist die Arbeit erledigen.",
+        "DESC1_2": "Der Schlüssel zu diesem Testerfolg liegt darin, Farben auszuwählen, die Ihnen in diesem Moment gefallen. Versuchen Sie NICHT, Farben Objekten wie Autos, Kleidung, Gebäuden usw. zuzuordnen. Wählen Sie einfach die Farbe aus, die Ihnen in diesem bestimmten Moment am besten gefällt. Im Durchschnitt dauert es weniger als eine Minute, um zu den Ergebnissen zu gelangen.",
+        "HEAD2": "Warum funktioniert es?",
+        "DESC2_1": "Farben umgeben die Menschheit seit Anbeginn der Zeit, haben die Menschen über Generationen beeinflusst. Am Anfang wurde das menschliche Leben von zwei unkontrollierbaren Faktoren bestimmt: Tag und Nacht. Licht und Dunkelheit. Seit Tausenden von Jahren waren menschliche Handlungen wie Angriff (rot) oder Rückzug (grün) in das Unterbewusstsein eingebettet. Die Farben der Natur haben ihren Einfluss auf uns gehabt, und diese Einflüsse sind tief in unserem Unterbewusstsein verwurzelt. Farben und ihre unterbewusste Bedeutung sind da, ob wir wollen oder nicht. Diese Bedeutung ist unabhängig von Rasse, Sprache, Bildungsniveau, sozialem Status usw.",
+        "DESC2_2": "Aus diesem Grund ist ein Farbtest ein optimales Instrument zur Analyse von familiären Konflikten, persönlichen Lebensthemen, gelegentlichen Stimmungsschwankungen und sogar zur Durchführung forensisch-psychologischer Untersuchungen.",
+        "HEAD3": "Anwendungsfälle",
+        "DESC3_1": "Einige Organisationen verwenden Farbtests, um die Dynamik der Willens- und emotionalen Sphären von Sportlern sowohl während des Trainings als auch während des Wettkampfs zu kontrollieren. Dies ermöglicht dem Trainer, Ausfälle aufgrund der Erschöpfung der Energie- oder Willenskraft der Athleten im Voraus zu antizipieren und gezielt zu eliminieren.",
+        "DESC3_2": "Mehrere Quellen deuten darauf hin, dass einige Farbtests sogar in Fällen von fehlerhaftem Farbensehen oder sogar tatsächlicher Farbenblindheit funktionieren, da die Akzeptanz einer bestimmten Farbe somatisch ist. Wenn Sie sich von Anspannung oder Stress befreien müssen, wählen Sie instinktiv die dunkleren Farben. Wenn Energie abgeführt werden muss, werden instinktiv die helleren Farben verwendet.",
+        "HEAD4": "Gesichert und geladen",
+        "DESC4": "Datenschutz ist nicht etwas, worauf Sie nur Anspruch haben, sondern eine absolute Voraussetzung. Wir senden Ihre Daten nicht an unsere Server, geben sie nicht an Dritte weiter und werden niemals für Werbezwecke verwendet. Ihre Daten werden nur auf Ihrem Apple-Dienst (Apple Health Store und iCloud) gespeichert. Wir speichern Ihre Daten NICHT auf unseren Servern.",
+        "HEAD5": "HAFTUNGSAUSSCHLUSS",
+        "DESC5_1": "Alle Inhalte auf der Website martpsec.com und unseren mobilen Apps wurden nur zu Informationszwecken erstellt. Es ist nicht als Ersatz für professionelle medizinische Beratung, Diagnose oder Behandlung gedacht.",
+        "DESC5_2": "Die Nutzung unserer Software erfolgt ausschließlich auf eigene Gefahr. Es wird \"wie besehen\" und \"wie verfügbar\" bereitgestellt. Martspec übernimmt keine Garantie dafür, dass unsere Apps und/oder darin enthaltene Inhalte Ihren Anforderungen entsprechen oder ununterbrochen, zeitgerecht, sicher, aktuell, genau, vollständig oder fehlerfrei sind oder dass die Ergebnisse, die durch die Nutzung der Website erzielt werden können und/oder alle darin enthaltenen Inhalte korrekt oder zuverlässig sind. Sie verstehen und erkennen an, dass Ihr einziges und ausschließliches Rechtsmittel in Bezug auf Mängel oder Unzufriedenheit mit der App darin besteht, die Nutzung der App einzustellen."
     },
     "FOOTER": {
         "C": "Copyright © 2022 Martspec LLC. Alle Rechte vorbehalten.",
@@ -78,119 +175,6 @@
         "404_HEAD": "Seite nicht gefunden",
         "404_TEXT": "Diese Seite existiert nicht. Bitte stellen Sie sicher, dass Sie die richtige URL verwendet haben.",
         "404_BTN": "Hauptseite"
-    },
-    "PRODUCT": {
-        "P1": {
-            "ABOUT": "Elektrolyte spielen eine wichtige Rolle bei der Aufrechterhaltung der Homöostase im Körper. Sie helfen bei der Regulierung des Herzens und der neurologischen Funktion, des Flüssigkeitshaushalts, der Sauerstoffzufuhr, des Säure-Base-Gleichgewichts und vielem mehr. Verfolgen Sie die Elektrolytaufnahme mit der Apple Watch App.",
-            "HEAD1": "Magnesium",
-            "DESC1": "Reguliert den Herzrhythmus, die Nervenfunktion, die Muskelkontraktion, den Blutdruck und den Zuckerspiegel und ist an der Herstellung von Protein, Knochen und DNA beteiligt. Magnesiummangel führt zu Appetitlosigkeit, Übelkeit, Erbrechen, Müdigkeit und Schwäche; während hohe Werte Hypermagnesiämie verursachen können. ",
-            "HEAD2": "Kalzium",
-            "DESC2": "Hilft den Muskeln, sich zu bewegen, und den Nerven, Botschaften zwischen dem Gehirn und jedem Körperteil zu transportieren. Hilft Blutgefäßen, Blut durch den Körper zu bewegen. Beteiligt sich an der Freisetzung von Hormonen und Enzymen, die nahezu jede Funktion im menschlichen Körper beeinflussen. Etwa 99% der körpereigenen Kalziumversorgung wird in Knochen und Zähnen gespeichert. ",
-            "HEAD3": "Kalium",
-            "DESC3": "Wird für fast alles im Körper verwendet, einschließlich der richtigen Nieren- und Herzfunktion, Muskelkontraktion und Nervenübertragung. Kaliummangel kann den Blutdruck erhöhen und Kalzium in den Knochen verbrauchen. ",
-            "HEAD4": "Eisen",
-            "DESC4": "Ein wichtiger Bestandteil von Hämoglobin und Myoglobin, Proteinen, die Sauerstoff zu Körpergeweben und Muskeln transportieren. Rote Blutkörperchen enthalten mehr als die Hälfte des menschlichen Körpers Eisen. ",
-            "HEAD5": "Risiken",
-            "DESC5": "Elektrolytstörungen können entstehen, wenn zu wenig oder zu viel Elektrolyt verbraucht und zu wenig oder zu viel Elektrolyt ausgeschieden wird. "
-        },
-        "P2": {
-            "ABOUT": "Das Bodyweight Journal ist das perfekte Werkzeug, um die Effizienz Ihrer Übungen und die Motivation zum Erreichen des Ziels zu steigern. Alle Daten werden mit Apple Health synchronisiert und sicher in Ihrer iCloud gespeichert. Alles ist einfach und absolut kostenlos. Keine Anzeigen und keine In-App-Käufe.",
-            "HEAD1": "Rechenschaftspflicht",
-            "DESC1": "Wir haben eine Verantwortung für unsere Gesundheit. Niemand kann uns dazu bringen, Gewicht zu verlieren oder gesunde Lebensmittel zu wählen. Das müssen wir selbst entscheiden.",
-            "HEAD2": "Ehrlichkeit",
-            "DESC2": "Das Protokollieren unseres Gewichts macht es real. Während das seltsam klingt; Es ist echt. Dies sind Daten, aufgezeichnete Fakten. Sie sind real, ob wir sie aufnehmen oder nicht. ",
-            "HEAD3": "Engagement",
-            "DESC3": "Tägliches Protokollieren ist wichtig, es hält gesunde Gewohnheiten vor Augen. Jedes Mal, wenn wir einen Protokolleintrag machen, werden wir an unser Engagement für die Gesundheit erinnert. Das Überspringen eines Tages hier und da erleichtert das Überspringen von 2 Tagen und dann von 3 Tagen. Dann, bevor Sie es wissen, haben Sie aufgehört und sind zu Ihren alten Gewohnheiten zurückgekehrt.",
-            "HEAD4": "App-Funktionen",
-            "DESC4_1": "Apple Health Integration",
-            "DESC4_2": "Historie vergangener Aufnahmen mit der prozentualen Differenz",
-            "DESC4_3": "Alle Uhrengrößen, alle Watchface-Widget-Typen",
-            "DESC4_4": "iCloud-Backups",
-            "DESC4_5": "Funktioniert ohne iPhone",
-            "DESC4_6": "Minimalistischer Stil",
-            "DESC4_7": "Kostenlos, keine Anzeigen und keine In-App-Käufe"
-        },
-        "P3": {
-            "ABOUT": "Mit der Vitamin-App können Sie die Aufnahme wichtiger Vitamine direkt von Ihrem Handgelenk aus verfolgen, wenn Sie die Apple Watch sowie iPhone und iPad verwenden. Sie können Ihren Fortschritt im Laufe der Zeit sehen, Datensätze werden nach Monaten gruppiert und automatisch mit Ihrer Apple Health synchronisiert. Die App ist absolut kostenlos, hat keine Werbung und verwendet Ihre Daten nicht gewinnbringend.",
-            "HEAD1": "Ernährungsentscheidungen verbessern",
-            "DESC1": "Diese App ist ein ausgezeichneter Vitamin-Tracker, der Ihre Ernährung verbessern und gleichzeitig die Nährstoffziele anpassen kann.",
-            "HEAD2": "Nehmen Sie einen gesünderen Lebensstil an",
-            "DESC2": "Tragbare Aktivitäts-Tracker bieten vielversprechende Möglichkeiten, um Benutzern zu einem gesünderen Lebensstil zu verhelfen. ",
-            "HEAD3": "Vitamin A - Beta-Carotin",
-            "DESC3": "Wichtig für das normale Sehen, das Immunsystem und die Fortpflanzung. Hilft, dass Herz, Lunge, Nieren und andere Organe richtig funktionieren. ",
-            "HEAD4": "Vitamin C - Ascorbinsäure",
-            "DESC4": "Schützt die Zellen und hält sie gesund. Unterstützt Blutgefäße, Knochen und Knorpel. Wichtig für die Wundheilung t k hilft bei der Entwicklung von Bindegewebe, Regenerationsprozessen und Heilung. Gibt Widerstand gegen verschiedene Arten von Stress, die Gewährleistung des normalen immunologischen Status des Körpers und die Aufrechterhaltung der Prozesse der Hämatopoese. ",
-            "HEAD5": "Vitamin D",
-            "DESC5": "Reguliert die Menge an Kalzium und Phosphat im Körper. Diese Nährstoffe werden benötigt, um Knochen, Zähne und Muskeln gesund zu halten. Ein Mangel an Vitamin D kann bei Kindern zu Knochendeformitäten wie Rachitis und Knochenschmerzen führen, die durch eine als Osteomalazie bezeichnete Erkrankung bei Erwachsenen verursacht werden. ",
-            "HEAD6": "Vitamin E",
-            "DESC6": "Unterstützt die Gesundheit und Schönheit des Körpers beim Schutz vor schädlichen Umweltfaktoren. Wenn Zellen, Gewebe und Organe Vitamin E in ausreichender Menge erhalten, verringert sich das Risiko für viele Krankheiten, verlangsamt den Alterungsprozess. Insbesondere als starkes Antioxidans ist Vitamin E an der Bildung von Fasern beteiligt, die es der Haut ermöglichen, elastisch zu bleiben. ",
-            "HEAD7": "Vitamin B12 - Cobalamin",
-            "DESC7": "Bildung roter Blutkörperchen und Gesundheit des Nervengewebes. Helfen Sie dem Körper, Lebensmittel (Kohlenhydrate) in Kraftstoff (Glukose) umzuwandeln, der zur Energieerzeugung verwendet wird. ",
-            "HEAD8": "Vitamin B7 - Biotin",
-            "DESC8": "Hilft bei der Umwandlung von Nährstoffen in Energie und spielt eine wichtige Rolle für die Gesundheit von Haaren, Haut und Nägeln. ",
-            "HEAD9": "Vitamin B9 - Folsäure",
-            "DESC9": "Wird benötigt, um rote und weiße Blutkörperchen im Knochenmark zu bilden, Kohlenhydrate in Energie umzuwandeln und DNA und RNA zu produzieren. ",
-            "HEAD0": "Vitamin B3 - Niacin",
-            "DESC0": "Muss Lebensmittel in Energie umwandeln. Es hilft, Ihr Nervensystem, Ihr Verdauungssystem und Ihre Haut gesund zu halten. "
-        },
-        "P4": {
-            "ABOUT": "Einfach zu bedienender Taillenumfang-Tracker für die Apple Watch. Erfordert weder Accout noch Registrierung. Absolut frei. Alle Datensätze werden mit Ihrer Apple Health App synchronisiert und die letzten 7 Tage können direkt von Ihrem Handgelenk aus aufgerufen werden.",
-            "HEAD1": "Medizinische Tatsache",
-            "DESC1": "Wenn sich mehr Fett um Ihre Taille als um Ihre Hüften befindet, besteht ein höheres Risiko für Erkrankungen wie Herzerkrankungen und Typ-2-Diabetes. ",
-            "LINK1": "National Institutes of Health, USA",
-            "HEAD2": "Besser als BMI",
-            "LINK2": "Studie der American Heart Association",
-            "DESC2": " hat gezeigt, dass die Messung der Taille ein besserer Weg ist, um das Risiko von Herzerkrankungen vorherzusagen, als der weit verbreitete Body-Mass-Index.",
-            "HEAD3": "Körperzusammensetzung",
-            "DESC3": "Wenn Sie Muskeln aufbauen und Zentimeter Fett verlieren, ändert sich Ihr Gewicht möglicherweise nicht wesentlich. Deshalb kann die Körperzusammensetzung Ihnen mehr als die Skala erzählen, sie erzählt Ihnen die wahre Geschichte.",
-            "HEAD4": "Erhöhtes kardiovaskuläres Risiko",
-            "DESC4_1": "Männer: 102 cm oder mehr",
-            "DESC4_2": "Frauen: 88 cm oder mehr",
-            "DESC4_3": "Alle 5 cm Taillengröße erhöhen das Risiko bei Männern um 17% und bei Frauen um 13%, unabhängig vom BMI",
-            "DESC4_4": "Quelle: "
-        },
-        "P5": {
-            "ABOUT": "Einfach zu bedienender Ernährungszink-Tracker für Apple Watch. Auto Sync mit Apple Health erfordert keine Registrierung und absolut kostenlos.",
-            "HEAD1": "Altersbedingte Krankheiten",
-            "DESC1": "Zink kann Ihr Risiko von altersbedingten Erkrankungen wie Lungenentzündung, Infektion und altersbedingter Makuladegeneration (AMD) erheblich reduzieren. Es kann oxidativer Stress lindern und die Immunantwort verbessern, indem die Aktivität von T-Zellen und natürlichen Killerzellen stärkt, die dazu beitragen, Ihren Körper vor Infektionen zu schützen. Ältere Erwachsene, die mit Zinkerlebnis ergänzen, verbesserten die Influenza-Impfung, ein geringes Risiko der Lungenentzündung und die stärkste mentale Leistung.",
-            "LINK1": "Nationale Gesundheitsinstitute, USA",
-            "HEAD2": "Wundheilungsbeschleunigung.",
-            "DESC2": "Zink wird häufig in Krankenhäusern als Behandlung von Verbrennungen, bestimmten Geschwüren und anderen Hautverletzungen verwendet. Tatsächlich hält Ihre Haut einen relativ hohen Betrag - etwa 5% des Zinkgehalts Ihres Körpers.",
-            "LINK2": "Studie von American Heart Association",
-            "HEAD3": "Verringert Entzündungen",
-            "DESC3": "Verringert oxidativen Stress und verringert die Gewährleistung bestimmter entzündlicher Proteine in Ihrem Körper. Oxidativer Stress führt zu chronischen Entzündungen, ein beitragender Faktor in einer Vielzahl chronischer Erkrankungen, wie Herzkrankheiten, Krebs und geistiger Rückgang."
-        },
-        "P6": {
-            "ABOUT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Apple Watch. Auto berechnet die Körperform mithilfe der Bradley Bayou-Formel. Volle Unterstützung von Apple Health. iCloud-Backups. Schnelle Ladezeit. Absolut frei.",
-            "HEAD1": "Körperzusammensetzung",
-            "DESC1": "Wenn Sie Muskeln gewinnen und Zentimeter Fett verlieren, ändert sich Ihr Gewicht möglicherweise nicht viel. Deshalb kann die Körperkomposition Ihnen mehr als die Waage erzählen, er sagt Ihnen die wahre Geschichte.",
-            "LINK1": "Gesundheitslinie",
-            "HEAD2": "Brustf / Busen",
-            "DESC2": "Warum messen? Wir sind keinem medizinischen oder Wellnessbedürfnis dafür bewusst. Die Brust-Breite ist jedoch einer der wichtigsten Messungen perfekter Körperanteile. Es wird angenommen, dass korrekte Anteile attraktiver sind als die Gesamtgröße oder Höhe des Körpers.",
-            "HEAD3": "Taille",
-            "HEAD4": "Hüfte",
-            "DESC4": "Beweise zeigen, dass Fett um die Oberschenkel und Backside schwieriger ist, sich um die Taille zu verschieben, als Fett zu verschieben. Die Taillen-to-HIPS-Verhältnis wird üblicherweise als Indikator oder Gesundheitsmaß verwendet, und das Risiko, ernsthafte Gesundheitszustände zu entwickeln.",
-            "HEAD5": "Körperform",
-            "DESC5": "Ist Ihre Körperform ein Apfel 🍎 oder eine Birne 🍐? Oder vielleicht eine Sanduhr? Ihre wahre Körperform herauszufinden ist mehr als nur einer dieser sinnlosen Online-Tests. Das Verständnis Ihrer Körperform kann Ihnen helfen, das effektivste Training zu finden. Studien deuten darauf hin, dass es helfen kann, Ihre Gesundheit zu verbessern."
-        },
-        "P7": {
-            "ABOUT_1": "Stress 😠, Angst 😬, Depressionen ☹️ oder plötzliche Stimmungsschwankungen? Aktuelle wirtschaftliche, politische und soziale Ereignisse tragen viel zu unserem Stresslevel bei und viele Menschen erleben sogar am selben Tag Stimmungsschwankungen.",
-            "ABOUT_2": "Die allgemeine Unsicherheit über unsere Position und was als nächstes zu erwarten ist, die Unfähigkeit vorherzusagen, was uns in der Zukunft erwarten wird, wirkt sich negativ auf unsere Stimmung aus. Diese Ungewissheit scheint eine neue Norm in unserem Leben zu sein.",
-            "HEAD1": "Wie funktioniert es?",
-            "DESC1_1": "Sehen Sie sich den farbigen Ring an und wählen Sie eine Farbe aus, die Ihnen am besten gefällt. Es sind noch 7 Farben übrig. Wählen Sie aus den 7 Farben die aus, die Ihnen jetzt am besten gefällt, und so weiter, bis Ihnen die Farben ausgehen. Als nächstes wiederholen Sie die obige Routine. Wenn Sie es wiederholen, versuchen Sie nicht, die vorherige Auswahl zu reproduzieren. Vergessen Sie es und wählen Sie in diesem Moment nur Farben aus, die Ihren Vorlieben entsprechen. Lassen Sie Ihren Untergeist die Arbeit erledigen.",
-            "DESC1_2": "Der Schlüssel zu diesem Testerfolg liegt darin, Farben auszuwählen, die Ihnen in diesem Moment gefallen. Versuchen Sie NICHT, Farben Objekten wie Autos, Kleidung, Gebäuden usw. zuzuordnen. Wählen Sie einfach die Farbe aus, die Ihnen in diesem bestimmten Moment am besten gefällt. Im Durchschnitt dauert es weniger als eine Minute, um zu den Ergebnissen zu gelangen.",
-            "HEAD2": "Warum funktioniert es?",
-            "DESC2_1": "Farben umgeben die Menschheit seit Anbeginn der Zeit, haben die Menschen über Generationen beeinflusst. Am Anfang wurde das menschliche Leben von zwei unkontrollierbaren Faktoren bestimmt: Tag und Nacht. Licht und Dunkelheit. Seit Tausenden von Jahren waren menschliche Handlungen wie Angriff (rot) oder Rückzug (grün) in das Unterbewusstsein eingebettet. Die Farben der Natur haben ihren Einfluss auf uns gehabt, und diese Einflüsse sind tief in unserem Unterbewusstsein verwurzelt. Farben und ihre unterbewusste Bedeutung sind da, ob wir wollen oder nicht. Diese Bedeutung ist unabhängig von Rasse, Sprache, Bildungsniveau, sozialem Status usw.",
-            "DESC2_2": "Aus diesem Grund ist ein Farbtest ein optimales Instrument zur Analyse von familiären Konflikten, persönlichen Lebensthemen, gelegentlichen Stimmungsschwankungen und sogar zur Durchführung forensisch-psychologischer Untersuchungen.",
-            "HEAD3": "Anwendungsfälle",
-            "DESC3_1": "Einige Organisationen verwenden Farbtests, um die Dynamik der Willens- und emotionalen Sphären von Sportlern sowohl während des Trainings als auch während des Wettkampfs zu kontrollieren. Dies ermöglicht dem Trainer, Ausfälle aufgrund der Erschöpfung der Energie- oder Willenskraft der Athleten im Voraus zu antizipieren und gezielt zu eliminieren.",
-            "DESC3_2": "Mehrere Quellen deuten darauf hin, dass einige Farbtests sogar in Fällen von fehlerhaftem Farbensehen oder sogar tatsächlicher Farbenblindheit funktionieren, da die Akzeptanz einer bestimmten Farbe somatisch ist. Wenn Sie sich von Anspannung oder Stress befreien müssen, wählen Sie instinktiv die dunkleren Farben. Wenn Energie abgeführt werden muss, werden instinktiv die helleren Farben verwendet.",
-            "HEAD4": "Gesichert und geladen",
-            "DESC4": "Datenschutz ist nicht etwas, worauf Sie nur Anspruch haben, sondern eine absolute Voraussetzung. Wir senden Ihre Daten nicht an unsere Server, geben sie nicht an Dritte weiter und werden niemals für Werbezwecke verwendet. Ihre Daten werden nur auf Ihrem Apple-Dienst (Apple Health Store und iCloud) gespeichert. Wir speichern Ihre Daten NICHT auf unseren Servern.",
-            "HEAD5": "HAFTUNGSAUSSCHLUSS",
-            "DESC5_1": "Alle Inhalte auf der Website martpsec.com und unseren mobilen Apps wurden nur zu Informationszwecken erstellt. Es ist nicht als Ersatz für professionelle medizinische Beratung, Diagnose oder Behandlung gedacht.",
-            "DESC5_2": "Die Nutzung unserer Software erfolgt ausschließlich auf eigene Gefahr. Es wird \"wie besehen\" und \"wie verfügbar\" bereitgestellt. Martspec übernimmt keine Garantie dafür, dass unsere Apps und/oder darin enthaltene Inhalte Ihren Anforderungen entsprechen oder ununterbrochen, zeitgerecht, sicher, aktuell, genau, vollständig oder fehlerfrei sind oder dass die Ergebnisse, die durch die Nutzung der Website erzielt werden können und/oder alle darin enthaltenen Inhalte korrekt oder zuverlässig sind. Sie verstehen und erkennen an, dass Ihr einziges und ausschließliches Rechtsmittel in Bezug auf Mängel oder Unzufriedenheit mit der App darin besteht, die Nutzung der App einzustellen."
-        }
     },
     "MISSION": {
         "HEAD": "Mission",
@@ -228,83 +212,82 @@
                 },
                 "APP": {
                     "STRONG": "Bewerbung",
-                     "P1": " bezieht sich auf eine unserer mobilen Anwendungen, die auf diese Richtlinie verweist oder verweist und für Smartphones, Wearables, Tablets oder Computer bestimmt ist."
+                    "P1": " bezieht sich auf eine unserer mobilen Anwendungen, die auf diese Richtlinie verweist oder verweist und für Smartphones, Wearables, Tablets oder Computer bestimmt ist."
                 },
-                "BUSINESS":{
+                "BUSINESS": {
                     "STRONG": "Geschäftlich",
                     "P1": " für die Zwecke des \"CCPA\" (Kalifornisches Verbraucherschutzgesetz) bezieht sich auf das Unternehmen als die Einheit, die die personenbezogenen Daten der Verbraucher sammelt und die Zwecke und Mittel der Verarbeitung der personenbezogenen Daten der Verbraucher festlegt, oder auf deren Grundlage dass diese Informationen gesammelt werden, und dass allein oder gemeinsam mit anderen die Zwecke und Mittel der Verarbeitung der personenbezogenen Daten von Verbrauchern bestimmt, die im US-Bundesstaat Kalifornien geschäftlich tätig sind."
                 },
-                "COMPANY":{
+                "COMPANY": {
                     "STRONG": "Unternehmen",
                     "P1": " (im Folgenden in dieser Vereinbarung als das \"Unternehmen\", \"wir\", \"uns\" oder \"unser\" bezeichnet) bezieht sich auf Martspec LLC, Austin, TX 78749."
                 },
-                "CONSUMER":{
+                "CONSUMER": {
                     "STRONG": "Verbraucher",
                     "P1": " bezeichnet für die Zwecke des \"CCPA\" (California Consumer Privacy Act) eine Person, die in Kalifornien ansässig ist. Ein Einwohner im Sinne des Gesetzes ist (1) jede Person, die sich im Vereinigten Staaten nicht vorübergehend oder zu vorübergehenden Zwecken, und (2) jede in den USA ansässige Person, die sich zu einem vorübergehenden oder vorübergehenden Zweck außerhalb der USA aufhält."
                 },
-                "COOKIES":{
+                "COOKIES": {
                     "STRONG": "\"Cookies\"",
                     "P1": " (dies sind kleine Dateien, die von einer Website auf Ihrem Computer, Mobilgerät oder einem anderen Gerät abgelegt werden und unter anderem Informationen über Ihren Browserverlauf auf dieser Website enthalten."
                 },
-                "COUNTRY":{
+                "COUNTRY": {
                     "STRONG": "Land",
                     "P1": " gilt für: Texas, USA"
                 },
-                "DEVICE":{
+                "DEVICE": {
                     "STRONG": "Gerät",
                     "P1": " bedeutet jedes Gerät, das auf den Dienst zugreifen kann, wie z. B. ein Computer, ein Mobiltelefon oder ein digitales Tablet."
                 },
-                "PERSONAL_DATA":{
+                "PERSONAL_DATA": {
                     "STRONG": "Persönliche Daten",
                     "P1": " alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.",
                     "P2": " Für die Zwecke des \"CCPA\" sind personenbezogene Daten alle Informationen, die Sie identifizieren, sich auf Sie beziehen, beschreiben oder mit Ihnen in Verbindung stehen können oder vernünftigerweise direkt oder indirekt mit Ihnen verknüpft werden können."
                 },
-                "SALE":{
+                "SALE": {
                     "STRONG": "Ausverkauf",
                     "P1": " für die Zwecke des \"CCPA\" (California Consumer Privacy Act) bezeichnet den Verkauf, die Vermietung, die Freigabe, die Offenlegung, den Vertrieb, die Bereitstellung, die Übertragung oder andere Kommunikation, ob mündlich, schriftlich, elektronisch oder auf andere Weise, der personenbezogenen Daten eines Verbrauchers an eine andere Person, ein Unternehmen oder einen Dritten gegen eine finanzielle oder andere geldwerte Gegenleistung."
                 },
-                "SERVICE":{
+                "SERVICE": {
                     "STRONG": "Dienst",
                     "P1": " bezieht sich auf unsere Website, App und andere damit verbundene Dienste, einschließlich Verkäufe, Marketing oder Veranstaltungen."
                 },
-                "SERVICE_PROVIDER":{
+                "SERVICE_PROVIDER": {
                     "STRONG": "Dienstanbieter",
                     "P1": " bezeichnet jede natürliche oder juristische Person, die Daten im Namen des Unternehmens verarbeitet. Dies bezieht sich auf Drittunternehmen oder Einzelpersonen, die vom Unternehmen beschäftigt werden, um den Service zu erleichtern, den Service im Namen des Unternehmens bereitzustellen und Dienstleistungen zu erbringen im Zusammenhang mit dem Dienst oder um dem Unternehmen bei der Analyse der Nutzung des Dienstes zu helfen."
                 },
-                "THIRD_PARTY_MEDIA":{
+                "THIRD_PARTY_MEDIA": {
                     "STRONG": "Social Media-Dienst von Drittanbietern",
                     "P1": " bezieht sich auf jede Website oder Website eines sozialen Netzwerks, über die sich der Benutzer anmelden oder ein Konto erstellen kann, um den Service zu nutzen."
                 },
-                "USAGE_DATA":{
+                "USAGE_DATA": {
                     "STRONG": "Nutzungsdaten",
                     "P1": " bezieht sich auf automatisch gesammelte Daten, die entweder bei der Nutzung des Dienstes oder von der Infrastruktur des Dienstes selbst generiert werden (z. B. die Dauer eines Seitenbesuchs)."
                 },
-                "WEBSITE":{
+                "WEBSITE": {
                     "STRONG": "Website",
                     "P1": " bezieht sich auf die Martspec, die von verfügbar ist ",
                     "A": "https://martspec.com/"
                 },
-                "YOU":{
+                "YOU": {
                     "STRONG": "Du",
                     "P1": " bedeutet die Person, die auf den Dienst zugreift oder ihn nutzt, oder das Unternehmen oder eine andere juristische Person, in deren Namen diese Person auf den Dienst zugreift oder ihn nutzt, je nach Fall."
                 }
             }
         },
-
         "TYPES_OF_DATA": {
             "HEAD4": "Arten der erhobenen Daten",
-             "HEAD5": {
+            "HEAD5": {
                 "PERSONAL_DATA": "Persönliche Daten",
                 "USAGE_DATA": "Nutzungsdaten",
                 "INFORMATION_COLLECTED": "Mit unserer Anwendung auf Ihrem Gerät erfasste Informationen"
-             },
-             "P1": "Bei der Nutzung unseres Dienstes können wir Sie bitten, uns bestimmte personenbezogene Daten zur Verfügung zu stellen, die verwendet werden können, um Sie zu kontaktieren oder zu identifizieren. Zu den personenbezogenen Daten können unter anderem gehören:",
-             "P2": "Nutzungsdaten werden automatisch erhoben, wenn Sie den Service nutzen.",
-             "P3": "Nutzungsdaten können Informationen wie die Internetprotokolladresse Ihres Geräts (z. B. IP-Adresse), den Browsertyp, die Browserversion, die von Ihnen besuchten Seiten unseres Dienstes, die Uhrzeit und das Datum Ihrer Besuche sowie die dafür verbrachte Zeit enthalten Seiten, eindeutige Gerätekennungen und andere Diagnosedaten.",
-             "P4": "Wenn Sie von oder über ein mobiles Gerät auf den Dienst zugreifen, erfassen wir möglicherweise automatisch bestimmte Informationen, einschließlich, aber nicht beschränkt auf den Typ des von Ihnen verwendeten mobilen Geräts, die eindeutige Kennung Ihres mobilen Geräts, die IP Ihres mobilen Geräts Adresse, Ihr mobiles Betriebssystem, Typ des von Ihnen verwendeten mobilen Internetbrowsers, eindeutige Gerätekennungen und andere Diagnosedaten.",
-             "P5": "Wir können auch Informationen sammeln, die Ihr Browser sendet, wenn Sie unseren Service besuchen oder wenn Sie von oder über ein mobiles Gerät auf den Service zugreifen.",
-             "P6": "Wir können Zugriff oder Berechtigungen für bestimmte Funktionen Ihres Geräts anfordern, einschließlich der Funktionen Ihres Mobilgeräts und anderer Funktionen. Wenn Sie unseren Zugriff oder unsere Berechtigungen ändern möchten, können Sie dies in Ihren Geräteeinstellungen tun. Diese Informationen sind in erster Linie für die Sicherheit und den Betrieb unserer App, für die Fehlerbehebung und für unsere internen Analysen und Berichte erforderlich.",
-             "UL1": {
+            },
+            "P1": "Bei der Nutzung unseres Dienstes können wir Sie bitten, uns bestimmte personenbezogene Daten zur Verfügung zu stellen, die verwendet werden können, um Sie zu kontaktieren oder zu identifizieren. Zu den personenbezogenen Daten können unter anderem gehören:",
+            "P2": "Nutzungsdaten werden automatisch erhoben, wenn Sie den Service nutzen.",
+            "P3": "Nutzungsdaten können Informationen wie die Internetprotokolladresse Ihres Geräts (z. B. IP-Adresse), den Browsertyp, die Browserversion, die von Ihnen besuchten Seiten unseres Dienstes, die Uhrzeit und das Datum Ihrer Besuche sowie die dafür verbrachte Zeit enthalten Seiten, eindeutige Gerätekennungen und andere Diagnosedaten.",
+            "P4": "Wenn Sie von oder über ein mobiles Gerät auf den Dienst zugreifen, erfassen wir möglicherweise automatisch bestimmte Informationen, einschließlich, aber nicht beschränkt auf den Typ des von Ihnen verwendeten mobilen Geräts, die eindeutige Kennung Ihres mobilen Geräts, die IP Ihres mobilen Geräts Adresse, Ihr mobiles Betriebssystem, Typ des von Ihnen verwendeten mobilen Internetbrowsers, eindeutige Gerätekennungen und andere Diagnosedaten.",
+            "P5": "Wir können auch Informationen sammeln, die Ihr Browser sendet, wenn Sie unseren Service besuchen oder wenn Sie von oder über ein mobiles Gerät auf den Service zugreifen.",
+            "P6": "Wir können Zugriff oder Berechtigungen für bestimmte Funktionen Ihres Geräts anfordern, einschließlich der Funktionen Ihres Mobilgeräts und anderer Funktionen. Wenn Sie unseren Zugriff oder unsere Berechtigungen ändern möchten, können Sie dies in Ihren Geräteeinstellungen tun. Diese Informationen sind in erster Linie für die Sicherheit und den Betrieb unserer App, für die Fehlerbehebung und für unsere internen Analysen und Berichte erforderlich.",
+            "UL1": {
                 "EMAIL": "E-Mail-Adresse",
                 "FIRST_LAST_NAMES": "Vor- und Nachname",
                 "USAGE_DATA": "Nutzungsdaten"
@@ -324,7 +307,6 @@
                 }
             }
         },
-
         "TRACKING": {
             "HEAD4": "Tracking-Technologien",
             "HEAD5": "Verwaltung der Funktionen \"DO-NOT-TRACK\"",
@@ -349,7 +331,6 @@
                 }
             }
         },
-
         "PERSONAL_DATA": {
             "USE": {
                 "HEAD4": "Verwendung Ihrer personenbezogenen Daten",
@@ -450,15 +431,13 @@
             },
             "SECURITY": {
                 "HEAD4": "Sicherheit Ihrer personenbezogenen Daten",
-                 "P": "Die Sicherheit Ihrer personenbezogenen Daten ist uns wichtig, aber denken Sie daran, dass keine Übertragungsmethode über das Internet oder elektronische Speichermethode 100 % sicher ist. wir können ihre absolute Sicherheit nicht garantieren."
+                "P": "Die Sicherheit Ihrer personenbezogenen Daten ist uns wichtig, aber denken Sie daran, dass keine Übertragungsmethode über das Internet oder elektronische Speichermethode 100 % sicher ist. wir können ihre absolute Sicherheit nicht garantieren."
             }
         },
-
         "CHILD": {
             "HEAD4": "Kinder unter dreizehn",
             "P": "Wir erfassen wissentlich keine personenbezogenen Daten von Kindern unter dreizehn Jahren. Wenn Sie unter dreizehn Jahre alt sind, müssen Sie \n Ihre Eltern oder Ihren Vormund um Erlaubnis bitten, diesen Dienst oder eine unserer mobilen Anwendungen zu nutzen ."
         },
-
         "RIGHTS": {
             "HEAD4": "Welche Datenschutzrechte haben Sie?",
             "HEAD5": "Kontoinformationen",
@@ -474,7 +453,6 @@
             },
             "P5": "Wenn Sie Ihre Kontoinformationen überprüfen oder ändern oder Ihr Konto jederzeit kündigen möchten, haben Sie folgende Möglichkeiten:\nGehen Sie zu Ihren Kontoeinstellungen und aktualisieren Sie Ihr Benutzerkonto.\nAuf Ihren Wunsch hin, Ihr Konto zu löschen, werden wir Ihr Konto deaktivieren oder entfernen und Informationen aus unseren aktiven Datenbanken. Wir können jedoch einige Informationen in unseren Dateien aufbewahren, um Betrug zu verhindern, Probleme zu beheben, bei Ermittlungen zu helfen, unsere Nutzungsbedingungen durchzusetzen und/oder geltende gesetzliche Anforderungen zu erfüllen."
         },
-
         "CCPA": {
             "HEAD4": {
                 "CCPA": "\"CCPA\" Vertraulichkeit",
@@ -563,19 +541,16 @@
                 "L4": "Sie können ein Opt-out für den zukünftigen Verkauf Ihrer personenbezogenen Daten an Dritte beantragen. Nach Erhalt einer Opt-out-Anfrage werden wir der Anfrage so schnell wie möglich nachkommen, jedoch nicht später als 15 Tage ab dem Datum der Anfrage."
             }
         },
-
         "LINK": {
             "HEAD4": "Links zu anderen Websites",
-             "P1": "Unser Service kann Links zu anderen Websites enthalten, die wir nicht betreiben. Wenn Sie auf einen Link eines Drittanbieters klicken, werden Sie auf die Website dieses Drittanbieters weitergeleitet. Wir empfehlen Ihnen dringend, die Datenschutzrichtlinie des jeweiligen Drittanbieters zu lesen Website, die Sie besuchen.",
-             "P2": "Wir haben keine Kontrolle über und sind nicht verantwortlich für den Inhalt, die Datenschutzrichtlinien oder Praktiken von Websites oder Diensten Dritter."
+            "P1": "Unser Service kann Links zu anderen Websites enthalten, die wir nicht betreiben. Wenn Sie auf einen Link eines Drittanbieters klicken, werden Sie auf die Website dieses Drittanbieters weitergeleitet. Wir empfehlen Ihnen dringend, die Datenschutzrichtlinie des jeweiligen Drittanbieters zu lesen Website, die Sie besuchen.",
+            "P2": "Wir haben keine Kontrolle über und sind nicht verantwortlich für den Inhalt, die Datenschutzrichtlinien oder Praktiken von Websites oder Diensten Dritter."
         },
-
         "CHANGES": {
             "HEAD4": "Änderungen an dieser Datenschutzrichtlinie",
             "P1": "Wir können unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Eine aktualisierte Version wird mit einem aktualisierten \"Zuletzt aktualisiert\"-Datum gekennzeichnet und die aktualisierte Version tritt in Kraft, sobald sie verfügbar ist.",
             "P2": "Sie werden ermutigt, diese Datenschutzrichtlinie regelmäßig auf Änderungen zu überprüfen. Änderungen an dieser Datenschutzrichtlinie treten in Kraft, wenn sie auf dieser Seite veröffentlicht werden."
         },
-
         "CONTACT": {
             "HEAD4": "Kontaktieren Sie uns",
             "TEXT": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, können Sie uns kontaktieren:",
