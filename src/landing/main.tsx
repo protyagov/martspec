@@ -44,7 +44,7 @@ export default function LandingPage() {
             <section className="rr-s-product my-5">
                 <div className="row ms-s-offset">
                     <div className="col-md-4">
-                        <IronImage imgLo="/img/p_bodysize.64.webp" imgHi="/img/p_bodysize.512.webp" text={_("SIZE.IMG")} h={540} w={540} />
+                        <IronImage imgLo="/img/bodysize.64.webp" imgHi="/img/bodysize.512.webp" i18n={true} text={_("SIZE.IMG")} h={540} w={540} />
                     </div>
 
                     <div className="col-md-6 align-self-center">
