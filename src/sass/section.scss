@@ -44,14 +44,12 @@
 
   &:before {
     content: "";
-    background-image: url("https://martspec.com/img/logo4.512.webp");
-    background-size: cover;
+    background: linear-gradient(rgba(162, 205, 236, 0.17), rgba(74, 145, 196, 0));
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.1;
   }
 }
 
