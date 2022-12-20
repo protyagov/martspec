@@ -11,10 +11,13 @@ export default function LandingPage() {
             <NavBarLang />
 
             <section id="header" className="ms-s-header">
-                <div className="text-vertical-center">
-                    <img src="/img/logo.512.webp" height={64} width={64} className="mx-auto img-fluid" alt={_("MAIN.HEAD")} />
+                <div className="row ms-s-offset text-center">
+									<div className="col-auto">
+										<img src="/img/header_screens.webp" className="mx-auto img-fluid" alt={_("MAIN.HEAD")} />
                     <h1>{_('MAIN.HEAD')}</h1>
                     <h4>{_("MAIN.SUBHEAD")}</h4>
+										<img src="/img/header_watches.webp" className="d-block float-end float-sm-start watches-img" alt={_("MAIN.IMG")} />
+									</div>
                 </div>
             </section>
 
