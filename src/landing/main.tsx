@@ -41,15 +41,23 @@ export default function LandingPage() {
             </section>
 
 
-            <section className="rr-s-product my-5">
-                <div className="row ms-s-offset">
-                    <div className="col-md-4">
+            <section className="rr-s-product">
+                <div className="row ms-s-offset align-items-center">
+
+                    <div className="col-md-4 order-sm-1">
+                        <h1 className="d-block d-md-none">
+                            <img src="/img/size_logo.svg" className="img-fluid mb-2 me-3" width={48} />
+                            {_("SIZE.HEAD")}
+                        </h1>
                         <IronImage imgLo="/img/bodysize.64.webp" imgHi="/img/bodysize.512.webp" i18n={true} text={_("SIZE.IMG")} h={540} w={540} />
                     </div>
 
-                    <div className="col-md-6 align-self-center">
+                    <div className="col-md-6 align-self-center order-last order-md-1">
+                        <h1 className="d-none d-md-block">
+                            <img src="/img/size_logo.svg" className="img-fluid mb-2 me-3" width={48} />
+                            {_("SIZE.HEAD")}
+                        </h1>
                         <p className="mt-2">{_("SIZE.SUBHEAD")}</p>
-                        <h1>{_("SIZE.HEAD")}</h1>
                         <h2>{_("SIZE.TEXT")}</h2>
                         <a href={Locale.i18nLink("bodysize")} className="mt-3 rr-btn-large pull-right">{_("SIZE.BTN")}</a>
                     </div>
