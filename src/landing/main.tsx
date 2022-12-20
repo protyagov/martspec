@@ -23,7 +23,7 @@ export default function LandingPage() {
                 <div className="row ms-s-offset align-items-center">
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <h1 className="d-none d-md-block">
-                            <img src="/img/vitamin_logo.svg" className="img-fluid mb-2 me-3" width={48} />
+                            <img src="/img/logo_vitamin.svg" className="img-fluid mb-2 me-3" width={48} />
                             {_("VITAMIN.HEAD")}
                         </h1>
                         <p className="mt-2">{_("VITAMIN.SUBHEAD")}</p>
@@ -32,7 +32,7 @@ export default function LandingPage() {
                     </div>
                     <div className="col-md-4 order-sm-1">
                         <h1 className="d-block d-md-none">
-                            <img src="/img/vitamin_logo.svg" className="img-fluid mb-2 me-3" width={48} />
+                            <img src="/img/logo_vitamin.svg" className="img-fluid mb-2 me-3" width={48} />
                             {_("VITAMIN.HEAD")}
                         </h1>
                         <IronImage imgLo="/img/vitamin.64.webp" imgHi="/img/vitamin.512.webp" i18n={true} text={_("VITAMIN.IMG")} h={540} w={540} />
@@ -46,7 +46,7 @@ export default function LandingPage() {
 
                     <div className="col-md-4 order-sm-1">
                         <h1 className="d-block d-md-none">
-                            <img src="/img/size_logo.svg" className="img-fluid mb-2 me-3" width={48} />
+                            <img src="/img/logo_size.svg" className="img-fluid mb-2 me-3" width={48} />
                             {_("SIZE.HEAD")}
                         </h1>
                         <IronImage imgLo="/img/bodysize.64.webp" imgHi="/img/bodysize.512.webp" i18n={true} text={_("SIZE.IMG")} h={540} w={540} />
@@ -54,7 +54,7 @@ export default function LandingPage() {
 
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <h1 className="d-none d-md-block">
-                            <img src="/img/size_logo.svg" className="img-fluid mb-2 me-3" width={48} />
+                            <img src="/img/logo_size.svg" className="img-fluid mb-2 me-3" width={48} />
                             {_("SIZE.HEAD")}
                         </h1>
                         <p className="mt-2">{_("SIZE.SUBHEAD")}</p>
