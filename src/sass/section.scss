@@ -15,28 +15,28 @@
 //---------------------------------------------------------------------------------------------------------------------
 .ms-s-header {
   @extend .rr-s;
-	padding-top: 5vmin;
-	padding-bottom: 15vmin;
+  padding-top: 5vmin;
+  padding-bottom: 15vmin;
 
   h1 {
     font-family: days-one;
-		font-size: 3rem;
-		padding-bottom: 2vmin;
+    font-size: 3rem;
+    padding-bottom: 2vmin;
 
     @media only screen and (max-width: ($pw-screen-sm - 1)) {
       font-size: 2rem;
-			padding-bottom: 1vmin;
+      padding-bottom: 1vmin;
     }
   }
 
   h4 {
     color: $cl-color-text-h4;
     font-size: 2rem;
-		padding-bottom: 2vmin;
+    padding-bottom: 2vmin;
 
-		@media only screen and (max-width: ($pw-screen-sm - 1)) {
-			font-size: 1.4rem;
-		}
+    @media only screen and (max-width: ($pw-screen-sm - 1)) {
+      font-size: 1.4rem;
+    }
   }
 
 
@@ -50,13 +50,13 @@
     left: 0px;
   }
 
-	.watches-img {
-		transform: translateX(-10vmin);
-	
-		@media screen and (max-width: ($pw-screen-sm - 1)) {
-			transform: translateX(5vmin);
-		}
-	}
+  .watches-img {
+    transform: translateX(-10vmin);
+
+    @media screen and (max-width: ($pw-screen-sm - 1)) {
+      transform: translateX(5vmin);
+    }
+  }
 }
 
 
