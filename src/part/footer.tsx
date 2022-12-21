@@ -17,10 +17,10 @@ export function LanguageSwitcher() {
 export const Footer = () =>
     <footer>
         <div className="container">
-            <div className="col-sm-12 col-md-10">
+
                 <div className="row">
 
-                    <div className="col-md-10 col-12">
+                    <div className="col-md-9">
                         <div className="d-flex justify-content-evenly my-5">
                             <div className="col">
                                 <div className="d-flex flex-column">
@@ -47,16 +47,18 @@ export const Footer = () =>
                         </div>
                     </div>
 
-                    <div className="col-md-2 col-12">
-                        <div className="d-flex flex-md-column flex-sm-row-reverse icon-container">
+                    <div className="col-md-3">
+                        <div className="d-flex flex-sm-row flex-row-reverse flex-sm-row-reverse flex-md-column icon-container justify-content-center">
 
-                            <a href={`https://apps.apple.com/${_("APPSTORE")}/developer/martspec-llc/id1506250419`}
-                                target="_blank" title={_("MAIN.P1.DWN")}
-                                className="ms-btn-apple mb-5 float-md-right text-center"
-                                style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                            </a>
+                            <div className="text-center">
+                                <a href={`https://apps.apple.com/${_("APPSTORE")}/developer/martspec-llc/id1506250419`}
+                                    target="_blank" title={_("MAIN.P1.DWN")}
+                                    className="ms-btn-apple float-md-right"
+                                    style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)'}}>
+                                </a>
+                            </div>
 
-                            <div className="d-flex flex-row-reverse">
+                            <div className="d-flex flex-row-reverse justify-content-center mt-md-5">
                                 <a className="social-icon" href="https://www.facebook.com/martspec" target="_blank" rel="noopener" aria-label="">
                                     <svg viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z" /></svg>
                                 </a>
@@ -78,10 +80,9 @@ export const Footer = () =>
 
                 </div>
 
-            </div>
-
-
         </div>
+
+        {/* overflow from the following items creates white space and scroll bar */}
 
         <div className="row">
             <hr />
@@ -92,5 +93,6 @@ export const Footer = () =>
                 One of three columns
             </span>
         </div>
+
         <br />
     </footer >
