@@ -1,10 +1,14 @@
 footer {
+    overflow: hidden;
     background-color: $pw-color-side-bar; //$brand-overlay-color;
     width: 100%;
     color: white;
 
     h2{
         font-size: 1.5rem;
+        @media only screen and (max-width: ($pw-screen-sm)) {
+            font-size: 1.2rem;
+        }
     }
 
     .text-center {
@@ -30,6 +34,10 @@ footer {
             color: #79B6F2;
             text-decoration: underline;
         }
+
+        @media only screen and (max-width: ($pw-screen-sm)) {
+            font-size: 1.2rem;
+        }
     }
 
     p {
@@ -44,6 +52,12 @@ footer {
 
         &:hover {
             color: #fafafa;
+        }
+    }
+
+    .list-container{
+        @media only screen and (max-width: ($pw-screen-sm)) {
+            padding-right: 0.5rem;
         }
     }
 

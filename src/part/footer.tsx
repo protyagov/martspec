@@ -23,7 +23,7 @@ export const Footer = () =>
                     <div className="col-md-9">
                         <div className="d-flex justify-content-evenly my-5">
                             <div className="col">
-                                <div className="d-flex flex-column">
+                                <div className="d-flex flex-column list-container">
                                     <h2 className="mb-4"> {_("PP.HEAD")} </h2>
                                     <a className="footer-link mb-1"> О Нас </a>
                                     <a className="footer-link mb-1"> О Компании </a>
@@ -33,7 +33,7 @@ export const Footer = () =>
                             </div>
 
                             <div className="col">
-                                <div className="d-flex flex-column">
+                                <div className="d-flex flex-column list-container">
                                     <h2 className="mb-4"> Наши Приложения </h2>
                                     <a className="footer-link mb-1"> Витамины </a>
                                     <a className="footer-link mb-1"> Фигура </a>
@@ -82,16 +82,12 @@ export const Footer = () =>
 
         </div>
 
-        {/* overflow from the following items creates white space and scroll bar */}
-
         <div className="row">
             <hr />
         </div>
 
         <div className="row justify-content-center">
-            <span className="mx-auto" style={{"width": "200px"}}>
-                One of three columns
-            </span>
+            <p className="mx-auto" style={{"width": "300px"}}> {_("FOOTER.C")} </p>
         </div>
 
         <br />
