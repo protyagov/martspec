@@ -3,6 +3,10 @@ footer {
     width: 100%;
     color: white;
 
+    h2{
+        font-size: 1.5rem;
+    }
+
     .text-center {
         margin-right: 0;
     }
@@ -10,7 +14,7 @@ footer {
     .social-icon svg {
         width: 1.8rem;
         height: 1.8rem;
-        margin-right: 1.5rem;
+        margin-right: 1rem;
         fill: #fff;
     }
 
@@ -18,6 +22,7 @@ footer {
         font-size: 1.5rem;
         font-family: os3;
         color: white;
+        width: max-content;
 
         &:hover {
             cursor: pointer;
@@ -38,6 +43,14 @@ footer {
 
         &:hover {
             color: #fafafa;
+        }
+    }
+
+    .icon-container{
+        margin-top: 7rem;
+
+        @media only screen and (max-width: ($pw-screen-md)) {
+            margin-top: 5rem;
         }
     }
 }
