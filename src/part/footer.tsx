@@ -87,7 +87,7 @@ export const Footer = () =>
         </div>
 
         <div className="row justify-content-center">
-            <p className="mx-auto" style={{"width": "300px"}}> {_("FOOTER.C")} </p>
+            <p className="mx-auto" style={{width: "auto", color: "#CFD3D4"}}> {_("FOOTER.C")} </p>
         </div>
 
         <br />
