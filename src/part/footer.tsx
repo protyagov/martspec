@@ -48,7 +48,7 @@ export const Footer = () =>
                     </div>
 
                     <div className="col-md-3">
-                        <div className="d-flex flex-sm-row flex-row-reverse flex-sm-row-reverse flex-md-column icon-container justify-content-center">
+                        <div className="d-flex flex-sm-row flex-row-reverse flex-sm-row-reverse flex-md-column icon-container">
 
                             <div className="text-center">
                                 <a href={`https://apps.apple.com/${_("APPSTORE")}/developer/martspec-llc/id1506250419`}

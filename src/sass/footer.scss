@@ -53,6 +53,11 @@ footer {
         @media only screen and (max-width: ($pw-screen-md)) {
             margin-top: 1rem;
             margin-bottom: 2rem;
+
+            div:first-of-type{
+                margin: auto
+            }
         }
+
     }
 }
