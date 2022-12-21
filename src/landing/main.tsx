@@ -13,10 +13,10 @@ export default function LandingPage() {
             <section id="header" className="ms-s-header">
                 <div className="row ms-s-offset text-center">
                   <div className="col-auto">
-                    <img src="/img/header_screens.webp" className="mx-auto img-fluid" alt={_("MAIN.HEAD")} />
+                    <img src="/img/header_screens.webp" width={504} height={378} className="mx-auto img-fluid" alt={_("MAIN.HEAD")} />
                     <h1>{_('MAIN.HEAD')}</h1>
                     <h4>{_("MAIN.SUBHEAD")}</h4>
-                    <img src="/img/header_watches.webp" className="d-block float-end float-sm-start watches-img" alt={_("MAIN.IMG")} />
+                    <img src="/img/header_watches.webp" width={241} height={160} className="d-block float-end float-sm-start watches-img" alt={_("MAIN.IMG")} />
                   </div>
                 </div>
             </section>
