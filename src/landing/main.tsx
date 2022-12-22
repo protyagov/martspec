@@ -10,7 +10,38 @@ export default function LandingPage() {
         <div>
             <NavBarLang />
 
+            <section id="header" className="ms-s-header">
+                <div className="row ms-s-offset text-center">
+                    <div className="col-auto">
+                        <ImageI18N src="/img/header_screens.en.512.webp" w={512} h={298} cls="mx-auto img-fluid my-5" alt={_("MAIN.HEAD")} />
+                        <h1>{_('MAIN.HEAD')}</h1>
+                        <h4>{_("MAIN.SUBHEAD")}</h4>
+                        <img src="/img/header_watches.webp" width={241} height={160} className="d-block float-end float-sm-start watches-img" alt={_("MAIN.IMG")} />
+                    </div>
+                </div>
+            </section>
 
+
+            <section className="rr-s-product pw-color-bg-secondary">
+                <div className="row ms-s-offset align-items-center">
+                    <div className="col-md-6 align-self-center order-last order-md-1">
+                        <h1 className="d-none d-md-block">
+                            <img src="/img/logo_vitamin.svg" className="img-fluid mb-2 me-3" width={48} />
+                            {_("VITAMIN.HEAD")}
+                        </h1>
+                        <p className="mt-2">{_("VITAMIN.SUBHEAD")}</p>
+                        <h2>{_("VITAMIN.TEXT")}</h2>
+                        <a href={Locale.i18nLink("logvitamin")} className="mt-3 rr-btn-large">{_("VITAMIN.BTN")}</a>
+                    </div>
+                    <div className="col-md-4 order-sm-1">
+                        <h1 className="d-block d-md-none">
+                            <img src="/img/logo_vitamin.svg" className="img-fluid mb-2 me-3" width={48} />
+                            {_("VITAMIN.HEAD")}
+                        </h1>
+                        <ImageI18N src="/img/vitamin.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("VITAMIN.IMG")} />
+                    </div>
+                </div>
+            </section>
 
 
             <section className="rr-s-product">
