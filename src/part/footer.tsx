@@ -18,12 +18,12 @@ export const Footer = () =>
     <footer>
         <div className="container">
 
-                <div className="row">
+                <div className="row ms-s-offset">
 
                     <div className="col-md-9">
                         <div className="d-flex justify-content-evenly my-5">
                             <div className="col">
-                                <div className="d-flex flex-column list-container">
+                                <div className="d-flex flex-column">
                                     <h2 className="mb-4"> {_("PP.HEAD")} </h2>
                                     <a className="footer-link mb-1"> О Нас </a>
                                     <a className="footer-link mb-1"> О Компании </a>
@@ -33,7 +33,7 @@ export const Footer = () =>
                             </div>
 
                             <div className="col">
-                                <div className="d-flex flex-column list-container">
+                                <div className="d-flex flex-column">
                                     <h2 className="mb-4"> Наши Приложения </h2>
                                     <a className="footer-link mb-1"> Витамины </a>
                                     <a className="footer-link mb-1"> Фигура </a>
