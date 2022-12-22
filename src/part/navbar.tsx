@@ -6,7 +6,7 @@ function NavigationBarLanguageDropdown() {
 
         <li className="nav-item dropdown">
             <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="/img/language_dropdown.svg" alt={_("ERROR.404_BTN")} width={32} height={32} />
+              { Locale.languageName(Locale.language) }
             </a>
             <ul className="dropdown-menu dropdown-position border-1">
                 <li hidden={Locale.language == 'en'}>
