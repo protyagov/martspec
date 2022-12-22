@@ -26,6 +26,29 @@
     box-shadow: none;
   }
 
+  .nav-link {
+    font-family: os4;
+    font-size: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    color: #212529;
+    display: inline-block;
+
+    @media only screen and (max-width: ($pw-screen-lg - 1)) {
+      padding: 1rem;
+    }
+
+    &:hover {
+      color: #276EA3;
+      background: transparent;
+    }
+
+    .show {
+      display: none;
+      display: block;
+    }
+  }
+
   //------- the part of the nav-bar that collapses ---------
   .collapse {
 
@@ -54,29 +77,6 @@
         margin-left: 1rem;
         margin-bottom: 1rem;
         animation-name: open;
-      }
-    }
-
-    .nav-link {
-      font-family: os4;
-      font-size: 1.5rem;
-      padding-right: 3rem;
-      padding-left: 3rem;
-      color: #212529;
-      display: inline-block;
-
-      @media only screen and (max-width: ($pw-screen-lg - 1)) {
-        padding: 1rem;
-      }
-
-      &:hover {
-        color: #276EA3;
-        background: transparent;
-      }
-
-      .show {
-        display: none;
-        display: block;
       }
     }
 
