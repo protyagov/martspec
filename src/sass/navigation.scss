@@ -30,6 +30,8 @@
       left: auto;
       right: auto;
       transform: translateY(-$navbar-height-lg);
+
+      animation: slide .3s ease-in-out;
     }
 
     .nav-link {
@@ -53,6 +55,15 @@
       .show {
         display: none;
         display: block;
+      }
+    }
+
+    @keyframes slide {
+      0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(-$navbar-height-lg);
       }
     }
 
