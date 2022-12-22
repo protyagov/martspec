@@ -4,6 +4,7 @@
   @extend .navbar;
   // @extend .container;
   font-size: 1.6rem;
+  height: $navbar-height-lg;
 
   @media only screen and (min-width: ($pw-screen-lg)) {
     margin-left: 10%;
@@ -20,15 +21,22 @@
   .collapse {
 
     .dropdown ul {
+      padding: $navbar-height-lg 0 1.5rem;
+      border: none;
       border-radius: 8px;
       box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+      
+      position: absolute;
+      left: auto;
+      right: auto;
+      transform: translateY(-$navbar-height-lg);
     }
 
     .nav-link {
       font-family: os4;
       font-size: 1.5rem;
-      padding-right: 2rem;
-      padding-left: 2rem;
+      padding-right: 3rem;
+      padding-left: 3rem;
       color: #212529;
       display: inline-block;
 

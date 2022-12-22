@@ -5,10 +5,10 @@ function NavigationBarLanguageDropdown() {
     return <ul className="navbar-nav">
 
         <li className="nav-item dropdown">
-            <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
               { Locale.languageName(Locale.language) }
             </a>
-            <ul className="dropdown-menu dropdown-position border-1">
+            <ul className="dropdown-menu">
                 <li hidden={Locale.language == 'en'}>
                     <a className="nav-link dropdown-item" href="/en">English</a>
                 </li>
@@ -64,24 +64,24 @@ export default function NavigationBar() {
                 <ul className="navbar-nav me-auto">
 
                     <li className="nav-item dropdown ps-lg-5">
-                        <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                             {_("HEADER.ABOUT.TITLE")}
                         </a>
 
-                        <ul className="dropdown-menu dropdown-position border-1"
+                        <ul className="dropdown-menu"
                             aria-labelledby="navbarDropdown">
                             <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI1")}</a></li>
                             <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI2")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI1")}</a></li>
+                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI3")}</a></li>
                         </ul>
                     </li>
 
 
                     <li className="nav-item dropdown ps-lg-5">
-                        <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                             {_("HEADER.APPLICATION.TITLE")}
                         </a>
-                        <ul className="dropdown-menu dropdown-position border-1" aria-labelledby="navbarDropdown">
+                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI1")}</a></li>
                             <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI2")}</a></li>
                             <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI3")}</a></li>
