@@ -24,17 +24,15 @@ export const Footer = () =>
                         <div className="d-flex justify-content-evenly my-5">
                             <div className="col">
                                 <div className="d-flex flex-column">
-                                    <h2 className="mb-4"> {_("PP.HEAD")} </h2>
-                                    <a className="footer-link mb-1"> О Нас </a>
+                                    <h2 className="mb-4"> {_("ABOUT.HEAD").toUpperCase()} </h2>
                                     <a className="footer-link mb-1"> О Компании </a>
                                     <a className="footer-link mb-1"> Миссия </a>
-                                    <a className="footer-link mb-1"> Команда </a>
                                 </div>
                             </div>
 
                             <div className="col">
                                 <div className="d-flex flex-column">
-                                    <h2 className="mb-4"> Наши Приложения </h2>
+                                    <h2 className="mb-4"> {"Наши Приложения".toUpperCase()} </h2>
                                     <a className="footer-link mb-1"> Витамины </a>
                                     <a className="footer-link mb-1"> Фигура </a>
                                     <a className="footer-link mb-1"> Electrolyte </a>
@@ -86,8 +84,11 @@ export const Footer = () =>
             <hr />
         </div>
 
-        <div className="row justify-content-center">
-            <p className="mx-auto" style={{width: "auto", color: "#CFD3D4"}}> {_("FOOTER.C")} </p>
+        <div className="container mt-4">
+            <div className="d-flex flex-row ms-s-offset">
+                <span className="me-auto"> {_("FOOTER.C")} </span>
+                <a className="footer-link"> Конфиденциальность </a>
+            </div>
         </div>
 
         <br />
