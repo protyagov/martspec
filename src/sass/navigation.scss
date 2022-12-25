@@ -1,7 +1,7 @@
 @import "color.scss";
 
 .ms-navbar {
-	$navbar-height-lg: 75px;
+  $navbar-height-lg: 75px;
 
   @extend .navbar;
   // @extend .container;
@@ -20,15 +20,26 @@
     height: auto;
   }
 
-  .navbar-toggler,
-  .navbar-toggler:focus,
-  .navbar-toggler:active,
-	.nav-link,
-	.nav-link:focus,
-	.nav-link:active {
-    border: none;
-    outline: none;
-    box-shadow: none;
+  .navbar-toggler {  
+
+    &:focus,
+    &:active {
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    &-open[aria-expanded="true"] {
+      display: none;
+    }
+    &-close {
+      &.collapsed {
+        display: none;
+      }
+      bottom: 10px;
+      right: 10px;
+      padding: 10px;
+    }
   }
 
   .nav-link {
@@ -46,6 +57,12 @@
     &:hover {
       color: #276EA3;
       background: transparent;
+    }
+
+    &:focus,
+    &:active {
+      border: none;
+      outline: none;
     }
 
     .show {
