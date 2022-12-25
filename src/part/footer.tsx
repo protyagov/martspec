@@ -23,7 +23,7 @@ export const Footer = () =>
                     <div className="col-md-9">
                         <div className="d-flex justify-content-evenly my-5">
                             <div className="col">
-                                <div className="d-flex flex-column">
+                                <div className="d-flex flex-column mx-2">
                                     <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
                                     <a className="footer-link mb-1"> {_("ABOUT.HEAD")} </a>
                                     <a className="footer-link mb-1"> {_("MISSION.HEAD")} </a>
@@ -86,7 +86,7 @@ export const Footer = () =>
         </div>
 
         <div className="row justify-content-center">
-            <span className="mx-auto" style={{width: "fit-content"}}>
+            <span className="mx-auto px-2" style={{width: "fit-content"}}>
                 {_("FOOTER.C")}
             </span>
         </div>
