@@ -1,6 +1,8 @@
 @import "color.scss";
 
 .ms-navbar {
+	$navbar-height-lg: 75px;
+
   @extend .navbar;
   // @extend .container;
   font-size: 1.6rem;
