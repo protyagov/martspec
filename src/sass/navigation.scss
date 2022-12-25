@@ -22,7 +22,10 @@
 
   .navbar-toggler,
   .navbar-toggler:focus,
-  .navbar-toggler:active {
+  .navbar-toggler:active,
+	.nav-link,
+	.nav-link:focus,
+	.nav-link:active {
     border: none;
     outline: none;
     box-shadow: none;
