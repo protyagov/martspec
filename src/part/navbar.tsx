@@ -57,7 +57,7 @@ export default function NavigationBar() {
             <button className="navbar-toggler navbar-toggler-open" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                 aria-expanded="false" aria-label="Toggle navigation">
-								<img src="/img/burger_menu.svg" height={40} width={40} alt="Toggle navigation" />
+                <img src="/img/burger_menu.svg" height={40} width={40} alt="Toggle navigation" />
             </button>
 
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
@@ -92,12 +92,15 @@ export default function NavigationBar() {
                         </ul>
                     </li>
                 </ul>
-					{NavigationBarLanguageDropdown()}
-              <button className="position-absolute navbar-toggler navbar-toggler-close" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <img src="/img/nav_close.svg" height={28} width={28} alt="Toggle navigation" />
-              </button>
+          
+                {NavigationBarLanguageDropdown()}
+          
+                <button className="position-absolute navbar-toggler navbar-toggler-close" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="/img/nav_close.svg" height={28} width={28} alt="Toggle navigation" />
+                </button>
+          
             </div>
         </div>
     </nav>
