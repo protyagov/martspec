@@ -65,30 +65,29 @@ export default function NavigationBar() {
 
                     <li className="nav-item dropdown ps-lg-5">
                         <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                            {_("HEADER.ABOUT.TITLE")}
+                            {_("NAV.ABOUT")}
                         </a>
 
                         <ul className="dropdown-menu"
                             aria-labelledby="navbarDropdown">
-                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI1")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI2")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.ABOUT.LI3")}</a></li>
+                            <li><a className="nav-link dropdown-item" href="#">{_("ABOUT.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href="#">{_("MISSION.HEAD")}</a></li>
                         </ul>
                     </li>
 
 
                     <li className="nav-item dropdown ps-lg-5">
                         <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                            {_("HEADER.APPLICATION.TITLE")}
+                            {_("NAV.APPLICATION")}
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI1")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI2")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI3")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI4")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI5")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI6")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("HEADER.APPLICATION.LI7")}</a></li>
+                            <li><a className="nav-link dropdown-item" href="#">{_("VITAMIN.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href="#">{_("SIZE.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href="#">{_("MASS.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href="#">{_("WAIST.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href="#">{_("ZINC.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href="#">{_("EMOTION.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href="#">{_("ELECTROLYTE.HEAD")}</a></li>
                         </ul>
                     </li>
                 </ul>
