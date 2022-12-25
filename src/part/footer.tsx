@@ -24,22 +24,23 @@ export const Footer = () =>
                         <div className="d-flex justify-content-evenly my-5">
                             <div className="col">
                                 <div className="d-flex flex-column">
-                                    <h2 className="mb-4"> {_("ABOUT.HEAD").toUpperCase()} </h2>
-                                    <a className="footer-link mb-1"> О Компании </a>
-                                    <a className="footer-link mb-1"> Миссия </a>
+                                    <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
+                                    <a className="footer-link mb-1"> {_("ABOUT.HEAD")} </a>
+                                    <a className="footer-link mb-1"> {_("MISSION.HEAD")} </a>
+                                    <a className="footer-link"> {_("PP.HEAD")} </a>
                                 </div>
                             </div>
 
                             <div className="col">
                                 <div className="d-flex flex-column">
-                                    <h2 className="mb-4"> {"Наши Приложения".toUpperCase()} </h2>
-                                    <a className="footer-link mb-1"> Витамины </a>
-                                    <a className="footer-link mb-1"> Фигура </a>
-                                    <a className="footer-link mb-1"> Electrolyte </a>
-                                    <a className="footer-link mb-1"> Вес </a>
-                                    <a className="footer-link mb-1"> Цинк </a>
-                                    <a className="footer-link mb-1"> Талия </a>
-                                    <a className="footer-link mb-1"> Эмоция </a>
+                                    <h2 className="mb-4"> {_("NAV.APPS").toUpperCase()} </h2>
+                                    <a className="footer-link mb-1"> {_("VITAMIN.HEAD")} </a>
+                                    <a className="footer-link mb-1"> {_("SIZE.HEAD")} </a>
+                                    <a className="footer-link mb-1"> {_("ELECTROLYTE.HEAD")} </a>
+                                    <a className="footer-link mb-1"> {_("MASS.HEAD")} </a>
+                                    <a className="footer-link mb-1"> {_("ZINC.HEAD")} </a>
+                                    <a className="footer-link mb-1"> {_("WAIST.HEAD")} </a>
+                                    <a className="footer-link mb-1"> {_("EMOTION.HEAD")} </a>
                                 </div>
                             </div>
                         </div>
@@ -84,11 +85,10 @@ export const Footer = () =>
             <hr />
         </div>
 
-        <div className="container mt-4">
-            <div className="d-flex flex-row ms-s-offset">
-                <span className="me-auto"> {_("FOOTER.C")} </span>
-                <a className="footer-link"> Конфиденциальность </a>
-            </div>
+        <div className="row justify-content-center">
+            <span className="mx-auto" style={{"width": "300px"}}>
+                {_("FOOTER.C")}
+            </span>
         </div>
 
         <br />
