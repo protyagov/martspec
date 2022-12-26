@@ -166,23 +166,9 @@
         "DESC5_1": "All content found on the martpsec.com website and our mobile apps have been created for informational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment.",
         "DESC5_2": "Use our software is solely at your own risk. It is provided on an “as is” and “as available” basis. Martspec makes no warranty that our apps and/or any content therein will meet your requirements, or will be uninterrupted, timely, secure, current, accurate, complete, or error-free or that the results that may be obtained by use of the site and/or any content therein will be accurate or reliable. You understand and acknowledge that your sole and exclusive remedy with respect to any defect in or dissatisfaction with the app is to cease using the app."
     },
-    "HEADER": {
-        "ABOUT":{
-            "TITLE": "About Us",
-            "LI1": "Company",
-            "LI2": "Mission",
-            "LI3": "Team"
-        },
-        "APPLICATION": {
-            "TITLE": "Applications",
-            "LI1": "Vitamin Book",
-            "LI2": "Body Size",
-            "LI3": "Electrolyte",
-            "LI4": "Body Mass",
-            "LI5": "Body Zinc",
-            "LI6": "Waistline",
-            "LI7": "Emotion"
-        }
+    "NAV": {
+      "APPS": "Applications",
+      "ABOUT": "About Us"
     },
     "FOOTER": {
         "C": "© 2022 Martspec LLC. All rights reserved."

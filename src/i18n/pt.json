@@ -165,6 +165,10 @@
         "DESC5_1": "Todo o conteúdo encontrado no site martpsec.com e nossos aplicativos móveis foram criados apenas para fins informativos. Não se destina a ser um substituto para aconselhamento médico profissional, diagnóstico ou tratamento.",
         "DESC5_2": "A utilização do nosso software é exclusivamente por sua conta e risco. Ele é fornecido “como está” e “conforme disponível”. A Martspec não garante que nossos aplicativos e/ou qualquer conteúdo neles atendam aos seus requisitos ou sejam ininterruptos, oportunos, seguros, atuais, precisos, completos ou isentos de erros ou que os resultados que possam ser obtidos pelo uso do site e/ou qualquer conteúdo nele será preciso ou confiável. Você entende e reconhece que seu único e exclusivo recurso em relação a qualquer defeito ou insatisfação com o aplicativo é deixar de usá-lo."
     },
+    "NAV": {
+      "APPS": "Formulários",
+      "ABOUT": "Sobre nós"
+    },
     "FOOTER": {
         "C": "© 2022 Martspec LLC. Todos os direitos reservados."
     },

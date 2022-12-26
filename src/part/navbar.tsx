@@ -78,7 +78,7 @@ export default function NavigationBar() {
 
                     <li className="nav-item dropdown ps-lg-5">
                         <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                            {_("NAV.APPLICATION")}
+                            {_("NAV.APPS")}
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a className="nav-link dropdown-item" href="#">{_("VITAMIN.HEAD")}</a></li>
