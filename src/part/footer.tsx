@@ -25,22 +25,22 @@ export const Footer = () =>
                             <div className="col">
                                 <div className="d-flex flex-column mx-2">
                                     <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
-                                    <a className="footer-link mb-1"> {_("ABOUT.HEAD")} </a>
-                                    <a className="footer-link mb-1"> {_("MISSION.HEAD")} </a>
-                                    <a className="footer-link"> {_("PP.HEAD")} </a>
+                                    <a className="footer-link mb-1" href={Locale.i18nLink("about")}> {_("ABOUT.HEAD")} </a>
+                                    <a className="footer-link mb-1" href={Locale.i18nLink("mission")}> {_("MISSION.HEAD")} </a>
+                                    <a className="footer-link" href={Locale.i18nLink("privacy-policy")}> {_("PP.HEAD")} </a>
                                 </div>
                             </div>
 
                             <div className="col">
                                 <div className="d-flex flex-column">
                                     <h2 className="mb-4"> {_("NAV.APPS").toUpperCase()} </h2>
-                                    <a className="footer-link mb-1"> {_("VITAMIN.HEAD")} </a>
-                                    <a className="footer-link mb-1"> {_("SIZE.HEAD")} </a>
-                                    <a className="footer-link mb-1"> {_("ELECTROLYTE.HEAD")} </a>
-                                    <a className="footer-link mb-1"> {_("MASS.HEAD")} </a>
-                                    <a className="footer-link mb-1"> {_("ZINC.HEAD")} </a>
-                                    <a className="footer-link mb-1"> {_("WAIST.HEAD")} </a>
-                                    <a className="footer-link mb-1"> {_("EMOTION.HEAD")} </a>
+                                    <a className="footer-link mb-1" href={Locale.i18nLink("logvitamin")}> {_("VITAMIN.HEAD")} </a>
+                                    <a className="footer-link mb-1" href={Locale.i18nLink("bodysize")}> {_("SIZE.HEAD")} </a>
+                                    <a className="footer-link mb-1" href={Locale.i18nLink("electrolyte")}> {_("ELECTROLYTE.HEAD")} </a>
+                                    <a className="footer-link mb-1" href={Locale.i18nLink("bodymass")}> {_("MASS.HEAD")} </a>
+                                    <a className="footer-link mb-1" href={Locale.i18nLink("bodyzinc")}> {_("ZINC.HEAD")} </a>
+                                    <a className="footer-link mb-1" href={Locale.i18nLink("waistline")}> {_("WAIST.HEAD")} </a>
+                                    <a className="footer-link mb-1" href={Locale.i18nLink("emotion")}> {_("EMOTION.HEAD")} </a>
                                 </div>
                             </div>
                         </div>
