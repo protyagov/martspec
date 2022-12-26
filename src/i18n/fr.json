@@ -10,187 +10,168 @@
     "MAIN": {
         "HEAD": "Simplicité du suivi de la santé",
         "SUBHEAD": "Des applications pour rendre les tâches quotidiennes agiles et sans effort",
-        "IMG": "Applications de bien-être et de santé Apple Watch",
-        "P1": {
-            "HEAD": "Electrolyte",
-            "SUBHEAD": "les minéraux les plus vitaux",
-            "TEXT": "Les électrolytes jouent un rôle essentiel dans le maintien de l'homéostasie dans le corps. Ils aident à réguler le cœur et la fonction neurologique, l'équilibre hydrique, l'apport d'oxygène, l'équilibre acido-basique et bien plus encore.",
-            "BTN": "Obtenir les faits",
-            "IMG": "Enregistrez des électrolytes et des minéraux avec votre Apple Watch",
-            "DWN": "Téléchargez l'application gratuite Electrolyte Tracker sur l'AppStore d'Apple"
-        },
-        "P2": {
-            "HEAD": "Poids - Masse corporelle saine",
-            "SUBHEAD": "journal de poids facile",
-            "TEXT": "Le suivi de votre poids augmente votre efficacité en termes de temps et d'entraînement. Non seulement cela vous poussera à faire mieux, mais vous conduira également à être votre propre compétition!",
-            "BTN": "regarde",
-            "IMG": "Enregistrez la masse corporelle directement de votre Apple Watch dans le stockage de santé Apple",
-            "DWN": "Téléchargez gratuitement l'application Poids depuis l'AppStore d'Apple"
-        },
-        "P3": {
-            "HEAD": "Vitamines",
-            "SUBHEAD": "le traqueur ultime de vitamines",
-            "TEXT": "Le suivi de vos vitamines essentielles présente de nombreux avantages, allant de la gestion des intolérances alimentaires à l'augmentation de l'énergie, en évitant les changements d'humeur et en alimentant les rythmes de votre journée.",
-            "BTN": "Lire la suite",
-            "IMG": "Suivez les vitamines les plus essentielles directement sur votre poignet",
-            "DWN": "Téléchargez l'application gratuite de suivi des vitamines et des nutriments sur l'AppStore d'Apple"
-        },
-        "P4": {
-            "HEAD": "Taille",
-            "SUBHEAD": "taille étroite - coeur sain",
-            "TEXT": "Le moyen le plus simple de suivre le tour de taille sur Apple Watch. Tous les enregistrements sont synchronisés avec votre santé Apple.",
-            "BTN": "apprendre encore plus",
-            "IMG": "Gardez une trace de votre tour de taille (nombril) directement depuis votre bras",
-            "DWN": "Téléchargez l'application de taille gratuite sur l'App Store d'Apple"
-        },
-        "P5": {
-            "HEAD": "Body Zinc",
-            "SUBHEAD": "suivi la consommation de zinc",
-            "TEXT": "Magnifique dans sa simplicité, son corps de traqueur en zinc pour votre montre. Apple Health activé. De vrais résultats. Libérer. Zéro publicité.",
-            "BTN": "Discover wellness",
-            "IMG": "Suivez votre consommation quotidienne de supplément de zinc",
-            "DWN": "Obtenez une application Bodyzinc gratuite d'Apple Store"
-        },
-        "P6": {
-            "HEAD": "Belle Forme - Traqueur Simple",
-            "SUBHEAD": "beau corps - construit par vous!",
-            "TEXT": "Suivez vos hanches, votre taille et votre poitrine sur votre montre. Prise en charge complète d'Apple Health. Temps de chargement rapide. Complétement gratuit.",
-            "BTN": "Forme parfaite",
-            "IMG": "Mesurer la taille de la poitrine, la largeur de buste, la circonférence de la taille et la longueur des hanches à l'aide d'une montre sur votre poignet",
-            "DWN": "Obtenez une application GRATUITE GRATUITE TAILLE POUR Apple Watch directement à partir de l'Apple App Store"
-        },
-        "P7": {
-            "HEAD": "Émotion",
-            "SUBHEAD": "test de psychologie le plus rapide",
-            "TEXT": "Des sautes d'humeur inattendues ? Changements émotionnels intenses ? Déterminez la cause profonde en seulement 1 minute.",
-            "BTN": "Se connaitre",
-            "IMG": "Le test de personnalité le plus rapide au monde. Sélectionnez 8 couleurs et connaissez votre état d'esprit actuel",
-            "DWN": "Obtenez gratuitement une application pour Apple Watch, iPhone ou iPad directement depuis l'App Store d'Apple"
-        }
+        "IMG": "Applications de bien-être et de santé Apple Watch"
+    },
+    "ELECTROLYTE": {
+        "HEAD": "Electrolyte",
+        "SUBHEAD": "les minéraux les plus vitaux",
+        "TEXT": "Les électrolytes jouent un rôle essentiel dans le maintien de l'homéostasie dans le corps. Ils aident à réguler le cœur et la fonction neurologique, l'équilibre hydrique, l'apport d'oxygène, l'équilibre acido-basique et bien plus encore.",
+        "BTN": "Obtenir les faits",
+        "IMG": "Enregistrez des électrolytes et des minéraux avec votre Apple Watch",
+        "DWN": "Téléchargez l'application gratuite Electrolyte Tracker sur l'AppStore d'Apple",
+        "ABOUT": "Les électrolytes jouent un rôle essentiel dans le maintien de l'homéostasie dans le corps. Ils aident à réguler le cœur et la fonction neurologique, l'équilibre hydrique, l'apport d'oxygène, l'équilibre acido-basique et bien plus encore. Suivez l'apport d'électrolytes avec l'application Apple Watch.",
+        "HEAD1": "Magnésium",
+        "DESC1": "Régule le rythme cardiaque, la fonction nerveuse, la contraction musculaire, la pression artérielle et les niveaux de sucre, participe à la fabrication de protéines, d'os et d'ADN. Une carence en magnésium entraîne une perte d'appétit, des nausées, des vomissements, de la fatigue et de la faiblesse; tandis que des niveaux élevés de celui-ci peuvent provoquer une hypermagnésémie. ",
+        "HEAD2": "Calcium",
+        "DESC2": "Aide les muscles à bouger et les nerfs à transmettre des messages entre le cerveau et chaque partie du corps. Aide les vaisseaux sanguins à faire circuler le sang dans tout le corps. Participe à la libération d'hormones et d'enzymes qui affectent presque toutes les fonctions du corps humain. Environ 99% de l'apport en calcium du corps est stocké dans les os et les dents. ",
+        "HEAD3": "Potassium",
+        "DESC3": "Utilisé pour presque tout dans le corps, y compris la fonction rénale et cardiaque appropriée, la contraction musculaire et la transmission nerveuse. Une carence en potassium peut augmenter la tension artérielle et épuiser le calcium des os. ",
+        "HEAD4": "Le fer",
+        "DESC4": "Une partie vitale de l'hémoglobine et de la myoglobine, des protéines qui transportent l'oxygène vers les tissus et les muscles du corps. Les globules rouges contiennent plus de la moitié du fer du corps humain. ",
+        "HEAD5": "Des risques",
+        "DESC5": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte. "
+    },
+    "MASS": {
+        "HEAD": "Poids - Masse corporelle saine",
+        "SUBHEAD": "journal de poids facile",
+        "TEXT": "Le suivi de votre poids augmente votre efficacité en termes de temps et d'entraînement. Non seulement cela vous poussera à faire mieux, mais vous conduira également à être votre propre compétition!",
+        "BTN": "regarde",
+        "IMG": "Enregistrez la masse corporelle directement de votre Apple Watch dans le stockage de santé Apple",
+        "DWN": "Téléchargez gratuitement l'application Poids depuis l'AppStore d'Apple",
+        "ABOUT": "Le journal de poids corporel est l'outil parfait pour augmenter l'efficacité de vos exercices et votre motivation pour atteindre l'objectif. Toutes les données sont synchronisées avec Apple Health et stockées en toute sécurité dans votre iCloud. Tout est facile et absolument gratuit. Zéro AD et aucun achat in-app.",
+        "HEAD1": "Responsabilité",
+        "DESC1": "Nous avons une responsabilité envers nous-mêmes pour notre santé. Personne ne peut nous faire perdre du poids ou choisir des aliments sains. Nous devons en décider nous-mêmes. ",
+        "HEAD2": "Honnêteté",
+        "DESC2": "Enregistrer notre poids le rend réel. Bien que cela semble étrange; c'est vrai. Ce sont des données, des faits enregistrés. Ils sont réels, que nous les enregistrions ou non. ",
+        "HEAD3": "Engagement",
+        "DESC3": "La journalisation quotidienne est importante, elle garde des habitudes saines devant nos esprits. Chaque fois que nous faisons une entrée de journal, nous nous rappelons notre engagement en faveur de la santé. Sauter une journée ici et là permet de sauter plus facilement 2 jours, puis 3 jours. Ensuite, avant que vous ne vous en rendiez compte, vous vous êtes arrêté et vous êtes revenu à vos anciennes habitudes. ",
+        "HEAD4": "Fonctionnalités de l'application",
+        "DESC4_1": "Intégration Apple Health",
+        "DESC4_2": "Historique des enregistrements passés avec la différence en pourcentage",
+        "DESC4_3": "Toutes les tailles de montres, tous les types de widgets de cadrans de montres",
+        "DESC4_4": "Sauvegardes iCloud",
+        "DESC4_5": "Fonctionne sans iPhone",
+        "DESC4_6": "Style minimaliste",
+        "DESC4_7": "Gratuit, zéro annonce et aucun achat in-app"
+    },
+    "VITAMIN": {
+        "HEAD": "Vitamines",
+        "SUBHEAD": "le traqueur ultime de vitamines",
+        "TEXT": "Le suivi de vos vitamines essentielles présente de nombreux avantages, allant de la gestion des intolérances alimentaires à l'augmentation de l'énergie, en évitant les changements d'humeur et en alimentant les rythmes de votre journée.",
+        "BTN": "Lire la suite",
+        "IMG": "Suivez les vitamines les plus essentielles directement sur votre poignet",
+        "DWN": "Téléchargez l'application gratuite de suivi des vitamines et des nutriments sur l'AppStore d'Apple",
+        "ABOUT": "L'application Vitamin vous permet de suivre l'apport en vitamines essentielles directement depuis votre poignet si vous utilisez l'Apple Watch, ainsi que l'iPhone et l'iPad. Vous pouvez voir vos progrès au fil du temps, les enregistrements sont regroupés par mois et synchronisés automatiquement avec votre santé Apple. L'application est absolument gratuite, ne contient aucune publicité et n'utilise pas vos données à des fins lucratives.",
+        "HEAD1": "Améliorer le régime alimentaire",
+        "DESC1": "Le suivi de la prise de vitamines motive à améliorer le régime alimentaire et à devenir plus pointilleux sur les choix alimentaires, ce qui aide notre corps et notre esprit. Toutes les données sont synchronisées dans Apple Santé, et jusqu'à 7 jours sont consultables à partir de la montre. ",
+        "HEAD2": "Vie saine",
+        "DESC2": "Les appareils portables (wearable) aident leurs propriétaires à passer à un mode de vie plus sain. ",
+        "HEAD3": "Vitamine A-Bêta-carotène",
+        "DESC3": "Important pour le système immunitaire et la fonction de reproduction du corps. Aide le cœur, les poumons et les reins à fonctionner correctement. L'antioxydant le plus puissant régule le renouvellement de l'épithélium de la peau, la croissance des cheveux et la fonction visuelle, protégeant le corps contre les effets destructeurs des radicaux libres. ",
+        "HEAD4": "Vitamine C-Acide Ascorbique",
+        "DESC4": "Protège les cellules et les maintient en bonne santé. Soutient les vaisseaux sanguins, les OS et le cartilage. Important pour la cicatrisation des plaies t K aide au développement du tissu conjonctif, des processus de régénération et de guérison. Donne une résistance à divers types de stress, assurer l'état immunologique normal du corps et maintenir les processus d'Hématopoïèse. ",
+        "HEAD5": "Vitamine D",
+        "DESC5": "Régule la quantité de calcium et de phosphate dans le corps en maintenant ainsi des dents, des OS et des muscles sains. La faible teneur en cette vitamine provoque des problèmes osseux - rachitisme chez les enfants et ostéomalacie chez les adultes. ",
+        "HEAD6": "Vitamine E-Tocophérol",
+        "DESC6": "Soutient la santé et la beauté du corps tout en protégeant contre les facteurs destructeurs de l'environnement extérieur. Si les cellules, les tissus et les organes reçoivent suffisamment de vitamine e, le risque de développer de nombreuses maladies diminue et le processus de vieillissement ralentit. En particulier, en tant qu'antioxydant puissant, la vitamine E participe à la formation de fibres permettant à la peau de rester élastique. ",
+        "HEAD7": "Vitamine B12-Cobalamine",
+        "DESC7": "Formation de globules rouges et protection des tissus nerveux. Aide le corps à convertir les glucides en glucose qui est nécessaire à la production d'énergie. ",
+        "HEAD8": "Vitamine B7-Biotine",
+        "DESC8": "La biotine est appelée 'vitamine de beauté' en raison de ses effets positifs sur l'état des cheveux, de la peau et des ongles. Nécessaire au bon déroulement du métabolisme énergétique. Régule le niveau de glucose dans le sang, protège contre la destruction des cellules du cerveau, participe à la division cellulaire, soutient le fonctionnement normal des glandes surrénales, de la thyroïde, du système cardiovasculaire. ",
+        "HEAD9": "Vitamine B9-acide Folique",
+        "DESC9": "Formation de globules rouges et blancs dans la moelle osseuse. Aide le corps à créer des cellules d'ADN et d'ARN et à convertir les glucides en glucose. ",
+        "HEAD0": "Vitamine B3-Niacine",
+        "DESC0": "Important pour transformer les aliments en énergie. Aide les systèmes nerveux et digestif à rester en bonne santé et la peau à bien paraître. "
+    },
+    "WAIST": {
+        "HEAD": "Taille",
+        "SUBHEAD": "taille étroite - coeur sain",
+        "TEXT": "Le moyen le plus simple de suivre le tour de taille sur Apple Watch. Tous les enregistrements sont synchronisés avec votre santé Apple.",
+        "BTN": "apprendre encore plus",
+        "IMG": "Gardez une trace de votre tour de taille (nombril) directement depuis votre bras",
+        "DWN": "Téléchargez l'application de taille gratuite sur l'App Store d'Apple",
+        "ABOUT": "Un journal de taille taille pratique et simple sur votre Apple Iwatch. Ne nécessite pas de compte et d'inscription. L'historique des mesures est synchronisé avec l'application Apple Health, et jusqu'à 7 jours sont stockés sur la montre.",
+        "HEAD1": "Fait Médical",
+        "DESC1": "Si plus de graisse est située autour de votre taille plutôt que autour de vos hanches, vous êtes plus à risque de maladies, y compris les maladies cardiaques et le diabète de type 2.",
+        "LINK1": "Les Instituts nationaux de la Santé, états-unis",
+        "HEAD2": "Mieux que l'IMC",
+        "LINK2": "Étude réalisée par l'American Heart Association",
+        "DESC2": " a montré que la mesure de la taille pourrait être un meilleur moyen de prédire le risque de maladie cardiaque qu'un indice de masse corporelle largement utilisé.",
+        "HEAD3": "Composition corporelle",
+        "DESC3": "Lorsque vous gagnez du muscle et que vous perdez des centimètres de graisse, votre poids peut ne pas changer beaucoup. C'est pourquoi la composition corporelle peut vous en dire plus que l'échelle, elle vous raconte la vraie histoire.",
+        "HEAD4": "Risque cardiovasculaire élevé",
+        "DESC4_1": "Hommes: 40 pouces ou plus (102 cm)",
+        "DESC4_2": "Femmes: 35 pouces ou plus (88 cm)",
+        "DESC4_3": "Chaque 5 cm supplémentaire à la taille augmente le risque de 13% chez les femmes et de 17% chez les hommes, quel que soit l'IMC (Indice de Masse Corporelle)",
+        "DESC4_4": "La source: "
+    },
+    "ZINC": {
+        "HEAD": "Body Zinc",
+        "SUBHEAD": "suivi la consommation de zinc",
+        "TEXT": "Magnifique dans sa simplicité, son corps de traqueur en zinc pour votre montre. Apple Health activé. De vrais résultats. Libérer. Zéro publicité.",
+        "BTN": "Discover wellness",
+        "IMG": "Suivez votre consommation quotidienne de supplément de zinc",
+        "DWN": "Obtenez une application Bodyzinc gratuite d'Apple Store",
+        "ABOUT": "Facile à utiliser le tracker zinc diététique pour Apple Watch. Synchronisation automatique avec la santé Apple, ne nécessite pas d'inscription et absolument libre.",
+        "HEAD1": "Maladies liées à l'âge",
+        "DESC1": "Le zinc peut réduire considérablement votre risque de maladies liées à l'âge, telles que la pneumonie, l'infection et la dégénérescence maculaire liée à l'âge (AMD). Il peut soulager le stress oxydatif et améliorer la réponse immunitaire en augmentant l'activité des cellules T et des cellules tueuses naturelles, qui aident à protéger votre corps de l'infection. Les personnes âgées qui complètent avec l'expérience du zinc ont une réponse de vaccination de la grippe améliorée, un risque de pneumonie et une performance mentale renforcée.",
+        "LINK1": "Instituts de santé nationaux, États-Unis",
+        "HEAD2": "Accélération de la cicatrisation des plaies",
+        "DESC2": "Le zinc est couramment utilisé dans les hôpitaux comme traitement des brûlures, de certains ulcères et d'autres blessures à la peau. En fait, votre peau détient une quantité relativement élevée - environ 5% - du contenu du zinc de votre corps.",
+        "LINK2": "Étude de l'American Heart Association",
+        "HEAD3": "Diminue l'inflammation",
+        "DESC3": "Diminue le stress oxydatif et réduit les niveaux de certaines protéines inflammatoires de votre corps. Le stress oxydatif entraîne une inflammation chronique, un facteur contribuant dans une vaste gamme de maladies chroniques, telles que la maladie cardiaque, le cancer et le déclin mentale."
+    },
+    "SIZE": {
+        "HEAD": "Belle Forme - Traqueur Simple",
+        "SUBHEAD": "beau corps - construit par vous!",
+        "TEXT": "Suivez vos hanches, votre taille et votre poitrine sur votre montre. Prise en charge complète d'Apple Health. Temps de chargement rapide. Complétement gratuit.",
+        "BTN": "Forme parfaite",
+        "IMG": "Mesurer la taille de la poitrine, la largeur de buste, la circonférence de la taille et la longueur des hanches à l'aide d'une montre sur votre poignet",
+        "DWN": "Obtenez une application GRATUITE GRATUITE TAILLE POUR Apple Watch directement à partir de l'Apple App Store",
+        "ABOUT": "Suivez vos hanches, votre taille et votre poitrine sur votre Apple Watch. Calcule automatiquement la forme du corps à l'aide de la formule Bradley Bayou. Prise en charge complète d'Apple Health. Sauvegardes iCloud. Temps de chargement rapide. Complétement gratuit.",
+        "HEAD1": "La composition corporelle",
+        "DESC1": "Lorsque vous gagnez du muscle et que vous perdez des pouces de graisse, votre poids pourrait ne pas changer beaucoup. C'est pourquoi la composition corporelle peut vous dire plus que la balance, il vous raconte la vraie histoire.",
+        "LINK1": "Santé en ligne",
+        "HEAD2": "Poitrine",
+        "DESC2": "Pourquoi mesurer? Nous ne sommes au courant d'aucun besoin médical ou de bien-être. Cependant, la largeur de la poitrine (buste) est l'une des mesures les plus importantes des proportions parfaites du corps. On pense que les proportions correctes sont plus attrayantes que la taille ou la hauteur globale du corps.",
+        "HEAD3": "Taille",
+        "HEAD4": "les hanches",
+        "DESC4": "Les preuves montrent que la graisse autour des cuisses et de l'arrière est plus difficile à déplacer que la graisse autour de la taille. Le ratio de taille à hanches est couramment utilisé comme indicateur ou mesure de la santé et le risque de développer des conditions de santé graves.",
+        "HEAD5": "Forme du corps",
+        "DESC5": "Votre corps a-t-il la forme d'une pomme 🍎 ou d'une poire 🍐? Ou peut-être un sablier ? Découvrir la vraie forme de votre corps est plus qu'un de ces tests en ligne inutiles. Comprendre la forme de votre corps peut vous aider à découvrir l'entraînement le plus efficace. Des études suggèrent que cela peut aider à améliorer votre santé."
+    },
+    "EMOTION": {
+        "HEAD": "Émotion",
+        "SUBHEAD": "test de psychologie le plus rapide",
+        "TEXT": "Des sautes d'humeur inattendues ? Changements émotionnels intenses ? Déterminez la cause profonde en seulement 1 minute.",
+        "BTN": "Se connaitre",
+        "IMG": "Le test de personnalité le plus rapide au monde. Sélectionnez 8 couleurs et connaissez votre état d'esprit actuel",
+        "DWN": "Obtenez gratuitement une application pour Apple Watch, iPhone ou iPad directement depuis l'App Store d'Apple",
+        "ABOUT_1": "Stress 😠, anxiété 😬, dépression☹️ ou sautes d'humeur ? Les événements économiques, politiques et sociaux actuels contribuent beaucoup à notre niveau de stress et de nombreuses personnes subissent des changements d'humeur même au cours de la même journée.",
+        "ABOUT_2": "Dans l'incertitude générale quant à notre position et à quoi s'attendre ensuite, l'incapacité de prédire à quoi s'attendre dans le futur affecte notre humeur de manière négative. Cette incertitude semble être une nouvelle norme dans notre vie.",
+        "HEAD1": "Comment ça marche?",
+        "DESC1_1": "Regardez l'anneau coloré et sélectionnez la couleur que vous préférez. Il reste 7 couleurs. Parmi les 7 couleurs, sélectionnez celle qui vous plaît le plus maintenant, et ainsi de suite jusqu'à épuisement des couleurs. Ensuite, vous répétez la routine ci-dessus. Lorsque vous le répétez, n'essayez pas de reproduire la sélection précédente. Oubliez cela et ne sélectionnez que les couleurs en fonction de vos préférences à ce moment précis. Laissez votre sous-esprit faire le travail.",
+        "DESC1_2": "The key to this test success is to select colors you like right at this moment. Do NOT try to associate colors with objects, — cars, clothes, buildings, etc. Just select the color you like the best at this particular moment. On average, it takes less than one minute to get to the results.",
+        "HEAD2": "Pourquoi ça marche ?",
+        "DESC2_1": "Les couleurs ont entouré l'humanité depuis la nuit des temps, ont influencé les humains pendant des générations. Au début, la vie humaine était gouvernée par deux facteurs incontrôlables : la nuit et le jour. Lumière et ténèbres. Pendant des milliers d'années, les actions de l'homme, telles que l'attaque (rouge) ou la retraite (vert) ont été intégrées dans le submental. Les couleurs de la nature ont eu leur influence sur nous, et ces influences sont profondément enracinées dans nos sous-esprits. Les couleurs et leur signification subconsciente sont là, qu'on le veuille ou non. Cette signification est indépendante de la race, de la langue, du niveau d'éducation, du statut social, etc.",
+        "DESC2_2": "Pour cette raison, un test de couleur est un outil optimal pour analyser les conflits familiaux, les problèmes de la vie personnelle, les changements d'humeur occasionnels et même pour effectuer des examens psychologiques médico-légaux.",
+        "HEAD3": "Cas d'utilisation",
+        "DESC3_1": "Certaines organisations utilisent des tests de couleur pour contrôler la dynamique des sphères volitives et émotionnelles des athlètes à la fois pendant l'entraînement et pendant la compétition. Cela permet à l'entraîneur d'anticiper à l'avance et d'éliminer délibérément les pannes dues à l'épuisement de l'énergie ou des capacités volitives des athlètes.",
+        "DESC3_2": "Plusieurs sources suggèrent que certains tests de couleur fonctionnent même en cas de vision des couleurs défectueuse ou même de daltonisme réel, car l'acceptabilité d'une couleur particulière est somatique. Dans un besoin de libération de tension ou de stress, alors la réponse instinctive sera de choisir les couleurs les plus sombres. S'il est nécessaire de dissiper de l'énergie, la réponse instinctive sera pour les couleurs les plus vives.",
+        "HEAD4": "Sûr et sécurisé",
+        "DESC4": "La confidentialité n'est pas quelque chose à laquelle vous avez simplement droit, c'est une condition préalable absolue. Nous n'envoyons pas vos données à nos serveurs, nous ne les partageons avec aucun tiers et ne seront jamais utilisées à des fins publicitaires. Vos données sont uniquement stockées sur votre service Apple (Apple Health store et iCloud). Nous ne stockons PAS vos données sur nos serveurs.",
+        "HEAD5": "AVERTISSEMENT",
+        "DESC5_1": "Tout le contenu trouvé sur le site Web martpsec.com et nos applications mobiles ont été créés à des fins d'information uniquement. Il n'est pas destiné à remplacer un avis médical professionnel, un diagnostic ou un traitement.",
+        "DESC5_2": "Utilisez notre logiciel à vos risques et périls. Il est fourni « tel quel » et « tel que disponible ». Martspec ne garantit pas que nos applications et/ou tout contenu qu'elles contiennent répondront à vos exigences, ou seront ininterrompus, opportuns, sécurisés, à jour, exacts, complets ou sans erreur ou que les résultats qui peuvent être obtenus par l'utilisation du site et/ou tout contenu de celui-ci sera exact ou fiable. Vous comprenez et reconnaissez que votre seul et unique recours en cas de défaut ou d'insatisfaction à l'égard de l'application consiste à cesser d'utiliser l'application."
     },
     "FOOTER": {
-        "C": "© 2022 Martspec LLC. Tous les droits sont réservés.",
-        "PP": "Engagement de confidentialité",
-        "ABOUT": "À propos de nous",
-        "MISSION": "Mission"
+        "C": "© 2022 Martspec LLC. Tous les droits sont réservés."
     },
     "ERROR": {
         "404_HEAD": "Page non trouvée",
         "404_TEXT": "Cette page n'existe pas. Veuillez vous assurer que vous avez utilisé la bonne URL.",
         "404_BTN": "Domicile"
-    },
-    "PRODUCT": {
-        "P1": {
-            "ABOUT": "Les électrolytes jouent un rôle essentiel dans le maintien de l'homéostasie dans le corps. Ils aident à réguler le cœur et la fonction neurologique, l'équilibre hydrique, l'apport d'oxygène, l'équilibre acido-basique et bien plus encore. Suivez l'apport d'électrolytes avec l'application Apple Watch.",
-            "HEAD1": "Magnésium",
-            "DESC1": "Régule le rythme cardiaque, la fonction nerveuse, la contraction musculaire, la pression artérielle et les niveaux de sucre, participe à la fabrication de protéines, d'os et d'ADN. Une carence en magnésium entraîne une perte d'appétit, des nausées, des vomissements, de la fatigue et de la faiblesse; tandis que des niveaux élevés de celui-ci peuvent provoquer une hypermagnésémie. ",
-            "HEAD2": "Calcium",
-            "DESC2": "Aide les muscles à bouger et les nerfs à transmettre des messages entre le cerveau et chaque partie du corps. Aide les vaisseaux sanguins à faire circuler le sang dans tout le corps. Participe à la libération d'hormones et d'enzymes qui affectent presque toutes les fonctions du corps humain. Environ 99% de l'apport en calcium du corps est stocké dans les os et les dents. ",
-            "HEAD3": "Potassium",
-            "DESC3": "Utilisé pour presque tout dans le corps, y compris la fonction rénale et cardiaque appropriée, la contraction musculaire et la transmission nerveuse. Une carence en potassium peut augmenter la tension artérielle et épuiser le calcium des os. ",
-            "HEAD4": "Le fer",
-            "DESC4": "Une partie vitale de l'hémoglobine et de la myoglobine, des protéines qui transportent l'oxygène vers les tissus et les muscles du corps. Les globules rouges contiennent plus de la moitié du fer du corps humain. ",
-            "HEAD5": "Des risques",
-            "DESC5": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte. "
-        },
-        "P2": {
-            "ABOUT": "Le journal de poids corporel est l'outil parfait pour augmenter l'efficacité de vos exercices et votre motivation pour atteindre l'objectif. Toutes les données sont synchronisées avec Apple Health et stockées en toute sécurité dans votre iCloud. Tout est facile et absolument gratuit. Zéro AD et aucun achat in-app.",
-            "HEAD1": "Responsabilité",
-            "DESC1": "Nous avons une responsabilité envers nous-mêmes pour notre santé. Personne ne peut nous faire perdre du poids ou choisir des aliments sains. Nous devons en décider nous-mêmes. ",
-            "HEAD2": "Honnêteté",
-            "DESC2": "Enregistrer notre poids le rend réel. Bien que cela semble étrange; c'est vrai. Ce sont des données, des faits enregistrés. Ils sont réels, que nous les enregistrions ou non. ",
-            "HEAD3": "Engagement",
-            "DESC3": "La journalisation quotidienne est importante, elle garde des habitudes saines devant nos esprits. Chaque fois que nous faisons une entrée de journal, nous nous rappelons notre engagement en faveur de la santé. Sauter une journée ici et là permet de sauter plus facilement 2 jours, puis 3 jours. Ensuite, avant que vous ne vous en rendiez compte, vous vous êtes arrêté et vous êtes revenu à vos anciennes habitudes. ",
-            "HEAD4": "Fonctionnalités de l'application",
-            "DESC4_1": "Intégration Apple Health",
-            "DESC4_2": "Historique des enregistrements passés avec la différence en pourcentage",
-            "DESC4_3": "Toutes les tailles de montres, tous les types de widgets de cadrans de montres",
-            "DESC4_4": "Sauvegardes iCloud",
-            "DESC4_5": "Fonctionne sans iPhone",
-            "DESC4_6": "Style minimaliste",
-            "DESC4_7": "Gratuit, zéro annonce et aucun achat in-app"
-        },
-        "P3": {
-            "ABOUT": "L'application Vitamin vous permet de suivre l'apport en vitamines essentielles directement depuis votre poignet si vous utilisez l'Apple Watch, ainsi que l'iPhone et l'iPad. Vous pouvez voir vos progrès au fil du temps, les enregistrements sont regroupés par mois et synchronisés automatiquement avec votre santé Apple. L'application est absolument gratuite, ne contient aucune publicité et n'utilise pas vos données à des fins lucratives.",
-            "HEAD1": "Améliorer le régime alimentaire",
-            "DESC1": "Le suivi de la prise de vitamines motive à améliorer le régime alimentaire et à devenir plus pointilleux sur les choix alimentaires, ce qui aide notre corps et notre esprit. Toutes les données sont synchronisées dans Apple Santé, et jusqu'à 7 jours sont consultables à partir de la montre. ",
-            "HEAD2": "Vie saine",
-            "DESC2": "Les appareils portables (wearable) aident leurs propriétaires à passer à un mode de vie plus sain. ",
-            "HEAD3": "Vitamine A-Bêta-carotène",
-            "DESC3": "Important pour le système immunitaire et la fonction de reproduction du corps. Aide le cœur, les poumons et les reins à fonctionner correctement. L'antioxydant le plus puissant régule le renouvellement de l'épithélium de la peau, la croissance des cheveux et la fonction visuelle, protégeant le corps contre les effets destructeurs des radicaux libres. ",
-            "HEAD4": "Vitamine C-Acide Ascorbique",
-            "DESC4": "Protège les cellules et les maintient en bonne santé. Soutient les vaisseaux sanguins, les OS et le cartilage. Important pour la cicatrisation des plaies t K aide au développement du tissu conjonctif, des processus de régénération et de guérison. Donne une résistance à divers types de stress, assurer l'état immunologique normal du corps et maintenir les processus d'Hématopoïèse. ",
-            "HEAD5": "Vitamine D",
-            "DESC5": "Régule la quantité de calcium et de phosphate dans le corps en maintenant ainsi des dents, des OS et des muscles sains. La faible teneur en cette vitamine provoque des problèmes osseux - rachitisme chez les enfants et ostéomalacie chez les adultes. ",
-            "HEAD6": "Vitamine E-Tocophérol",
-            "DESC6": "Soutient la santé et la beauté du corps tout en protégeant contre les facteurs destructeurs de l'environnement extérieur. Si les cellules, les tissus et les organes reçoivent suffisamment de vitamine e, le risque de développer de nombreuses maladies diminue et le processus de vieillissement ralentit. En particulier, en tant qu'antioxydant puissant, la vitamine E participe à la formation de fibres permettant à la peau de rester élastique. ",
-            "HEAD7": "Vitamine B12-Cobalamine",
-            "DESC7": "Formation de globules rouges et protection des tissus nerveux. Aide le corps à convertir les glucides en glucose qui est nécessaire à la production d'énergie. ",
-            "HEAD8": "Vitamine B7-Biotine",
-            "DESC8": "La biotine est appelée 'vitamine de beauté' en raison de ses effets positifs sur l'état des cheveux, de la peau et des ongles. Nécessaire au bon déroulement du métabolisme énergétique. Régule le niveau de glucose dans le sang, protège contre la destruction des cellules du cerveau, participe à la division cellulaire, soutient le fonctionnement normal des glandes surrénales, de la thyroïde, du système cardiovasculaire. ",
-            "HEAD9": "Vitamine B9-acide Folique",
-            "DESC9": "Formation de globules rouges et blancs dans la moelle osseuse. Aide le corps à créer des cellules d'ADN et d'ARN et à convertir les glucides en glucose. ",
-            "HEAD0": "Vitamine B3-Niacine",
-            "DESC0": "Important pour transformer les aliments en énergie. Aide les systèmes nerveux et digestif à rester en bonne santé et la peau à bien paraître. "
-        },
-        "P4": {
-            "ABOUT": "Un journal de taille taille pratique et simple sur votre Apple Iwatch. Ne nécessite pas de compte et d'inscription. L'historique des mesures est synchronisé avec l'application Apple Health, et jusqu'à 7 jours sont stockés sur la montre.",
-            "HEAD1": "Fait Médical",
-            "DESC1": "Si plus de graisse est située autour de votre taille plutôt que autour de vos hanches, vous êtes plus à risque de maladies, y compris les maladies cardiaques et le diabète de type 2.",
-            "LINK1": "Les Instituts nationaux de la Santé, états-unis",
-            "HEAD2": "Mieux que l'IMC",
-            "LINK2": "Étude réalisée par l'American Heart Association",
-            "DESC2": " a montré que la mesure de la taille pourrait être un meilleur moyen de prédire le risque de maladie cardiaque qu'un indice de masse corporelle largement utilisé.",
-            "HEAD3": "Composition corporelle",
-            "DESC3": "Lorsque vous gagnez du muscle et que vous perdez des centimètres de graisse, votre poids peut ne pas changer beaucoup. C'est pourquoi la composition corporelle peut vous en dire plus que l'échelle, elle vous raconte la vraie histoire.",
-            "HEAD4": "Risque cardiovasculaire élevé",
-            "DESC4_1": "Hommes: 40 pouces ou plus (102 cm)",
-            "DESC4_2": "Femmes: 35 pouces ou plus (88 cm)",
-            "DESC4_3": "Chaque 5 cm supplémentaire à la taille augmente le risque de 13% chez les femmes et de 17% chez les hommes, quel que soit l'IMC (Indice de Masse Corporelle)",
-            "DESC4_4": "La source: "
-        },
-        "P5": {
-            "ABOUT": "Facile à utiliser le tracker zinc diététique pour Apple Watch. Synchronisation automatique avec la santé Apple, ne nécessite pas d'inscription et absolument libre.",
-            "HEAD1": "Maladies liées à l'âge",
-            "DESC1": "Le zinc peut réduire considérablement votre risque de maladies liées à l'âge, telles que la pneumonie, l'infection et la dégénérescence maculaire liée à l'âge (AMD). Il peut soulager le stress oxydatif et améliorer la réponse immunitaire en augmentant l'activité des cellules T et des cellules tueuses naturelles, qui aident à protéger votre corps de l'infection. Les personnes âgées qui complètent avec l'expérience du zinc ont une réponse de vaccination de la grippe améliorée, un risque de pneumonie et une performance mentale renforcée.",
-            "LINK1": "Instituts de santé nationaux, États-Unis",
-            "HEAD2": "Accélération de la cicatrisation des plaies",
-            "DESC2": "Le zinc est couramment utilisé dans les hôpitaux comme traitement des brûlures, de certains ulcères et d'autres blessures à la peau. En fait, votre peau détient une quantité relativement élevée - environ 5% - du contenu du zinc de votre corps.",
-            "LINK2": "Étude de l'American Heart Association",
-            "HEAD3": "Diminue l'inflammation",
-            "DESC3": "Diminue le stress oxydatif et réduit les niveaux de certaines protéines inflammatoires de votre corps. Le stress oxydatif entraîne une inflammation chronique, un facteur contribuant dans une vaste gamme de maladies chroniques, telles que la maladie cardiaque, le cancer et le déclin mentale."
-        },
-        "P6": {
-            "ABOUT": "Suivez vos hanches, votre taille et votre poitrine sur votre Apple Watch. Calcule automatiquement la forme du corps à l'aide de la formule Bradley Bayou. Prise en charge complète d'Apple Health. Sauvegardes iCloud. Temps de chargement rapide. Complétement gratuit.",
-            "HEAD1": "La composition corporelle",
-            "DESC1": "Lorsque vous gagnez du muscle et que vous perdez des pouces de graisse, votre poids pourrait ne pas changer beaucoup. C'est pourquoi la composition corporelle peut vous dire plus que la balance, il vous raconte la vraie histoire.",
-            "LINK1": "Santé en ligne",
-            "HEAD2": "Poitrine",
-            "DESC2": "Pourquoi mesurer? Nous ne sommes au courant d'aucun besoin médical ou de bien-être. Cependant, la largeur de la poitrine (buste) est l'une des mesures les plus importantes des proportions parfaites du corps. On pense que les proportions correctes sont plus attrayantes que la taille ou la hauteur globale du corps.",
-            "HEAD3": "Taille",
-            "HEAD4": "les hanches",
-            "DESC4": "Les preuves montrent que la graisse autour des cuisses et de l'arrière est plus difficile à déplacer que la graisse autour de la taille. Le ratio de taille à hanches est couramment utilisé comme indicateur ou mesure de la santé et le risque de développer des conditions de santé graves.",
-            "HEAD5": "Forme du corps",
-            "DESC5": "Votre corps a-t-il la forme d'une pomme 🍎 ou d'une poire 🍐? Ou peut-être un sablier ? Découvrir la vraie forme de votre corps est plus qu'un de ces tests en ligne inutiles. Comprendre la forme de votre corps peut vous aider à découvrir l'entraînement le plus efficace. Des études suggèrent que cela peut aider à améliorer votre santé."
-        },
-        "P7": {
-            "ABOUT_1": "Stress 😠, anxiété 😬, dépression☹️ ou sautes d'humeur ? Les événements économiques, politiques et sociaux actuels contribuent beaucoup à notre niveau de stress et de nombreuses personnes subissent des changements d'humeur même au cours de la même journée.",
-            "ABOUT_2": "Dans l'incertitude générale quant à notre position et à quoi s'attendre ensuite, l'incapacité de prédire à quoi s'attendre dans le futur affecte notre humeur de manière négative. Cette incertitude semble être une nouvelle norme dans notre vie.",
-            "HEAD1": "Comment ça marche?",
-            "DESC1_1": "Regardez l'anneau coloré et sélectionnez la couleur que vous préférez. Il reste 7 couleurs. Parmi les 7 couleurs, sélectionnez celle qui vous plaît le plus maintenant, et ainsi de suite jusqu'à épuisement des couleurs. Ensuite, vous répétez la routine ci-dessus. Lorsque vous le répétez, n'essayez pas de reproduire la sélection précédente. Oubliez cela et ne sélectionnez que les couleurs en fonction de vos préférences à ce moment précis. Laissez votre sous-esprit faire le travail.",
-            "DESC1_2": "The key to this test success is to select colors you like right at this moment. Do NOT try to associate colors with objects, — cars, clothes, buildings, etc. Just select the color you like the best at this particular moment. On average, it takes less than one minute to get to the results.",
-            "HEAD2": "Pourquoi ça marche ?",
-            "DESC2_1": "Les couleurs ont entouré l'humanité depuis la nuit des temps, ont influencé les humains pendant des générations. Au début, la vie humaine était gouvernée par deux facteurs incontrôlables : la nuit et le jour. Lumière et ténèbres. Pendant des milliers d'années, les actions de l'homme, telles que l'attaque (rouge) ou la retraite (vert) ont été intégrées dans le submental. Les couleurs de la nature ont eu leur influence sur nous, et ces influences sont profondément enracinées dans nos sous-esprits. Les couleurs et leur signification subconsciente sont là, qu'on le veuille ou non. Cette signification est indépendante de la race, de la langue, du niveau d'éducation, du statut social, etc.",
-            "DESC2_2": "Pour cette raison, un test de couleur est un outil optimal pour analyser les conflits familiaux, les problèmes de la vie personnelle, les changements d'humeur occasionnels et même pour effectuer des examens psychologiques médico-légaux.",
-            "HEAD3": "Cas d'utilisation",
-            "DESC3_1": "Certaines organisations utilisent des tests de couleur pour contrôler la dynamique des sphères volitives et émotionnelles des athlètes à la fois pendant l'entraînement et pendant la compétition. Cela permet à l'entraîneur d'anticiper à l'avance et d'éliminer délibérément les pannes dues à l'épuisement de l'énergie ou des capacités volitives des athlètes.",
-            "DESC3_2": "Plusieurs sources suggèrent que certains tests de couleur fonctionnent même en cas de vision des couleurs défectueuse ou même de daltonisme réel, car l'acceptabilité d'une couleur particulière est somatique. Dans un besoin de libération de tension ou de stress, alors la réponse instinctive sera de choisir les couleurs les plus sombres. S'il est nécessaire de dissiper de l'énergie, la réponse instinctive sera pour les couleurs les plus vives.",
-            "HEAD4": "Sûr et sécurisé",
-            "DESC4": "La confidentialité n'est pas quelque chose à laquelle vous avez simplement droit, c'est une condition préalable absolue. Nous n'envoyons pas vos données à nos serveurs, nous ne les partageons avec aucun tiers et ne seront jamais utilisées à des fins publicitaires. Vos données sont uniquement stockées sur votre service Apple (Apple Health store et iCloud). Nous ne stockons PAS vos données sur nos serveurs.",
-            "HEAD5": "AVERTISSEMENT",
-            "DESC5_1": "Tout le contenu trouvé sur le site Web martpsec.com et nos applications mobiles ont été créés à des fins d'information uniquement. Il n'est pas destiné à remplacer un avis médical professionnel, un diagnostic ou un traitement.",
-            "DESC5_2": "Utilisez notre logiciel à vos risques et périls. Il est fourni « tel quel » et « tel que disponible ». Martspec ne garantit pas que nos applications et/ou tout contenu qu'elles contiennent répondront à vos exigences, ou seront ininterrompus, opportuns, sécurisés, à jour, exacts, complets ou sans erreur ou que les résultats qui peuvent être obtenus par l'utilisation du site et/ou tout contenu de celui-ci sera exact ou fiable. Vous comprenez et reconnaissez que votre seul et unique recours en cas de défaut ou d'insatisfaction à l'égard de l'application consiste à cesser d'utiliser l'application."
-        }
     },
     "MISSION": {
         "HEAD": "Mission",
@@ -212,391 +193,381 @@
         "P7": "C'est pourquoi toutes nos applications sont disponibles gratuitement. Nous n'avons aucune monétisation, ne montrons pas de publicités et n'utilisons jamais de données personnelles à des fins lucratives."
     },
     "PP": {
-        "HEAD": "Privacy Policy",
-        "DATE": "Last updated: August 20, 2022",
-        "P1": "Protecting your private information is our priority. This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use any of our mobile apps, visit our website at martspec.com or engage with us in other related ways - including sales, marketing or events.",
-        "P2": "The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.",
-        "P3": "We use Your Personal data to provide and improve the Service. By using the Service or any our mobile apps, You agree to the collection and use of information in accordance with this Privacy Policy.",
-
+        "HEAD": "Politique de confidentialité",
+        "DATE": "Dernière mise à jour : 20 août 2022",
+        "P1": "La protection de vos informations privées est notre priorité. Cette politique de confidentialité décrit nos politiques et procédures sur la collecte, l'utilisation et la divulgation de vos informations lorsque vous utilisez l'une de nos applications mobiles, visitez notre site Web à martspec.com ou interagissez avec nous d'autres manières connexes - y compris les ventes, le marketing ou les événements.",
+        "P2": "Le but de cet avis de confidentialité est de vous expliquer de la manière la plus claire possible quelles informations nous collectons, comment nous les utilisons et quels droits vous avez par rapport à celles-ci. S'il y a des termes dans cet avis de confidentialité avec lesquels vous n'êtes pas d'accord, veuillez cesser immédiatement d'utiliser nos services.",
+        "P3": "Nous utilisons vos données personnelles pour fournir et améliorer le service. En utilisant le Service ou l'une de nos applications mobiles, vous acceptez la collecte et l'utilisation d'informations conformément à la présente politique de confidentialité.",
         "DEFINITION": {
-            "HEAD": "Interpretation and Definitions",
-            "P1": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.",
-            "P2": "For the purposes of this Privacy Policy:",
+            "HEAD": "Interprétation et définitions",
+            "P1": "Les mots dont la lettre initiale est en majuscule ont des significations définies dans les conditions suivantes. Les définitions suivantes auront la même signification qu'elles apparaissent au singulier ou au pluriel.",
+            "P2": "Aux fins de la présente politique de confidentialité :",
             "UL": {
                 "ACCOUNT": {
-                    "STRONG": "Account",
-                    "P1": " means a unique account created for You to access our Service or parts of our Service."
+                    "STRONG": "Compte",
+                    "P1": " désigne un compte unique créé pour vous permettre d'accéder à notre service ou à des parties de notre service."
                 },
                 "APP": {
-                    "STRONG": "App",
-                    "P1": " refers to any mobile application of ours that references or links to this policy and designed for smarge phone, wearable device, tablet or computer."
+                    "STRONG": "Application",
+                    "P1": " fait référence à toute application mobile de la nôtre qui fait référence ou est liée à cette politique et conçue pour les téléphones intelligents, les appareils portables, les tablettes ou les ordinateurs."
                 },
-                "BUSINESS":{
-                    "STRONG": "Business",
-                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), refers to the Company as the legal entity that collects Consumers' personal information and determines the purposes and means of the processing of Consumers' personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California."
+                "BUSINESS": {
+                    "STRONG": "Entreprise",
+                    "P1": ", aux fins du CCPA (California Consumer Privacy Act), désigne la Société en tant qu'entité juridique qui collecte les informations personnelles des Consommateurs et détermine les finalités et les moyens du traitement des informations personnelles des Consommateurs, ou pour le compte de laquelle ces informations sont collectées et qui, seules ou conjointement avec d'autres, déterminent les finalités et les moyens du traitement des informations personnelles des consommateurs, qui font des affaires dans l'État de Californie."
                 },
-                "COMPANY":{
-                    "STRONG": "Company",
-                    "P1": " (referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement) refers to Martspec LLC, Austin, TX 78749."
+                "COMPANY": {
+                    "STRONG": "Compagnie",
+                    "P1": " (ci-après dénommée \"la Société\", \"Nous\", \"Nous\" ou \"Notre\" dans le présent Contrat) fait référence à Martspec LLC, Austin, TX 78749."
                 },
-                "CONSUMER":{
-                    "STRONG": "Consumer",
-                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), means a natural person who is a California resident. A resident, as defined in the law, includes (1) every individual who is in the USA for other than a temporary or transitory purpose, and (2) every individual who is domiciled in the USA who is outside the USA for a temporary or transitory purpose."
+                "CONSUMER": {
+                    "STRONG": "Consommateur (Consommatrice)",
+                    "P1": ", aux fins du CCPA (California Consumer Privacy Act), désigne une personne physique qui est un résident de Californie. Un résident, tel que défini dans la loi, comprend (1) toute personne qui se trouve aux États-Unis à des fins autres que temporaires ou transitoires, et (2) toute personne domiciliée aux États-Unis qui se trouve en dehors des États-Unis à des fins temporaires ou transitoires finalité transitoire."
                 },
-                "COOKIES":{
+                "COOKIES": {
                     "STRONG": "Cookies",
-                    "P1": " are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses."
+                    "P1": " sont de petits fichiers qui sont placés sur votre ordinateur, appareil mobile ou tout autre appareil par un site Web, contenant les détails de votre historique de navigation sur ce site Web parmi ses nombreuses utilisations."
                 },
-                "COUNTRY":{
-                    "STRONG": "Country",
-                    "P1": " refers to: Texas, United States"
+                "COUNTRY": {
+                    "STRONG": "De campagne",
+                    "P1": " fait référence à : Texas, États-Unis"
                 },
-                "DEVICE":{
-                    "STRONG": "Device",
-                    "P1": " means any device that can access the Service such as a computer, a cellphone or a digital tablet."
+                "DEVICE": {
+                    "STRONG": "Appareil",
+                    "P1": " désigne tout appareil pouvant accéder au Service tel qu'un ordinateur, un téléphone portable ou une tablette numérique."
                 },
-                "PERSONAL_DATA":{
-                    "STRONG": "Personal Data",
-                    "P1": " is any information that relates to an identified or identifiable individual.",
-                    "P2": "For the purposes of the CCPA, Personal Data means any information that identifies, relates to, describes or is capable of being associated with, or could reasonably be linked, directly or indirectly, with You."
+                "PERSONAL_DATA": {
+                    "STRONG": "Données personnelles",
+                    "P1": " désigne toute information relative à une personne identifiée ou identifiable.",
+                    "P2": "Aux fins du CCPA, les données personnelles désignent toute information qui vous identifie, se rapporte à, décrit ou est susceptible d'être associée à, ou pourrait raisonnablement être liée, directement ou indirectement, à vous."
                 },
-                "SALE":{
-                    "STRONG": "Sale",
-                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), means selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a Consumer's Personal information to another business or a third party for monetary or other valuable consideration."
+                "SALE": {
+                    "STRONG": "Vente",
+                    "P1": ", aux fins du CCPA (California Consumer Privacy Act), signifie vendre, louer, divulguer, divulguer, diffuser, mettre à disposition, transférer ou autrement communiquer oralement, par écrit, par voie électronique ou autre, les informations personnelles d'un consommateur à un autre entreprise ou un tiers moyennant une contrepartie monétaire ou autre contrepartie de valeur."
                 },
-                "SERVICE":{
-                    "STRONG": "Service",
-                    "P1": " refers to our Website, App, and other related services, including any sales, marketing, or events."
+                "SERVICE": {
+                    "STRONG": "Un service",
+                    "P1": " fait référence à notre site Web, à notre application et à d'autres services connexes, y compris les ventes, le marketing ou les événements."
                 },
-                "SERVICE_PROVIDER":{
-                    "STRONG": "Service Provider",
-                    "P1": " means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used."
+                "SERVICE_PROVIDER": {
+                    "STRONG": "Fournisseur de services",
+                    "P1": " désigne toute personne physique ou morale qui traite les données pour le compte de la Société. Il fait référence à des sociétés tierces ou à des personnes employées par la Société pour faciliter le Service, pour fournir le Service au nom de la Société, pour effectuer des services liés au Service ou pour aider la Société à analyser la manière dont le Service est utilisé."
                 },
-                "THIRD_PARTY_MEDIA":{
-                    "STRONG": "Third-party Social Media Service",
-                    "P1": " refers to any website or any social network website through which a User can log in or create an account to use the Service."
+                "THIRD_PARTY_MEDIA": {
+                    "STRONG": "Service de médias sociaux tiers",
+                    "P1": " désigne tout site Internet ou tout site Internet de réseau social par l'intermédiaire duquel un Utilisateur peut se connecter ou créer un compte pour utiliser le Service."
                 },
-                "USAGE_DATA":{
-                    "STRONG": "Usage Data",
-                    "P1": " refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit)."
+                "USAGE_DATA": {
+                    "STRONG": "Données d'utilisation",
+                    "P1": " fait référence aux données collectées automatiquement, soit générées par l'utilisation du Service, soit à partir de l'infrastructure du Service elle-même (par exemple, la durée d'une visite de page)."
                 },
-                "WEBSITE":{
-                    "STRONG": "Website",
-                    "P1": " refers to Martspec, accessible from ",
+                "WEBSITE": {
+                    "STRONG": "Le site Web",
+                    "P1": " fait référence à Martspec, accessible depuis ",
                     "A": "https://martspec.com/"
                 },
-                "YOU":{
-                    "STRONG": "You",
-                    "P1": " means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."
+                "YOU": {
+                    "STRONG": "Toi",
+                    "P1": " désigne la personne accédant ou utilisant le Service, ou la société ou toute autre entité juridique au nom de laquelle cette personne accède ou utilise le Service, selon le cas."
                 }
             }
         },
-
         "TYPES_OF_DATA": {
-            "HEAD4": "Types of Data Collected",
+            "HEAD4": "Types de données collectées",
             "HEAD5": {
-                "PERSONAL_DATA": "Personal Data",
-                "USAGE_DATA": "Usage Data",
-                "INFORMATION_COLLECTED": "Information Collected on Device with our App"
+                "PERSONAL_DATA": "Données personnelles",
+                "USAGE_DATA": "Données d'utilisation",
+                "INFORMATION_COLLECTED": "Informations collectées sur l'appareil avec notre application"
             },
-            "P1": "While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:",
-            "P2": "Usage Data is collected automatically when using the Service.",
-            "P3": "Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.",
-            "P4": "When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.",
-            "P5": "We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.",
-            "P6": "We may request access or permission to certain features from your device, including your mobile device's and other features. If you wish to change our access or permissions, you may do so in your device's settings. This information is primarily needed to maintain the security and operation of our App, for troubleshooting and for our internal analytics and reporting purposes.",
+            "P1": "Lors de l'utilisation de notre service, nous pouvons vous demander de nous fournir certaines informations personnellement identifiables qui peuvent être utilisées pour vous contacter ou vous identifier. Les informations personnellement identifiables peuvent inclure, mais sans s'y limiter :",
+            "P2": "Les données d'utilisation sont collectées automatiquement lors de l'utilisation du service.",
+            "P3": "Les données d'utilisation peuvent inclure des informations telles que l'adresse de protocole Internet de votre appareil (par exemple, l'adresse IP), le type de navigateur, la version du navigateur, les pages de notre service que vous visitez, l'heure et la date de votre visite, le temps passé sur ces pages, l'appareil unique identifiants et autres données de diagnostic.",
+            "P4": "Lorsque vous accédez au service par ou via un appareil mobile, nous pouvons collecter automatiquement certaines informations, y compris, mais sans s'y limiter, le type d'appareil mobile que vous utilisez, l'identifiant unique de votre appareil mobile, l'adresse IP de votre appareil mobile, votre système d'exploitation, le type de navigateur Internet mobile que vous utilisez, les identifiants uniques de l'appareil et d'autres données de diagnostic.",
+            "P5": "Nous pouvons également collecter des informations que votre navigateur envoie chaque fois que vous visitez notre service ou lorsque vous accédez au service par ou via un appareil mobile.",
+            "P6": "Nous pouvons demander l'accès ou l'autorisation à certaines fonctionnalités de votre appareil, y compris celles de votre appareil mobile et d'autres fonctionnalités. Si vous souhaitez modifier notre accès ou nos autorisations, vous pouvez le faire dans les paramètres de votre appareil. Ces informations sont principalement nécessaires pour maintenir la sécurité et le fonctionnement de notre application, pour le dépannage et pour nos analyses internes et nos rapports.",
             "UL1": {
-                "EMAIL": "Email address",
-                "FIRST_LAST_NAMES": "First name and last name",
-                "USAGE_DATA": "Usage Data"
+                "EMAIL": "Adresse e-mail",
+                "FIRST_LAST_NAMES": "Prénom et nom",
+                "USAGE_DATA": "Données d'utilisation"
             },
             "UL2": {
                 "MOBILE_ACCESS": {
-                    "STRONG": "Mobile Device Access. ",
-                    "TEXT": " We may request access or permission to certain features from your mobile device, including your mobile device's apple health, and other features. If you wish to change our access or permissions, you may do so in your device's settings."
+                    "STRONG": "Accès aux appareils mobiles. ",
+                    "TEXT": " Nous pouvons demander l'accès ou l'autorisation à certaines fonctionnalités de votre appareil mobile, y compris la santé Apple de votre appareil mobile et d'autres fonctionnalités. Si vous souhaitez modifier notre accès ou nos autorisations, vous pouvez le faire dans les paramètres de votre appareil."
                 },
                 "MOBILE_DATA": {
-                    "STRONG": "Mobile Device Data.",
-                    "TEXT": " We automatically collect device information (such as your mobile device ID, model and manufacturer), operating system, version information and system configuration information, device and application identification numbers, browser type and version, hardware model, and Internet Protocol (IP) address (or proxy server). If you are using our App, we may also collect information about the phone network associated with your mobile device, your mobile device’s operating system or platform, the type of mobile device you use, your mobile device’s unique device ID and information about the features of our App you accessed."
+                    "STRONG": "Données des appareils mobiles.",
+                    "TEXT": " Nous recueillons automatiquement des informations sur l'appareil (telles que l'ID, le modèle et le fabricant de votre appareil mobile), le système d'exploitation, les informations de version et les informations de configuration du système, les numéros d'identification de l'appareil et de l'application, le type et la version du navigateur, le modèle de matériel et l'adresse IP (Internet Protocol) ( ou serveur proxy). Si vous utilisez notre application, nous pouvons également collecter des informations sur le réseau téléphonique associé à votre appareil mobile, le système d'exploitation ou la plate-forme de votre appareil mobile, le type d'appareil mobile que vous utilisez, l'identifiant unique de votre appareil mobile et des informations sur les fonctionnalités de notre application à laquelle vous avez accédé."
                 },
                 "PUSH_NOTIFICATIONS": {
-                    "STRONG": "Push Notifications.",
-                    "TEXT": " We may request to send you push notifications regarding your account or certain features of the App. If you wish to opt-out from receiving these types of communications, you may turn them off in your device's settings."
+                    "STRONG": "Notifications push.",
+                    "TEXT": " Nous pouvons vous demander de vous envoyer des notifications push concernant votre compte ou certaines fonctionnalités de l'Application. Si vous souhaitez refuser de recevoir ces types de communications, vous pouvez les désactiver dans les paramètres de votre appareil."
                 }
             }
         },
-
         "TRACKING": {
-            "HEAD4": "Tracking Technologies",
-            "HEAD5": "Control for DO-NOT-TRACK features",
+            "HEAD4": "Technologies de suivi",
+            "HEAD5": "Contrôle des fonctionnalités DO-NOT-TRACK",
             "P1": {
-                "TEXT": "We use Cookies or similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies might include\nbut not limited to beacons, browser session storage, Cookies, tags, and scripts to collect and track information and to improve and analyze Our Service.\nYou can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent.\nLearn more about cookies: ",
-                "A": "All About Cookies"
+                "TEXT": "Nous utilisons des cookies ou des technologies de suivi similaires pour suivre l'activité sur notre service et stocker certaines informations. Les technologies de suivi peuvent inclure\nmais sans s'y limiter, les balises, le stockage de session de navigateur, les cookies, les balises et les scripts pour collecter et suivre les informations et pour améliorer et analyser notre service.\nVous pouvez demander à votre navigateur de refuser tous les cookies ou d'indiquer quand un cookie est en cours d'envoi.\nEn savoir plus sur les cookies : ",
+                "A": "Tout sur les cookies"
             },
-            "P2": "We use \"Persistent\" (remain on your personal computer or mobile device when You go offline) and \"Session\" (deleted as soon as You close your web browser)\ntracking technology for the purposes set out below:",
-            "P3": "Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (\"DNT\") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.",
+            "P2": "Nous utilisons la technologie \"Persistant\" (reste sur votre ordinateur personnel ou appareil mobile lorsque vous vous déconnectez) et \"Session\" (supprimé dès que vous fermez votre navigateur Web)\nla technologie de suivi aux fins décrites ci-dessous:",
+            "P3": "La plupart des navigateurs Web et certains systèmes d'exploitation mobiles et applications mobiles incluent une fonctionnalité ou un paramètre Do-Not-Track (\"DNT\") que vous pouvez activer pour signaler votre préférence en matière de confidentialité pour que les données sur vos activités de navigation en ligne ne soient pas surveillées et collectées. À ce stade, aucune norme technologique uniforme pour la reconnaissance et la mise en œuvre des signaux DNT n'a été finalisée. En tant que tel, nous ne répondons pas actuellement aux signaux du navigateur DNT ou à tout autre mécanisme qui communique automatiquement votre choix de ne pas être suivi en ligne. Si une norme de suivi en ligne est adoptée que nous devons suivre à l'avenir, nous vous informerons de cette pratique dans une version révisée de cet avis de confidentialité.",
             "UL": {
                 "NECESSARY": {
-                    "P1": "Necessary / Essential",
-                    "P2": "Type: Session",
-                    "P3": "Administered by: Us",
-                    "P4": "Purpose: To provide You with services available through the Website and to enable You to use some of its features. It helps to authenticate users\nand prevent fraudulent use of user accounts. Without it the services that You have asked for cannot be provided, and We only use these to provide You with those services."
+                    "P1": "Nécessaire / Essentiel",
+                    "P2": "Genre : Séance",
+                    "P3": "Administré par : Nous",
+                    "P4": "Objectif : vous fournir les services disponibles via le site Web et vous permettre d'utiliser certaines de ses fonctionnalités. Il permet d'authentifier les utilisateurs\net d'empêcher l'utilisation frauduleuse des comptes d'utilisateurs. Sans cela, les services que vous avez demandés ne peuvent pas être fournis, et nous les utilisons uniquement pour vous fournir ces services."
                 },
                 "FUNCTIONALITY": {
-                    "P1": "Functionality",
-                    "P2": "Type: Persistent",
-                    "P3": "Administered by: Us",
-                    "P4": "Purpose: Allows us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website."
+                    "P1": "Fonctionnalité",
+                    "P2": "Type : Persistant",
+                    "P3": "Administré par : Nous",
+                    "P4": "Objectif : nous permet de mémoriser les choix que vous faites lorsque vous utilisez le site Web, tels que la mémorisation de vos informations de connexion ou de votre préférence de langue. Celles-ci ont pour but de Vous offrir une expérience plus personnelle et de Vous éviter d'avoir à ressaisir vos préférences à chaque fois que Vous utilisez le Site."
                 }
             }
         },
-
         "PERSONAL_DATA": {
             "USE": {
-                "HEAD4": "Use of Your Personal Data",
+                "HEAD4": "Utilisation de vos données personnelles",
                 "HEAD5": {
-                    "DISCLOSE": "Disclose of your personal information may happen in the following situations:",
-                    "USE": "Use of your Personal Data might be for the following purposes:",
-                    "SHARING": "Sharing of your personal information might be in the following situations:"
+                    "DISCLOSE": "La divulgation de vos informations personnelles peut se produire dans les situations suivantes :",
+                    "USE": "L'utilisation de vos données personnelles peut être aux fins suivantes :",
+                    "SHARING": "Le partage de vos informations personnelles peut se produire dans les situations suivantes :"
                 },
                 "UL1": {
                     "LAW_ENFORCEMENT": {
-                        "STRONG": "Law Enforcement:",
-                        "TEXT": " We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements)."
+                        "STRONG": "Forces de l'ordre :",
+                        "TEXT": " Nous pouvons divulguer vos informations lorsque nous sommes légalement tenus de le faire afin de nous conformer à la loi applicable, aux demandes gouvernementales, à une procédure judiciaire, à une ordonnance d'un tribunal ou à une procédure judiciaire, par exemple en réponse à une ordonnance d'un tribunal ou à une citation à comparaître (y compris en réponse aux autorités publiques pour répondre aux exigences de sécurité nationale ou d'application de la loi)."
                     },
                     "BUSINESS_TRANSFER": {
-                        "STRONG": "For Business Transfers:",
-                        "TEXT": " We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company."
+                        "STRONG": "Pour les transferts d'entreprise :",
+                        "TEXT": " Nous pouvons partager ou transférer vos informations dans le cadre de, ou pendant les négociations de, toute fusion, vente d'actifs de la société, financement ou acquisition de tout ou partie de nos activités à une autre société."
                     },
                     "OTHER": {
-                        "STRONG": "Other legal requirements:",
-                        "TEXT": " The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:",
+                        "STRONG": "Autres exigences légales :",
+                        "TEXT": " La Société peut divulguer vos données personnelles en croyant de bonne foi qu'une telle action est nécessaire pour :",
                         "UL": {
-                            "L1": "Comply with a legal obligation",
-                            "L2": "Protect and defend the rights or property of the Company",
-                            "L3": "Prevent or investigate possible wrongdoing in connection with the Service",
-                            "L4": "Protect the personal safety of Users of the Service or the public",
-                            "L5": "Protect against legal liability"
+                            "L1": "Respecter une obligation légale",
+                            "L2": "Protéger et défendre les droits ou la propriété de la Société",
+                            "L3": "Prévenir ou enquêter sur d'éventuels actes répréhensibles en rapport avec le Service",
+                            "L4": "Protéger la sécurité personnelle des Utilisateurs du Service ou du public",
+                            "L5": "Protégez-vous contre la responsabilité légale"
                         }
                     }
                 },
                 "UL2": {
                     "L1": {
-                        "STRONG": "To provide and maintain our Service",
-                        "TEXT": ", including to monitor the usage of our Service."
+                        "STRONG": "Pour fournir et maintenir notre Service",
+                        "TEXT": ", y compris pour surveiller l'utilisation de notre service."
                     },
                     "L2": {
-                        "STRONG": "To manage Your Account:",
-                        "TEXT": " to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user."
+                        "STRONG": "Pour gérer votre compte :",
+                        "TEXT": " pour gérer Votre inscription en tant qu'utilisateur du Service. Les données personnelles que vous fournissez peuvent vous donner accès à différentes fonctionnalités du service qui sont à votre disposition en tant qu'utilisateur enregistré."
                     },
                     "L3": {
-                        "STRONG": "For the performance of a contract:",
-                        "TEXT": " Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract."
+                        "STRONG": "Pour l'exécution d'un contrat :",
+                        "TEXT": " Lorsque nous avons conclu un contrat avec vous, nous pouvons traiter vos informations personnelles pour respecter les termes de notre contrat."
                     },
                     "L4": {
-                        "STRONG": "To contact You:",
-                        "TEXT": " To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation."
+                        "STRONG": "Te contacter :",
+                        "TEXT": " Pour vous contacter par e-mail, appels téléphoniques, SMS ou autres formes équivalentes de communication électronique, telles que les notifications push d'une application mobile concernant les mises à jour ou les communications informatives liées aux fonctionnalités, produits ou services sous contrat, y compris les mises à jour de sécurité, lorsque cela est nécessaire ou raisonnable pour leur mise en œuvre."
                     },
                     "L5": {
-                        "STRONG": "To provide You",
-                        "TEXT": " with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information."
+                        "STRONG": "Pour vous fournir",
+                        "TEXT": " avec des nouvelles, des offres spéciales et des informations générales sur d'autres biens, services et événements que nous proposons qui sont similaires à ceux que vous avez déjà achetés ou demandés, sauf si vous avez choisi de ne pas recevoir ces informations."
                     },
                     "L6": {
-                        "STRONG": "For Legitimate Interests:",
-                        "TEXT": " We may process your data when it is reasonably necessary to achieve our legitimate business interests."
+                        "STRONG": "Pour les intérêts légitimes :",
+                        "TEXT": " Nous pouvons traiter vos données lorsque cela est raisonnablement nécessaire pour atteindre nos intérêts commerciaux légitimes."
                     },
                     "L7": {
-                        "STRONG": "To manage Your requests:",
-                        "TEXT": " To attend and manage Your requests to Us."
+                        "STRONG": "Pour gérer Vos demandes :",
+                        "TEXT": " Pour assister et gérer vos demandes envers nous."
                     },
                     "L8": {
-                        "STRONG": "Request feedback.",
-                        "TEXT": " We may use your information to request feedback and to contact you about your use of our Services."
+                        "STRONG": "Demandez des commentaires.",
+                        "TEXT": " Nous pouvons utiliser vos informations pour demander des commentaires et vous contacter au sujet de votre utilisation de nos Services."
                     }
                 },
                 "UL3": {
                     "L1": {
-                        "STRONG": "With Service Providers:",
-                        "TEXT": " We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You."
+                        "STRONG": "Avec les fournisseurs de services :",
+                        "TEXT": " Nous pouvons partager vos informations personnelles avec des fournisseurs de services pour surveiller et analyser l'utilisation de notre service, pour vous contacter."
                     },
                     "L2": {
-                        "STRONG": "For Business transfers:",
-                        "TEXT": " We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of our business to another company."
+                        "STRONG": "Pour les transferts d'entreprise :",
+                        "TEXT": " Nous pouvons partager ou transférer vos informations personnelles dans le cadre de ou pendant les négociations de toute fusion, vente des actifs de la société, financement ou acquisition de tout ou partie de nos activités à une autre société."
                     },
                     "L3": {
-                        "STRONG": "With Affiliates:",
-                        "TEXT": " We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us."
+                        "STRONG": "Avec les affiliés :",
+                        "TEXT": " Nous pouvons partager vos informations avec nos affiliés, auquel cas nous exigerons de ces affiliés qu'ils respectent la présente politique de confidentialité. Les sociétés affiliées incluent notre société mère et toutes autres filiales, partenaires de coentreprise ou autres sociétés que nous contrôlons ou qui sont sous contrôle commun avec nous."
                     },
                     "L4": {
-                        "STRONG": "With Business partners:",
-                        "TEXT": " We may share Your information with Our business partners to offer You certain products, services or promotions."
+                        "STRONG": "Avec les partenaires commerciaux :",
+                        "TEXT": " Nous pouvons partager vos informations avec nos partenaires commerciaux pour vous proposer certains produits, services ou promotions."
                     },
                     "L5": {
-                        "STRONG": "With other users:",
-                        "TEXT": " when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. If You interact with other users or register through a Third-Party Social Media Service, Your contacts on the Third-Party Social Media Service may see Your name, profile, pictures and description of Your activity. Similarly, other users will be able to view descriptions of Your activity, communicate with You and view Your profile."
+                        "STRONG": "Avec d'autres utilisateurs :",
+                        "TEXT": " lorsque vous partagez des informations personnelles ou interagissez autrement dans les espaces publics avec d'autres utilisateurs, ces informations peuvent être vues par tous les utilisateurs et peuvent être diffusées publiquement à l'extérieur. Si vous interagissez avec d'autres utilisateurs ou que vous vous inscrivez via un service de médias sociaux tiers, vos contacts sur le service de médias sociaux tiers peuvent voir votre nom, votre profil, vos photos et la description de votre activité. De même, les autres utilisateurs pourront voir les descriptions de Votre activité, communiquer avec Vous et consulter Votre profil."
                     }
                 }
             },
             "RETENTION": {
-                "HEAD4": "Retention of Your Personal Data",
-                "P1": "The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy\nPolicy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example,\nif we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements\nand policies.",
-                "P2": "The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time,\nexcept when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated\nto retain this data for longer time periods.",
-                "P3": "When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such\ninformation, or, if this is not possible (for example, because your personal information has been stored in backup archives), then\nwe will securely store your personal information and isolate it from any further processing until deletion is possible."
+                "HEAD4": "Conservation de vos données personnelles",
+                "P1": "La Société ne conservera vos données personnelles que le temps nécessaire aux fins énoncées dans la présente politique\nde confidentialité. Nous conserverons et utiliserons vos données personnelles dans la mesure nécessaire pour nous conformer à nos obligations légales (par exemple,\nsi nous sommes tenus de conserver vos données pour nous conformer aux lois applicables), résoudre les litiges et appliquer nos accords légaux\net nos politiques.",
+                "P2": "La Société conservera également les données d'utilisation à des fins d'analyse interne. Les données d'utilisation sont généralement conservées pendant une période plus courte,\nsauf lorsque ces données sont utilisées pour renforcer la sécurité ou pour améliorer la fonctionnalité de notre service, ou lorsque nous sommes légalement tenus\nde conserver ces données pendant des périodes plus longues.",
+                "P3": "Lorsque nous n'avons aucun besoin commercial légitime de traiter vos informations personnelles, nous supprimerons ou anonymiserons ces\ninformations, ou, si cela n'est pas possible (par exemple, parce que vos informations personnelles ont été stockées dans des archives de sauvegarde), alors\nnous stockera en toute sécurité vos informations personnelles et les isolera de tout traitement ultérieur jusqu'à ce que la suppression soit possible."
             },
             "TRANSFER": {
-                "HEAD4": "Transfer of Your Personal Data",
-                "P1": "Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.",
-                "P2": "By using our Service you consent to this Privacy Policy and Your agreement to that transfer.",
-                "P3": "The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information."
+                "HEAD4": "Transfert de vos données personnelles",
+                "P1": "Vos informations, y compris les données personnelles, sont traitées dans les bureaux d'exploitation de la société et dans tout autre lieu où se trouvent les parties impliquées dans le traitement. Cela signifie que ces informations peuvent être transférées et conservées sur des ordinateurs situés en dehors de votre état, province, pays ou autre juridiction gouvernementale où les lois sur la protection des données peuvent différer de celles de votre juridiction.",
+                "P2": "En utilisant notre service, vous consentez à cette politique de confidentialité et à votre accord pour ce transfert.",
+                "P3": "La société prendra toutes les mesures raisonnablement nécessaires pour garantir que vos données sont traitées en toute sécurité et conformément à la présente politique de confidentialité et aucun transfert de vos données personnelles n'aura lieu vers une organisation ou un pays à moins que des contrôles adéquats ne soient en place, y compris la sécurité de Vos données et autres informations personnelles."
             },
             "SECURITY": {
-                "HEAD4": "Security of Your Personal Data",
-                "P": "The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security."
+                "HEAD4": "Sécurité de vos données personnelles",
+                "P": "La sécurité de vos données personnelles est importante pour nous, mais n'oubliez pas qu'aucune méthode de transmission sur Internet ou méthode de stockage électronique n'est sécurisée à 100 %. Bien que nous nous efforcions d'utiliser des moyens commercialement acceptables pour protéger vos données personnelles, nous ne pouvons garantir leur sécurité absolue."
             }
         },
-
         "CHILD": {
-            "HEAD4": "Children Under Thirteen",
-            "P": "We do not knowingly collect personally identifiable information from children under the age of thirteen. If you are under the age of thirteen, you must\nask your parent or guardian for permission to use this Service or any of our mobile applications."
+            "HEAD4": "Enfants de moins de treize ans",
+            "P": "Nous ne collectons pas sciemment des informations personnellement identifiables auprès d'enfants de moins de treize ans. Si vous avez moins de treize ans, vous devez\ndemander à votre parent ou tuteur l'autorisation d'utiliser ce Service ou l'une de nos applications mobiles."
         },
-
         "RIGHTS": {
-            "HEAD4": "What are your Privacy Rights ?",
-            "HEAD5": "Account Information",
-            "P1": "In some regions (like the EEA and UK), you have certain rights under applicable data protection laws. These may include the right (i) to\nrequest access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing\nof your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object\nto the processing of your personal information. To make such a request, please use the <b>contact details</b> provided below. We will\nconsider and act upon any request in accordance with applicable data protection laws.",
-            "P2": "If we are relying on your consent to process your personal information, you have the right to withdraw your consent at any time. Please\nnote however that this will not affect the lawfulness of the processing before its withdrawal, nor will it affect the processing of your\npersonal information conducted in reliance on lawful processing grounds other than consent.",
+            "HEAD4": "Quels sont vos droits de confidentialité ?",
+            "HEAD5": "Information sur le compte",
+            "P1": "Dans certaines régions (comme l'EEE et le Royaume-Uni), vous disposez de certains droits en vertu des lois applicables en matière de protection des données. Ceux-ci peuvent inclure le droit (i) de\ndemander l'accès et d'obtenir une copie de vos informations personnelles, (ii) de demander la rectification ou l'effacement ; (iii) restreindre le traitement de vos informations personnelles ; et (iv) le cas échéant, à la portabilité des données. Dans certaines circonstances, vous pouvez également avoir le droit de vous opposer au traitement de vos informations personnelles. Pour faire une telle demande, veuillez utiliser les <b>coordonnées</b> fournies ci-dessous. Nous examinerons et agirons sur toute demande conformément aux lois applicables en matière de protection des données.",
+            "P2": "Si nous comptons sur votre consentement pour traiter vos informations personnelles, vous avez le droit de retirer votre consentement à tout moment. Veuillez\nnoter toutefois que cela n'affectera pas la licéité du traitement avant son retrait, ni le traitement de vos\ninformations personnelles effectué sur la base de motifs de traitement licites autres que le consentement.",
             "P3": {
-                "TEXT": "If you are a resident in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right\nto complain to your local data protection supervisory authority. You can find their contact details here: ",
+                "TEXT": "Si vous résidez dans l'EEE ou au Royaume-Uni et que vous pensez que nous traitons illégalement vos informations personnelles, vous avez également le droit de vous plaindre auprès de votre autorité locale de contrôle de la protection des données. Vous trouverez leurs coordonnées ici : ",
                 "A": "https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm"
             },
             "P4": {
-                "TEXT": "If you are a resident in Switzerland, the contact details for the data protection authorities are available here: ",
+                "TEXT": "Si vous résidez en Suisse, les coordonnées des autorités de protection des données sont disponibles ici : ",
                 "A": "https://www.edoeb.admin.ch/edoeb/en/home.html"
             },
-            "P5": "If you would at any time like to review or change the information in your account or terminate your account, you can:\nLog in to your account settings and update your user account.\nUpon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our Terms of Use and/or comply with applicable legal requirements."
+            "P5": "Si vous souhaitez à tout moment consulter ou modifier les informations de votre compte ou résilier votre compte, vous pouvez :\nvous connecter aux paramètres de votre compte et mettre à jour votre compte utilisateur.\nSur votre demande de résiliation de votre compte, nous désactiverons ou supprimer votre compte et vos informations de nos bases de données actives. Cependant, nous pouvons conserver certaines informations dans nos fichiers pour prévenir la fraude, résoudre les problèmes, aider à toute enquête, appliquer nos conditions d'utilisation et/ou nous conformer aux exigences légales applicables."
         },
-
         "CCPA": {
             "HEAD4": {
-                "CCPA": "CCPA Privacy",
-                "CALIFORNIA": "Your California Privacy Rights (California's Shine the Light law)",
-                "MINOR": "California Privacy Rights for Minor Users (California Business and Professions Code Section 22581)",
-                "EXERCISING": "Exercising Your CCPA Data Protection Rights",
-                "YOUR_RIGHTS": "Your Rights under the CCPA",
-                "PERSONAL_INFORMATION": "Personal Information Collecting and Sharing under CCPA"
+                "CCPA": "Confidentialité de CCPA",
+                "CALIFORNIA": "Vos droits à la vie privée en Californie (California's Shine the Light law)",
+                "MINOR": "Droits de confidentialité de la Californie pour les utilisateurs mineurs (California Business and Professions Code Section 22581)",
+                "EXERCISING": "Exercice de vos droits de protection des données CCPA",
+                "YOUR_RIGHTS": "Vos droits en vertu du CCPA",
+                "PERSONAL_INFORMATION": "Collecte et partage de renseignements personnels en vertu du CCPA"
             },
             "HEAD5": {
-                "SHARED": "Will your information be shared with anyone else?",
-                "YOUR_RIGHTS": "Your rights with respect to your personal data",
-                "OTHER": "Other privacy rights"
+                "SHARED": "Vos informations seront-elles partagées avec quelqu'un d'autre ?",
+                "YOUR_RIGHTS": "Vos droits sur vos données personnelles",
+                "OTHER": "Autres droits de confidentialité"
             },
-            "P1": "Under California Civil Code Section 1798 (California's Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties' direct marketing purposes.",
-            "P2": "If you'd like to request more information under the California Shine the Light law, and if you are a California resident, You can contact Us using the contact information provided below.",
-            "P3": "If you are under 18 years of age, reside in California, and have a registered account with a Service, you have the right to request removal of unwanted data that you publicly post on the Services. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g. backups, etc.).",
-            "P4": "California Business and Professions Code section 22581 allow California residents under the age of 18 who are registered users of online sites, services or applications to request and obtain removal of content or information they have publicly posted.",
-            "P5": "To request removal of such data, and if you are a California resident, You can contact Us using the contact information provided below, and include the email address associated with Your account.",
-            "P6": "Be aware that Your request does not guarantee complete or comprehensive removal of content or information posted online and that the law may not permit or require removal in certain circumstances.",
+            "P1": "En vertu de l'article 1798 du Code civil de Californie (California's Shine the Light law), les résidents de Californie ayant une relation commerciale établie avec nous peuvent demander des informations une fois par an sur le partage de leurs données personnelles avec des tiers à des fins de marketing direct.",
+            "P2": "Si vous souhaitez demander plus d'informations en vertu de la loi California Shine the Light, et si vous êtes un résident de Californie, vous pouvez nous contacter en utilisant les coordonnées fournies ci-dessous.",
+            "P3": "Si vous avez moins de 18 ans, résidez en Californie et disposez d'un compte enregistré auprès d'un Service, vous avez le droit de demander la suppression des données indésirables que vous publiez publiquement sur les Services. Pour demander la suppression de ces données, veuillez nous contacter en utilisant les coordonnées fournies ci-dessous, et inclure l'adresse e-mail associée à votre compte et une déclaration indiquant que vous résidez en Californie. Nous veillerons à ce que les données ne soient pas affichées publiquement sur les Services, mais sachez que les données peuvent ne pas être complètement ou complètement supprimées de tous nos systèmes (par exemple, les sauvegardes, etc.).",
+            "P4": "La section 22581 du California Business and Professions Code permet aux résidents californiens de moins de 18 ans qui sont des utilisateurs enregistrés de sites, services ou applications en ligne de demander et d'obtenir la suppression du contenu ou des informations qu'ils ont publiés publiquement.",
+            "P5": "Pour demander la suppression de ces données, et si vous résidez en Californie, vous pouvez nous contacter en utilisant les coordonnées fournies ci-dessous et inclure l'adresse e-mail associée à votre compte.",
+            "P6": "Sachez que votre demande ne garantit pas la suppression complète ou complète du contenu ou des informations publiés en ligne et que la loi peut ne pas autoriser ou exiger la suppression dans certaines circonstances.",
             "P7": {
-                "TEXT1": "In order to exercise any of Your rights under the CCPA, and if you are a California resident. The California Code of Regulations defines a \"resident\" as:",
-                "TEXT2": "All other individuals are defined as \"non-residents\".\nIf this definition of \"resident\" applies to you, we must adhere to certain rights and obligations regarding your personal information.",
+                "TEXT1": "Afin d'exercer l'un de vos droits en vertu du CCPA, et si vous êtes un résident de Californie. Le California Code of Regulations définit un \"résident\" comme :",
+                "TEXT2": "Toutes les autres personnes sont définies comme des \"non-résidents\".\nSi cette définition de \"résident\" s'applique à vous, nous devons respecter certains droits et obligations concernant vos informations personnelles.",
                 "UL": {
-                    "L1": "every individual who is in the State of California for other than a temporary or transitory purpose and",
-                    "L2": " every individual who is domiciled in the State of California who is outside the State of California for a temporary or transitory purpose"
+                    "L1": "toute personne qui se trouve dans l'État de Californie à des fins autres que temporaires ou transitoires et",
+                    "L2": " toute personne domiciliée dans l'État de Californie qui se trouve en dehors de l'État de Californie à des fins temporaires ou transitoires"
                 }
             },
-            "P8": "The Company will disclose and deliver the required information free of charge within 45 days of receiving Your verifiable request. The time period to provide the required information may be extended once by an additional 45 days when reasonable necessary and with prior notice.",
-            "P9": "Under this Privacy Policy, and by law if You are a resident of California, You have the following rights:",
-            "P10": "We do not sell personal information. More information about our data collection and sharing practices can be found in this privacy notice.\nYou may contact us by referring to the contact details at the bottom of this document.",
-            "P11": "If you are using an authorized agent to exercise your right to opt-out we may deny a request if the authorized agent\ndoes not submit proof that they have been validly authorized to act on your behalf.",
-            "P12": "We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Each service provider is a for-profit entity that processes the information on our behalf.",
-            "P13": "We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be \"selling\" of your personal data.",
-            "P14": "Martspec LLC has not disclosed or sold any personal information to third parties for a business or commercial purpose in the preceding 12 months. Martspec LLC will not sell personal information in the future belonging to website visitors, users and other consumers.",
-            "P15": "To exercise these rights, you can contact us by by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.  ",
+            "P8": "La Société divulguera et fournira gratuitement les informations requises dans les 45 jours suivant la réception de votre demande vérifiable. Le délai pour fournir les informations requises peut être prolongé une fois de 45 jours supplémentaires lorsque cela est raisonnablement nécessaire et avec un préavis.",
+            "P9": "En vertu de la présente politique de confidentialité, et conformément à la loi si vous résidez en Californie, vous disposez des droits suivants :",
+            "P10": "Nous ne vendons pas d'informations personnelles. Vous trouverez plus d'informations sur nos pratiques de collecte et de partage de données dans cet avis de confidentialité.\nVous pouvez nous contacter en vous référant aux coordonnées au bas de ce document.",
+            "P11": "Si vous utilisez un agent autorisé pour exercer votre droit de retrait, nous pouvons refuser une demande si l'agent autorisé\nde ne fournit pas la preuve qu'il a été valablement autorisé à agir en votre nom.",
+            "P12": "Nous pouvons divulguer vos informations personnelles à nos prestataires de services conformément à un contrat écrit entre nous et chaque prestataire de services. Chaque fournisseur de services est une entité à but lucratif qui traite les informations en notre nom.",
+            "P13": "Nous pouvons utiliser vos informations personnelles à nos propres fins commerciales, par exemple pour entreprendre des recherches internes pour le développement technologique et la démonstration. Ceci n'est pas considéré comme une \"vente\" de vos données personnelles.",
+            "P14": "Martspec LLC n'a divulgué ni vendu aucune information personnelle à des tiers à des fins commerciales ou commerciales au cours des 12 derniers mois. Martspec LLC ne vendra pas d'informations personnelles à l'avenir appartenant aux visiteurs du site Web, aux utilisateurs et aux autres consommateurs.",
+            "P15": "Pour exercer ces droits, vous pouvez nous contacter en vous référant aux coordonnées figurant en bas de ce document. Si vous avez une plainte concernant la façon dont nous traitons vos données, nous aimerions avoir de vos nouvelles.  ",
             "UL1": {
                 "L1": {
-                    "STRONG": "The right to notice.",
-                    "TEXT": " You must be properly notified which categories of Personal Data are being collected and the purposes for which the Personal Data is being used."
+                    "STRONG": "Le droit de remarquer.",
+                    "TEXT": " Vous devez être correctement informé des catégories de données personnelles qui sont collectées et des finalités pour lesquelles les données personnelles sont utilisées."
                 },
                 "L2": {
-                    "STRONG": "The right to access / the right to request.",
-                    "TEXT": " The CCPA permits You to request and obtain from the Company information regarding the disclosure of Your Personal Data that has been collected in the past 12 months by the Company or its subsidiaries to a third-party for the third party's direct marketing purposes."
+                    "STRONG": "Le droit d'accès / le droit de demander.",
+                    "TEXT": " Le CCPA vous permet de demander et d'obtenir de la société des informations concernant la divulgation de vos données personnelles qui ont été collectées au cours des 12 derniers mois par la société ou ses filiales à un tiers à des fins de marketing direct."
                 },
                 "L3": {
-                    "STRONG": "The right to say no to the sale of Personal Data.",
-                    "TEXT": " You also have the right to ask the Company not to sell Your Personal Data to third parties. You can submit such a request by visiting our \"Do Not Sell My Personal Information\" section or web page."
+                    "STRONG": "Le droit de dire non à la vente de Données Personnelles.",
+                    "TEXT": " Vous avez également le droit de demander à la Société de ne pas vendre Vos Données Personnelles à des tiers. Vous pouvez soumettre une telle demande en visitant notre section ou notre page Web \"Ne vendez pas mes informations personnelles\"."
                 },
                 "L4": {
-                    "STRONG": "The right to know about Your Personal Data.",
-                    "TEXT": " You have the right to request and obtain from the Company information regarding the disclosure of the following:",
+                    "STRONG": "Le droit de connaître vos données personnelles.",
+                    "TEXT": " Vous avez le droit de demander et d'obtenir de la Société des informations concernant la divulgation des éléments suivants :",
                     "UL": {
-                        "L1": "The categories of Personal Data collected",
-                        "L2": "The sources from which the Personal Data was collected",
-                        "L3": "The business or commercial purpose for collecting or selling the Personal Data",
-                        "L4": "Categories of third parties with whom We share Personal Data",
-                        "L5": "The specific pieces of Personal Data we collected about You"
+                        "L1": "Les catégories de Données Personnelles collectées",
+                        "L2": "Les sources à partir desquelles les données personnelles ont été collectées",
+                        "L3": "Le but commercial ou commercial de la collecte ou de la vente des données personnelles",
+                        "L4": "Catégories de tiers avec lesquels nous partageons des données personnelles",
+                        "L5": "Les éléments spécifiques de données personnelles que nous avons collectées à votre sujet"
                     }
                 },
                 "L5": {
-                    "STRONG": "The right to delete Personal Data.",
-                    "TEXT": " You also have the right to request the deletion of Your Personal Data that have been collected in the past 12 months."
+                    "STRONG": "Le droit de supprimer les données personnelles.",
+                    "TEXT": " Vous avez également le droit de demander la suppression de Vos Données Personnelles qui ont été collectées au cours des 12 derniers mois."
                 },
                 "L6": {
-                    "STRONG": "The right not to be discriminated against.",
-                    "TEXT": " You have the right not to be discriminated against for exercising any of Your Consumer's rights, including by:",
+                    "STRONG": "Le droit de ne pas être discriminé.",
+                    "TEXT": " Vous avez le droit de ne pas faire l'objet de discrimination pour avoir exercé l'un de vos droits de consommateur, notamment en :",
                     "UL": {
-                        "L1": "Denying goods or services to You",
-                        "L2": "Charging different prices or rates for goods or services, including the use of discounts or other benefits or imposing penalties",
-                        "L3": "Providing a different level or quality of goods or services to You",
-                        "L4": "Suggesting that You will receive a different price or rate for goods or services or a different level or quality of goods or services."
+                        "L1": "Vous refuser des biens ou des services",
+                        "L2": "Facturer des prix ou des tarifs différents pour des biens ou des services, y compris l'utilisation de remises ou d'autres avantages ou l'imposition de pénalités",
+                        "L3": "Vous fournir un niveau ou une qualité différente de biens ou de services",
+                        "L4": "Suggérer que vous recevrez un prix ou un tarif différent pour les biens ou services ou un niveau ou une qualité différente des biens ou services."
                     }
                 }
             },
             "UL2": {
-                "L1": "Right to request deletion of the data - Request to delete",
-                "L2": "Right to be informed - Request to know",
-                "L3": "Right to Non-Discrimination for the Exercise of a Consumer’s Privacy Rights",
-                "L4": "Verification process"
+                "L1": "Droit de demander la suppression des données - Demande de suppression",
+                "L2": "Droit d'être informé - Demande de savoir",
+                "L3": "Droit à la non-discrimination pour l'exercice du droit à la vie privée d'un consommateur",
+                "L4": "Processus de vérification"
             },
             "UL3": {
-                "L1": "you may object to the processing of your personal data",
-                "L2": "you may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the data",
-                "L3": "you can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.",
-                "L4": "you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission."
+                "L1": "vous pouvez vous opposer au traitement de vos données personnelles",
+                "L2": "vous pouvez demander la correction de vos données personnelles si elles sont incorrectes ou ne sont plus pertinentes, ou demander de restreindre le traitement des données",
+                "L3": "vous pouvez désigner un agent autorisé pour faire une demande en vertu du CCPA en votre nom. Nous pouvons refuser une demande d'un agent autorisé qui ne fournit pas la preuve qu'il a été valablement autorisé à agir en votre nom conformément au CCPA.",
+                "L4": "vous pouvez demander à vous désinscrire de la vente future de vos informations personnelles à des tiers. Dès réception d'une demande de désinscription, nous donnerons suite à la demande dès que possible, mais au plus tard 15 jours à compter de la date de soumission de la demande."
             }
         },
-
         "LINK": {
-            "HEAD4": "Links to Other Websites",
-            "P1": "Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.",
-            "P2": "We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services."
+            "HEAD4": "Liens vers d'autres sites Web",
+            "P1": "Notre service peut contenir des liens vers d'autres sites Web qui ne sont pas exploités par nous. Si vous cliquez sur un lien tiers, vous serez dirigé vers le site de ce tiers. Nous vous conseillons vivement de consulter la politique de confidentialité de chaque site que vous visitez.",
+            "P2": "Nous n'avons aucun contrôle et n'assumons aucune responsabilité quant au contenu, aux politiques de confidentialité ou aux pratiques des sites ou services tiers."
         },
-
         "CHANGES": {
-            "HEAD4": "Changes to this Privacy Policy",
-            "P1": "We may update our Privacy Policy from time to time. The updated version will be indicated by an updated \"Last updated\" date and the updated version will be effective as soon as it is accessible. ",
-            "P2": "You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
+            "HEAD4": "Modifications de cette politique de confidentialité",
+            "P1": "Nous pouvons mettre à jour notre politique de confidentialité de temps à autre. La version mise à jour sera indiquée par une date de \"Dernière mise à jour\" mise à jour et la version mise à jour entrera en vigueur dès qu'elle sera accessible. ",
+            "P2": "Il vous est conseillé de consulter périodiquement cette politique de confidentialité pour tout changement. Les modifications apportées à cette politique de confidentialité entrent en vigueur lorsqu'elles sont publiées sur cette page."
         },
-
         "CONTACT": {
-            "HEAD4": "Contact Us",
-            "TEXT": "If you have any questions about this Privacy Policy, You can contact us:",
+            "HEAD4": "Nous contacter",
+            "TEXT": "Si vous avez des questions concernant cette politique de confidentialité, vous pouvez nous contacter :",
             "UL": {
                 "L1": {
-                    "TEXT": "By visiting this page on our website: ",
+                    "TEXT": "En visitant cette page sur notre site Web : ",
                     "A": "https://martspec.com/privacy-policy"
                 },
                 "L2": {
-                    "TEXT": "Via our FaceBook messager at ",
+                    "TEXT": "Via notre messager FaceBook au ",
                     "A": "Martspec @ FaceBook",
                     "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "Via our Twitter messager at ",
+                    "TEXT": "Via notre messager Twitter à ",
                     "A": "Martspec @ Twitter",
                     "LINK": "https://twitter.com/MartspecCom"
                 },
                 "L4": {
-                    "TEXT": "Via our LinkedIn group at ",
+                    "TEXT": "Via notre groupe LinkedIn au ",
                     "A": "Martspec @ LinkedIn",
                     "LINK": "https://www.linkedin.com/company/martspec/"
                 }

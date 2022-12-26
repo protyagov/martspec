@@ -17,4 +17,27 @@ rm org/*size64
 rm org/*size512
 rm org/*.new
 
+cp vitamin.en.512.webp vitamin.ar.512.webp
+cp vitamin.en.512.webp vitamin.de.512.webp
+cp vitamin.en.512.webp vitamin.es.512.webp
+cp vitamin.en.512.webp vitamin.fr.512.webp
+cp vitamin.en.512.webp vitamin.hi.512.webp
+cp vitamin.en.512.webp vitamin.ja.512.webp
+cp vitamin.en.512.webp vitamin.pt.512.webp
 
+
+cp bodysize.en.512.webp bodysize.ar.512.webp
+cp bodysize.en.512.webp bodysize.de.512.webp
+cp bodysize.en.512.webp bodysize.es.512.webp
+cp bodysize.en.512.webp bodysize.fr.512.webp
+cp bodysize.en.512.webp bodysize.hi.512.webp
+cp bodysize.en.512.webp bodysize.ja.512.webp
+cp bodysize.en.512.webp bodysize.pt.512.webp
+
+cp header_screens.en.512.webp header_screens.ar.512.webp
+cp header_screens.en.512.webp header_screens.de.512.webp
+cp header_screens.en.512.webp header_screens.es.512.webp
+cp header_screens.en.512.webp header_screens.fr.512.webp
+cp header_screens.en.512.webp header_screens.hi.512.webp
+cp header_screens.en.512.webp header_screens.ja.512.webp
+cp header_screens.en.512.webp header_screens.pt.512.webp

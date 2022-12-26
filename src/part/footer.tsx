@@ -25,9 +25,9 @@ export const Footer = () =>
                 <div className="row">
                     <div className="col-md-10 col-12">
                         <div className="d-flex justify-content-evenly my-5">
-                            <a className="footer-link" href="/privacy-policy"> {_("FOOTER.PP")}</a>
-                            <a className="footer-link" href="/about"> {_("FOOTER.ABOUT")}</a>
-                            <a className="footer-link" href="/mission"> {_("FOOTER.MISSION")}</a>
+                            <a className="footer-link" href="/privacy-policy"> {_("PP.HEAD")}</a>
+                            <a className="footer-link" href="/about"> {_("ABOUT.HEAD")}</a>
+                            <a className="footer-link" href="/mission"> {_("MISSION.HEAD")}</a>
                         </div>
                     </div>
                     <div className="col-md-2 col-12 text-center">

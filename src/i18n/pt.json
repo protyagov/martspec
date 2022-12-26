@@ -10,187 +10,168 @@
     "MAIN": {
         "HEAD": "Simplicidade de rastreamento de saúde",
         "SUBHEAD": "Aplicativos para tornar as tarefas diárias ágeis e sem esforço",
-        "IMG": "Aplicativos de bem-estar e saúde Apple Watch",
-        "P1": {
-            "HEAD": "Electrolyte",
-            "SUBHEAD": "equilíbrio água-sal",
-            "TEXT": "Os eletrólitos desempenham um papel vital na manutenção da homeostase no corpo. Eles ajudam a regular o coração e a função neurológica, equilíbrio de fluidos, fornecimento de oxigênio, equilíbrio ácido-básico e muito mais.",
-            "BTN": "Obtenha os fatos",
-            "IMG": "Registre eletrólitos e minerais com seu Apple Watch",
-            "DWN": "Baixe o aplicativo gratuito Electrolyte tracker da Apple AppStore"
-        },
-        "P2": {
-            "HEAD": "Peso",
-            "SUBHEAD": "diário de peso fácil",
-            "TEXT": "Rastrear seu peso aumenta sua eficiência em termos de tempo e exercícios. Não só o levará a fazer melhor, mas também o levará a ser seu próprio competidor!",
-            "BTN": "Dê uma olhada",
-            "IMG": "Economize massa corporal diretamente do seu Apple Watch no armazenamento de saúde da Apple",
-            "DWN": "Baixe o aplicativo Body Mass grátis na AppStore da Apple"
-        },
-        "P3": {
-            "HEAD": "Vitaminas",
-            "SUBHEAD": "o melhor rastreador de vitaminas",
-            "TEXT": "Rastrear suas vitaminas essenciais tem muitos benefícios, desde ajudar a controlar as intolerâncias alimentares até aumentar a energia, evitar mudanças no humor e alimentar o ritmo do seu dia.",
-            "BTN": "Consulte Mais informação",
-            "IMG": "Rastreie as vitaminas mais essenciais diretamente no seu pulso",
-            "DWN": "Baixe o aplicativo de rastreamento gratuito de vitaminas e nutrientes da Apple AppStore"
-        },
-        "P4": {
-            "HEAD": "Cintura",
-            "SUBHEAD": "cintura fina - coração saudável",
-            "TEXT": "A maneira mais fácil de monitorar a circunferência da cintura no Apple Watch. Todos os registros são sincronizados com a saúde da sua Apple.",
-            "BTN": "Saber mais",
-            "IMG": "Acompanhe o tamanho da sua cintura (umbigo) diretamente do seu braço",
-            "DWN": "Baixe o aplicativo de cintura grátis na Apple App Store"
-        },
-        "P5": {
-            "HEAD": "Body Zinc",
-            "SUBHEAD": "rastreamento ingestão zinco",
-            "TEXT": "Bonito em sua simplicidade rastreador de zinco no corpo para o seu relógio. Apple Health ativado. Resultados reais. Livre. Zero anúncios.",
-            "BTN": "Descubra bem-estar",
-            "IMG": "Acompanhe seu consumo diário de suplemento de zinco",
-            "DWN": "Obtenha gratuitamente o aplicativo BodyZinc da Apple Store"
-        },
-        "P6": {
-            "HEAD": "Aparência - Rastreador simples",
-            "SUBHEAD": "bela figura - corpo saudável",
-            "TEXT": "Acompanhe seus quadris, cintura e peito no relógio. Suporte total da Apple Health. Tempo de carregamento rápido. Absolutamente grátis.",
-            "BTN": "Forma perfeita",
-            "IMG": "Medir o tamanho do peito, largura do busto, circunferência da cintura e comprimento dos quadris usando um relógio no seu pulso",
-            "DWN": "Obter para o aplicativo gratuito do tamanho do corpo para o Apple Watch diretamente da Apple App Store"
-        },
-        "P7": {
-            "HEAD": "Emoção - Alegria, Raiva & Medo",
-            "SUBHEAD": "teste de psicologia mais rápido",
-            "TEXT": "Mudanças de humor inesperadas? Mudanças emocionais intensas? Descubra a causa raiz em apenas 1 minuto.",
-            "BTN": "Conheça a si mesmo",
-            "IMG": "O teste de personalidade mais rápido do mundo. Selecione 8 cores e conheça seu estado mental atual.",
-            "DWN": "Obter gratuitamente o aplicativo para Apple Watch, iPhone ou iPad diretamente da Apple App Store"
-        }
+        "IMG": "Aplicativos de bem-estar e saúde Apple Watch"
+    },
+    "ELECTROLYTE": {
+        "HEAD": "Electrolyte",
+        "SUBHEAD": "equilíbrio água-sal",
+        "TEXT": "Os eletrólitos desempenham um papel vital na manutenção da homeostase no corpo. Eles ajudam a regular o coração e a função neurológica, equilíbrio de fluidos, fornecimento de oxigênio, equilíbrio ácido-básico e muito mais.",
+        "BTN": "Obtenha os fatos",
+        "IMG": "Registre eletrólitos e minerais com seu Apple Watch",
+        "DWN": "Baixe o aplicativo gratuito Electrolyte tracker da Apple AppStore",
+        "ABOUT": "Os eletrólitos desempenham um papel vital na manutenção da homeostase no corpo. Eles ajudam a regular o coração e a função neurológica, equilíbrio de fluidos, fornecimento de oxigênio, equilíbrio ácido-básico e muito mais. Monitore a ingestão de eletrólitos com o aplicativo Apple Watch.",
+        "HEAD1": "Magnésio",
+        "DESC1": "Regula o ritmo cardíaco, a função nervosa, a contração muscular, a pressão sanguínea e os níveis de açúcar, participa da produção de proteínas, ossos e DNA. A deficiência de magnésio leva à perda de apetite, náuseas, vômitos, fadiga e fraqueza; enquanto altos níveis podem causar hipermagnesemia. ",
+        "HEAD2": "Cálcio",
+        "DESC2": "Ajuda os músculos a se moverem e os nervos a transmitir mensagens entre o cérebro e todas as partes do corpo. Auxilia os vasos sanguíneos a moverem o sangue por todo o corpo. Participa da liberação de hormônios e enzimas que afetam quase todas as funções do corpo humano. Cerca de 99% do suprimento de cálcio do corpo é armazenado nos ossos e dentes. ",
+        "HEAD3": "Potássio",
+        "DESC3": "Usado para quase tudo no corpo, incluindo função renal e cardíaca adequada, contração muscular e transmissão nervosa. A deficiência de potássio pode aumentar a pressão arterial e esgotar o cálcio nos ossos. ",
+        "HEAD4": "Ferro",
+        "DESC4": "Parte vital da hemoglobina e da mioglobina, proteínas que transportam oxigênio para os tecidos e músculos do corpo. Os glóbulos vermelhos contêm mais da metade do ferro do corpo humano. ",
+        "HEAD5": "Riscos",
+        "DESC5": "Os desequilíbrios eletrolíticos podem ocorrer consumindo pouco ou muito eletrólito, bem como excretando muito pouco ou muito eletrólito."
+    },
+    "MASS": {
+        "HEAD": "Peso",
+        "SUBHEAD": "diário de peso fácil",
+        "TEXT": "Rastrear seu peso aumenta sua eficiência em termos de tempo e exercícios. Não só o levará a fazer melhor, mas também o levará a ser seu próprio competidor!",
+        "BTN": "Dê uma olhada",
+        "IMG": "Economize massa corporal diretamente do seu Apple Watch no armazenamento de saúde da Apple",
+        "DWN": "Baixe o aplicativo Body Mass grátis na AppStore da Apple",
+        "ABOUT": "O diário de peso corporal é a ferramenta perfeita para aumentar a eficiência dos seus exercícios e a motivação para atingir o objetivo. Todos os dados são sincronizados com o Apple Health e armazenados com segurança em seu iCloud. Tudo é fácil e totalmente gratuito. Zero ADs e nenhuma compra no aplicativo.",
+        "HEAD1": "Prestação de contas",
+        "DESC1": "Temos uma responsabilidade para conosco mesmos por nossa saúde. Ninguém pode nos fazer perder peso ou escolher alimentos saudáveis. Devemos decidir isso por nós mesmos. ",
+        "HEAD2": "Honestidade",
+        "DESC2": "Registrar nosso peso o torna real. Embora isso pareça estranho; é real. São dados, fatos registrados. Eles são reais, quer os gravemos ou não. ",
+        "HEAD3": "Comprometimento",
+        "DESC3": "A extração diária é importante, pois mantém hábitos saudáveis em nossas mentes. Cada vez que fazemos um registro, somos lembrados de nosso compromisso com a saúde. Pular um dia aqui e ali torna mais fácil pular 2 dias, do que 3 dias. Então, antes que você perceba, você parou e está de volta aos seus velhos hábitos.",
+        "HEAD4": "Recursos do aplicativo",
+        "DESC4_1": "Integração de saúde da Apple",
+        "DESC4_2": "Histórico de gravações anteriores com a diferença percentual",
+        "DESC4_3": "Todos os tamanhos de relógio, todos os tipos de widget de mostrador de relógio",
+        "DESC4_4": "Backups do iCloud",
+        "DESC4_5": "Funciona sem iPhone",
+        "DESC4_6": "Estilo minimalista",
+        "DESC4_7": "Grátis, sem anúncios e sem compras no aplicativo"
+    },
+    "VITAMIN": {
+        "HEAD": "Vitaminas",
+        "SUBHEAD": "o melhor rastreador de vitaminas",
+        "TEXT": "Rastrear suas vitaminas essenciais tem muitos benefícios, desde ajudar a controlar as intolerâncias alimentares até aumentar a energia, evitar mudanças no humor e alimentar o ritmo do seu dia.",
+        "BTN": "Consulte Mais informação",
+        "IMG": "Rastreie as vitaminas mais essenciais diretamente no seu pulso",
+        "DWN": "Baixe o aplicativo de rastreamento gratuito de vitaminas e nutrientes da Apple AppStore",
+        "ABOUT": "O aplicativo Vitamin permite que você acompanhe a ingestão de vitaminas essenciais diretamente do seu pulso se você usar o Apple Watch, bem como o iPhone e o iPad. Você pode ver seu progresso ao longo do tempo, os registros são agrupados por meses e sincronizados automaticamente com o Apple Health. O aplicativo é totalmente gratuito, não tem anúncios e não usa dados para obter lucro.",
+        "HEAD1": "Melhorando a dieta",
+        "DESC1": "Este aplicativo é um excelente rastreador de vitaminas que pode melhorar sua dieta e, ao mesmo tempo, personalizar as metas de nutrientes. ",
+        "HEAD2": "Estilo de Vida Mais Saudável",
+        "DESC2": "Rastreadores de atividades vestíveis oferecem uma promessa considerável para ajudar os usuários a adotarem estilos de vida mais saudáveis. ",
+        "HEAD3": "Vitamina A - beta-caroteno",
+        "DESC3": "Importante para a visão normal, o sistema imunológico e a reprodução. Ajuda o coração, os pulmões, os rins e outros órgãos a funcionarem corretamente. ",
+        "HEAD4": "Vitamina C - Ácido Ascórbico",
+        "DESC4": "Ajuda a proteger as células e a mantê-las saudáveis, mantém a pele, os vasos sanguíneos, os ossos e a cartilagem saudáveis. Ajuda na cicatrização de feridas. ",
+        "HEAD5": "Vitamina D",
+        "DESC5": "Regula a quantidade de cálcio e fosfato no corpo. Esses nutrientes são necessários para manter os ossos, dentes e músculos saudáveis. A falta de vitamina D pode causar deformidades ósseas, como raquitismo em crianças, e dor óssea causada por uma doença chamada osteomalácia em adultos. ",
+        "HEAD6": "Vitamina E",
+        "DESC6": "Importante para a visão, a reprodução e a saúde do sangue, do cérebro e da pele. Possui propriedades antioxidantes. A quantidade diária recomendada de vitamina E para adultos é de 15 miligramas por dia. ",
+        "HEAD7": "Vitamina B12 - Cobalamina",
+        "DESC7": "Formação de glóbulos vermelhos e saúde dos tecidos nervosos. Ajuda o corpo a converter alimentos (carboidratos) em combustível (glicose), que é usado para produzir energia. ",
+        "HEAD8": "Vitamina B7 - Biotina",
+        "DESC8": "Ajuda a converter nutrientes em energia e desempenha um papel importante na saúde do cabelo, da pele e das unhas. ",
+        "HEAD9": "Vitamina B9 - Folato",
+        "DESC9": "Necessário para produzir glóbulos vermelhos e brancos na medula óssea, converter carboidratos em energia e produzir DNA e RNA. ",
+        "HEAD0": "Vitamina B3 - Niacina",
+        "DESC0": "Necessário para transformar comida em energia. Ajuda a manter o sistema nervoso, o sistema digestivo e a pele saudáveis. "
+    },
+    "WAIST": {
+        "HEAD": "Cintura",
+        "SUBHEAD": "cintura fina - coração saudável",
+        "TEXT": "A maneira mais fácil de monitorar a circunferência da cintura no Apple Watch. Todos os registros são sincronizados com a saúde da sua Apple.",
+        "BTN": "Saber mais",
+        "IMG": "Acompanhe o tamanho da sua cintura (umbigo) diretamente do seu braço",
+        "DWN": "Baixe o aplicativo de cintura grátis na Apple App Store",
+        "ABOUT": "Rastreador de circunferência de cintura fácil de usar para Apple Watch. Não requer conta nem registro. Absolutamente grátis. Todos os registros são sincronizados com seu aplicativo Apple Health e os últimos 7 dias podem ser acessados diretamente de seu pulso.",
+        "HEAD1": "Fato Médico",
+        "DESC1": "Se houver mais gordura localizada ao redor de sua cintura, em vez de em torno de seus quadris, você corre um risco maior de contrair doenças, incluindo doenças cardíacas e diabetes tipo 2. ",
+        "LINK1": "National Institutes of Health, EUA",
+        "HEAD2": "Melhor que IMC",
+        "LINK2": "Estudo da American Heart Association",
+        "DESC2": " demonstrou que medir a cintura pode ser a melhor maneira de prever o risco de doenças cardíacas do que um índice de massa corporal amplamente utilizado.",
+        "HEAD3": "Composição do corpo",
+        "DESC3": "Quando você está ganhando músculos e perdendo centímetros de gordura, seu peso pode não mudar muito. É por isso que a composição corporal pode dizer mais do que a escala, ela conta a história verdadeira. ",
+        "HEAD4": "Risco Cardiovascular Elevado",
+        "DESC4_1": "Homens: 40 polegadas ou mais (102 cm)",
+        "DESC4_2": "Mulheres: 35 polegadas ou mais (88 cm)",
+        "DESC4_3": "Cada 5 cm do tamanho da cintura aumenta o risco em 17% nos homens e 13% nas mulheres, independentemente do IMC",
+        "DESC4_4": "Fonte: "
+    },
+    "ZINC": {
+        "HEAD": "Body Zinc",
+        "SUBHEAD": "rastreamento ingestão zinco",
+        "TEXT": "Bonito em sua simplicidade rastreador de zinco no corpo para o seu relógio. Apple Health ativado. Resultados reais. Livre. Zero anúncios.",
+        "BTN": "Descubra bem-estar",
+        "IMG": "Acompanhe seu consumo diário de suplemento de zinco",
+        "DWN": "Obtenha gratuitamente o aplicativo BodyZinc da Apple Store",
+        "ABOUT": "Fácil de usar rastreador de zinco dietético para a Apple Watch. Sincronizar automaticamente com a Apple Health, não requer registro e absolutamente livre.",
+        "HEAD1": "Doenças relacionadas à idade",
+        "DESC1": "O zinco pode reduzir significativamente o risco de doenças relacionadas à idade, como pneumonia, infecção e degeneração macular relacionada à idade (AMD). Pode aliviar o estresse oxidativo e melhorar a resposta imune impulsionando a atividade de células T e células assassinas naturais, que ajudam a proteger seu corpo da infecção. Adultos mais velhos que suplementam com experiência de zinco melhoraram a resposta de vacinação contra influenza, redução do risco de pneumonia e impulsionou o desempenho mental.",
+        "LINK1": "Institutos Nacionais de Saúde, EUA",
+        "HEAD2": "Aceleração de cicatrização de feridas",
+        "DESC2": "O zinco é comumente usado em hospitais como tratamento para queimaduras, certas úlceras e outras lesões na pele. Na verdade, sua pele detém uma quantidade relativamente alta - cerca de 5% - do conteúdo do zinco do seu corpo.",
+        "LINK2": "Estudo pela American Heart Association",
+        "HEAD3": "Diminui a inflamação",
+        "DESC3": "Diminui o estresse oxidativo e reduz os níveis de certas proteínas inflamatórias em seu corpo. O estresse oxidativo leva à inflamação crônica, um fator contribuinte em uma ampla gama de doenças crônicas, como doenças cardíacas, câncer e declínio mental."
+    },
+    "SIZE": {
+        "HEAD": "Aparência - Rastreador simples",
+        "SUBHEAD": "bela figura - corpo saudável",
+        "TEXT": "Acompanhe seus quadris, cintura e peito no relógio. Suporte total da Apple Health. Tempo de carregamento rápido. Absolutamente grátis.",
+        "BTN": "Forma perfeita",
+        "IMG": "Medir o tamanho do peito, largura do busto, circunferência da cintura e comprimento dos quadris usando um relógio no seu pulso",
+        "DWN": "Obter para o aplicativo gratuito do tamanho do corpo para o Apple Watch diretamente da Apple App Store",
+        "ABOUT": "Rastreie seus quadris, cintura e peito em seu Apple Watch. O Auto calcula a forma do corpo usando a fórmula de Bradley Bayou. Suporte total da Apple Health. Backups do iCloud. Tempo de carregamento rápido. Absolutamente grátis.",
+        "HEAD1": "Composição do corpo",
+        "DESC1": "Quando você está ganhando músculo e perder centímetros de gordura, seu peso pode não mudar muito. É por isso que a composição corporal pode lhe dizer mais do que a escala, diz a história verdadeira.",
+        "LINK1": "Linha de saúde.",
+        "HEAD2": "Peito",
+        "DESC2": "Por que medir? Não estamos cientes de qualquer médico ou bem-estar precisam disso. No entanto, a largura do peito (busto) é uma das medidas mais importantes de proporções perfeitas. Acredita-se que as proporções corretas sejam mais atraentes do que o tamanho ou a altura total do corpo.",
+        "HEAD3": "Cintura",
+        "HEAD4": "Quadris",
+        "DESC4": "Evidências mostram que gordura em torno das coxas e parte traseira é mais difícil de mudar do que gordura ao redor da cintura. A proporção de cintura para quadris é comumente usada como indicador ou medida de saúde, e o risco de desenvolver graves condições de saúde.",
+        "HEAD5": "Formato corporal",
+        "DESC5": "O formato do seu corpo é uma maçã 🍎 ou uma pêra 🍐? Ou talvez uma ampulheta? Descobrir a verdadeira forma do seu corpo é mais do que um daqueles testes online inúteis. Compreender a forma do seu corpo pode ajudá-lo a descobrir o treino mais eficaz. Estudos sugerem que pode ajudar a melhorar sua saúde."
+    },
+    "EMOTION": {
+        "HEAD": "Emoção - Alegria, Raiva & Medo",
+        "SUBHEAD": "teste de psicologia mais rápido",
+        "TEXT": "Mudanças de humor inesperadas? Mudanças emocionais intensas? Descubra a causa raiz em apenas 1 minuto.",
+        "BTN": "Conheça a si mesmo",
+        "IMG": "O teste de personalidade mais rápido do mundo. Selecione 8 cores e conheça seu estado mental atual.",
+        "DWN": "Obter gratuitamente o aplicativo para Apple Watch, iPhone ou iPad diretamente da Apple App Store",
+        "ABOUT_1": "Estresse 😠, ansiedade 😬, depressão☹️ ou mudanças repentinas de humor? Os eventos econômicos, políticos e sociais atuais contribuem muito para nossos níveis de estresse e muitas pessoas experimentam mudanças de humor mesmo durante o mesmo dia.",
+        "ABOUT_2": "Na incerteza geral sobre nossa posição e o que esperar a seguir, a incapacidade de prever o que esperar no futuro afeta nosso humor de maneira negativa. Essa incerteza parece ser uma nova norma em nossa vida.",
+        "HEAD1": "Como funciona?",
+        "DESC1_1": "Olhe para o anel colorido e selecione uma cor que você mais gosta. Restam 7 cores. Das 7 cores, selecione a que você mais gosta agora, e assim por diante até ficar sem cores. Em seguida, você repete a rotina acima. Ao repetir, não tente reproduzir a seleção anterior. Esqueça isso e selecione apenas as cores com base em sua preferência neste momento específico. Deixe sua sub-mente fazer o trabalho.",
+        "DESC1_2": "A chave para o sucesso deste teste é selecionar as cores que você gosta neste momento. NÃO tente associar cores a objetos, — carros, roupas, prédios, etc. Basta selecionar a cor que você mais gosta neste momento específico. Em média, leva menos de um minuto para chegar aos resultados.",
+        "HEAD2": "Por que funciona?",
+        "DESC2_1": "As cores cercaram a humanidade desde o início dos tempos, influenciaram os humanos por gerações. No início, a vida humana era regida por dois fatores incontroláveis: a noite e o dia. Luz e escuridão. Por milhares de anos as ações do homem, como atacar (vermelho) ou recuar (verde) foram incorporadas à submente. As cores da natureza tiveram sua influência sobre nós, e essas influências estão profundamente enraizadas em nossas submentes. As cores e seu significado subconsciente estão lá, gostemos ou não. Esse significado é independente de raça, idioma, nível de educação, status social, etc.",
+        "DESC2_2": "Por isso, um teste de cores é uma ferramenta ideal para analisar conflitos familiares, questões da vida pessoal, mudanças casuais de humor e até mesmo para a realização de exames psicológicos forenses.",
+        "HEAD3": "Casos de uso",
+        "DESC3_1": "Algumas organizações usam testes de cores para controlar a dinâmica das esferas volitivas e emocionais dos atletas, tanto durante o treinamento quanto durante a competição. Isso permite que o treinador antecipe com antecedência e elimine propositalmente as avarias devido ao esgotamento da energia ou das capacidades volitivas dos atletas.",
+        "DESC3_2": "Várias fontes sugerem que alguns testes de cores funcionam mesmo em casos de visão de cores defeituosa ou até mesmo daltonismo real, uma vez que a aceitabilidade de uma determinada cor é somaticamente. Na necessidade de liberação de tensão ou estresse, a resposta instintiva será escolher as cores mais escuras. Se houver necessidade de dissipar energia, a resposta instintiva será para as cores mais brilhantes.",
+        "HEAD4": "Seguro e seguro",
+        "DESC4": "Privacidade não é algo que você tem apenas direito, é um pré-requisito absoluto. Não enviamos seus dados para nossos servidores, não compartilhamos com terceiros e nunca serão usados ​​para fins publicitários. Seus dados são armazenados apenas em seu serviço Apple (loja Apple Health e iCloud). NÃO armazenamos seus dados em nossos servidores.",
+        "HEAD5": "AVISO LEGAL",
+        "DESC5_1": "Todo o conteúdo encontrado no site martpsec.com e nossos aplicativos móveis foram criados apenas para fins informativos. Não se destina a ser um substituto para aconselhamento médico profissional, diagnóstico ou tratamento.",
+        "DESC5_2": "A utilização do nosso software é exclusivamente por sua conta e risco. Ele é fornecido “como está” e “conforme disponível”. A Martspec não garante que nossos aplicativos e/ou qualquer conteúdo neles atendam aos seus requisitos ou sejam ininterruptos, oportunos, seguros, atuais, precisos, completos ou isentos de erros ou que os resultados que possam ser obtidos pelo uso do site e/ou qualquer conteúdo nele será preciso ou confiável. Você entende e reconhece que seu único e exclusivo recurso em relação a qualquer defeito ou insatisfação com o aplicativo é deixar de usá-lo."
     },
     "FOOTER": {
-        "C": "© 2022 Martspec LLC. Todos os direitos reservados.",
-        "PP": "Política de Privacidade",
-        "ABOUT": "Sobre nós",
-        "MISSION": "Missão"
+        "C": "© 2022 Martspec LLC. Todos os direitos reservados."
     },
     "ERROR": {
         "404_HEAD": "Página não encontrada",
         "404_TEXT": "Esta página não existe. Certifique-se de usar o URL correto.",
         "404_BTN": "Casa"
-    },
-    "PRODUCT": {
-        "P1": {
-            "ABOUT": "Os eletrólitos desempenham um papel vital na manutenção da homeostase no corpo. Eles ajudam a regular o coração e a função neurológica, equilíbrio de fluidos, fornecimento de oxigênio, equilíbrio ácido-básico e muito mais. Monitore a ingestão de eletrólitos com o aplicativo Apple Watch.",
-            "HEAD1": "Magnésio",
-            "DESC1": "Regula o ritmo cardíaco, a função nervosa, a contração muscular, a pressão sanguínea e os níveis de açúcar, participa da produção de proteínas, ossos e DNA. A deficiência de magnésio leva à perda de apetite, náuseas, vômitos, fadiga e fraqueza; enquanto altos níveis podem causar hipermagnesemia. ",
-            "HEAD2": "Cálcio",
-            "DESC2": "Ajuda os músculos a se moverem e os nervos a transmitir mensagens entre o cérebro e todas as partes do corpo. Auxilia os vasos sanguíneos a moverem o sangue por todo o corpo. Participa da liberação de hormônios e enzimas que afetam quase todas as funções do corpo humano. Cerca de 99% do suprimento de cálcio do corpo é armazenado nos ossos e dentes. ",
-            "HEAD3": "Potássio",
-            "DESC3": "Usado para quase tudo no corpo, incluindo função renal e cardíaca adequada, contração muscular e transmissão nervosa. A deficiência de potássio pode aumentar a pressão arterial e esgotar o cálcio nos ossos. ",
-            "HEAD4": "Ferro",
-            "DESC4": "Parte vital da hemoglobina e da mioglobina, proteínas que transportam oxigênio para os tecidos e músculos do corpo. Os glóbulos vermelhos contêm mais da metade do ferro do corpo humano. ",
-            "HEAD5": "Riscos",
-            "DESC5": "Os desequilíbrios eletrolíticos podem ocorrer consumindo pouco ou muito eletrólito, bem como excretando muito pouco ou muito eletrólito."
-        },
-        "P2": {
-            "ABOUT": "O diário de peso corporal é a ferramenta perfeita para aumentar a eficiência dos seus exercícios e a motivação para atingir o objetivo. Todos os dados são sincronizados com o Apple Health e armazenados com segurança em seu iCloud. Tudo é fácil e totalmente gratuito. Zero ADs e nenhuma compra no aplicativo.",
-            "HEAD1": "Prestação de contas",
-            "DESC1": "Temos uma responsabilidade para conosco mesmos por nossa saúde. Ninguém pode nos fazer perder peso ou escolher alimentos saudáveis. Devemos decidir isso por nós mesmos. ",
-            "HEAD2": "Honestidade",
-            "DESC2": "Registrar nosso peso o torna real. Embora isso pareça estranho; é real. São dados, fatos registrados. Eles são reais, quer os gravemos ou não. ",
-            "HEAD3": "Comprometimento",
-            "DESC3": "A extração diária é importante, pois mantém hábitos saudáveis em nossas mentes. Cada vez que fazemos um registro, somos lembrados de nosso compromisso com a saúde. Pular um dia aqui e ali torna mais fácil pular 2 dias, do que 3 dias. Então, antes que você perceba, você parou e está de volta aos seus velhos hábitos.",
-            "HEAD4": "Recursos do aplicativo",
-            "DESC4_1": "Integração de saúde da Apple",
-            "DESC4_2": "Histórico de gravações anteriores com a diferença percentual",
-            "DESC4_3": "Todos os tamanhos de relógio, todos os tipos de widget de mostrador de relógio",
-            "DESC4_4": "Backups do iCloud",
-            "DESC4_5": "Funciona sem iPhone",
-            "DESC4_6": "Estilo minimalista",
-            "DESC4_7": "Grátis, sem anúncios e sem compras no aplicativo"
-        },
-        "P3": {
-            "ABOUT": "O aplicativo Vitamin permite que você acompanhe a ingestão de vitaminas essenciais diretamente do seu pulso se você usar o Apple Watch, bem como o iPhone e o iPad. Você pode ver seu progresso ao longo do tempo, os registros são agrupados por meses e sincronizados automaticamente com o Apple Health. O aplicativo é totalmente gratuito, não tem anúncios e não usa dados para obter lucro.",
-            "HEAD1": "Melhorando a dieta",
-            "DESC1": "Este aplicativo é um excelente rastreador de vitaminas que pode melhorar sua dieta e, ao mesmo tempo, personalizar as metas de nutrientes. ",
-            "HEAD2": "Estilo de Vida Mais Saudável",
-            "DESC2": "Rastreadores de atividades vestíveis oferecem uma promessa considerável para ajudar os usuários a adotarem estilos de vida mais saudáveis. ",
-            "HEAD3": "Vitamina A - beta-caroteno",
-            "DESC3": "Importante para a visão normal, o sistema imunológico e a reprodução. Ajuda o coração, os pulmões, os rins e outros órgãos a funcionarem corretamente. ",
-            "HEAD4": "Vitamina C - Ácido Ascórbico",
-            "DESC4": "Ajuda a proteger as células e a mantê-las saudáveis, mantém a pele, os vasos sanguíneos, os ossos e a cartilagem saudáveis. Ajuda na cicatrização de feridas. ",
-            "HEAD5": "Vitamina D",
-            "DESC5": "Regula a quantidade de cálcio e fosfato no corpo. Esses nutrientes são necessários para manter os ossos, dentes e músculos saudáveis. A falta de vitamina D pode causar deformidades ósseas, como raquitismo em crianças, e dor óssea causada por uma doença chamada osteomalácia em adultos. ",
-            "HEAD6": "Vitamina E",
-            "DESC6": "Importante para a visão, a reprodução e a saúde do sangue, do cérebro e da pele. Possui propriedades antioxidantes. A quantidade diária recomendada de vitamina E para adultos é de 15 miligramas por dia. ",
-            "HEAD7": "Vitamina B12 - Cobalamina",
-            "DESC7": "Formação de glóbulos vermelhos e saúde dos tecidos nervosos. Ajuda o corpo a converter alimentos (carboidratos) em combustível (glicose), que é usado para produzir energia. ",
-            "HEAD8": "Vitamina B7 - Biotina",
-            "DESC8": "Ajuda a converter nutrientes em energia e desempenha um papel importante na saúde do cabelo, da pele e das unhas. ",
-            "HEAD9": "Vitamina B9 - Folato",
-            "DESC9": "Necessário para produzir glóbulos vermelhos e brancos na medula óssea, converter carboidratos em energia e produzir DNA e RNA. ",
-            "HEAD0": "Vitamina B3 - Niacina",
-            "DESC0": "Necessário para transformar comida em energia. Ajuda a manter o sistema nervoso, o sistema digestivo e a pele saudáveis. "
-        },
-        "P4": {
-            "ABOUT": "Rastreador de circunferência de cintura fácil de usar para Apple Watch. Não requer conta nem registro. Absolutamente grátis. Todos os registros são sincronizados com seu aplicativo Apple Health e os últimos 7 dias podem ser acessados diretamente de seu pulso.",
-            "HEAD1": "Fato Médico",
-            "DESC1": "Se houver mais gordura localizada ao redor de sua cintura, em vez de em torno de seus quadris, você corre um risco maior de contrair doenças, incluindo doenças cardíacas e diabetes tipo 2. ",
-            "LINK1": "National Institutes of Health, EUA",
-            "HEAD2": "Melhor que IMC",
-            "LINK2": "Estudo da American Heart Association",
-            "DESC2": " demonstrou que medir a cintura pode ser a melhor maneira de prever o risco de doenças cardíacas do que um índice de massa corporal amplamente utilizado.",
-            "HEAD3": "Composição do corpo",
-            "DESC3": "Quando você está ganhando músculos e perdendo centímetros de gordura, seu peso pode não mudar muito. É por isso que a composição corporal pode dizer mais do que a escala, ela conta a história verdadeira. ",
-            "HEAD4": "Risco Cardiovascular Elevado",
-            "DESC4_1": "Homens: 40 polegadas ou mais (102 cm)",
-            "DESC4_2": "Mulheres: 35 polegadas ou mais (88 cm)",
-            "DESC4_3": "Cada 5 cm do tamanho da cintura aumenta o risco em 17% nos homens e 13% nas mulheres, independentemente do IMC",
-            "DESC4_4": "Fonte: "
-        },
-        "P5": {
-            "ABOUT": "Fácil de usar rastreador de zinco dietético para a Apple Watch. Sincronizar automaticamente com a Apple Health, não requer registro e absolutamente livre.",
-            "HEAD1": "Doenças relacionadas à idade",
-            "DESC1": "O zinco pode reduzir significativamente o risco de doenças relacionadas à idade, como pneumonia, infecção e degeneração macular relacionada à idade (AMD). Pode aliviar o estresse oxidativo e melhorar a resposta imune impulsionando a atividade de células T e células assassinas naturais, que ajudam a proteger seu corpo da infecção. Adultos mais velhos que suplementam com experiência de zinco melhoraram a resposta de vacinação contra influenza, redução do risco de pneumonia e impulsionou o desempenho mental.",
-            "LINK1": "Institutos Nacionais de Saúde, EUA",
-            "HEAD2": "Aceleração de cicatrização de feridas",
-            "DESC2": "O zinco é comumente usado em hospitais como tratamento para queimaduras, certas úlceras e outras lesões na pele. Na verdade, sua pele detém uma quantidade relativamente alta - cerca de 5% - do conteúdo do zinco do seu corpo.",
-            "LINK2": "Estudo pela American Heart Association",
-            "HEAD3": "Diminui a inflamação",
-            "DESC3": "Diminui o estresse oxidativo e reduz os níveis de certas proteínas inflamatórias em seu corpo. O estresse oxidativo leva à inflamação crônica, um fator contribuinte em uma ampla gama de doenças crônicas, como doenças cardíacas, câncer e declínio mental."            
-        },
-        "P6": {
-            "ABOUT": "Rastreie seus quadris, cintura e peito em seu Apple Watch. O Auto calcula a forma do corpo usando a fórmula de Bradley Bayou. Suporte total da Apple Health. Backups do iCloud. Tempo de carregamento rápido. Absolutamente grátis.",
-            "HEAD1": "Composição do corpo",
-            "DESC1": "Quando você está ganhando músculo e perder centímetros de gordura, seu peso pode não mudar muito. É por isso que a composição corporal pode lhe dizer mais do que a escala, diz a história verdadeira.",
-            "LINK1": "Linha de saúde.",
-            "HEAD2": "Peito",
-            "DESC2": "Por que medir? Não estamos cientes de qualquer médico ou bem-estar precisam disso. No entanto, a largura do peito (busto) é uma das medidas mais importantes de proporções perfeitas. Acredita-se que as proporções corretas sejam mais atraentes do que o tamanho ou a altura total do corpo.",
-            "HEAD3": "Cintura",
-            "HEAD4": "Quadris",
-            "DESC4": "Evidências mostram que gordura em torno das coxas e parte traseira é mais difícil de mudar do que gordura ao redor da cintura. A proporção de cintura para quadris é comumente usada como indicador ou medida de saúde, e o risco de desenvolver graves condições de saúde.",
-            "HEAD5": "Formato corporal",
-            "DESC5": "O formato do seu corpo é uma maçã 🍎 ou uma pêra 🍐? Ou talvez uma ampulheta? Descobrir a verdadeira forma do seu corpo é mais do que um daqueles testes online inúteis. Compreender a forma do seu corpo pode ajudá-lo a descobrir o treino mais eficaz. Estudos sugerem que pode ajudar a melhorar sua saúde."
-        },
-        "P7": {
-            "ABOUT_1": "Estresse 😠, ansiedade 😬, depressão☹️ ou mudanças repentinas de humor? Os eventos econômicos, políticos e sociais atuais contribuem muito para nossos níveis de estresse e muitas pessoas experimentam mudanças de humor mesmo durante o mesmo dia.",
-            "ABOUT_2": "Na incerteza geral sobre nossa posição e o que esperar a seguir, a incapacidade de prever o que esperar no futuro afeta nosso humor de maneira negativa. Essa incerteza parece ser uma nova norma em nossa vida.",
-            "HEAD1": "Como funciona?",
-            "DESC1_1": "Olhe para o anel colorido e selecione uma cor que você mais gosta. Restam 7 cores. Das 7 cores, selecione a que você mais gosta agora, e assim por diante até ficar sem cores. Em seguida, você repete a rotina acima. Ao repetir, não tente reproduzir a seleção anterior. Esqueça isso e selecione apenas as cores com base em sua preferência neste momento específico. Deixe sua sub-mente fazer o trabalho.",
-            "DESC1_2": "A chave para o sucesso deste teste é selecionar as cores que você gosta neste momento. NÃO tente associar cores a objetos, — carros, roupas, prédios, etc. Basta selecionar a cor que você mais gosta neste momento específico. Em média, leva menos de um minuto para chegar aos resultados.",
-            "HEAD2": "Por que funciona?",
-            "DESC2_1": "As cores cercaram a humanidade desde o início dos tempos, influenciaram os humanos por gerações. No início, a vida humana era regida por dois fatores incontroláveis: a noite e o dia. Luz e escuridão. Por milhares de anos as ações do homem, como atacar (vermelho) ou recuar (verde) foram incorporadas à submente. As cores da natureza tiveram sua influência sobre nós, e essas influências estão profundamente enraizadas em nossas submentes. As cores e seu significado subconsciente estão lá, gostemos ou não. Esse significado é independente de raça, idioma, nível de educação, status social, etc.",
-            "DESC2_2": "Por isso, um teste de cores é uma ferramenta ideal para analisar conflitos familiares, questões da vida pessoal, mudanças casuais de humor e até mesmo para a realização de exames psicológicos forenses.",
-            "HEAD3": "Casos de uso",
-            "DESC3_1": "Algumas organizações usam testes de cores para controlar a dinâmica das esferas volitivas e emocionais dos atletas, tanto durante o treinamento quanto durante a competição. Isso permite que o treinador antecipe com antecedência e elimine propositalmente as avarias devido ao esgotamento da energia ou das capacidades volitivas dos atletas.",
-            "DESC3_2": "Várias fontes sugerem que alguns testes de cores funcionam mesmo em casos de visão de cores defeituosa ou até mesmo daltonismo real, uma vez que a aceitabilidade de uma determinada cor é somaticamente. Na necessidade de liberação de tensão ou estresse, a resposta instintiva será escolher as cores mais escuras. Se houver necessidade de dissipar energia, a resposta instintiva será para as cores mais brilhantes.",
-            "HEAD4": "Seguro e seguro",
-            "DESC4": "Privacidade não é algo que você tem apenas direito, é um pré-requisito absoluto. Não enviamos seus dados para nossos servidores, não compartilhamos com terceiros e nunca serão usados ​​para fins publicitários. Seus dados são armazenados apenas em seu serviço Apple (loja Apple Health e iCloud). NÃO armazenamos seus dados em nossos servidores.",
-            "HEAD5": "AVISO LEGAL",
-            "DESC5_1": "Todo o conteúdo encontrado no site martpsec.com e nossos aplicativos móveis foram criados apenas para fins informativos. Não se destina a ser um substituto para aconselhamento médico profissional, diagnóstico ou tratamento.",
-            "DESC5_2": "A utilização do nosso software é exclusivamente por sua conta e risco. Ele é fornecido “como está” e “conforme disponível”. A Martspec não garante que nossos aplicativos e/ou qualquer conteúdo neles atendam aos seus requisitos ou sejam ininterruptos, oportunos, seguros, atuais, precisos, completos ou isentos de erros ou que os resultados que possam ser obtidos pelo uso do site e/ou qualquer conteúdo nele será preciso ou confiável. Você entende e reconhece que seu único e exclusivo recurso em relação a qualquer defeito ou insatisfação com o aplicativo é deixar de usá-lo."
-        }
     },
     "MISSION": {
         "HEAD": "Missão",
@@ -217,7 +198,6 @@
         "P1": "Protecting your private information is our priority. This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use any of our mobile apps, visit our website at martspec.com or engage with us in other related ways - including sales, marketing or events.",
         "P2": "The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.",
         "P3": "We use Your Personal data to provide and improve the Service. By using the Service or any our mobile apps, You agree to the collection and use of information in accordance with this Privacy Policy.",
-
         "DEFINITION": {
             "HEAD": "Interpretation and Definitions",
             "P1": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.",
@@ -231,67 +211,66 @@
                     "STRONG": "App",
                     "P1": " refers to any mobile application of ours that references or links to this policy and designed for smarge phone, wearable device, tablet or computer."
                 },
-                "BUSINESS":{
+                "BUSINESS": {
                     "STRONG": "Business",
                     "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), refers to the Company as the legal entity that collects Consumers' personal information and determines the purposes and means of the processing of Consumers' personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California."
                 },
-                "COMPANY":{
+                "COMPANY": {
                     "STRONG": "Company",
                     "P1": " (referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement) refers to Martspec LLC, Austin, TX 78749."
                 },
-                "CONSUMER":{
+                "CONSUMER": {
                     "STRONG": "Consumer",
                     "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), means a natural person who is a California resident. A resident, as defined in the law, includes (1) every individual who is in the USA for other than a temporary or transitory purpose, and (2) every individual who is domiciled in the USA who is outside the USA for a temporary or transitory purpose."
                 },
-                "COOKIES":{
+                "COOKIES": {
                     "STRONG": "Cookies",
                     "P1": " are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses."
                 },
-                "COUNTRY":{
+                "COUNTRY": {
                     "STRONG": "Country",
                     "P1": " refers to: Texas, United States"
                 },
-                "DEVICE":{
+                "DEVICE": {
                     "STRONG": "Device",
                     "P1": " means any device that can access the Service such as a computer, a cellphone or a digital tablet."
                 },
-                "PERSONAL_DATA":{
+                "PERSONAL_DATA": {
                     "STRONG": "Personal Data",
                     "P1": " is any information that relates to an identified or identifiable individual.",
                     "P2": "For the purposes of the CCPA, Personal Data means any information that identifies, relates to, describes or is capable of being associated with, or could reasonably be linked, directly or indirectly, with You."
                 },
-                "SALE":{
+                "SALE": {
                     "STRONG": "Sale",
                     "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), means selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a Consumer's Personal information to another business or a third party for monetary or other valuable consideration."
                 },
-                "SERVICE":{
+                "SERVICE": {
                     "STRONG": "Service",
                     "P1": " refers to our Website, App, and other related services, including any sales, marketing, or events."
                 },
-                "SERVICE_PROVIDER":{
+                "SERVICE_PROVIDER": {
                     "STRONG": "Service Provider",
                     "P1": " means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used."
                 },
-                "THIRD_PARTY_MEDIA":{
+                "THIRD_PARTY_MEDIA": {
                     "STRONG": "Third-party Social Media Service",
                     "P1": " refers to any website or any social network website through which a User can log in or create an account to use the Service."
                 },
-                "USAGE_DATA":{
+                "USAGE_DATA": {
                     "STRONG": "Usage Data",
                     "P1": " refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit)."
                 },
-                "WEBSITE":{
+                "WEBSITE": {
                     "STRONG": "Website",
                     "P1": " refers to Martspec, accessible from ",
                     "A": "https://martspec.com/"
                 },
-                "YOU":{
+                "YOU": {
                     "STRONG": "You",
                     "P1": " means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."
                 }
             }
         },
-
         "TYPES_OF_DATA": {
             "HEAD4": "Types of Data Collected",
             "HEAD5": {
@@ -325,7 +304,6 @@
                 }
             }
         },
-
         "TRACKING": {
             "HEAD4": "Tracking Technologies",
             "HEAD5": "Control for DO-NOT-TRACK features",
@@ -350,7 +328,6 @@
                 }
             }
         },
-
         "PERSONAL_DATA": {
             "USE": {
                 "HEAD4": "Use of Your Personal Data",
@@ -454,12 +431,10 @@
                 "P": "The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security."
             }
         },
-
         "CHILD": {
             "HEAD4": "Children Under Thirteen",
             "P": "We do not knowingly collect personally identifiable information from children under the age of thirteen. If you are under the age of thirteen, you must\nask your parent or guardian for permission to use this Service or any of our mobile applications."
         },
-
         "RIGHTS": {
             "HEAD4": "What are your Privacy Rights ?",
             "HEAD5": "Account Information",
@@ -475,7 +450,6 @@
             },
             "P5": "If you would at any time like to review or change the information in your account or terminate your account, you can:\nLog in to your account settings and update your user account.\nUpon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our Terms of Use and/or comply with applicable legal requirements."
         },
-
         "CCPA": {
             "HEAD4": {
                 "CCPA": "CCPA Privacy",
@@ -564,19 +538,16 @@
                 "L4": "you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission."
             }
         },
-
         "LINK": {
             "HEAD4": "Links to Other Websites",
             "P1": "Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.",
             "P2": "We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services."
         },
-
         "CHANGES": {
             "HEAD4": "Changes to this Privacy Policy",
             "P1": "We may update our Privacy Policy from time to time. The updated version will be indicated by an updated \"Last updated\" date and the updated version will be effective as soon as it is accessible. ",
             "P2": "You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
         },
-
         "CONTACT": {
             "HEAD4": "Contact Us",
             "TEXT": "If you have any questions about this Privacy Policy, You can contact us:",
