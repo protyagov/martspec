@@ -12,6 +12,10 @@
         "SUBHEAD": "Apps to make daily tasks agile and effortless",
         "IMG": "Apple Watch wellness and health apps"
     },
+    "NAV": {
+        "APPS": "Applications",
+        "ABOUT": "About Us"
+    },
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",
         "SUBHEAD": "most vital minerals",

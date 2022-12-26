@@ -1,7 +1,15 @@
 footer {
+    overflow: hidden;
     background-color: $pw-color-side-bar; //$brand-overlay-color;
     width: 100%;
     color: white;
+
+    h2{
+        font-size: 1.5rem;
+        @media only screen and (max-width: ($pw-screen-sm)) {
+            font-size: 1.2rem;
+        }
+    }
 
     .text-center {
         margin-right: 0;
@@ -10,7 +18,8 @@ footer {
     .social-icon svg {
         width: 1.8rem;
         height: 1.8rem;
-        margin-right: 1.5rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
         fill: #fff;
     }
 
@@ -18,11 +27,16 @@ footer {
         font-size: 1.5rem;
         font-family: os3;
         color: white;
+        width: max-content;
 
         &:hover {
             cursor: pointer;
             color: #79B6F2;
             text-decoration: underline;
+        }
+
+        @media only screen and (max-width: ($pw-screen-sm)) {
+            font-size: 1.2rem;
         }
     }
 
@@ -40,4 +54,19 @@ footer {
             color: #fafafa;
         }
     }
+
+    .icon-container{
+        margin-top: 7rem;
+
+        @media only screen and (max-width: ($pw-screen-md)) {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+
+            div:first-of-type{
+                margin: auto
+            }
+        }
+
+    }
+
 }
