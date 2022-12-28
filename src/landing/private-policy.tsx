@@ -5,7 +5,7 @@ import _ from "src/i18n/locale"
 
 export default function PrivacyPolicy() {
     return (<>
-        <NavigationBar title="" />
+        <NavigationBar />
 
         <div className="ms-base-page pb-5">
             <h3 className="text-center">{_("PP.HEAD")}</h3>
