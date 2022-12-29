@@ -17,6 +17,8 @@ rm org/*size64
 rm org/*size512
 rm org/*.new
 
+cp org/header_watches.webp .
+
 cp vitamin.en.512.webp vitamin.ar.512.webp
 cp vitamin.en.512.webp vitamin.de.512.webp
 cp vitamin.en.512.webp vitamin.es.512.webp
@@ -25,14 +27,13 @@ cp vitamin.en.512.webp vitamin.hi.512.webp
 cp vitamin.en.512.webp vitamin.ja.512.webp
 cp vitamin.en.512.webp vitamin.pt.512.webp
 
-
-cp bodysize.en.512.webp bodysize.ar.512.webp
-cp bodysize.en.512.webp bodysize.de.512.webp
-cp bodysize.en.512.webp bodysize.es.512.webp
-cp bodysize.en.512.webp bodysize.fr.512.webp
-cp bodysize.en.512.webp bodysize.hi.512.webp
-cp bodysize.en.512.webp bodysize.ja.512.webp
-cp bodysize.en.512.webp bodysize.pt.512.webp
+cp size.en.512.webp size.ar.512.webp
+cp size.en.512.webp size.de.512.webp
+cp size.en.512.webp size.es.512.webp
+cp size.en.512.webp size.fr.512.webp
+cp size.en.512.webp size.hi.512.webp
+cp size.en.512.webp size.ja.512.webp
+cp size.en.512.webp size.pt.512.webp
 
 cp header_screens.en.512.webp header_screens.ar.512.webp
 cp header_screens.en.512.webp header_screens.de.512.webp
@@ -41,3 +42,11 @@ cp header_screens.en.512.webp header_screens.fr.512.webp
 cp header_screens.en.512.webp header_screens.hi.512.webp
 cp header_screens.en.512.webp header_screens.ja.512.webp
 cp header_screens.en.512.webp header_screens.pt.512.webp
+
+cp mass.en.512.webp mass.ar.512.webp
+cp mass.en.512.webp mass.de.512.webp
+cp mass.en.512.webp mass.es.512.webp
+cp mass.en.512.webp mass.fr.512.webp
+cp mass.en.512.webp mass.hi.512.webp
+cp mass.en.512.webp mass.ja.512.webp
+cp mass.en.512.webp mass.pt.512.webp
