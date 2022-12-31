@@ -57,7 +57,9 @@ export default function NavigationBar() {
             <button className="navbar-toggler navbar-toggler-open" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                 aria-expanded="false" aria-label="Toggle navigation">
-                <ul><li></li><li></li><li></li></ul>
+                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 12H18V10H0V12ZM0 7H18V5H0V7ZM0 0V2H18V0H0Z" fill="#5396C6"/>
+                </svg>
             </button>
 
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
