@@ -12,6 +12,7 @@ import P6BodySize from "./landing/p6-bodysize";
 import P7Emotion from "./landing/p7-emotion";
 import About from "src/landing/about";
 import Mission from "src/landing/mission";
+import Team from "src/landing/team";
 
 
 export function App() {
@@ -48,6 +49,8 @@ export function App() {
             return <About />
         case "/mission":
             return <Mission />
+        case "/team":
+            return <Team />
         default:
             return <Error_404 />;
     }
