@@ -196,6 +196,12 @@
         "P6": "Creamos nuestras aplicaciones utilizando tecnología de punta y las ofrecemos en muchos idiomas en todo el mundo, pero nada de eso importa. No se trata solo de la cantidad de aplicaciones y software líder en la industria. Martspec se trata de personas. Martspec se trata de confiar en la tecnología que empodera a las personas con salud y bienestar personal.",
         "P7": "Es por eso que todas nuestras aplicaciones están disponibles de forma gratuita. No tenemos ninguna monetización, no mostramos anuncios publicitarios y nunca usamos datos personales con fines de lucro."
     },
+    "TEAM": {
+        "HEAD": "El equipo",
+        "ENGINEER_MOBILE": "Mobile Software Engineer",
+        "ENGINEER_WEB": "Web Software Engineer",
+        "DESIGNER_UI_UX": "UI/UX Designer"
+    },
     "PP": {
         "HEAD": "Privacy Policy",
         "DATE": "Last updated: August 20, 2022",

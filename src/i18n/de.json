@@ -199,6 +199,12 @@
         "P6": "Wir bauen unsere Apps mit modernster Technologie und bieten sie in vielen Sprachen auf der ganzen Welt an, aber das spielt keine Rolle. Es geht nicht nur um die Anzahl an Apps und branchenführender Software. Bei Martspec geht es um Menschen. Bei Martspec geht es um Vertrauen in Technologie, die Einzelpersonen mit persönlicher Gesundheit und Wohlbefinden befähigt.",
         "P7": "Deshalb sind alle unsere Apps kostenlos erhältlich. Wir haben keine Monetarisierung, zeigen keine Werbung und verwenden niemals personenbezogene Daten für Profit."
     },
+    "TEAM": {
+        "HEAD": "Die Mannschaft",
+        "ENGINEER_MOBILE": "Mobile Software Engineer",
+        "ENGINEER_WEB": "Web Software Engineer",
+        "DESIGNER_UI_UX": "UI/UX Designer"
+    },
     "PP": {
         "HEAD": "Datenschutzrichtlinie",
         "DATE": "Zuletzt aktualisiert: 20. August 2022",
