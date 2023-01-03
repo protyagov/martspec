@@ -198,6 +198,7 @@
     },
     "TEAM": {
         "HEAD": "团队",
+        "SUBHEAD": "公司背后的人与公司本身一样重要。认识我们制作最佳健康应用程序的才华横溢的软件工程师和设计师。",
         "ENGINEER_MOBILE": "Mobile Software Engineer",
         "ENGINEER_WEB": "Web Software Engineer",
         "DESIGNER_UI_UX": "UI/UX Designer"

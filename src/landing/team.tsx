@@ -21,6 +21,7 @@ export default function Team() {
 
         <div className="ms-base-page pb-5 ms-team">
             <h1 className="text-center pt-5">{_("TEAM.HEAD")}</h1>
+            <p className="text-center">{_("TEAM.SUBHEAD")}</p>
             <section>
                 <div className="d-flex flex-wrap justify-content-center members-list">
                     {

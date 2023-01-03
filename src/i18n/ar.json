@@ -198,6 +198,7 @@
     },
     "TEAM": {
         "HEAD": "الفريق",
+        "SUBHEAD": "الأشخاص الذين يقفون وراء الشركة لا يقلون أهمية عن الشركة نفسها. قابل مهندسي ومصممي البرامج الموهوبين لدينا الذين يصنعون أفضل تطبيقات العافية.",
         "ENGINEER_MOBILE": "Mobile Software Engineer",
         "ENGINEER_WEB": "Web Software Engineer",
         "DESIGNER_UI_UX": "UI/UX Designer"
