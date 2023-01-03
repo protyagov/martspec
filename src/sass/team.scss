@@ -1,13 +1,14 @@
 @import 'font';
 
 .ms-team {
-  padding-bottom: 10vmin;
-  
+  section {
+    margin-top: 0;
+    padding-top: 5vmin;
+  }
   h4 {
     color: #000000;
     font-size: 1.6rem;
     font-weight: 600;
-    margin-top: 1rem;
   }
   h5 {
     font-family: os3;

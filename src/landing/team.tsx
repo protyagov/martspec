@@ -20,10 +20,12 @@ export default function Team() {
         <NavigationBar />
 
         <div className="ms-base-page pb-5 text-center ms-team">
-            <h1 className="pt-5">{_("TEAM.HEAD")}</h1>
-            <p>{_("TEAM.SUBHEAD")}</p>
             <section>
-                <div className="d-flex flex-wrap justify-content-center members-list">
+                <h1>{_("TEAM.HEAD")}</h1>
+                <p>{_("TEAM.SUBHEAD")}</p>
+            </section>
+            <section>
+                <div className=" d-flex flex-wrap justify-content-center members-list">
                     {
                         teamData.map(member => <TeamMember key={member.name} {...member} />)
                     }
