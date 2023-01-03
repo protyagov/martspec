@@ -1,0 +1,21 @@
+@import 'font';
+
+.ms-team {
+  padding-bottom: 10vmin;
+  
+  h4 {
+    color: #000000;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  h5 {
+    font-family: os3;
+    margin-top: .1rem;
+    color: #8A8A8A;
+  }
+  .members-list {
+    column-gap: 8vmin;
+    row-gap: 12vmin;
+  }
+}
