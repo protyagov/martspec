@@ -190,7 +190,7 @@
     "ABOUT": {
         "HEAD": "हमारे बारे में",
         "P1": "कंपनी मार्टस्पेक की स्थापना 2020 के वसंत में हुई थी ।  उस दौरान बहुत से लोग घर पर रहे और दूर से काम किया ।  हमारी दैनिक दिनचर्या बदल गई ।  हममें से कई लोग नियमित व्यायाम करना बंद कर देते हैं ।  इससे हमारे शरीर और स्वास्थ्य में महत्वपूर्ण बदलाव आते हैं । ",
-        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. it keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
+        "P2": "हम उस स्थिति में सुधार करना चाहते थे और लोगों को स्वास्थ्य और तंदुरूस्ती पर नज़र रखने के लिए ऐप उपलब्ध कराना चाहते थे। यह हमारे दिमाग के सामने स्वस्थ आदतों को रखता है। हर बार जब हम लॉग एंट्री करते हैं, तो हमें स्वास्थ्य के प्रति अपनी प्रतिबद्धता की याद दिलाई जाती है।",
         "P3": "जो लोग अपने कल्याण को दैनिक ट्रैक करते हैं वे उन लोगों की तुलना में बेहतर प्रगति करते हैं जो नहीं करते हैं । ",
         "P4": "हम वास्तव में दृष्टिकोण, जीवन और अंततः, दुनिया को बदलने के लिए विचारों की शक्ति में विश्वास करते हैं ।  पहला विचार पहनने योग्य उपकरणों से सीधे शरीर के वजन को ट्रैक करने के लिए एक ऐप था ।  हमने ऐप्पल वॉच के लिए वेट ट्रैकिंग ऐप बनाया है ताकि शरीर के वजन को इनपुट करना आसान हो और माप को सीधे आपकी कलाई से ऐप्पल हेल्थ में रिकॉर्ड किया जा सके ।  यह आसान और न्यूनतर ऐप लोकप्रिय हो गया । ",
         "P5": "हमने केवल ऐप्पल वॉच डिवाइस के लिए कुछ और ऐप बनाए हैं ।   2021 में हमने क्रॉस-प्लेटफ़ॉर्म ऐप बनाना शुरू किया जो छोटे ऐप्पल वॉच से लेकर आईपैड और मैकबुक तक सभी प्रकार के ऐप्पल डिवाइस पर काम करते हैं ।  शारीरिक कल्याण और स्वास्थ्य ट्रैकिंग के अलावा, हमने मानसिक कल्याण को संबोधित करने के लिए अपना पहला ऐप बनाया है, जिसे इमोशन कहा जाता है ।  अब तक का सबसे तेज व्यक्तित्व परीक्षण । ",
@@ -198,382 +198,382 @@
         "P7": "इसलिए हमारे सभी ऐप फ्री में उपलब्ध हैं। हमारे पास कोई मुद्रीकरण नहीं है, विज्ञापन नहीं दिखाते हैं, और कभी भी लाभ के लिए व्यक्तिगत डेटा का उपयोग नहीं करते हैं।"
     },
     "PP": {
-        "HEAD": "Privacy Policy",
-        "DATE": "Last updated: August 20, 2022",
-        "P1": "Protecting your private information is our priority. This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use any of our mobile apps, visit our website at martspec.com or engage with us in other related ways - including sales, marketing or events.",
-        "P2": "The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.",
-        "P3": "We use Your Personal data to provide and improve the Service. By using the Service or any our mobile apps, You agree to the collection and use of information in accordance with this Privacy Policy.",
+        "HEAD": "गोपनीयता नीति",
+        "DATE": "अंतिम अद्यतन: 20 अगस्त, 2022",
+        "P1": "आपकी निजी जानकारी की सुरक्षा करना हमारी प्राथमिकता है। जब आप हमारे किसी भी मोबाइल ऐप का उपयोग करते हैं, हमारी वेबसाइट martspec.com पर जाते हैं या बिक्री, मार्केटिंग या ईवेंट सहित अन्य संबंधित तरीकों से हमारे साथ जुड़ते हैं, तो यह गोपनीयता नीति आपकी जानकारी के संग्रह, उपयोग और प्रकटीकरण पर हमारी नीतियों और प्रक्रियाओं का वर्णन करती है।",
+        "P2": "इस गोपनीयता नोटिस का उद्देश्य आपको यथासंभव स्पष्ट रूप से समझाना है कि हम कौन सी जानकारी एकत्र करते हैं, हम इसका उपयोग कैसे करते हैं, और इसके संबंध में आपके पास क्या अधिकार हैं। यदि इस गोपनीयता नोटिस में ऐसी कोई शर्तें हैं जिनसे आप सहमत नहीं हैं, तो कृपया हमारी सेवाओं का उपयोग तुरंत बंद कर दें।",
+        "P3": "हम सेवा प्रदान करने और उसमें सुधार करने के लिए आपके व्यक्तिगत डेटा का उपयोग करते हैं। सेवा या हमारे किसी भी मोबाइल ऐप का उपयोग करके, आप इस गोपनीयता नीति के अनुसार जानकारी के संग्रह और उपयोग के लिए सहमत होते हैं।",
         "DEFINITION": {
-            "HEAD": "Interpretation and Definitions",
-            "P1": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.",
-            "P2": "For the purposes of this Privacy Policy:",
+            "HEAD": "व्याख्या और परिभाषाएँ",
+            "P1": "जिन शब्दों के प्रारंभिक अक्षर को बड़े अक्षरों में लिखा गया है, उनके अर्थ निम्नलिखित शर्तों के तहत परिभाषित किए गए हैं। निम्नलिखित परिभाषाओं का एक ही अर्थ होगा चाहे वे एकवचन में हों या बहुवचन में।",
+            "P2": "इस गोपनीयता नीति के प्रयोजनों के लिए:",
             "UL": {
                 "ACCOUNT": {
-                    "STRONG": "Account",
-                    "P1": " means a unique account created for You to access our Service or parts of our Service."
+                    "STRONG": "खाता",
+                    "P1": " मतलब हमारी सेवा या हमारी सेवा के कुछ हिस्सों तक पहुँचने के लिए आपके लिए बनाया गया एक अनूठा खाता।"
                 },
                 "APP": {
-                    "STRONG": "App",
-                    "P1": " refers to any mobile application of ours that references or links to this policy and designed for smarge phone, wearable device, tablet or computer."
+                    "STRONG": "अनुप्रयोग",
+                    "P1": " हमारे किसी भी मोबाइल एप्लिकेशन को संदर्भित करता है जो इस नीति का संदर्भ या लिंक करता है और स्मार्ट फोन, पहनने योग्य डिवाइस, टैबलेट या कंप्यूटर के लिए डिज़ाइन किया गया है।"
                 },
                 "BUSINESS": {
-                    "STRONG": "Business",
-                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), refers to the Company as the legal entity that collects Consumers' personal information and determines the purposes and means of the processing of Consumers' personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California."
+                    "STRONG": "व्यवसाय",
+                    "P1": ", CCPA (कैलिफ़ोर्निया उपभोक्ता गोपनीयता अधिनियम) के उद्देश्य से, कंपनी को कानूनी इकाई के रूप में संदर्भित करता है जो उपभोक्ताओं की व्यक्तिगत जानकारी एकत्र करता है और उपभोक्ताओं की व्यक्तिगत जानकारी के प्रसंस्करण के उद्देश्यों और साधनों को निर्धारित करता है, या जिसकी ओर से ऐसी जानकारी एकत्र किया जाता है और अकेले या दूसरों के साथ संयुक्त रूप से, उपभोक्ताओं की व्यक्तिगत जानकारी के प्रसंस्करण के उद्देश्यों और साधनों को निर्धारित करता है, जो कैलिफोर्निया राज्य में व्यापार करता है।"
                 },
                 "COMPANY": {
-                    "STRONG": "Company",
-                    "P1": " (referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement) refers to Martspec LLC, Austin, TX 78749."
+                    "STRONG": "कंपनी",
+                    "P1": " (इस समझौते में या तो \"कंपनी\", \"हम\", \"हमें\" या \"हमारा\" के रूप में संदर्भित) मार्टस्पेक एलएलसी, ऑस्टिन, TX 78749 को संदर्भित करता है।"
                 },
                 "CONSUMER": {
-                    "STRONG": "Consumer",
-                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), means a natural person who is a California resident. A resident, as defined in the law, includes (1) every individual who is in the USA for other than a temporary or transitory purpose, and (2) every individual who is domiciled in the USA who is outside the USA for a temporary or transitory purpose."
+                    "STRONG": "उपभोक्ता",
+                    "P1": ", CCPA (कैलिफ़ोर्निया उपभोक्ता गोपनीयता अधिनियम) के उद्देश्य के लिए, एक प्राकृतिक व्यक्ति है जो कैलिफ़ोर्निया का निवासी है। एक निवासी, जैसा कि कानून में परिभाषित है, में शामिल है (1) प्रत्येक व्यक्ति जो एक अस्थायी या अस्थायी उद्देश्य के अलावा अन्य के लिए संयुक्त राज्य अमेरिका में है, और (2) प्रत्येक व्यक्ति जो संयुक्त राज्य अमेरिका में अधिवासित है जो अस्थायी रूप से संयुक्त राज्य अमेरिका के बाहर है या अस्थायी उद्देश्य।"
                 },
                 "COOKIES": {
-                    "STRONG": "Cookies",
-                    "P1": " are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses."
+                    "STRONG": "कुकीज़",
+                    "P1": "वे छोटी फाइलें होती हैं जो किसी वेबसाइट द्वारा आपके कंप्यूटर, मोबाइल डिवाइस या किसी अन्य डिवाइस पर रखी जाती हैं, जिसमें उस वेबसाइट के कई उपयोगों के बीच आपके ब्राउज़िंग इतिहास का विवरण होता है।"
                 },
                 "COUNTRY": {
-                    "STRONG": "Country",
-                    "P1": " refers to: Texas, United States"
+                    "STRONG": "देश",
+                    "P1": "संदर्भित करता है: टेक्सास, संयुक्त राज्य अमेरिका"
                 },
                 "DEVICE": {
-                    "STRONG": "Device",
-                    "P1": " means any device that can access the Service such as a computer, a cellphone or a digital tablet."
+                    "STRONG": "उपकरण",
+                    "P1": "मतलब कोई भी उपकरण जो सेवा तक पहुंच सकता है जैसे कंप्यूटर, सेलफोन या डिजिटल टैबलेट।"
                 },
                 "PERSONAL_DATA": {
-                    "STRONG": "Personal Data",
-                    "P1": " is any information that relates to an identified or identifiable individual.",
-                    "P2": "For the purposes of the CCPA, Personal Data means any information that identifies, relates to, describes or is capable of being associated with, or could reasonably be linked, directly or indirectly, with You."
+                    "STRONG": "व्यक्तिगत डेटा",
+                    "P1": "कोई भी जानकारी है जो किसी पहचाने गए या पहचाने जाने योग्य व्यक्ति से संबंधित है।",
+                    "P2": "सीसीपीए के प्रयोजनों के लिए, व्यक्तिगत डेटा का अर्थ है ऐसी कोई भी जानकारी जो आपके साथ प्रत्यक्ष या अप्रत्यक्ष रूप से पहचान करती है, उससे संबंधित है, वर्णन करती है या संबद्ध होने में सक्षम है, या यथोचित रूप से जुड़ी हो सकती है।"
                 },
                 "SALE": {
-                    "STRONG": "Sale",
-                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), means selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a Consumer's Personal information to another business or a third party for monetary or other valuable consideration."
+                    "STRONG": "बिक्री करना",
+                    "P1": ", CCPA (कैलिफ़ोर्निया कंज्यूमर प्राइवेसी एक्ट) के उद्देश्य के लिए, इसका अर्थ है किसी उपभोक्ता की व्यक्तिगत जानकारी को बेचना, किराए पर देना, जारी करना, खुलासा करना, प्रसारित करना, उपलब्ध कराना, लिखित रूप में, या इलेक्ट्रॉनिक या अन्य माध्यमों से मौखिक रूप से संचार करना। मौद्रिक या अन्य मूल्यवान प्रतिफल के लिए कोई अन्य व्यवसाय या कोई तृतीय पक्ष।"
                 },
                 "SERVICE": {
-                    "STRONG": "Service",
-                    "P1": " refers to our Website, App, and other related services, including any sales, marketing, or events."
+                    "STRONG": "सेवा",
+                    "P1": "हमारी वेबसाइट, ऐप और किसी भी बिक्री, मार्केटिंग या इवेंट सहित अन्य संबंधित सेवाओं को संदर्भित करता है।"
                 },
                 "SERVICE_PROVIDER": {
-                    "STRONG": "Service Provider",
-                    "P1": " means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used."
+                    "STRONG": "सेवा प्रदाता",
+                    "P1": "मतलब कोई प्राकृतिक या कानूनी व्यक्ति जो कंपनी की ओर से डेटा को प्रोसेस करता है। यह सेवा को सुविधाजनक बनाने, कंपनी की ओर से सेवा प्रदान करने, सेवा से संबंधित सेवाओं को निष्पादित करने या सेवा का उपयोग करने के तरीके का विश्लेषण करने में कंपनी की सहायता करने के लिए कंपनी द्वारा नियोजित तृतीय-पक्ष कंपनियों या व्यक्तियों को संदर्भित करता है।"
                 },
                 "THIRD_PARTY_MEDIA": {
-                    "STRONG": "Third-party Social Media Service",
-                    "P1": " refers to any website or any social network website through which a User can log in or create an account to use the Service."
+                    "STRONG": "तृतीय-पक्ष सोशल मीडिया सेवा",
+                    "P1": " किसी भी वेबसाइट या किसी सोशल नेटवर्क वेबसाइट को संदर्भित करता है जिसके माध्यम से उपयोगकर्ता लॉग इन कर सकता है या सेवा का उपयोग करने के लिए खाता बना सकता है।"
                 },
                 "USAGE_DATA": {
-                    "STRONG": "Usage Data",
-                    "P1": " refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit)."
+                    "STRONG": "डेटा का उपयोग",
+                    "P1": " स्वचालित रूप से एकत्र किए गए डेटा को संदर्भित करता है, या तो सेवा के उपयोग से या स्वयं सेवा के बुनियादी ढांचे से उत्पन्न होता है (उदाहरण के लिए, पृष्ठ विज़िट की अवधि)।"
                 },
                 "WEBSITE": {
-                    "STRONG": "Website",
-                    "P1": " refers to Martspec, accessible from ",
+                    "STRONG": "वेबसाइट",
+                    "P1": " मार्टस्पेक को संदर्भित करता है, से सुलभ ",
                     "A": "https://martspec.com/"
                 },
                 "YOU": {
-                    "STRONG": "You",
-                    "P1": " means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."
+                    "STRONG": "आप",
+                    "P1": " का अर्थ है सेवा, या कंपनी, या अन्य कानूनी इकाई तक पहुँचने या उपयोग करने वाला व्यक्ति, जिसकी ओर से ऐसा व्यक्ति सेवा तक पहुँच बना रहा है या उपयोग कर रहा है, जैसा लागू हो।"
                 }
             }
         },
         "TYPES_OF_DATA": {
-            "HEAD4": "Types of Data Collected",
+            "HEAD4": "एकत्रित डेटा के प्रकार",
             "HEAD5": {
-                "PERSONAL_DATA": "Personal Data",
-                "USAGE_DATA": "Usage Data",
-                "INFORMATION_COLLECTED": "Information Collected on Device with our App"
+                "PERSONAL_DATA": "व्यक्तिगत डेटा",
+                "USAGE_DATA": "डेटा का उपयोग",
+                "INFORMATION_COLLECTED": "हमारे ऐप के साथ डिवाइस पर एकत्रित जानकारी"
             },
-            "P1": "While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:",
-            "P2": "Usage Data is collected automatically when using the Service.",
-            "P3": "Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.",
-            "P4": "When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.",
-            "P5": "We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.",
-            "P6": "We may request access or permission to certain features from your device, including your mobile device's and other features. If you wish to change our access or permissions, you may do so in your device's settings. This information is primarily needed to maintain the security and operation of our App, for troubleshooting and for our internal analytics and reporting purposes.",
+            "P1": "हमारी सेवा का उपयोग करते समय, हम आपसे कुछ व्यक्तिगत पहचान योग्य जानकारी प्रदान करने के लिए कह सकते हैं जिसका उपयोग आपसे संपर्क करने या पहचानने के लिए किया जा सकता है। व्यक्तिगत रूप से पहचाने जाने योग्य जानकारी में निम्न शामिल हो सकते हैं, लेकिन यह इन तक सीमित नहीं है:",
+            "P2": "सेवा का उपयोग करते समय उपयोग डेटा स्वचालित रूप से एकत्र किया जाता है।",
+            "P3": "उपयोग डेटा में आपके डिवाइस का इंटरनेट प्रोटोकॉल पता (जैसे आईपी पता), ब्राउज़र प्रकार, ब्राउज़र संस्करण, हमारी सेवा के पृष्ठ जिन्हें आप देखते हैं, आपकी यात्रा का समय और तारीख, उन पृष्ठों पर बिताया गया समय, अद्वितीय डिवाइस जैसी जानकारी शामिल हो सकती है। पहचानकर्ता और अन्य नैदानिक डेटा।",
+            "P4": "जब आप मोबाइल डिवाइस द्वारा या उसके माध्यम से सेवा का उपयोग करते हैं, तो हम स्वचालित रूप से कुछ जानकारी एकत्र कर सकते हैं, जिसमें आपके द्वारा उपयोग किए जाने वाले मोबाइल डिवाइस का प्रकार, आपकी मोबाइल डिवाइस की विशिष्ट आईडी, आपके मोबाइल डिवाइस का आईपी पता, आपका मोबाइल शामिल है, लेकिन इन तक सीमित नहीं है। ऑपरेटिंग सिस्टम, आपके द्वारा उपयोग किए जाने वाले मोबाइल इंटरनेट ब्राउज़र का प्रकार, विशिष्ट उपकरण पहचानकर्ता और अन्य नैदानिक डेटा।",
+            "P5": "जब भी आप हमारी सेवा पर जाते हैं या जब आप किसी मोबाइल डिवाइस द्वारा या उसके माध्यम से सेवा का उपयोग करते हैं, तो हम वह जानकारी भी एकत्र कर सकते हैं जो आपका ब्राउज़र भेजता है।",
+            "P6": "हम आपके मोबाइल डिवाइस और अन्य सुविधाओं सहित आपके डिवाइस से कुछ सुविधाओं तक पहुंच या अनुमति का अनुरोध कर सकते हैं। यदि आप हमारी पहुंच या अनुमतियों को बदलना चाहते हैं, तो आप अपने डिवाइस की सेटिंग में ऐसा कर सकते हैं। समस्या निवारण और हमारे आंतरिक विश्लेषण और रिपोर्टिंग उद्देश्यों के लिए, हमारे ऐप की सुरक्षा और संचालन को बनाए रखने के लिए यह जानकारी मुख्य रूप से आवश्यक है।",
             "UL1": {
-                "EMAIL": "Email address",
-                "FIRST_LAST_NAMES": "First name and last name",
-                "USAGE_DATA": "Usage Data"
+                "EMAIL": "ईमेल पता",
+                "FIRST_LAST_NAMES": "प्रथम नाम और अंतिम नाम",
+                "USAGE_DATA": "डेटा का उपयोग"
             },
             "UL2": {
                 "MOBILE_ACCESS": {
-                    "STRONG": "Mobile Device Access. ",
-                    "TEXT": " We may request access or permission to certain features from your mobile device, including your mobile device's apple health, and other features. If you wish to change our access or permissions, you may do so in your device's settings."
+                    "STRONG": "मोबाइल डिवाइस एक्सेस। ",
+                    "TEXT": " हम आपके मोबाइल डिवाइस से कुछ सुविधाओं तक पहुंच या अनुमति का अनुरोध कर सकते हैं, जिसमें आपके मोबाइल डिवाइस का सेब स्वास्थ्य और अन्य सुविधाएं शामिल हैं। यदि आप हमारी पहुंच या अनुमतियों को बदलना चाहते हैं, तो आप अपने डिवाइस की सेटिंग में ऐसा कर सकते हैं।"
                 },
                 "MOBILE_DATA": {
-                    "STRONG": "Mobile Device Data.",
-                    "TEXT": " We automatically collect device information (such as your mobile device ID, model and manufacturer), operating system, version information and system configuration information, device and application identification numbers, browser type and version, hardware model, and Internet Protocol (IP) address (or proxy server). If you are using our App, we may also collect information about the phone network associated with your mobile device, your mobile device’s operating system or platform, the type of mobile device you use, your mobile device’s unique device ID and information about the features of our App you accessed."
+                    "STRONG": "मोबाइल डिवाइस डेटा।",
+                    "TEXT": " हम स्वचालित रूप से डिवाइस जानकारी (जैसे आपकी मोबाइल डिवाइस आईडी, मॉडल और निर्माता), ऑपरेटिंग सिस्टम, संस्करण जानकारी और सिस्टम कॉन्फ़िगरेशन जानकारी, डिवाइस और एप्लिकेशन पहचान संख्या, ब्राउज़र प्रकार और संस्करण, हार्डवेयर मॉडल और इंटरनेट प्रोटोकॉल (आईपी) पता एकत्र करते हैं ( या प्रॉक्सी सर्वर)। यदि आप हमारे ऐप का उपयोग कर रहे हैं, तो हम आपके मोबाइल डिवाइस से जुड़े फोन नेटवर्क, आपके मोबाइल डिवाइस के ऑपरेटिंग सिस्टम या प्लेटफ़ॉर्म, आपके द्वारा उपयोग किए जाने वाले मोबाइल डिवाइस के प्रकार, आपके मोबाइल डिवाइस की विशिष्ट डिवाइस आईडी और सुविधाओं के बारे में जानकारी भी एकत्र कर सकते हैं। हमारे ऐप को आपने एक्सेस किया।"
                 },
                 "PUSH_NOTIFICATIONS": {
-                    "STRONG": "Push Notifications.",
-                    "TEXT": " We may request to send you push notifications regarding your account or certain features of the App. If you wish to opt-out from receiving these types of communications, you may turn them off in your device's settings."
+                    "STRONG": "सूचनाएं धक्का।",
+                    "TEXT": " हम आपको आपके खाते या ऐप की कुछ विशेषताओं के बारे में पुश सूचनाएँ भेजने का अनुरोध कर सकते हैं। यदि आप इस प्रकार के संचार प्राप्त करने से ऑप्ट-आउट करना चाहते हैं, तो आप उन्हें अपने डिवाइस की सेटिंग में बंद कर सकते हैं।"
                 }
             }
         },
         "TRACKING": {
-            "HEAD4": "Tracking Technologies",
-            "HEAD5": "Control for DO-NOT-TRACK features",
+            "HEAD4": "ट्रैकिंग टेक्नोलॉजीज",
+            "HEAD5": "ट्रैक न करें सुविधाओं के लिए नियंत्रण",
             "P1": {
-                "TEXT": "We use Cookies or similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies might include\nbut not limited to beacons, browser session storage, Cookies, tags, and scripts to collect and track information and to improve and analyze Our Service.\nYou can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent.\nLearn more about cookies: ",
-                "A": "All About Cookies"
+                "TEXT": "हम अपनी सेवा पर गतिविधि को ट्रैक करने और कुछ जानकारी संग्रहीत करने के लिए कुकीज़ या समान ट्रैकिंग तकनीकों का उपयोग करते हैं। ट्रैकिंग तकनीकों में \nबीकन, ब्राउज़र सत्र भंडारण, कुकीज़, टैग, और जानकारी एकत्र करने और ट्रैक करने और हमारी सेवा में सुधार और विश्लेषण करने के लिए स्क्रिप्ट शामिल हो सकते हैं, लेकिन यह सीमित नहीं है। भेजा जा रहा है.\nकुकीज़ के बारे में और जानें:",
+                "A": "कुकीज़ के बारे में सब"
             },
-            "P2": "We use \"Persistent\" (remain on your personal computer or mobile device when You go offline) and \"Session\" (deleted as soon as You close your web browser)\ntracking technology for the purposes set out below:",
-            "P3": "Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (\"DNT\") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.",
+            "P2": "हम \"स्थायी\" (आपके ऑफ़लाइन होने पर आपके व्यक्तिगत कंप्यूटर या मोबाइल डिवाइस पर बने रहते हैं) और \"सेशन\" (जैसे ही आप अपना वेब ब्राउज़र बंद करते हैं)\nट्रैकिंग तकनीक का उपयोग नीचे दिए गए उद्देश्यों के लिए करते हैं:",
+            "P3": "अधिकांश वेब ब्राउज़र और कुछ मोबाइल ऑपरेटिंग सिस्टम और मोबाइल एप्लिकेशन में डू-नॉट-ट्रैक (\"डीएनटी\") सुविधा या सेटिंग शामिल होती है, जिसे आप अपनी ऑनलाइन ब्राउज़िंग गतिविधियों के बारे में निगरानी रखने और एकत्र करने के लिए अपनी गोपनीयता वरीयता को संकेत देने के लिए सक्रिय कर सकते हैं। इस स्तर पर डीएनटी संकेतों को पहचानने और लागू करने के लिए कोई समान प्रौद्योगिकी मानक को अंतिम रूप नहीं दिया गया है। इस प्रकार, हम वर्तमान में डीएनटी ब्राउज़र सिग्नल या किसी अन्य तंत्र का जवाब नहीं देते हैं जो स्वचालित रूप से आपकी पसंद को ऑनलाइन ट्रैक न करने के लिए सूचित करता है। यदि ऑनलाइन ट्रैकिंग के लिए एक मानक अपनाया जाता है जिसका हमें भविष्य में पालन करना चाहिए, तो हम आपको इस गोपनीयता सूचना के संशोधित संस्करण में उस अभ्यास के बारे में सूचित करेंगे।",
             "UL": {
                 "NECESSARY": {
-                    "P1": "Necessary / Essential",
-                    "P2": "Type: Session",
-                    "P3": "Administered by: Us",
-                    "P4": "Purpose: To provide You with services available through the Website and to enable You to use some of its features. It helps to authenticate users\nand prevent fraudulent use of user accounts. Without it the services that You have asked for cannot be provided, and We only use these to provide You with those services."
+                    "P1": "आवश्यक / आवश्यक",
+                    "P2": "प्रकार: सत्र",
+                    "P3": "द्वारा प्रशासित: हमारे",
+                    "P4": "उद्देश्य: आपको वेबसाइट के माध्यम से उपलब्ध सेवाएं प्रदान करना और आपको इसकी कुछ विशेषताओं का उपयोग करने में सक्षम बनाना। यह उपयोगकर्ताओं को प्रमाणित करने में मदद करता है\nऔर उपयोगकर्ता खातों के कपटपूर्ण उपयोग को रोकता है। इसके बिना वे सेवाएँ प्रदान नहीं की जा सकतीं जिनकी आपने माँग की है, और हम इनका उपयोग केवल आपको वे सेवाएँ प्रदान करने के लिए करते हैं।"
                 },
                 "FUNCTIONALITY": {
-                    "P1": "Functionality",
-                    "P2": "Type: Persistent",
-                    "P3": "Administered by: Us",
-                    "P4": "Purpose: Allows us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website."
+                    "P1": "कार्यक्षमता",
+                    "P2": "टाइप: लगातार",
+                    "P3": "द्वारा प्रशासित: हमारे",
+                    "P4": "उद्देश्य: जब आप वेबसाइट का उपयोग करते हैं तो आपके द्वारा किए गए विकल्पों को याद रखने की अनुमति देता है, जैसे कि आपके लॉगिन विवरण या भाषा वरीयता को याद रखना। इनका उद्देश्य आपको अधिक व्यक्तिगत अनुभव प्रदान करना है और हर बार जब आप वेबसाइट का उपयोग करते हैं तो आपको अपनी प्राथमिकताएं फिर से दर्ज करने से बचना है।"
                 }
             }
         },
         "PERSONAL_DATA": {
             "USE": {
-                "HEAD4": "Use of Your Personal Data",
+                "HEAD4": "आपके व्यक्तिगत डेटा का उपयोग",
                 "HEAD5": {
-                    "DISCLOSE": "Disclose of your personal information may happen in the following situations:",
-                    "USE": "Use of your Personal Data might be for the following purposes:",
-                    "SHARING": "Sharing of your personal information might be in the following situations:"
+                    "DISCLOSE": "आपकी व्यक्तिगत जानकारी का प्रकटीकरण निम्नलिखित स्थितियों में हो सकता है:",
+                    "USE": "आपके व्यक्तिगत डेटा का उपयोग निम्नलिखित उद्देश्यों के लिए हो सकता है:",
+                    "SHARING": "आपकी व्यक्तिगत जानकारी का साझाकरण निम्नलिखित स्थितियों में हो सकता है:"
                 },
                 "UL1": {
                     "LAW_ENFORCEMENT": {
-                        "STRONG": "Law Enforcement:",
-                        "TEXT": " We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements)."
+                        "STRONG": "कानून प्रवर्तन:",
+                        "TEXT": " हम आपकी जानकारी का खुलासा कर सकते हैं जहां हमें लागू कानून, सरकारी अनुरोधों, न्यायिक कार्यवाही, अदालती आदेश, या कानूनी प्रक्रिया का पालन करने के लिए कानूनी रूप से ऐसा करने की आवश्यकता होती है, जैसे अदालती आदेश या सम्मन के जवाब में (जवाब सहित) सार्वजनिक प्राधिकरणों को राष्ट्रीय सुरक्षा या कानून प्रवर्तन आवश्यकताओं को पूरा करने के लिए)।"
                     },
                     "BUSINESS_TRANSFER": {
-                        "STRONG": "For Business Transfers:",
-                        "TEXT": " We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company."
+                        "STRONG": "व्यापार स्थानान्तरण के लिए:",
+                        "TEXT": " हम आपकी जानकारी को किसी भी विलय, कंपनी की संपत्ति की बिक्री, वित्तपोषण, या हमारे व्यवसाय के सभी या एक हिस्से के अधिग्रहण के संबंध में, या बातचीत के दौरान किसी अन्य कंपनी को साझा या स्थानांतरित कर सकते हैं।"
                     },
                     "OTHER": {
-                        "STRONG": "Other legal requirements:",
-                        "TEXT": " The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:",
+                        "STRONG": "अन्य कानूनी आवश्यकताएं:",
+                        "TEXT": " कंपनी आपके व्यक्तिगत डेटा को अच्छे विश्वास में प्रकट कर सकती है कि इस तरह की कार्रवाई आवश्यक है:",
                         "UL": {
-                            "L1": "Comply with a legal obligation",
-                            "L2": "Protect and defend the rights or property of the Company",
-                            "L3": "Prevent or investigate possible wrongdoing in connection with the Service",
-                            "L4": "Protect the personal safety of Users of the Service or the public",
-                            "L5": "Protect against legal liability"
+                            "L1": "एक कानूनी दायित्व का पालन करें",
+                            "L2": "कंपनी के अधिकारों या संपत्ति की रक्षा और बचाव करें",
+                            "L3": "सेवा के संबंध में संभावित ग़लत कार्यों को रोकें या जाँच करें",
+                            "L4": "सेवा या जनता के उपयोगकर्ताओं की व्यक्तिगत सुरक्षा की रक्षा करें",
+                            "L5": "कानूनी दायित्व से रक्षा करें"
                         }
                     }
                 },
                 "UL2": {
                     "L1": {
-                        "STRONG": "To provide and maintain our Service",
-                        "TEXT": ", including to monitor the usage of our Service."
+                        "STRONG": "हमारी सेवा प्रदान करने और बनाए रखने के लिए",
+                        "TEXT": ", जिसमें हमारी सेवा के उपयोग की निगरानी करना शामिल है।"
                     },
                     "L2": {
-                        "STRONG": "To manage Your Account:",
-                        "TEXT": " to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user."
+                        "STRONG": "अपना खाता प्रबंधित करने के लिए:",
+                        "TEXT": "सेवा के उपयोगकर्ता के रूप में अपना पंजीकरण प्रबंधित करने के लिए। आपके द्वारा प्रदान किया जाने वाला व्यक्तिगत डेटा आपको सेवा की विभिन्न कार्यात्मकताओं तक पहुँच प्रदान कर सकता है जो एक पंजीकृत उपयोगकर्ता के रूप में आपके लिए उपलब्ध हैं।"
                     },
                     "L3": {
-                        "STRONG": "For the performance of a contract:",
-                        "TEXT": " Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract."
+                        "STRONG": "एक अनुबंध के प्रदर्शन के लिए:",
+                        "TEXT": " जहां हमने आपके साथ अनुबंध किया है, वहां हम अपने अनुबंध की शर्तों को पूरा करने के लिए आपकी व्यक्तिगत जानकारी को संसाधित कर सकते हैं।"
                     },
                     "L4": {
-                        "STRONG": "To contact You:",
-                        "TEXT": " To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation."
+                        "STRONG": "आप से संपर्क करने के लिए:",
+                        "TEXT": " ईमेल, टेलीफोन कॉल, एसएमएस, या इलेक्ट्रॉनिक संचार के अन्य समकक्ष रूपों से आपसे संपर्क करने के लिए, जैसे कि आवश्यक या उचित होने पर, सुरक्षा अपडेट सहित कार्यक्षमताओं, उत्पादों या अनुबंधित सेवाओं से संबंधित अपडेट या सूचनात्मक संचार के बारे में मोबाइल एप्लिकेशन की पुश सूचनाएँ उनके कार्यान्वयन के लिए।"
                     },
                     "L5": {
-                        "STRONG": "To provide You",
-                        "TEXT": " with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information."
+                        "STRONG": "आपको प्रदान करने के लिए",
+                        "TEXT": " समाचार, विशेष प्रस्तावों और अन्य वस्तुओं, सेवाओं और घटनाओं के बारे में सामान्य जानकारी के साथ जो हम प्रदान करते हैं जो आपके द्वारा पहले ही खरीदी या पूछताछ की जा चुकी हैं, जब तक कि आपने ऐसी जानकारी प्राप्त न करने का विकल्प नहीं चुना हो।"
                     },
                     "L6": {
-                        "STRONG": "For Legitimate Interests:",
-                        "TEXT": " We may process your data when it is reasonably necessary to achieve our legitimate business interests."
+                        "STRONG": "वैध हितों के लिए:",
+                        "TEXT": "हम आपके डेटा को तब संसाधित कर सकते हैं जब हमारे वैध व्यावसायिक हितों को प्राप्त करने के लिए उचित रूप से आवश्यक हो।"
                     },
                     "L7": {
-                        "STRONG": "To manage Your requests:",
-                        "TEXT": " To attend and manage Your requests to Us."
+                        "STRONG": "अपने अनुरोधों को प्रबंधित करने के लिए:",
+                        "TEXT": " हमारे लिए आपके अनुरोधों में भाग लेने और प्रबंधित करने के लिए।"
                     },
                     "L8": {
-                        "STRONG": "Request feedback.",
-                        "TEXT": " We may use your information to request feedback and to contact you about your use of our Services."
+                        "STRONG": "प्रतिक्रिया का अनुरोध करें।",
+                        "TEXT": "हम फीडबैक का अनुरोध करने और हमारी सेवाओं के आपके उपयोग के बारे में आपसे संपर्क करने के लिए आपकी जानकारी का उपयोग कर सकते हैं।"
                     }
                 },
                 "UL3": {
                     "L1": {
-                        "STRONG": "With Service Providers:",
-                        "TEXT": " We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You."
+                        "STRONG": "सेवा प्रदाताओं के साथ:",
+                        "TEXT": "हम आपसे संपर्क करने के लिए, हमारी सेवा के उपयोग की निगरानी और विश्लेषण करने के लिए सेवा प्रदाताओं के साथ आपकी व्यक्तिगत जानकारी साझा कर सकते हैं।"
                     },
                     "L2": {
-                        "STRONG": "For Business transfers:",
-                        "TEXT": " We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of our business to another company."
+                        "STRONG": "व्यापार स्थानान्तरण के लिए:",
+                        "TEXT": " हम किसी भी विलय, कंपनी की संपत्ति की बिक्री, वित्तपोषण, या हमारे व्यवसाय के सभी या एक हिस्से के अधिग्रहण के संबंध में या बातचीत के दौरान किसी अन्य कंपनी को आपकी व्यक्तिगत जानकारी साझा या स्थानांतरित कर सकते हैं।"
                     },
                     "L3": {
-                        "STRONG": "With Affiliates:",
-                        "TEXT": " We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us."
+                        "STRONG": "सहयोगी कंपनियों के साथ:",
+                        "TEXT": "हम आपकी जानकारी को अपने सहयोगियों के साथ साझा कर सकते हैं, इस मामले में हमें उन सहयोगियों से इस गोपनीयता नीति का सम्मान करने की आवश्यकता होगी। संबद्धों में हमारी मूल कंपनी और कोई अन्य सहायक, संयुक्त उद्यम भागीदार या अन्य कंपनियां शामिल हैं जिन्हें हम नियंत्रित करते हैं या जो हमारे साथ सामान्य नियंत्रण में हैं।"
                     },
                     "L4": {
-                        "STRONG": "With Business partners:",
-                        "TEXT": " We may share Your information with Our business partners to offer You certain products, services or promotions."
+                        "STRONG": "व्यापार भागीदारों के साथ:",
+                        "TEXT": " आपको कुछ उत्पादों, सेवाओं या प्रचारों की पेशकश करने के लिए हम आपकी जानकारी को हमारे व्यापार भागीदारों के साथ साझा कर सकते हैं।"
                     },
                     "L5": {
-                        "STRONG": "With other users:",
-                        "TEXT": " when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. If You interact with other users or register through a Third-Party Social Media Service, Your contacts on the Third-Party Social Media Service may see Your name, profile, pictures and description of Your activity. Similarly, other users will be able to view descriptions of Your activity, communicate with You and view Your profile."
+                        "STRONG": "अन्य उपयोगकर्ताओं के साथ:",
+                        "TEXT": " जब आप व्यक्तिगत जानकारी साझा करते हैं या अन्य उपयोगकर्ताओं के साथ सार्वजनिक क्षेत्रों में बातचीत करते हैं, तो ऐसी जानकारी सभी उपयोगकर्ताओं द्वारा देखी जा सकती है और सार्वजनिक रूप से बाहर वितरित की जा सकती है। यदि आप अन्य उपयोगकर्ताओं के साथ बातचीत करते हैं या तृतीय-पक्ष सोशल मीडिया सेवा के माध्यम से पंजीकरण करते हैं, तो तृतीय-पक्ष सोशल मीडिया सेवा पर आपके संपर्क आपका नाम, प्रोफ़ाइल, चित्र और आपकी गतिविधि का विवरण देख सकते हैं। इसी तरह, अन्य उपयोगकर्ता आपकी गतिविधि का विवरण देखने, आपसे संवाद करने और आपकी प्रोफ़ाइल देखने में सक्षम होंगे।"
                     }
                 }
             },
             "RETENTION": {
-                "HEAD4": "Retention of Your Personal Data",
-                "P1": "The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy\nPolicy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example,\nif we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements\nand policies.",
-                "P2": "The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time,\nexcept when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated\nto retain this data for longer time periods.",
-                "P3": "When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such\ninformation, or, if this is not possible (for example, because your personal information has been stored in backup archives), then\nwe will securely store your personal information and isolate it from any further processing until deletion is possible."
+                "HEAD4": "आपके व्यक्तिगत डेटा का प्रतिधारण",
+                "P1": "कंपनी आपके व्यक्तिगत डेटा को केवल तब तक बनाए रखेगी जब तक कि इस गोपनीयता\nनीति में निर्धारित उद्देश्यों के लिए आवश्यक है। हम अपने कानूनी दायित्वों का पालन करने के लिए आवश्यक सीमा तक आपके व्यक्तिगत डेटा को बनाए रखेंगे और उसका उपयोग करेंगे (उदाहरण के लिए, यदि हमें लागू कानूनों का पालन करने के लिए आपके डेटा को बनाए रखने की आवश्यकता है), विवादों को हल करें, और हमारे कानूनी समझौतों और नीतियों को लागू करें।",
+                "P2": "कंपनी आंतरिक विश्लेषण उद्देश्यों के लिए उपयोग डेटा को भी बनाए रखेगी। उपयोग डेटा को आम तौर पर कम समय के लिए रखा जाता है,\nइस डेटा को छोड़कर जब इस डेटा का उपयोग सुरक्षा को मजबूत करने या हमारी सेवा की कार्यक्षमता में सुधार करने के लिए किया जाता है, या हम इस डेटा को लंबे समय तक बनाए रखने के लिए कानूनी रूप से बाध्य होते हैं।",
+                "P3": "जब हमारे पास आपकी व्यक्तिगत जानकारी को संसाधित करने के लिए कोई वैध व्यावसायिक आवश्यकता नहीं है, तो हम या तो ऐसी जानकारी को हटा देंगे या अज्ञात कर देंगे, या, यदि यह संभव नहीं है (उदाहरण के लिए, क्योंकि आपकी व्यक्तिगत जानकारी बैकअप संग्रह में संग्रहीत की गई है), तो हम आपकी व्यक्तिगत जानकारी को सुरक्षित रूप से संग्रहीत करेगा और इसे तब तक किसी भी आगे की प्रक्रिया से अलग करेगा जब तक कि विलोपन संभव न हो।"
             },
             "TRANSFER": {
-                "HEAD4": "Transfer of Your Personal Data",
-                "P1": "Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.",
-                "P2": "By using our Service you consent to this Privacy Policy and Your agreement to that transfer.",
-                "P3": "The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information."
+                "HEAD4": "आपके व्यक्तिगत डेटा का स्थानांतरण",
+                "P1": "आपकी जानकारी, व्यक्तिगत डेटा सहित, कंपनी के ऑपरेटिंग कार्यालयों और किसी अन्य स्थान पर संसाधित की जाती है जहां प्रसंस्करण में शामिल पार्टियां स्थित हैं। इसका मतलब यह है कि यह जानकारी आपके राज्य, प्रांत, देश या अन्य सरकारी क्षेत्राधिकार के बाहर स्थित कंप्यूटरों में स्थानांतरित की जा सकती है - और उन पर रखी जा सकती है, जहां डेटा सुरक्षा कानून आपके अधिकार क्षेत्र से भिन्न हो सकते हैं।",
+                "P2": "हमारी सेवा का उपयोग करके आप इस गोपनीयता नीति और उस स्थानांतरण के लिए अपनी सहमति से सहमत होते हैं।",
+                "P3": "कंपनी यह सुनिश्चित करने के लिए उचित रूप से आवश्यक सभी कदम उठाएगी कि आपके डेटा को सुरक्षित रूप से और इस गोपनीयता नीति के अनुसार व्यवहार किया जाता है और आपके व्यक्तिगत डेटा का कोई हस्तांतरण किसी संगठन या देश में तब तक नहीं होगा जब तक कि सुरक्षा सहित पर्याप्त नियंत्रण न हो। आपका डेटा और अन्य व्यक्तिगत जानकारी।"
             },
             "SECURITY": {
-                "HEAD4": "Security of Your Personal Data",
-                "P": "The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security."
+                "HEAD4": "आपके व्यक्तिगत डेटा की सुरक्षा",
+                "P": "आपके व्यक्तिगत डेटा की सुरक्षा हमारे लिए महत्वपूर्ण है, लेकिन याद रखें कि इंटरनेट पर प्रसारण का कोई भी तरीका या इलेक्ट्रॉनिक स्टोरेज का तरीका 100% सुरक्षित नहीं है। जबकि हम आपके व्यक्तिगत डेटा की सुरक्षा के लिए व्यावसायिक रूप से स्वीकार्य साधनों का उपयोग करने का प्रयास करते हैं, हम इसकी पूर्ण सुरक्षा की गारंटी नहीं दे सकते।"
             }
         },
         "CHILD": {
-            "HEAD4": "Children Under Thirteen",
-            "P": "We do not knowingly collect personally identifiable information from children under the age of thirteen. If you are under the age of thirteen, you must\nask your parent or guardian for permission to use this Service or any of our mobile applications."
+            "HEAD4": "तेरह वर्ष से कम उम्र के बच्चे",
+            "P": "हम तेरह वर्ष से कम आयु के बच्चों से जानबूझकर व्यक्तिगत रूप से पहचान योग्य जानकारी एकत्र नहीं करते हैं। यदि आप तेरह वर्ष से कम आयु के हैं, तो आपको अपने माता-पिता या अभिभावक से इस सेवा या हमारे किसी भी मोबाइल एप्लिकेशन का उपयोग करने की अनुमति लेनी होगी।"
         },
         "RIGHTS": {
-            "HEAD4": "What are your Privacy Rights ?",
-            "HEAD5": "Account Information",
-            "P1": "In some regions (like the EEA and UK), you have certain rights under applicable data protection laws. These may include the right (i) to\nrequest access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing\nof your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object\nto the processing of your personal information. To make such a request, please use the <b>contact details</b> provided below. We will\nconsider and act upon any request in accordance with applicable data protection laws.",
-            "P2": "If we are relying on your consent to process your personal information, you have the right to withdraw your consent at any time. Please\nnote however that this will not affect the lawfulness of the processing before its withdrawal, nor will it affect the processing of your\npersonal information conducted in reliance on lawful processing grounds other than consent.",
+            "HEAD4": "आपके गोपनीयता अधिकार क्या हैं?",
+            "HEAD5": "खाते की जानकारी",
+            "P1": "कुछ क्षेत्रों (जैसे ईईए और यूके) में, आपके पास लागू डेटा सुरक्षा कानूनों के तहत कुछ अधिकार हैं। इनमें अधिकार शामिल हो सकते हैं (i)\nपहुंच का अनुरोध करने और आपकी व्यक्तिगत जानकारी की एक प्रति प्राप्त करने के लिए, (ii) सुधार या मिटाने का अनुरोध करने के लिए; (iii) आपकी व्यक्तिगत जानकारी के प्रसंस्करण\n को प्रतिबंधित करने के लिए; और (iv) यदि लागू हो तो डेटा पोर्टेबिलिटी के लिए। कुछ परिस्थितियों में, आपको अपनी व्यक्तिगत जानकारी के संसाधन\nपर आपत्ति करने का अधिकार भी हो सकता है। ऐसा अनुरोध करने के लिए, कृपया नीचे दिए गए <b>संपर्क विवरण</b> का उपयोग करें। हम लागू डेटा सुरक्षा कानूनों के अनुसार \nकिसी भी अनुरोध पर विचार करेंगे और उस पर कार्रवाई करेंगे।",
+            "P2": "यदि हम आपकी व्यक्तिगत जानकारी को संसाधित करने के लिए आपकी सहमति पर भरोसा कर रहे हैं, तो आपको किसी भी समय अपनी सहमति वापस लेने का अधिकार है। कृपया\nध्यान दें कि यह वापस लेने से पहले प्रसंस्करण की वैधता को प्रभावित नहीं करेगा, न ही यह आपकी\nसहमति के अलावा वैध प्रसंस्करण के आधार पर आयोजित आपकी व्यक्तिगत जानकारी के प्रसंस्करण को प्रभावित करेगा।",
             "P3": {
-                "TEXT": "If you are a resident in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right\nto complain to your local data protection supervisory authority. You can find their contact details here: ",
+                "TEXT": "यदि आप ईईए या यूके में निवासी हैं और आपको लगता है कि हम आपकी व्यक्तिगत जानकारी को अवैध रूप से संसाधित कर रहे हैं, तो आपको अपने स्थानीय डेटा संरक्षण पर्यवेक्षी प्राधिकरण से \nशिकायत करने का भी अधिकार है। आप उनके संपर्क विवरण यहाँ पा सकते हैं:",
                 "A": "https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm"
             },
             "P4": {
-                "TEXT": "If you are a resident in Switzerland, the contact details for the data protection authorities are available here: ",
+                "TEXT": "यदि आप स्विट्ज़रलैंड के निवासी हैं, तो डेटा सुरक्षा प्राधिकरणों के संपर्क विवरण यहाँ उपलब्ध हैं:",
                 "A": "https://www.edoeb.admin.ch/edoeb/en/home.html"
             },
-            "P5": "If you would at any time like to review or change the information in your account or terminate your account, you can:\nLog in to your account settings and update your user account.\nUpon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our Terms of Use and/or comply with applicable legal requirements."
+            "P5": "यदि आप किसी भी समय अपने खाते की जानकारी की समीक्षा करना या बदलना चाहते हैं या अपना खाता समाप्त करना चाहते हैं, तो आप:\nअपनी खाता सेटिंग में लॉग इन कर सकते हैं और अपना उपयोगकर्ता खाता अपडेट कर सकते हैं। \nआपके खाते को समाप्त करने के अनुरोध पर, हम निष्क्रिय कर देंगे या हमारे सक्रिय डेटाबेस से अपना खाता और जानकारी हटाएं। हालांकि, धोखाधड़ी को रोकने, समस्याओं का निवारण करने, किसी भी जांच में सहायता करने, हमारी उपयोग की शर्तों को लागू करने और/या लागू कानूनी आवश्यकताओं का अनुपालन करने के लिए हम अपनी फाइलों में कुछ जानकारी रख सकते हैं।"
         },
         "CCPA": {
             "HEAD4": {
-                "CCPA": "CCPA Privacy",
-                "CALIFORNIA": "Your California Privacy Rights (California's Shine the Light law)",
-                "MINOR": "California Privacy Rights for Minor Users (California Business and Professions Code Section 22581)",
-                "EXERCISING": "Exercising Your CCPA Data Protection Rights",
-                "YOUR_RIGHTS": "Your Rights under the CCPA",
-                "PERSONAL_INFORMATION": "Personal Information Collecting and Sharing under CCPA"
+                "CCPA": "सीसीपीए गोपनीयता",
+                "CALIFORNIA": "आपके कैलिफोर्निया गोपनीयता अधिकार (कैलिफोर्निया का शाइन द लाइट कानून)",
+                "MINOR": "अवयस्क उपयोगकर्ताओं के लिए कैलिफ़ोर्निया गोपनीयता अधिकार (कैलिफ़ोर्निया व्यवसाय और पेशा कोड अनुभाग 22581)",
+                "EXERCISING": "अपने सीसीपीए डेटा सुरक्षा अधिकारों का प्रयोग करना",
+                "YOUR_RIGHTS": "सीसीपीए के तहत आपके अधिकार",
+                "PERSONAL_INFORMATION": "सीसीपीए के तहत व्यक्तिगत जानकारी एकत्र करना और साझा करना"
             },
             "HEAD5": {
-                "SHARED": "Will your information be shared with anyone else?",
-                "YOUR_RIGHTS": "Your rights with respect to your personal data",
-                "OTHER": "Other privacy rights"
+                "SHARED": "क्या आपकी जानकारी किसी और के साथ साझा की जाएगी?",
+                "YOUR_RIGHTS": "आपके व्यक्तिगत डेटा के संबंध में आपके अधिकार",
+                "OTHER": "अन्य गोपनीयता अधिकार"
             },
-            "P1": "Under California Civil Code Section 1798 (California's Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties' direct marketing purposes.",
-            "P2": "If you'd like to request more information under the California Shine the Light law, and if you are a California resident, You can contact Us using the contact information provided below.",
-            "P3": "If you are under 18 years of age, reside in California, and have a registered account with a Service, you have the right to request removal of unwanted data that you publicly post on the Services. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g. backups, etc.).",
-            "P4": "California Business and Professions Code section 22581 allow California residents under the age of 18 who are registered users of online sites, services or applications to request and obtain removal of content or information they have publicly posted.",
-            "P5": "To request removal of such data, and if you are a California resident, You can contact Us using the contact information provided below, and include the email address associated with Your account.",
-            "P6": "Be aware that Your request does not guarantee complete or comprehensive removal of content or information posted online and that the law may not permit or require removal in certain circumstances.",
+            "P1": "कैलिफ़ोर्निया सिविल कोड सेक्शन 1798 (कैलिफ़ोर्निया का शाइन द लाइट लॉ) के तहत, हमारे साथ स्थापित व्यापारिक संबंध रखने वाले कैलिफ़ोर्निया के निवासी तीसरे पक्ष के प्रत्यक्ष विपणन उद्देश्यों के लिए तीसरे पक्ष के साथ अपने व्यक्तिगत डेटा को साझा करने के बारे में वर्ष में एक बार जानकारी का अनुरोध कर सकते हैं।",
+            "P2": "यदि आप कैलिफ़ोर्निया शाइन द लाइट कानून के तहत अधिक जानकारी का अनुरोध करना चाहते हैं, और यदि आप कैलिफ़ोर्निया के निवासी हैं, तो आप नीचे दी गई संपर्क जानकारी का उपयोग करके हमसे संपर्क कर सकते हैं।",
+            "P3": "यदि आपकी आयु 18 वर्ष से कम है, कैलिफ़ोर्निया में रहते हैं, और एक सेवा के साथ एक पंजीकृत खाता है, तो आपके पास उन अवांछित डेटा को हटाने का अनुरोध करने का अधिकार है जिसे आप सेवाओं पर सार्वजनिक रूप से पोस्ट करते हैं। इस तरह के डेटा को हटाने का अनुरोध करने के लिए, कृपया नीचे दी गई संपर्क जानकारी का उपयोग करके हमसे संपर्क करें, और अपने खाते से जुड़ा ईमेल पता और एक बयान शामिल करें कि आप कैलिफ़ोर्निया में रहते हैं। हम यह सुनिश्चित करेंगे कि डेटा सार्वजनिक रूप से सेवाओं पर प्रदर्शित न हो, लेकिन कृपया ध्यान रखें कि डेटा को हमारे सभी सिस्टम (जैसे बैकअप, आदि) से पूरी तरह या व्यापक रूप से हटाया नहीं जा सकता है।",
+            "P4": "कैलिफ़ोर्निया व्यवसाय और पेशा कोड अनुभाग 22581 18 वर्ष से कम आयु के कैलिफ़ोर्निया के निवासियों को अनुमति देता है जो ऑनलाइन साइटों, सेवाओं या एप्लिकेशन के पंजीकृत उपयोगकर्ता हैं और सार्वजनिक रूप से पोस्ट की गई सामग्री या जानकारी को हटाने का अनुरोध और प्राप्त कर सकते हैं।",
+            "P5": "ऐसे डेटा को हटाने का अनुरोध करने के लिए, और यदि आप कैलिफ़ोर्निया के निवासी हैं, तो आप नीचे दी गई संपर्क जानकारी का उपयोग करके हमसे संपर्क कर सकते हैं और अपने खाते से संबद्ध ईमेल पता शामिल कर सकते हैं।",
+            "P6": "ध्यान रखें कि आपका अनुरोध ऑनलाइन पोस्ट की गई सामग्री या जानकारी को पूरी तरह से या व्यापक रूप से हटाने की गारंटी नहीं देता है और कानून कुछ परिस्थितियों में हटाने की अनुमति या आवश्यकता नहीं दे सकता है।",
             "P7": {
-                "TEXT1": "In order to exercise any of Your rights under the CCPA, and if you are a California resident. The California Code of Regulations defines a \"resident\" as:",
-                "TEXT2": "All other individuals are defined as \"non-residents\".\nIf this definition of \"resident\" applies to you, we must adhere to certain rights and obligations regarding your personal information.",
+                "TEXT1": "सीसीपीए के तहत अपने किसी भी अधिकार का प्रयोग करने के लिए और यदि आप कैलिफोर्निया के निवासी हैं। कैलिफ़ोर्निया कोड ऑफ़ रेगुलेशंस \"निवासी\" को इस प्रकार परिभाषित करता है:",
+                "TEXT2": "अन्य सभी व्यक्तियों को \"अनिवासी\" के रूप में परिभाषित किया गया है।\nयदि \"निवासी\" की यह परिभाषा आप पर लागू होती है, तो हमें आपकी व्यक्तिगत जानकारी के संबंध में कुछ अधिकारों और दायित्वों का पालन करना चाहिए।",
                 "UL": {
-                    "L1": "every individual who is in the State of California for other than a temporary or transitory purpose and",
-                    "L2": " every individual who is domiciled in the State of California who is outside the State of California for a temporary or transitory purpose"
+                    "L1": "प्रत्येक व्यक्ति जो एक अस्थायी या अस्थायी उद्देश्य के अलावा अन्य के लिए कैलिफोर्निया राज्य में है और",
+                    "L2": "प्रत्येक व्यक्ति जो कैलिफोर्निया राज्य में अधिवासित है जो एक अस्थायी या अस्थायी उद्देश्य के लिए कैलिफोर्निया राज्य से बाहर है"
                 }
             },
-            "P8": "The Company will disclose and deliver the required information free of charge within 45 days of receiving Your verifiable request. The time period to provide the required information may be extended once by an additional 45 days when reasonable necessary and with prior notice.",
-            "P9": "Under this Privacy Policy, and by law if You are a resident of California, You have the following rights:",
-            "P10": "We do not sell personal information. More information about our data collection and sharing practices can be found in this privacy notice.\nYou may contact us by referring to the contact details at the bottom of this document.",
-            "P11": "If you are using an authorized agent to exercise your right to opt-out we may deny a request if the authorized agent\ndoes not submit proof that they have been validly authorized to act on your behalf.",
-            "P12": "We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Each service provider is a for-profit entity that processes the information on our behalf.",
-            "P13": "We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be \"selling\" of your personal data.",
-            "P14": "Martspec LLC has not disclosed or sold any personal information to third parties for a business or commercial purpose in the preceding 12 months. Martspec LLC will not sell personal information in the future belonging to website visitors, users and other consumers.",
-            "P15": "To exercise these rights, you can contact us by by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.  ",
+            "P8": "कंपनी आपका सत्यापन योग्य अनुरोध प्राप्त होने के 45 दिनों के भीतर आवश्यक जानकारी का खुलासा और नि:शुल्क वितरण करेगी। आवश्यक जानकारी प्रदान करने की समय अवधि एक बार अतिरिक्त 45 दिनों तक बढ़ाई जा सकती है जब उचित आवश्यक हो और पूर्व सूचना के साथ।",
+            "P9": "इस गोपनीयता नीति के तहत, और कानून द्वारा यदि आप कैलिफोर्निया के निवासी हैं, तो आपके पास निम्नलिखित अधिकार हैं:",
+            "P10": "हम व्यक्तिगत जानकारी नहीं बेचते हैं। हमारे डेटा संग्रह और साझाकरण प्रथाओं के बारे में अधिक जानकारी इस गोपनीयता नोटिस में पाई जा सकती है। \nआप इस दस्तावेज़ के नीचे संपर्क विवरण का संदर्भ लेकर हमसे संपर्क कर सकते हैं।",
+            "P11": "यदि आप ऑप्ट-आउट करने के अपने अधिकार का प्रयोग करने के लिए एक अधिकृत एजेंट का उपयोग कर रहे हैं तो हम एक अनुरोध को अस्वीकार कर सकते हैं यदि अधिकृत एजेंट\nप्रमाण प्रस्तुत नहीं करता है कि वे आपकी ओर से कार्य करने के लिए वैध रूप से अधिकृत हैं।",
+            "P12": "हमारे और प्रत्येक सेवा प्रदाता के बीच एक लिखित अनुबंध के अनुसार हम अपने सेवा प्रदाताओं के साथ आपकी व्यक्तिगत जानकारी का खुलासा कर सकते हैं। प्रत्येक सेवा प्रदाता एक लाभकारी इकाई है जो हमारी ओर से जानकारी को संसाधित करता है।",
+            "P13": "हम आपकी व्यक्तिगत जानकारी का उपयोग अपने स्वयं के व्यावसायिक उद्देश्यों के लिए कर सकते हैं, जैसे तकनीकी विकास और प्रदर्शन के लिए आंतरिक शोध करने के लिए। इसे आपके व्यक्तिगत डेटा की \"बिक्री\" नहीं माना जाता है।",
+            "P14": "मार्टस्पेक एलएलसी ने पिछले 12 महीनों में किसी व्यवसाय या व्यावसायिक उद्देश्य के लिए किसी भी व्यक्तिगत जानकारी को तीसरे पक्ष को प्रकट या बेचा नहीं है। मार्टस्पेक एलएलसी भविष्य में वेबसाइट आगंतुकों, उपयोगकर्ताओं और अन्य उपभोक्ताओं से संबंधित व्यक्तिगत जानकारी नहीं बेचेगा।",
+            "P15": "इन अधिकारों का प्रयोग करने के लिए, आप इस दस्तावेज़ के नीचे दिए गए संपर्क विवरण का हवाला देकर हमसे संपर्क कर सकते हैं। यदि आपको इस बारे में कोई शिकायत है कि हम आपके डेटा को कैसे संभालते हैं, तो हम आपसे सुनना चाहेंगे। ",
             "UL1": {
                 "L1": {
-                    "STRONG": "The right to notice.",
-                    "TEXT": " You must be properly notified which categories of Personal Data are being collected and the purposes for which the Personal Data is being used."
+                    "STRONG": "नोटिस करने का अधिकार।",
+                    "TEXT": " आपको उचित रूप से सूचित किया जाना चाहिए कि व्यक्तिगत डेटा की कौन सी श्रेणियां एकत्र की जा रही हैं और व्यक्तिगत डेटा का उपयोग किन उद्देश्यों के लिए किया जा रहा है।"
                 },
                 "L2": {
-                    "STRONG": "The right to access / the right to request.",
-                    "TEXT": " The CCPA permits You to request and obtain from the Company information regarding the disclosure of Your Personal Data that has been collected in the past 12 months by the Company or its subsidiaries to a third-party for the third party's direct marketing purposes."
+                    "STRONG": "पहुँच का अधिकार / अनुरोध करने का अधिकार।",
+                    "TEXT": " सीसीपीए आपको अपने व्यक्तिगत डेटा के प्रकटीकरण के संबंध में कंपनी से अनुरोध करने और जानकारी प्राप्त करने की अनुमति देता है जिसे कंपनी या उसकी सहायक कंपनियों द्वारा तीसरे पक्ष के प्रत्यक्ष विपणन उद्देश्यों के लिए तीसरे पक्ष को पिछले 12 महीनों में एकत्र किया गया है।"
                 },
                 "L3": {
-                    "STRONG": "The right to say no to the sale of Personal Data.",
-                    "TEXT": " You also have the right to ask the Company not to sell Your Personal Data to third parties. You can submit such a request by visiting our \"Do Not Sell My Personal Information\" section or web page."
+                    "STRONG": "व्यक्तिगत डेटा की बिक्री को ना कहने का अधिकार।",
+                    "TEXT": " आपके पास यह अधिकार भी है कि आप कंपनी से अपने व्यक्तिगत डेटा को तीसरे पक्ष को न बेचने के लिए कहें। आप हमारे \"मेरी व्यक्तिगत जानकारी न बेचें\" अनुभाग या वेब पृष्ठ पर जाकर ऐसा अनुरोध सबमिट कर सकते हैं।"
                 },
                 "L4": {
-                    "STRONG": "The right to know about Your Personal Data.",
-                    "TEXT": " You have the right to request and obtain from the Company information regarding the disclosure of the following:",
+                    "STRONG": "आपके व्यक्तिगत डेटा के बारे में जानने का अधिकार।",
+                    "TEXT": " आपको निम्नलिखित के प्रकटीकरण के संबंध में कंपनी से अनुरोध करने और उससे जानकारी प्राप्त करने का अधिकार है:",
                     "UL": {
-                        "L1": "The categories of Personal Data collected",
-                        "L2": "The sources from which the Personal Data was collected",
-                        "L3": "The business or commercial purpose for collecting or selling the Personal Data",
-                        "L4": "Categories of third parties with whom We share Personal Data",
-                        "L5": "The specific pieces of Personal Data we collected about You"
+                        "L1": "एकत्र किए गए व्यक्तिगत डेटा की श्रेणियां",
+                        "L2": "वे स्रोत जिनसे व्यक्तिगत डेटा एकत्र किया गया था",
+                        "L3": "व्यक्तिगत डेटा एकत्र करने या बेचने का व्यावसायिक या व्यावसायिक उद्देश्य",
+                        "L4": "तृतीय पक्षों की श्रेणियाँ जिनके साथ हम व्यक्तिगत डेटा साझा करते हैं",
+                        "L5": "आपके बारे में हमारे द्वारा एकत्र किए गए व्यक्तिगत डेटा के विशिष्ट अंश"
                     }
                 },
                 "L5": {
-                    "STRONG": "The right to delete Personal Data.",
-                    "TEXT": " You also have the right to request the deletion of Your Personal Data that have been collected in the past 12 months."
+                    "STRONG": "व्यक्तिगत डेटा को हटाने का अधिकार।",
+                    "TEXT": "आपके पास पिछले 12 महीनों में एकत्र किए गए अपने व्यक्तिगत डेटा को हटाने का अनुरोध करने का भी अधिकार है।"
                 },
                 "L6": {
-                    "STRONG": "The right not to be discriminated against.",
-                    "TEXT": " You have the right not to be discriminated against for exercising any of Your Consumer's rights, including by:",
+                    "STRONG": "भेदभाव न करने का अधिकार।",
+                    "TEXT": " आपके पास अपने किसी भी उपभोक्ता के अधिकारों का प्रयोग करने के लिए भेदभाव न करने का अधिकार है, जिसमें निम्न शामिल हैं:",
                     "UL": {
-                        "L1": "Denying goods or services to You",
-                        "L2": "Charging different prices or rates for goods or services, including the use of discounts or other benefits or imposing penalties",
-                        "L3": "Providing a different level or quality of goods or services to You",
-                        "L4": "Suggesting that You will receive a different price or rate for goods or services or a different level or quality of goods or services."
+                        "L1": "आपको सामान या सेवाओं से वंचित करना",
+                        "L2": "छूट या अन्य लाभों के उपयोग या दंड लगाने सहित वस्तुओं या सेवाओं के लिए अलग-अलग मूल्य या दरें चार्ज करना",
+                        "L3": "आपको वस्तुओं या सेवाओं का एक अलग स्तर या गुणवत्ता प्रदान करना",
+                        "L4": "यह सुझाव देना कि आपको वस्तुओं या सेवाओं के लिए एक अलग मूल्य या दर या वस्तुओं या सेवाओं का एक अलग स्तर या गुणवत्ता प्राप्त होगी।"
                     }
                 }
             },
             "UL2": {
-                "L1": "Right to request deletion of the data - Request to delete",
-                "L2": "Right to be informed - Request to know",
-                "L3": "Right to Non-Discrimination for the Exercise of a Consumer’s Privacy Rights",
-                "L4": "Verification process"
+                "L1": "डेटा को हटाने का अनुरोध करने का अधिकार - हटाने का अनुरोध",
+                "L2": "सूचना पाने का अधिकार - जानने का अनुरोध",
+                "L3": "उपभोक्ता के निजता अधिकारों के प्रयोग के लिए भेदभाव न करने का अधिकार",
+                "L4": "सत्यापन प्रक्रिया"
             },
             "UL3": {
-                "L1": "you may object to the processing of your personal data",
-                "L2": "you may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the data",
-                "L3": "you can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.",
-                "L4": "you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission."
+                "L1": "आप अपने व्यक्तिगत डेटा के प्रसंस्करण पर आपत्ति कर सकते हैं",
+                "L2": "आप अपने व्यक्तिगत डेटा में सुधार का अनुरोध कर सकते हैं यदि यह गलत है या अब प्रासंगिक नहीं है, या डेटा के प्रसंस्करण को प्रतिबंधित करने के लिए कह सकते हैं",
+                "L3": "आप अपनी ओर से सीसीपीए के तहत अनुरोध करने के लिए अधिकृत एजेंट नामित कर सकते हैं। हम एक अधिकृत एजेंट के अनुरोध को अस्वीकार कर सकते हैं जो इस बात का प्रमाण प्रस्तुत नहीं करता है कि वे CCPA के अनुसार आपकी ओर से कार्य करने के लिए वैध रूप से अधिकृत हैं।",
+                "L4": "आप अपनी निजी जानकारी को तीसरे पक्ष को भविष्य में बेचने से ऑप्ट-आउट करने का अनुरोध कर सकते हैं। ऑप्ट-आउट करने का अनुरोध प्राप्त होने पर, हम यथासंभव जल्द से जल्द अनुरोध पर कार्रवाई करेंगे, लेकिन अनुरोध जमा करने की तारीख से 15 दिनों के बाद नहीं।"
             }
         },
         "LINK": {
-            "HEAD4": "Links to Other Websites",
-            "P1": "Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.",
-            "P2": "We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services."
+            "HEAD4": "अन्य वेब साइटों के लिंक",
+            "P1": "हमारी सेवा में अन्य वेबसाइटों के लिंक हो सकते हैं जो हमारे द्वारा संचालित नहीं हैं। यदि आप किसी तृतीय पक्ष लिंक पर क्लिक करते हैं, तो आपको उस तृतीय पक्ष की साइट पर निर्देशित कर दिया जाएगा। हम आपको दृढ़ता से सलाह देते हैं कि आप जिस भी साइट पर जाते हैं, उसकी गोपनीयता नीति की समीक्षा करें।",
+            "P2": "हमारा किसी तीसरे पक्ष की साइटों या सेवाओं की सामग्री, गोपनीयता नीतियों या प्रथाओं पर कोई नियंत्रण नहीं है और न ही हम इसके लिए कोई ज़िम्मेदारी लेते हैं।"
         },
         "CHANGES": {
-            "HEAD4": "Changes to this Privacy Policy",
-            "P1": "We may update our Privacy Policy from time to time. The updated version will be indicated by an updated \"Last updated\" date and the updated version will be effective as soon as it is accessible. ",
-            "P2": "You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
+            "HEAD4": "इस गोपनीयता नीति में परिवर्तन",
+            "P1": "हम अपनी गोपनीयता नीति को समय-समय पर अपडेट कर सकते हैं। अपडेट किए गए संस्करण को अपडेट की गई \"अंतिम अपडेट\" तिथि द्वारा इंगित किया जाएगा और जैसे ही यह पहुंच योग्य होगा, अपडेट किया गया संस्करण प्रभावी हो जाएगा। ",
+            "P2": "आपको किसी भी बदलाव के लिए समय-समय पर इस गोपनीयता नीति की समीक्षा करने की सलाह दी जाती है। इस गोपनीयता नीति में परिवर्तन तब प्रभावी होते हैं जब वे इस पृष्ठ पर पोस्ट किए जाते हैं।"
         },
         "CONTACT": {
-            "HEAD4": "Contact Us",
-            "TEXT": "If you have any questions about this Privacy Policy, You can contact us:",
+            "HEAD4": "संपर्क करें",
+            "TEXT": "यदि इस गोपनीयता नीति के बारे में आपके कोई प्रश्न हैं, तो आप हमसे संपर्क कर सकते हैं:",
             "UL": {
                 "L1": {
-                    "TEXT": "By visiting this page on our website: ",
+                    "TEXT": "हमारी वेबसाइट पर इस पृष्ठ पर जाकर: ",
                     "A": "https://martspec.com/privacy-policy"
                 },
                 "L2": {
-                    "TEXT": "Via our FaceBook messager at ",
-                    "A": "Martspec @ FaceBook",
+                    "TEXT": "हमारे फेसबुक मैसेंजर के माध्यम से ",
+                    "A": "मार्टस्पेक @ फेसबुक",
                     "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "Via our Twitter messager at ",
-                    "A": "Martspec @ Twitter",
+                    "TEXT": "हमारे ट्विटर संदेशवाहक के माध्यम से",
+                    "A": "मार्टस्पेक @ ट्विटर",
                     "LINK": "https://twitter.com/MartspecCom"
                 },
                 "L4": {
-                    "TEXT": "Via our LinkedIn group at ",
-                    "A": "Martspec @ LinkedIn",
+                    "TEXT": "हमारे लिंक्डइन समूह के माध्यम से ",
+                    "A": "मार्टस्पेक @ लिंक्डइन",
                     "LINK": "https://www.linkedin.com/company/martspec/"
                 }
             }
