@@ -9,6 +9,7 @@
     color: #000000;
     font-size: 1.6rem;
     font-weight: 600;
+    margin-top: 1rem;
   }
   h5 {
     font-family: os3;
@@ -18,5 +19,9 @@
   .members-list {
     column-gap: 8vmin;
     row-gap: 12vmin;
+
+    & > div {
+      flex: 1 1 180px;
+    }
   }
 }
