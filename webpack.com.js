@@ -60,7 +60,7 @@ module.exports = {
                 { from: 'src/html/pmail_22c30242162cf766f0b95cf7fe1e790e.html' },
                 { from: 'CNAME' },
                 { context: 'src/img/', from: '*.svg', to: "img" },
-                // { context: 'src/img/', from: '*.png', to: "img" },
+                { context: 'src/img/', from: '*.png', to: "img" },
                 { context: 'src/img/', from: '*.webp', to: "img" },
                 { context: 'src/img/', from: '*.jpg', to: "img" },
                 { context: 'src/img/icon/', from: '*', to: "icon" },
