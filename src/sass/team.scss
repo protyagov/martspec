@@ -4,6 +4,11 @@
   section {
     margin-top: 0;
     padding-top: 5vmin;
+
+    @media only screen and (max-width: ($pw-screen-md - 1)) {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
   }
   h4 {
     color: #000000;
@@ -19,9 +24,10 @@
   .members-list {
     column-gap: 8vmin;
     row-gap: 12vmin;
+    padding-bottom: 10vmin;
 
     & > div {
-      flex: 1 1 180px;
+      flex: 0 1 min-content;
     }
   }
 }
