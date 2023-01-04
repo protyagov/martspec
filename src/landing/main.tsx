@@ -26,7 +26,7 @@ export default function LandingPage() {
                 <div className="row ms-s-offset align-items-center">
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <h1 className="d-none d-md-block">
-                            <img src="/img/logo_vitamin.svg" className="img-fluid mb-2 me-3" width={48} />
+                            <img src="/img/logo_vitamin.svg" className="img-fluid mb-2 me-3" width={48} height={48} alt={_("LOGO_VITAMIN.IMG")} />
                             {_("VITAMIN.HEAD")}
                         </h1>
                         <p className="mt-2">{_("VITAMIN.SUBHEAD")}</p>
@@ -35,7 +35,7 @@ export default function LandingPage() {
                     </div>
                     <div className="col-md-4 order-sm-1">
                         <h1 className="d-block d-md-none">
-                            <img src="/img/logo_vitamin.svg" className="img-fluid mb-2 me-3" width={48} />
+                            <img src="/img/logo_vitamin.svg" className="img-fluid mb-2 me-3" width={48} height={48} alt={_("LOGO_VITAMIN.IMG")} />
                             {_("VITAMIN.HEAD")}
                         </h1>
                         <ImageI18N src="/img/vitamin.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("VITAMIN.IMG")} />
@@ -49,7 +49,7 @@ export default function LandingPage() {
 
                     <div className="col-md-4 order-sm-1">
                         <h1 className="d-block d-md-none">
-                            <img src="/img/logo_size.svg" className="img-fluid mb-2 me-3" width={48} />
+                            <img src="/img/logo_size.svg" className="img-fluid mb-2 me-3" width={48} height={48} alt={_("LOGO_SIZE.IMG")} />
                             {_("SIZE.HEAD")}
                         </h1>
                         <ImageI18N src="/img/size.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("SIZE.IMG")} />                        
@@ -57,7 +57,7 @@ export default function LandingPage() {
 
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <h1 className="d-none d-md-block">
-                            <img src="/img/logo_size.svg" className="img-fluid mb-2 me-3" width={48} />
+                            <img src="/img/logo_size.svg" className="img-fluid mb-2 me-3" width={48} height={48} alt={_("LOGO_SIZE.IMG")} />
                             {_("SIZE.HEAD")}
                         </h1>
                         <p className="mt-2">{_("SIZE.SUBHEAD")}</p>
@@ -88,7 +88,7 @@ export default function LandingPage() {
 
                     <div className="col-md-4 order-sm-1">
                         <h1 className="d-block d-md-none">
-                            <img src="/img/logo_mass.svg" className="img-fluid mb-2 me-3" width={48} />
+                            <img src="/img/logo_mass.svg" className="img-fluid mb-2 me-3" width={48} height={48} alt={_("LOGO_MASS.IMG")} />
                             {_("MASS.HEAD")}
                         </h1>
                         <ImageI18N src="/img/mass.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("MASS.IMG")} />                        
@@ -96,7 +96,7 @@ export default function LandingPage() {
 
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <h1 className="d-none d-md-block">
-                            <img src="/img/logo_mass.svg" className="img-fluid mb-2 me-3" width={48} />
+                            <img src="/img/logo_mass.svg" className="img-fluid mb-2 me-3" width={48} height={48} alt={_("LOGO_MASS.IMG")} />
                             {_("MASS.HEAD")}
                         </h1>
                         <p className="mt-2">{_("MASS.SUBHEAD")}</p>
