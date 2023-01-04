@@ -199,9 +199,9 @@
     "TEAM": {
         "HEAD": "L'équipe",
         "SUBHEAD": "Les personnes derrière l'entreprise sont aussi importantes que l'entreprise elle-même. Rencontrez nos ingénieurs et concepteurs de logiciels hautement talentueux qui créent les meilleures applications de bien-être.",
-        "ENGINEER_MOBILE": "Mobile Software Engineer",
-        "ENGINEER_WEB": "Web Software Engineer",
-        "DESIGNER_UI_UX": "UI/UX Designer"
+        "ENGINEER_MOBILE": "Ingénieur logiciel mobile",
+        "ENGINEER_WEB": "Ingénieur logiciel Web",
+        "DESIGNER_UI_UX": "Concepteur UI/UX"
     },
     "PP": {
         "HEAD": "Politique de confidentialité",

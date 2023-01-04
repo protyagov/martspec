@@ -199,9 +199,9 @@
     "TEAM": {
         "HEAD": "团队",
         "SUBHEAD": "公司背后的人与公司本身一样重要。认识我们制作最佳健康应用程序的才华横溢的软件工程师和设计师。",
-        "ENGINEER_MOBILE": "Mobile Software Engineer",
-        "ENGINEER_WEB": "Web Software Engineer",
-        "DESIGNER_UI_UX": "UI/UX Designer"
+        "ENGINEER_MOBILE": "移动软件工程师",
+        "ENGINEER_WEB": "网络软件工程师",
+        "DESIGNER_UI_UX": "用户界面/用户体验设计师"
     },
     "PP": {
         "HEAD": "隐私政策",

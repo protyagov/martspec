@@ -199,9 +199,9 @@
     "TEAM": {
         "HEAD": "Команда",
         "SUBHEAD": "Люди, стоящие за компанией, так же важны, как и сама компания. Познакомьтесь с нашими талантливыми разработчиками и дизайнерами, которые делают лучшие приложения для здоровья.",
-        "ENGINEER_MOBILE": "Mobile Software Engineer",
-        "ENGINEER_WEB": "Web Software Engineer",
-        "DESIGNER_UI_UX": "UI/UX Designer"
+        "ENGINEER_MOBILE": "Разработчик мобильных приложений",
+        "ENGINEER_WEB": "Веб-разработчик",
+        "DESIGNER_UI_UX": "UI/UX дизайнер"
     },
     "PP": {
         "HEAD": "Защита данных",

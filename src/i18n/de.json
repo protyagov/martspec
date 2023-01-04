@@ -202,9 +202,9 @@
     "TEAM": {
         "HEAD": "Die Mannschaft",
         "SUBHEAD": "Die Menschen hinter dem Unternehmen sind genauso wichtig wie das Unternehmen selbst. Lernen Sie unsere hochtalentierten Softwareingenieure und Designer kennen, die die besten Wellness-Apps entwickeln.",
-        "ENGINEER_MOBILE": "Mobile Software Engineer",
-        "ENGINEER_WEB": "Web Software Engineer",
-        "DESIGNER_UI_UX": "UI/UX Designer"
+        "ENGINEER_MOBILE": "Mobiler Software-Ingenieur",
+        "ENGINEER_WEB": "Web Software-Ingenieur",
+        "DESIGNER_UI_UX": "UI/UX-Designer"
     },
     "PP": {
         "HEAD": "Datenschutzrichtlinie",

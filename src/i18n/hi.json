@@ -200,9 +200,9 @@
     "TEAM": {
         "HEAD": "दल",
         "SUBHEAD": "कंपनी के पीछे के लोग उतने ही महत्वपूर्ण हैं जितने कि स्वयं कंपनी। मिलिए हमारे बेहद प्रतिभाशाली सॉफ्टवेयर इंजीनियरों और डिजाइनरों से जो बेहतरीन वेलनेस ऐप बनाते हैं।",
-        "ENGINEER_MOBILE": "Mobile Software Engineer",
-        "ENGINEER_WEB": "Web Software Engineer",
-        "DESIGNER_UI_UX": "UI/UX Designer"
+        "ENGINEER_MOBILE": "मोबाइल सॉफ्टवेयर इंजीनियर",
+        "ENGINEER_WEB": "वेब सॉफ्टवेयर इंजीनियर",
+        "DESIGNER_UI_UX": "यूआई/यूएक्स डिजाइनर"
     },
     "PP": {
         "HEAD": "Privacy Policy",
