@@ -1,12 +1,12 @@
 footer {
     overflow: hidden;
-    background-color: $pw-color-side-bar; //$brand-overlay-color;
+    background-color: $ms-color-bg-dark;
     width: 100%;
     color: white;
 
     h2{
         font-size: 1.5rem;
-        @media only screen and (max-width: ($pw-screen-sm)) {
+        @media only screen and (max-width: ($ms-screen-sm)) {
             font-size: 1.2rem;
         }
     }
@@ -35,7 +35,7 @@ footer {
             text-decoration: underline;
         }
 
-        @media only screen and (max-width: ($pw-screen-sm)) {
+        @media only screen and (max-width: ($ms-screen-sm)) {
             font-size: 1.2rem;
         }
     }
@@ -58,7 +58,7 @@ footer {
     .icon-container{
         margin-top: 7rem;
 
-        @media only screen and (max-width: ($pw-screen-md)) {
+        @media only screen and (max-width: ($ms-screen-md)) {
             margin-top: 1rem;
             margin-bottom: 2rem;
 
@@ -67,6 +67,11 @@ footer {
             }
         }
 
+    }
+
+    .copyright {
+        width: fit-content;
+        opacity: .6;
     }
 
 }
