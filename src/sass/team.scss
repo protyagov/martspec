@@ -3,7 +3,7 @@
 .ms-team {
   section {
     margin-top: 0;
-    padding-top: 5vmin;
+    padding-top: 7vmin;
 
     @media only screen and (max-width: ($pw-screen-md - 1)) {
       margin-left: 5%;
@@ -24,6 +24,7 @@
   .members-list {
     column-gap: 6vmin;
     row-gap: 8vmin;
+    padding-top: 3vmin;
     padding-bottom: 10vmin;
 
     & > div {
