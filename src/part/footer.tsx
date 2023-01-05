@@ -5,10 +5,10 @@ export function LanguageSwitcher() {
     return (
         <div className="btn-group btn-group-toggle text-center" data-toggle="buttons">
 
-            <button className={`rr-btn-lang ${Locale.language == "en" ? 'disabled' : 'active'} language`}
+            <button className={`ms-btn-lang ${Locale.language == "en" ? 'disabled' : 'active'} language`}
                 onClick={() => Locale.language = "en"} >English</button>
             <span>|</span>
-            <button className={`rr-btn-lang ${Locale.language == "ru" ? 'disabled' : 'active'} language`}
+            <button className={`ms-btn-lang ${Locale.language == "ru" ? 'disabled' : 'active'} language`}
                 onClick={() => Locale.language = "ru"} >Русский</button>
         </div>)
 }

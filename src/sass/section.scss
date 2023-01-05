@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------------------------------------------------
-.rr-s {
+.ms-s {
   padding: 10vmin 0;
   font-family: os4;
   position: relative;
@@ -14,7 +14,7 @@
 
 //---------------------------------------------------------------------------------------------------------------------
 .ms-s-header {
-  @extend .rr-s;
+  @extend .ms-s;
   padding-top: 5vmin;
   padding-bottom: 15vmin;
 
@@ -23,18 +23,18 @@
     font-size: 3rem;
     padding-bottom: 2vmin;
 
-    @media only screen and (max-width: ($pw-screen-sm - 1)) {
+    @media only screen and (max-width: ($ms-screen-sm - 1)) {
       font-size: 2rem;
       padding-bottom: 1vmin;
     }
   }
 
   h4 {
-    color: $cl-color-text-h4;
+    color: $ms-color-text-h4;
     font-size: 2rem;
     padding-bottom: 2vmin;
 
-    @media only screen and (max-width: ($pw-screen-sm - 1)) {
+    @media only screen and (max-width: ($ms-screen-sm - 1)) {
       font-size: 1.4rem;
     }
   }
@@ -53,7 +53,7 @@
   .watches-img {
     transform: translateX(-10vmin);
 
-    @media screen and (max-width: ($pw-screen-sm - 1)) {
+    @media screen and (max-width: ($ms-screen-sm - 1)) {
       transform: translateX(5vmin);
     }
   }
@@ -68,7 +68,7 @@
   margin-right: 10%;
   margin-bottom: 2.5rem;
 
-  @media only screen and (max-width: ($pw-screen-sm - 1)) {
+  @media only screen and (max-width: ($ms-screen-sm - 1)) {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 0.5rem;
@@ -77,8 +77,8 @@
 }
 
 //---------------------------------------------------------------------------------------------------------------------
-.rr-s-product {
-  @extend .rr-s;
+.ms-s-product {
+  @extend .ms-s;
 
   outline: none;
   letter-spacing: normal;
@@ -97,6 +97,6 @@
 
   p {
     font-size: 1.1rem;
-    color: $rr-c-orange;
+    color: $ms-c-orange;
   }
 }
