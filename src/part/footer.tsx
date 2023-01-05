@@ -85,7 +85,7 @@ export const Footer = () =>
         </div>
 
         <div className="row justify-content-center">
-            <span className="mx-auto px-2" style={{width: "fit-content"}}>
+            <span className="mx-auto px-2 copyright">
                 {_("FOOTER.C")}
             </span>
         </div>
