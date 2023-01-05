@@ -84,6 +84,10 @@
   letter-spacing: normal;
   font-family: os4;
 
+  &:nth-child(odd) {
+    background-color: $ms-color-bg-secondary;
+  }
+
   h1 {
     font-family: os6;
     margin-bottom: 1rem;

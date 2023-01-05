@@ -22,7 +22,7 @@ export default function LandingPage() {
             </section>
 
 
-            <section className="ms-s-product ms-color-bg-secondary">
+            <section className="ms-s-product">
                 <div className="row ms-s-offset align-items-center">
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <h1 className="d-none d-md-block">
@@ -68,7 +68,7 @@ export default function LandingPage() {
             </section>
 
 
-            <section className="ms-s-product ms-color-bg-secondary">
+            <section className="ms-s-product">
                 <div className="row ms-s-offset">
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <p className="mt-2">{_("ELECTROLYTE.SUBHEAD")}</p>
@@ -107,7 +107,7 @@ export default function LandingPage() {
             </section>
 
 
-            <section className="ms-s-product ms-color-bg-secondary">
+            <section className="ms-s-product">
                 <div className="row ms-s-offset">
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <p className="mt-2">{_("ZINC.SUBHEAD")}</p>
@@ -138,7 +138,7 @@ export default function LandingPage() {
             </section>
 
 
-            <section className="ms-s-product ms-color-bg-secondary">
+            <section className="ms-s-product">
                 <div className="row ms-s-offset">
                     <div className="col-md-6 align-self-center order-last order-md-1">
                         <p className="mt-2">{_("EMOTION.SUBHEAD")}</p>
