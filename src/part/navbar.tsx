@@ -74,6 +74,7 @@ export default function NavigationBar() {
                             aria-labelledby="navbarDropdown">
                             <li><a className="nav-link dropdown-item" href="#">{_("ABOUT.HEAD")}</a></li>
                             <li><a className="nav-link dropdown-item" href="#">{_("MISSION.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href="#">{_("TEAM.HEAD")}</a></li>
                         </ul>
                     </li>
 

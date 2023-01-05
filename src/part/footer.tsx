@@ -27,6 +27,7 @@ export const Footer = () =>
                                     <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("about")}> {_("ABOUT.HEAD")} </a>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("mission")}> {_("MISSION.HEAD")} </a>
+                                    <a className="footer-link mb-1" href={Locale.i18nLink("mission")}> {_("TEAM.HEAD")} </a>
                                     <a className="footer-link" href={Locale.i18nLink("privacy-policy")}> {_("PP.HEAD")} </a>
                                 </div>
                             </div>
