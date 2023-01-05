@@ -18,7 +18,7 @@
     },
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",
-        "SUBHEAD": "minerales más vitales",
+        "SUBHEAD": " minerales más vitales",
         "TEXT": "Los electrolitos juegan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Ayudan a regular el corazón y la función neurológica, el equilibrio de líquidos, el suministro de oxígeno, el equilibrio ácido-base y mucho más.",
         "BTN": "Conocer los hechos",
         "IMG": "Registra electrolitos y minerales con tu Apple Watch",
@@ -209,7 +209,7 @@
             "UL": {
                 "ACCOUNT": {
                     "STRONG": "Cuenta",
-                    "P1": "significa una cuenta única creada para que Usted acceda a nuestro Servicio o partes de nuestro Servicio."
+                    "P1": " significa una cuenta única creada para que Usted acceda a nuestro Servicio o partes de nuestro Servicio."
                 },
                 "APP": {
                     "STRONG": "aplicación",
@@ -237,12 +237,12 @@
                 },
                 "DEVICE": {
                     "STRONG": "Dispositivo",
-                    "P1": "significa cualquier dispositivo que pueda acceder al Servicio, como una computadora, un teléfono celular o una tableta digital."
+                    "P1": " significa cualquier dispositivo que pueda acceder al Servicio, como una computadora, un teléfono celular o una tableta digital."
                 },
                 "PERSONAL_DATA": {
                     "STRONG": "Información personal",
-                    "P1": "es cualquier información que se relaciona con un individuo identificado o identificable.",
-                    "P2": "A los efectos de la CCPA, los datos personales significan cualquier información que identifique, se relacione, describa o pueda asociarse con, o podría vincularse razonablemente, directa o indirectamente, con usted."
+                    "P1": " es cualquier información que se relaciona con un individuo identificado o identificable.",
+                    "P2": " A los efectos de la CCPA, los datos personales significan cualquier información que identifique, se relacione, describa o pueda asociarse con, o podría vincularse razonablemente, directa o indirectamente, con usted."
                 },
                 "SALE": {
                     "STRONG": "Rebaja",
@@ -250,15 +250,15 @@
                 },
                 "SERVICE": {
                     "STRONG": "Servicio",
-                    "P1": "se refiere a nuestro sitio web, aplicación y otros servicios relacionados, incluidas las ventas, el marketing o los eventos."
+                    "P1": " se refiere a nuestro sitio web, aplicación y otros servicios relacionados, incluidas las ventas, el marketing o los eventos."
                 },
                 "SERVICE_PROVIDER": {
                     "STRONG": "Proveedor de servicio",
-                    "P1": "significa cualquier persona física o jurídica que procesa los datos en nombre de la Compañía. Se refiere a empresas de terceros o personas empleadas por la Empresa para facilitar el Servicio, proporcionar el Servicio en nombre de la Empresa, realizar servicios relacionados con el Servicio o ayudar a la Empresa a analizar cómo se utiliza el Servicio."
+                    "P1": " significa cualquier persona física o jurídica que procesa los datos en nombre de la Compañía. Se refiere a empresas de terceros o personas empleadas por la Empresa para facilitar el Servicio, proporcionar el Servicio en nombre de la Empresa, realizar servicios relacionados con el Servicio o ayudar a la Empresa a analizar cómo se utiliza el Servicio."
                 },
                 "THIRD_PARTY_MEDIA": {
                     "STRONG": "Servicio de redes sociales de terceros",
-                    "P1": "se refiere a cualquier sitio web o cualquier sitio web de red social a través del cual un Usuario puede iniciar sesión o crear una cuenta para usar el Servicio."
+                    "P1": " se refiere a cualquier sitio web o cualquier sitio web de red social a través del cual un Usuario puede iniciar sesión o crear una cuenta para usar el Servicio."
                 },
                 "USAGE_DATA": {
                     "STRONG": "Datos de uso",
@@ -368,7 +368,7 @@
                     },
                     "L2": {
                         "STRONG": "Para administrar su cuenta:",
-                        "TEXT": "para gestionar Su registro como usuario del Servicio. Los Datos Personales que proporcione pueden darle acceso a diferentes funcionalidades del Servicio que están disponibles para Usted como usuario registrado."
+                        "TEXT": " para gestionar Su registro como usuario del Servicio. Los Datos Personales que proporcione pueden darle acceso a diferentes funcionalidades del Servicio que están disponibles para Usted como usuario registrado."
                     },
                     "L3": {
                         "STRONG": "Para la ejecución de un contrato:",
