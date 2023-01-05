@@ -49,14 +49,14 @@ html {
         font-family: os6;
         font-size: 2rem;
         margin-bottom: 1rem;
-        color: $ms-color-dark;
+        color: $ms-color-text-dark;
     }
 
     h3 {
         margin-top: 2rem;
         font-family: os4;
         font-size: 2rem;
-        color: $ms-color-dark;
+        color: $ms-color-text-dark;
     }
 
     h4 {
@@ -64,7 +64,7 @@ html {
         font-family: os4;
         font-size: 1.9rem;
         margin-bottom: 0.4rem;
-        color: $ms-color-text-recruiter;
+        color: $ms-color-text-blue;
     }
 
     h5 {
@@ -72,15 +72,15 @@ html {
         font-family: os4;
         font-size: 1.4rem;
         margin-bottom: 0.3rem;
-        color: $ms-color-text-recruiter;
+        color: $ms-color-text-blue;
     }
 
     li,p {
         font-family: os3;
         font-size: 1.5rem;
-        color: $ms-color-side-bar;
+        color: $ms-color-bg-dark;
 
-        // color: $ms-color-dark;
+        // color: $ms-color-text-dark;
         margin-bottom: 3rem;
     }
 

@@ -1,82 +1,15 @@
-$brand-secondary: #118DF0;
-$brand-overlay-color: #3b3d40;
-$brand-primary: #fed136;
-$gray-darkest: #222;
-$ms-color-bg-card-home:#062F4F;
-
-
-/////////
-$ms-color-bg-secondary: #f4f4f5; // #f7f7f7;
-
-
-// Icon OR Image
-$ms-color-scarlet: #e74c3c;
-$ms-c-waterdrop: #0080ff;
-$ms-color-volt: #5997FA;
-$ms-color-step: #00A0FF;
-
-
 // Element Background 
-$ms-color-gb-gray: #DCDCDC;
-$ms-color-bg-card: #fafafa;
-$ms-color-side-bar: #2A3F54; //#f0f0f0;
-$ms-color-hover-panel: #2a5987;
-$ms-color-bg-light: #F9F9F9;
-$ms-color-gray-f2: #f2f2f2;
-
-$ms-c-bg-gray: #E6E6E6;
-
-$ms-c-main1: #2387d8;
-$ms-c-main2: #e1666a;
-$ms-c-main1_light: #539fde;
+$ms-color-bg-secondary: #F4F4F4;
+$ms-color-bg-dark: #2A3F54;
 
 // Text 
-$brand-darker: #444;
-$ms-color-text-h4: #4A91C5;
-$ms-color-text-gray-ccc: #ccc;
-$ms-color-black: #73879C;
-$ms-color-dark: #466382;
-$ms-color-red: #e1666a;
-$ms-c-orange: #BF4803;
-$ms-color-button-text: #666;
-$ms-color-green: #1abb9c;
-$placeholder-text: #bbbbbb;
-$ms-color-text-light: #e9e9e9;
-$ms-color-text-panel2: rgba(255, 255, 255, 0.75); // #e7e7e7;
-$ms-color-text-panel1: #e7e7e7; // #F2F5F7;
-$ms-color-text-recruiter: #276ea3;
-$ms-color-text-agency: #ca9e58;
-$ms-color-button:#ff7214;
+$ms-color-text-dark: #466382;
+$ms-color-text-darker: #444444;
+$ms-color-text-orange: #BF4803;
+$ms-color-text-blue: #276EA3;
+$ms-color-text-blue-light: #4A91C5;
+
+// Button
+$ms-color-button:#FF7214;
 $ms-color-button-hover:#0066CC;
 $ms-color-button-active:#336699;
-
-$ms-color-main:#617fde;
-$ms-color-main-dark:#516ab3;
-$ms-color-gold: #ded661;
-$ms-color-text-label: #999999;
-
-$ms-color-coral: #E89025;
-
-$ms-color-gray-dark: #9FA8AC;
-$ms-color-gray-light: #D2D6DB;
-
-
-.ms-color-gray-light {
-    color: $ms-color-gray-light;
-}
-
-.ms-color-text-recruiter {
-    color: $ms-color-text-recruiter;
-}
-
-.ms-color-black {
-    color: $ms-color-black;
-}
-
-.ms-color-gray {
-    color: #acb2b9;
-}
-
-.ms-color-bg-secondary {
-    background-color: $ms-color-bg-secondary;
-}

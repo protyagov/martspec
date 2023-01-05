@@ -30,7 +30,7 @@
   }
 
   h4 {
-    color: $ms-color-text-h4;
+    color: $ms-color-text-blue-light;
     font-size: 2rem;
     padding-bottom: 2vmin;
 
@@ -92,11 +92,11 @@
   h2 {
     font-family: os4;
     margin-bottom: 1rem;
-    color: $brand-darker;
+    color: $ms-color-text-darker;
   }
 
   p {
     font-size: 1.1rem;
-    color: $ms-c-orange;
+    color: $ms-color-text-orange;
   }
 }
