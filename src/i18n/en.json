@@ -200,9 +200,9 @@
     "TEAM": {
         "HEAD": "Our Team",
         "SUBHEAD": "People behind company are as important as the company itself. Meet our highly talented software engineers & designers who make the best wellness apps.",
-        "ENGINEER_MOBILE": "Mobile Software Engineer",
-        "ENGINEER_WEB": "Web Software Engineer",
-        "DESIGNER_UI_UX": "UI/UX Designer"
+        "ENGINEER_MOBILE": "Software Engineer",
+        "ENGINEER_WEB": "Software Engineer",
+        "DESIGNER_UI_UX": "Designer"
     },
     "PP": {
         "HEAD": "Privacy Policy",
