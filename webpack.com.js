@@ -29,6 +29,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: './src/template/en/about.ejs', filename: 'about/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/mission.ejs', filename: 'mission/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/pp.ejs', filename: 'privacy-policy/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/team.ejs', filename: 'team/index.html', inject: 'body' }),
 
         // --------------- Static Content EN Without Slash--------------- 
         new HtmlWebpackPlugin({ template: './src/template/en/bodymass.ejs', filename: 'bodymass.html', inject: 'body' }),
@@ -41,6 +42,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: './src/template/en/about.ejs', filename: 'about.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/mission.ejs', filename: 'mission.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/pp.ejs', filename: 'privacy-policy/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/team.ejs', filename: 'team.html', inject: 'body' }),
 
         new HtmlWebpackInjectPreload({
             files: [{
@@ -58,11 +60,12 @@ module.exports = {
                 { from: 'src/html/pmail_22c30242162cf766f0b95cf7fe1e790e.html' },
                 { from: 'CNAME' },
                 { context: 'src/img/', from: '*.svg', to: "img" },
-                // { context: 'src/img/', from: '*.png', to: "img" },
+                { context: 'src/img/', from: '*.png', to: "img" },
                 { context: 'src/img/', from: '*.webp', to: "img" },
                 { context: 'src/img/', from: '*.jpg', to: "img" },
                 { context: 'src/img/icon/', from: '*', to: "icon" },
                 { context: 'src/img/apple_btn/', from: '*', to: "img/apple_btn" },
+                { context: 'src/data/', from: '*.json', to: "data" },
             ],
             options: {
                 concurrency: 100,
@@ -81,6 +84,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/about.ejs`, filename: x + '/about/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/mission.ejs`, filename: x + '/mission/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/pp.ejs`, filename: x + '/privacy-policy/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/team.ejs`, filename: x + '/team/index.html', inject: 'body' }),
         // Without slash at the end
         new HtmlWebpackPlugin({ template: `./src/template/${x}/main.ejs`, filename: x + '.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodymass.ejs`, filename: x + '/bodymass.html', inject: 'body' }),
@@ -93,6 +97,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/about.ejs`, filename: x + '/about.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/mission.ejs`, filename: x + '/mission.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/pp.ejs`, filename: x + '/privacy-policy.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/team.ejs`, filename: x + '/team.html', inject: 'body' }),
     ])]),
     //--------------------------------------------------------------------------------------------------------------------------------------------
     resolve: {
