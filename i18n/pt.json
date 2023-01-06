@@ -196,6 +196,13 @@
         "P6": "Construímos nossos aplicativos usando tecnologia de ponta e os oferecemos em vários idiomas em todo o mundo, mas nada disso importa. Não se trata apenas do número de aplicativos e softwares líderes do setor. Martspec é sobre pessoas. Martspec é sobre confiança na tecnologia que capacita os indivíduos com saúde e bem-estar pessoais.",
         "P7": "É por isso que todos os nossos aplicativos estão disponíveis gratuitamente. Não temos nenhuma monetização, não mostramos anúncios e nunca usamos dados pessoais para fins lucrativos."
     },
+    "TEAM": {
+        "HEAD": "O time",
+        "SUBHEAD": "As pessoas por trás da empresa são tão importantes quanto a própria empresa. Conheça nossos talentosos engenheiros e designers de software que criam os melhores aplicativos de bem-estar.",
+        "ENGINEER_MOBILE": "Engenheiro de software móvel",
+        "ENGINEER_WEB": "Engenheiro de Software Web",
+        "DESIGNER_UI_UX": "UI/UX Designer"
+    },
     "PP": {
         "HEAD": "Política de Privacidade",
         "DATE": "Última atualização: 20 de agosto de 2022",

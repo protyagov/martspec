@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Alex",
+    "title": "ENGINEER_MOBILE",
+    "avatar": "/img/team_alex.png"
+  },
+  {
+    "name": "Nichita",
+    "title": "ENGINEER_WEB",
+    "avatar": "/img/team_nichita.png"
+  },
+  {
+    "name": "Alevtina",
+    "title": "ENGINEER_WEB",
+    "avatar": "/img/team_alevtina.png"
+  },
+  {
+    "name": "Dmytro",
+    "title": "ENGINEER_WEB",
+    "avatar": "/img/team_dmytro.png"
+  },
+  {
+    "name": "Svetlana",
+    "title": "DESIGNER_UI_UX",
+    "avatar": "/img/team_svetlana.png"
+  },
+  {
+    "name": "Alesia",
+    "title": "DESIGNER_UI_UX",
+    "avatar": "/img/team_alesia.png"
+  }
+]
