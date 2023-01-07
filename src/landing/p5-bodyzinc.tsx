@@ -15,7 +15,7 @@ export default function P5BodyZinc() {
 
             <section>
                 <p className="mt-4">{_("ZINC.ABOUT")}</p>
-                <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1547395353`}
+                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1547395353?l=${Locale.language}`}
                     target="_blank" title={_("ZINC.DWN")} className="ms-btn-apple"
                     style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                 </a>
