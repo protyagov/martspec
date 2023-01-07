@@ -15,7 +15,7 @@ export default function P4WaistLine() {
 
             <section>
                 <p className="mt-4">{_("WAIST.ABOUT")}</p>
-                <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1506250420`}
+                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1506250420`}
                     target="_blank" title={_("MAIN.P3.DWN")} className="ms-btn-apple"
                     style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                 </a>

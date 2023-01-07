@@ -15,7 +15,7 @@ export default function P1Electrolyte() {
 
             <section>
                 <p className="mt-4">{_("ELECTROLYTE.ABOUT")}</p>
-                <a href={`https://apps.apple.com/${_("APPSTORE")}/app/id1507719251`}
+                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1507719251`}
                     target="_blank" title={_("MAIN.P1.DWN")} className="ms-btn-apple"
                     style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                 </a>

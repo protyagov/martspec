@@ -50,7 +50,7 @@ export const Footer = () =>
                     <div className="col-md-3">
                         <div className="d-flex flex-sm-row flex-row-reverse flex-sm-row-reverse flex-md-column icon-container">
                             <div className="text-center">
-                                <a href={`https://apps.apple.com/${_("APPSTORE")}/developer/martspec-llc/id1506250419`}
+                                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/developer/martspec-llc/id1506250419`}
                                     target="_blank" title={_("MAIN.P1.DWN")}
                                     className="ms-btn-apple float-md-right"
                                     style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)'}}>
