@@ -15,7 +15,7 @@ export default function P3LogVitamin() {
 
             <section>
                 <p className="mt-4">{_("VITAMIN.ABOUT")}</p>
-                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234`}
+                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
                     target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple"
                     style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                 </a>

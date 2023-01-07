@@ -16,7 +16,7 @@ export default function P6BodySize() {
 
             <section>
                 <p className="mt-4">{_("SIZE.ABOUT")}</p>
-                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1564205068`}
+                <a href={`/${_("COUNTRY_CODE")}/app/id1564205068`}
                     target="_blank" title={_("MAIN.P4.DWN")} className="ms-btn-apple"
                     style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                 </a>

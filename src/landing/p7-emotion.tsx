@@ -15,7 +15,7 @@ export default function P7Emotion() {
             <section>
                 <p className="mt-4">{_("EMOTION.ABOUT_1")}</p>
                 <p className="mt-4">{_("EMOTION.ABOUT_2")}</p>
-                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213`}
+                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
                     target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple"
                     style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                 </a>

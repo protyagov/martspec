@@ -15,7 +15,7 @@ export default function P2bodymass() {
 
             <section>
                 <p className="mt-4">{_("MASS.ABOUT")}</p>
-                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1507588203`}
+                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1507588203?l=${Locale.language}`}
                     target="_blank" title={_("MAIN.P3.DWN")} className="ms-btn-apple"
                     style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                 </a>
