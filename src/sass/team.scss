@@ -29,6 +29,12 @@
 
     & > div {
       flex: 0 1 min-content;
+      
+      img {
+        object-fit: cover;
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+      }
     }
   }
 }
