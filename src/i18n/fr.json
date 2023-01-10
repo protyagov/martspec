@@ -1,5 +1,5 @@
 {
-    "APPSTORE": "fr",
+    "COUNTRY_CODE": "fr",
     "BTN": {
         "SRC1": "Lire l'article source",
         "FACT": "Voir les faits",
@@ -36,7 +36,7 @@
         "DESC5": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte. "
     },
     "MASS": {
-        "HEAD": "Poids - Masse corporelle saine",
+        "HEAD": "Poids",
         "SUBHEAD": "journal de poids facile",
         "TEXT": "Le suivi de votre poids augmente votre efficacité en termes de temps et d'entraînement. Non seulement cela vous poussera à faire mieux, mais vous conduira également à être votre propre compétition!",
         "BTN": "regarde",
@@ -59,7 +59,7 @@
         "DESC4_7": "Gratuit, zéro annonce et aucun achat in-app"
     },
     "VITAMIN": {
-        "HEAD": "Vitamines",
+        "HEAD": "Vitamine",
         "SUBHEAD": "le traqueur ultime de vitamines",
         "TEXT": "Le suivi de vos vitamines essentielles présente de nombreux avantages, allant de la gestion des intolérances alimentaires à l'augmentation de l'énergie, en évitant les changements d'humeur et en alimentant les rythmes de votre journée.",
         "BTN": "Lire la suite",
@@ -110,7 +110,7 @@
         "DESC4_4": "La source: "
     },
     "ZINC": {
-        "HEAD": "Body Zinc",
+        "HEAD": "Zinc",
         "SUBHEAD": "suivi la consommation de zinc",
         "TEXT": "Magnifique dans sa simplicité, son corps de traqueur en zinc pour votre montre. Apple Health activé. De vrais résultats. Libérer. Zéro publicité.",
         "BTN": "Discover wellness",
@@ -127,7 +127,7 @@
         "DESC3": "Diminue le stress oxydatif et réduit les niveaux de certaines protéines inflammatoires de votre corps. Le stress oxydatif entraîne une inflammation chronique, un facteur contribuant dans une vaste gamme de maladies chroniques, telles que la maladie cardiaque, le cancer et le déclin mentale."
     },
     "SIZE": {
-        "HEAD": "Belle Forme - Traqueur Simple",
+        "HEAD": "Belle Forme",
         "SUBHEAD": "beau corps - construit par vous!",
         "TEXT": "Suivez vos hanches, votre taille et votre poitrine sur votre montre. Prise en charge complète d'Apple Health. Temps de chargement rapide. Complétement gratuit.",
         "BTN": "Forme parfaite",
@@ -196,9 +196,16 @@
         "P6": "Nous construisons nos applications à l'aide d'une technologie de pointe et les proposons dans de nombreuses langues partout dans le monde, mais rien de tout cela n'a d'importance. Il ne s'agit pas seulement du nombre d'applications et de logiciels de pointe. Martspec concerne les gens. Martspec est une question de confiance dans la technologie qui permet aux individus d'avoir une santé et un bien-être personnels.",
         "P7": "C'est pourquoi toutes nos applications sont disponibles gratuitement. Nous n'avons aucune monétisation, ne montrons pas de publicités et n'utilisons jamais de données personnelles à des fins lucratives."
     },
+    "TEAM": {
+        "HEAD": "L'équipe",
+        "SUBHEAD": "Les personnes derrière l'entreprise sont aussi importantes que l'entreprise elle-même. Rencontrez nos ingénieurs et concepteurs de logiciels hautement talentueux qui créent les meilleures applications de bien-être.",
+        "ENGINEER_MOBILE": "Ingénieur logiciel mobile",
+        "ENGINEER_WEB": "Ingénieur logiciel Web",
+        "DESIGNER_UI_UX": "Concepteur UI/UX"
+    },
     "PP": {
         "HEAD": "Politique de confidentialité",
-        "DATE": "Dernière mise à jour : 20 août 2022",
+        "DATE": "Dernière mise à jour : 20 août 2023",
         "P1": "La protection de vos informations privées est notre priorité. Cette politique de confidentialité décrit nos politiques et procédures sur la collecte, l'utilisation et la divulgation de vos informations lorsque vous utilisez l'une de nos applications mobiles, visitez notre site Web à martspec.com ou interagissez avec nous d'autres manières connexes - y compris les ventes, le marketing ou les événements.",
         "P2": "Le but de cet avis de confidentialité est de vous expliquer de la manière la plus claire possible quelles informations nous collectons, comment nous les utilisons et quels droits vous avez par rapport à celles-ci. S'il y a des termes dans cet avis de confidentialité avec lesquels vous n'êtes pas d'accord, veuillez cesser immédiatement d'utiliser nos services.",
         "P3": "Nous utilisons vos données personnelles pour fournir et améliorer le service. En utilisant le Service ou l'une de nos applications mobiles, vous acceptez la collecte et l'utilisation d'informations conformément à la présente politique de confidentialité.",

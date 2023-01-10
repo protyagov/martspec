@@ -72,8 +72,10 @@ export default function NavigationBar() {
 
                         <ul className="dropdown-menu"
                             aria-labelledby="navbarDropdown">
-                            <li><a className="nav-link dropdown-item" href="#">{_("ABOUT.HEAD")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("MISSION.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("about")}>{_("ABOUT.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("mission")}>{_("MISSION.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("team")}>{_("TEAM.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("privacy-policy")}>{_("PP.HEAD")}</a></li>
                         </ul>
                     </li>
 

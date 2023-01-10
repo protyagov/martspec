@@ -16,7 +16,7 @@
     }
 }
 
-.rr-btn-large {
+.ms-btn-large {
     @extend .ms-btn;
     color: white !important;
     font-family: os6;
@@ -24,7 +24,7 @@
     border-radius: 2.1rem;
 }
 
-.rr-btn-lang {
+.ms-btn-lang {
     @extend .btn;
     @extend .btn-link;
     @extend .nav-link;
@@ -32,7 +32,7 @@
 
     &:active {
         color: #fff;
-        background-color: $rr-color-text-recruiter;
+        background-color: $ms-color-text-blue;
         border: none;
     }
 
@@ -50,8 +50,6 @@
 .ms-btn-apple {
     background-size: cover;
     display: inline-block;
-    width: 135px;
-    height: 45px;
 
     &:hover,
     &:focus {

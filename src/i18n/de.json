@@ -1,5 +1,5 @@
 {
-    "APPSTORE": "de",
+    "COUNTRY_CODE": "de",
     "BTN": {
         "SRC1": "Quellartikel lesen",
         "FACT": "Siehe Fakten",
@@ -36,7 +36,7 @@
         "DESC5": "Elektrolytstörungen können entstehen, wenn zu wenig oder zu viel Elektrolyt verbraucht und zu wenig oder zu viel Elektrolyt ausgeschieden wird. "
     },
     "MASS": {
-        "HEAD": "Gewicht - Körpermasse Tagebuch",
+        "HEAD": "Gewicht",
         "SUBHEAD": "leichteste gewichtstagebuch",
         "TEXT": "Das Verfolgen Ihres Gewichts steigert Ihre Effizienz in Bezug auf Ihre Zeit und Ihr Training. Es wird Sie nicht nur dazu bringen, es besser zu machen, sondern Sie auch dazu bringen, Ihre eigene Konkurrenz zu sein!",
         "BTN": "Schau mal",
@@ -110,7 +110,7 @@
         "DESC4_4": "Quelle: "
     },
     "ZINC": {
-        "HEAD": "Body Zinc",
+        "HEAD": "Zinc",
         "SUBHEAD": "verfolgung der zinkaufnahme",
         "TEXT": "Schön in seiner Einfachheit Körper Zink Tracker für Ihre Uhr. Apple Health aktiviert. Echte Ergebnisse. Kostenlos. Keine Werbung.",
         "BTN": "Wellness entdecken",
@@ -127,7 +127,7 @@
         "DESC3": "Verringert oxidativen Stress und verringert die Gewährleistung bestimmter entzündlicher Proteine in Ihrem Körper. Oxidativer Stress führt zu chronischen Entzündungen, ein beitragender Faktor in einer Vielzahl chronischer Erkrankungen, wie Herzkrankheiten, Krebs und geistiger Rückgang."
     },
     "SIZE": {
-        "HEAD": "Körperform - Einfacher Tracker",
+        "HEAD": "Körper Form",
         "SUBHEAD": "schöner Körper - von dir gebaut!",
         "TEXT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Uhr. Volle Unterstützung von Apple Health. Schnelle Ladezeit. Absolut frei.",
         "BTN": "Perfekte Form",
@@ -199,9 +199,16 @@
         "P6": "Wir bauen unsere Apps mit modernster Technologie und bieten sie in vielen Sprachen auf der ganzen Welt an, aber das spielt keine Rolle. Es geht nicht nur um die Anzahl an Apps und branchenführender Software. Bei Martspec geht es um Menschen. Bei Martspec geht es um Vertrauen in Technologie, die Einzelpersonen mit persönlicher Gesundheit und Wohlbefinden befähigt.",
         "P7": "Deshalb sind alle unsere Apps kostenlos erhältlich. Wir haben keine Monetarisierung, zeigen keine Werbung und verwenden niemals personenbezogene Daten für Profit."
     },
+    "TEAM": {
+        "HEAD": "Die Mannschaft",
+        "SUBHEAD": "Die Menschen hinter dem Unternehmen sind genauso wichtig wie das Unternehmen selbst. Lernen Sie unsere hochtalentierten Softwareingenieure und Designer kennen, die die besten Wellness-Apps entwickeln.",
+        "ENGINEER_MOBILE": "Mobiler Software-Ingenieur",
+        "ENGINEER_WEB": "Web Software-Ingenieur",
+        "DESIGNER_UI_UX": "UI/UX-Designer"
+    },
     "PP": {
         "HEAD": "Datenschutzrichtlinie",
-        "DATE": "Zuletzt aktualisiert: 20. August 2022",
+        "DATE": "Zuletzt aktualisiert: 20. August 2023",
         "P1": "Der Schutz Ihrer personenbezogenen Daten ist unsere Priorität. Die Datenschutzrichtlinie beschreibt unsere Richtlinien und Verfahren in Bezug auf die Erfassung, Verwendung und Offenlegung Ihrer Daten, insbesondere wenn Sie eine unserer mobilen Anwendungen verwenden, unsere Website unter martspec.com besuchen oder Interaktion mit uns auf andere relevante Weise, einschließlich Verkauf, Marketing oder Veranstaltungen.",
         "P2": "Der Zweck dieser Datenschutzerklärung besteht darin, Ihnen so klar wie möglich zu erklären, welche Informationen wir sammeln, wie wir sie verwenden und welche Rechte Sie diesbezüglich haben Wenn Sie nicht einverstanden sind, hören Sie bitte sofort auf, unsere Dienste zu nutzen.",
         "P3": "Wir verwenden Ihre personenbezogenen Daten, um den Service bereitzustellen und zu verbessern. Durch die Nutzung des Service oder einer unserer mobilen Anwendungen stimmen Sie der Erfassung und Nutzung von Informationen gemäß der aktuellen Datenschutzrichtlinie zu.",

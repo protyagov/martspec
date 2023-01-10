@@ -1,5 +1,5 @@
 {
-    "APPSTORE": "pt",
+    "COUNTRY_CODE": "pt",
     "BTN": {
         "SRC1": "Leia o artigo fonte",
         "FACT": "Veja os fatos",
@@ -59,7 +59,7 @@
         "DESC4_7": "Grátis, sem anúncios e sem compras no aplicativo"
     },
     "VITAMIN": {
-        "HEAD": "Vitaminas",
+        "HEAD": "Vitamina",
         "SUBHEAD": "o melhor rastreador de vitaminas",
         "TEXT": "Rastrear suas vitaminas essenciais tem muitos benefícios, desde ajudar a controlar as intolerâncias alimentares até aumentar a energia, evitar mudanças no humor e alimentar o ritmo do seu dia.",
         "BTN": "Consulte Mais informação",
@@ -110,7 +110,7 @@
         "DESC4_4": "Fonte: "
     },
     "ZINC": {
-        "HEAD": "Body Zinc",
+        "HEAD": "Zinco",
         "SUBHEAD": "rastreamento ingestão zinco",
         "TEXT": "Bonito em sua simplicidade rastreador de zinco no corpo para o seu relógio. Apple Health ativado. Resultados reais. Livre. Zero anúncios.",
         "BTN": "Descubra bem-estar",
@@ -127,7 +127,7 @@
         "DESC3": "Diminui o estresse oxidativo e reduz os níveis de certas proteínas inflamatórias em seu corpo. O estresse oxidativo leva à inflamação crônica, um fator contribuinte em uma ampla gama de doenças crônicas, como doenças cardíacas, câncer e declínio mental."
     },
     "SIZE": {
-        "HEAD": "Aparência - Rastreador simples",
+        "HEAD": "Ser Fitness",
         "SUBHEAD": "bela figura - corpo saudável",
         "TEXT": "Acompanhe seus quadris, cintura e peito no relógio. Suporte total da Apple Health. Tempo de carregamento rápido. Absolutamente grátis.",
         "BTN": "Forma perfeita",
@@ -146,7 +146,7 @@
         "DESC5": "O formato do seu corpo é uma maçã 🍎 ou uma pêra 🍐? Ou talvez uma ampulheta? Descobrir a verdadeira forma do seu corpo é mais do que um daqueles testes online inúteis. Compreender a forma do seu corpo pode ajudá-lo a descobrir o treino mais eficaz. Estudos sugerem que pode ajudar a melhorar sua saúde."
     },
     "EMOTION": {
-        "HEAD": "Emoção - Alegria, Raiva & Medo",
+        "HEAD": "Emoção",
         "SUBHEAD": "teste de psicologia mais rápido",
         "TEXT": "Mudanças de humor inesperadas? Mudanças emocionais intensas? Descubra a causa raiz em apenas 1 minuto.",
         "BTN": "Conheça a si mesmo",
@@ -170,7 +170,7 @@
         "DESC5_2": "A utilização do nosso software é exclusivamente por sua conta e risco. Ele é fornecido “como está” e “conforme disponível”. A Martspec não garante que nossos aplicativos e/ou qualquer conteúdo neles atendam aos seus requisitos ou sejam ininterruptos, oportunos, seguros, atuais, precisos, completos ou isentos de erros ou que os resultados que possam ser obtidos pelo uso do site e/ou qualquer conteúdo nele será preciso ou confiável. Você entende e reconhece que seu único e exclusivo recurso em relação a qualquer defeito ou insatisfação com o aplicativo é deixar de usá-lo."
     },
     "FOOTER": {
-        "C": "© 2022 Martspec LLC. Todos os direitos reservados."
+        "C": "© 2023 Martspec LLC. Todos os direitos reservados."
     },
     "ERROR": {
         "404_HEAD": "Página não encontrada",
@@ -195,6 +195,13 @@
         "P5": "Construímos mais alguns aplicativos apenas para dispositivos Apple Watch.  Em 2021, começamos a construir aplicativos multiplataforma que funcionam em todos os tipos de dispositivos Apple, desde pequenos Apple Watch até iPads e MacBooks. Além do bem-estar físico e rastreamento de saúde, criamos nosso primeiro aplicativo, chamado Emotion, para abordar o bem-estar mental. O teste de personalidade mais rápido já criado.",
         "P6": "Construímos nossos aplicativos usando tecnologia de ponta e os oferecemos em vários idiomas em todo o mundo, mas nada disso importa. Não se trata apenas do número de aplicativos e softwares líderes do setor. Martspec é sobre pessoas. Martspec é sobre confiança na tecnologia que capacita os indivíduos com saúde e bem-estar pessoais.",
         "P7": "É por isso que todos os nossos aplicativos estão disponíveis gratuitamente. Não temos nenhuma monetização, não mostramos anúncios e nunca usamos dados pessoais para fins lucrativos."
+    },
+    "TEAM": {
+        "HEAD": "O time",
+        "SUBHEAD": "As pessoas por trás da empresa são tão importantes quanto a própria empresa. Conheça nossos talentosos engenheiros e designers de software que criam os melhores aplicativos de bem-estar.",
+        "ENGINEER_MOBILE": "Engenheiro de software móvel",
+        "ENGINEER_WEB": "Engenheiro de Software Web",
+        "DESIGNER_UI_UX": "UI/UX Designer"
     },
     "PP": {
         "HEAD": "Política de Privacidade",

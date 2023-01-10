@@ -1,5 +1,5 @@
 {
-    "APPSTORE": "us",
+    "COUNTRY_CODE": "us",
     "BTN": {
         "SRC1": "Read source article",
         "FACT": "See Facts",
@@ -110,7 +110,7 @@
         "DESC4_4": "Source: "
     },
     "ZINC": {
-        "HEAD": "Body Zinc",
+        "HEAD": "Zinc",
         "SUBHEAD": "AmaZinc tracker for your watch",
         "TEXT": "Zinc may enhance immune function, stabilize blood sugar levels, and help keep your skin, eyes, and heart healthy.",
         "BTN": "Discover wellness",
@@ -197,9 +197,16 @@
         "P6": "We build our apps using cutting-edge technology and offer them in many languages all over the world, but none of that matters. It isn't just about the number of apps and industry-leading software. Martspec is about people. Martspec is about trust in technology that empowers individuals with personal health and wellness.",
         "P7": "That is why all our apps are available free of charge. We do not have any monetization, do not show ADs, and never use personal data for profit."
     },
+    "TEAM": {
+        "HEAD": "Our Team",
+        "SUBHEAD": "People behind company are as important as the company itself. Meet our highly talented software engineers & designers who make the best wellness apps.",
+        "ENGINEER_MOBILE": "Software Engineer",
+        "ENGINEER_WEB": "Software Engineer",
+        "DESIGNER_UI_UX": "Designer"
+    },
     "PP": {
         "HEAD": "Privacy Policy",
-        "DATE": "Last updated: August 20, 2022",
+        "DATE": "Last updated: August 20, 2023",
         "P1": "Protecting your private information is our priority. This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use any of our mobile apps, visit our website at martspec.com or engage with us in other related ways - including sales, marketing or events.",
         "P2": "The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.",
         "P3": "We use Your Personal data to provide and improve the Service. By using the Service or any our mobile apps, You agree to the collection and use of information in accordance with this Privacy Policy.",
