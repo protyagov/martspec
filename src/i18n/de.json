@@ -36,7 +36,7 @@
         "DESC5": "Elektrolytstörungen können entstehen, wenn zu wenig oder zu viel Elektrolyt verbraucht und zu wenig oder zu viel Elektrolyt ausgeschieden wird. "
     },
     "MASS": {
-        "HEAD": "Gewicht - Körpermasse Tagebuch",
+        "HEAD": "Gewicht",
         "SUBHEAD": "leichteste gewichtstagebuch",
         "TEXT": "Das Verfolgen Ihres Gewichts steigert Ihre Effizienz in Bezug auf Ihre Zeit und Ihr Training. Es wird Sie nicht nur dazu bringen, es besser zu machen, sondern Sie auch dazu bringen, Ihre eigene Konkurrenz zu sein!",
         "BTN": "Schau mal",
@@ -110,7 +110,7 @@
         "DESC4_4": "Quelle: "
     },
     "ZINC": {
-        "HEAD": "Body Zinc",
+        "HEAD": "Zinc",
         "SUBHEAD": "verfolgung der zinkaufnahme",
         "TEXT": "Schön in seiner Einfachheit Körper Zink Tracker für Ihre Uhr. Apple Health aktiviert. Echte Ergebnisse. Kostenlos. Keine Werbung.",
         "BTN": "Wellness entdecken",
@@ -127,7 +127,7 @@
         "DESC3": "Verringert oxidativen Stress und verringert die Gewährleistung bestimmter entzündlicher Proteine in Ihrem Körper. Oxidativer Stress führt zu chronischen Entzündungen, ein beitragender Faktor in einer Vielzahl chronischer Erkrankungen, wie Herzkrankheiten, Krebs und geistiger Rückgang."
     },
     "SIZE": {
-        "HEAD": "Körperform - Einfacher Tracker",
+        "HEAD": "Körper Form",
         "SUBHEAD": "schöner Körper - von dir gebaut!",
         "TEXT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Uhr. Volle Unterstützung von Apple Health. Schnelle Ladezeit. Absolut frei.",
         "BTN": "Perfekte Form",
