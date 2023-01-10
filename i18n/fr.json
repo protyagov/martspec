@@ -36,7 +36,7 @@
         "DESC5": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte. "
     },
     "MASS": {
-        "HEAD": "Poids - Masse corporelle saine",
+        "HEAD": "Poids",
         "SUBHEAD": "journal de poids facile",
         "TEXT": "Le suivi de votre poids augmente votre efficacité en termes de temps et d'entraînement. Non seulement cela vous poussera à faire mieux, mais vous conduira également à être votre propre compétition!",
         "BTN": "regarde",
@@ -59,7 +59,7 @@
         "DESC4_7": "Gratuit, zéro annonce et aucun achat in-app"
     },
     "VITAMIN": {
-        "HEAD": "Vitamines",
+        "HEAD": "Vitamine",
         "SUBHEAD": "le traqueur ultime de vitamines",
         "TEXT": "Le suivi de vos vitamines essentielles présente de nombreux avantages, allant de la gestion des intolérances alimentaires à l'augmentation de l'énergie, en évitant les changements d'humeur et en alimentant les rythmes de votre journée.",
         "BTN": "Lire la suite",
@@ -110,7 +110,7 @@
         "DESC4_4": "La source: "
     },
     "ZINC": {
-        "HEAD": "Body Zinc",
+        "HEAD": "Zinc",
         "SUBHEAD": "suivi la consommation de zinc",
         "TEXT": "Magnifique dans sa simplicité, son corps de traqueur en zinc pour votre montre. Apple Health activé. De vrais résultats. Libérer. Zéro publicité.",
         "BTN": "Discover wellness",
@@ -127,7 +127,7 @@
         "DESC3": "Diminue le stress oxydatif et réduit les niveaux de certaines protéines inflammatoires de votre corps. Le stress oxydatif entraîne une inflammation chronique, un facteur contribuant dans une vaste gamme de maladies chroniques, telles que la maladie cardiaque, le cancer et le déclin mentale."
     },
     "SIZE": {
-        "HEAD": "Belle Forme - Traqueur Simple",
+        "HEAD": "Belle Forme",
         "SUBHEAD": "beau corps - construit par vous!",
         "TEXT": "Suivez vos hanches, votre taille et votre poitrine sur votre montre. Prise en charge complète d'Apple Health. Temps de chargement rapide. Complétement gratuit.",
         "BTN": "Forme parfaite",
