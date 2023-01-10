@@ -52,8 +52,8 @@ export const Footer = () =>
                             <div className="text-center">
                                 <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/developer/martspec-llc/id1506250419?l=${Locale.language}`}
                                     target="_blank" title={_("MAIN.P1.DWN")}
-                                    className="ms-btn-apple float-md-right"
-                                    style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)'}}>
+                                    className="ms-btn-apple float-md-right">
+                                        <img src={'/img/apple_btn/' + Locale.language + '.svg'} alt="email" />
                                 </a>
                             </div>
 
