@@ -36,7 +36,7 @@
         "DESC5": "Los desequilibrios de electrolitos pueden desarrollarse al consumir muy poco o demasiado electrolito, así como al excretar muy poco o demasiado electrolito. "
     },
     "MASS": {
-        "HEAD": "Peso - Diario de masa corporal",
+        "HEAD": "Peso",
         "SUBHEAD": "diario de peso fácil",
         "TEXT": "El seguimiento de su peso aumenta su eficiencia en términos de su tiempo y entrenamientos. ¡No solo te impulsará a hacerlo mejor, sino que también te llevará a ser tu propia competencia!",
         "BTN": "Echar un vistazo",
@@ -59,7 +59,7 @@
         "DESC4_7": "Gratis, sin anuncios y sin compras dentro de la aplicación"
     },
     "VITAMIN": {
-        "HEAD": "Vitaminas",
+        "HEAD": "Vitamina",
         "SUBHEAD": "el mejor rastreador de vitaminas",
         "TEXT": "El seguimiento de sus vitaminas esenciales tiene muchos beneficios, desde ayudar a controlar las intolerancias alimentarias hasta aumentar la energía, evitar cambios de humor y estimular el ritmo de su día.",
         "BTN": "leer más",
@@ -110,7 +110,7 @@
         "DESC4_4": "Fuente: "
     },
     "ZINC": {
-        "HEAD": "Body Zinc",
+        "HEAD": "Zinc",
         "SUBHEAD": "seguimiento la ingesta de zinc",
         "TEXT": "Hermoso en su cuerpo de seguimiento de zinc de simplicidad para su reloj. Apple Health habilitado. Resultados reales. Libre. Cero anuncios.",
         "BTN": "Descubrir bienestar",
@@ -127,7 +127,7 @@
         "DESC3": "Disminuye el estrés oxidativo y reduce los niveles de ciertas proteínas inflamatorias en su cuerpo. El estrés oxidativo conduce a la inflamación crónica, un factor contribuyente en una amplia gama de enfermedades crónicas, como las enfermedades cardíacas, el cáncer y el declive mental."
     },
     "SIZE": {
-        "HEAD": "Apariencia  - Rastreador Fácil",
+        "HEAD": "Medida",
         "SUBHEAD": "hermosa figura - cuerpo sano",
         "TEXT": "Rastrea tus caderas, cintura y pecho en tu reloj. Soporte completo de Apple Health. Tiempo de carga rápido. Absolutamente libre.",
         "BTN": "Cuerpo perfecto",
