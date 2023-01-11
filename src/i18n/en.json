@@ -202,7 +202,13 @@
         "SUBHEAD": "People behind company are as important as the company itself. Meet our highly talented software engineers & designers who make the best wellness apps.",
         "ENGINEER_MOBILE": "Software Engineer",
         "ENGINEER_WEB": "Software Engineer",
-        "DESIGNER_UI_UX": "Designer"
+        "DESIGNER_UI_UX": "Designer",
+        "ALEX": "Alex",
+        "NICHITA": "Nichita",
+        "ALEVTYNA": "Alevtyna",
+        "DMYTRO": "Dmytro",
+        "SVETLANA": "Svetlana",
+        "ALESIA": "Alesia"
     },
     "PP": {
         "HEAD": "Privacy Policy",

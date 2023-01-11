@@ -201,7 +201,13 @@
         "SUBHEAD": "As pessoas por trás da empresa são tão importantes quanto a própria empresa. Conheça nossos talentosos engenheiros e designers de software que criam os melhores aplicativos de bem-estar.",
         "ENGINEER_MOBILE": "Engenheiro de software móvel",
         "ENGINEER_WEB": "Engenheiro de Software Web",
-        "DESIGNER_UI_UX": "UI/UX Designer"
+        "DESIGNER_UI_UX": "UI/UX Designer",
+        "ALEX": "Alex",
+        "NICHITA": "Nichita",
+        "ALEVTYNA": "Alevtyna",
+        "DMYTRO": "Dmytro",
+        "SVETLANA": "Svetlana",
+        "ALESIA": "Alesia"
     },
     "PP": {
         "HEAD": "Política de Privacidade",
