@@ -22,7 +22,7 @@ export const Footer = () =>
 
                     <div className="col-md-9">
                         <div className="d-flex justify-content-evenly my-5">
-                            <div className="col">
+
                                 <div className="d-flex flex-column mx-2">
                                     <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("about")}> {_("ABOUT.HEAD")} </a>
@@ -30,9 +30,7 @@ export const Footer = () =>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("team")}> {_("TEAM.HEAD")} </a>
                                     <a className="footer-link" href={Locale.i18nLink("privacy-policy")}> {_("PP.HEAD")} </a>
                                 </div>
-                            </div>
 
-                            <div className="col">
                                 <div className="d-flex flex-column">
                                     <h2 className="mb-4"> {_("NAV.APPS").toUpperCase()} </h2>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("logvitamin")}> {_("VITAMIN.HEAD")} </a>
@@ -43,12 +41,11 @@ export const Footer = () =>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("waistline")}> {_("WAIST.HEAD")} </a>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("emotion")}> {_("EMOTION.HEAD")} </a>
                                 </div>
-                            </div>
                         </div>
                     </div>
 
                     <div className="col-md-3">
-                        <div className="d-flex flex-sm-row flex-row-reverse flex-sm-row-reverse flex-md-column icon-container justify-content-between">
+                        <div className="d-flex flex-sm-row flex-row-reverse flex-sm-row-reverse flex-md-column icon-container justify-content-evenly">
                             <div className="text-center">
                                 <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/developer/martspec-llc/id1506250419?l=${Locale.language}`}
                                     target="_blank" title={_("MAIN.P1.DWN")}
