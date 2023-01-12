@@ -1,31 +1,31 @@
 [
   {
-    "name": "Alex",
+    "name": "ALEX",
     "title": "ENGINEER_MOBILE",
     "avatar": "/img/team_alex.png"
   },
   {
-    "name": "Nichita",
+    "name": "NICHITA",
     "title": "ENGINEER_WEB",
     "avatar": "/img/team_nichita.png"
   },
   {
-    "name": "Alevtyna",
+    "name": "ALEVTYNA",
     "title": "ENGINEER_WEB",
     "avatar": "/img/team_alevtyna.png"
   },
   {
-    "name": "Dmytro",
+    "name": "DMYTRO",
     "title": "ENGINEER_WEB",
     "avatar": "/img/team_dmytro.png"
   },
   {
-    "name": "Svetlana",
+    "name": "SVETLANA",
     "title": "DESIGNER_UI_UX",
     "avatar": "/img/team_svetlana.png"
   },
   {
-    "name": "Alesia",
+    "name": "ALESIA",
     "title": "DESIGNER_UI_UX",
     "avatar": "/img/team_alesia.png"
   }
