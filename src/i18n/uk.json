@@ -1,0 +1,595 @@
+{
+    "COUNTRY_CODE": "ua",
+    "BTN": {
+        "SRC1": "Read source article",
+        "FACT": "See Facts",
+        "SRC2": "Get facts from the source article",
+        "WIKI": "Read full article on WiKi",
+        "MORE": "Learn more"
+    },
+    "MAIN": {
+        "HEAD": "Simplicity of health tracking",
+        "SUBHEAD": "Apps to make daily tasks agile and effortless",
+        "IMG": "Apple Watch wellness and health apps"
+    },
+    "NAV": {
+        "APPS": "Applications",
+        "ABOUT": "About Us"
+    },
+    "ELECTROLYTE": {
+        "HEAD": "Electrolyte",
+        "SUBHEAD": "most vital minerals",
+        "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
+        "BTN": "Get the facts",
+        "IMG": "Record electrolytes and minerals with your Apple Watch",
+        "DWN": "Download Free Electrolyte tracker app from the Apple AppStore",
+        "ABOUT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more. Track electrolyte intake with Apple Watch App.",
+        "HEAD1": "Magnesium",
+        "DESC1": "Regulates heart rhythm, nerve function, muscle contraction, blood pressure and sugar levels, participates in making protein, bone, and DNA. Magnesium deficiency leads to loss of appetite, nausea, vomiting, fatigue, and weakness; while high levels of it might cause Hypermagnesemia. ",
+        "HEAD2": "Calcium",
+        "DESC2": "Helps muscles to move and nerves to carry messages between the brain and every body part. Assists blood vessels to move blood throughout the body. Participates in the release of hormones and enzymes that affect almost every function in the human body. About 99% of the body’s calcium supply is stored in the bones and teeth. ",
+        "HEAD3": "Potassium",
+        "DESC3": "Used for almost everything in the body, including proper kidney and heart function, muscle contraction, and nerve transmission. Potassium deficiency can increase blood pressure and deplete calcium in bones. ",
+        "HEAD4": "Iron",
+        "DESC4": "A vital part of hemoglobin and myoglobin, proteins that carry oxygen to body tissues and muscles.  Red blood cells contain more than half of the human body iron. ",
+        "HEAD5": "Risks",
+        "DESC5": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. "
+    },
+    "MASS": {
+        "HEAD": "Body Mass",
+        "SUBHEAD": "easy weight journal",
+        "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
+        "BTN": "Give up the fat",
+        "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
+        "DWN": "Download Free Body Mass app from the Apple AppStore",
+        "ABOUT": "Body weight journal is the perfect tool to increase efficiency of your exercises and motivation to reach the goal. All data is synced to Apple Health and securely stored to your iCloud. Everything is easy and absolutely free. Zero ADs and no in-app purchases.",
+        "HEAD1": "Accountability",
+        "DESC1": "We have a responsibility to ourselves for our health.  No one can make us lose weight or choose healthy foods.  We must decide this for ourselves.",
+        "HEAD2": "Honesty",
+        "DESC2": "Logging our weight makes it real. While that sounds strange; it’s real. This is data, recorded facts. They are real whether we record them or not. ",
+        "HEAD3": "Commitment",
+        "DESC3": "Logging daily is important, it keeps healthy habits in front of our minds.  Every time we make a log entry, we are reminded of our commitment to health. Skipping a day here and there makes it easier to skip 2 days, then 3 days. Then, before you know it, you’ve stopped and you are back to your old habits.",
+        "HEAD4": "App Features",
+        "DESC4_1": "Apple Health Integration",
+        "DESC4_2": "History of past recordings with percentage difference",
+        "DESC4_3": "All watch sizes, all watch face complication types",
+        "DESC4_4": "iCloud backups",
+        "DESC4_5": "Works without iPhone",
+        "DESC4_6": "Minimalist style",
+        "DESC4_7": "Free, zero ADs and no in-app purchases"
+    },
+    "VITAMIN": {
+        "HEAD": "Vitamin Book",
+        "SUBHEAD": "the ultimate vitamin tracker",
+        "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
+        "BTN": "Vitaminize",
+        "IMG": "Track the most essential vitamins directly on your wrist",
+        "DWN": "Download Free Book Vitamin app from the Apple AppStore",
+        "ABOUT": "Vitamin Book app enables you to track essential vitamins intake directly from your wrist if you use Apple Watch, as well as iPhone and iPad. You can see your progress over time, records are groupped by months and automatically synced with your Apple Health. The app is absolutely free, has no ADs and does not use you data for profit.",
+        "HEAD1": "Improving diet decisions",
+        "DESC1": "This app is an excellent vitamin tracker that might improve your diet and customize nutrient targets at the same time.",
+        "HEAD2": "Adopt Healthier Lifestyle",
+        "DESC2": "Wearable activity trackers offer considerable promise for helping users to adopt healthier lifestyles. ",
+        "HEAD3": "Vitamin A - Beta carotene",
+        "DESC3": "Important for normal vision, the immune system, and reproduction. Helps the heart, lungs, kidneys, and other organs work properly. ",
+        "HEAD4": "Vitamin C - Ascorbic Acid",
+        "DESC4": "Helps to protect cells and keeps them healthy, maintains healthy skin, blood vessels, bones and cartilage. Helps with wound healing. ",
+        "HEAD5": "Vitamin D",
+        "DESC5": "Regulates the amount of calcium and phosphate in the body. These nutrients are needed to keep bones, teeth and muscles healthy. A lack of vitamin D can lead to bone deformities such as rickets in children, and bone pain caused by a condition called osteomalacia in adults. ",
+        "HEAD6": "Vitamin E",
+        "DESC6": "Important to vision, reproduction, and the health of your blood, brain and skin. Has antioxidant properties. The recommended daily amount of vitamin E for adults is 15 milligrams a day. ",
+        "HEAD7": "Vitamin B12 - Cobalamin",
+        "DESC7": "Formation of red blood cells and health of the nerve tissues. Help the body convert food (carbohydrates) into fuel (glucose), which is used to produce energy. ",
+        "HEAD8": "Vitamin B7 - Biotin",
+        "DESC8": "Helps to convert nutrients into energy and plays an important role in the health of hair, skin, and nails. ",
+        "HEAD9": "Vitamin B9 - Folate",
+        "DESC9": "Needed to make red and white blood cells in the bone marrow, convert carbohydrates into energy, and produce DNA and RNA. ",
+        "HEAD0": "Vitamin B3 - Niacin",
+        "DESC0": "Needed to turn food into energy. It helps keep your nervous system, digestive system and skin healthy. "
+    },
+    "WAIST": {
+        "HEAD": "Waistline",
+        "SUBHEAD": "tiny waist - healthy heart",
+        "TEXT": "The easiest way to track waist circumference on Apple Watch. All records get synced to your Apple Health.",
+        "BTN": "Flat your belly",
+        "IMG": "Keep track of your waist size (belly button) directly from your arm",
+        "DWN": "Download Free body waist app from the Apple AppStore",
+        "ABOUT": "Easy to use waist circumference tracker for Apple Watch. Does not require account nor registration. Absolutely Free. All records get synced to your Apple Health app and the past 7 days can be accessed directly from your wrist.",
+        "HEAD1": "Medical Fact",
+        "DESC1": "If more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",
+        "LINK1": "Healthline",
+        "HEAD2": "Better than BMI",
+        "LINK2": "Study by American Heart Association",
+        "DESC2": " has shown that measuring waistline might be a better way to predict heart disease risk than a widely used body mass index.",
+        "HEAD3": "Body composition",
+        "DESC3": "When you're gaining muscle and losing inches of fat your weight might not change much. That's why body composition can tell you more than the scale, it tells you the true story.",
+        "HEAD4": "Elevated Cardiovascular Risk",
+        "DESC4_1": "Men: 40 inches or more (102cm)",
+        "DESC4_2": "Women: 35 inches or more (88cm)",
+        "DESC4_3": "Every 2 inch(5cm) of waist size raise the risk by 17% in men and 13% in women, regardless of BMI",
+        "DESC4_4": "Source: "
+    },
+    "ZINC": {
+        "HEAD": "Zinc",
+        "SUBHEAD": "AmaZinc tracker for your watch",
+        "TEXT": "Zinc may enhance immune function, stabilize blood sugar levels, and help keep your skin, eyes, and heart healthy.",
+        "BTN": "Discover wellness",
+        "IMG": "Track your everyday consumption of zinc supplement",
+        "DWN": "Get free of charge BodyZinc application from Apple Store",
+        "ABOUT": "Easy to use dietary zinc tracker for Apple Watch. Auto sync with Apple Health, does not require registration and absolutely free.",
+        "HEAD1": "Age-Related Diseases",
+        "DESC1": "Zinc may significantly reduce your risk of age-related diseases, such as pneumonia, infection and age-related macular degeneration (AMD). It may relieve oxidative stress and improve immune response by boosting the activity of T-cells and natural killer cells, which help protect your body from infection. Older adults who supplement with zinc experience improved influenza vaccination response, reduced risk of pneumonia and boosted mental performance.",
+        "LINK1": "National Institutes of Health, USA",
+        "HEAD2": "Wound Healing Acceleration",
+        "DESC2": "Zinc is commonly used in hospitals as a treatment for burns, certain ulcers and other skin injuries. In fact, your skin holds a relatively high amount — about 5% — of your body’s zinc content.",
+        "LINK2": "Study by American Heart Association",
+        "HEAD3": "Decreases Inflammation",
+        "DESC3": "Decreases oxidative stress and reduces levels of certain inflammatory proteins in your body. Oxidative stress leads to chronic inflammation, a contributing factor in a wide array of chronic illnesses, such as heart disease, cancer and mental decline.",
+        "HEAD4": "Elevated Cardiovascular Risk"
+    },
+    "SIZE": {
+        "HEAD": "Body Size",
+        "SUBHEAD": "Beautiful body. Built by you!",
+        "TEXT": "Track your hips, waist and chest with this app directly from your Apple Watch. Full support of Apple Health. Fast load time. Absolutely free.",
+        "BTN": "Perfect Shape",
+        "IMG": "Measure chest size, bust width, waist circumference and hips length using watch on your wrist",
+        "DWN": "Get for free BodySize app for Apple Watch directly from the Apple App Store",
+        "ABOUT": "Track your hips, waist and chest on your Apple Watch. Auto calculates body shape using Bradley Bayou formula. Full support of Apple Health. iCloud backups. Fast load time. Absolutely free.",
+        "HEAD1": "Body Composition",
+        "DESC1": "When you're gaining muscle and losing inches of fat your weight might not change much. That's why body composition can tell you more than the scale, it tells you the true story.",
+        "LINK1": "Healthline",
+        "HEAD2": "Chest / Bust",
+        "DESC2": "Why measure? We are not aware of any medical or wellness need for that. However, the chest (bust) width is one of the most important measurements of perfect body proportions. Correct proportions are believed to be more attractive than the overall size or height of the body.",
+        "HEAD3": "Waist",
+        "HEAD4": "Hips",
+        "DESC4": "Evidence shows that fat around the thighs and backside is harder to shift than fat around the waist. The waist-to-hips ratio is commonly used as an indicator or measure of health, and the risk of developing serious health conditions.",
+        "HEAD5": "Body Shape",
+        "DESC5": "Are you a pear 🍐? An apple 🍎 ? Or maybe a hourglass? Finding out your true body shape is more than one of those pointless online tests. Understanding your body shape might help you discover the most effective workout. Several studies suggest that it can help improve your health."
+    },
+    "EMOTION": {
+        "HEAD": "Emotion",
+        "SUBHEAD": "quickest psychology test",
+        "TEXT": "Unexpected mood swings? Intense emotional changes? Figure out the root cause in just 1 minute.",
+        "BTN": "Know Yourself",
+        "IMG": "The worlds quickest personality test. Select 8 colors and know you current mind state.",
+        "DWN": "Get for free app for Apple Watch, iPhone or iPad directly from the Apple App Store",
+        "ABOUT_1": "Stress 😠, anxiety 😬, depression☹️ or sudden mood changes? Current economic, political and social events contribute a lot to our stress levels and many people experience mood changes even during the same day.",
+        "ABOUT_2": "In general uncertainty about our position and what to expect next, the inability to predict what to expect in the future affects our mood in a negative way. That uncertainty appears to be a new norm in our life.",
+        "HEAD1": "How does it work?",
+        "DESC1_1": "Look at the colored ring and select a color you like the best. There are 7 colors left. From the 7 colors, select the one you like the best now, and so on until you run out of colors. Next, you repeat the above routine. When you repeat it, do not try to reproduce the previous selection. Forget about it and only select colors based on your preference at this specific moment. Let your sub mind do the job.",
+        "DESC1_2": "The key to this test success is to select colors you like right at this moment. Do NOT try to associate colors with objects, — cars, clothes, buildings, etc. Just select the color you like the best at this particular moment. On average, it takes less than one minute to get to the results.",
+        "HEAD2": "Why does it work?",
+        "DESC2_1": "Colors surrounded mankind since the beginning of time, influenced humans for generations. In the beginning, human life was ruled by two uncontrollable factors: night and day. Light and darkness. For thousands of years man's actions, such as attack (red) or retreat (green) were embedded into submind. The colors of nature have had their influence on us, and these influences are deep-rooted in our subminds. Colors and their subconscious meaning are there, whether we like it or not. That meaning is independent of race, language, education level, social status, etc.",
+        "DESC2_2": "Because of this, a color test is an optimal tool to analyze family conflicts, personal life issues, casual mood changes, and even for conducting forensic psychological examinations.",
+        "HEAD3": "Use cases",
+        "DESC3_1": "Some organizations use color tests to control the dynamics of the volitional and emotional spheres of athletes both during training and during competition. This enables the trainer to anticipate in advance and purposefully eliminate breakdowns due to the depletion of the energy or volitional capabilities of the athletes.",
+        "DESC3_2": "Several sources suggest some color tests work even in cases of defective color-vision or even actual color blindness since the acceptability of a particu­lar color is somatically. In a need of release from tension or stress, then the instinctive response will be to choose the darker colors. If there is a need to dissipate energy then the instinctive response will be for the brighter colors.",
+        "HEAD4": "Safe and Secure",
+        "DESC4": "Privacy is not something that you are merely entitled to, it’s an absolute prerequisite. We do not send your data to our servers, we do not share with any 3rd party, and will never be used for advertisement purposes. Your data is only stored on your Apple service (Apple Health store and iCloud). We do NOT store your data on our servers.",
+        "HEAD5": "DISCLAIMER",
+        "DESC5_1": "All content found on the martpsec.com website and our mobile apps have been created for informational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment.",
+        "DESC5_2": "Use our software is solely at your own risk. It is provided on an “as is” and “as available” basis. Martspec makes no warranty that our apps and/or any content therein will meet your requirements, or will be uninterrupted, timely, secure, current, accurate, complete, or error-free or that the results that may be obtained by use of the site and/or any content therein will be accurate or reliable. You understand and acknowledge that your sole and exclusive remedy with respect to any defect in or dissatisfaction with the app is to cease using the app."
+    },
+    "FOOTER": {
+        "C": "© 2022 Martspec LLC. All rights reserved."
+    },
+    "ERROR": {
+        "404_HEAD": "Page Not Found",
+        "404_TEXT": "This page does not exist. Please make sure you used the correct URL.",
+        "404_BTN": "Home"
+    },
+    "MISSION": {
+        "HEAD": "Mission",
+        "M": "We make it quick and easy for everyone to track their health and wellness.",
+        "P1": "Our mission pushes us to do everything possible to expand human potential. We do that by following basic 3 concepts:",
+        "P1_1": "Create groundbreaking technology innovations",
+        "P1_2": "Make our apps more inspiring and beautiful",
+        "P1_3": "Listen to our communities' feedback",
+        "P2": "To achieve our ambition, we are starting with science. Published scientific research and analytics play an important part in the development of enhancements. With our active community, we are looking at ways to track, measure, and employ wellness more efficiently. Feedback is an important tool for unlocking future innovations, including creation of new apps, improvements to existing ones, and even sunsetting apps that do not benefit the people."
+    },
+    "ABOUT": {
+        "HEAD": "About us",
+        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That caused significant changes to our bodies and health.",
+        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. It keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
+        "P3": "People who track their wellness daily make better progress than those who do not.",
+        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make bodyweight tracking easy and measurements writing into Apple Health got automatic. That clean and minimalistic app got popular.",
+        "P5": "We have built a few more great apps only for Apple Watch devices. In 2021 we began building cross-platform apps that work on all kinds of Apple devices, from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, Emotion, to address mental wellness. That is the quickest personality test ever.",
+        "P6": "We build our apps using cutting-edge technology and offer them in many languages all over the world, but none of that matters. It isn't just about the number of apps and industry-leading software. Martspec is about people. Martspec is about trust in technology that empowers individuals with personal health and wellness.",
+        "P7": "That is why all our apps are available free of charge. We do not have any monetization, do not show ADs, and never use personal data for profit."
+    },
+    "TEAM": {
+        "HEAD": "Our Team",
+        "SUBHEAD": "People behind company are as important as the company itself. Meet our highly talented software engineers & designers who make the best wellness apps.",
+        "ENGINEER_MOBILE": "Software Engineer",
+        "ENGINEER_WEB": "Software Engineer",
+        "DESIGNER_UI_UX": "Designer",
+        "ALEX": "Alex",
+        "NICHITA": "Nichita",
+        "ALEVTYNA": "Alevtyna",
+        "DMYTRO": "Dmytro",
+        "SVETLANA": "Svetlana",
+        "ALESIA": "Alesia"
+    },
+    "PP": {
+        "HEAD": "Privacy Policy",
+        "DATE": "Last updated: August 20, 2023",
+        "P1": "Protecting your private information is our priority. This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use any of our mobile apps, visit our website at martspec.com or engage with us in other related ways - including sales, marketing or events.",
+        "P2": "The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.",
+        "P3": "We use Your Personal data to provide and improve the Service. By using the Service or any our mobile apps, You agree to the collection and use of information in accordance with this Privacy Policy.",
+        "DEFINITION": {
+            "HEAD": "Interpretation and Definitions",
+            "P1": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.",
+            "P2": "For the purposes of this Privacy Policy:",
+            "UL": {
+                "ACCOUNT": {
+                    "STRONG": "Account",
+                    "P1": " means a unique account created for You to access our Service or parts of our Service."
+                },
+                "APP": {
+                    "STRONG": "App",
+                    "P1": " refers to any mobile application of ours that references or links to this policy and designed for smarge phone, wearable device, tablet or computer."
+                },
+                "BUSINESS": {
+                    "STRONG": "Business",
+                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), refers to the Company as the legal entity that collects Consumers' personal information and determines the purposes and means of the processing of Consumers' personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California."
+                },
+                "COMPANY": {
+                    "STRONG": "Company",
+                    "P1": " (referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement) refers to Martspec LLC, Austin, TX 78749."
+                },
+                "CONSUMER": {
+                    "STRONG": "Consumer",
+                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), means a natural person who is a California resident. A resident, as defined in the law, includes (1) every individual who is in the USA for other than a temporary or transitory purpose, and (2) every individual who is domiciled in the USA who is outside the USA for a temporary or transitory purpose."
+                },
+                "COOKIES": {
+                    "STRONG": "Cookies",
+                    "P1": " are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses."
+                },
+                "COUNTRY": {
+                    "STRONG": "Country",
+                    "P1": " refers to: Texas, United States"
+                },
+                "DEVICE": {
+                    "STRONG": "Device",
+                    "P1": " means any device that can access the Service such as a computer, a cellphone or a digital tablet."
+                },
+                "PERSONAL_DATA": {
+                    "STRONG": "Personal Data",
+                    "P1": " is any information that relates to an identified or identifiable individual.",
+                    "P2": "For the purposes of the CCPA, Personal Data means any information that identifies, relates to, describes or is capable of being associated with, or could reasonably be linked, directly or indirectly, with You."
+                },
+                "SALE": {
+                    "STRONG": "Sale",
+                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), means selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a Consumer's Personal information to another business or a third party for monetary or other valuable consideration."
+                },
+                "SERVICE": {
+                    "STRONG": "Service",
+                    "P1": " refers to our Website, App, and other related services, including any sales, marketing, or events."
+                },
+                "SERVICE_PROVIDER": {
+                    "STRONG": "Service Provider",
+                    "P1": " means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used."
+                },
+                "THIRD_PARTY_MEDIA": {
+                    "STRONG": "Third-party Social Media Service",
+                    "P1": " refers to any website or any social network website through which a User can log in or create an account to use the Service."
+                },
+                "USAGE_DATA": {
+                    "STRONG": "Usage Data",
+                    "P1": " refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit)."
+                },
+                "WEBSITE": {
+                    "STRONG": "Website",
+                    "P1": " refers to Martspec, accessible from ",
+                    "A": "https://martspec.com/"
+                },
+                "YOU": {
+                    "STRONG": "You",
+                    "P1": " means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."
+                }
+            }
+        },
+        "TYPES_OF_DATA": {
+            "HEAD4": "Types of Data Collected",
+            "HEAD5": {
+                "PERSONAL_DATA": "Personal Data",
+                "USAGE_DATA": "Usage Data",
+                "INFORMATION_COLLECTED": "Information Collected on Device with our App"
+            },
+            "P1": "While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:",
+            "P2": "Usage Data is collected automatically when using the Service.",
+            "P3": "Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.",
+            "P4": "When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.",
+            "P5": "We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.",
+            "P6": "We may request access or permission to certain features from your device, including your mobile device's and other features. If you wish to change our access or permissions, you may do so in your device's settings. This information is primarily needed to maintain the security and operation of our App, for troubleshooting and for our internal analytics and reporting purposes.",
+            "UL1": {
+                "EMAIL": "Email address",
+                "FIRST_LAST_NAMES": "First name and last name",
+                "USAGE_DATA": "Usage Data"
+            },
+            "UL2": {
+                "MOBILE_ACCESS": {
+                    "STRONG": "Mobile Device Access. ",
+                    "TEXT": " We may request access or permission to certain features from your mobile device, including your mobile device's apple health, and other features. If you wish to change our access or permissions, you may do so in your device's settings."
+                },
+                "MOBILE_DATA": {
+                    "STRONG": "Mobile Device Data.",
+                    "TEXT": " We automatically collect device information (such as your mobile device ID, model and manufacturer), operating system, version information and system configuration information, device and application identification numbers, browser type and version, hardware model, and Internet Protocol (IP) address (or proxy server). If you are using our App, we may also collect information about the phone network associated with your mobile device, your mobile device’s operating system or platform, the type of mobile device you use, your mobile device’s unique device ID and information about the features of our App you accessed."
+                },
+                "PUSH_NOTIFICATIONS": {
+                    "STRONG": "Push Notifications.",
+                    "TEXT": " We may request to send you push notifications regarding your account or certain features of the App. If you wish to opt-out from receiving these types of communications, you may turn them off in your device's settings."
+                }
+            }
+        },
+        "TRACKING": {
+            "HEAD4": "Tracking Technologies",
+            "HEAD5": "Control for DO-NOT-TRACK features",
+            "P1": {
+                "TEXT": "We use Cookies or similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies might include\nbut not limited to beacons, browser session storage, Cookies, tags, and scripts to collect and track information and to improve and analyze Our Service.\nYou can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent.\nLearn more about cookies: ",
+                "A": "All About Cookies"
+            },
+            "P2": "We use \"Persistent\" (remain on your personal computer or mobile device when You go offline) and \"Session\" (deleted as soon as You close your web browser)\ntracking technology for the purposes set out below:",
+            "P3": "Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (\"DNT\") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.",
+            "UL": {
+                "NECESSARY": {
+                    "P1": "Necessary / Essential",
+                    "P2": "Type: Session",
+                    "P3": "Administered by: Us",
+                    "P4": "Purpose: To provide You with services available through the Website and to enable You to use some of its features. It helps to authenticate users\nand prevent fraudulent use of user accounts. Without it the services that You have asked for cannot be provided, and We only use these to provide You with those services."
+                },
+                "FUNCTIONALITY": {
+                    "P1": "Functionality",
+                    "P2": "Type: Persistent",
+                    "P3": "Administered by: Us",
+                    "P4": "Purpose: Allows us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website."
+                }
+            }
+        },
+        "PERSONAL_DATA": {
+            "USE": {
+                "HEAD4": "Use of Your Personal Data",
+                "HEAD5": {
+                    "DISCLOSE": "Disclose of your personal information may happen in the following situations:",
+                    "USE": "Use of your Personal Data might be for the following purposes:",
+                    "SHARING": "Sharing of your personal information might be in the following situations:"
+                },
+                "UL1": {
+                    "LAW_ENFORCEMENT": {
+                        "STRONG": "Law Enforcement:",
+                        "TEXT": " We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements)."
+                    },
+                    "BUSINESS_TRANSFER": {
+                        "STRONG": "For Business Transfers:",
+                        "TEXT": " We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company."
+                    },
+                    "OTHER": {
+                        "STRONG": "Other legal requirements:",
+                        "TEXT": " The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:",
+                        "UL": {
+                            "L1": "Comply with a legal obligation",
+                            "L2": "Protect and defend the rights or property of the Company",
+                            "L3": "Prevent or investigate possible wrongdoing in connection with the Service",
+                            "L4": "Protect the personal safety of Users of the Service or the public",
+                            "L5": "Protect against legal liability"
+                        }
+                    }
+                },
+                "UL2": {
+                    "L1": {
+                        "STRONG": "To provide and maintain our Service",
+                        "TEXT": ", including to monitor the usage of our Service."
+                    },
+                    "L2": {
+                        "STRONG": "To manage Your Account:",
+                        "TEXT": " to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user."
+                    },
+                    "L3": {
+                        "STRONG": "For the performance of a contract:",
+                        "TEXT": " Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract."
+                    },
+                    "L4": {
+                        "STRONG": "To contact You:",
+                        "TEXT": " To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation."
+                    },
+                    "L5": {
+                        "STRONG": "To provide You",
+                        "TEXT": " with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information."
+                    },
+                    "L6": {
+                        "STRONG": "For Legitimate Interests:",
+                        "TEXT": " We may process your data when it is reasonably necessary to achieve our legitimate business interests."
+                    },
+                    "L7": {
+                        "STRONG": "To manage Your requests:",
+                        "TEXT": " To attend and manage Your requests to Us."
+                    },
+                    "L8": {
+                        "STRONG": "Request feedback.",
+                        "TEXT": " We may use your information to request feedback and to contact you about your use of our Services."
+                    }
+                },
+                "UL3": {
+                    "L1": {
+                        "STRONG": "With Service Providers:",
+                        "TEXT": " We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You."
+                    },
+                    "L2": {
+                        "STRONG": "For Business transfers:",
+                        "TEXT": " We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of our business to another company."
+                    },
+                    "L3": {
+                        "STRONG": "With Affiliates:",
+                        "TEXT": " We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us."
+                    },
+                    "L4": {
+                        "STRONG": "With Business partners:",
+                        "TEXT": " We may share Your information with Our business partners to offer You certain products, services or promotions."
+                    },
+                    "L5": {
+                        "STRONG": "With other users:",
+                        "TEXT": " when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. If You interact with other users or register through a Third-Party Social Media Service, Your contacts on the Third-Party Social Media Service may see Your name, profile, pictures and description of Your activity. Similarly, other users will be able to view descriptions of Your activity, communicate with You and view Your profile."
+                    }
+                }
+            },
+            "RETENTION": {
+                "HEAD4": "Retention of Your Personal Data",
+                "P1": "The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy\nPolicy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example,\nif we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements\nand policies.",
+                "P2": "The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time,\nexcept when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated\nto retain this data for longer time periods.",
+                "P3": "When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such\ninformation, or, if this is not possible (for example, because your personal information has been stored in backup archives), then\nwe will securely store your personal information and isolate it from any further processing until deletion is possible."
+            },
+            "TRANSFER": {
+                "HEAD4": "Transfer of Your Personal Data",
+                "P1": "Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.",
+                "P2": "By using our Service you consent to this Privacy Policy and Your agreement to that transfer.",
+                "P3": "The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information."
+            },
+            "SECURITY": {
+                "HEAD4": "Security of Your Personal Data",
+                "P": "The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security."
+            }
+        },
+        "CHILD": {
+            "HEAD4": "Children Under Thirteen",
+            "P": "We do not knowingly collect personally identifiable information from children under the age of thirteen. If you are under the age of thirteen, you must\nask your parent or guardian for permission to use this Service or any of our mobile applications."
+        },
+        "RIGHTS": {
+            "HEAD4": "What are your Privacy Rights ?",
+            "HEAD5": "Account Information",
+            "P1": "In some regions (like the EEA and UK), you have certain rights under applicable data protection laws. These may include the right (i) to\nrequest access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing\nof your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object\nto the processing of your personal information. To make such a request, please use the <b>contact details</b> provided below. We will\nconsider and act upon any request in accordance with applicable data protection laws.",
+            "P2": "If we are relying on your consent to process your personal information, you have the right to withdraw your consent at any time. Please\nnote however that this will not affect the lawfulness of the processing before its withdrawal, nor will it affect the processing of your\npersonal information conducted in reliance on lawful processing grounds other than consent.",
+            "P3": {
+                "TEXT": "If you are a resident in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right\nto complain to your local data protection supervisory authority. You can find their contact details here: ",
+                "A": "https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm"
+            },
+            "P4": {
+                "TEXT": "If you are a resident in Switzerland, the contact details for the data protection authorities are available here: ",
+                "A": "https://www.edoeb.admin.ch/edoeb/en/home.html"
+            },
+            "P5": "If you would at any time like to review or change the information in your account or terminate your account, you can:\nLog in to your account settings and update your user account.\nUpon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our Terms of Use and/or comply with applicable legal requirements."
+        },
+        "CCPA": {
+            "HEAD4": {
+                "CCPA": "CCPA Privacy",
+                "CALIFORNIA": "Your California Privacy Rights (California's Shine the Light law)",
+                "MINOR": "California Privacy Rights for Minor Users (California Business and Professions Code Section 22581)",
+                "EXERCISING": "Exercising Your CCPA Data Protection Rights",
+                "YOUR_RIGHTS": "Your Rights under the CCPA",
+                "PERSONAL_INFORMATION": "Personal Information Collecting and Sharing under CCPA"
+            },
+            "HEAD5": {
+                "SHARED": "Will your information be shared with anyone else?",
+                "YOUR_RIGHTS": "Your rights with respect to your personal data",
+                "OTHER": "Other privacy rights"
+            },
+            "P1": "Under California Civil Code Section 1798 (California's Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties' direct marketing purposes.",
+            "P2": "If you'd like to request more information under the California Shine the Light law, and if you are a California resident, You can contact Us using the contact information provided below.",
+            "P3": "If you are under 18 years of age, reside in California, and have a registered account with a Service, you have the right to request removal of unwanted data that you publicly post on the Services. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g. backups, etc.).",
+            "P4": "California Business and Professions Code section 22581 allow California residents under the age of 18 who are registered users of online sites, services or applications to request and obtain removal of content or information they have publicly posted.",
+            "P5": "To request removal of such data, and if you are a California resident, You can contact Us using the contact information provided below, and include the email address associated with Your account.",
+            "P6": "Be aware that Your request does not guarantee complete or comprehensive removal of content or information posted online and that the law may not permit or require removal in certain circumstances.",
+            "P7": {
+                "TEXT1": "In order to exercise any of Your rights under the CCPA, and if you are a California resident. The California Code of Regulations defines a \"resident\" as:",
+                "TEXT2": "All other individuals are defined as \"non-residents\".\nIf this definition of \"resident\" applies to you, we must adhere to certain rights and obligations regarding your personal information.",
+                "UL": {
+                    "L1": "every individual who is in the State of California for other than a temporary or transitory purpose and",
+                    "L2": " every individual who is domiciled in the State of California who is outside the State of California for a temporary or transitory purpose"
+                }
+            },
+            "P8": "The Company will disclose and deliver the required information free of charge within 45 days of receiving Your verifiable request. The time period to provide the required information may be extended once by an additional 45 days when reasonable necessary and with prior notice.",
+            "P9": "Under this Privacy Policy, and by law if You are a resident of California, You have the following rights:",
+            "P10": "We do not sell personal information. More information about our data collection and sharing practices can be found in this privacy notice.\nYou may contact us by referring to the contact details at the bottom of this document.",
+            "P11": "If you are using an authorized agent to exercise your right to opt-out we may deny a request if the authorized agent\ndoes not submit proof that they have been validly authorized to act on your behalf.",
+            "P12": "We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Each service provider is a for-profit entity that processes the information on our behalf.",
+            "P13": "We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be \"selling\" of your personal data.",
+            "P14": "Martspec LLC has not disclosed or sold any personal information to third parties for a business or commercial purpose in the preceding 12 months. Martspec LLC will not sell personal information in the future belonging to website visitors, users and other consumers.",
+            "P15": "To exercise these rights, you can contact us by by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.  ",
+            "UL1": {
+                "L1": {
+                    "STRONG": "The right to notice.",
+                    "TEXT": " You must be properly notified which categories of Personal Data are being collected and the purposes for which the Personal Data is being used."
+                },
+                "L2": {
+                    "STRONG": "The right to access / the right to request.",
+                    "TEXT": " The CCPA permits You to request and obtain from the Company information regarding the disclosure of Your Personal Data that has been collected in the past 12 months by the Company or its subsidiaries to a third-party for the third party's direct marketing purposes."
+                },
+                "L3": {
+                    "STRONG": "The right to say no to the sale of Personal Data.",
+                    "TEXT": " You also have the right to ask the Company not to sell Your Personal Data to third parties. You can submit such a request by visiting our \"Do Not Sell My Personal Information\" section or web page."
+                },
+                "L4": {
+                    "STRONG": "The right to know about Your Personal Data.",
+                    "TEXT": " You have the right to request and obtain from the Company information regarding the disclosure of the following:",
+                    "UL": {
+                        "L1": "The categories of Personal Data collected",
+                        "L2": "The sources from which the Personal Data was collected",
+                        "L3": "The business or commercial purpose for collecting or selling the Personal Data",
+                        "L4": "Categories of third parties with whom We share Personal Data",
+                        "L5": "The specific pieces of Personal Data we collected about You"
+                    }
+                },
+                "L5": {
+                    "STRONG": "The right to delete Personal Data.",
+                    "TEXT": " You also have the right to request the deletion of Your Personal Data that have been collected in the past 12 months."
+                },
+                "L6": {
+                    "STRONG": "The right not to be discriminated against.",
+                    "TEXT": " You have the right not to be discriminated against for exercising any of Your Consumer's rights, including by:",
+                    "UL": {
+                        "L1": "Denying goods or services to You",
+                        "L2": "Charging different prices or rates for goods or services, including the use of discounts or other benefits or imposing penalties",
+                        "L3": "Providing a different level or quality of goods or services to You",
+                        "L4": "Suggesting that You will receive a different price or rate for goods or services or a different level or quality of goods or services."
+                    }
+                }
+            },
+            "UL2": {
+                "L1": "Right to request deletion of the data - Request to delete",
+                "L2": "Right to be informed - Request to know",
+                "L3": "Right to Non-Discrimination for the Exercise of a Consumer’s Privacy Rights",
+                "L4": "Verification process"
+            },
+            "UL3": {
+                "L1": "you may object to the processing of your personal data",
+                "L2": "you may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the data",
+                "L3": "you can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.",
+                "L4": "you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission."
+            }
+        },
+        "LINK": {
+            "HEAD4": "Links to Other Websites",
+            "P1": "Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.",
+            "P2": "We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services."
+        },
+        "CHANGES": {
+            "HEAD4": "Changes to this Privacy Policy",
+            "P1": "We may update our Privacy Policy from time to time. The updated version will be indicated by an updated \"Last updated\" date and the updated version will be effective as soon as it is accessible. ",
+            "P2": "You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
+        },
+        "CONTACT": {
+            "HEAD4": "Contact Us",
+            "TEXT": "If you have any questions about this Privacy Policy, You can contact us:",
+            "UL": {
+                "L1": {
+                    "TEXT": "By visiting this page on our website: ",
+                    "A": "https://martspec.com/privacy-policy"
+                },
+                "L2": {
+                    "TEXT": "Via our FaceBook messager at ",
+                    "A": "Martspec @ FaceBook",
+                    "LINK": "https://www.facebook.com/martspec"
+                },
+                "L3": {
+                    "TEXT": "Via our Twitter messager at ",
+                    "A": "Martspec @ Twitter",
+                    "LINK": "https://twitter.com/MartspecCom"
+                },
+                "L4": {
+                    "TEXT": "Via our LinkedIn group at ",
+                    "A": "Martspec @ LinkedIn",
+                    "LINK": "https://www.linkedin.com/company/martspec/"
+                }
+            }
+        }
+    }
+}
