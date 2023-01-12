@@ -18,7 +18,8 @@ export const Footer = () =>
     <footer>
         <div className="container">
 
-                <div className="row ms-s-offset">
+                {/* fix the ms-s-offset class for the < 992 px */}
+                <div className="row ms-footer-offset">
 
                     <div className="col-md-9">
                         <div className="d-flex justify-content-evenly my-5">

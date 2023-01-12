@@ -51,6 +51,14 @@
     background-size: cover;
     display: inline-block;
 
+    width: 150px;
+    height: 50px;
+
+    @media only screen and (max-width: ($ms-screen-sm - 1)){
+        width: 120px;
+        height: 40px;
+    }
+
     &:hover,
     &:focus {
         filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(23deg) brightness(108%) contrast(101%);

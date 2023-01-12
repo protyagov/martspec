@@ -72,3 +72,24 @@ footer {
     }
 
 }
+
+// ----------- margin for footer container -----------
+.ms-footer-offset {
+    @extend .justify-content-around;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2.5rem;
+
+    @media only screen and (max-width: ($ms-screen-lg - 1)){
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    @media only screen and (max-width: ($ms-screen-sm - 1)) {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 0.5rem;
+      margin-bottom: 2rem;
+    }
+  }
