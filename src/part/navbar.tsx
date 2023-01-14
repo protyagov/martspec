@@ -85,13 +85,13 @@ export default function NavigationBar() {
                             {_("NAV.APPS")}
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a className="nav-link dropdown-item" href="#">{_("VITAMIN.HEAD")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("SIZE.HEAD")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("MASS.HEAD")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("WAIST.HEAD")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("ZINC.HEAD")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("EMOTION.HEAD")}</a></li>
-                            <li><a className="nav-link dropdown-item" href="#">{_("ELECTROLYTE.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("logvitamin")}>{_("VITAMIN.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("bodysize")}>{_("SIZE.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("bodymass")}>{_("MASS.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("waistline")}>{_("WAIST.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("bodyzinc")}>{_("ZINC.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("emotion")}>{_("EMOTION.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("electrolyte")}>{_("ELECTROLYTE.HEAD")}</a></li>
                         </ul>
                     </li>
                 </ul>
