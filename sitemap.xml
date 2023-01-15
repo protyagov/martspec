@@ -503,4 +503,50 @@
       <changefreq>monthly</changefreq>
    </url> 
 
+<!-- Ukrainian UK  -->
+   <url>
+      <loc>https://martspec.com/uk</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/bodymass</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/logvitamin</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/uk/waistline</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/uk/electrolyte</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+       <url>
+      <loc>https://martspec.com/uk/bodysize</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+       <url>
+      <loc>https://martspec.com/uk/bodyzinc</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/emotion</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/mission</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url> 
+
 </urlset> 
