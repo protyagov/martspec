@@ -4,7 +4,7 @@ import eb from "src/event-bus";
 export class Locale {
     private static _polyglot = new Polyglot({ allowMissing: true });
     private static _translations: { [id: string]: number } = {};
-    private static SUPPORTED_LANG = ['ar', 'en', 'ru', 'de', 'hi', 'es', 'fr', 'zh', 'ja', 'pt']
+    private static SUPPORTED_LANG = ['ar', 'en', 'ru', 'de', 'hi', 'es', 'fr', 'zh', 'ja', 'pt', 'uk']
 
     //-------------------------------------------------------------------------------------------------------
     public static init() {
@@ -45,6 +45,8 @@ export class Locale {
                 return "日本語"
             case 'ar':
                 return "عربي"
+            case 'uk':
+                return "Українська"
         }
         return "English"
     }

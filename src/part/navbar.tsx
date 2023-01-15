@@ -39,6 +39,9 @@ function NavigationBarLanguageDropdown() {
                 <li hidden={Locale.language == 'ar'}>
                     <a className="nav-link dropdown-item" href="/ar">عربي</a>
                 </li>
+                <li hidden={Locale.language == 'uk'}>
+                    <a className="nav-link dropdown-item" href="/uk">Українська</a>
+                </li>
             </ul>
         </li>
     </ul>

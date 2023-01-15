@@ -72,7 +72,7 @@ module.exports = {
             },
         })
         // , new BundleAnalyzerPlugin()
-    ].concat(...[...['ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'pt', 'ru', 'zh'].map(x => [
+    ].concat(...[...['ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'pt', 'ru', 'zh', 'uk'].map(x => [
         new HtmlWebpackPlugin({ template: `./src/template/${x}/main.ejs`, filename: x + '/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodymass.ejs`, filename: x + '/bodymass/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/electrolyte.ejs`, filename: x + '/electrolyte/index.html', inject: 'body' }),
