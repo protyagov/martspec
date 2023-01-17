@@ -90,7 +90,7 @@
 
   h1 {
     font-family: os6;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   h2 {
@@ -102,5 +102,10 @@
   p {
     font-size: 1.1rem;
     color: $ms-color-text-orange;
+    margin-bottom: 0;
+  }
+
+  img {
+    margin-bottom: 0;
   }
 }
