@@ -98,22 +98,21 @@ export default function LandingPage() {
             <section className="ms-s-product">
                 <div className="row ms-s-offset align-items-center">
 
-                    <div className="col-md-4 order-sm-1">
-                        <h1 className="d-block d-md-none">
-                            <img src="/img/logo_mass.svg" className="img-fluid mb-2 me-3" width={48} />
-                            {_("MASS.HEAD")}
-                        </h1>
-                        <ImageI18N src="/img/mass.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("MASS.IMG")} />                        
-                    </div>
-
-                    <div className="col-md-6 align-self-center order-last order-md-1">
-                        <h1 className="d-none d-md-block">
-                            <img src="/img/logo_mass.svg" className="img-fluid mb-2 me-3" width={48} />
-                            {_("MASS.HEAD")}
-                        </h1>
-                        <p className="mt-2">{_("MASS.SUBHEAD")}</p>
-                        <h2>{_("MASS.TEXT")}</h2>
-                        <a href={Locale.i18nLink("bodymass")} className="mt-3 ms-btn-large pull-right">{_("MASS.BTN")}</a>
+                    <div className="col p-container">
+                        <div className="d-flex p-head">
+                            <img src="/img/logo_mass.svg" className="img-fluid me-3" width={48} />
+                            <div>
+                                <h1>{_("MASS.HEAD")}</h1>
+                                <p>{_("MASS.SUBHEAD")}</p>
+                            </div>
+                        </div>
+                        <div className="p-img">
+                            <ImageI18N src="/img/mass.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("MASS.IMG")} />
+                        </div>
+                        <div className="mt-3 p-text">
+                            <h2>{_("MASS.TEXT")}</h2>
+                            <a href={Locale.i18nLink("bodymass")} className="mt-3 ms-btn-large">{_("MASS.BTN")}</a>
+                        </div>
                     </div>
 
                 </div>
