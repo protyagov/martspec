@@ -141,4 +141,15 @@
         / 100% 100% 100%;
     }
   }
+
+  &:nth-child(even) {
+    .p-container {
+      grid-template:
+        "img ."
+        "img head"
+        "img text"
+        "img ."
+        / 32% 50%;
+    }
+  }
 }
