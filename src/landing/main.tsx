@@ -172,22 +172,21 @@ export default function LandingPage() {
             <section className="ms-s-product">
                 <div className="row ms-s-offset">
 
-                    <div className="col-md-6 align-self-center order-last order-md-1">
-                        <h1 className="d-none d-md-block">
-                            <img src="/img/logo_emotion.svg" className="img-fluid mb-2 me-3" width={48} />
-                            {_("EMOTION.HEAD")}
-                        </h1>
-                        <p className="mt-2">{_("EMOTION.SUBHEAD")}</p>
-                        <h2>{_("EMOTION.TEXT")}</h2>
-                        <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large">{_("EMOTION.BTN")}</a>
-                    </div>
-
-                    <div className="col-md-4 order-sm-1">
-                        <h1 className="d-block d-md-none">
-                            <img src="/img/logo_emotion.svg" className="img-fluid mb-2 me-3" width={48} />
-                            {_("EMOTION.HEAD")}
-                        </h1>
-                        <ImageI18N src="/img/p_emotion.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("EMOTION.IMG")} />
+                    <div className="col p-container">
+                        <div className="d-flex p-head">
+                            <img src="/img/logo_emotion.svg" className="img-fluid me-3" width={48} />
+                            <div>
+                                <h1>{_("EMOTION.HEAD")}</h1>
+                                <p>{_("EMOTION.SUBHEAD")}</p>
+                            </div>
+                        </div>
+                        <div className="p-img">
+                            <ImageI18N src="/img/p_emotion.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("EMOTION.IMG")} />
+                        </div>
+                        <div className="mt-3 p-text">
+                            <h2>{_("EMOTION.TEXT")}</h2>
+                            <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large">{_("EMOTION.BTN")}</a>
+                        </div>
                     </div>
                     
                 </div>
