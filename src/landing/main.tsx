@@ -25,27 +25,21 @@ export default function LandingPage() {
             <section className="ms-s-product">
                 <div className="row ms-s-offset align-items-center">
 
-                    <div className="col-md-6 align-self-center order-last order-md-1">
-                        <div className="d-none d-md-flex">
+                    <div className="col p-container">
+                        <div className="d-flex p-head">
                             <img src="/img/logo_vitamin.svg" className="img-fluid me-3" width={48} />
                             <div>
                                 <h1>{_("VITAMIN.HEAD")}</h1>
                                 <p>{_("VITAMIN.SUBHEAD")}</p>
                             </div>
                         </div>
-                        <h2 className="mt-3">{_("VITAMIN.TEXT")}</h2>
-                        <a href={Locale.i18nLink("logvitamin")} className="mt-3 ms-btn-large">{_("VITAMIN.BTN")}</a>
-                    </div>
-
-                    <div className="col-md-4 order-sm-1">
-                        <div className="d-flex d-md-none">
-                            <img src="/img/logo_vitamin.svg" className="img-fluid mb-2 me-3" width={48} />
-                            <div>
-                                <h1>{_("VITAMIN.HEAD")}</h1>
-                                <p>{_("VITAMIN.SUBHEAD")}</p>
-                            </div>
+                        <div className="p-img">
+                            <ImageI18N src="/img/vitamin.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("VITAMIN.IMG")} />
                         </div>
-                        <ImageI18N src="/img/vitamin.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("VITAMIN.IMG")} />
+                        <div className="mt-3 p-text">
+                            <h2>{_("VITAMIN.TEXT")}</h2>
+                            <a href={Locale.i18nLink("logvitamin")} className="mt-3 ms-btn-large">{_("VITAMIN.BTN")}</a>
+                        </div>
                     </div>
 
                 </div>

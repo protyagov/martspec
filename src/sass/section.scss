@@ -104,7 +104,7 @@
     color: $ms-color-text-orange;
     margin-bottom: 0;
     display: inline-block;
-    
+
     &::first-letter {
       text-transform: uppercase;
     }
@@ -112,5 +112,31 @@
 
   img {
     margin-bottom: 0;
+  }
+
+  .p-container {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+
+    @each $area in head, img, text {
+      .p-#{$area} {
+        grid-area: $area;
+      }
+    }
+
+    grid-template:
+      "head img"
+      "text img"
+      / 50% 32%;
+
+    @media screen and (max-width: ($ms-screen-md - 1)) {
+      justify-content: unset !important;
+      grid-template:
+        "head"
+        "img"
+        "text"
+        / 100% 100% 100%;
+    }
   }
 }
