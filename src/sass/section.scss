@@ -111,6 +111,10 @@
   }
 
   .p-container {
+    & > * {
+      @extend .mb-3;
+    }
+    
     display: grid;
     align-items: center;
     justify-content: space-around;

@@ -36,7 +36,7 @@ export default function LandingPage() {
                         <div className="p-img">
                             <ImageI18N src="/img/vitamin.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("VITAMIN.IMG")} />
                         </div>
-                        <div className="mt-3 p-text">
+                        <div className="p-text">
                             <h2>{_("VITAMIN.TEXT")}</h2>
                             <a href={Locale.i18nLink("logvitamin")} className="mt-3 ms-btn-large">{_("VITAMIN.BTN")}</a>
                         </div>
@@ -60,7 +60,7 @@ export default function LandingPage() {
                         <div className="p-img">
                             <ImageI18N src="/img/size.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("SIZE.IMG")} />
                         </div>
-                        <div className="mt-3 p-text">
+                        <div className="p-text">
                             <h2>{_("SIZE.TEXT")}</h2>
                             <a href={Locale.i18nLink("bodysize")} className="mt-3 ms-btn-large">{_("SIZE.BTN")}</a>
                         </div>
@@ -85,7 +85,7 @@ export default function LandingPage() {
                         <div className="p-img">
                             <ImageI18N src="/img/p_electrolyte.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("ELECTROLYTE.IMG")} />
                         </div>
-                        <div className="mt-3 p-text">
+                        <div className="p-text">
                             <h2>{_("ELECTROLYTE.TEXT")}</h2>
                             <a href={Locale.i18nLink("electrolyte")} className="mt-3 ms-btn-large">{_("ELECTROLYTE.BTN")}</a>
                         </div>
@@ -109,7 +109,7 @@ export default function LandingPage() {
                         <div className="p-img">
                             <ImageI18N src="/img/mass.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("MASS.IMG")} />
                         </div>
-                        <div className="mt-3 p-text">
+                        <div className="p-text">
                             <h2>{_("MASS.TEXT")}</h2>
                             <a href={Locale.i18nLink("bodymass")} className="mt-3 ms-btn-large">{_("MASS.BTN")}</a>
                         </div>
@@ -133,7 +133,7 @@ export default function LandingPage() {
                         <div className="p-img">
                             <ImageI18N src="/img/p_zinc.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("ZINC.IMG")} />
                         </div>
-                        <div className="mt-3 p-text">
+                        <div className="p-text">
                             <h2>{_("ZINC.TEXT")}</h2>
                             <a href={Locale.i18nLink("bodyzinc")} className="mt-3 ms-btn-large">{_("ZINC.BTN")}</a>
                         </div>
@@ -156,7 +156,7 @@ export default function LandingPage() {
                         <div className="p-img">
                             <ImageI18N src="/img/p_waist.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("WAIST.IMG")} />
                         </div>
-                        <div className="mt-3 p-text">
+                        <div className="p-text">
                             <h2>{_("WAIST.TEXT")}</h2>
                             <a href={Locale.i18nLink("waistline")} className="mt-3 ms-btn-large">{_("WAIST.BTN")}</a>
                         </div>
@@ -180,7 +180,7 @@ export default function LandingPage() {
                         <div className="p-img">
                             <ImageI18N src="/img/p_emotion.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("EMOTION.IMG")} />
                         </div>
-                        <div className="mt-3 p-text">
+                        <div className="p-text">
                             <h2>{_("EMOTION.TEXT")}</h2>
                             <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large">{_("EMOTION.BTN")}</a>
                         </div>
