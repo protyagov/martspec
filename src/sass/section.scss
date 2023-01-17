@@ -126,8 +126,10 @@
     }
 
     grid-template:
+      ". img"
       "head img"
       "text img"
+      ". img"
       / 50% 32%;
 
     @media screen and (max-width: ($ms-screen-md - 1)) {
