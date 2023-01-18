@@ -84,13 +84,9 @@
   letter-spacing: normal;
   font-family: os4;
 
-  &:nth-child(odd) {
-    background-color: $ms-color-bg-secondary;
-  }
-
   h1 {
     font-family: os6;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   h2 {
@@ -102,5 +98,62 @@
   p {
     font-size: 1.1rem;
     color: $ms-color-text-orange;
+    margin-bottom: 0;
+    display: inline-block;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  img {
+    margin-bottom: 0;
+  }
+
+  .p-container {
+    & > * {
+      @extend .mb-3;
+    }
+    
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+
+    @each $area in head, img, text {
+      .p-#{$area} {
+        grid-area: $area;
+      }
+    }
+
+    grid-template:
+      ". img"
+      "head img"
+      "text img"
+      ". img"
+      / 50% 32%;
+
+    @media screen and (max-width: ($ms-screen-md - 1)) {
+      justify-content: unset !important;
+      grid-template:
+        "head"
+        "img"
+        "text"
+        / 100% 100% 100% !important;
+    }
+  }
+
+  &:nth-child(odd) {
+    background-color: $ms-color-bg-secondary;
+  }
+  
+  &:nth-child(even) {
+    .p-container {
+      grid-template:
+        "img ."
+        "img head"
+        "img text"
+        "img ."
+        / 32% 50%;
+    }
   }
 }
