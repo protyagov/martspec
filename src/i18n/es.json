@@ -19,6 +19,7 @@
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",
         "SUBHEAD": " minerales más vitales",
+        "ICO": "Ícono para el rastreador de consumo de electrolitos gratuito más fácil para Apple Watch. Esté atento al consumo de magnesio, calcio, potasio, hierro. Conectado con Apple Salud. Cero anuncios.",
         "TEXT": "Los electrolitos juegan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Ayudan a regular el corazón y la función neurológica, el equilibrio de líquidos, el suministro de oxígeno, el equilibrio ácido-base y mucho más.",
         "BTN": "Conocer los hechos",
         "IMG": "Registra electrolitos y minerales con tu Apple Watch",
@@ -38,6 +39,7 @@
     "MASS": {
         "HEAD": "Peso",
         "SUBHEAD": "diario de peso fácil",
+        "ICO": "Ícono de nuestra aplicación portátil de salud más avanzada que le permite ingresar fácilmente su peso directamente desde su muñeca. El registro automático en la aplicación proporciona una forma sencilla de ver las tendencias y todas las mediciones por mes y año. Totalmente gratis, sin compras en la aplicación, cero anuncios. Esta es la aplicación exclusiva de Apple Watch. No requiere la aplicación complementaria de iPhone para funcionar.",
         "TEXT": "El seguimiento de su peso aumenta su eficiencia en términos de su tiempo y entrenamientos. ¡No solo te impulsará a hacerlo mejor, sino que también te llevará a ser tu propia competencia!",
         "BTN": "Echar un vistazo",
         "IMG": "Guarde masa corporal directamente desde su Apple Watch en Apple Health Storage",
@@ -61,6 +63,7 @@
     "VITAMIN": {
         "HEAD": "Vitamina",
         "SUBHEAD": "el mejor rastreador de vitaminas",
+        "ICO": "Ícono de la mejor aplicación de seguimiento de vitaminas y minerales para su Apple Watch, iPhone y iPad. Se sincroniza a la perfección con Apple Health. Cero anuncios.",
         "TEXT": "El seguimiento de sus vitaminas esenciales tiene muchos beneficios, desde ayudar a controlar las intolerancias alimentarias hasta aumentar la energía, evitar cambios de humor y estimular el ritmo de su día.",
         "BTN": "leer más",
         "IMG": "Realice un seguimiento de las vitaminas más esenciales directamente en su muñeca",
@@ -90,6 +93,7 @@
     "WAIST": {
         "HEAD": "Cintura",
         "SUBHEAD": "cintura pequeña - corazón sano",
+        "ICO": "Ícono de la mejor aplicación de Apple Watch para rastrear la circunferencia de la cintura. Sincronización completa con Apple Health. Úselo fácilmente sin anuncios, pagos y registro.",
         "TEXT": "La forma más sencilla de realizar un seguimiento de la circunferencia de la cintura en el Apple Watch. Todos los registros se sincronizan con su Apple Health.",
         "BTN": "aprende más",
         "IMG": "Lleve un registro del tamaño de su cintura (ombligo) directamente desde su brazo",
@@ -112,6 +116,7 @@
     "ZINC": {
         "HEAD": "Zinc",
         "SUBHEAD": "seguimiento la ingesta de zinc",
+        "ICO": "Ícono de nuestra aplicación gratuita Apple Watch que lo ayuda a rastrear el consumo de zinc. Realice registros sobre el zinc dietético desde sus relojes Apple y sincronícelos con Apple Health. No se necesita una aplicación de iPhone complementaria para funcionar. Cero anuncios.",
         "TEXT": "Hermoso en su cuerpo de seguimiento de zinc de simplicidad para su reloj. Apple Health habilitado. Resultados reales. Libre. Cero anuncios.",
         "BTN": "Descubrir bienestar",
         "IMG": "Rastrea su consumo diario de suplemento de zinc",
@@ -129,6 +134,7 @@
     "SIZE": {
         "HEAD": "Medida",
         "SUBHEAD": "hermosa figura - cuerpo sano",
+        "ICO": "Ícono del mejor rastreador de tamaño corporal en App Store para computadoras Apple Watch, iPhone, iPad y Mac M. Body Size te permite aprender sobre ti mismo para ayudarte a ponerte en forma. Las mediciones se sincronizan automáticamente con la aplicación Health Mate, lo que significa que puede visualizar los resultados con gráficos fáciles de leer. Cero anuncios.",
         "TEXT": "Rastrea tus caderas, cintura y pecho en tu reloj. Soporte completo de Apple Health. Tiempo de carga rápido. Absolutamente libre.",
         "BTN": "Cuerpo perfecto",
         "IMG": "Mida el tamaño del pecho, el ancho del busto, la circunferencia de la cintura y la longitud de las caderas usando un reloj en su muñeca",
@@ -148,6 +154,7 @@
     "EMOTION": {
         "HEAD": "Emoción",
         "SUBHEAD": "prueba de psicología más rápida",
+        "ICO": "Icono para la prueba de psicología más rápida y más conocida del mundo. Obtenga la oportunidad de comprender y predecir sus estados de ánimo. Simplemente seleccione 8 colores que le gusten y no le gusten. Gratis, sin anuncios.",
         "TEXT": "¿Cambios de humor inesperados? ¿Cambios emocionales intensos? Averigüe la causa raíz en solo 1 minuto.",
         "BTN": "Conócete a ti mismo",
         "IMG": "El test de personalidad más rápido del mundo. Selecciona 8 colores y conoce tu estado mental actual.",
