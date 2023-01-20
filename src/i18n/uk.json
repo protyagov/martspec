@@ -19,6 +19,7 @@
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",
         "SUBHEAD": "most vital minerals",
+        "ICO": "Іконка для найпростішого безкоштовного трекера споживання електролітів для Apple Watch. Слідкуйте за споживанням магнію, кальцію, калію, заліза. Автоматична синхронізація з Apple Health. Безкоштовно та без реклами.",
         "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
         "BTN": "Get the facts",
         "IMG": "Record electrolytes and minerals with your Apple Watch",
@@ -38,6 +39,7 @@
     "MASS": {
         "HEAD": "Body Mass",
         "SUBHEAD": "easy weight journal",
+        "ICO": "Іконка для нашого найбільш досконалого додатка для здоров’я, який дозволяє легко вводити свою вагу просто на зап’ясті. Автоматичне ведення журналу в додатку забезпечує простий спосіб перегляду тенденцій і всіх вимірювань за місяць і рік. Повністю безкоштовно і без реклами. Додаток створений для Apple Watch і не потребує встановлення додаткових програм на iPhone.",
         "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
         "BTN": "Give up the fat",
         "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
@@ -61,6 +63,7 @@
     "VITAMIN": {
         "HEAD": "Vitamin Book",
         "SUBHEAD": "the ultimate vitamin tracker",
+        "ICO": "Іконка найкращого додатку для відстеження вітамінів і мінералів для Apple Watch, iPhone і iPad. Бездоганно синхронізується з Apple Health. Просто, швидко, безкоштовно і без реклами.",
         "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
         "BTN": "Vitaminize",
         "IMG": "Track the most essential vitamins directly on your wrist",
@@ -90,6 +93,7 @@
     "WAIST": {
         "HEAD": "Waistline",
         "SUBHEAD": "tiny waist - healthy heart",
+        "ICO": "Іконка найкращого додатка Apple Watch для відстеження окружності талії. Повна синхронізація з Apple Health. Користуйтеся легко без реклами, платежів і реєстрації.",
         "TEXT": "The easiest way to track waist circumference on Apple Watch. All records get synced to your Apple Health.",
         "BTN": "Flat your belly",
         "IMG": "Keep track of your waist size (belly button) directly from your arm",
@@ -112,6 +116,7 @@
     "ZINC": {
         "HEAD": "Zinc",
         "SUBHEAD": "AmaZinc tracker for your watch",
+        "ICO": "Іконка програми Apple Watch, яка допомагає відстежувати споживання цинку. Робіть записи про вживання дієтичного цинку зі своїх Apple Watch і синхронізуйте з Apple Health. Не потрібує встановлення додаткових програм для iPhone. Безкоштовно і без реклами.",
         "TEXT": "Zinc may enhance immune function, stabilize blood sugar levels, and help keep your skin, eyes, and heart healthy.",
         "BTN": "Discover wellness",
         "IMG": "Track your everyday consumption of zinc supplement",
@@ -130,6 +135,7 @@
     "SIZE": {
         "HEAD": "Body Size",
         "SUBHEAD": "Beautiful body. Built by you!",
+        "ICO": "Іконка найкращого додатку для відстеження розмірів тіла в App Store для Apple Watch, iPhone, iPad і Mac M. Додаток допомагає вам бути у формі. Вимірювання автоматично синхронізуються з додатком Health Mate, що означає, що ви можете візуалізувати результати за допомогою зручних для читання діаграм. Безкоштовний додаток, без реклами.",
         "TEXT": "Track your hips, waist and chest with this app directly from your Apple Watch. Full support of Apple Health. Fast load time. Absolutely free.",
         "BTN": "Perfect Shape",
         "IMG": "Measure chest size, bust width, waist circumference and hips length using watch on your wrist",
@@ -149,6 +155,7 @@
     "EMOTION": {
         "HEAD": "Emotion",
         "SUBHEAD": "quickest psychology test",
+        "ICO": "Іконка для найшвидшого та найвідомішого у світі психологічного тесту. Отримайте шанс зрозуміти і передбачити ваші настрої. Просто виберіть 8 кольорів, які вам подобаються та не подобаються. Безкоштовно, без реклами.",
         "TEXT": "Unexpected mood swings? Intense emotional changes? Figure out the root cause in just 1 minute.",
         "BTN": "Know Yourself",
         "IMG": "The worlds quickest personality test. Select 8 colors and know you current mind state.",
