@@ -27,7 +27,7 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_vitamin.svg" className="img-fluid me-3" width={48} alt={_("VITAMIN.HEAD")} />
+                            <img src="/img/logo_vitamin.svg" className="img-fluid me-3" height={48} width={48} alt={_("VITAMIN.HEAD")} />
                             <div>
                                 <h1>{_("VITAMIN.HEAD")}</h1>
                                 <p>{_("VITAMIN.SUBHEAD")}</p>
@@ -51,7 +51,7 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_size.svg" className="img-fluid me-3" width={48} alt={_("SIZE.HEAD")} />
+                            <img src="/img/logo_size.svg" className="img-fluid me-3" height={48} width={48} alt={_("SIZE.HEAD")} />
                             <div>
                                 <h1>{_("SIZE.HEAD")}</h1>
                                 <p>{_("SIZE.SUBHEAD")}</p>
@@ -76,7 +76,7 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_electrolyte.svg" className="img-fluid me-3" width={48} alt={_("ELECTROLYTE.HEAD")} />
+                            <img src="/img/logo_electrolyte.svg" className="img-fluid me-3" height={48} width={48} alt={_("ELECTROLYTE.HEAD")} />
                             <div>
                                 <h1>{_("ELECTROLYTE.HEAD")}</h1>
                                 <p>{_("ELECTROLYTE.SUBHEAD")}</p>
@@ -100,7 +100,7 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_mass.svg" className="img-fluid me-3" width={48} alt={_("MASS.HEAD")} />
+                            <img src="/img/logo_mass.svg" className="img-fluid me-3" height={48} width={48} alt={_("MASS.HEAD")} />
                             <div>
                                 <h1>{_("MASS.HEAD")}</h1>
                                 <p>{_("MASS.SUBHEAD")}</p>
@@ -124,7 +124,7 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_zinc.svg" className="img-fluid me-3" width={48} alt={_("ZINC.HEAD")} />
+                            <img src="/img/logo_zinc.svg" className="img-fluid me-3" height={48} width={48} alt={_("ZINC.HEAD")} />
                             <div>
                                 <h1>{_("ZINC.HEAD")}</h1>
                                 <p>{_("ZINC.SUBHEAD")}</p>
@@ -147,7 +147,7 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_waist.svg" className="img-fluid me-3" width={48} alt={_("WAIST.HEAD")} />
+                            <img src="/img/logo_waist.svg" className="img-fluid me-3" height={48} width={48} alt={_("WAIST.HEAD")} />
                             <div>
                                 <h1>{_("WAIST.HEAD")}</h1>
                                 <p>{_("WAIST.SUBHEAD")}</p>
@@ -171,7 +171,7 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_emotion.svg" className="img-fluid me-3" width={48} alt={_("EMOTION.HEAD")} />
+                            <img src="/img/logo_emotion.svg" className="img-fluid me-3" height={48} width={48} alt={_("EMOTION.HEAD")} />
                             <div>
                                 <h1>{_("EMOTION.HEAD")}</h1>
                                 <p>{_("EMOTION.SUBHEAD")}</p>

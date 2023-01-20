@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
 
         <div className="ms-base-page pb-5">
             <h3 className="text-center">{_("PP.HEAD")}</h3>
-            <img src="/img/privacy.svg" alt={_("PP.HEAD")} height={360} />
+            <img src="/img/privacy.svg" alt={_("PP.HEAD")} height={360} width={428} />
 
             <section>
                 <h6>{_("PP.DATE")}</h6>
