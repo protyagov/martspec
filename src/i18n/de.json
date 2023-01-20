@@ -19,6 +19,7 @@
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",
         "SUBHEAD": "wasser-Salz-Gleichgewicht",
+        "ICO": "Symbol für den einfachsten kostenlosen Elektrolytverbrauchs-Tracker für die Apple Watch. Behalten Sie den Verbrauch von Magnesium, Kalzium, Kalium und Eisen im Auge. Verbunden mit Apple Health. Null Anzeigen.",
         "TEXT": "Elektrolyte spielen eine wichtige Rolle bei der Aufrechterhaltung der Homöostase im Körper. Sie helfen bei der Regulierung des Herzens und der neurologischen Funktion, des Flüssigkeitshaushalts, der Sauerstoffzufuhr, des Säure-Base-Gleichgewichts und vielem mehr.",
         "BTN": "Weiterlesen",
         "IMG": "Nehmen Sie Elektrolyte und Mineralien mit Ihrer Apple Watch auf",
@@ -38,6 +39,7 @@
     "MASS": {
         "HEAD": "Gewicht",
         "SUBHEAD": "leichteste gewichtstagebuch",
+        "ICO": "Symbol für unsere fortschrittlichste tragbare Gesundheits-App, mit der Sie Ihr Gewicht ganz einfach direkt von Ihrem Handgelenk aus eingeben können. Automatisches In-App-Journaling bietet eine mühelose Möglichkeit, Trends und Gesamtmessungen nach Monat und Jahr anzuzeigen. Völlig kostenlos, keine In-App-Käufe, keine Werbung. Dies ist nur die Apple Watch-App. Für die Ausführung ist keine iPhone-Begleit-App erforderlich.",
         "TEXT": "Das Verfolgen Ihres Gewichts steigert Ihre Effizienz in Bezug auf Ihre Zeit und Ihr Training. Es wird Sie nicht nur dazu bringen, es besser zu machen, sondern Sie auch dazu bringen, Ihre eigene Konkurrenz zu sein!",
         "BTN": "Schau mal",
         "IMG": "Speichern Sie Körpermasse direkt von Ihrer Apple Watch in Apple Health Storage",
@@ -61,6 +63,7 @@
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "der ultimative Vitamin Tracker",
+        "ICO": "Symbol für die beste Vitamin- und Mineralien-Tracker-App für Ihre Apple Watch, iPhone und iPad. Synchronisiert nahtlos mit Apple Health. Null Werbung.",
         "TEXT": "Das Verfolgen Ihrer essentiellen Vitamine hat viele Vorteile, angefangen bei der Behandlung von Nahrungsmittelunverträglichkeiten bis hin zur Steigerung der Energie, zur Vermeidung von Stimmungsschwankungen und zur Förderung des Tagesrhythmus.",
         "BTN": "Weiterlesen",
         "IMG": "Verfolgen Sie die wichtigsten Vitamine direkt am Handgelenk",
@@ -90,6 +93,7 @@
     "WAIST": {
         "HEAD": "Taille",
         "SUBHEAD": "winzige taille - gesundes herz",
+        "ICO": "Symbol für die beste Apple Watch-App zur Verfolgung des Taillenumfangs. Vollständige Synchronisierung mit Apple Health. Einfache Nutzung ohne Anzeigen, Zahlungen und Registrierung.",
         "TEXT": "Der einfachste Weg, um den Taillenumfang auf der Apple Watch zu verfolgen. Alle Datensätze werden mit Ihrem Apple Health synchronisiert.",
         "BTN": "Erfahren Sie mehr",
         "IMG": "Behalten Sie Ihre Taillengröße (Bauchnabel) direkt von Ihrem Arm aus im Auge",
@@ -112,6 +116,7 @@
     "ZINC": {
         "HEAD": "Zinc",
         "SUBHEAD": "verfolgung der zinkaufnahme",
+        "ICO": "Symbol für unsere kostenlose Apple Watch App, mit der Sie den Zinkverbrauch verfolgen können. Machen Sie Aufzeichnungen über diätetisches Zink von Ihren Apple Watches und synchronisieren Sie sie mit Apple Health. Keine benötigte begleitende iPhone-App, um zu funktionieren. Null Werbung.",
         "TEXT": "Schön in seiner Einfachheit Körper Zink Tracker für Ihre Uhr. Apple Health aktiviert. Echte Ergebnisse. Kostenlos. Keine Werbung.",
         "BTN": "Wellness entdecken",
         "IMG": "Verfolgen Sie Ihren Alltagsverbrauch von Zinkergänzungen",
@@ -129,6 +134,7 @@
     "SIZE": {
         "HEAD": "Körper Form",
         "SUBHEAD": "schöner Körper - von dir gebaut!",
+        "ICO": "Symbol für den besten Body-Size-Tracker im App Store für Apple Watch, iPhone, iPad und Mac M-Computer. Mit Body Size können Sie etwas über sich selbst lernen, um sich in Form zu bringen. Die Messungen werden automatisch mit der Health Mate-App synchronisiert, was bedeutet, dass Sie die Ergebnisse mit leicht lesbaren Diagrammen visualisieren können. Null Anzeigen.",
         "TEXT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Uhr. Volle Unterstützung von Apple Health. Schnelle Ladezeit. Absolut frei.",
         "BTN": "Perfekte Form",
         "IMG": "Messen Sie die Brustgröße, die Büste Breite, den Taillenumfang und die Hüftlänge mit der Uhr an Ihrem Handgelenk",
@@ -148,6 +154,7 @@
     "EMOTION": {
         "HEAD": "Emotion",
         "SUBHEAD": "schnellster psychologietest",
+        "ICO": "Symbol für den schnellsten und weltweit bekanntesten Psychologietest. Erhalten Sie die Chance, Ihre Stimmungen zu verstehen und vorherzusagen. Wählen Sie einfach 8 Farben aus, die Ihnen gefallen und die Ihnen nicht gefallen. Kostenlos, keine Werbung.",
         "TEXT": "Unerwartete Stimmungsschwankungen? Intensive emotionale Veränderungen? Finden Sie die Ursache in nur 1 Minute heraus.",
         "BTN": "Sich selbst kennen",
         "IMG": "Der schnellste Persönlichkeitstest der Welt. Wählen Sie 8 Farben aus und kennen Sie Ihren aktuellen Geisteszustand",
