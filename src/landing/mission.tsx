@@ -7,7 +7,7 @@ export default function Mission() {
     return <>
         <NavigationBar/>
         <div className="ms-base-page pb-5">
-            <img src="/img/mission.svg" alt={_("MISSION.HEAD")} />
+            <img src="/img/mission.svg" alt={_("MISSION.HEAD")} height={300} width={391} />
             <h1 className="text-center">{_("MISSION.HEAD")}</h1>
             <h2 className="text-center">{_("MISSION.M")}</h2>
             <section>

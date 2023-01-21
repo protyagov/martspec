@@ -57,7 +57,7 @@ export const Footer = () =>
 
                             <div className="d-flex flex-row-reverse justify-content-center mt-md-3 mt-sm-1 mt-1">
                                 <a className="social-icon" href="https://www.facebook.com/martspec" target="_blank" rel="noopener" aria-label="">
-                                    <img src="/img/facebook_icon.svg" alt="twitter" />
+                                    <img src="/img/facebook_icon.svg" alt="facebook" />
                                 </a>
 
                                 <a className="social-icon" href="https://twitter.com/MartspecCom" target="_blank" rel="noopener" aria-label="">
@@ -69,7 +69,7 @@ export const Footer = () =>
                                 </a>
 
                                 <a className="social-icon" href="https://www.linkedin.com/company/martspec" target="_blank" rel="noopener" aria-label="">
-                                    <img src="/img/linkedin_icon.svg" alt="email" />
+                                    <img src="/img/linkedin_icon.svg" alt="linkedin" />
                                 </a>
                             </div>
                         </div>

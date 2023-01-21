@@ -19,6 +19,7 @@
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",
         "SUBHEAD": "most vital minerals",
+        "ICO": "Icon for the easiest free electrolytes consumption tracker for Apple Watch. Keep your eye on consumption of Magnesium, Calcium, Potassium, Iron. Connected with Apple Health. Zero ads.",
         "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
         "BTN": "Get the facts",
         "IMG": "Record electrolytes and minerals with your Apple Watch",
@@ -38,6 +39,7 @@
     "MASS": {
         "HEAD": "Body Mass",
         "SUBHEAD": "easy weight journal",
+        "ICO": "Icon for our most advanced health wearable app that let you easily enter your weight right from you wrist. Automatic in-app journaling provides an effortless way to see trends and over all measurements by month and year. Totally free, no in-app purchases, zero ADs. This is Apple Watch only app. Does not require iPhone companion app to run.",
         "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
         "BTN": "Give up the fat",
         "IMG": "Save body mass directly from your Apple Watch into Apple Health Storage",
@@ -61,6 +63,7 @@
     "VITAMIN": {
         "HEAD": "Vitamin Book",
         "SUBHEAD": "the ultimate vitamin tracker",
+        "ICO": "Icon for the best vitamins and minerals tracker app for your Apple Watch, iPhone and iPad. Syncs seamlessly with Apple Health. Zero ads.",
         "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
         "BTN": "Vitaminize",
         "IMG": "Track the most essential vitamins directly on your wrist",
@@ -90,6 +93,7 @@
     "WAIST": {
         "HEAD": "Waistline",
         "SUBHEAD": "tiny waist - healthy heart",
+        "ICO": "Icon for the best waistline circumference tracking Apple Watch app. Full synchronization with Apple Health. Use easily without ADs, payments and registration.",
         "TEXT": "The easiest way to track waist circumference on Apple Watch. All records get synced to your Apple Health.",
         "BTN": "Flat your belly",
         "IMG": "Keep track of your waist size (belly button) directly from your arm",
@@ -112,6 +116,7 @@
     "ZINC": {
         "HEAD": "Zinc",
         "SUBHEAD": "AmaZinc tracker for your watch",
+        "ICO": "Icon for our free Apple Watch app that helps you track zinc consumption. Make records about dietary zinc from your Apple Watches and sync with Apple Health. No needed companion iPhone app to work. Zero ads.",
         "TEXT": "Zinc may enhance immune function, stabilize blood sugar levels, and help keep your skin, eyes, and heart healthy.",
         "BTN": "Discover wellness",
         "IMG": "Track your everyday consumption of zinc supplement",
@@ -130,6 +135,7 @@
     "SIZE": {
         "HEAD": "Body Size",
         "SUBHEAD": "Beautiful body. Built by you!",
+        "ICO": "Icon for the best body body size tracker on App Store for Apple Watch, iPhone, iPad and Mac M computers. Body Size lets you learn about yourself to help you get in shape. Measurements are automatically synced to the Health Mate app, which means you can visualize results with easy-to-read charts. Zero ADs.",
         "TEXT": "Track your hips, waist and chest with this app directly from your Apple Watch. Full support of Apple Health. Fast load time. Absolutely free.",
         "BTN": "Perfect Shape",
         "IMG": "Measure chest size, bust width, waist circumference and hips length using watch on your wrist",
@@ -149,6 +155,7 @@
     "EMOTION": {
         "HEAD": "Emotion",
         "SUBHEAD": "quickest psychology test",
+        "ICO": "Icon for fastest and world most known psychology test. Get a chance to understand and predict your moods. Simply select 8 colors that you like and don't like. For free, no ads.",
         "TEXT": "Unexpected mood swings? Intense emotional changes? Figure out the root cause in just 1 minute.",
         "BTN": "Know Yourself",
         "IMG": "The worlds quickest personality test. Select 8 colors and know you current mind state.",
