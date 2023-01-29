@@ -177,7 +177,11 @@
         "DESC5_2": "Utilisez notre logiciel à vos risques et périls. Il est fourni « tel quel » et « tel que disponible ». Martspec ne garantit pas que nos applications et/ou tout contenu qu'elles contiennent répondront à vos exigences, ou seront ininterrompus, opportuns, sécurisés, à jour, exacts, complets ou sans erreur ou que les résultats qui peuvent être obtenus par l'utilisation du site et/ou tout contenu de celui-ci sera exact ou fiable. Vous comprenez et reconnaissez que votre seul et unique recours en cas de défaut ou d'insatisfaction à l'égard de l'application consiste à cesser d'utiliser l'application."
     },
     "FOOTER": {
-        "C": "© 2022 Martspec LLC. Tous les droits sont réservés."
+        "C": "© 2022 Martspec LLC. Tous les droits sont réservés.",
+        "APPLE_BUTTON":{
+            "TITLE": "Voir toutes les applications martspec sur notre Apple AppStore",
+            "ALT": "Voir toutes nos applications sur Martpsec AppStore chez Apple"
+        }
     },
     "ERROR": {
         "404_HEAD": "Page non trouvée",

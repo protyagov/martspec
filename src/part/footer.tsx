@@ -49,9 +49,10 @@ export const Footer = () =>
                         <div className="d-flex flex-sm-row flex-row-reverse flex-sm-row-reverse flex-md-column icon-container justify-content-evenly">
                             <div className="text-center">
                                 <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/developer/martspec-llc/id1506250419?l=${Locale.language}`}
-                                    target="_blank" title={_("MAIN.P1.DWN")}
+                                    target="_blank"
+                                    title={_("FOOTER.APPLE_BUTTON.TITLE")}
                                     className="ms-btn-apple float-md-right">
-                                        <img src={'/img/apple_btn/' + Locale.language + '.svg'} alt="email" />
+                                        <img src={'/img/apple_btn/' + Locale.language + '.svg'} alt={_("FOOTER.APPLE_BUTTON.ALT")} />
                                 </a>
                             </div>
 
