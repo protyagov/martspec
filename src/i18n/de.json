@@ -171,9 +171,10 @@
     },
     "FOOTER": {
         "C": "Copyright © 2022 Martspec LLC. Alle Rechte vorbehalten.",
-        "PP": "Datenschutzrichtlinie",
-        "ABOUT": "Über uns",
-        "MISSION": "Mission"
+        "APPLE_BUTTON":{
+            "TITLE": "Alle martspec-Anwendungen finden Sie in unserem Apple AppStore",
+            "ALT": "Sehen Sie sich alle unsere Apps im Martpsec AppStore bei Apple an"
+        }
     },
     "ERROR": {
         "404_HEAD": "Seite nicht gefunden",
