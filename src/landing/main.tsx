@@ -38,7 +38,7 @@ export default function LandingPage() {
                         </div>
                         <div className="p-text">
                             <h2>{_("VITAMIN.TEXT")}</h2>
-                            <a href={Locale.i18nLink("logvitamin")} className="mt-3 ms-btn-large">{_("VITAMIN.BTN")}</a>
+                            <a href={Locale.i18nLink("logvitamin")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
 
@@ -62,7 +62,7 @@ export default function LandingPage() {
                         </div>
                         <div className="p-text">
                             <h2>{_("SIZE.TEXT")}</h2>
-                            <a href={Locale.i18nLink("bodysize")} className="mt-3 ms-btn-large">{_("SIZE.BTN")}</a>
+                            <a href={Locale.i18nLink("bodysize")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
 
@@ -87,7 +87,7 @@ export default function LandingPage() {
                         </div>
                         <div className="p-text">
                             <h2>{_("ELECTROLYTE.TEXT")}</h2>
-                            <a href={Locale.i18nLink("electrolyte")} className="mt-3 ms-btn-large">{_("ELECTROLYTE.BTN")}</a>
+                            <a href={Locale.i18nLink("electrolyte")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
 
@@ -111,7 +111,7 @@ export default function LandingPage() {
                         </div>
                         <div className="p-text">
                             <h2>{_("MASS.TEXT")}</h2>
-                            <a href={Locale.i18nLink("bodymass")} className="mt-3 ms-btn-large">{_("MASS.BTN")}</a>
+                            <a href={Locale.i18nLink("bodymass")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
 
@@ -135,7 +135,7 @@ export default function LandingPage() {
                         </div>
                         <div className="p-text">
                             <h2>{_("ZINC.TEXT")}</h2>
-                            <a href={Locale.i18nLink("bodyzinc")} className="mt-3 ms-btn-large">{_("ZINC.BTN")}</a>
+                            <a href={Locale.i18nLink("bodyzinc")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
 
@@ -158,7 +158,7 @@ export default function LandingPage() {
                         </div>
                         <div className="p-text">
                             <h2>{_("WAIST.TEXT")}</h2>
-                            <a href={Locale.i18nLink("waistline")} className="mt-3 ms-btn-large">{_("WAIST.BTN")}</a>
+                            <a href={Locale.i18nLink("waistline")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
 
@@ -182,7 +182,7 @@ export default function LandingPage() {
                         </div>
                         <div className="p-text">
                             <h2>{_("EMOTION.TEXT")}</h2>
-                            <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large">{_("EMOTION.BTN")}</a>
+                            <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
                     
