@@ -13,8 +13,9 @@ export default function P3LogVitamin() {
             <img src="/img/vitamin.svg" className="img-fluid" alt={_("VITAMIN.IMG")} height={512} width={512} />
             <h1 className="text-center pt-3">{_("VITAMIN.HEAD")}</h1>
 
-            <section>
-                <p className="mt-4">{_("VITAMIN.ABOUT")}</p>
+            <section className="my-4 fw-bold text-center">
+                <p className="mb-0">{_("VITAMIN.ABOUT_1")}</p>
+                <p>{_("VITAMIN.ABOUT_2")}</p>
                 <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
                     target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple"
                     style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
