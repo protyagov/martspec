@@ -2,6 +2,11 @@
 @import "color.scss";
 
 .vitamin {
+
+  * {
+    line-height: 150%;
+  }
+
   h3 {
     font-family: os6;
     font-size: 1.8rem;
