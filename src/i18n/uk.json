@@ -62,7 +62,7 @@
     },
     "VITAMIN": {
         "HEAD": "Vitamin Book",
-        "SUBHEAD": "the ultimate vitamin tracker",
+        "SUBHEAD": "найкращий трекер вітамінів",
         "ICO": "Іконка найкращого додатку для відстеження вітамінів і мінералів для Apple Watch, iPhone і iPad. Бездоганно синхронізується з Apple Health. Просто, швидко, безкоштовно і без реклами.",
         "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
         "BTN": "Vitaminize",
@@ -186,23 +186,23 @@
         "404_BTN": "Home"
     },
     "MISSION": {
-        "HEAD": "Mission",
-        "M": "We make it quick and easy for everyone to track their health and wellness.",
-        "P1": "Our mission pushes us to do everything possible to expand human potential. We do that by following basic 3 concepts:",
-        "P1_1": "Create groundbreaking technology innovations",
-        "P1_2": "Make our apps more inspiring and beautiful",
+        "HEAD": "Місія",
+        "M": "Ми прагнемо до того, щоб кожен міг легко і просто стежити за своїм здоров'ям.",
+        "P1": "Наша місія — зробити все можливе для розширення можливостей людини. Ми робимо це, дотримуючись трьох основних концепцій:",
+        "P1_1": "Створюємо технологічні інновації",
+        "P1_2": "Робимо наші програми більш зручними та красивими",
         "P1_3": "Listen to our communities' feedback",
         "P2": "To achieve our ambition, we are starting with science. Published scientific research and analytics play an important part in the development of enhancements. With our active community, we are looking at ways to track, measure, and employ wellness more efficiently. Feedback is an important tool for unlocking future innovations, including creation of new apps, improvements to existing ones, and even sunsetting apps that do not benefit the people."
     },
     "ABOUT": {
-        "HEAD": "About us",
-        "P1": "Martspec was founded in Sprint of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That caused significant changes to our bodies and health.",
-        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. It keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
-        "P3": "People who track their wellness daily make better progress than those who do not.",
-        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make bodyweight tracking easy and measurements writing into Apple Health got automatic. That clean and minimalistic app got popular.",
-        "P5": "We have built a few more great apps only for Apple Watch devices. In 2021 we began building cross-platform apps that work on all kinds of Apple devices, from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, Emotion, to address mental wellness. That is the quickest personality test ever.",
-        "P6": "We build our apps using cutting-edge technology and offer them in many languages all over the world, but none of that matters. It isn't just about the number of apps and industry-leading software. Martspec is about people. Martspec is about trust in technology that empowers individuals with personal health and wellness.",
-        "P7": "That is why all our apps are available free of charge. We do not have any monetization, do not show ADs, and never use personal data for profit."
+        "HEAD": "Про компанію",
+        "P1": "Компанія Martspec була заснована навесні 2020 року. На той час багато хто залишався вдома і працював віддалено. Наш порядок дня дуже змінився. Багато хто з нас не регулярно займається спортом або взагалі ігнорує його, що призводить до значних змін у нашому тілі і негативно позначається на здоров'ї.",
+        "P2": "Ми захотіли покращити цю ситуацію, створивши додаток для відстеження стану здоров'я та гарного самопочуття. Такий підхід допомагає утримувати здорові звички у нашій свідомості. Щоразу, коли ми робимо запис у журналі, нам нагадують про нашу відданість здоров'ю.",
+        "P3": "Люди, які щодня стежать за своїм самопочуттям, досягають більшого успіху, ніж ті, хто цього не робить.",
+        "P4": "Ми щиро віримо в силу ідей, здатних змінити ставлення до свого здоров'я, життя і, зрештою, весь світ. Першою ідеєю була програма для відстеження ваги тіла безпосередньо з пристроїв, що носяться. Ми створили додаток для відстеження ваги для Apple Watch, щоб спростити введення ваги тіла та запис вимірювань безпосередньо в Apple. Здоров'я з вашого годинника. Цей простий і мінімалістичний додаток став популярним.",
+        "P5": "Ми створили ще кілька програм для пристроїв Apple Watch. У 2021 році ми почали створювати кросплатформні програми, які працюють на всіх типах пристроїв Apple, від невеликих Apple Watch до iPad та MacBook. На додаток до цих продуктів ми створили додаток під назвою Емоції, наш перший додаток призначений для покращення психічного здоров'я. Це найшвидший з будь-коли створених тест особистості.",
+        "P6": "Ми створюємо наші програми з використанням передових технологій і пропонуємо їх багатьма мовами по всьому світу, але це не найважливіше. Справа не тільки в кількості додатків та кращого в галузі програмного забезпечення. Martspec – це люди з турботою про людей. Martspec – це довіра до технологій, які допомагають нам залишатися здоровими.",
+        "P7": "Ось чому всі наші програми доступні абсолютно безкоштовно. У нас немає монетизації та реклами, і ми ніколи не використовуємо особисті дані для отримання прибутку."
     },
     "TEAM": {
         "HEAD": "Our Team",
