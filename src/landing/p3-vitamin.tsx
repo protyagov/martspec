@@ -23,9 +23,17 @@ export default function P3LogVitamin() {
             </section>
 
             <section>
-                <h4>{_("VITAMIN.HEAD1")}</h4>
-                <p className="mt-3">{_("VITAMIN.DESC1")}</p>
-
+                <div className="row">
+                    <div className="col-md-6 col-12 vitamin-block bg-blue">
+                        <img src="/img/apple_health_icon.svg" className="m-0 p-0" alt="Apple Health" height={100} width={100} />
+                        <h3>{_("VITAMIN.HEAD1")}</h3>
+                        <p className="mt-3">{_("VITAMIN.DESC1")}</p>
+                    </div>
+                    <div className="col-md-6 col-12 d-flex flex-column justify-content-center vitamin-block">
+                        <h2>{_("VITAMIN.HEAD2")}</h2>
+                        <p>{_("VITAMIN.DESC2")}</p>
+                    </div>
+                </div>
             </section>
 
             <section>
