@@ -1,0 +1,12 @@
+@import "font.scss";
+@import "color.scss";
+
+.vitamin {
+  h3 {
+    font-family: os6;
+    font-size: 1.8rem;
+    color: $ms-color-text-black;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}
