@@ -110,6 +110,22 @@ export default function P3LogVitamin() {
                 </p>
             </section>
 
+            <section>
+                <div className="row mt-4">
+                    <div className="col">
+                        <p>{_("VITAMIN.FOOT")}</p>
+                    </div>
+                </div>
+                <div className="row mt-4">
+                    <div className="col text-center">
+                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
+                            target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple"
+                            style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
 
 
             <IronImage imgLo="/img/p_vitamin_screens.64.webp" imgHi="/img/p_vitamin_screens.512.webp" text={_("VITAMIN.IMG")} h={560} w={1458} />
