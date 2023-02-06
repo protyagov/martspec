@@ -49,21 +49,29 @@ export default function P3LogVitamin() {
             </section>
 
             <section>
-                <h4>{_("VITAMIN.HEAD3")}</h4>
-                <p className="mt-3">{_("VITAMIN.DESC3")}
-                    <a href="https://ods.od.nih.gov/factsheets/VitaminA-Consumer/" target="_blank">
-                        <small><i>{_("BTN.SRC1")}.</i></small>
-                    </a>
-                </p>
+                <div className="row">
+                <div className="col-md-6 col-12 d-flex flex-column justify-content-center vitamin-block">
+                        <h2>{_("VITAMIN.HEAD4")}</h2>
+                        <p>{_("VITAMIN.DESC4")}</p>
+                    </div>
+                    <div className="col-md-6 col-12 vitamin-block bg-blue">
+                        <img src="/img/without_login_icon.svg" className="m-0 p-0" alt="Apple Health" height={100} width={100} />
+                        <h3>{_("VITAMIN.HEAD5")}</h3>
+                        <p className="mt-3">{_("VITAMIN.DESC5")}</p>
+                    </div>
+                </div>
             </section>
 
             <section>
-                <h4>{_("VITAMIN.HEAD4")}</h4>
-                <p className="mt-3">{_("VITAMIN.DESC4")}
-                    <a href="https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-c/" target="_blank">
-                        <i><small>{_("BTN.FACT")}.</small></i>
-                    </a>
-                </p>
+                <div className="row d-flex vitamin-block bg-green">
+                    <div className="col-md-6 col-12">
+                        <img src="/img/vitamin_vitamins_img.svg" className="p-0 ms-0 vitamin-img-50" alt="Apple Health" height="auto" width="100%" />
+                    </div>
+                    <div className="col-md-6 col-12">
+                        <h3>{_("VITAMIN.HEAD6")}</h3>
+                        <p className="mt-3">{_("VITAMIN.DESC6")}</p>
+                    </div>
+                </div>
             </section>
 
             <section>
