@@ -13,8 +13,8 @@
         "IMG": "Apple Watch wellness and health apps, Здоров'я та фітнес, Додаток для годинника, Додатки для здоров'я"
     },
     "NAV": {
-        "APPS": "Applications",
-        "ABOUT": "About Us"
+        "APPS": "Програми",
+        "ABOUT": "Про нас"
     },
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",
@@ -205,151 +205,151 @@
         "P7": "Ось чому всі наші програми доступні абсолютно безкоштовно. У нас немає монетизації та реклами, і ми ніколи не використовуємо особисті дані для отримання прибутку."
     },
     "TEAM": {
-        "HEAD": "Our Team",
-        "SUBHEAD": "People behind company are as important as the company itself. Meet our highly talented software engineers & designers who make the best wellness apps.",
-        "ENGINEER_MOBILE": "Software Engineer",
-        "ENGINEER_WEB": "Software Engineer",
-        "DESIGNER_UI_UX": "Designer",
-        "ALEX": "Alex",
-        "NICHITA": "Nichita",
-        "ALEVTYNA": "Alevtyna",
-        "DMYTRO": "Dmytro",
-        "SVETLANA": "Svetlana",
-        "ALESIA": "Alesia"
+        "HEAD": "Наша команда",
+        "SUBHEAD": "Люди, які стоять за компанією, такі ж важливі, як і сама компанія. Познайомтеся з нашими талановитими інженерами та дизайнерами, які створюють найкращі програми для здоров’я.",
+        "ENGINEER_MOBILE": "iOS Розробник",
+        "ENGINEER_WEB": "Web-розробник",
+        "DESIGNER_UI_UX": "UI/UX дизайнер",
+        "ALEX": "Алекс",
+        "NICHITA": "Нікіта",
+        "ALEVTYNA": "Алевтина",
+        "DMYTRO": "Дмитро",
+        "SVETLANA": "Світлана",
+        "ALESIA": "Алеся"
     },
     "PP": {
-        "HEAD": "Privacy Policy",
-        "DATE": "Last updated: August 20, 2023",
-        "P1": "Protecting your private information is our priority. This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use any of our mobile apps, visit our website at martspec.com or engage with us in other related ways - including sales, marketing or events.",
-        "P2": "The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.",
-        "P3": "We use Your Personal data to provide and improve the Service. By using the Service or any our mobile apps, You agree to the collection and use of information in accordance with this Privacy Policy.",
+        "HEAD": "Захист даних",
+        "DATE": "Останнє оновлення: 20 серпня 2022 р.",
+        "P1": "Захист вашої особистої інформації є нашим пріоритетом. Цей документ описує нашу політику конфіденційності та процедуру щодо збору, використання та розкриття Вашої інформації, а саме, коли Ви використовуєте будь-яку з наших мобільних додатків, відвідуєте наш веб-сайт за адресою martspec.com або взаємодієте з нами іншими відповідними способами, включаючи продажі, маркетинг чи заходи.",
+        "P2": "Мета цього повідомлення про конфіденційність — якнайкраще пояснити Вам, яку інформацію ми збираємо, як ми її використовуємо і які права Ви маєте щодо неї. Якщо у цьому повідомленні про конфіденційність є будь-які умови, з якими Ви не погоджуєтесь, негайно припиніть використання наших Сервісів.",
+        "P3": "Ми використовуємо Ваші персональні дані для надання та покращення Сервісу. Використовуючи Сервіс або будь-які наші мобільні програми, Ви погоджуєтесь на збирання та використання інформації відповідно до поточної Політики конфіденційності.",
         "DEFINITION": {
-            "HEAD": "Interpretation and Definitions",
-            "P1": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.",
-            "P2": "For the purposes of this Privacy Policy:",
+            "HEAD": "Тлумачення та визначення",
+            "P1": "Слова, в яких початкова літера написана з великою, мають значення, що визначаються за наступних умов. Наступні визначення мають однакове значення незалежно від того, чи стоять вони в однині або у множині.",
+            "P2": "Для цілей поточної Політики конфіденційності:",
             "UL": {
                 "ACCOUNT": {
-                    "STRONG": "Account",
-                    "P1": " means a unique account created for You to access our Service or parts of our Service."
+                    "STRONG": "Аккаунт",
+                    "P1": " означає унікальний обліковий запис, створений для Вас для доступу до нашого Сервісу або його частин."
                 },
                 "APP": {
-                    "STRONG": "App",
-                    "P1": " refers to any mobile application of ours that references or links to this policy and designed for smarge phone, wearable device, tablet or computer."
+                    "STRONG": "Програма",
+                    "P1": " відноситься до будь-якої нашої мобільної програми, яка посилається на цю політику і призначена для смартфонів, пристроїв, що носяться, планшетів або комп'ютерів."
                 },
                 "BUSINESS": {
-                    "STRONG": "Business",
-                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), refers to the Company as the legal entity that collects Consumers' personal information and determines the purposes and means of the processing of Consumers' personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California."
+                    "STRONG": "Бізнес",
+                    "P1": ", для цілей \"CCPA\" (Каліфорнійський закон про захист прав споживачів) відноситься до Компанії як до юридичної особи, яка збирає особисту інформацію Споживачів та визначає цілі та засоби обробки особистої інформації Споживачів, або від імені якої така інформація збирається, і це саме по собі чи спільно з іншими визначає цілі та засоби обробки особистої інформації споживачів, які ведуть бізнес у штаті Каліфорнія."
                 },
                 "COMPANY": {
-                    "STRONG": "Company",
-                    "P1": " (referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement) refers to Martspec LLC, Austin, TX 78749."
+                    "STRONG": "Компанія",
+                    "P1": " (далі \"Компанія\", \"Ми\", \"Нас\" або \"Наш\" у цій Угоді) відноситься до Martspec LLC, Austin, TX 78749."
                 },
                 "CONSUMER": {
-                    "STRONG": "Consumer",
-                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), means a natural person who is a California resident. A resident, as defined in the law, includes (1) every individual who is in the USA for other than a temporary or transitory purpose, and (2) every individual who is domiciled in the USA who is outside the USA for a temporary or transitory purpose."
+                    "STRONG": "Користувач",
+                    "P1": ", для цілей \"CCPA\" (Закон штату Каліфорнія про конфіденційність споживачів) означає фізичну особу, яка є резидентом Каліфорнії. Резидентом, згідно з визначенням у законі, є (1) кожна фізична особа, яка перебуває в США не з тимчасовою або тимчасовою метою, та (2) будь-яка фізична особа, яка постійно проживає в США, яка знаходиться за межами США з тимчасовим або перехідним призначенням"
                 },
                 "COOKIES": {
-                    "STRONG": "Cookies",
-                    "P1": " are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses."
+                    "STRONG": "\"Кукі\"",
+                    "P1": " - це невеликі файли, що розміщуються веб-сайтом на Вашому комп'ютері, мобільному пристрої або будь-якому іншому пристрої, що містять відомості про Вашу історію відвідувань на цьому веб-сайті серед багатьох його використання."
                 },
                 "COUNTRY": {
-                    "STRONG": "Country",
-                    "P1": " refers to: Texas, United States"
+                    "STRONG": "Країна",
+                    "P1": " відноситься до: Техас, США"
                 },
                 "DEVICE": {
-                    "STRONG": "Device",
-                    "P1": " means any device that can access the Service such as a computer, a cellphone or a digital tablet."
+                    "STRONG": "Пристрій",
+                    "P1": " означає будь-який пристрій, який може отримати доступ до Сервісу, наприклад, комп'ютер, мобільний телефон або цифровий планшет."
                 },
                 "PERSONAL_DATA": {
-                    "STRONG": "Personal Data",
-                    "P1": " is any information that relates to an identified or identifiable individual.",
-                    "P2": "For the purposes of the CCPA, Personal Data means any information that identifies, relates to, describes or is capable of being associated with, or could reasonably be linked, directly or indirectly, with You."
+                    "STRONG": "Особисті дані",
+                    "P1": " будь-яка інформація, що стосується ідентифікованої або ідентифікованої фізичної особи.",
+                    "P2": "Для цілей \"CCPA\" Персональні дані означають будь-яку інформацію, яка ідентифікує, відноситься до Вас, описує чи може бути пов'язана з Вами або може бути обґрунтовано пов'язана прямо чи опосередковано з Вами."
                 },
                 "SALE": {
-                    "STRONG": "Sale",
-                    "P1": ", for the purpose of the CCPA (California Consumer Privacy Act), means selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a Consumer's Personal information to another business or a third party for monetary or other valuable consideration."
+                    "STRONG": "Продаж",
+                    "P1": " для цілей \"CCPA\" (Каліфорнійський закон про конфіденційність споживачів) означає продаж, оренду, випуск, розкриття, розповсюдження, надання, передачу або інше повідомлення в усній, письмовій, електронній або іншій формі Персональної інформації Споживача іншій особі, компанії або третій стороні за грошову чи іншу цінну винагороду."
                 },
                 "SERVICE": {
-                    "STRONG": "Service",
-                    "P1": " refers to our Website, App, and other related services, including any sales, marketing, or events."
+                    "STRONG": "Сервіс",
+                    "P1": " відноситься до нашого веб-сайту, додатку та інших супутніх послуг, включаючи будь-які продажі, маркетинг чи заходи."
                 },
                 "SERVICE_PROVIDER": {
-                    "STRONG": "Service Provider",
-                    "P1": " means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used."
+                    "STRONG": "Постачальник послуг",
+                    "P1": " означає будь-яку фізичну чи юридичну особу, яка обробляє дані від імені Компанії. Це стосується сторонніх компаній або фізичних осіб, найманих Компанією для сприяння Послугі, надання Послуги від імені Компанії, надання послуг, пов'язаних з Послугою, або для допомоги Компанії в аналізі того, як використовується Послуга."
                 },
                 "THIRD_PARTY_MEDIA": {
-                    "STRONG": "Third-party Social Media Service",
-                    "P1": " refers to any website or any social network website through which a User can log in or create an account to use the Service."
+                    "STRONG": "Стороння служба соціальних мереж",
+                    "P1": " стосується будь-якого веб-сайту або будь-якого веб-сайту соціальної мережі, через який Користувач може увійти або створити обліковий запис для використання Сервісу."
                 },
                 "USAGE_DATA": {
-                    "STRONG": "Usage Data",
-                    "P1": " refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit)."
+                    "STRONG": "Дані про використання",
+                    "P1": " відноситься до даних, що збираються автоматично, або згенерованими при використанні Сервісу, або з самої інфраструктури Сервісу (наприклад, тривалість відвідування сторінки)."
                 },
                 "WEBSITE": {
-                    "STRONG": "Website",
-                    "P1": " refers to Martspec, accessible from ",
+                    "STRONG": "Веб-сайт",
+                    "P1": " відноситься до Martspec, доступного з ",
                     "A": "https://martspec.com/"
                 },
                 "YOU": {
-                    "STRONG": "You",
-                    "P1": " means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."
+                    "STRONG": "Ви",
+                    "P1": " означає фізичну особу, яка здійснює доступ до Сервісу або використовує її, або компанію, або іншу юридичну особу, від імені якої така фізична особа здійснює доступ до Сервісу або використовує її залежно від обставин."
                 }
             }
         },
         "TYPES_OF_DATA": {
-            "HEAD4": "Types of Data Collected",
+            "HEAD4": "Типи даних, що збираються",
             "HEAD5": {
-                "PERSONAL_DATA": "Personal Data",
-                "USAGE_DATA": "Usage Data",
-                "INFORMATION_COLLECTED": "Information Collected on Device with our App"
+                "PERSONAL_DATA": "Особисті дані",
+                "USAGE_DATA": "Дані про використання",
+                "INFORMATION_COLLECTED": "Інформація, зібрана на пристрої за допомогою нашого додатка"
             },
-            "P1": "While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:",
-            "P2": "Usage Data is collected automatically when using the Service.",
-            "P3": "Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.",
-            "P4": "When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.",
-            "P5": "We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.",
-            "P6": "We may request access or permission to certain features from your device, including your mobile device's and other features. If you wish to change our access or permissions, you may do so in your device's settings. This information is primarily needed to maintain the security and operation of our App, for troubleshooting and for our internal analytics and reporting purposes.",
+            "P1": "При використанні нашого Сервісу Ми можемо попросити Вас надати нам певну особисту інформацію, яка може бути використана для зв'язку або ідентифікації Вас. Особиста інформація може включати, але не обмежується:",
+            "P2": "Дані про використання збираються автоматично під час використання Сервісу.",
+            "P3": "Дані про використання можуть містити таку інформацію, як адреса Інтернет-протоколу вашого пристрою (наприклад, IP-адреса), тип браузера, версія браузера, сторінки нашого Сервісу, які ви відвідуєте, час і дата вашого відвідування, час проведений на цих сторінках, унікальні ідентифікатори пристрою та інші діагностичні дані.",
+            "P4": "Коли ви отримуєте доступ до Служби за допомогою мобільного пристрою або через нього, ми можемо автоматично збирати певну інформацію, включаючи, але не обмежуючись, тип мобільного пристрою, який ви використовуєте, унікальний ідентифікатор вашого мобільного пристрою, IP-адресу вашого мобільного пристрою, ваш мобільний операційна система, тип мобільного Інтернет-браузера, який ви використовуєте, унікальні ідентифікатори пристрою та інші діагностичні дані.",
+            "P5": "Ми також можемо збирати інформацію, яку Ваш браузер надсилає щоразу, коли Ви відвідуєте наш Сервіс або коли Ви отримуєте доступ до Сервісу за допомогою мобільного пристрою.",
+            "P6": "Ми можемо вимагати доступу або дозволу на певні функції вашого пристрою, включаючи функції вашого мобільного пристрою та інші. Якщо ви хочете змінити наш доступ або дозволи, ви можете зробити це в налаштуваннях свого пристрою. Ця інформація в першу чергу потрібна для підтримки безпеки та роботи нашого додатка, для усунення несправностей, а також для внутрішньої аналітики та звітності.",
             "UL1": {
-                "EMAIL": "Email address",
-                "FIRST_LAST_NAMES": "First name and last name",
-                "USAGE_DATA": "Usage Data"
+                "EMAIL": "Адреса електронної пошти",
+                "FIRST_LAST_NAMES": "Ім'я та прізвище",
+                "USAGE_DATA": "Дані про використання"
             },
             "UL2": {
                 "MOBILE_ACCESS": {
-                    "STRONG": "Mobile Device Access. ",
-                    "TEXT": " We may request access or permission to certain features from your mobile device, including your mobile device's apple health, and other features. If you wish to change our access or permissions, you may do so in your device's settings."
+                    "STRONG": "Доступ до мобільного пристрою.",
+                    "TEXT": " Ми можемо запросити доступ або дозвіл на певні функції Вашого пристрою, включаючи функції Вашого мобільного пристрою та інші функції. Якщо Ви бажаєте змінити наш доступ або дозволи, Ви можете зробити це в налаштуваннях Вашого пристрою. Ця інформація в першу чергу необхідна для забезпечення безпеки та роботи нашої Програми, для усунення несправностей, а також для нашої внутрішньої аналітики та звітності."
                 },
                 "MOBILE_DATA": {
-                    "STRONG": "Mobile Device Data.",
-                    "TEXT": " We automatically collect device information (such as your mobile device ID, model and manufacturer), operating system, version information and system configuration information, device and application identification numbers, browser type and version, hardware model, and Internet Protocol (IP) address (or proxy server). If you are using our App, we may also collect information about the phone network associated with your mobile device, your mobile device’s operating system or platform, the type of mobile device you use, your mobile device’s unique device ID and information about the features of our App you accessed."
+                    "STRONG": "Дані мобільного пристрою.",
+                    "TEXT": " Ми автоматично збираємо інформацію про пристрій (наприклад, ідентифікатор Вашого мобільного пристрою, модель і виробник), операційну систему, інформацію про версію та інформацію про конфігурацію системи, ідентифікаційні номери пристрою та програми, тип та версію браузера, модель обладнання та адресу інтернет-протоколу ( IP) (або проксі-сервер). Якщо Ви використовуєте наш Додаток, ми також можемо збирати інформацію про телефонну мережу, пов'язану з Вашим мобільним пристроєм, операційною системою або платформою Вашого мобільного пристрою, типом використовуваного Вами мобільного пристрою, унікальним ідентифікатором Вашого мобільного пристрою та інформацією про функції нашої програми, до яких Ви зверталися. "
                 },
                 "PUSH_NOTIFICATIONS": {
-                    "STRONG": "Push Notifications.",
-                    "TEXT": " We may request to send you push notifications regarding your account or certain features of the App. If you wish to opt-out from receiving these types of communications, you may turn them off in your device's settings."
+                    "STRONG": "Спливаюче повідомлення.",
+                    "TEXT": " Ми можемо запросити надсилання Вам push-повідомлень про Ваш обліковий запис або певні функції Додатка. Якщо Ви хочете відмовитися від отримання таких повідомлень, Ви можете вимкнути їх у налаштуваннях Вашого пристрою."
                 }
             }
         },
         "TRACKING": {
-            "HEAD4": "Tracking Technologies",
-            "HEAD5": "Control for DO-NOT-TRACK features",
+            "HEAD4": "Технології відстеження",
+            "HEAD5": "Управління функціями \"DO-NOT-TRACK\"",
             "P1": {
-                "TEXT": "We use Cookies or similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies might include\nbut not limited to beacons, browser session storage, Cookies, tags, and scripts to collect and track information and to improve and analyze Our Service.\nYou can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent.\nLearn more about cookies: ",
-                "A": "All About Cookies"
+                "TEXT": "Ми використовуємо файли cookie або подібні технології відстеження, щоб відстежувати діяльність на нашому Сервісі та зберігати певну інформацію. Технології відстеження можуть включати\nале не обмежуючись маяками, сховищем сеансів браузера, файлами cookie, тегами та сценаріями для збору та відстеження інформації, а також для покращення та аналізу нашого Сервісу.\nВи можете наказати своєму браузеру відхиляти всі файли cookie або вказувати, коли файли cookie надсилаються.\nДізнайтеся більше про файли cookie: ",
+                "A": "Усе про файли cookie"
             },
-            "P2": "We use \"Persistent\" (remain on your personal computer or mobile device when You go offline) and \"Session\" (deleted as soon as You close your web browser)\ntracking technology for the purposes set out below:",
-            "P3": "Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (\"DNT\") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.",
+            "P2": "Ми використовуємо \"Постійний\" (залишається на вашому персональному комп’ютері чи мобільному пристрої, коли ви перебуваєте в автономному режимі) і \"Сеанс\" (видаляється, щойно ви закриваєте веб-переглядач)\nтехнологіЇ відстеження для цілей, викладених нижче:",
+            "P3": "Більшість веб-браузерів і деяких мобільних операційних систем і програм для мобільних пристроїв включають функцію \"Не відстежувати\" (\"DNT\") або налаштування, які можна активувати, щоб повідомити про ваші налаштування конфіденційності, щоб дані про вашу діяльність у веб-перегляді не відстежувалися та не збиралися. На даному етапі не розроблено єдиного технологічного стандарту для розпізнавання та реалізації сигналів DNT. Таким чином, наразі ми не реагуємо на сигнали браузера DNT або будь-який інший механізм, який автоматично повідомляє про ваш вибір не відстежувати вас в Інтернеті. Якщо буде прийнято стандарт онлайн-відстеження, якого ми повинні дотримуватися в майбутньому, ми повідомимо вас про цю практику в переглянутій версії цього повідомлення про конфіденційність.",
             "UL": {
                 "NECESSARY": {
-                    "P1": "Necessary / Essential",
-                    "P2": "Type: Session",
-                    "P3": "Administered by: Us",
-                    "P4": "Purpose: To provide You with services available through the Website and to enable You to use some of its features. It helps to authenticate users\nand prevent fraudulent use of user accounts. Without it the services that You have asked for cannot be provided, and We only use these to provide You with those services."
+                    "P1": "Необхідне/Суттєве",
+                    "P2": "Тип: Сесія",
+                    "P3": "Управляється: Нами",
+                    "P4": "Ціль: Надання Вам послуг, доступних через Веб-сайт, та надання Вам можливості використовувати деякі його функції. Це допомагає аутентифікувати користувачів та запобігти шахрайському використанню облікових записів користувачів. Без нього послуги, про які Ви просили, не можуть бути надані, і Ми використовуємо їх лише для надання Вам цих послуг."
                 },
                 "FUNCTIONALITY": {
-                    "P1": "Functionality",
-                    "P2": "Type: Persistent",
-                    "P3": "Administered by: Us",
-                    "P4": "Purpose: Allows us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website."
+                    "P1": "Функціональність",
+                    "P2": "Тип: Постійний",
+                    "P3": "Управляється: Нами",
+                    "P4": "Ціль: Дозволяє нам запам'ятати вибір, який Ви робите при використанні Веб-сайту, наприклад, запам'ятовування Ваших реєстраційних даних або мовних уподобань. Мета цього полягає в тому, щоб надати Вам більш особистий досвід і позбавити Вас необхідності повторно вводити свої уподобання кожного разу, коли Ви використовуєте Веб-сайт."
                 }
             }
         },
