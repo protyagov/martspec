@@ -1,7 +1,9 @@
 @import "font.scss";
 @import "color.scss";
+@import "base.scss";
 
 .vitamin {
+  $green-light: #EEFDE7;
   $blue-light: #EFF9FF;
   $blue-accent: $ms-color-button-hover;
 
@@ -31,8 +33,17 @@
     border-radius: 3rem;
     text-align: left;
 
+    &.row > * {
+      padding: 0 !important;
+    }
+
     &.bg-blue {
       background-color: $blue-light;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    
+    &.bg-green {
+      background-color: $green-light;
       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     }
     
@@ -40,6 +51,15 @@
       font-size: 1.3rem;
       color: $ms-color-text-gray;
       margin-bottom: 0;
+    }
+
+    .vitamin-img-50 {
+      max-width: 100%;
+      
+      @media screen and (min-width: $ms-screen-md) {
+        height: 244px;
+        width: 271px;
+      }
     }
   }
 }

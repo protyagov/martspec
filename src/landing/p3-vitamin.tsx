@@ -37,12 +37,15 @@ export default function P3LogVitamin() {
             </section>
 
             <section>
-                <h4>{_("VITAMIN.HEAD2")}</h4>
-                <p className="mt-3">{_("VITAMIN.DESC2")}
-                    <a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-017-4888-1" target="_blank">
-                        <small><i>{_("BTN.SRC2")}.</i></small>
-                    </a>
-                </p>
+                <div className="row d-flex vitamin-block bg-green">
+                    <div className="col-md-6 col-12">
+                        <h3>{_("VITAMIN.HEAD3")}</h3>
+                        <p className="mt-3">{_("VITAMIN.DESC3")}</p>
+                    </div>
+                    <div className="col-md-6 col-12 order-md-last order-first">
+                        <img src="/img/vitamin_minerals_img.svg" className="p-0 float-end vitamin-img-50" alt="Apple Health" height="auto" width="100%" />
+                    </div>
+                </div>
             </section>
 
             <section>
