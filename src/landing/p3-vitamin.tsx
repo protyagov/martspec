@@ -75,12 +75,13 @@ export default function P3LogVitamin() {
             </section>
 
             <section>
-                <h4>{_("VITAMIN.HEAD5")}</h4>
-                <p className="mt-3">{_("VITAMIN.DESC5")}
-                    <a href="https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/" target="_blank">
-                        <i><small>{_("BTN.MORE")}.</small></i>
-                    </a>
-                </p>
+                <div className="row d-flex vitamin-block bg-blue">
+                    <div className="col">
+                        <h3>{_("VITAMIN.HEAD7")}</h3>
+                        <p className="mt-3">{_("VITAMIN.DESC7")}</p>
+                        <img src="/img/vitamin_mockups.png" alt={_("VITAMIN.HEAD7")} className="p-0 vitamin-img-100" />
+                    </div>
+                </div>
             </section>
 
             <section>
