@@ -85,12 +85,14 @@ export default function P3LogVitamin() {
             </section>
 
             <section>
-                <h4>{_("VITAMIN.HEAD6")}</h4>
-                <p className="mt-3">{_("VITAMIN.DESC6")}
-                    <a href="https://www.mayoclinic.org/drugs-supplements-vitamin-e/art-20364144" target="_blank">
-                        <i><small>{_("BTN.SRC1")}.</small></i>
-                    </a>
-                </p>
+                <div className="row">
+                    <div className="col">
+                        <p>{_("VITAMIN.DESC8_1")}</p>
+                        <p>{_("VITAMIN.DESC8_2")}</p>
+                        <p>{_("VITAMIN.DESC8_3")}</p>
+                        <p>{_("VITAMIN.DESC8_4")}</p>
+                    </div>
+                </div>
             </section>
 
             <section>
