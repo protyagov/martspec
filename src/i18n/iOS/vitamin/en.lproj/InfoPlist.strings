@@ -1,5 +1,0 @@
-"CFBundleDisplayName" = "Vitamin";
-"CFBundleName" = "Vitamin";
-
-"NSHealthShareUsageDescription" = "We need read access to nutrition data in the Apple Health Store to present it to you in the app.";
-"NSHealthUpdateUsageDescription" = "We need update access to nutrition data in the Apple Health Store so that you can add new values from the app.";

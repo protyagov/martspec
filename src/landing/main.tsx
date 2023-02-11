@@ -178,7 +178,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/p_emotion.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("EMOTION.IMG")} />
+                            <ImageI18N src="/img/emotion.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("EMOTION.IMG")} />
                         </div>
                         <div className="p-text">
                             <h2>{_("EMOTION.TEXT")}</h2>
