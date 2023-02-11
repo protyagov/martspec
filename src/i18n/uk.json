@@ -355,244 +355,244 @@
         },
         "PERSONAL_DATA": {
             "USE": {
-                "HEAD4": "Use of Your Personal Data",
+                "HEAD4": "Використання ваших персональних даних",
                 "HEAD5": {
-                    "DISCLOSE": "Disclose of your personal information may happen in the following situations:",
-                    "USE": "Use of your Personal Data might be for the following purposes:",
-                    "SHARING": "Sharing of your personal information might be in the following situations:"
+                    "DISCLOSE": "Розкриття вашої особистої інформації може статися в таких ситуаціях:",
+                    "USE": "Ваші персональні дані можуть використовуватися для наступних цілей:",
+                    "SHARING": "Обмін вашою особистою інформацією може мати місце в таких ситуаціях:"
                 },
                 "UL1": {
                     "LAW_ENFORCEMENT": {
-                        "STRONG": "Law Enforcement:",
-                        "TEXT": " We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements)."
+                        "STRONG": "Правоохоронні органи:",
+                        "TEXT": " Ми можемо розкривати вашу інформацію, якщо ми зобов’язані це робити згідно з чинним законодавством, урядовими запитами, судовим провадженням, ухвалою суду чи судовим процесом, наприклад у відповідь на ухвалу суду чи повістку (зокрема у відповідь органам державної влади для виконання вимог національної безпеки чи правоохоронних органів)."
                     },
                     "BUSINESS_TRANSFER": {
-                        "STRONG": "For Business Transfers:",
-                        "TEXT": " We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company."
+                        "STRONG": "Для ділових переказів:",
+                        "TEXT": " Ми можемо надавати або передавати вашу інформацію у зв’язку з або під час переговорів щодо будь-якого злиття, продажу активів компанії, фінансування або придбання всього або частини нашого бізнесу іншій компанії."
                     },
                     "OTHER": {
-                        "STRONG": "Other legal requirements:",
-                        "TEXT": " The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:",
+                        "STRONG": "Інші юридичні вимоги:",
+                        "TEXT": " Компанія може розкрити Ваші персональні дані, добросовісно вважаючи, що така дія необхідна для:",
                         "UL": {
-                            "L1": "Comply with a legal obligation",
-                            "L2": "Protect and defend the rights or property of the Company",
-                            "L3": "Prevent or investigate possible wrongdoing in connection with the Service",
-                            "L4": "Protect the personal safety of Users of the Service or the public",
-                            "L5": "Protect against legal liability"
+                            "L1": "Дотримання юридичного зобов'язання",
+                            "L2": "Захист прав або власності Компанії",
+                            "L3": "Запобігання або розслідування можливих правопорушень у зв'язку з Сервісом",
+                            "L4": "Захист особистої безпеки Користувачів Сервісу або громадськості",
+                            "L5": "Захист від юридичної відповідальності"
                         }
                     }
                 },
                 "UL2": {
                     "L1": {
-                        "STRONG": "To provide and maintain our Service",
-                        "TEXT": ", including to monitor the usage of our Service."
+                        "STRONG": "Щоб надавати та підтримувати наш Сервіс",
+                        "TEXT": ", зокрема для моніторингу використання нашого Сервісу."
                     },
                     "L2": {
-                        "STRONG": "To manage Your Account:",
-                        "TEXT": " to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user."
+                        "STRONG": "Щоб керувати своїм обліковим записом:",
+                        "TEXT": " для керування Вашою реєстрацією як користувача Сервісу. Персональні дані, які ви надаєте, можуть надати вам доступ до різних функцій Сервісу, які доступні вам як зареєстрованому користувачеві."
                     },
                     "L3": {
-                        "STRONG": "For the performance of a contract:",
-                        "TEXT": " Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract."
+                        "STRONG": "Для виконання договору:",
+                        "TEXT": " Якщо ми уклали з вами договір, ми можемо обробляти вашу особисту інформацію для виконання умов нашого контракту."
                     },
                     "L4": {
-                        "STRONG": "To contact You:",
-                        "TEXT": " To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation."
+                        "STRONG": "Щоб зв'язатися з вами:",
+                        "TEXT": " Зв’язуватися з вами електронною поштою, телефонними дзвінками, SMS або іншими еквівалентними формами електронного зв’язку, як-от push-повідомлення мобільного додатка щодо оновлень або інформаційних повідомлень, пов’язаних із функціями, продуктами чи контрактними послугами, включаючи оновлення безпеки, коли це необхідно або розумно для їх реалізації."
                     },
                     "L5": {
-                        "STRONG": "To provide You",
-                        "TEXT": " with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information."
+                        "STRONG": "Для надання Вам",
+                        "TEXT": " новин, спеціальних пропозицій та загальну інформацію про інші товари, послуги та події, які ми пропонуємо, подібні до тих, які ви вже придбали або про які запитували, якщо ви не вирішили не отримувати таку інформацію."
                     },
                     "L6": {
-                        "STRONG": "For Legitimate Interests:",
-                        "TEXT": " We may process your data when it is reasonably necessary to achieve our legitimate business interests."
+                        "STRONG": "Для законних інтересів:",
+                        "TEXT": " Ми можемо обробляти ваші дані, коли це обґрунтовано необхідно для досягнення наших законних ділових інтересів."
                     },
                     "L7": {
-                        "STRONG": "To manage Your requests:",
-                        "TEXT": " To attend and manage Your requests to Us."
+                        "STRONG": "Щоб керувати вашими запитами:",
+                        "TEXT": " Для відвідування та обробки ваших запитів до нас."
                     },
                     "L8": {
-                        "STRONG": "Request feedback.",
-                        "TEXT": " We may use your information to request feedback and to contact you about your use of our Services."
+                        "STRONG": "Запит на відгук.",
+                        "TEXT": " Ми можемо використовувати вашу інформацію, щоб отримати відгук і зв’язатися з вами щодо використання вами наших Послуг."
                     }
                 },
                 "UL3": {
                     "L1": {
-                        "STRONG": "With Service Providers:",
-                        "TEXT": " We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You."
+                        "STRONG": "З постачальниками послуг:",
+                        "TEXT": " Ми можемо надавати Вашу особисту інформацію Постачальникам послуг для моніторингу та аналізу використання нашого Сервісу, щоб зв’язуватися з Вами."
                     },
                     "L2": {
-                        "STRONG": "For Business transfers:",
-                        "TEXT": " We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of our business to another company."
+                        "STRONG": "Для бізнес-перекладів:",
+                        "TEXT": " Ми можемо надавати або передавати Вашу особисту інформацію у зв’язку з будь-яким злиттям, продажем активів Компанії, фінансуванням або придбанням всього або частини нашого бізнесу іншій компанії або під час переговорів щодо них."
                     },
                     "L3": {
-                        "STRONG": "With Affiliates:",
-                        "TEXT": " We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us."
+                        "STRONG": "З філіалами:",
+                        "TEXT": " Ми можемо надати вашу інформацію нашим афілійованим особам, і в цьому випадку ми вимагатимемо від цих афілійованих осіб дотримання цієї Політики конфіденційності. До афілійованих осіб належать наша материнська компанія та будь-які інші дочірні компанії, партнери по спільним підприємствам або інші компанії, які ми контролюємо або які перебувають під спільним контролем з нами."
                     },
                     "L4": {
-                        "STRONG": "With Business partners:",
-                        "TEXT": " We may share Your information with Our business partners to offer You certain products, services or promotions."
+                        "STRONG": "З бізнес-партнерами:",
+                        "TEXT": " Ми можемо надавати вашу інформацію нашим діловим партнерам, щоб пропонувати вам певні продукти, послуги чи акції."
                     },
                     "L5": {
-                        "STRONG": "With other users:",
-                        "TEXT": " when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. If You interact with other users or register through a Third-Party Social Media Service, Your contacts on the Third-Party Social Media Service may see Your name, profile, pictures and description of Your activity. Similarly, other users will be able to view descriptions of Your activity, communicate with You and view Your profile."
+                        "STRONG": "З іншими користувачами:",
+                        "TEXT": " коли Ви ділитеся особистою інформацією або іншим чином взаємодієте в публічних зонах з іншими користувачами, така інформація може переглядатися всіма користувачами та може бути публічно поширена за межами. Якщо ви взаємодієте з іншими користувачами або реєструєтеся через сторонню службу соціальних мереж, ваші контакти в сторонній службі соціальних мереж можуть бачити ваше ім’я, профіль, фотографії та опис вашої діяльності. Так само інші користувачі зможуть переглядати описи Вашої діяльності, спілкуватися з Вами та переглядати Ваш профіль."
                     }
                 }
             },
             "RETENTION": {
-                "HEAD4": "Retention of Your Personal Data",
-                "P1": "The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy\nPolicy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example,\nif we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements\nand policies.",
-                "P2": "The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time,\nexcept when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated\nto retain this data for longer time periods.",
-                "P3": "When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such\ninformation, or, if this is not possible (for example, because your personal information has been stored in backup archives), then\nwe will securely store your personal information and isolate it from any further processing until deletion is possible."
+                "HEAD4": "Зберігання ваших персональних даних",
+                "P1": "Компанія зберігатиме ваші персональні дані лише до тих пір, поки це необхідно для цілей, викладених у цій Політиці Конфіденційності.\n Ми зберігатимемо та використовуватимемо Ваші персональні дані в обсязі, необхідному для виконання наших юридичних зобов’язань (наприклад,\nякщо ми повинні зберігати ваші дані для дотримання чинного законодавства), вирішувати суперечки та виконувати наші юридичні угоди\nі політики.",
+                "P2": "Компанія також зберігатиме Дані про використання для цілей внутрішнього аналізу. Дані про використання зазвичай зберігаються протягом коротшого періоду часу,\nза винятком випадків, коли ці дані використовуються для посилення безпеки чи покращення функціональності нашого Сервісу, або коли ми зобов’язані юридично\nщоб зберегти ці дані протягом більш тривалого часу.",
+                "P3": "Якщо у нас немає поточної законної комерційної потреби обробляти вашу особисту інформацію, ми або видалимо її, або зробимо її анонімною\nабо, якщо це неможливо (наприклад, тому що ваша особиста інформація зберігається в резервних архівах), то\nми будемо надійно зберігати вашу особисту інформацію та ізолювати її від будь-якої подальшої обробки, доки видалення не стане можливим."
             },
             "TRANSFER": {
-                "HEAD4": "Transfer of Your Personal Data",
-                "P1": "Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.",
-                "P2": "By using our Service you consent to this Privacy Policy and Your agreement to that transfer.",
-                "P3": "The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information."
+                "HEAD4": "Передача ваших персональних даних",
+                "P1": "Ваша інформація, включно з Персональними даними, обробляється в робочих офісах Компанії та в будь-яких інших місцях, де знаходяться сторони, залучені до обробки. Це означає, що ця інформація може передаватись на комп’ютери, розташовані за межами Вашого штату, провінції, країни чи іншої урядової юрисдикції, де закони про захист даних можуть відрізнятися від законів Вашої юрисдикції.",
+                "P2": "Користуючись нашим Сервісом, ви погоджуєтеся з цією Політикою Конфіденційності та погоджуєтеся на таку передачу.",
+                "P3": "Компанія вживатиме всіх розумно необхідних заходів для забезпечення безпечного поводження з вашими даними відповідно до цієї Політики конфіденційності, і жодна передача ваших особистих даних організації чи країні не здійснюватиметься, якщо не буде встановлено адекватних засобів контролю, включаючи безпеку Ваші дані та інша особиста інформація."
             },
             "SECURITY": {
-                "HEAD4": "Security of Your Personal Data",
-                "P": "The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security."
+                "HEAD4": "Безпека ваших персональних даних",
+                "P": "Безпека ваших особистих даних важлива для нас, але пам’ятайте, що жоден метод передачі через Інтернет або метод електронного зберігання не є на 100% безпечним. Незважаючи на те, що ми прагнемо використовувати комерційно прийнятні засоби захисту ваших персональних даних, ми не можемо гарантувати їх абсолютну безпеку."
             }
         },
         "CHILD": {
-            "HEAD4": "Children Under Thirteen",
-            "P": "We do not knowingly collect personally identifiable information from children under the age of thirteen. If you are under the age of thirteen, you must\nask your parent or guardian for permission to use this Service or any of our mobile applications."
+            "HEAD4": "Діти до тринадцяти років",
+            "P": "Ми свідомо не збираємо особисту інформацію дітей віком до тринадцяти років. Якщо вам менше тринадцяти років, ви повинні\nзапитати у своїх батьків або опікунів дозволу на використання цієї Послуги або будь-якої з наших мобільних програм."
         },
         "RIGHTS": {
-            "HEAD4": "What are your Privacy Rights ?",
-            "HEAD5": "Account Information",
-            "P1": "In some regions (like the EEA and UK), you have certain rights under applicable data protection laws. These may include the right (i) to\nrequest access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing\nof your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object\nto the processing of your personal information. To make such a request, please use the <b>contact details</b> provided below. We will\nconsider and act upon any request in accordance with applicable data protection laws.",
-            "P2": "If we are relying on your consent to process your personal information, you have the right to withdraw your consent at any time. Please\nnote however that this will not affect the lawfulness of the processing before its withdrawal, nor will it affect the processing of your\npersonal information conducted in reliance on lawful processing grounds other than consent.",
+            "HEAD4": "Які ваші права на конфіденційність?",
+            "HEAD5": "Інформація про обліковий запис",
+            "P1": "У деяких регіонах (наприклад, ЄЕЗ та Великобританія) ви маєте певні права відповідно до чинного законодавства про захист даних. Вони можуть включати право (i) на\nподати запит на доступ і отримати копію вашої особистої інформації, (ii) подати запит на виправлення або видалення; (iii) обмежити обробку\nвашої особистої інформації; та (iv) якщо застосовно, щодо переносимості даних. За певних обставин ви також можете мати право на заперечення\nна обробку вашої особистої інформації. Щоб зробити такий запит, скористайтеся контактною інформацією, наведеною нижче. Ми будемо\nрозглядати та реагувати на будь-який запит відповідно до чинного законодавства про захист даних.",
+            "P2": "Якщо ми покладаємося на вашу згоду на обробку вашої особистої інформації, ви маєте право відкликати свою згоду в будь-який час. Будь ласка\nоднак зауважте, що це не вплине на законність обробки до її відкликання, а також не вплине на обробку ваших\nперсональні дані, проведені на підставі законної обробки, крім згоди.",
             "P3": {
-                "TEXT": "If you are a resident in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right\nto complain to your local data protection supervisory authority. You can find their contact details here: ",
+                "TEXT": "Якщо ви є резидентом ЄЕЗ або Великобританії і вважаєте, що ми незаконно обробляємо вашу особисту інформацію, ви також маєте право\nподати скаргу до місцевого органу з нагляду за захистом даних. Ви можете знайти їх контактні дані тут: ",
                 "A": "https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm"
             },
             "P4": {
-                "TEXT": "If you are a resident in Switzerland, the contact details for the data protection authorities are available here: ",
+                "TEXT": "Якщо ви є резидентом Швейцарії, контактні дані органів із захисту даних доступні тут: ",
                 "A": "https://www.edoeb.admin.ch/edoeb/en/home.html"
             },
-            "P5": "If you would at any time like to review or change the information in your account or terminate your account, you can:\nLog in to your account settings and update your user account.\nUpon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our Terms of Use and/or comply with applicable legal requirements."
+            "P5": "Якщо ви в будь-який час захочете переглянути або змінити інформацію у своєму обліковому записі або припинити дію свого облікового запису, ви можете:\nУвійдіть у налаштування свого облікового запису та оновіть обліковий запис користувача.\nПісля вашого запиту на припинення дії вашого облікового запису ми деактивуємо або видалимо ваш обліковий запис і інформацію з наших активних баз даних. Однак ми можемо зберігати певну інформацію в наших файлах, щоб запобігти шахрайству, усунути проблеми, допомогти в будь-яких розслідуваннях, забезпечити дотримання наших Умов використання та/або дотримання відповідних юридичних вимог."
         },
         "CCPA": {
             "HEAD4": {
-                "CCPA": "CCPA Privacy",
-                "CALIFORNIA": "Your California Privacy Rights (California's Shine the Light law)",
-                "MINOR": "California Privacy Rights for Minor Users (California Business and Professions Code Section 22581)",
-                "EXERCISING": "Exercising Your CCPA Data Protection Rights",
-                "YOUR_RIGHTS": "Your Rights under the CCPA",
-                "PERSONAL_INFORMATION": "Personal Information Collecting and Sharing under CCPA"
+                "CCPA": "\"CCPA\" Конфіденційність",
+                "CALIFORNIA": "Ваші права на недоторканність приватного життя в Каліфорнії (Закон штату Каліфорнія Shine the Light)",
+                "MINOR": "Права на недоторканність приватного життя в Каліфорнії для неповнолітніх користувачів (розділ 22581 Кодексу бізнесу та професій штату Каліфорнія)",
+                "EXERCISING": "Здійснення Ваших прав на захист даних \"CCPA\"",
+                "YOUR_RIGHTS": "Ваші права відповідно до \"CCPA\"",
+                "PERSONAL_INFORMATION": "Збір та передача особистої інформації відповідно до \"CCPA\""
             },
             "HEAD5": {
-                "SHARED": "Will your information be shared with anyone else?",
-                "YOUR_RIGHTS": "Your rights with respect to your personal data",
-                "OTHER": "Other privacy rights"
+                "SHARED": "Чи нададуть вашу інформацію іншим?",
+                "YOUR_RIGHTS": "Ваші права щодо ваших персональних даних",
+                "OTHER": "Інші права на конфіденційність"
             },
-            "P1": "Under California Civil Code Section 1798 (California's Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties' direct marketing purposes.",
-            "P2": "If you'd like to request more information under the California Shine the Light law, and if you are a California resident, You can contact Us using the contact information provided below.",
-            "P3": "If you are under 18 years of age, reside in California, and have a registered account with a Service, you have the right to request removal of unwanted data that you publicly post on the Services. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g. backups, etc.).",
-            "P4": "California Business and Professions Code section 22581 allow California residents under the age of 18 who are registered users of online sites, services or applications to request and obtain removal of content or information they have publicly posted.",
-            "P5": "To request removal of such data, and if you are a California resident, You can contact Us using the contact information provided below, and include the email address associated with Your account.",
-            "P6": "Be aware that Your request does not guarantee complete or comprehensive removal of content or information posted online and that the law may not permit or require removal in certain circumstances.",
+            "P1": "Відповідно до розділу 1798 Цивільного кодексу Каліфорнії (Закон штату Каліфорнія «Shine the Light») жителі Каліфорнії, які з нами встановилися ділові відносини, можуть один раз на рік вимагати інформацію про передачу своїх Персональних даних третім особам з метою прямого маркетингу третіх осіб.",
+            "P2": "Якщо ви хочете отримати додаткову інформацію відповідно до закону Каліфорнії «Освіти світлом» і якщо ви є резидентом Каліфорнії, ви можете зв’язатися з нами, використовуючи контактну інформацію, наведену нижче.",
+            "P3": "Якщо вам менше 18 років, ви проживаєте в Каліфорнії та маєте зареєстрований обліковий запис у Службі, ви маєте право вимагати видалення небажаних даних, які ви публічно опублікуєте в Службі. Щоб подати запит на видалення таких даних, будь ласка, зв’яжіться з нами, використовуючи контактну інформацію, указану нижче, і вкажіть адресу електронної пошти, пов’язану з вашим обліковим записом, і заяву про те, що ви проживаєте в Каліфорнії. Ми подбаємо про те, щоб дані не були публічно відображені в Службах, але майте на увазі, що дані не можуть бути повністю або повністю видалені з усіх наших систем (наприклад, резервні копії тощо).",
+            "P4": "Розділ 22581 Кодексу бізнесу та професій Каліфорнії дозволяє жителям Каліфорнії віком до 18 років, які є зареєстрованими користувачами онлайн-сайтів, служб або додатків, вимагати видалення вмісту чи інформації, які вони публічно опублікували.",
+            "P5": "Щоб подати запит на видалення таких даних, і якщо ви є резидентом Каліфорнії, ви можете зв’язатися з нами, використовуючи контактну інформацію, указану нижче, і вказати адресу електронної пошти, пов’язану з вашим обліковим записом.",
+            "P6": "Майте на увазі, що ваш запит не гарантує повного чи повного видалення вмісту чи інформації, розміщеної в Інтернеті, і що закон може не дозволяти або вимагати видалення за певних обставин.",
             "P7": {
-                "TEXT1": "In order to exercise any of Your rights under the CCPA, and if you are a California resident. The California Code of Regulations defines a \"resident\" as:",
-                "TEXT2": "All other individuals are defined as \"non-residents\".\nIf this definition of \"resident\" applies to you, we must adhere to certain rights and obligations regarding your personal information.",
+                "TEXT1": "Щоб реалізувати будь-які Ваші права відповідно до \"CCPA\", і якщо ви є резидентом Каліфорнії. Кодекс правил Каліфорнії визначає «резидента» як:",
+                "TEXT2": "Усі інші фізичні особи визначені як «нерезиденти».\nЯкщо це визначення «резидента» стосується вас, ми повинні дотримуватися певних прав і зобов’язань щодо вашої особистої інформації.",
                 "UL": {
-                    "L1": "every individual who is in the State of California for other than a temporary or transitory purpose and",
-                    "L2": " every individual who is domiciled in the State of California who is outside the State of California for a temporary or transitory purpose"
+                    "L1": "кожній особі, яка перебуває в штаті Каліфорнія не з тимчасовою чи тимчасовою метою, а також",
+                    "L2": " кожна особа, яка проживає в штаті Каліфорнія, яка перебуває за межами штату Каліфорнія з тимчасовою або тимчасовою метою"
                 }
             },
-            "P8": "The Company will disclose and deliver the required information free of charge within 45 days of receiving Your verifiable request. The time period to provide the required information may be extended once by an additional 45 days when reasonable necessary and with prior notice.",
-            "P9": "Under this Privacy Policy, and by law if You are a resident of California, You have the following rights:",
-            "P10": "We do not sell personal information. More information about our data collection and sharing practices can be found in this privacy notice.\nYou may contact us by referring to the contact details at the bottom of this document.",
-            "P11": "If you are using an authorized agent to exercise your right to opt-out we may deny a request if the authorized agent\ndoes not submit proof that they have been validly authorized to act on your behalf.",
-            "P12": "We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Each service provider is a for-profit entity that processes the information on our behalf.",
-            "P13": "We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be \"selling\" of your personal data.",
-            "P14": "Martspec LLC has not disclosed or sold any personal information to third parties for a business or commercial purpose in the preceding 12 months. Martspec LLC will not sell personal information in the future belonging to website visitors, users and other consumers.",
-            "P15": "To exercise these rights, you can contact us by by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.  ",
+            "P8": "Компанія розкриє та надасть необхідну інформацію безкоштовно протягом 45 днів після отримання вашого перевіреного запиту. Період часу для надання необхідної інформації може бути продовжений один раз на додаткові 45 днів, коли це обґрунтовано необхідно та з попереднім повідомленням.",
+            "P9": "Згідно з цією Політикою конфіденційності та законом, якщо ви є резидентом Каліфорнії, ви маєте такі права:",
+            "P10": "Ми не продаємо особисту інформацію. Додаткову інформацію про наші практики збору та обміну даними можна знайти в цьому повідомленні про конфіденційність.\nВи можете зв’язатися з нами, вказавши контактну інформацію внизу цього документа.",
+            "P11": "Якщо ви використовуєте уповноваженого агента, щоб скористатися своїм правом на відмову, ми можемо відхилити запит, якщо уповноважений агент\nне надає доказів того, що вони були належним чином уповноважені діяти від вашого імені.",
+            "P12": "Ми можемо розкривати вашу особисту інформацію нашим постачальникам послуг відповідно до письмового договору між нами та кожним постачальником послуг. Кожен постачальник послуг є комерційною організацією, яка обробляє інформацію від нашого імені.",
+            "P13": "Ми можемо використовувати вашу особисту інформацію для власних бізнес-цілей, наприклад для проведення внутрішніх досліджень для технологічного розвитку та демонстрації. Це не вважається «продажем» ваших персональних даних.",
+            "P14": "ТОВ \"Martspec\" не розкривало та не продавало будь-яку особисту інформацію третім особам у ділових чи комерційних цілях протягом попередніх 12 місяців. ТОВ \"Martspec\" не буде в майбутньому продавати особисту інформацію, що належить відвідувачам сайту, користувачам та іншим споживачам.",
+            "P15": "Щоб скористатися цими правами, ви можете зв’язатися з нами, вказавши контактну інформацію внизу цього документа. Якщо у вас є скарги щодо того, як ми обробляємо ваші дані, ми хотіли б почути вашу думку. ",
             "UL1": {
                 "L1": {
-                    "STRONG": "The right to notice.",
-                    "TEXT": " You must be properly notified which categories of Personal Data are being collected and the purposes for which the Personal Data is being used."
+                    "STRONG": "Право на Попередження.",
+                    "TEXT": " Ви повинні бути належним чином повідомлені про те, які категорії персональних даних збираються та для яких цілей вони використовуються."
                 },
                 "L2": {
-                    "STRONG": "The right to access / the right to request.",
-                    "TEXT": " The CCPA permits You to request and obtain from the Company information regarding the disclosure of Your Personal Data that has been collected in the past 12 months by the Company or its subsidiaries to a third-party for the third party's direct marketing purposes."
+                    "STRONG": "Право на доступ / Право на запит.",
+                    "TEXT": " \"CCPA\" дозволяє Вам запитувати та отримувати від Компанії інформацію про розкриття Ваших Персональних даних, які були зібрані Компанією або її дочерніми компаніями за останні 12 місяців, третьої сторони для цілей прямого маркетингу третьої сторони."
                 },
                 "L3": {
-                    "STRONG": "The right to say no to the sale of Personal Data.",
-                    "TEXT": " You also have the right to ask the Company not to sell Your Personal Data to third parties. You can submit such a request by visiting our \"Do Not Sell My Personal Information\" section or web page."
+                    "STRONG": "Право відмовитися від продажу персональних даних.",
+                    "TEXT": " Ви також маєте право вимагати від Компанії не продавати Ваші персональні дані третім особам. Ви можете подати такий запит, відвідавши наш розділ «Не продавати мою особисту інформацію» або веб-сторінку."
                 },
                 "L4": {
-                    "STRONG": "The right to know about Your Personal Data.",
-                    "TEXT": " You have the right to request and obtain from the Company information regarding the disclosure of the following:",
+                    "STRONG": "Право знати про Ваші персональні дані.",
+                    "TEXT": " Ви маєте право вимагати та отримувати від Компанії інформацію щодо розкриття наступної інформації:",
                     "UL": {
-                        "L1": "The categories of Personal Data collected",
-                        "L2": "The sources from which the Personal Data was collected",
-                        "L3": "The business or commercial purpose for collecting or selling the Personal Data",
-                        "L4": "Categories of third parties with whom We share Personal Data",
-                        "L5": "The specific pieces of Personal Data we collected about You"
+                        "L1": "Категорії зібраних Персональних даних",
+                        "L2": "Джерела, з яких були зібрані Персональні дані",
+                        "L3": "Ділова або комерційна мета збору або продажу Персональних даних",
+                        "L4": "Категорії третіх сторін, з якими ми надаємо Персональні дані",
+                        "L5": "Конкретні частини Персональних даних, які ми зібрали про вас"
                     }
                 },
                 "L5": {
-                    "STRONG": "The right to delete Personal Data.",
-                    "TEXT": " You also have the right to request the deletion of Your Personal Data that have been collected in the past 12 months."
+                    "STRONG": "Право на видалення Персональних даних.",
+                    "TEXT": " Ви також маєте право вимагати видалення ваших персональних даних, які були зібрані протягом останніх 12 місяців."
                 },
                 "L6": {
-                    "STRONG": "The right not to be discriminated against.",
-                    "TEXT": " You have the right not to be discriminated against for exercising any of Your Consumer's rights, including by:",
+                    "STRONG": "Право не бути дискримінованим.",
+                    "TEXT": " Ви маєте право не зазнавати дискримінації за здійснення будь-яких прав Вашого споживача, зокрема через:",
                     "UL": {
-                        "L1": "Denying goods or services to You",
-                        "L2": "Charging different prices or rates for goods or services, including the use of discounts or other benefits or imposing penalties",
-                        "L3": "Providing a different level or quality of goods or services to You",
-                        "L4": "Suggesting that You will receive a different price or rate for goods or services or a different level or quality of goods or services."
+                        "L1": "Відмова в товарах або послугах для Вас",
+                        "L2": "Встановлення різних цін або тарифів на товари чи послуги, включаючи використання знижок чи інших пільг або накладення штрафів",
+                        "L3": "Надання вам товарів або послуг іншого рівня або якості",
+                        "L4": "Припущення про те, що ви отримаєте іншу ціну чи тариф на товари чи послуги або інший рівень чи якість товарів чи послуг."
                     }
                 }
             },
             "UL2": {
-                "L1": "Right to request deletion of the data - Request to delete",
-                "L2": "Right to be informed - Request to know",
-                "L3": "Right to Non-Discrimination for the Exercise of a Consumer’s Privacy Rights",
-                "L4": "Verification process"
+                "L1": "Право вимагати видалення даних - Запит на видалення",
+                "L2": "Право бути поінформованим - запитати інформацію",
+                "L3": "Право на недискримінацію щодо реалізації прав споживача на конфіденційність",
+                "L4": "Процес перевірки"
             },
             "UL3": {
-                "L1": "you may object to the processing of your personal data",
-                "L2": "you may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the data",
-                "L3": "you can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.",
-                "L4": "you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission."
+                "L1": "ви можете заперечити проти обробки ваших персональних даних",
+                "L2": "ви можете вимагати виправлення своїх персональних даних, якщо вони невірні або більше не актуальні, або просити обмежити обробку даних",
+                "L3": "ви можете призначити уповноваженого агента для подання запиту відповідно до CCPA від Вашого імені. Ми можемо відхилити запит від уповноваженого агента, який не надасть доказів того, що він справді був уповноважений діяти від Вашого імені відповідно до \"CCPA\".",
+                "L4": "ви можете попросити відмовитися від майбутнього продажу вашої особистої інформації третім сторонам. Отримавши запит на відмову, ми виконаємо його якнайшвидше, але не пізніше ніж через 15 днів з дати подання запиту."
             }
         },
         "LINK": {
-            "HEAD4": "Links to Other Websites",
-            "P1": "Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.",
-            "P2": "We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services."
+            "HEAD4": "Посилання на інші веб-сайти",
+            "P1": "Наш Сервіс може містити посилання на інші веб-сайти, якими ми не керуємо. Якщо ви клацнете посилання третьої сторони, вас буде спрямовано на сайт цієї третьої сторони. Ми настійно рекомендуємо Вам переглядати Політику конфіденційності кожного сайту, який Ви відвідуєте.",
+            "P2": "Ми не контролюємо та не несемо відповідальності за вміст, Політику Конфіденційності чи практику будь-яких сторонніх сайтів чи служб."
         },
         "CHANGES": {
-            "HEAD4": "Changes to this Privacy Policy",
-            "P1": "We may update our Privacy Policy from time to time. The updated version will be indicated by an updated \"Last updated\" date and the updated version will be effective as soon as it is accessible. ",
-            "P2": "You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
+            "HEAD4": "Зміни до цієї Політики Конфіденційності",
+            "P1": "Час від часу ми можемо оновлювати нашу Політику Конфіденційності. Оновлена версія буде позначена оновленою датою «Останнє оновлення», і оновлена версія набуде чинності, щойно стане доступною.",
+            "P2": "Рекомендуємо періодично переглядати цю Політику Конфіденційності на предмет будь-яких змін. Зміни до цієї Політики конфіденційності набувають чинності, коли вони опубліковані на цій сторінці."
         },
         "CONTACT": {
-            "HEAD4": "Contact Us",
-            "TEXT": "If you have any questions about this Privacy Policy, You can contact us:",
+            "HEAD4": "Зв'яжіться з нами",
+            "TEXT": "Якщо у вас виникли запитання щодо цієї Політики конфіденційності, ви можете зв’язатися з нами:",
             "UL": {
                 "L1": {
-                    "TEXT": "By visiting this page on our website: ",
+                    "TEXT": "Відвідавши цю сторінку на нашому веб-сайті: ",
                     "A": "https://martspec.com/privacy-policy"
                 },
                 "L2": {
-                    "TEXT": "Via our FaceBook messager at ",
+                    "TEXT": "Через наш месенджер у Facebook за адресою ",
                     "A": "Martspec @ FaceBook",
                     "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "Via our Twitter messager at ",
+                    "TEXT": "Через наш месенджер у Twitter за адресою ",
                     "A": "Martspec @ Twitter",
                     "LINK": "https://twitter.com/MartspecCom"
                 },
                 "L4": {
-                    "TEXT": "Via our LinkedIn group at ",
+                    "TEXT": "Через нашу групу LinkedIn за адресою ",
                     "A": "Martspec @ LinkedIn",
                     "LINK": "https://www.linkedin.com/company/martspec/"
                 }
