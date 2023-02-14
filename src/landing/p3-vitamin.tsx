@@ -4,6 +4,10 @@ import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
 import IronImage from "src/part/iron-image";
 
+const VITAMIN_FAT = ["VIT_A", "VIT_D", "VIT_E", "VIT_K"];
+const VITAMIN_WATER = ["VIT_B1", "VIT_B2", "VIT_B3", "VIT_B5", "VIT_B6", "VIT_B7", "VIT_B9", "VIT_B12", "VIT_C"];
+const MINERAL = ["MIN_CA", "MIN_CL", "MIN_CR", "MIN_CU", "MIN_I", "MIN_FE", "MIN_MG", "MIN_MN", "MIN_MO", "MIN_P",
+    "MIN_K", "MIN_SE", "MIN_NA", "MIN_ZN"];
 
 export default function P3LogVitamin() {
     return <>
