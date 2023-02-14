@@ -87,10 +87,141 @@
         "DESC8_2": "विटामिन और खनिज आवश्यक पोषक तत्व हैं। वे ऊर्जा नहीं देते हैं, लेकिन वे सामान्य जीव के कामकाज और स्वास्थ्य सहायता के लिए महत्वपूर्ण हैं।",
         "DESC8_3": "विभिन्न विटामिन प्राप्त करने के लिए, आपको सभी समूहों के उत्पाद खाने चाहिए: साबुत अनाज, फल और सब्जियां, डेयरी उत्पाद, 'मछली-अंडे-पोल्ट्री-मांस' समूह के उत्पाद, वसा (नट और बीज)।",
         "DESC8_4": "हमारे ऐप से, आप निम्नलिखित विटामिन और खनिजों को ट्रैक कर सकते हैं:",
-        "HEAD9": "विटामिन बी 9 - फोलेट",
-        "DESC9": "अस्थि मज्जा में लाल और सफेद रक्त कोशिकाओं को बनाने की आवश्यकता है, कार्बोहाइड्रेट को ऊर्जा में परिवर्तित करें, और डीएनए और आरएनए का उत्पादन करें। ",
-        "HEAD0": "विटामिन बी 3 - नियासिन",
-        "DESC0": "भोजन को ऊर्जा में बदलने की जरूरत है। यह आपके तंत्रिका तंत्र, पाचन तंत्र और त्वचा को स्वस्थ रखने में मदद करता है। "
+        "VIT_A": {
+            "HEAD": "A",
+            "NAME": "retinol, beta-carotene",
+            "DESK": "Is important for the immune system and reproductive function of the body. It's a strong antioxidant, that regulates skin regeneration and hair growth."
+        },
+        "VIT_D": {
+            "HEAD": "D",
+            "NAME": "calciferol",
+            "DESK": "It supports the health of teeth, bones and muscles. Lack of this vitamin leads to rickets of children and osteomalacia of adults."
+        },
+        "VIT_E": {
+            "HEAD": "E",
+            "NAME": "tocopherol",
+            "DESK": "It is a powerful antioxidant, it participates in the formation of fibers that are responsible for the elasticity of the skin."
+        },
+        "VIT_K": {
+            "HEAD": "K",
+            "NAME": "phylloquinone, menaquinone",
+            "DESK": "The vitamin helps to produce special proteins needed for blood clotting and bone building."
+        },
+        "VIT_B1": {
+            "HEAD": "B1",
+            "NAME": "thiamine",
+            "DESK": "B1 is necessary for energy metabolism, important for the mechanisms of conducting nerve impulses, synthesis of acetylcholine and other processes in the nervous system."
+        },
+        "VIT_B2": {
+            "HEAD": "B2",
+            "NAME": "riboflavin",
+            "DESK": "B2 is necessary for the formation of red blood cells and antibodies. It's also important for the reproductive function of the body."
+        },
+        "VIT_B3": {
+            "HEAD": "B3",
+            "NAME": "niacin",
+            "DESK": "It helps the nervous and digestive systems to stay healthy and the skin to look good."
+        },
+        "VIT_B5": {
+            "HEAD": "B5",
+            "NAME": "pantothenic acid",
+            "DESK": "Pantothenic acid is involved in the breakdown and assimilation of fats, proteins and carbohydrates."
+        },
+        "VIT_B6": {
+            "HEAD": "B6",
+            "NAME": "pyridoxine",
+            "DESK": "It regulates protein exchange, iron metabolism and its transportation to bone marrow cells and other tissues."
+        },
+        "VIT_B7": {
+            "HEAD": "B7",
+            "NAME": "biotin",
+            "DESK": "Biotin is called the 'beauty vitamin' because of its positive effect on the condition of hair, skin and nails."
+        },
+        "VIT_B9": {
+            "HEAD": "B9",
+            "NAME": "folic acid",
+            "DESK": "It participates in the formation of red and white blood cells, helps the body create DNA and RNA cells, as well as convert carbohydrates into glucose."
+        },
+        "VIT_B12": {
+            "HEAD": "B12",
+            "NAME": "cobalamin",
+            "DESK": "Cobalamin is responsible for the health of the central nervous system. It helps to resist stress and depression."
+        },
+        "VIT_C": {
+            "HEAD": "C",
+            "NAME": "ascorbic acid",
+            "DESK": "It protects cells from premature aging and supports the work of blood vessels, the condition of bones and cartilage. It is also important for skin regeneration, as it participates in collagen synthesis."
+        },
+        "MIN_CA": {
+            "HEAD": "Ca",
+            "NAME": "calcium",
+            "DESK": "Calcium is the main element of bone tissue, as well as an universal regulator of cellular activity."
+        },
+        "MIN_CL": {
+            "HEAD": "Cl",
+            "NAME": "chlorine",
+            "DESK": "Chlorine helps to release gastric juice and forms a good appetite. It retains water in tissues, preventing the body from losing moisture."
+        },
+        "MIN_CR": {
+            "HEAD": "Cr",
+            "NAME": "chrome",
+            "DESK": "Chrome is essential for normal fat metabolism. Lack of this element leads to overweight and obesity."
+        },
+        "MIN_CU": {
+            "HEAD": "Cu",
+            "NAME": "copper",
+            "DESK": "Copper is involved in the formation of erythrocytes (red blood cells) and is the main component of collagen."
+        },
+        "MIN_I": {
+            "HEAD": "I",
+            "NAME": "iodine",
+            "DESK": "Iodine is important for the proper functioning of the thyroid gland."
+        },
+        "MIN_FE": {
+            "HEAD": "Fe",
+            "NAME": "iron",
+            "DESK": "It affects the level of hemoglobin and ensures the delivery of oxygen to tissues."
+        },
+        "MIN_MG": {
+            "HEAD": "Mg",
+            "NAME": "magnesium",
+            "DESK": "This mineral ensures the proper work of the heart. It is necessary for the nervous system and muscles, as well as for protein synthesis."
+        },
+        "MIN_MN": {
+            "HEAD": "Mn",
+            "NAME": "manganese",
+            "DESK": "Manganese affects the metabolism of proteins, carbohydrates and fats. It also enhances the effect of insulin and maintains a certain level of cholesterol in the blood."
+        },
+        "MIN_MO": {
+            "HEAD": "Mo",
+            "NAME": "molybdenum",
+            "DESK": "Molybdenum is a part of a number of enzymes. It participates in nitrogen assimilation, strengthens tooth enamel, and also prevents impotence."
+        },
+        "MIN_P": {
+            "HEAD": "P",
+            "NAME": "phosphorus",
+            "DESK": "Phosphorus is necessary for bones and teeth. With its help, proteins and carbohydrates are formed in the body. It also ensures assimilation of many nutrients."
+        },
+        "MIN_K": {
+            "HEAD": "K",
+            "NAME": "potassium",
+            "DESK": "Potassium is the main element of all cells and tissues of the body. It's necessary for the proper functioning of the nervous and cardiovascular systems."
+        },
+        "MIN_SE": {
+            "HEAD": "Se",
+            "NAME": "selenium",
+            "DESK": "It protects cells and affects the work of the immune system. Selenium suppresses the division of cancer cells and protects neurons and heart muscle cells."
+        },
+        "MIN_NA": {
+            "HEAD": "Na",
+            "NAME": "sodium",
+            "DESK": "Sodium is essential for the body to maintain water-salt balance, blood pressure regulation, functioning of nerves and muscles."
+        },
+        "MIN_ZN": {
+            "HEAD": "Zn",
+            "NAME": "zinc",
+            "DESK": "Zinc can't be produced in the human body, but it is very important for the stable functioning of the immune system, all organs and the secretion of hormones."
+        }
     },
     "WAIST": {
         "HEAD": "कमर",
