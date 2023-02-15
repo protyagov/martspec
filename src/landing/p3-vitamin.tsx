@@ -100,6 +100,8 @@ export default function P3LogVitamin() {
                 </div>
             </section>
 
+            <div className="vitamins-list">
+
             <section>
                 <div className="row">
                     <div className="col-12">{_("VITAMIN.VITAMIN_FAT")}</div>
@@ -129,6 +131,8 @@ export default function P3LogVitamin() {
                     MINERAL.map(vit => <VitaminItem key={vit} name={vit} />)
                 }
             </section>
+
+            </div>
 
             <section>
                 <h4>{_("VITAMIN.HEAD0")}</h4>

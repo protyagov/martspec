@@ -9,7 +9,7 @@ export default function VitaminItem(props: VitaminItemProps) {
     return (
         <div className="row">
             <div className="col-md-2 col-12 d-flex flex-md-column text-center">
-                <span>{_("VITAMIN." + props.name + ".HEAD")}</span>
+                <span className="vitamin-icon">{_("VITAMIN." + props.name + ".HEAD")}</span>
                 <span>{_("VITAMIN." + props.name + ".NAME")}</span>
             </div>
             <div className="col-md-9 col">{_("VITAMIN." + props.name + ".DESK")}</div>

@@ -72,4 +72,25 @@
       }
     }
   }
+
+  .vitamins-list {
+    font-size: 1.4rem;
+
+    $colors: #EAB839, #54A5D2, #0066CC;
+
+    @for $idx from 1 through 3 {
+      section:nth-child(#{$idx}) {
+        $c: nth($colors, $idx);
+  
+        .vitamin-icon {
+          color: $c !important;
+        }
+      }
+    }
+  }
+
+  .vitamin-icon {
+    font-family: os6;
+    font-size: 4rem;
+  }
 }
