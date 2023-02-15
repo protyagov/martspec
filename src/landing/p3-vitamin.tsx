@@ -106,7 +106,7 @@ export default function P3LogVitamin() {
                 </div>
 
                 {
-                    VITAMIN_FAT.map(vit => <VitaminItem name={vit} />)
+                    VITAMIN_FAT.map(vit => <VitaminItem key={vit} name={vit} />)
                 }
             </section>
 
@@ -116,7 +116,7 @@ export default function P3LogVitamin() {
                 </div>
 
                 {
-                    VITAMIN_WATER.map(vit => <VitaminItem name={vit} />)
+                    VITAMIN_WATER.map(vit => <VitaminItem key={vit} name={vit} />)
                 }
             </section>
 
@@ -126,7 +126,7 @@ export default function P3LogVitamin() {
                 </div>
 
                 {
-                    MINERAL.map(vit => <VitaminItem name={vit} />)
+                    MINERAL.map(vit => <VitaminItem key={vit} name={vit} />)
                 }
             </section>
 
