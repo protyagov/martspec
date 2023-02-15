@@ -87,6 +87,9 @@
         "DESC8_2": "维生素和矿物质是必需的营养微量元素。它们不提供能量，但对正常的机体功能和健康支持至关重要。",
         "DESC8_3": "要获得各种维生素，您应该吃所有类别的产品：全谷物、水果和蔬菜、乳制品、“鱼-蛋-家禽-肉类”类别的产品、脂肪（坚果和种子）。",
         "DESC8_4": "使用我们的应用程序，您可以追踪以下维生素和矿物质：",
+        "VITAMIN_FAT": "Fat-Soluble Vitamins",
+        "VITAMIN_WATER": "Water-Soluble Vitamins",
+        "MINERAL": "Minerals",
         "VIT_A": {
             "HEAD": "A",
             "NAME": "retinol, beta-carotene",

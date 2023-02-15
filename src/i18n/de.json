@@ -87,6 +87,9 @@
         "DESC8_2": "Vitamine und Mineralstoffe sind notwendige Mikroelemente für die Ernährung. Sie geben keine Energie, aber sie sind lebenswichtig für die normale Funktion des Organismus und die Unterstützung der Gesundheit.",
         "DESC8_3": "Um verschiedene Vitamine zu erhalten, sollten Sie Produkte aller Gruppen essen: Vollkornprodukte, Obst und Gemüse, Milchprodukte, Produkte aus der Gruppe „Fisch-Eier-Geflügel-Fleisch“, Fette (Nüsse und Samen).",
         "DESC8_4": "Mit unserer App können Sie folgende Vitamine und Mineralstoffe tracken:",
+        "VITAMIN_FAT": "Fat-Soluble Vitamins",
+        "VITAMIN_WATER": "Water-Soluble Vitamins",
+        "MINERAL": "Minerals",
         "VIT_A": {
             "HEAD": "A",
             "NAME": "retinol, beta-carotene",

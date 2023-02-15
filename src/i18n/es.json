@@ -87,6 +87,9 @@
         "DESC8_2": "Las vitaminas y los minerales son microelementos nutricionales necesarios. No dan energía, pero son vitales para el funcionamiento normal del organismo y el apoyo a la salud.",
         "DESC8_3": "Para obtener varias vitaminas, debe comer productos de todos los grupos: cereales integrales, frutas y verduras, productos lácteos, productos del grupo 'pescado-huevos-aves-carne', grasas (nueces y semillas).",
         "DESC8_4": "Con nuestra aplicación, puede realizar un seguimiento de las siguientes vitaminas y minerales:",
+        "VITAMIN_FAT": "Fat-Soluble Vitamins",
+        "VITAMIN_WATER": "Water-Soluble Vitamins",
+        "MINERAL": "Minerals",
         "VIT_A": {
             "HEAD": "A",
             "NAME": "retinol, beta-carotene",

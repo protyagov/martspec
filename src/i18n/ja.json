@@ -87,6 +87,9 @@
         "DESC8_2": "ビタミンとミネラルは必要な微量栄養素です。それらはエネルギーを与えませんが、正常な生物機能と健康サポートに不可欠です.",
         "DESC8_3": "さまざまなビタミンを摂取するには、全粒穀物、果物と野菜、乳製品、「魚、卵、家禽、肉」グループの製品、脂肪（ナッツと種子）など、すべてのグループの製品を食べる必要があります。",
         "DESC8_4": "私たちのアプリでは、次のビタミンとミネラルを追跡できます。",
+        "VITAMIN_FAT": "Fat-Soluble Vitamins",
+        "VITAMIN_WATER": "Water-Soluble Vitamins",
+        "MINERAL": "Minerals",
         "VIT_A": {
             "HEAD": "A",
             "NAME": "retinol, beta-carotene",

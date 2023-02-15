@@ -87,6 +87,9 @@
         "DESC8_2": "Les vitamines et les minéraux sont des microéléments nutritionnels nécessaires. Ils ne donnent pas d'énergie, mais ils sont vitaux pour le fonctionnement normal de l'organisme et le maintien de la santé.",
         "DESC8_3": "Pour obtenir diverses vitamines, il faut manger des produits de tous les groupes : grains entiers, fruits et légumes, produits laitiers, produits du groupe « poisson-œufs-volaille-viande », matières grasses (noix et graines).",
         "DESC8_4": "Avec notre application, vous pouvez suivre les vitamines et minéraux suivants :",
+        "VITAMIN_FAT": "Fat-Soluble Vitamins",
+        "VITAMIN_WATER": "Water-Soluble Vitamins",
+        "MINERAL": "Minerals",
         "VIT_A": {
             "HEAD": "A",
             "NAME": "retinol, beta-carotene",
