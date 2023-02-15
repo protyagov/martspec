@@ -3,6 +3,7 @@ import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
 import IronImage from "src/part/iron-image";
+import VitaminItem from "src/part/vitaminItem";
 
 const VITAMIN_FAT = ["VIT_A", "VIT_D", "VIT_E", "VIT_K"];
 const VITAMIN_WATER = ["VIT_B1", "VIT_B2", "VIT_B3", "VIT_B5", "VIT_B6", "VIT_B7", "VIT_B9", "VIT_B12", "VIT_C"];
@@ -100,31 +101,33 @@ export default function P3LogVitamin() {
             </section>
 
             <section>
-                <h4>{_("VITAMIN.HEAD7")}</h4>
-                <p className="mt-3">{_("VITAMIN.DESC7")}
-                    <a href="https://www.mountsinai.org/health-library/supplement/vitamin-b12-cobalamin" target="_blank">
-                        <i><small>{_("BTN.SRC2")}.</small></i>
-                    </a>
-                </p>
+                <div className="row">
+                    <div className="col-12">{_("VITAMIN.VITAMIN_FAT")}</div>
+                </div>
+
+                {
+                    VITAMIN_FAT.map(vit => <VitaminItem name={vit} />)
+                }
             </section>
 
             <section>
-                <h4>{_("VITAMIN.HEAD8")}</h4>
-                <p className="mt-3">{_("VITAMIN.DESC8")}
-                    <a href="https://www.healthline.com/health/biotin-hair-growth" target="_blank">
-                        <i><small>{_("BTN.MORE")}.</small></i>
-                    </a>
-                </p>
+                <div className="row">
+                    <div className="col-12">{_("VITAMIN.VITAMIN_WATER")}</div>
+                </div>
+
+                {
+                    VITAMIN_WATER.map(vit => <VitaminItem name={vit} />)
+                }
             </section>
 
-
             <section>
-                <h4>{_("VITAMIN.HEAD9")}</h4>
-                <p className="mt-3">{_("VITAMIN.DESC9")}
-                    <a href="https://ods.od.nih.gov/factsheets/Folate-Consumer/" target="_blank">
-                        <i><small>{_("BTN.SRC1")}.</small></i>
-                    </a>
-                </p>
+                <div className="row">
+                    <div className="col-12">{_("VITAMIN.MINERAL")}</div>
+                </div>
+
+                {
+                    MINERAL.map(vit => <VitaminItem name={vit} />)
+                }
             </section>
 
             <section>
