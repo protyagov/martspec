@@ -87,10 +87,18 @@
         }
       }
     }
+
+    .row {
+      background-color: #FBF8F7;
+    }
   }
 
   .vitamin-icon {
     font-family: os6;
     font-size: 4rem;
+  }
+
+  .vitamin-name {
+    color: $ms-color-text-gray;
   }
 }
