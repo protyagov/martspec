@@ -154,7 +154,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/p_waist.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("WAIST.IMG")} />
+                            <ImageI18N src="/img/waist.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("WAIST.IMG")} />
                         </div>
                         <div className="p-text">
                             <h2>{_("WAIST.TEXT")}</h2>
