@@ -104,7 +104,7 @@ export default function P3LogVitamin() {
 
             <section>
                 <div className="row">
-                    <div className="col-12">{_("VITAMIN.VITAMIN_FAT")}</div>
+                    <div className="col-12 py-3 px-5 vit-head">{_("VITAMIN.VITAMIN_FAT")}</div>
                 </div>
 
                 {
@@ -114,7 +114,7 @@ export default function P3LogVitamin() {
 
             <section>
                 <div className="row">
-                    <div className="col-12">{_("VITAMIN.VITAMIN_WATER")}</div>
+                    <div className="col-12 py-3 px-5 vit-head">{_("VITAMIN.VITAMIN_WATER")}</div>
                 </div>
 
                 {
@@ -124,7 +124,7 @@ export default function P3LogVitamin() {
 
             <section>
                 <div className="row">
-                    <div className="col-12">{_("VITAMIN.MINERAL")}</div>
+                    <div className="col-12 py-3 px-5 vit-head">{_("VITAMIN.MINERAL")}</div>
                 </div>
 
                 {

@@ -81,6 +81,11 @@
     @for $idx from 1 through 3 {
       section:nth-child(#{$idx}) {
         $c: nth($colors, $idx);
+
+        .vit-head {
+          background-color: $c;
+          color: #FFFFFF;
+        }
   
         .vit-icon {
           color: $c !important;
