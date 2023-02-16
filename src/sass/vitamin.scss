@@ -82,7 +82,7 @@
       section:nth-child(#{$idx}) {
         $c: nth($colors, $idx);
   
-        .vitamin-icon {
+        .vit-icon {
           color: $c !important;
         }
       }
@@ -91,14 +91,14 @@
     .row {
       background-color: #FBF8F7;
     }
-  }
 
-  .vitamin-icon {
-    font-family: os6;
-    font-size: 4rem;
-  }
-
-  .vitamin-name {
-    color: $ms-color-text-gray;
+    .vit-icon {
+      font-family: os6;
+      font-size: 4rem;
+    }
+  
+    .vit-name {
+      color: $ms-color-text-gray;
+    }
   }
 }
