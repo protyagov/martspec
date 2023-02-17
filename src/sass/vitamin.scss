@@ -97,20 +97,25 @@
       background-color: #FBF8F7;
       border: 1px solid #CFCBCB;
       border-top: none;
+
+      & > * {
+        display: flex;
+        align-items: center;
+      }
     }
 
     .vit-icon {
       font-family: os6;
       font-size: 4rem;
+      line-height: 90%;
     }
   
     .vit-name {
       color: $ms-color-text-gray;
     }
 
-    .vit-arrow {
-      display: flex;
-      align-items: center;
+    .vit-arrow,
+    .vit-icon {
       justify-content: center;
       flex: 0 0;
     }

@@ -8,7 +8,7 @@ interface VitaminItemProps {
 export default function VitaminItem(props: VitaminItemProps) {
     return (
         <div className="row vit-item">
-            <div className="col-md-2 col-12 d-flex flex-md-column text-center">
+            <div className="col-md-2 col-12 d-flex flex-md-column text-center py-4">
                 <span className="vit-icon">{_("VITAMIN." + props.name + ".HEAD")}</span>
                 <span className="vit-name">{_("VITAMIN." + props.name + ".NAME")}</span>
             </div>
