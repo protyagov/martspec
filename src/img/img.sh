@@ -13,7 +13,6 @@ do
   	cwebp -lossless -z 9 -m 6 -mt -hint picture -metadata none $f.size512.new -o "${f:4:${#f}-8}".512.webp 	
 done
 
-rm org/*size64
 rm org/*size512
 rm org/*.new
 
