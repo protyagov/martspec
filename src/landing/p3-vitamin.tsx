@@ -135,15 +135,6 @@ export default function P3LogVitamin() {
             </div>
 
             <section>
-                <h4>{_("VITAMIN.HEAD0")}</h4>
-                <p className="mt-3">{_("VITAMIN.DESC0")}
-                    <a href="https://www.mayoclinic.org/drugs-supplements-niacin/art-20364984" target="_blank">
-                        <i><small>{_("BTN.FACT")}.</small></i>
-                    </a>
-                </p>
-            </section>
-
-            <section>
                 <div className="row mt-4">
                     <div className="col">
                         <p>{_("VITAMIN.FOOT")}</p>
@@ -158,11 +149,6 @@ export default function P3LogVitamin() {
                     </div>
                 </div>
             </section>
-
-
-
-            <IronImage imgLo="/img/p_vitamin_screens.64.webp" imgHi="/img/p_vitamin_screens.512.webp" text={_("VITAMIN.IMG")} h={560} w={1458} />
-
 
         </div>
         <Footer />
