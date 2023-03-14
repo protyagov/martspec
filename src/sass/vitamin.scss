@@ -101,11 +101,19 @@
       background-color: #FBF8F7;
       border: 1px solid #CFCBCB;
       border-top: none;
+      padding-top: 1.6rem;
+      padding-bottom: 1.6rem;
 
       & > * {
         display: flex;
         align-items: center;
       }
+    }
+
+    .vit-header {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
     }
 
     .vit-icon {
@@ -117,7 +125,9 @@
     .vit-name {
       color: $ms-color-text-gray;
       line-height: 130%;
+      overflow-wrap: anywhere;
     }
+
     .vit-arrow,
     .vit-icon {
       justify-content: center;
@@ -125,30 +135,38 @@
     }
   }
 
+  @media only screen and (max-width: ($ms-screen-md - 1)) {
+    .vitamins-list {
+      .vit-item {
+        padding: 1rem 5% 1.5rem;
+      }
+
+      .vit-header {
+        flex-direction: row;
+        align-items: baseline;
+      }
+
+      .vit-name {
+        margin-left: 1rem;
+      }
+
+      .vit-desk {
+        margin-top: .2rem;
+      }
+    }
+  }
+
   @media only screen and (max-width: ($ms-screen-sm - 1)) {
-    div:first-child {
-      align-items: baseline !important;
-    }
-
-    section {
-      margin-left: 0;
-      margin-right: 0;
-    }
-
-    .vit-item {
-      border-right: none !important;
-      border-left: none !important;
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-
-    .vit-name {
-      margin-left: 1rem;
-    }
-
-    .vit-arrow {
-      flex-direction: column;
-      justify-content: start;
+    .vitamins-list {
+      section {
+        margin-left: 0;
+        margin-right: 0;
+      }
+  
+      .vit-item {
+        border-right: none !important;
+        border-left: none !important;
+      }
     }
   }
 }
