@@ -10,11 +10,13 @@
   * {
     line-height: 150%;
     font-family: os4;
+    color: $ms-color-text-darker;
   }
 
   h2 {
     color: $blue-accent;
     font-size: 2.5rem;
+    line-height: 120%;
   }
 
   h3 {
@@ -23,6 +25,12 @@
     color: $ms-color-text-darker;
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+
+  h2,
+  h3,
+  .vit-name {
+    overflow-wrap: anywhere;
   }
 
   .vitamin-about > * {
@@ -73,8 +81,15 @@
     }
   }
 
+  .vitamin-text-block {
+    * {
+      font-family: os4 !important;
+      color: $ms-color-text-darker !important;
+    }
+  }
+
   .vitamins-list {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 
     $colors: #EAB839, #54A5D2, #0066CC;
 
@@ -125,7 +140,6 @@
     .vit-name {
       color: $ms-color-text-gray;
       line-height: 130%;
-      overflow-wrap: anywhere;
     }
 
     .vit-arrow,
@@ -143,7 +157,9 @@
 
       .vit-header {
         flex-direction: row;
+        justify-content: start;
         align-items: baseline;
+        text-align: start;
       }
 
       .vit-name {

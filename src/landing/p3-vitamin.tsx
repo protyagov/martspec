@@ -42,12 +42,12 @@ export default function P3LogVitamin() {
             </section>
 
             <section>
-                <div className="row d-flex vitamin-block bg-green">
+                <div className="row d-flex justify-content-between vitamin-block bg-green">
                     <div className="col-md-6 col-12">
                         <h3>{_("VITAMIN.HEAD3")}</h3>
                         <p className="mt-3">{_("VITAMIN.DESC3")}</p>
                     </div>
-                    <div className="col-md-6 col-12 order-md-last order-first">
+                    <div className="col-md-5 col-12 order-md-last order-first">
                         <img src="/img/vitamin_minerals_img.svg" className="p-0 float-end vitamin-img-50" alt="Apple Health" height="auto" width="100%" />
                     </div>
                 </div>
@@ -68,8 +68,8 @@ export default function P3LogVitamin() {
             </section>
 
             <section>
-                <div className="row d-flex vitamin-block bg-green">
-                    <div className="col-md-6 col-12">
+                <div className="row d-flex justify-content-between vitamin-block bg-green">
+                    <div className="col-md-5 col-12">
                         <img src="/img/vitamin_vitamins_img.svg" className="p-0 ms-0 vitamin-img-50" alt="Apple Health" height="auto" width="100%" />
                     </div>
                     <div className="col-md-6 col-12">
@@ -90,8 +90,8 @@ export default function P3LogVitamin() {
             </section>
 
             <section>
-                <div className="row">
-                    <div className="col">
+                <div className="row my-4">
+                    <div className="col vitamin-text-block">
                         <p>{_("VITAMIN.DESC8_1")}</p>
                         <p>{_("VITAMIN.DESC8_2")}</p>
                         <p>{_("VITAMIN.DESC8_3")}</p>
@@ -135,7 +135,7 @@ export default function P3LogVitamin() {
             </div>
 
             <section>
-                <div className="row mt-4">
+                <div className="row mt-4 vitamin-text-block">
                     <div className="col">
                         <p>{_("VITAMIN.FOOT")}</p>
                     </div>
