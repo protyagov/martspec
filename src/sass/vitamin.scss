@@ -137,6 +137,7 @@
       font-family: os6;
       font-size: 4rem;
       line-height: 110%;
+      justify-content: center;
     }
   
     .vit-name {
@@ -144,9 +145,26 @@
       line-height: 130%;
     }
 
-    .vit-arrow,
-    .vit-icon {
-      justify-content: center;
+    .vit-arrow {
+      a {
+        height: 100%;
+        width: 100%;
+
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      path {
+        color: $ms-color-button;
+        transition: color .2s;
+      }
+
+      &:hover {
+        path {
+          color: $ms-color-button-hover;
+        }
+      }
     }
   }
 
