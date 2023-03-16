@@ -129,6 +129,8 @@
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      padding-left: 2vw;
+      padding-right: 2vw;
     }
 
     .vit-icon {
@@ -145,7 +147,6 @@
     .vit-arrow,
     .vit-icon {
       justify-content: center;
-      flex: 0 0;
     }
   }
 
