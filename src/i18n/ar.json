@@ -85,143 +85,143 @@
         "DESC8_2": "الفيتامينات والمعادن من العناصر الغذائية الدقيقة الضرورية. إنهم لا يعطون الطاقة ، لكنها ضرورية لعمل الكائن الحي الطبيعي والدعم الصحي.",
         "DESC8_3": "للحصول على فيتامينات مختلفة ، يجب أن تأكل منتجات من جميع الفئات: الحبوب الكاملة ، والفواكه والخضروات ، ومنتجات الألبان ، ومنتجات مجموعة 'الأسماك - البيض - الدواجن - اللحوم' ، الدهون (المكسرات والبذور).",
         "DESC8_4": "من خلال تطبيقنا ، يمكنك تتبع الفيتامينات والمعادن التالية:",
-        "VITAMIN_FAT": "Fat-Soluble Vitamins",
-        "VITAMIN_WATER": "Water-Soluble Vitamins",
-        "MINERAL": "Minerals",
+        "VITAMIN_FAT": "فيتامينات تذوب في الدهون",
+        "VITAMIN_WATER": "فيتامينات قابلة للذوبان في الماء",
+        "MINERAL": "المعادن",
         "VIT_A": {
             "HEAD": "A",
-            "NAME": "retinol, beta-carotene",
-            "DESK": "Is important for the immune system and reproductive function of the body. It's a strong antioxidant, that regulates skin regeneration and hair growth."
+            "NAME": "الريتينول ، بيتا كاروتين",
+            "DESK": "مهم لجهاز المناعة والوظيفة التناسلية للجسم. إنه مضاد قوي للأكسدة ، ينظم تجدد البشرة ونمو الشعر."
         },
         "VIT_D": {
             "HEAD": "D",
-            "NAME": "calciferol",
-            "DESK": "It supports the health of teeth, bones and muscles. Lack of this vitamin leads to rickets of children and osteomalacia of adults."
+            "NAME": "كالسيفيرول",
+            "DESK": "يدعم صحة الأسنان والعظام والعضلات. يؤدي نقص هذا الفيتامين إلى كساح الأطفال وتلين العظام عند البالغين."
         },
         "VIT_E": {
             "HEAD": "E",
-            "NAME": "tocopherol",
-            "DESK": "It is a powerful antioxidant, it participates in the formation of fibers that are responsible for the elasticity of the skin."
+            "NAME": "توكوفيرول",
+            "DESK": "وهو أحد مضادات الأكسدة القوية ، فهو يساهم في تكوين الألياف المسؤولة عن مرونة الجلد."
         },
         "VIT_K": {
             "HEAD": "K",
-            "NAME": "phylloquinone, menaquinone",
-            "DESK": "The vitamin helps to produce special proteins needed for blood clotting and bone building."
+            "NAME": "فيلوكينون ، ميناكينون",
+            "DESK": "يساعد الفيتامين على إنتاج بروتينات خاصة ضرورية لتخثر الدم وبناء العظام."
         },
         "VIT_B1": {
             "HEAD": "B1",
-            "NAME": "thiamine",
-            "DESK": "B1 is necessary for energy metabolism, important for the mechanisms of conducting nerve impulses, synthesis of acetylcholine and other processes in the nervous system."
+            "NAME": "الثيامين",
+            "DESK": "B1 ضروري لاستقلاب الطاقة ، وهو مهم لآليات إجراء النبضات العصبية ، وتوليف الأسيتيل كولين والعمليات الأخرى في الجهاز العصبي."
         },
         "VIT_B2": {
             "HEAD": "B2",
-            "NAME": "riboflavin",
-            "DESK": "B2 is necessary for the formation of red blood cells and antibodies. It's also important for the reproductive function of the body."
+            "NAME": "الريبوفلافين",
+            "DESK": "فيتامين B2 ضروري لتكوين خلايا الدم الحمراء والأجسام المضادة. إنه مهم أيضًا لوظيفة الإنجاب في الجسم."
         },
         "VIT_B3": {
             "HEAD": "B3",
-            "NAME": "niacin",
-            "DESK": "It helps the nervous and digestive systems to stay healthy and the skin to look good."
+            "NAME": "النياسين",
+            "DESK": "يساعد الجهاز العصبي والجهاز الهضمي على البقاء بصحة جيدة والجلد لتبدو جيدة."
         },
         "VIT_B5": {
             "HEAD": "B5",
-            "NAME": "pantothenic acid",
-            "DESK": "Pantothenic acid is involved in the breakdown and assimilation of fats, proteins and carbohydrates."
+            "NAME": "حمض البانتوثنيك",
+            "DESK": "يشارك حمض البانتوثينيك في تكسير واستيعاب الدهون والبروتينات والكربوهيدرات."
         },
         "VIT_B6": {
             "HEAD": "B6",
-            "NAME": "pyridoxine",
-            "DESK": "It regulates protein exchange, iron metabolism and its transportation to bone marrow cells and other tissues."
+            "NAME": "البيريدوكسين",
+            "DESK": "ينظم تبادل البروتين واستقلاب الحديد ونقله إلى خلايا نخاع العظام والأنسجة الأخرى."
         },
         "VIT_B7": {
             "HEAD": "B7",
-            "NAME": "biotin",
-            "DESK": "Biotin is called the 'beauty vitamin' because of its positive effect on the condition of hair, skin and nails."
+            "NAME": "البيوتين",
+            "DESK": "يسمى البيوتين فيتامين الجمال لما له من تأثير إيجابي على حالة الشعر والجلد والأظافر."
         },
         "VIT_B9": {
             "HEAD": "B9",
-            "NAME": "folic acid",
-            "DESK": "It participates in the formation of red and white blood cells, helps the body create DNA and RNA cells, as well as convert carbohydrates into glucose."
+            "NAME": "حمض الفوليك",
+            "DESK": "يشارك في تكوين خلايا الدم الحمراء والبيضاء ، ويساعد الجسم على تكوين خلايا الحمض النووي والحمض النووي الريبي ، وكذلك تحويل الكربوهيدرات إلى جلوكوز."
         },
         "VIT_B12": {
             "HEAD": "B12",
-            "NAME": "cobalamin",
-            "DESK": "Cobalamin is responsible for the health of the central nervous system. It helps to resist stress and depression."
+            "NAME": "كوبالامين",
+            "DESK": "كوبالامين مسؤول عن صحة الجهاز العصبي المركزي. يساعد على مقاومة التوتر والاكتئاب."
         },
         "VIT_C": {
             "HEAD": "C",
-            "NAME": "ascorbic acid",
-            "DESK": "It protects cells from premature aging and supports the work of blood vessels, the condition of bones and cartilage. It is also important for skin regeneration, as it participates in collagen synthesis."
+            "NAME": "حمض الاسكوربيك",
+            "DESK": "يحمي الخلايا من الشيخوخة المبكرة ويدعم عمل الأوعية الدموية وحالة العظام والغضاريف. كما أنه مهم لتجديد الجلد ، حيث يشارك في تخليق الكولاجين."
         },
         "MIN_CA": {
             "HEAD": "Ca",
-            "NAME": "calcium",
-            "DESK": "Calcium is the main element of bone tissue, as well as an universal regulator of cellular activity."
+            "NAME": "الكالسيوم",
+            "DESK": "الكالسيوم هو العنصر الرئيسي في أنسجة العظام ، فضلا عن كونه منظم عالمي للنشاط الخلوي."
         },
         "MIN_CL": {
             "HEAD": "Cl",
-            "NAME": "chlorine",
-            "DESK": "Chlorine helps to release gastric juice and forms a good appetite. It retains water in tissues, preventing the body from losing moisture."
+            "NAME": "الكلور",
+            "DESK": "يساعد الكلور على إفراز العصارة المعدية ويشكل شهية جيدة. يحتفظ بالماء في الأنسجة ، ويمنع الجسم من فقدان الرطوبة."
         },
         "MIN_CR": {
             "HEAD": "Cr",
-            "NAME": "chrome",
-            "DESK": "Chrome is essential for normal fat metabolism. Lack of this element leads to overweight and obesity."
+            "NAME": "كروم",
+            "DESK": "الكروم ضروري لعملية التمثيل الغذائي للدهون الطبيعية. نقص هذا العنصر يؤدي إلى زيادة الوزن والسمنة."
         },
         "MIN_CU": {
             "HEAD": "Cu",
-            "NAME": "copper",
-            "DESK": "Copper is involved in the formation of erythrocytes (red blood cells) and is the main component of collagen."
+            "NAME": "نحاس",
+            "DESK": "يشارك النحاس في تكوين كريات الدم الحمراء وهو المكون الرئيسي للكولاجين."
         },
         "MIN_I": {
             "HEAD": "I",
-            "NAME": "iodine",
-            "DESK": "Iodine is important for the proper functioning of the thyroid gland."
+            "NAME": "اليود",
+            "DESK": "اليود مهم من أجل الأداء السليم للغدة الدرقية."
         },
         "MIN_FE": {
             "HEAD": "Fe",
-            "NAME": "iron",
-            "DESK": "It affects the level of hemoglobin and ensures the delivery of oxygen to tissues."
+            "NAME": "حديد",
+            "DESK": "يؤثر على مستوى الهيموجلوبين ويضمن وصول الأكسجين إلى الأنسجة."
         },
         "MIN_MG": {
             "HEAD": "Mg",
-            "NAME": "magnesium",
-            "DESK": "This mineral ensures the proper work of the heart. It is necessary for the nervous system and muscles, as well as for protein synthesis."
+            "NAME": "المغنيسيوم",
+            "DESK": "يضمن هذا المعدن عمل القلب السليم. إنه ضروري للجهاز العصبي والعضلات ، وكذلك لتخليق البروتين."
         },
         "MIN_MN": {
             "HEAD": "Mn",
-            "NAME": "manganese",
-            "DESK": "Manganese affects the metabolism of proteins, carbohydrates and fats. It also enhances the effect of insulin and maintains a certain level of cholesterol in the blood."
+            "NAME": "المنغنيز",
+            "DESK": "يؤثر المنغنيز على استقلاب البروتينات والكربوهيدرات والدهون. كما أنه يعزز تأثير الأنسولين ويحافظ على مستوى معين من الكوليسترول في الدم."
         },
         "MIN_MO": {
             "HEAD": "Mo",
-            "NAME": "molybdenum",
-            "DESK": "Molybdenum is a part of a number of enzymes. It participates in nitrogen assimilation, strengthens tooth enamel, and also prevents impotence."
+            "NAME": "الموليبدينوم",
+            "DESK": "الموليبدينوم جزء من عدد من الإنزيمات. يشارك في امتصاص النيتروجين ، ويقوي مينا الأسنان ، ويمنع العجز الجنسي."
         },
         "MIN_P": {
             "HEAD": "P",
-            "NAME": "phosphorus",
-            "DESK": "Phosphorus is necessary for bones and teeth. With its help, proteins and carbohydrates are formed in the body. It also ensures assimilation of many nutrients."
+            "NAME": "الفوسفور",
+            "DESK": "الفوسفور ضروري للعظام والأسنان. بمساعدتها ، تتشكل البروتينات والكربوهيدرات في الجسم. كما أنه يضمن امتصاص العديد من العناصر الغذائية."
         },
         "MIN_K": {
             "HEAD": "K",
-            "NAME": "potassium",
-            "DESK": "Potassium is the main element of all cells and tissues of the body. It's necessary for the proper functioning of the nervous and cardiovascular systems."
+            "NAME": "البوتاسيوم",
+            "DESK": "البوتاسيوم هو العنصر الرئيسي لجميع خلايا وأنسجة الجسم. إنه ضروري للعمل السليم للجهاز العصبي والقلب والأوعية الدموية."
         },
         "MIN_SE": {
             "HEAD": "Se",
-            "NAME": "selenium",
-            "DESK": "It protects cells and affects the work of the immune system. Selenium suppresses the division of cancer cells and protects neurons and heart muscle cells."
+            "NAME": "السيلينيوم",
+            "DESK": "يحمي الخلايا ويؤثر على عمل جهاز المناعة. يمنع السيلينيوم انقسام الخلايا السرطانية ويحمي الخلايا العصبية وخلايا عضلة القلب."
         },
         "MIN_NA": {
             "HEAD": "Na",
-            "NAME": "sodium",
-            "DESK": "Sodium is essential for the body to maintain water-salt balance, blood pressure regulation, functioning of nerves and muscles."
+            "NAME": "صوديوم",
+            "DESK": "الصوديوم ضروري للجسم للحفاظ على توازن الماء والملح ، وتنظيم ضغط الدم ، وعمل الأعصاب والعضلات."
         },
         "MIN_ZN": {
             "HEAD": "Zn",
-            "NAME": "zinc",
-            "DESK": "Zinc can't be produced in the human body, but it is very important for the stable functioning of the immune system, all organs and the secretion of hormones."
+            "NAME": "الزنك",
+            "DESK": "لا يمكن إنتاج الزنك في جسم الإنسان ، ولكنه مهم جدًا لعمل مستقر لجهاز المناعة وجميع الأعضاء وإفراز الهرمونات."
         }
     },
     "WAIST": {
