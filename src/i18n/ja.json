@@ -87,143 +87,143 @@
         "DESC8_2": "ビタミンとミネラルは必要な微量栄養素です。それらはエネルギーを与えませんが、正常な生物機能と健康サポートに不可欠です.",
         "DESC8_3": "さまざまなビタミンを摂取するには、全粒穀物、果物と野菜、乳製品、「魚、卵、家禽、肉」グループの製品、脂肪（ナッツと種子）など、すべてのグループの製品を食べる必要があります。",
         "DESC8_4": "私たちのアプリでは、次のビタミンとミネラルを追跡できます。",
-        "VITAMIN_FAT": "Fat-Soluble Vitamins",
-        "VITAMIN_WATER": "Water-Soluble Vitamins",
-        "MINERAL": "Minerals",
+        "VITAMIN_FAT": "脂溶性ビタミン",
+        "VITAMIN_WATER": "水溶性ビタミン",
+        "MINERAL": "ミネラル",
         "VIT_A": {
             "HEAD": "A",
-            "NAME": "retinol, beta-carotene",
-            "DESK": "Is important for the immune system and reproductive function of the body. It's a strong antioxidant, that regulates skin regeneration and hair growth."
+            "NAME": "レチノール、ベータカロテン",
+            "DESK": "体の免疫システムと生殖機能にとって重要です。それは強力な抗酸化物質であり、皮膚の再生と髪の成長を調節します."
         },
         "VIT_D": {
             "HEAD": "D",
-            "NAME": "calciferol",
-            "DESK": "It supports the health of teeth, bones and muscles. Lack of this vitamin leads to rickets of children and osteomalacia of adults."
+            "NAME": "カルシフェロール",
+            "DESK": "歯、骨、筋肉の健康をサポートします。このビタミンが不足すると、子供のくる病や成人の骨軟化症につながります。"
         },
         "VIT_E": {
             "HEAD": "E",
-            "NAME": "tocopherol",
-            "DESK": "It is a powerful antioxidant, it participates in the formation of fibers that are responsible for the elasticity of the skin."
+            "NAME": "トコフェロール",
+            "DESK": "それは強力な抗酸化物質であり、皮膚の弾力性を担う繊維の形成に関与しています."
         },
         "VIT_K": {
             "HEAD": "K",
-            "NAME": "phylloquinone, menaquinone",
-            "DESK": "The vitamin helps to produce special proteins needed for blood clotting and bone building."
+            "NAME": "フィロキノン、メナキノン",
+            "DESK": "ビタミンは、血液凝固と骨の構築に必要な特別なタンパク質を生成するのに役立ちます."
         },
         "VIT_B1": {
             "HEAD": "B1",
-            "NAME": "thiamine",
-            "DESK": "B1 is necessary for energy metabolism, important for the mechanisms of conducting nerve impulses, synthesis of acetylcholine and other processes in the nervous system."
+            "NAME": "チアミン",
+            "DESK": "B1はエネルギー代謝に必要であり、神経インパルスの伝導メカニズム、アセチルコリンの合成、および神経系の他のプロセスに重要です."
         },
         "VIT_B2": {
             "HEAD": "B2",
-            "NAME": "riboflavin",
-            "DESK": "B2 is necessary for the formation of red blood cells and antibodies. It's also important for the reproductive function of the body."
+            "NAME": "リボフラビン",
+            "DESK": "B2 は、赤血球と抗体の形成に必要です。また、体の生殖機能にとっても重要です。"
         },
         "VIT_B3": {
             "HEAD": "B3",
-            "NAME": "niacin",
-            "DESK": "It helps the nervous and digestive systems to stay healthy and the skin to look good."
+            "NAME": "ナイアシン",
+            "DESK": "神経系や消化器系を健康に保ち、肌の見栄えを良くするのに役立ちます。"
         },
         "VIT_B5": {
             "HEAD": "B5",
-            "NAME": "pantothenic acid",
-            "DESK": "Pantothenic acid is involved in the breakdown and assimilation of fats, proteins and carbohydrates."
+            "NAME": "パントテン酸",
+            "DESK": "パントテン酸は、脂肪、タンパク質、炭水化物の分解と同化に関与しています。"
         },
         "VIT_B6": {
             "HEAD": "B6",
-            "NAME": "pyridoxine",
-            "DESK": "It regulates protein exchange, iron metabolism and its transportation to bone marrow cells and other tissues."
+            "NAME": "ピリドキシン",
+            "DESK": "タンパク質交換、鉄代謝、骨髄細胞や他の組織への輸送を調節します。"
         },
         "VIT_B7": {
             "HEAD": "B7",
-            "NAME": "biotin",
-            "DESK": "Biotin is called the 'beauty vitamin' because of its positive effect on the condition of hair, skin and nails."
+            "NAME": "ビオチン",
+            "DESK": "ビオチンは、髪、肌、爪の状態に良い影響を与えることから、「美容のビタミン」と呼ばれています。"
         },
         "VIT_B9": {
             "HEAD": "B9",
-            "NAME": "folic acid",
-            "DESK": "It participates in the formation of red and white blood cells, helps the body create DNA and RNA cells, as well as convert carbohydrates into glucose."
+            "NAME": "葉酸",
+            "DESK": "赤血球および白血球の形成に関与し、体が DNA および RNA 細胞を作成するのを助け、炭水化物をグルコースに変換します。"
         },
         "VIT_B12": {
             "HEAD": "B12",
-            "NAME": "cobalamin",
-            "DESK": "Cobalamin is responsible for the health of the central nervous system. It helps to resist stress and depression."
+            "NAME": "コバラミン",
+            "DESK": "コバラミンは、中枢神経系の健康に関与しています。ストレスやうつ病に抵抗するのに役立ちます。"
         },
         "VIT_C": {
             "HEAD": "C",
-            "NAME": "ascorbic acid",
-            "DESK": "It protects cells from premature aging and supports the work of blood vessels, the condition of bones and cartilage. It is also important for skin regeneration, as it participates in collagen synthesis."
+            "NAME": "アスコルビン酸",
+            "DESK": "細胞を早期老化から保護し、血管の働き、骨や軟骨の状態をサポートします。コラーゲンの合成にも関与するため、皮膚の再生にも重要です。"
         },
         "MIN_CA": {
             "HEAD": "Ca",
-            "NAME": "calcium",
-            "DESK": "Calcium is the main element of bone tissue, as well as an universal regulator of cellular activity."
+            "NAME": "カルシウム",
+            "DESK": "カルシウムは、骨組織の主要な要素であると同時に、細胞活動の普遍的な調節因子でもあります。"
         },
         "MIN_CL": {
             "HEAD": "Cl",
-            "NAME": "chlorine",
-            "DESK": "Chlorine helps to release gastric juice and forms a good appetite. It retains water in tissues, preventing the body from losing moisture."
+            "NAME": "塩素",
+            "DESK": "塩素は胃液の放出を助け、良い食欲を形成します。組織内に水分を保持し、体が水分を失うのを防ぎます。"
         },
         "MIN_CR": {
             "HEAD": "Cr",
-            "NAME": "chrome",
-            "DESK": "Chrome is essential for normal fat metabolism. Lack of this element leads to overweight and obesity."
+            "NAME": "クロム",
+            "DESK": "クロムは正常な脂肪代謝に不可欠です。この要素が不足すると、太りすぎや肥満につながります。"
         },
         "MIN_CU": {
             "HEAD": "Cu",
-            "NAME": "copper",
-            "DESK": "Copper is involved in the formation of erythrocytes (red blood cells) and is the main component of collagen."
+            "NAME": "銅",
+            "DESK": "銅は赤血球（赤血球）の形成に関与し、コラーゲンの主成分です。"
         },
         "MIN_I": {
             "HEAD": "I",
-            "NAME": "iodine",
-            "DESK": "Iodine is important for the proper functioning of the thyroid gland."
+            "NAME": "ヨウ素",
+            "DESK": "ヨウ素は、甲状腺が適切に機能するために重要です。"
         },
         "MIN_FE": {
             "HEAD": "Fe",
-            "NAME": "iron",
-            "DESK": "It affects the level of hemoglobin and ensures the delivery of oxygen to tissues."
+            "NAME": "鉄",
+            "DESK": "ヘモグロビンのレベルに影響を与え、組織への酸素の送達を確実にします。"
         },
         "MIN_MG": {
             "HEAD": "Mg",
-            "NAME": "magnesium",
-            "DESK": "This mineral ensures the proper work of the heart. It is necessary for the nervous system and muscles, as well as for protein synthesis."
+            "NAME": "マグネシウム",
+            "DESK": "このミネラルは、心臓の適切な働きを保証します。タンパク質合成だけでなく、神経系や筋肉にも必要です。"
         },
         "MIN_MN": {
             "HEAD": "Mn",
-            "NAME": "manganese",
-            "DESK": "Manganese affects the metabolism of proteins, carbohydrates and fats. It also enhances the effect of insulin and maintains a certain level of cholesterol in the blood."
+            "NAME": "マンガン",
+            "DESK": "マンガンは、タンパク質、炭水化物、脂肪の代謝に影響を与えます。また、インスリンの効果を高め、血中のコレステロール値を一定に保ちます。"
         },
         "MIN_MO": {
             "HEAD": "Mo",
-            "NAME": "molybdenum",
-            "DESK": "Molybdenum is a part of a number of enzymes. It participates in nitrogen assimilation, strengthens tooth enamel, and also prevents impotence."
+            "NAME": "モリブデン",
+            "DESK": "モリブデンは多くの酵素の一部です。窒素同化に関与し、歯のエナメル質を強化し、インポテンスも防ぎます。"
         },
         "MIN_P": {
             "HEAD": "P",
-            "NAME": "phosphorus",
-            "DESK": "Phosphorus is necessary for bones and teeth. With its help, proteins and carbohydrates are formed in the body. It also ensures assimilation of many nutrients."
+            "NAME": "リン",
+            "DESK": "リンは骨や歯に必要です。その助けを借りて、タンパク質と炭水化物が体内で形成されます。また、多くの栄養素の同化を保証します。"
         },
         "MIN_K": {
             "HEAD": "K",
-            "NAME": "potassium",
-            "DESK": "Potassium is the main element of all cells and tissues of the body. It's necessary for the proper functioning of the nervous and cardiovascular systems."
+            "NAME": "カリウム",
+            "DESK": "カリウムは、体のすべての細胞と組織の主な要素です。神経系や心血管系が適切に機能するために必要です。"
         },
         "MIN_SE": {
             "HEAD": "Se",
-            "NAME": "selenium",
-            "DESK": "It protects cells and affects the work of the immune system. Selenium suppresses the division of cancer cells and protects neurons and heart muscle cells."
+            "NAME": "セレン",
+            "DESK": "細胞を保護し、免疫系の働きに影響を与えます。セレンはがん細胞の分裂を抑制し、神経細胞や心筋細胞を保護します。"
         },
         "MIN_NA": {
             "HEAD": "Na",
-            "NAME": "sodium",
-            "DESK": "Sodium is essential for the body to maintain water-salt balance, blood pressure regulation, functioning of nerves and muscles."
+            "NAME": "ナトリウム",
+            "DESK": "ナトリウムは、体が水と塩のバランスを維持し、血圧を調節し、神経と筋肉の機能を維持するために不可欠です。"
         },
         "MIN_ZN": {
             "HEAD": "Zn",
-            "NAME": "zinc",
-            "DESK": "Zinc can't be produced in the human body, but it is very important for the stable functioning of the immune system, all organs and the secretion of hormones."
+            "NAME": "亜鉛",
+            "DESK": "亜鉛は人体で生成することはできませんが、免疫システム、すべての臓器、およびホルモンの分泌の安定した機能にとって非常に重要です."
         }
     },
     "WAIST": {
