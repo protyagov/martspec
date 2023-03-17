@@ -87,143 +87,143 @@
         "DESC8_2": "Les vitamines et les minéraux sont des microéléments nutritionnels nécessaires. Ils ne donnent pas d'énergie, mais ils sont vitaux pour le fonctionnement normal de l'organisme et le maintien de la santé.",
         "DESC8_3": "Pour obtenir diverses vitamines, il faut manger des produits de tous les groupes : grains entiers, fruits et légumes, produits laitiers, produits du groupe « poisson-œufs-volaille-viande », matières grasses (noix et graines).",
         "DESC8_4": "Avec notre application, vous pouvez suivre les vitamines et minéraux suivants :",
-        "VITAMIN_FAT": "Fat-Soluble Vitamins",
-        "VITAMIN_WATER": "Water-Soluble Vitamins",
-        "MINERAL": "Minerals",
+        "VITAMIN_FAT": "Vitaminas solubles en grasa",
+        "VITAMIN_WATER": "Vitaminas Solubles en Agua",
+        "MINERAL": "Minerales",
         "VIT_A": {
             "HEAD": "A",
-            "NAME": "retinol, beta-carotene",
-            "DESK": "Is important for the immune system and reproductive function of the body. It's a strong antioxidant, that regulates skin regeneration and hair growth."
+            "NAME": "retinol, betacaroteno",
+            "DESK": "Es importante para el sistema inmunológico y la función reproductiva del cuerpo. Es un fuerte antioxidante, que regula la regeneración de la piel y el crecimiento del cabello."
         },
         "VIT_D": {
             "HEAD": "D",
             "NAME": "calciferol",
-            "DESK": "It supports the health of teeth, bones and muscles. Lack of this vitamin leads to rickets of children and osteomalacia of adults."
+            "DESK": "Apoya la salud de los dientes, huesos y músculos. La falta de esta vitamina provoca raquitismo en los niños y osteomalacia en los adultos."
         },
         "VIT_E": {
             "HEAD": "E",
-            "NAME": "tocopherol",
-            "DESK": "It is a powerful antioxidant, it participates in the formation of fibers that are responsible for the elasticity of the skin."
+            "NAME": "tocoferol",
+            "DESK": "Es un poderoso antioxidante, participa en la formación de fibras que son responsables de la elasticidad de la piel."
         },
         "VIT_K": {
             "HEAD": "K",
-            "NAME": "phylloquinone, menaquinone",
-            "DESK": "The vitamin helps to produce special proteins needed for blood clotting and bone building."
+            "NAME": "filoquinona, menaquinona",
+            "DESK": "La vitamina ayuda a producir proteínas especiales necesarias para la coagulación de la sangre y la formación de huesos."
         },
         "VIT_B1": {
             "HEAD": "B1",
-            "NAME": "thiamine",
-            "DESK": "B1 is necessary for energy metabolism, important for the mechanisms of conducting nerve impulses, synthesis of acetylcholine and other processes in the nervous system."
+            "NAME": "tiamina",
+            "DESK": "B1 es necesario para el metabolismo energético, importante para los mecanismos de conducción de los impulsos nerviosos, la síntesis de acetilcolina y otros procesos en el sistema nervioso."
         },
         "VIT_B2": {
             "HEAD": "B2",
-            "NAME": "riboflavin",
-            "DESK": "B2 is necessary for the formation of red blood cells and antibodies. It's also important for the reproductive function of the body."
+            "NAME": "riboflavina",
+            "DESK": "La B2 es necesaria para la formación de glóbulos rojos y anticuerpos. También es importante para la función reproductiva del cuerpo."
         },
         "VIT_B3": {
             "HEAD": "B3",
-            "NAME": "niacin",
-            "DESK": "It helps the nervous and digestive systems to stay healthy and the skin to look good."
+            "NAME": "niacina",
+            "DESK": "Ayuda a que los sistemas nervioso y digestivo se mantengan saludables y la piel se vea bien."
         },
         "VIT_B5": {
             "HEAD": "B5",
-            "NAME": "pantothenic acid",
-            "DESK": "Pantothenic acid is involved in the breakdown and assimilation of fats, proteins and carbohydrates."
+            "NAME": "ácido pantoténico",
+            "DESK": "El ácido pantoténico está involucrado en la descomposición y asimilación de grasas, proteínas y carbohidratos."
         },
         "VIT_B6": {
             "HEAD": "B6",
-            "NAME": "pyridoxine",
-            "DESK": "It regulates protein exchange, iron metabolism and its transportation to bone marrow cells and other tissues."
+            "NAME": "piridoxina",
+            "DESK": "Regula el intercambio de proteínas, el metabolismo del hierro y su transporte a las células de la médula ósea y otros tejidos."
         },
         "VIT_B7": {
             "HEAD": "B7",
-            "NAME": "biotin",
-            "DESK": "Biotin is called the 'beauty vitamin' because of its positive effect on the condition of hair, skin and nails."
+            "NAME": "biotina",
+            "DESK": "La biotina se denomina la \"vitamina de la belleza\" debido a su efecto positivo sobre el estado del cabello, la piel y las uñas."
         },
         "VIT_B9": {
             "HEAD": "B9",
-            "NAME": "folic acid",
-            "DESK": "It participates in the formation of red and white blood cells, helps the body create DNA and RNA cells, as well as convert carbohydrates into glucose."
+            "NAME": "ácido fólico",
+            "DESK": "Participa en la formación de glóbulos rojos y blancos, ayuda al cuerpo a crear células de ADN y ARN, así como a convertir los carbohidratos en glucosa."
         },
         "VIT_B12": {
             "HEAD": "B12",
-            "NAME": "cobalamin",
-            "DESK": "Cobalamin is responsible for the health of the central nervous system. It helps to resist stress and depression."
+            "NAME": "cobalamina",
+            "DESK": "La cobalamina es responsable de la salud del sistema nervioso central. Ayuda a resistir el estrés y la depresión."
         },
         "VIT_C": {
             "HEAD": "C",
-            "NAME": "ascorbic acid",
-            "DESK": "It protects cells from premature aging and supports the work of blood vessels, the condition of bones and cartilage. It is also important for skin regeneration, as it participates in collagen synthesis."
+            "NAME": "ácido ascórbico",
+            "DESK": "Protege las células del envejecimiento prematuro y apoya el trabajo de los vasos sanguíneos, el estado de los huesos y cartílagos. También es importante para la regeneración de la piel, ya que participa en la síntesis de colágeno."
         },
         "MIN_CA": {
             "HEAD": "Ca",
-            "NAME": "calcium",
-            "DESK": "Calcium is the main element of bone tissue, as well as an universal regulator of cellular activity."
+            "NAME": "calcio",
+            "DESK": "El calcio es el principal elemento del tejido óseo, así como un regulador universal de la actividad celular."
         },
         "MIN_CL": {
             "HEAD": "Cl",
-            "NAME": "chlorine",
-            "DESK": "Chlorine helps to release gastric juice and forms a good appetite. It retains water in tissues, preventing the body from losing moisture."
+            "NAME": "cloro",
+            "DESK": "El cloro ayuda a liberar el jugo gástrico y crea un buen apetito. Retiene el agua en los tejidos, evitando que el cuerpo pierda humedad."
         },
         "MIN_CR": {
             "HEAD": "Cr",
-            "NAME": "chrome",
-            "DESK": "Chrome is essential for normal fat metabolism. Lack of this element leads to overweight and obesity."
+            "NAME": "cromo",
+            "DESK": "El cromo es esencial para el metabolismo normal de las grasas. La falta de este elemento conduce al sobrepeso y la obesidad."
         },
         "MIN_CU": {
             "HEAD": "Cu",
-            "NAME": "copper",
-            "DESK": "Copper is involved in the formation of erythrocytes (red blood cells) and is the main component of collagen."
+            "NAME": "cobre",
+            "DESK": "El cobre interviene en la formación de eritrocitos (glóbulos rojos) y es el principal componente del colágeno."
         },
         "MIN_I": {
             "HEAD": "I",
-            "NAME": "iodine",
-            "DESK": "Iodine is important for the proper functioning of the thyroid gland."
+            "NAME": "yodo",
+            "DESK": "El yodo es importante para el buen funcionamiento de la glándula tiroides."
         },
         "MIN_FE": {
             "HEAD": "Fe",
-            "NAME": "iron",
-            "DESK": "It affects the level of hemoglobin and ensures the delivery of oxygen to tissues."
+            "NAME": "hierro",
+            "DESK": "Afecta el nivel de hemoglobina y asegura el suministro de oxígeno a los tejidos."
         },
         "MIN_MG": {
             "HEAD": "Mg",
-            "NAME": "magnesium",
-            "DESK": "This mineral ensures the proper work of the heart. It is necessary for the nervous system and muscles, as well as for protein synthesis."
+            "NAME": "magnesio",
+            "DESK": "Este mineral asegura el correcto funcionamiento del corazón. Es necesario para el sistema nervioso y los músculos, así como para la síntesis de proteínas."
         },
         "MIN_MN": {
             "HEAD": "Mn",
-            "NAME": "manganese",
-            "DESK": "Manganese affects the metabolism of proteins, carbohydrates and fats. It also enhances the effect of insulin and maintains a certain level of cholesterol in the blood."
+            "NAME": "manganeso",
+            "DESK": "El manganeso afecta el metabolismo de proteínas, carbohidratos y grasas. También potencia el efecto de la insulina y mantiene un cierto nivel de colesterol en la sangre."
         },
         "MIN_MO": {
             "HEAD": "Mo",
-            "NAME": "molybdenum",
-            "DESK": "Molybdenum is a part of a number of enzymes. It participates in nitrogen assimilation, strengthens tooth enamel, and also prevents impotence."
+            "NAME": "molibdeno",
+            "DESK": "El molibdeno es parte de una serie de enzimas. Participa en la asimilación de nitrógeno, fortalece el esmalte dental y también previene la impotencia."
         },
         "MIN_P": {
             "HEAD": "P",
-            "NAME": "phosphorus",
-            "DESK": "Phosphorus is necessary for bones and teeth. With its help, proteins and carbohydrates are formed in the body. It also ensures assimilation of many nutrients."
+            "NAME": "fósforo",
+            "DESK": "El fósforo es necesario para los huesos y los dientes. Con su ayuda, se forman proteínas y carbohidratos en el cuerpo. También asegura la asimilación de muchos nutrientes."
         },
         "MIN_K": {
             "HEAD": "K",
-            "NAME": "potassium",
-            "DESK": "Potassium is the main element of all cells and tissues of the body. It's necessary for the proper functioning of the nervous and cardiovascular systems."
+            "NAME": "potasio",
+            "DESK": "El potasio es el elemento principal de todas las células y tejidos del cuerpo. Es necesario para el buen funcionamiento de los sistemas nervioso y cardiovascular."
         },
         "MIN_SE": {
             "HEAD": "Se",
-            "NAME": "selenium",
-            "DESK": "It protects cells and affects the work of the immune system. Selenium suppresses the division of cancer cells and protects neurons and heart muscle cells."
+            "NAME": "selenio",
+            "DESK": "Protege las células y afecta el trabajo del sistema inmunológico. El selenio suprime la división de las células cancerosas y protege las neuronas y las células del músculo cardíaco."
         },
         "MIN_NA": {
             "HEAD": "Na",
-            "NAME": "sodium",
-            "DESK": "Sodium is essential for the body to maintain water-salt balance, blood pressure regulation, functioning of nerves and muscles."
+            "NAME": "sodio",
+            "DESK": "El sodio es esencial para que el cuerpo mantenga el equilibrio agua-sal, la regulación de la presión arterial, el funcionamiento de los nervios y los músculos."
         },
         "MIN_ZN": {
             "HEAD": "Zn",
             "NAME": "zinc",
-            "DESK": "Zinc can't be produced in the human body, but it is very important for the stable functioning of the immune system, all organs and the secretion of hormones."
+            "DESK": "El zinc no se puede producir en el cuerpo humano, pero es muy importante para el funcionamiento estable del sistema inmunológico, todos los órganos y la secreción de hormonas."
         }
     },
     "WAIST": {
