@@ -87,143 +87,143 @@
         "DESC8_2": "维生素和矿物质是必需的营养微量元素。它们不提供能量，但对正常的机体功能和健康支持至关重要。",
         "DESC8_3": "要获得各种维生素，您应该吃所有类别的产品：全谷物、水果和蔬菜、乳制品、“鱼-蛋-家禽-肉类”类别的产品、脂肪（坚果和种子）。",
         "DESC8_4": "使用我们的应用程序，您可以追踪以下维生素和矿物质：",
-        "VITAMIN_FAT": "Fat-Soluble Vitamins",
-        "VITAMIN_WATER": "Water-Soluble Vitamins",
-        "MINERAL": "Minerals",
+        "VITAMIN_FAT": "脂溶性维生素",
+        "VITAMIN_WATER": "水溶性维生素",
+        "MINERAL": "矿物质",
         "VIT_A": {
             "HEAD": "A",
-            "NAME": "retinol, beta-carotene",
-            "DESK": "Is important for the immune system and reproductive function of the body. It's a strong antioxidant, that regulates skin regeneration and hair growth."
+            "NAME": "视黄醇、β-胡萝卜素",
+            "DESK": "对身体的免疫系统和生殖功能很重要。它是一种强抗氧化剂，可调节皮肤再生和毛发生长。"
         },
         "VIT_D": {
             "HEAD": "D",
-            "NAME": "calciferol",
-            "DESK": "It supports the health of teeth, bones and muscles. Lack of this vitamin leads to rickets of children and osteomalacia of adults."
+            "NAME": "骨化醇",
+            "DESK": "它支持牙齿、骨骼和肌肉的健康。缺乏这种维生素会导致儿童佝偻病和成人骨软化症。"
         },
         "VIT_E": {
             "HEAD": "E",
-            "NAME": "tocopherol",
-            "DESK": "It is a powerful antioxidant, it participates in the formation of fibers that are responsible for the elasticity of the skin."
+            "NAME": "生育酚",
+            "DESK": "它是一种强大的抗氧化剂，参与负责皮肤弹性的纤维的形成。"
         },
         "VIT_K": {
             "HEAD": "K",
-            "NAME": "phylloquinone, menaquinone",
-            "DESK": "The vitamin helps to produce special proteins needed for blood clotting and bone building."
+            "NAME": "叶绿醌，甲萘醌",
+            "DESK": "维生素有助于产生凝血和骨骼构建所需的特殊蛋白质。"
         },
         "VIT_B1": {
             "HEAD": "B1",
-            "NAME": "thiamine",
-            "DESK": "B1 is necessary for energy metabolism, important for the mechanisms of conducting nerve impulses, synthesis of acetylcholine and other processes in the nervous system."
+            "NAME": "硫胺素",
+            "DESK": "B1 是能量代谢所必需的，对于传导神经冲动的机制、乙酰胆碱的合成和神经系统中的其他过程很重要。"
         },
         "VIT_B2": {
             "HEAD": "B2",
-            "NAME": "riboflavin",
-            "DESK": "B2 is necessary for the formation of red blood cells and antibodies. It's also important for the reproductive function of the body."
+            "NAME": "核黄素",
+            "DESK": "B2 是红细胞和抗体形成所必需的。它对身体的生殖功能也很重要。"
         },
         "VIT_B3": {
             "HEAD": "B3",
-            "NAME": "niacin",
-            "DESK": "It helps the nervous and digestive systems to stay healthy and the skin to look good."
+            "NAME": "烟酸",
+            "DESK": "它有助于神经和消化系统保持健康，让皮肤看起来很好。"
         },
         "VIT_B5": {
             "HEAD": "B5",
-            "NAME": "pantothenic acid",
-            "DESK": "Pantothenic acid is involved in the breakdown and assimilation of fats, proteins and carbohydrates."
+            "NAME": "泛酸",
+            "DESK": "泛酸参与脂肪、蛋白质和碳水化合物的分解和同化。"
         },
         "VIT_B6": {
             "HEAD": "B6",
-            "NAME": "pyridoxine",
-            "DESK": "It regulates protein exchange, iron metabolism and its transportation to bone marrow cells and other tissues."
+            "NAME": "吡哆醇",
+            "DESK": "它调节蛋白质交换、铁代谢及其向骨髓细胞和其他组织的运输。"
         },
         "VIT_B7": {
             "HEAD": "B7",
-            "NAME": "biotin",
-            "DESK": "Biotin is called the 'beauty vitamin' because of its positive effect on the condition of hair, skin and nails."
+            "NAME": "生物素",
+            "DESK": "生物素被称为“美容维生素”，因为它对头发、皮肤和指甲的状况有积极作用。"
         },
         "VIT_B9": {
             "HEAD": "B9",
-            "NAME": "folic acid",
-            "DESK": "It participates in the formation of red and white blood cells, helps the body create DNA and RNA cells, as well as convert carbohydrates into glucose."
+            "NAME": "叶酸",
+            "DESK": "它参与红细胞和白细胞的形成，帮助身体产生 DNA 和 RNA 细胞，以及将碳水化合物转化为葡萄糖。"
         },
         "VIT_B12": {
             "HEAD": "B12",
-            "NAME": "cobalamin",
-            "DESK": "Cobalamin is responsible for the health of the central nervous system. It helps to resist stress and depression."
+            "NAME": "钴胺素",
+            "DESK": "钴胺素负责中枢神经系统的健康。它有助于抵抗压力和抑郁。"
         },
         "VIT_C": {
             "HEAD": "C",
-            "NAME": "ascorbic acid",
-            "DESK": "It protects cells from premature aging and supports the work of blood vessels, the condition of bones and cartilage. It is also important for skin regeneration, as it participates in collagen synthesis."
+            "NAME": "抗坏血酸",
+            "DESK": "它可以保护细胞免于过早老化，并支持血管的功能、骨骼和软骨的状况。它对皮肤再生也很重要，因为它参与胶原蛋白的合成。"
         },
         "MIN_CA": {
             "HEAD": "Ca",
-            "NAME": "calcium",
-            "DESK": "Calcium is the main element of bone tissue, as well as an universal regulator of cellular activity."
+            "NAME": "钙",
+            "DESK": "钙是骨组织的主要元素，也是细胞活动的通用调节剂。"
         },
         "MIN_CL": {
             "HEAD": "Cl",
-            "NAME": "chlorine",
-            "DESK": "Chlorine helps to release gastric juice and forms a good appetite. It retains water in tissues, preventing the body from losing moisture."
+            "NAME": "氯",
+            "DESK": "氯有助于释放胃液，形成良好的食欲。它将水分保留在组织中，防止身体失去水分。"
         },
         "MIN_CR": {
             "HEAD": "Cr",
-            "NAME": "chrome",
-            "DESK": "Chrome is essential for normal fat metabolism. Lack of this element leads to overweight and obesity."
+            "NAME": "铬合金",
+            "DESK": "铬对正常的脂肪代谢必不可少。缺乏这种元素会导致超重和肥胖。"
         },
         "MIN_CU": {
             "HEAD": "Cu",
-            "NAME": "copper",
-            "DESK": "Copper is involved in the formation of erythrocytes (red blood cells) and is the main component of collagen."
+            "NAME": "铜",
+            "DESK": "铜参与红细胞（红细胞）的形成，是胶原蛋白的主要成分。"
         },
         "MIN_I": {
             "HEAD": "I",
-            "NAME": "iodine",
-            "DESK": "Iodine is important for the proper functioning of the thyroid gland."
+            "NAME": "碘",
+            "DESK": "碘对于甲状腺的正常功能很重要。"
         },
         "MIN_FE": {
             "HEAD": "Fe",
-            "NAME": "iron",
-            "DESK": "It affects the level of hemoglobin and ensures the delivery of oxygen to tissues."
+            "NAME": "铁",
+            "DESK": "它影响血红蛋白水平并确保氧气输送到组织。"
         },
         "MIN_MG": {
             "HEAD": "Mg",
-            "NAME": "magnesium",
-            "DESK": "This mineral ensures the proper work of the heart. It is necessary for the nervous system and muscles, as well as for protein synthesis."
+            "NAME": "镁",
+            "DESK": "这种矿物质可确保心脏正常工作。它对神经系统和肌肉以及蛋白质合成都是必需的。"
         },
         "MIN_MN": {
             "HEAD": "Mn",
-            "NAME": "manganese",
-            "DESK": "Manganese affects the metabolism of proteins, carbohydrates and fats. It also enhances the effect of insulin and maintains a certain level of cholesterol in the blood."
+            "NAME": "锰",
+            "DESK": "锰影响蛋白质、碳水化合物和脂肪的新陈代谢。它还能增强胰岛素的作用，使血液中的胆固醇保持在一定水平。"
         },
         "MIN_MO": {
             "HEAD": "Mo",
-            "NAME": "molybdenum",
-            "DESK": "Molybdenum is a part of a number of enzymes. It participates in nitrogen assimilation, strengthens tooth enamel, and also prevents impotence."
+            "NAME": "钼",
+            "DESK": "钼是许多酶的组成部分。它参与氮的同化作用，强化牙釉质，还能预防阳痿。"
         },
         "MIN_P": {
             "HEAD": "P",
-            "NAME": "phosphorus",
-            "DESK": "Phosphorus is necessary for bones and teeth. With its help, proteins and carbohydrates are formed in the body. It also ensures assimilation of many nutrients."
+            "NAME": "磷",
+            "DESK": "磷是骨骼和牙齿所必需的。在它的帮助下，蛋白质和碳水化合物在体内形成。它还确保吸收许多营养素。"
         },
         "MIN_K": {
             "HEAD": "K",
-            "NAME": "potassium",
-            "DESK": "Potassium is the main element of all cells and tissues of the body. It's necessary for the proper functioning of the nervous and cardiovascular systems."
+            "NAME": "钾",
+            "DESK": "钾是人体所有细胞和组织的主要元素。它对于神经和心血管系统的正常运作是必要的。"
         },
         "MIN_SE": {
             "HEAD": "Se",
-            "NAME": "selenium",
-            "DESK": "It protects cells and affects the work of the immune system. Selenium suppresses the division of cancer cells and protects neurons and heart muscle cells."
+            "NAME": "硒",
+            "DESK": "它保护细胞并影响免疫系统的工作。硒抑制癌细胞的分裂并保护神经元和心肌细胞。"
         },
         "MIN_NA": {
             "HEAD": "Na",
-            "NAME": "sodium",
-            "DESK": "Sodium is essential for the body to maintain water-salt balance, blood pressure regulation, functioning of nerves and muscles."
+            "NAME": "钠",
+            "DESK": "钠对于身体维持水盐平衡、血压调节、神经和肌肉功能至关重要。"
         },
         "MIN_ZN": {
             "HEAD": "Zn",
-            "NAME": "zinc",
-            "DESK": "Zinc can't be produced in the human body, but it is very important for the stable functioning of the immune system, all organs and the secretion of hormones."
+            "NAME": "锌",
+            "DESK": "锌不能在人体内产生，但它对免疫系统、所有器官的稳定运作和荷尔蒙的分泌非常重要。"
         }
     },
     "WAIST": {
