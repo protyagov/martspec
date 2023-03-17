@@ -87,143 +87,143 @@
         "DESC8_2": "विटामिन और खनिज आवश्यक पोषक तत्व हैं। वे ऊर्जा नहीं देते हैं, लेकिन वे सामान्य जीव के कामकाज और स्वास्थ्य सहायता के लिए महत्वपूर्ण हैं।",
         "DESC8_3": "विभिन्न विटामिन प्राप्त करने के लिए, आपको सभी समूहों के उत्पाद खाने चाहिए: साबुत अनाज, फल और सब्जियां, डेयरी उत्पाद, 'मछली-अंडे-पोल्ट्री-मांस' समूह के उत्पाद, वसा (नट और बीज)।",
         "DESC8_4": "हमारे ऐप से, आप निम्नलिखित विटामिन और खनिजों को ट्रैक कर सकते हैं:",
-        "VITAMIN_FAT": "Fat-Soluble Vitamins",
-        "VITAMIN_WATER": "Water-Soluble Vitamins",
-        "MINERAL": "Minerals",
+        "VITAMIN_FAT": "वसा में घुलनशील विटामिन",
+        "VITAMIN_WATER": "पानी में घुलनशील विटामिन",
+        "MINERAL": "खनिज पदार्थ",
         "VIT_A": {
             "HEAD": "A",
-            "NAME": "retinol, beta-carotene",
-            "DESK": "Is important for the immune system and reproductive function of the body. It's a strong antioxidant, that regulates skin regeneration and hair growth."
+            "NAME": "रेटिनॉल, बीटा-कैरोटीन",
+            "DESK": "प्रतिरक्षा प्रणाली और शरीर के प्रजनन कार्य के लिए महत्वपूर्ण है। यह एक मजबूत एंटीऑक्सीडेंट है, जो त्वचा के उत्थान और बालों के विकास को नियंत्रित करता है"
         },
         "VIT_D": {
             "HEAD": "D",
-            "NAME": "calciferol",
-            "DESK": "It supports the health of teeth, bones and muscles. Lack of this vitamin leads to rickets of children and osteomalacia of adults."
+            "NAME": "कैल्सिफेरोल",
+            "DESK": "यह दांतों, हड्डियों और मांसपेशियों के स्वास्थ्य का समर्थन करता है। इस विटामिन की कमी से बच्चों में रिकेट्स और वयस्कों में ऑस्टियोमलेशिया हो जाता है।"
         },
         "VIT_E": {
             "HEAD": "E",
-            "NAME": "tocopherol",
-            "DESK": "It is a powerful antioxidant, it participates in the formation of fibers that are responsible for the elasticity of the skin."
+            "NAME": "टोकोफ़ेरॉल",
+            "DESK": "यह एक शक्तिशाली एंटीऑक्सीडेंट है, यह तंतुओं के निर्माण में भाग लेता है जो त्वचा की लोच के लिए जिम्मेदार होते हैं।"
         },
         "VIT_K": {
             "HEAD": "K",
-            "NAME": "phylloquinone, menaquinone",
-            "DESK": "The vitamin helps to produce special proteins needed for blood clotting and bone building."
+            "NAME": "फाइलोक्विनोन, मेनाक्विनोन",
+            "DESK": "विटामिन रक्त के थक्के और हड्डी के निर्माण के लिए आवश्यक विशेष प्रोटीन का उत्पादन करने में मदद करता है।"
         },
         "VIT_B1": {
             "HEAD": "B1",
-            "NAME": "thiamine",
-            "DESK": "B1 is necessary for energy metabolism, important for the mechanisms of conducting nerve impulses, synthesis of acetylcholine and other processes in the nervous system."
+            "NAME": "थायमिन",
+            "DESK": "बी 1 ऊर्जा चयापचय के लिए आवश्यक है, तंत्रिका आवेगों के संचालन के तंत्र के लिए महत्वपूर्ण है, एसिटाइलकोलाइन का संश्लेषण और तंत्रिका तंत्र में अन्य प्रक्रियाएं।"
         },
         "VIT_B2": {
             "HEAD": "B2",
-            "NAME": "riboflavin",
-            "DESK": "B2 is necessary for the formation of red blood cells and antibodies. It's also important for the reproductive function of the body."
+            "NAME": "राइबोफ्लेविन",
+            "DESK": "बी2 लाल रक्त कोशिकाओं और एंटीबॉडी के निर्माण के लिए आवश्यक है। यह शरीर के प्रजनन कार्य के लिए भी महत्वपूर्ण है।"
         },
         "VIT_B3": {
             "HEAD": "B3",
-            "NAME": "niacin",
-            "DESK": "It helps the nervous and digestive systems to stay healthy and the skin to look good."
+            "NAME": "नियासिन",
+            "DESK": "यह तंत्रिका और पाचन तंत्र को स्वस्थ रहने और त्वचा को अच्छा दिखने में मदद करता है।"
         },
         "VIT_B5": {
             "HEAD": "B5",
-            "NAME": "pantothenic acid",
-            "DESK": "Pantothenic acid is involved in the breakdown and assimilation of fats, proteins and carbohydrates."
+            "NAME": "पैंथोथेटिक अम्ल",
+            "DESK": "पैंटोथेनिक एसिड वसा, प्रोटीन और कार्बोहाइड्रेट के टूटने और आत्मसात करने में शामिल है।"
         },
         "VIT_B6": {
             "HEAD": "B6",
-            "NAME": "pyridoxine",
-            "DESK": "It regulates protein exchange, iron metabolism and its transportation to bone marrow cells and other tissues."
+            "NAME": "ख़तम",
+            "DESK": "यह प्रोटीन विनिमय, लौह चयापचय और अस्थि मज्जा कोशिकाओं और अन्य ऊतकों में इसके परिवहन को नियंत्रित करता है।"
         },
         "VIT_B7": {
             "HEAD": "B7",
-            "NAME": "biotin",
-            "DESK": "Biotin is called the 'beauty vitamin' because of its positive effect on the condition of hair, skin and nails."
+            "NAME": "बायोटिन",
+            "DESK": "बालों, त्वचा और नाखूनों की स्थिति पर इसके सकारात्मक प्रभाव के कारण बायोटिन को 'सौंदर्य विटामिन' कहा जाता है।"
         },
         "VIT_B9": {
             "HEAD": "B9",
-            "NAME": "folic acid",
-            "DESK": "It participates in the formation of red and white blood cells, helps the body create DNA and RNA cells, as well as convert carbohydrates into glucose."
+            "NAME": "फोलिक एसिड",
+            "DESK": "यह लाल और सफेद रक्त कोशिकाओं के निर्माण में भाग लेता है, शरीर को डीएनए और आरएनए कोशिकाओं को बनाने में मदद करता है, साथ ही कार्बोहाइड्रेट को ग्लूकोज में परिवर्तित करता है।"
         },
         "VIT_B12": {
             "HEAD": "B12",
-            "NAME": "cobalamin",
-            "DESK": "Cobalamin is responsible for the health of the central nervous system. It helps to resist stress and depression."
+            "NAME": "कोबालिन",
+            "DESK": "कोबालिन केंद्रीय तंत्रिका तंत्र के स्वास्थ्य के लिए जिम्मेदार है। यह तनाव और अवसाद का विरोध करने में मदद करता है।"
         },
         "VIT_C": {
             "HEAD": "C",
-            "NAME": "ascorbic acid",
-            "DESK": "It protects cells from premature aging and supports the work of blood vessels, the condition of bones and cartilage. It is also important for skin regeneration, as it participates in collagen synthesis."
+            "NAME": "एस्कॉर्बिक अम्ल",
+            "DESK": "यह कोशिकाओं को समय से पहले बूढ़ा होने से बचाता है और रक्त वाहिकाओं के काम, हड्डियों और उपास्थि की स्थिति का समर्थन करता है। यह त्वचा के पुनर्जनन के लिए भी महत्वपूर्ण है, क्योंकि यह कोलेजन संश्लेषण में भाग लेता है।"
         },
         "MIN_CA": {
             "HEAD": "Ca",
-            "NAME": "calcium",
-            "DESK": "Calcium is the main element of bone tissue, as well as an universal regulator of cellular activity."
+            "NAME": "कैल्शियम",
+            "DESK": "कैल्शियम हड्डी के ऊतकों का मुख्य तत्व है, साथ ही सेलुलर गतिविधि का एक सार्वभौमिक नियामक भी है।"
         },
         "MIN_CL": {
             "HEAD": "Cl",
-            "NAME": "chlorine",
-            "DESK": "Chlorine helps to release gastric juice and forms a good appetite. It retains water in tissues, preventing the body from losing moisture."
+            "NAME": "क्लोरीन",
+            "DESK": "क्लोरीन गैस्ट्रिक जूस को रिलीज करने में मदद करता है और अच्छी भूख बनाता है। यह ऊतकों में पानी बनाए रखता है, शरीर को नमी खोने से रोकता है।"
         },
         "MIN_CR": {
             "HEAD": "Cr",
-            "NAME": "chrome",
-            "DESK": "Chrome is essential for normal fat metabolism. Lack of this element leads to overweight and obesity."
+            "NAME": "क्रोम",
+            "DESK": "क्रोम सामान्य वसा चयापचय के लिए आवश्यक है। इस तत्व की कमी से अधिक वजन और मोटापा होता है।"
         },
         "MIN_CU": {
             "HEAD": "Cu",
-            "NAME": "copper",
-            "DESK": "Copper is involved in the formation of erythrocytes (red blood cells) and is the main component of collagen."
+            "NAME": "ताँबा",
+            "DESK": "कॉपर एरिथ्रोसाइट्स (लाल रक्त कोशिकाओं) के निर्माण में शामिल है और कोलेजन का मुख्य घटक है।"
         },
         "MIN_I": {
             "HEAD": "I",
-            "NAME": "iodine",
-            "DESK": "Iodine is important for the proper functioning of the thyroid gland."
+            "NAME": "आयोडीन",
+            "DESK": "थायरॉयड ग्रंथि के समुचित कार्य के लिए आयोडीन महत्वपूर्ण है।"
         },
         "MIN_FE": {
             "HEAD": "Fe",
-            "NAME": "iron",
-            "DESK": "It affects the level of hemoglobin and ensures the delivery of oxygen to tissues."
+            "NAME": "लोहा",
+            "DESK": "यह हीमोग्लोबिन के स्तर को प्रभावित करता है और ऊतकों को ऑक्सीजन की डिलीवरी सुनिश्चित करता है।"
         },
         "MIN_MG": {
             "HEAD": "Mg",
-            "NAME": "magnesium",
-            "DESK": "This mineral ensures the proper work of the heart. It is necessary for the nervous system and muscles, as well as for protein synthesis."
+            "NAME": "मैगनीशियम",
+            "DESK": "यह खनिज हृदय के समुचित कार्य को सुनिश्चित करता है। यह तंत्रिका तंत्र और मांसपेशियों के साथ-साथ प्रोटीन संश्लेषण के लिए आवश्यक है।"
         },
         "MIN_MN": {
             "HEAD": "Mn",
-            "NAME": "manganese",
-            "DESK": "Manganese affects the metabolism of proteins, carbohydrates and fats. It also enhances the effect of insulin and maintains a certain level of cholesterol in the blood."
+            "NAME": "मैंगनीज",
+            "DESK": "मैंगनीज प्रोटीन, कार्बोहाइड्रेट और वसा के चयापचय को प्रभावित करता है। यह इंसुलिन के प्रभाव को भी बढ़ाता है और रक्त में कोलेस्ट्रॉल के एक निश्चित स्तर को बनाए रखता है।"
         },
         "MIN_MO": {
             "HEAD": "Mo",
-            "NAME": "molybdenum",
-            "DESK": "Molybdenum is a part of a number of enzymes. It participates in nitrogen assimilation, strengthens tooth enamel, and also prevents impotence."
+            "NAME": "मोलिब्डेनम",
+            "DESK": "मोलिब्डेनम कई एंजाइमों का एक हिस्सा है। यह नाइट्रोजन आत्मसात में भाग लेता है, दांतों के इनेमल को मजबूत करता है और नपुंसकता को भी रोकता है।"
         },
         "MIN_P": {
             "HEAD": "P",
-            "NAME": "phosphorus",
-            "DESK": "Phosphorus is necessary for bones and teeth. With its help, proteins and carbohydrates are formed in the body. It also ensures assimilation of many nutrients."
+            "NAME": "फास्फोरस",
+            "DESK": "फास्फोरस हड्डियों और दांतों के लिए जरूरी है। इसकी मदद से शरीर में प्रोटीन और कार्बोहाइड्रेट बनते हैं। यह कई पोषक तत्वों के समावेश को भी सुनिश्चित करता है।"
         },
         "MIN_K": {
             "HEAD": "K",
-            "NAME": "potassium",
-            "DESK": "Potassium is the main element of all cells and tissues of the body. It's necessary for the proper functioning of the nervous and cardiovascular systems."
+            "NAME": "पोटैशियम",
+            "DESK": "पोटेशियम शरीर के सभी कोशिकाओं और ऊतकों का मुख्य तत्व है। यह तंत्रिका और हृदय प्रणाली के समुचित कार्य के लिए आवश्यक है।"
         },
         "MIN_SE": {
             "HEAD": "Se",
-            "NAME": "selenium",
-            "DESK": "It protects cells and affects the work of the immune system. Selenium suppresses the division of cancer cells and protects neurons and heart muscle cells."
+            "NAME": "सेलेनियम",
+            "DESK": "यह कोशिकाओं की रक्षा करता है और प्रतिरक्षा प्रणाली के काम को प्रभावित करता है। सेलेनियम कैंसर कोशिकाओं के विभाजन को दबाता है और न्यूरॉन्स और हृदय की मांसपेशियों की कोशिकाओं की रक्षा करता है।"
         },
         "MIN_NA": {
             "HEAD": "Na",
-            "NAME": "sodium",
-            "DESK": "Sodium is essential for the body to maintain water-salt balance, blood pressure regulation, functioning of nerves and muscles."
+            "NAME": "सोडियम",
+            "DESK": "शरीर में जल-नमक संतुलन, रक्तचाप नियमन, नसों और मांसपेशियों के कामकाज को बनाए रखने के लिए सोडियम आवश्यक है।"
         },
         "MIN_ZN": {
             "HEAD": "Zn",
-            "NAME": "zinc",
-            "DESK": "Zinc can't be produced in the human body, but it is very important for the stable functioning of the immune system, all organs and the secretion of hormones."
+            "NAME": "जस्ता",
+            "DESK": "जस्ता मानव शरीर में नहीं बनाया जा सकता है, लेकिन यह प्रतिरक्षा प्रणाली, सभी अंगों और हार्मोन के स्राव के स्थिर कामकाज के लिए बहुत महत्वपूर्ण है।"
         }
     },
     "WAIST": {
