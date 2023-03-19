@@ -1,5 +1,0 @@
-"CFBundleDisplayName" = "Body Size";
-"CFBundleName" = "Body Size";
-
-"NSHealthShareUsageDescription" = "Permission to read your health data allows our app to show you measurements saved in the health app. Some calculations, such as the metabolism rate, cannot be performed correctly without it.";
-"NSHealthUpdateUsageDescription" = "Permission to store to the health app allows us to sync your measurements for selected categories.";

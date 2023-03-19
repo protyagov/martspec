@@ -13,7 +13,6 @@ do
   	cwebp -lossless -z 9 -m 6 -mt -hint picture -metadata none $f.size512.new -o "${f:4:${#f}-8}".512.webp 	
 done
 
-rm org/*size64
 rm org/*size512
 rm org/*.new
 
@@ -54,3 +53,21 @@ cp mass.en.512.webp mass.hi.512.webp
 cp mass.en.512.webp mass.ja.512.webp
 cp mass.en.512.webp mass.pt.512.webp
 cp mass.en.512.webp mass.uk.512.webp
+
+cp emotion.en.512.webp emotion.ar.512.webp
+cp emotion.en.512.webp emotion.de.512.webp
+cp emotion.en.512.webp emotion.es.512.webp
+cp emotion.en.512.webp emotion.fr.512.webp
+cp emotion.en.512.webp emotion.hi.512.webp
+cp emotion.en.512.webp emotion.ja.512.webp
+cp emotion.en.512.webp emotion.pt.512.webp
+cp emotion.en.512.webp emotion.uk.512.webp
+
+cp waist.en.512.webp waist.ar.512.webp
+cp waist.en.512.webp waist.de.512.webp
+cp waist.en.512.webp waist.es.512.webp
+cp waist.en.512.webp waist.fr.512.webp
+cp waist.en.512.webp waist.hi.512.webp
+cp waist.en.512.webp waist.ja.512.webp
+cp waist.en.512.webp waist.pt.512.webp
+cp waist.en.512.webp waist.uk.512.webp
