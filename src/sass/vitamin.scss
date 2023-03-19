@@ -131,6 +131,7 @@
       text-align: center;
       padding-left: 2vw;
       padding-right: 2vw;
+      width: 20%;
     }
 
     .vit-icon {
@@ -145,7 +146,13 @@
       line-height: 130%;
     }
 
+    .vit-desk {
+      width: 71.7%;
+    }
+
     .vit-arrow {
+      width: 8.3%;
+
       a {
         height: 100%;
         width: 100%;
@@ -168,10 +175,15 @@
     }
   }
 
-  @media only screen and (max-width: ($ms-screen-md - 1)) {
+  @media only screen and (max-width: ($ms-screen-lg - 1)) {
     .vitamins-list {
       .vit-item {
         padding: 1rem 5% 1.5rem;
+      }
+
+      .vit-header,
+      .vit-desk {
+        width: 91.3%;
       }
 
       .vit-header {
