@@ -7,6 +7,14 @@
   $blue-light: #EFF9FF;
   $blue-accent: $ms-color-button-hover;
 
+  .ms-mb-8 {
+    margin-bottom: 8rem !important;
+  }
+
+  & > * {
+    margin-bottom: 8rem;
+  }
+
   * {
     line-height: 150%;
     font-family: os4;
@@ -85,6 +93,10 @@
     * {
       font-family: os4 !important;
       color: $ms-color-text-darker !important;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
     }
   }
 
