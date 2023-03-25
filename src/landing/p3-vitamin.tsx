@@ -5,10 +5,11 @@ import NavigationBar from "src/part/navbar";
 import IronImage from "src/part/iron-image";
 import VitaminItem from "src/part/vitaminItem";
 
-const VITAMIN_FAT = ["VIT_A", "VIT_D", "VIT_E", "VIT_K"];
-const VITAMIN_WATER = ["VIT_B1", "VIT_B2", "VIT_B3", "VIT_B5", "VIT_B6", "VIT_B7", "VIT_B9", "VIT_B12", "VIT_C"];
-const MINERAL = ["MIN_CA", "MIN_CL", "MIN_CR", "MIN_CU", "MIN_I", "MIN_FE", "MIN_MG", "MIN_MN", "MIN_MO", "MIN_P",
-    "MIN_K", "MIN_SE", "MIN_NA", "MIN_ZN"];
+const vitamins = {
+    VITAMIN_FAT: ["VIT_A", "VIT_D", "VIT_E", "VIT_K"],
+    VITAMIN_WATER: ["VIT_B1", "VIT_B2", "VIT_B3", "VIT_B5", "VIT_B6", "VIT_B7", "VIT_B9", "VIT_B12", "VIT_C"],
+    MINERAL: ["MIN_CA", "MIN_CL", "MIN_CR", "MIN_CU", "MIN_I", "MIN_FE", "MIN_MG", "MIN_MN", "MIN_MO", "MIN_P", "MIN_K", "MIN_SE", "MIN_NA", "MIN_ZN"]
+};
 
 export default function P3LogVitamin() {
     return <>
@@ -106,35 +107,22 @@ export default function P3LogVitamin() {
 
             <div className="vitamins-list">
 
-            <section>
-                <div className="row">
-                    <div className="col-12 py-3 px-5 vit-head">{_("VITAMIN.VITAMIN_FAT")}</div>
-                </div>
-
                 {
-                    VITAMIN_FAT.map(vit => <VitaminItem key={vit} name={vit} />)
+                    Object
+                        .entries(vitamins)
+                        .map(([vitName, vitList]) => (
+                            <section key={"vitamins-list" + vitName}>
+                                <div className="row">
+                                    <div className="col-12 py-3 px-5 vit-head">{_("VITAMIN." + vitName)}</div>
+                                </div>
+
+                                {
+                                    vitList.map(vit => <VitaminItem key={vit} name={vit} />)
+                                }
+                            </section>
+                        ))
                 }
-            </section>
 
-            <section>
-                <div className="row">
-                    <div className="col-12 py-3 px-5 vit-head">{_("VITAMIN.VITAMIN_WATER")}</div>
-                </div>
-
-                {
-                    VITAMIN_WATER.map(vit => <VitaminItem key={vit} name={vit} />)
-                }
-            </section>
-
-            <section>
-                <div className="row">
-                    <div className="col-12 py-3 px-5 vit-head">{_("VITAMIN.MINERAL")}</div>
-                </div>
-
-                {
-                    MINERAL.map(vit => <VitaminItem key={vit} name={vit} />)
-                }
-            </section>
 
             </div>
 

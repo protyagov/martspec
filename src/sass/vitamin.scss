@@ -7,12 +7,9 @@
   $blue-light: #EFF9FF;
   $blue-accent: $ms-color-button-hover;
 
+  & > *,
   .ms-mb-8 {
     margin-bottom: 8rem !important;
-  }
-
-  & > * {
-    margin-bottom: 8rem;
   }
 
   * {
