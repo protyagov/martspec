@@ -28,7 +28,6 @@
   }
 
   h3 {
-    font-family: os6;
     font-size: 1.8rem;
     color: $ms-color-text-darker;
     margin-top: 1rem;
@@ -39,10 +38,6 @@
   h3,
   .vit-name {
     overflow-wrap: anywhere;
-  }
-
-  .vitamin-about > * {
-    color: $ms-color-text-black;
   }
 
   .vitamin-block {

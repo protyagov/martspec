@@ -17,7 +17,7 @@ export default function P3LogVitamin() {
         <div className="ms-base-page pb-5 vitamin">
             <img src="/img/vitamin.svg" className="img-fluid mb-0" alt={_("VITAMIN.IMG")} height={512} width={512} />
 
-            <section className="text-center vitamin-about">
+            <section className="text-center">
                 <div className="row">
                     <div className="col">
                         <h1 className="text-center pt-3 mb-5">{_("VITAMIN.HEAD")}</h1>
