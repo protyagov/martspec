@@ -215,6 +215,13 @@
     }
   }
 
+  @media only screen and (max-width: ($ms-screen-md - 1)) {
+    .vitamin-block.bg-transparent {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
   @media only screen and (max-width: ($ms-screen-sm - 1)) {
     .vitamins-list {
       section {

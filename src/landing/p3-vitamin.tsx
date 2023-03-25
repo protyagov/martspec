@@ -20,11 +20,11 @@ export default function P3LogVitamin() {
             <section className="text-center vitamin-about">
                 <div className="row">
                     <div className="col">
-                        <h1 className="text-center pt-3">{_("VITAMIN.HEAD")}</h1>
+                        <h1 className="text-center pt-3 mb-5">{_("VITAMIN.HEAD")}</h1>
                         <h3>{_("VITAMIN.ABOUT_1")}</h3>
                         <h3>{_("VITAMIN.ABOUT_2")}</h3>
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
-                            target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-4"
+                            target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-5"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                         </a>
                     </div>
@@ -38,7 +38,7 @@ export default function P3LogVitamin() {
                         <h3>{_("VITAMIN.HEAD1")}</h3>
                         <p className="mt-3">{_("VITAMIN.DESC1")}</p>
                     </div>
-                    <div className="col-md col-12 d-flex flex-column justify-content-center vitamin-block">
+                    <div className="col-md col-12 d-flex flex-column justify-content-center mt-md-0 mt-5 vitamin-block bg-transparent">
                         <h2>{_("VITAMIN.HEAD2")}</h2>
                         <p>{_("VITAMIN.DESC2")}</p>
                     </div>
@@ -59,9 +59,9 @@ export default function P3LogVitamin() {
 
             <section>
                 <div className="row gap-5">
-                <div className="col-md col-12 d-flex flex-column justify-content-center vitamin-block">
+                    <div className="col-md col-12 d-flex flex-column justify-content-center mb-md-0 mb-5 vitamin-block bg-transparent">
                         <h2>{_("VITAMIN.HEAD4")}</h2>
-                        <p>{_("VITAMIN.DESC4")}</p>
+                        <p className="mb-md-0 mb-5">{_("VITAMIN.DESC4")}</p>
                     </div>
                     <div className="col-md col-12 vitamin-block bg-blue">
                         <img src="/img/without_login_icon.svg" className="m-0 p-0" alt="Apple Health" height={100} width={100} />
