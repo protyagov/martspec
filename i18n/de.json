@@ -65,27 +65,166 @@
         "TEXT": "Das Verfolgen Ihrer essentiellen Vitamine hat viele Vorteile, angefangen bei der Behandlung von Nahrungsmittelunverträglichkeiten bis hin zur Steigerung der Energie, zur Vermeidung von Stimmungsschwankungen und zur Förderung des Tagesrhythmus.",
         "IMG": "Verfolgen Sie die wichtigsten Vitamine direkt am Handgelenk",
         "DWN": "Laden Sie die kostenlose Vitamin- und Nährstoffverfolgungs-App aus dem Apple AppStore herunter",
-        "ABOUT": "Mit der Vitamin-App können Sie die Aufnahme wichtiger Vitamine direkt von Ihrem Handgelenk aus verfolgen, wenn Sie die Apple Watch sowie iPhone und iPad verwenden. Sie können Ihren Fortschritt im Laufe der Zeit sehen, Datensätze werden nach Monaten gruppiert und automatisch mit Ihrer Apple Health synchronisiert. Die App ist absolut kostenlos, hat keine Werbung und verwendet Ihre Daten nicht gewinnbringend.",
-        "HEAD1": "Ernährungsentscheidungen verbessern",
-        "DESC1": "Diese App ist ein ausgezeichneter Vitamin-Tracker, der Ihre Ernährung verbessern und gleichzeitig die Nährstoffziele anpassen kann.",
-        "HEAD2": "Nehmen Sie einen gesünderen Lebensstil an",
-        "DESC2": "Tragbare Aktivitäts-Tracker bieten vielversprechende Möglichkeiten, um Benutzern zu einem gesünderen Lebensstil zu verhelfen. ",
-        "HEAD3": "Vitamin A - Beta-Carotin",
-        "DESC3": "Wichtig für das normale Sehen, das Immunsystem und die Fortpflanzung. Hilft, dass Herz, Lunge, Nieren und andere Organe richtig funktionieren. ",
-        "HEAD4": "Vitamin C - Ascorbinsäure",
-        "DESC4": "Schützt die Zellen und hält sie gesund. Unterstützt Blutgefäße, Knochen und Knorpel. Wichtig für die Wundheilung t k hilft bei der Entwicklung von Bindegewebe, Regenerationsprozessen und Heilung. Gibt Widerstand gegen verschiedene Arten von Stress, die Gewährleistung des normalen immunologischen Status des Körpers und die Aufrechterhaltung der Prozesse der Hämatopoese. ",
-        "HEAD5": "Vitamin D",
-        "DESC5": "Reguliert die Menge an Kalzium und Phosphat im Körper. Diese Nährstoffe werden benötigt, um Knochen, Zähne und Muskeln gesund zu halten. Ein Mangel an Vitamin D kann bei Kindern zu Knochendeformitäten wie Rachitis und Knochenschmerzen führen, die durch eine als Osteomalazie bezeichnete Erkrankung bei Erwachsenen verursacht werden. ",
-        "HEAD6": "Vitamin E",
-        "DESC6": "Unterstützt die Gesundheit und Schönheit des Körpers beim Schutz vor schädlichen Umweltfaktoren. Wenn Zellen, Gewebe und Organe Vitamin E in ausreichender Menge erhalten, verringert sich das Risiko für viele Krankheiten, verlangsamt den Alterungsprozess. Insbesondere als starkes Antioxidans ist Vitamin E an der Bildung von Fasern beteiligt, die es der Haut ermöglichen, elastisch zu bleiben. ",
-        "HEAD7": "Vitamin B12 - Cobalamin",
-        "DESC7": "Bildung roter Blutkörperchen und Gesundheit des Nervengewebes. Helfen Sie dem Körper, Lebensmittel (Kohlenhydrate) in Kraftstoff (Glukose) umzuwandeln, der zur Energieerzeugung verwendet wird. ",
-        "HEAD8": "Vitamin B7 - Biotin",
-        "DESC8": "Hilft bei der Umwandlung von Nährstoffen in Energie und spielt eine wichtige Rolle für die Gesundheit von Haaren, Haut und Nägeln. ",
-        "HEAD9": "Vitamin B9 - Folsäure",
-        "DESC9": "Wird benötigt, um rote und weiße Blutkörperchen im Knochenmark zu bilden, Kohlenhydrate in Energie umzuwandeln und DNA und RNA zu produzieren. ",
-        "HEAD0": "Vitamin B3 - Niacin",
-        "DESC0": "Muss Lebensmittel in Energie umwandeln. Es hilft, Ihr Nervensystem, Ihr Verdauungssystem und Ihre Haut gesund zu halten. "
+        "ABOUT_1": "Sind Sie sicher, dass Sie alle wichtigen Vitamine und Mineralstoffe mit der Nahrung erhalten?",
+        "ABOUT_2": "Vitamin hilft Ihnen, ihren Verbrauch zu verfolgen. Erhöhen Sie die Qualität Ihrer Ernährung und stärken Sie Ihre Gesundheit mit unserer App.",
+        "FOOT": "Diese App ermutigt uns, uns gesund zu ernähren und höhere Standards bei unserer Lebensmittelauswahl zu erreichen, was wiederum unserem Körper und Geist hilft, stark und gesund zu bleiben.",
+        "HEAD1": "Synchronisierung mit Apple Health",
+        "DESC1": "Daten werden zwischen Geräten über iCloud und die Apple Health App synchronisiert.",
+        "HEAD2": "Einfachheit und Mühelosigkeit",
+        "DESC2": "Das Feedback von echten Benutzern hat dazu beigetragen, diese App bequem und leicht verständlich zu machen.",
+        "HEAD3": "Unterstützt alle in Apple Health verfügbaren Vitamine und Mineralstoffe",
+        "DESC3": "Enthält 13 essentielle Vitamine und 14 lebenswichtige Mineralien.",
+        "HEAD4": "Sicherheit",
+        "DESC4": "Ganz privat. Wir speichern oder übermitteln Ihre Daten nicht an Dritte. Die Daten werden nur in Ihrem Apple-Dienst gespeichert.",
+        "HEAD5": "Ohne Genehmigung",
+        "DESC5": "Sie müssen kein Konto erstellen, um diese App zu verwenden. ",
+        "HEAD6": "Möglichkeit, benutzerdefinierte Elemente hinzuzufügen",
+        "DESC6": "Sie können zusätzlich zu den voreingestellten bis zu 5 benutzerdefinierte Elemente hinzufügen.",
+        "HEAD7": "Die Daten werden zwischen all Ihren Geräten synchronisiert",
+        "DESC7": "Die App funktioniert auf Apple Watch, iPhone, iPad und Mac M.",
+        "HEAD8": "",
+        "DESC8_1": "Das Wort „VITAMIN“ kommt vom lateinischen „VITA“, bedeutet „LEBEN“, und tatsächlich ist unser Leben ohne Vitamine nicht möglich.",
+        "DESC8_2": "Vitamine und Mineralstoffe sind notwendige Mikroelemente für die Ernährung. Sie geben keine Energie, aber sie sind lebenswichtig für die normale Funktion des Organismus und die Unterstützung der Gesundheit.",
+        "DESC8_3": "Um verschiedene Vitamine zu erhalten, sollten Sie Produkte aller Gruppen essen: Vollkornprodukte, Obst und Gemüse, Milchprodukte, Produkte aus der Gruppe „Fisch-Eier-Geflügel-Fleisch“, Fette (Nüsse und Samen).",
+        "DESC8_4": "Mit unserer App können Sie folgende Vitamine und Mineralstoffe tracken:",
+        "VITAMIN_FAT": "Fettlösliche Vitamine",
+        "VITAMIN_WATER": "Wasserlösliche Vitamine",
+        "MINERAL": "Mineralien",
+        "VIT_A": {
+            "HEAD": "A",
+            "NAME": "Retinol, Beta-Carotin",
+            "DESK": "Ist wichtig für das Immunsystem und die Fortpflanzungsfunktion des Körpers. Es ist ein starkes Antioxidans, das die Hautregeneration und das Haarwachstum reguliert."
+        },
+        "VIT_D": {
+            "HEAD": "D",
+            "NAME": "Calciferol",
+            "DESK": "Es unterstützt die Gesundheit von Zähnen, Knochen und Muskeln. Ein Mangel an diesem Vitamin führt zu Rachitis bei Kindern und Osteomalazie bei Erwachsenen."
+        },
+        "VIT_E": {
+            "HEAD": "E",
+            "NAME": "Tocopherol",
+            "DESK": "Es ist ein starkes Antioxidans, es beteiligt sich an der Bildung von Fasern, die für die Elastizität der Haut verantwortlich sind."
+        },
+        "VIT_K": {
+            "HEAD": "K",
+            "NAME": "Phyllochinon, Menachinon",
+            "DESK": "Das Vitamin hilft bei der Produktion spezieller Proteine, die für die Blutgerinnung und den Knochenaufbau benötigt werden."
+        },
+        "VIT_B1": {
+            "HEAD": "B1",
+            "NAME": "Thiamin",
+            "DESK": "B1 ist notwendig für den Energiestoffwechsel, wichtig für die Mechanismen der Weiterleitung von Nervenimpulsen, die Synthese von Acetylcholin und andere Prozesse im Nervensystem."
+        },
+        "VIT_B2": {
+            "HEAD": "B2",
+            "NAME": "Riboflavin",
+            "DESK": "B2 ist für die Bildung von roten Blutkörperchen und Antikörpern notwendig. Es ist auch wichtig für die Fortpflanzungsfunktion des Körpers."
+        },
+        "VIT_B3": {
+            "HEAD": "B3",
+            "NAME": "Niacin",
+            "DESK": "Es hilft dem Nerven- und Verdauungssystem, gesund zu bleiben und der Haut, gut auszusehen."
+        },
+        "VIT_B5": {
+            "HEAD": "B5",
+            "NAME": "Pantothensäure",
+            "DESK": "Pantothensäure ist am Abbau und der Assimilation von Fetten, Proteinen und Kohlenhydraten beteiligt."
+        },
+        "VIT_B6": {
+            "HEAD": "B6",
+            "NAME": "Pyridoxin",
+            "DESK": "Es reguliert den Proteinaustausch, den Eisenstoffwechsel und dessen Transport zu den Knochenmarkszellen und anderen Geweben."
+        },
+        "VIT_B7": {
+            "HEAD": "B7",
+            "NAME": "Biotin",
+            "DESK": "Biotin wird aufgrund seiner positiven Wirkung auf den Zustand von Haaren, Haut und Nägeln als „Schönheitsvitamin“ bezeichnet."
+        },
+        "VIT_B9": {
+            "HEAD": "B9",
+            "NAME": "Folsäure",
+            "DESK": "Es ist an der Bildung von roten und weißen Blutkörperchen beteiligt, hilft dem Körper, DNA- und RNA-Zellen zu bilden und Kohlenhydrate in Glukose umzuwandeln."
+        },
+        "VIT_B12": {
+            "HEAD": "B12",
+            "NAME": "Cobalamin",
+            "DESK": "Cobalamin ist für die Gesundheit des zentralen Nervensystems verantwortlich. Es hilft, Stress und Depressionen zu widerstehen."
+        },
+        "VIT_C": {
+            "HEAD": "C",
+            "NAME": "Askorbinsäure",
+            "DESK": "Es schützt die Zellen vor vorzeitiger Alterung und unterstützt die Arbeit der Blutgefäße, den Zustand von Knochen und Knorpel. Es ist auch wichtig für die Hautregeneration, da es an der Kollagensynthese beteiligt ist."
+        },
+        "MIN_CA": {
+            "HEAD": "Ca",
+            "NAME": "Kalzium",
+            "DESK": "Calcium ist das Hauptelement des Knochengewebes sowie ein universeller Regulator der Zellaktivität."
+        },
+        "MIN_CL": {
+            "HEAD": "Cl",
+            "NAME": "Chlor",
+            "DESK": "Chlor hilft, Magensaft freizusetzen und sorgt für einen guten Appetit. Es hält Wasser im Gewebe und verhindert, dass der Körper Feuchtigkeit verliert."
+        },
+        "MIN_CR": {
+            "HEAD": "Cr",
+            "NAME": "Chrom",
+            "DESK": "Chrom ist für einen normalen Fettstoffwechsel unerlässlich. Ein Mangel an diesem Element führt zu Übergewicht und Fettleibigkeit."
+        },
+        "MIN_CU": {
+            "HEAD": "Cu",
+            "NAME": "Kupfer",
+            "DESK": "Kupfer ist an der Bildung von Erythrozyten (roten Blutkörperchen) beteiligt und ist der Hauptbestandteil von Kollagen."
+        },
+        "MIN_I": {
+            "HEAD": "I",
+            "NAME": "Jod",
+            "DESK": "Jod ist wichtig für das reibungslose Funktionieren der Schilddrüse."
+        },
+        "MIN_FE": {
+            "HEAD": "Fe",
+            "NAME": "Eisen",
+            "DESK": "Es beeinflusst den Hämoglobinspiegel und sorgt für die Sauerstoffversorgung des Gewebes."
+        },
+        "MIN_MG": {
+            "HEAD": "Mg",
+            "NAME": "Magnesium",
+            "DESK": "Dieses Mineral sorgt für die richtige Arbeit des Herzens. Es ist für das Nervensystem und die Muskeln sowie für die Proteinsynthese notwendig."
+        },
+        "MIN_MN": {
+            "HEAD": "Mn",
+            "NAME": "Mangan",
+            "DESK": "Mangan beeinflusst den Stoffwechsel von Proteinen, Kohlenhydraten und Fetten. Es verstärkt auch die Wirkung von Insulin und hält einen bestimmten Cholesterinspiegel im Blut aufrecht."
+        },
+        "MIN_MO": {
+            "HEAD": "Mo",
+            "NAME": "Molybdän",
+            "DESK": "Molybdän ist Bestandteil einer Reihe von Enzymen. Es ist an der Stickstoffassimilation beteiligt, stärkt den Zahnschmelz und beugt Impotenz vor."
+        },
+        "MIN_P": {
+            "HEAD": "P",
+            "NAME": "Phosphor",
+            "DESK": "Phosphor ist für Knochen und Zähne notwendig. Mit seiner Hilfe werden Proteine ​​und Kohlenhydrate im Körper gebildet. Es sorgt auch für die Assimilation vieler Nährstoffe."
+        },
+        "MIN_K": {
+            "HEAD": "K",
+            "NAME": "Kalium",
+            "DESK": "Kalium ist das Hauptelement aller Zellen und Gewebe des Körpers. Es ist notwendig für das reibungslose Funktionieren des Nerven- und Herz-Kreislauf-Systems."
+        },
+        "MIN_SE": {
+            "HEAD": "Se",
+            "NAME": "Selen",
+            "DESK": "Es schützt die Zellen und beeinflusst die Arbeit des Immunsystems. Selen unterdrückt die Teilung von Krebszellen und schützt Neuronen und Herzmuskelzellen."
+        },
+        "MIN_NA": {
+            "HEAD": "Na",
+            "NAME": "Natrium",
+            "DESK": "Natrium ist für den Körper unentbehrlich, um den Wasser-Salz-Haushalt, die Blutdruckregulierung, die Nerven- und Muskelfunktion aufrechtzuerhalten."
+        },
+        "MIN_ZN": {
+            "HEAD": "Zn",
+            "NAME": "Zink",
+            "DESK": "Zink kann im menschlichen Körper nicht hergestellt werden, ist aber sehr wichtig für die stabile Funktion des Immunsystems, aller Organe und der Hormonausschüttung."
+        }
     },
     "WAIST": {
         "HEAD": "Taille",

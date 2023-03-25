@@ -65,27 +65,166 @@
         "TEXT": "Le suivi de vos vitamines essentielles présente de nombreux avantages, allant de la gestion des intolérances alimentaires à l'augmentation de l'énergie, en évitant les changements d'humeur et en alimentant les rythmes de votre journée.",
         "IMG": "Suivez les vitamines les plus essentielles directement sur votre poignet",
         "DWN": "Téléchargez l'application gratuite de suivi des vitamines et des nutriments sur l'AppStore d'Apple",
-        "ABOUT": "L'application Vitamin vous permet de suivre l'apport en vitamines essentielles directement depuis votre poignet si vous utilisez l'Apple Watch, ainsi que l'iPhone et l'iPad. Vous pouvez voir vos progrès au fil du temps, les enregistrements sont regroupés par mois et synchronisés automatiquement avec votre santé Apple. L'application est absolument gratuite, ne contient aucune publicité et n'utilise pas vos données à des fins lucratives.",
-        "HEAD1": "Améliorer le régime alimentaire",
-        "DESC1": "Le suivi de la prise de vitamines motive à améliorer le régime alimentaire et à devenir plus pointilleux sur les choix alimentaires, ce qui aide notre corps et notre esprit. Toutes les données sont synchronisées dans Apple Santé, et jusqu'à 7 jours sont consultables à partir de la montre. ",
-        "HEAD2": "Vie saine",
-        "DESC2": "Les appareils portables (wearable) aident leurs propriétaires à passer à un mode de vie plus sain. ",
-        "HEAD3": "Vitamine A-Bêta-carotène",
-        "DESC3": "Important pour le système immunitaire et la fonction de reproduction du corps. Aide le cœur, les poumons et les reins à fonctionner correctement. L'antioxydant le plus puissant régule le renouvellement de l'épithélium de la peau, la croissance des cheveux et la fonction visuelle, protégeant le corps contre les effets destructeurs des radicaux libres. ",
-        "HEAD4": "Vitamine C-Acide Ascorbique",
-        "DESC4": "Protège les cellules et les maintient en bonne santé. Soutient les vaisseaux sanguins, les OS et le cartilage. Important pour la cicatrisation des plaies t K aide au développement du tissu conjonctif, des processus de régénération et de guérison. Donne une résistance à divers types de stress, assurer l'état immunologique normal du corps et maintenir les processus d'Hématopoïèse. ",
-        "HEAD5": "Vitamine D",
-        "DESC5": "Régule la quantité de calcium et de phosphate dans le corps en maintenant ainsi des dents, des OS et des muscles sains. La faible teneur en cette vitamine provoque des problèmes osseux - rachitisme chez les enfants et ostéomalacie chez les adultes. ",
-        "HEAD6": "Vitamine E-Tocophérol",
-        "DESC6": "Soutient la santé et la beauté du corps tout en protégeant contre les facteurs destructeurs de l'environnement extérieur. Si les cellules, les tissus et les organes reçoivent suffisamment de vitamine e, le risque de développer de nombreuses maladies diminue et le processus de vieillissement ralentit. En particulier, en tant qu'antioxydant puissant, la vitamine E participe à la formation de fibres permettant à la peau de rester élastique. ",
-        "HEAD7": "Vitamine B12-Cobalamine",
-        "DESC7": "Formation de globules rouges et protection des tissus nerveux. Aide le corps à convertir les glucides en glucose qui est nécessaire à la production d'énergie. ",
-        "HEAD8": "Vitamine B7-Biotine",
-        "DESC8": "La biotine est appelée 'vitamine de beauté' en raison de ses effets positifs sur l'état des cheveux, de la peau et des ongles. Nécessaire au bon déroulement du métabolisme énergétique. Régule le niveau de glucose dans le sang, protège contre la destruction des cellules du cerveau, participe à la division cellulaire, soutient le fonctionnement normal des glandes surrénales, de la thyroïde, du système cardiovasculaire. ",
-        "HEAD9": "Vitamine B9-acide Folique",
-        "DESC9": "Formation de globules rouges et blancs dans la moelle osseuse. Aide le corps à créer des cellules d'ADN et d'ARN et à convertir les glucides en glucose. ",
-        "HEAD0": "Vitamine B3-Niacine",
-        "DESC0": "Important pour transformer les aliments en énergie. Aide les systèmes nerveux et digestif à rester en bonne santé et la peau à bien paraître. "
+        "ABOUT_1": "Êtes-vous sûr d'obtenir toutes les vitamines et tous les minéraux essentiels avec de la nourriture ?",
+        "ABOUT_2": "La vitamine vous aide à suivre leur consommation. Améliorez la qualité de votre alimentation et renforcez votre santé avec notre application.",
+        "FOOT": "Cette application nous encourage à manger sainement et à acquérir des normes plus élevées dans nos choix alimentaires, ce qui aide à son tour notre corps et notre esprit à rester forts et en bonne santé.",
+        "HEAD1": "Synchronisation avec Apple Health",
+        "DESC1": "Les données sont synchronisées entre les appareils via iCloud et l'application Apple Health.",
+        "HEAD2": "Simplicité et sans effort",
+        "DESC2": "Les commentaires d'utilisateurs réels ont contribué à rendre cette application pratique et facile à comprendre.",
+        "HEAD3": "Prend en charge toutes les vitamines et tous les minéraux disponibles dans Apple Health",
+        "DESC3": "Suit 13 vitamines essentielles et 14 minéraux vitaux.",
+        "HEAD4": "Sécurité",
+        "DESC4": "Entièrement privé. Nous ne stockons ni ne transférons vos données à des tiers. Les données sont stockées uniquement dans votre service Apple.",
+        "HEAD5": "Sans autorisation",
+        "DESC5": "Vous n'avez pas besoin de créer un compte pour utiliser cette application.",
+        "HEAD6": "Possibilité d'ajouter des éléments personnalisés",
+        "DESC6": "Vous pouvez ajouter jusqu'à 5 éléments personnalisés en plus des éléments prédéfinis.",
+        "HEAD7": "Les données sont synchronisées entre tous vos appareils",
+        "DESC7": "L'application fonctionne sur Apple Watch, iPhone, iPad et Mac M.",
+        "HEAD8": "",
+        "DESC8_1": "Le mot « VITAMINE » vient du latin « VITA », signifie « VIE », et en effet, notre vie est impossible sans vitamines.",
+        "DESC8_2": "Les vitamines et les minéraux sont des microéléments nutritionnels nécessaires. Ils ne donnent pas d'énergie, mais ils sont vitaux pour le fonctionnement normal de l'organisme et le maintien de la santé.",
+        "DESC8_3": "Pour obtenir diverses vitamines, il faut manger des produits de tous les groupes : grains entiers, fruits et légumes, produits laitiers, produits du groupe « poisson-œufs-volaille-viande », matières grasses (noix et graines).",
+        "DESC8_4": "Avec notre application, vous pouvez suivre les vitamines et minéraux suivants :",
+        "VITAMIN_FAT": "Vitaminas solubles en grasa",
+        "VITAMIN_WATER": "Vitaminas Solubles en Agua",
+        "MINERAL": "Minerales",
+        "VIT_A": {
+            "HEAD": "A",
+            "NAME": "retinol, betacaroteno",
+            "DESK": "Es importante para el sistema inmunológico y la función reproductiva del cuerpo. Es un fuerte antioxidante, que regula la regeneración de la piel y el crecimiento del cabello."
+        },
+        "VIT_D": {
+            "HEAD": "D",
+            "NAME": "calciferol",
+            "DESK": "Apoya la salud de los dientes, huesos y músculos. La falta de esta vitamina provoca raquitismo en los niños y osteomalacia en los adultos."
+        },
+        "VIT_E": {
+            "HEAD": "E",
+            "NAME": "tocoferol",
+            "DESK": "Es un poderoso antioxidante, participa en la formación de fibras que son responsables de la elasticidad de la piel."
+        },
+        "VIT_K": {
+            "HEAD": "K",
+            "NAME": "filoquinona, menaquinona",
+            "DESK": "La vitamina ayuda a producir proteínas especiales necesarias para la coagulación de la sangre y la formación de huesos."
+        },
+        "VIT_B1": {
+            "HEAD": "B1",
+            "NAME": "tiamina",
+            "DESK": "B1 es necesario para el metabolismo energético, importante para los mecanismos de conducción de los impulsos nerviosos, la síntesis de acetilcolina y otros procesos en el sistema nervioso."
+        },
+        "VIT_B2": {
+            "HEAD": "B2",
+            "NAME": "riboflavina",
+            "DESK": "La B2 es necesaria para la formación de glóbulos rojos y anticuerpos. También es importante para la función reproductiva del cuerpo."
+        },
+        "VIT_B3": {
+            "HEAD": "B3",
+            "NAME": "niacina",
+            "DESK": "Ayuda a que los sistemas nervioso y digestivo se mantengan saludables y la piel se vea bien."
+        },
+        "VIT_B5": {
+            "HEAD": "B5",
+            "NAME": "ácido pantoténico",
+            "DESK": "El ácido pantoténico está involucrado en la descomposición y asimilación de grasas, proteínas y carbohidratos."
+        },
+        "VIT_B6": {
+            "HEAD": "B6",
+            "NAME": "piridoxina",
+            "DESK": "Regula el intercambio de proteínas, el metabolismo del hierro y su transporte a las células de la médula ósea y otros tejidos."
+        },
+        "VIT_B7": {
+            "HEAD": "B7",
+            "NAME": "biotina",
+            "DESK": "La biotina se denomina la \"vitamina de la belleza\" debido a su efecto positivo sobre el estado del cabello, la piel y las uñas."
+        },
+        "VIT_B9": {
+            "HEAD": "B9",
+            "NAME": "ácido fólico",
+            "DESK": "Participa en la formación de glóbulos rojos y blancos, ayuda al cuerpo a crear células de ADN y ARN, así como a convertir los carbohidratos en glucosa."
+        },
+        "VIT_B12": {
+            "HEAD": "B12",
+            "NAME": "cobalamina",
+            "DESK": "La cobalamina es responsable de la salud del sistema nervioso central. Ayuda a resistir el estrés y la depresión."
+        },
+        "VIT_C": {
+            "HEAD": "C",
+            "NAME": "ácido ascórbico",
+            "DESK": "Protege las células del envejecimiento prematuro y apoya el trabajo de los vasos sanguíneos, el estado de los huesos y cartílagos. También es importante para la regeneración de la piel, ya que participa en la síntesis de colágeno."
+        },
+        "MIN_CA": {
+            "HEAD": "Ca",
+            "NAME": "calcio",
+            "DESK": "El calcio es el principal elemento del tejido óseo, así como un regulador universal de la actividad celular."
+        },
+        "MIN_CL": {
+            "HEAD": "Cl",
+            "NAME": "cloro",
+            "DESK": "El cloro ayuda a liberar el jugo gástrico y crea un buen apetito. Retiene el agua en los tejidos, evitando que el cuerpo pierda humedad."
+        },
+        "MIN_CR": {
+            "HEAD": "Cr",
+            "NAME": "cromo",
+            "DESK": "El cromo es esencial para el metabolismo normal de las grasas. La falta de este elemento conduce al sobrepeso y la obesidad."
+        },
+        "MIN_CU": {
+            "HEAD": "Cu",
+            "NAME": "cobre",
+            "DESK": "El cobre interviene en la formación de eritrocitos (glóbulos rojos) y es el principal componente del colágeno."
+        },
+        "MIN_I": {
+            "HEAD": "I",
+            "NAME": "yodo",
+            "DESK": "El yodo es importante para el buen funcionamiento de la glándula tiroides."
+        },
+        "MIN_FE": {
+            "HEAD": "Fe",
+            "NAME": "hierro",
+            "DESK": "Afecta el nivel de hemoglobina y asegura el suministro de oxígeno a los tejidos."
+        },
+        "MIN_MG": {
+            "HEAD": "Mg",
+            "NAME": "magnesio",
+            "DESK": "Este mineral asegura el correcto funcionamiento del corazón. Es necesario para el sistema nervioso y los músculos, así como para la síntesis de proteínas."
+        },
+        "MIN_MN": {
+            "HEAD": "Mn",
+            "NAME": "manganeso",
+            "DESK": "El manganeso afecta el metabolismo de proteínas, carbohidratos y grasas. También potencia el efecto de la insulina y mantiene un cierto nivel de colesterol en la sangre."
+        },
+        "MIN_MO": {
+            "HEAD": "Mo",
+            "NAME": "molibdeno",
+            "DESK": "El molibdeno es parte de una serie de enzimas. Participa en la asimilación de nitrógeno, fortalece el esmalte dental y también previene la impotencia."
+        },
+        "MIN_P": {
+            "HEAD": "P",
+            "NAME": "fósforo",
+            "DESK": "El fósforo es necesario para los huesos y los dientes. Con su ayuda, se forman proteínas y carbohidratos en el cuerpo. También asegura la asimilación de muchos nutrientes."
+        },
+        "MIN_K": {
+            "HEAD": "K",
+            "NAME": "potasio",
+            "DESK": "El potasio es el elemento principal de todas las células y tejidos del cuerpo. Es necesario para el buen funcionamiento de los sistemas nervioso y cardiovascular."
+        },
+        "MIN_SE": {
+            "HEAD": "Se",
+            "NAME": "selenio",
+            "DESK": "Protege las células y afecta el trabajo del sistema inmunológico. El selenio suprime la división de las células cancerosas y protege las neuronas y las células del músculo cardíaco."
+        },
+        "MIN_NA": {
+            "HEAD": "Na",
+            "NAME": "sodio",
+            "DESK": "El sodio es esencial para que el cuerpo mantenga el equilibrio agua-sal, la regulación de la presión arterial, el funcionamiento de los nervios y los músculos."
+        },
+        "MIN_ZN": {
+            "HEAD": "Zn",
+            "NAME": "zinc",
+            "DESK": "El zinc no se puede producir en el cuerpo humano, pero es muy importante para el funcionamiento estable del sistema inmunológico, todos los órganos y la secreción de hormonas."
+        }
     },
     "WAIST": {
         "HEAD": "Taille",
