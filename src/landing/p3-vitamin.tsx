@@ -35,7 +35,7 @@ export default function P3LogVitamin() {
             <section>
                 <div className="row gap-5">
                     <div className="col-md col-12 vitamin-block bg-blue">
-                        <img src="/img/apple_health_icon.svg" className="m-0 p-0" alt="Apple Health" height={100} width={100} />
+                        <img src="/img/apple_health_icon.svg" className="m-0 p-0 pe-4 pe-sm-0" alt="Apple Health" height={100} width={100} />
                         <h3>{_("VITAMIN.HEAD1")}</h3>
                         <p className="mt-3">{_("VITAMIN.DESC1")}</p>
                     </div>
