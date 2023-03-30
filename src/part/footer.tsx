@@ -17,61 +17,58 @@ export function LanguageSwitcher() {
 export const Footer = () =>
     <footer>
         <div className="container-fluid px-0 py-5">
+            <div className="row ms-s-offset my-2">
 
-                <div className="row ms-s-offset my-2">
+                <div className="col-md-4 col-6 d-flex flex-column">
+                    <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("about")}> {_("ABOUT.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("mission")}> {_("MISSION.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("team")}> {_("TEAM.HEAD")} </a>
+                    <a className="footer-link" href={Locale.i18nLink("privacy-policy")}> {_("PP.HEAD")} </a>
+                </div>
 
-                                <div className="col-md-4 col-6 d-flex flex-column">
-                                    <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
-                                    <a className="footer-link mb-1" href={Locale.i18nLink("about")}> {_("ABOUT.HEAD")} </a>
-                                    <a className="footer-link mb-1" href={Locale.i18nLink("mission")}> {_("MISSION.HEAD")} </a>
-                                    <a className="footer-link mb-1" href={Locale.i18nLink("team")}> {_("TEAM.HEAD")} </a>
-                                    <a className="footer-link" href={Locale.i18nLink("privacy-policy")}> {_("PP.HEAD")} </a>
-                                </div>
+                <div className="col-md-4 col-6 d-flex flex-column">
+                    <h2 className="mb-4"> {_("NAV.APPS").toUpperCase()} </h2>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("logvitamin")}> {_("VITAMIN.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("bodysize")}> {_("SIZE.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("electrolyte")}> {_("ELECTROLYTE.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("bodymass")}> {_("MASS.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("bodyzinc")}> {_("ZINC.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("waistline")}> {_("WAIST.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("emotion")}> {_("EMOTION.HEAD")} </a>
+                </div>
 
-                                <div className="col-md-4 col-6 d-flex flex-column">
-                                    <h2 className="mb-4"> {_("NAV.APPS").toUpperCase()} </h2>
-                                    <a className="footer-link mb-1" href={Locale.i18nLink("logvitamin")}> {_("VITAMIN.HEAD")} </a>
-                                    <a className="footer-link mb-1" href={Locale.i18nLink("bodysize")}> {_("SIZE.HEAD")} </a>
-                                    <a className="footer-link mb-1" href={Locale.i18nLink("electrolyte")}> {_("ELECTROLYTE.HEAD")} </a>
-                                    <a className="footer-link mb-1" href={Locale.i18nLink("bodymass")}> {_("MASS.HEAD")} </a>
-                                    <a className="footer-link mb-1" href={Locale.i18nLink("bodyzinc")}> {_("ZINC.HEAD")} </a>
-                                    <a className="footer-link mb-1" href={Locale.i18nLink("waistline")}> {_("WAIST.HEAD")} </a>
-                                    <a className="footer-link mb-1" href={Locale.i18nLink("emotion")}> {_("EMOTION.HEAD")} </a>
-                                </div>
+                <div className="col-md-4 d-flex flex-md-column flex-row-reverse px-0 icon-container">
+                    <div className="flex-md-grow-0 flex-grow-1">
+                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/developer/martspec-llc/id1506250419?l=${Locale.language}`}
+                            target="_blank"
+                            title={_("FOOTER.APPLE_BUTTON.TITLE")}
+                            className="ms-btn-apple">
+                                <img src={'/img/apple_btn/' + Locale.language + '.svg'} alt={_("FOOTER.APPLE_BUTTON.ALT")} />
+                        </a>
+                    </div>
 
-                    <div className="col-md-4 d-flex flex-md-column flex-row-reverse px-0 icon-container">
-                        <div className="flex-md-grow-0 flex-grow-1">
-                                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/developer/martspec-llc/id1506250419?l=${Locale.language}`}
-                                    target="_blank"
-                                    title={_("FOOTER.APPLE_BUTTON.TITLE")}
-                                    className="ms-btn-apple">
-                                        <img src={'/img/apple_btn/' + Locale.language + '.svg'} alt={_("FOOTER.APPLE_BUTTON.ALT")} />
-                                </a>
-                        </div>
+                    <div className="flex-md-grow-0 flex-grow-1">
+                        <a className="social-icon" href="https://www.linkedin.com/company/martspec" target="_blank" rel="noopener" aria-label="">
+                            <img src="/img/linkedin_icon.svg" alt="linkedin" />
+                        </a>
+                
+                        <a className="social-icon" href={`mailto:support@martspec.com?subject=Martspec Question&body=I have a question about your products. `} target="_self" rel="noopener" aria-label="">
+                            <img src="/img/email_icon.svg" alt="email" />
+                        </a>
 
-                            <div className="flex-md-grow-0 flex-grow-1">
-                                
-                                <a className="social-icon" href="https://www.linkedin.com/company/martspec" target="_blank" rel="noopener" aria-label="">
-                                    <img src="/img/linkedin_icon.svg" alt="linkedin" />
-                                </a>
-                        
-                                <a className="social-icon" href={`mailto:support@martspec.com?subject=Martspec Question&body=I have a question about your products. `} target="_self" rel="noopener" aria-label="">
-                                    <img src="/img/email_icon.svg" alt="email" />
-                                </a>
+                        <a className="social-icon" href="https://twitter.com/MartspecCom" target="_blank" rel="noopener" aria-label="">
+                            <img src="/img/twitter_icon.svg" alt="twitter" />
+                        </a>
 
-                                <a className="social-icon" href="https://twitter.com/MartspecCom" target="_blank" rel="noopener" aria-label="">
-                                    <img src="/img/twitter_icon.svg" alt="twitter" />
-                                </a>
-
-                                <a className="social-icon" href="https://www.facebook.com/martspec" target="_blank" rel="noopener" aria-label="">
-                                    <img src="/img/facebook_icon.svg" alt="facebook" />
-                                </a>
-
-                            </div>
-
+                        <a className="social-icon" href="https://www.facebook.com/martspec" target="_blank" rel="noopener" aria-label="">
+                            <img src="/img/facebook_icon.svg" alt="facebook" />
+                        </a>
                     </div>
 
                 </div>
+
+            </div>
 
         </div>
 
