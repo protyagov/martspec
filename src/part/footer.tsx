@@ -16,9 +16,9 @@ export function LanguageSwitcher() {
 
 export const Footer = () =>
     <footer>
-        <div className="container-fluid p-0">
+        <div className="container-fluid px-0 py-5">
 
-                <div className="row ms-s-offset my-5">
+                <div className="row ms-s-offset my-2">
 
                                 <div className="col-md-4 col-6 d-flex flex-column">
                                     <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
@@ -39,18 +39,17 @@ export const Footer = () =>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("emotion")}> {_("EMOTION.HEAD")} </a>
                                 </div>
 
-                    <div className="col-md-3">
-                        <div className="d-flex flex-sm-row flex-row-reverse flex-sm-row-reverse flex-md-column icon-container justify-content-evenly">
-                            <div className="text-center">
+                    <div className="col-md-4 d-flex flex-md-column flex-row icon-container">
+                        <div className="flex-md-grow-0 flex-grow-1">
                                 <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/developer/martspec-llc/id1506250419?l=${Locale.language}`}
                                     target="_blank"
                                     title={_("FOOTER.APPLE_BUTTON.TITLE")}
                                     className="ms-btn-apple float-md-right">
                                         <img src={'/img/apple_btn/' + Locale.language + '.svg'} alt={_("FOOTER.APPLE_BUTTON.ALT")} />
                                 </a>
-                            </div>
+                        </div>
 
-                            <div className="d-flex flex-row-reverse justify-content-center mt-md-3 mt-sm-1 mt-1">
+                            <div className="flex-md-grow-0 flex-grow-1">
                                 <a className="social-icon" href="https://www.facebook.com/martspec" target="_blank" rel="noopener" aria-label="">
                                     <img src="/img/facebook_icon.svg" alt="facebook" />
                                 </a>
@@ -67,7 +66,7 @@ export const Footer = () =>
                                     <img src="/img/linkedin_icon.svg" alt="linkedin" />
                                 </a>
                             </div>
-                        </div>
+
                     </div>
 
                 </div>

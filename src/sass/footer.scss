@@ -56,12 +56,22 @@ footer {
     }
 
     .icon-container{
-        margin-top: 7rem;
+        margin-top: 0rem;
+        justify-content: center;
+        align-items: end;
+        gap: 1rem 0rem;
 
         @media only screen and (max-width: ($ms-screen-md)) {
-            margin-top: 1rem;
-            margin-bottom: 2rem;
+            margin-top: 2rem;
+            align-items: center;
 
+            & > * {
+                max-width: 50%;
+            }
+
+            .ms-btn-apple {
+                padding-left: .7rem;
+            }
         }
 
     }
