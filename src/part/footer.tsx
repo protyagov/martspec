@@ -16,15 +16,11 @@ export function LanguageSwitcher() {
 
 export const Footer = () =>
     <footer>
-        <div className="container">
+        <div className="container-fluid p-0">
 
-                {/* fix the ms-s-offset class for the < 992 px */}
-                <div className="row ms-footer-offset">
+                <div className="row ms-s-offset my-5">
 
-                    <div className="col-md-9">
-                        <div className="d-flex justify-content-evenly my-5">
-
-                                <div className="d-flex flex-column mx-2">
+                                <div className="col-md-4 col-6 d-flex flex-column">
                                     <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("about")}> {_("ABOUT.HEAD")} </a>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("mission")}> {_("MISSION.HEAD")} </a>
@@ -32,7 +28,7 @@ export const Footer = () =>
                                     <a className="footer-link" href={Locale.i18nLink("privacy-policy")}> {_("PP.HEAD")} </a>
                                 </div>
 
-                                <div className="d-flex flex-column">
+                                <div className="col-md-4 col-6 d-flex flex-column">
                                     <h2 className="mb-4"> {_("NAV.APPS").toUpperCase()} </h2>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("logvitamin")}> {_("VITAMIN.HEAD")} </a>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("bodysize")}> {_("SIZE.HEAD")} </a>
@@ -42,8 +38,6 @@ export const Footer = () =>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("waistline")}> {_("WAIST.HEAD")} </a>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("emotion")}> {_("EMOTION.HEAD")} </a>
                                 </div>
-                        </div>
-                    </div>
 
                     <div className="col-md-3">
                         <div className="d-flex flex-sm-row flex-row-reverse flex-sm-row-reverse flex-md-column icon-container justify-content-evenly">
