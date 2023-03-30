@@ -61,17 +61,20 @@ footer {
         align-items: end;
         gap: 1rem 0rem;
 
-        @media only screen and (max-width: ($ms-screen-md)) {
+        @media only screen and (max-width: ($ms-screen-md - 1)) {
             margin-top: 2rem;
-            align-items: center;
+            align-items: start;
 
-            & > * {
-                max-width: 50%;
-            }
-
-            .ms-btn-apple {
+            div:first-child {
+                flex-grow: 1;
+                max-width: 42%;
                 padding-left: .7rem;
             }
+    
+            div:last-child {
+                flex-grow: 1;
+                max-width: 58%;
+            }   
         }
 
     }

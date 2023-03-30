@@ -19,7 +19,7 @@ export const Footer = () =>
         <div className="container-fluid px-0 py-5">
             <div className="row ms-s-offset my-2">
 
-                <div className="col-md-4 col-6 d-flex flex-column">
+                <div className="col-md-4 col-7 d-flex flex-column">
                     <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
                     <a className="footer-link mb-1" href={Locale.i18nLink("about")}> {_("ABOUT.HEAD")} </a>
                     <a className="footer-link mb-1" href={Locale.i18nLink("mission")}> {_("MISSION.HEAD")} </a>
@@ -27,7 +27,7 @@ export const Footer = () =>
                     <a className="footer-link" href={Locale.i18nLink("privacy-policy")}> {_("PP.HEAD")} </a>
                 </div>
 
-                <div className="col-md-4 col-6 d-flex flex-column">
+                <div className="col-md-4 col-5 d-flex flex-column">
                     <h2 className="mb-4"> {_("NAV.APPS").toUpperCase()} </h2>
                     <a className="footer-link mb-1" href={Locale.i18nLink("logvitamin")}> {_("VITAMIN.HEAD")} </a>
                     <a className="footer-link mb-1" href={Locale.i18nLink("bodysize")}> {_("SIZE.HEAD")} </a>
@@ -38,8 +38,8 @@ export const Footer = () =>
                     <a className="footer-link mb-1" href={Locale.i18nLink("emotion")}> {_("EMOTION.HEAD")} </a>
                 </div>
 
-                <div className="col-md-4 d-flex flex-md-column flex-row-reverse px-0 icon-container">
-                    <div className="flex-md-grow-0 flex-grow-1">
+                <div className="col-md-4 col-12 d-flex flex-md-column flex-row-reverse px-0 icon-container">
+                    <div>
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/developer/martspec-llc/id1506250419?l=${Locale.language}`}
                             target="_blank"
                             title={_("FOOTER.APPLE_BUTTON.TITLE")}
@@ -48,7 +48,7 @@ export const Footer = () =>
                         </a>
                     </div>
 
-                    <div className="flex-md-grow-0 flex-grow-1">
+                    <div>
                         <a className="social-icon" href="https://www.linkedin.com/company/martspec" target="_blank" rel="noopener" aria-label="">
                             <img src="/img/linkedin_icon.svg" alt="linkedin" />
                         </a>
