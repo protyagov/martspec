@@ -39,32 +39,34 @@ export const Footer = () =>
                                     <a className="footer-link mb-1" href={Locale.i18nLink("emotion")}> {_("EMOTION.HEAD")} </a>
                                 </div>
 
-                    <div className="col-md-4 d-flex flex-md-column flex-row icon-container">
+                    <div className="col-md-4 d-flex flex-md-column flex-row-reverse px-0 icon-container">
                         <div className="flex-md-grow-0 flex-grow-1">
                                 <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/developer/martspec-llc/id1506250419?l=${Locale.language}`}
                                     target="_blank"
                                     title={_("FOOTER.APPLE_BUTTON.TITLE")}
-                                    className="ms-btn-apple float-md-right">
+                                    className="ms-btn-apple">
                                         <img src={'/img/apple_btn/' + Locale.language + '.svg'} alt={_("FOOTER.APPLE_BUTTON.ALT")} />
                                 </a>
                         </div>
 
                             <div className="flex-md-grow-0 flex-grow-1">
-                                <a className="social-icon" href="https://www.facebook.com/martspec" target="_blank" rel="noopener" aria-label="">
-                                    <img src="/img/facebook_icon.svg" alt="facebook" />
+                                
+                                <a className="social-icon" href="https://www.linkedin.com/company/martspec" target="_blank" rel="noopener" aria-label="">
+                                    <img src="/img/linkedin_icon.svg" alt="linkedin" />
+                                </a>
+                        
+                                <a className="social-icon" href={`mailto:support@martspec.com?subject=Martspec Question&body=I have a question about your products. `} target="_self" rel="noopener" aria-label="">
+                                    <img src="/img/email_icon.svg" alt="email" />
                                 </a>
 
                                 <a className="social-icon" href="https://twitter.com/MartspecCom" target="_blank" rel="noopener" aria-label="">
                                     <img src="/img/twitter_icon.svg" alt="twitter" />
                                 </a>
 
-                                <a className="social-icon" href={`mailto:support@martspec.com?subject=Martspec Question&body=I have a question about your products. `} target="_self" rel="noopener" aria-label="">
-                                    <img src="/img/email_icon.svg" alt="email" />
+                                <a className="social-icon" href="https://www.facebook.com/martspec" target="_blank" rel="noopener" aria-label="">
+                                    <img src="/img/facebook_icon.svg" alt="facebook" />
                                 </a>
 
-                                <a className="social-icon" href="https://www.linkedin.com/company/martspec" target="_blank" rel="noopener" aria-label="">
-                                    <img src="/img/linkedin_icon.svg" alt="linkedin" />
-                                </a>
                             </div>
 
                     </div>
