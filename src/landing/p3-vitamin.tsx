@@ -2,7 +2,6 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
-import IronImage from "src/part/iron-image";
 import VitaminItem from "src/part/vitaminItem";
 
 const vitamins = {
@@ -23,7 +22,7 @@ export default function P3LogVitamin() {
                     <div className="col">
                         <h1 className="text-center pt-3 mb-5">{_("VITAMIN.HEAD")}</h1>
                         <h3>{_("VITAMIN.ABOUT_1")}</h3>
-                        <h3>{_("VITAMIN.ABOUT_2")}</h3>
+                        <p>{_("VITAMIN.ABOUT_2")}</p>
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
                             target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-5"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
@@ -35,7 +34,7 @@ export default function P3LogVitamin() {
             <section>
                 <div className="row gap-5">
                     <div className="col-md col-12 vitamin-block bg-blue">
-                        <img src="/img/apple_health_icon.svg" className="m-0 p-0" alt="Apple Health" height={100} width={100} />
+                        <img src="/img/apple_health_icon.svg" className="m-0 p-0 pe-4 pe-sm-0" alt="Apple Health" height={100} width={100} />
                         <h3>{_("VITAMIN.HEAD1")}</h3>
                         <p className="mt-3">{_("VITAMIN.DESC1")}</p>
                     </div>
@@ -65,7 +64,7 @@ export default function P3LogVitamin() {
                         <p className="mb-md-0 mb-5">{_("VITAMIN.DESC4")}</p>
                     </div>
                     <div className="col-md col-12 vitamin-block bg-blue">
-                        <img src="/img/without_login_icon.svg" className="m-0 p-0" alt="Apple Health" height={100} width={100} />
+                        <img src="/img/without_login_icon.svg" className="m-0 p-0 pe-4 pe-sm-0" alt="Apple Health" height={100} width={100} />
                         <h3>{_("VITAMIN.HEAD5")}</h3>
                         <p className="mt-3">{_("VITAMIN.DESC5")}</p>
                     </div>
@@ -74,12 +73,12 @@ export default function P3LogVitamin() {
 
             <section>
                 <div className="row gap-5 vitamin-block bg-green">
-                    <div className="col-md col-12">
-                        <img src="/img/vitamin_vitamins_img.svg" className="p-0 ms-0 vitamin-img-50" alt="Apple Health" height="auto" width="100%" />
+                    <div className="col-md col-12 col-lg-4">
+                        <img src="/img/vitamin_vitamins_img.svg" className="p-0 px-5 px-sm-0" alt="Apple Health" height="auto" width="auto" />
                     </div>
                     <div className="col-md col-12">
                         <h3>{_("VITAMIN.HEAD6")}</h3>
-                        <p className="mt-3">{_("VITAMIN.DESC6")}</p>
+                        <p className="mt-auto">{_("VITAMIN.DESC6")}</p>
                     </div>
                 </div>
             </section>
@@ -106,7 +105,6 @@ export default function P3LogVitamin() {
             </section>
 
             <div className="vitamins-list">
-
                 {
                     Object
                         .entries(vitamins)
@@ -122,7 +120,6 @@ export default function P3LogVitamin() {
                             </section>
                         ))
                 }
-
 
             </div>
 
