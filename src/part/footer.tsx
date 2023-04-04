@@ -76,8 +76,8 @@ export const Footer = () =>
             <hr />
         </div>
 
-        <div className="row justify-content-center">
-            <span className="mx-auto px-2 copyright">
+        <div className="row ms-s-offset copyright">
+            <span className="px-2">
                 {_("FOOTER.C")}
             </span>
         </div>
