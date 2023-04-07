@@ -9,8 +9,10 @@ export default function P7Emotion() {
         <NavigationBar />
 
         <div className="ms-base-page pb-5">
+            <section>
             <IronImage imgLo="/img/p_emotion_screens3.64.webp" imgHi="/img/p_emotion_screens3.512.webp" text={_("EMOTION.IMG")} h={512} w={512} />
             <h1 className="text-center pt-3 ">{_("EMOTION.HEAD")}</h1>
+            </section>
 
             <section>
                 <p className="mt-4">{_("EMOTION.ABOUT_1")}</p>

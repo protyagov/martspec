@@ -9,8 +9,10 @@ export default function P4WaistLine() {
         <NavigationBar />
 
         <div className="ms-base-page pb-5">
+            <section>
             <img src="/img/waist.svg" className="mx-auto" alt={_("WAIST.IMG")} height={512} width={512} />
             <h1 className="text-center pt-3 ">{_("WAIST.HEAD")}</h1>
+            </section>
 
 
             <section>

@@ -9,8 +9,10 @@ export default function P1Electrolyte() {
         <NavigationBar />
 
         <div className="ms-base-page pb-5">
+            <section>
             <img src="/img/electrolyte.svg" className="mx-auto" alt={_("MAIN.P1.IMG")} height={512} width={512} />
             <h1 className="text-center pt-3">{_("ELECTROLYTE.HEAD")}</h1>
+            </section>
 
 
             <section>
