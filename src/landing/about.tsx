@@ -9,8 +9,8 @@ export default function About() {
 
         <div className="ms-base-page pb-5">
             <section>
-            <img src="/img/about.svg" alt={_("ABOUT.HEAD")} height={300} width={326} />
-            <h1 className="text-center pt-3">{_("ABOUT.HEAD")}</h1>
+                <img src="/img/about.svg" alt={_("ABOUT.HEAD")} height={300} width={326} />
+                <h1 className="text-center pt-3">{_("ABOUT.HEAD")}</h1>
             </section>
             <section>
                 <p>{_("ABOUT.P1")}</p>

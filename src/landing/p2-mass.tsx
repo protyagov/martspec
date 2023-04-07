@@ -10,8 +10,8 @@ export default function P2bodymass() {
 
         <div className="ms-base-page pb-5">
             <section>
-            <img src="/img/mass.svg" className="mx-auto" alt={_("MASS.IMG")} height={512} width={512} />
-            <h1 className="text-center pt-3 ">{_("MASS.HEAD")}</h1>
+                <img src="/img/mass.svg" className="mx-auto" alt={_("MASS.IMG")} height={512} width={512} />
+                <h1 className="text-center pt-3 ">{_("MASS.HEAD")}</h1>
             </section>
 
 
