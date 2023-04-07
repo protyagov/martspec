@@ -23,19 +23,9 @@ html {
 
 .ms-base-page {
     font-size: 1.9rem;
-    @extend .container;
 
     section {
-        @extend .justify-content-around;
-
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 5rem;
-
-        @media only screen and (max-width: ($ms-screen-sm - 1)) {
-            margin-left: 5%;
-            margin-right: 5%;
-        }
+        @extend .ms-s-offset;
     }
 
     h1 {
