@@ -16,8 +16,9 @@ export function LanguageSwitcher() {
 
 export const Footer = () =>
     <footer>
-        <div className="container-fluid px-0 py-5">
-            <div className="row ms-s-offset my-2">
+        <div className="px-0 py-5">
+            <div className="ms-s-offset my-2">
+                <div className="row">
 
                 <div className="col-md-4 col-7 d-flex flex-column">
                     <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
@@ -67,7 +68,8 @@ export const Footer = () =>
                     </div>
 
                 </div>
-
+  
+                </div>
             </div>
 
         </div>
@@ -76,10 +78,14 @@ export const Footer = () =>
             <hr />
         </div>
 
-        <div className="row ms-s-offset copyright">
+        <div className="ms-s-offset copyright">
+            <div className="row">
+
             <span className="px-2">
                 {_("FOOTER.C")}
             </span>
+                
+            </div>
         </div>
 
         <br />
