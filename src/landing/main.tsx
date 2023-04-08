@@ -11,19 +11,24 @@ export default function LandingPage() {
             <NavigationBar />
 
             <section id="header" className="ms-s-header">
-                <div className="row ms-s-offset text-center">
+                <div className="ms-s-offset text-center">
+                    <div className="row justify-content-center">
+
                     <div className="col-auto">
                         <ImageI18N src="/img/header_screens.en.512.webp" w={512} h={298} cls="mx-auto img-fluid my-5" alt={_("MAIN.HEAD")} />
                         <h1>{_('MAIN.HEAD')}</h1>
                         <h4>{_("MAIN.SUBHEAD")}</h4>
                         <img src="/img/header_watches.webp" width={241} height={160} className="d-block float-end float-sm-start watches-img" alt={_("MAIN.IMG")} />
                     </div>
+                        
+                    </div>
                 </div>
             </section>
 
 
             <section className="ms-s-product">
-                <div className="row ms-s-offset align-items-center">
+                <div className="ms-s-offset">
+                    <div className="row">
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
@@ -41,13 +46,15 @@ export default function LandingPage() {
                             <a href={Locale.i18nLink("logvitamin")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
-
+                        
+                    </div>
                 </div>
             </section>
 
 
             <section className="ms-s-product">
-                <div className="row ms-s-offset align-items-center">
+                <div className="ms-s-offset">
+                    <div className="row">
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
@@ -66,13 +73,15 @@ export default function LandingPage() {
                         </div>
                     </div>
 
+                    </div>
                 </div>
             </section>
 
 
 
             <section className="ms-s-product">
-                <div className="row ms-s-offset align-items-center">
+                <div className="ms-s-offset">
+                    <div className="row">
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
@@ -91,12 +100,14 @@ export default function LandingPage() {
                         </div>
                     </div>
 
+                    </div>
                 </div>
             </section>
 
 
             <section className="ms-s-product">
-                <div className="row ms-s-offset align-items-center">
+                <div className="ms-s-offset">
+                    <div className="row">
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
@@ -115,12 +126,14 @@ export default function LandingPage() {
                         </div>
                     </div>
 
+                    </div>
                 </div>
             </section>
 
 
             <section className="ms-s-product">
-                <div className="row ms-s-offset">
+                <div className="ms-s-offset">
+                    <div className="row">
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
@@ -139,11 +152,13 @@ export default function LandingPage() {
                         </div>
                     </div>
 
+                    </div>
                 </div>
             </section>
 
             <section className="ms-s-product my-5">
-                <div className="row ms-s-offset">
+                <div className="ms-s-offset">
+                    <div className="row">
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
@@ -162,12 +177,14 @@ export default function LandingPage() {
                         </div>
                     </div>
 
+                    </div>
                 </div>
             </section>
 
 
             <section className="ms-s-product">
-                <div className="row ms-s-offset">
+                <div className="ms-s-offset">
+                    <div className="row">
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
@@ -186,6 +203,7 @@ export default function LandingPage() {
                         </div>
                     </div>
                     
+                    </div>
                 </div>
             </section>
 

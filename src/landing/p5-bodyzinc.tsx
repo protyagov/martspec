@@ -9,8 +9,10 @@ export default function P5BodyZinc() {
         <NavigationBar />
 
         <div className="ms-base-page pb-5">
-            <img src="/img/bodyzinc.svg" className="mx-auto" alt={_("ZINC.IMG")} height={512} width={512} />
-            <h1 className="text-center pt-3 ">{_("ZINC.HEAD")}</h1>
+            <section>
+                <img src="/img/bodyzinc.svg" className="mx-auto" alt={_("ZINC.IMG")} height={512} width={512} />
+                <h1 className="text-center pt-3 ">{_("ZINC.HEAD")}</h1>
+            </section>
 
 
             <section>

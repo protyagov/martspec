@@ -5,6 +5,7 @@ $ms-screen-mm: 420px;
 $ms-screen-sm: 576px;
 $ms-screen-md: 768px;
 $ms-screen-lg: 992px;
+$ms-screen-xxl: 1400px;
 
 html {
     width: 100%;
@@ -23,19 +24,9 @@ html {
 
 .ms-base-page {
     font-size: 1.9rem;
-    @extend .container;
 
     section {
-        @extend .justify-content-around;
-
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 5rem;
-
-        @media only screen and (max-width: ($ms-screen-sm - 1)) {
-            margin-left: 5%;
-            margin-right: 5%;
-        }
+        @extend .ms-s-offset;
     }
 
     h1 {

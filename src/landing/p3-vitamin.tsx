@@ -15,11 +15,11 @@ export default function P3LogVitamin() {
         <NavigationBar />
 
         <div className="ms-base-page pb-5 vitamin">
-            <img src="/img/vitamin.svg" className="img-fluid mb-0" alt={_("VITAMIN.IMG")} height={512} width={512} />
 
             <section className="text-center">
                 <div className="row">
                     <div className="col">
+                        <img src="/img/vitamin.svg" className="img-fluid mb-0" alt={_("VITAMIN.IMG")} height={512} width={512} />
                         <h1 className="text-center pt-3 mb-5">{_("VITAMIN.HEAD")}</h1>
                         <h3>{_("VITAMIN.ABOUT_1")}</h3>
                         <p>{_("VITAMIN.ABOUT_2")}</p>

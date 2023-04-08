@@ -118,6 +118,7 @@
 
     section {
       margin-top: 0 !important;
+      margin-bottom: 0 !important;
     }
 
     .vit-item {
@@ -221,8 +222,8 @@
   @media only screen and (max-width: ($ms-screen-sm - 1)) {
     .vitamins-list {
       section {
-        margin-left: 0;
-        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
       }
   
       .vit-item {

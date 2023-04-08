@@ -9,9 +9,11 @@ export default function P6BodySize() {
         <NavigationBar />
 
         <div className="ms-base-page pb-5">
-            <IronImage imgLo="/img/p_bodysize_screens2.64.webp" imgHi="/img/p_bodysize_screens2.512.webp" text={_("SIZE.IMG")} h={512} w={512} />
-            {/* <IronImage imgLo="/img/bodysize.64.webp" imgHi="/img/bodysize.512.webp" text={_("SIZE.IMG")} h={512} w={512} /> */}
-            <h1 className="text-center pt-3 ">{_("SIZE.HEAD")}</h1>
+            <section>
+                <IronImage imgLo="/img/p_bodysize_screens2.64.webp" imgHi="/img/p_bodysize_screens2.512.webp" text={_("SIZE.IMG")} h={512} w={512} />
+                {/* <IronImage imgLo="/img/bodysize.64.webp" imgHi="/img/bodysize.512.webp" text={_("SIZE.IMG")} h={512} w={512} /> */}
+                <h1 className="text-center pt-3 ">{_("SIZE.HEAD")}</h1>
+            </section>
 
 
             <section>
