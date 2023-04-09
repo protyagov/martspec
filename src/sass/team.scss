@@ -5,17 +5,6 @@
     margin-top: 0;
     padding-top: 7vmin;
   }
-  h4 {
-    color: #000000;
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin-top: 1rem;
-  }
-  h5 {
-    font-family: os3;
-    margin-top: .1rem;
-    color: #8A8A8A;
-  }
   .members-list {
     column-gap: 6vmin;
     row-gap: 8vmin;
@@ -30,6 +19,19 @@
         filter: grayscale(1);
         -webkit-filter: grayscale(1);
       }
+    }
+  }
+  .team-member {
+    h4 {
+      color: #000000;
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+    h5 {
+      font-family: os3;
+      margin-top: .1rem;
+      color: #8A8A8A;
     }
   }
 }
