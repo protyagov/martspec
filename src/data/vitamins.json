@@ -1,0 +1,569 @@
+{
+    "VIT_A": {
+        "LOGO": "",
+        "HEX": "FF7215",
+        "TYPE": "VITAMIN_FAT",
+        "DOSE_RDV": {
+            "MALE": [500, 300, 400, 600, 900, 900, 900, 900],
+            "FEMA": [500, 300, 400, 600, 700, 700, 700, 700],
+            "PREG": [750, 770],
+            "LACT": [1200, 1300]
+        },
+        "FOOD_100G": {
+            "FOOD_BUTTER": 859,
+            "FOOD_CARROT": 835,
+            "FOOD_APRICOT": 579,
+            "FOOD_PARSLEY": 421,
+            "FOOD_CHEESE_SW": 305,
+            "FOOD_PAPAYA": 285,
+            "FOOD_BROCCOLI": 187,
+            "FOOD_EGG": 140
+        }
+    },
+    "VIT_D": {
+        "LOGO": "",
+        "HEX": "696FFF",
+        "TYPE": "VITAMIN_FAT",
+        "DOSE_RDV": {
+            "MALE": [10, 15, 15, 15, 15, 15, 15, 20],
+            "FEMA": [10, 15, 15, 15, 15, 15, 15, 20],
+            "PREG": [15, 15],
+            "LACT": [15, 15]
+        },
+        "FOOD_100G": {
+            "FOOD_BUTTER": 18,
+            "FOOD_SALMON": 13,
+            "FOOD_SARDINES": 4.8,
+            "FOOD_EGG": 2.46,
+            "FOOD_MILK": 1.2,
+            "FOOD_CHEESE_SW": 0.6,
+            "FOOD_MASHROOM": 0.2,
+            "FOOD_CHICKEN": 0.1
+        }
+    },
+    "VIT_E": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "VITAMIN_FAT",
+        "DOSE_RDV": {
+            "MALE": [5, 6, 7, 11, 15, 15, 15, 15],
+            "FEMA": [5, 6, 7, 11, 15, 15, 15, 15],
+            "PREG": [15, 15],
+            "LACT": [19, 19]
+        },
+        "FOOD_100G": {
+            "FOOD_SUNFLOWER": 35.2,
+            "FOOD_ALMOND": 25.6,
+            "FOOD_HAZELNUT": 15,
+            "FOOD_OLIVE_OIL": 14.4,
+            "FOOD_PINENUTS": 9.3,
+            "FOOD_PEANUT": 8.3,
+            "FOOD_MANGO": 2.9,
+            "FOOD_KIVI": 1.5
+        }
+    },
+    "VIT_K": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "VITAMIN_FAT",
+        "DOSE_RDV": {
+            "MALE": [2.5, 30, 55, 60, 75, 120, 120, 120],
+            "FEMA": [2.5, 30, 55, 60, 75, 90, 90, 90],
+            "PREG": [75, 90],
+            "LACT": [75, 90]
+        },
+        "FOOD_100G": {
+            "FOOD_PARSLEY": 1640,
+            "FOOD_ONION": 207,
+            "FOOD_BROCCOLI": 102,
+            "FOOD_CABBAGE": 76,
+            "FOOD_PINENUTS": 54,
+            "FOOD_ASPARAGUS": 42,
+            "FOOD_CARROT": 15,
+            "FOOD_GRAPE": 14
+        }
+    },
+    "VIT_B1": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "VITAMIN_WATER",
+        "DOSE_RDV": {
+            "MALE": [0.3, 0.5, 0.6, 0.9, 1.2, 1.2, 1.2, 1.2],
+            "FEMA": [0.3, 0.5, 0.6, 0.9, 1.0, 1.1, 1.1, 1.1],
+            "PREG": [1.4, 1.4],
+            "LACT": [1.4, 1.4]
+        },
+        "FOOD_100G": {
+            "FOOD_FLAX": 1.6,
+            "FOOD_SUNFLOWER": 1.5,
+            "FOOD_SESAME": 0.8,
+            "FOOD_PORK": 0.4,
+            "FOOD_HAZELNUT": 0.4,
+            "FOOD_SALMON": 0.23,
+            "FOOD_ALMOND": 0.2,
+            "FOOD_TOFU": 0.2
+        }
+    },
+    "VIT_B2": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "VITAMIN_WATER",
+        "DOSE_RDV": {
+            "MALE": [0.4, 0.5, 0.6, 0.9, 1.3, 1.3, 1.3, 1.3],
+            "FEMA": [0.4, 0.5, 0.6, 0.9, 1.0, 1.1, 1.1, 1.1],
+            "PREG": [1.4, 1.4],
+            "LACT": [1.6, 1.6]
+        },
+        "FOOD_100G": {
+            "FOOD_ALMOND": 1.1,
+            "FOOD_CHEESE_CH": 0.5,
+            "FOOD_EGG": 0.4,
+            "FOOD_BEEF": 0.4,
+            "FOOD_PORK": 0.4,
+            "FOOD_MILK": 0.2,
+            "FOOD_MASHROOM": 0.4,
+            "FOOD_SALMON": 0.38
+        }
+    },
+    "VIT_B3": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "VITAMIN_WATER",
+        "DOSE_RDV": {
+            "MALE": [4, 6, 8, 12, 16, 16, 16, 16],
+            "FEMA": [4, 6, 8, 12, 14, 14, 14, 14],
+            "PREG": [18, 18],
+            "LACT": [17, 17]
+        },
+        "FOOD_100G": {
+            "FOOD_PEANUT": 12.1,
+            "FOOD_SUNFLOWER": 8.3,
+            "FOOD_SALMON": 7.9,
+            "FOOD_BEEF": 5.8,
+            "FOOD_PORK": 5.5,
+            "FOOD_CHICKEN": 5.5,
+            "FOOD_PUMPKIN": 5,
+            "FOOD_SESAME": 4.5
+        }
+    },
+    "VIT_B5": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "VITAMIN_WATER",
+        "DOSE_RDV": {
+            "MALE": [1.8, 2, 3, 4, 5, 5, 5, 5],
+            "FEMA": [1.8, 2, 3, 4, 5, 5, 5, 5],
+            "PREG": [6, 6],
+            "LACT": [7, 7]
+        },
+        "FOOD_100G": {
+            "FOOD_MASHROOM": 3.6,
+            "FOOD_PEANUT": 1.8,
+            "FOOD_AVOCADO": 1.4,
+            "FOOD_SUNFLOWER": 1.1,
+            "FOOD_CHICKEN": 1.1,        
+            "FOOD_BROCCOLI": 0.6,
+            "FOOD_BEEF": 0.5,
+            "FOOD_MILK": 0.4
+        }
+    },
+    "VIT_B6": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "VITAMIN_WATER",
+        "DOSE_RDV": {
+            "MALE": [0.3, 0.5, 0.6, 1.0, 1.3, 1.3, 1.7, 1.7],
+            "FEMA": [0.3, 0.5, 0.6, 1.0, 1.2, 1.2, 1.5, 1.5],
+            "PREG": [1.9, 1.9],
+            "LACT": [2.0, 2.0]
+        },
+        "FOOD_100G": {
+            "FOOD_SUNFLOWER": 1.3,
+            "FOOD_GARLIC": 1.2,
+            "FOOD_SESAME": 0.8,
+            "FOOD_BEEF": 0.7,
+            "FOOD_HAZELNUT": 0.6,
+            "FOOD_FLAX": 0.5,
+            "FOOD_LENTILS": 0.5,
+            "FOOD_BANANA": 0.2
+        }
+    },
+    "VIT_B7": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "VITAMIN_WATER",
+        "DOSE_RDV": {
+            "MALE": [6, 8, 12, 20, 25, 30, 30, 30],
+            "FEMA": [6, 8, 12, 20, 25, 30, 30, 30],
+            "PREG": [30, 30],
+            "LACT": [35, 35]
+        },
+        "FOOD_100G": {
+            "FOOD_EGG": 20,
+            "FOOD_POTATO_SW": 19.2,
+            "FOOD_MASHROOM": 9,
+            "FOOD_SUNFLOWER": 7.8,
+            "FOOD_ALMOND": 4.4,
+            "FOOD_STRAWBERRY": 1.5,
+            "FOOD_BANANA": 0.2,
+            "FOOD_BROCCOLI": 0.8
+        }
+    },
+    "VIT_B9": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "VITAMIN_WATER",
+        "DOSE_RDV": {
+            "MALE": [80, 150, 200, 300, 400, 400, 400, 400],
+            "FEMA": [80, 150, 200, 300, 400, 400, 400, 400],
+            "PREG": [600, 600],
+            "LACT": [500, 500]
+        },
+        "FOOD_100G": {
+            "FOOD_BUTTER": 859,
+            "FOOD_CARROT": 835,
+            "FOOD_APRICOT": 579,
+            "FOOD_PARSLEY": 421,
+            "FOOD_CHEESE_SW": 305,
+            "FOOD_PAPAYA": 285,
+            "FOOD_BROCCOLI": 187,
+            "FOOD_EGG": 140
+        }
+    },
+    "VIT_B12": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "VITAMIN_WATER",
+        "DOSE_RDV": {
+            "MALE": [0.5, 0.9, 1.2, 1.8, 2.4, 2.4, 2.4, 2.4],
+            "FEMA": [0.5, 0.9, 1.2, 1.8, 2.4, 2.4, 2.4, 2.4],
+            "PREG": [2.6, 2.6],
+            "LACT": [2.8, 2.8]
+        },
+        "FOOD_100G": {
+            "FOOD_SARDINES": 8.9,
+            "FOOD_OYSTERS": 8.75,
+            "FOOD_BEEF": 4.21,
+            "FOOD_CRAB_BLUE": 3.3,
+            "FOOD_SALMON": 3.18,
+            "FOOD_CHEESE_SW": 3.02,
+            "FOOD_EGG": 1.4,
+            "FOOD_PORK": 1.1
+        }
+    },
+    "VIT_C": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "VITAMIN_WATER",
+        "DOSE_RDV": {
+            "MALE": [50, 15, 25, 45, 75, 90, 90, 90],
+            "FEMA": [50, 15, 25, 45, 65, 75, 75, 75],
+            "PREG": [80, 85],
+            "LACT": [115, 120]
+        },
+        "FOOD_100G": {
+            "FOOD_PARSLEY": 133,
+            "FOOD_PEPPER_G": 100,
+            "FOOD_KIVI": 93,
+            "FOOD_BROCCOLI": 89,
+            "FOOD_CABBAGE": 60,
+            "FOOD_STRAWBERRY": 60,
+            "FOOD_ORANGE": 38,
+            "FOOD_TOMATO": 20
+        }
+    },
+    "MIN_CA": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [260, 700, 1000, 1300, 1300, 1000, 1000, 1200],
+            "FEMA": [260, 700, 1000, 1300, 1300, 1000, 1200, 1200],
+            "PREG": [1300, 1000],
+            "LACT": [1300, 1000]
+        },
+        "FOOD_100G": {
+            "FOOD_SESAME": 975,
+            "FOOD_CHEESE_SW": 890,
+            "FOOD_TOFU": 683,
+            "FOOD_SARDINES": 382,
+            "FOOD_ALMOND": 262,
+            "FOOD_MILK": 113,
+            "FOOD_BROCCOLI": 46,
+            "FOOD_SALMON": 12
+        }
+    },
+    "MIN_CL": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [450, 600, 750, 1400, 2150, 2300, 2300, 2300],
+            "FEMA": [450, 600, 750, 1400, 2150, 2300, 2300, 2300],
+            "PREG": [2300, 2300],
+            "LACT": [2300, 2300]
+        },
+        "FOOD_100G": {
+            "FOOD_SALT": 60000,
+            "FOOD_OLIVE_BR": 3000,
+            "FOOD_SALAMI": 2460,
+            "FOOD_CHEESE_PR": 1110,
+            "FOOD_BEEF_ST": 590,
+            "FOOD_CRAB": 570,
+            "FOOD_POTATO_BK": 80,
+            "FOOD_BANANA": 80
+        }
+    },
+    "MIN_CR": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [5.5, 11, 15, 25, 35, 35, 30, 30],
+            "FEMA": [5.5, 11, 15, 21, 24, 25, 20, 20],
+            "PREG": [29, 30],
+            "LACT": [44, 45]
+        },
+        "FOOD_100G": {
+            "FOOD_OYSTERS": 57,
+            "FOOD_PEAR": 27,
+            "FOOD_TOMATO": 20,
+            "FOOD_MASHROOM": 17,
+            "FOOD_BROCCOLI": 16,
+            "FOOD_APPLE": 14,
+            "FOOD_CUCUMBER": 14,
+            "FOOD_HAZELNUT": 12
+        }
+    },
+    "MIN_CU": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [220, 340, 440, 700, 890, 90, 900, 900],
+            "FEMA": [220, 340, 440, 700, 890, 90, 900, 900],
+            "PREG": [1000, 1000],
+            "LACT": [1300, 1300]
+        },
+        "FOOD_100G": {
+            "FOOD_SESAME": 4100,
+            "FOOD_SUNFLOWER": 1800,
+            "FOOD_FLAX": 1200,
+            "FOOD_ALMOND": 1000,
+            "FOOD_CRAB": 800,
+            "FOOD_MASHROOM": 300,
+            "FOOD_SALMON": 250,
+            "FOOD_PARSLEY": 100
+        }
+    },
+    "MIN_I": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [130, 90, 90, 120, 150, 150, 150, 150],
+            "FEMA": [130, 90, 90, 120, 150, 150, 150, 150],
+            "PREG": [220, 220],
+            "LACT": [290, 290]
+        },
+        "FOOD_100G": {
+            "FOOD_STRAWBERRY": 400,
+            "FOOD_FISH_HAD": 271,
+            "FOOD_SEAWEED": 198,
+            "FOOD_OYSTERS": 122,
+            "FOOD_CHEESE_SW": 66,
+            "FOOD_EGG": 47,
+            "FOOD_MILK": 42,
+            "FOOD_SHRIMP": 28
+        }
+    },
+    "MIN_FE": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [11, 7, 10, 8, 11, 8, 8, 8],
+            "FEMA": [11, 7, 10, 8, 15, 18, 8, 8],
+            "PREG": [27, 27],
+            "LACT": [10, 9]
+        },
+        "FOOD_100G": {
+            "FOOD_SESAME": 14.6,
+            "FOOD_LENTILS": 7.5,
+            "FOOD_OYSTERS": 7,
+            "FOOD_PISTACHIO": 7,
+            "FOOD_PARSLEY": 6.2,
+            "FOOD_FLAX": 5.7,
+            "FOOD_TOFU": 2.7,
+            "FOOD_BEEF": 2.6
+        }
+    },
+    "MIN_MG": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [75, 80, 130, 240, 410, 415, 420, 420],
+            "FEMA": [75, 80, 130, 240, 360, 315, 320, 320],
+            "PREG": [400, 350],
+            "LACT": [360, 310]
+        },
+        "FOOD_100G": {
+            "FOOD_FLAX": 392,
+            "FOOD_SESAME": 351,
+            "FOOD_SUNFLOWER": 325,
+            "FOOD_ALMOND": 268,
+            "FOOD_PUMPKIN": 262,
+            "FOOD_PEANUT": 168,
+            "FOOD_BANANA": 27,
+            "FOOD_OATMEAL": 26
+        }
+    },
+    "MIN_MN": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [0.6, 1.2, 1.5, 1.9, 2.2, 2.3, 2.3, 2.3],
+            "FEMA": [0.6, 1.2, 1.5, 1.6, 1.6, 1.8, 1.8, 1.8],
+            "PREG": [2.0, 2.0],
+            "LACT": [2.6, 2.6]
+        },
+        "FOOD_100G": {
+            "FOOD_PEANUT": 8.8,
+            "FOOD_HAZELNUT": 6.17,
+            "FOOD_PECAN": 4.5,
+            "FOOD_SESAME": 2.5,
+            "FOOD_FLAX": 2.5,
+            "FOOD_ALMOND": 2.2,
+            "FOOD_SUNFLOWER": 2,
+            "FOOD_PINEAPPLE": 0.9
+        }
+    },
+    "MIN_MO": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [3, 17, 22, 34, 43, 45, 45, 45],
+            "FEMA": [3, 17, 22, 34, 43, 45, 45, 45],
+            "PREG": [50, 50],
+            "LACT": [50, 50]
+        },
+        "FOOD_100G": {
+            "FOOD_PEANUT": 200,
+            "FOOD_ALMOND": 45.3,
+            "FOOD_SUNFLOWER": 30,
+            "FOOD_RICE": 22,
+            "FOOD_POTATO_BK": 6.5,
+            "FOOD_EGG": 5.5,
+            "FOOD_CHEESE_CH": 5.2,
+            "FOOD_BANANA": 4.3
+        }
+    },
+    "MIN_P": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [275, 460, 500, 1250, 1250, 700, 700, 700],
+            "FEMA": [275, 460, 500, 1250, 1250, 700, 700, 700],
+            "PREG": [1250, 700],
+            "LACT": [1250, 700]
+        },
+        "FOOD_100G": {
+            "FOOD_CHEESE_SW": 574,
+            "FOOD_LENTILS": 281,
+            "FOOD_BEEF": 259,
+            "FOOD_SALMON": 200,
+            "FOOD_CHICKEN": 184,
+            "FOOD_MILK": 84,
+            "FOOD_POTATO_BK": 55,
+            "FOOD_APPLE": 20
+        }
+    },
+    "MIN_K": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [860, 2000, 2300, 2500, 3000, 3400, 3400, 3400],
+            "FEMA": [860, 2000, 2300, 2300, 2300, 2600, 2600, 2600],
+            "PREG": [2600, 2900],
+            "LACT": [2500, 2800]
+        },
+        "FOOD_100G": {
+            "FOOD_PISTACHIO": 1025,
+            "FOOD_ALMOND": 733,
+            "FOOD_LENTILS": 677,
+            "FOOD_PARSLEY": 554,
+            "FOOD_POTATO_BK": 544,
+            "FOOD_SALMON": 490,
+            "FOOD_BANANA": 358,
+            "FOOD_APRICOT": 259
+        }
+    },
+    "MIN_SE": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [20, 20, 30, 40, 55, 55, 55, 55],
+            "FEMA": [20, 20, 30, 40, 55, 55, 55, 55],
+            "PREG": [60, 60],
+            "LACT": [60, 60]
+        },
+        "FOOD_100G": {
+            "FOOD_SUNFLOWER": 53,
+            "FOOD_SARDINES": 52.7,
+            "FOOD_SHRIMP": 49.5,
+            "FOOD_CRAB_BLUE": 43,
+            "FOOD_PORK": 37.4,
+            "FOOD_CHEESE_SW": 30.1,
+            "FOOD_BEEF": 25.4,
+            "FOOD_EGG": 23
+        }
+    },
+    "MIN_NA": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [200, 400, 500, 900, 1400, 1500, 1500, 1500],
+            "FEMA": [200, 400, 500, 900, 1400, 1500, 1500, 1500],
+            "PREG": [1500, 1500],
+            "LACT": [1500, 1500]
+        },
+        "FOOD_100G": {
+            "FOOD_SALT": 40000,
+            "FOOD_SHRIMP": 947,
+            "FOOD_SARDINES": 307,
+            "FOOD_CHEESE_SW": 185,
+            "FOOD_CHICKEN": 117,
+            "FOOD_BEEF": 54,
+            "FOOD_MILK": 43,
+            "FOOD_LENTILS": 6
+        }
+    },
+    "MIN_ZN": {
+        "LOGO": "",
+        "HEX": "",
+        "TYPE": "MINERAL",
+        "DOSE_RDV": {
+            "MALE": [3, 3, 5, 8, 11, 11, 11, 11],
+            "FEMA": [3, 3, 5, 8, 9, 8, 8, 8],
+            "PREG": [12, 11],
+            "LACT": [13, 12]
+        },
+        "FOOD_100G": {
+            "FOOD_OYSTERS": 39.3,
+            "FOOD_PUMPKIN": 7.7,
+            "FOOD_PORK": 4.6,
+            "FOOD_CHEESE_SW": 4.37,
+            "FOOD_BEEF": 3.7,
+            "FOOD_ALMOND": 3.1,
+            "FOOD_LENTILS": 3.27,
+            "FOOD_SHRIMP": 1.64
+        }
+    }
+}
