@@ -93,12 +93,53 @@
         "VIT_A": {
             "HEAD": "A",
             "NAME": "रेटिनॉल, बीटा-कैरोटीन",
-            "DESK": "प्रतिरक्षा प्रणाली और शरीर के प्रजनन कार्य के लिए महत्वपूर्ण है। यह एक मजबूत एंटीऑक्सीडेंट है, जो त्वचा के उत्थान और बालों के विकास को नियंत्रित करता है"
+            "DESK": "प्रतिरक्षा प्रणाली और शरीर के प्रजनन कार्य के लिए महत्वपूर्ण है। यह एक मजबूत एंटीऑक्सीडेंट है, जो त्वचा के उत्थान और बालों के विकास को नियंत्रित करता है",
+            "FUNC": "Antioxidant properties. Energy production from fats and steroids. Essential in glucose metabolism. Growth and development of cells.",
+            "DEF": [
+                "Eye problems, including night blindness",
+                "Dry bumpy skin",
+                "Chronic deficiency might be linked with abnormal lung development and respiratory diseases (such as pneumonia)",
+                "Increased severity of infections, especially in the throat or abdomen",
+                "A major risk factor for severe measles"
+            ],
+            "OVER": [
+                "Skin: drying, color change, cracks on the fingers",
+                "Dry lips, mouth, and nose",
+                "Vision: blurry sight, night blindness, sensitivity to bright light like sunlight, dry eyes",
+                "Long overuse may lead to high cholesterol levels and changes in bone formation → risk of bone loss",
+                "May interfere with the beneficial actions of vitamin D"
+            ],
+            "FACTS": [
+                "Growth of all bodily tissues, including skin and hair",
+                "The body can form vitamin A from beta-carotene as needed",
+                "There are claims that vitamin A added to some sunscreens, moisturizers, and lip balms can cause vitamin A toxicity or cancer",
+                "18-25% lower risk of developing advanced Age-related macular degeneration (AREDS2 study)"
+            ]
         },
         "VIT_D": {
             "HEAD": "D",
             "NAME": "कैल्सिफेरोल",
-            "DESK": "यह दांतों, हड्डियों और मांसपेशियों के स्वास्थ्य का समर्थन करता है। इस विटामिन की कमी से बच्चों में रिकेट्स और वयस्कों में ऑस्टियोमलेशिया हो जाता है।"
+            "DESK": "यह दांतों, हड्डियों और मांसपेशियों के स्वास्थ्य का समर्थन करता है। इस विटामिन की कमी से बच्चों में रिकेट्स और वयस्कों में ऑस्टियोमलेशिया हो जाता है।",
+            "FUNC": "Antioxidant properties, eye health, immune and reproduction function. Adjustment to dim conditions. Production and activity of white blood cells.",
+            "DEF": [
+                "Swelling of the mouth, lips, tongue or throat",
+                "Stomatitis at mouth corners",
+                "Hair loss",
+                "Skin rash",
+                "Itchy red eyes",
+                "Degeneration of the liver and nervous system"
+            ],
+            "OVER": [
+                "We have no evidence of any risks"
+            ],
+            "FACTS": [
+                "Likely to be effective for preventing migraine headaches (American Headache Society)",
+                "Bacteria in the gut can produce small amounts of it",
+                "Most riboflavin is used immediately and only small amounts are stored in the liver, heart, and kidneys",
+                "Helps the body change vitamin B6 and B9 into forms it can use",
+                "Riboflavin is yellow and naturally fluorescent",
+                "Exposure to light can deactivate it and make not usable"
+            ]
         },
         "VIT_E": {
             "HEAD": "E",
