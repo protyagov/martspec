@@ -89,6 +89,9 @@ html {
     @extend .img-fluid;
     @extend .mx-auto;
 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
     @media only screen and (max-width: ($ms-screen-md - 1)) {
         margin-top: 5rem;
         margin-bottom: 5rem;
