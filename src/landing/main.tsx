@@ -15,7 +15,7 @@ export default function LandingPage() {
                     <div className="row justify-content-center">
 
                     <div className="col-auto">
-                        <ImageI18N src="/img/header_screens.en.512.webp" w={512} h={298} cls="mx-auto img-fluid my-5" alt={_("MAIN.HEAD")} />
+                        <ImageI18N src="/img/header_screens.en.512.webp" w={512} h={298} cls="ms-base-top-image my-5" alt={_("MAIN.HEAD")} />
                         <h1>{_('MAIN.HEAD')}</h1>
                         <h4>{_("MAIN.SUBHEAD")}</h4>
                         <img src="/img/header_watches.webp" width={241} height={160} className="d-block float-end float-sm-start watches-img" alt={_("MAIN.IMG")} />
