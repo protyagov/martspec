@@ -1,7 +1,6 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
-import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
 
 export default function P6BodySize() {
@@ -10,8 +9,7 @@ export default function P6BodySize() {
 
         <div className="ms-base-page pb-5">
             <section>
-                <IronImage imgLo="/img/p_bodysize_screens2.64.webp" imgHi="/img/p_bodysize_screens2.512.webp" text={_("SIZE.IMG")} h={512} w={512} />
-                {/* <IronImage imgLo="/img/bodysize.64.webp" imgHi="/img/bodysize.512.webp" text={_("SIZE.IMG")} h={512} w={512} /> */}
+                <img src="/img/size_head.svg" height={512} width={512} alt={_("SIZE.IMG")} />
                 <h1 className="text-center pt-3 ">{_("SIZE.HEAD")}</h1>
             </section>
 
@@ -29,6 +27,8 @@ export default function P6BodySize() {
                 <h4>{_("SIZE.HEAD1")}</h4>
                 <p className="mt-3">{_("SIZE.DESC1")}</p>
             </section>
+
+            <img src="/img/size_middle.512.webp" height={512} width={512} className="img-fluid" alt={_("SIZE.IMG")} />
 
             {/* Chest and Bust */}
             <section>
@@ -70,7 +70,7 @@ export default function P6BodySize() {
         </div>
 
         <div className="pb-5 text-center">
-            <IronImage imgLo="/img/p_bodysize_screens.64.webp" imgHi="/img/p_bodysize_screens.512.webp" text={_("SIZE.IMG")} h={512} w={512} />
+            <img src="/img/size_bottom.512.webp" className="img-fluid mb-3 px-4" height={512}  alt={_("SIZE.IMG")} />
         </div>
         <Footer />
     </>
