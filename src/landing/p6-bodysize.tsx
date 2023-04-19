@@ -2,6 +2,7 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
+import ImageI18N from "src/part/img-i18n";
 
 export default function P6BodySize() {
     return <>
@@ -28,7 +29,7 @@ export default function P6BodySize() {
                 <p className="mt-3">{_("SIZE.DESC1")}</p>
             </section>
 
-            <img src="/img/size_middle.512.webp" height={512} width={512} className="img-fluid" alt={_("SIZE.IMG")} />
+            <ImageI18N src="/img/size_middle.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("SIZE.IMG")} />
 
             {/* Chest and Bust */}
             <section>
@@ -70,7 +71,8 @@ export default function P6BodySize() {
         </div>
 
         <div className="pb-5 text-center">
-            <img src="/img/size_bottom.512.webp" className="img-fluid mb-3 px-4" height={512}  alt={_("SIZE.IMG")} />
+            <ImageI18N src="/img/size_bottom.en.512.webp" w={512} h={512} cls="img-fluid mb-3 px-4" alt={_("SIZE.IMG")} />
+            {/* <img src="/img/size_bottom.512.webp" className="img-fluid mb-3 px-4" height={512} alt={_("SIZE.IMG")} /> */}
         </div>
         <Footer />
     </>
