@@ -4,7 +4,7 @@ import Error_404 from 'src/error/404';
 import P4WaistLine from "./landing/p4-waist";
 import P1Electrolyte from "./landing/p1-electrolyte";
 import P2bodymass from "./landing/p2-mass";
-import P3LogVitamin from "./landing/p3-vitamin";
+import Vitamin from "./landing/vitamin";
 import PrivacyPolicy from "./landing/private-policy";
 import { Locale } from "src/i18n/locale";
 import P5BodyZinc from "./landing/p5-bodyzinc";
@@ -36,7 +36,7 @@ export function App() {
         case "/waistline":
             return <P4WaistLine />;
         case "/vitamin":
-            return <P3LogVitamin />;
+            return <Vitamin />;
         case "/bodyzinc":
             return <P5BodyZinc />;
         case "/emotion":
