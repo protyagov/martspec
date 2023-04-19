@@ -35,7 +35,7 @@ export function App() {
             return <P2bodymass />;
         case "/waistline":
             return <P4WaistLine />;
-        case "/logvitamin":
+        case "/vitamin":
             return <P3LogVitamin />;
         case "/bodyzinc":
             return <P5BodyZinc />;

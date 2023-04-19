@@ -4,7 +4,7 @@ Allow: /
 Allow: /electrolyte
 Allow: /bodymass
 Allow: /waistline
-Allow: /logvitamin
+Allow: /vitamin
 Allow: /bodyzinc
 Allow: /bodysize
 Allow: /emotion
