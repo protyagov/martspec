@@ -11,6 +11,8 @@ export interface ImageI18NModel {
 
 
 export default function ImageI18N(props: ImageI18NModel) {
-    const loImg = props.src.replace(".en.", `.${Locale.language}.`)
-    return <img src={loImg} width={props.w} height={props.h} className={props.cls} alt={props.alt} />
+    const loImg = props.src.replace(".en.", `.${Locale.language}.`);
+
+    return <img src={loImg} width={props.w} height={props.h} className={props.cls} alt={props.alt}
+        onError={e => e.currentTarget.src = props.src} />
 }

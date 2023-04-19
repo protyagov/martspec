@@ -15,7 +15,7 @@ export default function LandingPage() {
                     <div className="row justify-content-center">
 
                     <div className="col-auto">
-                        <ImageI18N src="/img/header_screens.en.512.webp" w={512} h={298} cls="mx-auto img-fluid my-5" alt={_("MAIN.HEAD")} />
+                        <ImageI18N src="/img/header_screens.en.512.webp" w={512} h={298} cls="ms-base-top-image" alt={_("MAIN.HEAD")} />
                         <h1>{_('MAIN.HEAD')}</h1>
                         <h4>{_("MAIN.SUBHEAD")}</h4>
                         <img src="/img/header_watches.webp" width={241} height={160} className="d-block float-end float-sm-start watches-img" alt={_("MAIN.IMG")} />
@@ -39,7 +39,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/vitamin.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("VITAMIN.IMG")} />
+                            <ImageI18N src="/img/vitamin.en.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("VITAMIN.IMG")} />
                         </div>
                         <div className="p-text">
                             <h2>{_("VITAMIN.TEXT")}</h2>
@@ -65,7 +65,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/size.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("SIZE.IMG")} />
+                            <ImageI18N src="/img/size.en.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("SIZE.IMG")} />
                         </div>
                         <div className="p-text">
                             <h2>{_("SIZE.TEXT")}</h2>
@@ -92,7 +92,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/p_electrolyte.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("ELECTROLYTE.IMG")} />
+                            <ImageI18N src="/img/p_electrolyte.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ELECTROLYTE.IMG")} />
                         </div>
                         <div className="p-text">
                             <h2>{_("ELECTROLYTE.TEXT")}</h2>
@@ -118,7 +118,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/mass.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("MASS.IMG")} />
+                            <ImageI18N src="/img/mass.en.512.webp" w={512} h={512} cls="mx-auto my-4 px-lg-4 px-0 img-fluid" alt={_("MASS.IMG")} />
                         </div>
                         <div className="p-text">
                             <h2>{_("MASS.TEXT")}</h2>
@@ -144,7 +144,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/p_zinc.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("ZINC.IMG")} />
+                            <ImageI18N src="/img/p_zinc.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ZINC.IMG")} />
                         </div>
                         <div className="p-text">
                             <h2>{_("ZINC.TEXT")}</h2>
@@ -169,7 +169,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/waist.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("WAIST.IMG")} />
+                            <ImageI18N src="/img/waist.en.512.webp" w={512} h={512} cls="mx-auto my-4 px-lg-4 px-0 img-fluid" alt={_("WAIST.IMG")} />
                         </div>
                         <div className="p-text">
                             <h2>{_("WAIST.TEXT")}</h2>
@@ -195,7 +195,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/emotion.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("EMOTION.IMG")} />
+                            <ImageI18N src="/img/emotion.en.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("EMOTION.IMG")} />
                         </div>
                         <div className="p-text">
                             <h2>{_("EMOTION.TEXT")}</h2>

@@ -34,5 +34,5 @@ export default function IronImage(props: AvatarModel) {
     {/* @ts-ignore */ }
     return <img src={loImg} ref={photoImg} width={props.w} height={props.h}
 
-        className="mx-auto img-fluid" alt={props.text} />
+        className="ms-base-top-image" alt={props.text} />
 }

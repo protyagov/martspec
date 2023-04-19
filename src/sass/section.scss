@@ -130,12 +130,16 @@
       }
     }
 
+    .p-img {
+      text-align: center;
+    }
+
     grid-template:
       ". img"
       "head img"
       "text img"
       ". img"
-      / 55% 32%;
+      / 55% 30%;
 
     @media screen and (max-width: ($ms-screen-md - 1)) {
       justify-content: unset !important;
@@ -158,7 +162,7 @@
         "img head"
         "img text"
         "img ."
-        / 32% 55%;
+        / 30% 55%;
     }
   }
 }
