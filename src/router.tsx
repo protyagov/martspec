@@ -25,8 +25,10 @@ export function App() {
 
     if (redirect.length > 1)
         redirect = redirect.replace(/\/$/, "");
+    
+    const url = Locale.setLanguageFromUrl(redirect); 
 
-    switch (Locale.setLanguageFromUrl(redirect)) {
+    switch (url) {
         case "/":
             return <MainPage />;
         case "/electrolyte":
