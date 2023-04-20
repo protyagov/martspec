@@ -30,7 +30,7 @@ export const Footer = () =>
 
                 <div className="col-md-4 col-5 d-flex flex-column">
                     <h2 className="mb-4"> {_("NAV.APPS").toUpperCase()} </h2>
-                    <a className="footer-link mb-1" href={Locale.i18nLink("logvitamin")}> {_("VITAMIN.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("vitamin")}> {_("VITAMIN.HEAD")} </a>
                     <a className="footer-link mb-1" href={Locale.i18nLink("bodysize")}> {_("SIZE.HEAD")} </a>
                     <a className="footer-link mb-1" href={Locale.i18nLink("electrolyte")}> {_("ELECTROLYTE.HEAD")} </a>
                     <a className="footer-link mb-1" href={Locale.i18nLink("bodymass")}> {_("MASS.HEAD")} </a>

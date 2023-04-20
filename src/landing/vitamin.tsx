@@ -10,7 +10,7 @@ const vitamins = {
     MINERAL: ["MIN_CA", "MIN_CL", "MIN_CR", "MIN_CU", "MIN_I", "MIN_FE", "MIN_MG", "MIN_MN", "MIN_MO", "MIN_P", "MIN_K", "MIN_SE", "MIN_NA", "MIN_ZN"]
 };
 
-export default function P3LogVitamin() {
+export default function Vitamin() {
     return <>
         <NavigationBar />
 
