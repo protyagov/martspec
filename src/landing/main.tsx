@@ -7,7 +7,7 @@ import ImageI18N from "src/part/img-i18n";
 
 export default function LandingPage() {
     return (
-        <div>
+        <div className="flex-grow-1 flex-shrink-0">
             <NavigationBar />
 
             <section id="header" className="ms-s-header">
