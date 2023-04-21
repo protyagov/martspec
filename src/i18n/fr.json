@@ -345,12 +345,15 @@
         "ENGINEER_MOBILE": "Ingénieur logiciel mobile",
         "ENGINEER_WEB": "Ingénieur logiciel Web",
         "DESIGNER_UI_UX": "Concepteur UI/UX",
+        "ENGINEER_QA": "Ingénieur AQ",
         "ALEX": "Alex",
         "NICHITA": "Nichita",
         "ALEVTYNA": "Alevtyna",
         "DMYTRO": "Dmytro",
         "SVETLANA": "Svetlana",
-        "ALESIA": "Alesia"
+        "ALESIA": "Alesia",
+        "ANASTASIIA": "Anastasiia",
+        "MIKE": "Mike"
     },
     "PP": {
         "HEAD": "Politique de confidentialité",
