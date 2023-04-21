@@ -21,9 +21,10 @@
     @media only screen and (max-width: ($ms-screen-sm - 1)) {
       flex-basis: 46%;
     }
-    @media only screen and (max-width: 400px) {
-      flex-basis: 100%;
-    }
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 
     h4 {
       color: #000000;
