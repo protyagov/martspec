@@ -5,9 +5,9 @@ import NavigationBar from "src/part/navbar";
 import VitaminItem from "src/part/vitaminItem";
 
 const vitamins = {
-    VITAMIN_FAT: ["VIT_A", "VIT_D", "VIT_E", "VIT_K"],
-    VITAMIN_WATER: ["VIT_B1", "VIT_B2", "VIT_B3", "VIT_B5", "VIT_B6", "VIT_B7", "VIT_B9", "VIT_B12", "VIT_C"],
-    MINERAL: ["MIN_CA", "MIN_CL", "MIN_CR", "MIN_CU", "MIN_I", "MIN_FE", "MIN_MG", "MIN_MN", "MIN_MO", "MIN_P", "MIN_K", "MIN_SE", "MIN_NA", "MIN_ZN"]
+    VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
+    VITAMIN_WATER: ["VITAMIN_B1", "VITAMIN_B2", "VITAMIN_B3", "VITAMIN_B5", "VITAMIN_B6", "VITAMIN_B7", "VITAMIN_B9", "VITAMIN_B12", "VITAMIN_C"],
+    MINERAL: ["MINERAL_CA", "MINERAL_CL", "MINERAL_CR", "MINERAL_CU", "MINERAL_I", "MINERAL_FE", "MINERAL_MG", "MINERAL_MN", "MINERAL_MO", "MINERAL_P", "MINERAL_K", "MINERAL_SE", "MINERAL_NA", "MINERAL_ZN"]
 };
 
 export default function P3LogVitamin() {
@@ -115,7 +115,7 @@ export default function P3LogVitamin() {
                                 </div>
 
                                 {
-                                    vitList.map(vit => <VitaminItem key={vit} name={vit} />)
+                                    vitList.map(vit => <VitaminItem key={vit} id={vit} />)
                                 }
                             </section>
                         ))
