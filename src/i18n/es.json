@@ -90,7 +90,7 @@
         "VITAMIN_FAT": "Vitaminas solubles en grasa",
         "VITAMIN_WATER": "Vitaminas Solubles en Agua",
         "MINERAL": "Minerales",
-        "VIT_A": {
+        "VITAMIN_A": {
             "HEAD": "A",
             "NAME": "retinol, betacaroteno",
             "DESK": "Es importante para el sistema inmunológico y la función reproductiva del cuerpo. Es un fuerte antioxidante, que regula la regeneración de la piel y el crecimiento del cabello.",
@@ -116,7 +116,7 @@
                 "18-25% lower risk of developing advanced Age-related macular degeneration (AREDS2 study)"
             ]
         },
-        "VIT_D": {
+        "VITAMIN_D": {
             "HEAD": "D",
             "NAME": "calciferol",
             "DESK": "Apoya la salud de los dientes, huesos y músculos. La falta de esta vitamina provoca raquitismo en los niños y osteomalacia en los adultos.",
@@ -141,127 +141,127 @@
                 "Exposure to light can deactivate it and make not usable"
             ]
         },
-        "VIT_E": {
+        "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "tocoferol",
             "DESK": "Es un poderoso antioxidante, participa en la formación de fibras que son responsables de la elasticidad de la piel."
         },
-        "VIT_K": {
+        "VITAMIN_K": {
             "HEAD": "K",
             "NAME": "filoquinona, menaquinona",
             "DESK": "La vitamina ayuda a producir proteínas especiales necesarias para la coagulación de la sangre y la formación de huesos."
         },
-        "VIT_B1": {
+        "VITAMIN_B1": {
             "HEAD": "B1",
             "NAME": "tiamina",
             "DESK": "B1 es necesario para el metabolismo energético, importante para los mecanismos de conducción de los impulsos nerviosos, la síntesis de acetilcolina y otros procesos en el sistema nervioso."
         },
-        "VIT_B2": {
+        "VITAMIN_B2": {
             "HEAD": "B2",
             "NAME": "riboflavina",
             "DESK": "La B2 es necesaria para la formación de glóbulos rojos y anticuerpos. También es importante para la función reproductiva del cuerpo."
         },
-        "VIT_B3": {
+        "VITAMIN_B3": {
             "HEAD": "B3",
             "NAME": "niacina",
             "DESK": "Ayuda a que los sistemas nervioso y digestivo se mantengan saludables y la piel se vea bien."
         },
-        "VIT_B5": {
+        "VITAMIN_B5": {
             "HEAD": "B5",
             "NAME": "ácido pantoténico",
             "DESK": "El ácido pantoténico está involucrado en la descomposición y asimilación de grasas, proteínas y carbohidratos."
         },
-        "VIT_B6": {
+        "VITAMIN_B6": {
             "HEAD": "B6",
             "NAME": "piridoxina",
             "DESK": "Regula el intercambio de proteínas, el metabolismo del hierro y su transporte a las células de la médula ósea y otros tejidos."
         },
-        "VIT_B7": {
+        "VITAMIN_B7": {
             "HEAD": "B7",
             "NAME": "biotina",
             "DESK": "La biotina se denomina la \"vitamina de la belleza\" debido a su efecto positivo sobre el estado del cabello, la piel y las uñas."
         },
-        "VIT_B9": {
+        "VITAMIN_B9": {
             "HEAD": "B9",
             "NAME": "ácido fólico",
             "DESK": "Participa en la formación de glóbulos rojos y blancos, ayuda al cuerpo a crear células de ADN y ARN, así como a convertir los carbohidratos en glucosa."
         },
-        "VIT_B12": {
+        "VITAMIN_B12": {
             "HEAD": "B12",
             "NAME": "cobalamina",
             "DESK": "La cobalamina es responsable de la salud del sistema nervioso central. Ayuda a resistir el estrés y la depresión."
         },
-        "VIT_C": {
+        "VITAMIN_C": {
             "HEAD": "C",
             "NAME": "ácido ascórbico",
             "DESK": "Protege las células del envejecimiento prematuro y apoya el trabajo de los vasos sanguíneos, el estado de los huesos y cartílagos. También es importante para la regeneración de la piel, ya que participa en la síntesis de colágeno."
         },
-        "MIN_CA": {
+        "MINERAL_CA": {
             "HEAD": "Ca",
             "NAME": "calcio",
             "DESK": "El calcio es el elemento principal del tejido óseo, así como un regulador universal de la actividad celular."
         },
-        "MIN_CL": {
+        "MINERAL_CL": {
             "HEAD": "Cl",
             "NAME": "cloro",
             "DESK": "El cloro ayuda a liberar el jugo gástrico y crea un buen apetito. Retiene el agua en los tejidos, evitando que el cuerpo pierda humedad."
         },
-        "MIN_CR": {
+        "MINERAL_CR": {
             "HEAD": "Cr",
             "NAME": "cromo",
             "DESK": "El cromo es esencial para el metabolismo normal de las grasas. La falta de este elemento conduce al sobrepeso y la obesidad."
         },
-        "MIN_CU": {
+        "MINERAL_CU": {
             "HEAD": "Cu",
             "NAME": "cobre",
             "DESK": "El cobre interviene en la formación de eritrocitos (glóbulos rojos) y es el principal componente del colágeno."
         },
-        "MIN_I": {
+        "MINERAL_I": {
             "HEAD": "I",
             "NAME": "yodo",
             "DESK": "El yodo es importante para el buen funcionamiento de la glándula tiroides."
         },
-        "MIN_FE": {
+        "MINERAL_FE": {
             "HEAD": "Fe",
             "NAME": "hierro",
             "DESK": "Afecta el nivel de hemoglobina y asegura el suministro de oxígeno a los tejidos."
         },
-        "MIN_MG": {
+        "MINERAL_MG": {
             "HEAD": "Mg",
             "NAME": "magnesio",
             "DESK": "Este mineral asegura el correcto funcionamiento del corazón. Es necesario para el sistema nervioso y los músculos, así como para la síntesis de proteínas."
         },
-        "MIN_MN": {
+        "MINERAL_MN": {
             "HEAD": "Mn",
             "NAME": "manganeso",
             "DESK": "El manganeso afecta el metabolismo de proteínas, carbohidratos y grasas. También potencia el efecto de la insulina y mantiene un cierto nivel de colesterol en la sangre."
         },
-        "MIN_MO": {
+        "MINERAL_MO": {
             "HEAD": "Mo",
             "NAME": "molibdeno",
             "DESK": "El molibdeno es parte de una serie de enzimas. Participa en la asimilación de nitrógeno, fortalece el esmalte dental y también previene la impotencia."
         },
-        "MIN_P": {
+        "MINERAL_P": {
             "HEAD": "P",
             "NAME": "fósforo",
             "DESK": "El fósforo es necesario para los huesos y los dientes. Con su ayuda, se forman proteínas y carbohidratos en el cuerpo. También asegura la asimilación de muchos nutrientes."
         },
-        "MIN_K": {
+        "MINERAL_K": {
             "HEAD": "K",
             "NAME": "potasio",
             "DESK": "El potasio es el elemento principal de todas las células y tejidos del cuerpo. Es necesario para el buen funcionamiento de los sistemas nervioso y cardiovascular."
         },
-        "MIN_SE": {
+        "MINERAL_SE": {
             "HEAD": "Se",
             "NAME": "selenio",
             "DESK": "Protege las células y afecta el trabajo del sistema inmunológico. El selenio suprime la división de las células cancerosas y protege las neuronas y las células del músculo cardíaco."
         },
-        "MIN_NA": {
+        "MINERAL_NA": {
             "HEAD": "Na",
             "NAME": "sodio",
             "DESK": "El sodio es esencial para que el cuerpo mantenga el equilibrio agua-sal, la regulación de la presión arterial, el funcionamiento de los nervios y los músculos."
         },
-        "MIN_ZN": {
+        "MINERAL_ZN": {
             "HEAD": "Zn",
             "NAME": "zinc",
             "DESK": "El zinc no se puede producir en el cuerpo humano, pero es muy importante para el funcionamiento estable del sistema inmunológico, todos los órganos y la secreción de hormonas."

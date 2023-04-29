@@ -1,5 +1,5 @@
 {
-    "VIT_A": {
+    "VITAMIN_A": {
         "LOGO": "",
         "HEX": "FF7215",
         "TYPE": "VITAMIN_FAT",
@@ -20,7 +20,7 @@
             "FOOD_EGG": 140
         }
     },
-    "VIT_D": {
+    "VITAMIN_D": {
         "LOGO": "",
         "HEX": "696FFF",
         "TYPE": "VITAMIN_FAT",
@@ -41,7 +41,7 @@
             "FOOD_CHICKEN": 0.1
         }
     },
-    "VIT_E": {
+    "VITAMIN_E": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "VITAMIN_FAT",
@@ -62,7 +62,7 @@
             "FOOD_KIVI": 1.5
         }
     },
-    "VIT_K": {
+    "VITAMIN_K": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "VITAMIN_FAT",
@@ -83,7 +83,7 @@
             "FOOD_GRAPE": 14
         }
     },
-    "VIT_B1": {
+    "VITAMIN_B1": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
@@ -104,7 +104,7 @@
             "FOOD_TOFU": 0.2
         }
     },
-    "VIT_B2": {
+    "VITAMIN_B2": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
@@ -125,7 +125,7 @@
             "FOOD_SALMON": 0.38
         }
     },
-    "VIT_B3": {
+    "VITAMIN_B3": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
@@ -146,7 +146,7 @@
             "FOOD_SESAME": 4.5
         }
     },
-    "VIT_B5": {
+    "VITAMIN_B5": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
@@ -167,7 +167,7 @@
             "FOOD_MILK": 0.4
         }
     },
-    "VIT_B6": {
+    "VITAMIN_B6": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
@@ -188,7 +188,7 @@
             "FOOD_BANANA": 0.2
         }
     },
-    "VIT_B7": {
+    "VITAMIN_B7": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
@@ -209,7 +209,7 @@
             "FOOD_BROCCOLI": 0.8
         }
     },
-    "VIT_B9": {
+    "VITAMIN_B9": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
@@ -230,7 +230,7 @@
             "FOOD_EGG": 140
         }
     },
-    "VIT_B12": {
+    "VITAMIN_B12": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
@@ -251,7 +251,7 @@
             "FOOD_PORK": 1.1
         }
     },
-    "VIT_C": {
+    "VITAMIN_C": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
@@ -272,7 +272,7 @@
             "FOOD_TOMATO": 20
         }
     },
-    "MIN_CA": {
+    "MINERAL_CA": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -293,7 +293,7 @@
             "FOOD_SALMON": 12
         }
     },
-    "MIN_CL": {
+    "MINERAL_CL": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -314,7 +314,7 @@
             "FOOD_BANANA": 80
         }
     },
-    "MIN_CR": {
+    "MINERAL_CR": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -335,7 +335,7 @@
             "FOOD_HAZELNUT": 12
         }
     },
-    "MIN_CU": {
+    "MINERAL_CU": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -356,7 +356,7 @@
             "FOOD_PARSLEY": 100
         }
     },
-    "MIN_I": {
+    "MINERAL_I": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -377,7 +377,7 @@
             "FOOD_SHRIMP": 28
         }
     },
-    "MIN_FE": {
+    "MINERAL_FE": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -398,7 +398,7 @@
             "FOOD_BEEF": 2.6
         }
     },
-    "MIN_MG": {
+    "MINERAL_MG": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -419,7 +419,7 @@
             "FOOD_OATMEAL": 26
         }
     },
-    "MIN_MN": {
+    "MINERAL_MN": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -440,7 +440,7 @@
             "FOOD_PINEAPPLE": 0.9
         }
     },
-    "MIN_MO": {
+    "MINERAL_MO": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -461,7 +461,7 @@
             "FOOD_BANANA": 4.3
         }
     },
-    "MIN_P": {
+    "MINERAL_P": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -482,7 +482,7 @@
             "FOOD_APPLE": 20
         }
     },
-    "MIN_K": {
+    "MINERAL_K": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -503,7 +503,7 @@
             "FOOD_APRICOT": 259
         }
     },
-    "MIN_SE": {
+    "MINERAL_SE": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -524,7 +524,7 @@
             "FOOD_EGG": 23
         }
     },
-    "MIN_NA": {
+    "MINERAL_NA": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -545,7 +545,7 @@
             "FOOD_LENTILS": 6
         }
     },
-    "MIN_ZN": {
+    "MINERAL_ZN": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
