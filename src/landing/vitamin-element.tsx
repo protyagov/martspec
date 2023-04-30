@@ -12,13 +12,9 @@ interface VitaminElement {
     LOGO: string;
     HEX: string;
     TYPE: "VITAMIN_FAT" | "VITAMIN_WATER" | "MINERAL" | null;
-    DOSE_RDV: {
-        [key: string]: Array<number>;
-    };
-    FOOD_100G: {
-        [key: string]: number;
-    };
-}
+    DOSE_RDV: { [key: string]: Array<number> };
+    FOOD_100G: { [key: string]: number };
+};
 
 export default function VitaminElement(props: VitaminElementProps) {
     const elementId = props.id.toUpperCase();
@@ -69,7 +65,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                     </div>
 
                     <section>
-
+                        
                     </section>
                 </>
             }
