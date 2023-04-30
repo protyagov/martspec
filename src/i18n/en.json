@@ -90,6 +90,18 @@
         "VITAMIN_FAT": "Fat-Soluble Vitamins",
         "VITAMIN_WATER": "Water-Soluble Vitamins",
         "MINERAL": "Minerals",
+        "CONTENT": {
+            "GROUP": {
+                "VITAMIN_FAT": "Vitamin",
+                "VITAMIN_WATER": "Vitamin",
+                "MINERAL": "Mineral"
+            },
+            "FUNC": "Function",
+            "DEF": "Deficiency",
+            "OVER": "Overdose",
+            "DOSE_RDV": "Daily intake according to age",
+            "FOOD_100G": "Content in foods mcg per 100 g"
+        },
         "VITAMIN_A": {
             "HEAD": "A",
             "NAME": "retinol, beta-carotene",

@@ -90,6 +90,18 @@
         "VITAMIN_FAT": "वसा में घुलनशील विटामिन",
         "VITAMIN_WATER": "पानी में घुलनशील विटामिन",
         "MINERAL": "खनिज पदार्थ",
+        "CONTENT": {
+            "GROUP": {
+                "VITAMIN_FAT": "Vitamin",
+                "VITAMIN_WATER": "Vitamin",
+                "MINERAL": "Mineral"
+            },
+            "FUNC": "Function",
+            "DEF": "Deficiency",
+            "OVER": "Overdose",
+            "DOSE_RDV": "Daily intake according to age",
+            "FOOD_100G": "Content in foods mcg per 100 g"
+        },
         "VITAMIN_A": {
             "HEAD": "A",
             "NAME": "रेटिनॉल, बीटा-कैरोटीन",
