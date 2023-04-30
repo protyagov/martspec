@@ -37,6 +37,18 @@ export default function VitaminElement(props: VitaminElementProps) {
         fetchElementData();
     }, []);
 
+    const getElementFullName = (type: VitaminElement["TYPE"]) => {
+        switch (type) {
+            case "VITAMIN_FAT":
+            case "VITAMIN_WATER":
+                return _("VITAMIN.CONTENT.GROUP." + elementData.TYPE) + " " + _("VITAMIN." + elementId + ".HEAD");
+            case "MINERAL":
+                return _("VITAMIN." + elementId + ".NAME");
+            default:
+                return;
+        }
+    };
+
     return <>
         <NavigationBar />
 
@@ -48,7 +60,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                             <div className="ms-s-offset text-center">
                                 <div className="row">
                                     <div className="col">
-                                        <h1 className="pt-5">{_("VITAMIN.CONTENT.GROUP." + elementData.TYPE) + " " + _("VITAMIN." + elementId + ".HEAD")}</h1>
+                                        <h1 className="pt-5">{ getElementFullName(elementData.TYPE) }</h1>
                                         <img src={elementData.LOGO} className="ms-base-top-image" alt={_("VITAMIN." + elementId + ".NAME")} height={512} width={512} />
                                     </div>
                                 </div>
