@@ -1,0 +1,21 @@
+.vitamin-element {
+
+  .header {
+    position: relative;
+    margin-top: 0;
+
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: var(--vitamin-bg-color);
+      opacity: .07;
+    }
+  }
+}
