@@ -1,6 +1,6 @@
 {
     "VITAMIN_A": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_a_logo.png",
         "HEX": "FF7215",
         "TYPE": "VITAMIN_FAT",
         "DOSE_RDV": {
