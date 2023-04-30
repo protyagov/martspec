@@ -23,7 +23,7 @@ interface VitaminElement {
 export default function VitaminElement(props: VitaminElementProps) {
     const elementId = props.id.toUpperCase();
 
-    const [elementData, setElementData] = React.useState<VitaminElement | void>(null);    
+    const [elementData, setElementData] = React.useState<VitaminElement | null>(null);    
 
     React.useEffect(() => {
         const fetchElementData = async (): Promise<void> => {
@@ -48,13 +48,17 @@ export default function VitaminElement(props: VitaminElementProps) {
                             <div className="ms-s-offset text-center">
                                 <div className="row">
                                     <div className="col">
-                                        <h1 className="pt-5">{_("VITAMIN." + elementId + ".HEAD")}</h1>
+                                        <h1 className="pt-5">{_("VITAMIN.CONTENT.GROUP." + elementData.TYPE) + " " + _("VITAMIN." + elementId + ".HEAD")}</h1>
                                         <img src={elementData.LOGO} className="ms-base-top-image" alt={_("VITAMIN." + elementId + ".NAME")} height={512} width={512} />
                                     </div>
                                 </div>
                             </div>
                         </section>
                     </div>
+
+                    <section>
+
+                    </section>
                 </>
             }
         </div>
