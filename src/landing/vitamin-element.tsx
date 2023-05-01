@@ -116,6 +116,25 @@ export default function VitaminElement(props: VitaminElementProps) {
                             </div>
                         </div>
                     </section>
+
+                    <section>
+                        <div className="row">
+                            <div className="col">
+                                <h2>{_("VITAMIN.CONTENT.FACTS")}</h2>
+                                {
+                                    [
+                                        ...Array(elementData.FACT_COUNT)
+                                        .keys()
+                                    ]
+                                        .map(n => (
+                                            <li key={elementId + "-FACT-" + n}>
+                                                { _("VITAMIN." + elementId + ".FACT_" + +(n + 1)) }
+                                            </li>
+                                        ))
+                                }
+                            </div>
+                        </div>
+                    </section>
                 </>
             }
         </div>

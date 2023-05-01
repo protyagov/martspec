@@ -103,7 +103,8 @@
             "DEF": "Deficiency",
             "OVER": "Overdose",
             "DOSE_RDV": "Daily intake according to age",
-            "FOOD_100G": "Content in foods mcg per 100 g"
+            "FOOD_100G": "Content in foods mcg per 100 g",
+            "FACTS": "Did You Know?"
         },
         "VITAMIN_A": {
             "HEAD": "A",
