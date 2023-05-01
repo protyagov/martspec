@@ -83,32 +83,36 @@ export default function VitaminElement(props: VitaminElementProps) {
                     <section>
                         <div className="row">
                             <div className="col-md col-12">
-                                <h3 className="heading-def">{ _("VITAMIN.CONTENT.DEF") }</h3>
+                                <h3 className="heading-def">{_("VITAMIN.CONTENT.DEF")}</h3>
+                                <ul>
                                 {
                                     [
                                         ...Array(elementData.DEF_COUNT)
                                         .keys()
                                     ]
                                         .map(n => (
-                                            <p key={elementId + "-DEF-" + n}>
+                                            <li key={elementId + "-DEF-" + n}>
                                                 { _("VITAMIN." + elementId + ".DEF_" + +(n + 1)) }
-                                            </p>
+                                            </li>
                                         ))
                                 }
+                                </ul>
                             </div>
                             <div className="col-md col-12">
-                                <h3 className="heading-over">{ _("VITAMIN.CONTENT.OVER") }</h3>
+                                <h3 className="heading-over">{_("VITAMIN.CONTENT.OVER")}</h3>
+                                <ul>
                                 {
                                     [
                                         ...Array(elementData.OVER_COUNT)
                                         .keys()
                                     ]
                                         .map(n => (
-                                            <p key={elementId + "-OVER-" + n}>
+                                            <li key={elementId + "-OVER-" + n}>
                                                 { _("VITAMIN." + elementId + ".OVER_" + +(n + 1)) }
-                                            </p>
+                                            </li>
                                         ))
                                 }
+                                </ul>
                             </div>
                         </div>
                     </section>
