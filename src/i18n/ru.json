@@ -107,51 +107,39 @@
             "NAME": "ретинол, бета-каротин",
             "DESK": "Важен для иммунной системы и репродуктивной функции организма. Является сильнейшим антиоксидантом, регулирует обновление кожи и рост волос.",
             "FUNC": "Antioxidant properties. Energy production from fats and steroids. Essential in glucose metabolism. Growth and development of cells.",
-            "DEF": [
-                "Eye problems, including night blindness",
-                "Dry bumpy skin",
-                "Chronic deficiency might be linked with abnormal lung development and respiratory diseases (such as pneumonia)",
-                "Increased severity of infections, especially in the throat or abdomen",
-                "A major risk factor for severe measles"
-            ],
-            "OVER": [
-                "Skin: drying, color change, cracks on the fingers",
-                "Dry lips, mouth, and nose",
-                "Vision: blurry sight, night blindness, sensitivity to bright light like sunlight, dry eyes",
-                "Long overuse may lead to high cholesterol levels and changes in bone formation → risk of bone loss",
-                "May interfere with the beneficial actions of vitamin D"
-            ],
-            "FACTS": [
-                "Growth of all bodily tissues, including skin and hair",
-                "The body can form vitamin A from beta-carotene as needed",
-                "There are claims that vitamin A added to some sunscreens, moisturizers, and lip balms can cause vitamin A toxicity or cancer",
-                "18-25% lower risk of developing advanced Age-related macular degeneration (AREDS2 study)"
-            ]
+            "DEF_1": "Eye problems, including night blindness",
+            "DEF_2": "Dry bumpy skin",
+            "DEF_3": "Chronic deficiency might be linked with abnormal lung development and respiratory diseases (such as pneumonia)",
+            "DEF_4": "Increased severity of infections, especially in the throat or abdomen",
+            "DEF_5": "A major risk factor for severe measles",
+            "OVER_1": "Skin: drying, color change, cracks on the fingers",
+            "OVER_2": "Dry lips, mouth, and nose",
+            "OVER_3": "Vision: blurry sight, night blindness, sensitivity to bright light like sunlight, dry eyes",
+            "OVER_4": "Long overuse may lead to high cholesterol levels and changes in bone formation → risk of bone loss",
+            "OVER_5": "May interfere with the beneficial actions of vitamin D",
+            "FACT_1": "Growth of all bodily tissues, including skin and hair",
+            "FACT_2": "The body can form vitamin A from beta-carotene as needed",
+            "FACT_3": "There are claims that vitamin A added to some sunscreens, moisturizers, and lip balms can cause vitamin A toxicity or cancer",
+            "FACT_4": "18-25% lower risk of developing advanced Age-related macular degeneration (AREDS2 study)"
         },
         "VITAMIN_D": {
             "HEAD": "D",
             "NAME": "кальциферол",
             "DESK": "Поддерживает здоровье зубов, костей и мышц. Низкое содержание этого витамина вызывает рахит у детей и остеомаляцию у взрослых.",
             "FUNC": "Antioxidant properties, eye health, immune and reproduction function. Adjustment to dim conditions. Production and activity of white blood cells.",
-            "DEF": [
-                "Swelling of the mouth, lips, tongue or throat",
-                "Stomatitis at mouth corners",
-                "Hair loss",
-                "Skin rash",
-                "Itchy red eyes",
-                "Degeneration of the liver and nervous system"
-            ],
-            "OVER": [
-                "We have no evidence of any risks"
-            ],
-            "FACTS": [
-                "Likely to be effective for preventing migraine headaches (American Headache Society)",
-                "Bacteria in the gut can produce small amounts of it",
-                "Most riboflavin is used immediately and only small amounts are stored in the liver, heart, and kidneys",
-                "Helps the body change vitamin B6 and B9 into forms it can use",
-                "Riboflavin is yellow and naturally fluorescent",
-                "Exposure to light can deactivate it and make not usable"
-            ]
+            "DEF_1": "Swelling of the mouth, lips, tongue or throat",
+            "DEF_2": "Stomatitis at mouth corners",
+            "DEF_3": "Hair loss",
+            "DEF_4": "Skin rash",
+            "DEF_5": "Itchy red eyes",
+            "DEF_6": "Degeneration of the liver and nervous system",
+            "OVER_1": "We have no evidence of any risks",
+            "FACT_1": "Likely to be effective for preventing migraine headaches (American Headache Society)",
+            "FACT_2": "Bacteria in the gut can produce small amounts of it",
+            "FACT_3": "Most riboflavin is used immediately and only small amounts are stored in the liver, heart, and kidneys",
+            "FACT_4": "Helps the body change vitamin B6 and B9 into forms it can use",
+            "FACT_5": "Riboflavin is yellow and naturally fluorescent",
+            "FACT_6": "Exposure to light can deactivate it and make not usable"
         },
         "VITAMIN_E": {
             "HEAD": "E",
