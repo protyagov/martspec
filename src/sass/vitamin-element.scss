@@ -28,10 +28,34 @@
 
     font-family: os6;
   }
-  .heading-over {
-    $c: #FF6584;
 
-    color: $c;
-    border-bottom: 2px solid $c;
+  .vit-def,
+  .vit-over {
+    ul > * {
+      font-size: 1.2rem;
+      font-family: os4;
+    }
+    li {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .vit-def {
+    h3 {
+      $c: #2387D8;
+  
+      color: $c;
+      border-bottom: 2px solid $c;
+    }
+  }
+
+  .vit-over {
+    h3 {
+      $c: #FF6584;
+
+      color: $c;
+      border-bottom: 2px solid $c;
+    }
   }
 }
