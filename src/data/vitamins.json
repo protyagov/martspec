@@ -3,6 +3,9 @@
         "LOGO": "/img/vitamin_a_logo.png",
         "HEX": "FF7215",
         "TYPE": "VITAMIN_FAT",
+        "DEF_COUNT": 5,
+        "OVER_COUNT": 5,
+        "FACT_COUNT": 4,
         "DOSE_RDV": {
             "MALE": [500, 300, 400, 600, 900, 900, 900, 900],
             "FEMA": [500, 300, 400, 600, 700, 700, 700, 700],
@@ -24,6 +27,9 @@
         "LOGO": "",
         "HEX": "696FFF",
         "TYPE": "VITAMIN_FAT",
+        "DEF_COUNT": 6,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 6,
         "DOSE_RDV": {
             "MALE": [10, 15, 15, 15, 15, 15, 15, 20],
             "FEMA": [10, 15, 15, 15, 15, 15, 15, 20],
