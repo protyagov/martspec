@@ -43,7 +43,7 @@ export default function VitaminElement(props: VitaminElementProps) {
             default:
                 return;
         }
-    };
+    };    
 
     return <>
         <NavigationBar />
@@ -65,7 +65,52 @@ export default function VitaminElement(props: VitaminElementProps) {
                     </div>
 
                     <section>
-                        
+                        <div className="row">
+                            <div className="col">
+                                <h2>{ _("VITAMIN.CONTENT.FUNC") }</h2>
+                                <p>{ _("VITAMIN." + elementId + ".FUNC") }</p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <div className="vit-type">
+                                    { _("VITAMIN." + elementData.TYPE) }
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div className="row">
+                            <div className="col-md col-12">
+                                <h3>{ _("VITAMIN.CONTENT.DEF") }</h3>
+                                {
+                                    [
+                                        ...Array(elementData.DEF_COUNT)
+                                        .keys()
+                                    ]
+                                        .map(n => (
+                                            <p key={elementId + "-DEF-" + n}>
+                                                { _("VITAMIN." + elementId + ".DEF_" + +(n + 1)) }
+                                            </p>
+                                        ))
+                                }
+                            </div>
+                            <div className="col-md col-12">
+                                <h3>{ _("VITAMIN.CONTENT.OVER") }</h3>
+                                {
+                                    [
+                                        ...Array(elementData.OVER_COUNT)
+                                        .keys()
+                                    ]
+                                        .map(n => (
+                                            <p key={elementId + "-OVER-" + n}>
+                                                { _("VITAMIN." + elementId + ".OVER_" + +(n + 1)) }
+                                            </p>
+                                        ))
+                                }
+                            </div>
+                        </div>
                     </section>
                 </>
             }
