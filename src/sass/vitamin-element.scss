@@ -18,4 +18,17 @@
       opacity: .07;
     }
   }
+
+  .heading-def {
+    $c: #2387D8;
+
+    color: $c;
+    border-bottom: 2px solid $c;
+  }
+  .heading-over {
+    $c: #FF6584;
+
+    color: $c;
+    border-bottom: 2px solid $c;
+  }
 }

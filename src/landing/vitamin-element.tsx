@@ -83,7 +83,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                     <section>
                         <div className="row">
                             <div className="col-md col-12">
-                                <h3>{ _("VITAMIN.CONTENT.DEF") }</h3>
+                                <h3 className="heading-def">{ _("VITAMIN.CONTENT.DEF") }</h3>
                                 {
                                     [
                                         ...Array(elementData.DEF_COUNT)
@@ -97,7 +97,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                 }
                             </div>
                             <div className="col-md col-12">
-                                <h3>{ _("VITAMIN.CONTENT.OVER") }</h3>
+                                <h3 className="heading-over">{ _("VITAMIN.CONTENT.OVER") }</h3>
                                 {
                                     [
                                         ...Array(elementData.OVER_COUNT)
