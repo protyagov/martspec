@@ -82,8 +82,8 @@ export default function VitaminElement(props: VitaminElementProps) {
 
                     <section>
                         <div className="row">
-                            <div className="col-md col-12">
-                                <h3 className="heading-def">{_("VITAMIN.CONTENT.DEF")}</h3>
+                            <div className="col-md col-12 vit-def">
+                                <h3>{_("VITAMIN.CONTENT.DEF")}</h3>
                                 <ul>
                                 {
                                     [
@@ -98,8 +98,8 @@ export default function VitaminElement(props: VitaminElementProps) {
                                 }
                                 </ul>
                             </div>
-                            <div className="col-md col-12">
-                                <h3 className="heading-over">{_("VITAMIN.CONTENT.OVER")}</h3>
+                            <div className="col-md col-12 vit-over">
+                                <h3>{_("VITAMIN.CONTENT.OVER")}</h3>
                                 <ul>
                                 {
                                     [
