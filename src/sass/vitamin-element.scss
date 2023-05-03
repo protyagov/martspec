@@ -38,7 +38,8 @@
   }
 
   .vit-def,
-  .vit-over {
+  .vit-over,
+  .vit-facts {
     ul > * {
       font-size: 1.2rem;
       font-family: os4;
@@ -64,6 +65,24 @@
 
       color: $c;
       border-bottom: 2px solid $c;
+    }
+  }
+
+  .vit-facts {
+    li {
+      display: flex;
+      align-items: center;
+      line-height: 2.2rem;
+
+      &::marker {
+        list-style-type: none;
+      }
+      &::before {
+        content: "●";
+        color: #A7E08C;
+        font-size: 250%;
+        margin-right: 1rem;
+      }
     }
   }
 }

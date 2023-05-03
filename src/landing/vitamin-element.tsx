@@ -119,8 +119,9 @@ export default function VitaminElement(props: VitaminElementProps) {
 
                     <section>
                         <div className="row">
-                            <div className="col">
+                            <div className="col vit-facts">
                                 <h2>{_("VITAMIN.CONTENT.FACTS")}</h2>
+                                <ul className="p-0">
                                 {
                                     [
                                         ...Array(elementData.FACT_COUNT)
@@ -132,6 +133,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                             </li>
                                         ))
                                 }
+                                </ul>
                             </div>
                         </div>
                     </section>
