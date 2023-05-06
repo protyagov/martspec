@@ -37,14 +37,40 @@
   }
 
   .vit-type {
-    width: max-content;
+    $py: 7px;
+    $px: 34px;
 
-    border: 2px solid #EAB839;
-    border-radius: 20px;
-    padding: 7px 34px;
+    font-size: 1.4rem;
 
-    font-family: os6;
-    font-size: 1.2rem;
+    button {
+      width: max-content;
+
+      background-color: transparent;
+      border: 2px solid #EAB839;
+      border-radius: 100px;
+      padding: $py $px;
+  
+      font-family: os6;
+  
+    }
+
+    .toggled-content {
+      max-height: 0;
+      overflow: hidden;
+
+      background-color: #FCF4E1;
+      padding: $py $px;
+      margin-top: 1.4rem;
+
+      font-family: os4;
+    }
+
+    &-toggled-true {
+      .toggled-content {
+        max-height: 1000px;
+      }
+    }
+    
   }
 
   .vit-def,
