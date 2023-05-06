@@ -92,7 +92,11 @@
             "SHORT": "Solubles en grasa",
             "DESC": "Solubles en grasa, ce qui signifie que toute quantité dont l'organisme n'a pas immédiatement besoin est absorbée et stockée dans les tissus adipeux ou le foie."
         },
-        "VITAMIN_WATER": "Vitaminas Solubles en Agua",
+        "VITAMIN_WATER": {
+            "NAME": "Vitaminas Solubles en Agua",
+            "SHORT": "Solubles en Agua",
+            "DESC": ""
+        },
         "MINERAL": "Minerales",
         "CONTENT": {
             "GROUP": {

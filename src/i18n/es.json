@@ -92,7 +92,11 @@
             "SHORT": "Soluble en grasa",
             "DESC": "Soluble en grasa, lo que significa que cualquier cantidad que el cuerpo no necesita de inmediato se absorbe y almacena en el tejido adiposo o en el hígado."
         },
-        "VITAMIN_WATER": "Vitaminas Solubles en Agua",
+        "VITAMIN_WATER": {
+            "NAME": "Vitaminas Solubles en Agua",
+            "SHORT": "Solubles en Agua",
+            "DESC": ""
+        },
         "MINERAL": "Minerales",
         "CONTENT": {
             "GROUP": {

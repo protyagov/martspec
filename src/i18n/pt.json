@@ -95,7 +95,11 @@
             "SHORT": "Lipossolúveis",
             "DESC": "Solúvel em gordura, o que significa que qualquer quantidade não necessária imediatamente ao corpo é absorvida e armazenada no tecido adiposo ou no fígado."
         },
-        "VITAMIN_WATER": "Vitaminas hidrossolúveis",
+        "VITAMIN_WATER": {
+            "NAME": "Vitaminas hidrossolúveis",
+            "SHORT": "Hidrossolúveis",
+            "DESC": ""
+        },
         "MINERAL": "Minerais",
         "CONTENT": {
             "GROUP": {

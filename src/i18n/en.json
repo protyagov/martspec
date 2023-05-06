@@ -92,7 +92,11 @@
             "SHORT": "Fat-Soluble",
             "DESC": "Fat-soluble, meaning that any amount not immediately needed by the body is absorbed and stored in fat tissue or the liver."
         },
-        "VITAMIN_WATER": "Water-Soluble Vitamins",
+        "VITAMIN_WATER": {
+            "NAME": "Water-Soluble Vitamins",
+            "SHORT": "Water-Soluble",
+            "DESC": ""
+        },
         "MINERAL": "Minerals",
         "CONTENT": {
             "GROUP": {

@@ -92,7 +92,11 @@
             "SHORT": "Fettlösliche",
             "DESC": "Fettlöslich, was bedeutet, dass jede Menge, die der Körper nicht sofort benötigt, aufgenommen und im Fettgewebe oder in der Leber gespeichert wird."
         },
-        "VITAMIN_WATER": "Wasserlösliche Vitamine",
+        "VITAMIN_WATER": {
+            "NAME": "Wasserlösliche Vitamine",
+            "SHORT": "Wasserlösliche",
+            "DESC": ""
+        },
         "MINERAL": "Mineralien",
         "CONTENT": {
             "GROUP": {

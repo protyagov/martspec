@@ -92,7 +92,11 @@
             "SHORT": "脂溶性",
             "DESC": "脂溶性，意味着身体不立即需要的任何量都会被吸收并储存在脂肪组织或肝脏中。"
         },
-        "VITAMIN_WATER": "水溶性维生素",
+        "VITAMIN_WATER": {
+            "NAME": "水溶性维生素",
+            "SHORT": "水溶性",
+            "DESC": ""
+        },
         "MINERAL": "矿物质",
         "CONTENT": {
             "GROUP": {
