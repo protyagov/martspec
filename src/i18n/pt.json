@@ -90,7 +90,11 @@
         "DESC8_2": "Vitaminas e minerais são microelementos nutricionais necessários. Eles não fornecem energia, mas são vitais para o funcionamento normal do organismo e suporte à saúde.",
         "DESC8_3": "Para obter várias vitaminas, você deve comer produtos de todos os grupos: grãos integrais, frutas e vegetais, laticínios, produtos do grupo 'peixe-ovos-aves-carne', gorduras (nozes e sementes).",
         "DESC8_4": "Com nosso aplicativo, você pode acompanhar as seguintes vitaminas e minerais:",
-        "VITAMIN_FAT": "Vitaminas lipossolúveis",
+        "VITAMIN_FAT": {
+            "NAME": "Vitaminas lipossolúveis",
+            "SHORT": "Lipossolúveis",
+            "DESC": "Solúvel em gordura, o que significa que qualquer quantidade não necessária imediatamente ao corpo é absorvida e armazenada no tecido adiposo ou no fígado."
+        },
         "VITAMIN_WATER": "Vitaminas hidrossolúveis",
         "MINERAL": "Minerais",
         "CONTENT": {

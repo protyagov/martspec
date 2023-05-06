@@ -111,7 +111,7 @@ export default function P3LogVitamin() {
                         .map(([vitName, vitList]) => (
                             <section key={"vitamins-list" + vitName}>
                                 <div className="row">
-                                    <div className="col-12 py-3 px-5 vit-head">{_("VITAMIN." + vitName)}</div>
+                                    <div className="col-12 py-3 px-5 vit-head">{_("VITAMIN." + vitName + ".NAME")}</div>
                                 </div>
 
                                 {
