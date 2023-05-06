@@ -95,7 +95,11 @@
             "SHORT": "ذوبان في الماء",
             "DESC": ""
         },
-        "MINERAL": "المعادن",
+        "MINERAL": {
+            "NAME": "المعادن",
+            "SHORT": "المعدنية",
+            "DESC": ""
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",

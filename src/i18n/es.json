@@ -97,7 +97,11 @@
             "SHORT": "Solubles en Agua",
             "DESC": ""
         },
-        "MINERAL": "Minerales",
+        "MINERAL": {
+            "NAME": "Minerales",
+            "SHORT": "Mineral",
+            "DESC": ""
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",

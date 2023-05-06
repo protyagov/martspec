@@ -97,7 +97,11 @@
             "SHORT": "Wasserlösliche",
             "DESC": ""
         },
-        "MINERAL": "Mineralien",
+        "MINERAL": {
+            "NAME": "Mineralien",
+            "SHORT": "Mineral",
+            "DESC": ""
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",

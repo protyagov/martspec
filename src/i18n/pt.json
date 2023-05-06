@@ -100,7 +100,11 @@
             "SHORT": "Hidrossolúveis",
             "DESC": ""
         },
-        "MINERAL": "Minerais",
+        "MINERAL": {
+            "NAME": "Minerais",
+            "SHORT": "Mineral",
+            "DESC": ""
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",

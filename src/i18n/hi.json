@@ -97,7 +97,11 @@
             "SHORT": "पानी में घुलनशील",
             "DESC": ""
         },
-        "MINERAL": "खनिज पदार्थ",
+        "MINERAL": {
+            "NAME": "खनिज पदार्थ",
+            "SHORT": "खनिज",
+            "DESC": ""
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",

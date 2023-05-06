@@ -97,7 +97,11 @@
             "SHORT": "Водорозчинний",
             "DESC": ""
         },
-        "MINERAL": "Мінерали",
+        "MINERAL": {
+            "NAME": "Мінерали",
+            "SHORT": "Мінерал",
+            "DESC": ""
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Вітамін",

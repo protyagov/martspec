@@ -97,7 +97,11 @@
             "SHORT": "水溶性",
             "DESC": ""
         },
-        "MINERAL": "ミネラル",
+        "MINERAL": {
+            "NAME": "ミネラル",
+            "SHORT": "ミネラル",
+            "DESC": ""
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",
