@@ -2,6 +2,7 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
+import ToggleButton from "src/part/toggle-button";
 
 interface VitaminElementProps {
     id: string;
@@ -73,9 +74,9 @@ export default function VitaminElement(props: VitaminElementProps) {
                         </div>
                         <div className="row">
                             <div className="col">
-                                <div className="vit-type">
-                                    { _("VITAMIN." + elementData.TYPE) }
-                                </div>
+                                <ToggleButton cls="vit-type"
+                                    btnContent={ _("VITAMIN." + elementData.TYPE + ".SHORT") }
+                                    toggledContent={ _("VITAMIN." + elementData.TYPE + ".DESC") } />
                             </div>
                         </div>
                     </section>
