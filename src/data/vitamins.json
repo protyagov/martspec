@@ -278,7 +278,7 @@
             "FOOD_TOMATO": 20
         }
     },
-    "MINERAL_CA": {
+    "CALCIUM": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -299,7 +299,7 @@
             "FOOD_SALMON": 12
         }
     },
-    "MINERAL_CL": {
+    "CHLORINE": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -320,7 +320,7 @@
             "FOOD_BANANA": 80
         }
     },
-    "MINERAL_CR": {
+    "CHROME": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -341,7 +341,7 @@
             "FOOD_HAZELNUT": 12
         }
     },
-    "MINERAL_CU": {
+    "COPPER": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -362,7 +362,7 @@
             "FOOD_PARSLEY": 100
         }
     },
-    "MINERAL_I": {
+    "IODINE": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -383,7 +383,7 @@
             "FOOD_SHRIMP": 28
         }
     },
-    "MINERAL_FE": {
+    "IRON": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -404,7 +404,7 @@
             "FOOD_BEEF": 2.6
         }
     },
-    "MINERAL_MG": {
+    "MAGNESIUM": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -425,7 +425,7 @@
             "FOOD_OATMEAL": 26
         }
     },
-    "MINERAL_MN": {
+    "MANGANESE": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -446,7 +446,7 @@
             "FOOD_PINEAPPLE": 0.9
         }
     },
-    "MINERAL_MO": {
+    "MOLYBDENUM": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -467,7 +467,7 @@
             "FOOD_BANANA": 4.3
         }
     },
-    "MINERAL_P": {
+    "PHOSPHORUS": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -488,7 +488,7 @@
             "FOOD_APPLE": 20
         }
     },
-    "MINERAL_K": {
+    "POTASSIUM": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -509,7 +509,7 @@
             "FOOD_APRICOT": 259
         }
     },
-    "MINERAL_SE": {
+    "SELENIUM": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -530,7 +530,7 @@
             "FOOD_EGG": 23
         }
     },
-    "MINERAL_NA": {
+    "SODIUM": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",
@@ -551,7 +551,7 @@
             "FOOD_LENTILS": 6
         }
     },
-    "MINERAL_ZN": {
+    "ZINC": {
         "LOGO": "",
         "HEX": "",
         "TYPE": "MINERAL",

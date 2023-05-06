@@ -212,72 +212,72 @@
             "NAME": "ácido ascórbico",
             "DESK": "Protege as células do envelhecimento prematuro e apoia o trabalho dos vasos sanguíneos, a condição dos ossos e da cartilagem. Também é importante para a regeneração da pele, pois participa da síntese de colágeno."
         },
-        "MINERAL_CA": {
+        "CALCIUM": {
             "HEAD": "Ca",
             "NAME": "cálcio",
             "DESK": "O cálcio é o principal elemento do tecido ósseo, bem como um regulador universal da atividade celular."
         },
-        "MINERAL_CL": {
+        "CHLORINE": {
             "HEAD": "Cl",
             "NAME": "cloro",
             "DESK": "O cloro ajuda a liberar o suco gástrico e forma um bom apetite. Ele retém a água nos tecidos, evitando que o corpo perca umidade."
         },
-        "MINERAL_CR": {
+        "CHROME": {
             "HEAD": "Cr",
             "NAME": "cromo",
             "DESK": "O cromo é essencial para o metabolismo normal da gordura. A falta desse elemento leva ao sobrepeso e à obesidade."
         },
-        "MINERAL_CU": {
+        "COPPER": {
             "HEAD": "Cu",
             "NAME": "cobre",
             "DESK": "O cobre está envolvido na formação de eritrócitos (glóbulos vermelhos) e é o principal componente do colágeno."
         },
-        "MINERAL_I": {
+        "IODINE": {
             "HEAD": "I",
             "NAME": "iodo",
             "DESK": "O iodo é importante para o bom funcionamento da glândula tireóide."
         },
-        "MINERAL_FE": {
+        "IRON": {
             "HEAD": "Fe",
             "NAME": "ferro",
             "DESK": "Afeta o nível de hemoglobina e garante a entrega de oxigênio aos tecidos."
         },
-        "MINERAL_MG": {
+        "MAGNESIUM": {
             "HEAD": "Mg",
             "NAME": "magnésio",
             "DESK": "Este mineral garante o bom funcionamento do coração. É necessário para o sistema nervoso e músculos, bem como para a síntese de proteínas."
         },
-        "MINERAL_MN": {
+        "MANGANESE": {
             "HEAD": "Mn",
             "NAME": "manganês",
             "DESK": "O manganês afeta o metabolismo de proteínas, carboidratos e gorduras. Também aumenta o efeito da insulina e mantém um certo nível de colesterol no sangue."
         },
-        "MINERAL_MO": {
+        "MOLYBDENUM": {
             "HEAD": "Mo",
             "NAME": "molibdênio",
             "DESK": "O molibdênio faz parte de várias enzimas. Participa da assimilação do nitrogênio, fortalece o esmalte dos dentes e também previne a impotência."
         },
-        "MINERAL_P": {
+        "PHOSPHORUS": {
             "HEAD": "P",
             "NAME": "fósforo",
             "DESK": "O fósforo é necessário para ossos e dentes. Com sua ajuda, proteínas e carboidratos são formados no corpo. Também garante a assimilação de muitos nutrientes."
         },
-        "MINERAL_K": {
+        "POTASSIUM": {
             "HEAD": "K",
             "NAME": "potássio",
             "DESK": "O potássio é o principal elemento de todas as células e tecidos do corpo. É necessário para o bom funcionamento dos sistemas nervoso e cardiovascular."
         },
-        "MINERAL_SE": {
+        "SELENIUM": {
             "HEAD": "Se",
             "NAME": "selênio",
             "DESK": "Ele protege as células e afeta o trabalho do sistema imunológico. O selênio suprime a divisão das células cancerígenas e protege os neurônios e as células do músculo cardíaco."
         },
-        "MINERAL_NA": {
+        "SODIUM": {
             "HEAD": "Na",
             "NAME": "sódio",
             "DESK": "O sódio é essencial para o corpo manter o equilíbrio água-sal, regulação da pressão arterial, funcionamento dos nervos e músculos."
         },
-        "MINERAL_ZN": {
+        "ZINC": {
             "HEAD": "Zn",
             "NAME": "zinco",
             "DESK": "O zinco não pode ser produzido no corpo humano, mas é muito importante para o funcionamento estável do sistema imunológico, de todos os órgãos e da secreção de hormônios."

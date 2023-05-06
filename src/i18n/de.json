@@ -209,72 +209,72 @@
             "NAME": "Askorbinsäure",
             "DESK": "Es schützt die Zellen vor vorzeitiger Alterung und unterstützt die Arbeit der Blutgefäße, den Zustand von Knochen und Knorpel. Es ist auch wichtig für die Hautregeneration, da es an der Kollagensynthese beteiligt ist."
         },
-        "MINERAL_CA": {
+        "CALCIUM": {
             "HEAD": "Ca",
             "NAME": "Kalzium",
             "DESK": "Calcium ist das Hauptelement des Knochengewebes sowie ein universeller Regulator der Zellaktivität."
         },
-        "MINERAL_CL": {
+        "CHLORINE": {
             "HEAD": "Cl",
             "NAME": "Chlor",
             "DESK": "Chlor hilft, Magensaft freizusetzen und sorgt für einen guten Appetit. Es hält Wasser im Gewebe und verhindert, dass der Körper Feuchtigkeit verliert."
         },
-        "MINERAL_CR": {
+        "CHROME": {
             "HEAD": "Cr",
             "NAME": "Chrom",
             "DESK": "Chrom ist für einen normalen Fettstoffwechsel unerlässlich. Ein Mangel an diesem Element führt zu Übergewicht und Fettleibigkeit."
         },
-        "MINERAL_CU": {
+        "COPPER": {
             "HEAD": "Cu",
             "NAME": "Kupfer",
             "DESK": "Kupfer ist an der Bildung von Erythrozyten (roten Blutkörperchen) beteiligt und ist der Hauptbestandteil von Kollagen."
         },
-        "MINERAL_I": {
+        "IODINE": {
             "HEAD": "I",
             "NAME": "Jod",
             "DESK": "Jod ist wichtig für das reibungslose Funktionieren der Schilddrüse."
         },
-        "MINERAL_FE": {
+        "IRON": {
             "HEAD": "Fe",
             "NAME": "Eisen",
             "DESK": "Es beeinflusst den Hämoglobinspiegel und sorgt für die Sauerstoffversorgung des Gewebes."
         },
-        "MINERAL_MG": {
+        "MAGNESIUM": {
             "HEAD": "Mg",
             "NAME": "Magnesium",
             "DESK": "Dieses Mineral sorgt für die richtige Arbeit des Herzens. Es ist für das Nervensystem und die Muskeln sowie für die Proteinsynthese notwendig."
         },
-        "MINERAL_MN": {
+        "MANGANESE": {
             "HEAD": "Mn",
             "NAME": "Mangan",
             "DESK": "Mangan beeinflusst den Stoffwechsel von Proteinen, Kohlenhydraten und Fetten. Es verstärkt auch die Wirkung von Insulin und hält einen bestimmten Cholesterinspiegel im Blut aufrecht."
         },
-        "MINERAL_MO": {
+        "MOLYBDENUM": {
             "HEAD": "Mo",
             "NAME": "Molybdän",
             "DESK": "Molybdän ist Bestandteil einer Reihe von Enzymen. Es ist an der Stickstoffassimilation beteiligt, stärkt den Zahnschmelz und beugt Impotenz vor."
         },
-        "MINERAL_P": {
+        "PHOSPHORUS": {
             "HEAD": "P",
             "NAME": "Phosphor",
             "DESK": "Phosphor ist für Knochen und Zähne notwendig. Mit seiner Hilfe werden Proteine ​​und Kohlenhydrate im Körper gebildet. Es sorgt auch für die Assimilation vieler Nährstoffe."
         },
-        "MINERAL_K": {
+        "POTASSIUM": {
             "HEAD": "K",
             "NAME": "Kalium",
             "DESK": "Kalium ist das Hauptelement aller Zellen und Gewebe des Körpers. Es ist notwendig für das reibungslose Funktionieren des Nerven- und Herz-Kreislauf-Systems."
         },
-        "MINERAL_SE": {
+        "SELENIUM": {
             "HEAD": "Se",
             "NAME": "Selen",
             "DESK": "Es schützt die Zellen und beeinflusst die Arbeit des Immunsystems. Selen unterdrückt die Teilung von Krebszellen und schützt Neuronen und Herzmuskelzellen."
         },
-        "MINERAL_NA": {
+        "SODIUM": {
             "HEAD": "Na",
             "NAME": "Natrium",
             "DESK": "Natrium ist für den Körper unentbehrlich, um den Wasser-Salz-Haushalt, die Blutdruckregulierung, die Nerven- und Muskelfunktion aufrechtzuerhalten."
         },
-        "MINERAL_ZN": {
+        "ZINC": {
             "HEAD": "Zn",
             "NAME": "Zink",
             "DESK": "Zink kann im menschlichen Körper nicht hergestellt werden, ist aber sehr wichtig für die stabile Funktion des Immunsystems, aller Organe und der Hormonausschüttung."

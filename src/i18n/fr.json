@@ -209,72 +209,72 @@
             "NAME": "ácido ascórbico",
             "DESK": "Protege las células del envejecimiento prematuro y apoya el trabajo de los vasos sanguíneos, el estado de los huesos y cartílagos. También es importante para la regeneración de la piel, ya que participa en la síntesis de colágeno."
         },
-        "MINERAL_CA": {
+        "CALCIUM": {
             "HEAD": "Ca",
             "NAME": "calcio",
             "DESK": "El calcio es el principal elemento del tejido óseo, así como un regulador universal de la actividad celular."
         },
-        "MINERAL_CL": {
+        "CHLORINE": {
             "HEAD": "Cl",
             "NAME": "cloro",
             "DESK": "El cloro ayuda a liberar el jugo gástrico y crea un buen apetito. Retiene el agua en los tejidos, evitando que el cuerpo pierda humedad."
         },
-        "MINERAL_CR": {
+        "CHROME": {
             "HEAD": "Cr",
             "NAME": "cromo",
             "DESK": "El cromo es esencial para el metabolismo normal de las grasas. La falta de este elemento conduce al sobrepeso y la obesidad."
         },
-        "MINERAL_CU": {
+        "COPPER": {
             "HEAD": "Cu",
             "NAME": "cobre",
             "DESK": "El cobre interviene en la formación de eritrocitos (glóbulos rojos) y es el principal componente del colágeno."
         },
-        "MINERAL_I": {
+        "IODINE": {
             "HEAD": "I",
             "NAME": "yodo",
             "DESK": "El yodo es importante para el buen funcionamiento de la glándula tiroides."
         },
-        "MINERAL_FE": {
+        "IRON": {
             "HEAD": "Fe",
             "NAME": "hierro",
             "DESK": "Afecta el nivel de hemoglobina y asegura el suministro de oxígeno a los tejidos."
         },
-        "MINERAL_MG": {
+        "MAGNESIUM": {
             "HEAD": "Mg",
             "NAME": "magnesio",
             "DESK": "Este mineral asegura el correcto funcionamiento del corazón. Es necesario para el sistema nervioso y los músculos, así como para la síntesis de proteínas."
         },
-        "MINERAL_MN": {
+        "MANGANESE": {
             "HEAD": "Mn",
             "NAME": "manganeso",
             "DESK": "El manganeso afecta el metabolismo de proteínas, carbohidratos y grasas. También potencia el efecto de la insulina y mantiene un cierto nivel de colesterol en la sangre."
         },
-        "MINERAL_MO": {
+        "MOLYBDENUM": {
             "HEAD": "Mo",
             "NAME": "molibdeno",
             "DESK": "El molibdeno es parte de una serie de enzimas. Participa en la asimilación de nitrógeno, fortalece el esmalte dental y también previene la impotencia."
         },
-        "MINERAL_P": {
+        "PHOSPHORUS": {
             "HEAD": "P",
             "NAME": "fósforo",
             "DESK": "El fósforo es necesario para los huesos y los dientes. Con su ayuda, se forman proteínas y carbohidratos en el cuerpo. También asegura la asimilación de muchos nutrientes."
         },
-        "MINERAL_K": {
+        "POTASSIUM": {
             "HEAD": "K",
             "NAME": "potasio",
             "DESK": "El potasio es el elemento principal de todas las células y tejidos del cuerpo. Es necesario para el buen funcionamiento de los sistemas nervioso y cardiovascular."
         },
-        "MINERAL_SE": {
+        "SELENIUM": {
             "HEAD": "Se",
             "NAME": "selenio",
             "DESK": "Protege las células y afecta el trabajo del sistema inmunológico. El selenio suprime la división de las células cancerosas y protege las neuronas y las células del músculo cardíaco."
         },
-        "MINERAL_NA": {
+        "SODIUM": {
             "HEAD": "Na",
             "NAME": "sodio",
             "DESK": "El sodio es esencial para que el cuerpo mantenga el equilibrio agua-sal, la regulación de la presión arterial, el funcionamiento de los nervios y los músculos."
         },
-        "MINERAL_ZN": {
+        "ZINC": {
             "HEAD": "Zn",
             "NAME": "zinc",
             "DESK": "El zinc no se puede producir en el cuerpo humano, pero es muy importante para el funcionamiento estable del sistema inmunológico, todos los órganos y la secreción de hormonas."

@@ -209,72 +209,72 @@
             "NAME": "抗坏血酸",
             "DESK": "它可以保护细胞免于过早老化，并支持血管的功能、骨骼和软骨的状况。它对皮肤再生也很重要，因为它参与胶原蛋白的合成。"
         },
-        "MINERAL_CA": {
+        "CALCIUM": {
             "HEAD": "Ca",
             "NAME": "钙",
             "DESK": "钙是骨组织的主要元素，也是细胞活动的通用调节剂。"
         },
-        "MINERAL_CL": {
+        "CHLORINE": {
             "HEAD": "Cl",
             "NAME": "氯",
             "DESK": "氯有助于释放胃液，形成良好的食欲。它将水分保留在组织中，防止身体失去水分。"
         },
-        "MINERAL_CR": {
+        "CHROME": {
             "HEAD": "Cr",
             "NAME": "铬合金",
             "DESK": "铬对正常的脂肪代谢必不可少。缺乏这种元素会导致超重和肥胖。"
         },
-        "MINERAL_CU": {
+        "COPPER": {
             "HEAD": "Cu",
             "NAME": "铜",
             "DESK": "铜参与红细胞（红细胞）的形成，是胶原蛋白的主要成分。"
         },
-        "MINERAL_I": {
+        "IODINE": {
             "HEAD": "I",
             "NAME": "碘",
             "DESK": "碘对于甲状腺的正常功能很重要。"
         },
-        "MINERAL_FE": {
+        "IRON": {
             "HEAD": "Fe",
             "NAME": "铁",
             "DESK": "它影响血红蛋白水平并确保氧气输送到组织。"
         },
-        "MINERAL_MG": {
+        "MAGNESIUM": {
             "HEAD": "Mg",
             "NAME": "镁",
             "DESK": "这种矿物质可确保心脏正常工作。它对神经系统和肌肉以及蛋白质合成都是必需的。"
         },
-        "MINERAL_MN": {
+        "MANGANESE": {
             "HEAD": "Mn",
             "NAME": "锰",
             "DESK": "锰影响蛋白质、碳水化合物和脂肪的新陈代谢。它还能增强胰岛素的作用，使血液中的胆固醇保持在一定水平。"
         },
-        "MINERAL_MO": {
+        "MOLYBDENUM": {
             "HEAD": "Mo",
             "NAME": "钼",
             "DESK": "钼是许多酶的组成部分。它参与氮的同化作用，强化牙釉质，还能预防阳痿。"
         },
-        "MINERAL_P": {
+        "PHOSPHORUS": {
             "HEAD": "P",
             "NAME": "磷",
             "DESK": "磷是骨骼和牙齿所必需的。在它的帮助下，蛋白质和碳水化合物在体内形成。它还确保吸收许多营养素。"
         },
-        "MINERAL_K": {
+        "POTASSIUM": {
             "HEAD": "K",
             "NAME": "钾",
             "DESK": "钾是人体所有细胞和组织的主要元素。它对于神经和心血管系统的正常运作是必要的。"
         },
-        "MINERAL_SE": {
+        "SELENIUM": {
             "HEAD": "Se",
             "NAME": "硒",
             "DESK": "它保护细胞并影响免疫系统的工作。硒抑制癌细胞的分裂并保护神经元和心肌细胞。"
         },
-        "MINERAL_NA": {
+        "SODIUM": {
             "HEAD": "Na",
             "NAME": "钠",
             "DESK": "钠对于身体维持水盐平衡、血压调节、神经和肌肉功能至关重要。"
         },
-        "MINERAL_ZN": {
+        "ZINC": {
             "HEAD": "Zn",
             "NAME": "锌",
             "DESK": "锌不能在人体内产生，但它对免疫系统、所有器官的稳定运作和荷尔蒙的分泌非常重要。"
