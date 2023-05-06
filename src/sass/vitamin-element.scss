@@ -1,11 +1,20 @@
 .vitamin-element {
 
+  *:not(h1) {
+    color: $ms-color-text-darker;
+  }
+
+  h2,
   h3 {
     font-family: os6;
     font-size: 1.8rem;
-    text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  p {
+    font-family: os4;
+    font-size: 1.2rem;
   }
 
   .header {
@@ -35,6 +44,7 @@
     padding: 7px 34px;
 
     font-family: os6;
+    font-size: 1.2rem;
   }
 
   .vit-def,
@@ -56,6 +66,7 @@
   
       color: $c;
       border-bottom: 2px solid $c;
+      text-align: center;
     }
   }
 
@@ -65,6 +76,7 @@
 
       color: $c;
       border-bottom: 2px solid $c;
+      text-align: center;
     }
   }
 
