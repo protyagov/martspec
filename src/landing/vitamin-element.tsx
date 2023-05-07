@@ -123,6 +123,34 @@ export default function VitaminElement(props: VitaminElementProps) {
 
                     <section>
                         <div className="row">
+                            <div className="col">
+                                <h2>{ _("VITAMIN.CONTENT.DOSE_RDV") }</h2>
+                            </div>
+                        </div>
+                        <table className="table table-bordered vit-table">
+                            <thead>
+                                <tr>
+                                    <td style={{"width": "50%"}}>Age</td>
+                                    <td>{ _("VITAMIN.CONTENT.MALE") }</td>
+                                    <td>{ _("VITAMIN.CONTENT.FEMA") }</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {
+                                    VIT_AGE.map((age, idx) => {
+                                        return <tr>
+                                            <td>{ _("VITAMIN.CONTENT.AGE." + age) }</td>
+                                            <td>{ elementData.DOSE_RDV.MALE[idx] ? (elementData.DOSE_RDV.MALE[idx] + " " + _("VITAMIN.CONTENT.MCG")) : "" }</td>
+                                            <td>{ elementData.DOSE_RDV.FEMA[idx] + " " + _("VITAMIN.CONTENT.MCG") }</td>
+                                        </tr>
+                                    })
+                                }
+                            </tbody>
+                        </table>
+                    </section>
+
+                    <section>
+                        <div className="row">
                             <div className="col vit-facts">
                                 <h2>{_("VITAMIN.CONTENT.FACTS")}</h2>
                                 <ul className="p-0">
