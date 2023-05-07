@@ -17,6 +17,9 @@ interface VitaminElement {
     FOOD_100G: { [key: string]: number };
 };
 
+
+const VIT_AGE = ["6_M", "7_12_M", "1_3", "4_8", "9_13", "14_18", "19_50", "51", "PREG_14_18", "PREG_19_50", "LACT_14_18", "LACT_19_50"];
+
 export default function VitaminElement(props: VitaminElementProps) {
     const elementId = props.id.toUpperCase();
 
