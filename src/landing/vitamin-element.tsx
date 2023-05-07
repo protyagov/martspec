@@ -130,7 +130,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                         <table className="table table-bordered vit-table">
                             <thead>
                                 <tr>
-                                    <td style={{"width": "50%"}}>Age</td>
+                                    <td style={{ "width": "50%" }}>{ _("VITAMIN.CONTENT.AGE.HEAD") }</td>
                                     <td>{ _("VITAMIN.CONTENT.MALE") }</td>
                                     <td>{ _("VITAMIN.CONTENT.FEMA") }</td>
                                 </tr>
