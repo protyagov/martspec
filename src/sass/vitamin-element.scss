@@ -107,6 +107,19 @@
     }
   }
 
+  .vit-table {
+    font-size: 1.2rem;
+    font-family: os4;
+
+    * {
+      border-color: #CAC6C6;
+    }
+
+    thead {
+      background-color: #EDEDED;
+    }
+  }
+
   .vit-facts {
     li {
       display: flex;
