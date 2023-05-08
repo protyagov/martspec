@@ -48,7 +48,21 @@ export default function VitaminElement(props: VitaminElementProps) {
             default:
                 return;
         }
-    };    
+    };   
+    
+    const getListFromCount = (NAME: string) => {
+        return (
+            [
+                ...Array(elementData[NAME + "_COUNT"])
+                .keys()
+            ]
+                .map(n => (
+                    <li key={`${elementId}-${NAME}-${n}`}>
+                        {_(`VITAMIN.${elementId}.${NAME}_${n + 1}`)}
+                    </li>
+                ))
+        )
+    };
 
     return <>
         <NavigationBar />
@@ -90,33 +104,13 @@ export default function VitaminElement(props: VitaminElementProps) {
                             <div className="col-md col-12 vit-def">
                                 <h3>{_("VITAMIN.CONTENT.DEF")}</h3>
                                 <ul>
-                                {
-                                    [
-                                        ...Array(elementData.DEF_COUNT)
-                                        .keys()
-                                    ]
-                                        .map(n => (
-                                            <li key={elementId + "-DEF-" + n}>
-                                                { _("VITAMIN." + elementId + ".DEF_" + +(n + 1)) }
-                                            </li>
-                                        ))
-                                }
+                                    { getListFromCount("DEF") }
                                 </ul>
                             </div>
                             <div className="col-md col-12 vit-over">
                                 <h3>{_("VITAMIN.CONTENT.OVER")}</h3>
                                 <ul>
-                                {
-                                    [
-                                        ...Array(elementData.OVER_COUNT)
-                                        .keys()
-                                    ]
-                                        .map(n => (
-                                            <li key={elementId + "-OVER-" + n}>
-                                                { _("VITAMIN." + elementId + ".OVER_" + +(n + 1)) }
-                                            </li>
-                                        ))
-                                }
+                                    { getListFromCount("OVER") }
                                 </ul>
                             </div>
                         </div>
@@ -197,17 +191,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                             <div className="col vit-facts">
                                 <h2>{_("VITAMIN.CONTENT.FACTS")}</h2>
                                 <ul className="p-0">
-                                {
-                                    [
-                                        ...Array(elementData.FACT_COUNT)
-                                        .keys()
-                                    ]
-                                        .map(n => (
-                                            <li key={elementId + "-FACT-" + n}>
-                                                { _("VITAMIN." + elementId + ".FACT_" + +(n + 1)) }
-                                            </li>
-                                        ))
-                                }
+                                    { getListFromCount("FACT") }
                                 </ul>
                             </div>
                         </div>
