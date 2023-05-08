@@ -123,7 +123,8 @@ export default function VitaminElement(props: VitaminElementProps) {
 
                     <section>
                         <div className="row">
-                            <div className="col">
+                            <div className="col d-flex align-items-center">
+                                <img src="/img/vitamin_RDV_icon.png" className="p-0 mt-3 ms-0 me-3" alt={_("VITAMIN.CONTENT.DOSE_RDV")} height="40px" width="40px" />
                                 <h2>{ _("VITAMIN.CONTENT.DOSE_RDV") }</h2>
                             </div>
                         </div>
