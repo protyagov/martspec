@@ -120,6 +120,23 @@
     }
   }
 
+  .vit-charts {
+    td {
+      width: 1%;
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+    .chart-container {
+      width: 100%;
+    }
+    .chart {
+      height: 1rem;
+
+      background-color: #3BBB00;
+      opacity: .45;
+    }
+  }
+
   .vit-facts {
     li {
       display: flex;
