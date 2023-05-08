@@ -115,6 +115,7 @@
             "DEF": "Deficiency",
             "OVER": "Overdose",
             "DOSE_RDV": "Daily intake according to age",
+            "DOSE_UL": "Tolerable Upper Intake Levels",
             "MALE": "Male",
             "FEMA": "Female",
             "AGE": {

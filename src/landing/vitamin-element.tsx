@@ -151,6 +151,39 @@ export default function VitaminElement(props: VitaminElementProps) {
                         </table>
                     </section>
 
+                    {
+                        elementData.DOSE_UL && (
+                            <section>
+                                <div className="row">
+                                    <div className="col d-flex align-items-center">
+                                        <img src="/img/vitamin_UL_icon.png" className="p-0 mt-3 ms-0 me-3" alt={_("VITAMIN.CONTENT.DOSE_UL")} height="40px" width="40px" />
+                                        <h2>{ _("VITAMIN.CONTENT.DOSE_UL") }</h2>
+                                    </div>
+                                </div>
+                                <table className="table table-bordered vit-table">
+                                    <thead>
+                                        <tr>
+                                            <td style={{ "width": "50%" }}>{ _("VITAMIN.CONTENT.AGE.HEAD") }</td>
+                                            <td>{ _("VITAMIN.CONTENT.MALE") }</td>
+                                            <td>{ _("VITAMIN.CONTENT.FEMA") }</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {
+                                            VIT_AGE.map((age, idx) => {
+                                                return <tr>
+                                                    <td>{ _("VITAMIN.CONTENT.AGE." + age) }</td>
+                                                    <td>{ elementData.DOSE_UL.MALE[idx] ? (elementData.DOSE_UL.MALE[idx] + " " + _("VITAMIN.CONTENT.MCG")) : "" }</td>
+                                                    <td>{ elementData.DOSE_UL.FEMA[idx] + " " + _("VITAMIN.CONTENT.MCG") }</td>
+                                                </tr>
+                                            })
+                                        }
+                                    </tbody>
+                                </table>
+                            </section>
+                        )
+                    }
+
                     <section>
                         <div className="row">
                             <div className="col">
