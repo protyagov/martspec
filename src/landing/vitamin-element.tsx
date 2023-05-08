@@ -14,6 +14,7 @@ interface VitaminElement {
     HEX: string;
     TYPE: "VITAMIN_FAT" | "VITAMIN_WATER" | "MINERAL" | null;
     DOSE_RDV: { [key: string]: Array<number> };
+    DOSE_UL: { [key: string]: Array<number> | null }
     FOOD_100G: { [key: string]: number };
 };
 
