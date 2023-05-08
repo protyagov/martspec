@@ -151,6 +151,37 @@ export default function VitaminElement(props: VitaminElementProps) {
 
                     <section>
                         <div className="row">
+                            <div className="col">
+                                <h2>{_("VITAMIN.CONTENT.FOOD_100G")}</h2>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                <table className="table vit-table vit-charts">
+                                    <tbody>
+                                        {
+                                            Object
+                                                .entries(elementData.FOOD_100G)
+                                                .map(([food, g], idx, arr) => {
+                                                    let max = arr[0][1];
+
+                                                    return <tr key={"FOOD_100G-" + food}>
+                                                        <td className="pe-5">{_("VITAMIN.CONTENT." + food)}</td>
+                                                        <td className="chart-container">
+                                                            <div className="chart" style={{ width: +(100 * g / max) + "%" }}></div>
+                                                        </td>
+                                                        <td className="ps-5">{ g }</td>
+                                                    </tr>
+                                                })
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div className="row">
                             <div className="col vit-facts">
                                 <h2>{_("VITAMIN.CONTENT.FACTS")}</h2>
                                 <ul className="p-0">
