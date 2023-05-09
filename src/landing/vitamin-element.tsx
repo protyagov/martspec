@@ -22,9 +22,9 @@ interface VitaminElement {
 const VIT_AGE = ["0_1", "1_3", "4_8", "9_13", "14_18", "19_50", "51_70", "71", "PREG_14_18", "PREG_19_50", "LACT_14_18", "LACT_19_50"];
 
 export default function VitaminElement(props: VitaminElementProps) {
-    const elementId = props.id.toUpperCase();
+    const id = props.id.toUpperCase();
 
-    const [elementData, setElementData] = React.useState<VitaminElement | null>(null);    
+    const [data, setData] = React.useState<VitaminElement | null>(null);    
 
     React.useEffect(() => {
         const fetchElementData = async (): Promise<void> => {
@@ -33,18 +33,18 @@ export default function VitaminElement(props: VitaminElementProps) {
             
             await response
                 .json()
-                .then((data: {[key: string]: any}) => setElementData(data[elementId]));
+                .then((data: {[key: string]: any}) => setData(data[id]));
         };
         fetchElementData();
     }, []);
 
-    const getElementFullName = (type: VitaminElement["TYPE"]) => {
+    const getNameWithType = (type: VitaminElement["TYPE"]) => {
         switch (type) {
             case "VITAMIN_FAT":
             case "VITAMIN_WATER":
-                return _("VITAMIN.CONTENT.GROUP." + elementData.TYPE) + " " + _("VITAMIN." + elementId + ".HEAD");
+                return _("VITAMIN.CONTENT.GROUP." + data.TYPE) + " " + _("VITAMIN." + id + ".HEAD");
             case "MINERAL":
-                return _("VITAMIN." + elementId + ".NAME");
+                return _("VITAMIN." + id + ".NAME");
             default:
                 return;
         }
@@ -53,12 +53,12 @@ export default function VitaminElement(props: VitaminElementProps) {
     const getListFromCount = (NAME: string) => {
         return (
             [
-                ...Array(elementData[NAME + "_COUNT"])
+                ...Array(data[NAME + "_COUNT"])
                 .keys()
             ]
                 .map(n => (
-                    <li key={`${elementId}-${NAME}-${n}`}>
-                        {_(`VITAMIN.${elementId}.${NAME}_${n + 1}`)}
+                    <li key={`${id}-${NAME}-${n}`}>
+                        {_(`VITAMIN.${id}.${NAME}_${n + 1}`)}
                     </li>
                 ))
         )
@@ -69,14 +69,14 @@ export default function VitaminElement(props: VitaminElementProps) {
 
         <div className="ms-base-page pb-5 vitamin-element">
             {
-                elementData && <>
-                    <div className="header py-5 mt-0" style={{ "--vitamin-bg-color": "#" + elementData.HEX } as React.CSSProperties}>
+                data && <>
+                    <div className="header py-5 mt-0" style={{ "--vitamin-bg-color": "#" + data.HEX } as React.CSSProperties}>
                         <section>
                             <div className="ms-s-offset text-center">
                                 <div className="row">
                                     <div className="col">
-                                        <h1 className="pt-5">{ getElementFullName(elementData.TYPE) }</h1>
-                                        <img src={elementData.LOGO} className="ms-base-top-image" alt={_("VITAMIN." + elementId + ".NAME")} height={512} width={512} />
+                                        <h1 className="pt-5">{ getNameWithType(data.TYPE) }</h1>
+                                        <img src={data.LOGO} className="ms-base-top-image" alt={_("VITAMIN." + id + ".NAME")} height={512} width={512} />
                                     </div>
                                 </div>
                             </div>
@@ -87,14 +87,14 @@ export default function VitaminElement(props: VitaminElementProps) {
                         <div className="row">
                             <div className="col">
                                 <h2>{ _("VITAMIN.CONTENT.FUNC") }</h2>
-                                <p>{ _("VITAMIN." + elementId + ".FUNC") }</p>
+                                <p>{ _("VITAMIN." + id + ".FUNC") }</p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
                                 <ToggleButton cls="vit-type"
-                                    btnContent={ _("VITAMIN." + elementData.TYPE + ".SHORT") }
-                                    toggledContent={ _("VITAMIN." + elementData.TYPE + ".DESC") } />
+                                    btnContent={ _("VITAMIN." + data.TYPE + ".SHORT") }
+                                    toggledContent={ _("VITAMIN." + data.TYPE + ".DESC") } />
                             </div>
                         </div>
                     </section>
@@ -121,7 +121,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                             "DOSE_RDV",
                             "DOSE_UL"
                         ].map(SECTION => {
-                                return elementData[SECTION] && (
+                                return data[SECTION] && (
                                     <section>
                                         <div className="row">
                                             <div className="col d-flex align-items-center">
@@ -142,8 +142,8 @@ export default function VitaminElement(props: VitaminElementProps) {
                                                     VIT_AGE.map((age, idx) => {
                                                         return <tr>
                                                             <td>{ _("VITAMIN.CONTENT.AGE." + age) }</td>
-                                                            <td>{ elementData[SECTION].MALE[idx] ? (elementData[SECTION].MALE[idx] + " " + _("VITAMIN.CONTENT.MCG")) : "" }</td>
-                                                            <td>{ elementData[SECTION].FEMA[idx] + " " + _("VITAMIN.CONTENT.MCG") }</td>
+                                                            <td>{ data[SECTION].MALE[idx] ? (data[SECTION].MALE[idx] + " " + _("VITAMIN.CONTENT.MCG")) : "" }</td>
+                                                            <td>{ data[SECTION].FEMA[idx] + " " + _("VITAMIN.CONTENT.MCG") }</td>
                                                         </tr>
                                                     })
                                                 }
@@ -167,7 +167,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                     <tbody>
                                         {
                                             Object
-                                                .entries(elementData.FOOD_100G)
+                                                .entries(data.FOOD_100G)
                                                 .map(([food, g], idx, arr) => {
                                                     let max = arr[0][1];
 
