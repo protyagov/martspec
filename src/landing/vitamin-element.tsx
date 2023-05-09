@@ -33,7 +33,7 @@ export default function VitaminElement(props: VitaminElementProps) {
             
             await response
                 .json()
-                .then((data: {[key: string]: any}) => setData(data[id]));
+                .then((fetched: {[key: string]: any}) => setData(fetched[id]));
         };
         fetchElementData();
     }, []);
