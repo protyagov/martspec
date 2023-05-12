@@ -2,6 +2,7 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 
 interface VitaminItemProps {
+    key?: string;
     id: string;
 }
 
