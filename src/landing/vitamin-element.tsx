@@ -200,6 +200,17 @@ export default function VitaminElement(props: VitaminElementProps) {
                             </div>
                         </div>
                     </section>
+
+                    <section>
+                        <div className="row">
+                            <div className="col text-center">
+                                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
+                                    target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-5"
+                                    style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
                 </>
             }
         </div>
