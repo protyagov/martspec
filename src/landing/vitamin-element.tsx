@@ -83,7 +83,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                     </div>
 
                     <section>
-                        <div className="row">
+                        <div className="row mt-5">
                             <div className="col">
                                 <h2>{ _("VITAMIN.CONTENT.FUNC") }</h2>
                                 <p>{ _("VITAMIN." + id + ".FUNC") }</p>
