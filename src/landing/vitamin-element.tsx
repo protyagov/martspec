@@ -2,7 +2,6 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
-import ToggleButton from "src/part/toggle-button";
 
 interface VitaminElementProps {
     id: string;
@@ -92,9 +91,14 @@ export default function VitaminElement(props: VitaminElementProps) {
                         </div>
                         <div className="row">
                             <div className="col">
-                                <ToggleButton cls="vit-type"
-                                    btnContent={ _("VITAMIN." + data.TYPE + ".SHORT") }
-                                    toggledContent={ _("VITAMIN." + data.TYPE + ".DESC") } />
+                            <div className="vit-type">
+                                <button data-bs-toggle="collapse" data-bs-target="#vit-type-collapse" aria-expanded="false" aria-controls="vit-type-collapse">{ _("VITAMIN." + data.TYPE + ".SHORT") }</button>
+                                    <div className="collapse collapse-content" id="vit-type-collapse">
+                                        <div className="content-padding">
+                                            { _("VITAMIN." + data.TYPE + ".DESC") }
+                                        </div>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </section>

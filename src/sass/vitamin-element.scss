@@ -52,23 +52,15 @@
       padding: $py $px;
   
       font-family: os6;
-  
     }
 
-    .toggled-content {
-      max-height: 0;
-      overflow: hidden;
-
+    .collapse-content {    
       background-color: #FCF4E1;
-      padding: $py $px;
       margin-top: $main-font-size;
-
       font-family: os4;
-    }
 
-    &-toggled-true {
-      .toggled-content {
-        max-height: 1000px;
+      .content-padding {
+        padding: $py $px;
       }
     }
     
