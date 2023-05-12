@@ -52,7 +52,7 @@
         }
     },
     "VITAMIN_E": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_e_logo.png",
         "HEX": "",
         "TYPE": "VITAMIN_FAT",
         "DOSE_RDV": {
@@ -75,7 +75,7 @@
         }
     },
     "VITAMIN_K": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_k_logo.png",
         "HEX": "",
         "TYPE": "VITAMIN_FAT",
         "DOSE_RDV": {
@@ -95,7 +95,7 @@
         }
     },
     "VITAMIN_B1": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_b1_logo.png",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
         "DOSE_RDV": {
@@ -115,7 +115,7 @@
         }
     },
     "VITAMIN_B2": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_b2_logo.png",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
         "DOSE_RDV": {
@@ -135,7 +135,7 @@
         }
     },
     "VITAMIN_B3": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_b3_logo.png",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
         "DOSE_RDV": {
@@ -155,7 +155,7 @@
         }
     },
     "VITAMIN_B5": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_b5_logo.png",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
         "DOSE_RDV": {
@@ -175,7 +175,7 @@
         }
     },
     "VITAMIN_B6": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_b6_logo.png",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
         "DOSE_RDV": {
@@ -195,7 +195,7 @@
         }
     },
     "VITAMIN_B7": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_b7_logo.png",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
         "DOSE_RDV": {
@@ -215,7 +215,7 @@
         }
     },
     "VITAMIN_B9": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_b9_logo.png",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
         "DOSE_RDV": {
@@ -238,7 +238,7 @@
         }
     },
     "VITAMIN_B12": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_b12_logo.png",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
         "DOSE_RDV": {
@@ -258,7 +258,7 @@
         }
     },
     "VITAMIN_C": {
-        "LOGO": "",
+        "LOGO": "/img/vitamin_c_logo.png",
         "HEX": "",
         "TYPE": "VITAMIN_WATER",
         "DOSE_RDV": {
@@ -281,7 +281,7 @@
         }
     },
     "CALCIUM": {
-        "LOGO": "",
+        "LOGO": "/img/calcium_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -304,7 +304,7 @@
         }
     },
     "CHLORINE": {
-        "LOGO": "",
+        "LOGO": "/img/chlorine_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -327,7 +327,7 @@
         }
     },
     "CHROME": {
-        "LOGO": "",
+        "LOGO": "/img/chrome_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -347,7 +347,7 @@
         }
     },
     "COPPER": {
-        "LOGO": "",
+        "LOGO": "/img/copper_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -370,7 +370,7 @@
         }
     },
     "IODINE": {
-        "LOGO": "",
+        "LOGO": "/img/iodine_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -393,7 +393,7 @@
         }
     },
     "IRON": {
-        "LOGO": "",
+        "LOGO": "/img/iron_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -416,7 +416,7 @@
         }
     },
     "MAGNESIUM": {
-        "LOGO": "",
+        "LOGO": "/img/magnesium_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -439,7 +439,7 @@
         }
     },
     "MANGANESE": {
-        "LOGO": "",
+        "LOGO": "/img/manganese_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -462,7 +462,7 @@
         }
     },
     "MOLYBDENUM": {
-        "LOGO": "",
+        "LOGO": "/img/molybdenum_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -485,7 +485,7 @@
         }
     },
     "PHOSPHORUS": {
-        "LOGO": "",
+        "LOGO": "/img/phosphorus_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -508,7 +508,7 @@
         }
     },
     "POTASSIUM": {
-        "LOGO": "",
+        "LOGO": "/img/potassium_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -528,7 +528,7 @@
         }
     },
     "SELENIUM": {
-        "LOGO": "",
+        "LOGO": "/img/selenium_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -551,7 +551,7 @@
         }
     },
     "SODIUM": {
-        "LOGO": "",
+        "LOGO": "/img/sodium_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
@@ -574,7 +574,7 @@
         }
     },
     "ZINC": {
-        "LOGO": "",
+        "LOGO": "/img/zinc_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
         "DOSE_RDV": {
