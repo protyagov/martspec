@@ -2,36 +2,36 @@
   {
     "name": "ALEX",
     "title": "ENGINEER_MOBILE",
-    "avatar": "/img/team_alex.png"
+    "avatar": "/img/team_alex.webp"
   },
   {
     "name": "NICHITA",
     "title": "ENGINEER_WEB",
-    "avatar": "/img/team_nichita.png"
+    "avatar": "/img/team_nichita.webp"
   },
   {
     "name": "ALEVTYNA",
     "title": "ENGINEER_WEB",
-    "avatar": "/img/team_alevtyna.png"
+    "avatar": "/img/team_alevtyna.webp"
   },
   {
     "name": "SVETLANA",
     "title": "DESIGNER_UI_UX",
-    "avatar": "/img/team_svetlana.png"
+    "avatar": "/img/team_svetlana.webp"
   },
   {
     "name": "ALESIA",
     "title": "DESIGNER_UI_UX",
-    "avatar": "/img/team_alesia.png"
+    "avatar": "/img/team_alesia.webp"
   },
   {
     "name": "ANASTASIIA",
     "title": "DESIGNER_UI_UX",
-    "avatar": "/img/team_anastasiia.png"
+    "avatar": "/img/team_anastasiia.webp"
   },
   {
     "name": "MIKE",
     "title": "ENGINEER_QA",
-    "avatar": "/img/team_mike.png"
+    "avatar": "/img/team_mike.webp"
   }
 ]
