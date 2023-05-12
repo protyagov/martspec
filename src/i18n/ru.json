@@ -479,12 +479,15 @@
         "ENGINEER_MOBILE": "iOS Разработчик",
         "ENGINEER_WEB": "Веб-разработчик",
         "DESIGNER_UI_UX": "UI/UX дизайнер",
+        "ENGINEER_QA": "QA-инженер",
         "ALEX": "Алекс",
         "NICHITA": "Никита",
         "ALEVTYNA": "Алевтина",
         "DMYTRO": "Дмитрий",
         "SVETLANA": "Светлана",
-        "ALESIA": "Алеся"
+        "ALESIA": "Алеся",
+        "ANASTASIIA": "Анастасия",
+        "MIKE": "Михаил"
     },
     "PP": {
         "HEAD": "Защита данных",

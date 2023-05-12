@@ -88,7 +88,7 @@ export default function NavigationBar() {
                             {_("NAV.APPS")}
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("logvitamin")}>{_("VITAMIN.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("vitamin")}>{_("VITAMIN.HEAD")}</a></li>
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("bodysize")}>{_("SIZE.HEAD")}</a></li>
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("bodymass")}>{_("MASS.HEAD")}</a></li>
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("waistline")}>{_("WAIST.HEAD")}</a></li>

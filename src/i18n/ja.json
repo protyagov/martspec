@@ -479,12 +479,15 @@
         "ENGINEER_MOBILE": "モバイル ソフトウェア エンジニア",
         "ENGINEER_WEB": "ウェブソフトウェアエンジニア",
         "DESIGNER_UI_UX": "UI/UX デザイナー",
+        "ENGINEER_QA": "QAエンジニア",
         "ALEX": "Alex",
         "NICHITA": "Nichita",
         "ALEVTYNA": "Alevtyna",
         "DMYTRO": "Dmytro",
         "SVETLANA": "Svetlana",
-        "ALESIA": "Alesia"
+        "ALESIA": "Alesia",
+        "ANASTASIIA": "Anastasiia",
+        "MIKE": "Mike"
     },
     "PP": {
         "HEAD": "個人情報保護方針",

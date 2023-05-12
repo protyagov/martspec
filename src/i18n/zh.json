@@ -479,12 +479,15 @@
         "ENGINEER_MOBILE": "移动软件工程师",
         "ENGINEER_WEB": "网络软件工程师",
         "DESIGNER_UI_UX": "用户界面/用户体验设计师",
+        "ENGINEER_QA": "质检工程师",
         "ALEX": "Alex",
         "NICHITA": "Nichita",
         "ALEVTYNA": "Alevtyna",
         "DMYTRO": "Dmytro",
         "SVETLANA": "Svetlana",
-        "ALESIA": "Alesia"
+        "ALESIA": "Alesia",
+        "ANASTASIIA": "Anastasiia",
+        "MIKE": "Mike"
     },
     "PP": {
         "HEAD": "隐私政策",

@@ -15,11 +15,6 @@
     "avatar": "/img/team_alevtyna.png"
   },
   {
-    "name": "DMYTRO",
-    "title": "ENGINEER_WEB",
-    "avatar": "/img/team_dmytro.png"
-  },
-  {
     "name": "SVETLANA",
     "title": "DESIGNER_UI_UX",
     "avatar": "/img/team_svetlana.png"
@@ -28,5 +23,15 @@
     "name": "ALESIA",
     "title": "DESIGNER_UI_UX",
     "avatar": "/img/team_alesia.png"
+  },
+  {
+    "name": "ANASTASIIA",
+    "title": "DESIGNER_UI_UX",
+    "avatar": "/img/team_anastasiia.png"
+  },
+  {
+    "name": "MIKE",
+    "title": "ENGINEER_QA",
+    "avatar": "/img/team_mike.png"
   }
 ]

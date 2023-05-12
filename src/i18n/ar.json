@@ -477,12 +477,15 @@
         "ENGINEER_MOBILE": "مهندس برمجيات الجوال",
         "ENGINEER_WEB": "مهندس برمجيات الويب",
         "DESIGNER_UI_UX": "مصمم UI/UX",
+        "ENGINEER_QA": "مهندس تأكيد جودة",
         "ALEX": "Alex",
         "NICHITA": "Nichita",
         "ALEVTYNA": "Alevtyna",
         "DMYTRO": "Dmytro",
         "SVETLANA": "Svetlana",
-        "ALESIA": "Alesia"
+        "ALESIA": "Alesia",
+        "ANASTASIIA": "Anastasiia",
+        "MIKE": "Mike"
     },
     "PP": {
         "HEAD": "سياسة الخصوصية من",

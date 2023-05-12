@@ -479,12 +479,15 @@
         "ENGINEER_MOBILE": "Mobiler Software-Ingenieur",
         "ENGINEER_WEB": "Web Software-Ingenieur",
         "DESIGNER_UI_UX": "UI/UX-Designer",
+        "ENGINEER_QA": "Qualitätssicherungsingenieur",
         "ALEX": "Alex",
         "NICHITA": "Nichita",
         "ALEVTYNA": "Alevtyna",
         "DMYTRO": "Dmytro",
         "SVETLANA": "Svetlana",
-        "ALESIA": "Alesia"
+        "ALESIA": "Alesia",
+        "ANASTASIIA": "Anastasiia",
+        "MIKE": "Mike"
     },
     "PP": {
         "HEAD": "Datenschutzrichtlinie",
