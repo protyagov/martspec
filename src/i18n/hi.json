@@ -346,12 +346,15 @@
         "ENGINEER_MOBILE": "मोबाइल सॉफ्टवेयर इंजीनियर",
         "ENGINEER_WEB": "वेब सॉफ्टवेयर इंजीनियर",
         "DESIGNER_UI_UX": "यूआई/यूएक्स डिजाइनर",
+        "ENGINEER_QA": "क्यूए अभियंता",
         "ALEX": "Alex",
         "NICHITA": "Nichita",
         "ALEVTYNA": "Alevtyna",
         "DMYTRO": "Dmytro",
         "SVETLANA": "Svetlana",
-        "ALESIA": "Alesia"
+        "ALESIA": "Alesia",
+        "ANASTASIIA": "Anastasiia",
+        "MIKE": "Mike"
     },
     "PP": {
         "HEAD": "गोपनीयता नीति",

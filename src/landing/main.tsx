@@ -43,7 +43,7 @@ export default function LandingPage() {
                         </div>
                         <div className="p-text">
                             <h2>{_("VITAMIN.TEXT")}</h2>
-                            <a href={Locale.i18nLink("logvitamin")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
+                            <a href={Locale.i18nLink("vitamin")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
                         

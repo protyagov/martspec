@@ -6,22 +6,26 @@
     padding-top: 7vmin;
   }
   .members-list {
-    column-gap: 6vmin;
-    row-gap: 8vmin;
     padding-top: 3vmin;
-    padding-bottom: 10vmin;
-
-    & > div {
-      flex: 0 1 min-content;
-      
-      img {
-        object-fit: cover;
-        filter: grayscale(1);
-        -webkit-filter: grayscale(1);
-      }
-    }
+    padding-bottom: 7vmin;
+    column-gap: 8%;
+    row-gap: 4rem;
   }
   .team-member {
+    flex: 0 0;
+    flex-basis: 19%;
+
+    @media only screen and (max-width: ($ms-screen-md - 1)) {
+      flex-basis: 28%;
+    }
+    @media only screen and (max-width: ($ms-screen-sm - 1)) {
+      flex-basis: 46%;
+    }
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+
     h4 {
       color: #000000;
       font-size: 1.6rem;
@@ -32,6 +36,13 @@
       font-family: os3;
       margin-top: .1rem;
       color: #8A8A8A;
+    }
+    img {
+      aspect-ratio: 1 / 1 !important;
+      max-width: 90%;
+      object-fit: cover;
+      filter: grayscale(1);
+      -webkit-filter: grayscale(1);
     }
   }
 }
