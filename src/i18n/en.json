@@ -370,7 +370,21 @@
         "VITAMIN_B9": {
             "HEAD": "B9",
             "NAME": "folic acid",
-            "DESK": "It participates in the formation of red and white blood cells, helps the body create DNA and RNA cells, as well as convert carbohydrates into glucose."
+            "DESK": "It participates in the formation of red and white blood cells, helps the body create DNA and RNA cells, as well as convert carbohydrates into glucose.",
+            "FUNC": "Protein metabolism. Production of DNA and RNA. Making energy from carbohydrates. Required for the production of healthy red blood cells.",
+            "DEF_1": "Fatigue, weakness, and shortness of breath",
+            "DEF_2": "Difficulty concentrating",
+            "DEF_3": "Increased risk of depression",
+            "DEF_4": "Cognitive dysfunction in aging",
+            "DEF_5": "Changes in your hair, nails, and skin",
+            "DEF_6": "Alcohol interferes with the absorption of folate and speeds the rate that folate breaks down",
+            "OVER_1": "Higher amounts can mask a vitamin B12 deficiency",
+            "OVER_2": "Folate toxidity is extremely rare from eating food",
+            "FACT_1": "Folate has an important metabolic interaction with Riboflavin",
+            "FACT_2": "Vitamin C may improve folate bioavailability",
+            "FACT_3": "Folate-rich diets have been associated with decreased risk of cardio-vascular disease. Based on a study 1,980 Finnish men for 10 years",
+            "FACT_4": "It is possible that inadequate folate intake contributes to genome instability and chromosome breakage that often characterize cancer development",
+            "FACT_5": "Overdose of supplemental folic acid may accelerate tumor growth in cancer patients (More research needed)"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
