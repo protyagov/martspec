@@ -427,7 +427,18 @@
         "CALCIUM": {
             "HEAD": "Ca",
             "NAME": "кальцій",
-            "DESK": "Кальцій — основний елемент кісткової тканини, а також універсальний регулятор життєдіяльності клітин."
+            "DESK": "Кальцій — основний елемент кісткової тканини, а також універсальний регулятор життєдіяльності клітин.",
+            "FUNC": "Healthy bones and teeth. Plays an important role in blood clotting. Helping muscles to contract, and regulating normal heart rhythms and nerve functions. Keeping tissue rigid, strong, and flexible.",
+            "DEF_1": "Bone strength reduction that might lead to osteoporosis",
+            "DEF_2": "Rickets in children",
+            "DEF_3": "Bone disorders in adults",
+            "OVER_1": "No evidence of any risks",
+            "FACT_1": "99% of the body’s calcium is stored in bones",
+            "FACT_2": "Some clinical trials have found that calcium supplementation can improve bone health in older adults",
+            "FACT_3": "Calcium supplementation alone or a combination with vitamin D increases bone mineral density in older adults",
+            "FACT_4": "Increasing calcium intakes reduces the risk of fractures and falls in older adults",
+            "FACT_5": "4-year trial of 1,179 women aged 55+ years: taking 1,400 to 1,500 mg calcium alone, 1,400 to 1,500 mg calcium plus 27.5 mcg vitamin D3, or placebo daily. Cancer incidence was 60% lower in women who took the combination and 47% lower in those who took calcium-only supplements than in the placebo group",
+            "FACT_6": "8 year study of 77,712 adults:  Average calcium intake of 1999 mg/day was associated with a 26% lower risk of colon cancer compared to 587 mg/day. Association with risk of rectal cancer was not found"
         },
         "CHLORINE": {
             "HEAD": "Cl",

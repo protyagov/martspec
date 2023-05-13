@@ -315,8 +315,11 @@
     },
     "CALCIUM": {
         "LOGO": "/img/calcium_logo.png",
-        "HEX": "",
+        "HEX": "FFC100",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 3,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 6,
         "DOSE_RDV": {
             "MALE": [260, 700, 1000, 1300, 1300, 1000, 1000, 1200],
             "FEMA": [260, 700, 1000, 1300, 1300, 1000, 1200, 1200, 1300, 1000, 1300, 1000]
