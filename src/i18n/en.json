@@ -237,7 +237,26 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "tocopherol",
-            "DESK": "It is a powerful antioxidant, it participates in the formation of fibers that are responsible for the elasticity of the skin."
+            "DESK": "It is a powerful antioxidant, it participates in the formation of fibers that are responsible for the elasticity of the skin.",
+            "FUNC": "It is a powerful antioxidant. Involved in immune function. Widening blood vessels and keeping blood from clotting within them.  Regulation of gene expression, and other metabolic processes. Cells use vitamin E to interact with each other and to carry out many important functions.",
+            "DEF_1": "Damage to the eye's retina",
+            "DEF_2": "Nerve damage, usually in the hands or feet",
+            "DEF_3": "Loss of control of body movements",
+            "DEF_4": "Decreased immune function",
+            "DEF_5": "People with fat-malabsorption disorders are more likely to become deficient",
+            "OVER_1": "Dose over 1000mg increases risk of excess bleeding",
+            "FACT_1": "Stored in fatty tissue and the liver",
+            "FACT_2": "Helps the body to use vitamin K",
+            "FACT_3": "Male smokers taking 50 mg of Vitamin E had 32% fewer prostate cancers",
+            "FACT_4": "Healthy males taking 180mg of Vitamin E for 5.5 years have a 17% increased risk of prostate cancer",
+            "FACT_5": "Scientists debate whether vitamin E supplements could be harmful",
+            "FACT_6": "A study of postmenopausal breast cancer in 18,000 women found no benefit from the vitamin E",
+            "FACT_7": "A study of colon cancer in 87,998 women found no benefit from the vitamin E",
+            "FACT_8": "A study on adults who took supplemental vitamin E for 10 years or longer had a reduced risk of death from bladder cancer",
+            "FACT_9": "Evidence to date is insufficient to support taking vitamin E to prevent cancer",
+            "FACT_10": "High dietary intakes of vitamin E (20 mg/day) have an approximately 20% lower risk of developing AMD (Age-related macular degeneration – the most common cause of significant vision loss in older people)",
+            "FACT_11": "A 5 years study: The risk of developing advanced AMD is reduced by 25% by taking a daily supplement containing vitamin E (180 mg dl-alpha-tocopheryl acetate), beta-carotene (15 mg), vitamin C (500 mg), zinc (80 mg), and copper (2 mg) compared to participants taking a placebo",
+            "FACT_12": "A study of Alzheimer’s disease progression and cognitive decline found no benefit from the vitamin E"
         },
         "VITAMIN_K": {
             "HEAD": "K",
