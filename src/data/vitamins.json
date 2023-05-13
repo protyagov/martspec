@@ -468,8 +468,11 @@
     },
     "MAGNESIUM": {
         "LOGO": "/img/magnesium_logo.png",
-        "HEX": "",
+        "HEX": "78AADC",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 9,
+        "OVER_COUNT": 6,
+        "FACT_COUNT": 11,
         "DOSE_RDV": {
             "MALE": [75, 80, 130, 240, 410, 415, 420, 420],
             "FEMA": [75, 80, 130, 240, 360, 315, 320, 320, 400, 350, 360, 310]
