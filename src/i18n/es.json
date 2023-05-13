@@ -388,7 +388,20 @@
         "VITAMIN_B12": {
             "HEAD": "B12",
             "NAME": "cobalamina",
-            "DESK": "La cobalamina es responsable de la salud del sistema nervioso central. Ayuda a resistir el estrés y la depresión."
+            "DESK": "La cobalamina es responsable de la salud del sistema nervioso central. Ayuda a resistir el estrés y la depresión.",
+            "FUNC": "Extremely essential for the neurotransmitters synthesis. Growth, development and function of the brain and nerves.  Red blood cell formation, cell metabolism, and the production of DNA.",
+            "DEF_1": "Chronic stomach inflammation",
+            "DEF_2": "Feeling very tired or weak",
+            "DEF_3": "Vision problems",
+            "DEF_4": "Yellowish skin",
+            "DEF_5": "Deficiency symptoms can take  years to appear",
+            "DEF_6": "Vegans are at high risk",
+            "OVER_1": "Even at large doses, vitamin B12 is generally considered to be safe because the body does not store excess amounts",
+            "FACT_1": "Body stores about 1 to 5 mg vitamin B12 -- 1,000 to 2,000 times as much as the amount typically consumed in a day",
+            "FACT_2": "Depression and osteoporosis have been linked to low amount of vitamin B12",
+            "FACT_3": "Taking vitamin B-12 with vitamin C might reduce the available amount of vitamin B-12 in your body. To avoid this interaction, take vitamin C two or more hours after taking a vitamin B-12 supplement",
+            "FACT_4": "Higher amounts of folate can mask a vitamin B12 deficiency",
+            "FACT_5": "Helps with brain function, especially as we age"
         },
         "VITAMIN_C": {
             "HEAD": "C",
