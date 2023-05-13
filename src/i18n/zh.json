@@ -287,7 +287,20 @@
         "VITAMIN_B2": {
             "HEAD": "B2",
             "NAME": "核黄素",
-            "DESK": "B2 是红细胞和抗体形成所必需的。它对身体的生殖功能也很重要。"
+            "DESK": "B2 是红细胞和抗体形成所必需的。它对身体的生殖功能也很重要。",
+            "FUNC": "Antioxidant properties. Energy production from fats and steroids. Essential in glucose metabolism. Growth and development of cells.",
+            "DEF_1": "Swelling of the mouth, lips, tongue or throat",
+            "DEF_2": "Stomatitis at mouth corners",
+            "DEF_3": "Hair loss",
+            "DEF_4": "Skin rash",
+            "DEF_5": "Itchy red eyes",
+            "DEF_6": "Degeneration of the liver and nervous system",
+            "OVER_1": "We have no evidence of any risks",
+            "FACT_1": "Likely to be effective for preventing migraine headaches (American Headache Society)",
+            "FACT_2": "Bacteria in the gut can produce small amounts of it",
+            "FACT_3": "Most riboflavin is used immediately and only small amounts are stored in the liver, heart, and kidneys",
+            "FACT_4": "Helps the body change vitamin B6 and B9 into forms it can use",
+            "FACT_5": "Exposure to light can deactivate it and make not usable"
         },
         "VITAMIN_B3": {
             "HEAD": "B3",
