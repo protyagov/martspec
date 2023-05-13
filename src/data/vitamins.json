@@ -546,8 +546,11 @@
     },
     "PHOSPHORUS": {
         "LOGO": "/img/phosphorus_logo.png",
-        "HEX": "",
+        "HEX": "E74C3C",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 8,
+        "OVER_COUNT": 4,
+        "FACT_COUNT": 9,
         "DOSE_RDV": {
             "MALE": [275, 460, 500, 1250, 1250, 700, 700, 700],
             "FEMA": [275, 460, 500, 1250, 1250, 700, 700, 700, 1250, 700, 1250, 700]
