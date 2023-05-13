@@ -406,7 +406,23 @@
         "VITAMIN_C": {
             "HEAD": "C",
             "NAME": "Askorbinsäure",
-            "DESK": "Es schützt die Zellen vor vorzeitiger Alterung und unterstützt die Arbeit der Blutgefäße, den Zustand von Knochen und Knorpel. Es ist auch wichtig für die Hautregeneration, da es an der Kollagensynthese beteiligt ist."
+            "DESK": "Es schützt die Zellen vor vorzeitiger Alterung und unterstützt die Arbeit der Blutgefäße, den Zustand von Knochen und Knorpel. Es ist auch wichtig für die Hautregeneration, da es an der Kollagensynthese beteiligt ist.",
+            "FUNC": "Infections and wounds healing. Powerful antioxidant. Forming blood vessels, healthy skin, cartilage and muscle. Collagen synthesis in bones.  Protection of cells.  Neurotransmitter production.",
+            "DEF_1": "Scurvy",
+            "DEF_2": "Swollen and bleeding gums",
+            "DEF_3": "Loosening or loss of teeth",
+            "DEF_4": "Joint pain",
+            "DEF_5": "Poor wound healing",
+            "DEF_6": "Corkscrew hairs",
+            "DEF_7": "Smokers or secondhand smoking are at higher risk",
+            "OVER_1": "Over 2000 mg daily might promote gastrointestinal distress and diarrhea",
+            "OVER_2": "High vitamin C intakes also have the potential to increase urinary oxalate and uric acid excretion, which could contribute to the formation of kidney stones",
+            "OVER_3": "Might cause excess iron absorption and result in tissue damage",
+            "OVER_4": "Might reduce vitamin B12 and copper levels",
+            "FACT_1": "Vitamin C supplements won't prevent the common cold",
+            "FACT_2": "Higher vitamin C intakes were associated with a lower likelihood of a wrinkled appearance, dryness of the skin, and a better skin-aging appearance",
+            "FACT_3": "Can increase your absorption of aluminum from medications containing aluminum",
+            "FACT_4": "Individuals who smoke require 35 mg/day more vitamin C than nonsmokers"
         },
         "CALCIUM": {
             "HEAD": "Ca",
