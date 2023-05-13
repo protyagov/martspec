@@ -390,8 +390,11 @@
     },
     "COPPER": {
         "LOGO": "/img/copper_logo.png",
-        "HEX": "",
+        "HEX": "D2691E",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 5,
+        "OVER_COUNT": 3,
+        "FACT_COUNT": 10,
         "DOSE_RDV": {
             "MALE": [220, 340, 440, 700, 890, 90, 900, 900],
             "FEMA": [220, 340, 440, 700, 890, 90, 900, 900, 1000, 1000, 1300, 1300]

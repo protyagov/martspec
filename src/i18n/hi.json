@@ -477,7 +477,26 @@
         "COPPER": {
             "HEAD": "Cu",
             "NAME": "ताँबा",
-            "DESK": "कॉपर एरिथ्रोसाइट्स (लाल रक्त कोशिकाओं) के निर्माण में शामिल है और कोलेजन का मुख्य घटक है।"
+            "DESK": "कॉपर एरिथ्रोसाइट्स (लाल रक्त कोशिकाओं) के निर्माण में शामिल है और कोलेजन का मुख्य घटक है।",
+            "FUNC": "Maintaining blood vessels. Supporting immune system. Assisting various enzymes to produce energy for the body. Breaking down and absorb iron. Building red blood cells, collagen, connective tissue, and brain neurotransmitters. Assisting normal brain development and immune functions.",
+            "DEF_1": "Anemia",
+            "DEF_2": "High cholesterol",
+            "DEF_3": "Osteoporosis, bone fractures",
+            "DEF_4": "Increased infections",
+            "DEF_5": "Loss of skin pigment",
+            "OVER_1": "Body is efficient at excreting excess copper and overdose is rare",
+            "OVER_2": "Stomach pain, severe thirst, and diarrhea",
+            "OVER_3": "Liver damage",
+            "FACT_1": "Our organism cannot produce copper",
+            "FACT_2": "Abnormal copper levels result from genetic mutations or aging",
+            "FACT_3": "People who take high amounts of zinc, iron, or vitamin C may need more copper",
+            "FACT_4": "May also act as an antioxidant",
+            "FACT_5": "Animal studies: Taking copper by mouth may help prevent and slow arthritis, but evidence in humans is lacking",
+            "FACT_6": "There is some slight evidence that taking copper along with zinc, manganese, and calcium might help slow the rate of bone loss among postmenopausal women",
+            "FACT_7": "Human studies have found that taking high levels of zinc supplements over long periods of time may lower the body's ability to absorb copper",
+            "FACT_8": "A study have found higher copper levels not bound to enzymes in damaged parts of brain in people with dementia. More research is needed",
+            "FACT_9": "Copper helps carry oxygen to your brain",
+            "FACT_10": "Brain has some of the highest levels of copper in your body"
         },
         "IODINE": {
             "HEAD": "I",
