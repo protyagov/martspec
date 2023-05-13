@@ -494,8 +494,11 @@
     },
     "MANGANESE": {
         "LOGO": "/img/manganese_logo.png",
-        "HEX": "",
+        "HEX": "E65C9C",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 10,
+        "OVER_COUNT": 6,
+        "FACT_COUNT": 4,
         "DOSE_RDV": {
             "MALE": [0.6, 1.2, 1.5, 1.9, 2.2, 2.3, 2.3, 2.3],
             "FEMA": [0.6, 1.2, 1.5, 1.6, 1.6, 1.8, 1.8, 1.8, 2.0, 2.0, 2.6, 2.6]
