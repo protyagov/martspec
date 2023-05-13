@@ -79,8 +79,11 @@
     },
     "VITAMIN_K": {
         "LOGO": "/img/vitamin_k_logo.png",
-        "HEX": "",
+        "HEX": "1ABB9C",
         "TYPE": "VITAMIN_FAT",
+        "DEF_COUNT": 2,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 4,
         "DOSE_RDV": {
             "MALE": [2.5, 30, 55, 60, 75, 120, 120, 120],
             "FEMA": [2.5, 30, 55, 60, 75, 90, 90, 90, 75, 90, 75, 90]

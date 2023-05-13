@@ -261,7 +261,15 @@
         "VITAMIN_K": {
             "HEAD": "K",
             "NAME": "филлохинон, менахинон",
-            "DESK": "Витамин К помогает вырабатывать особые белки, необходимые для свёртывания крови и построения костей."
+            "DESK": "Витамин К помогает вырабатывать особые белки, необходимые для свёртывания крови и построения костей.",
+            "FUNC": "Synthesis of proteins. Participation in blood clotting and bone metabolism, and other diverse physiological functions.",
+            "DEF_1": "Bleedings",
+            "DEF_2": "Osteoporosis (brittle bones)",
+            "OVER_1": "No evidence of any risks",
+            "FACT_1": "Antibiotics block vitamin K metabolism",
+            "FACT_2": "Because vitamin K is fat-soluble, it is best to eat vitamin K foods with some fat to improve absorption",
+            "FACT_3": "Vitamin K transport across the placenta is poor, increasing the risk of vitamin K deficiency in newborn babies",
+            "FACT_4": "A study found that 180 mcg/day for 3 years improved bone strength and decreased the loss in spine height"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
