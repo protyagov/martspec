@@ -611,7 +611,15 @@
         "MOLYBDENUM": {
             "HEAD": "Mo",
             "NAME": "मोलिब्डेनम",
-            "DESK": "मोलिब्डेनम कई एंजाइमों का एक हिस्सा है। यह नाइट्रोजन आत्मसात में भाग लेता है, दांतों के इनेमल को मजबूत करता है और नपुंसकता को भी रोकता है।"
+            "DESK": "मोलिब्डेनम कई एंजाइमों का एक हिस्सा है। यह नाइट्रोजन आत्मसात में भाग लेता है, दांतों के इनेमल को मजबूत करता है और नपुंसकता को भी रोकता है।",
+            "FUNC": "Processing proteins and genetic material like DNA. Helping break down drugs, alcohol and toxic substances.",
+            "DEF_1": "No obvious signs",
+            "OVER_1": "Achy joints",
+            "OVER_2": "Gout-like symptoms",
+            "OVER_3": "Elevated levels of uric acid",
+            "FACT_1": "Breaking down purines and sulfites. Sulfites are a preservative added to certain foods to maintain color and shelf-life; some people develop a sensitivity to sulfites, causing an allergic reaction",
+            "FACT_2": "The kidneys are the main regulators of molybdenum levels",
+            "FACT_3": "Adults absorb 40% to 100% of dietary molybdenum. Infants absorb almost all of the molybdenum in breast milk"
         },
         "PHOSPHORUS": {
             "HEAD": "P",

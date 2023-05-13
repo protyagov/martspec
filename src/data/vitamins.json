@@ -520,8 +520,11 @@
     },
     "MOLYBDENUM": {
         "LOGO": "/img/molybdenum_logo.png",
-        "HEX": "",
+        "HEX": "7BC043",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 1,
+        "OVER_COUNT": 3,
+        "FACT_COUNT": 3,
         "DOSE_RDV": {
             "MALE": [3, 17, 22, 34, 43, 45, 45, 45],
             "FEMA": [3, 17, 22, 34, 43, 45, 45, 45, 50, 50, 50, 50]
