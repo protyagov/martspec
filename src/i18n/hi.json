@@ -443,7 +443,18 @@
         "CHLORIDE": {
             "HEAD": "Cl",
             "NAME": "क्लोरीन",
-            "DESK": "क्लोरीन गैस्ट्रिक जूस को रिलीज करने में मदद करता है और अच्छी भूख बनाता है। यह ऊतकों में पानी बनाए रखता है, शरीर को नमी खोने से रोकता है।"
+            "DESK": "क्लोरीन गैस्ट्रिक जूस को रिलीज करने में मदद करता है और अच्छी भूख बनाता है। यह ऊतकों में पानी बनाए रखता है, शरीर को नमी खोने से रोकता है।",
+            "FUNC": "Regulating the amount of fluid and types of nutrients going in and out of the cells (osmotic pressure of body fluids 🥤). Maintaining proper acid-base balance (pH level). Triggering stomach acid needed for digestion. Stimulating the action of nerve and muscle cells. Initiating the flow of oxygen and carbon dioxide.",
+            "DEF_1": "High blood pH level",
+            "DEF_2": "Apathy",
+            "DEF_3": "Confusion",
+            "DEF_4": "Irregular heart rate",
+            "DEF_5": "Cramps in muscles and nerves",
+            "OVER_1": "Increased your blood pressure",
+            "OVER_2": "Muscle weakness & Fatigue",
+            "FACT_1": "Table salt is major contributor of chloride in our diet, is made of 60% Chloride and 40% of Sodium",
+            "FACT_2": "Deficiency can occur when your body loses a lot of fluids. This may be due to heavy sweating, vomiting, or diarrhea",
+            "FACT_3": "1 gram of table salt is about 600 milligrams chloride. The minimum requirement for chloride for an adult is about 700 milligrams per day"
         },
         "CHROME": {
             "HEAD": "Cr",

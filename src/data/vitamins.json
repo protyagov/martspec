@@ -341,11 +341,11 @@
     },
     "CHLORIDE": {
         "LOGO": "/img/chloride_logo.png",
-        "HEX": "",
+        "HEX": "008631",
         "TYPE": "MINERAL",
-        "DEF_COUNT": 3,
-        "OVER_COUNT": 1,
-        "FACT_COUNT": 6,
+        "DEF_COUNT": 5,
+        "OVER_COUNT": 2,
+        "FACT_COUNT": 3,
         "DOSE_RDV": {
             "MALE": [450, 600, 750, 1400, 2150, 2300, 2300, 2300],
             "FEMA": [450, 600, 750, 1400, 2150, 2300, 2300, 2300, 2300, 2300, 2300, 2300]
