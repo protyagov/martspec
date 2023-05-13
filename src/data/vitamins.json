@@ -647,8 +647,11 @@
     },
     "ZINC": {
         "LOGO": "/img/zinc_logo.png",
-        "HEX": "",
+        "HEX": "04DD71",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 7,
+        "OVER_COUNT": 9,
+        "FACT_COUNT": 10,
         "DOSE_RDV": {
             "MALE": [3, 3, 5, 8, 11, 11, 11, 11],
             "FEMA": [3, 3, 5, 8, 9, 8, 8, 8, 12, 11, 13, 12]
