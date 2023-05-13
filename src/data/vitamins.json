@@ -442,8 +442,11 @@
     },
     "IRON": {
         "LOGO": "/img/iron_logo.png",
-        "HEX": "",
+        "HEX": "AD3816",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 8,
+        "OVER_COUNT": 6,
+        "FACT_COUNT": 11,
         "DOSE_RDV": {
             "MALE": [11, 7, 10, 8, 11, 8, 8, 8],
             "FEMA": [11, 7, 10, 8, 15, 18, 8, 8, 27, 27, 10, 9]
