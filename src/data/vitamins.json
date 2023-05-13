@@ -595,8 +595,11 @@
     },
     "SELENIUM": {
         "LOGO": "/img/selenium_logo.png",
-        "HEX": "",
+        "HEX": "D40000",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 7,
+        "OVER_COUNT": 5,
+        "FACT_COUNT": 9,
         "DOSE_RDV": {
             "MALE": [20, 20, 30, 40, 55, 55, 55, 55],
             "FEMA": [20, 20, 30, 40, 55, 55, 55, 55, 60, 60, 60, 60]
