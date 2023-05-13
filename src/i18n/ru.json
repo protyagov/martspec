@@ -336,7 +336,21 @@
         "VITAMIN_B6": {
             "HEAD": "B6",
             "NAME": "пиридоксин",
-            "DESK": "Регулирует обмен белков, метаболизм железа и его транспортировку в клетки костного мозга и другие ткани."
+            "DESK": "Регулирует обмен белков, метаболизм железа и его транспортировку в клетки костного мозга и другие ткани.",
+            "FUNC": "Energy production from carbohydrates, fats, and proteins. Red blood cells creation. Keeping cells healthy. Immune function. Brain health. Creation of neurotransmitters (chemical messengers in the brain). Regulation of brain use of energy.",
+            "DEF_1": "Immune system weakening",
+            "DEF_2": "Nerve damage, usually in the hands and feet",
+            "DEF_3": "Anemia",
+            "DEF_4": "Depression and confusion",
+            "DEF_5": "Obesity, alcohol, estrogens or steroid consumption might lead to a deficiency",
+            "OVER_1": "Numbness",
+            "OVER_2": "Heartburn and nausea",
+            "OVER_3": "Loss of control of body movements",
+            "FACT_1": "Improves older adult's memory",
+            "FACT_2": "Does NOT improve cognition or mood",
+            "FACT_3": "May help with mild symptoms of nausea and vomiting during pregnancy",
+            "FACT_4": "May help against the harmful effects of air pollution",
+            "FACT_5": "The body does not store vitamin B6 and releases any excess in urine, so people need to get enough vitamin B6 every day"
         },
         "VITAMIN_B7": {
             "HEAD": "B7",
