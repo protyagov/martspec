@@ -5,6 +5,7 @@ import P4WaistLine from "./landing/p4-waist";
 import P1Electrolyte from "./landing/p1-electrolyte";
 import P2bodymass from "./landing/p2-mass";
 import Vitamin from "./landing/vitamin";
+import VitaminElement from "./landing/vitamin-element";
 import PrivacyPolicy from "./landing/private-policy";
 import { Locale } from "src/i18n/locale";
 import P5BodyZinc from "./landing/p5-bodyzinc";
@@ -25,8 +26,10 @@ export function App() {
 
     if (redirect.length > 1)
         redirect = redirect.replace(/\/$/, "");
+    
+    const url = Locale.setLanguageFromUrl(redirect); 
 
-    switch (Locale.setLanguageFromUrl(redirect)) {
+    switch (url) {
         case "/":
             return <MainPage />;
         case "/electrolyte":
@@ -52,6 +55,10 @@ export function App() {
         case "/team":
             return <Team />
         default:
+            const [, pagePath, currentPath] = url.split("/");
+            
+            if (pagePath == "vitamin") return <VitaminElement id={currentPath} />;
+        
             return <Error_404 />;
     }
 }

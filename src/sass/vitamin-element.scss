@@ -1,0 +1,155 @@
+.vitamin-element {
+  $main-font-size: 1.4rem;
+
+  *:not(h1) {
+    color: $ms-color-text-darker;
+  }
+
+  h1 {
+    &::first-letter {
+      text-transform: capitalize !important;
+    }
+  }
+
+  h2,
+  h3 {
+    font-family: os6;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  p {
+    font-family: os4;
+    font-size: $main-font-size;
+  }
+
+  .header {
+    position: relative;
+    margin-top: 0;
+
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: var(--vitamin-bg-color);
+      opacity: .07;
+    }
+  }
+
+  .vit-type {
+    $py: 7px;
+    $px: 34px;
+
+    font-size: $main-font-size;
+
+    button {
+      width: max-content;
+
+      background-color: transparent;
+      border: 2px solid #EAB839;
+      border-radius: 100px;
+      padding: $py $px;
+  
+      font-family: os6;
+    }
+
+    .collapse-content {    
+      background-color: #FCF4E1;
+      margin-top: $main-font-size;
+      font-family: os4;
+
+      .content-padding {
+        padding: $py $px;
+      }
+    }
+    
+  }
+
+  .vit-def,
+  .vit-over,
+  .vit-facts {
+    ul > * {
+      font-size: 1.2rem;
+      font-family: os4;
+    }
+    li {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .vit-def {
+    h3 {
+      $c: #2387D8;
+  
+      color: $c;
+      border-bottom: 2px solid $c;
+      text-align: center;
+    }
+  }
+
+  .vit-over {
+    h3 {
+      $c: #FF6584;
+
+      color: $c;
+      border-bottom: 2px solid $c;
+      text-align: center;
+    }
+  }
+
+  .vit-table {
+    font-size: 1.2rem;
+    font-family: os4;
+
+    * {
+      border-color: #CAC6C6;
+    }
+
+    thead {
+      background-color: #EDEDED;
+    }
+  }
+
+  .vit-charts {
+    td {
+      width: 1%;
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+    .chart-container {
+      width: 100%;
+    }
+    .chart {
+      height: 1rem;
+
+      background-color: #3BBB00;
+      opacity: .45;
+    }
+  }
+
+  .vit-facts {
+    li {
+      display: flex;
+      align-items: center;
+      line-height: 2.2rem;
+
+      &::marker {
+        list-style-type: none;
+      }
+      &::before {
+        content: "●";
+        color: #A7E08C;
+        font-size: 250%;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
