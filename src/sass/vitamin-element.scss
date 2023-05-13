@@ -5,6 +5,12 @@
     color: $ms-color-text-darker;
   }
 
+  h1 {
+    &::first-letter {
+      text-transform: capitalize !important;
+    }
+  }
+
   h2,
   h3 {
     font-family: os6;
