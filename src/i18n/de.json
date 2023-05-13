@@ -321,7 +321,17 @@
         "VITAMIN_B5": {
             "HEAD": "B5",
             "NAME": "Pantothensäure",
-            "DESK": "Pantothensäure ist am Abbau und der Assimilation von Fetten, Proteinen und Kohlenhydraten beteiligt."
+            "DESK": "Pantothensäure ist am Abbau und der Assimilation von Fetten, Proteinen und Kohlenhydraten beteiligt.",
+            "FUNC": "Energy production from carbohydrates, proteins, and lipids. Maintenance of healthy skin. Production of red blood cells, as well as sex and stress-related hormones.",
+            "DEF_1": "Is present in almost all foods,- deficiency is rare",
+            "DEF_2": "Difficult to identify",
+            "DEF_3": "Experiment on mice showed skin irritation and graying of the fur",
+            "OVER_1": "Not known to be toxic in humans",
+            "OVER_2": "Gastrointestinal side effects",
+            "OVER_3": "Might compete with biotin for intestinal and cellular uptake",
+            "FACT_1": "May speed wound healing",
+            "FACT_2": "Moisturizing effects on the skin",
+            "FACT_3": "May lower cholesterol and fats in the blood"
         },
         "VITAMIN_B6": {
             "HEAD": "B6",
