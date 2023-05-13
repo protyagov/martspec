@@ -621,8 +621,11 @@
     },
     "SODIUM": {
         "LOGO": "/img/sodium_logo.png",
-        "HEX": "",
+        "HEX": "5997FA",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 5,
+        "OVER_COUNT": 3,
+        "FACT_COUNT": 7,
         "DOSE_RDV": {
             "MALE": [200, 400, 500, 900, 1400, 1500, 1500, 1500],
             "FEMA": [200, 400, 500, 900, 1400, 1500, 1500, 1500, 1500, 1500, 1500, 1500]

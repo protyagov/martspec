@@ -708,7 +708,23 @@
         "SODIUM": {
             "HEAD": "Na",
             "NAME": "सोडियम",
-            "DESK": "शरीर में जल-नमक संतुलन, रक्तचाप नियमन, नसों और मांसपेशियों के कामकाज को बनाए रखने के लिए सोडियम आवश्यक है।"
+            "DESK": "शरीर में जल-नमक संतुलन, रक्तचाप नियमन, नसों और मांसपेशियों के कामकाज को बनाए रखने के लिए सोडियम आवश्यक है।",
+            "FUNC": "Maintaining normal fluid levels outside of cells. Major component of maintaining blood pressure. Needed for nerves, muscles, and other body tissues to work properly. It is an electrolyte.",
+            "DEF_1": "Depends on balance of water to sodium in body. When amount of sodium drops or amount of water increases we would end up with sodium deficiency",
+            "DEF_2": "Headache, confusion, irritability, restlessness",
+            "DEF_3": "Loss of appetite",
+            "DEF_4": "Convulsions, fatigue, muscle weakness, spasms, or cramps",
+            "DEF_5": "Nausea, vomiting",
+            "OVER_1": "Feel more bloated or puffy than usual",
+            "OVER_2": "Rise in blood pressure",
+            "OVER_3": "Dry mouth or feel very thirsty",
+            "FACT_1": "Potassium, its counterpart, maintains normal fluid levels inside of cells",
+            "FACT_2": "When the amount of sodium in fluids outside cells drops below normal, water moves into the cells to balance the levels. This causes the cells to swell with too much water. Brain cells are especially sensitive to swelling, and this causes many of the symptoms of low sodium",
+            "FACT_3": "9 out of 10 people in U.S. will develop hypertension at some point in their lives",
+            "FACT_4": "Reducing the average daily sodium intake in the U.S. to 2,300 milligrams (about 1 teaspoon of salt) per day would prevent 11 million cases of hypertension",
+            "FACT_5": "Currently, there is no limit on the amount of sodium allowed in foods",
+            "FACT_6": "Finland and the United Kingdom have led successful sodium reduction efforts",
+            "FACT_7": "Usually girls consumed significantly less sodium than boys"
         },
         "ZINC": {
             "HEAD": "Zn",
