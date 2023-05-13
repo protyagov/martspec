@@ -367,8 +367,11 @@
     },
     "CHROME": {
         "LOGO": "/img/chrome_logo.png",
-        "HEX": "",
+        "HEX": "00BCD4",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 1,
+        "OVER_COUNT": 5,
+        "FACT_COUNT": 6,
         "DOSE_RDV": {
             "MALE": [5.5, 11, 15, 25, 35, 35, 30, 30],
             "FEMA": [5.5, 11, 15, 21, 24, 25, 20, 20, 29, 30, 44, 45]

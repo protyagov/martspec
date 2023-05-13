@@ -459,7 +459,20 @@
         "CHROME": {
             "HEAD": "Cr",
             "NAME": "クロム",
-            "DESK": "クロムは正常な脂肪代謝に不可欠です。この要素が不足すると、太りすぎや肥満につながります。"
+            "DESK": "クロムは正常な脂肪代謝に不可欠です。この要素が不足すると、太りすぎや肥満につながります。",
+            "FUNC": "Enhances the action of the hormone insulin. It is also involved in the breakdown and absorption of carbohydrate, proteins, and fats.",
+            "DEF_1": "Diets high in refined sugars can cause more chromium to be excreted in the urine",
+            "OVER_1": "Very rare",
+            "OVER_2": "Weight loss, anemia",
+            "OVER_3": "Liver dysfunction and renal failure",
+            "OVER_4": "Dermatitis",
+            "OVER_5": "Deficiency of glucose",
+            "FACT_1": "Poorly absorbed, at most 5% get absorbed in the gut",
+            "FACT_2": "Vitamin C and B3 (niacin) improve the absorption of chromium",
+            "FACT_3": "One of the most common elements in the earth",
+            "FACT_4": "One small study suggests that chromium may reduce the risk of insulin resistance, however, findings are inconsistent",
+            "FACT_5": "A study on women with Polycystic ovary syndrome showed that CR significantly reduce body mass index (BMI) and free testosterone levels",
+            "FACT_6": "Chromium supplementation has no effect on body weight or lipids. However, a study suggests chromium picolinate might reduces body weight and body fat percentage. More research is needed"
         },
         "COPPER": {
             "HEAD": "Cu",
