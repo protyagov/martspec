@@ -217,8 +217,11 @@
     },
     "VITAMIN_B7": {
         "LOGO": "/img/vitamin_b7_logo.png",
-        "HEX": "",
+        "HEX": "2A9E01",
         "TYPE": "VITAMIN_WATER",
+        "DEF_COUNT": 2,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 5,
         "DOSE_RDV": {
             "MALE": [6, 8, 12, 20, 25, 30, 30, 30],
             "FEMA": [6, 8, 12, 20, 25, 30, 30, 30, 30, 30, 35, 35]

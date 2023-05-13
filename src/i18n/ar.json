@@ -353,7 +353,16 @@
         "VITAMIN_B7": {
             "HEAD": "B7",
             "NAME": "البيوتين",
-            "DESK": "يسمى البيوتين فيتامين الجمال لما له من تأثير إيجابي على حالة الشعر والجلد والأظافر."
+            "DESK": "يسمى البيوتين فيتامين الجمال لما له من تأثير إيجابي على حالة الشعر والجلد والأظافر.",
+            "FUNC": "Accelerates critical steps of energy production from fatty acids, glucose, and amino acids. Plays key roles in histone modifications, gene regulation, and cell signaling.",
+            "DEF_1": "Rash around the eyes, nose, mouth, and genital area",
+            "DEF_2": "Thinning hair or hair loss, skin or nail problems",
+            "OVER_1": "Not known to be toxic in humans even with high intakes",
+            "FACT_1": "Biotin + Chromium combination might improve blood sugar control",
+            "FACT_2": "May help restore the sense of taste",
+            "FACT_3": "Promote healthy hair, skin, and nails",
+            "FACT_4": "Developing fetus require biotin for a healthy pregnancy",
+            "FACT_5": "A study in 23 patients with progressive multiple sclerosis found high doses of biotin (100-600 mg/day) to be associated with sustained clinical improvements in 5 out of 5 patients with progressive visual loss; and 16 out of 18 patients with partial paralysis of the limbs"
         },
         "VITAMIN_B9": {
             "HEAD": "B9",
