@@ -572,8 +572,11 @@
     },
     "POTASSIUM": {
         "LOGO": "/img/potassium_logo.png",
-        "HEX": "",
+        "HEX": "FF9500",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 7,
+        "OVER_COUNT": 5,
+        "FACT_COUNT": 12,
         "DOSE_RDV": {
             "MALE": [860, 2000, 2300, 2500, 3000, 3400, 3400, 3400],
             "FEMA": [860, 2000, 2300, 2300, 2300, 2600, 2600, 2600, 2600, 2900, 2500, 2800]
