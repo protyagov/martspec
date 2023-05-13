@@ -501,7 +501,23 @@
         "IODINE": {
             "HEAD": "I",
             "NAME": "Jod",
-            "DESK": "Jod ist wichtig für das reibungslose Funktionieren der Schilddrüse."
+            "DESK": "Jod ist wichtig für das reibungslose Funktionieren der Schilddrüse.",
+            "FUNC": "Required to make thyroid hormones, which are essential for normal metabolism, growth and development.",
+            "DEF_1": "Hypothyroidism (low thyroid hormone levels) - in children can affect physical and mental development",
+            "DEF_2": "Fatigue",
+            "DEF_3": "Weight gain",
+            "DEF_4": "Dry skin",
+            "DEF_5": "Sensitivity to temperature changes",
+            "DEF_6": "Happens more often in women than in men",
+            "DEF_7": "Enlarged thyroid gland",
+            "OVER_1": "Usually well-tolerated in most healthy people",
+            "OVER_2": "Hyperthyroidism syndrome that leads to weight loss, fast heartbeat and sweatiness",
+            "FACT_1": "70 to 80% of iodine is found in the thyroid gland in the neck",
+            "FACT_2": "Our bodies cannot produce iodine",
+            "FACT_3": "Used to disinfect the skin and clean wounds",
+            "FACT_4": "Should be taken after exposure to radiation to reduce the risk of thyroid cancer",
+            "FACT_5": "Moderate-to-severe iodine deficiency, particularly in children, reduces IQ by about 12–13.5 points",
+            "FACT_6": "65% of the women with Fibrocystic breast disease receiving iodine reported decreased pain"
         },
         "IRON": {
             "HEAD": "Fe",

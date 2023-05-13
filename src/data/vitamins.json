@@ -416,8 +416,11 @@
     },
     "IODINE": {
         "LOGO": "/img/iodine_logo.png",
-        "HEX": "",
+        "HEX": "BA55D3",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 7,
+        "OVER_COUNT": 2,
+        "FACT_COUNT": 6,
         "DOSE_RDV": {
             "MALE": [130, 90, 90, 120, 150, 150, 150, 150],
             "FEMA": [130, 90, 90, 120, 150, 150, 150, 150, 220, 220, 290, 290]
