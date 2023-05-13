@@ -1,0 +1,674 @@
+{
+    "VITAMIN_A": {
+        "LOGO": "/img/vitamin_a_logo.png",
+        "HEX": "FF7215",
+        "TYPE": "VITAMIN_FAT",
+        "DEF_COUNT": 5,
+        "OVER_COUNT": 5,
+        "FACT_COUNT": 4,
+        "DOSE_RDV": {
+            "MALE": [500, 300, 400, 600, 900, 900, 900, 900],
+            "FEMA": [500, 300, 400, 600, 700, 700, 700, 700, 750, 770, 1200, 1300]
+        },
+        "DOSE_UL": {
+            "MALE": [600, 600, 900, 1700, 2800, 3000, 3000, 3000],
+            "FEMA": [600, 600, 900, 1700, 2800, 3000, 3000, 3000, 2800, 3000, 2800, 3000]
+        },
+        "FOOD_100G": {
+            "FOOD_BUTTER": 859,
+            "FOOD_CARROT": 835,
+            "FOOD_APRICOT": 579,
+            "FOOD_PARSLEY": 421,
+            "FOOD_CHEESE_SW": 305,
+            "FOOD_PAPAYA": 285,
+            "FOOD_BROCCOLI": 187,
+            "FOOD_EGG": 140
+        }
+    },
+    "VITAMIN_D": {
+        "LOGO": "/img/vitamin_d_logo.png",
+        "HEX": "696FFF",
+        "TYPE": "VITAMIN_FAT",
+        "DEF_COUNT": 6,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 6,
+        "DOSE_RDV": {
+            "MALE": [10, 15, 15, 15, 15, 15, 15, 20],
+            "FEMA": [10, 15, 15, 15, 15, 15, 15, 20, 15, 15, 15, 15]
+        },
+        "DOSE_UL": {
+            "MALE": [25, 63, 75, 100, 100, 100, 100, 100],
+            "FEMA": [25, 63, 75, 100, 100, 100, 100, 100, 100, 100]
+        },
+        "FOOD_100G": {
+            "FOOD_BUTTER": 18,
+            "FOOD_SALMON": 13,
+            "FOOD_SARDINES": 4.8,
+            "FOOD_EGG": 2.46,
+            "FOOD_MILK": 1.2,
+            "FOOD_CHEESE_SW": 0.6,
+            "FOOD_MASHROOM": 0.2,
+            "FOOD_CHICKEN": 0.1
+        }
+    },
+    "VITAMIN_E": {
+        "LOGO": "/img/vitamin_e_logo.png",
+        "HEX": "FFCC33",
+        "TYPE": "VITAMIN_FAT",
+        "DEF_COUNT": 5,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 12,
+        "DOSE_RDV": {
+            "MALE": [5, 6, 7, 11, 15, 15, 15, 15],
+            "FEMA": [5, 6, 7, 11, 15, 15, 15, 15, 15, 15, 19, 19]
+        },
+        "DOSE_UL": {
+            "MALE": [0, 200, 300, 600, 800, 1000, 1000, 1000],
+            "FEMA": [0, 200, 300, 600, 800, 1000, 1000, 1000, 800, 1000, 800, 1000]
+        },
+        "FOOD_100G": {
+            "FOOD_SUNFLOWER": 35.2,
+            "FOOD_ALMOND": 25.6,
+            "FOOD_HAZELNUT": 15,
+            "FOOD_OLIVE_OIL": 14.4,
+            "FOOD_PINENUTS": 9.3,
+            "FOOD_PEANUT": 8.3,
+            "FOOD_MANGO": 2.9,
+            "FOOD_KIVI": 1.5
+        }
+    },
+    "VITAMIN_K": {
+        "LOGO": "/img/vitamin_k_logo.png",
+        "HEX": "1ABB9C",
+        "TYPE": "VITAMIN_FAT",
+        "DEF_COUNT": 2,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 4,
+        "DOSE_RDV": {
+            "MALE": [2.5, 30, 55, 60, 75, 120, 120, 120],
+            "FEMA": [2.5, 30, 55, 60, 75, 90, 90, 90, 75, 90, 75, 90]
+        },
+        "DOSE_UL": null,
+        "FOOD_100G": {
+            "FOOD_PARSLEY": 1640,
+            "FOOD_ONION": 207,
+            "FOOD_BROCCOLI": 102,
+            "FOOD_CABBAGE": 76,
+            "FOOD_PINENUTS": 54,
+            "FOOD_ASPARAGUS": 42,
+            "FOOD_CARROT": 15,
+            "FOOD_GRAPE": 14
+        }
+    },
+    "VITAMIN_B1": {
+        "LOGO": "/img/vitamin_b1_logo.png",
+        "HEX": "00A0FF",
+        "TYPE": "VITAMIN_WATER",
+        "DEF_COUNT": 3,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 3,
+        "DOSE_RDV": {
+            "MALE": [0.3, 0.5, 0.6, 0.9, 1.2, 1.2, 1.2, 1.2],
+            "FEMA": [0.3, 0.5, 0.6, 0.9, 1.0, 1.1, 1.1, 1.1, 1.4, 1.4, 1.4, 1.4]
+        },
+        "DOSE_UL": null,
+        "FOOD_100G": {
+            "FOOD_FLAX": 1.6,
+            "FOOD_SUNFLOWER": 1.5,
+            "FOOD_SESAME": 0.8,
+            "FOOD_PORK": 0.4,
+            "FOOD_HAZELNUT": 0.4,
+            "FOOD_SALMON": 0.23,
+            "FOOD_ALMOND": 0.2,
+            "FOOD_TOFU": 0.2
+        }
+    },
+    "VITAMIN_B2": {
+        "LOGO": "/img/vitamin_b2_logo.png",
+        "HEX": "93C400",
+        "TYPE": "VITAMIN_WATER",
+        "DEF_COUNT": 6,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 5,
+        "DOSE_RDV": {
+            "MALE": [0.4, 0.5, 0.6, 0.9, 1.3, 1.3, 1.3, 1.3],
+            "FEMA": [0.4, 0.5, 0.6, 0.9, 1.0, 1.1, 1.1, 1.1, 1.4, 1.4, 1.6, 1.6]
+        },
+        "DOSE_UL": null,
+        "FOOD_100G": {
+            "FOOD_ALMOND": 1.1,
+            "FOOD_CHEESE_CH": 0.5,
+            "FOOD_EGG": 0.4,
+            "FOOD_BEEF": 0.4,
+            "FOOD_PORK": 0.4,
+            "FOOD_MILK": 0.2,
+            "FOOD_MASHROOM": 0.4,
+            "FOOD_SALMON": 0.38
+        }
+    },
+    "VITAMIN_B3": {
+        "LOGO": "/img/vitamin_b3_logo.png",
+        "HEX": "FF7152",
+        "TYPE": "VITAMIN_WATER",
+        "DEF_COUNT": 4,
+        "OVER_COUNT": 3,
+        "FACT_COUNT": 3,
+        "DOSE_RDV": {
+            "MALE": [4, 6, 8, 12, 16, 16, 16, 16],
+            "FEMA": [4, 6, 8, 12, 14, 14, 14, 14, 18, 18, 17, 17]
+        },
+        "DOSE_UL": null,
+        "FOOD_100G": {
+            "FOOD_PEANUT": 12.1,
+            "FOOD_SUNFLOWER": 8.3,
+            "FOOD_SALMON": 7.9,
+            "FOOD_BEEF": 5.8,
+            "FOOD_PORK": 5.5,
+            "FOOD_CHICKEN": 5.5,
+            "FOOD_PUMPKIN": 5,
+            "FOOD_SESAME": 4.5
+        }
+    },
+    "VITAMIN_B5": {
+        "LOGO": "/img/vitamin_b5_logo.png",
+        "HEX": "E91E63",
+        "TYPE": "VITAMIN_WATER",
+        "DEF_COUNT": 3,
+        "OVER_COUNT": 3,
+        "FACT_COUNT": 3,
+        "DOSE_RDV": {
+            "MALE": [1.8, 2, 3, 4, 5, 5, 5, 5],
+            "FEMA": [1.8, 2, 3, 4, 5, 5, 5, 5, 6, 6, 7, 7]
+        },
+        "DOSE_UL": null,
+        "FOOD_100G": {
+            "FOOD_MASHROOM": 3.6,
+            "FOOD_PEANUT": 1.8,
+            "FOOD_AVOCADO": 1.4,
+            "FOOD_SUNFLOWER": 1.1,
+            "FOOD_CHICKEN": 1.1,        
+            "FOOD_BROCCOLI": 0.6,
+            "FOOD_BEEF": 0.5,
+            "FOOD_MILK": 0.4
+        }
+    },
+    "VITAMIN_B6": {
+        "LOGO": "/img/vitamin_b6_logo.png",
+        "HEX": "F99F38",
+        "TYPE": "VITAMIN_WATER",
+        "DEF_COUNT": 5,
+        "OVER_COUNT": 3,
+        "FACT_COUNT": 5,
+        "DOSE_RDV": {
+            "MALE": [0.3, 0.5, 0.6, 1.0, 1.3, 1.3, 1.7, 1.7],
+            "FEMA": [0.3, 0.5, 0.6, 1.0, 1.2, 1.2, 1.5, 1.5, 1.9, 1.9, 2.0, 2.0]
+        },
+        "DOSE_UL": null,
+        "FOOD_100G": {
+            "FOOD_SUNFLOWER": 1.3,
+            "FOOD_GARLIC": 1.2,
+            "FOOD_SESAME": 0.8,
+            "FOOD_BEEF": 0.7,
+            "FOOD_HAZELNUT": 0.6,
+            "FOOD_FLAX": 0.5,
+            "FOOD_LENTILS": 0.5,
+            "FOOD_BANANA": 0.2
+        }
+    },
+    "VITAMIN_B7": {
+        "LOGO": "/img/vitamin_b7_logo.png",
+        "HEX": "2A9E01",
+        "TYPE": "VITAMIN_WATER",
+        "DEF_COUNT": 2,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 5,
+        "DOSE_RDV": {
+            "MALE": [6, 8, 12, 20, 25, 30, 30, 30],
+            "FEMA": [6, 8, 12, 20, 25, 30, 30, 30, 30, 30, 35, 35]
+        },
+        "DOSE_UL": null,
+        "FOOD_100G": {
+            "FOOD_EGG": 20,
+            "FOOD_POTATO_SW": 19.2,
+            "FOOD_MASHROOM": 9,
+            "FOOD_SUNFLOWER": 7.8,
+            "FOOD_ALMOND": 4.4,
+            "FOOD_STRAWBERRY": 1.5,
+            "FOOD_BANANA": 0.2,
+            "FOOD_BROCCOLI": 0.8
+        }
+    },
+    "VITAMIN_B9": {
+        "LOGO": "/img/vitamin_b9_logo.png",
+        "HEX": "51A27F",
+        "TYPE": "VITAMIN_WATER",
+        "DEF_COUNT": 6,
+        "OVER_COUNT": 2,
+        "FACT_COUNT": 5,
+        "DOSE_RDV": {
+            "MALE": [80, 150, 200, 300, 400, 400, 400, 400],
+            "FEMA": [80, 150, 200, 300, 400, 400, 400, 400, 600, 600, 500, 500]
+        },
+        "DOSE_UL": {
+            "MALE": [0, 300, 400, 600, 800, 1000, 1000, 1000],
+            "FEMA": [0, 300, 400, 600, 800, 1000, 1000, 1000, 800, 1000, 800, 1000]
+        },
+        "FOOD_100G": {
+            "FOOD_BUTTER": 859,
+            "FOOD_CARROT": 835,
+            "FOOD_APRICOT": 579,
+            "FOOD_PARSLEY": 421,
+            "FOOD_CHEESE_SW": 305,
+            "FOOD_PAPAYA": 285,
+            "FOOD_BROCCOLI": 187,
+            "FOOD_EGG": 140
+        }
+    },
+    "VITAMIN_B12": {
+        "LOGO": "/img/vitamin_b12_logo.png",
+        "HEX": "FF1744",
+        "TYPE": "VITAMIN_WATER",
+        "DEF_COUNT": 6,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 5,
+        "DOSE_RDV": {
+            "MALE": [0.5, 0.9, 1.2, 1.8, 2.4, 2.4, 2.4, 2.4],
+            "FEMA": [0.5, 0.9, 1.2, 1.8, 2.4, 2.4, 2.4, 2.4, 2.6, 2.6, 2.8, 2.8]
+        },
+        "DOSE_UL": null,
+        "FOOD_100G": {
+            "FOOD_SARDINES": 8.9,
+            "FOOD_OYSTERS": 8.75,
+            "FOOD_BEEF": 4.21,
+            "FOOD_CRAB_BLUE": 3.3,
+            "FOOD_SALMON": 3.18,
+            "FOOD_CHEESE_SW": 3.02,
+            "FOOD_EGG": 1.4,
+            "FOOD_PORK": 1.1
+        }
+    },
+    "VITAMIN_C": {
+        "LOGO": "/img/vitamin_c_logo.png",
+        "HEX": "FD9A23",
+        "TYPE": "VITAMIN_WATER",
+        "DEF_COUNT": 7,
+        "OVER_COUNT": 4,
+        "FACT_COUNT": 4,
+        "DOSE_RDV": {
+            "MALE": [50, 15, 25, 45, 75, 90, 90, 90],
+            "FEMA": [50, 15, 25, 45, 65, 75, 75, 75, 80, 85, 115, 120]
+        },
+        "DOSE_UL": {
+            "MALE": [0, 400, 650, 1200, 1800, 2000, 2000, 2000],
+            "FEMA": [0, 400, 650, 1200, 1800, 2000, 2000, 2000, 1800, 2000]
+        },
+        "FOOD_100G": {
+            "FOOD_PARSLEY": 133,
+            "FOOD_PEPPER_G": 100,
+            "FOOD_KIVI": 93,
+            "FOOD_BROCCOLI": 89,
+            "FOOD_CABBAGE": 60,
+            "FOOD_STRAWBERRY": 60,
+            "FOOD_ORANGE": 38,
+            "FOOD_TOMATO": 20
+        }
+    },
+    "CALCIUM": {
+        "LOGO": "/img/calcium_logo.png",
+        "HEX": "FFC100",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 3,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 6,
+        "DOSE_RDV": {
+            "MALE": [260, 700, 1000, 1300, 1300, 1000, 1000, 1200],
+            "FEMA": [260, 700, 1000, 1300, 1300, 1000, 1200, 1200, 1300, 1000, 1300, 1000]
+        },
+        "DOSE_UL": {
+            "MALE": [1500, 2500, 2500, 3000, 2500, 2000, 2000, 2000],
+            "FEMA": [1500, 2500, 2500, 3000, 2500, 2000, 2000, 2000, 3000, 2500, 3000, 2500]
+        },
+        "FOOD_100G": {
+            "FOOD_SESAME": 975,
+            "FOOD_CHEESE_SW": 890,
+            "FOOD_TOFU": 683,
+            "FOOD_SARDINES": 382,
+            "FOOD_ALMOND": 262,
+            "FOOD_MILK": 113,
+            "FOOD_BROCCOLI": 46,
+            "FOOD_SALMON": 12
+        }
+    },
+    "CHLORIDE": {
+        "LOGO": "/img/chloride_logo.png",
+        "HEX": "008631",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 5,
+        "OVER_COUNT": 2,
+        "FACT_COUNT": 3,
+        "DOSE_RDV": {
+            "MALE": [450, 600, 750, 1400, 2150, 2300, 2300, 2300],
+            "FEMA": [450, 600, 750, 1400, 2150, 2300, 2300, 2300, 2300, 2300, 2300, 2300]
+        },
+        "DOSE_UL": {
+            "MALE": [450, 600, 750, 1400, 2150, 2300, 2300, 2300],
+            "FEMA": [450, 600, 750, 1400, 2150, 2300, 2300, 2300, 2300, 2300, 2300, 2300]
+        },
+        "FOOD_100G": {
+            "FOOD_SALT": 60000,
+            "FOOD_OLIVE_BR": 3000,
+            "FOOD_SALAMI": 2460,
+            "FOOD_CHEESE_PR": 1110,
+            "FOOD_BEEF_ST": 590,
+            "FOOD_CRAB": 570,
+            "FOOD_POTATO_BK": 80,
+            "FOOD_BANANA": 80
+        }
+    },
+    "CHROME": {
+        "LOGO": "/img/chrome_logo.png",
+        "HEX": "00BCD4",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 1,
+        "OVER_COUNT": 5,
+        "FACT_COUNT": 6,
+        "DOSE_RDV": {
+            "MALE": [5.5, 11, 15, 25, 35, 35, 30, 30],
+            "FEMA": [5.5, 11, 15, 21, 24, 25, 20, 20, 29, 30, 44, 45]
+        },
+        "DOSE_UL": null,
+        "FOOD_100G": {
+            "FOOD_OYSTERS": 57,
+            "FOOD_PEAR": 27,
+            "FOOD_TOMATO": 20,
+            "FOOD_MASHROOM": 17,
+            "FOOD_BROCCOLI": 16,
+            "FOOD_APPLE": 14,
+            "FOOD_CUCUMBER": 14,
+            "FOOD_HAZELNUT": 12
+        }
+    },
+    "COPPER": {
+        "LOGO": "/img/copper_logo.png",
+        "HEX": "D2691E",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 5,
+        "OVER_COUNT": 3,
+        "FACT_COUNT": 10,
+        "DOSE_RDV": {
+            "MALE": [220, 340, 440, 700, 890, 90, 900, 900],
+            "FEMA": [220, 340, 440, 700, 890, 90, 900, 900, 1000, 1000, 1300, 1300]
+        },
+        "DOSE_UL": {
+            "MALE": [0, 1000, 3000, 5000, 8000, 10000, 10000, 10000],
+            "FEMA": [0, 1000, 3000, 5000, 8000, 10000, 10000, 10000, 8000, 10000, 8000, 10000]
+        },
+        "FOOD_100G": {
+            "FOOD_SESAME": 4100,
+            "FOOD_SUNFLOWER": 1800,
+            "FOOD_FLAX": 1200,
+            "FOOD_ALMOND": 1000,
+            "FOOD_CRAB": 800,
+            "FOOD_MASHROOM": 300,
+            "FOOD_SALMON": 250,
+            "FOOD_PARSLEY": 100
+        }
+    },
+    "IODINE": {
+        "LOGO": "/img/iodine_logo.png",
+        "HEX": "BA55D3",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 7,
+        "OVER_COUNT": 2,
+        "FACT_COUNT": 6,
+        "DOSE_RDV": {
+            "MALE": [130, 90, 90, 120, 150, 150, 150, 150],
+            "FEMA": [130, 90, 90, 120, 150, 150, 150, 150, 220, 220, 290, 290]
+        },
+        "DOSE_UL": {
+            "MALE": [0, 200, 300, 600, 900, 1100, 1100, 1100],
+            "FEMA": [0, 200, 300, 600, 900, 1100, 1100, 1100, 900, 1100, 900, 1100]
+        },
+        "FOOD_100G": {
+            "FOOD_STRAWBERRY": 400,
+            "FOOD_FISH_HAD": 271,
+            "FOOD_SEAWEED": 198,
+            "FOOD_OYSTERS": 122,
+            "FOOD_CHEESE_SW": 66,
+            "FOOD_EGG": 47,
+            "FOOD_MILK": 42,
+            "FOOD_SHRIMP": 28
+        }
+    },
+    "IRON": {
+        "LOGO": "/img/iron_logo.png",
+        "HEX": "AD3816",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 8,
+        "OVER_COUNT": 6,
+        "FACT_COUNT": 11,
+        "DOSE_RDV": {
+            "MALE": [11, 7, 10, 8, 11, 8, 8, 8],
+            "FEMA": [11, 7, 10, 8, 15, 18, 8, 8, 27, 27, 10, 9]
+        },
+        "DOSE_UL": {
+            "MALE": [40, 40, 40, 40, 45, 45, 45, 45],
+            "FEMA": [40, 40, 40, 40, 45, 45, 45, 45, 45, 45, 45, 45]
+        },
+        "FOOD_100G": {
+            "FOOD_SESAME": 14.6,
+            "FOOD_LENTILS": 7.5,
+            "FOOD_OYSTERS": 7,
+            "FOOD_PISTACHIO": 7,
+            "FOOD_PARSLEY": 6.2,
+            "FOOD_FLAX": 5.7,
+            "FOOD_TOFU": 2.7,
+            "FOOD_BEEF": 2.6
+        }
+    },
+    "MAGNESIUM": {
+        "LOGO": "/img/magnesium_logo.png",
+        "HEX": "78AADC",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 9,
+        "OVER_COUNT": 6,
+        "FACT_COUNT": 11,
+        "DOSE_RDV": {
+            "MALE": [75, 80, 130, 240, 410, 415, 420, 420],
+            "FEMA": [75, 80, 130, 240, 360, 315, 320, 320, 400, 350, 360, 310]
+        },
+        "DOSE_UL": {
+            "MALE": [0, 65, 110, 350, 350, 350, 350, 350],
+            "FEMA": [0, 65, 110, 350, 350, 350, 350, 350, 350, 350, 350, 350]
+        },
+        "FOOD_100G": {
+            "FOOD_FLAX": 392,
+            "FOOD_SESAME": 351,
+            "FOOD_SUNFLOWER": 325,
+            "FOOD_ALMOND": 268,
+            "FOOD_PUMPKIN": 262,
+            "FOOD_PEANUT": 168,
+            "FOOD_BANANA": 27,
+            "FOOD_OATMEAL": 26
+        }
+    },
+    "MANGANESE": {
+        "LOGO": "/img/manganese_logo.png",
+        "HEX": "E65C9C",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 10,
+        "OVER_COUNT": 6,
+        "FACT_COUNT": 4,
+        "DOSE_RDV": {
+            "MALE": [0.6, 1.2, 1.5, 1.9, 2.2, 2.3, 2.3, 2.3],
+            "FEMA": [0.6, 1.2, 1.5, 1.6, 1.6, 1.8, 1.8, 1.8, 2.0, 2.0, 2.6, 2.6]
+        },
+        "DOSE_UL": {
+            "MALE": [0, 65, 110, 350, 350, 350, 350, 350],
+            "FEMA": [0, 65, 110, 350, 350, 350, 350, 350, 350, 350, 350, 350]
+        },
+        "FOOD_100G": {
+            "FOOD_PEANUT": 8.8,
+            "FOOD_HAZELNUT": 6.17,
+            "FOOD_PECAN": 4.5,
+            "FOOD_SESAME": 2.5,
+            "FOOD_FLAX": 2.5,
+            "FOOD_ALMOND": 2.2,
+            "FOOD_SUNFLOWER": 2,
+            "FOOD_PINEAPPLE": 0.9
+        }
+    },
+    "MOLYBDENUM": {
+        "LOGO": "/img/molybdenum_logo.png",
+        "HEX": "7BC043",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 1,
+        "OVER_COUNT": 3,
+        "FACT_COUNT": 3,
+        "DOSE_RDV": {
+            "MALE": [3, 17, 22, 34, 43, 45, 45, 45],
+            "FEMA": [3, 17, 22, 34, 43, 45, 45, 45, 50, 50, 50, 50]
+        },
+        "DOSE_UL": {
+            "MALE": [0, 300, 600, 1100, 1700, 2000, 2000, 2000],
+            "FEMA": [0, 300, 600, 1100, 1700, 2000, 2000, 2000, 1700, 2000, 1700, 2000]
+        },
+        "FOOD_100G": {
+            "FOOD_PEANUT": 200,
+            "FOOD_ALMOND": 45.3,
+            "FOOD_SUNFLOWER": 30,
+            "FOOD_RICE": 22,
+            "FOOD_POTATO_BK": 6.5,
+            "FOOD_EGG": 5.5,
+            "FOOD_CHEESE_CH": 5.2,
+            "FOOD_BANANA": 4.3
+        }
+    },
+    "PHOSPHORUS": {
+        "LOGO": "/img/phosphorus_logo.png",
+        "HEX": "E74C3C",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 8,
+        "OVER_COUNT": 4,
+        "FACT_COUNT": 9,
+        "DOSE_RDV": {
+            "MALE": [275, 460, 500, 1250, 1250, 700, 700, 700],
+            "FEMA": [275, 460, 500, 1250, 1250, 700, 700, 700, 1250, 700, 1250, 700]
+        },
+        "DOSE_UL": {
+            "MALE": [0, 3000, 3000, 4000, 4000, 4000, 4000, 3000],
+            "FEMA": [0, 3000, 3000, 4000, 4000, 4000, 4000, 3000, 3500, 3500, 4000, 4000]
+        },
+        "FOOD_100G": {
+            "FOOD_CHEESE_SW": 574,
+            "FOOD_LENTILS": 281,
+            "FOOD_BEEF": 259,
+            "FOOD_SALMON": 200,
+            "FOOD_CHICKEN": 184,
+            "FOOD_MILK": 84,
+            "FOOD_POTATO_BK": 55,
+            "FOOD_APPLE": 20
+        }
+    },
+    "POTASSIUM": {
+        "LOGO": "/img/potassium_logo.png",
+        "HEX": "FF9500",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 7,
+        "OVER_COUNT": 5,
+        "FACT_COUNT": 12,
+        "DOSE_RDV": {
+            "MALE": [860, 2000, 2300, 2500, 3000, 3400, 3400, 3400],
+            "FEMA": [860, 2000, 2300, 2300, 2300, 2600, 2600, 2600, 2600, 2900, 2500, 2800]
+        },
+        "DOSE_UL": null,
+        "FOOD_100G": {
+            "FOOD_PISTACHIO": 1025,
+            "FOOD_ALMOND": 733,
+            "FOOD_LENTILS": 677,
+            "FOOD_PARSLEY": 554,
+            "FOOD_POTATO_BK": 544,
+            "FOOD_SALMON": 490,
+            "FOOD_BANANA": 358,
+            "FOOD_APRICOT": 259
+        }
+    },
+    "SELENIUM": {
+        "LOGO": "/img/selenium_logo.png",
+        "HEX": "D40000",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 7,
+        "OVER_COUNT": 5,
+        "FACT_COUNT": 9,
+        "DOSE_RDV": {
+            "MALE": [20, 20, 30, 40, 55, 55, 55, 55],
+            "FEMA": [20, 20, 30, 40, 55, 55, 55, 55, 60, 60, 60, 60]
+        },
+        "DOSE_UL": {
+            "MALE": [50, 90, 150, 280, 400, 400, 400, 400],
+            "FEMA": [50, 90, 150, 280, 400, 400, 400, 400, 400, 400, 400, 400]
+        },
+        "FOOD_100G": {
+            "FOOD_SUNFLOWER": 53,
+            "FOOD_SARDINES": 52.7,
+            "FOOD_SHRIMP": 49.5,
+            "FOOD_CRAB_BLUE": 43,
+            "FOOD_PORK": 37.4,
+            "FOOD_CHEESE_SW": 30.1,
+            "FOOD_BEEF": 25.4,
+            "FOOD_EGG": 23
+        }
+    },
+    "SODIUM": {
+        "LOGO": "/img/sodium_logo.png",
+        "HEX": "5997FA",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 5,
+        "OVER_COUNT": 3,
+        "FACT_COUNT": 7,
+        "DOSE_RDV": {
+            "MALE": [200, 400, 500, 900, 1400, 1500, 1500, 1500],
+            "FEMA": [200, 400, 500, 900, 1400, 1500, 1500, 1500, 1500, 1500, 1500, 1500]
+        },
+        "DOSE_UL": {
+            "MALE": [0, 0, 0, 0, 0, 2300, 2300, 2300],
+            "FEMA": [0, 0, 0, 0, 0, 2300, 2300, 2300, 2300, 2300, 2300, 2300]
+        },
+        "FOOD_100G": {
+            "FOOD_SALT": 40000,
+            "FOOD_SHRIMP": 947,
+            "FOOD_SARDINES": 307,
+            "FOOD_CHEESE_SW": 185,
+            "FOOD_CHICKEN": 117,
+            "FOOD_BEEF": 54,
+            "FOOD_MILK": 43,
+            "FOOD_LENTILS": 6
+        }
+    },
+    "ZINC": {
+        "LOGO": "/img/zinc_logo.png",
+        "HEX": "04DD71",
+        "TYPE": "MINERAL",
+        "DEF_COUNT": 7,
+        "OVER_COUNT": 9,
+        "FACT_COUNT": 10,
+        "DOSE_RDV": {
+            "MALE": [3, 3, 5, 8, 11, 11, 11, 11],
+            "FEMA": [3, 3, 5, 8, 9, 8, 8, 8, 12, 11, 13, 12]
+        },
+        "DOSE_UL": {
+            "MALE": [5, 7, 12, 23, 34, 40, 40, 40],
+            "FEMA": [5, 7, 12, 23, 34, 40, 40, 40, 34, 40, 34, 40]
+        },
+        "FOOD_100G": {
+            "FOOD_OYSTERS": 39.3,
+            "FOOD_PUMPKIN": 7.7,
+            "FOOD_PORK": 4.6,
+            "FOOD_CHEESE_SW": 4.37,
+            "FOOD_BEEF": 3.7,
+            "FOOD_ALMOND": 3.1,
+            "FOOD_LENTILS": 3.27,
+            "FOOD_SHRIMP": 1.64
+        }
+    }
+}
