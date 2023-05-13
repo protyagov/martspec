@@ -148,8 +148,11 @@
     },
     "VITAMIN_B3": {
         "LOGO": "/img/vitamin_b3_logo.png",
-        "HEX": "",
+        "HEX": "FF7152",
         "TYPE": "VITAMIN_WATER",
+        "DEF_COUNT": 4,
+        "OVER_COUNT": 3,
+        "FACT_COUNT": 3,
         "DOSE_RDV": {
             "MALE": [4, 6, 8, 12, 16, 16, 16, 16],
             "FEMA": [4, 6, 8, 12, 14, 14, 14, 14, 18, 18, 17, 17]
