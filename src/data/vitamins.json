@@ -339,10 +339,13 @@
             "FOOD_SALMON": 12
         }
     },
-    "CHLORINE": {
-        "LOGO": "/img/chlorine_logo.png",
+    "CHLORIDE": {
+        "LOGO": "/img/chloride_logo.png",
         "HEX": "",
         "TYPE": "MINERAL",
+        "DEF_COUNT": 3,
+        "OVER_COUNT": 1,
+        "FACT_COUNT": 6,
         "DOSE_RDV": {
             "MALE": [450, 600, 750, 1400, 2150, 2300, 2300, 2300],
             "FEMA": [450, 600, 750, 1400, 2150, 2300, 2300, 2300, 2300, 2300, 2300, 2300]

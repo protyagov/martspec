@@ -442,10 +442,10 @@
             "FACT_6": "8 year study of 77,712 adults:  Average calcium intake of 1999 mg/day was associated with a 26% lower risk of colon cancer compared to 587 mg/day. Association with risk of rectal cancer was not found"
 
         },
-        "CHLORINE": {
+        "CHLORIDE": {
             "HEAD": "Cl",
-            "NAME": "chlorine",
-            "DESK": "Chlorine helps to release gastric juice and forms a good appetite. It retains water in tissues, preventing the body from losing moisture."
+            "NAME": "chloride",
+            "DESK": "Chloride helps to release gastric juice and forms a good appetite. It retains water in tissues, preventing the body from losing moisture."
         },
         "CHROME": {
             "HEAD": "Cr",
