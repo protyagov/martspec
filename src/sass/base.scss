@@ -7,6 +7,12 @@ $ms-screen-md: 768px;
 $ms-screen-lg: 992px;
 $ms-screen-xxl: 1400px;
 
+#root {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
 html {
     width: 100%;
     height: 100%;
@@ -23,6 +29,7 @@ html {
 
 
 .ms-base-page {
+    flex: 1 0;
     font-size: 1.9rem;
 
     section {
