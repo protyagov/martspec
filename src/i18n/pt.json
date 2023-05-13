@@ -277,7 +277,15 @@
         "VITAMIN_B1": {
             "HEAD": "B1",
             "NAME": "tiamina",
-            "DESK": "A B1 é necessária para o metabolismo energético, importante para os mecanismos de condução de impulsos nervosos, síntese de acetilcolina e outros processos no sistema nervoso."
+            "DESK": "A B1 é necessária para o metabolismo energético, importante para os mecanismos de condução de impulsos nervosos, síntese de acetilcolina e outros processos no sistema nervoso.",
+            "FUNC": "Energy production from carbohydrates, fats, and proteins. Essential in glucose metabolism. Key role in nerve, muscle, and heart function.",
+            "DEF_1": "Problems with the peripheral nerves and wasting",
+            "DEF_2": "Short-term memory loss",
+            "DEF_3": "Weight loss and anorexia",
+            "OVER_1": "We have no evidence of any risks",
+            "FACT_1": "Boost the immune system in times of stress",
+            "FACT_2": "Tannis (chemical in tea and coffee) might hamper B1 absorption",
+            "FACT_3": "It is destroyed by high-heat or long cooking"
         },
         "VITAMIN_B2": {
             "HEAD": "B2",

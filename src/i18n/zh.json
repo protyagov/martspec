@@ -274,7 +274,15 @@
         "VITAMIN_B1": {
             "HEAD": "B1",
             "NAME": "硫胺素",
-            "DESK": "B1 是能量代谢所必需的，对于传导神经冲动的机制、乙酰胆碱的合成和神经系统中的其他过程很重要。"
+            "DESK": "B1 是能量代谢所必需的，对于传导神经冲动的机制、乙酰胆碱的合成和神经系统中的其他过程很重要。",
+            "FUNC": "Energy production from carbohydrates, fats, and proteins. Essential in glucose metabolism. Key role in nerve, muscle, and heart function.",
+            "DEF_1": "Problems with the peripheral nerves and wasting",
+            "DEF_2": "Short-term memory loss",
+            "DEF_3": "Weight loss and anorexia",
+            "OVER_1": "We have no evidence of any risks",
+            "FACT_1": "Boost the immune system in times of stress",
+            "FACT_2": "Tannis (chemical in tea and coffee) might hamper B1 absorption",
+            "FACT_3": "It is destroyed by high-heat or long cooking"
         },
         "VITAMIN_B2": {
             "HEAD": "B2",
