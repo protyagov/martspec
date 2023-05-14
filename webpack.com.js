@@ -30,6 +30,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: './src/template/en/mission.ejs', filename: 'mission/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/pp.ejs', filename: 'privacy-policy/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/team.ejs', filename: 'team/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/vitamin/vitamin_a.ejs', filename: 'vitamin/vitamin_a/index.html', inject: 'body' }),
 
         // --------------- Static Content EN Without Slash--------------- 
         new HtmlWebpackPlugin({ template: './src/template/en/bodymass.ejs', filename: 'bodymass.html', inject: 'body' }),
@@ -43,6 +44,8 @@ module.exports = {
         new HtmlWebpackPlugin({ template: './src/template/en/mission.ejs', filename: 'mission.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/pp.ejs', filename: 'privacy-policy/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/team.ejs', filename: 'team.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/en/vitamin/vitamin_a.ejs', filename: 'vitamin/vitamin_a.html', inject: 'body' }),
+
 
         new HtmlWebpackInjectPreload({
             files: [{
@@ -85,6 +88,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/mission.ejs`, filename: x + '/mission/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/pp.ejs`, filename: x + '/privacy-policy/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/team.ejs`, filename: x + '/team/index.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/vitamin/vitamin_a.ejs`, filename: x + '/vitamin/vitamin_a/index.html', inject: 'body' }),
         // Without slash at the end
         new HtmlWebpackPlugin({ template: `./src/template/${x}/main.ejs`, filename: x + '.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodymass.ejs`, filename: x + '/bodymass.html', inject: 'body' }),
@@ -98,6 +102,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/mission.ejs`, filename: x + '/mission.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/pp.ejs`, filename: x + '/privacy-policy.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/team.ejs`, filename: x + '/team.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/vitamin/vitamin_a.ejs`, filename: x + '/vitamin/vitamin_a.html', inject: 'body' }),
     ])]),
     //--------------------------------------------------------------------------------------------------------------------------------------------
     resolve: {
