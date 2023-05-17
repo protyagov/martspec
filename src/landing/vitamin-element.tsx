@@ -63,6 +63,20 @@ export default function VitaminElement(props: VitaminElementProps) {
         )
     };
 
+    const getValueForAmount = (idx: number, amount: number) => {        
+        if (idx) return amount;
+
+        switch (amount) {
+            case 40000: return 1300;
+            case 39.3: return 9;
+            case 60000: return 3500;
+            case 1640: return 270;
+            case 200: return 54;
+            case 574: return 290;
+            default: return amount;
+        };
+    };
+
     return <>
         <NavigationBar />
 
@@ -173,12 +187,14 @@ export default function VitaminElement(props: VitaminElementProps) {
                                             Object
                                                 .entries(data.FOOD_100G)
                                                 .map(([food, g], idx, arr) => {
-                                                    let max = arr[0][1];
+                                                    let max = getValueForAmount(0, arr[0][1]); 
 
                                                     return <tr key={"FOOD_100G-" + food}>
                                                         <td className="pe-5">{_("VITAMIN.CONTENT." + food)}</td>
                                                         <td className="chart-container">
-                                                            <div className="chart" style={{ width: +(100 * g / max) + "%" }}></div>
+                                                            <div className="chart" style={
+                                                                { width: +(100 * getValueForAmount(idx, g) / max) + "%" }
+                                                            }></div>
                                                         </td>
                                                         <td className="ps-5">{ g }</td>
                                                     </tr>
