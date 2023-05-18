@@ -126,7 +126,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                             "DOSE_UL"
                         ].map(SECTION => {
                                 return data[SECTION] && (
-                                    <section>
+                                    <section key={SECTION}>
                                         <div className="row">
                                             <div className="col d-flex align-items-center">
                                                 <img src={"/img/vitamin_" + SECTION + "_icon.png"} className="p-0 mt-3 ms-0 me-3" alt={_("VITAMIN.CONTENT." + SECTION)} height="40px" width="40px" />
@@ -144,7 +144,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                             <tbody>
                                                 {
                                                     VIT_AGE.map((age, idx) => {
-                                                        return <tr>
+                                                        return <tr key={SECTION + "-" + age}>
                                                             <td>{ _("VITAMIN.CONTENT.AGE." + age) }</td>
                                                             <td>{ data[SECTION].MALE[idx] ? (data[SECTION].MALE[idx] + " " + _("VITAMIN.CONTENT.MCG")) : "" }</td>
                                                             <td>{ data[SECTION].FEMA[idx] + " " + _("VITAMIN.CONTENT.MCG") }</td>
