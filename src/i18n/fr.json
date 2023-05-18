@@ -879,6 +879,7 @@
         "ENGINEER_WEB": "Ingénieur logiciel Web",
         "DESIGNER_UI_UX": "Concepteur UI/UX",
         "ENGINEER_QA": "Ingénieur AQ",
+        "COPYWRITER": "Copywriter",
         "ALEX": "Alex",
         "NICHITA": "Nichita",
         "ALEVTYNA": "Alevtyna",
@@ -886,7 +887,8 @@
         "SVETLANA": "Svetlana",
         "ALESIA": "Alesia",
         "ANASTASIIA": "Anastasiia",
-        "MIKE": "Mike"
+        "MIKE": "Mike",
+        "YELYZAVETA": "Yelyzaveta"
     },
     "PP": {
         "HEAD": "Politique de confidentialité",
