@@ -316,7 +316,7 @@
     "CALCIUM": {
         "LOGO": "/img/calcium_logo.png",
         "HEX": "FFC100",
-        "TYPE": "MINERAL",
+        "TYPE": "ELECTROLYTE",
         "DEF_COUNT": 3,
         "OVER_COUNT": 1,
         "FACT_COUNT": 6,
@@ -342,7 +342,7 @@
     "CHLORIDE": {
         "LOGO": "/img/chloride_logo.png",
         "HEX": "008631",
-        "TYPE": "MINERAL",
+        "TYPE": "ELECTROLYTE",
         "DEF_COUNT": 5,
         "OVER_COUNT": 2,
         "FACT_COUNT": 3,
@@ -368,7 +368,7 @@
     "CHROME": {
         "LOGO": "/img/chrome_logo.png",
         "HEX": "00BCD4",
-        "TYPE": "MINERAL",
+        "TYPE": null,
         "DEF_COUNT": 1,
         "OVER_COUNT": 5,
         "FACT_COUNT": 6,
@@ -391,7 +391,7 @@
     "COPPER": {
         "LOGO": "/img/copper_logo.png",
         "HEX": "D2691E",
-        "TYPE": "MINERAL",
+        "TYPE": null,
         "DEF_COUNT": 5,
         "OVER_COUNT": 3,
         "FACT_COUNT": 10,
@@ -417,7 +417,7 @@
     "IODINE": {
         "LOGO": "/img/iodine_logo.png",
         "HEX": "BA55D3",
-        "TYPE": "MINERAL",
+        "TYPE": null,
         "DEF_COUNT": 7,
         "OVER_COUNT": 2,
         "FACT_COUNT": 6,
@@ -443,7 +443,7 @@
     "IRON": {
         "LOGO": "/img/iron_logo.png",
         "HEX": "AD3816",
-        "TYPE": "MINERAL",
+        "TYPE": null,
         "DEF_COUNT": 8,
         "OVER_COUNT": 6,
         "FACT_COUNT": 11,
@@ -469,7 +469,7 @@
     "MAGNESIUM": {
         "LOGO": "/img/magnesium_logo.png",
         "HEX": "78AADC",
-        "TYPE": "MINERAL",
+        "TYPE": "ELECTROLYTE",
         "DEF_COUNT": 9,
         "OVER_COUNT": 6,
         "FACT_COUNT": 11,
@@ -495,7 +495,7 @@
     "MANGANESE": {
         "LOGO": "/img/manganese_logo.png",
         "HEX": "E65C9C",
-        "TYPE": "MINERAL",
+        "TYPE": null,
         "DEF_COUNT": 10,
         "OVER_COUNT": 6,
         "FACT_COUNT": 4,
@@ -521,7 +521,7 @@
     "MOLYBDENUM": {
         "LOGO": "/img/molybdenum_logo.png",
         "HEX": "7BC043",
-        "TYPE": "MINERAL",
+        "TYPE": null,
         "DEF_COUNT": 1,
         "OVER_COUNT": 3,
         "FACT_COUNT": 3,
@@ -547,7 +547,7 @@
     "PHOSPHORUS": {
         "LOGO": "/img/phosphorus_logo.png",
         "HEX": "E74C3C",
-        "TYPE": "MINERAL",
+        "TYPE": "ELECTROLYTE",
         "DEF_COUNT": 8,
         "OVER_COUNT": 4,
         "FACT_COUNT": 9,
@@ -573,7 +573,7 @@
     "POTASSIUM": {
         "LOGO": "/img/potassium_logo.png",
         "HEX": "FF9500",
-        "TYPE": "MINERAL",
+        "TYPE": "ELECTROLYTE",
         "DEF_COUNT": 7,
         "OVER_COUNT": 5,
         "FACT_COUNT": 12,
@@ -596,7 +596,7 @@
     "SELENIUM": {
         "LOGO": "/img/selenium_logo.png",
         "HEX": "D40000",
-        "TYPE": "MINERAL",
+        "TYPE": null,
         "DEF_COUNT": 7,
         "OVER_COUNT": 5,
         "FACT_COUNT": 9,
@@ -622,7 +622,7 @@
     "SODIUM": {
         "LOGO": "/img/sodium_logo.png",
         "HEX": "5997FA",
-        "TYPE": "MINERAL",
+        "TYPE": "ELECTROLYTE",
         "DEF_COUNT": 5,
         "OVER_COUNT": 3,
         "FACT_COUNT": 7,
@@ -648,7 +648,7 @@
     "ZINC": {
         "LOGO": "/img/zinc_logo.png",
         "HEX": "04DD71",
-        "TYPE": "MINERAL",
+        "TYPE": null,
         "DEF_COUNT": 7,
         "OVER_COUNT": 9,
         "FACT_COUNT": 10,
