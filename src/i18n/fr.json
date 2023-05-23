@@ -102,6 +102,11 @@
             "SHORT": "Minéral",
             "DESC": ""
         },
+        "ELECTROLYTE": {
+            "NAME": "Électrolytes",
+            "SHORT": "Électrolyte",
+            "DESC": ""
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",

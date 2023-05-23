@@ -105,6 +105,11 @@
             "SHORT": "Mineral",
             "DESC": ""
         },
+        "ELECTROLYTE": {
+            "NAME": "Eletrólitos",
+            "SHORT": "Eletrólito",
+            "DESC": ""
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",
