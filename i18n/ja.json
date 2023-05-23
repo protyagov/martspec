@@ -879,6 +879,7 @@
         "ENGINEER_WEB": "ウェブソフトウェアエンジニア",
         "DESIGNER_UI_UX": "UI/UX デザイナー",
         "ENGINEER_QA": "QAエンジニア",
+        "COPYWRITER": "Copywriter",
         "ALEX": "Alex",
         "NICHITA": "Nichita",
         "ALEVTYNA": "Alevtyna",
@@ -886,7 +887,8 @@
         "SVETLANA": "Svetlana",
         "ALESIA": "Alesia",
         "ANASTASIIA": "Anastasiia",
-        "MIKE": "Mike"
+        "MIKE": "Mike",
+        "YELYZAVETA": "Yelyzaveta"
     },
     "PP": {
         "HEAD": "個人情報保護方針",

@@ -876,6 +876,7 @@
         "ENGINEER_WEB": "Web-розробник",
         "DESIGNER_UI_UX": "UI/UX дизайнер",
         "ENGINEER_QA": "QA-інженер",
+        "COPYWRITER": "Kопірайтер",
         "ALEX": "Алекс",
         "NICHITA": "Нікіта",
         "ALEVTYNA": "Алевтина",
@@ -883,7 +884,8 @@
         "SVETLANA": "Світлана",
         "ALESIA": "Алеся",
         "ANASTASIIA": "Анастасія",
-        "MIKE": "Михайло"
+        "MIKE": "Михайло",
+        "YELYZAVETA": "Єлизавета"
     },
     "PP": {
         "HEAD": "Захист даних",
