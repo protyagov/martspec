@@ -74,7 +74,7 @@
             "FOOD_PINENUTS": 9.3,
             "FOOD_PEANUT": 8.3,
             "FOOD_MANGO": 2.9,
-            "FOOD_KIVI": 1.5
+            "FOOD_KIWI": 1.5
         }
     },
     "VITAMIN_K": {
@@ -305,7 +305,7 @@
         "FOOD_100G": {
             "FOOD_PARSLEY": 133,
             "FOOD_PEPPER_G": 100,
-            "FOOD_KIVI": 93,
+            "FOOD_KIWI": 93,
             "FOOD_BROCCOLI": 89,
             "FOOD_CABBAGE": 60,
             "FOOD_STRAWBERRY": 60,
