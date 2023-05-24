@@ -100,6 +100,11 @@
             "SHORT": "المعدنية",
             "DESC": ""
         },
+        "ELECTROLYTE": {
+            "NAME": "الشوارد",
+            "SHORT": "بالكهرباء",
+            "DESC": ""
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",

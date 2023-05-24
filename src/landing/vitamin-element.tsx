@@ -89,18 +89,22 @@ export default function VitaminElement(props: VitaminElementProps) {
                                 <p>{ _("VITAMIN." + id + ".FUNC") }</p>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col">
-                            <div className="vit-type">
-                                <button data-bs-toggle="collapse" data-bs-target="#vit-type-collapse" aria-expanded="false" aria-controls="vit-type-collapse">{ _("VITAMIN." + data.TYPE + ".SHORT") }</button>
-                                    <div className="collapse collapse-content" id="vit-type-collapse">
-                                        <div className="content-padding">
-                                            { _("VITAMIN." + data.TYPE + ".DESC") }
+                        {
+                            data.TYPE && (
+                                <div className="row">
+                                    <div className="col">
+                                    <div className="vit-type">
+                                        <button data-bs-toggle="collapse" data-bs-target="#vit-type-collapse" aria-expanded="false" aria-controls="vit-type-collapse">{ _("VITAMIN." + data.TYPE + ".SHORT") }</button>
+                                            <div className="collapse collapse-content" id="vit-type-collapse">
+                                                <div className="content-padding">
+                                                    { _("VITAMIN." + data.TYPE + ".DESC") }
+                                                </div>
                                         </div>
+                                    </div>
+                                    </div>
                                 </div>
-                            </div>
-                            </div>
-                        </div>
+                            )
+                        }
                     </section>
 
                     <section>

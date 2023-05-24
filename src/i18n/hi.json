@@ -102,6 +102,11 @@
             "SHORT": "खनिज",
             "DESC": ""
         },
+        "ELECTROLYTE": {
+            "NAME": "इलेक्ट्रोलाइट्स",
+            "SHORT": "इलेक्ट्रोलाइट",
+            "DESC": ""
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",
