@@ -165,7 +165,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                                         return <tr key={SECTION + "-" + age}>
                                                             <td>{ _("VITAMIN.CONTENT.AGE." + age) }</td>
                                                             <td>{ data[SECTION].MALE[idx] ? (data[SECTION].MALE[idx] + " " + _("VITAMIN.CONTENT.MCG")) : "" }</td>
-                                                            <td>{ data[SECTION].FEMA[idx] + " " + _("VITAMIN.CONTENT.MCG") }</td>
+                                                            <td>{ data[SECTION].FEMA[idx] ? (data[SECTION].FEMA[idx] + " " + _("VITAMIN.CONTENT.MCG")) : "" }</td>
                                                         </tr>
                                                     })
                                                 }
