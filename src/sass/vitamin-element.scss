@@ -138,7 +138,7 @@
   .vit-facts {
     li {
       display: flex;
-      align-items: center;
+      align-items: start;
       line-height: 2.2rem;
 
       &::marker {
@@ -148,6 +148,7 @@
         content: "●";
         color: #A7E08C;
         font-size: 250%;
+        margin-top: -.3rem;
         margin-right: 1rem;
       }
     }
