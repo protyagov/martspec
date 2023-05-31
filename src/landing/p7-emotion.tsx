@@ -1,7 +1,6 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
-import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
 
 export default function P7Emotion() {
@@ -10,7 +9,7 @@ export default function P7Emotion() {
 
         <div className="ms-base-page pb-5">
             <section>
-                <IronImage imgLo="/img/p_emotion_screens3.64.webp" imgHi="/img/p_emotion_screens3.512.webp" text={_("EMOTION.IMG")} h={512} w={512} />
+                <img src="/img/p_emotion_screens3.512.webp" alt={_("EMOTION.IMG")} className="ms-base-top-image" width="512px" height="512px" />
                 <h1 className="text-center pt-3 ">{_("EMOTION.HEAD")}</h1>
             </section>
 
@@ -30,7 +29,7 @@ export default function P7Emotion() {
             </section>
 
             <div className="text-center">
-                <IronImage imgLo="/img/p_emotion_screens2.64.webp" imgHi="/img/p_emotion_screens2.512.webp" text={_("EMOTION.IMG")} h={512} w={512} />
+                <img src="/img/p_emotion_screens2.512.webp" alt={_("EMOTION.IMG")} className="ms-base-top-image" width="512px" height="512px" />
             </div>
 
             <section>
@@ -46,7 +45,7 @@ export default function P7Emotion() {
             </section>
 
             <div className="pb-5 text-center">
-                <IronImage imgLo="/img/p_emotion_screens4.64.webp" imgHi="/img/p_emotion_screens4.512.webp" text={_("MAIN.P3.IMG")} h={512} w={512} />
+                <img src="/img/p_emotion_screens4.512.webp" alt={_("MAIN.P3.IMG")} className="ms-base-top-image" width="512px" height="512px" />
             </div>
 
             <section>
@@ -61,8 +60,8 @@ export default function P7Emotion() {
             </section>
         </div>
 
-        <div className="pb-5 text-center">
-            <IronImage imgLo="/img/p_emotion_screens.64.webp" imgHi="/img/p_emotion_screens.512.webp" text={_("EMOTION.IMG")} h={512} w={512} />
+        <div className="container mb-5 pb-5 text-center">
+            <img src="/img/p_emotion_screens.512.webp" alt={_("EMOTION.IMG")} className="ms-base-top-image" width="512px" height="512px" />
         </div>
 
         <Footer />
