@@ -9,7 +9,7 @@ export default function P5BodyZinc() {
 
         <div className="ms-base-page pb-5">
             <section>
-                <img src="/img/bodyzinc.svg" className="ms-base-top-image" alt={_("ZINC.IMG")} height={512} width={512} />
+                <img src="/img/bodyzinc.svg" className="ms-base-image" alt={_("ZINC.IMG")} height={512} width={512} />
                 <h1 className="text-center pt-3 ">{_("ZINC.HEAD")}</h1>
             </section>
 
@@ -56,7 +56,7 @@ export default function P5BodyZinc() {
 
 
         <div className="container mb-5 pb-5 text-center">
-            <img src="/img/p_zinc_screens.512.webp" alt={_("MAIN.P4.IMG")} className="ms-base-top-image" width="512px" height="512px" />
+            <img src="/img/p_zinc_screens.512.webp" alt={_("MAIN.P4.IMG")} className="ms-base-image" width="512px" height="512px" />
         </div>
 
         <Footer />

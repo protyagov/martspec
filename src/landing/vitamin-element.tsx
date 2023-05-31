@@ -89,7 +89,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                 <div className="row">
                                     <div className="col">
                                         <h1 className="pt-5">{ getNameWithType(data.TYPE) }</h1>
-                                        <img src={data.LOGO} className="ms-base-top-image" alt={_("VITAMIN." + id + ".NAME")} height={512} width={512} />
+                                        <img src={data.LOGO} className="ms-base-image" alt={_("VITAMIN." + id + ".NAME")} height={512} width={512} />
                                     </div>
                                 </div>
                             </div>

@@ -9,7 +9,7 @@ export default function P2bodymass() {
 
         <div className="ms-base-page pb-5">
             <section>
-                <img src="/img/mass.svg" className="ms-base-top-image" alt={_("MASS.IMG")} height={512} width={512} />
+                <img src="/img/mass.svg" className="ms-base-image" alt={_("MASS.IMG")} height={512} width={512} />
                 <h1 className="text-center pt-3 ">{_("MASS.HEAD")}</h1>
             </section>
 
@@ -57,7 +57,7 @@ export default function P2bodymass() {
 
 
         <div className="container mb-5 pb-5 text-center">
-            <img src="/img/p_mass_screens.512.webp" alt={_("MAIN.P2.IMG")} className="ms-base-top-image" width="512px" height="512px" />
+            <img src="/img/p_mass_screens.512.webp" alt={_("MAIN.P2.IMG")} className="ms-base-image" width="512px" height="512px" />
         </div>
         
         <Footer />

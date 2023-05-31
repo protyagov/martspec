@@ -9,7 +9,7 @@ export default function P7Emotion() {
 
         <div className="ms-base-page pb-5">
             <section>
-                <img src="/img/p_emotion_screens3.512.webp" alt={_("EMOTION.IMG")} className="ms-base-top-image" width="512px" height="512px" />
+                <img src="/img/p_emotion_screens3.512.webp" alt={_("EMOTION.IMG")} className="ms-base-image" width="512px" height="512px" />
                 <h1 className="text-center pt-3 ">{_("EMOTION.HEAD")}</h1>
             </section>
 
@@ -29,7 +29,7 @@ export default function P7Emotion() {
             </section>
 
             <div className="text-center">
-                <img src="/img/p_emotion_screens2.512.webp" alt={_("EMOTION.IMG")} className="ms-base-top-image" width="512px" height="512px" />
+                <img src="/img/p_emotion_screens2.512.webp" alt={_("EMOTION.IMG")} className="ms-base-image" width="512px" height="512px" />
             </div>
 
             <section>
@@ -45,7 +45,7 @@ export default function P7Emotion() {
             </section>
 
             <div className="pb-5 text-center">
-                <img src="/img/p_emotion_screens4.512.webp" alt={_("MAIN.P3.IMG")} className="ms-base-top-image" width="512px" height="512px" />
+                <img src="/img/p_emotion_screens4.512.webp" alt={_("MAIN.P3.IMG")} className="ms-base-image" width="512px" height="512px" />
             </div>
 
             <section>
@@ -61,7 +61,7 @@ export default function P7Emotion() {
         </div>
 
         <div className="container mb-5 pb-5 text-center">
-            <img src="/img/p_emotion_screens.512.webp" alt={_("EMOTION.IMG")} className="ms-base-top-image" width="512px" height="512px" />
+            <img src="/img/p_emotion_screens.512.webp" alt={_("EMOTION.IMG")} className="ms-base-image" width="512px" height="512px" />
         </div>
 
         <Footer />
