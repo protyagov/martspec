@@ -1,7 +1,6 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
-import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
 
 export default function P5BodyZinc() {
@@ -56,8 +55,8 @@ export default function P5BodyZinc() {
         </div>
 
 
-        <div className="pb-5 text-center">
-            <IronImage imgLo="/img/p_zinc_screens.64.webp" imgHi="/img/p_zinc_screens.512.webp" text={_("MAIN.P4.IMG")} h={512} w={512} />
+        <div className="container mb-5 pb-5 text-center">
+            <img src="/img/p_zinc_screens.512.webp" alt={_("MAIN.P4.IMG")} className="ms-base-top-image" width="512px" height="512px" />
         </div>
 
         <Footer />
