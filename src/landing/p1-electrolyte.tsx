@@ -1,7 +1,6 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
-import IronImage from "src/part/iron-image";
 import NavigationBar from "src/part/navbar";
 
 export default function P1Electrolyte() {
@@ -10,7 +9,7 @@ export default function P1Electrolyte() {
 
         <div className="ms-base-page pb-5">
             <section>
-                <img src="/img/electrolyte.svg" className="ms-base-top-image" alt={_("MAIN.P1.IMG")} height={512} width={512} />
+                <img src="/img/electrolyte.svg" className="ms-base-image" alt={_("MAIN.P1.IMG")} height={512} width={512} />
                 <h1 className="text-center pt-3">{_("ELECTROLYTE.HEAD")}</h1>
             </section>
 
@@ -76,8 +75,8 @@ export default function P1Electrolyte() {
         </div>
 
 
-        <div className="container mb-5 pb-5">
-            <IronImage imgLo="/img/p_electrolyte_screens.64.webp" imgHi="/img/p_electrolyte_screens.512.webp" text={_("MAIN.P1.IMG")} h={560} w={1458} />
+        <div className="container mb-5 pb-5 text-center">
+            <img src="/img/p_electrolyte_screens.512.webp" alt={_("MAIN.P1.IMG")} className="ms-base-image" width="512px" height="512px" />
         </div>
 
         <Footer />
