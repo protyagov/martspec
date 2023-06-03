@@ -29,9 +29,9 @@
         "LOGO": "/img/vitamin_d_logo.png",
         "HEX": "696FFF",
         "TYPE": "VITAMIN_FAT",
-        "DEF_COUNT": 6,
-        "OVER_COUNT": 1,
-        "FACT_COUNT": 6,
+        "DEF_COUNT": 3,
+        "OVER_COUNT": 3,
+        "FACT_COUNT": 7,
         "DOSE_RDV": {
             "MALE": [10, 15, 15, 15, 15, 15, 15, 20],
             "FEMA": [10, 15, 15, 15, 15, 15, 15, 20, 15, 15, 15, 15]
