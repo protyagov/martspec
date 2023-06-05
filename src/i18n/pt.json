@@ -98,7 +98,7 @@
         "VITAMIN_WATER": {
             "NAME": "Vitaminas hidrossolúveis",
             "SHORT": "Hidrossolúveis",
-            "DESC": ""
+            "DESC": "As vitaminas hidrossolúveis são nutrientes essenciais que se dissolvem na água e desempenham papéis importantes no nosso corpo. Ao contrário das vitaminas lipossolúveis, não são armazenadas no corpo, pelo que é necessário consumi-las regularmente."
         },
         "MINERAL": {
             "NAME": "Minerais",
@@ -108,7 +108,7 @@
         "ELECTROLYTE": {
             "NAME": "Eletrólitos",
             "SHORT": "Eletrólito",
-            "DESC": ""
+            "DESC": "Os electrólitos são minerais vitais que desempenham papéis cruciais na manutenção de funções corporais adequadas, como o equilíbrio de fluidos, a função nervosa e a contracção muscular. Uma dieta equilibrada com alimentos ricos em nutrientes ajuda a manter os níveis essenciais de electrólitos para uma saúde óptima."
         },
         "CONTENT": {
             "GROUP": {

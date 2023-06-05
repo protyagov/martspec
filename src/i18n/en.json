@@ -95,7 +95,7 @@
         "VITAMIN_WATER": {
             "NAME": "Water-Soluble Vitamins",
             "SHORT": "Water-Soluble",
-            "DESC": ""
+            "DESC": "Water-soluble vitamins are essential nutrients that dissolve in water and play important roles in our body. Unlike fat-soluble vitamins, they are not stored in the body, so we need to consume them regularly."
         },
         "MINERAL": {
             "NAME": "Minerals",
@@ -105,7 +105,7 @@
         "ELECTROLYTE": {
             "NAME": "Electrolytes",
             "SHORT": "Electrolyte",
-            "DESC": ""
+            "DESC": "Electrolytes are vital minerals that play crucial roles in maintaining proper bodily functions such as fluid balance, nerve function, and muscle contraction. Eating balanced diet with nutrient-rich foods helps maintaining essential electrolyte levels for optimal health."
         },
         "CONTENT": {
             "GROUP": {
