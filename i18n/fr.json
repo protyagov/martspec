@@ -95,7 +95,7 @@
         "VITAMIN_WATER": {
             "NAME": "Vitaminas Solubles en Agua",
             "SHORT": "Solubles en Agua",
-            "DESC": ""
+            "DESC": "Les vitamines hydrosolubles sont des nutriments essentiels qui se dissolvent dans l'eau et jouent un rôle important dans notre organisme. Contrairement aux vitamines liposolubles, elles ne sont pas stockées dans l'organisme et doivent donc être consommées régulièrement."
         },
         "MINERAL": {
             "NAME": "Minerals",
@@ -105,7 +105,7 @@
         "ELECTROLYTE": {
             "NAME": "Électrolytes",
             "SHORT": "Électrolyte",
-            "DESC": ""
+            "DESC": "Les électrolytes sont des minéraux vitaux qui jouent un rôle crucial dans le maintien de fonctions corporelles adéquates telles que l'équilibre des fluides, la fonction nerveuse et la contraction musculaire. Une alimentation équilibrée permet de maintenir les niveaux d'électrolytes essentiels pour une santé optimale."
         },
         "CONTENT": {
             "GROUP": {
