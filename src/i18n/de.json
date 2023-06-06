@@ -95,7 +95,7 @@
         "VITAMIN_WATER": {
             "NAME": "Wasserlösliche Vitamine",
             "SHORT": "Wasserlösliche",
-            "DESC": ""
+            "DESC": "Wasserlösliche Vitamine sind essenzielle Nährstoffe, die sich in Wasser auflösen und in unserem Körper eine wichtige Rolle spielen. Im Gegensatz zu fettlöslichen Vitaminen werden sie nicht im Körper gespeichert, so dass wir sie regelmäßig zu uns nehmen müssen."
         },
         "MINERAL": {
             "NAME": "Mineralien",
@@ -105,7 +105,7 @@
         "ELECTROLYTE": {
             "NAME": "Elektrolyte",
             "SHORT": "Elektrolyt",
-            "DESC": ""
+            "DESC": "Elektrolyte sind lebenswichtige Mineralien, die eine entscheidende Rolle bei der Aufrechterhaltung der Körperfunktionen wie Flüssigkeitshaushalt, Nervenfunktion und Muskelkontraktion spielen. Eine ausgewogene Ernährung trägt dazu bei, den für eine optimale Gesundheit wichtigen Elektrolythaushalt aufrechtzuerhalten."
         },
         "CONTENT": {
             "GROUP": {
