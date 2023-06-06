@@ -268,14 +268,14 @@
             "HEAD": "K",
             "NAME": "філохінон, менахінон",
             "DESK": "Витамін допомагає виробляти особливі білки, необхідні для згортання крові та побудови кісток.",
-            "FUNC": "Synthesis of proteins. Participation in blood clotting and bone metabolism, and other diverse physiological functions.",
-            "DEF_1": "Bleedings",
-            "DEF_2": "Osteoporosis (brittle bones)",
-            "OVER_1": "No evidence of any risks",
-            "FACT_1": "Antibiotics block vitamin K metabolism",
-            "FACT_2": "Because vitamin K is fat-soluble, it is best to eat vitamin K foods with some fat to improve absorption",
-            "FACT_3": "Vitamin K transport across the placenta is poor, increasing the risk of vitamin K deficiency in newborn babies",
-            "FACT_4": "A study found that 180 mcg/day for 3 years improved bone strength and decreased the loss in spine height"
+            "FUNC": "Синтез білків. Участь у згортанні крові та метаболізмі кісткової тканини та інші різноманітні фізіологічні функції.",
+            "DEF_1": "Кровотечі",
+            "DEF_2": "Остеопороз (ламкість кісток)",
+            "OVER_1": "Немає доказів будь-яких ризиків",
+            "FACT_1": "Антибіотики блокують метаболізм вітаміну К",
+            "FACT_2": "Оскільки вітамін К є жиророзчинним, найкраще їсти продукти з вітаміном К з невеликою кількістю жиру, щоб покращити засвоєння",
+            "FACT_3": "Транспорт вітаміну К через плаценту поганий, що підвищує ризик дефіциту вітаміну К у новонароджених дітей",
+            "FACT_4": "Дослідження показало, що 180 мкг/день протягом 3 років покращує міцність кісток і зменшує втрату висоти хребта"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
