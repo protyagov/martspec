@@ -618,14 +618,14 @@
             "HEAD": "Mo",
             "NAME": "молібден",
             "DESK": "Молібден входить до складу ряду ферментів, бере участь у засвоєнні азоту, зміцнює зубну емаль, а також попереджає імпотенцію.",
-            "FUNC": "Processing proteins and genetic material like DNA. Helping break down drugs, alcohol and toxic substances.",
-            "DEF_1": "No obvious signs",
-            "OVER_1": "Achy joints",
-            "OVER_2": "Gout-like symptoms",
-            "OVER_3": "Elevated levels of uric acid",
-            "FACT_1": "Breaking down purines and sulfites. Sulfites are a preservative added to certain foods to maintain color and shelf-life; some people develop a sensitivity to sulfites, causing an allergic reaction",
-            "FACT_2": "The kidneys are the main regulators of molybdenum levels",
-            "FACT_3": "Adults absorb 40% to 100% of dietary molybdenum. Infants absorb almost all of the molybdenum in breast milk"
+            "FUNC": "Обробка білків і генетичного матеріалу, як-от ДНК. Допомога в розщепленні наркотиків, алкоголю та токсичних речовин.",
+            "DEF_1": "Немає очевидних ознак",
+            "OVER_1": "Біль у суглобах",
+            "OVER_2": "Симптоми, схожі на подагру",
+            "OVER_3": "Підвищений рівень сечової кислоти",
+            "FACT_1": "Нирки є основними регуляторами рівня молібдену",
+            "FACT_2": "Розщеплення пуринів і сульфітів. Сульфіти — це консерванти, які додають до певних харчових продуктів для збереження кольору та терміну зберігання; у деяких людей розвивається чутливість до сульфітів, що викликає алергічну реакцію",
+            "FACT_3": "Дорослі особи поглинають від 40% до 100% молібдену з їжі. Немовлята засвоюють майжевесь молібден з грудним молоком"
         },
         "PHOSPHORUS": {
             "HEAD": "P",
