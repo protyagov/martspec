@@ -281,14 +281,14 @@
             "HEAD": "B1",
             "NAME": "チアミン",
             "DESK": "B1はエネルギー代謝に必要であり、神経インパルスの伝導メカニズム、アセチルコリンの合成、および神経系の他のプロセスに重要です.",
-            "FUNC": "Energy production from carbohydrates, fats, and proteins. Essential in glucose metabolism. Key role in nerve, muscle, and heart function.",
-            "DEF_1": "Problems with the peripheral nerves and wasting",
-            "DEF_2": "Short-term memory loss",
-            "DEF_3": "Weight loss and anorexia",
-            "OVER_1": "We have no evidence of any risks",
-            "FACT_1": "Boost the immune system in times of stress",
-            "FACT_2": "Tannis (chemical in tea and coffee) might hamper B1 absorption",
-            "FACT_3": "It is destroyed by high-heat or long cooking"
+            "FUNC": "炭水化物、脂肪、およびタンパク質からのエネルギー生成。グルコース代謝に不可欠。神経、筋肉、および心臓機能における重要な役割。",
+            "DEF_1": "末梢神経と消耗の問題",
+            "DEF_2": "短期記憶喪失",
+            "DEF_3": "減量と食欲不振",
+            "OVER_1": "リスクの証拠はありません",
+            "FACT_1": "ストレス時に免疫システムを強化する",
+            "FACT_2": "タニス(紅茶やコーヒーに含まれる化学物質) はB1 の吸収を阻害する可能性があります",
+            "FACT_3": "高温または長時間の調理によって破壊されます"
         },
         "VITAMIN_B2": {
             "HEAD": "B2",
