@@ -618,14 +618,14 @@
             "HEAD": "Mo",
             "NAME": "モリブデン",
             "DESK": "モリブデンは多くの酵素の一部です。窒素同化に関与し、歯のエナメル質を強化し、インポテンスも防ぎます。",
-            "FUNC": "Processing proteins and genetic material like DNA. Helping break down drugs, alcohol and toxic substances.",
-            "DEF_1": "No obvious signs",
-            "OVER_1": "Achy joints",
-            "OVER_2": "Gout-like symptoms",
-            "OVER_3": "Elevated levels of uric acid",
-            "FACT_1": "Breaking down purines and sulfites. Sulfites are a preservative added to certain foods to maintain color and shelf-life; some people develop a sensitivity to sulfites, causing an allergic reaction",
-            "FACT_2": "The kidneys are the main regulators of molybdenum levels",
-            "FACT_3": "Adults absorb 40% to 100% of dietary molybdenum. Infants absorb almost all of the molybdenum in breast milk"
+            "FUNC": "タンパク質やDNA などの遺伝物質を処理します。薬物、アルコール、有毒物質の分解を助けます。",
+            "DEF_1": "明白な兆候なし",
+            "OVER_1": "関節が痛い",
+            "OVER_2": "痛風様症状",
+            "OVER_3": "尿酸値の上昇",
+            "FACT_1": "腎臓はモリブデンレベルの主な調整役です",
+            "FACT_2": "成人は食事からモリブデンの40% から100% を吸収します。乳児は母乳中のモリブデンのほとんどすべてを吸収します",
+            "FACT_3": "プリン体と亜硫酸塩を分解。 亜  硫酸塩は、色と貯蔵寿命を維持するために特定の食品に添加される防腐剤です。一部の人々は亜硫酸塩に過敏になり、アレルギー反応を引き起こします"
         },
         "PHOSPHORUS": {
             "HEAD": "P",
