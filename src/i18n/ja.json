@@ -268,14 +268,14 @@
             "HEAD": "K",
             "NAME": "フィロキノン、メナキノン",
             "DESK": "ビタミンは、血液凝固と骨の構築に必要な特別なタンパク質を生成するのに役立ちます.",
-            "FUNC": "Synthesis of proteins. Participation in blood clotting and bone metabolism, and other diverse physiological functions.",
-            "DEF_1": "Bleedings",
-            "DEF_2": "Osteoporosis (brittle bones)",
-            "OVER_1": "No evidence of any risks",
-            "FACT_1": "Antibiotics block vitamin K metabolism",
-            "FACT_2": "Because vitamin K is fat-soluble, it is best to eat vitamin K foods with some fat to improve absorption",
-            "FACT_3": "Vitamin K transport across the placenta is poor, increasing the risk of vitamin K deficiency in newborn babies",
-            "FACT_4": "A study found that 180 mcg/day for 3 years improved bone strength and decreased the loss in spine height"
+            "FUNC": "タンパク質の合成。血液凝固や骨代謝への関与、およびその他の多様な生理機能。",
+            "DEF_1": "出血",
+            "DEF_2": "骨粗鬆症（もろい骨）",
+            "OVER_1": "リスクの証拠なし",
+            "FACT_1": "抗生物質はビタミンKの代謝を阻害する",
+            "FACT_2": "ビタミンKは脂溶性なので、吸収を良くするために脂肪分の多いビタミンK食品を食べるのがベストです",
+            "FACT_3": "胎盤を通過するビタミンKの輸送が不十分で、新生児のビタミンK欠乏症のリスクが高まる",
+            "FACT_4": "ある研究では、1 日180 mcg を3 年間摂取すると、骨の強度が向上し、背骨の高さの減少が減少したことがわかりました"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
