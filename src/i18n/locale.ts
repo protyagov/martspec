@@ -52,6 +52,11 @@ export class Locale {
     }
 
     //-------------------------------------------------------------------------------------------------------
+    static get supportedLanguages(): string[] {
+        return Locale.SUPPORTED_LANG as string[];
+    }
+
+    //-------------------------------------------------------------------------------------------------------
     static get language(): string {
         return Locale._polyglot.locale() as string;
     }
