@@ -2,6 +2,19 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale"
 
 function NavigationBarLanguageDropdown() {
+    const languages = Locale.supportedLanguages;
+    const path = location.pathname;    
+
+    const getLanguageLink = (language: string) => {           
+        if (path.length > 1) {            
+            const regex = new RegExp("/" + "(" + languages.join("|") + ")" + "(\/|$)", "i");
+            const currentLanguage = path.match(regex)[0];            
+
+            return path.replace(currentLanguage, "/" + language + "/");
+        };
+        return "/" + language;
+    };
+
     return <ul className="navbar-nav">
 
         <li className="nav-item dropdown">
