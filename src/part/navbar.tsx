@@ -10,7 +10,9 @@ function NavigationBarLanguageDropdown() {
             const regex = new RegExp("/" + "(" + languages.join("|") + ")" + "(\/|$)", "i");
             const currentLanguage = path.match(regex)[0];            
 
-            return path.replace(currentLanguage, "/" + language + "/");
+            return path
+                .replace(currentLanguage, "/" + language + "/")
+                .replace(/\/$/, "");
         };
         return "/" + language;
     };
