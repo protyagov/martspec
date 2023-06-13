@@ -2,7 +2,7 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale"
 
 function NavigationBarLanguageDropdown() {
-    const languages = Locale.supportedLanguages;
+    const languages = Locale.SUPPORTED_LANG;
     const path = location.pathname;    
 
     const getLanguageLink = (language: string) => {           
