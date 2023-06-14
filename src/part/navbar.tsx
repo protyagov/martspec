@@ -8,7 +8,7 @@ function NavigationBarLanguageDropdown() {
     const getLanguageLink = (language: string) => {           
         if (path.length > 1) {            
             const regex = new RegExp("/" + "(" + languages.join("|") + ")" + "(\/|$)", "i");
-            const currentLanguage = path.match(regex)[0];            
+            const currentLanguage = path.match(regex) ? path.match(regex)[0] : "/";            
 
             return path
                 .replace(currentLanguage, "/" + language + "/")
