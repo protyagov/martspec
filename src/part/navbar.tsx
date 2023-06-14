@@ -2,6 +2,21 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale"
 
 function NavigationBarLanguageDropdown() {
+    const languages = Locale.SUPPORTED_LANG;
+    const path = location.pathname;    
+
+    const getLanguageLink = (language: string) => {           
+        if (path.length > 1) {            
+            const regex = new RegExp("/" + "(" + languages.join("|") + ")" + "(\/|$)", "i");
+            const currentLanguage = path.match(regex) ? path.match(regex)[0] : "/";            
+
+            return path
+                .replace(currentLanguage, "/" + language + "/")
+                .replace(/\/$/, "");
+        };
+        return "/" + language;
+    };
+
     return <ul className="navbar-nav">
 
         <li className="nav-item dropdown">
@@ -9,39 +24,13 @@ function NavigationBarLanguageDropdown() {
               { Locale.languageName(Locale.language) }
             </a>
             <ul className="dropdown-menu">
-                <li hidden={Locale.language == 'en'}>
-                    <a className="nav-link dropdown-item" href="/en">English</a>
-                </li>
-                <li hidden={Locale.language == 'ru'}>
-                    <a className="nav-link dropdown-item" href="/ru">Русский</a>
-                </li>
-                <li hidden={Locale.language == 'de'}>
-                    <a className="nav-link dropdown-item" href="/de">Deutsche</a>
-                </li>
-                <li hidden={Locale.language == 'fr'}>
-                    <a className="nav-link dropdown-item" href="/fr">Français</a>
-                </li>
-                <li hidden={Locale.language == 'hi'}>
-                    <a className="nav-link dropdown-item" href="/hi">हिन्दी</a>
-                </li>
-                <li hidden={Locale.language == 'pt'}>
-                    <a className="nav-link dropdown-item" href="/pt">Português</a>
-                </li>
-                <li hidden={Locale.language == 'es'}>
-                    <a className="nav-link dropdown-item" href="/es">Español</a>
-                </li>
-                <li hidden={Locale.language == 'zh'}>
-                    <a className="nav-link dropdown-item" href="/zh">中文</a>
-                </li>
-                <li hidden={Locale.language == 'ja'}>
-                    <a className="nav-link dropdown-item" href="/ja">日本語</a>
-                </li>
-                <li hidden={Locale.language == 'ar'}>
-                    <a className="nav-link dropdown-item" href="/ar">عربي</a>
-                </li>
-                <li hidden={Locale.language == 'uk'}>
-                    <a className="nav-link dropdown-item" href="/uk">Українська</a>
-                </li>
+                {
+                    languages.map(language => (
+                        <li key={"nav-lang-link-" + language} hidden={Locale.language == language}>
+                            <a className="nav-link dropdown-item" href={ getLanguageLink(language) }>{ Locale.languageName(language) }</a>
+                        </li>
+                    ))
+                }
             </ul>
         </li>
     </ul>
