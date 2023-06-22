@@ -268,14 +268,14 @@
             "HEAD": "K",
             "NAME": "filoquinona, menaquinona",
             "DESK": "La vitamina ayuda a producir proteínas especiales necesarias para la coagulación de la sangre y la formación de huesos.",
-            "FUNC": "Synthesis of proteins. Participation in blood clotting and bone metabolism, and other diverse physiological functions.",
-            "DEF_1": "Bleedings",
-            "DEF_2": "Osteoporosis (brittle bones)",
-            "OVER_1": "No evidence of any risks",
-            "FACT_1": "Antibiotics block vitamin K metabolism",
-            "FACT_2": "Because vitamin K is fat-soluble, it is best to eat vitamin K foods with some fat to improve absorption",
-            "FACT_3": "Vitamin K transport across the placenta is poor, increasing the risk of vitamin K deficiency in newborn babies",
-            "FACT_4": "A study found that 180 mcg/day for 3 years improved bone strength and decreased the loss in spine height"
+            "FUNC": "Synthèse de protéines. Participation à la coagulation sanguine et au métabolisme osseux, et autres fonctions physiologiques diverses.",
+            "DEF_1": "Saignements",
+            "DEF_2": "Ostéoporose (os fragiles)",
+            "OVER_1": "Aucun signe de risque",
+            "FACT_1": "Les antibiotiques bloquent le métabolisme de la vitamine K",
+            "FACT_2": "Parce que la vitamine K est liposoluble, il est préférable de manger des aliments contenant de la vitamine K avec un peu de graisse pour améliorer l'absorption",
+            "FACT_3": "Le transport de la vitamine K à travers le placenta est médiocre, ce qui augmente le risque de carence en vitamine K chez les nouveau-nés",
+            "FACT_4": "Une étude a révélé que 180 mcg/jour pendant 3 ans amélioraient la solidité des os et diminuaient la perte de hauteur de la colonne vertébrale"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
