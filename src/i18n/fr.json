@@ -281,14 +281,14 @@
             "HEAD": "B1",
             "NAME": "tiamina",
             "DESK": "B1 es necesario para el metabolismo energético, importante para los mecanismos de conducción de los impulsos nerviosos, la síntesis de acetilcolina y otros procesos en el sistema nervioso.",
-            "FUNC": "Energy production from carbohydrates, fats, and proteins. Essential in glucose metabolism. Key role in nerve, muscle, and heart function.",
-            "DEF_1": "Problems with the peripheral nerves and wasting",
-            "DEF_2": "Short-term memory loss",
-            "DEF_3": "Weight loss and anorexia",
-            "OVER_1": "We have no evidence of any risks",
-            "FACT_1": "Boost the immune system in times of stress",
-            "FACT_2": "Tannis (chemical in tea and coffee) might hamper B1 absorption",
-            "FACT_3": "It is destroyed by high-heat or long cooking"
+            "FUNC": "Production d'énergie à partir de glucides, de lipides et de protéines. Essentiel au métabolisme du glucose. Rôle clé dans les fonctions nerveuses, musculaires et cardiaques.",
+            "DEF_1": "Problèmes avec les nerfs périphériques et dépérissement",
+            "DEF_2": "Perte de mémoire à court terme",
+            "DEF_3": "Perte de poids et anorexie",
+            "OVER_1": "Nous n'avons aucune preuve de risque",
+            "FACT_1": "Booster le système immunitaire en période de stress",
+            "FACT_2": "Le tanin (chimique dans le thé et le café) pourrait entraver l'absorption de B1",
+            "FACT_3": "Il est détruit par une cuisson à haute température ou longue"
         },
         "VITAMIN_B2": {
             "HEAD": "B2",
