@@ -1,0 +1,35 @@
+@import "color.scss";
+
+.emotion {
+  $violet: #EDE1FF;
+  $yellow: #FFF9E3;
+  $green: #E8FAE0;
+  $orange: #FDE3CB;
+  $blue: #D6E3FC;
+  $aqua: #D6F7FC;
+
+  h3 {
+    font-size: 1.8rem;
+    color: $ms-color-text-darker;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h2,
+  h3,
+  .vit-name {
+    overflow-wrap: anywhere;
+  }
+
+  .block {
+    background: $violet;
+
+    height: 100%;
+    padding: 2.8rem;
+    border-radius: 3rem;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

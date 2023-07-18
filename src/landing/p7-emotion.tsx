@@ -7,19 +7,52 @@ export default function P7Emotion() {
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page pb-5">
-            <section>
-                <img src="/img/p_emotion_screens3.512.webp" alt={_("EMOTION.IMG")} className="ms-base-image" width="512px" height="512px" />
-                <h1 className="text-center pt-3 ">{_("EMOTION.HEAD")}</h1>
+        <div className="ms-base-page pb-5 emotion">
+
+            <section className="text-center">
+                <div className="row">
+                    <div className="col">
+                        <img src="/img/emotion.png" className="ms-base-image" alt={_("EMOTION.IMG")} height={512} width={512} />
+                        <h1 className="text-center pt-3 mb-5">{_("EMOTION.HEAD")}</h1>
+                        <h3>Стресс, тревога, депрессия или резкие перепады настроения?</h3>
+                        <p>Приложение Эмоции поможет наблюдать у себя изменения в настроении в течение дня.</p>
+                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
+                            target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple mt-5"
+                            style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
+                        </a>
+                    </div>
+                </div>
             </section>
 
             <section>
-                <p className="mt-4">{_("EMOTION.ABOUT_1")}</p>
-                <p className="mt-4">{_("EMOTION.ABOUT_2")}</p>
-                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                    target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple"
-                    style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                </a>
+                <div className="row g-4 mb-4">
+                    <div className="col-md-8 col-12">
+                        <div className="block">
+                            <h3>Графики колебания</h3>
+                            <p>Представлены графики колебания тревожности, гармонии, энергии и другие независимости за каждый месяц.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-12">
+                        <div className="block">
+                            <h3>История измерений</h3>
+                            <p>Вы можете просматривать истории измерений по месяцам и годам.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="row g-4">
+                    <div className="col-md-4 col-12">
+                        <div className="block">
+                            <h3>Быстрое тестирование</h3>
+                            <p>Тест проходится меньше чем за минуту и сразу выдает готовый результат.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-8 col-12">
+                        <div className="block">
+                            <h3>Детальная диагностика</h3>
+                            <p>Показывает причины текущего состояния по категориям, реальное положение дел и ожидания.</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section>
