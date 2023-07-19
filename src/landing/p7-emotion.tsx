@@ -26,13 +26,13 @@ export default function P7Emotion() {
 
             <section>
                 <div className="row g-4 mb-4">
-                    <div className="col-md-8 col-12">
+                    <div className="col-lg-8">
                         <div className="block">
                             <h3>Графики колебания</h3>
                             <p>Представлены графики колебания тревожности, гармонии, энергии и другие независимости за каждый месяц.</p>
                         </div>
                     </div>
-                    <div className="col-md-4 col-12">
+                    <div className="col-lg-4">
                         <div className="block">
                             <h3>История измерений</h3>
                             <p>Вы можете просматривать истории измерений по месяцам и годам.</p>
@@ -40,13 +40,13 @@ export default function P7Emotion() {
                     </div>
                 </div>
                 <div className="row g-4">
-                    <div className="col-md-4 col-12">
+                    <div className="col-lg-4">
                         <div className="block">
                             <h3>Быстрое тестирование</h3>
                             <p>Тест проходится меньше чем за минуту и сразу выдает готовый результат.</p>
                         </div>
                     </div>
-                    <div className="col-md-8 col-12">
+                    <div className="col-lg-8">
                         <div className="block">
                             <h3>Детальная диагностика</h3>
                             <p>Показывает причины текущего состояния по категориям, реальное положение дел и ожидания.</p>
