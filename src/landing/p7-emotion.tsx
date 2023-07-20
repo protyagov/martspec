@@ -56,14 +56,19 @@ export default function P7Emotion() {
             </section>
 
             <section>
-                <h4>{_("EMOTION.HEAD1")}</h4>
-                <p className="mt-3">{_("EMOTION.DESC1_1")}</p>
-                <p className="mt-3">{_("EMOTION.DESC1_2")}</p>
+                <div className="row">
+                    <div className="col-lg-6 d-table">
+                        <div className="d-table-cell align-middle">
+                            <h2>Почему Эмоция?</h2>
+                            <p>В отличии от других тестов наш работает напрямую с подсознанием человека — не надо отвечать на 100 однотипных вопросов как в других тестах — позвольте вашему подсознанию делать работу</p>
+                            <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large button">Попробовать сейчас</a>
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <img src="/img/emotion-screens-1st.png" className="ms-base-image" alt="" height={512} width={512} />
+                    </div>
+                </div>
             </section>
-
-            <div className="text-center">
-                <img src="/img/p_emotion_screens2.512.webp" alt={_("EMOTION.IMG")} className="ms-base-image" width="512px" height="512px" />
-            </div>
 
             <section>
                 <h4>{_("EMOTION.HEAD2")}</h4>

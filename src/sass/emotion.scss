@@ -13,11 +13,11 @@
     color: $ms-color-text-darker;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    overflow-wrap: anywhere;
   }
 
-  h2,
-  h3,
-  .vit-name {
+  h2 {
+    color: $ms-color-text-black;
     overflow-wrap: anywhere;
   }
 
@@ -30,6 +30,18 @@
 
     p {
       margin-bottom: 0;
+    }
+  }
+
+  .button {
+    color: #FFFFFF;
+    background: #AD43D7;
+
+    &:hover {
+      background: #C17ADD;
+    }
+    &:active {
+      background: #780BA3 !important;
     }
   }
 }
