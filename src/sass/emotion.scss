@@ -1,12 +1,21 @@
 @import "color.scss";
 
 .emotion {
-  $violet: #EDE1FF;
-  $yellow: #FFF9E3;
-  $green: #E8FAE0;
-  $orange: #FDE3CB;
-  $blue: #D6E3FC;
-  $aqua: #D6F7FC;
+  $bgs: (
+    "violet": #EDE1FF,
+    "yellow": #FFF9E3,
+    "green": #E8FAE0,
+    "orange": #FDE3CB,
+    "blue": #D6E3FC,
+    "aqua": #D6F7FC,
+    "gray": $ms-color-bg-secondary,
+  );
+
+  @each $color, $hex in $bgs {
+    .bg-#{$color} {
+      background: $hex;
+    }
+  };
 
   h3 {
     font-size: 1.8rem;
@@ -22,8 +31,6 @@
   }
 
   .block {
-    background: $violet;
-
     height: 100%;
     padding: 2.8rem;
     border-radius: 3rem;

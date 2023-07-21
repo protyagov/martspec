@@ -27,13 +27,13 @@ export default function P7Emotion() {
             <section>
                 <div className="row g-4 mb-4">
                     <div className="col-lg-8">
-                        <div className="block">
+                        <div className="block bg-violet">
                             <h3>Графики колебания</h3>
                             <p>Представлены графики колебания тревожности, гармонии, энергии и другие независимости за каждый месяц.</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className="block">
+                        <div className="block bg-yellow">
                             <h3>История измерений</h3>
                             <p>Вы можете просматривать истории измерений по месяцам и годам.</p>
                         </div>
@@ -41,13 +41,13 @@ export default function P7Emotion() {
                 </div>
                 <div className="row g-4">
                     <div className="col-lg-4">
-                        <div className="block">
+                        <div className="block bg-yellow">
                             <h3>Быстрое тестирование</h3>
                             <p>Тест проходится меньше чем за минуту и сразу выдает готовый результат.</p>
                         </div>
                     </div>
                     <div className="col-lg-8">
-                        <div className="block">
+                        <div className="block bg-violet">
                             <h3>Детальная диагностика</h3>
                             <p>Показывает причины текущего состояния по категориям, реальное положение дел и ожидания.</p>
                         </div>
@@ -70,7 +70,7 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section className="bg-gray">
+            <section className="bg-gray py-5">
                 <div className="row mb-5">
                     <div className="col-lg-6 d-table">
                         <img src="/img/emotion-diagram-1.png" className="img-fluid mx-0 px-0" alt="" height={512} />
@@ -85,19 +85,19 @@ export default function P7Emotion() {
                 </div>
                 <div className="row">
                     <div className="col-4">
-                        <div className="block">
+                        <div className="block bg-yellow">
                             <h3>Физический</h3>
                             <p>Физический биоритм связан с физическими циклами тела и энергетическими уровнями. Биоритм влияет выносливость, скорость, быстрота реакции и мышечная сила.</p>
                         </div>
                     </div>
                     <div className="col-4">
-                        <div className="block">
+                        <div className="block bg-green">
                             <h3>Эмоциональный</h3>
                             <p>Эмоциональный биоритм человека отображает цикличность чувствительности, определяет его творческие возможности, общее психическое состояние.</p>
                         </div>
                     </div>
                     <div className="col-4">
-                        <div className="block">
+                        <div className="block bg-violet">
                             <h3>Интеллектуальный</h3>
                             <p>Интеллектуальный связан с психическими процессами. Характеризуется остротой ума, легким решением задач, с другой стороны  - дискомфортом и стрессом.</p>
                         </div>
