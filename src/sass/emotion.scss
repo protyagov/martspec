@@ -17,6 +17,12 @@
     }
   };
 
+  h4 {
+    font-size: 1.7rem;
+    color: $ms-color-text-darker;
+    font-family: os5;
+  }
+
   h3 {
     font-size: 1.8rem;
     color: $ms-color-text-darker;
@@ -57,5 +63,20 @@
 
   .full-width {
     max-width: none !important;
+  }
+
+  .how-list {
+    padding: 0;
+    flex-wrap: wrap;
+
+    li {
+      flex-shrink: 0;
+      list-style: none;
+      display: block;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 0;
+      font-family: os4;
+    }
   }
 }

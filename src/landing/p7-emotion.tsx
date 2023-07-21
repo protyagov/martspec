@@ -106,9 +106,25 @@ export default function P7Emotion() {
             </section>
 
             <section>
-                <h4>{_("EMOTION.HEAD3")}</h4>
-                <p className="mt-3">{_("EMOTION.DESC3_1")}</p>
-                <p className="mt-3">{_("EMOTION.DESC3_2")}</p>
+                <div className="row">
+                    <div className="col-lg-6 d-table">
+                        <div className="d-table-cell align-middle">
+                            <h2>Как это работает?</h2>
+                            <p>Посмотрите и выберите цвет, который вам больше всего нравится. Из оставшихся 7 цветов снова выберите цвет, и так до тех пор, пока не закончатся варианты. Повторив описанную выше процедуру вы получите более подробный результат.</p>
+                            <h4 className="mb-4">Углубленное тестирование включает:</h4>
+                            <ul className="d-flex gap-4 how-list">
+                                <li className="bg-orange">Что вы желаете прямо сейчас</li>
+                                <li className="bg-aqua">Актуальную проблему</li>
+                                <li className="bg-yellow">Что вас ожидает в будущем</li>
+                                <li className="bg-violet">Ваш источник стресса</li>
+                                <li className="bg-blue">Что вы чувствуете в данный момент</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <img src="/img/emotion-screen-2.png" className="ms-base-image" alt="" height={512} width={512} />
+                    </div>
+                </div>
             </section>
 
             <div className="pb-5 text-center">
