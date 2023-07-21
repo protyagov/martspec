@@ -79,4 +79,22 @@
       font-family: os4;
     }
   }
+
+  .why-list {
+    padding: 0;
+    columns: 2;
+
+    li {
+      $marker-width: 24px;
+
+      list-style: none;
+      display: flex;
+      align-items: top;
+
+      &::before {
+        content: url("../img/emotion-check-icon.svg");
+        margin-right: 14px;
+      }
+    }
+  }
 }
