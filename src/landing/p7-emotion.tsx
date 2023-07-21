@@ -127,9 +127,28 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <div className="pb-5 text-center">
-                <img src="/img/p_emotion_screens4.512.webp" alt={_("MAIN.P3.IMG")} className="ms-base-image" width="512px" height="512px" />
-            </div>
+            <section>
+                <div className="row">
+                    <div className="col-lg-6">
+                        <img src="/img/emotion-screen-3.png" className="ms-base-image" alt="" height={512} width={512} />
+                    </div>
+                    <div className="col-lg-6 d-table">
+                        <div className="d-table-cell align-middle">
+                            <h2>Почему это работает</h2>
+                            <p>Приложение использует цвет в качестве визуального представления - следуя цветовой схеме. Пользователь должен относится к приложению как к инструменту для самосознания. Цветовой тест является оптимальным инструментом для анализа конфликтов, вопросов личной жизни, случайных изменений настроения.</p>
+                            <h4 className="mb-4">Эмоция подходит для:</h4>
+                            <ul className="why-list">
+                                <li><span>Людей стремящиеся к саморазвитию</span></li>
+                                <li><span>Людям, для лучшего понимания партнера</span></li>
+                                <li><span>Студентам при подготовке к тестам или экзаменам</span></li>
+                                <li><span>Любителям заниматься  фитнесом и спорта</span></li>
+                                <li><span>Исследования аналитики данных</span></li>
+                                <li><span>Клиент реабилитационных центров</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section>
                 <h4>{_("EMOTION.HEAD4")}</h4>
