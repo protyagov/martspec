@@ -70,10 +70,39 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section>
-                <h4>{_("EMOTION.HEAD2")}</h4>
-                <p className="mt-3">{_("EMOTION.DESC2_1")}</p>
-                <p className="mt-3">{_("EMOTION.DESC2_2")}</p>
+            <section className="bg-gray">
+                <div className="row mb-5">
+                    <div className="col-lg-6 d-table">
+                        <img src="/img/emotion-diagram-1.png" className="img-fluid mx-0 px-0" alt="" height={512} />
+                    </div>
+                    <div className="col-lg-6 d-table">
+                        <div className="d-table-cell align-middle">
+                            <h2>Биоритмы</h2>
+                            <p>Приложение предлагает 3 цикла, благодаря которым вы сможете контролировать регулярные или периодические повторения во всех жизненных процессов. У каждого цикла есть 5 фаз, которые более детально описывают конкретные характеристики и особенности состояния.</p>
+                            <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large button">Узнать больше </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-4">
+                        <div className="block">
+                            <h3>Физический</h3>
+                            <p>Физический биоритм связан с физическими циклами тела и энергетическими уровнями. Биоритм влияет выносливость, скорость, быстрота реакции и мышечная сила.</p>
+                        </div>
+                    </div>
+                    <div className="col-4">
+                        <div className="block">
+                            <h3>Эмоциональный</h3>
+                            <p>Эмоциональный биоритм человека отображает цикличность чувствительности, определяет его творческие возможности, общее психическое состояние.</p>
+                        </div>
+                    </div>
+                    <div className="col-4">
+                        <div className="block">
+                            <h3>Интеллектуальный</h3>
+                            <p>Интеллектуальный связан с психическими процессами. Характеризуется остротой ума, легким решением задач, с другой стороны  - дискомфортом и стрессом.</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section>

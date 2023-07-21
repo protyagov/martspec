@@ -28,6 +28,9 @@
     padding: 2.8rem;
     border-radius: 3rem;
 
+    h3 {
+      font-weight: 600;
+    }
     p {
       margin-bottom: 0;
     }
@@ -43,5 +46,9 @@
     &:active {
       background: #780BA3 !important;
     }
+  }
+
+  .full-width {
+    max-width: none !important;
   }
 }
