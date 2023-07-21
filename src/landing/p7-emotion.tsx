@@ -65,7 +65,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img src="/img/emotion-screens-1st.png" className="ms-base-image" alt="" height={512} width={512} />
+                        <img src="/img/emotion-screen-1.png" className="ms-base-image" alt="" height={512} width={512} />
                     </div>
                 </div>
             </section>
