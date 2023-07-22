@@ -107,4 +107,36 @@
       }
     }
   }
+
+  .advantages-list {
+    .li {
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+      column-gap: 1.5rem;
+    }
+    .icon {
+      flex: 0 0 76px;
+
+      height: 76px;
+      width: 76px;
+      background: map-get($bgs, "violet");
+      border-radius: 18px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & > img {
+        padding: 0;
+        margin: 0;
+      }
+    }
+    h4 {
+      margin-top: 0;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
 }

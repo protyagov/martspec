@@ -150,9 +150,44 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section>
-                <h4>{_("EMOTION.HEAD4")}</h4>
-                <p className="mt-3">{_("EMOTION.DESC4")}</p>
+            <section className="bg-gray py-5">
+                <div className="row">
+                    <h2>Наши преимущества</h2>
+                </div>
+                <div className="row advantages-list">
+                    <div className="col-lg-6 pe-3">
+                        <div className="li mb-3">
+                            <div className="icon"><img src="/img/emotion-icon-1.svg" alt="" /></div>
+                            <div>
+                                <h4>Защита данных</h4>
+                                <p>Мы НЕ храним ваши данные на наших серверах.</p>
+                            </div>
+                        </div>
+                        <div className="li mb-3">
+                            <div className="icon"><img src="/img/emotion-icon-2.svg" alt="" /></div>
+                            <div>
+                                <h4>Без авторизации</h4>
+                                <p>Учётная запись для этого приложения не требуется.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="li mb-3">
+                            <div className="icon"><img src="/img/emotion-icon-3.svg" alt="" /></div>
+                            <div>
+                                <h4>Синхронизация</h4>
+                                <p>Данные автоматически переносятся на все устройства.</p>
+                            </div>
+                        </div>
+                        <div className="li mb-3">
+                            <div className="icon"><img src="/img/emotion-icon-4.svg" alt="" /></div>
+                            <div>
+                                <h4>Без рекламы</h4>
+                                <p>У нас НЕТ раздражающей рекламы.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section>
