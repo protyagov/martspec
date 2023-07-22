@@ -188,6 +188,64 @@ export default function P7Emotion() {
                         </div>
                     </div>
                 </div>
+
+                <div className="row">
+                    <h2>Наши преимущества</h2>
+                </div>
+                <div className="metrics-list">
+
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="block bg-violet">
+                                <h4>Тревожность</h4>
+                                <p>Это эмоция, характеризующая чувством напряжения и мыслями беспокойства на конкретную угрозу.</p>
+                                <a href={"/"}><span>Читать дальше</span></a>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="block bg-green">
+                                <h4>Продуктивность</h4>
+                                <p>Показывает насколько эффективно и результативно вы способны выполнять задачи.</p>
+                                <a href={"/"}><span>Читать дальше</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="block bg-aqua">
+                                <h4>Гармоничность</h4>
+                                <p>Состояние, когда все аспекты личности находятся в балансе и работают в гармонии друг с другом.</p>
+                                <a href={"/"}><span>Читать дальше</span></a>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="block bg-orange">
+                                <h4>Независимость</h4>
+                                <p>Эмоция относится к способу принимать решения и брать на себя ответственность.</p>
+                                <a href={"/"}><span>Читать дальше</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-lg-6">                        
+                            <div className="block bg-yellow">
+                                <h4>Энергичность</h4>
+                                <p>Показывает количество энергии, так званого “Зеленого уровня” который способствует достижению целей.</p>
+                                <a href={"/"}><span>Читать дальше</span></a>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="block bg-blue">
+                                <h4>Открытость</h4>
+                                <p>Это эмоция, описывает насколько люди открыты для новых идей и опытов..</p>
+                                <a href={"/"}><span>Читать дальше</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
 
             <section>

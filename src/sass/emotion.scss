@@ -21,6 +21,7 @@
     font-size: 1.7rem;
     color: $ms-color-text-darker;
     font-family: os5;
+    margin-top: 0;
   }
 
   h3 {
@@ -56,6 +57,12 @@
     }
     p {
       margin-bottom: 0;
+    }
+    a {
+      font-size: 1.5rem;
+      font-family: os4;
+      text-decoration: none;
+      color: $ms-color-text-black;
     }
   }
 
@@ -132,11 +139,25 @@
         margin: 0;
       }
     }
-    h4 {
-      margin-top: 0;
-    }
     p {
       margin-bottom: 0;
+    }
+  }
+
+  .metrics-list {
+    .block {
+      display: flex;
+      flex-direction: column;
+      p {
+        flex: 1 0;
+      }
+    }
+    a {
+      margin-top: 1.5rem;
+    }
+    span::after {
+      content: url("../img/emotion-icon-5.svg");
+      margin-left: 15px;
     }
   }
 }
