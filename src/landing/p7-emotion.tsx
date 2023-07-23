@@ -300,10 +300,25 @@ export default function P7Emotion() {
                     </div>
                 </div>
             </section>
-        </div>
 
-        <div className="container mb-5 pb-5 text-center">
-            <img src="/img/p_emotion_screens.512.webp" alt={_("EMOTION.IMG")} className="ms-base-image" width="512px" height="512px" />
+            <section>
+                <div className="row">
+                    <div className="d-flex block bg-violet">
+                        <div className="col-lg-6 d-flex flex-column">
+                            <h2>Наше приложение доступно для любого устройства</h2>
+                            <p className="flex-grow-1">Скачайте приложение прямо сейчас и начните следить у себя за изменением в настроении даже в течение одного и того же дня</p>
+                            <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
+                                target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple mt-5"
+                                style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
+                            </a>
+                        </div>
+                        <div className="col-lg-6">
+                            <img src="/img/emotion-screen-6.png" className="img-fluid pt-0" alt="" height={512} width={512} />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
         </div>
 
         <Footer />
