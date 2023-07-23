@@ -37,6 +37,11 @@
     overflow-wrap: anywhere;
   }
 
+  img {
+    padding-top: 0;
+    max-width: none;
+  }
+
   section {
     max-width: 100% !important;
     padding-left: 0 !important;

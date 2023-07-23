@@ -73,7 +73,7 @@ export default function P7Emotion() {
             <section className="bg-gray py-5">
                 <div className="row mb-5">
                     <div className="col-lg-6 d-table">
-                        <img src="/img/emotion-diagram-1.png" className="img-fluid mx-0 px-0" alt="" height={512} />
+                        <img src="/img/emotion-diagram-1.png" className="img-fluid mx-0 px-0" alt="" height={512} width={512} />
                     </div>
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
@@ -302,7 +302,7 @@ export default function P7Emotion() {
             </section>
 
             <section>
-                <div className="row">
+                <div className="row justify-content-between">
                     <div className="d-flex block bg-violet">
                         <div className="col-lg-6 d-flex flex-column">
                             <h2>Наше приложение доступно для любого устройства</h2>
@@ -313,7 +313,7 @@ export default function P7Emotion() {
                             </a>
                         </div>
                         <div className="col-lg-6">
-                            <img src="/img/emotion-screen-6.png" className="img-fluid pt-0" alt="" height={512} width={512} />
+                            <img src="/img/emotion-screen-6.png" className="img-fluid ms-auto me-0" alt="" height={400} width={400} />
                         </div>
                     </div>
                 </div>
