@@ -98,18 +98,19 @@
   }
 
   .why-list {
-    padding: 0;
-    columns: 2;
+    display: flex;
+    flex-wrap: wrap;
 
-    li {
-      $marker-width: 24px;
+    p {
+      flex: 1 0 50%;
 
-      list-style: none;
       display: flex;
-      align-items: top;
+      padding-right: 10px;
+      margin-bottom: 20px;
 
       &::before {
         content: url("../img/emotion-check-icon.svg");
+        margin-top: 4px;
         margin-right: 14px;
       }
     }
