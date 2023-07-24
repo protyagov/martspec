@@ -55,8 +55,8 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section>
-                <div className="row">
+            <section className="py-5">
+                <div className="row py-5">
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>Почему Эмоция?</h2>
@@ -70,8 +70,8 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section className="bg-gray py-5">
-                <div className="row mb-5">
+            <section className="bg-gray py-4">
+                <div className="row py-5">
                     <div className="col-lg-6 d-table">
                         <img src="/img/emotion-diagram-1.png" className="img-fluid mx-0 px-0" alt="" height={512} width={512} />
                     </div>
@@ -106,7 +106,7 @@ export default function P7Emotion() {
             </section>
 
             <section>
-                <div className="row">
+                <div className="row py-4">
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>Как это работает?</h2>
@@ -128,7 +128,7 @@ export default function P7Emotion() {
             </section>
 
             <section>
-                <div className="row">
+                <div className="row py-5">
                     <div className="col-lg-6">
                         <img src="/img/emotion-screen-3.png" className="ms-base-image" alt="" height={512} width={512} />
                     </div>
@@ -259,13 +259,13 @@ export default function P7Emotion() {
             </section>
 
             <section>
-                <div className="row">
+                <div className="row py-5">
                     <div className="col-lg-6">
                         <h2>Применение</h2>
                         <p>Тест дает обширную, свободную от сознательного контроля испытуемого характеристику его эмоционального состояния. Тест хорошо работает даже с дальтониками и теми, кто, как им кажется, нарочно выбирает не то, что им нравится.</p>
                     </div>
                 </div>
-                <div className="row mb-md-5">
+                <div className="row mb-lg-4 gx-5">
                     <div className="col-lg-4 col-md-6">
                         <div className="icon mb-5"><img src="/img/emotion-icon-6.svg" alt="" /></div>
                         <h4>Для контроля динамики эмоций спортсменов</h4>
@@ -282,7 +282,7 @@ export default function P7Emotion() {
                         <p>Медицинскими психологами тест может быть использован при отборе кандидатов в психотерапевтические группы для более адекватного подбора, для контроля за процессом психической реабилитации у каждого больного.</p>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row gx-5">
                     <div className="col-lg-4 col-md-6">
                         <div className="icon mb-5"><img src="/img/emotion-icon-9.svg" alt="" /></div>
                         <h4>Анализ производительности на предприятиях</h4>
@@ -302,13 +302,13 @@ export default function P7Emotion() {
             </section>
 
             <section>
-                <div className="row justify-content-between">
+                <div className="row py-5 justify-content-between">
                     <div className="d-flex block bg-violet">
                         <div className="col-lg-6 d-flex flex-column">
                             <h2>Наше приложение доступно для любого устройства</h2>
                             <p className="flex-grow-1">Скачайте приложение прямо сейчас и начните следить у себя за изменением в настроении даже в течение одного и того же дня</p>
                             <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                                target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple mt-5"
+                                target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple mb-5"
                                 style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                             </a>
                         </div>
