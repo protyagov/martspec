@@ -25,7 +25,7 @@ export default function P7Emotion() {
             </section>
 
             <section>
-                <div className="row g-4 mb-4">
+                <div className="row g-4 py-5 mb-4">
                     <div className="col-lg-8">
                         <div className="block bg-violet">
                             <h3>Графики колебания</h3>
@@ -151,14 +151,14 @@ export default function P7Emotion() {
             </section>
 
             <section className="bg-gray py-5">
-                <div className="row">
+                <div className="row pt-5 mb-3">
                     <h2>Наши преимущества</h2>
                 </div>
                 <div className="advantages-list">
 
                     <div className="row">
                         <div className="col-lg-6 pe-3">
-                            <div className="li mb-3">
+                            <div className="li">
                                 <div className="icon"><img src="/img/emotion-icon-1.svg" alt="" /></div>
                                 <div>
                                     <h4>Защита данных</h4>
@@ -167,7 +167,7 @@ export default function P7Emotion() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="li mb-3">
+                            <div className="li">
                                 <div className="icon"><img src="/img/emotion-icon-2.svg" alt="" /></div>
                                 <div>
                                     <h4>Синхронизация</h4>
@@ -179,7 +179,7 @@ export default function P7Emotion() {
 
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="li mb-3">
+                            <div className="li">
                                 <div className="icon"><img src="/img/emotion-icon-3.svg" alt="" /></div>
                                 <div>
                                     <h4>Без авторизации</h4>
@@ -188,7 +188,7 @@ export default function P7Emotion() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="li mb-3">
+                            <div className="li">
                                 <div className="icon"><img src="/img/emotion-icon-4.svg" alt="" /></div>
                                 <div>
                                     <h4>Без рекламы</h4>

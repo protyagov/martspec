@@ -122,6 +122,9 @@
   }
 
   .advantages-list {
+    .row {
+      margin-bottom: 3rem;
+    }
     .li {
       display: flex;
       align-items: center;
