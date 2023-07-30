@@ -9,7 +9,7 @@ export default function P7Emotion() {
 
         <div className="ms-base-page pb-5 emotion">
 
-            <section className="text-center">
+            <section className="pb-5 text-center">
                 <div className="row">
                     <div className="col">
                         <img src="/img/emotion.png" className="ms-base-image" alt={_("EMOTION.IMG")} height={512} width={512} />
@@ -24,8 +24,8 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section>
-                <div className="row g-4 py-5 mb-4">
+            <section className="mb-0 pb-5">
+                <div className="row g-4 mb-4">
                     <div className="col-lg-8">
                         <div className="block bg-violet">
                             <h3>Графики колебания</h3>
@@ -55,8 +55,8 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section className="py-5">
-                <div className="row py-5">
+            <section className="mb-5 pb-5">
+                <div className="row">
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>Почему Эмоция?</h2>
@@ -70,8 +70,8 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section className="bg-gray py-4">
-                <div className="row py-5">
+            <section className="bg-gray py-5">
+                <div className="row mt-5 pt-5">
                     <div className="col-lg-6 d-table">
                         <img src="/img/emotion-diagram-1.png" className="img-fluid mx-0 px-0" alt="" height={512} width={512} />
                     </div>
@@ -83,7 +83,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row py-5">
                     <div className="col-4">
                         <div className="block bg-yellow">
                             <h3>Физический</h3>
@@ -105,8 +105,8 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section>
-                <div className="row py-4">
+            <section className="pt-4">
+                <div className="row">
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>Как это работает?</h2>
@@ -127,8 +127,8 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section>
-                <div className="row py-5">
+            <section className="py-5">
+                <div className="row">
                     <div className="col-lg-6">
                         <img src="/img/emotion-screen-3.png" className="ms-base-image" alt="" height={512} width={512} />
                     </div>
@@ -151,12 +151,12 @@ export default function P7Emotion() {
             </section>
 
             <section className="bg-gray py-5">
-                <div className="row pt-5 mb-3">
-                    <h2>Наши преимущества</h2>
-                </div>
-                <div className="advantages-list">
+                <div className="py-5 advantages-list">
 
-                    <div className="row">
+                    <div className="row my-2">
+                        <div className="col-12">
+                            <h2>Наши преимущества</h2>
+                        </div>
                         <div className="col-lg-6 pe-3">
                             <div className="li">
                                 <div className="icon"><img src="/img/emotion-icon-1.svg" alt="" /></div>
@@ -175,9 +175,7 @@ export default function P7Emotion() {
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="row">
                         <div className="col-lg-6">
                             <div className="li">
                                 <div className="icon"><img src="/img/emotion-icon-3.svg" alt="" /></div>
@@ -199,12 +197,13 @@ export default function P7Emotion() {
                     </div>
                 </div>
 
-                <div className="row">
-                    <h2>Показатели</h2>
-                </div>
-                <div className="metrics-list">
 
-                    <div className="row">
+                <div className="pb-5 metrics-list">
+
+                    <div className="row g-4">
+                        <div className="col-12 pb-4">
+                            <h2>Показатели</h2>
+                        </div>
                         <div className="col-lg-6">
                             <div className="block bg-violet">
                                 <h4>Тревожность</h4>
@@ -221,7 +220,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row g-4">
                         <div className="col-lg-6">
                             <div className="block bg-aqua">
                                 <h4>Гармоничность</h4>
@@ -238,7 +237,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row g-4">
                         <div className="col-lg-6">                        
                             <div className="block bg-yellow">
                                 <h4>Энергичность</h4>
@@ -258,9 +257,9 @@ export default function P7Emotion() {
 
             </section>
 
-            <section>
-                <div className="row py-5">
-                    <div className="col-lg-6">
+            <section className="pt-5">
+                <div className="row pt-4">
+                    <div className="col-lg-6 pb-3">
                         <h2>Применение</h2>
                         <p>Тест дает обширную, свободную от сознательного контроля испытуемого характеристику его эмоционального состояния. Тест хорошо работает даже с дальтониками и теми, кто, как им кажется, нарочно выбирает не то, что им нравится.</p>
                     </div>
