@@ -103,6 +103,15 @@
       margin-bottom: 0;
       font-family: os4;
     }
+
+    @media only screen and (max-width: $ms-screen-lg) {
+      li {
+        flex-basis: calc(50% - 0.75rem);
+      }
+      li:last-child {
+        flex-basis: 100%;
+      }
+    }
   }
 
   .why-list {
