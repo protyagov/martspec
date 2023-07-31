@@ -40,16 +40,16 @@ export default function P7Emotion() {
                     </div>
                 </div>
                 <div className="row g-4">
-                    <div className="col-lg-4">
-                        <div className="block bg-yellow">
-                            <h3>Быстрое тестирование</h3>
-                            <p>Тест проходится меньше чем за минуту и сразу выдает готовый результат.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 order-lg-4">
                         <div className="block bg-violet">
                             <h3>Детальная диагностика</h3>
                             <p>Показывает причины текущего состояния по категориям, реальное положение дел и ожидания.</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 order-lg-3">
+                        <div className="block bg-yellow">
+                            <h3>Быстрое тестирование</h3>
+                            <p>Тест проходится меньше чем за минуту и сразу выдает готовый результат.</p>
                         </div>
                     </div>
                 </div>
