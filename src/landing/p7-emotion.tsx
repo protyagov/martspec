@@ -72,31 +72,31 @@ export default function P7Emotion() {
 
             <section className="bg-gray py-5">
                 <div className="row mt-5 pt-5">
-                    <div className="col-lg-6 d-table">
-                        <img src="/img/emotion-diagram-1.png" className="img-fluid mx-0 px-0" alt="" height={512} width={512} />
-                    </div>
-                    <div className="col-lg-6 d-table">
+                    <div className="col-lg-6 d-table mb-lg-0 mb-4">
                         <div className="d-table-cell align-middle">
                             <h2>Биоритмы</h2>
                             <p>Приложение предлагает 3 цикла, благодаря которым вы сможете контролировать регулярные или периодические повторения во всех жизненных процессов. У каждого цикла есть 5 фаз, которые более детально описывают конкретные характеристики и особенности состояния.</p>
                             <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large button">Узнать больше </a>
                         </div>
                     </div>
+                    <div className="col-lg-6 d-table order-lg-first pt-lg-0 pt-5">
+                        <img src="/img/emotion-diagram-1.png" className="img-fluid mx-0 px-0" alt="" height={512} />
+                    </div>
                 </div>
-                <div className="row py-5">
-                    <div className="col-4">
+                <div className="row py-5 g-4">
+                    <div className="col-lg-4 col-12">
                         <div className="block bg-yellow">
                             <h3>Физический</h3>
                             <p>Физический биоритм связан с физическими циклами тела и энергетическими уровнями. Биоритм влияет выносливость, скорость, быстрота реакции и мышечная сила.</p>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-lg-4 col-12">
                         <div className="block bg-green">
                             <h3>Эмоциональный</h3>
                             <p>Эмоциональный биоритм человека отображает цикличность чувствительности, определяет его творческие возможности, общее психическое состояние.</p>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-lg-4 col-12">
                         <div className="block bg-violet">
                             <h3>Интеллектуальный</h3>
                             <p>Интеллектуальный связан с психическими процессами. Характеризуется остротой ума, легким решением задач, с другой стороны  - дискомфортом и стрессом.</p>
