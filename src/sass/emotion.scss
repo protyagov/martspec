@@ -115,20 +115,22 @@
   }
 
   .why-list {
-    display: flex;
-    flex-wrap: wrap;
-
     p {
-      flex: 1 0 50%;
+      flex: 0 0 calc(50% - 0.75rem);
 
       display: flex;
-      padding-right: 10px;
       margin-bottom: 20px;
 
       &::before {
         content: url("../img/emotion-check-icon.svg");
         margin-top: 4px;
         margin-right: 14px;
+      }
+    }
+
+    @media only screen and (max-width: $ms-screen-lg) {
+      p {
+        flex-basis: 100%;
       }
     }
   }
