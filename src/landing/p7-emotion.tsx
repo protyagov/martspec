@@ -38,8 +38,6 @@ export default function P7Emotion() {
                             <p>Вы можете просматривать истории измерений по месяцам и годам.</p>
                         </div>
                     </div>
-                </div>
-                <div className="row g-4">
                     <div className="col-lg-8 order-lg-4">
                         <div className="block bg-violet">
                             <h3>Детальная диагностика</h3>
@@ -220,9 +218,7 @@ export default function P7Emotion() {
                                 <a href={"/"}><span>Читать дальше</span></a>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="row g-4">
                         <div className="col-lg-6">
                             <div className="block bg-aqua">
                                 <h4>Гармоничность</h4>
@@ -237,9 +233,7 @@ export default function P7Emotion() {
                                 <a href={"/"}><span>Читать дальше</span></a>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="row g-4">
                         <div className="col-lg-6">                        
                             <div className="block bg-yellow">
                                 <h4>Энергичность</h4>
