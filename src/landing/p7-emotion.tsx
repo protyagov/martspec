@@ -131,12 +131,13 @@ export default function P7Emotion() {
             <section className="py-5">
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src="/img/emotion-screen-3.png" className="ms-base-image" alt="" height={512} width={512} />
+                        <img src="/img/emotion-screen-3.png" className="ms-base-image d-none d-lg-block" alt="" height={512} width={512} />
                     </div>
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>Почему это работает</h2>
                             <p>Приложение использует цвет в качестве визуального представления - следуя цветовой схеме. Пользователь должен относится к приложению как к инструменту для самосознания. Цветовой тест является оптимальным инструментом для анализа конфликтов, вопросов личной жизни, случайных изменений настроения.</p>
+                            <img src="/img/emotion-screen-3.png" className="ms-base-image d-block d-lg-none" alt="" height={512} width={512} />
                             <h4 className="mb-4">Эмоция подходит для:</h4>
                             <div className="why-list">
                                 <p>Людей стремящиеся к саморазвитию</p>
