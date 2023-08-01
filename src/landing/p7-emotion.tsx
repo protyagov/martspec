@@ -303,18 +303,18 @@ export default function P7Emotion() {
             </section>
 
             <section>
-                <div className="row py-5 justify-content-between">
-                    <div className="d-flex block bg-violet">
-                        <div className="col-lg-6 d-flex flex-column">
+                <div className="row py-5 text-lg-start text-center">
+                    <div className="d-flex flex-lg-row flex-column block bg-violet">
+                        <div className="col-lg-6 col-12 d-flex flex-column">
                             <h2>Наше приложение доступно для любого устройства</h2>
                             <p className="flex-grow-1">Скачайте приложение прямо сейчас и начните следить у себя за изменением в настроении даже в течение одного и того же дня</p>
                             <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                                target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple mb-5"
+                                target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple my-5 mx-lg-0 mx-auto"
                                 style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                             </a>
                         </div>
-                        <div className="col-lg-6">
-                            <img src="/img/emotion-screen-6.png" className="img-fluid ms-auto me-0" alt="" height={400} width={400} />
+                        <div className="col-lg-6 col-8 mx-auto">
+                            <img src="/img/emotion-screen-6.png" className="img-fluid ms-lg-auto me-lg-0" alt="" height={400} width={400} />
                         </div>
                     </div>
                 </div>
