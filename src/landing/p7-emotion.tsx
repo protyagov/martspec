@@ -111,6 +111,7 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>Как это работает?</h2>
                             <p>Посмотрите и выберите цвет, который вам больше всего нравится. Из оставшихся 7 цветов снова выберите цвет, и так до тех пор, пока не закончатся варианты. Повторив описанную выше процедуру вы получите более подробный результат.</p>
+                            <img src="/img/emotion-screen-2.png" className="ms-base-image d-block d-lg-none" alt="" height={512} width={512} />
                             <h4 className="mb-4">Углубленное тестирование включает:</h4>
                             <ul className="d-flex gap-4 how-list">
                                 <li className="bg-orange">Что вы желаете прямо сейчас</li>
@@ -122,7 +123,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img src="/img/emotion-screen-2.png" className="ms-base-image" alt="" height={512} width={512} />
+                        <img src="/img/emotion-screen-2.png" className="ms-base-image d-none d-lg-block" alt="" height={512} width={512} />
                     </div>
                 </div>
             </section>
