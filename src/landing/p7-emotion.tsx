@@ -63,7 +63,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img src="/img/emotion-screen-1.png" className="ms-base-image" alt="" height={512} width={512} />
+                        <img src="/img/emotion-screen-1.png" className="ms-base-image" alt={_("EMOTION.ALT1")} height={512} width={512} />
                     </div>
                 </div>
             </section>
@@ -78,7 +78,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6 d-table order-lg-first pt-lg-0 pt-5">
-                        <img src="/img/emotion-diagram-1.png" className="img-fluid mx-0 px-0" alt="" height={512} />
+                        <img src="/img/emotion-diagram-1.png" className="img-fluid mx-0 px-0" alt={_("EMOTION.ALT2")} height={512} />
                     </div>
                 </div>
                 <div className="row py-5 g-4">
@@ -109,7 +109,7 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD3")}</h2>
                             <p>{_("EMOTION.DESK3_1")}</p>
-                            <img src="/img/emotion-screen-2.png" className="ms-base-image d-block d-lg-none" alt="" height={512} width={512} />
+                            <img src="/img/emotion-screen-2.png" className="ms-base-image d-block d-lg-none" alt={_("EMOTION.ALT3")} height={512} width={512} />
                             <h4 className="mb-4">{_("EMOTION.DESK3_2")}</h4>
                             <ul className="d-flex gap-4 how-list">
                                 <li className="bg-orange">{_("EMOTION.LIST3.LI1_TEXT")}</li>
@@ -121,7 +121,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img src="/img/emotion-screen-2.png" className="ms-base-image d-none d-lg-block" alt="" height={512} width={512} />
+                        <img src="/img/emotion-screen-2.png" className="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT3")} height={512} width={512} />
                     </div>
                 </div>
             </section>
@@ -129,13 +129,13 @@ export default function P7Emotion() {
             <section className="py-5">
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src="/img/emotion-screen-3.png" className="ms-base-image d-none d-lg-block" alt="" height={512} width={512} />
+                        <img src="/img/emotion-screen-3.png" className="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT4")} height={512} width={512} />
                     </div>
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD4")}</h2>
                             <p>{_("EMOTION.DESK4_1")}</p>
-                            <img src="/img/emotion-screen-3.png" className="ms-base-image d-block d-lg-none" alt="" height={512} width={512} />
+                            <img src="/img/emotion-screen-3.png" className="ms-base-image d-block d-lg-none" alt={_("EMOTION.ALT4")} height={512} width={512} />
                             <h4 className="mb-4">{_("EMOTION.DESK4_2")}</h4>
                             <div className="d-flex flex-wrap g-4 why-list">
                                 <p>{_("EMOTION.LIST4.LI1_TEXT")}</p>
@@ -159,7 +159,7 @@ export default function P7Emotion() {
                         </div>
                         <div className="col-lg-6 pe-3">
                             <div className="li">
-                                <div className="icon"><img src="/img/emotion-icon-1.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/emotion-icon-1.svg" alt={_("EMOTION.ALT5_1")} /></div>
                                 <div>
                                     <h4>{_("EMOTION.LIST5.LI1_HEAD")}</h4>
                                     <p>{_("EMOTION.LIST5.LI1_TEXT")}</p>
@@ -168,7 +168,7 @@ export default function P7Emotion() {
                         </div>
                         <div className="col-lg-6">
                             <div className="li">
-                                <div className="icon"><img src="/img/emotion-icon-2.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/emotion-icon-2.svg" alt={_("EMOTION.ALT5_2")} /></div>
                                 <div>
                                     <h4>{_("EMOTION.LIST5.LI2_HEAD")}</h4>
                                     <p>{_("EMOTION.LIST5.LI2_TEXT")}</p>
@@ -178,7 +178,7 @@ export default function P7Emotion() {
 
                         <div className="col-lg-6">
                             <div className="li">
-                                <div className="icon"><img src="/img/emotion-icon-3.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/emotion-icon-3.svg" alt={_("EMOTION.ALT5_3")} /></div>
                                 <div>
                                     <h4>{_("EMOTION.LIST5.LI3_HEAD")}</h4>
                                     <p>{_("EMOTION.LIST5.LI3_TEXT")}</p>
@@ -187,7 +187,7 @@ export default function P7Emotion() {
                         </div>
                         <div className="col-lg-6">
                             <div className="li">
-                                <div className="icon"><img src="/img/emotion-icon-4.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/emotion-icon-4.svg" alt={_("EMOTION.ALT5_4")} /></div>
                                 <div>
                                     <h4>{_("EMOTION.LIST5.LI4_HEAD")}</h4>
                                     <p>{_("EMOTION.LIST5.LI4_TEXT")}</p>
@@ -308,7 +308,7 @@ export default function P7Emotion() {
                             </a>
                         </div>
                         <div className="col-lg-6 col-8 mx-auto">
-                            <img src="/img/emotion-screen-6.png" className="img-fluid ms-lg-auto me-lg-0" alt="" height={400} width={400} />
+                            <img src="/img/emotion-screen-6.png" className="img-fluid ms-lg-auto me-lg-0" alt={_("EMOTION.ALT8")} height={400} width={400} />
                         </div>
                     </div>
                 </div>

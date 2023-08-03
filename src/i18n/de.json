@@ -1010,6 +1010,7 @@
         "HEAD1": "Why Emotion?",
         "DESK1": "Unlike other tests, ours works directly with the human subconscious - you don’t have to answer 100 questions of the same type as in other tests - let your subconscious mind do the work",
         "BTN1": "Try Now",
+        "ALT1": "Image for the fastest psychological test that can determine the inner state of a person using colors",
         "LIST1": {
             "LI1_HEAD": "Swing Charts",
             "LI1_TEXT": "Graphs of fluctuations in anxiety, harmony, energy and other independence for each month are presented.",
@@ -1023,6 +1024,7 @@
         "HEAD2": "Biorhythms",
         "DESK2": "The application offers 3 cycles, thanks to which you can control regular or periodic repetitions in all life processes. Each cycle has 5 phases that describe in more detail the specific characteristics and features of the state.",
         "BTN2": "Learn More",
+        "ALT2": "Image for the psychological test that helps you to track the dynamics of your biorhythms",
         "LIST2": {
             "LI1_HEAD": "Physical",
             "LI1_TEXT": "The physical biorhythm is related to the body's physical cycles and energy levels. Biorhythm affects endurance, speed, reaction time and muscle strength.",
@@ -1034,6 +1036,7 @@
         "HEAD3": "How It Works?",
         "DESK3_1": "Have a look and choose the color you like best. From the remaining 7 colors, select a color again, and so on until the options run out. By repeating the above procedure, you will get a more detailed result.",
         "DESK3_2": "Deep testing includes:",
+        "ALT3": "An image of a personality test that uses color to track your psychological state, understand your desires and find sources of stress",
         "LIST3": {
             "LI1_TEXT": "What do you desire right now",
             "LI2_TEXT": "Actual problem",
@@ -1044,6 +1047,7 @@
         "HEAD4": "Why It Works",
         "DESK4_1": "The application uses color as a visual representation - following a color scheme. The user should treat the application as a tool for self-awareness. The color test is the optimal tool for analyzing conflicts, personal life issues, random mood changes.",
         "DESK4_2": "Emotion is suitable for:",
+        "ALT4": "Image for an application that is useful for people seeking to know themselves and control their inner state, using the psychological analysis of color preferences",
         "LIST4": {
             "LI1_TEXT": "People striving for self-development",
             "LI2_TEXT": "People, for a better understanding of the partner",
@@ -1053,6 +1057,10 @@
             "LI6_TEXT": "Rehabilitation center client"
         },
         "HEAD5": "Our Advantages",
+        "ALT5_1": "Icon for a personality test that protects your data during psychological introspection",
+        "ALT5_2": "Icon of a psychological test that allows you to comfortably explore your inner world",
+        "ALT5_3": "Personality test icon to keep you safe while using our app",
+        "ALT5_4": "Ad-free, quick and easy psychological personality test icon",
         "LIST5": {
             "LI1_HEAD": "Data protection",
             "LI1_TEXT": "We DO NOT store your data on our servers.",
@@ -1096,7 +1104,8 @@
             "LI6_TEXT": "To determine the mental tension of military personnel, a modified color test was used as a method for determining the emotional and motivational state."
         },
         "HEAD8": "Our app is available for any device",
-        "DESK8": "Download the app right now and start tracking your mood changes even within the same day"
+        "DESK8": "Download the app right now and start tracking your mood changes even within the same day",
+        "ALT8": "Screenshots of an application that will allow you to track your psychological state regularly, comfortably and on any device"
     },
     "FOOTER": {
         "C": "Copyright © 2023 Martspec LLC. Alle Rechte vorbehalten.",
