@@ -904,7 +904,8 @@
             "LI5_HEAD": "Energy",
             "LI5_TEXT": "Shows the amount of energy, the so-called 'Green level' that contributes to the achievement of goals.",
             "LI6_HEAD": "Openness",
-            "LI6_TEXT": "This emotion describes how open people are to new ideas and experiences."
+            "LI6_TEXT": "This emotion describes how open people are to new ideas and experiences.",
+            "BTN": "Learn More"
         },
         "HEAD7": "Application",
         "DESK7": "The test gives a broad characterization of the subject's emotional state, free from conscious control. The test works well even with color blind people and those who, as they think, deliberately choose not what they like.",
