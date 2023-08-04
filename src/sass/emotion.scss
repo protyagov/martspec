@@ -104,7 +104,7 @@
       font-family: os4;
     }
 
-    @media only screen and (max-width: $ms-screen-lg) {
+    @media only screen and (max-width: $ms-screen-md) {
       li {
         flex-basis: calc(50% - 0.75rem);
       }
@@ -128,7 +128,7 @@
       }
     }
 
-    @media only screen and (max-width: $ms-screen-lg) {
+    @media only screen and (max-width: $ms-screen-md) {
       p {
         flex-basis: 100%;
       }
