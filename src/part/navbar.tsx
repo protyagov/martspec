@@ -42,7 +42,7 @@ export default function NavigationBar() {
         <div className="container-fluid">
 
             <a className="navbar-brand" href={Locale.i18nLink("/")}>
-                <img src="/img/logo.64.webp" alt={_("ERROR.404_BTN")} className="d-inline-block align-text-top"
+                <img src="/img/logo.svg" alt={_("ERROR.404_BTN")} className="d-inline-block align-text-top"
                     width={64} height={48} />
             </a>
 
