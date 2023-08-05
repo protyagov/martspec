@@ -308,7 +308,7 @@ export default function P7Emotion() {
                             </a>
                         </div>
                         <div className="col-md-6 col-8 mx-auto">
-                            <img src="/img/emotion-screen-6.png" className="img-fluid ms-md-auto me-md-0" alt={_("EMOTION.ALT8")} height={400} width={400} />
+                            <img src="/img/emotion-screen-4.png" className="img-fluid ms-md-auto me-md-0" alt={_("EMOTION.ALT8")} height={400} width={400} />
                         </div>
                     </div>
                 </div>
