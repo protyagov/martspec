@@ -38,8 +38,8 @@ function NavigationBarLanguageDropdown() {
 
 
 export default function NavigationBar() {
-    return <nav className="ms-navbar navbar-expand-lg px-lg-5">
-        <div className="container-fluid">
+    return <nav className="ms-navbar navbar-expand-lg">
+        <div className="ms-s-offset my-0">
 
             <a className="navbar-brand" href={Locale.i18nLink("/")}>
                 <img src="/img/logo.64.webp" alt={_("ERROR.404_BTN")} className="d-inline-block align-text-top"
