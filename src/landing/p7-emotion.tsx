@@ -2,6 +2,7 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
+import ImageI18N from "src/part/img-i18n";
 
 export default function P7Emotion() {
     return <>
@@ -63,7 +64,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <img src="/img/emotion-screen-1.png" className="ms-base-image" alt={_("EMOTION.ALT1")} height={512} width={512} />
+                        <ImageI18N src="/img/emotion_screen_1.en.512.webp" w={512} h={598} cls="ms-base-image" alt={_("EMOTION.ALT1")} />
                     </div>
                 </div>
             </section>
@@ -78,7 +79,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
                     <div className="col-md-6 d-table order-md-first pt-md-0 pt-5">
-                        <img src="/img/emotion-diagram-1.png" className="img-fluid mx-0 px-0" alt={_("EMOTION.ALT2")} height={512} />
+                        <ImageI18N src="/img/emotion_diagram_1.en.512.webp" w={512} h={367} cls="img-fluid mx-0 px-0" alt={_("EMOTION.ALT2")} />
                     </div>
                 </div>
                 <div className="row py-5 g-4">
@@ -109,7 +110,7 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD3")}</h2>
                             <p>{_("EMOTION.DESK3_1")}</p>
-                            <img src="/img/emotion-screen-2.png" className="ms-base-image d-block d-md-none" alt={_("EMOTION.ALT3")} height={512} width={512} />
+                            <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={522} cls="ms-base-image d-block d-md-none" alt={_("EMOTION.ALT3")} />
                             <h4 className="mb-4">{_("EMOTION.DESK3_2")}</h4>
                             <ul className="d-flex gap-4 how-list">
                                 <li className="bg-orange">{_("EMOTION.LIST3.LI1_TEXT")}</li>
@@ -121,7 +122,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <img src="/img/emotion-screen-2.png" className="ms-base-image d-none d-md-block" alt={_("EMOTION.ALT3")} height={512} width={512} />
+                        <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={522} cls="ms-base-image d-none d-md-block" alt={_("EMOTION.ALT3")} />
                     </div>
                 </div>
             </section>
@@ -129,13 +130,13 @@ export default function P7Emotion() {
             <section className="py-5">
                 <div className="row">
                     <div className="col-md-6">
-                        <img src="/img/emotion-screen-3.png" className="ms-base-image d-none d-md-block" alt={_("EMOTION.ALT4")} height={512} width={512} />
+                        <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={512} h={443} cls="ms-base-image d-none d-md-block" alt={_("EMOTION.ALT4")} />
                     </div>
                     <div className="col-md-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD4")}</h2>
                             <p>{_("EMOTION.DESK4_1")}</p>
-                            <img src="/img/emotion-screen-3.png" className="ms-base-image d-block d-md-none" alt={_("EMOTION.ALT4")} height={512} width={512} />
+                            <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={512} h={443} cls="ms-base-image d-block d-md-none" alt={_("EMOTION.ALT4")} />
                             <h4 className="mb-4">{_("EMOTION.DESK4_2")}</h4>
                             <div className="d-flex flex-wrap g-4 why-list">
                                 <p>{_("EMOTION.LIST4.LI1_TEXT")}</p>
@@ -306,7 +307,7 @@ export default function P7Emotion() {
                             </a>
                         </div>
                         <div className="col-md-6 col-8 mx-auto">
-                            <img src="/img/emotion-screen-4.png" className="img-fluid ms-md-auto me-md-0" alt={_("EMOTION.ALT8")} height={400} width={400} />
+                            <ImageI18N src="/img/emotion_screen_4.en.512.webp" w={400} h={400} cls="img-fluid ms-md-auto me-md-0" alt={_("EMOTION.ALT4")} />
                         </div>
                     </div>
                 </div>
