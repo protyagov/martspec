@@ -25,8 +25,8 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section className="mb-0 pb-5">
-                <div className="row g-4 mb-4">
+            <section className="pb-5">
+                <div className="row g-4">
                     <div className="col-md-8">
                         <div className="block bg-violet">
                             <h3>{_("EMOTION.LIST1.LI1_HEAD")}</h3>
@@ -54,7 +54,7 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section className="mb-5 pb-5">
+            <section className="pb-2">
                 <div className="row">
                     <div className="col-md-6 d-table">
                         <div className="d-table-cell align-middle">
@@ -70,7 +70,7 @@ export default function P7Emotion() {
             </section>
 
             <section className="bg-gray py-5">
-                <div className="row mt-5 pt-5">
+                <div className="row mt-3 py-5">
                     <div className="col-md-6 d-table mb-md-0 mb-4">
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD2")}</h2>
@@ -82,7 +82,7 @@ export default function P7Emotion() {
                         <ImageI18N src="/img/emotion_diagram_1.en.512.webp" w={512} h={367} cls="img-fluid mx-0 px-0" alt={_("EMOTION.ALT2")} />
                     </div>
                 </div>
-                <div className="row py-5 g-4">
+                <div className="row pb-5 g-4">
                     <div className="col-md-4 col-12">
                         <div className="block bg-yellow">
                             <h3>{_("EMOTION.LIST2.LI1_HEAD")}</h3>
@@ -202,7 +202,7 @@ export default function P7Emotion() {
                 <div className="pb-5 metrics-list">
 
                     <div className="row g-4">
-                        <div className="col-12 pb-4">
+                        <div className="col-12">
                             <h2>{_("EMOTION.HEAD6")}</h2>
                         </div>
                         <div className="col-md-6">
