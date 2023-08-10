@@ -1,6 +1,6 @@
 @import "color.scss";
 
-.emotion {
+.emotion { 
   $bgs: (
     "violet": #EDE1FF,
     "yellow": #FFF9E3,
@@ -22,6 +22,7 @@
     color: $ms-color-text-darker;
     font-family: os5;
     margin-top: 0;
+    margin-bottom: 1rem;
   }
 
   h3 {
