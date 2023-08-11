@@ -129,7 +129,7 @@
       }
     }
 
-    @media only screen and (max-width: $ms-screen-md) {
+    @include media-breakpoint-down(xl) {
       p {
         flex-basis: 100%;
       }

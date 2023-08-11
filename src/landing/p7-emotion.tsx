@@ -121,15 +121,15 @@ export default function P7Emotion() {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-6">
-                        <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={522} cls="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT3")} />
+                    <div className="col-lg-6 d-flex align-items-center">
+                        <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={400} h={480} cls="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT3")} />
                     </div>
                 </div>
             </section>
 
             <section className="py-5">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 d-flex align-items-center">
                         <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={512} h={443} cls="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT4")} />
                     </div>
                     <div className="col-lg-6 d-table">
@@ -138,7 +138,7 @@ export default function P7Emotion() {
                             <p>{_("EMOTION.DESK4_1")}</p>
                             <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={512} h={443} cls="ms-base-image d-block d-lg-none" alt={_("EMOTION.ALT4")} />
                             <h4 className="mb-4">{_("EMOTION.DESK4_2")}</h4>
-                            <div className="d-flex flex-wrap g-4 why-list">
+                            <div className="d-flex flex-wrap justify-content-between why-list">
                                 <p>{_("EMOTION.LIST4.LI1_TEXT")}</p>
                                 <p>{_("EMOTION.LIST4.LI2_TEXT")}</p>
                                 <p>{_("EMOTION.LIST4.LI3_TEXT")}</p>
