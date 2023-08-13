@@ -79,7 +79,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6 d-table order-lg-first pt-lg-0 pt-5">
-                        <ImageI18N src="/img/emotion_diagram_1.en.512.webp" w={512} h={367} cls="img-fluid mx-0 px-0" alt={_("EMOTION.ALT2")} />
+                        <ImageI18N src="/img/emotion_diagram_1.en.512.webp" w={512} h={367} cls="img-fluid mx-lg-0 px-0" alt={_("EMOTION.ALT2")} />
                     </div>
                 </div>
                 <div className="row pb-4 g-4">
@@ -110,7 +110,7 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD3")}</h2>
                             <p>{_("EMOTION.DESK3_1")}</p>
-                            <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={522} cls="ms-base-image d-block d-lg-none" alt={_("EMOTION.ALT3")} />
+                            <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={522} cls="ms-base-image d-block d-lg-none py-5" alt={_("EMOTION.ALT3")} />
                             <h4>{_("EMOTION.DESK3_2")}</h4>
                             <ul className="d-flex gap-4 how-list">
                                 <li className="bg-orange">{_("EMOTION.LIST3.LI1_TEXT")}</li>
@@ -136,7 +136,7 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD4")}</h2>
                             <p>{_("EMOTION.DESK4_1")}</p>
-                            <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={512} cls="ms-base-image d-block d-lg-none" alt={_("EMOTION.ALT4")} />
+                            <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={512} cls="ms-base-image d-block d-lg-none py-5" alt={_("EMOTION.ALT4")} />
                             <h4 className="mb-4">{_("EMOTION.DESK4_2")}</h4>
                             <div className="d-flex flex-wrap justify-content-between why-list">
                                 <p>{_("EMOTION.LIST4.LI1_TEXT")}</p>
@@ -307,7 +307,7 @@ export default function P7Emotion() {
                             </a>
                         </div>
                         <div className="col-lg-6 col-8 mx-auto">
-                            <ImageI18N src="/img/emotion_screen_4.en.512.webp" w={400} h={400} cls="img-fluid ms-lg-auto me-lg-0" alt={_("EMOTION.ALT4")} />
+                            <ImageI18N src="/img/emotion_screen_4.en.512.webp" w={400} h={400} cls="img-fluid ms-lg-auto me-lg-0 py-lg-0 py-5" alt={_("EMOTION.ALT4")} />
                         </div>
                     </div>
                 </div>
