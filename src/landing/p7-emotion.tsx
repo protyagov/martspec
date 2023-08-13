@@ -54,8 +54,8 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section className="pb-2">
-                <div className="row">
+            <section className="pb-5">
+                <div className="row g-5 py-3">
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD1")}</h2>
@@ -70,7 +70,7 @@ export default function P7Emotion() {
             </section>
 
             <section className="bg-gray py-5">
-                <div className="row mt-3 py-5">
+                <div className="row g-5 mt-3 py-5">
                     <div className="col-lg-6 d-table mb-lg-0 mb-4">
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD2")}</h2>
@@ -82,7 +82,7 @@ export default function P7Emotion() {
                         <ImageI18N src="/img/emotion_diagram_1.en.512.webp" w={512} h={367} cls="img-fluid mx-0 px-0" alt={_("EMOTION.ALT2")} />
                     </div>
                 </div>
-                <div className="row pb-5 g-4">
+                <div className="row pb-4 g-4">
                     <div className="col-lg-4 col-12">
                         <div className="block bg-yellow">
                             <h3>{_("EMOTION.LIST2.LI1_HEAD")}</h3>
@@ -104,8 +104,8 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section className="pt-4">
-                <div className="row">
+            <section className="pt-5">
+                <div className="row g-5">
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD3")}</h2>
@@ -128,15 +128,15 @@ export default function P7Emotion() {
             </section>
 
             <section className="py-5">
-                <div className="row">
+                <div className="row g-5">
                     <div className="col-lg-6 d-flex align-items-center">
-                        <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={526} cls="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT4")} />
+                        <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={512} cls="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT4")} />
                     </div>
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD4")}</h2>
                             <p>{_("EMOTION.DESK4_1")}</p>
-                            <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={526} cls="ms-base-image d-block d-lg-none" alt={_("EMOTION.ALT4")} />
+                            <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={512} cls="ms-base-image d-block d-lg-none" alt={_("EMOTION.ALT4")} />
                             <h4 className="mb-4">{_("EMOTION.DESK4_2")}</h4>
                             <div className="d-flex flex-wrap justify-content-between why-list">
                                 <p>{_("EMOTION.LIST4.LI1_TEXT")}</p>
@@ -151,7 +151,7 @@ export default function P7Emotion() {
                 </div>
             </section>
 
-            <section className="bg-gray py-5">
+            <section className="bg-gray pt-4 pb-5">
                 <div className="py-5 advantages-list">
 
                     <div className="row my-2">
@@ -255,7 +255,7 @@ export default function P7Emotion() {
             </section>
 
             <section className="pt-5">
-                <div className="row pt-4">
+                <div className="row pt-3">
                     <div className="col-lg-6 pb-3">
                         <h2>{_("EMOTION.HEAD7")}</h2>
                         <p>{_("EMOTION.DESK7")}</p>
@@ -298,11 +298,11 @@ export default function P7Emotion() {
             <section>
                 <div className="row py-5 text-lg-start text-center">
                     <div className="d-flex flex-lg-row flex-column block bg-violet">
-                        <div className="col-lg-6 col-12 d-flex flex-column">
+                        <div className="col-lg-6 col-12">
                             <h2>{_("EMOTION.HEAD8")}</h2>
                             <p className="flex-grow-1">{_("EMOTION.DESK8")}</p>
                             <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                                target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple my-5 mx-lg-0 mx-auto"
+                                target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple mt-5 mx-lg-0 mx-auto"
                                 style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                             </a>
                         </div>
