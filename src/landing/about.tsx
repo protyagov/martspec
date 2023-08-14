@@ -19,7 +19,6 @@ export default function About() {
                 <p>{_("ABOUT.P4")}</p>
                 <p>{_("ABOUT.P5")}</p>
                 <p>{_("ABOUT.P6")}</p>
-                <p>{_("ABOUT.P7")}</p>
             </section>
         </div>
         <Footer />

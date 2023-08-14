@@ -873,13 +873,12 @@
     },
     "ABOUT": {
         "HEAD": "About us",
-        "P1": "Martspec was founded in Spring of 2020. During that time lots of people stayed and worked from home. Our daily routines got changed. Many of us stop exercising regularly. That caused significant changes to our bodies and health.",
-        "P2": "We wanted to improve that situation and provide people with apps to track health and wellness. It keeps healthy habits in front of our minds. Every time we make a log entry, we are reminded of our commitment to health.",
-        "P3": "People who track their wellness daily make better progress than those who do not.",
-        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. The first idea was an app to track body weight directly from wearable devices. We have created the Body Mass app for Apple Watch to make bodyweight tracking easy and measurements writing into Apple Health got automatic. That clean and minimalistic app got popular.",
-        "P5": "We have built a few more great apps only for Apple Watch devices. In 2021 we began building cross-platform apps that work on all kinds of Apple devices, from small Apple Watch to iPads and MacBooks. In addition to physical wellness and health tracking, we have created our first app, Emotion, to address mental wellness. That is the quickest personality test ever.",
-        "P6": "We build our apps using cutting-edge technology and offer them in many languages all over the world, but none of that matters. It isn't just about the number of apps and industry-leading software. Martspec is about people. Martspec is about trust in technology that empowers individuals with personal health and wellness.",
-        "P7": "That is why all our apps are available free of charge. We do not have any monetization, do not show ADs, and never use personal data for profit."
+        "P1": "Martspec was founded 🌱 in the spring of 2020. During that time, many people worked from home and their daily routines changed, causing many to stop exercising regularly. This led to significant changes in their bodies and health.",
+        "P2": "Our wellness apps are specifically crafted to provide users with the tools to cultivate healthy habits. By meticulously tracking their progress, individuals are effectively reminded every day of their unwavering dedication to their health, which ultimately leads to substantial improvements in their overall well-being.",
+        "P3": "Individuals who monitor their well-being daily tend to achieve greater progress compared to those who do not.",
+        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. Our first idea was to create an app that tracks body weight directly from wearable devices. We developed the Body Mass app for Apple Watch, making bodyweight tracking easy and automatically recording measurements in Apple Health. The clean and minimalistic design of the app has made it very popular.",
+        "P5": "One of our latest apps, Emotion, aims to promote mental wellness by providing a fast and easy personality test. In addition to physical wellness and health tracking, we have created our first app, Emotion, to promote mental wellness. Since its creation, this product has received only positive reviews and has almost exclusively 5-star ratings.",
+        "P6": "Our apps are built with cutting-edge technology and are available in multiple languages globally. However, none of that matters. It isn't just about the number of apps and industry-leading software. Martspec is about people. Martspec is about trust in technology that empowers individuals with personal health and wellness."
     },
     "TEAM": {
         "HEAD": "Our Team",
