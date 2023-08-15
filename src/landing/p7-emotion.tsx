@@ -79,7 +79,7 @@ export default function P7Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6 d-table order-lg-first pt-lg-0 pt-5">
-                        <ImageI18N src="/img/emotion_diagram_1.en.512.webp" w={512} h={367} cls="img-fluid mx-lg-0 px-0" alt={_("EMOTION.ALT2")} />
+                        <ImageI18N src="/img/emotion_diagram.webp" w={512} h={367} cls="img-fluid mx-lg-0 px-0" alt={_("EMOTION.ALT2")} />
                     </div>
                 </div>
                 <div className="row pb-4 g-4">
