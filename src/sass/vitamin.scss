@@ -69,7 +69,7 @@
     .vitamin-img-50 {
       max-width: 100%;
       
-      @media screen and (min-width: $ms-screen-md) {
+      @include media-breakpoint-up(md) {
         height: 244px;
         width: 271px;
       }
@@ -78,7 +78,7 @@
     .vitamin-img-100 {
       max-width: 100%;
       
-      @media screen and (min-width: $ms-screen-md) {
+      @include media-breakpoint-up(md) {
         height: auto;
         width: 100%;
       }
