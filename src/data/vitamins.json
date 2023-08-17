@@ -141,9 +141,9 @@
             "FOOD_EGG": 0.4,
             "FOOD_BEEF": 0.4,
             "FOOD_PORK": 0.4,
-            "FOOD_MILK": 0.2,
             "FOOD_MASHROOM": 0.4,
-            "FOOD_SALMON": 0.38
+            "FOOD_SALMON": 0.38,
+            "FOOD_MILK": 0.2
         }
     },
     "VITAMIN_B3": {
