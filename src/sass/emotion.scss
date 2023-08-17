@@ -105,7 +105,7 @@
       font-family: os4;
     }
 
-    @media only screen and (max-width: $ms-screen-md) {
+    @include media-breakpoint-down(md) {
       li {
         flex-basis: calc(50% - 0.75rem);
       }

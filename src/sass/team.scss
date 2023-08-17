@@ -15,10 +15,10 @@
     flex: 0 0;
     flex-basis: 19%;
 
-    @media only screen and (max-width: ($ms-screen-md - 1)) {
+    @include media-breakpoint-down(md) {
       flex-basis: 28%;
     }
-    @media only screen and (max-width: ($ms-screen-sm - 1)) {
+    @include media-breakpoint-down(md) {
       flex-basis: 46%;
     }
 
