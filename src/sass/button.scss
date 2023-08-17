@@ -54,7 +54,7 @@
     width: 150px;
     height: 50px;
 
-    @media only screen and (max-width: ($ms-screen-sm - 1)){
+    @include media-breakpoint-down(sm) {
         width: 120px;
         height: 40px;
     }

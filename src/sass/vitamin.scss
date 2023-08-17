@@ -69,7 +69,7 @@
     .vitamin-img-50 {
       max-width: 100%;
       
-      @media screen and (min-width: $ms-screen-md) {
+      @include media-breakpoint-up(md) {
         height: 244px;
         width: 271px;
       }
@@ -78,7 +78,7 @@
     .vitamin-img-100 {
       max-width: 100%;
       
-      @media screen and (min-width: $ms-screen-md) {
+      @include media-breakpoint-up(md) {
         height: auto;
         width: 100%;
       }
@@ -184,7 +184,7 @@
     }
   }
 
-  @media only screen and (max-width: ($ms-screen-lg - 1)) {
+  @include media-breakpoint-down(lg) {
     .vitamins-list {
       .vit-item {
         padding: 1rem 5% 1.5rem;
@@ -212,14 +212,14 @@
     }
   }
 
-  @media only screen and (max-width: ($ms-screen-md - 1)) {
+  @include media-breakpoint-down(md) {
     .vitamin-block.bg-transparent {
       padding-top: 0;
       padding-bottom: 0;
     }
   }
 
-  @media only screen and (max-width: ($ms-screen-sm - 1)) {
+  @include media-breakpoint-down(md) {
     .vitamins-list {
       section {
         padding-left: 0;

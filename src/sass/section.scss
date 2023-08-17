@@ -23,7 +23,7 @@
     font-size: 3rem;
     padding-bottom: 2vmin;
 
-    @media only screen and (max-width: ($ms-screen-sm - 1)) {
+    @include media-breakpoint-down(sm) {
       font-size: 2rem;
       padding-bottom: 1vmin;
     }
@@ -34,7 +34,7 @@
     font-size: 2rem;
     padding-bottom: 2vmin;
 
-    @media only screen and (max-width: ($ms-screen-sm - 1)) {
+    @include media-breakpoint-down(sm) {
       font-size: 1.4rem;
     }
   }
@@ -53,7 +53,7 @@
   .watches-img {
     transform: translateX(-10vmin);
 
-    @media screen and (max-width: ($ms-screen-sm - 1)) {
+    @include media-breakpoint-down(sm) {
       transform: translateX(5vmin);
     }
   }
@@ -68,14 +68,14 @@
   padding-right: 10%;
   margin-bottom: 2.5rem;
 
-  @media only screen and (max-width: ($ms-screen-sm - 1)) {
+  @include media-breakpoint-down(sm) {
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
   }
 
-  @media only screen and (min-width: $ms-screen-xxl) {
+  @include media-breakpoint-up(xxl) {
     padding-left: 3%;
     padding-right: 3%;
   }
@@ -141,7 +141,7 @@
       ". img"
       / 55% 30%;
 
-    @media screen and (max-width: ($ms-screen-md - 1)) {
+      @include media-breakpoint-down(md) {
       justify-content: unset !important;
       grid-template:
         "head"
