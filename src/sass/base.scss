@@ -1,12 +1,6 @@
 @import "color.scss";
 @import "font";
 
-$ms-screen-mm: 420px;
-$ms-screen-sm: 576px;
-$ms-screen-md: 768px;
-$ms-screen-lg: 992px;
-$ms-screen-xxl: 1400px;
-
 #root {
     display: flex;
     flex-direction: column;
