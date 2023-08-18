@@ -873,16 +873,16 @@
             "LI5_TEXT": "What do you feel at the moment"
         },
         "HEAD4": "Why It Works",
-        "DESK4_1": "The application uses color as a visual representation - following a color scheme. The user should treat the application as a tool for self-awareness. The color test is the optimal tool for analyzing conflicts, personal life issues, random mood changes.",
+        "DESK4_1": "Colors have always influenced humanity, from the uncontrollable factors of night and day to the subconscious meanings embedded in our psyche. Colors and their subconscious influence are there, whether we like it or not. This influence is present regardless of race, language, education level, or social status.",
         "DESK4_2": "Emotion is suitable for:",
         "ALT4": "Image for an application that is useful for people seeking to know themselves and control their inner state, using the psychological analysis of color preferences",
         "LIST4": {
-            "LI1_TEXT": "People striving for self-development",
-            "LI2_TEXT": "People, for a better understanding of the partner",
-            "LI3_TEXT": "Students preparing for tests or exams",
+            "LI1_TEXT": "Self-development",
+            "LI2_TEXT": "Partner match",
+            "LI3_TEXT": "Overcoming test or exam anxiety",
             "LI4_TEXT": "For fitness and sports enthusiasts",
-            "LI5_TEXT": "Data analytics research",
-            "LI6_TEXT": "Rehabilitation center client"
+            "LI5_TEXT": "Research analytics",
+            "LI6_TEXT": "Rehabilitation centers"
         },
         "HEAD5": "Our Advantages",
         "ALT5_1": "Icon for a personality test that protects your data during psychological introspection",
