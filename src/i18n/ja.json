@@ -944,6 +944,13 @@
         "404_TEXT": "このページは存在しません。 正しいURLを使用していることを確認してください。",
         "404_BTN": "家"
     },
+    "COMING_SOON": {
+        "HEAD": "Something amazing is being created",
+        "TEXT_1": "We are working hard to create this page.",
+        "TEXT_2": "Please come back later!",
+        "BTN": "Home",
+        "CTA": "Follow us"
+    },
     "MISSION": {
         "HEAD": "ミッション",
         "M": "誰もが自分の健康状態をすばやく簡単に追跡できるようにします。",

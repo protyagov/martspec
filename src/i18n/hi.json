@@ -944,6 +944,13 @@
         "404_TEXT": "यह पृष्ठ मौजूद नहीं है। कृपया सुनिश्चित करें कि आपने सही URL का उपयोग किया है।",
         "404_BTN": "घर"
     },
+    "COMING_SOON": {
+        "HEAD": "Something amazing is being created",
+        "TEXT_1": "We are working hard to create this page.",
+        "TEXT_2": "Please come back later!",
+        "BTN": "Home",
+        "CTA": "Follow us"
+    },
     "MISSION": {
         "HEAD": "मिशन",
         "M": "हम सभी के लिए अपने स्वास्थ्य और कल्याण को ट्रैक करना त्वरित और आसान बनाते हैं।",

@@ -947,6 +947,13 @@
         "404_TEXT": "This page does not exist. Please make sure you used the correct URL.",
         "404_BTN": "Home"
     },
+    "COMING_SOON": {
+        "HEAD": "Something amazing is being created",
+        "TEXT_1": "We are working hard to create this page.",
+        "TEXT_2": "Please come back later!",
+        "BTN": "Home",
+        "CTA": "Follow us"
+    },
     "MISSION": {
         "HEAD": "Mission",
         "M": "We make it quick and easy for everyone to track their health and wellness.",

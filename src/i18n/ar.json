@@ -942,6 +942,13 @@
         "404_TEXT": "هذه الصفحة غير موجودة. يرجى التأكد من أنك استخدمت الرابط الصحيح.",
         "404_BTN": "الصفحة الرئيسية"
     },
+    "COMING_SOON": {
+        "HEAD": "Something amazing is being created",
+        "TEXT_1": "We are working hard to create this page.",
+        "TEXT_2": "Please come back later!",
+        "BTN": "Home",
+        "CTA": "Follow us"
+    },
     "MISSION": {
         "HEAD": "بعثة",
         "M": "نحن جعلها سريعة وسهلة للجميع لتتبع صحتهم والعافية.",
