@@ -14,7 +14,7 @@ import P7Emotion from "./landing/p7-emotion";
 import About from "src/landing/about";
 import Mission from "src/landing/mission";
 import Team from "src/landing/team";
-
+import ComingSoon from "src/landing/coming-soon";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -54,6 +54,8 @@ export function App() {
             return <Mission />
         case "/team":
             return <Team />
+        case "/coming-soon":
+            return <ComingSoon />
         default:
             const [, pagePath, currentPath] = url.split("/");
             

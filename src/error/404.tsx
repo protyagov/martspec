@@ -1,7 +1,5 @@
-
 import * as React from "react";
 import _ from "src/i18n/locale";
-
 
 export default function PageError_404() {
     return <div className="ms-base-page text-center pt-5 mt-5">

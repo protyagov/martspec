@@ -60,7 +60,7 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD1")}</h2>
                             <p>{_("EMOTION.DESK1")}</p>
-                            <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large button">{_("EMOTION.BTN1")}</a>
+                            <a href="/coming-soon" className="mt-3 ms-btn-large button">{_("EMOTION.BTN1")}</a>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -75,7 +75,7 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD2")}</h2>
                             <p>{_("EMOTION.DESK2")}</p>
-                            <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large button">{_("EMOTION.BTN2")}</a>
+                            <a href="/coming-soon" className="mt-3 ms-btn-large button">{_("EMOTION.BTN_BIORHYTHM")}</a>
                         </div>
                     </div>
                     <div className="col-lg-6 d-table order-lg-first pt-lg-0 pt-5">
@@ -209,14 +209,14 @@ export default function P7Emotion() {
                             <div className="block bg-violet">
                                 <h4>{_("EMOTION.LIST6.LI1_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI1_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="block bg-green">
                                 <h4>{_("EMOTION.LIST6.LI2_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI2_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
 
@@ -224,14 +224,14 @@ export default function P7Emotion() {
                             <div className="block bg-aqua">
                                 <h4>{_("EMOTION.LIST6.LI3_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI3_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="block bg-orange">
                                 <h4>{_("EMOTION.LIST6.LI4_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI4_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
 
@@ -239,14 +239,14 @@ export default function P7Emotion() {
                             <div className="block bg-yellow">
                                 <h4>{_("EMOTION.LIST6.LI5_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI5_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="block bg-blue">
                                 <h4>{_("EMOTION.LIST6.LI6_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI6_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
                     </div>
