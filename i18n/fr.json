@@ -944,6 +944,13 @@
         "404_TEXT": "Cette page n'existe pas. Veuillez vous assurer que vous avez utilisé la bonne URL.",
         "404_BTN": "Domicile"
     },
+    "COMING_SOON": {
+        "HEAD": "En construction",
+        "TEXT_1": "Nous travaillons dur pour vous offrir la meilleure page web possible.",
+        "TEXT_2": "Nous vous remercions de votre patience.",
+        "BTN": "Accueil",
+        "CTA": "Suivez-nous"
+    },
     "MISSION": {
         "HEAD": "Mission",
         "M": "Nous permettons à chacun de suivre rapidement et facilement sa santé et son bien-être.",
