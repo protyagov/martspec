@@ -1120,11 +1120,11 @@
         "404_BTN": "Hauptseite"
     },
     "COMING_SOON": {
-        "HEAD": "Something amazing is being created",
-        "TEXT_1": "We are working hard to create this page.",
-        "TEXT_2": "Please come back later!",
-        "BTN": "Home",
-        "CTA": "Follow us"
+        "HEAD": "Im Aufbau",
+        "TEXT_1": "Wir arbeiten hart daran, Ihnen die bestaussehende Webseite zu bieten.",
+        "TEXT_2": "Wir danken Ihnen für Ihre Geduld.",
+        "BTN": "Startseite",
+        "CTA": "Folgen Sie uns"
     },
     "MISSION": {
         "HEAD": "Mission",

@@ -943,11 +943,11 @@
         "404_BTN": "الصفحة الرئيسية"
     },
     "COMING_SOON": {
-        "HEAD": "Something amazing is being created",
-        "TEXT_1": "We are working hard to create this page.",
-        "TEXT_2": "Please come back later!",
-        "BTN": "Home",
-        "CTA": "Follow us"
+        "HEAD": "تحت التشيد",
+        "TEXT_1": "نحن نعمل بجد لنمنحك أفضل صفحة ويب مظهرًا.",
+        "TEXT_2": "شكرا لك على صبرك.",
+        "BTN": "بيت",
+        "CTA": "تابعنا"
     },
     "MISSION": {
         "HEAD": "بعثة",

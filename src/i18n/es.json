@@ -945,11 +945,11 @@
         "404_BTN": "Casa"
     },
     "COMING_SOON": {
-        "HEAD": "Something amazing is being created",
-        "TEXT_1": "We are working hard to create this page.",
-        "TEXT_2": "Please come back later!",
-        "BTN": "Home",
-        "CTA": "Follow us"
+        "HEAD": "En construcción",
+        "TEXT_1": "Estamos trabajando duro para ofrecerle la mejor página web.",
+        "TEXT_2": "Gracias por su paciencia.",
+        "BTN": "Inicio",
+        "CTA": "Síguenos en"
     },
     "MISSION": {
         "HEAD": "Misión",

@@ -851,7 +851,7 @@
         },
         "HEAD2": "Biorhythms",
         "DESK2": "Know your biorhythm peaks and critical days. Use your internal resources as efficiently as possible. Recognize when energy conservation and rest is most needed. A proper assessment of your abilities can lead to efficient energy use and prevent potential problems.",
-        "BTN2": "Learn More",
+        "BTN_BIORHYTHM": "Learn More",
         "ALT2": "Image for the psychological test that helps you to track the dynamics of your biorhythms",
         "LIST2": {
             "LI1_HEAD": "Physical",
@@ -948,9 +948,9 @@
         "404_BTN": "Home"
     },
     "COMING_SOON": {
-        "HEAD": "Something amazing is being created",
-        "TEXT_1": "We are working hard to create this page.",
-        "TEXT_2": "Please come back later!",
+        "HEAD": "Under Construction",
+        "TEXT_1": "We are working hard to give you the best experience.",
+        "TEXT_2": "Thank you for your patience.",
         "BTN": "Home",
         "CTA": "Follow us"
     },
