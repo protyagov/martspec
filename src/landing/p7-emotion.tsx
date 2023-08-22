@@ -26,26 +26,26 @@ export default function P7Emotion() {
             </section>
 
             <section className="pb-5">
-                <div className="row g-4">
-                    <div className="col-lg-8">
+                <div className="row">
+                    <div className="col-lg-8 pb-4">
                         <div className="block bg-violet">
                             <h3>{_("EMOTION.LIST1.LI1_HEAD")}</h3>
                             <p>{_("EMOTION.LIST1.LI1_TEXT")}</p>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 pb-4">
                         <div className="block bg-yellow">
                             <h3>{_("EMOTION.LIST1.LI2_HEAD")}</h3>
                             <p>{_("EMOTION.LIST1.LI2_TEXT")}</p>
                         </div>
                     </div>
-                    <div className="col-lg-8 order-lg-4">
+                    <div className="col-lg-8 order-lg-4 pb-4">
                         <div className="block bg-violet">
                             <h3>{_("EMOTION.LIST1.LI3_HEAD")}</h3>
                             <p>{_("EMOTION.LIST1.LI3_TEXT")}</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 order-lg-3">
+                    <div className="col-lg-4 order-lg-3 pb-4">
                         <div className="block bg-yellow">
                             <h3>{_("EMOTION.LIST1.LI4_HEAD")}</h3>
                             <p>{_("EMOTION.LIST1.LI4_TEXT")}</p>
@@ -60,7 +60,7 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD1")}</h2>
                             <p>{_("EMOTION.DESK1")}</p>
-                            <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large button">{_("EMOTION.BTN1")}</a>
+                            <a href="/coming-soon" className="mt-3 ms-btn-large button">{_("EMOTION.BTN1")}</a>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -75,27 +75,27 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD2")}</h2>
                             <p>{_("EMOTION.DESK2")}</p>
-                            <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large button">{_("EMOTION.BTN2")}</a>
+                            <a href="/coming-soon" className="mt-3 ms-btn-large button">{_("EMOTION.BTN_BIORHYTHM")}</a>
                         </div>
                     </div>
                     <div className="col-lg-6 d-table order-lg-first pt-lg-0 pt-5">
                         <ImageI18N src="/img/emotion_diagram.webp" w={512} h={367} cls="img-fluid mx-lg-0 px-0" alt={_("EMOTION.ALT2")} />
                     </div>
                 </div>
-                <div className="row pb-4 g-4">
-                    <div className="col-lg-4 col-12">
+                <div className="row pb-4">
+                    <div className="col-lg-4 col-12 pb-4">
                         <div className="block bg-yellow">
                             <h3>{_("EMOTION.LIST2.LI1_HEAD")}</h3>
                             <p>{_("EMOTION.LIST2.LI1_TEXT")}</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-12">
+                    <div className="col-lg-4 col-12 pb-4">
                         <div className="block bg-green">
                             <h3>{_("EMOTION.LIST2.LI2_HEAD")}</h3>
                             <p>{_("EMOTION.LIST2.LI2_TEXT")}</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-12">
+                    <div className="col-lg-4 col-12 pb-4">
                         <div className="block bg-violet">
                             <h3>{_("EMOTION.LIST2.LI3_HEAD")}</h3>
                             <p>{_("EMOTION.LIST2.LI3_TEXT")}</p>
@@ -201,52 +201,52 @@ export default function P7Emotion() {
 
                 <div className="pb-5 metrics-list">
 
-                    <div className="row g-4">
+                    <div className="row">
                         <div className="col-12">
                             <h2>{_("EMOTION.HEAD6")}</h2>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 pb-4">
                             <div className="block bg-violet">
                                 <h4>{_("EMOTION.LIST6.LI1_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI1_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 pb-4">
                             <div className="block bg-green">
                                 <h4>{_("EMOTION.LIST6.LI2_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI2_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
 
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 pb-4">
                             <div className="block bg-aqua">
                                 <h4>{_("EMOTION.LIST6.LI3_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI3_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 pb-4">
                             <div className="block bg-orange">
                                 <h4>{_("EMOTION.LIST6.LI4_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI4_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
 
-                        <div className="col-lg-6">                        
+                        <div className="col-lg-6 pb-4">                        
                             <div className="block bg-yellow">
                                 <h4>{_("EMOTION.LIST6.LI5_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI5_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 pb-4">
                             <div className="block bg-blue">
                                 <h4>{_("EMOTION.LIST6.LI6_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI6_TEXT")}</p>
-                                <a href={"/"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={"/coming-soon"}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
                     </div>

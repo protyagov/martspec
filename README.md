@@ -1,4 +1,4 @@
-### Workflow
+## Workflow
 1. Create new branch from main and name it after Jira ticket. For example MS-123-new-feature
 2. Implement on your branch what needs to be done in the Jira story
 3. Create PR (pull request) from your branch to *main*
@@ -7,7 +7,20 @@
 6. Deploy your changes to the website. For that run:
    * yarn deploy
 
----
+
+
+## Packages
+
+- Check current *node* version
+> nvm current
+- Change current *node* version
+> nvm use 16.16.0
+- See what packages can be updated
+> yarn outdated
+- Interactively update to the latest versions
+> yarn upgrade-interactive --latest
+
+
 ## Images WebP
 
 We use **webp** format for non SVG images on the site. When we get new image from designer do this:
