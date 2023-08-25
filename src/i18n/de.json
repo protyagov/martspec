@@ -204,7 +204,7 @@
         "VITAMIN_A": {
             "HEAD": "A",
             "NAME": "Retinol, Beta-Carotin",
-            "DESK": "Ist wichtig für das Immunsystem und die Fortpflanzungsfunktion des Körpers. Es ist ein starkes Antioxidans, das die Hautregeneration und das Haarwachstum reguliert.",
+            "DESK": "Es ist wichtig für das Immunsystem und die Fortpflanzungsfunktion des Körpers. Es ist ein starkes Antioxidans, das die Hautregeneration und das Haarwachstum reguliert.",
             "FUNC": "Antioxidative Eigenschaften, Augengesundheit, Immun- und Fortpflanzungsfunktion.Anpassung an dunkle Bedingungen. Produktion und Aktivität weißer Blutkörperchen.",
             "DEF_1": "Augenprobleme, einschließlich Nachtblindheit",
             "DEF_2": "Trockene holprige Haut",
@@ -226,7 +226,7 @@
         "VITAMIN_D": {
             "HEAD": "D",
             "NAME": "Calciferol",
-            "DESK": "It supports the health of teeth, bones and muscles. Lack of this vitamin leads to rickets of children and osteomalacia of adults.",
+            "DESK": "Es unterstützt die Gesundheit von Zähnen, Knochen und Muskeln. Ein Mangel an diesem Vitamin führt bei Kindern zu Rachitis und bei Erwachsenen zu Osteomalazie.",
             "FUNC": "Erhaltung gesunder Knochen und Zähne. Kalziumaufnahme im Darm. Reduzierung von Entzündungen. Regulierung der Immunfunktion. Wachstum von Muskelfasern. Spielt eine Rolle im Glukosestoffwechsel.",
             "DEF_1": "Osteoporose und Knochenbrüchigkeit",
             "DEF_2": "Infektionen",
@@ -312,7 +312,7 @@
         "VITAMIN_B2": {
             "HEAD": "B2",
             "NAME": "Riboflavin",
-            "DESK": "B2 ist für die Bildung von roten Blutkörperchen und Antikörpern notwendig. Es ist auch wichtig für die Fortpflanzungsfunktion des Körpers.",
+            "DESK": "B2 ist für die Bildung von roten Blutkörperchen und Leukozyten notwendig. Es ist auch wichtig für die Fortpflanzungsfunktion des Körpers.",
             "FUNC": "Antioxidative Eigenschaften. Energiegewinnung aus Fetten und Steroiden. Wesentlich für den Glukosestoffwechsel. Wachstum und Entwicklung von Zellen.",
             "DEF_1": "Anschwellen von Mund, Lippen, Zunge oder Rachen",
             "DEF_2": "Stomatitis an den Mundwinkeln",
@@ -411,7 +411,7 @@
         "VITAMIN_B9": {
             "HEAD": "B9",
             "NAME": "Folsäure",
-            "DESK": "Es ist an der Bildung von roten und weißen Blutkörperchen beteiligt, hilft dem Körper, DNA- und RNA-Zellen zu bilden und Kohlenhydrate in Glukose umzuwandeln.",
+            "DESK": "Sie ist an der Bildung von roten und weißen Blutkörperchen beteiligt, hilft dem Körper, DNA- und RNA-Zellen zu bilden und Kohlenhydrate in Glukose umzuwandeln.",
             "FUNC": "Proteinstoffwechsel. Produktion von DNA und RNA. Energiegewinnung aus Kohlenhydraten. Erforderlich für die Produktion gesunder roter Blutkörperchen.",
             "DEF_1": "Müdigkeit, Schwäche und Kurzatmigkeit",
             "DEF_2": "Konzentrationsschwierigkeiten",
@@ -459,7 +459,7 @@
         "VITAMIN_C": {
             "HEAD": "C",
             "NAME": "Askorbinsäure",
-            "DESK": "Es schützt die Zellen vor vorzeitiger Alterung und unterstützt die Arbeit der Blutgefäße, den Zustand von Knochen und Knorpel. Es ist auch wichtig für die Hautregeneration, da es an der Kollagensynthese beteiligt ist.",
+            "DESK": "Sie schützt die Zellen vor vorzeitiger Alterung und unterstützt die Arbeit der Blutgefäße, den Zustand von Knochen und Knorpel. Es ist auch wichtig für die Hautregeneration, da es an der Kollagensynthese beteiligt ist.",
             "FUNC": "Heilung von Infektionen und Wunden. Starkes Antioxidans. Bildet Blutgefäße, gesunde Haut, Knorpel und Muskeln. Kollagensynthese in Knochen. Schutz von Zellen. Neurotransmitter-Produktion.",
             "DEF_1": "Skorbut",
             "DEF_2": "Geschwollenes und blutendes Zahnfleisch",
@@ -833,7 +833,7 @@
         "SELENIUM": {
             "HEAD": "Se",
             "NAME": "Selen",
-            "DESK": "Es schützt die Zellen und beeinflusst die Arbeit des Immunsystems. Selen unterdrückt die Teilung von Krebszellen und schützt Neuronen und Herzmuskelzellen.",
+            "DESK": "Er schützt die Zellen und beeinflusst die Arbeit des Immunsystems. Selen unterdrückt die Teilung von Krebszellen und schützt Neuronen und Herzmuskelzellen.",
             "FUNC": "Aufbau von DNA. Schutz vor Zellschäden durch freie Radikale und Infektionen. Beteiligung an der Fortpflanzung und dem Stoffwechsel der Schilddrüsenhormone. Ordnungsgemäße Funktion des Immunsystems.",
             "DEF_1": "Kopfschmerzen",
             "DEF_2": "Lethargie",
@@ -902,7 +902,7 @@
         "ZINC": {
             "HEAD": "Zn",
             "NAME": "Zink",
-            "DESK": "Zink kann im menschlichen Körper nicht hergestellt werden, ist aber sehr wichtig für die stabile Funktion des Immunsystems, aller Organe und der Hormonausschüttung.",
+            "DESK": "Zink kann im menschlichen Körper nicht hergestellt werden, aber es ist sehr wichtig für die stabile Funktion des Immunsystems, aller Organe und der Hormonausschüttung.",
             "FUNC": "Hauptbestandteil für die Bildung von DNA, das Wachstum von Zellen, den Aufbau von Proteinen, die Heilung von geschädigtem Gewebe und die Unterstützungeines gesunden Immunsystems. Wird in über 100 Enzymen verwendet. Normale Funktion des Geruchs-/Geschmackssinns.",
             "DEF_1": "Geschmacks- oder Geruchsverlust",
             "DEF_2": "Appetitlosigkeit",
@@ -1145,7 +1145,7 @@
         "P6": "Unsere Apps basieren auf modernster Technologie und sind weltweit in mehreren Sprachen verfügbar. Allerdings spielt das alles keine Rolle. Es geht nicht nur um die Anzahl der Apps und branchenführender Software. Bei Martspec geht es um Menschen. Bei Martspec geht es um Vertrauen in Technologie, die Einzelpersonen zu persönlicher Gesundheit und Wohlbefinden verhilft."
     },
     "TEAM": {
-        "HEAD": "Die Mannschaft",
+        "HEAD": "Mannschaft",
         "SUBHEAD": "Die Menschen hinter dem Unternehmen sind genauso wichtig wie das Unternehmen selbst. Lernen Sie unsere hochtalentierten Softwareingenieure und Designer kennen, die die besten Wellness-Apps entwickeln.",
         "ENGINEER_MOBILE": "Mobiler Software-Ingenieur",
         "ENGINEER_WEB": "Web Software-Ingenieur",
