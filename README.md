@@ -4,6 +4,7 @@
 ![](https://img.shields.io/website?url=https%3A%2F%2Fmartspec.com)
 ![](https://visitor-badge.laobi.icu/badge?page_id=protyagov.martspec)
 
+
 ## Install
 ```
 nvm current                         # Check current *node* version
@@ -60,12 +61,3 @@ This will create .webp images in /src/img folder whose max size would be 512px. 
 - sips
 
 
-## 🔗 Links
-
-
-
-[![portfolio](https://img.shields.io/badge/Portfolio-5340ff?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://martspec.com)
-[![linked-in](https://img.shields.io/badge/Linked_In-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white)]([https://linkedin.com/in/protyagov](https://www.linkedin.com/company/28132561))
-[![dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=DevdotTo&logoColor=white)](https://dev.to/protyagov)
-[![medium](https://img.shields.io/badge/medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@martspec)
-[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/martspec_com/)
