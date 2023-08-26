@@ -244,7 +244,7 @@
         "TYPE": "VITAMIN_WATER",
         "DEF_COUNT": 6,
         "OVER_COUNT": 2,
-        "FACT_COUNT": 5,
+        "FACT_COUNT": 6,
         "DOSE_RDV": {
             "MALE": [80, 150, 200, 300, 400, 400, 400, 400],
             "FEMA": [80, 150, 200, 300, 400, 400, 400, 400, 600, 600, 500, 500]
