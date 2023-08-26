@@ -388,8 +388,9 @@
             "FACT_1": "Folate has an important metabolic interaction with Riboflavin",
             "FACT_2": "Vitamin C may improve folate bioavailability",
             "FACT_3": "Folate-rich diets have been associated with decreased risk of cardio-vascular disease. Based on a study 1,980 Finnish men for 10 years",
-            "FACT_4": "It is possible that inadequate folate intake contributes to genome instability and chromosome breakage that often characterize cancer development",
-            "FACT_5": "Overdose of supplemental folic acid may accelerate tumor growth in cancer patients (More research needed)"
+            "FACT_4": "葉酸有時也稱為葉酸或葉酸。",
+            "FACT_5": "It is possible that inadequate folate intake contributes to genome instability and chromosome breakage that often characterize cancer development",
+            "FACT_6": "Overdose of supplemental folic acid may accelerate tumor growth in cancer patients (More research needed)"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
