@@ -721,7 +721,7 @@
             "FUNC": "Aufrechterhaltung eines normalen Flüssigkeitsspiegels außerhalb der Zellen. Hauptbestandteil der Aufrechterhaltung des Blutdrucks. Wird benötigt, damit Nerven, Muskeln und andere Körpergewebe richtig funktionieren. Es ist ein Elektrolyt.",
             "DEF_1": "Appetitverlust",
             "DEF_2": "Kopfschmerzen, Verwirrtheit, Reizbarkeit, Unruhe",
-            "DEF_3": "Krämpfe, Müdigkeit, Muskelschwäche, Krämpfe oder Krämpfe",
+            "DEF_3": "Krämpfe, Müdigkeit, Muskelschwäche",
             "DEF_4": "Übelkeit, Erbrechen",
             "DEF_5": "Hängt vom Gleichgewicht von Wasser zu Natrium im Körper ab. Wenn die Natriummenge abfällt oder die Wassermenge zunimmt, kommt es zu einem Natriummangel",
             "OVER_1": "Fühle mich aufgeblähter oder geschwollener als sonst",
