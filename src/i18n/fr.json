@@ -388,8 +388,9 @@
             "FACT_1": "Le folate a une interaction métabolique importante avec la riboflavine",
             "FACT_2": "La vitamine C peut améliorer la biodisponibilité du folate",
             "FACT_3": "Les régimes riches en folate ont été associés à une diminution du risque de maladies cardiovasculaires. Basé sur une étude de 1 980 hommes finlandais pendant 10 ans",
-            "FACT_4": "La folacine est parfois appelée acide folique ou folate",
-            "FACT_5": "Une surdose d'acide folique supplémentaire peut accélérer la croissance tumorale chez les patients cancéreux (plus de recherches nécessaires)"
+            "FACT_4": "La folacine est aussi parfois appelée acide folique ou folate",
+            "FACT_5": "La folacine est parfois appelée acide folique ou folate",
+            "FACT_6": "Une surdose d'acide folique supplémentaire peut accélérer la croissance tumorale chez les patients cancéreux (plus de recherches nécessaires)"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
