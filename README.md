@@ -1,24 +1,52 @@
+## About
+[Martspec](martspec.com) is focused on promoting a healthy lifestyle. Our objective is to assist users in leading a healthier lifestyle by considering their vitamin and mineral intake, psychological well-being, and body characteristics.
+
+![](https://img.shields.io/website?url=https%3A%2F%2Fmartspec.com)
+![](https://visitor-badge.laobi.icu/badge?page_id=protyagov.martspec)
+
+
+## Install
+```
+nvm current                         # Check current *node* version
+nvm use 16.16.0                     # Use *node* version 16
+
+git clone <repo link>               # Clone repo to your local computer
+yarn install                        # Install all dependencies
+yarn svr                            # Run website locally
+
+yarn outdated                       # See what packages can be updated
+yarn upgrade-interactive --latest   # Interactively update to the latest versions
+```
+
 ## Workflow
-1. Create new branch from main and name it after Jira ticket. For example MS-123-new-feature
-2. Implement on your branch what needs to be done in the Jira story
-3. Create PR (pull request) from your branch to *main*
-4. Ask someone to review your PR. 
-5. Once PR is approved by reviewer merge it to main branch
-6. Deploy your changes to the website. For that run:
-   * yarn deploy
+```mermaid
+stateDiagram-v2
+   classDef redEvent fill:#f00,color:white,font-weight:bold,stroke-width:2px,stroke:yellow
+   classDef greenEvent fill:#00A36C,color:white,font-weight:bold,stroke-width:2px,stroke:orange
+
+      
+    [*] --> Main: clone repo
+    Main --> MS_123: Create your branch
+    MS_123 --> PullRequest: Create PR to main
+    note left of MS_123
+      Name it with Jira ticket.
+      Example MS-123
+    end note
+    PullRequest --> Approved:::greenEvent
+    PullRequest --> Rejected:::redEvent
+    Rejected --> MS_123: fix issues
+    Approved --> Main: merge
+    Main --> martspec.com: deploy to website
+    martspec.com --> [*]
+    note left of martspec.com
+      git checkout main
+      yarn deploy
+    end note
 
 
+```
 
-## Packages
 
-- Check current *node* version
-> nvm current
-- Change current *node* version
-> nvm use 16.16.0
-- See what packages can be updated
-> yarn outdated
-- Interactively update to the latest versions
-> yarn upgrade-interactive --latest
 
 
 ## Images WebP
@@ -32,8 +60,4 @@ This will create .webp images in /src/img folder whose max size would be 512px. 
 - pngcrush
 - sips
 
-### Image Sizes
-* p_XXX_screens.png == 730x280
-* p_XXX_screens_sm.png == 125x48
-* p_XXX.png == 980x980 inside icon == 650x650
-* p_XXX_sm.png == 55x55
+
