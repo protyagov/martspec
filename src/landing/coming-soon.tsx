@@ -8,7 +8,7 @@ export default function ComingSoon() {
         <p className="mb-0">{_("COMING_SOON.TEXT_1")}</p>
         <p className="mb-5">{_("COMING_SOON.TEXT_2")}</p>
         <a href="/" className="ms-btn-large">{_("COMING_SOON.BTN")}</a>
-        <div className="row">
+        <div className="row mt-5">
             <p>{_("COMING_SOON.CTA")}</p>
             <a className="social-icon social-icon-dark" href="https://www.linkedin.com/company/martspec" target="_blank" rel="noopener" aria-label="">
                 <img src="/img/linkedin_icon.svg" alt="linkedin" width={40} height={40} />
