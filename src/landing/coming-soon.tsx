@@ -6,12 +6,12 @@ export default function ComingSoon() {
         <section>
             <img src="/img/coming-soon.png" className="mb-4" alt={_("COMING_SOON.HEAD")} height={300} width={328} />
             <h1 className="mb-3">{_("COMING_SOON.HEAD")}</h1>
-            <p className="mb-0" style={{fontFamily: "os4"}}>{_("COMING_SOON.TEXT_1")}</p>
-            <p className="mb-4" style={{fontFamily: "os4"}}>{_("COMING_SOON.TEXT_2")}</p>
+            <p className="mb-0" style={{fontFamily: "os4", color: "#444444"}}>{_("COMING_SOON.TEXT_1")}</p>
+            <p className="mb-4" style={{fontFamily: "os4", color: "#444444"}}>{_("COMING_SOON.TEXT_2")}</p>
             <a href="/" className="ms-btn-large mt-1 mb-4">{_("COMING_SOON.BTN")}</a>
         </section>
         <section>
-            <p className="pt-3 mb-1" style={{fontFamily: "os4"}}>{_("COMING_SOON.CTA")}</p>
+            <p className="pt-3 mb-1" style={{fontFamily: "os4", color: "#444444"}}>{_("COMING_SOON.CTA")}</p>
             <div className="d-flex justify-content-center flex-nowrap">
                 <a className="social-icon" href="https://www.linkedin.com/company/martspec" target="_blank" rel="noopener" aria-label="">
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
