@@ -388,8 +388,9 @@
             "FACT_1": "Folate has an important metabolic interaction with Riboflavin",
             "FACT_2": "Vitamin C may improve folate bioavailability",
             "FACT_3": "Folate-rich diets have been associated with decreased risk of cardio-vascular disease. Based on a study 1,980 Finnish men for 10 years",
-            "FACT_4": "It is possible that inadequate folate intake contributes to genome instability and chromosome breakage that often characterize cancer development",
-            "FACT_5": "Overdose of supplemental folic acid may accelerate tumor growth in cancer patients (More research needed)"
+            "FACT_4": "葉酸有時也稱為葉酸或葉酸。",
+            "FACT_5": "It is possible that inadequate folate intake contributes to genome instability and chromosome breakage that often characterize cancer development",
+            "FACT_6": "Overdose of supplemental folic acid may accelerate tumor growth in cancer patients (More research needed)"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
@@ -962,13 +963,12 @@
     },
     "ABOUT": {
         "HEAD": "关于我们",
-        "P1": "Martspec公司成立于2020年春天。 在那段时间里，很多人呆在家里，远程工作。 我们的日常生活发生了变化。 我们中的许多人停止定期锻炼。 这会导致我们的身体和健康发生重大变化。",
-        "P2": "我们希望改善这种情况，并为人们提供应用程序来跟踪健康和健康。 它在我们的脑海中保持健康的习惯。 每次我们做一个日志条目，我们提醒我们对健康的承诺。",
-        "P3": "每天跟踪他们的健康的人比那些没有的人取得更好的进步。",
-        "P4": "我们真正相信思想的力量可以改变态度、生活，并最终改变世界。 第一个想法是一个直接从可穿戴设备跟踪体重的应用程序。 我们为Apple Watch创建了体重跟踪应用程序，可以轻松地将体重输入并直接从手腕将测量结果记录到Apple Health中。 这个简单而简约的应用程序得到了流行。",
-        "P5": "我们已经建立了一些仅适用于Apple Watch设备的应用程序。  2021年，我们开始构建跨平台应用程序，这些应用程序适用于从小型Apple Watch到ipad和Macbook的各种Apple设备。 除了身体健康和健康跟踪，我们已经创建了我们的第一个应用程序，称为情感，以解决心理健康。 有史以来最快的性格测试。",
-        "P6": "我们使用尖端技术构建我们的应用程序，并在世界各地以多种语言提供它们，但这些都不重要。 这不仅仅是关于应用程序和行业领先软件的数量。 Martspec 是关于人的。 Martspec 是关于对技术的信任，这些技术赋予个人健康和健康。",
-        "P7": "这就是为什么我们所有的应用程序都是免费提供的。 我们没有任何货币化，不显示广告，并且从不使用个人数据谋取利润。"
+        "P1": "Martspec 成立於 2020 年春天。那段時間，許多人在家工作，日常生活習慣發生變化，導致許多人停止定期鍛煉。這導致他們的身體和健康發生重大變化。",
+        "P2": "我們的健康應用程序經過專門設計，旨在為用戶提供培養健康習慣的工具。通過仔細跟踪他們的進展，每天都會有效地提醒人們他們對健康的堅定不移的奉獻，這最終導致他們的整體福祉的實質性改善。",
+        "P3": "與那些不每天監控自己健康的人相比，每天監控自己的健康狀況的人往往會取得更大的進步。",
+        "P4": "我們堅信創意的力量可以改變態度、生活，並最終改變世界。我們的第一個想法是創建一個直接從可穿戴設備跟踪體重的應用程序。我們為 Apple Watch 開發了 Body Mass 應用程序，讓體重追踪變得簡單，並自動在 Apple Health 中記錄測量結果。該應用程序乾淨簡約的設計使其非常受歡迎。",
+        "P5": "我們最新的應用程序之一，Emotion，旨在通過提供快速、簡單的性格測試來促進心理健康。除了身體健康和健康跟踪之外，我們還創建了第一個應用程序 Emotion，以促進心理健康。自創建以來，該產品僅收到正面評價，並且幾乎只有 5 星級評級。",
+        "P6": "我們的應用程序採用尖端技術構建，並在全球提供多種語言版本。然而，這些都不重要。這不僅僅是應用程序和行業領先軟件的數量。 Martspec 是關於人的。 Martspec 是對賦予個人健康和保健能力的技術的信任。"
     },
     "TEAM": {
         "HEAD": "团队",

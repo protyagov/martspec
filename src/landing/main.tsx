@@ -41,7 +41,7 @@ export default function LandingPage() {
                             <ImageI18N src="/img/vitamin.en.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("VITAMIN.IMG")} />
                         </div>
                         <div className="p-text">
-                            <h2>{_("VITAMIN.TEXT")}</h2>
+                            <h4>{_("VITAMIN.TEXT")}</h4>
                             <a href={Locale.i18nLink("vitamin")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default function LandingPage() {
                             <ImageI18N src="/img/size.en.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("SIZE.IMG")} />
                         </div>
                         <div className="p-text">
-                            <h2>{_("SIZE.TEXT")}</h2>
+                            <h4>{_("SIZE.TEXT")}</h4>
                             <a href={Locale.i18nLink("bodysize")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ export default function LandingPage() {
                             <ImageI18N src="/img/p_electrolyte.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ELECTROLYTE.IMG")} />
                         </div>
                         <div className="p-text">
-                            <h2>{_("ELECTROLYTE.TEXT")}</h2>
+                            <h4>{_("ELECTROLYTE.TEXT")}</h4>
                             <a href={Locale.i18nLink("electrolyte")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ export default function LandingPage() {
                             <ImageI18N src="/img/mass.en.512.webp" w={512} h={512} cls="mx-auto my-4 px-lg-4 px-0 img-fluid" alt={_("MASS.IMG")} />
                         </div>
                         <div className="p-text">
-                            <h2>{_("MASS.TEXT")}</h2>
+                            <h4>{_("MASS.TEXT")}</h4>
                             <a href={Locale.i18nLink("bodymass")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
@@ -146,7 +146,7 @@ export default function LandingPage() {
                             <ImageI18N src="/img/p_zinc.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ZINC.IMG")} />
                         </div>
                         <div className="p-text">
-                            <h2>{_("ZINC.TEXT")}</h2>
+                            <h4>{_("ZINC.TEXT")}</h4>
                             <a href={Locale.i18nLink("bodyzinc")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
@@ -171,7 +171,7 @@ export default function LandingPage() {
                             <ImageI18N src="/img/waist.en.512.webp" w={512} h={512} cls="mx-auto my-4 px-lg-4 px-0 img-fluid" alt={_("WAIST.IMG")} />
                         </div>
                         <div className="p-text">
-                            <h2>{_("WAIST.TEXT")}</h2>
+                            <h4>{_("WAIST.TEXT")}</h4>
                             <a href={Locale.i18nLink("waistline")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
@@ -194,10 +194,10 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/emotion.en.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("EMOTION.IMG")} />
+                            <ImageI18N src="/img/emotion_home.en.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("EMOTION.IMG")} />
                         </div>
                         <div className="p-text">
-                            <h2>{_("EMOTION.TEXT")}</h2>
+                            <h4>{_("EMOTION.TEXT")}</h4>
                             <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>

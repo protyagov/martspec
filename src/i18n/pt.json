@@ -391,8 +391,9 @@
             "FACT_1": "Folate has an important metabolic interaction with Riboflavin",
             "FACT_2": "Vitamin C may improve folate bioavailability",
             "FACT_3": "Folate-rich diets have been associated with decreased risk of cardio-vascular disease. Based on a study 1,980 Finnish men for 10 years",
-            "FACT_4": "It is possible that inadequate folate intake contributes to genome instability and chromosome breakage that often characterize cancer development",
-            "FACT_5": "Overdose of supplemental folic acid may accelerate tumor growth in cancer patients (More research needed)"
+            "FACT_4": "A folacina também é às vezes chamada de ácido fólico ou folato",
+            "FACT_5": "It is possible that inadequate folate intake contributes to genome instability and chromosome breakage that often characterize cancer development",
+            "FACT_6": "Overdose of supplemental folic acid may accelerate tumor growth in cancer patients (More research needed)"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
@@ -969,13 +970,12 @@
     },
     "ABOUT": {
         "HEAD": "Sobre nós",
-        "P1": "A empresa Martspec foi fundada na primavera de 2020. Durante esse tempo, muitas pessoas ficaram em casa e trabalharam remotamente. Nossas rotinas diárias mudaram. Muitos de nós param de se exercitar regularmente. Isso leva a mudanças significativas em nosso corpo e saúde.",
-        "P2": "Queríamos melhorar essa situação e fornecer às pessoas aplicativos para rastrear a saúde e o bem-estar. mantém hábitos saudáveis na frente de nossas mentes. Toda vez que fazemos uma entrada de log, somos lembrados de nosso compromisso com a saúde.",
-        "P3": "As pessoas que acompanham seu bem-estar diariamente progridem melhor do que aquelas que não o fazem.",
-        "P4": "Acreditamos verdadeiramente no poder das ideias para mudar atitudes, vidas e, em última análise, o mundo. A primeira ideia foi um aplicativo para rastrear o peso corporal diretamente de dispositivos vestíveis. Criamos o aplicativo de rastreamento de peso para o Apple Watch para facilitar a entrada de peso corporal e registrar medições diretamente na Apple Health a partir do seu pulso. Esse aplicativo fácil e minimalista ficou popular.",
-        "P5": "Construímos mais alguns aplicativos apenas para dispositivos Apple Watch.  Em 2021, começamos a construir aplicativos multiplataforma que funcionam em todos os tipos de dispositivos Apple, desde pequenos Apple Watch até iPads e MacBooks. Além do bem-estar físico e rastreamento de saúde, criamos nosso primeiro aplicativo, chamado Emotion, para abordar o bem-estar mental. O teste de personalidade mais rápido já criado.",
-        "P6": "Construímos nossos aplicativos usando tecnologia de ponta e os oferecemos em vários idiomas em todo o mundo, mas nada disso importa. Não se trata apenas do número de aplicativos e softwares líderes do setor. Martspec é sobre pessoas. Martspec é sobre confiança na tecnologia que capacita os indivíduos com saúde e bem-estar pessoais.",
-        "P7": "É por isso que todos os nossos aplicativos estão disponíveis gratuitamente. Não temos nenhuma monetização, não mostramos anúncios e nunca usamos dados pessoais para fins lucrativos."
+        "P1": "A Martspec foi fundada 🌱 na primavera de 2020. Durante esse período, muitas pessoas trabalharam em casa e suas rotinas diárias mudaram, fazendo com que muitas parassem de se exercitar regularmente. Isso levou a mudanças significativas em seus corpos e saúde.",
+        "P2": "Nossos aplicativos de bem-estar são criados especificamente para fornecer aos usuários as ferramentas para cultivar hábitos saudáveis. Ao acompanhar meticulosamente o seu progresso, os indivíduos são efetivamente lembrados todos os dias da sua dedicação inabalável à sua saúde, o que acaba por levar a melhorias substanciais no seu bem-estar geral.",
+        "P3": "Indivíduos que monitoram seu bem-estar diariamente tendem a alcançar maior progresso em comparação com aqueles que não o fazem.",
+        "P4": "Acreditamos apaixonadamente no poder das ideias para mudar atitudes, vidas e, em última análise, o mundo. Nossa primeira ideia foi criar um aplicativo que monitorasse o peso corporal diretamente de dispositivos vestíveis. Desenvolvemos o aplicativo Body Mass para Apple Watch, facilitando o monitoramento do peso corporal e registrando automaticamente as medidas no Apple Health. O design limpo e minimalista do aplicativo o tornou muito popular.",
+        "P5": "Um dos nossos aplicativos mais recentes, Emotion, tem como objetivo promover o bem-estar mental, fornecendo um teste de personalidade rápido e fácil. Além do bem-estar físico e do monitoramento da saúde, criamos nosso primeiro aplicativo, Emotion, para promover o bem-estar mental. Desde a sua criação, este produto recebeu apenas críticas positivas e tem quase exclusivamente classificações de 5 estrelas.",
+        "P6": "Nossos aplicativos são desenvolvidos com tecnologia de ponta e estão disponíveis em vários idiomas em todo o mundo. No entanto, nada disso importa. Não se trata apenas do número de aplicativos e softwares líderes do setor. Martspec é sobre pessoas. Martspec trata da confiança na tecnologia que capacita os indivíduos com saúde e bem-estar pessoal."
     },
     "TEAM": {
         "HEAD": "O time",
