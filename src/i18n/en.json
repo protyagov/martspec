@@ -79,7 +79,7 @@
         "HEAD5": "No authorization",
         "DESC5": "You don't need to create an account to use this app.",
         "HEAD6": "Pills & Suppliments",
-        "DESC6": "You can add up to 10 custom pills and nutrient supplements in addition to preset ones. The dietary supplements section automatically calculates how many vitamins and minerals you get and saves them for you. The pills section empowers you to create any pills unsupported by Apple Health.",
+        "DESC6": "You can add up to %{count_tries} custom pills and nutrient supplements in addition to preset ones. The dietary supplements section automatically calculates how many vitamins and minerals you get and saves them for you. The pills section empowers you to create any pills unsupported by Apple Health.",
         "HEAD7": "Works on all devices",
         "DESC7": "This app works on all modern Apple devices -  iPhone, iPad, Mac M, and Apple Watch. Your data will automatically sync via your iCloud to all your devices.",
         "HEAD8": "",
@@ -287,7 +287,7 @@
             "DEF_3": "Weight loss and anorexia",
             "OVER_1": "We have no evidence of any risks",
             "FACT_1": "Boost the immune system in times of stress",
-            "FACT_2": "Tannis (chemical in tea and coffee) might hamper B1 absorption",
+            "FACT_2": "Tanin (chemical in tea and coffee) might hamper B1 absorption",
             "FACT_3": "It is destroyed by high-heat or long cooking"
         },
         "VITAMIN_B2": {
