@@ -135,7 +135,7 @@
                 "LACT_14_18": "Stillzeit 14-18 Jahre",
                 "LACT_19_50": "Stillzeit 19-50 Jahre"
             },
-            "FOOD_100G": "Gehalt in Lebensmitteln mcg pro 100 g",
+            "FOOD_100G": "Gehalt in Lebensmitteln mg pro 100 g",
             "FOOD_ALMOND": "Mandel",
             "FOOD_APPLE": "Apfel, Gala",
             "FOOD_APRICOT": "Aprikose",
@@ -198,7 +198,7 @@
             "FOOD_SUNFLOWER": "Sonnenblumenkerne",
             "FOOD_TOFU": "Tofu, fest",
             "FOOD_TOMATO": "Tomate",
-            "MCG": "mcg",
+            "MCG": "mg",
             "FACTS": "Wussten Sie?"
         },
         "VITAMIN_A": {
@@ -275,7 +275,7 @@
             "FACT_1": "Antibiotika blockieren den Vitamin-K-Stoffwechsel",
             "FACT_2": "Da Vitamin K fettlöslich ist, ist es am besten, Vitamin-K-Lebensmittel mit etwas Fett zu sich zu nehmen, um die Aufnahme zu verbessern",
             "FACT_3": "Der Vitamin-K-Transport durch die Plazenta ist schlecht, was das Risiko eines Vitamin-K-Mangels bei Neugeborenen erhöht",
-            "FACT_4": "Eine Studie ergab, dass 180 mcg/Tag über 3 Jahre die Knochenstärke verbesserten undden Verlust an Wirbelsäulenhöhe verringerten"
+            "FACT_4": "Eine Studie ergab, dass 180 mg/Tag über 3 Jahre die Knochenstärke verbesserten undden Verlust an Wirbelsäulenhöhe verringerten"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
@@ -708,9 +708,9 @@
             "FACT_2": "Wirkt als Antioxidans, besonders in Kombination mit Vitamin E",
             "FACT_3": "Die Selenkonzentration im Körper nimmt mit zunehmendem Alter ab",
             "FACT_4": "Die Schilddrüse enthält die höchste Selenkonzentration",
-            "FACT_5": "Forschung: Menschen, die mehr als 7 Jahre lang mehr als 200 mcg Selen pro Tag einnahmen, hatten ein signifikant höheres Risiko, an Typ-2-Diabetes zu erkranken. Weitere Studien sind erforderlich, die Ergebnisse sind nicht schlüssig",
+            "FACT_5": "Forschung: Menschen, die mehr als 7 Jahre lang mehr als 200 mg Selen pro Tag einnahmen, hatten ein signifikant höheres Risiko, an Typ-2-Diabetes zu erkranken. Weitere Studien sind erforderlich, die Ergebnisse sind nicht schlüssig",
             "FACT_6": "Neun randomisierte klinische Studien: Selen könnte zur Vorbeugung von Magen-Darm-Krebs beitragen, aber es sind weitere klinische Studien erforderlich, um eine eindeutige Schlussfolgerung zu ziehen",
-            "FACT_7": "Paranüsse enthalten sehr hohe Mengen an Selen (68–91 mcg pro Nuss) und können bei regelmäßigem Verzehr eine Selentoxizität verursachen",
+            "FACT_7": "Paranüsse enthalten sehr hohe Mengen an Selen (68–91 mg pro Nuss) und können bei regelmäßigem Verzehr eine Selentoxizität verursachen",
             "FACT_8": "Eine Überprüfung von Studien zur reinen Selenergänzung zur Primärprävention von Herz-Kreislauf-Erkrankungen ergab keine statistisch signifikanten Wirkungen von Selen auf tödliche und nicht tödliche kardiovaskuläre Ereignisse",
             "FACT_9": "SU.VI.MAX-Studie, die auf eine umgekehrte Beziehung zwischen der Selenkonzentration im Körper und dem Schilddrüsenvolumen bei Frauen hinweist"
         },

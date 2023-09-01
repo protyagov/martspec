@@ -135,7 +135,7 @@
                 "LACT_14_18": "Grossesse 14-18 ans",
                 "LACT_19_50": "Grossesse 19-50 ans"
             },
-            "FOOD_100G": "Contenu dans les aliments mcg pour 100 g",
+            "FOOD_100G": "Contenu dans les aliments mg pour 100 g",
             "FOOD_ALMOND": "Amande",
             "FOOD_APPLE": "Pomme, Gala",
             "FOOD_APRICOT": "Abricot",
@@ -198,7 +198,7 @@
             "FOOD_SUNFLOWER": "Graines de tournesol",
             "FOOD_TOFU": "Tofu, ferme",
             "FOOD_TOMATO": "Tomate",
-            "MCG": "mcg",
+            "MCG": "mg",
             "FACTS": "Saviez-vous?"
         },
         "VITAMIN_A": {
@@ -275,7 +275,7 @@
             "FACT_1": "Les antibiotiques bloquent le métabolisme de la vitamine K",
             "FACT_2": "Parce que la vitamine K est liposoluble, il est préférable de manger des aliments contenant de la vitamine K avec un peu de graisse pour améliorer l'absorption",
             "FACT_3": "Le transport de la vitamine K à travers le placenta est médiocre, ce qui augmente le risque de carence en vitamine K chez les nouveau-nés",
-            "FACT_4": "Une étude a révélé que 180 mcg/jour pendant 3 ans amélioraient la solidité des os et diminuaient la perte de hauteur de la colonne vertébrale"
+            "FACT_4": "Une étude a révélé que 180 mg/jour pendant 3 ans amélioraient la solidité des os et diminuaient la perte de hauteur de la colonne vertébrale"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
@@ -444,7 +444,7 @@
             "FACT_2": "Certains essais cliniques ont montré que la supplémentation en calcium peut améliorer la santé des os chez les personnes âgées",
             "FACT_3": "La supplémentation en calcium seule ou en association avec la vitamine D augmente la densité minérale osseuse chez les personnes âgées",
             "FACT_4": "L'augmentation des apports en calcium réduit le risque de fractures et de chutes chez les personnes âgées",
-            "FACT_5": "Essai de 4 ans sur 1 179 femmes âgées de 55 ans et plus : prise quotidienne de 1 400 à 1 500 mg de calcium, de 1 400 à 1 500 mg de calcium plus 27,5 mcg de vitamine D3 ou d'un placebo. L'incidence du cancer était de 60 % inférieure chez les femmes qui prenaient l'association et de 47 % inférieure chez celles qui prenaient des suppléments de calcium uniquement par rapport au groupe placebo",
+            "FACT_5": "Essai de 4 ans sur 1 179 femmes âgées de 55 ans et plus : prise quotidienne de 1 400 à 1 500 mg de calcium, de 1 400 à 1 500 mg de calcium plus 27,5 mg de vitamine D3 ou d'un placebo. L'incidence du cancer était de 60 % inférieure chez les femmes qui prenaient l'association et de 47 % inférieure chez celles qui prenaient des suppléments de calcium uniquement par rapport au groupe placebo",
             "FACT_6": "Étude de 8 ans portant sur 77 712 adultes : un apport moyen en calcium de 1 999 mg/jour était associé à un risque de cancer du côlon de 26 % inférieur à celui de 587 mg/jour. L'association avec le risque de cancer du rectum n'a pas été trouvée"
         },
         "CHLORIDE": {
@@ -706,10 +706,10 @@
             "FACT_2": "Fonctionne comme un antioxydant, en particulier lorsqu'il est combiné avec de la vitamine E",
             "FACT_3": "Les concentrations corporelles de sélénium diminuent avec l'âge",
             "FACT_4": "La glande thyroïde détient la plus forte concentration de sélénium",
-            "FACT_5": "Recherche : Les personnes qui ont pris plus de 200 mcg de sélénium par jour pendant plus de 7 ans avaient un risque significativement plus élevé de développer un diabète de type 2. D'autres études sont nécessaires, les résultats ne sont pas concluants",
+            "FACT_5": "Recherche : Les personnes qui ont pris plus de 200 mg de sélénium par jour pendant plus de 7 ans avaient un risque significativement plus élevé de développer un diabète de type 2. D'autres études sont nécessaires, les résultats ne sont pas concluants",
             "FACT_6": "Neuf essais cliniques randomisés : le sélénium pourrait aider à prévenir les cancers gastro-intestinaux, mais d'autres essais cliniques sont nécessaires pour tirer des conclusions solides",
             "FACT_7": "FDA : certaines preuves scientifiques suggèrent que la consommation de sélénium peut réduire le risque de certaines formes de cancer. La FDA a déterminé que ces preuves sont limitées et non concluantes",
-            "FACT_8": "Les noix du Brésil contiennent de très grandes quantités de sélénium (68 à 91 mcg par noix) et peuvent provoquer une toxicité du sélénium si elles sont consommées régulièrement",
+            "FACT_8": "Les noix du Brésil contiennent de très grandes quantités de sélénium (68 à 91 mg par noix) et peuvent provoquer une toxicité du sélénium si elles sont consommées régulièrement",
             "FACT_9": "Une revue des essais de supplémentation en sélénium seul pour la prévention primaire des maladies cardiovasculaires n'a trouvé aucun effet statistiquement significatif du sélénium sur les événements cardiovasculaires mortels et non mortels étude SU.VI.MAX indiquant une relation inverse entre les concentrations corporelles de sélénium et le volume thyroïdien chez la femme"
         },
         "SODIUM": {

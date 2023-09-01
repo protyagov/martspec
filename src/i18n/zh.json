@@ -135,7 +135,7 @@
                 "LACT_14_18": "Lactation 14-18 years",
                 "LACT_19_50": "Lactation 19-50 years"
             },
-            "FOOD_100G": "Content in foods mcg per 100 g",
+            "FOOD_100G": "Content in foods mg per 100 g",
             "FOOD_ALMOND": "Almond",
             "FOOD_APPLE": "Apple, Gala",
             "FOOD_APRICOT": "Apricot",
@@ -198,7 +198,7 @@
             "FOOD_SUNFLOWER": "Sunflower seeds",
             "FOOD_TOFU": "Tofu, firm",
             "FOOD_TOMATO": "Tomato",
-            "MCG": "mcg",
+            "MCG": "mg",
             "FACTS": "Did You Know?"
         },
         "VITAMIN_A": {
@@ -275,7 +275,7 @@
             "FACT_1": "Antibiotics block vitamin K metabolism",
             "FACT_2": "Because vitamin K is fat-soluble, it is best to eat vitamin K foods with some fat to improve absorption",
             "FACT_3": "Vitamin K transport across the placenta is poor, increasing the risk of vitamin K deficiency in newborn babies",
-            "FACT_4": "A study found that 180 mcg/day for 3 years improved bone strength and decreased the loss in spine height"
+            "FACT_4": "A study found that 180 mg/day for 3 years improved bone strength and decreased the loss in spine height"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
@@ -444,7 +444,7 @@
             "FACT_2": "Some clinical trials have found that calcium supplementation can improve bone health in older adults",
             "FACT_3": "Calcium supplementation alone or a combination with vitamin D increases bone mineral density in older adults",
             "FACT_4": "Increasing calcium intakes reduces the risk of fractures and falls in older adults",
-            "FACT_5": "4-year trial of 1,179 women aged 55+ years: taking 1,400 to 1,500 mg calcium alone, 1,400 to 1,500 mg calcium plus 27.5 mcg vitamin D3, or placebo daily. Cancer incidence was 60% lower in women who took the combination and 47% lower in those who took calcium-only supplements than in the placebo group",
+            "FACT_5": "4-year trial of 1,179 women aged 55+ years: taking 1,400 to 1,500 mg calcium alone, 1,400 to 1,500 mg calcium plus 27.5 mg vitamin D3, or placebo daily. Cancer incidence was 60% lower in women who took the combination and 47% lower in those who took calcium-only supplements than in the placebo group",
             "FACT_6": "8 year study of 77,712 adults:  Average calcium intake of 1999 mg/day was associated with a 26% lower risk of colon cancer compared to 587 mg/day. Association with risk of rectal cancer was not found"
         },
         "CHLORIDE": {
@@ -703,10 +703,10 @@
             "OVER_4": "Fatigue, Irritability, Muscle tenderness",
             "OVER_5": "Nausea, diarrhea",
             "FACT_1": "Most selenium in the body is stored in muscle tissue (28% to 46%). Works as an antioxidant, especially when combined with vitamin E",
-            "FACT_2": "Research: People who took 200+ mcg of selenium per day for more than 7 years had a significantly higher risk of developing type 2 diabetes.  More studies are needed, results are inconclusive",
+            "FACT_2": "Research: People who took 200+ mg of selenium per day for more than 7 years had a significantly higher risk of developing type 2 diabetes.  More studies are needed, results are inconclusive",
             "FACT_3": "Nine randomized clinical trials: selenium might help prevent gastrointestinal cancers but more clinical trials are needed to make strong conclusion",
             "FACT_4": "FDA: some scientific evidence suggests that consumption of selenium may reduce the risk of certain forms of cancer. FDA has determined that this evidence is limited and not conclusive",
-            "FACT_5": "Brazil nuts contain very high amounts of selenium (68–91 mcg per nut) and could cause selenium toxicity if consumed regularly",
+            "FACT_5": "Brazil nuts contain very high amounts of selenium (68–91 mg per nut) and could cause selenium toxicity if consumed regularly",
             "FACT_6": "A review of trials of selenium-only supplementation for the primary prevention of cardiovascular disease found no statistically significant effects of selenium on fatal and nonfatal cardiovascular events",
             "FACT_7": "Body selenium concentrations decline with age",
             "FACT_8": "Thyroid gland holds the highest concentration of selenium",

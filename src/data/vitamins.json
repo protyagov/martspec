@@ -151,7 +151,7 @@
         "HEX": "FF7152",
         "TYPE": "VITAMIN_WATER",
         "DEF_COUNT": 4,
-        "OVER_COUNT": 3,
+        "OVER_COUNT": 2,
         "FACT_COUNT": 3,
         "DOSE_RDV": {
             "MALE": [4, 6, 8, 12, 16, 16, 16, 16],
