@@ -49,7 +49,7 @@ export const Footer = () =>
                             <img src={'/img/apple_btn/' + Locale.language + '.svg'} alt={_("FOOTER.APPLE_BUTTON.ALT")} />
                         </a>
                     </div>
-                        <SocialBar color="white" size={60 } />
+                    <SocialBar color="white" />
                 </div>
 
                 </div>
