@@ -1,5 +1,6 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
+import SocialBar from "src/part/social-bar";
 
 export function LanguageSwitcher() {
     return (
@@ -48,25 +49,7 @@ export const Footer = () =>
                             <img src={'/img/apple_btn/' + Locale.language + '.svg'} alt={_("FOOTER.APPLE_BUTTON.ALT")} />
                         </a>
                     </div>
-
-                    <div>
-                        <a className="social-icon" href="https://www.linkedin.com/company/martspec" target="_blank" rel="noopener" aria-label="">
-                            <img src="/img/linkedin_icon.svg" alt="linkedin" width={40} height={40} />
-                        </a>
-
-                        <a className="social-icon" href={`mailto:support@martspec.com?subject=Martspec Question&body=I have a question about your products. `} target="_self" rel="noopener" aria-label="">
-                                <img src="/img/email_icon.svg" alt="email" width={40} height={40} />
-                        </a>
-
-                        <a className="social-icon" href="https://twitter.com/MartspecCom" target="_blank" rel="noopener" aria-label="">
-                                <img src="/img/twitter_icon.svg" alt="twitter" width={40} height={40} />
-                        </a>
-
-                        <a className="social-icon" href="https://www.facebook.com/martspec" target="_blank" rel="noopener" aria-label="">
-                                <img src="/img/facebook_icon.svg" alt="facebook" width={40} height={40} />
-                        </a>
-                    </div>
-
+                        <SocialBar color="white" size={60 } />
                 </div>
 
                 </div>
