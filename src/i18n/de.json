@@ -79,7 +79,7 @@
         "HEAD5": "Ohne Genehmigung",
         "DESC5": "Sie müssen kein Konto erstellen, um diese App zu verwenden. ",
         "HEAD6": "Möglichkeit, benutzerdefinierte Elemente hinzuzufügen",
-        "DESC6": "Sie können zusätzlich zu den voreingestellten bis zu 20 benutzerdefinierte Elemente hinzufügen.",
+        "DESC6": "Sie können zusätzlich zu den voreingestellten bis zu %{count_tries} benutzerdefinierte Elemente hinzufügen.",
         "HEAD7": "Die Daten werden zwischen all Ihren Geräten synchronisiert",
         "DESC7": "Die App funktioniert auf Apple Watch, iPhone, iPad und Mac M.",
         "HEAD8": "",
