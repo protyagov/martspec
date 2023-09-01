@@ -82,7 +82,7 @@
         "HEAD5": "Sem autorização",
         "DESC5": "Você não precisa criar uma conta para usar este aplicativo.",
         "HEAD6": "Capacidade de adicionar elementos personalizados",
-        "DESC6": "Você pode adicionar até 5 elementos personalizados além dos predefinidos.",
+        "DESC6": "Você pode adicionar até %{count_tries} elementos personalizados além dos predefinidos.",
         "HEAD7": "Os dados são sincronizados entre todos os seus dispositivos",
         "DESC7": "O aplicativo funciona no Apple Watch, iPhone, iPad e Mac M.",
         "HEAD8": "",
@@ -290,7 +290,7 @@
             "DEF_3": "Weight loss and anorexia",
             "OVER_1": "We have no evidence of any risks",
             "FACT_1": "Boost the immune system in times of stress",
-            "FACT_2": "Tannis (chemical in tea and coffee) might hamper B1 absorption",
+            "FACT_2": "Tanin (chemical in tea and coffee) might hamper B1 absorption",
             "FACT_3": "It is destroyed by high-heat or long cooking"
         },
         "VITAMIN_B2": {

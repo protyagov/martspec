@@ -77,7 +77,7 @@
         "HEAD5": "بدون إذن",
         "DESC5": "لا تحتاج إلى إنشاء حساب لاستخدام هذا التطبيق.",
         "HEAD6": "القدرة على إضافة عناصر مخصصة",
-        "DESC6": "يمكنك إضافة ما يصل إلى 5 عناصر مخصصة بالإضافة إلى العناصر المعدة مسبقًا.",
+        "DESC6": "يمكنك إضافة ما يصل إلى %{count_tries} من الحبوب والمكملات الغذائية المخصصة بالإضافة إلى المكملات الغذائية المعدة مسبقًا",
         "HEAD7": "تتم مزامنة البيانات بين جميع أجهزتك",
         "DESC7": "يعمل التطبيق على Apple Watch و iPhone و iPad و Mac M.",
         "HEAD8": "",
@@ -285,7 +285,7 @@
             "DEF_3": "Weight loss and anorexia",
             "OVER_1": "We have no evidence of any risks",
             "FACT_1": "Boost the immune system in times of stress",
-            "FACT_2": "Tannis (chemical in tea and coffee) might hamper B1 absorption",
+            "FACT_2": "يمكن أن يتداخل التانين (مادة كيميائية موجودة في الشاي والقهوة) مع امتصاص فيتامين ب1.",
             "FACT_3": "It is destroyed by high-heat or long cooking"
         },
         "VITAMIN_B2": {

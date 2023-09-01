@@ -78,8 +78,8 @@
         "DESC4": "完全私密。我们不会将您的数据存储或传输给第三方。数据仅存储在您的 Apple 服务中。",
         "HEAD5": "未经授权",
         "DESC5": "您无需创建帐户即可使用此应用。",
-        "HEAD6": "能够添加自定义元素",
-        "DESC6": "除了预设元素外，您最多可以添加 5 个自定义元素。",
+        "HEAD6": "能够添加 20 个自定义元素。",
+        "DESC6": "除了预设元素外，您最多可以添加 %{count_tries} 个自定义元素。",
         "HEAD7": "数据在您的所有设备之间同步",
         "DESC7": "该应用适用于 Apple Watch、iPhone、iPad 和 Mac M。",
         "HEAD8": "",
@@ -287,7 +287,7 @@
             "DEF_3": "Weight loss and anorexia",
             "OVER_1": "We have no evidence of any risks",
             "FACT_1": "Boost the immune system in times of stress",
-            "FACT_2": "Tannis (chemical in tea and coffee) might hamper B1 absorption",
+            "FACT_2": "单宁（茶和咖啡中发现的一种化学物质）会干扰 B1 的吸收。",
             "FACT_3": "It is destroyed by high-heat or long cooking"
         },
         "VITAMIN_B2": {
