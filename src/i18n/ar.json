@@ -936,6 +936,18 @@
         "APPLE_BUTTON":{
             "TITLE": "شاهد جميع تطبيقات martspec على متجر تطبيقات Apple الخاص بنا",
             "ALT": "شاهد جميع تطبيقاتنا على Martpsec AppStore في Apple"
+        },
+        "LINKEDIN_BTN": {
+            "TITLE": "تابعونا على لينكدإن"
+        },
+        "EMAIL_BTN": {
+            "TITLE": "الاتصال بنا عن طريق البريد الإلكتروني"
+        },
+        "TWITTER_BTN": {
+            "TITLE": "تابعنا على تويتر"
+        },
+        "FACEBOOK_BTN": {
+            "TITLE": "تابعونا على الفيسبوك"
         }
     },
     "ERROR": {

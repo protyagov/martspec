@@ -938,6 +938,18 @@
         "APPLE_BUTTON":{
             "TITLE": "在我们的 Apple AppStore 上查看所有 martspec 应用程序",
             "ALT": "在 Apple 的 Martpsec AppStore 上查看我们所有的应用程序"
+        },
+        "LINKEDIN_BTN": {
+            "TITLE": "在 LinkedIn 上关注我们"
+        },
+        "EMAIL_BTN": {
+            "TITLE": "通过电子邮件联系我们"
+        },
+        "TWITTER_BTN": {
+            "TITLE": "在推特上关注我们"
+        },
+        "FACEBOOK_BTN": {
+            "TITLE": "在 Facebook 上关注我们"
         }
     },
     "ERROR": {

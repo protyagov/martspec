@@ -940,6 +940,18 @@
         "APPLE_BUTTON":{
             "TITLE": "Alle martspec-Anwendungen finden Sie in unserem Apple AppStore",
             "ALT": "Sehen Sie sich alle unsere Apps im Martpsec AppStore bei Apple an"
+        },
+        "LINKEDIN_BTN": {
+            "TITLE": "Folgen Sie uns auf LinkedIn"
+        },
+        "EMAIL_BTN": {
+            "TITLE": "Kontaktieren Sie uns per E-Mail"
+        },
+        "TWITTER_BTN": {
+            "TITLE": "Folgen Sie uns auf Twitter"
+        },
+        "FACEBOOK_BTN": {
+            "TITLE": "Folgen Sie uns auf Facebook"
         }
     },
     "ERROR": {

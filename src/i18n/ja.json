@@ -938,6 +938,18 @@
         "APPLE_BUTTON":{
             "TITLE": "Apple AppStore ですべての martspec アプリケーションを見る",
             "ALT": "Apple の Martpsec AppStore ですべてのアプリをご覧ください"
+        },
+        "LINKEDIN_BTN": {
+            "TITLE": "LinkedIn でフォローしてください"
+        },
+        "EMAIL_BTN": {
+            "TITLE": "電子メールでお問い合わせください"
+        },
+        "TWITTER_BTN": {
+            "TITLE": "Twitterでフォローします"
+        },
+        "FACEBOOK_BTN": {
+            "TITLE": "フェースブックでフォローして"
         }
     },
     "ERROR": {
