@@ -934,9 +934,21 @@
     },
     "FOOTER": {
         "C": "© Martspec LLC, 2023 г. Все права защищены.",
-        "APPLE_BUTTON":{
+        "APPLE_BTN":{
             "TITLE": "Посмотреть все приложения martspec в Apple AppStore",
             "ALT": "Посмотреть все наши приложения в Martpsec AppStore в Apple"
+        },
+        "LINKEDIN_BTN": {
+            "TITLE": "Открыть страницу Martspec в LinkedIn"
+        },
+        "EMAIL_BTN": {
+            "TITLE": "Написать письмо команде Martspec"
+        },
+        "TWITTER_BTN": {
+            "TITLE": "Открыть страницу Martspec в Twitter"
+        },
+        "FACEBOOK_BTN": {
+            "TITLE": "Открыть страницу Martspec в Facebook"
         }
     },
     "ERROR": {
