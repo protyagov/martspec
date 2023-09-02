@@ -935,7 +935,7 @@
     },
     "FOOTER": {
         "C": "कॉपीराइट © 2023 मार्टस्पेक एलएलसी। सर्वाधिकार सुरक्षित।",
-        "APPLE_BUTTON":{
+        "APPLE_BTN":{
             "TITLE": "हमारे Apple AppStore पर सभी मार्टस्पेक एप्लिकेशन देखें",
             "ALT": "Apple के Martpsec AppStore पर हमारे सभी ऐप्स देखें"
         },

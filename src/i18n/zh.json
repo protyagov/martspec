@@ -935,7 +935,7 @@
     },
     "FOOTER": {
         "C": "版权所有 © 2023 Martspec LLC。 版权所有。",
-        "APPLE_BUTTON":{
+        "APPLE_BTN":{
             "TITLE": "在我们的 Apple AppStore 上查看所有 martspec 应用程序",
             "ALT": "在 Apple 的 Martpsec AppStore 上查看我们所有的应用程序"
         },

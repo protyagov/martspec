@@ -935,7 +935,7 @@
     },
     "FOOTER": {
         "C": "© Martspec LLC, 2023 г. Все права защищены.",
-        "APPLE_BUTTON":{
+        "APPLE_BTN":{
             "TITLE": "Посмотреть все приложения martspec в Apple AppStore",
             "ALT": "Посмотреть все наши приложения в Martpsec AppStore в Apple"
         },

@@ -44,9 +44,9 @@ export const Footer = () =>
                     <div>
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/developer/martspec-llc/id1506250419?l=${Locale.language}`}
                             target="_blank"
-                            title={_("FOOTER.APPLE_BUTTON.TITLE")}
+                            title={_("FOOTER.APPLE_BTN.TITLE")}
                             className="ms-btn-apple">
-                            <img src={'/img/apple_btn/' + Locale.language + '.svg'} alt={_("FOOTER.APPLE_BUTTON.ALT")} />
+                            <img src={'/img/apple_btn/' + Locale.language + '.svg'} alt={_("FOOTER.APPLE_BTN.ALT")} />
                         </a>
                     </div>
                     <SocialBar color="white" />

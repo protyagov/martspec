@@ -937,7 +937,7 @@
     },
     "FOOTER": {
         "C": "Copyright © 2023 Martspec LLC. Alle Rechte vorbehalten.",
-        "APPLE_BUTTON":{
+        "APPLE_BTN":{
             "TITLE": "Alle martspec-Anwendungen finden Sie in unserem Apple AppStore",
             "ALT": "Sehen Sie sich alle unsere Apps im Martpsec AppStore bei Apple an"
         },

@@ -933,7 +933,7 @@
     },
     "FOOTER": {
         "C": "حقوق النشر © ۲۰۲۳ Martspec LLC. كل الحقوق محفوظة.",
-        "APPLE_BUTTON":{
+        "APPLE_BTN":{
             "TITLE": "شاهد جميع تطبيقات martspec على متجر تطبيقات Apple الخاص بنا",
             "ALT": "شاهد جميع تطبيقاتنا على Martpsec AppStore في Apple"
         },
