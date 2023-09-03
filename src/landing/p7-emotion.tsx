@@ -111,7 +111,7 @@ export default function P7Emotion() {
                             <h2>{_("EMOTION.HEAD3")}</h2>
                             <p>{_("EMOTION.DESK3_1")}</p>
                             <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={522} cls="ms-base-image d-block d-lg-none py-5" alt={_("EMOTION.ALT3")} />
-                            <h4>{_("EMOTION.DESK3_2")}</h4>
+                            <h4 className="mb-4">{_("EMOTION.DESK3_2")}</h4>
                             <ul className="d-flex gap-4 how-list">
                                 <li className="bg-orange">{_("EMOTION.LIST3.LI1_TEXT")}</li>
                                 <li className="bg-aqua">{_("EMOTION.LIST3.LI2_TEXT")}</li>
