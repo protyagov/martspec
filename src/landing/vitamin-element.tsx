@@ -13,8 +13,9 @@ interface VitaminElement {
     HEX: string;
     TYPE: "VITAMIN_FAT" | "VITAMIN_WATER" | "MINERAL" | null;
     DOSE_RDV: { [key: string]: Array<number> };
-    DOSE_UL: { [key: string]: Array<number> | null }
+    DOSE_UL: { [key: string]: Array<number> | null };
     FOOD_100G: { [key: string]: number };
+    UNIT: "MCG" | "MG" | null;
 };
 
 
@@ -164,8 +165,8 @@ export default function VitaminElement(props: VitaminElementProps) {
                                                     VIT_AGE.map((age, idx) => {
                                                         return <tr key={SECTION + "-" + age}>
                                                             <td>{ _("VITAMIN.CONTENT.AGE." + age) }</td>
-                                                            <td>{ data[SECTION].MALE[idx] ? (data[SECTION].MALE[idx] + " " + _("VITAMIN.CONTENT.MCG")) : "" }</td>
-                                                            <td>{ data[SECTION].FEMA[idx] ? (data[SECTION].FEMA[idx] + " " + _("VITAMIN.CONTENT.MCG")) : "" }</td>
+                                                            <td>{data[SECTION].MALE[idx] ? (data[SECTION].MALE[idx] + " " + _("VITAMIN.CONTENT." + data.UNIT)) : ""}</td>
+                                                            <td>{data[SECTION].FEMA[idx] ? (data[SECTION].FEMA[idx] + " " + _("VITAMIN.CONTENT." + data.UNIT)) : "" }</td>
                                                         </tr>
                                                     })
                                                 }
@@ -180,7 +181,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                     <section>
                         <div className="row">
                             <div className="col">
-                                <h2>{_("VITAMIN.CONTENT.FOOD_100G")}</h2>
+                                <h2>{_("VITAMIN.CONTENT.FOOD_100G", { unit: _("VITAMIN.CONTENT." + data.UNIT) })}</h2>
                             </div>
                         </div>
                         <div className="row">

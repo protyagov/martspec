@@ -135,7 +135,7 @@
                 "LACT_14_18": "Grossesse 14-18 ans",
                 "LACT_19_50": "Grossesse 19-50 ans"
             },
-            "FOOD_100G": "Contenu dans les aliments mg pour 100 g",
+            "FOOD_100G": "Contenu dans les aliments %{unit} pour 100 g",
             "FOOD_ALMOND": "Amande",
             "FOOD_APPLE": "Pomme, Gala",
             "FOOD_APRICOT": "Abricot",
@@ -198,7 +198,8 @@
             "FOOD_SUNFLOWER": "Graines de tournesol",
             "FOOD_TOFU": "Tofu, ferme",
             "FOOD_TOMATO": "Tomate",
-            "MCG": "mg",
+            "MCG": "mcg",
+            "MG": "mg",
             "FACTS": "Saviez-vous?"
         },
         "VITAMIN_A": {
@@ -275,7 +276,7 @@
             "FACT_1": "Les antibiotiques bloquent le métabolisme de la vitamine K",
             "FACT_2": "Parce que la vitamine K est liposoluble, il est préférable de manger des aliments contenant de la vitamine K avec un peu de graisse pour améliorer l'absorption",
             "FACT_3": "Le transport de la vitamine K à travers le placenta est médiocre, ce qui augmente le risque de carence en vitamine K chez les nouveau-nés",
-            "FACT_4": "Une étude a révélé que 180 mg/jour pendant 3 ans amélioraient la solidité des os et diminuaient la perte de hauteur de la colonne vertébrale"
+            "FACT_4": "Une étude a révélé que 180 mcg/jour pendant 3 ans amélioraient la solidité des os et diminuaient la perte de hauteur de la colonne vertébrale"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
@@ -369,7 +370,7 @@
             "FACT_2": "Peut aider à restaurer le sens du goût",
             "FACT_3": "Favorise la santé des cheveux, de la peau et des ongles",
             "FACT_4": "Le fœtus en développement a besoin de biotine pour une grossesse en santé",
-            "FACT_5": "Une étude portant sur 23 patients atteints de sclérose en plaques progressive a révélé que des doses élevées de biotine (100 à 600 mg/jour) étaient associées à des améliorations cliniques durables chez 5 patients sur 5 présentant une perte visuelle progressive ; et 16 patients sur 18 atteints de paralysie partielle des membres"
+            "FACT_5": "Une étude portant sur 23 patients atteints de sclérose en plaques progressive a révélé que des doses élevées de biotine (100 à 600 mcg/jour) étaient associées à des améliorations cliniques durables chez 5 patients sur 5 présentant une perte visuelle progressive ; et 16 patients sur 18 atteints de paralysie partielle des membres"
         },
         "VITAMIN_B9": {
             "HEAD": "B9",
@@ -403,7 +404,7 @@
             "DEF_5": "Les symptômes de carence peuvent mettre des années à apparaître",
             "DEF_6": "Les végétaliens sont à haut risque",
             "OVER_1": "Même à fortes doses, la vitamine B12 est généralement considérée comme sûre car l'organisme n'en stocke pas les quantités excessives",
-            "FACT_1": "Le corps stocke environ 1 à 5 mg de vitamine B12, soit 1 000 à 2 000 fois plus que la quantité généralement consommée par jour",
+            "FACT_1": "Le corps stocke environ 1 à 5 mcg de vitamine B12, soit 1 000 à 2 000 fois plus que la quantité généralement consommée par jour",
             "FACT_2": "La dépression et l'ostéoporose ont été liées à une faible quantité de vitamine B12",
             "FACT_3": "Prendre de la vitamine B12 avec de la vitamine C peut réduire la quantité disponible de vitamine B12 dans votre corps. Pour éviter cette interaction, prenez de la vitamine C deux heures ou plus après avoir pris un supplément de vitamine B12",
             "FACT_4": "Des quantités plus élevées de folate peuvent masquer une carence en vitamine B12",
@@ -704,10 +705,10 @@
             "FACT_2": "Fonctionne comme un antioxydant, en particulier lorsqu'il est combiné avec de la vitamine E",
             "FACT_3": "Les concentrations corporelles de sélénium diminuent avec l'âge",
             "FACT_4": "La glande thyroïde détient la plus forte concentration de sélénium",
-            "FACT_5": "Recherche : Les personnes qui ont pris plus de 200 mg de sélénium par jour pendant plus de 7 ans avaient un risque significativement plus élevé de développer un diabète de type 2. D'autres études sont nécessaires, les résultats ne sont pas concluants",
+            "FACT_5": "Recherche : Les personnes qui ont pris plus de 200 mcg de sélénium par jour pendant plus de 7 ans avaient un risque significativement plus élevé de développer un diabète de type 2. D'autres études sont nécessaires, les résultats ne sont pas concluants",
             "FACT_6": "Neuf essais cliniques randomisés : le sélénium pourrait aider à prévenir les cancers gastro-intestinaux, mais d'autres essais cliniques sont nécessaires pour tirer des conclusions solides",
             "FACT_7": "FDA : certaines preuves scientifiques suggèrent que la consommation de sélénium peut réduire le risque de certaines formes de cancer. La FDA a déterminé que ces preuves sont limitées et non concluantes",
-            "FACT_8": "Les noix du Brésil contiennent de très grandes quantités de sélénium (68 à 91 mg par noix) et peuvent provoquer une toxicité du sélénium si elles sont consommées régulièrement",
+            "FACT_8": "Les noix du Brésil contiennent de très grandes quantités de sélénium (68 à 91 mcg par noix) et peuvent provoquer une toxicité du sélénium si elles sont consommées régulièrement",
             "FACT_9": "Une revue des essais de supplémentation en sélénium seul pour la prévention primaire des maladies cardiovasculaires n'a trouvé aucun effet statistiquement significatif du sélénium sur les événements cardiovasculaires mortels et non mortels étude SU.VI.MAX indiquant une relation inverse entre les concentrations corporelles de sélénium et le volume thyroïdien chez la femme"
         },
         "SODIUM": {
