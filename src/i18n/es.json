@@ -88,9 +88,9 @@
         "DESC8_3": "Para obtener varias vitaminas, debe comer productos de todos los grupos: cereales integrales, frutas y verduras, productos lácteos, productos del grupo 'pescado-huevos-aves-carne', grasas (nueces y semillas).",
         "DESC8_4": "Con nuestra aplicación, puede realizar un seguimiento de las siguientes vitaminas y minerales:",
         "VITAMIN_FAT": {
-            "NAME": "Vitaminas solubles en grasa",
-            "SHORT": "Soluble en grasa",
-            "DESC": "Soluble en grasa, lo que significa que cualquier cantidad que el cuerpo no necesita de inmediato se absorbe y almacena en el tejido adiposo o en el hígado."
+            "NAME": "Vitaminas liposolubles",
+            "SHORT": "Vitaminas liposolubles",
+            "DESC": "Vitaminas liposolubles, lo que significa que cualquier cantidad que el cuerpo no necesita de inmediato se absorbe y almacena en el tejido adiposo o en el hígado."
         },
         "VITAMIN_WATER": {
             "NAME": "Vitaminas Solubles en Agua",
