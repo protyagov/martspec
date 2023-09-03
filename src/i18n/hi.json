@@ -42,7 +42,7 @@
         "TEXT": "अपने वजन को ट्रैक करना आपके समय और वर्कआउट के संदर्भ में आपकी कार्यक्षमता को बढ़ाता है। यह न केवल आपको बेहतर करने के लिए प्रेरित करेगा, बल्कि आपको अपनी खुद की प्रतियोगिता बनाने के लिए प्रेरित करेगा!",
         "IMG": "शरीर के द्रव्यमान को सीधे अपने Apple वॉच से Apple हेल्थ स्टोरेज में सेव करें",
         "DWN": "ऐप्पल ऐपस्टोर से फ्री लॉग मास ऐप डाउनलोड करें",
-        "ABOUT": "बॉडीवेट जर्नल आपके व्यायाम की दक्षता और लक्ष्य तक पहुंचने के लिए प्रेरणा बढ़ाने के लिए एक आदर्श उपकरण है। सभी डेटा Apple Health के साथ समन्वयित हैं और आपके iCloud में सुरक्षित रूप से संग्रहीत हैं। सब कुछ आसान और बिल्कुल मुफ्त है। शून्य विज्ञापन और कोई इन-ऐप खरीदारी नहीं।",
+        "ABOUT": "बॉडीवेट जर्नल आपके व्यायाम की दक्षता और लक्ष्य तक पहुंचने के लिए प्रेरणा बढ़ाने के लिए एक आदर्श उपकरण है। सभी डेटा स्वास्थ्य ऐप के साथ समन्वयित हैं और आपके iCloud में सुरक्षित रूप से संग्रहीत हैं। सब कुछ आसान और बिल्कुल मुफ्त है। शून्य विज्ञापन और कोई इन-ऐप खरीदारी नहीं।",
         "HEAD1": "जवाबदेही",
         "DESC1": "हमारे पास अपने स्वास्थ्य के लिए स्वयं एक जिम्मेदारी है। कोई भी हमें वजन कम करने या स्वस्थ खाद्य पदार्थ चुनने के लिए नहीं कर सकता है। हमें अपने लिए यह तय करना चाहिए।",
         "HEAD2": "ईमानदारी",
@@ -61,25 +61,25 @@
     "VITAMIN": {
         "HEAD": "विटामिन",
         "SUBHEAD": "परम विटामिन ट्रैकर",
-        "ICO": "आपके ऐप्पल वॉच, आईफोन और आईपैड के लिए सर्वश्रेष्ठ विटामिन और खनिज ट्रैकर ऐप के लिए आइकन। Apple Health के साथ निर्बाध रूप से सिंक हो जाता है। शून्य विज्ञापन।",
+        "ICO": "आपके ऐप्पल वॉच, आईफोन और आईपैड के लिए सर्वश्रेष्ठ विटामिन और खनिज ट्रैकर ऐप के लिए आइकन। स्वास्थ्य ऐप के साथ निर्बाध रूप से सिंक हो जाता है। शून्य विज्ञापन।",
         "TEXT": "अपने आवश्यक विटामिन पर नज़र रखने के कई फायदे हैं, भोजन की असहिष्णुता को बढ़ाने से लेकर ऊर्जा में वृद्धि करने, मूड में बदलाव से बचने और अपने दिन की लय को पूरा करने तक।",
         "IMG": "अपनी कलाई पर सीधे सबसे आवश्यक विटामिन ट्रैक करें",
         "DWN": "ऐप्पल ऐपस्टोर से मुफ्त विटामिन और पोषक तत्व ट्रैकिंग ऐप डाउनलोड करें",
         "ABOUT_1": "क्या आप सुनिश्चित हैं कि आपको भोजन के साथ सभी आवश्यक विटामिन और खनिज मिलते हैं?",
         "ABOUT_2": "विटामिन आपको उनकी खपत को ट्रैक करने में मदद करता है। अपने आहार की गुणवत्ता बढ़ाएं और हमारे ऐप से अपने स्वास्थ्य को मजबूत करें।",
         "FOOT": "यह ऐप हमें स्वस्थ खाने और हमारे भोजन विकल्पों में उच्च मानक हासिल करने के लिए प्रोत्साहित करता है, जो बदले में हमारे शरीर और दिमाग को मजबूत और स्वस्थ रहने में मदद करता है।",
-        "HEAD1": "Apple Health के साथ सिंक हो रहा है",
-        "DESC1": "डेटा को iCloud और Apple Health ऐप के माध्यम से उपकरणों के बीच समन्वयित किया जाता है।",
+        "HEAD1": "स्वास्थ्य ऐप के साथ सिंक हो रहा है",
+        "DESC1": "डेटा को iCloud और स्वास्थ्य ऐप ऐप के माध्यम से उपकरणों के बीच समन्वयित किया जाता है।",
         "HEAD2": "सरलता और सहजता",
         "DESC2": "वास्तविक उपयोगकर्ताओं के फीडबैक ने इस ऐप को सुविधाजनक और समझने में आसान बनाने में मदद की।",
-        "HEAD3": "Apple Health में उपलब्ध सभी विटामिन और खनिजों का समर्थन करता है",
+        "HEAD3": "स्वास्थ्य ऐप में उपलब्ध सभी विटामिन और खनिजों का समर्थन करता है",
         "DESC3": "13 आवश्यक विटामिन और 14 महत्वपूर्ण खनिजों को ट्रैक करता है।",
         "HEAD4": "सुरक्षा",
         "DESC4": "पूरी तरह से निजी। हम आपके डेटा को तृतीय पक्षों को संग्रहीत या स्थानांतरित नहीं करते हैं। डेटा केवल आपकी Apple सेवा में संग्रहीत होता है।",
         "HEAD5": "प्राधिकरण के बिना",
         "DESC5": "इस ऐप का उपयोग करने के लिए आपको कोई खाता बनाने की आवश्यकता नहीं है।",
         "HEAD6": "कस्टम तत्वों को जोड़ने की क्षमता",
-        "DESC6": "आप प्रीसेट के अलावा अधिकतम 5 कस्टम तत्व जोड़ सकते हैं।",
+        "DESC6": "आप प्रीसेट के अतिरिक्त अधिकतम %{count_tries} कस्टम तत्व जोड़ सकते हैं।",
         "HEAD7": "डेटा आपके सभी उपकरणों के बीच समन्वयित है",
         "DESC7": "ऐप ऐप्पल वॉच, आईफोन, आईपैड और मैक एम पर काम करता है।",
         "HEAD8": "",
@@ -135,7 +135,7 @@
                 "LACT_14_18": "Lactation 14-18 years",
                 "LACT_19_50": "Lactation 19-50 years"
             },
-            "FOOD_100G": "Content in foods mcg per 100 g",
+            "FOOD_100G": "Content in foods mg per 100 g",
             "FOOD_ALMOND": "Almond",
             "FOOD_APPLE": "Apple, Gala",
             "FOOD_APRICOT": "Apricot",
@@ -198,7 +198,7 @@
             "FOOD_SUNFLOWER": "Sunflower seeds",
             "FOOD_TOFU": "Tofu, firm",
             "FOOD_TOMATO": "Tomato",
-            "MCG": "mcg",
+            "MCG": "mg",
             "FACTS": "Did You Know?"
         },
         "VITAMIN_A": {
@@ -275,7 +275,7 @@
             "FACT_1": "Antibiotics block vitamin K metabolism",
             "FACT_2": "Because vitamin K is fat-soluble, it is best to eat vitamin K foods with some fat to improve absorption",
             "FACT_3": "Vitamin K transport across the placenta is poor, increasing the risk of vitamin K deficiency in newborn babies",
-            "FACT_4": "A study found that 180 mcg/day for 3 years improved bone strength and decreased the loss in spine height"
+            "FACT_4": "A study found that 180 mg/day for 3 years improved bone strength and decreased the loss in spine height"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
@@ -287,7 +287,7 @@
             "DEF_3": "Weight loss and anorexia",
             "OVER_1": "We have no evidence of any risks",
             "FACT_1": "Boost the immune system in times of stress",
-            "FACT_2": "Tannis (chemical in tea and coffee) might hamper B1 absorption",
+            "FACT_2": "Tanin (chemical in tea and coffee) might hamper B1 absorption",
             "FACT_3": "It is destroyed by high-heat or long cooking"
         },
         "VITAMIN_B2": {
@@ -317,9 +317,8 @@
             "DEF_2": "Swollen mouth and bright red tongue",
             "DEF_3": "Digestive problems",
             "DEF_4": "Headache, memory loss and fatigue",
-            "OVER_1": "Even when taken in very high doses of 3–4 g, niacin is almost completely absorbed",
-            "OVER_2": "30 to 50 mg – would causes skin on the face, arms, and chest turns a reddish color",
-            "OVER_3": "1000+mg  –  can also cause hypertension, fatigue, abdominal pain, impaired glucose tolerance and insulin resistance",
+            "OVER_1": "30 से 50 मिलीग्राम - चेहरे, बाहों और छाती की त्वचा का रंग लाल हो जाता है",
+            "OVER_2": "1000+ मिलीग्राम उच्च रक्तचाप, थकान, पेट दर्द, बिगड़ा हुआ ग्लूकोज सहनशीलता और इंसुलिन प्रतिरोध का कारण बन सकता है। कृपया ध्यान दें, बहुत अधिक मात्रा में लेने पर भी नियासिन आपके शरीर में लगभग पूरी तरह से अवशोषित हो जाता है।",
             "FACT_1": "Very high doses of nicotinic acid—more than 100 times the RDA—taken for years might be effective treatments for dyslipidemias",
             "FACT_2": "Taking niacin with chromium might lower your blood sugar",
             "FACT_3": "Taking zinc with niacin might worsen niacin side effects, such as flushing and itching"
@@ -406,7 +405,7 @@
             "OVER_1": "Even at large doses, vitamin B12 is generally considered to be safe because the body does not store excess amounts",
             "FACT_1": "Body stores about 1 to 5 mg vitamin B12 -- 1,000 to 2,000 times as much as the amount typically consumed in a day",
             "FACT_2": "Depression and osteoporosis have been linked to low amount of vitamin B12",
-            "FACT_3": "Taking vitamin B-12 with vitamin C might reduce the available amount of vitamin B-12 in your body. To avoid this interaction, take vitamin C two or more hours after taking a vitamin B-12 supplement",
+            "FACT_3": "Taking vitamin B12 with vitamin C might reduce the available amount of vitamin B12 in your body. To avoid this interaction, take vitamin C two or more hours after taking a vitamin B12 supplement",
             "FACT_4": "Higher amounts of folate can mask a vitamin B12 deficiency",
             "FACT_5": "Helps with brain function, especially as we age"
         },
@@ -420,7 +419,7 @@
             "DEF_3": "Loosening or loss of teeth",
             "DEF_4": "Joint pain",
             "DEF_5": "Poor wound healing",
-            "DEF_6": "Corkscrew hairs",
+            "DEF_6": "बालों के रोमों के आसपास रक्तस्राव",
             "DEF_7": "Smokers or secondhand smoking are at higher risk",
             "OVER_1": "Over 2000 mg daily might promote gastrointestinal distress and diarrhea",
             "OVER_2": "High vitamin C intakes also have the potential to increase urinary oxalate and uric acid excretion, which could contribute to the formation of kidney stones",
@@ -444,7 +443,7 @@
             "FACT_2": "Some clinical trials have found that calcium supplementation can improve bone health in older adults",
             "FACT_3": "Calcium supplementation alone or a combination with vitamin D increases bone mineral density in older adults",
             "FACT_4": "Increasing calcium intakes reduces the risk of fractures and falls in older adults",
-            "FACT_5": "4-year trial of 1,179 women aged 55+ years: taking 1,400 to 1,500 mg calcium alone, 1,400 to 1,500 mg calcium plus 27.5 mcg vitamin D3, or placebo daily. Cancer incidence was 60% lower in women who took the combination and 47% lower in those who took calcium-only supplements than in the placebo group",
+            "FACT_5": "4-year trial of 1,179 women aged 55+ years: taking 1,400 to 1,500 mg calcium alone, 1,400 to 1,500 mg calcium plus 27.5 mg vitamin D3, or placebo daily. Cancer incidence was 60% lower in women who took the combination and 47% lower in those who took calcium-only supplements than in the placebo group",
             "FACT_6": "8 year study of 77,712 adults:  Average calcium intake of 1999 mg/day was associated with a 26% lower risk of colon cancer compared to 587 mg/day. Association with risk of rectal cancer was not found"
         },
         "CHLORIDE": {
@@ -478,7 +477,7 @@
             "FACT_2": "Vitamin C and B3 (niacin) improve the absorption of chromium",
             "FACT_3": "One of the most common elements in the earth",
             "FACT_4": "One small study suggests that chromium may reduce the risk of insulin resistance, however, findings are inconsistent",
-            "FACT_5": "A study on women with Polycystic ovary syndrome showed that CR significantly reduce body mass index (BMI) and free testosterone levels",
+            "FACT_5": "A study on women with Polycystic ovary syndrome showed that Cr significantly reduce body mass index (BMI) and free testosterone levels",
             "FACT_6": "Chromium supplementation has no effect on body weight or lipids. However, a study suggests chromium picolinate might reduces body weight and body fat percentage. More research is needed"
         },
         "COPPER": {
@@ -703,10 +702,10 @@
             "OVER_4": "Fatigue, Irritability, Muscle tenderness",
             "OVER_5": "Nausea, diarrhea",
             "FACT_1": "Most selenium in the body is stored in muscle tissue (28% to 46%). Works as an antioxidant, especially when combined with vitamin E",
-            "FACT_2": "Research: People who took 200+ mcg of selenium per day for more than 7 years had a significantly higher risk of developing type 2 diabetes.  More studies are needed, results are inconclusive",
+            "FACT_2": "Research: People who took 200+ mg of selenium per day for more than 7 years had a significantly higher risk of developing type 2 diabetes.  More studies are needed, results are inconclusive",
             "FACT_3": "Nine randomized clinical trials: selenium might help prevent gastrointestinal cancers but more clinical trials are needed to make strong conclusion",
             "FACT_4": "FDA: some scientific evidence suggests that consumption of selenium may reduce the risk of certain forms of cancer. FDA has determined that this evidence is limited and not conclusive",
-            "FACT_5": "Brazil nuts contain very high amounts of selenium (68–91 mcg per nut) and could cause selenium toxicity if consumed regularly",
+            "FACT_5": "Brazil nuts contain very high amounts of selenium (68–91 mg per nut) and could cause selenium toxicity if consumed regularly",
             "FACT_6": "A review of trials of selenium-only supplementation for the primary prevention of cardiovascular disease found no statistically significant effects of selenium on fatal and nonfatal cardiovascular events",
             "FACT_7": "Body selenium concentrations decline with age",
             "FACT_8": "Thyroid gland holds the highest concentration of selenium",
@@ -791,7 +790,7 @@
     "ZINC": {
         "HEAD": "जिंक",
         "SUBHEAD": "जिंक का सेवन ट्रैकिंग",
-        "ICO": "हमारे मुफ़्त Apple वॉच ऐप के लिए आइकॉन जो जिंक की खपत को ट्रैक करने में आपकी मदद करता है। अपने Apple वॉच से डाइटरी जिंक के बारे में रिकॉर्ड बनाएं और Apple Health के साथ सिंक करें। काम करने के लिए किसी सहयोगी iPhone ऐप की आवश्यकता नहीं है। शून्य विज्ञापन।",
+        "ICO": "हमारे मुफ़्त Apple वॉच ऐप के लिए आइकॉन जो जिंक की खपत को ट्रैक करने में आपकी मदद करता है। अपने Apple वॉच से डाइटरी जिंक के बारे में रिकॉर्ड बनाएं और स्वास्थ्य ऐप के साथ सिंक करें। काम करने के लिए किसी सहयोगी iPhone ऐप की आवश्यकता नहीं है। शून्य विज्ञापन।",
         "TEXT": "अपनी घड़ी के लिए अपनी सादगी शरीर जस्ता ट्रैकर में सुंदर। Apple स्वास्थ्य सक्षम। वास्तविक परिणाम। नि: शुल्क। शून्य विज्ञापन।",
         "IMG": "जस्ता पूरक की अपनी रोजमर्रा की खपत को ट्रैक करें",
         "DWN": "ऐप्पल स्टोर से नि: शुल्क बॉडीज़िक एप्लिकेशन प्राप्त करें",
@@ -813,7 +812,7 @@
         "TEXT": "अपनी घड़ी पर अपने कूल्हों, कमर और छाती को ट्रैक करें। Apple स्वास्थ्य का पूरा समर्थन। फास्ट लोड समय। बिल्कुल नि: शुल्क।",
         "IMG": "अपनी कलाई पर घड़ी का उपयोग करके छाती का आकार, बस्ट चौड़ाई, कमर परिधि और कूल्हों की लंबाई को मापें",
         "DWN": "ऐप्पल स्टोर से नि: शुल्क बॉडीज़िक एप्लिकेशन प्राप्त करें",
-        "ABOUT": "अपने ऐप्पल वॉच पर अपने कूल्हों, कमर और छाती को ट्रैक करें। स्वचालित रूप से ब्रैडली बेउ सूत्र का उपयोग करके शरीर के आकार की गणना करता है। Apple Health का पूर्ण समर्थन। आईक्लाउड बैकअप। फास्ट लोड समय। बिल्कुल नि: शुल्क।",
+        "ABOUT": "अपने ऐप्पल वॉच पर अपने कूल्हों, कमर और छाती को ट्रैक करें। स्वचालित रूप से ब्रैडली बेउ सूत्र का उपयोग करके शरीर के आकार की गणना करता है। स्वास्थ्य ऐप का पूर्ण समर्थन। आईक्लाउड बैकअप। फास्ट लोड समय। बिल्कुल नि: शुल्क।",
         "HEAD1": "शरीर की संरचना",
         "DESC1": "जब आप मांसपेशियों को प्राप्त कर रहे हैं और वसा के इंच खो रहे हैं तो आपका वजन ज्यादा नहीं बदल सकता है। यही कारण है कि शरीर की संरचना आपको पैमाने से अधिक बता सकती है, यह आपको सच्ची कहानी बताती है।",
         "LINK1": "हेल्थलाइन",
@@ -935,9 +934,21 @@
     },
     "FOOTER": {
         "C": "कॉपीराइट © 2023 मार्टस्पेक एलएलसी। सर्वाधिकार सुरक्षित।",
-        "APPLE_BUTTON":{
+        "APPLE_BTN":{
             "TITLE": "हमारे Apple AppStore पर सभी मार्टस्पेक एप्लिकेशन देखें",
             "ALT": "Apple के Martpsec AppStore पर हमारे सभी ऐप्स देखें"
+        },
+        "LINKEDIN_BTN": {
+            "TITLE": "हमें लिंक्डइन पर फॉलो करें"
+        },
+        "EMAIL_BTN": {
+            "TITLE": "ईमेल द्वारा हमसे संपर्क करें"
+        },
+        "TWITTER_BTN": {
+            "TITLE": "चहचहाना पर हमें का पालन करें"
+        },
+        "FACEBOOK_BTN": {
+            "TITLE": "फेसबुक पर हमें का पालन करें"
         }
     },
     "ERROR": {

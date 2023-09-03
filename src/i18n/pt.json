@@ -44,7 +44,7 @@
         "BTN": "Dê uma olhada",
         "IMG": "Economize massa corporal diretamente do seu Apple Watch no armazenamento de saúde da Apple",
         "DWN": "Baixe o aplicativo Body Mass grátis na AppStore da Apple",
-        "ABOUT": "O diário de peso corporal é a ferramenta perfeita para aumentar a eficiência dos seus exercícios e a motivação para atingir o objetivo. Todos os dados são sincronizados com o Apple Health e armazenados com segurança em seu iCloud. Tudo é fácil e totalmente gratuito. Zero ADs e nenhuma compra no aplicativo.",
+        "ABOUT": "O diário de peso corporal é a ferramenta perfeita para aumentar a eficiência dos seus exercícios e a motivação para atingir o objetivo. Todos os dados são sincronizados com o Apple Saúde e armazenados com segurança em seu iCloud. Tudo é fácil e totalmente gratuito. Zero ADs e nenhuma compra no aplicativo.",
         "HEAD1": "Prestação de contas",
         "DESC1": "Temos uma responsabilidade para conosco mesmos por nossa saúde. Ninguém pode nos fazer perder peso ou escolher alimentos saudáveis. Devemos decidir isso por nós mesmos. ",
         "HEAD2": "Honestidade",
@@ -63,7 +63,7 @@
     "VITAMIN": {
         "HEAD": "Vitamina",
         "SUBHEAD": "o melhor rastreador de vitaminas",
-        "ICO": "Ícone do melhor app rastreador de vitaminas e minerais para Apple Watch, iPhone e iPad. Sincroniza perfeitamente com o Apple Health. Zero anúncios.",
+        "ICO": "Ícone do melhor app rastreador de vitaminas e minerais para Apple Watch, iPhone e iPad. Sincroniza perfeitamente com o Apple Saúde. Zero anúncios.",
         "TEXT": "Rastrear suas vitaminas essenciais tem muitos benefícios, desde ajudar a controlar as intolerâncias alimentares até aumentar a energia, evitar mudanças no humor e alimentar o ritmo do seu dia.",
         "BTN": "Consulte Mais informação",
         "IMG": "Rastreie as vitaminas mais essenciais diretamente no seu pulso",
@@ -71,18 +71,18 @@
         "ABOUT_1": "Tem certeza de que obtém todas as vitaminas e minerais essenciais com os alimentos?",  
         "ABOUT_2": "A vitamina ajuda você a rastrear seu consumo. Aumente a qualidade da sua alimentação e fortaleça sua saúde com nosso app.",
         "FOOT": "Este aplicativo nos incentiva a comer de forma saudável e a obter padrões mais elevados em nossas escolhas alimentares, o que, por sua vez, ajuda nossos corpos e mentes a permanecerem fortes e saudáveis.",
-        "HEAD1": "Sincronizando com o Apple Health",
-        "DESC1": "Os dados são sincronizados entre os dispositivos via iCloud e o aplicativo Apple Health.",
+        "HEAD1": "Sincronizando com o Apple Saúde",
+        "DESC1": "Os dados são sincronizados entre os dispositivos via iCloud e o aplicativo Apple Saúde.",
         "HEAD2": "Simplicidade e sem esforço",
         "DESC2": "O feedback de usuários reais ajudou a tornar este aplicativo conveniente e fácil de entender.",
-        "HEAD3": "Suporta todas as vitaminas e minerais disponíveis no Apple Health",
+        "HEAD3": "Suporta todas as vitaminas e minerais disponíveis no Apple Saúde",
         "DESC3": "Rastreia 13 vitaminas essenciais e 14 minerais vitais.",
         "HEAD4": "Segurança",
         "DESC4": "Totalmente privado. Não armazenamos nem transferimos seus dados para terceiros. Os dados são armazenados apenas em seu serviço Apple.",
         "HEAD5": "Sem autorização",
         "DESC5": "Você não precisa criar uma conta para usar este aplicativo.",
         "HEAD6": "Capacidade de adicionar elementos personalizados",
-        "DESC6": "Você pode adicionar até 5 elementos personalizados além dos predefinidos.",
+        "DESC6": "Você pode adicionar até %{count_tries} elementos personalizados além dos predefinidos.",
         "HEAD7": "Os dados são sincronizados entre todos os seus dispositivos",
         "DESC7": "O aplicativo funciona no Apple Watch, iPhone, iPad e Mac M.",
         "HEAD8": "",
@@ -138,7 +138,7 @@
                 "LACT_14_18": "Lactation 14-18 years",
                 "LACT_19_50": "Lactation 19-50 years"
             },
-            "FOOD_100G": "Content in foods mcg per 100 g",
+            "FOOD_100G": "Content in foods mg per 100 g",
             "FOOD_ALMOND": "Almond",
             "FOOD_APPLE": "Apple, Gala",
             "FOOD_APRICOT": "Apricot",
@@ -201,7 +201,7 @@
             "FOOD_SUNFLOWER": "Sunflower seeds",
             "FOOD_TOFU": "Tofu, firm",
             "FOOD_TOMATO": "Tomato",
-            "MCG": "mcg",
+            "MCG": "mg",
             "FACTS": "Did You Know?"
         },
         "VITAMIN_A": {
@@ -278,7 +278,7 @@
             "FACT_1": "Antibiotics block vitamin K metabolism",
             "FACT_2": "Because vitamin K is fat-soluble, it is best to eat vitamin K foods with some fat to improve absorption",
             "FACT_3": "Vitamin K transport across the placenta is poor, increasing the risk of vitamin K deficiency in newborn babies",
-            "FACT_4": "A study found that 180 mcg/day for 3 years improved bone strength and decreased the loss in spine height"
+            "FACT_4": "A study found that 180 mg/day for 3 years improved bone strength and decreased the loss in spine height"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
@@ -290,7 +290,7 @@
             "DEF_3": "Weight loss and anorexia",
             "OVER_1": "We have no evidence of any risks",
             "FACT_1": "Boost the immune system in times of stress",
-            "FACT_2": "Tannis (chemical in tea and coffee) might hamper B1 absorption",
+            "FACT_2": "Tanin (chemical in tea and coffee) might hamper B1 absorption",
             "FACT_3": "It is destroyed by high-heat or long cooking"
         },
         "VITAMIN_B2": {
@@ -320,9 +320,8 @@
             "DEF_2": "Swollen mouth and bright red tongue",
             "DEF_3": "Digestive problems",
             "DEF_4": "Headache, memory loss and fatigue",
-            "OVER_1": "Even when taken in very high doses of 3–4 g, niacin is almost completely absorbed",
-            "OVER_2": "30 to 50 mg – would causes skin on the face, arms, and chest turns a reddish color",
-            "OVER_3": "1000+mg  –  can also cause hypertension, fatigue, abdominal pain, impaired glucose tolerance and insulin resistance",
+            "OVER_1": "30 a 50 mg – faria com que a pele do rosto, braços e peito ficasse com uma cor avermelhada",
+            "OVER_2": "Mais de 1000 mg podem causar hipertensão, fadiga, dor abdominal, tolerância diminuída à glicose e resistência à insulina. Observe que a niacina é quase completamente absorvida pelo corpo, mesmo quando tomada em doses muito altas.",
             "FACT_1": "Very high doses of nicotinic acid—more than 100 times the RDA—taken for years might be effective treatments for dyslipidemias",
             "FACT_2": "Taking niacin with chromium might lower your blood sugar",
             "FACT_3": "Taking zinc with niacin might worsen niacin side effects, such as flushing and itching"
@@ -409,7 +408,7 @@
             "OVER_1": "Even at large doses, vitamin B12 is generally considered to be safe because the body does not store excess amounts",
             "FACT_1": "Body stores about 1 to 5 mg vitamin B12 -- 1,000 to 2,000 times as much as the amount typically consumed in a day",
             "FACT_2": "Depression and osteoporosis have been linked to low amount of vitamin B12",
-            "FACT_3": "Taking vitamin B-12 with vitamin C might reduce the available amount of vitamin B-12 in your body. To avoid this interaction, take vitamin C two or more hours after taking a vitamin B-12 supplement",
+            "FACT_3": "Taking vitamin B12 with vitamin C might reduce the available amount of vitamin B12 in your body. To avoid this interaction, take vitamin C two or more hours after taking a vitamin B12 supplement",
             "FACT_4": "Higher amounts of folate can mask a vitamin B12 deficiency",
             "FACT_5": "Helps with brain function, especially as we age"
         },
@@ -423,7 +422,7 @@
             "DEF_3": "Loosening or loss of teeth",
             "DEF_4": "Joint pain",
             "DEF_5": "Poor wound healing",
-            "DEF_6": "Corkscrew hairs",
+            "DEF_6": "Sangramento ao redor dos folículos capilares",
             "DEF_7": "Smokers or secondhand smoking are at higher risk",
             "OVER_1": "Over 2000 mg daily might promote gastrointestinal distress and diarrhea",
             "OVER_2": "High vitamin C intakes also have the potential to increase urinary oxalate and uric acid excretion, which could contribute to the formation of kidney stones",
@@ -447,7 +446,7 @@
             "FACT_2": "Some clinical trials have found that calcium supplementation can improve bone health in older adults",
             "FACT_3": "Calcium supplementation alone or a combination with vitamin D increases bone mineral density in older adults",
             "FACT_4": "Increasing calcium intakes reduces the risk of fractures and falls in older adults",
-            "FACT_5": "4-year trial of 1,179 women aged 55+ years: taking 1,400 to 1,500 mg calcium alone, 1,400 to 1,500 mg calcium plus 27.5 mcg vitamin D3, or placebo daily. Cancer incidence was 60% lower in women who took the combination and 47% lower in those who took calcium-only supplements than in the placebo group",
+            "FACT_5": "4-year trial of 1,179 women aged 55+ years: taking 1,400 to 1,500 mg calcium alone, 1,400 to 1,500 mg calcium plus 27.5 mg vitamin D3, or placebo daily. Cancer incidence was 60% lower in women who took the combination and 47% lower in those who took calcium-only supplements than in the placebo group",
             "FACT_6": "8 year study of 77,712 adults:  Average calcium intake of 1999 mg/day was associated with a 26% lower risk of colon cancer compared to 587 mg/day. Association with risk of rectal cancer was not found"
         },
         "CHLORIDE": {
@@ -481,7 +480,7 @@
             "FACT_2": "Vitamin C and B3 (niacin) improve the absorption of chromium",
             "FACT_3": "One of the most common elements in the earth",
             "FACT_4": "One small study suggests that chromium may reduce the risk of insulin resistance, however, findings are inconsistent",
-            "FACT_5": "A study on women with Polycystic ovary syndrome showed that CR significantly reduce body mass index (BMI) and free testosterone levels",
+            "FACT_5": "A study on women with Polycystic ovary syndrome showed that Cr significantly reduce body mass index (BMI) and free testosterone levels",
             "FACT_6": "Chromium supplementation has no effect on body weight or lipids. However, a study suggests chromium picolinate might reduces body weight and body fat percentage. More research is needed"
         },
         "COPPER": {
@@ -706,10 +705,10 @@
             "OVER_4": "Fatigue, Irritability, Muscle tenderness",
             "OVER_5": "Nausea, diarrhea",
             "FACT_1": "Most selenium in the body is stored in muscle tissue (28% to 46%). Works as an antioxidant, especially when combined with vitamin E",
-            "FACT_2": "Research: People who took 200+ mcg of selenium per day for more than 7 years had a significantly higher risk of developing type 2 diabetes.  More studies are needed, results are inconclusive",
+            "FACT_2": "Research: People who took 200+ mg of selenium per day for more than 7 years had a significantly higher risk of developing type 2 diabetes.  More studies are needed, results are inconclusive",
             "FACT_3": "Nine randomized clinical trials: selenium might help prevent gastrointestinal cancers but more clinical trials are needed to make strong conclusion",
             "FACT_4": "FDA: some scientific evidence suggests that consumption of selenium may reduce the risk of certain forms of cancer. FDA has determined that this evidence is limited and not conclusive",
-            "FACT_5": "Brazil nuts contain very high amounts of selenium (68–91 mcg per nut) and could cause selenium toxicity if consumed regularly",
+            "FACT_5": "Brazil nuts contain very high amounts of selenium (68–91 mg per nut) and could cause selenium toxicity if consumed regularly",
             "FACT_6": "A review of trials of selenium-only supplementation for the primary prevention of cardiovascular disease found no statistically significant effects of selenium on fatal and nonfatal cardiovascular events",
             "FACT_7": "Body selenium concentrations decline with age",
             "FACT_8": "Thyroid gland holds the highest concentration of selenium",
@@ -772,12 +771,12 @@
     "WAIST": {
         "HEAD": "Cintura",
         "SUBHEAD": "cintura fina - coração saudável",
-        "ICO": "Ícone para o melhor aplicativo Apple Watch de rastreamento de circunferência da cintura. Sincronização total com o Apple Health. Use facilmente sem anúncios, pagamentos e registro.",
+        "ICO": "Ícone para o melhor aplicativo Apple Watch de rastreamento de circunferência da cintura. Sincronização total com o Apple Saúde. Use facilmente sem anúncios, pagamentos e registro.",
         "TEXT": "A maneira mais fácil de monitorar a circunferência da cintura no Apple Watch. Todos os registros são sincronizados com a saúde da sua Apple.",
         "BTN": "Saber mais",
         "IMG": "Acompanhe o tamanho da sua cintura (umbigo) diretamente do seu braço",
         "DWN": "Baixe o aplicativo de cintura grátis na Apple App Store",
-        "ABOUT": "Rastreador de circunferência de cintura fácil de usar para Apple Watch. Não requer conta nem registro. Absolutamente grátis. Todos os registros são sincronizados com seu aplicativo Apple Health e os últimos 7 dias podem ser acessados diretamente de seu pulso.",
+        "ABOUT": "Rastreador de circunferência de cintura fácil de usar para Apple Watch. Não requer conta nem registro. Absolutamente grátis. Todos os registros são sincronizados com seu aplicativo Apple Saúde e os últimos 7 dias podem ser acessados diretamente de seu pulso.",
         "HEAD1": "Fato Médico",
         "DESC1": "Se houver mais gordura localizada ao redor de sua cintura, em vez de em torno de seus quadris, você corre um risco maior de contrair doenças, incluindo doenças cardíacas e diabetes tipo 2. ",
         "LINK1": "National Institutes of Health, EUA",
@@ -795,12 +794,12 @@
     "ZINC": {
         "HEAD": "Zinco",
         "SUBHEAD": "rastreamento ingestão zinco",
-        "ICO": "Ícone do nosso aplicativo Apple Watch gratuito que ajuda você a monitorar o consumo de zinco. Faça registros sobre o zinco na dieta de seus Apple Watches e sincronize com o Apple Health. Não é necessário um aplicativo complementar para iPhone para funcionar. Zero anúncios.",
-        "TEXT": "Bonito em sua simplicidade rastreador de zinco no corpo para o seu relógio. Apple Health ativado. Resultados reais. Livre. Zero anúncios.",
+        "ICO": "Ícone do nosso aplicativo Apple Watch gratuito que ajuda você a monitorar o consumo de zinco. Faça registros sobre o zinco na dieta de seus Apple Watches e sincronize com o Apple Saúde. Não é necessário um aplicativo complementar para iPhone para funcionar. Zero anúncios.",
+        "TEXT": "Bonito em sua simplicidade rastreador de zinco no corpo para o seu relógio. Apple Saúde ativado. Resultados reais. Livre. Zero anúncios.",
         "BTN": "Descubra bem-estar",
         "IMG": "Acompanhe seu consumo diário de suplemento de zinco",
         "DWN": "Obtenha gratuitamente o aplicativo BodyZinc da Apple Store",
-        "ABOUT": "Fácil de usar rastreador de zinco dietético para a Apple Watch. Sincronizar automaticamente com a Apple Health, não requer registro e absolutamente livre.",
+        "ABOUT": "Fácil de usar rastreador de zinco dietético para a Apple Watch. Sincronizar automaticamente com a Apple Saúde, não requer registro e absolutamente livre.",
         "HEAD1": "Doenças relacionadas à idade",
         "DESC1": "O zinco pode reduzir significativamente o risco de doenças relacionadas à idade, como pneumonia, infecção e degeneração macular relacionada à idade (AMD). Pode aliviar o estresse oxidativo e melhorar a resposta imune impulsionando a atividade de células T e células assassinas naturais, que ajudam a proteger seu corpo da infecção. Adultos mais velhos que suplementam com experiência de zinco melhoraram a resposta de vacinação contra influenza, redução do risco de pneumonia e impulsionou o desempenho mental.",
         "LINK1": "Institutos Nacionais de Saúde, EUA",
@@ -814,11 +813,11 @@
         "HEAD": "Ser Fitness",
         "SUBHEAD": "bela figura - corpo saudável",
         "ICO": "Ícone para o melhor rastreador de tamanho corporal na App Store para computadores Apple Watch, iPhone, iPad e Mac M. Body Size permite que você aprenda sobre si mesmo para ajudá-lo a entrar em forma. As medições são sincronizadas automaticamente com o aplicativo Health Mate, o que significa que você pode visualizar os resultados com gráficos fáceis de ler. Zero anúncios.",
-        "TEXT": "Acompanhe seus quadris, cintura e peito no relógio. Suporte total da Apple Health. Tempo de carregamento rápido. Absolutamente grátis.",
+        "TEXT": "Acompanhe seus quadris, cintura e peito no relógio. Suporte total da Apple Saúde. Tempo de carregamento rápido. Absolutamente grátis.",
         "BTN": "Forma perfeita",
         "IMG": "Medir o tamanho do peito, largura do busto, circunferência da cintura e comprimento dos quadris usando um relógio no seu pulso",
         "DWN": "Obter para o aplicativo gratuito do tamanho do corpo para o Apple Watch diretamente da Apple App Store",
-        "ABOUT": "Rastreie seus quadris, cintura e peito em seu Apple Watch. O Auto calcula a forma do corpo usando a fórmula de Bradley Bayou. Suporte total da Apple Health. Backups do iCloud. Tempo de carregamento rápido. Absolutamente grátis.",
+        "ABOUT": "Rastreie seus quadris, cintura e peito em seu Apple Watch. O Auto calcula a forma do corpo usando a fórmula de Bradley Bayou. Suporte total da Apple Saúde. Backups do iCloud. Tempo de carregamento rápido. Absolutamente grátis.",
         "HEAD1": "Composição do corpo",
         "DESC1": "Quando você está ganhando músculo e perder centímetros de gordura, seu peso pode não mudar muito. É por isso que a composição corporal pode lhe dizer mais do que a escala, diz a história verdadeira.",
         "LINK1": "Linha de saúde.",
@@ -942,9 +941,21 @@
     },
     "FOOTER": {
         "C": "© 2023 Martspec LLC. Todos os direitos reservados.",
-        "APPLE_BUTTON":{
+        "APPLE_BTN":{
             "TITLE": "Veja todos os aplicativos martspec em nossa Apple AppStore",
             "ALT": "Veja todos os nossos aplicativos na Martpsec AppStore na Apple"
+        },
+        "LINKEDIN_BTN": {
+            "TITLE": "Siga-nos no LinkedIn"
+        },
+        "EMAIL_BTN": {
+            "TITLE": "Contate-nos por e-mail"
+        },
+        "TWITTER_BTN": {
+            "TITLE": "Siga-nos no Twitter"
+        },
+        "FACEBOOK_BTN": {
+            "TITLE": "Siga-nos no Facebook"
         }
     },
     "ERROR": {

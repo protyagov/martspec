@@ -78,7 +78,7 @@ export default function Vitamin() {
                     </div>
                     <div className="col-md col-12">
                         <h3>{_("VITAMIN.HEAD6")}</h3>
-                        <p className="mt-auto">{_("VITAMIN.DESC6")}</p>
+                        <p className="mt-auto">{_("VITAMIN.DESC6", { count_tries: 20 })}</p>
                     </div>
                 </div>
             </section>

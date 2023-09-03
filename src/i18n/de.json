@@ -19,7 +19,7 @@
     "ELECTROLYTE": {
         "HEAD": "Elektrolyte",
         "SUBHEAD": "wasser-Salz-Gleichgewicht",
-        "ICO": "Symbol für den einfachsten kostenlosen Elektrolytverbrauchs-Tracker für die Apple Watch. Behalten Sie den Verbrauch von Magnesium, Kalzium, Kalium und Eisen im Auge. Verbunden mit Apple Health. Null Anzeigen.",
+        "ICO": "Symbol für den einfachsten kostenlosen Elektrolytverbrauchs-Tracker für die Apple Watch. Behalten Sie den Verbrauch von Magnesium, Kalzium, Kalium und Eisen im Auge. Verbunden mit die Health App. Null Anzeigen.",
         "TEXT": "Elektrolyte spielen eine wichtige Rolle bei der Aufrechterhaltung der Homöostase im Körper. Sie helfen bei der Regulierung des Herzens und der neurologischen Funktion, des Flüssigkeitshaushalts, der Sauerstoffzufuhr, des Säure-Base-Gleichgewichts und vielem mehr.",
         "IMG": "Nehmen Sie Elektrolyte und Mineralien mit Ihrer Apple Watch auf",
         "DWN": "Laden Sie die kostenlose Elektrolyt-Tracker-App aus dem Apple AppStore herunter",
@@ -40,9 +40,9 @@
         "SUBHEAD": "leichteste gewichtstagebuch",
         "ICO": "Symbol für unsere fortschrittlichste tragbare Gesundheits-App, mit der Sie Ihr Gewicht ganz einfach direkt von Ihrem Handgelenk aus eingeben können. Automatisches In-App-Journaling bietet eine mühelose Möglichkeit, Trends und Gesamtmessungen nach Monat und Jahr anzuzeigen. Völlig kostenlos, keine In-App-Käufe, keine Werbung. Dies ist nur die Apple Watch-App. Für die Ausführung ist keine iPhone-Begleit-App erforderlich.",
         "TEXT": "Das Verfolgen Ihres Gewichts steigert Ihre Effizienz in Bezug auf Ihre Zeit und Ihr Training. Es wird Sie nicht nur dazu bringen, es besser zu machen, sondern Sie auch dazu bringen, Ihre eigene Konkurrenz zu sein!",
-        "IMG": "Speichern Sie Körpermasse direkt von Ihrer Apple Watch in Apple Health Storage",
+        "IMG": "Speichern Sie Körpermasse direkt von Ihrer Apple Watch in die Health App Lagerung",
         "DWN": "Laden Sie die kostenlose Body Gewicht-App aus dem Apple AppStore herunter",
-        "ABOUT": "Das Bodyweight Journal ist das perfekte Werkzeug, um die Effizienz Ihrer Übungen und die Motivation zum Erreichen des Ziels zu steigern. Alle Daten werden mit Apple Health synchronisiert und sicher in Ihrer iCloud gespeichert. Alles ist einfach und absolut kostenlos. Keine Anzeigen und keine In-App-Käufe.",
+        "ABOUT": "Das Bodyweight Journal ist das perfekte Werkzeug, um die Effizienz Ihrer Übungen und die Motivation zum Erreichen des Ziels zu steigern. Alle Daten werden mit die Health App synchronisiert und sicher in Ihrer iCloud gespeichert. Alles ist einfach und absolut kostenlos. Keine Anzeigen und keine In-App-Käufe.",
         "HEAD1": "Rechenschaftspflicht",
         "DESC1": "Wir haben eine Verantwortung für unsere Gesundheit. Niemand kann uns dazu bringen, Gewicht zu verlieren oder gesunde Lebensmittel zu wählen. Das müssen wir selbst entscheiden.",
         "HEAD2": "Ehrlichkeit",
@@ -50,7 +50,7 @@
         "HEAD3": "Engagement",
         "DESC3": "Tägliches Protokollieren ist wichtig, es hält gesunde Gewohnheiten vor Augen. Jedes Mal, wenn wir einen Protokolleintrag machen, werden wir an unser Engagement für die Gesundheit erinnert. Das Überspringen eines Tages hier und da erleichtert das Überspringen von 2 Tagen und dann von 3 Tagen. Dann, bevor Sie es wissen, haben Sie aufgehört und sind zu Ihren alten Gewohnheiten zurückgekehrt.",
         "HEAD4": "App-Funktionen",
-        "DESC4_1": "Apple Health Integration",
+        "DESC4_1": "die Health App Integration",
         "DESC4_2": "Historie vergangener Aufnahmen mit der prozentualen Differenz",
         "DESC4_3": "Alle Uhrengrößen, alle Watchface-Widget-Typen",
         "DESC4_4": "iCloud-Backups",
@@ -61,25 +61,25 @@
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "der ultimative Vitamin Tracker",
-        "ICO": "Symbol für die beste Vitamin- und Mineralien-Tracker-App für Ihre Apple Watch, iPhone und iPad. Synchronisiert nahtlos mit Apple Health. Null Werbung.",
+        "ICO": "Symbol für die beste Vitamin- und Mineralien-Tracker-App für Ihre Apple Watch, iPhone und iPad. Synchronisiert nahtlos mit die Health App. Null Werbung.",
         "TEXT": "Das Verfolgen Ihrer essentiellen Vitamine hat viele Vorteile, angefangen bei der Behandlung von Nahrungsmittelunverträglichkeiten bis hin zur Steigerung der Energie, zur Vermeidung von Stimmungsschwankungen und zur Förderung des Tagesrhythmus.",
         "IMG": "Verfolgen Sie die wichtigsten Vitamine direkt am Handgelenk",
         "DWN": "Laden Sie die kostenlose Vitamin- und Nährstoffverfolgungs-App aus dem Apple AppStore herunter",
         "ABOUT_1": "Sind Sie sicher, dass Sie alle wichtigen Vitamine und Mineralstoffe mit der Nahrung erhalten?",
         "ABOUT_2": "Vitamin hilft Ihnen, ihren Verbrauch zu verfolgen. Erhöhen Sie die Qualität Ihrer Ernährung und stärken Sie Ihre Gesundheit mit unserer App.",
         "FOOT": "Diese App ermutigt uns, uns gesund zu ernähren und höhere Standards bei unserer Lebensmittelauswahl zu erreichen, was wiederum unserem Körper und Geist hilft, stark und gesund zu bleiben.",
-        "HEAD1": "Synchronisierung mit Apple Health",
-        "DESC1": "Daten werden zwischen Geräten über iCloud und die Apple Health App synchronisiert.",
+        "HEAD1": "Synchronisierung mit der Health App",
+        "DESC1": "Daten werden zwischen Geräten über iCloud und die die Health App App synchronisiert.",
         "HEAD2": "Einfachheit und Mühelosigkeit",
         "DESC2": "Das Feedback von echten Benutzern hat dazu beigetragen, diese App bequem und leicht verständlich zu machen.",
-        "HEAD3": "Unterstützt alle in Apple Health verfügbaren Vitamine und Mineralstoffe",
+        "HEAD3": "Unterstützt alle in der Health App verfügbaren Vitamine und Mineralstoffe",
         "DESC3": "Enthält 13 essentielle Vitamine und 14 lebenswichtige Mineralien.",
         "HEAD4": "Sicherheit",
         "DESC4": "Ganz privat. Wir speichern oder übermitteln Ihre Daten nicht an Dritte. Die Daten werden nur in Ihrem Apple-Dienst gespeichert.",
         "HEAD5": "Ohne Genehmigung",
         "DESC5": "Sie müssen kein Konto erstellen, um diese App zu verwenden. ",
         "HEAD6": "Möglichkeit, benutzerdefinierte Elemente hinzuzufügen",
-        "DESC6": "Sie können zusätzlich zu den voreingestellten bis zu 5 benutzerdefinierte Elemente hinzufügen.",
+        "DESC6": "Sie können zusätzlich zu den voreingestellten bis zu %{count_tries} benutzerdefinierte Elemente hinzufügen.",
         "HEAD7": "Die Daten werden zwischen all Ihren Geräten synchronisiert",
         "DESC7": "Die App funktioniert auf Apple Watch, iPhone, iPad und Mac M.",
         "HEAD8": "",
@@ -135,7 +135,7 @@
                 "LACT_14_18": "Stillzeit 14-18 Jahre",
                 "LACT_19_50": "Stillzeit 19-50 Jahre"
             },
-            "FOOD_100G": "Gehalt in Lebensmitteln mcg pro 100 g",
+            "FOOD_100G": "Gehalt in Lebensmitteln mg pro 100 g",
             "FOOD_ALMOND": "Mandel",
             "FOOD_APPLE": "Apfel, Gala",
             "FOOD_APRICOT": "Aprikose",
@@ -198,7 +198,7 @@
             "FOOD_SUNFLOWER": "Sonnenblumenkerne",
             "FOOD_TOFU": "Tofu, fest",
             "FOOD_TOMATO": "Tomate",
-            "MCG": "mcg",
+            "MCG": "mg",
             "FACTS": "Wussten Sie?"
         },
         "VITAMIN_A": {
@@ -275,7 +275,7 @@
             "FACT_1": "Antibiotika blockieren den Vitamin-K-Stoffwechsel",
             "FACT_2": "Da Vitamin K fettlöslich ist, ist es am besten, Vitamin-K-Lebensmittel mit etwas Fett zu sich zu nehmen, um die Aufnahme zu verbessern",
             "FACT_3": "Der Vitamin-K-Transport durch die Plazenta ist schlecht, was das Risiko eines Vitamin-K-Mangels bei Neugeborenen erhöht",
-            "FACT_4": "Eine Studie ergab, dass 180 mcg/Tag über 3 Jahre die Knochenstärke verbesserten undden Verlust an Wirbelsäulenhöhe verringerten"
+            "FACT_4": "Eine Studie ergab, dass 180 mg/Tag über 3 Jahre die Knochenstärke verbesserten undden Verlust an Wirbelsäulenhöhe verringerten"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
@@ -287,7 +287,7 @@
             "DEF_3": "Gewichtsverlust und Anorexie",
             "OVER_1": "Wir haben keine Hinweise auf Risiken",
             "FACT_1": "Im Stress das Immunsystem stärken",
-            "FACT_2": "Tannin (Chemikalie in Tee und Kaffee) könnte die B1-Absorption behindern",
+            "FACT_2": "Tanin (Chemikalie in Tee und Kaffee) könnte die B1-Absorption behindern",
             "FACT_3": "Es wird durch hohe Hitze oder langes Kochen zerstört"
 
 
@@ -319,9 +319,8 @@
             "DEF_2": "Geschwollener Mund und leuchtend rote Zunge",
             "DEF_3": "Verdauungsprobleme",
             "DEF_4": "Kopfschmerzen, Gedächtnisverlust und Müdigkeit",
-            "OVER_1": "Auch bei sehr hohen Dosen von 3–4 g wird Niacin fast vollständig resorbiert",
-            "OVER_2": "30 bis 50 mg – würde dazu führen, dass sich die Haut im Gesicht, an den Armen und auf der Brust rötlich verfärbt ",
-            "OVER_3": "1000+ mg – kann auch Bluthochdruck, Müdigkeit, Bauchschmerzen, beeinträchtigte Glukosetoleranz und Insulinresistenz verursachen",
+            "OVER_1": "30 bis 50 mg – würde dazu führen, dass sich die Haut im Gesicht, an den Armen und auf der Brust rötlich verfärbt ",
+            "OVER_2": "1000+ mg können zu Bluthochdruck, Müdigkeit, Bauchschmerzen, beeinträchtigter Glukosetoleranz und Insulinresistenz führen. Bitte beachten Sie, dass Niacin auch in sehr hohen Dosen nahezu vollständig vom Körper aufgenommen wird.",
             "FACT_1": "Sehr hohe Dosen von Nikotinsäure – mehr als das 100-fache der empfohlenen Tagesdosis – die über Jahre eingenommen werden, könnten wirksame Behandlungen für Dyslipidämien sein",
             "FACT_2": "Die Einnahme von Niacin mit Chrom kann Ihren Blutzucker senken",
             "FACT_3": "Die Einnahme von Zink mit Niacin kann die Nebenwirkungen von Niacin wie Hitzewallungen und Juckreiz verschlimmern"
@@ -408,7 +407,7 @@
             "OVER_1": "Auch in hohen Dosen gilt Vitamin B12 allgemein als unbedenklich, da der Körper überschüssige Mengen nicht speichert",
             "FACT_1": "Der Körper speichert etwa 1 bis 5 mg Vitamin B12 – 1.000 bis 2.000 Mal so viel wie die Menge, die normalerweise an einem Tag aufgenommen wird",
             "FACT_2": "Depressionen und Osteoporose wurden mit einer niedrigen Menge an Vitamin B12 in Verbindung gebracht",
-            "FACT_3": "Die Einnahme von Vitamin B12 zusammen mit Vitamin C kann die verfügbare Menge an Vitamin B-12 in Ihrem Körper reduzieren. Um diese Wechselwirkung zu vermeiden, nehmen Sie Vitamin C zwei oder mehr Stunden nach der Einnahme eines Vitamin-B-12-Präparats ein",
+            "FACT_3": "Die Einnahme von Vitamin B12 zusammen mit Vitamin C kann die verfügbare Menge an Vitamin B12 in Ihrem Körper reduzieren. Um diese Wechselwirkung zu vermeiden, nehmen Sie Vitamin C zwei oder mehr Stunden nach der Einnahme eines Vitamin-B12-Präparats ein",
             "FACT_4": "Höhere Mengen an Folsäure können einen Vitamin-B12-Mangel maskieren",
             "FACT_5": "Hilft bei der Gehirnfunktion, besonders wenn wir älter werden "
         },
@@ -708,9 +707,9 @@
             "FACT_2": "Wirkt als Antioxidans, besonders in Kombination mit Vitamin E",
             "FACT_3": "Die Selenkonzentration im Körper nimmt mit zunehmendem Alter ab",
             "FACT_4": "Die Schilddrüse enthält die höchste Selenkonzentration",
-            "FACT_5": "Forschung: Menschen, die mehr als 7 Jahre lang mehr als 200 mcg Selen pro Tag einnahmen, hatten ein signifikant höheres Risiko, an Typ-2-Diabetes zu erkranken. Weitere Studien sind erforderlich, die Ergebnisse sind nicht schlüssig",
+            "FACT_5": "Forschung: Menschen, die mehr als 7 Jahre lang mehr als 200 mg Selen pro Tag einnahmen, hatten ein signifikant höheres Risiko, an Typ-2-Diabetes zu erkranken. Weitere Studien sind erforderlich, die Ergebnisse sind nicht schlüssig",
             "FACT_6": "Neun randomisierte klinische Studien: Selen könnte zur Vorbeugung von Magen-Darm-Krebs beitragen, aber es sind weitere klinische Studien erforderlich, um eine eindeutige Schlussfolgerung zu ziehen",
-            "FACT_7": "Paranüsse enthalten sehr hohe Mengen an Selen (68–91 mcg pro Nuss) und können bei regelmäßigem Verzehr eine Selentoxizität verursachen",
+            "FACT_7": "Paranüsse enthalten sehr hohe Mengen an Selen (68–91 mg pro Nuss) und können bei regelmäßigem Verzehr eine Selentoxizität verursachen",
             "FACT_8": "Eine Überprüfung von Studien zur reinen Selenergänzung zur Primärprävention von Herz-Kreislauf-Erkrankungen ergab keine statistisch signifikanten Wirkungen von Selen auf tödliche und nicht tödliche kardiovaskuläre Ereignisse",
             "FACT_9": "SU.VI.MAX-Studie, die auf eine umgekehrte Beziehung zwischen der Selenkonzentration im Körper und dem Schilddrüsenvolumen bei Frauen hinweist"
         },
@@ -771,11 +770,11 @@
     "WAIST": {
         "HEAD": "Taille",
         "SUBHEAD": "winzige taille - gesundes herz",
-        "ICO": "Symbol für die beste Apple Watch-App zur Verfolgung des Taillenumfangs. Vollständige Synchronisierung mit Apple Health. Einfache Nutzung ohne Anzeigen, Zahlungen und Registrierung.",
-        "TEXT": "Der einfachste Weg, um den Taillenumfang auf der Apple Watch zu verfolgen. Alle Datensätze werden mit Ihrem Apple Health synchronisiert.",
+        "ICO": "Symbol für die beste Apple Watch-App zur Verfolgung des Taillenumfangs. Vollständige Synchronisierung mit die Health App. Einfache Nutzung ohne Anzeigen, Zahlungen und Registrierung.",
+        "TEXT": "Der einfachste Weg, um den Taillenumfang auf der Apple Watch zu verfolgen. Alle Datensätze werden mit Ihrem die Health App synchronisiert.",
         "IMG": "Behalten Sie Ihre Taillengröße (Bauchnabel) direkt von Ihrem Arm aus im Auge",
         "DWN": "Laden Sie die kostenlose Taillen-App aus dem Apple App Store herunter",
-        "ABOUT": "Einfach zu bedienender Taillenumfang-Tracker für die Apple Watch. Erfordert weder Accout noch Registrierung. Absolut frei. Alle Datensätze werden mit Ihrer Apple Health App synchronisiert und die letzten 7 Tage können direkt von Ihrem Handgelenk aus aufgerufen werden.",
+        "ABOUT": "Einfach zu bedienender Taillenumfang-Tracker für die Apple Watch. Erfordert weder Accout noch Registrierung. Absolut frei. Alle Datensätze werden mit Ihrer die Health App App synchronisiert und die letzten 7 Tage können direkt von Ihrem Handgelenk aus aufgerufen werden.",
         "HEAD1": "Medizinische Tatsache",
         "DESC1": "Wenn sich mehr Fett um Ihre Taille als um Ihre Hüften befindet, besteht ein höheres Risiko für Erkrankungen wie Herzerkrankungen und Typ-2-Diabetes. ",
         "LINK1": "National Institutes of Health, USA",
@@ -793,11 +792,11 @@
     "ZINC": {
         "HEAD": "Zinc",
         "SUBHEAD": "verfolgung der zinkaufnahme",
-        "ICO": "Symbol für unsere kostenlose Apple Watch App, mit der Sie den Zinkverbrauch verfolgen können. Machen Sie Aufzeichnungen über diätetisches Zink von Ihren Apple Watches und synchronisieren Sie sie mit Apple Health. Keine benötigte begleitende iPhone-App, um zu funktionieren. Null Werbung.",
-        "TEXT": "Schön in seiner Einfachheit Körper Zink Tracker für Ihre Uhr. Apple Health aktiviert. Echte Ergebnisse. Kostenlos. Keine Werbung.",
+        "ICO": "Symbol für unsere kostenlose Apple Watch App, mit der Sie den Zinkverbrauch verfolgen können. Machen Sie Aufzeichnungen über diätetisches Zink von Ihren Apple Watches und synchronisieren Sie sie mit die Health App. Keine benötigte begleitende iPhone-App, um zu funktionieren. Null Werbung.",
+        "TEXT": "Schön in seiner Einfachheit Körper Zink Tracker für Ihre Uhr. die Health App aktiviert. Echte Ergebnisse. Kostenlos. Keine Werbung.",
         "IMG": "Verfolgen Sie Ihren Alltagsverbrauch von Zinkergänzungen",
         "DWN": "Holen Sie sich kostenlos Bodyzinc-Anwendung von Apple Store",
-        "ABOUT": "Einfach zu bedienender Ernährungszink-Tracker für Apple Watch. Auto Sync mit Apple Health erfordert keine Registrierung und absolut kostenlos.",
+        "ABOUT": "Einfach zu bedienender Ernährungszink-Tracker für Apple Watch. Auto Sync mit die Health App erfordert keine Registrierung und absolut kostenlos.",
         "HEAD1": "Altersbedingte Krankheiten",
         "DESC1": "Zink kann Ihr Risiko von altersbedingten Erkrankungen wie Lungenentzündung, Infektion und altersbedingter Makuladegeneration (AMD) erheblich reduzieren. Es kann oxidativer Stress lindern und die Immunantwort verbessern, indem die Aktivität von T-Zellen und natürlichen Killerzellen stärkt, die dazu beitragen, Ihren Körper vor Infektionen zu schützen. Ältere Erwachsene, die mit Zinkerlebnis ergänzen, verbesserten die Influenza-Impfung, ein geringes Risiko der Lungenentzündung und die stärkste mentale Leistung.",
         "LINK1": "Nationale Gesundheitsinstitute, USA",
@@ -811,10 +810,10 @@
         "HEAD": "Körper Form",
         "SUBHEAD": "schöner Körper - von dir gebaut!",
         "ICO": "Symbol für den besten Body-Size-Tracker im App Store für Apple Watch, iPhone, iPad und Mac M-Computer. Mit Body Size können Sie etwas über sich selbst lernen, um sich in Form zu bringen. Die Messungen werden automatisch mit der Health Mate-App synchronisiert, was bedeutet, dass Sie die Ergebnisse mit leicht lesbaren Diagrammen visualisieren können. Null Anzeigen.",
-        "TEXT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Uhr. Volle Unterstützung von Apple Health. Schnelle Ladezeit. Absolut frei.",
+        "TEXT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Uhr. Volle Unterstützung von die Health App. Schnelle Ladezeit. Absolut frei.",
         "IMG": "Messen Sie die Brustgröße, die Büste Breite, den Taillenumfang und die Hüftlänge mit der Uhr an Ihrem Handgelenk",
         "DWN": "Holen Sie sich die kostenlose Körperform-App für Apple Watch direkt aus dem Apple App Store",
-        "ABOUT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Apple Watch. Auto berechnet die Körperform mithilfe der Bradley Bayou-Formel. Volle Unterstützung von Apple Health. iCloud-Backups. Schnelle Ladezeit. Absolut frei.",
+        "ABOUT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Apple Watch. Auto berechnet die Körperform mithilfe der Bradley Bayou-Formel. Volle Unterstützung von die Health App. iCloud-Backups. Schnelle Ladezeit. Absolut frei.",
         "HEAD1": "Körperzusammensetzung",
         "DESC1": "Wenn Sie Muskeln gewinnen und Zentimeter Fett verlieren, ändert sich Ihr Gewicht möglicherweise nicht viel. Deshalb kann die Körperkomposition Ihnen mehr als die Waage erzählen, er sagt Ihnen die wahre Geschichte.",
         "LINK1": "Gesundheitslinie",
@@ -937,9 +936,21 @@
     },
     "FOOTER": {
         "C": "Copyright © 2023 Martspec LLC. Alle Rechte vorbehalten.",
-        "APPLE_BUTTON":{
+        "APPLE_BTN":{
             "TITLE": "Alle martspec-Anwendungen finden Sie in unserem Apple AppStore",
             "ALT": "Sehen Sie sich alle unsere Apps im Martpsec AppStore bei Apple an"
+        },
+        "LINKEDIN_BTN": {
+            "TITLE": "Folgen Sie uns auf LinkedIn"
+        },
+        "EMAIL_BTN": {
+            "TITLE": "Kontaktieren Sie uns per E-Mail"
+        },
+        "TWITTER_BTN": {
+            "TITLE": "Folgen Sie uns auf Twitter"
+        },
+        "FACEBOOK_BTN": {
+            "TITLE": "Folgen Sie uns auf Facebook"
         }
     },
     "ERROR": {
@@ -968,7 +979,7 @@
         "P1": "Martspec wurde im Frühjahr 2020 gegründet 🌱. In dieser Zeit arbeiteten viele Menschen von zu Hause aus und ihre täglichen Abläufe veränderten sich, was dazu führte, dass viele aufhörten, regelmäßig Sport zu treiben. Dies führte zu erheblichen Veränderungen in ihrem Körper und ihrer Gesundheit.",
         "P2": "Unsere Wellness-Apps wurden speziell entwickelt, um Benutzern die Tools zur Pflege gesunder Gewohnheiten an die Hand zu geben. Durch die sorgfältige Verfolgung ihrer Fortschritte werden Einzelpersonen jeden Tag effektiv an ihr unermüdliches Engagement für ihre Gesundheit erinnert, was letztendlich zu erheblichen Verbesserungen ihres allgemeinen Wohlbefindens führt.",
         "P3": "Personen, die ihr Wohlbefinden täglich überwachen, erzielen tendenziell größere Fortschritte als Personen, die dies nicht tun.",
-        "P4": "Wir glauben leidenschaftlich an die Kraft von Ideen, Einstellungen, Leben und letztendlich die Welt zu verändern. Unsere erste Idee bestand darin, eine App zu entwickeln, die das Körpergewicht direkt über tragbare Geräte erfasst. Wir haben die Gewicht-App für die Apple Watch entwickelt, die die Verfolgung des Körpergewichts einfach macht und Messungen automatisch in Apple Health aufzeichnet. Das klare und minimalistische Design der App hat sie sehr beliebt gemacht.",
+        "P4": "Wir glauben leidenschaftlich an die Kraft von Ideen, Einstellungen, Leben und letztendlich die Welt zu verändern. Unsere erste Idee bestand darin, eine App zu entwickeln, die das Körpergewicht direkt über tragbare Geräte erfasst. Wir haben die Gewicht-App für die Apple Watch entwickelt, die die Verfolgung des Körpergewichts einfach macht und Messungen automatisch in die Health App aufzeichnet. Das klare und minimalistische Design der App hat sie sehr beliebt gemacht.",
         "P5": "Eine unserer neuesten Apps, Emotion, zielt darauf ab, das geistige Wohlbefinden durch einen schnellen und einfachen Persönlichkeitstest zu fördern. Zusätzlich zum körperlichen Wohlbefinden und zur Gesundheitsverfolgung haben wir unsere erste App Emotion entwickelt, um das geistige Wohlbefinden zu fördern. Seit seiner Einführung hat dieses Produkt ausschließlich positive Bewertungen erhalten und fast ausschließlich 5-Sterne-Bewertungen erhalten.",
         "P6": "Unsere Apps basieren auf modernster Technologie und sind weltweit in mehreren Sprachen verfügbar. Allerdings spielt das alles keine Rolle. Es geht nicht nur um die Anzahl der Apps und branchenführender Software. Bei Martspec geht es um Menschen. Bei Martspec geht es um Vertrauen in Technologie, die Einzelpersonen zu persönlicher Gesundheit und Wohlbefinden verhilft."
     },
@@ -1090,7 +1101,7 @@
             "UL2": {
                 "MOBILE_ACCESS": {
                     "STRONG": "Mobilgerätezugriff. ",
-                    "TEXT": "Wir können Zugriff auf oder Berechtigungen für bestimmte Funktionen Ihres Mobilgeräts anfordern, einschließlich Apple Health und anderer Funktionen Ihres Mobilgeräts. Wenn Sie unseren Zugriff oder unsere Berechtigungen ändern möchten, können Sie dies in Ihren Geräteeinstellungen tun."
+                    "TEXT": "Wir können Zugriff auf oder Berechtigungen für bestimmte Funktionen Ihres Mobilgeräts anfordern, einschließlich die Health App und anderer Funktionen Ihres Mobilgeräts. Wenn Sie unseren Zugriff oder unsere Berechtigungen ändern möchten, können Sie dies in Ihren Geräteeinstellungen tun."
                 },
                 "MOBILE_DATA": {
                     "STRONG": "Mobilgerätedaten.",

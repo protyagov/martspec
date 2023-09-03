@@ -40,7 +40,7 @@
         "TEXT": "تتبع وزنك يعزز كفاءتك من حيث وقتك والممارسة. ليس فقط سيدفعك إلى القيام بأفضل، ولكن سيقودك أيضا إلى أن تكون منافستك الخاصة!",
         "IMG": "حفظ كتلة الجسم مباشرة من ساعة Apple الخاص بك في تخزين صحة التفاح",
         "DWN": "قم بتنزيل تطبيق وزن مجانا من متجر تطبيق Apple",
-        "ABOUT": "مجلة Bodyweight هي الأداة المثالية لزيادة كفاءة تمارينك وتحفيزك للوصول إلى الهدف. تتم مزامنة جميع البيانات مع Apple Health وتخزينها بأمان في iCloud الخاص بك. كل شيء سهل ومجاني تمامًا. إعلانات صفرية ولا مشتريات داخل التطبيق.",
+        "ABOUT": "مجلة Bodyweight هي الأداة المثالية لزيادة كفاءة تمارينك وتحفيزك للوصول إلى الهدف. تتم مزامنة جميع البيانات مع التطبيق الصحي وتخزينها بأمان في iCloud الخاص بك. كل شيء سهل ومجاني تمامًا. إعلانات صفرية ولا مشتريات داخل التطبيق.",
         "HEAD1": "مسئولية",
         "DESC1": "لدينا مسؤولية أنفسنا لصحتنا. لا أحد يستطيع أن يجعلنا نقدان الوزن أو اختيار الأطعمة الصحية. يجب أن نقرر هذا لأنفسنا. ",
         "HEAD2": "أمانة",
@@ -59,25 +59,25 @@
     "VITAMIN": {
         "HEAD": "فيتامين",
         "SUBHEAD": "في نهاية المطاف فيتامين المقتفي",
-        "ICO": "رمز لأفضل تطبيق لتعقب الفيتامينات والمعادن لأجهزة Apple Watch و iPhone و iPad. يتزامن بسلاسة مع Apple Health. إعلانات صفرية.",
+        "ICO": "رمز لأفضل تطبيق لتعقب الفيتامينات والمعادن لأجهزة Apple Watch و iPhone و iPad. يتزامن بسلاسة مع التطبيق الصحي. إعلانات صفرية.",
         "TEXT": "تتبع الفيتامينات الأساسية الخاصة بك لديها العديد من الفوائد، من المساعدة في إدارة عدم تسامح المواد الغذائية لزيادة الطاقة، وتجنب التغييرات في الحالة المزاجية، وتغذي إيقاعات يومك.",
         "IMG": "تتبع الفيتامينات الأكثر أهمية مباشرة على معصمك",
         "DWN": "قم بتنزيل تطبيق تتبع الفيتامينات والمغذيات المجاني من متجر تطبيقات Apple",
         "ABOUT_1": "هل أنت متأكد من حصولك على جميع الفيتامينات والمعادن الأساسية مع الطعام؟",  
         "ABOUT_2": "يساعدك فيتامين على تتبع استهلاكهم. قم بزيادة جودة نظامك الغذائي وتقوية صحتك من خلال تطبيقنا.",
         "FOOT": "يشجعنا هذا التطبيق على تناول طعام صحي واكتساب معايير أعلى في اختياراتنا الغذائية ، وهذا بدوره يساعد أجسامنا وعقولنا على البقاء قوية وصحية.",
-        "HEAD1": "مزامنة مع Apple Health",
-        "DESC1": "تتم مزامنة البيانات بين الأجهزة عبر iCloud وتطبيق Apple Health.",
+        "HEAD1": "مزامنة مع التطبيق الصحي",
+        "DESC1": "تتم مزامنة البيانات بين الأجهزة عبر iCloud وتطبيق التطبيق الصحي.",
         "HEAD2": "البساطة والخفة",
         "DESC2": "ساعدت التعليقات الواردة من المستخدمين الحقيقيين في جعل هذا التطبيق مناسبًا وسهل الفهم.",
-        "HEAD3": "يدعم جميع الفيتامينات والمعادن المتوفرة في Apple Health",
+        "HEAD3": "يدعم جميع الفيتامينات والمعادن المتوفرة في التطبيق الصحي",
         "DESC3": "يتتبع 13 نوعًا من الفيتامينات الأساسية و 14 من المعادن الحيوية.",
         "HEAD4": "أمان",
         "DESC4": "خاص تماما. نحن لا نخزن أو ننقل بياناتك إلى أطراف ثالثة. يتم تخزين البيانات في خدمة Apple الخاصة بك فقط.",
         "HEAD5": "بدون إذن",
         "DESC5": "لا تحتاج إلى إنشاء حساب لاستخدام هذا التطبيق.",
         "HEAD6": "القدرة على إضافة عناصر مخصصة",
-        "DESC6": "يمكنك إضافة ما يصل إلى 5 عناصر مخصصة بالإضافة إلى العناصر المعدة مسبقًا.",
+        "DESC6": "يمكنك إضافة ما يصل إلى %{count_tries} من الحبوب والمكملات الغذائية المخصصة بالإضافة إلى المكملات الغذائية المعدة مسبقًا",
         "HEAD7": "تتم مزامنة البيانات بين جميع أجهزتك",
         "DESC7": "يعمل التطبيق على Apple Watch و iPhone و iPad و Mac M.",
         "HEAD8": "",
@@ -133,7 +133,7 @@
                 "LACT_14_18": "Lactation 14-18 years",
                 "LACT_19_50": "Lactation 19-50 years"
             },
-            "FOOD_100G": "Content in foods mcg per 100 g",
+            "FOOD_100G": "Content in foods mg per 100 g",
             "FOOD_ALMOND": "Almond",
             "FOOD_APPLE": "Apple, Gala",
             "FOOD_APRICOT": "Apricot",
@@ -196,7 +196,7 @@
             "FOOD_SUNFLOWER": "Sunflower seeds",
             "FOOD_TOFU": "Tofu, firm",
             "FOOD_TOMATO": "Tomato",
-            "MCG": "mcg",
+            "MCG": "mg",
             "FACTS": "Did You Know?"
         },
         "VITAMIN_A": {
@@ -273,7 +273,7 @@
             "FACT_1": "Antibiotics block vitamin K metabolism",
             "FACT_2": "Because vitamin K is fat-soluble, it is best to eat vitamin K foods with some fat to improve absorption",
             "FACT_3": "Vitamin K transport across the placenta is poor, increasing the risk of vitamin K deficiency in newborn babies",
-            "FACT_4": "A study found that 180 mcg/day for 3 years improved bone strength and decreased the loss in spine height"
+            "FACT_4": "A study found that 180 mg/day for 3 years improved bone strength and decreased the loss in spine height"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
@@ -285,7 +285,7 @@
             "DEF_3": "Weight loss and anorexia",
             "OVER_1": "We have no evidence of any risks",
             "FACT_1": "Boost the immune system in times of stress",
-            "FACT_2": "Tannis (chemical in tea and coffee) might hamper B1 absorption",
+            "FACT_2": "يمكن أن يتداخل التانين (مادة كيميائية موجودة في الشاي والقهوة) مع امتصاص فيتامين ب1.",
             "FACT_3": "It is destroyed by high-heat or long cooking"
         },
         "VITAMIN_B2": {
@@ -315,9 +315,8 @@
             "DEF_2": "Swollen mouth and bright red tongue",
             "DEF_3": "Digestive problems",
             "DEF_4": "Headache, memory loss and fatigue",
-            "OVER_1": "Even when taken in very high doses of 3–4 g, niacin is almost completely absorbed",
-            "OVER_2": "30 to 50 mg – would causes skin on the face, arms, and chest turns a reddish color",
-            "OVER_3": "1000+mg  –  can also cause hypertension, fatigue, abdominal pain, impaired glucose tolerance and insulin resistance",
+            "OVER_1": "۳۰ إلى ۵۰ مجم – قد يتسبب في تحول لون جلد الوجه والذراعين والصدر إلى اللون الأحمر",
+            "OVER_2": "۱۰۰۰+ ملغ يمكن أن يسبب ارتفاع ضغط الدم، والتعب، وآلام في البطن، وضعف تحمل الجلوكوز ومقاومة الأنسولين. يرجى ملاحظة أن النياسين يتم امتصاصه بالكامل تقريبًا في جسمك حتى عند تناوله بجرعات عالية جدًا.",
             "FACT_1": "Very high doses of nicotinic acid—more than 100 times the RDA—taken for years might be effective treatments for dyslipidemias",
             "FACT_2": "Taking niacin with chromium might lower your blood sugar",
             "FACT_3": "Taking zinc with niacin might worsen niacin side effects, such as flushing and itching"
@@ -404,7 +403,7 @@
             "OVER_1": "Even at large doses, vitamin B12 is generally considered to be safe because the body does not store excess amounts",
             "FACT_1": "Body stores about 1 to 5 mg vitamin B12 -- 1,000 to 2,000 times as much as the amount typically consumed in a day",
             "FACT_2": "Depression and osteoporosis have been linked to low amount of vitamin B12",
-            "FACT_3": "Taking vitamin B-12 with vitamin C might reduce the available amount of vitamin B-12 in your body. To avoid this interaction, take vitamin C two or more hours after taking a vitamin B-12 supplement",
+            "FACT_3": "Taking vitamin B12 with vitamin C might reduce the available amount of vitamin B12 in your body. To avoid this interaction, take vitamin C two or more hours after taking a vitamin B12 supplement",
             "FACT_4": "Higher amounts of folate can mask a vitamin B12 deficiency",
             "FACT_5": "Helps with brain function, especially as we age"
         },
@@ -418,7 +417,7 @@
             "DEF_3": "Loosening or loss of teeth",
             "DEF_4": "Joint pain",
             "DEF_5": "Poor wound healing",
-            "DEF_6": "Corkscrew hairs",
+            "DEF_6": "حدوث نزيف حول بصيلات الشعر",
             "DEF_7": "Smokers or secondhand smoking are at higher risk",
             "OVER_1": "Over 2000 mg daily might promote gastrointestinal distress and diarrhea",
             "OVER_2": "High vitamin C intakes also have the potential to increase urinary oxalate and uric acid excretion, which could contribute to the formation of kidney stones",
@@ -442,7 +441,7 @@
             "FACT_2": "Some clinical trials have found that calcium supplementation can improve bone health in older adults",
             "FACT_3": "Calcium supplementation alone or a combination with vitamin D increases bone mineral density in older adults",
             "FACT_4": "Increasing calcium intakes reduces the risk of fractures and falls in older adults",
-            "FACT_5": "4-year trial of 1,179 women aged 55+ years: taking 1,400 to 1,500 mg calcium alone, 1,400 to 1,500 mg calcium plus 27.5 mcg vitamin D3, or placebo daily. Cancer incidence was 60% lower in women who took the combination and 47% lower in those who took calcium-only supplements than in the placebo group",
+            "FACT_5": "4-year trial of 1,179 women aged 55+ years: taking 1,400 to 1,500 mg calcium alone, 1,400 to 1,500 mg calcium plus 27.5 mg vitamin D3, or placebo daily. Cancer incidence was 60% lower in women who took the combination and 47% lower in those who took calcium-only supplements than in the placebo group",
             "FACT_6": "8 year study of 77,712 adults:  Average calcium intake of 1999 mg/day was associated with a 26% lower risk of colon cancer compared to 587 mg/day. Association with risk of rectal cancer was not found"
         },
         "CHLORIDE": {
@@ -476,7 +475,7 @@
             "FACT_2": "Vitamin C and B3 (niacin) improve the absorption of chromium",
             "FACT_3": "One of the most common elements in the earth",
             "FACT_4": "One small study suggests that chromium may reduce the risk of insulin resistance, however, findings are inconsistent",
-            "FACT_5": "A study on women with Polycystic ovary syndrome showed that CR significantly reduce body mass index (BMI) and free testosterone levels",
+            "FACT_5": "A study on women with Polycystic ovary syndrome showed that Cr significantly reduce body mass index (BMI) and free testosterone levels",
             "FACT_6": "Chromium supplementation has no effect on body weight or lipids. However, a study suggests chromium picolinate might reduces body weight and body fat percentage. More research is needed"
         },
         "COPPER": {
@@ -701,10 +700,10 @@
             "OVER_4": "Fatigue, Irritability, Muscle tenderness",
             "OVER_5": "Nausea, diarrhea",
             "FACT_1": "Most selenium in the body is stored in muscle tissue (28% to 46%). Works as an antioxidant, especially when combined with vitamin E",
-            "FACT_2": "Research: People who took 200+ mcg of selenium per day for more than 7 years had a significantly higher risk of developing type 2 diabetes.  More studies are needed, results are inconclusive",
+            "FACT_2": "Research: People who took 200+ mg of selenium per day for more than 7 years had a significantly higher risk of developing type 2 diabetes.  More studies are needed, results are inconclusive",
             "FACT_3": "Nine randomized clinical trials: selenium might help prevent gastrointestinal cancers but more clinical trials are needed to make strong conclusion",
             "FACT_4": "FDA: some scientific evidence suggests that consumption of selenium may reduce the risk of certain forms of cancer. FDA has determined that this evidence is limited and not conclusive",
-            "FACT_5": "Brazil nuts contain very high amounts of selenium (68–91 mcg per nut) and could cause selenium toxicity if consumed regularly",
+            "FACT_5": "Brazil nuts contain very high amounts of selenium (68–91 mg per nut) and could cause selenium toxicity if consumed regularly",
             "FACT_6": "A review of trials of selenium-only supplementation for the primary prevention of cardiovascular disease found no statistically significant effects of selenium on fatal and nonfatal cardiovascular events",
             "FACT_7": "Body selenium concentrations decline with age",
             "FACT_8": "Thyroid gland holds the highest concentration of selenium",
@@ -767,11 +766,11 @@
     "WAIST": {
         "HEAD": "محيط الخصر",
         "SUBHEAD": "الخصر الصغير - القلب الصحي",
-        "ICO": "رمز لأفضل تطبيق تتبع محيط الخصر على Apple Watch. مزامنة كاملة مع Apple Health. استخدم بسهولة دون إعلانات ودفعات وتسجيل.",
+        "ICO": "رمز لأفضل تطبيق تتبع محيط الخصر على Apple Watch. مزامنة كاملة مع التطبيق الصحي. استخدم بسهولة دون إعلانات ودفعات وتسجيل.",
         "TEXT": "أسهل طريقة لتتبع محيط الخصر على Apple Watch. جميع السجلات تزامن مع صحة التفاح الخاصة بك.",
         "IMG": "تتبع حجم الخصر الخاص بك (زر البطن) مباشرة من ذراعك",
         "DWN": "قم بتنزيل التطبيق المجاني لخصر الجسم من متجر تطبيقات Apple",
-        "ABOUT": "من السهل استخدام محيط الخصر المقتفي ل Apple Watch. لا يتطلب الحساب ولا التسجيل. بحرية مطلقة. تحصل جميع السجلات على Synced على تطبيق Apple Health الخاص بك ويمكن الوصول إلى الأيام السبعة الماضية مباشرة من معصمك.",
+        "ABOUT": "من السهل استخدام محيط الخصر المقتفي ل Apple Watch. لا يتطلب الحساب ولا التسجيل. بحرية مطلقة. تحصل جميع السجلات على Synced على تطبيق التطبيق الصحي الخاص بك ويمكن الوصول إلى الأيام السبعة الماضية مباشرة من معصمك.",
         "HEAD1": "حقيقة طبية",
         "DESC1": "إذا كانت المزيد من الدهون موجودة حول الخصر الخاص بك بدلا من حول الوركين، فأنت في خطر أعلى للحصول على شروط بما في ذلك أمراض القلب والكوكي 2 مرض السكري. ",
         "LINK1": "المعاهد الوطنية للصحة والولايات المتحدة الأمريكية",
@@ -789,8 +788,8 @@
     "ZINC": {
         "HEAD": "الزنك",
         "SUBHEAD": "تتبع استهلاك الزنك",
-        "ICO": "رمز لتطبيق Apple Watch المجاني الذي يساعدك على تتبع استهلاك الزنك. قم بعمل سجلات حول الزنك الغذائي من ساعات Apple الخاصة بك وقم بمزامنتها مع Apple Health. لا حاجة إلى تطبيق iPhone رفيق للعمل. إعلانات صفرية.",
-        "TEXT": "جميل في بساطته الجسم تعقب الزنك لساعتك. تم تمكين Apple Health. نتائج حقيقية. حر. إعلانات صفرية.",
+        "ICO": "رمز لتطبيق Apple Watch المجاني الذي يساعدك على تتبع استهلاك الزنك. قم بعمل سجلات حول الزنك الغذائي من ساعات Apple الخاصة بك وقم بمزامنتها مع التطبيق الصحي. لا حاجة إلى تطبيق iPhone رفيق للعمل. إعلانات صفرية.",
+        "TEXT": "جميل في بساطته الجسم تعقب الزنك لساعتك. تم تمكين التطبيق الصحي. نتائج حقيقية. حر. إعلانات صفرية.",
         "IMG": "تتبع استهلاكك اليومي لملحق الزنك",
         "DWN": "احصل على تطبيق BodyZinc مجانا مجانا من Apple Store",
         "ABOUT": "سهلة الاستخدام تعقب الزنك الغذائية ل Apple Watch. مزامنة تلقائية مع صحة التفاح، لا تتطلب التسجيل مجانا تماما.",
@@ -933,9 +932,21 @@
     },
     "FOOTER": {
         "C": "حقوق النشر © ۲۰۲۳ Martspec LLC. كل الحقوق محفوظة.",
-        "APPLE_BUTTON":{
+        "APPLE_BTN":{
             "TITLE": "شاهد جميع تطبيقات martspec على متجر تطبيقات Apple الخاص بنا",
             "ALT": "شاهد جميع تطبيقاتنا على Martpsec AppStore في Apple"
+        },
+        "LINKEDIN_BTN": {
+            "TITLE": "تابعونا على لينكدإن"
+        },
+        "EMAIL_BTN": {
+            "TITLE": "الاتصال بنا عن طريق البريد الإلكتروني"
+        },
+        "TWITTER_BTN": {
+            "TITLE": "تابعنا على تويتر"
+        },
+        "FACEBOOK_BTN": {
+            "TITLE": "تابعونا على الفيسبوك"
         }
     },
     "ERROR": {
@@ -1086,7 +1097,7 @@
             "UL2": {
                 "MOBILE_ACCESS": {
                     "STRONG": "الوصول إلى الأجهزة المحمولة. ",
-                    "TEXT": "قد نطلب الوصول أو الإذن بالوصول إلى بعض ميزات جهازك المحمول ، بما في ذلك Apple Health الخاص بجهازك المحمول وميزات أخرى. إذا كنت ترغب في تغيير وصولنا أو أذوناتنا ، فيمكنك القيام بذلك في إعدادات جهازك. "
+                    "TEXT": "قد نطلب الوصول أو الإذن بالوصول إلى بعض ميزات جهازك المحمول ، بما في ذلك التطبيق الصحي الخاص بجهازك المحمول وميزات أخرى. إذا كنت ترغب في تغيير وصولنا أو أذوناتنا ، فيمكنك القيام بذلك في إعدادات جهازك. "
                 },
                 "MOBILE_DATA": {
                     "STRONG": "بيانات الجهاز المحمول.",
