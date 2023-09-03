@@ -234,8 +234,8 @@
             "FOOD_SUNFLOWER": 7.8,
             "FOOD_ALMOND": 4.4,
             "FOOD_STRAWBERRY": 1.5,
-            "FOOD_BANANA": 0.2,
-            "FOOD_BROCCOLI": 0.8
+            "FOOD_BROCCOLI": 0.8,
+            "FOOD_BANANA": 0.2
         }
     },
     "VITAMIN_B9": {
