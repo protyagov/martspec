@@ -18,7 +18,7 @@ export default function P7Emotion() {
                         <h3>{_("EMOTION.ABOUT_1")}</h3>
                         <p>{_("EMOTION.ABOUT_2")}</p>
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple mt-5"
+                            target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple mt-3"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                         </a>
                     </div>
@@ -60,7 +60,7 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD1")}</h2>
                             <p>{_("EMOTION.DESK1")}</p>
-                            <a href="/coming-soon" className="mt-3 ms-btn-large button">{_("EMOTION.BTN1")}</a>
+                            <a href="/coming-soon" className="ms-btn-large button">{_("EMOTION.BTN1")}</a>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -75,7 +75,7 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD2")}</h2>
                             <p>{_("EMOTION.DESK2")}</p>
-                            <a href="/coming-soon" className="mt-3 ms-btn-large button">{_("EMOTION.BTN_BIORHYTHM")}</a>
+                            <a href="/coming-soon" className="ms-btn-large button">{_("EMOTION.BTN_BIORHYTHM")}</a>
                         </div>
                     </div>
                     <div className="col-lg-6 d-table order-lg-first pt-lg-0 pt-5">
@@ -111,7 +111,7 @@ export default function P7Emotion() {
                             <h2>{_("EMOTION.HEAD3")}</h2>
                             <p>{_("EMOTION.DESK3_1")}</p>
                             <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={522} cls="ms-base-image d-block d-lg-none py-5" alt={_("EMOTION.ALT3")} />
-                            <h4>{_("EMOTION.DESK3_2")}</h4>
+                            <h4 className="mb-4">{_("EMOTION.DESK3_2")}</h4>
                             <ul className="d-flex gap-4 how-list">
                                 <li className="bg-orange">{_("EMOTION.LIST3.LI1_TEXT")}</li>
                                 <li className="bg-aqua">{_("EMOTION.LIST3.LI2_TEXT")}</li>
