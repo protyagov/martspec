@@ -408,7 +408,7 @@
         "LOGO": "/img/copper_logo.png",
         "HEX": "D2691E",
         "TYPE": null,
-        "UNIT":"MG",
+        "UNIT":"MCG",
         "DEF_COUNT": 5,
         "OVER_COUNT": 3,
         "FACT_COUNT": 10,
