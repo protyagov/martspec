@@ -24,7 +24,7 @@ export default function Vitamin() {
                         <h3>{_("VITAMIN.ABOUT_1")}</h3>
                         <p>{_("VITAMIN.ABOUT_2")}</p>
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
-                            target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-5"
+                            target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-3"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                         </a>
                     </div>
