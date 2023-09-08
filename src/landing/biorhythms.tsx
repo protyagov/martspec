@@ -37,6 +37,61 @@ export default function Biorhythms() {
                 </div>
             </section>
 
+            <section className="py-5 mb-5 bg-gray">
+                <div id="rhythms-slider" className="carousel slide" data-bs-ride="carousel">
+                    <div className="row py-4">
+                        <div className="col-4">
+                            <div className="carousel-indicators indicators">
+                                <a role="button" href="#rhythms-slider" data-bs-slide-to="0" className="active" aria-current="true"><h2>{_("BIORHYTHMS.RHYTHMS.PHYS.HEAD")}</h2></a>
+                                <a role="button" href="#rhythms-slider" data-bs-slide-to="1"><h2>{_("BIORHYTHMS.RHYTHMS.EMOT.HEAD")}</h2></a>
+                                <a role="button" href="#rhythms-slider" data-bs-slide-to="2"><h2>{_("BIORHYTHMS.RHYTHMS.INTEL.HEAD")}</h2></a>
+                            </div>
+                        </div>
+                        <div className="col-8">
+                            <div className="carousel-inner">
+                                {
+                                    [
+                                        {
+                                            name: "PHYS",
+                                            bgColor: "yellow",
+                                            liCount: 6
+                                        },
+                                        {
+                                            name: "EMOT",
+                                            bgColor: "green",
+                                            liCount: 5
+                                        },
+                                        {
+                                            name: "INTEL",
+                                            bgColor: "violet",
+                                            liCount: 6
+                                        },
+                                    ].map((rhythm, rhythmIdx) => (
+                                        <div key={"biorhythm-" + rhythm.name} className={"px-3 carousel-item" + (rhythmIdx === 1 ? " active" : "")}>
+                                            <div className="mb-5">
+                                                {_("BIORHYTHMS.RHYTHMS." + rhythm.name + ".DESK")}
+                                            </div>
+                                            <div className={"block bg-" + rhythm.bgColor}>
+                                                <h3 className="mb-4">{_("BIORHYTHMS.RHYTHMS.LIST_HEAD")}</h3>
+                                                <ul className="features-list d-flex flex-wrap justify-content-between gap-3">
+                                                    {
+                                                        [...Array(rhythm.liCount)].map((li, idx) => (
+                                                            <li key={"biorhythm-" + rhythm.name + "-li" + idx++}>
+                                                                {_("BIORHYTHMS.RHYTHMS." + rhythm.name + ".LI" + idx++)}
+                                                            </li>
+                                                        ))
+                                                    }
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    ))
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="pb-5">
                 <div className="row">
                     <div className="col-12">

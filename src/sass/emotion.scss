@@ -210,4 +210,28 @@
       flex-basis: 100%;
     }
   }
+  .features-list {
+    li {
+      flex: 1 0 calc(50% - 1.5rem);
+      margin-bottom: 0;
+    }
+  }
+  #rhythms-slider {
+    .indicators {
+      position: relative;
+      display: block;
+      margin: 0;
+
+      a {
+        display: block;
+        text-decoration: none;
+        * {
+          color: #AFAFAF;
+        }
+        &.active * {
+          color: $ms-color-text-black;
+        }
+      }
+    }
+  }
 }
