@@ -69,7 +69,7 @@ export default function Biorhythms() {
                                     ].map((rhythm, rhythmIdx) => (
                                         <div key={"biorhythm-" + rhythm.name} className={"px-3 carousel-item" + (rhythmIdx === 1 ? " active" : "")}>
                                             <div className="mb-5">
-                                                {_("BIORHYTHMS.RHYTHMS." + rhythm.name + ".DESK")}
+                                                <p>{_("BIORHYTHMS.RHYTHMS." + rhythm.name + ".DESK")}</p>
                                             </div>
                                             <div className={"block bg-" + rhythm.bgColor}>
                                                 <h3 className="mb-4">{_("BIORHYTHMS.RHYTHMS.LIST_HEAD")}</h3>
