@@ -216,6 +216,23 @@
       margin-bottom: 0;
     }
   }
+  #firstContentSectionCollapseBtn {
+    text-decoration: none;
+
+    &[aria-expanded="true"] {
+      display: none;
+    }
+
+    p {
+      color: $ms-color-text-black;
+      font-family: os4;
+
+      &::after {
+        content: url("../img/emotion-icon-5.svg");
+        margin-left: 15px;
+      }
+    }
+  }
   #rhythms-slider {
     .indicators {
       position: relative;

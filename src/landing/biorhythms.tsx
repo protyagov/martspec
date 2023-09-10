@@ -31,8 +31,20 @@ export default function Biorhythms() {
                     <div className="col-lg-6">
                         <p>{_("BIORHYTHMS.DESK1_1")}</p>
                     </div>
-                    <div className="col-lg-6">
+                    <div id="firstContentSectionCollapse" className={"col-lg-6 mt-lg-0 mt-3 collapse" + (window.innerWidth >= 992 ? " show" : "")}>
                         <p>{_("BIORHYTHMS.DESK1_2")}</p>
+                    </div>
+                    <div className="col-12 d-lg-none mt-3">
+                        <a
+                            id="firstContentSectionCollapseBtn"
+                            role="button"
+                            data-bs-toggle="collapse"
+                            href="#firstContentSectionCollapse"
+                            aria-expanded={window.innerWidth >= 992}
+                            aria-controls="firstContentSectionCollapse"
+                        >
+                            <p>{_("BIORHYTHMS.BTN1")}</p>
+                        </a>
                     </div>
                 </div>
             </section>
