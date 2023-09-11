@@ -168,7 +168,6 @@ export default function Biorhythms() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("BIORHYTHMS.HEAD3")}</h2>
                             <p>{_("BIORHYTHMS.DESK3_1")}</p>
-                            <ImageI18N src="/img/biorhythms_screen_1.en.512.webp" w={292} h={563} cls="ms-base-image d-block d-lg-none py-5" alt={_("BIORHYTHMS.ALT3")} />
                             <div className="my-5 py-2">
                                 <h4 className="mb-4">{_("BIORHYTHMS.DESK3_2")}</h4>
                                 <div className="d-flex flex-wrap justify-content-between why-list">
@@ -178,6 +177,7 @@ export default function Biorhythms() {
                                 <p className="mb-0">{_("BIORHYTHMS.LIST3.LI4_TEXT")}</p>
                                 </div>
                             </div>
+                            <ImageI18N src="/img/biorhythms_screen_1.en.512.webp" w={292} h={563} cls="ms-base-image d-block d-lg-none py-5" alt={_("BIORHYTHMS.ALT3")} />
                             <p>{_("BIORHYTHMS.DESK3_3")}</p>
                         </div>
                     </div>
