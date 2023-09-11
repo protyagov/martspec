@@ -37,6 +37,8 @@
       &::after {
         content: url("../img/emotion-icon-5.svg");
         margin-left: 15px;
+        display: inline-block;
+        transform: rotate(90deg);
       }
     }
   }
