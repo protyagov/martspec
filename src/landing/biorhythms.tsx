@@ -5,6 +5,27 @@ import NavigationBar from "src/part/navbar";
 import ImageI18N from "src/part/img-i18n";
 
 export default function Biorhythms() {
+    const rhythmsList = [
+        {
+            name: "PHYS",
+            bgColor: "yellow",
+            liCount: 6,
+            isFirst: true
+        },
+        {
+            name: "EMOT",
+            bgColor: "green",
+            liCount: 5,
+            isFirst: false
+        },
+        {
+            name: "INTEL",
+            bgColor: "violet",
+            liCount: 6,
+            isFirst: false
+        },
+    ];
+
     return <>
         <NavigationBar />
 
@@ -62,24 +83,8 @@ export default function Biorhythms() {
                         <div className="col-lg-8 col-12">
                             <div className="carousel-inner">
                                 {
-                                    [
-                                        {
-                                            name: "PHYS",
-                                            bgColor: "yellow",
-                                            liCount: 6
-                                        },
-                                        {
-                                            name: "EMOT",
-                                            bgColor: "green",
-                                            liCount: 5
-                                        },
-                                        {
-                                            name: "INTEL",
-                                            bgColor: "violet",
-                                            liCount: 6
-                                        },
-                                    ].map((rhythm, rhythmIdx) => (
-                                        <div key={"biorhythm-" + rhythm.name} className={"px-lg-3 carousel-item" + (rhythmIdx === 1 ? " active" : "")}>
+                                    rhythmsList.map(rhythm => (
+                                        <div key={"biorhythm-" + rhythm.name} className={"px-lg-3 carousel-item" + (rhythm.isFirst ? " active" : "")}>
                                             <div className="mt-4 mb-5">
                                                 <p>{_("BIORHYTHMS.RHYTHMS." + rhythm.name + ".DESK")}</p>
                                             </div>
@@ -87,11 +92,14 @@ export default function Biorhythms() {
                                                 <h3 className="mb-4">{_("BIORHYTHMS.RHYTHMS.LIST_HEAD")}</h3>
                                                 <ul className="features-list">
                                                     {
-                                                        [...Array(rhythm.liCount)].map((li, idx) => (
-                                                            <li key={"biorhythm-" + rhythm.name + "-li" + idx++}>
-                                                                {_("BIORHYTHMS.RHYTHMS." + rhythm.name + ".LI" + idx++)}
-                                                            </li>
-                                                        ))
+                                                        [...Array(rhythm.liCount).keys()].map(idx => {
+                                                            idx++;
+                                                            return (
+                                                                <li key={"biorhythm-" + rhythm.name + "-li" + idx}>
+                                                                    {_("BIORHYTHMS.RHYTHMS." + rhythm.name + ".LI" + idx)}
+                                                                </li>
+                                                            )
+                                                        })
                                                     }
                                                 </ul>
                                             </div>
