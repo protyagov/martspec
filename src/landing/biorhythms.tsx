@@ -44,7 +44,7 @@ export default function Biorhythms() {
                 </div>
             </section>
 
-            <section className="pb-3">
+            <section className="pb-5">
                 <div className="row">
                     <div className="col-12">
                         <h2>{_("BIORHYTHMS.HEAD1")}</h2>
@@ -112,7 +112,7 @@ export default function Biorhythms() {
                 </div>
             </section>
 
-            <section className="pb-5">
+            <section className="py-5">
                 <div className="row">
                     <div className="col-12">
                         <h2>{_("BIORHYTHMS.HEAD2")}</h2>
