@@ -935,6 +935,92 @@
         "DESK8": "Download the app right now and start tracking your mood changes even within the same day",
         "ALT8": "Screenshots of an application that will allow you to track your psychological state regularly, comfortably and on any device"
     },
+    "BIORHYTHMS": {
+        "HEAD": "Biorhythms",
+        "IMG": "Track your biorhythms with our apps",
+        "DWN": "Get our free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store and start tracking your biorhythms easier.",
+        "HEAD1": "What are biological rhythms?",
+        "DESK1_1": "Biological rhythms are fluctuations in the functional parameters of the human body relative to the conditional zero level. All biological rhythms originate from the date of birth of a person, which is a common zero point for them, and fluctuate in the form of sinusoidal waves throughout life.",
+        "DESK1_2": "The most important rhythms are physical, emotional and intellectual, they have the strongest influence on the state of the body. It should be noted that for each person the level of influence of biological rhythms is very individual, depending on the lifestyle.",
+        "BTN1": "Read more",
+        "HEAD2": "Biometric phases",
+        "DESK2": "When any of the rhythms is at the highest point, the actions we do are more successful, and vice versa for the low points of the rhythm. Each of the 3 rhythms is divided into 5 phases that follow each other.",
+        "ALT2": "An image that shows the fluctuations in physical, emotional and intellectual biorhythms, which are even easier to track with Martspec applications",
+        "LIST2": {
+            "LI1_HEAD": "Super phase",
+            "LI1_TEXT": "The phase is at its maximum. This is the best time for activities, complex tasks, decision making and new beginnings.",
+            "LI2_HEAD": "Active phase",
+            "LI2_TEXT": "You feel an increase in confidence, concentration and energy. This is the time to learn or improve your skills.",
+            "LI3_HEAD": "Transition stage",
+            "LI3_TEXT": "A critical day for the human body. If possible, it is better to refrain from doing anything.",
+            "LI4_HEAD": "Passive phase",
+            "LI4_TEXT": "Your thoughts are slowing down and your performance is deteriorating, and it's getting harder and harder to hold back.",
+            "LI5_HEAD": "Inert phase",
+            "LI5_TEXT": "All your actions negatively affect you, you have apathy, aggression, irritability."
+        },
+        "HEAD3": "Characteristics and critical day",
+        "DESK3_1": "The purpose of tracking biorhythmic cycles is to be able to calculate critical days to avoid various activities.",
+        "DESK3_2": "Each rhythm shows:",
+        "DESK3_3": "The critical day (zero day) occurs when the time intervals cross the zero line. At this moment, the transition from one phase of the biorhythmic cycle to another takes place. There are three critical days in each cycle, these days are accompanied by unstable states, internal processes change. It is advisable to exercise caution these days.",
+        "ALT3": "Image for human biological rhythm charts that are easy to track with Martspec applications",
+        "LIST3": {
+            "LI1_TEXT": "Phase change",
+            "LI2_TEXT": "Zero day",
+            "LI3_TEXT": "Level",
+            "LI4_TEXT": "Dynamics"
+        },
+        "HEAD4": "Why is it necessary to monitor biorhythms?",
+        "DESK4": "Biological rhythm disturbances can affect a person's health and well-being. Some of the effects include:",
+        "ALT4_1": "Icon for poor performance that can be alerted with biorhythm tracking",
+        "ALT4_2": "Icon for daytime sleepiness due to human biological rhythm disorder",
+        "ALT4_3": "Icon for a state of anxiety that can be more easily tracked by monitoring one's own biological rhythms",
+        "ALT4_4": "Icon for lack of appetite caused by differences between biological rhythms in the human body",
+        "LIST4": {
+            "LI1_HEAD": "Low performance",
+            "LI1_TEXT": "Significantly reduced mental activity, thinking, memory impairment.",
+            "LI2_HEAD": "Daytime sleepiness",
+            "LI2_TEXT": "Biological rhythm disturbance causes sleep disorders such as insomnia.",
+            "LI3_HEAD": "Depression and anxiety",
+            "LI3_TEXT": "Decrease in the protective functions of the psyche due to frequent psycho-traumatic situations.",
+            "LI4_HEAD": "Lack of appetite",
+            "LI4_TEXT": "The difference in the rhythms of the body leads to a decrease in appetite, deterioration in well-being and diseases."
+        },
+        "HEAD5": "Tracking biological rhythms just got easier",
+        "DESK5": "Keep track of your health, mood swings and physical activity with our apps",
+        "ALT5": "A picture of the Emotion app that makes it easier to track fluctuations in your biological rhythms",
+        "RHYTHMS": {
+            "LIST_HEAD": "Rhythm Features",
+            "PHYS": {
+                "HEAD": "Physical Rhythm",
+                "DESK": "The physical biological rhythm is responsible for the physical condition of a person, the state of his endurance, muscle and, most importantly, heart strength, and endurance is the ability to withstand stress. The cycle consists of 23 days. In a positive period, the physical tone of the body increases, and in a negative - decreases.",
+                "LI1": "Power",
+                "LI2": "Endurance",
+                "LI3": "Immunity to disease",
+                "LI4": "Potency",
+                "LI5": "Coordination",
+                "LI6": "Pain resistance"
+            },
+            "EMOT": {
+                "HEAD": "Emotional Rhythm",
+                "DESK": "The emotional biological rhythm is responsible for the body's ability to create and experience emotions. The cycle consists of 28 days. During the period of a positive emotional biological rhythm, a person feels more inspired. In the negative zone of the biological rhythm, people often experience a crisis of creativity and sensitivity, may fall into depression.",
+                "LI1": "Creativity",
+                "LI2": "Changing mood",
+                "LI3": "Sensitivity",
+                "LI4": "Visual Perception",
+                "LI5": "Mental Resilience"
+            },
+            "INTEL": {
+                "HEAD": "Intelligent Rhythm",
+                "DESK": "The intellectual biological rhythm determines the state of a person's mental activity, his ability to remember a variety of information, study science, learn, draw conclusions, consists of 33 days. Accordingly, in the positive part of this biological rhythm, such abilities are increased, and in the negative part they are reduced.",
+                "LI1": "Memory or Perception",
+                "LI2": "Vigilance",
+                "LI3": "Analytical Thinking",
+                "LI4": "Decision making",
+                "LI5": "Logic",
+                "LI6": "Learning"
+            }
+        }
+    },
     "FOOTER": {
         "C": "Copyright © 2023 Martspec LLC. Alle Rechte vorbehalten.",
         "APPLE_BTN":{
