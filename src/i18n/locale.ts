@@ -86,7 +86,7 @@ export class Locale {
     //-------------------------------------------------------------------------------------------------------
     static i18nLink(path: string) {
         return window.location.origin
-            + ( (!Locale.language || Locale.language == "en") ? "" : ("/" + Locale.language) )
+            + ((!Locale.language || Locale.language == "en") ? "" : ("/" + Locale.language))
             + (path.startsWith('/') ? "" : "/")
             + path
     }
