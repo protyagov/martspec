@@ -71,7 +71,7 @@ export default function Biorhythms() {
             </section>
 
             <section className="py-5 mb-5 bg-gray">
-                <div id="rhythms-slider" className="carousel slide" data-bs-ride="carousel">
+                <div id="rhythms-slider" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="row py-4">
                         <div className="col-lg-4 col-12">
                             <div className="carousel-indicators indicators">

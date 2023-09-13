@@ -59,5 +59,17 @@
         }
       }
     }
+    .carousel-item {
+      display: block;
+    }
+    .carousel-item.active,
+    .carousel-item-next.carousel-item-start,
+    .carousel-item-prev.carousel-item-end {
+      @include transition(opacity .6s .1s);
+    }
+    .active.carousel-item-start,
+    .active.carousel-item-end {
+      @include transition(opacity .6s .1s);
+    }
   }
 }
