@@ -122,7 +122,7 @@ export default function Biorhythms() {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col-8">
+                    <div className="col-lg-8 col-12">
                         <img src="/img/biorhythms_diagram_1.webp" className="img-fluid my-3" alt={_("BIORHYTHMS.ALT2")} />
                     </div>
                 </div>
