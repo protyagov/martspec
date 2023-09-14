@@ -177,7 +177,7 @@ export default function Biorhythms() {
                                 <p className="mb-0">{_("BIORHYTHMS.LIST3.LI4_TEXT")}</p>
                                 </div>
                             </div>
-                            <ImageI18N src="/img/biorhythms_screen_1.en.512.webp" w={292} h={563} cls="ms-base-image d-block d-lg-none py-5" alt={_("BIORHYTHMS.ALT3")} />
+                            <ImageI18N src="/img/biorhythms_screen_1.en.512.webp" w={207} h={402} cls="ms-base-image d-block d-lg-none" alt={_("BIORHYTHMS.ALT3")} />
                             <p>{_("BIORHYTHMS.DESK3_3")}</p>
                         </div>
                     </div>
