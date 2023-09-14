@@ -71,13 +71,13 @@ export default function Biorhythms() {
             </section>
 
             <section className="py-5 mb-5 bg-gray">
-                <div id="rhythms-slider" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="rhythms-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="row py-4">
                         <div className="col-lg-4 col-12">
                             <div className="carousel-indicators indicators">
-                                <a role="button" href="#rhythms-slider" data-bs-slide-to="0" className="active" aria-current="true"><h2>{_("BIORHYTHMS.RHYTHMS.PHYS.HEAD")}</h2></a>
-                                <a role="button" href="#rhythms-slider" data-bs-slide-to="1"><h2>{_("BIORHYTHMS.RHYTHMS.EMOT.HEAD")}</h2></a>
-                                <a role="button" href="#rhythms-slider" data-bs-slide-to="2"><h2>{_("BIORHYTHMS.RHYTHMS.INTEL.HEAD")}</h2></a>
+                                <a role="button" href="#rhythms-carousel" data-bs-slide-to="0" className="active" aria-current="true"><h2>{_("BIORHYTHMS.RHYTHMS.PHYS.HEAD")}</h2></a>
+                                <a role="button" href="#rhythms-carousel" data-bs-slide-to="1"><h2>{_("BIORHYTHMS.RHYTHMS.EMOT.HEAD")}</h2></a>
+                                <a role="button" href="#rhythms-carousel" data-bs-slide-to="2"><h2>{_("BIORHYTHMS.RHYTHMS.INTEL.HEAD")}</h2></a>
                             </div>
                         </div>
                         <div className="col-lg-8 col-12">
