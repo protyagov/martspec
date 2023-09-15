@@ -79,7 +79,7 @@
         "HEAD5": "Sans autorisation",
         "DESC5": "Vous n'avez pas besoin de créer un compte pour utiliser cette application.",
         "HEAD6": "Possibilité d'ajouter des éléments personnalisés",
-        "DESC6": "Vous pouvez ajouter jusqu'à %{count_tries} éléments personnalisés en plus des éléments prédéfinis.",
+        "DESC6": "Además de los ajustes preestablecidos, puedes agregar hasta %{count_tries} de píldoras y suplementos personalizados. La sección de suplementos dietéticos calcula automáticamente cuántas vitaminas y minerales está obteniendo y los almacena. La sección Píldoras le permite crear cualquier píldora que no sea compatible con L’app Santé.",
         "HEAD7": "Les données sont synchronisées entre tous vos appareils",
         "DESC7": "L'application fonctionne sur Apple Watch, iPhone, iPad et Mac M.",
         "HEAD8": "",
