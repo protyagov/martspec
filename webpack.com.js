@@ -182,7 +182,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodyzinc.ejs`, filename: x + '/bodyzinc.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodysize.ejs`, filename: x + '/bodysize.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/emotion.ejs`, filename: x + '/emotion.html', inject: 'body' }),
-        new HtmlWebpackPlugin({ template: './src/template/${x}/emotion/biorhythms.ejs', filename: x + emotion/'biorhythms.html', inject: 'body' }),
+        new HtmlWebpackPlugin({ template: './src/template/${x}/emotion/biorhythms.ejs', filename: x + 'emotion/biorhythms.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/${x}/coming-soon.ejs', filename: x + 'coming-soon.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/about.ejs`, filename: x + '/about.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/mission.ejs`, filename: x + '/mission.html', inject: 'body' }),
