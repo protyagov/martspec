@@ -79,7 +79,7 @@
         "HEAD5": "Sans autorisation",
         "DESC5": "Vous n'avez pas besoin de créer un compte pour utiliser cette application.",
         "HEAD6": "Possibilité d'ajouter des éléments personnalisés",
-        "DESC6": "Además de los ajustes preestablecidos, puedes agregar hasta %{count_tries} de píldoras y suplementos personalizados. La sección de suplementos dietéticos calcula automáticamente cuántas vitaminas y minerales está obteniendo y los almacena. La sección Píldoras le permite crear cualquier píldora que no sea compatible con L’app Santé.",
+        "DESC6": "Vous pouvez ajouter jusqu'à 20 pilules personnalisées et suppléments nutritionnels en plus de ceux prédéfinis. La section des compléments alimentaires calcule automatiquement la quantité de vitamines et de minéraux que vous consommez et les enregistre pour vous. La section pilules vous permet de créer des pilules non prises en charge par L’app Santé.",
         "HEAD7": "Les données sont synchronisées entre tous vos appareils",
         "DESC7": "L'application fonctionne sur Apple Watch, iPhone, iPad et Mac M.",
         "HEAD8": "",
