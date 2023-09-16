@@ -82,7 +82,7 @@
         "HEAD5": "Sem autorização",
         "DESC5": "Você não precisa criar uma conta para usar este aplicativo.",
         "HEAD6": "Capacidade de adicionar elementos personalizados",
-        "DESC6": "Mais uma vez, você pode adicionar %{count_tries} individualmente à tabela e ao número de tarefas. Você pode adicionar vitaminas e minerais automaticamente para sua alimentação e sofrá-los. A opção “Таблетки” pode ser usada para abrir uma tabela, mas não pode ser usada no app Saúde da Apple.",
+        "DESC6": "Você pode adicionar até %{count_tries} pílulas personalizadas e suplementos nutricionais, além dos predefinidos. A seção de suplementos dietéticos calcula automaticamente quantas vitaminas e minerais você ingere e os salva para você. A seção de pílulas permite que você crie qualquer pílula não suportada pelo app Saúde da Apple.",
         "HEAD7": "Os dados são sincronizados entre todos os seus dispositivos",
         "DESC7": "O aplicativo funciona no Apple Watch, iPhone, iPad e Mac M.",
         "HEAD8": "",
