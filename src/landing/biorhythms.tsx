@@ -34,7 +34,7 @@ export default function Biorhythms() {
             <section className="pb-3 text-center">
                 <div className="row">
                     <div className="col">
-                        <img src="/img/biorhythms.png" className="ms-base-image" alt={_("BIORHYTHMS.IMG")} height={512} width={512} />
+                        <img src="/img/biorhythms.webp" className="ms-base-image" alt={_("BIORHYTHMS.IMG")} height={512} width={512} />
                         <h1 className="text-center pt-3 mb-5">{_("BIORHYTHMS.HEAD")}</h1>
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
                             target="_blank" title={_("BIORHYTHMS.DWN")} className="ms-btn-apple mt-5"
