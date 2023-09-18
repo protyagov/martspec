@@ -79,7 +79,7 @@
         "HEAD5": "Ohne Genehmigung",
         "DESC5": "Sie müssen kein Konto erstellen, um diese App zu verwenden. ",
         "HEAD6": "Möglichkeit, benutzerdefinierte Elemente hinzuzufügen",
-        "DESC6": "Sie können zusätzlich zu den voreingestellten Pillen und Nahrungsergänzungsmitteln bis zu %{count_tries} benutzerdefinierte Pillen und Nahrungsergänzungsmittel hinzufügen. Der Bereich Nahrungsergänzungsmittel berechnet automatisch, wie viele Vitamine und Mineralstoffe Sie zu sich nehmen und speichert diese für Sie. Im Abschnitt „Pillen“ können Sie alle Pillen erstellen, die nicht von die Health App unterstützt werden.",
+        "DESC6": "Sie können zusätzlich zu den voreingestellten Pillen und Nahrungsergänzungsmitteln bis zu %{count_tries} benutzerdefinierte Pillen und Nahrungsergänzungsmittel hinzufügen. Der Bereich Nahrungsergänzungsmittel berechnet automatisch, wie viele Vitamine und Mineralstoffe Sie zu sich nehmen und speichert diese für Sie. Im Abschnitt „Pillen“ können Sie alle Pillen erstellen, die nicht von der Health App unterstützt werden.",
         "HEAD7": "Die Daten werden zwischen all Ihren Geräten synchronisiert",
         "DESC7": "Die App funktioniert auf Apple Watch, iPhone, iPad und Mac M.",
         "HEAD8": "",
