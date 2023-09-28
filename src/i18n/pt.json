@@ -207,7 +207,7 @@
         },
         "VITAMIN_A": {
             "HEAD": "A",
-            "NAME": "retinol, beta-caroteno",
+            "NAME": "retinol",
             "DESK": "É importante para o sistema imunológico e a função reprodutiva do corpo. É um forte antioxidante, que regula a regeneração da pele e o crescimento do cabelo.",
             "FUNC": "Propriedades antioxidantes, saúde ocular, função imunológica e reprodutiva. Ajuste a condições de pouca luz. Produção e atividade de glóbulos brancos.",
             "DEF_1": "Problemas oculares, incluindo cegueira noturna",
@@ -247,7 +247,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "tocoferol",
-            "DESK": "É um poderoso antioxidante, participa da formação das fibras que são responsáveis ​​pela elasticidade da pele.",
+            "DESK": "É um poderoso antioxidante, participa da formação das fibras que são responsáveis ​​pela elasticidade da pele. Ajuda a melhorar a motilidade e a contagem de espermatozoides, reduzindo o risco de infertilidade masculina causada pela baixa contagem de espermatozoides e pela lentidão dos movimentos. Regula o ciclo menstrual, ajuda na concepção e promove uma gravidez saudável.",
             "FUNC": "Poderoso antioxidante. Envolvido na função imunológica. Alargando os vasos sanguíneos e impedindo a coagulação do sangue dentro deles. Regulação da expressão gênica e outros processos metabólicos. As células usam a vitamina E para interagir umas com as outras e realizar muitas funções importantes.",
             "DEF_1": "Danos à retina do olho",
             "DEF_2": "Danos nos nervos, geralmente nas mãos ou pés",
@@ -284,7 +284,7 @@
         "VITAMIN_B1": {
             "HEAD": "B1",
             "NAME": "tiamina",
-            "DESK": "A B1 é necessária para o metabolismo energético, importante para os mecanismos de condução de impulsos nervosos, síntese de acetilcolina e outros processos no sistema nervoso.",
+            "DESK": "A vitamina B1 é necessária para o metabolismo energético, importante para a síntese da acetilcolina, responsável pela condução dos impulsos nervosos e outros processos do sistema nervoso.",
             "FUNC": "Produção de energia a partir de carboidratos, gorduras e proteínas. Essencial no metabolismo da glicose. Papel fundamental na função nervosa, muscular e cardíaca.",
             "DEF_1": "Problemas com os nervos periféricos e perda",
             "DEF_2": "Perda de memória de curto prazo",
@@ -297,7 +297,7 @@
         "VITAMIN_B2": {
             "HEAD": "B2",
             "NAME": "riboflavina",
-            "DESK": "B2 é necessário para a formação de glóbulos vermelhos e anticorpos. Também é importante para a função reprodutiva do corpo.",
+            "DESK": "B2 é necessário para a formação de glóbulos vermelhos e anticorpos. Também é importante para a função reprodutiva do corpo. Propriedades antioxidantes. Produção de energia a partir de gorduras e esteroides. Metabolismo da glicose. Crescimento e desenvolvimento de células. Participação nas reações redox do corpo. Significativo para a visão.",
             "FUNC": "Propriedades antioxidantes. Produção de energia a partir de gorduras e esteróides. Essencial no metabolismo da glicose. Crescimento e desenvolvimento das células.",
             "DEF_1": "Inchaço da boca, lábios, língua ou garganta.",
             "DEF_2": "Estomatite nos cantos da boca.",
@@ -315,7 +315,7 @@
         "VITAMIN_B3": {
             "HEAD": "B3",
             "NAME": "niacina",
-            "DESK": "Ajuda os sistemas nervoso e digestivo a se manterem saudáveis ​​e a pele a ter uma boa aparência.",
+            "DESK": "Ajuda os sistemas nervoso e digestivo a se manterem saudáveis ​​e a pele a ter uma boa aparência. Proteção do ADN.",
             "FUNC": "Produção de energia a partir de carboidratos, gorduras e proteínas. Propriedades antioxidantes. Síntese de colesterol e ácidos graxos. Criação e reparação de DNA.",
             "DEF_1": "Erupção cutânea espessa, escamosa e pigmentada na pele exposta à luz solar",
             "DEF_2": "Boca inchada e língua vermelha brilhante",
@@ -378,7 +378,7 @@
         "VITAMIN_B9": {
             "HEAD": "B9",
             "NAME": "ácido fólico",
-            "DESK": "Participa da formação de glóbulos vermelhos e brancos, ajuda o corpo a criar células de DNA e RNA, além de converter carboidratos em glicose.",
+            "DESK": "Participa da formação de glóbulos vermelhos e brancos, ajuda o corpo a criar células de DNA e RNA, além de converter carboidratos em glicose. Metabolismo de proteínas. Criação de DNA e RNA. Produção de energia a partir de carboidratos. Desenvolvimento do sistema nervoso embrionário. Produção de glóbulos vermelhos saudáveis.",
             "FUNC": "Metabolismo de proteínas. Produção de DNA e RNA. Produção de energia a partir de carboidratos. Necessário para a produção de glóbulos vermelhos saudáveis.",
             "DEF_1": "Fadiga, fraqueza e falta de ar",
             "DEF_2": "Dificuldade de concentração",
@@ -398,7 +398,7 @@
         "VITAMIN_B12": {
             "HEAD": "B12",
             "NAME": "cobalamina",
-            "DESK": "A cobalamina é responsável pela saúde do sistema nervoso central. Ajuda a resistir ao estresse e à depressão.",
+            "DESK": "A cobalamina é responsável pela saúde do sistema nervoso central. Ajuda a resistir ao estresse e à depressão. Junto com o B9, ajuda a formar glóbulos vermelhos",
             "FUNC": "Extremamente essencial para a síntese de neurotransmissores. Crescimento, desenvolvimento e função do cérebro e dos nervos. Formação de glóbulos vermelhos, metabolismo celular e produção de DNA.",
             "DEF_1": "Inflamação crônica do estômago",
             "DEF_2": "Sentir-se muito cansado ou fraco",
@@ -416,7 +416,7 @@
         "VITAMIN_C": {
             "HEAD": "C",
             "NAME": "ácido ascórbico",
-            "DESK": "Protege as células do envelhecimento prematuro e apoia o trabalho dos vasos sanguíneos, a condição dos ossos e da cartilagem. Também é importante para a regeneração da pele, pois participa da síntese de colágeno.",
+            "DESK": "Protege as células do envelhecimento prematuro e apoia o trabalho dos vasos sanguíneos, a condição dos ossos e da cartilagem. Também é importante para a regeneração da pele, pois participa da síntese de colágeno. Fortalece as paredes dos vasos sanguíneos. Estimula o sistema imunológico.",
             "FUNC": "Cicatrização de infecções e feridas. Poderoso antioxidante. Formação de vasos sanguíneos, pele saudável, cartilagem e músculos. Síntese de colágeno nos ossos. Proteção das células. Produção de neurotransmissores.",
             "DEF_1": "Escorbuto",
             "DEF_2": "Gengivas inchadas e sangrando",
@@ -453,7 +453,7 @@
         "CHLORIDE": {
             "HEAD": "Cl",
             "NAME": "cloro",
-            "DESK": "O cloro ajuda a liberar o suco gástrico e forma um bom apetite. Ele retém a água nos tecidos, evitando que o corpo perca umidade.",
+            "DESK": "O cloro auxilia na síntese/produção de suco gástrico e forma um bom apetite. Retém água nos tecidos, evitando que o corpo perca umidade.",
             "FUNC": "Regular a quantidade de fluido e os tipos de nutrientes que entram e saem das células (pressão osmótica dos fluidos corporais). Mantendo o equilíbrio ácido-base adequado (nível de pH). Ativando o ácido estomacal necessário para a digestão. Estimulando a ação de células nervosas e musculares. Iniciando o fluxo de oxigênio e dióxido de carbono.",
             "DEF_1": "Nível de pH alto no sangue",
             "DEF_2": "Apatia",
@@ -634,7 +634,7 @@
         "PHOSPHORUS": {
             "HEAD": "P",
             "NAME": "fósforo",
-            "DESK": "O fósforo é necessário para ossos e dentes. Com sua ajuda, proteínas e carboidratos são formados no corpo. Também garante a assimilação de muitos nutrientes.",
+            "DESK": "O fósforo é essencial para ossos e dentes. Com sua ajuda, proteínas e ácidos nucléicos são formados no corpo; ajuda a absorver muitos nutrientes.",
             "FUNC": "Papel essencial em como o corpo armazena e usa energia. Crescimento, manutenção e reparo de todos os tecidos e células. Produção dos blocos de construção genéticos, DNA e RNA. Manter o pH do sangue dentro de uma faixa normal. Filtrar os resíduos nos rins. Regulando a função normal dos nervos e músculos, incluindo o coração.",
             "DEF_1": "Perda de apetite e alteração de peso",
             "DEF_2": "Ansiedade, irritabilidade e confusão",

@@ -204,7 +204,7 @@
         },
         "VITAMIN_A": {
             "HEAD": "A",
-            "NAME": "rétinol, bêta-carotène",
+            "NAME": "rétinol",
             "DESK": "Est important pour le système immunitaire et la fonction reproductive du corps. C'est un puissant antioxydant qui régule la régénération de la peau et la croissance des cheveux.",
             "FUNC": "Propriétés antioxydantes, santé oculaire, fonction immunitaire et reproductive. Adaptation aux conditions sombres. Production et activité des globules blancs.",
             "DEF_1": "Problèmes oculaires, y compris la cécité nocturne",
@@ -244,7 +244,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "tocoférol",
-            "DESK": "C'est un puissant antioxydant, il participe à la formation des fibres responsables de l'élasticité de la peau.",
+            "DESK": "C'est un puissant antioxydant, il participe à la formation des fibres responsables de l'élasticité de la peau. Aide à améliorer la motilité et le nombre de spermatozoïdes, réduisant ainsi le risque d'infertilité masculine causée par un faible nombre de spermatozoïdes et des mouvements lents. Il régule le cycle menstruel, facilite la conception et favorise une grossesse en bonne santé.",
             "FUNC": "Puissant antioxydant. Impliqué dans la fonction immunitaire. Élargissant les vaisseaux sanguins et empêchant le sang de coaguler à l'intérieur. Régulation de l'expression des gènes et d'autres processus métaboliques. Les cellules utilisent la vitamine E pour interagir les unes avec les autres et pour effectuer de nombreuses fonctions importantes.",
             "DEF_1": "Dommages à la rétine de l'œil",
             "DEF_2": "Lésions nerveuses, généralement dans les mains ou les pieds",
@@ -281,7 +281,7 @@
         "VITAMIN_B1": {
             "HEAD": "B1",
             "NAME": "thiamine",
-            "DESK": "B1 est nécessaire au métabolisme énergétique, important pour les mécanismes de conduite de l'influx nerveux, la synthèse de l'acétylcholine et d'autres processus du système nerveux.",
+            "DESK": "La vitamine B1 est nécessaire au métabolisme énergétique, importante pour la synthèse de l'acétylcholine, responsable de la conduction de l'influx nerveux, et d'autres processus dans le système nerveux.",
             "FUNC": "Production d'énergie à partir de glucides, de lipides et de protéines. Essentiel au métabolisme du glucose. Rôle clé dans les fonctions nerveuses, musculaires et cardiaques.",
             "DEF_1": "Problèmes avec les nerfs périphériques et dépérissement",
             "DEF_2": "Perte de mémoire à court terme",
@@ -294,7 +294,7 @@
         "VITAMIN_B2": {
             "HEAD": "B2",
             "NAME": "riboflavine",
-            "DESK": "La B2 est nécessaire à la formation des globules rouges et des anticorps. C’est également important pour la fonction reproductrice du corps.",
+            "DESK": "La B2 est nécessaire à la formation des globules rouges et des anticorps. C’est également important pour la fonction reproductrice du corps. Propriétés antioxydantes. Production d'énergie à partir des graisses et des stéroïdes. Métabolisme du glucose. Croissance et développement des cellules. Participation aux réactions d'oxydoréduction de l'organisme. Significatif pour la vision.",
             "FUNC": "Propriétés antioxydantes. Production d'énergie à partir des graisses et des stéroïdes. Essentiel au métabolisme du glucose. Croissance et développement des cellules.",
             "DEF_1": "Gonflement de la bouche, des lèvres, de la langue ou de la gorge",
             "DEF_2": "Stomatite aux coins de la bouche",
@@ -313,7 +313,7 @@
             "HEAD": "B3",
             "NAME": "niacine",
             "DESK": "Il aide les systèmes nerveux et digestif à rester en bonne santé et la peau à paraître belle.",
-            "FUNC": "Production d'énergie à partir de glucides, lipides et protéines. Propriétés antioxydantes. Synthèse du cholestérol et des acides gras. Création et réparation d'ADN.",
+            "FUNC": "Production d'énergie à partir de glucides, lipides et protéines. Propriétés antioxydantes. Synthèse du cholestérol et des acides gras. Création et réparation d'ADN. Protection de l'ADN.",
             "DEF_1": "Éruption cutanée pigmentée épaisse et squameuse sur la peau exposée au soleil",
             "DEF_2": "Bouche enflée et langue rouge vif",
             "DEF_3": "Problèmes digestifs",
@@ -375,7 +375,7 @@
         "VITAMIN_B9": {
             "HEAD": "B9",
             "NAME": "acide folique",
-            "DESK": "Il participe à la formation des globules rouges et blancs, aide l'organisme à créer des cellules d'ADN et d'ARN, ainsi qu'à convertir les glucides en glucose.",
+            "DESK": "Il participe à la formation des globules rouges et blancs, aide l'organisme à créer des cellules d'ADN et d'ARN, ainsi qu'à convertir les glucides en glucose. Métabolisme des protéines. Création de l'ADN et de l'ARN. Production d'énergie à partir des hydrates de carbone. Développement du système nerveux embryonnaire. Production de globules rouges sains.",
             "FUNC": "Métabolisme des protéines. Production d'ADN et d'ARN. Production d'énergie à partir de glucides. Nécessaire à la production de globules rouges sains.",
             "DEF_1": "Fatigue, faiblesse et essoufflement",
             "DEF_2": "Difficulté de concentration",
@@ -395,7 +395,7 @@
         "VITAMIN_B12": {
             "HEAD": "B12",
             "NAME": "cobalamine",
-            "DESK": "La cobalamine est responsable de la santé du système nerveux central. Cela aide à résister au stress et à la dépression.",
+            "DESK": "La cobalamine est responsable de la santé du système nerveux central. Cela aide à résister au stress et à la dépression. Avec la B9, il contribue à la formation des globules rouges.",
             "FUNC": "Extrêmement essentiel pour la synthèse des neurotransmetteurs. Croissance, développement et fonctionnement du cerveau et des nerfs. Formation des globules rouges, métabolisme cellulaire et production d'ADN.",
             "DEF_1": "Inflammation chronique de l'estomac",
             "DEF_2": "Se sentir très fatigué ou faible",
@@ -413,7 +413,7 @@
         "VITAMIN_C": {
             "HEAD": "C",
             "NAME": "acide ascorbique",
-            "DESK": "Il protège les cellules du vieillissement prématuré et soutient le travail des vaisseaux sanguins, l'état des os et du cartilage. Il est également important pour la régénération cutanée, car il participe à la synthèse du collagène.",
+            "DESK": "Il protège les cellules du vieillissement prématuré et soutient le travail des vaisseaux sanguins, l'état des os et du cartilage. Il est également important pour la régénération cutanée, car il participe à la synthèse du collagène. Renforce les parois des vaisseaux sanguins. Renforce le système immunitaire.",
             "FUNC": "Guérison des infections et des plaies. Antioxydant puissant. Formation de vaisseaux sanguins, peau, cartilage et muscles sains. Synthèse de collagène dans les os. Protection des cellules. Production de neurotransmetteurs.",
             "DEF_1": "Scorbut",
             "DEF_2": "Gencives enflées et saignantes",
@@ -450,7 +450,7 @@
         "CHLORIDE": {
             "HEAD": "Cl",
             "NAME": "chlorure",
-            "DESK": "Le chlorure aide à libérer le suc gastrique et crée un bon appétit. Il retient l’eau dans les tissus, empêchant ainsi le corps de perdre de l’humidité.",
+            "DESK": "Le chlore aide à la synthèse/production du suc gastrique et forme un bon appétit. Retient l'eau dans les tissus, empêchant le corps de perdre de l'humidité.",
             "DEF_1": "Niveau de pH sanguin élevé",
             "DEF_2": "Apathie",
             "DEF_3": "Confusion",
@@ -630,7 +630,7 @@
         "PHOSPHORUS": {
             "HEAD": "P",
             "NAME": "phosphore",
-            "DESK": "Le phosphore est nécessaire aux os et aux dents. Avec son aide, des protéines et des glucides se forment dans le corps. Il assure également l’assimilation de nombreux nutriments.",
+            "DESK": "Le phosphore est essentiel aux os et aux dents. Avec son aide, des protéines et des acides nucléiques se forment dans le corps ; il aide à absorber de nombreux nutriments.",
             "FUNC": "Rôle essentiel dans la façon dont le corps stocke et utilise l'énergie. Croissance, entretien et réparation de tous les tissus et cellules. Production des éléments constitutifs génétiques, ADN et ARN. Maintien du pH sanguin dans une plage normale. Filtrage des déchets dans les reins. Régule le fonctionnement normal des nerfs et des muscles, y compris le cœur.",
             "DEF_1": "Perte d'appétit et changement de poids",
             "DEF_2": "Anxiété, irritabilité et confusion",

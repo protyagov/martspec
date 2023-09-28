@@ -204,7 +204,7 @@
         },
         "VITAMIN_A": {
             "HEAD": "A",
-            "NAME": "retinol, beta-carotene",
+            "NAME": "retinol",
             "DESK": "Is important for the immune system and reproductive function of the body. It's a strong antioxidant, that regulates skin regeneration and hair growth.",
             "FUNC": "Antioxidant properties. Energy production from fats and steroids. Essential in glucose metabolism. Growth and development of cells.",
             "DEF_1": "Eye problems, including night blindness",
@@ -244,7 +244,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "tocopherol",
-            "DESK": "It is a powerful antioxidant, it participates in the formation of fibers that are responsible for the elasticity of the skin.",
+            "DESK": "It is a powerful antioxidant, it participates in the formation of fibers that are responsible for the elasticity of the skin. Helps improve sperm motility and count, reducing risk of male infertility caused by low sperm count and slow movement. Regulates menstrual cycle, aids conception and promotes pregnancy.",
             "FUNC": "It is a powerful antioxidant. Involved in immune function. Widening blood vessels and keeping blood from clotting within them.  Regulation of gene expression, and other metabolic processes. Cells use vitamin E to interact with each other and to carry out many important functions.",
             "DEF_1": "Damage to the eye's retina",
             "DEF_2": "Nerve damage, usually in the hands or feet",
@@ -281,7 +281,7 @@
         "VITAMIN_B1": {
             "HEAD": "B1",
             "NAME": "thiamine",
-            "DESK": "B1 is necessary for energy metabolism, important for the mechanisms of conducting nerve impulses, synthesis of acetylcholine and other processes in the nervous system.",
+            "DESK": "Vitamin B1 is necessary for energy metabolism, important for the synthesis of acetylcholine, which is responsible for the conduction of nerve impulses, and other processes in the nervous system. Antioxidant properties. Energy production from fats and steroids. Essential in glucose metabolism. Growth and development of cells. Participation in the redox reactions of the body. Vital for normal vision",
             "FUNC": "Energy production from carbohydrates, fats, and proteins. Essential in glucose metabolism. Key role in nerve, muscle, and heart function.",
             "DEF_1": "Problems with the peripheral nerves and wasting",
             "DEF_2": "Short-term memory loss",
@@ -312,7 +312,7 @@
         "VITAMIN_B3": {
             "HEAD": "B3",
             "NAME": "niacin",
-            "DESK": "It helps the nervous and digestive systems to stay healthy and the skin to look good.",
+            "DESK": "It helps the nervous and digestive systems to stay healthy and the skin to look good. DNA protection.",
             "FUNC": "Energy production from carbohydrates, fats, and proteins. Antioxidant properties. Synthesis of cholesterol and fatty acids. DNA creation and reparation.",
             "DEF_1": "Thick, scaly pigmented rash on skin exposed to sunlight",
             "DEF_2": "Swollen mouth and bright red tongue",
@@ -376,7 +376,7 @@
         "VITAMIN_B9": {
             "HEAD": "B9",
             "NAME": "folic acid",
-            "DESK": "It participates in the formation of red and white blood cells, helps the body create DNA and RNA cells, as well as convert carbohydrates into glucose.",
+            "DESK": "It participates in the formation of red and white blood cells, helps the body create DNA and RNA cells, as well as convert carbohydrates into glucose. Protein metabolism. Creation of DNA and RNA. Making energy from carbohydrates. Embryonic nervous system development. Production of healthy red blood cells.",
             "FUNC": "Protein metabolism. Production of DNA and RNA. Making energy from carbohydrates. Required for the production of healthy red blood cells.",
             "DEF_1": "Fatigue, weakness, and shortness of breath",
             "DEF_2": "Difficulty concentrating",
@@ -396,7 +396,7 @@
         "VITAMIN_B12": {
             "HEAD": "B12",
             "NAME": "cobalamin",
-            "DESK": "Cobalamin is responsible for the health of the central nervous system. It helps to resist stress and depression.",
+            "DESK": "Cobalamin is responsible for the health of the central nervous system. It helps to resist stress and depression. Together with B9, it participates in the formation of red blood cells",
             "FUNC": "Extremely essential for the neurotransmitters synthesis. Growth, development and function of the brain and nerves.  Red blood cell formation, cell metabolism, and the production of DNA.",
             "DEF_1": "Chronic stomach inflammation",
             "DEF_2": "Feeling very tired or weak",
@@ -414,7 +414,7 @@
         "VITAMIN_C": {
             "HEAD": "C",
             "NAME": "ascorbic acid",
-            "DESK": "It protects cells from premature aging and supports the work of blood vessels, the condition of bones and cartilage. It is also important for skin regeneration, as it participates in collagen synthesis.",
+            "DESK": "It protects cells from premature aging and supports the work of blood vessels, the condition of bones and cartilage. It is also important for skin regeneration, as it participates in collagen synthesis. Strengthens blood vessel walls. Boosts immune system.",
             "FUNC": "Infections and wounds healing. Powerful antioxidant. Forming blood vessels, healthy skin, cartilage and muscle. Collagen synthesis in bones.  Protection of cells.  Neurotransmitter production.",
             "DEF_1": "Scurvy",
             "DEF_2": "Swollen and bleeding gums",
@@ -452,7 +452,7 @@
         "CHLORIDE": {
             "HEAD": "Cl",
             "NAME": "chloride",
-            "DESK": "Chloride helps to release gastric juice and forms a good appetite. It retains water in tissues, preventing the body from losing moisture.",
+            "DESK": "Chlorine helps in the synthesis/production of gastric juice and forms a good appetite. Retains water in tissues, preventing the body from losing moisture.",
             "FUNC": "Regulating the amount of fluid and types of nutrients going in and out of the cells (osmotic pressure of body fluids 🥤). Maintaining proper acid-base balance (pH level). Triggering stomach acid needed for digestion. Stimulating the action of nerve and muscle cells. Initiating the flow of oxygen and carbon dioxide.",
             "DEF_1": "High blood pH level",
             "DEF_2": "Apathy",
@@ -633,7 +633,7 @@
         "PHOSPHORUS": {
             "HEAD": "P",
             "NAME": "phosphorus",
-            "DESK": "Phosphorus is necessary for bones and teeth. With its help, proteins and carbohydrates are formed in the body. It also ensures assimilation of many nutrients.",
+            "DESK": "Phosphorus is essential for bones and teeth. With its help, proteins and nucleic acids are formed in the body; it helps to absorb many nutrients.",
             "FUNC": "Essential role in how the body stores and uses energy. Growth, maintenance, and repair of all tissues and cells. Production of the genetic building blocks, DNA and RNA. Keeping blood pH within a normal range. Filtering out waste in the kidneys. Regulating the normal function of nerves and muscles, including the heart.",
             "DEF_1": "Loss of appetite and weight change",
             "DEF_2": "Anxiety, irritability and confusion",
