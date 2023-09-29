@@ -120,6 +120,7 @@ module.exports = {
                 { context: 'src/img/', from: '*.png', to: "img" },
                 { context: 'src/img/', from: '*.webp', to: "img" },
                 { context: 'src/img/', from: '*.jpg', to: "img" },
+                { context: 'src/img/personality_traits/', from: '*.webp', to: "img" },
                 { context: 'src/img/icon/', from: '*', to: "icon" },
                 { context: 'src/img/apple_btn/', from: '*', to: "img/apple_btn" },
                 { context: 'src/data/', from: '*.json', to: "data" },
