@@ -58,12 +58,12 @@ export default function NavigationBar() {
                 <ul className="navbar-nav me-auto">
 
                     <li className="nav-item dropdown ps-lg-5">
-                        <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                        <a className="nav-link" href="#" id="navbarDropdownMain" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                             {_("NAV.ABOUT")}
                         </a>
 
                         <ul className="dropdown-menu"
-                            aria-labelledby="navbarDropdown">
+                            aria-labelledby="navbarDropdownMain">
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("about")}>{_("ABOUT.HEAD")}</a></li>
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("mission")}>{_("MISSION.HEAD")}</a></li>
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("team")}>{_("TEAM.HEAD")}</a></li>
@@ -73,10 +73,10 @@ export default function NavigationBar() {
 
 
                     <li className="nav-item dropdown ps-lg-5">
-                        <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                        <a className="nav-link" href="#" id="navbarDropdownPages" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                             {_("NAV.APPS")}
                         </a>
-                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul className="dropdown-menu" aria-labelledby="navbarDropdownPages">
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("vitamin")}>{_("VITAMIN.HEAD")}</a></li>
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("bodysize")}>{_("SIZE.HEAD")}</a></li>
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("bodymass")}>{_("MASS.HEAD")}</a></li>
