@@ -61,10 +61,10 @@ export default function Productivity() {
                     </div>
                 </div>
                 <div className="row">
-                        <div className="col-9">
-                            <img src="/img/productivity_img_1.webp" className="img-fluid" alt="" />
-                        </div>
+                    <div className="col-9">
+                        <img src="/img/productivity_img_1.webp" className="img-fluid" alt="" />
                     </div>
+                </div>
             </section>
 
             <section className="mb-0">
