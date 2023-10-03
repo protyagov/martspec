@@ -60,14 +60,11 @@ export default function Productivity() {
                         </ul>
                     </div>
                 </div>
-            </section>
-
-            <section>
                 <div className="row">
-                    <div className="col-9">
-                        <img src="/img/productivity_img_1.webp" className="ms-base-image" alt="" />
+                        <div className="col-9">
+                            <img src="/img/productivity_img_1.webp" className="img-fluid" alt="" />
+                        </div>
                     </div>
-                </div>
             </section>
 
             <section>
@@ -95,12 +92,9 @@ export default function Productivity() {
                         <p>{_("PRODUCTIVITY.DESK4_3")}</p>
                     </div>
                 </div>
-            </section>
-
-            <section>
                 <div className="row">
                     <div className="col-9">
-                        <img src="/img/productivity_img_2.webp" className="ms-base-image" alt="" />
+                        <img src="/img/productivity_img_2.webp" className="img-fluid" alt="" />
                     </div>
                 </div>
             </section>
