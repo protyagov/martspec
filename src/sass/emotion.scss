@@ -192,3 +192,16 @@
     }
   }
 }
+
+.personal-trait {
+  p,
+  ul {
+    margin-bottom: 1.85rem;
+  }
+  img:not(.ms-base-image) {
+    margin: 1.85rem 0;
+  }
+  .row {
+    margin-bottom: 0;
+  }
+}
