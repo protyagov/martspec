@@ -45,7 +45,7 @@ export default function Productivity() {
                         <h2>{_("PRODUCTIVITY.HEAD2")}</h2>
                     </div>
                     <div className="col-lg-9">
-                        
+                        <p>{_("PRODUCTIVITY.DESK2")}</p>
                     </div>
                     <div className="col-lg-9">
                         <ul className="ms-5">
