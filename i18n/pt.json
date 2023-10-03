@@ -279,7 +279,10 @@
             "FACT_1": "Antibióticos bloqueiam o metabolismo da vitamina K",
             "FACT_2": "Como a vitamina K é solúvel em gordura, é melhor comer alimentos com vitamina K com um pouco de gordura para melhorar a absorção",
             "FACT_3": "O transporte de vitamina K através da placenta é deficiente, aumentando o risco de deficiência de vitamina K em recém-nascidos",
-            "FACT_4": "Um estudo descobriu que 180 mcg/dia por 3 anos melhorou a resistência óssea e diminuiu a perda de altura da coluna"
+            "FACT_4": "Um estudo descobriu que 180 mcg/dia por 3 anos melhorou a resistência óssea e diminuiu a perda de altura da coluna",
+            "FACT_5": "É difícil desenvolver um excesso de vitamina K naturalmente porque as bactérias intestinais que a sintetizam não prejudicariam seu hospedeiro",
+            "FACT_6": "A menadiona (um precursor de vitamina K sintético e solúvel em água) pode causar toxicidade (bebês desenvolveram anemia e icterícia)",
+            "FACT_7": "Se o leite materno tiver deficiência de vitamina K, os recém-nascidos podem ter falta de vitamina K devido à ausência das bactérias intestinais que a produzem"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
@@ -289,10 +292,15 @@
             "DEF_1": "Problemas com os nervos periféricos e perda",
             "DEF_2": "Perda de memória de curto prazo",
             "DEF_3": "Perda de peso e anorexia",
-            "OVER_1": "Não temos evidências de riscos",
+            "OVER_1": "Batimentos cardíacos irregulares",
+            "OVER_2": "Reação alérgica",
+            "OVER_3": "Problema de deglutição",
+            "OVER_4": "Fraqueza",
             "FACT_1": "Aumente o sistema imunológico em momentos de estresse",
             "FACT_2": "Tanino (produto químico no chá e café) pode dificultar a absorção de B1",
-            "FACT_3": "É destruído por cozimento em fogo alto ou longo"
+            "FACT_3": " Cerca de 70% do B1 é destruído pelo cozimento prolongado ou em fogo alto",
+            "FACT_4": "O excesso de B1 no corpo é extremamente raro",
+            "FACT_5": "O corpo excreta o B1 extra pela urina"
         },
         "VITAMIN_B2": {
             "HEAD": "B2",
@@ -459,7 +467,7 @@
             "DEF_2": "Apatia",
             "DEF_3": "Confusão",
             "DEF_4": "Frequência cardíaca irregular",
-            "DEF_5": "Cãibras nos músculos e nervos",
+            "DEF_5": "Cãibras nos músculos",
             "OVER_1": "Aumentou sua pressão arterial",
             "OVER_2": "Fraqueza muscular e fadiga",
             "FACT_1": "O sal de mesa é o principal contribuinte de cloreto em nossa dieta, é feito de 60% de cloreto e 40% de sódio",
@@ -482,7 +490,9 @@
             "FACT_3": "Um dos elementos mais comuns na terra",
             "FACT_4": "Um pequeno estudo sugere que o cromo pode reduzir o risco de resistência à insulina, no entanto, os resultados são inconsistentes",
             "FACT_5": "Um estudo em mulheres com síndrome dos ovários policísticos mostrou que a CR reduz significativamente o índice de massa corporal (IMC) e os níveis de testosterona livre",
-            "FACT_6": "A suplementação de cromo não tem efeito sobre o peso corporal ou lipídios. No entanto, um estudo sugere que o picolinato de cromo pode reduzir o peso corporal e o percentual de gordura corporal. Mais pesquisas são necessárias."
+            "FACT_6": "A suplementação de cromo não tem efeito sobre o peso corporal ou lipídios. No entanto, um estudo sugere que o picolinato de cromo pode reduzir o peso corporal e o percentual de gordura corporal. Mais pesquisas são necessárias.",
+            "FACT_7": "O Cr metálico não é tóxico, mas os compostos solúveis são tóxicos (danificam o trato respiratório, corroem a pele, aumentam a sensibilidade a alérgenos)",
+            "FACT_8": " O cromo (VI) inalado é um carcinogênico humano"
         },
         "COPPER": {
             "HEAD": "Cu",
@@ -506,7 +516,8 @@
             "FACT_7": "Estudos em humanos descobriram que tomar altos níveis de suplementos de zinco por longos períodos de tempo pode diminuir a capacidade do corpo de absorver cobre",
             "FACT_8": "Um estudo descobriu níveis mais altos de cobre não ligados a enzimas em partes danificadas do cérebro em pessoas com demência. Mais pesquisas são necessárias",
             "FACT_9": "O cobre ajuda a transportar oxigênio para o cérebro",
-            "FACT_10": "O cérebro tem alguns dos níveis mais altos de cobre em seu corpo"
+            "FACT_10": "O cérebro tem alguns dos níveis mais altos de cobre em seu corpo",
+            "FACT_11": "O zinco e o cobre interferem na absorção um do outro, portanto, recomenda-se tomá-los em horários diferentes, como de manhã e à noite"
         },
         "IODINE": {
             "HEAD": "I",
@@ -766,7 +777,8 @@
             "FACT_7": "The human retina has a high zinc concentration, and research has shown that supplements containing both zinc and antioxidants might delay the progression of AMD (Age-related macular degeneration)A retina humana tem uma alta concentração de zinco, e a pesquisa mostrou que suplementos contendo zinco e antioxidantes podem retardar a progressão da DMRI (degeneração macular relacionada à idade)",
             "FACT_8": "Os pesquisadores levantam a hipótese de que a depleção de zinco pode desempenhar um papel na progressão do diabetes. As evidências até o momento são insuficientes para apoiar quaisquer conclusões",
             "FACT_9": "Usado na medicina para tratar feridas",
-            "FACT_10": "Pode se defender contra queimaduras solares"
+            "FACT_10": "Pode se defender contra queimaduras solares",
+            "FACT_11": "O zinco e o cobre interferem na absorção um do outro, portanto, recomenda-se tomá-los em horários diferentes, como de manhã e à noite"
         }
     },
     "WAIST": {

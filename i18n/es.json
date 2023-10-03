@@ -276,7 +276,10 @@
             "FACT_1": "Los antibióticos bloquean el metabolismo de la vitamina K",
             "FACT_2": "Debido a que la vitamina K es liposoluble, es mejor comer alimentos con vitamina K con algo de grasa para mejorar la absorción",
             "FACT_3": "El transporte de vitamina K a través de la placenta es deficiente, lo que aumenta el riesgo de deficiencia de vitamina K en los recién nacidos",
-            "FACT_4": "Un estudio encontró que 180 mcg/día durante 3 años mejoró la fortaleza ósea y disminuyó la pérdida de altura de la columna"
+            "FACT_4": "Un estudio encontró que 180 mcg/día durante 3 años mejoró la fortaleza ósea y disminuyó la pérdida de altura de la columna",
+            "FACT_5": "Es difícil desarrollar un exceso de vitamina K de forma natural porque las bacterias intestinales que la sintetizan no dañarían a su huésped",
+            "FACT_6": "La menadiona (un precursor sintético hidrosoluble de la vitamina K) puede causar toxicidad (los bebés han desarrollado anemia e ictericia)",
+            "FACT_7": "Si la leche materna tiene carencia de vitamina K los recién nacidos pueden carecer de ella por falta de bacterias intestinales que la produzcan"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
@@ -286,10 +289,15 @@
             "DEF_1": "Problemas con los nervios periféricos y desgaste",
             "DEF_2": "Pérdida de la memoria a corto plazo",
             "DEF_3": "Pérdida de peso y anorexia",
-            "OVER_1": "No tenemos evidencia de ningún riesgo",
+            "OVER_1": "Latidos irregulares",
+            "OVER_2": "Reacción alérgica",
+            "OVER_3": "Problemas para tragar",
+            "OVER_4": "Debilidad",
             "FACT_1": "Refuerza el sistema inmunológico en momentos de estrés",
             "FACT_2": "Tannis (sustancia química en el té y el café) podría dificultar la absorción de B1",
-            "FACT_3": "Se destruye con el calor intenso o la cocción prolongada"
+            "FACT_3": "Alrededor del 70% de la B1 se destruye con la cocción a alta temperatura o prolongada",
+            "FACT_4": "El exceso de B1 en el organismo es extremadamente raro",
+            "FACT_5": "El organismo excreta la B1 sobrante a través de la orina"
         },
         "VITAMIN_B2": {
             "HEAD": "B2",
@@ -456,7 +464,7 @@
             "DEF_2": "Apatía",
             "DEF_3": "Confusión",
             "DEF_4": "Ritmo cardíaco irregular",
-            "DEF_5": "Calambres en músculos y nervios",
+            "DEF_5": "Calambres en los músculos",
             "OVER_1": "Aumentó su presión arterial",
             "OVER_2": "Debilidad muscular y fatiga",
             "FACT_1": "La sal de mesa es el principal contribuyente de cloruro en nuestra dieta, está compuesta por un 60 % de cloruro y un 40 % de sodio",
@@ -479,7 +487,9 @@
             "FACT_3": "Uno de los elementos más comunes en la tierra",
             "FACT_4": "Un pequeño estudio sugiere que el cromo puede reducir el riesgo de resistencia a la insulina; sin embargo, los hallazgos no son consistentes",
             "FACT_5": "Un estudio en mujeres con síndrome de ovario poliquístico mostró que la CR reduce significativamente el índice de masa corporal (IMC) y los niveles de testosterona libre",
-            "FACT_6": "La suplementación con cromo no tiene efecto sobre el peso corporal o los lípidos. Sin embargo, un estudio sugiere que el picolinato de cromo podría reducir el peso corporal y el porcentaje de grasa corporal. Se necesita más investigación"
+            "FACT_6": "La suplementación con cromo no tiene efecto sobre el peso corporal o los lípidos. Sin embargo, un estudio sugiere que el picolinato de cromo podría reducir el peso corporal y el porcentaje de grasa corporal. Se necesita más investigación",
+            "FACT_7": "El Cr metálico no es tóxico, pero los compuestos solubles son tóxicos (dañan las vías respiratorias, corroen la piel, aumentan la sensibilidad a los alérgenos)",
+            "FACT_8": "El cromo (VI) inhalado es cancerígeno para el ser humano"
         },
         "COPPER": {
             "HEAD": "Cu",
@@ -503,7 +513,8 @@
             "FACT_7": "Los estudios en humanos han encontrado que tomar altos niveles de suplementos de zinc durante largos períodos de tiempo puede reducir la capacidad del cuerpo para absorber el cobre",
             "FACT_8": "Un estudio encontró niveles más altos de cobre no ligado a enzimas en partes dañadas del cerebro en personas con demencia. Se necesita más investigación",
             "FACT_9": "El cobre ayuda a llevar oxígeno a tu cerebro",
-            "FACT_10": "El cerebro tiene algunos de los niveles más altos de cobre en su cuerpo"
+            "FACT_10": "El cerebro tiene algunos de los niveles más altos de cobre en su cuerpo",
+            "FACT_11": "El zinc y el cobre interfieren mutuamente en su absorción, por lo que se recomienda tomarlos en momentos diferentes, por ejemplo por la mañana y por la noche"
         },
         "IODINE": {
             "HEAD": "I",
@@ -763,7 +774,8 @@
             "FACT_7": "El zinc podría reducir la gravedad y la duración de los síntomas del resfriado",
             "FACT_8": "Debido a que ayuda a las células a crecer y multiplicarse, se requiere una cantidad adecuada de zinc durante los períodos de rápido crecimiento, como la niñez, la adolescencia y el embarazo",
             "FACT_9": "La retina humana tiene una alta concentración de zinc, y las investigaciones han demostrado que los suplementos que contienen tanto zinc como antioxidantes podrían retrasar la progresión de la AMD (degeneración macular relacionada con la edad)",
-            "FACT_10": "Los investigadores plantean la hipótesis de que el agotamiento del zinc podría desempeñar un papel en la progresión de la diabetes. La evidencia hasta la fecha es insuficiente para respaldar cualquier conclusión"
+            "FACT_10": "Los investigadores plantean la hipótesis de que el agotamiento del zinc podría desempeñar un papel en la progresión de la diabetes. La evidencia hasta la fecha es insuficiente para respaldar cualquier conclusión",
+            "FACT_11": "El zinc y el cobre interfieren mutuamente en su absorción, por lo que se recomienda tomarlos en momentos diferentes, por ejemplo por la mañana y por la noche"
         }
     },
     "WAIST": {
