@@ -276,7 +276,10 @@
             "FACT_1": "Antibiotika blockieren den Vitamin-K-Stoffwechsel",
             "FACT_2": "Da Vitamin K fettlöslich ist, ist es am besten, Vitamin-K-Lebensmittel mit etwas Fett zu sich zu nehmen, um die Aufnahme zu verbessern",
             "FACT_3": "Der Vitamin-K-Transport durch die Plazenta ist schlecht, was das Risiko eines Vitamin-K-Mangels bei Neugeborenen erhöht",
-            "FACT_4": "Eine Studie ergab, dass 180 mcg/Tag über 3 Jahre die Knochenstärke verbesserten undden Verlust an Wirbelsäulenhöhe verringerten"
+            "FACT_4": "Eine Studie ergab, dass 180 mcg/Tag über 3 Jahre die Knochenstärke verbesserten undden Verlust an Wirbelsäulenhöhe verringerten",
+            "FACT_5": "Es ist schwierig, auf natürliche Weise einen Vitamin-K-Überschuss zu entwickeln, da die Darmbakterien, die es synthetisieren, ihren Wirt nicht schädigen würden.",
+            "FACT_6": "Menadion (eine synthetische, wasserlösliche Vitamin-K-Vorstufe) kann toxisch wirken (bei Säuglingen wurden Anämie und Gelbsucht festgestellt)",
+            "FACT_7": "Wenn die Muttermilch einen Vitamin-K-Mangel aufweist, können Neugeborene aufgrund fehlender Darmbakterien, die Vitamin K produzieren, einen Mangel an Vitamin K aufweisen."
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
@@ -286,10 +289,16 @@
             "DEF_1": "Probleme mit den peripheren Nerven und Auszehrung",
             "DEF_2": "Verlust des Kurzzeitgedächtnisses",
             "DEF_3": "Gewichtsverlust und Anorexie",
-            "OVER_1": "Wir haben keine Hinweise auf Risiken",
+            "OVER_1": "Unregelmäßiger Herzschlag",
+            "OVER_2": "Allergische Reaktion",
+            "OVER_3": "Schluckbeschwerden",
+            "OVER_4": "Schwäche",
             "FACT_1": "Im Stress das Immunsystem stärken",
             "FACT_2": "Tanin (Chemikalie in Tee und Kaffee) könnte die B1-Absorption behindern",
-            "FACT_3": "Es wird durch hohe Hitze oder langes Kochen zerstört"
+            "FACT_3": "Etwa 70 % des B1 werden durch hohe Hitze oder langes Kochen zerstört",
+            "FACT_4": "Ein Überschuss an B1 im Körper ist äußerst selten",
+            "FACT_5": "Der Körper scheidet zusätzliches B1 über den Urin aus"
+
 
 
         },
@@ -458,7 +467,7 @@
             "DEF_2": "Apathie",
             "DEF_3": "Verwirrtheit",
             "DEF_4": "Unregelmäßige Herzfrequenz",
-            "DEF_5": "Krämpfe in Muskeln",
+            "DEF_5": "Krämpfe in den Muskeln",
             "OVER_1": "Blutdruck erhöht",
             "OVER_2": "Muskelschwäche und Müdigkeit",
             "FACT_1": "Speisesalz ist der Hauptlieferant von Chlorid in unserer Ernährung, es besteht zu 60 % aus Chlorid und zu 40 % aus Natrium",
@@ -481,7 +490,9 @@
             "FACT_3": "Eines der häufigsten Elemente der Erde",
             "FACT_4": "Eine kleine Studie deutet darauf hin, dass Chrom das Risiko einer Insulinresistenz verringern kann, die Ergebnisse sind jedoch widersprüchlich",
             "FACT_5": "Eine Studie an Frauen mit polyzystischem Ovarialsyndrom zeigte, dass Cr den Body-Mass-Index (BMI) und den freien Testosteronspiegel signifikant senkt",
-            "FACT_6": "Eine Chromergänzung hat keinen Einfluss auf das Körpergewicht oder die Lipide. EineStudie legt jedoch nahe, dass Chrompicolinat das Körpergewicht und den Körperfettanteil reduzieren könnte"
+            "FACT_6": "Eine Chromergänzung hat keinen Einfluss auf das Körpergewicht oder die Lipide. EineStudie legt jedoch nahe, dass Chrompicolinat das Körpergewicht und den Körperfettanteil reduzieren könnte",
+            "FACT_7": "Metallisches Cr ist ungiftig, aber lösliche Verbindungen sind giftig (schädigen die Atemwege, verätzen die Haut, erhöhen die Empfindlichkeit gegenüber Allergenen)",
+            "FACT_8": "Eingeatmetes Chrom (VI) ist für den Menschen krebserregend"
         },
         "COPPER": {
             "HEAD": "Cu",
@@ -505,7 +516,8 @@
             "FACT_7": "Studien am Menschen haben ergeben, dass die Einnahme hoher Mengen an Zinkpräparaten über einen längeren Zeitraum die Fähigkeit des Körpers, Kupfer zu absorbieren, verringern kann",
             "FACT_8": "Eine Studie hat bei Menschen mit Demenz in geschädigten Teilen des Gehirns höhere Kupferspiegel gefunden, die nicht an Enzyme gebunden sind. Weitere Forschung ist erforderlich",
             "FACT_9": "Kupfer hilft, Sauerstoff zu Ihrem Gehirn zu transportieren",
-            "FACT_10": "Das Gehirn hat einige der höchsten Kupferwerte in Ihrem Körper"
+            "FACT_10": "Das Gehirn hat einige der höchsten Kupferwerte in Ihrem Körper",
+            "FACT_11": "Zink und Kupfer stören sich gegenseitig bei der Aufnahme, daher wird empfohlen, sie zu unterschiedlichen Zeiten einzunehmen, z. B. morgens und abends"
         },
         "IODINE": {
             "HEAD": "I",
@@ -765,7 +777,8 @@
             "FACT_7": "Zink könnte die Schwere und Dauer von Erkältungssymptomen reduzieren",
             "FACT_8": "Da es den Zellen hilft, zu wachsen und sich zu vermehren, ist in Zeiten schnellen Wachstums, wie z. B. in der Kindheit, Jugend und Schwangerschaft, ausreichend Zink erforderlich",
             "FACT_9": "Die menschliche Netzhaut hat eine hohe Zinkkonzentration, und Untersuchungen haben gezeigt, dass Nahrungsergänzungsmittel, die sowohl Zink als auch Antioxidantien enthalten, das Fortschreiten von AMD (altersbedingte Makuladegeneration) verzögern können",
-            "FACT_10": "Forscher gehen davon aus, dass Zinkmangel beim Fortschreiten von Diabetes eine Rolle spielen könnte. Die bisherigen Beweise reichen nicht aus, um irgendwelche Schlussfolgerungen zu stützen"
+            "FACT_10": "Forscher gehen davon aus, dass Zinkmangel beim Fortschreiten von Diabetes eine Rolle spielen könnte. Die bisherigen Beweise reichen nicht aus, um irgendwelche Schlussfolgerungen zu stützen",
+            "FACT_11": "Zink und Kupfer stören sich gegenseitig bei der Aufnahme, daher wird empfohlen, sie zu unterschiedlichen Zeiten einzunehmen, z. B. morgens und abends."
         }
     },
     "WAIST": {
