@@ -11,6 +11,7 @@ import { Locale } from "src/i18n/locale";
 import P5BodyZinc from "./landing/p5-bodyzinc";
 import P6BodySize from "./landing/p6-bodysize";
 import P7Emotion from "./landing/p7-emotion";
+import Productivity from "./landing/productivity";
 import Biorhythms from "./landing/biorhythms";
 import About from "src/landing/about";
 import Mission from "src/landing/mission";
@@ -45,6 +46,8 @@ export function App() {
             return <P5BodyZinc />;
         case "/emotion":
             return <P7Emotion />;
+        case "/productivity":
+            return <Productivity />;
         case "/biorhythms":
             return <Biorhythms />
         case "/bodysize":
