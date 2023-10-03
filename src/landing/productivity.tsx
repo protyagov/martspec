@@ -27,7 +27,7 @@ export default function Productivity() {
                 </div>
             </section>
 
-            <section>
+            <section className="mb-0">
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD1")}</h2>
@@ -39,7 +39,7 @@ export default function Productivity() {
                 </div>
             </section>
         
-            <section>
+            <section className="mb-0">
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD2")}</h2>
@@ -67,7 +67,7 @@ export default function Productivity() {
                     </div>
             </section>
 
-            <section>
+            <section className="mb-0">
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD3")}</h2>
@@ -81,7 +81,7 @@ export default function Productivity() {
                 </div>
             </section>
 
-            <section>
+            <section className="mb-0">
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD4")}</h2>
@@ -99,7 +99,7 @@ export default function Productivity() {
                 </div>
             </section>
 
-            <section>
+            <section className="mb-0">
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD5")}</h2>
@@ -125,7 +125,7 @@ export default function Productivity() {
                 </div>
             </section>
 
-            <section>
+            <section className="mb-0">
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD6")}</h2>
