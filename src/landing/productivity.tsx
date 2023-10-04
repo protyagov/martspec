@@ -2,6 +2,7 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
+import ContentsList from "src/part/contents-list";
 
 export default function Productivity() {
     const LIST2_COUNT = 8;
@@ -9,10 +10,12 @@ export default function Productivity() {
     const LIST6_1_COUNT = 10;
     const LIST6_2_COUNT = 5;
 
+    const CONTENTS_COUNT = 6;
+
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page pb-5 emotion personal-trait">
+        <div className="ms-base-page pb-5 emotion personal-trait" data-bs-spy="scroll" data-bs-target="#contents-list" data-bs-offset="0" tabIndex={0}>
 
             <section className="pb-3 text-center">
                 <div className="row">
@@ -121,6 +124,14 @@ export default function Productivity() {
                         </ul>
                         <p>{_("PRODUCTIVITY.DESK6_3")}</p>
                     </div>
+
+                    <div className="col-lg-3">
+                        <div className="contents-list">
+                            <h3>{_("PRODUCTIVITY.CONTENTS")}</h3>
+                            <ContentsList PAGE="PRODUCTIVITY" CONTENTS_COUNT={6} />
+                        </div>
+                    </div>
+
                 </div>
             </section>
             
