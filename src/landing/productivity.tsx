@@ -47,7 +47,7 @@ export default function Productivity() {
 
             <section>    
                 <div className="row">
-                    <div className="col-lg-9">
+                    <div className="col-lg-8">
                         <h2 id={contentsIDs[0]}>{_("PRODUCTIVITY.HEAD1")}</h2>
                         <p>{_("PRODUCTIVITY.DESK1_1")}</p>
                         <p>{_("PRODUCTIVITY.DESK1_2")}</p>
@@ -118,7 +118,7 @@ export default function Productivity() {
                         <p>{_("PRODUCTIVITY.DESK6_3")}</p>
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-lg-4">
                         <div className="contents-list">
                             <h3>{_("PRODUCTIVITY.CONTENTS")}</h3>
                             <ContentsList PAGE="PRODUCTIVITY" contentsIDs={contentsIDs} />
