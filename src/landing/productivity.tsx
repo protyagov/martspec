@@ -27,7 +27,7 @@ export default function Productivity() {
                 </div>
             </section>
 
-            <section className="mb-0">
+            <section>    
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD1")}</h2>
@@ -35,19 +35,13 @@ export default function Productivity() {
                     <div className="col-lg-9">
                         <p>{_("PRODUCTIVITY.DESK1_1")}</p>
                         <p>{_("PRODUCTIVITY.DESK1_2")}</p>
-                    </div>
-                </div>
-            </section>
-        
-            <section className="mb-0">
+
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD2")}</h2>
                     </div>
                     <div className="col-lg-9">
                         <p>{_("PRODUCTIVITY.DESK2")}</p>
-                    </div>
-                    <div className="col-lg-9">
                         <ul className="ms-5">
                             {
                                 [...Array(LIST2_COUNT)].map((li, idx) => (
@@ -58,16 +52,9 @@ export default function Productivity() {
                                 ))
                             }
                         </ul>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-9">
-                        <img src="/img/productivity_img_1.webp" className="img-fluid" alt="" />
-                    </div>
-                </div>
-            </section>
 
-            <section className="mb-0">
+                        <img src="/img/productivity_img_1.webp" className="img-fluid" alt="" />
+
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD3")}</h2>
@@ -77,11 +64,7 @@ export default function Productivity() {
                         <p>{_("PRODUCTIVITY.DESK3_2")}</p>
                         <p>{_("PRODUCTIVITY.DESK3_3")}</p>
                         <p>{_("PRODUCTIVITY.DESK3_4")}</p>
-                    </div>
-                </div>
-            </section>
 
-            <section className="mb-0">
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD4")}</h2>
@@ -90,24 +73,15 @@ export default function Productivity() {
                         <p>{_("PRODUCTIVITY.DESK4_1")}</p>
                         <p>{_("PRODUCTIVITY.DESK4_2")}</p>
                         <p>{_("PRODUCTIVITY.DESK4_3")}</p>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-9">
+                
                         <img src="/img/productivity_img_2.webp" className="img-fluid" alt="" />
-                    </div>
-                </div>
-            </section>
 
-            <section className="mb-0">
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD5")}</h2>
                     </div>
                     <div className="col-lg-9">
                         <p>{_("PRODUCTIVITY.DESK5_1")}</p>
-                    </div>
-                    <div className="col-lg-9">
                         <ul className="ms-5">
                             {
                                 [...Array(LIST5_COUNT)].map((li, idx) => (
@@ -118,22 +92,14 @@ export default function Productivity() {
                                 ))
                             }
                         </ul>
-                    </div>
-                    <div className="col-lg-9">
                         <p>{_("PRODUCTIVITY.DESK5_2")}</p>
-                    </div>
-                </div>
-            </section>
 
-            <section className="mb-0">
                 <div className="row">
                     <div className="col-lg-9">
                         <h2>{_("PRODUCTIVITY.HEAD6")}</h2>
                     </div>
                     <div className="col-lg-9">
                         <p>{_("PRODUCTIVITY.DESK6_1")}</p>
-                    </div>
-                    <div className="col-lg-9">
                         <ul className="ms-5">
                             {
                                 [...Array(LIST6_1_COUNT)].map((li, idx) => (
@@ -143,11 +109,7 @@ export default function Productivity() {
                                 ))
                             }
                         </ul>
-                    </div>
-                    <div className="col-lg-9">
                         <p>{_("PRODUCTIVITY.DESK6_2")}</p>
-                    </div>
-                    <div className="col-lg-9">
                         <ul className="ms-5">
                             {
                                 [...Array(LIST6_2_COUNT)].map((li, idx) => (
@@ -157,8 +119,6 @@ export default function Productivity() {
                                 ))
                             }
                         </ul>
-                    </div>
-                    <div className="col-lg-9">
                         <p>{_("PRODUCTIVITY.DESK6_3")}</p>
                     </div>
                 </div>
