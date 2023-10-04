@@ -210,4 +210,28 @@
       display: table;
     }
   }
+  .contents-list {
+    position: sticky;
+    top: 1.85rem;
+    background: #F8F8F8;
+    border-radius: 2.4rem;
+    padding: 2.25rem;
+    h3 {
+      font-family: os5;
+      margin-top: 0;
+    }
+    #contents-list {
+      gap: .5rem;
+      a {
+        text-decoration: none;
+        font-size: 1.35rem;
+        color: $ms-color-text-darker;
+      }
+      a:hover,
+      a:focus,
+      a.active {
+        color: #AD43D7;
+      }
+    }
+  }
 }
