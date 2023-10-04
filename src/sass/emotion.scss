@@ -204,4 +204,10 @@
   .row {
     margin-bottom: 0;
   }
+  .content-wrapper { // prevents vertical margins collapse
+    &::after {
+      content: "";
+      display: table;
+    }
+  }
 }

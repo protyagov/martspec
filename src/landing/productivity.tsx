@@ -47,74 +47,84 @@ export default function Productivity() {
             <section>    
                 <div className="row">
                     <div className="col-lg-8">
-                        <h2 id={contentsIDs[0]}>{_("PRODUCTIVITY.HEAD1")}</h2>
-                        <p>{_("PRODUCTIVITY.DESK1_1")}</p>
-                        <p>{_("PRODUCTIVITY.DESK1_2")}</p>
+                        <div className="content-wrapper">
+                            <h2 id={contentsIDs[0]}>{_("PRODUCTIVITY.HEAD1")}</h2>
+                            <p>{_("PRODUCTIVITY.DESK1_1")}</p>
+                            <p>{_("PRODUCTIVITY.DESK1_2")}</p>
+                        </div>
 
-                        <h2 id={contentsIDs[1]}>{_("PRODUCTIVITY.HEAD2")}</h2>
-                        <p>{_("PRODUCTIVITY.DESK2")}</p>
-                        <ul className="ms-5">
-                            {
-                                [...Array(LIST2_COUNT)].map((li, idx) => (
-                                    <li key={"LIST2_LI" + ++idx} className="mb-0">
-                                        <b>{_("PRODUCTIVITY.LIST2.LI" + idx + "_HEAD")}</b>
-                                        <span>{" "} {_("PRODUCTIVITY.LIST2.LI" + idx + "_TEXT")}</span>
-                                    </li>
-                                ))
-                            }
-                        </ul>
+                        <div className="content-wrapper">
+                            <h2 id={contentsIDs[1]}>{_("PRODUCTIVITY.HEAD2")}</h2>
+                            <p>{_("PRODUCTIVITY.DESK2")}</p>
+                            <ul className="ms-5">
+                                {
+                                    [...Array(LIST2_COUNT)].map((li, idx) => (
+                                        <li key={"LIST2_LI" + ++idx} className="mb-0">
+                                            <b>{_("PRODUCTIVITY.LIST2.LI" + idx + "_HEAD")}</b>
+                                            <span>{" "} {_("PRODUCTIVITY.LIST2.LI" + idx + "_TEXT")}</span>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                            <img src="/img/productivity_img_1.webp" className="img-fluid" alt="" />
+                        </div>
 
-                        <img src="/img/productivity_img_1.webp" className="img-fluid" alt="" />
+                        <div className="content-wrapper">
+                            <h2 id={contentsIDs[2]}>{_("PRODUCTIVITY.HEAD3")}</h2>
+                            <p>{_("PRODUCTIVITY.DESK3_1")}</p>
+                            <p>{_("PRODUCTIVITY.DESK3_2")}</p>
+                            <p>{_("PRODUCTIVITY.DESK3_3")}</p>
+                            <p>{_("PRODUCTIVITY.DESK3_4")}</p>
+                        </div>
 
-                        <h2 id={contentsIDs[2]}>{_("PRODUCTIVITY.HEAD3")}</h2>
-                        <p>{_("PRODUCTIVITY.DESK3_1")}</p>
-                        <p>{_("PRODUCTIVITY.DESK3_2")}</p>
-                        <p>{_("PRODUCTIVITY.DESK3_3")}</p>
-                        <p>{_("PRODUCTIVITY.DESK3_4")}</p>
-
-                        <h2 id={contentsIDs[3]}>{_("PRODUCTIVITY.HEAD4")}</h2>
-                        <p>{_("PRODUCTIVITY.DESK4_1")}</p>
-                        <p>{_("PRODUCTIVITY.DESK4_2")}</p>
-                        <p>{_("PRODUCTIVITY.DESK4_3")}</p>
+                        <div className="content-wrapper">
+                            <h2 id={contentsIDs[3]}>{_("PRODUCTIVITY.HEAD4")}</h2>
+                            <p>{_("PRODUCTIVITY.DESK4_1")}</p>
+                            <p>{_("PRODUCTIVITY.DESK4_2")}</p>
+                            <p>{_("PRODUCTIVITY.DESK4_3")}</p>
+                            <img src="/img/productivity_img_2.webp" className="img-fluid" alt="" />
+                        </div>
                 
-                        <img src="/img/productivity_img_2.webp" className="img-fluid" alt="" />
+                        <div className="content-wrapper">
+                            <h2 id={contentsIDs[4]}>{_("PRODUCTIVITY.HEAD5")}</h2>
+                            <p>{_("PRODUCTIVITY.DESK5_1")}</p>
+                            <ul className="ms-5">
+                                {
+                                    [...Array(LIST5_COUNT)].map((li, idx) => (
+                                        <li key={"LIST5_LI" + ++idx} className="mb-0">
+                                            <b>{_("PRODUCTIVITY.LIST5.LI" + idx + "_HEAD")}</b>
+                                            <span>{" "} {_("PRODUCTIVITY.LIST5.LI" + idx + "_TEXT")}</span>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                            <p>{_("PRODUCTIVITY.DESK5_2")}</p>
+                        </div>
 
-                        <h2 id={contentsIDs[4]}>{_("PRODUCTIVITY.HEAD5")}</h2>
-                        <p>{_("PRODUCTIVITY.DESK5_1")}</p>
-                        <ul className="ms-5">
-                            {
-                                [...Array(LIST5_COUNT)].map((li, idx) => (
-                                    <li key={"LIST5_LI" + ++idx} className="mb-0">
-                                        <b>{_("PRODUCTIVITY.LIST5.LI" + idx + "_HEAD")}</b>
-                                        <span>{" "} {_("PRODUCTIVITY.LIST5.LI" + idx + "_TEXT")}</span>
-                                    </li>
-                                ))
-                            }
-                        </ul>
-                        <p>{_("PRODUCTIVITY.DESK5_2")}</p>
-
-                        <h2 id={contentsIDs[5]}>{_("PRODUCTIVITY.HEAD6")}</h2>
-                        <p>{_("PRODUCTIVITY.DESK6_1")}</p>
-                        <ul className="ms-5">
-                            {
-                                [...Array(LIST6_1_COUNT)].map((li, idx) => (
-                                    <li key={"LIST6_1_LI" + ++idx} className="mb-0">
-                                        <span>{" "} {_("PRODUCTIVITY.LIST6_1.LI" + idx + "_TEXT")}</span>
-                                    </li>
-                                ))
-                            }
-                        </ul>
-                        <p>{_("PRODUCTIVITY.DESK6_2")}</p>
-                        <ul className="ms-5">
-                            {
-                                [...Array(LIST6_2_COUNT)].map((li, idx) => (
-                                    <li key={"LIST6_2_LI" + ++idx} className="mb-0">
-                                        <span>{" "} {_("PRODUCTIVITY.LIST6_2.LI" + idx + "_TEXT")}</span>
-                                    </li>
-                                ))
-                            }
-                        </ul>
-                        <p>{_("PRODUCTIVITY.DESK6_3")}</p>
+                        <div className="content-wrapper">
+                            <h2 id={contentsIDs[5]}>{_("PRODUCTIVITY.HEAD6")}</h2>
+                            <p>{_("PRODUCTIVITY.DESK6_1")}</p>
+                            <ul className="ms-5">
+                                {
+                                    [...Array(LIST6_1_COUNT)].map((li, idx) => (
+                                        <li key={"LIST6_1_LI" + ++idx} className="mb-0">
+                                            <span>{" "} {_("PRODUCTIVITY.LIST6_1.LI" + idx + "_TEXT")}</span>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                            <p>{_("PRODUCTIVITY.DESK6_2")}</p>
+                            <ul className="ms-5">
+                                {
+                                    [...Array(LIST6_2_COUNT)].map((li, idx) => (
+                                        <li key={"LIST6_2_LI" + ++idx} className="mb-0">
+                                            <span>{" "} {_("PRODUCTIVITY.LIST6_2.LI" + idx + "_TEXT")}</span>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                            <p>{_("PRODUCTIVITY.DESK6_3")}</p>
+                        </div>
                     </div>
 
                     <div className="col-lg-4">
