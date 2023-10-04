@@ -3,18 +3,18 @@ import _, { Locale } from "src/i18n/locale";
 
 interface ContentsListProps {
     PAGE: "ANXIETY" | "PRODUCTIVITY" | "HARMONY" | "INDEPENDENCE" | "ENERGY" | "OPENNESS";
-    CONTENTS_COUNT: number;
+    contentsIDs: string[];
 }
 
 
 export default function ContentsList(props: ContentsListProps) {
-    const { PAGE, CONTENTS_COUNT } = props;
+    const { PAGE, contentsIDs } = props;
 
     return (
-        <div id="#contents-list" className="">
+        <div id="#contents-list" className="d-flex flex-column">
             {
-                [...Array(CONTENTS_COUNT)].map((li, idx) => (
-                    <a href={"#contents-item-" + ++idx}>{_(PAGE + ".HEAD" + idx)}</a>
+                contentsIDs.map((id, idx) => (
+                    <a href={"#" + id}>{_(PAGE + ".HEAD" + ++idx)}</a>
                 ))
             }
         </div>

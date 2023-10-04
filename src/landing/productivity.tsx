@@ -12,6 +12,21 @@ export default function Productivity() {
 
     const CONTENTS_COUNT = 6;
 
+    const [contentsIDs, setContentsIDs] = React.useState([]);
+
+    const useContentsIDs = (contentsCount: number) => {
+        const idFromHeading = (heading: string) => heading.split(" ").join("-").toLowerCase();
+
+        React.useLayoutEffect(() => {
+            for (let idx = 1; idx < contentsCount; ++idx) {
+                console.log(idx);
+                setContentsIDs(currentIDs => [...currentIDs, idFromHeading(_("PRODUCTIVITY.HEAD" + idx))] );
+            };
+        }, []);
+    };
+
+    useContentsIDs(CONTENTS_COUNT);
+
     return <>
         <NavigationBar />
 
@@ -33,17 +48,11 @@ export default function Productivity() {
             <section>    
                 <div className="row">
                     <div className="col-lg-9">
-                        <h2>{_("PRODUCTIVITY.HEAD1")}</h2>
-                    </div>
-                    <div className="col-lg-9">
+                        <h2 id={contentsIDs[0]}>{_("PRODUCTIVITY.HEAD1")}</h2>
                         <p>{_("PRODUCTIVITY.DESK1_1")}</p>
                         <p>{_("PRODUCTIVITY.DESK1_2")}</p>
 
-                <div className="row">
-                    <div className="col-lg-9">
-                        <h2>{_("PRODUCTIVITY.HEAD2")}</h2>
-                    </div>
-                    <div className="col-lg-9">
+                        <h2 id={contentsIDs[1]}>{_("PRODUCTIVITY.HEAD2")}</h2>
                         <p>{_("PRODUCTIVITY.DESK2")}</p>
                         <ul className="ms-5">
                             {
@@ -58,32 +67,20 @@ export default function Productivity() {
 
                         <img src="/img/productivity_img_1.webp" className="img-fluid" alt="" />
 
-                <div className="row">
-                    <div className="col-lg-9">
-                        <h2>{_("PRODUCTIVITY.HEAD3")}</h2>
-                    </div>
-                    <div className="col-lg-9">
+                        <h2 id={contentsIDs[2]}>{_("PRODUCTIVITY.HEAD3")}</h2>
                         <p>{_("PRODUCTIVITY.DESK3_1")}</p>
                         <p>{_("PRODUCTIVITY.DESK3_2")}</p>
                         <p>{_("PRODUCTIVITY.DESK3_3")}</p>
                         <p>{_("PRODUCTIVITY.DESK3_4")}</p>
 
-                <div className="row">
-                    <div className="col-lg-9">
-                        <h2>{_("PRODUCTIVITY.HEAD4")}</h2>
-                    </div>
-                    <div className="col-lg-9">
+                        <h2 id={contentsIDs[3]}>{_("PRODUCTIVITY.HEAD4")}</h2>
                         <p>{_("PRODUCTIVITY.DESK4_1")}</p>
                         <p>{_("PRODUCTIVITY.DESK4_2")}</p>
                         <p>{_("PRODUCTIVITY.DESK4_3")}</p>
                 
                         <img src="/img/productivity_img_2.webp" className="img-fluid" alt="" />
 
-                <div className="row">
-                    <div className="col-lg-9">
-                        <h2>{_("PRODUCTIVITY.HEAD5")}</h2>
-                    </div>
-                    <div className="col-lg-9">
+                        <h2 id={contentsIDs[4]}>{_("PRODUCTIVITY.HEAD5")}</h2>
                         <p>{_("PRODUCTIVITY.DESK5_1")}</p>
                         <ul className="ms-5">
                             {
@@ -97,11 +94,7 @@ export default function Productivity() {
                         </ul>
                         <p>{_("PRODUCTIVITY.DESK5_2")}</p>
 
-                <div className="row">
-                    <div className="col-lg-9">
-                        <h2>{_("PRODUCTIVITY.HEAD6")}</h2>
-                    </div>
-                    <div className="col-lg-9">
+                        <h2 id={contentsIDs[5]}>{_("PRODUCTIVITY.HEAD6")}</h2>
                         <p>{_("PRODUCTIVITY.DESK6_1")}</p>
                         <ul className="ms-5">
                             {
@@ -128,7 +121,7 @@ export default function Productivity() {
                     <div className="col-lg-3">
                         <div className="contents-list">
                             <h3>{_("PRODUCTIVITY.CONTENTS")}</h3>
-                            <ContentsList PAGE="PRODUCTIVITY" CONTENTS_COUNT={6} />
+                            <ContentsList PAGE="PRODUCTIVITY" contentsIDs={contentsIDs} />
                         </div>
                     </div>
 
