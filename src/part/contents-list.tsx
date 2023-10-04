@@ -1,5 +1,5 @@
 import React from "react";
-import _, { Locale } from "src/i18n/locale";
+import _ from "src/i18n/locale";
 
 interface ContentsListProps {
     PAGE: "ANXIETY" | "PRODUCTIVITY" | "HARMONY" | "INDEPENDENCE" | "ENERGY" | "OPENNESS";
