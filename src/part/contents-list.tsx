@@ -11,7 +11,7 @@ export default function ContentsList(props: ContentsListProps) {
     const { PAGE, contentsIDs } = props;
 
     return (
-        <div id="#contents-list" className="d-flex flex-column">
+        <div id="contents-list" className="d-flex flex-column">
             {
                 contentsIDs.map((id, idx) => (
                     <a href={"#" + id}>{_(PAGE + ".HEAD" + ++idx)}</a>
