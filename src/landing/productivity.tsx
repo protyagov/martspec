@@ -19,8 +19,7 @@ export default function Productivity() {
 
         React.useLayoutEffect(() => {
             for (let idx = 1; idx < contentsCount; ++idx) {
-                console.log(idx);
-                setContentsIDs(currentIDs => [...currentIDs, idFromHeading(_("PRODUCTIVITY.HEAD" + idx))] );
+                setContentsIDs(currentIDs => [...currentIDs, idFromHeading(_("PRODUCTIVITY.HEAD" + idx))]);
             };
         }, []);
     };
