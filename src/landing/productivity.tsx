@@ -12,8 +12,8 @@ export default function Productivity() {
 
     const CONTENTS_COUNT = 6;
 
-    document.body.setAttribute("data-bs-spy", "scroll");
-    document.body.setAttribute("data-bs-target", "#contents-list");
+    document.getElementById("root").setAttribute("data-bs-spy", "scroll");
+    document.getElementById("root").setAttribute("data-bs-target", "#contents-list");
 
     return <>
         <NavigationBar />
