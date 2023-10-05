@@ -12,10 +12,13 @@ export default function Productivity() {
 
     const CONTENTS_COUNT = 6;
 
+    document.body.setAttribute("data-bs-spy", "scroll");
+    document.body.setAttribute("data-bs-target", "#contents-list");
+
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page pb-5 emotion personal-trait" data-bs-spy="scroll" data-bs-target="#contents-list" data-bs-offset="0" tabIndex={0}>
+        <div className="ms-base-page pb-5 emotion personal-trait">
 
             <section className="pb-3 text-center">
                 <div className="row">
