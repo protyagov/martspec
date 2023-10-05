@@ -12,20 +12,6 @@ export default function Productivity() {
 
     const CONTENTS_COUNT = 6;
 
-    const [contentsIDs, setContentsIDs] = React.useState([]);
-
-    const useContentsIDs = (contentsCount: number) => {
-        const idFromHeading = (heading: string) => heading.split(" ").join("-").toLowerCase();
-
-        React.useLayoutEffect(() => {
-            for (let idx = 1; idx < contentsCount; ++idx) {
-                setContentsIDs(currentIDs => [...currentIDs, idFromHeading(_("PRODUCTIVITY.HEAD" + idx))]);
-            };
-        }, []);
-    };
-
-    useContentsIDs(CONTENTS_COUNT);
-
     return <>
         <NavigationBar />
 
@@ -48,13 +34,13 @@ export default function Productivity() {
                 <div className="row">
                     <div className="col-lg-8">
                         <div className="content-wrapper">
-                            <h2 id={contentsIDs[0]}>{_("PRODUCTIVITY.HEAD1")}</h2>
+                            <h2 id="para-1">{_("PRODUCTIVITY.HEAD1")}</h2>
                             <p>{_("PRODUCTIVITY.DESK1_1")}</p>
                             <p>{_("PRODUCTIVITY.DESK1_2")}</p>
                         </div>
 
                         <div className="content-wrapper">
-                            <h2 id={contentsIDs[1]}>{_("PRODUCTIVITY.HEAD2")}</h2>
+                            <h2 id="para-2">{_("PRODUCTIVITY.HEAD2")}</h2>
                             <p>{_("PRODUCTIVITY.DESK2")}</p>
                             <ul className="ms-5">
                                 {
@@ -70,7 +56,7 @@ export default function Productivity() {
                         </div>
 
                         <div className="content-wrapper">
-                            <h2 id={contentsIDs[2]}>{_("PRODUCTIVITY.HEAD3")}</h2>
+                            <h2 id="para-3">{_("PRODUCTIVITY.HEAD3")}</h2>
                             <p>{_("PRODUCTIVITY.DESK3_1")}</p>
                             <p>{_("PRODUCTIVITY.DESK3_2")}</p>
                             <p>{_("PRODUCTIVITY.DESK3_3")}</p>
@@ -78,7 +64,7 @@ export default function Productivity() {
                         </div>
 
                         <div className="content-wrapper">
-                            <h2 id={contentsIDs[3]}>{_("PRODUCTIVITY.HEAD4")}</h2>
+                            <h2 id="para-4">{_("PRODUCTIVITY.HEAD4")}</h2>
                             <p>{_("PRODUCTIVITY.DESK4_1")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_2")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_3")}</p>
@@ -86,7 +72,7 @@ export default function Productivity() {
                         </div>
                 
                         <div className="content-wrapper">
-                            <h2 id={contentsIDs[4]}>{_("PRODUCTIVITY.HEAD5")}</h2>
+                            <h2 id="para-5">{_("PRODUCTIVITY.HEAD5")}</h2>
                             <p>{_("PRODUCTIVITY.DESK5_1")}</p>
                             <ul className="ms-5">
                                 {
@@ -102,7 +88,7 @@ export default function Productivity() {
                         </div>
 
                         <div className="content-wrapper">
-                            <h2 id={contentsIDs[5]}>{_("PRODUCTIVITY.HEAD6")}</h2>
+                            <h2 id="para-6">{_("PRODUCTIVITY.HEAD6")}</h2>
                             <p>{_("PRODUCTIVITY.DESK6_1")}</p>
                             <ul className="ms-5">
                                 {
@@ -130,7 +116,7 @@ export default function Productivity() {
                     <div className="col-lg-4">
                         <div className="contents-list">
                             <h3>{_("PRODUCTIVITY.CONTENTS")}</h3>
-                            <ContentsList PAGE="PRODUCTIVITY" contentsIDs={contentsIDs} />
+                            <ContentsList PAGE="PRODUCTIVITY" CONTENTS_COUNT={CONTENTS_COUNT} />
                         </div>
                     </div>
 
