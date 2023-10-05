@@ -226,6 +226,9 @@
         text-decoration: none;
         font-size: 1.35rem;
         color: $ms-color-text-darker;
+        padding: 0;
+        background: transparent;
+        border-color: transparent;
       }
       a:hover,
       a:focus,
