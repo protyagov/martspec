@@ -36,14 +36,14 @@ export default function Productivity() {
             <section>    
                 <div className="row">
                     <div className="col-lg-8">
-                        <div className="content-wrapper">
-                            <h2 id="para-1">{_("PRODUCTIVITY.HEAD1")}</h2>
+                        <div id="para-1" className="content-wrapper">
+                            <h2>{_("PRODUCTIVITY.HEAD1")}</h2>
                             <p>{_("PRODUCTIVITY.DESK1_1")}</p>
                             <p>{_("PRODUCTIVITY.DESK1_2")}</p>
                         </div>
 
-                        <div className="content-wrapper">
-                            <h2 id="para-2">{_("PRODUCTIVITY.HEAD2")}</h2>
+                        <div id="para-2" className="content-wrapper">
+                            <h2>{_("PRODUCTIVITY.HEAD2")}</h2>
                             <p>{_("PRODUCTIVITY.DESK2")}</p>
                             <ul className="ms-5">
                                 {
@@ -58,24 +58,24 @@ export default function Productivity() {
                             <img src="/img/productivity_img_1.webp" className="img-fluid" alt="" />
                         </div>
 
-                        <div className="content-wrapper">
-                            <h2 id="para-3">{_("PRODUCTIVITY.HEAD3")}</h2>
+                        <div id="para-3" className="content-wrapper">
+                            <h2>{_("PRODUCTIVITY.HEAD3")}</h2>
                             <p>{_("PRODUCTIVITY.DESK3_1")}</p>
                             <p>{_("PRODUCTIVITY.DESK3_2")}</p>
                             <p>{_("PRODUCTIVITY.DESK3_3")}</p>
                             <p>{_("PRODUCTIVITY.DESK3_4")}</p>
                         </div>
 
-                        <div className="content-wrapper">
-                            <h2 id="para-4">{_("PRODUCTIVITY.HEAD4")}</h2>
+                        <div id="para-4" className="content-wrapper">
+                            <h2>{_("PRODUCTIVITY.HEAD4")}</h2>
                             <p>{_("PRODUCTIVITY.DESK4_1")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_2")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_3")}</p>
                             <img src="/img/productivity_img_2.webp" className="img-fluid" alt="" />
                         </div>
                 
-                        <div className="content-wrapper">
-                            <h2 id="para-5">{_("PRODUCTIVITY.HEAD5")}</h2>
+                        <div id="para-5" className="content-wrapper">
+                            <h2>{_("PRODUCTIVITY.HEAD5")}</h2>
                             <p>{_("PRODUCTIVITY.DESK5_1")}</p>
                             <ul className="ms-5">
                                 {
@@ -90,8 +90,8 @@ export default function Productivity() {
                             <p>{_("PRODUCTIVITY.DESK5_2")}</p>
                         </div>
 
-                        <div className="content-wrapper">
-                            <h2 id="para-6">{_("PRODUCTIVITY.HEAD6")}</h2>
+                        <div id="para-6" className="content-wrapper">
+                            <h2>{_("PRODUCTIVITY.HEAD6")}</h2>
                             <p>{_("PRODUCTIVITY.DESK6_1")}</p>
                             <ul className="ms-5">
                                 {
