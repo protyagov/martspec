@@ -16,7 +16,7 @@ export default function SocialBar(props: SocialBarProps) {
         fill: "none",
         xmlns: "http://www.w3.org/2000/svg"
     };
-    
+
     return <div className={"d-flex justify-content-center flex-nowrap social-bar-" + props.color}>
         <a href="https://www.linkedin.com/company/martspec" target="_blank" rel="noopener" aria-label="LinkedIn">
             <svg {...svgAttrs}>
@@ -42,7 +42,7 @@ export default function SocialBar(props: SocialBarProps) {
         <a href="https://www.facebook.com/martspec" target="_blank" rel="noopener" aria-label="Facebook">
             <svg {...svgAttrs}>
                 <title>{_("FOOTER.FACEBOOK_BTN.TITLE")}</title>
-                <path d="M21.6571 20.3648H25.3793L25.9637 16.5605H21.6563V14.4813C21.6563 12.901 22.1696 11.4996 23.6389 11.4996H26V8.17974C25.5852 8.12338 24.7078 8 23.05 8C19.5882 8 17.5587 9.8393 17.5587 14.0297V16.5605H14V20.3648H17.5587V30.821C18.2634 30.9276 18.9773 31 19.7101 31C20.3724 31 21.0189 30.9391 21.6571 30.8522V20.3648Z" fill="currentColor"/>
+                            <path d="M21.1047 20.064H23.5862L23.9758 17.583H21.1042V16.227C21.1042 15.1963 21.4464 14.2824 22.4259 14.2824H24V12.1172C23.7234 12.0805 23.1385 12 22.0333 12C19.7255 12 18.3724 13.1995 18.3724 15.9324V17.583H16V20.064H18.3724V26.8833C18.8423 26.9528 19.3182 27 19.8067 27C20.2483 27 20.6793 26.9603 21.1047 26.9036V20.064Z" fill="currentColor"/>
             </svg>
         </a>
     </div>
