@@ -207,7 +207,7 @@
         },
         "VITAMIN_A": {
             "HEAD": "A",
-            "NAME": "retinol, beta-caroteno",
+            "NAME": "retinol",
             "DESK": "É importante para o sistema imunológico e a função reprodutiva do corpo. É um forte antioxidante, que regula a regeneração da pele e o crescimento do cabelo.",
             "FUNC": "Propriedades antioxidantes, saúde ocular, função imunológica e reprodutiva. Ajuste a condições de pouca luz. Produção e atividade de glóbulos brancos.",
             "DEF_1": "Problemas oculares, incluindo cegueira noturna",
@@ -247,7 +247,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "tocoferol",
-            "DESK": "É um poderoso antioxidante, participa da formação das fibras que são responsáveis ​​pela elasticidade da pele.",
+            "DESK": "É um poderoso antioxidante, participa da formação das fibras que são responsáveis ​​pela elasticidade da pele. Ajuda a melhorar a motilidade e a contagem de espermatozoides, reduzindo o risco de infertilidade masculina causada pela baixa contagem de espermatozoides e pela lentidão dos movimentos. Regula o ciclo menstrual, ajuda na concepção e promove uma gravidez saudável.",
             "FUNC": "Poderoso antioxidante. Envolvido na função imunológica. Alargando os vasos sanguíneos e impedindo a coagulação do sangue dentro deles. Regulação da expressão gênica e outros processos metabólicos. As células usam a vitamina E para interagir umas com as outras e realizar muitas funções importantes.",
             "DEF_1": "Danos à retina do olho",
             "DEF_2": "Danos nos nervos, geralmente nas mãos ou pés",
@@ -279,25 +279,33 @@
             "FACT_1": "Antibióticos bloqueiam o metabolismo da vitamina K",
             "FACT_2": "Como a vitamina K é solúvel em gordura, é melhor comer alimentos com vitamina K com um pouco de gordura para melhorar a absorção",
             "FACT_3": "O transporte de vitamina K através da placenta é deficiente, aumentando o risco de deficiência de vitamina K em recém-nascidos",
-            "FACT_4": "Um estudo descobriu que 180 mcg/dia por 3 anos melhorou a resistência óssea e diminuiu a perda de altura da coluna"
+            "FACT_4": "Um estudo descobriu que 180 mcg/dia por 3 anos melhorou a resistência óssea e diminuiu a perda de altura da coluna",
+            "FACT_5": "É difícil desenvolver um excesso de vitamina K naturalmente porque as bactérias intestinais que a sintetizam não prejudicariam seu hospedeiro",
+            "FACT_6": "A menadiona (um precursor de vitamina K sintético e solúvel em água) pode causar toxicidade (bebês desenvolveram anemia e icterícia)",
+            "FACT_7": "Se o leite materno tiver deficiência de vitamina K, os recém-nascidos podem ter falta de vitamina K devido à ausência das bactérias intestinais que a produzem"
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
             "NAME": "tiamina",
-            "DESK": "A B1 é necessária para o metabolismo energético, importante para os mecanismos de condução de impulsos nervosos, síntese de acetilcolina e outros processos no sistema nervoso.",
+            "DESK": "A vitamina B1 é necessária para o metabolismo energético, importante para a síntese da acetilcolina, responsável pela condução dos impulsos nervosos e outros processos do sistema nervoso.",
             "FUNC": "Produção de energia a partir de carboidratos, gorduras e proteínas. Essencial no metabolismo da glicose. Papel fundamental na função nervosa, muscular e cardíaca.",
             "DEF_1": "Problemas com os nervos periféricos e perda",
             "DEF_2": "Perda de memória de curto prazo",
             "DEF_3": "Perda de peso e anorexia",
-            "OVER_1": "Não temos evidências de riscos",
+            "OVER_1": "Batimentos cardíacos irregulares",
+            "OVER_2": "Reação alérgica",
+            "OVER_3": "Problema de deglutição",
+            "OVER_4": "Fraqueza",
             "FACT_1": "Aumente o sistema imunológico em momentos de estresse",
             "FACT_2": "Tanino (produto químico no chá e café) pode dificultar a absorção de B1",
-            "FACT_3": "É destruído por cozimento em fogo alto ou longo"
+            "FACT_3": " Cerca de 70% do B1 é destruído pelo cozimento prolongado ou em fogo alto",
+            "FACT_4": "O excesso de B1 no corpo é extremamente raro",
+            "FACT_5": "O corpo excreta o B1 extra pela urina"
         },
         "VITAMIN_B2": {
             "HEAD": "B2",
             "NAME": "riboflavina",
-            "DESK": "B2 é necessário para a formação de glóbulos vermelhos e anticorpos. Também é importante para a função reprodutiva do corpo.",
+            "DESK": "B2 é necessário para a formação de glóbulos vermelhos e anticorpos. Também é importante para a função reprodutiva do corpo. Propriedades antioxidantes. Produção de energia a partir de gorduras e esteroides. Metabolismo da glicose. Crescimento e desenvolvimento de células. Participação nas reações redox do corpo. Significativo para a visão.",
             "FUNC": "Propriedades antioxidantes. Produção de energia a partir de gorduras e esteróides. Essencial no metabolismo da glicose. Crescimento e desenvolvimento das células.",
             "DEF_1": "Inchaço da boca, lábios, língua ou garganta.",
             "DEF_2": "Estomatite nos cantos da boca.",
@@ -315,7 +323,7 @@
         "VITAMIN_B3": {
             "HEAD": "B3",
             "NAME": "niacina",
-            "DESK": "Ajuda os sistemas nervoso e digestivo a se manterem saudáveis ​​e a pele a ter uma boa aparência.",
+            "DESK": "Ajuda os sistemas nervoso e digestivo a se manterem saudáveis ​​e a pele a ter uma boa aparência. Proteção do ADN.",
             "FUNC": "Produção de energia a partir de carboidratos, gorduras e proteínas. Propriedades antioxidantes. Síntese de colesterol e ácidos graxos. Criação e reparação de DNA.",
             "DEF_1": "Erupção cutânea espessa, escamosa e pigmentada na pele exposta à luz solar",
             "DEF_2": "Boca inchada e língua vermelha brilhante",
@@ -378,7 +386,7 @@
         "VITAMIN_B9": {
             "HEAD": "B9",
             "NAME": "ácido fólico",
-            "DESK": "Participa da formação de glóbulos vermelhos e brancos, ajuda o corpo a criar células de DNA e RNA, além de converter carboidratos em glicose.",
+            "DESK": "Participa da formação de glóbulos vermelhos e brancos, ajuda o corpo a criar células de DNA e RNA, além de converter carboidratos em glicose. Metabolismo de proteínas. Criação de DNA e RNA. Produção de energia a partir de carboidratos. Desenvolvimento do sistema nervoso embrionário. Produção de glóbulos vermelhos saudáveis.",
             "FUNC": "Metabolismo de proteínas. Produção de DNA e RNA. Produção de energia a partir de carboidratos. Necessário para a produção de glóbulos vermelhos saudáveis.",
             "DEF_1": "Fadiga, fraqueza e falta de ar",
             "DEF_2": "Dificuldade de concentração",
@@ -398,7 +406,7 @@
         "VITAMIN_B12": {
             "HEAD": "B12",
             "NAME": "cobalamina",
-            "DESK": "A cobalamina é responsável pela saúde do sistema nervoso central. Ajuda a resistir ao estresse e à depressão.",
+            "DESK": "A cobalamina é responsável pela saúde do sistema nervoso central. Ajuda a resistir ao estresse e à depressão. Junto com o B9, ajuda a formar glóbulos vermelhos",
             "FUNC": "Extremamente essencial para a síntese de neurotransmissores. Crescimento, desenvolvimento e função do cérebro e dos nervos. Formação de glóbulos vermelhos, metabolismo celular e produção de DNA.",
             "DEF_1": "Inflamação crônica do estômago",
             "DEF_2": "Sentir-se muito cansado ou fraco",
@@ -416,7 +424,7 @@
         "VITAMIN_C": {
             "HEAD": "C",
             "NAME": "ácido ascórbico",
-            "DESK": "Protege as células do envelhecimento prematuro e apoia o trabalho dos vasos sanguíneos, a condição dos ossos e da cartilagem. Também é importante para a regeneração da pele, pois participa da síntese de colágeno.",
+            "DESK": "Protege as células do envelhecimento prematuro e apoia o trabalho dos vasos sanguíneos, a condição dos ossos e da cartilagem. Também é importante para a regeneração da pele, pois participa da síntese de colágeno. Fortalece as paredes dos vasos sanguíneos. Estimula o sistema imunológico.",
             "FUNC": "Cicatrização de infecções e feridas. Poderoso antioxidante. Formação de vasos sanguíneos, pele saudável, cartilagem e músculos. Síntese de colágeno nos ossos. Proteção das células. Produção de neurotransmissores.",
             "DEF_1": "Escorbuto",
             "DEF_2": "Gengivas inchadas e sangrando",
@@ -453,13 +461,13 @@
         "CHLORIDE": {
             "HEAD": "Cl",
             "NAME": "cloro",
-            "DESK": "O cloro ajuda a liberar o suco gástrico e forma um bom apetite. Ele retém a água nos tecidos, evitando que o corpo perca umidade.",
+            "DESK": "O cloro auxilia na síntese/produção de suco gástrico e forma um bom apetite. Retém água nos tecidos, evitando que o corpo perca umidade.",
             "FUNC": "Regular a quantidade de fluido e os tipos de nutrientes que entram e saem das células (pressão osmótica dos fluidos corporais). Mantendo o equilíbrio ácido-base adequado (nível de pH). Ativando o ácido estomacal necessário para a digestão. Estimulando a ação de células nervosas e musculares. Iniciando o fluxo de oxigênio e dióxido de carbono.",
             "DEF_1": "Nível de pH alto no sangue",
             "DEF_2": "Apatia",
             "DEF_3": "Confusão",
             "DEF_4": "Frequência cardíaca irregular",
-            "DEF_5": "Cãibras nos músculos e nervos",
+            "DEF_5": "Cãibras nos músculos",
             "OVER_1": "Aumentou sua pressão arterial",
             "OVER_2": "Fraqueza muscular e fadiga",
             "FACT_1": "O sal de mesa é o principal contribuinte de cloreto em nossa dieta, é feito de 60% de cloreto e 40% de sódio",
@@ -482,7 +490,9 @@
             "FACT_3": "Um dos elementos mais comuns na terra",
             "FACT_4": "Um pequeno estudo sugere que o cromo pode reduzir o risco de resistência à insulina, no entanto, os resultados são inconsistentes",
             "FACT_5": "Um estudo em mulheres com síndrome dos ovários policísticos mostrou que a CR reduz significativamente o índice de massa corporal (IMC) e os níveis de testosterona livre",
-            "FACT_6": "A suplementação de cromo não tem efeito sobre o peso corporal ou lipídios. No entanto, um estudo sugere que o picolinato de cromo pode reduzir o peso corporal e o percentual de gordura corporal. Mais pesquisas são necessárias."
+            "FACT_6": "A suplementação de cromo não tem efeito sobre o peso corporal ou lipídios. No entanto, um estudo sugere que o picolinato de cromo pode reduzir o peso corporal e o percentual de gordura corporal. Mais pesquisas são necessárias.",
+            "FACT_7": "O Cr metálico não é tóxico, mas os compostos solúveis são tóxicos (danificam o trato respiratório, corroem a pele, aumentam a sensibilidade a alérgenos)",
+            "FACT_8": " O cromo (VI) inalado é um carcinogênico humano"
         },
         "COPPER": {
             "HEAD": "Cu",
@@ -506,7 +516,8 @@
             "FACT_7": "Estudos em humanos descobriram que tomar altos níveis de suplementos de zinco por longos períodos de tempo pode diminuir a capacidade do corpo de absorver cobre",
             "FACT_8": "Um estudo descobriu níveis mais altos de cobre não ligados a enzimas em partes danificadas do cérebro em pessoas com demência. Mais pesquisas são necessárias",
             "FACT_9": "O cobre ajuda a transportar oxigênio para o cérebro",
-            "FACT_10": "O cérebro tem alguns dos níveis mais altos de cobre em seu corpo"
+            "FACT_10": "O cérebro tem alguns dos níveis mais altos de cobre em seu corpo",
+            "FACT_11": "O zinco e o cobre interferem na absorção um do outro, portanto, recomenda-se tomá-los em horários diferentes, como de manhã e à noite"
         },
         "IODINE": {
             "HEAD": "I",
@@ -634,7 +645,7 @@
         "PHOSPHORUS": {
             "HEAD": "P",
             "NAME": "fósforo",
-            "DESK": "O fósforo é necessário para ossos e dentes. Com sua ajuda, proteínas e carboidratos são formados no corpo. Também garante a assimilação de muitos nutrientes.",
+            "DESK": "O fósforo é essencial para ossos e dentes. Com sua ajuda, proteínas e ácidos nucléicos são formados no corpo; ajuda a absorver muitos nutrientes.",
             "FUNC": "Papel essencial em como o corpo armazena e usa energia. Crescimento, manutenção e reparo de todos os tecidos e células. Produção dos blocos de construção genéticos, DNA e RNA. Manter o pH do sangue dentro de uma faixa normal. Filtrar os resíduos nos rins. Regulando a função normal dos nervos e músculos, incluindo o coração.",
             "DEF_1": "Perda de apetite e alteração de peso",
             "DEF_2": "Ansiedade, irritabilidade e confusão",
@@ -766,7 +777,8 @@
             "FACT_7": "The human retina has a high zinc concentration, and research has shown that supplements containing both zinc and antioxidants might delay the progression of AMD (Age-related macular degeneration)A retina humana tem uma alta concentração de zinco, e a pesquisa mostrou que suplementos contendo zinco e antioxidantes podem retardar a progressão da DMRI (degeneração macular relacionada à idade)",
             "FACT_8": "Os pesquisadores levantam a hipótese de que a depleção de zinco pode desempenhar um papel na progressão do diabetes. As evidências até o momento são insuficientes para apoiar quaisquer conclusões",
             "FACT_9": "Usado na medicina para tratar feridas",
-            "FACT_10": "Pode se defender contra queimaduras solares"
+            "FACT_10": "Pode se defender contra queimaduras solares",
+            "FACT_11": "O zinco e o cobre interferem na absorção um do outro, portanto, recomenda-se tomá-los em horários diferentes, como de manhã e à noite"
         }
     },
     "WAIST": {

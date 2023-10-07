@@ -204,7 +204,7 @@
         },
         "VITAMIN_A": {
             "HEAD": "A",
-            "NAME": "Retinol, Beta-Carotin",
+            "NAME": "Retinol",
             "DESK": "Es ist wichtig für das Immunsystem und die Fortpflanzungsfunktion des Körpers. Es ist ein starkes Antioxidans, das die Hautregeneration und das Haarwachstum reguliert.",
             "FUNC": "Antioxidative Eigenschaften, Augengesundheit, Immun- und Fortpflanzungsfunktion. Anpassung an dunkle Bedingungen. Produktion und Aktivität weißer Blutkörperchen.",
             "DEF_1": "Augenprobleme, einschließlich Nachtblindheit",
@@ -244,7 +244,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "Tocopherol",
-            "DESK": "Es ist ein starkes Antioxidans, es beteiligt sich an der Bildung von Fasern, die für die Elastizität der Haut verantwortlich sind.",
+            "DESK": "Es ist ein starkes Antioxidans, es beteiligt sich an der Bildung von Fasern, die für die Elastizität der Haut verantwortlich sind. Verbessert die Beweglichkeit und die Anzahl der Spermien und verringert so das Risiko männlicher Unfruchtbarkeit, das durch eine niedrige Spermienzahl und langsame Bewegungen verursacht wird. Es reguliert den Menstruationszyklus, unterstützt die Empfängnis und fördert eine gesunde Schwangerschaft.",
             "FUNC": "Leistungsstarkes Antioxidans. Beteiligt an der Immunfunktion. Weitet die Blutgefäße und verhindert die Blutgerinnung in ihnen. Regulierung der Genexpression und anderer Stoffwechselprozesse. Zellen verwenden Vitamin E, um miteinander zu interagieren und viele wichtige Funktionen auszuführen .",
             "DEF_1": "Schädigung der Netzhaut des Auges",
             "DEF_2": "Nervenschäden, normalerweise in den Händen oder Füßen",
@@ -276,27 +276,36 @@
             "FACT_1": "Antibiotika blockieren den Vitamin-K-Stoffwechsel",
             "FACT_2": "Da Vitamin K fettlöslich ist, ist es am besten, Vitamin-K-Lebensmittel mit etwas Fett zu sich zu nehmen, um die Aufnahme zu verbessern",
             "FACT_3": "Der Vitamin-K-Transport durch die Plazenta ist schlecht, was das Risiko eines Vitamin-K-Mangels bei Neugeborenen erhöht",
-            "FACT_4": "Eine Studie ergab, dass 180 mcg/Tag über 3 Jahre die Knochenstärke verbesserten undden Verlust an Wirbelsäulenhöhe verringerten"
+            "FACT_4": "Eine Studie ergab, dass 180 mcg/Tag über 3 Jahre die Knochenstärke verbesserten undden Verlust an Wirbelsäulenhöhe verringerten",
+            "FACT_5": "Es ist schwierig, auf natürliche Weise einen Vitamin-K-Überschuss zu entwickeln, da die Darmbakterien, die es synthetisieren, ihren Wirt nicht schädigen würden.",
+            "FACT_6": "Menadion (eine synthetische, wasserlösliche Vitamin-K-Vorstufe) kann toxisch wirken (bei Säuglingen wurden Anämie und Gelbsucht festgestellt)",
+            "FACT_7": "Wenn die Muttermilch einen Vitamin-K-Mangel aufweist, können Neugeborene aufgrund fehlender Darmbakterien, die Vitamin K produzieren, einen Mangel an Vitamin K aufweisen."
         },
         "VITAMIN_B1": {
             "HEAD": "B1",
             "NAME": "Thiamin",
-            "DESK": "B1 ist notwendig für den Energiestoffwechsel, wichtig für die Mechanismen der Weiterleitung von Nervenimpulsen, die Synthese von Acetylcholin und andere Prozesse im Nervensystem.",
+            "DESK": "Vitamin B1 ist für den Energiestoffwechsel notwendig und wichtig für die Synthese von Acetylcholin, das für die Weiterleitung von Nervenimpulsen und anderen Prozessen im Nervensystem verantwortlich ist.",
             "FUNC": "Energiegewinnung aus Kohlenhydraten, Fetten und Proteinen. Unverzichtbar für den Glukosestoffwechsel. Schlüsselrolle für die Nerven-, Muskel- und Herzfunktion.",
             "DEF_1": "Probleme mit den peripheren Nerven und Auszehrung",
             "DEF_2": "Verlust des Kurzzeitgedächtnisses",
             "DEF_3": "Gewichtsverlust und Anorexie",
-            "OVER_1": "Wir haben keine Hinweise auf Risiken",
+            "OVER_1": "Unregelmäßiger Herzschlag",
+            "OVER_2": "Allergische Reaktion",
+            "OVER_3": "Schluckbeschwerden",
+            "OVER_4": "Schwäche",
             "FACT_1": "Im Stress das Immunsystem stärken",
             "FACT_2": "Tanin (Chemikalie in Tee und Kaffee) könnte die B1-Absorption behindern",
-            "FACT_3": "Es wird durch hohe Hitze oder langes Kochen zerstört"
+            "FACT_3": "Etwa 70 % des B1 werden durch hohe Hitze oder langes Kochen zerstört",
+            "FACT_4": "Ein Überschuss an B1 im Körper ist äußerst selten",
+            "FACT_5": "Der Körper scheidet zusätzliches B1 über den Urin aus"
+
 
 
         },
         "VITAMIN_B2": {
             "HEAD": "B2",
             "NAME": "Riboflavin",
-            "DESK": "B2 ist für die Bildung von roten Blutkörperchen und Leukozyten notwendig. Es ist auch wichtig für die Fortpflanzungsfunktion des Körpers.",
+            "DESK": "B2 ist für die Bildung von roten Blutkörperchen und Leukozyten notwendig. Es ist auch wichtig für die Fortpflanzungsfunktion des Körpers. Antioxidative Eigenschaften. Energiegewinnung aus Fetten und Steroiden. Glukose-Stoffwechsel. Wachstum und Entwicklung von Zellen. Beteiligung an den Redoxreaktionen des Körpers. Bedeutsam für das Sehvermögen.",
             "FUNC": "Antioxidative Eigenschaften. Energiegewinnung aus Fetten und Steroiden. Wesentlich für den Glukosestoffwechsel. Wachstum und Entwicklung von Zellen.",
             "DEF_1": "Anschwellen von Mund, Lippen, Zunge oder Rachen",
             "DEF_2": "Stomatitis an den Mundwinkeln",
@@ -314,7 +323,7 @@
         "VITAMIN_B3": {
             "HEAD": "B3",
             "NAME": "Niacin",
-            "DESK": "Es hilft dem Nerven- und Verdauungssystem, gesund zu bleiben und der Haut, gut auszusehen.",
+            "DESK": "Es hilft dem Nerven- und Verdauungssystem, gesund zu bleiben und der Haut, gut auszusehen. DNA-Schutz.",
             "FUNC": "Energieerzeugung aus Kohlenhydraten, Fetten und Proteinen. Antioxidative Eigenschaften. Synthese von Cholesterin und Fettsäuren. DNA-Erzeugungund -Reparatur.",
             "DEF_1": "Dicker, schuppiger pigmentierter Ausschlag auf Haut, die dem Sonnenlicht ausgesetzt ist",
             "DEF_2": "Geschwollener Mund und leuchtend rote Zunge",
@@ -377,7 +386,7 @@
         "VITAMIN_B9": {
             "HEAD": "B9",
             "NAME": "Folsäure",
-            "DESK": "Sie ist an der Bildung von roten und weißen Blutkörperchen beteiligt, hilft dem Körper, DNA- und RNA-Zellen zu bilden und Kohlenhydrate in Glukose umzuwandeln.",
+            "DESK": "Sie ist an der Bildung von roten und weißen Blutkörperchen beteiligt, hilft dem Körper, DNA- und RNA-Zellen zu bilden und Kohlenhydrate in Glukose umzuwandeln. Protein-Stoffwechsel. Aufbau von DNA und RNA. Energiegewinnung aus Kohlenhydraten. Entwicklung des embryonalen Nervensystems. Produktion von gesunden roten Blutkörperchen.",
             "FUNC": "Proteinstoffwechsel. Produktion von DNA und RNA. Energiegewinnung aus Kohlenhydraten. Erforderlich für die Produktion gesunder roter Blutkörperchen.",
             "DEF_1": "Müdigkeit, Schwäche und Kurzatmigkeit",
             "DEF_2": "Konzentrationsschwierigkeiten",
@@ -397,7 +406,7 @@
         "VITAMIN_B12": {
             "HEAD": "B12",
             "NAME": "Cobalamin",
-            "DESK": "Cobalamin ist für die Gesundheit des zentralen Nervensystems verantwortlich. Es hilft, Stress und Depressionen zu widerstehen.",
+            "DESK": "Cobalamin ist für die Gesundheit des zentralen Nervensystems verantwortlich. Es hilft, Stress und Depressionen zu widerstehen. Zusammen mit B9 hilft es bei der Bildung von roten Blutkörperchen.",
             "FUNC": "Extrem wichtig für die Synthese von Neurotransmittern. Wachstum, Entwicklung und Funktion des Gehirns und der Nerven. Bildung roter Blutkörperchen, Zellstoffwechsel und die Produktion von DNA.",
             "DEF_1": "Chronische Magenentzündung",
             "DEF_2": "Sich sehr müde oder schwach fühlen",
@@ -415,7 +424,7 @@
         "VITAMIN_C": {
             "HEAD": "C",
             "NAME": "Askorbinsäure",
-            "DESK": "Sie schützt die Zellen vor vorzeitiger Alterung und unterstützt die Arbeit der Blutgefäße, den Zustand von Knochen und Knorpel. Es ist auch wichtig für die Hautregeneration, da es an der Kollagensynthese beteiligt ist.",
+            "DESK": "Sie schützt die Zellen vor vorzeitiger Alterung und unterstützt die Arbeit der Blutgefäße, den Zustand von Knochen und Knorpel. Es ist auch wichtig für die Hautregeneration, da es an der Kollagensynthese beteiligt ist. Stärkt die Wände der Blutgefäße. Stärkt das Immunsystem.",
             "FUNC": "Heilung von Infektionen und Wunden. Starkes Antioxidans. Bildet Blutgefäße, gesunde Haut, Knorpel und Muskeln. Kollagensynthese in Knochen. Schutz von Zellen. Neurotransmitter-Produktion.",
             "DEF_1": "Skorbut",
             "DEF_2": "Geschwollenes und blutendes Zahnfleisch",
@@ -452,13 +461,13 @@
         "CHLORIDE": {
             "HEAD": "Cl",
             "NAME": "Chlor",
-            "DESK": "Chlor hilft, Magensaft freizusetzen und sorgt für einen guten Appetit. Es hält Wasser im Gewebe und verhindert, dass der Körper Feuchtigkeit verliert.",
+            "DESK": "Chlor hilft bei der Synthese/Produktion von Magensaft und sorgt für einen guten Appetit. Hält Wasser im Gewebe und verhindert so, dass der Körper Feuchtigkeit verliert.",
             "FUNC": "Regulierung der Flüssigkeitsmenge und der Arten von Nährstoffen, die in die und aus den Zellen gelangen (osmotischer Druck der Körperflüssigkeiten). Aufrechterhaltung des richtigen Säure-Basen-Gleichgewichts (pH-Wert). Aktivierung der für die Verdauung erforderlichen Magensäure. Stimulierung der Aktion von Nerven- und Muskelzellen. Initiierung des Flusses von Sauerstoff und Kohlendioxid.",
             "DEF_1": "Hoher Blut-pH-Wert",
             "DEF_2": "Apathie",
             "DEF_3": "Verwirrtheit",
             "DEF_4": "Unregelmäßige Herzfrequenz",
-            "DEF_5": "Krämpfe in Muskeln",
+            "DEF_5": "Krämpfe in den Muskeln",
             "OVER_1": "Blutdruck erhöht",
             "OVER_2": "Muskelschwäche und Müdigkeit",
             "FACT_1": "Speisesalz ist der Hauptlieferant von Chlorid in unserer Ernährung, es besteht zu 60 % aus Chlorid und zu 40 % aus Natrium",
@@ -481,7 +490,9 @@
             "FACT_3": "Eines der häufigsten Elemente der Erde",
             "FACT_4": "Eine kleine Studie deutet darauf hin, dass Chrom das Risiko einer Insulinresistenz verringern kann, die Ergebnisse sind jedoch widersprüchlich",
             "FACT_5": "Eine Studie an Frauen mit polyzystischem Ovarialsyndrom zeigte, dass Cr den Body-Mass-Index (BMI) und den freien Testosteronspiegel signifikant senkt",
-            "FACT_6": "Eine Chromergänzung hat keinen Einfluss auf das Körpergewicht oder die Lipide. EineStudie legt jedoch nahe, dass Chrompicolinat das Körpergewicht und den Körperfettanteil reduzieren könnte"
+            "FACT_6": "Eine Chromergänzung hat keinen Einfluss auf das Körpergewicht oder die Lipide. EineStudie legt jedoch nahe, dass Chrompicolinat das Körpergewicht und den Körperfettanteil reduzieren könnte",
+            "FACT_7": "Metallisches Cr ist ungiftig, aber lösliche Verbindungen sind giftig (schädigen die Atemwege, verätzen die Haut, erhöhen die Empfindlichkeit gegenüber Allergenen)",
+            "FACT_8": "Eingeatmetes Chrom (VI) ist für den Menschen krebserregend"
         },
         "COPPER": {
             "HEAD": "Cu",
@@ -505,7 +516,8 @@
             "FACT_7": "Studien am Menschen haben ergeben, dass die Einnahme hoher Mengen an Zinkpräparaten über einen längeren Zeitraum die Fähigkeit des Körpers, Kupfer zu absorbieren, verringern kann",
             "FACT_8": "Eine Studie hat bei Menschen mit Demenz in geschädigten Teilen des Gehirns höhere Kupferspiegel gefunden, die nicht an Enzyme gebunden sind. Weitere Forschung ist erforderlich",
             "FACT_9": "Kupfer hilft, Sauerstoff zu Ihrem Gehirn zu transportieren",
-            "FACT_10": "Das Gehirn hat einige der höchsten Kupferwerte in Ihrem Körper"
+            "FACT_10": "Das Gehirn hat einige der höchsten Kupferwerte in Ihrem Körper",
+            "FACT_11": "Zink und Kupfer stören sich gegenseitig bei der Aufnahme, daher wird empfohlen, sie zu unterschiedlichen Zeiten einzunehmen, z. B. morgens und abends"
         },
         "IODINE": {
             "HEAD": "I",
@@ -633,7 +645,7 @@
         "PHOSPHORUS": {
             "HEAD": "P",
             "NAME": "Phosphor",
-            "DESK": "Phosphor ist für Knochen und Zähne notwendig. Mit seiner Hilfe werden Proteine ​​und Kohlenhydrate im Körper gebildet. Es sorgt auch für die Assimilation vieler Nährstoffe.",
+            "DESK": "Phosphor ist wichtig für Knochen und Zähne. Mit seiner Hilfe werden im Körper Proteine und Nukleinsäuren gebildet; es hilft, viele Nährstoffe aufzunehmen.",
             "FUNC": "Wesentliche Rolle bei der Speicherung und Nutzung von Energie durchden Körper. Wachstum, Erhaltung und Reparatur aller Gewebe und Zellen. Produktion der genetischen Bausteine, DNA und RNA. Aufrechterhaltung des Blut-pH-Werts in einem normalen Bereich. Abfall herausfiltern in den Nieren. Regulierung der normalen Funktion von Nerven und Muskeln, einschließlich des Herzens.",
             "DEF_1": "Appetitlosigkeit und Gewichtsveränderung",
             "DEF_2": "Angst, Reizbarkeit und Verwirrung",
@@ -765,7 +777,8 @@
             "FACT_7": "Zink könnte die Schwere und Dauer von Erkältungssymptomen reduzieren",
             "FACT_8": "Da es den Zellen hilft, zu wachsen und sich zu vermehren, ist in Zeiten schnellen Wachstums, wie z. B. in der Kindheit, Jugend und Schwangerschaft, ausreichend Zink erforderlich",
             "FACT_9": "Die menschliche Netzhaut hat eine hohe Zinkkonzentration, und Untersuchungen haben gezeigt, dass Nahrungsergänzungsmittel, die sowohl Zink als auch Antioxidantien enthalten, das Fortschreiten von AMD (altersbedingte Makuladegeneration) verzögern können",
-            "FACT_10": "Forscher gehen davon aus, dass Zinkmangel beim Fortschreiten von Diabetes eine Rolle spielen könnte. Die bisherigen Beweise reichen nicht aus, um irgendwelche Schlussfolgerungen zu stützen"
+            "FACT_10": "Forscher gehen davon aus, dass Zinkmangel beim Fortschreiten von Diabetes eine Rolle spielen könnte. Die bisherigen Beweise reichen nicht aus, um irgendwelche Schlussfolgerungen zu stützen",
+            "FACT_11": "Zink und Kupfer stören sich gegenseitig bei der Aufnahme, daher wird empfohlen, sie zu unterschiedlichen Zeiten einzunehmen, z. B. morgens und abends."
         }
     },
     "WAIST": {
