@@ -3,6 +3,7 @@ import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
 import ContentsList from "src/part/contents-list";
+import { useScrollSpy } from "src/hooks";
 
 export default function Productivity() {
     const LIST2_COUNT = 8;
@@ -12,8 +13,7 @@ export default function Productivity() {
 
     const CONTENTS_COUNT = 6;
 
-    document.getElementById("root").setAttribute("data-bs-spy", "scroll");
-    document.getElementById("root").setAttribute("data-bs-target", "#contents-list");
+    useScrollSpy("root", "contents-list");
 
     return <>
         <NavigationBar />
