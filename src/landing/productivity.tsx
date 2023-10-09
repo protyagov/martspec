@@ -49,7 +49,7 @@ export default function Productivity() {
                                 {
                                     [...Array(LIST2_COUNT)].map((li, idx) => (
                                         <li key={"LIST2_LI" + ++idx}>
-                                            <b>{_("PRODUCTIVITY.LIST2.LI" + idx + "_HEAD")}</b>
+                                            <strong>{_("PRODUCTIVITY.LIST2.LI" + idx + "_HEAD")}</strong>
                                             <span>{" "} {_("PRODUCTIVITY.LIST2.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
@@ -81,7 +81,7 @@ export default function Productivity() {
                                 {
                                     [...Array(LIST5_COUNT)].map((li, idx) => (
                                         <li key={"LIST5_LI" + ++idx}>
-                                            <b>{_("PRODUCTIVITY.LIST5.LI" + idx + "_HEAD")}</b>
+                                            <strong>{_("PRODUCTIVITY.LIST5.LI" + idx + "_HEAD")}</strong>
                                             <span>{" "} {_("PRODUCTIVITY.LIST5.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
