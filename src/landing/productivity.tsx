@@ -23,7 +23,7 @@ export default function Productivity() {
             <section className="pb-3 text-center">
                 <div className="row">
                     <div className="col">
-                        <img src="/img/productivity.webp" className="ms-base-image" alt={_("PRODUCTIVITY.IMG")} height={512} width={512} />
+                        <img src="/img/productivity.webp" className="ms-base-image" alt={_("PRODUCTIVITY.IMG")} height={390} width={410} />
                         <h1 className="text-center pt-3 mb-5">{_("PRODUCTIVITY.HEAD")}</h1>
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
                             target="_blank" title={_("PRODUCTIVITY.DWN")} className="ms-btn-apple mt-5"
