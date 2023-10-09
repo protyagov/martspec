@@ -48,7 +48,7 @@ export default function Productivity() {
                             <ul className="ms-5">
                                 {
                                     [...Array(LIST2_COUNT)].map((li, idx) => (
-                                        <li key={"LIST2_LI" + ++idx} className="mb-0">
+                                        <li key={"LIST2_LI" + ++idx}>
                                             <b>{_("PRODUCTIVITY.LIST2.LI" + idx + "_HEAD")}</b>
                                             <span>{" "} {_("PRODUCTIVITY.LIST2.LI" + idx + "_TEXT")}</span>
                                         </li>
@@ -80,7 +80,7 @@ export default function Productivity() {
                             <ul className="ms-5">
                                 {
                                     [...Array(LIST5_COUNT)].map((li, idx) => (
-                                        <li key={"LIST5_LI" + ++idx} className="mb-0">
+                                        <li key={"LIST5_LI" + ++idx}>
                                             <b>{_("PRODUCTIVITY.LIST5.LI" + idx + "_HEAD")}</b>
                                             <span>{" "} {_("PRODUCTIVITY.LIST5.LI" + idx + "_TEXT")}</span>
                                         </li>
@@ -96,7 +96,7 @@ export default function Productivity() {
                             <ul className="ms-5">
                                 {
                                     [...Array(LIST6_1_COUNT)].map((li, idx) => (
-                                        <li key={"LIST6_1_LI" + ++idx} className="mb-0">
+                                        <li key={"LIST6_1_LI" + ++idx}>
                                             <span>{" "} {_("PRODUCTIVITY.LIST6_1.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
@@ -106,7 +106,7 @@ export default function Productivity() {
                             <ul className="ms-5">
                                 {
                                     [...Array(LIST6_2_COUNT)].map((li, idx) => (
-                                        <li key={"LIST6_2_LI" + ++idx} className="mb-0">
+                                        <li key={"LIST6_2_LI" + ++idx}>
                                             <span>{" "} {_("PRODUCTIVITY.LIST6_2.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
