@@ -97,7 +97,7 @@ export default function Productivity() {
                                 {
                                     [...Array(LIST6_1_COUNT)].map((li, idx) => (
                                         <li key={"LIST6_1_LI" + ++idx}>
-                                            <span>{" "} {_("PRODUCTIVITY.LIST6_1.LI" + idx + "_TEXT")}</span>
+                                            <span>{_("PRODUCTIVITY.LIST6_1.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
@@ -107,7 +107,7 @@ export default function Productivity() {
                                 {
                                     [...Array(LIST6_2_COUNT)].map((li, idx) => (
                                         <li key={"LIST6_2_LI" + ++idx}>
-                                            <span>{" "} {_("PRODUCTIVITY.LIST6_2.LI" + idx + "_TEXT")}</span>
+                                            <span>{_("PRODUCTIVITY.LIST6_2.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
