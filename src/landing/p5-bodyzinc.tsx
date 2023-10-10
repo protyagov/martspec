@@ -2,6 +2,8 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
+import ImageI18N from "src/part/img-i18n";
+
 
 export default function P5BodyZinc() {
     return <>
@@ -56,7 +58,8 @@ export default function P5BodyZinc() {
 
 
         <div className="container mb-5 pb-5 text-center">
-            <img src="/img/p_zinc_screens.512.webp" alt={_("MAIN.P4.IMG")} className="ms-base-image" width="512px" height="512px" />
+            {/* <img src='../img/zinc/p_zinc_screen.en.512.webp' alt={_("MAIN.P4.IMG")} className="ms-base-image" width="512px" height="512px" /> */}
+            <ImageI18N src='/img/zinc/p_zinc_screen.en.512.webp' alt={_("MAIN.P4.IMG")} cls="ms-base-image" w={512} h={512} />
         </div>
 
         <Footer />

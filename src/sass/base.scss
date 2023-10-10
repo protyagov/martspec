@@ -21,7 +21,6 @@ html {
     }
 }
 
-
 .ms-base-page {
     flex: 1 0;
     font-size: 1.9rem;
@@ -69,7 +68,8 @@ html {
         color: $ms-color-text-blue;
     }
 
-    li,p {
+    li,
+    p {
         font-family: os3;
         font-size: 1.5rem;
         color: $ms-color-bg-dark;
@@ -91,8 +91,8 @@ html {
     @extend .img-fluid;
     @extend .mx-auto;
 
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    // margin-top: 3rem;
+    // margin-bottom: 3rem;
 
     @include media-breakpoint-down(md) {
         margin-top: 5rem;
