@@ -231,7 +231,7 @@
         "UNIT":"MCG",
         "DEF_COUNT": 2,
         "OVER_COUNT": 1,
-        "FACT_COUNT": 6,
+        "FACT_COUNT": 5,
         "DOSE_RDV": {
             "MALE": [6, 8, 12, 20, 25, 30, 30, 30],
             "FEMA": [6, 8, 12, 20, 25, 30, 30, 30, 30, 30, 35, 35]
