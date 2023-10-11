@@ -328,7 +328,8 @@
             "DEF_4": "Headache, memory loss and fatigue",
             "OVER_1": "30 to 50 mg – would causes skin on the face, arms, and chest turns a reddish color",
             "OVER_2": "1000+ mg can cause hypertension, fatigue, abdominal pain, impaired glucose tolerance and insulin resistance. Please note, that Niacin is almost completely absorbed into your body even when taken in very high doses.",
-            "FACT_1": "Very high doses of nicotinic acid—more than 100 times the RDA—taken for years might be effective treatments for dyslipidemias"
+            "FACT_1": "Very high doses of nicotinic acid—more than 100 times the RDA—taken for years might be effective treatments for dyslipidemias",
+            "FACT_2": "Taking niacin with chromium could lower your blood sugar"
         },
         "VITAMIN_B5": {
             "HEAD": "B5",

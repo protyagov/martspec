@@ -159,7 +159,7 @@
         "UNIT":"MG",
         "DEF_COUNT": 4,
         "OVER_COUNT": 2,
-        "FACT_COUNT": 3,
+        "FACT_COUNT": 2,
         "DOSE_RDV": {
             "MALE": [4, 6, 8, 12, 16, 16, 16, 16],
             "FEMA": [4, 6, 8, 12, 14, 14, 14, 14, 18, 18, 17, 17]
@@ -231,7 +231,7 @@
         "UNIT":"MCG",
         "DEF_COUNT": 2,
         "OVER_COUNT": 1,
-        "FACT_COUNT": 6,
+        "FACT_COUNT": 5,
         "DOSE_RDV": {
             "MALE": [6, 8, 12, 20, 25, 30, 30, 30],
             "FEMA": [6, 8, 12, 20, 25, 30, 30, 30, 30, 30, 35, 35]
@@ -464,7 +464,7 @@
         "TYPE": null,
         "UNIT":"MG",
         "DEF_COUNT": 8,
-        "OVER_COUNT": 6,
+        "OVER_COUNT": 4,
         "FACT_COUNT": 11,
         "DOSE_RDV": {
             "MALE": [11, 7, 10, 8, 11, 8, 8, 8],
