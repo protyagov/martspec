@@ -464,7 +464,7 @@
         "TYPE": null,
         "UNIT":"MG",
         "DEF_COUNT": 8,
-        "OVER_COUNT": 6,
+        "OVER_COUNT": 4,
         "FACT_COUNT": 11,
         "DOSE_RDV": {
             "MALE": [11, 7, 10, 8, 11, 8, 8, 8],
