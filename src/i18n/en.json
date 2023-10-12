@@ -328,7 +328,8 @@
             "DEF_4": "Headache, memory loss and fatigue",
             "OVER_1": "30 to 50 mg – would causes skin on the face, arms, and chest turns a reddish color",
             "OVER_2": "1000+ mg can cause hypertension, fatigue, abdominal pain, impaired glucose tolerance and insulin resistance. Please note, that Niacin is almost completely absorbed into your body even when taken in very high doses.",
-            "FACT_1": "Very high doses of nicotinic acid—more than 100 times the RDA—taken for years might be effective treatments for dyslipidemias"
+            "FACT_1": "Very high doses of nicotinic acid—more than 100 times the RDA—taken for years might be effective treatments for dyslipidemias",
+            "FACT_2": "Taking niacin with chromium may lower blood sugar."
         },
         "VITAMIN_B5": {
             "HEAD": "B5",
@@ -552,12 +553,11 @@
             "DEF_6": "Hair loss, brittle nails",
             "DEF_7": "Insufficient iron intakes during pregnancy increase a woman’s risk of anemia",
             "DEF_8": "12% of infants aged 6 to 11 months in the United States have inadequate iron",
-            "OVER_1": "Toxicity is rare because the body regulates iron absorption and will absorb less if iron stores are adequate",
-            "OVER_2": "Might lead to hemochromatosis, which can cause diabetes, liver damage, and discoloration of the skin",
-            "OVER_3": "Excess iron cannot be excreted by the human body",
-            "OVER_4": "Gastrointestinal effects",
-            "OVER_5": "Between 1983 and 2000, at least 43 U.S. children died from ingesting supplements containing high doses of iron (36–443 mg iron/kg body weight)",
-            "OVER_6": "Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6 in USA",
+            "OVER_1": "Might lead to hemochromatosis, which can cause diabetes, liver damage, and discoloration of the skin",
+            "OVER_2": "Excess iron cannot be excreted by the human body",
+            "OVER_3": "Gastrointestinal effects",
+            "OVER_4": "Between 1983 and 2000, at least 43 U.S. children died from ingesting supplements containing high doses of iron (36–443 mg iron/kg body weight)",
+            "OVER_5": "Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6 in USA",
             "FACT_1": "Animal studies link iron deficiency with mental problems",
             "FACT_2": "World Health Organization: approximately half of the 1.62 billion cases of anemia worldwide are due to iron deficiency",
             "FACT_3": "Supplements containing 25 mg iron or more can reduce zinc absorption",
@@ -1034,55 +1034,6 @@
             }
         }
     },
-    "FOOTER": {
-        "C": "© 2023 Martspec LLC. All rights reserved.",
-        "APPLE_BTN":{
-            "TITLE": "See all martspec applications on our Apple AppStore",
-            "ALT": "See all our apps on Martpsec AppStore at Apple"
-        },
-        "LINKEDIN_BTN": {
-            "TITLE": "Follow us on LinkedIn"
-        },
-        "EMAIL_BTN": {
-            "TITLE": "Contact us by email"
-        },
-        "TWITTER_BTN": {
-            "TITLE": "Follow us on Twitter"
-        },
-        "FACEBOOK_BTN": {
-            "TITLE": "Follow us on Facebook"
-        }
-    },
-    "ERROR": {
-        "404_HEAD": "Page Not Found",
-        "404_TEXT": "This page does not exist. Please make sure you used the correct URL.",
-        "404_BTN": "Home"
-    },
-    "COMING_SOON": {
-        "HEAD": "Under Construction",
-        "TEXT_1": "We are working hard to give you the best experience.",
-        "TEXT_2": "Thank you for your patience.",
-        "BTN": "Home",
-        "CTA": "Follow us"
-    },
-    "MISSION": {
-        "HEAD": "Mission",
-        "M": "We make it quick and easy for everyone to track their health and wellness.",
-        "P1": "Our mission pushes us to do everything possible to expand human potential. We do that by following basic 3 concepts:",
-        "P1_1": "Create groundbreaking technology innovations",
-        "P1_2": "Make our apps more inspiring and beautiful",
-        "P1_3": "Listen to our communities' feedback",
-        "P2": "To achieve our ambition, we are starting with science. Published scientific research and analytics play an important part in the development of enhancements. With our active community, we are looking at ways to track, measure, and employ wellness more efficiently. Feedback is an important tool for unlocking future innovations, including creation of new apps, improvements to existing ones, and even sunsetting apps that do not benefit the people."
-    },
-    "ABOUT": {
-        "HEAD": "About us",
-        "P1": "Martspec was founded 🌱 in the spring of 2020. During that time, many people worked from home and their daily routines changed, causing many to stop exercising regularly. This led to significant changes in their bodies and health.",
-        "P2": "Our wellness apps are specifically crafted to provide users with the tools to cultivate healthy habits. By meticulously tracking their progress, individuals are effectively reminded every day of their unwavering dedication to their health, which ultimately leads to substantial improvements in their overall well-being.",
-        "P3": "Individuals who monitor their well-being daily tend to achieve greater progress compared to those who do not.",
-        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. Our first idea was to create an app that tracks body weight directly from wearable devices. We developed the Body Mass app for Apple Watch, making bodyweight tracking easy and automatically recording measurements in Apple Health. The clean and minimalistic design of the app has made it very popular.",
-        "P5": "One of our latest apps, Emotion, aims to promote mental wellness by providing a fast and easy personality test. In addition to physical wellness and health tracking, we have created our first app, Emotion, to promote mental wellness. Since its creation, this product has received only positive reviews and has almost exclusively 5-star ratings.",
-        "P6": "Our apps are built with cutting-edge technology and are available in multiple languages globally. However, none of that matters. It isn't just about the number of apps and industry-leading software. Martspec is about people. Martspec is about trust in technology that empowers individuals with personal health and wellness."
-    },
     "ANEXIETY": {
         "HEAD": "Anexiety",
         "IMG": "Track your anexiety with our apps",
@@ -1137,7 +1088,56 @@
         "DESK5_4": "Mobile apps can be effective tools for self-management of anxiety in the early stages, but it is always recommended to seek professional advice and support from a qualified professional.",
         "DESK5_5": "In general, the use of mobile applications is a promising direction in diagnosing anxiety. They help people better understand their emotional state, learn to manage anxiety, and improve their quality of life."
     },
-    "TEAM": {
+    "FOOTER": {
+        "C": "© 2023 Martspec LLC. All rights reserved.",
+        "APPLE_BTN":{
+            "TITLE": "See all martspec applications on our Apple AppStore",
+            "ALT": "See all our apps on Martpsec AppStore at Apple"
+        },
+        "LINKEDIN_BTN": {
+            "TITLE": "Follow us on LinkedIn"
+        },
+        "EMAIL_BTN": {
+            "TITLE": "Contact us by email"
+        },
+        "TWITTER_BTN": {
+            "TITLE": "Follow us on Twitter"
+        },
+        "FACEBOOK_BTN": {
+            "TITLE": "Follow us on Facebook"
+        }
+    },
+    "ERROR": {
+        "404_HEAD": "Page Not Found",
+        "404_TEXT": "This page does not exist. Please make sure you used the correct URL.",
+        "404_BTN": "Home"
+    },
+    "COMING_SOON": {
+        "HEAD": "Under Construction",
+        "TEXT_1": "We are working hard to give you the best experience.",
+        "TEXT_2": "Thank you for your patience.",
+        "BTN": "Home",
+        "CTA": "Follow us"
+    },
+    "MISSION": {
+        "HEAD": "Mission",
+        "M": "We make it quick and easy for everyone to track their health and wellness.",
+        "P1": "Our mission pushes us to do everything possible to expand human potential. We do that by following basic 3 concepts:",
+        "P1_1": "Create groundbreaking technology innovations",
+        "P1_2": "Make our apps more inspiring and beautiful",
+        "P1_3": "Listen to our communities' feedback",
+        "P2": "To achieve our ambition, we are starting with science. Published scientific research and analytics play an important part in the development of enhancements. With our active community, we are looking at ways to track, measure, and employ wellness more efficiently. Feedback is an important tool for unlocking future innovations, including creation of new apps, improvements to existing ones, and even sunsetting apps that do not benefit the people."
+    },
+    "ABOUT": {
+        "HEAD": "About us",
+        "P1": "Martspec was founded 🌱 in the spring of 2020. During that time, many people worked from home and their daily routines changed, causing many to stop exercising regularly. This led to significant changes in their bodies and health.",
+        "P2": "Our wellness apps are specifically crafted to provide users with the tools to cultivate healthy habits. By meticulously tracking their progress, individuals are effectively reminded every day of their unwavering dedication to their health, which ultimately leads to substantial improvements in their overall well-being.",
+        "P3": "Individuals who monitor their well-being daily tend to achieve greater progress compared to those who do not.",
+        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. Our first idea was to create an app that tracks body weight directly from wearable devices. We developed the Body Mass app for Apple Watch, making bodyweight tracking easy and automatically recording measurements in Apple Health. The clean and minimalistic design of the app has made it very popular.",
+        "P5": "One of our latest apps, Emotion, aims to promote mental wellness by providing a fast and easy personality test. In addition to physical wellness and health tracking, we have created our first app, Emotion, to promote mental wellness. Since its creation, this product has received only positive reviews and has almost exclusively 5-star ratings.",
+        "P6": "Our apps are built with cutting-edge technology and are available in multiple languages globally. However, none of that matters. It isn't just about the number of apps and industry-leading software. Martspec is about people. Martspec is about trust in technology that empowers individuals with personal health and wellness."
+    },
+       "TEAM": {
         "HEAD": "Our Team",
         "SUBHEAD": "People behind company are as important as the company itself. Meet our highly talented software engineers & designers who make the best wellness apps.",
         "ENGINEER_MOBILE": "Software Engineer",
