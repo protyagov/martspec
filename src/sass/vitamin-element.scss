@@ -39,7 +39,7 @@
       height: 100%;
       width: 100%;
       background-color: var(--vitamin-bg-color);
-      opacity: .07;
+      opacity: 0.07;
     }
   }
 
@@ -53,15 +53,15 @@
       width: max-content;
 
       background-color: transparent;
-      border: 2px solid #EAB839;
+      border: 2px solid #eab839;
       border-radius: 100px;
       padding: $py $px;
-  
+
       font-family: os6;
     }
 
-    .collapse-content {    
-      background-color: #FCF4E1;
+    .collapse-content {
+      background-color: #fcf4e1;
       margin-top: $main-font-size;
       font-family: os4;
 
@@ -69,7 +69,6 @@
         padding: $py $px;
       }
     }
-    
   }
 
   .vit-def,
@@ -87,8 +86,8 @@
 
   .vit-def {
     h3 {
-      $c: #2387D8;
-  
+      $c: #2387d8;
+
       color: $c;
       border-bottom: 2px solid $c;
       text-align: center;
@@ -97,7 +96,7 @@
 
   .vit-over {
     h3 {
-      $c: #FF6584;
+      $c: #ff6584;
 
       color: $c;
       border-bottom: 2px solid $c;
@@ -110,11 +109,11 @@
     font-family: os4;
 
     * {
-      border-color: #CAC6C6;
+      border-color: #cac6c6;
     }
 
     thead {
-      background-color: #EDEDED;
+      background-color: #ededed;
     }
   }
 
@@ -130,25 +129,30 @@
     .chart {
       height: 1rem;
 
-      background-color: #3BBB00;
-      opacity: .45;
+      background-color: #3bbb00;
+      opacity: 0.45;
     }
   }
 
   .vit-facts {
     li {
       display: flex;
-      align-items: start;
+      align-items: center;
       line-height: 2.2rem;
 
       &::marker {
         list-style-type: none;
       }
       &::before {
-        content: "●";
-        color: #A7E08C;
-        font-size: 250%;
-        margin-top: -.3rem;
+        content: " ";
+        border: 0.625rem solid #a7e08c;
+        border-radius: 99rem;
+        height: 0;
+        width: 0;
+        // content: "●";
+        // color: #A7E08C;
+        // font-size: 250%;
+        margin-top: -0.3rem;
         margin-right: 1rem;
       }
     }
