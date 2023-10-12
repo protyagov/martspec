@@ -17,7 +17,7 @@ module.exports = {
         publicPath: "/"
     },
     plugins: [
-        // --------------- Static Content EN --------------- 
+        // --------------- Static Content EN ---------------
         new HtmlWebpackPlugin({ template: './src/template/en/main.ejs', filename: 'index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/bodymass.ejs', filename: 'bodymass/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/electrolyte.ejs', filename: 'electrolyte/index.html', inject: 'body' }),
@@ -60,7 +60,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: './src/template/en/vitamin/sodium.ejs', filename: 'vitamin/sodium/index.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/vitamin/zinc.ejs', filename: 'vitamin/zinc/index.html', inject: 'body' }),
 
-        // --------------- Static Content EN Without Slash--------------- 
+        // --------------- Static Content EN Without Slash---------------
         new HtmlWebpackPlugin({ template: './src/template/en/bodymass.ejs', filename: 'bodymass.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/electrolyte.ejs', filename: 'electrolyte.html', inject: 'body' }),
         new HtmlWebpackPlugin({ template: './src/template/en/vitamin.ejs', filename: 'vitamin.html', inject: 'body' }),
@@ -123,6 +123,7 @@ module.exports = {
                 { context: 'src/img/', from: '*.webp', to: "img" },
                 { context: 'src/img/', from: '*.jpg', to: "img" },
                 { context: 'src/img/personality_traits/', from: '*.webp', to: "img" },
+                { context: 'src/img/zinc/', from: '*', to: "img/zinc" },
                 { context: 'src/img/icon/', from: '*', to: "icon" },
                 { context: 'src/img/apple_btn/', from: '*', to: "img/apple_btn" },
                 { context: 'src/data/', from: '*.json', to: "data" },

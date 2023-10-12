@@ -328,7 +328,8 @@
             "DEF_4": "Headache, memory loss and fatigue",
             "OVER_1": "30 to 50 mg – would causes skin on the face, arms, and chest turns a reddish color",
             "OVER_2": "1000+ mg can cause hypertension, fatigue, abdominal pain, impaired glucose tolerance and insulin resistance. Please note, that Niacin is almost completely absorbed into your body even when taken in very high doses.",
-            "FACT_1": "Very high doses of nicotinic acid—more than 100 times the RDA—taken for years might be effective treatments for dyslipidemias"
+            "FACT_1": "Very high doses of nicotinic acid—more than 100 times the RDA—taken for years might be effective treatments for dyslipidemias",
+            "FACT_2": "Taking niacin with chromium may lower blood sugar."
         },
         "VITAMIN_B5": {
             "HEAD": "B5",
@@ -552,12 +553,11 @@
             "DEF_6": "Hair loss, brittle nails",
             "DEF_7": "Insufficient iron intakes during pregnancy increase a woman’s risk of anemia",
             "DEF_8": "12% of infants aged 6 to 11 months in the United States have inadequate iron",
-            "OVER_1": "Toxicity is rare because the body regulates iron absorption and will absorb less if iron stores are adequate",
-            "OVER_2": "Might lead to hemochromatosis, which can cause diabetes, liver damage, and discoloration of the skin",
-            "OVER_3": "Excess iron cannot be excreted by the human body",
-            "OVER_4": "Gastrointestinal effects",
-            "OVER_5": "Between 1983 and 2000, at least 43 U.S. children died from ingesting supplements containing high doses of iron (36–443 mg iron/kg body weight)",
-            "OVER_6": "Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6 in USA",
+            "OVER_1": "Might lead to hemochromatosis, which can cause diabetes, liver damage, and discoloration of the skin",
+            "OVER_2": "Excess iron cannot be excreted by the human body",
+            "OVER_3": "Gastrointestinal effects",
+            "OVER_4": "Between 1983 and 2000, at least 43 U.S. children died from ingesting supplements containing high doses of iron (36–443 mg iron/kg body weight)",
+            "OVER_5": "Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6 in USA",
             "FACT_1": "Animal studies link iron deficiency with mental problems",
             "FACT_2": "World Health Organization: approximately half of the 1.62 billion cases of anemia worldwide are due to iron deficiency",
             "FACT_3": "Supplements containing 25 mg iron or more can reduce zinc absorption",

@@ -69,7 +69,8 @@ html {
         color: $ms-color-text-blue;
     }
 
-    li,p {
+    li,
+    p {
         font-family: os3;
         font-size: 1.5rem;
         margin-bottom: 3rem;
@@ -88,8 +89,8 @@ html {
     @extend .img-fluid;
     @extend .mx-auto;
 
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    // margin-top: 3rem;
+    // margin-bottom: 3rem;
 
     @include media-breakpoint-down(md) {
         margin-top: 5rem;
