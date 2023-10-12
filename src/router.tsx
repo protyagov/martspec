@@ -16,6 +16,7 @@ import About from "src/landing/about";
 import Mission from "src/landing/mission";
 import Team from "src/landing/team";
 import ComingSoon from "src/landing/coming-soon";
+import Anxiety from "./landing/anxiety";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -47,6 +48,8 @@ export function App() {
             return <P7Emotion />;
         case "/emotion/biorhythms":
             return <Biorhythms />
+        case "/emotion/anxiety":
+            return <Anxiety />
         case "/bodysize":
             return <P6BodySize />;
         case "/privacy-policy":

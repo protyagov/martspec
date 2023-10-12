@@ -209,7 +209,7 @@ export default function P7Emotion() {
                             <div className="block bg-violet">
                                 <h4>{_("EMOTION.LIST6.LI1_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI1_TEXT")}</p>
-                                <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={Locale.i18nLink("emotion/anxiety")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
                         <div className="col-lg-6 pb-4">
