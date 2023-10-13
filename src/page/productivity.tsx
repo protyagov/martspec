@@ -6,10 +6,12 @@ import ContentsList from "src/part/contents-list";
 import { useScrollSpy } from "src/hooks";
 
 export default function Productivity() {
-    const LIST2_COUNT = 8;
-    const LIST5_COUNT = 7;
-    const LIST6_1_COUNT = 10;
-    const LIST6_2_COUNT = 5;
+    const LISTS_COUNT = {
+        LIST2: 8,
+        LIST5: 7,
+        LIST6_1: 10,
+        LIST6_2: 5,
+    };
 
     const CONTENTS_COUNT = 6;
 
@@ -47,7 +49,7 @@ export default function Productivity() {
                             <p>{_("PRODUCTIVITY.DESK2")}</p>
                             <ul className="ms-5">
                                 {
-                                    [...Array(LIST2_COUNT)].map((li, idx) => (
+                                    [...Array(LISTS_COUNT.LIST2)].map((li, idx) => (
                                         <li key={"LIST2_LI" + ++idx}>
                                             <strong>{_("PRODUCTIVITY.LIST2.LI" + idx + "_HEAD")}</strong>
                                             <span>{" " + _("PRODUCTIVITY.LIST2.LI" + idx + "_TEXT")}</span>
@@ -79,7 +81,7 @@ export default function Productivity() {
                             <p>{_("PRODUCTIVITY.DESK5_1")}</p>
                             <ul className="ms-5">
                                 {
-                                    [...Array(LIST5_COUNT)].map((li, idx) => (
+                                    [...Array(LISTS_COUNT.LIST5)].map((li, idx) => (
                                         <li key={"LIST5_LI" + ++idx}>
                                             <strong>{_("PRODUCTIVITY.LIST5.LI" + idx + "_HEAD")}</strong>
                                             <span>{" " + _("PRODUCTIVITY.LIST5.LI" + idx + "_TEXT")}</span>
@@ -95,7 +97,7 @@ export default function Productivity() {
                             <p>{_("PRODUCTIVITY.DESK6_1")}</p>
                             <ul className="ms-5">
                                 {
-                                    [...Array(LIST6_1_COUNT)].map((li, idx) => (
+                                    [...Array(LISTS_COUNT.LIST6_1)].map((li, idx) => (
                                         <li key={"LIST6_1_LI" + ++idx}>
                                             <span>{_("PRODUCTIVITY.LIST6_1.LI" + idx + "_TEXT")}</span>
                                         </li>
@@ -105,7 +107,7 @@ export default function Productivity() {
                             <p>{_("PRODUCTIVITY.DESK6_2")}</p>
                             <ul className="ms-5">
                                 {
-                                    [...Array(LIST6_2_COUNT)].map((li, idx) => (
+                                    [...Array(LISTS_COUNT.LIST6_2)].map((li, idx) => (
                                         <li key={"LIST6_2_LI" + ++idx}>
                                             <span>{_("PRODUCTIVITY.LIST6_2.LI" + idx + "_TEXT")}</span>
                                         </li>
