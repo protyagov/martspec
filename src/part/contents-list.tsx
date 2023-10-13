@@ -13,10 +13,10 @@ export default function ContentsList(props: ContentsListProps) {
     return (
         <div id="contents-list" className="list-group">
             {
-                [...Array(CONTENTS_COUNT)].map((para, idx) => (
+                [...Array(CONTENTS_COUNT)].map((section, idx) => (
                     <a
-                        href={"#para-" + ++idx}
-                        key={PAGE + "-para-" + idx}
+                        href={"#section-" + ++idx}
+                        key={"section-" + idx}
                         className="list-group-item list-group-item-action"
                     >
                         {_(PAGE + ".HEAD" + idx)}
