@@ -225,6 +225,9 @@
     background: #F8F8F8;
     border-radius: 2.4rem;
     padding: 2.25rem;
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 1.85rem;
+    }
     h3 {
       font-family: os5;
       margin-top: 0;
