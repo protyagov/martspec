@@ -1,21 +1,22 @@
 import * as React from "react";
-import MainPage from "src/landing/main";
+import MainPage from "src/page/main";
 import Error_404 from 'src/error/404';
-import P4WaistLine from "./landing/p4-waist";
-import P1Electrolyte from "./landing/p1-electrolyte";
-import P2bodymass from "./landing/p2-mass";
-import Vitamin from "./landing/vitamin";
-import VitaminElement from "./landing/vitamin-element";
-import PrivacyPolicy from "./landing/private-policy";
+import P4WaistLine from "./page/p4-waist";
+import P1Electrolyte from "./page/p1-electrolyte";
+import P2bodymass from "./page/p2-mass";
+import Vitamin from "./page/vitamin";
+import VitaminElement from "./page/vitamin-element";
+import PrivacyPolicy from "./page/private-policy";
 import { Locale } from "src/i18n/locale";
-import P5BodyZinc from "./landing/p5-bodyzinc";
-import P6BodySize from "./landing/p6-bodysize";
-import P7Emotion from "./landing/p7-emotion";
-import Biorhythms from "./landing/biorhythms";
-import About from "src/landing/about";
-import Mission from "src/landing/mission";
-import Team from "src/landing/team";
-import ComingSoon from "src/landing/coming-soon";
+import P5BodyZinc from "./page/p5-bodyzinc";
+import P6BodySize from "./page/p6-bodysize";
+import P7Emotion from "./page/p7-emotion";
+import Productivity from "./page/productivity";
+import Biorhythms from "./page/biorhythms";
+import About from "src/page/about";
+import Mission from "src/page/mission";
+import Team from "src/page/team";
+import ComingSoon from "src/page/coming-soon";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -45,6 +46,8 @@ export function App() {
             return <P5BodyZinc />;
         case "/emotion":
             return <P7Emotion />;
+        case "/emotion/productivity":
+            return <Productivity />;
         case "/emotion/biorhythms":
             return <Biorhythms />
         case "/bodysize":
