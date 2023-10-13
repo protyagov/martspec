@@ -46,7 +46,7 @@ export function App() {
             return <P5BodyZinc />;
         case "/emotion":
             return <P7Emotion />;
-        case "/productivity":
+        case "/emotion/productivity":
             return <Productivity />;
         case "/biorhythms":
             return <Biorhythms />
