@@ -4,7 +4,7 @@ import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
 import ImageI18N from "src/part/img-i18n";
 
-export default function P6BodySize() {
+export default function BodySize() {
     return <>
         <NavigationBar />
 

@@ -3,7 +3,7 @@ import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
 
-export default function P1Electrolyte() {
+export default function Electrolyte() {
     return <>
         <NavigationBar />
 
