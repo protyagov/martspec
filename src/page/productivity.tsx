@@ -15,7 +15,7 @@ export default function Productivity() {
 
     const CONTENTS_COUNT = 6;
 
-    useScrollSpy("root", "contents-list");
+    useScrollSpy("contents-list");
 
     return <>
         <NavigationBar />
