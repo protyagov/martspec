@@ -5,7 +5,7 @@ import NavigationBar from "src/part/navbar";
 import ImageI18N from "src/part/img-i18n";
 
 
-export default function P5BodyZinc() {
+export default function BodyZinc() {
     return <>
         <NavigationBar />
 
