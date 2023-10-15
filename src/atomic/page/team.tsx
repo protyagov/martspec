@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Footer } from "src/part/footer";
-import NavigationBar from "src/part/navbar";
+import { Footer } from "src/atomic/organism/footer";
+import NavigationBar from "src/atomic/organism/navbar";
 import _ from "src/i18n/locale";
-import TeamMember from "src/part/teamMember";
+import TeamMember from "src/atomic/molecule/teamMember";
 import teamData from "src/data/team.json";
 
 export default function Team() {
