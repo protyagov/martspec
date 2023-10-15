@@ -1,13 +1,17 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
 @import 'atom/font.scss';
-@import 'page/base.scss';
-@import 'organism/navigation.scss';
-@import 'molecule/section.scss';
-@import 'organism/footer.scss';
 @import 'atom/button.scss';
+
+@import 'molecule/section.scss';
+
+@import 'organism/navigation.scss';
+@import 'organism/footer.scss';
+@import 'organism/social-bar.scss';
+
+@import 'page/base.scss';
 @import 'page/team.scss';
 @import 'page/vitamin.scss';
 @import 'page/vitamin-element.scss';
 @import 'page/emotion.scss';
 @import 'page/biorhythms.scss';
-@import 'organism/social-bar.scss';
