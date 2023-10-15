@@ -4,7 +4,7 @@ import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
 import ImageI18N from "src/part/img-i18n";
 
-export default function P7Emotion() {
+export default function Emotion() {
     return <>
         <NavigationBar />
 
@@ -216,7 +216,7 @@ export default function P7Emotion() {
                             <div className="block bg-green">
                                 <h4>{_("EMOTION.LIST6.LI2_HEAD")}</h4>
                                 <p>{_("EMOTION.LIST6.LI2_TEXT")}</p>
-                                <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                                <a href={Locale.i18nLink("emotion/productivity")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                             </div>
                         </div>
 

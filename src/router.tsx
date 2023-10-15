@@ -1,22 +1,23 @@
 import * as React from "react";
-import MainPage from "src/landing/main";
+import MainPage from "src/page/main";
 import Error_404 from 'src/error/404';
-import P4WaistLine from "./landing/p4-waist";
-import P1Electrolyte from "./landing/p1-electrolyte";
-import P2bodymass from "./landing/p2-mass";
-import Vitamin from "./landing/vitamin";
-import VitaminElement from "./landing/vitamin-element";
-import PrivacyPolicy from "./landing/private-policy";
+import WaistLine from "./page/waist";
+import Electrolyte from "./page/electrolyte";
+import Bodymass from "./page/mass";
+import Vitamin from "./page/vitamin";
+import VitaminElement from "./page/vitamin-element";
+import PrivacyPolicy from "./page/private-policy";
 import { Locale } from "src/i18n/locale";
-import P5BodyZinc from "./landing/p5-bodyzinc";
-import P6BodySize from "./landing/p6-bodysize";
-import P7Emotion from "./landing/p7-emotion";
-import Biorhythms from "./landing/biorhythms";
-import About from "src/landing/about";
-import Mission from "src/landing/mission";
-import Team from "src/landing/team";
-import ComingSoon from "src/landing/coming-soon";
-import Anxiety from "./landing/anxiety";
+import BodyZinc from "./page/bodyzinc";
+import BodySize from "./page/bodysize";
+import Emotion from "./page/emotion";
+import Productivity from "./page/productivity";
+import Biorhythms from "./page/biorhythms";
+import About from "src/page/about";
+import Mission from "src/page/mission";
+import Team from "src/page/team";
+import ComingSoon from "src/page/coming-soon";
+import Anxiety from "./page/anxiety";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -35,23 +36,25 @@ export function App() {
         case "/":
             return <MainPage />;
         case "/electrolyte":
-            return <P1Electrolyte />;
+            return <Electrolyte />;
         case "/bodymass":
-            return <P2bodymass />;
+            return <Bodymass />;
         case "/waistline":
-            return <P4WaistLine />;
+            return <WaistLine />;
         case "/vitamin":
             return <Vitamin />;
         case "/bodyzinc":
-            return <P5BodyZinc />;
+            return <BodyZinc />;
         case "/emotion":
-            return <P7Emotion />;
+            return <Emotion />;
+        case "/emotion/productivity":
+            return <Productivity />;
         case "/emotion/biorhythms":
             return <Biorhythms />
         case "/emotion/anxiety":
             return <Anxiety />
         case "/bodysize":
-            return <P6BodySize />;
+            return <BodySize />;
         case "/privacy-policy":
             return <PrivacyPolicy />;
         case "/about":
