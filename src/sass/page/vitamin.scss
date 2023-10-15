@@ -1,6 +1,6 @@
-@import "font.scss";
-@import "color.scss";
-@import "base.scss";
+@import "../atom/font.scss";
+@import "../atom/color.scss";
+@import "../page/base.scss";
 
 .vitamin {
   $green-light: #EEFDE7;
