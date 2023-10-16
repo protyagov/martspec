@@ -209,12 +209,12 @@
             "FUNC": "Antioxidative Eigenschaften, Augengesundheit, Immun- und Fortpflanzungsfunktion. Anpassung an dunkle Bedingungen. Produktion und Aktivität weißer Blutkörperchen.",
             "DEF_1": "Augenprobleme, einschließlich Nachtblindheit",
             "DEF_2": "Trockene holprige Haut",
-            "DEF_3": "Übelkeit, Erbrechen, Appetitlosigkeit, Gelenkschmerzen, vorübergehender Anstieg der Körpertemperatur",
+            "DEF_3": "Chronischer Mangel kann mit abnormaler Lungenentwicklung und Atemwegserkrankungen in Verbindung gebracht werden",
             "DEF_4": "Erhöhter Schweregrad von Infektionen, insbesondere im Rachen oder Bauch",
             "DEF_5": "Ein Hauptrisikofaktor für schwere Masern",
             "OVER_1": "Hauttrocknung und Farbveränderung, Risse an den Fingern",
             "OVER_2": "Trockene Lippen, Mund und Nase",
-            "OVER_3": "Verschwommenes Sehen, Nachtblindheit, Empfindlichkeit gegenüber hellem Licht wie Sonnenlicht, trockene Augen",
+            "OVER_3": "Übelkeit, Erbrechen, Appetitlosigkeit, Gelenkschmerzen, vorübergehender Anstieg der Körpertemperatur",
             "OVER_4": "Längere Überbeanspruchung kann zu hohen Cholesterinwerten und Veränderungen der Knochenbildung führen → Risiko von Knochenschwund",
             "OVER_5": "Kann die wohltuenden Wirkungen von Vitamin D beeinträchtigen",
             "FACT_1": "Vitamin A ist am Wachstum aller Körpergewebe beteiligt, einschließlich Haut und Haar",
@@ -238,7 +238,7 @@
             "FACT_3": "Ein hoher Körperfettanteil kann die Aufnahme von Vitamin D aus der Haut einschränken (BMI von 30+) ",
             "FACT_4": "Klinische Studien: Vitamin-D-Präparate verhindern oder behandeln depressive Symptome oder leichte Depressionen NICHT",
             "FACT_5": "Kein solider Beweis, dass D hilft, Multiple Sklerose zu verhindern",
-            "FACT_6": "Vitamin D ist kein Vitamin, sondern ein Hormon",
+            "FACT_6": "Vitamin D ist nicht nur ein Vitamin, sondern auch ein Hormon",
             "FACT_7": "Hohe Mengen an Vitamin D fördern nicht die Gewichtsabnahme"
         },
         "VITAMIN_E": {

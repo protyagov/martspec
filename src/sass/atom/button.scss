@@ -1,0 +1,67 @@
+@import "../page/base.scss";
+
+.ms-btn {
+    @extend .btn;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-family: os6; // padding: 3rem 4÷rem;
+    text-transform: uppercase;
+    background-color: $ms-color-button;
+
+    &:hover {
+        background-color: $ms-color-button-hover;
+    }
+
+    &:active {
+        background-color: $ms-color-button-active !important;
+    }
+}
+
+.ms-btn-large {
+    @extend .ms-btn;
+    color: white !important;
+    font-family: os6;
+    padding: 0.9rem 3+rem;
+    border-radius: 2.1rem;
+}
+
+.ms-btn-lang {
+    @extend .btn;
+    @extend .btn-link;
+    @extend .nav-link;
+    color: white;
+
+    &:active {
+        color: #fff;
+        background-color: $ms-color-text-blue;
+        border: none;
+    }
+
+    &:focus {
+        border: none;
+    }
+
+    &:hover {
+        text-decoration: underline;
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+.ms-btn-apple {
+    background-size: cover;
+    display: inline-block;
+
+    width: 150px;
+    height: 50px;
+
+    @include media-breakpoint-down(sm) {
+        width: 120px;
+        height: 40px;
+    }
+
+    &:hover,
+    &:focus {
+        filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(23deg) brightness(108%) contrast(101%);
+    }
+}

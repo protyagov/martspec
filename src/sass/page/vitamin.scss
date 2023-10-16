@@ -1,0 +1,235 @@
+@import "../atom/font.scss";
+@import "../atom/color.scss";
+@import "../page/base.scss";
+
+.vitamin {
+  $green-light: #EEFDE7;
+  $blue-light: #EFF9FF;
+  $blue-accent: $ms-color-button-hover;
+
+  & > *,
+  .ms-mb-8 {
+    margin-bottom: 8rem !important;
+  }
+
+  * {
+    line-height: 150%;
+    font-family: os4;
+    color: $ms-color-text-darker;
+  }
+
+  h2 {
+    color: $blue-accent;
+    font-size: 2.5rem;
+    line-height: 120%;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    color: $ms-color-text-darker;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h2,
+  h3,
+  .vit-name {
+    overflow-wrap: anywhere;
+  }
+
+  .vitamin-block {
+    padding: 3rem;
+    border-radius: 3rem;
+    text-align: left;
+
+    &.row > * {
+      padding: 0 !important;
+    }
+
+    &.bg-blue {
+      background-color: $blue-light;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    
+    &.bg-green {
+      background-color: $green-light;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    
+    p {
+      font-size: 1.3rem;
+      color: $ms-color-text-gray;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      font-family: os6;
+    }
+
+    .vitamin-img-50 {
+      max-width: 100%;
+      
+      @include media-breakpoint-up(md) {
+        height: 244px;
+        width: 271px;
+      }
+    }
+
+    .vitamin-img-100 {
+      max-width: 100%;
+      
+      @include media-breakpoint-up(md) {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+
+  .vitamin-text-block {
+    * {
+      font-family: os4 !important;
+      color: $ms-color-text-darker !important;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .vitamins-list {
+    font-size: 1.5rem;
+
+    $colors: #EAB839, #54A5D2, #0066CC;
+
+    @for $idx from 1 through 3 {
+      section:nth-child(#{$idx}) {
+        $c: nth($colors, $idx);
+
+        .vit-head {
+          background-color: $c;
+          color: #FFFFFF;
+        }
+  
+        .vit-icon {
+          color: $c !important;
+        }
+      }
+    }
+
+    section {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+
+    .vit-item {
+      background-color: #FBF8F7;
+      border: 1px solid #CFCBCB;
+      border-top: none;
+      padding-top: 1.6rem;
+      padding-bottom: 1.6rem;
+
+      & > * {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .vit-header {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding-left: 2vw;
+      padding-right: 2vw;
+      width: 20%;
+    }
+
+    .vit-icon {
+      font-family: os6;
+      font-size: 4rem;
+      line-height: 110%;
+      justify-content: center;
+    }
+  
+    .vit-name {
+      color: $ms-color-text-gray;
+      line-height: 130%;
+    }
+
+    .vit-desk {
+      width: 71.7%;
+    }
+
+    .vit-arrow {
+      width: 8.3%;
+
+      a {
+        height: 100%;
+        width: 100%;
+
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      path {
+        color: $ms-color-button;
+        transition: color .2s;
+      }
+
+      &:hover {
+        path {
+          color: $ms-color-button-hover;
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .vitamins-list {
+      .vit-item {
+        padding: 1rem 5% 1.5rem;
+      }
+
+      .vit-header,
+      .vit-desk {
+        width: 91.3%;
+      }
+
+      .vit-header {
+        flex-direction: row;
+        justify-content: start;
+        align-items: baseline;
+        text-align: start;
+      }
+
+      .vit-name {
+        margin-left: 1rem;
+      }
+
+      .vit-desk {
+        margin-top: .2rem;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .vitamin-block.bg-transparent {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .vitamins-list {
+      section {
+        padding-left: 0;
+        padding-right: 0;
+      }
+  
+      .vit-item {
+        border-right: none !important;
+        border-left: none !important;
+      }
+    }
+  }
+}
