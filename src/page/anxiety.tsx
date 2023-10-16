@@ -3,6 +3,7 @@ import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/part/footer";
 import NavigationBar from "src/part/navbar";
 import ContentsList from "src/part/contents-list";
+import { useScrollSpy } from "src/hooks";
 
 
 export default function Anxiety() {
@@ -13,8 +14,8 @@ export default function Anxiety() {
 
     const CONTENTS_COUNT = 5;
 
-    document.getElementById("root").setAttribute("data-bs-spy", "scroll");
-    document.getElementById("root").setAttribute("data-bs-target", "#contents-list");
+    useScrollSpy("contents-list");
+
 
     return <>
         <NavigationBar />
@@ -37,30 +38,30 @@ export default function Anxiety() {
             <section>    
                 <div className="row">
                     <div className="col-lg-8">
-                        <div id="para-1" className="content-wrapper">
+                        <div id="section-1" className="content-wrapper">
                             <h2>{_("ANXIETY.HEAD1")}</h2>
                             <p>{_("ANXIETY.DESK1_1")}</p>
                             <p>{_("ANXIETY.DESK1_2")}</p>
                             <p>{_("ANXIETY.DESK1_3")}</p>
                         </div>
 
-                        <div id="para-2" className="content-wrapper">
+                        <div id="section-2" className="content-wrapper">
                             <h2>{_("ANXIETY.HEAD2")}</h2>
                             <p>{_("ANXIETY.DESK2")}</p>
                             <ul className="ms-5">
                                 {
                                     [...Array(LIST2_COUNT)].map((li, idx) => (
-                                        <li key={"LIST2_LI" + ++idx} className="mb-0">
+                                        <li key={"LIST2_LI" + ++idx} >
                                             <b>{_("ANXIETY.LIST2.LI" + idx + "_HEAD")}</b>
                                             <span>{" "} {_("ANXIETY.LIST2.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
                             </ul>
-                            <img src="/img/anxiety/anxiety_img_1.webp" className="img-fluid" alt={_("ANXIETY.ALT2")} width={758} height={450} />
+                            <img src="/img/anxiety/anxiety_img_1.webp" className="img-fluid" alt={_("ANXIETY.ALT2")} width={768} height={450}/>
                         </div>
 
-                        <div id="para-3" className="content-wrapper">
+                        <div id="section-3" className="content-wrapper">
                             <h2>{_("ANXIETY.HEAD3")}</h2>
                             <p>{_("ANXIETY.DESK3")}</p>
                             <ul className="ms-5">
@@ -74,23 +75,23 @@ export default function Anxiety() {
                             </ul>
                         </div>
 
-                        <div id="para-4" className="content-wrapper">
+                        <div id="section-4" className="content-wrapper">
                             <h2>{_("ANXIETY.HEAD4")}</h2>
                             <p>{_("ANXIETY.DESK4")}</p>
                             <ul className="ms-5">
                                 {
                                     [...Array(LIST4_COUNT)].map((li, idx) => (
-                                        <li key={"LIST2_LI" + ++idx} className="mb-0">
+                                        <li key={"LIST2_LI" + ++idx}>
                                             <b>{_("ANXIETY.LIST4.LI" + idx + "_HEAD")}</b>
                                             <span>{" "} {_("ANXIETY.LIST4.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
                             </ul>
-                            <img src="/img/anxiety/anxiety_img_2.webp" className="img-fluid" alt={_("ANXIETY.ALT4")} width={758} height={450}/>
+                            <img src="/img/anxiety/anxiety_img_2.webp" className="img-fluid" alt={_("ANXIETY.ALT4")}  width={768} height={450}/>
                         </div>
                 
-                        <div id="para-5" className="content-wrapper">
+                        <div id="section-5" className="content-wrapper">
                             <h2>{_("ANXIETY.HEAD5")}</h2>
                             <p>{_("ANXIETY.DESK5_1")}</p>
                             <p>{_("ANXIETY.DESK5_2")}</p>

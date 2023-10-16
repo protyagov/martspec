@@ -1112,9 +1112,10 @@
         },
         "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning, and the ability to adaptations can lead to success in a wide range of areas."
     },
-    "ANEXIETY": {
-        "HEAD": "Anexiety",
-        "IMG": "Track your anexiety with our apps",
+    "ANXIETY": {
+        "HEAD": "Anxiety",
+        "IMG": "Track your anxiety with our apps",
+        "CONTENTS": "Table of Contents",
         "DWN": "Get our free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store and start tracking your anxiety easier.",
         "HEAD1": "What is anxiety?",
         "DESK1_1": "Anxiety is an emotion characterized by feelings of tension, fear, worry, and even horror. This can make you sweat, feel anxious and tense, and have a racing heart. Anxiety can give you energy or help you focus. But for people with anxiety disorders, fear is not temporary and can be overwhelming.",
