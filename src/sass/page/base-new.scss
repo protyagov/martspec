@@ -161,7 +161,8 @@
       }
 
       &::before {
-        content: url("../img/emotion-check-icon.svg");
+        content: url("../img/checkmark-icon.svg");
+        filter: invert(43%) sepia(46%) saturate(7466%) hue-rotate(265deg) brightness(90%) contrast(85%);
         margin-top: 4px;
         margin-right: 14px;
       }
