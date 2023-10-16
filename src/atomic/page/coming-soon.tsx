@@ -1,6 +1,6 @@
 import * as React from "react";
 import _ from "src/i18n/locale";
-import SocialBar from "src/part/social-bar";
+import SocialBar from "src/atomic/organism/social-bar";
 
 export default function ComingSoon() {
     return <div className="ms-base-page text-center py-5">

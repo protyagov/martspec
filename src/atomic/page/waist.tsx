@@ -1,7 +1,7 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/part/footer";
-import NavigationBar from "src/part/navbar";
+import { Footer } from "src/atomic/organism/footer";
+import NavigationBar from "src/atomic/organism/navbar";
 
 export default function WaistLine() {
     return <>
