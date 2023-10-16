@@ -1032,6 +1032,63 @@
             }
         }
     },
+    "ANXIETY": {
+        "HEAD": "Anxiety",
+        "IMG": "Track your Anxiety with our apps",
+        "CONTENTS": "Table of Contents",
+        "DWN": "Get our free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store and start tracking your anxiety easier.",
+        "HEAD1": "What is anxiety?",
+        "DESK1_1": "Anxiety is an emotion characterized by feelings of tension, fear, worry, and even horror. This can make you sweat, feel anxious and tense, and have a racing heart. Anxiety can give you energy or help you focus. But for people with anxiety disorders, fear is not temporary and can be overwhelming.",
+        "DESK1_2": "Fear is an emotional response to an immediate threat and is more associated with the fight or flight response - either staying to fight or leaving to avoid the danger.",
+        "DESK1_3": "Anxiety disorder is a condition that develops gradually after a period of excessive worry; symptoms may vary in intensity and persist for longer periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. It can affect work productivity, schoolwork and personal relationships.",
+        "HEAD2": "Types of Anxiety Disorders",
+        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:", 
+        "LIST2":{
+            "LI1_HEAD": "Generalized anxiety disorder (GAD).",
+            "LI1_TEXT": "People with GAD worry about common issues such as health, money, work, and family. It often occurs along with other anxiety disorders or depression, and occurs almost every day for several months.",
+            "LI2_HEAD": "Panic disorder.",
+            "LI2_TEXT": "People with panic disorder experience panic attacks. These are sudden, repeated periods of intense fear when there is no danger. The attacks occur quickly and can last several minutes or more.",
+            "LI3_HEAD": "Phobias.",
+            "LI3_TEXT": "People with phobias experience intense fear of something that poses little or no real danger. Their fear may be related to spiders, flying, going to crowded places or social situations."
+        },
+        "ALT2": "An image that shows the Anxiety, which are even easier to track with Martspec applications",
+        "HEAD3": "Symptoms",
+        "DESK3": "Anxiety disorders have many symptoms. Each disorder has different symptoms. Symptoms common to anxiety disorders generally include:",
+        "LIST3": {
+            "LI1_TEXT": "Feeling nervous, anxious, or tense",
+            "LI2_TEXT": "Feelings of impending danger, panic, or doom",
+            "LI3_TEXT": "Cardiopalmus",
+            "LI4_TEXT": "Shiver",
+            "LI5_TEXT": "Feeling weak or tired",
+            "LI6_TEXT": "Trouble concentrating or thinking about anything other than the present concern",
+            "LI7_TEXT": "Sleep problems",
+            "LI8_TEXT": "Problems with the gastrointestinal tract (GIT)",
+            "LI9_TEXT": "Sweaty or cold hands and/or feet"
+        },
+        "HEAD4": "Signs of an anxiety disorder",
+        "DESK4": "The causes of anxiety disorders are currently unknown but likely involve a combination of factors, including genetic, environmental, psychological and developmental. Some factors that have been involved include:",
+        "LIST4":{
+            "LI1_HEAD": "Brain chemistry.",
+            "LI1_TEXT": "Severe or prolonged stress can contribute to changes in the chemical balance in the brain.",
+            "LI2_HEAD": "Experiences.",
+            "LI2_TEXT": "Stressful or traumatic events can also contribute to feelings of anxiety.",
+            "LI3_HEAD": "Family history:",
+            "LI3_TEXT": "Having close family members with symptoms of an anxiety disorder increases the risk that a person will also develop an anxiety disorder",
+            "LI4_HEAD": "Genetic factors.",
+            "LI4_TEXT": "Certain genes may predispose a person to be more likely to develop an anxiety disorder.",
+            "LI5_HEAD": "Medical conditions:",
+            "LI5_TEXT": "Some underlying medical conditions can contribute to anxiety. Some of these include chronic pain, heart disease, diabetes, thyroid problems, respiratory disease, drug use and drug withdrawal.",
+            "LI6_HEAD": "Diet:",
+            "LI6_TEXT": "Recently, more and more people are paying attention to the connection between diet and anxiety. Factors such as GMOs, gluten and pesticides that are present in processed foods can have a negative impact on the health of our gut and microbial colonies. A probiotic supplement high in bifidobacteria may be beneficial in maintaining a healthy composition of intestinal flora."
+        },
+        "ALT4": "An image that shows the Anxiety, which are even easier to track with Martspec applications",
+        "HEAD5": "Diagnosis and treatment",
+        "DESK5_1": "In today's world, anxiety has become a common problem that can seriously affect a person's quality of life and psychological well-being. However, thanks to advancements in technology, we can turn to mobile apps like Emotion and other innovative solutions to diagnose and even help treat anxiety.",
+        "DESK5_2": "The Emotion mobile app offers a convenient and accessible way to assess your anxiety level and receive recommendations on how to manage it. The application provides the ability to track your emotional states and analyze factors that cause anxiety.",
+        "DESK5_3": "Treating anxiety is a complex process that may include psychotherapy, pharmacological therapy, and lifestyle changes. Although each anxiety disorder has unique characteristics, most respond well to two types of treatment: psychotherapy or “talk therapy” and medication. Cognitive behavioral therapy (CBT), a type of talk therapy, can help a person learn different ways of thinking, reacting and behaving to reduce anxiety. Medications will not cure anxiety disorders, but they can significantly relieve symptoms. The most commonly used medications are anti-anxiety medications and antidepressants.",
+        "DESK5_4": "Mobile apps can be effective tools for self-management of anxiety in the early stages, but it is always recommended to seek professional advice and support from a qualified professional.",
+        "DESK5_5": "In general, the use of mobile applications is a promising direction in diagnosing anxiety. They help people better understand their emotional state, learn to manage anxiety, and improve their quality of life."
+    },
     "PRODUCTIVITY": {
         "HEAD": "Productivity",
         "IMG": "",
