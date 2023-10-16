@@ -8,7 +8,7 @@ export default function Emotion() {
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page pb-5 emotion">
+        <div className="ms-base-page ms-base-new emotion pb-5">
 
             <section className="pb-5 text-center">
                 <div className="row">
