@@ -138,14 +138,14 @@ export default function Emotion() {
                             <p>{_("EMOTION.DESK4_1")}</p>
                             <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={512} cls="ms-base-image d-block d-lg-none py-5" alt={_("EMOTION.ALT4")} />
                             <h4 className="mb-4">{_("EMOTION.DESK4_2")}</h4>
-                            <div className="d-flex flex-wrap justify-content-between checkmark-list">
-                                <p>{_("EMOTION.LIST4.LI1_TEXT")}</p>
-                                <p>{_("EMOTION.LIST4.LI2_TEXT")}</p>
-                                <p>{_("EMOTION.LIST4.LI3_TEXT")}</p>
-                                <p>{_("EMOTION.LIST4.LI4_TEXT")}</p>
-                                <p>{_("EMOTION.LIST4.LI5_TEXT")}</p>
-                                <p>{_("EMOTION.LIST4.LI6_TEXT")}</p>
-                            </div>
+                            <ul className="checkmark-list">
+                                <li>{_("EMOTION.LIST4.LI1_TEXT")}</li>
+                                <li>{_("EMOTION.LIST4.LI2_TEXT")}</li>
+                                <li>{_("EMOTION.LIST4.LI3_TEXT")}</li>
+                                <li>{_("EMOTION.LIST4.LI4_TEXT")}</li>
+                                <li>{_("EMOTION.LIST4.LI5_TEXT")}</li>
+                                <li>{_("EMOTION.LIST4.LI6_TEXT")}</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

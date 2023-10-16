@@ -170,12 +170,12 @@ export default function Biorhythms() {
                             <p>{_("BIORHYTHMS.DESK3_1")}</p>
                             <div className="my-5 py-2">
                                 <h4 className="mb-4">{_("BIORHYTHMS.DESK3_2")}</h4>
-                                <div className="d-flex flex-wrap justify-content-between checkmark-list">
-                                <p>{_("BIORHYTHMS.LIST3.LI1_TEXT")}</p>
-                                <p>{_("BIORHYTHMS.LIST3.LI2_TEXT")}</p>
-                                <p>{_("BIORHYTHMS.LIST3.LI3_TEXT")}</p>
-                                <p className="mb-0">{_("BIORHYTHMS.LIST3.LI4_TEXT")}</p>
-                                </div>
+                                <ul className="checkmark-list">
+                                    <li>{_("BIORHYTHMS.LIST3.LI1_TEXT")}</li>
+                                    <li>{_("BIORHYTHMS.LIST3.LI2_TEXT")}</li>
+                                    <li>{_("BIORHYTHMS.LIST3.LI3_TEXT")}</li>
+                                    <li>{_("BIORHYTHMS.LIST3.LI4_TEXT")}</li>
+                                </ul>
                             </div>
                             <ImageI18N src="/img/biorhythms_screen_1.en.512.webp" w={207} h={402} cls="ms-base-image d-block d-lg-none" alt={_("BIORHYTHMS.ALT3")} />
                             <p>{_("BIORHYTHMS.DESK3_3")}</p>

@@ -136,11 +136,29 @@
   }
 
   .checkmark-list {
-    p {
-      flex: 0 0 calc(50% - 0.75rem);
+    $gap-x: 1.5rem;
+    $gap-y: 20px;
+
+    & {
+      width: 100%;
+      padding-left: 0;
+      margin-bottom: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    li {
+      flex: 0 0 calc(50% - #{$gap-x / 2});
 
       display: flex;
-      margin-bottom: 20px;
+      margin-bottom: $gap-y;
+
+      list-style-type: none;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
 
       &::before {
         content: url("../img/emotion-check-icon.svg");
@@ -150,7 +168,7 @@
     }
 
     @include media-breakpoint-down(xl) {
-      p {
+      li {
         flex-basis: 100%;
       }
     }
