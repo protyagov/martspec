@@ -19,7 +19,7 @@ export default function LandingPage() {
                         <h4>{_("MAIN.SUBHEAD")}</h4>
                         <img src="/img/header_watches.webp" width={241} height={160} className="d-block float-end float-sm-start watches-img" alt={_("MAIN.IMG")} />
                     </div>
-                        
+
                     </div>
                 </div>
             </section>
@@ -45,7 +45,7 @@ export default function LandingPage() {
                             <a href={Locale.i18nLink("vitamin")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
-                        
+
                     </div>
                 </div>
             </section>
@@ -143,7 +143,8 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/p_zinc.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ZINC.IMG")} />
+                            {/* <ImageI18N src="/img/p_zinc.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ZINC.IMG")} /> */}
+                            <ImageI18N src="/img/zinc/p_zinc_screen.en.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ZINC.IMG")} />
                         </div>
                         <div className="p-text">
                             <h4>{_("ZINC.TEXT")}</h4>
@@ -201,7 +202,7 @@ export default function LandingPage() {
                             <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large">{_("BTN.MORE")}</a>
                         </div>
                     </div>
-                    
+
                     </div>
                 </div>
             </section>
