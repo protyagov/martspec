@@ -170,7 +170,7 @@ export default function Biorhythms() {
                             <p>{_("BIORHYTHMS.DESK3_1")}</p>
                             <div className="my-5 py-2">
                                 <h4 className="mb-4">{_("BIORHYTHMS.DESK3_2")}</h4>
-                                <div className="d-flex flex-wrap justify-content-between why-list">
+                                <div className="d-flex flex-wrap justify-content-between checkmark-list">
                                 <p>{_("BIORHYTHMS.LIST3.LI1_TEXT")}</p>
                                 <p>{_("BIORHYTHMS.LIST3.LI2_TEXT")}</p>
                                 <p>{_("BIORHYTHMS.LIST3.LI3_TEXT")}</p>
