@@ -75,7 +75,7 @@ export default function Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD2")}</h2>
                             <p>{_("EMOTION.DESK2")}</p>
-                            <a href={Locale.i18nLink("biorhythms")} className="ms-btn-large button">{_("EMOTION.BTN_BIORHYTHM")}</a>
+                            <a href={Locale.i18nLink("emotion/biorhythms")} className="ms-btn-large button">{_("EMOTION.BTN_BIORHYTHM")}</a>
                         </div>
                     </div>
                     <div className="col-lg-6 d-table order-lg-first pt-lg-0 pt-5">
