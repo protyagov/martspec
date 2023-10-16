@@ -58,7 +58,7 @@ export default function Anxiety() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/anxiety/anxiety_img_1.webp" className="img-fluid" alt={_("ANXIETY.ALT2")} width={768} height={450}/>
+                            <img src="/img/anxiety/anxiety-img-1.webp" className="img-fluid" alt={_("ANXIETY.ALT2")} width={768} height={450}/>
                         </div>
 
                         <div id="section-3" className="content-wrapper">
@@ -88,7 +88,7 @@ export default function Anxiety() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/anxiety/anxiety_img_2.webp" className="img-fluid" alt={_("ANXIETY.ALT4")}  width={768} height={450}/>
+                            <img src="/img/anxiety/anxiety-img-2.webp" className="img-fluid" alt={_("ANXIETY.ALT4")}  width={768} height={450}/>
                         </div>
                 
                         <div id="section-5" className="content-wrapper">
