@@ -1,8 +1,8 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/part/footer";
-import NavigationBar from "src/part/navbar";
-import ContentsList from "src/part/contents-list";
+import { Footer } from "src/atomic/organism/footer";
+import NavigationBar from "src/atomic/organism/navbar";
+import ContentsList from "src/atomic/molecule/contents-list";
 import { useScrollSpy } from "src/hooks";
 
 export default function Productivity() {

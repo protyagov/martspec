@@ -1,10 +1,10 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/part/footer";
-import NavigationBar from "src/part/navbar";
-import ImageI18N from "src/part/img-i18n";
+import { Footer } from "src/atomic/organism/footer";
+import NavigationBar from "src/atomic/organism/navbar";
+import ImageI18N from "src/atomic/atom/img-i18n";
 
-export default function P7Emotion() {
+export default function Emotion() {
     return <>
         <NavigationBar />
 
@@ -75,7 +75,7 @@ export default function P7Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD2")}</h2>
                             <p>{_("EMOTION.DESK2")}</p>
-                            <a href={Locale.i18nLink("biorhythms")} className="ms-btn-large button">{_("EMOTION.BTN_BIORHYTHM")}</a>
+                            <a href={Locale.i18nLink("emotion/biorhythms")} className="ms-btn-large button">{_("EMOTION.BTN_BIORHYTHM")}</a>
                         </div>
                     </div>
                     <div className="col-lg-6 d-table order-lg-first pt-lg-0 pt-5">
