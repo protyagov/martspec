@@ -26,6 +26,10 @@
     }
   }
 
+  & {
+    @extend .pb-5;
+  }
+
   h2,
   h3 {
     overflow-wrap: anywhere;
