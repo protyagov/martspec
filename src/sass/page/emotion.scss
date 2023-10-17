@@ -1,4 +1,8 @@
 .emotion {
+  .icon {
+    background: map-get($bgs-new, "violet");
+  }
+
   .how-list {
     padding: 0;
     flex-wrap: wrap;

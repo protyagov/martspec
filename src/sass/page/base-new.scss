@@ -118,11 +118,12 @@
   }
 
   .icon {
-    flex: 0 0 76px;
+    $icon-size: 76px;
 
-    height: 76px;
-    width: 76px;
-    background: map-get($bgs, "violet");
+    flex: 0 0 $icon-size;
+
+    height: $icon-size;
+    width: $icon-size;
     border-radius: 18px;
 
     display: flex;
