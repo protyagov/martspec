@@ -2,17 +2,7 @@
 
   // Add-ons
 
-  $bgs: (
-    "violet": #EDE1FF,
-    "yellow": #FFF9E3,
-    "green": #E8FAE0,
-    "orange": #FDE3CB,
-    "blue": #D6E3FC,
-    "aqua": #D6F7FC,
-    "gray": $ms-color-bg-secondary,
-  );
-
-  @each $color, $hex in $bgs {
+  @each $color, $hex in $bgs-new {
     .bg-#{$color} {
       background: $hex;
     }
