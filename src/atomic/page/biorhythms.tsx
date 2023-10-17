@@ -29,7 +29,7 @@ export default function Biorhythms() {
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page ms-base-new biorhythms">
+        <div className="ms-base-page ms-base-new emotion biorhythms">
 
             <section className="pb-3 text-center">
                 <div className="row">

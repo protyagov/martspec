@@ -20,7 +20,7 @@ export default function Productivity() {
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page ms-page-new personal-trait">
+        <div className="ms-base-page ms-base-new emotion personality-trait">
 
             <section className="pb-3 text-center">
                 <div className="row">
