@@ -1112,16 +1112,17 @@
         },
         "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning, and the ability to adaptations can lead to success in a wide range of areas."
     },
-    "ANEXIETY": {
-        "HEAD": "Anexiety",
-        "IMG": "Track your anexiety with our apps",
+    "ANXIETY": {
+        "HEAD": "Anxiety",
+        "IMG": "Track your anxiety with our apps",
+        "CONTENTS": "Table of Contents",
         "DWN": "Get our free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store and start tracking your anxiety easier.",
         "HEAD1": "What is anxiety?",
         "DESK1_1": "Anxiety is an emotion characterized by feelings of tension, fear, worry, and even horror. This can make you sweat, feel anxious and tense, and have a racing heart. Anxiety can give you energy or help you focus. But for people with anxiety disorders, fear is not temporary and can be overwhelming.",
         "DESK1_2": "Fear is an emotional response to an immediate threat and is more associated with the fight or flight response - either staying to fight or leaving to avoid the danger.",
         "DESK1_3": "Anxiety disorder is a condition that develops gradually after a period of excessive worry; symptoms may vary in intensity and persist for longer periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. It can affect work productivity, schoolwork and personal relationships.",
         "HEAD2": "Types of Anxiety Disorders",
-        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:", 
+        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:",
         "LIST2":{
             "LI1_HEAD": "Generalized anxiety disorder (GAD).",
             "LI1_TEXT": "People with GAD worry about common issues such as health, money, work, and family. It often occurs along with other anxiety disorders or depression, and occurs almost every day for several months.",
@@ -1130,18 +1131,20 @@
             "LI3_HEAD": "Phobias.",
             "LI3_TEXT": "People with phobias experience intense fear of something that poses little or no real danger. Their fear may be related to spiders, flying, going to crowded places or social situations."
         },
-        "ALT2": "An image that shows the Anexiety, which are even easier to track with Martspec applications",
+        "ALT2": "An image that shows the Anxiety, which are even easier to track with Martspec applications",
         "HEAD3": "Symptoms",
         "DESK3": "Anxiety disorders have many symptoms. Each disorder has different symptoms. Symptoms common to anxiety disorders generally include:",
-        "DESK3_1": "Feeling nervous, anxious, or tense",
-        "DESK3_2": "Feelings of impending danger, panic, or doom",
-        "DESK3_3": "Cardiopalmus",
-        "DESK3_4": "Shiver",
-        "DESK3_5": "Feeling weak or tired",
-        "DESK3_6": "Trouble concentrating or thinking about anything other than the present concern",
-        "DESK3_7": "Sleep problems",
-        "DESK3_8": "Problems with the gastrointestinal tract (GIT)",
-        "DESK3_9": "Sweaty or cold hands and/or feet",
+        "LIST3": {
+            "LI1_TEXT": "Feeling nervous, anxious, or tense",
+            "LI2_TEXT": "Feelings of impending danger, panic, or doom",
+            "LI3_TEXT": "Cardiopalmus",
+            "LI4_TEXT": "Shiver",
+            "LI5_TEXT": "Feeling weak or tired",
+            "LI6_TEXT": "Trouble concentrating or thinking about anything other than the present concern",
+            "LI7_TEXT": "Sleep problems",
+            "LI8_TEXT": "Problems with the gastrointestinal tract (GIT)",
+            "LI9_TEXT": "Sweaty or cold hands and/or feet"
+        },
         "HEAD4": "Signs of an anxiety disorder",
         "DESK4": "The causes of anxiety disorders are currently unknown but likely involve a combination of factors, including genetic, environmental, psychological and developmental. Some factors that have been involved include:",
         "LIST4":{
@@ -1158,7 +1161,7 @@
             "LI6_HEAD": "Diet:",
             "LI6_TEXT": "Recently, more and more people are paying attention to the connection between diet and anxiety. Factors such as GMOs, gluten and pesticides that are present in processed foods can have a negative impact on the health of our gut and microbial colonies. A probiotic supplement high in bifidobacteria may be beneficial in maintaining a healthy composition of intestinal flora."
         },
-        "ALT4": "An image that shows the Anexiety, which are even easier to track with Martspec applications",
+        "ALT4": "An image that shows the Anxiety, which are even easier to track with Martspec applications",
         "HEAD5": "Diagnosis and treatment",
         "DESK5_1": "In today's world, anxiety has become a common problem that can seriously affect a person's quality of life and psychological well-being. However, thanks to advancements in technology, we can turn to mobile apps like Emotion and other innovative solutions to diagnose and even help treat anxiety.",
         "DESK5_2": "The Emotion mobile app offers a convenient and accessible way to assess your anxiety level and receive recommendations on how to manage it. The application provides the ability to track your emotional states and analyze factors that cause anxiety.",
@@ -1215,7 +1218,7 @@
         "P5": "One of our latest apps, Emotion, aims to promote mental wellness by providing a fast and easy personality test. In addition to physical wellness and health tracking, we have created our first app, Emotion, to promote mental wellness. Since its creation, this product has received only positive reviews and has almost exclusively 5-star ratings.",
         "P6": "Our apps are built with cutting-edge technology and are available in multiple languages globally. However, none of that matters. It isn't just about the number of apps and industry-leading software. Martspec is about people. Martspec is about trust in technology that empowers individuals with personal health and wellness."
     },
-    "TEAM": {
+       "TEAM": {
         "HEAD": "Our Team",
         "SUBHEAD": "People behind company are as important as the company itself. Meet our highly talented software engineers & designers who make the best wellness apps.",
         "ENGINEER_MOBILE": "Software Engineer",
