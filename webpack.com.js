@@ -128,6 +128,7 @@ module.exports = {
                 { context: 'src/img/zinc/', from: '*', to: "img/zinc" },
                 { context: 'src/img/anxiety/', from: '*', to: "img/anxiety" },
                 { context: 'src/img/page/emotion/', from: '*', to: "img/page/emotion" },
+                { context: 'src/img/page/body_mass/', from: '*', to: "img/page/body_mass" },
                 { context: 'src/img/icon/', from: '*', to: "icon" },
                 { context: 'src/img/apple_btn/', from: '*', to: "img/apple_btn" },
                 { context: 'src/data/', from: '*.json', to: "data" },
