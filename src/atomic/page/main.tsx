@@ -57,14 +57,14 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_size.svg" className="img-fluid me-3" height={48} width={48} alt={_("SIZE.ICO")} />
+                            <img src="/img/page/body_size/logo_size.svg" className="img-fluid me-3" height={48} width={48} alt={_("SIZE.ICO")} />
                             <div>
                                 <h1>{_("SIZE.HEAD")}</h1>
                                 <p>{_("SIZE.SUBHEAD")}</p>
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/size.en.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("SIZE.IMG")} />
+                            <ImageI18N src="/img/page/body_size/size.en.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("SIZE.IMG")} />
                         </div>
                         <div className="p-text">
                             <h4>{_("SIZE.TEXT")}</h4>
