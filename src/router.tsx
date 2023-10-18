@@ -11,13 +11,13 @@ import { Locale } from "src/i18n/locale";
 import BodyZinc from "./atomic/page/bodyzinc";
 import BodySize from "./atomic/page/bodysize";
 import Emotion from "./atomic/page/emotion";
-import Productivity from "./atomic/page/productivity";
-import Biorhythms from "./atomic/page/biorhythms";
+import Productivity from "./atomic/page/emotion/productivity";
+import Biorhythms from "./atomic/page/emotion/biorhythms";
 import About from "src/atomic/page/about";
 import Mission from "src/atomic/page/mission";
 import Team from "src/atomic/page/team";
 import ComingSoon from "src/atomic/page/coming-soon";
-import Anxiety from "./atomic/page/anxiety";
+import Anxiety from "./atomic/page/emotion/anxiety";
 
 export function App() {
     var redirect = sessionStorage.redirect;

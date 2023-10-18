@@ -1,9 +1,9 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { useScrollSpy } from "src/hooks";
-import { Footer } from "../organism/footer";
-import NavigationBar from "../organism/navbar";
-import ContentsList from "../molecule/contents-list";
+import { Footer } from "../../organism/footer";
+import NavigationBar from "../../organism/navbar";
+import ContentsList from "../../molecule/contents-list";
 
 
 export default function Anxiety() {
