@@ -16,6 +16,14 @@
     background: map-get($bgs-new, "violet");
   }
 
+  .checkmark-list {
+    li {
+      &::before {
+        filter: invert(43%) sepia(46%) saturate(7466%) hue-rotate(265deg) brightness(90%) contrast(85%);
+      }
+    }
+  }
+
   .how-list {
     padding: 0;
     flex-wrap: wrap;
