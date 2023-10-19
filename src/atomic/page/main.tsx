@@ -110,14 +110,14 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_mass.svg" className="img-fluid me-3" height={48} width={48} alt={_("MASS.ICO")} />
+                            <img src="/img/page/body-mass/logo-mass.svg" className="img-fluid me-3" height={48} width={48} alt={_("MASS.ICO")} />
                             <div>
                                 <h1>{_("MASS.HEAD")}</h1>
                                 <p>{_("MASS.SUBHEAD")}</p>
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/mass.en.512.webp" w={512} h={512} cls="mx-auto my-4 px-lg-4 px-0 img-fluid" alt={_("MASS.IMG")} />
+                            <ImageI18N src="/img/page/body-mass/mass-home-en.webp" w={512} h={512} cls="mx-auto my-4 px-lg-4 px-0 img-fluid" alt={_("MASS.IMG")} />
                         </div>
                         <div className="p-text">
                             <h4>{_("MASS.TEXT")}</h4>
@@ -188,14 +188,14 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/emotion/logo-emotion.svg" className="img-fluid me-3" height={48} width={48} alt={_("EMOTION.ICO")} />
+                            <img src="/img/page/emotion/logo-emotion.svg" className="img-fluid me-3" height={48} width={48} alt={_("EMOTION.ICO")} />
                             <div>
                                 <h1>{_("EMOTION.HEAD")}</h1>
                                 <p>{_("EMOTION.SUBHEAD")}</p>
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/emotion/emotion-home-en.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("EMOTION.IMG")} />
+                            <ImageI18N src="/img/page/emotion/emotion-home-en.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("EMOTION.IMG")} />
                         </div>
                         <div className="p-text">
                             <h4>{_("EMOTION.TEXT")}</h4>
