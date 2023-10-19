@@ -152,50 +152,42 @@ export default function Emotion() {
             </section>
 
             <section className="bg-gray pt-4 pb-5">
-                <div className="py-5 advantages-list">
-
-                    <div className="row my-2">
-                        <div className="col-12">
+                <div className="py-5">
+                    <div className="row mt-2 mb-0">
+                        <div className="col pb-4">
                             <h2>{_("EMOTION.HEAD5")}</h2>
                         </div>
-                        <div className="col-lg-6 pe-3">
-                            <div className="li">
+                    </div>
+                        <ul className="row row-cols-lg-2 row-cols-1 pb-0 mb-2 list-with-icons">
+                            <li>
                                 <div className="icon"><img src="/img/emotion-icon-1.svg" alt={_("EMOTION.ALT5_1")} /></div>
                                 <div>
                                     <h4>{_("EMOTION.LIST5.LI1_HEAD")}</h4>
                                     <p>{_("EMOTION.LIST5.LI1_TEXT")}</p>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="li">
+                            </li>
+                            <li>
                                 <div className="icon"><img src="/img/emotion-icon-2.svg" alt={_("EMOTION.ALT5_2")} /></div>
                                 <div>
                                     <h4>{_("EMOTION.LIST5.LI2_HEAD")}</h4>
                                     <p>{_("EMOTION.LIST5.LI2_TEXT")}</p>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6">
-                            <div className="li">
+                            </li>
+                            <li>
                                 <div className="icon"><img src="/img/emotion-icon-3.svg" alt={_("EMOTION.ALT5_3")} /></div>
                                 <div>
                                     <h4>{_("EMOTION.LIST5.LI3_HEAD")}</h4>
                                     <p>{_("EMOTION.LIST5.LI3_TEXT")}</p>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="li">
+                            </li>
+                            <li>
                                 <div className="icon"><img src="/img/emotion-icon-4.svg" alt={_("EMOTION.ALT5_4")} /></div>
                                 <div>
                                     <h4>{_("EMOTION.LIST5.LI4_HEAD")}</h4>
                                     <p>{_("EMOTION.LIST5.LI4_TEXT")}</p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
+                            </li>
+                        </ul>
                 </div>
 
 
@@ -261,38 +253,38 @@ export default function Emotion() {
                         <p>{_("EMOTION.DESK7")}</p>
                     </div>
                 </div>
-                <div className="row g-5">
-                    <div className="col-lg-4 col-6">
-                        <div className="icon mb-5"><img src="/img/emotion-icon-6.svg" alt="" /></div>
+                <ul className="row row-cols-lg-3 row-cols-md-2 row-cols-1 list-with-icons list-with-icons-long">
+                    <li>
+                        <div className="icon"><img src="/img/emotion-icon-6.svg" alt="" /></div>
                         <h4>{_("EMOTION.LIST7.LI1_HEAD")}</h4>
                         <p>{_("EMOTION.LIST7.LI1_TEXT")}</p>
-                    </div>
-                    <div className="col-lg-4 col-6">
-                        <div className="icon mb-5"><img src="/img/emotion-icon-7.svg" alt="" /></div>
+                    </li>
+                    <li>
+                        <div className="icon"><img src="/img/emotion-icon-7.svg" alt="" /></div>
                         <h4>{_("EMOTION.LIST7.LI2_HEAD")}</h4>
                         <p>{_("EMOTION.LIST7.LI2_TEXT")}</p>
-                    </div>
-                    <div className="col-lg-4 col-6">
-                        <div className="icon mb-5"><img src="/img/emotion-icon-8.svg" alt="" /></div>
+                    </li>
+                    <li>
+                        <div className="icon"><img src="/img/emotion-icon-8.svg" alt="" /></div>
                         <h4>{_("EMOTION.LIST7.LI3_HEAD")}</h4>
                         <p>{_("EMOTION.LIST7.LI3_TEXT")}</p>
-                    </div>
-                    <div className="col-lg-4 col-6">
-                        <div className="icon mb-5"><img src="/img/emotion-icon-9.svg" alt="" /></div>
+                    </li>
+                    <li>
+                        <div className="icon"><img src="/img/emotion-icon-9.svg" alt="" /></div>
                         <h4>{_("EMOTION.LIST7.LI4_HEAD")}</h4>
                         <p>{_("EMOTION.LIST7.LI4_TEXT")}</p>
-                    </div>
-                    <div className="col-lg-4 col-6">
-                        <div className="icon mb-5"><img src="/img/emotion-icon-10.svg" alt="" /></div>
+                    </li>
+                    <li>
+                        <div className="icon"><img src="/img/emotion-icon-10.svg" alt="" /></div>
                         <h4>{_("EMOTION.LIST7.LI5_HEAD")}</h4>
                         <p>{_("EMOTION.LIST7.LI5_TEXT")}</p>
-                    </div>
-                    <div className="col-lg-4 col-6">
-                        <div className="icon mb-5"><img src="/img/emotion-icon-11.svg" alt="" /></div>
+                    </li>
+                    <li>
+                        <div className="icon"><img src="/img/emotion-icon-11.svg" alt="" /></div>
                         <h4>{_("EMOTION.LIST7.LI6_HEAD")}</h4>
                         <p>{_("EMOTION.LIST7.LI6_TEXT")}</p>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </section>
 
             <section>
