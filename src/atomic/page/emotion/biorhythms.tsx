@@ -31,7 +31,7 @@ export default function Biorhythms() {
 
         <div className="ms-base-page ms-base-new emotion biorhythms">
 
-            <section className="pb-3 text-center">
+            <section className="mt-5 text-center">
                 <div className="row">
                     <div className="col">
                         <img src="/img/biorhythms.webp" className="ms-base-image" alt={_("BIORHYTHMS.IMG")} height={512} width={512} />

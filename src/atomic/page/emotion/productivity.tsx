@@ -22,7 +22,7 @@ export default function Productivity() {
 
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
-            <section className="pb-3 text-center">
+            <section className="mt-5 text-center">
                 <div className="row">
                     <div className="col">
                         <img src="/img/productivity.webp" className="ms-base-image" alt={_("PRODUCTIVITY.IMG")} height={390} width={410} />

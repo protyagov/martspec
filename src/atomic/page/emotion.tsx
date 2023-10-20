@@ -10,7 +10,7 @@ export default function Emotion() {
 
         <div className="ms-base-page ms-base-new emotion">
 
-            <section className="pb-5 text-center">
+            <section className="mt-5 text-center">
                 <div className="row">
                     <div className="col">
                         <img src="/img/emotion.png" className="ms-base-image" alt={_("EMOTION.IMG")} height={512} width={512} />
