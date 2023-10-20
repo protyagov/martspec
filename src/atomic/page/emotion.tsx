@@ -152,11 +152,11 @@ export default function Emotion() {
             </section>
 
             <section className="bg-gray">
-                    <div className="row mb-0">
-                        <div className="col-12">
-                            <h2>{_("EMOTION.HEAD5")}</h2>
-                        </div>
-                        <div className="col-12">
+                <div className="row mb-0">
+                    <div className="col-12">
+                        <h2>{_("EMOTION.HEAD5")}</h2>
+                    </div>
+                    <div className="col-12">
                         <ul className="list-with-icons">
                             <li>
                                 <div className="icon"><img src="/img/emotion-icon-1.svg" alt={_("EMOTION.ALT5_1")} /></div>
@@ -188,56 +188,55 @@ export default function Emotion() {
                             </li>
                         </ul>
                     </div>
-                    </div>
+                </div>
 
-                    <div className="row g-4 metrics-list">
-                        <div className="col-12">
-                            <h2>{_("EMOTION.HEAD6")}</h2>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="block bg-violet">
-                                <h4>{_("EMOTION.LIST6.LI1_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI1_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/anxiety")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="block bg-green">
-                                <h4>{_("EMOTION.LIST6.LI2_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI2_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/productivity")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="block bg-aqua">
-                                <h4>{_("EMOTION.LIST6.LI3_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI3_TEXT")}</p>
-                                <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="block bg-orange">
-                                <h4>{_("EMOTION.LIST6.LI4_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI4_TEXT")}</p>
-                                <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="block bg-yellow">
-                                <h4>{_("EMOTION.LIST6.LI5_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI5_TEXT")}</p>
-                                <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="block bg-blue">
-                                <h4>{_("EMOTION.LIST6.LI6_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI6_TEXT")}</p>
-                                <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
+                <div className="row g-4 metrics-list">
+                    <div className="col-12">
+                        <h2>{_("EMOTION.HEAD6")}</h2>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="block bg-violet">
+                            <h4>{_("EMOTION.LIST6.LI1_HEAD")}</h4>
+                            <p>{_("EMOTION.LIST6.LI1_TEXT")}</p>
+                            <a href={Locale.i18nLink("emotion/anxiety")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
                     </div>
-
+                    <div className="col-lg-6">
+                        <div className="block bg-green">
+                            <h4>{_("EMOTION.LIST6.LI2_HEAD")}</h4>
+                            <p>{_("EMOTION.LIST6.LI2_TEXT")}</p>
+                            <a href={Locale.i18nLink("emotion/productivity")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="block bg-aqua">
+                            <h4>{_("EMOTION.LIST6.LI3_HEAD")}</h4>
+                            <p>{_("EMOTION.LIST6.LI3_TEXT")}</p>
+                            <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="block bg-orange">
+                            <h4>{_("EMOTION.LIST6.LI4_HEAD")}</h4>
+                            <p>{_("EMOTION.LIST6.LI4_TEXT")}</p>
+                            <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="block bg-yellow">
+                            <h4>{_("EMOTION.LIST6.LI5_HEAD")}</h4>
+                            <p>{_("EMOTION.LIST6.LI5_TEXT")}</p>
+                            <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="block bg-blue">
+                            <h4>{_("EMOTION.LIST6.LI6_HEAD")}</h4>
+                            <p>{_("EMOTION.LIST6.LI6_TEXT")}</p>
+                            <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section>
