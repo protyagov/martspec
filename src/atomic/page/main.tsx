@@ -84,14 +84,14 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_electrolyte.svg" className="img-fluid me-3" height={48} width={48} alt={_("ELECTROLYTE.ICO")} />
+                            <img src="/img/page/electrolyte/logo-electrolyte.svg" className="img-fluid me-3" height={48} width={48} alt={_("ELECTROLYTE.ICO")} />
                             <div>
                                 <h1>{_("ELECTROLYTE.HEAD")}</h1>
                                 <p>{_("ELECTROLYTE.SUBHEAD")}</p>
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/p_electrolyte.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ELECTROLYTE.IMG")} />
+                            <ImageI18N src="/img/page/electrolyte/electrolyte-home.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ELECTROLYTE.IMG")} />
                         </div>
                         <div className="p-text">
                             <h4>{_("ELECTROLYTE.TEXT")}</h4>
