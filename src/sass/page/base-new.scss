@@ -19,6 +19,19 @@
     }
   }
 
+  // Reset defaults & parent styles
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  ul,
+  li {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
   // Page
 
   & {
@@ -115,38 +128,24 @@
   }
 
   .checkmark-list {
-    $gap-x: 1.5rem;
-    $gap-y: 20px;
-
     width: 100%;
-    padding-left: 0;
-    margin-bottom: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+
+    @include media-breakpoint-down(xl) {
+      grid-template-columns: 1fr;
+      gap: 1.3rem;
+    }
 
     li {
-      flex: 0 0 calc(50% - #{$gap-x / 2});
-
       display: flex;
-      margin-bottom: $gap-y;
-
-      list-style-type: none;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
 
       &::before {
         content: url("../img/checkmark-icon.svg");
         margin-top: 4px;
         margin-right: 14px;
-      }
-    }
-
-    @include media-breakpoint-down(xl) {
-      li {
-        flex-basis: 100%;
       }
     }
   }

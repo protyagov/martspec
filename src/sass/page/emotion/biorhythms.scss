@@ -11,9 +11,8 @@
     }
   }
   .checkmark-list {
-    li {
-      flex-basis: 100%;
-    }
+    grid-template-columns: 1fr;
+    gap: 1.3rem;
   }
   .features-list {
     @include media-breakpoint-up(md) {
