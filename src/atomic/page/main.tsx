@@ -136,7 +136,7 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_zinc.svg" className="img-fluid me-3" height={48} width={48} alt={_("ZINC.ICO")} />
+                            <img src="/img/page/zinc/logo-zinc.svg" className="img-fluid me-3" height={48} width={48} alt={_("ZINC.ICO")} />
                             <div>
                                 <h1>{_("ZINC.HEAD")}</h1>
                                 <p>{_("ZINC.SUBHEAD")}</p>
@@ -144,7 +144,7 @@ export default function LandingPage() {
                         </div>
                         <div className="p-img">
                             {/* <ImageI18N src="/img/p_zinc.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ZINC.IMG")} /> */}
-                            <ImageI18N src="/img/zinc/p_zinc_screen.en.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ZINC.IMG")} />
+                            <ImageI18N src="/img/page/zinc/zinc-app-en.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ZINC.IMG")} />
                         </div>
                         <div className="p-text">
                             <h4>{_("ZINC.TEXT")}</h4>

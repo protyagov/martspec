@@ -125,7 +125,7 @@ module.exports = {
                 { context: 'src/img/', from: '*.webp', to: "img" },
                 { context: 'src/img/', from: '*.jpg', to: "img" },
                 { context: 'src/img/personality_traits/', from: '*.webp', to: "img" },
-                { context: 'src/img/zinc/', from: '*', to: "img/zinc" },
+                { context: 'src/img/page/zinc/', from: '*', to: "img/page/zinc" },
                 { context: 'src/img/anxiety/', from: '*', to: "img/anxiety" },
                 { context: 'src/img/page/emotion/', from: '*', to: "img/page/emotion" },
                 { context: 'src/img/page/body-mass/', from: '*', to: "img/page/body-mass" },
