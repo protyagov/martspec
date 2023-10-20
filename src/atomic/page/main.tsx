@@ -31,14 +31,14 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_vitamin.svg" className="img-fluid me-3" height={48} width={48} alt={_("VITAMIN.ICO")} />
+                            <img src="/img/page/vitamin/logo-vitamin.svg" className="img-fluid me-3" height={48} width={48} alt={_("VITAMIN.ICO")} />
                             <div>
                                 <h1>{_("VITAMIN.HEAD")}</h1>
                                 <p>{_("VITAMIN.SUBHEAD")}</p>
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/vitamin.en.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("VITAMIN.IMG")} />
+                            <ImageI18N src="/img/page/vitamin/vitamin-home-en.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("VITAMIN.IMG")} />
                         </div>
                         <div className="p-text">
                             <h4>{_("VITAMIN.TEXT")}</h4>

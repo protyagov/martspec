@@ -1,6 +1,6 @@
 {
     "VITAMIN_A": {
-        "LOGO": "/img/vitamin_a_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-a-logo.png",
         "HEX": "FF7215",
         "TYPE": "VITAMIN_FAT",
         "UNIT":"MCG",
@@ -27,7 +27,7 @@
         }
     },
     "VITAMIN_D": {
-        "LOGO": "/img/vitamin_d_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-d-logo.png",
         "HEX": "696FFF",
         "TYPE": "VITAMIN_FAT",
         "UNIT":"MCG",
@@ -54,7 +54,7 @@
         }
     },
     "VITAMIN_E": {
-        "LOGO": "/img/vitamin_e_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-e-logo.png",
         "HEX": "FFCC33",
         "TYPE": "VITAMIN_FAT",
         "UNIT":"MG",
@@ -81,7 +81,7 @@
         }
     },
     "VITAMIN_K": {
-        "LOGO": "/img/vitamin_k_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-k-logo.png",
         "HEX": "1ABB9C",
         "TYPE": "VITAMIN_FAT",
         "UNIT":"MCG",
@@ -105,7 +105,7 @@
         }
     },
     "VITAMIN_B1": {
-        "LOGO": "/img/vitamin_b1_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b1-logo.png",
         "HEX": "00A0FF",
         "TYPE": "VITAMIN_WATER",
         "UNIT":"MG",
@@ -129,7 +129,7 @@
         }
     },
     "VITAMIN_B2": {
-        "LOGO": "/img/vitamin_b2_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b2-logo.png",
         "HEX": "93C400",
         "TYPE": "VITAMIN_WATER",
         "UNIT":"MG",
@@ -153,7 +153,7 @@
         }
     },
     "VITAMIN_B3": {
-        "LOGO": "/img/vitamin_b3_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b3-logo.png",
         "HEX": "FF7152",
         "TYPE": "VITAMIN_WATER",
         "UNIT":"MG",
@@ -177,7 +177,7 @@
         }
     },
     "VITAMIN_B5": {
-        "LOGO": "/img/vitamin_b5_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b5-logo.png",
         "HEX": "E91E63",
         "TYPE": "VITAMIN_WATER",
         "UNIT":"MG",
@@ -201,7 +201,7 @@
         }
     },
     "VITAMIN_B6": {
-        "LOGO": "/img/vitamin_b6_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b6-logo.png",
         "HEX": "F99F38",
         "TYPE": "VITAMIN_WATER",
         "UNIT":"MG",
@@ -225,7 +225,7 @@
         }
     },
     "VITAMIN_B7": {
-        "LOGO": "/img/vitamin_b7_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b7-logo.png",
         "HEX": "2A9E01",
         "TYPE": "VITAMIN_WATER",
         "UNIT":"MCG",
@@ -249,7 +249,7 @@
         }
     },
     "VITAMIN_B9": {
-        "LOGO": "/img/vitamin_b9_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b9-logo.png",
         "HEX": "51A27F",
         "TYPE": "VITAMIN_WATER",
         "UNIT":"MCG",
@@ -276,7 +276,7 @@
         }
     },
     "VITAMIN_B12": {
-        "LOGO": "/img/vitamin_b12_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b12-logo.png",
         "HEX": "FF1744",
         "TYPE": "VITAMIN_WATER",
         "UNIT":"MCG",
@@ -300,7 +300,7 @@
         }
     },
     "VITAMIN_C": {
-        "LOGO": "/img/vitamin_c_logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-c-logo.png",
         "HEX": "FD9A23",
         "TYPE": "VITAMIN_WATER",
         "UNIT":"MG",
@@ -327,7 +327,7 @@
         }
     },
     "CALCIUM": {
-        "LOGO": "/img/calcium_logo.png",
+        "LOGO": "/img/page/vitamin/calcium-logo.png",
         "HEX": "FFC100",
         "TYPE": "ELECTROLYTE",
         "UNIT":"MG",
@@ -354,7 +354,7 @@
         }
     },
     "CHLORIDE": {
-        "LOGO": "/img/chloride_logo.png",
+        "LOGO": "/img/page/vitamin/chloride-logo.png",
         "HEX": "008631",
         "TYPE": "ELECTROLYTE",
         "UNIT":"MG",
@@ -381,7 +381,7 @@
         }
     },
     "CHROME": {
-        "LOGO": "/img/chrome_logo.png",
+        "LOGO": "/img/page/vitamin/chrome-logo.png",
         "HEX": "00BCD4",
         "TYPE": null,
         "UNIT":"MCG",
@@ -405,7 +405,7 @@
         }
     },
     "COPPER": {
-        "LOGO": "/img/copper_logo.png",
+        "LOGO": "/img/page/vitamin/copper-logo.png",
         "HEX": "D2691E",
         "TYPE": null,
         "UNIT":"MCG",
@@ -432,7 +432,7 @@
         }
     },
     "IODINE": {
-        "LOGO": "/img/iodine_logo.png",
+        "LOGO": "/img/page/vitamin/iodine-logo.png",
         "HEX": "BA55D3",
         "TYPE": null,
         "UNIT":"MCG",
@@ -459,7 +459,7 @@
         }
     },
     "IRON": {
-        "LOGO": "/img/iron_logo.png",
+        "LOGO": "/img/page/vitamin/iron-logo.png",
         "HEX": "AD3816",
         "TYPE": null,
         "UNIT":"MG",
@@ -486,7 +486,7 @@
         }
     },
     "MAGNESIUM": {
-        "LOGO": "/img/magnesium_logo.png",
+        "LOGO": "/img/page/vitamin/magnesium-logo.png",
         "HEX": "78AADC",
         "TYPE": "ELECTROLYTE",
         "UNIT":"MG",
@@ -513,7 +513,7 @@
         }
     },
     "MANGANESE": {
-        "LOGO": "/img/manganese_logo.png",
+        "LOGO": "/img/page/vitamin/manganese-logo.png",
         "HEX": "E65C9C",
         "TYPE": null,
         "UNIT":"MG",
@@ -540,7 +540,7 @@
         }
     },
     "MOLYBDENUM": {
-        "LOGO": "/img/molybdenum_logo.png",
+        "LOGO": "/img/page/vitamin/molybdenum-logo.png",
         "HEX": "7BC043",
         "TYPE": null,
         "UNIT":"MCG",
@@ -567,7 +567,7 @@
         }
     },
     "PHOSPHORUS": {
-        "LOGO": "/img/phosphorus_logo.png",
+        "LOGO": "/img/page/vitamin/phosphorus-logo.png",
         "HEX": "E74C3C",
         "TYPE": "ELECTROLYTE",
         "UNIT":"MG",
@@ -594,7 +594,7 @@
         }
     },
     "POTASSIUM": {
-        "LOGO": "/img/potassium_logo.png",
+        "LOGO": "/img/page/vitamin/potassium-logo.png",
         "HEX": "FF9500",
         "TYPE": "ELECTROLYTE",
         "UNIT":"MG",
@@ -618,7 +618,7 @@
         }
     },
     "SELENIUM": {
-        "LOGO": "/img/selenium_logo.png",
+        "LOGO": "/img/page/vitamin/selenium-logo.png",
         "HEX": "D40000",
         "TYPE": null,
         "UNIT":"MCG",
@@ -645,7 +645,7 @@
         }
     },
     "SODIUM": {
-        "LOGO": "/img/sodium_logo.png",
+        "LOGO": "/img/page/vitamin/sodium-logo.png",
         "HEX": "5997FA",
         "TYPE": "ELECTROLYTE",
         "UNIT":"MG",
@@ -672,7 +672,7 @@
         }
     },
     "ZINC": {
-        "LOGO": "/img/zinc_logo.png",
+        "LOGO": "/img/page/vitamin/zinc-logo.png",
         "HEX": "04DD71",
         "TYPE": null,
         "UNIT":"MG",
