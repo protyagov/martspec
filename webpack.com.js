@@ -131,6 +131,7 @@ module.exports = {
                 { context: 'src/img/page/body-mass/', from: '*', to: "img/page/body-mass" },
                 { context: 'src/img/page/body-size/', from: '*', to: "img/page/body-size" },
                 { context: 'src/img/page/electrolyte/', from: '*', to: "img/page/electrolyte" },
+                { context: 'src/img/page/waistline/', from: '*', to: "img/page/waistline" },
                 { context: 'src/img/icon/', from: '*', to: "icon" },
                 { context: 'src/img/apple_btn/', from: '*', to: "img/apple_btn" },
                 { context: 'src/data/', from: '*.json', to: "data" },

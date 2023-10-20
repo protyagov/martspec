@@ -162,14 +162,14 @@ export default function LandingPage() {
 
                     <div className="col p-container">
                         <div className="d-flex p-head">
-                            <img src="/img/logo_waist.svg" className="img-fluid me-3" height={48} width={48} alt={_("WAIST.ICO")} />
+                            <img src="/img/page/waistline/logo-waist.svg" className="img-fluid me-3" height={48} width={48} alt={_("WAIST.ICO")} />
                             <div>
                                 <h1>{_("WAIST.HEAD")}</h1>
                                 <p>{_("WAIST.SUBHEAD")}</p>
                             </div>
                         </div>
                         <div className="p-img">
-                            <ImageI18N src="/img/waist.en.512.webp" w={512} h={512} cls="mx-auto my-4 px-lg-4 px-0 img-fluid" alt={_("WAIST.IMG")} />
+                            <ImageI18N src="/img/page/waistline/waist-home-en.webp" w={512} h={512} cls="mx-auto my-4 px-lg-4 px-0 img-fluid" alt={_("WAIST.IMG")} />
                         </div>
                         <div className="p-text">
                             <h4>{_("WAIST.TEXT")}</h4>
