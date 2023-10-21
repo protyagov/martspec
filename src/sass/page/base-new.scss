@@ -19,7 +19,12 @@
     }
   }
 
-  // Reset defaults & parent styles
+  // Reset bootstrap defaults
+
+  h2,
+  h3 {
+    margin-top: 0;
+  }
 
   ul {
     list-style-type: none;
@@ -27,7 +32,10 @@
   }
 
   ul,
-  li {
+  li,
+  .row,
+  *[class^="col-"],
+  *[class*=" col-"] {
     margin-bottom: 0;
     padding-bottom: 0;
   }
