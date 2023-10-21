@@ -9,7 +9,7 @@ export default function Electrolyte() {
 
         <div className="ms-base-page pb-5">
             <section>
-                <img src="/img/electrolyte.svg" className="ms-base-image" alt={_("MAIN.P1.IMG")} height={512} width={512} />
+                <img src="/img/page/electrolyte/electrolyte.svg" className="ms-base-image" alt={_("MAIN.P1.IMG")} height={512} width={512} />
                 <h1 className="text-center pt-3">{_("ELECTROLYTE.HEAD")}</h1>
             </section>
 
@@ -76,7 +76,7 @@ export default function Electrolyte() {
 
 
         <div className="container mb-5 pb-5 text-center">
-            <img src="/img/p_electrolyte_screens.512.webp" alt={_("MAIN.P1.IMG")} className="ms-base-image" width="512px" height="512px" />
+            <img src="/img/page/electrolyte/electrolyte-app.webp" alt={_("MAIN.P1.IMG")} className="ms-base-image" width="512px" height="512px" />
         </div>
 
         <Footer />
