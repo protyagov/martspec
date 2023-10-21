@@ -111,7 +111,7 @@ export default function Emotion() {
                             <h2>{_("EMOTION.HEAD3")}</h2>
                             <p>{_("EMOTION.DESK3_1")}</p>
                             <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={522} cls="ms-base-image d-block d-lg-none py-5" alt={_("EMOTION.ALT3")} />
-                            <h4>{_("EMOTION.DESK3_2")}</h4>
+                            <h3>{_("EMOTION.DESK3_2")}</h3>
                             <ul className="d-flex gap-4 how-list">
                                 <li className="bg-orange">{_("EMOTION.LIST3.LI1_TEXT")}</li>
                                 <li className="bg-aqua">{_("EMOTION.LIST3.LI2_TEXT")}</li>
@@ -137,7 +137,7 @@ export default function Emotion() {
                             <h2>{_("EMOTION.HEAD4")}</h2>
                             <p>{_("EMOTION.DESK4_1")}</p>
                             <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={512} cls="ms-base-image d-block d-lg-none py-5" alt={_("EMOTION.ALT4")} />
-                            <h4>{_("EMOTION.DESK4_2")}</h4>
+                            <h3>{_("EMOTION.DESK4_2")}</h3>
                             <ul className="checkmark-list">
                                 <li>{_("EMOTION.LIST4.LI1_TEXT")}</li>
                                 <li>{_("EMOTION.LIST4.LI2_TEXT")}</li>
@@ -161,28 +161,28 @@ export default function Emotion() {
                             <li>
                                 <div className="icon"><img src="/img/emotion-icon-1.svg" alt={_("EMOTION.ALT5_1")} /></div>
                                 <div>
-                                    <h4>{_("EMOTION.LIST5.LI1_HEAD")}</h4>
+                                    <h3>{_("EMOTION.LIST5.LI1_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI1_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
                                 <div className="icon"><img src="/img/emotion-icon-2.svg" alt={_("EMOTION.ALT5_2")} /></div>
                                 <div>
-                                    <h4>{_("EMOTION.LIST5.LI2_HEAD")}</h4>
+                                    <h3>{_("EMOTION.LIST5.LI2_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI2_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
                                 <div className="icon"><img src="/img/emotion-icon-3.svg" alt={_("EMOTION.ALT5_3")} /></div>
                                 <div>
-                                    <h4>{_("EMOTION.LIST5.LI3_HEAD")}</h4>
+                                    <h3>{_("EMOTION.LIST5.LI3_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI3_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
                                 <div className="icon"><img src="/img/emotion-icon-4.svg" alt={_("EMOTION.ALT5_4")} /></div>
                                 <div>
-                                    <h4>{_("EMOTION.LIST5.LI4_HEAD")}</h4>
+                                    <h3>{_("EMOTION.LIST5.LI4_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI4_TEXT")}</p>
                                 </div>
                             </li>
@@ -196,42 +196,42 @@ export default function Emotion() {
                     </div>
                     <div className="col-lg-6">
                         <div className="block bg-violet">
-                            <h4>{_("EMOTION.LIST6.LI1_HEAD")}</h4>
+                            <h3>{_("EMOTION.LIST6.LI1_HEAD")}</h3>
                             <p>{_("EMOTION.LIST6.LI1_TEXT")}</p>
                             <a href={Locale.i18nLink("emotion/anxiety")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="block bg-green">
-                            <h4>{_("EMOTION.LIST6.LI2_HEAD")}</h4>
+                            <h3>{_("EMOTION.LIST6.LI2_HEAD")}</h3>
                             <p>{_("EMOTION.LIST6.LI2_TEXT")}</p>
                             <a href={Locale.i18nLink("emotion/productivity")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="block bg-aqua">
-                            <h4>{_("EMOTION.LIST6.LI3_HEAD")}</h4>
+                            <h3>{_("EMOTION.LIST6.LI3_HEAD")}</h3>
                             <p>{_("EMOTION.LIST6.LI3_TEXT")}</p>
                             <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="block bg-orange">
-                            <h4>{_("EMOTION.LIST6.LI4_HEAD")}</h4>
+                            <h3>{_("EMOTION.LIST6.LI4_HEAD")}</h3>
                             <p>{_("EMOTION.LIST6.LI4_TEXT")}</p>
                             <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="block bg-yellow">
-                            <h4>{_("EMOTION.LIST6.LI5_HEAD")}</h4>
+                            <h3>{_("EMOTION.LIST6.LI5_HEAD")}</h3>
                             <p>{_("EMOTION.LIST6.LI5_TEXT")}</p>
                             <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="block bg-blue">
-                            <h4>{_("EMOTION.LIST6.LI6_HEAD")}</h4>
+                            <h3>{_("EMOTION.LIST6.LI6_HEAD")}</h3>
                             <p>{_("EMOTION.LIST6.LI6_TEXT")}</p>
                             <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
@@ -251,32 +251,32 @@ export default function Emotion() {
                         <ul className="list-with-icons list-with-icons-long">
                             <li>
                                 <div className="icon"><img src="/img/emotion-icon-6.svg" alt="" /></div>
-                                <h4>{_("EMOTION.LIST7.LI1_HEAD")}</h4>
+                                <h3>{_("EMOTION.LIST7.LI1_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST7.LI1_TEXT")}</p>
                             </li>
                             <li>
                                 <div className="icon"><img src="/img/emotion-icon-7.svg" alt="" /></div>
-                                <h4>{_("EMOTION.LIST7.LI2_HEAD")}</h4>
+                                <h3>{_("EMOTION.LIST7.LI2_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST7.LI2_TEXT")}</p>
                             </li>
                             <li>
                                 <div className="icon"><img src="/img/emotion-icon-8.svg" alt="" /></div>
-                                <h4>{_("EMOTION.LIST7.LI3_HEAD")}</h4>
+                                <h3>{_("EMOTION.LIST7.LI3_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST7.LI3_TEXT")}</p>
                             </li>
                             <li>
                                 <div className="icon"><img src="/img/emotion-icon-9.svg" alt="" /></div>
-                                <h4>{_("EMOTION.LIST7.LI4_HEAD")}</h4>
+                                <h3>{_("EMOTION.LIST7.LI4_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST7.LI4_TEXT")}</p>
                             </li>
                             <li>
                                 <div className="icon"><img src="/img/emotion-icon-10.svg" alt="" /></div>
-                                <h4>{_("EMOTION.LIST7.LI5_HEAD")}</h4>
+                                <h3>{_("EMOTION.LIST7.LI5_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST7.LI5_TEXT")}</p>
                             </li>
                             <li>
                                 <div className="icon"><img src="/img/emotion-icon-11.svg" alt="" /></div>
-                                <h4>{_("EMOTION.LIST7.LI6_HEAD")}</h4>
+                                <h3>{_("EMOTION.LIST7.LI6_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST7.LI6_TEXT")}</p>
                             </li>
                         </ul>
