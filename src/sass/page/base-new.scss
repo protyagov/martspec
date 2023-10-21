@@ -78,6 +78,10 @@
 
   // Classes
 
+  .ms-btn-large {
+    color: #FFFFFF;
+  }
+
   .row {
     @extend .ms-s-offset;
   }
@@ -102,11 +106,6 @@
       text-decoration: none;
       color: $ms-color-text-black;
     }
-  }
-
-  .button {
-    color: #FFFFFF;
-    margin-top: 0.7rem;
   }
 
   .icon {
