@@ -55,7 +55,7 @@ export default function Emotion() {
             </section>
 
             <section>
-                <div className="row g-5">
+                <div className="row">
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD1")}</h2>
@@ -70,7 +70,7 @@ export default function Emotion() {
             </section>
 
             <section className="bg-gray">
-                <div className="row g-5">
+                <div className="row">
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD2")}</h2>
