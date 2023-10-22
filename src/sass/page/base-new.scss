@@ -18,10 +18,6 @@
     }
   };
 
-  .full-width {
-    max-width: none !important;
-  }
-
   .content-wrapper { // prevents vertical margins collapse
     &::after {
       content: "";
