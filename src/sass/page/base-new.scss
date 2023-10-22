@@ -211,4 +211,10 @@
       }
     }
   }
+
+  // Ensure bootstrap class apply in case of same specifity
+
+  .g-4 {
+    @extend .g-4;
+  }
 }
