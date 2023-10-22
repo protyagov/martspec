@@ -191,7 +191,7 @@ export default function Emotion() {
                 </div>
             </section>
 
-            <section className="bg-gray personal-traits-list">
+            <section className="bg-gray personality-traits-list">
                 <div className="row g-4">
                     <div className="col-12">
                         <h2>{_("EMOTION.HEAD6")}</h2>
