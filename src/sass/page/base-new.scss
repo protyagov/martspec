@@ -208,6 +208,10 @@
     &.extended {
       grid-template: max-content / repeat(3, 1fr);
       row-gap: 5rem;
+
+      @include media-breakpoint-down(lg) {
+        grid-template-columns: 1fr;
+      }
   
       li {
         grid-template: max-content / 1fr;
