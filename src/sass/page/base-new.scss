@@ -91,7 +91,7 @@
     }
 
     &.personality-traits-list {
-      margin-top: -(map-get($section-y-gap, "l")) - (map-get($section-y-gap, "m"));
+      margin-top: -(map-get($section-y-gap, "m"))*2;
     }
   }
 
