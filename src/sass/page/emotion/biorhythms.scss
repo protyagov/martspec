@@ -1,7 +1,4 @@
 .biorhythms {
-  p {
-    margin-bottom: 0;
-  }
   .block-wrapper {
     @include media-breakpoint-up(lg) {
       flex: 0 0 calc((100% / 3) - 1.5rem);

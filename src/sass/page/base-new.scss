@@ -29,6 +29,12 @@
     }
   }
 
+  %p-smaller {
+    font-size: 1.35rem;
+    line-height: 147%;
+    margin-bottom: 0;
+  }
+
   // Reset bootstrap defaults
 
   h2,
@@ -70,6 +76,7 @@
   }
 
   p {
+    color: #595959;
     margin-bottom: 4rem;
   }
 
@@ -119,8 +126,10 @@
     h3 {
       margin-bottom: 1rem;
     }
-    p {
-      margin-bottom: 0;
+
+    p,
+    a {
+      @extend %p-smaller;
     }
     a {
       font-size: 1.5rem;
@@ -192,9 +201,7 @@
     }
 
     p {
-      margin-bottom: 0;
-      font-size: 1.3rem;
-      line-height: 147%;
+      @extend %p-smaller;
     }
 
     &.extended {
