@@ -46,17 +46,7 @@
     }
   }
 
-  .metrics-list {
-    .row {
-      @extend .mb-4;
-    }
-    .block {
-      display: flex;
-      flex-direction: column;
-      p {
-        flex: 1 0;
-      }
-    }
+  .personal-traits-list {
     a {
       margin-top: 1.5rem;
     }

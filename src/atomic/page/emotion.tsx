@@ -152,7 +152,7 @@ export default function Emotion() {
             </section>
 
             <section className="bg-gray">
-                <div className="row mb-0">
+                <div className="row">
                     <div className="col-12">
                         <h2>{_("EMOTION.HEAD5")}</h2>
                     </div>
@@ -189,8 +189,10 @@ export default function Emotion() {
                         </ul>
                     </div>
                 </div>
+            </section>
 
-                <div className="row g-4 metrics-list">
+            <section className="bg-gray personal-traits-list">
+                <div className="row g-4">
                     <div className="col-12">
                         <h2>{_("EMOTION.HEAD6")}</h2>
                     </div>
