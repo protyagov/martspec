@@ -1,12 +1,5 @@
 .biorhythms {
-  .block-wrapper {
-    @include media-breakpoint-up(lg) {
-      flex: 0 0 calc((100% / 3) - 1.5rem);
-    }
-    @include media-breakpoint-down(lg) {
-      flex: 1 0 50%;
-    }
-  }
+  
   .checkmark-list {
     grid-template-columns: 1fr;
     gap: 1.3rem;
