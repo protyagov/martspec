@@ -79,7 +79,7 @@ export default function Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6 d-table order-lg-first">
-                        <ImageI18N src="/img/emotion_diagram.webp" w={512} h={367} cls="mx-lg-0 ms-base-image ms-mt-xs" alt={_("EMOTION.ALT2")} />
+                        <ImageI18N src="/img/emotion_diagram.webp" w={512} h={367} cls="mx-lg-0 ms-base-image ms-mt-s" alt={_("EMOTION.ALT2")} />
                     </div>
                 </div>
                 <div className="row g-4">
