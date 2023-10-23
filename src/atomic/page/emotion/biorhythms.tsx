@@ -167,13 +167,13 @@ export default function Biorhythms() {
             </section>
 
             <section>
-                <div className="row g-5">
+                <div className="row">
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>{_("BIORHYTHMS.HEAD3")}</h2>
                             <p>{_("BIORHYTHMS.DESK3_1")}</p>
-                            <div className="my-5 py-2">
-                                <h3 className="mb-4">{_("BIORHYTHMS.DESK3_2")}</h3>
+                            <div className="mb-6">
+                                <h3>{_("BIORHYTHMS.DESK3_2")}</h3>
                                 <ul className="checkmark-list">
                                     <li>{_("BIORHYTHMS.LIST3.LI1_TEXT")}</li>
                                     <li>{_("BIORHYTHMS.LIST3.LI2_TEXT")}</li>
