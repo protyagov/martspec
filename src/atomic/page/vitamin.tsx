@@ -19,7 +19,7 @@ export default function Vitamin() {
             <section className="text-center">
                 <div className="row">
                     <div className="col">
-                        <img src="/img/vitamin.svg" className="ms-base-image" alt={_("VITAMIN.IMG")} height={512} width={512} />
+                        <img src="/img/page/vitamin/vitamin.svg" className="ms-base-image" alt={_("VITAMIN.IMG")} height={512} width={512} />
                         <h1 className="text-center pt-3 mb-5">{_("VITAMIN.HEAD")}</h1>
                         <h3>{_("VITAMIN.ABOUT_1")}</h3>
                         <p>{_("VITAMIN.ABOUT_2")}</p>
@@ -34,7 +34,7 @@ export default function Vitamin() {
             <section>
                 <div className="row gap-5">
                     <div className="col-md col-12 vitamin-block bg-blue">
-                        <img src="/img/apple_health_icon.svg" className="m-0 p-0 pe-4 pe-sm-0" alt="Apple Health" height={100} width={100} />
+                        <img src="/img/page/vitamin/apple-health-icon.svg" className="m-0 p-0 pe-4 pe-sm-0" alt="Apple Health" height={100} width={100} />
                         <h3>{_("VITAMIN.HEAD1")}</h3>
                         <p className="mt-3">{_("VITAMIN.DESC1")}</p>
                     </div>
@@ -52,7 +52,7 @@ export default function Vitamin() {
                         <p className="mt-3">{_("VITAMIN.DESC3")}</p>
                     </div>
                     <div className="col-md col-12 order-md-last order-first">
-                        <img src="/img/vitamin_minerals_img.svg" className="p-0 float-end vitamin-img-50" alt="Apple Health" height="auto" width="100%" />
+                        <img src="/img/page/vitamin/vitamin-minerals-img.svg" className="p-0 float-end vitamin-img-50" alt="Apple Health" height="auto" width="100%" />
                     </div>
                 </div>
             </section>
@@ -64,7 +64,7 @@ export default function Vitamin() {
                         <p className="mb-md-0 mb-5">{_("VITAMIN.DESC4")}</p>
                     </div>
                     <div className="col-md col-12 vitamin-block bg-blue">
-                        <img src="/img/without_login_icon.svg" className="m-0 p-0 pe-4 pe-sm-0" alt="Apple Health" height={100} width={100} />
+                        <img src="/img/page/vitamin/without-login-icon.svg" className="m-0 p-0 pe-4 pe-sm-0" alt="Apple Health" height={100} width={100} />
                         <h3>{_("VITAMIN.HEAD5")}</h3>
                         <p className="mt-3">{_("VITAMIN.DESC5")}</p>
                     </div>
@@ -74,7 +74,7 @@ export default function Vitamin() {
             <section>
                 <div className="row gap-5 vitamin-block bg-green">
                     <div className="col-md col-12 col-lg-4">
-                        <img src="/img/vitamin_bottle.svg" className="p-0 px-5 px-sm-0 ms-0 vitamin-img-50" alt="Apple Health" height="auto" width="auto" />
+                        <img src="/img/page/vitamin/vitamin-bottle.svg" className="p-0 px-5 px-sm-0 ms-0 vitamin-img-50" alt="Apple Health" height="auto" width="auto" />
                     </div>
                     <div className="col-md col-12">
                         <h3>{_("VITAMIN.HEAD6")}</h3>
@@ -88,7 +88,7 @@ export default function Vitamin() {
                     <div className="col">
                         <h3>{_("VITAMIN.HEAD7")}</h3>
                         <p className="mt-3">{_("VITAMIN.DESC7")}</p>
-                        <img src="/img/vitamin_mockups.png" alt={_("VITAMIN.HEAD7")} className="p-0 vitamin-img-100" />
+                        <img src="/img/page/vitamin/vitamin-mockups.png" alt={_("VITAMIN.HEAD7")} className="p-0 vitamin-img-100" />
                     </div>
                 </div>
             </section>

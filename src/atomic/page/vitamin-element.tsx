@@ -24,13 +24,13 @@ const VIT_AGE = ["0_1", "1_3", "4_8", "9_13", "14_18", "19_50", "51_70", "71", "
 export default function VitaminElement(props: VitaminElementProps) {
     const id = props.id.toUpperCase();
 
-    const [data, setData] = React.useState<VitaminElement | null>(null);    
+    const [data, setData] = React.useState<VitaminElement | null>(null);
 
     React.useEffect(() => {
         const fetchElementData = async (): Promise<void> => {
-            const response = await fetch("/data/vitamins.json");            
+            const response = await fetch("/data/vitamins.json");
             if (!response.ok) return;
-            
+
             await response
                 .json()
                 .then((fetched: {[key: string]: any}) => setData(fetched[id]));
@@ -48,8 +48,8 @@ export default function VitaminElement(props: VitaminElementProps) {
             default:
                 return;
         }
-    };   
-    
+    };
+
     const getListFromCount = (NAME: string) => {
         return (
             [
@@ -64,7 +64,7 @@ export default function VitaminElement(props: VitaminElementProps) {
         )
     };
 
-    const getValueForAmount = (idx: number, amount: number) => {        
+    const getValueForAmount = (idx: number, amount: number) => {
         if (idx) return amount;
 
         switch (amount) {
@@ -148,7 +148,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                     <section key={SECTION}>
                                         <div className="row">
                                             <div className="col d-flex align-items-center">
-                                                <img src={"/img/vitamin_" + SECTION + "_icon.png"} className="p-0 mt-3 ms-0 me-3" alt={_("VITAMIN.CONTENT." + SECTION)} height="40px" width="40px" />
+                                                <img src={"/img/page/vitamin/vitamin-" + SECTION + "-icon.png"} className="p-0 mt-3 ms-0 me-3" alt={_("VITAMIN.CONTENT." + SECTION)} height="40px" width="40px" />
                                                 <h2>{ _("VITAMIN.CONTENT." + SECTION) }</h2>
                                             </div>
                                         </div>
@@ -192,7 +192,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                             Object
                                                 .entries(data.FOOD_100G)
                                                 .map(([food, g], idx, arr) => {
-                                                    let max = getValueForAmount(0, arr[0][1]); 
+                                                    let max = getValueForAmount(0, arr[0][1]);
 
                                                     return <tr key={"FOOD_100G-" + food}>
                                                         <td className="pe-5">{_("VITAMIN.CONTENT." + food)}</td>

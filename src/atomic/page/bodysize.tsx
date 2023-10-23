@@ -10,7 +10,7 @@ export default function BodySize() {
 
         <div className="ms-base-page pb-5">
             <section>
-                <img src="/img/size_head.svg" height={512} width={512} alt={_("SIZE.IMG")} />
+                <img src="/img/page/body-size/size-head.svg" height={512} width={512} alt={_("SIZE.IMG")} />
                 <h1 className="text-center pt-3 ">{_("SIZE.HEAD")}</h1>
             </section>
 
@@ -29,7 +29,7 @@ export default function BodySize() {
                 <p className="mt-3">{_("SIZE.DESC1")}</p>
             </section>
 
-            <ImageI18N src="/img/size_middle.en.512.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("SIZE.IMG")} />
+            <ImageI18N src="/img/page/body-size/size-middle-en.webp" w={512} h={512} cls="mx-auto img-fluid" alt={_("SIZE.IMG")} />
 
             {/* Chest and Bust */}
             <section>
@@ -71,7 +71,7 @@ export default function BodySize() {
         </div>
 
         <div className="pb-5 text-center">
-            <ImageI18N src="/img/size_bottom.en.512.webp" w={512} h={512} cls="img-fluid mb-3 px-4" alt={_("SIZE.IMG")} />
+            <ImageI18N src="/img/page/body-size/size-bottom-en.webp" w={512} h={512} cls="img-fluid mb-3 px-4" alt={_("SIZE.IMG")} />
             {/* <img src="/img/size_bottom.512.webp" className="img-fluid mb-3 px-4" height={512} alt={_("SIZE.IMG")} /> */}
         </div>
         <Footer />
