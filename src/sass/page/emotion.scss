@@ -22,30 +22,6 @@
     }
   }
 
-  .how-list {
-    padding: 0;
-    flex-wrap: wrap;
-
-    li {
-      flex-shrink: 0;
-      list-style: none;
-      display: block;
-      padding: 1rem;
-      border-radius: 8px;
-      margin-bottom: 0;
-      font-family: os4;
-    }
-
-    @include media-breakpoint-down(md) {
-      li {
-        flex-basis: calc(50% - 0.75rem);
-      }
-      li:last-child {
-        flex-basis: 100%;
-      }
-    }
-  }
-
   .personality-traits-list {
     a {
       margin-top: 1.5rem;
