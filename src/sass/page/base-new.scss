@@ -255,6 +255,19 @@
     }
   }
 
+  .page-bottom {
+    .block {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: $column-x-gap;
+
+      @include media-breakpoint-down(lg) {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+      }
+    }
+  }
+
   // Ensure bootstrap class apply in case of same specifity
 
   .g-4 {
