@@ -10,15 +10,19 @@ export default function Emotion() {
 
         <div className="ms-base-page ms-base-new emotion">
 
-            <section className="mt-5 text-center">
+            <section className="page-header text-center">
                 <div className="row">
-                    <div className="col">
-                        <img src="/img/emotion.png" className="ms-base-image" alt={_("EMOTION.IMG")} height={512} width={512} />
-                        <h1 className="text-center pt-3 mb-5">{_("EMOTION.HEAD")}</h1>
+                    <div className="col-12">
+                        <img src="/img/emotion.png" className="ms-base-image" alt={_("EMOTION.IMG")} height={400} width={512} />
+                    </div>
+                    <div className="col-12">
+                        <h1>{_("EMOTION.HEAD")}</h1>
                         <h3>{_("EMOTION.ABOUT_1")}</h3>
                         <p>{_("EMOTION.ABOUT_2")}</p>
+                    </div>
+                    <div className="col-12">
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple mt-3"
+                            target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                         </a>
                     </div>

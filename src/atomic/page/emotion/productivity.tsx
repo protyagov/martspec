@@ -22,13 +22,17 @@ export default function Productivity() {
 
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
-            <section className="mt-5 text-center">
+            <section className="page-header text-center">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-12">
                         <img src="/img/productivity.webp" className="ms-base-image" alt={_("PRODUCTIVITY.IMG")} height={390} width={410} />
-                        <h1 className="text-center pt-3 mb-5">{_("PRODUCTIVITY.HEAD")}</h1>
+                    </div>
+                    <div className="col-12">
+                        <h1>{_("PRODUCTIVITY.HEAD")}</h1>
+                    </div>
+                    <div className="col-12">
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("PRODUCTIVITY.DWN")} className="ms-btn-apple mt-5"
+                            target="_blank" title={_("PRODUCTIVITY.DWN")} className="ms-btn-apple"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                         </a>
                     </div>

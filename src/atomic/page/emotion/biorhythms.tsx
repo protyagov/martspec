@@ -31,13 +31,17 @@ export default function Biorhythms() {
 
         <div className="ms-base-page ms-base-new emotion biorhythms">
 
-            <section className="mt-5 text-center">
+            <section className="page-header text-center">
                 <div className="row">
-                    <div className="col">
-                        <img src="/img/biorhythms.webp" className="ms-base-image" alt={_("BIORHYTHMS.IMG")} height={512} width={512} />
-                        <h1 className="text-center pt-3 mb-5">{_("BIORHYTHMS.HEAD")}</h1>
+                    <div className="col-12">
+                        <img src="/img/biorhythms.png" className="ms-base-image" alt={_("BIORHYTHMS.IMG")} height={512} width={512} />
+                    </div>
+                    <div className="col-12">
+                        <h1>{_("BIORHYTHMS.HEAD")}</h1>
+                    </div>
+                    <div className="col-12">
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("BIORHYTHMS.DWN")} className="ms-btn-apple mt-5"
+                            target="_blank" title={_("BIORHYTHMS.DWN")} className="ms-btn-apple"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                         </a>
                     </div>
