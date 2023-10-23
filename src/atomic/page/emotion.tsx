@@ -27,25 +27,25 @@ export default function Emotion() {
 
             <section>
                 <div className="row g-4">
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 col-md-6">
                         <div className="block bg-violet">
                             <h3>{_("EMOTION.LIST1.LI1_HEAD")}</h3>
                             <p>{_("EMOTION.LIST1.LI1_TEXT")}</p>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <div className="block bg-yellow">
                             <h3>{_("EMOTION.LIST1.LI2_HEAD")}</h3>
                             <p>{_("EMOTION.LIST1.LI2_TEXT")}</p>
                         </div>
                     </div>
-                    <div className="col-lg-8 order-lg-4">
+                    <div className="col-lg-8 col-md-6 order-md-4">
                         <div className="block bg-violet">
                             <h3>{_("EMOTION.LIST1.LI3_HEAD")}</h3>
                             <p>{_("EMOTION.LIST1.LI3_TEXT")}</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 order-lg-3">
+                    <div className="col-lg-4 col-md-6">
                         <div className="block bg-yellow">
                             <h3>{_("EMOTION.LIST1.LI4_HEAD")}</h3>
                             <p>{_("EMOTION.LIST1.LI4_TEXT")}</p>

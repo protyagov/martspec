@@ -186,7 +186,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(xl) {
       grid-template-columns: 1fr;
     }
 
@@ -239,13 +239,17 @@
       }
 
       @include media-breakpoint-down(lg) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @include media-breakpoint-down(md) {
         grid-template-columns: 1fr;
         row-gap: 1.5rem;
 
         li {
           padding: 3rem;
           border-radius: 38px;
-          background: map-get($bgs-new, "gray");
+          background: #F8F8F8;
         }
 
         .icon {
