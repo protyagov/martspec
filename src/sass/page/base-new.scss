@@ -11,6 +11,8 @@
     "xs": 4.4rem
   );
 
+  $base-breakpoint: #{lg};
+
   // Add-ons
 
   @each $color, $hex in $bgs-new {
@@ -21,12 +23,12 @@
 
   @each $gap, $rem in $section-y-gap {
     .ms-mt-#{$gap} {
-      @include media-breakpoint-down(lg) {
+      @include media-breakpoint-down($base-breakpoint) {
         margin-top: $rem #{"!important"};
       }
     }
     .ms-mb-#{$gap} {
-      @include media-breakpoint-down(lg) {
+      @include media-breakpoint-down($base-breakpoint) {
         margin-bottom: $rem #{"!important"};
       }
     }
@@ -116,7 +118,7 @@
   }
 
   .ms-base-image {
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down($base-breakpoint) {
       margin: 0;
     }
   }
@@ -207,7 +209,7 @@
     column-gap: $column-x-gap;
     row-gap: 2.5rem;
 
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down($base-breakpoint) {
       grid-template-columns: 1fr;
     }
 
@@ -238,7 +240,7 @@
         margin-bottom: 1rem;
       }
 
-      @include media-breakpoint-down(lg) {
+      @include media-breakpoint-down($base-breakpoint) {
         grid-template-columns: repeat(2, 1fr);
       }
 
@@ -265,7 +267,7 @@
       grid-template-columns: repeat(2, 1fr);
       column-gap: $column-x-gap;
 
-      @include media-breakpoint-down(lg) {
+      @include media-breakpoint-down($base-breakpoint) {
         grid-template-columns: 1fr;
         row-gap: 3rem;
       }
