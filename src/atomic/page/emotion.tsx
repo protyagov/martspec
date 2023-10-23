@@ -68,7 +68,7 @@ export default function Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <ImageI18N src="/img/emotion_screen_1.en.512.webp" w={512} h={598} cls="ms-base-image ms-mt-xs" alt={_("EMOTION.ALT1")} />
+                        <ImageI18N src="/img/emotion_screen_1.en.512.webp" w={512} h={598} cls="ms-base-image mt-mob-xs" alt={_("EMOTION.ALT1")} />
                     </div>
                 </div>
             </section>
@@ -83,7 +83,7 @@ export default function Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6 d-table order-lg-first">
-                        <ImageI18N src="/img/emotion_diagram.webp" w={512} h={367} cls="mx-lg-0 ms-base-image ms-mt-s" alt={_("EMOTION.ALT2")} />
+                        <ImageI18N src="/img/emotion_diagram.webp" w={512} h={367} cls="mx-lg-0 ms-base-image mt-mob-s" alt={_("EMOTION.ALT2")} />
                     </div>
                 </div>
                 <div className="row g-4">
@@ -114,7 +114,7 @@ export default function Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD3")}</h2>
                             <p>{_("EMOTION.DESK3_1")}</p>
-                            <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={522} cls="ms-base-image d-block d-lg-none ms-mt-xs ms-mb-xs" alt={_("EMOTION.ALT3")} />
+                            <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={522} cls="ms-base-image d-block d-lg-none mt-mob-xs mb-mob-xs" alt={_("EMOTION.ALT3")} />
                             <h3>{_("EMOTION.DESK3_2")}</h3>
                             <ul className="d-flex gap-4 how-list">
                                 <li className="bg-orange">{_("EMOTION.LIST3.LI1_TEXT")}</li>
@@ -140,7 +140,7 @@ export default function Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD4")}</h2>
                             <p>{_("EMOTION.DESK4_1")}</p>
-                            <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={512} cls="ms-base-image d-block d-lg-none ms-mt-xs ms-mb-xs" alt={_("EMOTION.ALT4")} />
+                            <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={512} cls="ms-base-image d-block d-lg-none mt-mob-xs mb-mob-xs" alt={_("EMOTION.ALT4")} />
                             <h3>{_("EMOTION.DESK4_2")}</h3>
                             <ul className="checkmark-list">
                                 <li>{_("EMOTION.LIST4.LI1_TEXT")}</li>

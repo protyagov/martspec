@@ -22,12 +22,12 @@
   };
 
   @each $gap, $rem in $section-y-gap {
-    .ms-mt-#{$gap} {
+    .mt-mob-#{$gap} {
       @include media-breakpoint-down($base-breakpoint) {
         margin-top: $rem #{"!important"};
       }
     }
-    .ms-mb-#{$gap} {
+    .mb-mob-#{$gap} {
       @include media-breakpoint-down($base-breakpoint) {
         margin-bottom: $rem #{"!important"};
       }
