@@ -117,50 +117,46 @@ export default function Biorhythms() {
             </section>
 
             <section>
-                <div className="row">
-                    <div className="col-12">
+                <div className="row mb-0">
+                    <div className="col-6">
                         <h2>{_("BIORHYTHMS.HEAD2")}</h2>
-                    </div>
-                    <div className="col-lg-6">
-                        <p>{_("BIORHYTHMS.DESK2")}</p>
+                        <p className="">{_("BIORHYTHMS.DESK2")}</p>
                     </div>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-8 col-12">
-                        <img src="/img/biorhythms_diagram_1.webp" className="img-fluid my-3" alt={_("BIORHYTHMS.ALT2")} />
+                        <img src="/img/biorhythms_diagram_1.webp" className="ms-base-image mx-auto" height={283} width={848} alt={_("BIORHYTHMS.ALT2")} />
                     </div>
                 </div>
-                <div className="row pt-5">
-                    <div className="col px-0 d-flex flex-wrap justify-content-center gap-4">
-                        <div className="block-wrapper">
-                            <div className="block bg-green">
-                                <h3>{_("BIORHYTHMS.LIST2.LI1_HEAD")}</h3>
-                                <p>{_("BIORHYTHMS.LIST2.LI1_TEXT")}</p>
-                            </div>
+                <div className="row g-4 justify-content-center">
+                    <div className="col-lg-4 col-12">
+                        <div className="block bg-green">
+                            <h3>{_("BIORHYTHMS.LIST2.LI1_HEAD")}</h3>
+                            <p>{_("BIORHYTHMS.LIST2.LI1_TEXT")}</p>
                         </div>
-                        <div className="block-wrapper">
-                            <div className="block bg-yellow">
-                                <h3>{_("BIORHYTHMS.LIST2.LI2_HEAD")}</h3>
-                                <p>{_("BIORHYTHMS.LIST2.LI2_TEXT")}</p>
-                            </div>
+                    </div>
+                    <div className="col-lg-4 col-12">
+                        <div className="block bg-yellow">
+                            <h3>{_("BIORHYTHMS.LIST2.LI2_HEAD")}</h3>
+                            <p>{_("BIORHYTHMS.LIST2.LI2_TEXT")}</p>
                         </div>
-                        <div className="block-wrapper">
-                            <div className="block bg-orange">
-                                <h3>{_("BIORHYTHMS.LIST2.LI3_HEAD")}</h3>
-                                <p>{_("BIORHYTHMS.LIST2.LI3_TEXT")}</p>
-                            </div>
+                    </div>
+                    <div className="col-lg-4 col-12">
+                        <div className="block bg-orange">
+                            <h3>{_("BIORHYTHMS.LIST2.LI3_HEAD")}</h3>
+                            <p>{_("BIORHYTHMS.LIST2.LI3_TEXT")}</p>
                         </div>
-                        <div className="block-wrapper">
-                            <div className="block bg-blue">
-                                <h3>{_("BIORHYTHMS.LIST2.LI4_HEAD")}</h3>
-                                <p>{_("BIORHYTHMS.LIST2.LI4_TEXT")}</p>
-                            </div>
+                    </div>
+                    <div className="col-lg-4 col-12">
+                        <div className="block bg-blue">
+                            <h3>{_("BIORHYTHMS.LIST2.LI4_HEAD")}</h3>
+                            <p>{_("BIORHYTHMS.LIST2.LI4_TEXT")}</p>
                         </div>
-                        <div className="block-wrapper">
-                            <div className="block bg-violet">
-                                <h3>{_("BIORHYTHMS.LIST2.LI5_HEAD")}</h3>
-                                <p>{_("BIORHYTHMS.LIST2.LI5_TEXT")}</p>
-                            </div>
+                    </div>
+                    <div className="col-lg-4 col-12">
+                        <div className="block bg-violet">
+                            <h3>{_("BIORHYTHMS.LIST2.LI5_HEAD")}</h3>
+                            <p>{_("BIORHYTHMS.LIST2.LI5_TEXT")}</p>
                         </div>
                     </div>
                 </div>
