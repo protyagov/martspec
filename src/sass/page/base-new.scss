@@ -228,10 +228,6 @@
     &.extended {
       grid-template: max-content / repeat(3, 1fr);
       row-gap: 5rem;
-
-      @include media-breakpoint-down(lg) {
-        grid-template-columns: 1fr;
-      }
   
       li {
         grid-template: max-content / 1fr;
@@ -240,6 +236,21 @@
   
       h3 {
         margin-bottom: 1rem;
+      }
+
+      @include media-breakpoint-down(lg) {
+        grid-template-columns: 1fr;
+        row-gap: 1.5rem;
+
+        li {
+          padding: 3rem;
+          border-radius: 38px;
+          background: map-get($bgs-new, "gray");
+        }
+
+        .icon {
+          order: 3;
+        }
       }
     }
   }
