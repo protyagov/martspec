@@ -231,9 +231,9 @@ export default function Biorhythms() {
             </section>
 
             <section>
-                <div className="row text-lg-start text-center">
-                    <div className="d-flex flex-lg-row flex-column block bg-green">
-                        <div className="col-lg-6 col-12">
+                <div className="row text-lg-start text-center page-bottom">
+                    <div className="col-12 block bg-violet">
+                        <div>
                             <h2>{_("BIORHYTHMS.HEAD5")}</h2>
                             <p className="flex-grow-1">{_("BIORHYTHMS.DESK5")}</p>
                             <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
@@ -241,9 +241,7 @@ export default function Biorhythms() {
                                 style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                             </a>
                         </div>
-                        <div className="col-lg-6 col-8 mx-auto">
-                            <ImageI18N src="/img/emotion_screen_4.en.512.webp" w={400} h={400} cls="img-fluid ms-lg-auto me-lg-0 py-lg-0 py-5" alt={_("BIORHYTHMS.ALT5")} />
-                        </div>
+                        <ImageI18N src="/img/emotion_screen_4.en.512.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("BIORHYTHMS.ALT5")} />
                     </div>
                 </div>
             </section>
