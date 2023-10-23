@@ -173,7 +173,7 @@ export default function Biorhythms() {
                             <h2>{_("BIORHYTHMS.HEAD3")}</h2>
                             <p>{_("BIORHYTHMS.DESK3_1")}</p>
                             <div className="my-5 py-2">
-                                <h4 className="mb-4">{_("BIORHYTHMS.DESK3_2")}</h4>
+                                <h3 className="mb-4">{_("BIORHYTHMS.DESK3_2")}</h3>
                                 <ul className="checkmark-list">
                                     <li>{_("BIORHYTHMS.LIST3.LI1_TEXT")}</li>
                                     <li>{_("BIORHYTHMS.LIST3.LI2_TEXT")}</li>
@@ -198,36 +198,38 @@ export default function Biorhythms() {
                         <p>{_("BIORHYTHMS.DESK4")}</p>
                     </div>
                 </div>
-                <ul className="row row-cols-lg-2 row-cols-1 mt-5 list-with-icons">
+                <div className="row">
+                <ul className="list-with-icons">
                     <li>
                         <div className="icon"><img src="/img/biorhythms_icon_1.svg" alt={_("BIORHYTHMS.ALT4_1")} /></div>
                         <div>
-                            <h4>{_("BIORHYTHMS.LIST4.LI1_HEAD")}</h4>
+                            <h3>{_("BIORHYTHMS.LIST4.LI1_HEAD")}</h3>
                             <p>{_("BIORHYTHMS.LIST4.LI1_TEXT")}</p>
                         </div>
                     </li>
                     <li>
                         <div className="icon"><img src="/img/biorhythms_icon_2.svg" alt={_("BIORHYTHMS.ALT4_2")} /></div>
                         <div>
-                            <h4>{_("BIORHYTHMS.LIST4.LI2_HEAD")}</h4>
+                            <h3>{_("BIORHYTHMS.LIST4.LI2_HEAD")}</h3>
                             <p>{_("BIORHYTHMS.LIST4.LI2_TEXT")}</p>
                         </div>
                     </li>
                     <li>
                         <div className="icon"><img src="/img/biorhythms_icon_3.svg" alt={_("BIORHYTHMS.ALT4_3")} /></div>
                         <div>
-                            <h4>{_("BIORHYTHMS.LIST4.LI3_HEAD")}</h4>
+                            <h3>{_("BIORHYTHMS.LIST4.LI3_HEAD")}</h3>
                             <p>{_("BIORHYTHMS.LIST4.LI3_TEXT")}</p>
                         </div>
                     </li>
                     <li>
                         <div className="icon"><img src="/img/biorhythms_icon_4.svg" alt={_("BIORHYTHMS.ALT4_4")} /></div>
                         <div>
-                            <h4>{_("BIORHYTHMS.LIST4.LI4_HEAD")}</h4>
+                            <h3>{_("BIORHYTHMS.LIST4.LI4_HEAD")}</h3>
                             <p>{_("BIORHYTHMS.LIST4.LI4_TEXT")}</p>
                         </div>
                     </li>
                 </ul>
+                </div>
             </section>
 
             <section>
