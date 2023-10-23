@@ -48,7 +48,7 @@ export default function Biorhythms() {
                 </div>
             </section>
 
-            <section className="pb-5">
+            <section>
                 <div className="row">
                     <div className="col-12">
                         <h2>{_("BIORHYTHMS.HEAD1")}</h2>
@@ -74,7 +74,7 @@ export default function Biorhythms() {
                 </div>
             </section>
 
-            <section className="py-5 mb-5 bg-gray">
+            <section className="bg-gray">
                 <div id="rhythms-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="row py-4">
                         <div className="col-lg-4 col-12">
@@ -116,7 +116,7 @@ export default function Biorhythms() {
                 </div>
             </section>
 
-            <section className="py-5">
+            <section>
                 <div className="row">
                     <div className="col-12">
                         <h2>{_("BIORHYTHMS.HEAD2")}</h2>
@@ -166,7 +166,7 @@ export default function Biorhythms() {
                 </div>
             </section>
 
-            <section className="pb-5">
+            <section>
                 <div className="row g-5">
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
@@ -191,7 +191,7 @@ export default function Biorhythms() {
                 </div>
             </section>
 
-            <section className="pb-5">
+            <section>
                 <div className="row">
                     <div className="col-lg-6 pb-4">
                         <h2>{_("BIORHYTHMS.HEAD4")}</h2>
