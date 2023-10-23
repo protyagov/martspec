@@ -7,7 +7,8 @@
   $section-y-gap: (
     "l": 8.8rem, // 112
     "m": 7.7rem, // 96
-    "s": 6.6rem // 82
+    "s": 6.6rem, // 82
+    "xs": 4.4rem
   );
 
   // Add-ons
@@ -15,6 +16,19 @@
   @each $color, $hex in $bgs-new {
     .bg-#{$color} {
       background: $hex;
+    }
+  };
+
+  @each $gap, $rem in $section-y-gap {
+    .ms-mt-#{$gap} {
+      @include media-breakpoint-down(lg) {
+        margin-top: $rem #{"!important"};
+      }
+    }
+    .ms-mb-#{$gap} {
+      @include media-breakpoint-down(lg) {
+        margin-bottom: $rem #{"!important"};
+      }
     }
   };
 
@@ -99,6 +113,12 @@
 
   .ms-btn-large {
     color: #FFFFFF;
+  }
+
+  .ms-base-image {
+    @include media-breakpoint-down(lg) {
+      margin: 0;
+    }
   }
 
   .row {
