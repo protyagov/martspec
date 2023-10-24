@@ -18,6 +18,7 @@ import Mission from "src/atomic/page/mission";
 import Team from "src/atomic/page/team";
 import ComingSoon from "src/atomic/page/coming-soon";
 import Anxiety from "./atomic/page/anxiety";
+import Harmony from "./atomic/page/harmony";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -53,6 +54,8 @@ export function App() {
             return <Biorhythms />
         case "/emotion/anxiety":
             return <Anxiety />
+        case "/emotion/harmony":
+            return <Harmony />
         case "/bodysize":
             return <BodySize />;
         case "/privacy-policy":

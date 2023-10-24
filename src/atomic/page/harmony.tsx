@@ -6,13 +6,13 @@ import NavigationBar from "../organism/navbar";
 import ContentsList from "../molecule/contents-list";
 
 
-export default function Anxiety() {
-    const LIST2_COUNT = 3;
-    const LIST3_COUNT = 9;
-    const LIST4_COUNT = 6;
+export default function Harmony() {
+    const LIST2_COUNT = 7;
+    const LIST3_COUNT = 5;
+    const LIST4_COUNT = 8;
     
 
-    const CONTENTS_COUNT = 5;
+    const CONTENTS_COUNT = 4;
 
     useScrollSpy("contents-list");
 
@@ -25,10 +25,10 @@ export default function Anxiety() {
             <section className="pb-3 text-center">
                 <div className="row">
                     <div className="col">
-                        <img src="/img/page/anxiety/anxiety.webp" className="ms-base-image" alt={_("ANXIETY.IMG")} height={390} width={421} />
-                        <h1 className="text-center pt-3 mb-5">{_("ANXIETY.HEAD")}</h1>
+                        <img src="/img/page/harmony/harmony.webp" className="ms-base-image" alt={_("HARMONY.IMG")} height={390} width={421} />
+                        <h1 className="text-center pt-3 mb-5">{_("HARMONY.HEAD")}</h1>
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("ANXIETY.DWN")} className="ms-btn-apple mt-5"
+                            target="_blank" title={_("HARMONY.DWN")} className="ms-btn-apple mt-5"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                         </a>
                     </div>
@@ -39,36 +39,35 @@ export default function Anxiety() {
                 <div className="row">
                     <div className="col-lg-8">
                         <div id="section-1" className="content-wrapper">
-                            <h2>{_("ANXIETY.HEAD1")}</h2>
-                            <p>{_("ANXIETY.DESK1_1")}</p>
-                            <p>{_("ANXIETY.DESK1_2")}</p>
-                            <p>{_("ANXIETY.DESK1_3")}</p>
+                            <h2>{_("HARMONY.HEAD1")}</h2>
+                            <p>{_("HARMONY.DESK1_1")}</p>
+                            <p>{_("HARMONY.DESK1_2")}</p>
                         </div>
 
                         <div id="section-2" className="content-wrapper">
-                            <h2>{_("ANXIETY.HEAD2")}</h2>
-                            <p>{_("ANXIETY.DESK2")}</p>
+                            <h2>{_("HARMONY.HEAD2")}</h2>
+                            <p>{_("HARMONY.DESK2")}</p>
                             <ul className="ms-5">
                                 {
                                     [...Array(LIST2_COUNT)].map((li, idx) => (
-                                        <li key={"LIST2_LI" + ++idx} >
-                                            <b>{_("ANXIETY.LIST2.LI" + idx + "_HEAD")}</b>
-                                            <span>{" "} {_("ANXIETY.LIST2.LI" + idx + "_TEXT")}</span>
+                                        <li key={"LIST2_LI" + ++idx}>
+                                            <span>{_("HARMONY.LIST2.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
                             </ul>
-                            <img src="/img/anxiety/anxiety-img-1.webp" className="img-fluid" alt={_("ANXIETY.ALT2")} width={768} height={450}/>
+                            <img src="/img/page/harmony/harmony-1.webp" className="img-fluid" alt={_("HARMONY.ALT2")} width={768} height={450}/>
                         </div>
 
                         <div id="section-3" className="content-wrapper">
-                            <h2>{_("ANXIETY.HEAD3")}</h2>
-                            <p>{_("ANXIETY.DESK3")}</p>
+                            <h2>{_("HARMONY.HEAD3")}</h2>
+                            <p>{_("HARMONY.DESK3")}</p>
                             <ul className="ms-5">
                                 {
                                     [...Array(LIST3_COUNT)].map((li, idx) => (
-                                        <li key={"LIST3_LI" + ++idx}>
-                                            <span>{_("ANXIETY.LIST3.LI" + idx + "_TEXT")}</span>
+                                        <li key={"LIST3_LI" + ++idx} >
+                                            <b>{_("HARMONY.LIST3.LI" + idx + "_HEAD")}</b>
+                                            <span>{" "} {_("HARMONY.LIST3.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
@@ -76,36 +75,26 @@ export default function Anxiety() {
                         </div>
 
                         <div id="section-4" className="content-wrapper">
-                            <h2>{_("ANXIETY.HEAD4")}</h2>
-                            <p>{_("ANXIETY.DESK4")}</p>
+                            <h2>{_("HARMONY.HEAD4")}</h2>
+                            <p>{_("HARMONY.DESK4")}</p>
                             <ul className="ms-5">
                                 {
                                     [...Array(LIST4_COUNT)].map((li, idx) => (
                                         <li key={"LIST4_LI" + ++idx}>
-                                            <b>{_("ANXIETY.LIST4.LI" + idx + "_HEAD")}</b>
-                                            <span>{" "} {_("ANXIETY.LIST4.LI" + idx + "_TEXT")}</span>
+                                            <b>{_("HARMONY.LIST4.LI" + idx + "_HEAD")}</b>
+                                            <span>{" "} {_("HARMONY.LIST4.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
                             </ul>
-                            <img src="/img/anxiety/anxiety-img-2.webp" className="img-fluid" alt={_("ANXIETY.ALT4")}  width={768} height={450}/>
                         </div>
-                
-                        <div id="section-5" className="content-wrapper">
-                            <h2>{_("ANXIETY.HEAD5")}</h2>
-                            <p>{_("ANXIETY.DESK5_1")}</p>
-                            <p>{_("ANXIETY.DESK5_2")}</p>
-                            <p>{_("ANXIETY.DESK5_3")}</p>
-                            <p>{_("ANXIETY.DESK5_4")}</p>
-                            <p>{_("ANXIETY.DESK5_5")}</p>
-                        </div>
-                        
+                                        
                     </div>
 
                     <div className="col-lg-4 order-lg-2 order-1">
                         <div className="contents-list">
-                            <h3>{_("ANXIETY.CONTENTS")}</h3>
-                            <ContentsList PAGE="ANXIETY" CONTENTS_COUNT={CONTENTS_COUNT} />
+                            <h3>{_("HARMONY.CONTENTS")}</h3>
+                            <ContentsList PAGE="HARMONY" CONTENTS_COUNT={CONTENTS_COUNT} />
                         </div>
                     </div>
                  
