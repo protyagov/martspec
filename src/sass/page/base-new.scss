@@ -153,6 +153,23 @@
     color: #FFFFFF;
   }
 
+  .ms-read-more-btn {
+    @extend %p-smaller;
+
+    display: inline-block;
+    font-family: os4;
+    text-decoration: none;
+    color: $ms-color-text-black;
+
+    span {
+      &::after {
+        content: url("../img/emotion-icon-5.svg");
+        margin-left: 15px;
+        display: inline-block;
+      }
+    }
+  }
+
   .ms-base-image {
     @include media-breakpoint-down($base-breakpoint) {
       margin: 0;
@@ -184,16 +201,8 @@
       margin-bottom: 1rem;
     }
 
-    p,
-    a {
+    p {
       @extend %p-smaller;
-    }
-
-    a {
-      display: inline-block;
-      font-family: os4;
-      text-decoration: none;
-      color: $ms-color-text-black;
     }
   }
 

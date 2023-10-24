@@ -16,6 +16,10 @@
     }
   }
 
+  .ms-read-more-btn {
+    margin-top: 1.5rem;
+  }
+
   .ms-content-collapse-btn {
     &[aria-expanded="true"] {
       display: none;
