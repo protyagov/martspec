@@ -1,4 +1,32 @@
 .biorhythms {
+
+  .columns-with-collapse {
+    $columns-count: 2;
+
+    display: grid;
+    grid-template: max-content / repeat($columns-count, 1fr);
+    gap: $column-x-gap;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    @include media-breakpoint-down(lg) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .ms-content-collapse-btn {
+    &[aria-expanded="true"] {
+      display: none;
+    }
+
+    span {
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+  }
   
   .checkmark-list {
     grid-template-columns: 1fr;
@@ -12,25 +40,7 @@
       margin-bottom: 1rem;
     }
   }
-  #firstContentSectionCollapseBtn {
-    text-decoration: none;
-
-    &[aria-expanded="true"] {
-      display: none;
-    }
-
-    p {
-      color: $ms-color-text-black;
-      font-family: os4;
-
-      &::after {
-        content: url("../img/emotion-icon-5.svg");
-        margin-left: 15px;
-        display: inline-block;
-        transform: rotate(90deg);
-      }
-    }
-  }
+  
   #rhythms-carousel {
     $carousel-fade-transition: opacity .6s .1s;
 

@@ -26,6 +26,8 @@ export default function Biorhythms() {
         },
     ];
 
+    const shouldContentCollapse = window.innerWidth <= 992;
+
     return <>
         <NavigationBar />
 
@@ -52,25 +54,25 @@ export default function Biorhythms() {
                 <div className="row">
                     <div className="col-12">
                         <h2>{_("BIORHYTHMS.HEAD1")}</h2>
-                    </div>
-                    <div className="col-lg-6">
-                        <p>{_("BIORHYTHMS.DESK1_1")}</p>
-                    </div>
-                    <div id="firstContentSectionCollapse" className={"col-lg-6 mt-lg-0 mt-3 collapse" + (window.innerWidth >= 992 ? " show" : "")}>
-                        <p>{_("BIORHYTHMS.DESK1_2")}</p>
-                    </div>
-                    <div className="col-12 d-lg-none mt-3">
-                        <a
-                            id="firstContentSectionCollapseBtn"
-                            role="button"
-                            data-bs-toggle="collapse"
-                            href="#firstContentSectionCollapse"
-                            aria-expanded={window.innerWidth >= 992}
-                            aria-controls="firstContentSectionCollapse"
-                        >
-                            <p>{_("BIORHYTHMS.BTN1")}</p>
-                        </a>
-                    </div>
+                        <div className="columns-with-collapse">
+                            <div>
+                                <p >{_("BIORHYTHMS.DESK1_1")}</p>
+                                <a
+                                    role="button"
+                                    data-bs-toggle="collapse"
+                                    href="#firstCollapse"
+                                    aria-expanded={!shouldContentCollapse}
+                                    aria-controls="firstCollapse"
+                                    className="ms-read-more-btn ms-content-collapse-btn d-lg-none"
+                                >
+                                    <span>{_("BIORHYTHMS.BTN1")}</span>
+                                </a>
+                            </div>
+                            <div id="firstCollapse" className={"column collapse" + (shouldContentCollapse ? "" : " show")}>
+                                <p >{_("BIORHYTHMS.DESK1_2")}</p>
+                            </div>
+                        </div>
+                    </div>  
                 </div>
             </section>
 
