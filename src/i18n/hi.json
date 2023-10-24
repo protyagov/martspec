@@ -445,7 +445,7 @@
             "FACT_2": "कुछ नैदानिक ​​परीक्षणों में पाया गया है कि कैल्शियम अनुपूरण वृद्ध वयस्कों में हड्डियों के स्वास्थ्य में सुधार कर सकता है",
             "FACT_3": "अकेले कैल्शियम अनुपूरण या विटामिन डी के साथ संयोजन से वृद्ध वयस्कों में अस्थि खनिज घनत्व बढ़ जाता है",
             "FACT_4": "कैल्शियम का सेवन बढ़ाने से वृद्ध वयस्कों में फ्रैक्चर और गिरने का खतरा कम हो जाता है",
-            "FACT_5": "55+ वर्ष की आयु की 1,179 महिलाओं का 4-वर्षीय परीक्षण: अकेले 1,400 से 1,500 मिलीग्राम कैल्शियम, 1,400 से 1,500 मिलीग्राम कैल्शियम और 27.5 मिलीग्राम विटामिन डी3, या प्लेसिबो प्रतिदिन लेना। संयोजन लेने वाली महिलाओं में कैंसर की घटना 60% कम थी और प्लेसबो समूह की तुलना में केवल कैल्शियम की खुराक लेने वाली महिलाओं में कैंसर की घटना 47% कम थी।",
+            "FACT_5": "55+ वर्ष की आयु की 1,179 महिलाओं का 4-वर्षीय परीक्षण: अकेले 1,400 से 1,500 मिलीग्राम कैल्शियम, 1,400 से 1,500 मिलीग्राम कैल्शियम और 27.5 एमसीजी विटामिन डी3, या प्लेसिबो प्रतिदिन लेना। संयोजन लेने वाली महिलाओं में कैंसर की घटना 60% कम थी और प्लेसबो समूह की तुलना में केवल कैल्शियम की खुराक लेने वाली महिलाओं में कैंसर की घटना 47% कम थी।",
             "FACT_6": "77,712 वयस्कों पर 8 साल का अध्ययन: 1999 मिलीग्राम/दिन का औसत कैल्शियम सेवन 587 मिलीग्राम/दिन की तुलना में कोलन कैंसर के 26% कम जोखिम से जुड़ा था। मलाशय कैंसर के खतरे से संबंध नहीं पाया गया"
         },
         "CHLORIDE": {
@@ -1034,7 +1034,7 @@
         "DESK1_2": "Fear is an emotional response to an immediate threat and is more associated with the fight or flight response - either staying to fight or leaving to avoid the danger.",
         "DESK1_3": "Anxiety disorder is a condition that develops gradually after a period of excessive worry; symptoms may vary in intensity and persist for longer periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. It can affect work productivity, schoolwork and personal relationships.",
         "HEAD2": "Types of Anxiety Disorders",
-        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:", 
+        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:",
         "LIST2":{
             "LI1_HEAD": "Generalized anxiety disorder (GAD).",
             "LI1_TEXT": "People with GAD worry about common issues such as health, money, work, and family. It often occurs along with other anxiety disorders or depression, and occurs almost every day for several months.",

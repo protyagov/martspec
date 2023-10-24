@@ -453,7 +453,7 @@
             "FACT_2": "いくつかの臨床試験では、カルシウム補給が高齢者の骨の健康を改善できることがわかっています",
             "FACT_3": "カルシウム補給単独またはビタミンDとの併用は、高齢者の骨塩密度を増加させます",
             "FACT_4": "カルシウムの摂取量を増やすと、高齢者の骨折や転倒のリスクが低下します",
-            "FACT_5": "55 歳以上の1,179 人の女性を対象とした4 年間の試験: 1,400 ～1,500 mg のカルシウムのみ、1,400 ～1,500 mg のカルシウムと27.5 mg のビタミンD3、またはプラセボを毎日摂取。 癌の発生率は、プラセボ群と比較して、この組み合わせを摂取した女性で60% 低く、カルシウムのみのサプリメントを摂取した女性で47% 低かった",
+            "FACT_5": "55 歳以上の1,179 人の女性を対象とした4 年間の試験: 1,400 ～1,500 mg のカルシウムのみ、1,400 ～1,500 mg のカルシウムと27.5 μg のビタミンD3、またはプラセボを毎日摂取。 癌の発生率は、プラセボ群と比較して、この組み合わせを摂取した女性で60% 低く、カルシウムのみのサプリメントを摂取した女性で47% 低かった",
             "FACT_6": "77,712 人の成人を対象とした8 年間の研究: 平均カルシウム摂取量1,999 mg/日は、587 mg/日と比較して、結腸がんのリスクが26% 低いことに関連していました。直腸がんのリスクとの関連は見られませんでした"
         },
         "CHLORIDE": {
@@ -1041,7 +1041,7 @@
         "DESK1_2": "Fear is an emotional response to an immediate threat and is more associated with the fight or flight response - either staying to fight or leaving to avoid the danger.",
         "DESK1_3": "Anxiety disorder is a condition that develops gradually after a period of excessive worry; symptoms may vary in intensity and persist for longer periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. It can affect work productivity, schoolwork and personal relationships.",
         "HEAD2": "Types of Anxiety Disorders",
-        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:", 
+        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:",
         "LIST2":{
             "LI1_HEAD": "Generalized anxiety disorder (GAD).",
             "LI1_TEXT": "People with GAD worry about common issues such as health, money, work, and family. It often occurs along with other anxiety disorders or depression, and occurs almost every day for several months.",

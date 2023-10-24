@@ -453,7 +453,7 @@
             "FACT_2": "Деякі клінічні випробування виявили, що добавки кальцію можуть покращити здоров’я кісток у літніх людей",
             "FACT_3": "Добавки кальцію окремо або в комбінації з вітаміном D збільшують мінеральну щільність кісток у літніх людей",
             "FACT_4": "Збільшення споживання кальцію знижує ризик переломів і падінь у літніх людей",
-            "FACT_5": "4-річне дослідження за участю 1179 жінок віком від 55 років: щодня приймали 1400–1500 мг кальцію, 1400–1500 мг кальцію плюс 27,5 мг вітаміну D3 або плацебо. Захворюваність на рак була на 60% нижчою у жінок, які приймали комбінацію, і на 47% нижчою у тих, хто приймав добавки, що містять лише кальцій, ніж у групі плацебо",
+            "FACT_5": "4-річне дослідження за участю 1179 жінок віком від 55 років: щодня приймали 1400–1500 мг кальцію, 1400–1500 мг кальцію плюс 27,5 млг вітаміну D3 або плацебо. Захворюваність на рак була на 60% нижчою у жінок, які приймали комбінацію, і на 47% нижчою у тих, хто приймав добавки, що містять лише кальцій, ніж у групі плацебо",
             "FACT_6": "8-річне дослідження за участю 77 712 дорослих: середнє споживання кальцію в 1999 мг/день було пов’язане з 26% нижчим ризиком раку товстої кишки порівняно з 587 мг/день. Асоціації з ризиком раку прямої кишки не виявлено"
         },
         "CHLORIDE": {
@@ -1042,7 +1042,7 @@
         "DESK1_2": "Fear is an emotional response to an immediate threat and is more associated with the fight or flight response - either staying to fight or leaving to avoid the danger.",
         "DESK1_3": "Anxiety disorder is a condition that develops gradually after a period of excessive worry; symptoms may vary in intensity and persist for longer periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. It can affect work productivity, schoolwork and personal relationships.",
         "HEAD2": "Types of Anxiety Disorders",
-        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:", 
+        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:",
         "LIST2":{
             "LI1_HEAD": "Generalized anxiety disorder (GAD).",
             "LI1_TEXT": "People with GAD worry about common issues such as health, money, work, and family. It often occurs along with other anxiety disorders or depression, and occurs almost every day for several months.",
