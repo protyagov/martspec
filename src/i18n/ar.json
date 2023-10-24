@@ -413,7 +413,7 @@
             "DEF_5": "قد تستغرق أعراض النقص سنوات حتى تظهر",
             "DEF_6": "النباتيون معرضون لخطر كبير",
             "OVER_1": "حتى مع الجرعات الكبيرة ، يعتبر فيتامين ب ۱۲ آمنًا بشكل عام لأن الجسم لا يخزن كميات زائدة",
-            "FACT_1": "يخزن الجسم حوالي ۱ إلى ٥ ملغ من فيتامين ب ۱۲ - ۱۰۰۰ إلى ۲۰۰۰ ضعف الكمية التي يتم تناولها عادة في اليوم",
+            "FACT_1": "يخزن الجسم حوالي 1 إلى 5 ملجم من فيتامين ب 12 - أي ما يعادل 1000 إلى 2000 ضعف الكمية المستهلكة عادةً في اليوم.",
             "FACT_2": "تم ربط الاكتئاب وهشاشة العظام بانخفاض كمية فيتامين ب ۱۲",
             "FACT_3": "قد يؤدي تناول فيتامين ب ۱۲ مع فيتامين ج إلى تقليل الكمية المتاحة من فيتامين ب ۱۲ في جسمك. لتجنب هذا التفاعل ، تناول فيتامين ج بعد ساعتين أو أكثر من تناول مكمل فيتامين ب ۱۲",
             "FACT_4": "يمكن أن تخفي الكميات العالية من حمض الفوليك نقص فيتامين ب ۱۲",
@@ -1041,7 +1041,7 @@
         "DESK1_2": "Fear is an emotional response to an immediate threat and is more associated with the fight or flight response - either staying to fight or leaving to avoid the danger.",
         "DESK1_3": "Anxiety disorder is a condition that develops gradually after a period of excessive worry; symptoms may vary in intensity and persist for longer periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. It can affect work productivity, schoolwork and personal relationships.",
         "HEAD2": "Types of Anxiety Disorders",
-        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:", 
+        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:",
         "LIST2":{
             "LI1_HEAD": "Generalized anxiety disorder (GAD).",
             "LI1_TEXT": "People with GAD worry about common issues such as health, money, work, and family. It often occurs along with other anxiety disorders or depression, and occurs almost every day for several months.",
