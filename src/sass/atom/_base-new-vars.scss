@@ -1,0 +1,10 @@
+$column-x-gap: 1.5rem; // necessary for correct layout
+
+$section-y-gap: (
+  "l": 8.8rem, // 112
+  "m": 7.7rem, // 96
+  "s": 6.6rem, // 82
+  "xs": 4.4rem
+);
+
+$base-breakpoint: #{lg};
