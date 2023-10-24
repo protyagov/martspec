@@ -38,6 +38,12 @@
     margin-bottom: 4rem;
   }
 
+  .mb-mob-6 {
+    @include media-breakpoint-down($base-breakpoint) {
+      margin-bottom: 4rem !important;
+    }
+  }
+
   .content-wrapper { // prevents vertical margins collapse
     &::after {
       content: "";
