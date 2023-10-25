@@ -244,7 +244,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "生育酚",
-            "DESK": "它是一种强大的抗氧化剂，参与负责皮肤弹性的纤维的形成。有助于提高精子活力和数量，降低因精子数量低和运动缓慢引起的男性不育的风险 它能调节月经周期，帮助受孕，促进健康怀孕",
+            "DESK": "它是一種強大的抗氧化劑，參與纖維的形成，使皮膚保持彈性。 對生殖系統有顯著影響。",
             "FUNC": "强大的抗氧化剂。参与免疫功能。扩张血管并防止血液在血管内凝结。调节基因表达和其他代谢过程。细胞利用维生素 E 相互作用并执行许多重要功能",
             "DEF_1": "眼睛视网膜受损",
             "DEF_2": "神经损伤，通常在手或脚",
@@ -263,7 +263,9 @@
             "FACT_9": "迄今为止的证据不足以支持服用维生素 E 来预防癌症",
             "FACT_10": "大量摄入维生素 E（20 毫克/天）可将患 AMD（年龄相关性黄斑变性——老年人严重视力丧失的最常见原因）的风险降低约 20%",
             "FACT_11": "一项为期 5 年的研究：通过每天服用含有维生素 E（180 毫克 dl-α-生育酚乙酸酯）、β-胡萝卜素（15 毫克）、维生素 C（500 毫克）的补充剂，患晚期 AMD 的风险降低了 25%， 与服用安慰剂的参与者相比，锌（80 毫克）和铜（2 毫克）",
-            "FACT_12": "一项关于阿尔茨海默病进展和认知能力下降的研究发现维生素 E 没有任何好处"
+            "FACT_12": "一项关于阿尔茨海默病进展和认知能力下降的研究发现维生素 E 没有任何好处",
+            "FACT_13": "有助于提高精子活力和数量，降低因精子数量低和运动缓慢引起的男性不育的风险",
+            "FACT_14": "它能调节月经周期，帮助受孕，促进健康怀孕"
         },
         "VITAMIN_K": {
             "HEAD": "K",
@@ -314,7 +316,9 @@
             "FACT_2": "肠道中的细菌可以产生少量它",
             "FACT_3": "大多数核黄素会立即使用，只有少量会储存在肝脏、心脏和肾脏中",
             "FACT_4": "帮助身体将维生素 B6 和 B9 转化为它可以使用的形式",
-            "FACT_5": "核黄素具有荧光黄的颜色 暴露在光线下会使它失活并使其无法使用"
+            "FACT_5": "核黄素具有荧光黄的颜色 暴露在光线下会使它失活并使其无法使用",
+            "FACT_6": "保護眼睛免受陽光照射",
+            "FACT_7": "可防止眼睛水晶體混濁（白內障）"
         },
         "VITAMIN_B3": {
             "HEAD": "B3",
@@ -398,7 +402,8 @@
             "FACT_3": "富含叶酸的饮食与心血管疾病风险降低有关。 基于对 1,980 名芬兰男性进行为期 10 年的研究",
             "FACT_4": "葉酸有時也稱為葉酸或葉酸。",
             "FACT_5": "叶酸摄入不足可能导致基因组不稳定和染色体断裂，而这通常是癌症发展的特征",
-            "FACT_6": "过量补充叶酸可能会加速癌症患者的肿瘤生长（需要更多研究）"
+            "FACT_6": "过量补充叶酸可能会加速癌症患者的肿瘤生长（需要更多研究）",
+            "FACT_7": "胚胎神經系統的發育"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
@@ -416,7 +421,8 @@
             "FACT_2": "抑郁症和骨质疏松症与维生素 B12 含量低有关",
             "FACT_3": "较高量的叶酸可以掩盖维生素 B12 缺乏症",
             "FACT_4": "将维生素 B-12 与维生素 C 一起服用可能会减少体内维生素 B-12 的可用量。 为避免这种相互作用，请在服用维生素 B-12 补充剂两小时或更长时间后服用维生素 C",
-            "FACT_5": "有助于大脑功能，尤其是随着年龄的增长"
+            "FACT_5": "有助于大脑功能，尤其是随着年龄的增长",
+            "FACT_6": "它與 B9 一起參與紅血球的形成"
         },
         "VITAMIN_C": {
             "HEAD": "C",
@@ -437,7 +443,9 @@
             "FACT_1": "维生素 C 补充剂不能预防普通感冒",
             "FACT_2": "较高的维生素 C 摄入量与出现皱纹、皮肤干燥和更好的皮肤老化外观的可能性较低有关。",
             "FACT_3": "可以增加您对含铝药物中铝的吸收",
-            "FACT_4": "吸烟的人比不吸烟的人每天需要多 35 毫克的维生素 C"
+            "FACT_4": "吸烟的人比不吸烟的人每天需要多 35 毫克的维生素 C",
+            "FACT_5": "强化血管壁",
+            "FACT_6": "增强免疫系统"
         },
         "CALCIUM": {
             "HEAD": "Ca",
@@ -1040,7 +1048,7 @@
         "DESK1_2": "Fear is an emotional response to an immediate threat and is more associated with the fight or flight response - either staying to fight or leaving to avoid the danger.",
         "DESK1_3": "Anxiety disorder is a condition that develops gradually after a period of excessive worry; symptoms may vary in intensity and persist for longer periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. It can affect work productivity, schoolwork and personal relationships.",
         "HEAD2": "Types of Anxiety Disorders",
-        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:", 
+        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:",
         "LIST2":{
             "LI1_HEAD": "Generalized anxiety disorder (GAD).",
             "LI1_TEXT": "People with GAD worry about common issues such as health, money, work, and family. It often occurs along with other anxiety disorders or depression, and occurs almost every day for several months.",

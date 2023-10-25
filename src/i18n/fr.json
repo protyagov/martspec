@@ -244,7 +244,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "tocoférol",
-            "DESK": "C'est un puissant antioxydant, il participe à la formation des fibres responsables de l'élasticité de la peau. Aide à améliorer la motilité et le nombre de spermatozoïdes, réduisant ainsi le risque d'infertilité masculine causée par un faible nombre de spermatozoïdes et des mouvements lents. Il régule le cycle menstruel, facilite la conception et favorise une grossesse en bonne santé.",
+            "DESK": "C'est un puissant antioxydant et participe à la formation de fibres qui permettent à la peau de rester élastique. A un effet significatif sur le système reproducteur.",
             "FUNC": "Puissant antioxydant. Impliqué dans la fonction immunitaire. Dilatation des vaisseaux sanguins et prévention de la formation de caillots sanguins. Régulation de l'expression des gènes et d'autres processus métaboliques. Les cellules utilisent la vitamine E pour interagir les unes avec les autres et pour effectuer de nombreuses fonctions importantes.",
             "DEF_1": "Dommages à la rétine de l'œil",
             "DEF_2": "Lésions nerveuses, généralement dans les mains ou les pieds",
@@ -263,7 +263,9 @@
             "FACT_9": "Les preuves à ce jour sont insuffisantes pour soutenir la prise de vitamine E pour prévenir le cancer",
             "FACT_10": "Des apports alimentaires élevés en vitamine E (20 mg/jour) réduisent d'environ 20 % le risque de développer une DMLA (dégénérescence maculaire liée à l'âge - la cause la plus fréquente de perte de vision importante chez les personnes âgées)",
             "FACT_11": "Une étude de 5 ans : Le risque de développer une DMLA avancée est réduit de 25 % en prenant un supplément quotidien contenant de la vitamine E (180 mg d'acétate de dl-alpha-tocophéryle), du bêta-carotène (15 mg), de la vitamine C (500 mg), zinc (80 mg) et cuivre (2 mg) par rapport aux participants prenant un placebo",
-            "FACT_12": "Une étude sur la progression de la maladie d'Alzheimer et le déclin cognitif n'a trouvé aucun avantage de la vitamine E"
+            "FACT_12": "Une étude sur la progression de la maladie d'Alzheimer et le déclin cognitif n'a trouvé aucun avantage de la vitamine E",
+            "FACT_13": "Aide à améliorer la motilité et le nombre de spermatozoïdes, réduisant ainsi le risque d'infertilité masculine causée par un faible nombre de spermatozoïdes et des mouvements lents",
+            "FACT_14": "Il régule le cycle menstruel, facilite la conception et favorise une grossesse en bonne santé"
         },
         "VITAMIN_K": {
             "HEAD": "K",
@@ -315,7 +317,9 @@
             "FACT_2": "Les bactéries dans l'intestin peuvent en produire de petites quantités",
             "FACT_3": "La plupart de la riboflavine est utilisée immédiatement et seules de petites quantités sont stockées dans le foie, le cœur et les reins",
             "FACT_4": "Aide le corps à transformer les vitamines B6 et B9 en formes utilisables",
-            "FACT_5": "La riboflavine est jaune et naturellement fluorescente"
+            "FACT_5": "La riboflavine est jaune et naturellement fluorescente",
+            "FACT_6": "Protège les yeux des rayons du soleil",
+            "FACT_7": "Peut prévenir l'opacification du cristallin de l'œil (cataracte)"
         },
         "VITAMIN_B3": {
             "HEAD": "B3",
@@ -399,7 +403,8 @@
             "FACT_3": "Les régimes riches en folate ont été associés à une diminution du risque de maladies cardiovasculaires. Basé sur une étude de 1 980 hommes finlandais pendant 10 ans",
             "FACT_4": "La folacine est aussi parfois appelée acide folique ou folate",
             "FACT_5": "La folacine est parfois appelée acide folique ou folate",
-            "FACT_6": "Une surdose d'acide folique supplémentaire peut accélérer la croissance tumorale chez les patients cancéreux (plus de recherches nécessaires)"
+            "FACT_6": "Une surdose d'acide folique supplémentaire peut accélérer la croissance tumorale chez les patients cancéreux (plus de recherches nécessaires)",
+            "FACT_7": "Développement du système nerveux embryonnaire"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
@@ -417,7 +422,8 @@
             "FACT_2": "La dépression et l'ostéoporose ont été liées à une faible quantité de vitamine B12",
             "FACT_3": "Prendre de la vitamine B12 avec de la vitamine C peut réduire la quantité disponible de vitamine B12 dans votre corps. Pour éviter cette interaction, prenez de la vitamine C deux heures ou plus après avoir pris un supplément de vitamine B12",
             "FACT_4": "Des quantités plus élevées de folate peuvent masquer une carence en vitamine B12",
-            "FACT_5": "Aide au fonctionnement du cerveau, surtout en vieillissant"
+            "FACT_5": "Aide au fonctionnement du cerveau, surtout en vieillissant",
+            "FACT_6": "Avec le B9, il participe à la formation des globules rouges"
         },
         "VITAMIN_C": {
             "HEAD": "C",
@@ -438,7 +444,9 @@
             "FACT_1": "Les suppléments de vitamine C n'empêcheront pas le rhume",
             "FACT_2": "Des apports plus élevés en vitamine C étaient associés à une probabilité plus faible d'apparence ridée, de sécheresse de la peau et d'un meilleur aspect du vieillissement cutané",
             "FACT_3": "Peut augmenter votre absorption d'aluminium à partir de médicaments contenant de l'aluminium",
-            "FACT_4": "Les fumeurs ont besoin de 35 mg/jour de plus de vitamine C que les non-fumeurs"
+            "FACT_4": "Les fumeurs ont besoin de 35 mg/jour de plus de vitamine C que les non-fumeurs",
+            "FACT_5": "Renforce les parois des vaisseaux sanguins",
+            "FACT_6": "Renforce le système immunitaire"
         },
         "CALCIUM": {
             "HEAD": "Ca",

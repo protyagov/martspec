@@ -244,7 +244,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "Tocopherol",
-            "DESK": "Es ist ein starkes Antioxidans, es beteiligt sich an der Bildung von Fasern, die für die Elastizität der Haut verantwortlich sind. Verbessert die Beweglichkeit und die Anzahl der Spermien und verringert so das Risiko männlicher Unfruchtbarkeit, das durch eine niedrige Spermienzahl und langsame Bewegungen verursacht wird. Es reguliert den Menstruationszyklus, unterstützt die Empfängnis und fördert eine gesunde Schwangerschaft.",
+            "DESK": "Es ist ein starkes Antioxidans und beteiligt sich an der Bildung von Fasern, die dafür sorgen, dass die Haut elastisch bleibt. Hat einen erheblichen Einfluss auf das Fortpflanzungssystem.",
             "FUNC": "Leistungsstarkes Antioxidans. Beteiligt an der Immunfunktion. Erweiterung der Blutgefäße und Verhinderung von Blutgerinnseln. Regulierung der Genexpression und anderer Stoffwechselprozesse. Zellen verwenden Vitamin E, um miteinander zu interagieren und viele wichtige Funktionen auszuführen .",
             "DEF_1": "Schädigung der Netzhaut des Auges",
             "DEF_2": "Nervenschäden, normalerweise in den Händen oder Füßen",
@@ -263,7 +263,9 @@
             "FACT_9": "Bisherige Beweise reichen nicht aus, um die Einnahme von Vitamin E zur Vorbeugung von Krebs zu unterstützen",
             "FACT_10": "Eine hohe Aufnahme von Vitamin E (20 mg/Tag) über die Nahrung hat ein um etwa 20 % geringeres Risiko, an AMD zu erkranken (altersbedingte Makuladegeneration – die häufigste Ursache für signifikanten Sehverlust bei älteren Menschen)",
             "FACT_11": "Eine 5-Jahres-Studie: Das Risiko, eine fortgeschrittene AMD zu entwickeln, wird um 25 % reduziert, wenn ein tägliches Nahrungsergänzungsmittel eingenommen wird, das Vitamin E (180 mg dl-alpha-Tocopherylacetat), Beta-Carotin (15 mg), Vitamin C (500 mg), Zink (80 mg) und Kupfer (2 mg) im Vergleich zu Teilnehmern, die ein Placebo einnahmen",
-            "FACT_12": "Eine Studie über das Fortschreiten der Alzheimer-Krankheit und den Rückgang der kognitiven Fähigkeiten ergab keinen Nutzen von Vitamin E "
+            "FACT_12": "Eine Studie über das Fortschreiten der Alzheimer-Krankheit und den Rückgang der kognitiven Fähigkeiten ergab keinen Nutzen von Vitamin E",
+            "FACT_13": "Verbessert die Beweglichkeit und die Anzahl der Spermien und verringert so das Risiko männlicher Unfruchtbarkeit, das durch eine niedrige Spermienzahl und langsame Bewegungen verursacht wird",
+            "FACT_14": "Es reguliert den Menstruationszyklus, unterstützt die Empfängnis und fördert eine gesunde Schwangerschaft"
         },
         "VITAMIN_K": {
             "HEAD": "K",
@@ -318,7 +320,9 @@
             "FACT_2": "Bakterien im Darm können kleine Mengen davon produzieren",
             "FACT_3": "Das meiste Riboflavin wird sofort verwendet und nur kleine Mengen werden in Leber, Herz und Nieren gespeichert",
             "FACT_4": "Hilft dem Körper, Vitamin B6 und B9 in Formen umzuwandeln, die er verwenden kann Riboflavin ist gelb und von Natur aus fluoreszierend",
-            "FACT_5": "Lichteinwirkung kann ihn deaktivieren und unbrauchbar machen"
+            "FACT_5": "Lichteinwirkung kann ihn deaktivieren und unbrauchbar machen",
+            "FACT_6": "Schützt die Augen vor Sonnenstrahlen",
+            "FACT_7": "Kann einer Trübung der Augenlinse (Katarakt) vorbeugen."
         },
         "VITAMIN_B3": {
             "HEAD": "B3",
@@ -403,7 +407,8 @@
             "FACT_3": "Eine folatreiche Ernährung wurde mit einem verringerten Risiko für Herz-Kreislauf-Erkrankungen in Verbindung gebracht. Basierend auf einer Studie mit 1.980 finnischen Männern für 10 Jahre",
             "FACT_4": "Folacin wird manchmal auch als Folsäure oder Folat bezeichnet",
             "FACT_5": "Es ist möglich, dass eine unzureichende Folsäurezufuhr zu Genominstabilität und Chromosomenbruch beiträgt, die häufig die Krebsentstehung charakterisieren",
-            "FACT_6": "Eine Überdosierung von zusätzlicher Folsäure kann das Tumorwachstum bei Krebspatienten beschleunigen (weitere Forschung erforderlich)"
+            "FACT_6": "Eine Überdosierung von zusätzlicher Folsäure kann das Tumorwachstum bei Krebspatienten beschleunigen (weitere Forschung erforderlich)",
+            "FACT_7": "Entwicklung des embryonalen Nervensystems"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
@@ -421,7 +426,8 @@
             "FACT_2": "Depressionen und Osteoporose wurden mit einer niedrigen Menge an Vitamin B12 in Verbindung gebracht",
             "FACT_3": "Die Einnahme von Vitamin B12 zusammen mit Vitamin C kann die verfügbare Menge an Vitamin B12 in Ihrem Körper reduzieren. Um diese Wechselwirkung zu vermeiden, nehmen Sie Vitamin C zwei oder mehr Stunden nach der Einnahme eines Vitamin-B12-Präparats ein",
             "FACT_4": "Höhere Mengen an Folsäure können einen Vitamin-B12-Mangel maskieren",
-            "FACT_5": "Hilft bei der Gehirnfunktion, besonders wenn wir älter werden "
+            "FACT_5": "Hilft bei der Gehirnfunktion, besonders wenn wir älter werden ",
+            "FACT_6": "Zusammen mit B9 ist es an der Bildung roter Blutkörperchen beteiligt"
         },
         "VITAMIN_C": {
             "HEAD": "C",
@@ -442,7 +448,9 @@
             "FACT_1": "Vitamin-C-Ergänzungen werden die Erkältung nicht verhindern",
             "FACT_2": "Höhere Vitamin-C-Aufnahmen waren mit einer geringeren Wahrscheinlichkeit von Faltenbildung, Trockenheit der Haut und einem besseren Hautalterungserscheinungsbild verbunden ",
             "FACT_3": "Kann die Aufnahme von Aluminium aus aluminiumhaltigen Medikamenten erhöhen",
-            "FACT_4": "Raucher benötigen 35 mg/Tag mehr Vitamin C als Nichtraucher"
+            "FACT_4": "Raucher benötigen 35 mg/Tag mehr Vitamin C als Nichtraucher",
+            "FACT_5": "Stärkt die Wände der Blutgefäße",
+            "FACT_6": "Stärkt das Immunsystem"
         },
         "CALCIUM": {
             "HEAD": "Ca",

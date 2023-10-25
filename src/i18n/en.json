@@ -244,7 +244,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "tocopherol",
-            "DESK": "It is a powerful antioxidant, it participates in the formation of fibers that are responsible for the elasticity of the skin. Helps improve sperm motility and count, reducing risk of male infertility caused by low sperm count and slow movement. Regulates menstrual cycle, aids conception and promotes pregnancy.",
+            "DESK": "It is a powerful antioxidant and participates in the formation of fibers that allow the skin to remain elastic. Has a significant effect on the reproductive system.",
             "FUNC": "It is a powerful antioxidant. Involved in immune function. Dilates blood vessels and prevents blood clots.  Regulation of gene expression, and other metabolic processes. Cells use vitamin E to interact with each other and to carry out many important functions.",
             "DEF_1": "Damage to the eye's retina",
             "DEF_2": "Nerve damage, usually in the hands or feet",
@@ -263,7 +263,9 @@
             "FACT_9": "Evidence to date is insufficient to support taking vitamin E to prevent cancer",
             "FACT_10": "High dietary intakes of vitamin E (20 mg/day) have an approximately 20% lower risk of developing AMD (Age-related macular degeneration – the most common cause of significant vision loss in older people)",
             "FACT_11": "A 5 years study: The risk of developing advanced AMD is reduced by 25% by taking a daily supplement containing vitamin E (180 mg dl-alpha-tocopheryl acetate), beta-carotene (15 mg), vitamin C (500 mg), zinc (80 mg), and copper (2 mg) compared to participants taking a placebo",
-            "FACT_12": "A study of Alzheimer’s disease progression and cognitive decline found no benefit from the vitamin E"
+            "FACT_12": "A study of Alzheimer’s disease progression and cognitive decline found no benefit from the vitamin E",
+            "FACT_13": "Helps improve sperm motility and count, reducing risk of male infertility caused by low sperm count and slow movement.",
+            "FACT_14": "Regulates menstrual cycle, aids conception and promotes pregnancy."
         },
         "VITAMIN_K": {
             "HEAD": "K",
@@ -315,7 +317,9 @@
             "FACT_2": "Bacteria in the gut can produce small amounts of it",
             "FACT_3": "Most riboflavin is used immediately and only small amounts are stored in the liver, heart, and kidneys",
             "FACT_4": "Helps the body change vitamin B6 and B9 into forms it can use",
-            "FACT_5": "Exposure to light can deactivate it and make not usable"
+            "FACT_5": "Exposure to light can deactivate it and make not usable",
+            "FACT_6": "Protects eyes from sun rays",
+            "FACT_7": "May prevent clouding of the lens of the eye (cataract)"
         },
         "VITAMIN_B3": {
             "HEAD": "B3",
@@ -400,7 +404,8 @@
             "FACT_3": "Folate-rich diets have been associated with decreased risk of cardio-vascular disease. Based on a study 1,980 Finnish men for 10 years",
             "FACT_4": "Folacin is also sometimes referred to as folic acid or folate.",
             "FACT_5": "It is possible that inadequate folate intake contributes to genome instability and chromosome breakage that often characterize cancer development",
-            "FACT_6": "Overdose of supplemental folic acid may accelerate tumor growth in cancer patients (More research needed)"
+            "FACT_6": "Overdose of supplemental folic acid may accelerate tumor growth in cancer patients (More research needed)",
+            "FACT_7": "Development of the embryonic nervous system"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
@@ -418,7 +423,8 @@
             "FACT_2": "Depression and osteoporosis have been linked to low amount of vitamin B12",
             "FACT_3": "Taking vitamin B12 with vitamin C might reduce the available amount of vitamin B12 in your body. To avoid this interaction, take vitamin C two or more hours after taking a vitamin B12 supplement",
             "FACT_4": "Higher amounts of folate can mask a vitamin B12 deficiency",
-            "FACT_5": "Helps with brain function, especially as we age"
+            "FACT_5": "Helps with brain function, especially as we age",
+            "FACT_6": "Together with B9, it participates in the formation of red blood cells"
         },
         "VITAMIN_C": {
             "HEAD": "C",
@@ -439,7 +445,9 @@
             "FACT_1": "Vitamin C supplements won't prevent the common cold",
             "FACT_2": "Higher vitamin C intakes were associated with a lower likelihood of a wrinkled appearance, dryness of the skin, and a better skin-aging appearance",
             "FACT_3": "Can increase your absorption of aluminum from medications containing aluminum",
-            "FACT_4": "Individuals who smoke require 35 mg/day more vitamin C than nonsmokers"
+            "FACT_4": "Individuals who smoke require 35 mg/day more vitamin C than nonsmokers",
+            "FACT_5": "Strengthens blood vessel walls",
+            "FACT_6": "Boosts immune system"
         },
         "CALCIUM": {
             "HEAD": "Ca",
