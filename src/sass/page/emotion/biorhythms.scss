@@ -38,14 +38,6 @@
     grid-template-columns: 1fr;
     gap: 1.3rem;
   }
-  .features-list {
-    @include media-breakpoint-up(md) {
-      columns: 2;
-    }
-    li {
-      margin-bottom: 1rem;
-    }
-  }
   
   #rhythms-carousel {
     $carousel-fade-transition: opacity .6s .1s;
@@ -66,9 +58,24 @@
         }
       }
     }
+
     .carousel-item {
       display: block;
+
+      ul {
+        list-style-type: disc;
+        list-style: inside;
+
+        @include media-breakpoint-up(md) {
+          columns: 2;
+        }
+
+        li {
+          margin-bottom: .7rem;
+        }
+      }
     }
+
     .carousel-item.active,
     .carousel-item-next.carousel-item-start,
     .carousel-item-prev.carousel-item-end {

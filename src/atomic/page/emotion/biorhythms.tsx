@@ -78,12 +78,12 @@ export default function Biorhythms() {
 
             <section className="bg-gray">
                 <div id="rhythms-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div className="row py-4">
-                        <div className="col-lg-4 col-12">
+                    <div className="row">
+                        <div className="col-lg-4 col-12 mb-mob-6">
                             <div className="carousel-indicators indicators">
                                 <a role="button" href="#rhythms-carousel" data-bs-slide-to="0" className="active" aria-current="true"><h2>{_("BIORHYTHMS.RHYTHMS.PHYS.HEAD")}</h2></a>
                                 <a role="button" href="#rhythms-carousel" data-bs-slide-to="1"><h2>{_("BIORHYTHMS.RHYTHMS.EMOT.HEAD")}</h2></a>
-                                <a role="button" href="#rhythms-carousel" data-bs-slide-to="2"><h2>{_("BIORHYTHMS.RHYTHMS.INTEL.HEAD")}</h2></a>
+                                <a role="button" href="#rhythms-carousel" data-bs-slide-to="2"><h2 className="mb-0">{_("BIORHYTHMS.RHYTHMS.INTEL.HEAD")}</h2></a>
                             </div>
                         </div>
                         <div className="col-lg-8 col-12">
@@ -91,12 +91,10 @@ export default function Biorhythms() {
                                 {
                                     rhythmsList.map(rhythm => (
                                         <div key={"biorhythm-" + rhythm.name} className={"px-lg-3 carousel-item" + (rhythm.isFirst ? " active" : "")}>
-                                            <div className="mt-4 mb-5">
-                                                <p>{_("BIORHYTHMS.RHYTHMS." + rhythm.name + ".DESK")}</p>
-                                            </div>
+                                            <p>{_("BIORHYTHMS.RHYTHMS." + rhythm.name + ".DESK")}</p>
                                             <div className={"block bg-" + rhythm.bgColor}>
-                                                <h3 className="mb-4">{_("BIORHYTHMS.RHYTHMS.LIST_HEAD")}</h3>
-                                                <ul className="features-list">
+                                                <h3 className="">{_("BIORHYTHMS.RHYTHMS.LIST_HEAD")}</h3>
+                                                <ul>
                                                     {
                                                         [...Array(rhythm.liCount).keys()].map(idx => {
                                                             idx++;
