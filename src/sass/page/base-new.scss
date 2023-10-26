@@ -24,20 +24,7 @@
   };
 
   .mb-6 {
-    margin-bottom: 4rem;
-  }
-
-  .mb-mob-6 {
-    @include media-breakpoint-down($base-breakpoint) {
-      margin-bottom: 4rem !important;
-    }
-  }
-
-  .content-wrapper { // prevents vertical margins collapse
-    &::after {
-      content: "";
-      display: table;
-    }
+    margin-bottom: map-get($section-y-gap, "xxs");
   }
 
   %with-shadow {
@@ -94,7 +81,8 @@
 
   p {
     color: #595959;
-    margin-bottom: 4rem;
+    margin-bottom: map-get($section-y-gap, "xxs");
+    line-height: 152%;
   }
 
   img {
@@ -134,7 +122,7 @@
     }
 
     .row {
-      row-gap: 4rem;
+      row-gap: map-get($section-y-gap, "xxs");
     }
   }
 
@@ -288,7 +276,7 @@
   
       li {
         grid-template: max-content / 1fr;
-        gap: 4rem;
+        gap: map-get($section-y-gap, "xxs");
       }
   
       h3 {

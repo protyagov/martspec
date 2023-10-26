@@ -10,15 +10,21 @@
     margin-bottom: 3px;
   }
 
+  .content-wrapper {
+    margin-bottom: map-get($section-y-gap, "xxs");
+  }
+
   .contents-list {
     position: sticky;
     top: 1.85rem;
     background: #F8F8F8;
     border-radius: 2.4rem;
     padding: 2.25rem;
-    @include media-breakpoint-down(lg) {
-      margin-bottom: 1.85rem;
+
+    @include media-breakpoint-down($base-breakpoint) {
+      margin-bottom: map-get($section-y-gap, "xxs");
     }
+    
     h3 {
       font-family: os5;
       margin-top: 0;
