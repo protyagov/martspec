@@ -25,7 +25,7 @@ export default function Productivity() {
             <section className="page-header text-center">
                 <div className="row">
                     <div className="col-12">
-                        <img src="/img/productivity.webp" className="ms-base-image" alt={_("PRODUCTIVITY.IMG")} height={390} width={410} />
+                        <img src="/img/page/productivity/productivity.webp" className="ms-base-image" alt={_("PRODUCTIVITY.IMG")} height={390} width={410} />
                     </div>
                     <div className="col-12">
                         <h1>{_("PRODUCTIVITY.HEAD")}</h1>
@@ -61,7 +61,7 @@ export default function Productivity() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/productivity_img_1.webp" className="img-fluid" alt="" />
+                            <img src="/img/page/productivity/productivity-img-1.webp" className="img-fluid" alt="" />
                         </div>
 
                         <div id="section-3" className="content-wrapper">
@@ -77,7 +77,7 @@ export default function Productivity() {
                             <p>{_("PRODUCTIVITY.DESK4_1")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_2")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_3")}</p>
-                            <img src="/img/productivity_img_2.webp" className="img-fluid" alt="" />
+                            <img src="/img/page/productivity/productivity-img-2.webp" className="img-fluid" alt="" />
                         </div>
                 
                         <div id="section-5" className="content-wrapper">
