@@ -144,7 +144,7 @@
 
     span {
       &::after {
-        content: url("../img/emotion-icon-5.svg");
+        content: url("../img/page/emotion/emotion-icon-5.svg");
         margin-left: 15px;
         display: inline-block;
       }
@@ -223,7 +223,7 @@
       display: flex;
 
       &::before {
-        content: url("../img/checkmark-icon.svg");
+        content: url("../img/page/emotion/emotion-check-icon.svg");
         margin-top: 4px;
         margin-right: 14px;
       }

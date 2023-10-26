@@ -146,8 +146,12 @@
       <loc>https://martspec.com/emotion/biorhythms</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/emotion/anxiety</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/emotion/harmony</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -310,6 +314,10 @@
    </url>
     <url>
       <loc>https://martspec.com/en/emotion/anxiety</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/en/emotion/harmony</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -475,6 +483,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ar/emotion/harmony</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/ar/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -634,6 +646,10 @@
    </url>
     <url>
       <loc>https://martspec.com/zh/emotion/anxiety</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/zh/emotion/harmony</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -799,6 +815,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/fr/emotion/harmony</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/fr/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -958,6 +978,10 @@
    </url>
     <url>
       <loc>https://martspec.com/de/emotion/anxiety</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/emotion/harmony</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1123,6 +1147,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/hi/emotion/harmony</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/hi/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1282,6 +1310,10 @@
    </url>
     <url>
       <loc>https://martspec.com/ja/emotion/anxiety</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/emotion/harmony</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1447,6 +1479,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/pt/emotion/harmony</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/pt/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1606,6 +1642,10 @@
    </url>
     <url>
       <loc>https://martspec.com/ru/emotion/anxiety</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/emotion/harmony</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1771,6 +1811,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/es/emotion/harmony</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/es/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1930,6 +1974,10 @@
    </url>
     <url>
       <loc>https://martspec.com/uk/emotion/anxiety</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/emotion/harmony</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>

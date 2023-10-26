@@ -1,12 +1,13 @@
 .emotion {
+
   .ms-btn-large {
     background: #AD43D7;
 
     &:hover {
-      background: #C17ADD;
+      background: #c17add;
     }
     &:active {
-      background: #780BA3 !important;
+      background: #780ba3 !important;
     }
   }
 
@@ -28,7 +29,7 @@
     }
 
     span::after {
-      content: url("../img/emotion-icon-5.svg");
+      content: url("/src/img/page/emotion/emotion-icon-5.svg");
       margin-left: 15px;
     }
   }

@@ -39,7 +39,7 @@
   }
   
   #rhythms-carousel {
-    $carousel-fade-transition: opacity .6s .1s;
+    $carousel-fade-transition: opacity 0.6s 0.1s;
 
     .indicators {
       position: relative;
@@ -50,7 +50,7 @@
         display: block;
         text-decoration: none;
         * {
-          color: #AFAFAF;
+          color: #afafaf;
         }
         &.active * {
           color: $ms-color-text-black;

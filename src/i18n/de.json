@@ -244,7 +244,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "Tocopherol",
-            "DESK": "Es ist ein starkes Antioxidans, es beteiligt sich an der Bildung von Fasern, die für die Elastizität der Haut verantwortlich sind. Verbessert die Beweglichkeit und die Anzahl der Spermien und verringert so das Risiko männlicher Unfruchtbarkeit, das durch eine niedrige Spermienzahl und langsame Bewegungen verursacht wird. Es reguliert den Menstruationszyklus, unterstützt die Empfängnis und fördert eine gesunde Schwangerschaft.",
+            "DESK": "Es ist ein starkes Antioxidans und beteiligt sich an der Bildung von Fasern, die dafür sorgen, dass die Haut elastisch bleibt. Hat einen erheblichen Einfluss auf das Fortpflanzungssystem.",
             "FUNC": "Leistungsstarkes Antioxidans. Beteiligt an der Immunfunktion. Erweiterung der Blutgefäße und Verhinderung von Blutgerinnseln. Regulierung der Genexpression und anderer Stoffwechselprozesse. Zellen verwenden Vitamin E, um miteinander zu interagieren und viele wichtige Funktionen auszuführen .",
             "DEF_1": "Schädigung der Netzhaut des Auges",
             "DEF_2": "Nervenschäden, normalerweise in den Händen oder Füßen",
@@ -263,7 +263,9 @@
             "FACT_9": "Bisherige Beweise reichen nicht aus, um die Einnahme von Vitamin E zur Vorbeugung von Krebs zu unterstützen",
             "FACT_10": "Eine hohe Aufnahme von Vitamin E (20 mg/Tag) über die Nahrung hat ein um etwa 20 % geringeres Risiko, an AMD zu erkranken (altersbedingte Makuladegeneration – die häufigste Ursache für signifikanten Sehverlust bei älteren Menschen)",
             "FACT_11": "Eine 5-Jahres-Studie: Das Risiko, eine fortgeschrittene AMD zu entwickeln, wird um 25 % reduziert, wenn ein tägliches Nahrungsergänzungsmittel eingenommen wird, das Vitamin E (180 mg dl-alpha-Tocopherylacetat), Beta-Carotin (15 mg), Vitamin C (500 mg), Zink (80 mg) und Kupfer (2 mg) im Vergleich zu Teilnehmern, die ein Placebo einnahmen",
-            "FACT_12": "Eine Studie über das Fortschreiten der Alzheimer-Krankheit und den Rückgang der kognitiven Fähigkeiten ergab keinen Nutzen von Vitamin E "
+            "FACT_12": "Eine Studie über das Fortschreiten der Alzheimer-Krankheit und den Rückgang der kognitiven Fähigkeiten ergab keinen Nutzen von Vitamin E",
+            "FACT_13": "Verbessert die Beweglichkeit und die Anzahl der Spermien und verringert so das Risiko männlicher Unfruchtbarkeit, das durch eine niedrige Spermienzahl und langsame Bewegungen verursacht wird",
+            "FACT_14": "Es reguliert den Menstruationszyklus, unterstützt die Empfängnis und fördert eine gesunde Schwangerschaft"
         },
         "VITAMIN_K": {
             "HEAD": "K",
@@ -318,7 +320,9 @@
             "FACT_2": "Bakterien im Darm können kleine Mengen davon produzieren",
             "FACT_3": "Das meiste Riboflavin wird sofort verwendet und nur kleine Mengen werden in Leber, Herz und Nieren gespeichert",
             "FACT_4": "Hilft dem Körper, Vitamin B6 und B9 in Formen umzuwandeln, die er verwenden kann Riboflavin ist gelb und von Natur aus fluoreszierend",
-            "FACT_5": "Lichteinwirkung kann ihn deaktivieren und unbrauchbar machen"
+            "FACT_5": "Lichteinwirkung kann ihn deaktivieren und unbrauchbar machen",
+            "FACT_6": "Schützt die Augen vor Sonnenstrahlen",
+            "FACT_7": "Kann einer Trübung der Augenlinse (Katarakt) vorbeugen."
         },
         "VITAMIN_B3": {
             "HEAD": "B3",
@@ -403,7 +407,8 @@
             "FACT_3": "Eine folatreiche Ernährung wurde mit einem verringerten Risiko für Herz-Kreislauf-Erkrankungen in Verbindung gebracht. Basierend auf einer Studie mit 1.980 finnischen Männern für 10 Jahre",
             "FACT_4": "Folacin wird manchmal auch als Folsäure oder Folat bezeichnet",
             "FACT_5": "Es ist möglich, dass eine unzureichende Folsäurezufuhr zu Genominstabilität und Chromosomenbruch beiträgt, die häufig die Krebsentstehung charakterisieren",
-            "FACT_6": "Eine Überdosierung von zusätzlicher Folsäure kann das Tumorwachstum bei Krebspatienten beschleunigen (weitere Forschung erforderlich)"
+            "FACT_6": "Eine Überdosierung von zusätzlicher Folsäure kann das Tumorwachstum bei Krebspatienten beschleunigen (weitere Forschung erforderlich)",
+            "FACT_7": "Entwicklung des embryonalen Nervensystems"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
@@ -417,11 +422,12 @@
             "DEF_5": "Es kann Jahre dauern, bis Mangelerscheinungen auftreten",
             "DEF_6": "Veganer sind einem hohen Risiko ausgesetzt",
             "OVER_1": "Auch in hohen Dosen gilt Vitamin B12 allgemein als unbedenklich, da der Körper überschüssige Mengen nicht speichert",
-            "FACT_1": "Der Körper speichert etwa 1 bis 5 mcg Vitamin B12 – 1.000 bis 2.000 Mal so viel wie die Menge, die normalerweise an einem Tag aufgenommen wird",
+            "FACT_1": "Der Körper speichert etwa 1 bis 5 mg Vitamin B12 – 1.000 bis 2.000 Mal so viel wie die Menge, die normalerweise an einem Tag aufgenommen wird",
             "FACT_2": "Depressionen und Osteoporose wurden mit einer niedrigen Menge an Vitamin B12 in Verbindung gebracht",
             "FACT_3": "Die Einnahme von Vitamin B12 zusammen mit Vitamin C kann die verfügbare Menge an Vitamin B12 in Ihrem Körper reduzieren. Um diese Wechselwirkung zu vermeiden, nehmen Sie Vitamin C zwei oder mehr Stunden nach der Einnahme eines Vitamin-B12-Präparats ein",
             "FACT_4": "Höhere Mengen an Folsäure können einen Vitamin-B12-Mangel maskieren",
-            "FACT_5": "Hilft bei der Gehirnfunktion, besonders wenn wir älter werden "
+            "FACT_5": "Hilft bei der Gehirnfunktion, besonders wenn wir älter werden ",
+            "FACT_6": "Zusammen mit B9 ist es an der Bildung roter Blutkörperchen beteiligt"
         },
         "VITAMIN_C": {
             "HEAD": "C",
@@ -442,7 +448,9 @@
             "FACT_1": "Vitamin-C-Ergänzungen werden die Erkältung nicht verhindern",
             "FACT_2": "Höhere Vitamin-C-Aufnahmen waren mit einer geringeren Wahrscheinlichkeit von Faltenbildung, Trockenheit der Haut und einem besseren Hautalterungserscheinungsbild verbunden ",
             "FACT_3": "Kann die Aufnahme von Aluminium aus aluminiumhaltigen Medikamenten erhöhen",
-            "FACT_4": "Raucher benötigen 35 mg/Tag mehr Vitamin C als Nichtraucher"
+            "FACT_4": "Raucher benötigen 35 mg/Tag mehr Vitamin C als Nichtraucher",
+            "FACT_5": "Stärkt die Wände der Blutgefäße",
+            "FACT_6": "Stärkt das Immunsystem"
         },
         "CALCIUM": {
             "HEAD": "Ca",
@@ -457,7 +465,7 @@
             "FACT_2": "Einige klinische Studien haben ergeben, dass eine Kalziumergänzung die Knochengesundheit bei älteren Erwachsenen verbessern kann",
             "FACT_3": "Eine Kalziumergänzung allein oder in Kombination mit Vitamin D erhöht die Knochenmineraldichte bei älteren Erwachsenen",
             "FACT_4": "Eine Erhöhung der Kalziumzufuhr verringert das Risiko von Frakturen und Stürzen beiälteren Erwachsenen ",
-            "FACT_5": "4-Jahres-Studie mit 1.179 Frauen ab 55 Jahren: Einnahme von 1.400 bis 1.500 mg Calcium allein, 1.400 bis 1.500 mg Calcium plus 27,5 μg Vitamin D3 oder Placebo täglich. Die Krebsinzidenz war bei den Frauen, die die Kombination einnahmen, um 60% niedriger und bei den Frauen, die reine Kalziumpräparate einnahmen, um 47 % niedriger als in der Placebogruppe",
+            "FACT_5": "4-Jahres-Studie mit 1.179 Frauen ab 55 Jahren: Einnahme von 1.400 bis 1.500 mg Calcium allein, 1.400 bis 1.500 mg Calcium plus 27,5 mcg Vitamin D3 oder Placebo täglich. Die Krebsinzidenz war bei den Frauen, die die Kombination einnahmen, um 60% niedriger und bei den Frauen, die reine Kalziumpräparate einnahmen, um 47 % niedriger als in der Placebogruppe",
             "FACT_6": "8-jährige Studie mit 77.712 Erwachsenen: Eine durchschnittliche Kalziumaufnahme von1999 mg/Tag war mit einem um 26% geringeren Darmkrebsrisiko verbunden als 587 mg/Tag. Assoziation mit Risiko für Rektumkarzinom wurde nicht gefunden"
         },
         "CHLORIDE": {
@@ -1045,7 +1053,7 @@
         "DESK1_2": "Fear is an emotional response to an immediate threat and is more associated with the fight or flight response - either staying to fight or leaving to avoid the danger.",
         "DESK1_3": "Anxiety disorder is a condition that develops gradually after a period of excessive worry; symptoms may vary in intensity and persist for longer periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. It can affect work productivity, schoolwork and personal relationships.",
         "HEAD2": "Types of Anxiety Disorders",
-        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:", 
+        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:",
         "LIST2":{
             "LI1_HEAD": "Generalized anxiety disorder (GAD).",
             "LI1_TEXT": "People with GAD worry about common issues such as health, money, work, and family. It often occurs along with other anxiety disorders or depression, and occurs almost every day for several months.",
@@ -1169,6 +1177,62 @@
             "LI5_TEXT": "Routine intensive work."
         },
         "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning, and the ability to adaptations can lead to success in a wide range of areas."
+    },
+    "HARMONY": {
+        "HEAD": "Harmony",
+        "IMG": "Harmony",
+        "DWN": "Get the free Emotion app for Apple Watch, iPhone or iPad right from the Apple App Store».",
+        "CONTENTS": "Contents",
+        "HEAD1": "What is harmony?",
+        "DESK1_1": "Internal harmony, often referred to as inner peace or emotional balance, is a state of well-being where your thoughts, emotions, and actions are in agreement. It entails a sense of calm, satisfaction, and absence of internal conflict. Achieving internal harmony can lead to better internal balance, improved mental health, and a more fulfilling life.",
+        "DESK1_2": "Harmony is the alignment of four elements: what we say, what we think, what we feel, and what we do. When there is agreement, alignment, and congruence between our thoughts, feelings, actions, and words, we experience an internal and external sense of peace called harmony. In psychology, harmony denotes a positive state of inner calm, balance, and a sense of oneness with the world.",
+        "HEAD2": "Why do you need internal harmony?",
+        "DESK2": "When a person is in agreement with himself, when his thoughts, words, deeds and feelings are synchronized, he does not need to look for the guilty, cling, find fault, criticize and judge strictly. When a person is in agreement with himself, he can not pay attention to the shortcomings, mistakes, imperfections and “shortcomings” of others. Inner harmony is essential for your overall well-being and mental health. This may lead to:",
+        "LIST2": {
+            "LI1_TEXT": "Reduction of stress and anxiety",
+            "LI2_TEXT": "Improved emotional resilience",
+            "LI3_TEXT": "Better decision-making",
+            "LI4_TEXT": "Improved relationships with people",
+            "LI5_TEXT": "Increased focus and clarity",
+            "LI6_TEXT": "Greater self-awareness",
+            "LI7_TEXT": "Increased creativity and personal growth"
+        },
+        "ALT2": "Yoga",
+        "HEAD3": "Characteristics of internal harmony",
+        "DESK3": "Internal harmony implies a state of being where you experience a sense of calm, satisfaction, and absence of internal conflict. Harmony encompasses the following characteristics:",
+        "LIST3":{
+            "LI1_HEAD": "Emotional stability:",
+            "LI1_TEXT": "You experience constant emotional balance.",
+            "LI2_HEAD": "Acceptance:",
+            "LI2_TEXT": "You accept yourself and your emotions without judgment.",
+            "LI3_HEAD": "Positive outlook:",
+            "LI3_TEXT": "You tend to view situations with optimism and hope.",
+            "LI4_HEAD": "Flexibility:",
+            "LI4_TEXT": "You adapt well to changes and unexpected challenges.",
+            "LI5_HEAD": "Calm mind:",
+            "LI5_TEXT": "Your mind is relatively free from excessive worry and rumination."
+        },
+        "HEAD4": "How to achieve internal harmony?",
+        "DESK4": "Harmony is a choice that you can consciously make. It is a mental state, not a physical environment in which you are situated. You can attain and sustain your internal harmony simply by adopting the appropriate attitude towards life. Here are a few steps that can help you achieve internal harmony:",
+        "LIST4":{
+            "LI1_HEAD": "Self-awareness:",
+            "LI1_TEXT": "Understand your emotions, triggers, and thought patterns. Recognize when you are losing balance or experiencing inner turmoil. Self-awareness is the first step towards finding equilibrium.",
+            "LI2_HEAD": "Acceptance:",
+            "LI2_TEXT": "Accept yourself, your emotions, and your experiences without judgment. Embrace both positive and negative feelings as part of the human experience. Accept your flaws and imperfections as part of what makes you unique.",
+            "LI3_HEAD": "Letting go:",
+            "LI3_TEXT": "Release attachment to past regrets and future anxieties. Focus on the present moment and detach from things that are beyond your control.",
+            "LI4_HEAD": "Positive self-talk:",
+            "LI4_TEXT": "Replace negative self-talk with positive affirmations and compassionate self-dialogue. Treat yourself with the same kindness and understanding as you would a friend.",
+            "LI5_HEAD": "Healthy boundaries:",
+            "LI5_TEXT": "Set clear boundaries to protect your emotional well-being. Learn to say 'no' when necessary and prioritize activities and relationships that positively impact your life.",
+            "LI6_HEAD": "Gratitude practice:",
+            "LI6_TEXT": "Regularly express gratitude for the positive aspects of your life. This practice can redirect your attention from negativity and enhance your sense of satisfaction.",
+            "LI7_HEAD": "Physical well-being:",
+            "LI7_TEXT": "Maintain a healthy lifestyle through proper nutrition, regular physical exercise, and adequate sleep. Physical well-being has a significant impact on your emotional balance.",
+            "LI8_HEAD": "Seeking support:",
+            "LI8_TEXT": "Reach out to friends, family, or a mental health professional when needed. Talking about your feelings and problems can bring clarity and alleviate emotional burden."
+        },
+        "DESK5": "Remember, achieving internal harmony is an ongoing journey, and it's natural to experience fluctuations in your emotional state. Be patient with yourself and celebrate small victories along the way. Incorporating these practices into your daily life can gradually lead to a greater sense of inner peace and well-being."
     },
     "FOOTER": {
         "C": "Copyright © 2023 Martspec LLC. Alle Rechte vorbehalten.",

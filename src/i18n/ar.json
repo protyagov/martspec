@@ -242,7 +242,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "توكوفيرول",
-            "DESK": "وهو أحد مضادات الأكسدة القوية ، فهو يساهم في تكوين الألياف المسؤولة عن مرونة الجلد. يساعد على تحسين حركة الحيوانات المنوية وعددها، مما يقلل من خطر العقم عند الرجال الناتج عن انخفاض عدد الحيوانات المنوية وبطء حركتها. ينظم الدورة الشهرية، ويساعد على الحمل، ويعزز الحمل الصحي",
+            "DESK": "وهو أحد مضادات الأكسدة القوية ويشارك في تكوين الألياف التي تسمح للجلد بالبقاء مرنًا. له تأثير كبير على الجهاز التناسلي.",
             "FUNC": "مضادات الأكسدة القوية. تشارك في وظيفة المناعة. توسيع الأوعية الدموية ومنع الدم من التجلط داخلها. تنظيم التعبير الجيني وعمليات التمثيل الغذائي الأخرى. تستخدم الخلايا فيتامين هـ للتفاعل مع بعضها البعض وللقيام بالعديد من الوظائف المهمة.",
             "DEF_1": "تلف شبكية العين",
             "DEF_2": "تلف الأعصاب ، عادة في اليدين أو القدمين",
@@ -261,7 +261,9 @@
             "FACT_9": "الأدلة حتى الآن غير كافية لدعم تناول فيتامين هـ للوقاية من السرطان",
             "FACT_10": "إن تناول كميات كبيرة من فيتامين E (۰ مجم / يوم) يقلل من خطر الإصابة بـ AMD (التنكس البقعي المرتبط بالعمر - السبب الأكثر شيوعًا لفقدان البصر عند كبار السن)",
             "FACT_11": "دراسة لمدة سنوات: يتم تقليل خطر تطوير AMD المتقدم بنسبة ۲۵٪ عن طريق تناول مكمل يومي يحتوي على فيتامين E (۱۸۰ مجم دل-ألفا توكوفيرل أسيتات) ، بيتا كاروتين (۱۵ مجم) ، فيتامين ج (۵۰۰ مجم) ، الزنك (۸۰ مجم) والنحاس (۲ مجم) مقارنة بالمشاركين الذين تناولوا دواءً وهمياً",
-            "FACT_12": "وجدت دراسة عن تطور مرض الزهايمر والتدهور المعرفي أنه لا فائدة من فيتامين هـ"
+            "FACT_12": "وجدت دراسة عن تطور مرض الزهايمر والتدهور المعرفي أنه لا فائدة من فيتامين هـ",
+            "FACT_13": "يساعد على تحسين حركة الحيوانات المنوية وعددها، مما يقلل من خطر العقم عند الرجال الناتج عن انخفاض عدد الحيوانات المنوية وبطء حركتها",
+            "FACT_14": "ينظم الدورة الشهرية، ويساعد على الحمل، ويعزز الحمل الصحي"
         },
         "VITAMIN_K": {
             "HEAD": "K",
@@ -295,7 +297,9 @@
             "FACT_2": "يمكن أن يتداخل التانين (مادة كيميائية موجودة في الشاي والقهوة) مع امتصاص فيتامين ب1.",
             "FACT_3": "يتم تدمير حوالي 70٪ من فيتامين ب1 بسبب الحرارة العالية أو الطهي الطويل",
             "FACT_4": "فرط فيتامين ب1 في الجسم أمر نادر للغاية",
-            "FACT_5": "يفرز الجسم كمية إضافية من فيتامين ب1 عن طريق البول"
+            "FACT_5": "يفرز الجسم كمية إضافية من فيتامين ب1 عن طريق البول",
+            "FACT_6": "يحمي العيون من أشعة الشمس",
+            "FACT_7": "قد يمنع تغيم عدسة العين (إعتام عدسة العين)"
         },
         "VITAMIN_B2": {
             "HEAD": "B2",
@@ -313,7 +317,9 @@
             "FACT_2": "يمكن أن تنتج البكتيريا الموجودة في القناة الهضمية كميات صغيرة منها",
             "FACT_3": "يتم استخدام معظم الريبوفلافين على الفور ويتم تخزين كميات صغيرة فقط في الكبد والقلب والكلى",
             "FACT_4": "يساعد الجسم على تغيير فيتامين B٦ و B۹ إلى أشكال يمكنه استخدامها",
-            "FACT_5": "الريبوفلافين أصفر وفلوري طبيعي"
+            "FACT_5": "الريبوفلافين أصفر وفلوري طبيعي",
+            "FACT_6": "يحمي العيون من أشعة الشمس",
+            "FACT_7": "قد يمنع تغيم عدسة العين (إعتام عدسة العين)"
         },
         "VITAMIN_B3": {
             "HEAD": "B3",
@@ -399,7 +405,8 @@
             "FACT_3": "ارتبطت النظم الغذائية الغنية بحمض الفوليك بانخفاض خطر الإصابة بأمراض القلب والأوعية الدموية. بناءً على دراسة ۱۹۸۰ رجل فنلندي لمدة ۱۰ سنوات",
             "FACT_4": "يشار أحيانًا إلى الفولاسين أيضًا باسم حمض الفوليك أو حمض الفوليك.",
             "FACT_5": "من الممكن أن يساهم تناول الفولات غير الكافي في عدم استقرار الجينوم وانكسار الكروموسوم الذي غالبًا ما يميز تطور السرطان",
-            "FACT_6": "قد تؤدي الجرعات الزائدة من حمض الفوليك التكميلي إلى تسريع نمو الورم لدى مرضى السرطان (هناك حاجة إلى مزيد من البحث) "
+            "FACT_6": "قد تؤدي الجرعات الزائدة من حمض الفوليك التكميلي إلى تسريع نمو الورم لدى مرضى السرطان (هناك حاجة إلى مزيد من البحث) ",
+            "FACT_7": "تطور الجهاز العصبي الجنيني"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
@@ -413,11 +420,12 @@
             "DEF_5": "قد تستغرق أعراض النقص سنوات حتى تظهر",
             "DEF_6": "النباتيون معرضون لخطر كبير",
             "OVER_1": "حتى مع الجرعات الكبيرة ، يعتبر فيتامين ب ۱۲ آمنًا بشكل عام لأن الجسم لا يخزن كميات زائدة",
-            "FACT_1": "يخزن الجسم حوالي ۱ إلى ٥ ملغ من فيتامين ب ۱۲ - ۱۰۰۰ إلى ۲۰۰۰ ضعف الكمية التي يتم تناولها عادة في اليوم",
+            "FACT_1": "يخزن الجسم حوالي 1 إلى 5 ملجم من فيتامين ب 12 - أي ما يعادل 1000 إلى 2000 ضعف الكمية المستهلكة عادةً في اليوم.",
             "FACT_2": "تم ربط الاكتئاب وهشاشة العظام بانخفاض كمية فيتامين ب ۱۲",
             "FACT_3": "قد يؤدي تناول فيتامين ب ۱۲ مع فيتامين ج إلى تقليل الكمية المتاحة من فيتامين ب ۱۲ في جسمك. لتجنب هذا التفاعل ، تناول فيتامين ج بعد ساعتين أو أكثر من تناول مكمل فيتامين ب ۱۲",
             "FACT_4": "يمكن أن تخفي الكميات العالية من حمض الفوليك نقص فيتامين ب ۱۲",
-            "FACT_5": "يساعد في وظائف المخ ، خاصة مع تقدمنا في العمر "
+            "FACT_5": "يساعد في وظائف المخ ، خاصة مع تقدمنا في العمر ",
+            "FACT_6": "ويشارك مع B9 في تكوين خلايا الدم الحمراء"
         },
         "VITAMIN_C": {
             "HEAD": "C",
@@ -438,7 +446,9 @@
             "FACT_1": "إن مكملات فيتامين ج لن تمنع نزلات البرد",
             "FACT_2": "ارتبط تناول كميات كبيرة من فيتامين سي بانخفاض احتمالية ظهور التجاعيد وجفاف الجلد ومظهر أفضل لشيخوخة الجلد.",
             "FACT_3": "يمكن أن يزيد من امتصاصك للألمنيوم من الأدوية التي تحتوي على الألمنيوم",
-            "FACT_4": "الأفراد الذين يدخنون يحتاجون إلى فيتامين ج أكثر بمقدار ۳٥ ملغ / يوم من غير المدخنين "
+            "FACT_4": "الأفراد الذين يدخنون يحتاجون إلى فيتامين ج أكثر بمقدار ۳٥ ملغ / يوم من غير المدخنين ",
+            "FACT_5": "يقوي جدران الأوعية الدموية",
+            "FACT_6": "يقوي جهاز المناعة"
         },
         "CALCIUM": {
             "HEAD": "Ca",
@@ -1041,7 +1051,7 @@
         "DESK1_2": "Fear is an emotional response to an immediate threat and is more associated with the fight or flight response - either staying to fight or leaving to avoid the danger.",
         "DESK1_3": "Anxiety disorder is a condition that develops gradually after a period of excessive worry; symptoms may vary in intensity and persist for longer periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. It can affect work productivity, schoolwork and personal relationships.",
         "HEAD2": "Types of Anxiety Disorders",
-        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:", 
+        "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:",
         "LIST2":{
             "LI1_HEAD": "Generalized anxiety disorder (GAD).",
             "LI1_TEXT": "People with GAD worry about common issues such as health, money, work, and family. It often occurs along with other anxiety disorders or depression, and occurs almost every day for several months.",
@@ -1165,6 +1175,62 @@
             "LI5_TEXT": "Routine intensive work."
         },
         "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning, and the ability to adaptations can lead to success in a wide range of areas."
+    },
+    "HARMONY": {
+        "HEAD": "Harmony",
+        "IMG": "Harmony",
+        "DWN": "Get the free Emotion app for Apple Watch, iPhone or iPad right from the Apple App Store».",
+        "CONTENTS": "Contents",
+        "HEAD1": "What is harmony?",
+        "DESK1_1": "Internal harmony, often referred to as inner peace or emotional balance, is a state of well-being where your thoughts, emotions, and actions are in agreement. It entails a sense of calm, satisfaction, and absence of internal conflict. Achieving internal harmony can lead to better internal balance, improved mental health, and a more fulfilling life.",
+        "DESK1_2": "Harmony is the alignment of four elements: what we say, what we think, what we feel, and what we do. When there is agreement, alignment, and congruence between our thoughts, feelings, actions, and words, we experience an internal and external sense of peace called harmony. In psychology, harmony denotes a positive state of inner calm, balance, and a sense of oneness with the world.",
+        "HEAD2": "Why do you need internal harmony?",
+        "DESK2": "When a person is in agreement with himself, when his thoughts, words, deeds and feelings are synchronized, he does not need to look for the guilty, cling, find fault, criticize and judge strictly. When a person is in agreement with himself, he can not pay attention to the shortcomings, mistakes, imperfections and “shortcomings” of others. Inner harmony is essential for your overall well-being and mental health. This may lead to:",
+        "LIST2": {
+            "LI1_TEXT": "Reduction of stress and anxiety",
+            "LI2_TEXT": "Improved emotional resilience",
+            "LI3_TEXT": "Better decision-making",
+            "LI4_TEXT": "Improved relationships with people",
+            "LI5_TEXT": "Increased focus and clarity",
+            "LI6_TEXT": "Greater self-awareness",
+            "LI7_TEXT": "Increased creativity and personal growth"
+        },
+        "ALT2": "Yoga",
+        "HEAD3": "Characteristics of internal harmony",
+        "DESK3": "Internal harmony implies a state of being where you experience a sense of calm, satisfaction, and absence of internal conflict. Harmony encompasses the following characteristics:",
+        "LIST3":{
+            "LI1_HEAD": "Emotional stability:",
+            "LI1_TEXT": "You experience constant emotional balance.",
+            "LI2_HEAD": "Acceptance:",
+            "LI2_TEXT": "You accept yourself and your emotions without judgment.",
+            "LI3_HEAD": "Positive outlook:",
+            "LI3_TEXT": "You tend to view situations with optimism and hope.",
+            "LI4_HEAD": "Flexibility:",
+            "LI4_TEXT": "You adapt well to changes and unexpected challenges.",
+            "LI5_HEAD": "Calm mind:",
+            "LI5_TEXT": "Your mind is relatively free from excessive worry and rumination."
+        },
+        "HEAD4": "How to achieve internal harmony?",
+        "DESK4": "Harmony is a choice that you can consciously make. It is a mental state, not a physical environment in which you are situated. You can attain and sustain your internal harmony simply by adopting the appropriate attitude towards life. Here are a few steps that can help you achieve internal harmony:",
+        "LIST4":{
+            "LI1_HEAD": "Self-awareness:",
+            "LI1_TEXT": "Understand your emotions, triggers, and thought patterns. Recognize when you are losing balance or experiencing inner turmoil. Self-awareness is the first step towards finding equilibrium.",
+            "LI2_HEAD": "Acceptance:",
+            "LI2_TEXT": "Accept yourself, your emotions, and your experiences without judgment. Embrace both positive and negative feelings as part of the human experience. Accept your flaws and imperfections as part of what makes you unique.",
+            "LI3_HEAD": "Letting go:",
+            "LI3_TEXT": "Release attachment to past regrets and future anxieties. Focus on the present moment and detach from things that are beyond your control.",
+            "LI4_HEAD": "Positive self-talk:",
+            "LI4_TEXT": "Replace negative self-talk with positive affirmations and compassionate self-dialogue. Treat yourself with the same kindness and understanding as you would a friend.",
+            "LI5_HEAD": "Healthy boundaries:",
+            "LI5_TEXT": "Set clear boundaries to protect your emotional well-being. Learn to say 'no' when necessary and prioritize activities and relationships that positively impact your life.",
+            "LI6_HEAD": "Gratitude practice:",
+            "LI6_TEXT": "Regularly express gratitude for the positive aspects of your life. This practice can redirect your attention from negativity and enhance your sense of satisfaction.",
+            "LI7_HEAD": "Physical well-being:",
+            "LI7_TEXT": "Maintain a healthy lifestyle through proper nutrition, regular physical exercise, and adequate sleep. Physical well-being has a significant impact on your emotional balance.",
+            "LI8_HEAD": "Seeking support:",
+            "LI8_TEXT": "Reach out to friends, family, or a mental health professional when needed. Talking about your feelings and problems can bring clarity and alleviate emotional burden."
+        },
+        "DESK5": "Remember, achieving internal harmony is an ongoing journey, and it's natural to experience fluctuations in your emotional state. Be patient with yourself and celebrate small victories along the way. Incorporating these practices into your daily life can gradually lead to a greater sense of inner peace and well-being."
     },
     "FOOTER": {
         "C": "حقوق النشر © ۲۰۲۳ Martspec LLC. كل الحقوق محفوظة.",

@@ -1,9 +1,9 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { useScrollSpy } from "src/hooks";
-import { Footer } from "../../organism/footer";
-import NavigationBar from "../../organism/navbar";
-import ContentsList from "../../molecule/contents-list";
+import { Footer } from "../organism/footer";
+import NavigationBar from "../organism/navbar";
+import ContentsList from "../molecule/contents-list";
 
 
 export default function Anxiety() {
@@ -25,7 +25,7 @@ export default function Anxiety() {
             <section className="page-header text-center">
                 <div className="row">
                     <div className="col-12">
-                        <img src="/img/anxiety/anxiety.webp" className="ms-base-image" alt={_("ANXIETY.IMG")} height={390} width={421} />
+                        <img src="/img/page/anxiety/anxiety.webp" className="ms-base-image" alt={_("ANXIETY.IMG")} height={390} width={421} />
                     </div>
                     <div className="col-12">
                         <h1>{_("ANXIETY.HEAD")}</h1>
@@ -62,7 +62,7 @@ export default function Anxiety() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/anxiety/anxiety-img-1.webp" className="img-fluid" alt={_("ANXIETY.ALT2")} width={768} height={450}/>
+                            <img src="/img/page/anxiety/anxiety-img-1.webp" className="img-fluid" alt={_("ANXIETY.ALT2")} width={768} height={450}/>
                         </div>
 
                         <div id="section-3" className="content-wrapper">
@@ -85,14 +85,14 @@ export default function Anxiety() {
                             <ul className="ms-5">
                                 {
                                     [...Array(LIST4_COUNT)].map((li, idx) => (
-                                        <li key={"LIST2_LI" + ++idx}>
+                                        <li key={"LIST4_LI" + ++idx}>
                                             <b>{_("ANXIETY.LIST4.LI" + idx + "_HEAD")}</b>
                                             <span>{" "} {_("ANXIETY.LIST4.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
                             </ul>
-                            <img src="/img/anxiety/anxiety-img-2.webp" className="img-fluid" alt={_("ANXIETY.ALT4")}  width={768} height={450}/>
+                            <img src="/img/page/anxiety/anxiety-img-2.webp" className="img-fluid" alt={_("ANXIETY.ALT4")}  width={768} height={450}/>
                         </div>
                 
                         <div id="section-5" className="content-wrapper">

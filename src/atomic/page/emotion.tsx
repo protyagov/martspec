@@ -13,7 +13,7 @@ export default function Emotion() {
             <section className="page-header text-center">
                 <div className="row">
                     <div className="col-12">
-                        <img src="/img/emotion.png" className="ms-base-image" alt={_("EMOTION.IMG")} height={400} width={512} />
+                        <img src="/img/page/emotion/emotion.png" className="ms-base-image" alt={_("EMOTION.IMG")} height={400} width={512} />
                     </div>
                     <div className="col-12">
                         <h1>{_("EMOTION.HEAD")}</h1>
@@ -68,7 +68,7 @@ export default function Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <ImageI18N src="/img/emotion_screen_1.en.512.webp" w={512} h={598} cls="ms-base-image mt-mob-xs" alt={_("EMOTION.ALT1")} />
+                        <ImageI18N src="/img/page/emotion/emotion-screen-april-en.webp" w={512} h={598} cls="ms-base-image mt-mob-xs" alt={_("EMOTION.ALT1")} />
                     </div>
                 </div>
             </section>
@@ -83,7 +83,7 @@ export default function Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6 d-table order-lg-first">
-                        <ImageI18N src="/img/emotion_diagram.webp" w={512} h={367} cls="mx-lg-0 ms-base-image mt-mob-s" alt={_("EMOTION.ALT2")} />
+                        <ImageI18N src="/img/page/emotion/emotion-diagram.webp" w={512} h={367} cls="mx-lg-0 ms-base-image mt-mob-s" alt={_("EMOTION.ALT2")} />
                     </div>
                 </div>
                 <div className="row g-4">
@@ -114,7 +114,7 @@ export default function Emotion() {
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD3")}</h2>
                             <p>{_("EMOTION.DESK3_1")}</p>
-                            <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={522} cls="ms-base-image d-block d-lg-none mt-mob-xs mb-mob-xs" alt={_("EMOTION.ALT3")} />
+                            <ImageI18N src="/img/page/emotion/emotion-screen-stress-en.webp" w={512} h={522} cls="ms-base-image d-block d-lg-none mt-mob-xs mb-mob-xs" alt={_("EMOTION.ALT3")} />
                             <h3>{_("EMOTION.DESK3_2")}</h3>
                             <ul className="d-flex gap-4 how-list">
                                 <li className="bg-orange">{_("EMOTION.LIST3.LI1_TEXT")}</li>
@@ -126,7 +126,7 @@ export default function Emotion() {
                         </div>
                     </div>
                     <div className="col-lg-6 d-flex align-items-center">
-                        <ImageI18N src="/img/emotion_screen_2.en.512.webp" w={512} h={443} cls="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT3")} />
+                        <ImageI18N src="/img/page/emotion/emotion-screen-stress-en.webp" w={512} h={443} cls="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT3")} />
                     </div>
                 </div>
             </section>
@@ -134,13 +134,13 @@ export default function Emotion() {
             <section>
                 <div className="row">
                     <div className="col-lg-6 d-flex align-items-center">
-                        <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={512} cls="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT4")} />
+                        <ImageI18N src="/img/page/emotion/emotion-screen-test-en.webp" w={390} h={512} cls="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT4")} />
                     </div>
                     <div className="col-lg-6 d-table">
                         <div className="d-table-cell align-middle">
                             <h2>{_("EMOTION.HEAD4")}</h2>
                             <p>{_("EMOTION.DESK4_1")}</p>
-                            <ImageI18N src="/img/emotion_screen_3.en.512.webp" w={390} h={512} cls="ms-base-image d-block d-lg-none mt-mob-xs mb-mob-xs" alt={_("EMOTION.ALT4")} />
+                            <ImageI18N src="/img/page/emotion/emotion-screen-test-en.webp" w={390} h={512} cls="ms-base-image d-block d-lg-none mt-mob-xs mb-mob-xs" alt={_("EMOTION.ALT4")} />
                             <h3>{_("EMOTION.DESK4_2")}</h3>
                             <ul className="checkmark-list">
                                 <li>{_("EMOTION.LIST4.LI1_TEXT")}</li>
@@ -163,28 +163,28 @@ export default function Emotion() {
                     <div className="col-12">
                         <ul className="list-with-icons">
                             <li>
-                                <div className="icon"><img src="/img/emotion-icon-1.svg" alt={_("EMOTION.ALT5_1")} /></div>
+                                <div className="icon"><img src="/img/page/emotion/emotion-icon-1.svg" alt={_("EMOTION.ALT5_1")} /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST5.LI1_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI1_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/emotion-icon-2.svg" alt={_("EMOTION.ALT5_2")} /></div>
+                                <div className="icon"><img src="/img/page/emotion/emotion-icon-2.svg" alt={_("EMOTION.ALT5_2")} /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST5.LI2_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI2_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/emotion-icon-3.svg" alt={_("EMOTION.ALT5_3")} /></div>
+                                <div className="icon"><img src="/img/page/emotion/emotion-icon-3.svg" alt={_("EMOTION.ALT5_3")} /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST5.LI3_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI3_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/emotion-icon-4.svg" alt={_("EMOTION.ALT5_4")} /></div>
+                                <div className="icon"><img src="/img/page/emotion/emotion-icon-4.svg" alt={_("EMOTION.ALT5_4")} /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST5.LI4_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI4_TEXT")}</p>
@@ -258,42 +258,42 @@ export default function Emotion() {
                     <div className="col-12">
                         <ul className="list-with-icons extended">
                             <li>
-                                <div className="icon"><img src="/img/emotion-icon-6.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/page/emotion/emotion-icon-6.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI1_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI1_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/emotion-icon-7.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/page/emotion/emotion-icon-7.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI2_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI2_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/emotion-icon-8.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/page/emotion/emotion-icon-8.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI3_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI3_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/emotion-icon-9.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/page/emotion/emotion-icon-9.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI4_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI4_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/emotion-icon-10.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/page/emotion/emotion-icon-10.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI5_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI5_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/emotion-icon-11.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/page/emotion/emotion-icon-11.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI6_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI6_TEXT")}</p>
@@ -315,7 +315,7 @@ export default function Emotion() {
                                 style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                             </a>
                         </div>
-                        <ImageI18N src="/img/emotion_screen_4.en.512.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("EMOTION.ALT4")} />
+                        <ImageI18N src="/img/page/emotion/emotion-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("EMOTION.ALT4")} />
                     </div>
                 </div>
             </section>
