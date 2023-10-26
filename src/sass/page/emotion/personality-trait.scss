@@ -1,11 +1,14 @@
 .personality-trait {
+  
   strong {
     font-family: os4;
   }
+
   p,
   ul {
     margin-bottom: 2rem;
   }
+
   li {
     margin-bottom: 3px;
   }
@@ -29,8 +32,10 @@
       font-family: os5;
       margin-top: 0;
     }
+    
     #contents-list {
       gap: 0.5rem;
+
       a {
         text-decoration: none;
         font-size: 1.35rem;
