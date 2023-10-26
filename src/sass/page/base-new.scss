@@ -79,10 +79,14 @@
     line-height: 159%;
   }
 
+  p,
+  li {
+    line-height: 152%;
+  }
+
   p {
     color: #595959;
     margin-bottom: map-get($section-y-gap, "xxs");
-    line-height: 152%;
   }
 
   img {
