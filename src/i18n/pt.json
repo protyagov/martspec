@@ -247,7 +247,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "tocoferol",
-            "DESK": "É um poderoso antioxidante, participa da formação das fibras que são responsáveis ​​pela elasticidade da pele. Ajuda a melhorar a motilidade e a contagem de espermatozoides, reduzindo o risco de infertilidade masculina causada pela baixa contagem de espermatozoides e pela lentidão dos movimentos. Regula o ciclo menstrual, ajuda na concepção e promove uma gravidez saudável.",
+            "DESK": "É um poderoso antioxidante e participa da formação de fibras que permitem que a pele permaneça elástica. Tem um efeito significativo no sistema reprodutivo.",
             "FUNC": "Poderoso antioxidante. Envolvido na função imunológica. Dilatação dos vasos sanguíneos e prevenção de trombose. Regulação da expressão gênica e outros processos metabólicos. As células usam a vitamina E para interagir umas com as outras e realizar muitas funções importantes.",
             "DEF_1": "Danos à retina do olho",
             "DEF_2": "Danos nos nervos, geralmente nas mãos ou pés",
@@ -266,7 +266,9 @@
             "FACT_9": "As evidências até o momento são insuficientes para apoiar a ingestão de vitamina E para prevenir o câncer",
             "FACT_10": "Alta ingestão dietética de vitamina E (20 mg/dia) tem um risco aproximadamente 20% menor de desenvolver DMRI (degeneração macular relacionada à idade – a causa mais comum de perda significativa de visão em pessoas idosas)",
             "FACT_11": "Um estudo de 5 anos: o risco de desenvolver DMRI avançada é reduzido em 25% ao tomar um suplemento diário contendo vitamina E (180 mg dl-alfa-tocoferil acetato), beta-caroteno (15 mg), vitamina C (500 mg), zinco (80 mg) e cobre (2 mg) em comparação com os participantes que tomaram um placebo",
-            "FACT_12": "Um estudo da progressão da doença de Alzheimer e declínio cognitivo não encontrou nenhum benefício da vitamina E"
+            "FACT_12": "Um estudo da progressão da doença de Alzheimer e declínio cognitivo não encontrou nenhum benefício da vitamina E",
+            "FACT_13": "Ajuda a melhorar a motilidade e a contagem de espermatozoides, reduzindo o risco de infertilidade masculina causada pela baixa contagem de espermatozoides e pela lentidão dos movimentos",
+            "FACT_14": "Regula o ciclo menstrual, ajuda na concepção e promove uma gravidez saudável"
         },
         "VITAMIN_K": {
             "HEAD": "K",
@@ -318,7 +320,9 @@
             "FACT_2": "Bactérias no intestino podem produzir pequenas quantidades dele",
             "FACT_3": "A maior parte da riboflavina é usada imediatamente e apenas pequenas quantidades são armazenadas no fígado, coração e rins",
             "FACT_4": "Ajuda o corpo a transformar as vitaminas B6 e B9 em formas que ele pode usar",
-            "FACT_5": "A riboflavina é amarela e naturalmente fluorescente. A exposição à luz pode desativá-la e inutilizá-la"
+            "FACT_5": "A riboflavina é amarela e naturalmente fluorescente. A exposição à luz pode desativá-la e inutilizá-la",
+            "FACT_6": "Protege os olhos dos raios solares",
+            "FACT_7": "Pode prevenir a turvação do cristalino do olho (catarata)"
         },
         "VITAMIN_B3": {
             "HEAD": "B3",
@@ -402,7 +406,8 @@
             "FACT_3": "As dietas ricas em folato têm sido associadas à diminuição do risco de doença cardiovascular. Com base em um estudo de 1.980 homens finlandeses por 10 anos",
             "FACT_4": "A folacina também é às vezes chamada de ácido fólico ou folato",
             "FACT_5": "É possível que a ingestão inadequada de folato contribua para a instabilidade do genoma e quebra cromossômica que muitas vezes caracterizam o desenvolvimento do câncer",
-            "FACT_6": "A overdose de ácido fólico suplementar pode acelerar o crescimento do tumor em pacientes com câncer (mais pesquisas são necessárias)"
+            "FACT_6": "A overdose de ácido fólico suplementar pode acelerar o crescimento do tumor em pacientes com câncer (mais pesquisas são necessárias)",
+            "FACT_7": "Desenvolvimento do sistema nervoso embrionário"
         },
         "VITAMIN_B12": {
             "HEAD": "B12",
@@ -420,7 +425,8 @@
             "FACT_2": "Depressão e osteoporose têm sido associadas à baixa quantidade de vitamina B12",
             "FACT_3": "Tomar vitamina B12 com vitamina C pode reduzir a quantidade disponível de vitamina B-12 em seu corpo. Para evitar essa interação, tome vitamina C duas ou mais horas depois de tomar um suplemento de vitamina B-12",
             "FACT_4": "Quantidades mais altas de folato podem mascarar uma deficiência de vitamina B12",
-            "FACT_5": "Ajuda na função cerebral, especialmente à medida que envelhecemos"
+            "FACT_5": "Ajuda na função cerebral, especialmente à medida que envelhecemos",
+            "FACT_6": "Juntamente com B9, participa na formação de glóbulos vermelhos"
         },
         "VITAMIN_C": {
             "HEAD": "C",
@@ -441,7 +447,9 @@
             "FACT_1": "Os suplementos de vitamina C não previnem o resfriado comum",
             "FACT_2": "Ingestões mais altas de vitamina C foram associadas a uma menor probabilidade de aparência enrugada, ressecamento da pele e melhor aparência de envelhecimento da pele",
             "FACT_3": "Pode aumentar a absorção de alumínio de medicamentos que contêm alumínio",
-            "FACT_4": "Indivíduos que fumam requerem 35 mg/dia a mais de vitamina C do que não fumantes"
+            "FACT_4": "Indivíduos que fumam requerem 35 mg/dia a mais de vitamina C do que não fumantes",
+            "FACT_5": "Fortalece as paredes dos vasos sanguíneos",
+            "FACT_6": "Estimula o sistema imunológico"
         },
         "CALCIUM": {
             "HEAD": "Ca",
