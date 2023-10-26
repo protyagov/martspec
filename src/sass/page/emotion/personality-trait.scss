@@ -1,12 +1,17 @@
 .personality-trait {
-  
+
   strong {
     font-family: os4;
   }
 
   p,
-  ul {
+  ul,
+  .content-wrapper {
     margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   ul {
@@ -30,7 +35,7 @@
     padding: 2.25rem;
 
     @include media-breakpoint-down($base-breakpoint) {
-      margin-bottom: map-get($section-y-gap, "xxs");
+      margin-bottom: map-get($section-y-gap, "xs");
     }
     
     h3 {
