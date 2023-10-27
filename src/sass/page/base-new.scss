@@ -234,15 +234,13 @@
     flex-wrap: wrap;
 
     li {
-      @extend %p-smaller;
-
       padding: 1rem;
       border-radius: 8px;
     }
 
     @include media-breakpoint-down(md) {
       li {
-        flex-basis: calc(50% - ($column-x-gap / 2));
+        flex-basis: calc(50% - (#{$column-x-gap} / 2));
       }
       li:last-child {
         flex-basis: 100%;
