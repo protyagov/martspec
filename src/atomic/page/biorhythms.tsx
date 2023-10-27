@@ -79,7 +79,7 @@ export default function Biorhythms() {
             <section className="bg-gray">
                 <div id="rhythms-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="row">
-                        <div className="col-lg-4 col-12 mb-mob-6">
+                        <div className="col-lg-4 col-12 mb-mob-xxs">
                             <div className="carousel-indicators indicators">
                                 <a role="button" href="#rhythms-carousel" data-bs-slide-to="0" className="active" aria-current="true"><h2>{_("BIORHYTHMS.RHYTHMS.PHYS.HEAD")}</h2></a>
                                 <a role="button" href="#rhythms-carousel" data-bs-slide-to="1"><h2>{_("BIORHYTHMS.RHYTHMS.EMOT.HEAD")}</h2></a>
@@ -177,7 +177,7 @@ export default function Biorhythms() {
                                     <li>{_("BIORHYTHMS.LIST3.LI4_TEXT")}</li>
                                 </ul>
                             </div>
-                            <ImageI18N src="/img/biorhythms_screen_1.en.512.webp" w={207} h={402} cls="ms-base-image d-block d-lg-none mb-mob-6" alt={_("BIORHYTHMS.ALT3")} />
+                            <ImageI18N src="/img/biorhythms_screen_1.en.512.webp" w={207} h={402} cls="ms-base-image d-block d-lg-none mb-mob-xxs" alt={_("BIORHYTHMS.ALT3")} />
                             <p className="mb-0">{_("BIORHYTHMS.DESK3_3")}</p>
                         </div>
                     </div>
