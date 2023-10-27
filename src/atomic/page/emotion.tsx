@@ -60,12 +60,10 @@ export default function Emotion() {
 
             <section>
                 <div className="row">
-                    <div className="col-lg-6 d-table">
-                        <div className="d-table-cell align-middle">
+                    <div className="col-lg-6">
                             <h2>{_("EMOTION.HEAD1")}</h2>
                             <p>{_("EMOTION.DESK1")}</p>
                             <a href={Locale.i18nLink("coming-soon")} className="ms-btn-large">{_("EMOTION.BTN1")}</a>
-                        </div>
                     </div>
                     <div className="col-lg-6">
                         <ImageI18N src="/img/page/emotion/emotion-screen-april-en.webp" w={512} h={598} cls="ms-base-image mt-mob-xs" alt={_("EMOTION.ALT1")} />
@@ -75,14 +73,12 @@ export default function Emotion() {
 
             <section className="bg-gray">
                 <div className="row">
-                    <div className="col-lg-6 d-table">
-                        <div className="d-table-cell align-middle">
+                    <div className="col-lg-6">
                             <h2>{_("EMOTION.HEAD2")}</h2>
                             <p>{_("EMOTION.DESK2")}</p>
                             <a href={Locale.i18nLink("emotion/biorhythms")} className="ms-btn-large">{_("EMOTION.BTN_BIORHYTHM")}</a>
-                        </div>
                     </div>
-                    <div className="col-lg-6 d-table order-lg-first">
+                    <div className="col-lg-6 order-lg-first">
                         <ImageI18N src="/img/page/emotion/emotion-diagram.webp" w={512} h={367} cls="mx-lg-0 ms-base-image mt-mob-s" alt={_("EMOTION.ALT2")} />
                     </div>
                 </div>
@@ -110,8 +106,7 @@ export default function Emotion() {
 
             <section>
                 <div className="row">
-                    <div className="col-lg-6 d-table">
-                        <div className="d-table-cell align-middle">
+                    <div className="col-lg-6">
                             <h2>{_("EMOTION.HEAD3")}</h2>
                             <p>{_("EMOTION.DESK3_1")}</p>
                             <ImageI18N src="/img/page/emotion/emotion-screen-stress-en.webp" w={512} h={522} cls="ms-base-image d-block d-lg-none mt-mob-xs mb-mob-xs" alt={_("EMOTION.ALT3")} />
@@ -123,9 +118,8 @@ export default function Emotion() {
                                 <li className="bg-violet">{_("EMOTION.LIST3.LI4_TEXT")}</li>
                                 <li className="bg-blue">{_("EMOTION.LIST3.LI5_TEXT")}</li>
                             </ul>
-                        </div>
                     </div>
-                    <div className="col-lg-6 d-flex align-items-center">
+                    <div className="col-lg-6">
                         <ImageI18N src="/img/page/emotion/emotion-screen-stress-en.webp" w={512} h={443} cls="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT3")} />
                     </div>
                 </div>
@@ -133,11 +127,10 @@ export default function Emotion() {
 
             <section>
                 <div className="row">
-                    <div className="col-lg-6 d-flex align-items-center">
+                    <div className="col-lg-6">
                         <ImageI18N src="/img/page/emotion/emotion-screen-test-en.webp" w={390} h={512} cls="ms-base-image d-none d-lg-block" alt={_("EMOTION.ALT4")} />
                     </div>
-                    <div className="col-lg-6 d-table">
-                        <div className="d-table-cell align-middle">
+                    <div className="col-lg-6">
                             <h2>{_("EMOTION.HEAD4")}</h2>
                             <p>{_("EMOTION.DESK4_1")}</p>
                             <ImageI18N src="/img/page/emotion/emotion-screen-test-en.webp" w={390} h={512} cls="ms-base-image d-block d-lg-none mt-mob-xs mb-mob-xs" alt={_("EMOTION.ALT4")} />
@@ -150,7 +143,6 @@ export default function Emotion() {
                                 <li>{_("EMOTION.LIST4.LI5_TEXT")}</li>
                                 <li>{_("EMOTION.LIST4.LI6_TEXT")}</li>
                             </ul>
-                        </div>
                     </div>
                 </div>
             </section>
