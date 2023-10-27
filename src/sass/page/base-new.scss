@@ -252,7 +252,7 @@
 
   .list-with-icons {
     display: grid;
-    grid-template: max-content / repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: $column-x-gap;
     row-gap: 2.5rem;
 
@@ -262,7 +262,7 @@
 
     li {
       display: grid;
-      grid-template: max-content / auto 1fr;
+      grid-template-columns: auto 1fr;
       gap: 1.5rem;
     }
 
@@ -275,11 +275,11 @@
     }
 
     &.extended {
-      grid-template: max-content / repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       row-gap: 5rem;
   
       li {
-        grid-template: max-content / 1fr;
+        grid-template-columns: 1fr;
         gap: map-get($section-y-gap, "xxs");
       }
   
