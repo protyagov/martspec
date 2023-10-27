@@ -182,7 +182,8 @@
       margin-bottom: 1rem;
     }
 
-    p {
+    p,
+    li {
       @extend %p-smaller;
     }
   }
