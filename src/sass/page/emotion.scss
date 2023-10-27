@@ -1,24 +1,31 @@
+@import "../atom/base-new-vars";
+
 .emotion {
+  $colors: $emotion-colors;
 
   .ms-btn-large {
-    background: #AD43D7;
+   background: map-get($colors, "main");
 
     &:hover {
-      background: #c17add;
+      background: map-get($colors, "hover");
     }
     &:active {
-      background: #780ba3 !important;
+      background: map-get($colors, "active") !important;
     }
   }
 
   .icon {
-    background: map-get($bgs-new, "violet");
+    background: map-get($colors, "bg");
+    
+    & > img {
+      filter: map-get($colors, "main-filter");
+    }
   }
 
   .checkmark-list {
     li {
       &::before {
-        filter: invert(43%) sepia(46%) saturate(7466%) hue-rotate(265deg) brightness(90%) contrast(85%);
+        filter: map-get($colors, "main-filter");
       }
     }
   }
@@ -29,7 +36,7 @@
     }
 
     span::after {
-      content: url("/src/img/page/emotion/emotion-icon-5.svg");
+      content: url("/src/img/atom/icons/icon-arrow.svg");
       margin-left: 15px;
     }
   }

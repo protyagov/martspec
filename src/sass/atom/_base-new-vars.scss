@@ -1,3 +1,9 @@
+// General
+
+$base-breakpoint: #{lg};
+
+// Gaps
+
 $column-x-gap: 1.5rem; // necessary for correct layout
 
 $section-y-gap: (
@@ -8,4 +14,12 @@ $section-y-gap: (
   "xxs": 4rem // 48
 );
 
-$base-breakpoint: #{lg};
+// App Colors
+
+$emotion-colors: (
+  "main": #AD43D7,
+  "main-filter": invert(43%) sepia(46%) saturate(7466%) hue-rotate(265deg) brightness(90%) contrast(85%),
+  "hover": #C17ADD,
+  "active": #780BA3,
+  "bg": map-get($bgs-new, "violet")
+);

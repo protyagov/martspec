@@ -163,28 +163,28 @@ export default function Emotion() {
                     <div className="col-12">
                         <ul className="list-with-icons">
                             <li>
-                                <div className="icon"><img src="/img/page/emotion/emotion-icon-1.svg" alt={_("EMOTION.ALT5_1")} /></div>
+                                <div className="icon"><img src="/img/atom/icons/icon-defense.svg" alt={_("EMOTION.ALT5_1")} /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST5.LI1_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI1_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/page/emotion/emotion-icon-2.svg" alt={_("EMOTION.ALT5_2")} /></div>
+                                <div className="icon"><img src="/img/atom/icons/icon-sync.svg" alt={_("EMOTION.ALT5_2")} /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST5.LI2_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI2_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/page/emotion/emotion-icon-3.svg" alt={_("EMOTION.ALT5_3")} /></div>
+                                <div className="icon"><img src="/img/atom/icons/icon-no-auth.svg" alt={_("EMOTION.ALT5_3")} /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST5.LI3_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI3_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/page/emotion/emotion-icon-4.svg" alt={_("EMOTION.ALT5_4")} /></div>
+                                <div className="icon"><img src="/img/atom/icons/icon-no-ads.svg" alt={_("EMOTION.ALT5_4")} /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST5.LI4_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST5.LI4_TEXT")}</p>
@@ -258,42 +258,42 @@ export default function Emotion() {
                     <div className="col-12">
                         <ul className="list-with-icons extended">
                             <li>
-                                <div className="icon"><img src="/img/page/emotion/emotion-icon-6.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/atom/icons/icon-sport.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI1_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI1_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/page/emotion/emotion-icon-7.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/atom/icons/icon-bag.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI2_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI2_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/page/emotion/emotion-icon-8.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/atom/icons/icon-health.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI3_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI3_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/page/emotion/emotion-icon-9.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/atom/icons/icon-research.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI4_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI4_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/page/emotion/emotion-icon-10.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/atom/icons/icon-note.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI5_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI5_TEXT")}</p>
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/page/emotion/emotion-icon-11.svg" alt="" /></div>
+                                <div className="icon"><img src="/img/atom/icons/icon-heart.svg" alt="" /></div>
                                 <div>
                                     <h3>{_("EMOTION.LIST7.LI6_HEAD")}</h3>
                                     <p>{_("EMOTION.LIST7.LI6_TEXT")}</p>

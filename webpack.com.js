@@ -126,6 +126,7 @@ module.exports = {
                 { context: 'src/img/', from: '*.png', to: "img" },
                 { context: 'src/img/', from: '*.webp', to: "img" },
                 { context: 'src/img/', from: '*.jpg', to: "img" },
+                { context: 'src/img/atom/icons/', from: '*', to: "img/atom/icons" },
                 { context: 'src/img/page/zinc/', from: '*', to: "img/page/zinc" },
                 { context: 'src/img/page/productivity/', from: '*', to: "img/page/productivity" },
                 { context: 'src/img/page/anxiety/', from: '*', to: "img/page/anxiety" },
