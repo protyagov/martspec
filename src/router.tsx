@@ -19,6 +19,7 @@ import Team from "src/atomic/page/team";
 import ComingSoon from "src/atomic/page/coming-soon";
 import Anxiety from "./atomic/page/anxiety";
 import Harmony from "./atomic/page/harmony";
+// import BodySizeTest from "./atomic/page/bodysize-test";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -58,6 +59,8 @@ export function App() {
             return <Harmony />
         case "/bodysize":
             return <BodySize />;
+        // case "/bodysize-test":
+        //     return <BodySizeTest />;
         case "/privacy-policy":
             return <PrivacyPolicy />;
         case "/about":
