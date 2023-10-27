@@ -127,6 +127,18 @@
 
     .row {
       row-gap: map-get($section-y-gap, "xxs");
+
+      & > *:last-child {
+        line-height: 50px; // = .ms-btn-apple height -> important for correct layout
+
+        @include media-breakpoint-down(sm) {
+          line-height: 40px; // = .ms-btn-apple height
+        } 
+
+        a {
+          vertical-align: middle;
+        }
+      }
     }
   }
 
