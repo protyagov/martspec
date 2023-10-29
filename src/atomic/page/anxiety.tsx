@@ -20,15 +20,19 @@ export default function Anxiety() {
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page pb-5 emotion personal-trait">
+        <div className="ms-base-page ms-base-new emotion personality-trait">
 
-            <section className="pb-3 text-center">
+            <section className="page-header text-center">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-12">
                         <img src="/img/page/anxiety/anxiety.webp" className="ms-base-image" alt={_("ANXIETY.IMG")} height={390} width={421} />
-                        <h1 className="text-center pt-3 mb-5">{_("ANXIETY.HEAD")}</h1>
+                    </div>
+                    <div className="col-12">
+                        <h1>{_("ANXIETY.HEAD")}</h1>
+                    </div>
+                    <div className="col-12">
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("ANXIETY.DWN")} className="ms-btn-apple mt-5"
+                            target="_blank" title={_("ANXIETY.DWN")} className="ms-btn-apple"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                         </a>
                     </div>
@@ -58,7 +62,7 @@ export default function Anxiety() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/anxiety/anxiety-img-1.webp" className="img-fluid" alt={_("ANXIETY.ALT2")} width={768} height={450}/>
+                            <img src="/img/page/anxiety/anxiety-img-1.webp" className="img-fluid" alt={_("ANXIETY.ALT2")} width={768} height={450}/>
                         </div>
 
                         <div id="section-3" className="content-wrapper">
@@ -88,7 +92,7 @@ export default function Anxiety() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/anxiety/anxiety-img-2.webp" className="img-fluid" alt={_("ANXIETY.ALT4")}  width={768} height={450}/>
+                            <img src="/img/page/anxiety/anxiety-img-2.webp" className="img-fluid" alt={_("ANXIETY.ALT4")}  width={768} height={450}/>
                         </div>
                 
                         <div id="section-5" className="content-wrapper">

@@ -12,7 +12,7 @@ module.exports = merge(common, {
             __IN_DEBUG__: JSON.stringify("Merhn"),
         }),
     ],
-    devtool: 'inline-source-map',
+    devtool: 'eval-source-map',
     devServer: {
         port: 3000,
         allowedHosts: 'all',
