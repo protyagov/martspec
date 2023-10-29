@@ -214,12 +214,12 @@ export default function Emotion() {
                             <p>{_("EMOTION.LIST6.LI3_TEXT")}</p>
                             <a href={Locale.i18nLink("emotion/harmony")} className="ms-read-more-btn"><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
-                        <div className="col-lg-6 pb-4">
-                            <div className="block bg-orange">
-                                <h4>{_("EMOTION.LIST6.LI4_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI4_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/independence")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="block bg-orange">
+                            <h3>{_("EMOTION.LIST6.LI4_HEAD")}</h3>
+                            <p>{_("EMOTION.LIST6.LI4_TEXT")}</p>
+                            <a href={Locale.i18nLink("emotion/independence")} className="ms-read-more-btn"><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
                     </div>
                     <div className="col-lg-6">
