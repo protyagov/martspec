@@ -20,15 +20,19 @@ export default function Productivity() {
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page pb-5 emotion personal-trait">
+        <div className="ms-base-page ms-base-new emotion personality-trait">
 
-            <section className="pb-3 text-center">
+            <section className="page-header text-center">
                 <div className="row">
-                    <div className="col">
-                        <img src="/img/productivity.webp" className="ms-base-image" alt={_("PRODUCTIVITY.IMG")} height={390} width={410} />
-                        <h1 className="text-center pt-3 mb-5">{_("PRODUCTIVITY.HEAD")}</h1>
+                    <div className="col-12">
+                        <img src="/img/page/productivity/productivity.webp" className="ms-base-image" alt={_("PRODUCTIVITY.IMG")} height={390} width={410} />
+                    </div>
+                    <div className="col-12">
+                        <h1>{_("PRODUCTIVITY.HEAD")}</h1>
+                    </div>
+                    <div className="col-12">
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("PRODUCTIVITY.DWN")} className="ms-btn-apple mt-5"
+                            target="_blank" title={_("PRODUCTIVITY.DWN")} className="ms-btn-apple"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                         </a>
                     </div>
@@ -57,7 +61,7 @@ export default function Productivity() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/productivity_img_1.webp" className="img-fluid" alt="" />
+                            <img src="/img/page/productivity/productivity-img-1.webp" className="img-fluid" alt="" />
                         </div>
 
                         <div id="section-3" className="content-wrapper">
@@ -73,7 +77,7 @@ export default function Productivity() {
                             <p>{_("PRODUCTIVITY.DESK4_1")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_2")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_3")}</p>
-                            <img src="/img/productivity_img_2.webp" className="img-fluid" alt="" />
+                            <img src="/img/page/productivity/productivity-img-2.webp" className="img-fluid" alt="" />
                         </div>
                 
                         <div id="section-5" className="content-wrapper">
