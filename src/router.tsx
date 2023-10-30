@@ -20,6 +20,7 @@ import ComingSoon from "src/atomic/page/coming-soon";
 import Anxiety from "./atomic/page/anxiety";
 import Harmony from "./atomic/page/harmony";
 import Independence from "./atomic/page/independence";
+import Energy from "./atomic/page/energy";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -59,6 +60,8 @@ export function App() {
             return <Harmony />
         case "/emotion/independence":
             return <Independence />
+        case "/emotion/energy":
+            return <Energy />
         case "/bodysize":
             return <BodySize />;
         case "/privacy-policy":

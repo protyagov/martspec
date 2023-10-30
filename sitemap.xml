@@ -163,6 +163,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -334,6 +338,10 @@
    </url>
     <url>
       <loc>https://martspec.com/en/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/emotion/energy</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -511,6 +519,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ar/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/ar/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -678,6 +690,10 @@
    </url>
    <url>
       <loc>https://martspec.com/zh/emotion/independence</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/emotion/energy</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -855,6 +871,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/fr/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/fr/emotion/productivity</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1026,6 +1046,10 @@
    </url>
    <url>
       <loc>https://martspec.com/de/emotion/independence</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/emotion/energy</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1203,6 +1227,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/hi/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/hi/emotion/productivity</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1374,6 +1402,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ja/emotion/independence</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/emotion/energy</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1551,6 +1583,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/pt/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/pt/emotion/productivity</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1722,6 +1758,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ru/emotion/independence</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/emotion/energy</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1899,6 +1939,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/es/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/es/emotion/productivity</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -2070,6 +2114,10 @@
    </url>
    <url>
       <loc>https://martspec.com/uk/emotion/independence</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/emotion/energy</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
