@@ -185,61 +185,6 @@ export default function Emotion() {
                         </ul>
                     </div>
                 </div>
-
-
-                <div className="pb-5 metrics-list">
-
-                    <div className="row">
-                        <div className="col-12">
-                            <h2>{_("EMOTION.HEAD6")}</h2>
-                        </div>
-                        <div className="col-lg-6 pb-4">
-                            <div className="block bg-violet">
-                                <h4>{_("EMOTION.LIST6.LI1_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI1_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/anxiety")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 pb-4">
-                            <div className="block bg-green">
-                                <h4>{_("EMOTION.LIST6.LI2_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI2_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/productivity")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6 pb-4">
-                            <div className="block bg-aqua">
-                                <h4>{_("EMOTION.LIST6.LI3_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI3_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/harmony")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 pb-4">
-                            <div className="block bg-orange">
-                                <h4>{_("EMOTION.LIST6.LI4_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI4_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/independence")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6 pb-4">
-                            <div className="block bg-yellow">
-                                <h4>{_("EMOTION.LIST6.LI5_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI5_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/energy")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 pb-4">
-                            <div className="block bg-blue">
-                                <h4>{_("EMOTION.LIST6.LI6_HEAD")}</h4>
-                                <p>{_("EMOTION.LIST6.LI6_TEXT")}</p>
-                                <a href={Locale.i18nLink("coming-soon")}><span>{_("EMOTION.LIST6.BTN")}</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </section>
 
             <section className="bg-gray personality-traits-list">
@@ -281,7 +226,7 @@ export default function Emotion() {
                         <div className="block bg-yellow">
                             <h3>{_("EMOTION.LIST6.LI5_HEAD")}</h3>
                             <p>{_("EMOTION.LIST6.LI5_TEXT")}</p>
-                            <a href={Locale.i18nLink("coming-soon")} className="ms-read-more-btn"><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                            <a href={Locale.i18nLink("emotion/energy")} className="ms-read-more-btn"><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
                     </div>
                     <div className="col-lg-6">
