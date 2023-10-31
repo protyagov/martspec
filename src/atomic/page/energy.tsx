@@ -4,7 +4,7 @@ import { useScrollSpy } from "src/hooks";
 import { Footer } from "../organism/footer";
 import NavigationBar from "../organism/navbar";
 import ContentsList from "../molecule/contents-list";
-
+import PageHeader from "../molecule/page-header";
 
 export default function Energy() {
     const LIST2_COUNT = 3;
@@ -23,20 +23,12 @@ export default function Energy() {
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page pb-5 emotion personal-trait">
+        <div className="ms-base-page ms-base-new emotion personality-trait">
 
-            <section className="pb-3 text-center">
-                <div className="row">
-                    <div className="col">
-                        <img src="/img/page/energy/energy.webp" className="ms-base-image" alt={_("ENERGY.IMG")} height={390} width={421} />
-                        <h1 className="text-center pt-3 mb-5">{_("ENERGY.HEAD")}</h1>
-                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("ENERGY.DWN")} className="ms-btn-apple mt-5"
-                            style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                        </a>
-                    </div>
-                </div>
-            </section>
+            <PageHeader
+                PAGE="ENERGY" appId={1562956213}
+                imgSrc="/img/page/energy/energy.webp" imgH={390} imgW={421}
+            />
 
             <section>    
                 <div className="row">
