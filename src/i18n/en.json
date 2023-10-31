@@ -1359,9 +1359,9 @@
         "P5": "One of our latest apps, Emotion, aims to promote mental wellness by providing a fast and easy personality test. In addition to physical wellness and health tracking, we have created our first app, Emotion, to promote mental wellness. Since its creation, this product has received only positive reviews and has almost exclusively 5-star ratings.",
         "P6": "Our apps are built with cutting-edge technology and are available in multiple languages globally. However, none of that matters. It isn't just about the number of apps and industry-leading software. Martspec is about people. Martspec is about trust in technology that empowers individuals with personal health and wellness."
     },
-       "TEAM": {
+    "TEAM": {
         "HEAD": "Our Team",
-        "SUBHEAD": "People behind company are as important as the company itself. Meet our highly talented software engineers & designers who make the best wellness apps.",
+        "ABOUT": "People behind company are as important as the company itself. Meet our highly talented software engineers & designers who make the best wellness apps.",
         "ENGINEER_MOBILE": "Software Engineer",
         "ENGINEER_WEB": "Software Engineer",
         "DESIGNER_UI_UX": "Designer",
