@@ -4,8 +4,7 @@
         "SRC1": "Lire l'article source",
         "FACT": "Voir les faits",
         "SRC2": "Obtenez des faits à partir de l'article source",
-        "WIKI": "Lire l'article complet sur WiKi",
-        "MORE": "Apprendre encore plus"
+        "WIKI": "Lire l'article complet sur WiKi"
     },
     "MAIN": {
         "HEAD": "Simplicité du suivi de la santé",
@@ -33,7 +32,8 @@
         "HEAD4": "Le fer",
         "DESC4": "Une partie vitale de l'hémoglobine et de la myoglobine, des protéines qui transportent l'oxygène vers les tissus et les muscles du corps. Les globules rouges contiennent plus de la moitié du fer du corps humain. ",
         "HEAD5": "Des risques",
-        "DESC5": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte. "
+        "DESC5": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte. ",
+        "BTN_OPEN": "Équilibre"
     },
     "MASS": {
         "HEAD": "Poids",
@@ -56,7 +56,8 @@
         "DESC4_4": "Sauvegardes iCloud",
         "DESC4_5": "Fonctionne sans iPhone",
         "DESC4_6": "Style minimaliste",
-        "DESC4_7": "Gratuit, zéro annonce et aucun achat in-app"
+        "DESC4_7": "Gratuit, zéro annonce et aucun achat in-app",
+        "BTN_OPEN": "Piste"
     },
     "VITAMIN": {
         "HEAD": "Vitamine",
@@ -87,6 +88,7 @@
         "DESC8_2": "Les vitamines et les minéraux sont des microéléments nutritionnels nécessaires. Ils ne donnent pas d'énergie, mais ils sont vitaux pour le fonctionnement normal de l'organisme et le maintien de la santé.",
         "DESC8_3": "Pour obtenir diverses vitamines, il faut manger des produits de tous les groupes : grains entiers, fruits et légumes, produits laitiers, produits du groupe « poisson-œufs-volaille-viande », matières grasses (noix et graines).",
         "DESC8_4": "Avec notre application, vous pouvez suivre les vitamines et minéraux suivants :",
+        "BTN_OPEN": "Vérifier",
         "VITAMIN_FAT": {
             "NAME": "Vitamines liposolubles",
             "SHORT": "Liposoluble",
@@ -806,7 +808,8 @@
         "DESC4_1": "Hommes: 40 pouces ou plus (102 cm)",
         "DESC4_2": "Femmes: 35 pouces ou plus (88 cm)",
         "DESC4_3": "Chaque 5 cm supplémentaire à la taille augmente le risque de 13% chez les femmes et de 17% chez les hommes, quel que soit l'IMC (Indice de Masse Corporelle)",
-        "DESC4_4": "La source: "
+        "DESC4_4": "La source: ",
+        "BTN_OPEN": "Diminuer"
     },
     "ZINC": {
         "HEAD": "Zinc",
@@ -823,7 +826,8 @@
         "DESC2": "Le zinc est couramment utilisé dans les hôpitaux comme traitement des brûlures, de certains ulcères et d'autres blessures à la peau. En fait, votre peau détient une quantité relativement élevée - environ 5% - du contenu du zinc de votre corps.",
         "LINK2": "Étude de l'American Heart Association",
         "HEAD3": "Diminue l'inflammation",
-        "DESC3": "Diminue le stress oxydatif et réduit les niveaux de certaines protéines inflammatoires de votre corps. Le stress oxydatif entraîne une inflammation chronique, un facteur contribuant dans une vaste gamme de maladies chroniques, telles que la maladie cardiaque, le cancer et le déclin mentale."
+        "DESC3": "Diminue le stress oxydatif et réduit les niveaux de certaines protéines inflammatoires de votre corps. Le stress oxydatif entraîne une inflammation chronique, un facteur contribuant dans une vaste gamme de maladies chroniques, telles que la maladie cardiaque, le cancer et le déclin mentale.",
+        "BTN_OPEN": "Soutien"
     },
     "SIZE": {
         "HEAD": "Belle Forme",
@@ -842,7 +846,8 @@
         "HEAD4": "les hanches",
         "DESC4": "Les preuves montrent que la graisse autour des cuisses et de l'arrière est plus difficile à déplacer que la graisse autour de la taille. Le ratio de taille à hanches est couramment utilisé comme indicateur ou mesure de la santé et le risque de développer des conditions de santé graves.",
         "HEAD5": "Forme du corps",
-        "DESC5": "Votre corps a-t-il la forme d'une pomme 🍎 ou d'une poire 🍐? Ou peut-être un sablier ? Découvrir la vraie forme de votre corps est plus qu'un de ces tests en ligne inutiles. Comprendre la forme de votre corps peut vous aider à découvrir l'entraînement le plus efficace. Des études suggèrent que cela peut aider à améliorer votre santé."
+        "DESC5": "Votre corps a-t-il la forme d'une pomme 🍎 ou d'une poire 🍐? Ou peut-être un sablier ? Découvrir la vraie forme de votre corps est plus qu'un de ces tests en ligne inutiles. Comprendre la forme de votre corps peut vous aider à découvrir l'entraînement le plus efficace. Des études suggèrent que cela peut aider à améliorer votre santé.",
+        "BTN_OPEN": "Mesure"
     },
     "EMOTION": {
         "HEAD": "Émotion",
@@ -951,7 +956,8 @@
         },
         "HEAD8": "L'application Emotion est disponible pour tous les appareils Apple",
         "DESK8": "Commencez dès aujourd'hui à suivre vos changements d'humeur en téléchargeant l'application maintenant",
-        "ALT8": "Captures d'écran d'une application qui vous permet de suivre régulièrement et confortablement votre état psychologique sur n'importe quel appareil"
+        "ALT8": "Captures d'écran d'une application qui vous permet de suivre régulièrement et confortablement votre état psychologique sur n'importe quel appareil",
+        "BTN_OPEN": "Soutien"
     },
     "BIORHYTHMS": {
         "HEAD": "Biorhythms",
