@@ -3,6 +3,7 @@ import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import ImageI18N from "src/atomic/atom/img-i18n";
+import PageHeader from "../molecule/page-header";
 
 export default function Biorhythms() {
     const rhythmsList = [
@@ -33,22 +34,10 @@ export default function Biorhythms() {
 
         <div className="ms-base-page ms-base-new emotion biorhythms">
 
-            <section className="page-header text-center">
-                <div className="row">
-                    <div className="col-12">
-                        <img src="/img/biorhythms.png" className="ms-base-image" alt={_("BIORHYTHMS.IMG")} height={512} width={512} />
-                    </div>
-                    <div className="col-12">
-                        <h1>{_("BIORHYTHMS.HEAD")}</h1>
-                    </div>
-                    <div className="col-12">
-                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("BIORHYTHMS.DWN")} className="ms-btn-apple"
-                            style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                        </a>
-                    </div>
-                </div>
-            </section>
+            <PageHeader
+                PAGE="BIORHYTHMS" appId={1562956213}
+                imgSrc="/img/biorhythms.png" imgH={512} imgW={512}
+            />
 
             <section>
                 <div className="row">

@@ -3,31 +3,19 @@ import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import ImageI18N from "src/atomic/atom/img-i18n";
+import PageHeader from "src/atomic/molecule/page-header";
 
 export default function Emotion() {
+
     return <>
         <NavigationBar />
 
         <div className="ms-base-page ms-base-new emotion">
 
-            <section className="page-header text-center">
-                <div className="row">
-                    <div className="col-12">
-                        <img src="/img/page/emotion/emotion.png" className="ms-base-image" alt={_("EMOTION.IMG")} height={400} width={512} />
-                    </div>
-                    <div className="col-12">
-                        <h1>{_("EMOTION.HEAD")}</h1>
-                        <h3>{_("EMOTION.ABOUT_1")}</h3>
-                        <p>{_("EMOTION.ABOUT_2")}</p>
-                    </div>
-                    <div className="col-12">
-                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple"
-                            style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                        </a>
-                    </div>
-                </div>
-            </section>
+            <PageHeader
+                PAGE="EMOTION" appId={1562956213}
+                imgSrc="/img/page/emotion/emotion.png" imgH={400} imgW={512}
+            />
 
             <section>
                 <div className="row g-4">

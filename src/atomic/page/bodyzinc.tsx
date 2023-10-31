@@ -3,6 +3,7 @@ import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import ImageI18N from "src/atomic/atom/img-i18n";
+import PageHeader from "../molecule/page-header";
 
 
 export default function BodyZinc() {
@@ -10,20 +11,11 @@ export default function BodyZinc() {
         <NavigationBar />
 
         <div className="ms-base-page pb-5">
-            <section>
-                <img src="/img/page/zinc/body-zinc.svg" className="ms-base-image" alt={_("ZINC.IMG")} height={512} width={512} />
-                <h1 className="text-center pt-3 ">{_("ZINC.HEAD")}</h1>
-            </section>
 
-
-            <section>
-                <p className="mt-4">{_("ZINC.ABOUT")}</p>
-                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1547395353?l=${Locale.language}`}
-                    target="_blank" title={_("ZINC.DWN")} className="ms-btn-apple"
-                    style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                </a>
-            </section>
-
+            <PageHeader
+                PAGE="ZINC" appId={1547395353}
+                imgSrc="/img/page/zinc/body-zinc.svg" imgH={512} imgW={512}
+            />
 
             <section>
                 <h4>{_("ZINC.HEAD1")}</h4>

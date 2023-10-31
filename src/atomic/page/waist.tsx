@@ -2,26 +2,18 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
+import PageHeader from "../molecule/page-header";
 
 export default function WaistLine() {
     return <>
         <NavigationBar />
 
         <div className="ms-base-page pb-5">
-            <section>
-                <img src="/img/page/waistline/waist.svg" className="ms-base-image" alt={_("WAIST.IMG")} height={512} width={512} />
-                <h1 className="text-center pt-3 ">{_("WAIST.HEAD")}</h1>
-            </section>
 
-
-            <section>
-                <p className="mt-4">{_("WAIST.ABOUT")}</p>
-                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1506250420?l=${Locale.language}`}
-                    target="_blank" title={_("MAIN.P3.DWN")} className="ms-btn-apple"
-                    style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                </a>
-            </section>
-
+            <PageHeader
+                PAGE="WAIST" appId={1506250420}
+                imgSrc="/img/page/waistline/waist.svg" imgH={512} imgW={512}
+            />
 
             <section>
                 <h4>{_("WAIST.HEAD3")}</h4>
