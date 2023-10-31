@@ -10,7 +10,7 @@ export default function About() {
 
         <div className="ms-base-page pb-5">
 
-            <PageHeader PAGE="ABOUT" imgSrc="/img/about.svg" imgH={300} imgW={326} />
+            <PageHeader PAGE="ABOUT" imgSrc="/img/about.svg" imgH={400} imgW={426} />
 
             <section>
                 <p>{_("ABOUT.P1")}</p>

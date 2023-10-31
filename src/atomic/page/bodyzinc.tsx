@@ -14,7 +14,7 @@ export default function BodyZinc() {
 
             <PageHeader
                 PAGE="ZINC" appId={1547395353}
-                imgSrc="/img/page/zinc/body-zinc.svg" imgH={512} imgW={512}
+                imgSrc="/img/page/zinc/body-zinc.svg" imgH={426} imgW={420}
             />
 
             <section>

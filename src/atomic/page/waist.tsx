@@ -12,7 +12,7 @@ export default function WaistLine() {
 
             <PageHeader
                 PAGE="WAIST" appId={1506250420}
-                imgSrc="/img/page/waistline/waist.svg" imgH={512} imgW={512}
+                imgSrc="/img/page/waistline/waist.svg" imgH={468} imgW={430}
             />
 
             <section>
