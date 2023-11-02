@@ -11,8 +11,11 @@ export default function PrivacyPolicy() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                PAGE="PP"
-                imgSrc="/img/privacy.svg" imgH={360} imgW={428}
+                title="PP.HEAD"
+                imgSrc="/img/privacy.svg"
+                imgAlt="PP.IMG"
+                imgH={360}
+                imgW={428}
             />
 
             <section>

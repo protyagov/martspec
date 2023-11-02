@@ -18,8 +18,15 @@ export default function Vitamin() {
         <div className="ms-base-page pb-5 vitamin">
 
             <PageHeader
-                PAGE="VITAMIN" appId={1519596234}
-                imgSrc="/img/page/vitamin/vitamin.svg" imgH={512} imgW={512}
+                title="VITAMIN.HEAD"
+                subtitleLevel1="VITAMIN.ABOUT_1"
+                subtitleLevel2="VITAMIN.ABOUT_2"
+                appId={1519596234}
+                appDownloadTitle="VITAMIN.DWN"
+                imgSrc="/img/page/vitamin/vitamin.svg"
+                imgAlt="VITAMIN.IMG"
+                imgH={512}
+                imgW={512}
             />
 
             <section>

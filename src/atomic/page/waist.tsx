@@ -11,8 +11,14 @@ export default function WaistLine() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                PAGE="WAIST" appId={1506250420}
-                imgSrc="/img/page/waistline/waist.svg" imgH={468} imgW={430}
+                title="WAIST.HEAD"
+                subtitleLevel2="WAIST.ABOUT"
+                appId={1506250420}
+                appDownloadTitle="WAIST.DWN"
+                imgSrc="/img/page/waistline/waist.svg"
+                imgAlt="WAIST.IMG"
+                imgH={468}
+                imgW={430}
             />
 
             <section>

@@ -24,8 +24,13 @@ export default function Anxiety() {
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
             <PageHeader
-                PAGE="ANXIETY" appId={1562956213}
-                imgSrc="/img/page/anxiety/anxiety.webp" imgH={390} imgW={512}
+                title="ANXIETY.HEAD"
+                appId={1562956213}
+                appDownloadTitle="ANXIETY.DWN"
+                imgSrc="/img/page/anxiety/anxiety.webp"
+                imgAlt="ANXIETY.IMG"
+                imgH={390}
+                imgW={512}
             />
 
             <section>    

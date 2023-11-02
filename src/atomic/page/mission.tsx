@@ -10,8 +10,14 @@ export default function Mission() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                PAGE="MISSION" appId={1507588203}
-                imgSrc="/img/mission.svg" imgH={300} imgW={391}
+                title="MISSION.HEAD"
+                subtitleLevel1="MISSION.ABOUT_1"
+                appId={1507588203}
+                appDownloadTitle="MISSION.DWN"
+                imgSrc="/img/mission.svg"
+                imgAlt="MISSION.IMG"
+                imgH={300}
+                imgW={391}
             />
 
             <section>

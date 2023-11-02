@@ -12,8 +12,14 @@ export default function BodySize() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                PAGE="SIZE" appId={1564205068}
-                imgSrc="/img/page/body-size/size-head.svg" imgH={512} imgW={512}
+                title="SIZE.HEAD"
+                subtitleLevel2="SIZE.ABOUT"
+                appId={1564205068}
+                appDownloadTitle="SIZE.DWN"
+                imgSrc="/img/page/body-size/size-head.svg"
+                imgAlt="SIZE.IMG"
+                imgH={512}
+                imgW={512}
             />
 
             {/* Body compostion */}

@@ -13,7 +13,7 @@ export default function Team() {
 
         <div className="ms-base-page pb-5 text-center ms-team">
 
-            <PageHeader PAGE="TEAM" />
+            <PageHeader title="TEAM.HEAD" subtitleLevel2="TEAM.ABOUT" />
 
             <section>
                 <div className=" d-flex flex-wrap justify-content-center members-list">

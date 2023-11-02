@@ -24,8 +24,13 @@ export default function Productivity() {
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
             <PageHeader
-                PAGE="PRODUCTIVITY" appId={1562956213}
-                imgSrc="/img/page/productivity/productivity.webp" imgH={390} imgW={410}
+                title="PRODUCTIVITY.HEAD"
+                appId={1562956213}
+                appDownloadTitle="PRODUCTIVITY.DWN"
+                imgSrc="/img/page/productivity/productivity.webp"
+                imgAlt="PRODUCTIVITY.IMG"
+                imgH={390}
+                imgW={410}
             />
 
             <section>    

@@ -11,8 +11,14 @@ export default function Bodymass() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                PAGE="MASS" appId={1507588203}
-                imgSrc="/img/page/body-mass/mass.svg" imgH={406} imgW={512}
+                title="MASS.HEAD"
+                subtitleLevel2="MASS.ABOUT"
+                appId={1507588203}
+                appDownloadTitle="MASS.DWN"
+                imgSrc="/img/page/body-mass/mass.svg"
+                imgAlt="MASS.IMG"
+                imgH={406}
+                imgW={512}
             />
 
             <section>

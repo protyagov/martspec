@@ -26,8 +26,13 @@ export default function Energy() {
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
             <PageHeader
-                PAGE="ENERGY" appId={1562956213}
-                imgSrc="/img/page/energy/energy.webp" imgH={390} imgW={421}
+                title="ENERGY.HEAD"
+                appId={1562956213}
+                appDownloadTitle="ENERGY.DWN"
+                imgSrc="/img/page/energy/energy.webp"
+                imgAlt="ENERGY.IMG"
+                imgH={390}
+                imgW={421}
             />
 
             <section>    

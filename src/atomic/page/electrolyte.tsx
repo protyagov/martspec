@@ -11,8 +11,14 @@ export default function Electrolyte() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                PAGE="ELECTROLYTE" appId={1507719251}
-                imgSrc="/img/page/electrolyte/electrolyte.svg" imgH={512} imgW={512}
+                title="ELECTROLYTE.HEAD"
+                subtitleLevel2="ELECTROLYTE.ABOUT"
+                appId={1507719251}
+                appDownloadTitle="ELECTROLYTE.DWN"
+                imgSrc="/img/page/electrolyte/electrolyte.svg"
+                imgAlt="ELECTROLYTE.IMG"
+                imgH={460}
+                imgW={440}
             />
 
             <section >

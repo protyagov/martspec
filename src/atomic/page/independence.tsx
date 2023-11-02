@@ -25,8 +25,13 @@ export default function Independence() {
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
             <PageHeader
-                PAGE="INDEPENDENCE" appId={1562956213}
-                imgSrc="/img/page/independence/independence.webp" imgH={390} imgW={421}
+                title="INDEPENDENCE.HEAD"
+                appId={1562956213}
+                appDownloadTitle="INDEPENDENCE.DWN"
+                imgSrc="/img/page/independence/independence.webp"
+                imgAlt="INDEPENDENCE.IMG"
+                imgH={390}
+                imgW={421}
             />
 
             <section>    
