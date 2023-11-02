@@ -84,11 +84,6 @@ export class Locale {
     }
 
     //-------------------------------------------------------------------------------------------------------
-    static hasKey(key: string): boolean {
-        return Locale._polyglot.has(key);
-    }
-
-    //-------------------------------------------------------------------------------------------------------
     static i18nLink(path: string) {
         return window.location.origin
             + ((!Locale.language || Locale.language == "en") ? "" : ("/" + Locale.language))
