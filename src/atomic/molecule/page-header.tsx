@@ -2,41 +2,42 @@ import React from "react";
 import _, { Locale } from "src/i18n/locale";
 
 type PageHeaderProps = {
-    PAGE: string;
+    title: string;
+    subtitleLevel1?: string;
+    subtitleLevel2?: string;
     appId?: number;
+    appDownloadTitle?: string;
 };
 
 type WithImage<Props> = Props & {
     imgSrc: string;
     imgH: number;
     imgW: number;
+    imgAlt: string;
 };
 
 type WithoutImage<Props> = Props & {
     imgSrc?: never;
     imgH?: never;
     imgW?: never;
+    imgAlt?: never;
 };
-
-type CreateElementIfTranslatedArgs = {
-    type: string;
-    KEY: string;
-}
 
 export default function PageHeader(props: (
     | WithImage<PageHeaderProps>
     | WithoutImage<PageHeaderProps>
 )) {
-    const { PAGE, appId, imgSrc, imgH, imgW } = props;
-
-    const createElementIfTranslated = ({type, KEY}: CreateElementIfTranslatedArgs) => {  
-        const isTranslated = Locale.hasKey(KEY) && !!_(KEY).length;
-        return isTranslated && React.createElement(
-            type,
-            { key: KEY },
-            _(KEY)
-        );
-    };
+    const {
+        title,
+        subtitleLevel1,
+        subtitleLevel2,
+        imgSrc,
+        imgH,
+        imgW,
+        imgAlt,
+        appId,
+        appDownloadTitle,
+    } = props;
 
     return (
         <div className="ms-base-new">
@@ -49,19 +50,14 @@ export default function PageHeader(props: (
                             height={imgH}
                             width={imgW}
                             className="ms-base-image"
-                            alt={_(`${PAGE}.IMG`)}
+                            alt={imgAlt}
                         />
                     )}
 
                     <div className="headings">
-                        <h1>{_(`${PAGE}.HEAD`)}</h1>
-                        {
-                            [
-                                {KEY: `${PAGE}.ABOUT_1`, type: "h3"},
-                                {KEY: `${PAGE}.ABOUT_2`, type: "p"},
-                                {KEY: `${PAGE}.ABOUT`, type: "p"},                    
-                            ].map(from => createElementIfTranslated(from))
-                        }
+                        <h1>{ _(title) }</h1>
+                        { subtitleLevel1 && <h3>{ _(subtitleLevel1) }</h3> }
+                        { subtitleLevel2 && <p>{ _(subtitleLevel2) }</p> }
                     </div>
 
                     {appId && (
@@ -70,7 +66,7 @@ export default function PageHeader(props: (
                                 "COUNTRY_CODE"
                             )}/app/id${appId}?l=${Locale.language}`}
                             target="_blank"
-                            title={_(`${PAGE}.DWN`)}
+                            title={_(appDownloadTitle)}
                             className="ms-btn-apple"
                             style={{
                                 backgroundImage:
