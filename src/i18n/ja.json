@@ -4,8 +4,7 @@
         "SRC1": "ソース記事を読む",
         "FACT": "事実を見る",
         "SRC2": "ソース記事から事実を入手する",
-        "WIKI": "WiKiに関する記事全文を読む",
-        "MORE": "もっと詳しく知る"
+        "WIKI": "WiKiに関する記事全文を読む"
     },
     "MAIN": {
         "HEAD": "健康追跡のシンプルさ",
@@ -33,7 +32,8 @@
         "HEAD4": "鉄",
         "DESC4": "ヘモグロビンとミオグロビンの重要な部分である、体の組織や筋肉に酸素を運ぶタンパク質。 赤血球には人体の鉄の半分以上が含まれています。 ",
         "HEAD5": "リスク",
-        "DESC5": "電解質の不均衡は、電解質の消費が少なすぎるか多すぎること、および電解質の排出が少なすぎるか多すぎることによって発生する可能性があります。"
+        "DESC5": "電解質の不均衡は、電解質の消費が少なすぎるか多すぎること、および電解質の排出が少なすぎるか多すぎることによって発生する可能性があります。",
+        "BTN_OPEN": "バランス"
     },
     "MASS": {
         "HEAD": "体重",
@@ -56,7 +56,8 @@
         "DESC4_4": "iCloudバックアップ",
         "DESC4_5": "iPhoneなしで動作します",
         "DESC4_6": "ミニマリストスタイル",
-        "DESC4_7": "無料、広告なし、アプリ内購入なし"
+        "DESC4_7": "無料、広告なし、アプリ内購入なし",
+        "BTN_OPEN": "追跡"
     },
     "VITAMIN": {
         "HEAD": "ビタミン",
@@ -87,6 +88,7 @@
         "DESC8_2": "ビタミンとミネラルは必要な微量栄養素です。それらはエネルギーを与えませんが、正常な生物機能と健康サポートに不可欠です.",
         "DESC8_3": "さまざまなビタミンを摂取するには、全粒穀物、果物と野菜、乳製品、「魚、卵、家禽、肉」グループの製品、脂肪（ナッツと種子）など、すべてのグループの製品を食べる必要があります。",
         "DESC8_4": "私たちのアプリでは、次のビタミンとミネラルを追跡できます。",
+        "BTN_OPEN": "チェック",
         "VITAMIN_FAT": {
             "NAME": "脂溶性ビタミン",
             "SHORT": "脂溶性",
@@ -423,7 +425,7 @@
             "FACT_3": "ビタミンB12をビタミンCと一緒に摂取すると、体内で利用可能なビタミンB12の量が減少する可能性があります. この相互作用を避けるために、ビタミンB12 サプリメントを摂取してから2 時間以上後にビタミンC を摂取してください",
             "FACT_4": "葉酸の量が多いと、ビタミンB12 欠乏症を隠すことができます",
             "FACT_5": "特に年齢を重ねるにつれて、脳の機能を助けます",
-            "FACT_6": "यह B9 के साथ मिलकर लाल रक्त कोशिकाओं के निर्माण में भाग लेता है"
+            "FACT_6": "B9 とともに赤血球の形成に関与します。"
         },
         "VITAMIN_C": {
             "HEAD": "C",
@@ -806,7 +808,8 @@
         "DESC4_1": "男性: 102センチ以上",
         "DESC4_2": "女性: 88センチ以上",
         "DESC4_3": "腰のすべての余分な5センチメートルは、BMI（ボディマス指数）に関係なく、女性では13％、男性では17％のリスクを増加させます)",
-        "DESC4_4": "ソース:"
+        "DESC4_4": "ソース:",
+        "BTN_OPEN": "減少"
     },
     "ZINC": {
         "HEAD": "亜鉛",
@@ -823,7 +826,8 @@
         "DESC2": "亜鉛は、火傷の治療、特定の潰瘍、その他の皮膚傷害の治療としての病院で一般的に使用されています。 実際、あなたの肌はあなたの体の亜鉛含有量の比較的高い量 - 約5％を保持しています。",
         "LINK2": "アメリカの心の協会による研究",
         "HEAD3": "炎症を減らす",
-        "DESC3": "酸化ストレスを減らし、体内の特定の炎症性タンパク質のレベルを低下させます。 酸化ストレスは、心臓病、癌、精神的衰退などの広い慢性疾患における貢献要因である慢性炎症をもたらします。"
+        "DESC3": "酸化ストレスを減らし、体内の特定の炎症性タンパク質のレベルを低下させます。 酸化ストレスは、心臓病、癌、精神的衰退などの広い慢性疾患における貢献要因である慢性炎症をもたらします。",
+        "BTN_OPEN": "サポート"
     },
     "SIZE": {
         "HEAD": "体型",
@@ -842,7 +846,8 @@
         "HEAD4": "ヒップ",
         "DESC4": "証拠は、太ももの周りの脂肪が腰の周りの脂肪よりも難しいことを示しています。 腰からHIPSの比率は、一般に、健康の指標または尺度として使用されており、深刻な健康状態を発展させる危険性があります。",
         "HEAD5": "体型",
-        "DESC5": "あなたの体型はリンゴですか、それともナシですか？ それとも砂時計？ あなたの本当の体型を見つけることは、それらの無意味なオンラインテストの1つ以上です。 あなたの体の形を理解することはあなたが最も効果的なトレーニングを発見するのを助けるかもしれません。 研究はそれがあなたの健康を改善するのを助けることができることを示唆しています。"
+        "DESC5": "あなたの体型はリンゴですか、それともナシですか？ それとも砂時計？ あなたの本当の体型を見つけることは、それらの無意味なオンラインテストの1つ以上です。 あなたの体の形を理解することはあなたが最も効果的なトレーニングを発見するのを助けるかもしれません。 研究はそれがあなたの健康を改善するのを助けることができることを示唆しています。",
+        "BTN_OPEN": "測定"
     },
     "EMOTION": {
         "HEAD": "エモーション",
@@ -951,7 +956,8 @@
         },
         "HEAD8": "EmotionアプリはどんなAppleデバイスでも利用可能です",
         "DESK8": "アプリを今すぐダウンロードして、気分の変化を追跡し始めましょう",
-        "ALT8": "定期的に、快適に、どのデバイスでも心理状態を追跡できるアプリのスクリーンショット"
+        "ALT8": "定期的に、快適に、どのデバイスでも心理状態を追跡できるアプリのスクリーンショット",
+        "BTN_OPEN": "明らかにするために"
     },
     "BIORHYTHMS": {
         "HEAD": "Biorhythms",
@@ -1097,82 +1103,84 @@
         "DESK5_5": "In general, the use of mobile applications is a promising direction in diagnosing anxiety. They help people better understand their emotional state, learn to manage anxiety, and improve their quality of life."
     },
     "PRODUCTIVITY": {
-        "HEAD": "Productivity",
+        "HEAD": "生産性",
         "IMG": "",
-        "DWN": "Get the free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store.",
-        "CONTENTS": "Table of Contents",
-        "HEAD1": "What is productivity?",
-        "DESK1_1": "Productivity is a term that is often used in business, although in fact it can apply to all areas of life. Personal productivity refers to how consistently and effectively a person completes a task or achieves a goal.",
-        "DESK1_2": "Time management is a set of skills and tools that contribute to the effective use of a person's time. However, the word productivity is derived from the word product and therefore puts the product itself at the center of attention. Time and resources are secondary.",
-        "HEAD2": "Characteristics of a Productive Person",
-        "DESK2": "A productive person is one who consistently effectively manages their time, resources and efforts to achieve meaningful goals and results. Productive people are known for their ability to complete tasks efficiently without sacrificing quality. Here are some key characteristics and habits of a productive person:",
+        "DWN": "Apple Watch、iPhone、または iPad 用の無料の Emotion アプリを Apple App Store から直接入手してください。",
+        "CONTENTS": "目次",
+        "HEAD1": "生産性とは何ですか?",
+        "DESK1_1": "生産性はビジネスでよく使われる用語ですが、実際には生活のあらゆる分野に当てはまります。 個人の生産性とは、人がどれだけ一貫して効果的にタスクを完了するか、目標を達成するかを指します。",
+        "DESK1_2": "時間管理は、人の時間の効果的な使用に貢献する一連のスキルとツールです。 ただし、生産性という言葉は製品という言葉から派生したものであるため、製品自体が注目の中心にあります。 時間やリソースは二の次です。",
+        "HEAD2": "生産的な人の特徴",
+        "DESK2": "生産的な人とは、有意義な目標と結果を達成するために、時間、リソース、努力を一貫して効果的に管理する人のことです。 生産的な人々は、品質を犠牲にすることなくタスクを効率的に完了する能力で知られています。 生産的な人の主な特徴と習慣は次のとおりです。",
         "LIST2": {
-            "LI1_HEAD": "Purposefulness.",
-            "LI1_TEXT": "Productive people set clear goals and priorities. They are clear about what they want to achieve and work purposefully to achieve those goals.",
-            "LI2_HEAD": "Time management.",
-            "LI2_TEXT": "They value their time and use it wisely. Productive people prioritize tasks, allocate time for important activities, and avoid time-wasting activities.",
-            "LI3_HEAD": "Focus and concentration.",
-            "LI3_TEXT": "They stay focused on their tasks, avoiding distractions and multitasking. This helps them complete tasks more efficiently and better.",
-            "LI4_HEAD": "Task prioritization.",
-            "LI4_TEXT": "They identify tasks that have the most significant impact and give them priority over less important activities. This ensures that high-priority tasks are completed first.",
-            "LI5_HEAD": "Effective communication.",
-            "LI5_TEXT": "Productive people communicate clearly and concisely, avoiding unnecessary conversations. This minimizes misunderstandings and saves time.",
-            "LI6_HEAD": "Continuous learning.",
-            "LI6_TEXT": "They are open to learning new skills and improving their knowledge. This adaptive mindset helps them stay effective in a fast-paced world.",
-            "LI7_HEAD": "Say no.",
-            "LI7_TEXT": "They know their limits and are not afraid to turn down additional tasks or responsibilities when their plate is already full.",
-            "LI8_HEAD": "Work-life balance.",
-            "LI8_TEXT": "Productivity does not come at the expense of personal well-being. They recognize the importance of balance and make time for relaxation, hobbies, and spending time with loved ones."
+            "LI1_HEAD": "目的意識.",
+            "LI1_TEXT": "生産的な人々は、明確な目標と優先順位を設定します。 彼らは達成したいことを明確にしており、それらの目標を達成するために意図的に取り組んでいます。",
+            "LI2_HEAD": "時間管理。",
+            "LI2_TEXT": "彼らは自分の時間を大切にし、それを賢く使います。 生産性の高い人は、タスクに優先順位を付け、重要な活動に時間を割り当て、時間の無駄な活動を避けます。",
+            "LI3_HEAD": "集中力と集中力。",
+            "LI3_TEXT": "気を散らしたりマルチタスクを避けたりして、自分のタスクに集中し続けます。 これにより、タスクをより効率的かつ適切に完了することができます。",
+            "LI4_HEAD": "タスクの優先順位付け。",
+            "LI4_TEXT": "最も重大な影響を与えるタスクを特定し、重要性の低いアクティビティよりも優先します。 これにより、優先度の高いタスクが確実に最初に完了します。",
+            "LI5_HEAD": "効果的なコミュニケーション。",
+            "LI5_TEXT": "生産的な人は、不必要な会話を避け、明確かつ簡潔にコミュニケーションをとります。 これにより誤解が最小限に抑えられ、時間が節約されます。",
+            "LI6_HEAD": "継続的な学習。",
+            "LI6_TEXT": "彼らは新しいスキルを学び、知識を向上させることに前向きです。 この適応的な考え方は、ペースの速い世界で効果を維持するのに役立ちます。",
+            "LI7_HEAD": "ダメって言って。",
+            "LI7_TEXT": "彼らは自分の限界を知っており、自分の皿がすでにいっぱいの場合は、追加のタスクや責任を恐れることはありません。",
+            "LI8_HEAD": "仕事と生活のバランス。",
+            "LI8_TEXT": "生産性は個人の幸福を犠牲にして得られるものではありません。 彼女らはバランスの重要性を認識しており、リラックスしたり、趣味を楽しんだり、愛する人たちと時間を過ごしたりする時間を作ります。"
         },
-        "HEAD3": "Productivity and Performance",
-        "DESK3_1": "It is important to understand the difference between productivity and performance. Performance refers to the amount of work completed in a certain period of time, while productivity aims to achieve better results in the same period.",
-        "DESK3_2": "When we talk about working faster and better, it is associated with increased performance. It involves completing more tasks in a given period of time, which requires effective time management and the ability to allocate working time.",
-        "DESK3_3": "Productivity, on the other hand, is the focus on delivering better results when doing work. This means constantly striving to improve the quality of work by developing new skills or using more efficient methods.",
-        "DESK3_4": "The key factors for achieving high productivity and productivity are not only the speed of a task or the amount of work done over a period of time, but also the level of quality. This problem can be solved through proper planning, time management and continuous development of skills and knowledge.",
-        "HEAD4": "Productivity Benefits",
-        "DESK4_1": "Productive people have a valuable set of skills and habits that greatly enhance their quality of life. They experience less stress due to their ability to solve problems effectively, and this calmness extends to their relationships, promoting deeper connections with loved ones. Their focus is on A success mindset often leads to career advancement because they are valued for their contributions and consistently producing high-quality work.",        "DESK4_2": "Влияние продуктивности выходит за рамки личных достижений, поскольку продуктивные люди, как правило, являются эффективными сотрудниками и командными игроками. Их организованный подход и способность соблюдать сроки делают их ценными активами в групповой работе. Более того, их склонность к личностному росту и самосовершенствованию вдохновляет других и создает культуру непрерывного обучения и развития.",
-        "DESK4_3": "Essentially, productive people are better equipped to seize opportunities, experience personal satisfaction, and positively influence others. Their ability to harmonize their efforts with their goals contributes to a life marked by achievement, satisfaction, and meaningful connections.",
-        "HEAD5": "How to become more productive?",
-        "DESK5_1": "Increasing productivity is not something that happens overnight. While it may seem easy to some people, their ability to plan and use their time effectively often has more to do with established habits that lead to increased productivity over time. To become more productive, focus on the following key strategies:",        "LIST5": {
-            "LI1_HEAD": "Set clear goals.",
-            "LI1_TEXT": "Identify specific, achievable goals to guide your efforts.",
-            "LI2_HEAD": "Prioritize tasks:",
-            "LI2_TEXT": "identify high-impact tasks and solve them first.",
-            "LI3_HEAD": "Minimize distractions:",
-            "LI3_TEXT": "create a focused workspace and limit distractions.",
-            "LI4_HEAD": "Plan and Organize:",
-            "LI4_TEXT": "use to-do lists, calendars and tools for effective planning.",
-            "LI5_HEAD": "Task break:",
-            "LI5_TEXT": "Break tasks into smaller, manageable steps to stay motivated.",
-            "LI6_HEAD": "Delegate:",
-            "LI6_TEXT": "Whenever possible, delegate tasks to others to free up your time.",
-            "LI7_HEAD": "Technology Usage:",
-            "LI7_TEXT": "Use apps and tools to streamline tasks and communication."
+        "HEAD3": "生産性とパフォーマンス",
+        "DESK3_1": "生産性とパフォーマンスの違いを理解することが重要です。 パフォーマンスは一定期間内に完了する作業量を指しますが、生産性は同じ期間内により良い結果を達成することを目的としています。",
+        "DESK3_2": "より速く、より良い仕事をするということは、パフォーマンスの向上を意味します。 一定期間内により多くのタスクを完了する必要があるため、効果的な時間管理と作業時間を割り当てる能力が必要です。",
+        "DESK3_3": "一方、生産性は、仕事をする際により良い結果を出すことに重点を置いています。 これは、新しいスキルを開発したり、より効率的な方法を使用したりして、仕事の品質を向上させるよう常に努力することを意味します。",
+        "DESK3_4": "高い生産性と生産性を達成するための重要な要素は、タスクのスピードや一定期間に実行される作業量だけでなく、品質のレベルも重要です。 この問題は、適切な計画、時間管理、スキルと知識の継続的な開発によって解決できます。",
+        "HEAD4": "生産性の向上",
+        "DESK4_1": "生産的な人々は、生活の質を大幅に向上させる貴重なスキルと習慣を持っています。 問題を効果的に解決する能力があるため、ストレスが少なくなり、この穏やかさは人間関係にも広がり、愛する人とのより深いつながりを促進します。 彼らは、その貢献と一貫して高品質の仕事を生み出すことで評価されるため、成功の考え方がキャリアアップにつながることがよくあります。",
+        "DESK4_2": "生産性の高い人は有能な従業員であり、チームの一員である傾向があるため、生産性の影響は個人の成果にとどまりません。 彼らの組織的なアプローチと期限を守る能力は、グループワークにおいて貴重な資産となります。 さらに、個人的な成長と自己改善に対する彼らの傾向は、他の人にインスピレーションを与え、継続的な学習と開発の文化を生み出します。",
+        "DESK4_3": "基本的に、生産性の高い人は、機会を捉え、個人的な満足感を味わい、他人にポジティブな影響を与える能力が優れています。 努力と目標を調和させる能力は、達成感、満足感、有意義なつながりを特徴とする人生に貢献します。",
+        "HEAD5": "生産性を高めるにはどうすればよいでしょうか?",
+        "DESK5_1": "生産性の向上は一夜にして実現できるものではありません。 簡単に思える人もいるかもしれませんが、計画を立てて時間を効果的に使う能力は、多くの場合、時間の経過とともに生産性の向上につながる確立された習慣と関係があります。 生産性を高めるには、次の主要な戦略に焦点を当ててください。:",
+        "LIST5": {
+            "LI1_HEAD": "明確な目標を設定します。",
+            "LI1_TEXT": "取り組みの指針となる具体的で達成可能な目標を特定します。",
+            "LI2_HEAD": "タスクに優先順位を付ける:",
+            "LI2_TEXT": "影響の大きいタスクを特定し、最初に解決します。",
+            "LI3_HEAD": "気を散らすものを最小限に抑える:",
+            "LI3_TEXT": "集中できるワークスペースを作り、気を散らすものを制限します。",
+            "LI4_HEAD": "計画と整理:",
+            "LI4_TEXT": "To Do リスト、カレンダー、ツールを使用して効果的な計画を立てます。",
+            "LI5_HEAD": "タスクブレイク:",
+            "LI5_TEXT": "モチベーションを維持するために、タスクを小さくて管理しやすいステップに分割します。",
+            "LI6_HEAD": "代表者:",
+            "LI6_TEXT": "可能な限り、タスクを他の人に委任して時間を節約してください。",
+            "LI7_HEAD": "テクノロジーの使用:",
+            "LI7_TEXT": "アプリとツールを使用してタスクとコミュニケーションを効率化します。"
         },
-        "DESK5_2": "If you want to be more productive, try to emulate these rules. Goal orientation, organization, focus, self-care and distraction skills are all important skills for anyone who wants to make the most of their time.",
-        "HEAD6": "Careers for productive people",
-        "DESK6_1": "A productive person can succeed in a wide range of careers through effective time management, goal-oriented thinking and a focus on achieving results. However, when choosing a career, it is important to consider individual strengths, interests and values. Here are some examples of professions in which productive people can succeed:",
+        "DESK5_2": "生産性を高めたい場合は、これらのルールを真似してください。 目標指向、組織化、集中力、セルフケア、気を散らすスキルはすべて、時間を最大限に活用したい人にとって重要なスキルです。",
+        "HEAD6": "生産的な人材のキャリア",
+        "DESK6_1": "生産性の高い人は、効果的な時間管理、目標指向の考え方、結果達成への集中力によって、幅広いキャリアで成功することができます。 ただし、キャリアを選択するときは、個人の強み、興味、価値観を考慮することが重要です。 生産的な人々が成功できる職業の例をいくつか挙げます。",
         "LIST6_1": {
-            "LI1_TEXT": "Entrepreneurship.",
-            "LI2_TEXT": "Project management.",
-            "LI3_TEXT": "Freelance.",
-            "LI4_TEXT": "Consulting.",
-            "LI5_TEXT": "Researcher or analyst.",
-            "LI6_TEXT": "IT and programming.",
-            "LI7_TEXT": "Leader roles.",
-            "LI8_TEXT": "Digital Marketing.",
-            "LI9_TEXT": "Creating content.",
-            "LI10_TEXT": "Health Professions."
+            "LI1_TEXT": "起業家精神.",
+            "LI2_TEXT": "プロジェクト管理。",
+            "LI3_TEXT": "フリーランス。",
+            "LI4_TEXT": "コンサルティング。",
+            "LI5_TEXT": "研究者または分析者。",
+            "LI6_TEXT": "ITとプログラミング。",
+            "LI7_TEXT": "リーダーの役割。",
+            "LI8_TEXT": "デジタルマーケティング。",
+            "LI9_TEXT": "コンテンツの作成。",
+            "LI10_TEXT": "医療専門職。"
         },
-        "DESK6_2": "Careers where productivity traits may not be the same:",
+        "DESK6_2": "生産性の特性が異なる可能性があるキャリア:",
         "LIST6_2": {
-            "LI1_TEXT": "Creative art.",
-            "LI2_TEXT": "Social work.",
-            "LI3_TEXT": "Unstructured roles.",
-            "LI4_TEXT": "Sales.",
-            "LI5_TEXT": "Routine intensive work."
+            "LI1_TEXT": "創造的な芸術。",
+            "LI2_TEXT": "社会事業。",
+            "LI3_TEXT": "構造化されていない役割。",
+            "LI4_TEXT": "販売。",
+            "LI5_TEXT": "日常的な集中的な作業。"
         },
-        "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning, and the ability to adaptations can lead to success in a wide range of areas."
+        "DESK6_3": "重要なのは、自分の自然な傾向に合ったキャリアと、挑戦的で刺激的なキャリアの間のバランスを見つけることであることを忘れないでください。 一部のキャリアは生産性の高い人に適しているように見えますが、個人の情熱、継続的な学習、適応能力が幅広い分野で成功につながります。"
     },
     "HARMONY": {
         "HEAD": "Harmony",
@@ -1305,6 +1313,76 @@
             "LI9_TEXT": "Art activities."
         },
         "DESK6_2": "It is important to note that while independence can contribute to success in these fields, collaboration and effective communication skills are also valuable in most professions. Finding a balance between independence and teamwork is essential to a fulfilling career path. Additionally, people are unique , and their career path may be influenced by a combination of traits and interests other than independence."
+    },
+    "ENERGY": {
+        "HEAD": "Energy",
+        "IMG": "Energy",
+        "DWN": "Get the free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store.",
+        "CONTENTS": "Table of Contents",
+        "HEAD1": "What is energy?",
+        "DESK1_1": "People with high Energy scores are active, lively and enthusiastic. They are sociable, competitive, cheerful and open. They are more comfortable communicating with strangers, visiting new places and starting new things. People with low Energy scores are quieter, reserved and withdrawn. They tend to conserve energy, accumulate strength and have an attitude towards minimizing effort, and are not ready for active activity.",
+        "DESK1_2": "Energy can refer to a person's level of enthusiasm and vitality. Although not traditionally considered a distinct personality trait, a person's energy level can greatly influence their behavior, interactions, and overall approach to life.",
+        "DESK1_3": "It is important to note that higher energy levels indicate greater activation of the sympathetic nervous system and metabolic processes. However, if this level is too high for a long time, it can lead to detrimental stress reactions.",
+        "HEAD2": "Characteristics of an energetic person",
+        "DESK2": "An energetic person exhibits unique characteristics that influence his lifestyle and interaction with the world around him. Such a person has unique characteristics such as vitality, sociability and adaptability. It is these traits that help him experience a fulfilling life, achieve success in various fields of activity and build quality relationships with people around you.",
+        "LIST2": {
+            "LI1_HEAD": "Life Force",
+            "LI1_TEXT": "- allows a person to be distinguished from other people by his high energy and activity. It manifests itself in the desire to achieve goals and complete assigned tasks. An energetic person is full of enthusiasm, passion and determination to overcome challenges along the way. Thanks to this characteristic, he is able turn every challenge into a new opportunity for growth and development. Typically, people with high vitality are quite easy to identify in the workplace by their physical energy, alertness and excitement. When it comes to work, they enjoy change and variety, and will seek out situations who offer them. People with low scores are calmer, more deliberate, and more deliberate about their actions. For some people, their style may indicate a lack of motivation or enthusiasm. But this is not necessarily the case. They simply do not show their excitement in the same way and do not like be the center of attention.",
+            "LI2_HEAD": "Sociability",
+            "LI2_TEXT": "is another wonderful feature of an energetic person. Such people gravitate toward communication, they find joy and inspiration in contact with other people. They easily make new acquaintances, actively participate in group events and are not afraid to speak in front of an audience. This sociability allows them to make strong connections, build a support network, and gain new opportunities. People with high scores are the “social butterflies” of your company, known throughout all departments. They like to be involved in what is happening around them. They quickly connect with people , making them invaluable assistants. Those with low scores are more secretive and reserved. They are slower to join new teams and may feel uncomfortable in social situations. Others may take longer to get to know them and may have Fewer close relationships.",
+            "LI3_HEAD": "Adaptive.",
+            "LI3_TEXT": "People with high scores are curious and inquisitive. They are able to easily adapt to new situations and quickly respond to changes in the environment. This allows them to solve problems effectively and quickly adapt to new demands and challenges. When faced with a problem, they love seek the opinions of others and find it inspiring to share ideas in a group. On the other hand, people with low scores prefer to work on a problem alone and present their findings after careful thought and consideration."
+        },
+        "ALT2": "Sport and Energy",
+        "HEAD3": "Manifestation of Energy",
+        "DESK3": "Energetic people are characterized by high levels of enthusiasm, energy, and vitality. They exude a sense of liveliness and are often considered dynamic and attractive. Here's how energy can manifest itself as a personality trait:",
+        "LIST3": {
+            "LI1_HEAD": "High Energy:",
+            "LI1_TEXT": "Personalities with high energy levels are often characterized by enthusiasm, liveliness and active participation in various activities. They exude positivity and radiate vitality in their interactions. Energetic people tend to be outgoing, enjoy socializing and can be the life of the party. They oftenapproach challenges with determination and readily embrace new experiences. Their energy can be contagious and inspiring to others.",
+            "LI2_HEAD": "Moderate Energy:",
+            "LI2_TEXT": "People with moderate energy levels find a balance between high and low energy states. They can adapt their energy levels to different situations, showing enthusiasm when necessary, as well as appreciating moments of calm. People with average energy can enjoy communication, but also appreciate silence and reflection. They are often able to maintain a steady pace of work without becoming overtired.",
+            "LI3_HEAD": "Low energy:",
+            "LI3_TEXT": "People with lower energy levels tend to be more reserved and withdrawn. They find rejuvenation in solitude and may take longer to recuperate. While they may not display high levels of enthusiasm, they often have a deep ability to focus, introspect, and reflectively. People with low energy levels can be very productive and engage in tasks that align with their interests and values."
+        },
+        "HEAD4": "Advantages and disadvantages",
+        "DESK4_1": "Energetic people bring dynamism and vibrancy to various aspects of life. They thrive on social media, inspire and often excel in leadership positions. However, maintaining a balance between their enthusiasm and self-care is critical to avoid burnout and maintain long-term well-being. Benefits of energetic people:",
+        "LIST4_1": {
+            "LI1_HEAD": "Inspiration:",
+            "LI1_TEXT": "Energetic people inspire and motivate others with their enthusiasm and positivity.",
+            "LI2_HEAD": "Leadership:",
+            "LI2_TEXT": "Their dynamic personality often leads to natural leadership roles and the ability to rally people around common goals.",
+            "LI3_HEAD": "Adaptive:",
+            "LI3_TEXT": "Their quick thinking and willingness to embrace change make them adaptable in different situations.",
+            "LI4_HEAD": "Networking:",
+            "LI4_TEXT": "Energetic people can create extensive networks due to their outgoing nature."
+        },
+        "DESK4_2": "It is important to note that energy levels can vary depending on factors such as physical health, sleep quality, mental well-being and individual characteristics. People may also demonstrate different energy levels in different contexts or at different points in their lives. Disadvantages energetic people:",
+        "LIST4_2": {
+            "LI1_HEAD": "Risk of Burnout:",
+            "LI1_TEXT": "Continuously high energy levels can lead to burnout if not balanced with rest and self-care.",
+            "LI2_HEAD": "Impulsivity:",
+            "LI2_TEXT": "excess energy can lead to impulsive decisions without sufficient thought.",
+            "LI3_HEAD": "Overcommitted:",
+            "LI3_TEXT": "Energetic people may take on too many tasks and responsibilities, which leads to stress.",
+            "LI4_HEAD": "Need confirmation.",
+            "LI4_TEXT": "The need to maintain high energy levels may arise from seeking validation from others."
+        },
+        "ALT4": "Interaction with colleagues",
+        "HEAD5": "Career interests for energetic people",
+        "DESK5_1": "Energetic people thrive in activities that allow them to express their vitality and interact with others. Some suitable activities may include team sports, dancing, outdoor adventures such as hiking or cycling, networking events , public speaking, and high-energy creative pursuits such as acting or speaking. Here are some career interests that might appeal to energetic people:",
+        "LIST5":{
+            "LI1_TEXT": "Sales and Marketing.",
+            "LI2_TEXT": "Event planning.",
+            "LI3_TEXT": "Public Relations.",
+            "LI4_TEXT": "Entertainment Industry:",
+            "LI5_TEXT": "Fitness and personal training.",
+            "LI6_TEXT": "Advertising.",
+            "LI7_TEXT": "Entrepreneurship.",
+            "LI8_TEXT": "Media and broadcasting.",
+            "LI9_TEXT": "Tour guide.",
+            "LI10_TEXT": "Fashion and beauty industry."
+        },
+        "DESK5_2": "Energetic people should consider their strengths, interests and values when choosing career options. It is important to find a career path that matches their natural qualities, but also leaves room for personal growth and well-being."
     },
     "FOOTER": {
         "C": "© 2023 Martspec LLC。 全著作権所有。",

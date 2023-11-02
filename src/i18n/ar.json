@@ -4,8 +4,8 @@
         "SRC1": "اقرأ المقال المصدر",
         "FACT": "انظر الحقائق",
         "SRC2": "احصل على الحقائق من المقال المصدر",
-        "WIKI": "اقرأ المقال كاملاً على WiKi",
-        "MORE": "يتعلم أكثر"
+        "WIKI": "اقرأ المقال كاملاً على WiKi"
+
     },
     "MAIN": {
         "HEAD": "بساطة تتبع الصحة",
@@ -32,7 +32,8 @@
         "HEAD4": "حديد",
         "DESC4": "جزء حيوي من الهيموغلوبين و myoglobin، البروتينات التي تحمل الأكسجين إلى أنسجة الجسم والعضلات. تحتوي خلايا الدم الحمراء على أكثر من نصف حديد جسم الإنسان. ",
         "HEAD5": "مخاطر",
-        "DESC5": "يمكن أن تتطور اختلالات المنحل بالكهرباء عن طريق استهلاك بالكهرباء القليل جدا أو أكثر من اللاكسين فضلا عن إفرازات بالكهرباء قليلا أو أكثر. "
+        "DESC5": "يمكن أن تتطور اختلالات المنحل بالكهرباء عن طريق استهلاك بالكهرباء القليل جدا أو أكثر من اللاكسين فضلا عن إفرازات بالكهرباء قليلا أو أكثر. ",
+        "BTN_OPEN": "توازن"
     },
     "MASS": {
         "HEAD": "وزن ",
@@ -54,7 +55,8 @@
         "DESC4_4": "نسخ iCloud الاحتياطية",
         "DESC4_5": "يعمل بدون iPhone",
         "DESC4_6": "أسلوب الحد الأدنى",
-        "DESC4_7": "مجاني ، بدون إعلانات ولا مشتريات داخل التطبيق"
+        "DESC4_7": "مجاني ، بدون إعلانات ولا مشتريات داخل التطبيق",
+        "BTN_OPEN": "مسار"
     },
     "VITAMIN": {
         "HEAD": "فيتامين",
@@ -85,6 +87,7 @@
         "DESC8_2": "الفيتامينات والمعادن من العناصر الغذائية الدقيقة الضرورية. إنهم لا يعطون الطاقة ، لكنها ضرورية لعمل الكائن الحي الطبيعي والدعم الصحي.",
         "DESC8_3": "للحصول على فيتامينات مختلفة ، يجب أن تأكل منتجات من جميع الفئات: الحبوب الكاملة ، والفواكه والخضروات ، ومنتجات الألبان ، ومنتجات مجموعة 'الأسماك - البيض - الدواجن - اللحوم' ، الدهون (المكسرات والبذور).",
         "DESC8_4": "من خلال تطبيقنا ، يمكنك تتبع الفيتامينات والمعادن التالية:",
+        "BTN_OPEN": "يفحص",
         "VITAMIN_FAT": {
             "NAME": "فيتامينات تذوب في الدهون",
             "SHORT": "قابل للذوبان في الدهون",
@@ -808,7 +811,8 @@
         "DESC4_1": "الرجال: 102 سم أو أكثر",
         "DESC4_2": "النساء: 88 سم أو أكثر",
         "DESC4_3": "كل اضافية 5 سم عند الخصر يزيد من خطر بنسبة 13% في النساء و ۱۷% في الرجال ، بغض النظر عن مؤشر كتلة الجسم (مؤشر كتلة الجسم)",
-        "DESC4_4": "مصدر: "
+        "DESC4_4": "مصدر: ",
+        "BTN_OPEN": "ينقص"
     },
     "ZINC": {
         "HEAD": "الزنك",
@@ -825,7 +829,8 @@
         "DESC2": "يستخدم الزنك عادة في المستشفيات كعلاج للحروق، وبعض القرحة وغيرها من إصابات الجلد. في الواقع، تحظى بشرتك بمبلغ مرتفع نسبيا - حوالي 5٪ - من محتوى الزنك في جسمك.",
         "LINK2": "دراسة من قبل جمعية القلب الأمريكية",
         "HEAD3": "يقلل من التهاب",
-        "DESC3": "يقلل من الإجهاد التأكسدي ويقلل من مستويات بعض البروتينات الالتهابية في جسمك. يؤدي الإجهاد المؤكسدي إلى التهاب مزمن، وهو عامل مساهم في مجموعة واسعة من الأمراض المزمنة، مثل أمراض القلب والسرطان والانخفاض العقلي."
+        "DESC3": "يقلل من الإجهاد التأكسدي ويقلل من مستويات بعض البروتينات الالتهابية في جسمك. يؤدي الإجهاد المؤكسدي إلى التهاب مزمن، وهو عامل مساهم في مجموعة واسعة من الأمراض المزمنة، مثل أمراض القلب والسرطان والانخفاض العقلي.",
+        "BTN_OPEN": "يدعم"
     },
     "SIZE": {
         "HEAD": "حجم الجسم",
@@ -844,7 +849,8 @@
         "HEAD4": "خواصر",
         "DESC4": "تظهر الأدلة أن الدهون حول الفخذين والمؤخرة يصعب التحول من الدهون حول الخصر. تستخدم نسبة الخصر إلى الوركين بشكل شائع كمؤشر أو قياس الصحة، وخطر تطوير ظروف صحية خطيرة.",
         "HEAD5": "شكل الجسم",
-        "DESC5": "هل شكل جسمك تفاحة أم كمثرى؟ أو ربما ساعة رملية؟ إن معرفة شكل جسمك الحقيقي هو أكثر من واحد من تلك الاختبارات التي لا طائل من ورائها عبر الإنترنت. قد يساعدك فهم شكل جسمك على اكتشاف التمرين الأكثر فعالية. تشير الدراسات إلى أنه يمكن أن يساعد في تحسين صحتك."
+        "DESC5": "هل شكل جسمك تفاحة أم كمثرى؟ أو ربما ساعة رملية؟ إن معرفة شكل جسمك الحقيقي هو أكثر من واحد من تلك الاختبارات التي لا طائل من ورائها عبر الإنترنت. قد يساعدك فهم شكل جسمك على اكتشاف التمرين الأكثر فعالية. تشير الدراسات إلى أنه يمكن أن يساعد في تحسين صحتك.",
+        "BTN_OPEN": "يقيس"
     },
     "EMOTION": {
         "HEAD": "المشاعر",
@@ -953,7 +959,8 @@
         },
         "HEAD8": "تطبيق المشاعر متاح لجميع أجهزة Apple",
         "DESK8": "ابدأ تتبع تغييرات مزاجك اليوم عن طريق تنزيل التطبيق الآن",
-        "ALT8": "صور لتطبيق يسمح لك بتتبع حالتك النفسية بانتظام وبشكل مريح على أي جهاز"
+        "ALT8": "صور لتطبيق يسمح لك بتتبع حالتك النفسية بانتظام وبشكل مريح على أي جهاز",
+        "BTN_OPEN": "للكشف عن"
     },
     "BIORHYTHMS": {
         "HEAD": "Biorhythms",
@@ -1099,82 +1106,84 @@
         "DESK5_5": "In general, the use of mobile applications is a promising direction in diagnosing anxiety. They help people better understand their emotional state, learn to manage anxiety, and improve their quality of life."
     },
     "PRODUCTIVITY": {
-        "HEAD": "Productivity",
+        "HEAD": "إنتاجية",
         "IMG": "",
-        "DWN": "Get the free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store.",
-        "CONTENTS": "Table of Contents",
-        "HEAD1": "What is productivity?",
-        "DESK1_1": "Productivity is a term that is often used in business, although in fact it can apply to all areas of life. Personal productivity refers to how consistently and effectively a person completes a task or achieves a goal.",
-        "DESK1_2": "Time management is a set of skills and tools that contribute to the effective use of a person's time. However, the word productivity is derived from the word product and therefore puts the product itself at the center of attention. Time and resources are secondary.",
-        "HEAD2": "Characteristics of a Productive Person",
-        "DESK2": "A productive person is one who consistently effectively manages their time, resources and efforts to achieve meaningful goals and results. Productive people are known for their ability to complete tasks efficiently without sacrificing quality. Here are some key characteristics and habits of a productive person:",
+        "DWN": "احصل على تطبيق العاطفة المجاني لـ Apple Watch أو iPhone أو iPad مباشرة من Apple App Store.",
+        "CONTENTS": "جدول المحتويات",
+        "HEAD1": "ما هي الإنتاجية؟",
+        "DESK1_1": "الإنتاجية هي مصطلح يستخدم غالبًا في مجال الأعمال، على الرغم من أنه في الواقع يمكن أن ينطبق على جميع مجالات الحياة. تشير الإنتاجية الشخصية إلى مدى اتساق وفعالية إكمال الشخص لمهمة ما أو تحقيقه لهدف ما.",
+        "DESK1_2": "إدارة الوقت هي مجموعة من المهارات والأدوات التي تساهم في الاستخدام الفعال لوقت الشخص. ومع ذلك، فإن كلمة الإنتاجية مشتقة من كلمة المنتج، وبالتالي تضع المنتج نفسه في مركز الاهتمام. الوقت والموارد ثانوية.",
+        "HEAD2": "خصائص الشخص المنتج",
+        "DESK2": "الشخص المنتج هو الشخص الذي يدير وقته وموارده وجهوده بشكل فعال باستمرار لتحقيق أهداف ونتائج ذات معنى. يُعرف الأشخاص المنتجون بقدرتهم على إكمال المهام بكفاءة دون التضحية بالجودة. فيما يلي بعض الخصائص والعادات الأساسية للشخص المنتج:",
         "LIST2": {
-            "LI1_HEAD": "Purposefulness.",
-            "LI1_TEXT": "Productive people set clear goals and priorities. They are clear about what they want to achieve and work purposefully to achieve those goals.",
-            "LI2_HEAD": "Time management.",
-            "LI2_TEXT": "They value their time and use it wisely. Productive people prioritize tasks, allocate time for important activities, and avoid time-wasting activities.",
-            "LI3_HEAD": "Focus and concentration.",
-            "LI3_TEXT": "They stay focused on their tasks, avoiding distractions and multitasking. This helps them complete tasks more efficiently and better.",
-            "LI4_HEAD": "Task prioritization.",
-            "LI4_TEXT": "They identify tasks that have the most significant impact and give them priority over less important activities. This ensures that high-priority tasks are completed first.",
-            "LI5_HEAD": "Effective communication.",
-            "LI5_TEXT": "Productive people communicate clearly and concisely, avoiding unnecessary conversations. This minimizes misunderstandings and saves time.",
-            "LI6_HEAD": "Continuous learning.",
-            "LI6_TEXT": "They are open to learning new skills and improving their knowledge. This adaptive mindset helps them stay effective in a fast-paced world.",
-            "LI7_HEAD": "Say no.",
-            "LI7_TEXT": "They know their limits and are not afraid to turn down additional tasks or responsibilities when their plate is already full.",
-            "LI8_HEAD": "Work-life balance.",
-            "LI8_TEXT": "Productivity does not come at the expense of personal well-being. They recognize the importance of balance and make time for relaxation, hobbies, and spending time with loved ones."
+            "LI1_HEAD": "الهدف.",
+            "LI1_TEXT": "يضع الأشخاص المنتجون أهدافًا وأولويات واضحة. إنهم واضحون بشأن ما يريدون تحقيقه ويعملون بشكل هادف لتحقيق تلك الأهداف.",
+            "LI2_HEAD": "إدارة الوقت.",
+            "LI2_TEXT": "إنهم يقدرون وقتهم ويستخدمونه بحكمة. يقوم الأشخاص المنتجون بتحديد أولويات المهام، وتخصيص الوقت للأنشطة المهمة، وتجنب الأنشطة التي تضيع الوقت.",
+            "LI3_HEAD": "التركيز والتركيز.",
+            "LI3_TEXT": "يظلون يركزون على مهامهم، ويتجنبون عوامل التشتيت وتعدد المهام. وهذا يساعدهم على إكمال المهام بشكل أكثر كفاءة وأفضل.",
+            "LI4_HEAD": "تحديد أولويات المهام.",
+            "LI4_TEXT": "وهم يحددون المهام التي لها التأثير الأكبر ويعطونها الأولوية على الأنشطة الأقل أهمية. وهذا يضمن إكمال المهام ذات الأولوية العالية أولاً.",
+            "LI5_HEAD": "التواصل الفعال.",
+            "LI5_TEXT": "يتواصل الأشخاص المنتجون بوضوح وإيجاز، ويتجنبون المحادثات غير الضرورية. وهذا يقلل من سوء الفهم ويوفر الوقت.",
+            "LI6_HEAD": "التعلم المستمر.",
+            "LI6_TEXT": "إنهم منفتحون على تعلم مهارات جديدة وتحسين معارفهم. تساعدهم هذه العقلية التكيفية على البقاء فعالين في عالم سريع الخطى.",
+            "LI7_HEAD": "قل لا.",
+            "LI7_TEXT": "إنهم يعرفون حدودهم ولا يخشون رفض المهام أو المسؤوليات الإضافية عندما يكون جدول أعمالهم ممتلئًا بالفعل.",
+            "LI8_HEAD": "توازن الحياة مع العمل.",
+            "LI8_TEXT": "الإنتاجية لا تأتي على حساب الرفاهية الشخصية. إنهم يدركون أهمية التوازن ويخصصون وقتًا للاسترخاء وممارسة الهوايات وقضاء الوقت مع أحبائهم."
         },
-        "HEAD3": "Productivity and Performance",
-        "DESK3_1": "It is important to understand the difference between productivity and performance. Performance refers to the amount of work completed in a certain period of time, while productivity aims to achieve better results in the same period.",
-        "DESK3_2": "When we talk about working faster and better, it is associated with increased performance. It involves completing more tasks in a given period of time, which requires effective time management and the ability to allocate working time.",
-        "DESK3_3": "Productivity, on the other hand, is the focus on delivering better results when doing work. This means constantly striving to improve the quality of work by developing new skills or using more efficient methods.",
-        "DESK3_4": "The key factors for achieving high productivity and productivity are not only the speed of a task or the amount of work done over a period of time, but also the level of quality. This problem can be solved through proper planning, time management and continuous development of skills and knowledge.",
-        "HEAD4": "Productivity Benefits",
-        "DESK4_1": "Productive people have a valuable set of skills and habits that greatly enhance their quality of life. They experience less stress due to their ability to solve problems effectively, and this calmness extends to their relationships, promoting deeper connections with loved ones. Their focus is on A success mindset often leads to career advancement because they are valued for their contributions and consistently producing high-quality work.",        "DESK4_2": "Влияние продуктивности выходит за рамки личных достижений, поскольку продуктивные люди, как правило, являются эффективными сотрудниками и командными игроками. Их организованный подход и способность соблюдать сроки делают их ценными активами в групповой работе. Более того, их склонность к личностному росту и самосовершенствованию вдохновляет других и создает культуру непрерывного обучения и развития.",
-        "DESK4_3": "Essentially, productive people are better equipped to seize opportunities, experience personal satisfaction, and positively influence others. Their ability to harmonize their efforts with their goals contributes to a life marked by achievement, satisfaction, and meaningful connections.",
-        "HEAD5": "How to become more productive?",
-        "DESK5_1": "Increasing productivity is not something that happens overnight. While it may seem easy to some people, their ability to plan and use their time effectively often has more to do with established habits that lead to increased productivity over time. To become more productive, focus on the following key strategies:",        "LIST5": {
-            "LI1_HEAD": "Set clear goals.",
-            "LI1_TEXT": "Identify specific, achievable goals to guide your efforts.",
-            "LI2_HEAD": "Prioritize tasks:",
-            "LI2_TEXT": "identify high-impact tasks and solve them first.",
-            "LI3_HEAD": "Minimize distractions:",
-            "LI3_TEXT": "create a focused workspace and limit distractions.",
-            "LI4_HEAD": "Plan and Organize:",
-            "LI4_TEXT": "use to-do lists, calendars and tools for effective planning.",
-            "LI5_HEAD": "Task break:",
-            "LI5_TEXT": "Break tasks into smaller, manageable steps to stay motivated.",
-            "LI6_HEAD": "Delegate:",
-            "LI6_TEXT": "Whenever possible, delegate tasks to others to free up your time.",
-            "LI7_HEAD": "Technology Usage:",
-            "LI7_TEXT": "Use apps and tools to streamline tasks and communication."
+        "HEAD3": "الإنتاجية والأداء",
+        "DESK3_1": "ومن المهم أن نفهم الفرق بين الإنتاجية والأداء. يشير الأداء إلى مقدار العمل المنجز في فترة زمنية معينة، بينما تهدف الإنتاجية إلى تحقيق نتائج أفضل في نفس الفترة.",
+        "DESK3_2": "عندما نتحدث عن العمل بشكل أسرع وأفضل، فإن ذلك يرتبط بزيادة الأداء. وهو ينطوي على إكمال المزيد من المهام في فترة زمنية معينة، الأمر الذي يتطلب إدارة فعالة للوقت والقدرة على تخصيص وقت العمل.",
+        "DESK3_3": "ومن ناحية أخرى، فإن الإنتاجية هي التركيز على تحقيق نتائج أفضل عند القيام بالعمل. وهذا يعني السعي المستمر لتحسين جودة العمل من خلال تطوير مهارات جديدة أو استخدام أساليب أكثر كفاءة.",
+        "DESK3_4": "إن العوامل الرئيسية لتحقيق إنتاجية وإنتاجية عالية ليست فقط سرعة المهمة أو مقدار العمل المنجز خلال فترة زمنية، ولكن أيضًا مستوى الجودة. ويمكن حل هذه المشكلة من خلال التخطيط السليم وإدارة الوقت والتطوير المستمر للمهارات والمعرفة.",
+        "HEAD4": "فوائد الإنتاجية",
+        "DESK4_1": "يتمتع الأشخاص المنتجون بمجموعة قيمة من المهارات والعادات التي تعمل على تحسين جودة حياتهم بشكل كبير. إنهم يعانون من ضغوط أقل بسبب قدرتهم على حل المشكلات بفعالية، ويمتد هذا الهدوء إلى علاقاتهم، مما يعزز التواصل الأعمق مع أحبائهم. ينصب تركيزهم على عقلية النجاح غالبًا ما تؤدي إلى التقدم الوظيفي لأنهم يتم تقديرهم لمساهماتهم وإنتاجهم المستمر لعمل عالي الجودة.",
+        "DESK4_2": "يمتد تأثير الإنتاجية إلى ما هو أبعد من الإنجاز الشخصي، حيث يميل الأشخاص المنتجون إلى أن يكونوا موظفين فعالين ولاعبين جماعيين. إن نهجهم المنظم وقدرتهم على الوفاء بالمواعيد النهائية يجعلهم أصولًا قيمة في العمل الجماعي. علاوة على ذلك، فإن ميلهم للنمو الشخصي وتحسين الذات يلهم الآخرين ويخلق ثقافة التعلم والتطوير المستمر.",
+        "DESK4_3": "في الأساس، الأشخاص المنتجون مجهزون بشكل أفضل لاغتنام الفرص، وتجربة الرضا الشخصي، والتأثير بشكل إيجابي على الآخرين. إن قدرتهم على تنسيق جهودهم مع أهدافهم تساهم في حياة تتسم بالإنجاز والرضا والعلاقات الهادفة.",
+        "HEAD5": "كيف تصبح أكثر إنتاجية؟",
+        "DESK5_1": "زيادة الإنتاجية ليست شيئًا يحدث بين عشية وضحاها. على الرغم من أن الأمر قد يبدو سهلاً بالنسبة لبعض الأشخاص، إلا أن قدرتهم على التخطيط واستخدام وقتهم بفعالية غالبًا ما تكون لها علاقة بالعادات الراسخة التي تؤدي إلى زيادة الإنتاجية بمرور الوقت. لكي تصبح أكثر إنتاجية، ركز على الاستراتيجيات الرئيسية التالية:",
+        "LIST5": {
+            "LI1_HEAD": "حدد أهدافًا واضحة.",
+            "LI1_TEXT": "حدد أهدافًا محددة وقابلة للتحقيق لتوجيه جهودك.",
+            "LI2_HEAD": "تحديد أولويات المهام:",
+            "LI2_TEXT": "تحديد المهام ذات التأثير الكبير وحلها أولاً.",
+            "LI3_HEAD": "التقليل من عوامل التشتيت:",
+            "LI3_TEXT": "إنشاء مساحة عمل مركزة والحد من الانحرافات.",
+            "LI4_HEAD": "التخطيط والتنظيم:",
+            "LI4_TEXT": "استخدم قوائم المهام والتقويمات والأدوات للتخطيط الفعال.",
+            "LI5_HEAD": "استراحة المهام:",
+            "LI5_TEXT": "قم بتقسيم المهام إلى خطوات أصغر يمكن التحكم فيها لتبقى متحفزًا.",
+            "LI6_HEAD": "مندوب:",
+            "LI6_TEXT": "كلما أمكن ذلك، قم بتفويض المهام للآخرين لتحرير وقتك.",
+            "LI7_HEAD": "استخدام التكنولوجيا:",
+            "LI7_TEXT": "استخدم التطبيقات والأدوات لتبسيط المهام والتواصل."
         },
-        "DESK5_2": "If you want to be more productive, try to emulate these rules. Goal orientation, organization, focus, self-care and distraction skills are all important skills for anyone who wants to make the most of their time.",
-        "HEAD6": "Careers for productive people",
-        "DESK6_1": "A productive person can succeed in a wide range of careers through effective time management, goal-oriented thinking and a focus on achieving results. However, when choosing a career, it is important to consider individual strengths, interests and values. Here are some examples of professions in which productive people can succeed:",
+        "DESK5_2": "إذا كنت تريد أن تكون أكثر إنتاجية، فحاول محاكاة هذه القواعد. تعد مهارات التوجيه نحو الهدف والتنظيم والتركيز والرعاية الذاتية وتشتيت الانتباه كلها مهارات مهمة لأي شخص يرغب في تحقيق أقصى استفادة من وقته.",
+        "HEAD6": "وظائف للأشخاص المنتجين",
+        "DESK6_1": "يمكن للشخص المنتج أن ينجح في مجموعة واسعة من المهن من خلال الإدارة الفعالة للوقت والتفكير الموجه نحو الأهداف والتركيز على تحقيق النتائج. ومع ذلك، عند اختيار مهنة، من المهم مراعاة نقاط القوة والاهتمامات والقيم الفردية. فيما يلي بعض الأمثلة على المهن التي يمكن أن ينجح فيها الأشخاص المنتجون:",
         "LIST6_1": {
-            "LI1_TEXT": "Entrepreneurship.",
-            "LI2_TEXT": "Project management.",
-            "LI3_TEXT": "Freelance.",
-            "LI4_TEXT": "Consulting.",
-            "LI5_TEXT": "Researcher or analyst.",
-            "LI6_TEXT": "IT and programming.",
-            "LI7_TEXT": "Leader roles.",
-            "LI8_TEXT": "Digital Marketing.",
-            "LI9_TEXT": "Creating content.",
-            "LI10_TEXT": "Health Professions."
+            "LI1_TEXT": "ريادة الأعمال.",
+            "LI2_TEXT": "ادارة مشروع.",
+            "LI3_TEXT": "حسابهم الخاص.",
+            "LI4_TEXT": "مستشار.",
+            "LI5_TEXT": "باحث أو محلل.",
+            "LI6_TEXT": "تكنولوجيا المعلومات والبرمجة.",
+            "LI7_TEXT": "أدوار القائد.",
+            "LI8_TEXT": "التسويق الرقمي.",
+            "LI9_TEXT": "إنشاء المحتوى.",
+            "LI10_TEXT": "المهن الصحية."
         },
-        "DESK6_2": "Careers where productivity traits may not be the same:",
+        "DESK6_2": "المهن التي قد لا تكون فيها سمات الإنتاجية هي نفسها:",
         "LIST6_2": {
-            "LI1_TEXT": "Creative art.",
-            "LI2_TEXT": "Social work.",
-            "LI3_TEXT": "Unstructured roles.",
-            "LI4_TEXT": "Sales.",
-            "LI5_TEXT": "Routine intensive work."
+            "LI1_TEXT": "الفن الإبداعي.",
+            "LI2_TEXT": "الخدمة الاجتماعية.",
+            "LI3_TEXT": "أدوار غير منظمة",
+            "LI4_TEXT": "مبيعات.",
+            "LI5_TEXT": "العمل الروتيني المكثف."
         },
-        "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning, and the ability to adaptations can lead to success in a wide range of areas."
+        "DESK6_3": "تذكر أن المفتاح هو إيجاد التوازن بين المهنة التي تناسب ميولك الطبيعية والمهنة التي تتحدىك وتثيرك. في حين أن بعض المهن قد تبدو أكثر ملاءمة للأشخاص المنتجين، إلا أن الشغف الشخصي والتعلم المستمر والقدرة على التكيف يمكن أن يؤدي إلى النجاح في مجموعة واسعة من المجالات."
     },
     "HARMONY": {
         "HEAD": "Harmony",
@@ -1307,6 +1316,76 @@
             "LI9_TEXT": "Art activities."
         },
         "DESK6_2": "It is important to note that while independence can contribute to success in these fields, collaboration and effective communication skills are also valuable in most professions. Finding a balance between independence and teamwork is essential to a fulfilling career path. Additionally, people are unique , and their career path may be influenced by a combination of traits and interests other than independence."
+    },
+    "ENERGY": {
+        "HEAD": "Energy",
+        "IMG": "Energy",
+        "DWN": "Get the free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store.",
+        "CONTENTS": "Table of Contents",
+        "HEAD1": "What is energy?",
+        "DESK1_1": "People with high Energy scores are active, lively and enthusiastic. They are sociable, competitive, cheerful and open. They are more comfortable communicating with strangers, visiting new places and starting new things. People with low Energy scores are quieter, reserved and withdrawn. They tend to conserve energy, accumulate strength and have an attitude towards minimizing effort, and are not ready for active activity.",
+        "DESK1_2": "Energy can refer to a person's level of enthusiasm and vitality. Although not traditionally considered a distinct personality trait, a person's energy level can greatly influence their behavior, interactions, and overall approach to life.",
+        "DESK1_3": "It is important to note that higher energy levels indicate greater activation of the sympathetic nervous system and metabolic processes. However, if this level is too high for a long time, it can lead to detrimental stress reactions.",
+        "HEAD2": "Characteristics of an energetic person",
+        "DESK2": "An energetic person exhibits unique characteristics that influence his lifestyle and interaction with the world around him. Such a person has unique characteristics such as vitality, sociability and adaptability. It is these traits that help him experience a fulfilling life, achieve success in various fields of activity and build quality relationships with people around you.",
+        "LIST2": {
+            "LI1_HEAD": "Life Force",
+            "LI1_TEXT": "- allows a person to be distinguished from other people by his high energy and activity. It manifests itself in the desire to achieve goals and complete assigned tasks. An energetic person is full of enthusiasm, passion and determination to overcome challenges along the way. Thanks to this characteristic, he is able turn every challenge into a new opportunity for growth and development. Typically, people with high vitality are quite easy to identify in the workplace by their physical energy, alertness and excitement. When it comes to work, they enjoy change and variety, and will seek out situations who offer them. People with low scores are calmer, more deliberate, and more deliberate about their actions. For some people, their style may indicate a lack of motivation or enthusiasm. But this is not necessarily the case. They simply do not show their excitement in the same way and do not like be the center of attention.",
+            "LI2_HEAD": "Sociability",
+            "LI2_TEXT": "is another wonderful feature of an energetic person. Such people gravitate toward communication, they find joy and inspiration in contact with other people. They easily make new acquaintances, actively participate in group events and are not afraid to speak in front of an audience. This sociability allows them to make strong connections, build a support network, and gain new opportunities. People with high scores are the “social butterflies” of your company, known throughout all departments. They like to be involved in what is happening around them. They quickly connect with people , making them invaluable assistants. Those with low scores are more secretive and reserved. They are slower to join new teams and may feel uncomfortable in social situations. Others may take longer to get to know them and may have Fewer close relationships.",
+            "LI3_HEAD": "Adaptive.",
+            "LI3_TEXT": "People with high scores are curious and inquisitive. They are able to easily adapt to new situations and quickly respond to changes in the environment. This allows them to solve problems effectively and quickly adapt to new demands and challenges. When faced with a problem, they love seek the opinions of others and find it inspiring to share ideas in a group. On the other hand, people with low scores prefer to work on a problem alone and present their findings after careful thought and consideration."
+        },
+        "ALT2": "Sport and Energy",
+        "HEAD3": "Manifestation of Energy",
+        "DESK3": "Energetic people are characterized by high levels of enthusiasm, energy, and vitality. They exude a sense of liveliness and are often considered dynamic and attractive. Here's how energy can manifest itself as a personality trait:",
+        "LIST3": {
+            "LI1_HEAD": "High Energy:",
+            "LI1_TEXT": "Personalities with high energy levels are often characterized by enthusiasm, liveliness and active participation in various activities. They exude positivity and radiate vitality in their interactions. Energetic people tend to be outgoing, enjoy socializing and can be the life of the party. They oftenapproach challenges with determination and readily embrace new experiences. Their energy can be contagious and inspiring to others.",
+            "LI2_HEAD": "Moderate Energy:",
+            "LI2_TEXT": "People with moderate energy levels find a balance between high and low energy states. They can adapt their energy levels to different situations, showing enthusiasm when necessary, as well as appreciating moments of calm. People with average energy can enjoy communication, but also appreciate silence and reflection. They are often able to maintain a steady pace of work without becoming overtired.",
+            "LI3_HEAD": "Low energy:",
+            "LI3_TEXT": "People with lower energy levels tend to be more reserved and withdrawn. They find rejuvenation in solitude and may take longer to recuperate. While they may not display high levels of enthusiasm, they often have a deep ability to focus, introspect, and reflectively. People with low energy levels can be very productive and engage in tasks that align with their interests and values."
+        },
+        "HEAD4": "Advantages and disadvantages",
+        "DESK4_1": "Energetic people bring dynamism and vibrancy to various aspects of life. They thrive on social media, inspire and often excel in leadership positions. However, maintaining a balance between their enthusiasm and self-care is critical to avoid burnout and maintain long-term well-being. Benefits of energetic people:",
+        "LIST4_1": {
+            "LI1_HEAD": "Inspiration:",
+            "LI1_TEXT": "Energetic people inspire and motivate others with their enthusiasm and positivity.",
+            "LI2_HEAD": "Leadership:",
+            "LI2_TEXT": "Their dynamic personality often leads to natural leadership roles and the ability to rally people around common goals.",
+            "LI3_HEAD": "Adaptive:",
+            "LI3_TEXT": "Their quick thinking and willingness to embrace change make them adaptable in different situations.",
+            "LI4_HEAD": "Networking:",
+            "LI4_TEXT": "Energetic people can create extensive networks due to their outgoing nature."
+        },
+        "DESK4_2": "It is important to note that energy levels can vary depending on factors such as physical health, sleep quality, mental well-being and individual characteristics. People may also demonstrate different energy levels in different contexts or at different points in their lives. Disadvantages energetic people:",
+        "LIST4_2": {
+            "LI1_HEAD": "Risk of Burnout:",
+            "LI1_TEXT": "Continuously high energy levels can lead to burnout if not balanced with rest and self-care.",
+            "LI2_HEAD": "Impulsivity:",
+            "LI2_TEXT": "excess energy can lead to impulsive decisions without sufficient thought.",
+            "LI3_HEAD": "Overcommitted:",
+            "LI3_TEXT": "Energetic people may take on too many tasks and responsibilities, which leads to stress.",
+            "LI4_HEAD": "Need confirmation.",
+            "LI4_TEXT": "The need to maintain high energy levels may arise from seeking validation from others."
+        },
+        "ALT4": "Interaction with colleagues",
+        "HEAD5": "Career interests for energetic people",
+        "DESK5_1": "Energetic people thrive in activities that allow them to express their vitality and interact with others. Some suitable activities may include team sports, dancing, outdoor adventures such as hiking or cycling, networking events , public speaking, and high-energy creative pursuits such as acting or speaking. Here are some career interests that might appeal to energetic people:",
+        "LIST5":{
+            "LI1_TEXT": "Sales and Marketing.",
+            "LI2_TEXT": "Event planning.",
+            "LI3_TEXT": "Public Relations.",
+            "LI4_TEXT": "Entertainment Industry:",
+            "LI5_TEXT": "Fitness and personal training.",
+            "LI6_TEXT": "Advertising.",
+            "LI7_TEXT": "Entrepreneurship.",
+            "LI8_TEXT": "Media and broadcasting.",
+            "LI9_TEXT": "Tour guide.",
+            "LI10_TEXT": "Fashion and beauty industry."
+        },
+        "DESK5_2": "Energetic people should consider their strengths, interests and values when choosing career options. It is important to find a career path that matches their natural qualities, but also leaves room for personal growth and well-being."
     },
     "FOOTER": {
         "C": "حقوق النشر © ۲۰۲۳ Martspec LLC. كل الحقوق محفوظة.",
