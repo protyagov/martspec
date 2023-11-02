@@ -56,8 +56,8 @@ export default function PageHeader(props: (
 
                     <div className="headings">
                         <h1>{ _(title) }</h1>
-                        { subtitleLevel1 && <h3>{ _(subtitleLevel1) }</h3> }
-                        { subtitleLevel2 && <p>{ _(subtitleLevel2) }</p> }
+                        { subtitleLevel1 && <h2>{ _(subtitleLevel1) }</h2> }
+                        { subtitleLevel2 && <h6>{ _(subtitleLevel2) }</h6> }
                     </div>
 
                     {appId && (

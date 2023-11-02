@@ -7,6 +7,7 @@
   }
 
   h1,
+  h2,
   h3,
   p {
     margin: 0;
@@ -15,6 +16,20 @@
 
   h1:not(:only-child) {
     margin-bottom: 1.3rem;
+  }
+
+  h2 { // = h3 from .ms-base-new
+    font-size: 1.7rem;
+    font-family: os5;
+    color: $ms-color-text-darker;
+    line-height: 159%;
+  }
+
+  h6 { // = p from .ms-base-new
+    line-height: 152%;
+    color: #595959;
+    font-family: os3;
+    font-size: 1.5rem;
   }
 
   .col,
