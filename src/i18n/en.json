@@ -4,8 +4,7 @@
         "SRC1": "Read source article",
         "FACT": "See Facts",
         "SRC2": "Get facts from the source article",
-        "WIKI": "Read full article on WiKi",
-        "MORE": "Learn more"
+        "WIKI": "Read full article on WiKi"
     },
     "MAIN": {
         "HEAD": "Simplicity of health tracking",
@@ -33,7 +32,8 @@
         "HEAD4": "Iron",
         "DESC4": "A vital part of hemoglobin and myoglobin, proteins that carry oxygen to body tissues and muscles.  Red blood cells contain more than half of the human body iron. ",
         "HEAD5": "Risks",
-        "DESC5": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. "
+        "DESC5": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. ",
+        "BTN_OPEN": "Get the facts"
     },
     "MASS": {
         "HEAD": "Body Mass",
@@ -56,7 +56,8 @@
         "DESC4_4": "iCloud backups",
         "DESC4_5": "Works without iPhone",
         "DESC4_6": "Minimalist style",
-        "DESC4_7": "Free, zero ADs and no in-app purchases"
+        "DESC4_7": "Free, zero ADs and no in-app purchases",
+        "BTN_OPEN": "Give up the fat"
     },
     "VITAMIN": {
         "HEAD": "Vitamin Book",
@@ -87,6 +88,7 @@
         "DESC8_2": "Vitamins and minerals are necessary nutritional microelements. They don't give energy, but they are vital for normal organism functioning and health support.",
         "DESC8_3": "To get various vitamins, you should eat products of all groups: whole grains, fruits and vegetables, dairy products, products from the 'fish-eggs-poultry-meat' group, fats (nuts and seeds).",
         "DESC8_4": "With our app, you can track the following vitamins and minerals:",
+        "BTN_OPEN": "Vitaminize",
         "VITAMIN_FAT": {
             "NAME": "Fat-Soluble Vitamins",
             "SHORT": "Fat-Soluble",
@@ -808,7 +810,8 @@
         "DESC4_1": "Men: 40 inches or more (102cm)",
         "DESC4_2": "Women: 35 inches or more (88cm)",
         "DESC4_3": "Every 2 inch(5cm) of waist size raise the risk by 17% in men and 13% in women, regardless of BMI",
-        "DESC4_4": "Source: "
+        "DESC4_4": "Source: ",
+        "BTN_OPEN": "Flat your belly"
     },
     "ZINC": {
         "HEAD": "Zinc",
@@ -826,7 +829,8 @@
         "LINK2": "Study by American Heart Association",
         "HEAD3": "Decreases Inflammation",
         "DESC3": "Decreases oxidative stress and reduces levels of certain inflammatory proteins in your body. Oxidative stress leads to chronic inflammation, a contributing factor in a wide array of chronic illnesses, such as heart disease, cancer and mental decline.",
-        "HEAD4": "Elevated Cardiovascular Risk"
+        "HEAD4": "Elevated Cardiovascular Risk",
+        "BTN_OPEN": "AmaZinc element"
     },
     "SIZE": {
         "HEAD": "Body Size",
@@ -845,7 +849,9 @@
         "HEAD4": "Hips",
         "DESC4": "Evidence shows that fat around the thighs and backside is harder to shift than fat around the waist. The waist-to-hips ratio is commonly used as an indicator or measure of health, and the risk of developing serious health conditions.",
         "HEAD5": "Body Shape",
-        "DESC5": "Are you a pear 🍐? An apple 🍎 ? Or maybe a hourglass? Finding out your true body shape is more than one of those pointless online tests. Understanding your body shape might help you discover the most effective workout. Several studies suggest that it can help improve your health."
+        "DESC5": "Are you a pear 🍐? An apple 🍎 ? Or maybe a hourglass? Finding out your true body shape is more than one of those pointless online tests. Understanding your body shape might help you discover the most effective workout. Several studies suggest that it can help improve your health.",
+        "BTN_OPEN": "Measure it"
+
     },
     "EMOTION": {
         "HEAD": "Emotion",
@@ -954,7 +960,8 @@
         },
         "HEAD8": "Emotion app is available for any Apple device",
         "DESK8": "Start tracking your mood changes today by downloading the app now",
-        "ALT8": "Screenshots of an application that will allow you to track your psychological state regularly, comfortably and on any device"
+        "ALT8": "Screenshots of an application that will allow you to track your psychological state regularly, comfortably and on any device",
+        "BTN_OPEN": "Know Yourself"
     },
     "BIORHYTHMS": {
         "HEAD": "Biorhythms",

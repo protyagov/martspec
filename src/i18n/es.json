@@ -4,8 +4,7 @@
         "SRC1": "Leer artículo fuente",
         "FACT": "Ver hechos",
         "SRC2": "Obtenga datos del artículo fuente",
-        "WIKI": "Leer artículo completo sobre WiKi",
-        "MORE": "Aprende más"
+        "WIKI": "Leer artículo completo sobre WiKi"
     },
     "MAIN": {
         "HEAD": "Sencillez del seguimiento de la salud",
@@ -33,7 +32,8 @@
         "HEAD4": "Hierro",
         "DESC4": "Una parte vital de la hemoglobina y la mioglobina, proteínas que transportan oxígeno a los tejidos y músculos del cuerpo. Los glóbulos rojos contienen más de la mitad del hierro del cuerpo humano. ",
         "HEAD5": "Riesgos",
-        "DESC5": "Los desequilibrios de electrolitos pueden desarrollarse al consumir muy poco o demasiado electrolito, así como al excretar muy poco o demasiado electrolito. "
+        "DESC5": "Los desequilibrios de electrolitos pueden desarrollarse al consumir muy poco o demasiado electrolito, así como al excretar muy poco o demasiado electrolito. ",
+        "BTN_OPEN": "Balance"
     },
     "MASS": {
         "HEAD": "Peso",
@@ -56,7 +56,8 @@
         "DESC4_4": "Copias de seguridad de iCloud",
         "DESC4_5": "Funciona sin iPhone",
         "DESC4_6": "Estilo minimalista",
-        "DESC4_7": "Gratis, sin anuncios y sin compras dentro de la aplicación"
+        "DESC4_7": "Gratis, sin anuncios y sin compras dentro de la aplicación",
+        "BTN_OPEN": "Pista"
     },
     "VITAMIN": {
         "HEAD": "Vitamina",
@@ -87,6 +88,7 @@
         "DESC8_2": "Las vitaminas y los minerales son microelementos nutricionales necesarios. No dan energía, pero son vitales para el funcionamiento normal del organismo y el apoyo a la salud.",
         "DESC8_3": "Para obtener varias vitaminas, debe comer productos de todos los grupos: cereales integrales, frutas y verduras, productos lácteos, productos del grupo 'pescado-huevos-aves-carne', grasas (nueces y semillas).",
         "DESC8_4": "Con nuestra aplicación, puede realizar un seguimiento de las siguientes vitaminas y minerales:",
+        "BTN_OPEN": "Controlar",
         "VITAMIN_FAT": {
             "NAME": "Vitaminas liposolubles",
             "SHORT": "Vitaminas liposolubles",
@@ -807,7 +809,8 @@
         "DESC4_1": "Hombres: 40 pulgadas o más (102 cm)",
         "DESC4_2": "Mujeres: 35 pulgadas o más (88 cm)",
         "DESC4_3": "Cada 2 pulgadas (5 cm) del tamaño de la cintura aumenta el riesgo en un 17% en los hombres y en un 13% en las mujeres, independientemente del IMC",
-        "DESC4_4": "Fuente: "
+        "DESC4_4": "Fuente: ",
+        "BTN_OPEN": "Disminuir"
     },
     "ZINC": {
         "HEAD": "Zinc",
@@ -824,7 +827,8 @@
         "DESC2": "El zinc se usa comúnmente en los hospitales como un tratamiento para quemaduras, ciertas úlceras y otras lesiones en la piel. De hecho, su piel tiene una cantidad relativamente alta, alrededor del 5%, del contenido de zinc de su cuerpo.",
         "LINK2": "Estudio de American Heart Association",
         "HEAD3": "Disminuye la inflamación",
-        "DESC3": "Disminuye el estrés oxidativo y reduce los niveles de ciertas proteínas inflamatorias en su cuerpo. El estrés oxidativo conduce a la inflamación crónica, un factor contribuyente en una amplia gama de enfermedades crónicas, como las enfermedades cardíacas, el cáncer y el declive mental."
+        "DESC3": "Disminuye el estrés oxidativo y reduce los niveles de ciertas proteínas inflamatorias en su cuerpo. El estrés oxidativo conduce a la inflamación crónica, un factor contribuyente en una amplia gama de enfermedades crónicas, como las enfermedades cardíacas, el cáncer y el declive mental.",
+        "BTN_OPEN": "Apoyo"
     },
     "SIZE": {
         "HEAD": "Medida",
@@ -843,7 +847,8 @@
         "HEAD4": "Caderas",
         "DESC4": "La evidencia muestra que la grasa alrededor de los muslos y la parte trasera es más difícil de cambiar que la grasa alrededor de la cintura. La proporción de cintura a cadera se usa comúnmente como un indicador o medida de salud, y el riesgo de desarrollar condiciones de salud graves.",
         "HEAD5": "Forma del cuerpo",
-        "DESC5": "¿Tu cuerpo tiene forma de manzana 🍎 o de pera 🍐? ¿O quizás un reloj de arena? Descubrir la verdadera forma de su cuerpo es más que una de esas pruebas en línea inútiles. Comprender la forma de su cuerpo puede ayudarlo a descubrir el entrenamiento más efectivo. Los estudios sugieren que puede ayudar a mejorar su salud."
+        "DESC5": "¿Tu cuerpo tiene forma de manzana 🍎 o de pera 🍐? ¿O quizás un reloj de arena? Descubrir la verdadera forma de su cuerpo es más que una de esas pruebas en línea inútiles. Comprender la forma de su cuerpo puede ayudarlo a descubrir el entrenamiento más efectivo. Los estudios sugieren que puede ayudar a mejorar su salud.",
+        "BTN_OPEN": "Medida"
     },
     "EMOTION": {
         "HEAD": "Emoción",
@@ -952,7 +957,8 @@
         },
         "HEAD8": "La aplicación Emoción está disponible para cualquier dispositivo Apple",
         "DESK8": "Comienza a rastrear tus cambios de humor hoy mismo descargando la aplicación ahora",
-        "ALT8": "Capturas de pantalla de una aplicación que te permitirá seguir tu estado psicológico regularmente, cómodamente y en cualquier dispositivo"
+        "ALT8": "Capturas de pantalla de una aplicación que te permitirá seguir tu estado psicológico regularmente, cómodamente y en cualquier dispositivo",
+        "BTN_OPEN": "Para descubrir"
     },
     "BIORHYTHMS": {
         "HEAD": "Biorhythms",

@@ -4,8 +4,7 @@
         "SRC1": "Leia o artigo fonte",
         "FACT": "Veja os fatos",
         "SRC2": "Obtenha fatos do artigo de origem",
-        "WIKI": "Leia o artigo completo sobre WiKi",
-        "MORE": "Saber mais"
+        "WIKI": "Leia o artigo completo sobre WiKi"
     },
     "MAIN": {
         "HEAD": "Simplicidade de rastreamento de saúde",
@@ -34,7 +33,8 @@
         "HEAD4": "Ferro",
         "DESC4": "Parte vital da hemoglobina e da mioglobina, proteínas que transportam oxigênio para os tecidos e músculos do corpo. Os glóbulos vermelhos contêm mais da metade do ferro do corpo humano. ",
         "HEAD5": "Riscos",
-        "DESC5": "Os desequilíbrios eletrolíticos podem ocorrer consumindo pouco ou muito eletrólito, bem como excretando muito pouco ou muito eletrólito."
+        "DESC5": "Os desequilíbrios eletrolíticos podem ocorrer consumindo pouco ou muito eletrólito, bem como excretando muito pouco ou muito eletrólito.",
+        "BTN_OPEN": "Equilíbrio"
     },
     "MASS": {
         "HEAD": "Peso",
@@ -58,7 +58,8 @@
         "DESC4_4": "Backups do iCloud",
         "DESC4_5": "Funciona sem iPhone",
         "DESC4_6": "Estilo minimalista",
-        "DESC4_7": "Grátis, sem anúncios e sem compras no aplicativo"
+        "DESC4_7": "Grátis, sem anúncios e sem compras no aplicativo",
+        "BTN_OPEN": "Acompanhar"
     },
     "VITAMIN": {
         "HEAD": "Vitamina",
@@ -90,6 +91,7 @@
         "DESC8_2": "Vitaminas e minerais são microelementos nutricionais necessários. Eles não fornecem energia, mas são vitais para o funcionamento normal do organismo e suporte à saúde.",
         "DESC8_3": "Para obter várias vitaminas, você deve comer produtos de todos os grupos: grãos integrais, frutas e vegetais, laticínios, produtos do grupo 'peixe-ovos-aves-carne', gorduras (nozes e sementes).",
         "DESC8_4": "Com nosso aplicativo, você pode acompanhar as seguintes vitaminas e minerais:",
+        "BTN_OPEN": "Verificar",
         "VITAMIN_FAT": {
             "NAME": "Vitaminas lipossolúveis",
             "SHORT": "Lipossolúveis",
@@ -810,7 +812,8 @@
         "DESC4_1": "Homens: 40 polegadas ou mais (102 cm)",
         "DESC4_2": "Mulheres: 35 polegadas ou mais (88 cm)",
         "DESC4_3": "Cada 5 cm do tamanho da cintura aumenta o risco em 17% nos homens e 13% nas mulheres, independentemente do IMC",
-        "DESC4_4": "Fonte: "
+        "DESC4_4": "Fonte: ",
+        "BTN_OPEN": "Diminuir"
     },
     "ZINC": {
         "HEAD": "Zinco",
@@ -828,7 +831,8 @@
         "DESC2": "O zinco é comumente usado em hospitais como tratamento para queimaduras, certas úlceras e outras lesões na pele. Na verdade, sua pele detém uma quantidade relativamente alta - cerca de 5% - do conteúdo do zinco do seu corpo.",
         "LINK2": "Estudo pela American Heart Association",
         "HEAD3": "Diminui a inflamação",
-        "DESC3": "Diminui o estresse oxidativo e reduz os níveis de certas proteínas inflamatórias em seu corpo. O estresse oxidativo leva à inflamação crônica, um fator contribuinte em uma ampla gama de doenças crônicas, como doenças cardíacas, câncer e declínio mental."
+        "DESC3": "Diminui o estresse oxidativo e reduz os níveis de certas proteínas inflamatórias em seu corpo. O estresse oxidativo leva à inflamação crônica, um fator contribuinte em uma ampla gama de doenças crônicas, como doenças cardíacas, câncer e declínio mental.",
+        "BTN_OPEN": "Apoiar"
     },
     "SIZE": {
         "HEAD": "Ser Fitness",
@@ -848,7 +852,8 @@
         "HEAD4": "Quadris",
         "DESC4": "Evidências mostram que gordura em torno das coxas e parte traseira é mais difícil de mudar do que gordura ao redor da cintura. A proporção de cintura para quadris é comumente usada como indicador ou medida de saúde, e o risco de desenvolver graves condições de saúde.",
         "HEAD5": "Formato corporal",
-        "DESC5": "O formato do seu corpo é uma maçã 🍎 ou uma pêra 🍐? Ou talvez uma ampulheta? Descobrir a verdadeira forma do seu corpo é mais do que um daqueles testes online inúteis. Compreender a forma do seu corpo pode ajudá-lo a descobrir o treino mais eficaz. Estudos sugerem que pode ajudar a melhorar sua saúde."
+        "DESC5": "O formato do seu corpo é uma maçã 🍎 ou uma pêra 🍐? Ou talvez uma ampulheta? Descobrir a verdadeira forma do seu corpo é mais do que um daqueles testes online inúteis. Compreender a forma do seu corpo pode ajudá-lo a descobrir o treino mais eficaz. Estudos sugerem que pode ajudar a melhorar sua saúde.",
+        "BTN_OPEN": "Medir"
     },
     "EMOTION": {
         "HEAD": "Emoção",
@@ -957,7 +962,8 @@
         },
         "HEAD8": "O aplicativo Emoção está disponível para qualquer dispositivo Apple",
         "DESK8": "Comece a rastrear suas mudanças de humor hoje mesmo baixando o aplicativo agora",
-        "ALT8": "Capturas de tela de um aplicativo que permitirá que você acompanhe seu estado psicológico regularmente, confortavelmente e em qualquer dispositivo"
+        "ALT8": "Capturas de tela de um aplicativo que permitirá que você acompanhe seu estado psicológico regularmente, confortavelmente e em qualquer dispositivo",
+        "BTN_OPEN": "Desmascarar"
     },
     "BIORHYTHMS": {
         "HEAD": "Biorhythms",
