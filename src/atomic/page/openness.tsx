@@ -1,9 +1,10 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
+import { Footer } from "src/atomic/organism/footer";
+import NavigationBar from "src/atomic/organism/navbar";
+import ContentsList from "src/atomic/molecule/contents-list";
 import { useScrollSpy } from "src/hooks";
-import { Footer } from "../organism/footer";
-import NavigationBar from "../organism/navbar";
-import ContentsList from "../molecule/contents-list";
+
 
 
 export default function Openness() {
@@ -19,15 +20,19 @@ export default function Openness() {
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page pb-5 emotion personal-trait">
+        <div className="ms-base-page ms-base-new emotion personality-trait">
 
-            <section className="pb-3 text-center">
+        <section className="pb-3 text-center">
                 <div className="row">
-                    <div className="col">
+                   <div className="col-12">
                         <img src="/img/page/openness/openness.webp" className="ms-base-image" alt={_("OPENNESS.IMG")} height={390} width={421} />
+                    </div>
+                    <div className="col-12">    
                         <h1 className="text-center pt-3 mb-5">{_("OPENNESS.HEAD")}</h1>
+                    </div>
+                    <div className="col-12">
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("OPENNESS.DWN")} className="ms-btn-apple mt-5"
+                            target="_blank" title={_("OPENNESS.DWN")} className="ms-btn-apple"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                         </a>
                     </div>
@@ -36,7 +41,7 @@ export default function Openness() {
 
             <section>    
                 <div className="row">
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 order-lg-1 order-2">
                         <div id="section-1" className="content-wrapper">
                             <h2>{_("OPENNESS.HEAD1")}</h2>
                             <p>{_("OPENNESS.DESK1_1")}</p>
@@ -58,7 +63,7 @@ export default function Openness() {
                                     [...Array(LIST3_COUNT)].map((li, idx) => (
                                         <li key={"LIST3_LI" + ++idx} >
                                             <b>{_("OPENNESS.LIST3.LI" + idx + "_HEAD")}</b>
-                                            <span>{" "} {_("OPENNESS.LIST3.LI" + idx + "_TEXT")}</span>
+                                            <span>{" " + _("OPENNESS.LIST3.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }

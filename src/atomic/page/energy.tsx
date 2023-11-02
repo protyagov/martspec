@@ -1,10 +1,9 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
+import { Footer } from "src/atomic/organism/footer";
+import NavigationBar from "src/atomic/organism/navbar";
+import ContentsList from "src/atomic/molecule/contents-list";
 import { useScrollSpy } from "src/hooks";
-import { Footer } from "../organism/footer";
-import NavigationBar from "../organism/navbar";
-import ContentsList from "../molecule/contents-list";
-
 
 export default function Energy() {
     const LIST2_COUNT = 3;
@@ -19,19 +18,21 @@ export default function Energy() {
 
     useScrollSpy("contents-list");
 
-
     return <>
         <NavigationBar />
-
-        <div className="ms-base-page pb-5 emotion personal-trait">
+        <div className="ms-base-page ms-base-new emotion personality-trait">
 
             <section className="pb-3 text-center">
                 <div className="row">
-                    <div className="col">
+                   <div className="col-12">
                         <img src="/img/page/energy/energy.webp" className="ms-base-image" alt={_("ENERGY.IMG")} height={390} width={421} />
+                    </div>
+                    <div className="col-12">    
                         <h1 className="text-center pt-3 mb-5">{_("ENERGY.HEAD")}</h1>
+                    </div>
+                    <div className="col-12">
                         <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("ENERGY.DWN")} className="ms-btn-apple mt-5"
+                            target="_blank" title={_("ENERGY.DWN")} className="ms-btn-apple"
                             style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                         </a>
                     </div>
@@ -40,7 +41,7 @@ export default function Energy() {
 
             <section>    
                 <div className="row">
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 order-lg-1 order-2">
                         <div id="section-1" className="content-wrapper">
                             <h2>{_("ENERGY.HEAD1")}</h2>
                             <p>{_("ENERGY.DESK1_1")}</p>
@@ -56,7 +57,7 @@ export default function Energy() {
                                     [...Array(LIST2_COUNT)].map((li, idx) => (
                                         <li key={"LIST2_LI" + ++idx} >
                                             <b>{_("ENERGY.LIST2.LI" + idx + "_HEAD")}</b>
-                                            <span>{" "} {_("ENERGY.LIST2.LI" + idx + "_TEXT")}</span>
+                                            <span>{" " + _("ENERGY.LIST2.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
@@ -72,7 +73,7 @@ export default function Energy() {
                                     [...Array(LIST3_COUNT)].map((li, idx) => (
                                         <li key={"LIST3_LI" + ++idx} >
                                             <b>{_("ENERGY.LIST3.LI" + idx + "_HEAD")}</b>
-                                            <span>{" "} {_("ENERGY.LIST3.LI" + idx + "_TEXT")}</span>
+                                            <span>{" " + _("ENERGY.LIST3.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
@@ -87,7 +88,7 @@ export default function Energy() {
                                     [...Array(LIST4_1_COUNT)].map((li, idx) => (
                                         <li key={"LIST4_1_LI" + ++idx}>
                                             <b>{_("ENERGY.LIST4_1.LI" + idx + "_HEAD")}</b>
-                                            <span>{" "} {_("ENERGY.LIST4_1.LI" + idx + "_TEXT")}</span>
+                                            <span>{" " + _("ENERGY.LIST4_1.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
@@ -98,7 +99,7 @@ export default function Energy() {
                                     [...Array(LIST4_2_COUNT)].map((li, idx) => (
                                         <li key={"LIST4_2_LI" + ++idx}>
                                             <b>{_("ENERGY.LIST4_2.LI" + idx + "_HEAD")}</b>
-                                            <span>{" "} {_("ENERGY.LIST4_2.LI" + idx + "_TEXT")}</span>
+                                            <span>{" " + _("ENERGY.LIST4_2.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
