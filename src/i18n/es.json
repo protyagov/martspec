@@ -1417,6 +1417,7 @@
     "MISSION": {
         "HEAD": "Misión",
         "M": "Hacemos que sea rápido y fácil para todos hacer un seguimiento de su salud y bienestar.",
+        "ABOUT_1": "Hacemos que sea rápido y fácil para todos hacer un seguimiento de su salud y bienestar.",
         "P1": "Nuestra misión nos lleva a hacer todo lo posible para expandir el potencial humano. Lo hacemos siguiendo 3 conceptos básicos:",
         "P1_1": "Creación de innovaciones tecnológicas innovadoras",
         "P1_2": "Hacer que nuestras aplicaciones sean más inspiradoras y hermosas",
@@ -1434,7 +1435,7 @@
     },
     "TEAM": {
         "HEAD": "Equipo",
-        "SUBHEAD": "Las personas detrás de la empresa son tan importantes como la empresa misma. Conozca a nuestros talentosos ingenieros y diseñadores de software que crean las mejores aplicaciones de bienestar.",
+        "ABOUT": "Las personas detrás de la empresa son tan importantes como la empresa misma. Conozca a nuestros talentosos ingenieros y diseñadores de software que crean las mejores aplicaciones de bienestar.",
         "ENGINEER_MOBILE": "Ingeniero de software móvil",
         "ENGINEER_WEB": "Ingeniero de software web",
         "DESIGNER_UI_UX": "Diseñador de UI / UX",

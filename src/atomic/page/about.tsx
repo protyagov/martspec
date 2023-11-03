@@ -2,16 +2,22 @@ import * as React from "react";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import _ from "src/i18n/locale"
+import PageHeader from "../molecule/page-header";
 
 export default function About() {
     return <>
         <NavigationBar />
 
         <div className="ms-base-page pb-5">
-            <section>
-                <img src="/img/about.svg" className="ms-base-image" alt={_("ABOUT.HEAD")} height={300} width={326} />
-                <h1 className="text-center pt-3">{_("ABOUT.HEAD")}</h1>
-            </section>
+
+            <PageHeader
+                title="ABOUT.HEAD"
+                imgSrc="/img/about.svg"
+                imgAlt="ABOUT.IMG"
+                imgH={400}
+                imgW={426}
+            />
+
             <section>
                 <p>{_("ABOUT.P1")}</p>
                 <p>{_("ABOUT.P2")}</p>
