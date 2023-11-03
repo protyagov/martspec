@@ -228,7 +228,7 @@ export default function Emotion() {
                         <div className="block bg-blue">
                             <h3>{_("EMOTION.LIST6.LI6_HEAD")}</h3>
                             <p>{_("EMOTION.LIST6.LI6_TEXT")}</p>
-                            <a href={Locale.i18nLink("coming-soon")} className="ms-read-more-btn"><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                            <a href={Locale.i18nLink("emotion/openness")} className="ms-read-more-btn"><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
                     </div>
                 </div>

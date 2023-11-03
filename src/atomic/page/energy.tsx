@@ -19,7 +19,6 @@ export default function Energy() {
 
     useScrollSpy("contents-list");
 
-
     return <>
         <NavigationBar />
 
@@ -37,7 +36,7 @@ export default function Energy() {
 
             <section>    
                 <div className="row">
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 order-lg-1 order-2">
                         <div id="section-1" className="content-wrapper">
                             <h2>{_("ENERGY.HEAD1")}</h2>
                             <p>{_("ENERGY.DESK1_1")}</p>
@@ -53,7 +52,7 @@ export default function Energy() {
                                     [...Array(LIST2_COUNT)].map((li, idx) => (
                                         <li key={"LIST2_LI" + ++idx} >
                                             <b>{_("ENERGY.LIST2.LI" + idx + "_HEAD")}</b>
-                                            <span>{" "} {_("ENERGY.LIST2.LI" + idx + "_TEXT")}</span>
+                                            <span>{" " + _("ENERGY.LIST2.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
@@ -69,7 +68,7 @@ export default function Energy() {
                                     [...Array(LIST3_COUNT)].map((li, idx) => (
                                         <li key={"LIST3_LI" + ++idx} >
                                             <b>{_("ENERGY.LIST3.LI" + idx + "_HEAD")}</b>
-                                            <span>{" "} {_("ENERGY.LIST3.LI" + idx + "_TEXT")}</span>
+                                            <span>{" " + _("ENERGY.LIST3.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
@@ -84,7 +83,7 @@ export default function Energy() {
                                     [...Array(LIST4_1_COUNT)].map((li, idx) => (
                                         <li key={"LIST4_1_LI" + ++idx}>
                                             <b>{_("ENERGY.LIST4_1.LI" + idx + "_HEAD")}</b>
-                                            <span>{" "} {_("ENERGY.LIST4_1.LI" + idx + "_TEXT")}</span>
+                                            <span>{" " + _("ENERGY.LIST4_1.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
@@ -95,7 +94,7 @@ export default function Energy() {
                                     [...Array(LIST4_2_COUNT)].map((li, idx) => (
                                         <li key={"LIST4_2_LI" + ++idx}>
                                             <b>{_("ENERGY.LIST4_2.LI" + idx + "_HEAD")}</b>
-                                            <span>{" "} {_("ENERGY.LIST4_2.LI" + idx + "_TEXT")}</span>
+                                            <span>{" " + _("ENERGY.LIST4_2.LI" + idx + "_TEXT")}</span>
                                         </li>
                                     ))
                                 }
