@@ -3,25 +3,24 @@ import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import ImageI18N from "src/atomic/atom/img-i18n";
+import PageHeader from "../molecule/page-header";
 
 export default function BodySize() {
     return <>
         <NavigationBar />
 
         <div className="ms-base-page pb-5">
-            <section>
-                <img src="/img/page/body-size/size-head.svg" height={512} width={512} alt={_("SIZE.IMG")} />
-                <h1 className="text-center pt-3 ">{_("SIZE.HEAD")}</h1>
-            </section>
 
-
-            <section>
-                <p className="mt-4">{_("SIZE.ABOUT")}</p>
-                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1564205068?l=${Locale.language}`}
-                    target="_blank" title={_("MAIN.P4.DWN")} className="ms-btn-apple"
-                    style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                </a>
-            </section>
+            <PageHeader
+                title="SIZE.HEAD"
+                subtitleLevel2="SIZE.ABOUT"
+                appId={1564205068}
+                appDownloadTitle="SIZE.DWN"
+                imgSrc="/img/page/body-size/size-head.svg"
+                imgAlt="SIZE.IMG"
+                imgH={512}
+                imgW={512}
+            />
 
             {/* Body compostion */}
             <section>

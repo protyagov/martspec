@@ -21,6 +21,7 @@ import Anxiety from "./atomic/page/anxiety";
 import Harmony from "./atomic/page/harmony";
 import Independence from "./atomic/page/independence";
 import Energy from "./atomic/page/energy";
+import Openness from "./atomic/page/openness";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -62,6 +63,8 @@ export function App() {
             return <Independence />
         case "/emotion/energy":
             return <Energy />
+        case "/emotion/openness":
+            return <Openness />
         case "/bodysize":
             return <BodySize />;
         case "/privacy-policy":

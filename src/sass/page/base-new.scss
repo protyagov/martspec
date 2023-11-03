@@ -110,38 +110,6 @@
 
   // Classes
 
-  .page-header {
-    
-    h1 {
-      margin: 0 auto 2.6rem;
-      padding: 0;
-    }
-
-    h3 {
-      margin-bottom: 1.3rem;
-    }
-
-    p {
-      margin-bottom: 0;
-    }
-
-    .row {
-      row-gap: map-get($section-y-gap, "xxs");
-
-      & > *:last-child {
-        line-height: 50px; // = .ms-btn-apple height -> important for correct layout
-
-        @include media-breakpoint-down(sm) {
-          line-height: 40px; // = .ms-btn-apple height
-        } 
-
-        a {
-          vertical-align: middle;
-        }
-      }
-    }
-  }
-
   .col-lg-6 {
     display: flex;
     flex-direction: column;

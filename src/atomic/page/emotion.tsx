@@ -3,31 +3,26 @@ import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import ImageI18N from "src/atomic/atom/img-i18n";
+import PageHeader from "src/atomic/molecule/page-header";
 
 export default function Emotion() {
+
     return <>
         <NavigationBar />
 
         <div className="ms-base-page ms-base-new emotion">
 
-            <section className="page-header text-center">
-                <div className="row">
-                    <div className="col-12">
-                        <img src="/img/page/emotion/emotion.png" className="ms-base-image" alt={_("EMOTION.IMG")} height={400} width={512} />
-                    </div>
-                    <div className="col-12">
-                        <h1>{_("EMOTION.HEAD")}</h1>
-                        <h3>{_("EMOTION.ABOUT_1")}</h3>
-                        <p>{_("EMOTION.ABOUT_2")}</p>
-                    </div>
-                    <div className="col-12">
-                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple"
-                            style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                        </a>
-                    </div>
-                </div>
-            </section>
+            <PageHeader
+                title="EMOTION.HEAD"
+                subtitleLevel1="EMOTION.ABOUT_1"
+                subtitleLevel2="EMOTION.ABOUT_2"
+                appId={1562956213}
+                appDownloadTitle="EMOTION.DWN"
+                imgSrc="/img/page/emotion/emotion.png"
+                imgAlt="EMOTION.IMG"
+                imgH={400}
+                imgW={512}
+            />
 
             <section>
                 <div className="row g-4">
@@ -233,7 +228,7 @@ export default function Emotion() {
                         <div className="block bg-blue">
                             <h3>{_("EMOTION.LIST6.LI6_HEAD")}</h3>
                             <p>{_("EMOTION.LIST6.LI6_TEXT")}</p>
-                            <a href={Locale.i18nLink("coming-soon")} className="ms-read-more-btn"><span>{_("EMOTION.LIST6.BTN")}</span></a>
+                            <a href={Locale.i18nLink("emotion/openness")} className="ms-read-more-btn"><span>{_("EMOTION.LIST6.BTN")}</span></a>
                         </div>
                     </div>
                 </div>

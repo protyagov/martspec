@@ -4,6 +4,7 @@ import { useScrollSpy } from "src/hooks";
 import { Footer } from "../organism/footer";
 import NavigationBar from "../organism/navbar";
 import ContentsList from "../molecule/contents-list";
+import PageHeader from "../molecule/page-header";
 
 
 export default function Harmony() {
@@ -22,18 +23,15 @@ export default function Harmony() {
 
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
-            <section className="pb-3 text-center">
-                <div className="row">
-                    <div className="col">
-                        <img src="/img/page/harmony/harmony.webp" className="ms-base-image" alt={_("HARMONY.IMG")} height={390} width={421} />
-                        <h1 className="text-center pt-3 mb-5">{_("HARMONY.HEAD")}</h1>
-                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("HARMONY.DWN")} className="ms-btn-apple mt-5"
-                            style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                        </a>
-                    </div>
-                </div>
-            </section>
+            <PageHeader
+                title="HARMONY.HEAD"
+                appId={1562956213}
+                appDownloadTitle="HARMONY.DWN"
+                imgSrc="/img/page/harmony/harmony.webp"
+                imgAlt="HARMONY.IMG"
+                imgH={390}
+                imgW={421}
+            />
 
             <section>    
                 <div className="row">
