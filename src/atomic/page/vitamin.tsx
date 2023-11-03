@@ -59,7 +59,7 @@ export default function Vitamin() {
                         <h2>{_("VITAMIN.HEAD2")}</h2>
                         <p className="mb-4">{_("VITAMIN.DESC2_1")}</p>
                         <p className="mb-4">{_("VITAMIN.DESC2_2")}</p>
-                        <p>{_("VITAMIN.DESC2_3")}</p>
+                        <p className="mb-0">{_("VITAMIN.DESC2_3")}</p>
                     </div>
                     <div className="col-lg-6">
                         <ImageI18N src="/img/page/vitamin/vitamin-screen-desc-en.webp" w={390} h={515} cls="ms-base-image mt-mob-xs" alt={_("VITAMIN.ALT1")} />
