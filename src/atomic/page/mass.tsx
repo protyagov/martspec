@@ -2,25 +2,24 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
+import PageHeader from "../molecule/page-header";
 
 export default function Bodymass() {
     return <>
         <NavigationBar />
 
         <div className="ms-base-page pb-5">
-            <section>
-                <img src="/img/page/body-mass/mass.svg" className="ms-base-image" alt={_("MASS.IMG")} height={512} width={512} />
-                <h1 className="text-center pt-3 ">{_("MASS.HEAD")}</h1>
-            </section>
 
-
-            <section>
-                <p className="mt-4">{_("MASS.ABOUT")}</p>
-                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1507588203?l=${Locale.language}`}
-                    target="_blank" title={_("MAIN.P3.DWN")} className="ms-btn-apple"
-                    style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                </a>
-            </section>
+            <PageHeader
+                title="MASS.HEAD"
+                subtitleLevel2="MASS.ABOUT"
+                appId={1507588203}
+                appDownloadTitle="MASS.DWN"
+                imgSrc="/img/page/body-mass/mass.svg"
+                imgAlt="MASS.IMG"
+                imgH={406}
+                imgW={512}
+            />
 
             <section>
                 <h4>{_("MASS.HEAD1")}</h4>

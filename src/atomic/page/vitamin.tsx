@@ -3,6 +3,7 @@ import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import VitaminItem from "src/atomic/molecule/vitaminItem";
+import PageHeader from "../molecule/page-header";
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -16,20 +17,17 @@ export default function Vitamin() {
 
         <div className="ms-base-page pb-5 vitamin">
 
-            <section className="text-center">
-                <div className="row">
-                    <div className="col">
-                        <img src="/img/page/vitamin/vitamin.svg" className="ms-base-image" alt={_("VITAMIN.IMG")} height={512} width={512} />
-                        <h1 className="text-center pt-3 mb-5">{_("VITAMIN.HEAD")}</h1>
-                        <h3>{_("VITAMIN.ABOUT_1")}</h3>
-                        <p>{_("VITAMIN.ABOUT_2")}</p>
-                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
-                            target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-3"
-                            style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                        </a>
-                    </div>
-                </div>
-            </section>
+            <PageHeader
+                title="VITAMIN.HEAD"
+                subtitleLevel1="VITAMIN.ABOUT_1"
+                subtitleLevel2="VITAMIN.ABOUT_2"
+                appId={1519596234}
+                appDownloadTitle="VITAMIN.DWN"
+                imgSrc="/img/page/vitamin/vitamin.svg"
+                imgAlt="VITAMIN.IMG"
+                imgH={512}
+                imgW={512}
+            />
 
             <section>
                 <div className="row gap-5">

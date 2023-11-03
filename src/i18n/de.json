@@ -1483,6 +1483,7 @@
     "MISSION": {
         "HEAD": "Mission",
         "M": "Wir machen es jedem schnell und einfach, seine Gesundheit und sein Wohlbefinden zu verfolgen.",
+        "ABOUT_1": "Wir machen es jedem schnell und einfach, seine Gesundheit und sein Wohlbefinden zu verfolgen.",
         "P1": "Unsere Mission besteht darin, alles zu tun, um das menschliche Potenzial zu erweitern. Wir tun dies, indem wir die drei grundlegenden Konzepte befolgen:",
         "P1_1": "Bahnbrechende technologische Innovationen schaffen",
         "P1_2": "Unsere Apps inspirierender und schöner machen",
@@ -1500,7 +1501,7 @@
     },
     "TEAM": {
         "HEAD": "Mannschaft",
-        "SUBHEAD": "Die Menschen hinter dem Unternehmen sind genauso wichtig wie das Unternehmen selbst. Lernen Sie unsere hochtalentierten Softwareingenieure und Designer kennen, die die besten Wellness-Apps entwickeln.",
+        "ABOUT": "Die Menschen hinter dem Unternehmen sind genauso wichtig wie das Unternehmen selbst. Lernen Sie unsere hochtalentierten Softwareingenieure und Designer kennen, die die besten Wellness-Apps entwickeln.",
         "ENGINEER_MOBILE": "Mobiler Software-Ingenieur",
         "ENGINEER_WEB": "Web Software-Ingenieur",
         "DESIGNER_UI_UX": "UI/UX-Designer",

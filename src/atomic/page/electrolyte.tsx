@@ -2,26 +2,24 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
+import PageHeader from "../molecule/page-header";
 
 export default function Electrolyte() {
     return <>
         <NavigationBar />
 
         <div className="ms-base-page pb-5">
-            <section>
-                <img src="/img/page/electrolyte/electrolyte.svg" className="ms-base-image" alt={_("MAIN.P1.IMG")} height={512} width={512} />
-                <h1 className="text-center pt-3">{_("ELECTROLYTE.HEAD")}</h1>
-            </section>
 
-
-            <section>
-                <p className="mt-4">{_("ELECTROLYTE.ABOUT")}</p>
-                <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1507719251?l=${Locale.language}`}
-                    target="_blank" title={_("MAIN.P1.DWN")} className="ms-btn-apple"
-                    style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                </a>
-            </section>
-
+            <PageHeader
+                title="ELECTROLYTE.HEAD"
+                subtitleLevel2="ELECTROLYTE.ABOUT"
+                appId={1507719251}
+                appDownloadTitle="ELECTROLYTE.DWN"
+                imgSrc="/img/page/electrolyte/electrolyte.svg"
+                imgAlt="ELECTROLYTE.IMG"
+                imgH={460}
+                imgW={440}
+            />
 
             <section >
                 <h4>{_("ELECTROLYTE.HEAD1")}</h4>

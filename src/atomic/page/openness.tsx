@@ -4,6 +4,7 @@ import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import ContentsList from "src/atomic/molecule/contents-list";
 import { useScrollSpy } from "src/hooks";
+import PageHeader from "../molecule/page-header";
 
 
 
@@ -22,22 +23,15 @@ export default function Openness() {
 
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
-        <section className="pb-3 text-center">
-                <div className="row">
-                   <div className="col-12">
-                        <img src="/img/page/openness/openness.webp" className="ms-base-image" alt={_("OPENNESS.IMG")} height={390} width={421} />
-                    </div>
-                    <div className="col-12">    
-                        <h1 className="text-center pt-3 mb-5">{_("OPENNESS.HEAD")}</h1>
-                    </div>
-                    <div className="col-12">
-                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                            target="_blank" title={_("OPENNESS.DWN")} className="ms-btn-apple"
-                            style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                        </a>
-                    </div>
-                </div>
-            </section>
+        <PageHeader
+                title="OPENNESS.HEAD"
+                appId={1562956213}
+                appDownloadTitle="OPENNESS.DWN"
+                imgSrc="/img/page/openness/openness.webp"
+                imgAlt="OPENNESS.IMG"
+                imgH={390}
+                imgW={421}
+            />
 
             <section>    
                 <div className="row">
