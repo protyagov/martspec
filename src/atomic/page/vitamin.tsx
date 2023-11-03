@@ -143,13 +143,10 @@ export default function Vitamin() {
                 </div>
             </section>
 
-            <section>
-                <div className="row">
-                    <div className="col vitamin-text-block">
-                        <p>{_("VITAMIN.DESC8_1")}</p>
-                        <p>{_("VITAMIN.DESC8_2")}</p>
-                        <p>{_("VITAMIN.DESC8_3")}</p>
-                        <p>{_("VITAMIN.DESC8_4")}</p>
+            <section className="bg-gray personality-traits-list">
+                <div className="row mb-0">
+                    <div className="col-12 block bg-green">
+                        <h2>{_("VITAMIN.HEAD5")}</h2>
                     </div>
                 </div>
             </section>
