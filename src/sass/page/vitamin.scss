@@ -1,94 +1,21 @@
+@import "../atom/base-new-vars";
+
 .vitamin {
-  $green-light: #EEFDE7;
-  $blue-light: #EFF9FF;
-  $blue-accent: $ms-color-button-hover;
+  $colors: $vitamin-colors;
 
-  & > *,
-  .ms-mb-8 {
-    margin-bottom: 8rem !important;
-  }
-
-  * {
-    line-height: 150%;
-    font-family: os4;
-    color: $ms-color-text-darker;
-  }
-
-  h2 {
-    color: $blue-accent;
-    font-size: 2.5rem;
-    line-height: 120%;
-  }
-
-  h3 {
-    font-size: 1.8rem;
-    color: $ms-color-text-darker;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  h2,
-  h3,
-  .vit-name {
-    overflow-wrap: anywhere;
-  }
-
-  .vitamin-block {
-    padding: 3rem;
-    border-radius: 3rem;
-    text-align: left;
-
-    &.row > * {
-      padding: 0 !important;
-    }
-
-    &.bg-blue {
-      background-color: $blue-light;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-    }
+  .icon {
+    background: map-get($colors, "bg");
     
-    &.bg-green {
-      background-color: $green-light;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-    }
-    
-    p {
-      font-size: 1.3rem;
-      color: $ms-color-text-gray;
-      margin-bottom: 0;
-    }
-
-    h3 {
-      font-family: os6;
-    }
-
-    .vitamin-img-50 {
-      max-width: 100%;
-      
-      @include media-breakpoint-up(md) {
-        height: 244px;
-        width: 271px;
-      }
-    }
-
-    .vitamin-img-100 {
-      max-width: 100%;
-      
-      @include media-breakpoint-up(md) {
-        height: auto;
-        width: 100%;
-      }
+    & > img {
+      filter: map-get($colors, "main-filter");
     }
   }
 
-  .vitamin-text-block {
-    * {
-      font-family: os4 !important;
-      color: $ms-color-text-darker !important;
-    }
-
-    p:last-child {
-      margin-bottom: 0;
+  .checkmark-list {
+    li {
+      &::before {
+        filter: map-get($colors, "main-filter");
+      }
     }
   }
 
