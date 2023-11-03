@@ -172,17 +172,17 @@ export default function Vitamin() {
             </section>
 
             <section>
-                <div className="row vitamin-text-block">
-                    <div className="col">
-                        <p className="ms-mb-8">{_("VITAMIN.FOOT")}</p>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col text-center">
-                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
-                            target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple"
-                            style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                        </a>
+                <div className="row text-lg-start text-center page-bottom">
+                    <div className="col-12 block bg-violet">
+                        <div>
+                            <h2>{_("VITAMIN.FOOT_HEAD")}</h2>
+                            <p className="flex-grow-1">{_("VITAMIN.FOOT_DESC")}</p>
+                            <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
+                                target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-5 mx-lg-0 mx-auto"
+                                style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
+                            </a>
+                        </div>
+                        <ImageI18N src="/img/page/vitamin/vitamin-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("VITAMIN.ALT4")} />
                     </div>
                 </div>
             </section>
