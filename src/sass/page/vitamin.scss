@@ -41,6 +41,13 @@
       }
     }
 
+		@include media-breakpoint-down(md) {
+			&,
+			.vit-group {
+				padding: 0;
+			}
+		}
+
     .row {
       margin-top: 0 !important;
       margin-bottom: 0 !important;
@@ -48,116 +55,5 @@
 			padding: 0;
     }
 
-    .vit-item {
-      background-color: #FBF8F7;
-      border: 1px solid #CFCBCB;
-      border-top: none;
-      padding-top: 1.6rem;
-      padding-bottom: 1.6rem;
-
-			display: grid;
-			grid-template:
-				"vit-name vit-desc vit-arrow" auto / 20% 1fr 8%;
-			gap: .5rem;
-
-      & > * {
-        display: flex;
-        align-items: center;
-      }
-    }
-
-    .vit-name {
-			grid-area: vit-name;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      padding: 0 2vw;
-    }
-
-    .vit-name-short {
-      font-family: os6;
-      font-size: 4rem;
-      line-height: 110%;
-      justify-content: center;
-    }
-  
-    .vit-name-long {
-      color: $ms-color-text-gray;
-      line-height: 130%;
-    }
-
-    .vit-desc {
-			grid-area: vit-desc;
-    }
-
-    .vit-arrow {
-			grid-area: vit-arrow;
-
-      a {
-        height: 100%;
-        width: 100%;
-
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      path {
-        color: $ms-color-button;
-        transition: color .2s;
-      }
-
-      &:hover {
-        path {
-          color: $ms-color-button-hover;
-        }
-      }
-    }
-  }
-
-  @include media-breakpoint-down(lg) {
-    .vitamins-list {
-      .vit-item {
-				grid-template:
-				"vit-name vit-arrow" auto
-				"vit-desc ." auto / 1fr 8%;
-				padding: 1rem 5% 1.6rem; 
-      }
-
-      .vit-name {
-        flex-direction: row;
-        justify-content: start;
-        align-items: baseline;
-        text-align: start;
-      }
-
-      .vit-name-long {
-        margin-left: 1rem;
-      }
-    }
-  }
-
-  @include media-breakpoint-down(md) {
-    .vitamins-list { 
-			&,
-			.vit-group {
-				padding: 0;
-			}
-
-      .vit-item {
-				padding: 1rem calc(10% + .5rem) 1.6rem; // .ms-s-offset + bootstrap column offset
-
-        border-right: none !important;
-        border-left: none !important;
-      }
-    }
-  }
-
-	@include media-breakpoint-down(sm) {
-    .vitamins-list { 
-      .vit-item {
-				padding: 1rem calc(5% + .5rem) 1.6rem;
-      }
-    }
-  }
+	}
 }
