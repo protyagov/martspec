@@ -143,7 +143,7 @@ export default function Vitamin() {
                 </div>
             </section>
 
-            <section className="bg-gray personality-traits-list">
+            <section className="bg-gray bg-merge-top">
                 <div className="row mb-0">
                     <div className="col-12">
                         <div className="block bg-green">
