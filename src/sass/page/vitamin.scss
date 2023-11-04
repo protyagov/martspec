@@ -6,7 +6,7 @@
   .icon {
     background: map-get($colors, "bg");
     
-    & > img {
+    &:not(.no-filter) > img {
       filter: map-get($colors, "main-filter");
     }
   }

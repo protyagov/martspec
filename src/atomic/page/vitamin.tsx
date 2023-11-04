@@ -132,7 +132,7 @@ export default function Vitamin() {
                                 </div>
                             </li>
                             <li>
-                                <div className="icon"><img src="/img/atom/icons/icon-apple-health.svg" alt={_("VITAMIN.ALT5_4")} /></div>
+                                <div className="icon no-filter"><img src="/img/atom/icons/icon-apple-health.svg" alt={_("VITAMIN.ALT5_4")} /></div>
                                 <div>
                                     <h3>{_("VITAMIN.LIST4.LI6_HEAD")}</h3>
                                     <p>{_("VITAMIN.LIST4.LI6_TEXT")}</p>
