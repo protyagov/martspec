@@ -9,11 +9,11 @@ interface VitaminItemProps {
 export default function VitaminItem(props: VitaminItemProps) {
     return (
         <div className="vit-item">
-            <div className="vit-header">
-                <span className="vit-icon">{_("VITAMIN." + props.id + ".HEAD")}</span>
-                <span className="vit-name">{_("VITAMIN." + props.id + ".NAME")}</span>
+            <div className="vit-name">
+                <span className="vit-name-short">{_("VITAMIN." + props.id + ".HEAD")}</span>
+                <span className="vit-name-long">{_("VITAMIN." + props.id + ".NAME")}</span>
             </div>
-            <div className="vit-desk">{_("VITAMIN." + props.id + ".DESK")}</div>
+            <div className="vit-desc">{_("VITAMIN." + props.id + ".DESK")}</div>
             <div className="vit-arrow">
                 <a href={Locale.i18nLink(`vitamin/${props.id.toLowerCase()}`)}>
                     <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">

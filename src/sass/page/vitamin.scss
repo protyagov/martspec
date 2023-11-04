@@ -35,7 +35,7 @@
           color: #FFFFFF;
         }
   
-        .vit-icon {
+        .vit-name-short {
           color: $c !important;
         }
       }
@@ -57,7 +57,7 @@
 
 			display: grid;
 			grid-template:
-				"vit-header vit-desk vit-arrow" auto / 20% 1fr 8%;
+				"vit-name vit-desc vit-arrow" auto / 20% 1fr 8%;
 			gap: .5rem;
 
       & > * {
@@ -66,28 +66,28 @@
       }
     }
 
-    .vit-header {
-			grid-area: vit-header;
+    .vit-name {
+			grid-area: vit-name;
       flex-direction: column;
       justify-content: center;
       text-align: center;
       padding: 0 2vw;
     }
 
-    .vit-icon {
+    .vit-name-short {
       font-family: os6;
       font-size: 4rem;
       line-height: 110%;
       justify-content: center;
     }
   
-    .vit-name {
+    .vit-name-long {
       color: $ms-color-text-gray;
       line-height: 130%;
     }
 
-    .vit-desk {
-			grid-area: vit-desk;
+    .vit-desc {
+			grid-area: vit-desc;
     }
 
     .vit-arrow {
@@ -119,19 +119,19 @@
     .vitamins-list {
       .vit-item {
 				grid-template:
-				"vit-header vit-arrow" auto
-				"vit-desk ." auto / 1fr 8%;
+				"vit-name vit-arrow" auto
+				"vit-desc ." auto / 1fr 8%;
 				padding: 1rem 5% 1.6rem; 
       }
 
-      .vit-header {
+      .vit-name {
         flex-direction: row;
         justify-content: start;
         align-items: baseline;
         text-align: start;
       }
 
-      .vit-name {
+      .vit-name-long {
         margin-left: 1rem;
       }
     }
