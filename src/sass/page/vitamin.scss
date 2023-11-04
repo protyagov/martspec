@@ -30,7 +30,7 @@
       .vit-group:nth-child(#{$idx}) {
         $c: nth($colors, $idx);
 
-        .vit-head {
+        .vit-group-name {
           background-color: $c;
           color: #FFFFFF;
         }
@@ -44,6 +44,8 @@
     .row {
       margin-top: 0 !important;
       margin-bottom: 0 !important;
+
+			padding: 0;
     }
 
     .vit-item {
@@ -53,6 +55,11 @@
       padding-top: 1.6rem;
       padding-bottom: 1.6rem;
 
+			display: grid;
+			grid-template:
+				"vit-header vit-desk vit-arrow" auto / 20% 1fr 8%;
+			gap: .5rem;
+
       & > * {
         display: flex;
         align-items: center;
@@ -60,12 +67,11 @@
     }
 
     .vit-header {
+			grid-area: vit-header;
       flex-direction: column;
       justify-content: center;
       text-align: center;
-      padding-left: 2vw;
-      padding-right: 2vw;
-      width: 20%;
+      padding: 0 2vw;
     }
 
     .vit-icon {
@@ -81,11 +87,11 @@
     }
 
     .vit-desk {
-      width: 71.7%;
+			grid-area: vit-desk;
     }
 
     .vit-arrow {
-      width: 8.3%;
+			grid-area: vit-arrow;
 
       a {
         height: 100%;
@@ -112,12 +118,10 @@
   @include media-breakpoint-down(lg) {
     .vitamins-list {
       .vit-item {
-        padding: 1rem 5% 1.5rem;
-      }
-
-      .vit-header,
-      .vit-desk {
-        width: 91.3%;
+				grid-template:
+				"vit-header vit-arrow" auto
+				"vit-desk ." auto / 1fr 8%;
+				padding: 1rem 5% 1.6rem; 
       }
 
       .vit-header {
@@ -130,20 +134,29 @@
       .vit-name {
         margin-left: 1rem;
       }
-
-      .vit-desk {
-        margin-top: .2rem;
-      }
     }
   }
 
   @include media-breakpoint-down(md) {
-    .vitamins-list {  
-      padding: 0;
+    .vitamins-list { 
+			&,
+			.vit-group {
+				padding: 0;
+			}
 
       .vit-item {
+				padding: 1rem calc(10% + .5rem) 1.6rem; // .ms-s-offset + bootstrap column offset
+
         border-right: none !important;
         border-left: none !important;
+      }
+    }
+  }
+
+	@include media-breakpoint-down(sm) {
+    .vitamins-list { 
+      .vit-item {
+				padding: 1rem calc(5% + .5rem) 1.6rem;
       }
     }
   }

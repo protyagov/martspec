@@ -145,27 +145,29 @@ export default function Vitamin() {
 
             <section className="bg-gray personality-traits-list">
                 <div className="row mb-0">
-                    <div className="col-12 block bg-green">
-                        <h2>{_("VITAMIN.HEAD5")}</h2>
+                    <div className="col-12">
+                        <div className="block bg-green">
+                            <h2>{_("VITAMIN.HEAD5")}</h2>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <section className="vitamins-list">
+                <div className="row">
                 {
                     Object
                         .entries(vitamins)
-                        .map(([vitGroupName, vitList]) => (
-                            <div key={"vitamins-list" + vitGroupName} className="vit-group">
-                                <div className="row vit-head">
-                                    <div className="col-12 py-3 px-lg-5">{_("VITAMIN." + vitGroupName + ".NAME")}</div>
-                                </div>
+                            .map(([vitGroupName, vitList]) => (
+                            <div key={"vitamins-group-" + vitGroupName} className="col-12 vit-group">
+                                <div className="py-3 px-5 vit-group-name">{_("VITAMIN." + vitGroupName + ".NAME")}</div>
                                 {
                                     vitList.map(vit => <VitaminItem key={vit} id={vit} />)
                                 }
                             </div>
                         ))
                 }
+                </div>
             </section>
 
             <section>
