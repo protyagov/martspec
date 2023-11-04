@@ -2,7 +2,7 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
-import VitaminItem from "src/atomic/molecule/vitaminItem";
+import VitaminItem from "src/atomic/molecule/vitamin-item";
 import PageHeader from "../molecule/page-header";
 import ImageI18N from "../atom/img-i18n";
 
