@@ -192,8 +192,8 @@ export default function Vitamin() {
                 <div className="row text-lg-start text-center page-bottom">
                     <div className="col-12 block bg-violet">
                         <div>
-                            <h2>{_("VITAMIN.FOOT_HEAD")}</h2>
-                            <p className="flex-grow-1">{_("VITAMIN.FOOT_DESC")}</p>
+                            <h2>{_("VITAMIN.HEAD6")}</h2>
+                            <p className="flex-grow-1">{_("VITAMIN.DESC6")}</p>
                             <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
                                 target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-5 mx-lg-0 mx-auto"
                                 style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
