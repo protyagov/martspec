@@ -19,6 +19,27 @@
     }
   }
 
+	.counters-list {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem 2rem;
+
+		h1 {
+			color: map-get($colors, "main"); 
+			margin: 0;
+			margin-bottom: .4rem;
+		}
+		p {
+			width: 75%;
+      font-size: 1.5rem;
+		}
+
+		@include media-breakpoint-down($base-breakpoint) {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 1rem;
+		}
+	}
+
   .vitamins-list {
     @extend .ms-s-offset;
 

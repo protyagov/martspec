@@ -147,7 +147,25 @@ export default function Vitamin() {
                 <div className="row mb-0">
                     <div className="col-12">
                         <div className="block bg-green">
-                            <h2>{_("VITAMIN.HEAD5")}</h2>
+                            <h2 className="mb-6">{_("VITAMIN.HEAD5")}</h2>
+                            <ul className="counters-list">
+                                <li>
+                                    <h1>{_("VITAMIN.LIST5.LI1_HEAD")}</h1>
+                                    <p>{_("VITAMIN.LIST5.LI1_TEXT")}</p>
+                                </li>
+                                <li>
+                                    <h1>{_("VITAMIN.LIST5.LI2_HEAD")}</h1>
+                                    <p>{_("VITAMIN.LIST5.LI2_TEXT")}</p>
+                                </li>
+                                <li>
+                                    <h1>{_("VITAMIN.LIST5.LI3_HEAD")}</h1>
+                                    <p>{_("VITAMIN.LIST5.LI3_TEXT")}</p>
+                                </li>
+                                <li>
+                                    <h1>{_("VITAMIN.LIST5.LI4_HEAD")}</h1>
+                                    <p>{_("VITAMIN.LIST5.LI4_TEXT")}</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
