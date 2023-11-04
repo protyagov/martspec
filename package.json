@@ -7,7 +7,18 @@
   "license": "UNLICENSED",
   "main": "index.js",
   "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.23.2",
     "@principalstudio/html-webpack-inject-preload": "^1.2.7",
+    "@storybook/addon-essentials": "^7.5.1",
+    "@storybook/addon-interactions": "^7.5.1",
+    "@storybook/addon-links": "^7.5.1",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.5.1",
+    "@storybook/react": "^7.5.1",
+    "@storybook/react-webpack5": "^7.5.1",
+    "@storybook/testing-library": "^0.2.2",
     "@types/bootstrap": "^5.1.11",
     "@types/node-polyglot": "^2.4.1",
     "@types/react": "^18.2.20",
@@ -28,6 +39,7 @@
     "regenerator-runtime": "^0.14.0",
     "sass-loader": "^13.3.2",
     "source-map-loader": "^4.0.0",
+    "storybook": "^7.5.1",
     "style-loader": "^3.3.3",
     "ts-loader": "^9.4.4",
     "typescript": "^5.1.6",
@@ -47,6 +59,8 @@
     "predeploy": "webpack --config webpack.prd.js",
     "deploy": "gh-pages -d build",
     "prod": "webpack --config webpack.prd.js",
-    "svr": "webpack serve --config webpack.dev.js"
+    "svr": "webpack serve --config webpack.dev.js",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   }
 }
