@@ -182,7 +182,7 @@ export default function Emotion() {
                 </div>
             </section>
 
-            <section className="bg-gray personality-traits-list">
+            <section className="bg-gray bg-merge-top personality-traits-list">
                 <div className="row mb-0">
                     <div className="col-12 mb-2">
                         <h2>{_("EMOTION.HEAD6")}</h2>

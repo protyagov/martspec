@@ -2,8 +2,9 @@ import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
-import VitaminItem from "src/atomic/molecule/vitaminItem";
+import VitaminItem from "src/atomic/molecule/vitamin-item";
 import PageHeader from "../molecule/page-header";
+import ImageI18N from "../atom/img-i18n";
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -11,11 +12,11 @@ const vitamins = {
     MINERAL: ["CALCIUM", "CHLORIDE", "CHROME", "COPPER", "IODINE", "IRON", "MAGNESIUM", "MANGANESE", "MOLYBDENUM", "PHOSPHORUS", "POTASSIUM", "SELENIUM", "SODIUM", "ZINC"]
 };
 
-export default function Vitamin() {
+export default function Vitamin() { 
     return <>
         <NavigationBar />
 
-        <div className="ms-base-page pb-5 vitamin">
+        <div className="ms-base-page ms-base-new vitamin">
 
             <PageHeader
                 title="VITAMIN.HEAD"
@@ -23,116 +24,182 @@ export default function Vitamin() {
                 subtitleLevel2="VITAMIN.ABOUT_2"
                 appId={1519596234}
                 appDownloadTitle="VITAMIN.DWN"
-                imgSrc="/img/page/vitamin/vitamin.svg"
+                imgSrc="/img/page/vitamin/vitamin.webp"
                 imgAlt="VITAMIN.IMG"
                 imgH={512}
                 imgW={512}
             />
 
             <section>
-                <div className="row gap-5">
-                    <div className="col-md col-12 vitamin-block bg-blue">
-                        <img src="/img/page/vitamin/apple-health-icon.svg" className="m-0 p-0 pe-4 pe-sm-0" alt="Apple Health" height={100} width={100} />
-                        <h3>{_("VITAMIN.HEAD1")}</h3>
-                        <p className="mt-3">{_("VITAMIN.DESC1")}</p>
+                <div className="row g-4">
+                    <div className="col-lg-4">
+                        <div className="block bg-blue">
+                            <h3>{_("VITAMIN.LIST1.LI1_HEAD")}</h3>
+                            <p>{_("VITAMIN.LIST1.LI1_TEXT")}</p>
+                        </div>
                     </div>
-                    <div className="col-md col-12 d-flex flex-column justify-content-center mt-md-0 mt-5 vitamin-block bg-transparent">
-                        <h2>{_("VITAMIN.HEAD2")}</h2>
-                        <p>{_("VITAMIN.DESC2")}</p>
+                    <div className="col-lg-4">
+                        <div className="block bg-green">
+                            <h3>{_("VITAMIN.LIST1.LI2_HEAD")}</h3>
+                            <p>{_("VITAMIN.LIST1.LI2_TEXT")}</p>
+                        </div>
                     </div>
-                </div>
-            </section>
-
-            <section>
-                <div className="row gap-5 vitamin-block bg-green">
-                    <div className="col-md col-12">
-                        <h3>{_("VITAMIN.HEAD3")}</h3>
-                        <p className="mt-3">{_("VITAMIN.DESC3")}</p>
-                    </div>
-                    <div className="col-md col-12 order-md-last order-first">
-                        <img src="/img/page/vitamin/vitamin-minerals-img.svg" className="p-0 float-end vitamin-img-50" alt="Apple Health" height="auto" width="100%" />
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <div className="row gap-5">
-                    <div className="col-md col-12 d-flex flex-column justify-content-center mb-md-0 mb-5 vitamin-block bg-transparent">
-                        <h2>{_("VITAMIN.HEAD4")}</h2>
-                        <p className="mb-md-0 mb-5">{_("VITAMIN.DESC4")}</p>
-                    </div>
-                    <div className="col-md col-12 vitamin-block bg-blue">
-                        <img src="/img/page/vitamin/without-login-icon.svg" className="m-0 p-0 pe-4 pe-sm-0" alt="Apple Health" height={100} width={100} />
-                        <h3>{_("VITAMIN.HEAD5")}</h3>
-                        <p className="mt-3">{_("VITAMIN.DESC5")}</p>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <div className="row gap-5 vitamin-block bg-green">
-                    <div className="col-md col-12 col-lg-4">
-                        <img src="/img/page/vitamin/vitamin-bottle.svg" className="p-0 px-5 px-sm-0 ms-0 vitamin-img-50" alt="Apple Health" height="auto" width="auto" />
-                    </div>
-                    <div className="col-md col-12">
-                        <h3>{_("VITAMIN.HEAD6")}</h3>
-                        <p className="mt-auto">{_("VITAMIN.DESC6", { count_tries: 20 })}</p>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <div className="row vitamin-block bg-blue">
-                    <div className="col">
-                        <h3>{_("VITAMIN.HEAD7")}</h3>
-                        <p className="mt-3">{_("VITAMIN.DESC7")}</p>
-                        <img src="/img/page/vitamin/vitamin-mockups.png" alt={_("VITAMIN.HEAD7")} className="p-0 vitamin-img-100" />
+                    <div className="col-lg-4">
+                        <div className="block bg-blue">
+                            <h3>{_("VITAMIN.LIST1.LI3_HEAD")}</h3>
+                            <p>{_("VITAMIN.LIST1.LI3_TEXT")}</p>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <section>
                 <div className="row">
-                    <div className="col vitamin-text-block">
-                        <p>{_("VITAMIN.DESC8_1")}</p>
-                        <p>{_("VITAMIN.DESC8_2")}</p>
-                        <p>{_("VITAMIN.DESC8_3")}</p>
-                        <p>{_("VITAMIN.DESC8_4")}</p>
+                    <div className="col-lg-6">
+                        <h2>{_("VITAMIN.HEAD2")}</h2>
+                        <p className="mb-4">{_("VITAMIN.DESC2_1")}</p>
+                        <p className="mb-4">{_("VITAMIN.DESC2_2")}</p>
+                        <p className="mb-0">{_("VITAMIN.DESC2_3")}</p>
+                    </div>
+                    <div className="col-lg-6">
+                        <ImageI18N src="/img/page/vitamin/vitamin-screen-desc-en.webp" w={390} h={515} cls="ms-base-image mt-mob-xs" alt={_("VITAMIN.ALT1")} />
                     </div>
                 </div>
             </section>
 
-            <div className="vitamins-list">
+            <section>
+                <div className="row">
+                    <div className="col-lg-6">
+                        <ImageI18N src="/img/page/vitamin/vitamin-screen-edit-en.webp" w={487} h={515} cls="ms-base-image d-none d-lg-block" alt={_("VITAMIN.ALT4")} />
+                    </div>
+                    <div className="col-lg-6">
+                        <h2>{_("VITAMIN.HEAD3")}</h2>
+                        <p>{_("VITAMIN.DESC3_1")}</p>
+                        <ImageI18N src="/img/page/vitamin/vitamin-screen-edit-en.webp" w={487} h={515} cls="ms-base-image d-block d-lg-none mb-mob-xs" alt={_("VITAMIN.ALT4")} />
+                        <h3>{_("VITAMIN.DESC3_2")}</h3>
+                        <ul className="checkmark-list">
+                            <li>{_("VITAMIN.LIST3.LI1_TEXT")}</li>
+                            <li>{_("VITAMIN.LIST3.LI2_TEXT")}</li>
+                            <li>{_("VITAMIN.LIST3.LI3_TEXT")}</li>
+                            <li>{_("VITAMIN.LIST3.LI4_TEXT")}</li>
+                            <li>{_("VITAMIN.LIST3.LI5_TEXT")}</li>
+                            <li>{_("VITAMIN.LIST3.LI6_TEXT")}</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section className="bg-gray">
+                <div className="row">
+                    <div className="col-12 mb-2">
+                        <h2>{_("VITAMIN.HEAD4")}</h2>
+                    </div>
+                    <div className="col-12">
+                        <ul className="list-with-icons">
+                            <li>
+                                <div className="icon"><img src="/img/atom/icons/icon-defense.svg" alt={_("VITAMIN.ALT5_1")} /></div>
+                                <div>
+                                    <h3>{_("VITAMIN.LIST4.LI1_HEAD")}</h3>
+                                    <p>{_("VITAMIN.LIST4.LI1_TEXT")}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="icon"><img src="/img/atom/icons/icon-sync.svg" alt={_("VITAMIN.ALT5_2")} /></div>
+                                <div>
+                                    <h3>{_("VITAMIN.LIST4.LI2_HEAD")}</h3>
+                                    <p>{_("VITAMIN.LIST4.LI2_TEXT")}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="icon"><img src="/img/atom/icons/icon-no-auth.svg" alt={_("VITAMIN.ALT5_3")} /></div>
+                                <div>
+                                    <h3>{_("VITAMIN.LIST4.LI3_HEAD")}</h3>
+                                    <p>{_("VITAMIN.LIST4.LI3_TEXT")}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="icon"><img src="/img/atom/icons/icon-no-ads.svg" alt={_("VITAMIN.ALT5_4")} /></div>
+                                <div>
+                                    <h3>{_("VITAMIN.LIST4.LI4_HEAD")}</h3>
+                                    <p>{_("VITAMIN.LIST4.LI4_TEXT")}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="icon"><img src="/img/atom/icons/icon-bell.svg" alt={_("VITAMIN.ALT5_4")} /></div>
+                                <div>
+                                    <h3>{_("VITAMIN.LIST4.LI5_HEAD")}</h3>
+                                    <p>{_("VITAMIN.LIST4.LI5_TEXT")}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="icon no-filter"><img src="/img/atom/icons/icon-apple-health.svg" alt={_("VITAMIN.ALT5_4")} /></div>
+                                <div>
+                                    <h3>{_("VITAMIN.LIST4.LI6_HEAD")}</h3>
+                                    <p>{_("VITAMIN.LIST4.LI6_TEXT")}</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section className="bg-gray bg-merge-top">
+                <div className="row mb-0">
+                    <div className="col-12">
+                        <div className="block bg-green">
+                            <h2 className="mb-6">{_("VITAMIN.HEAD5")}</h2>
+                            <ul className="counters-list">
+                                <li>
+                                    <h1>{_("VITAMIN.LIST5.LI1_HEAD")}</h1>
+                                    <p>{_("VITAMIN.LIST5.LI1_TEXT")}</p>
+                                </li>
+                                <li>
+                                    <h1>{_("VITAMIN.LIST5.LI2_HEAD")}</h1>
+                                    <p>{_("VITAMIN.LIST5.LI2_TEXT")}</p>
+                                </li>
+                                <li>
+                                    <h1>{_("VITAMIN.LIST5.LI3_HEAD")}</h1>
+                                    <p>{_("VITAMIN.LIST5.LI3_TEXT")}</p>
+                                </li>
+                                <li>
+                                    <h1>{_("VITAMIN.LIST5.LI4_HEAD")}</h1>
+                                    <p>{_("VITAMIN.LIST5.LI4_TEXT")}</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="vitamins-list">
+                <div className="row">
                 {
                     Object
                         .entries(vitamins)
-                        .map(([vitName, vitList]) => (
-                            <section key={"vitamins-list" + vitName}>
-                                <div className="row">
-                                    <div className="col-12 py-3 px-5 vit-head">{_("VITAMIN." + vitName + ".NAME")}</div>
-                                </div>
-
+                            .map(([vitGroupName, vitList]) => (
+                            <div key={"vitamins-group-" + vitGroupName} className="col-12 vit-group">
+                                <div className="py-3 px-5 vit-group-name">{_("VITAMIN." + vitGroupName + ".NAME")}</div>
                                 {
                                     vitList.map(vit => <VitaminItem key={vit} id={vit} />)
                                 }
-                            </section>
+                            </div>
                         ))
                 }
-
-            </div>
+                </div>
+            </section>
 
             <section>
-                <div className="row vitamin-text-block">
-                    <div className="col">
-                        <p className="ms-mb-8">{_("VITAMIN.FOOT")}</p>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col text-center">
-                        <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
-                            target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple"
-                            style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                        </a>
+                <div className="row text-lg-start text-center page-bottom">
+                    <div className="col-12 block bg-violet">
+                        <div>
+                            <h2>{_("VITAMIN.HEAD6")}</h2>
+                            <p className="flex-grow-1">{_("VITAMIN.DESC6")}</p>
+                            <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
+                                target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-5 mx-lg-0 mx-auto"
+                                style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
+                            </a>
+                        </div>
+                        <ImageI18N src="/img/page/vitamin/vitamin-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("VITAMIN.ALT4")} />
                     </div>
                 </div>
             </section>
