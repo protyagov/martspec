@@ -4,7 +4,7 @@ import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import ContentsList from "src/atomic/molecule/contents-list";
 import { useScrollSpy } from "src/hooks";
-import PageHeader from "../molecule/page-header";
+import PageHeader from "../../molecule/page-header";
 
 export default function Productivity() {
     const LISTS_COUNT = {
@@ -33,7 +33,7 @@ export default function Productivity() {
                 imgW={410}
             />
 
-            <section>    
+            <section>
                 <div className="row">
                     <div className="col-lg-8 order-lg-1 order-2">
                         <div id="section-1" className="content-wrapper">
@@ -73,7 +73,7 @@ export default function Productivity() {
                             <p>{_("PRODUCTIVITY.DESK4_3")}</p>
                             <img src="/img/page/productivity/productivity-img-2.webp" className="img-fluid" alt="" />
                         </div>
-                
+
                         <div id="section-5" className="content-wrapper">
                             <h2>{_("PRODUCTIVITY.HEAD5")}</h2>
                             <p>{_("PRODUCTIVITY.DESK5_1")}</p>
@@ -125,7 +125,7 @@ export default function Productivity() {
 
                 </div>
             </section>
-            
+
         </div>
 
         <Footer />
