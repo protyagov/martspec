@@ -1,6 +1,6 @@
 import * as React from "react";
 import MainPage from "src/atomic/page/main";
-import Error_404 from 'src/error/404';
+import Error_404 from 'src/atomic/page/404';
 import WaistLine from "./atomic/page/waist";
 import Electrolyte from "./atomic/page/electrolyte";
 import Bodymass from "./atomic/page/mass";
@@ -33,8 +33,8 @@ export function App() {
 
     if (redirect.length > 1)
         redirect = redirect.replace(/\/$/, "");
-    
-    const url = Locale.setLanguageFromUrl(redirect); 
+
+    const url = Locale.setLanguageFromUrl(redirect);
 
     switch (url) {
         case "/":
@@ -79,9 +79,9 @@ export function App() {
             return <ComingSoon />
         default:
             const [, pagePath, currentPath] = url.split("/");
-            
+
             if (pagePath == "vitamin") return <VitaminElement id={currentPath} />;
-        
+
             return <Error_404 />;
     }
 }
