@@ -151,11 +151,23 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/emotion/harmony</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
       <loc>https://martspec.com/emotion/independence</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/emotion/openness</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -169,7 +181,7 @@
    <url>
       <loc>https://martspec.com/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
 <!-- English  -->
    <url>
@@ -328,6 +340,18 @@
       <loc>https://martspec.com/en/emotion/independence</loc>
       <changefreq>monthly</changefreq>
    </url>
+    <url>
+      <loc>https://martspec.com/en/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/en/mission</loc>
       <changefreq>monthly</changefreq>
@@ -339,7 +363,7 @@
    <url>
       <loc>https://martspec.com/en/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
 <!-- Arabic  -->
    <url>
@@ -498,6 +522,18 @@
       <loc>https://martspec.com/ar/emotion/independence</loc>
       <changefreq>monthly</changefreq>
    </url>
+    <url>
+      <loc>https://martspec.com/ar/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ar/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ar/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/ar/mission</loc>
       <changefreq>monthly</changefreq>
@@ -509,7 +545,7 @@
    <url>
       <loc>https://martspec.com/ar/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
 <!-- China ZH  -->
    <url>
@@ -669,6 +705,18 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/zh/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/zh/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -679,7 +727,7 @@
    <url>
       <loc>https://martspec.com/zh/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
 <!-- French FR  -->
    <url>
@@ -839,6 +887,18 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/fr/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/fr/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/fr/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/fr/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -849,7 +909,7 @@
    <url>
       <loc>https://martspec.com/fr/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
 <!-- German DE  -->
    <url>
@@ -1009,6 +1069,18 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/de/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/de/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1019,7 +1091,7 @@
    <url>
       <loc>https://martspec.com/de/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
 <!-- Hindi HI  -->
    <url>
@@ -1179,6 +1251,18 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/hi/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/hi/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/hi/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/hi/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1189,7 +1273,7 @@
    <url>
       <loc>https://martspec.com/hi/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
 <!-- Japanise JA  -->
    <url>
@@ -1349,6 +1433,18 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ja/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/ja/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1359,7 +1455,7 @@
    <url>
       <loc>https://martspec.com/ja/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
 <!-- Portuguese PT  -->
    <url>
@@ -1519,6 +1615,18 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/pt/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/pt/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/pt/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/pt/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1529,7 +1637,7 @@
    <url>
       <loc>https://martspec.com/pt/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
 <!-- Russian RU  -->
    <url>
@@ -1689,6 +1797,18 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ru/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/ru/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1699,7 +1819,7 @@
    <url>
       <loc>https://martspec.com/ru/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
 <!-- Spanish ES  -->
    <url>
@@ -1859,6 +1979,18 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/es/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/es/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/es/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/es/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1869,7 +2001,7 @@
    <url>
       <loc>https://martspec.com/es/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
 <!-- Ukrainian UK  -->
    <url>
@@ -2029,6 +2161,18 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/uk/emotion/energy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/emotion/productivity</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/uk/mission</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -2039,6 +2183,6 @@
    <url>
       <loc>https://martspec.com/uk/privacy-policy</loc>
       <changefreq>monthly</changefreq>
-   </url> 
+   </url>
 
-</urlset> 
+</urlset>

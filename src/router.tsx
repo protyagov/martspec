@@ -1,6 +1,6 @@
 import * as React from "react";
 import MainPage from "src/atomic/page/main";
-import Error_404 from 'src/error/404';
+import Error_404 from 'src/atomic/page/404';
 import WaistLine from "./atomic/page/waist";
 import Electrolyte from "./atomic/page/electrolyte";
 import Bodymass from "./atomic/page/mass";
@@ -11,15 +11,17 @@ import { Locale } from "src/i18n/locale";
 import BodyZinc from "./atomic/page/bodyzinc";
 import BodySize from "./atomic/page/bodysize";
 import Emotion from "./atomic/page/emotion";
-import Productivity from "./atomic/page/productivity";
-import Biorhythms from "./atomic/page/biorhythms";
+import Productivity from "./atomic/page/emotion/productivity";
+import Biorhythms from "./atomic/page/emotion/biorhythms";
 import About from "src/atomic/page/about";
 import Mission from "src/atomic/page/mission";
 import Team from "src/atomic/page/team";
 import ComingSoon from "src/atomic/page/coming-soon";
-import Anxiety from "./atomic/page/anxiety";
-import Harmony from "./atomic/page/harmony";
-import Independence from "./atomic/page/independence";
+import Anxiety from "./atomic/page/emotion/anxiety";
+import Harmony from "./atomic/page/emotion/harmony";
+import Independence from "./atomic/page/emotion/independence";
+import Energy from "./atomic/page/emotion/energy";
+import Openness from "./atomic/page/emotion/openness";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -31,8 +33,8 @@ export function App() {
 
     if (redirect.length > 1)
         redirect = redirect.replace(/\/$/, "");
-    
-    const url = Locale.setLanguageFromUrl(redirect); 
+
+    const url = Locale.setLanguageFromUrl(redirect);
 
     switch (url) {
         case "/":
@@ -59,6 +61,10 @@ export function App() {
             return <Harmony />
         case "/emotion/independence":
             return <Independence />
+        case "/emotion/energy":
+            return <Energy />
+        case "/emotion/openness":
+            return <Openness />
         case "/bodysize":
             return <BodySize />;
         case "/privacy-policy":
@@ -73,9 +79,9 @@ export function App() {
             return <ComingSoon />
         default:
             const [, pagePath, currentPath] = url.split("/");
-            
+
             if (pagePath == "vitamin") return <VitaminElement id={currentPath} />;
-        
+
             return <Error_404 />;
     }
 }

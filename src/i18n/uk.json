@@ -4,8 +4,7 @@
         "SRC1": "Прочитайте вихідну статтю",
         "FACT": "Див. Факти",
         "SRC2": "Отримайте факти з вихідної статті",
-        "WIKI": "Читайте повну статтю на WiKi",
-        "MORE": "Дізнатися більше"
+        "WIKI": "Читайте повну статтю на WiKi"
     },
     "MAIN": {
         "HEAD": "Здоров'я і фітнес",
@@ -33,7 +32,8 @@
         "HEAD4": "Залізо",
         "DESC4": "Важлива частина гемоглобіну та міоглобіну, білків, які переносять кисень до тканин і м’язів тіла. Еритроцити містять більше половини заліза в організмі людини.",
         "HEAD5": "Ризики",
-        "DESC5": "Дисбаланс електролітів може розвинутись як від надмірного, так і від недостатнього їх споживання, а також якщо їх втрати надто великі або недостатні. Надлишок зазвичай свідчить про серйозні захворювання. Наприклад, підвищений рівень калію зазвичай говорить про ниркову недостатність. Нестача солей часто виявляється у занепаді сил, сонливості, запаморочення та аритмії. За наявності цих симптомів варто звернутися до фахівця. "
+        "DESC5": "Дисбаланс електролітів може розвинутись як від надмірного, так і від недостатнього їх споживання, а також якщо їх втрати надто великі або недостатні. Надлишок зазвичай свідчить про серйозні захворювання. Наприклад, підвищений рівень калію зазвичай говорить про ниркову недостатність. Нестача солей часто виявляється у занепаді сил, сонливості, запаморочення та аритмії. За наявності цих симптомів варто звернутися до фахівця. ",
+        "BTN_OPEN": "Ознайомтесь з фактами"
     },
     "MASS": {
         "HEAD": "Вага",
@@ -56,7 +56,8 @@
         "DESC4_4": "Резервне копіювання iCloud",
         "DESC4_5": "Працює без iPhone",
         "DESC4_6": "Мінімалістичний стиль",
-        "DESC4_7": "Безкоштовно, без реклами та покупок у програмі"
+        "DESC4_7": "Безкоштовно, без реклами та покупок у програмі",
+        "BTN_OPEN": "Скажіть жиру ні"
     },
     "VITAMIN": {
         "HEAD": "Вітамін",
@@ -65,28 +66,60 @@
         "TEXT": "Відстеження основних вітамінів має багато переваг: від допомоги впоратися з харчовою непереносимістю до збільшення енергії, уникнення змін настрою та підживлення ритму вашого дня.",
         "IMG": "Відстежуйте найважливіші вітаміни прямо на зап'ясті",
         "DWN": "Завантажте безкоштовну програму Вітамін з Apple App Store",
-        "ABOUT_1": "Ви впевнені, що отримуєте всі необхідні вітаміни та мінерали з їжею?",
-        "ABOUT_2": "Вітамін допоможе відстежити їх кількість. Підвищуйте якість свого харчування та укріплюйте здоров'я з нашим додатком.",
-        "FOOT": "Трекер прийому вітамінів мотивує харчуватися правильно і бути більш розбірливим у виборі продуктів, що, в свою чергу, допомагає нашому тілу й розуму.",
-        "HEAD1": "Синхронізація з Apple Здоров'я",
-        "DESC1": "Дані синхронізуються між пристроями через iCloud і додаток Apple Здоров'я.",
-        "HEAD2": "Простота і легкість",
-        "DESC2": "Відгуки реальних користувачів допомогли зробити цей додаток зручним та зрозумілим.",
-        "HEAD3": "Підтримує всі вітаміни та мінерали, наявні в Apple Здоров'я",
-        "DESC3": "Відстежує 13 основних вітамінів і 14 життєво важливих мінералів.",
-        "HEAD4": "Безпека",
-        "DESC4": "Повна конфіденційність. Ми не зберігаємо та не передаємо ваші дані третім особам. Дані зберігаються виключно у вашому сервісі Apple.",
-        "HEAD5": "Без авторизації",
-        "DESC5": "Вам не треба створювати обліковий запис, щоб користуватись цим додатком.",
-        "HEAD6": "Можливість додавати свої елементи",
-        "DESC6": "Крім попередньо встановлених, ви можете додати до %{count_tries} окремих таблеток і харчових добавок. Розділ БАДи автоматично підраховує, скільки вітамінів і мінералів ви отримуєте, і зберігає їх для вас. Розділ «Таблетки» дозволяє вам створювати будь-які таблетки, що не підтримуються Apple Здоров'я.",
-        "HEAD7": "Дані синхронізуються між всіма вашими пристроями",
-        "DESC7": "Додаток працює на Apple Watch, iPhone, iPad та Mac M.",
-        "HEAD8": "",
-        "DESC8_1": "«ВІТАМІН» походить від латинського «VITA» і означає «ЖИТТЯ», і дійсно, наше життя неможливе без вітамінів.",
-        "DESC8_2": "Вітаміни та мінерали  — незамінні поживні мікроелементи. Вони не дають енергію, проте життєво необхідні для нормальної роботи організму та підтримки здоров'я.",
-        "DESC8_3": "Щоб отримувати різноманітні вітаміни, необхідно харчуватися продуктами усіх груп: цільнозерновими, фруктами та овочами, молочними, продуктами групи «риба-яйця-птиця-м'ясо», жирами (горіхи та насіння).",
-        "DESC8_4": "За допомогою нашого додатку ви зможете відслідковувати такі вітамини та мінерали:",
+        "ABOUT_1": "Контролюйте вживання важливих вітамінів і мінералів щодня.",
+        "ABOUT_2": "Енергія здорового харчування та щасливого життя.",
+        "LIST1": {
+            "LI1_HEAD": "Легкість щоденного використання",
+            "LI1_TEXT": "Наші користувачі допомогли нам зробити додаток простим, зручним та зрозумілим.",
+            "LI2_HEAD": "Додайте до 20 своїх елементів",
+            "LI2_TEXT": "Поповнюйте та контролюйте список встановлених елементів та мінералів.",
+            "LI3_HEAD": "Всі вітаміни та мінерали з Apple Здоров'я",
+            "LI3_TEXT": "Ми підтримуємо весь комплекс необхідних вітамінів та мінералів від компанії Apple."
+        },
+        "HEAD2": "Чому Вітамін?",
+        "DESC2_1": "«ВІТАМІН» від латинського «VITA», означає «ЖИТТЯ». Наше життя неможливе без вітамінів.",
+        "DESC2_2": "Застосунок відстежує прийняті вітаміни, мінерали та їх кількість. Є можливість додати свої елементи.",
+        "DESC2_3": "Створіть розклад, і в призначений час прийде пуш-повідомлення про прийом вітамінів.",
+        "HEAD3": "Принцип роботи",
+        "DESC3_1": "Трекер прийому вітамінів сприяє правильному харчуванню та формуванню більш усвідомленого підходу до вибору продуктів, що, у свою чергу, позитивно впливає на стан тіла та розуму.",
+        "DESC3_2": "Розповість про кожний вітамін:",
+        "LIST3": {
+            "LI1_TEXT": "Продукти, що містять цей елемент",
+            "LI2_TEXT": "Ознаки дефіциту елементу в організмі",
+            "LI3_TEXT": "Денна та максимальна норма споживання",
+            "LI4_TEXT": "Інформацію про передозування",
+            "LI5_TEXT": "Функції вибраного елементу",
+            "LI6_TEXT": "Цікавий факт про елемент"
+        },
+        "HEAD4": "Переваги Вітаміну",
+        "LIST4": {
+            "LI1_HEAD": "Захист даних",
+            "LI1_TEXT": "Ми НЕ зберігаємо ваші дані на наших серверах.",
+            "LI2_HEAD": "Синхронізація",
+            "LI2_TEXT": "Дані автоматично переносяться на всі пристрої.",
+            "LI3_HEAD": "Без авторизації",
+            "LI3_TEXT": "Обліковий запис для використання програми не потрібний.",
+            "LI4_HEAD": "Без реклами",
+            "LI4_TEXT": "У нас НЕМАЄ дратівливої ​​реклами.",
+            "LI5_HEAD": "Повідомлення про прийняття вітамінів",
+            "LI5_TEXT": "Нагадає про прийом по годинах, днях та тижнях.",
+            "LI6_HEAD": "Синхронізація з Apple Здоров'я",
+            "LI6_TEXT": "Між пристроями через iCloud та програму Apple Health."
+        },
+        "HEAD5": "Застосунок відстежує необхідні вітаміни та мінерали:",
+        "LIST5": {
+            "LI1_HEAD": "4",
+            "LI1_TEXT": "Жиророзчинні вітаміни",
+            "LI2_HEAD": "9",
+            "LI2_TEXT": "Водорозчинних вітамінів",
+            "LI3_HEAD": "14",
+            "LI3_TEXT": "Мінералів",
+            "LI4_HEAD": "20",
+            "LI4_TEXT": "Додавати свої елементи"
+        },
+        "HEAD6": "Вітамін - застосунок для контролю балансу необхідних вітамінів та мінералів.",
+        "DESC6": "Безкоштовно встановіть програму для IOS, і насолоджуйтесь здоров'ям та бадьорістю.",
+        "BTN_OPEN": "Наповнюйтесь вітамінами",
         "VITAMIN_FAT": {
             "NAME": "Жиророзчинні вітаміни",
             "SHORT": "Жиророзчинний",
@@ -381,7 +414,7 @@
             "FACT_2": "Може допомогти відновити відчуття смаку",
             "FACT_3": "Сприяти здоров’ю волосся, шкіри та нігтів",
             "FACT_4": "Розвивається плід потребує біотину для здорової вагітності",
-            "FACT_5": "Дослідження за участю 23 пацієнтів з прогресуючим розсіяним склерозом показало, що високі дози біотину (100-600 мкг/день) пов’язані зі стійким клінічним поліпшенням у 5 із 5 пацієнтів із прогресуючою втратою зору; та 16 із 18 пацієнтів із частковим паралічем кінцівок",
+            "FACT_5": "Дослідження за участю 23 пацієнтів з прогресуючим розсіяним склерозом показало, що високі дози біотину (100-600 мг/день) пов’язані зі стійким клінічним поліпшенням у 5 із 5 пацієнтів із прогресуючою втратою зору; та 16 із 18 пацієнтів із частковим паралічем кінцівок",
             "FACT_6": "Експериментально доведено, що сирий яєчний білок є антагоністом біотину і викликає симптоми гіповітамінозу."
         },
         "VITAMIN_B9": {
@@ -461,7 +494,7 @@
             "FACT_2": "Деякі клінічні випробування виявили, що добавки кальцію можуть покращити здоров’я кісток у літніх людей",
             "FACT_3": "Добавки кальцію окремо або в комбінації з вітаміном D збільшують мінеральну щільність кісток у літніх людей",
             "FACT_4": "Збільшення споживання кальцію знижує ризик переломів і падінь у літніх людей",
-            "FACT_5": "4-річне дослідження за участю 1179 жінок віком від 55 років: щодня приймали 1400–1500 мг кальцію, 1400–1500 мг кальцію плюс 27,5 млг вітаміну D3 або плацебо. Захворюваність на рак була на 60% нижчою у жінок, які приймали комбінацію, і на 47% нижчою у тих, хто приймав добавки, що містять лише кальцій, ніж у групі плацебо",
+            "FACT_5": "4-річне дослідження за участю 1179 жінок віком від 55 років: щодня приймали 1400–1500 мг кальцію, 1400–1500 мг кальцію плюс 27,5 мкг вітаміну D3 або плацебо. Захворюваність на рак була на 60% нижчою у жінок, які приймали комбінацію, і на 47% нижчою у тих, хто приймав добавки, що містять лише кальцій, ніж у групі плацебо",
             "FACT_6": "8-річне дослідження за участю 77 712 дорослих: середнє споживання кальцію в 1999 мг/день було пов’язане з 26% нижчим ризиком раку товстої кишки порівняно з 587 мг/день. Асоціації з ризиком раку прямої кишки не виявлено"
         },
         "CHLORIDE": {
@@ -806,7 +839,8 @@
         "DESC4_1": "Чоловіки: 40 дюймів або більше (102 см)",
         "DESC4_2": "Жінки: 35 дюймів або більше (88 см)",
         "DESC4_3": "Кожні 2 дюйми (5 см) розміру талії підвищують ризик на 17% у чоловіків і 13% у жінок, незалежно від ІМТ.",
-        "DESC4_4": "Джерело: "
+        "DESC4_4": "Джерело: ",
+        "BTN_OPEN": "Підтягнутий живіт"
     },
     "ZINC": {
         "HEAD": "Цинк",
@@ -824,7 +858,8 @@
         "LINK2": "Дослідження Американської асоціації серця",
         "HEAD3": "Зменшує запалення",
         "DESC3": "Зменшує окислювальний стрес і знижує рівень певних запальних білків у вашому тілі. Окислювальний стрес призводить до хронічного запалення, що є фактором, що сприяє широкому спектру хронічних захворювань, таких як хвороби серця, рак та психічний занепад.",
-        "HEAD4": "Підвищений серцево-судинний ризик"
+        "HEAD4": "Підвищений серцево-судинний ризик",
+        "BTN_OPEN": "Елемент AmaZinc"
     },
     "SIZE": {
         "HEAD": "Фігура",
@@ -843,7 +878,8 @@
         "HEAD4": "Стегна",
         "DESC4": "Докази показують, що жир навколо стегон і спини важче змістити, ніж жир навколо талії. Співвідношення об’єму талії до стегон зазвичай використовується як показник або міра здоров’я та ризику розвитку серйозних захворювань.",
         "HEAD5": "Форма тіла",
-        "DESC5": "Ваша форма тіла яблуко \uD83C\uDF4E чи груша \uD83C\uDF50? А може, пісочний годинник? Виявлення вашої істинної форми тіла – це більше, ніж один із тих безглуздих онлайн-тестів. Розуміння форми вашого тіла може допомогти вам знайти найефективніше тренування. Дослідження показують, що це може допомогти покращити ваше здоров'я."
+        "DESC5": "Ваша форма тіла яблуко \uD83C\uDF4E чи груша \uD83C\uDF50? А може, пісочний годинник? Виявлення вашої істинної форми тіла – це більше, ніж один із тих безглуздих онлайн-тестів. Розуміння форми вашого тіла може допомогти вам знайти найефективніше тренування. Дослідження показують, що це може допомогти покращити ваше здоров'я.",
+        "BTN_OPEN": "зробіть заміри"
     },
     "EMOTION": {
         "HEAD": "Емоція",
@@ -894,6 +930,7 @@
         "HEAD4": "Чому це працює",
         "DESK4_1": "Застусунок використовує колір як візуальне подання - наслідуючи колірну схему. Користувачу слід ставитися до застосунку як до інструменту самосвідомості. Колірний тест є оптимальним інструментом для аналізу конфліктів, питань особистого життя, випадкових змін настрою.",
         "DESK4_2": "Емоція підходить для:",
+        "BTN_OPEN": "Пізнай себе",
         "ALT4": "Зображення для застосунку, який корисний людям, що прагнуть пізнати себе і контролювати свій внутрішній стан за допомогою психологічного аналізу кольорів",
         "LIST4": {
             "LI1_TEXT": "Людей, які прагнуть саморозвитку",
@@ -1042,7 +1079,7 @@
     },
     "ANXIETY": {
         "HEAD": "Тривожність",
-        "IMG": "Track your Anxiety with our apps",
+        "IMG": "Відстежуйте свою тривогу за допомогою наших програм",
         "CONTENTS": "Зміст",
         "DWN": "Отримайте безкоштовний застосунок Емоція для Apple Watch, iPhone або iPad напряму з Apple App Store.",
         "HEAD1": "Що таке тривога?",
@@ -1059,7 +1096,7 @@
             "LI3_HEAD": "Фобії.",
             "LI3_TEXT": "Люди з фобіями відчувають сильний страх перед чимось, що становить невелику або взагалі не становить реальної небезпеки. Їх страх може бути пов'язаний з павуками, польотами, відвідуванням людних місць чи соціальними ситуаціями."
         },
-        "ALT2": "An image that shows the Anxiety, which are even easier to track with Martspec applications",
+        "ALT2": "Зображення, яке показує тривогу, яку ще легше відстежувати за допомогою програм Martspec",
         "HEAD3": "Симптоми",
         "DESK3": "Тривожні розлади мають безліч симптомів. Кожен розлад має різні симптоми. Симптоми, загальні для тривожних розладів, в цілому включають:",
         "LIST3": {
@@ -1089,7 +1126,7 @@
             "LI6_HEAD": "Дієта:",
             "LI6_TEXT": "Останнім часом все більше людей звертають увагу на зв'язок між дієтою та почуттям тривожності. Фактори, такі як ГМО, глютен і пестициди, які присутні в процесованих продуктах, можуть негативно впливати на стан нашого кишечника і мікробних колоній. Пробіотична добавка з високим вмістом біфідобактерій може бути корисною для підтримки здорового складу кишкової флори."
         },
-        "ALT4": "An image that shows the anxiety, which are even easier to track with martspec applications",
+        "ALT4": "Зображення, яке показує занепокоєння, яке ще легше відстежити за допомогою програм martspec",
         "HEAD5": "Діагностика та лікування",
         "DESK5_1": "У сучасному світі тривожність стала поширеною проблемою, яка може серйозно вплинути на якість життя та психологічний добробут людини. Однак, завдяки розвитку технологій, ми можемо звернутися до мобільних додатків, таких як Емоція, та інших інноваційних рішень для діагностики і навіть допомоги у лікуванні тривожності.",
         "DESK5_2": "Мобільний додаток Емоція пропонує зручний та доступний спосіб оцінити рівень тривожності та отримати рекомендації щодо її керування. Додаток надає можливість відстежувати свої емоційні стани та аналізувати фактори, що викликають тривогу.",
@@ -1308,7 +1345,139 @@
             "LI9_TEXT": "Мистецька діяльність."
         },
         "DESK6_2": "Важливо зауважити, що, хоча незалежність може сприяти успіху в цих галузях, співпраця та навички ефективного спілкування також цінні в більшості професій. Знаходження балансу між незалежністю і командною роботою є важливим для повноцінного кар'єрного шляху. Крім того, люди унікальні, їх кар'єрний шлях може впливати на поєднання рис характеру та інтересів, крім незалежності."
-    },    
+    },
+    "ENERGY": {
+        "HEAD": "Energy",
+        "IMG": "Energy",
+        "DWN": "Get the free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store.",
+        "CONTENTS": "Table of Contents",
+        "HEAD1": "What is energy?",
+        "DESK1_1": "People with high Energy scores are active, lively and enthusiastic. They are sociable, competitive, cheerful and open. They are more comfortable communicating with strangers, visiting new places and starting new things. People with low Energy scores are quieter, reserved and withdrawn. They tend to conserve energy, accumulate strength and have an attitude towards minimizing effort, and are not ready for active activity.",
+        "DESK1_2": "Energy can refer to a person's level of enthusiasm and vitality. Although not traditionally considered a distinct personality trait, a person's energy level can greatly influence their behavior, interactions, and overall approach to life.",
+        "DESK1_3": "It is important to note that higher energy levels indicate greater activation of the sympathetic nervous system and metabolic processes. However, if this level is too high for a long time, it can lead to detrimental stress reactions.",
+        "HEAD2": "Characteristics of an energetic person",
+        "DESK2": "An energetic person exhibits unique characteristics that influence his lifestyle and interaction with the world around him. Such a person has unique characteristics such as vitality, sociability and adaptability. It is these traits that help him experience a fulfilling life, achieve success in various fields of activity and build quality relationships with people around you.",
+        "LIST2": {
+            "LI1_HEAD": "Life Force",
+            "LI1_TEXT": "- allows a person to be distinguished from other people by his high energy and activity. It manifests itself in the desire to achieve goals and complete assigned tasks. An energetic person is full of enthusiasm, passion and determination to overcome challenges along the way. Thanks to this characteristic, he is able turn every challenge into a new opportunity for growth and development. Typically, people with high vitality are quite easy to identify in the workplace by their physical energy, alertness and excitement. When it comes to work, they enjoy change and variety, and will seek out situations who offer them. People with low scores are calmer, more deliberate, and more deliberate about their actions. For some people, their style may indicate a lack of motivation or enthusiasm. But this is not necessarily the case. They simply do not show their excitement in the same way and do not like be the center of attention.",
+            "LI2_HEAD": "Sociability",
+            "LI2_TEXT": "is another wonderful feature of an energetic person. Such people gravitate toward communication, they find joy and inspiration in contact with other people. They easily make new acquaintances, actively participate in group events and are not afraid to speak in front of an audience. This sociability allows them to make strong connections, build a support network, and gain new opportunities. People with high scores are the “social butterflies” of your company, known throughout all departments. They like to be involved in what is happening around them. They quickly connect with people , making them invaluable assistants. Those with low scores are more secretive and reserved. They are slower to join new teams and may feel uncomfortable in social situations. Others may take longer to get to know them and may have Fewer close relationships.",
+            "LI3_HEAD": "Adaptive.",
+            "LI3_TEXT": "People with high scores are curious and inquisitive. They are able to easily adapt to new situations and quickly respond to changes in the environment. This allows them to solve problems effectively and quickly adapt to new demands and challenges. When faced with a problem, they love seek the opinions of others and find it inspiring to share ideas in a group. On the other hand, people with low scores prefer to work on a problem alone and present their findings after careful thought and consideration."
+        },
+        "ALT2": "Sport and Energy",
+        "HEAD3": "Manifestation of Energy",
+        "DESK3": "Energetic people are characterized by high levels of enthusiasm, energy, and vitality. They exude a sense of liveliness and are often considered dynamic and attractive. Here's how energy can manifest itself as a personality trait:",
+        "LIST3": {
+            "LI1_HEAD": "High Energy:",
+            "LI1_TEXT": "Personalities with high energy levels are often characterized by enthusiasm, liveliness and active participation in various activities. They exude positivity and radiate vitality in their interactions. Energetic people tend to be outgoing, enjoy socializing and can be the life of the party. They oftenapproach challenges with determination and readily embrace new experiences. Their energy can be contagious and inspiring to others.",
+            "LI2_HEAD": "Moderate Energy:",
+            "LI2_TEXT": "People with moderate energy levels find a balance between high and low energy states. They can adapt their energy levels to different situations, showing enthusiasm when necessary, as well as appreciating moments of calm. People with average energy can enjoy communication, but also appreciate silence and reflection. They are often able to maintain a steady pace of work without becoming overtired.",
+            "LI3_HEAD": "Low energy:",
+            "LI3_TEXT": "People with lower energy levels tend to be more reserved and withdrawn. They find rejuvenation in solitude and may take longer to recuperate. While they may not display high levels of enthusiasm, they often have a deep ability to focus, introspect, and reflectively. People with low energy levels can be very productive and engage in tasks that align with their interests and values."
+        },
+        "HEAD4": "Advantages and disadvantages",
+        "DESK4_1": "Energetic people bring dynamism and vibrancy to various aspects of life. They thrive on social media, inspire and often excel in leadership positions. However, maintaining a balance between their enthusiasm and self-care is critical to avoid burnout and maintain long-term well-being. Benefits of energetic people:",
+        "LIST4_1": {
+            "LI1_HEAD": "Inspiration:",
+            "LI1_TEXT": "Energetic people inspire and motivate others with their enthusiasm and positivity.",
+            "LI2_HEAD": "Leadership:",
+            "LI2_TEXT": "Their dynamic personality often leads to natural leadership roles and the ability to rally people around common goals.",
+            "LI3_HEAD": "Adaptive:",
+            "LI3_TEXT": "Their quick thinking and willingness to embrace change make them adaptable in different situations.",
+            "LI4_HEAD": "Networking:",
+            "LI4_TEXT": "Energetic people can create extensive networks due to their outgoing nature."
+        },
+        "DESK4_2": "It is important to note that energy levels can vary depending on factors such as physical health, sleep quality, mental well-being and individual characteristics. People may also demonstrate different energy levels in different contexts or at different points in their lives. Disadvantages energetic people:",
+        "LIST4_2": {
+            "LI1_HEAD": "Risk of Burnout:",
+            "LI1_TEXT": "Continuously high energy levels can lead to burnout if not balanced with rest and self-care.",
+            "LI2_HEAD": "Impulsivity:",
+            "LI2_TEXT": "excess energy can lead to impulsive decisions without sufficient thought.",
+            "LI3_HEAD": "Overcommitted:",
+            "LI3_TEXT": "Energetic people may take on too many tasks and responsibilities, which leads to stress.",
+            "LI4_HEAD": "Need confirmation.",
+            "LI4_TEXT": "The need to maintain high energy levels may arise from seeking validation from others."
+        },
+        "ALT4": "Interaction with colleagues",
+        "HEAD5": "Career interests for energetic people",
+        "DESK5_1": "Energetic people thrive in activities that allow them to express their vitality and interact with others. Some suitable activities may include team sports, dancing, outdoor adventures such as hiking or cycling, networking events , public speaking, and high-energy creative pursuits such as acting or speaking. Here are some career interests that might appeal to energetic people:",
+        "LIST5":{
+            "LI1_TEXT": "Sales and Marketing.",
+            "LI2_TEXT": "Event planning.",
+            "LI3_TEXT": "Public Relations.",
+            "LI4_TEXT": "Entertainment Industry:",
+            "LI5_TEXT": "Fitness and personal training.",
+            "LI6_TEXT": "Advertising.",
+            "LI7_TEXT": "Entrepreneurship.",
+            "LI8_TEXT": "Media and broadcasting.",
+            "LI9_TEXT": "Tour guide.",
+            "LI10_TEXT": "Fashion and beauty industry."
+        },
+        "DESK5_2": "Energetic people should consider their strengths, interests and values when choosing career options. It is important to find a career path that matches their natural qualities, but also leaves room for personal growth and well-being."
+    },
+    "OPENNESS": {
+        "HEAD": "Openness",
+        "IMG": "Openness",
+        "DWN": "Get the free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store.",
+        "CONTENTS": "Table of Contents",
+        "HEAD1": "What is openness?",
+        "DESK1_1": "Openness is a general appreciation of art, emotion, adventure, unusual ideas, imagination, curiosity and diversity of experience. An open person is someone who can share directly their thoughts and feelings, hopes and fantasies. Such a person can speak, what he doesn't like and what he likes, admit love and hate, fear, resentment and all other feelings, express his point of view. He does not hide (opens) what is inside him and is open to everything new that comes from the outside.",
+        "DESK1_2": "Open people, compared to closed people, are usually more sociable, effective in communication and influence, and inclined toward support and other positive forms of interaction.",
+        "HEAD2": "What is openness to experience?",
+        "DESK2_1": "Openness to experience is a broad personality dimension that reflects traits associated with curiosity, imagination, artistic interests, preference for novelty, and tolerance for ambiguity. Openness to experience, or simply openness, is one of the five domains of the Big Five personality trait taxonomy.",
+        "DESK2_2": "These people exhibit high levels of curiosity, they enjoy new experiences, constant learning, and they tend to be original due to their «thinking outside the box» mentality. People low in openness to experience prefer routine, familiarity, and the traditional or conventional ways. They are less creative and inventive and prefer concrete to abstract thinking.",
+        "ALT2": "Open Communication",
+        "HEAD3": "Openness Characteristics",
+        "DESK3": "Openness to experience represents both the willingness to try something new and the ability to implement abstract and complex ideas. Analyzing this personality trait, some people may be very creative, curious and willing to try new experiences, while others may be more consistent and cautious. Common traits associated with high openness to the value of experience include:",
+        "LIST3": {
+            "LI1_HEAD": "Imagination",
+            "LI1_TEXT": "- The most common term that comes to your mind is «outside the box thinking». People who are open to finding creative ideas within themselves and bringing them to life are highly creative by nature. Those who weak imagination, prefer facts and logic to fantasy.",
+            "LI2_HEAD": "Artistic interests",
+            "LI2_TEXT": "- if you enjoy art of all kinds, find detail and perfection in everything you do and in everyday life you rely on both imagination and intuition.",
+            "LI3_HEAD": "Emotionality",
+            "LI3_TEXT": "- Finding emotional balance. High emotionality means you are aware of your thoughts and feelings and can find composure in stressful situations.",
+            "LI4_HEAD": "Adventurism",
+            "LI4_TEXT": "- take risks, be bold and accept whatever the outcome of the decision you make. Someone high in this trait has a well-rounded approach to life and experiences excitement when doing something unusual and outside the usual routine.",
+            "LI5_HEAD": "Intelligence",
+            "LI5_TEXT": "- solve problems and look at abstract reality with curiosity and intrigue. Those who score high tend to be more philosophical and intelligent, especially when it comes to unique concepts.",
+            "LI6_HEAD": "Liberalism",
+            "LI6_TEXT": "- associated with liberalism in the choice of rules. High liberalism tendencies mean that they think they are above the rules and get high grades because they are willing to put forward their thoughts and express their opinions."
+        },
+        "HEAD4": "Cause openness",
+        "DESK4_1": "Openness is a quality that can influence not only a person's psychology, but also his genetics and upbringing. There are several reasons why openness is an important aspect of our lives.",
+        "DESK4_2": "In psychology, openness means a willingness to try new things, explore, and share information. People with high levels of openness tend to be more creative, innovative, and able to adapt to change. They also show a greater willingness to self-reflect and develop as individuals.",
+        "DESK4_3": "Genetics also play a role in determining a person's level of openness. Some studies have shown that certain genes may be associated with this trait. This means that some people may be more open-minded by the nature of their DNA.",
+        "DESK4_4": "Parenting can also influence a person's level of openness. Parents who encourage their children's interests in new experiences, learning and development, can contribute to the development of openness in them.",
+        "DESK4_5": "Twin studies of the Big Five personality traits suggest that heritability accounts for 40% to 60% of individual variance in traits. While there is not much research on the specific causes of each individual trait, one study found that 21% of the variance  openness between people is due to heredity. Another study found that approximately 10% of the variance in novelty seeking is due to genetic inheritance.",
+        "DESK4_6": "In general, openness plays an important role in our lives. It helps us adapt to change, be creative and develop as individuals. Psychology, genetics and upbringing all have an impact on a person's level of openness.",
+        "ALT4": "Openness and career",
+        "HEAD5": "Openness and career interests",
+        "DESK5_1": "Openness to experience also predicts patterns of career interests or preferences for specific types of jobs or work environments. For example, in a meta-analysis of samples, researchers at Iowa State University found that openness consistently predicted stronger artistic and research interests and weaker traditional ones interests.",
+        "DESK5_2": "These results indicate that highly open-minded people gravitate toward careers that require working with abstract ideas, creativity, design, open-ended exploration, and unstructured environments. While there is a wide range of careers that fit this description, few examples of highly artistic careers , high research and low traditional interests include:",
+        "LIST5_1": {
+            "LI1_TEXT": "Architect",
+            "LI2_TEXT": "Video Editor",
+            "LI3_TEXT": "Psychiatrist",
+            "LI4_TEXT": "History Professor",
+            "LI5_TEXT": "Composer",
+            "LI6_TEXT": "Photographer"
+        },
+        "DESK5_3": "Conversely, lower openness to experience predicts the opposite pattern of interests: higher conventional and lower artistic and exploratory interests. These careers are more likely to have a highly structured environment and require adherence to clearly defined rules and procedures. Examples of such professions include:",
+        "LIST5_2": {
+            "LI1_TEXT": "Emergency Dispatcher",
+            "LI2_TEXT": "Tax Inspector",
+            "LI3_TEXT": "Sales Manager",
+            "LI4_TEXT": "Real Estate Agent",
+            "LI5_TEXT": "Office Manager",
+            "LI6_TEXT": "Commercial Pilot"
+        },
+        "HEAD6": "How is openness measured?",
+        "DESK6_1": "Openness is usually measured using questionnaires or tests. They contain multiple statements and people select the answer that best reflects how much they agree or disagree with the statement. Statements can take the form of agreeing with specific adjectives or statements about themselves ",
+        "DESK6_2": "However, there is an easier way to find out your Openness - the Emotion application, which works directly with your subconscious. In one minute you will find out not only the level of your openness, but many other emotional characteristics, and you will be able to decide in which direction it is better to act ",
+        "DESK6_3": "Very open people describe themselves with words such as intelligent, deep, complex, creative and introspective. In contrast, less open people are more likely to use words such as «simple», «predictable», «traditional» «traditional» and «old-fashioned». Informants (such as friends and relatives) use similar adjectives to describe more or less open people.",
+        "DESK6_4": "A person who scores high on Openness to Experience is likely to enjoy learning, is interested in the arts, and enjoys meeting new people. A person who scores low on this factor prefers routine and tradition and likes to focus on factual or logical ideas They may enjoy accounting because it is a field that involves numbers and rules that are relatively clear to follow."
+    },
     "FOOTER": {
         "C": "© 2023 Martspec LLC. Всі права захищені.",
         "APPLE_BTN":{
@@ -1343,6 +1512,7 @@
     "MISSION": {
         "HEAD": "Місія",
         "M": "Ми прагнемо до того, щоб кожен міг легко і просто стежити за своїм здоров'ям.",
+        "ABOUT_1": "Ми прагнемо до того, щоб кожен міг легко і просто стежити за своїм здоров'ям.",
         "P1": "Наша місія — зробити все можливе для розширення можливостей людини. Ми робимо це, дотримуючись трьох основних концепцій:",
         "P1_1": "Створюємо технологічні інновації",
         "P1_2": "Робимо наші програми більш зручними та красивими",
@@ -1360,7 +1530,7 @@
     },
     "TEAM": {
         "HEAD": "Наша команда",
-        "SUBHEAD": "Люди, які стоять за компанією, такі ж важливі, як і сама компанія. Познайомтеся з нашими талановитими інженерами та дизайнерами, які створюють найкращі програми для здоров’я.",
+        "ABOUT": "Люди, які стоять за компанією, такі ж важливі, як і сама компанія. Познайомтеся з нашими талановитими інженерами та дизайнерами, які створюють найкращі програми для здоров’я.",
         "ENGINEER_MOBILE": "iOS Розробник",
         "ENGINEER_WEB": "Web-розробник",
         "DESIGNER_UI_UX": "UI/UX дизайнер",

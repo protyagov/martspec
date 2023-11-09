@@ -1,17 +1,22 @@
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap';
 
-@import 'atom/font.scss';
-@import 'atom/button.scss';
+@import 'atom/color';
+@import 'atom/font';
+@import 'atom/button';
 
-@import 'molecule/section.scss';
+@import 'molecule/section';
+@import 'molecule/page-header';
+@import 'molecule/vitamin-item';
 
-@import 'organism/navigation.scss';
-@import 'organism/footer.scss';
-@import 'organism/social-bar.scss';
+@import 'organism/navigation';
+@import 'organism/footer';
+@import 'organism/social-bar';
 
-@import 'page/base.scss';
-@import 'page/team.scss';
-@import 'page/vitamin.scss';
-@import 'page/vitamin-element.scss';
-@import 'page/emotion.scss';
-@import 'page/biorhythms.scss';
+@import 'page/base';
+@import 'page/base-new';
+@import 'page/team';
+@import 'page/vitamin';
+@import 'page/vitamin-element';
+@import 'page/emotion';
+@import 'page/emotion/biorhythms';
+@import 'page/emotion/personality-trait';
