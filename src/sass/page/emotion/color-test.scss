@@ -1,6 +1,11 @@
 @import "../../atom/base-new-vars";
 
 .color-test {
+	h1 {
+		margin: 0;
+		margin-bottom: 2rem;
+	}
+
 	section:first-of-type {
 		padding: map-get($section-y-gap, "m") 0;
 	}
