@@ -35,4 +35,10 @@
       margin-top: 1.5rem;
     }
   }
+
+  &.color-quiz {
+		section:first-of-type {
+			background: map-get($colors, "bg");
+		}
+	}
 }

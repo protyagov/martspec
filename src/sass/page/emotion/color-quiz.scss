@@ -1,0 +1,7 @@
+@import "../../atom/base-new-vars";
+
+.color-quiz {
+	section:first-of-type {
+		padding: map-get($section-y-gap, "m") 0;
+	}
+}
