@@ -18,6 +18,15 @@ export default function ColorQuiz() {
 					</div>
 				</section>
 
+				<section className="text-center">
+					<div className="row">
+						<div className="col">
+							<h1>{_("COLOR_TEST.TEST_HEAD")}</h1>
+							<p>{_("COLOR_TEST.TEST_DESC")}</p>
+						</div>
+					</div>
+				</section>
+
 				<section>
 					<div className="row">
 						<div className="col-12">
