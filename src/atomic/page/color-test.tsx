@@ -11,7 +11,7 @@ export default function ColorQuiz() {
 			<div className="ms-base-page ms-base-new emotion color-test">
 				<section className="text-center my-0">
 					<div className="row">
-						<div className="col">
+						<div className="col-10 mx-auto">
 							<h2>{_("COLOR_TEST.HEAD1")}</h2>
 							<p className="mb-0">{_("COLOR_TEST.DESC1")}</p>
 						</div>
@@ -20,7 +20,7 @@ export default function ColorQuiz() {
 
 				<section className="text-center">
 					<div className="row">
-						<div className="col">
+						<div className="col-10 mx-auto">
 							<h1>{_("COLOR_TEST.TEST_HEAD")}</h1>
 							<p>{_("COLOR_TEST.TEST_DESC")}</p>
 						</div>
