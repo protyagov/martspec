@@ -8,12 +8,12 @@ export default function ColorQuiz() {
 		<>
 			<NavigationBar />
 
-			<div className="ms-base-page ms-base-new emotion color-quiz">
+			<div className="ms-base-page ms-base-new emotion color-test">
 				<section className="text-center my-0">
 					<div className="row">
 						<div className="col">
-							<h2>{_("COLOR_QUIZ.HEAD1")}</h2>
-							<p className="mb-0">{_("COLOR_QUIZ.DESC1")}</p>
+							<h2>{_("COLOR_TEST.HEAD1")}</h2>
+							<p className="mb-0">{_("COLOR_TEST.DESC1")}</p>
 						</div>
 					</div>
 				</section>
