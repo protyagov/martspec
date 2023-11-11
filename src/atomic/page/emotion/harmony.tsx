@@ -1,17 +1,17 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { useScrollSpy } from "src/hooks";
-import { Footer } from "../organism/footer";
-import NavigationBar from "../organism/navbar";
-import ContentsList from "../molecule/contents-list";
-import PageHeader from "../molecule/page-header";
+import { Footer } from "../../organism/footer";
+import NavigationBar from "../../organism/navbar";
+import ContentsList from "../../molecule/contents-list";
+import PageHeader from "../../molecule/page-header";
 
 
 export default function Harmony() {
     const LIST2_COUNT = 7;
     const LIST3_COUNT = 5;
     const LIST4_COUNT = 8;
-    
+
 
     const CONTENTS_COUNT = 4;
 
@@ -33,7 +33,7 @@ export default function Harmony() {
                 imgW={421}
             />
 
-            <section>    
+            <section>
                 <div className="row">
                     <div className="col-lg-8">
                         <div id="section-1" className="content-wrapper">
@@ -86,7 +86,7 @@ export default function Harmony() {
                                 }
                             </ul>
                         </div>
-                                        
+
                     </div>
 
                     <div className="col-lg-4 order-lg-2 order-1">
@@ -95,10 +95,10 @@ export default function Harmony() {
                             <ContentsList PAGE="HARMONY" CONTENTS_COUNT={CONTENTS_COUNT} />
                         </div>
                     </div>
-                 
+
                 </div>
             </section>
-            
+
         </div>
 
         <Footer />

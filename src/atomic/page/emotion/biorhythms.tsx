@@ -3,7 +3,7 @@ import _, { Locale } from "src/i18n/locale";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import ImageI18N from "src/atomic/atom/img-i18n";
-import PageHeader from "../molecule/page-header";
+import PageHeader from "../../molecule/page-header";
 
 export default function Biorhythms() {
     const rhythmsList = [
@@ -66,7 +66,7 @@ export default function Biorhythms() {
                                 <p >{_("BIORHYTHMS.DESK1_2")}</p>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </section>
 
@@ -239,7 +239,7 @@ export default function Biorhythms() {
                     </div>
                 </div>
             </section>
-            
+
         </div>
 
         <Footer />

@@ -1,17 +1,17 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { useScrollSpy } from "src/hooks";
-import { Footer } from "../organism/footer";
-import NavigationBar from "../organism/navbar";
-import ContentsList from "../molecule/contents-list";
-import PageHeader from "../molecule/page-header";
+import { Footer } from "../../organism/footer";
+import NavigationBar from "../../organism/navbar";
+import ContentsList from "../../molecule/contents-list";
+import PageHeader from "../../molecule/page-header";
 
 
 export default function Anxiety() {
     const LIST2_COUNT = 3;
     const LIST3_COUNT = 9;
     const LIST4_COUNT = 6;
-    
+
 
     const CONTENTS_COUNT = 5;
 
@@ -33,7 +33,7 @@ export default function Anxiety() {
                 imgW={512}
             />
 
-            <section>    
+            <section>
                 <div className="row">
                     <div className="col-lg-8">
                         <div id="section-1" className="content-wrapper">
@@ -88,7 +88,7 @@ export default function Anxiety() {
                             </ul>
                             <img src="/img/page/anxiety/anxiety-img-2.webp" className="img-fluid" alt={_("ANXIETY.ALT4")}  width={768} height={450}/>
                         </div>
-                
+
                         <div id="section-5" className="content-wrapper">
                             <h2>{_("ANXIETY.HEAD5")}</h2>
                             <p>{_("ANXIETY.DESK5_1")}</p>
@@ -97,7 +97,7 @@ export default function Anxiety() {
                             <p>{_("ANXIETY.DESK5_4")}</p>
                             <p>{_("ANXIETY.DESK5_5")}</p>
                         </div>
-                        
+
                     </div>
 
                     <div className="col-lg-4 order-lg-2 order-1">
@@ -106,10 +106,10 @@ export default function Anxiety() {
                             <ContentsList PAGE="ANXIETY" CONTENTS_COUNT={CONTENTS_COUNT} />
                         </div>
                     </div>
-                 
+
                 </div>
             </section>
-            
+
         </div>
 
         <Footer />

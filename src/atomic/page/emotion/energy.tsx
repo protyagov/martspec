@@ -1,10 +1,10 @@
 import * as React from "react";
 import _, { Locale } from "src/i18n/locale";
 import { useScrollSpy } from "src/hooks";
-import { Footer } from "../organism/footer";
-import NavigationBar from "../organism/navbar";
-import ContentsList from "../molecule/contents-list";
-import PageHeader from "../molecule/page-header";
+import { Footer } from "../../organism/footer";
+import NavigationBar from "../../organism/navbar";
+import ContentsList from "../../molecule/contents-list";
+import PageHeader from "../../molecule/page-header";
 
 export default function Energy() {
     const LIST2_COUNT = 3;
@@ -13,7 +13,7 @@ export default function Energy() {
     const LIST4_2_COUNT = 4;
     const LIST5_COUNT = 10;
 
-    
+
 
     const CONTENTS_COUNT = 5;
 
@@ -34,7 +34,7 @@ export default function Energy() {
                 imgW={421}
             />
 
-            <section>    
+            <section>
                 <div className="row">
                     <div className="col-lg-8 order-lg-1 order-2">
                         <div id="section-1" className="content-wrapper">
@@ -124,10 +124,10 @@ export default function Energy() {
                             <ContentsList PAGE="ENERGY" CONTENTS_COUNT={CONTENTS_COUNT} />
                         </div>
                     </div>
-                 
+
                 </div>
             </section>
-            
+
         </div>
 
         <Footer />

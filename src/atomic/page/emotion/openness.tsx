@@ -4,7 +4,7 @@ import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import ContentsList from "src/atomic/molecule/contents-list";
 import { useScrollSpy } from "src/hooks";
-import PageHeader from "../molecule/page-header";
+import PageHeader from "../../molecule/page-header";
 
 
 
@@ -12,7 +12,7 @@ export default function Openness() {
     const LIST3_COUNT = 6;
     const LIST5_1_COUNT = 6 ;
     const LIST5_2_COUNT = 6;
-    
+
     const CONTENTS_COUNT = 6;
 
     useScrollSpy("contents-list");
@@ -33,7 +33,7 @@ export default function Openness() {
                 imgW={421}
             />
 
-            <section>    
+            <section>
                 <div className="row">
                     <div className="col-lg-8 order-lg-1 order-2">
                         <div id="section-1" className="content-wrapper">
@@ -62,7 +62,7 @@ export default function Openness() {
                                     ))
                                 }
                             </ul>
-                            
+
                         </div>
 
                         <div id="section-4" className="content-wrapper">
@@ -116,10 +116,10 @@ export default function Openness() {
                             <ContentsList PAGE="OPENNESS" CONTENTS_COUNT={CONTENTS_COUNT} />
                         </div>
                     </div>
-                 
+
                 </div>
             </section>
-            
+
         </div>
 
         <Footer />

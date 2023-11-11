@@ -103,7 +103,7 @@
       padding: map-get($section-y-gap, "m") 0;
     }
 
-    &.personality-traits-list {
+    &.bg-merge-top {
       margin-top: -(map-get($section-y-gap, "m"))*2;
     }
   }
