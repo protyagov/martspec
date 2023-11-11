@@ -3,7 +3,7 @@ import _, { Locale } from 'src/i18n/locale';
 import NavigationBar from 'src/atomic/organism/navbar';
 import ImageI18N from 'src/atomic/atom/img-i18n';
 
-export default function ColorQuiz() {
+export default function ColorTest() {
 	return (
 		<>
 			<NavigationBar />
