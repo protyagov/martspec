@@ -74,14 +74,15 @@ export default function ColorTest() {
 						</div>
 					</div>
 
-					<div className="row">
+					<div className="row flex-wrap justify-content-center g-4 color-sectors">
 						{
 							sectorModelCollection.map((sector) => (
-								<div
-									key={sector.color}
-									className="col-3"
-									style={{ background: "#" + sector.color, height: "250px" }}
-								></div>
+								<div key={sector.color} className="col-lg-3 col-6">
+									<div
+										className="sector"
+										style={{ background: "#" + sector.color }}
+									></div>
+								</div>
 							))
 						}
 					</div>

@@ -9,4 +9,9 @@
 	section:first-of-type {
 		padding: map-get($section-y-gap, "m") 0;
 	}
+
+	.sector {
+		border-radius: 1.5rem;
+		height: 210px;
+	}
 }
