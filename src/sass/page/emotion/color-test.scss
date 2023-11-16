@@ -10,6 +10,13 @@
 		padding: map-get($section-y-gap, "m") 0;
 	}
 
+	.block {
+		padding: map-get($section-y-gap, "m");
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
 	.sector {
 		border-radius: 1.5rem;
 		height: 210px;

@@ -110,17 +110,19 @@ export default function ColorTest() {
 
 				<section>
 					<div className="row">
-						<div className="col-12">
-							<h2>{_("COLOR_TEST.HEAD2")}</h2>
-							<p>{_("COLOR_TEST.DESC2")}</p>
-						</div>
-						<div className="col-12">
-							<h2>{_("COLOR_TEST.HEAD3")}</h2>
-							<p>{_("COLOR_TEST.DESC3")}</p>
-						</div>
-						<div className="col-12">
-							<h2>{_("COLOR_TEST.HEAD4")}</h2>
-							<p>{_("COLOR_TEST.DESC4")}</p>
+						<div className="block bg-gray">
+							<div className="col-12">
+								<h2>{_("COLOR_TEST.HEAD2")}</h2>
+								<p>{_("COLOR_TEST.DESC2")}</p>
+							</div>
+							<div className="col-12">
+								<h2>{_("COLOR_TEST.HEAD3")}</h2>
+								<p>{_("COLOR_TEST.DESC3")}</p>
+							</div>
+							<div className="col-12">
+								<h2>{_("COLOR_TEST.HEAD4")}</h2>
+								<p>{_("COLOR_TEST.DESC4")}</p>
+							</div>
 						</div>
 					</div>
 				</section>
