@@ -99,10 +99,10 @@ export default function ColorTest() {
 						{
 							sectorModelCollection[0].map((sector) => (
 								<div key={sector.color} className="col-lg-3 col-6">
-									<div
+									<button
 										className="sector"
 										style={{ background: "#" + sector.color }}
-									></div>
+									></button>
 								</div>
 							))
 						}
