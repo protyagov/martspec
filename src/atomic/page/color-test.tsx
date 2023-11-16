@@ -13,13 +13,22 @@ const COLORS = [
 	"000000"
 ] as const;
 
-export default function ColorTest() {	
-	const [sectorModelCollection, setSectorModelCollection] = React.useState(
-		COLORS.map((color, id) => ({ color, id }))
-	);
+type SectorModel = {
+	id: number;
+	color: typeof COLORS[number];
+};
+
+type useShuffleArgs = [
+	SectorModel[],
+	React.Dispatch<React.SetStateAction<SectorModel[]>>
+];
+
+const useShuffled = ([collection, setCollection]: useShuffleArgs) => {
 
 	const shuffle = () => {
-		setSectorModelCollection(current => [...current].sort(() => Math.random() - 0.5));
+		setCollection((current) =>
+			[...current].sort(() => Math.random() - 0.5)
+		);
 	};
 
 	const hasWrongOrder = () => {
@@ -43,14 +52,25 @@ export default function ColorTest() {
 	};
 
 	const isGBB = (id: number) => {
-		return sectorModelCollection[id].id === 7 || sectorModelCollection[id].id < 2;
+		return (
+			collection[id].id === 7 ||
+			collection[id].id < 2
+		);
 	};
 
 	React.useLayoutEffect(() => {
 		if (hasWrongOrder()) {
 			shuffle();
 		}
-	}, [sectorModelCollection]);
+	}, [collection]);
+};
+
+export default function ColorTest() {
+	const sectorModelCollection = React.useState(
+		COLORS.map((color, id) => ({ color, id }))
+	);
+
+	useShuffled(sectorModelCollection);
 
 	return (
 		<>
@@ -76,7 +96,7 @@ export default function ColorTest() {
 
 					<div className="row flex-wrap justify-content-center g-4 color-sectors">
 						{
-							sectorModelCollection.map((sector) => (
+							sectorModelCollection[0].map((sector) => (
 								<div key={sector.color} className="col-lg-3 col-6">
 									<div
 										className="sector"
