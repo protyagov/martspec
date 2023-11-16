@@ -88,10 +88,10 @@ export default function ColorTest() {
 				</section>
 
 				<section className="text-center">
-					<div className="row">
+					<div className="row mb-0">
 						<div className="col-10 mx-auto">
 							<h1>{_("COLOR_TEST.TEST_HEAD")}</h1>
-							<p>{_("COLOR_TEST.TEST_DESC")}</p>
+							<p className="mb-6">{_("COLOR_TEST.TEST_DESC")}</p>
 						</div>
 					</div>
 
