@@ -13,6 +13,21 @@
     ],
     "@babel/preset-typescript",
     "@babel/preset-react"
+    // "@babel/preset-flow"
   ],
-  "plugins": []
+  "plugins": [
+    [
+      "babel-plugin-module-resolver",
+      {
+        "root": [
+          "./"
+        ],
+        "alias": {
+		  // Add your aliases here
+          "src": "./src/",
+          "img": "./src/img"
+        }
+      }
+    ]
+  ]
 }
