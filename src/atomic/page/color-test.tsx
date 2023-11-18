@@ -71,7 +71,11 @@ export default function ColorTest() {
 		COLORS.map((color, id) => ({ color, id }))
 	);
 
+	const [userColorSelectionIds, setUserColorSelectionIds] = React.useState([]);
+
 	useShuffled(sectorModelCollection);
+
+	const sectorClickHandler = (id: number) => setUserColorSelectionIds(current => [...current, id]);
 
 	return (
 		<>
@@ -96,16 +100,20 @@ export default function ColorTest() {
 					</div>
 
 					<div className="row flex-wrap justify-content-center g-4 color-sectors">
-						{
-							sectorModelCollection[0].map((sector) => (
-								<div key={sector.color} className="col-lg-3 col-6">
-									<button
-										className="sector"
-										style={{ background: "#" + sector.color }}
-									></button>
-								</div>
-							))
-						}
+						{sectorModelCollection[0].map((sector) => (
+							<div key={sector.color} className="col-lg-3 col-6">
+								<button
+									onClick={() => sectorClickHandler(sector.id)}
+									className="sector"
+									style={
+										{
+											background: '#' + sector.color,
+											visibility: userColorSelectionIds.includes(sector.id) ? "hidden" : "visible"
+										}
+									}
+								></button>
+							</div>
+						))}
 					</div>
 				</section>
 
