@@ -1426,6 +1426,7 @@
         "RES": "Your results:",
         "LEV": "Level",
         "PERC": "Percent",
+        "GROUP_DESC": "Group description:",
         "GROUP_TITLE_A": "Anxiety",
         "GROUP_TITLE_P": "Productivity",
         "GROUP_TITLE_O": "Openness",
