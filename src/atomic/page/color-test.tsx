@@ -219,20 +219,25 @@ export default function ColorTest() {
 									))
 								}
 							</div>
-							<div className="row text-center">
-								<div className="col-6">
+
+							<div className="row">
+								<div className="col-12">
+									<p>{_("COLOR_TEST." + testResult?.[0])}</p>
+								</div>
+								<div className="col-6 text-center">
 									<div className="block bg-violet">
 										<p>{_("COLOR_TEST.LEV")}</p>
 										<h2 className="mb-0">{_("COLOR_TEST._" + testResult?.[0])}</h2>
 									</div>
 								</div>
-								<div className="col-6">
+								<div className="col-6 text-center">
 									<div className="block bg-yellow">
 										<p>{_("COLOR_TEST.PERC")}</p>
 										<h2 className="mb-0">Percent</h2>
 									</div>
 								</div>
 							</div>
+
 							<div className="row">
 								<div className="col-12">
 									<h3>{_("COLOR_TEST.GROUP_DESC")}</h3>
