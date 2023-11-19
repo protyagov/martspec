@@ -22,11 +22,32 @@
 
 			h3 {
 				color: $ms-color-text-black;
-				margin-bottom: .5rem;
+				margin-bottom: .6rem;
+			}
+		}
+
+		.test-result-icon {
+			height: 1.1rem;
+			width: 1.1rem;
+
+			$icon-color: var(--color);
+
+			border: 1px solid $icon-color;
+			border-radius: 50%;
+
+			&.NULL {
+				background: transparent;
+			}
+			&.HALF {
+				background: linear-gradient(90deg, $icon-color 50%, transparent 50%); 
+			}
+			&.FULL {
+				background: $icon-color;
 			}
 		}
 
 		.test-result-blur {
+			margin-top: -1.2rem;
 			margin-left: -1rem;
 		}
 	}

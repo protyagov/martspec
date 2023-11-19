@@ -123,9 +123,9 @@ const useSelected = ({userColorSelectionIds, setTestResult}: useSelectedArgs) =>
 };
 
 const enum Icon {
-	NULL,
-	HALF,
-	FULL
+	NULL = "NULL",
+	HALF = "HALF",
+	FULL = "FULL"
 };
 
 const enum IconColor {
@@ -216,7 +216,19 @@ export default function ColorTest() {
 												<h3>{_("COLOR_TEST." + title)}</h3>
 												{
 													idx === 0 ?
-														<div>Emotion test result</div>
+														<div>
+															<div
+																className="d-flex"
+																style={{ "--color": "#" + testResult[2] } as React.CSSProperties}
+															>
+																{
+																	testResult[1].map(iconFill => (
+																		<div className={"me-2 test-result-icon " + iconFill}></div>
+																	))
+																}
+															</div>
+															<p className="mt-1">{_("COLOR_TEST._" + testResult[0])}</p>
+														</div>
 														:
 														<img src="/img/page/emotion/emotion-color-test-result-blur.png" className="test-result-blur" alt="" />
 												}
