@@ -201,6 +201,54 @@ export default function ColorTest() {
 						))}
 					</div>
 				</section>
+						:
+						<section>
+							<div className="row">
+								<div className="col-12 d-flex flex-column">
+									<div>
+										<h2>{_("COLOR_TEST.RES")}</h2>
+										<p>{_("COLOR_TEST." + testResult?.[0])}</p>
+									</div>
+								</div>
+								{
+									[
+										"GROUP_TITLE_E",
+										"GROUP_TITLE_A",
+										"GROUP_TITLE_P",
+										"GROUP_TITLE_O",
+										"GROUP_TITLE_I",
+										"GROUP_TITLE_G"
+									].map(title => (
+										<div className="col-4">
+											<h3>{_("COLOR_TEST." + title)}</h3>
+										</div>
+									))
+								}
+							</div>
+							<div className="row text-center">
+								<div className="col-6">
+									<div className="block bg-violet">
+										<p>{_("COLOR_TEST.LEV")}</p>
+										<h2 className="mb-0">{_("COLOR_TEST._" + testResult?.[0])}</h2>
+									</div>
+								</div>
+								<div className="col-6">
+									<div className="block bg-yellow">
+										<p>{_("COLOR_TEST.PERC")}</p>
+										<h2 className="mb-0">Percent</h2>
+									</div>
+								</div>
+							</div>
+							<div className="row">
+								<div className="col-12">
+									<h3>{_("COLOR_TEST.GROUP_DESC")}</h3>
+									<p>{_("COLOR_TEST.GROUP_DESC1_E")}</p>
+									<p>{_("COLOR_TEST.GROUP_DESC2_E")}</p>
+									<p className="mb-0">{_("COLOR_TEST.GROUP_DESC3_E")}</p>
+								</div>
+							</div>
+						</section>
+				}
 
 				{
 					testResult &&
