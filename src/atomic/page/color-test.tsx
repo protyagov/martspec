@@ -141,7 +141,7 @@ export default function ColorTest() {
 	);
 
 	const [userColorSelectionIds, setUserColorSelectionIds] = React.useState([]);
-	const [testResult, setTestResult] = React.useState<TestResult>(null);
+	const [testResult, setTestResult] = React.useState<TestResult>(["E4", [Icon.FULL, Icon.FULL, Icon.FULL, Icon.HALF, Icon.NULL], IconColor.GREEN]);
 
 	useShuffled(sectorModelCollection);
 
@@ -210,10 +210,16 @@ export default function ColorTest() {
 										"GROUP_TITLE_O",
 										"GROUP_TITLE_I",
 										"GROUP_TITLE_G"
-									].map(title => (
+									].map((title, idx) => (
 										<div className="col-4">
 											<div className="block bg-gray">
 												<h3>{_("COLOR_TEST." + title)}</h3>
+												{
+													idx === 0 ?
+														<div>Emotion test result</div>
+														:
+														<img src="/img/page/emotion/emotion-color-test-result-blur.png" className="test-result-blur" alt="" />
+												}
 											</div>
 										</div>
 									))
