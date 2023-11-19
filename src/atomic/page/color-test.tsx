@@ -202,26 +202,29 @@ export default function ColorTest() {
 					</div>
 				</section>
 
-				<section style={{visibility: testResult ? "visible" : "hidden"}}>
-					<div className="row text-center">
-						<div className="col-8 mx-auto">
-							<h2>{_("COLOR_TEST.CTA_HEAD")}</h2>
-							<p>{_("COLOR_TEST.CTA_DESC")}</p>
-							<a
-								href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-								target="_blank"
-								title={_("EMOTION.HEAD")}
-								className="ms-btn-apple"
-								style={{
-									backgroundImage:
-										"url(/img/apple_btn/" +
-										Locale.language +
-										".svg)",
-								}}
-						></a>
-						</div>
-					</div>
-				</section>
+				{
+					testResult &&
+						<section>
+							<div className="row text-center">
+								<div className="col-8 mx-auto">
+									<h2>{_("COLOR_TEST.CTA_HEAD")}</h2>
+									<p>{_("COLOR_TEST.CTA_DESC")}</p>
+									<a
+										href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
+										target="_blank"
+										title={_("EMOTION.HEAD")}
+										className="ms-btn-apple"
+										style={{
+											backgroundImage:
+												"url(/img/apple_btn/" +
+												Locale.language +
+												".svg)",
+										}}
+								></a>
+								</div>
+							</div>
+						</section>
+				}
 
 				<section>
 					<div className="row">
