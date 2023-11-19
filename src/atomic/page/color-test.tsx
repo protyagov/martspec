@@ -160,7 +160,7 @@ export default function ColorTest() {
 							<h2>{_("COLOR_TEST.HEAD1")}</h2>
 							<p className="mb-0">{_("COLOR_TEST.DESC1")}</p>
 							<a
-								href={Locale.i18nLink("color-test")}
+								href={Locale.i18nLink("emotion/color-test")}
 								className="mt-5 ms-btn-large"
 								style={{display: testResult ? "auto" : "none"}}
 							>
