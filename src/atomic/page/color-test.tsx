@@ -197,7 +197,7 @@ export default function ColorTest() {
 							</div>
 						</section>
 						:
-						<section>
+						<section className="test-result">
 							<div className="row mb-0">
 								<h2>{_("COLOR_TEST.RES")}</h2>
 							</div>

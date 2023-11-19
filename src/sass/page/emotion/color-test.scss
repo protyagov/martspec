@@ -10,6 +10,12 @@
 		padding: map-get($section-y-gap, "m") 0;
 	}
 
+	.test-result {
+		.row:not(:only-child):not(:last-child) {
+      margin-bottom: map-get($section-y-gap, "xs");
+    }
+	}
+
 	.block {
 		padding: map-get($section-y-gap, "m");
 		display: flex;
