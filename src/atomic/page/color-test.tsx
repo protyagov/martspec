@@ -170,37 +170,32 @@ export default function ColorTest() {
 					</div>
 				</section>
 
-				<section className="text-center">
-					<div className="row mb-0">
-						<div className="col-10 mx-auto">
-							<h1>{_("COLOR_TEST.TEST_HEAD")}</h1>
-							<p className="mb-6">{_("COLOR_TEST.TEST_DESC")}</p>
-						</div>
-					</div>
-
-					<div className="row flex-wrap justify-content-center g-4 text-start color-sectors">
-						{testResult ?
-							<div className="col-12 d-flex flex-column">
-								<h2>{_("COLOR_TEST.RES")}</h2>
-								<p>{_("COLOR_TEST." + testResult[0])}</p>
+				{
+					!testResult ?
+						<section>
+							<div className="row text-center mb-0">
+								<div className="col-10 mx-auto">
+									<h1>{_("COLOR_TEST.TEST_HEAD")}</h1>
+									<p className="mb-6">{_("COLOR_TEST.TEST_DESC")}</p>
+								</div>
 							</div>
-							:
-							sectorModelCollection[0].map((sector) => (
-							<div key={sector.color} className="col-lg-3 col-6">
-								<button
-									onClick={() => sectorClickHandler(sector.id)}
-									className="sector"
-									style={
-										{
-											background: '#' + sector.color,
-											visibility: userColorSelectionIds.includes(sector.id) ? "hidden" : "visible"
-										}
-									}
-								></button>
+							<div className="row flex-wrap justify-content-center g-4 color-sectors">
+								{sectorModelCollection[0].map((sector) => (
+									<div key={sector.color} className="col-lg-3 col-6">
+										<button
+											onClick={() => sectorClickHandler(sector.id)}
+											className="sector"
+											style={
+												{
+													background: '#' + sector.color,
+													visibility: userColorSelectionIds.includes(sector.id) ? "hidden" : "visible"
+												}
+											}
+										></button>
+									</div>
+								))}
 							</div>
-						))}
-					</div>
-				</section>
+						</section>
 						:
 						<section>
 							<div className="row">
