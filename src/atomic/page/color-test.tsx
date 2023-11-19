@@ -1,5 +1,5 @@
 import * as React from 'react';
-import _ from 'src/i18n/locale';
+import _, { Locale } from 'src/i18n/locale';
 import NavigationBar from 'src/atomic/organism/navbar';
 import { Footer } from '../organism/footer';
 
