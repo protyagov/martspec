@@ -198,13 +198,10 @@ export default function ColorTest() {
 						</section>
 						:
 						<section>
-							<div className="row">
-								<div className="col-12 d-flex flex-column">
-									<div>
-										<h2>{_("COLOR_TEST.RES")}</h2>
-										<p>{_("COLOR_TEST." + testResult?.[0])}</p>
-									</div>
-								</div>
+							<div className="row mb-0">
+								<h2>{_("COLOR_TEST.RES")}</h2>
+							</div>
+							<div className="row g-4">
 								{
 									[
 										"GROUP_TITLE_E",
@@ -215,7 +212,9 @@ export default function ColorTest() {
 										"GROUP_TITLE_G"
 									].map(title => (
 										<div className="col-4">
-											<h3>{_("COLOR_TEST." + title)}</h3>
+											<div className="block bg-gray">
+												<h3>{_("COLOR_TEST." + title)}</h3>
+											</div>
 										</div>
 									))
 								}
