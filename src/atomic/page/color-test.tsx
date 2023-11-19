@@ -197,6 +197,7 @@ export default function ColorTest() {
 							</div>
 						</section>
 						:
+						<>
 						<section className="test-result">
 							<div className="row mb-0">
 								<h2>{_("COLOR_TEST.RES")}</h2>
@@ -265,10 +266,7 @@ export default function ColorTest() {
 								</div>
 							</div>
 						</section>
-				}
 
-				{
-					testResult &&
 						<section>
 							<div className="row text-center">
 								<div className="col-8 mx-auto">
@@ -289,6 +287,7 @@ export default function ColorTest() {
 								</div>
 							</div>
 						</section>
+						</>
 				}
 
 				<section>
