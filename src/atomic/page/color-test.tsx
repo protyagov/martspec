@@ -156,9 +156,16 @@ export default function ColorTest() {
 			<div className="ms-base-page ms-base-new emotion color-test">
 				<section className="text-center my-0">
 					<div className="row">
-						<div className="col-10 mx-auto">
+						<div className="col-9 mx-auto">
 							<h2>{_("COLOR_TEST.HEAD1")}</h2>
 							<p className="mb-0">{_("COLOR_TEST.DESC1")}</p>
+							<a
+								href={Locale.i18nLink("color-test")}
+								className="mt-5 ms-btn-large"
+								style={{display: testResult ? "auto" : "none"}}
+							>
+								{_("COLOR_TEST.BTN_AGAIN")}
+							</a>
 						</div>
 					</div>
 				</section>
