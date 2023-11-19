@@ -14,13 +14,27 @@
 		.row:not(:only-child):not(:last-child) {
       margin-bottom: map-get($section-y-gap, "xs");
     }
+
+		.block.bg-gray {
+			background-color: #F9F9F9;
+			padding: 1.3rem 2rem;
+			border-radius: 1.5rem;
+
+			h3 {
+				color: $ms-color-text-black;
+				margin-bottom: .5rem;
+			}
+		}
 	}
 
 	.block {
-		padding: map-get($section-y-gap, "m");
 		display: flex;
 		flex-direction: column;
-		gap: 3rem;
+
+		&.test-principles {
+			padding: map-get($section-y-gap, "m");
+			gap: 3rem;
+		}
 	}
 
 	.sector {

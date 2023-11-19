@@ -275,7 +275,7 @@ export default function ColorTest() {
 
 				<section>
 					<div className="row">
-						<div className="block bg-gray">
+						<div className="block bg-gray test-principles">
 							<div className="col-12">
 								<h2>{_("COLOR_TEST.HEAD2")}</h2>
 								<p>{_("COLOR_TEST.DESC2")}</p>
