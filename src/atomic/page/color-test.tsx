@@ -102,31 +102,36 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
 				return {
 					lvl: "E1",
 					icons: [v >= 0.2 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-					color: IconColor.RED
+					color: IconColor.RED,
+					perc: 14
 				};
 			case v >= 0.5 && v < 0.9:
 				return {
 					lvl: "E2",
 					icons: [Icon.FULL, v >= 0.7 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-					color: IconColor.YELLOW
+					color: IconColor.YELLOW,
+					perc: 41
 				};
 			case v >= 0.9 && v < 1.3:
 				return {
 					lvl: "E3",
 					icons: [Icon.FULL, Icon.FULL, v >= 1.1 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
-					color: IconColor.GREEN
+					color: IconColor.GREEN,
+					perc: 66
 				};
 			case v >= 1.3 && v < 1.9:
 				return {
 					lvl: "E3",
 					icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 1.6 ? Icon.HALF : Icon.NULL, Icon.NULL],
-					color: IconColor.ORANGE
+					color: IconColor.ORANGE,
+					perc: 79
 				};
 			default:
 				return {
 					lvl: "E4",
 					icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v <= 2.6 ? Icon.HALF : Icon.FULL],
-					color: IconColor.RED
+					color: IconColor.RED,
+					perc: 97
 				};
 		}
 	};
@@ -145,7 +150,8 @@ type useSelectedArgs = [
 type TestResult = {
 	lvl: string,
 	icons: Icon[],
-	color: IconColor
+	color: IconColor,
+	perc: number
 };
 
 const enum Icon {
@@ -277,7 +283,7 @@ export default function ColorTest() {
 								<div className="col-md-6 col-12 text-center">
 									<div className="block bg-yellow">
 										<p>{_("COLOR_TEST.PERC")}</p>
-										<h2 className="mb-0">Percent</h2>
+										<h2 className="mb-0">{testResult.perc + "%"}</h2>
 									</div>
 								</div>
 							</div>
