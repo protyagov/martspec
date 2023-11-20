@@ -3,7 +3,7 @@ import _, { Locale } from 'src/i18n/locale';
 import NavigationBar from 'src/atomic/organism/navbar';
 import { Footer } from '../organism/footer';
 
-const useShuffled = ([collection, setCollection]: useShuffleArgs) => {
+const useShuffled = ([modelCollection, setCollection]: useShuffleArgs) => {
 
 	const shuffle = () => {
 		setCollection((current) =>
@@ -33,8 +33,8 @@ const useShuffled = ([collection, setCollection]: useShuffleArgs) => {
 
 	const isGBB = (id: number) => {
 		return (
-			collection[id].id === 7 ||
-			collection[id].id < 2
+			modelCollection[id].id === 7 ||
+			modelCollection[id].id < 2
 		);
 	};
 
@@ -42,7 +42,7 @@ const useShuffled = ([collection, setCollection]: useShuffleArgs) => {
 		if (hasWrongOrder()) {
 			shuffle();
 		}
-	}, [collection]);
+	}, [modelCollection]);
 };
 
 type useShuffleArgs = [
@@ -51,18 +51,31 @@ type useShuffleArgs = [
 ];
 
 type SectorModel = {
-	id: number;
+	id: SectorModelId;
 	color: typeof COLORS[number];
 };
 
-const useSelected = ({userColorSelectionIds, setTestResult}: useSelectedArgs) => {
+type SectorModelId = number;
+
+const COLORS = [
+	"98938D",
+	"004983",
+	"1D9772",
+	"F12F23",
+	"F2DD00",
+	"D42481",
+	"C55223",
+	"000000"
+] as const;
+
+const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
 
 	const monEnergy = (): number => {
 		let iRed = 0, iYel = 0, iBlu = 0, iGrn = 0;
-		const uc = userColorSelectionIds;
+		const sc = selectedCollection;
 
 		for (let i = 0; i <= 7; i++) {
-			switch (uc[i]) {
+			switch (sc[i]) {
 				case 3:
 					iRed = i + 1;
 					break;
@@ -99,15 +112,15 @@ const useSelected = ({userColorSelectionIds, setTestResult}: useSelectedArgs) =>
 	};
 
 	React.useLayoutEffect(() => {
-		if (userColorSelectionIds.length !== COLORS.length) return;
-		setTestResult(energyForValue(monEnergy()));
-	}, [userColorSelectionIds]);
+		if (selectedCollection.length !== COLORS.length) return;
+		setResult(energyForValue(monEnergy()));
+	}, [selectedCollection]);
 };
 
-type useSelectedArgs = {
-	userColorSelectionIds: number[],
-	setTestResult: React.Dispatch<React.SetStateAction<TestResult>>
-}
+type useSelectedArgs = [
+	SectorModel["id"][],
+	React.Dispatch<React.SetStateAction<TestResult>>
+]
 
 type TestResult = [string, Icon[], IconColor];
 
@@ -124,28 +137,18 @@ const enum IconColor {
 	GREEN = "A8E03B",
 }
 
-const COLORS = [
-	"98938D",
-	"004983",
-	"1D9772",
-	"F12F23",
-	"F2DD00",
-	"D42481",
-	"C55223",
-	"000000"
-] as const;
-
 export default function ColorTest() {
-	const sectorModelCollection = React.useState(
-		COLORS.map((color, id) => ({ color, id }))
-	);
+	const initSectors = COLORS.map((color, id) => ({ color, id }));
+	
+	const [sectorModelCollection, setSectorModelCollection] = React.useState<SectorModel[]>(initSectors);
 
-	const [userColorSelectionIds, setUserColorSelectionIds] = React.useState([]);
+	const [userSelectionCollection, setUserSelectionCollection] = React.useState<SectorModelId[]>([]);
+
 	const [testResult, setTestResult] = React.useState<TestResult>(null);
 
-	useShuffled(sectorModelCollection);
+	useShuffled([sectorModelCollection, setSectorModelCollection]);
 
-	useSelected({userColorSelectionIds, setTestResult});
+	useSelected([userSelectionCollection, setTestResult]);
 
 	return (
 		<>
@@ -177,15 +180,15 @@ export default function ColorTest() {
 								</div>
 							</div>
 							<div className="row flex-wrap justify-content-center g-4 color-sectors">
-								{sectorModelCollection[0].map((sector) => (
+								{sectorModelCollection.map((sector) => (
 									<div key={sector.color} className="col-lg-3 col-6">
 										<button
-											onClick={() => setUserColorSelectionIds(current => [...current, sector.id])}
+											onClick={() => setUserSelectionCollection(current => [...current, sector.id])}
 											className="sector"
 											style={
 												{
 													background: '#' + sector.color,
-													visibility: userColorSelectionIds.includes(sector.id) ? "hidden" : "visible"
+													visibility: userSelectionCollection.includes(sector.id) ? "hidden" : "visible"
 												}
 											}
 										></button>
