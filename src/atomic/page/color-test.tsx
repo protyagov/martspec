@@ -3,34 +3,6 @@ import _, { Locale } from 'src/i18n/locale';
 import NavigationBar from 'src/atomic/organism/navbar';
 import { Footer } from '../organism/footer';
 
-const COLORS = [
-	"98938D",
-	"004983",
-	"1D9772",
-	"F12F23",
-	"F2DD00",
-	"D42481",
-	"C55223",
-	"000000"
-] as const;
-
-type SectorModel = {
-	id: number;
-	color: typeof COLORS[number];
-};
-
-type useShuffleArgs = [
-	SectorModel[],
-	React.Dispatch<React.SetStateAction<SectorModel[]>>
-];
-
-type useSelectedArgs = {
-	userColorSelectionIds: number[],
-	setTestResult: React.Dispatch<React.SetStateAction<TestResult>>
-}
-
-type TestResult = [string, Icon[], IconColor];
-
 const useShuffled = ([collection, setCollection]: useShuffleArgs) => {
 
 	const shuffle = () => {
@@ -71,6 +43,16 @@ const useShuffled = ([collection, setCollection]: useShuffleArgs) => {
 			shuffle();
 		}
 	}, [collection]);
+};
+
+type useShuffleArgs = [
+	SectorModel[],
+	React.Dispatch<React.SetStateAction<SectorModel[]>>
+];
+
+type SectorModel = {
+	id: number;
+	color: typeof COLORS[number];
 };
 
 const useSelected = ({userColorSelectionIds, setTestResult}: useSelectedArgs) => {
@@ -122,6 +104,13 @@ const useSelected = ({userColorSelectionIds, setTestResult}: useSelectedArgs) =>
 	}, [userColorSelectionIds]);
 };
 
+type useSelectedArgs = {
+	userColorSelectionIds: number[],
+	setTestResult: React.Dispatch<React.SetStateAction<TestResult>>
+}
+
+type TestResult = [string, Icon[], IconColor];
+
 const enum Icon {
 	NULL = "NULL",
 	HALF = "HALF",
@@ -134,6 +123,17 @@ const enum IconColor {
 	YELLOW = "E0BD64",
 	GREEN = "A8E03B",
 }
+
+const COLORS = [
+	"98938D",
+	"004983",
+	"1D9772",
+	"F12F23",
+	"F2DD00",
+	"D42481",
+	"C55223",
+	"000000"
+] as const;
 
 export default function ColorTest() {
 	const sectorModelCollection = React.useState(
