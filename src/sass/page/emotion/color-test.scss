@@ -8,11 +8,19 @@
 
 	section:first-of-type {
 		padding: map-get($section-y-gap, "m") 0;
+
+		.ms-btn-large {
+			margin-top: 2.7rem;
+		}
 	}
+
+	.mb-7 {
+    margin-bottom: 2.7rem; // todo: move to base-new when needed
+  }
 
 	.test-result {
 		.row:not(:only-child):not(:last-child) {
-      margin-bottom: map-get($section-y-gap, "xs");
+      margin-bottom: 5.3rem;
     }
 
 		.block.bg-gray {
@@ -22,8 +30,13 @@
 
 			h3 {
 				color: $ms-color-text-black;
-				margin-bottom: .6rem;
+				margin-bottom: .7rem;
 			}
+		}
+
+		.block.bg-violet,
+		.block.bg-yellow {
+			border-radius: 2rem;
 		}
 
 		.test-result-icon {
@@ -47,7 +60,7 @@
 		}
 
 		.test-result-blur {
-			margin-top: -1.2rem;
+			margin-top: -1.3rem;
 			margin-left: -1rem;
 		}
 	}
@@ -57,8 +70,11 @@
 		flex-direction: column;
 
 		&.test-principles {
-			padding: map-get($section-y-gap, "m");
 			gap: 3rem;
+
+			@include media-breakpoint-up(sm) {
+				padding: map-get($section-y-gap, "m");
+			}
 		}
 	}
 

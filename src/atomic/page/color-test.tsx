@@ -161,7 +161,7 @@ export default function ColorTest() {
 							<p className="mb-0">{_("COLOR_TEST.DESC1")}</p>
 							<a
 								href={Locale.i18nLink("emotion/color-test")}
-								className="mt-5 ms-btn-large"
+								className="ms-btn-large"
 								style={{display: testResult ? "auto" : "none"}}
 							>
 								{_("COLOR_TEST.BTN_AGAIN")}
@@ -199,8 +199,10 @@ export default function ColorTest() {
 						:
 						<>
 						<section className="test-result">
-							<div className="row mb-0">
-								<h2>{_("COLOR_TEST.RES")}</h2>
+								<div className="row mb-0">
+									<div className="col-12">
+										<h2 className="mb-7">{_("COLOR_TEST.RES")}</h2>
+									</div>
 							</div>
 							<div className="row g-4">
 								{
@@ -212,7 +214,7 @@ export default function ColorTest() {
 										"GROUP_TITLE_I",
 										"GROUP_TITLE_G"
 									].map((title, idx) => (
-										<div className="col-4">
+										<div className="col-lg-4 col-sm-6 col-12">
 											<div className="block bg-gray">
 												<h3>{_("COLOR_TEST." + title)}</h3>
 												{
@@ -228,7 +230,7 @@ export default function ColorTest() {
 																	))
 																}
 															</div>
-															<p className="mt-1">{_("COLOR_TEST._" + testResult[0])}</p>
+															<p className="mt-2">{_("COLOR_TEST._" + testResult[0])}</p>
 														</div>
 														:
 														<img src="/img/page/emotion/emotion-color-test-result-blur.png" className="test-result-blur" alt="" />
@@ -239,17 +241,19 @@ export default function ColorTest() {
 								}
 							</div>
 
-							<div className="row">
+							<div className="row mb-0">
 								<div className="col-12">
-									<p>{_("COLOR_TEST." + testResult?.[0])}</p>
+									<p className="mb-7">{_("COLOR_TEST." + testResult?.[0])}</p>
 								</div>
-								<div className="col-6 text-center">
+							</div>
+							<div className="row g-4">
+								<div className="col-md-6 col-12 text-center">
 									<div className="block bg-violet">
 										<p>{_("COLOR_TEST.LEV")}</p>
 										<h2 className="mb-0">{_("COLOR_TEST._" + testResult?.[0])}</h2>
 									</div>
 								</div>
-								<div className="col-6 text-center">
+								<div className="col-md-6 col-12 text-center">
 									<div className="block bg-yellow">
 										<p>{_("COLOR_TEST.PERC")}</p>
 										<h2 className="mb-0">Percent</h2>
@@ -259,9 +263,9 @@ export default function ColorTest() {
 
 							<div className="row">
 								<div className="col-12">
-									<h3>{_("COLOR_TEST.GROUP_DESC")}</h3>
-									<p>{_("COLOR_TEST.GROUP_DESC1_E")}</p>
-									<p>{_("COLOR_TEST.GROUP_DESC2_E")}</p>
+									<h3 className="mb-3">{_("COLOR_TEST.GROUP_DESC")}</h3>
+									<p className="mb-4">{_("COLOR_TEST.GROUP_DESC1_E")}</p>
+									<p className="mb-4">{_("COLOR_TEST.GROUP_DESC2_E")}</p>
 									<p className="mb-0">{_("COLOR_TEST.GROUP_DESC3_E")}</p>
 								</div>
 							</div>
