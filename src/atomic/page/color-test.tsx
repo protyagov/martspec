@@ -141,7 +141,7 @@ export default function ColorTest() {
 	);
 
 	const [userColorSelectionIds, setUserColorSelectionIds] = React.useState([]);
-	const [testResult, setTestResult] = React.useState<TestResult>(["E4", [Icon.FULL, Icon.FULL, Icon.FULL, Icon.HALF, Icon.NULL], IconColor.GREEN]);
+	const [testResult, setTestResult] = React.useState<TestResult>(null);
 
 	useShuffled(sectorModelCollection);
 
