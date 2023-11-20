@@ -157,13 +157,12 @@ export default function ColorTest() {
 						<div className="col-9 mx-auto">
 							<h2>{_("COLOR_TEST.HEAD1")}</h2>
 							<p className="mb-0">{_("COLOR_TEST.DESC1")}</p>
-							<a
+							{testResult && <a
 								href={Locale.i18nLink("emotion/color-test")}
 								className="ms-btn-large"
-								style={{display: testResult ? "auto" : "none"}}
 							>
 								{_("COLOR_TEST.BTN_AGAIN")}
-							</a>
+							</a>}
 						</div>
 					</div>
 				</section>
