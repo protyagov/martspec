@@ -196,10 +196,10 @@ export default function ColorTest() {
 						:
 						<>
 						<section className="test-result">
-								<div className="row mb-0">
-									<div className="col-12">
-										<h2 className="mb-7">{_("COLOR_TEST.RES")}</h2>
-									</div>
+							<div className="row mb-0">
+								<div className="col-12">
+									<h2 className="mb-7">{_("COLOR_TEST.RES")}</h2>
+								</div>
 							</div>
 							<div className="row g-4">
 								{
@@ -216,7 +216,7 @@ export default function ColorTest() {
 												<h3>{_("COLOR_TEST." + title)}</h3>
 												{
 													idx === 0 ?
-														<div>
+														<>
 															<div
 																className="d-flex"
 																style={{ "--color": "#" + testResult[2] } as React.CSSProperties}
@@ -228,9 +228,13 @@ export default function ColorTest() {
 																}
 															</div>
 															<p className="mt-2">{_("COLOR_TEST._" + testResult[0])}</p>
-														</div>
+														</>
 														:
-														<img src="/img/page/emotion/emotion-color-test-result-blur.png" className="test-result-blur" alt="" />
+														<img
+															src="/img/page/emotion/emotion-color-test-result-blur.png"
+															className="test-result-blur"
+															alt=""
+														/>
 												}
 											</div>
 										</div>
