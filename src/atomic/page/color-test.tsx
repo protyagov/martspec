@@ -203,19 +203,12 @@ export default function ColorTest() {
 							</div>
 							<div className="row g-4">
 								{
-									[
-										"GROUP_TITLE_E",
-										"GROUP_TITLE_A",
-										"GROUP_TITLE_P",
-										"GROUP_TITLE_O",
-										"GROUP_TITLE_I",
-										"GROUP_TITLE_G"
-									].map((title, idx) => (
+									["E", "A", "P", "O", "I", "G"].map((groupTitle) => (
 										<div className="col-lg-4 col-sm-6 col-12">
 											<div className="block bg-gray">
-												<h3>{_("COLOR_TEST." + title)}</h3>
+												<h3>{_("COLOR_TEST.GROUP_TITLE_" + groupTitle)}</h3>
 												{
-													idx === 0 ?
+													groupTitle === "E" ?
 														<>
 															<div
 																className="d-flex"
