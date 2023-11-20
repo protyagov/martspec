@@ -147,8 +147,6 @@ export default function ColorTest() {
 
 	useSelected({userColorSelectionIds, setTestResult});
 
-	const sectorClickHandler = (id: number) => setUserColorSelectionIds(current => [...current, id]);
-
 	return (
 		<>
 			<NavigationBar />
@@ -183,7 +181,7 @@ export default function ColorTest() {
 								{sectorModelCollection[0].map((sector) => (
 									<div key={sector.color} className="col-lg-3 col-6">
 										<button
-											onClick={() => sectorClickHandler(sector.id)}
+											onClick={() => setUserColorSelectionIds(current => [...current, sector.id])}
 											className="sector"
 											style={
 												{
