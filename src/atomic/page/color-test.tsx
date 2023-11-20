@@ -99,15 +99,35 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
 	const energyForValue = (v: number): TestResult => {
 		switch (true) {
 			case v >= -1 && v < 0.5:
-				return ["E1", [v >= 0.2 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL], IconColor.RED];
+				return {
+					lvl: "E1",
+					icons: [v >= 0.2 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
+					color: IconColor.RED
+				};
 			case v >= 0.5 && v < 0.9:
-				return ["E2", [Icon.FULL, v >= 0.7 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL], IconColor.YELLOW];
+				return {
+					lvl: "E2",
+					icons: [Icon.FULL, v >= 0.7 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
+					color: IconColor.YELLOW
+				};
 			case v >= 0.9 && v < 1.3:
-				return ["E3", [Icon.FULL, Icon.FULL, v >= 1.1 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL], IconColor.GREEN];
+				return {
+					lvl: "E3",
+					icons: [Icon.FULL, Icon.FULL, v >= 1.1 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
+					color: IconColor.GREEN
+				};
 			case v >= 1.3 && v < 1.9:
-				return ["E3", [Icon.FULL, Icon.FULL, Icon.FULL, v >= 1.6 ? Icon.HALF : Icon.NULL, Icon.NULL], IconColor.ORANGE];
+				return {
+					lvl: "E3",
+					icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 1.6 ? Icon.HALF : Icon.NULL, Icon.NULL],
+					color: IconColor.ORANGE
+				};
 			default:
-				return ["E4", [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v <= 2.6 ? Icon.HALF : Icon.FULL], IconColor.RED];
+				return {
+					lvl: "E4",
+					icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v <= 2.6 ? Icon.HALF : Icon.FULL],
+					color: IconColor.RED
+				};
 		}
 	};
 
@@ -122,7 +142,11 @@ type useSelectedArgs = [
 	React.Dispatch<React.SetStateAction<TestResult>>
 ]
 
-type TestResult = [string, Icon[], IconColor];
+type TestResult = {
+	lvl: string,
+	icons: Icon[],
+	color: IconColor
+};
 
 const enum Icon {
 	NULL = "NULL",
@@ -215,15 +239,15 @@ export default function ColorTest() {
 														<>
 															<div
 																className="d-flex"
-																style={{ "--color": "#" + testResult[2] } as React.CSSProperties}
+																style={{ "--color": "#" + testResult.color } as React.CSSProperties}
 															>
 																{
-																	testResult[1].map(iconFill => (
-																		<div className={"me-2 test-result-icon " + iconFill}></div>
+																	testResult.icons.map(icon => (
+																		<div className={"me-2 test-result-icon " + icon}></div>
 																	))
 																}
 															</div>
-															<p className="mt-2">{_("COLOR_TEST._" + testResult[0])}</p>
+															<p className="mt-2">{_("COLOR_TEST._" + testResult.lvl)}</p>
 														</>
 														:
 														<img
@@ -240,14 +264,14 @@ export default function ColorTest() {
 
 							<div className="row mb-0">
 								<div className="col-12">
-									<p className="mb-7">{_("COLOR_TEST." + testResult?.[0])}</p>
+									<p className="mb-7">{_("COLOR_TEST." + testResult.lvl)}</p>
 								</div>
 							</div>
 							<div className="row g-4">
 								<div className="col-md-6 col-12 text-center">
 									<div className="block bg-violet">
 										<p>{_("COLOR_TEST.LEV")}</p>
-										<h2 className="mb-0">{_("COLOR_TEST._" + testResult?.[0])}</h2>
+										<h2 className="mb-0">{_("COLOR_TEST._" + testResult.lvl)}</h2>
 									</div>
 								</div>
 								<div className="col-md-6 col-12 text-center">
