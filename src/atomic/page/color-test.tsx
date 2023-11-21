@@ -97,43 +97,46 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
 	};
 
 	const energyForValue = (v: number): TestResult => {
+
+		const percForValue = (v: number): number => Math.min(Math.floor(v * 100 / 3.2), 100);
+
 		switch (true) {
 			case v >= -1 && v < 0.5:
 				return {
 					lvl: "E1",
 					icons: [v >= 0.2 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
 					color: IconColor.RED,
-					perc: 14
+					perc: percForValue(v)
 				};
 			case v >= 0.5 && v < 0.9:
 				return {
 					lvl: "E2",
 					icons: [Icon.FULL, v >= 0.7 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
 					color: IconColor.YELLOW,
-					perc: 41
+					perc: percForValue(v)
 				};
 			case v >= 0.9 && v < 1.3:
 				return {
 					lvl: "E3",
 					icons: [Icon.FULL, Icon.FULL, v >= 1.1 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
 					color: IconColor.GREEN,
-					perc: 66
+					perc: percForValue(v)
 				};
 			case v >= 1.3 && v < 1.9:
 				return {
 					lvl: "E3",
 					icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 1.6 ? Icon.HALF : Icon.NULL, Icon.NULL],
 					color: IconColor.ORANGE,
-					perc: 79
+					perc: percForValue(v)
 				};
 			default:
 				return {
 					lvl: "E4",
 					icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v <= 2.6 ? Icon.HALF : Icon.FULL],
 					color: IconColor.RED,
-					perc: 97
+					perc: percForValue(v)
 				};
-		}
+		};
 	};
 
 	React.useLayoutEffect(() => {
