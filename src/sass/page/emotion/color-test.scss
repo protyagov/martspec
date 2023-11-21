@@ -32,6 +32,15 @@
 				color: $ms-color-text-black;
 				margin-bottom: .7rem;
 			}
+
+			&.blured {
+				p {
+					filter: blur(8px);
+				}
+				.test-result-icon {
+					filter: blur(10px);
+				}
+			}
 		}
 
 		.block.bg-violet,

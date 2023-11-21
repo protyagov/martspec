@@ -239,16 +239,17 @@ export default function ColorTest() {
 							</div>
 							<div className="row g-4">
 								{
-									["E", "A", "P", "O", "I", "G"].map((groupTitle) => (
+										[
+											["E", testResult.color],
+											["A", IconColor.RED],
+											["P", IconColor.ORANGE]
+										].map(([groupTitle, iconColor]) => (
 										<div className="col-lg-4 col-sm-6 col-12">
-											<div className="block bg-gray">
+											<div className={"block bg-gray" + (groupTitle !== "E" ? " blured" : "")}>
 												<h3>{_("COLOR_TEST.GROUP_TITLE_" + groupTitle)}</h3>
-												{
-													groupTitle === "E" ?
-														<>
 															<div
 																className="d-flex"
-																style={{ "--color": "#" + testResult.color } as React.CSSProperties}
+																style={{ "--color": "#" + iconColor } as React.CSSProperties}
 															>
 																{
 																	testResult.icons.map(icon => (
@@ -257,14 +258,6 @@ export default function ColorTest() {
 																}
 															</div>
 															<p className="mt-2">{_("COLOR_TEST._" + testResult.lvl)}</p>
-														</>
-														:
-														<img
-															src="/img/page/emotion/emotion-color-test-result-blur.png"
-															className="test-result-blur"
-															alt=""
-														/>
-												}
 											</div>
 										</div>
 									))
