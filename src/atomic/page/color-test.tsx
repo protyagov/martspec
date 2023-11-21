@@ -218,13 +218,8 @@ export default function ColorTest() {
 									<div key={sector.color}>
 										<button
 											onClick={() => setUserSelectionCollection(current => [...current, sector.id])}
-											className="sector"
-											style={
-												{
-													background: '#' + sector.color,
-													visibility: userSelectionCollection.includes(sector.id) ? "hidden" : "visible"
-												}
-											}
+											className={"sector" + (userSelectionCollection.includes(sector.id) ? " selected" : "")}
+											style={{background: '#' + sector.color}}
 										></button>
 									</div>
 								))}

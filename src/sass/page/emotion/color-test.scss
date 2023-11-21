@@ -33,7 +33,17 @@
 			outline: none;
 			height: 100%;
 			width: 100%;
+
 			border-radius: 1.5rem;
+
+			visibility: visible;
+  		opacity: 1;
+
+			&.selected {
+				visibility: hidden;
+				opacity: 0;
+				transition: opacity .2s, visibility 0s .2s ease-in-out;
+			}
 		}
 	}
 
