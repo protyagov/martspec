@@ -247,17 +247,17 @@ export default function ColorTest() {
 										<div className="col-lg-4 col-sm-6 col-12">
 											<div className={"block bg-gray" + (groupTitle !== "E" ? " blured" : "")}>
 												<h3>{_("COLOR_TEST.GROUP_TITLE_" + groupTitle)}</h3>
-															<div
-																className="d-flex"
-																style={{ "--color": "#" + iconColor } as React.CSSProperties}
-															>
-																{
-																	testResult.icons.map(icon => (
-																		<div className={"me-2 test-result-icon " + icon}></div>
-																	))
-																}
-															</div>
-															<p className="mt-2">{_("COLOR_TEST._" + testResult.lvl)}</p>
+													<div
+														className="d-flex"
+														style={{ "--color": "#" + iconColor } as React.CSSProperties}
+													>
+														{
+															testResult.icons.map(icon => (
+																<div className={"me-2 test-result-icon " + icon}></div>
+															))
+														}
+													</div>
+													<p className="mt-2">{_("COLOR_TEST._" + testResult.lvl)}</p>
 											</div>
 										</div>
 									))
