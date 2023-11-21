@@ -212,9 +212,10 @@ export default function ColorTest() {
 									<p className="mb-6">{_("COLOR_TEST.TEST_DESC")}</p>
 								</div>
 							</div>
-							<div className="row flex-wrap justify-content-center g-4 color-sectors">
+							<div className="row g-4">
+								<div className="color-sectors">
 								{sectorModelCollection.map((sector) => (
-									<div key={sector.color} className="col-lg-3 col-6">
+									<div key={sector.color}>
 										<button
 											onClick={() => setUserSelectionCollection(current => [...current, sector.id])}
 											className="sector"
@@ -227,6 +228,7 @@ export default function ColorTest() {
 										></button>
 									</div>
 								))}
+								</div>
 							</div>
 						</section>
 						:
