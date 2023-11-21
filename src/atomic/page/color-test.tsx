@@ -244,7 +244,7 @@ export default function ColorTest() {
 											["A", IconColor.RED],
 											["P", IconColor.ORANGE]
 										].map(([groupTitle, iconColor]) => (
-										<div className="col-lg-4 col-sm-6 col-12">
+										<div key={groupTitle} className="col-lg-4 col-sm-6 col-12">
 											<div className={"block bg-gray" + (groupTitle !== "E" ? " blured" : "")}>
 												<h3>{_("COLOR_TEST.GROUP_TITLE_" + groupTitle)}</h3>
 													<div
@@ -252,8 +252,8 @@ export default function ColorTest() {
 														style={{ "--color": "#" + iconColor } as React.CSSProperties}
 													>
 														{
-															testResult.icons.map(icon => (
-																<div className={"me-2 test-result-icon " + icon}></div>
+															testResult.icons.map((icon, idx) => (
+																<div key={groupTitle + "-icon-" + idx} className={"me-2 test-result-icon " + icon}></div>
 															))
 														}
 													</div>
