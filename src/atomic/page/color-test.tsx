@@ -170,6 +170,15 @@ const enum IconColor {
 	GREEN = "A8E03B",
 }
 
+const useTestResultScroll = ([resultExists, resultRef]: useTestResultScrollArgs) => {
+	React.useLayoutEffect(() => {
+		if (!resultExists) return;
+		resultRef.current?.scrollIntoView({ behavior: "smooth" });
+	}, [resultExists]);
+}
+
+type useTestResultScrollArgs = [boolean, React.RefObject<HTMLElement>];
+
 export default function ColorTest() {
 	const initSectors = COLORS.map((color, id) => ({ color, id }));
 	
@@ -179,9 +188,13 @@ export default function ColorTest() {
 
 	const [testResult, setTestResult] = React.useState<TestResult>(null);
 
+	const testResultRef = React.useRef<HTMLElement>(null);
+
 	useShuffled([sectorModelCollection, setSectorModelCollection]);
 
 	useSelected([userSelectionCollection, setTestResult]);
+
+	useTestResultScroll([!!testResult, testResultRef]);
 
 	return (
 		<>
@@ -228,7 +241,7 @@ export default function ColorTest() {
 						</section>
 						:
 						<>
-						<section className="test-result">
+						<section ref={testResultRef} className="test-result">
 							<div className="row mb-0">
 								<div className="col-12">
 									<h2 className="mb-7">{_("COLOR_TEST.RES")}</h2>
