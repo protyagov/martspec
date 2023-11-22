@@ -250,7 +250,10 @@ export default function ColorTest() {
                             [
                                 ["E", testResult.color],
                                 ["A", IconColor.RED],
-                                ["P", IconColor.ORANGE]
+                                ["P", IconColor.GREEN],
+                                ["G", IconColor.YELLOW],
+                                ["I", IconColor.YELLOW],
+                                ["O", IconColor.ORANGE]
                             ].map(([groupTitle, iconColor]) => (
                                 <div key={groupTitle} className="col-lg-4 col-sm-6 col-12">
                                     <div className={"block bg-gray" + (groupTitle !== "E" ? " blured" : "")}>
