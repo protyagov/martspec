@@ -19,10 +19,13 @@
   }
 
 	.color-sectors {
+		$max-sector-height: 16rem;
+		$min-sector-height: 9rem;
+
 		display: grid;
 		gap: 1.5rem;
 		grid-template-columns: repeat(4, 1fr);
-		grid-auto-rows: minmax(9rem, 14vw);
+		grid-auto-rows: minmax($min-sector-height, calc(min(14vw, $max-sector-height)));
 
 		@include media-breakpoint-down(md) {
 			grid-template-columns: repeat(2, 1fr);
