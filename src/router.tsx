@@ -22,7 +22,7 @@ import Harmony from "./atomic/page/emotion/harmony";
 import Independence from "./atomic/page/emotion/independence";
 import Energy from "./atomic/page/emotion/energy";
 import Openness from "./atomic/page/emotion/openness";
-import ColorTest from "./atomic/page/color-test";
+import ColorTest from "./atomic/page/emotion/color-test";
 
 export function App() {
     var redirect = sessionStorage.redirect;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import _, { Locale } from 'src/i18n/locale';
 import NavigationBar from 'src/atomic/organism/navbar';
-import { Footer } from '../organism/footer';
+import { Footer } from '../../organism/footer';
 
 const useShuffled = ([modelCollection, setCollection]: useShuffleArgs) => {
 
