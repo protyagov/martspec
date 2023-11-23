@@ -58,7 +58,7 @@ export default function Emotion() {
                     <div className="col-lg-6">
                         <h2>{_("EMOTION.HEAD1")}</h2>
                         <p>{_("EMOTION.DESK1")}</p>
-                        <a href={Locale.i18nLink("coming-soon")} className="ms-btn-large">{_("EMOTION.BTN1")}</a>
+                        <a href={Locale.i18nLink("emotion/color-test")} className="ms-btn-large">{_("EMOTION.BTN1")}</a>
                     </div>
                     <div className="col-lg-6">
                         <ImageI18N src="/img/page/emotion/emotion-screen-april-en.webp" w={512} h={598} cls="ms-base-image mt-mob-xs" alt={_("EMOTION.ALT1")} />
