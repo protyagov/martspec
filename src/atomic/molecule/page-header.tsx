@@ -1,5 +1,6 @@
 import React from "react";
 import _, { Locale } from "src/i18n/locale";
+import ButtonApple from "../atom/button-apple";
 
 type PageHeaderProps = {
     title: string;
@@ -61,20 +62,7 @@ export default function PageHeader(props: (
                     </div>
 
                     {appId && (
-                        <a
-                            href={`https://apps.apple.com/${_(
-                                "COUNTRY_CODE"
-                            )}/app/id${appId}?l=${Locale.language}`}
-                            target="_blank"
-                            title={_(appDownloadTitle)}
-                            className="ms-btn-apple"
-                            style={{
-                                backgroundImage:
-                                    "url(/img/apple_btn/" +
-                                    Locale.language +
-                                    ".svg)",
-                            }}
-                        ></a>
+                       <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle}/>
                     )}
                 </div>
             </div>
