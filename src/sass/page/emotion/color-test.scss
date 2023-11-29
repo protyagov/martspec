@@ -51,6 +51,8 @@
 	}
 
 	.test-result {
+		white-space: pre-line;
+		
 		.row:not(:only-child):not(:last-child) {
       margin-bottom: 5.3rem;
     }

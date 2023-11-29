@@ -299,9 +299,7 @@ export default function ColorTest() {
                     <div className="row">
                         <div className="col-12">
                             <h3 className="mb-3">{_("COLOR_TEST.GROUP_DESC")}</h3>
-                            <p className="mb-4">{_("COLOR_TEST.GROUP_DESC1_E")}</p>
-                            <p className="mb-4">{_("COLOR_TEST.GROUP_DESC2_E")}</p>
-                            <p className="mb-0">{_("COLOR_TEST.GROUP_DESC3_E")}</p>
+                            <p className="mb-0">{_("COLOR_TEST.GROUP_DESC_E")}</p>
                         </div>
                     </div>
                 </section>
