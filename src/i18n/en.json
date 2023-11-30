@@ -1118,8 +1118,8 @@
         "DESK4_3": "Essentially, productive people are better equipped to seize opportunities, experience personal satisfaction, and positively influence others. Their ability to harmonize their efforts with their goals contributes to a life marked by achievement, satisfaction, and meaningful connections.",
         "HEAD5": "How to become more productive?",
         "DESK5_1": "Increasing productivity is not something that happens overnight. While it may seem easy to some people, their ability to plan and use their time effectively often has more to do with established habits that lead to increased productivity over time. To become more productive, focus on the following key strategies:",        "LIST5": {
-            "LI1_HEAD": "Set clear goals.",
-            "LI1_TEXT": "Identify specific, achievable goals to guide your efforts.",
+            "LI1_HEAD": "Set clear goals:",
+            "LI1_TEXT": "identify specific, achievable goals to guide your efforts.",
             "LI2_HEAD": "Prioritize tasks:",
             "LI2_TEXT": "identify high-impact tasks and solve them first.",
             "LI3_HEAD": "Minimize distractions:",
@@ -1127,11 +1127,11 @@
             "LI4_HEAD": "Plan and Organize:",
             "LI4_TEXT": "use to-do lists, calendars and tools for effective planning.",
             "LI5_HEAD": "Task break:",
-            "LI5_TEXT": "Break tasks into smaller, manageable steps to stay motivated.",
+            "LI5_TEXT": "break tasks into smaller, manageable steps to stay motivated.",
             "LI6_HEAD": "Delegate:",
-            "LI6_TEXT": "Whenever possible, delegate tasks to others to free up your time.",
+            "LI6_TEXT": "whenever possible, delegate tasks to others to free up your time.",
             "LI7_HEAD": "Technology Usage:",
-            "LI7_TEXT": "Use apps and tools to streamline tasks and communication."
+            "LI7_TEXT": "use apps and tools to streamline tasks and communication."
         },
         "DESK5_2": "If you want to be more productive, try to emulate these rules. Goal orientation, organization, focus, self-care and distraction skills are all important skills for anyone who wants to make the most of their time.",
         "HEAD6": "Careers for productive people",
