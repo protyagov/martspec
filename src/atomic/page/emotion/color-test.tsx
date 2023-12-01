@@ -139,10 +139,68 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
         };
     };
 
+    const monProductivity = (): number => {
+        const sc = selectedCollection;
+        const autogen_norm_arr = [7, 5, 3, 1, 2, 4, 6, 8];
+        
+        let tdfan = 0;
+
+        for (let i = 0; i <= 6; i++) {
+            const colorNumber = sc[i];
+            if (colorNumber >= 0 && colorNumber <= 7) {
+                const normIdx = autogen_norm_arr[colorNumber];
+                tdfan += Math.abs(normIdx - (i + 1));
+            }
+        };
+
+        return 32 - tdfan;
+    }
+
+    const productivityForValue = (v: number): TestResultModel => {
+        switch (true) {
+            case v >= 0 && v <= 7:
+                return {
+                    lvl: "P1",
+                    icons: [v >= 3 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
+                    color: IconColor.RED,
+                    perc: 0
+                };
+            case v >= 8 && v <= 13:
+                return {
+                    lvl: "P2",
+                    icons: [Icon.FULL, v >= 10 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
+                    color: IconColor.ORANGE,
+                    perc: 0
+                };
+            case v >= 14 && v <= 21:
+                return {
+                    lvl: "P3",
+                    icons: [Icon.FULL, Icon.FULL, v >= 17 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
+                    color: IconColor.YELLOW,
+                    perc: 0
+                };
+            case v >= 22 && v <= 27:
+                return {
+                    lvl: "P4",
+                    icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 24 ? Icon.HALF : Icon.NULL, Icon.NULL],
+                    color: IconColor.GREEN,
+                    perc: 0
+                };
+            default:
+                return {
+                    lvl: "P5",
+                    icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v <= 29 ? Icon.HALF : Icon.FULL],
+                    color: IconColor.GREEN,
+                    perc: 0
+                };
+        }
+    };
+
     React.useLayoutEffect(() => {
         if (selectedCollection.length !== COLORS.length) return;
         setResult({
             E: energyForValue(monEnergy()),
+            P: productivityForValue(monProductivity())
         });
     }, [selectedCollection]);
 };
