@@ -96,7 +96,7 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
         return (18 - iRed - iYel) / (18 - iBlu - iGrn);
     };
 
-    const energyForValue = (v: number): TestResult => {
+    const energyForValue = (v: number): TestResultModel => {
 
         const percForValue = (v: number): number => Math.min(Math.floor(v * 100 / 3.2), 100);
 
@@ -141,7 +141,9 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
 
     React.useLayoutEffect(() => {
         if (selectedCollection.length !== COLORS.length) return;
-        setResult(energyForValue(monEnergy()));
+        setResult({
+            E: energyForValue(monEnergy()),
+        });
     }, [selectedCollection]);
 };
 
@@ -150,7 +152,11 @@ type useSelectedArgs = [
     React.Dispatch<React.SetStateAction<TestResult>>
 ];
 
-type TestResult = {
+type TestResult<T = TestResultModel> = {
+    [key in typeof RESULT_GROUPS[number]]?: T
+};
+
+type TestResultModel = {
     lvl: string,
     icons: Icon[],
     color: IconColor,
@@ -169,6 +175,15 @@ const enum IconColor {
     YELLOW = "E0BD64",
     GREEN = "A8E03B",
 };
+
+const RESULT_GROUPS = [
+    "E",
+    "A",
+    "P",
+    "G",
+    "I",
+    "O"
+] as const;
 
 const useTestResultScroll = ([resultExists, resultRef]: useTestResultScrollArgs) => {
     React.useLayoutEffect(() => {
@@ -246,30 +261,24 @@ export default function ColorTest() {
                         </div>
                     </div>
                     <div className="row g-4">
-                        {
-                            [
-                                ["E", testResult.color],
-                                ["A", IconColor.RED],
-                                ["P", IconColor.GREEN],
-                                ["G", IconColor.YELLOW],
-                                ["I", IconColor.YELLOW],
-                                ["O", IconColor.ORANGE]
-                            ].map(([groupTitle, iconColor]) => (
+                        {        
+                            RESULT_GROUPS
+                            .map((groupTitle) => (
                                 <div key={groupTitle} className="col-lg-4 col-sm-6 col-12">
-                                    <div className={"block bg-gray" + (groupTitle !== "E" ? " blured" : "")}>
+                                    <div className={"block bg-gray" + (!testResult[groupTitle] ? " blured" : "")}>
                                         <h3>{_("COLOR_TEST.GROUP_TITLE_" + groupTitle)}</h3>
                                         <div
                                             className="d-flex"
-                                            style={{ "--color": "#" + iconColor } as React.CSSProperties}
+                                            style={{ "--color": "#" + (testResult[groupTitle]?.color || "000") } as React.CSSProperties}
                                         >
-                                            {testResult.icons.map((icon, idx) => (
+                                            {testResult[groupTitle]?.icons.map((icon, idx) => (
                                                 <div
                                                     key={groupTitle + "-icon-" + idx}
                                                     className={"me-2 test-result-icon " + icon}
                                                 ></div>
                                             ))}
                                         </div>
-                                        <p className="mt-2">{_("COLOR_TEST._" + testResult.lvl)}</p>
+                                        <p className="mt-2">{_("COLOR_TEST._" + testResult[groupTitle]?.lvl)}</p>
                                     </div>
                                 </div>
                             ))
