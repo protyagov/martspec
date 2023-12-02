@@ -182,7 +182,7 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
                 return {
                     lvl: "P4",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 24 ? Icon.HALF : Icon.NULL, Icon.NULL],
-                    color: IconColor.GREEN,
+                    color: IconColor.L_GREEN,
                     perc: 0
                 };
             default:
@@ -251,7 +251,7 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
                 return {
                     lvl: "A2",
                     icons: [Icon.FULL, v >= 4 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.GREEN,
+                    color: IconColor.L_GREEN,
                     perc: 0
                 };
             case v >= 5 && v < 8:
@@ -317,7 +317,8 @@ const enum IconColor {
     RED = "FF392E",
     ORANGE = "FE8429",
     YELLOW = "E0BD64",
-    GREEN = "A8E03B",
+    GREEN = "489474",
+    L_GREEN = "A3E23D"
 };
 
 const RESULT_GROUPS = ["E", "A", "P", "G", "I", "O"] as const;
