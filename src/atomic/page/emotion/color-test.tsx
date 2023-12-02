@@ -196,11 +196,96 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
         }
     };
 
+    function monAnxiety() {
+        const sc = selectedCollection;
+        const scTypes = sc.map(id => colorTypeById(id));
+
+        function colorTypeById(id: number) {
+            switch (id) {
+                case 0:
+                case 6:
+                case 7:
+                    return 'Acrom';
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                    return 'Prime';
+                default:
+                    return 'Mixed';
+            }
+        };
+
+        const resALev = [];
+    
+        if (scTypes[5] === 'Prime') {
+            resALev[5] = 1;
+        }
+        if (scTypes[6] === 'Prime') {
+            resALev[6] = 2;
+        }
+        if (scTypes[7] === 'Prime') {
+            resALev[7] = 3;
+        }
+        if (scTypes[2] === 'Acrom') {
+            resALev[2] = 1;
+        }
+        if (scTypes[1] === 'Acrom') {
+            resALev[1] = 2;
+        }
+        if (scTypes[0] === 'Acrom') {
+            resALev[0] = 3;
+        }
+    
+        return resALev.reduce((sum, value) => sum + value, 0);
+    }
+    
+    const anxietyForValue = (v: number) => {
+        switch (true) {
+            case v >= 0 && v < 3:
+                return {
+                    lvl: "A1",
+                    icons: [v >= 1 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
+                    color: IconColor.GREEN,
+                    perc: 0
+                };
+            case v < 5:
+                return {
+                    lvl: "A2",
+                    icons: [Icon.FULL, v >= 4 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
+                    color: IconColor.GREEN,
+                    perc: 0
+                };
+            case v < 8:
+                return {
+                    lvl: "A3",
+                    icons: [Icon.FULL, Icon.FULL, v >= 6 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
+                    color: IconColor.YELLOW,
+                    perc: 0
+                };
+            case v < 10:
+                return {
+                    lvl: "A4",
+                    icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 9 ? Icon.HALF : Icon.NULL, Icon.NULL],
+                    color: IconColor.ORANGE,
+                    perc: 0
+                };
+            default:
+                return {
+                    lvl: "A5",
+                    icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v < 11 ? Icon.HALF : Icon.FULL],
+                    color: IconColor.RED,
+                    perc: 0
+                };
+        }
+    }
+
     React.useLayoutEffect(() => {
         if (selectedCollection.length !== COLORS.length) return;
         setResult({
             E: energyForValue(monEnergy()),
-            P: productivityForValue(monProductivity())
+            P: productivityForValue(monProductivity()),
+            A: anxietyForValue(monAnxiety()),
         });
     }, [selectedCollection]);
 };
