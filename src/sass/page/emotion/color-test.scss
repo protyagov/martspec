@@ -70,6 +70,7 @@
 			&.blured {
 				p {
 					filter: blur(8px);
+					user-select: none;
 				}
 				.test-result-icon {
 					filter: blur(10px);
