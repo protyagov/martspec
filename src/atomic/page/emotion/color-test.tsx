@@ -247,21 +247,21 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
                     color: IconColor.GREEN,
                     perc: 0
                 };
-            case v < 5:
+            case v >= 3 && v < 5:
                 return {
                     lvl: "A2",
                     icons: [Icon.FULL, v >= 4 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
                     color: IconColor.GREEN,
                     perc: 0
                 };
-            case v < 8:
+            case v >= 5 && v < 8:
                 return {
                     lvl: "A3",
                     icons: [Icon.FULL, Icon.FULL, v >= 6 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
                     color: IconColor.YELLOW,
                     perc: 0
                 };
-            case v < 10:
+            case v >= 8 && v < 10:
                 return {
                     lvl: "A4",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 9 ? Icon.HALF : Icon.NULL, Icon.NULL],
