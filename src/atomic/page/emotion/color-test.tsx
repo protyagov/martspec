@@ -1,7 +1,7 @@
-import * as React from 'react';
-import _, { Locale } from 'src/i18n/locale';
-import NavigationBar from 'src/atomic/organism/navbar';
-import { Footer } from '../../organism/footer';
+import * as React from "react";
+import _, { Locale } from "src/i18n/locale";
+import NavigationBar from "src/atomic/organism/navbar";
+import { Footer } from "../../organism/footer";
 
 const useShuffled = ([modelCollection, setCollection]: useShuffleArgs) => {
 
@@ -69,10 +69,10 @@ const COLORS = [
 ] as const;
 
 const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
+    const sc = selectedCollection;
 
     const monEnergy = (): number => {
         let iRed = 0, iYel = 0, iBlu = 0, iGrn = 0;
-        const sc = selectedCollection;
 
         for (let i = 0; i <= 7; i++) {
             switch (sc[i]) {
@@ -140,15 +140,14 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
     };
 
     const monProductivity = (): number => {
-        const sc = selectedCollection;
-        const autogen_norm_arr = [7, 5, 3, 1, 2, 4, 6, 8];
+        const autogenNormArr = [7, 5, 3, 1, 2, 4, 6, 8];
         
         let tdfan = 0;
 
         for (let i = 0; i <= 6; i++) {
             const colorNumber = sc[i];
             if (colorNumber >= 0 && colorNumber <= 7) {
-                const normIdx = autogen_norm_arr[colorNumber];
+                const normIdx = autogenNormArr[colorNumber];
                 tdfan += Math.abs(normIdx - (i + 1));
             }
         };
@@ -197,7 +196,6 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
     };
 
     function monAnxiety() {
-        const sc = selectedCollection;
         const scTypes = sc.map(id => colorTypeById(id));
 
         function colorTypeById(id: number) {
@@ -205,35 +203,35 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
                 case 0:
                 case 6:
                 case 7:
-                    return 'Acrom';
+                    return "Acrom";
                 case 1:
                 case 2:
                 case 3:
                 case 4:
-                    return 'Prime';
+                    return "Prime";
                 default:
-                    return 'Mixed';
+                    return "Mixed";
             }
         };
 
         const resALev = [];
     
-        if (scTypes[5] === 'Prime') {
+        if (scTypes[5] === "Prime") {
             resALev[5] = 1;
         }
-        if (scTypes[6] === 'Prime') {
+        if (scTypes[6] === "Prime") {
             resALev[6] = 2;
         }
-        if (scTypes[7] === 'Prime') {
+        if (scTypes[7] === "Prime") {
             resALev[7] = 3;
         }
-        if (scTypes[2] === 'Acrom') {
+        if (scTypes[2] === "Acrom") {
             resALev[2] = 1;
         }
-        if (scTypes[1] === 'Acrom') {
+        if (scTypes[1] === "Acrom") {
             resALev[1] = 2;
         }
-        if (scTypes[0] === 'Acrom') {
+        if (scTypes[0] === "Acrom") {
             resALev[0] = 3;
         }
     
@@ -281,7 +279,10 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
     }
 
     React.useLayoutEffect(() => {
-        if (selectedCollection.length !== COLORS.length) return;
+        const scFull = sc.length === COLORS.length;
+
+        if (!scFull) return;
+
         setResult({
             E: energyForValue(monEnergy()),
             P: productivityForValue(monProductivity()),
@@ -319,14 +320,7 @@ const enum IconColor {
     GREEN = "A8E03B",
 };
 
-const RESULT_GROUPS = [
-    "E",
-    "A",
-    "P",
-    "G",
-    "I",
-    "O"
-] as const;
+const RESULT_GROUPS = ["E", "A", "P", "G", "I", "O"] as const;
 
 const useTestResultScroll = ([resultExists, resultRef]: useTestResultScrollArgs) => {
     React.useLayoutEffect(() => {
@@ -390,7 +384,7 @@ export default function ColorTest() {
                                     <button
                                         onClick={() => setUserSelectionCollection(current => [...current, sector.id])}
                                         className={"sector" + (userSelectionCollection.includes(sector.id) ? " selected" : "")}
-                                        style={{background: '#' + sector.color}}
+                                        style={{background: "#" + sector.color}}
                                     ></button>
                                 </div>
                             ))}
