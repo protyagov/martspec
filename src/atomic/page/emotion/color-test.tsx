@@ -346,6 +346,8 @@ export default function ColorTest() {
 
     const [testResult, setTestResult] = React.useState<TestResult>(null);
 
+    const [displayedResult, setDisplayedResult] = React.useState<typeof RESULT_GROUPS[number]>("E");
+
     const testResultRef = React.useRef<HTMLElement>(null);
 
     useShuffled([sectorModelCollection, setSectorModelCollection]);
@@ -405,45 +407,52 @@ export default function ColorTest() {
                     </div>
                     <div className="row g-4">
                         {        
-                            RESULT_GROUPS
-                            .map((groupTitle) => (
-                                <div key={groupTitle} className="col-lg-4 col-sm-6 col-12">
-                                    <div className={"block bg-gray" + (!testResult[groupTitle] ? " blured" : "")}>
+                            RESULT_GROUPS.map((groupTitle, idx, all) => {
+                                const groupResultExists = groupTitle in testResult;
+                                const result = testResult[groupTitle] || testResult[all[idx - 4]] || testResult["A"];
+
+                                return (
+                                <div
+                                    key={groupTitle}
+                                    className="col-lg-4 col-sm-6 col-12"
+                                    onClick={() => groupResultExists && setDisplayedResult(groupTitle)}
+                                >
+                                    <div className={"block bg-gray" + (groupResultExists ? "" : " blured")}>
                                         <h3>{_("COLOR_TEST.GROUP_TITLE_" + groupTitle)}</h3>
                                         <div
                                             className="d-flex"
-                                            style={{ "--color": "#" + (testResult[groupTitle]?.color || "000") } as React.CSSProperties}
+                                            style={{ "--color": "#" + result.color } as React.CSSProperties}
                                         >
-                                            {testResult[groupTitle]?.icons.map((icon, idx) => (
+                                            {result.icons.map((icon, idx) => (
                                                 <div
                                                     key={groupTitle + "-icon-" + idx}
                                                     className={"me-2 test-result-icon " + icon}
                                                 ></div>
                                             ))}
                                         </div>
-                                        <p className="mt-2">{_("COLOR_TEST._" + testResult[groupTitle]?.lvl)}</p>
+                                        <p className="mt-2">{_("COLOR_TEST._" + result.lvl)}</p>
                                     </div>
                                 </div>
-                            ))
+                            )})
                         }
                     </div>
 
                     <div className="row mb-0">
                         <div className="col-12">
-                            <p className="mb-7">{_("COLOR_TEST." + testResult.lvl)}</p>
+                            <p className="mb-7">{_("COLOR_TEST." + testResult[displayedResult]?.lvl)}</p>
                         </div>
                     </div>
                     <div className="row g-4">
                         <div className="col-md-6 col-12 text-center">
                             <div className="block bg-violet">
                                 <p>{_("COLOR_TEST.LEV")}</p>
-                                <h2 className="mb-0">{_("COLOR_TEST._" + testResult.lvl)}</h2>
+                                <h2 className="mb-0">{_("COLOR_TEST._" + testResult[displayedResult]?.lvl)}</h2>
                             </div>
                         </div>
                         <div className="col-md-6 col-12 text-center">
                             <div className="block bg-yellow">
                                 <p>{_("COLOR_TEST.PERC")}</p>
-                                <h2 className="mb-0">{testResult.perc + "%"}</h2>
+                                <h2 className="mb-0">{testResult[displayedResult]?.perc + "%"}</h2>
                             </div>
                         </div>
                     </div>
@@ -451,7 +460,7 @@ export default function ColorTest() {
                     <div className="row">
                         <div className="col-12">
                             <h3 className="mb-3">{_("COLOR_TEST.GROUP_DESC")}</h3>
-                            <p className="mb-0">{_("COLOR_TEST.GROUP_DESC_E")}</p>
+                            <p className="mb-0">{_("COLOR_TEST.GROUP_DESC_" + displayedResult)}</p>
                         </div>
                     </div>
                 </section>
