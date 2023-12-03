@@ -102,7 +102,7 @@ const useSelected = (
     const energyForValue = (v: number): TestResultModel => {
 
         const common = {
-            perc: percForValue(v, 3),
+            perc: percForValue(v, 2.8),
         };
 
         switch (true) {
@@ -163,7 +163,7 @@ const useSelected = (
     const productivityForValue = (v: number): TestResultModel => {
 
         const common = {
-            perc: percForValue(v, 30),
+            perc: percForValue(v, 35),
         };
 
         switch (true) {
@@ -251,7 +251,7 @@ const useSelected = (
     const anxietyForValue = (v: number) => {
 
         const common = {
-            perc: percForValue(v, 12),
+            perc: percForValue(v, 15),
         };
 
         switch (true) {
