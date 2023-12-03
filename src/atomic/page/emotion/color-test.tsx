@@ -109,35 +109,35 @@ const useSelected = (
             case v >= -1 && v < 0.5:
                 return {
                     ...common,
-                    lvl: "E1",
+                    lev: "E1",
                     icons: [v >= 0.2 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
                     color: IconColor.RED
                 };
             case v >= 0.5 && v < 0.9:
                 return {
                     ...common,
-                    lvl: "E2",
+                    lev: "E2",
                     icons: [Icon.FULL, v >= 0.7 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
                     color: IconColor.YELLOW
                 };
             case v >= 0.9 && v < 1.3:
                 return {
                     ...common,
-                    lvl: "E3",
+                    lev: "E3",
                     icons: [Icon.FULL, Icon.FULL, v >= 1.1 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
                     color: IconColor.GREEN
                 };
             case v >= 1.3 && v < 1.9:
                 return {
                     ...common,
-                    lvl: "E3",
+                    lev: "E3",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 1.6 ? Icon.HALF : Icon.NULL, Icon.NULL],
                     color: IconColor.ORANGE
                 };
             default:
                 return {
                     ...common,
-                    lvl: "E4",
+                    lev: "E4",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v <= 2.6 ? Icon.HALF : Icon.FULL],
                     color: IconColor.RED
                 };
@@ -170,35 +170,35 @@ const useSelected = (
             case v >= 0 && v <= 7:
                 return {
                     ...common,
-                    lvl: "P1",
+                    lev: "P1",
                     icons: [v >= 3 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
                     color: IconColor.RED
                 };
             case v >= 8 && v <= 13:
                 return {
                     ...common,
-                    lvl: "P2",
+                    lev: "P2",
                     icons: [Icon.FULL, v >= 10 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
                     color: IconColor.ORANGE
                 };
             case v >= 14 && v <= 21:
                 return {
                     ...common,
-                    lvl: "P3",
+                    lev: "P3",
                     icons: [Icon.FULL, Icon.FULL, v >= 17 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
                     color: IconColor.YELLOW
                 };
             case v >= 22 && v <= 27:
                 return {
                     ...common,
-                    lvl: "P4",
+                    lev: "P4",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 24 ? Icon.HALF : Icon.NULL, Icon.NULL],
                     color: IconColor.L_GREEN
                 };
             default:
                 return {
                     ...common,
-                    lvl: "P5",
+                    lev: "P5",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v <= 29 ? Icon.HALF : Icon.FULL],
                     color: IconColor.GREEN
                 };
@@ -258,35 +258,35 @@ const useSelected = (
             case v >= 0 && v < 3:
                 return {
                     ...common,
-                    lvl: "A1",
+                    lev: "A1",
                     icons: [v >= 1 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
                     color: IconColor.GREEN
                 };
             case v >= 3 && v < 5:
                 return {
                     ...common,
-                    lvl: "A2",
+                    lev: "A2",
                     icons: [Icon.FULL, v >= 4 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
                     color: IconColor.L_GREEN
                 };
             case v >= 5 && v < 8:
                 return {
                     ...common,
-                    lvl: "A3",
+                    lev: "A3",
                     icons: [Icon.FULL, Icon.FULL, v >= 6 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
                     color: IconColor.YELLOW
                 };
             case v >= 8 && v < 10:
                 return {
                     ...common,
-                    lvl: "A4",
+                    lev: "A4",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 9 ? Icon.HALF : Icon.NULL, Icon.NULL],
                     color: IconColor.ORANGE
                 };
             default:
                 return {
                     ...common,
-                    lvl: "A5",
+                    lev: "A5",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v < 11 ? Icon.HALF : Icon.FULL],
                     color: IconColor.RED
                 };
@@ -313,7 +313,7 @@ type TestResult<T = TestResultModel> = {
 };
 
 type TestResultModel = {
-    lvl: string,
+    lev: string,
     icons: Icon[],
     color: IconColor,
     perc: number
@@ -435,7 +435,7 @@ export default function ColorTest() {
                                                 ></div>
                                             ))}
                                         </div>
-                                        <p className="mt-2">{_("COLOR_TEST._" + result.lvl)}</p>
+                                        <p className="mt-2">{_("COLOR_TEST._" + result.lev)}</p>
                                     </div>
                                 </div>
                             )})
@@ -444,14 +444,14 @@ export default function ColorTest() {
 
                     <div className="row mb-0">
                         <div className="col-12">
-                            <p className="mb-7">{_("COLOR_TEST." + testResult[displayedResult]?.lvl)}</p>
+                            <p className="mb-7">{_("COLOR_TEST." + testResult[displayedResult]?.lev)}</p>
                         </div>
                     </div>
                     <div className="row g-4">
                         <div className="col-md-6 col-12 text-center">
                             <div className="block bg-violet">
                                 <p>{_("COLOR_TEST.LEV")}</p>
-                                <h2 className="mb-0">{_("COLOR_TEST._" + testResult[displayedResult]?.lvl)}</h2>
+                                <h2 className="mb-0">{_("COLOR_TEST._" + testResult[displayedResult]?.lev)}</h2>
                             </div>
                         </div>
                         <div className="col-md-6 col-12 text-center">
