@@ -3,7 +3,22 @@ import _, { Locale } from "src/i18n/locale";
 import NavigationBar from "src/atomic/organism/navbar";
 import { Footer } from "../../organism/footer";
 
-const useShuffled = ([modelCollection, setCollection]: useShuffleArgs) => {
+const COLORS = [
+    "98938D",
+    "004983",
+    "1D9772",
+    "F12F23",
+    "F2DD00",
+    "D42481",
+    "C55223",
+    "000000"
+] as const;
+
+const RESULT_GROUPS = ["E", "A", "P", "G", "I", "O"] as const;
+
+const useShuffled = (
+    [modelCollection, setCollection]: [SectorModel[], React.Dispatch<React.SetStateAction<SectorModel[]>>
+]) => {
 
     const shuffle = () => {
         setCollection((current) =>
@@ -45,11 +60,6 @@ const useShuffled = ([modelCollection, setCollection]: useShuffleArgs) => {
     }, [modelCollection]);
 };
 
-type useShuffleArgs = [
-    SectorModel[],
-    React.Dispatch<React.SetStateAction<SectorModel[]>>
-];
-
 type SectorModel = {
     id: SectorModelId;
     color: typeof COLORS[number];
@@ -57,18 +67,9 @@ type SectorModel = {
 
 type SectorModelId = number;
 
-const COLORS = [
-    "98938D",
-    "004983",
-    "1D9772",
-    "F12F23",
-    "F2DD00",
-    "D42481",
-    "C55223",
-    "000000"
-] as const;
-
-const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
+const useSelected = (
+    [selectedCollection, setResult]: [SectorModel["id"][], React.Dispatch<React.SetStateAction<TestResult>>
+]) => {
     const sc = selectedCollection;
 
     const percForValue = (v: number, scF: number): number => Math.min(Math.floor(v * 100 / scF), 100);
@@ -297,18 +298,15 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
 
         if (!scFull) return;
 
-        setResult({
+        const result = {
             E: energyForValue(monEnergy()),
             P: productivityForValue(monProductivity()),
             A: anxietyForValue(monAnxiety()),
-        });
+        };
+
+        setResult(result);
     }, [selectedCollection]);
 };
-
-type useSelectedArgs = [
-    SectorModel["id"][],
-    React.Dispatch<React.SetStateAction<TestResult>>
-];
 
 type TestResult<T = TestResultModel> = {
     [key in typeof RESULT_GROUPS[number]]?: T
@@ -335,16 +333,14 @@ const enum IconColor {
     L_GREEN = "A3E23D"
 };
 
-const RESULT_GROUPS = ["E", "A", "P", "G", "I", "O"] as const;
-
-const useTestResultScroll = ([resultExists, resultRef]: useTestResultScrollArgs) => {
+const useTestResultScroll = (
+    [resultExists, resultRef]: [boolean, React.RefObject<HTMLElement>]
+) => {
     React.useLayoutEffect(() => {
-        if (!resultExists) return;
-        resultRef.current?.scrollIntoView({ behavior: "smooth" });
+        if (!resultExists || !resultRef.current) return;
+        resultRef.current.scrollIntoView({ behavior: "smooth" });
     }, [resultExists]);
 };
-
-type useTestResultScrollArgs = [boolean, React.RefObject<HTMLElement>];
 
 export default function ColorTest() {
     const initSectors = COLORS.map((color, id) => ({ color, id }));
