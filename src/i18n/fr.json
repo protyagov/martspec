@@ -16,7 +16,7 @@
         "ABOUT": "À propos de nous"
     },
     "ELECTROLYTE": {
-        "HEAD": "Electrolyte",
+        "HEAD": "Électrolyte",
         "SUBHEAD": "les minéraux les plus vitaux",
         "ICO": "Icône du suivi de consommation d'électrolytes gratuit le plus simple pour Apple Watch. Gardez un œil sur la consommation de Magnésium, Calcium, Potassium, Fer. Connecté avec Apple Santé. Zéro publicité.",
         "TEXT": "Les électrolytes jouent un rôle essentiel dans le maintien de l'homéostasie dans le corps. Ils aident à réguler le cœur et la fonction neurologique, l'équilibre hydrique, l'apport d'oxygène, l'équilibre acido-basique et bien plus encore.",
@@ -1142,7 +1142,7 @@
         "DESK1_1": "La productivité est un terme souvent utilisé dans le monde des affaires, même s’il peut s’appliquer à tous les domaines de la vie. La productivité personnelle fait référence à la cohérence et à l'efficacité avec laquelle une personne accomplit une tâche ou atteint un objectif.",
         "DESK1_2": "La gestion du temps est un ensemble de compétences et d'outils qui contribuent à l'utilisation efficace du temps d'une personne. Cependant, le mot productivité dérive du mot produit et place donc le produit lui-même au centre de l'attention. Le temps et les ressources sont secondaires.",
         "HEAD2": "Caractéristiques d'une personne productive",
-        "DESK2": "Une personne productive est une personne qui gère efficacement son temps, ses ressources et ses efforts pour atteindre des objectifs et des résultats significatifs. Les personnes productives sont connues pour leur capacité à accomplir des tâches efficacement sans sacrifier la qualité. Voici quelques caractéristiques et habitudes clés d’une personne productive :",
+        "DESK2": "Une personne productive est une personne qui gère efficacement son temps, ses ressources et ses efforts pour atteindre des objectifs et des résultats significatifs. Les personnes productives sont connues pour leur capacité à accomplir des tâches efficacement sans sacrifier la qualité. Voici quelques caractéristiques et habitudes clés d’une personne productive:",
         "LIST2": {
             "LI1_HEAD": "Détermination.",
             "LI1_TEXT": "Les personnes productives fixent des objectifs et des priorités clairs. Ils savent clairement ce qu’ils veulent réaliser et travaillent avec détermination pour atteindre ces objectifs.",
@@ -1173,24 +1173,24 @@
         "HEAD5": "Comment devenir plus productif ?",
         "DESK5_1": "L’augmentation de la productivité ne se fait pas du jour au lendemain. Bien que cela puisse paraître facile à certaines personnes, leur capacité à planifier et à utiliser leur temps efficacement est souvent davantage liée à des habitudes établies qui conduisent à une productivité accrue au fil du temps. Pour devenir plus productif, concentrez-vous sur les stratégies clés suivantes :",
         "LIST5": {
-            "LI1_HEAD": "Fixez-vous des objectifs clairs.",
-            "LI1_TEXT": "Identifiez des objectifs spécifiques et réalisables pour guider vos efforts.",
-            "LI2_HEAD": "Prioriser les tâches :",
+            "LI1_HEAD": "Fixez-vous des objectifs clairs:",
+            "LI1_TEXT": "identifiez des objectifs spécifiques et réalisables pour guider vos efforts.",
+            "LI2_HEAD": "Prioriser les tâches:",
             "LI2_TEXT": "identifiez les tâches à fort impact et résolvez-les en premier.",
-            "LI3_HEAD": "Minimisez les distractions :",
+            "LI3_HEAD": "Minimisez les distractions:",
             "LI3_TEXT": "créez un espace de travail ciblé et limitez les distractions.",
-            "LI4_HEAD": "Planifier et organiser :",
+            "LI4_HEAD": "Planifier et organiser:",
             "LI4_TEXT": "utiliser des listes de tâches, des calendriers et des outils pour une planification efficace.",
-            "LI5_HEAD": "Pause de tâche :",
-            "LI5_TEXT": "Divisez les tâches en étapes plus petites et gérables pour rester motivé.",
+            "LI5_HEAD": "Pause de tâche:",
+            "LI5_TEXT": "divisez les tâches en étapes plus petites et gérables pour rester motivé.",
             "LI6_HEAD": "Déléguer:",
-            "LI6_TEXT": "Dans la mesure du possible, déléguez des tâches à d’autres pour libérer votre temps.",
-            "LI7_HEAD": "Utilisation de la technologie :",
-            "LI7_TEXT": "Utilisez des applications et des outils pour rationaliser les tâches et la communication."
+            "LI6_TEXT": "dans la mesure du possible, déléguez des tâches à d’autres pour libérer votre temps.",
+            "LI7_HEAD": "Utilisation de la technologie:",
+            "LI7_TEXT": "utilisez des applications et des outils pour rationaliser les tâches et la communication."
         },
         "DESK5_2": "Si vous voulez être plus productif, essayez d’imiter ces règles. L'orientation vers les objectifs, l'organisation, la concentration, les soins personnels et les capacités de distraction sont toutes des compétences importantes pour quiconque souhaite tirer le meilleur parti de son temps.",
         "HEAD6": "Des carrières pour des personnes productives",
-        "DESK6_1": "Une personne productive peut réussir dans un large éventail de carrières grâce à une gestion efficace du temps, une réflexion axée sur les objectifs et une concentration sur l’obtention de résultats. Cependant, lors du choix d’une carrière, il est important de tenir compte des forces, des intérêts et des valeurs de chacun. Voici quelques exemples de métiers dans lesquels des personnes productives peuvent réussir :",
+        "DESK6_1": "Une personne productive peut réussir dans un large éventail de carrières grâce à une gestion efficace du temps, une réflexion axée sur les objectifs et une concentration sur l’obtention de résultats. Cependant, lors du choix d’une carrière, il est important de tenir compte des forces, des intérêts et des valeurs de chacun. Voici quelques exemples de métiers dans lesquels des personnes productives peuvent réussir:",
         "LIST6_1": {
             "LI1_TEXT": "Entrepreneurship.",
             "LI2_TEXT": "Gestion de projet.",
@@ -1203,7 +1203,7 @@
             "LI9_TEXT": "Créer du contenu.",
             "LI10_TEXT": "Professions de la santé."
         },
-        "DESK6_2": "Carrières où les traits de productivité peuvent ne pas être les mêmes :",
+        "DESK6_2": "Carrières où les traits de productivité peuvent ne pas être les mêmes:",
         "LIST6_2": {
             "LI1_TEXT": "Art créatif.",
             "LI2_TEXT": "Travail social.",
