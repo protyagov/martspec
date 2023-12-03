@@ -4,14 +4,14 @@ import NavigationBar from "src/atomic/organism/navbar";
 import { Footer } from "../../organism/footer";
 
 const COLORS = [
-    "98938D",
-    "004983",
-    "1D9772",
-    "F12F23",
-    "F2DD00",
-    "D42481",
-    "C55223",
-    "000000"
+    "97938E", // Gray
+    "1C497F", // Blue
+    "489474", // Green
+    "DE4332", // Red
+    "EFDD4A", // Yellow
+    "C3397F", // Purple
+    "C55223", // Brown
+    "221F20" // Black
 ] as const;
 
 const RESULT_GROUPS = ["E", "A", "P", "G", "I", "O"] as const;
