@@ -100,43 +100,45 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
 
     const energyForValue = (v: number): TestResultModel => {
 
-        const percForValueE = (v: number): number => percForValue(v, 3);
+        const common = {
+            perc: percForValue(v, 3),
+        };
 
         switch (true) {
             case v >= -1 && v < 0.5:
                 return {
+                    ...common,
                     lvl: "E1",
                     icons: [v >= 0.2 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.RED,
-                    perc: percForValueE(v)
+                    color: IconColor.RED
                 };
             case v >= 0.5 && v < 0.9:
                 return {
+                    ...common,
                     lvl: "E2",
                     icons: [Icon.FULL, v >= 0.7 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.YELLOW,
-                    perc: percForValueE(v)
+                    color: IconColor.YELLOW
                 };
             case v >= 0.9 && v < 1.3:
                 return {
+                    ...common,
                     lvl: "E3",
                     icons: [Icon.FULL, Icon.FULL, v >= 1.1 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.GREEN,
-                    perc: percForValueE(v)
+                    color: IconColor.GREEN
                 };
             case v >= 1.3 && v < 1.9:
                 return {
+                    ...common,
                     lvl: "E3",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 1.6 ? Icon.HALF : Icon.NULL, Icon.NULL],
-                    color: IconColor.ORANGE,
-                    perc: percForValueE(v)
+                    color: IconColor.ORANGE
                 };
             default:
                 return {
+                    ...common,
                     lvl: "E4",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v <= 2.6 ? Icon.HALF : Icon.FULL],
-                    color: IconColor.RED,
-                    perc: percForValueE(v)
+                    color: IconColor.RED
                 };
         };
     };
@@ -159,43 +161,45 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
 
     const productivityForValue = (v: number): TestResultModel => {
 
-        const percForValueP = (v: number): number => percForValue(v, 30);
+        const common = {
+            perc: percForValue(v, 30),
+        };
 
         switch (true) {
             case v >= 0 && v <= 7:
                 return {
+                    ...common,
                     lvl: "P1",
                     icons: [v >= 3 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.RED,
-                    perc: percForValueP(v)
+                    color: IconColor.RED
                 };
             case v >= 8 && v <= 13:
                 return {
+                    ...common,
                     lvl: "P2",
                     icons: [Icon.FULL, v >= 10 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.ORANGE,
-                    perc: percForValueP(v)
+                    color: IconColor.ORANGE
                 };
             case v >= 14 && v <= 21:
                 return {
+                    ...common,
                     lvl: "P3",
                     icons: [Icon.FULL, Icon.FULL, v >= 17 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.YELLOW,
-                    perc: percForValueP(v)
+                    color: IconColor.YELLOW
                 };
             case v >= 22 && v <= 27:
                 return {
+                    ...common,
                     lvl: "P4",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 24 ? Icon.HALF : Icon.NULL, Icon.NULL],
-                    color: IconColor.L_GREEN,
-                    perc: percForValueP(v)
+                    color: IconColor.L_GREEN
                 };
             default:
                 return {
+                    ...common,
                     lvl: "P5",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v <= 29 ? Icon.HALF : Icon.FULL],
-                    color: IconColor.GREEN,
-                    perc: percForValueP(v)
+                    color: IconColor.GREEN
                 };
         }
     };
@@ -245,43 +249,45 @@ const useSelected = ([selectedCollection, setResult]: useSelectedArgs) => {
     
     const anxietyForValue = (v: number) => {
 
-        const percForValueA = (v: number): number => percForValue(v, 12);
+        const common = {
+            perc: percForValue(v, 12),
+        };
 
         switch (true) {
             case v >= 0 && v < 3:
                 return {
+                    ...common,
                     lvl: "A1",
                     icons: [v >= 1 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.GREEN,
-                    perc: percForValueA(v)
+                    color: IconColor.GREEN
                 };
             case v >= 3 && v < 5:
                 return {
+                    ...common,
                     lvl: "A2",
                     icons: [Icon.FULL, v >= 4 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.L_GREEN,
-                    perc: percForValueA(v)
+                    color: IconColor.L_GREEN
                 };
             case v >= 5 && v < 8:
                 return {
+                    ...common,
                     lvl: "A3",
                     icons: [Icon.FULL, Icon.FULL, v >= 6 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.YELLOW,
-                    perc: percForValueA(v)
+                    color: IconColor.YELLOW
                 };
             case v >= 8 && v < 10:
                 return {
+                    ...common,
                     lvl: "A4",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 9 ? Icon.HALF : Icon.NULL, Icon.NULL],
-                    color: IconColor.ORANGE,
-                    perc: percForValueA(v)
+                    color: IconColor.ORANGE
                 };
             default:
                 return {
+                    ...common,
                     lvl: "A5",
                     icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v < 11 ? Icon.HALF : Icon.FULL],
-                    color: IconColor.RED,
-                    perc: percForValueA(v)
+                    color: IconColor.RED
                 };
         }
     }
