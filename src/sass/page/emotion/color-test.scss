@@ -51,6 +51,8 @@
 	}
 
 	.test-result {
+		white-space: pre-line;
+		
 		.row:not(:only-child):not(:last-child) {
       margin-bottom: 5.3rem;
     }
@@ -65,9 +67,17 @@
 				margin-bottom: .7rem;
 			}
 
+			&:not(.blured) {
+				&:hover:not(:active) {
+					cursor: pointer;
+					background-color: #FFF;
+				}
+			}
+
 			&.blured {
 				p {
 					filter: blur(8px);
+					user-select: none;
 				}
 				.test-result-icon {
 					filter: blur(10px);
