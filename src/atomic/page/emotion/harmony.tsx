@@ -35,7 +35,7 @@ export default function Harmony() {
 
             <section>
                 <div className="row">
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 order-lg-1 order-2">
                         <div id="section-1" className="content-wrapper">
                             <h2>{_("HARMONY.HEAD1")}</h2>
                             <p>{_("HARMONY.DESK1_1")}</p>
