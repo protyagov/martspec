@@ -1297,11 +1297,11 @@
         "HEAD3": "Characteristics of an independent personality",
         "DESK3": "Here are some of the most common characteristics of the independent personality type:",
         "LIST3":{
-            "LI1_HEAD": "Autonomy:",
+            "LI1_HEAD": "Autonomy.",
             "LI1_TEXT": "Independent people have the ability to make decisions based on their own beliefs, values ​​and preferences.",
-            "LI2_HEAD": "Critical Thinking:",
+            "LI2_HEAD": "Critical Thinking.",
             "LI2_TEXT": "They have strong critical thinking skills, which allows them to analyze situations objectively.",
-            "LI3_HEAD": "Self-motivation:",
+            "LI3_HEAD": "Self-motivation.",
             "LI3_TEXT": "Independence often goes hand in hand with intrinsic motivation.",
             "LI4_HEAD": "Resilience.",
             "LI4_TEXT": "People who face problems head-on and find creative solutions without relying solely on others.",
@@ -1311,12 +1311,12 @@
         "HEAD4": "How can you tell if you have an independent personality type?",
         "DESK4_1": "Determining whether you are an independent personality type involves self-awareness, introspection and consideration of your behavior, preferences and tendencies. They often prefer to make decisions based on their own judgment and values, solving problems on their own without seeking help ",
         "DESK4_2": "They tend to be confident and assertive, have a strong sense of self, and often express their unique points of view. Prefer to be in control of their lives and tasks. They are less likely to succumb to peer pressure or societal expectations if they conflict your own beliefs and desires. Independent personality types also tend to actively seek opportunities for self-improvement and personal growth, often implementing them on their own.",
-        "DESK4_3": "Remember that personality traits exist on a wide spectrum, and no one is completely independent or completely dependent on others. People can exhibit different degrees of independence in different areas of their lives and depending on the context. Additionally, having an independent type personality doesn't mean you should avoid collaboration or teamwork; rather, it's about finding the balance that works best for you.",
+        "DESK4_3": "Remember that personality traits exist on a wide spectrum, and no one is completely independent or completely dependent on others. People can exhibit different degrees of independence in different areas of their lives and depending on the context. Additionally, having an independent type personality doesn't mean you should avoid collaboration or teamwork, rather, it's about finding the balance that works best for you.",
         "ALT4": "Independence",
         "HEAD5": "Problems of an independent personality type",
         "DESK5_1": "While having an independent personality can be beneficial in many ways, it is important to understand that there can also be problems and potential problems with this trait. Here are some problems that people with a strong independent personality type may face:",
         "LIST5":{
-            "LI1_HEAD": "Stubbornness:",
+            "LI1_HEAD": "Stubbornness.",
             "LI1_TEXT": "The tendency to rely solely on one's own perspective and decisions can lead to stubbornness. This can make it difficult to accept alternative points of view or adapt to changing circumstances.",
             "LI2_HEAD": "Limited cooperation.",
             "LI2_TEXT": "A highly independent person may have difficulty collaborating effectively in a group. They may resist compromise or struggle with giving up control.",
@@ -1333,7 +1333,7 @@
         },
         "DESK5_2": "It is important to note that these problems are not common to all people with an independent personality type. Many of these problems can be mitigated through self-awareness, active efforts to develop emotional intelligence and communication skills, and a willingness to find a healthy balance between independence and cooperation.",
         "HEAD6": "Career interests for independent people",
-        "DESK6_1": "Independence as a personality trait reflects a person's ability and tendency to think and act autonomously without relying heavily on external influences for guidance or confirmation. Independent people tend to make decisions based on their own beliefs, values, and judgments rather than on conforming to social norms or seeking constant approval. This trait is often associated with self-confidence, critical thinking and a strong sense of individuality. Suitable for such people:",
+        "DESK6_1": "Independence as a personality trait reflects a person's ability and tendency to think and act autonomously without relying heavily on external influences for guidance or confirmation. Independent people tend to make decisions based on their own beliefs, values and judgments rather than on conforming to social norms or seeking constant approval. This trait is often associated with self-confidence, critical thinking and a strong sense of individuality. Suitable for such people:",
         "LIST6": {
             "LI1_TEXT": "Entrepreneurship.",
             "LI2_TEXT": "Freelancing or consulting.",
@@ -1345,7 +1345,7 @@
             "LI8_TEXT": "Academia and Research.",
             "LI9_TEXT": "Art activities."
         },
-        "DESK6_2": "It is important to note that while independence can contribute to success in these fields, collaboration and effective communication skills are also valuable in most professions. Finding a balance between independence and teamwork is essential to a fulfilling career path. Additionally, people are unique , and their career path may be influenced by a combination of traits and interests other than independence."
+        "DESK6_2": "It is important to note that while independence can contribute to success in these fields, collaboration and effective communication skills are also valuable in most professions. Finding a balance between independence and teamwork is essential to a fulfilling career path. Additionally, people are unique and their career path may be influenced by a combination of traits and interests other than independence."
     },
     "ENERGY": {
         "HEAD": "Energy",
