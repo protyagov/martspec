@@ -1182,13 +1182,13 @@
         "DESK3": "Anxiety disorders have many symptoms. Each disorder has different symptoms. Symptoms common to anxiety disorders generally include:",
         "LIST3": {
             "LI1_TEXT": "Feeling nervous, anxious, or tense",
-            "LI2_TEXT": "Feelings of impending danger, panic, or doom",
+            "LI2_TEXT": "Feelings of impending danger, panic or doom",
             "LI3_TEXT": "Cardiopalmus",
             "LI4_TEXT": "Shiver",
             "LI5_TEXT": "Feeling weak or tired",
             "LI6_TEXT": "Trouble concentrating or thinking about anything other than the present concern",
             "LI7_TEXT": "Sleep problems",
-            "LI8_TEXT": "Problems with the gastrointestinal tract (GIT)",
+            "LI8_TEXT": "Problems with the gastrointestinal tract",
             "LI9_TEXT": "Sweaty or cold hands and/or feet"
         },
         "HEAD4": "Signs of an anxiety disorder",
@@ -1198,22 +1198,22 @@
             "LI1_TEXT": "Severe or prolonged stress can contribute to changes in the chemical balance in the brain.",
             "LI2_HEAD": "Experiences.",
             "LI2_TEXT": "Stressful or traumatic events can also contribute to feelings of anxiety.",
-            "LI3_HEAD": "Family history:",
+            "LI3_HEAD": "Family history.",
             "LI3_TEXT": "Having close family members with symptoms of an anxiety disorder increases the risk that a person will also develop an anxiety disorder",
             "LI4_HEAD": "Genetic factors.",
             "LI4_TEXT": "Certain genes may predispose a person to be more likely to develop an anxiety disorder.",
-            "LI5_HEAD": "Medical conditions:",
+            "LI5_HEAD": "Medical conditions.",
             "LI5_TEXT": "Some underlying medical conditions can contribute to anxiety. Some of these include chronic pain, heart disease, diabetes, thyroid problems, respiratory disease, drug use and drug withdrawal.",
-            "LI6_HEAD": "Diet:",
+            "LI6_HEAD": "Diet.",
             "LI6_TEXT": "Recently, more and more people are paying attention to the connection between diet and anxiety. Factors such as GMOs, gluten and pesticides that are present in processed foods can have a negative impact on the health of our gut and microbial colonies. A probiotic supplement high in bifidobacteria may be beneficial in maintaining a healthy composition of intestinal flora."
         },
         "ALT4": "An image that shows the Anxiety, which are even easier to track with Martspec applications",
         "HEAD5": "Diagnosis and treatment",
         "DESK5_1": "In today's world, anxiety has become a common problem that can seriously affect a person's quality of life and psychological well-being. However, thanks to advancements in technology, we can turn to mobile apps like Emotion and other innovative solutions to diagnose and even help treat anxiety.",
         "DESK5_2": "The Emotion mobile app offers a convenient and accessible way to assess your anxiety level and receive recommendations on how to manage it. The application provides the ability to track your emotional states and analyze factors that cause anxiety.",
-        "DESK5_3": "Treating anxiety is a complex process that may include psychotherapy, pharmacological therapy, and lifestyle changes. Although each anxiety disorder has unique characteristics, most respond well to two types of treatment: psychotherapy or “talk therapy” and medication. Cognitive behavioral therapy (CBT), a type of talk therapy, can help a person learn different ways of thinking, reacting and behaving to reduce anxiety. Medications will not cure anxiety disorders, but they can significantly relieve symptoms. The most commonly used medications are anti-anxiety medications and antidepressants.",
+        "DESK5_3": "Treating anxiety is a complex process that may include psychotherapy, pharmacological therapy and lifestyle changes. Although each anxiety disorder has unique characteristics, most respond well to two types of treatment: psychotherapy or \"talk therapy\" and medication. Cognitive behavioral therapy a type of talk therapy, can help a person learn different ways of thinking, reacting and behaving to reduce anxiety. Medications will not cure anxiety disorders, but they can significantly relieve symptoms. The most commonly used medications are anti-anxiety medications and antidepressants.",
         "DESK5_4": "Mobile apps can be effective tools for self-management of anxiety in the early stages, but it is always recommended to seek professional advice and support from a qualified professional.",
-        "DESK5_5": "In general, the use of mobile applications is a promising direction in diagnosing anxiety. They help people better understand their emotional state, learn to manage anxiety, and improve their quality of life."
+        "DESK5_5": "In general, the use of mobile applications is a promising direction in diagnosing anxiety. They help people better understand their emotional state, learn to manage anxiety and improve their quality of life."
     },
     "HARMONY": {
         "HEAD": "Harmony",
