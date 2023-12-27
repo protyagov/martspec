@@ -81,16 +81,16 @@
         "DESC2_1": "\"Vitamin\" aus dem lateinischen \"Vita\" bedeutet \"Leben\". Unser Leben ist ohne Vitamine nicht möglich.",
         "DESC2_2": "Die Anwendung verfolgt die Vitamine, Mineralien und ihre Menge. Sie können Ihre eigenen Elemente hinzufügen.",
         "DESC2_3": "Erstellen Sie einen Zeitplan und erhalten Sie eine Push -Benachrichtigung über die Einnahme von Vitaminen zum festgelegten Zeitpunkt.",
-        "HEAD3": "Funktionsprinzip",
-        "DESC3_1": "Der Vitamin -Einlass -Tracker fördert die ordnungsgemäße Ernährung und die Bildung eines fundierteren Ansatzes zur Lebensmittelauswahl, was wiederum einen positiven Einfluss auf den Zustand von Körper und Geist hat.",
-        "DESC3_2": "Eine Beschreibung jedes Vitamins:",
+        "KOPF3": "Vitamine & Mineralien",
+        "DESC3_1": "Das ultimative Werkzeug, um Ihre Nährstoffzufuhr zu verfolgen und zu optimieren.  Diese App wurde speziell für die nahtlose Synchronisierung mit Apple Health entwickelt und bietet Ihnen detaillierte Informationen zu jedem wichtigen Element, einschließlich empfohlener Tages- und Höchstdosen. Die App zeigt Ihnen, welche Lebensmittel reich an bestimmten Vitaminen und Mineralien sind, damit Sie fundierte Entscheidungen über Ihre Ernährung treffen können. ",
+        "DESC3_2": "Jedes Element enthält folgende Informationen:", 
         "LIST3": {
-            "LI1_TEXT": "Produkte, die dieses Element enthalten",
-            "LI2_TEXT": "Zeichen eines Elementmangel im Körper",
-            "LI3_TEXT": "Tägliche und maximale Verbrauchsrate",
-            "LI4_TEXT": "Überdosierungsinformationen",
-            "LI5_TEXT": "Funktionen des ausgewählten Elements",
-            "LI6_TEXT": "Interessante Tatsache über das Element"
+            "LI1_TEXT": "Lebensmittel, die reich an diesem Element sind",
+            "LI2_TEXT": "Anzeichen eines Elementmangels",
+            "LI3_TEXT": "Tägliche und obere Aufnahmegrenze",
+            "LI4_TEXT": "Informationen zur Überdosierung",
+            "LI5_TEXT": "Funktion des Elements in Ihrem Körper",
+            "LI6_TEXT": "Interessante Fakten über das Element"
         },
         "HEAD4": "Vorteile von Vitamin",
         "LIST4": {
