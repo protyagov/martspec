@@ -8,7 +8,7 @@
     },
     "MAIN": {
         "HEAD": "Sencillez del seguimiento de la salud",
-        "SUBHEAD": "Aplicaciones para agilizar y agilizar las tareas diarias",
+        "SUBHEAD": "Aplicaciones para hacer más eficientes y ágiles las tareas diarias",
         "IMG": "Aplicaciones de salud y bienestar de Apple Watch"
     },
     "NAV": {
@@ -19,7 +19,7 @@
         "HEAD": "Electrólito",
         "SUBHEAD": " minerales más vitales",
         "ICO": "Ícono para el rastreador de consumo de electrolitos gratuito más fácil para Apple Watch. Esté atento al consumo de magnesio, calcio, potasio, hierro. Conectado con Apple Salud. Cero anuncios.",
-        "TEXT": "Los electrolitos juegan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Ayudan a regular el corazón y la función neurológica, el equilibrio de líquidos, el suministro de oxígeno, el equilibrio ácido-base y mucho más.",
+        "TEXT": "Los electrolitos desempeñan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Ayudan a regular la función cardíaca y neurológica, el equilibrio de fluidos, la entrega de oxígeno, el equilibrio ácido-base y mucho más",
         "IMG": "Registra electrolitos y minerales con tu Apple Watch",
         "DWN": "Descargue la aplicación gratuita de seguimiento de electrolitos de la AppStore de Apple",
         "ABOUT": "Los electrolitos juegan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Ayudan a regular el corazón y la función neurológica, el equilibrio de líquidos, el suministro de oxígeno, el equilibrio ácido-base y mucho más. Realice un seguimiento de la ingesta de electrolitos con la aplicación Apple Watch.",
@@ -33,13 +33,13 @@
         "DESC4": "Una parte vital de la hemoglobina y la mioglobina, proteínas que transportan oxígeno a los tejidos y músculos del cuerpo. Los glóbulos rojos contienen más de la mitad del hierro del cuerpo humano. ",
         "HEAD5": "Riesgos",
         "DESC5": "Los desequilibrios de electrolitos pueden desarrollarse al consumir muy poco o demasiado electrolito, así como al excretar muy poco o demasiado electrolito. ",
-        "BTN_OPEN": "Balance"
+        "BTN_OPEN": "Obtenga los hechos"
     },
     "MASS": {
         "HEAD": "Peso",
         "SUBHEAD": "diario de peso fácil",
         "ICO": "Ícono de nuestra aplicación portátil de salud más avanzada que le permite ingresar fácilmente su peso directamente desde su muñeca. El registro automático en la aplicación proporciona una forma sencilla de ver las tendencias y todas las mediciones por mes y año. Totalmente gratis, sin compras en la aplicación, cero anuncios. Esta es la aplicación exclusiva de Apple Watch. No requiere la aplicación complementaria de iPhone para funcionar.",
-        "TEXT": "El seguimiento de su peso aumenta su eficiencia en términos de su tiempo y entrenamientos. ¡No solo te impulsará a hacerlo mejor, sino que también te llevará a ser tu propia competencia!",
+        "TEXT": "El seguimiento de su peso aumenta su eficiencia en cuanto a su tiempo y entrenamientos. ¡No solo lo impulsará a mejorar, sino que también lo motivará a competir consigo mismo!",
         "IMG": "Guarde masa corporal directamente desde su Apple Watch en Almacenamiento La App Salud",
         "DWN": "Descargue la aplicación gratuita Peso desde la AppStore de Apple",
         "ABOUT": "El diario de peso corporal es la herramienta perfecta para aumentar la eficiencia de sus ejercicios y la motivación para alcanzar la meta. Todos los datos se sincronizan con La app Salud y se almacenan de forma segura en su iCloud. Todo es fácil y absolutamente gratis. Cero anuncios y sin compras dentro de la aplicación.",
@@ -57,7 +57,7 @@
         "DESC4_5": "Funciona sin iPhone",
         "DESC4_6": "Estilo minimalista",
         "DESC4_7": "Gratis, sin anuncios y sin compras dentro de la aplicación",
-        "BTN_OPEN": "Pista"
+        "BTN_OPEN": "Deshágase de la grasa"
     },
     "VITAMIN": {
         "HEAD": "Vitamina",
@@ -824,7 +824,7 @@
         "HEAD": "Cintura",
         "SUBHEAD": "cintura pequeña - corazón sano",
         "ICO": "Ícono de la mejor aplicación de Apple Watch para rastrear la circunferencia de la cintura. Sincronización completa con La app Salud. Úselo fácilmente sin anuncios, pagos y registro.",
-        "TEXT": "La forma más sencilla de realizar un seguimiento de la circunferencia de la cintura en el Apple Watch. Todos los registros se sincronizan con su La app Salud.",
+        "TEXT": "La forma más sencilla de realizar un seguimiento de la circunferencia de la cintura en el Apple Watch. Todos los registros se sincronizan con su app Salud de Apple.",
         "IMG": "Lleve un registro del tamaño de su cintura (ombligo) directamente desde su brazo",
         "DWN": "Descargue la aplicación de cintura gratuita desde la App Store de Apple",
         "ABOUT": "Rastreador de circunferencia de cintura fácil de usar para Apple Watch. No requiere cuenta ni registro. Absolutamente libre. Todos los registros se sincronizan con su aplicación La app Salud y se puede acceder a los últimos 7 días directamente desde su muñeca.",
@@ -841,13 +841,13 @@
         "DESC4_2": "Mujeres: 35 pulgadas o más (88 cm)",
         "DESC4_3": "Cada 2 pulgadas (5 cm) del tamaño de la cintura aumenta el riesgo en un 17% en los hombres y en un 13% en las mujeres, independientemente del IMC",
         "DESC4_4": "Fuente: ",
-        "BTN_OPEN": "Disminuir"
+        "BTN_OPEN": "Tonifique su abdomen"
     },
     "ZINC": {
         "HEAD": "Zinc",
-        "SUBHEAD": "seguimiento la ingesta de zinc",
+        "SUBHEAD": "Rastreador de zinc para su reloj",
         "ICO": "Ícono de nuestra aplicación gratuita Apple Watch que lo ayuda a rastrear el consumo de zinc. Realice registros sobre el zinc dietético desde sus relojes Apple y sincronícelos con La app Salud. No se necesita una aplicación de iPhone complementaria para funcionar. Cero anuncios.",
-        "TEXT": "Hermoso en su cuerpo de seguimiento de zinc de simplicidad para su reloj. La app Salud habilitado. Resultados reales. Libre. Cero anuncios.",
+        "TEXT": "El zinc puede potenciar la función inmunológica, estabilizar los niveles de azúcar en la sangre y contribuir a mantener saludables la piel, los ojos y el corazón.",
         "IMG": "Rastrea su consumo diario de suplemento de zinc",
         "DWN": "Recibe la aplicación gratuita de Bodyzinc de Apple Store",
         "ABOUT": "Fácil de usar Rastreador de zinc dietético para el reloj Apple. Sincronización automática con La app Salud, no requiere registro y absolutamente gratis.",
@@ -863,9 +863,9 @@
     },
     "SIZE": {
         "HEAD": "Medida",
-        "SUBHEAD": "hermosa figura - cuerpo sano",
+        "SUBHEAD": "Cuerpo hermoso. ¡Construido por usted!",
         "ICO": "Ícono del mejor rastreador de tamaño corporal en App Store para computadoras Apple Watch, iPhone, iPad y Mac M. Body Size te permite aprender sobre ti mismo para ayudarte a ponerte en forma. Las mediciones se sincronizan automáticamente con la aplicación Health Mate, lo que significa que puede visualizar los resultados con gráficos fáciles de leer. Cero anuncios.",
-        "TEXT": "Rastrea tus caderas, cintura y pecho en tu reloj. Soporte completo de La app Salud. Tiempo de carga rápido. Absolutamente libre.",
+        "TEXT": "Haga un seguimiento de sus caderas, cintura y pecho con esta aplicación directamente desde su Apple Watch. Total compatibilidad con la app Salud de Apple. Tiempo de carga rápido. Absolutamente gratuita.",
         "IMG": "Mida el tamaño del pecho, el ancho del busto, la circunferencia de la cintura y la longitud de las caderas usando un reloj en su muñeca",
         "DWN": "Obtenga la aplicación gratuita de tamaño corporal para Apple Watch directamente desde Apple App Store",
         "ABOUT": "Rastrea tus caderas, cintura y pecho en tu Apple Watch. Auto calcula la forma del cuerpo usando la fórmula de Bradley Bayou. Soporte completo de La app Salud. Copias de seguridad de iCloud. Tiempo de carga rápido. Absolutamente libre.",
@@ -879,13 +879,13 @@
         "DESC4": "La evidencia muestra que la grasa alrededor de los muslos y la parte trasera es más difícil de cambiar que la grasa alrededor de la cintura. La proporción de cintura a cadera se usa comúnmente como un indicador o medida de salud, y el riesgo de desarrollar condiciones de salud graves.",
         "HEAD5": "Forma del cuerpo",
         "DESC5": "¿Tu cuerpo tiene forma de manzana 🍎 o de pera 🍐? ¿O quizás un reloj de arena? Descubrir la verdadera forma de su cuerpo es más que una de esas pruebas en línea inútiles. Comprender la forma de su cuerpo puede ayudarlo a descubrir el entrenamiento más efectivo. Los estudios sugieren que puede ayudar a mejorar su salud.",
-        "BTN_OPEN": "Medida"
+        "BTN_OPEN": "Mídalo"
     },
     "EMOTION": {
         "HEAD": "Emoción",
         "SUBHEAD": "prueba de psicología más rápida",
         "ICO": "Ícono de la prueba de psicología más rápida y conocida en el mundo. Obtén la oportunidad de entender y predecir tus estados de ánimo. Simplemente selecciona 8 colores que te gusten y que no te gusten. Gratis, sin anuncios.",
-        "TEXT": "¿Cambio de humor inesperado? ¿Cambios emocionales intensos? Descubre la causa raíz en solo 1 minuto.",
+        "TEXT": "¿Cambio de humor inesperado? ¿Cambios emocionales intensos? Descubra la causa raíz en solo 1 minuto.",
         "IMG": "La prueba de personalidad más rápida del mundo. Selecciona 8 colores y conoce tu estado mental actual.",
         "DWN": "Obtenga la aplicación gratuita para Apple Watch, iPhone o iPad directamente desde la App Store de Apple",
         "ABOUT_1": "¿Estrés, ansiedad, depresión o cambios de humor?",
@@ -982,14 +982,14 @@
             "LI4_HEAD": "Evaluación del desempeño de los empleados",
             "LI4_TEXT": "La metodología se ha utilizado de manera efectiva para evaluar el desempeño de los empleados, proporcionando información valiosa sobre su bienestar, compromiso y productividad general.",
             "LI5_HEAD": "Preparación para exámenes o entrevistas de trabajo",
-            "LI5_TEXT": "Al prestar atención a sus emociones, puedes reconocer patrones y desencadenantes que pueden llevar a niveles de estrés más altos. Esta conciencia puede ayudarle a programar tareas importantes durante las horas de mayor productividad para maximizar su rendimiento.",
+            "LI5_TEXT": "Al prestar atención a sus emociones, puede reconocer patrones y desencadenantes que pueden llevar a niveles de estrés más altos. Esta conciencia puede ayudarle a programar tareas importantes durante las horas de mayor productividad para maximizar su rendimiento.",
             "LI6_HEAD": "Rehabilitación de soldados que regresan de la cautividad",
             "LI6_TEXT": "Para determinar la tensión mental del personal militar, se utilizó la prueba de colores modificada como método para determinar el estado emocional y motivacional."
         },
         "HEAD8": "La aplicación Emoción está disponible para cualquier dispositivo Apple",
         "DESK8": "Comience a seguir los cambios en su estado de ánimo hoy mismo descargando la aplicación ahora",
         "ALT8": "Capturas de pantalla de una aplicación que te permitirá seguir tu estado psicológico regularmente, cómodamente y en cualquier dispositivo",
-        "BTN_OPEN": "Para descubrir"
+        "BTN_OPEN": "Descúbrase"
     },
     "BIORHYTHMS": {
         "HEAD": "Biorhythms",
@@ -1536,8 +1536,8 @@
     "FOOTER": {
         "C": "© 2023 Martspec LLC. Todos los derechos reservados.",
         "APPLE_BTN":{
-            "TITLE": "Vea todas las aplicaciones de martspec en nuestra AppStore de Apple",
-            "ALT": "Vea todas nuestras aplicaciones en Martpsec AppStore en Apple"
+            "TITLE": "Vea todas las aplicaciones de Martspec en nuestra AppStore de Apple",
+            "ALT": "Vea todas nuestras aplicaciones en Martspec AppStore en Apple"
         },
         "LINKEDIN_BTN": {
             "TITLE": "Síganos en LinkedIn"
@@ -1562,7 +1562,7 @@
         "TEXT_1": "Estamos trabajando duro para ofrecerle la mejor página web.",
         "TEXT_2": "Gracias por su paciencia.",
         "BTN": "Inicio",
-        "CTA": "Síguenos en"
+        "CTA": "Síganos en"
     },
     "MISSION": {
         "HEAD": "Misión",
