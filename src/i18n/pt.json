@@ -83,16 +83,16 @@
         "DESC2_1": "\"Vitamina\" do latim \"Vita\" significa \"Leben\". Nossa vida não é possível sem vitaminas.",
         "DESC2_2": "O aplicativo rastreia as vitaminas, os minerais tomados e sua quantidade. Você pode adicionar seus próprios elementos.",
         "DESC2_3": "Crie um cronograma e receba uma notificação de push sobre como tomar vitaminas no horário designado.",
-        "HEAD3": "Princípio da Operação",
-        "DESC3_1": "O rastreador de ingestão de vitaminas promove a nutrição adequada e a formação de uma abordagem mais informada para a seleção de alimentos, que, por sua vez, tem um efeito positivo no estado do corpo e da mente.",
-        "DESC3_2": "Uma descrição de cada vitamina:",
+        "HEAD3": "Vitaminas e Minerais",
+        "DESC3_1": "A ferramenta definitiva para monitorar e otimizar sua ingestão de nutrientes.  Especialmente projetado para sincronizar-se perfeitamente com o Apple Health, esse aplicativo oferece informações detalhadas sobre cada elemento essencial, incluindo as doses diárias e máximas recomendadas. O aplicativo mostra informações sobre opções de alimentos que são ricos em vitaminas e minerais específicos, permitindo que você tome decisões informadas sobre o que come. ",
+        "DESC3_2": "As informações de cada elemento incluem:",
         "LIST3": {
-            "LI1_TEXT": "Produtos que contêm este elemento",
-            "LI2_TEXT": "Sinais de deficiência de elementos no corpo",
-            "LI3_TEXT": "Taxa diária e máxima de consumo",
-            "LI4_TEXT": "Überdosierungsinformationen",
-            "LI5_TEXT": "Funções do elemento selecionado",
-            "LI6_TEXT": "Fato interessante sobre o elemento"
+            "LI1_TEXT": "Alimentos ricos no elemento",
+            "LI2_TEXT": "Sinais de deficiência do elemento",
+            "LI3_TEXT": "Limite diário e superior de ingestão",
+            "LI4_TEXT": "Informações sobre overdose",
+            "LI5_TEXT": "Função do elemento em seu corpo",
+            "LI6_TEXT": "Fatos interessantes sobre o elemento"
         },
         "HEAD4": "Benefícios da vitamina",
         "LIST4": {
@@ -234,7 +234,7 @@
             "FOOD_SUNFLOWER": "Sementes de girassol",
             "FOOD_TOFU": "Tofu, firme",
             "FOOD_TOMATO": "Tomate",
-             "MCG": "mcg",
+            "MCG": "mcg",
             "MG": "mg",
             "FACTS": "Você sabia?"
         },
@@ -1093,7 +1093,7 @@
         "DESK1_3": "O transtorno de ansiedade é uma condição que se desenvolve gradualmente após um período de preocupação excessiva. Os sintomas podem variar em intensidade e persistir por períodos mais longos. Os transtornos de ansiedade podem fazer com que as pessoas evitem situações que desencadeiam ou pioram seus sintomas. Isso pode afetar a produtividade do trabalho, os trabalhos escolares e os relacionamentos pessoais.",
         "HEAD2": "Tipos de transtornos de ansiedade",
         "DESK2": "A idade média de início de um transtorno de ansiedade é de 20 a 24 anos. Eles podem ocorrer com outros transtornos mentais, como depressão ou transtorno de estresse pós-traumático. Existem vários tipos de transtornos de ansiedade, incluindo:",
-        "LIST2":{
+        "LIST2": {
             "LI1_HEAD": "Transtorno de ansiedade generalizada (TAG).",
             "LI1_TEXT": "Pessoas com TAG se preocupam com questões comuns como saúde, dinheiro, trabalho e família. Muitas vezes ocorre junto com outros transtornos de ansiedade ou depressão e ocorre quase todos os dias durante vários meses.",
             "LI2_HEAD": "Síndrome do pânico.",
@@ -1117,7 +1117,7 @@
         },
         "HEAD4": "Sinais de um transtorno de ansiedade",
         "DESK4": "As causas dos transtornos de ansiedade são atualmente desconhecidas, mas provavelmente envolvem uma combinação de fatores, incluindo genéticos, ambientais, psicológicos e de desenvolvimento. Alguns fatores que estiveram envolvidos incluem:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Química cerebral.",
             "LI1_TEXT": "O estresse severo ou prolongado pode contribuir para alterações no equilíbrio químico do cérebro.",
             "LI2_HEAD": "Experiências.",
@@ -1177,7 +1177,8 @@
         "DESK4_2": "O impacto da produtividade vai além da realização pessoal, pois as pessoas produtivas tendem a ser funcionários eficazes e jogadores de equipe. Sua abordagem organizada e capacidade de cumprir prazos os tornam ativos valiosos no trabalho em grupo. Além disso, a sua propensão para o crescimento pessoal e o auto-aperfeiçoamento inspira outros e cria uma cultura de aprendizagem e desenvolvimento contínuos.",
         "DESK4_3": "Essencialmente, as pessoas produtivas estão mais bem equipadas para aproveitar oportunidades, experimentar satisfação pessoal e influenciar positivamente os outros. Sua capacidade de harmonizar os seus esforços com os seus objetivos contribui para uma vida marcada por realizações, satisfação e conexões significativas.",
         "HEAD5": "Como se tornar mais produtivo?",
-        "DESK5_1": "Aumentar a produtividade não é algo que acontece da noite para o dia. Embora possa parecer fácil para algumas pessoas, a sua capacidade de planear e utilizar o seu tempo de forma eficaz tem muitas vezes mais a ver com hábitos estabelecidos que levam ao aumento da produtividade ao longo do tempo. Para se tornar mais produtivo, concentre-se nas seguintes estratégias principais:",        "LIST5": {
+        "DESK5_1": "Aumentar a produtividade não é algo que acontece da noite para o dia. Embora possa parecer fácil para algumas pessoas, a sua capacidade de planear e utilizar o seu tempo de forma eficaz tem muitas vezes mais a ver com hábitos estabelecidos que levam ao aumento da produtividade ao longo do tempo. Para se tornar mais produtivo, concentre-se nas seguintes estratégias principais:",
+        "LIST5": {
             "LI1_HEAD": "Stabeleça metas claras:",
             "LI1_TEXT": "identifique metas específicas e alcançáveis para orientar seus esforços.",
             "LI2_HEAD": "Priorize tarefas:",
@@ -1240,7 +1241,7 @@
         "ALT2": "Ioga",
         "HEAD3": "Características da harmonia interna",
         "DESK3": "A harmonia interna implica um estado de ser onde você experimenta uma sensação de calma, satisfação e ausência de conflito interno. A harmonia abrange as seguintes características:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Estabilidade emocional:",
             "LI1_TEXT": "você experimenta equilíbrio emocional constante.",
             "LI2_HEAD": "Aceitação:",
@@ -1254,7 +1255,7 @@
         },
         "HEAD4": "Como alcançar a harmonia interna?",
         "DESK4": "Harmonia é uma escolha que você pode fazer conscientemente. É um estado mental, não um ambiente físico em que você está situado. Você pode alcançar e manter sua harmonia interna simplesmente adotando a atitude apropriada perante a vida. Aqui estão alguns passos que podem ajudá-lo a alcançar a harmonia interna:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Autoconsciência:",
             "LI1_TEXT": "entenda suas emoções, gatilhos e padrões de pensamento. Reconheça quando você está perdendo o equilíbrio ou passando por uma turbulência interna. A autoconsciência é o primeiro passo para encontrar o equilíbrio.",
             "LI2_HEAD": "Aceitação:",
@@ -1299,7 +1300,7 @@
         "ALT2": "Leia livros",
         "HEAD3": "Características de uma personalidade independente",
         "DESK3": "Aqui estão algumas das características mais comuns do tipo de personalidade independente:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Autonomy:",
             "LI1_TEXT": "as pessoas independentes têm a capacidade de tomar decisões com base em suas próprias crenças, valores e preferências.",
             "LI2_HEAD": "Pensamento crítico:",
@@ -1318,7 +1319,7 @@
         "ALT4": "Independência",
         "HEAD5": "Problemas de um tipo de personalidade independente",
         "DESK5_1": "Embora ter uma personalidade independente possa ser benéfica de várias maneiras, é importante entender que também pode haver problemas e problemas em potencial com essa característica. Aqui estão alguns problemas que as pessoas com um forte tipo de personalidade independente podem enfrentar:",
-        "LIST5":{
+        "LIST5": {
             "LI1_HEAD": "Teimosia.",
             "LI1_TEXT": "A tendência de confiar apenas na própria perspectiva e nas decisões pode levar à teimosia. Isso pode dificultar aceitar pontos de vista alternativos ou se adaptar às mudanças nas circunstâncias.",
             "LI2_HEAD": "Cooperação limitada.",
@@ -1455,8 +1456,7 @@
         "GROUP_TITLE_I": "Independence",
         "GROUP_TITLE_G": "Harmony",
         "GROUP_TITLE_E": "Energy",
-                "GROUP_DESC_E": "Having enough energy is crucial for any activity. Without sufficient energy, it can be difficult to accomplish much. In such situations, taking a break to rest and recharge is recommended. Conversely, having too much energy can make you tense, overreactive, and inefficient. Maintaining a moderate level of energy, known as the \"green level\", is optimal for any mental or physical activity \n\n It's important to note that higher energy levels indicate a higher activation of the sympathetic nervous system and metabolic processes. If the sympathetic drive is chronically too high, it can lead to harmful stress reactions. \n\n Knowing when to speed up and slow down is crucial for feeling and performing well and achieving personal goals. The sympathetic nervous system accelerates bodily functions, while the parasympathetic system slows them down.",
-
+        "GROUP_DESC_E": "Having enough energy is crucial for any activity. Without sufficient energy, it can be difficult to accomplish much. In such situations, taking a break to rest and recharge is recommended. Conversely, having too much energy can make you tense, overreactive, and inefficient. Maintaining a moderate level of energy, known as the \"green level\", is optimal for any mental or physical activity \n\n It's important to note that higher energy levels indicate a higher activation of the sympathetic nervous system and metabolic processes. If the sympathetic drive is chronically too high, it can lead to harmful stress reactions. \n\n Knowing when to speed up and slow down is crucial for feeling and performing well and achieving personal goals. The sympathetic nervous system accelerates bodily functions, while the parasympathetic system slows them down.",
         "E1": "Exhaustion. Chronic fatigue. Your mind is set on inactivity. You are not ready to act adequately in a stressful situation and not ready for the tension resulting from that stress. As a result, you react passively to difficulties. Your parasympathetic nervous system takes over control and promotes recovery and digestion processes. You need to allow yourself time to rest and recover.",
         "E2": "Energy usage is optimized. The need for recovery and rest is moderate. The energy potential is low but sufficient for successful activity in the usual tranquil conditions. In an extreme situation, there is likely to be a delay in decision-making.",
         "E3": "Your resources are mobilized and ready for engaged action. This energy level is optimal for physical and mental activities. In an extreme situation, your responses and decision-making speed are at max level. Expediency and success of your actions are most likely.",
@@ -1471,7 +1471,7 @@
     },
     "FOOTER": {
         "C": "© 2023 Martspec LLC. Todos os direitos reservados.",
-        "APPLE_BTN":{
+        "APPLE_BTN": {
             "TITLE": "Veja todos os aplicativos martspec em nossa Apple AppStore",
             "ALT": "Veja todos os nossos aplicativos na Martpsec AppStore na Apple"
         },
@@ -1546,7 +1546,7 @@
         "DEFINITION": {
             "HEAD": "Interpretação e Definições",
             "P1": "As palavras cuja letra inicial é maiúscula têm significados definidos nas seguintes condições. As seguintes definições terão o mesmo significado independentemente de aparecerem no singular ou no plural.",
-             "P2": "Para efeitos desta Política de Privacidade:",
+            "P2": "Para efeitos desta Política de Privacidade:",
             "UL": {
                 "ACCOUNT": {
                     "STRONG": "Conta",

@@ -80,16 +80,16 @@
         "DESC2_1": "\"VITAMIN\" from the Latin \"VITA\" means \"LIFE\". Our life is not possible without vitamins.",
         "DESC2_2": "The application tracks the vitamins, minerals taken and their amount. You can add your own elements.",
         "DESC2_3": "Create a schedule and receive a push notification about taking vitamins at the appointed time.",
-        "HEAD3": "Principle of operation",
-        "DESC3_1": "The vitamin intake tracker promotes proper nutrition and the formation of a more informed approach to food selection, which, in turn, has a positive effect on the state of body and mind.",
-        "DESC3_2": "A description of each vitamin:",
+        "HEAD3": "Vitamins & Minerals",
+        "DESC3_1": "The ultimate tool for tracking and optimizing your nutrient intake.  Specially designed to sync seamlessly with Apple Health, this app empowers you with detailed information about each essential element, including recommended daily and maximum doses. Get valuable insights on food choices that are rich in specific vitamins and minerals, empowering you to make educated decisions about what you eat. ",
+        "DESC3_2": "Each element info includes:", 
         "LIST3": {
-            "LI1_TEXT": "Products containing this element",
-            "LI2_TEXT": "Signs of element deficiency in the body",
-            "LI3_TEXT": "Daily and maximum consumption rate",
+            "LI1_TEXT": "Foods rich in the element",
+            "LI2_TEXT": "Signs of element deficiency",
+            "LI3_TEXT": "Daily and upper intake limit",
             "LI4_TEXT": "Overdose Information",
-            "LI5_TEXT": "Functions of the selected element",
-            "LI6_TEXT": "Interesting fact about the element"
+            "LI5_TEXT": "Functions of the element",
+            "LI6_TEXT": "Interesting facts about the element"
         },
         "HEAD4": "Key Highlights",
         "LIST4": {

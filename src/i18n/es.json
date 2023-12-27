@@ -80,16 +80,16 @@
         "DESC2_1": "\"Vitamina\" del latín \"vita\" significa \"vida\". Nuestra vida no es posible sin vitaminas.",
         "DESC2_2": "La aplicación rastrea las vitaminas, los minerales tomados y su cantidad. Puede agregar sus propios elementos.",
         "DESC2_3": "Cree un horario y reciba una notificación push sobre tomar vitaminas a la hora designada.",
-        "HEAD3": "Principio de funcionamiento",
-        "DESC3_1": "El rastreador de admisión de vitaminas promueve la nutrición adecuada y la formación de un enfoque más informado para la selección de alimentos, que, a su vez, tiene un efecto positivo en el estado del cuerpo y la mente.",
-        "DESC3_2": "Una descripción de cada vitamina:",
+        "HEAD3": "Vitaminas y Minerales",
+        "DESC3_1": "La herramienta definitiva para seguir y optimizar tu ingesta de nutrientes.  Especialmente diseñada para sincronizarse a la perfección con Apple Health, esta aplicación te proporciona información detallada sobre cada elemento esencial, incluidas las dosis diarias y máximas recomendadas. La aplicación muestra información sobre los alimentos que son ricos en vitaminas y minerales específicos, lo que le permite tomar decisiones informadas sobre lo que come. ",
+        "DESC3_2": "La información de cada elemento incluye:", 
         "LIST3": {
-            "LI1_TEXT": "Productos que contienen este elemento",
-            "LI2_TEXT": "Signos de deficiencia de elementos en el cuerpo",
-            "LI3_TEXT": "Tasa de consumo diaria y máxima",
+            "LI1_TEXT": "Alimentos ricos en el elemento",
+            "LI2_TEXT": "Signos de deficiencia del elemento",
+            "LI3_TEXT": "Límite diario y superior de ingesta",
             "LI4_TEXT": "Información sobre sobredosis",
-            "LI5_TEXT": "Funciones del elemento seleccionado",
-            "LI6_TEXT": "Dato interesante sobre el elemento"
+            "LI5_TEXT": "Función del elemento en el organismo",
+            "LI6_TEXT": "Datos interesantes sobre el elemento"
         },
         "HEAD4": "Beneficios de la vitamina",
         "LIST4": {
