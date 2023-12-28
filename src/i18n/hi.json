@@ -1528,22 +1528,22 @@
         "BTN_AGAIN": "Take the test again"
     },
     "FOOTER": {
-        "C": "कॉपीराइट © 2023 मार्टस्पेक एलएलसी। सर्वाधिकार सुरक्षित।",
+        "C": "© 2023 Martpsec एलएलसी। सर्वाधिकार सुरक्षित।",
         "APPLE_BTN":{
             "TITLE": "हमारे Apple AppStore पर सभी मार्टस्पेक एप्लिकेशन देखें",
             "ALT": "Apple के Martpsec AppStore पर हमारे सभी ऐप्स देखें"
         },
         "LINKEDIN_BTN": {
-            "TITLE": "हमें लिंक्डइन पर फॉलो करें"
+            "TITLE": "हमें LinkedIn पर फॉलो करें"
         },
         "EMAIL_BTN": {
             "TITLE": "ईमेल द्वारा हमसे संपर्क करें"
         },
         "TWITTER_BTN": {
-            "TITLE": "चहचहाना पर हमें का पालन करें"
+            "TITLE": "Twitter पर हमें का पालन करें"
         },
         "FACEBOOK_BTN": {
-            "TITLE": "फेसबुक पर हमें का पालन करें"
+            "TITLE": "Facebook पर हमें का पालन करें"
         }
     },
     "ERROR": {
