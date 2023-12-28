@@ -77,19 +77,19 @@
             "LI3_TEXT": "Nous soutenons la gamme complète des vitamines et minéraux essentiels d'Apple."
         },
         "HEAD2": "Pourquoi la vitamine?",
-        "DESC2_1": "\"Vitamine\" du latin \"Vita\" signifie \"Life\". Notre vie n'est pas possible sans vitamines.",
+        "DESC2_1": "\"Vitamine\" du latin \"Vita\" signifie \"Vie\". Notre vie n'est pas possible sans vitamines.",
         "DESC2_2": "L'application suit les vitamines, les minéraux pris et leur montant. Vous pouvez ajouter vos propres éléments.",
         "DESC2_3": "Créez un horaire et recevez une notification push sur la prise de vitamines à l'heure fixée.",
-        "HEAD3": "Principe d'opération",
-        "DESC3_1": "Le tracker d'admission de vitamines favorise une nutrition appropriée et la formation d'une approche plus éclairée de la sélection des aliments, qui, à son tour, a un effet positif sur l'état du corps et de l'esprit.",
-        "DESC3_2": "Une description de chaque vitamine:",
+        "HEAD3": "Vitamines et minéraux",
+        "DESC3_1": "L'outil ultime pour suivre et optimiser votre apport en nutriments.  Spécialement conçue pour se synchroniser en toute transparence avec Apple Health, cette application vous fournit des informations détaillées sur chaque élément essentiel, y compris les doses journalières et maximales recommandées. L'application vous donne un aperçu des choix alimentaires riches en vitamines et minéraux spécifiques, ce qui vous permet de prendre des décisions éclairées sur ce que vous mangez. ",
+        "DESC3_2": "Les informations sur chaque élément comprennent :",
         "LIST3": {
-            "LI1_TEXT": "Produits contenant cet élément",
-            "LI2_TEXT": "Signes de carence en élément dans le corps",
-            "LI3_TEXT": "Taux de consommation quotidien et maximum",
-            "LI4_TEXT": "Informations sur la surdose",
-            "LI5_TEXT": "Fonctions de l'élément sélectionné",
-            "LI6_TEXT": "Fait intéressant sur l'élément"
+            "LI1_TEXT": "Aliments riches en cet élément",
+            "LI2_TEXT": "Signes de carence en élément",
+            "LI3_TEXT": "Limite d'apport journalière et supérieure",
+            "LI4_TEXT": "Informations sur le surdosage",
+            "LI5_TEXT": "Fonction de l'élément dans votre corps",
+            "LI6_TEXT": "Faits intéressants concernant l'élément"
         },
         "HEAD4": "Avantages de la vitamine",
         "LIST4": {
@@ -1087,7 +1087,7 @@
         "DESK1_3": "Le trouble d'anxiété est une condition qui se développe progressivement après une période d'inquiétude excessive; Les symptômes peuvent varier en intensité et persister pendant de plus longues périodes. Les troubles anxieux peuvent amener les gens à éviter les situations qui déclenchent ou aggravent leurs symptômes. Cela peut affecter la productivité du travail, les travaux scolaires et les relations personnelles.",
         "HEAD2": "Types de troubles anxieux",
         "DESK2": "L'âge moyen d'apparition d'un trouble anxieux est de 20 à 24 ans. Ils peuvent survenir avec d'autres troubles mentaux tels que la dépression ou le trouble de stress post-traumatique. Il existe plusieurs types de troubles anxieux, notamment:",
-        "LIST2":{
+        "LIST2": {
             "LI1_HEAD": "Trouble d'anxiété généralisée (TAG).",
             "LI1_TEXT": "Les personnes atteintes de TAG s'inquiètent de problèmes courants tels que la santé, l'argent, le travail et la famille. Elle survient souvent en même temps que d’autres troubles anxieux ou dépressifs, et survient presque tous les jours pendant plusieurs mois.",
             "LI2_HEAD": "Trouble panique.",
@@ -1111,7 +1111,7 @@
         },
         "HEAD4": "Signes d'un trouble anxieux",
         "DESK4": "Les causes des troubles anxieux sont actuellement inconnues, mais impliquent probablement une combinaison de facteurs, notamment génétiques, environnementaux, psychologiques et développementaux. Certains facteurs qui ont été impliqués comprennent:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Chimie du cerveau.",
             "LI1_TEXT": "Un stress sévère ou prolongé peut contribuer à modifier l’équilibre chimique du cerveau.",
             "LI2_HEAD": "Expériences.",
@@ -1235,7 +1235,7 @@
         "ALT2": "Yoga",
         "HEAD3": "Caractéristiques de l'harmonie interne",
         "DESK3": "L’harmonie interne implique un état d’être dans lequel vous ressentez un sentiment de calme, de satisfaction et d’absence de conflit interne. L'harmonie englobe les caractéristiques suivantes:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Stabilité émotionnelle:",
             "LI1_TEXT": "vous ressentez un équilibre émotionnel constant.",
             "LI2_HEAD": "Acceptation:",
@@ -1249,7 +1249,7 @@
         },
         "HEAD4": "Comment parvenir à l’harmonie intérieure?",
         "DESK4": "L'harmonie est un choix que vous pouvez faire consciemment. Il s'agit d'un état mental et non d'un environnement physique dans lequel vous vous trouvez. Vous pouvez atteindre et maintenir votre harmonie intérieure simplement en adoptant une attitude appropriée face à la vie. Voici quelques étapes qui peuvent vous aider à atteindre l’harmonie interne:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Connaissance de soi:",
             "LI1_TEXT": "comprenez vos émotions, vos déclencheurs et vos schémas de pensée. Reconnaissez lorsque vous perdez l’équilibre ou ressentez des troubles internes. La conscience de soi est la première étape vers la recherche d’un équilibre.",
             "LI2_HEAD": "Acceptation:",
@@ -1294,7 +1294,7 @@
         "ALT2": "Lire des livres",
         "HEAD3": "Caractéristiques d'une personnalité indépendante",
         "DESK3": "Voici quelques-unes des caractéristiques les plus courantes du type de personnalité indépendante:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Autonomie.",
             "LI1_TEXT": "Les personnes indépendantes ont la capacité de prendre des décisions basées sur leurs propres croyances, valeurs et préférences.",
             "LI2_HEAD": "Esprit critique.",
@@ -1313,7 +1313,7 @@
         "ALT4": "Indépendance",
         "HEAD5": "Problèmes d'un type de personnalité indépendant",
         "DESK5_1": "Même si avoir une personnalité indépendante peut être bénéfique à bien des égards, il est important de comprendre que ce trait peut également poser des problèmes, voire des problèmes potentiels. Voici quelques problèmes auxquels les personnes ayant un fort type de personnalité indépendante peuvent être confrontées:",
-        "LIST5":{
+        "LIST5": {
             "LI1_HEAD": "Entêtement.",
             "LI1_TEXT": "La tendance à se fier uniquement à son propre point de vue et à ses propres décisions peut conduire à l'entêtement. Cela peut rendre difficile l’acceptation de points de vue alternatifs ou l’adaptation à des circonstances changeantes.",
             "LI2_HEAD": "Coopération limitée.",
@@ -1401,7 +1401,7 @@
         "ALT4": "Interaction avec les collègues",
         "HEAD5": "Intérêts de carrière pour les personnes énergiques",
         "DESK5_1": "Les personnes énergiques s’épanouissent dans les activités qui leur permettent d’exprimer leur vitalité et d’interagir avec les autres. Certaines activités appropriées peuvent inclure les sports d'équipe, la danse, les aventures en plein air telles que la randonnée ou le vélo, les événements de réseautage, la prise de parole en public et les activités créatives à haute énergie telles que le théâtre ou la parole. Voici quelques intérêts de carrière qui pourraient intéresser les personnes énergiques:",
-        "LIST5":{
+        "LIST5": {
             "LI1_TEXT": "Ventes et marketing.",
             "LI2_TEXT": "Planification d'événements.",
             "LI3_TEXT": "Relations publiques.",
@@ -1520,8 +1520,7 @@
         "GROUP_TITLE_I": "Independence",
         "GROUP_TITLE_G": "Harmony",
         "GROUP_TITLE_E": "Energy",
-                "GROUP_DESC_E": "Having enough energy is crucial for any activity. Without sufficient energy, it can be difficult to accomplish much. In such situations, taking a break to rest and recharge is recommended. Conversely, having too much energy can make you tense, overreactive, and inefficient. Maintaining a moderate level of energy, known as the \"green level\", is optimal for any mental or physical activity \n\n It's important to note that higher energy levels indicate a higher activation of the sympathetic nervous system and metabolic processes. If the sympathetic drive is chronically too high, it can lead to harmful stress reactions. \n\n Knowing when to speed up and slow down is crucial for feeling and performing well and achieving personal goals. The sympathetic nervous system accelerates bodily functions, while the parasympathetic system slows them down.",
-
+        "GROUP_DESC_E": "Having enough energy is crucial for any activity. Without sufficient energy, it can be difficult to accomplish much. In such situations, taking a break to rest and recharge is recommended. Conversely, having too much energy can make you tense, overreactive, and inefficient. Maintaining a moderate level of energy, known as the \"green level\", is optimal for any mental or physical activity \n\n It's important to note that higher energy levels indicate a higher activation of the sympathetic nervous system and metabolic processes. If the sympathetic drive is chronically too high, it can lead to harmful stress reactions. \n\n Knowing when to speed up and slow down is crucial for feeling and performing well and achieving personal goals. The sympathetic nervous system accelerates bodily functions, while the parasympathetic system slows them down.",
         "E1": "Exhaustion. Chronic fatigue. Your mind is set on inactivity. You are not ready to act adequately in a stressful situation and not ready for the tension resulting from that stress. As a result, you react passively to difficulties. Your parasympathetic nervous system takes over control and promotes recovery and digestion processes. You need to allow yourself time to rest and recover.",
         "E2": "Energy usage is optimized. The need for recovery and rest is moderate. The energy potential is low but sufficient for successful activity in the usual tranquil conditions. In an extreme situation, there is likely to be a delay in decision-making.",
         "E3": "Your resources are mobilized and ready for engaged action. This energy level is optimal for physical and mental activities. In an extreme situation, your responses and decision-making speed are at max level. Expediency and success of your actions are most likely.",
@@ -1536,7 +1535,7 @@
     },
     "FOOTER": {
         "C": "© 2023 Martspec LLC. Tous les droits sont réservés.",
-        "APPLE_BTN":{
+        "APPLE_BTN": {
             "TITLE": "Voir toutes les applications martspec sur notre Apple AppStore",
             "ALT": "Voir toutes nos applications sur Martpsec AppStore chez Apple"
         },

@@ -83,16 +83,16 @@
         "DESC2_1": "\"Vitamina\" do latim \"Vita\" significa \"Leben\". Nossa vida não é possível sem vitaminas.",
         "DESC2_2": "O aplicativo rastreia as vitaminas, os minerais tomados e sua quantidade. Você pode adicionar seus próprios elementos.",
         "DESC2_3": "Crie um cronograma e receba uma notificação de push sobre como tomar vitaminas no horário designado.",
-        "HEAD3": "Princípio da Operação",
-        "DESC3_1": "O rastreador de ingestão de vitaminas promove a nutrição adequada e a formação de uma abordagem mais informada para a seleção de alimentos, que, por sua vez, tem um efeito positivo no estado do corpo e da mente.",
-        "DESC3_2": "Uma descrição de cada vitamina:",
+        "HEAD3": "Vitaminas e Minerais",
+        "DESC3_1": "A ferramenta definitiva para monitorar e otimizar sua ingestão de nutrientes.  Especialmente projetado para sincronizar-se perfeitamente com o Apple Health, esse aplicativo oferece informações detalhadas sobre cada elemento essencial, incluindo as doses diárias e máximas recomendadas. O aplicativo mostra informações sobre opções de alimentos que são ricos em vitaminas e minerais específicos, permitindo que você tome decisões informadas sobre o que come. ",
+        "DESC3_2": "As informações de cada elemento incluem:",
         "LIST3": {
-            "LI1_TEXT": "Produtos que contêm este elemento",
-            "LI2_TEXT": "Sinais de deficiência de elementos no corpo",
-            "LI3_TEXT": "Taxa diária e máxima de consumo",
-            "LI4_TEXT": "Überdosierungsinformationen",
-            "LI5_TEXT": "Funções do elemento selecionado",
-            "LI6_TEXT": "Fato interessante sobre o elemento"
+            "LI1_TEXT": "Alimentos ricos no elemento",
+            "LI2_TEXT": "Sinais de deficiência do elemento",
+            "LI3_TEXT": "Limite diário e superior de ingestão",
+            "LI4_TEXT": "Informações sobre overdose",
+            "LI5_TEXT": "Função do elemento em seu corpo",
+            "LI6_TEXT": "Fatos interessantes sobre o elemento"
         },
         "HEAD4": "Benefícios da vitamina",
         "LIST4": {
@@ -234,7 +234,7 @@
             "FOOD_SUNFLOWER": "Sementes de girassol",
             "FOOD_TOFU": "Tofu, firme",
             "FOOD_TOMATO": "Tomate",
-             "MCG": "mcg",
+            "MCG": "mcg",
             "MG": "mg",
             "FACTS": "Você sabia?"
         },
@@ -1093,7 +1093,7 @@
         "DESK1_3": "O transtorno de ansiedade é uma condição que se desenvolve gradualmente após um período de preocupação excessiva. Os sintomas podem variar em intensidade e persistir por períodos mais longos. Os transtornos de ansiedade podem fazer com que as pessoas evitem situações que desencadeiam ou pioram seus sintomas. Isso pode afetar a produtividade do trabalho, os trabalhos escolares e os relacionamentos pessoais.",
         "HEAD2": "Tipos de transtornos de ansiedade",
         "DESK2": "A idade média de início de um transtorno de ansiedade é de 20 a 24 anos. Eles podem ocorrer com outros transtornos mentais, como depressão ou transtorno de estresse pós-traumático. Existem vários tipos de transtornos de ansiedade, incluindo:",
-        "LIST2":{
+        "LIST2": {
             "LI1_HEAD": "Transtorno de ansiedade generalizada (TAG).",
             "LI1_TEXT": "Pessoas com TAG se preocupam com questões comuns como saúde, dinheiro, trabalho e família. Muitas vezes ocorre junto com outros transtornos de ansiedade ou depressão e ocorre quase todos os dias durante vários meses.",
             "LI2_HEAD": "Síndrome do pânico.",
@@ -1117,7 +1117,7 @@
         },
         "HEAD4": "Sinais de um transtorno de ansiedade",
         "DESK4": "As causas dos transtornos de ansiedade são atualmente desconhecidas, mas provavelmente envolvem uma combinação de fatores, incluindo genéticos, ambientais, psicológicos e de desenvolvimento. Alguns fatores que estiveram envolvidos incluem:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Química cerebral.",
             "LI1_TEXT": "O estresse severo ou prolongado pode contribuir para alterações no equilíbrio químico do cérebro.",
             "LI2_HEAD": "Experiências.",
@@ -1177,7 +1177,8 @@
         "DESK4_2": "O impacto da produtividade vai além da realização pessoal, pois as pessoas produtivas tendem a ser funcionários eficazes e jogadores de equipe. Sua abordagem organizada e capacidade de cumprir prazos os tornam ativos valiosos no trabalho em grupo. Além disso, a sua propensão para o crescimento pessoal e o auto-aperfeiçoamento inspira outros e cria uma cultura de aprendizagem e desenvolvimento contínuos.",
         "DESK4_3": "Essencialmente, as pessoas produtivas estão mais bem equipadas para aproveitar oportunidades, experimentar satisfação pessoal e influenciar positivamente os outros. Sua capacidade de harmonizar os seus esforços com os seus objetivos contribui para uma vida marcada por realizações, satisfação e conexões significativas.",
         "HEAD5": "Como se tornar mais produtivo?",
-        "DESK5_1": "Aumentar a produtividade não é algo que acontece da noite para o dia. Embora possa parecer fácil para algumas pessoas, a sua capacidade de planear e utilizar o seu tempo de forma eficaz tem muitas vezes mais a ver com hábitos estabelecidos que levam ao aumento da produtividade ao longo do tempo. Para se tornar mais produtivo, concentre-se nas seguintes estratégias principais:",        "LIST5": {
+        "DESK5_1": "Aumentar a produtividade não é algo que acontece da noite para o dia. Embora possa parecer fácil para algumas pessoas, a sua capacidade de planear e utilizar o seu tempo de forma eficaz tem muitas vezes mais a ver com hábitos estabelecidos que levam ao aumento da produtividade ao longo do tempo. Para se tornar mais produtivo, concentre-se nas seguintes estratégias principais:",
+        "LIST5": {
             "LI1_HEAD": "Stabeleça metas claras:",
             "LI1_TEXT": "identifique metas específicas e alcançáveis para orientar seus esforços.",
             "LI2_HEAD": "Priorize tarefas:",
@@ -1240,7 +1241,7 @@
         "ALT2": "Ioga",
         "HEAD3": "Características da harmonia interna",
         "DESK3": "A harmonia interna implica um estado de ser onde você experimenta uma sensação de calma, satisfação e ausência de conflito interno. A harmonia abrange as seguintes características:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Estabilidade emocional:",
             "LI1_TEXT": "você experimenta equilíbrio emocional constante.",
             "LI2_HEAD": "Aceitação:",
@@ -1254,7 +1255,7 @@
         },
         "HEAD4": "Como alcançar a harmonia interna?",
         "DESK4": "Harmonia é uma escolha que você pode fazer conscientemente. É um estado mental, não um ambiente físico em que você está situado. Você pode alcançar e manter sua harmonia interna simplesmente adotando a atitude apropriada perante a vida. Aqui estão alguns passos que podem ajudá-lo a alcançar a harmonia interna:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Autoconsciência:",
             "LI1_TEXT": "entenda suas emoções, gatilhos e padrões de pensamento. Reconheça quando você está perdendo o equilíbrio ou passando por uma turbulência interna. A autoconsciência é o primeiro passo para encontrar o equilíbrio.",
             "LI2_HEAD": "Aceitação:",
@@ -1299,7 +1300,7 @@
         "ALT2": "Leia livros",
         "HEAD3": "Características de uma personalidade independente",
         "DESK3": "Aqui estão algumas das características mais comuns do tipo de personalidade independente:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Autonomy:",
             "LI1_TEXT": "as pessoas independentes têm a capacidade de tomar decisões com base em suas próprias crenças, valores e preferências.",
             "LI2_HEAD": "Pensamento crítico:",
@@ -1318,7 +1319,7 @@
         "ALT4": "Independência",
         "HEAD5": "Problemas de um tipo de personalidade independente",
         "DESK5_1": "Embora ter uma personalidade independente possa ser benéfica de várias maneiras, é importante entender que também pode haver problemas e problemas em potencial com essa característica. Aqui estão alguns problemas que as pessoas com um forte tipo de personalidade independente podem enfrentar:",
-        "LIST5":{
+        "LIST5": {
             "LI1_HEAD": "Teimosia.",
             "LI1_TEXT": "A tendência de confiar apenas na própria perspectiva e nas decisões pode levar à teimosia. Isso pode dificultar aceitar pontos de vista alternativos ou se adaptar às mudanças nas circunstâncias.",
             "LI2_HEAD": "Cooperação limitada.",
@@ -1349,6 +1350,76 @@
             "LI9_TEXT": "Atividades artísticas."
         },
         "DESK6_2": "É importante observar que, embora a independência possa contribuir para o sucesso nesses campos, as habilidades de colaboração e comunicação eficazes também são valiosas na maioria das profissões. Encontrar um equilíbrio entre independência e trabalho em equipe é essencial para uma carreira gratificante. Além disso, as pessoas são únicas e sua carreira pode ser influenciada por uma combinação de características e interesses que não sejam a independência."
+    },
+    "ENERGY": {
+        "HEAD": "Energia",
+        "IMG": "Energia",
+        "DWN": "Obtenha o aplicativo Emoção gratuito para Apple Watch, iPhone ou iPad diretamente na Apple App Store.",
+        "CONTENTS": "O índice analítico",
+        "HEAD1": "O que é energia?",
+        "DESK1_1": "Pessoas com altos índices de energia são ativas, vivas e entusiasmadas. São sociáveis, competitivos, alegres e abertos. Eles se sentem mais confortáveis ​​em se comunicar com estranhos, visitar novos lugares e começar coisas novas. Pessoas com baixos índices de energia são mais quietas, reservadas e retraídas. Tendem a conservar energia, acumular forças e têm atitude de minimizar esforços e não estão preparados para atividades ativas.",
+        "DESK1_2": "Energia pode se referir ao nível de entusiasmo e vitalidade de uma pessoa. Embora não seja tradicionalmente considerado um traço de personalidade distinto, o nível de energia de uma pessoa pode influenciar muito o seu comportamento, interações e abordagem geral da vida.",
+        "DESK1_3": "É importante notar que níveis mais elevados de energia indicam maior ativação do sistema nervoso simpático e dos processos metabólicos. No entanto, se este nível for demasiado elevado durante um longo período de tempo, pode levar a reações de stress prejudiciais.",
+        "HEAD2": "Características de uma pessoa enérgica",
+        "DESK2": "Uma pessoa enérgica apresenta características únicas que influenciam seu estilo de vida e sua interação com o mundo ao seu redor. Tal pessoa possui características únicas como vitalidade, sociabilidade e adaptabilidade. São essas características que o ajudam a vivenciar uma vida plena, alcançar o sucesso nos diversos campos de atividade e construir relacionamentos de qualidade com as pessoas ao seu redor.",
+        "LIST2": {
+            "LI1_HEAD": "Força vital",
+            "LI1_TEXT": "- permite que uma pessoa se diferencie das outras por sua alta energia e atividade. Manifesta-se no desejo de atingir metas e cumprir as tarefas atribuídas. Uma pessoa enérgica é cheia de entusiasmo, paixão e determinação para superar os desafios do caminho. Graças a essa característica, ele consegue transformar cada desafio em uma nova oportunidade de crescimento e desenvolvimento. Normalmente, as pessoas com alta vitalidade são facilmente identificadas no local de trabalho pela sua energia física, estado de alerta e excitação. Quando se trata de trabalho, gostam de mudanças e variedades e procuram situações que as ofereçam. Pessoas com pontuações baixas são mais calmas, mais deliberadas e mais ponderadas sobre suas ações. Para algumas pessoas, o seu estilo pode indicar falta de motivação ou entusiasmo. Mas esse não é necessariamente o caso. Eles simplesmente não demonstram seu entusiasmo da mesma forma e não gostam de ser o centro das atenções.",
+            "LI2_HEAD": "Sociabilidade",
+            "LI2_TEXT": "é outra característica maravilhosa de uma pessoa enérgica. Essas pessoas gravitam em torno da comunicação, encontram alegria e inspiração no contato com outras pessoas. Eles fazem novas amizades com facilidade, participam ativamente de eventos em grupo e não têm medo de falar diante de um público. Essa sociabilidade permite que eles estabeleçam conexões fortes, construam uma rede de apoio e ganhem novas oportunidades. Pessoas com pontuações altas são as “borboletas sociais” da sua empresa, conhecidas em todos os departamentos. Eles gostam de estar envolvidos no que está acontecendo ao seu redor. Eles se conectam rapidamente com as pessoas, tornando-os assistentes inestimáveis. Aqueles com pontuações baixas são mais reservados e reservados. Eles demoram mais para ingressar em novas equipes e podem se sentir desconfortáveis ​​em situações sociais. Outros podem demorar mais para conhecê-los e ter menos relacionamentos próximos.",
+            "LI3_HEAD": "Adaptativo.",
+            "LI3_TEXT": "Pessoas com pontuações altas são curiosas e curiosas. Eles são capazes de se adaptar facilmente a novas situações e responder rapidamente às mudanças no ambiente. Isto permite-lhes resolver problemas de forma eficaz e adaptar-se rapidamente a novas exigências e desafios. Quando se deparam com um problema, adoram buscar a opinião dos outros e acham inspirador compartilhar ideias em grupo. Por outro lado, as pessoas com pontuações baixas preferem trabalhar sozinhas num problema e apresentar as suas conclusões após reflexão e consideração cuidadosa."
+        },
+        "ALT2": "Esporte e Energia",
+        "HEAD3": "Manifestação de energia",
+        "DESK3": "Pessoas enérgicas são caracterizadas por altos níveis de entusiasmo, energia e vitalidade. Eles exalam uma sensação de vivacidade e são frequentemente considerados dinâmicos e atraentes. Veja como a energia pode se manifestar como um traço de personalidade:",
+        "LIST3": {
+            "LI1_HEAD": "Energia alta:",
+            "LI1_TEXT": "personalidades com altos níveis de energia são frequentemente caracterizadas pelo entusiasmo, vivacidade e participação ativa em diversas atividades. Eles exalam positividade e irradiam vitalidade em suas interações. Pessoas enérgicas tendem a ser extrovertidas, gostam de socializar e podem ser a vida da festa. Freqüentemente, eles abordam os desafios com determinação e aceitam prontamente novas experiências. Sua energia pode ser contagiante e inspiradora para outras pessoas.",
+            "LI2_HEAD": "Energia moderada:",
+            "LI2_TEXT": "pessoas com níveis moderados de energia encontram um equilíbrio entre estados de alta e baixa energia. Conseguem adaptar seus níveis de energia a diferentes situações, demonstrando entusiasmo quando necessário, além de apreciar momentos de calma. Pessoas com energia média podem gostar de comunicação, mas também apreciam o silêncio e a reflexão. Freqüentemente, eles conseguem manter um ritmo constante de trabalho sem ficarem cansados.",
+            "LI3_HEAD": "Energia baixa:",
+            "LI3_TEXT": "pessoas com níveis de energia mais baixos tendem a ser mais reservadas e retraídas. Eles encontram rejuvenescimento na solidão e podem demorar mais para se recuperar. Embora possam não demonstrar altos níveis de entusiasmo, muitas vezes têm uma profunda capacidade de foco, introspecção e reflexão. Pessoas com baixos níveis de energia podem ser muito produtivas e envolver-se em tarefas que se alinham com os seus interesses e valores."
+        },
+        "HEAD4": "Vantagens e desvantagens",
+        "DESK4_1": "Pessoas enérgicas trazem dinamismo e vibração a vários aspectos da vida. Eles prosperam nas redes sociais, inspiram e muitas vezes se destacam em posições de liderança. No entanto, manter um equilíbrio entre o entusiasmo e o autocuidado é fundamental para evitar o esgotamento e manter o bem-estar a longo prazo. Benefícios de pessoas energéticas:",
+        "LIST4_1": {
+            "LI1_HEAD": "Inspiração:",
+            "LI1_TEXT": "pessoas enérgicas inspiram e motivam os outros com seu entusiasmo e positividade.",
+            "LI2_HEAD": "Liderança:",
+            "LI2_TEXT": "sua personalidade dinâmica muitas vezes leva a papéis de liderança naturais e à capacidade de reunir as pessoas em torno de objetivos comuns.",
+            "LI3_HEAD": "Adaptativo:",
+            "LI3_TEXT": "seu raciocínio rápido e sua disposição para aceitar mudanças os tornam adaptáveis ​​em diferentes situações.",
+            "LI4_HEAD": "Rede:",
+            "LI4_TEXT": "pessoas enérgicas podem criar redes extensas devido à sua natureza extrovertida."
+        },
+        "DESK4_2": "É importante ressaltar que os níveis de energia podem variar dependendo de fatores como saúde física, qualidade do sono, bem-estar mental e características individuais. As pessoas também podem demonstrar diferentes níveis de energia em diferentes contextos ou em diferentes momentos das suas vidas. Desvantagens pessoas enérgicas:",
+        "LIST4_2": {
+            "LI1_HEAD": "Risco de esgotamento:",
+            "LI1_TEXT": "níveis de energia continuamente elevados podem levar ao esgotamento se não forem equilibrados com descanso e autocuidado.",
+            "LI2_HEAD": "Impulsividade:",
+            "LI2_TEXT": "o excesso de energia pode levar a decisões impulsivas sem reflexão suficiente.",
+            "LI3_HEAD": "Supercomprometido:",
+            "LI3_TEXT": "pessoas enérgicas podem assumir muitas tarefas e responsabilidades, o que leva ao estresse.",
+            "LI4_HEAD": "Precisa de confirmação:",
+            "LI4_TEXT": "a necessidade de manter altos níveis de energia pode surgir da busca pela validação de outras pessoas."
+        },
+        "ALT4": "Interação com colegas",
+        "HEAD5": "Interesses profissionais para pessoas energéticas",
+        "DESK5_1": "Pessoas enérgicas prosperam em atividades que lhes permitem expressar sua vitalidade e interagir com outras pessoas. Algumas atividades adequadas podem incluir esportes coletivos, dança, aventuras ao ar livre, como caminhadas ou ciclismo, eventos de networking, falar em público e atividades criativas de alta energia, como atuar ou falar. Aqui estão alguns interesses profissionais que podem atrair pessoas enérgicas:",
+        "LIST5":{
+            "LI1_TEXT": "Vendas e Marketing.",
+            "LI2_TEXT": "Planejamento de eventos.",
+            "LI3_TEXT": "Relações Públicas.",
+            "LI4_TEXT": "Indústria do entretenimento.",
+            "LI5_TEXT": "Fitness e treinamento pessoal.",
+            "LI6_TEXT": "Anúncio.",
+            "LI7_TEXT": "Empreendedorismo.",
+            "LI8_TEXT": "Mídia e radiodifusão.",
+            "LI9_TEXT": "Guia turístico.",
+            "LI10_TEXT": "Indústria de moda e beleza."
+        },
+        "DESK5_2": "Pessoas energéticas devem considerar os seus pontos fortes, interesses e valores ao escolher opções de carreira. É importante encontrar um plano de carreira que corresponda às suas qualidades naturais, mas que também deixe espaço para o crescimento pessoal e o bem-estar."
     },
     "OPENNESS": {
         "HEAD": "Openness",
@@ -1455,8 +1526,7 @@
         "GROUP_TITLE_I": "Independence",
         "GROUP_TITLE_G": "Harmony",
         "GROUP_TITLE_E": "Energy",
-                "GROUP_DESC_E": "Having enough energy is crucial for any activity. Without sufficient energy, it can be difficult to accomplish much. In such situations, taking a break to rest and recharge is recommended. Conversely, having too much energy can make you tense, overreactive, and inefficient. Maintaining a moderate level of energy, known as the \"green level\", is optimal for any mental or physical activity \n\n It's important to note that higher energy levels indicate a higher activation of the sympathetic nervous system and metabolic processes. If the sympathetic drive is chronically too high, it can lead to harmful stress reactions. \n\n Knowing when to speed up and slow down is crucial for feeling and performing well and achieving personal goals. The sympathetic nervous system accelerates bodily functions, while the parasympathetic system slows them down.",
-
+        "GROUP_DESC_E": "Having enough energy is crucial for any activity. Without sufficient energy, it can be difficult to accomplish much. In such situations, taking a break to rest and recharge is recommended. Conversely, having too much energy can make you tense, overreactive, and inefficient. Maintaining a moderate level of energy, known as the \"green level\", is optimal for any mental or physical activity \n\n It's important to note that higher energy levels indicate a higher activation of the sympathetic nervous system and metabolic processes. If the sympathetic drive is chronically too high, it can lead to harmful stress reactions. \n\n Knowing when to speed up and slow down is crucial for feeling and performing well and achieving personal goals. The sympathetic nervous system accelerates bodily functions, while the parasympathetic system slows them down.",
         "E1": "Exhaustion. Chronic fatigue. Your mind is set on inactivity. You are not ready to act adequately in a stressful situation and not ready for the tension resulting from that stress. As a result, you react passively to difficulties. Your parasympathetic nervous system takes over control and promotes recovery and digestion processes. You need to allow yourself time to rest and recover.",
         "E2": "Energy usage is optimized. The need for recovery and rest is moderate. The energy potential is low but sufficient for successful activity in the usual tranquil conditions. In an extreme situation, there is likely to be a delay in decision-making.",
         "E3": "Your resources are mobilized and ready for engaged action. This energy level is optimal for physical and mental activities. In an extreme situation, your responses and decision-making speed are at max level. Expediency and success of your actions are most likely.",
@@ -1471,7 +1541,7 @@
     },
     "FOOTER": {
         "C": "© 2023 Martspec LLC. Todos os direitos reservados.",
-        "APPLE_BTN":{
+        "APPLE_BTN": {
             "TITLE": "Veja todos os aplicativos martspec em nossa Apple AppStore",
             "ALT": "Veja todos os nossos aplicativos na Martpsec AppStore na Apple"
         },
@@ -1546,7 +1616,7 @@
         "DEFINITION": {
             "HEAD": "Interpretação e Definições",
             "P1": "As palavras cuja letra inicial é maiúscula têm significados definidos nas seguintes condições. As seguintes definições terão o mesmo significado independentemente de aparecerem no singular ou no plural.",
-             "P2": "Para efeitos desta Política de Privacidade:",
+            "P2": "Para efeitos desta Política de Privacidade:",
             "UL": {
                 "ACCOUNT": {
                     "STRONG": "Conta",
