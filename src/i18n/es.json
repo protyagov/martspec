@@ -1536,8 +1536,8 @@
     "FOOTER": {
         "C": "© 2023 Martspec LLC. Todos los derechos reservados.",
         "APPLE_BTN":{
-            "TITLE": "Vea todas las aplicaciones de Martspec en App Store de Apple",
-            "ALT": "Vea todas nuestras aplicaciones en Martspec App Store de Apple"
+            "TITLE": "Vea todas nuestras aplicaciones de Martspec en App Store de Apple",
+            "ALT": "Vea todas nuestras aplicaciones de Martspec en App Store de Apple"
         },
         "LINKEDIN_BTN": {
             "TITLE": "Síganos en LinkedIn"
