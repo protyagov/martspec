@@ -119,7 +119,7 @@
         },
         "HEAD6": "Vitamina: una aplicación para controlar el equilibrio de las vitaminas y minerales necesarios.",
         "DESC6": "Instale la aplicación para iOS de forma gratuita y disfrute de la salud y la vitalidad.",
-        "BTN_OPEN": "Controlar",
+        "BTN_OPEN": "Vitaminícese",
         "VITAMIN_FAT": {
             "NAME": "Vitaminas liposolubles",
             "SHORT": "Vitaminas liposolubles",
@@ -859,7 +859,7 @@
         "LINK2": "Estudio de American Heart Association",
         "HEAD3": "Disminuye la inflamación",
         "DESC3": "Disminuye el estrés oxidativo y reduce los niveles de ciertas proteínas inflamatorias en su cuerpo. El estrés oxidativo conduce a la inflamación crónica, un factor contribuyente en una amplia gama de enfermedades crónicas, como las enfermedades cardíacas, el cáncer y el declive mental.",
-        "BTN_OPEN": "Apoyo"
+        "BTN_OPEN": "Zinc Asombroso"
     },
     "SIZE": {
         "HEAD": "Medida",
@@ -1536,8 +1536,8 @@
     "FOOTER": {
         "C": "© 2023 Martspec LLC. Todos los derechos reservados.",
         "APPLE_BTN":{
-            "TITLE": "Vea todas las aplicaciones de Martspec en nuestra AppStore de Apple",
-            "ALT": "Vea todas nuestras aplicaciones en Martspec AppStore en Apple"
+            "TITLE": "Vea todas las aplicaciones de Martspec en App Store de Apple",
+            "ALT": "Vea todas nuestras aplicaciones en Martspec App Store de Apple"
         },
         "LINKEDIN_BTN": {
             "TITLE": "Síganos en LinkedIn"
@@ -1576,12 +1576,12 @@
     },
     "ABOUT": {
         "HEAD": "Sobre nosotros",
-        "P1": "Martspec se fundó 🌱 en la primavera de 2020. Durante ese tiempo, muchas personas trabajaron desde casa y sus rutinas diarias cambiaron, lo que provocó que muchos dejaran de hacer ejercicio con regularidad. Esto provocó cambios significativos en sus cuerpos y su salud.",
-        "P2": "Nuestras aplicaciones de bienestar están diseñadas específicamente para brindar a los usuarios las herramientas necesarias para cultivar hábitos saludables. Al realizar un seguimiento meticuloso de su progreso, las personas recuerdan de manera efectiva todos los días su inquebrantable dedicación a su salud, lo que en última instancia conduce a mejoras sustanciales en su bienestar general.",
+        "P1": "Martspec se fundó 🌱 en la primavera de 2020. Durante ese tiempo, muchas personas trabajaron desde casa y sus rutinas diarias cambiaron, lo que provocó que muchos dejaran de hacer ejercicio con regularidad. Esto llevó cambios significativos en sus cuerpos y su salud.",
+        "P2": "Nuestras aplicaciones de bienestar están diseñadas específicamente para brindar a los usuarios las herramientas necesarias para cultivar hábitos saludables. Al realizar un seguimiento meticuloso de su progreso, a las personas se les recuerda de manera efectiva todos los días su dedicación inquebrantable a su salud, lo que en última instancia conduce a mejoras sustanciales en su bienestar general.",
         "P3": "Las personas que controlan su bienestar diariamente tienden a lograr mayores avances en comparación con quienes no lo hacen.",
-        "P4": "Creemos apasionadamente en el poder de las ideas para cambiar actitudes, vidas y, en última instancia, el mundo. Nuestra primera idea fue crear una aplicación que realizara un seguimiento del peso corporal directamente desde dispositivos portátiles. Desarrollamos la aplicación Peso para Apple Watch, lo que facilita el seguimiento del peso corporal y registra las mediciones automáticamente en La app Salud. El diseño limpio y minimalista de la aplicación la ha hecho muy popular.",
-        "P5": "Una de nuestras últimas aplicaciones, Emoción, tiene como objetivo promover el bienestar mental proporcionando una prueba de personalidad rápida y sencilla. Además del bienestar físico y el seguimiento de la salud, hemos creado nuestra primera aplicación, Emoción, para promover el bienestar mental. Desde su creación, este producto sólo ha recibido críticas positivas y tiene casi exclusivamente valoraciones de 5 estrellas.",
-        "P6": "Nuestras aplicaciones están diseñadas con tecnología de punta y están disponibles en varios idiomas en todo el mundo. Sin embargo, nada de eso importa. No se trata sólo de la cantidad de aplicaciones y software líder en la industria. Martspec se trata de personas. Martspec se trata de confiar en la tecnología que brinda a las personas salud y bienestar personal."
+        "P4": "Creemos apasionadamente en el poder de las ideas para cambiar actitudes, vidas y, en última instancia, el mundo. Nuestra primera idea fue crear una aplicación que realizara un seguimiento del peso corporal directamente desde dispositivos vestibles. Desarrollamos la aplicación Peso para Apple Watch, lo que facilita el seguimiento del peso corporal y registra las mediciones automáticamente en la app Salud de Apple. El diseño limpio y minimalista de la aplicación la ha hecho muy popular.",
+        "P5": "Una de nuestras aplicaciones, Emoción, tiene como objetivo promover el bienestar mental proporcionando una prueba de personalidad rápida y sencilla. Además del seguimiento del bienestar físico y la salud, hemos creado nuestra primera aplicación, Emoción, para promover el bienestar mental. Desde su creación, este producto ha recibido solo reseñas positivas y casi exclusivamente valoraciones de 5 estrellas.",
+        "P6": "Nuestras aplicaciones están diseñadas con tecnología de vanguardia y están disponibles en varios idiomas a nivel mundial. Sin embargo, nada de eso importa. No se trata sólo de la cantidad de aplicaciones y software líder en la industria. Martspec se trata de personas. Martspec se trata de confiar en la tecnología que capacita a las personas con la salud y el bienestar personal."
     },
     "TEAM": {
         "HEAD": "Equipo",
