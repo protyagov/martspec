@@ -69,12 +69,12 @@
         "ABOUT_1": "Control your intake of important vitamins and minerals every day.",
         "ABOUT_2": "The energy of healthy eating and a happy life.",
         "LIST1": {
-            "LI1_HEAD": "Ease of daily use",
-            "LI1_TEXT": "Our users helped us make the application simple, convenient and understandable.",
-            "LI2_HEAD": "Add up to 20 of your items",
-            "LI2_TEXT": "Replenish and monitor the list of installed elements and minerals.",
-            "LI3_HEAD": "All vitamins and minerals from Apple Health",
-            "LI3_TEXT": "We support the full range of essential vitamins and minerals from Apple."
+            "LI1_HEAD": "Easy to love",
+            "LI1_TEXT": "Designed with you in mind. Thanks to your feedback and support, we have made it simple and intuitive to use.",
+            "LI2_HEAD": "Custom items",
+            "LI2_TEXT": "Create your own items from a wide range of options.  Add custom dietary supplements, multivitamins, pills and more.",
+            "LI3_HEAD": "All vitamins & minerals",
+            "LI3_TEXT": "Enjoy full support of vitamins and minerals for your well-being available in Apple Health."
         },
         "HEAD2": "Why Vitamin?",
         "DESC2_1": "\"VITAMIN\" from the Latin \"VITA\" means \"LIFE\". Our life is not possible without vitamins.",
@@ -115,7 +115,7 @@
             "LI3_HEAD": "14",
             "LI3_TEXT": "Minerals",
             "LI4_HEAD": "20",
-            "LI4_TEXT": "Add your items"
+            "LI4_TEXT": "Custom items"
         },
         "HEAD6": "Vitamin - an application for controlling the balance of necessary vitamins and minerals.",
         "DESC6": "Install the app for IOS for free and enjoy health and vitality.",

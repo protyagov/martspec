@@ -69,12 +69,12 @@
         "ABOUT_1": "每天控制您對重要的維生素和礦物質的攝入。",
         "ABOUT_2": "健康飲食和幸福生活的能量。",
         "LIST1": {
-            "LI1_HEAD": "易於日常使用",
-            "LI1_TEXT": "我們的用戶幫助我們使應用程序變得簡單，方便且易於理解。",
-            "LI2_HEAD": "總計20個物品",
-            "LI2_TEXT": "補充並監視已安裝元素和礦物質的列表。",
-            "LI3_HEAD": "蘋果健康的所有維生素和礦物質",
-            "LI3_TEXT": "我們支持Apple的各種必需維生素和礦物質。"
+            "LI1_HEAD": "你想要的方式",
+            "LI1_TEXT": "以您为中心。感谢您的反馈和支持，我们已将应用程序设计得简单、直观易用",
+            "LI2_HEAD": "您的元素",
+            "LI2_TEXT": "从多种选项中创建您自己的元素。 添加新的膳食补充剂、多种维生素、药片等",
+            "LI3_HEAD": "维生素和矿物质",
+            "LI3_TEXT": "全面支持 Apple Health 提供的所有维生素和矿物质"
         },
         "HEAD2": "為什麼要維生素？",
         "DESC2_1": "\"維他命\" 來自拉丁語 \"維塔\" 方法 \"生活\". 沒有維生素，我們的生活是不可能的。",
@@ -1086,7 +1086,7 @@
         "DESK1_3": "焦慮症是在過度擔心後逐漸發展的疾病。 症狀的強度可能會有所不同，並持續更長的時間。 焦慮症會導致人們避免觸發或惡化其症狀的情況。 它可以影響工作效率，功課和個人關係。",
         "HEAD2": "焦慮症的類型",
         "DESK2": "焦慮症的平均發作年齡為20-24歲。 它們可能發生在其他精神障礙（例如抑鬱症或創傷後應激障礙）中。 有幾種類型的焦慮症，包括：",
-        "LIST2":{
+        "LIST2": {
             "LI1_HEAD": "廣泛性焦慮症（英語：Generalized anxiety disorder，缩写GAD）。",
             "LI1_TEXT": "患有廣泛性焦慮症的人擔心健康、金錢、工作和家庭等常見問題。 它經常與其他焦慮症或憂鬱症一起發生，幾乎每天都會發生，持續幾個月。",
             "LI2_HEAD": "恐慌症.",
@@ -1110,7 +1110,7 @@
         },
         "HEAD4": "焦慮症的跡象",
         "DESK4": "焦慮症的原因目前尚不清楚，但可能涉及多種因素，包括遺傳、環境、心理和發展。 涉及的一些因素包括：",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "腦化學。",
             "LI1_TEXT": "嚴重或長期的壓力會導致大腦化學平衡的變化。",
             "LI2_HEAD": "經驗。",
@@ -1234,7 +1234,7 @@
         "ALT2": "瑜珈",
         "HEAD3": "內部和諧的特徵",
         "DESK3": "內在和諧意味著一種你體驗到平靜、滿足感和沒有內在衝突的狀態。 和諧具有以下特點：",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "情緒穩定：",
             "LI1_TEXT": "您會經歷持續的情緒平衡。",
             "LI2_HEAD": "驗收：",
@@ -1248,7 +1248,7 @@
         },
         "HEAD4": "如何實現內部和諧？",
         "DESK4": "和諧是你可以有意識地做出的選擇。 它是一種精神狀態，而不是你所處的物理環境。 只需採取適當的生活態度，您就可以實現並維持內心的和諧。 以下幾個步驟可以幫助您實現內部和諧：",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "自我意識：",
             "LI1_TEXT": "了解您的情緒、觸發因素和思考模式。 意識到自己何時失去平衡或經歷內心混亂。 自我意識是找到平衡的第一步。",
             "LI2_HEAD": "驗收：",
@@ -1293,7 +1293,7 @@
         "ALT2": "看書",
         "HEAD3": "獨立個性的特徵",
         "DESK3": "這是獨立人格類型的一些最常見的特徵：",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "自治：",
             "LI1_TEXT": "獨立人士有能力根據自己的信念，價值觀和偏好做出決策。",
             "LI2_HEAD": "批判性思維：",
@@ -1312,7 +1312,7 @@
         "ALT4": "獨立",
         "HEAD5": "獨立人格類型的問題",
         "DESK5_1": "儘管擁有獨立的個性可以在許多方面有益，但重要的是要了解，這種特徵也可能存在問題和潛在的問題。 以下是具有強大獨立人格類型的人可能會面臨的一些問題：",
-        "LIST5":{
+        "LIST5": {
             "LI1_HEAD": "固執：",
             "LI1_TEXT": "僅依靠自己的觀點和決定的趨勢會導致固執。 這可能使得很難接受替代的觀點或適應不斷變化的環境。",
             "LI2_HEAD": "有限的合作。",
@@ -1400,7 +1400,7 @@
         "ALT4": "與同事的互動",
         "HEAD5": "充滿活力的人的職業興趣",
         "DESK5_1": "充滿活力的人在活動中蓬勃發展，使他們能夠表達自己的活力並與他人互動。 一些合適的活動可能包括團隊運動，舞蹈，戶外探險，例如遠足或騎自行車，網絡活動，公開演講以及高能創意追求，例如表演或演講。 以下是一些職業興趣，可能會吸引精力充沛的人：",
-        "LIST5":{
+        "LIST5": {
             "LI1_TEXT": "銷售和營銷。",
             "LI2_TEXT": "活動策劃。",
             "LI3_TEXT": "公共關係。",
@@ -1519,8 +1519,7 @@
         "GROUP_TITLE_I": "Independence",
         "GROUP_TITLE_G": "Harmony",
         "GROUP_TITLE_E": "Energy",
-                "GROUP_DESC_E": "Having enough energy is crucial for any activity. Without sufficient energy, it can be difficult to accomplish much. In such situations, taking a break to rest and recharge is recommended. Conversely, having too much energy can make you tense, overreactive, and inefficient. Maintaining a moderate level of energy, known as the \"green level\", is optimal for any mental or physical activity \n\n It's important to note that higher energy levels indicate a higher activation of the sympathetic nervous system and metabolic processes. If the sympathetic drive is chronically too high, it can lead to harmful stress reactions. \n\n Knowing when to speed up and slow down is crucial for feeling and performing well and achieving personal goals. The sympathetic nervous system accelerates bodily functions, while the parasympathetic system slows them down.",
-
+        "GROUP_DESC_E": "Having enough energy is crucial for any activity. Without sufficient energy, it can be difficult to accomplish much. In such situations, taking a break to rest and recharge is recommended. Conversely, having too much energy can make you tense, overreactive, and inefficient. Maintaining a moderate level of energy, known as the \"green level\", is optimal for any mental or physical activity \n\n It's important to note that higher energy levels indicate a higher activation of the sympathetic nervous system and metabolic processes. If the sympathetic drive is chronically too high, it can lead to harmful stress reactions. \n\n Knowing when to speed up and slow down is crucial for feeling and performing well and achieving personal goals. The sympathetic nervous system accelerates bodily functions, while the parasympathetic system slows them down.",
         "E1": "Exhaustion. Chronic fatigue. Your mind is set on inactivity. You are not ready to act adequately in a stressful situation and not ready for the tension resulting from that stress. As a result, you react passively to difficulties. Your parasympathetic nervous system takes over control and promotes recovery and digestion processes. You need to allow yourself time to rest and recover.",
         "E2": "Energy usage is optimized. The need for recovery and rest is moderate. The energy potential is low but sufficient for successful activity in the usual tranquil conditions. In an extreme situation, there is likely to be a delay in decision-making.",
         "E3": "Your resources are mobilized and ready for engaged action. This energy level is optimal for physical and mental activities. In an extreme situation, your responses and decision-making speed are at max level. Expediency and success of your actions are most likely.",
@@ -1535,7 +1534,7 @@
     },
     "FOOTER": {
         "C": "© 2023 Martspec LLC. 版权所有。",
-        "APPLE_BTN":{
+        "APPLE_BTN": {
             "TITLE": "在我们的 Apple AppStore 上查看所有 martspec 应用程序",
             "ALT": "在 Apple 的 Martpsec AppStore 上查看我们所有的应用程序"
         },
