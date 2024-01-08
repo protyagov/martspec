@@ -2,41 +2,105 @@
   {
     "name": "ALEX",
     "title": "ENGINEER_MOBILE",
-    "avatar": "/img/team_alex.webp"
-  },
-  {
-    "name": "NICHITA",
-    "title": "ENGINEER_WEB",
-    "avatar": "/img/team_nichita.webp"
+    "avatar": "/img/page/team/team_alex.webp",
+    "link": "https://www.linkedin.com/in/protyagov/"
   },
   {
     "name": "ALEVTYNA",
     "title": "ENGINEER_WEB",
-    "avatar": "/img/team_alevtyna.webp"
+    "avatar": "/img/page/team/team_alevtyna.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
+  },
+  {
+    "name": "SERGEY_R",
+    "title": "ENGINEER_WEB",
+    "avatar": "/img/page/team/team_sergeyR.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
+  },
+  {
+    "name": "NATALIA",
+    "title": "ENGINEER_WEB",
+    "avatar": "/img/page/team/team_nataliaS.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
+  },
+  {
+    "name": "NIKOLAY",
+    "title": "ENGINEER_WEB",
+    "avatar": "/img/page/team/team_nikolay.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
+  },
+  {
+    "name": "ELINA",
+    "title": "MARKETER",
+    "avatar": "/img/page/team/team_elina.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
+  },
+  {
+    "name": "SVETLANA",
+    "title": "COPYWRITER",
+    "avatar": "/img/page/team/team_svetlana.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
+  },
+  {
+    "name": "JULIA",
+    "title": "DESIGNER_UI_UX",
+    "avatar": "/img/page/team/team_julia.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
   },
   {
     "name": "SVETLANA",
     "title": "DESIGNER_UI_UX",
-    "avatar": "/img/team_svetlana.webp"
+    "avatar": "/img/page/team/team_svetlan.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
   },
   {
-    "name": "ALESIA",
+    "name": "MARIAM",
     "title": "DESIGNER_UI_UX",
-    "avatar": "/img/team_alesia.webp"
+    "avatar": "/img/page/team/team_mariam.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
   },
   {
-    "name": "ANASTASIIA",
-    "title": "DESIGNER_UI_UX",
-    "avatar": "/img/team_anastasiia.webp"
+    "name": "SERGEY_K",
+    "title": "ENGINEER_QA",
+    "avatar": "/img/page/team/team_sergeyK.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
   },
   {
     "name": "MIKE",
     "title": "ENGINEER_QA",
-    "avatar": "/img/team_mike.webp"
+    "avatar": "/img/page/team/team_mike.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
   },
   {
-    "name": "YELYZAVETA",
-    "title": "COPYWRITER",
-    "avatar": "/img/team_elyzaveta.webp"
+    "name": "TATIANA",
+    "title": "ENGINEER_QA",
+    "avatar": "/img/page/team/team_tatiana.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
+  },
+  {
+    "name": "EKATERINA",
+    "title": "ENGINEER_QA",
+    "avatar": "/img/page/team/team_ekaterina.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
+  },
+  {
+    "name": "VICTORIA",
+    "title": "ENGINEER_QA",
+    "avatar": "/img/page/team/team_victoria.webp",
+    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/"
+
   }
 ]
