@@ -69,26 +69,26 @@
         "ABOUT_1": "Control your intake of important vitamins and minerals every day.",
         "ABOUT_2": "The energy of healthy eating and a happy life.",
         "LIST1": {
-            "LI1_HEAD": "Ease of daily use",
-            "LI1_TEXT": "Our users helped us make the application simple, convenient and understandable.",
-            "LI2_HEAD": "Add up to 20 of your items",
-            "LI2_TEXT": "Replenish and monitor the list of installed elements and minerals.",
-            "LI3_HEAD": "All vitamins and minerals from Apple Health",
-            "LI3_TEXT": "We support the full range of essential vitamins and minerals from Apple."
+            "LI1_HEAD": "Easy to love",
+            "LI1_TEXT": "Designed with you in mind. Thanks to your feedback and support, we have made it simple and intuitive to use.",
+            "LI2_HEAD": "Custom items",
+            "LI2_TEXT": "Create your own items from a wide range of options.  Add custom dietary supplements, multivitamins, pills and more.",
+            "LI3_HEAD": "All vitamins & minerals",
+            "LI3_TEXT": "Enjoy full support of vitamins and minerals for your well-being available in Apple Health."
         },
         "HEAD2": "Why Vitamin?",
         "DESC2_1": "\"VITAMIN\" from the Latin \"VITA\" means \"LIFE\". Our life is not possible without vitamins.",
         "DESC2_2": "The application tracks the vitamins, minerals taken and their amount. You can add your own elements.",
         "DESC2_3": "Create a schedule and receive a push notification about taking vitamins at the appointed time.",
         "HEAD3": "Vitamins & Minerals",
-        "DESC3_1": "The ultimate tool for tracking and optimizing your nutrient intake.  Specially designed to sync seamlessly with Apple Health, this app empowers you with detailed information about each essential element, including recommended daily and maximum doses. Get valuable insights on food choices that are rich in specific vitamins and minerals, empowering you to make educated decisions about what you eat. ",
+        "DESC3_1": "The ultimate tool for tracking and optimizing your nutrient intake. Specially designed to sync seamlessly with Apple Health, this app empowers you with detailed information about each essential element, including recommended daily and maximum doses. App shows insights on food choices that are rich in specific vitamins and minerals, empowering you to make educated decisions about what you eat. ",
         "DESC3_2": "Each element info includes:", 
         "LIST3": {
             "LI1_TEXT": "Foods rich in the element",
             "LI2_TEXT": "Signs of element deficiency",
             "LI3_TEXT": "Daily and upper intake limit",
             "LI4_TEXT": "Overdose Information",
-            "LI5_TEXT": "Functions of the element",
+            "LI5_TEXT": "Functions of the element in your body",
             "LI6_TEXT": "Interesting facts about the element"
         },
         "HEAD4": "Key Highlights",
@@ -115,7 +115,7 @@
             "LI3_HEAD": "14",
             "LI3_TEXT": "Minerals",
             "LI4_HEAD": "20",
-            "LI4_TEXT": "Add your items"
+            "LI4_TEXT": "Custom items"
         },
         "HEAD6": "Vitamin - an application for controlling the balance of necessary vitamins and minerals.",
         "DESC6": "Install the app for IOS for free and enjoy health and vitality.",
@@ -999,7 +999,7 @@
         "IMG": "Track your biorhythms with our apps",
         "DWN": "Get our free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store and start tracking your biorhythms easier.",
         "HEAD1": "What are biological rhythms?",
-        "DESK1_1": "Biological rhythms are fluctuations in the functional parameters of the human body relative to the conditional zero level. All biological rhythms originate from the date of birth of a person, which is a common zero point for them, and fluctuate in the form of sinusoidal waves throughout life.",
+        "DESK1_1": "Biological rhythms encompass dynamic variations in the functional aspects of the human body, revolving around a reference point known as the conditional zero level. These rhythmic patterns, inherent since one's date of birth, establish a universal baseline and manifest as sinusoidal waves that gracefully undulate throughout the course of an individual's life.",
         "DESK1_2": "The most important rhythms are physical, emotional and intellectual, they have the strongest influence on the state of the body. It should be noted that for each person the level of influence of biological rhythms is very individual, depending on the lifestyle.",
         "BTN1": "Read more",
         "HEAD2": "Biometric phases",

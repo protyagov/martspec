@@ -69,12 +69,12 @@
         "ABOUT_1": "Contrôlez chaque jour votre consommation de vitamines et de minéraux importants.",
         "ABOUT_2": "L'énergie d'une alimentation saine et d'une vie heureuse.",
         "LIST1": {
-            "LI1_HEAD": "Facilité d'utilisation quotidienne",
-            "LI1_TEXT": "Nos utilisateurs nous ont aidés à rendre l'application simple, pratique et compréhensible.",
-            "LI2_HEAD": "Ajoutez jusqu'à 20 de vos articles",
-            "LI2_TEXT": "REPLOSSION ET SUPPORTER LA Liste des éléments et minéraux installés.",
-            "LI3_HEAD": "Toutes les vitamines et minéraux de la santé des pommes",
-            "LI3_TEXT": "Nous soutenons la gamme complète des vitamines et minéraux essentiels d'Apple."
+            "LI1_HEAD" : "Comme vous le voulez",
+            "LI1_TEXT" : "Conçue avec vous à l'esprit. Grâce à vos commentaires et à votre soutien, nous avons rendu l'application simple et intuitive à utiliser.",
+            "LI2_HEAD" : "Vos éléments",
+            "LI2_TEXT" : "Créez vos propres éléments à partir d'un large éventail d'options.  Ajoutez de nouveaux compléments alimentaires, des multivitamines, des pilules et bien plus encore.",
+            "LI3_HEAD" : "Vitamines et minéraux",
+            "LI3_TEXT" : "Prise en charge complète de toutes les vitamines et de tous les minéraux disponibles dans Apple Health."
         },
         "HEAD2": "Pourquoi la vitamine?",
         "DESC2_1": "\"Vitamine\" du latin \"Vita\" signifie \"Vie\". Notre vie n'est pas possible sans vitamines.",
