@@ -126,7 +126,7 @@
             "DESC": "Vitaminas liposolubles, lo que significa que cualquier cantidad que el cuerpo no necesita de inmediato se absorbe y almacena en el tejido adiposo o en el hígado."
         },
         "VITAMIN_WATER": {
-            "NAME": "Vitaminas Solubles en Agua",
+            "NAME": "Vitaminas hidrosolubles",
             "SHORT": "Solubles en Agua",
             "DESC": "Las vitaminas hidrosolubles son nutrientes esenciales que se disuelven en agua y desempeñan funciones importantes en nuestro organismo. A diferencia de las vitaminas liposolubles, no se almacenan en el organismo, por lo que debemos consumirlas con regularidad."
         },
@@ -258,7 +258,7 @@
         "VITAMIN_D": {
             "HEAD": "D",
             "NAME": "calciferol",
-            "DESK": "Apoya la salud de dientes, huesos y músculos. La falta de esta vitamina provoca raquitismo en los niños y osteomalacia en los adultos.",
+            "DESK": "Apoya la salud de los dientes, huesos y músculos. La falta de esta vitamina provoca raquitismo en niños y osteomalacia en adultos.",
             "FUNC": "Mantenimiento de huesos y dientes sanos. Absorción de calcio en el intestino. Reducción de la inflamación. Regulación de la función inmunitaria. Crecimiento de las fibras musculares. Participa en el metabolismo de la glucosa.",
             "DEF_1": "Osteoporosis y fragilidad ósea",
             "DEF_2": "Infecciones",
@@ -277,7 +277,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "tocoferol",
-            "DESK": "Es un poderoso antioxidante y participa en la formación de fibras que permiten que la piel se mantenga elástica. Tiene un efecto significativo sobre el sistema reproductivo.",
+            "DESK": "Es un poderoso antioxidante y participa en la formación de fibras que permiten que la piel se mantenga elástica. Tiene un efecto significativo en el sistema reproductivo.",
             "FUNC": "Potente antioxidante. Participa en la función inmunitaria. Dilatación de los vasos sanguíneos y prevención de la trombosis. Regulación de la expresión génica y otros procesos metabólicos. Las células utilizan la vitamina E para interactuar entre sí y llevar a cabo muchas funciones importantes.",
             "DEF_1": "Daño a la retina del ojo",
             "DEF_2": "Daño a los nervios, generalmente en las manos o los pies",
@@ -319,7 +319,7 @@
         "VITAMIN_B1": {
             "HEAD": "B1",
             "NAME": "tiamina",
-            "DESK": "La vitamina B1 es necesaria para el metabolismo energético, importante para la síntesis de acetilcolina, responsable de la conducción de los impulsos nerviosos y otros procesos del sistema nervioso.",
+            "DESK": "La vitamina B1 es necesaria para el metabolismo energético, importante para la síntesis de acetilcolina, que es responsable de la conducción de los impulsos nerviosos y otros procesos del sistema nervioso. Tiene propiedades antioxidantes, participa en la producción de energía a partir de grasas y esteroides, es esencial en el metabolismo de la glucosa, contribuye al crecimiento y desarrollo celular, y participa en las reacciones redox del cuerpo. Es vital para una visión normal.",
             "FUNC": "Producción de energía a partir de carbohidratos, grasas y proteínas. Esencial en el metabolismo de la glucosa. Papel clave en la función nerviosa, muscular y cardíaca",
             "DEF_1": "Problemas con los nervios periféricos y desgaste",
             "DEF_2": "Pérdida de la memoria a corto plazo",
