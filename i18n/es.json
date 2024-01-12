@@ -69,53 +69,53 @@
         "ABOUT_1": "Controle su consumo de vitaminas y minerales importantes todos los días.",
         "ABOUT_2": "La energía de la alimentación saludable y una vida feliz.",
         "LIST1": {
-            "LI1_HEAD": "Como tú quieras",
-            "LI1_TEXT": "Diseñada pensando en ti. Gracias a tus comentarios y a tu apoyo, hemos conseguido que la app sea sencilla e intuitiva de usar.",
-            "LI2_HEAD": "Tus elementos",
-            "LI2_TEXT": "Crea tus propios elementos a partir de una amplia gama de opciones.  Añade nuevos suplementos dietéticos, multivitamínicos, pastillas y mucho más",
+            "LI1_HEAD": "Como usted prefiera",
+            "LI1_TEXT": "Diseñada pensando en usted. Gracias a sus comentarios y apoyo, lo hemos hecho simple e intuitivo de usar.",
+            "LI2_HEAD": "Elementos personalizados",
+            "LI2_TEXT": "Cree sus propios elementos a partir de una amplia gama de opciones. Añada suplementos dietéticos personalizados, multivitaminas, pastillas y mucho más",
             "LI3_HEAD": "Vitaminas y minerales",
-            "LI3_TEXT": "Soporte completo de todas las vitaminas y minerales disponibles en Apple Health"
+            "LI3_TEXT": "Disfrute del soporte completo de vitaminas y minerales para su bienestar, disponible en Apple Salud."
         },
-        "HEAD2": "¿Por qué vitamina?",
+        "HEAD2": "¿Por qué Vitamina?",
         "DESC2_1": "\"Vitamina\" del latín \"vita\" significa \"vida\". Nuestra vida no es posible sin vitaminas.",
         "DESC2_2": "La aplicación rastrea las vitaminas, los minerales tomados y su cantidad. Puede agregar sus propios elementos.",
-        "DESC2_3": "Cree un horario y reciba una notificación push sobre tomar vitaminas a la hora designada.",
+        "DESC2_3": "Cree un horario y reciba una notificación push sobre la toma de vitaminas en el momento establecido.",
         "HEAD3": "Vitaminas y Minerales",
-        "DESC3_1": "La herramienta definitiva para seguir y optimizar tu ingesta de nutrientes.  Especialmente diseñada para sincronizarse a la perfección con Apple Health, esta aplicación te proporciona información detallada sobre cada elemento esencial, incluidas las dosis diarias y máximas recomendadas. La aplicación muestra información sobre los alimentos que son ricos en vitaminas y minerales específicos, lo que le permite tomar decisiones informadas sobre lo que come. ",
+        "DESC3_1": "La herramienta definitiva para seguir y optimizar su ingesta de nutrientes. Diseñada especialmente para sincronizarse perfectamente con Apple Salud, esta aplicación le proporciona información detallada sobre cada elemento esencial, incluyendo las dosis diarias recomendadas y máximas. La aplicación muestra información sobre opciones de alimentos ricos en vitaminas y minerales específicos, capacitándolo para tomar decisiones informadas sobre su alimentación.",
         "DESC3_2": "La información de cada elemento incluye:", 
         "LIST3": {
             "LI1_TEXT": "Alimentos ricos en el elemento",
-            "LI2_TEXT": "Signos de deficiencia del elemento",
-            "LI3_TEXT": "Límite diario y superior de ingesta",
+            "LI2_TEXT": "Síntomas de deficiencia del elemento",
+            "LI3_TEXT": "Límite diario y máximo de ingesta",
             "LI4_TEXT": "Información sobre sobredosis",
-            "LI5_TEXT": "Función del elemento en el organismo",
+            "LI5_TEXT": "Función del elemento en su cuerpo",
             "LI6_TEXT": "Datos interesantes sobre el elemento"
         },
-        "HEAD4": "Beneficios de la vitamina",
+        "HEAD4": "Aspectos destacados clave",
         "LIST4": {
-            "LI1_HEAD": "Protección de Datos",
-            "LI1_TEXT": "No almacenamos sus datos en nuestros servidores.",
-            "LI2_HEAD": "Sincronización",
-            "LI2_TEXT": "Los datos se transfieren automáticamente a todos los dispositivos.",
-            "LI3_HEAD": "No autorización",
-            "LI3_TEXT": "No se requiere una cuenta para usar la aplicación.",
+            "LI1_HEAD": "Protección de datos",
+            "LI1_TEXT": "NO almacenamos sus datos en nuestros servidores",
+            "LI2_HEAD": "Sincronización automática de datos",
+            "LI2_TEXT": "Los datos se transfieren automáticamente a todos los dispositivos habilitados para iCloud",
+            "LI3_HEAD": "Aplicación sin cuenta",
+            "LI3_TEXT": "Úsela instantáneamente: sin registro, sin inscripción, sin complicaciones",
             "LI4_HEAD": "Sin anuncios",
-            "LI4_TEXT": "No tenemos anuncios molestos.",
-            "LI5_HEAD": "Aviso sobre cómo tomar vitaminas",
-            "LI5_TEXT": "Recuerda la cita por horas, días y semanas.",
-            "LI6_HEAD": "Sincronizar con la salud de la manzana",
-            "LI6_TEXT": "Entre dispositivos a través de iCloud y la aplicación Apple Health."
+            "LI4_TEXT": "Sin molestos anuncios: disfrute de una calidad plena",
+            "LI5_HEAD": "Recordatorios programados",
+            "LI5_TEXT": "Manténgase en el camino y nunca olvide un medicamento nuevamente",
+            "LI6_HEAD": "Conectado a Apple Salud",
+            "LI6_TEXT": "Sincroniza perfectamente con Apple Salud"
         },
         "HEAD5": "La aplicación rastrea vitaminas y minerales esenciales:",
         "LIST5": {
             "LI1_HEAD": "4",
-            "LI1_TEXT": "Vitaminas solubles en grasa",
+            "LI1_TEXT": "Vitaminas liposolubles",
             "LI2_HEAD": "9",
-            "LI2_TEXT": "Vitaminas solubles en agua",
+            "LI2_TEXT": "Vitaminas hidrosolubles",
             "LI3_HEAD": "14",
             "LI3_TEXT": "Minerales",
             "LI4_HEAD": "20",
-            "LI4_TEXT": "Agrega tus artículos"
+            "LI4_TEXT": "Elementos personalizados"
         },
         "HEAD6": "Vitamina: una aplicación para controlar el equilibrio de las vitaminas y minerales necesarios.",
         "DESC6": "Instale la aplicación para iOS de forma gratuita y disfrute de la salud y la vitalidad.",
@@ -126,7 +126,7 @@
             "DESC": "Vitaminas liposolubles, lo que significa que cualquier cantidad que el cuerpo no necesita de inmediato se absorbe y almacena en el tejido adiposo o en el hígado."
         },
         "VITAMIN_WATER": {
-            "NAME": "Vitaminas Solubles en Agua",
+            "NAME": "Vitaminas hidrosolubles",
             "SHORT": "Solubles en Agua",
             "DESC": "Las vitaminas hidrosolubles son nutrientes esenciales que se disuelven en agua y desempeñan funciones importantes en nuestro organismo. A diferencia de las vitaminas liposolubles, no se almacenan en el organismo, por lo que debemos consumirlas con regularidad."
         },
@@ -258,7 +258,7 @@
         "VITAMIN_D": {
             "HEAD": "D",
             "NAME": "calciferol",
-            "DESK": "Apoya la salud de dientes, huesos y músculos. La falta de esta vitamina provoca raquitismo en los niños y osteomalacia en los adultos.",
+            "DESK": "Apoya la salud de los dientes, huesos y músculos. La falta de esta vitamina provoca raquitismo en niños y osteomalacia en adultos.",
             "FUNC": "Mantenimiento de huesos y dientes sanos. Absorción de calcio en el intestino. Reducción de la inflamación. Regulación de la función inmunitaria. Crecimiento de las fibras musculares. Participa en el metabolismo de la glucosa.",
             "DEF_1": "Osteoporosis y fragilidad ósea",
             "DEF_2": "Infecciones",
@@ -277,7 +277,7 @@
         "VITAMIN_E": {
             "HEAD": "E",
             "NAME": "tocoferol",
-            "DESK": "Es un poderoso antioxidante y participa en la formación de fibras que permiten que la piel se mantenga elástica. Tiene un efecto significativo sobre el sistema reproductivo.",
+            "DESK": "Es un poderoso antioxidante y participa en la formación de fibras que permiten que la piel se mantenga elástica. Tiene un efecto significativo en el sistema reproductivo.",
             "FUNC": "Potente antioxidante. Participa en la función inmunitaria. Dilatación de los vasos sanguíneos y prevención de la trombosis. Regulación de la expresión génica y otros procesos metabólicos. Las células utilizan la vitamina E para interactuar entre sí y llevar a cabo muchas funciones importantes.",
             "DEF_1": "Daño a la retina del ojo",
             "DEF_2": "Daño a los nervios, generalmente en las manos o los pies",
@@ -319,7 +319,7 @@
         "VITAMIN_B1": {
             "HEAD": "B1",
             "NAME": "tiamina",
-            "DESK": "La vitamina B1 es necesaria para el metabolismo energético, importante para la síntesis de acetilcolina, responsable de la conducción de los impulsos nerviosos y otros procesos del sistema nervioso.",
+            "DESK": "La vitamina B1 es necesaria para el metabolismo energético, importante para la síntesis de acetilcolina, que es responsable de la conducción de los impulsos nerviosos y otros procesos del sistema nervioso.",
             "FUNC": "Producción de energía a partir de carbohidratos, grasas y proteínas. Esencial en el metabolismo de la glucosa. Papel clave en la función nerviosa, muscular y cardíaca",
             "DEF_1": "Problemas con los nervios periféricos y desgaste",
             "DEF_2": "Pérdida de la memoria a corto plazo",
@@ -337,7 +337,7 @@
         "VITAMIN_B2": {
             "HEAD": "B2",
             "NAME": "riboflavina",
-            "DESK": "La B2 es necesaria para la formación de glóbulos rojos y anticuerpos. También es importante para la función reproductiva del cuerpo. Propiedades antioxidantes. Producción de energía a partir de grasas y esteroides. Metabolismo de la glucosa. Crecimiento y desarrollo de las células. Participación en las reacciones redox del organismo. Significativo para la visión.",
+            "DESK": "La vitamina B2 es necesaria para la formación de glóbulos rojos y anticuerpos. También es importante para la función reproductiva del cuerpo.  Tiene propiedades antioxidantes, participa en la producción de energía a partir de grasas y esteroides, es esencial en el metabolismo de la glucosa, contribuye al crecimiento y desarrollo celular, y participa en las reacciones redox del cuerpo. Es vital para una visión normal.",
             "FUNC": "Propiedades antioxidantes. Producción de energía a partir de grasas y esteroides. Esencial en el metabolismo de la glucosa. Crecimiento y desarrollo de las células.",
             "DEF_1": "Inflamación de la boca, labios, lengua o garganta",
             "DEF_2": "Estomatitis en las comisuras de la boca",
@@ -357,7 +357,7 @@
         "VITAMIN_B3": {
             "HEAD": "B3",
             "NAME": "niacina",
-            "DESK": "Ayuda a que los sistemas nervioso y digestivo se mantengan saludables y la piel se vea bien. Protección del ADN.",
+            "DESK": "Es beneficiosa para la salud de los sistemas nervioso y digestivo, así como para mantener la piel en buen estado. También contribuye a la protección del ADN.",
             "FUNC": "Producción de energía a partir de carbohidratos, grasas y proteínas. Propiedades antioxidantes. Síntesis de colesterol y ácidos grasos. Creación y reparación de ADN.",
             "DEF_1": "Erupción pigmentada gruesa y escamosa en la piel expuesta a la luz solar",
             "DEF_2": "Boca hinchada y lengua roja brillante",
@@ -406,7 +406,7 @@
         "VITAMIN_B7": {
             "HEAD": "B7",
             "NAME": "biotina",
-            "DESK": "La biotina se denomina la \"vitamina de la belleza\" debido a su efecto positivo sobre el estado del cabello, la piel y las uñas.",
+            "DESK": "La biotina se denomina la \"vitamina de la belleza\" debido a su efecto positivo en la condición del estado del cabello, la piel y las uñas.",
             "FUNC": "Acelera pasos críticos de la producción de energía a partir de ácidos grasos, glucosa y aminoácidos. Desempeña funciones clave en la modificación de histonas, la regulación génica y la señalización celular.",
             "DEF_1": "Erupción alrededor de los ojos, la nariz, la boca y el área genital",
             "DEF_2": "Adelgazamiento del cabello o caída del cabello, problemas de la piel o de las uñas",
@@ -421,7 +421,7 @@
         "VITAMIN_B9": {
             "HEAD": "B9",
             "NAME": "ácido fólico",
-            "DESK": "Participa en la formación de glóbulos rojos y blancos, ayuda al cuerpo a crear células de ADN y ARN, así como a convertir los carbohidratos en glucosa. Metabolismo de las proteínas. Creación de ADN y ARN. Obtención de energía a partir de los hidratos de carbono. Desarrollo del sistema nervioso embrionario. Producción de glóbulos rojos sanos. ",
+            "DESK": "Participa en la formación de glóbulos rojos y blancos, ayuda al cuerpo a crear células de ADN y ARN, así como a convertir los carbohidratos en glucosa. Metabolismo de proteínas. Creación de ADN y ARN. Producción de energía a partir de carbohidratos. Desarrollo del sistema nervioso embrionario. Producción de glóbulos rojos sanos. ",
             "FUNC": "Metabolismo de las proteínas. Producción de ADN y ARN. Obtener energía a partir de carbohidratos. Requerido para la producción de glóbulos rojos sanos. Tiene un efecto positivo sobre el desarrollo del sistema nervioso fetal, especialmente al inicio del embarazo.",
             "DEF_1": "Fatiga, debilidad y dificultad para respirar",
             "DEF_2": "Dificultad para concentrarse",
@@ -443,7 +443,7 @@
         "VITAMIN_B12": {
             "HEAD": "B12",
             "NAME": "cobalamina",
-            "DESK": "La cobalamina es responsable de la salud del sistema nervioso central. Ayuda a resistir el estrés y la depresión. Junto con la B9 ayuda a la formación de eritrocitos",
+            "DESK": "La cobalamina es responsable de la salud del sistema nervioso central. Ayuda a resistir el estrés y la depresión. Junto con la B9 participa en la formación de eritrocitos.",
             "FUNC": "Extremadamente esencial para la síntesis de neurotransmisores. Crecimiento, desarrollo y funcionamiento del cerebro y los nervios. Formación de glóbulos rojos, metabolismo celular y producción de ADN.",
             "DEF_1": "Inflamación estomacal crónica",
             "DEF_2": "Sentirse muy cansado o débil",
@@ -462,7 +462,7 @@
         "VITAMIN_C": {
             "HEAD": "C",
             "NAME": "ácido ascórbico",
-            "DESK": "Protege las células del envejecimiento prematuro y apoya el trabajo de los vasos sanguíneos, el estado de los huesos y cartílagos. También es importante para la regeneración de la piel, ya que participa en la síntesis de colágeno. Refuerza las paredes de los vasos sanguíneos. Refuerza el sistema inmunitario.",
+            "DESK": "Protege las células del envejecimiento prematuro y respalda el funcionamiento de los vasos sanguíneos, la condición de los huesos y cartílagos. También es importante para la regeneración de la piel, ya que participa en la síntesis de colágeno. Refuerza las paredes de los vasos sanguíneos. Refuerza el sistema inmunitario.",
             "FUNC": "Cicatriza de infecciones y heridas. Potente antioxidante. Formación de vasos sanguíneos, piel, cartílagos y músculos sanos. Síntesis de colágeno en los huesos. Protección de las células. Producción de neurotransmisores.",
             "DEF_1": "Escorbuto",
             "DEF_2": "Encías hinchadas y sangrantes",
@@ -501,7 +501,7 @@
         "CHLORIDE": {
             "HEAD": "Cl",
             "NAME": "cloro",
-            "DESK": "El cloro ayuda en la síntesis/producción de jugo gástrico y genera buen apetito. Retiene el agua en los tejidos, evitando que el cuerpo pierda humedad.",
+            "DESK": "El cloro ayuda en la síntesis/producción de jugo gástrico y estimula buen apetito. Retiene agua en los tejidos, evitando que el cuerpo pierda humedad.",
             "FUNC": "Regulación de la cantidad de líquido y tipos de nutrientes que entran y salen de las células (presión osmótica de los fluidos corporales). Mantenimiento del equilibrio ácido-base adecuado (nivel de pH). Activación del ácido estomacal necesario para la digestión. Estimulación de la acción de las células nerviosas y musculares, iniciando el flujo de oxígeno y dióxido de carbono.",
             "DEF_1": "Alto nivel de pH en la sangre",
             "DEF_2": "Apatía",
@@ -562,7 +562,7 @@
         "IODINE": {
             "HEAD": "I",
             "NAME": "yodo",
-            "DESK": "El yodo es importante para el buen funcionamiento de la glándula tiroides.",
+            "DESK": "El yodo es importante para el funcionamiento adecuado de la glándula tiroides.",
             "FUNC": "Necesario para producir hormonas tiroideas, que son esenciales para el metabolismo, el crecimiento y el desarrollo normales.",
             "DEF_1": "Fatiga",
             "DEF_2": "Aumento de peso",
@@ -684,7 +684,7 @@
         "PHOSPHORUS": {
             "HEAD": "P",
             "NAME": "fósforo",
-            "DESK": "El fósforo es esencial para los huesos y los dientes. Con su ayuda, se forman proteínas y ácidos nucleicos en el cuerpo; Ayuda a absorber muchos nutrientes. ",
+            "DESK": "El fósforo es esencial para los huesos y los dientes. Con su ayuda, se forman proteínas y ácidos nucleicos en el cuerpo. Ayuda a absorber muchos nutrientes. ",
             "FUNC": "Función esencial en la forma en que el cuerpo almacena y utiliza la energía. Crecimiento, mantenimiento y reparación de todos los tejidos y células. Producción de componentes genéticos, ADN y ARN. Mantenimiento del pH de la sangre dentro de un rango normal. Filtrado de desechos en los riñones. Regular la función normal de los nervios y los músculos, incluido el corazón.",
             "DEF_1": "Pérdida de apetito y cambio de peso",
             "DEF_2": "Ansiedad, irritabilidad y confusión",
@@ -741,7 +741,7 @@
         "SELENIUM": {
             "HEAD": "Se",
             "NAME": "selenio",
-            "DESK": "Protege las células y afecta el trabajo del sistema inmunológico. El selenio suprime la división de las células cancerosas y protege las neuronas y las células del músculo cardíaco.",
+            "DESK": "Protege las células y afecta el funcionamiento del sistema inmunológico. Suprime la división de células cancerosas y protege las neuronas y células del músculo cardíaco.",
             "FUNC": "Creación de ADN. Protección contra el daño celular causado por radicales libres e infecciones. Participación en la reproducción y el metabolismo de las hormonas tiroideas. Función adecuada del sistema inmunitario.",
             "DEF_1": "Dolor de cabeza",
             "DEF_2": "Letargo",
@@ -768,7 +768,7 @@
         "SODIUM": {
             "HEAD": "Na",
             "NAME": "sodio",
-            "DESK": "El sodio es esencial para que el cuerpo mantenga el equilibrio agua-sal, la regulación de la presión arterial, el funcionamiento de los nervios y los músculos.",
+            "DESK": "El sodio es esencial para que el cuerpo mantenga el equilibrio de agua y sal, la regulación de la presión arterial, el funcionamiento de los nervios y los músculos.",
             "FUNC": "Mantener niveles normales de líquido fuera de las células. Componente principal para mantener la presión arterial. Necesario para que los nervios, los músculos y otros tejidos del cuerpo funcionen correctamente. Es un electrolito.",
             "DEF_1": "Pérdida de apetito",
             "DEF_2": "Dolor de cabeza, confusión, irritabilidad, inquietud",
@@ -789,7 +789,7 @@
         "ZINC": {
             "HEAD": "Zn",
             "NAME": "zinc",
-            "DESK": "El zinc no se puede producir en el cuerpo humano, pero es muy importante para el funcionamiento estable del sistema inmunológico, todos los órganos y la secreción de hormonas.",
+            "DESK": "El zinc no puede ser producido en el cuerpo humano, pero es muy importante para el funcionamiento estable del sistema inmunológico, todos los órganos y la secreción de hormonas.",
             "FUNC": "Componente principal para la creación de ADN, el crecimiento de células, la construcción de proteínas, la curación de tejidos dañados y el mantenimiento de un sistema inmunitario saludable. Se utiliza en más de 100 enzimas. Función normal del sentido del olfato/gusto.",
             "DEF_1": "Pérdida del gusto o del olfato",
             "DEF_2": "Poco apetito",
