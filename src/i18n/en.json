@@ -319,7 +319,7 @@
         "VITAMIN_B1": {
             "HEAD": "B1",
             "NAME": "thiamine",
-            "DESK": "Vitamin B1 is necessary for energy metabolism, important for the synthesis of acetylcholine, which is responsible for the conduction of nerve impulses, and other processes in the nervous system. Antioxidant properties. Energy production from fats and steroids. Essential in glucose metabolism. Growth and development of cells. Participation in the redox reactions of the body. Vital for normal vision",
+            "DESK": "Vitamin B1 is necessary for energy metabolism, important for the synthesis of acetylcholine, which is responsible for the conduction of nerve impulses, and other processes in the nervous system.",
             "FUNC": "Energy production from carbohydrates, fats, and proteins. Essential in glucose metabolism. Key role in nerve, muscle, and heart function.",
             "DEF_1": "Problems with the peripheral nerves and wasting",
             "DEF_2": "Short-term memory loss",
@@ -337,7 +337,7 @@
         "VITAMIN_B2": {
             "HEAD": "B2",
             "NAME": "riboflavin",
-            "DESK": "B2 is necessary for the formation of red blood cells and antibodies. It's also important for the reproductive function of the body.",
+            "DESK": "B2 is necessary for the formation of red blood cells and antibodies. It's also important for the reproductive function of the body. Antioxidant properties. Energy production from fats and steroids. Essential in glucose metabolism. Growth and development of cells. Participation in the redox reactions of the body. Vital for normal vision.",
             "FUNC": "Antioxidant properties. Energy production from fats and steroids. Essential in glucose metabolism. Growth and development of cells. Red blood cell production.",
             "DEF_1": "Swelling of the mouth, lips, tongue or throat",
             "DEF_2": "Stomatitis at mouth corners",
@@ -406,7 +406,7 @@
         "VITAMIN_B7": {
             "HEAD": "B7",
             "NAME": "biotin",
-            "DESK": "Biotin is called the 'beauty vitamin' because of its positive effect on the condition of hair, skin and nails.",
+            "DESK": "Biotin is called the \"beauty vitamin\" because of its positive effect on the condition of hair, skin and nails.",
             "FUNC": "Accelerates critical steps of energy production from fatty acids, glucose, and amino acids. Plays key roles in histone modifications, gene regulation, and cell signaling.",
             "DEF_1": "Rash around the eyes, nose, mouth, and genital area",
             "DEF_2": "Thinning hair or hair loss, skin or nail problems",
