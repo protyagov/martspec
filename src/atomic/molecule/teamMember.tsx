@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, {useState}  from "react";
 import _ from "src/i18n/locale";
 
 interface TeamMemberProps {
@@ -7,11 +7,16 @@ interface TeamMemberProps {
     title: string;
     avatar: string;
     link: string;
+    text: string
     // color: "white" | "black";
 
 }
 
 export default function TeamMember(props: TeamMemberProps) {
+    const [isActive, setIsActive] = useState(false);
+    let cn = "text-block";
+
+    if (isActive) cn += " text-block_active";
 
     const iconSize = props.size || 22;
     const svgAttrs = {
@@ -23,7 +28,8 @@ export default function TeamMember(props: TeamMemberProps) {
     };
 
     return <div className="d-flex flex-column team-member">
-      <a href={_( props.link )} target="_blank"
+        <div className="team-members">
+        <a href={_( props.link )} target="_blank"
              rel="noopener"
              aria-label="LinkedIn">
             <svg {...svgAttrs}>
@@ -38,5 +44,17 @@ export default function TeamMember(props: TeamMemberProps) {
 
         <h4> { _("TEAM." + props.name) } </h4>
         <h5> { _("TEAM." + props.title) } </h5>
+
+        </div>
+        {/* <div */}
+        {/* // className="team-text" */}
+        {/* className={cn} */}
+        {/* > */}
+                {/* <title>{_("TEAM." + props.text )}</title> */}
+
+            {/* <p>{ _(props.text) }</p> */}
+        {/* </div> */}
+
+        {/* <button className="team-btn" onClick={() => setIsActive(!isActive)}>подробнее</button> */}
     </div>
 }
