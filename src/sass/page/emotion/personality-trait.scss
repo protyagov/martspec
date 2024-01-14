@@ -24,6 +24,7 @@
 
     li {
       margin-bottom: .2rem;
+      color: $ms-color-text-gray-darker;
     }
   }
 
@@ -53,7 +54,7 @@
       a {
         text-decoration: none;
         font-size: 1.35rem;
-        color: $ms-color-text-darker;
+        color: $ms-color-text-gray-darker;
         padding: 0;
         background: transparent;
         border-color: transparent;

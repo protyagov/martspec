@@ -16,7 +16,7 @@
         "ABOUT": "关于我们"
     },
     "ELECTROLYTE": {
-        "HEAD": "Electrolyte",
+        "HEAD": "电解质",
         "SUBHEAD": "水盐平衡",
         "ICO": "Apple Watch 最简单的免费电解质消耗追踪器图标。密切关注镁、钙、钾、铁的摄入量。与苹果健康相连。零广告。",
         "TEXT": "电解质在维持体内稳态方面起着至关重要的作用。 它们有助于调节心脏和神经功能，体液平衡，氧气输送，酸碱平衡等。",
@@ -66,59 +66,59 @@
         "TEXT": "跟踪必需的维生素有很多好处，从帮助解决食物不耐症到增加能量，避免情绪变化以及为您的日常节奏加油。",
         "IMG": "直接在手腕上追踪最基本的维生素",
         "DWN": "从 Apple App Store 下载免费的维生素和营养素追踪应用程序",
-        "ABOUT_1": "Control your intake of important vitamins and minerals every day.",
-        "ABOUT_2": "The energy of healthy eating and a happy life.",
+        "ABOUT_1": "每天控制您對重要的維生素和礦物質的攝入。",
+        "ABOUT_2": "健康飲食和幸福生活的能量。",
         "LIST1": {
-            "LI1_HEAD": "Ease of daily use",
-            "LI1_TEXT": "Our users helped us make the application simple, convenient and understandable.",
-            "LI2_HEAD": "Add up to 20 of your items",
-            "LI2_TEXT": "Replenish and monitor the list of installed elements and minerals.",
-            "LI3_HEAD": "All vitamins and minerals from Apple Health",
-            "LI3_TEXT": "We support the full range of essential vitamins and minerals from Apple."
+            "LI1_HEAD": "你想要的方式",
+            "LI1_TEXT": "以您为中心。感谢您的反馈和支持，我们已将应用程序设计得简单、直观易用",
+            "LI2_HEAD": "您的元素",
+            "LI2_TEXT": "从多种选项中创建您自己的元素。 添加新的膳食补充剂、多种维生素、药片等",
+            "LI3_HEAD": "维生素和矿物质",
+            "LI3_TEXT": "全面支持 Apple Health 提供的所有维生素和矿物质"
         },
-        "HEAD2": "Why Vitamin?",
-        "DESC2_1": "\"VITAMIN\" from the Latin \"VITA\" means \"LIFE\". Our life is not possible without vitamins.",
-        "DESC2_2": "The application tracks the vitamins, minerals taken and their amount. You can add your own elements.",
-        "DESC2_3": "Create a schedule and receive a push notification about taking vitamins at the appointed time.",
-        "HEAD3": "Principle of operation",
-        "DESC3_1": "The vitamin intake tracker promotes proper nutrition and the formation of a more informed approach to food selection, which, in turn, has a positive effect on the state of body and mind.",
-        "DESC3_2": "A description of each vitamin:",
+        "HEAD2": "為什麼要維生素？",
+        "DESC2_1": "\"維他命\" 來自拉丁語 \"維塔\" 方法 \"生活\". 沒有維生素，我們的生活是不可能的。",
+        "DESC2_2": "該應用程序跟踪維生素，礦物質及其數量。 您可以添加自己的元素。",
+        "DESC2_3": "創建時間表並收到有關在指定時間服用維生素的推送通知。",
+        "HEAD3": "维生素和矿物质",
+        "DESC3_1": "追踪和优化营养摄入的终极工具。 这款应用程序专为与 Apple Health 无缝同步而设计，能为您提供每种必需元素的详细信息，包括建议的每日剂量和最大剂量。这款应用程序还能深入分析富含特定维生素和矿物质的食物选择，让您在饮食方面做出明智的决定。",
+        "DESC3_2": "每个元素信息包括：",
         "LIST3": {
-            "LI1_TEXT": "Products containing this element",
-            "LI2_TEXT": "Signs of element deficiency in the body",
-            "LI3_TEXT": "Daily and maximum consumption rate",
-            "LI4_TEXT": "Overdose Information",
-            "LI5_TEXT": "Functions of the selected element",
-            "LI6_TEXT": "Interesting fact about the element"
+            "LI1_TEXT": "富含该元素的食物",
+            "LI2_TEXT": "元素缺乏的迹象",
+            "LI3_TEXT": "每日摄入量和摄入量上限",
+            "LI4_TEXT": "过量信息 过量信息",
+            "LI5_TEXT": "该元素在您体内的功能",
+            "LI6_TEXT": "关于该元素的有趣事实"
         },
-        "HEAD4": "Benefits of Vitamin",
+        "HEAD4": "維生素的好處",
         "LIST4": {
-            "LI1_HEAD": "Data Protection",
-            "LI1_TEXT": "We do NOT store your data on our servers.",
-            "LI2_HEAD": "Sync",
-            "LI2_TEXT": "Data is automatically transferred to all devices.",
-            "LI3_HEAD": "No authorization",
-            "LI3_TEXT": "An account is not required to use the application.",
-            "LI4_HEAD": "No ads",
-            "LI4_TEXT": "We do NOT have annoying ads.",
-            "LI5_HEAD": "Notice about taking vitamins",
-            "LI5_TEXT": "Reminds about appointment by hours, days and weeks.",
-            "LI6_HEAD": "Sync with Apple Health",
-            "LI6_TEXT": "Between devices via iCloud and the Apple Health app."
+            "LI1_HEAD": "數據保護",
+            "LI1_TEXT": "我們不將您的數據存儲在服務器上。",
+            "LI2_HEAD": "同步",
+            "LI2_TEXT": "數據將自動傳輸到所有設備。",
+            "LI3_HEAD": "沒有授權",
+            "LI3_TEXT": "不需要帳戶才能使用該應用程序。",
+            "LI4_HEAD": "無廣告",
+            "LI4_TEXT": "我們沒有煩人的廣告。",
+            "LI5_HEAD": "關於服用維生素的注意",
+            "LI5_TEXT": "提醒您按小時，天數和幾週進行約會。",
+            "LI6_HEAD": "與蘋果健康同步",
+            "LI6_TEXT": "通過iCloud和Apple Health應用程序之間的設備之間。"
         },
-        "HEAD5": "The app tracks essential vitamins and minerals:",
+        "HEAD5": "該應用跟踪必需的維生素和礦物質：",
         "LIST5": {
             "LI1_HEAD": "4",
-            "LI1_TEXT": "Fat-soluble vitamins",
+            "LI1_TEXT": "脂溶性維生素",
             "LI2_HEAD": "9",
-            "LI2_TEXT": "Water-soluble vitamins",
+            "LI2_TEXT": "水溶性維生素",
             "LI3_HEAD": "14",
-            "LI3_TEXT": "Minerals",
+            "LI3_TEXT": "礦物質",
             "LI4_HEAD": "20",
-            "LI4_TEXT": "Add your items"
+            "LI4_TEXT": "添加您的物品"
         },
-        "HEAD6": "Vitamin - an application for controlling the balance of necessary vitamins and minerals.",
-        "DESC6": "Install the app for IOS for free and enjoy health and vitality.",
+        "HEAD6": "維生素 - 控制必要的維生素和礦物質平衡的應用。",
+        "DESC6": "免費安裝iOS應用程序，並享受健康和活力。",
         "BTN_OPEN": "查看",
         "VITAMIN_FAT": {
             "NAME": "脂溶性维生素",
@@ -1086,8 +1086,8 @@
         "DESK1_3": "焦慮症是在過度擔心後逐漸發展的疾病。 症狀的強度可能會有所不同，並持續更長的時間。 焦慮症會導致人們避免觸發或惡化其症狀的情況。 它可以影響工作效率，功課和個人關係。",
         "HEAD2": "焦慮症的類型",
         "DESK2": "焦慮症的平均發作年齡為20-24歲。 它們可能發生在其他精神障礙（例如抑鬱症或創傷後應激障礙）中。 有幾種類型的焦慮症，包括：",
-        "LIST2":{
-            "LI1_HEAD": "廣泛性焦慮症（GAD）。",
+        "LIST2": {
+            "LI1_HEAD": "廣泛性焦慮症（英語：Generalized anxiety disorder，缩写GAD）。",
             "LI1_TEXT": "患有廣泛性焦慮症的人擔心健康、金錢、工作和家庭等常見問題。 它經常與其他焦慮症或憂鬱症一起發生，幾乎每天都會發生，持續幾個月。",
             "LI2_HEAD": "恐慌症.",
             "LI2_TEXT": "患有恐慌症的人會經歷恐慌發作。 這些是在沒有危險的情況下突然、反覆出現的強烈恐懼。 攻擊發生得很快，可能持續幾分鐘或更長時間。",
@@ -1105,30 +1105,30 @@
             "LI5_TEXT": "感覺虛弱或疲倦",
             "LI6_TEXT": "無法集中註意力或思考除當前問題之外的任何事情",
             "LI7_TEXT": "睡眠問題",
-            "LI8_TEXT": "胃腸道 (GIT) 問題",
+            "LI8_TEXT": "胃腸道 問題",
             "LI9_TEXT": "手和/或腳出汗或冷"
         },
         "HEAD4": "焦慮症的跡象",
         "DESK4": "焦慮症的原因目前尚不清楚，但可能涉及多種因素，包括遺傳、環境、心理和發展。 涉及的一些因素包括：",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "腦化學。",
             "LI1_TEXT": "嚴重或長期的壓力會導致大腦化學平衡的變化。",
             "LI2_HEAD": "經驗。",
             "LI2_TEXT": "壓力或創傷性事件也會導致焦慮感。",
-            "LI3_HEAD": "家史：",
+            "LI3_HEAD": "家史。",
             "LI3_TEXT": "親密的家庭成員患有焦慮症症狀會增加一個人患焦慮症的風險",
             "LI4_HEAD": "遺傳因素。",
             "LI4_TEXT": "某些基因可能會使人更容易患上焦慮症。",
-            "LI5_HEAD": "醫療條件：",
+            "LI5_HEAD": "醫療條件。",
             "LI5_TEXT": "一些潛在的健康狀況可能會導致焦慮。 其中一些包括慢性疼痛、心臟病、糖尿病、甲狀腺問題、呼吸系統疾病、吸毒和戒毒。",
-            "LI6_HEAD": "飲食：",
+            "LI6_HEAD": "飲食。",
             "LI6_TEXT": "近年來，越來越多的人開始關注飲食與焦慮之間的關聯。 加工食品中存在的基因改造生物、麩質和農藥等因素可能會對我們的腸道和微生物菌落的健康產生負面影響。 富含雙歧桿菌的益生菌補充劑可能有益於維持腸道菌叢的健康組成。"
         },
         "ALT4": "顯示焦慮的圖像，使用 Martspec 應用程式更容易追蹤焦慮",
         "HEAD5": "診斷和治療",
-        "DESK5_1": "在當今世界，焦慮已成為一個常見問題，可以嚴重影響一個人的生活品質和心理健康。 然而，由於技術的進步，我們可以求助於 Emotion 等行動應用程式和其他創新解決方案來診斷甚至幫助治療焦慮。",
+        "DESK5_1": "在當今世界，焦慮已成為一個常見問題，可以嚴重影響一個人的生活品質和心理健康。 然而，由於技術的進步，我們可以求助於 情绪 等行動應用程式和其他創新解決方案來診斷甚至幫助治療焦慮。",
         "DESK5_2": "情绪  行動應用程式提供了一種方便且易於存取的方式來評估您的焦慮程度並接收有關如何管理它的建議。 該應用程式能夠追蹤您的情緒狀態並分析導致焦慮的因素。",
-        "DESK5_3": "治療焦慮是一個複雜的過程，可能包括心理治療、藥物治療和生活方式的改變。 儘管每種焦慮症都有獨特的特徵，但大多數對兩種治療反應良好：心理治療或「談話療法」和藥物治療。 認知行為療法（CBT）是談話療法的一種，可以幫助一個人學習不同的思考、反應和行為方式，以減少焦慮。 藥物不能治癒焦慮症，但可以顯著緩解症狀。 最常用的藥物是抗焦慮藥物和抗憂鬱藥物。",
+        "DESK5_3": "治療焦慮是一個複雜的過程，可能包括心理治療、藥物治療和生活方式的改變。 儘管每種焦慮症都有獨特的特徵，但大多數對兩種治療反應良好：心理治療或「談話療法」和藥物治療。 認知行為療法 (英語：Cognitive Behavioral Therapy，縮寫作CBT) 是談話療法的一種，可以幫助一個人學習不同的思考、反應和行為方式，以減少焦慮。 藥物不能治癒焦慮症，但可以顯著緩解症狀。 最常用的藥物是抗焦慮藥物和抗憂鬱藥物。",
         "DESK5_4": "行動應用程式可以是早期階段自我管理焦慮的有效工具，但始終建議向合格的專業人士尋求專業建議和支援。",
         "DESK5_5": "總的來說，使用行動應用程式是診斷焦慮的一個有前途的方向。 它們幫助人們更了解自己的情緒狀態，學會管理焦慮並提高生活品質。"
     },
@@ -1234,7 +1234,7 @@
         "ALT2": "瑜珈",
         "HEAD3": "內部和諧的特徵",
         "DESK3": "內在和諧意味著一種你體驗到平靜、滿足感和沒有內在衝突的狀態。 和諧具有以下特點：",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "情緒穩定：",
             "LI1_TEXT": "您會經歷持續的情緒平衡。",
             "LI2_HEAD": "驗收：",
@@ -1248,7 +1248,7 @@
         },
         "HEAD4": "如何實現內部和諧？",
         "DESK4": "和諧是你可以有意識地做出的選擇。 它是一種精神狀態，而不是你所處的物理環境。 只需採取適當的生活態度，您就可以實現並維持內心的和諧。 以下幾個步驟可以幫助您實現內部和諧：",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "自我意識：",
             "LI1_TEXT": "了解您的情緒、觸發因素和思考模式。 意識到自己何時失去平衡或經歷內心混亂。 自我意識是找到平衡的第一步。",
             "LI2_HEAD": "驗收：",
@@ -1293,7 +1293,7 @@
         "ALT2": "看書",
         "HEAD3": "獨立個性的特徵",
         "DESK3": "這是獨立人格類型的一些最常見的特徵：",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "自治：",
             "LI1_TEXT": "獨立人士有能力根據自己的信念，價值觀和偏好做出決策。",
             "LI2_HEAD": "批判性思維：",
@@ -1312,7 +1312,7 @@
         "ALT4": "獨立",
         "HEAD5": "獨立人格類型的問題",
         "DESK5_1": "儘管擁有獨立的個性可以在許多方面有益，但重要的是要了解，這種特徵也可能存在問題和潛在的問題。 以下是具有強大獨立人格類型的人可能會面臨的一些問題：",
-        "LIST5":{
+        "LIST5": {
             "LI1_HEAD": "固執：",
             "LI1_TEXT": "僅依靠自己的觀點和決定的趨勢會導致固執。 這可能使得很難接受替代的觀點或適應不斷變化的環境。",
             "LI2_HEAD": "有限的合作。",
@@ -1400,7 +1400,7 @@
         "ALT4": "與同事的互動",
         "HEAD5": "充滿活力的人的職業興趣",
         "DESK5_1": "充滿活力的人在活動中蓬勃發展，使他們能夠表達自己的活力並與他人互動。 一些合適的活動可能包括團隊運動，舞蹈，戶外探險，例如遠足或騎自行車，網絡活動，公開演講以及高能創意追求，例如表演或演講。 以下是一些職業興趣，可能會吸引精力充沛的人：",
-        "LIST5":{
+        "LIST5": {
             "LI1_TEXT": "銷售和營銷。",
             "LI2_TEXT": "活動策劃。",
             "LI3_TEXT": "公共關係。",
@@ -1492,14 +1492,34 @@
         "PERC": "Percent",
         "GROUP_DESC": "Group description:",
         "GROUP_TITLE_A": "Anxiety",
+        "GROUP_DESC_A": "Anxiety is an emotion characterized by feelings of tension and worried thoughts. It might also have physical symptoms, like sweating, trembling, dizziness, increased blood pressure, or a rapid heartbeat. \n\n Anxiety is not the same as fear. These terms are often used interchangeably. \n\n • Fear is a present-oriented, short-lived response to a specific threat. \n • Anxiety is a future-focused, long-lasting response focused on a diffuse threat. In other words, it is stress that continues after the stressor is gone. ",
+        "A1": "It's an insignificant feeling of unease that can come up from time to time and doesn't get in the way of your life too much.",
+        "A2": "Mild anxiety may arise in response to small stresses in our lives, but it should not last long and does not prevent us from functioning. This is a common feeling that can be overcome.",
+        "A3": "Emotional tension is a feeling of internal pressure, nervousness and perhaps even anger. This feeling can arise in response to stressors that we experience every so often in our lives. Try focusing on your breathing and doing relaxation exercises to reduce your stress levels.",
+        "A4": "This state can occur when we are faced with new or unexpected events in life. It finds expression in behavior that is not typical for you in your usual environment. For example, at home you can behave completely normally: communicate with relatives and neighbors, take care of your parents, keep the apartment clean, show respect for family values. At work, you change dramatically: you cannot establish contact with colleagues or superiors, you are rude to others or withdrawn, you come late for work or smoke in the wrong place. \n\n There may be an impact on your psychophysical state as well. If at home you are peaceful and feel great, then at work the level of anxiety can rise sharply, breathing and heartbeat quicken, profuse sweating is observed.",
+        "A5": "Panic anxiety can cause a loss of self-control and focus. It affects your physiological and psychological state. You might feel frozen, unable to control your own body, and even lashing out at others for seemingly no reason. You might experience an upset stomach, shallow breathing, shakiness, headache, eye strain, racing heartbeat, etc. \n\n Panic anxiety has also been known to override fundamental levels of self-preservation and decision-making skills. \n\n People often use the terms panic attack and panic anxiety interchangeably, but they are not the same. Panic anxiety builds gradually over time after a period of excessive worry, symptoms can vary in intensity and prevail for longer periods. \n\n WHAT MIGHT HELP: \n • Acknowledging the situation and remembering that symptoms will soon pass can reduce anxiety and fear. \n • Difficulty breathing is a common symptom at this stage. Learning breathing techniques can help. \n • Progressive muscle relaxation and guided imagery can reduce anxiety. \n • Mindfulness helps people stay grounded in the present moment. It's helpful for people with anxiety, who worry about stressors.",
+        "_A1": "Insignificant anxiety",
+        "_A2": "Mild anxiety",
+        "_A3": "Emotional tension",
+        "_A4": "Fear of novelty",
+        "_A5": "Panic anxiety",
         "GROUP_TITLE_P": "Productivity",
+        "GROUP_DESC_P": "Shows how productive you are. Use this to predict the effectiveness of your activities (including professional ones). Based on your color selection we calculate your mental tension. If the tension is high, your strength is spent on maintaining mental integrity, combating personal problems, overcoming fatigue, etc. That leads to lower productivity. \n\n For example, working long under constant volitional tension; constant lack of opportunity for proper rest; as well as severe chronic diseases that deplete the body, - all cause a significant increase in mental tension and lower productivity. \n\n High mental tension manifests itself in limited social activity and regular cases of \"tiredness of everything\". No strength to even set new goals. Lack of confidence. The mood is dominated by an anxious expectation of trouble. Disappointment with the life course. Your brain redirects all energy to dampen problems and reconcile opposing motives. Your attention is routed to the tense inner world. \n\n When your productivity is low you better stop what you are doing and rest. There is no point in continuing with the current task because your productivity is not optimal.",
+        "P1": "You are overly fatigued. Mental tension is quite high. Your attention is easily distracted by extraneous things. You are getting stuck on emotional experiences. An absence of well-defined motives makes you reactive and purposeless. The mood can fluctuate between excitement and depression in the shortest time possible. The whole emotional state is dominated by anxiety, a premonition of trouble, and a lack of desire to do anything. Your reaction and handling of an extreme situation is unreliable.",
+        "P2": "Your potential is low while unproductive mental tension is high. You force yourself to do certain things. Constant self-control increases fatigue. Prolonged intensive work might cost you dearly in terms of health. That cost will be very unequal to what you will be able to accomplish. Emotionally you experience anxiety, increased excitability, and uncertainty.  In a stressful situation, disruption of activity and behavior is likely.",
+        "P3": "Average productivity level. You cope with your duties within the limits of the established average, nothing extraordinary. Routine work and activities are best suited. In a familiar environment, you move from work to rest and back, from one type of activity to another without significant difficulties. If necessary, you are able to overcome fatigue by volitional effort. However, that leads to a long period of reduced efficiency and well-being. To keep up good health and performance you need a clear division of work and rest time.",
+        "P4": "You are active and experience only minor mental tension. You have enough energy for occasional bursts of hyperactivity inaccessible to most people. When motivated by interesting activity, you do not experience difficulties with short and long term memorization and reproduction of information.",
+        "P5": "You are active and have no mental tension. Your actions are diverse, and overall efficiency is high. Emotionally you are optimistic and have strong-willed self-control. The will does not suppress your personality, it only coordinates your non-contradictory desires. With appropriate motivation, you are able to work intensively for a long time. In extreme situations, you effectively mobilize and focus on completing the task.",
+        "_P1": "You need rest & recover",
+        "_P2": "Work less, rest more",
+        "_P3": "Good for routines",
+        "_P4": "Engage motivating activity",
+        "_P5": "Tackle hardest tasks",
         "GROUP_TITLE_O": "Openness",
         "GROUP_TITLE_I": "Independence",
         "GROUP_TITLE_G": "Harmony",
         "GROUP_TITLE_E": "Energy",
-        "GROUP_DESC1_E": "Having enough energy is crucial for any activity. Without sufficient energy, it can be difficult to accomplish much. In such situations, taking a break to rest and recharge is recommended. Conversely, having too much energy can make you tense, overreactive, and inefficient. Maintaining a moderate level of energy, known as the \"green level\", is optimal for any mental or physical activity.",
-        "GROUP_DESC2_E": "It's important to note that higher energy levels indicate a higher activation of the sympathetic nervous system and metabolic processes. If the sympathetic drive is chronically too high, it can lead to harmful stress reactions.",
-        "GROUP_DESC3_E":"Knowing when to speed up and slow down is crucial for feeling and performing well and achieving personal goals. The sympathetic nervous system accelerates bodily functions, while the parasympathetic system slows them down.",
+        "GROUP_DESC_E": "Having enough energy is crucial for any activity. Without sufficient energy, it can be difficult to accomplish much. In such situations, taking a break to rest and recharge is recommended. Conversely, having too much energy can make you tense, overreactive, and inefficient. Maintaining a moderate level of energy, known as the \"green level\", is optimal for any mental or physical activity \n\n It's important to note that higher energy levels indicate a higher activation of the sympathetic nervous system and metabolic processes. If the sympathetic drive is chronically too high, it can lead to harmful stress reactions. \n\n Knowing when to speed up and slow down is crucial for feeling and performing well and achieving personal goals. The sympathetic nervous system accelerates bodily functions, while the parasympathetic system slows them down.",
         "E1": "Exhaustion. Chronic fatigue. Your mind is set on inactivity. You are not ready to act adequately in a stressful situation and not ready for the tension resulting from that stress. As a result, you react passively to difficulties. Your parasympathetic nervous system takes over control and promotes recovery and digestion processes. You need to allow yourself time to rest and recover.",
         "E2": "Energy usage is optimized. The need for recovery and rest is moderate. The energy potential is low but sufficient for successful activity in the usual tranquil conditions. In an extreme situation, there is likely to be a delay in decision-making.",
         "E3": "Your resources are mobilized and ready for engaged action. This energy level is optimal for physical and mental activities. In an extreme situation, your responses and decision-making speed are at max level. Expediency and success of your actions are most likely.",
@@ -1513,8 +1533,8 @@
         "BTN_AGAIN": "Take the test again"
     },
     "FOOTER": {
-        "C": "版权所有 © 2023 Martspec LLC。 版权所有。",
-        "APPLE_BTN":{
+        "C": "© 2024 Martspec LLC. 版权所有。",
+        "APPLE_BTN": {
             "TITLE": "在我们的 Apple AppStore 上查看所有 martspec 应用程序",
             "ALT": "在 Apple 的 Martpsec AppStore 上查看我们所有的应用程序"
         },
@@ -1525,7 +1545,7 @@
             "TITLE": "通过电子邮件联系我们"
         },
         "TWITTER_BTN": {
-            "TITLE": "在推特上关注我们"
+            "TITLE": "在 Twitter 上关注我们"
         },
         "FACEBOOK_BTN": {
             "TITLE": "在 Facebook 上关注我们"
