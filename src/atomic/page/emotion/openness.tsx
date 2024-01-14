@@ -107,6 +107,7 @@ export default function Openness() {
                             <p>{_("OPENNESS.DESK6_2")}</p>
                             <p>{_("OPENNESS.DESK6_3")}</p>
                             <p>{_("OPENNESS.DESK6_4")}</p>
+                            <p>{_("OPENNESS.DESK6_5")}</p>
                         </div>
                     </div>
 
