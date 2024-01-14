@@ -1,12 +1,5 @@
 [
   {
-    "name": "ALEX",
-    "title": "ENGINEER_MOBILE",
-    "avatar": "/img/page/team/team_alex.webp",
-    "link": "https://www.linkedin.com/in/protyagov/",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
     "name": "ALEVTYNA",
     "title": "ENGINEER_WEB",
     "avatar": "/img/page/team/team_alevtyna.webp",
@@ -49,12 +42,20 @@
     "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
   },
   {
+    "name": "ALEX",
+    "title": "ENGINEER_MOBILE",
+    "avatar": "/img/page/team/team_alex.webp",
+    "link": "https://www.linkedin.com/in/protyagov/",
+    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+  },
+  {
     "name": "SVETLANA",
     "title": "COPYWRITER",
     "avatar": "/img/page/team/team_svetlana.webp",
     "link": "",
     "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
   },
+
   {
     "name": "JULIA",
     "title": "DESIGNER_UI_UX",
@@ -66,13 +67,6 @@
     "name": "SVETLANA",
     "title": "DESIGNER_UI_UX",
     "avatar": "/img/page/team/team_svetlan.webp",
-    "link": "",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "MARIAM",
-    "title": "DESIGNER_UI_UX",
-    "avatar": "/img/page/team/team_mariam.webp",
     "link": "",
     "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
   },

@@ -13,10 +13,10 @@ interface TeamMemberProps {
 }
 
 export default function TeamMember(props: TeamMemberProps) {
-    const [isActive, setIsActive] = useState(false);
-    let cn = "text-block";
+    // const [isActive, setIsActive] = useState(false);
+    // let cn = "text-block";
 
-    if (isActive) cn += " text-block_active";
+    // if (isActive) cn += " text-block_active";
 
     const iconSize = props.size || 22;
     const svgAttrs = {

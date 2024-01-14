@@ -10,7 +10,7 @@
     padding-top: 3vmin;
     padding-bottom: 7vmin;
     column-gap: 8%;
-    // row-gap: 4rem;
+    row-gap: 4rem;
   }
   .team-member {
     // flex: 0 0;
@@ -42,6 +42,7 @@
         // float: right;
         position: relative;
         top: 68%;
+
         left: 80%;
         border-radius: 6.25rem;
         width: 2.875rem;
@@ -53,8 +54,13 @@
         background: #258de3;
         z-index: 2;
       }
-      // }
-
+      // расположения иконки linkedin в safari
+      _::-webkit-full-page-media,
+      _:future,
+      :root .safari_only,
+      a {
+        top: 240px;
+      }
       h4 {
         color: #000000;
         font-size: 1.6rem;
