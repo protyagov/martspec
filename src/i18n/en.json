@@ -82,7 +82,7 @@
         "DESC2_3": "Create a schedule and receive a push notification about taking vitamins at the appointed time.",
         "HEAD3": "Vitamins & Minerals",
         "DESC3_1": "The ultimate tool for tracking and optimizing your nutrient intake. Specially designed to sync seamlessly with Apple Health, this app empowers you with detailed information about each essential element, including recommended daily and maximum doses. App shows insights on food choices that are rich in specific vitamins and minerals, empowering you to make educated decisions about what you eat. ",
-        "DESC3_2": "Each element info includes:", 
+        "DESC3_2": "Each element info includes:",
         "LIST3": {
             "LI1_TEXT": "Foods rich in the element",
             "LI2_TEXT": "Signs of element deficiency",
@@ -119,6 +119,7 @@
         },
         "HEAD6": "Vitamin - an application for controlling the balance of necessary vitamins and minerals.",
         "DESC6": "Install the app for iOS for free and enjoy health and vitality.",
+        "BG": "red",
         "BTN_OPEN": "Vitaminize",
         "VITAMIN_FAT": {
             "NAME": "Fat-Soluble Vitamins",

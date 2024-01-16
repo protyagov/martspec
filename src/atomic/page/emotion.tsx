@@ -4,8 +4,10 @@ import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import ImageI18N from "src/atomic/atom/img-i18n";
 import PageHeader from "src/atomic/molecule/page-header";
+import CallToAction from "../organism/call-to-action";
 
 export default function Emotion() {
+    const style={background: "#EDE1FF"}
 
     return <>
         <NavigationBar />
@@ -291,8 +293,21 @@ export default function Emotion() {
                 </div>
             </section>
 
-            <section>
-                <div className="row text-lg-start text-center page-bottom">
+            <section >
+
+            <CallToAction
+                        style={style}
+                        title={_("EMOTION.HEAD8")}
+                        subtitle={_("EMOTION.DESK8")}
+                        appCl="ms-btn-apple mt-5 mx-lg-0 mx-auto"
+                        appId={1562956213}
+                        appDownloadTitle={_("EMOTION.DWN")}
+                        imgSrc="/img/org/call-to-action/emotion/emotion-screen-app-en.webp"
+                        imgAlt={_("EMOTION.ALT4")}
+                        imgH={400}
+                        imgW={400}
+                        />
+                {/* <div className="row text-lg-start text-center page-bottom">
                     <div className="col-12 block bg-violet">
                         <div>
                             <h2>{_("EMOTION.HEAD8")}</h2>
@@ -304,7 +319,7 @@ export default function Emotion() {
                         </div>
                         <ImageI18N src="/img/page/emotion/emotion-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("EMOTION.ALT4")} />
                     </div>
-                </div>
+                </div> */}
             </section>
 
         </div>

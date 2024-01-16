@@ -146,6 +146,8 @@ module.exports = {
                 { context: 'src/img/page/electrolyte/', from: '*', to: "img/page/electrolyte" },
                 { context: 'src/img/page/waistline/', from: '*', to: "img/page/waistline" },
                 { context: 'src/img/page/vitamin/', from: '*', to: "img/page/vitamin" },
+                { context: 'src/img/org/call-to-action/vitamin/', from: '*', to: "img/org/call-to-action/vitamin" },
+                { context: 'src/img/org/call-to-action/emotion/', from: '*', to: "img/org/call-to-action/emotion" },
                 { context: 'src/img/icon/', from: '*', to: "icon" },
                 { context: 'src/img/apple_btn/', from: '*', to: "img/apple_btn" },
                 { context: 'src/data/', from: '*.json', to: "data" },

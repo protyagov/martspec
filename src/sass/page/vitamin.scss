@@ -5,7 +5,7 @@
 
   .icon {
     background: map-get($colors, "bg");
-    
+
     &:not(.no-filter) > img {
       filter: map-get($colors, "main-filter");
     }
@@ -19,33 +19,33 @@
     }
   }
 
-	.counters-list {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: 1rem 2rem;
+  .counters-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem 2rem;
 
-		h1 {
-			color: map-get($colors, "main"); 
-			margin: 0;
-			margin-bottom: .4rem;
-		}
-		p {
-			width: 75%;
+    h1 {
+      color: map-get($colors, "main");
+      margin: 0;
+      margin-bottom: 0.4rem;
+    }
+    p {
+      width: 75%;
       font-size: 1.5rem;
-		}
+    }
 
-		@include media-breakpoint-down($base-breakpoint) {
-			grid-template-columns: repeat(2, 1fr);
-			gap: 1rem;
-		}
-	}
+    @include media-breakpoint-down($base-breakpoint) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+  }
 
   .vitamins-list {
     @extend .ms-s-offset;
 
     font-size: 1.5rem;
 
-    $colors: #EAB839, #54A5D2, #0066CC;
+    $colors: #eab839, #54a5d2, #0066cc;
 
     @for $idx from 1 through 3 {
       .vit-group:nth-child(#{$idx}) {
@@ -53,28 +53,30 @@
 
         .vit-group-name {
           background-color: $c;
-          color: #FFFFFF;
+          color: #ffffff;
         }
-  
+
         .vit-name-short {
           color: $c !important;
         }
       }
     }
 
-		@include media-breakpoint-down(md) {
-			&,
-			.vit-group {
-				padding: 0;
-			}
-		}
+    @include media-breakpoint-down(md) {
+      &,
+      .vit-group {
+        padding: 0;
+      }
+    }
 
     .row {
       margin-top: 0 !important;
       margin-bottom: 0 !important;
 
-			padding: 0;
+      padding: 0;
     }
-
-	}
+    .bg {
+      background: #000;
+    }
+  }
 }

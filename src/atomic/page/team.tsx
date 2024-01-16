@@ -2,7 +2,7 @@ import * as React from "react";
 import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import _ from "src/i18n/locale";
-import TeamMember from "src/atomic/molecule/teamMember";
+import TeamMember from "src/atomic/molecule/team-Member";
 import teamData from "src/data/team.json";
 import PageHeader from "../molecule/page-header";
 
@@ -23,7 +23,7 @@ export default function Team() {
                 </div>
             </section>
         </div>
-          
+
         <Footer />
     </>
 }
