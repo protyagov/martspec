@@ -148,6 +148,7 @@ module.exports = {
                 { context: 'src/img/page/vitamin/', from: '*', to: "img/page/vitamin" },
                 { context: 'src/img/org/call-to-action/vitamin/', from: '*', to: "img/org/call-to-action/vitamin" },
                 { context: 'src/img/org/call-to-action/emotion/', from: '*', to: "img/org/call-to-action/emotion" },
+                { context: 'src/img/page/team/', from: '*', to: "img/page/team" },
                 { context: 'src/img/icon/', from: '*', to: "icon" },
                 { context: 'src/img/apple_btn/', from: '*', to: "img/apple_btn" },
                 { context: 'src/data/', from: '*.json', to: "data" },
