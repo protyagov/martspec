@@ -55,7 +55,7 @@ export default function Productivity() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/page/productivity/productivity-img-1.webp" className="img-fluid" alt="" />
+                            <img src="/img/page/productivity/productivity-img-1.webp" className="img-fluid" alt="" width={805} height={472} />
                         </div>
 
                         <div id="section-3" className="content-wrapper">
@@ -71,7 +71,7 @@ export default function Productivity() {
                             <p>{_("PRODUCTIVITY.DESK4_1")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_2")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_3")}</p>
-                            <img src="/img/page/productivity/productivity-img-2.webp" className="img-fluid" alt="" />
+                            <img src="/img/page/productivity/productivity-img-2.webp" className="img-fluid" alt="" width={805} height={472} />
                         </div>
 
                         <div id="section-5" className="content-wrapper">
