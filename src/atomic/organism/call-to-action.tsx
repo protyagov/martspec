@@ -9,16 +9,13 @@ type CallToActionProps = {
     subtitle?: string;
     appId?: number;
     appDownloadTitle?: string;
-    // bg_color?: string;
-    bg_color?: CSSProperties ;
+    bgColor?: CSSProperties ;
 
 
 };
 
 type WithImage<Props> = Props & {
     imgSrc: string;
-    // imgH: number;
-    // imgW: number;
     imgAlt: string;
 };
 
@@ -43,10 +40,8 @@ export default function CallToAction(props: (
     const {
         title,
         subtitle,
-        bg_color,
+        bgColor,
         imgSrc,
-        // imgH,
-        // imgW,
         imgAlt,
         appId,
         appDownloadTitle,
@@ -55,7 +50,7 @@ const marginBot = {marginBottom: "3rem"}
     return (
 
         <div className="row text-lg-start text-center page-bottom">
-            <div className="col-12 block bg-violet "style={bg_color}>
+            <div className="col-12 block bg-violet "style={bgColor}>
                     <div >
                         <h2>{ _(title) }</h2>
                         {  <p className="flex-grow-1" style={marginBot}

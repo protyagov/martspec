@@ -14,7 +14,7 @@ const vitamins = {
 };
 
 export default function Vitamin() {
-    // const bg_color={background: "#1FF"}
+    // const bgColor={background: "#1FF"}
     return <>
         <NavigationBar />
 
@@ -192,15 +192,13 @@ export default function Vitamin() {
 
             <section>
                 <CallToAction
-                        // bg_color={bg_color}
+                        // bgColor={bg_color}
                         title={_("VITAMIN.HEAD6")}
                         subtitle={_("VITAMIN.DESC6")}
                         appId={1519596234}
                         appDownloadTitle={_("VITAMIN.DWN")}
                         imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
                         imgAlt={_("VITAMIN.ALT4")}
-                        // imgH={400}
-                        // imgW={400}
                         />
                         {/* <div>
                             <h2>{_("VITAMIN.HEAD6")}</h2>
