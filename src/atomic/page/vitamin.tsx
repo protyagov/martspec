@@ -5,7 +5,7 @@ import NavigationBar from "src/atomic/organism/navbar";
 import VitaminItem from "src/atomic/molecule/vitamin-item";
 import PageHeader from "../molecule/page-header";
 import ImageI18N from "../atom/img-i18n";
-import CallToAction from "../organism/call-to-action";
+import CallToAction from "src/atomic/organism/call-to-action";
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -14,7 +14,7 @@ const vitamins = {
 };
 
 export default function Vitamin() {
-    const style={background: "#EDE1FF"}
+    // const bg_color={background: "#1FF"}
     return <>
         <NavigationBar />
 
@@ -192,15 +192,15 @@ export default function Vitamin() {
 
             <section>
                 <CallToAction
-                        style={style}
+                        // bg_color={bg_color}
                         title={_("VITAMIN.HEAD6")}
                         subtitle={_("VITAMIN.DESC6")}
                         appId={1519596234}
                         appDownloadTitle={_("VITAMIN.DWN")}
                         imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
                         imgAlt={_("VITAMIN.ALT4")}
-                        imgH={400}
-                        imgW={400}
+                        // imgH={400}
+                        // imgW={400}
                         />
                         {/* <div>
                             <h2>{_("VITAMIN.HEAD6")}</h2>

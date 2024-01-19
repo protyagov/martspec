@@ -8,17 +8,17 @@ type CallToActionProps = {
     title: string;
     subtitle?: string;
     appId?: number;
-    appCl?: string;
     appDownloadTitle?: string;
-    style?: CSSProperties | undefined;
-    background?: CSSProperties | undefined;
+    // bg_color?: string;
+    bg_color?: CSSProperties ;
+
 
 };
 
 type WithImage<Props> = Props & {
     imgSrc: string;
-    imgH: number;
-    imgW: number;
+    // imgH: number;
+    // imgW: number;
     imgAlt: string;
 };
 
@@ -43,13 +43,11 @@ export default function CallToAction(props: (
     const {
         title,
         subtitle,
-        style,
-        background,
+        bg_color,
         imgSrc,
-        imgH,
-        imgW,
+        // imgH,
+        // imgW,
         imgAlt,
-        appCl,
         appId,
         appDownloadTitle,
     } = props;
@@ -57,7 +55,7 @@ const marginBot = {marginBottom: "3rem"}
     return (
 
         <div className="row text-lg-start text-center page-bottom">
-            <div className="col-12 block "style={style}>
+            <div className="col-12 block bg-violet "style={bg_color}>
                     <div >
                         <h2>{ _(title) }</h2>
                         {  <p className="flex-grow-1" style={marginBot}
@@ -69,8 +67,8 @@ const marginBot = {marginBottom: "3rem"}
                     </div>
                 <ImageI18N
                     src={imgSrc}
-                    h={imgH}
-                    w={imgW}
+                    h={400}
+                    w={400}
                     cls="ms-base-image ms-lg-auto me-lg-0"
                     alt={imgAlt}/>
             </div>

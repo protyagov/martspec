@@ -7,7 +7,7 @@ import PageHeader from "src/atomic/molecule/page-header";
 import CallToAction from "../organism/call-to-action";
 
 export default function Emotion() {
-    const style={background: "#EDE1FF"}
+    // const style={background: "#EDE1FF"}
 
     return <>
         <NavigationBar />
@@ -296,16 +296,15 @@ export default function Emotion() {
             <section >
 
             <CallToAction
-                        style={style}
+                        // bg_color={bg_color}
                         title={_("EMOTION.HEAD8")}
                         subtitle={_("EMOTION.DESK8")}
-                        appCl="ms-btn-apple mt-5 mx-lg-0 mx-auto"
                         appId={1562956213}
                         appDownloadTitle={_("EMOTION.DWN")}
                         imgSrc="/img/org/call-to-action/emotion/emotion-screen-app-en.webp"
                         imgAlt={_("EMOTION.ALT4")}
-                        imgH={400}
-                        imgW={400}
+                        // imgH={400}
+                        // imgW={400}
                         />
                 {/* <div className="row text-lg-start text-center page-bottom">
                     <div className="col-12 block bg-violet">
