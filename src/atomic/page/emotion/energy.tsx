@@ -57,7 +57,7 @@ export default function Energy() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/page/energy/energy-1.webp" className="img-fluid" alt={_("ENERGY.ALT2")} width={768} height={450}/>
+                            <img src="/img/page/energy/energy-1.webp" className="img-fluid" alt={_("ENERGY.ALT2")} width={805} height={472}/>
                         </div>
 
                         <div id="section-3" className="content-wrapper">
@@ -99,7 +99,7 @@ export default function Energy() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/page/energy/energy-2.webp" className="img-fluid" alt={_("ENERGY.ALT4")} width={768} height={450}/>
+                            <img src="/img/page/energy/energy-2.webp" className="img-fluid" alt={_("ENERGY.ALT4")} width={805} height={472}/>
                         </div>
 
                         <div id="section-5" className="content-wrapper">

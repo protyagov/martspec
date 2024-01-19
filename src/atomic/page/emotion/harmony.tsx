@@ -54,7 +54,7 @@ export default function Harmony() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/page/harmony/harmony-1.webp" className="img-fluid" alt={_("HARMONY.ALT2")} width={768} height={450}/>
+                            <img src="/img/page/harmony/harmony-1.webp" className="img-fluid" alt={_("HARMONY.ALT2")} width={805} height={472}/>
                         </div>
 
                         <div id="section-3" className="content-wrapper">

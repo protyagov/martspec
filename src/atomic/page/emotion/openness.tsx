@@ -46,7 +46,7 @@ export default function Openness() {
                             <h2>{_("OPENNESS.HEAD2")}</h2>
                             <p>{_("OPENNESS.DESK2_1")}</p>
                             <p>{_("OPENNESS.DESK2_2")}</p>
-                            <img src="/img/page/openness/openness-1.webp" className="img-fluid" alt={_("OPENNESS.ALT2")} width={768} height={450}/>
+                            <img src="/img/page/openness/openness-1.webp" className="img-fluid" alt={_("OPENNESS.ALT2")} width={805} height={472}/>
                         </div>
 
                         <div id="section-3" className="content-wrapper">
@@ -73,7 +73,7 @@ export default function Openness() {
                             <p>{_("OPENNESS.DESK4_4")}</p>
                             <p>{_("OPENNESS.DESK4_5")}</p>
                             <p>{_("OPENNESS.DESK4_6")}</p>
-                            <img src="/img/page/openness/openness-2.webp" className="img-fluid" alt={_("OPENNESS.ALT4")} width={768} height={450}/>
+                            <img src="/img/page/openness/openness-2.webp" className="img-fluid" alt={_("OPENNESS.ALT4")} width={805} height={472}/>
                         </div>
 
                         <div id="section-5" className="content-wrapper">
