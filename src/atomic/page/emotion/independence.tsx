@@ -56,7 +56,7 @@ export default function Independence() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/page/independence/independence-1.webp" className="img-fluid" alt={_("INDEPENDENCE.ALT2")} width={768} height={450}/>
+                            <img src="/img/page/independence/independence-1.webp" className="img-fluid" alt={_("INDEPENDENCE.ALT2")} width={805} height={472}/>
                         </div>
 
                         <div id="section-3" className="content-wrapper">
@@ -79,7 +79,7 @@ export default function Independence() {
                             <p>{_("INDEPENDENCE.DESK4_1")}</p>
                             <p>{_("INDEPENDENCE.DESK4_2")}</p>
                             <p>{_("INDEPENDENCE.DESK4_3")}</p>
-                            <img src="/img/page/independence/independence-2.webp" className="img-fluid" alt={_("INDEPENDENCE.ALT2")} width={768} height={450}/>
+                            <img src="/img/page/independence/independence-2.webp" className="img-fluid" alt={_("INDEPENDENCE.ALT2")} width={805} height={472}/>
                         </div>
 
                         <div id="section-5" className="content-wrapper">

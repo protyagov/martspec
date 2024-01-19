@@ -10,7 +10,7 @@ const COLORS = [
     "DE4332", // Red
     "EFDD4A", // Yellow
     "C3397F", // Purple
-    "C55223", // Brown
+    "B75931", // Brown
     "221F20" // Black
 ] as const;
 
