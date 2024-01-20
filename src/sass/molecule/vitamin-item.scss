@@ -1,14 +1,13 @@
 .vit-item {
-  background-color: #FBF8F7;
-  border: 1px solid #CFCBCB;
+  background-color: #fbf8f7;
+  border: 1px solid #cfcbcb;
   border-top: none;
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
 
   display: grid;
-  grid-template:
-    "vit-name vit-desc vit-arrow" auto / 20% 1fr 8%;
-  gap: .5rem;
+  grid-template: "vit-name vit-desc vit-arrow" auto / 20% 1fr 8%;
+  gap: 0.5rem;
 
   & > * {
     display: flex;
@@ -17,20 +16,20 @@
 
   @include media-breakpoint-down(lg) {
     grid-template:
-    "vit-name vit-arrow" auto
-    "vit-desc ." auto / 1fr 8%;
-    padding: 1rem 5% 1.6rem; 
+      "vit-name vit-arrow" auto
+      "vit-desc ." auto / 1fr 8%;
+    padding: 1rem 5% 1.6rem;
   }
 
   @include media-breakpoint-down(md) {
-    padding: 1rem calc(10% + .5rem) 1.6rem; // .ms-s-offset + bootstrap column offset
+    padding: 1rem calc(10% + 0.5rem) 1.6rem; // .ms-s-offset + bootstrap column offset
 
     border-right: none !important;
     border-left: none !important;
   }
 
   @include media-breakpoint-down(sm) {
-    padding: 1rem calc(5% + .5rem) 1.6rem;
+    padding: 1rem calc(5% + 0.5rem) 1.6rem;
   }
 
   .vit-name {
@@ -84,7 +83,7 @@
 
     path {
       color: $ms-color-button;
-      transition: color .2s;
+      transition: color 0.2s;
     }
 
     &:hover {
