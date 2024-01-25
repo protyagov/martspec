@@ -5,6 +5,7 @@ import NavigationBar from "src/atomic/organism/navbar";
 import VitaminItem from "src/atomic/molecule/vitamin-item";
 import PageHeader from "../molecule/page-header";
 import ImageI18N from "../atom/img-i18n";
+import CallToAction from "src/atomic/organism/call-to-action";
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -12,7 +13,8 @@ const vitamins = {
     MINERAL: ["CALCIUM", "CHLORIDE", "CHROME", "COPPER", "IODINE", "IRON", "MAGNESIUM", "MANGANESE", "MOLYBDENUM", "PHOSPHORUS", "POTASSIUM", "SELENIUM", "SODIUM", "ZINC"]
 };
 
-export default function Vitamin() { 
+export default function Vitamin() {
+    // const bgColor={background: "#1FF"}
     return <>
         <NavigationBar />
 
@@ -189,9 +191,16 @@ export default function Vitamin() {
             </section>
 
             <section>
-                <div className="row text-lg-start text-center page-bottom">
-                    <div className="col-12 block bg-violet">
-                        <div>
+                <CallToAction
+                        // bgColor={bg_color}
+                        title={_("VITAMIN.HEAD6")}
+                        subtitle={_("VITAMIN.DESC6")}
+                        appId={1519596234}
+                        appDownloadTitle={_("VITAMIN.DWN")}
+                        imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
+                        imgAlt={_("VITAMIN.ALT4")}
+                        />
+                        {/* <div>
                             <h2>{_("VITAMIN.HEAD6")}</h2>
                             <p className="flex-grow-1">{_("VITAMIN.DESC6")}</p>
                             <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
@@ -199,9 +208,9 @@ export default function Vitamin() {
                                 style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
                             </a>
                         </div>
-                        <ImageI18N src="/img/page/vitamin/vitamin-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("VITAMIN.ALT4")} />
-                    </div>
-                </div>
+                        <ImageI18N src="/img/page/vitamin/vitamin-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("VITAMIN.ALT4")} /> */}
+                    {/* </div> */}
+                {/* </div> */}
             </section>
 
         </div>
