@@ -17,7 +17,7 @@ const IconTitleTextElem = ({
 		<li>
 			<div className="icon">
 				<img
-					src="/img/atom/icons/icon-defense.svg"
+					src={icon}
 					alt={title}
 				/>
 			</div>
