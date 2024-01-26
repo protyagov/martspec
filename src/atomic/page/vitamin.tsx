@@ -6,6 +6,8 @@ import VitaminItem from "src/atomic/molecule/vitamin-item";
 import PageHeader from "../molecule/page-header";
 import ImageI18N from "../atom/img-i18n";
 import CallToAction from "src/atomic/organism/call-to-action";
+import IconTitleTextList from "../organism/icon-title-text-list"
+import { IconTitleText } from "../molecule/icon-title-text-elem"
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -15,6 +17,41 @@ const vitamins = {
 
 export default function Vitamin() {
     // const bgColor={background: "#1FF"}
+    // <--
+    const iconTitleTextListItems: Array<IconTitleText> = [
+        {
+            icon: "/img/atom/icons/icon-defense.svg",
+            title: _("VITAMIN.LIST4.LI1_HEAD"),
+            subtitle: _("VITAMIN.LIST4.LI1_TEXT"),
+        },
+        {
+            icon: "/img/atom/icons/icon-sync.svg",
+            title: _("VITAMIN.LIST4.LI2_HEAD"),
+            subtitle: _("VITAMIN.LIST4.LI2_TEXT"),
+        },
+        {
+            icon: "/img/atom/icons/icon-no-auth.svg",
+            title: _("VITAMIN.LIST4.LI3_HEAD"),
+            subtitle: _("VITAMIN.LIST4.LI3_TEXT"),
+        },
+        {
+            icon: "/img/atom/icons/icon-no-ads.svg",
+            title: _("VITAMIN.LIST4.LI4_HEAD"),
+            subtitle: _("VITAMIN.LIST4.LI4_TEXT"),
+        },
+        {
+            icon: "/img/atom/icons/icon-bell.svg",
+            title: _("VITAMIN.LIST4.LI5_HEAD"),
+            subtitle: _("VITAMIN.LIST4.LI5_TEXT"),
+        },
+        // TODO: need to add class "no-filter" for apple icon
+        {
+            icon: "/img/atom/icons/icon-apple-health.svg",
+            title: _("VITAMIN.LIST4.LI6_HEAD"),
+            subtitle: _("VITAMIN.LIST4.LI6_TEXT"),
+        },
+    ]
+    // -->
     return <>
         <NavigationBar />
 
@@ -97,6 +134,8 @@ export default function Vitamin() {
                         <h2>{_("VITAMIN.HEAD4")}</h2>
                     </div>
                     <div className="col-12">
+                        <IconTitleTextList items={iconTitleTextListItems} />
+                        <hr />
                         <ul className="list-with-icons">
                             <li>
                                 <div className="icon"><img src="/img/atom/icons/icon-defense.svg" alt={_("VITAMIN.ALT5_1")} /></div>
