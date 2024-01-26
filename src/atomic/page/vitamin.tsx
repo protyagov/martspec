@@ -19,38 +19,38 @@ export default function Vitamin() {
     // const bgColor={background: "#1FF"}
     // <--
     const iconTitleTextListItems: Array<IconTitleText> = [
-        {
-            icon: "/img/atom/icons/icon-defense.svg",
-            title: _("VITAMIN.LIST4.LI1_HEAD"),
-            subtitle: _("VITAMIN.LIST4.LI1_TEXT"),
-        },
-        {
-            icon: "/img/atom/icons/icon-sync.svg",
-            title: _("VITAMIN.LIST4.LI2_HEAD"),
-            subtitle: _("VITAMIN.LIST4.LI2_TEXT"),
-        },
-        {
-            icon: "/img/atom/icons/icon-no-auth.svg",
-            title: _("VITAMIN.LIST4.LI3_HEAD"),
-            subtitle: _("VITAMIN.LIST4.LI3_TEXT"),
-        },
-        {
-            icon: "/img/atom/icons/icon-no-ads.svg",
-            title: _("VITAMIN.LIST4.LI4_HEAD"),
-            subtitle: _("VITAMIN.LIST4.LI4_TEXT"),
-        },
-        {
-            icon: "/img/atom/icons/icon-bell.svg",
-            title: _("VITAMIN.LIST4.LI5_HEAD"),
-            subtitle: _("VITAMIN.LIST4.LI5_TEXT"),
-        },
-        // TODO: need to add class "no-filter" for apple icon
-        {
-            icon: "/img/atom/icons/icon-apple-health.svg",
-            title: _("VITAMIN.LIST4.LI6_HEAD"),
-            subtitle: _("VITAMIN.LIST4.LI6_TEXT"),
-        },
-    ]
+			{
+				icon: "/img/atom/icons/icon-defense.svg",
+				title: _("VITAMIN.LIST4.LI1_HEAD"),
+				subtitle: _("VITAMIN.LIST4.LI1_TEXT"),
+			},
+			{
+				icon: "/img/atom/icons/icon-sync.svg",
+				title: _("VITAMIN.LIST4.LI2_HEAD"),
+				subtitle: _("VITAMIN.LIST4.LI2_TEXT"),
+			},
+			{
+				icon: "/img/atom/icons/icon-no-auth.svg",
+				title: _("VITAMIN.LIST4.LI3_HEAD"),
+				subtitle: _("VITAMIN.LIST4.LI3_TEXT"),
+			},
+			{
+				icon: "/img/atom/icons/icon-no-ads.svg",
+				title: _("VITAMIN.LIST4.LI4_HEAD"),
+				subtitle: _("VITAMIN.LIST4.LI4_TEXT"),
+			},
+			{
+				icon: "/img/atom/icons/icon-bell.svg",
+				title: _("VITAMIN.LIST4.LI5_HEAD"),
+				subtitle: _("VITAMIN.LIST4.LI5_TEXT"),
+			},
+			// TODO: need to add class "no-filter" for apple icon
+			{
+				icon: "/img/atom/icons/icon-apple-health.svg",
+				title: _("VITAMIN.LIST4.LI6_HEAD"),
+				subtitle: _("VITAMIN.LIST4.LI6_TEXT"),
+			},
+		]
     // -->
     return <>
         <NavigationBar />

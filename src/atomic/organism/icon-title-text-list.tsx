@@ -1,5 +1,7 @@
 import React from "react"
-import IconTitleTextElem, { IconTitleText } from "../molecule/icon-title-text-elem"
+import IconTitleTextElem, {
+	IconTitleText,
+} from "../molecule/icon-title-text-elem"
 
 // type IconTitleTextListProps = {
 // 	iconList: Array<string>
@@ -11,9 +13,7 @@ interface IIconTitleTextListProps {
 	items: Array<IconTitleText>
 }
 
-const IconTitleTextList = ({
-	items,
-}: IIconTitleTextListProps): JSX.Element => {
+const IconTitleTextList = ({ items }: IIconTitleTextListProps): JSX.Element => {
 	return (
 		<ul className="list-with-icons">
 			{items.map((item, index) => (
