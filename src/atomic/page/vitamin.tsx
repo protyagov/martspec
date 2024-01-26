@@ -20,33 +20,50 @@ export default function Vitamin() {
     // <--
     const iconTitleTextListItems: Array<IconTitleText> = [
 			{
-				icon: "/img/atom/icons/icon-defense.svg",
+				icon: {
+					src: "/img/atom/icons/icon-defense.svg",
+					alt: _("VITAMIN.ALT5_1"),
+				},
 				title: _("VITAMIN.LIST4.LI1_HEAD"),
 				subtitle: _("VITAMIN.LIST4.LI1_TEXT"),
 			},
 			{
-				icon: "/img/atom/icons/icon-sync.svg",
+				icon: {
+					src: "/img/atom/icons/icon-sync.svg",
+					alt: _("VITAMIN.ALT5_2"),
+				},
 				title: _("VITAMIN.LIST4.LI2_HEAD"),
 				subtitle: _("VITAMIN.LIST4.LI2_TEXT"),
 			},
 			{
-				icon: "/img/atom/icons/icon-no-auth.svg",
+				icon: {
+					src: "/img/atom/icons/icon-no-auth.svg",
+					alt: _("VITAMIN.ALT5_3"),
+				},
 				title: _("VITAMIN.LIST4.LI3_HEAD"),
 				subtitle: _("VITAMIN.LIST4.LI3_TEXT"),
 			},
 			{
-				icon: "/img/atom/icons/icon-no-ads.svg",
+				icon: {
+					src: "/img/atom/icons/icon-no-ads.svg",
+					alt: _("VITAMIN.ALT5_4"),
+				},
 				title: _("VITAMIN.LIST4.LI4_HEAD"),
 				subtitle: _("VITAMIN.LIST4.LI4_TEXT"),
 			},
 			{
-				icon: "/img/atom/icons/icon-bell.svg",
+				icon: {
+					src: "/img/atom/icons/icon-bell.svg",
+					alt: _("VITAMIN.ALT5_5"),
+				},
 				title: _("VITAMIN.LIST4.LI5_HEAD"),
 				subtitle: _("VITAMIN.LIST4.LI5_TEXT"),
 			},
-			// TODO: need to add class "no-filter" for apple icon
 			{
-				icon: "/img/atom/icons/icon-apple-health.svg",
+				icon: {
+					src: "/img/atom/icons/icon-apple-health.svg",
+					alt: _("VITAMIN.ALT5_5"),
+				},
 				title: _("VITAMIN.LIST4.LI6_HEAD"),
 				subtitle: _("VITAMIN.LIST4.LI6_TEXT"),
 			},
@@ -134,8 +151,8 @@ export default function Vitamin() {
                         <h2>{_("VITAMIN.HEAD4")}</h2>
                     </div>
                     <div className="col-12">
-                        <IconTitleTextList items={iconTitleTextListItems} />
-                        <hr />
+                        {/* <IconTitleTextList items={iconTitleTextListItems} /> */}
+                        {/* <hr /> */}
                         <ul className="list-with-icons">
                             <li>
                                 <div className="icon"><img src="/img/atom/icons/icon-defense.svg" alt={_("VITAMIN.ALT5_1")} /></div>

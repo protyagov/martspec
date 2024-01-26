@@ -1,7 +1,10 @@
 import React from "react"
 
 export interface IconTitleText {
-	icon: string
+	icon: {
+        src: string
+        alt: string
+    }
 	title: string
 	subtitle: string
 }
@@ -18,10 +21,9 @@ const IconTitleTextElem = ({
 
 	return (
 		<li>
-			<div className={`icon${icon.includes(appleIconName) ? ` ${appleIconClass}` : ""}`}>
+			<div className={`icon${icon.src.includes(appleIconName) ? ` ${appleIconClass}` : ""}`}>
 				<img
-					src={icon}
-					alt={title}
+					{...icon}
 				/>
 			</div>
 			<div>
