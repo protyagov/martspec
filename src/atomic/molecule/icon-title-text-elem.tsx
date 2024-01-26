@@ -13,9 +13,12 @@ const IconTitleTextElem = ({
 	title,
 	subtitle,
 }: IconTitleTextElemProps): JSX.Element => {
+  const appleIconName = "icon-apple-health.svg"
+  const appleIconClass = "no-filter"
+
 	return (
 		<li>
-			<div className="icon">
+			<div className={`icon${icon.includes(appleIconName) ? ` ${appleIconClass}` : ""}`}>
 				<img
 					src={icon}
 					alt={title}
