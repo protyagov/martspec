@@ -151,52 +151,7 @@ export default function Vitamin() {
                         <h2>{_("VITAMIN.HEAD4")}</h2>
                     </div>
                     <div className="col-12">
-                        {/* <IconTitleTextList items={iconTitleTextListItems} /> */}
-                        {/* <hr /> */}
-                        <ul className="list-with-icons">
-                            <li>
-                                <div className="icon"><img src="/img/atom/icons/icon-defense.svg" alt={_("VITAMIN.ALT5_1")} /></div>
-                                <div>
-                                    <h3>{_("VITAMIN.LIST4.LI1_HEAD")}</h3>
-                                    <p>{_("VITAMIN.LIST4.LI1_TEXT")}</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="icon"><img src="/img/atom/icons/icon-sync.svg" alt={_("VITAMIN.ALT5_2")} /></div>
-                                <div>
-                                    <h3>{_("VITAMIN.LIST4.LI2_HEAD")}</h3>
-                                    <p>{_("VITAMIN.LIST4.LI2_TEXT")}</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="icon"><img src="/img/atom/icons/icon-no-auth.svg" alt={_("VITAMIN.ALT5_3")} /></div>
-                                <div>
-                                    <h3>{_("VITAMIN.LIST4.LI3_HEAD")}</h3>
-                                    <p>{_("VITAMIN.LIST4.LI3_TEXT")}</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="icon"><img src="/img/atom/icons/icon-no-ads.svg" alt={_("VITAMIN.ALT5_4")} /></div>
-                                <div>
-                                    <h3>{_("VITAMIN.LIST4.LI4_HEAD")}</h3>
-                                    <p>{_("VITAMIN.LIST4.LI4_TEXT")}</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="icon"><img src="/img/atom/icons/icon-bell.svg" alt={_("VITAMIN.ALT5_4")} /></div>
-                                <div>
-                                    <h3>{_("VITAMIN.LIST4.LI5_HEAD")}</h3>
-                                    <p>{_("VITAMIN.LIST4.LI5_TEXT")}</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="icon no-filter"><img src="/img/atom/icons/icon-apple-health.svg" alt={_("VITAMIN.ALT5_4")} /></div>
-                                <div>
-                                    <h3>{_("VITAMIN.LIST4.LI6_HEAD")}</h3>
-                                    <p>{_("VITAMIN.LIST4.LI6_TEXT")}</p>
-                                </div>
-                            </li>
-                        </ul>
+                        <IconTitleTextList items={iconTitleTextListItems} />
                     </div>
                 </div>
             </section>
