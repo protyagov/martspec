@@ -5,9 +5,44 @@ import NavigationBar from "src/atomic/organism/navbar";
 import ImageI18N from "src/atomic/atom/img-i18n";
 import PageHeader from "src/atomic/molecule/page-header";
 import CallToAction from "../organism/call-to-action";
+import { IconTitleText } from "../molecule/icon-title-text-elem"
+import IconTitleTextList from "../organism/icon-title-text-list"
 
 export default function Emotion() {
-
+    const iconTitleTextListItems: Array<IconTitleText> = [
+        {
+            icon: {
+                src: "/img/atom/icons/icon-defense.svg",
+                alt: _("EMOTION.ALT5_1"),
+            },
+            title: _("EMOTION.LIST5.LI1_HEAD"),
+            subtitle: _("EMOTION.LIST5.LI1_TEXT"),
+        },
+        {
+            icon: {
+                src: "/img/atom/icons/icon-sync.svg",
+                alt: _("EMOTION.ALT5_2"),
+            },
+            title: _("EMOTION.LIST5.LI2_HEAD"),
+            subtitle: _("EMOTION.LIST5.LI2_TEXT"),
+        },
+        {
+            icon: {
+                src: "/img/atom/icons/icon-no-auth.svg",
+                alt: _("EMOTION.ALT5_3"),
+            },
+            title: _("EMOTION.LIST5.LI3_HEAD"),
+            subtitle: _("EMOTION.LIST5.LI3_TEXT"),
+        },
+        {
+            icon: {
+                src: "/img/atom/icons/icon-no-ads.svg",
+                alt: _("EMOTION.ALT5_4"),
+            },
+            title: _("EMOTION.LIST5.LI4_HEAD"),
+            subtitle: _("EMOTION.LIST5.LI4_TEXT"),
+        },
+    ]
 
     return <>
         <NavigationBar />
@@ -150,36 +185,7 @@ export default function Emotion() {
                         <h2>{_("EMOTION.HEAD5")}</h2>
                     </div>
                     <div className="col-12">
-                        <ul className="list-with-icons">
-                            <li>
-                                <div className="icon"><img src="/img/atom/icons/icon-defense.svg" alt={_("EMOTION.ALT5_1")} /></div>
-                                <div>
-                                    <h3>{_("EMOTION.LIST5.LI1_HEAD")}</h3>
-                                    <p>{_("EMOTION.LIST5.LI1_TEXT")}</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="icon"><img src="/img/atom/icons/icon-sync.svg" alt={_("EMOTION.ALT5_2")} /></div>
-                                <div>
-                                    <h3>{_("EMOTION.LIST5.LI2_HEAD")}</h3>
-                                    <p>{_("EMOTION.LIST5.LI2_TEXT")}</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="icon"><img src="/img/atom/icons/icon-no-auth.svg" alt={_("EMOTION.ALT5_3")} /></div>
-                                <div>
-                                    <h3>{_("EMOTION.LIST5.LI3_HEAD")}</h3>
-                                    <p>{_("EMOTION.LIST5.LI3_TEXT")}</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="icon"><img src="/img/atom/icons/icon-no-ads.svg" alt={_("EMOTION.ALT5_4")} /></div>
-                                <div>
-                                    <h3>{_("EMOTION.LIST5.LI4_HEAD")}</h3>
-                                    <p>{_("EMOTION.LIST5.LI4_TEXT")}</p>
-                                </div>
-                            </li>
-                        </ul>
+                        <IconTitleTextList items={iconTitleTextListItems} />
                     </div>
                 </div>
             </section>
