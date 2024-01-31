@@ -61,7 +61,7 @@ export default function Vitamin() {
             {
                 icon: {
                     src: "/img/atom/icons/icon-apple-health.svg",
-                    alt: _("VITAMIN.ALT5_5"),
+                    alt: _("VITAMIN.ALT5_6"),
                 },
                 title: _("VITAMIN.LIST4.LI6_HEAD"),
                 subtitle: _("VITAMIN.LIST4.LI6_TEXT"),
