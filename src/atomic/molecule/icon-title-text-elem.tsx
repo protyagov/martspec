@@ -1,10 +1,12 @@
 import React from "react"
 
-export interface IconTitleText {
-	icon: {
-        src: string
+interface Icon {
+	src: string
         alt: string
-    }
+}
+
+export interface IconTitleText {
+	icon: Icon
 	title: string
 	subtitle: string
 }
