@@ -33,11 +33,11 @@ export const Footer = () =>
                     <h2 className="mb-4"> {_("NAV.APPS").toUpperCase()} </h2>
                     <a className="footer-link mb-1" href={Locale.i18nLink("vitamin")}> {_("VITAMIN.HEAD")} </a>
                     <a className="footer-link mb-1" href={Locale.i18nLink("bodysize")}> {_("SIZE.HEAD")} </a>
-                    <a className="footer-link mb-1" href={Locale.i18nLink("electrolyte")}> {_("ELECTROLYTE.HEAD")} </a>
                     <a className="footer-link mb-1" href={Locale.i18nLink("bodymass")}> {_("MASS.HEAD")} </a>
-                    <a className="footer-link mb-1" href={Locale.i18nLink("bodyzinc")}> {_("ZINC.HEAD")} </a>
                     <a className="footer-link mb-1" href={Locale.i18nLink("waistline")}> {_("WAIST.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("bodyzinc")}> {_("ZINC.HEAD")} </a>
                     <a className="footer-link mb-1" href={Locale.i18nLink("emotion")}> {_("EMOTION.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("electrolyte")}> {_("ELECTROLYTE.HEAD")} </a>
                 </div>
 
                 <div className="col-md-4 col-12 d-flex flex-md-column flex-row-reverse px-0 icon-container">
