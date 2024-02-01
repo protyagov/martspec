@@ -120,6 +120,12 @@
             "LI4_HEAD": "20",
             "LI4_TEXT": "Adicione seus itens"
         },
+        "ALT5_1": "Proteger suas informações é nosso objetivo direto. A Martspec não armazena os seus dados, isso é uma garantia da segurança dos seus dados.",
+        "ALT5_2": "Sincronize via iCloud para maior comodidade. Todos os dados estão automaticamente disponíveis em todos os seus dispositivos.",
+        "ALT5_3": "Não há necessidade de autorização de login e senha. Não é necessária uma conta para operar o aplicativo.",
+        "ALT5_4": "Nos preocupamos com nossos usuários, por isso não utilizamos nenhuma publicidade intrusiva no aplicativo.",
+        "ALT5_5": "Notificação conveniente sobre a ingestão de vitaminas. O lembrete vem por hora e dia da semana.",
+        "ALT5_6": "Sincronização com o aplicativo Apple Health - a melhor base de todas as vitaminas e microelementos.",
         "HEAD6": "Vitamina - Uma aplicação para controlar o equilíbrio de vitaminas e minerais necessários.",
         "DESC6": "Instale o aplicativo para iOS gratuitamente e desfrute de saúde e vitalidade.",
         "BTN_OPEN": "Verificar",
