@@ -35,7 +35,7 @@
         width: 100%;
         position: absolute;
         left: 0;
-        top: 0;
+        top: 10px;
         border-radius: 50%;
         background: #FAFAFA;
       }
@@ -48,7 +48,7 @@
     padding-right: 3rem;
     padding-left: 3rem;
     color: #212529;
-    display: inline-block;
+    // display: inline-block;
 
     @include media-breakpoint-down(lg) {
       padding: 1rem;
@@ -78,21 +78,23 @@
       border: none;
       border-radius: 0px;
       padding: .5rem;
-      animation-duration: .3s;
+      animation-duration: .2s;
       animation-timing-function: ease-in-out;
 
       @include media-breakpoint-up(lg) {
-        padding: $navbar-height-lg 1.5rem 1.5rem;
+        // padding: $navbar-height-lg 1.5rem 1.5rem;
         border-radius: 8px;
         box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
 
         position: absolute;
-        left: auto;
-        right: auto;
-        transform: translateY(-$navbar-height-lg);
+        left: 42px;
+        top: 57px;
+        // right: auto;
+        // transform: translateY(-50px);
 
         animation-name: slide;
       }
+
       @include media-breakpoint-down(lg) {
         margin-left: 1rem;
         margin-bottom: 1rem;
@@ -104,15 +106,18 @@
       0% {
         transform: translateY(-100%);
       }
+
       100% {
         transform: translateY(-$navbar-height-lg);
       }
     }
+
     @keyframes open {
       0% {
         max-height: 0;
         overflow: hidden;
       }
+
       100% {
         max-height: 1000px;
       }
