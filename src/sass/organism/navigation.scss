@@ -86,13 +86,14 @@
         border-radius: 8px;
         box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
 
-        position: absolute;
-        left: 42px;
-        top: 57px;
-        // right: auto;
+        // position: absolute;
+        // left: 42px;
+        // top: 57px;
+        right: auto;
+        left: auto;
         // transform: translateY(-50px);
 
-        animation-name: slide;
+        // animation-name: slide;
       }
 
       @include media-breakpoint-down(lg) {
