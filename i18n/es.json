@@ -117,12 +117,12 @@
             "LI4_HEAD": "20",
             "LI4_TEXT": "Elementos personalizados"
         },
-        "ALT5_1": "Proteger su información es nuestro objetivo directo. Martspec no almacena tus datos, esto es garantía de la seguridad de tus datos.",
-        "ALT5_2": "Sincroniza a través de iCloud para una comodidad aún mayor. Todos los datos están disponibles automáticamente en todos sus dispositivos.",
-        "ALT5_3": "No es necesaria la autorización de inicio de sesión y contraseña. No se requiere una cuenta para operar la aplicación.",
-        "ALT5_4": "Nos preocupamos por nuestros usuarios, por eso no utilizamos publicidad intrusiva en la aplicación.",
-        "ALT5_5": "Notificación conveniente sobre la toma de vitaminas. El recordatorio llega por hora y día de la semana.",
-        "ALT5_6": "Sincronización con la aplicación Apple Health: la mejor base de todas las vitaminas y microelementos.",
+        "ALT5_1": "La protección de su información es nuestra principal prioridad. Martspec no almacena sus datos, lo que garantiza la seguridad de sus datos.",
+        "ALT5_2": "Sincronización a través de iCloud para una mayor comodidad. Todos los datos están disponibles automáticamente en todos sus dispositivos.",
+        "ALT5_3": "No es necesario iniciar sesión con nombre de usuario y contraseña. La aplicación no requiere una cuenta para funcionar.",
+        "ALT5_4": "Cuidamos a nuestros usuarios, por eso no utilizamos publicidad intrusiva en la aplicación.",
+        "ALT5_5": "Conveniente notificación de tomar vitaminas. El recordatorio llega a la hora y día de la semana específicos.",
+        "ALT5_6": "Sincronización con la aplicación Apple Health, la mejor base de todas las vitaminas y microelementos.",
         "HEAD6": "Vitamina: una aplicación para controlar el equilibrio de las vitaminas y minerales necesarios.",
         "DESC6": "Instale la aplicación para iOS de forma gratuita y disfrute de la salud y la vitalidad.",
         "BTN_OPEN": "Vitaminícese",
@@ -1477,11 +1477,11 @@
             "LI6_TEXT": "Piloto comercial"
         },
         "HEAD6": "¿Cómo se mide la apertura?",
-        "DESK6_1": "La apertura suele medirse mediante cuestionarios o pruebas. Estos contienen varias afirmaciones y las personas seleccionan la respuesta que mejor refleja cuánto están de acuerdo o en desacuerdo con la afirmación 😓. Las afirmaciones pueden adoptar la forma de estar de acuerdo con adjetivos específicos o declaraciones sobre sí mismos.",
+        "DESK6_1": "La apertura suele medirse mediante cuestionarios o pruebas. Estos contienen varias afirmaciones y las personas seleccionan la respuesta que mejor refleja cuánto están de acuerdo o en desacuerdo con la afirmación. Las afirmaciones pueden adoptar la forma de estar de acuerdo con adjetivos específicos o declaraciones sobre sí mismos.",
         "DESK6_2": "Olvide los interminables cuestionarios con sus secas escalas de \"totalmente de acuerdo\". Deseche las etiquetas y descubre su auténtica apertura a la experiencia, y más, en tan solo 60 segundos con la aplicación Emotion. Esta herramienta revolucionaria salta el análisis tedioso y se sumerge directamente en las vibrantes profundidades de su subconsciente 🧠.",
         "DESK6_3": "¿Intrigado por descubrir cuán abierto es realmente? ¿Anhelas aventuras en el aprendizaje, pinceladas de creatividad y saludos a lo desconocido? ¿O prospera en ritmos predecibles, la lógica de los números y la comodidad de reglas claras? ¡Su respuesta se encuentra en el fascinante mundo de la apertura a la experiencia! La aplicación Emotion pinta un retrato detallado de su paisaje interior, revelando sus preferencias de una manera que ninguna otra aplicación puede ofrecer.",
-        "DESK6_4": "¿Está alto en esta escala? 🚀 Podría ser un explorador de espíritu libre, deambulando por galerías, devorando conocimiento como un artista hambriento 🎨 y haciendo amistad con desconocidos como piezas de un rompecabezas perdido. ¿Bajo en apertura? Podría ser un tradicionalista arraigado, encontrando consuelo en las rutinas, construyendo castillos de lógica y apreciando la belleza de una hoja de cálculo perfectamente equilibrada.",
-        "DESK6_5": "¿Y sabe qué? ¡Ambos son igualmente 🌟 impresionantes! La aplicación Emotion le ayuda a descubrir su combinación única de apertura (además de todo un arcoíris de otras características emocionales) en tan solo 60 segundos. Sin etiquetas, sin juicios, simplemente una auténtica autodescubrimiento para guiarle hacia elecciones satisfactorias y un camino personalizado hacia el crecimiento."
+        "DESK6_4": "¿Está alto en esta escala? Podría ser un explorador de espíritu libre, deambulando por galerías, devorando conocimiento como un artista hambriento y haciendo amistad con desconocidos como piezas de un rompecabezas perdido. ¿Bajo en apertura? Podría ser un tradicionalista arraigado, encontrando consuelo en las rutinas, construyendo castillos de lógica y apreciando la belleza de una hoja de cálculo perfectamente equilibrada.",
+        "DESK6_5": "¿Y sabe qué? ¡Ambos son igualmente impresionantes! La aplicación Emotion le ayuda a descubrir su combinación única de apertura (además de todo un arcoíris de otras características emocionales) en tan solo 60 segundos. Sin etiquetas, sin juicios, simplemente una auténtica autodescubrimiento para guiarle hacia elecciones satisfactorias y un camino personalizado hacia el crecimiento."
     },
     "COLOR_TEST": {
         "HEAD1": "Prueba de emociones",
