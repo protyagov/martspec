@@ -8,6 +8,7 @@ import ImageI18N from "../atom/img-i18n";
 import CallToAction from "src/atomic/organism/call-to-action";
 import IconTitleTextList from "../organism/icon-title-text-list"
 import { IconTitleText } from "../molecule/icon-title-text-elem"
+import TitleTextCard from "../molecule/title-text-card"
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -68,149 +69,168 @@ export default function Vitamin() {
             },
         ]
     
-    return <>
-        <NavigationBar />
+    return (
+			<>
+				<NavigationBar />
 
-        <div className="ms-base-page ms-base-new vitamin">
+				<div className="ms-base-page ms-base-new vitamin">
+					<PageHeader
+						title="VITAMIN.HEAD"
+						subtitleLevel1="VITAMIN.ABOUT_1"
+						subtitleLevel2="VITAMIN.ABOUT_2"
+						appId={1519596234}
+						appDownloadTitle="VITAMIN.DWN"
+						imgSrc="/img/page/vitamin/vitamin.webp"
+						imgAlt="VITAMIN.IMG"
+						imgH={512}
+						imgW={512}
+					/>
 
-            <PageHeader
-                title="VITAMIN.HEAD"
-                subtitleLevel1="VITAMIN.ABOUT_1"
-                subtitleLevel2="VITAMIN.ABOUT_2"
-                appId={1519596234}
-                appDownloadTitle="VITAMIN.DWN"
-                imgSrc="/img/page/vitamin/vitamin.webp"
-                imgAlt="VITAMIN.IMG"
-                imgH={512}
-                imgW={512}
-            />
+					<section>
+						<div className="row g-4">
+							<TitleTextCard
+								title={_("VITAMIN.LIST1.LI1_HEAD")}
+								text={_("VITAMIN.LIST1.LI1_TEXT")}
+								bgColor="#D6E3FC"
+							/>
+                            <TitleTextCard
+								title={_("VITAMIN.LIST1.LI2_HEAD")}
+								text={_("VITAMIN.LIST1.LI2_TEXT")}
+								bgColor="#E8FAE0"
+							/>
+                            <TitleTextCard
+								title={_("VITAMIN.LIST1.LI3_HEAD")}
+								text={_("VITAMIN.LIST1.LI3_TEXT")}
+								bgColor="#D6E3FC"
+							/>
+						</div>
+					</section>
 
-            <section>
-                <div className="row g-4">
-                    <div className="col-lg-4">
-                        <div className="block bg-blue">
-                            <h3>{_("VITAMIN.LIST1.LI1_HEAD")}</h3>
-                            <p>{_("VITAMIN.LIST1.LI1_TEXT")}</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="block bg-green">
-                            <h3>{_("VITAMIN.LIST1.LI2_HEAD")}</h3>
-                            <p>{_("VITAMIN.LIST1.LI2_TEXT")}</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="block bg-blue">
-                            <h3>{_("VITAMIN.LIST1.LI3_HEAD")}</h3>
-                            <p>{_("VITAMIN.LIST1.LI3_TEXT")}</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+					<section>
+						<div className="row">
+							<div className="col-lg-6">
+								<h2>{_("VITAMIN.HEAD2")}</h2>
+								<p className="mb-4">{_("VITAMIN.DESC2_1")}</p>
+								<p className="mb-4">{_("VITAMIN.DESC2_2")}</p>
+								<p className="mb-0">{_("VITAMIN.DESC2_3")}</p>
+							</div>
+							<div className="col-lg-6">
+								<ImageI18N
+									src="/img/page/vitamin/vitamin-screen-desc-en.webp"
+									w={390}
+									h={515}
+									cls="ms-base-image mt-mob-xs"
+									alt={_("VITAMIN.ALT1")}
+								/>
+							</div>
+						</div>
+					</section>
 
-            <section>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <h2>{_("VITAMIN.HEAD2")}</h2>
-                        <p className="mb-4">{_("VITAMIN.DESC2_1")}</p>
-                        <p className="mb-4">{_("VITAMIN.DESC2_2")}</p>
-                        <p className="mb-0">{_("VITAMIN.DESC2_3")}</p>
-                    </div>
-                    <div className="col-lg-6">
-                        <ImageI18N src="/img/page/vitamin/vitamin-screen-desc-en.webp" w={390} h={515} cls="ms-base-image mt-mob-xs" alt={_("VITAMIN.ALT1")} />
-                    </div>
-                </div>
-            </section>
+					<section>
+						<div className="row">
+							<div className="col-lg-6">
+								<ImageI18N
+									src="/img/page/vitamin/vitamin-screen-edit-en.webp"
+									w={487}
+									h={515}
+									cls="ms-base-image d-none d-lg-block"
+									alt={_("VITAMIN.ALT4")}
+								/>
+							</div>
+							<div className="col-lg-6">
+								<h2>{_("VITAMIN.HEAD3")}</h2>
+								<p>{_("VITAMIN.DESC3_1")}</p>
+								<ImageI18N
+									src="/img/page/vitamin/vitamin-screen-edit-en.webp"
+									w={487}
+									h={515}
+									cls="ms-base-image d-block d-lg-none mb-mob-xs"
+									alt={_("VITAMIN.ALT4")}
+								/>
+								<h3>{_("VITAMIN.DESC3_2")}</h3>
+								<ul className="checkmark-list">
+									<li>{_("VITAMIN.LIST3.LI1_TEXT")}</li>
+									<li>{_("VITAMIN.LIST3.LI2_TEXT")}</li>
+									<li>{_("VITAMIN.LIST3.LI3_TEXT")}</li>
+									<li>{_("VITAMIN.LIST3.LI4_TEXT")}</li>
+									<li>{_("VITAMIN.LIST3.LI5_TEXT")}</li>
+									<li>{_("VITAMIN.LIST3.LI6_TEXT")}</li>
+								</ul>
+							</div>
+						</div>
+					</section>
 
-            <section>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <ImageI18N src="/img/page/vitamin/vitamin-screen-edit-en.webp" w={487} h={515} cls="ms-base-image d-none d-lg-block" alt={_("VITAMIN.ALT4")} />
-                    </div>
-                    <div className="col-lg-6">
-                        <h2>{_("VITAMIN.HEAD3")}</h2>
-                        <p>{_("VITAMIN.DESC3_1")}</p>
-                        <ImageI18N src="/img/page/vitamin/vitamin-screen-edit-en.webp" w={487} h={515} cls="ms-base-image d-block d-lg-none mb-mob-xs" alt={_("VITAMIN.ALT4")} />
-                        <h3>{_("VITAMIN.DESC3_2")}</h3>
-                        <ul className="checkmark-list">
-                            <li>{_("VITAMIN.LIST3.LI1_TEXT")}</li>
-                            <li>{_("VITAMIN.LIST3.LI2_TEXT")}</li>
-                            <li>{_("VITAMIN.LIST3.LI3_TEXT")}</li>
-                            <li>{_("VITAMIN.LIST3.LI4_TEXT")}</li>
-                            <li>{_("VITAMIN.LIST3.LI5_TEXT")}</li>
-                            <li>{_("VITAMIN.LIST3.LI6_TEXT")}</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+					<section className="bg-gray">
+						<div className="row">
+							<div className="col-12 mb-2">
+								<h2>{_("VITAMIN.HEAD4")}</h2>
+							</div>
+							<div className="col-12">
+								<IconTitleTextList items={iconTitleTextListItems} />
+							</div>
+						</div>
+					</section>
 
-            <section className="bg-gray">
-                <div className="row">
-                    <div className="col-12 mb-2">
-                        <h2>{_("VITAMIN.HEAD4")}</h2>
-                    </div>
-                    <div className="col-12">
-                        <IconTitleTextList items={iconTitleTextListItems} />
-                    </div>
-                </div>
-            </section>
+					<section className="bg-gray bg-merge-top">
+						<div className="row mb-0">
+							<div className="col-12">
+								<div className="block bg-green">
+									<h2 className="mb-6">{_("VITAMIN.HEAD5")}</h2>
+									<ul className="counters-list">
+										<li>
+											<h1>{_("VITAMIN.LIST5.LI1_HEAD")}</h1>
+											<p>{_("VITAMIN.LIST5.LI1_TEXT")}</p>
+										</li>
+										<li>
+											<h1>{_("VITAMIN.LIST5.LI2_HEAD")}</h1>
+											<p>{_("VITAMIN.LIST5.LI2_TEXT")}</p>
+										</li>
+										<li>
+											<h1>{_("VITAMIN.LIST5.LI3_HEAD")}</h1>
+											<p>{_("VITAMIN.LIST5.LI3_TEXT")}</p>
+										</li>
+										<li>
+											<h1>{_("VITAMIN.LIST5.LI4_HEAD")}</h1>
+											<p>{_("VITAMIN.LIST5.LI4_TEXT")}</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
 
-            <section className="bg-gray bg-merge-top">
-                <div className="row mb-0">
-                    <div className="col-12">
-                        <div className="block bg-green">
-                            <h2 className="mb-6">{_("VITAMIN.HEAD5")}</h2>
-                            <ul className="counters-list">
-                                <li>
-                                    <h1>{_("VITAMIN.LIST5.LI1_HEAD")}</h1>
-                                    <p>{_("VITAMIN.LIST5.LI1_TEXT")}</p>
-                                </li>
-                                <li>
-                                    <h1>{_("VITAMIN.LIST5.LI2_HEAD")}</h1>
-                                    <p>{_("VITAMIN.LIST5.LI2_TEXT")}</p>
-                                </li>
-                                <li>
-                                    <h1>{_("VITAMIN.LIST5.LI3_HEAD")}</h1>
-                                    <p>{_("VITAMIN.LIST5.LI3_TEXT")}</p>
-                                </li>
-                                <li>
-                                    <h1>{_("VITAMIN.LIST5.LI4_HEAD")}</h1>
-                                    <p>{_("VITAMIN.LIST5.LI4_TEXT")}</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
+					<section className="vitamins-list">
+						<div className="row">
+							{Object.entries(vitamins).map(([vitGroupName, vitList]) => (
+								<div
+									key={"vitamins-group-" + vitGroupName}
+									className="col-12 vit-group"
+								>
+									<div className="py-3 px-5 vit-group-name">
+										{_("VITAMIN." + vitGroupName + ".NAME")}
+									</div>
+									{vitList.map((vit) => (
+										<VitaminItem
+											key={vit}
+											id={vit}
+										/>
+									))}
+								</div>
+							))}
+						</div>
+					</section>
 
-            <section className="vitamins-list">
-                <div className="row">
-                {
-                    Object
-                        .entries(vitamins)
-                            .map(([vitGroupName, vitList]) => (
-                            <div key={"vitamins-group-" + vitGroupName} className="col-12 vit-group">
-                                <div className="py-3 px-5 vit-group-name">{_("VITAMIN." + vitGroupName + ".NAME")}</div>
-                                {
-                                    vitList.map(vit => <VitaminItem key={vit} id={vit} />)
-                                }
-                            </div>
-                        ))
-                }
-                </div>
-            </section>
-
-            <section>
-                <CallToAction
-                        // bgColor={bg_color}
-                        title={_("VITAMIN.HEAD6")}
-                        subtitle={_("VITAMIN.DESC6")}
-                        appId={1519596234}
-                        appDownloadTitle={_("VITAMIN.DWN")}
-                        imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
-                        imgAlt={_("VITAMIN.ALT4")}
-                        />
-                        {/* <div>
+					<section>
+						<CallToAction
+							// bgColor={bg_color}
+							title={_("VITAMIN.HEAD6")}
+							subtitle={_("VITAMIN.DESC6")}
+							appId={1519596234}
+							appDownloadTitle={_("VITAMIN.DWN")}
+							imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
+							imgAlt={_("VITAMIN.ALT4")}
+						/>
+						{/* <div>
                             <h2>{_("VITAMIN.HEAD6")}</h2>
                             <p className="flex-grow-1">{_("VITAMIN.DESC6")}</p>
                             <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
@@ -219,11 +239,11 @@ export default function Vitamin() {
                             </a>
                         </div>
                         <ImageI18N src="/img/page/vitamin/vitamin-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("VITAMIN.ALT4")} /> */}
-                    {/* </div> */}
-                {/* </div> */}
-            </section>
-
-        </div>
-        <Footer />
-    </>
+						{/* </div> */}
+						{/* </div> */}
+					</section>
+				</div>
+				<Footer />
+			</>
+		)
 }
