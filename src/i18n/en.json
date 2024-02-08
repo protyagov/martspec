@@ -117,6 +117,12 @@
             "LI4_HEAD": "20",
             "LI4_TEXT": "Custom items"
         },
+        "ALT5_1": "Protecting your information is our direct goal. Martspec does not store your data, this is a guarantee of the security of your data.",
+        "ALT5_2": "Sync via iCloud for even greater convenience. All data is automatically available on all your devices.",
+        "ALT5_3": "There is no need for login and password authorization. An account is not required to operate the application.",
+        "ALT5_4": "We care about our users, so we do not use any intrusive advertising in the application.",
+        "ALT5_5": "Convenient notification about taking vitamins. The reminder comes by hour and day of the week.",
+        "ALT5_6": "Synchronization with the Apple Health application - the best base of all vitamins and microelements.",
         "HEAD6": "Vitamin - an application for controlling the balance of necessary vitamins and minerals.",
         "DESC6": "Install the app for iOS for free and enjoy health and vitality.",
         "BTN_OPEN": "Vitaminize",
@@ -1475,11 +1481,11 @@
             "LI6_TEXT": "Commercial Pilot"
         },
         "HEAD6": "How to Measure Openness?",
-        "DESK6_1": "Openness is usually measured using questionnaires or tests. They contain multiple statements and people select the answer that best reflects how much they agree or disagree with the statement 😓. Statements can take the form of agreeing with specific adjectives or statements about themselves.",
+        "DESK6_1": "Openness is usually measured using questionnaires or tests. They contain multiple statements and people select the answer that best reflects how much they agree or disagree with the statement. Statements can take the form of agreeing with specific adjectives or statements about themselves.",
         "DESK6_2": "Forget endless questionnaires with their dry \"strongly agree\" scales. Ditch the labels and unlock your authentic openness to experience, and more, in a mere 60 seconds with the Emotion app. This revolutionary tool skips the tedious analysis and plunges straight into the vibrant depths of your subconscious 🧠.",
         "DESK6_3": "Intrigued by how open you truly are? Do you crave adventures in learning, brushstrokes of creativity, and handshakes with the unknown? Or do you thrive on predictable rhythms, the logic of numbers, and the comfort of clear-cut rules? Your answer lies in the fascinating world of Openness to Experience! The Emotion app paints a detailed portrait of your inner landscape, revealing your preferences that no other app can offer.",
-        "DESK6_4": "High on this scale? 🚀 You might be a free-spirited explorer, roaming through galleries, devouring knowledge like a starving artist 🎨, and befriending strangers like lost puzzle pieces. Low on openness? You could be a grounded traditionalist, finding solace in routines, building castles of logic, and appreciating the beauty of a perfectly balanced spreadsheet.",
-        "DESK6_5": "And guess what? Both are equally 🌟 awesome! The Emotion app helps you discover your unique openness blend (plus a whole rainbow of other emotional traits) in just 60 seconds. No labels, no judgment, just pure self-discovery to guide you to fulfilling choices and a personalized path to growth."
+        "DESK6_4": "High on this scale? You might be a free-spirited explorer, roaming through galleries, devouring knowledge like a starving artist, and befriending strangers like lost puzzle pieces. Low on openness? You could be a grounded traditionalist, finding solace in routines, building castles of logic, and appreciating the beauty of a perfectly balanced spreadsheet.",
+        "DESK6_5": "And guess what? Both are equally awesome! The Emotion app helps you discover your unique openness blend (plus a whole rainbow of other emotional traits) in just 60 seconds. No labels, no judgment, just pure self-discovery to guide you to fulfilling choices and a personalized path to growth."
     },
     "COLOR_TEST": {
         "HEAD1": "Emotion Test",

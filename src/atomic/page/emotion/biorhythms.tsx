@@ -4,6 +4,7 @@ import { Footer } from "src/atomic/organism/footer";
 import NavigationBar from "src/atomic/organism/navbar";
 import ImageI18N from "src/atomic/atom/img-i18n";
 import PageHeader from "../../molecule/page-header";
+import CallToAction from "src/atomic/organism/call-to-action";
 
 export default function Biorhythms() {
     const rhythmsList = [
@@ -225,7 +226,16 @@ export default function Biorhythms() {
             </section>
 
             <section>
-                <div className="row text-lg-start text-center page-bottom">
+            <CallToAction
+                        // bgColor={bg_color}
+                        title={_("BIORHYTHMS.HEAD5")}
+                        subtitle={_("BIORHYTHMS.DESK5")}
+                        appId={1562956213}
+                        appDownloadTitle={_("BIORHYTHMS.DWN")}
+                        imgSrc="/img/org/call-to-action/emotion/emotion-screen-app-en.webp"
+                        imgAlt={_("BIORHYTHMS.ALT5")}
+                        />
+                {/* <div className="row text-lg-start text-center page-bottom">
                     <div className="col-12 block bg-violet">
                         <div>
                             <h2>{_("BIORHYTHMS.HEAD5")}</h2>
@@ -237,7 +247,7 @@ export default function Biorhythms() {
                         </div>
                         <ImageI18N src="/img/page/emotion/emotion-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("BIORHYTHMS.ALT5")} />
                     </div>
-                </div>
+                </div> */}
             </section>
 
         </div>
