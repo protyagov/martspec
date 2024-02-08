@@ -4,20 +4,21 @@
   border-top: none;
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
+  text-decoration: none;
+  color: $ms-color-text-black;
 
   display: grid;
-  grid-template: "vit-name vit-desc vit-arrow" auto / 20% 1fr 8%;
+  grid-template: "vit-name vit-desc vit-arrow"auto / 20% 1fr 8%;
   gap: 0.5rem;
 
-  & > * {
+  &>* {
     display: flex;
     align-items: center;
   }
 
   @include media-breakpoint-down(lg) {
     grid-template:
-      "vit-name vit-arrow" auto
-      "vit-desc ." auto / 1fr 8%;
+      "vit-name vit-arrow"auto "vit-desc ."auto / 1fr 8%;
     padding: 1rem 5% 1.6rem;
   }
 
