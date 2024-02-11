@@ -63,10 +63,10 @@ export default function Bodymass() {
 					subtitleLevel2="MASS.ABOUT_2"
 					appId={1507588203}
 					appDownloadTitle="MASS.DWN"
-					imgSrc="/img/page/body-mass/mass.svg"
+					imgSrc="/img/page/body-mass/mass.webp"
 					imgAlt="MASS.IMG"
-					imgH={406}
-					imgW={512}
+					imgH={428}
+					imgW={428}
 				/>
 
 				<section>
@@ -97,9 +97,9 @@ export default function Bodymass() {
 						</div>
 						<div className="col-lg-6">
 							<ImageI18N
-								src="/img/page/vitamin/vitamin-screen-desc-en.webp"
-								w={390}
-								h={515}
+								src="/img/page/body-mass/main-pic-en.webp"
+								w={379}
+								h={440}
 								cls="ms-base-image mt-mob-xs"
 								alt={_("MASS.ALT1")}
 							/>
@@ -125,8 +125,8 @@ export default function Bodymass() {
 						subtitle={_("MASS.DESC4")}
 						appId={1507588203}
 						appDownloadTitle={_("MASS.DWN")}
-						imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
-						imgAlt={_("VITAMIN.ALT4")}
+						imgSrc="/img/org/call-to-action/bodymass/call-to-action-en.webp"
+						imgAlt={_("MASS.ALT2")}
 					/>
 				</section>
 			</div>
