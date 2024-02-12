@@ -64,7 +64,7 @@ export default function Bodymass() {
 					appId={1507588203}
 					appDownloadTitle="MASS.DWN"
 					imgSrc="/img/page/body-mass/mass.webp"
-					imgAlt="MASS.IMG"
+					imgAlt={_("MASS.IMG")}
 					imgH={428}
 					imgW={428}
 				/>
