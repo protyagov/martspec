@@ -110,7 +110,7 @@ export default function Bodymass() {
 				<section>
 					<div className="row">
 						<div className="col-12 mb-2">
-							<h2>{_("VITAMIN.HEAD4")}</h2>
+							<h2>{_("MASS.HEAD3")}</h2>
 						</div>
 						<div className="col-12">
 							<IconTitleTextList items={iconTitleTextListItems} />
