@@ -19,9 +19,10 @@
   padding-bottom: 15vmin;
 
   h1 {
-    font-family: heading-400;
-    font-size: 3rem;
-    padding-bottom: 2vmin;
+    font-family: os6;
+    font-size: 3.5rem;
+    padding-top: 2vmin;
+    padding-bottom: 1vmin;
 
     @include media-breakpoint-down(sm) {
       font-size: 2rem;
@@ -62,7 +63,7 @@
 
 //---------------------------------------------------------------------------------------------------------------------
 .ms-s-offset {
- @extend .container-xxl;
+  @extend .container-xxl;
 
   padding-left: 10%;
   padding-right: 10%;
@@ -110,15 +111,17 @@
   }
 
   .p-container {
-    & > * {
+    &>* {
       @extend .mb-3;
     }
-    
+
     display: grid;
     align-items: center;
     justify-content: space-between;
 
-    @each $area in head, img, text {
+    @each $area in head,
+    img,
+    text {
       .p-#{$area} {
         grid-area: $area;
       }
@@ -128,14 +131,13 @@
       text-align: center;
     }
 
-    grid-template:
-      ". img"
-      "head img"
-      "text img"
-      ". img"
-      / 55% 30%;
+    grid-template: ". img"
+    "head img"
+    "text img"
+    ". img"
+    / 55% 30%;
 
-      @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(md) {
       justify-content: unset !important;
       grid-template:
         "head"
@@ -148,7 +150,7 @@
   &:nth-child(odd) {
     background-color: $ms-color-bg-secondary;
   }
-  
+
   &:nth-child(even) {
     .p-container {
       grid-template:
