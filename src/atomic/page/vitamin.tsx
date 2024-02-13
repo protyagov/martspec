@@ -145,7 +145,7 @@ export default function Vitamin() {
 									w={487}
 									h={515}
 									cls="ms-base-image d-block d-lg-none mb-mob-xs"
-									alt={_("VITAMIN.ALT3")}
+									alt={_("VITAMIN.ALT2")}
 								/>
 								<h3>{_("VITAMIN.DESC3_2")}</h3>
 								<ul className="checkmark-list">
