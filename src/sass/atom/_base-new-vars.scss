@@ -40,3 +40,9 @@ $vitamin-colors: (
   "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
   "bg": map-get($bgs-new, "blue")
 );
+
+$bodymass-colors: (
+  "main": #0066CC,
+  "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
+  "bg": map-get($bgs-new, "blue")
+);
