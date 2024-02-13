@@ -228,7 +228,7 @@ export default function Vitamin() {
 							appId={1519596234}
 							appDownloadTitle={_("VITAMIN.DWN")}
 							imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
-							imgAlt={_("VITAMIN.ALT4")}
+							imgAlt={_("VITAMIN.ALT3")}
 						/>
 						{/* <div>
                             <h2>{_("VITAMIN.HEAD6")}</h2>
