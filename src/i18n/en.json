@@ -133,6 +133,9 @@
             "LI4_HEAD": "20",
             "LI4_TEXT": "Custom items"
         },
+        "ALT1": "iPhone displaying vitamin stats and Apple Watch displaying a list of vitamins within the Vitamin Book app by Martspec.",
+        "ALT2": "iPhone displaying vitamin stats and a list of vitamins within the Vitamin Book app by Martspec.",
+        "ALT3": "iPad, iPhone, and Apple Watch display information about vitamin intake in the Vitamin Book app by Martspec.",
         "ALT5_1": "Protecting your information is our direct goal. Martspec does not store your data, this is a guarantee of the security of your data.",
         "ALT5_2": "Sync via iCloud for even greater convenience. All data is automatically available on all your devices.",
         "ALT5_3": "There is no need for login and password authorization. An account is not required to operate the application.",
