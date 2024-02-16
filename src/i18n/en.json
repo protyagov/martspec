@@ -46,8 +46,8 @@
         "LIST1": {
             "LI1_HEAD": "Watch Widget",
             "LI1_TEXT": "Dive into your stats effortlessly with seamless access to key metrics empowering you to track progress and optimize your well-being",
-            "LI2_HEAD": "Progress bar",
-            "LI2_TEXT": "Easily track your minimum, maximum, and current weight",
+            "LI2_HEAD": "Log Weight with a Twist",
+            "LI2_TEXT": "Use the watch crown to enter weight on your Apple watch. Track your progress, goals, and notes with Weight Diary.",
             "LI3_HEAD": "Works without iPhone",
             "LI3_TEXT": "Enjoy true independence - No iPhone needed! This Watch-only app delivers stats straight to your wrist"
         },
@@ -66,8 +66,8 @@
             "LI5_HEAD": "Apple Health",
             "LI5_TEXT": "Integration of reading and writing data"
         },
-        "HEAD4": "Our app is available for any Apple Watch model",
-        "DESC4": "Download the app right now and monitor your body weight changes, including throughout the day. Supports over 20+ languages.",
+        "HEAD4": "All Apple Watch Models Welcome",
+        "DESC4": "Download now & Unlock Your Weight Insights: Personalized Tracking in 20+ Languages with full Apple Health synchronization!",
         "ALT1": "Apple Watch screens with information about weight now and 10 days ago in the Body Mass app from Martspec",
         "ALT2": "Apple Watch screens with information about current weight and statistics in the Body Mass app from Martspec",
         "ALT5_1": "Protecting your information is our direct goal. Martspec does not store your data, this is a guarantee of the security of your data.",
