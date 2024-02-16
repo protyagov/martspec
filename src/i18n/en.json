@@ -39,16 +39,17 @@
         "HEAD": "Body Mass",
         "SUBHEAD": "The most convenient weight diary",
         "IMG": "A woman stands on a scale, measuring her weight using an Apple Watch running the Body Mass app from Martspec.",
+        "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
         "DWN": "Download the free Body Mass app from the Apple Store",
-        "ABOUT_1": "Weight Diary for Apple Watch",
-        "ABOUT_2": "Designed to fit the small watch screen",
+        "ABOUT_1": "Track weight effortlessly on the go",
+        "ABOUT_2": "Fits your Watch, fits your life - enjoy quick data entry & insights",
         "LIST1": {
-            "LI1_HEAD": "Advanced watch faces",
-            "LI1_TEXT": "Easy access to statistics on your watch starting with WatchOS 6, with support for any watch face",
+            "LI1_HEAD": "Watch Widget",
+            "LI1_TEXT": "Dive into your stats effortlessly with seamless access to key metrics empowering you to track progress and optimize your well-being",
             "LI2_HEAD": "Progress bar",
             "LI2_TEXT": "Easily track your minimum, maximum, and current weight",
             "LI3_HEAD": "Works without iPhone",
-            "LI3_TEXT": "iPhone-independent app - access to statistics even without a phone"
+            "LI3_TEXT": "Enjoy true independence - No iPhone needed! This Watch-only app delivers stats straight to your wrist"
         },
         "HEAD2": "Why Body Mass?",
         "DESC2": "Tracking your body weight daily will help you form a healthy habit. Quickly and conveniently entering weights from your wrists will make it easier to achieve your weight loss or muscle gain goals and remind you to strive for a healthy lifestyle. Try not to miss a single day! After all, if you miss a day today, then tomorrow it will be easier for you to skip two, and the day after tomorrow - three... and so on until you return to old habits.",
@@ -73,7 +74,8 @@
         "ALT5_2": "Sync via iCloud for even greater convenience. All data is automatically available on all your devices.",
         "ALT5_3": "There is no need for login and password authorization. An account is not required to operate the application.",
         "ALT5_4": "We care about our users, so we do not use any intrusive advertising in the application.",
-        "ALT5_5": "Sync with Apple Health."
+        "ALT5_5": "Sync with Apple Health.",
+        "BTN_OPEN": "Give up the fat"
     },
     "VITAMIN": {
         "HEAD": "Vitamin Book",
