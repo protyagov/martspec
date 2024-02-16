@@ -50,7 +50,7 @@ const marginBot = {marginBottom: "3rem"}
     return (
 
         <div className="row text-lg-start text-center page-bottom">
-            <div className="col-12 block bg-violet "style={bgColor}>
+            <div className="col-12 block bg-blue"style={bgColor}>
                     <div >
                         <h2>{ _(title) }</h2>
                         {  <p className="flex-grow-1" style={marginBot}
