@@ -40,6 +40,7 @@
         "HEAD": "Peso",
         "SUBHEAD": "O diário de peso mais conveniente",
         "IMG": "Uma mulher está em uma balança, medindo seu peso usando um Apple Watch executando o aplicativo Peso da Martspec.",
+        "TEXT": "Rastrear seu peso aumenta sua eficiência em termos de tempo e exercícios. Não só o levará a fazer melhor, mas também o levará a ser seu próprio competidor!",
         "DWN": "Baixe o aplicativo Peso gratuito na Apple Store",
         "ABOUT_1": "Diário de peso para Apple Watch",
         "ABOUT_2": "Projetado para caber na pequena tela do relógio",
@@ -1473,13 +1474,13 @@
             "LI6_HEAD": "Liberalismo",
             "LI6_TEXT": "- associado ao liberalismo na escolha das regras. Tendências de alto liberalismo significam que eles pensam que estão acima das regras e obtêm notas altas porque estão dispostos a expor os seus pensamentos e expressar as suas opiniões."
         },
-        "HEAD4": "Causar abertura",
-        "DESK4_1": "A abertura é uma qualidade que pode influenciar não apenas a psicologia de uma pessoa, mas também sua genética e educação. Existem várias razões pelas quais a abertura é um aspecto importante de nossas vidas.",
-        "DESK4_2": "Em psicologia, abertura significa vontade de experimentar coisas novas, explorar e compartilhar informações. Pessoas com altos níveis de abertura tendem a ser mais criativas, inovadoras e capazes de se adaptar às mudanças. Eles também mostram uma maior disposição para refletir e se desenvolver como indivíduos.",
-        "DESK4_3": "A genética também desempenha um papel na determinação do nível de abertura de uma pessoa. Alguns estudos mostraram que certos genes podem estar associados a esta característica. Isto significa que algumas pessoas podem ter a mente mais aberta devido à natureza do seu ADN.",
-        "DESK4_4": "A paternidade também pode influenciar o nível de abertura de uma pessoa. Os pais que incentivam o interesse dos seus filhos por novas experiências, aprendizagem e desenvolvimento podem contribuir para o desenvolvimento da abertura neles.",
-        "DESK4_5": "Estudos gêmeos dos Cinco Grandes traços de personalidade sugerem que a herdabilidade é responsável por 40% a 60% da variação individual nos traços. Embora não haja muita pesquisa sobre as causas específicas de cada característica individual, um estudo descobriu que 21% da abertura da variância entre as pessoas se deve à hereditariedade. Outro estudo descobriu que aproximadamente 10% da variação na busca por novidades se deve à herança genética.",
-        "DESK4_6": "Em geral, a abertura desempenha um papel importante em nossas vidas. Ajuda-nos a adaptar-nos às mudanças, a ser criativos e a desenvolver-nos como indivíduos. A psicologia, a genética e a educação têm impacto no nível de abertura de uma pessoa.",
+        "HEAD4": "Além do DNA - Moldando Mentes Abertas",
+        "DESK4_1": "Abertura não é apenas uma palavra chique para ser amigável, é um superpoder psicológico que molda quem somos, como nos adaptamos e até mesmo o nosso DNA. Imagine a vida como uma busca emocionante – mentes abertas estão prontas para mergulhar em territórios desconhecidos, abraçar o desconhecido e deixar zonas de conforto para trás.",
+        "DESK4_2": "Pense em gênios criativos ou aventureiros pioneiros – essa é a essência da alta abertura. Essas pessoas prosperam com novidades, absorvem informações como esponjas e constantemente ultrapassam limites. As suas mentes são um terreno fértil para ideias, levando à inovação e adaptabilidade num mundo em constante mudança. Além disso, são campeões da autodescoberta, sempre dispostos a evoluir e se tornarem as melhores versões de si mesmos.",
+        "DESK4_3": "Acontece que a abertura não é apenas uma escolha mental, ela pode estar escrita em seus genes. Estudos sugerem que sequências genéticas específicas podem ser o código para uma mente aberta, o que significa que algumas pessoas estão programadas para a exploração desde o início. Legal certo?",
+        "DESK4_4": "Mas a nossa composição genética não é o nosso destino. O amor e a orientação que recebemos, especialmente nos nossos anos de formação, desempenham um papel crucial. Os pais que incentivam a curiosidade, celebram a aprendizagem e abraçam a diversidade plantam as sementes da abertura que florescem num amor eterno pela exploração.",
+        "DESK4_5": "Estudos em gêmeos mostram que os genes podem ser responsáveis por 40-60% das diferenças de personalidade. A abertura, especificamente, parece ter uma ligação genética de 21%, com outros 10% para o aspecto de busca de emoção. Mas lembre-se, os genes não são um roteiro rígido – nossos ambientes e escolhas escrevem o resto da história.",
+        "DESK4_6": "No final das contas, a abertura é um mapa do tesouro para navegar pelos caminhos sinuosos da vida. Alimenta a nossa criatividade, ajuda-nos nas mudanças climáticas e guia-nos numa jornada de autodescoberta. Portanto, quer você tenha nascido com o coração de um explorador ou precise de um incentivo extra, lembre-se de que a chave para uma mente aberta está sempre ao seu alcance. Basta sair da sua zona de conforto, fazer perguntas e abraçar as possibilidades.",
         "ALT4": "Abertura e carreira",
         "HEAD5": "Abertura e interesses profissionais",
         "DESK5_1": "A abertura à experiência também prevê padrões de interesses profissionais ou preferências para tipos específicos de empregos ou ambientes de trabalho. Por exemplo, numa meta-análise de amostras, investigadores da Universidade Estatal de Iowa descobriram que a abertura previa consistentemente interesses artísticos e de investigação mais fortes e interesses tradicionais mais fracos.",
@@ -1577,7 +1578,7 @@
             "TITLE": "Contate-nos por e-mail"
         },
         "TWITTER_BTN": {
-            "TITLE": "Siga-nos no Twitter"
+            "TITLE": "Siga-nos no X"
         },
         "FACEBOOK_BTN": {
             "TITLE": "Siga-nos no Facebook"
@@ -2011,8 +2012,8 @@
                     "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "Através do nosso Twitter messager em ",
-                    "A": "Martspec @ Twitter",
+                    "TEXT": "Através do nosso X messager em ",
+                    "A": "Martspec @ X",
                     "LINK": "https://twitter.com/MartspecCom"
                 },
                 "L4": {
