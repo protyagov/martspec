@@ -1577,7 +1577,7 @@
             "TITLE": "Kontaktieren Sie uns per E-Mail"
         },
         "TWITTER_BTN": {
-            "TITLE": "Folgen Sie uns auf Twitter"
+            "TITLE": "Folgen Sie uns auf X"
         },
         "FACEBOOK_BTN": {
             "TITLE": "Folgen Sie uns auf Facebook"
@@ -2011,8 +2011,8 @@
                     "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "Über unseren Twitter-Messager unter ",
-                    "A": "Martspec @ Twitter",
+                    "TEXT": "Über unseren X-Messager unter ",
+                    "A": "Martspec @ X",
                     "LINK": "https://twitter.com/MartspecCom"
                 },
                 "L4": {

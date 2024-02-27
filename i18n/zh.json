@@ -1572,7 +1572,7 @@
             "TITLE": "通过电子邮件联系我们"
         },
         "TWITTER_BTN": {
-            "TITLE": "在 Twitter 上关注我们"
+            "TITLE": "在 X 上关注我们"
         },
         "FACEBOOK_BTN": {
             "TITLE": "在 Facebook 上关注我们"
@@ -2006,8 +2006,8 @@
                     "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "通过您的 Twitter 消息 ",
-                    "A": "Martspec @ Twitter",
+                    "TEXT": "通过您的 X 消息 ",
+                    "A": "Martspec @ X",
                     "LINK": "https://twitter.com/MartspecCom"
                 },
                 "L4": {
