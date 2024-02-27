@@ -1577,7 +1577,7 @@
             "TITLE": "الاتصال بنا عن طريق البريد الإلكتروني"
         },
         "TWITTER_BTN": {
-            "TITLE": "تابعنا على Twitter"
+            "TITLE": "تابعنا على X"
         },
         "FACEBOOK_BTN": {
             "TITLE": "تابعونا على Facebook"
@@ -2011,8 +2011,8 @@
                     "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "عبر برنامج المراسلة Twitter الخاص بنا على ",
-                    "A": "Martspec @ Twitter",
+                    "TEXT": "عبر برنامج المراسلة X الخاص بنا على ",
+                    "A": "Martspec @ X",
                     "LINK": "https://twitter.com/MartspecCom"
                 },
                 "L4": {

@@ -1572,7 +1572,7 @@
             "TITLE": "Contáctenos por correo electrónico"
         },
         "TWITTER_BTN": {
-            "TITLE": "Síganos en Twitter"
+            "TITLE": "Síganos en X"
         },
         "FACEBOOK_BTN": {
             "TITLE": "Síganos en Facebook"
@@ -2006,8 +2006,8 @@
                     "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "A través de nuestro mensajero de Twitter en ",
-                    "A": "Martspec @ Twitter",
+                    "TEXT": "A través de nuestro mensajero de X en ",
+                    "A": "Martspec @ X",
                     "LINK": "https://twitter.com/MartspecCom"
                 },
                 "L4": {
