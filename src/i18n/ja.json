@@ -1573,7 +1573,7 @@
             "TITLE": "電子メールでお問い合わせください"
         },
         "TWITTER_BTN": {
-            "TITLE": "Twitterでフォローします"
+            "TITLE": "Xでフォローします"
         },
         "FACEBOOK_BTN": {
             "TITLE": "Facebookでフォローしてください"
@@ -2007,8 +2007,8 @@
                     "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "Twitterのメッセージ機能を介して ",
-                    "A": "Martspec @ Twitter",
+                    "TEXT": "Xのメッセージ機能を介して ",
+                    "A": "Martspec @ X",
                     "LINK": "https://twitter.com/MartspecCom"
                 },
                 "L4": {

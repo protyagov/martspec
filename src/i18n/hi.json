@@ -1566,7 +1566,7 @@
             "TITLE": "ईमेल द्वारा हमसे संपर्क करें"
         },
         "TWITTER_BTN": {
-            "TITLE": "Twitter पर हमें का पालन करें"
+            "TITLE": "X पर हमें का पालन करें"
         },
         "FACEBOOK_BTN": {
             "TITLE": "Facebook पर हमें का पालन करें"
@@ -2000,8 +2000,8 @@
                     "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "हमारे ट्विटर संदेशवाहक के माध्यम से",
-                    "A": "मार्टस्पेक @ ट्विटर",
+                    "TEXT": "हमारे X मैसेंजर के माध्यम से",
+                    "A": "मार्टस्पेक @ X",
                     "LINK": "https://twitter.com/MartspecCom"
                 },
                 "L4": {

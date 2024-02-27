@@ -1575,7 +1575,7 @@
             "TITLE": "Напишіть нам email"
         },
         "TWITTER_BTN": {
-            "TITLE": "Слідкуйте за нами в Twitter"
+            "TITLE": "Слідкуйте за нами в X"
         },
         "FACEBOOK_BTN": {
             "TITLE": "Слідкуйте за нами в Facebook"
@@ -2009,8 +2009,8 @@
                     "LINK": "https://www.facebook.com/martspec"
                 },
                 "L3": {
-                    "TEXT": "Через наш месенджер у Twitter за адресою ",
-                    "A": "Martspec @ Twitter",
+                    "TEXT": "Через наш месенджер у X за адресою ",
+                    "A": "Martspec @ X",
                     "LINK": "https://twitter.com/MartspecCom"
                 },
                 "L4": {
