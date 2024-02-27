@@ -25,19 +25,13 @@
 		color: #0D6EFD;
 
 		display: inline-flex;
-		align-items: center;
-		// gap: 0.5rem;
+		align-items: flex-end;
+		gap: 0.8333rem;
 
 		transition: all 0.4s ease;
 
-		// > span {
-		// 	line-height: 1rem;
-		// }
-
-		> i {
-			width: 2rem;
-			height: 2rem;
-			font-size: 1.333rem;
+		> span {
+			line-height: 1rem;
 		}
 
 		&::after {
@@ -47,12 +41,16 @@
 			background-color: #0A58CA;
 			position: absolute;
 			left: 0;
-			top: 85%;
+			top: 110%;
 			transition: all 0.4s;
 		}
 
 		&:hover {
 			color: #0A58CA;
+
+			> img {
+				filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2732%) hue-rotate(202deg) brightness(92%) contrast(106%);
+			}
 
 			&::after {
 				width: 100%;

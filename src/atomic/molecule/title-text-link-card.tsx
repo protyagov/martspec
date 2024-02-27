@@ -33,8 +33,12 @@ const TitleTextLinkCard = ({
           <h3>{title}</h3>
           <p>{text}</p>
           <a href={link.href}>
-            {link.text}
-						<i className="icon-angle-right" />
+            <span>{link.text}</span>
+            <img
+              src="/img/arrow-right.svg"
+              width={5}
+              height={10}
+            />
           </a>
         </div>
 			</div>
