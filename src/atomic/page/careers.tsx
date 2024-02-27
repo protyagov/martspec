@@ -14,7 +14,7 @@ const Careers = () => {
 					<div className="row justify-content-center">
 						<div className="col col-lg-8">
 							<div className="headings">
-								<h1>{_("CAREERS.HEAD")}</h1>
+								<h1>{_("CAREERS.SUBHEAD")}</h1>
 								<p>{_("CAREERS.ABOUT")}</p>
 								<img
 									src={"/img/page/careers/main-pic-top.webp"}
@@ -46,11 +46,17 @@ const Careers = () => {
 							/>
 						</div>
 						<div>
-												<a href={Locale.i18nLink("team")} className="mt-2 ms-btn-large" style={{
-                            backgroundColor: "#248CE1",
-                            color: "#FFFFFF",
-                        }}>{_("CAREERS.BUTTON1")}</a>
-                        </div>
+							<a
+								href={Locale.i18nLink("team")}
+								className="mt-2 ms-btn-large"
+								style={{
+									backgroundColor: "#248CE1",
+									color: "#FFFFFF",
+								}}
+							>
+								{_("CAREERS.BUTTON1")}
+							</a>
+						</div>
 					</div>
 				</section>
 
@@ -81,38 +87,56 @@ const Careers = () => {
 						<TitleTextLinkCard
 							title={_("CAREERS.LIST3.LI1_HEAD")}
 							text={_("CAREERS.LIST3.LI1_TEXT")}
-							link={{ href: "/coming-soon", text: _("CAREERS.BUTTON3") }}
-                            image="/img/page/careers/vacancy-pic-webdesigner.webp"
+							link={{
+								href: Locale.i18nLink("coming-soon"),
+								text: _("CAREERS.BUTTON3"),
+							}}
+							image="/img/page/careers/vacancy-pic-webdesigner.webp"
 						/>
-                        <TitleTextLinkCard
+						<TitleTextLinkCard
 							title={_("CAREERS.LIST3.LI2_HEAD")}
 							text={_("CAREERS.LIST3.LI2_TEXT")}
-							link={{ href: "/coming-soon", text: _("CAREERS.BUTTON3") }}
-                            image="/img/page/careers/vacancy-pic-mobiledesigner.webp"
+							link={{
+								href: Locale.i18nLink("coming-soon"),
+								text: _("CAREERS.BUTTON3"),
+							}}
+							image="/img/page/careers/vacancy-pic-mobiledesigner.webp"
 						/>
-                        <TitleTextLinkCard
+						<TitleTextLinkCard
 							title={_("CAREERS.LIST3.LI3_HEAD")}
 							text={_("CAREERS.LIST3.LI3_TEXT")}
-							link={{ href: "/coming-soon", text: _("CAREERS.BUTTON3") }}
-                            image="/img/page/careers/vacancy-pic-frontend.webp"
+							link={{
+								href: Locale.i18nLink("coming-soon"),
+								text: _("CAREERS.BUTTON3"),
+							}}
+							image="/img/page/careers/vacancy-pic-frontend.webp"
 						/>
-                        <TitleTextLinkCard
+						<TitleTextLinkCard
 							title={_("CAREERS.LIST3.LI4_HEAD")}
 							text={_("CAREERS.LIST3.LI4_TEXT")}
-							link={{ href: "/coming-soon", text: _("CAREERS.BUTTON3") }}
-                            image="/img/page/careers/vacancy-pic-qa.webp"
+							link={{
+								href: Locale.i18nLink("coming-soon"),
+								text: _("CAREERS.BUTTON3"),
+							}}
+							image="/img/page/careers/vacancy-pic-qa.webp"
 						/>
-                        <TitleTextLinkCard
+						<TitleTextLinkCard
 							title={_("CAREERS.LIST3.LI5_HEAD")}
 							text={_("CAREERS.LIST3.LI5_TEXT")}
-							link={{ href: "/coming-soon", text: _("CAREERS.BUTTON3") }}
-                            image="/img/page/careers/vacancy-pic-ba.webp"
+							link={{
+								href: Locale.i18nLink("coming-soon"),
+								text: _("CAREERS.BUTTON3"),
+							}}
+							image="/img/page/careers/vacancy-pic-ba.webp"
 						/>
-                        <TitleTextLinkCard
+						<TitleTextLinkCard
 							title={_("CAREERS.LIST3.LI6_HEAD")}
 							text={_("CAREERS.LIST3.LI6_TEXT")}
-							link={{ href: "/coming-soon", text: _("CAREERS.BUTTON3") }}
-                            image="/img/page/careers/vacancy-pic-copywriter.webp"
+							link={{
+								href: Locale.i18nLink("coming-soon"),
+								text: _("CAREERS.BUTTON3"),
+							}}
+							image="/img/page/careers/vacancy-pic-copywriter.webp"
 						/>
 					</div>
 				</section>
