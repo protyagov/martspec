@@ -11,11 +11,11 @@ const Careers = () => {
 			<NavigationBar />
 			<div className="ms-base-page ms-base-new">
 				<section className="text-center">
-					<div className="row">
-						<div className="col">
+					<div className="row justify-content-center">
+						<div className="col col-lg-8">
 							<div className="headings">
 								<h1>{_("CAREERS.HEAD")}</h1>
-								<h2>{_("CAREERS.ABOUT")}</h2>
+								<p>{_("CAREERS.ABOUT")}</p>
 								<img
 									src={"/img/page/careers/main-pic-top.webp"}
 									height={476}
@@ -45,6 +45,12 @@ const Careers = () => {
 								alt={_("CAREERS.ALT1")}
 							/>
 						</div>
+						<div>
+												<a href={Locale.i18nLink("team")} className="mt-2 ms-btn-large" style={{
+                            backgroundColor: "#248CE1",
+                            color: "#FFFFFF",
+                        }}>{_("CAREERS.BUTTON1")}</a>
+                        </div>
 					</div>
 				</section>
 
@@ -66,13 +72,6 @@ const Careers = () => {
 							text={_("CAREERS.LIST2.LI3_TEXT")}
 							bgColor="#FFB34066"
 						/>
-                        <div>
-                        <button className="ms-btn" style={{
-                            backgroundColor: "#248CE1",
-                            color: "#FFFFFF",
-                            padding: "1rem 3.333rem",
-                        }}>{_("CAREERS.BUTTON1")}</button>
-                        </div>
 					</div>
 				</section>
 
