@@ -67,6 +67,7 @@ export default function NavigationBar() {
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("about")}>{_("ABOUT.HEAD")}</a></li>
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("mission")}>{_("MISSION.HEAD")}</a></li>
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("team")}>{_("TEAM.HEAD")}</a></li>
+                            <li><a className="nav-link dropdown-item" href={Locale.i18nLink("careers")}>{_("CAREERS.HEAD")}</a></li>
                             <li><a className="nav-link dropdown-item" href={Locale.i18nLink("privacy-policy")}>{_("PP.HEAD")}</a></li>
                         </ul>
                     </li>
