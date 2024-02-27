@@ -66,6 +66,13 @@ const Careers = () => {
 							text={_("CAREERS.LIST2.LI3_TEXT")}
 							bgColor="#FFB34066"
 						/>
+                        <div>
+                        <button className="ms-btn" style={{
+                            backgroundColor: "#248CE1",
+                            color: "#FFFFFF",
+                            padding: "1rem 3.333rem",
+                        }}>{_("CAREERS.BUTTON1")}</button>
+                        </div>
 					</div>
 				</section>
 
