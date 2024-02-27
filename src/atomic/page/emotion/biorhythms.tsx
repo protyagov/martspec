@@ -113,7 +113,7 @@ export default function Biorhythms() {
 
             <section>
                 <div className="row mb-0">
-                    <div className="col-6">
+                    <div className="col">
                         <h2>{_("BIORHYTHMS.HEAD2")}</h2>
                         <p className="">{_("BIORHYTHMS.DESK2")}</p>
                     </div>
