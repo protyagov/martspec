@@ -886,7 +886,8 @@
         "HEAD5": "Cintura: su diario personal y asistente para lograr una figura saludable",
         "DESC5": "Descarga la aplicación ahora mismo y comienza a monitorear los cambios en el tamaño de tu cintura en un formato conveniente",
         "ALT1": "Pantallas del Apple Watch que muestran tu circunferencia de cintura en tiempo real y durante todo el día en la aplicación Cintura de Martspec",
-        "ALT2": "Pantallas de Apple Watch que muestran la circunferencia de cintura actual y estadísticas en la aplicación Cintura de Martspec"
+        "ALT2": "Pantallas de Apple Watch que muestran la circunferencia de cintura actual y estadísticas en la aplicación Cintura de Martspec",
+        "BTN_OPEN": "Tonifique su abdomen"
     },       
     "ZINC": {
         "HEAD": "Zinc",

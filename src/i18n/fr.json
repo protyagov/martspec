@@ -885,7 +885,8 @@
         "HEAD5": "Taille - votre journal personnel et assistant pour atteindre une silhouette saine",
         "DESC5": "Téléchargez l'application dès maintenant et commencez à surveiller les changements de votre tour de taille dans un format pratique",
         "ALT1": "Écrans Apple Watch affichant votre tour de taille en temps réel et toute la journée dans l'application Waist de Martspec",
-        "ALT2": "Écrans Apple Watch affichant le tour de taille actuel et les statistiques dans l'application Waist de Martspec"
+        "ALT2": "Écrans Apple Watch affichant le tour de taille actuel et les statistiques dans l'application Waist de Martspec",
+        "BTN_OPEN": "Diminuer"
     },      
     "ZINC": {
         "HEAD": "Zinc",

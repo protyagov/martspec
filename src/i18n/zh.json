@@ -884,7 +884,8 @@
         "HEAD5": "腰部——你的私人日記和健康身材助手",
         "DESC5": "立即下載應用程序，並開始以方便的格式監測您腰圍的變化",
         "ALT1": "Apple Watch 螢幕在 Martspec 的 Waist 應用程式中全天即時顯示您的腰圍",
-        "ALT2": "Apple Watch 畫面顯示目前腰圍以及 Martspec 的 Waist 應用程式中的統計數據"
+        "ALT2": "Apple Watch 畫面顯示目前腰圍以及 Martspec 的 Waist 應用程式中的統計數據",
+        "BTN_OPEN": "減少"
     },
     "ZINC": {
         "HEAD": "锌",
