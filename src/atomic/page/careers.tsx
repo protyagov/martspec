@@ -9,7 +9,7 @@ const Careers = () => {
 	return (
 		<>
 			<NavigationBar />
-			<div className="ms-base-page ms-base-new">
+			<div className="ms-base-page ms-base-new careers">
 				<section className="text-center">
 					<div className="row justify-content-center">
 						<div className="col col-lg-8">
@@ -48,11 +48,11 @@ const Careers = () => {
 						<div>
 							<a
 								href={Locale.i18nLink("team")}
-								className="mt-2 btn ms-btn ms-btn-large"
-								style={{
-									backgroundColor: "#248CE1",
-									color: "#FFFFFF",
-								}}
+								className="mt-2 ms-btn-large"
+								// style={{
+								// 	backgroundColor: "#248CE1",
+								// 	color: "#FFFFFF",
+								// }}
 							>
 								{_("CAREERS.BUTTON1")}
 							</a>
