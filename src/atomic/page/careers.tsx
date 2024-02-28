@@ -49,10 +49,6 @@ const Careers = () => {
 							<a
 								href={Locale.i18nLink("team")}
 								className="mt-2 ms-btn-large"
-								// style={{
-								// 	backgroundColor: "#248CE1",
-								// 	color: "#FFFFFF",
-								// }}
 							>
 								{_("CAREERS.BUTTON1")}
 							</a>
