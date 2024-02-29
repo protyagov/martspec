@@ -23,6 +23,7 @@ import Independence from "./atomic/page/emotion/independence";
 import Energy from "./atomic/page/emotion/energy";
 import Openness from "./atomic/page/emotion/openness";
 import ColorTest from "./atomic/page/emotion/color-test";
+import Careers from "./atomic/page/careers"
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -78,6 +79,8 @@ export function App() {
             return <Mission />
         case "/team":
             return <Team />
+        case "/careers":
+            return <Careers />
         case "/coming-soon":
             return <ComingSoon />
         default:
