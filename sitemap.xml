@@ -183,6 +183,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -366,6 +370,10 @@
    </url>
    <url>
       <loc>https://martspec.com/en/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -555,6 +563,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ar/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/ar/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -738,6 +750,10 @@
    </url>
    <url>
       <loc>https://martspec.com/zh/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -927,6 +943,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/fr/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/fr/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1110,6 +1130,10 @@
    </url>
    <url>
       <loc>https://martspec.com/de/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1299,6 +1323,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/hi/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/hi/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1482,6 +1510,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ja/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1671,6 +1703,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/pt/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/pt/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1854,6 +1890,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ru/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2043,6 +2083,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/es/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/es/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -2226,6 +2270,10 @@
    </url>
    <url>
       <loc>https://martspec.com/uk/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>

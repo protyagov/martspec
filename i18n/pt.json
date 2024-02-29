@@ -75,7 +75,8 @@
         "ALT5_2": "Sincronize via iCloud para maior comodidade. Todos os dados estão automaticamente disponíveis em todos os seus dispositivos.",
         "ALT5_3": "Não há necessidade de autorização de login e senha. Não é necessária uma conta para operar o aplicativo.",
         "ALT5_4": "Nos preocupamos com nossos usuários, por isso não utilizamos nenhuma publicidade intrusiva no aplicativo.",
-        "ALT5_5": "Sincronize com o Apple Health."
+        "ALT5_5": "Sincronize com o Apple Health.",
+        "BTN_OPEN": "Acompanhar"
     },
     "VITAMIN": {
         "HEAD": "Vitamina",
