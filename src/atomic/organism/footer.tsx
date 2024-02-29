@@ -26,6 +26,7 @@ export const Footer = () =>
                     <a className="footer-link mb-1" href={Locale.i18nLink("about")}> {_("ABOUT.HEAD")} </a>
                     <a className="footer-link mb-1" href={Locale.i18nLink("mission")}> {_("MISSION.HEAD")} </a>
                     <a className="footer-link mb-1" href={Locale.i18nLink("team")}> {_("TEAM.HEAD")} </a>
+                    <a className="footer-link mb-1" href={Locale.i18nLink("careers")}> {_("CAREERS.HEAD")} </a>
                     <a className="footer-link" href={Locale.i18nLink("privacy-policy")}> {_("PP.HEAD")} </a>
                 </div>
 

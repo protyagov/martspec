@@ -1658,6 +1658,43 @@
         "VADIM": "Вадім",
         "VICTORIA": "Вікторія"
     },
+    "CAREERS": {
+        "HEAD": "Careers",
+        "SUBHEAD": "Grow with us!",
+        "ABOUT": "Our company is a young and ambitious team specializing in developing applications for those who care about their health",
+        "IMG": "A team of young professionals who love to do their job",
+        "HEAD1": "About our team",
+        "TEXT1_1": "Our team is a group of young and promising professionals who enjoy doing their job. We are looking for equally talented and ambitious people who are ready to grow and develop with us.",
+        "TEXT1_2": "Over the past six months, several of our interns have turned their dreams into reality by gaining career prospects. Five of them mastered the art of QA, and three became talented designers. Two developer interns found their first jobs, and one of the interns successfully received an offer from the Netherlands!",
+        "TEXT1_3": "This is a testament not only to their strength and talent but also to our deep involvement in the development of each member of our team.",
+        "BUTTON1": "More details",
+        "HEAD2": "Why Martspec?",
+        "LIST2": {
+            "LI1_HEAD": "Remote work",
+            "LI1_TEXT": "Our team is scattered all over the world. You can intern from anywhere and at a time convenient for you.",
+            "LI2_HEAD": "Atmosphere",
+            "LI2_TEXT": "In our team, we adhere to a work ethic and a positive atmosphere. We are not afraid to ask for help and always help each other.",
+            "LI3_HEAD": "Prospects",
+            "LI3_TEXT": "By interning with us, you gain invaluable experience working on a product and interacting with a team, which will be useful to you in the future."
+        },
+        "HEAD3": "Internship",
+        "LIST3": {
+            "LI1_HEAD": "Web designer",
+            "LI1_TEXT": "From anywhere in the world",
+            "LI2_HEAD": "Mobile designer",
+            "LI2_TEXT": "From anywhere in the world",
+            "LI3_HEAD": "Frontend",
+            "LI3_TEXT": "From anywhere in the world",
+            "LI4_HEAD": "Quality Assurance",
+            "LI4_TEXT": "From anywhere in the world",
+            "LI5_HEAD": "Business Analyst",
+            "LI5_TEXT": "From anywhere in the world",
+            "LI6_HEAD": "Copywriter",
+            "LI6_TEXT": "From anywhere in the world"
+        },
+        "BUTTON3": "Learn more",
+        "ALT1": "A group of young and promising specialists from Martspec"
+    },
     "PP": {
         "HEAD": "Захист даних",
         "DATE": "Останнє оновлення: 20 серпня 2022 р.",
