@@ -40,7 +40,7 @@ export default function Biorhythms() {
                 appId={1562956213}
                 appDownloadTitle="BIORHYTHMS.DWN"
                 imgSrc="/img/biorhythms.png"
-                imgAlt={_("BIORHYTHMS.IMG")}
+                imgAlt="BIORHYTHMS.IMG"
                 imgH={512}
                 imgW={512}
             />
