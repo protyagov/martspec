@@ -46,3 +46,7 @@ $bodymass-colors: (
   "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
   "bg": map-get($bgs-new, "blue")
 );
+$waist-colors: (
+  "main":  #FFB34066,
+  "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
+);
