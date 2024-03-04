@@ -26,6 +26,7 @@
     "node-sass": "^9.0.0",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "prop-types": "^15.8.1",
+    "purgecss-webpack-plugin": "^5.0.0",
     "regenerator-runtime": "^0.14.0",
     "sass-loader": "^13.3.2",
     "source-map-loader": "^4.0.0",
@@ -48,7 +49,6 @@
     "predeploy": "webpack --config webpack.prd.js",
     "deploy": "gh-pages -d build",
     "prod": "webpack --config webpack.prd.js",
-    "svr": "webpack serve --config webpack.dev.js",
-    "postbuild": "purgecss --config ./purgecss.config.cjs"
+    "svr": "webpack serve --config webpack.dev.js"
   }
 }
