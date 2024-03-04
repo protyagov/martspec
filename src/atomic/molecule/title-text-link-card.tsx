@@ -36,8 +36,8 @@ const TitleTextLinkCard = ({
             <span>{link.text}</span>
             <img
               src="/img/arrow-right.svg"
-              width={5}
-              height={10}
+              width={6}
+              height={12}
             />
           </a>
         </div>
