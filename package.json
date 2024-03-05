@@ -7,7 +7,6 @@
   "license": "UNLICENSED",
   "main": "index.js",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
     "@principalstudio/html-webpack-inject-preload": "^1.2.7",
     "@types/bootstrap": "^5.1.11",
     "@types/node-polyglot": "^2.4.1",
