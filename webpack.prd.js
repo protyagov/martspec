@@ -4,7 +4,14 @@ const
     common = require('./webpack.com.js'),
     MiniCssExtractPlugin = require('mini-css-extract-plugin'),
     // FaviconsWebpackPlugin = require('favicons-webpack-plugin'),
-    OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+    OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
+    { PurgeCSSPlugin } = require("purgecss-webpack-plugin"),
+    glob = require("glob"),
+    path = require("path");
+
+const PATHS = {
+    src: path.join(__dirname, "src"),
+};
 
 module.exports = merge(common, {
     mode: 'production',
@@ -23,6 +30,13 @@ module.exports = merge(common, {
         new MiniCssExtractPlugin({
             filename: 'style.[chunkhash:3].css'
         }),
+        new PurgeCSSPlugin({
+            paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true }),
+            safelist: {
+                standard: [/active/, "navbar-collapse", /collapse/, "collapsing", /show/],
+                deep: [/^dropdown/, /^modal/, /^carousel/, /collapse/, /navbar/]
+            }
+          }),
         // new FaviconsWebpackPlugin({
         //     logo: 'src/img/logo_512.png',
         //     prefix: "icon/",
