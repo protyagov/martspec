@@ -15,6 +15,20 @@
     height: auto;
   }
 
+  .ms-navbar-brand {
+    @extend .navbar-brand;
+    
+    img {
+      height: $navbar-height-lg;
+    }
+
+    @include media-breakpoint-down(lg) {
+      img {
+        height: 52px;
+      }
+    }
+  }
+
   .navbar-toggler {
     position: relative;
     height: 40px;
