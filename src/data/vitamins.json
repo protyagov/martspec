@@ -1,6 +1,6 @@
 {
     "VITAMIN_A": {
-        "LOGO": "/img/page/vitamin/vitamin-a-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-a-logo.webp",
         "HEX": "FF7215",
         "TYPE": "VITAMIN_FAT",
         "UNIT":"MCG",
