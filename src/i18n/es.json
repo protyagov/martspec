@@ -1658,22 +1658,22 @@
     },
     "CAREERS": {
         "HEAD": "Carreras",
-        "SUBHEAD": "Crece con nosotros!",
-        "ABOUT": "Nuestra empresa es un equipo joven y ambicioso especializado en el desarrollo de aplicaciones para quienes se preocupan por su salud",
+        "SUBHEAD": "¡Crezca con nosotros!",
+        "ABOUT": "Nuestra empresa es un equipo joven y ambicioso especializado en el desarrollo de aplicaciones para aquellos que preocupan por su salud",
         "IMG": "Un equipo de jóvenes profesionales que aman hacer su trabajo",
         "HEAD1": "Acerca de nuestro equipo",
         "TEXT1_1": "Nuestro equipo está formado por un grupo de profesionales jóvenes y prometedores que disfrutan haciendo su trabajo. Buscamos personas igualmente talentosas y ambiciosas que estén dispuestas a crecer y desarrollarse con nosotros.",
-        "TEXT1_2": "En los últimos seis meses, varios de nuestros becarios han convertido sus sueños en realidad al obtener perspectivas profesionales. Cinco de ellos dominaron el arte del control de calidad, y tres se convirtieron en diseñadores de talento. Dos becarios desarrolladores encontraron su primer trabajo, y uno de ellos recibió una oferta de los Países Bajos.",
+        "TEXT1_2": "En los últimos seis meses, varios de nuestros becarios han convertido sus sueños en realidad al obtener perspectivas profesionales. Cinco de ellos dominaron el arte del control de calidad, y tres se convirtieron en talentosos diseñadores. Dos becarios desarrolladores encontraron sus primeros empleos, y uno de ellos recibió con éxito una oferta de trabajo en los Países Bajos.",
         "TEXT1_3": "Este es un testimonio no sólo de su fuerza y talento, sino también de nuestra profunda participación en el desarrollo de cada miembro de nuestro equipo.",
         "BUTTON1": "Más detalles",
-        "HEAD2": "Por qué Martspec?",
+        "HEAD2": "¿Por qué Martspec?",
         "LIST2": {
             "LI1_HEAD": "Trabajo remoto",
-            "LI1_TEXT": "Nuestro equipo está disperso por todo el mundo. Puede realizar prácticas desde cualquier lugar y en el horario que más le convenga.",
+            "LI1_TEXT": "Nuestro equipo está disperso por todo el mundo. Puede realizar una pasantía desde cualquier lugar y en un momento conveniente para usted.",
             "LI2_HEAD": "Atmósfera",
-            "LI2_TEXT": "En nuestro equipo nos adherimos a una ética de trabajo y un ambiente positivo. No tenemos miedo de pedir ayuda y ayudarnos siempre unos a otros.",
+            "LI2_TEXT": "En nuestro equipo nos adherimos a una ética de trabajo y un ambiente positivo. No tenemos miedo de pedir ayuda y siempre nos ayudamos mutuamente.",
             "LI3_HEAD": "Perspectivas",
-            "LI3_TEXT": "Al realizar una pasantía con nosotros, obtienes una experiencia invaluable trabajando en un producto e interactuando con un equipo, que te será útil en el futuro."
+            "LI3_TEXT": "Al realizar una pasantía con nosotros, obtienes una experiencia invaluable trabajando en un producto e interactuando con un equipo, lo cual le será útil en el futuro."
         },
         "HEAD3": "Pasantía",
         "LIST3": {
@@ -1681,16 +1681,16 @@
             "LI1_TEXT": "Desde cualquier parte del mundo",
             "LI2_HEAD": "Diseñador móvil",
             "LI2_TEXT": "Desde cualquier parte del mundo",
-            "LI3_HEAD": "Interfaz",
+            "LI3_HEAD": "Frontend",
             "LI3_TEXT": "Desde cualquier parte del mundo",
-            "LI4_HEAD": "Seguro de calidad",
+            "LI4_HEAD": "Ingeniero de calidad",
             "LI4_TEXT": "Desde cualquier parte del mundo",
             "LI5_HEAD": "Analista de negocio",
             "LI5_TEXT": "Desde cualquier parte del mundo",
             "LI6_HEAD": "Redactor",
             "LI6_TEXT": "Desde cualquier parte del mundo"
         },
-        "BUTTON3": "Aprende más",
+        "BUTTON3": "Aprenda más",
         "ALT1": "Un grupo de jóvenes y prometedores especialistas de Martspec"
     },
     "PP": {
