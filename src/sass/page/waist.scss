@@ -24,9 +24,20 @@
   .mb-4{
     margin: 0 !important;
   }
+  .ms-base-image{
+    margin-right: 0 !important;
+  }
 }
+  .text-center{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .block{
     padding: 2.7rem;
+    h2{
+      font-weight: 500;
+      font-size: 2.6rem;
+    }
     h3{
       margin-bottom: 0.9rem;
       line-height: 118.5%;
