@@ -110,8 +110,8 @@ export default function WaistLine() {
 					<div className="col-lg-6">
  						<ImageI18N
  							src="/img/page/waistline/main-pic-en.webp"
- 							w={535}
- 							h={447}
+ 							w={435}
+ 							h={397}
  							cls="ms-base-image mt-mob-xs"
  							alt={_("WAIST.ALT1")}
  						/>
@@ -131,6 +131,7 @@ export default function WaistLine() {
  			</section>
 
             <section>
+				<div className="row">
  				<CallToAction
  					bgColor={{backgroundColor: "#FFB34066"}}
  					title={_("WAIST.HEAD5")}
@@ -140,6 +141,7 @@ export default function WaistLine() {
                     imgSrc="/img/page/waistline/call-to-action-en.webp" 
  					imgAlt={_("WAIST.ALT2")}
  				/>
+				</div>
  			</section>
         </div>
 
