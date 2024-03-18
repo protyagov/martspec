@@ -1,9 +1,9 @@
 import React from "react"
-import _, { Locale } from "src/i18n/locale"
-import NavigationBar from "../organism/navbar"
-import { Footer } from "../organism/footer"
-import TitleTextCard from "../molecule/title-text-card"
-import TitleTextLinkCard from "../molecule/title-text-link-card"
+import _, { Locale } from "@/i18n/locale"
+import NavigationBar from "@/atomic/organism/navbar"
+import { Footer } from "@/atomic/organism/footer"
+import TitleTextCard from "@/atomic/molecule/title-text-card"
+import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card"
 
 const Careers = () => {
 	return (

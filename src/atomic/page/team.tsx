@@ -1,10 +1,10 @@
 import * as React from "react";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import _ from "src/i18n/locale";
-import TeamMember from "src/atomic/molecule/team-Member";
-import teamData from "src/data/team.json";
-import PageHeader from "../molecule/page-header";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import _ from "@/i18n/locale";
+import TeamMember from "@/atomic/molecule/team-Member";
+import teamData from "@/data/team.json";
+import PageHeader from "@/atomic/molecule/page-header";
 
 export default function Team() {
 

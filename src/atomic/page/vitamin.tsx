@@ -1,14 +1,14 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import VitaminItem from "src/atomic/molecule/vitamin-item";
-import PageHeader from "../molecule/page-header";
-import ImageI18N from "../atom/img-i18n";
-import CallToAction from "src/atomic/organism/call-to-action";
-import IconTitleTextList from "../organism/icon-title-text-list"
-import { IconTitleText } from "../molecule/icon-title-text-elem"
-import TitleTextCard from "../molecule/title-text-card"
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import VitaminItem from "@/atomic/molecule/vitamin-item";
+import PageHeader from "@/atomic/molecule/page-header";
+import ImageI18N from "@/atomic/atom/img-i18n";
+import CallToAction from "@/atomic/organism/call-to-action";
+import IconTitleTextList from "@/atomic/organism/icon-title-text-list"
+import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem"
+import TitleTextCard from "@/atomic/molecule/title-text-card"
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],

@@ -1,13 +1,13 @@
 import * as React from "react"
-import _, { Locale } from "src/i18n/locale"
-import { Footer } from "src/atomic/organism/footer"
-import NavigationBar from "src/atomic/organism/navbar"
-import PageHeader from "../molecule/page-header"
-import TitleTextCard from "../molecule/title-text-card"
-import ImageI18N from "../atom/img-i18n"
-import IconTitleTextList from "../organism/icon-title-text-list"
-import { IconTitleText } from "../molecule/icon-title-text-elem"
-import CallToAction from "../organism/call-to-action"
+import _, { Locale } from "@/i18n/locale"
+import { Footer } from "@/atomic/organism/footer"
+import NavigationBar from "@/atomic/organism/navbar"
+import PageHeader from "@/atomic/molecule/page-header"
+import TitleTextCard from "@/atomic/molecule/title-text-card"
+import ImageI18N from "@/atomic/atom/img-i18n"
+import IconTitleTextList from "@/atomic/organism/icon-title-text-list"
+import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem"
+import CallToAction from "@/atomic/organism/call-to-action"
 
 export default function Bodymass() {
 	const iconTitleTextListItems: Array<IconTitleText> = [

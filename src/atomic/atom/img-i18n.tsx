@@ -1,5 +1,5 @@
 import React from "react";
-import { Locale } from "src/i18n/locale";
+import { Locale } from "@/i18n/locale";
 
 export interface ImageI18NModel {
     src: string;    // image url. Should have postfix with .en. EX: /img/vitamin.en.512.webp

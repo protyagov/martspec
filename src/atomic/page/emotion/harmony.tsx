@@ -1,10 +1,10 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { useScrollSpy } from "src/hooks";
-import { Footer } from "../../organism/footer";
-import NavigationBar from "../../organism/navbar";
-import ContentsList from "../../molecule/contents-list";
-import PageHeader from "../../molecule/page-header";
+import _, { Locale } from "@/i18n/locale";
+import { useScrollSpy } from "@/hooks";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import ContentsList from "@/atomic/molecule/contents-list";
+import PageHeader from "@/atomic/molecule/page-header";
 
 
 export default function Harmony() {

@@ -1,9 +1,9 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import ImageI18N from "src/atomic/atom/img-i18n";
-import PageHeader from "../molecule/page-header";
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import ImageI18N from "@/atomic/atom/img-i18n";
+import PageHeader from "@/atomic/molecule/page-header";
 
 export default function BodySize() {
     return <>
