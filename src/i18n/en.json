@@ -866,12 +866,12 @@
             "LI3_TEXT": "Application independent of iPhone - access to statistics even without a phone"
         },
         "HEAD1": "Why waist?",
-        "DESC1": "When you're gaining muscle and losing inches of fat your weight might not change much. That's why body composition can tell you more than the scale, it tells you the true story.Our application will help you track these parameters more conveniently.",
+        "DESC1": "When you're gaining muscle and losing inches of fat your weight might not change much. That's why body composition can tell you more than the scale, it tells you the true story. Our application will help you track these parameters more conveniently.",
         "HEAD2": "Better than BMI",
         "LINK2": "Study by American Heart Association",
         "DESC2": "  has shown that measuring waistline might be a better way to predict heart disease risk than a widely used body mass index.",
         "HEAD3": "Medical Fact",
-        "DESC3": "shows if more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",       
+        "DESC3": " shows if more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",       
         "LINK3": "Research from the US National Institutes of Health",
         "HEAD4": "Advantages",
         "LIST2": {
@@ -881,8 +881,8 @@
             "LI2_TEXT": "No account required for this app",
             "LI3_HEAD": "Ad-free",
             "LI3_TEXT": "We DO NOT have annoying ads",
-            "LI4_HEAD": "Apple Health",
-            "LI4_TEXT": "Integration of reading and writing data"
+            "LI4_HEAD": "Synchronization with Apple Health",
+            "LI4_TEXT": "Between devices via iCloud and with Apple Health"
         },
         "HEAD5": "Waist - your personal diary and assistant for achieving a healthy figure",
         "DESC5": "Download the application right now and start monitoring changes in your waist size in a convenient format",
