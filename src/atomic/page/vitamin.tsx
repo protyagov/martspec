@@ -18,7 +18,7 @@ const vitamins = {
 
 export default function Vitamin() {
     // const bgColor={background: "#1FF"}
-    const iconTitleTextListItems: Array<IconTitleText> = [
+    const advantages: Array<IconTitleText> = [
             {
                 icon: {
                     src: "/img/atom/icons/icon-defense.svg",
@@ -166,7 +166,7 @@ export default function Vitamin() {
 								<h2>{_("VITAMIN.HEAD4")}</h2>
 							</div>
 							<div className="col-12">
-								<IconTitleTextList items={iconTitleTextListItems} />
+								<IconTitleTextList items={advantages} />
 							</div>
 						</div>
 					</section>
