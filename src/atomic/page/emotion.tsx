@@ -10,7 +10,7 @@ import IconTitleTextList from "../organism/icon-title-text-list"
 import TitleTextCard from "../molecule/title-text-card"
 
 export default function Emotion() {
-    const iconTitleTextListItems: Array<IconTitleText> = [
+    const advantages: Array<IconTitleText> = [
         {
             icon: {
                 src: "/img/atom/icons/icon-defense.svg",
@@ -229,7 +229,7 @@ export default function Emotion() {
 								<h2>{_("EMOTION.HEAD5")}</h2>
 							</div>
 							<div className="col-12">
-								<IconTitleTextList items={iconTitleTextListItems} />
+								<IconTitleTextList items={advantages} />
 							</div>
 						</div>
 					</section>
