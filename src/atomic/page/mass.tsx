@@ -10,7 +10,7 @@ import { IconTitleText } from "../molecule/icon-title-text-elem"
 import CallToAction from "../organism/call-to-action"
 
 export default function Bodymass() {
-	const iconTitleTextListItems: Array<IconTitleText> = [
+	const advantages: Array<IconTitleText> = [
 		{
 			icon: {
 				src: "/img/atom/icons/icon-defense.svg",
@@ -113,7 +113,7 @@ export default function Bodymass() {
 							<h2>{_("MASS.HEAD3")}</h2>
 						</div>
 						<div className="col-12">
-							<IconTitleTextList items={iconTitleTextListItems} />
+							<IconTitleTextList items={advantages} />
 						</div>
 					</div>
 				</section>
