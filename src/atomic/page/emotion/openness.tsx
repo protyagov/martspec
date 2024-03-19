@@ -24,11 +24,11 @@ export default function Openness() {
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
         <PageHeader
-                title="OPENNESS.HEAD"
+                title={_("OPENNESS.HEAD")}
                 appId={1562956213}
-                appDownloadTitle="OPENNESS.DWN"
+                appDownloadTitle={_("OPENNESS.DWN")}
                 imgSrc="/img/page/openness/openness.webp"
-                imgAlt="OPENNESS.IMG"
+                imgAlt={_("OPENNESS.IMG")}
                 imgH={390}
                 imgW={421}
             />

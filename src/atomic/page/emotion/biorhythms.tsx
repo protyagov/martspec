@@ -36,9 +36,9 @@ export default function Biorhythms() {
         <div className="ms-base-page ms-base-new emotion biorhythms">
 
             <PageHeader
-                title="BIORHYTHMS.HEAD"
+                title={_("BIORHYTHMS.HEAD")}
                 appId={1562956213}
-                appDownloadTitle="BIORHYTHMS.DWN"
+                appDownloadTitle={_("BIORHYTHMS.DWN")}
                 imgSrc="/img/biorhythms.png"
                 imgAlt={_("BIORHYTHMS.IMG")}
                 imgH={512}

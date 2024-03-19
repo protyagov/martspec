@@ -51,13 +51,13 @@ export default function Emotion() {
 
 				<div className="ms-base-page ms-base-new emotion">
 					<PageHeader
-						title="EMOTION.HEAD"
-						subtitleLevel1="EMOTION.ABOUT_1"
-						subtitleLevel2="EMOTION.ABOUT_2"
+						title={_("EMOTION.HEAD")}
+						subtitleLevel1={_("EMOTION.ABOUT_1")}
+						subtitleLevel2={_("EMOTION.ABOUT_2")}
 						appId={1562956213}
-						appDownloadTitle="EMOTION.DWN"
+						appDownloadTitle={_("EMOTION.DWN")}
 						imgSrc="/img/page/emotion/emotion.png"
-						imgAlt="EMOTION.IMG"
+						imgAlt={_("EMOTION.IMG")}
 						imgH={400}
 						imgW={512}
 					/>
