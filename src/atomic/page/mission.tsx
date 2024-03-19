@@ -10,12 +10,12 @@ export default function Mission() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                title="MISSION.HEAD"
-                subtitleLevel1="MISSION.ABOUT_1"
+                title={_("MISSION.HEAD")}
+                subtitleLevel1={_("MISSION.ABOUT_1")}
                 appId={1507588203}
-                appDownloadTitle="MISSION.DWN"
+                appDownloadTitle={_("MISSION.DWN")}
                 imgSrc="/img/mission.svg"
-                imgAlt="MISSION.IMG"
+                imgAlt={_("MISSION.IMG")}
                 imgH={300}
                 imgW={391}
             />

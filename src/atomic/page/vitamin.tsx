@@ -75,11 +75,11 @@ export default function Vitamin() {
 
 				<div className="ms-base-page ms-base-new vitamin">
 					<PageHeader
-						title="VITAMIN.HEAD"
-						subtitleLevel1="VITAMIN.ABOUT_1"
-						subtitleLevel2="VITAMIN.ABOUT_2"
+						title={_("VITAMIN.HEAD")}
+						subtitleLevel1={_("VITAMIN.ABOUT_1")}
+						subtitleLevel2={_("VITAMIN.ABOUT_2")}
 						appId={1519596234}
-						appDownloadTitle="VITAMIN.DWN"
+						appDownloadTitle={_("VITAMIN.DWN")}
 						imgSrc="/img/page/vitamin/vitamin.webp"
 						imgAlt={_("VITAMIN.IMG")}
 						imgH={512}

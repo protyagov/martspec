@@ -58,11 +58,11 @@ export default function Bodymass() {
 
 			<div className="ms-base-page ms-base-new bodymass">
 				<PageHeader
-					title="MASS.HEAD"
-					subtitleLevel1="MASS.ABOUT_1"
-					subtitleLevel2="MASS.ABOUT_2"
+					title={_("MASS.HEAD")}
+					subtitleLevel1={_("MASS.ABOUT_1")}
+					subtitleLevel2={_("MASS.ABOUT_2")}
 					appId={1507588203}
-					appDownloadTitle="MASS.DWN"
+					appDownloadTitle={_("MASS.DWN")}
 					imgSrc="/img/page/body-mass/mass.webp"
 					imgAlt={_("MASS.IMG")}
 					imgH={428}

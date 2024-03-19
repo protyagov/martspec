@@ -51,13 +51,13 @@ export default function WaistLine() {
         <div className="ms-base-page ms-base-new waist">
 
             <PageHeader
-                title="WAIST.HEAD"
-                subtitleLevel1="WAIST.ABOUT_1"
-                subtitleLevel2="WAIST.ABOUT_2"
+                title={_("WAIST.HEAD")}
+                subtitleLevel1={_("WAIST.ABOUT_1")}
+                subtitleLevel2={_("WAIST.ABOUT_2")}
                 appId={1506250420}
-                appDownloadTitle="WAIST.DWN"
+                appDownloadTitle={_("WAIST.DWN")}
                 imgSrc="/img/page/waistline/waist.svg"
-                imgAlt="WAIST.IMG"
+                imgAlt={_("WAIST.IMG")}
                 imgH={468}
                 imgW={430}
             />
