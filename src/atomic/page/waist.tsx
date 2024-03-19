@@ -11,7 +11,7 @@ import CallToAction from "../organism/call-to-action";
 
 
 export default function WaistLine() {
-    const iconTitleTextListItems: Array<IconTitleText> = [
+    const advantages: Array<IconTitleText> = [
         {
         	icon: {
         		src: "/img/atom/icons/icon-defense.svg",
@@ -125,7 +125,7 @@ export default function WaistLine() {
  						<h2>{_("WAIST.HEAD4")}</h2>
  					</div>
  					<div className="col-12">
- 						<IconTitleTextList items={iconTitleTextListItems} />
+ 						<IconTitleTextList items={advantages} />
  					</div>
  				</div>
  			</section>
