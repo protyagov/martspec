@@ -37,7 +37,7 @@
     },
     "MASS": {
         "HEAD": "Peso",
-        "SUBHEAD": "El diario de peso más conveniente",
+        "SUBHEAD": "El diario de control de peso más conveniente",
         "IMG": "Una mujer sube a una báscula y mide su peso con un Apple Watch que ejecuta la aplicación Peso de Martspec.",
         "TEXT": "El seguimiento de su peso aumenta su eficiencia en cuanto a su tiempo y entrenamientos. ¡No solo lo impulsará a mejorar, sino que también lo motivará a competir consigo mismo!",
         "DWN": "Descarga la aplicación gratuita Peso desde Apple Store",
@@ -45,25 +45,25 @@
         "ABOUT_2": "Diseñado para adaptarse a la pequeña pantalla del reloj",
         "LIST1": {
             "LI1_HEAD": "Esferas de reloj avanzadas",
-            "LI1_TEXT": "Fácil acceso a las estadísticas de su reloj a partir de WatchOS 6, compatible con cualquier esfera del reloj",
+            "LI1_TEXT": "Acceso conveniente a estadísticas en el reloj a partir de WatchOS 6, compatible con cualquier esfera del reloj",
             "LI2_HEAD": "Barra de progreso",
             "LI2_TEXT": "Realice un seguimiento fácil de su peso mínimo, máximo y actual",
             "LI3_HEAD": "Funciona sin iPhone",
-            "LI3_TEXT": "Aplicación independiente del iPhone: acceso a estadísticas incluso sin teléfono"
+            "LI3_TEXT": "La aplicación es independiente del iPhone: acceso a estadísticas incluso sin teléfono"
         },
-        "HEAD2": "¿Por qué Peso?",
-        "DESC2": "Hacer un seguimiento diario de su peso corporal le ayudará a formar un hábito saludable. Introducir pesas desde las muñecas de forma rápida y cómoda hará que le resulte más fácil alcanzar sus objetivos de pérdida de peso o aumento de masa muscular y le recordará que debe esforzarse por llevar un estilo de vida saludable. ¡Intenta no perderte ni un solo día! Después de todo, si hoy te pierdes un día, mañana te resultará más fácil saltarte dos y pasado mañana, tres... y así sucesivamente hasta que vuelvas a los viejos hábitos.",
+        "HEAD2": "¿Por qué el Peso?",
+        "DESC2": "Hacer un seguimiento diario de su peso corporal le ayudará a formar un hábito beneficioso. La introducción rápido y conveniente de su peso desde su muñeca facilitará el logro de sus objetivos de pérdida de peso o aumento de masa muscular, y le recordará su compromiso con un estilo de vida saludable. ¡Intente no perder ni un solo día! Porque si usted no lo hace hoy, mañana será más fácil saltarse dos, y pasado mañana tres... y así sucesivamente hasta que vuelvas a los viejos hábitos.",
         "HEAD3": "Ventajas",
         "LIST3": {
             "LI1_HEAD": "Protección de Datos",
-            "LI1_TEXT": "NO almacenamos tus datos en nuestros servidores",
+            "LI1_TEXT": "NO almacenamos sus datos en nuestros servidores",
             "LI2_HEAD": "Sincronizar a través de iCloud",
-            "LI2_TEXT": "Automático, en todos tus dispositivos",
+            "LI2_TEXT": "Automática en todos tus dispositivos",
             "LI3_HEAD": "Sin autorización",
             "LI3_TEXT": "No se requiere cuenta para esta aplicación",
             "LI4_HEAD": "Sin anuncios",
-            "LI4_TEXT": "Nosotros no tenemos anuncios molestos",
-            "LI5_HEAD": "Apple Salud",
+            "LI4_TEXT": "No hay anuncios molestos",
+            "LI5_HEAD": "Apple Health",
             "LI5_TEXT": "Integración de lectura y escritura de datos."
         },
         "HEAD4": "Nuestra aplicación está disponible para cualquier modelo de Apple Watch",
