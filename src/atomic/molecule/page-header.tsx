@@ -1,5 +1,4 @@
 import React from "react";
-import _, { Locale } from "src/i18n/locale";
 import ButtonApple from "../atom/button-apple";
 
 type PageHeaderProps = {
@@ -56,9 +55,9 @@ export default function PageHeader(props: (
                     )}
 
                     <div className="headings">
-                        <h1>{ _(title) }</h1>
-                        { subtitleLevel1 && <h2>{ _(subtitleLevel1) }</h2> }
-                        { subtitleLevel2 && <h6>{ _(subtitleLevel2) }</h6> }
+                        <h1>{title}</h1>
+                        {subtitleLevel1 && <h2>{subtitleLevel1}</h2>}
+                        {subtitleLevel2 && <h6>{subtitleLevel2}</h6>}
                     </div>
 
                     {appId && (
