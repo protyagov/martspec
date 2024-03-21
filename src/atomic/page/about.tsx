@@ -11,9 +11,9 @@ export default function About() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                title="ABOUT.HEAD"
+                title={_("ABOUT.HEAD")}
                 imgSrc="/img/about.svg"
-                imgAlt="ABOUT.IMG"
+                imgAlt={_("ABOUT.IMG")}
                 imgH={400}
                 imgW={426}
             />

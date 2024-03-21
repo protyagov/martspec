@@ -12,12 +12,12 @@ export default function BodyZinc() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                title="ZINC.HEAD"
-                subtitleLevel2="ZINC.ABOUT"
+                title={_("ZINC.HEAD")}
+                subtitleLevel2={_("ZINC.ABOUT")}
                 appId={1547395353}
-                appDownloadTitle="ZINC.DWN"
+                appDownloadTitle={_("ZINC.DWN")}
                 imgSrc="/img/page/zinc/body-zinc.svg"
-                imgAlt="ZINC.IMG"
+                imgAlt={_("ZINC.IMG")}
                 imgH={426}
                 imgW={420}
             />

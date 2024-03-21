@@ -24,11 +24,11 @@ export default function Harmony() {
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
             <PageHeader
-                title="HARMONY.HEAD"
+                title={_("HARMONY.HEAD")}
                 appId={1562956213}
-                appDownloadTitle="HARMONY.DWN"
+                appDownloadTitle={_("HARMONY.DWN")}
                 imgSrc="/img/page/harmony/harmony.webp"
-                imgAlt="HARMONY.IMG"
+                imgAlt={_("HARMONY.IMG")}
                 imgH={390}
                 imgW={421}
             />

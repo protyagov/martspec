@@ -10,7 +10,7 @@ import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem"
 import CallToAction from "@/atomic/organism/call-to-action"
 
 export default function Bodymass() {
-	const iconTitleTextListItems: Array<IconTitleText> = [
+	const advantages: Array<IconTitleText> = [
 		{
 			icon: {
 				src: "/img/atom/icons/icon-defense.svg",
@@ -58,11 +58,11 @@ export default function Bodymass() {
 
 			<div className="ms-base-page ms-base-new bodymass">
 				<PageHeader
-					title="MASS.HEAD"
-					subtitleLevel1="MASS.ABOUT_1"
-					subtitleLevel2="MASS.ABOUT_2"
+					title={_("MASS.HEAD")}
+					subtitleLevel1={_("MASS.ABOUT_1")}
+					subtitleLevel2={_("MASS.ABOUT_2")}
 					appId={1507588203}
-					appDownloadTitle="MASS.DWN"
+					appDownloadTitle={_("MASS.DWN")}
 					imgSrc="/img/page/body-mass/mass.webp"
 					imgAlt={_("MASS.IMG")}
 					imgH={428}
@@ -113,7 +113,7 @@ export default function Bodymass() {
 							<h2>{_("MASS.HEAD3")}</h2>
 						</div>
 						<div className="col-12">
-							<IconTitleTextList items={iconTitleTextListItems} />
+							<IconTitleTextList items={advantages} />
 						</div>
 					</div>
 				</section>
