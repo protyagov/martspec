@@ -1,7 +1,7 @@
 import React from "react"
 import IconTitleTextElem, {
 	IconTitleText,
-} from "../molecule/icon-title-text-elem"
+} from "@/atomic/molecule/icon-title-text-elem"
 
 interface IconTitleTextListProps {
 	items: Array<IconTitleText>

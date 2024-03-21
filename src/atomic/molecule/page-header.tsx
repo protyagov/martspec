@@ -1,4 +1,5 @@
 import React from "react";
+import _, { Locale } from "src/i18n/locale";
 import ButtonApple from "../atom/button-apple";
 
 type PageHeaderProps = {

@@ -1,7 +1,7 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import NavigationBar from "src/atomic/organism/navbar";
-import { Footer } from "../../organism/footer";
+import _, { Locale } from "@/i18n/locale";
+import NavigationBar from "@/atomic/organism/navbar";
+import { Footer } from "@/atomic/organism/footer";
 
 const COLORS = [
     "97938E", // Gray

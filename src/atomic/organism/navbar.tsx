@@ -1,5 +1,5 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale"
+import _, { Locale } from "@/i18n/locale"
 
 function NavigationBarLanguageDropdown() {
     const languages = Locale.SUPPORTED_LANG;

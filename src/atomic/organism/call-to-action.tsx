@@ -1,8 +1,7 @@
 import React, { CSSProperties } from "react";
-import _, { Locale } from "src/i18n/locale";
-import ButtonApple from "../atom/button-apple";
-
-import ImageI18N from "../atom/img-i18n";
+import _, { Locale } from "@/i18n/locale";
+import ButtonApple from "@/atomic/atom/button-apple";
+import ImageI18N from "@/atomic/atom/img-i18n";
 
 type CallToActionProps = {
     title: string;
