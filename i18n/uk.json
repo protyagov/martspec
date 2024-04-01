@@ -869,7 +869,7 @@
         "LINK2": "Дослідження Американської асоціації серця",
         "DESC2": " показали, що вимірювання талії може бути кращим способом прогнозування ризику серцевих захворювань, ніж широко використовуваний індекс маси тіла.",
         "HEAD3": "Медичний факт",
-        "DESC3": " показують, - ризик діабету 2-ого типу і серцево-судинних захворювань збільшується, коли більше жирових відкладень розташовано на талії, а не в районі стегон.",       
+        "DESC3": " показують, - ризик діабету 2-ого типу і серцево-судинних захворювань збільшується, коли більше жирових відкладень розташовано на талії, а не в районі стегон.",
         "LINK3": "Дослідження Національного інституту охорони здоров'я США",
         "HEAD4": "Переваги",
         "LIST2": {
@@ -887,7 +887,7 @@
         "ALT1": "Екрани годинників Apple Watch з інформацією про ваш обхват талії в реальному часі та за весь день у додатку \"Талія\" від Martspec",
         "ALT2": "Екрани годинників Apple Watch з інформацією про поточний обхват талії та статистикою в додатку \"Талія\" від Martspec",
         "BTN_OPEN": "Підтягнутий живіт"
-    },    
+    },
     "ZINC": {
         "HEAD": "Цинк",
         "SUBHEAD": "Трекер цинк для вашого годинника",
@@ -1620,7 +1620,7 @@
         "P1_1": "Створюємо технологічні інновації",
         "P1_2": "Робимо наші програми більш зручними та красивими",
         "P1_3": "Уважно вивчаємо відгуки наших користувачів",
-        "P2": "Щоб досягти нашої мети, ми починаємо з науки. Опубліковані наукові дослідження та аналітика відіграють важливу роль у розробці вдосконалень. Разом з нашими користувачами ми шукаємо способи більш ефективно відстежувати, вимірювати та застосовувати показники здоров'я. Зворотній зв'язок — важливий інструмент для майбутніх інновацій, включаючи створення нових програм, покращення існуючих і навіть закриття програм, які не приносять користі людям."
+        "P2": "Опубліковані наукові дослідження та аналітика відіграють важливу роль у розробці поліпшень. Разом з користувачами ми шукаємо способи більш ефективно відстежувати, вимірювати і застосовувати показники здоров'я. Зворотний зв'язок - важливий інструмент для майбутніх інновацій, включно зі створенням нових застосунків і поліпшенням наявних."
     },
     "ABOUT": {
         "HEAD": "Про компанію",
@@ -1633,7 +1633,7 @@
     },
     "TEAM": {
         "HEAD": "Наша команда",
-        "ABOUT": "Люди, які стоять за компанією, такі ж важливі, як і сама компанія. Познайомтеся з нашими талановитими інженерами та дизайнерами, які створюють найкращі програми для здоров’я.",
+        "ABOUT": "Люди, що стоять за компанією, так само важливі, як і сама компанія. Познайомтеся з нашою талановитою командою.",
         "ENGINEER_MOBILE": "iOS Розробник",
         "ENGINEER_WEB": "Web-розробник",
         "DESIGNER_UI_UX": "UI/UX дизайнер",
@@ -1659,41 +1659,41 @@
         "VICTORIA": "Вікторія"
     },
     "CAREERS": {
-        "HEAD": "Careers",
-        "SUBHEAD": "Grow with us!",
-        "ABOUT": "Our company is a young and ambitious team specializing in developing applications for those who care about their health",
-        "IMG": "A team of young professionals who love to do their job",
-        "HEAD1": "About our team",
-        "TEXT1_1": "Our team is a group of young and promising professionals who enjoy doing their job. We are looking for equally talented and ambitious people who are ready to grow and develop with us.",
-        "TEXT1_2": "Over the past six months, several of our interns have turned their dreams into reality by gaining career prospects. Five of them mastered the art of QA, and three became talented designers. Two developer interns found their first jobs, and one of the interns successfully received an offer from the Netherlands!",
-        "TEXT1_3": "This is a testament not only to their strength and talent but also to our deep involvement in the development of each member of our team.",
-        "BUTTON1": "More details",
-        "HEAD2": "Why Martspec?",
+        "HEAD": "Кар'єра",
+        "SUBHEAD": "Зростайте разом з нами!",
+        "ABOUT": "Наша компанія - молода та амбітна команда, що спеціалізується на розробці додатків для тих, хто піклується про своє здоров'я",
+        "IMG": "Команда молодих професіоналів, які люблять свою справу",
+        "HEAD1": "Про нашу команду",
+        "TEXT1_1": "Наша команда - це група молодих та перспективних професіоналів, які отримують задоволення від своєї роботи. Ми шукаємо таких же талановитих та амбітних людей, які готові рости та розвиватися разом з нами.",
+        "TEXT1_2": "За останні півроку кілька наших стажерів втілили свої мрії в реальність, отримавши кар'єрні перспективи. П'ятеро з них опанували мистецтво QA, а троє стали талановитими дизайнерами. Двоє стажерів-розробників знайшли свою першу роботу, а один з них успішно отримав пропозицію з Нідерландів!",
+        "TEXT1_3": "Це свідчення не лише їхньої сили і таланту, а й нашої глибокої зацікавленості у розвитку кожного члена нашої команди.",
+        "BUTTON1": "Більш детальна інформація",
+        "HEAD2": "Чому Martspec?",
         "LIST2": {
-            "LI1_HEAD": "Remote work",
-            "LI1_TEXT": "Our team is scattered all over the world. You can intern from anywhere and at a time convenient for you.",
-            "LI2_HEAD": "Atmosphere",
-            "LI2_TEXT": "In our team, we adhere to a work ethic and a positive atmosphere. We are not afraid to ask for help and always help each other.",
-            "LI3_HEAD": "Prospects",
-            "LI3_TEXT": "By interning with us, you gain invaluable experience working on a product and interacting with a team, which will be useful to you in the future."
+            "LI1_HEAD": "Віддалена робота",
+            "LI1_TEXT": "Наша команда розкидана по всьому світу. Ви можете проходити стажування з будь-якого місця та у зручний для вас час.",
+            "LI2_HEAD": "Атмосфера",
+            "LI2_TEXT": "У нашій команді ми дотримуємося трудової етики та позитивної атмосфери. Ми не боїмося просити про допомогу і завжди допомагаємо один одному.",
+            "LI3_HEAD": "Перспективи",
+            "LI3_TEXT": "Стажуючись у нас, ви отримуєте безцінний досвід роботи над продуктом та взаємодії з командою, який стане вам у нагоді в майбутньому."
         },
-        "HEAD3": "Internship",
+        "HEAD3": "Стажування",
         "LIST3": {
             "LI1_HEAD": "Web designer",
-            "LI1_TEXT": "From anywhere in the world",
+            "LI1_TEXT": "З будь-якої точки світу",
             "LI2_HEAD": "Mobile designer",
-            "LI2_TEXT": "From anywhere in the world",
+            "LI2_TEXT": "З будь-якої точки світу",
             "LI3_HEAD": "Frontend",
-            "LI3_TEXT": "From anywhere in the world",
+            "LI3_TEXT": "З будь-якої точки світу",
             "LI4_HEAD": "Quality Assurance",
-            "LI4_TEXT": "From anywhere in the world",
+            "LI4_TEXT": "З будь-якої точки світу",
             "LI5_HEAD": "Business Analyst",
-            "LI5_TEXT": "From anywhere in the world",
+            "LI5_TEXT": "З будь-якої точки світу",
             "LI6_HEAD": "Copywriter",
-            "LI6_TEXT": "From anywhere in the world"
+            "LI6_TEXT": "З будь-якої точки світу"
         },
-        "BUTTON3": "Learn more",
-        "ALT1": "A group of young and promising specialists from Martspec"
+        "BUTTON3": "Дізнайтеся більше",
+        "ALT1": "Група молодих та перспективних спеціалістів компанії Martspec"
     },
     "PP": {
         "HEAD": "Захист даних",
