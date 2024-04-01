@@ -127,7 +127,8 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { context: 'src/i18n/', from: '*.json', to: 'i18n' },
-                { from: 'src/../robots.txt' },
+                { from: 'robots.txt' },
+                { from: '1d497fbf494e42508c9a2efb761151fc.txt' }, // Index Now Verification Key
                 { from: 'src/../sitemap.xml' },
                 { from: 'src/html/404.html' },
                 { from: 'src/html/pmail_22c30242162cf766f0b95cf7fe1e790e.html' },
