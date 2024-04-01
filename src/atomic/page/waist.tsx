@@ -61,7 +61,7 @@ export default function WaistLine() {
                 imgH={468}
                 imgW={430}
             />
-			
+
             <section>
  				<div className="row g-4">
  					<TitleTextCard
@@ -136,9 +136,9 @@ export default function WaistLine() {
  					bgColor={{backgroundColor: "#FFB34066"}}
  					title={_("WAIST.HEAD5")}
  					subtitle={_("WAIST.DESC5")}
- 					appId={1507588203}
+ 					appId={1506250420}
 					appDownloadTitle={_("WAIST.DWN")}
-                    imgSrc="/img/page/waistline/call-to-action-en.webp" 
+                    imgSrc="/img/page/waistline/call-to-action-en.webp"
  					imgAlt={_("WAIST.ALT2")}
  				/>
 				</div>
