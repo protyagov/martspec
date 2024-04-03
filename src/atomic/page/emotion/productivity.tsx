@@ -1,9 +1,9 @@
 import * as React from "react";
-import _, { Locale } from "@/i18n/locale";
-import { Footer } from "@/atomic/organism/footer";
+import _, {Locale} from "@/i18n/locale";
+import {Footer} from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ContentsList from "@/atomic/molecule/contents-list";
-import { useScrollSpy } from "@/hooks";
+import {useScrollSpy} from "@/hooks";
 import PageHeader from "@/atomic/molecule/page-header";
 
 export default function Productivity() {
@@ -19,7 +19,7 @@ export default function Productivity() {
     useScrollSpy("contents-list");
 
     return <>
-        <NavigationBar />
+        <NavigationBar/>
 
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
@@ -55,7 +55,8 @@ export default function Productivity() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/page/productivity/productivity-img-1.webp" className="img-fluid" alt="" width={805} height={472} />
+                            <img src="/img/page/productivity/productivity-img-1.webp" className="img-fluid" alt="Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips"
+                                 width={805} height={472}/>
                         </div>
 
                         <div id="section-3" className="content-wrapper">
@@ -71,7 +72,9 @@ export default function Productivity() {
                             <p>{_("PRODUCTIVITY.DESK4_1")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_2")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_3")}</p>
-                            <img src="/img/page/productivity/productivity-img-2.webp" className="img-fluid" alt="" width={805} height={472} />
+                            <img src="/img/page/productivity/productivity-img-2.webp" className="img-fluid"
+                                 alt="Option 2:Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management"
+                                 width={805} height={472}/>
                         </div>
 
                         <div id="section-5" className="content-wrapper">
@@ -119,7 +122,7 @@ export default function Productivity() {
                     <div className="col-lg-4 order-lg-2 order-1">
                         <div className="contents-list">
                             <h3>{_("PRODUCTIVITY.CONTENTS")}</h3>
-                            <ContentsList PAGE="PRODUCTIVITY" CONTENTS_COUNT={CONTENTS_COUNT} />
+                            <ContentsList PAGE="PRODUCTIVITY" CONTENTS_COUNT={CONTENTS_COUNT}/>
                         </div>
                     </div>
 
@@ -128,6 +131,6 @@ export default function Productivity() {
 
         </div>
 
-        <Footer />
+        <Footer/>
     </>
 }
