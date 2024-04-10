@@ -1532,9 +1532,9 @@
         "DESC3": "Para mayor precisión, debe ejecutar la prueba dos veces. Cuando vuelva a ejecutar la prueba, no intente repetir la opción anterior. Intenta elegir colores únicamente según tus preferencias en ese momento en particular. NO intente asociar colores con objetos: automóviles, ropa, edificios, etc. Para obtener resultados más precisos, elija los colores sin pensar. Confía en tu subconsciente.",
         "HEAD4": "¿Por qué funciona esto?",
         "DESC4": "Los colores han rodeado a la humanidad desde tiempos inmemoriales, influyendo en las personas durante generaciones. Inicialmente, la vida humana estaba controlada por dos factores incontrolables: la noche y el día, la luz y la oscuridad. Durante miles de años, las acciones humanas como el ataque (color rojo) y la retirada (color verde) se construyeron en el subconsciente. El significado subconsciente del color existe nos guste o no y no depende de la raza, el idioma, el nivel de educación, el estatus social, etc.",
-        "TEST_HEAD": "¿Qué color te gusta más?",
+        "TEST_HEAD": "¿Qué color le gusta más?",
         "TEST_DESC": "Intente elegir colores únicamente según sus preferencias en un momento determinado. NO intente asociar colores con objetos: automóviles, ropa, edificios, etc. Para obtener resultados más precisos, elija los colores sin pensar.",
-        "RES": "Tus resultados:",
+        "RES": "Sus resultados:",
         "LEV": "Nivel",
         "PERC": "Por ciento",
         "GROUP_DESC": "Descripción del Grupo:",
@@ -1577,7 +1577,7 @@
         "_E4": "Excesivo",
         "CTA_HEAD": "Para obtener resultados más precisos, descargue la aplicación gratuita - Emoción",
         "CTA_DESC": "Descubra sus deseos, para alcanzarlos. Evaluar los indicadores reales de lo que está sucediendo en el cuerpo. Encuentra tus reservas. Evaluar las fuentes de estrés y su impacto en los problemas o conflictos.",
-        "BTN_AGAIN": "Haz la prueba nuevamente"
+        "BTN_AGAIN": "Haga la prueba nuevamente"
     },
     "FOOTER": {
         "C": "© 2024 Martspec LLC. Todos los derechos reservados.",
