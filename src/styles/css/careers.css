@@ -1,0 +1,10 @@
+.careers .ms-btn-large {
+  background: #248CE1;
+  color: #FFFFFF;
+}
+.careers .ms-btn-large:hover {
+  background: #0B63E3;
+}
+.careers .ms-btn-large:active {
+  background: #0A58CA !important;
+}
