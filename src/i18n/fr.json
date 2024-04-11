@@ -869,8 +869,8 @@
         "LINK2": "Étude réalisée par l'American Heart Association",
         "DESC2": " a montré que la mesure de la taille pourrait être un meilleur moyen de prédire le risque de maladie cardiaque qu'un indice de masse corporelle largement utilisé.",
         "HEAD3": "Fait Médical",
-        "DESC3": " montrent que le risque de diabète de type 2 et de maladies cardiovasculaires augmente lorsque davantage de dépôts graisseux se situent autour de la taille plutôt qu'autour des hanches.",       
-        "LINK3": "Étude des National Institutes of Health des États-Unis", 
+        "DESC3": " montrent que le risque de diabète de type 2 et de maladies cardiovasculaires augmente lorsque davantage de dépôts graisseux se situent autour de la taille plutôt qu'autour des hanches.",
+        "LINK3": "Étude des National Institutes of Health des États-Unis",
         "HEAD4": "Avantages",
         "LIST2": {
             "LI1_HEAD": "Protection des données",
@@ -887,7 +887,7 @@
         "ALT1": "Écrans Apple Watch affichant votre tour de taille en temps réel et toute la journée dans l'application Waist de Martspec",
         "ALT2": "Écrans Apple Watch affichant le tour de taille actuel et les statistiques dans l'application Waist de Martspec",
         "BTN_OPEN": "Diminuer"
-    },      
+    },
     "ZINC": {
         "HEAD": "Zinc",
         "SUBHEAD": "suivi la consommation de zinc",
@@ -1181,7 +1181,9 @@
     },
     "PRODUCTIVITY": {
         "HEAD": "Productivité",
-        "IMG": "",
+        "IMG": "Ditch the to-do list overwhelm! Our productivity app helps you conquer tasks, boost focus, and achieve more - finally, stress-free.Emotion: Anxiety Stress Relief  #productivity #todolist #focus",
+        "ALT_1": "Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips",
+        "ALT_2": "Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management",
         "DWN": "Obtenez l'application gratuite Emotion pour Apple Watch, iPhone ou iPad directement depuis l'App Store d'Apple.",
         "CONTENTS": "Table des matières",
         "HEAD1": "Qu’est-ce que la productivité?",

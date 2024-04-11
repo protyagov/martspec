@@ -874,7 +874,7 @@
         "LINK2": "Forschung der American Heart Association",
         "DESC2": " zeigten, dass Messungen des Taillenumfangs eine bessere Aussagekraft über das Risiko einer Herzerkrankung haben als der weit verbreitete BMI (Body Mass Index).",
         "HEAD3": "Medizinische Tatsache",
-        "DESC3": " zeigen, dass das Risiko für Typ-2-Diabetes und Herzerkrankungen steigt, wenn sich mehr Fett um die Taille als um die Hüften befindet.",       
+        "DESC3": " zeigen, dass das Risiko für Typ-2-Diabetes und Herzerkrankungen steigt, wenn sich mehr Fett um die Taille als um die Hüften befindet.",
         "LINK3": "Untersuchungen der US-amerikanischen National Institutes of Health",
         "HEAD4": "Vorteile",
         "LIST2": {
@@ -1188,7 +1188,9 @@
     },
     "PRODUCTIVITY": {
         "HEAD": "Produktivität",
-        "IMG": "",
+        "IMG": "Schluss mit der Überforderung durch die To-Do-Liste! Unsere Produktivitäts-App hilft Ihnen, Aufgaben zu bewältigen, den Fokus zu steigern und mehr zu erreichen - endlich stressfrei.Emotion: Angst Stressabbau #Produktivität #Todoliste #Fokus",
+        "ALT_1": "Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips",
+        "ALT_2": "Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management",
         "DWN": "Holen Sie sich die kostenlose Emotion -App für Apple Watch, iPhone oder iPad direkt im Apple App Store.",
         "CONTENTS": "Inhaltsverzeichnis",
         "HEAD1": "Was ist Produktivität?",

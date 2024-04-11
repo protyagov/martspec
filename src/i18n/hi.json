@@ -869,7 +869,7 @@
         "LINK2": "अमेरिकन हार्ट एसोसिएशन द्वारा अध्ययन",
         "DESC2": " यह दर्शाता है कि व्यापक रूप से इस्तेमाल किए गए बॉडी मास इंडेक्स की तुलना में हृदय रोग के जोखिम का अनुमान लगाने के लिए कमर की माप एक बेहतर तरीका हो सकता है।",
         "HEAD3": "चिकित्सा तथ्य",
-        "DESC3": " दिखाते हैं कि टाइप 2 मधुमेह और हृदय रोग का खतरा बढ़ जाता है जब ज्यादा वसा कमर के चारों ओर होती है, न कि कूल्हों के आसपास।",       
+        "DESC3": " दिखाते हैं कि टाइप 2 मधुमेह और हृदय रोग का खतरा बढ़ जाता है जब ज्यादा वसा कमर के चारों ओर होती है, न कि कूल्हों के आसपास।",
         "LINK3": "यूएस नेशनल इंस्टीट्यूट ऑफ हेल्थ रिसर्च",
         "HEAD4": "लाभ",
         "LIST2": {
@@ -1182,7 +1182,9 @@
     },
     "PRODUCTIVITY": {
         "HEAD": "उत्पादकता",
-        "IMG": "",
+        "IMG": "Ditch the to-do list overwhelm! Our productivity app helps you conquer tasks, boost focus, and achieve more - finally, stress-free.Emotion: Anxiety Stress Relief  #productivity #todolist #focus",
+        "ALT_1": "Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips",
+        "ALT_2": "Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management",
         "DWN": "ऐप्पल वॉच, आईफोन या आईपैड के लिए सीधे ऐप्पल ऐप स्टोर से मुफ्त इमोशन ऐप प्राप्त करें।",
         "CONTENTS": "विषयसूची",
         "HEAD1": "उत्पादकता क्या है?",

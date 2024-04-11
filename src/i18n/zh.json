@@ -868,7 +868,7 @@
         "LINK2": "美国心脏协会的研究",
         "DESC2": " 研究表明，与广泛使用的体重指数相比，测量腰围可能是更好的预测心脏病风险的方法。",
         "HEAD3": "医学事实",
-        "DESC3": " 研究表明，當更多的脂肪沉積在腰部而不是臀部周圍時，罹患第 2 型糖尿病和心血管疾病的風險就會增加。",       
+        "DESC3": " 研究表明，當更多的脂肪沉積在腰部而不是臀部周圍時，罹患第 2 型糖尿病和心血管疾病的風險就會增加。",
         "LINK3": "美国国家卫生研究院的研究",
         "HEAD4": "优点",
         "LIST2": {
@@ -1180,7 +1180,9 @@
     },
     "PRODUCTIVITY": {
         "HEAD": "生產力",
-        "IMG": "",
+        "IMG": "Ditch the to-do list overwhelm! Our productivity app helps you conquer tasks, boost focus, and achieve more - finally, stress-free.Emotion: Anxiety Stress Relief  #productivity #todolist #focus",
+        "ALT_1": "Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips",
+        "ALT_2": "Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management",
         "DWN": "直接從 Apple App Store 取得適用於 Apple Watch、iPhone 或 iPad 的免費情緒應用程式。",
         "CONTENTS": "目錄",
         "HEAD1": "什麼是生產力？",

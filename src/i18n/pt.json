@@ -872,7 +872,7 @@
         "LINK2": "Estudo da American Heart Association",
         "DESC2": " demonstrou que medir a cintura pode ser a melhor maneira de prever o risco de doenças cardíacas do que um índice de massa corporal amplamente utilizado.",
         "HEAD3": "Fato Médico",
-        "DESC3": " mostram que o risco de diabetes de tipo 2 e de doenças cardiovasculares aumenta quando há mais gordura à volta da cintura do que das ancas.",       
+        "DESC3": " mostram que o risco de diabetes de tipo 2 e de doenças cardiovasculares aumenta quando há mais gordura à volta da cintura do que das ancas.",
         "LINK3": "Estudo dos Institutos Nacionais de Saúde dos EUA",
         "HEAD4": "Vantagens",
         "LIST2": {
@@ -1186,7 +1186,9 @@
     },
     "PRODUCTIVITY": {
         "HEAD": "Produtividade",
-        "IMG": "",
+        "IMG": "Ditch the to-do list overwhelm! Our productivity app helps you conquer tasks, boost focus, and achieve more - finally, stress-free.Emotion: Anxiety Stress Relief  #productivity #todolist #focus",
+        "ALT_1": "Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips",
+        "ALT_2": "Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management",
         "DWN": "Obtenha o aplicativo Emoção gratuito para Apple Watch, iPhone ou iPad diretamente na Apple App Store.",
         "CONTENTS": "Índice",
         "HEAD1": "O que é produtividade?",

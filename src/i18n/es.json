@@ -870,8 +870,8 @@
         "LINK2": "Estudios de la Asociación Americana de Cardiología",
         "DESC2": " han demostrado que las medidas de la circunferencia de la cintura predicen con mayor precisión el riesgo de enfermedades cardíacas que el ampliamente utilizado Índice de Masa Corporal (IMC).",
         "HEAD3": "Hecho médico",
-        "DESC3": " muestran que el riesgo de diabetes tipo 2 y enfermedades cardiovasculares aumenta cuando hay más acumulación de grasa en la cintura que en la cadera.",       
-        "LINK3": "Investigaciones del Instituto Nacional de Salud de los Estados Unidos",  
+        "DESC3": " muestran que el riesgo de diabetes tipo 2 y enfermedades cardiovasculares aumenta cuando hay más acumulación de grasa en la cintura que en la cadera.",
+        "LINK3": "Investigaciones del Instituto Nacional de Salud de los Estados Unidos",
         "HEAD4": "Nuestras ventajas",
         "LIST2": {
             "LI1_HEAD": "Protección de Datos",
@@ -888,7 +888,7 @@
         "ALT1": "Pantallas del Apple Watch que muestran tu circunferencia de cintura en tiempo real y durante todo el día en la aplicación Cintura de Martspec",
         "ALT2": "Pantallas de Apple Watch que muestran la circunferencia de cintura actual y estadísticas en la aplicación Cintura de Martspec",
         "BTN_OPEN": "Tonifique su abdomen"
-    },       
+    },
     "ZINC": {
         "HEAD": "Zinc",
         "SUBHEAD": "Rastreador de zinc para su reloj",
@@ -1183,6 +1183,8 @@
     "PRODUCTIVITY": {
         "HEAD": "Productividad",
         "IMG": "",
+        "ALT_1": "Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips",
+        "ALT_2": "Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management",
         "DWN": "Obtenga la aplicación Emoción gratuita para Apple Watch, iPhone o iPad directamente desde la App Store de Apple.",
         "CONTENTS": "Tabla de contenido",
         "HEAD1": "¿Qué es la productividad?",

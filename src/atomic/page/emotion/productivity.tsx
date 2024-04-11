@@ -55,7 +55,7 @@ export default function Productivity() {
                                     ))
                                 }
                             </ul>
-                            <img src="/img/page/productivity/productivity-img-1.webp" className="img-fluid" alt="Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips"
+                            <img src="/img/page/productivity/productivity-img-1.webp" className="img-fluid" alt={_("PRODUCTIVITY.ALT_1")}
                                  width={805} height={472}/>
                         </div>
 
@@ -73,7 +73,7 @@ export default function Productivity() {
                             <p>{_("PRODUCTIVITY.DESK4_2")}</p>
                             <p>{_("PRODUCTIVITY.DESK4_3")}</p>
                             <img src="/img/page/productivity/productivity-img-2.webp" className="img-fluid"
-                                 alt="Option 2:Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management"
+                                 alt={_("PRODUCTIVITY.ALT_2")}
                                  width={805} height={472}/>
                         </div>
 

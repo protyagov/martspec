@@ -869,7 +869,7 @@
         "LINK2": "アメリカ心臓協会の研究",
         "DESC2": " ウエスト測定は、一般的に使用されるBMI（ボディマス指数）よりも正確に心臓病のリスクを予測することが示されている。",
         "HEAD3": "医学的事実",
-        "DESC3": " ウエストに脂肪が蓄積されると2型糖尿病や心臓血管疾患のリスクが増加します。",       
+        "DESC3": " ウエストに脂肪が蓄積されると2型糖尿病や心臓血管疾患のリスクが増加します。",
         "LINK3": "アメリカ国立衛生研究所の究",
         "HEAD4": "利点",
         "LIST2": {
@@ -886,7 +886,7 @@
         "DESC5": "今すぐアプリをダウンロード、便利な形式でウエストサイズの変化を追跡しましょう",
         "ALT1": "Apple Watch の画面には、Martspec のウエスト アプリでウエスト周囲径がリアルタイムで 1 日中表示されます",
         "ALT2": "Apple Watch の画面に現在のウエスト周囲径と Martspec のウエスト アプリの統計情報が表示される",
-        "BTN_OPEN": "減少" 
+        "BTN_OPEN": "減少"
     },
     "ZINC": {
         "HEAD": "亜鉛",
@@ -1181,7 +1181,9 @@
     },
     "PRODUCTIVITY": {
         "HEAD": "生産性",
-        "IMG": "",
+        "IMG": "Ditch the to-do list overwhelm! Our productivity app helps you conquer tasks, boost focus, and achieve more - finally, stress-free.Emotion: Anxiety Stress Relief  #productivity #todolist #focus",
+        "ALT_1": "Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips",
+        "ALT_2": "Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management",
         "DWN": "Apple Watch、iPhone、または iPad 用の無料の 感情  アプリを Apple App Store から直接入手してください。",
         "CONTENTS": "目次",
         "HEAD1": "生産性とは何ですか?",
