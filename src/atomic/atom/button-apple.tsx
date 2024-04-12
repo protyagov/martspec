@@ -1,5 +1,5 @@
 import React from "react";
-import _, { Locale } from "src/i18n/locale";
+import _, { Locale } from "@/i18n/locale";
 
 interface ButtonAppleProps {
     appId: number;

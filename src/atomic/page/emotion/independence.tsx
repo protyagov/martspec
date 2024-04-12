@@ -1,10 +1,10 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { useScrollSpy } from "src/hooks";
-import { Footer } from "../../organism/footer";
-import NavigationBar from "../../organism/navbar";
-import ContentsList from "../../molecule/contents-list";
-import PageHeader from "../../molecule/page-header";
+import _, { Locale } from "@/i18n/locale";
+import { useScrollSpy } from "@/hooks";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import ContentsList from "@/atomic/molecule/contents-list";
+import PageHeader from "@/atomic/molecule/page-header";
 
 
 export default function Independence() {
@@ -25,11 +25,11 @@ export default function Independence() {
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
             <PageHeader
-                title="INDEPENDENCE.HEAD"
+                title={_("INDEPENDENCE.HEAD")}
                 appId={1562956213}
-                appDownloadTitle="INDEPENDENCE.DWN"
+                appDownloadTitle={_("INDEPENDENCE.DWN")}
                 imgSrc="/img/page/independence/independence.webp"
-                imgAlt="INDEPENDENCE.IMG"
+                imgAlt={_("INDEPENDENCE.IMG")}
                 imgH={390}
                 imgW={421}
             />

@@ -1,7 +1,7 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
 
 interface VitaminElementProps {
     id: string;

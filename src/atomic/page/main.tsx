@@ -1,8 +1,8 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale"
-import { Footer } from "../organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import ImageI18N from "src/atomic/atom/img-i18n";
+import _, { Locale } from "@/i18n/locale"
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import ImageI18N from "@/atomic/atom/img-i18n";
 
 export default function LandingPage() {
     return (

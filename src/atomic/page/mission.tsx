@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import _ from "src/i18n/locale"
-import PageHeader from "../molecule/page-header";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import _ from "@/i18n/locale"
+import PageHeader from "@/atomic/molecule/page-header";
 
 export default function Mission() {
     return <>
@@ -10,12 +10,12 @@ export default function Mission() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                title="MISSION.HEAD"
-                subtitleLevel1="MISSION.ABOUT_1"
+                title={_("MISSION.HEAD")}
+                subtitleLevel1={_("MISSION.ABOUT_1")}
                 appId={1507588203}
-                appDownloadTitle="MISSION.DWN"
+                appDownloadTitle={_("MISSION.DWN")}
                 imgSrc="/img/mission.svg"
-                imgAlt="MISSION.IMG"
+                imgAlt={_("MISSION.IMG")}
                 imgH={300}
                 imgW={391}
             />

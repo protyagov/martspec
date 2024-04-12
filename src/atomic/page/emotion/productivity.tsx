@@ -1,10 +1,10 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import ContentsList from "src/atomic/molecule/contents-list";
-import { useScrollSpy } from "src/hooks";
-import PageHeader from "../../molecule/page-header";
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import ContentsList from "@/atomic/molecule/contents-list";
+import { useScrollSpy } from "@/hooks";
+import PageHeader from "@/atomic/molecule/page-header";
 
 export default function Productivity() {
     const LISTS_COUNT = {
@@ -24,11 +24,11 @@ export default function Productivity() {
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
             <PageHeader
-                title="PRODUCTIVITY.HEAD"
+                title={_("PRODUCTIVITY.HEAD")}
                 appId={1562956213}
-                appDownloadTitle="PRODUCTIVITY.DWN"
+                appDownloadTitle={_("PRODUCTIVITY.DWN")}
                 imgSrc="/img/page/productivity/productivity.webp"
-                imgAlt="PRODUCTIVITY.IMG"
+                imgAlt={_("PRODUCTIVITY.IMG")}
                 imgH={390}
                 imgW={410}
             />

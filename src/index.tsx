@@ -1,10 +1,10 @@
 import "bootstrap";
-import "src/sass/main.scss"
+import "@/sass/main.scss"
 import * as React from "react";
 import { createRoot } from 'react-dom/client';
-import { App } from './router';
-import { Locale } from "src/i18n/locale";
-import eb from 'src/event-bus';
+import { App } from '@/router';
+import { Locale } from "@/i18n/locale";
+import eb from '@/event-bus';
 
 
 eb.addEvent("LANG_CHANGED", (lang: string) =>

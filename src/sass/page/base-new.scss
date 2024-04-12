@@ -1,4 +1,4 @@
-@import "../atom/base-new-vars";
+@import "@/sass/atom/base-new-vars";
 
 .ms-base-new {
 
@@ -211,7 +211,7 @@
       display: flex;
 
       &::before {
-        content: url("src/img/atom/icons/icon-check.svg");
+        content: url("@/img/atom/icons/icon-check.svg");
         margin-top: 4px;
         margin-right: 14px;
       }

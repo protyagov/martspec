@@ -1,9 +1,9 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import ImageI18N from "src/atomic/atom/img-i18n";
-import PageHeader from "../molecule/page-header";
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import ImageI18N from "@/atomic/atom/img-i18n";
+import PageHeader from "@/atomic/molecule/page-header";
 
 export default function BodySize() {
     return <>
@@ -12,12 +12,12 @@ export default function BodySize() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                title="SIZE.HEAD"
-                subtitleLevel2="SIZE.ABOUT"
+                title={_("SIZE.HEAD")}
+                subtitleLevel2={_("SIZE.ABOUT")}
                 appId={1564205068}
-                appDownloadTitle="SIZE.DWN"
+                appDownloadTitle={_("SIZE.DWN")}
                 imgSrc="/img/page/body-size/size-head.svg"
-                imgAlt="SIZE.IMG"
+                imgAlt={_("SIZE.IMG")}
                 imgH={512}
                 imgW={512}
             />
