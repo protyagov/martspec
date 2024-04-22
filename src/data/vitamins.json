@@ -3,7 +3,7 @@
         "LOGO": "/img/page/vitamin/vitamin-a-logo.webp",
         "HEX": "FF7215",
         "TYPE": "VITAMIN_FAT",
-        "UNIT":"MCG",
+        "UNIT": "MCG",
         "DEF_COUNT": 5,
         "OVER_COUNT": 5,
         "FACT_COUNT": 4,
@@ -27,10 +27,10 @@
         }
     },
     "VITAMIN_D": {
-        "LOGO": "/img/page/vitamin/vitamin-d-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-d-logo.webp",
         "HEX": "696FFF",
         "TYPE": "VITAMIN_FAT",
-        "UNIT":"MCG",
+        "UNIT": "MCG",
         "DEF_COUNT": 3,
         "OVER_COUNT": 3,
         "FACT_COUNT": 7,
@@ -54,10 +54,10 @@
         }
     },
     "VITAMIN_E": {
-        "LOGO": "/img/page/vitamin/vitamin-e-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-e-logo.webp",
         "HEX": "FFCC33",
         "TYPE": "VITAMIN_FAT",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 5,
         "OVER_COUNT": 1,
         "FACT_COUNT": 14,
@@ -81,10 +81,10 @@
         }
     },
     "VITAMIN_K": {
-        "LOGO": "/img/page/vitamin/vitamin-k-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-k-logo.webp",
         "HEX": "1ABB9C",
         "TYPE": "VITAMIN_FAT",
-        "UNIT":"MCG",
+        "UNIT": "MCG",
         "DEF_COUNT": 2,
         "OVER_COUNT": 1,
         "FACT_COUNT": 7,
@@ -105,10 +105,10 @@
         }
     },
     "VITAMIN_B1": {
-        "LOGO": "/img/page/vitamin/vitamin-b1-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b1-logo.webp",
         "HEX": "00A0FF",
         "TYPE": "VITAMIN_WATER",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 3,
         "OVER_COUNT": 4,
         "FACT_COUNT": 5,
@@ -129,10 +129,10 @@
         }
     },
     "VITAMIN_B2": {
-        "LOGO": "/img/page/vitamin/vitamin-b2-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b2-logo.webp",
         "HEX": "93C400",
         "TYPE": "VITAMIN_WATER",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 6,
         "OVER_COUNT": 1,
         "FACT_COUNT": 7,
@@ -153,10 +153,10 @@
         }
     },
     "VITAMIN_B3": {
-        "LOGO": "/img/page/vitamin/vitamin-b3-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b3-logo.webp",
         "HEX": "FF7152",
         "TYPE": "VITAMIN_WATER",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 4,
         "OVER_COUNT": 2,
         "FACT_COUNT": 2,
@@ -177,10 +177,10 @@
         }
     },
     "VITAMIN_B5": {
-        "LOGO": "/img/page/vitamin/vitamin-b5-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b5-logo.webp",
         "HEX": "E91E63",
         "TYPE": "VITAMIN_WATER",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 3,
         "OVER_COUNT": 3,
         "FACT_COUNT": 3,
@@ -201,10 +201,10 @@
         }
     },
     "VITAMIN_B6": {
-        "LOGO": "/img/page/vitamin/vitamin-b6-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b6-logo.webp",
         "HEX": "F99F38",
         "TYPE": "VITAMIN_WATER",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 5,
         "OVER_COUNT": 3,
         "FACT_COUNT": 5,
@@ -225,10 +225,10 @@
         }
     },
     "VITAMIN_B7": {
-        "LOGO": "/img/page/vitamin/vitamin-b7-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b7-logo.webp",
         "HEX": "2A9E01",
         "TYPE": "VITAMIN_WATER",
-        "UNIT":"MCG",
+        "UNIT": "MCG",
         "DEF_COUNT": 2,
         "OVER_COUNT": 1,
         "FACT_COUNT": 6,
@@ -249,10 +249,10 @@
         }
     },
     "VITAMIN_B9": {
-        "LOGO": "/img/page/vitamin/vitamin-b9-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b9-logo.webp",
         "HEX": "51A27F",
         "TYPE": "VITAMIN_WATER",
-        "UNIT":"MCG",
+        "UNIT": "MCG",
         "DEF_COUNT": 7,
         "OVER_COUNT": 2,
         "FACT_COUNT": 7,
@@ -276,10 +276,10 @@
         }
     },
     "VITAMIN_B12": {
-        "LOGO": "/img/page/vitamin/vitamin-b12-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-b12-logo.webp",
         "HEX": "FF1744",
         "TYPE": "VITAMIN_WATER",
-        "UNIT":"MCG",
+        "UNIT": "MCG",
         "DEF_COUNT": 6,
         "OVER_COUNT": 1,
         "FACT_COUNT": 6,
@@ -300,10 +300,10 @@
         }
     },
     "VITAMIN_C": {
-        "LOGO": "/img/page/vitamin/vitamin-c-logo.png",
+        "LOGO": "/img/page/vitamin/vitamin-c-logo.webp",
         "HEX": "FD9A23",
         "TYPE": "VITAMIN_WATER",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 7,
         "OVER_COUNT": 4,
         "FACT_COUNT": 6,
@@ -327,10 +327,10 @@
         }
     },
     "CALCIUM": {
-        "LOGO": "/img/page/vitamin/calcium-logo.png",
+        "LOGO": "/img/page/vitamin/calcium-logo.webp",
         "HEX": "FFC100",
         "TYPE": "ELECTROLYTE",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 3,
         "OVER_COUNT": 1,
         "FACT_COUNT": 6,
@@ -354,10 +354,10 @@
         }
     },
     "CHLORIDE": {
-        "LOGO": "/img/page/vitamin/chloride-logo.png",
+        "LOGO": "/img/page/vitamin/chloride-logo.webp",
         "HEX": "008631",
         "TYPE": "ELECTROLYTE",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 5,
         "OVER_COUNT": 2,
         "FACT_COUNT": 3,
@@ -381,10 +381,10 @@
         }
     },
     "CHROME": {
-        "LOGO": "/img/page/vitamin/chrome-logo.png",
+        "LOGO": "/img/page/vitamin/chrome-logo.webp",
         "HEX": "00BCD4",
         "TYPE": null,
-        "UNIT":"MCG",
+        "UNIT": "MCG",
         "DEF_COUNT": 1,
         "OVER_COUNT": 5,
         "FACT_COUNT": 8,
@@ -405,10 +405,10 @@
         }
     },
     "COPPER": {
-        "LOGO": "/img/page/vitamin/copper-logo.png",
+        "LOGO": "/img/page/vitamin/copper-logo.webp",
         "HEX": "D2691E",
         "TYPE": null,
-        "UNIT":"MCG",
+        "UNIT": "MCG",
         "DEF_COUNT": 5,
         "OVER_COUNT": 3,
         "FACT_COUNT": 11,
@@ -432,10 +432,10 @@
         }
     },
     "IODINE": {
-        "LOGO": "/img/page/vitamin/iodine-logo.png",
+        "LOGO": "/img/page/vitamin/iodine-logo.webp",
         "HEX": "BA55D3",
         "TYPE": null,
-        "UNIT":"MCG",
+        "UNIT": "MCG",
         "DEF_COUNT": 7,
         "OVER_COUNT": 2,
         "FACT_COUNT": 6,
@@ -459,10 +459,10 @@
         }
     },
     "IRON": {
-        "LOGO": "/img/page/vitamin/iron-logo.png",
+        "LOGO": "/img/page/vitamin/iron-logo.webp",
         "HEX": "AD3816",
         "TYPE": null,
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 8,
         "OVER_COUNT": 5,
         "FACT_COUNT": 11,
@@ -486,10 +486,10 @@
         }
     },
     "MAGNESIUM": {
-        "LOGO": "/img/page/vitamin/magnesium-logo.png",
+        "LOGO": "/img/page/vitamin/magnesium-logo.webp",
         "HEX": "78AADC",
         "TYPE": "ELECTROLYTE",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 9,
         "OVER_COUNT": 6,
         "FACT_COUNT": 11,
@@ -513,10 +513,10 @@
         }
     },
     "MANGANESE": {
-        "LOGO": "/img/page/vitamin/manganese-logo.png",
+        "LOGO": "/img/page/vitamin/manganese-logo.webp",
         "HEX": "E65C9C",
         "TYPE": null,
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 10,
         "OVER_COUNT": 6,
         "FACT_COUNT": 4,
@@ -540,10 +540,10 @@
         }
     },
     "MOLYBDENUM": {
-        "LOGO": "/img/page/vitamin/molybdenum-logo.png",
+        "LOGO": "/img/page/vitamin/molybdenum-logo.webp",
         "HEX": "7BC043",
         "TYPE": null,
-        "UNIT":"MCG",
+        "UNIT": "MCG",
         "DEF_COUNT": 1,
         "OVER_COUNT": 3,
         "FACT_COUNT": 3,
@@ -567,10 +567,10 @@
         }
     },
     "PHOSPHORUS": {
-        "LOGO": "/img/page/vitamin/phosphorus-logo.png",
+        "LOGO": "/img/page/vitamin/phosphorus-logo.webp",
         "HEX": "E74C3C",
         "TYPE": "ELECTROLYTE",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 8,
         "OVER_COUNT": 4,
         "FACT_COUNT": 9,
@@ -594,10 +594,10 @@
         }
     },
     "POTASSIUM": {
-        "LOGO": "/img/page/vitamin/potassium-logo.png",
+        "LOGO": "/img/page/vitamin/potassium-logo.webp",
         "HEX": "FF9500",
         "TYPE": "ELECTROLYTE",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 7,
         "OVER_COUNT": 5,
         "FACT_COUNT": 12,
@@ -618,10 +618,10 @@
         }
     },
     "SELENIUM": {
-        "LOGO": "/img/page/vitamin/selenium-logo.png",
+        "LOGO": "/img/page/vitamin/selenium-logo.webp",
         "HEX": "D40000",
         "TYPE": null,
-        "UNIT":"MCG",
+        "UNIT": "MCG",
         "DEF_COUNT": 7,
         "OVER_COUNT": 5,
         "FACT_COUNT": 9,
@@ -645,10 +645,10 @@
         }
     },
     "SODIUM": {
-        "LOGO": "/img/page/vitamin/sodium-logo.png",
+        "LOGO": "/img/page/vitamin/sodium-logo.webp",
         "HEX": "5997FA",
         "TYPE": "ELECTROLYTE",
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 5,
         "OVER_COUNT": 3,
         "FACT_COUNT": 7,
@@ -672,10 +672,10 @@
         }
     },
     "ZINC": {
-        "LOGO": "/img/page/vitamin/zinc-logo.png",
+        "LOGO": "/img/page/vitamin/zinc-logo.webp",
         "HEX": "04DD71",
         "TYPE": null,
-        "UNIT":"MG",
+        "UNIT": "MG",
         "DEF_COUNT": 7,
         "OVER_COUNT": 9,
         "FACT_COUNT": 11,
