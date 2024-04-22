@@ -1,6 +1,6 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import SocialBar from "src/atomic/organism/social-bar";
+import _, { Locale } from "@/i18n/locale";
+import SocialBar from "@/atomic/organism/social-bar";
 
 export function LanguageSwitcher() {
     return (

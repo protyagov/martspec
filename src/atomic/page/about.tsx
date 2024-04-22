@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import _ from "src/i18n/locale"
-import PageHeader from "../molecule/page-header";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import _ from "@/i18n/locale"
+import PageHeader from "@/atomic/molecule/page-header";
 
 export default function About() {
     return <>
@@ -11,9 +11,9 @@ export default function About() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                title="ABOUT.HEAD"
+                title={_("ABOUT.HEAD")}
                 imgSrc="/img/about.svg"
-                imgAlt="ABOUT.IMG"
+                imgAlt={_("ABOUT.IMG")}
                 imgH={400}
                 imgW={426}
             />

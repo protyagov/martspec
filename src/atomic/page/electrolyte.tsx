@@ -1,8 +1,8 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import PageHeader from "../molecule/page-header";
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import PageHeader from "@/atomic/molecule/page-header";
 
 export default function Electrolyte() {
     return <>
@@ -11,12 +11,12 @@ export default function Electrolyte() {
         <div className="ms-base-page pb-5">
 
             <PageHeader
-                title="ELECTROLYTE.HEAD"
-                subtitleLevel2="ELECTROLYTE.ABOUT"
+                title={_("ELECTROLYTE.HEAD")}
+                subtitleLevel2={_("ELECTROLYTE.ABOUT")}
                 appId={1507719251}
-                appDownloadTitle="ELECTROLYTE.DWN"
+                appDownloadTitle={_("ELECTROLYTE.DWN")}
                 imgSrc="/img/page/electrolyte/electrolyte.svg"
-                imgAlt="ELECTROLYTE.IMG"
+                imgAlt={_("ELECTROLYTE.IMG")}
                 imgH={460}
                 imgW={440}
             />

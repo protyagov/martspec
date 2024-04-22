@@ -1,5 +1,5 @@
 import * as Polyglot from "node-polyglot";
-import eb from "src/event-bus";
+import eb from "@/event-bus";
 
 export class Locale {
     private static _polyglot = new Polyglot({ allowMissing: true });

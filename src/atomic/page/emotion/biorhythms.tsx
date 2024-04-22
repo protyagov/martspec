@@ -1,10 +1,10 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import ImageI18N from "src/atomic/atom/img-i18n";
-import PageHeader from "../../molecule/page-header";
-import CallToAction from "src/atomic/organism/call-to-action";
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import ImageI18N from "@/atomic/atom/img-i18n";
+import PageHeader from "@/atomic/molecule/page-header";
+import CallToAction from "@/atomic/organism/call-to-action";
 
 export default function Biorhythms() {
     const rhythmsList = [
@@ -36,9 +36,9 @@ export default function Biorhythms() {
         <div className="ms-base-page ms-base-new emotion biorhythms">
 
             <PageHeader
-                title="BIORHYTHMS.HEAD"
+                title={_("BIORHYTHMS.HEAD")}
                 appId={1562956213}
-                appDownloadTitle="BIORHYTHMS.DWN"
+                appDownloadTitle={_("BIORHYTHMS.DWN")}
                 imgSrc="/img/biorhythms.png"
                 imgAlt={_("BIORHYTHMS.IMG")}
                 imgH={512}

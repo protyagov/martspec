@@ -1,5 +1,5 @@
 import React from "react";
-import _ from "src/i18n/locale";
+import _ from "@/i18n/locale";
 
 interface SocialBarProps {
     size?: number;

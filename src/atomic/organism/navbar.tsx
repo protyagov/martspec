@@ -1,5 +1,5 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale"
+import _, { Locale } from "@/i18n/locale"
 
 function NavigationBarLanguageDropdown() {
     const languages = Locale.SUPPORTED_LANG;
@@ -41,9 +41,8 @@ export default function NavigationBar() {
     return <nav className="ms-navbar navbar-expand-lg">
         <div className="ms-s-offset my-0">
 
-            <a className="navbar-brand" href={Locale.i18nLink("/")}>
-                <img src="/img/logo.svg" alt={_("ERROR.404_BTN")} className="d-inline-block align-text-top"
-                    width={64} height={48} />
+            <a className="ms-navbar-brand" href={Locale.i18nLink("/")}>
+                <img src="/img/logo.svg" alt={_("ERROR.404_BTN")} className="d-inline-block align-text-top" />
             </a>
 
             <button className="navbar-toggler navbar-toggler-open" type="button" data-bs-toggle="collapse"

@@ -1,16 +1,16 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import ImageI18N from "src/atomic/atom/img-i18n";
-import PageHeader from "src/atomic/molecule/page-header";
-import CallToAction from "../organism/call-to-action";
-import { IconTitleText } from "../molecule/icon-title-text-elem"
-import IconTitleTextList from "../organism/icon-title-text-list"
-import TitleTextCard from "../molecule/title-text-card"
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import ImageI18N from "@/atomic/atom/img-i18n";
+import PageHeader from "@/atomic/molecule/page-header";
+import CallToAction from "@/atomic/organism/call-to-action";
+import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem"
+import IconTitleTextList from "@/atomic/organism/icon-title-text-list"
+import TitleTextCard from "@/atomic/molecule/title-text-card"
 
 export default function Emotion() {
-    const iconTitleTextListItems: Array<IconTitleText> = [
+    const advantages: Array<IconTitleText> = [
         {
             icon: {
                 src: "/img/atom/icons/icon-defense.svg",
@@ -51,13 +51,13 @@ export default function Emotion() {
 
 				<div className="ms-base-page ms-base-new emotion">
 					<PageHeader
-						title="EMOTION.HEAD"
-						subtitleLevel1="EMOTION.ABOUT_1"
-						subtitleLevel2="EMOTION.ABOUT_2"
+						title={_("EMOTION.HEAD")}
+						subtitleLevel1={_("EMOTION.ABOUT_1")}
+						subtitleLevel2={_("EMOTION.ABOUT_2")}
 						appId={1562956213}
-						appDownloadTitle="EMOTION.DWN"
+						appDownloadTitle={_("EMOTION.DWN")}
 						imgSrc="/img/page/emotion/emotion.png"
-						imgAlt="EMOTION.IMG"
+						imgAlt={_("EMOTION.IMG")}
 						imgH={400}
 						imgW={512}
 					/>
@@ -229,7 +229,7 @@ export default function Emotion() {
 								<h2>{_("EMOTION.HEAD5")}</h2>
 							</div>
 							<div className="col-12">
-								<IconTitleTextList items={iconTitleTextListItems} />
+								<IconTitleTextList items={advantages} />
 							</div>
 						</div>
 					</section>

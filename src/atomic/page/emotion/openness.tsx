@@ -1,10 +1,10 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import ContentsList from "src/atomic/molecule/contents-list";
-import { useScrollSpy } from "src/hooks";
-import PageHeader from "../../molecule/page-header";
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import ContentsList from "@/atomic/molecule/contents-list";
+import { useScrollSpy } from "@/hooks";
+import PageHeader from "@/atomic/molecule/page-header";
 
 
 
@@ -24,11 +24,11 @@ export default function Openness() {
         <div className="ms-base-page ms-base-new emotion personality-trait">
 
         <PageHeader
-                title="OPENNESS.HEAD"
+                title={_("OPENNESS.HEAD")}
                 appId={1562956213}
-                appDownloadTitle="OPENNESS.DWN"
+                appDownloadTitle={_("OPENNESS.DWN")}
                 imgSrc="/img/page/openness/openness.webp"
-                imgAlt="OPENNESS.IMG"
+                imgAlt={_("OPENNESS.IMG")}
                 imgH={390}
                 imgW={421}
             />

@@ -1,14 +1,14 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import VitaminItem from "src/atomic/molecule/vitamin-item";
-import PageHeader from "../molecule/page-header";
-import ImageI18N from "../atom/img-i18n";
-import CallToAction from "src/atomic/organism/call-to-action";
-import IconTitleTextList from "../organism/icon-title-text-list"
-import { IconTitleText } from "../molecule/icon-title-text-elem"
-import TitleTextCard from "../molecule/title-text-card"
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import VitaminItem from "@/atomic/molecule/vitamin-item";
+import PageHeader from "@/atomic/molecule/page-header";
+import ImageI18N from "@/atomic/atom/img-i18n";
+import CallToAction from "@/atomic/organism/call-to-action";
+import IconTitleTextList from "@/atomic/organism/icon-title-text-list"
+import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem"
+import TitleTextCard from "@/atomic/molecule/title-text-card"
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -18,7 +18,7 @@ const vitamins = {
 
 export default function Vitamin() {
     // const bgColor={background: "#1FF"}
-    const iconTitleTextListItems: Array<IconTitleText> = [
+    const advantages: Array<IconTitleText> = [
             {
                 icon: {
                     src: "/img/atom/icons/icon-defense.svg",
@@ -75,11 +75,11 @@ export default function Vitamin() {
 
 				<div className="ms-base-page ms-base-new vitamin">
 					<PageHeader
-						title="VITAMIN.HEAD"
-						subtitleLevel1="VITAMIN.ABOUT_1"
-						subtitleLevel2="VITAMIN.ABOUT_2"
+						title={_("VITAMIN.HEAD")}
+						subtitleLevel1={_("VITAMIN.ABOUT_1")}
+						subtitleLevel2={_("VITAMIN.ABOUT_2")}
 						appId={1519596234}
-						appDownloadTitle="VITAMIN.DWN"
+						appDownloadTitle={_("VITAMIN.DWN")}
 						imgSrc="/img/page/vitamin/vitamin.webp"
 						imgAlt={_("VITAMIN.IMG")}
 						imgH={512}
@@ -166,7 +166,7 @@ export default function Vitamin() {
 								<h2>{_("VITAMIN.HEAD4")}</h2>
 							</div>
 							<div className="col-12">
-								<IconTitleTextList items={iconTitleTextListItems} />
+								<IconTitleTextList items={advantages} />
 							</div>
 						</div>
 					</section>

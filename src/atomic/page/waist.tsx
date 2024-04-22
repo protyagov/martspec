@@ -1,17 +1,17 @@
 import * as React from "react";
-import _, { Locale } from "src/i18n/locale";
-import { Footer } from "src/atomic/organism/footer";
-import NavigationBar from "src/atomic/organism/navbar";
-import PageHeader from "../molecule/page-header";
-import { IconTitleText } from "../molecule/icon-title-text-elem";
-import TitleTextCard from "../molecule/title-text-card";
-import ImageI18N from "../atom/img-i18n";
-import IconTitleTextList from "../organism/icon-title-text-list";
-import CallToAction from "../organism/call-to-action";
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
+import NavigationBar from "@/atomic/organism/navbar";
+import PageHeader from "@/atomic/molecule/page-header";
+import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
+import TitleTextCard from "@/atomic/molecule/title-text-card";
+import ImageI18N from "@/atomic/atom/img-i18n";
+import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
+import CallToAction from "@/atomic/organism/call-to-action";
 
 
 export default function WaistLine() {
-    const iconTitleTextListItems: Array<IconTitleText> = [
+    const advantages: Array<IconTitleText> = [
         {
         	icon: {
         		src: "/img/atom/icons/icon-defense.svg",
@@ -51,17 +51,17 @@ export default function WaistLine() {
         <div className="ms-base-page ms-base-new waist">
 
             <PageHeader
-                title="WAIST.HEAD"
-                subtitleLevel1="WAIST.ABOUT_1"
-                subtitleLevel2="WAIST.ABOUT_2"
+                title={_("WAIST.HEAD")}
+                subtitleLevel1={_("WAIST.ABOUT_1")}
+                subtitleLevel2={_("WAIST.ABOUT_2")}
                 appId={1506250420}
-                appDownloadTitle="WAIST.DWN"
+                appDownloadTitle={_("WAIST.DWN")}
                 imgSrc="/img/page/waistline/waist.svg"
-                imgAlt="WAIST.IMG"
+                imgAlt={_("WAIST.IMG")}
                 imgH={468}
                 imgW={430}
             />
-			
+
             <section>
  				<div className="row g-4">
  					<TitleTextCard
@@ -110,8 +110,8 @@ export default function WaistLine() {
 					<div className="col-lg-6">
  						<ImageI18N
  							src="/img/page/waistline/main-pic-en.webp"
- 							w={535}
- 							h={447}
+ 							w={435}
+ 							h={397}
  							cls="ms-base-image mt-mob-xs"
  							alt={_("WAIST.ALT1")}
  						/>
@@ -125,21 +125,23 @@ export default function WaistLine() {
  						<h2>{_("WAIST.HEAD4")}</h2>
  					</div>
  					<div className="col-12">
- 						<IconTitleTextList items={iconTitleTextListItems} />
+ 						<IconTitleTextList items={advantages} />
  					</div>
  				</div>
  			</section>
 
             <section>
+				<div className="row">
  				<CallToAction
  					bgColor={{backgroundColor: "#FFB34066"}}
  					title={_("WAIST.HEAD5")}
  					subtitle={_("WAIST.DESC5")}
- 					appId={1507588203}
+ 					appId={1506250420}
 					appDownloadTitle={_("WAIST.DWN")}
-                    imgSrc="/img/page/waistline/call-to-action-en.webp" 
+                    imgSrc="/img/page/waistline/call-to-action-en.webp"
  					imgAlt={_("WAIST.ALT2")}
  				/>
+				</div>
  			</section>
         </div>
 
