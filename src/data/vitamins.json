@@ -381,7 +381,7 @@
         }
     },
     "CHROME": {
-        "LOGO": "/img/page/vitamin/chrome-logo.webp",
+        "LOGO": "/img/page/vitamin/chromium-logo.webp",
         "HEX": "00BCD4",
         "TYPE": null,
         "UNIT": "MCG",
