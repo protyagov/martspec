@@ -5,6 +5,6 @@ export const useScrollSpy = (scrollTargetId: string, scrollContainerId: string =
     const scrollContainer = document.getElementById(scrollContainerId);
     React.useLayoutEffect(() => {
         const target = scrollTargetId.replace(/^[^#]+/, "#$&");
-        const scrollSpy = new ScrollSpy(scrollContainer, { target })
+        const scrollSpy = new ScrollSpy(scrollContainer, { target });
     }, []);
 };

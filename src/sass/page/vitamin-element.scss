@@ -1,160 +1,160 @@
 .vitamin-element {
-  $main-font-size: 1.4rem;
+    $main-font-size: 1.4rem;
 
-  *:not(h1) {
-    color: $ms-color-text-darker;
-  }
-
-  h1 {
-    &::first-letter {
-      text-transform: capitalize !important;
-    }
-  }
-
-  h2,
-  h3 {
-    font-family: os6;
-    font-size: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  p {
-    font-family: os4;
-    font-size: $main-font-size;
-  }
-
-  .header {
-    position: relative;
-    margin-top: 0;
-
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background-color: var(--vitamin-bg-color);
-      opacity: 0.07;
-    }
-  }
-
-  .vit-type {
-    $py: 7px;
-    $px: 34px;
-
-    font-size: $main-font-size;
-
-    button {
-      width: max-content;
-
-      background-color: transparent;
-      border: 2px solid #eab839;
-      border-radius: 100px;
-      padding: $py $px;
-
-      font-family: os6;
+    *:not(h1) {
+        color: $ms-color-text-darker;
     }
 
-    .collapse-content {
-      background-color: #fcf4e1;
-      margin-top: $main-font-size;
-      font-family: os4;
-
-      .content-padding {
-        padding: $py $px;
-      }
+    h1 {
+        &::first-letter {
+            text-transform: capitalize !important;
+        }
     }
-  }
 
-  .vit-def,
-  .vit-over,
-  .vit-facts {
-    ul > * {
-      font-size: 1.2rem;
-      font-family: os4;
-    }
-    li {
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-    }
-  }
-
-  .vit-def {
+    h2,
     h3 {
-      $c: #2387d8;
-
-      color: $c;
-      border-bottom: 2px solid $c;
-      text-align: center;
-    }
-  }
-
-  .vit-over {
-    h3 {
-      $c: #ff6584;
-
-      color: $c;
-      border-bottom: 2px solid $c;
-      text-align: center;
-    }
-  }
-
-  .vit-table {
-    font-size: 1.2rem;
-    font-family: os4;
-
-    * {
-      border-color: #cac6c6;
+        font-family: os6;
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
-    thead {
-      background-color: #ededed;
+    p {
+        font-family: os4;
+        font-size: $main-font-size;
     }
-  }
 
-  .vit-charts {
-    td {
-      width: 1%;
-      white-space: nowrap;
-      vertical-align: middle;
-    }
-    .chart-container {
-      width: 100%;
-    }
-    .chart {
-      height: 1rem;
+    .header {
+        position: relative;
+        margin-top: 0;
 
-      background-color: #3bbb00;
-      opacity: 0.45;
-    }
-  }
+        padding-left: 0 !important;
+        padding-right: 0 !important;
 
-  .vit-facts {
-    li {
-      display: flex;
-      align-items: center;
-      line-height: 2.2rem;
-
-      &::marker {
-        list-style-type: none;
-      }
-      &::before {
-        content: " ";
-        border: 0.625rem solid #a7e08c;
-        border-radius: 99rem;
-        height: 0;
-        width: 0;
-        // content: "●";
-        // color: #A7E08C;
-        // font-size: 250%;
-        margin-top: -0.3rem;
-        margin-right: 1rem;
-      }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: var(--vitamin-bg-color);
+            opacity: 0.07;
+        }
     }
-  }
+
+    .vit-type {
+        $py: 7px;
+        $px: 34px;
+
+        font-size: $main-font-size;
+
+        button {
+            width: max-content;
+
+            background-color: transparent;
+            border: 2px solid #eab839;
+            border-radius: 100px;
+            padding: $py $px;
+
+            font-family: os6;
+        }
+
+        .collapse-content {
+            background-color: #fcf4e1;
+            margin-top: $main-font-size;
+            font-family: os4;
+
+            .content-padding {
+                padding: $py $px;
+            }
+        }
+    }
+
+    .vit-def,
+    .vit-over,
+    .vit-facts {
+        ul > * {
+            font-size: 1.2rem;
+            font-family: os4;
+        }
+        li {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .vit-def {
+        h3 {
+            $c: #2387d8;
+
+            color: $c;
+            border-bottom: 2px solid $c;
+            text-align: center;
+        }
+    }
+
+    .vit-over {
+        h3 {
+            $c: #ff6584;
+
+            color: $c;
+            border-bottom: 2px solid $c;
+            text-align: center;
+        }
+    }
+
+    .vit-table {
+        font-size: 1.2rem;
+        font-family: os4;
+
+        * {
+            border-color: #cac6c6;
+        }
+
+        thead {
+            background-color: #ededed;
+        }
+    }
+
+    .vit-charts {
+        td {
+            width: 1%;
+            white-space: nowrap;
+            vertical-align: middle;
+        }
+        .chart-container {
+            width: 100%;
+        }
+        .chart {
+            height: 1rem;
+
+            background-color: #3bbb00;
+            opacity: 0.45;
+        }
+    }
+
+    .vit-facts {
+        li {
+            display: flex;
+            align-items: center;
+            line-height: 2.2rem;
+
+            &::marker {
+                list-style-type: none;
+            }
+            &::before {
+                content: " ";
+                border: 0.625rem solid #a7e08c;
+                border-radius: 99rem;
+                height: 0;
+                width: 0;
+                // content: "●";
+                // color: #A7E08C;
+                // font-size: 250%;
+                margin-top: -0.3rem;
+                margin-right: 1rem;
+            }
+        }
+    }
 }

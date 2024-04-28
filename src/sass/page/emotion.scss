@@ -1,44 +1,44 @@
 @import "@/sass/atom/base-new-vars";
 
 .emotion {
-  $colors: $emotion-colors;
+    $colors: $emotion-colors;
 
-  .ms-btn-large {
-   background: map-get($colors, "main");
+    .ms-btn-large {
+        background: map-get($colors, "main");
 
-    &:hover {
-      background: map-get($colors, "hover");
+        &:hover {
+            background: map-get($colors, "hover");
+        }
+        &:active {
+            background: map-get($colors, "active") !important;
+        }
     }
-    &:active {
-      background: map-get($colors, "active") !important;
-    }
-  }
 
-  .icon {
-    background: map-get($colors, "bg");
-    
-    & > img {
-      filter: map-get($colors, "main-filter");
-    }
-  }
+    .icon {
+        background: map-get($colors, "bg");
 
-  .checkmark-list {
-    li {
-      &::before {
-        filter: map-get($colors, "main-filter");
-      }
+        & > img {
+            filter: map-get($colors, "main-filter");
+        }
     }
-  }
 
-  .personality-traits-list {
-    a {
-      margin-top: 1.5rem;
+    .checkmark-list {
+        li {
+            &::before {
+                filter: map-get($colors, "main-filter");
+            }
+        }
     }
-  }
 
-  &.color-test {
-		section:first-of-type {
-			background: map-get($colors, "bg");
-		}
-	}
+    .personality-traits-list {
+        a {
+            margin-top: 1.5rem;
+        }
+    }
+
+    &.color-test {
+        section:first-of-type {
+            background: map-get($colors, "bg");
+        }
+    }
 }

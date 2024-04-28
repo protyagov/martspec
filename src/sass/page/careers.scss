@@ -1,14 +1,13 @@
 .careers {
+    .ms-btn-large {
+        background: #248ce1;
+        color: #ffffff;
 
-  .ms-btn-large {
-   background: #248CE1;
-   color: #FFFFFF;
-
-    &:hover {
-      background: #0B63E3;
+        &:hover {
+            background: #0b63e3;
+        }
+        &:active {
+            background: #0a58ca !important;
+        }
     }
-    &:active {
-      background: #0A58CA !important;
-    }
-  }
 }
