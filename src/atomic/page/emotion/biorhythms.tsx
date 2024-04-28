@@ -172,12 +172,12 @@ export default function Biorhythms() {
                                     <li>{_("BIORHYTHMS.LIST3.LI4_TEXT")}</li>
                                 </ul>
                             </div>
-                            <ImageI18N src="/img/biorhythms_screen_1.en.512.webp" w={207} h={402} cls="ms-base-image d-block d-lg-none mb-mob-xxs" alt={_("BIORHYTHMS.ALT3")} />
+                            <ImageI18N src="/img/biorhythms_screen_1-en.512.webp" w={207} h={402} cls="ms-base-image d-block d-lg-none mb-mob-xxs" alt={_("BIORHYTHMS.ALT3")} />
                             <p className="mb-0">{_("BIORHYTHMS.DESK3_3")}</p>
                         </div>
                     </div>
                     <div className="col-lg-6 d-flex align-items-center">
-                        <ImageI18N src="/img/biorhythms_screen_1.en.512.webp" w={292} h={563} cls="ms-base-image d-none d-lg-block" alt={_("BIORHYTHMS.ALT3")} />
+                        <ImageI18N src="/img/biorhythms_screen_1-en.512.webp" w={292} h={563} cls="ms-base-image d-none d-lg-block" alt={_("BIORHYTHMS.ALT3")} />
                     </div>
                 </div>
             </section>
