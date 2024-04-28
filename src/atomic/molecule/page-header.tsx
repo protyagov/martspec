@@ -24,49 +24,28 @@ type WithoutImage<Props> = Props & {
     imgAlt?: never;
 };
 
-export default function PageHeader(props: (
-    | WithImage<PageHeaderProps>
-    | WithoutImage<PageHeaderProps>
-)) {
-    const {
-        title,
-        subtitleLevel1,
-        subtitleLevel2,
-        imgSrc,
-        imgH,
-        imgW,
-        imgAlt,
-        appId,
-        appDownloadTitle,
-    } = props;
+export default function PageHeader(props: WithImage<PageHeaderProps> | WithoutImage<PageHeaderProps>) {
+    const { title, subtitleLevel1, subtitleLevel2, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle } = props;
 
     return (
         <div className="ms-base-new">
-        <section className="page-header text-center">
-            <div className="row">
-                <div className="col">
-                    {imgSrc && (
-                        <img
-                            src={imgSrc}
-                            height={imgH}
-                            width={imgW}
-                            className="ms-base-image"
-                            alt={imgAlt}
-                        />
-                    )}
+            <section className="page-header text-center">
+                <div className="row">
+                    <div className="col">
+                        {imgSrc && (
+                            <img src={imgSrc} height={imgH} width={imgW} className="ms-base-image" alt={imgAlt} />
+                        )}
 
-                    <div className="headings">
-                        <h1>{title}</h1>
-                        {subtitleLevel1 && <h2>{subtitleLevel1}</h2>}
-                        {subtitleLevel2 && <h6>{subtitleLevel2}</h6>}
+                        <div className="headings">
+                            <h1>{title}</h1>
+                            {subtitleLevel1 && <h2>{subtitleLevel1}</h2>}
+                            {subtitleLevel2 && <h6>{subtitleLevel2}</h6>}
+                        </div>
+
+                        {appId && <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle} />}
                     </div>
-
-                    {appId && (
-                       <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle}/>
-                    )}
                 </div>
-            </div>
-        </section>
+            </section>
         </div>
     );
 }

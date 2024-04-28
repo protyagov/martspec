@@ -394,7 +394,6 @@
             "OVER_2": "30 a 50 mg: haría que la piel de la cara, los brazos y el pecho se vuelva de un color rojizo",
             "FACT_1": "Las dosis muy altas de ácido nicotínico, más de 100 veces la RDA, tomadas durante años podrían ser tratamientos efectivos para las dislipidemias",
             "FACT_2": "Tomar niacina con cromo podría reducir el nivel de azúcar en la sangre"
-
         },
         "VITAMIN_B5": {
             "HEAD": "B5",
@@ -871,8 +870,8 @@
         "LINK2": "Estudios de la Asociación Americana de Cardiología",
         "DESC2": " han demostrado que las medidas de la circunferencia de la cintura predicen con mayor precisión el riesgo de enfermedades cardíacas que el ampliamente utilizado Índice de Masa Corporal (IMC).",
         "HEAD3": "Hecho médico",
-        "DESC3": " muestran que el riesgo de diabetes tipo 2 y enfermedades cardiovasculares aumenta cuando hay más acumulación de grasa en la cintura que en la cadera.",       
-        "LINK3": "Investigaciones del Instituto Nacional de Salud de los Estados Unidos",  
+        "DESC3": " muestran que el riesgo de diabetes tipo 2 y enfermedades cardiovasculares aumenta cuando hay más acumulación de grasa en la cintura que en la cadera.",
+        "LINK3": "Investigaciones del Instituto Nacional de Salud de los Estados Unidos",
         "HEAD4": "Nuestras ventajas",
         "LIST2": {
             "LI1_HEAD": "Protección de Datos",
@@ -889,7 +888,7 @@
         "ALT1": "Pantallas del Apple Watch que muestran tu circunferencia de cintura en tiempo real y durante todo el día en la aplicación Cintura de Martspec",
         "ALT2": "Pantallas de Apple Watch que muestran la circunferencia de cintura actual y estadísticas en la aplicación Cintura de Martspec",
         "BTN_OPEN": "Tonifique su abdomen"
-    },       
+    },
     "ZINC": {
         "HEAD": "Zinc",
         "SUBHEAD": "Rastreador de zinc para su reloj",
@@ -898,7 +897,7 @@
         "IMG": "Rastrea su consumo diario de suplemento de zinc",
         "DWN": "Recibe la aplicación gratuita de Bodyzinc de Apple Store",
         "ABOUT_1": "Fácil de usar Rastreador de zinc dietético",
-        "ABOUT_2": "Para el reloj Apple",   
+        "ABOUT_2": "Para el reloj Apple",
         "LIST1": {
             "LI1_HEAD": "Cuidar su salud",
             "LI1_TEXT": "El uso cómodo de nuestra aplicación le permitirá realizar fácilmente un seguimiento de su ingesta diaria de zinc",
@@ -911,7 +910,7 @@
         "DESC1": "El zinc reduce el riesgo de neumonía, refuerza el sistema inmunitario y aumenta la actividad de las células T y las células asesinas",
         "DESC2": "Facilitar la vacunación y mantener el rendimiento mental",
         "DESC3": "Promueven la regeneración acelerada en el tratamiento de quemaduras, ciertas úlceras y otras lesiones cutáneas",
-        "DESC4": "Reduce la oxidación y los niveles de proteínas inflamatorias, previniendo la inflamación crónica",        
+        "DESC4": "Reduce la oxidación y los niveles de proteínas inflamatorias, previniendo la inflamación crónica",
         "HEAD4": "Ventajas",
         "LIST2": {
             "LI1_HEAD": "Protección de Datos",
@@ -1161,7 +1160,7 @@
         "DESK1_3": "Los trastornos de ansiedad son una condición que se desarrolla gradualmente después de un período de preocupación excesiva; los síntomas pueden variar en intensidad y persistir durante períodos de tiempo más largos. Los trastornos de ansiedad pueden hacer que las personas eviten situaciones que desencadenan o empeoran sus síntomas. Puede afectar la productividad laboral, el rendimiento académico y las relaciones personales.",
         "HEAD2": "Tipos de trastornos de ansiedad",
         "DESK2": "La edad promedio de aparición de un trastorno de ansiedad es de 20 a 24 años. Pueden ocurrir con otros trastornos mentales como la depresión o el trastorno de estrés postraumático. Existen varios tipos de trastornos de ansiedad, que incluyen:",
-        "LIST2":{
+        "LIST2": {
             "LI1_HEAD": "Trastorno de ansiedad generalizada (TAG).",
             "LI1_TEXT": "Las personas con TAG se preocupan por cuestiones comunes como la salud, el dinero, el trabajo y la familia. A menudo ocurre junto con otros trastornos de ansiedad o depresión y ocurre casi todos los días durante varios meses.",
             "LI2_HEAD": "Trastorno de pánico.",
@@ -1185,7 +1184,7 @@
         },
         "HEAD4": "Signos de un trastorno de ansiedad",
         "DESK4": "Actualmente se desconocen las causas de los trastornos de ansiedad, pero probablemente impliquen una combinación de factores, incluidos los genéticos, ambientales, psicológicos y del desarrollo. Algunos factores que han estado involucrados incluyen:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Química cerebral.",
             "LI1_TEXT": "El estrés severo o prolongado puede contribuir a cambios en el equilibrio químico del cerebro.",
             "LI2_HEAD": "Experiencias.",
@@ -1241,10 +1240,12 @@
         "DESK3_3": "La productividad, por otro lado, es el enfoque en ofrecer mejores resultados al realizar el trabajo. Esto significa esforzarse constantemente por mejorar la calidad del trabajo desarrollando nuevas habilidades o utilizando métodos más eficientes.",
         "DESK3_4": "Los factores clave para lograr una alta productividad y rendimiento no son solo la velocidad de una tarea o la cantidad de trabajo realizado durante un período de tiempo, sino también el nivel de calidad. Este problema se puede solucionar mediante una adecuada planificación, gestión del tiempo y desarrollo continuo de habilidades y conocimientos.",
         "HEAD4": "Beneficios de productividad",
-        "DESK4_1": "Las personas productivas tienen un valioso conjunto de habilidades y hábitos que mejoran enormemente su calidad de vida. Experimentan menos estrés debido a su capacidad para resolver problemas de manera efectiva y esta calma se extiende a sus relaciones, promoviendo conexiones más profundas con sus seres queridos. Su enfoque está en una mentalidad de éxito a menudo conduce al avance profesional porque son valorados por sus contribuciones y por producir constantemente un trabajo de alta calidad.",        "DESK4_2": "El impacto de la productividad se extiende más allá de los logros personales, ya que las personas productivas tienden a ser empleados eficaces y jugadores de equipo. Su enfoque organizado y su capacidad para cumplir los plazos los convierten en activos valiosos en el trabajo en grupo. Además, su inclinación por el crecimiento personal y la superación personal inspira a otros y crea una cultura de aprendizaje y desarrollo continuo.",
+        "DESK4_1": "Las personas productivas tienen un valioso conjunto de habilidades y hábitos que mejoran enormemente su calidad de vida. Experimentan menos estrés debido a su capacidad para resolver problemas de manera efectiva y esta calma se extiende a sus relaciones, promoviendo conexiones más profundas con sus seres queridos. Su enfoque está en una mentalidad de éxito a menudo conduce al avance profesional porque son valorados por sus contribuciones y por producir constantemente un trabajo de alta calidad.",
+        "DESK4_2": "El impacto de la productividad se extiende más allá de los logros personales, ya que las personas productivas tienden a ser empleados eficaces y jugadores de equipo. Su enfoque organizado y su capacidad para cumplir los plazos los convierten en activos valiosos en el trabajo en grupo. Además, su inclinación por el crecimiento personal y la superación personal inspira a otros y crea una cultura de aprendizaje y desarrollo continuo.",
         "DESK4_3": "Básicamente, las personas productivas están mejor equipadas para aprovechar las oportunidades, experimentar satisfacción personal e influir positivamente en los demás. Su capacidad para armonizar sus esfuerzos con sus objetivos contribuye a una vida marcada por logros, satisfacción y conexiones significativas.",
         "HEAD5": "¿Cómo ser más productivo?",
-        "DESK5_1": "El aumento de la productividad no es algo que suceda de la noche a la mañana. Si bien puede parecer fácil para algunas personas, su capacidad para planificar y utilizar su tiempo de manera efectiva a menudo tiene más que ver con hábitos establecidos que conducen a una mayor productividad con el tiempo. Para ser más productivo, concéntrese en las siguientes estrategias clave:",        "LIST5": {
+        "DESK5_1": "El aumento de la productividad no es algo que suceda de la noche a la mañana. Si bien puede parecer fácil para algunas personas, su capacidad para planificar y utilizar su tiempo de manera efectiva a menudo tiene más que ver con hábitos establecidos que conducen a una mayor productividad con el tiempo. Para ser más productivo, concéntrese en las siguientes estrategias clave:",
+        "LIST5": {
             "LI1_HEAD": "Establezca objetivos claros:",
             "LI1_TEXT": "identifique objetivos específicos y alcanzables para guiar sus esfuerzos.",
             "LI2_HEAD": "Priorizar tareas:",
@@ -1307,7 +1308,7 @@
         "ALT2": "Yoga",
         "HEAD3": "Características de la armonía interna",
         "DESK3": "La armonía interna implica un estado del ser en el que se experimenta una sensación de calma, satisfacción y ausencia de conflicto interno. La armonía abarca las siguientes características:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Estabilidad emocional:",
             "LI1_TEXT": "experimenta un equilibrio emocional constante.",
             "LI2_HEAD": "Aceptación:",
@@ -1321,7 +1322,7 @@
         },
         "HEAD4": "¿Cómo lograr la armonía interna?",
         "DESK4": "La armonía es una elección que usted puede hacer conscientemente. Es un estado mental, no un entorno físico en el que está situado. Puede alcanzar y mantener su armonía interna simplemente adoptando la actitud adecuada ante la vida. Aquí hay algunos pasos que pueden ayudarlo a lograr la armonía interna:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Conciencia de sí mismo:",
             "LI1_TEXT": "comprenda sus emociones, desencadenantes y patrones de pensamiento. Reconozca cuando esté perdiendo el equilibrio o experimentas una confusión interior. La autoconciencia es el primer paso para encontrar el equilibrio.",
             "LI2_HEAD": "Aceptación:",
@@ -1366,7 +1367,7 @@
         "ALT2": "Leer libros",
         "HEAD3": "Características de una personalidad independiente",
         "DESK3": "Estas son algunas de las características más comunes del tipo de personalidad independiente:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Autonomía.",
             "LI1_TEXT": "Las personas independientes tienen la capacidad de tomar decisiones basadas en sus propias creencias, valores y preferencias.",
             "LI2_HEAD": "Pensamiento crítico.",
@@ -1385,7 +1386,7 @@
         "ALT4": "Independencia",
         "HEAD5": "Problemas de un tipo de personalidad independiente",
         "DESK5_1": "Si bien tener una personalidad independiente puede ser beneficioso de muchas maneras, es importante comprender que también puede haber problemas y posibles inconvenientes con este rasgo. A continuación se detallan algunos problemas que pueden enfrentar las personas con un tipo de personalidad fuerte e independiente:",
-        "LIST5":{
+        "LIST5": {
             "LI1_HEAD": "Testarudez.",
             "LI1_TEXT": "La tendencia a confiar únicamente en la propia perspectiva y decisiones puede conducir a la terquedad. Esto puede dificultar la aceptación de puntos de vista alternativos o la adaptación a circunstancias cambiantes.",
             "LI2_HEAD": "Cooperación limitada.",
@@ -1473,7 +1474,7 @@
         "ALT4": "Interacción con colegas",
         "HEAD5": "Intereses profesionales para personas enérgicas",
         "DESK5_1": "Las personas enérgicas prosperan en actividades que les permiten expresar su vitalidad e interactuar con los demás. Algunas actividades adecuadas pueden incluir deportes de equipo, baile, aventuras al aire libre como senderismo o ciclismo, eventos de networking, hablar en público y actividades creativas de alta energía como la actuación o la oratoria. Aquí hay algunos intereses profesionales que pueden atraer a personas enérgicas:",
-        "LIST5":{
+        "LIST5": {
             "LI1_TEXT": "Ventas y marketing.",
             "LI2_TEXT": "Planificación de eventos.",
             "LI3_TEXT": "Relaciones públicas.",
@@ -1608,7 +1609,7 @@
     },
     "FOOTER": {
         "C": "© 2024 Martspec LLC. Todos los derechos reservados.",
-        "APPLE_BTN":{
+        "APPLE_BTN": {
             "TITLE": "Vea todas nuestras aplicaciones de Martspec en App Store de Apple",
             "ALT": "Vea todas nuestras aplicaciones de Martspec en App Store de Apple"
         },

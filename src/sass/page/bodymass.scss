@@ -1,13 +1,13 @@
 @import "@/sass/atom/base-new-vars";
 
 .bodymass {
-  $colors: $bodymass-colors;
+    $colors: $bodymass-colors;
 
-  .icon {
-    background: map-get($colors, "bg");
+    .icon {
+        background: map-get($colors, "bg");
 
-    &:not(.no-filter)>img {
-      filter: map-get($colors, "main-filter");
+        &:not(.no-filter) > img {
+            filter: map-get($colors, "main-filter");
+        }
     }
-  }
 }

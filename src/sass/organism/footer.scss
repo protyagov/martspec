@@ -3,7 +3,7 @@ footer {
     width: 100%;
     color: white;
 
-    h2{
+    h2 {
         font-size: 1.5rem;
 
         @include media-breakpoint-down(sm) {
@@ -22,7 +22,7 @@ footer {
 
         &:hover {
             cursor: pointer;
-            color: #79B6F2;
+            color: #79b6f2;
             text-decoration: underline;
         }
 
@@ -34,19 +34,19 @@ footer {
     p {
         padding-top: 2rem;
         margin-top: 0.5rem;
-        color: #AAA;
+        color: #aaa;
     }
 
     a {
         text-decoration: none;
-        color: #AAA;
+        color: #aaa;
 
         &:hover {
             color: #fafafa;
         }
     }
 
-    .icon-container{
+    .icon-container {
         margin-top: 0rem;
         justify-content: center;
         align-items: end;
@@ -59,21 +59,19 @@ footer {
             div:first-child {
                 flex-grow: 1;
                 max-width: 42%;
-                padding-left: .7rem;
+                padding-left: 0.7rem;
             }
-    
+
             div:last-child {
                 flex-grow: 1;
                 max-width: 58%;
-            }   
+            }
         }
-
     }
 
     .copyright {
-        justify-content: start !important;;
+        justify-content: start !important;
         margin-bottom: 0;
-        opacity: .6;
+        opacity: 0.6;
     }
-
 }

@@ -9,9 +9,7 @@ interface IconWithLoadProps {
 
 //--------------------------------------------------------------------------------------------------
 export default function IconWithLoad(props: IconWithLoadProps) {
+    if (props.isLoading) return <i className="fo icon-spin6 animate-spin" />;
 
-    if (props.isLoading)
-        return <i className="fo icon-spin6 animate-spin" />
-
-    return <i className={props.isActive ? props.classActive : props.classPassive} />
+    return <i className={props.isActive ? props.classActive : props.classPassive} />;
 }

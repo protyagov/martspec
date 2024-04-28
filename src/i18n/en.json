@@ -428,7 +428,6 @@
             "FACT_3": "May help with mild symptoms of nausea and vomiting during pregnancy",
             "FACT_4": "May help against the harmful effects of air pollution",
             "FACT_5": "The body does not store vitamin B6 and releases any excess in urine, so people need to get enough vitamin B6 every day"
-
         },
         "VITAMIN_B7": {
             "HEAD": "B7",
@@ -524,7 +523,6 @@
             "FACT_4": "Increasing calcium intakes reduces the risk of fractures and falls in older adults",
             "FACT_5": "4-year trial of 1,179 women aged 55+ years: taking 1,400 to 1,500 mg calcium alone, 1,400 to 1,500 mg calcium plus 27.5 mcg vitamin D3, or placebo daily. Cancer incidence was 60% lower in women who took the combination and 47% lower in those who took calcium-only supplements than in the placebo group",
             "FACT_6": "8 year study of 77,712 adults:  Average calcium intake of 1999 mg/day was associated with a 26% lower risk of colon cancer compared to 587 mg/day. Association with risk of rectal cancer was not found"
-
         },
         "CHLORIDE": {
             "HEAD": "Cl",
@@ -854,7 +852,7 @@
         "ICO": "Icon for the best waistline circumference tracking Apple Watch app. Full synchronization with Apple Health. Use easily without ADs, payments and registration.",
         "TEXT": "The easiest way to track waist circumference on Apple Watch. All records get synced to your Apple Health.",
         "IMG": "Keep track of your waist size (belly button) directly from your arm",
-        "DWN": "Download Free body waist app from the Apple AppStore",  
+        "DWN": "Download Free body waist app from the Apple AppStore",
         "ABOUT_1": "Convenient and simple waist diary",
         "ABOUT_2": "For your Apple Watch",
         "LIST1": {
@@ -872,7 +870,7 @@
         "LINK2": "Study by American Heart Association",
         "DESC2": "  has shown that measuring waistline might be a better way to predict heart disease risk than a widely used body mass index.",
         "HEAD3": "Medical Fact",
-        "DESC3": " shows if more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",       
+        "DESC3": " shows if more fat is located around your waist rather than around your hips, you are at higher risk for conditions including heart disease and type 2 diabetes.",
         "LINK3": "Research from the US National Institutes of Health",
         "HEAD4": "Advantages",
         "LIST2": {
@@ -912,7 +910,7 @@
         "DESC1": "Zinc reduces the risk of pneumonia, strengthens the immune system and increases the activity of T cells and killer cells",
         "DESC2": "Facilitate vaccination and support mental performance",
         "DESC3": "Promotes accelerated regeneration in the treatment of burns, some ulcers and other skin damage",
-        "DESC4": "Reduce oxidation and levels of inflammatory proteins, preventing chronic inflammation",        
+        "DESC4": "Reduce oxidation and levels of inflammatory proteins, preventing chronic inflammation",
         "HEAD4": "Advantages",
         "LIST2": {
             "LI1_HEAD": "Data protection",
@@ -954,7 +952,6 @@
         "HEAD5": "Body Shape",
         "DESC5": "Are you a pear 🍐? An apple 🍎 ? Or maybe a hourglass? Finding out your true body shape is more than one of those pointless online tests. Understanding your body shape might help you discover the most effective workout. Several studies suggest that it can help improve your health.",
         "BTN_OPEN": "Measure it"
-
     },
     "EMOTION": {
         "HEAD": "Emotion",
@@ -1190,7 +1187,8 @@
         "DESK4_2": "The influence of productivity goes beyond the framework of personal achievements, since productive people, as a rule, are effective employees and team players. Their organized approach and the ability to observe the deadlines make them valuable assets in group work. Moreover, their tendency to personal growth and self -improvement inspires others and creates a culture of continuous training and development.",
         "DESK4_3": "Essentially, productive people are better equipped to seize opportunities, experience personal satisfaction and positively influence others. Their ability to harmonize their efforts with their goals contributes to a life marked by achievement, satisfaction, and meaningful connections.",
         "HEAD5": "How to become more productive?",
-        "DESK5_1": "Increasing productivity is not something that happens overnight. While it may seem easy to some people, their ability to plan and use their time effectively often has more to do with established habits that lead to increased productivity over time. To become more productive, focus on the following key strategies:",        "LIST5": {
+        "DESK5_1": "Increasing productivity is not something that happens overnight. While it may seem easy to some people, their ability to plan and use their time effectively often has more to do with established habits that lead to increased productivity over time. To become more productive, focus on the following key strategies:",
+        "LIST5": {
             "LI1_HEAD": "Set clear goals:",
             "LI1_TEXT": "identify specific, achievable goals to guide your efforts.",
             "LI2_HEAD": "Prioritize tasks:",
@@ -1242,7 +1240,7 @@
         "DESK1_3": "Anxiety disorder is a condition that develops gradually after a period of excessive worry; symptoms may vary in intensity and persist for longer periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. It can affect work productivity, schoolwork and personal relationships.",
         "HEAD2": "Types of Anxiety Disorders",
         "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:",
-        "LIST2":{
+        "LIST2": {
             "LI1_HEAD": "Generalized anxiety disorder (GAD).",
             "LI1_TEXT": "People with GAD worry about common issues such as health, money, work, and family. It often occurs along with other anxiety disorders or depression, and occurs almost every day for several months.",
             "LI2_HEAD": "Panic disorder.",
@@ -1266,7 +1264,7 @@
         },
         "HEAD4": "Signs of an anxiety disorder",
         "DESK4": "The causes of anxiety disorders are currently unknown but likely involve a combination of factors, including genetic, environmental, psychological and developmental. Some factors that have been involved include:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Brain chemistry.",
             "LI1_TEXT": "Severe or prolonged stress can contribute to changes in the chemical balance in the brain.",
             "LI2_HEAD": "Experiences.",
@@ -1310,7 +1308,7 @@
         "ALT2": "Yoga",
         "HEAD3": "Characteristics of internal harmony",
         "DESK3": "Internal harmony implies a state of being where you experience a sense of calm, satisfaction and absence of internal conflict. Harmony encompasses the following characteristics:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Emotional stability:",
             "LI1_TEXT": "you experience constant emotional balance.",
             "LI2_HEAD": "Acceptance:",
@@ -1324,7 +1322,7 @@
         },
         "HEAD4": "How to achieve internal harmony?",
         "DESK4": "Harmony is a choice that you can consciously make. It is a mental state, not a physical environment in which you are situated. You can attain and sustain your internal harmony simply by adopting the appropriate attitude towards life. Here are a few steps that can help you achieve internal harmony:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Self-awareness:",
             "LI1_TEXT": "understand your emotions, triggers and thought patterns. Recognize when you are losing balance or experiencing inner turmoil. Self-awareness is the first step towards finding equilibrium.",
             "LI2_HEAD": "Acceptance:",
@@ -1369,7 +1367,7 @@
         "ALT2": "Read books",
         "HEAD3": "Characteristics of an independent personality",
         "DESK3": "Here are some of the most common characteristics of the independent personality type:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Autonomy.",
             "LI1_TEXT": "Independent people have the ability to make decisions based on their own beliefs, values ​​and preferences.",
             "LI2_HEAD": "Critical Thinking.",
@@ -1388,7 +1386,7 @@
         "ALT4": "Independence",
         "HEAD5": "Problems of an independent personality type",
         "DESK5_1": "While having an independent personality can be beneficial in many ways, it is important to understand that there can also be problems and potential problems with this trait. Here are some problems that people with a strong independent personality type may face:",
-        "LIST5":{
+        "LIST5": {
             "LI1_HEAD": "Stubbornness.",
             "LI1_TEXT": "The tendency to rely solely on one's own perspective and decisions can lead to stubbornness. This can make it difficult to accept alternative points of view or adapt to changing circumstances.",
             "LI2_HEAD": "Limited cooperation.",
@@ -1476,7 +1474,7 @@
         "ALT4": "Interaction with colleagues",
         "HEAD5": "Career interests for energetic people",
         "DESK5_1": "Energetic people thrive in activities that allow them to express their vitality and interact with others. Some suitable activities may include team sports, dancing, outdoor adventures such as hiking or cycling, networking events, public speaking and high-energy creative pursuits such as acting or speaking. Here are some career interests that might appeal to energetic people:",
-        "LIST5":{
+        "LIST5": {
             "LI1_TEXT": "Sales and Marketing.",
             "LI2_TEXT": "Event planning.",
             "LI3_TEXT": "Public Relations.",
@@ -1611,7 +1609,7 @@
     },
     "FOOTER": {
         "C": "© 2024 Martspec LLC. All rights reserved.",
-        "APPLE_BTN":{
+        "APPLE_BTN": {
             "TITLE": "See all martspec applications on our Apple AppStore",
             "ALT": "See all our apps on Martpsec AppStore at Apple"
         },
@@ -1686,7 +1684,6 @@
         "EKATERINA": "Ekaterina",
         "VADIM": "Vadim",
         "VICTORIA": "Victorya"
-
     },
     "CAREERS": {
         "HEAD": "Careers",

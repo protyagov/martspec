@@ -1,67 +1,66 @@
 .personality-trait {
-
-  strong, b {
-    font-family: os4;
-    font-weight: bold;
-
-  }
-
-  p,
-  ul,
-  .content-wrapper {
-    margin-bottom: 2rem;
-
-    &:last-child {
-      margin-bottom: 0;
+    strong,
+    b {
+        font-family: os4;
+        font-weight: bold;
     }
-  }
 
-  ul {
-    list-style-type: disc;
-    list-style: inside;
+    p,
+    ul,
+    .content-wrapper {
+        margin-bottom: 2rem;
 
-    li {
-      margin-bottom: .2rem;
-      color: $ms-color-text-gray-darker;
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
-  }
 
-  .content-wrapper {
-    margin-bottom: map-get($section-y-gap, "xxs");
-  }
+    ul {
+        list-style-type: disc;
+        list-style: inside;
 
-  .contents-list {
-    position: sticky;
-    top: 2rem;
-    background: #F8F8F8;
-    border-radius: 2.4rem;
-    padding: 2.25rem;
-
-    @include media-breakpoint-down($base-breakpoint) {
-      margin-bottom: map-get($section-y-gap, "xs");
+        li {
+            margin-bottom: 0.2rem;
+            color: $ms-color-text-gray-darker;
+        }
     }
-    
-    h3 {
-      font-family: os5;
-      margin-top: 0;
-    }
-    
-    #contents-list {
-      gap: 0.5rem;
 
-      a {
-        text-decoration: none;
-        font-size: 1.35rem;
-        color: $ms-color-text-gray-darker;
-        padding: 0;
-        background: transparent;
-        border-color: transparent;
-      }
-      a:hover,
-      a:focus,
-      a.active {
-        color: #AD43D7;
-      }
+    .content-wrapper {
+        margin-bottom: map-get($section-y-gap, "xxs");
     }
-  }
+
+    .contents-list {
+        position: sticky;
+        top: 2rem;
+        background: #f8f8f8;
+        border-radius: 2.4rem;
+        padding: 2.25rem;
+
+        @include media-breakpoint-down($base-breakpoint) {
+            margin-bottom: map-get($section-y-gap, "xs");
+        }
+
+        h3 {
+            font-family: os5;
+            margin-top: 0;
+        }
+
+        #contents-list {
+            gap: 0.5rem;
+
+            a {
+                text-decoration: none;
+                font-size: 1.35rem;
+                color: $ms-color-text-gray-darker;
+                padding: 0;
+                background: transparent;
+                border-color: transparent;
+            }
+            a:hover,
+            a:focus,
+            a.active {
+                color: #ad43d7;
+            }
+        }
+    }
 }
