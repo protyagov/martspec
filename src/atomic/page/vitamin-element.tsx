@@ -11,7 +11,7 @@ interface VitaminElement {
     [key: string]: any;
     LOGO: string;
     HEX: string;
-    TYPE: "VITAMIN_FAT" | "VITAMIN_WATER" | "MINERAL" | null;
+    TYPE: "VITAMIN_FAT" | "VITAMIN_WATER" | "MINERAL" | "ELECTROLYTE" | null;
     DOSE_RDV: { [key: string]: Array<number> };
     DOSE_UL: { [key: string]: Array<number> | null };
     FOOD_100G: { [key: string]: number };
@@ -54,6 +54,7 @@ export default function VitaminElement(props: VitaminElementProps) {
             case "VITAMIN_WATER":
                 return _("VITAMIN.CONTENT.GROUP." + data.TYPE) + " " + _("VITAMIN." + id + ".HEAD");
             case "MINERAL":
+            case "ELECTROLYTE":
                 return _("VITAMIN." + id + ".NAME");
             default:
                 return;

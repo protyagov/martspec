@@ -177,42 +177,30 @@ export default function Biorhythms() {
                     </div>
                 </section>
 
-                <section>
-                    <div className="row">
-                        <div className="col-lg-6 d-table">
-                            <div className="d-table-cell align-middle">
-                                <h2>{_("BIORHYTHMS.HEAD3")}</h2>
-                                <p>{_("BIORHYTHMS.DESK3_1")}</p>
-                                <div className="mb-6">
-                                    <h3>{_("BIORHYTHMS.DESK3_2")}</h3>
-                                    <ul className="checkmark-list">
-                                        <li>{_("BIORHYTHMS.LIST3.LI1_TEXT")}</li>
-                                        <li>{_("BIORHYTHMS.LIST3.LI2_TEXT")}</li>
-                                        <li>{_("BIORHYTHMS.LIST3.LI3_TEXT")}</li>
-                                        <li>{_("BIORHYTHMS.LIST3.LI4_TEXT")}</li>
-                                    </ul>
-                                </div>
-                                <ImageI18N
-                                    src="/img/biorhythms_screen_1.en.512.webp"
-                                    w={207}
-                                    h={402}
-                                    cls="ms-base-image d-block d-lg-none mb-mob-xxs"
-                                    alt={_("BIORHYTHMS.ALT3")}
-                                />
-                                <p className="mb-0">{_("BIORHYTHMS.DESK3_3")}</p>
+            <section>
+                <div className="row">
+                    <div className="col-lg-6 d-table">
+                        <div className="d-table-cell align-middle">
+                            <h2>{_("BIORHYTHMS.HEAD3")}</h2>
+                            <p>{_("BIORHYTHMS.DESK3_1")}</p>
+                            <div className="mb-6">
+                                <h3>{_("BIORHYTHMS.DESK3_2")}</h3>
+                                <ul className="checkmark-list">
+                                    <li>{_("BIORHYTHMS.LIST3.LI1_TEXT")}</li>
+                                    <li>{_("BIORHYTHMS.LIST3.LI2_TEXT")}</li>
+                                    <li>{_("BIORHYTHMS.LIST3.LI3_TEXT")}</li>
+                                    <li>{_("BIORHYTHMS.LIST3.LI4_TEXT")}</li>
+                                </ul>
                             </div>
-                        </div>
-                        <div className="col-lg-6 d-flex align-items-center">
-                            <ImageI18N
-                                src="/img/biorhythms_screen_1.en.512.webp"
-                                w={292}
-                                h={563}
-                                cls="ms-base-image d-none d-lg-block"
-                                alt={_("BIORHYTHMS.ALT3")}
-                            />
+                            <ImageI18N src="/img/biorhythms_screen_1-en.512.webp" w={207} h={402} cls="ms-base-image d-block d-lg-none mb-mob-xxs" alt={_("BIORHYTHMS.ALT3")} />
+                            <p className="mb-0">{_("BIORHYTHMS.DESK3_3")}</p>
                         </div>
                     </div>
-                </section>
+                    <div className="col-lg-6 d-flex align-items-center">
+                        <ImageI18N src="/img/biorhythms_screen_1-en.512.webp" w={292} h={563} cls="ms-base-image d-none d-lg-block" alt={_("BIORHYTHMS.ALT3")} />
+                    </div>
+                </div>
+            </section>
 
                 <section>
                     <div className="row">
