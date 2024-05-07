@@ -1,9 +1,9 @@
 import * as React from "react";
-import _, { Locale } from "@/i18n/locale";
-import { Footer } from "@/atomic/organism/footer";
+import _, {Locale} from "@/i18n/locale";
+import {Footer} from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ContentsList from "@/atomic/molecule/contents-list";
-import { useScrollSpy } from "@/hooks";
+import {useScrollSpy} from "@/hooks";
 import PageHeader from "@/atomic/molecule/page-header";
 
 export default function Productivity() {
@@ -56,7 +56,7 @@ export default function Productivity() {
                                 <img
                                     src="/img/page/productivity/productivity-img-1.webp"
                                     className="img-fluid"
-                                    alt=""
+                                    alt={_("PRODUCTIVITY.ALT_1")}
                                     width={805}
                                     height={472}
                                 />
@@ -78,7 +78,7 @@ export default function Productivity() {
                                 <img
                                     src="/img/page/productivity/productivity-img-2.webp"
                                     className="img-fluid"
-                                    alt=""
+                                    alt={_("PRODUCTIVITY.ALT_2")}
                                     width={805}
                                     height={472}
                                 />
