@@ -870,8 +870,8 @@
         "LINK2": "Étude réalisée par l'American Heart Association",
         "DESC2": " a montré que la mesure de la taille pourrait être un meilleur moyen de prédire le risque de maladie cardiaque qu'un indice de masse corporelle largement utilisé.",
         "HEAD3": "Fait Médical",
-        "DESC3": " montrent que le risque de diabète de type 2 et de maladies cardiovasculaires augmente lorsque davantage de dépôts graisseux se situent autour de la taille plutôt qu'autour des hanches.",       
-        "LINK3": "Étude des National Institutes of Health des États-Unis", 
+        "DESC3": " montrent que le risque de diabète de type 2 et de maladies cardiovasculaires augmente lorsque davantage de dépôts graisseux se situent autour de la taille plutôt qu'autour des hanches.",
+        "LINK3": "Étude des National Institutes of Health des États-Unis",
         "HEAD4": "Avantages",
         "LIST2": {
             "LI1_HEAD": "Protection des données",
@@ -888,7 +888,7 @@
         "ALT1": "Écrans Apple Watch affichant votre tour de taille en temps réel et toute la journée dans l'application Waist de Martspec",
         "ALT2": "Écrans Apple Watch affichant le tour de taille actuel et les statistiques dans l'application Waist de Martspec",
         "BTN_OPEN": "Diminuer"
-    },      
+    },
     "ZINC": {
         "HEAD": "Zinc",
         "SUBHEAD": "suivi la consommation de zinc",
@@ -897,7 +897,7 @@
         "IMG": "Suivez votre consommation quotidienne de supplément de zinc",
         "DWN": "Obtenez une application Bodyzinc gratuite d'Apple Store",
         "ABOUT_1": "Facile à utiliser le tracker zinc diététique",
-        "ABOUT_2": "Pour Apple Watch",   
+        "ABOUT_2": "Pour Apple Watch",
         "LIST1": {
             "LI1_HEAD": "Prendre soin de sa santé",
             "LI1_TEXT": "L'utilisation confortable de notre application vous permettra de suivre facilement votre consommation quotidienne de zinc",
@@ -910,7 +910,7 @@
         "DESC1": "Le zinc réduit le risque de pneumonie, renforce le système immunitaire et augmente l'activité des cellules T et des cellules tueuses",
         "DESC2": "Faciliter la vaccination et maintenir les performances mentales",
         "DESC3": "Favoriser une régénération accélérée dans le traitement des brûlures, de certains ulcères et d'autres lésions cutanées",
-        "DESC4": "Réduire l'oxydation et les niveaux de protéines inflammatoires, prévenir l'inflammation chronique",        
+        "DESC4": "Réduire l'oxydation et les niveaux de protéines inflammatoires, prévenir l'inflammation chronique",
         "HEAD4": "Avantages",
         "LIST2": {
             "LI1_HEAD": "Protection des données",
@@ -931,7 +931,7 @@
         "ALT3_3": "Nous nous soucions de nos utilisateurs, c'est pourquoi nous n'utilisons aucune publicité intrusive dans l'application.",
         "ALT3_4": "Synchronisation avec le programme Apple Health - la meilleure base de toutes les vitamines et microéléments.",
         "BTN_MORE": "PLUS DE DÉTAILS",
-      "BTN_OPEN": "Soutien"
+        "BTN_OPEN": "Soutien"
     },
     "SIZE": {
         "HEAD": "Belle Forme",
@@ -1208,7 +1208,9 @@
     },
     "PRODUCTIVITY": {
         "HEAD": "Productivité",
-        "IMG": "",
+        "IMG": "Ditch the to-do list overwhelm! Our productivity app helps you conquer tasks, boost focus, and achieve more - finally, stress-free.Emotion: Anxiety Stress Relief  #productivity #todolist #focus",
+        "ALT_1": "Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips",
+        "ALT_2": "Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management",
         "DWN": "Obtenez l'application gratuite Emotion pour Apple Watch, iPhone ou iPad directement depuis l'App Store d'Apple.",
         "CONTENTS": "Table des matières",
         "HEAD1": "Qu’est-ce que la productivité?",

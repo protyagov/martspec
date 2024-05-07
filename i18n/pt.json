@@ -873,7 +873,7 @@
         "LINK2": "Estudo da American Heart Association",
         "DESC2": " demonstrou que medir a cintura pode ser a melhor maneira de prever o risco de doenças cardíacas do que um índice de massa corporal amplamente utilizado.",
         "HEAD3": "Fato Médico",
-        "DESC3": " mostram que o risco de diabetes de tipo 2 e de doenças cardiovasculares aumenta quando há mais gordura à volta da cintura do que das ancas.",       
+        "DESC3": " mostram que o risco de diabetes de tipo 2 e de doenças cardiovasculares aumenta quando há mais gordura à volta da cintura do que das ancas.",
         "LINK3": "Estudo dos Institutos Nacionais de Saúde dos EUA",
         "HEAD4": "Vantagens",
         "LIST2": {
@@ -901,7 +901,7 @@
         "IMG": "Acompanhe seu consumo diário de suplemento de zinco",
         "DWN": "Obtenha gratuitamente o aplicativo BodyZinc da Apple Store",
         "ABOUT_1": "Rastreador de zinco simples e fácil de utilizar",
-        "ABOUT_2": "Para o seu Apple Watch",   
+        "ABOUT_2": "Para o seu Apple Watch",
         "LIST1": {
             "LI1_HEAD": "Cuidar da sua saúde",
             "LI1_TEXT": "A utilização confortável da nossa aplicação facilita o controlo da sua ingestão diária de zinco",
@@ -914,7 +914,7 @@
         "DESC1": "O zinco reduz o risco de pneumonia, reforça a imunidade e aumenta a atividade das células T e das células assassinas",
         "DESC2": "Facilita a vacinação e apoia o desempenho mental",
         "DESC3": "Promover a regeneração acelerada no tratamento de queimaduras, certas úlceras e outras lesões cutâneas",
-        "DESC4": "Reduzir a oxidação e os níveis de proteínas inflamatórias, prevenindo a inflamação crónicaе",        
+        "DESC4": "Reduzir a oxidação e os níveis de proteínas inflamatórias, prevenindo a inflamação crónicaе",
         "HEAD4": "Vantagens",
         "LIST2": {
             "LI1_HEAD": "Proteção de dados",
@@ -1213,7 +1213,9 @@
     },
     "PRODUCTIVITY": {
         "HEAD": "Produtividade",
-        "IMG": "",
+        "IMG": "Ditch the to-do list overwhelm! Our productivity app helps you conquer tasks, boost focus, and achieve more - finally, stress-free.Emotion: Anxiety Stress Relief  #productivity #todolist #focus",
+        "ALT_1": "Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips",
+        "ALT_2": "Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management",
         "DWN": "Obtenha o aplicativo Emoção gratuito para Apple Watch, iPhone ou iPad diretamente na Apple App Store.",
         "CONTENTS": "Índice",
         "HEAD1": "O que é produtividade?",
@@ -1479,7 +1481,7 @@
         "ALT4": "Interação com colegas",
         "HEAD5": "Interesses profissionais para pessoas energéticas",
         "DESK5_1": "Pessoas enérgicas prosperam em atividades que lhes permitem expressar sua vitalidade e interagir com outras pessoas. Algumas atividades adequadas podem incluir esportes coletivos, dança, aventuras ao ar livre, como caminhadas ou ciclismo, eventos de networking, falar em público e atividades criativas de alta energia, como atuar ou falar. Aqui estão alguns interesses profissionais que podem atrair pessoas enérgicas:",
-        "LIST5":{
+        "LIST5": {
             "LI1_TEXT": "Vendas e Marketing.",
             "LI2_TEXT": "Planejamento de eventos.",
             "LI3_TEXT": "Relações Públicas.",
