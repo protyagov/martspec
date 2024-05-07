@@ -428,7 +428,6 @@
             "FACT_3": "May help with mild symptoms of nausea and vomiting during pregnancy",
             "FACT_4": "May help against the harmful effects of air pollution",
             "FACT_5": "The body does not store vitamin B6 and releases any excess in urine, so people need to get enough vitamin B6 every day"
-
         },
         "VITAMIN_B7": {
             "HEAD": "B7",
@@ -524,7 +523,6 @@
             "FACT_4": "Increasing calcium intakes reduces the risk of fractures and falls in older adults",
             "FACT_5": "4-year trial of 1,179 women aged 55+ years: taking 1,400 to 1,500 mg calcium alone, 1,400 to 1,500 mg calcium plus 27.5 mcg vitamin D3, or placebo daily. Cancer incidence was 60% lower in women who took the combination and 47% lower in those who took calcium-only supplements than in the placebo group",
             "FACT_6": "8 year study of 77,712 adults:  Average calcium intake of 1999 mg/day was associated with a 26% lower risk of colon cancer compared to 587 mg/day. Association with risk of rectal cancer was not found"
-
         },
         "CHLORIDE": {
             "HEAD": "Cl",
@@ -860,13 +858,14 @@
         "LIST1": {
             "LI1_HEAD": "Waist circumference",
             "LI1_TEXT": "Automatic calculation of changes in your waist size",
-            "LI2_HEAD": "Support for dial extensions",
-            "LI2_TEXT": "Take full advantage of watch face-enabled devices for easy access to statistics",
+            "LI2_HEAD": "Support for display extensions",
+            "LI2_TEXT": "Take full advantage of watch display-enabled devices for easy access to statistics",
             "LI3_HEAD": "Works without iPhone",
             "LI3_TEXT": "Application independent of iPhone - access to statistics even without a phone"
         },
         "HEAD1": "Why waist?",
         "DESC1": "When you're gaining muscle and losing inches of fat your weight might not change much. That's why body composition can tell you more than the scale, it tells you the true story. Our application will help you track these parameters more conveniently.",
+        "LINK1": "National Institutes of Health, USA",
         "HEAD2": "Better than BMI",
         "LINK2": "Study by American Heart Association",
         "DESC2": "  has shown that measuring waistline might be a better way to predict heart disease risk than a widely used body mass index.",
@@ -897,16 +896,41 @@
         "TEXT": "Zinc may enhance immune function, stabilize blood sugar levels, and help keep your skin, eyes, and heart healthy.",
         "IMG": "Track your everyday consumption of zinc supplement",
         "DWN": "Get free of charge BodyZinc application from Apple Store",
-        "ABOUT": "Easy to use dietary zinc tracker for Apple Watch. Auto sync with Apple Health, does not require registration and absolutely free.",
-        "HEAD1": "Age-Related Diseases",
-        "DESC1": "Zinc may significantly reduce your risk of age-related diseases, such as pneumonia, infection and age-related macular degeneration (AMD). It may relieve oxidative stress and improve immune response by boosting the activity of T-cells and natural killer cells, which help protect your body from infection. Older adults who supplement with zinc experience improved influenza vaccination response, reduced risk of pneumonia and boosted mental performance.",
-        "LINK1": "National Institutes of Health, USA",
-        "HEAD2": "Wound Healing Acceleration",
-        "DESC2": "Zinc is commonly used in hospitals as a treatment for burns, certain ulcers and other skin injuries. In fact, your skin holds a relatively high amount — about 5% — of your body’s zinc content.",
-        "LINK2": "Study by American Heart Association",
-        "HEAD3": "Decreases Inflammation",
-        "DESC3": "Decreases oxidative stress and reduces levels of certain inflammatory proteins in your body. Oxidative stress leads to chronic inflammation, a contributing factor in a wide array of chronic illnesses, such as heart disease, cancer and mental decline.",
-        "HEAD4": "Elevated Cardiovascular Risk",
+        "ABOUT_1": "Simple and easy to use zinc tracker",
+        "ABOUT_2": "For your Apple Watch",
+        "LIST1": {
+            "LI1_HEAD": "Taking care of your health",
+            "LI1_TEXT": "Comfortable use of our application will allow you to easily track daily zinc consumption",
+            "LI2_HEAD": "Advanced watch faces",
+            "LI2_TEXT": "Convenient access to statistics on watches with earlier versions of software, starting with WatchOS 6, with support for any watch faces",
+            "LI3_HEAD": "Works without iPhone",
+            "LI3_TEXT": "Application independent of iPhone - access to entering data on zinc consumption even without a phone"
+        },
+        "HEAD1": "Why Zinc?",
+        "DESC1": "Zinc reduces the risk of pneumonia, strengthens the immune system and increases the activity of T cells and killer cells",
+        "DESC2": "Facilitate vaccination and support mental performance",
+        "DESC3": "Promotes accelerated regeneration in the treatment of burns, some ulcers and other skin damage",
+        "DESC4": "Reduce oxidation and levels of inflammatory proteins, preventing chronic inflammation",
+        "HEAD4": "Advantages",
+        "LIST2": {
+            "LI1_HEAD": "Data protection",
+            "LI1_TEXT": "We do not store your data on our servers",
+            "LI2_HEAD": "Without authorization",
+            "LI2_TEXT": "No account required for this app",
+            "LI3_HEAD": "Ad-free",
+            "LI3_TEXT": "We do not have annoying ads",
+            "LI4_HEAD": "Synchronization",
+            "LI4_TEXT": "Integration of reading and writing data"
+        },
+        "HEAD5": "Available for all Apple Watch models",
+        "DESC5": "Download the app now and track your daily zinc consumption, including throughout the day. Supports over 20+ languages",
+        "ALT1": "Apple Watch screens with zinc content statistics in the \"Zinc\" application from Martspec",
+        "ALT2": "Real-time Apple Watch screens with zinc content information in the Zinc app from Martspec",
+        "ALT3_1": "Protecting your information is our direct goal. Martspec does not store your data, this is a guarantee of the security of your data.",
+        "ALT3_2": "There is no need for login and password authorization. An account is not required to operate the application.",
+        "ALT3_3": "We care about our users, so we do not use any intrusive advertising in the application.",
+        "ALT3_4": "Sync with Apple Health.",
+        "BTN_MORE": "MORE",
         "BTN_OPEN": "AmaZinc element"
     },
     "SIZE": {
@@ -928,7 +952,6 @@
         "HEAD5": "Body Shape",
         "DESC5": "Are you a pear 🍐? An apple 🍎 ? Or maybe a hourglass? Finding out your true body shape is more than one of those pointless online tests. Understanding your body shape might help you discover the most effective workout. Several studies suggest that it can help improve your health.",
         "BTN_OPEN": "Measure it"
-
     },
     "EMOTION": {
         "HEAD": "Emotion",
@@ -1166,7 +1189,8 @@
         "DESK4_2": "The influence of productivity goes beyond the framework of personal achievements, since productive people, as a rule, are effective employees and team players. Their organized approach and the ability to observe the deadlines make them valuable assets in group work. Moreover, their tendency to personal growth and self -improvement inspires others and creates a culture of continuous training and development.",
         "DESK4_3": "Essentially, productive people are better equipped to seize opportunities, experience personal satisfaction and positively influence others. Their ability to harmonize their efforts with their goals contributes to a life marked by achievement, satisfaction, and meaningful connections.",
         "HEAD5": "How to become more productive?",
-        "DESK5_1": "Increasing productivity is not something that happens overnight. While it may seem easy to some people, their ability to plan and use their time effectively often has more to do with established habits that lead to increased productivity over time. To become more productive, focus on the following key strategies:",        "LIST5": {
+        "DESK5_1": "Increasing productivity is not something that happens overnight. While it may seem easy to some people, their ability to plan and use their time effectively often has more to do with established habits that lead to increased productivity over time. To become more productive, focus on the following key strategies:",
+        "LIST5": {
             "LI1_HEAD": "Set clear goals:",
             "LI1_TEXT": "identify specific, achievable goals to guide your efforts.",
             "LI2_HEAD": "Prioritize tasks:",
@@ -1218,7 +1242,7 @@
         "DESK1_3": "Anxiety disorder is a condition that develops gradually after a period of excessive worry; symptoms may vary in intensity and persist for longer periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. It can affect work productivity, schoolwork and personal relationships.",
         "HEAD2": "Types of Anxiety Disorders",
         "DESK2": "The average age of onset of an anxiety disorder is 20–24 years. They can occur with other mental disorders such as depression or post-traumatic stress disorder. There are several types of anxiety disorders, including:",
-        "LIST2":{
+        "LIST2": {
             "LI1_HEAD": "Generalized anxiety disorder (GAD).",
             "LI1_TEXT": "People with GAD worry about common issues such as health, money, work, and family. It often occurs along with other anxiety disorders or depression, and occurs almost every day for several months.",
             "LI2_HEAD": "Panic disorder.",
@@ -1242,7 +1266,7 @@
         },
         "HEAD4": "Signs of an anxiety disorder",
         "DESK4": "The causes of anxiety disorders are currently unknown but likely involve a combination of factors, including genetic, environmental, psychological and developmental. Some factors that have been involved include:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Brain chemistry.",
             "LI1_TEXT": "Severe or prolonged stress can contribute to changes in the chemical balance in the brain.",
             "LI2_HEAD": "Experiences.",
@@ -1286,7 +1310,7 @@
         "ALT2": "Yoga",
         "HEAD3": "Characteristics of internal harmony",
         "DESK3": "Internal harmony implies a state of being where you experience a sense of calm, satisfaction and absence of internal conflict. Harmony encompasses the following characteristics:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Emotional stability:",
             "LI1_TEXT": "you experience constant emotional balance.",
             "LI2_HEAD": "Acceptance:",
@@ -1300,7 +1324,7 @@
         },
         "HEAD4": "How to achieve internal harmony?",
         "DESK4": "Harmony is a choice that you can consciously make. It is a mental state, not a physical environment in which you are situated. You can attain and sustain your internal harmony simply by adopting the appropriate attitude towards life. Here are a few steps that can help you achieve internal harmony:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Self-awareness:",
             "LI1_TEXT": "understand your emotions, triggers and thought patterns. Recognize when you are losing balance or experiencing inner turmoil. Self-awareness is the first step towards finding equilibrium.",
             "LI2_HEAD": "Acceptance:",
@@ -1345,7 +1369,7 @@
         "ALT2": "Read books",
         "HEAD3": "Characteristics of an independent personality",
         "DESK3": "Here are some of the most common characteristics of the independent personality type:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Autonomy.",
             "LI1_TEXT": "Independent people have the ability to make decisions based on their own beliefs, values ​​and preferences.",
             "LI2_HEAD": "Critical Thinking.",
@@ -1364,7 +1388,7 @@
         "ALT4": "Independence",
         "HEAD5": "Problems of an independent personality type",
         "DESK5_1": "While having an independent personality can be beneficial in many ways, it is important to understand that there can also be problems and potential problems with this trait. Here are some problems that people with a strong independent personality type may face:",
-        "LIST5":{
+        "LIST5": {
             "LI1_HEAD": "Stubbornness.",
             "LI1_TEXT": "The tendency to rely solely on one's own perspective and decisions can lead to stubbornness. This can make it difficult to accept alternative points of view or adapt to changing circumstances.",
             "LI2_HEAD": "Limited cooperation.",
@@ -1452,7 +1476,7 @@
         "ALT4": "Interaction with colleagues",
         "HEAD5": "Career interests for energetic people",
         "DESK5_1": "Energetic people thrive in activities that allow them to express their vitality and interact with others. Some suitable activities may include team sports, dancing, outdoor adventures such as hiking or cycling, networking events, public speaking and high-energy creative pursuits such as acting or speaking. Here are some career interests that might appeal to energetic people:",
-        "LIST5":{
+        "LIST5": {
             "LI1_TEXT": "Sales and Marketing.",
             "LI2_TEXT": "Event planning.",
             "LI3_TEXT": "Public Relations.",
@@ -1533,11 +1557,11 @@
         "HEAD1": "Emotion Test",
         "DESC1": "In 1 minute, find the cause of unexpected mood swings, strong emotional changes, low productivity and more.",
         "HEAD2": "How does it work?",
-        "DESC2": "Choose the color you like best on the ring (there are 8 in total). Using the same principle, again choose a color from the remaining 7. Continue until you run out of colors.",
+        "DESC2": "Choose the color you like best on the ring (there are 8 in total). Using the same principle, choose again from the remaining 7 colors. Continue until you run out of colors.",
         "HEAD3": "Test Accuracy",
         "DESC3": "For accuracy, you must run the test twice. When you run the test again, do not try to repeat the previous choice. Try to choose colors only based on your preferences at that particular moment. DO NOT try to associate colors with objects - cars, clothes, buildings, etc. To get most accurate results, choose colors without thinking. Trust your subconscious.",
         "HEAD4": "Why does this work?",
-        "DESC4": "Colors have surrounded humanity since time immemorial, influencing people for generations. Initially, human life was controlled by two uncontrollable factors: night and day, light and darkness. For thousands of years, human actions such as attack (red color) and retreat (green color) were built into the subconscious. The subconscious meaning of color exists whether we like it or not and does not depend on race, language, level of education, social status, etc. ",
+        "DESC4": "Colors have surrounded humanity since the beginning of time, influencing people for generations. Initially, human life was controlled by two uncontrollable factors: night and day, light and darkness. For thousands of years, human actions such as attack (red color) and retreat (green color) were built into the subconscious. The subconscious meaning of color exists whether we like it or not and does not depend on race, language, level of education, social status, etc. ",
         "TEST_HEAD": "Which color do you like best?",
         "TEST_DESC": "Try to choose colors only based on your preferences at a particular moment. DO NOT try to associate colors with objects - cars, clothes, buildings, etc. To get the most accurate results, choose colors without thinking.",
         "RES": "Your results:",
@@ -1587,7 +1611,7 @@
     },
     "FOOTER": {
         "C": "© 2024 Martspec LLC. All rights reserved.",
-        "APPLE_BTN":{
+        "APPLE_BTN": {
             "TITLE": "See all martspec applications on our Apple AppStore",
             "ALT": "See all our apps on Martpsec AppStore at Apple"
         },
@@ -1662,7 +1686,6 @@
         "EKATERINA": "Ekaterina",
         "VADIM": "Vadim",
         "VICTORIA": "Victorya"
-
     },
     "CAREERS": {
         "HEAD": "Careers",

@@ -1,84 +1,83 @@
 @import "@/sass/atom/base-new-vars";
 
 .biorhythms {
+    .columns-with-collapse {
+        $columns-count: 2;
 
-  .columns-with-collapse {
-    $columns-count: 2;
+        display: grid;
+        grid-template: max-content / repeat($columns-count, 1fr);
+        gap: $column-x-gap;
 
-    display: grid;
-    grid-template: max-content / repeat($columns-count, 1fr);
-    gap: $column-x-gap;
-
-    p {
-      margin-bottom: 0;
-    }
-
-    @include media-breakpoint-down(lg) {
-      grid-template-columns: 1fr;
-    }
-  }
-
-  .ms-read-more-btn {
-    margin-top: 1.5rem;
-  }
-
-  .ms-content-collapse-btn {
-    &[aria-expanded="true"] {
-      display: none;
-    }
-
-    span {
-      &::after {
-        transform: rotate(90deg);
-      }
-    }
-  }
-  
-  .checkmark-list {
-    grid-template-columns: 1fr;
-  }
-  
-  #rhythms-carousel {
-    $carousel-fade-transition: opacity 0.6s 0.1s;
-
-    .indicators {
-      position: relative;
-      display: block;
-      margin: 0;
-
-      a {
-        display: block;
-        text-decoration: none;
-        * {
-          color: #afafaf;
-        }
-        &.active * {
-          color: $ms-color-text-black;
-        }
-      }
-    }
-
-    .carousel-item {
-      display: block;
-
-      ul {
-        list-style-type: disc;
-        list-style: inside;
-
-        @include media-breakpoint-up(md) {
-          columns: 2;
+        p {
+            margin-bottom: 0;
         }
 
-        li {
-          margin-bottom: .7rem;
+        @include media-breakpoint-down(lg) {
+            grid-template-columns: 1fr;
         }
-      }
     }
 
-    .carousel-item.active,
-    .carousel-item-next.carousel-item-start,
-    .carousel-item-prev.carousel-item-end {
-      @include transition($carousel-fade-transition);
+    .ms-read-more-btn {
+        margin-top: 1.5rem;
     }
-  }
+
+    .ms-content-collapse-btn {
+        &[aria-expanded="true"] {
+            display: none;
+        }
+
+        span {
+            &::after {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    .checkmark-list {
+        grid-template-columns: 1fr;
+    }
+
+    #rhythms-carousel {
+        $carousel-fade-transition: opacity 0.6s 0.1s;
+
+        .indicators {
+            position: relative;
+            display: block;
+            margin: 0;
+
+            a {
+                display: block;
+                text-decoration: none;
+                * {
+                    color: #afafaf;
+                }
+                &.active * {
+                    color: $ms-color-text-black;
+                }
+            }
+        }
+
+        .carousel-item {
+            display: block;
+
+            ul {
+                list-style-type: disc;
+                list-style: inside;
+
+                @include media-breakpoint-up(md) {
+                    columns: 2;
+                }
+
+                li {
+                    margin-bottom: 0.7rem;
+                }
+            }
+        }
+
+        .carousel-item.active,
+        .carousel-item-next.carousel-item-start,
+        .carousel-item-prev.carousel-item-end {
+            @include transition($carousel-fade-transition);
+        }
+    }
 }

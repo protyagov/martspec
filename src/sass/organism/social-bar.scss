@@ -1,17 +1,17 @@
 @import "@/sass/atom/color.scss";
 
 .social-bar {
-  &-white a {
-    color: white
-  }
-  &-black a {
-    color: $ms-color-text-black;
-  }
-  
-  svg {
-    width: 1.8rem;
-    height: 1.8rem;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-  }
+    &-white a {
+        color: white;
+    }
+    &-black a {
+        color: $ms-color-text-black;
+    }
+
+    svg {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
 }

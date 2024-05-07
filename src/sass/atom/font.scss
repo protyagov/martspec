@@ -1,31 +1,31 @@
-@import 'font-vector.scss';
+@import "font-vector.scss";
 
 @font-face {
     font-family: os3;
     src: url(../font/rubik-v12-300.woff2) format("woff2");
     font-weight: 300;
-    font-style: normal
+    font-style: normal;
 }
 
 @font-face {
     font-family: os4;
     src: url(../font/rubik-v12-400.woff2) format("woff2");
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
 }
 
- @font-face {
-     font-family: os5;
-     src: url(../font/rubik-v12-500.woff2) format("woff2");
-     font-weight: 500;
-     font-style: normal
- }
+@font-face {
+    font-family: os5;
+    src: url(../font/rubik-v12-500.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
 
 @font-face {
     font-family: os6;
     src: url(../font/rubik-v12-600.woff2) format("woff2");
     font-weight: 600;
-    font-style: normal
+    font-style: normal;
 }
 
 // @font-face {

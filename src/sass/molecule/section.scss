@@ -1,164 +1,161 @@
 //---------------------------------------------------------------------------------------------------------------------
 .ms-s {
-  padding: 10vmin 0;
-  font-family: os4;
-  position: relative;
-  display: table;
-  width: 100%;
-  -webkit-background-size: cover;
-  -webkit-font-smoothing: antialiased;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding: 10vmin 0;
+    font-family: os4;
+    position: relative;
+    display: table;
+    width: 100%;
+    -webkit-background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 //---------------------------------------------------------------------------------------------------------------------
 .ms-s-header {
-  @extend .ms-s;
-  padding-top: 5vmin;
-  padding-bottom: 15vmin;
+    @extend .ms-s;
+    padding-top: 5vmin;
+    padding-bottom: 15vmin;
 
-  h1 {
-    font-family: os6;
-    font-size: 3.5rem;
-    padding-top: 2vmin;
-    padding-bottom: 1vmin;
+    h1 {
+        font-family: os6;
+        font-size: 3.5rem;
+        padding-top: 2vmin;
+        padding-bottom: 1vmin;
 
-    @include media-breakpoint-down(sm) {
-      font-size: 2rem;
-      padding-bottom: 1vmin;
+        @include media-breakpoint-down(sm) {
+            font-size: 2rem;
+            padding-bottom: 1vmin;
+        }
     }
-  }
 
-  h4 {
-    color: $ms-color-text-blue-light;
-    font-size: 2rem;
-    padding-bottom: 2vmin;
+    h4 {
+        color: $ms-color-text-blue-light;
+        font-size: 2rem;
+        padding-bottom: 2vmin;
 
-    @include media-breakpoint-down(sm) {
-      font-size: 1.4rem;
+        @include media-breakpoint-down(sm) {
+            font-size: 1.4rem;
+        }
     }
-  }
 
-
-  &:before {
-    content: "";
-    background: linear-gradient(rgba(162, 205, 236, 0.17), rgba(74, 145, 196, 0));
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-  }
-
-  .watches-img {
-    transform: translateX(-10vmin);
-
-    @include media-breakpoint-down(sm) {
-      transform: translateX(5vmin);
+    &:before {
+        content: "";
+        background: linear-gradient(rgba(162, 205, 236, 0.17), rgba(74, 145, 196, 0));
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
     }
-  }
+
+    .watches-img {
+        transform: translateX(-10vmin);
+
+        @include media-breakpoint-down(sm) {
+            transform: translateX(5vmin);
+        }
+    }
 }
-
 
 //---------------------------------------------------------------------------------------------------------------------
 .ms-s-offset {
-  @extend .container-xxl;
+    @extend .container-xxl;
 
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 2.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 2.5rem;
 
-  @include media-breakpoint-down(sm) {
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-  }
+    @include media-breakpoint-down(sm) {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+    }
 
-  @include media-breakpoint-up(xxl) {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
+    @include media-breakpoint-up(xxl) {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 }
 
 //---------------------------------------------------------------------------------------------------------------------
 .ms-s-product {
-  @extend .ms-s;
+    @extend .ms-s;
 
-  outline: none;
-  letter-spacing: normal;
-  font-family: os4;
+    outline: none;
+    letter-spacing: normal;
+    font-family: os4;
 
-  h1 {
-    font-family: os6;
-    margin-bottom: 0;
-  }
-
-  p {
-    font-size: 1.1rem;
-    color: $ms-color-text-orange;
-    margin-bottom: 0;
-    display: inline-block;
-
-    &::first-letter {
-      text-transform: uppercase;
-    }
-  }
-
-  img {
-    margin-bottom: 0;
-  }
-
-  .p-container {
-    &>* {
-      @extend .mb-3;
+    h1 {
+        font-family: os6;
+        margin-bottom: 0;
     }
 
-    display: grid;
-    align-items: center;
-    justify-content: space-between;
+    p {
+        font-size: 1.1rem;
+        color: $ms-color-text-orange;
+        margin-bottom: 0;
+        display: inline-block;
 
-    @each $area in head,
-    img,
-    text {
-      .p-#{$area} {
-        grid-area: $area;
-      }
+        &::first-letter {
+            text-transform: uppercase;
+        }
     }
 
-    .p-img {
-      text-align: center;
+    img {
+        margin-bottom: 0;
     }
 
-    grid-template: ". img"
-    "head img"
-    "text img"
-    ". img"
-    / 55% 30%;
-
-    @include media-breakpoint-down(md) {
-      justify-content: unset !important;
-      grid-template:
-        "head"
-        "img"
-        "text"
-        / 100% 100% 100% !important;
-    }
-  }
-
-  &:nth-child(odd) {
-    background-color: $ms-color-bg-secondary;
-  }
-
-  &:nth-child(even) {
     .p-container {
-      grid-template:
-        "img ."
-        "img head"
-        "img text"
-        "img ."
-        / 30% 55%;
+        & > * {
+            @extend .mb-3;
+        }
+
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+
+        @each $area in head, img, text {
+            .p-#{$area} {
+                grid-area: $area;
+            }
+        }
+
+        .p-img {
+            text-align: center;
+        }
+
+        grid-template:
+            ". img"
+            "head img"
+            "text img"
+            ". img"
+            / 55% 30%;
+
+        @include media-breakpoint-down(md) {
+            justify-content: unset !important;
+            grid-template:
+                "head"
+                "img"
+                "text"
+                / 100% 100% 100% !important;
+        }
     }
-  }
+
+    &:nth-child(odd) {
+        background-color: $ms-color-bg-secondary;
+    }
+
+    &:nth-child(even) {
+        .p-container {
+            grid-template:
+                "img ."
+                "img head"
+                "img text"
+                "img ."
+                / 30% 55%;
+        }
+    }
 }

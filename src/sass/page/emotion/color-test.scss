@@ -1,126 +1,128 @@
 @import "@/sass/atom/base-new-vars";
 
 .color-test {
-	h1 {
-		margin: 0;
-		margin-bottom: 2rem;
-	}
-
-	section:first-of-type {
-		padding: map-get($section-y-gap, "m") 0;
-
-		.ms-btn-large {
-			margin-top: 2.7rem;
-		}
-	}
-
-	.mb-7 {
-    margin-bottom: 2.7rem; // todo: move to base-new when needed
-  }
-
-	.color-sectors {
-		$max-sector-height: 16rem;
-		$min-sector-height: 9rem;
-
-		display: grid;
-		gap: 1.5rem;
-		grid-template-columns: repeat(4, 1fr);
-		grid-auto-rows: minmax($min-sector-height, Min(14vw, $max-sector-height));
-
-		@include media-breakpoint-down(md) {
-			grid-template-columns: repeat(2, 1fr);
-		}
-
-		.sector {
-			border: none;
-			outline: none;
-			height: 100%;
-			width: 100%;
-
-			border-radius: 1.5rem;
-
-			visibility: visible;
-  		opacity: 1;
-
-			&.selected {
-				visibility: hidden;
-				opacity: 0;
-				transition: opacity .2s, visibility 0s .2s ease-in-out;
-			}
-		}
-	}
-
-	.test-result {
-		white-space: pre-line;
-		
-		.row:not(:only-child):not(:last-child) {
-      margin-bottom: 5.3rem;
+    h1 {
+        margin: 0;
+        margin-bottom: 2rem;
     }
 
-		.block.bg-gray {
-			background-color: #F9F9F9;
-			padding: 1.3rem 2rem;
-			border-radius: 1.5rem;
+    section:first-of-type {
+        padding: map-get($section-y-gap, "m") 0;
 
-			h3 {
-				color: $ms-color-text-black;
-				margin-bottom: .7rem;
-			}
+        .ms-btn-large {
+            margin-top: 2.7rem;
+        }
+    }
 
-			&:not(.blured) {
-				&:hover:not(:active) {
-					cursor: pointer;
-					background-color: #FFF;
-				}
-			}
+    .mb-7 {
+        margin-bottom: 2.7rem; // todo: move to base-new when needed
+    }
 
-			&.blured {
-				p {
-					filter: blur(8px);
-					user-select: none;
-				}
-				.test-result-icon {
-					filter: blur(10px);
-				}
-			}
-		}
+    .color-sectors {
+        $max-sector-height: 16rem;
+        $min-sector-height: 9rem;
 
-		.block.bg-violet,
-		.block.bg-yellow {
-			border-radius: 2rem;
-		}
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax($min-sector-height, Min(14vw, $max-sector-height));
 
-		.test-result-icon {
-			height: 1.1rem;
-			width: 1.1rem;
+        @include media-breakpoint-down(md) {
+            grid-template-columns: repeat(2, 1fr);
+        }
 
-			$icon-color: var(--color);
+        .sector {
+            border: none;
+            outline: none;
+            height: 100%;
+            width: 100%;
 
-			border: 1px solid $icon-color;
-			border-radius: 50%;
+            border-radius: 1.5rem;
 
-			&.NULL {
-				background: transparent;
-			}
-			&.HALF {
-				background: linear-gradient(90deg, $icon-color 50%, transparent 50%); 
-			}
-			&.FULL {
-				background: $icon-color;
-			}
-		}
-	}
+            visibility: visible;
+            opacity: 1;
 
-	.block {
-		display: flex;
-		flex-direction: column;
+            &.selected {
+                visibility: hidden;
+                opacity: 0;
+                transition:
+                    opacity 0.2s,
+                    visibility 0s 0.2s ease-in-out;
+            }
+        }
+    }
 
-		&.test-principles {
-			gap: 3rem;
+    .test-result {
+        white-space: pre-line;
 
-			@include media-breakpoint-up(sm) {
-				padding: map-get($section-y-gap, "m");
-			}
-		}
-	}
+        .row:not(:only-child):not(:last-child) {
+            margin-bottom: 5.3rem;
+        }
+
+        .block.bg-gray {
+            background-color: #f9f9f9;
+            padding: 1.3rem 2rem;
+            border-radius: 1.5rem;
+
+            h3 {
+                color: $ms-color-text-black;
+                margin-bottom: 0.7rem;
+            }
+
+            &:not(.blured) {
+                &:hover:not(:active) {
+                    cursor: pointer;
+                    background-color: #fff;
+                }
+            }
+
+            &.blured {
+                p {
+                    filter: blur(8px);
+                    user-select: none;
+                }
+                .test-result-icon {
+                    filter: blur(10px);
+                }
+            }
+        }
+
+        .block.bg-violet,
+        .block.bg-yellow {
+            border-radius: 2rem;
+        }
+
+        .test-result-icon {
+            height: 1.1rem;
+            width: 1.1rem;
+
+            $icon-color: var(--color);
+
+            border: 1px solid $icon-color;
+            border-radius: 50%;
+
+            &.NULL {
+                background: transparent;
+            }
+            &.HALF {
+                background: linear-gradient(90deg, $icon-color 50%, transparent 50%);
+            }
+            &.FULL {
+                background: $icon-color;
+            }
+        }
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+
+        &.test-principles {
+            gap: 3rem;
+
+            @include media-breakpoint-up(sm) {
+                padding: map-get($section-y-gap, "m");
+            }
+        }
+    }
 }

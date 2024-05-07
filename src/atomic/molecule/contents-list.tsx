@@ -11,21 +11,15 @@ export default function ContentsList(props: ContentsListProps) {
 
     return (
         <div id="contents-list" className="list-group">
-            {
-                [...Array(CONTENTS_COUNT)].map((section, idx) => {
-                    ++idx;
-                    const id = "section-" + idx;
-                    return (
-                        <a
-                            href={"#" + id}
-                            key={id}
-                            className="list-group-item list-group-item-action"
-                        >
-                            {_(PAGE + ".HEAD" + idx)}
-                        </a>
-                    )
-                })
-            }
+            {[...Array(CONTENTS_COUNT)].map((section, idx) => {
+                ++idx;
+                const id = "section-" + idx;
+                return (
+                    <a href={"#" + id} key={id} className="list-group-item list-group-item-action">
+                        {_(PAGE + ".HEAD" + idx)}
+                    </a>
+                );
+            })}
         </div>
-    )
+    );
 }

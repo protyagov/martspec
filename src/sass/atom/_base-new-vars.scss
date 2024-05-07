@@ -7,46 +7,54 @@ $base-breakpoint: #{lg};
 $column-x-gap: 1.5rem; // necessary for correct layout
 
 $section-y-gap: (
-  "l": 8.8rem, // 112
-  "m": 7.7rem, // 96
-  "s": 6.6rem, // 82
-  "xs": 4.4rem, // 56
-  "xxs": 4rem // 48
+    "l": 8.8rem,
+    // 112
+    "m": 7.7rem,
+    // 96
+    "s": 6.6rem,
+    // 82
+    "xs": 4.4rem,
+    // 56
+    "xxs": 4rem,
+    // 48
 );
 
 // App Colors
 
 $bgs-new: (
-  "violet": #EDE1FF,
-  "yellow": #FFF9E3,
-  "green": #E8FAE0,
-  "orange": #FDE3CB,
-  "blue": #D6E3FC,
-  "aqua": #D6F7FC,
-  "gray": $ms-color-bg-secondary,
+    "violet": #ede1ff,
+    "yellow": #fff9e3,
+    "green": #e8fae0,
+    "orange": #fde3cb,
+    "blue": #d6e3fc,
+    "aqua": #d6f7fc,
+    "gray": $ms-color-bg-secondary,
 );
 
-
 $emotion-colors: (
-  "main": #AD43D7,
-  "main-filter": invert(43%) sepia(46%) saturate(7466%) hue-rotate(265deg) brightness(90%) contrast(85%),
-  "hover": #C17ADD,
-  "active": #780BA3,
-  "bg": map-get($bgs-new, "violet")
+    "main": #ad43d7,
+    "main-filter": invert(43%) sepia(46%) saturate(7466%) hue-rotate(265deg) brightness(90%) contrast(85%),
+    "hover": #c17add,
+    "active": #780ba3,
+    "bg": map-get($bgs-new, "violet"),
 );
 
 $vitamin-colors: (
-  "main": #0066CC,
-  "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
-  "bg": map-get($bgs-new, "blue")
+    "main": #0066cc,
+    "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
+    "bg": map-get($bgs-new, "blue"),
 );
 
 $bodymass-colors: (
-  "main": #0066CC,
-  "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
-  "bg": map-get($bgs-new, "blue")
+    "main": #0066cc,
+    "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
+    "bg": map-get($bgs-new, "blue"),
 );
 $waist-colors: (
-  "main":  #FFB34066,
-  "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
+    "main": #ffb34066,
+    "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
+);
+$bodyzinc-colors: (
+    "main": #72e79633,
+    "main-filter": invert(83%) sepia(27%) saturate(690%) hue-rotate(79deg) brightness(93%) contrast(96%),
 );

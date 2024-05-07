@@ -1,27 +1,28 @@
-@import '../../node_modules/bootstrap/scss/bootstrap';
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
-@import 'atom/color';
-@import 'atom/font';
-@import 'atom/button';
+@import "atom/color";
+@import "atom/font";
+@import "atom/button";
 
-@import 'molecule/section';
-@import 'molecule/page-header';
-@import 'molecule/vitamin-item';
-@import 'molecule/title-text-link-card';
+@import "molecule/section";
+@import "molecule/page-header";
+@import "molecule/vitamin-item";
+@import "molecule/title-text-link-card";
 
-@import 'organism/navigation';
-@import 'organism/footer';
-@import 'organism/social-bar';
+@import "organism/navigation";
+@import "organism/footer";
+@import "organism/social-bar";
 
-@import 'page/base';
-@import 'page/base-new';
-@import 'page/team';
-@import 'page/vitamin';
-@import 'page/vitamin-element';
-@import 'page/bodymass.scss';
-@import 'page/emotion';
-@import 'page/emotion/biorhythms';
-@import 'page/emotion/personality-trait';
-@import 'page/emotion/color-test';
-@import 'page/waist.scss';
-@import 'page/careers.scss';
+@import "page/base";
+@import "page/base-new";
+@import "page/team";
+@import "page/vitamin";
+@import "page/vitamin-element";
+@import "page/bodymass.scss";
+@import "page/emotion";
+@import "page/emotion/biorhythms";
+@import "page/emotion/personality-trait";
+@import "page/emotion/color-test";
+@import "page/waist.scss";
+@import "page/careers.scss";
+@import "page/bodyzinc.scss";

@@ -1,115 +1,115 @@
 [
-  {
-    "name": "ALEVTYNA",
-    "title": "ENGINEER_WEB",
-    "avatar": "/img/page/team/team_alevtyna.webp",
-    "link": "",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "SERGEY_R",
-    "title": "ENGINEER_WEB",
-    "avatar": "/img/page/team/team_sergeyR.webp",
-    "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "NATALIA",
-    "title": "ENGINEER_WEB",
-    "avatar": "/img/page/team/team_nataliaS.webp",
-    "link": "https://www.linkedin.com/in/nataliia-semenova-s/",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "NIKOLAY",
-    "title": "ENGINEER_WEB",
-    "avatar": "/img/page/team/team_nikolay.webp",
-    "link": "",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "ALEXANDER",
-    "title": "ENGINEER_WEB",
-    "avatar": "/img/page/team/team_alexander.webp",
-    "link": "https://www.linkedin.com/in/alexander-karachevtsev/",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "IRINA",
-    "title": "ENGINEER_WEB",
-    "avatar": "/img/page/team/team_irina.webp",
-    "link": "https://www.linkedin.com/in/irina-shchetko-288a98223/",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "ALEX",
-    "title": "ENGINEER_MOBILE",
-    "avatar": "/img/page/team/team_alex.webp",
-    "link": "https://www.linkedin.com/in/protyagov/",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "SVETLANA",
-    "title": "COPYWRITER",
-    "avatar": "/img/page/team/team_svetlana.webp",
-    "link": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
+    {
+        "name": "ALEVTYNA",
+        "title": "ENGINEER_WEB",
+        "avatar": "/img/page/team/team_alevtyna.webp",
+        "link": "",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "SERGEY_R",
+        "title": "ENGINEER_WEB",
+        "avatar": "/img/page/team/team_sergeyR.webp",
+        "link": "https://www.linkedin.com/in/sergey-rumyantcev-3833ab298/",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "NATALIA",
+        "title": "ENGINEER_WEB",
+        "avatar": "/img/page/team/team_nataliaS.webp",
+        "link": "https://www.linkedin.com/in/nataliia-semenova-s/",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "NIKOLAY",
+        "title": "ENGINEER_WEB",
+        "avatar": "/img/page/team/team_nikolay.webp",
+        "link": "",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "ALEXANDER",
+        "title": "ENGINEER_WEB",
+        "avatar": "/img/page/team/team_alexander.webp",
+        "link": "https://www.linkedin.com/in/alexander-karachevtsev/",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "IRINA",
+        "title": "ENGINEER_WEB",
+        "avatar": "/img/page/team/team_irina.webp",
+        "link": "https://www.linkedin.com/in/irina-shchetko-288a98223/",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "ALEX",
+        "title": "ENGINEER_MOBILE",
+        "avatar": "/img/page/team/team_alex.webp",
+        "link": "https://www.linkedin.com/in/protyagov/",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "SVETLANA",
+        "title": "COPYWRITER",
+        "avatar": "/img/page/team/team_svetlana.webp",
+        "link": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
 
-  {
-    "name": "JULIA",
-    "title": "DESIGNER_UI_UX",
-    "avatar": "/img/page/team/team_julia.webp",
-    "link": "https://www.linkedin.com/in/juliaemelyanenko/",
-    "text": "Hi. I'm a UI/UX designer, passionate about crafting intuitive and visually appealing interfaces. My goal is to blend aesthetics and functionality to enhance the overall user experience."
-  },
-  {
-    "name": "SVETLANA",
-    "title": "DESIGNER_UI_UX",
-    "avatar": "/img/page/team/team_svetlan.webp",
-    "link": "",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "FEDOR",
-    "title": "DESIGNER_UI_UX",
-    "avatar": "/img/page/team/team_fedor.webp",
-    "link": "https://www.linkedin.com/in/fedor-belotserkovskiy/",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "SERGEY_K",
-    "title": "ENGINEER_QA",
-    "avatar": "/img/page/team/team_sergeyK.webp",
-    "link": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b?",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "TATIANA",
-    "title": "ENGINEER_QA",
-    "avatar": "/img/page/team/team_tatiana.webp",
-    "link": "",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "EKATERINA",
-    "title": "ENGINEER_QA",
-    "avatar": "/img/page/team/team_ekaterina.webp",
-    "link": "https://www.linkedin.com/in/ekaterina-sokolova-v",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "VADIM",
-    "title": "ENGINEER_QA",
-    "avatar": "/img/page/team/team_vadim.webp",
-    "link": "https://www.linkedin.com/in/vadim-lyt/",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  },
-  {
-    "name": "VICTORIA",
-    "title": "ENGINEER_QA",
-    "avatar": "/img/page/team/team_victoria.webp",
-    "link": "https://www.linkedin.com/in/viktoria-frolenko",
-    "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
-  }
+    {
+        "name": "JULIA",
+        "title": "DESIGNER_UI_UX",
+        "avatar": "/img/page/team/team_julia.webp",
+        "link": "https://www.linkedin.com/in/juliaemelyanenko/",
+        "text": "Hi. I'm a UI/UX designer, passionate about crafting intuitive and visually appealing interfaces. My goal is to blend aesthetics and functionality to enhance the overall user experience."
+    },
+    {
+        "name": "SVETLANA",
+        "title": "DESIGNER_UI_UX",
+        "avatar": "/img/page/team/team_svetlan.webp",
+        "link": "",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "FEDOR",
+        "title": "DESIGNER_UI_UX",
+        "avatar": "/img/page/team/team_fedor.webp",
+        "link": "https://www.linkedin.com/in/fedor-belotserkovskiy/",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "SERGEY_K",
+        "title": "ENGINEER_QA",
+        "avatar": "/img/page/team/team_sergeyK.webp",
+        "link": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b?",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "TATIANA",
+        "title": "ENGINEER_QA",
+        "avatar": "/img/page/team/team_tatiana.webp",
+        "link": "",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "EKATERINA",
+        "title": "ENGINEER_QA",
+        "avatar": "/img/page/team/team_ekaterina.webp",
+        "link": "https://www.linkedin.com/in/ekaterina-sokolova-v",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "VADIM",
+        "title": "ENGINEER_QA",
+        "avatar": "/img/page/team/team_vadim.webp",
+        "link": "https://www.linkedin.com/in/vadim-lyt/",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    },
+    {
+        "name": "VICTORIA",
+        "title": "ENGINEER_QA",
+        "avatar": "/img/page/team/team_victoria.webp",
+        "link": "https://www.linkedin.com/in/viktoria-frolenko",
+        "text": "Dapibus sit mollis nec sed odio. Dictumst. Pellentesque sapien quam, interdum dolor consectetur amet"
+    }
 ]

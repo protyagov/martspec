@@ -5,7 +5,6 @@
         "FACT": "Siehe Fakten",
         "SRC2": "Holen Sie sich Fakten aus dem Quellartikel",
         "WIKI": "Lesen Sie den vollständigen Artikel über WiKi"
-
     },
     "MAIN": {
         "HEAD": "Gesundheit & Wohlbefinden",
@@ -361,9 +360,6 @@
             "FACT_3": "Etwa 70 % des B1 werden durch hohe Hitze oder langes Kochen zerstört",
             "FACT_4": "Ein Überschuss an B1 im Körper ist äußerst selten",
             "FACT_5": "Der Körper scheidet zusätzliches B1 über den Urin aus"
-
-
-
         },
         "VITAMIN_B2": {
             "HEAD": "B2",
@@ -398,7 +394,6 @@
             "OVER_2": "1000+ mg können zu Bluthochdruck, Müdigkeit, Bauchschmerzen, beeinträchtigter Glukosetoleranz und Insulinresistenz führen. Bitte beachten Sie, dass Niacin auch in sehr hohen Dosen nahezu vollständig vom Körper aufgenommen wird.",
             "FACT_1": "Sehr hohe Dosen von Nikotinsäure – mehr als das 100-fache der empfohlenen Tagesdosis – die über Jahre eingenommen werden, könnten wirksame Behandlungen für Dyslipidämien sein",
             "FACT_2": "Die Einnahme von Niacin mit Chrom kann Ihren Blutzucker senken"
-
         },
         "VITAMIN_B5": {
             "HEAD": "B5",
@@ -551,7 +546,7 @@
             "DESK": "Chrom ist für einen normalen Fettstoffwechsel unerlässlich. Ein Mangel an diesem Element führt zu Übergewicht und Fettleibigkeit.",
             "FUNC": "Verstärkt die Wirkung des Hormons Insulin. Es ist auch am Abbau und der Aufnahme von Kohlenhydraten, Proteinen und Fetten beteiligt.",
             "DEF_1": "Diäten mit viel raffiniertem Zucker können dazu führen, dass mehr Chrom im Urin ausgeschieden wird",
-            "OVER_1":"Sehr selten",
+            "OVER_1": "Sehr selten",
             "OVER_2": "Gewichtsverlust, Anämie",
             "OVER_3": "Leberfunktionsstörungen und Nierenversagen",
             "OVER_4": "Dermatitis",
@@ -870,6 +865,7 @@
         },
         "HEAD1": "Warum Talia?",
         "DESC1": "Wenn Sie Muskeln aufbauen und Zentimeter Fett verlieren, ändert sich Ihr Gewicht möglicherweise nicht wesentlich. Deshalb kann die Körperzusammensetzung Ihnen mehr als die Skala erzählen, sie erzählt Ihnen die wahre Geschichte.",
+        "LINK1": "National Institutes of Health, USA",
         "HEAD2": "Wichtiger als der Body-Mass-Index",
         "LINK2": "Forschung der American Heart Association",
         "DESC2": " zeigten, dass Messungen des Taillenumfangs eine bessere Aussagekraft über das Risiko einer Herzerkrankung haben als der weit verbreitete BMI (Body Mass Index).",
@@ -883,7 +879,8 @@
             "LI2_HEAD": "Ohne Genehmigung",
             "HEAD2": "Besser als BMI",
             "LINK2": "Studie der American Heart Association",
-            "DESC2": " hat gezeigt, dass die Messung der Taille ein besserer Weg ist, um das Risiko von Herzerkrankungen vorherzusagen, als der weit verbreitete Body-Mass-Index.",    "LI2_TEXT": "Für diese App ist kein Konto erforderlich",
+            "DESC2": " hat gezeigt, dass die Messung der Taille ein besserer Weg ist, um das Risiko von Herzerkrankungen vorherzusagen, als der weit verbreitete Body-Mass-Index.",
+            "LI2_TEXT": "Für diese App ist kein Konto erforderlich",
             "LI3_HEAD": "Werbefrei",
             "LI3_TEXT": "Wir haben KEINE lästige Werbung",
             "LI4_HEAD": "Apple Health",
@@ -902,15 +899,41 @@
         "TEXT": "Schön in seiner Einfachheit Körper Zink Tracker für Ihre Uhr. die Health App aktiviert. Echte Ergebnisse. Kostenlos. Keine Werbung.",
         "IMG": "Verfolgen Sie Ihren Alltagsverbrauch von Zinkergänzungen",
         "DWN": "Holen Sie sich kostenlos Bodyzinc-Anwendung von Apple Store",
-        "ABOUT": "Einfach zu bedienender Ernährungszink-Tracker für Apple Watch. Auto Sync mit die Health App erfordert keine Registrierung und absolut kostenlos.",
-        "HEAD1": "Altersbedingte Krankheiten",
-        "DESC1": "Zink kann Ihr Risiko von altersbedingten Erkrankungen wie Lungenentzündung, Infektion und altersbedingter Makuladegeneration (AMD) erheblich reduzieren. Es kann oxidativer Stress lindern und die Immunantwort verbessern, indem die Aktivität von T-Zellen und natürlichen Killerzellen stärkt, die dazu beitragen, Ihren Körper vor Infektionen zu schützen. Ältere Erwachsene, die mit Zinkerlebnis ergänzen, verbesserten die Influenza-Impfung, ein geringes Risiko der Lungenentzündung und die stärkste mentale Leistung.",
-        "LINK1": "Nationale Gesundheitsinstitute, USA",
-        "HEAD2": "Wundheilungsbeschleunigung.",
-        "DESC2": "Zink wird häufig in Krankenhäusern als Behandlung von Verbrennungen, bestimmten Geschwüren und anderen Hautverletzungen verwendet. Tatsächlich hält Ihre Haut einen relativ hohen Betrag - etwa 5% des Zinkgehalts Ihres Körpers.",
-        "LINK2": "Studie von American Heart Association",
-        "HEAD3": "Verringert Entzündungen",
-        "DESC3": "Verringert oxidativen Stress und verringert die Gewährleistung bestimmter entzündlicher Proteine in Ihrem Körper. Oxidativer Stress führt zu chronischen Entzündungen, ein beitragender Faktor in einer Vielzahl chronischer Erkrankungen, wie Herzkrankheiten, Krebs und geistiger Rückgang.",
+        "ABOUT_1": "Einfacher und leicht zu bedienender Zink-Tracker",
+        "ABOUT_2": "Für Ihre Apple Watch",
+        "LIST1": {
+            "LI1_HEAD": "Sorge für deine Gesundheit",
+            "LI1_TEXT": "Die bequeme Nutzung unserer App ermöglicht es Ihnen, Ihre tägliche Zinkaufnahme leicht zu verfolgen",
+            "LI2_HEAD": "Erweiterte Zifferblätter",
+            "LI2_TEXT": "Einfacher Zugriff auf Statistiken auf Uhren mit früher Software, beginnend mit watchOS 6, mit Unterstützung für jedes Zifferblatt",
+            "LI3_HEAD": "Funktioniert auch ohne iPhone",
+            "LI3_TEXT": "iPhone-unabhängige App - Zugang zur Eingabe von Zinkeinnahmedaten auch ohne Ihr Telefon"
+        },
+        "HEAD1": "Warum Zink?",
+        "DESC1": "Zink reduziert das Risiko einer Lungenentzündung, stärkt das Immunsystem und erhöht die Aktivität von T-Zellen und Killerzellen",
+        "DESC2": "Erleichterung der Impfung und Erhaltung der geistigen Leistungsfähigkeit",
+        "DESC3": "Förderung einer beschleunigten Regeneration bei der Behandlung von Verbrennungen, bestimmten Geschwüren und anderen Hautverletzungen",
+        "DESC4": "Verringerung der Oxidation und der Entzündungsproteine, um chronischen Entzündungen vorzubeugen",
+        "HEAD4": "Vorteile",
+        "LIST2": {
+            "LI1_HEAD": "Datenschutz",
+            "LI1_TEXT": "Wir speichern Ihre Daten NICHT auf unseren Servern",
+            "LI2_HEAD": "Ohne Genehmigung",
+            "LI2_TEXT": "Für diese App ist kein Konto erforderlich",
+            "LI3_HEAD": "Werbefrei",
+            "LI3_TEXT": "Wir haben KEINE lästige Werbung",
+            "LI4_HEAD": "Synchronisierung",
+            "LI4_TEXT": "Zwischen Geräten über iCloud und Apple Health"
+        },
+        "HEAD5": "Verfügbar für alle Apple Watch Modelle",
+        "DESC5": "Laden Sie die App jetzt herunter und verfolgen Sie Ihre tägliche Zinkaufnahme, auch über den Tag verteilt. Unterstützt über 20+ Sprachen",
+        "ALT1": "Apple Watch-Bildschirme mit Statistiken zum Zinkgehalt in der Anwendung „Zinc“ von Martspec",
+        "ALT2": "Echtzeit-Apple-Watch-Bildschirme mit Informationen zum Zinkgehalt in der Zinc-App von Martspec",
+        "ALT3_1": "Der Schutz Ihrer Daten ist unser unmittelbares Ziel. Martspec speichert Ihre Daten nicht, dies ist eine Garantie für die Sicherheit Ihrer Daten.",
+        "ALT3_2": "Es ist keine Login- und Passwortautorisierung erforderlich. Für den Betrieb der Anwendung ist kein Konto erforderlich.",
+        "ALT3_3": "Wir kümmern uns um unsere Benutzer, daher verwenden wir in der Anwendung keine aufdringliche Werbung.",
+        "ALT3_4": "Synchronisation mit dem Apple Health Programm – die beste Basis aller Vitamine und Mikroelemente.",
+        "BTN_MORE": "MEHR",
         "BTN_OPEN": "Unterstützung"
     },
     "SIZE": {
@@ -1140,7 +1163,7 @@
         "DESK1_3": "Angststörung ist eine Erkrankung, die sich nach einer Zeit übermäßiger Sorge allmählich entwickelt. Die Symptome können in der Intensität variieren und über längere Zeiträume bestehen. Angststörungen können dazu führen, dass Menschen Situationen vermeiden, die ihre Symptome auslösen oder verschlimmern. Es kann die Arbeitsproduktivität, die Schularbeiten und die persönlichen Beziehungen beeinflussen.",
         "HEAD2": "Arten von Angststörungen",
         "DESK2": "Das Durchschnittsalter des Beginns einer Angststörung beträgt 20 bis 24 Jahre. Sie können bei anderen psychischen Störungen wie Depressionen oder posttraumatischer Belastungsstörung auftreten. Es gibt verschiedene Arten von Angststörungen, darunter:",
-        "LIST2":{
+        "LIST2": {
             "LI1_HEAD": "Generalisierte Angststörung (GAS; englisch Generalized anxiety disorder (GAD)).",
             "LI1_TEXT": "Menschen mit GAS machen sich Sorgen über häufige Probleme wie Gesundheit, Geld, Arbeit und Familie. Sie tritt häufig zusammen mit anderen Angststörungen oder Depressionen auf und tritt über mehrere Monate hinweg fast täglich auf.",
             "LI2_HEAD": "Panikstörung.",
@@ -1164,7 +1187,7 @@
         },
         "HEAD4": "Anzeichen einer Angststörung",
         "DESK4": "Die Ursachen von Angststörungen sind derzeit unbekannt, beruhen jedoch wahrscheinlich auf einer Kombination verschiedener Faktoren, einschließlich genetischer, umweltbedingter, psychologischer und entwicklungsbedingter Faktoren. Zu den beteiligten Faktoren gehören unter anderem:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Gehirnchemie.",
             "LI1_TEXT": "Starker oder anhaltender Stress kann zu Veränderungen im chemischen Gleichgewicht im Gehirn führen.",
             "LI2_HEAD": "Erfahrungen.",
@@ -1226,7 +1249,8 @@
         "DESK4_2": "Der Einfluss der Produktivität geht über den Rahmen persönlicher Errungenschaften hinaus, da produktive Menschen in der Regel effektive Mitarbeiter und Teamplayer sind. Ihr organisierter Ansatz und die Fähigkeit, die Fristen zu beobachten, machen sie zu wertvollen Vermögenswerten in der Gruppenarbeit. Darüber hinaus inspiriert ihre Tendenz zu persönlichem Wachstum und Selbstverbesserung andere und schafft eine Kultur der kontinuierlichen Ausbildung und Entwicklung.",
         "DESK4_3": "Im Wesentlichen sind produktive Menschen besser gerüstet, um Chancen zu nutzen, persönliche Zufriedenheit zu erleben und andere positiv zu beeinflussen. Ihre Fähigkeit, ihre Bemühungen mit ihren Zielen zu harmonisieren, trägt zu einem Leben bei, das durch Leistungen, Zufriedenheit und sinnvolle Verbindungen geprägt ist.",
         "HEAD5": "Wie kann man produktiver werden?",
-        "DESK5_1": "Steigerung der Produktivität ist nicht über Nacht. Während es einigen Menschen einfach erscheinen mag, hat ihre Fähigkeit, ihre Zeit effektiv zu planen und zu nutzen, oft mehr mit etablierten Gewohnheiten zu tun, die im Laufe der Zeit zu einer erhöhten Produktivität führen. Um produktiver zu werden, konzentrieren Sie sich auf die folgenden Schlüsselstrategien:",        "LIST5": {
+        "DESK5_1": "Steigerung der Produktivität ist nicht über Nacht. Während es einigen Menschen einfach erscheinen mag, hat ihre Fähigkeit, ihre Zeit effektiv zu planen und zu nutzen, oft mehr mit etablierten Gewohnheiten zu tun, die im Laufe der Zeit zu einer erhöhten Produktivität führen. Um produktiver zu werden, konzentrieren Sie sich auf die folgenden Schlüsselstrategien:",
+        "LIST5": {
             "LI1_HEAD": "Setzen Sie klare Ziele:",
             "LI1_TEXT": "Identifizieren Sie spezifische, erreichbare Ziele, um Ihre Bemühungen zu leiten.",
             "LI2_HEAD": "Priorisieren Sie Aufgaben:",
@@ -1289,7 +1313,7 @@
         "ALT2": "Yoga",
         "HEAD3": "Merkmale der inneren Harmonie",
         "DESK3": "Innere Harmonie bedeutet einen Zustand, in dem Sie ein Gefühl der Ruhe, Zufriedenheit und Abwesenheit innerer Konflikte verspüren. Harmonie umfasst die folgenden Eigenschaften:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Emotionale Stabilität:",
             "LI1_TEXT": "Sie erleben ein ständiges emotionales Gleichgewicht.",
             "LI2_HEAD": "Annahme:",
@@ -1303,7 +1327,7 @@
         },
         "HEAD4": "Wie erreicht man innere Harmonie?",
         "DESK4": "Harmonie ist eine Entscheidung, die Sie bewusst treffen können. Es handelt sich um einen mentalen Zustand, nicht um die physische Umgebung, in der Sie sich befinden. Sie können Ihre innere Harmonie allein durch eine entsprechende Lebenseinstellung erreichen und aufrechterhalten. Hier sind einige Schritte, die Ihnen helfen können, innere Harmonie zu erreichen:",
-        "LIST4":{
+        "LIST4": {
             "LI1_HEAD": "Selbstbewusstsein:",
             "LI1_TEXT": "Verstehen Sie Ihre Emotionen, Auslöser und Gedankenmuster. Erkennen Sie, wenn Sie das Gleichgewicht verlieren oder innere Unruhe erleben. Selbsterkenntnis ist der erste Schritt zum Finden des Gleichgewichts.",
             "LI2_HEAD": "Annahme:",
@@ -1348,7 +1372,7 @@
         "ALT2": "Bücher lesen",
         "HEAD3": "Merkmale einer unabhängigen Persönlichkeit",
         "DESK3": "Hier sind einige der häufigsten Merkmale des unabhängigen Persönlichkeitstyps:",
-        "LIST3":{
+        "LIST3": {
             "LI1_HEAD": "Autonomie:",
             "LI1_TEXT": "Unabhängige Menschen haben die Fähigkeit, Entscheidungen auf der Grundlage ihrer eigenen Überzeugungen, Werte und Vorlieben zu treffen.",
             "LI2_HEAD": "Kritisches Denken:",
@@ -1367,7 +1391,7 @@
         "ALT4": "Unabhängigkeit",
         "HEAD5": "Probleme eines unabhängigen Persönlichkeitstyps",
         "DESK5_1": "Obwohl eine unabhängige Persönlichkeit in vielerlei Hinsicht von Vorteil sein kann, ist es wichtig zu verstehen, dass diese Eigenschaft auch Probleme und potenzielle Probleme mit sich bringen kann. Hier sind einige Probleme, mit denen Menschen mit einem starken unabhängigen Persönlichkeitstyp konfrontiert sein können:",
-        "LIST5":{
+        "LIST5": {
             "LI1_HEAD": "Sturheit.",
             "LI1_TEXT": "Die Tendenz, sich ausschließlich auf die eigene Perspektive und Entscheidungen zu verlassen, kann zu Sturheit führen. Dies kann es schwierig machen, alternative Standpunkte zu akzeptieren oder sich an veränderte Umstände anzupassen.",
             "LI2_HEAD": "Begrenzte Zusammenarbeit.",
@@ -1455,7 +1479,7 @@
         "ALT4": "Interaktion mit Kollegen",
         "HEAD5": "Berufsinteressen für energiegeladene Menschen",
         "DESK5_1": "Energiegeladene Menschen gedeihen bei Aktivitäten, die es ihnen ermöglichen, ihre Vitalität auszudrücken und mit anderen zu interagieren. Einige geeignete Aktivitäten können Mannschaftssportarten, Tanzen, Outdoor-Abenteuer wie Wandern oder Radfahren, Networking-Veranstaltungen, öffentliche Reden und energiegeladene kreative Beschäftigungen wie Schauspielern oder Reden sein. Hier sind einige Karriereinteressen, die für energiegeladene Menschen interessant sein könnten:",
-        "LIST5":{
+        "LIST5": {
             "LI1_TEXT": "Verkauf und Marketing.",
             "LI2_TEXT": "Eventplanung.",
             "LI3_TEXT": "Öffentlichkeitsarbeit.",
@@ -1590,7 +1614,7 @@
     },
     "FOOTER": {
         "C": "© 2024 Martspec LLC. Alle Rechte vorbehalten.",
-        "APPLE_BTN":{
+        "APPLE_BTN": {
             "TITLE": "Alle martspec-Anwendungen finden Sie in unserem Apple AppStore",
             "ALT": "Sehen Sie sich alle unsere Apps im Martpsec AppStore bei Apple an"
         },

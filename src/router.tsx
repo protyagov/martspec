@@ -1,6 +1,6 @@
 import * as React from "react";
 import MainPage from "@/atomic/page/main";
-import Error_404 from '@/atomic/page/404';
+import Error_404 from "@/atomic/page/404";
 import WaistLine from "@/atomic/page/waist";
 import Electrolyte from "@/atomic/page/electrolyte";
 import Bodymass from "@/atomic/page/mass";
@@ -23,18 +23,15 @@ import Independence from "@/atomic/page/emotion/independence";
 import Energy from "@/atomic/page/emotion/energy";
 import Openness from "@/atomic/page/emotion/openness";
 import ColorTest from "@/atomic/page/emotion/color-test";
-import Careers from "@/atomic/page/careers"
+import Careers from "@/atomic/page/careers";
 
 export function App() {
     var redirect = sessionStorage.redirect;
     delete sessionStorage.redirect;
-    if (redirect == null)
-        redirect = location.pathname;
-    else
-        redirect = redirect.replace(location.href, '/');
+    if (redirect == null) redirect = location.pathname;
+    else redirect = redirect.replace(location.href, "/");
 
-    if (redirect.length > 1)
-        redirect = redirect.replace(/\/$/, "");
+    if (redirect.length > 1) redirect = redirect.replace(/\/$/, "");
 
     const url = Locale.setLanguageFromUrl(redirect);
 
@@ -56,33 +53,33 @@ export function App() {
         case "/emotion/productivity":
             return <Productivity />;
         case "/emotion/biorhythms":
-            return <Biorhythms />
+            return <Biorhythms />;
         case "/emotion/anxiety":
-            return <Anxiety />
+            return <Anxiety />;
         case "/emotion/harmony":
-            return <Harmony />
+            return <Harmony />;
         case "/emotion/independence":
-            return <Independence />
+            return <Independence />;
         case "/emotion/energy":
-            return <Energy />
+            return <Energy />;
         case "/emotion/openness":
-            return <Openness />
+            return <Openness />;
         case "/emotion/color-test":
-            return <ColorTest />
+            return <ColorTest />;
         case "/bodysize":
             return <BodySize />;
         case "/privacy-policy":
             return <PrivacyPolicy />;
         case "/about":
-            return <About />
+            return <About />;
         case "/mission":
-            return <Mission />
+            return <Mission />;
         case "/team":
-            return <Team />
+            return <Team />;
         case "/careers":
-            return <Careers />
+            return <Careers />;
         case "/coming-soon":
-            return <ComingSoon />
+            return <ComingSoon />;
         default:
             const [, pagePath, currentPath] = url.split("/");
 
@@ -91,4 +88,3 @@ export function App() {
             return <Error_404 />;
     }
 }
-

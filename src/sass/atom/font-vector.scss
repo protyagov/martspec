@@ -1,11 +1,11 @@
 @font-face {
     font-family: fontello;
-    src: url('../font/fontello.woff2') format('woff2');
+    src: url("../font/fontello.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 
-@import 'font-vector-codes.scss';
+@import "font-vector-codes.scss";
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
@@ -16,7 +16,7 @@
     display: inline-block;
     text-decoration: inherit;
     width: 1em;
-    margin-right: .2em;
+    margin-right: 0.2em;
     text-align: center;
     /* opacity: .8; */
     /* For safety - reset parent styles, that can break glyph codes*/
@@ -26,7 +26,7 @@
     line-height: 1em;
     /* Animation center compensation - margins should be symmetric */
     /* remove if not needed */
-    margin-left: .2em;
+    margin-left: 0.2em;
     /* you can be more comfortable with increased icons size */
     /* font-size: 120%; */
     /* Font smoothing. That was taken from TWBS */
@@ -60,7 +60,6 @@
     width: 2em;
 }
 
-
 .fo-rotate-45 {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -68,7 +67,6 @@
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
 
 .fo-rotate-90 {
     -webkit-transform: rotate(90deg);
@@ -86,7 +84,7 @@
     font-size: 1rem;
 }
 
-.fo-1x4{
+.fo-1x4 {
     font-size: 1.4rem;
 }
 
@@ -107,7 +105,7 @@
 }
 
 @mixin FontAwesome {
-    font-family: 'FontAwesome'; // color: rgba(0, 0, 0, 0.432);
+    font-family: "FontAwesome"; // color: rgba(0, 0, 0, 0.432);
     speak: none;
     font-style: normal;
     font-weight: normal;

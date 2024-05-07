@@ -1,148 +1,146 @@
 .ms-team {
-  section {
-    margin-top: 0;
-    padding-top: 7vmin;
-  }
-
-  .page-header {
-    margin-bottom: 0;
-  }
-
-  .members-list {
-    padding-top: 3vmin;
-    padding-bottom: 7vmin;
-    column-gap: 8%;
-    row-gap: 4rem;
-  }
-
-  .team-member {
-    // flex: 0 0;
-    // flex-basis: 25%;
-    // align-items: flex-end;
-    text-align: left;
-
-    .team-members {
-      flex: 0 0;
-      flex-basis: 25%;
-
-      @include media-breakpoint-down(md) {
-        flex-basis: 28%;
-      }
-
-      @include media-breakpoint-down(md) {
-        flex-basis: 46%;
-      }
-
-      overflow-wrap: break-word;
-      word-wrap: break-word;
-      hyphens: auto;
-
-      // .team-img {
-      //   align-items: flex-end;
-      // }
-      // .team-link {
-      //   position: relative;
-      //   bottom: 54px;
-      //   left: 105px;
-      // .itelLink {}
-      // .itemLink {
-      //   width: 2.875rem;
-      //   height: 2.875rem;
-      // }
-      .itemLink {
-        // float: right;
-        position: relative;
-        top: 68%;
-
-        left: 80%;
-
-        width: 2.875rem;
-        height: 2.875rem;
-
-
-      }
-
-      a {
-        // float: right;
-        position: relative;
-        top: 68%;
-
-        left: 80%;
-        border-radius: 6.25rem;
-        width: 2.875rem;
-        height: 2.875rem;
-        display: inline-flex;
-        padding: 0.75rem;
-        align-items: flex-start;
-        gap: 0.75rem;
-        background: #258de3;
-        z-index: 2;
-      }
-
-      // расположения иконки linkedin в safari
-      _::-webkit-full-page-media,
-      _:future,
-      :root .safari_only,
-      a {
-        top: 240px;
-      }
-
-      h4 {
-        color: #000000;
-        font-size: 1.6rem;
-        font-weight: 600;
-        margin-top: 1rem;
-      }
-
-      h5 {
-        font-family: os3;
-        margin-top: 0.1rem;
-        color: #8a8a8a;
-      }
-
-      img {
-        aspect-ratio: 1 / 1 !important;
-        max-width: 80%;
-        object-fit: cover;
-        filter: grayscale(1);
-        -webkit-filter: grayscale(1);
-        z-index: -1;
-      }
-
-      // .team-text {
-      //   display: none;
-      //   width: 300px;
-      //   height: 20px;
-      // }
+    section {
+        margin-top: 0;
+        padding-top: 7vmin;
     }
 
-    .text-block {
-      width: 300px;
-      height: 1.875rem;
-      font-size: 0.875rem;
-      // border: 1px solid black;
-      overflow: hidden;
-
-      &:hover {
-        cursor: pointer;
-      }
+    .page-header {
+        margin-bottom: 0;
     }
 
-    // .text-block:hover {
-    //   cursor: pointer;
-    // }
-
-    .text-block_active {
-      height: auto;
+    .members-list {
+        padding-top: 3vmin;
+        padding-bottom: 7vmin;
+        column-gap: 8%;
+        row-gap: 4rem;
     }
 
-    .team-btn {
-      border: none;
-      background: transparent;
-      font-size: 14px;
-      font-weight: bold;
-      text-decoration: underline;
-      text-align: right;
+    .team-member {
+        // flex: 0 0;
+        // flex-basis: 25%;
+        // align-items: flex-end;
+        text-align: left;
+
+        .team-members {
+            flex: 0 0;
+            flex-basis: 25%;
+
+            @include media-breakpoint-down(md) {
+                flex-basis: 28%;
+            }
+
+            @include media-breakpoint-down(md) {
+                flex-basis: 46%;
+            }
+
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            hyphens: auto;
+
+            // .team-img {
+            //   align-items: flex-end;
+            // }
+            // .team-link {
+            //   position: relative;
+            //   bottom: 54px;
+            //   left: 105px;
+            // .itelLink {}
+            // .itemLink {
+            //   width: 2.875rem;
+            //   height: 2.875rem;
+            // }
+            .itemLink {
+                // float: right;
+                position: relative;
+                top: 68%;
+
+                left: 80%;
+
+                width: 2.875rem;
+                height: 2.875rem;
+            }
+
+            a {
+                // float: right;
+                position: relative;
+                top: 68%;
+
+                left: 80%;
+                border-radius: 6.25rem;
+                width: 2.875rem;
+                height: 2.875rem;
+                display: inline-flex;
+                padding: 0.75rem;
+                align-items: flex-start;
+                gap: 0.75rem;
+                background: #258de3;
+                z-index: 2;
+            }
+
+            // расположения иконки linkedin в safari
+            _::-webkit-full-page-media,
+            _:future,
+            :root .safari_only,
+            a {
+                top: 240px;
+            }
+
+            h4 {
+                color: #000000;
+                font-size: 1.6rem;
+                font-weight: 600;
+                margin-top: 1rem;
+            }
+
+            h5 {
+                font-family: os3;
+                margin-top: 0.1rem;
+                color: #8a8a8a;
+            }
+
+            img {
+                aspect-ratio: 1 / 1 !important;
+                max-width: 80%;
+                object-fit: cover;
+                filter: grayscale(1);
+                -webkit-filter: grayscale(1);
+                z-index: -1;
+            }
+
+            // .team-text {
+            //   display: none;
+            //   width: 300px;
+            //   height: 20px;
+            // }
+        }
+
+        .text-block {
+            width: 300px;
+            height: 1.875rem;
+            font-size: 0.875rem;
+            // border: 1px solid black;
+            overflow: hidden;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        // .text-block:hover {
+        //   cursor: pointer;
+        // }
+
+        .text-block_active {
+            height: auto;
+        }
+
+        .team-btn {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: underline;
+            text-align: right;
+        }
     }
-  }
 }
