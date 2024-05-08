@@ -484,7 +484,6 @@ module.exports = {
                 { context: "src/img/", from: "*.png", to: "img" },
                 { context: "src/img/", from: "*.webp", to: "img" },
                 { context: "src/img/", from: "*.jpg", to: "img" },
-                { context: "src/img/atom/icons/", from: "*", to: "img/atom/icons" },
                 { context: "src/img/page/zinc/", from: "*", to: "img/page/zinc" },
                 { context: "src/img/page/productivity/", from: "*", to: "img/page/productivity" },
                 { context: "src/img/page/anxiety/", from: "*", to: "img/page/anxiety" },
@@ -504,7 +503,7 @@ module.exports = {
                 { context: "src/img/page/team/", from: "*", to: "img/page/team" },
                 { context: "src/img/page/careers/", from: "*", to: "img/page/careers" },
                 { context: "src/img/icon/", from: "*", to: "icon" },
-                { context: "src/img/apple_btn/", from: "*", to: "img/apple_btn" },
+                { from: "src/img/atom/", to: "img/atom" },
                 { context: "src/data/", from: "*.json", to: "data" },
             ],
             options: {
