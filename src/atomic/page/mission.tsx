@@ -12,8 +12,8 @@ export default function Mission() {
                 <PageHeader
                     title={_("MISSION.HEAD")}
                     subtitleLevel1={_("MISSION.ABOUT_1")}
-                    appId={1507588203}
-                    appDownloadTitle={_("MISSION.DWN")}
+                    appId={1}
+                    appDownloadTitle={_("FOOTER.APPLE_BTN.ALT")}
                     imgSrc="/img/mission.svg"
                     imgAlt={_("MISSION.IMG")}
                     imgH={300}
