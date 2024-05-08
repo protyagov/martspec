@@ -88,6 +88,7 @@
     //------- the part of the nav-bar that collapses ---------
     .collapse {
         .dropdown ul {
+            animation: 3s slideScale;
             border: none;
             border-radius: 0px;
             padding: 0.5rem;
@@ -113,6 +114,17 @@
                 margin-left: 1rem;
                 margin-bottom: 1rem;
                 animation-name: open;
+            }
+        }
+
+        @keyframes slideScale {
+            from {
+                transform: scale(0.1);
+                // transform: translateY(10%);
+            }
+            to {
+                transform: scale(1);
+                // transform: translateY(0);
             }
         }
 
