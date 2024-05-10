@@ -19,7 +19,7 @@ function NavigationBarLanguageDropdown() {
         <ul className="navbar-nav">
             <li className="nav-item dropdown">
                 <a
-                    className="nav-link "
+                    className="nav-link"
                     href="#"
                     id="navbarDropdown"
                     role="button"
@@ -69,7 +69,7 @@ export default function NavigationBar() {
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item dropdown ps-lg-5">
                             <a
-                                className="nav-link "
+                                className="nav-link"
                                 href="#"
                                 id="navbarDropdownMain"
                                 role="button"

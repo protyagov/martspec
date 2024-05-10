@@ -4,12 +4,11 @@
     $navbar-height-lg: 75px;
 
     @extend .navbar;
-    // @extend .container;
+
     font-size: 1.6rem;
     height: $navbar-height-lg;
 
     @include media-breakpoint-down(lg) {
-        // styles for the nav element when screen is small
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
         max-width: 100%;
         height: auto;
@@ -91,7 +90,6 @@
         padding-right: 3rem;
         padding-left: 3rem;
         color: #212529;
-        // display: inline-block;
 
         @include media-breakpoint-down(lg) {
             padding: 1rem;
@@ -109,22 +107,18 @@
         }
 
         .show {
-            // display: none;
             display: block;
         }
     }
 
-    //------- the part of the nav-bar that collapses ---------
     .collapse {
         .dropdown ul {
-            // animation: slideScale;
             border: none;
             border-radius: 0px;
             padding: 0.5rem;
             animation-duration: 0.3s;
             animation-timing-function: ease-in-out;
             @include media-breakpoint-up(lg) {
-                // padding: $navbar-height-lg 1.5rem 1.5rem;
                 border-radius: 8px;
                 box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
 
@@ -136,8 +130,6 @@
             }
 
             @include media-breakpoint-down(lg) {
-                // margin-left: 1rem;
-                // margin-bottom: 1rem;
                 animation-name: slideScale;
             }
         }
@@ -146,11 +138,9 @@
             from {
                 transform-origin: top;
                 transform: scale(1, 0.1);
-                // transform: translateY(10%);
             }
             to {
                 transform: scale(1);
-                // transform: translateY(0);
             }
         }
 
