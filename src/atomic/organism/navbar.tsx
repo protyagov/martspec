@@ -19,7 +19,7 @@ function NavigationBarLanguageDropdown() {
         <ul className="navbar-nav">
             <li className="nav-item dropdown">
                 <a
-                    className="nav-link"
+                    className="nav-link "
                     href="#"
                     id="navbarDropdown"
                     role="button"
@@ -29,7 +29,7 @@ function NavigationBarLanguageDropdown() {
                 >
                     {Locale.languageName(Locale.language)}
                 </a>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu dropdown-menu-end fade-down">
                     {languages.map((language) => (
                         <li key={"nav-lang-link-" + language} hidden={Locale.language == language}>
                             <a className="nav-link dropdown-item" href={getLanguageLink(language)}>
@@ -69,7 +69,7 @@ export default function NavigationBar() {
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item dropdown ps-lg-5">
                             <a
-                                className="nav-link"
+                                className="nav-link "
                                 href="#"
                                 id="navbarDropdownMain"
                                 role="button"
@@ -80,7 +80,10 @@ export default function NavigationBar() {
                                 {_("NAV.ABOUT")}
                             </a>
 
-                            <ul className="dropdown-menu" aria-labelledby="navbarDropdownMain">
+                            <ul
+                                className="dropdown-menu dropdown-menu-end fade-down"
+                                aria-labelledby="navbarDropdownMain"
+                            >
                                 <li>
                                     <a className="nav-link dropdown-item" href={Locale.i18nLink("about")}>
                                         {_("ABOUT.HEAD")}
@@ -111,7 +114,7 @@ export default function NavigationBar() {
 
                         <li className="nav-item dropdown ps-lg-5">
                             <a
-                                className="nav-link"
+                                className="nav-link "
                                 href="#"
                                 id="navbarDropdownPages"
                                 role="button"
@@ -121,7 +124,10 @@ export default function NavigationBar() {
                             >
                                 {_("NAV.APPS")}
                             </a>
-                            <ul className="dropdown-menu" aria-labelledby="navbarDropdownPages">
+                            <ul
+                                className="dropdown-menu dropdown-menu-end fade-down"
+                                aria-labelledby="navbarDropdownPages"
+                            >
                                 <li>
                                     <a className="nav-link dropdown-item" href={Locale.i18nLink("vitamin")}>
                                         {_("VITAMIN.HEAD")}
