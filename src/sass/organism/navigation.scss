@@ -4,15 +4,43 @@
     $navbar-height-lg: 75px;
 
     @extend .navbar;
-    // @extend .container;
+
     font-size: 1.6rem;
     height: $navbar-height-lg;
 
     @include media-breakpoint-down(lg) {
-        // styles for the nav element when screen is small
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
         max-width: 100%;
         height: auto;
+    }
+
+    @include media-breakpoint-up(lg) {
+        .dropdown-menu-end {
+            right: 0;
+            left: auto;
+        }
+        .dropdown-menu {
+            display: block;
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.3s;
+            margin-top: 0;
+        }
+        .dropdown-menu.fade-down {
+            top: 80%;
+            transform: rotateX(-75deg);
+            transform-origin: 0% 0%;
+        }
+        .dropdown-menu.fade-up {
+            top: 180%;
+        }
+        .nav-item:hover .dropdown-menu {
+            transition: 0.3s;
+            opacity: 1;
+            visibility: visible;
+            top: 100%;
+            transform: rotateX(0deg);
+        }
     }
 
     .ms-navbar-brand {
@@ -62,7 +90,6 @@
         padding-right: 3rem;
         padding-left: 3rem;
         color: #212529;
-        // display: inline-block;
 
         @include media-breakpoint-down(lg) {
             padding: 1rem;
@@ -80,39 +107,40 @@
         }
 
         .show {
-            display: none;
             display: block;
         }
     }
 
-    //------- the part of the nav-bar that collapses ---------
     .collapse {
         .dropdown ul {
             border: none;
             border-radius: 0px;
             padding: 0.5rem;
-            animation-duration: 0.2s;
+            animation-duration: 0.3s;
             animation-timing-function: ease-in-out;
-
             @include media-breakpoint-up(lg) {
-                // padding: $navbar-height-lg 1.5rem 1.5rem;
                 border-radius: 8px;
                 box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
 
-                // position: absolute;
-                // left: 42px;
-                // top: 57px;
                 right: auto;
                 left: auto;
-                // transform: translateY(-50px);
-
-                // animation-name: slide;
+                .nav-item {
+                    max-width: 20%;
+                }
             }
 
             @include media-breakpoint-down(lg) {
-                margin-left: 1rem;
-                margin-bottom: 1rem;
-                animation-name: open;
+                animation-name: slideScale;
+            }
+        }
+
+        @keyframes slideScale {
+            from {
+                transform-origin: top;
+                transform: scale(1, 0.1);
+            }
+            to {
+                transform: scale(1);
             }
         }
 
