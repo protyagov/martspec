@@ -114,7 +114,7 @@ export default function NavigationBar() {
 
                         <li className="nav-item dropdown ps-lg-5">
                             <a
-                                className="nav-link "
+                                className="nav-link"
                                 href="#"
                                 id="navbarDropdownPages"
                                 role="button"
