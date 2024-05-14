@@ -66,7 +66,6 @@ const useSelected = ([selectedCollection, setResult]: [
     SectorModel["id"][],
     React.Dispatch<React.SetStateAction<TestResult>>,
 ]) => {
-    
     const percForValue = (v: number, scF: number): number => Math.min(Math.floor((v * 100) / scF), 100);
 
     const monEnergy = (): number => {
@@ -385,14 +384,16 @@ export default function ColorTest() {
                             <div className="color-sectors">
                                 {sectorModelCollection.map((sector) => (
                                     <div key={sector.color}>
-                                        <button onClick={() =>
-                                            setUserSelectionCollection((current) => [...current, sector.id])
-                                        }
-                                        className={
-                                            "sector" +
-                                            (userSelectionCollection.includes(sector.id) ? " selected" : "")
-                                        }
-                                        style={{ background: `#${sector.color}` }} />
+                                        <button
+                                            onClick={() =>
+                                                setUserSelectionCollection((current) => [...current, sector.id])
+                                            }
+                                            className={
+                                                "sector" +
+                                                (userSelectionCollection.includes(sector.id) ? " selected" : "")
+                                            }
+                                            style={{ background: `#${sector.color}` }}
+                                        />
                                     </div>
                                 ))}
                             </div>
@@ -409,8 +410,7 @@ export default function ColorTest() {
                             <div className="row g-4">
                                 {RESULT_GROUPS.map((groupTitle, idx, all) => {
                                     const groupResultExists = groupTitle in testResult;
-                                    const result =
-                                        testResult[groupTitle] || testResult[all[idx - 4]] || testResult.A;
+                                    const result = testResult[groupTitle] || testResult[all[idx - 4]] || testResult.A;
 
                                     return (
                                         <div
@@ -425,11 +425,13 @@ export default function ColorTest() {
                                                     style={{ "--color": `#${result.color}` } as React.CSSProperties}
                                                 >
                                                     {result.icons.map((icon, idx) => (
-                                                        <div key={`${groupTitle}-icon-${idx}`}
-                                                        className={`me-2 test-result-icon ${icon}`} />
+                                                        <div
+                                                            key={`${groupTitle}-icon-${idx}`}
+                                                            className={`me-2 test-result-icon ${icon}`}
+                                                        />
                                                     ))}
                                                 </div>
-                                                <p className="mt-2">{_("COLOR_TEST._" + result.lev)}</p>
+                                                <p className="mt-2">{_(`COLOR_TEST._${result.lev}`)}</p>
                                             </div>
                                         </div>
                                     );
@@ -469,13 +471,15 @@ export default function ColorTest() {
                                 <div className="col-8 mx-auto">
                                     <h2>{_("COLOR_TEST.CTA_HEAD")}</h2>
                                     <p>{_("COLOR_TEST.CTA_DESC")}</p>
-                                    <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                                    target="_blank"
-                                    title={_("EMOTION.HEAD")}
-                                    className="ms-btn-apple"
-                                    style={{
-                                        backgroundImage: `url(/img/apple_btn/${Locale.language}.svg)`,
-                                    }} />
+                                    <a
+                                        href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
+                                        target="_blank"
+                                        title={_("EMOTION.HEAD")}
+                                        className="ms-btn-apple"
+                                        style={{
+                                            backgroundImage: `url(/img/apple_btn/${Locale.language}.svg)`,
+                                        }}
+                                    />
                                 </div>
                             </div>
                         </section>
