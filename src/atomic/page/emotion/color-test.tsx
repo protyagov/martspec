@@ -66,18 +66,17 @@ const useSelected = ([selectedCollection, setResult]: [
     SectorModel["id"][],
     React.Dispatch<React.SetStateAction<TestResult>>,
 ]) => {
-    const sc = selectedCollection;
-
+    
     const percForValue = (v: number, scF: number): number => Math.min(Math.floor((v * 100) / scF), 100);
 
     const monEnergy = (): number => {
-        let iRed = 0,
-            iYel = 0,
-            iBlu = 0,
-            iGrn = 0;
+        let iRed = 0;
+        let iYel = 0;
+        let iBlu = 0;
+        let iGrn = 0;
 
         for (let i = 0; i <= 7; i++) {
-            switch (sc[i]) {
+            switch (selectedCollection[i]) {
                 case 3:
                     iRed = i + 1;
                     break;
@@ -148,7 +147,7 @@ const useSelected = ([selectedCollection, setResult]: [
         let tdfan = 0;
 
         for (let i = 0; i <= 6; i++) {
-            const colorNumber = sc[i];
+            const colorNumber = selectedCollection[i];
             if (colorNumber >= 0 && colorNumber <= 7) {
                 const normIdx = autogenNormArr[colorNumber];
                 tdfan += Math.abs(normIdx - (i + 1));
@@ -203,7 +202,7 @@ const useSelected = ([selectedCollection, setResult]: [
     };
 
     function monAnxiety() {
-        const scTypes = sc.map((id) => colorTypeById(id));
+        const scTypes = selectedCollection.map((id) => colorTypeById(id));
 
         function colorTypeById(id: number) {
             switch (id) {
@@ -290,7 +289,7 @@ const useSelected = ([selectedCollection, setResult]: [
     };
 
     React.useLayoutEffect(() => {
-        const scFull = sc.length === COLORS.length;
+        const scFull = selectedCollection.length === COLORS.length;
 
         if (!scFull) return;
 
@@ -386,16 +385,14 @@ export default function ColorTest() {
                             <div className="color-sectors">
                                 {sectorModelCollection.map((sector) => (
                                     <div key={sector.color}>
-                                        <button
-                                            onClick={() =>
-                                                setUserSelectionCollection((current) => [...current, sector.id])
-                                            }
-                                            className={
-                                                "sector" +
-                                                (userSelectionCollection.includes(sector.id) ? " selected" : "")
-                                            }
-                                            style={{ background: "#" + sector.color }}
-                                        ></button>
+                                        <button onClick={() =>
+                                            setUserSelectionCollection((current) => [...current, sector.id])
+                                        }
+                                        className={
+                                            "sector" +
+                                            (userSelectionCollection.includes(sector.id) ? " selected" : "")
+                                        }
+                                        style={{ background: `#${sector.color}` }} />
                                     </div>
                                 ))}
                             </div>
@@ -413,7 +410,7 @@ export default function ColorTest() {
                                 {RESULT_GROUPS.map((groupTitle, idx, all) => {
                                     const groupResultExists = groupTitle in testResult;
                                     const result =
-                                        testResult[groupTitle] || testResult[all[idx - 4]] || testResult["A"];
+                                        testResult[groupTitle] || testResult[all[idx - 4]] || testResult.A;
 
                                     return (
                                         <div
@@ -421,17 +418,15 @@ export default function ColorTest() {
                                             className="col-lg-4 col-sm-6 col-12"
                                             onClick={() => groupResultExists && setDisplayedResult(groupTitle)}
                                         >
-                                            <div className={"block bg-gray" + (groupResultExists ? "" : " blured")}>
-                                                <h3>{_("COLOR_TEST.GROUP_TITLE_" + groupTitle)}</h3>
+                                            <div className={`block bg-gray${groupResultExists ? "" : " blured"}`}>
+                                                <h3>{_(`COLOR_TEST.GROUP_TITLE_${groupTitle}`)}</h3>
                                                 <div
                                                     className="d-flex"
-                                                    style={{ "--color": "#" + result.color } as React.CSSProperties}
+                                                    style={{ "--color": `#${result.color}` } as React.CSSProperties}
                                                 >
                                                     {result.icons.map((icon, idx) => (
-                                                        <div
-                                                            key={groupTitle + "-icon-" + idx}
-                                                            className={"me-2 test-result-icon " + icon}
-                                                        ></div>
+                                                        <div key={`${groupTitle}-icon-${idx}`}
+                                                        className={`me-2 test-result-icon ${icon}`} />
                                                     ))}
                                                 </div>
                                                 <p className="mt-2">{_("COLOR_TEST._" + result.lev)}</p>
@@ -443,20 +438,20 @@ export default function ColorTest() {
 
                             <div className="row mb-0">
                                 <div className="col-12">
-                                    <p className="mb-7">{_("COLOR_TEST." + testResult[displayedResult]?.lev)}</p>
+                                    <p className="mb-7">{_(`COLOR_TEST.${testResult[displayedResult]?.lev}`)}</p>
                                 </div>
                             </div>
                             <div className="row g-4">
                                 <div className="col-md-6 col-12 text-center">
                                     <div className="block bg-violet">
                                         <p>{_("COLOR_TEST.LEV")}</p>
-                                        <h2 className="mb-0">{_("COLOR_TEST._" + testResult[displayedResult]?.lev)}</h2>
+                                        <h2 className="mb-0">{_(`COLOR_TEST._${testResult[displayedResult]?.lev}`)}</h2>
                                     </div>
                                 </div>
                                 <div className="col-md-6 col-12 text-center">
                                     <div className="block bg-yellow">
                                         <p>{_("COLOR_TEST.PERC")}</p>
-                                        <h2 className="mb-0">{testResult[displayedResult]?.perc + "%"}</h2>
+                                        <h2 className="mb-0">{`${testResult[displayedResult]?.perc}%`}</h2>
                                     </div>
                                 </div>
                             </div>
@@ -464,7 +459,7 @@ export default function ColorTest() {
                             <div className="row">
                                 <div className="col-12">
                                     <h3 className="mb-3">{_("COLOR_TEST.GROUP_DESC")}</h3>
-                                    <p className="mb-0">{_("COLOR_TEST.GROUP_DESC_" + displayedResult)}</p>
+                                    <p className="mb-0">{_(`COLOR_TEST.GROUP_DESC_${displayedResult}`)}</p>
                                 </div>
                             </div>
                         </section>
@@ -474,15 +469,13 @@ export default function ColorTest() {
                                 <div className="col-8 mx-auto">
                                     <h2>{_("COLOR_TEST.CTA_HEAD")}</h2>
                                     <p>{_("COLOR_TEST.CTA_DESC")}</p>
-                                    <a
-                                        href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                                        target="_blank"
-                                        title={_("EMOTION.HEAD")}
-                                        className="ms-btn-apple"
-                                        style={{
-                                            backgroundImage: "url(/img/apple_btn/" + Locale.language + ".svg)",
-                                        }}
-                                    ></a>
+                                    <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
+                                    target="_blank"
+                                    title={_("EMOTION.HEAD")}
+                                    className="ms-btn-apple"
+                                    style={{
+                                        backgroundImage: `url(/img/apple_btn/${Locale.language}.svg)`,
+                                    }} />
                                 </div>
                             </div>
                         </section>
