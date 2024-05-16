@@ -412,57 +412,102 @@ export default function ColorTest() {
                                     const groupResultExists = groupTitle in testResult;
                                     const result = testResult[groupTitle] || testResult[all[idx - 4]] || testResult.A;
 
+                                    // return (
+                                    //     <div
+                                    //         key={groupTitle}
+                                    //         className="col-lg-4 col-sm-6 col-12"
+                                    //         onClick={() => groupResultExists && setDisplayedResult(groupTitle)}
+                                    //     >
+                                    //         <div className={`block bg-gray${groupResultExists ? "" : " blured"}`}>
+                                    //             <h3>{_(`COLOR_TEST.GROUP_TITLE_${groupTitle}`)}</h3>
+                                    //             <div
+                                    //                 className="d-flex"
+                                    //                 style={{ "--color": `#${result.color}` } as React.CSSProperties}
+                                    //             >
+                                    //                 {result.icons.map((icon, idx) => (
+                                    //                     <div
+                                    //                         key={`${groupTitle}-icon-${idx}`}
+                                    //                         className={`me-2 test-result-icon ${icon}`}
+                                    //                     />
+                                    //                 ))}
+                                    //             </div>
+                                    //             <p className="mt-2">{_(`COLOR_TEST._${result.lev}`)}</p>
+                                    //         </div>
+                                    //     </div>
+                                    // );
                                     return (
                                         <div
                                             key={groupTitle}
-                                            className="col-lg-4 col-sm-6 col-12"
-                                            onClick={() => groupResultExists && setDisplayedResult(groupTitle)}
+                                            className="accordion col-lg-4 col-sm-6 col-12"
                                         >
-                                            <div className={`block bg-gray${groupResultExists ? "" : " blured"}`}>
-                                                <h3>{_(`COLOR_TEST.GROUP_TITLE_${groupTitle}`)}</h3>
+                                            <div
+                                                className={`accordion-item block bg-gray${groupResultExists ? "" : " blured"}`}
+                                            >
                                                 <div
-                                                    className="d-flex"
-                                                    style={{ "--color": `#${result.color}` } as React.CSSProperties}
+                                                    role="button"
+                                                    className="accordion-button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target={`#accordion-${groupTitle}`}
+                                                    aria-expanded="true"
+                                                    aria-controls={`accordion-${groupTitle}`}
                                                 >
-                                                    {result.icons.map((icon, idx) => (
-                                                        <div
-                                                            key={`${groupTitle}-icon-${idx}`}
-                                                            className={`me-2 test-result-icon ${icon}`}
-                                                        />
-                                                    ))}
+                                                    <h3>{_(`COLOR_TEST.GROUP_TITLE_${groupTitle}`)}</h3>
+                                                    <div
+                                                        className="d-flex"
+                                                        style={{ "--color": `#${result.color}` } as React.CSSProperties}
+                                                    >
+                                                        {result.icons.map((icon, idx) => (
+                                                            <div
+                                                                key={`${groupTitle}-icon-${idx}`}
+                                                                className={`me-2 test-result-icon ${icon}`}
+                                                            />
+                                                        ))}
+                                                    </div>
+                                                    <p className="mt-2">{_(`COLOR_TEST._${result.lev}`)}</p>
                                                 </div>
-                                                <p className="mt-2">{_(`COLOR_TEST._${result.lev}`)}</p>
+                                                <div
+                                                    id={`accordion-${groupTitle}`}
+                                                    className="accordion-collapse collapse show"
+                                                    data-bs-parent="#accordionExample"
+                                                >
+                                                    <div className="row mb-0">
+                                                        <div className="col-12">
+                                                            <p className="mb-7">
+                                                                {_(`COLOR_TEST.${testResult[displayedResult]?.lev}`)}
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="row g-4">
+                                                        <div className="col-md-6 col-12 text-center">
+                                                            <div className="block bg-violet">
+                                                                <p>{_("COLOR_TEST.LEV")}</p>
+                                                                <h2 className="mb-0">
+                                                                    {_(
+                                                                        `COLOR_TEST._${testResult[displayedResult]?.lev}`
+                                                                    )}
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-md-6 col-12 text-center">
+                                                            <div className="block bg-yellow">
+                                                                <p>{_("COLOR_TEST.PERC")}</p>
+                                                                <h2 className="mb-0">{`${testResult[displayedResult]?.perc}%`}</h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="row">
+                                                        <div className="col-12">
+                                                            <h3 className="mb-3">{_("COLOR_TEST.GROUP_DESC")}</h3>
+                                                            <p className="mb-0">
+                                                                {_(`COLOR_TEST.GROUP_DESC_${displayedResult}`)}
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     );
                                 })}
-                            </div>
-
-                            <div className="row mb-0">
-                                <div className="col-12">
-                                    <p className="mb-7">{_(`COLOR_TEST.${testResult[displayedResult]?.lev}`)}</p>
-                                </div>
-                            </div>
-                            <div className="row g-4">
-                                <div className="col-md-6 col-12 text-center">
-                                    <div className="block bg-violet">
-                                        <p>{_("COLOR_TEST.LEV")}</p>
-                                        <h2 className="mb-0">{_(`COLOR_TEST._${testResult[displayedResult]?.lev}`)}</h2>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-12 text-center">
-                                    <div className="block bg-yellow">
-                                        <p>{_("COLOR_TEST.PERC")}</p>
-                                        <h2 className="mb-0">{`${testResult[displayedResult]?.perc}%`}</h2>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="row">
-                                <div className="col-12">
-                                    <h3 className="mb-3">{_("COLOR_TEST.GROUP_DESC")}</h3>
-                                    <p className="mb-0">{_(`COLOR_TEST.GROUP_DESC_${displayedResult}`)}</p>
-                                </div>
                             </div>
                         </section>
 
