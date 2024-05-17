@@ -901,15 +901,15 @@
         "LIST1": {
             "LI1_HEAD": "Prendre soin de sa santé",
             "LI1_TEXT": "L'utilisation confortable de notre application vous permettra de suivre facilement votre consommation quotidienne de zinc",
-            "LI2_HEAD": "Cadrans étendus",
+            "LI2_HEAD": "Visages de montre avancés",
             "LI2_TEXT": "Accès facile aux statistiques sur les montres dotées des premiers logiciels, à commencer par watchOS 6, avec prise en charge de n'importe quel cadran de montre",
             "LI3_HEAD": "Fonctionne sans iPhone",
             "LI3_TEXT": "Application indépendante de l'iPhone - accès à la saisie des données de consommation de zinc même sans votre téléphone"
         },
         "HEAD1": "Pourquoi le zinc ?",
         "DESC1": "Le zinc réduit le risque de pneumonie, renforce le système immunitaire et augmente l'activité des cellules T et des cellules tueuses",
-        "DESC2": "Faciliter la vaccination et maintenir les performances mentales",
-        "DESC3": "Favoriser une régénération accélérée dans le traitement des brûlures, de certains ulcères et d'autres lésions cutanées",
+        "DESC2": "Facilite la vaccination et maintient les performances mentales",
+        "DESC3": "Favorise une régénération accélérée dans le traitement des brûlures, de certains ulcères et d'autres lésions cutanées",
         "DESC4": "Réduire l'oxydation et les niveaux de protéines inflammatoires, prévenir l'inflammation chronique",
         "HEAD4": "Avantages",
         "LIST2": {
