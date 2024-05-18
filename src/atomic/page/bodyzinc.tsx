@@ -127,7 +127,7 @@ export default function BodyZinc() {
                             bgColor={{ backgroundColor: "#AAF1CF" }}
                             title={_("ZINC.HEAD5")}
                             subtitle={_("ZINC.DESC5")}
-                            appId={1507588203}
+                            appId={1547395353}
                             appDownloadTitle={_("ZINC.DWN")}
                             imgSrc="/img/page/zinc/bottom-pic-en.webp"
                             imgAlt={_("ZINC.ALT2")}
