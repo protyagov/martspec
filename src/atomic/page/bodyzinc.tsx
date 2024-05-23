@@ -135,7 +135,7 @@ export default function BodyZinc() {
                     </div>
                 </section>
             </div>
-            <Footer />
+            <Footer/>
         </>
     );
 }
