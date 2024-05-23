@@ -105,6 +105,9 @@
         &.bg-merge-top {
             margin-top: -(map-get($section-y-gap, "m")) * 2;
         }
+        @include media-breakpoint-down($base-breakpoint) {
+            margin: 2rem auto;
+        }
     }
 
     // Classes
@@ -142,6 +145,14 @@
             margin: 0;
         }
     }
+    .ms-base-image.header-main {
+        @include media-breakpoint-down(sm) {
+            transform: translate(8.5rem, -1rem) scale(1.3);
+        }
+        @include media-breakpoint-down(m) {
+            transform: translate(8.5rem, -4rem);
+        }
+    }
 
     .row {
         @extend .ms-s-offset;
@@ -150,6 +161,13 @@
 
         &.g-4 {
             margin-top: -1.5rem; // necessary for correct offsets
+
+            @include media-breakpoint-down(sm) {
+                margin-top: 3rem; // adds margin for new header
+            }
+            @include media-breakpoint-down(m) {
+                margin-top: -4rem; // adds margin for new header
+            }
         }
 
         &:not(:only-child):not(:last-child) {
