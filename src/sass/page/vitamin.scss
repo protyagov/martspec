@@ -75,6 +75,19 @@
             margin-bottom: 0 !important;
 
             padding: 0;
+
+            &.g-4 {
+                margin-top: -1.5rem; // necessary for correct offsets
+
+                //before we use new-header on each page,
+                //need to set these styles for each page which is using new header
+                @include media-breakpoint-down(sm) {
+                    margin-top: 3rem; // adds margin for new header
+                }
+                @include media-breakpoint-down(m) {
+                    margin-top: -4rem; // adds margin for new header
+                }
+            }
         }
 
         .bg {
