@@ -14,7 +14,7 @@ const COLORS = [
     "221F20", // Black
 ] as const;
 
-const RESULT_GROUPS = ["E", "A", "P", "G", "I", "O"] as const;
+const RESULT_GROUPS = ["E", "A", "P"] as const;
 
 const useShuffled = ([modelCollection, setCollection]: [
     SectorModel[],
@@ -441,17 +441,17 @@ export default function ColorTest() {
                                             className="accordion col-lg-4 col-sm-6 col-12"
                                         >
                                             <div
-                                                className={`accordion-item block bg-gray${groupResultExists ? "" : " blured"}`}
+                                                className="accordion-item"
                                             >
                                                 <div
                                                     role="button"
-                                                    className="accordion-button"
+                                                    className="accordion-button d-flex flex-column align-items-baseline"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target={`#accordion-${groupTitle}`}
                                                     aria-expanded="true"
                                                     aria-controls={`accordion-${groupTitle}`}
                                                 >
-                                                    <h3>{_(`COLOR_TEST.GROUP_TITLE_${groupTitle}`)}</h3>
+                                                    <h3 className="mb-1">{_(`COLOR_TEST.GROUP_TITLE_${groupTitle}`)}</h3>
                                                     <div
                                                         className="d-flex"
                                                         style={{ "--color": `#${result.color}` } as React.CSSProperties}
@@ -463,7 +463,7 @@ export default function ColorTest() {
                                                             />
                                                         ))}
                                                     </div>
-                                                    <p className="mt-2">{_(`COLOR_TEST._${result.lev}`)}</p>
+                                                    <p>{_(`COLOR_TEST._${result.lev}`)}</p>
                                                 </div>
                                                 <div
                                                     id={`accordion-${groupTitle}`}
