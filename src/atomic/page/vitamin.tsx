@@ -9,6 +9,7 @@ import CallToAction from "@/atomic/organism/call-to-action";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
+import Header from "@/atomic/organism/header";
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -99,16 +100,21 @@ export default function Vitamin() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new vitamin">
-                <PageHeader
+                <Header
                     title={_("VITAMIN.HEAD")}
-                    subtitleLevel1={_("VITAMIN.ABOUT_1")}
-                    subtitleLevel2={_("VITAMIN.ABOUT_2")}
                     appId={1519596234}
                     appDownloadTitle={_("VITAMIN.DWN")}
-                    imgSrc="/img/page/vitamin/vitamin.webp"
+                    imgSrc="/img/page/vitamin/vitamin-header-en.png"
                     imgAlt={_("VITAMIN.IMG")}
-                    imgH={512}
-                    imgW={512}
+                    imgH={722}
+                    imgW={722}
+                    content={
+                        <ul>
+                            <li>{_("VITAMIN.ABOUT_1")}</li>
+                            <li>{_("VITAMIN.ABOUT_2")}</li>
+                            <li>{_("VITAMIN.ABOUT_3")}</li>
+                        </ul>
+                    }
                 />
 
                 <section>

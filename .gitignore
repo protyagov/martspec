@@ -1,5 +1,5 @@
 .project
-
+.vscode/settings.json
 # dependencies
 /node_modules
 /.pnp

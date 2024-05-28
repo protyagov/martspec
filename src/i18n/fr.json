@@ -84,8 +84,9 @@
         "TEXT": "Le suivi de vos vitamines essentielles présente de nombreux avantages, allant de la gestion des intolérances alimentaires à l'augmentation de l'énergie, en évitant les changements d'humeur et en alimentant les rythmes de votre journée.",
         "IMG": "Suivez les vitamines les plus essentielles directement sur votre poignet",
         "DWN": "Téléchargez l'application gratuite de suivi des vitamines et des nutriments sur l'AppStore d'Apple",
-        "ABOUT_1": "Contrôlez chaque jour votre consommation de vitamines et de minéraux importants.",
-        "ABOUT_2": "L'énergie d'une alimentation saine et d'une vie heureuse.",
+        "ABOUT_1": "Contrôlez chaque jour votre consommation de vitamines et de minéraux importants",
+        "ABOUT_2": "L'énergie d'une alimentation saine et d'une vie heureuse",
+        "ABOUT_3": "Définissez un rappel pour ne pas manquer de prendre vos vitamines",
         "LIST1": {
             "LI1_HEAD": "Facilité d'utilisation quotidienne",
             "LI1_TEXT": "Nos utilisateurs nous ont aidés à rendre l'application simple, pratique et compréhensible.",
@@ -901,15 +902,15 @@
         "LIST1": {
             "LI1_HEAD": "Prendre soin de sa santé",
             "LI1_TEXT": "L'utilisation confortable de notre application vous permettra de suivre facilement votre consommation quotidienne de zinc",
-            "LI2_HEAD": "Cadrans étendus",
+            "LI2_HEAD": "Visages de montre avancés",
             "LI2_TEXT": "Accès facile aux statistiques sur les montres dotées des premiers logiciels, à commencer par watchOS 6, avec prise en charge de n'importe quel cadran de montre",
             "LI3_HEAD": "Fonctionne sans iPhone",
             "LI3_TEXT": "Application indépendante de l'iPhone - accès à la saisie des données de consommation de zinc même sans votre téléphone"
         },
         "HEAD1": "Pourquoi le zinc ?",
         "DESC1": "Le zinc réduit le risque de pneumonie, renforce le système immunitaire et augmente l'activité des cellules T et des cellules tueuses",
-        "DESC2": "Faciliter la vaccination et maintenir les performances mentales",
-        "DESC3": "Favoriser une régénération accélérée dans le traitement des brûlures, de certains ulcères et d'autres lésions cutanées",
+        "DESC2": "Facilite la vaccination et maintient les performances mentales",
+        "DESC3": "Favorise une régénération accélérée dans le traitement des brûlures, de certains ulcères et d'autres lésions cutanées",
         "DESC4": "Réduire l'oxydation et les niveaux de protéines inflammatoires, prévenir l'inflammation chronique",
         "HEAD4": "Avantages",
         "LIST2": {
@@ -1208,9 +1209,9 @@
     },
     "PRODUCTIVITY": {
         "HEAD": "Productivité",
-        "IMG": "Ditch the to-do list overwhelm! Our productivity app helps you conquer tasks, boost focus, and achieve more - finally, stress-free.Emotion: Anxiety Stress Relief  #productivity #todolist #focus",
-        "ALT_1": "Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips",
-        "ALT_2": "Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management",
+        "IMG": "Abandonnez la liste de choses à faire ! Notre application de productivité vous aide à accomplir des tâches, à améliorer votre concentration et à en faire plus - enfin, sans stress. Émotion : soulagement du stress et de l'anxiété #productivité #todolist #focus",
+        "ALT_1": "Vous vous noyez dans les choses à faire ? Libérez une productivité maximale grâce à nos outils puissants et nos conseils pratiques. Gestion du temps, concentration, maîtrise du flux de travail - conquérir votre journée !Mots clés : productivité, gestion du temps, concentration, flux de travail, outils, conseils",
+        "ALT_2": "Se sentir submergé? Arrêtez la lutte ! Maîtrisez votre liste de tâches grâce à nos astuces de productivité éprouvées. Faites-en plus, stressez moins. Explorez maintenant !Mots clés : productivité, liste de tâches, hacks, efficacité, gestion du temps",
         "DWN": "Obtenez l'application gratuite Emotion pour Apple Watch, iPhone ou iPad directement depuis l'App Store d'Apple.",
         "CONTENTS": "Table des matières",
         "HEAD1": "Qu’est-ce que la productivité?",

@@ -86,8 +86,9 @@
         "BTN": "Consulte Mais informação",
         "IMG": "Rastreie as vitaminas mais essenciais diretamente no seu pulso",
         "DWN": "Baixe o aplicativo de rastreamento gratuito de vitaminas e nutrientes da Apple AppStore",
-        "ABOUT_1": "Controle sua ingestão de vitaminas e minerais importantes todos os dias.",
-        "ABOUT_2": "A energia da alimentação saudável e uma vida feliz.",
+        "ABOUT_1": "Controle sua ingestão de vitaminas e minerais importantes todos os dias",
+        "ABOUT_2": "A energia da alimentação saudável e uma vida feliz",
+        "ABOUT_3": "Defina um lembrete para não deixar de tomar suas vitaminas",
         "LIST1": {
             "LI1_HEAD": "Do jeito que você quiser",
             "LI1_TEXT": "Criado com você em mente. Graças ao seu feedback e suporte, tornamos o aplicativo simples e intuitivo de usar.",
@@ -919,7 +920,7 @@
         "LIST2": {
             "LI1_HEAD": "Proteção de dados",
             "LI1_TEXT": "NÃO armazenamos seus dados em nossos servidores",
-            "LI2_HEAD": "Sem autorização",
+            "LI2_HEAD": "Usar o aplicativo sem conta",
             "LI2_TEXT": "Nenhuma conta é necessária para este aplicativo",
             "LI3_HEAD": "Sem anúncios",
             "LI3_TEXT": "NÃO temos anúncios irritantes",
@@ -1213,9 +1214,9 @@
     },
     "PRODUCTIVITY": {
         "HEAD": "Produtividade",
-        "IMG": "Ditch the to-do list overwhelm! Our productivity app helps you conquer tasks, boost focus, and achieve more - finally, stress-free.Emotion: Anxiety Stress Relief  #productivity #todolist #focus",
-        "ALT_1": "Drowning in to-dos?  Unleash peak productivity with our powerful tools & actionable tips. Time management, focus, workflow mastery - conquer your day!Keywords: productivity, time management, focus, workflow, tools, tips",
-        "ALT_2": "Feeling overwhelmed? Stop the struggle! Master your to-do list with our proven productivity hacks. Get more done, stress less. Explore now!Keywords: productivity, to-do list, hacks, efficiency, time management",
+        "IMG": "Abandone a sobrecarga da lista de tarefas! Nosso aplicativo de produtividade ajuda você a conquistar tarefas, aumentar o foco e conseguir mais - finalmente, sem estresse.Emoção: Ansiedade, Alívio do Estresse #produtividade #listadetarefas #foco",
+        "ALT_1": "Afogando-se em tarefas? Libere o pico de produtividade com nossas ferramentas poderosas e dicas práticas. Gerenciamento de tempo, foco, domínio do fluxo de trabalho - conquiste o seu dia! Palavras-chave: produtividade, gerenciamento de tempo, foco, fluxo de trabalho, ferramentas, dicas",
+        "ALT_2": "Sentindo-se sobrecarregado? Pare a luta! Domine sua lista de tarefas com nossos hacks de produtividade comprovados. Faça mais, estresse menos. Explore agora!Palavras-chave: produtividade, lista de tarefas, hacks, eficiência, gerenciamento de tempo",
         "DWN": "Obtenha o aplicativo Emoção gratuito para Apple Watch, iPhone ou iPad diretamente na Apple App Store.",
         "CONTENTS": "Índice",
         "HEAD1": "O que é produtividade?",

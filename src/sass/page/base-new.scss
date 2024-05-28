@@ -105,6 +105,9 @@
         &.bg-merge-top {
             margin-top: -(map-get($section-y-gap, "m")) * 2;
         }
+        @include media-breakpoint-down($base-breakpoint) {
+            margin: 2rem auto;
+        }
     }
 
     // Classes
@@ -134,12 +137,6 @@
                 margin-left: 15px;
                 display: inline-block;
             }
-        }
-    }
-
-    .ms-base-image {
-        @include media-breakpoint-down($base-breakpoint) {
-            margin: 0;
         }
     }
 

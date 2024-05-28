@@ -84,8 +84,9 @@
         "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
         "IMG": "Track the most essential vitamins directly on your wrist",
         "DWN": "Download Free Book Vitamin app from the Apple AppStore",
-        "ABOUT_1": "Control your intake of important vitamins and minerals every day.",
-        "ABOUT_2": "The energy of healthy eating and a happy life.",
+        "ABOUT_1": "Control your intake of important vitamins and minerals every day",
+        "ABOUT_2": "The energy of healthy eating and a happy life",
+        "ABOUT_3": "Set a reminder so you don't miss taking your vitamins",
         "LIST1": {
             "LI1_HEAD": "Easy to love",
             "LI1_TEXT": "Designed with you in mind. Thanks to your feedback and support, we have made it simple and intuitive to use.",
@@ -908,9 +909,9 @@
         },
         "HEAD1": "Why Zinc?",
         "DESC1": "Zinc reduces the risk of pneumonia, strengthens the immune system and increases the activity of T cells and killer cells",
-        "DESC2": "Facilitate vaccination and support mental performance",
+        "DESC2": "Facilitates vaccination and supports mental performance",
         "DESC3": "Promotes accelerated regeneration in the treatment of burns, some ulcers and other skin damage",
-        "DESC4": "Reduce oxidation and levels of inflammatory proteins, preventing chronic inflammation",
+        "DESC4": "Reduces oxidation and levels of inflammatory proteins, preventing chronic inflammation",
         "HEAD4": "Advantages",
         "LIST2": {
             "LI1_HEAD": "Data protection",
@@ -920,7 +921,7 @@
             "LI3_HEAD": "Ad-free",
             "LI3_TEXT": "We do not have annoying ads",
             "LI4_HEAD": "Synchronization",
-            "LI4_TEXT": "Integration of reading and writing data"
+            "LI4_TEXT": "Connects devices via iCloud and Apple Health"
         },
         "HEAD5": "Available for all Apple Watch models",
         "DESC5": "Download the app now and track your daily zinc consumption, including throughout the day. Supports over 20+ languages",
