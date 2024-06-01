@@ -44,6 +44,7 @@
         flex-direction: column;
         align-items: flex-start;
         row-gap: 1.5rem;
+        min-width: 360px;
 
         ul {
             list-style: disc;
@@ -79,7 +80,7 @@
             transform: translate(8.5rem, -4rem);
         }
         @include media-breakpoint-down(md) {
-            margin-top: 5rem;
+            // margin-top: 5rem;
             margin-bottom: 5rem;
         }
     }
