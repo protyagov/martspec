@@ -57,8 +57,10 @@ export default function Emotion() {
                     appDownloadTitle={_("EMOTION.DWN")}
                     imgSrc="/img/page/emotion/emotion-header-img-en.png"
                     imgAlt={_("EMOTION.IMG")}
-                    imgH={722}
-                    imgW={550}
+                    imgH={563}
+                    imgW={537}
+                    bulletColor="purple"
+                    className={"emotion"}
                     content={
                         <ul>
                             <li>{_("EMOTION.ABOUT_1")}</li>
