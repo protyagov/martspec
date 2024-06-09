@@ -8,8 +8,6 @@ type HeaderProps = {
     appId?: number;
     appDownloadTitle?: string;
     content?: React.ReactNode;
-    className?: string;
-    bulletColor?: string;
 };
 
 type WithImage<Props> = Props & {
@@ -27,22 +25,18 @@ type WithoutImage<Props> = Props & {
 };
 
 export default function Header(props: WithImage<HeaderProps> | WithoutImage<HeaderProps>) {
-    const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, content, className } = props;
-    // const color = bulletColor || "defaultColor";
-    // const bulletColorClass = `bullet-color-${color}`;
+    const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, content } = props;
 
     return (
         <section className="new-page-header">
             <div className="row">
                 <div className="col">
-                    <div className={`headings ${className || ""}`}>
+                    <div className="headings">
                         <h1>{title}</h1>
                         {content}
                         {appId && <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle} />}
                     </div>
-                    {imgSrc && (
-                        <ImageI18N src={imgSrc} h={imgH} w={imgW} cls={`header-image ${className}`} alt={imgAlt} />
-                    )}
+                    {imgSrc && <ImageI18N src={imgSrc} h={imgH} w={imgW} cls="header-image" alt={imgAlt} />}
                 </div>
             </div>
         </section>
