@@ -27,9 +27,9 @@ type WithoutImage<Props> = Props & {
 };
 
 export default function Header(props: WithImage<HeaderProps> | WithoutImage<HeaderProps>) {
-    const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, content, className, bulletColor } = props;
-    const color = bulletColor || "defaultColor";
-    const bulletColorClass = `bullet-color-${color}`;
+    const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, content, className } = props;
+    // const color = bulletColor || "defaultColor";
+    // const bulletColorClass = `bullet-color-${color}`;
 
     return (
         <section className="new-page-header">
@@ -37,14 +37,11 @@ export default function Header(props: WithImage<HeaderProps> | WithoutImage<Head
                 <div className="col">
                     <div className={`headings ${className || ""}`}>
                         <h1>{title}</h1>
-                        {content && (
-                            <div className={`content-container ${bulletColor ? bulletColorClass : ""}`}>{content}</div>
-                        )}
-
+                        {content}
                         {appId && <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle} />}
                     </div>
                     {imgSrc && (
-                        <ImageI18N src={imgSrc} h={imgH} w={imgW} cls={`header-main-image ${className}`} alt={imgAlt} />
+                        <ImageI18N src={imgSrc} h={imgH} w={imgW} cls={`header-image ${className}`} alt={imgAlt} />
                     )}
                 </div>
             </div>
