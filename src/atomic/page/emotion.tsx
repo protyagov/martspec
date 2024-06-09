@@ -8,7 +8,7 @@ import CallToAction from "@/atomic/organism/call-to-action";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
-import Header from "../organism/header";
+import Header from "@/atomic/organism/header";
 
 export default function Emotion() {
     const advantages: Array<IconTitleText> = [
@@ -55,14 +55,12 @@ export default function Emotion() {
                     title={_("EMOTION.HEAD")}
                     appId={1562956213}
                     appDownloadTitle={_("EMOTION.DWN")}
-                    imgSrc="/img/page/emotion/emotion-header-img-en.png"
+                    imgSrc="/img/page/emotion/emotion-header-img4-ru.png"
                     imgAlt={_("EMOTION.IMG")}
-                    imgH={563}
-                    imgW={537}
-                    bulletColor="purple"
-                    className={"emotion"}
+                    imgH={531}
+                    imgW={722}
                     content={
-                        <ul>
+                        <ul className="header-content-list">
                             <li>{_("EMOTION.ABOUT_1")}</li>
                             <li>{_("EMOTION.ABOUT_2")}</li>
                             <li>{_("EMOTION.ABOUT_3")}</li>
