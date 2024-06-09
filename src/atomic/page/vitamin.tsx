@@ -106,10 +106,10 @@ export default function Vitamin() {
                     appDownloadTitle={_("VITAMIN.DWN")}
                     imgSrc="/img/page/vitamin/vitamin-header-en.png"
                     imgAlt={_("VITAMIN.IMG")}
-                    imgH={722}
+                    imgH={531}
                     imgW={722}
                     content={
-                        <ul>
+                        <ul className="header-content-list">
                             <li>{_("VITAMIN.ABOUT_1")}</li>
                             <li>{_("VITAMIN.ABOUT_2")}</li>
                             <li>{_("VITAMIN.ABOUT_3")}</li>

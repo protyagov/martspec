@@ -8,6 +8,7 @@ import CallToAction from "@/atomic/organism/call-to-action";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
+import Header from "@/atomic/organism/header";
 
 export default function Emotion() {
     const advantages: Array<IconTitleText> = [
@@ -50,16 +51,21 @@ export default function Emotion() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion">
-                <PageHeader
+                <Header
                     title={_("EMOTION.HEAD")}
-                    subtitleLevel1={_("EMOTION.ABOUT_1")}
-                    subtitleLevel2={_("EMOTION.ABOUT_2")}
                     appId={1562956213}
                     appDownloadTitle={_("EMOTION.DWN")}
-                    imgSrc="/img/page/emotion/emotion.png"
+                    imgSrc="/img/page/emotion/emotion-header-img-en.png"
                     imgAlt={_("EMOTION.IMG")}
-                    imgH={400}
-                    imgW={512}
+                    imgH={531}
+                    imgW={722}
+                    content={
+                        <ul className="header-content-list">
+                            <li>{_("EMOTION.ABOUT_1")}</li>
+                            <li>{_("EMOTION.ABOUT_2")}</li>
+                            <li>{_("EMOTION.ABOUT_3")}</li>
+                        </ul>
+                    }
                 />
 
                 <section>

@@ -36,7 +36,7 @@ export default function Header(props: WithImage<HeaderProps> | WithoutImage<Head
                         {content}
                         {appId && <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle} />}
                     </div>
-                    {imgSrc && <ImageI18N src={imgSrc} h={imgH} w={imgW} cls="header-main-image" alt={imgAlt} />}
+                    {imgSrc && <ImageI18N src={imgSrc} h={imgH} w={imgW} cls="header-image" alt={imgAlt} />}
                 </div>
             </div>
         </section>
