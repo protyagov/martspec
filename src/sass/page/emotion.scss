@@ -41,4 +41,7 @@
             background: map-get($colors, "bg");
         }
     }
+    .header-content-list li::marker {
+        color: #7b62fe;
+    }
 }
