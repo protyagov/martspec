@@ -54,7 +54,7 @@ export default function BodyZinc() {
                     subtitleLevel1={_("ZINC.ABOUT_1")}
                     subtitleLevel2={_("ZINC.ABOUT_2")}
                     appId={1547395353}
-                    appDownloadTitle="ZINC.DWN"
+                    appDownloadTitle={_("ZINC.DWN")}
                     imgSrc="/img/page/zinc/body_zinc.svg"
                     imgAlt="ZINC.IMG"
                     imgW={443}
