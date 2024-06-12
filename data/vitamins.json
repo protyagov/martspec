@@ -383,7 +383,7 @@
     "CHROME": {
         "LOGO": "/img/page/vitamin/chromium-logo.webp",
         "HEX": "00BCD4",
-        "TYPE": "ELECTROLYTE",
+        "TYPE": null,
         "UNIT": "MCG",
         "DEF_COUNT": 1,
         "OVER_COUNT": 5,
@@ -407,7 +407,7 @@
     "COPPER": {
         "LOGO": "/img/page/vitamin/copper-logo.webp",
         "HEX": "D2691E",
-        "TYPE": "ELECTROLYTE",
+        "TYPE": null,
         "UNIT": "MCG",
         "DEF_COUNT": 5,
         "OVER_COUNT": 3,
@@ -434,7 +434,7 @@
     "IODINE": {
         "LOGO": "/img/page/vitamin/iodine-logo.webp",
         "HEX": "BA55D3",
-        "TYPE": "ELECTROLYTE",
+        "TYPE": null,
         "UNIT": "MCG",
         "DEF_COUNT": 7,
         "OVER_COUNT": 2,
@@ -461,7 +461,7 @@
     "IRON": {
         "LOGO": "/img/page/vitamin/iron-logo.webp",
         "HEX": "AD3816",
-        "TYPE": "ELECTROLYTE",
+        "TYPE": null,
         "UNIT": "MG",
         "DEF_COUNT": 8,
         "OVER_COUNT": 5,
@@ -515,7 +515,7 @@
     "MANGANESE": {
         "LOGO": "/img/page/vitamin/manganese-logo.webp",
         "HEX": "E65C9C",
-        "TYPE": "ELECTROLYTE",
+        "TYPE": null,
         "UNIT": "MG",
         "DEF_COUNT": 10,
         "OVER_COUNT": 6,
@@ -542,7 +542,7 @@
     "MOLYBDENUM": {
         "LOGO": "/img/page/vitamin/molybdenum-logo.webp",
         "HEX": "7BC043",
-        "TYPE": "ELECTROLYTE",
+        "TYPE": null,
         "UNIT": "MCG",
         "DEF_COUNT": 1,
         "OVER_COUNT": 3,
@@ -620,7 +620,7 @@
     "SELENIUM": {
         "LOGO": "/img/page/vitamin/selenium-logo.webp",
         "HEX": "D40000",
-        "TYPE": "ELECTROLYTE",
+        "TYPE": null,
         "UNIT": "MCG",
         "DEF_COUNT": 7,
         "OVER_COUNT": 5,
@@ -674,7 +674,7 @@
     "ZINC": {
         "LOGO": "/img/page/vitamin/zinc-logo.webp",
         "HEX": "04DD71",
-        "TYPE": "ELECTROLYTE",
+        "TYPE": null,
         "UNIT": "MG",
         "DEF_COUNT": 7,
         "OVER_COUNT": 9,
