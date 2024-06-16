@@ -7,6 +7,7 @@ interface Props {
     image?: string;
     bgColor?: string;
     className?: string;
+    alt?: string;
 }
 
 interface Link {
@@ -19,13 +20,14 @@ const TitleTextLinkCard = ({
     text,
     link,
     image,
+    alt,
     bgColor = "#FFFFFF",
-    className = "col-lg-4",
+    className = "col-lg-4"
 }: Props): JSX.Element => {
     return (
         <div className={className}>
             <div className="title-text-link-card" style={{ backgroundColor: bgColor }}>
-                <img src={image} />
+                <img src={image} alt={alt}/>
                 <div>
                     <h3>{title}</h3>
                     <p>{text}</p>
