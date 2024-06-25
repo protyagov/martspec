@@ -85,6 +85,7 @@ const Careers = () => {
                                 text: _("CAREERS.BUTTON3"),
                             }}
                             image="/img/page/careers/vacancy-pic-webdesigner.webp"
+                            alt={_("CAREERS.LIST3.LI1_HEAD")}
                         />
                         <TitleTextLinkCard
                             title={_("CAREERS.LIST3.LI2_HEAD")}
@@ -94,6 +95,7 @@ const Careers = () => {
                                 text: _("CAREERS.BUTTON3"),
                             }}
                             image="/img/page/careers/vacancy-pic-mobiledesigner.webp"
+                            alt={_("CAREERS.LIST3.LI2_HEAD")}
                         />
                         <TitleTextLinkCard
                             title={_("CAREERS.LIST3.LI3_HEAD")}
@@ -103,6 +105,7 @@ const Careers = () => {
                                 text: _("CAREERS.BUTTON3"),
                             }}
                             image="/img/page/careers/vacancy-pic-frontend.webp"
+                            alt={_("CAREERS.LIST3.LI3_HEAD")}
                         />
                         <TitleTextLinkCard
                             title={_("CAREERS.LIST3.LI4_HEAD")}
@@ -112,6 +115,7 @@ const Careers = () => {
                                 text: _("CAREERS.BUTTON3"),
                             }}
                             image="/img/page/careers/vacancy-pic-qa.webp"
+                            alt={_("CAREERS.LIST3.LI4_HEAD")}
                         />
                         <TitleTextLinkCard
                             title={_("CAREERS.LIST3.LI5_HEAD")}
@@ -121,6 +125,7 @@ const Careers = () => {
                                 text: _("CAREERS.BUTTON3"),
                             }}
                             image="/img/page/careers/vacancy-pic-ba.webp"
+                            alt={_("CAREERS.LIST3.LI5_HEAD")}
                         />
                         <TitleTextLinkCard
                             title={_("CAREERS.LIST3.LI6_HEAD")}
@@ -130,6 +135,7 @@ const Careers = () => {
                                 text: _("CAREERS.BUTTON3"),
                             }}
                             image="/img/page/careers/vacancy-pic-copywriter.webp"
+                            alt={_("CAREERS.LIST3.LI6_HEAD")}
                         />
                     </div>
                 </section>
