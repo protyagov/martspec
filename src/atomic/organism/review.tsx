@@ -51,6 +51,7 @@ export default function Review() {
                     createdDate={r.attributes.createdDate}
                     reviewText={r.attributes.body}
                     reviewerNickname={r.attributes.reviewerNickname}
+                    rating={r.attributes.rating}
                 />
             ))}
         </div>
