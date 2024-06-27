@@ -41,13 +41,17 @@ const REVIEW_DATA = {
         },
     },
 };
-const REVIEWS = [REVIEW_DATA];
 
 export default function Review() {
     return (
         <div>
-            {REVIEWS.map((r) => (
-                <CardReview />
+            {REVIEW_DATA.data.map((r) => (
+                <CardReview
+                    key={r.id}
+                    createdDate={r.attributes.createdDate}
+                    reviewText={r.attributes.body}
+                    reviewerNickname={r.attributes.reviewerNickname}
+                />
             ))}
         </div>
     );
