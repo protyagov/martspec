@@ -10,6 +10,7 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
+import Review from "@/atomic/organism/review";
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -241,6 +242,10 @@ export default function Vitamin() {
                             </div>
                         ))}
                     </div>
+                </section>
+
+                <section>
+                    <Review />
                 </section>
 
                 <section>
