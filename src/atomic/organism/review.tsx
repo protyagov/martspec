@@ -11,8 +11,8 @@ const REVIEW_DATA = {
             attributes: {
                 rating: 5,
                 title: "Pretty Stellar",
-                body: "I love how creative I can be when I use this app. I can really explore the depths of my imagination!",
-                reviewerNickname: "Juan Chavez",
+                body: "Приложение супер. Я все время забывала выпить лекарство, теперь мне приходит уведомление и все сохраняется. Добавьте функцию автосохранения, а то некоторые изменения появляются только после перезагрузки приложения.",
+                reviewerNickname: "Oxy39",
                 createdDate: "2024-01-02T11:19:36-07:00",
                 territory: "USA",
             },
@@ -44,7 +44,7 @@ const REVIEW_DATA = {
 
 export default function Review() {
     return (
-        <div>
+        <ul className="card-review-list">
             {REVIEW_DATA.data.map((r) => (
                 <CardReview
                     key={r.id}
@@ -54,6 +54,6 @@ export default function Review() {
                     rating={r.attributes.rating}
                 />
             ))}
-        </div>
+        </ul>
     );
 }
