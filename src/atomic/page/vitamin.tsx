@@ -244,7 +244,7 @@ export default function Vitamin() {
                     </div>
                 </section>
 
-                <section>
+                <section className="review">
                     <Review />
                 </section>
 

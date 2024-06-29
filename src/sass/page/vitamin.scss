@@ -41,6 +41,35 @@
         }
     }
 
+  .review {
+        @extend .ms-s-offset;
+
+        .card-review-list {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .card-review{
+            display: flex;
+            flex-direction: column;
+            gap: 1.7rem;
+
+            border: 1px solid #F4F5F8;
+            border-radius: 30px;
+            box-shadow: 0px 22px 26.5px 0px #959DA51A;
+        }
+
+        .header-main {
+            display: flex;
+            gap: 0.8rem;
+        }
+
+        .header-main__rating{
+            display: flex;
+            align-items: center;
+        }
+    }
+
     .vitamins-list {
         @extend .ms-s-offset;
 
