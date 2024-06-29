@@ -392,7 +392,7 @@ export default function Vitamin() {
                     ))}
                 </section>
 
-                <section>
+                <section className="review">
                     <Review />
                 </section>
 

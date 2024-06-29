@@ -12,21 +12,21 @@ const formatDate = (date: string) => new Date(date).toLocaleDateString("ru-RU");
 
 export default function CardReview({ reviewerNickname, createdDate, reviewText, rating }: ICardReviewProps) {
     return (
-        <section>
+        <li className="block card-review">
             <header>
-                <div>
+                <div className="header-main">
                     <h3>{reviewerNickname}</h3>
 
-                    <div>
+                    <figure className="header-main__rating">
                         <StarIcon />
 
-                        <span>{rating},0</span>
-                    </div>
+                        <figcaption>{rating},0</figcaption>
+                    </figure>
                 </div>
                 <time dateTime={createdDate}>{formatDate(createdDate)}</time>
             </header>
 
             <p>{reviewText}</p>
-        </section>
+        </li>
     );
 }
