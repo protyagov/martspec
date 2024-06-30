@@ -44,12 +44,40 @@
   .review {
         @extend .ms-s-offset;
 
+        display: grid;
+        gap: 2rem;
+
+        h3, h2 {
+            margin: 0;
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .review__description {
+            margin-bottom: 2rem;
+
+            @include media-breakpoint-up(lg) {
+                max-width: 50%;
+            }
+        }
+
+        .review-header__link {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+
+            text-decoration: none;
+        }
+
         .card-review-list {
             display: flex;
             gap: 2rem;
         }
 
-        .card-review{
+        .card-review {
             display: flex;
             flex-direction: column;
             gap: 1.7rem;
@@ -59,14 +87,19 @@
             box-shadow: 0px 22px 26.5px 0px #959DA51A;
         }
 
-        .header-main {
-            display: flex;
+        .card-review-header {
+            display: grid;
             gap: 0.8rem;
         }
 
-        .header-main__rating{
+        .card-header-main {
             display: flex;
             align-items: center;
+            gap: 0.8rem;
+        }
+
+        .card-header-main__rating {
+            display: flex;
         }
     }
 

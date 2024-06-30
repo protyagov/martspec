@@ -1,6 +1,8 @@
 import React from "react";
-import CardReview from "../molecule/card-review";
 import _, { Locale } from "@/i18n/locale";
+
+import CardReview from "../molecule/card-review";
+import RightArrowIcon from "../atom/right-arrow-icon";
 
 // temp data
 // remove it after implementing the fetch func from apple api
@@ -67,17 +69,26 @@ const COUNTRY_CODE = (): string => {
 
 export default function Review() {
     return (
-        <>
-            <h2>{_("VITAMIN.REVIEW.HEAD")}</h2>
-            <p>{_("VITAMIN.REVIEW.DESCRIPTION")}</p>
+        <section className="review">
+            <div className="review-header">
+                <h2>{_("VITAMIN.REVIEW.HEAD")}</h2>
 
-            <a
-                href={`https://apps.apple.com/${COUNTRY_CODE()}/app/id1519596234?see-all=reviews`}
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                {_("VITAMIN.REVIEW.LINK")}
-            </a>
+                <a
+                    href={`https://apps.apple.com/${COUNTRY_CODE()}/app/id1519596234?see-all=reviews`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="review-header__link"
+                >
+                    {_("VITAMIN.REVIEW.LINK")}
+
+                    <span>
+                        <RightArrowIcon />
+                    </span>
+                </a>
+            </div>
+
+            <p className="review__description">{_("VITAMIN.REVIEW.DESCRIPTION")}</p>
+
             <ul className="card-review-list">
                 {REVIEW_DATA.data.map((r) => (
                     <CardReview
@@ -89,6 +100,6 @@ export default function Review() {
                     />
                 ))}
             </ul>
-        </>
+        </section>
     );
 }
