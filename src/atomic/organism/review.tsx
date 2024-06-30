@@ -1,6 +1,6 @@
 import React from "react";
 import CardReview from "../molecule/card-review";
-import _ from "@/i18n/locale";
+import _, { Locale } from "@/i18n/locale";
 
 // temp data
 // remove it after implementing the fetch func from apple api
@@ -43,12 +43,37 @@ const REVIEW_DATA = {
     },
 };
 
+const COUNTRY_CODE = (): string => {
+    const code = Locale.language;
+
+    switch (code) {
+        case "en":
+            return "us";
+        case "hi":
+            return "in";
+        case "ja":
+            return "jp";
+        case "uk":
+            return "ua";
+        case "zh":
+            return "cn";
+        case "ar":
+            return "ae";
+
+        default:
+            return code;
+    }
+};
+
 export default function Review() {
     return (
         <>
             <h2>{_("VITAMIN.REVIEW.HEAD")}</h2>
             <p>{_("VITAMIN.REVIEW.DESCRIPTION")}</p>
 
+            <a href={`https://apps.apple.com/${COUNTRY_CODE()}/app/id1519596234?see-all=reviews`}>
+                Читать больше отзывов
+            </a>
             <ul className="card-review-list">
                 {REVIEW_DATA.data.map((r) => (
                     <CardReview
