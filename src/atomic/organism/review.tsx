@@ -1,5 +1,6 @@
 import React from "react";
 import CardReview from "../molecule/card-review";
+import _ from "@/i18n/locale";
 
 // temp data
 // remove it after implementing the fetch func from apple api
@@ -44,16 +45,21 @@ const REVIEW_DATA = {
 
 export default function Review() {
     return (
-        <ul className="card-review-list">
-            {REVIEW_DATA.data.map((r) => (
-                <CardReview
-                    key={r.id}
-                    createdDate={r.attributes.createdDate}
-                    reviewText={r.attributes.body}
-                    reviewerNickname={r.attributes.reviewerNickname}
-                    rating={r.attributes.rating}
-                />
-            ))}
-        </ul>
+        <>
+            <h2>{_("VITAMIN.REVIEW.HEAD")}</h2>
+            <p>{_("VITAMIN.REVIEW.DESCRIPTION")}</p>
+
+            <ul className="card-review-list">
+                {REVIEW_DATA.data.map((r) => (
+                    <CardReview
+                        key={r.id}
+                        createdDate={r.attributes.createdDate}
+                        reviewText={r.attributes.body}
+                        reviewerNickname={r.attributes.reviewerNickname}
+                        rating={r.attributes.rating}
+                    />
+                ))}
+            </ul>
+        </>
     );
 }

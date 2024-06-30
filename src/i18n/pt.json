@@ -89,6 +89,10 @@
         "ABOUT_1": "Controle sua ingestão de vitaminas e minerais importantes todos os dias",
         "ABOUT_2": "A energia da alimentação saudável e uma vida feliz",
         "ABOUT_3": "Defina um lembrete para não deixar de tomar suas vitaminas",
+        "REVIEW": {
+            "HEAD": "Já foi dito sobre nós",
+            "DESCRIPTION": "Valorizamos a sua opinião sobre o nosso produto e respondemos sempre aos comentários. Estão disponíveis mais comentários na página da nossa aplicação na App Store"
+        },
         "LIST1": {
             "LI1_HEAD": "Do jeito que você quiser",
             "LI1_TEXT": "Criado com você em mente. Graças ao seu feedback e suporte, tornamos o aplicativo simples e intuitivo de usar.",

@@ -87,6 +87,10 @@
         "ABOUT_1": "Controle su consumo de vitaminas y minerales importantes todos los días",
         "ABOUT_2": "La energía de la alimentación saludable y una vida feliz",
         "ABOUT_3": "Establece un recordatorio para no olvidarte de tomar tus vitaminas",
+        "REVIEW": {
+            "HEAD": "Se ha dicho de nosotros",
+            "DESCRIPTION": "Valoramos su opinión sobre nuestro producto y siempre respondemos a los comentarios. Encontrará más opiniones en la página de nuestra aplicación en la App Store"
+        },
         "LIST1": {
             "LI1_HEAD": "Como usted prefiera",
             "LI1_TEXT": "Diseñada pensando en usted. Gracias a sus comentarios y apoyo, lo hemos hecho simple e intuitivo de usar.",
