@@ -13,15 +13,14 @@ const formatDate = (date: string) => new Date(date).toLocaleDateString("ru-RU");
 export default function CardReview({ reviewerNickname, createdDate, reviewText, rating }: ICardReviewProps) {
     return (
         <li className="block card-review">
-            <header>
-                <div className="header-main">
+            <header className="card-review-header">
+                <div className="card-header-main">
                     <h3>{reviewerNickname}</h3>
 
-                    <figure className="header-main__rating">
+                    <span className="card-header-main__rating">
                         <StarIcon />
-
-                        <figcaption>{rating},0</figcaption>
-                    </figure>
+                        {rating},0
+                    </span>
                 </div>
                 <time dateTime={createdDate}>{formatDate(createdDate)}</time>
             </header>
