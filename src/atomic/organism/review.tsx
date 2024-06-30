@@ -71,7 +71,11 @@ export default function Review() {
             <h2>{_("VITAMIN.REVIEW.HEAD")}</h2>
             <p>{_("VITAMIN.REVIEW.DESCRIPTION")}</p>
 
-            <a href={`https://apps.apple.com/${COUNTRY_CODE()}/app/id1519596234?see-all=reviews`}>
+            <a
+                href={`https://apps.apple.com/${COUNTRY_CODE()}/app/id1519596234?see-all=reviews`}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 {_("VITAMIN.REVIEW.LINK")}
             </a>
             <ul className="card-review-list">
