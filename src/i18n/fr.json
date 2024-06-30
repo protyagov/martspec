@@ -90,6 +90,10 @@
         "ABOUT_1": "Contrôlez chaque jour votre consommation de vitamines et de minéraux importants",
         "ABOUT_2": "L'énergie d'une alimentation saine et d'une vie heureuse",
         "ABOUT_3": "Définissez un rappel pour ne pas manquer de prendre vos vitamines",
+        "REVIEW": {
+            "HEAD": "On a dit de nous",
+            "DESCRIPTION": "Nous apprécions votre opinion sur notre produit et répondons toujours aux commentaires. D'autres commentaires sont disponibles sur notre page d'application dans l'App Store."
+        },
         "LIST1": {
             "LI1_HEAD": "Facilité d'utilisation quotidienne",
             "LI1_TEXT": "Nos utilisateurs nous ont aidés à rendre l'application simple, pratique et compréhensible.",

@@ -90,6 +90,10 @@
         "ABOUT_1": "Kontrolle Ihrer Aufnahme wichtiger Vitamine und Mineralien jeden Tag",
         "ABOUT_2": "Die Energie der gesunden Ernährung und ein glückliches Leben",
         "ABOUT_3": "Stellen Sie eine Erinnerung ein, damit Sie die Einnahme Ihrer Vitamine nicht vergessen",
+        "REVIEW": {
+            "HEAD": "Es wurde schon über uns gesagt",
+            "DESCRIPTION": "Wir schätzen Ihre Meinung zu unserem Produkt und reagieren immer auf Kommentare. Weitere Bewertungen finden Sie auf unserer App-Seite im App Store"
+        },
         "LIST1": {
             "LI1_HEAD": "So wie Sie es wollen",
             "LI1_TEXT": "Entwickelt mit Ihnen im Hinterkopf. Dank Ihres Feedbacks und Ihrer Unterstützung haben wir die App so gestaltet, dass sie einfach und intuitiv zu bedienen ist.",

@@ -90,6 +90,10 @@
         "ABOUT_1": "Control your intake of important vitamins and minerals every day",
         "ABOUT_2": "The energy of healthy eating and a happy life",
         "ABOUT_3": "Set a reminder so you don't miss taking your vitamins",
+        "REVIEW": {
+            "HEAD": "It's been said about us",
+            "DESCRIPTION": "We value your opinion about our product and always respond to comments. Additional feedback is available on our App Store page"
+        },
         "LIST1": {
             "LI1_HEAD": "Easy to love",
             "LI1_TEXT": "Designed with you in mind. Thanks to your feedback and support, we have made it simple and intuitive to use.",
