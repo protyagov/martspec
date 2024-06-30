@@ -89,7 +89,8 @@
         "ABOUT_3": "Establece un recordatorio para no olvidarte de tomar tus vitaminas",
         "REVIEW": {
             "HEAD": "Se ha dicho de nosotros",
-            "DESCRIPTION": "Valoramos su opinión sobre nuestro producto y siempre respondemos a los comentarios. Encontrará más opiniones en la página de nuestra aplicación en la App Store"
+            "DESCRIPTION": "Valoramos su opinión sobre nuestro producto y siempre respondemos a los comentarios. Encontrará más opiniones en la página de nuestra aplicación en la App Store",
+            "LINK": "Leer más opiniones"
         },
         "LIST1": {
             "LI1_HEAD": "Como usted prefiera",

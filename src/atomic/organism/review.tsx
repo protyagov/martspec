@@ -72,7 +72,7 @@ export default function Review() {
             <p>{_("VITAMIN.REVIEW.DESCRIPTION")}</p>
 
             <a href={`https://apps.apple.com/${COUNTRY_CODE()}/app/id1519596234?see-all=reviews`}>
-                Читать больше отзывов
+                {_("VITAMIN.REVIEW.LINK")}
             </a>
             <ul className="card-review-list">
                 {REVIEW_DATA.data.map((r) => (
