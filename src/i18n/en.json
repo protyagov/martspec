@@ -92,7 +92,8 @@
         "ABOUT_3": "Set a reminder so you don't miss taking your vitamins",
         "REVIEW": {
             "HEAD": "It's been said about us",
-            "DESCRIPTION": "We value your opinion about our product and always respond to comments. Additional feedback is available on our App Store page"
+            "DESCRIPTION": "We value your opinion about our product and always respond to comments. Additional feedback is available on our App Store page",
+            "LINK": "Read more reviews"
         },
         "LIST1": {
             "LI1_HEAD": "Easy to love",
