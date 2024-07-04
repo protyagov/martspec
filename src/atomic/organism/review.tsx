@@ -11,7 +11,7 @@ import ReviewCardSlider from "./review-card-slider";
 import { IReviewData } from "@/data/IReviewData";
 
 const LG_BOOTSTRAP = 992;
-const ID = "1519596234";
+const ID_VITAMIN = "1519596234";
 
 // ------------------------------------------------------------------------------------------------------
 
@@ -37,7 +37,7 @@ export default function Review() {
     const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
 
     useEffect(() => {
-        getData({ id: ID, country_code: Locale.countryCode }).then((r) => setReviews(r.feed.entry));
+        getData({ id: ID_VITAMIN, country_code: Locale.countryCode }).then((r) => setReviews(r.feed.entry));
     }, []);
 
     if (isMobile) {
