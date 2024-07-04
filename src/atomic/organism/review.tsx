@@ -3,6 +3,30 @@ import _, { Locale } from "@/i18n/locale";
 
 import CardReview from "../molecule/card-review";
 import RightArrowIcon from "../atom/right-arrow-icon";
+import { useMediaQuery } from "@/hooks";
+
+// mb move into i18n/locale.ts
+const COUNTRY_CODE = (): string => {
+    const code = Locale.language;
+
+    switch (code) {
+        case "en":
+            return "us";
+        case "hi":
+            return "in";
+        case "ja":
+            return "jp";
+        case "uk":
+            return "ua";
+        case "zh":
+            return "cn";
+        case "ar":
+            return "ae";
+
+        default:
+            return code;
+    }
+};
 
 // temp data
 // remove it after implementing the fetch func from apple api
@@ -45,36 +69,57 @@ const REVIEW_DATA = {
     },
 };
 
-const COUNTRY_CODE = (): string => {
-    const code = Locale.language;
-
-    switch (code) {
-        case "en":
-            return "us";
-        case "hi":
-            return "in";
-        case "ja":
-            return "jp";
-        case "uk":
-            return "ua";
-        case "zh":
-            return "cn";
-        case "ar":
-            return "ae";
-
-        default:
-            return code;
-    }
-};
+const CC = COUNTRY_CODE();
+const LG_BOOTSTRAP = 992;
 
 export default function Review() {
+    const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
+
+    // should move h2, p, ul into separate molecule components
+    if (isMobile) {
+        return (
+            <section className="review">
+                <div className="review-header">
+                    <h2>{_("VITAMIN.REVIEW.HEAD")}</h2>
+                </div>
+
+                <p className="review__description">{_("VITAMIN.REVIEW.DESCRIPTION")}</p>
+
+                <ul className="card-review-list">
+                    {REVIEW_DATA.data.map((r) => (
+                        <CardReview
+                            key={r.id}
+                            createdDate={r.attributes.createdDate}
+                            reviewText={r.attributes.body}
+                            reviewerNickname={r.attributes.reviewerNickname}
+                            rating={r.attributes.rating}
+                        />
+                    ))}
+                </ul>
+
+                <a
+                    href={`https://apps.apple.com/${CC}/app/id1519596234?see-all=reviews`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="review-header__link"
+                >
+                    {_("VITAMIN.REVIEW.LINK")}
+
+                    <span>
+                        <RightArrowIcon />
+                    </span>
+                </a>
+            </section>
+        );
+    }
+
     return (
         <section className="review">
             <div className="review-header">
                 <h2>{_("VITAMIN.REVIEW.HEAD")}</h2>
 
                 <a
-                    href={`https://apps.apple.com/${COUNTRY_CODE()}/app/id1519596234?see-all=reviews`}
+                    href={`https://apps.apple.com/${CC}/app/id1519596234?see-all=reviews`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="review-header__link"
