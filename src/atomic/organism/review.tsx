@@ -1,9 +1,12 @@
 import React from "react";
+import { useMediaQuery } from "@/hooks";
 import _, { Locale } from "@/i18n/locale";
 
-import CardReview from "../molecule/card-review";
-import RightArrowIcon from "../atom/right-arrow-icon";
-import { useMediaQuery } from "@/hooks";
+import RightArrowIcon from "@/atomic/atom/right-arrow-icon";
+import ReviewCard from "@/atomic/molecule/review-card";
+import ReviewHead from "@/atomic/molecule/review-head";
+import ReviewDescription from "@/atomic/molecule/review-description";
+import ReviewLink from "@/atomic/molecule/review-link";
 
 // mb move into i18n/locale.ts
 const COUNTRY_CODE = (): string => {
@@ -75,19 +78,18 @@ const LG_BOOTSTRAP = 992;
 export default function Review() {
     const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
 
-    // should move h2, p, ul into separate molecule components
     if (isMobile) {
         return (
             <section className="review">
                 <div className="review-header">
-                    <h2>{_("VITAMIN.REVIEW.HEAD")}</h2>
+                    <ReviewHead />
                 </div>
 
-                <p className="review__description">{_("VITAMIN.REVIEW.DESCRIPTION")}</p>
+                <ReviewDescription />
 
                 <ul className="card-review-list">
                     {REVIEW_DATA.data.map((r) => (
-                        <CardReview
+                        <ReviewCard
                             key={r.id}
                             createdDate={r.attributes.createdDate}
                             reviewText={r.attributes.body}
@@ -97,18 +99,18 @@ export default function Review() {
                     ))}
                 </ul>
 
-                <a
-                    href={`https://apps.apple.com/${CC}/app/id1519596234?see-all=reviews`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="review-header__link"
-                >
-                    {_("VITAMIN.REVIEW.LINK")}
+                <ReviewLink
+                    countryCode={CC}
+                    content={
+                        <>
+                            {_("VITAMIN.REVIEW.LINK")}
 
-                    <span>
-                        <RightArrowIcon />
-                    </span>
-                </a>
+                            <span>
+                                <RightArrowIcon />
+                            </span>
+                        </>
+                    }
+                />
             </section>
         );
     }
@@ -116,27 +118,27 @@ export default function Review() {
     return (
         <section className="review">
             <div className="review-header">
-                <h2>{_("VITAMIN.REVIEW.HEAD")}</h2>
+                <ReviewHead />
 
-                <a
-                    href={`https://apps.apple.com/${CC}/app/id1519596234?see-all=reviews`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="review-header__link"
-                >
-                    {_("VITAMIN.REVIEW.LINK")}
+                <ReviewLink
+                    countryCode={CC}
+                    content={
+                        <>
+                            {_("VITAMIN.REVIEW.LINK")}
 
-                    <span>
-                        <RightArrowIcon />
-                    </span>
-                </a>
+                            <span>
+                                <RightArrowIcon />
+                            </span>
+                        </>
+                    }
+                />
             </div>
 
-            <p className="review__description">{_("VITAMIN.REVIEW.DESCRIPTION")}</p>
+            <ReviewDescription />
 
             <ul className="card-review-list">
                 {REVIEW_DATA.data.map((r) => (
-                    <CardReview
+                    <ReviewCard
                         key={r.id}
                         createdDate={r.attributes.createdDate}
                         reviewText={r.attributes.body}
