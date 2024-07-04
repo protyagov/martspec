@@ -104,7 +104,7 @@ export default function Vitamin() {
                     title={_("VITAMIN.HEAD")}
                     appId={1519596234}
                     appDownloadTitle={_("VITAMIN.DWN")}
-                    imgSrc="/img/page/vitamin/vitamin-header-en.png"
+                    imgSrc="/img/page/vitamin/vitamin-header-en.webp"
                     imgAlt={_("VITAMIN.IMG")}
                     imgH={531}
                     imgW={722}
