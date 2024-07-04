@@ -20,6 +20,29 @@ export class Locale {
     }
 
     //-------------------------------------------------------------------------------------------------------
+    static get countryCode(): string {
+        const lang = Locale.language;
+
+        switch (lang) {
+            case "en":
+                return "us";
+            case "hi":
+                return "in";
+            case "ja":
+                return "jp";
+            case "uk":
+                return "ua";
+            case "zh":
+                return "cn";
+            case "ar":
+                return "ae";
+
+            default:
+                return lang;
+        }
+    }
+
+    //-------------------------------------------------------------------------------------------------------
     static languageName(code: string): string {
         switch (code) {
             case "en":
