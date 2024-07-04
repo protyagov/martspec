@@ -8,29 +8,6 @@ import ReviewHead from "@/atomic/molecule/review-head";
 import ReviewDescription from "@/atomic/molecule/review-description";
 import ReviewLink from "@/atomic/molecule/review-link";
 
-// mb move into i18n/locale.ts
-const COUNTRY_CODE = (): string => {
-    const code = Locale.language;
-
-    switch (code) {
-        case "en":
-            return "us";
-        case "hi":
-            return "in";
-        case "ja":
-            return "jp";
-        case "uk":
-            return "ua";
-        case "zh":
-            return "cn";
-        case "ar":
-            return "ae";
-
-        default:
-            return code;
-    }
-};
-
 // temp data
 // remove it after implementing the fetch func from apple api
 const REVIEW_DATA = {
@@ -72,7 +49,6 @@ const REVIEW_DATA = {
     },
 };
 
-const CC = COUNTRY_CODE();
 const LG_BOOTSTRAP = 992;
 
 export default function Review() {
@@ -100,7 +76,7 @@ export default function Review() {
                 </ul>
 
                 <ReviewLink
-                    countryCode={CC}
+                    countryCode={Locale.countryCode}
                     content={
                         <>
                             {_("VITAMIN.REVIEW.LINK")}
@@ -121,7 +97,7 @@ export default function Review() {
                 <ReviewHead />
 
                 <ReviewLink
-                    countryCode={CC}
+                    countryCode={Locale.countryCode}
                     content={
                         <>
                             {_("VITAMIN.REVIEW.LINK")}
