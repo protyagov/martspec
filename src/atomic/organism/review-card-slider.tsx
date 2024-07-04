@@ -13,7 +13,7 @@ export default function ReviewCardSlider({ reviews }: IReviewCardSliderProps) {
                 Array.isArray(reviews) &&
                 reviews.map((r) => (
                     <ReviewCard
-                        key={r.link.attributes.href}
+                        key={r.id.label}
                         createdDate={r.updated.label}
                         reviewText={r.content.label}
                         reviewerNickname={r.author.name.label}
