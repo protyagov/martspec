@@ -1,7 +1,7 @@
 import React from "react";
 import StarIcon from "@/atomic/atom/star-icon";
 
-interface ICardReviewProps {
+interface IReviewCardProps {
     reviewerNickname: string;
     createdDate: string;
     reviewText: string;
@@ -10,7 +10,7 @@ interface ICardReviewProps {
 
 const formatDate = (date: string) => new Date(date).toLocaleDateString("ru-RU");
 
-export default function CardReview({ reviewerNickname, createdDate, reviewText, rating }: ICardReviewProps) {
+export default function ReviewCard({ reviewerNickname, createdDate, reviewText, rating }: IReviewCardProps) {
     return (
         <li className="block card-review">
             <header className="card-review-header">
