@@ -3,10 +3,11 @@ import { useMediaQuery } from "@/hooks";
 import _, { Locale } from "@/i18n/locale";
 
 import RightArrowIcon from "@/atomic/atom/right-arrow-icon";
-import ReviewCard from "@/atomic/molecule/review-card";
 import ReviewHead from "@/atomic/molecule/review-head";
 import ReviewDescription from "@/atomic/molecule/review-description";
 import ReviewLink from "@/atomic/molecule/review-link";
+import ReviewCardSlider from "./review-card-slider";
+
 import { IReviewData } from "@/data/IReviewData";
 
 const LG_BOOTSTRAP = 992;
@@ -47,20 +48,7 @@ export default function Review() {
                 </div>
 
                 <ReviewDescription />
-
-                <ul className="review__list">
-                    {reviews &&
-                        Array.isArray(reviews) &&
-                        reviews.map((r) => (
-                            <ReviewCard
-                                key={r.link.attributes.href}
-                                createdDate={r.updated.label}
-                                reviewText={r.content.label}
-                                reviewerNickname={r.author.name.label}
-                                rating={r["im:rating"].label}
-                            />
-                        ))}
-                </ul>
+                <ReviewCardSlider reviews={reviews} />
 
                 <div className="review__link-wrapper">
                     <ReviewLink
@@ -92,20 +80,7 @@ export default function Review() {
             </div>
 
             <ReviewDescription />
-
-            <ul className="review__list">
-                {reviews &&
-                    Array.isArray(reviews) &&
-                    reviews.map((r) => (
-                        <ReviewCard
-                            key={r.link.attributes.href}
-                            createdDate={r.updated.label}
-                            reviewText={r.content.label}
-                            reviewerNickname={r.author.name.label}
-                            rating={r["im:rating"].label}
-                        />
-                    ))}
-            </ul>
+            <ReviewCardSlider reviews={reviews} />
         </section>
     );
 }
