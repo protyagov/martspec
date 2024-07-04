@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useMediaQuery } from "@/hooks";
 import _, { Locale } from "@/i18n/locale";
 
@@ -7,52 +7,37 @@ import ReviewCard from "@/atomic/molecule/review-card";
 import ReviewHead from "@/atomic/molecule/review-head";
 import ReviewDescription from "@/atomic/molecule/review-description";
 import ReviewLink from "@/atomic/molecule/review-link";
-
-// temp data
-// remove it after implementing the fetch func from apple api
-const REVIEW_DATA = {
-    data: [
-        {
-            type: "customerReviews",
-            id: "00000028-b08c-0014-9674-c54800000000",
-            attributes: {
-                rating: 5,
-                title: "Pretty Stellar",
-                body: "Приложение супер. Я все время забывала выпить лекарство, теперь мне приходит уведомление и все сохраняется. Добавьте функцию автосохранения, а то некоторые изменения появляются только после перезагрузки приложения.",
-                reviewerNickname: "Oxy39",
-                createdDate: "2024-01-02T11:19:36-07:00",
-                territory: "USA",
-            },
-            relationships: {
-                response: {
-                    links: {
-                        self: "https://api.appstoreconnect.apple.com/v1/customerReviews/00000028-b08c-0014-9674-c54800000000/relationships/response",
-                        related:
-                            "https://api.appstoreconnect.apple.com/v1/customerReviews/00000028-b08c-0014-9674-c54800000000/response",
-                    },
-                },
-            },
-            links: {
-                self: "https://api.appstoreconnect.apple.com/v1/customerReviews/00000028-b08c-0014-9674-c54800000000",
-            },
-        },
-    ],
-    links: {
-        self: "https://api.appstoreconnect.apple.com/v1/appStoreVersions/d716c220-3de9-4cf2-a885-8cfb43a11087/customerReviews?filter%5Bterritory%5D=USA&limit=1",
-        next: "https://api.appstoreconnect.apple.com/v1/appStoreVersions/d716c220-3de9-4cf2-a885-8cfb43a11087/customerReviews?cursor=AQ.AJJtGDc&filter%5Bterritory%5D=USA&limit=1",
-    },
-    meta: {
-        paging: {
-            total: 10,
-            limit: 1,
-        },
-    },
-};
+import { IReviewData } from "@/data/IReviewData";
 
 const LG_BOOTSTRAP = 992;
+const ID = "1519596234";
+
+// ------------------------------------------------------------------------------------------------------
+
+interface IGetLink {
+    id: string;
+    country_code: string;
+    page?: number;
+    data_type?: "xml" | "json";
+}
+const getLink = ({ id, data_type = "json", country_code, page = 1 }: IGetLink) =>
+    `https://itunes.apple.com/${country_code}/rss/customerreviews/page=${page}/id=${id}/sortBy=mostRecent/${data_type}?l=en&cc=gb`;
+async function getData(linkData: IGetLink): Promise<IReviewData> {
+    const res = await fetch(getLink(linkData));
+    const data = await res.json();
+
+    return data;
+}
+
+// ------------------------------------------------------------------------------------------------------
 
 export default function Review() {
+    const [reviews, setReviews] = useState<IReviewData["feed"]["entry"] | undefined>(undefined);
     const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
+
+    useEffect(() => {
+        getData({ id: ID, country_code: Locale.countryCode }).then((r) => setReviews(r.feed.entry));
+    }, []);
 
     if (isMobile) {
         return (
@@ -64,15 +49,17 @@ export default function Review() {
                 <ReviewDescription />
 
                 <ul className="review__list">
-                    {REVIEW_DATA.data.map((r) => (
-                        <ReviewCard
-                            key={r.id}
-                            createdDate={r.attributes.createdDate}
-                            reviewText={r.attributes.body}
-                            reviewerNickname={r.attributes.reviewerNickname}
-                            rating={r.attributes.rating}
-                        />
-                    ))}
+                    {reviews &&
+                        Array.isArray(reviews) &&
+                        reviews.map((r) => (
+                            <ReviewCard
+                                key={r.link.attributes.href}
+                                createdDate={r.updated.label}
+                                reviewText={r.content.label}
+                                reviewerNickname={r.author.name.label}
+                                rating={r["im:rating"].label}
+                            />
+                        ))}
                 </ul>
 
                 <div className="review__link-wrapper">
@@ -107,15 +94,17 @@ export default function Review() {
             <ReviewDescription />
 
             <ul className="review__list">
-                {REVIEW_DATA.data.map((r) => (
-                    <ReviewCard
-                        key={r.id}
-                        createdDate={r.attributes.createdDate}
-                        reviewText={r.attributes.body}
-                        reviewerNickname={r.attributes.reviewerNickname}
-                        rating={r.attributes.rating}
-                    />
-                ))}
+                {reviews &&
+                    Array.isArray(reviews) &&
+                    reviews.map((r) => (
+                        <ReviewCard
+                            key={r.link.attributes.href}
+                            createdDate={r.updated.label}
+                            reviewText={r.content.label}
+                            reviewerNickname={r.author.name.label}
+                            rating={r["im:rating"].label}
+                        />
+                    ))}
             </ul>
         </section>
     );
