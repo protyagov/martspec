@@ -55,7 +55,7 @@ export default function Emotion() {
                     title={_("EMOTION.HEAD")}
                     appId={1562956213}
                     appDownloadTitle={_("EMOTION.DWN")}
-                    imgSrc="/img/page/emotion/emotion-header-img-en.png"
+                    imgSrc="/img/page/emotion/emotion-header-img-en.webp"
                     imgAlt={_("EMOTION.IMG")}
                     imgH={531}
                     imgW={722}
