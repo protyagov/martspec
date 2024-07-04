@@ -57,13 +57,13 @@ export default function Review() {
     if (isMobile) {
         return (
             <section className="review">
-                <div className="review-header">
+                <div className="review__header">
                     <ReviewHead />
                 </div>
 
                 <ReviewDescription />
 
-                <ul className="card-review-list">
+                <ul className="review__list">
                     {REVIEW_DATA.data.map((r) => (
                         <ReviewCard
                             key={r.id}
@@ -75,44 +75,38 @@ export default function Review() {
                     ))}
                 </ul>
 
-                <ReviewLink
-                    countryCode={Locale.countryCode}
-                    content={
-                        <>
-                            {_("VITAMIN.REVIEW.LINK")}
-
+                <div className="review__link-wrapper">
+                    <ReviewLink
+                        countryCode={Locale.countryCode}
+                        rightIcon={
                             <span>
                                 <RightArrowIcon />
                             </span>
-                        </>
-                    }
-                />
+                        }
+                    />
+                </div>
             </section>
         );
     }
 
     return (
         <section className="review">
-            <div className="review-header">
+            <div className="review__header">
                 <ReviewHead />
 
                 <ReviewLink
                     countryCode={Locale.countryCode}
-                    content={
-                        <>
-                            {_("VITAMIN.REVIEW.LINK")}
-
-                            <span>
-                                <RightArrowIcon />
-                            </span>
-                        </>
+                    rightIcon={
+                        <span>
+                            <RightArrowIcon />
+                        </span>
                     }
                 />
             </div>
 
             <ReviewDescription />
 
-            <ul className="card-review-list">
+            <ul className="review__list">
                 {REVIEW_DATA.data.map((r) => (
                     <ReviewCard
                         key={r.id}

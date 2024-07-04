@@ -12,12 +12,12 @@ const formatDate = (date: string) => new Date(date).toLocaleDateString("ru-RU");
 
 export default function ReviewCard({ reviewerNickname, createdDate, reviewText, rating }: IReviewCardProps) {
     return (
-        <li className="block card-review">
-            <header className="card-review-header">
-                <div className="card-header-main">
+        <li className="block review-card">
+            <header className="review-card__header">
+                <div className="review-card__header-main">
                     <h3>{reviewerNickname}</h3>
 
-                    <span className="card-header-main__rating">
+                    <span className="review-card__header-rating">
                         <StarIcon />
                         {rating},0
                     </span>
