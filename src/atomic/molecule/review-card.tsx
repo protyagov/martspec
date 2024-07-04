@@ -5,7 +5,7 @@ interface IReviewCardProps {
     reviewerNickname: string;
     createdDate: string;
     reviewText: string;
-    rating: number;
+    rating: string;
 }
 
 const formatDate = (date: string) => new Date(date).toLocaleDateString("ru-RU");
