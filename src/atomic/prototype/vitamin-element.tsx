@@ -167,7 +167,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                         <div className="row">
                                             <div className="col d-flex align-items-center">
                                                 <img
-                                                    src={"/img/page/vitamin/vitamin-" + SECTION + "-icon.png"}
+                                                    src={"/img/page/vitamin/vitamin-" + SECTION + "-icon.webp"}
                                                     className="p-0 mt-3 ms-0 me-3"
                                                     alt={_("VITAMIN.CONTENT." + SECTION)}
                                                     height="40px"
