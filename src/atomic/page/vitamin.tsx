@@ -216,29 +216,49 @@ export default function Vitamin() {
                     </div>
                 </section>
 
-                <section className="bg-gray bg-merge-top">
+                <section>
                     <div className="row mb-0">
+                        <div className="col-12 my-2">
+                            <h2 className="mb-6">{_("VITAMIN.HEAD5")}</h2>
+                        </div>
                         <div className="col-12">
-                            <div className="block bg-green">
-                                <h2 className="mb-6">{_("VITAMIN.HEAD5")}</h2>
-                                <ul className="counters-list">
-                                    <li>
-                                        <h1>{_("VITAMIN.LIST5.LI1_HEAD")}</h1>
-                                        <p>{_("VITAMIN.LIST5.LI1_TEXT")}</p>
+                            <div className="row p-0 g-4">
+                                <ul className="counters-list col-xl-6 col-12 pe-xl-4 pe-0">
+                                    <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
+                                        <h1 className="text-xl-start text-center">{_("VITAMIN.LIST5.LI1_HEAD")}</h1>
+                                        <p className="text-xl-start w-xxl-75 w-100 text-center">
+                                            {_("VITAMIN.LIST5.LI1_TEXT")}
+                                        </p>
                                     </li>
-                                    <li>
-                                        <h1>{_("VITAMIN.LIST5.LI2_HEAD")}</h1>
-                                        <p>{_("VITAMIN.LIST5.LI2_TEXT")}</p>
+                                    <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
+                                        <h1 className="text-xl-start text-center">{_("VITAMIN.LIST5.LI2_HEAD")}</h1>
+                                        <p className="text-xl-start w-xxl-75 w-100 text-center">
+                                            {_("VITAMIN.LIST5.LI2_TEXT")}
+                                        </p>
                                     </li>
-                                    <li>
-                                        <h1>{_("VITAMIN.LIST5.LI3_HEAD")}</h1>
-                                        <p>{_("VITAMIN.LIST5.LI3_TEXT")}</p>
+                                    <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
+                                        <h1 className="text-xl-start text-center">{_("VITAMIN.LIST5.LI3_HEAD")}</h1>
+                                        <p className="text-xl-start w-xxl-75 w-100 text-center">
+                                            {_("VITAMIN.LIST5.LI3_TEXT")}
+                                        </p>
                                     </li>
-                                    <li>
-                                        <h1>{_("VITAMIN.LIST5.LI4_HEAD")}</h1>
-                                        <p>{_("VITAMIN.LIST5.LI4_TEXT")}</p>
+                                    <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
+                                        <h1 className="text-xl-start text-center">{_("VITAMIN.LIST5.LI4_HEAD")}</h1>
+                                        <p className="text-xl-start w-xxl-75 w-100 text-center">
+                                            {_("VITAMIN.LIST5.LI4_TEXT")}
+                                        </p>
                                     </li>
                                 </ul>
+                                <CardImage
+                                    imgSrc="/img/page/vitamin/vitamin-screen-minr-en.512.webp"
+                                    imgH={440}
+                                    imgW={512}
+                                    imgAlt={_("VITAMIN.ALT2")}
+                                    bgColor="#F4F5F8"
+                                    alignItems="end"
+                                    justifyContent="end"
+                                    className="col-xl-6 col-12 px-0"
+                                />
                             </div>
                         </div>
                     </div>
