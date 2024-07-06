@@ -32,7 +32,19 @@
         }
 
         p {
+            width: 75%;
             font-size: 1.5rem;
+        }
+
+        @include media-breakpoint-down(#{xl}) {
+            h1 {
+                text-align: center;
+            }
+
+            p {
+                width: 100%;
+                text-align: center;
+            }
         }
     }
 

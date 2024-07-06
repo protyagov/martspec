@@ -226,28 +226,20 @@ export default function Vitamin() {
                             <div className="row p-0 g-4">
                                 <ul className="counters-list col-xl-6 col-12 pe-xl-4 pe-0">
                                     <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
-                                        <h1 className="text-xl-start text-center">{_("VITAMIN.LIST5.LI1_HEAD")}</h1>
-                                        <p className="text-xl-start w-xxl-75 w-100 text-center">
-                                            {_("VITAMIN.LIST5.LI1_TEXT")}
-                                        </p>
+                                        <h1>{_("VITAMIN.LIST5.LI1_HEAD")}</h1>
+                                        <p>{_("VITAMIN.LIST5.LI1_TEXT")}</p>
                                     </li>
                                     <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
-                                        <h1 className="text-xl-start text-center">{_("VITAMIN.LIST5.LI2_HEAD")}</h1>
-                                        <p className="text-xl-start w-xxl-75 w-100 text-center">
-                                            {_("VITAMIN.LIST5.LI2_TEXT")}
-                                        </p>
+                                        <h1>{_("VITAMIN.LIST5.LI2_HEAD")}</h1>
+                                        <p>{_("VITAMIN.LIST5.LI2_TEXT")}</p>
                                     </li>
                                     <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
-                                        <h1 className="text-xl-start text-center">{_("VITAMIN.LIST5.LI3_HEAD")}</h1>
-                                        <p className="text-xl-start w-xxl-75 w-100 text-center">
-                                            {_("VITAMIN.LIST5.LI3_TEXT")}
-                                        </p>
+                                        <h1>{_("VITAMIN.LIST5.LI3_HEAD")}</h1>
+                                        <p>{_("VITAMIN.LIST5.LI3_TEXT")}</p>
                                     </li>
                                     <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
-                                        <h1 className="text-xl-start text-center">{_("VITAMIN.LIST5.LI4_HEAD")}</h1>
-                                        <p className="text-xl-start w-xxl-75 w-100 text-center">
-                                            {_("VITAMIN.LIST5.LI4_TEXT")}
-                                        </p>
+                                        <h1>{_("VITAMIN.LIST5.LI4_HEAD")}</h1>
+                                        <p>{_("VITAMIN.LIST5.LI4_TEXT")}</p>
                                     </li>
                                 </ul>
                                 <div className="col-xl-6 col-12 px-0">
