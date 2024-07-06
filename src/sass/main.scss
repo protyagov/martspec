@@ -36,11 +36,12 @@ $utilities: map-merge(
 @import "organism/footer";
 @import "organism/social-bar";
 
+@import "prototype/vitamin-element";
+
 @import "page/base";
 @import "page/base-new";
 @import "page/team";
 @import "page/vitamin";
-@import "page/vitamin-element";
 @import "page/bodymass.scss";
 @import "page/emotion";
 @import "page/emotion/biorhythms";
