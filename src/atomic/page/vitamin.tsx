@@ -10,6 +10,7 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
+import CardImage from "@/atomic/molecule/card-image";
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -123,16 +124,29 @@ export default function Vitamin() {
                             title={_("VITAMIN.LIST1.LI1_HEAD")}
                             text={_("VITAMIN.LIST1.LI1_TEXT")}
                             bgColor="#D6E3FC"
+                            className="col-xl-4 col-lg-6"
                         />
-                        <TitleTextCard
-                            title={_("VITAMIN.LIST1.LI2_HEAD")}
-                            text={_("VITAMIN.LIST1.LI2_TEXT")}
-                            bgColor="#E8FAE0"
-                        />
-                        <TitleTextCard
-                            title={_("VITAMIN.LIST1.LI3_HEAD")}
-                            text={_("VITAMIN.LIST1.LI3_TEXT")}
-                            bgColor="#D6E3FC"
+                        <div className="col-xl-4 col-lg-6">
+                            <TitleTextCard
+                                title={_("VITAMIN.LIST1.LI2_HEAD")}
+                                text={_("VITAMIN.LIST1.LI2_TEXT")}
+                                bgColor="#E8FAE0"
+                                className="row-lg py-0 mb-4"
+                            />
+                            <TitleTextCard
+                                title={_("VITAMIN.LIST1.LI3_HEAD")}
+                                text={_("VITAMIN.LIST1.LI3_TEXT")}
+                                bgColor="#D6E3FC"
+                                className="row-lg py-0"
+                            />
+                        </div>
+                        <CardImage
+                            imgSrc="/img/page/vitamin/vitamin-watches-en.512.webp"
+                            imgH={512}
+                            imgW={472}
+                            imgAlt={_("VITAMIN.ALT4")}
+                            bgColor="#F2F2F5"
+                            className="col-xl-4"
                         />
                     </div>
                 </section>
