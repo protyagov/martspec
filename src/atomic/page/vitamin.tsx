@@ -140,14 +140,15 @@ export default function Vitamin() {
                                 className="row-lg py-0"
                             />
                         </div>
-                        <CardImage
-                            imgSrc="/img/page/vitamin/vitamin-watches-en.512.webp"
-                            imgH={512}
-                            imgW={472}
-                            imgAlt={_("VITAMIN.ALT4")}
-                            bgColor="#F2F2F5"
-                            className="col-xl-4"
-                        />
+                        <div className="col-xl-4">
+                            <CardImage
+                                imgSrc="/img/page/vitamin/vitamin-watches-en.512.webp"
+                                imgH={512}
+                                imgW={472}
+                                imgAlt={_("VITAMIN.ALT4")}
+                                bgColor="#F2F2F5"
+                            />
+                        </div>
                     </div>
                 </section>
 
@@ -249,16 +250,17 @@ export default function Vitamin() {
                                         </p>
                                     </li>
                                 </ul>
-                                <CardImage
-                                    imgSrc="/img/page/vitamin/vitamin-screen-minr-en.512.webp"
-                                    imgH={440}
-                                    imgW={512}
-                                    imgAlt={_("VITAMIN.ALT2")}
-                                    bgColor="#F4F5F8"
-                                    alignItems="end"
-                                    justifyContent="end"
-                                    className="col-xl-6 col-12 px-0"
-                                />
+                                <div className="col-xl-6 col-12 px-0">
+                                    <CardImage
+                                        imgSrc="/img/page/vitamin/vitamin-screen-minr-en.512.webp"
+                                        imgH={440}
+                                        imgW={512}
+                                        imgAlt={_("VITAMIN.ALT2")}
+                                        bgColor="#F4F5F8"
+                                        alignItems="end"
+                                        justifyContent="end"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -7,7 +7,6 @@ interface CardImageProps {
     imgW: number;
     imgAlt?: string;
     bgColor?: string;
-    className?: string;
     alignItems?: "start" | "center" | "end";
     justifyContent?: "start" | "center" | "end";
 }
@@ -18,18 +17,15 @@ export default function CardImage({
     imgW,
     imgAlt,
     bgColor,
-    className = "col-lg-4",
     alignItems = "center",
     justifyContent = "center",
 }: CardImageProps) {
     return (
-        <div className={className}>
-            <div
-                className={`d-flex h-100 rounded-5 align-items-${alignItems} justify-content-${justifyContent}`}
-                {...(bgColor && { style: { backgroundColor: bgColor } })}
-            >
-                <ImageI18N src={imgSrc} w={imgW} h={imgH} alt={imgAlt} cls="img-fluid m-0" />
-            </div>
+        <div
+            className={`d-flex h-100 rounded-5 align-items-${alignItems} justify-content-${justifyContent}`}
+            {...(bgColor && { style: { backgroundColor: bgColor } })}
+        >
+            <ImageI18N src={imgSrc} w={imgW} h={imgH} alt={imgAlt} cls="img-fluid m-0" />
         </div>
     );
 }
