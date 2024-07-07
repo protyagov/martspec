@@ -1,17 +1,21 @@
-import { IReviewData } from "@/data/IReviewData";
 import React from "react";
 import ReviewCard from "../molecule/review-card";
+import { IReviewWithFiller } from "@/data/IReviewWithFiller";
+import ReviewFillerCard from "../molecule/review-filler-card";
 
-interface IReviewCardSliderProps {
-    reviews: IReviewData["feed"]["entry"];
+interface IReviewProps {
+    reviews: IReviewWithFiller;
 }
 
-export default function ReviewCardSlider({ reviews }: IReviewCardSliderProps) {
+export default function ReviewCardSlider({ reviews }: IReviewProps) {
     return (
         <ul className="review__list">
-            {reviews &&
-                Array.isArray(reviews) &&
-                reviews.map((r) => (
+            {reviews.map((r) => {
+                if ("filler" in r) {
+                    return <ReviewFillerCard />;
+                }
+
+                return (
                     <ReviewCard
                         key={r.id.label}
                         createdDate={r.updated.label}
@@ -19,7 +23,8 @@ export default function ReviewCardSlider({ reviews }: IReviewCardSliderProps) {
                         reviewerNickname={r.author.name.label}
                         rating={r["im:rating"].label}
                     />
-                ))}
+                );
+            })}
         </ul>
     );
 }

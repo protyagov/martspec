@@ -2,6 +2,7 @@ import { ScrollSpy } from "bootstrap";
 import React, { useEffect, useState } from "react";
 import { IReviewData } from "./data/IReviewData";
 import { Locale } from "@/i18n/locale";
+import { IFiller, IReviewWithFiller } from "./data/IReviewWithFiller";
 
 export const useScrollSpy = (scrollTargetId: string, scrollContainerId: string = "root") => {
     const scrollContainer = document.getElementById(scrollContainerId);
@@ -36,6 +37,7 @@ export const useMediaQuery = (query: string): boolean => {
 
 //-------------------------------------------------------------------------------
 const ID_VITAMIN = "1519596234";
+const ARR_LENGTH = 3;
 
 interface IGetLink {
     id: string;
@@ -54,11 +56,39 @@ async function getData(linkData: IGetLink): Promise<IReviewData> {
     return data;
 }
 
+interface IValidateReviewData {
+    reviewData: IReviewData["feed"]["entry"];
+    arrLength: number;
+}
+type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
+
+const createFillerObject = (): IFiller => ({ filler: true });
+
+const fillArrayWithFillerObject = (arrLength: number) => Array(arrLength).fill(createFillerObject());
+
+const validateReviewData: TValidateReviewData = async ({ reviewData, arrLength }) => {
+    if (!reviewData) {
+        return fillArrayWithFillerObject(arrLength);
+    }
+
+    if (!Array.isArray(reviewData)) {
+        return [reviewData, ...fillArrayWithFillerObject(arrLength - 1)];
+    }
+
+    if (reviewData.length < arrLength) {
+        return [...reviewData, ...fillArrayWithFillerObject(arrLength - reviewData.length)];
+    }
+
+    return reviewData.slice(0, arrLength);
+};
+
 export const useReviewData = () => {
-    const [reviews, setReviews] = useState<IReviewData["feed"]["entry"] | undefined>(undefined);
+    const [reviews, setReviews] = useState<IReviewWithFiller>(fillArrayWithFillerObject(ARR_LENGTH));
 
     useEffect(() => {
-        getData({ id: ID_VITAMIN, country_code: Locale.countryCode }).then((r) => setReviews(r.feed.entry));
+        getData({ id: ID_VITAMIN, country_code: Locale.countryCode })
+            .then((r) => validateReviewData({ reviewData: r.feed.entry, arrLength: ARR_LENGTH }))
+            .then((r) => setReviews(r));
     }, []);
 
     return reviews;
