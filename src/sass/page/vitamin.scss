@@ -21,8 +21,9 @@
 
     .counters-list {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1rem 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 1fr;
+        gap: 1.5rem;
 
         h1 {
             color: map-get($colors, "main");
@@ -35,9 +36,15 @@
             font-size: 1.5rem;
         }
 
-        @include media-breakpoint-down($base-breakpoint) {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1rem;
+        @include media-breakpoint-down(#{xl}) {
+            h1 {
+                text-align: center;
+            }
+
+            p {
+                width: 100%;
+                text-align: center;
+            }
         }
     }
 
