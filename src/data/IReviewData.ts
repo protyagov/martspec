@@ -1,7 +1,7 @@
 export interface IReviewData {
     feed: {
         author: IAuthor;
-        entry: IReview[] | IReview;
+        entry: IReview[] | IReview | undefined;
         updated: ILabel;
         rights: ILabel;
         title: ILabel;
@@ -11,7 +11,7 @@ export interface IReviewData {
     };
 }
 
-interface IReview {
+export interface IReview {
     author: IAuthor;
     updated: ILabel;
     "im:rating": ILabel;
@@ -34,6 +34,7 @@ interface IReview {
     };
     "im:voteCount": ILabel;
 }
+
 interface ILink {
     attributes: {
         rel: "related" | "alternate" | "self" | "first" | "last" | "previous" | "next";
@@ -41,11 +42,13 @@ interface ILink {
         href: string;
     };
 }
+
 interface IAuthor {
     name: ILabel;
     uri: ILabel;
     label?: ILabel["label"];
 }
+
 interface ILabel {
     label: string;
 }
