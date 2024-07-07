@@ -6,10 +6,10 @@ import ReviewHead from "@/atomic/molecule/review-head";
 import ReviewDescription from "@/atomic/molecule/review-description";
 import ReviewLink from "@/atomic/molecule/review-link";
 import ReviewCardSlider from "./review-card-slider";
-import { IReviewData } from "@/data/IReviewData";
+import { IReviewWithFiller } from "@/data/IReviewWithFiller";
 
 interface IReviewProps {
-    reviews: IReviewData["feed"]["entry"];
+    reviews: IReviewWithFiller;
 }
 
 export default function ReviewMobile({ reviews }: IReviewProps) {
