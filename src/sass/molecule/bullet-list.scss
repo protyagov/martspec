@@ -1,31 +1,31 @@
-@import "../atom/color.scss"; 
+@import "@/sass/atom/color"; 
 
 .bullet-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1.5rem;
+
+  @media (max-width: 1199.98px) {
+    grid-template-columns: 1fr; 
+  }
 
   li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
+    display: flex; 
+    align-items: flex-start; 
 
-    &:last-child {
-      margin-bottom: 0;
+    .bullet-list__icon {
+      margin-top: 4px;
+      width: 23px;
+      height: 23px;
+      fill: currentColor;
+      margin-right: 0.5rem;
+      flex-shrink: 0;
     }
-  }
-
-  &__icon {
-    margin-right: 16px;
-    width: 23px;
-    height: 23px;
-    flex-shrink: 0;
-  }
-
-  &__text {
-    font-family: 'Rubik', sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    color: $ms-color-text-gray-darker; 
+    
+    .bullet-list__text {
+      margin-left: 0.5rem;
+      flex-grow: 1; 
+    }
   }
 }

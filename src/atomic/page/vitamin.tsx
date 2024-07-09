@@ -10,6 +10,7 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
+import BulletList from "@/atomic/molecule/bullet-list";
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -179,14 +180,17 @@ export default function Vitamin() {
                                 alt={_("VITAMIN.ALT2")}
                             />
                             <h3>{_("VITAMIN.DESC3_2")}</h3>
-                            <ul className="checkmark-list">
-                                <li>{_("VITAMIN.LIST3.LI1_TEXT")}</li>
-                                <li>{_("VITAMIN.LIST3.LI2_TEXT")}</li>
-                                <li>{_("VITAMIN.LIST3.LI3_TEXT")}</li>
-                                <li>{_("VITAMIN.LIST3.LI4_TEXT")}</li>
-                                <li>{_("VITAMIN.LIST3.LI5_TEXT")}</li>
-                                <li>{_("VITAMIN.LIST3.LI6_TEXT")}</li>
-                            </ul>
+                            <BulletList
+                                items={[
+                                _("VITAMIN.LIST3.LI1_TEXT"),
+                                _("VITAMIN.LIST3.LI2_TEXT"),
+                                _("VITAMIN.LIST3.LI3_TEXT"),
+                                _("VITAMIN.LIST3.LI4_TEXT"),
+                                _("VITAMIN.LIST3.LI5_TEXT"),
+                                _("VITAMIN.LIST3.LI6_TEXT")
+                                ]}
+                                iconColor="#1686FF"
+                            />
                         </div>
                     </div>
                 </section>
