@@ -11,14 +11,6 @@
         }
     }
 
-    .checkmark-list {
-        li {
-            &::before {
-                filter: map-get($colors, "main-filter");
-            }
-        }
-    }
-
     .counters-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

@@ -1,0 +1,31 @@
+@import "@/sass/atom/color"; 
+
+.bullet-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1.5rem;
+
+  @media (max-width: 1199.98px) {
+    grid-template-columns: 1fr; 
+  }
+
+  li {
+    display: flex; 
+    align-items: flex-start; 
+
+    .bullet-list__icon {
+      margin-top: 4px;
+      width: 23px;
+      height: 23px;
+      fill: currentColor;
+      margin-right: 0.5rem;
+      flex-shrink: 0;
+    }
+    
+    .bullet-list__text {
+      margin-left: 0.5rem;
+      flex-grow: 1; 
+    }
+  }
+}
