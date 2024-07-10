@@ -56,6 +56,10 @@
         li {
             margin-bottom: 0.5rem;
         }
+
+        @include media-breakpoint-down($base-breakpoint) {
+            min-width: auto;
+        }
     }
 
     @include media-breakpoint-down($base-breakpoint) {
