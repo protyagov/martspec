@@ -101,8 +101,8 @@ export default function BodyZinc() {
                         <div className="col-lg-6">
                             <ImageI18N
                                 src="/img/page/zinc/middle-pic-en.webp"
-                                w={437.59}
-                                h={383.96}
+                                w={438}
+                                h={438}
                                 cls="ms-base-image mt-mob-xs"
                                 alt={_("ZINC.ALT1")}
                             />
