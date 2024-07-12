@@ -9,7 +9,7 @@ import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
-import BulletList from "../molecule/bullet-list";
+import BulletList from "@/atomic/molecule/bullet-list";
 
 export default function Emotion() {
     const advantages: Array<IconTitleText> = [
