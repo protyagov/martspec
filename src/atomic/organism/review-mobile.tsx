@@ -14,7 +14,7 @@ interface IReviewProps {
 
 export default function ReviewMobile({ reviews }: IReviewProps) {
     return (
-        <section className="review">
+        <div className="ms-s-offset review">
             <div className="review__header">
                 <ReviewHead />
             </div>
@@ -32,6 +32,6 @@ export default function ReviewMobile({ reviews }: IReviewProps) {
                     }
                 />
             </div>
-        </section>
+        </div>
     );
 }
