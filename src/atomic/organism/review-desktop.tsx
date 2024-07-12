@@ -14,7 +14,7 @@ interface IReviewProps {
 
 export default function ReviewDesktop({ reviews }: IReviewProps) {
     return (
-        <section className="review">
+        <div className="ms-s-offset review">
             <div className="review__header">
                 <ReviewHead />
 
@@ -30,6 +30,6 @@ export default function ReviewDesktop({ reviews }: IReviewProps) {
 
             <ReviewDescription />
             <ReviewCardSlider reviews={reviews} />
-        </section>
+        </div>
     );
 }
