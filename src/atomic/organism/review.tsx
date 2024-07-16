@@ -8,14 +8,14 @@ import ReviewDesktop from "./review-desktop";
 const LG_BOOTSTRAP = 992;
 
 export default function Review() {
-    const reviews = useReviewData();
+    const { reviews, appId } = useReviewData();
     const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
 
-    if (!reviews) return <></>;
+    if (!reviews || !appId) return <></>;
 
     if (isMobile) {
-        return <ReviewMobile reviews={reviews} />;
+        return <ReviewMobile id={appId} reviews={reviews} />;
     }
 
-    return <ReviewDesktop reviews={reviews} />;
+    return <ReviewDesktop id={appId} reviews={reviews} />;
 }

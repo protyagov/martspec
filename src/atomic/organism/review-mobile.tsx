@@ -10,28 +10,32 @@ import { IReviewWithFiller } from "@/data/IReviewWithFiller";
 
 interface IReviewProps {
     reviews: IReviewWithFiller;
+    id: number;
 }
 
-export default function ReviewMobile({ reviews }: IReviewProps) {
+export default function ReviewMobile({ reviews, id }: IReviewProps) {
     return (
-        <div className="ms-s-offset review">
-            <div className="review__header">
-                <ReviewHead />
-            </div>
+        <section>
+            <div className="ms-s-offset review">
+                <div className="review__header">
+                    <ReviewHead />
+                </div>
 
-            <ReviewDescription />
-            <ReviewCardSlider reviews={reviews} />
+                <ReviewDescription />
+                <ReviewCardSlider reviews={reviews} />
 
-            <div className="review__link-wrapper">
-                <ReviewLink
-                    countryCode={Locale.countryCode}
-                    rightIcon={
-                        <span>
-                            <RightArrowIcon />
-                        </span>
-                    }
-                />
+                <div className="review__link-wrapper">
+                    <ReviewLink
+                        id={id}
+                        countryCode={Locale.countryCode}
+                        rightIcon={
+                            <span>
+                                <RightArrowIcon />
+                            </span>
+                        }
+                    />
+                </div>
             </div>
-        </div>
+        </section>
     );
 }
