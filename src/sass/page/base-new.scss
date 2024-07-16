@@ -154,6 +154,20 @@
         }
     }
 
+    .row-no-padding {
+        @extend .ms-s-offset;
+
+        padding: 0;
+
+        &.g-4 {
+            margin-top: -1.5rem; // necessary for correct offsets
+        }
+
+        &:not(:only-child):not(:last-child) {
+            margin-bottom: map-get($section-y-gap, "s");
+        }
+    }
+
     .block {
         @extend %with-shadow;
 

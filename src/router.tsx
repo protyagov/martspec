@@ -24,6 +24,7 @@ import Energy from "@/atomic/page/emotion/energy";
 import Openness from "@/atomic/page/emotion/openness";
 import ColorTest from "@/atomic/page/emotion/color-test";
 import Careers from "@/atomic/page/careers";
+import VacancyDetails from "@/atomic/page/vacancy-details";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -80,6 +81,8 @@ export function App() {
             return <Careers />;
         case "/coming-soon":
             return <ComingSoon />;
+        case "/vacancy-details":
+            return <VacancyDetails />;
         default:
             const [, pagePath, currentPath] = url.split("/");
 

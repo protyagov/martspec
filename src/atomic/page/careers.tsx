@@ -81,7 +81,7 @@ const Careers = () => {
                             title={_("CAREERS.LIST3.LI1_HEAD")}
                             text={_("CAREERS.LIST3.LI1_TEXT")}
                             link={{
-                                href: Locale.i18nLink("coming-soon"),
+                                href: Locale.i18nLink("vacancy-details"),
                                 text: _("CAREERS.BUTTON3"),
                             }}
                             image="/img/page/careers/vacancy-pic-webdesigner.webp"

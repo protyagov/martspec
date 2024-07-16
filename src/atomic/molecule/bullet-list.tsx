@@ -1,14 +1,15 @@
 import React from 'react';
-import '@/sass/molecule/bullet-list.scss'; // Подключение стилей BulletList
+import '@/sass/molecule/bullet-list.scss'; 
 
 interface BulletListProps {
   items: string[];
   iconColor: string;
+  className?: string; 
 }
 
-const BulletList: React.FC<BulletListProps> = ({ items, iconColor }) => {
+const BulletList: React.FC<BulletListProps> = ({ items, iconColor, className }) => {
   return (
-    <ul className="bullet-list">
+    <ul className={className}>
       {items.map((item, index) => (
         <li key={index}>
           <svg
