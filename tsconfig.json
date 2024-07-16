@@ -11,7 +11,7 @@
         "preserveConstEnums": true,
         "removeComments": true,
         "resolveJsonModule": true,
-        "strictNullChecks": false,
+        "strictNullChecks": true,
         "target": "es2019",
         "jsx": "react",
         "baseUrl": "./",
