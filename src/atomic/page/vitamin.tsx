@@ -392,9 +392,7 @@ export default function Vitamin() {
                     ))}
                 </section>
 
-                <section>
-                    <Review />
-                </section>
+                <Review />
 
                 <section>
                     <CallToAction
