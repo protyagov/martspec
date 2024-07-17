@@ -13,6 +13,7 @@ module.exports = {
         filename: "[name].[chunkhash:3].js",
         path: path.resolve(__dirname, "build"),
         publicPath: "/",
+        clean: true,
     },
     plugins: [
         // --------------- Static Content EN ---------------
