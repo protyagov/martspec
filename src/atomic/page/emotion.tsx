@@ -9,6 +9,7 @@ import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
+import BulletList from "@/atomic/molecule/bullet-list";
 
 export default function Emotion() {
     const advantages: Array<IconTitleText> = [
@@ -211,14 +212,17 @@ export default function Emotion() {
                                 alt={_("EMOTION.ALT4")}
                             />
                             <h3>{_("EMOTION.DESK4_2")}</h3>
-                            <ul className="checkmark-list">
-                                <li>{_("EMOTION.LIST4.LI1_TEXT")}</li>
-                                <li>{_("EMOTION.LIST4.LI2_TEXT")}</li>
-                                <li>{_("EMOTION.LIST4.LI3_TEXT")}</li>
-                                <li>{_("EMOTION.LIST4.LI4_TEXT")}</li>
-                                <li>{_("EMOTION.LIST4.LI5_TEXT")}</li>
-                                <li>{_("EMOTION.LIST4.LI6_TEXT")}</li>
-                            </ul>
+                            <BulletList
+                                items={[
+                                    _("EMOTION.LIST4.LI1_TEXT"),
+                                    _("EMOTION.LIST4.LI2_TEXT"),
+                                    _("EMOTION.LIST4.LI3_TEXT"),
+                                    _("EMOTION.LIST4.LI4_TEXT"),
+                                    _("EMOTION.LIST4.LI5_TEXT"),
+                                    _("EMOTION.LIST4.LI6_TEXT")
+                                ]}
+                                iconColor="#7B62FE"
+                            />
                         </div>
                     </div>
                 </section>

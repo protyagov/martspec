@@ -22,14 +22,6 @@
         }
     }
 
-    .checkmark-list {
-        li {
-            &::before {
-                filter: map-get($colors, "main-filter");
-            }
-        }
-    }
-
     .personality-traits-list {
         a {
             margin-top: 1.5rem;
