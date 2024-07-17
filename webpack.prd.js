@@ -32,7 +32,15 @@ module.exports = merge(common, {
         new PurgeCSSPlugin({
             paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true }),
             safelist: {
-                standard: [/active/, "navbar-collapse", /collapse/, "collapsing", /show/],
+                standard: [
+                    /active/,
+                    "navbar-collapse",
+                    /collapse/,
+                    "collapsing",
+                    /show/,
+                    /align-items-(start|center|end)/,
+                    /justify-content-(start|center|end)/,
+                ],
                 deep: [/^dropdown/, /^modal/, /^carousel/, /collapse/, /navbar/],
             },
         }),
