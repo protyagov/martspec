@@ -1,6 +1,6 @@
 import React from "react";
 import ReviewCard from "../molecule/review-card";
-import { IReviewWithFiller } from "@/data/IReviewWithFiller";
+import { IReviewWithFiller } from "@/model/IReviewWithFiller";
 import ReviewFillerCard from "../molecule/review-filler-card";
 
 interface IReviewProps {

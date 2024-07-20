@@ -1,4 +1,4 @@
-import { IFiller } from "@/data/IReviewWithFiller";
+import { IFiller } from "@/model/IReviewWithFiller";
 
 const fillerObject = (): IFiller => ({ filler: true });
 
