@@ -14,6 +14,7 @@ import CardImage from "@/atomic/molecule/card-image";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardTitleSubtitle, { CardTitleSubtitleProps } from "@/atomic/molecule/card-title-subtitle";
+import Review from "@/atomic/organism/review";
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -256,12 +257,12 @@ export default function Vitamin() {
                             <h3>{_("VITAMIN.DESC3_2")}</h3>
                             <BulletList
                                 items={[
-                                _("VITAMIN.LIST3.LI1_TEXT"),
-                                _("VITAMIN.LIST3.LI2_TEXT"),
-                                _("VITAMIN.LIST3.LI3_TEXT"),
-                                _("VITAMIN.LIST3.LI4_TEXT"),
-                                _("VITAMIN.LIST3.LI5_TEXT"),
-                                _("VITAMIN.LIST3.LI6_TEXT")
+                                    _("VITAMIN.LIST3.LI1_TEXT"),
+                                    _("VITAMIN.LIST3.LI2_TEXT"),
+                                    _("VITAMIN.LIST3.LI3_TEXT"),
+                                    _("VITAMIN.LIST3.LI4_TEXT"),
+                                    _("VITAMIN.LIST3.LI5_TEXT"),
+                                    _("VITAMIN.LIST3.LI6_TEXT"),
                                 ]}
                                 iconColor="#1686FF"
                             />
@@ -319,6 +320,10 @@ export default function Vitamin() {
                             </div>
                         ))}
                     </div>
+                </section>
+
+                <section>
+                    <Review />
                 </section>
 
                 <section>
