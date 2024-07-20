@@ -1,6 +1,6 @@
 import { Locale } from "@/i18n/locale";
 
-import { IReviewData } from "@/data/IReviewData";
+import { IReviewData } from "@/model/IReviewData";
 import appIds from "@/data/app-ids.json";
 
 interface IGetLink {

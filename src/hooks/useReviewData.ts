@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { IReviewWithFiller } from "@/data/IReviewWithFiller";
+import { IReviewWithFiller } from "@/model/IReviewWithFiller";
 import { getReviewData } from "@/helpers/getReviewData";
 import { validateReviewData } from "@/helpers/validateReviewData";
 

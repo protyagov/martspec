@@ -6,7 +6,7 @@ import ReviewHead from "@/atomic/molecule/review-head";
 import ReviewDescription from "@/atomic/molecule/review-description";
 import ReviewLink from "@/atomic/molecule/review-link";
 import ReviewCardSlider from "./review-card-slider";
-import { IReviewWithFiller } from "@/data/IReviewWithFiller";
+import { IReviewWithFiller } from "@/model/IReviewWithFiller";
 
 interface IReviewProps {
     reviews: IReviewWithFiller;

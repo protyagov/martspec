@@ -1,5 +1,5 @@
-import { IReviewData } from "@/data/IReviewData";
-import { IReviewWithFiller } from "@/data/IReviewWithFiller";
+import { IReviewData } from "@/model/IReviewData";
+import { IReviewWithFiller } from "@/model/IReviewWithFiller";
 import { fillerArray } from "./fillerArray";
 
 interface IValidateReviewData {
