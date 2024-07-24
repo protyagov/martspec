@@ -1,13 +1,14 @@
 import React, { ReactNode } from "react";
-import _ from "@/i18n/locale";
 
 interface IReviewLinkProps {
     countryCode: string;
-    rightIcon?: ReactNode;
     id: number;
+
+    rightIcon?: ReactNode;
+    text: string;
 }
 
-export default function ReviewLink({ countryCode, rightIcon, id }: IReviewLinkProps) {
+export default function ReviewLink({ countryCode, rightIcon, id, text }: IReviewLinkProps) {
     return (
         <a
             href={`https://apps.apple.com/${countryCode}/app/id${id}?see-all=reviews`}
@@ -15,7 +16,7 @@ export default function ReviewLink({ countryCode, rightIcon, id }: IReviewLinkPr
             rel="noopener noreferrer"
             className="review__header--link"
         >
-            {_("VITAMIN.REVIEW.LINK")}
+            {text}
             {rightIcon}
         </a>
     );
