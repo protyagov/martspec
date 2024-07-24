@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Locale } from "@/i18n/locale";
+import _, { Locale } from "@/i18n/locale";
 import { useMediaQuery, useReviewData } from "@/hooks";
 
 import { ReviewDesktop, ReviewMobile } from "./review-layouts";
@@ -20,9 +20,9 @@ export default function Review() {
     if (isMobile) {
         return (
             <ReviewMobile
-                head={<ReviewHead />}
-                description={<ReviewDescription />}
-                link={<ReviewLink id={appId} countryCode={Locale.countryCode} />}
+                head={<ReviewHead text={_("VITAMIN.REVIEW.HEAD")} />}
+                description={<ReviewDescription text={_("VITAMIN.REVIEW.DESCRIPTION")} />}
+                link={<ReviewLink text={_("VITAMIN.REVIEW.LINK")} id={appId} countryCode={Locale.countryCode} />}
                 slider={<ReviewCardSlider reviews={reviews} />}
             />
         );
@@ -30,9 +30,9 @@ export default function Review() {
 
     return (
         <ReviewDesktop
-            head={<ReviewHead />}
-            description={<ReviewDescription />}
-            link={<ReviewLink id={appId} countryCode={Locale.countryCode} />}
+            head={<ReviewHead text={_("VITAMIN.REVIEW.HEAD")} />}
+            description={<ReviewDescription text={_("VITAMIN.REVIEW.DESCRIPTION")} />}
+            link={<ReviewLink text={_("VITAMIN.REVIEW.LINK")} id={appId} countryCode={Locale.countryCode} />}
             slider={<ReviewCardSlider reviews={reviews} />}
         />
     );

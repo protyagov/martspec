@@ -1,6 +1,10 @@
 import React from "react";
 import _ from "@/i18n/locale";
 
-export default function ReviewHead() {
-    return <h2>{_("VITAMIN.REVIEW.HEAD")}</h2>;
+interface IReviewHeadProps {
+    text: string;
+}
+
+export default function ReviewHead({ text }: IReviewHeadProps) {
+    return <h2>{text}</h2>;
 }

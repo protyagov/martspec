@@ -1,6 +1,9 @@
 import React from "react";
-import _ from "@/i18n/locale";
 
-export default function ReviewDescription() {
-    return <p className="review__description">{_("VITAMIN.REVIEW.DESCRIPTION")}</p>;
+interface IReviewDescriptionProps {
+    text: string;
+}
+
+export default function ReviewDescription({ text }: IReviewDescriptionProps) {
+    return <p className="review__description">{text}</p>;
 }
