@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 
 import { IReviewWithFiller } from "@/model/IReviewWithFiller";
-import { getReviewData } from "@/helpers/getReviewData";
-import { validateReviewData } from "@/helpers/validateReviewData";
+import { AppleReviewService } from "@/service/AppleReviewService";
 
 const ARR_LENGTH = 3;
 
 export const useReviewData = () => {
     const [reviews, setReviews] = useState<IReviewWithFiller | null>(null);
     const [appId, setAppId] = useState<number | null>(null);
+    const { getReviewData, validateReviewData } = new AppleReviewService();
 
     useEffect(() => {
         getReviewData()
