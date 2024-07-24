@@ -322,7 +322,12 @@ export default function Vitamin() {
                     </div>
                 </section>
 
-                <Review />
+                <Review
+                    country_code={Locale.countryCode}
+                    headText={_("VITAMIN.REVIEW.HEAD")}
+                    descriptionText={_("VITAMIN.REVIEW.DESCRIPTION")}
+                    linkText={_("VITAMIN.REVIEW.LINK")}
+                />
 
                 <section>
                     <CallToAction

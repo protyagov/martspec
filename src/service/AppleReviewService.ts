@@ -2,7 +2,6 @@ import { IReviewData } from "@/model/IReviewData";
 import appIds from "@/data/app-ids.json";
 import { IFiller, IReviewWithFiller } from "@/model/IReviewWithFiller";
 import { TCountryCode } from "@/model/TCodes";
-import { Locale } from "@/i18n/locale";
 
 interface IGetLink {
     id: number;
@@ -69,7 +68,7 @@ export class AppleReviewService implements IAppleReviewService {
         );
     };
 
-    #getReviewLink = ({ id, data_type = "json", country_code = Locale.countryCode, page = 1 }: IGetLink) =>
+    #getReviewLink = ({ id, data_type = "json", country_code = "us", page = 1 }: IGetLink) =>
         `https://itunes.apple.com/${country_code}/rss/customerreviews/page=${page}/id=${id}/sortBy=mostRecent/${data_type}?l=en&cc=gb`;
 
     #fillerObject = (): IFiller => ({ filler: true });
