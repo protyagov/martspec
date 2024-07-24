@@ -1,5 +1,4 @@
 import React from "react";
-import _ from "@/i18n/locale";
 
 interface IReviewHeadProps {
     text: string;
