@@ -15,20 +15,42 @@ interface IValidateReviewData {
     reviewData: IReviewData["feed"]["entry"];
     arrLength: number;
 }
+interface IGetValidateReviewData {
+    linkData?: Partial<IGetLink>;
+    arrLength: IValidateReviewData["arrLength"];
+}
+
+// review models
+interface IReviewWithAppId {
+    data: IReviewData;
+    id: number;
+}
+interface IReviewFillerWithAppId {
+    reviews: IReviewWithFiller;
+    id: number;
+}
 
 // types for review methods
-type TGetReviewData = (props?: Partial<IGetLink>) => Promise<{ data: IReviewData; id: number }>;
+type TGetReviewData = (props?: Partial<IGetLink>) => Promise<IReviewWithAppId>;
 type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
+type TGetValidateReviewData = (props: IGetValidateReviewData) => Promise<IReviewFillerWithAppId>;
 
-// compose types into single interface
+// compose type into single interface
 interface IAppleReviewService {
-    validateReviewData: TValidateReviewData;
-    getReviewData: TGetReviewData;
+    getValidateReviewData: TGetValidateReviewData;
 }
 
 export class AppleReviewService implements IAppleReviewService {
-    // with validation it always returns an array with review or filler data
-    validateReviewData: TValidateReviewData = async ({ reviewData, arrLength }) => {
+    // get validated reviews and appId
+    getValidateReviewData: TGetValidateReviewData = async ({ linkData, arrLength }) => {
+        const { data, id } = await this.#getReviewData(linkData);
+        const validateReviews = await this.#validateReviewData({ reviewData: data.feed.entry, arrLength });
+
+        return { reviews: validateReviews, id };
+    };
+
+    // validation always returns an array with review or filler data
+    #validateReviewData: TValidateReviewData = async ({ reviewData, arrLength }) => {
         // if no data return fillers
         if (!reviewData) {
             return this.#fillerArray(arrLength);
@@ -49,8 +71,8 @@ export class AppleReviewService implements IAppleReviewService {
     };
 
     // get reviews and appId
-    getReviewData: TGetReviewData = async (linkData) => {
-        const id = await this.#getReviewId();
+    #getReviewData: TGetReviewData = async (linkData) => {
+        const id = linkData.id ? linkData.id : await this.#getReviewId();
         const res = await fetch(this.#getReviewLink({ id, ...linkData }));
         const data: IReviewData = await res.json();
 
@@ -78,6 +100,7 @@ export class AppleReviewService implements IAppleReviewService {
 
     // create filler object
     #fillerObject = (): IFiller => ({ filler: true });
+
     // create an array of fillers to be used in the validateReviewData
     #fillerArray = (arrLength: number) => Array(arrLength).fill(this.#fillerObject());
 }
