@@ -1,5 +1,6 @@
 import * as Polyglot from "node-polyglot";
 import eb from "@/event-bus";
+import { TCountryCode, TLanguageCode } from "@/model/TCodes";
 
 export class Locale {
     private static _polyglot = new Polyglot({ allowMissing: true });
@@ -20,8 +21,8 @@ export class Locale {
     }
 
     //-------------------------------------------------------------------------------------------------------
-    static get countryCode(): string {
-        const lang = Locale.language;
+    static get countryCode(): TCountryCode {
+        const lang = Locale.language as TLanguageCode;
 
         switch (lang) {
             case "en":
