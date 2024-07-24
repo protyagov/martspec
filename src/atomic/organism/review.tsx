@@ -1,9 +1,13 @@
 import React from "react";
-import { useMediaQuery, useReviewData } from "@/hooks";
-import _ from "@/i18n/locale";
 
-import ReviewMobile from "./review-mobile";
-import ReviewDesktop from "./review-desktop";
+import { Locale } from "@/i18n/locale";
+import { useMediaQuery, useReviewData } from "@/hooks";
+
+import { ReviewDesktop, ReviewMobile } from "./review-layouts";
+import ReviewHead from "../molecule/review-head";
+import ReviewDescription from "../molecule/review-description";
+import ReviewLink from "../molecule/review-link";
+import ReviewCardSlider from "./review-card-slider";
 
 const LG_BOOTSTRAP = 992;
 
@@ -14,8 +18,22 @@ export default function Review() {
     if (!reviews || !appId) return <></>;
 
     if (isMobile) {
-        return <ReviewMobile id={appId} reviews={reviews} />;
+        return (
+            <ReviewMobile
+                head={<ReviewHead />}
+                description={<ReviewDescription />}
+                link={<ReviewLink id={appId} countryCode={Locale.countryCode} />}
+                slider={<ReviewCardSlider reviews={reviews} />}
+            />
+        );
     }
 
-    return <ReviewDesktop id={appId} reviews={reviews} />;
+    return (
+        <ReviewDesktop
+            head={<ReviewHead />}
+            description={<ReviewDescription />}
+            link={<ReviewLink id={appId} countryCode={Locale.countryCode} />}
+            slider={<ReviewCardSlider reviews={reviews} />}
+        />
+    );
 }
