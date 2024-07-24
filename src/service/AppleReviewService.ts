@@ -1,24 +1,26 @@
-import { IReviewData } from "@/model/IReviewData";
 import appIds from "@/data/app-ids.json";
+
+import { IReviewData } from "@/model/IReviewData";
 import { IFiller, IReviewWithFiller } from "@/model/IReviewWithFiller";
 import { TCountryCode } from "@/model/TCodes";
 
+// props interfaces
 interface IGetLink {
     id: number;
     country_code?: TCountryCode;
     page?: number;
     data_type?: "xml" | "json";
 }
-
-type TGetReviewData = (props?: Partial<IGetLink>) => Promise<{ data: IReviewData; id: number }>;
-
 interface IValidateReviewData {
     reviewData: IReviewData["feed"]["entry"];
     arrLength: number;
 }
 
+// types for review methods
+type TGetReviewData = (props?: Partial<IGetLink>) => Promise<{ data: IReviewData; id: number }>;
 type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
 
+// compose types into single interface
 interface IAppleReviewService {
     validateReviewData: TValidateReviewData;
     getReviewData: TGetReviewData;
@@ -46,6 +48,7 @@ export class AppleReviewService implements IAppleReviewService {
         return reviewData.slice(0, arrLength);
     };
 
+    // get reviews and appId
     getReviewData: TGetReviewData = async (linkData) => {
         const id = await this.#getReviewId();
         const res = await fetch(this.#getReviewLink({ id, ...linkData }));
@@ -54,6 +57,7 @@ export class AppleReviewService implements IAppleReviewService {
         return { data, id };
     };
 
+    // get id from url path
     #getReviewId = async (): Promise<number> => {
         const pathname = new URL(document.URL).pathname;
         const pathnameItems = pathname.split("/");
@@ -68,10 +72,12 @@ export class AppleReviewService implements IAppleReviewService {
         );
     };
 
+    // create fetch link
     #getReviewLink = ({ id, data_type = "json", country_code = "us", page = 1 }: IGetLink) =>
         `https://itunes.apple.com/${country_code}/rss/customerreviews/page=${page}/id=${id}/sortBy=mostRecent/${data_type}?l=en&cc=gb`;
 
+    // create filler object
     #fillerObject = (): IFiller => ({ filler: true });
-
+    // create an array of fillers to be used in the validateReviewData
     #fillerArray = (arrLength: number) => Array(arrLength).fill(this.#fillerObject());
 }
