@@ -2,11 +2,11 @@ import React from "react";
 
 import { useMediaQuery, useReviewData } from "@/hooks";
 
-import { ReviewDesktop, ReviewMobile } from "./review-layouts";
-import ReviewHead from "../molecule/review-head";
-import ReviewDescription from "../molecule/review-description";
-import ReviewLink from "../molecule/review-link";
-import ReviewCardSlider from "./review-card-slider";
+import { ReviewDesktop, ReviewMobile } from "@/atomic/molecule/review-layouts";
+import ReviewHead from "@/atomic/molecule/review-head";
+import ReviewDescription from "@/atomic/molecule/review-description";
+import ReviewLink from "@/atomic/molecule/review-link";
+import ReviewCardSlider from "@/atomic/organism/review-card-slider";
 
 import { TCountryCode } from "@/model/TCodes";
 
