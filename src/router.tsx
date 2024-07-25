@@ -79,14 +79,15 @@ export function App() {
             return <Team />;
         case "/careers":
             return <Careers />;
-        case "/coming-soon":
-            return <ComingSoon />;
-        case "/vacancy-details":
-            return <VacancyDetails />;
-        default:
-            const [, pagePath, currentPath] = url.split("/");
-
-            if (pagePath == "vitamin") return <VitaminElement id={currentPath} />;
+        // case "/coming-soon":
+        //     return <ComingSoon />;
+        // case "/vacancy-details":
+        //     return <VacancyDetails />;
+            default:
+                const [, pagePath, currentPath] = url.split("/");
+    
+                if (pagePath === "vitamin") return <VitaminElement id={currentPath} />;
+                if (pagePath === "careers") return <VacancyDetails position={currentPath} />;
 
             return <Error_404 />;
     }

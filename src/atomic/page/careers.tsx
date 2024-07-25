@@ -5,6 +5,52 @@ import { Footer } from "@/atomic/organism/footer";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
 
+const careers = [
+    {
+        id: "webdesigner",
+        getTitle: () => _("CAREERS.LIST3.LI1_HEAD"),
+        getText: () => _("CAREERS.LIST3.LI1_TEXT"),
+        image: "/img/page/careers/vacancy-pic-webdesigner.webp",
+        getAlt: () => _("CAREERS.LIST3.LI1_HEAD"),
+    },
+    {
+        id: "mobiledesigner",
+        getTitle: () => _("CAREERS.LIST3.LI2_HEAD"),
+        getText: () => _("CAREERS.LIST3.LI2_TEXT"),
+        image: "/img/page/careers/vacancy-pic-mobiledesigner.webp",
+        getAlt: () => _("CAREERS.LIST3.LI2_HEAD"),
+    },
+    {
+        id: "frontend",
+        getTitle: () => _("CAREERS.LIST3.LI3_HEAD"),
+        getText: () => _("CAREERS.LIST3.LI3_TEXT"),
+        image: "/img/page/careers/vacancy-pic-frontend.webp",
+        getAlt: () => _("CAREERS.LIST3.LI3_HEAD"),
+    },
+    {
+        id: "qa",
+        getTitle: () => _("CAREERS.LIST3.LI4_HEAD"),
+        getText: () => _("CAREERS.LIST3.LI4_TEXT"),
+        image: "/img/page/careers/vacancy-pic-qa.webp",
+        getAlt: () => _("CAREERS.LIST3.LI4_HEAD"),
+    },
+    {
+        id: "ba",
+        getTitle: () => _("CAREERS.LIST3.LI5_HEAD"),
+        getText: () => _("CAREERS.LIST3.LI5_TEXT"),
+        image: "/img/page/careers/vacancy-pic-ba.webp",
+        getAlt: () => _("CAREERS.LIST3.LI5_HEAD"),
+    },
+    {
+        id: "copywriter",
+        getTitle: () => _("CAREERS.LIST3.LI6_HEAD"),
+        getText: () => _("CAREERS.LIST3.LI6_TEXT"),
+        image: "/img/page/careers/vacancy-pic-copywriter.webp",
+        getAlt: () => _("CAREERS.LIST3.LI6_HEAD"),
+    },
+];
+
+
 const Careers = () => {
     return (
         <>
@@ -77,66 +123,19 @@ const Careers = () => {
                 <section>
                     <div className="row g-4">
                         <h2>{_("CAREERS.HEAD3")}</h2>
-                        <TitleTextLinkCard
-                            title={_("CAREERS.LIST3.LI1_HEAD")}
-                            text={_("CAREERS.LIST3.LI1_TEXT")}
-                            link={{
-                                href: Locale.i18nLink("vacancy-details"),
-                                text: _("CAREERS.BUTTON3"),
-                            }}
-                            image="/img/page/careers/vacancy-pic-webdesigner.webp"
-                            alt={_("CAREERS.LIST3.LI1_HEAD")}
-                        />
-                        <TitleTextLinkCard
-                            title={_("CAREERS.LIST3.LI2_HEAD")}
-                            text={_("CAREERS.LIST3.LI2_TEXT")}
-                            link={{
-                                href: Locale.i18nLink("coming-soon"),
-                                text: _("CAREERS.BUTTON3"),
-                            }}
-                            image="/img/page/careers/vacancy-pic-mobiledesigner.webp"
-                            alt={_("CAREERS.LIST3.LI2_HEAD")}
-                        />
-                        <TitleTextLinkCard
-                            title={_("CAREERS.LIST3.LI3_HEAD")}
-                            text={_("CAREERS.LIST3.LI3_TEXT")}
-                            link={{
-                                href: Locale.i18nLink("coming-soon"),
-                                text: _("CAREERS.BUTTON3"),
-                            }}
-                            image="/img/page/careers/vacancy-pic-frontend.webp"
-                            alt={_("CAREERS.LIST3.LI3_HEAD")}
-                        />
-                        <TitleTextLinkCard
-                            title={_("CAREERS.LIST3.LI4_HEAD")}
-                            text={_("CAREERS.LIST3.LI4_TEXT")}
-                            link={{
-                                href: Locale.i18nLink("coming-soon"),
-                                text: _("CAREERS.BUTTON3"),
-                            }}
-                            image="/img/page/careers/vacancy-pic-qa.webp"
-                            alt={_("CAREERS.LIST3.LI4_HEAD")}
-                        />
-                        <TitleTextLinkCard
-                            title={_("CAREERS.LIST3.LI5_HEAD")}
-                            text={_("CAREERS.LIST3.LI5_TEXT")}
-                            link={{
-                                href: Locale.i18nLink("coming-soon"),
-                                text: _("CAREERS.BUTTON3"),
-                            }}
-                            image="/img/page/careers/vacancy-pic-ba.webp"
-                            alt={_("CAREERS.LIST3.LI5_HEAD")}
-                        />
-                        <TitleTextLinkCard
-                            title={_("CAREERS.LIST3.LI6_HEAD")}
-                            text={_("CAREERS.LIST3.LI6_TEXT")}
-                            link={{
-                                href: Locale.i18nLink("coming-soon"),
-                                text: _("CAREERS.BUTTON3"),
-                            }}
-                            image="/img/page/careers/vacancy-pic-copywriter.webp"
-                            alt={_("CAREERS.LIST3.LI6_HEAD")}
-                        />
+                        {careers.map(({ id, getTitle, getText, image, getAlt }) => (
+                            <TitleTextLinkCard
+                                key={id}
+                                title={getTitle()}
+                                text={getText()}
+                                link={{
+                                    href: Locale.i18nLink(`careers/${id}`),
+                                    text: _("CAREERS.BUTTON3"),
+                                }}
+                                image={image}
+                                alt={getAlt()}
+                            />
+                        ))}
                     </div>
                 </section>
             </div>
