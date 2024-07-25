@@ -4,7 +4,7 @@ import { IReviewData } from "@/model/IReviewData";
 import { IFiller, IReviewWithFiller } from "@/model/IReviewWithFiller";
 import { TCountryCode } from "@/model/TCodes";
 
-// props interfaces
+// props data
 interface IGetLink {
     id: number;
     country_code?: TCountryCode;
@@ -20,7 +20,7 @@ interface IGetValidateReviewData {
     arrLength: IValidateReviewData["arrLength"];
 }
 
-// review models
+// return data
 interface IReviewWithAppId {
     data: IReviewData;
     id: number;
