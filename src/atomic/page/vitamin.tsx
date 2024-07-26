@@ -14,6 +14,7 @@ import BulletList from "@/atomic/molecule/bullet-list";
 import CardImage from "@/atomic/molecule/card-image";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
+import CardTitleSubtitle, { CardTitleSubtitleProps } from "@/atomic/molecule/card-title-subtitle";
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -96,6 +97,52 @@ export default function Vitamin() {
             },
             title: _("VITAMIN.LIST4.LI6_HEAD"),
             subtitle: _("VITAMIN.LIST4.LI6_TEXT"),
+        },
+    ];
+
+    const trackItems: CardTitleSubtitleProps[] = [
+        {
+            title: _("VITAMIN.LIST5.LI1_HEAD"),
+            subtitle: _("VITAMIN.LIST5.LI1_TEXT"),
+            bgImg: {
+                src: "/img/page/vitamin/vitamin-track-fat-soluble-bg.svg",
+                widthPerc: "90%",
+                alignX: "start",
+                alignY: "start",
+                translateX: "-20%",
+                translateY: "-22%",
+            },
+        },
+        {
+            title: _("VITAMIN.LIST5.LI2_HEAD"),
+            subtitle: _("VITAMIN.LIST5.LI2_TEXT"),
+            bgImg: {
+                src: "/img/page/vitamin/vitamin-track-water-soluble-bg.svg",
+                widthPerc: "70%",
+                alignY: "start",
+                translateX: "15%",
+                translateY: "-25%",
+            },
+        },
+        {
+            title: _("VITAMIN.LIST5.LI3_HEAD"),
+            subtitle: _("VITAMIN.LIST5.LI3_TEXT"),
+            bgImg: {
+                src: "/img/page/vitamin/vitamin-track-minerals-bg.svg",
+                widthPerc: "55%",
+                translateX: "30%",
+                translateY: "15%",
+            },
+        },
+        {
+            title: _("VITAMIN.LIST5.LI4_HEAD"),
+            subtitle: _("VITAMIN.LIST5.LI4_TEXT"),
+            bgImg: {
+                src: "/img/page/vitamin/vitamin-track-custom-bg.svg",
+                widthPerc: "70%",
+                translateX: "40%",
+                translateY: "13%",
+            },
         },
     ];
 
@@ -236,40 +283,27 @@ export default function Vitamin() {
 
                 <section>
                     <div className="row mb-0">
-                        <div className="col-12 my-2">
-                            <h2 className="mb-6">{_("VITAMIN.HEAD5")}</h2>
-                        </div>
-                        <div className="col-12">
-                            <div className="row p-0 g-4">
-                                <ul className="counters-list col-xl-6 col-12 pe-xl-4 pe-0">
-                                    <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
-                                        <h1>{_("VITAMIN.LIST5.LI1_HEAD")}</h1>
-                                        <p>{_("VITAMIN.LIST5.LI1_TEXT")}</p>
-                                    </li>
-                                    <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
-                                        <h1>{_("VITAMIN.LIST5.LI2_HEAD")}</h1>
-                                        <p>{_("VITAMIN.LIST5.LI2_TEXT")}</p>
-                                    </li>
-                                    <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
-                                        <h1>{_("VITAMIN.LIST5.LI3_HEAD")}</h1>
-                                        <p>{_("VITAMIN.LIST5.LI3_TEXT")}</p>
-                                    </li>
-                                    <li className="block bg-green w-100 rounded-5 px-4 px-xl-5">
-                                        <h1>{_("VITAMIN.LIST5.LI4_HEAD")}</h1>
-                                        <p>{_("VITAMIN.LIST5.LI4_TEXT")}</p>
-                                    </li>
+                        <h2 className="col-xl-6 col-lg-8 col-12 mb-5">{_("VITAMIN.HEAD5")}</h2>
+                        <div className="row row-cols-xl-2 row-cols-1 mb-0 p-0 g-4">
+                            <div className="col px-0">
+                                <ul className="row row-cols-2 p-0 g-4">
+                                    {trackItems.map((item) => (
+                                        <li key={item.title} className="col">
+                                            <CardTitleSubtitle {...item} />
+                                        </li>
+                                    ))}
                                 </ul>
-                                <div className="col-xl-6 col-12 px-0">
-                                    <CardImage
-                                        imgSrc="/img/page/vitamin/vitamin-screen-minr-en.512.webp"
-                                        imgH={440}
-                                        imgW={512}
-                                        imgAlt={_("VITAMIN.ALT2")}
-                                        bgColor="#F4F5F8"
-                                        alignItems="end"
-                                        justifyContent="end"
-                                    />
-                                </div>
+                            </div>
+                            <div className="col">
+                                <CardImage
+                                    imgSrc="/img/page/vitamin/vitamin-screen-minr-en.512.webp"
+                                    imgH={440}
+                                    imgW={512}
+                                    imgAlt={_("VITAMIN.ALT2")}
+                                    bgColor="#F4F5F8"
+                                    alignItems="end"
+                                    justifyContent="end"
+                                />
                             </div>
                         </div>
                     </div>
