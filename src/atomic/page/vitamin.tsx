@@ -8,7 +8,6 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 import CallToAction from "@/atomic/organism/call-to-action";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
-import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
 import BulletList from "@/atomic/molecule/bullet-list";
 import CardImage from "@/atomic/molecule/card-image";
