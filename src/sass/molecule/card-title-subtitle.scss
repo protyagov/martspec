@@ -1,0 +1,30 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/breakpoints";
+
+.card-title-subtitle {
+    .title {
+        font-size: 5.875rem;
+    }
+
+    .subtitle {
+        font-size: 1.25rem;
+        max-width: 100%;
+    }
+
+    @include media-breakpoint-up(md) {
+        .subtitle {
+            max-width: 90%;
+        }
+    }
+
+    @include media-breakpoint-up(xxl) {
+        .title {
+            font-size: 7.375rem;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+        }
+    }
+}
