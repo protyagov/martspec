@@ -157,8 +157,8 @@ export default function Vitamin() {
                         <div className="col col-md-12">
                             <CardImage
                                 imgSrc="/img/page/vitamin/vitamin-watches-en.webp"
-                                imgH={512}
-                                imgW={472}
+                                imgH={720}
+                                imgW={664}
                                 imgAlt={_("VITAMIN.ALT4")}
                                 bgColor="#F2F2F5"
                             />
@@ -262,8 +262,8 @@ export default function Vitamin() {
                                 <div className="col-xl-6 col-12 px-0">
                                     <CardImage
                                         imgSrc="/img/page/vitamin/vitamin-screen-minr-en.webp"
-                                        imgH={440}
-                                        imgW={512}
+                                        imgH={722}
+                                        imgW={840}
                                         imgAlt={_("VITAMIN.ALT2")}
                                         bgColor="#F4F5F8"
                                         alignItems="end"
