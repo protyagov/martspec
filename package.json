@@ -51,6 +51,8 @@
         "predeploy": "webpack --config webpack.prd.js",
         "deploy": "gh-pages -d build",
         "prod": "webpack --config webpack.prd.js",
-        "svr": "webpack serve --config webpack.dev.js"
+        "svr": "webpack serve --config webpack.dev.js",
+        "cosmos": "cosmos",
+        "cosmos-export": "cosmos-export"
     }
 }
