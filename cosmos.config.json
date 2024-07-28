@@ -1,3 +1,7 @@
 {
-    "plugins": ["react-cosmos-plugin-webpack"]
+    "plugins": ["react-cosmos-plugin-webpack"],
+    "webpack": {
+        "configPath": "./webpack.dev.js",
+        "includeHashInOutputFilename": true
+    }
 }
