@@ -27,6 +27,8 @@
         "prettier": "^3.2.5",
         "prop-types": "^15.8.1",
         "purgecss-webpack-plugin": "^5.0.0",
+        "react-cosmos": "^6.1.1",
+        "react-cosmos-plugin-webpack": "^6.1.1",
         "regenerator-runtime": "^0.14.0",
         "sass-loader": "^13.3.2",
         "source-map-loader": "^4.0.0",
