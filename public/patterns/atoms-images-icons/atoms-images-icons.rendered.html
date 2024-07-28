@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+  <head>
+    <title>Title ipsum dolor sit (39 characters)</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="../../css/style.css?1722153444740" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1722153444740" media="all" />
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="">
+<ul class="icon-grid">
+    <li class="icon-grid__item">
+        <svg class="c-icon ">
+        	<use href="../../icons.svg#minus"></use>
+        </svg><!--end c-icon-->
+        <span class="icon-grid__label">minus</span>
+    </li>
+    <li class="icon-grid__item">
+        <svg class="c-icon ">
+        	<use href="../../icons.svg#plus"></use>
+        </svg><!--end c-icon-->
+        <span class="icon-grid__label">plus</span>
+    </li>
+    <li class="icon-grid__item">
+        <svg class="c-icon ">
+        	<use href="../../icons.svg#search"></use>
+        </svg><!--end c-icon-->
+        <span class="icon-grid__label">search</span>
+    </li>
+    <li class="icon-grid__item">
+        <svg class="c-icon ">
+        	<use href="../../icons.svg#triangle-down"></use>
+        </svg><!--end c-icon-->
+        <span class="icon-grid__label">triangle-down</span>
+    </li>
+    <li class="icon-grid__item">
+        <svg class="c-icon ">
+        	<use href="../../icons.svg#triangle-up"></use>
+        </svg><!--end c-icon-->
+        <span class="icon-grid__label">triangle-up</span>
+    </li>
+    <li class="icon-grid__item">
+        <svg class="c-icon ">
+        	<use href="../../icons.svg#triangle-right"></use>
+        </svg><!--end c-icon-->
+        <span class="icon-grid__label">triangle-right</span>
+    </li>
+    <li class="icon-grid__item">
+        <svg class="c-icon ">
+        	<use href="../../icons.svg#triangle-left"></use>
+        </svg><!--end c-icon-->
+        <span class="icon-grid__label">triangle-left</span>
+    </li>
+</ul>
+<!--DO NOT REMOVE-->
+<script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
+  {"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"atoms-icon","lineagePath":"../../patterns/atoms-images-icon/atoms-images-icon.rendered.html"}],"lineage":[{"lineagePattern":"atoms-icon","lineagePath":"../../patterns/atoms-images-icon/atoms-images-icon.rendered.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternGroup":"atoms","patternSubgroup":"images"},"patternExtension":"hbs","patternName":"Icons","patternPartial":"atoms-icons","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+</script>
+
+<script>
+  window.patternData = {"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"atoms-icon","lineagePath":"../../patterns/atoms-images-icon/atoms-images-icon.rendered.html"}],"lineage":[{"lineagePattern":"atoms-icon","lineagePath":"../../patterns/atoms-images-icon/atoms-images-icon.rendered.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternGroup":"atoms","patternSubgroup":"images"},"patternExtension":"hbs","patternName":"Icons","patternPartial":"atoms-icons","patternState":"","patternEngineName":"handlebars","extraOutput":{}};
+</script>
+
+<script>
+  /*!
+   * scriptLoader - v0.1
+   *
+   * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+   * Licensed under the MIT license
+   *
+   */
+
+  var scriptLoader = {
+
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1722153444740">
+  (function() {
+    if (self != top) {
+      var cb = '1722153444740';
+      var js = [];
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+
+<script type="module">
+  // always load Pattern-specific JS so UI like accordions, etc can continue to work even when viewed as a standalone HTML page
+  import('../../styleguide/js/patternlab-pattern.modern.js');
+</script>
+
+<script id="pl-js-insert-1722153444740" nomodule>
+  /*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on https://goo.gl/REQGQ by Paul Irish). Licensed MIT */
+  !function(e){var t=function(t,n){"use strict";var o=e.document.getElementsByTagName("script")[0],r=e.document.createElement("script");return r.src=t,r.async=!0,o.parentNode.insertBefore(r,o),n&&"function"==typeof n&&(r.onload=n),r};"undefined"!=typeof module?module.exports=t:e.loadJS=t}("undefined"!=typeof global?global:this);
+
+  // always load Pattern-specific JS so UI like accordions, etc can continue to work even when viewed as a standalone HTML page
+  loadJS('../../styleguide/js/patternlab-pattern.js');
+</script>
+
+
+</body>
+</html>
