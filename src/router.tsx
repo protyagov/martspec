@@ -24,7 +24,7 @@ import Energy from "@/atomic/page/emotion/energy";
 import Openness from "@/atomic/page/emotion/openness";
 import ColorTest from "@/atomic/page/emotion/color-test";
 import Careers from "@/atomic/page/careers";
-import VacancyDetails from "@/atomic/page/vacancy-details";
+import VacancyDetails from "@/atomic/prototype/vacancy-details";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -81,13 +81,11 @@ export function App() {
             return <Careers />;
         // case "/coming-soon":
         //     return <ComingSoon />;
-        // case "/vacancy-details":
-        //     return <VacancyDetails />;
             default:
                 const [, pagePath, currentPath] = url.split("/");
     
                 if (pagePath === "vitamin") return <VitaminElement id={currentPath} />;
-                if (pagePath === "careers") return <VacancyDetails position={currentPath} />;
+                if (pagePath === "careers") return <VacancyDetails position={currentPath} lang="ru"/>;
 
             return <Error_404 />;
     }

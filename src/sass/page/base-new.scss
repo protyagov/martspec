@@ -118,6 +118,13 @@
         justify-content: center;
     }
 
+    .col-lg-6-start {
+        @extend .col-lg-6;
+
+        justify-content: flex-start;
+        margin-bottom: 3.5rem;
+    }
+
     .ms-btn-large {
         align-self: flex-start;
         color: #ffffff;
