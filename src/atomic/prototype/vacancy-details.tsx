@@ -38,8 +38,8 @@ interface CareerData {
 }
 
 const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
-    const [data, setData] = useState<VacancyData | null>(null);
-    const [generalData, setGeneralData] = useState<CareerData | null>(null);
+    const [vacancyData, setVacancyData] = useState<VacancyData | null>(null);
+    const [data, setData] = useState<CareerData | null>(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -47,14 +47,14 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
             if (!response.ok) return;
 
             const result = await response.json();
-            setData(result.POSITIONS[position]);
-            setGeneralData(result);
+            setVacancyData(result.POSITIONS[position]);
+            setData(result);
         };
 
         fetchData();
     }, [position, lang]);
 
-    if (!data || !generalData) {
+    if (!vacancyData || !data) {
         let NOT_FOUND = '';
         switch (lang) {
             case 'ru':
@@ -77,20 +77,20 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
                 <section>
                     <div className="row">
                         <div className="col-lg-8">
-                            <h1>{data.TITLE}</h1>
-                            <p className="p" style={{ fontWeight: 'bold' }}>{generalData.PAY}</p>
-                            <p style={{ color: '#212529' }}>{generalData.FORMAT}</p>
+                            <h1>{vacancyData.TITLE}</h1>
+                            <p className="p" style={{ fontWeight: 'bold' }}>{data.PAY}</p>
+                            <p style={{ color: '#212529' }}>{data.FORMAT}</p>
                         </div>
                         <p style={{ color: '#212529', marginBottom: '0' }}>
-                            {data.DESC}
+                            {vacancyData.DESC}
                         </p>
                     </div>
                 </section>
 
                 <section className='row'>
-                    <h2>{generalData.EXPECTATIONS_H2}</h2>
+                    <h2>{data.EXPECTATIONS_H2}</h2>
                     <div className="row row-no-padding col-12">
-                        {data.EXPECTATIONS.map((expectation: Expectation, index: number) => (
+                        {vacancyData.EXPECTATIONS.map((expectation: Expectation, index: number) => (
                             <div className="col-lg-6-start" key={index}>
                                 <h3 className="h3">{expectation.H3}</h3>
                                 <BulletList
@@ -104,19 +104,19 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
                 </section>
 
                 <section className='row'>
-                    <h2>{generalData.CONDITIONS_H2}</h2>
+                    <h2>{data.CONDITIONS_H2}</h2>
                     <ul>
-                        {generalData.CONDITIONS.map((condition: string, index: number) => (
+                        {data.CONDITIONS.map((condition: string, index: number) => (
                             <li key={index}>{condition}</li>
                         ))}
                     </ul>
                 </section>
 
                 <section className='row'>
-                    <h2>{generalData.FEATURES_H2}</h2>
-                    <h3>{generalData.FEATURES_H3}</h3>
+                    <h2>{data.FEATURES_H2}</h2>
+                    <h3>{data.FEATURES_H3}</h3>
                     <ul>
-                        {generalData.FEATURES.map((feature: string, index: number) => (
+                        {data.FEATURES.map((feature: string, index: number) => (
                             <li key={index}>{feature}</li>
                         ))}
                     </ul>
@@ -124,10 +124,10 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
 
                 <section>
                     <div className='row'>
-                        <h2>{generalData.RESPONSE_H2}</h2>
-                        <p>{generalData.RESPONSE}</p>
+                        <h2>{data.RESPONSE_H2}</h2>
+                        <p>{data.RESPONSE}</p>
                         <div>
-                            <button className='mt-2 ms-btn-large'>{generalData.RESPONSE_BTN}</button>
+                            <button className='mt-2 ms-btn-large'>{data.RESPONSE_BTN}</button>
                         </div>
                     </div>
                 </section>
