@@ -47,7 +47,8 @@
                         "High level of self-organization and responsibility"
                     ]
                 }
-            ]
+            ],
+        "APPLY_LINK": ""
         },
         "mobiledesigner": {
             "TITLE": "Mobile Developer📱",
@@ -88,7 +89,8 @@
                         "Commitment to continuous professional growth"
                     ]
                 }
-            ]
+            ],
+        "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
         },
         "frontend": {
             "TITLE": "Frontend Developer👨‍💻",
@@ -130,7 +132,8 @@
                         "Ability to independently solve arising problems"
                     ]
                 }
-            ]
+            ],
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
         },
         "qa": {
             "TITLE": "Quality Assurance Tester💯",
@@ -172,7 +175,8 @@
                         "Analytical approach to problem-solving and defect detection"
                     ]
                 }
-            ]
+            ],
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
         },
         "ba": {
             "TITLE": "Business Analyst📊",
@@ -219,12 +223,13 @@
                         "Ability to work effectively in a team and interact with colleagues"
                     ]
                 }
-            ]
+            ],
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
         },
         "copywriter": {
-        "TITLE": "Copywriter📝",
-        "DESC": "Start your career as a copywriter, where you will create engaging and effective texts for various platforms. Dive into content creation that will resonate with our audience and support the brand at the highest level. Your work will be key to shaping the company's image and improving communication with clients.",
-        "EXPECTATIONS": [
+            "TITLE": "Copywriter📝",
+            "DESC": "Start your career as a copywriter, where you will create engaging and effective texts for various platforms. Dive into content creation that will resonate with our audience and support the brand at the highest level. Your work will be key to shaping the company's image and improving communication with clients.",
+            "EXPECTATIONS": [
                 {
                     "H3": "Writing Texts",
                     "UL": [
@@ -266,7 +271,8 @@
                         "Ability to work independently"
                     ]
                 }
-            ]
+            ],
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
         }
     },
     "CONDITIONS": [

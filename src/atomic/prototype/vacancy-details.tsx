@@ -17,6 +17,7 @@ interface VacancyData {
     TITLE: string;
     DESC: string;
     EXPECTATIONS: Expectation[];
+    APPLY_LINK: string
 }
 
 interface CareerData {
@@ -127,7 +128,9 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
                         <h2>{data.RESPONSE_H2}</h2>
                         <p>{data.RESPONSE}</p>
                         <div>
-                            <button className='mt-2 ms-btn-large'>{data.RESPONSE_BTN}</button>
+                            <a href={vacancyData.APPLY_LINK} target="_blank" rel="noopener noreferrer">
+                                <button className='mt-2 ms-btn-large'>{data.RESPONSE_BTN}</button>
+                            </a>
                         </div>
                     </div>
                 </section>
