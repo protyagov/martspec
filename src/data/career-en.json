@@ -1,0 +1,269 @@
+{
+    "webdesigner": {
+        "title": "Web Designer🎨",
+        "description": 
+        "Start your journey in web design with an internship at our company. As a web designer intern, you will work on real projects and develop your skills under the guidance of experienced professionals. This position will help you gain valuable knowledge and hands-on experience for a successful start in the tech industry. You will learn in a work environment by creating useful and user-friendly solutions. If you want to gain new knowledge and skills and start a career in web design, this opportunity is for you.",
+        "expectations": [
+            {
+                "title": "Design",
+                "items": [
+                    "Experience with basic graphic design tools",
+                    "Knowledge of UI/UX design principles",
+                    "Ability to create visually appealing and functional interface designs"
+                ]
+            },
+            {
+                "title": "Creative Approach",
+                "items": [
+                    "Ability to find unconventional solutions",
+                    "Willingness to experiment with new ideas"
+                ]
+            },
+            {
+                "title": "Teamwork",
+                "items": [
+                    "Effective collaboration with other team members",
+                    "Ability to listen to others' ideas and propose your own"
+                ]
+            },
+            {
+                "title": "Initiative",
+                "items": [
+                    "Active participation in discussions",
+                    "Proposing new solutions and options"
+                ]
+            },
+            {
+                "title": "Personal Qualities",
+                "items": [
+                    "Desire to learn and grow in the field of web design",
+                    "High level of self-organization and responsibility"
+                ]
+            }
+        ]
+    },
+    "mobiledesigner": {
+        "title": "Mobile Designer📱",
+        "description": 
+        "Start your journey in iOS development with our internship program. As an iOS developer intern, you will work on modern mobile applications for Apple, developing your skills alongside experienced professionals. This position will help you gain valuable knowledge and practical skills for a successful career in technology. You will learn in a work environment by creating user-friendly solutions and improving the functionality of iOS applications. If you want to start a path that combines innovation and learning, this opportunity is for you.",
+        "expectations": [
+            {
+                "title": "Mobile Development",
+                "items": [
+                    "Understanding the fundamentals of mobile platform development",
+                    "Knowledge of Swift and SwiftUI"
+                ]
+            },
+            {
+                "title": "Work with Tools",
+                "items": [
+                    "Experience with Apple Health Kit & iCloud SDK is a plus",
+                    "Ability to work with Git"
+                ]
+            },
+            {
+                "title": "Initiative",
+                "items": [
+                    "Active participation in discussions",
+                    "Proposing new solutions and ideas"
+                ]
+            },
+            {
+                "title": "Teamwork",
+                "items": [
+                    "Effective interaction with colleagues",
+                    "Willingness to learn from more experienced developers"
+                ]
+            },
+            {
+                "title": "Desire to Learn",
+                "items": [
+                    "Willingness to master new technologies and tools",
+                    "Readiness for continuous professional growth"
+                ]
+            }
+        ]
+    },
+    "frontend": {
+        "title": "Frontend Developer👨‍💻",
+        "description": 
+        "We are looking for a passionate frontend developer intern eager to enhance their skills and learn new things. This internship offers a unique opportunity to dive into the world of web development, work on real projects, and gain valuable experience. You'll have the chance to join a team of professionals where you can apply your knowledge, explore new technologies, and contribute to creating innovative solutions. If you're ready for the challenge, come join us and take your first steps in the exciting field of frontend development!",
+        "expectations": [
+            {
+                "title": "Web Development",
+                "items": [
+                    "Understanding the principles of web technologies",
+                    "Experience with React, TypeScript, and build tools such as Webpack",
+                    "Proficiency in version control systems like Git"
+                ]
+            },
+            {
+                "title": "Willingness to Learn",
+                "items": [
+                    "Openness to new technologies and methods",
+                    "Desire to improve skills and advance in frontend development"
+                ]
+            },
+            {
+                "title": "Teamwork",
+                "items": [
+                    "Ability to work collaboratively and interact effectively with colleagues",
+                    "Skill in giving and receiving constructive feedback"
+                ]
+            },
+            {
+                "title": "Attention to Detail",
+                "items": [
+                    "Precision in working on user interfaces",
+                    "Capability to spot and rectify errors and inconsistencies"
+                ]
+            },
+            {
+                "title": "Responsibility",
+                "items": [
+                    "Commitment to meeting deadlines and delivering tasks on time",
+                    "Ability to independently resolve issues that arise"
+                ]
+            }
+        ]
+    },
+    "qa": {
+        "title": "Quality Assurance💯",
+        "description": 
+        "Kickstart your career as a software testing intern and immerse yourself in the intricate world of testing web and mobile applications for Apple. This internship is more than just bug hunting; it's an educational journey that will equip you with the knowledge and skills for a successful future in technology. Your hands-on experience here will lay the foundation for becoming an industry expert. Join our team and turn every case into a stepping stone towards a successful career.",
+        "expectations": [
+            {
+                "title": "Testing",
+                "items": [
+                    "Ability to develop test cases and plans for validating application functionality",
+                    "Creation and maintenance of test documentation, including test descriptions and scenarios"
+                ]
+            },
+            {
+                "title": "Ticket Creation and Documentation",
+                "items": [
+                    "Skills in creating tickets for identified defects",
+                    "Detailed description of expected results, actual outcomes, and steps to reproduce issues"
+                ]
+            },
+            {
+                "title": "Initiative",
+                "items": [
+                    "Proposing new ideas and methods to enhance processes",
+                    "Drive to achieve results and handle challenges effectively"
+                ]
+            },
+            {
+                "title": "Teamwork",
+                "items": [
+                    "Ability to work efficiently within a team and collaborate with colleagues",
+                    "Strong communication skills, openness to suggestions, and readiness for constructive dialogue"
+                ]
+            },
+            {
+                "title": "Attention to Detail and Analytical Thinking",
+                "items": [
+                    "Precision in managing test documentation and cases",
+                    "Ability to identify and analyze minor details and defects",
+                    "Analytical approach to problem-solving and defect identification"
+                ]
+            }
+        ]
+    },
+    "ba": {
+        "title": "Business Analyst📊",
+        "description": 
+        "Start your career as an analyst by using data to enhance our web and mobile applications. Analyze trends, uncover key insights, and assist in decision-making. Your insights will impact functionality and social media interactions. This role offers an excellent opportunity to develop and grow in the field of analytics. Elevate your skills and contribute to our success!",
+        "expectations": [
+            {
+                "title": "Market Research",
+                "items": [
+                    "Analyze market trends and the needs of the target audience",
+                    "Assess the competitive advantages of our product"
+                ]
+            },
+            {
+                "title": "Promotion Strategy Development",
+                "items": [
+                    "Create and implement promotion strategies across various communication channels, including social media, blogs, partner sites, and media",
+                    "Work with a diverse range of media and communication platforms"
+                ]
+            },
+            {
+                "title": "Analysis and Adjustment",
+                "items": [
+                    "Analyze promotion results and measure campaign effectiveness",
+                    "Adjust strategies and plans based on feedback received"
+                ]
+            },
+            {
+                "title": "Product Development Participation",
+                "items": [
+                    "Actively participate in discussions and decision-making regarding product development"
+                ]
+            },
+            {
+                "title": "Personal Qualities",
+                "items": [
+                    "Result-oriented and detail-focused",
+                    "Initiative and responsibility for outcomes"
+                ]
+            },
+            {
+                "title": "Communication and Teamwork",
+                "items": [
+                    "Strong communication skills and ability to connect with diverse individuals",
+                    "Ability to work effectively in a team and collaborate with colleagues"
+                ]
+            }
+        ]
+    },
+    "copywriter": {
+        "title": "Copywriter📝",
+        "description": 
+        "Kickstart your career as a copywriter where you’ll create engaging and effective content for various platforms. Dive into crafting content that resonates with our audience and maintains our brand at the highest level. Your work will be crucial in shaping the company’s image and enhancing communication with clients.",
+        "expectations": [
+            {
+                "title": "Content Creation",
+                "items": [
+                    "For websites",
+                    "For mobile applications"
+                ]
+            },
+            {
+                "title": "Associative Thinking",
+                "items": [
+                    "Creative approach to generating ideas",
+                    "Desire to learn how to create compelling headlines and text"
+                ]
+            },
+            {
+                "title": "Initiative",
+                "items": [
+                    "Active participation in discussions",
+                    "Proposing new solutions and options"
+                ]
+            },
+            {
+                "title": "Personal Qualities",
+                "items": [
+                    "Desire to gain experience on real projects",
+                    "High level of empathy suitable for working in an international team"
+                ]
+            },
+            {
+                "title": "AI Utilization",
+                "items": [
+                    "Willingness to learn and work with AI tools for writing"
+                ]
+            },
+            {
+                "title": "Responsibility",
+                "items": [
+                    "Commitment to completing assigned tasks",
+                    "Ability to work independently"
+                ]
+            }
+        ]
+    }
+}
