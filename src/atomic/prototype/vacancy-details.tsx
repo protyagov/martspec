@@ -5,35 +5,41 @@ import { Footer } from "@/atomic/organism/footer";
 
 interface VacancyDetailsProps {
     position: string;
-    lang: string; 
+    lang: string;
 }
 
 interface Expectation {
-    title: string;
-    items: string[];
+    H3: string;
+    UL: string[];
 }
 
 interface VacancyData {
-    title: string;
-    description: string;
-    expectations: Expectation[];
+    TITLE: string;
+    DESC: string;
+    EXPECTATIONS: Expectation[];
 }
 
-const internshipConditions = [
-    "— Это практика на безвозмездной основе на 2-3 месяца, — ваш труд не оплачивается, вы получаете знания и опыт работы",
-    "— Строгих часов нет, можно трудиться в любое, удобное для вас время",
-    "— Работа из дома на своем устройстве",
-    "— Если вам нужно будет отлучиться на несколько дней от проекта — это нормально, но просьба заранее предупредить чтобы ваша практика не закончилась заранее"
-];
-
-const featuresOfWork = [
-    "— Дружелюбная и вдохновляющая атмосфера стартапа",
-    "— Уникальная возможность развиваться и становиться ключевым игроком в нашей команде",
-    "— Возможность влиять на здоровый образ жизни и благополучие наших пользователей"
-];
+interface CareerData {
+    NOT_FOUND: string,
+    PAY: string;
+    FORMAT: string;
+    EXPECTATIONS_H2: string;
+    CONDITIONS_H2: string,
+    FEATURES_H2: string,
+    FEATURES_H3: string,
+    RESPONSE_H2: string,
+    POSITIONS: {
+        [key: string]: VacancyData;
+    };
+    CONDITIONS: string[];
+    FEATURES: string[];
+    RESPONSE: string;
+    RESPONSE_BTN: string
+}
 
 const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
     const [data, setData] = useState<VacancyData | null>(null);
+    const [generalData, setGeneralData] = useState<CareerData | null>(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -41,14 +47,27 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
             if (!response.ok) return;
 
             const result = await response.json();
-            setData(result[position]);
+            setData(result.POSITIONS[position]);
+            setGeneralData(result);
         };
 
         fetchData();
     }, [position, lang]);
 
-    if (!data) {
-        return <p>Вакансия не найдена</p>;
+    if (!data || !generalData) {
+        let NOT_FOUND = '';
+        switch (lang) {
+            case 'ru':
+                NOT_FOUND = 'Вакансия не найдена';
+                break;
+            case 'en':
+                NOT_FOUND = 'Vacancy not found';
+                break;
+            default:
+                NOT_FOUND = 'Vacancy not found';
+                break;
+        }
+        return <p>{NOT_FOUND}</p>;
     }
 
     return (
@@ -58,24 +77,24 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
                 <section>
                     <div className="row">
                         <div className="col-lg-8">
-                            <h1>{data.title}</h1>
-                            <p className="p" style={{ fontWeight: 'bold' }}>Не оплачивается</p>
-                            <p style={{ color: '#212529' }}>Стажировка, удаленная работа</p>
+                            <h1>{data.TITLE}</h1>
+                            <p className="p" style={{ fontWeight: 'bold' }}>{generalData.PAY}</p>
+                            <p style={{ color: '#212529' }}>{generalData.FORMAT}</p>
                         </div>
                         <p style={{ color: '#212529', marginBottom: '0' }}>
-                            {data.description}
+                            {data.DESC}
                         </p>
                     </div>
                 </section>
 
                 <section className='row'>
-                    <h2>Ожидания от кандидата</h2>
+                    <h2>{generalData.EXPECTATIONS_H2}</h2>
                     <div className="row row-no-padding col-12">
-                        {data.expectations.map((expectation: Expectation, index: number) => (
+                        {data.EXPECTATIONS.map((expectation: Expectation, index: number) => (
                             <div className="col-lg-6-start" key={index}>
-                                <h3 className="h3">{expectation.title}</h3>
+                                <h3 className="h3">{expectation.H3}</h3>
                                 <BulletList
-                                    items={expectation.items}
+                                    items={expectation.UL}
                                     iconColor="#FFB340"
                                     className="col-bullet-list"
                                 />
@@ -85,19 +104,19 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
                 </section>
 
                 <section className='row'>
-                    <h2>Условия стажировки</h2>
+                    <h2>{generalData.CONDITIONS_H2}</h2>
                     <ul>
-                        {internshipConditions.map((condition: string, index: number) => (
+                        {generalData.CONDITIONS.map((condition: string, index: number) => (
                             <li key={index}>{condition}</li>
                         ))}
                     </ul>
                 </section>
 
                 <section className='row'>
-                    <h2>Особенности</h2>
-                    <h3>Почему стоит выбрать нас:</h3>
+                    <h2>{generalData.FEATURES_H2}</h2>
+                    <h3>{generalData.FEATURES_H3}</h3>
                     <ul>
-                        {featuresOfWork.map((feature: string, index: number) => (
+                        {generalData.FEATURES.map((feature: string, index: number) => (
                             <li key={index}>{feature}</li>
                         ))}
                     </ul>
@@ -105,13 +124,10 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
 
                 <section>
                     <div className='row'>
-                        <h2>Отклик на стажировку</h2>
-                        <p>
-                            1. Заполните Google форму и отправьте ее нам<br />
-                            2. Мы все внимательно изучим и обязательно вернемся к вам с обратной связью в кратчайшие сроки
-                        </p>
+                        <h2>{generalData.RESPONSE_H2}</h2>
+                        <p>{generalData.RESPONSE}</p>
                         <div>
-                            <button className='mt-2 ms-btn-large'>Откликнуться</button>
+                            <button className='mt-2 ms-btn-large'>{generalData.RESPONSE_BTN}</button>
                         </div>
                     </div>
                 </section>
