@@ -16,7 +16,6 @@ import Biorhythms from "@/atomic/page/emotion/biorhythms";
 import About from "@/atomic/page/about";
 import Mission from "@/atomic/page/mission";
 import Team from "@/atomic/page/team";
-import ComingSoon from "@/atomic/page/coming-soon";
 import Anxiety from "@/atomic/page/emotion/anxiety";
 import Harmony from "@/atomic/page/emotion/harmony";
 import Independence from "@/atomic/page/emotion/independence";
@@ -25,6 +24,7 @@ import Openness from "@/atomic/page/emotion/openness";
 import ColorTest from "@/atomic/page/emotion/color-test";
 import Careers from "@/atomic/page/careers";
 import VacancyDetails from "@/atomic/prototype/vacancy-details";
+// import ComingSoon from "@/atomic/page/coming-soon";
 
 export function App() {
     var redirect = sessionStorage.redirect;

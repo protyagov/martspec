@@ -3,12 +3,11 @@
     "FORMAT": "Internship, remote work",
     "EXPECTATIONS_H2": "Candidate Expectations",
     "CONDITIONS_H2": "Internship Conditions",
-    "FEATURES_H2": "Features",
-    "FEATURES_H3": "Why choose us:",
-    "RESPONSE_H2": "Internship Response",
+    "FEATURES_H2": "Why choose us:",
+    "RESPONSE_BTN": "Apply",
     "POSITIONS": {
-        "webdesigner": {
-            "TITLE": "Web Designer🎨",
+        "DESIGNER": {
+            "TITLE": "Designer",
             "DESC": "Start your journey in web design with an internship at our company. As a web design intern, you will work on real projects and develop your skills under the guidance of experienced professionals. This position will provide you with valuable knowledge and practical experience for a successful career in the tech industry. You will learn in a working environment, creating useful and user-friendly solutions. If you want to gain new knowledge and skills and start a career in web design, this opportunity is for you.",
             "EXPECTATIONS": [
                 {
@@ -48,10 +47,10 @@
                     ]
                 }
             ],
-        "APPLY_LINK": ""
+        "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
         },
-        "mobiledesigner": {
-            "TITLE": "Mobile Developer📱",
+        "MOBILE_DEVELOPER": {
+            "TITLE": "Mobile Developer",
             "DESC": "Start your journey in iOS development with our internship program. As an iOS developer intern, you will work on modern mobile applications for Apple, developing your skills alongside experienced professionals. This position will provide you with valuable knowledge and practical skills for a successful career in technology. You will learn in a working environment, creating user-friendly solutions and improving the functionality of iOS applications. If you want to embark on a path that combines innovation and learning, this opportunity is for you.",
             "EXPECTATIONS": [
                 {
@@ -92,8 +91,8 @@
             ],
         "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
         },
-        "frontend": {
-            "TITLE": "Frontend Developer👨‍💻",
+        "FRONTEND": {
+            "TITLE": "Frontend Developer",
             "DESC": "We are looking for a passionate frontend developer intern who is ready to develop their skills and learn new things. This internship will provide you with a unique opportunity to immerse yourself in the world of web development, work on real projects, and gain valuable experience. We offer you the chance to become part of a team of professionals, where you can apply your knowledge, master new technologies, and contribute to creating innovative solutions. If you are ready for challenges, join us and take your first steps in the exciting field of frontend development!",
             "EXPECTATIONS": [
                 {
@@ -135,8 +134,8 @@
             ],
             "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
         },
-        "qa": {
-            "TITLE": "Quality Assurance Tester💯",
+        "QUALITY_ASSURANCE": {
+            "TITLE": "Quality Assurance Tester",
             "DESC": "Start your career as a QA intern, delving into the complex world of testing web and mobile applications for Apple. This internship is not just about finding bugs; it is a learning experience that will equip you with the knowledge and skills for a successful future in technology. Your practical experience here will lay the foundation for becoming an industry expert. Join our team and turn each case into a step towards a successful career.",
             "EXPECTATIONS": [
                 {
@@ -178,8 +177,8 @@
             ],
             "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
         },
-        "ba": {
-            "TITLE": "Business Analyst📊",
+        "BUSINESS_ANALYST": {
+            "TITLE": "Business Analyst",
             "DESC": "Start your career as an analyst, using data to improve our web and mobile applications. Analyze trends, find key information, and help in decision-making. Your insights will impact the functionality and engagement in social networks. This role offers an excellent opportunity to develop and grow in analytics. Take your skills to the next level and contribute to our success!",
             "EXPECTATIONS": [
                 {
@@ -226,8 +225,8 @@
             ],
             "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
         },
-        "copywriter": {
-            "TITLE": "Copywriter📝",
+        "COPYWRITER": {
+            "TITLE": "Copywriter",
             "DESC": "Start your career as a copywriter, where you will create engaging and effective texts for various platforms. Dive into content creation that will resonate with our audience and support the brand at the highest level. Your work will be key to shaping the company's image and improving communication with clients.",
             "EXPECTATIONS": [
                 {
@@ -285,7 +284,5 @@
         "— Friendly and inspiring startup atmosphere",
         "— Unique opportunity to develop and become a key player in our team",
         "— Opportunity to impact the healthy lifestyle and well-being of our users"
-    ],
-    "RESPONSE": "1. Fill out the Google form and send it to us\n2. We will review everything carefully and get back to you with feedback as soon as possible",
-    "RESPONSE_BTN": "Apply"
+    ]
 }

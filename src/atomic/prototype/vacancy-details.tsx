@@ -27,14 +27,11 @@ interface CareerData {
     EXPECTATIONS_H2: string;
     CONDITIONS_H2: string,
     FEATURES_H2: string,
-    FEATURES_H3: string,
-    RESPONSE_H2: string,
     POSITIONS: {
         [key: string]: VacancyData;
     };
     CONDITIONS: string[];
     FEATURES: string[];
-    RESPONSE: string;
     RESPONSE_BTN: string
 }
 
@@ -48,7 +45,24 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
             if (!response.ok) return;
 
             const result = await response.json();
-            setVacancyData(result.POSITIONS[position]);
+
+            let key: string;
+
+            if (position === "designer") {
+                key = "DESIGNER";
+            } else if (position === "mobiledeveloper") {
+                key = "MOBILE_DEVELOPER";
+            } else if (position === "frontend") {
+                key = "FRONTEND";
+            } else if (position === "qualityassurance") {
+                key = "QUALITY_ASSURANCE";
+            } else if (position === "businessanalyst") {
+                key = "BUSINESS_ANALYST";
+            } else if (position === "copywriter") {
+                key = "COPYWRITER";
+            }
+
+            setVacancyData(result.POSITIONS[key]);
             setData(result);
         };
 
@@ -115,7 +129,6 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
 
                 <section className='row'>
                     <h2>{data.FEATURES_H2}</h2>
-                    <h3>{data.FEATURES_H3}</h3>
                     <ul>
                         {data.FEATURES.map((feature: string, index: number) => (
                             <li key={index}>{feature}</li>
@@ -123,16 +136,10 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
                     </ul>
                 </section>
 
-                <section>
-                    <div className='row'>
-                        <h2>{data.RESPONSE_H2}</h2>
-                        <p>{data.RESPONSE}</p>
-                        <div>
-                            <a href={vacancyData.APPLY_LINK} target="_blank" rel="noopener noreferrer">
-                                <button className='mt-2 ms-btn-large'>{data.RESPONSE_BTN}</button>
-                            </a>
-                        </div>
-                    </div>
+                <section className='row'>
+                    <a href={vacancyData.APPLY_LINK} target="_blank" rel="noopener noreferrer">
+                        <button className='mt-2 ms-btn-large mb-6'>{data.RESPONSE_BTN}</button>
+                    </a>
                 </section>
             </div>
             <Footer />

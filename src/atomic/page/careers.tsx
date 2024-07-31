@@ -7,14 +7,14 @@ import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
 
 const careers = [
     {
-        id: "webdesigner",
+        id: "designer",
         getTitle: () => _("CAREERS.LIST3.LI1_HEAD"),
         getText: () => _("CAREERS.LIST3.LI1_TEXT"),
         image: "/img/page/careers/vacancy-pic-webdesigner.webp",
         getAlt: () => _("CAREERS.LIST3.LI1_HEAD"),
     },
     {
-        id: "mobiledesigner",
+        id: "mobiledeveloper",
         getTitle: () => _("CAREERS.LIST3.LI2_HEAD"),
         getText: () => _("CAREERS.LIST3.LI2_TEXT"),
         image: "/img/page/careers/vacancy-pic-mobiledesigner.webp",
@@ -28,14 +28,14 @@ const careers = [
         getAlt: () => _("CAREERS.LIST3.LI3_HEAD"),
     },
     {
-        id: "qa",
+        id: "qualityassurance",
         getTitle: () => _("CAREERS.LIST3.LI4_HEAD"),
         getText: () => _("CAREERS.LIST3.LI4_TEXT"),
         image: "/img/page/careers/vacancy-pic-qa.webp",
         getAlt: () => _("CAREERS.LIST3.LI4_HEAD"),
     },
     {
-        id: "ba",
+        id: "businessanalyst",
         getTitle: () => _("CAREERS.LIST3.LI5_HEAD"),
         getText: () => _("CAREERS.LIST3.LI5_TEXT"),
         image: "/img/page/careers/vacancy-pic-ba.webp",
