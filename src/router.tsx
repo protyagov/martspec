@@ -85,7 +85,7 @@ export function App() {
                 const [, pagePath, currentPath] = url.split("/");
     
                 if (pagePath === "vitamin") return <VitaminElement id={currentPath} />;
-                if (pagePath === "careers") return <VacancyDetails position={currentPath} lang={Locale.language}/>;
+                if (pagePath === "careers") return <VacancyDetails position={currentPath}/>;
 
             return <Error_404 />;
     }

@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import * as React from "react";
+import { Locale } from "@/i18n/locale";
 import NavigationBar from "@/atomic/organism/navbar";
 import BulletList from "@/atomic/molecule/bullet-list";
 import { Footer } from "@/atomic/organism/footer";
 
 interface VacancyDetailsProps {
     position: string;
-    lang: string;
 }
 
 interface Expectation {
@@ -17,31 +17,31 @@ interface VacancyData {
     TITLE: string;
     DESC: string;
     EXPECTATIONS: Expectation[];
-    APPLY_LINK: string
+    APPLY_LINK: string;
 }
 
 interface CareerData {
-    NOT_FOUND: string,
     PAY: string;
     FORMAT: string;
     EXPECTATIONS_H2: string;
-    CONDITIONS_H2: string,
-    FEATURES_H2: string,
+    CONDITIONS_H2: string;
+    FEATURES_H2: string;
     POSITIONS: {
         [key: string]: VacancyData;
     };
     CONDITIONS: string[];
     FEATURES: string[];
-    RESPONSE_BTN: string
+    RESPONSE_BTN: string;
 }
 
-const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
-    const [vacancyData, setVacancyData] = useState<VacancyData | null>(null);
-    const [data, setData] = useState<CareerData | null>(null);
+const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
+    const [vacancyData, setVacancyData] = React.useState<VacancyData | null>(null);
+    const [data, setData] = React.useState<CareerData | null>(null);
 
-    useEffect(() => {
+    React.useEffect(() => {
+
         const fetchData = async () => {
-            const response = await fetch(`/data/career-${lang}.json`);
+            const response = await fetch(`/data/career-${Locale.language}.json`);
             if (!response.ok) return;
 
             const result = await response.json();
@@ -64,84 +64,74 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position, lang }) => {
 
             setVacancyData(result.POSITIONS[key]);
             setData(result);
+            
         };
 
         fetchData();
-    }, [position, lang]);
 
-    if (!vacancyData || !data) {
-        let NOT_FOUND = '';
-        switch (lang) {
-            case 'ru':
-                NOT_FOUND = 'Вакансия не найдена';
-                break;
-            case 'en':
-                NOT_FOUND = 'Vacancy not found';
-                break;
-            default:
-                NOT_FOUND = 'Vacancy not found';
-                break;
-        }
-        return <p>{NOT_FOUND}</p>;
-    }
+    }, [position, Locale.language]);
 
     return (
         <>
             <NavigationBar />
-            <div className="ms-base-page ms-base-new vacancy-details">
-                <section>
-                    <div className="row">
-                        <div className="col-lg-8">
-                            <h1>{vacancyData.TITLE}</h1>
-                            <p className="p" style={{ fontWeight: 'bold' }}>{data.PAY}</p>
-                            <p style={{ color: '#212529' }}>{data.FORMAT}</p>
-                        </div>
-                        <p style={{ color: '#212529', marginBottom: '0' }}>
-                            {vacancyData.DESC}
-                        </p>
-                    </div>
-                </section>
+                <div className="ms-base-page ms-base-new vacancy-details">
+                    {vacancyData && data && (
+                        <>
+                            <section>
+                                <div className="row">
+                                    <div className="col-lg-8">
+                                        <h1>{vacancyData.TITLE}</h1>
+                                        <p className="p" style={{ fontWeight: 'bold' }}>{data.PAY}</p>
+                                        <p style={{ color: '#212529' }}>{data.FORMAT}</p>
+                                    </div>
+                                    <p style={{ color: '#212529', marginBottom: '0' }}>
+                                        {vacancyData.DESC}
+                                    </p>
+                                </div>
+                            </section>
 
-                <section className='row'>
-                    <h2>{data.EXPECTATIONS_H2}</h2>
-                    <div className="row row-no-padding col-12">
-                        {vacancyData.EXPECTATIONS.map((expectation: Expectation, index: number) => (
-                            <div className="col-lg-6-start" key={index}>
-                                <h3 className="h3">{expectation.H3}</h3>
-                                <BulletList
-                                    items={expectation.UL}
-                                    iconColor="#FFB340"
-                                    className="col-bullet-list"
-                                />
-                            </div>
-                        ))}
-                    </div>
-                </section>
+                            <section className='row'>
+                                <h2>{data.EXPECTATIONS_H2}</h2>
+                                <div className="row row-no-padding col-12">
+                                    {vacancyData.EXPECTATIONS.map((expectation: Expectation, index: number) => (
+                                        <div className="col-lg-6-start" key={index}>
+                                            <h3 className="h3">{expectation.H3}</h3>
+                                            <BulletList
+                                                items={expectation.UL}
+                                                iconColor="#FFB340"
+                                                className="col-bullet-list"
+                                            />
+                                        </div>
+                                    ))}
+                                </div>
+                            </section>
 
-                <section className='row'>
-                    <h2>{data.CONDITIONS_H2}</h2>
-                    <ul>
-                        {data.CONDITIONS.map((condition: string, index: number) => (
-                            <li key={index}>{condition}</li>
-                        ))}
-                    </ul>
-                </section>
+                            <section className='row'>
+                                <h2>{data.CONDITIONS_H2}</h2>
+                                <ul>
+                                    {data.CONDITIONS.map((condition: string, index: number) => (
+                                        <li key={index}>{condition}</li>
+                                    ))}
+                                </ul>
+                            </section>
 
-                <section className='row'>
-                    <h2>{data.FEATURES_H2}</h2>
-                    <ul>
-                        {data.FEATURES.map((feature: string, index: number) => (
-                            <li key={index}>{feature}</li>
-                        ))}
-                    </ul>
-                </section>
+                            <section className='row'>
+                                <h2>{data.FEATURES_H2}</h2>
+                                <ul>
+                                    {data.FEATURES.map((feature: string, index: number) => (
+                                        <li key={index}>{feature}</li>
+                                    ))}
+                                </ul>
+                            </section>
 
-                <section className='row'>
-                    <a href={vacancyData.APPLY_LINK} target="_blank" rel="noopener noreferrer">
-                        <button className='mt-2 ms-btn-large mb-6'>{data.RESPONSE_BTN}</button>
-                    </a>
-                </section>
-            </div>
+                            <section className='row'>
+                                <a href={vacancyData.APPLY_LINK} target="_blank" rel="noopener noreferrer">
+                                    <button className='mt-2 ms-btn-large mb-6'>{data.RESPONSE_BTN}</button>
+                                </a>
+                            </section>
+                        </>
+                    )}
+                </div>
             <Footer />
         </>
     );
