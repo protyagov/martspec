@@ -50,13 +50,13 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
 
             if (position === "designer") {
                 key = "DESIGNER";
-            } else if (position === "mobiledeveloper") {
+            } else if (position === "ios-engineer") {
                 key = "MOBILE_DEVELOPER";
-            } else if (position === "frontend") {
+            } else if (position === "frontend-engineer") {
                 key = "FRONTEND";
-            } else if (position === "qualityassurance") {
+            } else if (position === "qa-engineer") {
                 key = "QUALITY_ASSURANCE";
-            } else if (position === "businessanalyst") {
+            } else if (position === "business-analyst") {
                 key = "BUSINESS_ANALYST";
             } else if (position === "copywriter") {
                 key = "COPYWRITER";
