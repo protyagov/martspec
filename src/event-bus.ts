@@ -2,13 +2,23 @@ class EventBus {
     private callbacksByEvents = new Map<string, { (payload: any): void }[]>();
 
     send(eventName: string, payload: any = {}, onDone: (res: any) => void = (res) => {}) {
-        if (this.callbacksByEvents.has(eventName))
-            for (let event of this.callbacksByEvents.get(eventName)) onDone(event(payload));
+        if (this.callbacksByEvents.has(eventName)) {
+            const callbacks = this.callbacksByEvents.get(eventName);
+            if (!callbacks) return;
+
+            for (let event of callbacks) onDone(event(payload));
+        }
     }
 
     addEvent(eventName: string, callback: (payload: any) => void) {
-        if (this.callbacksByEvents.has(eventName)) this.callbacksByEvents.get(eventName).push(callback);
-        else this.callbacksByEvents.set(eventName, [callback]);
+        if (this.callbacksByEvents.has(eventName)) {
+            const callbacks = this.callbacksByEvents.get(eventName);
+            if (!callbacks) return;
+
+            callbacks.push(callback);
+        } else {
+            this.callbacksByEvents.set(eventName, [callback]);
+        }
     }
 
     removeEvent(eventName: string) {
