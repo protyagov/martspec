@@ -12,6 +12,8 @@ import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
 import BulletList from "@/atomic/molecule/bullet-list";
 import CardImage from "@/atomic/molecule/card-image";
+import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
+import CardTitleText from "@/atomic/molecule/card-title-text";
 
 const vitamins = {
     VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
@@ -120,32 +122,43 @@ export default function Vitamin() {
                 />
 
                 <section>
-                    <div className="row g-4">
-                        <TitleTextCard
-                            title={_("VITAMIN.LIST1.LI1_HEAD")}
-                            text={_("VITAMIN.LIST1.LI1_TEXT")}
-                            bgColor="#D6E3FC"
-                            className="col-xl-4 col-lg-6"
-                        />
-                        <div className="col-xl-4 col-lg-6">
-                            <TitleTextCard
-                                title={_("VITAMIN.LIST1.LI2_HEAD")}
-                                text={_("VITAMIN.LIST1.LI2_TEXT")}
-                                bgColor="#E8FAE0"
-                                className="row-lg py-0 mb-4"
-                            />
-                            <TitleTextCard
-                                title={_("VITAMIN.LIST1.LI3_HEAD")}
-                                text={_("VITAMIN.LIST1.LI3_TEXT")}
-                                bgColor="#D6E3FC"
-                                className="row-lg py-0"
+                    <div className="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
+                        <div className="col">
+                            <CardTitleTextImage
+                                title={_("VITAMIN.LIST1.LI1_HEAD")}
+                                text={_("VITAMIN.LIST1.LI1_TEXT")}
+                                imgSrc="/img/page/vitamin/vitamin-easy-use-en.webp"
+                                imgH={239}
+                                imgW={400}
+                                imgAlt={_("VITAMIN.ALT6")}
+                                textColor="#151515"
                             />
                         </div>
-                        <div className="col-xl-4">
+                        <div className="col p-0">
+                            <div className="row row-cols-1 h-100 p-0">
+                                <div className="col py-0">
+                                    <CardTitleText
+                                        title={_("VITAMIN.LIST1.LI2_HEAD")}
+                                        text={_("VITAMIN.LIST1.LI2_TEXT")}
+                                        bgColor="#E5F4D9"
+                                        textColor="#151515"
+                                    />
+                                </div>
+                                <div className="col py-0 mt-4">
+                                    <CardTitleText
+                                        title={_("VITAMIN.LIST1.LI3_HEAD")}
+                                        text={_("VITAMIN.LIST1.LI3_TEXT")}
+                                        bgColor="#E5EEFF"
+                                        textColor="#151515"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col col-md-12">
                             <CardImage
-                                imgSrc="/img/page/vitamin/vitamin-watches-en.512.webp"
-                                imgH={512}
-                                imgW={472}
+                                imgSrc="/img/page/vitamin/vitamin-watches-en.webp"
+                                imgH={720}
+                                imgW={664}
                                 imgAlt={_("VITAMIN.ALT4")}
                                 bgColor="#F2F2F5"
                             />
@@ -249,9 +262,9 @@ export default function Vitamin() {
                                 </ul>
                                 <div className="col-xl-6 col-12 px-0">
                                     <CardImage
-                                        imgSrc="/img/page/vitamin/vitamin-screen-minr-en.512.webp"
-                                        imgH={440}
-                                        imgW={512}
+                                        imgSrc="/img/page/vitamin/vitamin-screen-minr-en.webp"
+                                        imgH={722}
+                                        imgW={840}
                                         imgAlt={_("VITAMIN.ALT2")}
                                         bgColor="#F4F5F8"
                                         alignItems="end"
