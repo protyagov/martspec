@@ -1,6 +1,5 @@
 import React, { CSSProperties } from "react";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import "@/sass/molecule/card-title-text-image.scss";
 
 interface CardTitleTextImageProps {
     title: string;
@@ -22,12 +21,12 @@ export default function CardTitleTextImage({
     textColor,
 }: CardTitleTextImageProps): React.ReactNode {
     return (
-        <div className="card-title-text-image d-flex flex-column h-100 rounded-5 shadow">
+        <div className="d-flex flex-column h-100 rounded-5 shadow">
             <div className="p-lg-5 p-4 mb-3">
-                <h3 className="title mb-3 pe-5 fs-4 lh-sm" style={{ color: textColor }}>
+                <h3 className="mb-3 pe-5 fs-4 lh-sm" style={{ color: textColor }}>
                     {title}
                 </h3>
-                <p className="text mb-0 pe-4 fs-5 lh-sm" style={{ color: textColor }}>
+                <p className="mb-0 pe-4 fs-5 lh-sm" style={{ color: textColor }}>
                     {text}
                 </p>
             </div>
