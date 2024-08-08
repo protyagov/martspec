@@ -31,7 +31,7 @@ html {
         margin-top: 1rem;
         font-family: os6;
         word-break: break-all;
-        font-size: calc(3rem + max(1vw, 1vh));
+        font-size: clamp(2rem, calc(1.8rem + max(1.5dvw, 1.5dvh)), 4rem);
         margin-bottom: 1rem;
         color: $ms-color-text-black;
     }
