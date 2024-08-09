@@ -19,6 +19,10 @@ interface IGetValidateReviewData {
     linkData?: Partial<IGetLink>;
     arrLength: IValidateReviewData["arrLength"];
 }
+interface IFilterByRating {
+    validateData: IReviewWithFiller;
+    rating: number;
+}
 
 // return data
 interface IReviewWithAppId {
@@ -34,6 +38,7 @@ interface IReviewFillerWithAppId {
 type TGetReviewData = (props?: Partial<IGetLink>) => Promise<IReviewWithAppId>;
 type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
 type TGetValidateReviewData = (props: IGetValidateReviewData) => Promise<IReviewFillerWithAppId>;
+type TFilterByRating = (props: IFilterByRating) => Promise<IReviewWithFiller>;
 
 // compose type into single interface
 interface IAppleReviewService {
@@ -41,6 +46,12 @@ interface IAppleReviewService {
 }
 
 export class AppleReviewService implements IAppleReviewService {
+    // filter reviews by rating
+    filterByRating: TFilterByRating = async ({ validateData, rating }) =>
+        validateData.map((rev) =>
+            !("filler" in rev) && parseInt(rev["im:rating"].label) !== rating ? this.#fillerObject() : rev
+        );
+
     // get validated reviews and appId
     getValidateReviewData: TGetValidateReviewData = async ({ linkData, arrLength }) => {
         const { data, id } = await this.#getReviewData(linkData);
