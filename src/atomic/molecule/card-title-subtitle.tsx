@@ -42,7 +42,7 @@ export default function CardTitleSubtitle({
     subtitle,
     bgImg,
     titleColor = "#1686FF",
-    subtitleColor = "#151515",
+    subtitleColor = "#151515b3",
 }: CardTitleSubtitleProps): React.ReactNode {
     const bgImage = bgImg && { ...defaultBgSettings, ...bgImg };
 
