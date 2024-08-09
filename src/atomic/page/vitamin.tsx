@@ -177,7 +177,6 @@ export default function Vitamin() {
                                 imgH={239}
                                 imgW={400}
                                 imgAlt={_("VITAMIN.ALT6")}
-                                textColor="#151515"
                             />
                         </div>
                         <div className="col p-0">
@@ -187,7 +186,6 @@ export default function Vitamin() {
                                         title={_("VITAMIN.LIST1.LI2_HEAD")}
                                         text={_("VITAMIN.LIST1.LI2_TEXT")}
                                         bgColor="#E5F4D9"
-                                        textColor="#151515"
                                     />
                                 </div>
                                 <div className="col py-0 mt-4">
@@ -195,7 +193,6 @@ export default function Vitamin() {
                                         title={_("VITAMIN.LIST1.LI3_HEAD")}
                                         text={_("VITAMIN.LIST1.LI3_TEXT")}
                                         bgColor="#E5EEFF"
-                                        textColor="#151515"
                                     />
                                 </div>
                             </div>
