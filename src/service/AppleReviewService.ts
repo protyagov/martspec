@@ -23,6 +23,10 @@ interface IFilterByRating {
     validateData: IReviewWithFiller;
     rating: number;
 }
+interface IFilterByMaxTextLength {
+    validateData: IReviewWithFiller;
+    length: number;
+}
 
 // return data
 interface IReviewWithAppId {
@@ -39,6 +43,7 @@ type TGetReviewData = (props?: Partial<IGetLink>) => Promise<IReviewWithAppId>;
 type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
 type TGetValidateReviewData = (props: IGetValidateReviewData) => Promise<IReviewFillerWithAppId>;
 type TFilterByRating = (props: IFilterByRating) => Promise<IReviewWithFiller>;
+type TFilterByTextMaxLength = (props: IFilterByMaxTextLength) => Promise<IReviewWithFiller>;
 
 // compose type into single interface
 interface IAppleReviewService {
@@ -46,6 +51,12 @@ interface IAppleReviewService {
 }
 
 export class AppleReviewService implements IAppleReviewService {
+    // filter reviews by text length
+    filterByMaxTextLength: TFilterByTextMaxLength = async ({ validateData, length }) =>
+        validateData.map((rev) =>
+            !("filler" in rev) && parseInt(rev["im:rating"].label) <= length ? this.#fillerObject() : rev
+        );
+
     // filter reviews by rating
     filterByRating: TFilterByRating = async ({ validateData, rating }) =>
         validateData.map((rev) =>
