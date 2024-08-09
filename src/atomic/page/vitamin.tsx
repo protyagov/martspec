@@ -261,6 +261,7 @@ export default function Vitamin() {
                                 _("VITAMIN.LIST3.LI6_TEXT")
                                 ]}
                                 iconColor="#1686FF"
+                                className="bullet-list"
                             />
                         </div>
                     </div>

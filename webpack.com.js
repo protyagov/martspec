@@ -65,6 +65,12 @@ module.exports = {
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/selenium.ejs", filename: "vitamin/selenium/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/sodium.ejs", filename: "vitamin/sodium/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/zinc.ejs", filename: "vitamin/zinc/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/business-analyst.ejs", filename: "careers/business-analyst/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/copywriter.ejs", filename: "careers/copywriter/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/designer.ejs", filename: "careers/designer/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/frontend-engineer.ejs", filename: "careers/frontend-engineer/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/ios-engineer.ejs", filename: "careers/ios-engineer/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/qa-engineer.ejs", filename: "careers/qa-engineer/index.html", inject: "body", }),
 
         // --------------- Static Content EN Without Slash---------------
         new HtmlWebpackPlugin({ template: "./src/template/en/bodymass.ejs", filename: "bodymass.html", inject: "body", }),
@@ -114,6 +120,12 @@ module.exports = {
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/selenium.ejs", filename: "vitamin/selenium.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/sodium.ejs", filename: "vitamin/sodium.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/zinc.ejs", filename: "vitamin/zinc.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/business-analyst.ejs", filename: "careers/business-analyst.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/copywriter.ejs", filename: "careers/copywriter.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/designer.ejs", filename: "careers/designer.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/frontend-engineer.ejs", filename: "careers/frontend-engineer.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/ios-engineer.ejs", filename: "careers/ios-engineer.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/qa-engineer.ejs", filename: "careers/qa-engineer.html", inject: "body", }),
 
         new HtmlWebpackInjectPreload({
             files: [
@@ -213,7 +225,13 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/vitamin/selenium.ejs`, filename: x + "/vitamin/selenium/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/vitamin/sodium.ejs`, filename: x + "/vitamin/sodium/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/vitamin/zinc.ejs`, filename: x + "/vitamin/zinc/index.html", inject: "body", }),
-
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/business-analyst.ejs`, filename: x + "/careers/business-analyst/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/copywriter.ejs`, filename: x + "/careers/copywriter/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/designer.ejs`, filename: x + "/careers/designer/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/frontend-engineer.ejs`, filename: x + "/careers/frontend-engineer/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/ios-engineer.ejs`, filename: x + "/careers/ios-engineer/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/qa-engineer.ejs`, filename: x + "/careers/qa-engineer/index.html", inject: "body", }),
+        
         // Without slash at the end
         new HtmlWebpackPlugin({ template: `./src/template/${x}/main.ejs`, filename: x + ".html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodymass.ejs`, filename: x + "/bodymass.html", inject: "body", }),
@@ -263,6 +281,12 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/vitamin/selenium.ejs`, filename: x + "/vitamin/selenium.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/vitamin/sodium.ejs`, filename: x + "/vitamin/sodium.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/vitamin/zinc.ejs`, filename: x + "/vitamin/zinc.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/business-analyst.ejs`, filename: x + "/careers/business-analyst.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/copywriter.ejs`, filename: x + "/careers/copywriter.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/designer.ejs`, filename: x + "/careers/designer.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/frontend-engineer.ejs`, filename: x + "/careers/frontend-engineer.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/ios-engineer.ejs`, filename: x + "/careers/ios-engineer.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/qa-engineer.ejs`, filename: x + "/careers/qa-engineer.html", inject: "body", }),
     ]),]),
     //--------------------------------------------------------------------------------------------------------------------------------------------
     resolve: {
