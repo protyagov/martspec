@@ -81,7 +81,7 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
                                 <div className="row">
                                     <div className="col-lg-8">
                                         <h1>{vacancyData.TITLE}</h1>
-                                        <p className="p" style={{ fontWeight: 'bold' }}>{data.PAY}</p>
+                                        <p className="p">{data.PAY}</p>
                                         <p style={{ color: '#212529' }}>{data.FORMAT}</p>
                                     </div>
                                     <p style={{ color: '#212529', marginBottom: '0' }}>
@@ -92,10 +92,10 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
 
                             <section className='row'>
                                 <h2>{data.EXPECTATIONS_H2}</h2>
-                                <div className="row row-no-padding col-12">
+                                <div className="row row-cols-lg-2 row-cols-1 p-0 g-4">
                                     {vacancyData.EXPECTATIONS.map((expectation: Expectation, index: number) => (
-                                        <div className="col-lg-6-start" key={index}>
-                                            <h3 className="h3">{expectation.H3}</h3>
+                                        <div className="col" key={index}>
+                                            <h3 className="mb-3">{expectation.H3}</h3>
                                             <BulletList
                                                 items={expectation.UL}
                                                 iconColor="#FFB340"
