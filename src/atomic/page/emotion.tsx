@@ -222,6 +222,7 @@ export default function Emotion() {
                                     _("EMOTION.LIST4.LI6_TEXT")
                                 ]}
                                 iconColor="#7B62FE"
+                                className="bullet-list"
                             />
                         </div>
                     </div>

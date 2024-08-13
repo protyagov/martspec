@@ -29,3 +29,27 @@
     }
   }
 }
+
+.col-bullet-list {
+  display: grid; 
+  gap: 1rem;
+
+  li {
+    display: flex; 
+    align-items: flex-start; 
+
+    .bullet-list__icon {
+      margin-top: 4px;
+      width: 23px;
+      height: 23px;
+      fill: currentColor;
+      margin-right: 0.5rem;
+      flex-shrink: 0;
+    }
+    
+    .bullet-list__text {
+      margin-left: 0.5rem;
+      flex-grow: 1; 
+    }
+  }
+}
