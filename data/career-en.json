@@ -1,0 +1,288 @@
+{
+    "PAY": "Unpaid",
+    "FORMAT": "Internship, remote work",
+    "EXPECTATIONS_H2": "Candidate Expectations",
+    "CONDITIONS_H2": "Internship Conditions",
+    "FEATURES_H2": "Why choose us:",
+    "RESPONSE_BTN": "Apply",
+    "POSITIONS": {
+        "DESIGNER": {
+            "TITLE": "Designer",
+            "DESC": "Start your journey in web design with an internship at our company. As a web design intern, you will work on real projects and develop your skills under the guidance of experienced professionals. This position will provide you with valuable knowledge and practical experience for a successful career in the tech industry. You will learn in a working environment, creating useful and user-friendly solutions. If you want to gain new knowledge and skills and start a career in web design, this opportunity is for you.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Design",
+                    "UL": [
+                        "Experience with major graphic editors",
+                        "Knowledge of UI/UX design principles",
+                        "Ability to create visually appealing and functional interface designs"
+                    ]
+                },
+                {
+                    "H3": "Creative Approach",
+                    "UL": [
+                        "Ability to find unconventional solutions",
+                        "Desire to experiment with new ideas"
+                    ]
+                },
+                {
+                    "H3": "Teamwork",
+                    "UL": [
+                        "Effective interaction with other team members",
+                        "Ability to listen to others' ideas and offer your own"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Active participation in discussions",
+                        "Proposing new solutions and options"
+                    ]
+                },
+                {
+                    "H3": "Personal Qualities",
+                    "UL": [
+                        "Desire to learn and develop in the field of web design",
+                        "High level of self-organization and responsibility"
+                    ]
+                }
+            ],
+        "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
+        },
+        "MOBILE_DEVELOPER": {
+            "TITLE": "IOS Engineer",
+            "DESC": "Start your journey in iOS development with our internship program. As an iOS developer intern, you will work on modern mobile applications for Apple, developing your skills alongside experienced professionals. This position will provide you with valuable knowledge and practical skills for a successful career in technology. You will learn in a working environment, creating user-friendly solutions and improving the functionality of iOS applications. If you want to embark on a path that combines innovation and learning, this opportunity is for you.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Mobile Development",
+                    "UL": [
+                        "Understanding the basics of mobile platform development",
+                        "Knowledge of Swift and SwiftUI"
+                    ]
+                },
+                {
+                    "H3": "Working with Tools",
+                    "UL": [
+                        "Experience with Apple Health Kit & iCloud SDK is a plus",
+                        "Ability to work with Git"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Active participation in discussions",
+                        "Proposing new solutions and ideas"
+                    ]
+                },
+                {
+                    "H3": "Teamwork",
+                    "UL": [
+                        "Effective interaction with colleagues",
+                        "Willingness to learn from more experienced developers"
+                    ]
+                },
+                {
+                    "H3": "Desire to Learn",
+                    "UL": [
+                        "Eagerness to master new technologies and tools",
+                        "Commitment to continuous professional growth"
+                    ]
+                }
+            ],
+        "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
+        },
+        "FRONTEND": {
+            "TITLE": "Frontend Developer",
+            "DESC": "We are looking for a passionate frontend developer intern who is ready to develop their skills and learn new things. This internship will provide you with a unique opportunity to immerse yourself in the world of web development, work on real projects, and gain valuable experience. We offer you the chance to become part of a team of professionals, where you can apply your knowledge, master new technologies, and contribute to creating innovative solutions. If you are ready for challenges, join us and take your first steps in the exciting field of frontend development!",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Web Development",
+                    "UL": [
+                        "Understanding the principles of web technologies",
+                        "Experience with React, TypeScript, and build tools, particularly Webpack",
+                        "Ability to work with Git version control system"
+                    ]
+                },
+                {
+                    "H3": "Desire to Learn",
+                    "UL": [
+                        "Openness to new technologies and methods",
+                        "Commitment to improving skills and developing in frontend development"
+                    ]
+                },
+                {
+                    "H3": "Teamwork",
+                    "UL": [
+                        "Willingness to work in a team and interact with colleagues",
+                        "Ability to give and receive constructive feedback"
+                    ]
+                },
+                {
+                    "H3": "Attention to Detail",
+                    "UL": [
+                        "Accuracy in working on user interfaces",
+                        "Ability to notice and correct errors and shortcomings"
+                    ]
+                },
+                {
+                    "H3": "Responsibility",
+                    "UL": [
+                        "Readiness to complete assigned tasks on time",
+                        "Ability to independently solve arising problems"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
+        },
+        "QUALITY_ASSURANCE": {
+            "TITLE": "QA Engineer",
+            "DESC": "Start your career as a QA intern, delving into the complex world of testing web and mobile applications for Apple. This internship is not just about finding bugs; it is a learning experience that will equip you with the knowledge and skills for a successful future in technology. Your practical experience here will lay the foundation for becoming an industry expert. Join our team and turn each case into a step towards a successful career.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Testing",
+                    "UL": [
+                        "Ability to develop test cases and test plans to verify application functionality",
+                        "Creating and maintaining test documentation, including test descriptions and scenarios"
+                    ]
+                },
+                {
+                    "H3": "Creating and Describing Tickets",
+                    "UL": [
+                        "Skills in creating tickets for found defects",
+                        "Describing expected results, actual results, and steps to reproduce the error"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Proposing new ways and ideas to improve processes",
+                        "Striving to achieve results and effectively tackle challenges"
+                    ]
+                },
+                {
+                    "H3": "Teamwork",
+                    "UL": [
+                        "Ability to work effectively in a team and interact with colleagues",
+                        "Communication skills, openness to suggestions, and readiness for constructive communication"
+                    ]
+                },
+                {
+                    "H3": "Attention to Detail and Analytical Thinking",
+                    "UL": [
+                        "Accuracy in working with test documentation and test cases",
+                        "Ability to identify and analyze minor details and defects",
+                        "Analytical approach to problem-solving and defect detection"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
+        },
+        "BUSINESS_ANALYST": {
+            "TITLE": "Business Analyst",
+            "DESC": "Start your career as an analyst, using data to improve our web and mobile applications. Analyze trends, find key information, and help in decision-making. Your insights will impact the functionality and engagement in social networks. This role offers an excellent opportunity to develop and grow in analytics. Take your skills to the next level and contribute to our success!",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Market Research",
+                    "UL": [
+                        "Analyzing market trends and target audience needs",
+                        "Assessing the competitive advantages of our product"
+                    ]
+                },
+                {
+                    "H3": "Promotion Strategy Development",
+                    "UL": [
+                        "Creating and implementing a promotion strategy across various communication channels, including social media, blogs, partner sites, and media",
+                        "Working with diverse media and communication platforms"
+                    ]
+                },
+                {
+                    "H3": "Analysis and Adjustment",
+                    "UL": [
+                        "Analyzing promotion results and measuring campaign effectiveness",
+                        "Adjusting strategies and plans based on feedback"
+                    ]
+                },
+                {
+                    "H3": "Product Development Participation",
+                    "UL": [
+                        "Active participation in discussions and decision-making for product development"
+                    ]
+                },
+                {
+                    "H3": "Personal Qualities",
+                    "UL": [
+                        "Result-oriented and attention to detail",
+                        "Initiative and accountability for results"
+                    ]
+                },
+                {
+                    "H3": "Communication Skills and Teamwork",
+                    "UL": [
+                        "Good communication skills and the ability to find common ground with different people",
+                        "Ability to work effectively in a team and interact with colleagues"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
+        },
+        "COPYWRITER": {
+            "TITLE": "Copywriter",
+            "DESC": "Start your career as a copywriter, where you will create engaging and effective texts for various platforms. Dive into content creation that will resonate with our audience and support the brand at the highest level. Your work will be key to shaping the company's image and improving communication with clients.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Writing Texts",
+                    "UL": [
+                        "For the website",
+                        "For mobile applications"
+                    ]
+                },
+                {
+                    "H3": "Associative Thinking",
+                    "UL": [
+                        "Creative approach to generating ideas",
+                        "Desire to learn to create captivating headlines and texts"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Active participation in discussions",
+                        "Proposing new solutions and options"
+                    ]
+                },
+                {
+                    "H3": "Personal Qualities",
+                    "UL": [
+                        "Desire to gain experience in a real project",
+                        "High level of empathy, sufficient for working in an international team"
+                    ]
+                },
+                {
+                    "H3": "Working with AI",
+                    "UL": [
+                        "Willingness to learn and work with AI tools for writing texts"
+                    ]
+                },
+                {
+                    "H3": "Responsibility",
+                    "UL": [
+                        "Willingness to complete tasks you take on",
+                        "Ability to work independently"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
+        }
+    },
+    "CONDITIONS": [
+        "— This is an unpaid internship for 2-3 months, — your work is not paid, you receive knowledge and work experience",
+        "— There are no strict hours, you can work at any convenient time",
+        "— Work from home on your own device",
+        "— If you need to be away from the project for a few days — that's okay, but please let us know in advance so that your internship does not end prematurely"
+    ],
+    "FEATURES": [
+        "— Friendly and inspiring startup atmosphere",
+        "— Unique opportunity to develop and become a key player in our team",
+        "— Opportunity to impact the healthy lifestyle and well-being of our users"
+    ]
+}
