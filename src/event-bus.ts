@@ -3,8 +3,7 @@ class EventBus {
 
     send(eventName: string, payload: any = {}, onDone: (res: any) => void = (res) => {}) {
         if (this.callbacksByEvents.has(eventName)) {
-            const callbacks = this.callbacksByEvents.get(eventName);
-            if (!callbacks) return;
+            const callbacks = this.getCallbacks(eventName);
 
             for (let event of callbacks) onDone(event(payload));
         }
@@ -12,8 +11,7 @@ class EventBus {
 
     addEvent(eventName: string, callback: (payload: any) => void) {
         if (this.callbacksByEvents.has(eventName)) {
-            const callbacks = this.callbacksByEvents.get(eventName);
-            if (!callbacks) return;
+            const callbacks = this.getCallbacks(eventName);
 
             callbacks.push(callback);
         } else {
@@ -30,6 +28,13 @@ class EventBus {
             let idx = events.findIndex((event) => event == callback);
             if (idx != -1) events.splice(idx, 1);
         }
+    }
+
+    getCallbacks(eventName: string): ((payload: any) => void)[] {
+        const callbacks = this.callbacksByEvents.get(eventName);
+        if (!callbacks) throw new Error(`callbacks triggered by event:"${eventName}" were not found`);
+
+        return callbacks;
     }
 }
 
