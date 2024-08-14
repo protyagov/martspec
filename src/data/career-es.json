@@ -1,0 +1,288 @@
+{
+    "PAY": "No remunerado",
+    "FORMAT": "Pasantía, trabajo remoto",
+    "EXPECTATIONS_H2": "Expectativas del candidato",
+    "CONDITIONS_H2": "Condiciones de la pasantía",
+    "FEATURES_H2": "Por qué elegirnos:",
+    "RESPONSE_BTN": "Aplicar",
+    "POSITIONS": {
+        "DESIGNER": {
+            "TITLE": "Diseñador",
+            "DESC": "Comienza tu camino en el diseño web con una pasantía en nuestra empresa. Como pasante de diseño web, trabajarás en proyectos reales y desarrollarás tus habilidades bajo la orientación de profesionales experimentados. Esta posición te proporcionará conocimientos valiosos y experiencia práctica para una carrera exitosa en la industria tecnológica. Aprenderás en un entorno de trabajo, creando soluciones útiles y amigables para el usuario. Si deseas adquirir nuevos conocimientos y habilidades y comenzar una carrera en diseño web, esta oportunidad es para ti.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Diseño",
+                    "UL": [
+                        "Experiencia con editores gráficos principales",
+                        "Conocimiento de principios de diseño UI/UX",
+                        "Capacidad para crear diseños de interfaz visualmente atractivos y funcionales"
+                    ]
+                },
+                {
+                    "H3": "Enfoque Creativo",
+                    "UL": [
+                        "Capacidad para encontrar soluciones no convencionales",
+                        "Deseo de experimentar con nuevas ideas"
+                    ]
+                },
+                {
+                    "H3": "Trabajo en Equipo",
+                    "UL": [
+                        "Interacción efectiva con otros miembros del equipo",
+                        "Capacidad para escuchar las ideas de los demás y ofrecer las propias"
+                    ]
+                },
+                {
+                    "H3": "Iniciativa",
+                    "UL": [
+                        "Participación activa en discusiones",
+                        "Propuesta de nuevas soluciones y opciones"
+                    ]
+                },
+                {
+                    "H3": "Cualidades Personales",
+                    "UL": [
+                        "Deseo de aprender y desarrollarse en el campo del diseño web",
+                        "Alto nivel de autoorganización y responsabilidad"
+                    ]
+                }
+            ],
+        "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
+        },
+        "MOBILE_DEVELOPER": {
+            "TITLE": "Ingeniero IOS",
+            "DESC": "Comienza tu camino en el desarrollo de iOS con nuestro programa de pasantías. Como pasante de desarrollador iOS, trabajarás en aplicaciones móviles modernas para Apple, desarrollando tus habilidades junto a profesionales experimentados. Esta posición te proporcionará conocimientos valiosos y habilidades prácticas para una carrera exitosa en tecnología. Aprenderás en un entorno de trabajo, creando soluciones amigables para el usuario y mejorando la funcionalidad de las aplicaciones iOS. Si deseas embarcarte en un camino que combine innovación y aprendizaje, esta oportunidad es para ti.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Desarrollo Móvil",
+                    "UL": [
+                        "Entendimiento de los conceptos básicos del desarrollo en plataformas móviles",
+                        "Conocimiento de Swift y SwiftUI"
+                    ]
+                },
+                {
+                    "H3": "Trabajo con Herramientas",
+                    "UL": [
+                        "Experiencia con Apple Health Kit & iCloud SDK es un plus",
+                        "Capacidad para trabajar con Git"
+                    ]
+                },
+                {
+                    "H3": "Iniciativa",
+                    "UL": [
+                        "Participación activa en discusiones",
+                        "Propuesta de nuevas soluciones e ideas"
+                    ]
+                },
+                {
+                    "H3": "Trabajo en Equipo",
+                    "UL": [
+                        "Interacción efectiva con colegas",
+                        "Disposición para aprender de desarrolladores más experimentados"
+                    ]
+                },
+                {
+                    "H3": "Deseo de Aprender",
+                    "UL": [
+                        "Entusiasmo por dominar nuevas tecnologías y herramientas",
+                        "Compromiso con el crecimiento profesional continuo"
+                    ]
+                }
+            ],
+        "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
+        },
+        "FRONTEND": {
+            "TITLE": "Desarrollador Frontend",
+            "DESC": "Estamos buscando un pasante apasionado por el desarrollo frontend que esté listo para desarrollar sus habilidades y aprender cosas nuevas. Esta pasantía te proporcionará una oportunidad única para sumergirte en el mundo del desarrollo web, trabajar en proyectos reales y adquirir experiencia valiosa. Te ofrecemos la oportunidad de formar parte de un equipo de profesionales, donde podrás aplicar tus conocimientos, dominar nuevas tecnologías y contribuir a la creación de soluciones innovadoras. ¡Si estás listo para los desafíos, únete a nosotros y da tus primeros pasos en el emocionante campo del desarrollo frontend!",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Desarrollo Web",
+                    "UL": [
+                        "Comprensión de los principios de las tecnologías web",
+                        "Experiencia con React, TypeScript y herramientas de construcción, particularmente Webpack",
+                        "Capacidad para trabajar con el sistema de control de versiones Git"
+                    ]
+                },
+                {
+                    "H3": "Deseo de Aprender",
+                    "UL": [
+                        "Apertura a nuevas tecnologías y métodos",
+                        "Compromiso con la mejora de habilidades y desarrollo en desarrollo frontend"
+                    ]
+                },
+                {
+                    "H3": "Trabajo en Equipo",
+                    "UL": [
+                        "Disposición para trabajar en equipo e interactuar con colegas",
+                        "Capacidad para dar y recibir retroalimentación constructiva"
+                    ]
+                },
+                {
+                    "H3": "Atención al Detalle",
+                    "UL": [
+                        "Precisión en el trabajo con interfaces de usuario",
+                        "Capacidad para notar y corregir errores y deficiencias"
+                    ]
+                },
+                {
+                    "H3": "Responsabilidad",
+                    "UL": [
+                        "Disposición para completar las tareas asignadas a tiempo",
+                        "Capacidad para resolver problemas de manera independiente"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
+        },
+        "QUALITY_ASSURANCE": {
+            "TITLE": "Ingeniero QA",
+            "DESC": "Comienza tu carrera como pasante de QA, adentrándote en el complejo mundo de la prueba de aplicaciones web y móviles para Apple. Esta pasantía no se trata solo de encontrar errores; es una experiencia de aprendizaje que te proporcionará el conocimiento y las habilidades para un futuro exitoso en tecnología. Tu experiencia práctica aquí sentará las bases para convertirte en un experto en la industria. Únete a nuestro equipo y convierte cada caso en un paso hacia una carrera exitosa.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Pruebas",
+                    "UL": [
+                        "Capacidad para desarrollar casos de prueba y planes de prueba para verificar la funcionalidad de la aplicación",
+                        "Creación y mantenimiento de documentación de prueba, incluidos descripciones de prueba y escenarios"
+                    ]
+                },
+                {
+                    "H3": "Creación y Descripción de Tickets",
+                    "UL": [
+                        "Habilidades en la creación de tickets para defectos encontrados",
+                        "Descripción de resultados esperados, resultados reales y pasos para reproducir el error"
+                    ]
+                },
+                {
+                    "H3": "Iniciativa",
+                    "UL": [
+                        "Proponer nuevas formas e ideas para mejorar los procesos",
+                        "Esfuerzo por lograr resultados y enfrentar desafíos de manera efectiva"
+                    ]
+                },
+                {
+                    "H3": "Trabajo en Equipo",
+                    "UL": [
+                        "Capacidad para trabajar de manera efectiva en un equipo e interactuar con colegas",
+                        "Habilidades de comunicación, apertura a sugerencias y disposición para la comunicación constructiva"
+                    ]
+                },
+                {
+                    "H3": "Atención al Detalle y Pensamiento Analítico",
+                    "UL": [
+                        "Precisión en el trabajo con documentación de prueba y casos de prueba",
+                        "Capacidad para identificar y analizar detalles menores y defectos",
+                        "Enfoque analítico para la resolución de problemas y detección de defectos"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
+        },
+        "BUSINESS_ANALYST": {
+            "TITLE": "Analista de Negocios",
+            "DESC": "Comienza tu carrera como analista, utilizando datos para mejorar nuestras aplicaciones web y móviles. Analiza tendencias, encuentra información clave y ayuda en la toma de decisiones. Tus conocimientos impactarán la funcionalidad y el compromiso en redes sociales. Este rol ofrece una excelente oportunidad para desarrollarse y crecer en análisis. Lleva tus habilidades al siguiente nivel y contribuye a nuestro éxito!",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Investigación de Mercado",
+                    "UL": [
+                        "Análisis de tendencias del mercado y necesidades del público objetivo",
+                        "Evaluación de las ventajas competitivas de nuestro producto"
+                    ]
+                },
+                {
+                    "H3": "Desarrollo de Estrategia de Promoción",
+                    "UL": [
+                        "Creación e implementación de una estrategia de promoción a través de diversos canales de comunicación, incluidos redes sociales, blogs, sitios de socios y medios",
+                        "Trabajo con diversos medios y plataformas de comunicación"
+                    ]
+                },
+                {
+                    "H3": "Análisis y Ajuste",
+                    "UL": [
+                        "Análisis de resultados de promoción y medición de la efectividad de campañas",
+                        "Ajuste de estrategias y planes basados en retroalimentación"
+                    ]
+                },
+                {
+                    "H3": "Participación en el Desarrollo del Producto",
+                    "UL": [
+                        "Participación activa en discusiones y toma de decisiones para el desarrollo del producto"
+                    ]
+                },
+                {
+                    "H3": "Cualidades Personales",
+                    "UL": [
+                        "Orientación a resultados y atención al detalle",
+                        "Iniciativa y responsabilidad por los resultados"
+                    ]
+                },
+                {
+                    "H3": "Habilidades de Comunicación y Trabajo en Equipo",
+                    "UL": [
+                        "Buenas habilidades de comunicación y capacidad para encontrar puntos en común con diferentes personas",
+                        "Capacidad para trabajar de manera efectiva en equipo e interactuar con colegas"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
+        },
+        "COPYWRITER": {
+            "TITLE": "Redactor",
+            "DESC": "Comienza tu carrera como redactor, donde crearás textos atractivos y efectivos para varias plataformas. Sumérgete en la creación de contenido que resonará con nuestra audiencia y apoyará a la marca al más alto nivel. Tu trabajo será clave para moldear la imagen de la empresa y mejorar la comunicación con los clientes.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Redacción de Textos",
+                    "UL": [
+                        "Para el sitio web",
+                        "Para aplicaciones móviles"
+                    ]
+                },
+                {
+                    "H3": "Pensamiento Asociativo",
+                    "UL": [
+                        "Enfoque creativo para generar ideas",
+                        "Deseo de aprender a crear titulares y textos cautivadores"
+                    ]
+                },
+                {
+                    "H3": "Iniciativa",
+                    "UL": [
+                        "Participación activa en discusiones",
+                        "Propuesta de nuevas soluciones y opciones"
+                    ]
+                },
+                {
+                    "H3": "Cualidades Personales",
+                    "UL": [
+                        "Deseo de ganar experiencia en un proyecto real",
+                        "Alto nivel de empatía, suficiente para trabajar en un equipo internacional"
+                    ]
+                },
+                {
+                    "H3": "Trabajo con IA",
+                    "UL": [
+                        "Disposición para aprender y trabajar con herramientas de IA para la redacción de textos"
+                    ]
+                },
+                {
+                    "H3": "Responsabilidad",
+                    "UL": [
+                        "Disposición para completar las tareas que asumas",
+                        "Capacidad para trabajar de manera independiente"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
+        }
+    },
+    "CONDITIONS": [
+    "— Esta es una pasantía no remunerada de 2-3 meses, — tu trabajo no es remunerado, recibes conocimientos y experiencia laboral",
+    "— No hay horarios estrictos, puedes trabajar en cualquier momento conveniente",
+    "— Trabaja desde casa en tu propio dispositivo",
+    "— Si necesitas estar ausente del proyecto durante algunos días — está bien, pero por favor avísanos con anticipación para que tu pasantía no termine prematuramente"
+    ],
+    "FEATURES": [
+        "— Ambiente amigable e inspirador de startup",
+        "— Oportunidad única para desarrollarse y convertirse en un jugador clave en nuestro equipo",
+        "— Oportunidad para impactar en el estilo de vida saludable y el bienestar de nuestros usuarios"
+    ]
+}

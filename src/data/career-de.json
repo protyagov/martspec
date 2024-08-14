@@ -1,0 +1,288 @@
+{
+    "PAY": "Unbezahlt",
+    "FORMAT": "Praktikum, Remote-Arbeit",
+    "EXPECTATIONS_H2": "Erwartungen an Bewerber",
+    "CONDITIONS_H2": "Praktikumsbedingungen",
+    "FEATURES_H2": "Warum uns wählen:",
+    "RESPONSE_BTN": "Bewerben",
+    "POSITIONS": {
+        "DESIGNER": {
+            "TITLE": "Designer",
+            "DESC": "Beginnen Sie Ihre Reise im Webdesign mit einem Praktikum in unserem Unternehmen. Als Webdesign-Praktikant arbeiten Sie an echten Projekten und entwickeln Ihre Fähigkeiten unter der Anleitung erfahrener Fachleute. Diese Position bietet Ihnen wertvolles Wissen und praktische Erfahrung für eine erfolgreiche Karriere in der Technologiebranche. Sie werden in einem Arbeitsumfeld lernen, nützliche und benutzerfreundliche Lösungen zu schaffen. Wenn Sie neues Wissen und Fähigkeiten erwerben und eine Karriere im Webdesign starten möchten, ist diese Gelegenheit genau das Richtige für Sie.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Design",
+                    "UL": [
+                        "Erfahrung mit gängigen Grafikeditoren",
+                        "Kenntnisse der UI/UX-Designprinzipien",
+                        "Fähigkeit, visuell ansprechende und funktionale Schnittstellendesigns zu erstellen"
+                    ]
+                },
+                {
+                    "H3": "Kreativer Ansatz",
+                    "UL": [
+                        "Fähigkeit, unkonventionelle Lösungen zu finden",
+                        "Wunsch, mit neuen Ideen zu experimentieren"
+                    ]
+                },
+                {
+                    "H3": "Teamarbeit",
+                    "UL": [
+                        "Effektive Interaktion mit anderen Teammitgliedern",
+                        "Fähigkeit, die Ideen anderer anzuhören und eigene Vorschläge zu machen"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Aktive Teilnahme an Diskussionen",
+                        "Vorschlagen neuer Lösungen und Optionen"
+                    ]
+                },
+                {
+                    "H3": "Persönliche Eigenschaften",
+                    "UL": [
+                        "Wunsch, im Bereich Webdesign zu lernen und sich weiterzuentwickeln",
+                        "Hohe Selbstorganisation und Verantwortungsbewusstsein"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
+        },
+        "MOBILE_DEVELOPER": {
+            "TITLE": "IOS Engineer",
+            "DESC": "Beginnen Sie Ihre Reise in der iOS-Entwicklung mit unserem Praktikumsprogramm. Als iOS-Entwicklungspraktikant arbeiten Sie an modernen mobilen Anwendungen für Apple und entwickeln Ihre Fähigkeiten zusammen mit erfahrenen Fachleuten. Diese Position bietet Ihnen wertvolles Wissen und praktische Fähigkeiten für eine erfolgreiche Karriere in der Technologie. Sie werden in einem Arbeitsumfeld lernen, benutzerfreundliche Lösungen zu schaffen und die Funktionalität von iOS-Anwendungen zu verbessern. Wenn Sie einen Weg einschlagen möchten, der Innovation und Lernen kombiniert, ist diese Gelegenheit genau das Richtige für Sie.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Mobile Entwicklung",
+                    "UL": [
+                        "Verständnis der Grundlagen der mobilen Plattformentwicklung",
+                        "Kenntnisse in Swift und SwiftUI"
+                    ]
+                },
+                {
+                    "H3": "Arbeiten mit Werkzeugen",
+                    "UL": [
+                        "Erfahrung mit Apple Health Kit & iCloud SDK ist von Vorteil",
+                        "Fähigkeit, mit Git zu arbeiten"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Aktive Teilnahme an Diskussionen",
+                        "Vorschlagen neuer Lösungen und Ideen"
+                    ]
+                },
+                {
+                    "H3": "Teamarbeit",
+                    "UL": [
+                        "Effektive Interaktion mit Kollegen",
+                        "Bereitschaft, von erfahreneren Entwicklern zu lernen"
+                    ]
+                },
+                {
+                    "H3": "Lernbereitschaft",
+                    "UL": [
+                        "Eagern, neue Technologien und Werkzeuge zu meistern",
+                        "Engagement für kontinuierliches berufliches Wachstum"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
+        },
+        "FRONTEND": {
+            "TITLE": "Frontend-Entwickler",
+            "DESC": "Wir suchen einen leidenschaftlichen Frontend-Entwicklungspraktikanten, der bereit ist, seine Fähigkeiten zu entwickeln und Neues zu lernen. Dieses Praktikum bietet Ihnen eine einzigartige Gelegenheit, in die Welt der Webentwicklung einzutauchen, an echten Projekten zu arbeiten und wertvolle Erfahrungen zu sammeln. Wir bieten Ihnen die Chance, Teil eines professionellen Teams zu werden, in dem Sie Ihr Wissen anwenden, neue Technologien meistern und zur Schaffung innovativer Lösungen beitragen können. Wenn Sie bereit für Herausforderungen sind, schließen Sie sich uns an und machen Sie Ihre ersten Schritte im aufregenden Bereich der Frontend-Entwicklung!",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Webentwicklung",
+                    "UL": [
+                        "Verständnis der Prinzipien der Webtechnologien",
+                        "Erfahrung mit React, TypeScript und Build-Tools, insbesondere Webpack",
+                        "Fähigkeit, mit dem Git-Versionierungssystem zu arbeiten"
+                    ]
+                },
+                {
+                    "H3": "Lernbereitschaft",
+                    "UL": [
+                        "Offenheit für neue Technologien und Methoden",
+                        "Engagement für die Verbesserung von Fähigkeiten und Entwicklung in der Frontend-Entwicklung"
+                    ]
+                },
+                {
+                    "H3": "Teamarbeit",
+                    "UL": [
+                        "Bereitschaft zur Teamarbeit und Interaktion mit Kollegen",
+                        "Fähigkeit, konstruktives Feedback zu geben und zu empfangen"
+                    ]
+                },
+                {
+                    "H3": "Detailgenauigkeit",
+                    "UL": [
+                        "Sorgfalt bei der Arbeit an Benutzeroberflächen",
+                        "Fähigkeit, Fehler und Mängel zu erkennen und zu beheben"
+                    ]
+                },
+                {
+                    "H3": "Verantwortung",
+                    "UL": [
+                        "Bereitschaft, zugewiesene Aufgaben rechtzeitig zu erledigen",
+                        "Fähigkeit, selbstständig auftretende Probleme zu lösen"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
+        },
+        "QUALITY_ASSURANCE": {
+            "TITLE": "QA Engineer",
+            "DESC": "Starten Sie Ihre Karriere als QA-Praktikant und tauchen Sie in die komplexe Welt des Testens von Web- und mobilen Anwendungen für Apple ein. Dieses Praktikum dreht sich nicht nur um das Finden von Fehlern; es ist eine Lernerfahrung, die Sie mit Wissen und Fähigkeiten für eine erfolgreiche Zukunft in der Technologie ausstattet. Ihre praktische Erfahrung hier wird die Grundlage für Ihre Entwicklung zum Experten in der Branche legen. Schließen Sie sich unserem Team an und machen Sie jeden Fall zu einem Schritt auf dem Weg zu einer erfolgreichen Karriere.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Testen",
+                    "UL": [
+                        "Fähigkeit, Testfälle und Testpläne zu entwickeln, um die Funktionalität von Anwendungen zu überprüfen",
+                        "Erstellen und Pflegen von Testdokumentationen, einschließlich Testbeschreibungen und -szenarien"
+                    ]
+                },
+                {
+                    "H3": "Erstellen und Beschreiben von Tickets",
+                    "UL": [
+                        "Fähigkeiten im Erstellen von Tickets für gefundene Mängel",
+                        "Beschreiben der erwarteten Ergebnisse, tatsächlichen Ergebnisse und Schritte zur Reproduktion des Fehlers"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Vorschlagen neuer Wege und Ideen zur Verbesserung von Prozessen",
+                        "Streben nach Ergebnissen und effektiver Umgang mit Herausforderungen"
+                    ]
+                },
+                {
+                    "H3": "Teamarbeit",
+                    "UL": [
+                        "Fähigkeit, effektiv im Team zu arbeiten und mit Kollegen zu interagieren",
+                        "Kommunikationsfähigkeiten, Offenheit für Vorschläge und Bereitschaft zu konstruktiver Kommunikation"
+                    ]
+                },
+                {
+                    "H3": "Detailgenauigkeit und analytisches Denken",
+                    "UL": [
+                        "Sorgfalt bei der Arbeit mit Testdokumentationen und Testfällen",
+                        "Fähigkeit, kleine Details und Mängel zu erkennen und zu analysieren",
+                        "Analytischer Ansatz bei der Problemlösung und Fehlersuche"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
+        },
+        "BUSINESS_ANALYST": {
+            "TITLE": "Business Analyst",
+            "DESC": "Starten Sie Ihre Karriere als Analyst, indem Sie Daten nutzen, um unsere Web- und mobilen Anwendungen zu verbessern. Analysieren Sie Trends, finden Sie wichtige Informationen und unterstützen Sie bei der Entscheidungsfindung. Ihre Einblicke werden die Funktionalität und das Engagement in sozialen Netzwerken beeinflussen. Diese Rolle bietet eine hervorragende Gelegenheit, sich in der Analyse zu entwickeln und zu wachsen. Bringen Sie Ihre Fähigkeiten auf die nächste Stufe und tragen Sie zu unserem Erfolg bei!",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Marktforschung",
+                    "UL": [
+                        "Analyse von Markttrends und Bedürfnissen der Zielgruppe",
+                        "Bewertung der Wettbewerbsvorteile unseres Produkts"
+                    ]
+                },
+                {
+                    "H3": "Entwicklung einer Promotionsstrategie",
+                    "UL": [
+                        "Erstellung und Implementierung einer Promotionsstrategie über verschiedene Kommunikationskanäle hinweg, einschließlich sozialer Medien, Blogs, Partnerseiten und Medien",
+                        "Arbeiten mit verschiedenen Medien- und Kommunikationsplattformen"
+                    ]
+                },
+                {
+                    "H3": "Analyse und Anpassung",
+                    "UL": [
+                        "Analyse der Promotionsergebnisse und Messung der Effektivität der Kampagne",
+                        "Anpassung von Strategien und Plänen basierend auf Feedback"
+                    ]
+                },
+                {
+                    "H3": "Teilnahme an der Produktentwicklung",
+                    "UL": [
+                        "Aktive Teilnahme an Diskussionen und Entscheidungsfindungen zur Produktentwicklung"
+                    ]
+                },
+                {
+                    "H3": "Persönliche Qualitäten",
+                    "UL": [
+                        "Ergebnisorientiertheit und Aufmerksamkeit für Details",
+                        "Initiative und Verantwortlichkeit für Ergebnisse"
+                    ]
+                },
+                {
+                    "H3": "Kommunikationsfähigkeiten und Teamarbeit",
+                    "UL": [
+                        "Gute Kommunikationsfähigkeiten und die Fähigkeit, mit verschiedenen Menschen eine gemeinsame Basis zu finden",
+                        "Fähigkeit, effektiv im Team zu arbeiten und mit Kollegen zu interagieren"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
+        },
+        "COPYWRITER": {
+            "TITLE": "Texter",
+            "DESC": "Beginnen Sie Ihre Karriere als Texter, wo Sie ansprechende und effektive Texte für verschiedene Plattformen erstellen. Tauchen Sie ein in die Content-Erstellung, die bei unserem Publikum Anklang findet und die Marke auf höchstem Niveau unterstützt. Ihre Arbeit wird entscheidend für die Gestaltung des Unternehmensimages und die Verbesserung der Kommunikation mit Kunden sein.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Texterstellung",
+                    "UL": [
+                        "Für die Website",
+                        "Für mobile Anwendungen"
+                    ]
+                },
+                {
+                    "H3": "Assoziatives Denken",
+                    "UL": [
+                        "Kreativer Ansatz zur Ideenfindung",
+                        "Der Wunsch, zu lernen, wie man fesselnde Schlagzeilen und Texte erstellt"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Aktive Teilnahme an Diskussionen",
+                        "Vorschlagen neuer Lösungen und Optionen"
+                    ]
+                },
+                {
+                    "H3": "Persönliche Qualitäten",
+                    "UL": [
+                        "Der Wunsch, Erfahrungen in einem realen Projekt zu sammeln",
+                        "Ein hohes Maß an Empathie, ausreichend für die Arbeit in einem internationalen Team"
+                    ]
+                },
+                {
+                    "H3": "Arbeiten mit KI",
+                    "UL": [
+                        "Bereitschaft, zu lernen und mit KI-Tools zur Texterstellung zu arbeiten"
+                    ]
+                },
+                {
+                    "H3": "Verantwortung",
+                    "UL": [
+                        "Bereitschaft, die übernommenen Aufgaben zu erledigen",
+                        "Fähigkeit, unabhängig zu arbeiten"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
+        }
+    },
+    "CONDITIONS": [
+        "— Dies ist ein unbezahltes Praktikum für 2-3 Monate, — Ihre Arbeit wird nicht bezahlt, Sie erhalten Wissen und Berufserfahrung",
+        "— Es gibt keine festen Arbeitszeiten, Sie können zu jeder Ihnen angenehmen Zeit arbeiten",
+        "— Arbeiten Sie von zu Hause aus an Ihrem eigenen Gerät",
+        "— Wenn Sie für ein paar Tage vom Projekt abwesend sein müssen — das ist in Ordnung, aber bitte lassen Sie es uns im Voraus wissen, damit Ihr Praktikum nicht vorzeitig endet"
+    ],
+    "FEATURES": [
+        "— Freundliche und inspirierende Startup-Atmosphäre",
+        "— Einzigartige Gelegenheit, sich zu entwickeln und ein Schlüsselspieler in unserem Team zu werden",
+        "— Gelegenheit, das gesunde Leben und Wohlbefinden unserer Nutzer zu beeinflussen"
+    ]
+}
