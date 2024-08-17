@@ -187,6 +187,30 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/careers/qa-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -374,6 +398,30 @@
    </url>
    <url>
       <loc>https://martspec.com/en/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/en/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/careers/qa-engineer</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -567,6 +615,30 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ar/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ar/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ar/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ar/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ar/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ar/careers/qa-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/ar/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -754,6 +826,30 @@
    </url>
    <url>
       <loc>https://martspec.com/zh/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/careers/qa-engineer</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -947,6 +1043,30 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/fr/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/fr/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/fr/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/fr/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/fr/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/fr/careers/qa-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/fr/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1134,6 +1254,30 @@
    </url>
    <url>
       <loc>https://martspec.com/de/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/careers/qa-engineer</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1327,6 +1471,30 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/hi/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/hi/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/hi/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/hi/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/hi/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/hi/careers/qa-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/hi/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1514,6 +1682,30 @@
    </url>
    <url>
       <loc>https://martspec.com/ja/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/careers/qa-engineer</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1707,6 +1899,30 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/pt/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/pt/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/pt/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/pt/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/pt/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/pt/careers/qa-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/pt/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1894,6 +2110,30 @@
    </url>
    <url>
       <loc>https://martspec.com/ru/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/careers/qa-engineer</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2087,6 +2327,30 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/es/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/es/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/es/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/es/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/es/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/es/careers/qa-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/es/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -2274,6 +2538,30 @@
    </url>
    <url>
       <loc>https://martspec.com/uk/careers</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/careers/business-analyst</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/careers/copywriter</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/careers/designer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/careers/frontend-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/careers/ios-engineer</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/careers/qa-engineer</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
