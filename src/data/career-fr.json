@@ -1,0 +1,288 @@
+{
+    "PAY": "Non rémunéré",
+    "FORMAT": "Stage, télétravail",
+    "EXPECTATIONS_H2": "Attentes des candidats",
+    "CONDITIONS_H2": "Conditions du stage",
+    "FEATURES_H2": "Pourquoi nous choisir :",
+    "RESPONSE_BTN": "Postuler",
+    "POSITIONS": {
+        "DESIGNER": {
+            "TITLE": "Designer",
+            "DESC": "Commencez votre parcours en design web avec un stage dans notre entreprise. En tant que stagiaire en design web, vous travaillerez sur de vrais projets et développerez vos compétences sous la direction de professionnels expérimentés. Ce poste vous fournira des connaissances précieuses et une expérience pratique pour une carrière réussie dans l'industrie technologique. Vous apprendrez dans un environnement de travail, en créant des solutions utiles et conviviales. Si vous souhaitez acquérir de nouvelles connaissances et compétences et débuter une carrière dans le design web, cette opportunité est pour vous.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Design",
+                    "UL": [
+                        "Expérience avec les principaux éditeurs graphiques",
+                        "Connaissance des principes de conception UI/UX",
+                        "Capacité à créer des interfaces visuellement attrayantes et fonctionnelles"
+                    ]
+                },
+                {
+                    "H3": "Approche créative",
+                    "UL": [
+                        "Capacité à trouver des solutions non conventionnelles",
+                        "Désir d'expérimenter de nouvelles idées"
+                    ]
+                },
+                {
+                    "H3": "Travail d'équipe",
+                    "UL": [
+                        "Interaction efficace avec les autres membres de l'équipe",
+                        "Capacité à écouter les idées des autres et à proposer les vôtres"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Participation active aux discussions",
+                        "Proposition de nouvelles solutions et options"
+                    ]
+                },
+                {
+                    "H3": "Qualités personnelles",
+                    "UL": [
+                        "Désir d'apprendre et de se développer dans le domaine du design web",
+                        "Haut niveau d'organisation personnelle et de responsabilité"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
+        },
+        "MOBILE_DEVELOPER": {
+            "TITLE": "Ingénieur iOS",
+            "DESC": "Commencez votre parcours en développement iOS avec notre programme de stage. En tant que stagiaire en développement iOS, vous travaillerez sur des applications mobiles modernes pour Apple, développant vos compétences aux côtés de professionnels expérimentés. Ce poste vous fournira des connaissances précieuses et des compétences pratiques pour une carrière réussie dans la technologie. Vous apprendrez dans un environnement de travail, en créant des solutions conviviales et en améliorant la fonctionnalité des applications iOS. Si vous souhaitez vous lancer sur un chemin qui allie innovation et apprentissage, cette opportunité est pour vous.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Développement mobile",
+                    "UL": [
+                        "Comprendre les bases du développement de plateformes mobiles",
+                        "Connaissance de Swift et SwiftUI"
+                    ]
+                },
+                {
+                    "H3": "Travail avec des outils",
+                    "UL": [
+                        "Expérience avec Apple Health Kit & iCloud SDK est un plus",
+                        "Capacité à travailler avec Git"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Participation active aux discussions",
+                        "Proposition de nouvelles solutions et idées"
+                    ]
+                },
+                {
+                    "H3": "Travail d'équipe",
+                    "UL": [
+                        "Interaction efficace avec les collègues",
+                        "Volonté d'apprendre des développeurs plus expérimentés"
+                    ]
+                },
+                {
+                    "H3": "Désir d'apprendre",
+                    "UL": [
+                        "Envie de maîtriser de nouvelles technologies et outils",
+                        "Engagement envers une croissance professionnelle continue"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
+        },
+        "FRONTEND": {
+            "TITLE": "Développeur Frontend",
+            "DESC": "Nous recherchons un stagiaire développeur frontend passionné et prêt à développer ses compétences et à apprendre de nouvelles choses. Ce stage vous offrira une opportunité unique de vous plonger dans le monde du développement web, de travailler sur des projets réels et d'acquérir une expérience précieuse. Nous vous offrons la chance de devenir membre d'une équipe de professionnels, où vous pourrez appliquer vos connaissances, maîtriser de nouvelles technologies et contribuer à la création de solutions innovantes. Si vous êtes prêt à relever des défis, rejoignez-nous et faites vos premiers pas dans le domaine passionnant du développement frontend!",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Développement web",
+                    "UL": [
+                        "Compréhension des principes des technologies web",
+                        "Expérience avec React, TypeScript, et les outils de build, notamment Webpack",
+                        "Capacité à travailler avec le système de contrôle de version Git"
+                    ]
+                },
+                {
+                    "H3": "Désir d'apprendre",
+                    "UL": [
+                        "Ouverture aux nouvelles technologies et méthodes",
+                        "Engagement envers l'amélioration des compétences et le développement dans le développement frontend"
+                    ]
+                },
+                {
+                    "H3": "Travail d'équipe",
+                    "UL": [
+                        "Volonté de travailler en équipe et d'interagir avec les collègues",
+                        "Capacité à donner et recevoir des retours constructifs"
+                    ]
+                },
+                {
+                    "H3": "Attention aux détails",
+                    "UL": [
+                        "Précision dans le travail sur les interfaces utilisateur",
+                        "Capacité à remarquer et corriger les erreurs et les lacunes"
+                    ]
+                },
+                {
+                    "H3": "Responsabilité",
+                    "UL": [
+                        "Prêt à accomplir les tâches assignées à temps",
+                        "Capacité à résoudre indépendamment les problèmes qui se posent"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
+        },
+        "QUALITY_ASSURANCE": {
+            "TITLE": "Ingénieur QA",
+            "DESC": "Commencez votre carrière en tant que stagiaire QA, en plongeant dans le monde complexe du test d'applications web et mobiles pour Apple. Ce stage ne consiste pas seulement à trouver des bugs; c'est une expérience d'apprentissage qui vous fournira les connaissances et les compétences pour un avenir réussi dans la technologie. Votre expérience pratique ici posera les bases pour devenir un expert du secteur. Rejoignez notre équipe et transformez chaque cas en une étape vers une carrière réussie.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Tests",
+                    "UL": [
+                        "Capacité à développer des cas de test et des plans de test pour vérifier la fonctionnalité des applications",
+                        "Création et maintenance de la documentation de test, y compris les descriptions de test et les scénarios"
+                    ]
+                },
+                {
+                    "H3": "Création et description des tickets",
+                    "UL": [
+                        "Compétences dans la création de tickets pour les défauts trouvés",
+                        "Description des résultats attendus, des résultats réels et des étapes pour reproduire l'erreur"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Proposition de nouvelles méthodes et idées pour améliorer les processus",
+                        "Recherche de résultats et résolution efficace des défis"
+                    ]
+                },
+                {
+                    "H3": "Travail d'équipe",
+                    "UL": [
+                        "Capacité à travailler efficacement en équipe et à interagir avec les collègues",
+                        "Compétences en communication, ouverture aux suggestions, et prêt pour une communication constructive"
+                    ]
+                },
+                {
+                    "H3": "Attention aux détails et pensée analytique",
+                    "UL": [
+                        "Précision dans le travail avec la documentation de test et les cas de test",
+                        "Capacité à identifier et analyser les moindres détails et défauts",
+                        "Approche analytique pour résoudre les problèmes et détecter les défauts"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
+        },
+        "BUSINESS_ANALYST": {
+            "TITLE": "Analyste d'affaires",
+            "DESC": "Commencez votre carrière en tant qu'analyste, en utilisant les données pour améliorer nos applications web et mobiles. Analysez les tendances, trouvez des informations clés, et aidez à la prise de décision. Vos idées auront un impact sur la fonctionnalité et l'engagement dans les réseaux sociaux. Ce rôle offre une excellente opportunité de développement et de croissance en analyse. Élevez vos compétences au niveau supérieur et contribuez à notre succès!",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Recherche de marché",
+                    "UL": [
+                        "Analyser les tendances du marché et les besoins du public cible",
+                        "Évaluer les avantages concurrentiels de notre produit"
+                    ]
+                },
+                {
+                    "H3": "Développement de la stratégie de promotion",
+                    "UL": [
+                        "Création et mise en œuvre d'une stratégie de promotion à travers divers canaux de communication, y compris les réseaux sociaux, les blogs, les sites partenaires et les médias",
+                        "Travail avec des médias et des plateformes de communication diversifiés"
+                    ]
+                },
+                {
+                    "H3": "Analyse et ajustement",
+                    "UL": [
+                        "Analyse des résultats de la promotion et mesure de l'efficacité de la campagne",
+                        "Ajustement des stratégies et des plans en fonction des retours"
+                    ]
+                },
+                {
+                    "H3": "Participation au développement du produit",
+                    "UL": [
+                        "Participation active aux discussions et à la prise de décision pour le développement du produit"
+                    ]
+                },
+                {
+                    "H3": "Qualités personnelles",
+                    "UL": [
+                        "Orientation vers les résultats et attention aux détails",
+                        "Initiative et responsabilité pour les résultats"
+                    ]
+                },
+                {
+                    "H3": "Compétences en communication et travail d'équipe",
+                    "UL": [
+                        "Bonnes compétences en communication et capacité à trouver un terrain d'entente avec différentes personnes",
+                        "Capacité à travailler efficacement en équipe et à interagir avec les collègues"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
+        },
+        "COPYWRITER": {
+            "TITLE": "Rédacteur",
+            "DESC": "Commencez votre carrière en tant que rédacteur, où vous créerez des textes engageants et efficaces pour diverses plateformes. Plongez dans la création de contenu qui résonnera avec notre audience et soutiendra la marque au plus haut niveau. Votre travail sera essentiel pour façonner l'image de l'entreprise et améliorer la communication avec les clients.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Rédaction de textes",
+                    "UL": [
+                        "Pour le site web",
+                        "Pour les applications mobiles"
+                    ]
+                },
+                {
+                    "H3": "Pensée associative",
+                    "UL": [
+                        "Approche créative pour générer des idées",
+                        "Désir d'apprendre à créer des titres et des textes captivants"
+                    ]
+                },
+                {
+                    "H3": "Initiative",
+                    "UL": [
+                        "Participation active aux discussions",
+                        "Proposition de nouvelles solutions et options"
+                    ]
+                },
+                {
+                    "H3": "Qualités personnelles",
+                    "UL": [
+                        "Désir d'acquérir de l'expérience dans un projet réel",
+                        "Niveau élevé d'empathie, suffisant pour travailler dans une équipe internationale"
+                    ]
+                },
+                {
+                    "H3": "Travailler avec l'IA",
+                    "UL": [
+                        "Volonté d'apprendre et de travailler avec des outils d'IA pour la rédaction de textes"
+                    ]
+                },
+                {
+                    "H3": "Responsabilité",
+                    "UL": [
+                        "Volonté d'accomplir les tâches que vous entreprenez",
+                        "Capacité à travailler de manière indépendante"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
+        }
+    },
+    "CONDITIONS": [
+        "— Il s'agit d'un stage non rémunéré de 2 à 3 mois, — votre travail n'est pas payé, vous recevez des connaissances et une expérience de travail",
+        "— Il n'y a pas d'horaires stricts, vous pouvez travailler à tout moment qui vous convient",
+        "— Travail à domicile sur votre propre appareil",
+        "— Si vous devez vous absenter du projet pendant quelques jours — pas de problème, mais veuillez nous en informer à l'avance pour que votre stage ne se termine pas prématurément"
+    ],
+    "FEATURES": [
+        "— Atmosphère conviviale et inspirante de startup",
+        "— Opportunité unique de se développer et de devenir un joueur clé dans notre équipe",
+        "— Opportunité d'influencer le mode de vie sain et le bien-être de nos utilisateurs"
+    ]
+}
