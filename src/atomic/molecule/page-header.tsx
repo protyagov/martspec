@@ -42,7 +42,7 @@ export default function PageHeader(props: WithImage<PageHeaderProps> | WithoutIm
                             {subtitleLevel2 && <h6>{subtitleLevel2}</h6>}
                         </div>
 
-                        {appId && <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle} />}
+                        {appId && appDownloadTitle && <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle} />}
                     </div>
                 </div>
             </section>
