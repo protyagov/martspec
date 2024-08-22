@@ -48,8 +48,8 @@ export default function VitaminElement(props: VitaminElementProps) {
         fetchElementData();
     }, []);
 
-    const getNameWithType = (type: VitaminElement["TYPE"]) => {
-        switch (type) {
+    const getNameWithType = (data: VitaminElement) => {
+        switch (data.TYPE) {
             case "VITAMIN_FAT":
             case "VITAMIN_WATER":
                 return _("VITAMIN.CONTENT.GROUP." + data.TYPE) + " " + _("VITAMIN." + id + ".HEAD");
@@ -61,7 +61,7 @@ export default function VitaminElement(props: VitaminElementProps) {
         }
     };
 
-    const getListFromCount = (NAME: string) => {
+    const getListFromCount = (data: VitaminElement, NAME: string) => {
         return [...Array(data[NAME + "_COUNT"]).keys()].map((n) => (
             <li key={`${id}-${NAME}-${n}`}>{_(`VITAMIN.${id}.${NAME}_${n + 1}`)}</li>
         ));
@@ -103,7 +103,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                 <div className="ms-s-offset text-center">
                                     <div className="row">
                                         <div className="col">
-                                            <h1 className="pt-5">{getNameWithType(data.TYPE)}</h1>
+                                            <h1 className="pt-5">{getNameWithType(data)}</h1>
                                             <img
                                                 src={data.LOGO}
                                                 className="ms-base-image"
@@ -151,11 +151,11 @@ export default function VitaminElement(props: VitaminElementProps) {
                             <div className="row">
                                 <div className="col-md col-12 vit-def">
                                     <h3>{_("VITAMIN.CONTENT.DEF")}</h3>
-                                    <ul>{getListFromCount("DEF")}</ul>
+                                    <ul>{getListFromCount(data, "DEF")}</ul>
                                 </div>
                                 <div className="col-md col-12 vit-over">
                                     <h3>{_("VITAMIN.CONTENT.OVER")}</h3>
-                                    <ul>{getListFromCount("OVER")}</ul>
+                                    <ul>{getListFromCount(data, "OVER")}</ul>
                                 </div>
                             </div>
                         </section>
@@ -255,7 +255,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                             <div className="row">
                                 <div className="col vit-facts">
                                     <h2>{_("VITAMIN.CONTENT.FACTS")}</h2>
-                                    <ul className="p-0">{getListFromCount("FACT")}</ul>
+                                    <ul className="p-0">{getListFromCount(data, "FACT")}</ul>
                                 </div>
                             </div>
                         </section>

@@ -343,7 +343,7 @@ export default function ColorTest() {
 
     const [userSelectionCollection, setUserSelectionCollection] = React.useState<SectorModelId[]>([]);
 
-    const [testResult, setTestResult] = React.useState<TestResult>(null);
+    const [testResult, setTestResult] = React.useState<TestResult | null>(null);
 
     const [displayedResult, setDisplayedResult] = React.useState<(typeof RESULT_GROUPS)[number]>("E");
 
@@ -416,27 +416,29 @@ export default function ColorTest() {
                                         testResult[groupTitle] || testResult[all[idx - 4]] || testResult["A"];
 
                                     return (
-                                        <div
-                                            key={groupTitle}
-                                            className="col-lg-4 col-sm-6 col-12"
-                                            onClick={() => groupResultExists && setDisplayedResult(groupTitle)}
-                                        >
-                                            <div className={"block bg-gray" + (groupResultExists ? "" : " blured")}>
-                                                <h3>{_("COLOR_TEST.GROUP_TITLE_" + groupTitle)}</h3>
-                                                <div
-                                                    className="d-flex"
-                                                    style={{ "--color": "#" + result.color } as React.CSSProperties}
-                                                >
-                                                    {result.icons.map((icon, idx) => (
-                                                        <div
-                                                            key={groupTitle + "-icon-" + idx}
-                                                            className={"me-2 test-result-icon " + icon}
-                                                        ></div>
-                                                    ))}
+                                        result && (
+                                            <div
+                                                key={groupTitle}
+                                                className="col-lg-4 col-sm-6 col-12"
+                                                onClick={() => groupResultExists && setDisplayedResult(groupTitle)}
+                                            >
+                                                <div className={"block bg-gray" + (groupResultExists ? "" : " blured")}>
+                                                    <h3>{_("COLOR_TEST.GROUP_TITLE_" + groupTitle)}</h3>
+                                                    <div
+                                                        className="d-flex"
+                                                        style={{ "--color": "#" + result.color } as React.CSSProperties}
+                                                    >
+                                                        {result.icons.map((icon, idx) => (
+                                                            <div
+                                                                key={groupTitle + "-icon-" + idx}
+                                                                className={"me-2 test-result-icon " + icon}
+                                                            ></div>
+                                                        ))}
+                                                    </div>
+                                                    <p className="mt-2">{_("COLOR_TEST._" + result.lev)}</p>
                                                 </div>
-                                                <p className="mt-2">{_("COLOR_TEST._" + result.lev)}</p>
                                             </div>
-                                        </div>
+                                        )
                                     );
                                 })}
                             </div>
