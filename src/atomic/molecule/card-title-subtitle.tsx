@@ -57,7 +57,7 @@ export default function CardTitleSubtitle({
         .join(" ");
 
     const transformOrigin: CSSProperties["transformOrigin"] =
-        transform && `${alignToOrigin(alignX, "x")} ${alignToOrigin(alignY, "y")}`;
+        transform && alignX && alignY && `${alignToOrigin(alignX, "x")} ${alignToOrigin(alignY, "y")}`;
 
     return (
         <div
