@@ -1,0 +1,9 @@
+.text-link-arrow {
+    transition: all 0.3s;
+
+    @media (hover: hover) {
+        &:hover {
+            color: var(--hover-color) !important;
+        }
+    }
+}
