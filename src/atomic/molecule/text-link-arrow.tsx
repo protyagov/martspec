@@ -1,13 +1,12 @@
 import React, { ReactNode } from "react";
 
-interface IReviewLinkProps {
+interface TextLinkArrowProps {
     href: string;
-
     rightIcon: ReactNode;
     text: string | ReactNode;
 }
 
-export default function TextLinkArrow({ rightIcon, text, href }: IReviewLinkProps) {
+export default function TextLinkArrow({ rightIcon, text, href }: TextLinkArrowProps) {
     return (
         <a
             href={href}
