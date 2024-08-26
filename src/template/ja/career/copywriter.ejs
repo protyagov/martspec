@@ -45,10 +45,19 @@
                 "employmentType": "INTERNSHIP",
                 "datePosted": "2024-08-19",
                 "validThrough": "9999-12-31T23:59:59Z",
+                "applicantLocationRequirements": {
+                    "@type": "Country",
+                    "name": "Japan"
+                  },
                 "baseSalary": {
                   "@type": "MonetaryAmount",
-                  "currency": "USD",
-                  "value": 0
+                  "currency": "JPY",
+                  "value": {
+                    "@type": "QuantitativeValue",
+                    "minValue": 0,
+                    "maxValue": 130,
+                    "unitText": "HOUR"
+                    }
                 },
                 "jobLocation": {
                   "@type": "Place",
