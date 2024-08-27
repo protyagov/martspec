@@ -5,8 +5,9 @@ import { useMediaQuery, useReviewData } from "@/hooks";
 import { ReviewDesktop, ReviewMobile } from "@/atomic/molecule/review-layouts";
 import ReviewHead from "@/atomic/molecule/review-head";
 import ReviewDescription from "@/atomic/molecule/review-description";
-import ReviewLink from "@/atomic/molecule/review-link";
 import ReviewCardSlider from "@/atomic/organism/review-card-slider";
+import TextLinkArrow from "../molecule/text-link-arrow";
+import RightArrowIcon from "../atom/right-arrow-icon";
 
 import { TCountryCode } from "@/model/TCodes";
 
@@ -28,10 +29,19 @@ export default function Review({ country_code, descriptionText, headText, linkTe
 
     if (isMobile) {
         return (
+            // access to the props via useContext
             <ReviewMobile
                 head={<ReviewHead text={headText} />}
                 description={<ReviewDescription text={descriptionText} />}
-                link={<ReviewLink text={linkText} id={appId} countryCode={country_code} />}
+                link={
+                    <TextLinkArrow
+                        text={linkText}
+                        // get link via separate helper getReviewsLink helper func
+                        href={`https://apps.apple.com/${country_code}/app/id${appId}?see-all=reviews`}
+                        rightIcon={<RightArrowIcon />}
+                        isNewTab={true}
+                    />
+                }
                 slider={<ReviewCardSlider reviews={reviews} />}
             />
         );
@@ -41,7 +51,14 @@ export default function Review({ country_code, descriptionText, headText, linkTe
         <ReviewDesktop
             head={<ReviewHead text={headText} />}
             description={<ReviewDescription text={descriptionText} />}
-            link={<ReviewLink text={linkText} id={appId} countryCode={country_code} />}
+            link={
+                <TextLinkArrow
+                    text={linkText}
+                    href={`https://apps.apple.com/${country_code}/app/id${appId}?see-all=reviews`}
+                    rightIcon={<RightArrowIcon />}
+                    isNewTab={true}
+                />
+            }
             slider={<ReviewCardSlider reviews={reviews} />}
         />
     );
