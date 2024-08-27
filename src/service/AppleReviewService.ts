@@ -16,7 +16,7 @@ interface IValidateReviewData {
     arrLength: number;
 }
 interface IGetValidateReviewData {
-    linkData?: Partial<IGetLink>;
+    linkData: Partial<IGetLink>;
     arrLength: IValidateReviewData["arrLength"];
 }
 interface IFilterByRating {
@@ -39,7 +39,7 @@ interface IReviewFillerWithAppId {
 }
 
 // types for review methods
-type TGetReviewData = (props?: Partial<IGetLink>) => Promise<IReviewWithAppId>;
+type TGetReviewData = (props: Partial<IGetLink>) => Promise<IReviewWithAppId>;
 type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
 type TGetValidateReviewData = (props: IGetValidateReviewData) => Promise<IReviewFillerWithAppId>;
 type TFilterByRating = (props: IFilterByRating) => Promise<IReviewWithFiller>;
