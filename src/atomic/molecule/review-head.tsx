@@ -1,8 +1,9 @@
 import React from "react";
-import { useReviewContext } from "./review-context";
+
+import { useReviewContext } from "@/atomic/molecule/review-context";
 
 export default function ReviewHead() {
-    const { headText } = useReviewContext();
+    const { text } = useReviewContext();
 
-    return <h2>{headText}</h2>;
+    return <h2>{text.head}</h2>;
 }

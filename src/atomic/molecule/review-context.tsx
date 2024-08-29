@@ -1,10 +1,19 @@
-import { IReviewWithFiller } from "@/model/IReviewWithFiller";
 import { createContext, useContext } from "react";
+import { TCountryCode } from "@/model/TCodes";
+
+import { IReviewWithFiller } from "@/model/IReviewWithFiller";
 
 interface IReviewContent {
-    reviews: IReviewWithFiller;
-    headText: string;
-    descriptionText: string;
+    data: {
+        reviews: IReviewWithFiller;
+        country_code: TCountryCode;
+        appId: number;
+    };
+    text: {
+        head: string;
+        link: string;
+        description: string;
+    };
 }
 
 export const ReviewContext = createContext<IReviewContent | null>(null);
