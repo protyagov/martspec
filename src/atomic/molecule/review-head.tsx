@@ -1,9 +1,8 @@
 import React from "react";
+import { useReviewContext } from "./review-context";
 
-interface IReviewHeadProps {
-    text: string;
-}
+export default function ReviewHead() {
+    const { headText } = useReviewContext();
 
-export default function ReviewHead({ text }: IReviewHeadProps) {
-    return <h2>{text}</h2>;
+    return <h2>{headText}</h2>;
 }

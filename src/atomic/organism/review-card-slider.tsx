@@ -1,13 +1,11 @@
 import React from "react";
 import ReviewCard from "../molecule/review-card";
-import { IReviewWithFiller } from "@/model/IReviewWithFiller";
 import ReviewFillerCard from "../molecule/review-filler-card";
+import { useReviewContext } from "../molecule/review-context";
 
-interface IReviewProps {
-    reviews: IReviewWithFiller;
-}
+export default function ReviewCardSlider() {
+    const { reviews } = useReviewContext();
 
-export default function ReviewCardSlider({ reviews }: IReviewProps) {
     return (
         <ul className="review__list">
             {reviews.map((r) => {

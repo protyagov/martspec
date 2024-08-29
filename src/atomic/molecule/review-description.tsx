@@ -1,9 +1,8 @@
 import React from "react";
+import { useReviewContext } from "./review-context";
 
-interface IReviewDescriptionProps {
-    text: string;
-}
+export default function ReviewDescription() {
+    const { descriptionText } = useReviewContext();
 
-export default function ReviewDescription({ text }: IReviewDescriptionProps) {
-    return <p className="review__description">{text}</p>;
+    return <p className="review__description">{descriptionText}</p>;
 }

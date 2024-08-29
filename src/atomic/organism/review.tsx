@@ -10,6 +10,7 @@ import TextLinkArrow from "../molecule/text-link-arrow";
 import RightArrowIcon from "../atom/right-arrow-icon";
 
 import { TCountryCode } from "@/model/TCodes";
+import { ReviewContext } from "../molecule/review-context";
 
 interface IReviewProps {
     headText: string;
@@ -31,8 +32,8 @@ export default function Review({ country_code, descriptionText, headText, linkTe
         return (
             // access to the props via useContext
             <ReviewMobile
-                head={<ReviewHead text={headText} />}
-                description={<ReviewDescription text={descriptionText} />}
+                head={<ReviewHead />}
+                description={<ReviewDescription />}
                 link={
                     <TextLinkArrow
                         text={linkText}
@@ -42,24 +43,26 @@ export default function Review({ country_code, descriptionText, headText, linkTe
                         isNewTab={true}
                     />
                 }
-                slider={<ReviewCardSlider reviews={reviews} />}
+                slider={<ReviewCardSlider />}
             />
         );
     }
 
     return (
-        <ReviewDesktop
-            head={<ReviewHead text={headText} />}
-            description={<ReviewDescription text={descriptionText} />}
-            link={
-                <TextLinkArrow
-                    text={linkText}
-                    href={`https://apps.apple.com/${country_code}/app/id${appId}?see-all=reviews`}
-                    rightIcon={<RightArrowIcon />}
-                    isNewTab={true}
-                />
-            }
-            slider={<ReviewCardSlider reviews={reviews} />}
-        />
+        <ReviewContext.Provider value={{ reviews, headText, descriptionText }}>
+            <ReviewDesktop
+                head={<ReviewHead />}
+                description={<ReviewDescription />}
+                link={
+                    <TextLinkArrow
+                        text={linkText}
+                        href={`https://apps.apple.com/${country_code}/app/id${appId}?see-all=reviews`}
+                        rightIcon={<RightArrowIcon />}
+                        isNewTab={true}
+                    />
+                }
+                slider={<ReviewCardSlider />}
+            />
+        </ReviewContext.Provider>
     );
 }
