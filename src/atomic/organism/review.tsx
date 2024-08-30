@@ -21,6 +21,7 @@ interface IReviewProps {
 
 const LG_BOOTSTRAP = 992;
 
+// possible move to the prototype folder
 export default function Review({ country_code, descriptionText, headText, linkText }: IReviewProps) {
     const { reviews, appId } = useReviewData({ country_code });
     const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);

@@ -19,13 +19,12 @@ interface IGetValidateReviewData {
     linkData: Partial<IGetLink>;
     arrLength: IValidateReviewData["arrLength"];
 }
-interface IFilterByRating {
-    validateData: IReviewWithFiller;
-    rating: number;
+interface ISliceReview {
+    validatedData: IReviewWithFiller;
+    arrLength: number;
 }
-interface IFilterByMaxTextLength {
-    validateData: IReviewWithFiller;
-    length: number;
+interface ISortByRating {
+    validatedData: IReviewWithFiller;
 }
 
 // return data
@@ -42,26 +41,27 @@ interface IReviewFillerWithAppId {
 type TGetReviewData = (props: Partial<IGetLink>) => Promise<IReviewWithAppId>;
 type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
 type TGetValidateReviewData = (props: IGetValidateReviewData) => Promise<IReviewFillerWithAppId>;
-type TFilterByRating = (props: IFilterByRating) => Promise<IReviewWithFiller>;
-type TFilterByTextMaxLength = (props: IFilterByMaxTextLength) => Promise<IReviewWithFiller>;
+type TSliceReviews = (props: ISliceReview) => Promise<IReviewWithFiller>;
+type TSortByRating = (props: ISortByRating) => Promise<IReviewWithFiller>;
 
-// compose type into single interface
+// compose types into single interface
 interface IAppleReviewService {
     getValidateReviewData: TGetValidateReviewData;
+    sliceReviews: TSliceReviews;
+    sortByRating: TSortByRating;
 }
 
 export class AppleReviewService implements IAppleReviewService {
-    // filter reviews by text length
-    filterByMaxTextLength: TFilterByTextMaxLength = async ({ validateData, length }) =>
-        validateData.map((rev) =>
-            !("filler" in rev) && parseInt(rev["im:rating"].label) <= length ? this.#fillerObject() : rev
-        );
+    // sort validated reviews by rating
+    sortByRating: TSortByRating = async ({ validatedData: validateData }) =>
+        validateData.sort((a, b) => {
+            if ("filler" in a) return NaN;
+            if ("filler" in b) return NaN;
 
-    // filter reviews by rating
-    filterByRating: TFilterByRating = async ({ validateData, rating }) =>
-        validateData.map((rev) =>
-            !("filler" in rev) && parseInt(rev["im:rating"].label) !== rating ? this.#fillerObject() : rev
-        );
+            return parseInt(b["im:rating"].label) - parseInt(a["im:rating"].label);
+        });
+
+    sliceReviews: TSliceReviews = async ({ validatedData, arrLength }) => validatedData.slice(0, arrLength);
 
     // get validated reviews and appId
     getValidateReviewData: TGetValidateReviewData = async ({ linkData, arrLength }) => {
@@ -88,8 +88,8 @@ export class AppleReviewService implements IAppleReviewService {
             return [...reviewData, ...this.#fillerArray(arrLength - reviewData.length)];
         }
 
-        // by default, return a certain number of reviews
-        return reviewData.slice(0, arrLength);
+        // by default, return reviews
+        return reviewData;
     };
 
     // get reviews and appId
