@@ -6,7 +6,7 @@ import { IReviewWithFiller } from "@/model/IReviewWithFiller";
 interface IReviewContent {
     data: {
         reviews: IReviewWithFiller;
-        country_code: TCountryCode;
+        countryCode: TCountryCode;
         appId: number;
     };
     text: {

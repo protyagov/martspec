@@ -1,3 +1,8 @@
+export interface IDataWithAppId<D = "IReviewData"> {
+    data: D;
+    appId: number;
+}
+
 export interface IReviewData {
     feed: {
         author: IAuthor;

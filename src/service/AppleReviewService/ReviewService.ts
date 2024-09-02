@@ -1,8 +1,9 @@
 import appIds from "@/data/app-ids.json";
 
-import { IReviewData } from "@/model/IReviewData";
+import { IDataWithAppId, IReviewData } from "@/model/IReviewData";
 import { IFiller, IReviewWithFiller } from "@/model/IReviewWithFiller";
-import { getFetchReviewsLink, ILink } from "@/service/AppleReviewService/LinksService";
+import { IReviewLink } from "@/model/IReviewLink";
+import { getFetchReviewsLink } from "@/service/AppleReviewService/LinksService";
 
 // props data
 interface IValidateReviewData {
@@ -10,14 +11,8 @@ interface IValidateReviewData {
     arrLength: number;
 }
 
-// return data
-interface IReviewWithAppId {
-    data: IReviewData;
-    id: number;
-}
-
 // types for review methods
-type TGetReviewData = (props: Partial<ILink>) => Promise<IReviewWithAppId>;
+type TGetReviewData = (props: Partial<IReviewLink>) => Promise<IDataWithAppId<IReviewData>>;
 type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
 
 class ReviewService {
@@ -44,11 +39,11 @@ class ReviewService {
 
     // get reviews and appId
     getReviewData: TGetReviewData = async (linkData) => {
-        const id = linkData.id ? linkData.id : await this.#getReviewId();
-        const res = await fetch(getFetchReviewsLink({ id, ...linkData }));
+        const appId = linkData.appId ? linkData.appId : await this.#getReviewId();
+        const res = await fetch(getFetchReviewsLink({ appId, ...linkData }));
         const data: IReviewData = await res.json();
 
-        return { data, id };
+        return { data, appId };
     };
 
     // get id from url path

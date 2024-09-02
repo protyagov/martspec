@@ -16,14 +16,14 @@ interface IReviewProps {
     descriptionText: string;
     linkText: string;
 
-    country_code: TCountryCode;
+    countryCode: TCountryCode;
 }
 
 const LG_BOOTSTRAP = 992;
 
 // possible move to the prototype folder
-export default function Review({ country_code, descriptionText, headText, linkText }: IReviewProps) {
-    const { reviews, appId } = useReviewData({ country_code });
+export default function Review({ countryCode, descriptionText, headText, linkText }: IReviewProps) {
+    const { reviews, appId } = useReviewData({ countryCode });
     const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
 
     if (!reviews || !appId) return <></>;
@@ -31,7 +31,7 @@ export default function Review({ country_code, descriptionText, headText, linkTe
     return (
         <ReviewContext.Provider
             value={{
-                data: { reviews, appId, country_code },
+                data: { reviews, appId, countryCode },
                 text: { head: headText, link: linkText, description: descriptionText },
             }}
         >

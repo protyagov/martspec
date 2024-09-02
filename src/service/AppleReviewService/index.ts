@@ -1,18 +1,14 @@
 import appIds from "@/data/app-ids.json";
 
-import { IReviewData } from "@/model/IReviewData";
+import { IDataWithAppId, IReviewData } from "@/model/IReviewData";
+import { IReviewLink } from "@/model/IReviewLink";
 import { IFiller, IReviewWithFiller } from "@/model/IReviewWithFiller";
-import { ILink } from "@/service/AppleReviewService/LinksService";
 import { getReviewData, validateReviewData } from "@/service/AppleReviewService/ReviewService";
 
 // props data
-interface IValidateReviewData {
-    reviewData: IReviewData["feed"]["entry"];
-    arrLength: number;
-}
 interface IGetValidateReviewData {
-    linkData: Partial<ILink>;
-    arrLength: IValidateReviewData["arrLength"];
+    linkData: Partial<IReviewLink>;
+    arrLength: number;
 }
 interface ISliceReview {
     validatedData: IReviewWithFiller;
@@ -22,14 +18,8 @@ interface ISortByRating {
     validatedData: IReviewWithFiller;
 }
 
-// return data
-interface IData<D> {
-    data: D;
-    id: number;
-}
-
 // types for review methods
-type TGetValidateReviewData = (props: IGetValidateReviewData) => Promise<IData<IReviewWithFiller>>;
+type TGetValidateReviewData = (props: IGetValidateReviewData) => Promise<IDataWithAppId<IReviewWithFiller>>;
 type TSliceReviews = (props: ISliceReview) => Promise<IReviewWithFiller>;
 type TSortByRating = (props: ISortByRating) => Promise<IReviewWithFiller>;
 
@@ -54,9 +44,9 @@ export class AppleReviewService implements IAppleReviewService {
 
     // get validated reviews and appId
     getValidateReviewData: TGetValidateReviewData = async ({ linkData, arrLength }) => {
-        const { data, id } = await getReviewData(linkData);
+        const { data, appId } = await getReviewData(linkData);
         const validateReviews = await validateReviewData({ reviewData: data.feed.entry, arrLength });
 
-        return { data: validateReviews, id };
+        return { data: validateReviews, appId };
     };
 }

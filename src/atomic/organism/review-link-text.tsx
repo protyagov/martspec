@@ -3,6 +3,7 @@ import React from "react";
 import TextLinkArrow from "@/atomic/molecule/text-link-arrow";
 import RightArrowIcon from "@/atomic/atom/right-arrow-icon";
 import { useReviewContext } from "@/atomic/molecule/review-context";
+import { getAllReviewsLink } from "@/service/AppleReviewService/LinksService";
 
 export default function ReviewLink() {
     const { data, text } = useReviewContext();
@@ -11,7 +12,7 @@ export default function ReviewLink() {
         <TextLinkArrow
             text={text.link}
             // get link via separate helper getReviewsLink helper func
-            href={`https://apps.apple.com/${data.country_code}/app/id${data.appId}?see-all=reviews`}
+            href={getAllReviewsLink({ appId: data.appId, countryCode: data.countryCode })}
             rightIcon={<RightArrowIcon />}
             isNewTab={true}
         />
