@@ -11,7 +11,6 @@ export default function ReviewLink() {
     return (
         <TextLinkArrow
             text={text.link}
-            // get link via separate helper getReviewsLink helper func
             href={getAllReviewsLink({ appId: data.appId, countryCode: data.countryCode })}
             rightIcon={<RightArrowIcon />}
             isNewTab={true}

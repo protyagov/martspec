@@ -10,14 +10,41 @@ interface IValidateReviewData {
     reviewData: IReviewData["feed"]["entry"];
     arrLength: number;
 }
+interface ISliceReview {
+    validatedData: IReviewWithFiller;
+    arrLength: number;
+}
+interface IGetValidateReviewData {
+    linkData: Partial<IReviewLink>;
+    arrLength: number;
+}
 
-// types for review methods
+// types for service methods
 type TGetReviewData = (props: Partial<IReviewLink>) => Promise<IDataWithAppId<IReviewData>>;
 type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
+type TGetValidateReviewData = (props: IGetValidateReviewData) => Promise<IDataWithAppId<IReviewWithFiller>>;
+type TSliceReviews = (props: ISliceReview) => Promise<IReviewWithFiller>;
 
-class ReviewService {
+// compose types into single interface
+interface IReviewService {
+    getValidateReviewData: TGetValidateReviewData;
+    sliceReviews: TSliceReviews;
+}
+
+export class ReviewService implements IReviewService {
+    // get validated reviews and appId
+    getValidateReviewData: TGetValidateReviewData = async ({ linkData, arrLength }) => {
+        const { data, appId } = await this.#getReviewData(linkData);
+        const validateReviews = await this.#validateReviewData({ reviewData: data.feed.entry, arrLength });
+
+        return { data: validateReviews, appId };
+    };
+
+    // slice validate reviews by arrLength
+    sliceReviews: TSliceReviews = async ({ validatedData, arrLength }) => validatedData.slice(0, arrLength);
+
     // validation always returns an array with review or filler data
-    validateReviewData: TValidateReviewData = async ({ reviewData, arrLength }) => {
+    #validateReviewData: TValidateReviewData = async ({ reviewData, arrLength }) => {
         // if no data return fillers
         if (!reviewData) {
             return this.#fillerArray(arrLength);
@@ -38,7 +65,7 @@ class ReviewService {
     };
 
     // get reviews and appId
-    getReviewData: TGetReviewData = async (linkData) => {
+    #getReviewData: TGetReviewData = async (linkData) => {
         const appId = linkData.appId ? linkData.appId : await this.#getReviewId();
         const res = await fetch(getFetchReviewsLink({ appId, ...linkData }));
         const data: IReviewData = await res.json();
@@ -67,5 +94,3 @@ class ReviewService {
     // create an array of fillers to be used in the validateReviewData
     #fillerArray = (arrLength: number) => Array(arrLength).fill(this.#fillerObject());
 }
-
-export const { getReviewData, validateReviewData } = new ReviewService();
