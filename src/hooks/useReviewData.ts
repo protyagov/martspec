@@ -18,7 +18,7 @@ export const useReviewData = ({ country_code }: IUseReviewDataProps) => {
 
     useEffect(() => {
         getValidateReviewData({ linkData: { country_code }, arrLength: ARR_LENGTH })
-            .then((d) => (setAppId(d.id), d.reviews))
+            .then((d) => (setAppId(d.id), d.data))
             .then((r) => sortByRating({ validatedData: r }))
             .then((r) => sliceReviews({ validatedData: r, arrLength: ARR_LENGTH }))
             .then((r) => setReviews(r));
