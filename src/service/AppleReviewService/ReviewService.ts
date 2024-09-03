@@ -27,13 +27,13 @@ type TSliceReviews = (props: ISliceReview) => Promise<IReviewWithFiller>;
 
 // compose types into single interface
 interface IReviewService {
-    getValidateReviewData: TGetValidateReviewData;
+    getValidatedReviewData: TGetValidateReviewData;
     sliceReviews: TSliceReviews;
 }
 
 export class ReviewService implements IReviewService {
     // get validated reviews and appId
-    getValidateReviewData: TGetValidateReviewData = async ({ linkData, arrLength }) => {
+    getValidatedReviewData: TGetValidateReviewData = async ({ linkData, arrLength }) => {
         const { data, appId } = await this.#getReviewData(linkData);
         const validateReviews = await this.#validateReviewData({ reviewData: data.feed.entry, arrLength });
 
