@@ -8,7 +8,7 @@ interface ITestEntity {
 // test for:
 // - text len: 200
 // - range len: 10
-const testEntities: ITestEntity[] = [
+export const testEntities: ITestEntity[] = [
     // short review
     {
         name: "short review or perfect length,",
