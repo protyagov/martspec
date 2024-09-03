@@ -3,34 +3,41 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import PageHeader from "@/atomic/molecule/page-header";
+import Header from "@/atomic/organism/header";
 
 export default function Electrolyte() {
     return (
         <>
             <NavigationBar />
 
-            <div className="ms-base-page pb-5">
-                <PageHeader
+            <div className="ms-base-page ms-base-new pb-5 electrolyte">
+                <Header
                     title={_("ELECTROLYTE.HEAD")}
-                    subtitleLevel2={_("ELECTROLYTE.ABOUT")}
-                    appId={1507719251}
+                    appId={1519596234}
                     appDownloadTitle={_("ELECTROLYTE.DWN")}
-                    imgSrc="/img/page/electrolyte/electrolyte.svg"
+                    imgSrc="/img/page/electrolyte/electrolyte-header-en.webp"
                     imgAlt={_("ELECTROLYTE.IMG")}
-                    imgH={460}
-                    imgW={440}
+                    imgH={531}
+                    imgW={722}
+                    content={
+                        <ul className="header-content-list">
+                            <li>{_("ELECTROLYTE.ABOUT_1")}</li>
+                            <li>{_("ELECTROLYTE.ABOUT_2")}</li>
+                            <li>{_("ELECTROLYTE.ABOUT_3")}</li>
+                        </ul>
+                    }
                 />
 
                 <section>
                     <h4>{_("ELECTROLYTE.HEAD1")}</h4>
-                    <p className="mt-3">
-                        {_("ELECTROLYTE.DESC1")}
-                        <a href="https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional" target="_blank">
-                            <small>
-                                <i>{_("BTN.SRC1")}.</i>
-                            </small>
-                        </a>
-                    </p>
+                        <p className="mt-3">
+                            {_("ELECTROLYTE.DESC1")}
+                            <a href="https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional" target="_blank">
+                                <small>
+                                    <i>{_("BTN.SRC1")}.</i>
+                                </small>
+                            </a>
+                        </p>
                 </section>
 
                 <section>
