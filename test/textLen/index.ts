@@ -1,13 +1,23 @@
 import { ValidationService } from "@/service/AppleReviewService/ValidationService";
 import { testEntities } from "./testEntities";
 
-const { textLen } = new ValidationService();
+const { ValidateReviewMsg } = new ValidationService();
 
 (function testRun() {
     testEntities.forEach(async (e) => {
-        const validatedMsg = await textLen({ msg: e.entry, settings: {} });
+        // get validated msg
+        const END_SIGN = "...";
+        const { overflowFlag, data } = await ValidateReviewMsg({
+            msg: e.entry,
+            settings: { REQUIRED_LENGTH: 200, END_SIGN },
+        });
 
-        e.expect === validatedMsg
+        // test.expect expects a END_SIGN at the end of the string
+        // ValidateReviewMsg puts a END_SIGN as a jsx elem in data[1]
+        const msgWithOptSign = overflowFlag ? data[0] + END_SIGN : data[0];
+
+        // render test results
+        e.expect === msgWithOptSign
             ? console.log(
                   "\n",
                   "\x1b[42m%s\x1b[0m",
@@ -18,7 +28,7 @@ const { textLen } = new ValidationService();
                   "\n",
                   "\x1b[41m%s\x1b[0m",
                   `res: test "${e.name}"  FAILED\n\n`,
-                  `validatedMsg: ${validatedMsg}\n\n`,
+                  `validatedMsg: ${msgWithOptSign}\n\n`,
                   "testEntity:",
                   e,
                   "\n\n ----------------------------------"
