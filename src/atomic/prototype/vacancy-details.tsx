@@ -46,7 +46,7 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
 
             const result = await response.json();
 
-            let key: string;
+            let key: string = "";
 
             if (position === "designer") {
                 key = "DESIGNER";
@@ -61,6 +61,11 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
             } else if (position === "copywriter") {
                 key = "COPYWRITER";
             }
+
+            if (!key)
+                throw new Error(
+                    `the key var is undefined. This happened because the variable of the current position is:${position} does not match any of the predefined positions`
+                );
 
             setVacancyData(result.POSITIONS[key]);
             setData(result);

@@ -5,9 +5,9 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 
 type CallToActionProps = {
     title: string;
-    subtitle?: string;
-    appId?: number;
-    appDownloadTitle?: string;
+    subtitle: string;
+    appId: number;
+    appDownloadTitle: string;
     bgColor?: CSSProperties;
 };
 
@@ -17,10 +17,10 @@ type WithImage<Props> = Props & {
 };
 
 type WithoutImage<Props> = Props & {
-    imgSrc?: never;
+    imgSrc: never;
     imgH?: never;
     imgW?: never;
-    imgAlt?: never;
+    imgAlt: never;
 };
 interface ImageI18NModel {
     src: string; // image url. Should have postfix with .en. EX: /img/vitamin.en.512.webp

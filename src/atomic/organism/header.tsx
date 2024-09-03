@@ -6,7 +6,7 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 type HeaderProps = {
     title: string;
     appId?: number;
-    appDownloadTitle?: string;
+    appDownloadTitle: string;
     content?: React.ReactNode;
 };
 
