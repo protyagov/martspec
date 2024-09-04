@@ -10,7 +10,7 @@ export default function Electrolyte() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new pb-5 electrolyte">
+            <div className="ms-base-page ms-base-new electrolyte">
                 <Header
                     title={_("ELECTROLYTE.HEAD")}
                     appId={1519596234}
@@ -27,7 +27,9 @@ export default function Electrolyte() {
                         </ul>
                     }
                 />
+            </div>
 
+            <div className="ms-base-page">
                 <section>
                     <h4>{_("ELECTROLYTE.HEAD1")}</h4>
                         <p className="mt-3">
