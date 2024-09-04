@@ -13,7 +13,7 @@ interface ISortService {
     sortByRating: TSortByRating;
 }
 
-export class SortService implements ISortService {
+class SortService implements ISortService {
     // sort validated reviews by rating
     sortByRating: TSortByRating = async ({ validatedData }) =>
         validatedData.sort((a, b) => {
@@ -23,3 +23,5 @@ export class SortService implements ISortService {
             return parseInt(b["im:rating"].label) - parseInt(a["im:rating"].label);
         });
 }
+
+export const { sortByRating } = new SortService();

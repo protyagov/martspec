@@ -6,22 +6,21 @@ import { TCountryCode } from "@/model/TCodes";
 
 interface IUseReviewDataProps {
     countryCode: TCountryCode;
+    arrLength?: number;
 }
 
-const ARR_LENGTH = 3;
-
-export const useReviewData = ({ countryCode }: IUseReviewDataProps) => {
+export const useReviewData = ({ countryCode, arrLength = 3 }: IUseReviewDataProps) => {
     const [reviews, setReviews] = useState<IReviewWithFiller | null>(null);
     const [appId, setAppId] = useState<number | null>(null);
 
-    const { getValidatedReviewData, sliceReviews, sortByRating } = AppleReviewService;
-
     useEffect(() => {
-        getValidatedReviewData({ linkData: { countryCode }, arrLength: ARR_LENGTH })
-            .then((d) => (setAppId(d.appId), d.data))
-            .then((r) => sortByRating({ validatedData: r }))
+        AppleReviewService.getAppId()
+            .then((i) => (setAppId(i), i))
+            .then((i) => AppleReviewService.getReviewData({ appId: i, countryCode }))
+            .then((d) => AppleReviewService.validateReviewData({ reviewData: d.feed.entry, arrLength }))
+            .then((r) => AppleReviewService.sortByRating({ validatedData: r }))
             // use validate by len here to check it out
-            .then((r) => sliceReviews({ validatedData: r, arrLength: ARR_LENGTH }))
+            .then((r) => AppleReviewService.sliceReviews({ validatedData: r, arrLength }))
             .then((r) => setReviews(r));
     }, []);
 

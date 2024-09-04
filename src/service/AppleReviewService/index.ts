@@ -1,9 +1,5 @@
-import { ReviewService } from "./ReviewService";
-import { SortService } from "./SortService";
-
-// attach services
-const { getValidatedReviewData, sliceReviews } = new ReviewService();
-const { sortByRating } = new SortService();
-
 // export whole composition
-export { getValidatedReviewData, sliceReviews, sortByRating };
+export * from "@/service/AppleReviewService/ReviewService";
+export * from "@/service/AppleReviewService/LinksService";
+export * from "@/service/AppleReviewService/ValidationService";
+export * from "@/service/AppleReviewService/SortService";

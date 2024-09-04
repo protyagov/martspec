@@ -1,13 +1,11 @@
-import { ValidationService } from "@/service/AppleReviewService/ValidationService";
+import { validateReviewMsg } from "@/service/AppleReviewService";
 import { testEntities } from "./testEntities";
-
-const { ValidateReviewMsg } = new ValidationService();
 
 (function testRun() {
     testEntities.forEach(async (e) => {
         // get validated msg
         const END_SIGN = "...";
-        const { overflowFlag, data } = await ValidateReviewMsg({
+        const { overflowFlag, data } = await validateReviewMsg({
             msg: e.entry,
             settings: { REQUIRED_LENGTH: 200, END_SIGN },
         });
