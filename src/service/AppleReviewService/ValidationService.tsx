@@ -1,6 +1,6 @@
 import React from "react";
 
-import { IReviewData } from "@/model/IReviewData";
+import { IReviewData, TValidatedContentLabel } from "@/model/IReviewData";
 import { IFiller, IReviewWithFiller } from "@/model/IReviewWithFiller";
 
 // props data
@@ -19,24 +19,8 @@ interface IValidateReviewData {
     arrLength: number;
 }
 
-// union for validation returns
-interface IValidateReviewMsgReturnsBase {
-    overflowFlag: boolean;
-}
-interface IValidateReviewMsgReturnsTrue extends IValidateReviewMsgReturnsBase {
-    overflowFlag: true;
-    data: [string, React.JSX.Element];
-}
-interface IValidateReviewMsgReturnsFalse extends IValidateReviewMsgReturnsBase {
-    overflowFlag: false;
-    data: [string];
-}
-
-// returns data
-type IValidateReviewMsgReturns = IValidateReviewMsgReturnsTrue | IValidateReviewMsgReturnsFalse;
-
 // types for service methods
-type TValidateReviewMsg = (props: IValidateReviewMsgProps) => Promise<IValidateReviewMsgReturns>;
+type TValidateReviewMsg = (props: IValidateReviewMsgProps) => TValidatedContentLabel;
 type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
 
 // compose types into single interface
@@ -47,7 +31,7 @@ interface IValidationService {
 
 class ValidationService implements IValidationService {
     // text len
-    validateReviewMsg: TValidateReviewMsg = async ({ msg, settings }: IValidateReviewMsgProps) => {
+    validateReviewMsg: TValidateReviewMsg = ({ msg, settings }: IValidateReviewMsgProps) => {
         const { REQUIRED_LENGTH, END_SIGN } = settings;
         const END_ELEM = <span className="">{END_SIGN}</span>;
 

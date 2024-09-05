@@ -26,15 +26,6 @@
             justify-content: center;
         }
 
-        .review__header--link {
-            display: flex;
-            gap: 0.5rem;
-            align-items: center;
-
-            text-decoration: none;
-            color: #755AFE;
-        }
-
         .review__list {
             display: grid;
             grid-auto-flow: column;

@@ -1,10 +1,10 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import StarIcon from "@/atomic/atom/star-icon";
 
 interface IReviewCardProps {
     reviewerNickname: string;
     createdDate: string;
-    reviewText: string;
+    reviewText: ReactNode;
     rating: string;
 }
 

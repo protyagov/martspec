@@ -3,6 +3,7 @@ export interface IDataWithAppId<D = "IReviewData"> {
     appId: number;
 }
 
+// compose blocks
 export interface IReviewData {
     feed: {
         author: IAuthor;
@@ -16,6 +17,7 @@ export interface IReviewData {
     };
 }
 
+// blocks
 export interface IReview {
     author: IAuthor;
     updated: ILabel;
@@ -25,6 +27,9 @@ export interface IReview {
     title: ILabel;
     content: {
         label: ILabel["label"];
+        // UsingReviewHook guarantees that you get a validatedLabel parameter
+        // api doesnt provide it
+        validatedLabel: TValidatedContentLabel;
         attributes: {
             type: "text";
         };
@@ -39,6 +44,8 @@ export interface IReview {
     };
     "im:voteCount": ILabel;
 }
+
+export type TValidatedContentLabel = IValidateReviewMsgReturnsTrue | IValidateReviewMsgReturnsFalse;
 
 interface ILink {
     attributes: {
@@ -56,4 +63,17 @@ interface IAuthor {
 
 interface ILabel {
     label: string;
+}
+
+// unions for validation content label
+interface IValidateReviewMsgReturnsBase {
+    overflowFlag: boolean;
+}
+interface IValidateReviewMsgReturnsTrue extends IValidateReviewMsgReturnsBase {
+    overflowFlag: true;
+    data: [string, React.JSX.Element];
+}
+interface IValidateReviewMsgReturnsFalse extends IValidateReviewMsgReturnsBase {
+    overflowFlag: false;
+    data: [string];
 }
