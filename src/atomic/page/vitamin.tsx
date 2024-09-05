@@ -22,7 +22,7 @@ interface VitaminGroup {
     bgColor: React.CSSProperties["color"];
     primaryColor: React.CSSProperties["color"];
     linkColor: React.CSSProperties["color"];
-    vitaminList: string[];
+    itemList: string[];
 }
 
 const vitamins: VitaminGroup[] = [
@@ -32,7 +32,7 @@ const vitamins: VitaminGroup[] = [
         bgColor: "#fff3e9",
         primaryColor: "#c04c05",
         linkColor: "#b05905",
-        vitaminList: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
+        itemList: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
     },
     {
         groupName: "VITAMIN_WATER",
@@ -40,7 +40,7 @@ const vitamins: VitaminGroup[] = [
         bgColor: "#eaf1fd",
         primaryColor: "#0866eb",
         linkColor: "#2563c8",
-        vitaminList: [
+        itemList: [
             "VITAMIN_B1",
             "VITAMIN_B2",
             "VITAMIN_B3",
@@ -58,7 +58,7 @@ const vitamins: VitaminGroup[] = [
         bgColor: "#e5f4d9",
         primaryColor: "#307d02",
         linkColor: "#406c30",
-        vitaminList: [
+        itemList: [
             "CALCIUM",
             "CHLORIDE",
             "CHROME",
@@ -336,7 +336,7 @@ export default function Vitamin() {
                         </div>
                     </div>
 
-                    {vitamins.map(({ groupName, bgImg, bgColor, primaryColor, linkColor, vitaminList }) => (
+                    {vitamins.map(({ groupName, bgImg, bgColor, primaryColor, linkColor, itemList }) => (
                         <section key={`vitamins-group-${groupName}`} className="row mt-5 pt-4 mb-0">
                             <div className="col-12 mb-5">
                                 <h3
@@ -347,7 +347,7 @@ export default function Vitamin() {
                                 </h3>
                             </div>
                             <ul className="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 p-0 g-4">
-                                {vitaminList.map((vit) => (
+                                {itemList.map((vit) => (
                                     <li key={vit} className="col">
                                         <CardVitamin
                                             title={_(`VITAMIN.${vit}.HEAD`)}
