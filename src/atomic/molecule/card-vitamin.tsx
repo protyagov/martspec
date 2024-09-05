@@ -22,7 +22,7 @@ interface CardVitaminProps {
     bgImg: BackgroundImage;
     bgColor: CSSProperties["color"];
     primaryColor: CSSProperties["color"];
-    linkColor: CSSProperties["color"];
+    linkHoverColor: CSSProperties["color"];
 }
 
 export default function CardVitamin({
@@ -33,7 +33,7 @@ export default function CardVitamin({
     bgImg,
     bgColor,
     primaryColor,
-    linkColor,
+    linkHoverColor,
 }: CardVitaminProps): React.ReactNode {
     const subtitleColor: CSSProperties["color"] = "#151515b3";
     const descriptionColor: CSSProperties["color"] = "#15151599";
@@ -72,8 +72,8 @@ export default function CardVitamin({
                 <TextLinkArrow
                     rightIcon={<RightArrowIcon />}
                     {...actionLink}
-                    color={linkColor}
-                    hoverColor={primaryColor}
+                    color={primaryColor}
+                    hoverColor={linkHoverColor}
                 />
             </div>
             {bgImg && (

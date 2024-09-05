@@ -21,7 +21,7 @@ interface VitaminGroup {
     bgImg: VitaminCard.BackgroundImage;
     bgColor: React.CSSProperties["color"];
     primaryColor: React.CSSProperties["color"];
-    linkColor: React.CSSProperties["color"];
+    linkHoverColor: React.CSSProperties["color"];
     itemList: string[];
 }
 
@@ -30,16 +30,16 @@ const vitamins: VitaminGroup[] = [
         groupName: "VITAMIN_FAT",
         bgImg: { src: "/img/page/vitamin/vitamin-card-fat-soluble-bg.svg", width: 128, height: 92 },
         bgColor: "#fff3e9",
-        primaryColor: "#c04c05",
-        linkColor: "#b05905",
+        primaryColor: "#e95813",
+        linkHoverColor: "#ff8f32",
         itemList: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
     },
     {
         groupName: "VITAMIN_WATER",
         bgImg: { src: "/img/page/vitamin/vitamin-card-water-soluble-bg.svg", width: 124, height: 121 },
         bgColor: "#eaf1fd",
-        primaryColor: "#0866eb",
-        linkColor: "#2563c8",
+        primaryColor: "#0f75dc",
+        linkHoverColor: "#399cff",
         itemList: [
             "VITAMIN_B1",
             "VITAMIN_B2",
@@ -56,8 +56,8 @@ const vitamins: VitaminGroup[] = [
         groupName: "MINERAL",
         bgImg: { src: "/img/page/vitamin/vitamin-card-minerals-bg.svg", width: 129, height: 118 },
         bgColor: "#e5f4d9",
-        primaryColor: "#307d02",
-        linkColor: "#406c30",
+        primaryColor: "#388205",
+        linkHoverColor: "#73c631",
         itemList: [
             "CALCIUM",
             "CHLORIDE",
@@ -336,7 +336,7 @@ export default function Vitamin() {
                         </div>
                     </div>
 
-                    {vitamins.map(({ groupName, bgImg, bgColor, primaryColor, linkColor, itemList }) => (
+                    {vitamins.map(({ groupName, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
                         <section key={`vitamins-group-${groupName}`} className="row mt-5 pt-4 mb-0">
                             <div className="col-12 mb-5">
                                 <h3
@@ -359,7 +359,7 @@ export default function Vitamin() {
                                             }}
                                             bgColor={bgColor}
                                             primaryColor={primaryColor}
-                                            linkColor={linkColor}
+                                            linkHoverColor={linkHoverColor}
                                             bgImg={bgImg}
                                         />
                                     </li>
