@@ -1,0 +1,78 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/breakpoints";
+
+.card-vitamin {
+    .title {
+        font-family: os5, sans-serif;
+        font-size: 6.625rem;
+        margin-top: 2.5rem;
+    }
+
+    .title-subscript {
+        font-size: 2.25rem;
+        vertical-align: bottom;
+    }
+
+    .subtitle,
+    .card-content,
+    .description,
+    .card-action {
+        font-family: os4, sans-serif;
+    }
+
+    .subtitle {
+        font-size: 1.625rem;
+        min-height: 6.875rem;
+        max-width: 15ch;
+        word-break: keep-all;
+    }
+
+    .card-action {
+        font-size: 1.5rem;
+    }
+
+    .card-header {
+        padding: 0 2.5rem;
+    }
+
+    .card-content,
+    .card-action {
+        padding: 2.5rem;
+    }
+
+    .description {
+        font-size: 1.375rem;
+        display: -webkit-box;
+        line-clamp: 5;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    @include media-breakpoint-up(lg) {
+        .title {
+            font-size: 6.125rem;
+            margin-top: 3rem;
+        }
+
+        .title-subscript {
+            font-size: 2rem;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            min-height: 7.125rem;
+        }
+
+        .description {
+            font-size: 1.25rem;
+        }
+
+        .card-action {
+            font-size: 1.375rem;
+            padding-bottom: 3rem;
+        }
+    }
+}

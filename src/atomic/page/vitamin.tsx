@@ -14,37 +14,68 @@ import CardImage from "@/atomic/molecule/card-image";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardTitleSubtitle, { CardTitleSubtitleProps } from "@/atomic/molecule/card-title-subtitle";
+import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
 
-const vitamins = {
-    VITAMIN_FAT: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
-    VITAMIN_WATER: [
-        "VITAMIN_B1",
-        "VITAMIN_B2",
-        "VITAMIN_B3",
-        "VITAMIN_B5",
-        "VITAMIN_B6",
-        "VITAMIN_B7",
-        "VITAMIN_B9",
-        "VITAMIN_B12",
-        "VITAMIN_C",
-    ],
-    MINERAL: [
-        "CALCIUM",
-        "CHLORIDE",
-        "CHROME",
-        "COPPER",
-        "IODINE",
-        "IRON",
-        "MAGNESIUM",
-        "MANGANESE",
-        "MOLYBDENUM",
-        "PHOSPHORUS",
-        "POTASSIUM",
-        "SELENIUM",
-        "SODIUM",
-        "ZINC",
-    ],
-};
+interface VitaminGroup {
+    groupName: string;
+    bgImg: VitaminCard.BackgroundImage;
+    bgColor: React.CSSProperties["color"];
+    primaryColor: React.CSSProperties["color"];
+    linkColor: React.CSSProperties["color"];
+    itemList: string[];
+}
+
+const vitamins: VitaminGroup[] = [
+    {
+        groupName: "VITAMIN_FAT",
+        bgImg: { src: "/img/page/vitamin/vitamin-card-fat-soluble-bg.svg", width: 128, height: 92 },
+        bgColor: "#fff3e9",
+        primaryColor: "#c04c05",
+        linkColor: "#b05905",
+        itemList: ["VITAMIN_A", "VITAMIN_D", "VITAMIN_E", "VITAMIN_K"],
+    },
+    {
+        groupName: "VITAMIN_WATER",
+        bgImg: { src: "/img/page/vitamin/vitamin-card-water-soluble-bg.svg", width: 124, height: 121 },
+        bgColor: "#eaf1fd",
+        primaryColor: "#0866eb",
+        linkColor: "#2563c8",
+        itemList: [
+            "VITAMIN_B1",
+            "VITAMIN_B2",
+            "VITAMIN_B3",
+            "VITAMIN_B5",
+            "VITAMIN_B6",
+            "VITAMIN_B7",
+            "VITAMIN_B9",
+            "VITAMIN_B12",
+            "VITAMIN_C",
+        ],
+    },
+    {
+        groupName: "MINERAL",
+        bgImg: { src: "/img/page/vitamin/vitamin-card-minerals-bg.svg", width: 129, height: 118 },
+        bgColor: "#e5f4d9",
+        primaryColor: "#307d02",
+        linkColor: "#406c30",
+        itemList: [
+            "CALCIUM",
+            "CHLORIDE",
+            "CHROME",
+            "COPPER",
+            "IODINE",
+            "IRON",
+            "MAGNESIUM",
+            "MANGANESE",
+            "MOLYBDENUM",
+            "PHOSPHORUS",
+            "POTASSIUM",
+            "SELENIUM",
+            "SODIUM",
+            "ZINC",
+        ],
+    },
+];
 
 export default function Vitamin() {
     // const bgColor={background: "#1FF"}
@@ -304,19 +335,38 @@ export default function Vitamin() {
                             </div>
                         </div>
                     </div>
-                </section>
 
-                <section className="vitamins-list">
-                    <div className="row">
-                        {Object.entries(vitamins).map(([vitGroupName, vitList]) => (
-                            <div key={"vitamins-group-" + vitGroupName} className="col-12 vit-group">
-                                <div className="py-3 px-5 vit-group-name">{_("VITAMIN." + vitGroupName + ".NAME")}</div>
-                                {vitList.map((vit) => (
-                                    <VitaminItem key={vit} id={vit} />
-                                ))}
+                    {vitamins.map(({ groupName, bgImg, bgColor, primaryColor, linkColor, itemList }) => (
+                        <section key={`vitamins-group-${groupName}`} className="row mt-5 pt-4 mb-0">
+                            <div className="col-12 mb-5">
+                                <h3
+                                    className="p-4 mb-0 rounded-4"
+                                    style={{ backgroundColor: bgColor, color: "#212529" }}
+                                >
+                                    {_(`VITAMIN.${groupName}.NAME`)}
+                                </h3>
                             </div>
-                        ))}
-                    </div>
+                            <ul className="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 p-0 g-4">
+                                {itemList.map((vit) => (
+                                    <li key={vit} className="col">
+                                        <CardVitamin
+                                            title={_(`VITAMIN.${vit}.HEAD`)}
+                                            subtitle={_(`VITAMIN.${vit}.NAME`)}
+                                            description={_(`VITAMIN.${vit}.DESK`)}
+                                            actionLink={{
+                                                text: _("VITAMIN.BTN_GO"),
+                                                href: Locale.i18nLink(`vitamin/${vit.toLowerCase()}`),
+                                            }}
+                                            bgColor={bgColor}
+                                            primaryColor={primaryColor}
+                                            linkColor={linkColor}
+                                            bgImg={bgImg}
+                                        />
+                                    </li>
+                                ))}
+                            </ul>
+                        </section>
+                    ))}
                 </section>
 
                 <section>
