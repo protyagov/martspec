@@ -30,10 +30,31 @@ html {
     h1 {
         margin-top: 1rem;
         font-family: os6;
-        word-break: break-all;
+        // word-break: break-all;
         font-size: clamp(2rem, calc(1.8rem + max(1.5dvw, 1.5dvh)), 4rem);
         margin-bottom: 1rem;
         color: $ms-color-text-black;
+    }
+
+    h1 {
+        margin-top: 1rem;
+        font-family: os6;
+        font-size: clamp(2rem, calc(1.8rem + max(1.5dvw, 1.5dvh)), 4rem);
+        margin-bottom: 1rem;
+        color: $ms-color-text-black;
+    
+        // Базовые настройки
+        overflow-wrap: break-word;
+        white-space: normal;
+        hyphens: auto;
+    
+        // Настройки для японского и китайского языков
+        html[lang="ja"],  
+        html[lang="zh"] {
+            word-break: break-all;      
+            overflow-wrap: break-word; 
+            hyphens: none;             
+        }
     }
 
     h2 {

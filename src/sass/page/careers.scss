@@ -11,3 +11,18 @@
         }
     }
 }
+
+.careers h1 {
+    // Базовые настройки
+    word-break: break-word;
+    white-space: normal;
+    hyphens: auto;
+
+    // Настройки для японского и китайского языков
+    html[lang="ja"],  
+    html[lang="zh"] {
+        word-break: break-all;      
+        overflow-wrap: break-word; 
+        hyphens: none;             
+    }
+}
