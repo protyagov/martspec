@@ -8,7 +8,7 @@ interface IValidateReviewMsgData {
     originalMsg: string;
     elem: HTMLElement;
 }
-interface IValidateReviewMsgSettings {
+export interface IValidateReviewMsgSettings {
     maxLines: number;
     endElem: ReactNode;
 }
@@ -30,7 +30,7 @@ interface IValidateReviewData {
 }
 
 // types for service methods
-type TValidateReviewMsg = (props: IValidateReviewMsgProps) => TValidatedContentLabel;
+type TValidateReviewMsg = (props: IValidateReviewMsgProps) => Promise<TValidatedContentLabel>;
 type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
 type TGetTruncationIndex = (props: IGetTruncationIndex) => number;
 type TValidateTruncation = (props: IValidateTruncation) => number;
@@ -43,15 +43,13 @@ interface IValidationService {
 
 class ValidationService implements IValidationService {
     // text len
-    validateReviewMsg: TValidateReviewMsg = ({ data, settings }: IValidateReviewMsgProps) => {
+    validateReviewMsg: TValidateReviewMsg = async ({ data, settings }: IValidateReviewMsgProps) => {
         const maxHeight = this.#getMaxHeight(data.elem, settings.maxLines);
-        console.log("validated runss");
 
         // overflow check
         if (data.elem.scrollHeight > maxHeight) {
             const truncationIndex = this.#getTruncationIndex({ ...data, maxHeight });
             const validatedTruncationIndex = this.#validateTruncation({ ...data, startIndex: truncationIndex });
-            console.log({ truncationIndex, validatedTruncationIndex });
 
             return {
                 overflowFlag: true,
@@ -102,8 +100,10 @@ class ValidationService implements IValidationService {
         return validatedTruncationPoint;
     };
 
+    // get line height for an element from computed css styles
     #getLineHeight = (elem: HTMLElement): number => parseFloat(getComputedStyle(elem).lineHeight);
 
+    // get the calculated max height of the element
     #getMaxHeight = (elem: HTMLElement, maxLines: number): number => maxLines * this.#getLineHeight(elem);
 
     // validation always returns an array with review or filler data

@@ -27,9 +27,6 @@ export interface IReview {
     title: ILabel;
     content: {
         label: ILabel["label"];
-        // UsingReviewHook guarantees that you get a validatedLabel parameter
-        // api doesnt provide it
-        validatedLabel: TValidatedContentLabel;
         attributes: {
             type: "text";
         };
@@ -71,7 +68,7 @@ interface IValidateReviewMsgReturnsBase {
 }
 interface IValidateReviewMsgReturnsTrue extends IValidateReviewMsgReturnsBase {
     overflowFlag: true;
-    data: [string, React.JSX.Element];
+    data: [string, React.ReactNode];
 }
 interface IValidateReviewMsgReturnsFalse extends IValidateReviewMsgReturnsBase {
     overflowFlag: false;
