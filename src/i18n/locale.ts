@@ -1,4 +1,4 @@
-import * as Polyglot from "node-polyglot";
+import Polyglot from "node-polyglot";
 import eb from "@/event-bus";
 import { TCountryCode, TLanguageCode } from "@/model/TCodes";
 
