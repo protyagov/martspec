@@ -4,6 +4,7 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import PageHeader from "@/atomic/molecule/page-header";
 import Header from "@/atomic/organism/header";
+import CardTitleTextButton from "../molecule/card-title-text-button";
 
 export default function Electrolyte() {
     return (
@@ -28,6 +29,12 @@ export default function Electrolyte() {
                     }
                 />
             </div>
+
+            <CardTitleTextButton title={_("ELECTROLYTE.HEAD_2")}
+            textType = "p"
+            textContent={_("ELECTROLYTE.DESC2_1")}
+            buttonText={_("ELECTROLYTE.BTN_MORE")}
+            buttonLink={Locale.i18nLink(`vitamin/zinc`)} />
 
             <div className="ms-base-page">
                 <section>
