@@ -13,4 +13,19 @@
         margin-top: 1.8rem;
         margin-bottom: 1rem;
     }
-  }
+}
+    
+.vacancy-details h1 {
+    // Базовые настройки
+    word-break: break-word;
+    white-space: normal;
+    hyphens: auto;
+}
+
+// Настройки для специфичных языков
+html[lang="ja"] h1, 
+html[lang="zh"] h1 {
+    word-break: break-all;
+    overflow-wrap: anywhere;
+    hyphens: none;
+}
