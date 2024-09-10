@@ -1,0 +1,32 @@
+.card-title-text-button{
+    h2 {
+        color: #212529;
+        margin-bottom: 2rem;
+        margin-top: 0;
+        font-family: os6;
+        font-size: 2rem;
+    }
+
+    ul {
+        margin: 0;
+        padding-bottom: 0;
+        list-style-type: none;
+        padding-left: 0;
+        font-size: 1.5rem;
+        font-family: os3;
+    }
+
+    .btn-container {
+        width: fit-content;
+    }
+
+    .btn {
+        background-color: #8079CC;
+        border-radius: 700px;
+        color: #ffffff;
+        padding: 12px 39px;
+        margin-right: 10px;
+        font-size: 1.3rem;
+        font-family: os4;
+    }
+}
