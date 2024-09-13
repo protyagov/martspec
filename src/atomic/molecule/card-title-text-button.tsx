@@ -1,34 +1,37 @@
 import * as React from "react";
+import LinkStyledButton from "@/atomic/atom/link-styled-button";
 
 interface Props {
     title: string;
-    textContent: string[]; // Должен быть массив строк для списка
+    textContent: string[];  
     buttonText: string;
     buttonLink: string;
+    buttonColor?: string;  
 }
 
 const CardTitleTextButton = ({
     title,
     textContent,
     buttonText,
-    buttonLink
+    buttonLink,
+    buttonColor,
 }: Props): JSX.Element => {
     return (
         <div className="card-title-text-button">
-            <div className="">
             <h2>{title}</h2>
             <ul>
                 {textContent.map((item, index) => (
                     <li key={index} className="mb-4">{item}</li>
                 ))}
             </ul>
+
             <div className="btn-container">
-                <a href={buttonLink} className="btn">
-                    {buttonText}
-                </a>
+                <LinkStyledButton
+                    text={buttonText}  
+                    link={buttonLink}  
+                    color={buttonColor} 
+                />
             </div>
-            </div>
-            
         </div>
     );
 };
