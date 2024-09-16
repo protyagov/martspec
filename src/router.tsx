@@ -24,7 +24,7 @@ import Openness from "@/atomic/page/emotion/openness";
 import ColorTest from "@/atomic/page/emotion/color-test";
 import Careers from "@/atomic/page/careers";
 import VacancyDetails from "@/atomic/prototype/vacancy-details";
-// import ComingSoon from "@/atomic/page/coming-soon";
+import ComingSoon from "@/atomic/page/coming-soon";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -79,8 +79,8 @@ export function App() {
             return <Team />;
         case "/careers":
             return <Careers />;
-        // case "/coming-soon":
-        //     return <ComingSoon />;
+        case "/coming-soon":
+            return <ComingSoon />;
             default:
                 const [, pagePath, currentPath] = url.split("/");
     
