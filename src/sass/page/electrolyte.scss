@@ -2,5 +2,32 @@
     .header-content-list li::marker {
         color: #656AA1;
     }
-}
 
+    .title-text-link-card {
+        border-radius: 1.5rem; 
+        box-shadow: 0px 8px 24px 0px rgba(149, 157, 165, 0.2); 
+
+        a {
+            color: #8079CC; 
+
+            &:hover {
+                color: #8079CC; 
+
+                > img {
+                    filter: brightness(0.7) contrast(1.1) saturate(1.5) sepia(0.3) hue-rotate(10deg);
+                }
+
+                &::after {
+                    background-color: #8079CC; 
+                }
+            }
+
+            span {
+                font-size: medium;
+                font-family: os4;
+            }
+        }
+
+        
+    }
+}

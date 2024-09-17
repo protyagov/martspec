@@ -132,8 +132,10 @@ const Careers = () => {
                                 href: Locale.i18nLink(`careers/${id}`),
                                 text: _("CAREERS.BUTTON3"),
                             }}
+                            className="col-lg-4 col-md-6"
                             image={image}
                             alt={getAlt()}
+                            arrowImage={<img src="/img/arrow-right.svg" width={6} height={12} />}
                             />
                         ))}
                     </div>
@@ -145,3 +147,4 @@ const Careers = () => {
 };
 
 export default Careers;
+

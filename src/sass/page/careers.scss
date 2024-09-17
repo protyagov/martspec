@@ -10,6 +10,34 @@
             background: #0a58ca !important;
         }
     }
+
+    .title-text-link-card {
+        border: 1px solid #212529; 
+        box-shadow: none; 
+        border-radius: 1.5rem;
+
+        > img {
+            opacity: 0.2; 
+        }
+
+        a {
+            &:hover {
+                color: #0a58ca;
+
+                > img {
+                    filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2732%) hue-rotate(202deg) brightness(92%) contrast(106%);
+                }
+
+                &::after {
+                    width: 100%; 
+                }
+            }
+
+            &::after {
+                background-color: #0a58ca; 
+            }
+        }
+    }
 }
 
 .careers h1 {

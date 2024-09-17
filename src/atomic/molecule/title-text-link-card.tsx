@@ -8,6 +8,7 @@ interface Props {
     bgColor?: string;
     className?: string;
     alt?: string;
+    arrowImage?: React.ReactNode; 
 }
 
 interface Link {
@@ -22,18 +23,19 @@ const TitleTextLinkCard = ({
     image,
     alt,
     bgColor = "#FFFFFF",
-    className = "col-lg-4"
+    className = "col-lg-4",
+    arrowImage = null
 }: Props): JSX.Element => {
     return (
         <div className={className}>
             <div className="title-text-link-card" style={{ backgroundColor: bgColor }}>
-                <img src={image} alt={alt}/>
+                {image && <img src={image} alt={alt} />}
                 <div>
                     <h3>{title}</h3>
                     <p>{text}</p>
-                    <a href={link.href}>
+                    <a href={link.href} target="_blank" rel="noopener noreferrer">
                         <span>{link.text}</span>
-                        <img src="/img/arrow-right.svg" width={6} height={12} />
+                        {arrowImage} 
                     </a>
                 </div>
             </div>
