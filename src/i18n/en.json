@@ -26,6 +26,8 @@
         "DESC2_1": "Electrolytes play a vital role in maintaining homeostasis in the body. They help to regulate the heart and neurological function, fluid balance, oxygen delivery, acid-base balance, and much more.",
         "DESC2_2": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte.",
         "BTN_MORE": "Learn More",
+        "MINERALS_H2": "Minerals",
+        "MINERALS_P": "Learn more about the essential substances that help transmit electrical impulses throughout the body.",
         "HEAD3": "Magnesium",
         "DESC3_1": "Regulates heart rhythm, nerve function, muscle contraction, blood pressure and sugar levels, participates in making protein, bone, and DNA. Magnesium deficiency leads to loss of appetite, nausea, vomiting, fatigue, and weakness; while high levels of it might cause Hypermagnesemia.",
         "HEAD4": "Calcium",
@@ -36,7 +38,7 @@
         "DESC6_1": "A vital part of hemoglobin and myoglobin, proteins that carry oxygen to body tissues and muscles. Red blood cells contain more than half of the human body's iron.",
         "HEAD7": "Risks",
         "DESC7_1": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. In some cases, elevated electrolyte levels may indicate serious conditions. For example, high potassium levels can signal kidney failure.",
-        "BTN_OPEN": "Balance Now"
+        "BTN_LINK": "Balance Now"
     },
     "MASS": {
         "HEAD": "Body Mass",
