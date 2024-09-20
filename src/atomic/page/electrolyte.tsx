@@ -87,6 +87,7 @@ export default function Electrolyte() {
                   alt="calcium"
                   bgColor="transparent"
                   className="col-xxl-6"
+                  additionalClass="box-shadow"
                   arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19}/>}
                 />
 
@@ -101,6 +102,7 @@ export default function Electrolyte() {
                   alt="potassium"
                   bgColor="transparent"
                   className="col-xxl-6"
+                  additionalClass="box-shadow"
                   arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19}/>}
                 />
 
@@ -113,7 +115,7 @@ export default function Electrolyte() {
                   }}
                   bgColor="#F4F5F8"
                   className="col-xxl-6"
-                  arrowImage={<img className="arrow-icon" src="/img/page/electrolyte/arrow-icon.webp" width={19}/>}
+                  arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19}/>}
                 />
               </div>
             </div>

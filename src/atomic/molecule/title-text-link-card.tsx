@@ -7,6 +7,7 @@ interface Props {
     image?: string;
     bgColor?: string;
     className?: string;
+    additionalClass?: string;
     alt?: string;
     arrowImage?: React.ReactNode; 
 }
@@ -24,12 +25,13 @@ const TitleTextLinkCard = ({
     alt,
     bgColor = "#FFFFFF",
     className = "col-lg-4",
+    additionalClass = "",
     arrowImage = null
 }: Props): JSX.Element => {
     return (
         <div className={className}>
-            <div className="title-text-link-card" style={{ backgroundColor: bgColor }}>
-                {image && <img src={image} alt={alt} />}
+            <div className={`title-text-link-card ${additionalClass}`} style={{ backgroundColor: bgColor }}>
+                {image && <img className="card-image" src={image} alt={alt} />}
                 <div>
                     <h3>{title}</h3>
                     <p>{text}</p>
