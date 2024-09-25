@@ -135,6 +135,9 @@ const Careers = () => {
                             className="col-lg-4 col-md-6"
                             image={image}
                             alt={getAlt()}
+                            imageOpacity={0.3}
+                            hasShadow={false}
+                            borderClass={true}
                             arrowImage={<img src="/img/arrow-right.svg" width={6} height={12} />}
                             />
                         ))}
