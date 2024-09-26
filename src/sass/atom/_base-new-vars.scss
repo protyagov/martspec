@@ -51,12 +51,26 @@ $bodymass-colors: (
     "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
     "bg": map-get($bgs-new, "blue"),
 );
+
 $waist-colors: (
     "main": #ffb34066,
     "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
 );
+
 $bodyzinc-colors: (
     "main": #72e79633,
     "main-filter": invert(83%) sepia(27%) saturate(690%) hue-rotate(79deg) brightness(93%) contrast(96%),
+);
+
+$careers-colors: (
+    "main": #248ce1, 
+    "main-filter": brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2732%) hue-rotate(202deg) brightness(92%) contrast(106%),
+    "hover": #0a58ca,
+);
+
+$electrolyte-colors: (
+    "main": #8079CC, 
+    "main-filter": brightness(0) saturate(100%) invert(16%) sepia(59%) saturate(1209%) hue-rotate(227deg) brightness(93%) contrast(97%),
+    "hover": #6760b7, 
 );
 

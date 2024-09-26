@@ -125,20 +125,19 @@ const Careers = () => {
                         <h2>{_("CAREERS.HEAD3")}</h2>
                         {careers.map(({ id, getTitle, getText, image, getAlt }) => (
                             <TitleTextLinkCard
-                            key={id}
-                            title={getTitle()}
-                            text={getText()}
-                            link={{
-                                href: Locale.i18nLink(`careers/${id}`),
-                                text: _("CAREERS.BUTTON3"),
-                            }}
-                            className="col-lg-4 col-md-6"
-                            image={image}
-                            alt={getAlt()}
-                            imageOpacity={0.3}
-                            hasShadow={false}
-                            borderClass={true}
-                            arrowImage={<img src="/img/arrow-right.svg" width={6} height={12} />}
+                                key={id}
+                                title={getTitle()}
+                                text={getText()}
+                                link={{
+                                    href: Locale.i18nLink(`careers/${id}`),
+                                    text: _("CAREERS.BUTTON3"),
+                                }}
+                                className="col-lg-4 col-md-6"
+                                additionalClass="careers-styles"
+                                image={image}
+                                alt={getAlt()}
+                                arrowImage={<img src="/img/arrow-right.svg" width={6} height={12} />}
+                                hoverColor="#0a58ca"  
                             />
                         ))}
                     </div>

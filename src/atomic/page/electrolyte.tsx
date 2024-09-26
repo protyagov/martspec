@@ -65,63 +65,63 @@ export default function Electrolyte() {
 
               <div className="row g-4 p-0">
                 <TitleTextLinkCard
-                  title={_("ELECTROLYTE.HEAD3")}
-                  text={_("ELECTROLYTE.DESC3_1")}
-                  link={{
-                      text: _("ELECTROLYTE.BTN_LINK"), 
-                      href: "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional" 
-                  }}
-                  bgColor="#E5EEFF"
-                  className="col-xxl-6"
-                  borderClass={false} 
-                  arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19}/>}
+                    title={_("ELECTROLYTE.HEAD3")}
+                    text={_("ELECTROLYTE.DESC3_1")}
+                    link={{
+                        text: _("ELECTROLYTE.BTN_LINK"), 
+                        href: "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional" 
+                    }}
+                    className="col-xxl-6"
+                    additionalClass="electrolyte-styles"
+                    bgColor="#E5EEFF"
+                    arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                    hoverColor="#6760b7" 
                 />
 
                 <TitleTextLinkCard
-                  title={_("ELECTROLYTE.HEAD4")}
-                  text={_("ELECTROLYTE.DESC4_1")}
-                  link={{
-                      text: _("ELECTROLYTE.BTN_LINK"), 
-                      href: "https://ods.od.nih.gov/factsheets/Calcium-Consumer" 
-                  }}
-                  image="/img/page/electrolyte/calcium.webp"
-                  alt="calcium"
-                  bgColor="#fffff"
-                  className="col-xxl-6"
-                  borderClass={false}   
-                  hasShadow={true}   
-                  imageOpacity={1}
-                  arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19}/>}
+                    title={_("ELECTROLYTE.HEAD4")}
+                    text={_("ELECTROLYTE.DESC4_1")}
+                    link={{
+                        text: _("ELECTROLYTE.BTN_LINK"), 
+                        href: "https://ods.od.nih.gov/factsheets/Calcium-Consumer" 
+                    }}
+                    image="/img/page/electrolyte/calcium.webp"
+                    alt="calcium"
+                    className="col-xxl-6"
+                    additionalClass="electrolyte-styles box-shadow"
+                    bgColor="#FFF"
+                    arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                    hoverColor="#6760b7"  
                 />
 
                 <TitleTextLinkCard
-                  title={_("ELECTROLYTE.HEAD5")}
-                  text={_("ELECTROLYTE.DESC5_1")}
-                  link={{
-                      text: _("ELECTROLYTE.BTN_LINK"), 
-                      href: "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional"
-                  }}
-                  image="/img/page/electrolyte/potassium.webp"
-                  alt="potassium"
-                  bgColor="#fffff"
-                  className="col-xxl-6"
-                  hasShadow={true}   
-                  imageOpacity={1}
-                  borderClass={false} 
-                  arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19}/>}
+                    title={_("ELECTROLYTE.HEAD5")}
+                    text={_("ELECTROLYTE.DESC5_1")}
+                    link={{
+                        text: _("ELECTROLYTE.BTN_LINK"), 
+                        href: "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional"
+                    }}
+                    image="/img/page/electrolyte/potassium.webp"
+                    alt="potassium"
+                    className="col-xxl-6"
+                    additionalClass="electrolyte-styles box-shadow"
+                    bgColor="#FFF"
+                    arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                    hoverColor="#6760b7"  
                 />
 
                 <TitleTextLinkCard
-                  title={_("ELECTROLYTE.HEAD6")}
-                  text={_("ELECTROLYTE.DESC6_1")}
-                  link={{
-                      text: _("ELECTROLYTE.BTN_LINK"), 
-                      href: "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional" 
-                  }}
-                  bgColor="#F4F5F8"
-                  className="col-xxl-6"
-                  borderClass={false} 
-                  arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19}/>}
+                    title={_("ELECTROLYTE.HEAD6")}
+                    text={_("ELECTROLYTE.DESC6_1")}
+                    link={{
+                        text: _("ELECTROLYTE.BTN_LINK"), 
+                        href: "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional" 
+                    }}
+                    className="col-xxl-6"
+                    additionalClass="electrolyte-styles"
+                    bgColor="#F4F5F8"
+                    arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                    hoverColor="#6760b7"  
                 />
               </div>
             </div>
@@ -137,7 +137,6 @@ export default function Electrolyte() {
             height="512px"
           />
         </div>
-
         <Footer />
       </div>
     </>

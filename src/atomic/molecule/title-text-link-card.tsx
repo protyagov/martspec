@@ -1,63 +1,58 @@
 import * as React from "react";
+import TextLinkArrow from "./text-link-arrow";
 
 interface Props {
-    //necessary
+    // Necessary props
     title: string;
     text: string;
-    link: Link;
-    //optional
+    link: LinkProps;
+    // Optional props
     className?: string;
     additionalClass?: string;
     bgColor?: string;
-    borderClass?: boolean; 
-    hasShadow?: boolean; 
-    imageOpacity?: number; 
     image?: string;
     alt?: string;
-    arrowImage?: React.ReactNode; 
+    arrowImage?: React.ReactNode;
+    hoverColor?: string;
 }
 
-interface Link {
+interface LinkProps {
     text: string;
     href: string;
 }
 
-const TitleTextLinkCard = ({
+const TitleTextLinkCard: React.FC<Props> = ({
     title,
     text,
     link,
     className = "col-lg-4",
     additionalClass = "",
     bgColor = "#FFFFFF",
-    borderClass = false,
-    hasShadow = false,
-    imageOpacity = 1, 
     image,
-    alt,
+    alt = "Image",
     arrowImage = null,
-   
+    hoverColor=""
 }: Props): JSX.Element => {
     return (
         <div className={className}>
-            <div 
-                className={`title-text-link-card ${additionalClass} ${borderClass ? 'dark-1px-border' : ''} ${hasShadow ? 'box-shadow' : ''}`} 
-                style={{ backgroundColor: bgColor }}
-            >
+            <div className={`title-text-link-card ${additionalClass}`} style={{ backgroundColor: bgColor }}>
                 {image && (
-                    <img 
-                        className="card-image" 
-                        src={image} 
-                        alt={alt} 
-                        style={{ opacity: imageOpacity }} 
+                    <img
+                        className="card-image"
+                        src={image}
+                        alt={alt}
                     />
                 )}
                 <div>
                     <h3>{title}</h3>
                     <p>{text}</p>
-                    <a href={link.href} target="_blank" rel="noopener noreferrer">
-                        <span>{link.text}</span>
-                        {arrowImage}
-                    </a>
+                    <TextLinkArrow
+                        href={link.href}
+                        rightIcon={arrowImage}
+                        text={link.text}
+                        isNewTab={true}
+                        hoverColor={hoverColor}
+                    />
                 </div>
             </div>
         </div>

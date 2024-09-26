@@ -1,19 +1,19 @@
+@import "@/sass/atom/base-new-vars";
+
 .title-text-link-card {
     position: relative;
     height: 100%;
     padding: 2.75rem;
-    overflow: hidden;
     border-radius: 1.5rem;
-    transition: all 0.4s ease;
+    overflow: hidden;
 
     a {
-        position: relative;
         margin-top: auto;
         font-size: 1rem;
         font-weight: 600;
         text-decoration: none;
         display: inline-flex;
-        align-items: center;
+        align-items: flex-end;
         gap: 0.8333rem;
         transition: all 0.4s ease;
 
@@ -32,32 +32,84 @@
         }
 
         &:hover {
+            > img {
+                filter: brightness(0) saturate(100%) contrast(106%);
+            }
+
             &::after {
                 width: 100%;
             }
         }
     }
 
-    * {
-        z-index: 1;
-    }
-
-    .card-image {
-        object-fit: cover;
+    > img {
         position: absolute;
         height: 100%;
         width: auto;
         top: 0;
         right: 0;
-        z-index: -1;
-        transition: opacity 0.4s ease; 
+        z-index: 0;
+    }
+}
+
+.electrolyte-styles {
+    background-color: map-get($electrolyte-colors, "main");
+    border: none;
+
+    > img {
+        opacity: 1;
     }
 
-    &.dark-1px-border {
-        border: 1px solid #212529;
+    .text-link-arrow {
+        display: inline-flex !important;
     }
 
-    &.box-shadow {
-        box-shadow: 0px 8px 24px rgba(116, 122, 128, 0.2);
+    a {
+        color: map-get($electrolyte-colors, "main");
+
+        &::after {
+            background-color: map-get($electrolyte-colors, "hover");
+        }
+
+        &:hover {
+            color: map-get($electrolyte-colors, "hover");
+
+            > img {
+                filter: map-get($electrolyte-colors, "main-filter"); // Используем фильтр для страницы Электролит
+            }
+        }
+    }
+}
+
+.box-shadow {
+    box-shadow: 0px 8px 24px 0px rgba(149, 157, 165, 0.2);
+}
+
+.careers-styles {
+    background-color: #F4F5F8;
+    border: 1px solid #212529;
+
+    .text-link-arrow {
+        display: inline-flex !important;
+    }
+
+    > img {
+        opacity: 0.3;
+    }
+
+    a {
+        color: map-get($careers-colors, "main");
+
+        &::after {
+            background-color: map-get($careers-colors, "hover");
+        }
+
+        &:hover {
+            color: map-get($careers-colors, "hover");
+
+            > img {
+                filter: map-get($careers-colors, "main-filter"); // Используем фильтр для Карьеры
+            }
+        }
     }
 }
