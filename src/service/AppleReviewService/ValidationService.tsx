@@ -1,39 +1,63 @@
-import { ReactNode } from "react";
+import React, { ReactNode } from "react";
 
 import { IReviewData, TValidatedContentLabel } from "@/model/IReviewData";
 import { IFiller, IReviewWithFiller } from "@/model/IReviewWithFiller";
 
 // models
-interface IValidateReviewMsgData {
-    originalMsg: string;
-    elem: HTMLElement;
-}
-export interface IValidateReviewMsgSettings {
-    maxLines: number;
-    endElem: ReactNode;
-}
+interface IValidateData {
+    origElem: HTMLElement;
+    origMsg: string;
+    origElemStyles: CSSStyleDeclaration;
 
-// props data
-interface IValidateReviewMsgProps {
-    data: IValidateReviewMsgData;
-    settings: IValidateReviewMsgSettings;
+    tempElem: HTMLElement;
 }
-interface IGetTruncationIndex extends IValidateReviewMsgData {
+interface IValidateSettings {
+    endElem: ReactNode;
+    endElemLength: number;
+    truncationIndex: number;
+
+    rows: number;
     maxHeight: number;
 }
-interface IValidateTruncation extends IValidateReviewMsgData {
-    startIndex: number;
-}
+
+// props
 interface IValidateReviewData {
     reviewData: IReviewData["feed"]["entry"];
     arrLength: number;
 }
 
+export interface IValidateReviewMsg {
+    data: Pick<IValidateData, "origElem" | "origMsg">;
+    settings: Pick<IValidateSettings, "rows" | "endElem">;
+}
+interface ITruncateIndex {
+    data: Pick<IValidateData, "tempElem" | "origMsg">;
+    settings: Pick<IValidateSettings, "maxHeight">;
+}
+interface IValidateTruncationMsg {
+    data: Pick<IValidateData, "origMsg">;
+    settings: Pick<IValidateSettings, "truncationIndex" | "endElemLength">;
+}
+interface ICreateTempElement {
+    data: Pick<IValidateData, "origElemStyles">;
+}
+interface IGetMaxHeight {
+    data: Pick<IValidateData, "origElemStyles">;
+    settings: Pick<IValidateSettings, "rows">;
+}
+interface IGetLineHeight {
+    data: Pick<IValidateData, "origElemStyles">;
+}
+
 // types for service methods
-type TValidateReviewMsg = (props: IValidateReviewMsgProps) => Promise<TValidatedContentLabel>;
 type TValidateReviewData = (props: IValidateReviewData) => Promise<IReviewWithFiller>;
-type TGetTruncationIndex = (props: IGetTruncationIndex) => number;
-type TValidateTruncation = (props: IValidateTruncation) => number;
+
+type TValidateReviewMsg = (props: IValidateReviewMsg) => Promise<TValidatedContentLabel>;
+type TTruncateIndex = (props: ITruncateIndex) => Promise<number>;
+type TValidateTruncationMsg = (props: IValidateTruncationMsg) => Promise<string>;
+type TCreateTempElement = (props: ICreateTempElement) => HTMLElement;
+type TGetMaxHeight = (props: IGetMaxHeight) => number;
+type TGetLineHeight = (props: IGetLineHeight) => number;
 
 // compose types into single interface
 interface IValidationService {
@@ -42,42 +66,62 @@ interface IValidationService {
 }
 
 class ValidationService implements IValidationService {
-    // text len
-    validateReviewMsg: TValidateReviewMsg = async ({ data, settings }: IValidateReviewMsgProps) => {
-        const maxHeight = this.#getMaxHeight(data.elem, settings.maxLines);
+    validateReviewMsg: TValidateReviewMsg = async ({ data, settings }) => {
+        const origElemStyles = getComputedStyle(data.origElem);
+        const tempElem = this.#createTempElement({ data: { origElemStyles } });
+        const maxHeight = this.#getMaxHeight({
+            data: { origElemStyles },
+            settings,
+        });
 
-        // overflow check
-        if (data.elem.scrollHeight > maxHeight) {
-            const truncationIndex = this.#getTruncationIndex({ ...data, maxHeight });
-            const validatedTruncationIndex = this.#validateTruncation({ ...data, startIndex: truncationIndex });
+        if (data.origElem.scrollHeight > maxHeight) {
+            // append the temp element to the body
+            document.body.appendChild(tempElem);
+
+            // calc trunc index
+            const truncationIndex = await this.#truncateIndex({
+                data: { ...data, tempElem },
+                settings: { maxHeight },
+            });
+
+            // remove the temp element from the body
+            document.body.removeChild(tempElem);
+
+            // calc endElem length
+            const endElemLength = this.#getTextContent(settings.endElem).length;
+            // get validated msg
+            const validatedTruncationMsg = await this.#validateTruncationMsg({
+                data,
+                settings: { endElemLength, truncationIndex },
+            });
 
             return {
                 overflowFlag: true,
-                data: [data.originalMsg.substring(0, validatedTruncationIndex), settings.endElem],
+                content: [validatedTruncationMsg, settings.endElem],
             };
         }
 
-        return { overflowFlag: false, data: [data.originalMsg] };
-    };
-
-    // styles to hide possible pop up text on window resizing (when the trunc point is recalculated)
-    attachCssHideStyles = () => {
-        // max-height
-        // overflow: hidden
+        return { overflowFlag: false, content: [data.origMsg] };
     };
 
     // Binary search to find the optimal truncation point
-    #getTruncationIndex: TGetTruncationIndex = (data) => {
+    #truncateIndex: TTruncateIndex = async ({ data, settings }) => {
+        // Handle empty text case
+        if (!data.origMsg.length) return 0;
+
+        // initialize indexes
         let startIndex = 0;
-        let endIndex = data.originalMsg.length - 1;
+        let endIndex = data.origMsg.length - 1;
 
         while (startIndex <= endIndex) {
-            let midIndex = Math.floor((startIndex + endIndex) / 2);
-            let testText = data.originalMsg.substring(0, midIndex);
+            // calc mid index
+            const midIndex = Math.floor((startIndex + endIndex) / 2);
 
-            data.elem.innerText = testText;
+            // text assign
+            const testText = data.origMsg.substring(0, midIndex);
+            data.tempElem.textContent = testText; // Use textContent for measurement (faster then innerText)
 
-            if (data.elem.scrollHeight <= data.maxHeight) {
+            if (data.tempElem.scrollHeight <= settings.maxHeight) {
                 // Move to the upper half
                 startIndex = midIndex + 1;
             } else {
@@ -86,25 +130,78 @@ class ValidationService implements IValidationService {
             }
         }
 
-        // When the loop exits, startIndex is the first index where the text no longer fits
-        // Therefore, startIndex - 1 is the last index where the text still fits
-        return startIndex - 1;
+        // When the loop exits, endIndex is the last index where the text still fits
+        return endIndex;
     };
 
-    // search ending of the last word
-    #validateTruncation: TValidateTruncation = (data) => {
-        // Find the last space within the valid range
-        // dont forget about punct regex
-        const validatedTruncationPoint = data.originalMsg.lastIndexOf(" ", data.startIndex - 1);
+    // Validate the truncation index to find the last whitespace or punctuation mark
+    #validateTruncationMsg: TValidateTruncationMsg = async ({ data, settings }) => {
+        // If the index is 0, return origMsg (no truncation)
+        if (settings.truncationIndex === 0) return data.origMsg;
 
-        return validatedTruncationPoint;
+        // ensure that the endElem fits perfectly into the row
+        const textFitsIndex = settings.truncationIndex - settings.endElemLength;
+        // find last space
+        const validatedTruncationIndex = data.origMsg.lastIndexOf(" ", textFitsIndex);
+
+        // if no spaces (gibberish) return gibberish
+        if (validatedTruncationIndex < 0) return data.origMsg.substring(0, textFitsIndex);
+
+        // remove punctuation marks and white spaces
+        return data.origMsg
+            .substring(0, validatedTruncationIndex)
+            .replace(/\p{P}+$/gu, "")
+            .trim();
     };
 
-    // get line height for an element from computed css styles
-    #getLineHeight = (elem: HTMLElement): number => parseFloat(getComputedStyle(elem).lineHeight);
+    // Create a temporary element to measure the text height
+    #createTempElement: TCreateTempElement = ({ data }) => {
+        const tempElement = document.createElement("div");
 
-    // get the calculated max height of the element
-    #getMaxHeight = (elem: HTMLElement, maxLines: number): number => maxLines * this.#getLineHeight(elem);
+        tempElement.style.position = "absolute";
+        tempElement.style.visibility = "hidden";
+        tempElement.style.overflow = "hidden";
+        tempElement.style.display = "inline-block";
+        tempElement.style.whiteSpace = "pre-wrap";
+
+        tempElement.style.fontSize = data.origElemStyles.fontSize;
+        tempElement.style.lineHeight = data.origElemStyles.lineHeight;
+        tempElement.style.fontFamily = data.origElemStyles.fontFamily;
+        tempElement.style.padding = data.origElemStyles.padding;
+        tempElement.style.margin = data.origElemStyles.margin;
+        tempElement.style.border = data.origElemStyles.border;
+        tempElement.style.maxWidth = data.origElemStyles.width;
+        tempElement.style.maxHeight = data.origElemStyles.height;
+
+        return tempElement;
+    };
+
+    #getTextContent = (node: ReactNode): string => {
+        // If it's a string, return it directly
+        if (typeof node === "string") return node;
+        // If it's a number, convert it to string
+        if (typeof node === "number") return node.toString();
+
+        // If it's a React element, recursively get text from its children
+        if (React.isValidElement(node)) {
+            return React.Children.toArray(node.props.children)
+                .map(this.#getTextContent) // Map over children and get text content
+                .join(""); // Join the results into a single string
+        }
+
+        // For any other type, return an empty string
+        return "";
+    };
+
+    // Calculate the maximum height based on the number of rows
+    #getMaxHeight: TGetMaxHeight = ({ data, settings }) =>
+        settings.rows * this.#getLineHeight({ data: { origElemStyles: data.origElemStyles } });
+
+    // Get the line height of the text
+    #getLineHeight: TGetLineHeight = ({ data }) =>
+        parseFloat(data.origElemStyles.lineHeight) || parseFloat(data.origElemStyles.fontSize);
+
+    // -----------------------------------------
 
     // validation always returns an array with review or filler data
     validateReviewData: TValidateReviewData = async ({ reviewData, arrLength }) => {

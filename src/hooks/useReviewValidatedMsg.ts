@@ -1,19 +1,17 @@
 import { TValidatedContentLabel } from "@/model/IReviewData";
-import { IReviewWithFiller } from "@/model/IReviewWithFiller";
-import { IValidateReviewMsgSettings, validateReviewMsg } from "@/service/AppleReviewService";
+import { IValidateReviewMsg, validateReviewMsg } from "@/service/AppleReviewService";
 import { useLayoutEffect, useRef, useState } from "react";
 
 interface IUseReviewValidatedMsg {
-    originalMsg: string;
-    settings: IValidateReviewMsgSettings;
+    data: Pick<IValidateReviewMsg["data"], "origMsg">;
+    settings: IValidateReviewMsg["settings"];
 }
 
-export const useReviewValidatedMsg = ({ originalMsg, settings }: IUseReviewValidatedMsg) => {
-    // validated stuff move into hook
+export const useReviewValidatedMsg = ({ data, settings }: IUseReviewValidatedMsg) => {
     const reviewTextRef = useRef<HTMLParagraphElement>(null);
     const [validatedData, setValidatedData] = useState<TValidatedContentLabel>({
         overflowFlag: false,
-        data: [originalMsg],
+        content: [data.origMsg],
     });
 
     useLayoutEffect(() => {
@@ -21,7 +19,7 @@ export const useReviewValidatedMsg = ({ originalMsg, settings }: IUseReviewValid
 
         if (reviewTextElem) {
             validateReviewMsg({
-                data: { elem: reviewTextElem, originalMsg },
+                data: { ...data, origElem: reviewTextElem },
                 settings,
             }).then((d) => setValidatedData(d));
         }

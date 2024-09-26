@@ -68,9 +68,9 @@ interface IValidateReviewMsgReturnsBase {
 }
 interface IValidateReviewMsgReturnsTrue extends IValidateReviewMsgReturnsBase {
     overflowFlag: true;
-    data: [string, React.ReactNode];
+    content: [string, React.ReactNode];
 }
 interface IValidateReviewMsgReturnsFalse extends IValidateReviewMsgReturnsBase {
     overflowFlag: false;
-    data: [string];
+    content: [string];
 }
