@@ -396,9 +396,9 @@ export default function Vitamin() {
                 <Review
                     countryCode={Locale.countryCode}
                     languageCode={Locale.language as TLanguageCode}
-                    headText={_("VITAMIN.REVIEW.HEAD")}
-                    descriptionText={_("VITAMIN.REVIEW.DESCRIPTION")}
-                    linkText={_("VITAMIN.REVIEW.LINK")}
+                    headText={_("REVIEW.HEAD")}
+                    descriptionText={_("REVIEW.DESCRIPTION")}
+                    linkText={_("REVIEW.LINK")}
                 />
 
                 <section>
