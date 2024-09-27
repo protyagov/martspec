@@ -17,9 +17,11 @@ class SortService implements ISortService {
     // sort validated reviews by rating
     sortByRating: TSortByRating = async ({ validatedData }) =>
         validatedData.sort((a, b) => {
-            if ("filler" in a) return NaN;
-            if ("filler" in b) return NaN;
+            // if a or b is a filler, it returns 0, indicating that the order should not change for those elements
+            if ("filler" in a) return 0;
+            if ("filler" in b) return 0;
 
+            // sort reviews by ascending order
             return parseInt(b["im:rating"].label) - parseInt(a["im:rating"].label);
         });
 }
