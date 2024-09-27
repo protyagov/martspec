@@ -4,6 +4,8 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
+import Review from "../organism/review";
+import { TLanguageCode } from "@/model/TCodes";
 
 export default function BodySize() {
     return (
@@ -80,6 +82,14 @@ export default function BodySize() {
                     <h4>{_("SIZE.HEAD5")}</h4>
                     <p className="mt-3">{_("SIZE.DESC5")}</p>
                 </section>
+
+                <Review
+                    countryCode={Locale.countryCode}
+                    languageCode={Locale.language as TLanguageCode}
+                    headText={_("REVIEW.HEAD")}
+                    descriptionText={_("REVIEW.DESCRIPTION")}
+                    linkText={_("REVIEW.LINK")}
+                />
             </div>
 
             <div className="pb-5 text-center">

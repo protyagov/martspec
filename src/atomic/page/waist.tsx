@@ -8,6 +8,8 @@ import TitleTextCard from "@/atomic/molecule/title-text-card";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action";
+import Review from "../organism/review";
+import { TLanguageCode } from "@/model/TCodes";
 
 export default function WaistLine() {
     const advantages: Array<IconTitleText> = [
@@ -131,6 +133,14 @@ export default function WaistLine() {
                         </div>
                     </div>
                 </section>
+
+                <Review
+                    countryCode={Locale.countryCode}
+                    languageCode={Locale.language as TLanguageCode}
+                    headText={_("REVIEW.HEAD")}
+                    descriptionText={_("REVIEW.DESCRIPTION")}
+                    linkText={_("REVIEW.LINK")}
+                />
 
                 <section>
                     <div className="row">

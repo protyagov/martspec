@@ -8,6 +8,8 @@ import TitleTextCard from "@/atomic/molecule/title-text-card";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action";
+import Review from "../organism/review";
+import { TLanguageCode } from "@/model/TCodes";
 
 export default function BodyZinc() {
     const iconTitleTextListItems: Array<IconTitleText> = [
@@ -120,6 +122,14 @@ export default function BodyZinc() {
                         </div>
                     </div>
                 </section>
+
+                <Review
+                    countryCode={Locale.countryCode}
+                    languageCode={Locale.language as TLanguageCode}
+                    headText={_("REVIEW.HEAD")}
+                    descriptionText={_("REVIEW.DESCRIPTION")}
+                    linkText={_("REVIEW.LINK")}
+                />
 
                 <section>
                     <div className="row">
