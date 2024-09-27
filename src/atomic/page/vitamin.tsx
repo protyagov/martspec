@@ -15,6 +15,7 @@ import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardTitleSubtitle, { CardTitleSubtitleProps } from "@/atomic/molecule/card-title-subtitle";
 import Review from "@/atomic/organism/review";
+import { TLanguageCode } from "@/model/TCodes";
 import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
 import Accordion, * as VitaminAccordion from "@/atomic/molecule/accordion";
 
@@ -394,6 +395,7 @@ export default function Vitamin() {
 
                 <Review
                     countryCode={Locale.countryCode}
+                    languageCode={Locale.language as TLanguageCode}
                     headText={_("VITAMIN.REVIEW.HEAD")}
                     descriptionText={_("VITAMIN.REVIEW.DESCRIPTION")}
                     linkText={_("VITAMIN.REVIEW.LINK")}
