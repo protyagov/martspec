@@ -1,7 +1,6 @@
  .review {
         display: grid;
-        gap: 2rem;
-
+        gap: 1.54rem;
 
         h3, h2 {
             margin: 0 !important;
@@ -21,6 +20,7 @@
             }
         }
 
+        // wrapper for the link appears only on in the mobile view
         .review__link-wrapper {
             display: flex;
             justify-content: center;
@@ -30,19 +30,21 @@
             display: grid;
             grid-auto-flow: column;
             grid-auto-columns: 1fr;
-            gap: 2rem;
+            gap: 3rem;
+
+            padding: 0;
         }
 
         .review-card {
             display: flex;
             flex-direction: column;
-            gap: 1.7rem;
+            gap: 1.93rem;
 
-            border: 1px solid #F4F5F8;
-            border-radius: 30px;
-            box-shadow: 0px 22px 26.5px 0px #959DA51A;
+            border: 0.1rem solid #F4F5F8;
+            border-radius: 2.31rem;
+            box-shadow: 0rem 1.84rem 2.21rem 0rem #959DA51A;
 
-            padding: 2.7rem;
+            padding: 3.1rem;
 
             & > * {
                 color: #151515;
