@@ -1,14 +1,18 @@
 import { TValidatedContentLabel } from "@/model/IReviewData";
 import { IValidateReviewMsg, validateReviewMsg } from "@/service/AppleReviewService";
 import { useLayoutEffect, useRef, useState } from "react";
+import { useWindowSize } from "@/hooks/useWindowSize";
 
 interface IUseReviewValidatedMsg {
     data: Pick<IValidateReviewMsg["data"], "origMsg">;
-    settings: IValidateReviewMsg["settings"];
+    settings: IValidateReviewMsg["settings"] & {
+        resizeDelay?: number;
+    };
 }
 
 export const useReviewValidatedMsg = ({ data, settings }: IUseReviewValidatedMsg) => {
     const reviewTextRef = useRef<HTMLParagraphElement>(null);
+    const resizeFlag = useWindowSize(settings.resizeDelay);
     const [validatedData, setValidatedData] = useState<TValidatedContentLabel>({
         overflowFlag: false,
         content: [data.origMsg],
@@ -23,7 +27,7 @@ export const useReviewValidatedMsg = ({ data, settings }: IUseReviewValidatedMsg
                 settings,
             }).then((d) => setValidatedData(d));
         }
-    }, []);
+    }, [resizeFlag]);
 
     return { validatedData, reviewTextRef };
 };

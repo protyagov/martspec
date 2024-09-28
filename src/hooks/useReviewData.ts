@@ -23,7 +23,7 @@ export const useReviewData = ({ languageCode = "en", countryCode = "us", arrLeng
             .then((r) => AppleReviewService.sliceReviews({ validatedData: r, arrLength }))
             .then((r) => AppleReviewService.sortByLang({ validatedData: r, lang: languageCode }))
             .then((r) => setReviews(r));
-    }, []);
+    }, [arrLength]);
 
     return { reviews, appId };
 };

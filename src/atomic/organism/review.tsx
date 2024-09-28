@@ -21,11 +21,13 @@ interface IReviewProps {
 }
 
 const LG_BOOTSTRAP = 992;
+const XXL_BOOTSTRAP = 1400;
 
 // possible move to the prototype folder
 export default function Review({ countryCode, languageCode, descriptionText, headText, linkText }: IReviewProps) {
-    const { reviews, appId } = useReviewData({ countryCode, languageCode });
     const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
+    const isTablet = useMediaQuery(`(max-width: ${XXL_BOOTSTRAP}px)`);
+    const { reviews, appId } = useReviewData({ countryCode, languageCode, arrLength: isMobile ? 1 : isTablet ? 2 : 3 });
 
     if (!reviews || !appId) return <></>;
 

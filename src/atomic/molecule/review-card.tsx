@@ -14,7 +14,7 @@ const formatDate = (date: string) => new Date(date).toLocaleDateString("ru-RU");
 export default function ReviewCard({ reviewerNickname, createdDate, reviewText, rating }: IReviewCardProps) {
     const { reviewTextRef, validatedData } = useReviewValidatedMsg({
         data: { origMsg: reviewText },
-        settings: { rows: 8, endElem: <span key={reviewText}>...</span> },
+        settings: { rows: 8, resizeDelay: 100, endElem: <span key={reviewText}>...</span> },
     });
 
     return (

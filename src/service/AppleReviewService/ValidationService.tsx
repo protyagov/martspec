@@ -74,7 +74,19 @@ class ValidationService implements IValidationService {
             settings,
         });
 
-        if (data.origElem.scrollHeight > maxHeight) {
+        // check for size overflow,
+        // - this check is needed for the first render when the initial sizes are large
+        const sizeOverflowFlag = data.origElem.scrollHeight > maxHeight;
+        // check if the element has already been checked as overflowed
+        // - this check is necessary when resizing the window when the element is already cropped
+        // - and therefore its size is small and cannot be checked via sizeOverflow
+        const overflowElemFlag = data.origElem.dataset.overflowFlag === "true";
+
+        // overflow check
+        if (overflowElemFlag || sizeOverflowFlag) {
+            // set overflow state
+            data.origElem.dataset.overflowFlag = "true";
+
             // append the temp element to the body
             document.body.appendChild(tempElem);
 
@@ -100,6 +112,9 @@ class ValidationService implements IValidationService {
                 content: [validatedTruncationMsg, settings.endElem],
             };
         }
+
+        // set overflow state
+        data.origElem.dataset.overflowFlag = "false";
 
         return { overflowFlag: false, content: [data.origMsg] };
     };
