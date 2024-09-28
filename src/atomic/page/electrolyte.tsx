@@ -89,18 +89,20 @@ export default function Electrolyte() {
                     </section>
                 </div>
 
-                <div className="ms-base-page">
+                <div className="ms-base-page ms-base-new">
                     {electrolyteSections.map((section, index) => (
                         <section key={index}>
-                            <h4 style={section.headingStyle}>{section.heading()}</h4>
-                            <p className="mt-3">
-                                {section.description()}
-                                <a href={section.link} target="_blank" rel="noopener noreferrer">
-                                    <small>
-                                        <i>{section.linkText()}</i>
-                                    </small>
-                                </a>
-                            </p>
+                            <div className="ms-s-offset">
+                                <h4 style={section.headingStyle}>{section.heading()}</h4>
+                                <p className="mt-3">
+                                    {section.description()}
+                                    <a href={section.link} target="_blank" rel="noopener noreferrer">
+                                        <small>
+                                            <i>{section.linkText()}</i>
+                                        </small>
+                                    </a>
+                                </p>
+                            </div>
                         </section>
                     ))}
 
