@@ -88,7 +88,7 @@ export default function BodySize() {
                     languageCode={Locale.language as TLanguageCode}
                     headText={_("REVIEW.HEAD")}
                     descriptionText={_("REVIEW.DESCRIPTION")}
-                    linkText={_("REVIEW.LINKS.VIEW_ALL")}
+                    linkText={_("REVIEW.LINK_ALL_REVIEWS")}
                 />
             </div>
 

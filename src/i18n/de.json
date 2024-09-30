@@ -14,9 +14,7 @@
     "REVIEW": {
         "HEAD": "Es wurde schon über uns gesagt",
         "DESCRIPTION": "Wir schätzen Ihre Meinung zu unserem Produkt und reagieren immer auf Kommentare. Weitere Bewertungen finden Sie auf unserer App-Seite im App Store",
-        "LINKS": {
-            "VIEW_ALL": "Mehr Bewertungen lesen"
-        }
+        "LINK_ALL_REVIEWS": "Mehr Bewertungen lesen"
     },
     "NAV": {
         "APPS": "Anwendungen",

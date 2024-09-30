@@ -14,9 +14,7 @@
     "REVIEW": {
         "HEAD": "砐竷謺 桏譔桏譔",
         "DESCRIPTION": "我们重视您对我们产品的意见，并随时回复评论。更多评论请访问 App Store 的应用程序页面",
-        "LINKS": {
-            "VIEW_ALL": "阅读更多评论"
-        }
+        "LINK_ALL_REVIEWS": "阅读更多评论"
     },
     "NAV": {
         "APPS": "应用",
