@@ -9,32 +9,36 @@ interface IReviewProps {
 
 export function ReviewDesktop({ head, description, link, slider }: IReviewProps) {
     return (
-        <section>
-            <div className="ms-s-offset review">
-                <div className="review__header">
-                    {head}
+        <ReviewBase>
+            <header className="review__header">
+                {head}
 
-                    {link}
-                </div>
+                {link}
+            </header>
 
-                {description}
-                {slider}
-            </div>
-        </section>
+            {description}
+            {slider}
+        </ReviewBase>
     );
 }
 
 export function ReviewMobile({ head, description, link, slider }: IReviewProps) {
     return (
+        <ReviewBase>
+            <header className="review__header">{head}</header>
+
+            {description}
+            {slider}
+
+            <footer className="review__link-wrapper pt-4">{link}</footer>
+        </ReviewBase>
+    );
+}
+
+function ReviewBase({ children }: { children: ReactNode }) {
+    return (
         <section>
-            <div className="ms-s-offset review">
-                <div className="review__header">{head}</div>
-
-                {description}
-                {slider}
-
-                <div className="review__link-wrapper">{link}</div>
-            </div>
+            <div className="row review py-5">{children}</div>
         </section>
     );
 }

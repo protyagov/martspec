@@ -22,6 +22,8 @@
 
         // wrapper for the link appears only on in the mobile view
         .review__link-wrapper {
+            background: none;
+
             display: flex;
             justify-content: center;
         }
