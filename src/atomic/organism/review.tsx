@@ -7,7 +7,7 @@ import { ReviewDesktop, ReviewMobile } from "@/atomic/molecule/review-layouts";
 import ReviewHead from "@/atomic/molecule/review-head";
 import ReviewDescription from "@/atomic/molecule/review-description";
 import ReviewCardSlider from "@/atomic/organism/review-card-slider";
-import ReviewLink from "@/atomic/organism/review-link-text";
+import { AllReviewsLink } from "@/atomic/organism/review-link";
 
 import { TCountryCode, TLanguageCode } from "@/model/TCodes";
 
@@ -42,14 +42,14 @@ export default function Review({ countryCode, languageCode, descriptionText, hea
                 <ReviewMobile
                     head={<ReviewHead />}
                     description={<ReviewDescription />}
-                    link={<ReviewLink />}
+                    link={<AllReviewsLink />}
                     slider={<ReviewCardSlider />}
                 />
             ) : (
                 <ReviewDesktop
                     head={<ReviewHead />}
                     description={<ReviewDescription />}
-                    link={<ReviewLink />}
+                    link={<AllReviewsLink />}
                     slider={<ReviewCardSlider />}
                 />
             )}
