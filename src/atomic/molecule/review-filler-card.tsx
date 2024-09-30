@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 
 export default function ReviewFillerCard({ link }: { link: ReactNode }) {
     return (
-        <li>
+        <li className="review-card filler-card">
             <h3>Тут может быть ваш отзыв</h3>
             {link}
         </li>
