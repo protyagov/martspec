@@ -6,13 +6,13 @@ import { useReviewContext } from "@/atomic/molecule/review-context";
 import { SendReviewsLink } from "@/atomic/organism/review-link";
 
 export default function ReviewCardSlider() {
-    const { data } = useReviewContext();
+    const { data, text } = useReviewContext();
 
     return (
         <ul className="review__list">
-            {data.reviews.map((r) => {
+            {data.reviews.map((r, i) => {
                 if ("filler" in r) {
-                    return <ReviewFillerCard link={<SendReviewsLink />} />;
+                    return <ReviewFillerCard link={<SendReviewsLink />} posIndex={i} key={text.fillerCard.head[i]} />;
                 }
 
                 return (

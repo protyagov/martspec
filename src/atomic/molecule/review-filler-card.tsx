@@ -1,9 +1,17 @@
 import React, { ReactNode } from "react";
+import { useReviewContext } from "./review-context";
 
-export default function ReviewFillerCard({ link }: { link: ReactNode }) {
+interface IReviewFillerCard {
+    link: ReactNode;
+    posIndex: number;
+}
+
+export default function ReviewFillerCard({ link, posIndex }: IReviewFillerCard) {
+    const { text } = useReviewContext();
+
     return (
         <li className="review-card filler-card">
-            <h3>Тут может быть ваш отзыв</h3>
+            <h3>{text.fillerCard.head[posIndex]}</h3>
             {link}
         </li>
     );
