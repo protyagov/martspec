@@ -3,20 +3,26 @@ import { TCountryCode } from "@/model/TCodes";
 
 import { IReviewWithFiller } from "@/model/IReviewWithFiller";
 
-interface IReviewContent {
-    data: {
-        reviews: IReviewWithFiller;
-        countryCode: TCountryCode;
-        appId: number;
-    };
-    text: {
-        head: string;
-        link: string;
-        description: string;
+export interface IReviewContextText {
+    head: string;
+    link: string;
+    description: string;
+    fillerCard: {
+        head: [string, string, string];
     };
 }
+interface IReviewContextData {
+    reviews: IReviewWithFiller;
+    countryCode: TCountryCode;
+    appId: number;
+}
 
-export const ReviewContext = createContext<IReviewContent | null>(null);
+interface IReviewContext {
+    data: IReviewContextData;
+    text: IReviewContextText;
+}
+
+export const ReviewContext = createContext<IReviewContext | null>(null);
 
 export function useReviewContext() {
     const context = useContext(ReviewContext);

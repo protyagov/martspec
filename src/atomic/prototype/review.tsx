@@ -2,7 +2,7 @@ import React from "react";
 
 import { useMediaQuery, useReviewData } from "@/hooks";
 
-import { ReviewContext } from "@/atomic/molecule/review-context";
+import { IReviewContextText, ReviewContext } from "@/atomic/molecule/review-context";
 import { ReviewDesktop, ReviewMobile } from "@/atomic/molecule/review-layouts";
 import ReviewHead from "@/atomic/molecule/review-head";
 import ReviewDescription from "@/atomic/molecule/review-description";
@@ -11,30 +11,33 @@ import { AllReviewsLink } from "@/atomic/organism/review-link";
 
 import { TCountryCode, TLanguageCode } from "@/model/TCodes";
 
-interface IReviewProps {
-    headText: string;
-    descriptionText: string;
-    linkText: string;
-
-    countryCode: TCountryCode;
-    languageCode: TLanguageCode;
+interface IReview {
+    text: IReviewContextText;
+    codes: {
+        countryCode: TCountryCode;
+        languageCode: TLanguageCode;
+    };
 }
 
 const LG_BOOTSTRAP = 992;
 const XXL_BOOTSTRAP = 1400;
 
-export default function Review({ countryCode, languageCode, descriptionText, headText, linkText }: IReviewProps) {
+export default function Review({ text, codes }: IReview) {
     const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
     const isTablet = useMediaQuery(`(max-width: ${XXL_BOOTSTRAP}px)`);
-    const { reviews, appId } = useReviewData({ countryCode, languageCode, arrLength: isMobile ? 1 : isTablet ? 2 : 3 });
+    const { reviews, appId } = useReviewData({
+        countryCode: codes.countryCode,
+        languageCode: codes.languageCode,
+        arrLength: isMobile ? 1 : isTablet ? 2 : 3,
+    });
 
     if (!reviews || !appId) return <></>;
 
     return (
         <ReviewContext.Provider
             value={{
-                data: { reviews, appId, countryCode },
-                text: { head: headText, link: linkText, description: descriptionText },
+                data: { reviews, appId, countryCode: codes.countryCode },
+                text,
             }}
         >
             {isMobile ? (

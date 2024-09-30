@@ -135,11 +135,22 @@ export default function WaistLine() {
                 </section>
 
                 <Review
-                    countryCode={Locale.countryCode}
-                    languageCode={Locale.language as TLanguageCode}
-                    headText={_("REVIEW.HEAD")}
-                    descriptionText={_("REVIEW.DESCRIPTION")}
-                    linkText={_("REVIEW.LINK_ALL_REVIEWS")}
+                    codes={{
+                        countryCode: Locale.countryCode,
+                        languageCode: Locale.language as TLanguageCode,
+                    }}
+                    text={{
+                        head: _("REVIEW.HEAD"),
+                        description: _("REVIEW.DESCRIPTION"),
+                        link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        fillerCard: {
+                            head: [
+                                _("REVIEW.FILLER_CARD.HEAD1"),
+                                _("REVIEW.FILLER_CARD.HEAD2"),
+                                _("REVIEW.FILLER_CARD.HEAD3"),
+                            ],
+                        },
+                    }}
                 />
 
                 <section>
