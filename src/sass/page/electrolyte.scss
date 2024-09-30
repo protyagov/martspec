@@ -3,6 +3,12 @@
         color: #656AA1;
     }
 
+   .section {
+    @media (max-width: 992px) {
+        margin-top: 6rem;
+    }
+   } 
+
     .title-text-link-card {
 
         h3, p {

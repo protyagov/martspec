@@ -56,7 +56,7 @@ export default function Electrolyte() {
             </div>
           </section>
 
-          <section>
+          <section className="section">
             <div className="row mb-0">
               <div className="col-12 mb-2">
                   <h2>{_("ELECTROLYTE.MINERALS_H2")}</h2>
@@ -89,7 +89,7 @@ export default function Electrolyte() {
                     alt="calcium"
                     className="col-xxl-6"
                     additionalClass="electrolyte-styles box-shadow"
-                    bgColor="#FFF"
+                    bgColor="transparent"
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
                     hoverColor="#6760b7"  
                 />
@@ -105,7 +105,7 @@ export default function Electrolyte() {
                     alt="potassium"
                     className="col-xxl-6"
                     additionalClass="electrolyte-styles box-shadow"
-                    bgColor="#FFF"
+                    bgColor="transparent"
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
                     hoverColor="#6760b7"  
                 />
