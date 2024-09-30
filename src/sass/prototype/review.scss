@@ -35,6 +35,16 @@
             padding: 0;
         }
 
+        .filler-card {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            h3 {
+                width: 85%;
+            }
+        }
+
         .review-card {
             display: flex;
             flex-direction: column;
