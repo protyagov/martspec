@@ -4,7 +4,7 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
-import Review from "../organism/review";
+import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
 
 export default function BodySize() {

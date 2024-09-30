@@ -10,7 +10,7 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
 import BulletList from "@/atomic/molecule/bullet-list";
-import Review from "../organism/review";
+import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
 
 export default function Emotion() {

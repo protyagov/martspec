@@ -5,7 +5,7 @@ import ImageI18N from "../atom/img-i18n";
 import NavigationBar from "@/atomic/organism/navbar";
 import Header from "@/atomic/organism/header";
 import CardTitleTextButton from "../molecule/card-title-text-button";
-import Review from "../organism/review";
+import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
 
 const electrolyteSections = [
