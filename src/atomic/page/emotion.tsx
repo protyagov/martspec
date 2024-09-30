@@ -379,7 +379,7 @@ export default function Emotion() {
                     languageCode={Locale.language as TLanguageCode}
                     headText={_("REVIEW.HEAD")}
                     descriptionText={_("REVIEW.DESCRIPTION")}
-                    linkText={_("REVIEW.LINK")}
+                    linkText={_("REVIEW.LINKS.VIEW_ALL")}
                 />
 
                 <section>
