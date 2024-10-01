@@ -15,9 +15,15 @@ import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardTitleSubtitle, { CardTitleSubtitleProps } from "@/atomic/molecule/card-title-subtitle";
 import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
+import Accordion, * as VitaminAccordion from "@/atomic/molecule/accordion";
 
 interface VitaminGroup {
     groupName: string;
+    header: {
+        bgImg: VitaminAccordion.BackgroundImage;
+        mobileBgResized: boolean;
+        defaultExpanded?: boolean;
+    };
     bgImg: VitaminCard.BackgroundImage;
     bgColor: React.CSSProperties["color"];
     primaryColor: React.CSSProperties["color"];
@@ -28,6 +34,11 @@ interface VitaminGroup {
 const vitamins: VitaminGroup[] = [
     {
         groupName: "VITAMIN_FAT",
+        header: {
+            bgImg: { src: "/img/page/vitamin/vitamin-list-header-fat-bg.svg", width: 114, height: 132 },
+            mobileBgResized: false,
+            defaultExpanded: true,
+        },
         bgImg: { src: "/img/page/vitamin/vitamin-card-fat-soluble-bg.svg", width: 128, height: 92 },
         bgColor: "#fff3e9",
         primaryColor: "#e95813",
@@ -36,6 +47,10 @@ const vitamins: VitaminGroup[] = [
     },
     {
         groupName: "VITAMIN_WATER",
+        header: {
+            bgImg: { src: "/img/page/vitamin/vitamin-list-header-water-bg.svg", width: 134, height: 160 },
+            mobileBgResized: true,
+        },
         bgImg: { src: "/img/page/vitamin/vitamin-card-water-soluble-bg.svg", width: 124, height: 121 },
         bgColor: "#eaf1fd",
         primaryColor: "#0f75dc",
@@ -54,6 +69,10 @@ const vitamins: VitaminGroup[] = [
     },
     {
         groupName: "MINERAL",
+        header: {
+            bgImg: { src: "/img/page/vitamin/vitamin-list-header-minerals-bg.svg", width: 144, height: 130 },
+            mobileBgResized: true,
+        },
         bgImg: { src: "/img/page/vitamin/vitamin-card-minerals-bg.svg", width: 129, height: 118 },
         bgColor: "#e5f4d9",
         primaryColor: "#388205",
@@ -336,35 +355,38 @@ export default function Vitamin() {
                         </div>
                     </div>
 
-                    {vitamins.map(({ groupName, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
-                        <section key={`vitamins-group-${groupName}`} className="row mt-5 pt-4 mb-0">
-                            <div className="col-12 mb-5">
-                                <h3
-                                    className="p-4 mb-0 rounded-4"
-                                    style={{ backgroundColor: bgColor, color: "#212529" }}
+                    {vitamins.map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
+                        <section key={`vitamins-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mb-0">
+                            <div className="col-12 d-flex flex-column">
+                                <Accordion
+                                    title={_(`VITAMIN.${groupName}.NAME`)}
+                                    bgColor={bgColor}
+                                    expandIconColor={primaryColor}
+                                    bgImg={header.bgImg}
+                                    mobileBgResized={header.mobileBgResized}
+                                    defaultExpanded={header.defaultExpanded}
                                 >
-                                    {_(`VITAMIN.${groupName}.NAME`)}
-                                </h3>
+                                    <ul className="d-grid vitamin-list">
+                                        {itemList.map((vit) => (
+                                            <li key={vit}>
+                                                <CardVitamin
+                                                    title={_(`VITAMIN.${vit}.HEAD`)}
+                                                    subtitle={_(`VITAMIN.${vit}.NAME`)}
+                                                    description={_(`VITAMIN.${vit}.DESK`)}
+                                                    actionLink={{
+                                                        text: _("VITAMIN.BTN_GO"),
+                                                        href: Locale.i18nLink(`vitamin/${vit.toLowerCase()}`),
+                                                    }}
+                                                    bgColor={bgColor}
+                                                    primaryColor={primaryColor}
+                                                    linkHoverColor={linkHoverColor}
+                                                    bgImg={bgImg}
+                                                />
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </Accordion>
                             </div>
-                            <ul className="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 p-0 g-4">
-                                {itemList.map((vit) => (
-                                    <li key={vit} className="col">
-                                        <CardVitamin
-                                            title={_(`VITAMIN.${vit}.HEAD`)}
-                                            subtitle={_(`VITAMIN.${vit}.NAME`)}
-                                            description={_(`VITAMIN.${vit}.DESK`)}
-                                            actionLink={{
-                                                text: _("VITAMIN.BTN_GO"),
-                                                href: Locale.i18nLink(`vitamin/${vit.toLowerCase()}`),
-                                            }}
-                                            bgColor={bgColor}
-                                            primaryColor={primaryColor}
-                                            linkHoverColor={linkHoverColor}
-                                            bgImg={bgImg}
-                                        />
-                                    </li>
-                                ))}
-                            </ul>
                         </section>
                     ))}
                 </section>

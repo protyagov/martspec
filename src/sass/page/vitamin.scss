@@ -40,59 +40,29 @@
         }
     }
 
-    .vitamins-list {
-        @extend .ms-s-offset;
+    .vitamin-list {
+        margin-top: 2.5rem;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
 
-        font-size: 1.5rem;
-
-        $colors: #eab839, #54a5d2, #0066cc;
-
-        @for $idx from 1 through 3 {
-            .vit-group:nth-child(#{$idx}) {
-                $c: nth($colors, $idx);
-
-                .vit-group-name {
-                    background-color: $c;
-                    color: #ffffff;
-                }
-
-                .vit-name-short {
-                    color: $c !important;
-                }
-            }
+        @include media-breakpoint-up(md) {
+            grid-template-columns: repeat(2, 1fr);
         }
 
-        @include media-breakpoint-down(md) {
-            &,
-            .vit-group {
-                padding: 0;
-            }
+        @include media-breakpoint-up(lg) {
+            margin-top: 4.625rem;
+            gap: 3rem 1.5rem;
         }
 
-        .row {
-            margin-top: 0 !important;
-            margin-bottom: 0 !important;
-
-            padding: 0;
-
-            &.g-4 {
-                margin-top: -1.5rem; // necessary for correct offsets
-
-                //before we use new-header on each page,
-                //need to set these styles for each page which is using new header
-                @include media-breakpoint-down(sm) {
-                    margin-top: 3rem; // adds margin for new header
-                }
-                @include media-breakpoint-down(m) {
-                    margin-top: -4rem; // adds margin for new header
-                }
-            }
+        @include media-breakpoint-up(xl) {
+            grid-template-columns: repeat(3, 1fr);
         }
 
-        .bg {
-            background: #000;
+        @include media-breakpoint-up(xxl) {
+            grid-template-columns: repeat(4, 1fr);
         }
     }
+
     .header-content-list li::marker {
         color: #1686ff;
     }
