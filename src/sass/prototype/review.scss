@@ -72,6 +72,7 @@
         .filler-card {
             display: grid;
             text-align: center;
+            min-height: 25rem;
 
             .filler-card__header {
                 align-self: end;
