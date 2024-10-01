@@ -19,11 +19,9 @@ export const useReviewData = ({ languageCode = "en", countryCode = "us", arrLeng
             .then((i) => (setAppId(i), i))
             .then((i) => AppleReviewService.getReviewData({ appId: i, countryCode }))
             .then((d) => AppleReviewService.validateReviewData({ reviewData: d.feed.entry, arrLength }))
-            .then((r) => AppleReviewService.sortByRating({ validatedData: r }))
-            .then((r) => AppleReviewService.sliceReviews({ validatedData: r, arrLength }))
-            .then((r) => AppleReviewService.sortByLang({ validatedData: r, lang: languageCode }))
+            .then((r) => AppleReviewService.sortReviews({ validatedData: r, lang: languageCode }))
             .then((r) => setReviews(r));
-    }, [arrLength]);
+    }, []);
 
     return { reviews, appId };
 };

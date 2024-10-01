@@ -5,28 +5,17 @@ import { IReviewWithFiller } from "@/model/IReviewWithFiller";
 import { IReviewLink } from "@/model/IReviewLink";
 import { getFetchReviewsLink } from "@/service/AppleReviewService/LinksService";
 
-// props data
-interface ISliceReview {
-    validatedData: IReviewWithFiller;
-    arrLength: number;
-}
-
 // types for service methods
 type TGetAppId = (props?: IReviewLink["appId"]) => Promise<number>;
 type TGetReviewData = (props: IReviewLink) => Promise<IReviewData>;
-type TSliceReviews = (props: ISliceReview) => Promise<IReviewWithFiller>;
 
 // compose types into single interface
 interface IReviewService {
     getReviewData: TGetReviewData;
-    sliceReviews: TSliceReviews;
     getAppId: TGetAppId;
 }
 
 class ReviewService implements IReviewService {
-    // slice validate reviews by arrLength
-    sliceReviews: TSliceReviews = async ({ validatedData, arrLength }) => validatedData.slice(0, arrLength);
-
     // get reviews and appId
     getReviewData: TGetReviewData = async (linkData) => {
         const res = await fetch(getFetchReviewsLink(linkData));
@@ -53,4 +42,4 @@ class ReviewService implements IReviewService {
     };
 }
 
-export const { getReviewData, getAppId, sliceReviews } = new ReviewService();
+export const { getReviewData, getAppId } = new ReviewService();
