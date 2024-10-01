@@ -14,7 +14,12 @@
     "REVIEW": {
         "HEAD": "Se ha dicho de nosotros",
         "DESCRIPTION": "Valoramos su opinión sobre nuestro producto y siempre respondemos a los comentarios. Encontrará más opiniones en la página de nuestra aplicación en la App Store",
-        "LINK_ALL_REVIEWS": "Leer más opiniones"
+        "LINK_ALL_REVIEWS": "Leer más opiniones",
+        "FILLER_CARD": {
+            "HEAD1": "Un lugar para sus comentarios",
+            "HEAD2": "¿Vacío? Su opinión puede cambiarlo.",
+            "HEAD3": "Su opinión es importante para nosotros"
+        }
     },
     "NAV": {
         "APPS": "Aplicaciones",

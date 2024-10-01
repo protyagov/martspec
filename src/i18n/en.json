@@ -14,7 +14,12 @@
     "REVIEW": {
         "HEAD": "It's been said about us",
         "DESCRIPTION": "We value your opinion about our product and always respond to comments. Additional feedback is available on our App Store page",
-        "LINK_ALL_REVIEWS": "Read more reviews"
+        "LINK_ALL_REVIEWS": "Read more reviews",
+        "FILLER_CARD": {
+            "HEAD1": "A place for your feedback",
+            "HEAD2": "Empty? Your review can change that!",
+            "HEAD3": "Your opinion is important to us"
+        }
     },
     "NAV": {
         "APPS": "Applications",
