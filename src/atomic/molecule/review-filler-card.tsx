@@ -11,8 +11,10 @@ export default function ReviewFillerCard({ link, posIndex }: IReviewFillerCard) 
 
     return (
         <li className="review-card filler-card">
-            <h3>{text.fillerCard.head[posIndex]}</h3>
-            {link}
+            <div className="filler-card__wrapper">
+                <h3 className="filler-card__header">{text.fillerCard.head[posIndex]}</h3>
+                {link}
+            </div>
         </li>
     );
 }
