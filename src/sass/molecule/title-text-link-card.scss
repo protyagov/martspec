@@ -6,43 +6,7 @@
     padding: 2.75rem;
     border-radius: 1.5rem;
     overflow: hidden;
-
-    a {
-        position: relative;
-        margin-top: auto;
-        font-size: 1rem;
-        font-weight: 600;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: flex-end;
-        gap: 0.8333rem;
-        transition: all 0.4s ease;
-
-        > span {
-            line-height: 1.167rem;
-        }
-
-        &::after {
-            content: "";
-            width: 0;
-            height: 0.0833rem;
-            position: absolute;
-            left: 0;
-            top: 110%;
-            transition: all 0.4s;
-        }
-
-        &:hover {
-            > img {
-                filter: brightness(0) saturate(100%) contrast(106%);
-            }
-
-            &::after {
-                width: 100%;
-            }
-        }
-    }
-
+    
     > img {
         position: absolute;
         height: 100%;
@@ -58,5 +22,20 @@
 
     &.bordered {
         border: 1px solid #212529; 
+    }
+}
+
+.electrolyte-card-style{
+    > img {
+        top: 10%;
+        right: -10%
+    }
+
+    @media (min-width: 650px) and (max-width: 1400px) {
+        > img {
+            width: 28rem;
+            height: auto;
+            object-fit: cover;
+        }
     }
 }

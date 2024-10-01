@@ -23,6 +23,7 @@ interface CardVitaminProps {
     bgColor: CSSProperties["color"];
     primaryColor: CSSProperties["color"];
     linkHoverColor: CSSProperties["color"];
+    hasUnderlineHover?: boolean;
 }
 
 export default function CardVitamin({
@@ -34,6 +35,7 @@ export default function CardVitamin({
     bgColor,
     primaryColor,
     linkHoverColor,
+    hasUnderlineHover=false,
 }: CardVitaminProps): React.ReactNode {
     const subtitleColor: CSSProperties["color"] = "#151515b3";
     const descriptionColor: CSSProperties["color"] = "#15151599";
@@ -74,6 +76,7 @@ export default function CardVitamin({
                     {...actionLink}
                     color={primaryColor}
                     hoverColor={linkHoverColor}
+                    hasUnderlineHover={hasUnderlineHover}
                 />
             </div>
             {bgImg && (

@@ -12,10 +12,12 @@ interface Props {
     alt?: string;
     arrowImage?: React.ReactNode;
     hoverColor?: string;
+    color?: string;
     hasShadow?: boolean; 
     borderClass?: string; 
     imageZIndex?: number; 
     imageOpacity?: number; 
+    additionalCardClass?: string
 }
 
 interface Link {
@@ -33,16 +35,16 @@ const TitleTextLinkCard: React.FC<Props> = ({
     alt = "Image",
     arrowImage = null,
     hoverColor = "",
+    color="",
     hasShadow = false,
     borderClass = "",
     imageZIndex = 1, 
-    imageOpacity = 1 
+    imageOpacity = 1,
+    additionalCardClass = ""
 }) => {
-    const cardClasses = `title-text-link-card ${hasShadow ? 'shadow' : ''} ${borderClass}`;
-
     return (
         <div className={gridColumnClass}>
-            <div className={cardClasses} style={{ backgroundColor: bgColor }}>
+            <div className={`title-text-link-card ${additionalCardClass} ${hasShadow ? 'shadow' : ''} ${borderClass}`} style={{ backgroundColor: bgColor }}>
                 {image && (
                     <img
                         className="card-image"
@@ -59,6 +61,7 @@ const TitleTextLinkCard: React.FC<Props> = ({
                         rightIcon={arrowImage}
                         text={link.text}
                         isNewTab={true}
+                        color={color}
                         hoverColor={hoverColor}
                     />
                 </div>

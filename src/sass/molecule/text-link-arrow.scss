@@ -1,9 +1,42 @@
 .text-link-arrow {
-    transition: all 0.3s;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex !important;
+    gap: 0.8333rem;
+    transition: all 0.4s ease;
+
+    > span {
+        line-height: 1.167rem;
+    }
+
+    &::after {
+        content: "";
+        width: 0;
+        height: 0.0833rem;
+        position: absolute;
+        left: 0;
+        top: 110%;
+        background-color: var(--hover-color);
+        transition: width 0.4s ease;
+    }
 
     @media (hover: hover) {
         &:hover {
             color: var(--hover-color) !important;
+
+            > img {
+                filter: brightness(0.75) saturate(120%);
+            }
+        }
+    }
+
+    &.with-underline {
+        @media (hover: hover) {
+            &:hover::after {
+                width: 100%;
+            }
         }
     }
 }

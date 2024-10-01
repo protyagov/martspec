@@ -74,6 +74,7 @@ export default function Electrolyte() {
                     gridColumnClass="col-xxl-6"
                     bgColor="#E5EEFF"
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                    color="#8079CC"
                     hoverColor="#6760b7" 
                 />
 
@@ -87,10 +88,12 @@ export default function Electrolyte() {
                     image="/img/page/electrolyte/calcium.webp"
                     alt="calcium"
                     gridColumnClass="col-xxl-6"
+                    additionalCardClass="electrolyte-card-style"
                     hasShadow={true}
                     bgColor="transparent"
                     imageZIndex={-1}
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                    color="#8079CC"
                     hoverColor="#6760b7"  
                 />
 
@@ -106,8 +109,10 @@ export default function Electrolyte() {
                     gridColumnClass="col-xxl-6"
                     hasShadow={true}
                     bgColor="transparent"
+                    additionalCardClass="electrolyte-card-style"
                     imageZIndex={-1}
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                    color="#8079CC"
                     hoverColor="#6760b7"  
                 />
 
@@ -121,6 +126,7 @@ export default function Electrolyte() {
                     gridColumnClass="col-xxl-6"
                     bgColor="#F4F5F8"
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                    color="#8079CC"
                     hoverColor="#6760b7"  
                 />
               </div>
