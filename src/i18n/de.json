@@ -18,7 +18,8 @@
         "FILLER_CARD": {
             "HEAD1": "Ein Platz für Ihr Feedback",
             "HEAD2": "Noch leer? Ihr Feedback kann das ändern!",
-            "HEAD3": "Ihre Meinung ist wichtig für uns"
+            "HEAD3": "Ihre Meinung ist wichtig für uns",
+            "LINK": "Schreiben Sie uns"
         }
     },
     "NAV": {

@@ -18,7 +18,8 @@
         "FILLER_CARD": {
             "HEAD1": "Um lugar para os seus comentários",
             "HEAD2": "Vazio? Os seus comentários podem mudar isso!",
-            "HEAD3": "A sua opinião é importante para nós"
+            "HEAD3": "A sua opinião é importante para nós",
+            "LINK": "Escreva-nos um"
         }
     },
     "NAV": {
