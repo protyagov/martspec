@@ -2,21 +2,23 @@ import * as React from "react";
 import TextLinkArrow from "./text-link-arrow";
 
 interface Props {
-    // Necessary props
     title: string;
     text: string;
-    link: LinkProps;
-    // Optional props
-    className?: string;
-    additionalClass?: string;
+    link: Link;
+
+    gridColumnClass?: string; 
     bgColor?: string;
     image?: string;
     alt?: string;
     arrowImage?: React.ReactNode;
     hoverColor?: string;
+    hasShadow?: boolean; 
+    borderClass?: string; 
+    imageZIndex?: number; 
+    imageOpacity?: number; 
 }
 
-interface LinkProps {
+interface Link {
     text: string;
     href: string;
 }
@@ -25,22 +27,28 @@ const TitleTextLinkCard: React.FC<Props> = ({
     title,
     text,
     link,
-    className = "col-lg-4",
-    additionalClass = "",
+    gridColumnClass = "col-lg-4",
     bgColor = "#FFFFFF",
     image,
     alt = "Image",
     arrowImage = null,
-    hoverColor=""
-}: Props): JSX.Element => {
+    hoverColor = "",
+    hasShadow = false,
+    borderClass = "",
+    imageZIndex = 1, 
+    imageOpacity = 1 
+}) => {
+    const cardClasses = `title-text-link-card ${hasShadow ? 'shadow' : ''} ${borderClass}`;
+
     return (
-        <div className={className}>
-            <div className={`title-text-link-card ${additionalClass}`} style={{ backgroundColor: bgColor }}>
+        <div className={gridColumnClass}>
+            <div className={cardClasses} style={{ backgroundColor: bgColor }}>
                 {image && (
                     <img
                         className="card-image"
                         src={image}
                         alt={alt}
+                        style={{ zIndex: imageZIndex, opacity: imageOpacity }} 
                     />
                 )}
                 <div>

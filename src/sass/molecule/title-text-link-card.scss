@@ -24,7 +24,7 @@
 
         &::after {
             content: "";
-            width: 0%;
+            width: 0;
             height: 0.0833rem;
             position: absolute;
             left: 0;
@@ -51,68 +51,12 @@
         right: 0;
         z-index: 0;
     }
-}
 
-.electrolyte-styles {
-    background-color: map-get($electrolyte-colors, "main");
-    border: none;
-
-    > img {
-        opacity: 1;
-        z-index: -1;
+    &.shadow {
+        box-shadow: 0px 8px 24px 0px rgba(149, 157, 165, 0.2);
     }
 
-    .text-link-arrow {
-        display: inline-flex !important;
-    }
-
-    a {
-        font-size: 1.2rem;
-        color: map-get($electrolyte-colors, "main") !important;
-
-        &::after {
-            background-color: map-get($electrolyte-colors, "hover");
-        }
-
-        &:hover {
-            color: map-get($electrolyte-colors, "hover");
-
-            > img {
-                filter: map-get($electrolyte-colors, "main-filter"); 
-            }
-        }
-    }
-}
-
-.box-shadow {
-    box-shadow: 0px 8px 24px 0px rgba(149, 157, 165, 0.2);
-}
-
-.careers-styles {
-    background-color: #F4F5F8;
-    border: 1px solid #212529;
-
-    .text-link-arrow {
-        display: inline-flex !important;
-    }
-
-    > img {
-        opacity: 0.3;
-    }
-
-    a {
-        color: map-get($careers-colors, "main");
-
-        &::after {
-            background-color: map-get($careers-colors, "hover");
-        }
-
-        &:hover {
-            color: map-get($careers-colors, "hover");
-
-            > img {
-                filter: map-get($careers-colors, "main-filter"); 
-            }
-        }
+    &.bordered {
+        border: 1px solid #212529; 
     }
 }

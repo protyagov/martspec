@@ -132,9 +132,11 @@ const Careers = () => {
                                     href: Locale.i18nLink(`careers/${id}`),
                                     text: _("CAREERS.BUTTON3"),
                                 }}
-                                className="col-lg-4 col-md-6"
-                                additionalClass="careers-styles"
+                                gridColumnClass="col-lg-4 col-md-6"
+                                hasShadow={false}
+                                borderClass="bordered"
                                 image={image}
+                                imageOpacity={0.3}
                                 alt={getAlt()}
                                 arrowImage={<img src="/img/arrow-right.svg" width={6} height={12} />}
                                 hoverColor="#0a58ca"  

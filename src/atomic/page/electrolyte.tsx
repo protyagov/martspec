@@ -71,8 +71,7 @@ export default function Electrolyte() {
                         text: _("ELECTROLYTE.BTN_LINK"), 
                         href: "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional" 
                     }}
-                    className="col-xxl-6"
-                    additionalClass="electrolyte-styles"
+                    gridColumnClass="col-xxl-6"
                     bgColor="#E5EEFF"
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
                     hoverColor="#6760b7" 
@@ -87,9 +86,10 @@ export default function Electrolyte() {
                     }}
                     image="/img/page/electrolyte/calcium.webp"
                     alt="calcium"
-                    className="col-xxl-6"
-                    additionalClass="electrolyte-styles box-shadow"
+                    gridColumnClass="col-xxl-6"
+                    hasShadow={true}
                     bgColor="transparent"
+                    imageZIndex={-1}
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
                     hoverColor="#6760b7"  
                 />
@@ -103,9 +103,10 @@ export default function Electrolyte() {
                     }}
                     image="/img/page/electrolyte/potassium.webp"
                     alt="potassium"
-                    className="col-xxl-6"
-                    additionalClass="electrolyte-styles box-shadow"
+                    gridColumnClass="col-xxl-6"
+                    hasShadow={true}
                     bgColor="transparent"
+                    imageZIndex={-1}
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
                     hoverColor="#6760b7"  
                 />
@@ -117,8 +118,7 @@ export default function Electrolyte() {
                         text: _("ELECTROLYTE.BTN_LINK"), 
                         href: "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional" 
                     }}
-                    className="col-xxl-6"
-                    additionalClass="electrolyte-styles"
+                    gridColumnClass="col-xxl-6"
                     bgColor="#F4F5F8"
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
                     hoverColor="#6760b7"  
