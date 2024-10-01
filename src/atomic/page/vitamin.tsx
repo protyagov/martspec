@@ -366,7 +366,7 @@ export default function Vitamin() {
                                     mobileBgResized={header.mobileBgResized}
                                     defaultExpanded={header.defaultExpanded}
                                 >
-                                    <ul className="d-grid vitamin-list gap-4 row-gap-5">
+                                    <ul className="d-grid vitamin-list">
                                         {itemList.map((vit) => (
                                             <li key={vit}>
                                                 <CardVitamin

@@ -41,10 +41,17 @@
     }
 
     .vitamin-list {
+        margin-top: 2.5rem;
         grid-template-columns: 1fr;
+        gap: 2.5rem;
 
         @include media-breakpoint-up(md) {
             grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include media-breakpoint-up(lg) {
+            margin-top: 4.625rem;
+            gap: 3rem 1.5rem;
         }
 
         @include media-breakpoint-up(xl) {

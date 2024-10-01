@@ -65,9 +65,7 @@ export default function Accordion({
                 </button>
             </h3>
             <div id={collapseId} className={`collapse ${isExpanded ? "show" : ""}`}>
-                <div aria-expanded={isExpanded} className="mt-5">
-                    {children}
-                </div>
+                <div aria-expanded={isExpanded}>{children}</div>
             </div>
         </>
     );
