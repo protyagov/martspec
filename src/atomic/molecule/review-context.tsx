@@ -9,6 +9,7 @@ export interface IReviewContextText {
     description: string;
     fillerCard: {
         head: [string, string, string];
+        link: string;
     };
 }
 interface IReviewContextData {

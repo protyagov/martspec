@@ -408,6 +408,7 @@ export default function Vitamin() {
                                 _("REVIEW.FILLER_CARD.HEAD2"),
                                 _("REVIEW.FILLER_CARD.HEAD3"),
                             ],
+                            link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
                 />

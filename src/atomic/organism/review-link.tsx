@@ -10,7 +10,7 @@ export function SendReviewsLink() {
 
     return (
         <ReviewLinkBase
-            text="Написать нам"
+            text={text.fillerCard.link}
             href={getAppStoreLink({
                 data: { appId: data.appId, countryCode: data.countryCode },
                 option: "action=write-review",
