@@ -1,0 +1,63 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/breakpoints";
+
+.accordion-header {
+    max-height: 6.375rem;
+
+    .title {
+        font-size: 1.5rem;
+        font-family: os5;
+        line-height: 1.2;
+        max-width: 15ch;
+        word-break: keep-all;
+    }
+
+    .accordion-icon {
+        height: 40px;
+        width: auto;
+        aspect-ratio: 1 / 1;
+        transform-origin: center;
+        transform: rotate(-90deg);
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .accordion-expanded-icon {
+        transform: rotate(0deg);
+    }
+
+    .bg-image {
+        right: 4.625rem;
+    }
+
+    .mobile-bg-resize {
+        scale: 0.8;
+    }
+
+    @include media-breakpoint-up(md) {
+        .title {
+            max-width: max-content;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        max-height: 7.4375rem;
+
+        .title {
+            font-size: 1.7rem;
+        }
+
+        .accordion-icon {
+            height: 60px;
+            stroke-width: 2;
+        }
+
+        .bg-image {
+            right: 8rem;
+        }
+
+        .mobile-bg-resize {
+            scale: 1;
+        }
+    }
+}
