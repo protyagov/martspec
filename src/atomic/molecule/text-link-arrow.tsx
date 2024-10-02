@@ -5,7 +5,7 @@ interface CSSPropertiesWithVars extends CSSProperties {
     "--hover-color"?: CSSProperties["color"];
 }
 
-interface TextLinkArrowProps {
+export interface TextLinkArrowProps {
     href: string;
     rightIcon: ReactNode;
     text: string | ReactNode;

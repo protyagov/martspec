@@ -4,13 +4,15 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
+import Review from "@/atomic/prototype/review";
+import { TLanguageCode } from "@/model/TCodes";
 
 export default function BodySize() {
     return (
         <>
             <NavigationBar />
 
-            <div className="ms-base-page pb-5">
+            <div className="ms-base-page ms-base-new pb-5">
                 <PageHeader
                     title={_("SIZE.HEAD")}
                     subtitleLevel2={_("SIZE.ABOUT")}
@@ -23,7 +25,7 @@ export default function BodySize() {
                 />
 
                 {/* Body compostion */}
-                <section>
+                <section className="row">
                     <h4>{_("SIZE.HEAD1")}</h4>
                     <p className="mt-3">{_("SIZE.DESC1")}</p>
                 </section>
@@ -37,13 +39,13 @@ export default function BodySize() {
                 />
 
                 {/* Chest and Bust */}
-                <section>
+                <section className="row">
                     <h4>{_("SIZE.HEAD2")}</h4>
                     <p className="mt-3">{_("SIZE.DESC2")}</p>
                 </section>
 
                 {/* Waist Circumferance */}
-                <section>
+                <section className="row">
                     <h4>{_("SIZE.HEAD3")}</h4>
                     <p className="mt-3">
                         <a
@@ -57,12 +59,12 @@ export default function BodySize() {
                 </section>
 
                 {/* Hips Width */}
-                <section>
+                <section className="row">
                     <h4>{_("SIZE.HEAD4")}</h4>
                     <p className="mt-3">{_("SIZE.DESC4")}</p>
                 </section>
 
-                <section>
+                <section className="row">
                     <h4>{_("WAIST.HEAD1")}</h4>
                     <p className="mt-3">
                         {_("WAIST.DESC1")}
@@ -76,10 +78,30 @@ export default function BodySize() {
                 </section>
 
                 {/* Body Shape */}
-                <section>
+                <section className="row">
                     <h4>{_("SIZE.HEAD5")}</h4>
                     <p className="mt-3">{_("SIZE.DESC5")}</p>
                 </section>
+
+                <Review
+                    codes={{
+                        countryCode: Locale.countryCode,
+                        languageCode: Locale.language as TLanguageCode,
+                    }}
+                    text={{
+                        head: _("REVIEW.HEAD"),
+                        description: _("REVIEW.DESCRIPTION"),
+                        link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        fillerCard: {
+                            head: [
+                                _("REVIEW.FILLER_CARD.HEAD1"),
+                                _("REVIEW.FILLER_CARD.HEAD2"),
+                                _("REVIEW.FILLER_CARD.HEAD3"),
+                            ],
+                            link: _("REVIEW.FILLER_CARD.LINK"),
+                        },
+                    }}
+                />
             </div>
 
             <div className="pb-5 text-center">
