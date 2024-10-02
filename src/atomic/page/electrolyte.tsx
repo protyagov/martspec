@@ -73,6 +73,7 @@ export default function Electrolyte() {
                     }}
                     gridColumnClass="col-xxl-6"
                     bgColor="#E5EEFF"
+                    additionalCardClass="electrolyte-card-style"
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
                     color="#8079CC"
                     hoverColor="#6760b7" 
@@ -125,6 +126,7 @@ export default function Electrolyte() {
                     }}
                     gridColumnClass="col-xxl-6"
                     bgColor="#F4F5F8"
+                    additionalCardClass="electrolyte-card-style"
                     arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
                     color="#8079CC"
                     hoverColor="#6760b7"  

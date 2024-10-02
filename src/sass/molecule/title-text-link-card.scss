@@ -26,16 +26,27 @@
 }
 
 .electrolyte-card-style{
+    padding: 2rem !important;
+
+    p {
+        font-size: 1.2rem !important;
+        color: #151515 !important;
+        display: flex !important;
+        justify-content: left !important;
+    }
+
     > img {
-        top: 10%;
-        right: -10%
+        top: 40%;
+        right: -15%
     }
 
     @media (min-width: 650px) and (max-width: 1400px) {
         > img {
-            width: 28rem;
+            width: 22rem;
             height: auto;
             object-fit: cover;
+            top: 30%;
+            right: -7%
         }
     }
 }
