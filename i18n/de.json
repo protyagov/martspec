@@ -11,6 +11,17 @@
         "SUBHEAD": "Machen Sie tägliche Aufgaben agil und mühelos",
         "IMG": "Einfachheit der Gesundheitsverfolgung, Apple Watch Wellness- und Gesundheits-Apps"
     },
+    "REVIEW": {
+        "HEAD": "Es wurde schon über uns gesagt",
+        "DESCRIPTION": "Wir schätzen Ihre Meinung zu unserem Produkt und reagieren immer auf Kommentare. Weitere Bewertungen finden Sie auf unserer App-Seite im App Store",
+        "LINK_ALL_REVIEWS": "Mehr Bewertungen lesen",
+        "FILLER_CARD": {
+            "HEAD1": "Ein Platz für Ihr Feedback",
+            "HEAD2": "Noch leer? Ihr Feedback kann das ändern!",
+            "HEAD3": "Ihre Meinung ist wichtig für uns",
+            "LINK": "Schreiben Sie uns"
+        }
+    },
     "NAV": {
         "APPS": "Anwendungen",
         "ABOUT": "Über uns"
