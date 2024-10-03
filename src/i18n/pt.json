@@ -11,6 +11,17 @@
         "SUBHEAD": "Aplicativos para tornar as tarefas diárias ágeis e sem esforço",
         "IMG": "Aplicativos de bem-estar e saúde Apple Watch"
     },
+    "REVIEW": {
+        "HEAD": "Já foi dito sobre nós",
+        "DESCRIPTION": "Valorizamos a sua opinião sobre o nosso produto e respondemos sempre aos comentários. Estão disponíveis mais comentários na página da nossa aplicação na App Store",
+        "LINK_ALL_REVIEWS": "Ler mais comentários",
+        "FILLER_CARD": {
+            "HEAD1": "Um lugar para os seus comentários",
+            "HEAD2": "Vazio? Os seus comentários podem mudar isso!",
+            "HEAD3": "A sua opinião é importante para nós",
+            "LINK": "Escreva-nos um"
+        }
+    },
     "NAV": {
         "APPS": "Aplicações",
         "ABOUT": "Sobre nós"

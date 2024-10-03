@@ -1,0 +1,98 @@
+ .review {
+        display: grid;
+        gap: 1.54rem;
+
+        h3, h2 {
+            margin: 0 !important;
+        }
+
+        .review__header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .review__description {
+            margin-bottom: 2rem;
+
+            @include media-breakpoint-up(lg) {
+                max-width: 50%;
+            }
+        }
+
+        // wrapper for the link appears only on in the mobile view
+        .review__link-wrapper {
+            background: none;
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .review__list {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 1fr;
+            gap: 3rem;
+
+            padding: 0;
+        }
+
+        .review-card {
+            display: flex;
+            flex-direction: column;
+            gap: 1.93rem;
+
+            border: 0.1rem solid #F4F5F8;
+            border-radius: 2.31rem;
+            box-shadow: 0rem 1.84rem 2.21rem 0rem #959DA51A;
+
+            padding: 3.1rem;
+
+            & > * {
+                color: #151515;
+            } 
+
+            .review-card__header {
+                display: grid;
+                gap: 0.8rem;
+            }
+
+            .review-card__header-main {
+                display: flex;
+                align-items: center;
+                gap: 0.8rem;
+            }
+
+            .review-card__header-rating {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .filler-card {
+            display: grid;
+            text-align: center;
+            min-height: 25rem;
+
+            .filler-card__header {
+                align-self: end;
+                width: 85%;
+            }
+
+            .text-link-arrow {
+                align-self: start;
+            }
+
+            .filler-card__header3, .text-link-arrow {
+                padding-top: 1.93rem;
+            }
+
+            .filler-card__wrapper {
+                display: grid;
+                gap: 0.5rem;
+                grid-template-rows: 1.1fr 1fr;
+                justify-items: center;
+                align-content: center;
+            }
+        }
+    }

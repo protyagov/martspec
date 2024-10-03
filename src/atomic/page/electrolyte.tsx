@@ -6,10 +6,12 @@ import NavigationBar from "@/atomic/organism/navbar";
 import Header from "@/atomic/organism/header";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
+import Review from "@/atomic/prototype/review";
+import { TLanguageCode } from "@/model/TCodes";
 
 export default function Electrolyte() {
-  return (
-    <>
+    return (
+        <>
       <NavigationBar />
       <div className="electrolyte">
         <div className="ms-base-page ms-base-new">
@@ -136,17 +138,39 @@ export default function Electrolyte() {
           </section>
         </div>
 
-        <div className="container mb-5 pb-5 text-center">
-          <img
-            src="/img/page/electrolyte/electrolyte-app.webp"
-            alt={_("MAIN.P1.IMG")}
-            className="ms-base-image"
-            width="512px"
-            height="512px"
-          />
-        </div>
-        <Footer />
-      </div>
-    </>
-  );
+                    <Review
+                        codes={{
+                            countryCode: Locale.countryCode,
+                            languageCode: Locale.language as TLanguageCode,
+                        }}
+                        text={{
+                            head: _("REVIEW.HEAD"),
+                            description: _("REVIEW.DESCRIPTION"),
+                            link: _("REVIEW.LINK_ALL_REVIEWS"),
+                            fillerCard: {
+                                head: [
+                                    _("REVIEW.FILLER_CARD.HEAD1"),
+                                    _("REVIEW.FILLER_CARD.HEAD2"),
+                                    _("REVIEW.FILLER_CARD.HEAD3"),
+                                ],
+                                link: _("REVIEW.FILLER_CARD.LINK"),
+                            },
+                        }}
+                    />
+                </div>
+
+                <div className="container mb-5 pb-5 text-center">
+                    <img
+                        src="/img/page/electrolyte/electrolyte-app.webp"
+                        alt={_("MAIN.P1.IMG")}
+                        className="ms-base-image"
+                        width="512px"
+                        height="512px"
+                    />
+                </div>
+
+                <Footer />
+            </div>
+        </>
+    );
 }

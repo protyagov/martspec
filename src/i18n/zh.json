@@ -11,12 +11,23 @@
         "SUBHEAD": "使日常任务变得敏捷而轻松的应用程序",
         "IMG": "Apple Watch 健康与健康应用"
     },
+    "REVIEW": {
+        "HEAD": "砐竷謺 桏譔桏譔",
+        "DESCRIPTION": "我们重视您对我们产品的意见，并随时回复评论。更多评论请访问 App Store 的应用程序页面",
+        "LINK_ALL_REVIEWS": "阅读更多评论",
+        "FILLER_CARD": {
+            "HEAD1": "您的反馈意见存放处",
+            "HEAD2": "空空如也？您的反馈意见可以改变这种状况！",
+            "HEAD3": "您的意见对我们很重要",
+            "LINK": "写信给我们"
+        }
+    },
     "NAV": {
         "APPS": "应用",
         "ABOUT": "关于我们"
     },
     "ELECTROLYTE": {
-    "HEAD": "电解质",
+"HEAD": "电解质",
     "IMG": "Apple Watch 上记录电解质的日志，电解质，适用于手表的应用程序，健康应用",
     "DWN": "从 Apple App Store 下载免费的电解质应用程序",
     "ABOUT_1": "监控重要矿物质",
