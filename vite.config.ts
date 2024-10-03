@@ -80,4 +80,10 @@ export default defineConfig({
             },
         },
     ],
+    resolve: {
+        // Set up the alias
+        alias: {
+            "@": path.resolve(__dirname, "src"),
+        },
+    },
 });
