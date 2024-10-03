@@ -12,6 +12,7 @@ export interface TextLinkArrowProps {
     isNewTab?: boolean;
     color?: CSSProperties["color"];
     hoverColor?: CSSProperties["color"];
+    hasUnderlineHover?: boolean; 
 }
 
 export default function TextLinkArrow({
@@ -21,6 +22,7 @@ export default function TextLinkArrow({
     isNewTab,
     color = "#0d6efd",
     hoverColor = "#0a58ca",
+    hasUnderlineHover = true, 
 }: TextLinkArrowProps) {
     const newTabProps = isNewTab && { target: "_blank", rel: "noreferrer noopener" };
 
@@ -28,7 +30,7 @@ export default function TextLinkArrow({
         <a
             href={href}
             {...newTabProps}
-            className="text-link-arrow d-flex align-items-center gap-2 text-decoration-none lh-sm"
+            className={`text-link-arrow d-flex align-items-center gap-2 text-decoration-none lh-sm ${hasUnderlineHover ? "with-underline" : ""}`}
             style={{ color, "--hover-color": hoverColor } as CSSPropertiesWithVars}
         >
             {text}
