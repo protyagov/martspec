@@ -1,9 +1,10 @@
+import "bootstrap";
+import "@/sass/main.scss";
+
 import React from "react";
 import type { GlobalProvider } from "@ladle/react";
-import { Locale } from "@/i18n/locale";
 
-// import bootstrap styles
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Locale } from "@/i18n/locale";
 
 // locale initialization
 Locale.init();
