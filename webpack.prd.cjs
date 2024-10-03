@@ -1,6 +1,6 @@
 const { merge } = require("webpack-merge"),
     // webpack = require('webpack'),
-    common = require("./webpack.com.js"),
+    common = require("./webpack.com.cjs"),
     MiniCssExtractPlugin = require("mini-css-extract-plugin"),
     // FaviconsWebpackPlugin = require('favicons-webpack-plugin'),
     OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin"),

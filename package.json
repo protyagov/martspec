@@ -3,6 +3,7 @@
     "homepage": "https://protyagov.github.io/martspec/",
     "version": "1.0.0",
     "private": true,
+    "type": "module",
     "description": "",
     "license": "UNLICENSED",
     "main": "index.js",
@@ -47,9 +48,9 @@
         "react-dom": "^18.1.0"
     },
     "scripts": {
-        "predeploy": "webpack --config webpack.prd.js",
+        "predeploy": "webpack --config webpack.prd.cjs",
         "deploy": "gh-pages -d build",
-        "prod": "webpack --config webpack.prd.js",
-        "svr": "webpack serve --config webpack.dev.js"
+        "prod": "webpack --config webpack.prd.cjs",
+        "svr": "webpack serve --config webpack.dev.cjs"
     }
 }
