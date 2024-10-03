@@ -1,18 +1,16 @@
 import appIds from "@/data/app-ids.json";
 
 import { IReviewData } from "@/model/IReviewData";
-import { IReviewWithFiller } from "@/model/IReviewWithFiller";
 import { IReviewLink } from "@/model/IReviewLink";
 import { getFetchReviewsLink } from "@/service/AppleReviewService/LinksService";
 
 // types for service methods
-type TGetAppId = (props?: IReviewLink["appId"]) => Promise<number>;
 type TGetReviewData = (props: IReviewLink) => Promise<IReviewData>;
 
 // compose types into single interface
 interface IReviewService {
     getReviewData: TGetReviewData;
-    getAppId: TGetAppId;
+    getAppId: () => number;
 }
 
 class ReviewService implements IReviewService {
@@ -24,10 +22,8 @@ class ReviewService implements IReviewService {
         return data;
     };
 
-    getAppId: TGetAppId = async (appId) => (appId ? appId : await this.#getReviewId());
-
     // get id from url path
-    #getReviewId = async (): Promise<number> => {
+    getAppId = (): number => {
         const pathname = new URL(document.URL).pathname;
         const pathnameItems = pathname.split("/");
 
