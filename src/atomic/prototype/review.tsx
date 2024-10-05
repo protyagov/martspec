@@ -17,21 +17,21 @@ interface IReview {
         countryCode: TCountryCode;
         languageCode: TLanguageCode;
     };
-    customAppId?: number;
+    appId: number;
 }
 
 const LG_BOOTSTRAP = 992;
 const XXL_BOOTSTRAP = 1400;
 
-export default function Review({ text, customAppId, codes }: IReview) {
+export default function Review({ text, appId, codes }: IReview) {
     const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
     const isTablet = useMediaQuery(`(max-width: ${XXL_BOOTSTRAP}px)`);
 
     const arrLength = isMobile ? 1 : isTablet ? 2 : 3;
-    const { reviews, appId } = useReviewData({
+    const { reviews } = useReviewData({
         codes,
         arrLength,
-        customAppId,
+        appId,
     });
 
     if (!reviews || !appId) return <></>;

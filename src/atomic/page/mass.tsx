@@ -10,8 +10,10 @@ import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
+import { getAppId } from "@/service/AppleReviewService";
 
 export default function Bodymass() {
+    const appId = getAppId();
     const advantages: Array<IconTitleText> = [
         {
             icon: {
@@ -121,6 +123,7 @@ export default function Bodymass() {
                 </section>
 
                 <Review
+                    appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
                         languageCode: Locale.language as TLanguageCode,

@@ -10,8 +10,10 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
+import { getAppId } from "@/service/AppleReviewService";
 
 export default function BodyZinc() {
+    const appId = getAppId();
     const iconTitleTextListItems: Array<IconTitleText> = [
         {
             icon: {
@@ -124,6 +126,7 @@ export default function BodyZinc() {
                 </section>
 
                 <Review
+                    appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
                         languageCode: Locale.language as TLanguageCode,

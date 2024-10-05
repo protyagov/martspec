@@ -12,8 +12,10 @@ import Header from "@/atomic/organism/header";
 import BulletList from "@/atomic/molecule/bullet-list";
 import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
+import { getAppId } from "@/service/AppleReviewService";
 
 export default function Emotion() {
+    const appId = getAppId();
     const advantages: Array<IconTitleText> = [
         {
             icon: {
@@ -375,6 +377,7 @@ export default function Emotion() {
                 </section>
 
                 <Review
+                    appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
                         languageCode: Locale.language as TLanguageCode,

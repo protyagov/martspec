@@ -8,8 +8,10 @@ import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
 import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
+import { getAppId } from "@/service/AppleReviewService";
 
 export default function Electrolyte() {
+    const appId = getAppId();
     return (
         <>
       <NavigationBar />
@@ -138,6 +140,7 @@ export default function Electrolyte() {
           </section>
 
                     <Review
+                        appId={appId}
                         codes={{
                             countryCode: Locale.countryCode,
                             languageCode: Locale.language as TLanguageCode,

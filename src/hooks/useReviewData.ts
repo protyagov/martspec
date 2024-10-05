@@ -5,18 +5,17 @@ import * as AppleReviewService from "@/service/AppleReviewService";
 import { TCountryCode, TLanguageCode } from "@/model/TCodes";
 
 interface IUseReviewDataProps {
+    appId: number;
+    arrLength?: number;
+
     codes: {
         countryCode: TCountryCode;
         languageCode: TLanguageCode;
     };
-
-    arrLength?: number;
-    customAppId?: number;
 }
 
-export const useReviewData = ({ codes, arrLength = 3, customAppId }: IUseReviewDataProps) => {
+export const useReviewData = ({ codes, arrLength = 3, appId }: IUseReviewDataProps) => {
     const [reviews, setReviews] = useState<IReviewWithFiller | null>(null);
-    const appId = customAppId || AppleReviewService.getAppId();
 
     useEffect(() => {
         AppleReviewService.getReviewData({ appId, countryCode: codes.countryCode || "us" })
@@ -25,5 +24,5 @@ export const useReviewData = ({ codes, arrLength = 3, customAppId }: IUseReviewD
             .then((r) => setReviews(r));
     }, []);
 
-    return { reviews, appId };
+    return { reviews };
 };

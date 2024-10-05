@@ -6,8 +6,10 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
 import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
+import { getAppId } from "@/service/AppleReviewService";
 
 export default function BodySize() {
+    const appId = getAppId();
     return (
         <>
             <NavigationBar />
@@ -84,6 +86,7 @@ export default function BodySize() {
                 </section>
 
                 <Review
+                    appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
                         languageCode: Locale.language as TLanguageCode,

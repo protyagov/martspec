@@ -18,6 +18,7 @@ import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
 import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
 import Accordion, * as VitaminAccordion from "@/atomic/molecule/accordion";
+import { getAppId } from "@/service/AppleReviewService";
 
 interface VitaminGroup {
     groupName: string;
@@ -99,6 +100,8 @@ const vitamins: VitaminGroup[] = [
 ];
 
 export default function Vitamin() {
+    const appId = getAppId();
+
     // const bgColor={background: "#1FF"}
     const advantages: Array<IconTitleText> = [
         {
@@ -394,6 +397,7 @@ export default function Vitamin() {
                 </section>
 
                 <Review
+                    appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
                         languageCode: Locale.language as TLanguageCode,
