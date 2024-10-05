@@ -125,15 +125,22 @@ const Careers = () => {
                         <h2>{_("CAREERS.HEAD3")}</h2>
                         {careers.map(({ id, getTitle, getText, image, getAlt }) => (
                             <TitleTextLinkCard
-                            key={id}
-                            title={getTitle()}
-                            text={getText()}
-                            link={{
-                                href: Locale.i18nLink(`careers/${id}`),
-                                text: _("CAREERS.BUTTON3"),
-                            }}
-                            image={image}
-                            alt={getAlt()}
+                                key={id}
+                                title={getTitle()}
+                                text={getText()}
+                                link={{
+                                    href: Locale.i18nLink(`careers/${id}`),
+                                    text: _("CAREERS.BUTTON3"),
+                                }}
+                                gridColumnClass="col-lg-4 col-md-6"
+                                hasShadow={false}
+                                borderClass="bordered"
+                                image={image}
+                                imageOpacity={0.3}
+                                alt={getAlt()}
+                                arrowImage={<img src="/img/arrow-right.svg" width={6} height={12} />}
+                                color="#0d6efd"
+                                hoverColor="#0a58ca"  
                             />
                         ))}
                     </div>
@@ -145,3 +152,4 @@ const Careers = () => {
 };
 
 export default Careers;
+

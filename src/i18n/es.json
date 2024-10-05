@@ -11,6 +11,17 @@
         "SUBHEAD": "Aplicaciones para hacer más eficientes y ágiles las tareas diarias",
         "IMG": "Aplicaciones de salud y bienestar de Apple Watch"
     },
+    "REVIEW": {
+        "HEAD": "Se ha dicho de nosotros",
+        "DESCRIPTION": "Valoramos su opinión sobre nuestro producto y siempre respondemos a los comentarios. Encontrará más opiniones en la página de nuestra aplicación en la App Store",
+        "LINK_ALL_REVIEWS": "Leer más opiniones",
+        "FILLER_CARD": {
+            "HEAD1": "Un lugar para sus comentarios",
+            "HEAD2": "¿Vacío? Su opinión puede cambiarlo.",
+            "HEAD3": "Su opinión es importante para nosotros",
+            "LINK": "Escríbanos un"
+        }
+    },
     "NAV": {
         "APPS": "Aplicaciones",
         "ABOUT": "Sobre nosotros"
@@ -22,10 +33,12 @@
         "ABOUT_1": "Controla minerales importantes",
         "ABOUT_2": "Forma fácil y conveniente de ingresar lecturas de electrolitos desde el Apple Watch",
         "ABOUT_3": "Sincronización con la aplicación Apple Health",
-        "HEAD2": "Por qué Electrolito",
+        "HEAD2": "Por qué Electrólito",
         "DESC2_1": "Los electrolitos desempeñan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Ayudan a regular la función cardíaca y neurológica, el equilibrio de fluidos, la entrega de oxígeno, el equilibrio ácido-base y mucho más.",
         "DESC2_2": "Los desequilibrios de electrolitos pueden desarrollarse al consumir muy poco o demasiado electrolito, así como al excretar muy poco o demasiado electrolito.",
         "BTN_MORE": "Saber más",
+        "MINERALS_H2": "Minerales",
+        "MINERALS_P": "Aprende más sobre las sustancias esenciales que ayudan a transmitir impulsos eléctricos por todo el cuerpo.",
         "HEAD3": "Magnesio",
         "DESC3_1": "Regula el ritmo cardíaco, la función nerviosa, la contracción muscular, la presión arterial y los niveles de azúcar, participa en la producción de proteínas, huesos y ADN. La deficiencia de magnesio provoca pérdida de apetito, náuseas, vómitos, fatiga y debilidad; mientras que niveles altos pueden causar hipermagnesemia.",
         "HEAD4": "Calcio",
@@ -36,7 +49,7 @@
         "DESC6_1": "Una parte vital de la hemoglobina y la mioglobina, proteínas que transportan oxígeno a los tejidos y músculos del cuerpo. Los glóbulos rojos contienen más de la mitad del hierro del cuerpo humano.",
         "HEAD7": "Riesgos",
         "DESC7_1": "Los desequilibrios de electrolitos pueden desarrollarse al consumir muy poco o demasiado electrolito, así como al excretar muy poco o demasiado electrolito. En algunos casos, los niveles elevados de electrolitos pueden ser indicativos de afecciones graves. Por ejemplo, los niveles altos de potasio suelen indicar insuficiencia renal.",
-        "BTN_OPEN": "Equilibrar ahora"
+        "BTN_LINK": "Equilibrar ahora"
     },
     "MASS": {
         "HEAD": "Peso",

@@ -10,6 +10,8 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
 import BulletList from "@/atomic/molecule/bullet-list";
+import Review from "@/atomic/prototype/review";
+import { TLanguageCode } from "@/model/TCodes";
 
 export default function Emotion() {
     const advantages: Array<IconTitleText> = [
@@ -219,7 +221,7 @@ export default function Emotion() {
                                     _("EMOTION.LIST4.LI3_TEXT"),
                                     _("EMOTION.LIST4.LI4_TEXT"),
                                     _("EMOTION.LIST4.LI5_TEXT"),
-                                    _("EMOTION.LIST4.LI6_TEXT")
+                                    _("EMOTION.LIST4.LI6_TEXT"),
                                 ]}
                                 iconColor="#7B62FE"
                                 className="bullet-list"
@@ -371,6 +373,26 @@ export default function Emotion() {
                         </div>
                     </div>
                 </section>
+
+                <Review
+                    codes={{
+                        countryCode: Locale.countryCode,
+                        languageCode: Locale.language as TLanguageCode,
+                    }}
+                    text={{
+                        head: _("REVIEW.HEAD"),
+                        description: _("REVIEW.DESCRIPTION"),
+                        link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        fillerCard: {
+                            head: [
+                                _("REVIEW.FILLER_CARD.HEAD1"),
+                                _("REVIEW.FILLER_CARD.HEAD2"),
+                                _("REVIEW.FILLER_CARD.HEAD3"),
+                            ],
+                            link: _("REVIEW.FILLER_CARD.LINK"),
+                        },
+                    }}
+                />
 
                 <section>
                     <CallToAction

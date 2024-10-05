@@ -14,6 +14,8 @@ import CardImage from "@/atomic/molecule/card-image";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardTitleSubtitle, { CardTitleSubtitleProps } from "@/atomic/molecule/card-title-subtitle";
+import Review from "@/atomic/prototype/review";
+import { TLanguageCode } from "@/model/TCodes";
 import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
 import Accordion, * as VitaminAccordion from "@/atomic/molecule/accordion";
 
@@ -303,12 +305,12 @@ export default function Vitamin() {
                             <h3>{_("VITAMIN.DESC3_2")}</h3>
                             <BulletList
                                 items={[
-                                _("VITAMIN.LIST3.LI1_TEXT"),
-                                _("VITAMIN.LIST3.LI2_TEXT"),
-                                _("VITAMIN.LIST3.LI3_TEXT"),
-                                _("VITAMIN.LIST3.LI4_TEXT"),
-                                _("VITAMIN.LIST3.LI5_TEXT"),
-                                _("VITAMIN.LIST3.LI6_TEXT")
+                                    _("VITAMIN.LIST3.LI1_TEXT"),
+                                    _("VITAMIN.LIST3.LI2_TEXT"),
+                                    _("VITAMIN.LIST3.LI3_TEXT"),
+                                    _("VITAMIN.LIST3.LI4_TEXT"),
+                                    _("VITAMIN.LIST3.LI5_TEXT"),
+                                    _("VITAMIN.LIST3.LI6_TEXT"),
                                 ]}
                                 iconColor="#1686FF"
                                 className="bullet-list"
@@ -390,6 +392,26 @@ export default function Vitamin() {
                         </section>
                     ))}
                 </section>
+
+                <Review
+                    codes={{
+                        countryCode: Locale.countryCode,
+                        languageCode: Locale.language as TLanguageCode,
+                    }}
+                    text={{
+                        head: _("REVIEW.HEAD"),
+                        description: _("REVIEW.DESCRIPTION"),
+                        link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        fillerCard: {
+                            head: [
+                                _("REVIEW.FILLER_CARD.HEAD1"),
+                                _("REVIEW.FILLER_CARD.HEAD2"),
+                                _("REVIEW.FILLER_CARD.HEAD3"),
+                            ],
+                            link: _("REVIEW.FILLER_CARD.LINK"),
+                        },
+                    }}
+                />
 
                 <section>
                     <CallToAction

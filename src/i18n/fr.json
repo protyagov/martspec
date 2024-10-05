@@ -11,11 +11,22 @@
         "SUBHEAD": "Des applications pour rendre les tâches quotidiennes agiles et sans effort",
         "IMG": "Applications de bien-être et de santé Apple Watch"
     },
+    "REVIEW": {
+        "HEAD": "On a dit de nous",
+        "DESCRIPTION": "Nous apprécions votre opinion sur notre produit et répondons toujours aux commentaires. D'autres commentaires sont disponibles sur notre page d'application dans l'App Store.",
+        "LINK_ALL_REVIEWS": "Lire d'autres commentaires",
+        "FILLER_CARD": {
+            "HEAD1": "Un espace pour vos commentaires",
+            "HEAD2": "Vide ? Votre avis peut changer cela !",
+            "HEAD3": "Votre avis nous intéresse",
+            "LINK": "Écrivez-nous un"
+        }
+    },
     "NAV": {
         "APPS": "Applications",
         "ABOUT": "À propos de nous"
     },
-    "ELECTROLYTE": {
+   "ELECTROLYTE": {
         "HEAD": "Électrolyte",
         "IMG": "Enregistrez des électrolytes et des minéraux avec votre Apple Watch, Electrolyte, application pour Apple Watch, application de santé",
         "DWN": "Téléchargez l'application gratuite Electrolyte Tracker sur l'AppStore d'Apple",
@@ -26,6 +37,8 @@
         "DESC2_1": "Les électrolytes jouent un rôle essentiel dans le maintien de l'homéostasie dans le corps. Ils aident à réguler le cœur et la fonction neurologique, l'équilibre hydrique, l'apport d'oxygène, l'équilibre acido-basique et bien plus encore.",
         "DESC2_2": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte.",
         "BTN_MORE": "En savoir plus",
+        "MINERALS_H2": "Minéraux",
+        "MINERALS_P": "Apprenez-en plus sur les substances essentielles qui aident à transmettre des impulsions électriques dans tout le corps.",
         "HEAD3": "Magnésium",
         "DESC3_1": "Régule le rythme cardiaque, la fonction nerveuse, la contraction musculaire, la pression artérielle et les niveaux de sucre, participe à la fabrication de protéines, d'os et d'ADN. Une carence en magnésium entraîne une perte d'appétit, des nausées, des vomissements, de la fatigue et de la faiblesse; tandis que des niveaux élevés de celui-ci peuvent provoquer une hypermagnésémie.",
         "HEAD4": "Calcium",
@@ -36,7 +49,7 @@
         "DESC6_1": "Une partie vitale de l'hémoglobine et de la myoglobine, des protéines qui transportent l'oxygène vers les tissus et les muscles du corps. Les globules rouges contiennent plus de la moitié du fer du corps humain.",
         "HEAD7": "Des risques",
         "DESC7_1": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte. Dans certains cas, des niveaux élevés d'électrolytes peuvent indiquer des conditions graves. Par exemple, des niveaux élevés de potassium sont souvent le signe d'une insuffisance rénale.",
-        "BTN_OPEN": "Équilibrer maintenant"
+        "BTN_LINK": "Équilibrer maintenant"
     },
     "MASS": {
         "HEAD": "Poids",

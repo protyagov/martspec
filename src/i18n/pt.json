@@ -11,6 +11,17 @@
         "SUBHEAD": "Aplicativos para tornar as tarefas diárias ágeis e sem esforço",
         "IMG": "Aplicativos de bem-estar e saúde Apple Watch"
     },
+    "REVIEW": {
+        "HEAD": "Já foi dito sobre nós",
+        "DESCRIPTION": "Valorizamos a sua opinião sobre o nosso produto e respondemos sempre aos comentários. Estão disponíveis mais comentários na página da nossa aplicação na App Store",
+        "LINK_ALL_REVIEWS": "Ler mais comentários",
+        "FILLER_CARD": {
+            "HEAD1": "Um lugar para os seus comentários",
+            "HEAD2": "Vazio? Os seus comentários podem mudar isso!",
+            "HEAD3": "A sua opinião é importante para nós",
+            "LINK": "Escreva-nos um"
+        }
+    },
     "NAV": {
         "APPS": "Aplicações",
         "ABOUT": "Sobre nós"
@@ -26,6 +37,8 @@
         "DESC2_1": "Os eletrólitos desempenham um papel vital na transmissão de impulsos elétricos no corpo. Eles ajudam a regular o coração, as funções neurológicas, o equilíbrio de fluidos, a entrega de oxigênio aos tecidos, o equilíbrio ácido-básico e a manutenção da homeostase.",
         "DESC2_2": "Os desequilíbrios eletrolíticos podem ocorrer tanto por consumo excessivo quanto por consumo insuficiente, além de perdas exageradas ou insuficientes.",
         "BTN_MORE": "Saiba Mais",
+        "MINERALS_H2": "Minerais",
+        "MINERALS_P": "Saiba mais sobre as substâncias importantes que ajudam a transmitir impulsos elétricos pelo corpo.",
         "HEAD3": "Magnésio",
         "DESC3_1": "Regula o ritmo cardíaco, a função nervosa, a contração muscular, a pressão sanguínea e os níveis de açúcar. Participa da produção de proteínas, ossos e DNA. A deficiência de magnésio pode levar à perda de apetite, náuseas, vômitos, fraqueza e fadiga. Níveis excessivos de magnésio podem causar hipermagnesemia.",
         "HEAD4": "Cálcio",
@@ -36,7 +49,7 @@
         "DESC6_1": "Parte vital da hemoglobina e mioglobina, proteínas responsáveis por transportar oxigênio para os tecidos e músculos do corpo. Mais da metade do ferro do corpo humano está nos glóbulos vermelhos.",
         "HEAD7": "Riscos",
         "DESC7_1": "Os desequilíbrios eletrolíticos podem ocorrer tanto pelo consumo excessivo quanto pela falta de eletrólitos, bem como por excreção excessiva ou insuficiente. Níveis elevados de potássio podem indicar insuficiência renal, enquanto a deficiência de sais pode causar fadiga, tontura e arritmia. É importante consultar um especialista se esses sintomas ocorrerem.",
-        "BTN_OPEN": "Equilibrar"
+        "BTN_LINK": "Equilibrar agora"
     },
     "MASS": {
         "HEAD": "Peso",
