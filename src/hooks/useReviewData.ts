@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 import { IReviewWithFiller } from "@/model/IReviewWithFiller";
-import * as AppleReviewService from "@/service/AppleReviewService";
+import { getReviewData, validateReviewData, sortReviews } from "@/service/AppleService";
 import { TCountryCode, TLanguageCode } from "@/model/TCodes";
 
 interface IUseReviewDataProps {
@@ -18,9 +18,9 @@ export const useReviewData = ({ codes, arrLength = 3, appId }: IUseReviewDataPro
     const [reviews, setReviews] = useState<IReviewWithFiller | null>(null);
 
     useEffect(() => {
-        AppleReviewService.getReviewData({ appId, countryCode: codes.countryCode || "us" })
-            .then((d) => AppleReviewService.validateReviewData({ reviewData: d.feed.entry, arrLength }))
-            .then((r) => AppleReviewService.sortReviews({ validatedData: r, lang: codes.languageCode || "en" }))
+        getReviewData({ appId, countryCode: codes.countryCode || "us" })
+            .then((d) => validateReviewData({ reviewData: d.feed.entry, arrLength }))
+            .then((r) => sortReviews({ validatedData: r, lang: codes.languageCode || "en" }))
             .then((r) => setReviews(r));
     }, []);
 

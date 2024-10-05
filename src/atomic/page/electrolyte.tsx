@@ -8,7 +8,7 @@ import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
 import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
-import { getAppId } from "@/service/AppleReviewService";
+import { getAppId } from "@/service/AppleService";
 
 export default function Electrolyte() {
     const appId = getAppId();

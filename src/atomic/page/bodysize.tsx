@@ -6,7 +6,7 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
 import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
-import { getAppId } from "@/service/AppleReviewService";
+import { getAppId } from "@/service/AppleService";
 
 export default function BodySize() {
     const appId = getAppId();

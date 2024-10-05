@@ -18,7 +18,7 @@ import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
 import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
 import Accordion, * as VitaminAccordion from "@/atomic/molecule/accordion";
-import { getAppId } from "@/service/AppleReviewService";
+import { getAppId } from "@/service/AppleService";
 
 interface VitaminGroup {
     groupName: string;

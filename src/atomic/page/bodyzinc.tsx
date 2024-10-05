@@ -10,7 +10,7 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
-import { getAppId } from "@/service/AppleReviewService";
+import { getAppId } from "@/service/AppleService";
 
 export default function BodyZinc() {
     const appId = getAppId();

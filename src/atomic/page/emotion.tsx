@@ -12,7 +12,7 @@ import Header from "@/atomic/organism/header";
 import BulletList from "@/atomic/molecule/bullet-list";
 import Review from "@/atomic/prototype/review";
 import { TLanguageCode } from "@/model/TCodes";
-import { getAppId } from "@/service/AppleReviewService";
+import { getAppId } from "@/service/AppleService";
 
 export default function Emotion() {
     const appId = getAppId();
