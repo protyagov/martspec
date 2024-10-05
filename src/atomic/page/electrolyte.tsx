@@ -14,25 +14,25 @@ export default function Electrolyte() {
     const appId = getAppId();
     return (
         <>
-      <NavigationBar />
-      <div className="electrolyte">
-        <div className="ms-base-page ms-base-new">
-          <Header
-            title={_("ELECTROLYTE.HEAD")}
-            appId={1507719251}
-            appDownloadTitle={_("ELECTROLYTE.DWN")}
-            imgSrc="/img/page/electrolyte/electrolyte-header-en.webp"
-            imgAlt={_("ELECTROLYTE.IMG")}
-            imgH={531}
-            imgW={722}
-            content={
-              <ul className="header-content-list">
-                <li>{_("ELECTROLYTE.ABOUT_1")}</li>
-                <li>{_("ELECTROLYTE.ABOUT_2")}</li>
-                <li>{_("ELECTROLYTE.ABOUT_3")}</li>
-              </ul>
-            }
-          />
+            <NavigationBar />
+            <div className="electrolyte">
+                <div className="ms-base-page ms-base-new">
+                    <Header
+                        title={_("ELECTROLYTE.HEAD")}
+                        appId={appId}
+                        appDownloadTitle={_("ELECTROLYTE.DWN")}
+                        imgSrc="/img/page/electrolyte/electrolyte-header-en.webp"
+                        imgAlt={_("ELECTROLYTE.IMG")}
+                        imgH={531}
+                        imgW={722}
+                        content={
+                            <ul className="header-content-list">
+                                <li>{_("ELECTROLYTE.ABOUT_1")}</li>
+                                <li>{_("ELECTROLYTE.ABOUT_2")}</li>
+                                <li>{_("ELECTROLYTE.ABOUT_3")}</li>
+                            </ul>
+                        }
+                    />
 
           <section>
             <div className="row d-flex justify-content-between g-4">

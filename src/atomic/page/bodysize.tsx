@@ -18,7 +18,7 @@ export default function BodySize() {
                 <PageHeader
                     title={_("SIZE.HEAD")}
                     subtitleLevel2={_("SIZE.ABOUT")}
-                    appId={1564205068}
+                    appId={appId}
                     appDownloadTitle={_("SIZE.DWN")}
                     imgSrc="/img/page/body-size/size-head.svg"
                     imgAlt={_("SIZE.IMG")}

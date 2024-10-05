@@ -5,8 +5,10 @@ import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
 import CallToAction from "@/atomic/organism/call-to-action";
+import { getAppId } from "@/service/AppleService";
 
 export default function Biorhythms() {
+    const appId = getAppId();
     const rhythmsList = [
         {
             name: "PHYS",
@@ -37,7 +39,7 @@ export default function Biorhythms() {
             <div className="ms-base-page ms-base-new emotion biorhythms">
                 <PageHeader
                     title={_("BIORHYTHMS.HEAD")}
-                    appId={1562956213}
+                    appId={appId}
                     appDownloadTitle={_("BIORHYTHMS.DWN")}
                     imgSrc="/img/biorhythms.png"
                     imgAlt={_("BIORHYTHMS.IMG")}
@@ -270,7 +272,7 @@ export default function Biorhythms() {
                         // bgColor={bg_color}
                         title={_("BIORHYTHMS.HEAD5")}
                         subtitle={_("BIORHYTHMS.DESK5")}
-                        appId={1562956213}
+                        appId={appId}
                         appDownloadTitle={_("BIORHYTHMS.DWN")}
                         imgSrc="/img/org/call-to-action/emotion/emotion-screen-app-en.webp"
                         imgAlt={_("BIORHYTHMS.ALT5")}

@@ -207,7 +207,7 @@ export default function Vitamin() {
             <div className="ms-base-page ms-base-new vitamin">
                 <Header
                     title={_("VITAMIN.HEAD")}
-                    appId={1519596234}
+                    appId={appId}
                     appDownloadTitle={_("VITAMIN.DWN")}
                     imgSrc="/img/page/vitamin/vitamin-header-en.webp"
                     imgAlt={_("VITAMIN.IMG")}
@@ -422,7 +422,7 @@ export default function Vitamin() {
                         // bgColor={bg_color}
                         title={_("VITAMIN.HEAD6")}
                         subtitle={_("VITAMIN.DESC6")}
-                        appId={1519596234}
+                        appId={appId}
                         appDownloadTitle={_("VITAMIN.DWN")}
                         imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
                         imgAlt={_("VITAMIN.ALT3")}

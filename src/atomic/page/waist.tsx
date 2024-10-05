@@ -57,7 +57,7 @@ export default function WaistLine() {
                     title={_("WAIST.HEAD")}
                     subtitleLevel1={_("WAIST.ABOUT_1")}
                     subtitleLevel2={_("WAIST.ABOUT_2")}
-                    appId={1506250420}
+                    appId={appId}
                     appDownloadTitle={_("WAIST.DWN")}
                     imgSrc="/img/page/waistline/waist.svg"
                     imgAlt={_("WAIST.IMG")}
@@ -163,7 +163,7 @@ export default function WaistLine() {
                             bgColor={{ backgroundColor: "#FFB34066" }}
                             title={_("WAIST.HEAD5")}
                             subtitle={_("WAIST.DESC5")}
-                            appId={1506250420}
+                            appId={appId}
                             appDownloadTitle={_("WAIST.DWN")}
                             imgSrc="/img/page/waistline/call-to-action-en.webp"
                             imgAlt={_("WAIST.ALT2")}

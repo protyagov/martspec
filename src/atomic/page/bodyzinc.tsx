@@ -57,7 +57,7 @@ export default function BodyZinc() {
                     title={_("ZINC.HEAD")}
                     subtitleLevel1={_("ZINC.ABOUT_1")}
                     subtitleLevel2={_("ZINC.ABOUT_2")}
-                    appId={1547395353}
+                    appId={appId}
                     appDownloadTitle={_("ZINC.DWN")}
                     imgSrc="/img/page/zinc/body_zinc.svg"
                     imgAlt="ZINC.IMG"
@@ -152,7 +152,7 @@ export default function BodyZinc() {
                             bgColor={{ backgroundColor: "#AAF1CF" }}
                             title={_("ZINC.HEAD5")}
                             subtitle={_("ZINC.DESC5")}
-                            appId={1547395353}
+                            appId={appId}
                             appDownloadTitle={_("ZINC.DWN")}
                             imgSrc="/img/page/zinc/bottom-pic-en.webp"
                             imgAlt={_("ZINC.ALT2")}

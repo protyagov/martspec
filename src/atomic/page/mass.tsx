@@ -65,7 +65,7 @@ export default function Bodymass() {
                     title={_("MASS.HEAD")}
                     subtitleLevel1={_("MASS.ABOUT_1")}
                     subtitleLevel2={_("MASS.ABOUT_2")}
-                    appId={1507588203}
+                    appId={appId}
                     appDownloadTitle={_("MASS.DWN")}
                     imgSrc="/img/page/body-mass/mass.webp"
                     imgAlt={_("MASS.IMG")}
@@ -148,7 +148,7 @@ export default function Bodymass() {
                         bgColor={{ backgroundColor: "#E8FAE0" }}
                         title={_("MASS.HEAD4")}
                         subtitle={_("MASS.DESC4")}
-                        appId={1507588203}
+                        appId={appId}
                         appDownloadTitle={_("MASS.DWN")}
                         imgSrc="/img/org/call-to-action/bodymass/call-to-action-en.webp"
                         imgAlt={_("MASS.ALT2")}
