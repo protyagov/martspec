@@ -136,7 +136,6 @@ export default function Electrolyte() {
               </div>
             </div>
           </section>
-        </div>
 
                     <Review
                         codes={{
