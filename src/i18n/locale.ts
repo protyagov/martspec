@@ -73,8 +73,8 @@ export class Locale {
     }
 
     //-------------------------------------------------------------------------------------------------------
-    static get language(): string {
-        return Locale._polyglot.locale() as string;
+    static get language(): TLanguageCode {
+        return Locale._polyglot.locale() as TLanguageCode;
     }
 
     static setLanguageFromUrl(url: string): string {

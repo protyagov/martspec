@@ -11,7 +11,6 @@ import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
 import BulletList from "@/atomic/molecule/bullet-list";
 import Review from "@/atomic/prototype/review";
-import { TLanguageCode } from "@/model/TCodes";
 import { getAppId } from "@/service/AppleService";
 
 export default function Emotion() {
@@ -380,7 +379,7 @@ export default function Emotion() {
                     appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
-                        languageCode: Locale.language as TLanguageCode,
+                        languageCode: Locale.language,
                     }}
                     text={{
                         head: _("REVIEW.HEAD"),

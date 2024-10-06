@@ -9,7 +9,6 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
-import { TLanguageCode } from "@/model/TCodes";
 import { getAppId } from "@/service/AppleService";
 
 export default function WaistLine() {
@@ -140,7 +139,7 @@ export default function WaistLine() {
                     appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
-                        languageCode: Locale.language as TLanguageCode,
+                        languageCode: Locale.language,
                     }}
                     text={{
                         head: _("REVIEW.HEAD"),

@@ -9,7 +9,6 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
-import { TLanguageCode } from "@/model/TCodes";
 import { getAppId } from "@/service/AppleService";
 
 export default function Bodymass() {
@@ -126,7 +125,7 @@ export default function Bodymass() {
                     appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
-                        languageCode: Locale.language as TLanguageCode,
+                        languageCode: Locale.language,
                     }}
                     text={{
                         head: _("REVIEW.HEAD"),
