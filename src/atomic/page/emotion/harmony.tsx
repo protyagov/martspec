@@ -5,8 +5,10 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ContentsList from "@/atomic/molecule/contents-list";
 import PageHeader from "@/atomic/molecule/page-header";
+import { getAppId } from "@/service/AppleService";
 
 export default function Harmony() {
+    const appId = getAppId();
     const LIST2_COUNT = 7;
     const LIST3_COUNT = 5;
     const LIST4_COUNT = 8;
@@ -22,7 +24,7 @@ export default function Harmony() {
             <div className="ms-base-page ms-base-new emotion personality-trait">
                 <PageHeader
                     title={_("HARMONY.HEAD")}
-                    appId={1562956213}
+                    appId={appId}
                     appDownloadTitle={_("HARMONY.DWN")}
                     imgSrc="/img/page/harmony/harmony.webp"
                     imgAlt={_("HARMONY.IMG")}

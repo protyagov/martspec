@@ -9,9 +9,10 @@ import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
-import { TLanguageCode } from "@/model/TCodes";
+import { getAppId } from "@/service/AppleService";
 
 export default function BodyZinc() {
+    const appId = getAppId();
     const iconTitleTextListItems: Array<IconTitleText> = [
         {
             icon: {
@@ -55,7 +56,7 @@ export default function BodyZinc() {
                     title={_("ZINC.HEAD")}
                     subtitleLevel1={_("ZINC.ABOUT_1")}
                     subtitleLevel2={_("ZINC.ABOUT_2")}
-                    appId={1547395353}
+                    appId={appId}
                     appDownloadTitle={_("ZINC.DWN")}
                     imgSrc="/img/page/zinc/body_zinc.svg"
                     imgAlt="ZINC.IMG"
@@ -124,9 +125,10 @@ export default function BodyZinc() {
                 </section>
 
                 <Review
+                    appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
-                        languageCode: Locale.language as TLanguageCode,
+                        languageCode: Locale.language,
                     }}
                     text={{
                         head: _("REVIEW.HEAD"),
@@ -149,7 +151,7 @@ export default function BodyZinc() {
                             bgColor={{ backgroundColor: "#AAF1CF" }}
                             title={_("ZINC.HEAD5")}
                             subtitle={_("ZINC.DESC5")}
-                            appId={1547395353}
+                            appId={appId}
                             appDownloadTitle={_("ZINC.DWN")}
                             imgSrc="/img/page/zinc/bottom-pic-en.webp"
                             imgAlt={_("ZINC.ALT2")}

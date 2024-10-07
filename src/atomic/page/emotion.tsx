@@ -11,9 +11,10 @@ import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
 import BulletList from "@/atomic/molecule/bullet-list";
 import Review from "@/atomic/prototype/review";
-import { TLanguageCode } from "@/model/TCodes";
+import { getAppId } from "@/service/AppleService";
 
 export default function Emotion() {
+    const appId = getAppId();
     const advantages: Array<IconTitleText> = [
         {
             icon: {
@@ -56,7 +57,7 @@ export default function Emotion() {
             <div className="ms-base-page ms-base-new emotion">
                 <Header
                     title={_("EMOTION.HEAD")}
-                    appId={1562956213}
+                    appId={appId}
                     appDownloadTitle={_("EMOTION.DWN")}
                     imgSrc="/img/page/emotion/emotion-header-img-en.webp"
                     imgAlt={_("EMOTION.IMG")}
@@ -375,9 +376,10 @@ export default function Emotion() {
                 </section>
 
                 <Review
+                    appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
-                        languageCode: Locale.language as TLanguageCode,
+                        languageCode: Locale.language,
                     }}
                     text={{
                         head: _("REVIEW.HEAD"),
@@ -399,7 +401,7 @@ export default function Emotion() {
                         // bgColor={bg_color}
                         title={_("EMOTION.HEAD8")}
                         subtitle={_("EMOTION.DESK8")}
-                        appId={1562956213}
+                        appId={appId}
                         appDownloadTitle={_("EMOTION.DWN")}
                         imgSrc="/img/org/call-to-action/emotion/emotion-screen-app-en.webp"
                         imgAlt={_("EMOTION.ALT4")}

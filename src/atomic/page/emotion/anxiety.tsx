@@ -5,8 +5,10 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ContentsList from "@/atomic/molecule/contents-list";
 import PageHeader from "@/atomic/molecule/page-header";
+import { getAppId } from "@/service/AppleService";
 
 export default function Anxiety() {
+    const appId = getAppId();
     const LIST2_COUNT = 3;
     const LIST3_COUNT = 9;
     const LIST4_COUNT = 6;
@@ -22,7 +24,7 @@ export default function Anxiety() {
             <div className="ms-base-page ms-base-new emotion personality-trait">
                 <PageHeader
                     title={_("ANXIETY.HEAD")}
-                    appId={1562956213}
+                    appId={appId}
                     appDownloadTitle={_("ANXIETY.DWN")}
                     imgSrc="/img/page/anxiety/anxiety.webp"
                     imgAlt={_("ANXIETY.IMG")}
