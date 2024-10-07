@@ -10,4 +10,6 @@ import { Locale } from "@/i18n/locale";
 Locale.init();
 
 // share locale and styles via decorator
-export const Provider: GlobalProvider = ({ children }) => <>{children}</>;
+export const Provider: GlobalProvider = ({ children }) => (
+    <article className="ms-base-page ms-base-new h-100 align-content-center">{children}</article>
+);
