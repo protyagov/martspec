@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import fs from "fs";
+import fsExtra from "fs-extra";
 
 export default defineConfig({
     plugins: [
@@ -77,6 +78,17 @@ export default defineConfig({
 
                     next();
                 });
+            },
+            writeBundle() {
+                // Copy i18n files
+                const i18nSrc = path.resolve(__dirname, "src/i18n");
+                const i18nDest = path.resolve(__dirname, "build_ladle/i18n");
+                fsExtra.copySync(i18nSrc, i18nDest);
+
+                // Copy image files
+                const imgSrc = path.resolve(__dirname, "src/img");
+                const imgDest = path.resolve(__dirname, "build_ladle/img");
+                fsExtra.copySync(imgSrc, imgDest);
             },
         },
     ],
