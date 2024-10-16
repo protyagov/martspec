@@ -63,11 +63,12 @@ export default defineConfig({
             },
             async writeBundle() {
                 // Copy static files to the build directory after bundling
-                const staticFilesMap = [
-                    { from: "src/i18n", to: `${ladleBuildPath}/i18n` },
-                    { from: "src/img", to: `${ladleBuildPath}/img` },
-                ];
-                await copyStaticFiles(staticFilesMap);
+                await copyStaticFiles(
+                    Object.entries(STATIC_FILE_PATHS).map(([key, from]) => ({
+                        from,
+                        to: path.join(ladleBuildPath, key), // Use the key to create the destination path
+                    }))
+                );
             },
         },
     ],
