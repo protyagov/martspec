@@ -42,6 +42,7 @@ const serveHandlers = {
 
 // Vite configuration
 export default defineConfig({
+    base: "development",
     plugins: [
         react(),
         {

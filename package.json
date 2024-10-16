@@ -48,9 +48,10 @@
         "react-dom": "^18.1.0"
     },
     "scripts": {
-        "predeploy": "webpack --config webpack.prd.cjs",
+        "predeploy": "yarn prod && yarn ladle build",
         "deploy": "gh-pages -d build",
         "prod": "webpack --config webpack.prd.cjs",
         "svr": "webpack serve --config webpack.dev.cjs"
-    }
+    },
+    "packageManager": "yarn@4.5.0"
 }

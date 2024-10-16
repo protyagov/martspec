@@ -1,5 +1,5 @@
 /** @type {string} */
-export const ladleBuildPath = "build_ladle";
+export const ladleBuildPath = "build/development";
 
 /** @type {import('@ladle/react').UserConfig} */
 export default {
