@@ -28,11 +28,11 @@ const getContentType = (ext: string) => CONTENT_TYPES[ext] || "application/octet
 
 // Handlers for serving static files
 const serveHandlers = {
-    "/i18n/": (url: string, res: ServerResponse) => {
+    "/i18n/": async (url: string, res: ServerResponse) => {
         const filePath = path.join(STATIC_FILE_PATHS.i18n, url.slice(6));
         return serveFile(res, filePath, "application/json");
     },
-    "/img/": (url: string, res: ServerResponse) => {
+    "/img/": async (url: string, res: ServerResponse) => {
         const ext = path.extname(url);
         const contentType = getContentType(ext);
         const filePath = path.join(STATIC_FILE_PATHS.img, url.slice(5));
@@ -46,15 +46,16 @@ export default defineConfig({
         react(),
         {
             name: "serve-static-files",
-            configureServer(server) {
+            async configureServer(server) {
                 // Middleware to handle static file requests
-                server.middlewares.use((req, res, next) => {
+                server.middlewares.use(async (req, res, next) => {
                     const { url } = req;
                     if (!url) return handleError(res, 400, "Bad Request: URL is undefined");
 
                     for (const [prefix, handler] of Object.entries(serveHandlers)) {
                         if (url.startsWith(prefix)) {
-                            return handler(url, res);
+                            await handler(url, res);
+                            return;
                         }
                     }
 
