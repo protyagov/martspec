@@ -52,6 +52,5 @@
         "deploy": "gh-pages -d build",
         "prod": "webpack --config webpack.prd.cjs",
         "svr": "webpack serve --config webpack.dev.cjs"
-    },
-    "packageManager": "yarn@4.5.0"
+    }
 }
