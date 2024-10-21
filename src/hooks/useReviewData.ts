@@ -21,7 +21,8 @@ export const useReviewData = ({ codes, arrLength = 3, appId }: IUseReviewDataPro
         getReviewData({ appId, countryCode: codes.countryCode || "us" })
             .then((d) => validateReviewData({ reviewData: d.feed.entry, arrLength }))
             .then((r) => sortReviews({ validatedData: r, lang: codes.languageCode || "en" }))
-            .then((r) => setReviews(r));
+            .then((r) => setReviews(r))
+            .catch(() => validateReviewData({ reviewData: [], arrLength }).then((r) => setReviews(r)));
     }, []);
 
     return { reviews };
