@@ -5,9 +5,10 @@ import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
 import Review from "@/atomic/prototype/review";
-import { TLanguageCode } from "@/model/TCodes";
+import { getAppId } from "@/service/AppleService";
 
 export default function BodySize() {
+    const appId = getAppId();
     return (
         <>
             <NavigationBar />
@@ -16,7 +17,7 @@ export default function BodySize() {
                 <PageHeader
                     title={_("SIZE.HEAD")}
                     subtitleLevel2={_("SIZE.ABOUT")}
-                    appId={1564205068}
+                    appId={appId}
                     appDownloadTitle={_("SIZE.DWN")}
                     imgSrc="/img/page/body-size/size-head.svg"
                     imgAlt={_("SIZE.IMG")}
@@ -84,9 +85,10 @@ export default function BodySize() {
                 </section>
 
                 <Review
+                    appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
-                        languageCode: Locale.language as TLanguageCode,
+                        languageCode: Locale.language,
                     }}
                     text={{
                         head: _("REVIEW.HEAD"),

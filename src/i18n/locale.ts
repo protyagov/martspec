@@ -1,4 +1,4 @@
-import * as Polyglot from "node-polyglot";
+import Polyglot from "node-polyglot";
 import eb from "@/event-bus";
 import { TCountryCode, TLanguageCode } from "@/model/TCodes";
 
@@ -73,8 +73,8 @@ export class Locale {
     }
 
     //-------------------------------------------------------------------------------------------------------
-    static get language(): string {
-        return Locale._polyglot.locale() as string;
+    static get language(): TLanguageCode {
+        return Locale._polyglot.locale() as TLanguageCode;
     }
 
     static setLanguageFromUrl(url: string): string {

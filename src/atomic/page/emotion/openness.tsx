@@ -5,8 +5,10 @@ import NavigationBar from "@/atomic/organism/navbar";
 import ContentsList from "@/atomic/molecule/contents-list";
 import { useScrollSpy } from "@/hooks";
 import PageHeader from "@/atomic/molecule/page-header";
+import { getAppId } from "@/service/AppleService";
 
 export default function Openness() {
+    const appId = getAppId();
     const LIST3_COUNT = 6;
     const LIST5_1_COUNT = 6;
     const LIST5_2_COUNT = 6;
@@ -22,7 +24,7 @@ export default function Openness() {
             <div className="ms-base-page ms-base-new emotion personality-trait">
                 <PageHeader
                     title={_("OPENNESS.HEAD")}
-                    appId={1562956213}
+                    appId={appId}
                     appDownloadTitle={_("OPENNESS.DWN")}
                     imgSrc="/img/page/openness/openness.webp"
                     imgAlt={_("OPENNESS.IMG")}

@@ -15,9 +15,9 @@ import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardTitleSubtitle, { CardTitleSubtitleProps } from "@/atomic/molecule/card-title-subtitle";
 import Review from "@/atomic/prototype/review";
-import { TLanguageCode } from "@/model/TCodes";
 import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
 import Accordion, * as VitaminAccordion from "@/atomic/molecule/accordion";
+import { getAppId } from "@/service/AppleService";
 
 interface VitaminGroup {
     groupName: string;
@@ -99,6 +99,8 @@ const vitamins: VitaminGroup[] = [
 ];
 
 export default function Vitamin() {
+    const appId = getAppId();
+
     // const bgColor={background: "#1FF"}
     const advantages: Array<IconTitleText> = [
         {
@@ -204,7 +206,7 @@ export default function Vitamin() {
             <div className="ms-base-page ms-base-new vitamin">
                 <Header
                     title={_("VITAMIN.HEAD")}
-                    appId={1519596234}
+                    appId={appId}
                     appDownloadTitle={_("VITAMIN.DWN")}
                     imgSrc="/img/page/vitamin/vitamin-header-en.webp"
                     imgAlt={_("VITAMIN.IMG")}
@@ -394,9 +396,10 @@ export default function Vitamin() {
                 </section>
 
                 <Review
+                    appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
-                        languageCode: Locale.language as TLanguageCode,
+                        languageCode: Locale.language,
                     }}
                     text={{
                         head: _("REVIEW.HEAD"),
@@ -418,7 +421,7 @@ export default function Vitamin() {
                         // bgColor={bg_color}
                         title={_("VITAMIN.HEAD6")}
                         subtitle={_("VITAMIN.DESC6")}
-                        appId={1519596234}
+                        appId={appId}
                         appDownloadTitle={_("VITAMIN.DWN")}
                         imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
                         imgAlt={_("VITAMIN.ALT3")}

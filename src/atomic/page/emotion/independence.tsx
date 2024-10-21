@@ -5,8 +5,10 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ContentsList from "@/atomic/molecule/contents-list";
 import PageHeader from "@/atomic/molecule/page-header";
+import { getAppId } from "@/service/AppleService";
 
 export default function Independence() {
+    const appId = getAppId();
     const LIST2_COUNT = 5;
     const LIST3_COUNT = 5;
     const LIST5_COUNT = 7;
@@ -23,7 +25,7 @@ export default function Independence() {
             <div className="ms-base-page ms-base-new emotion personality-trait">
                 <PageHeader
                     title={_("INDEPENDENCE.HEAD")}
-                    appId={1562956213}
+                    appId={appId}
                     appDownloadTitle={_("INDEPENDENCE.DWN")}
                     imgSrc="/img/page/independence/independence.webp"
                     imgAlt={_("INDEPENDENCE.IMG")}

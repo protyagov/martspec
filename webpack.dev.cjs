@@ -1,6 +1,6 @@
 const { merge } = require("webpack-merge"),
     webpack = require("webpack"),
-    common = require("./webpack.com.js");
+    common = require("./webpack.com.cjs");
 
 module.exports = merge(common, {
     mode: "development",
@@ -26,8 +26,18 @@ module.exports = merge(common, {
     module: {
         rules: [
             {
-                test: /\.(sa|sc|c)ss$/,
-                use: ["style-loader", "css-loader", "sass-loader"],
+                test: /\.s[ac]ss$/i,
+                use: [
+                    "style-loader",
+                    "css-loader",
+                    {
+                        loader: "sass-loader",
+                        options: {
+                            // Prefer `dart-sass`
+                            implementation: require("sass"),
+                        },
+                    },
+                ],
             },
         ],
     },

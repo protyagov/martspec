@@ -9,9 +9,10 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
-import { TLanguageCode } from "@/model/TCodes";
+import { getAppId } from "@/service/AppleService";
 
 export default function WaistLine() {
+    const appId = getAppId();
     const advantages: Array<IconTitleText> = [
         {
             icon: {
@@ -55,7 +56,7 @@ export default function WaistLine() {
                     title={_("WAIST.HEAD")}
                     subtitleLevel1={_("WAIST.ABOUT_1")}
                     subtitleLevel2={_("WAIST.ABOUT_2")}
-                    appId={1506250420}
+                    appId={appId}
                     appDownloadTitle={_("WAIST.DWN")}
                     imgSrc="/img/page/waistline/waist.svg"
                     imgAlt={_("WAIST.IMG")}
@@ -135,9 +136,10 @@ export default function WaistLine() {
                 </section>
 
                 <Review
+                    appId={appId}
                     codes={{
                         countryCode: Locale.countryCode,
-                        languageCode: Locale.language as TLanguageCode,
+                        languageCode: Locale.language,
                     }}
                     text={{
                         head: _("REVIEW.HEAD"),
@@ -160,7 +162,7 @@ export default function WaistLine() {
                             bgColor={{ backgroundColor: "#FFB34066" }}
                             title={_("WAIST.HEAD5")}
                             subtitle={_("WAIST.DESC5")}
-                            appId={1506250420}
+                            appId={appId}
                             appDownloadTitle={_("WAIST.DWN")}
                             imgSrc="/img/page/waistline/call-to-action-en.webp"
                             imgAlt={_("WAIST.ALT2")}

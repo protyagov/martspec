@@ -3,7 +3,7 @@ import React from "react";
 import RightArrowIcon from "@/atomic/atom/right-arrow-icon";
 import TextLinkArrow, { TextLinkArrowProps } from "@/atomic/molecule/text-link-arrow";
 import { useReviewContext } from "@/atomic/molecule/review-context";
-import { getAppStoreLink } from "@/service/AppleReviewService";
+import { getAppStoreLink } from "@/service/AppleService";
 
 export function SendReviewsLink() {
     const { data, text } = useReviewContext();

@@ -1,12 +1,14 @@
 import * as React from "react";
-import _, {Locale} from "@/i18n/locale";
-import {Footer} from "@/atomic/organism/footer";
+import _, { Locale } from "@/i18n/locale";
+import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ContentsList from "@/atomic/molecule/contents-list";
-import {useScrollSpy} from "@/hooks";
+import { useScrollSpy } from "@/hooks";
 import PageHeader from "@/atomic/molecule/page-header";
+import { getAppId } from "@/service/AppleService";
 
 export default function Productivity() {
+    const appId = getAppId();
     const LISTS_COUNT = {
         LIST2: 8,
         LIST5: 7,
@@ -25,7 +27,7 @@ export default function Productivity() {
             <div className="ms-base-page ms-base-new emotion personality-trait">
                 <PageHeader
                     title={_("PRODUCTIVITY.HEAD")}
-                    appId={1562956213}
+                    appId={appId}
                     appDownloadTitle={_("PRODUCTIVITY.DWN")}
                     imgSrc="/img/page/productivity/productivity.webp"
                     imgAlt={_("PRODUCTIVITY.IMG")}

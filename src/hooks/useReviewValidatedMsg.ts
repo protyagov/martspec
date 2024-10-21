@@ -1,7 +1,8 @@
-import { TValidatedContentLabel } from "@/model/IReviewData";
-import { IValidateReviewMsg, validateReviewMsg } from "@/service/AppleReviewService";
 import { useLayoutEffect, useRef, useState } from "react";
 import { useWindowSize } from "@/hooks/useWindowSize";
+
+import { TValidatedContentLabel } from "@/model/IReviewData";
+import { IValidateReviewMsg, validateReviewMsg } from "@/service/AppleService";
 
 interface IUseReviewValidatedMsg {
     data: Pick<IValidateReviewMsg["data"], "origMsg">;

@@ -48,6 +48,18 @@ stateDiagram-v2
 
 ```
 
+## Ladle stories
+
+We use [**ladle**](https://ladle.dev/) this tool to create and consume components and example components (stories).
+
+<br />
+
+commands:
+
+```
+yarn ladle serve                    # Start dev server locally
+```
+
 ## Images WebP
 
 We use **webp** format for non SVG images on the site. When we get new images from designer do this:
@@ -62,6 +74,7 @@ We use **webp** format for non SVG images on the site. When we get new images fr
 This will create .webp images in _/src/img_ folder whose max size would be 512px.
 
 #### Script settings 🛠️:
+
 -   `DIR_INPUT` - the source directory with the images to convert (relative to the script folder). Default value `new` for _/src/img/new_ folder.
 
 -   `DIR_OUT` - the output directory with the resulting images (relative to the script folder). Default empty value for _/src/img_ folder.
@@ -69,11 +82,12 @@ This will create .webp images in _/src/img_ folder whose max size would be 512px
 -   `MAX_SIZE` - maximum size in px for the image height and width. Default value: `512`.
 
 #### In order to run the script you need to install the following aps:
+
 -   [cwebp](https://developers.google.com/speed/webp/download) - WebP encoder tool to compress an image file to a WebP file
 
 -   [pngcrush](https://pmt.sourceforge.io/pngcrush/) - an optimizer for PNG files
 
 -   for non-macOS operating systems:
 
-    - [magick](https://imagemagick.org/script/download.php) - command line tool from ImageMagick
-    > on macOS the script uses [sips](https://ss64.com/mac/sips.html) - the macOS command line tool
+    -   [magick](https://imagemagick.org/script/download.php) - command line tool from ImageMagick
+        > on macOS the script uses [sips](https://ss64.com/mac/sips.html) - the macOS command line tool
