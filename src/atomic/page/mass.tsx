@@ -3,13 +3,15 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import PageHeader from "@/atomic/molecule/page-header";
-import TitleTextCard from "@/atomic/molecule/title-text-card";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
+import CardImage from "../molecule/card-image";
+import CardTitleTextImage from "../molecule/card-title-text-image";
+import CardTitleText from "../molecule/card-title-text";
 
 export default function Bodymass() {
     const appId = getAppId();
@@ -73,22 +75,42 @@ export default function Bodymass() {
                 />
 
                 <section>
-                    <div className="row g-4">
-                        <TitleTextCard
-                            title={_("MASS.LIST1.LI1_HEAD")}
-                            text={_("MASS.LIST1.LI1_TEXT")}
-                            bgColor="#E8FAE0"
-                        />
-                        <TitleTextCard
-                            title={_("MASS.LIST1.LI2_HEAD")}
-                            text={_("MASS.LIST1.LI2_TEXT")}
-                            bgColor="#D6E3FC"
-                        />
-                        <TitleTextCard
-                            title={_("MASS.LIST1.LI3_HEAD")}
-                            text={_("MASS.LIST1.LI3_TEXT")}
-                            bgColor="#E8FAE0"
-                        />
+                    <div className="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
+                        <div className="col bg-img-positioning">
+                            <CardTitleTextImage
+                                title={_("MASS.LIST1.LI1_HEAD")}
+                                text={_("MASS.LIST1.LI1_TEXT")}
+                                imgSrc="/img/page/body-mass/card_bg.webp"
+                                imgH={239}
+                                imgW={400}
+                            />
+                        </div>
+                        <div className="col p-0">
+                            <div className="row row-cols-1 h-100 p-0">
+                                <div className="col py-0">
+                                    <CardTitleText
+                                        title={_("MASS.LIST1.LI2_HEAD")}
+                                        text={_("MASS.LIST1.LI2_TEXT")}
+                                        bgColor="#FFE0DF"
+                                    />
+                                </div>
+                                <div className="col py-0 mt-4">
+                                    <CardTitleText
+                                        title={_("MASS.LIST1.LI3_HEAD")}
+                                        text={_("MASS.LIST1.LI3_TEXT")}
+                                        bgColor="#FFEECB"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col col-md-12">
+                            <CardImage
+                                imgSrc="/img/page/body-mass/card_img.webp"
+                                imgH={720}
+                                imgW={664}
+                                bgColor="#F2F2F5"
+                            />
+                        </div>
                     </div>
                 </section>
 
