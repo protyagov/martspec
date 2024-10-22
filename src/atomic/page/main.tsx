@@ -137,7 +137,7 @@ export default function LandingPage() {
                             <div className="p-text">
                                 <h4>{_("ELECTROLYTE.TEXT")}</h4>
                                 <a href={Locale.i18nLink("electrolyte")} className="mt-3 ms-btn-large">
-                                    {_("ELECTROLYTE.BTN_OPEN")}
+                                    {_("ELECTROLYTE.BTN_MORE")}
                                 </a>
                             </div>
                         </div>
