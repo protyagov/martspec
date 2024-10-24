@@ -76,13 +76,14 @@ export default function Bodymass() {
 
                 <section>
                     <div className="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
-                        <div className="col bg-img-positioning">
+                        <div className="col">
                             <CardTitleTextImage
                                 title={_("MASS.LIST1.LI1_HEAD")}
                                 text={_("MASS.LIST1.LI1_TEXT")}
                                 imgSrc="/img/page/body-mass/card_bg.webp"
                                 imgH={239}
                                 imgW={400}
+                                imgPosition="bottom-right"
                             />
                         </div>
                         <div className="col p-0">
