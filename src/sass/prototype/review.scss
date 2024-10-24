@@ -58,13 +58,14 @@
                 
                 .review-card__header-main {
                     display: flex;
-                    align-items: center;
                     gap: 0.8rem;
                 }
     
                 .review-card__header-rating {
                     display: flex;
                     align-items: center;
+                    padding-top: 0.25rem;
+                    height: fit-content;
                 }
             }
         }
