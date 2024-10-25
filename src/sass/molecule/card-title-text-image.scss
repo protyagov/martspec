@@ -1,5 +1,31 @@
 .card-title-text-image {
+    position: relative; 
+    overflow: hidden; 
+
     .text {
         font-family: os4, sans-serif;
+    }
+
+    .img-bottom-right {
+        position: absolute;
+        margin: 0 !important;
+        z-index: -1;
+        right: -30%;
+        bottom: -20%;
+        @media (max-width: 1399px) {
+            right: -35%; 
+            bottom: -35%; 
+        }
+        @media (max-width: 991px) {
+            bottom: -44%; 
+        }
+        @media (max-width: 767px) {
+            right: -10%;
+            bottom: -80%;
+            width: 20rem;
+        }
+        @media (max-width: 344px) {
+            bottom: -60%;
+        }
     }
 }
