@@ -50,8 +50,8 @@ stateDiagram-v2
 
 ## Ladle stories
 
-We use [**ladle**](https://ladle.dev/) this tool to create and consume components and example components (stories). <br/>
-Go to [**martspec.com/development**](https://martspec.com/development) to see the components we have developed.
+We use [ladle](https://ladle.dev/) this tool to create and consume components and example components (stories). <br/>
+Go to [martspec.com/development](https://martspec.com/development) to see the components we have developed.
 <br />
 
 commands:
