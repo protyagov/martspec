@@ -1,6 +1,6 @@
 ## About
 
-[Martspec](martspec.com) is focused on promoting a healthy lifestyle. Our objective is to assist users in leading a healthier lifestyle by considering their vitamin and mineral intake, psychological well-being, and body characteristics.
+[Martspec](https://martspec.com/) is focused on promoting a healthy lifestyle. Our objective is to assist users in leading a healthier lifestyle by considering their vitamin and mineral intake, psychological well-being, and body characteristics.
 
 ![](https://img.shields.io/website?url=https%3A%2F%2Fmartspec.com)
 ![](https://visitor-badge.laobi.icu/badge?page_id=protyagov.martspec)
