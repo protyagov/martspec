@@ -11,7 +11,7 @@ export default {
 export const ButtonAppleStory: Story = () => (
     <ButtonApple
         appId={appIds["vitamin"]}
-        appDownloadTitle={'test'}
+        appDownloadTitle={'Vitamin'}
     />
 );
 
