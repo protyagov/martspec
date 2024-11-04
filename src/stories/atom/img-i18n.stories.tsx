@@ -18,8 +18,8 @@ export const ImageI18NStory: Story<{
 
 ImageI18NStory.args = {
 		src: "/img/page/vitamin/vitamin-home-en.webp",
-		alt: 'Track the most essential vitamins directly on your wrist',
-		cls: 'mx-auto my-4 img-fluid',
+		alt: "Track the most essential vitamins directly on your wrist",
+		cls: "mx-auto my-4 img-fluid",
 		h: 512,
 		w: 512
 };
