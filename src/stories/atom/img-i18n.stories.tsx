@@ -1,6 +1,6 @@
 import React from "react";
-import { Locale } from "@/i18n/locale";
 import type { Story, StoryDefault } from "@ladle/react";
+import ImageI18N from "@/atomic/atom/img-i18n";
 
 export default {
     title: "Atom",
@@ -12,15 +12,8 @@ export const ImageI18NStory: Story<{
 		cls?: string;
 		h: number;
 		w: number;
-}> = ({src, alt, cls, h, w}) => (
-		<img
-				src={src.replace("-en.", `-${Locale.language}.`)}
-				width={w}
-				height={h}
-				className={cls}
-				alt={alt}
-				onError={(e) => (e.currentTarget.src = src)}
-		/>
+}> = (props) => (
+		<ImageI18N {...props} />
 );
 
 ImageI18NStory.args = {
