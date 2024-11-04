@@ -14,7 +14,7 @@ export const RightArrowIconStory: Story<{
 
 RightArrowIconStory.args = {
 		items: {
-				style: {color: '#999'}
+				style: {color: "#999"}
 		}
 };
 
