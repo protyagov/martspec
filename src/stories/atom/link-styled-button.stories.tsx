@@ -1,6 +1,7 @@
 import React from "react";
 import _, { Locale } from "@/i18n/locale";
 import type { Story, StoryDefault } from "@ladle/react";
+import LinkStyledButton from "@/atomic/atom/link-styled-button";
 
 export default {
     title: "Atom",
@@ -11,16 +12,8 @@ export const LinkStyledButtonStory: Story<{
 		link: string;
 		color?: string;
 		className?: string;
-}> = ({text, link, color, className}) => (
-		<a 
-				href={link} 
-				target="_blank" 
-				rel="noopener noreferrer"
-				className={`btn ${className}`} 
-				style={{ backgroundColor: color }} 
-		>
-				{text}
-		</a>
+}> = (props) => (
+		<LinkStyledButton {...props} />
 );
 
 LinkStyledButtonStory.args = {
