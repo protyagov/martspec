@@ -7,11 +7,11 @@ export default {
 } satisfies StoryDefault;
 
 export const ImageI18NStory: Story<{
-	src: string;
-	alt?: string;
-	cls?: string;
-	h: number;
-	w: number;
+		src: string;
+		alt?: string;
+		cls?: string;
+		h: number;
+		w: number;
 }> = ({src, alt, cls, h, w}) => (
 		<img
 				src={src.replace("-en.", `-${Locale.language}.`)}
