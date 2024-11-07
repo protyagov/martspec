@@ -11,5 +11,7 @@ Locale.init();
 
 // share locale and styles via decorator
 export const Provider: GlobalProvider = ({ children }) => (
-    <article className="ms-base-page ms-base-new h-100 align-content-center">{children}</article>
+    <article className="ms-base-page ms-base-new h-100 d-flex justify-content-center align-items-center">
+        {children}
+    </article>
 );
