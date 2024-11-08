@@ -2,7 +2,7 @@ import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import PageHeader from "@/atomic/molecule/page-header";
+import Header from "@/atomic/organism/header";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
@@ -62,16 +62,20 @@ export default function Bodymass() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new bodymass">
-                <PageHeader
+                    <Header
                     title={_("MASS.HEAD")}
-                    subtitleLevel1={_("MASS.ABOUT_1")}
-                    subtitleLevel2={_("MASS.ABOUT_2")}
                     appId={appId}
                     appDownloadTitle={_("MASS.DWN")}
-                    imgSrc="/img/page/body-mass/mass.webp"
+                    imgSrc="/img/page/body-mass/mass-header.webp"
                     imgAlt={_("MASS.IMG")}
-                    imgH={428}
-                    imgW={428}
+                    imgH={531}
+                    imgW={722}
+                    content={
+                        <ul className="header-content-list">
+                            <li>{_("MASS.ABOUT_1")}</li>
+                            <li>{_("MASS.ABOUT_2")}</li>
+                        </ul>
+                    }
                 />
 
                 <section>
