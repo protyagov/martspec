@@ -1,0 +1,1 @@
+import{j as e}from"./index-CB9W78Up.js";import{R as r}from"./right-arrow-icon-Flaa_wGS.js";const i={title:"Atom"},t=o=>e.jsx(r,{...o.items});t.args={items:{style:{color:"#999"}}};t.storyName="RightArrowIcon";typeof window<"u"&&window.document&&window.document.createElement&&document.documentElement.setAttribute("data-storyloaded","");export{t as RightArrowIconStory,i as default};

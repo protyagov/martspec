@@ -5,6 +5,72 @@
     "version": 1
   },
   "stories": {
+    "atom--button-apple": {
+      "name": "Button apple",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 11,
+      "locEnd": 16,
+      "filePath": "src/stories/atom/button-apple.stories.tsx",
+      "namedExport": "ButtonAppleStory",
+      "meta": {}
+    },
+    "atom--icon-chevron-circle": {
+      "name": "Icon chevron circle",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 9,
+      "locEnd": 17,
+      "filePath": "src/stories/atom/icon-chevron-circle.stories.tsx",
+      "namedExport": "IconChevronCircleStory",
+      "meta": {}
+    },
+    "atom--icon-with-load": {
+      "name": "Icon with load",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 9,
+      "locEnd": 16,
+      "filePath": "src/stories/atom/icon-with-load.stories.tsx",
+      "namedExport": "IconWithLoadStory",
+      "meta": {}
+    },
+    "atom--image-i18-n": {
+      "name": "Image i18 n",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 9,
+      "locEnd": 17,
+      "filePath": "src/stories/atom/img-i18n.stories.tsx",
+      "namedExport": "ImageI18NStory",
+      "meta": {}
+    },
+    "atom--right-arrow-icon": {
+      "name": "Right arrow icon",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 9,
+      "locEnd": 13,
+      "filePath": "src/stories/atom/right-arrow-icon.stories.tsx",
+      "namedExport": "RightArrowIconStory",
+      "meta": {}
+    },
+    "atom--star-icon": {
+      "name": "Star icon",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 10,
+      "locEnd": 10,
+      "filePath": "src/stories/atom/star-icon.stories.tsx",
+      "namedExport": "StarIconStory",
+      "meta": {}
+    },
     "prototype--review": {
       "name": "Review",
       "levels": [
