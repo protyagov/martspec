@@ -8,19 +8,21 @@ export default {
 } satisfies StoryDefault;
 
 export const LinkStyledButtonStory: Story<{
-		text: string;
-		link: string;
-		color?: string;
-		className?: string;
+    text: string;
+    link: string;
+    color?: string;
+    className?: string;
 }> = (props) => (
-		<LinkStyledButton {...props} />
+    <div className="card-title-text-button">
+        <LinkStyledButton {...props} />
+    </div>
 );
 
 LinkStyledButtonStory.args = {
-		text: _("ELECTROLYTE.BTN_MORE"),
-		link: Locale.i18nLink(`coming-soon`),
-		color: "#8079CC",
-		className: "btn"
+    text: _("ELECTROLYTE.BTN_MORE"),
+    link: Locale.i18nLink(`coming-soon`),
+    color: "#8079CC",
+    className: "btn",
 };
 
 LinkStyledButtonStory.storyName = "LinkStyledButton";
