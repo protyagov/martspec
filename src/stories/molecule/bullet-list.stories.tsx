@@ -8,24 +8,28 @@ export default {
 } satisfies StoryDefault;
 
 export const BulletListStory: Story<{
-		items: string[];
-		iconColor: string;
-		className?: string;
+    items: string[];
+    iconColor: string;
+    className?: string;
 }> = (props) => (
-		<BulletList {...props} />
+    <div className="row">
+        <div className="col-lg-6">
+            <BulletList {...props} />
+        </div>
+    </div>
 );
 
 BulletListStory.args = {
-		items: [
-				_("EMOTION.LIST4.LI1_TEXT"),
-				_("EMOTION.LIST4.LI2_TEXT"),
-				_("EMOTION.LIST4.LI3_TEXT"),
-				_("EMOTION.LIST4.LI4_TEXT"),
-				_("EMOTION.LIST4.LI5_TEXT"),
-				_("EMOTION.LIST4.LI6_TEXT"),
-		],
-		iconColor: "#7B62FE",
-		className: "bullet-list"
+    items: [
+        _("EMOTION.LIST4.LI1_TEXT"),
+        _("EMOTION.LIST4.LI2_TEXT"),
+        _("EMOTION.LIST4.LI3_TEXT"),
+        _("EMOTION.LIST4.LI4_TEXT"),
+        _("EMOTION.LIST4.LI5_TEXT"),
+        _("EMOTION.LIST4.LI6_TEXT"),
+    ],
+    iconColor: "#7B62FE",
+    className: "bullet-list",
 };
 
 BulletListStory.storyName = "BulletList";
