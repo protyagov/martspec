@@ -1,1 +1,0 @@
-import{j as e}from"./index-B5QrPmTG.js";import{R as r}from"./right-arrow-icon-CBW2C3Xp.js";const i={title:"Atom"},t=o=>e.jsx(r,{...o.items});t.args={items:{style:{color:"#999"}}};t.storyName="RightArrowIcon";typeof window<"u"&&window.document&&window.document.createElement&&document.documentElement.setAttribute("data-storyloaded","");export{t as RightArrowIconStory,i as default};
