@@ -29,7 +29,7 @@ export const ReviewDescriptionStory: Story = () => (
             },
         }}
     >
-        <div className="row review py-5">
+        <div className="row review py-5 d-flex justify-content-center">
             <ReviewDescription />
         </div>
     </ReviewContext.Provider>
