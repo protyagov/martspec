@@ -8,7 +8,7 @@ export default {
 } satisfies StoryDefault;
 
 export const ReviewCardStory: Story = () => (
-    <div className="row review py-5">
+    <div className="row review py-5 justify-content-center">
         <ul className="review__list" style={{ maxWidth: "378px" }}>
             <ReviewCard
                 key="review_1"
