@@ -30,7 +30,7 @@ export const ReviewFillerCardStory: Story = () => (
             },
         }}
     >
-        <div className="row review py-5">
+        <div className="row review py-5 justify-content-center">
             <ul className="review__list" style={{ maxWidth: "378px" }}>
                 <ReviewFillerCard link={<SendReviewsLink />} posIndex={1} key={_("REVIEW.FILLER_CARD.HEAD2")} />
             </ul>
