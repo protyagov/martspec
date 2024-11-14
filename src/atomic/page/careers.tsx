@@ -50,7 +50,6 @@ const careers = [
     },
 ];
 
-
 const Careers = () => {
     return (
         <>
@@ -140,7 +139,8 @@ const Careers = () => {
                                 alt={getAlt()}
                                 arrowImage={<img src="/img/arrow-right.svg" width={6} height={12} />}
                                 color="#0d6efd"
-                                hoverColor="#0a58ca"  
+                                hoverColor="#0a58ca"
+                                imageZIndex={0}
                             />
                         ))}
                     </div>
@@ -152,4 +152,3 @@ const Careers = () => {
 };
 
 export default Careers;
-

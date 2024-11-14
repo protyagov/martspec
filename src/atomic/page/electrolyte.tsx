@@ -64,12 +64,12 @@ export default function Electrolyte() {
                             </div>
 
                             <div className="row g-4 p-0">
-                                <TitleTextLinkCard
+                            <TitleTextLinkCard
                                     title={_("ELECTROLYTE.HEAD3")}
                                     text={_("ELECTROLYTE.DESC3_1")}
                                     link={{
                                         text: _("ELECTROLYTE.BTN_LINK"),
-                                        href: "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional",
+                                        href:  Locale.i18nLink(`vitamin/magnesium`),
                                     }}
                                     gridColumnClass="col-xxl-6"
                                     bgColor="#E5EEFF"
@@ -84,7 +84,7 @@ export default function Electrolyte() {
                                     text={_("ELECTROLYTE.DESC4_1")}
                                     link={{
                                         text: _("ELECTROLYTE.BTN_LINK"),
-                                        href: "https://ods.od.nih.gov/factsheets/Calcium-Consumer",
+                                        href:  Locale.i18nLink(`vitamin/calcium`),
                                     }}
                                     image="/img/page/electrolyte/calcium.webp"
                                     alt="calcium"
@@ -103,7 +103,7 @@ export default function Electrolyte() {
                                     text={_("ELECTROLYTE.DESC5_1")}
                                     link={{
                                         text: _("ELECTROLYTE.BTN_LINK"),
-                                        href: "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional",
+                                        href:  Locale.i18nLink(`vitamin/potassium`),
                                     }}
                                     image="/img/page/electrolyte/potassium.webp"
                                     alt="potassium"
@@ -122,7 +122,7 @@ export default function Electrolyte() {
                                     text={_("ELECTROLYTE.DESC6_1")}
                                     link={{
                                         text: _("ELECTROLYTE.BTN_LINK"),
-                                        href: "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional",
+                                        href:  Locale.i18nLink(`vitamin/iron`),
                                     }}
                                     gridColumnClass="col-xxl-6"
                                     bgColor="#F4F5F8"

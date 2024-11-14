@@ -1,6 +1,6 @@
 ## About
 
-[Martspec](martspec.com) is focused on promoting a healthy lifestyle. Our objective is to assist users in leading a healthier lifestyle by considering their vitamin and mineral intake, psychological well-being, and body characteristics.
+[Martspec](https://martspec.com/) is focused on promoting a healthy lifestyle. Our objective is to assist users in leading a healthier lifestyle by considering their vitamin and mineral intake, psychological well-being, and body characteristics.
 
 ![](https://img.shields.io/website?url=https%3A%2F%2Fmartspec.com)
 ![](https://visitor-badge.laobi.icu/badge?page_id=protyagov.martspec)
@@ -50,8 +50,8 @@ stateDiagram-v2
 
 ## Ladle stories
 
-We use [**ladle**](https://ladle.dev/) this tool to create and consume components and example components (stories).
-
+We use [ladle](https://ladle.dev/) to create and use example-components (stories). <br/>
+Go to [martspec.com/development](https://martspec.com/development) to see the components we have developed.
 <br />
 
 commands:
