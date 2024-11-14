@@ -12,7 +12,7 @@ export const BulletListStory: Story<{
     iconColor: string;
     className?: string;
 }> = (props) => (
-    <div className="row">
+    <div className="row justify-content-center">
         <div className="col-lg-6">
             <BulletList {...props} />
         </div>
