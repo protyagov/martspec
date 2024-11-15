@@ -159,6 +159,28 @@
       "namedExport": "TeamMemberStory",
       "meta": {}
     },
+    "molecule--title-text-card": {
+      "name": "Title text card",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 10,
+      "locEnd": 19,
+      "filePath": "src/stories/molecule/title-text-card.stories.tsx",
+      "namedExport": "TitleTextCardStory",
+      "meta": {}
+    },
+    "molecule--title-text-link-card": {
+      "name": "Title text link card",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 10,
+      "locEnd": 31,
+      "filePath": "src/stories/molecule/title-text-link-card.stories.tsx",
+      "namedExport": "TitleTextLinkCardStory",
+      "meta": {}
+    },
     "prototype--review": {
       "name": "Review",
       "levels": [
