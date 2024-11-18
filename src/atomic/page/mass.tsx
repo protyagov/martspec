@@ -12,6 +12,7 @@ import { getAppId } from "@/service/AppleService";
 import CardImage from "../molecule/card-image";
 import CardTitleTextImage from "../molecule/card-title-text-image";
 import CardTitleText from "../molecule/card-title-text";
+import CardTitleTextButton from "../molecule/card-title-text-button";
 
 export default function Bodymass() {
     const appId = getAppId();
@@ -120,18 +121,23 @@ export default function Bodymass() {
                 </section>
 
                 <section>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h2>{_("MASS.HEAD2")}</h2>
-                            <p className="mb-4">{_("MASS.DESC2")}</p>
-                        </div>
-                        <div className="col-lg-6">
+                    <div className="row d-flex align-items-center justify-content-between g-4">
+                        <div className="col-12 col-xxl-6">
                             <ImageI18N
-                                src="/img/page/body-mass/main-pic-en.webp"
-                                w={379}
-                                h={440}
+                                src="/img/page/body-mass/mass-watches-ru.webp"
+                                w={487}
+                                h={515}
                                 cls="ms-base-image mt-mob-xs"
-                                alt={_("MASS.ALT1")}
+                            />
+                        </div>
+                        <div className="col-12 col-xxl-6">
+                            <CardTitleText
+                                title={_("MASS.HEAD2")}
+                                text={_("MASS.DESC2")}
+                                titleFS="2.5rem"
+                                textFS="1.5rem"
+                                titleFontFam={"os5"}
+                                textFontFam={"os3"}
                             />
                         </div>
                     </div>
