@@ -7,8 +7,8 @@ interface CardTitleTextProps {
     bgColor?: CSSProperties["color"];
     titleColor?: CSSProperties["color"];
     textColor?: CSSProperties["color"];
-    titleFS?: CSSProperties["fontSize"];
-    textFS?: CSSProperties["fontSize"];
+    titleFontSize?: CSSProperties["fontSize"];
+    textFontSize?: CSSProperties["fontSize"];
     titleFontFam?: CSSProperties["fontFamily"];
     textFontFam?: CSSProperties["fontFamily"];
 }
@@ -19,8 +19,8 @@ export default function CardTitleText({
     bgColor,
     titleColor = "#212529",
     textColor = "#595959",
-    titleFS = "1.5rem", // fs-4
-    textFS = "1.25rem", // fs-5
+    titleFontSize = "1.5rem", // fs-4
+    textFontSize = "1.25rem", // fs-5
     titleFontFam = "", 
     textFontFam = "", 
 }: CardTitleTextProps): React.ReactNode {
@@ -33,7 +33,7 @@ export default function CardTitleText({
                 className="mb-3 pe-5 lh-sm"
                 style={{
                     color: titleColor,
-                    fontSize: titleFS,
+                    fontSize: titleFontSize,
                     fontFamily: titleFontFam,
                 }}
             >
@@ -43,7 +43,7 @@ export default function CardTitleText({
                 className="text mb-0 pe-4 lh-sm"
                 style={{
                     color: textColor,
-                    fontSize: textFS,
+                    fontSize: textFontSize,
                     fontFamily: textFontFam,
                 }}
             >

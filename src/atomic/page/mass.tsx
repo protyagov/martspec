@@ -9,10 +9,9 @@ import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
-import CardImage from "../molecule/card-image";
-import CardTitleTextImage from "../molecule/card-title-text-image";
-import CardTitleText from "../molecule/card-title-text";
-import CardTitleTextButton from "../molecule/card-title-text-button";
+import CardImage from "@/atomic/molecule/card-image";
+import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
+import CardTitleText from "@/atomic/molecule/card-title-text";
 
 export default function Bodymass() {
     const appId = getAppId();
@@ -134,8 +133,8 @@ export default function Bodymass() {
                             <CardTitleText
                                 title={_("MASS.HEAD2")}
                                 text={_("MASS.DESC2")}
-                                titleFS="2.5rem"
-                                textFS="1.5rem"
+                                titleFontSize="2.5rem"
+                                textFontSize="1.5rem"
                                 titleFontFam={"os5"}
                                 textFontFam={"os3"}
                             />
