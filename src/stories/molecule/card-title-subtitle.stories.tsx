@@ -8,10 +8,10 @@ export default {
 } satisfies StoryDefault;
 
 export const CardTitleSubtitleStory: Story<CardTitleSubtitleProps> = (props) => (
-    <div className="row row-cols-xl-2 row-cols-1 mb-0 p-0 g-4">
+    <div className="row row-cols-xl-2 row-cols-1 mb-0 p-0 g-4 justify-content-center">
         <div className="col px-0">
-            <ul className="row row-cols-2 p-0 g-4">
-                <li key={props.title} className="col">
+            <ul className="row row-cols-1 p-0 g-4">
+                <li key={props.title} className="col" style={{maxWidth: '300px', margin: '0 auto'}}>
                     <CardTitleSubtitle {...props} />
                 </li>
             </ul>
