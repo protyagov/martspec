@@ -56,6 +56,14 @@ export default function Bodymass() {
             title: _("MASS.LIST3.LI5_HEAD"),
             subtitle: _("MASS.LIST3.LI5_TEXT"),
         },
+        {
+            icon: {
+                src: "/img/atom/icons/icon-watch-widget.svg",
+                alt: _("MASS.ALT5_5"),
+            },
+            title: _("MASS.LIST3.LI6_HEAD"),
+            subtitle: _("MASS.LIST3.LI6_TEXT"),
+        }
     ];
     return (
         <>
