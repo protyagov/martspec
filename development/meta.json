@@ -44,9 +44,20 @@
         "Atom"
       ],
       "locStart": 9,
-      "locEnd": 17,
+      "locEnd": 15,
       "filePath": "src/stories/atom/img-i18n.stories.tsx",
       "namedExport": "ImageI18NStory",
+      "meta": {}
+    },
+    "atom--link-styled-button": {
+      "name": "Link styled button",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 10,
+      "locEnd": 19,
+      "filePath": "src/stories/atom/link-styled-button.stories.tsx",
+      "namedExport": "LinkStyledButtonStory",
       "meta": {}
     },
     "atom--right-arrow-icon": {
@@ -80,6 +91,17 @@
       "locEnd": 23,
       "filePath": "src/stories/molecule/accordion.stories.tsx",
       "namedExport": "AccordionStory",
+      "meta": {}
+    },
+    "molecule--bullet-list": {
+      "name": "Bullet list",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 10,
+      "locEnd": 20,
+      "filePath": "src/stories/molecule/bullet-list.stories.tsx",
+      "namedExport": "BulletListStory",
       "meta": {}
     },
     "molecule--card-image": {
@@ -146,6 +168,50 @@
       "locEnd": 16,
       "filePath": "src/stories/molecule/contents-list.stories.tsx",
       "namedExport": "ContentsListStory",
+      "meta": {}
+    },
+    "molecule--page-header": {
+      "name": "Page header",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 11,
+      "locEnd": 24,
+      "filePath": "src/stories/molecule/page-header.stories.tsx",
+      "namedExport": "PageHeaderStory",
+      "meta": {}
+    },
+    "molecule--review-description": {
+      "name": "Review description",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 13,
+      "locEnd": 36,
+      "filePath": "src/stories/molecule/review-description.stories.tsx",
+      "namedExport": "ReviewDescriptionStory",
+      "meta": {}
+    },
+    "molecule--review-filler-card": {
+      "name": "Review filler card",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 14,
+      "locEnd": 39,
+      "filePath": "src/stories/molecule/review-filler-card.stories.tsx",
+      "namedExport": "ReviewFillerCardStory",
+      "meta": {}
+    },
+    "molecule--review-head": {
+      "name": "Review head",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 13,
+      "locEnd": 34,
+      "filePath": "src/stories/molecule/review-head.stories.tsx",
+      "namedExport": "ReviewHeadStory",
       "meta": {}
     },
     "molecule--team-member": {
