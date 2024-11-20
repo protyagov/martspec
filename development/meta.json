@@ -247,6 +247,50 @@
       "namedExport": "TitleTextLinkCardStory",
       "meta": {}
     },
+    "organism--call-to-action": {
+      "name": "Call to action",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 10,
+      "locEnd": 21,
+      "filePath": "src/stories/organism/call-to-action.stories.tsx",
+      "namedExport": "CallToActionStory",
+      "meta": {}
+    },
+    "organism--header": {
+      "name": "Header",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 10,
+      "locEnd": 31,
+      "filePath": "src/stories/organism/header.stories.tsx",
+      "namedExport": "HeaderStory",
+      "meta": {}
+    },
+    "organism--icon-title-text-list": {
+      "name": "Icon title text list",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 10,
+      "locEnd": 69,
+      "filePath": "src/stories/organism/icon-title-text-list.stories.tsx",
+      "namedExport": "IconTitleTextListStory",
+      "meta": {}
+    },
+    "organism--navigation-bar": {
+      "name": "Navigation bar",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 9,
+      "locEnd": 15,
+      "filePath": "src/stories/organism/navbar.stories.tsx",
+      "namedExport": "NavigationBarStory",
+      "meta": {}
+    },
     "prototype--review": {
       "name": "Review",
       "levels": [
