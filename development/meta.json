@@ -170,6 +170,17 @@
       "namedExport": "ContentsListStory",
       "meta": {}
     },
+    "molecule--icon-title-text-elem": {
+      "name": "Icon title text elem",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 10,
+      "locEnd": 21,
+      "filePath": "src/stories/molecule/icon-title-text-elem.stories.tsx",
+      "namedExport": "IconTitleTextElemStory",
+      "meta": {}
+    },
     "molecule--page-header": {
       "name": "Page header",
       "levels": [
@@ -223,6 +234,17 @@
       "locEnd": 24,
       "filePath": "src/stories/molecule/team-member.stories.tsx",
       "namedExport": "TeamMemberStory",
+      "meta": {}
+    },
+    "molecule--text-link-arrow": {
+      "name": "Text link arrow",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 11,
+      "locEnd": 20,
+      "filePath": "src/stories/molecule/text-link-arrow.stories.tsx",
+      "namedExport": "TextLinkArrowStory",
       "meta": {}
     },
     "molecule--title-text-card": {
