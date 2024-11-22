@@ -9,9 +9,9 @@ import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
-import CardImage from "../molecule/card-image";
-import CardTitleTextImage from "../molecule/card-title-text-image";
-import CardTitleText from "../molecule/card-title-text";
+import CardImage from "@/atomic/molecule/card-image";
+import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
+import CardTitleText from "@/atomic/molecule/card-title-text";
 
 export default function Bodymass() {
     const appId = getAppId();
@@ -56,6 +56,14 @@ export default function Bodymass() {
             title: _("MASS.LIST3.LI5_HEAD"),
             subtitle: _("MASS.LIST3.LI5_TEXT"),
         },
+        {
+            icon: {
+                src: "/img/atom/icons/icon-watch-widget.svg",
+                alt: _("MASS.ALT5_5"),
+            },
+            title: _("MASS.LIST3.LI6_HEAD"),
+            subtitle: _("MASS.LIST3.LI6_TEXT"),
+        }
     ];
     return (
         <>
@@ -120,18 +128,23 @@ export default function Bodymass() {
                 </section>
 
                 <section>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h2>{_("MASS.HEAD2")}</h2>
-                            <p className="mb-4">{_("MASS.DESC2")}</p>
-                        </div>
-                        <div className="col-lg-6">
+                    <div className="row d-flex align-items-center justify-content-between g-4">
+                        <div className="col-12 col-xxl-6">
                             <ImageI18N
-                                src="/img/page/body-mass/main-pic-en.webp"
-                                w={379}
-                                h={440}
+                                src="/img/page/body-mass/mass-watches-ru.webp"
+                                w={487}
+                                h={515}
                                 cls="ms-base-image mt-mob-xs"
-                                alt={_("MASS.ALT1")}
+                            />
+                        </div>
+                        <div className="col-12 col-xxl-6">
+                            <CardTitleText
+                                title={_("MASS.HEAD2")}
+                                text={_("MASS.DESC2")}
+                                titleFontSize="2.5rem"
+                                textFontSize="1.5rem"
+                                titleFontFam={"os5"}
+                                textFontFam={"os3"}
                             />
                         </div>
                     </div>
