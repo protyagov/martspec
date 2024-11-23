@@ -2,7 +2,6 @@ import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
 import _ from "@/i18n/locale";
 import appIds from "@/data/app-ids.json";
-
 import { ReviewContext } from "@/atomic/molecule/review-context";
 import ReviewCardSlider from "@/atomic/organism/review-card-slider";
 import { useMediaQuery, useReviewData } from "@/hooks";
@@ -21,8 +20,6 @@ export const ReviewCardSliderStory: Story = () => {
     const isTablet = useMediaQuery(`(max-width: ${XXL_BOOTSTRAP}px)`);
 
     const arrLength = isMobile ? 1 : isTablet ? 2 : 3;
-
-    console.log("isMobile:", isMobile, "isTablet:", isTablet, "arrLength:", arrLength);
 
     const { reviews } = useReviewData({
         codes,
