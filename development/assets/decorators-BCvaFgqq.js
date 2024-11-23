@@ -1,1 +1,0 @@
-import{j as o}from"./index-CpOiZ91u.js";const t=e=>o.jsx("div",{className:"d-flex justify-content-center mx-auto p-4 overflow-hidden border-0 rounded-4",style:{backgroundColor:"#f4f4f4",minWidth:"100px"},children:o.jsx(e,{})});export{t as I};

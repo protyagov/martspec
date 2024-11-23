@@ -115,6 +115,17 @@
       "namedExport": "CardImageStory",
       "meta": {}
     },
+    "molecule--card-title-subtitle": {
+      "name": "Card title subtitle",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 10,
+      "locEnd": 20,
+      "filePath": "src/stories/molecule/card-title-subtitle.stories.tsx",
+      "namedExport": "CardTitleSubtitleStory",
+      "meta": {}
+    },
     "molecule--card-title-text-button": {
       "name": "Card title text button",
       "levels": [
@@ -190,6 +201,17 @@
       "locEnd": 24,
       "filePath": "src/stories/molecule/page-header.stories.tsx",
       "namedExport": "PageHeaderStory",
+      "meta": {}
+    },
+    "molecule--review-card": {
+      "name": "Review card",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 10,
+      "locEnd": 22,
+      "filePath": "src/stories/molecule/review-card.stories.tsx",
+      "namedExport": "ReviewCardStory",
       "meta": {}
     },
     "molecule--review-description": {
