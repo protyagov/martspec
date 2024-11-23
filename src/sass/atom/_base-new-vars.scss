@@ -29,6 +29,7 @@ $bgs-new: (
     "blue": #d6e3fc,
     "aqua": #d6f7fc,
     "gray": #f4f4f4,
+    "new-gray": #F4F5F8
     // "gray": $ms-color-bg-secondary,
 );
 
@@ -48,8 +49,8 @@ $vitamin-colors: (
 
 $bodymass-colors: (
     "main": #0066cc,
-    "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
-    "bg": map-get($bgs-new, "blue"),
+    "main-filter": invert(62%) sepia(95%) saturate(430%) hue-rotate(1deg) brightness(102%) contrast(102%),
+    "bg": map-get($bgs-new, "new-gray"),
 );
 
 $waist-colors: (
