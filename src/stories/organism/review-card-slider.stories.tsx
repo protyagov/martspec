@@ -1,39 +1,67 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
 import _ from "@/i18n/locale";
-import ReviewCard from "@/atomic/molecule/review-card";
+import appIds from "@/data/app-ids.json";
+
+import { ReviewContext } from "@/atomic/molecule/review-context";
+import ReviewCardSlider from "@/atomic/organism/review-card-slider";
+import { useMediaQuery, useReviewData } from "@/hooks";
 
 export default {
     title: "Organism",
 } satisfies StoryDefault;
 
-export const ReviewCardSliderStory: Story = () => (
-    <div className="row review py-5">
-        <ul className="review__list">
-            <ReviewCard
-                key="review_1"
-                createdDate={String(new Date("2024-05-30"))}
-                reviewText="Это приложение стало настоящим открытием для меня! С его помощью я легко контролирую ежедневный прием необходимых витаминов, микроэлементов и пищевых..."
-                reviewerNickname="Vasprot"
-                rating="5"
-            />
-            <ReviewCard
-                key="review_2"
-                createdDate={String(new Date("2023-11-04"))}
-                reviewText="Приложение супер. Я все время забывала выпить лекарство, теперь мне приходит уведомление и все сохраняется. Добавьте функцию автосохранения, а то некоторые изменения появляются только после..."
-                reviewerNickname="Oxy39"
-                rating="5"
-            />
+const codes = { countryCode: "us", languageCode: "en" } as const;
+const appId = appIds["vitamin"];
+const LG_BOOTSTRAP = 992;
+const XXL_BOOTSTRAP = 1400;
 
-            <ReviewCard
-                key="review_3"
-                createdDate={String(new Date("2023-10-08"))}
-                reviewText="Выбирал из подобных приложений. Это лучшее. Гибкие настройки. Возможность добавить самостоятельно лекарства. Описание витаминов. Интеграция в приложение здоровье. И что..."
-                reviewerNickname="варлдпа"
-                rating="5"
-            />
-        </ul>
-    </div>
-);
+export const ReviewCardSliderStory: Story = () => {
+    const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
+    const isTablet = useMediaQuery(`(max-width: ${XXL_BOOTSTRAP}px)`);
+
+    const arrLength = isMobile ? 1 : isTablet ? 2 : 3;
+
+    console.log("isMobile:", isMobile, "isTablet:", isTablet, "arrLength:", arrLength);
+
+    const { reviews } = useReviewData({
+        codes,
+        arrLength,
+        appId,
+    });
+
+    if (!reviews) return <></>;
+
+    return (
+        <ReviewContext.Provider
+            value={{
+                data: {
+                    reviews: reviews.slice(0, arrLength),
+                    appId,
+                    countryCode: codes.countryCode,
+                },
+                text: {
+                    head: _("REVIEW.HEAD"),
+                    description: _("REVIEW.DESCRIPTION"),
+                    link: _("REVIEW.LINK_ALL_REVIEWS"),
+                    fillerCard: {
+                        head: [
+                            _("REVIEW.FILLER_CARD.HEAD1"),
+                            _("REVIEW.FILLER_CARD.HEAD2"),
+                            _("REVIEW.FILLER_CARD.HEAD3"),
+                        ],
+                        link: _("REVIEW.FILLER_CARD.LINK"),
+                    },
+                },
+            }}
+        >
+            <section>
+                <div className="row review py-5">
+                    <ReviewCardSlider />
+                </div>
+            </section>
+        </ReviewContext.Provider>
+    );
+};
 
 ReviewCardSliderStory.storyName = "ReviewCardSlider";
