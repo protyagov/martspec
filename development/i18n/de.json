@@ -83,7 +83,9 @@
             "LI4_HEAD": "Werbefrei",
             "LI4_TEXT": "Wir haben KEINE lästige Werbung",
             "LI5_HEAD": "Apple Health",
-            "LI5_TEXT": "Integration von Lese- und Schreibdaten"
+            "LI5_TEXT": "Integration von Lese- und Schreibdaten",
+            "LI6_HEAD": "Widgets für Uhren",
+            "LI6_TEXT": "Kompatibel mit allen Uhrengrößen"
         },
         "HEAD4": "Unsere App ist für jedes Apple Watch-Modell verfügbar",
         "DESC4": "Laden Sie die App jetzt herunter und überwachen Sie die Veränderungen Ihres Körpergewichts, auch im Laufe des Tages. Unterstützt über 20 Sprachen.",
