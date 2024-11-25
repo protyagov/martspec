@@ -335,6 +335,17 @@
       "namedExport": "NavigationBarStory",
       "meta": {}
     },
+    "organism--review-card-slider": {
+      "name": "Review card slider",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 18,
+      "locEnd": 62,
+      "filePath": "src/stories/organism/review-card-slider.stories.tsx",
+      "namedExport": "ReviewCardSliderStory",
+      "meta": {}
+    },
     "prototype--review": {
       "name": "Review",
       "levels": [
