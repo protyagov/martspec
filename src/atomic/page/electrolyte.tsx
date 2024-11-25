@@ -20,7 +20,7 @@ export default function Electrolyte() {
                         title={_("ELECTROLYTE.HEAD")}
                         appId={appId}
                         appDownloadTitle={_("ELECTROLYTE.DWN")}
-                        imgSrc="/img/page/electrolyte/electrolyte-header-en.webp"
+                        imgSrc="/img/page/electrolyte/Img-Header-en.webp"
                         imgAlt={_("ELECTROLYTE.IMG")}
                         imgH={531}
                         imgW={722}
@@ -37,7 +37,7 @@ export default function Electrolyte() {
                         <div className="row d-flex justify-content-between g-4">
                             <div className="col-12 col-xxl-6">
                                 <ImageI18N
-                                    src="/img/page/electrolyte/electrolyte-middle-pic-ru.webp"
+                                    src="/img/page/electrolyte/Img-WhyElectrolit-en.webp"
                                     w={487}
                                     h={515}
                                     cls="ms-base-image mt-mob-xs mb-6"
