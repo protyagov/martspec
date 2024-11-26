@@ -1,1 +1,0 @@
-import{j as o}from"./index-Dhfckc2T.js";import{S as e}from"./star-icon-BDmr9sQr.js";import{I as r}from"./decorators-C08Dkh-U.js";const m={title:"Atom"},t=()=>o.jsx(e,{});t.decorators=[r];t.storyName="StarIcon";typeof window<"u"&&window.document&&window.document.createElement&&document.documentElement.setAttribute("data-storyloaded","");export{t as StarIconStory,m as default};
