@@ -1,7 +1,8 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
+
 import IconWithLoad from "@/atomic/atom/icon-with-load";
-import { IconWrapper } from ".ladle/decorators";
+import { IconWrapper, PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Atom",
@@ -21,5 +22,5 @@ IconWithLoadStory.args = {
     isLoading: true,
 };
 
-IconWithLoadStory.decorators = [IconWrapper];
+IconWithLoadStory.decorators = [IconWrapper, PageWrapper];
 IconWithLoadStory.storyName = "IconWithLoad";

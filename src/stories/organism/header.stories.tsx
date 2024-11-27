@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
-import Header from "@/atomic/organism/header";
 import _ from "@/i18n/locale";
+
+import Header from "@/atomic/organism/header";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Organism",
@@ -30,4 +32,5 @@ export const HeaderStory: Story = () => {
     );
 };
 
+HeaderStory.decorators = [PageWrapper];
 HeaderStory.storyName = "Header";

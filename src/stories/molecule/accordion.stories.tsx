@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
-import Accordion from "@/atomic/molecule/accordion";
 import _ from "@/i18n/locale";
+
+import Accordion from "@/atomic/molecule/accordion";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -22,4 +24,5 @@ export const AccordionStory: Story = () => (
     </section>
 );
 
+AccordionStory.decorators = [PageWrapper];
 AccordionStory.storyName = "Accordion";

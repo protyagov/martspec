@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
-import ReviewCard from "@/atomic/molecule/review-card";
 import _ from "@/i18n/locale";
+
+import ReviewCard from "@/atomic/molecule/review-card";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -21,4 +23,5 @@ export const ReviewCardStory: Story = () => (
     </div>
 );
 
+ReviewCardStory.decorators = [PageWrapper];
 ReviewCardStory.storyName = "ReviewCard";

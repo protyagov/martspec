@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
+import _ from "@/i18n/locale";
+
 import IconTitleTextElem from "@/atomic/molecule/icon-title-text-elem";
-import _, { Locale } from "@/i18n/locale";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -20,4 +22,5 @@ export const IconTitleTextElemStory: Story = () => (
     </div>
 );
 
+IconTitleTextElemStory.decorators = [PageWrapper];
 IconTitleTextElemStory.storyName = "IconTitleTextElem";

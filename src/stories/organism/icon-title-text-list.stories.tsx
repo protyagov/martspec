@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
-import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import _ from "@/i18n/locale";
+
+import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Organism",
@@ -68,4 +70,5 @@ export const IconTitleTextListStory: Story = () => (
     </section>
 );
 
+IconTitleTextListStory.decorators = [PageWrapper];
 IconTitleTextListStory.storyName = "IconTitleTextList";

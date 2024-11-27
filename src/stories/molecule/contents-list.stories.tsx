@@ -2,6 +2,7 @@ import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
 
 import ContentsList from "@/atomic/molecule/contents-list";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -15,4 +16,5 @@ export const ContentsListStory: Story = () => (
     </section>
 );
 
+ContentsListStory.decorators = [PageWrapper];
 ContentsListStory.storyName = "ContentsList";

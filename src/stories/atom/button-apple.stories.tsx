@@ -1,8 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
 import appIds from "@/data/app-ids.json";
+
 import ButtonApple from "@/atomic/atom/button-apple";
-import { IconWrapper } from ".ladle/decorators";
+import { IconWrapper, PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Atom",
@@ -10,5 +11,5 @@ export default {
 
 export const ButtonAppleStory: Story = () => <ButtonApple appId={appIds["vitamin"]} appDownloadTitle={"Vitamin"} />;
 
-ButtonAppleStory.decorators = [IconWrapper];
+ButtonAppleStory.decorators = [IconWrapper, PageWrapper];
 ButtonAppleStory.storyName = "ButtonApple";

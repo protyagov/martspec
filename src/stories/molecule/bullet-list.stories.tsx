@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
-import BulletList from "@/atomic/molecule/bullet-list";
 import _ from "@/i18n/locale";
+
+import BulletList from "@/atomic/molecule/bullet-list";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -32,4 +34,5 @@ BulletListStory.args = {
     className: "bullet-list",
 };
 
+BulletListStory.decorators = [PageWrapper];
 BulletListStory.storyName = "BulletList";

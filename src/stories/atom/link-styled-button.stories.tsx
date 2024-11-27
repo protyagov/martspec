@@ -1,7 +1,9 @@
 import React from "react";
 import _, { Locale } from "@/i18n/locale";
 import type { Story, StoryDefault } from "@ladle/react";
+
 import LinkStyledButton from "@/atomic/atom/link-styled-button";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Atom",
@@ -25,4 +27,5 @@ LinkStyledButtonStory.args = {
     className: "btn",
 };
 
+LinkStyledButtonStory.decorators = [PageWrapper];
 LinkStyledButtonStory.storyName = "LinkStyledButton";

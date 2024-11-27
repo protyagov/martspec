@@ -1,6 +1,8 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
+
 import ImageI18N from "@/atomic/atom/img-i18n";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Atom",
@@ -22,4 +24,5 @@ ImageI18NStory.args = {
     w: 512,
 };
 
+ImageI18NStory.decorators = [PageWrapper];
 ImageI18NStory.storyName = "ImageI18N";

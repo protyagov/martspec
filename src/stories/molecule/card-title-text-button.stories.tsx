@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
-import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import _, { Locale } from "@/i18n/locale";
+
+import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -18,5 +20,5 @@ export const CardTitleTextButtonStory: Story = () => (
         />
     </div>
 );
-
+CardTitleTextButtonStory.decorators = [PageWrapper];
 CardTitleTextButtonStory.storyName = "CardTitleTextButton";

@@ -2,6 +2,7 @@ import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
 
 import TeamMember from "@/atomic/molecule/team-Member";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -23,4 +24,5 @@ export const TeamMemberStory: Story = () => (
     </div>
 );
 
+TeamMemberStory.decorators = [PageWrapper];
 TeamMemberStory.storyName = "TeamMember";

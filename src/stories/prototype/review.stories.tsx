@@ -1,9 +1,10 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
 import appIds from "@/data/app-ids.json";
+import _, { Locale } from "@/i18n/locale";
 
 import Review from "@/atomic/prototype/review";
-import _, { Locale } from "@/i18n/locale";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Prototype",
@@ -28,4 +29,5 @@ export const ReviewStory: Story = () => (
     />
 );
 
+ReviewStory.decorators = [PageWrapper];
 ReviewStory.storyName = "Review";

@@ -3,6 +3,7 @@ import type { Story, StoryDefault } from "@ladle/react";
 import _ from "@/i18n/locale";
 
 import PageHeader from "@/atomic/molecule/page-header";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -23,4 +24,5 @@ export const PageHeaderStory: Story = () => (
     </div>
 );
 
+PageHeaderStory.decorators = [PageWrapper];
 PageHeaderStory.storyName = "PageHeader";

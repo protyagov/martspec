@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
+import _ from "@/i18n/locale";
+
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
-import _, { Locale } from "@/i18n/locale";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -30,4 +32,5 @@ export const TitleTextLinkCardStory: Story = () => (
     </div>
 );
 
+TitleTextLinkCardStory.decorators = [PageWrapper];
 TitleTextLinkCardStory.storyName = "TitleTextLinkCard";

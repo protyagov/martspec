@@ -6,6 +6,7 @@ import appIds from "@/data/app-ids.json";
 import ReviewFillerCard from "@/atomic/molecule/review-filler-card";
 import { ReviewContext } from "@/atomic/molecule/review-context";
 import { SendReviewsLink } from "@/atomic/organism/review-link";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -38,4 +39,5 @@ export const ReviewFillerCardStory: Story = () => (
     </ReviewContext.Provider>
 );
 
+ReviewFillerCardStory.decorators = [PageWrapper];
 ReviewFillerCardStory.storyName = "ReviewFillerCard";
