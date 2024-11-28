@@ -130,7 +130,7 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
                             </section>
 
                             <section className='row'>
-                                <a href={vacancyData.APPLY_LINK} target="_blank" rel="noopener noreferrer">
+                                <a className="d-inline-block w-auto" href={vacancyData.APPLY_LINK} target="_blank" rel="noopener noreferrer">
                                     <button className='mt-2 ms-btn-large mb-6'>{data.RESPONSE_BTN}</button>
                                 </a>
                             </section>
