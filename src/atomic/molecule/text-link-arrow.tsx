@@ -44,6 +44,8 @@ export default function TextLinkArrow({
                 "--font-family": fontFamily,
                 fontSize,
                 "--font-size": fontSize,
+                position: "relative",
+                zIndex: "10"
             } as CSSPropertiesWithVars}
         >
             {text}
