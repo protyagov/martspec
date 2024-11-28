@@ -17,7 +17,9 @@ interface Props {
     borderClass?: string; 
     imageZIndex?: number; 
     imageOpacity?: number; 
-    additionalCardClass?: string
+    additionalCardClass?: string;
+    fontFamily?: string;
+    fontSize?: string
 }
 
 interface Link {
@@ -35,12 +37,14 @@ const TitleTextLinkCard: React.FC<Props> = ({
     alt = "Image",
     arrowImage = null,
     hoverColor = "",
-    color="",
+    color = "",
     hasShadow = false,
     borderClass = "",
     imageZIndex = 1, 
     imageOpacity = 1,
-    additionalCardClass = ""
+    additionalCardClass = "",
+    fontFamily = "",
+    fontSize = ""
 }) => {
     return (
         <div className={gridColumnClass}>
@@ -54,7 +58,7 @@ const TitleTextLinkCard: React.FC<Props> = ({
                     />
                 )}
                 <div>
-                    <h3>{title}</h3>
+                    <h3 style={{zIndex: 2}}>{title}</h3>
                     <p>{text}</p>
                     <TextLinkArrow
                         href={link.href}
@@ -63,6 +67,8 @@ const TitleTextLinkCard: React.FC<Props> = ({
                         isNewTab={true}
                         color={color}
                         hoverColor={hoverColor}
+                        fontFamily={fontFamily}
+                        fontSize={fontSize}
                     />
                 </div>
             </div>
