@@ -137,10 +137,12 @@ const Careers = () => {
                                 image={image}
                                 imageOpacity={0.3}
                                 alt={getAlt()}
-                                arrowImage={<img src="/img/arrow-right.svg" width={6} height={12} />}
+                                arrowImage={<img src="/img/arrow-right.svg" width={7} height="auto"/>}
                                 color="#0d6efd"
                                 hoverColor="#0a58ca"
                                 imageZIndex={0}
+                                fontFamily="os6"
+                                fontSize="1rem"
                             />
                         ))}
                     </div>

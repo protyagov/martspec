@@ -3,6 +3,8 @@ import "@/sass/molecule/text-link-arrow.scss";
 
 interface CSSPropertiesWithVars extends CSSProperties {
     "--hover-color"?: CSSProperties["color"];
+    "--font-family"?: CSSProperties["fontFamily"];
+    "--font-size"?: CSSProperties["fontSize"];
 }
 
 export interface TextLinkArrowProps {
@@ -12,7 +14,9 @@ export interface TextLinkArrowProps {
     isNewTab?: boolean;
     color?: CSSProperties["color"];
     hoverColor?: CSSProperties["color"];
-    hasUnderlineHover?: boolean; 
+    fontFamily?: CSSProperties["fontFamily"];
+    fontSize?: CSSProperties["fontSize"]; // Новый пропс
+    hasUnderlineHover?: boolean;
 }
 
 export default function TextLinkArrow({
@@ -22,7 +26,9 @@ export default function TextLinkArrow({
     isNewTab,
     color = "#0d6efd",
     hoverColor = "#0a58ca",
-    hasUnderlineHover = true, 
+    fontFamily = "",
+    fontSize = "1.2rem", // Значение по умолчанию
+    hasUnderlineHover = true,
 }: TextLinkArrowProps) {
     const newTabProps = isNewTab && { target: "_blank", rel: "noreferrer noopener" };
 
@@ -31,7 +37,16 @@ export default function TextLinkArrow({
             href={href}
             {...newTabProps}
             className={`text-link-arrow d-flex align-items-center gap-2 text-decoration-none lh-sm ${hasUnderlineHover ? "with-underline" : ""}`}
-            style={{ color, "--hover-color": hoverColor } as CSSPropertiesWithVars}
+            style={{
+                color,
+                "--hover-color": hoverColor,
+                fontFamily,
+                "--font-family": fontFamily,
+                fontSize,
+                "--font-size": fontSize,
+                position: "relative",
+                zIndex: "10"
+            } as CSSPropertiesWithVars}
         >
             {text}
             {rightIcon}
