@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
-import CardVitamin from "@/atomic/molecule/card-vitamin";
 import _, { Locale } from "@/i18n/locale";
+
+import CardVitamin from "@/atomic/molecule/card-vitamin";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -25,4 +27,5 @@ export const CardVitaminStory: Story = () => (
     </div>
 );
 
+CardVitaminStory.decorators = [PageWrapper];
 CardVitaminStory.storyName = "CardVitamin";

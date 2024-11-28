@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
-import CardTitleSubtitle, { CardTitleSubtitleProps } from "@/atomic/molecule/card-title-subtitle";
 import _ from "@/i18n/locale";
+
+import CardTitleSubtitle, { CardTitleSubtitleProps } from "@/atomic/molecule/card-title-subtitle";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -32,4 +34,5 @@ CardTitleSubtitleStory.args = {
     },
 };
 
+CardTitleSubtitleStory.decorators = [PageWrapper];
 CardTitleSubtitleStory.storyName = "CardTitleSubtitle";

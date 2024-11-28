@@ -2,9 +2,11 @@ import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
 import _ from "@/i18n/locale";
 import appIds from "@/data/app-ids.json";
+
 import { ReviewContext } from "@/atomic/molecule/review-context";
 import ReviewCardSlider from "@/atomic/organism/review-card-slider";
 import { useMediaQuery, useReviewData } from "@/hooks";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Organism",
@@ -61,4 +63,5 @@ export const ReviewCardSliderStory: Story = () => {
     );
 };
 
+ReviewCardSliderStory.decorators = [PageWrapper];
 ReviewCardSliderStory.storyName = "ReviewCardSlider";

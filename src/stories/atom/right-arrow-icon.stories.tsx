@@ -1,7 +1,8 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
+
 import RightArrowIcon from "@/atomic/atom/right-arrow-icon";
-import { IconWrapper } from ".ladle/decorators";
+import { IconWrapper, PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Atom",
@@ -17,5 +18,5 @@ RightArrowIconStory.args = {
     },
 };
 
-RightArrowIconStory.decorators = [IconWrapper];
+RightArrowIconStory.decorators = [IconWrapper, PageWrapper];
 RightArrowIconStory.storyName = "RightArrowIcon";

@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
-import CardImage from "@/atomic/molecule/card-image";
 import _, { Locale } from "@/i18n/locale";
+
+import CardImage from "@/atomic/molecule/card-image";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -25,4 +27,5 @@ export const CardImageStory: Story = () => {
     );
 }
 
+CardImageStory.decorators = [PageWrapper];
 CardImageStory.storyName = "CardImage";

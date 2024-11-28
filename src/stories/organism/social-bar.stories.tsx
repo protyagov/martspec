@@ -3,6 +3,7 @@ import type { Story, StoryDefault } from "@ladle/react";
 import _ from "@/i18n/locale";
 
 import SocialBar from "@/atomic/organism/social-bar";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Organism",
@@ -17,4 +18,5 @@ export const SocialBarStory: Story = () => (
     </div>
 );
 
+SocialBarStory.decorators = [PageWrapper];
 SocialBarStory.storyName = "SocialBar";

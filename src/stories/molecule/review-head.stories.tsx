@@ -5,6 +5,7 @@ import appIds from "@/data/app-ids.json";
 
 import ReviewHead from "@/atomic/molecule/review-head";
 import { ReviewContext } from "@/atomic/molecule/review-context";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Molecule",
@@ -33,4 +34,5 @@ export const ReviewHeadStory: Story = () => (
     </ReviewContext.Provider>
 );
 
+ReviewHeadStory.decorators = [PageWrapper];
 ReviewHeadStory.storyName = "ReviewHead";

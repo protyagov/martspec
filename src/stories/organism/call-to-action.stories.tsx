@@ -1,7 +1,9 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
-import CallToAction from "@/atomic/organism/call-to-action";
 import _ from "@/i18n/locale";
+
+import CallToAction from "@/atomic/organism/call-to-action";
+import { PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Organism",
@@ -20,4 +22,5 @@ export const CallToActionStory: Story = () => (
     </section>
 );
 
+CallToActionStory.decorators = [PageWrapper];
 CallToActionStory.storyName = "CallToAction";

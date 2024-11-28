@@ -1,7 +1,8 @@
 import React from "react";
 import type { Story, StoryDefault } from "@ladle/react";
+
 import IconChevronCircle from "@/atomic/atom/icon-chevron-circle";
-import { IconWrapper } from ".ladle/decorators";
+import { IconWrapper, PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Atom",
@@ -13,5 +14,5 @@ export const IconChevronCircleStory: Story = () => (
     </div>
 );
 
-IconChevronCircleStory.decorators = [IconWrapper];
+IconChevronCircleStory.decorators = [IconWrapper, PageWrapper];
 IconChevronCircleStory.storyName = "IconChevronCircle";
