@@ -129,10 +129,13 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
                                 </ul>
                             </section>
 
-                            <section className='row'>
-                                <a href={vacancyData.APPLY_LINK} target="_blank" rel="noopener noreferrer">
-                                    <button className='mt-2 ms-btn-large mb-6'>{data.RESPONSE_BTN}</button>
-                                </a>
+                            <section className="row">
+                                <button 
+                                    className="mt-2 ms-btn-large mb-6 w-auto" 
+                                    onClick={() => window.open(vacancyData.APPLY_LINK, '_blank', 'noopener,noreferrer')}
+                                >
+                                    {data.RESPONSE_BTN}
+                                </button>
                             </section>
                         </>
                     )}
