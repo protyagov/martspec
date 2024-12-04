@@ -551,7 +551,7 @@
         },
         "CHLORIDE": {
             "HEAD": "Cl",
-            "NAME": "chlorure",
+            "NAME": "chlore",
             "DESK": "Le chlore aide à la synthèse/production du suc gastrique et forme un bon appétit. Retient l'eau dans les tissus, empêchant le corps de perdre de l'humidité.",
             "FUNC": "Réguler la quantité de liquide et les types de nutriments entrant et sortant des cellules (pression osmotique des fluides corporels 🥤). Maintenir un bon équilibre acido-basique (niveau de pH). Déclenchement de l'acide gastrique nécessaire à la digestion. Stimuler l'action des cellules nerveuses et musculaires. Initier le flux d’oxygène et de dioxyde de carbone.",
             "DEF_1": "Niveau de pH sanguin élevé",

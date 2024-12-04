@@ -551,7 +551,7 @@
         },
         "CHLORIDE": {
             "HEAD": "Cl",
-            "NAME": "chloride",
+            "NAME": "chlorine",
             "DESK": "Chlorine helps in the synthesis/production of gastric juice and forms a good appetite. Retains water in tissues, preventing the body from losing moisture.",
             "FUNC": "Regulating the amount of fluid and types of nutrients going in and out of the cells (osmotic pressure of body fluids 🥤). Maintaining proper acid-base balance (pH level). Triggering stomach acid needed for digestion. Stimulating the action of nerve and muscle cells. Initiating the flow of oxygen and carbon dioxide.",
             "DEF_1": "High blood pH level",

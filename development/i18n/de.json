@@ -535,7 +535,7 @@
         },
         "CALCIUM": {
             "HEAD": "Ca",
-            "NAME": "Kalzium",
+            "NAME": "Calcium",
             "DESK": "Calcium ist das Hauptelement des Knochengewebes sowie ein universeller Regulator der Zellaktivität.",
             "FUNC": "Gesunde Knochen und Zähne. Spielt eine wichtige Rolle bei der Blutgerinnung. Hilft bei der Muskelkontraktion und reguliert normale Herzrhythmen und Nervenfunktionen. Hält Gewebe steif, stark und flexibel.",
             "DEF_1": "Knochenschwäche, die zu Osteoporose führen könnte",

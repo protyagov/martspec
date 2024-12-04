@@ -357,6 +357,17 @@
       "namedExport": "ReviewCardSliderStory",
       "meta": {}
     },
+    "organism--review-link": {
+      "name": "Review link",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 14,
+      "locEnd": 38,
+      "filePath": "src/stories/organism/review-link.stories.tsx",
+      "namedExport": "ReviewLinkStory",
+      "meta": {}
+    },
     "organism--social-bar": {
       "name": "Social bar",
       "levels": [
