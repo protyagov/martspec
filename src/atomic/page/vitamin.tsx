@@ -2,7 +2,6 @@ import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import VitaminItem from "@/atomic/molecule/vitamin-item";
 import PageHeader from "@/atomic/molecule/page-header";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import CallToAction from "@/atomic/organism/call-to-action";
@@ -258,26 +257,6 @@ export default function Vitamin() {
                                 imgW={664}
                                 imgAlt={_("VITAMIN.ALT4")}
                                 bgColor="#F2F2F5"
-                            />
-                        </div>
-                    </div>
-                </section>
-
-                <section>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h2>{_("VITAMIN.HEAD2")}</h2>
-                            <p className="mb-4">{_("VITAMIN.DESC2_1")}</p>
-                            <p className="mb-4">{_("VITAMIN.DESC2_2")}</p>
-                            <p className="mb-0">{_("VITAMIN.DESC2_3")}</p>
-                        </div>
-                        <div className="col-lg-6">
-                            <ImageI18N
-                                src="/img/page/vitamin/vitamin-screen-desc-en.webp"
-                                w={390}
-                                h={515}
-                                cls="ms-base-image mt-mob-xs"
-                                alt={_("VITAMIN.ALT1")}
                             />
                         </div>
                     </div>
