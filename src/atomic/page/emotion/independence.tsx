@@ -1,9 +1,7 @@
 import * as React from "react";
-import _, { Locale } from "@/i18n/locale";
-import { useScrollSpy } from "@/hooks";
+import _ from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import ContentsList from "@/atomic/molecule/contents-list";
 import PageHeader from "@/atomic/molecule/page-header";
 import { getAppId } from "@/service/AppleService";
 
@@ -13,10 +11,6 @@ export default function Independence() {
     const LIST3_COUNT = 5;
     const LIST5_COUNT = 7;
     const LIST6_COUNT = 9;
-
-    const CONTENTS_COUNT = 6;
-
-    useScrollSpy("contents-list");
 
     return (
         <>
@@ -35,7 +29,7 @@ export default function Independence() {
 
                 <section>
                     <div className="row">
-                        <div className="col-lg-8 order-lg-1 order-2">
+                        <div className="col-lg-12">
                             <div id="section-1" className="content-wrapper">
                                 <h2>{_("INDEPENDENCE.HEAD1")}</h2>
                                 <p>{_("INDEPENDENCE.DESK1_1")}</p>
@@ -117,12 +111,6 @@ export default function Independence() {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 order-lg-2 order-1">
-                            <div className="contents-list">
-                                <h3>{_("INDEPENDENCE.CONTENTS")}</h3>
-                                <ContentsList PAGE="INDEPENDENCE" CONTENTS_COUNT={CONTENTS_COUNT} />
-                            </div>
-                        </div>
                     </div>
                 </section>
             </div>

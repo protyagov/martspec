@@ -1,9 +1,7 @@
 import * as React from "react";
-import _, { Locale } from "@/i18n/locale";
+import _ from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import ContentsList from "@/atomic/molecule/contents-list";
-import { useScrollSpy } from "@/hooks";
 import PageHeader from "@/atomic/molecule/page-header";
 import { getAppId } from "@/service/AppleService";
 
@@ -15,10 +13,6 @@ export default function Productivity() {
         LIST6_1: 10,
         LIST6_2: 5,
     };
-
-    const CONTENTS_COUNT = 6;
-
-    useScrollSpy("contents-list");
 
     return (
         <>
@@ -37,7 +31,7 @@ export default function Productivity() {
 
                 <section>
                     <div className="row">
-                        <div className="col-lg-8 order-lg-1 order-2">
+                        <div className="col-lg-12">
                             <div id="section-1" className="content-wrapper">
                                 <h2>{_("PRODUCTIVITY.HEAD1")}</h2>
                                 <p>{_("PRODUCTIVITY.DESK1_1")}</p>
@@ -122,12 +116,6 @@ export default function Productivity() {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 order-lg-2 order-1">
-                            <div className="contents-list">
-                                <h3>{_("PRODUCTIVITY.CONTENTS")}</h3>
-                                <ContentsList PAGE="PRODUCTIVITY" CONTENTS_COUNT={CONTENTS_COUNT} />
-                            </div>
-                        </div>
                     </div>
                 </section>
             </div>
