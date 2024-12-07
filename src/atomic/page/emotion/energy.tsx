@@ -30,7 +30,7 @@ export default function Energy() {
 
                 <section>
                     <div className="row">
-                        <div className="col-lg-12">
+                        <div className="col-lg-8 mx-auto">
                             <div id="section-1" className="content-wrapper">
                                 <h2>{_("ENERGY.HEAD1")}</h2>
                                 <p>{_("ENERGY.DESK1_1")}</p>
