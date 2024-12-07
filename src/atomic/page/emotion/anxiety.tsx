@@ -1,9 +1,7 @@
 import * as React from "react";
-import _, { Locale } from "@/i18n/locale";
-import { useScrollSpy } from "@/hooks";
+import _ from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import ContentsList from "@/atomic/molecule/contents-list";
 import PageHeader from "@/atomic/molecule/page-header";
 import { getAppId } from "@/service/AppleService";
 
@@ -12,10 +10,6 @@ export default function Anxiety() {
     const LIST2_COUNT = 3;
     const LIST3_COUNT = 9;
     const LIST4_COUNT = 6;
-
-    const CONTENTS_COUNT = 5;
-
-    useScrollSpy("contents-list");
 
     return (
         <>
@@ -34,7 +28,7 @@ export default function Anxiety() {
 
                 <section>
                     <div className="row">
-                        <div className="col-lg-8 order-lg-1 order-2">
+                        <div className="col-lg-8 mx-auto">
                             <div id="section-1" className="content-wrapper">
                                 <h2>{_("ANXIETY.HEAD1")}</h2>
                                 <p>{_("ANXIETY.DESK1_1")}</p>
@@ -104,12 +98,6 @@ export default function Anxiety() {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 order-lg-2 order-1">
-                            <div className="contents-list">
-                                <h3>{_("ANXIETY.CONTENTS")}</h3>
-                                <ContentsList PAGE="ANXIETY" CONTENTS_COUNT={CONTENTS_COUNT} />
-                            </div>
-                        </div>
                     </div>
                 </section>
             </div>

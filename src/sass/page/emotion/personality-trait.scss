@@ -29,38 +29,4 @@
         margin-bottom: map-get($section-y-gap, "xxs");
     }
 
-    .contents-list {
-        position: sticky;
-        top: 2rem;
-        background: #f8f8f8;
-        border-radius: 2.4rem;
-        padding: 2.25rem;
-
-        @include media-breakpoint-down($base-breakpoint) {
-            margin-bottom: map-get($section-y-gap, "xs");
-        }
-
-        h3 {
-            font-family: os5;
-            margin-top: 0;
-        }
-
-        #contents-list {
-            gap: 0.5rem;
-
-            a {
-                text-decoration: none;
-                font-size: 1.35rem;
-                color: $ms-color-text-gray-darker;
-                padding: 0;
-                background: transparent;
-                border-color: transparent;
-            }
-            a:hover,
-            a:focus,
-            a.active {
-                color: #ad43d7;
-            }
-        }
-    }
 }
