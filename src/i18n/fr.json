@@ -116,10 +116,6 @@
             "LI3_HEAD": "Toutes les vitamines et minéraux de la santé des pommes",
             "LI3_TEXT": "Nous soutenons la gamme complète des vitamines et minéraux essentiels d'Apple."
         },
-        "HEAD2": "Pourquoi la vitamine?",
-        "DESC2_1": "\"Vitamine\" du latin \"Vita\" signifie \"Vie\". Notre vie n'est pas possible sans vitamines.",
-        "DESC2_2": "L'application suit les vitamines, les minéraux pris et leur montant. Vous pouvez ajouter vos propres éléments.",
-        "DESC2_3": "Créez un horaire et recevez une notification push sur la prise de vitamines à l'heure fixée.",
         "HEAD3": "Vitamines et minéraux",
         "DESC3_1": "L'outil ultime pour suivre et optimiser votre apport en nutriments.  Spécialement conçue pour se synchroniser en toute transparence avec Apple Health, cette application vous fournit des informations détaillées sur chaque élément essentiel, y compris les doses journalières et maximales recommandées. L'application vous donne un aperçu des choix alimentaires riches en vitamines et minéraux spécifiques, ce qui vous permet de prendre des décisions éclairées sur ce que vous mangez. ",
         "DESC3_2": "Les informations sur chaque élément comprennent :",
@@ -157,7 +153,6 @@
             "LI4_HEAD": "20",
             "LI4_TEXT": "Ajoutez vos articles"
         },
-        "ALT1": "iPhone affichant des statistiques sur les vitamines et Apple Watch affichant une liste de vitamines dans l'application Vitamine de Martspec.",
         "ALT2": "iPhone affichant des statistiques sur les vitamines et une liste de vitamines dans l'application Vitamine de Martspec.",
         "ALT3": "L'iPad, l'iPhone et l'Apple Watch affichent des informations sur l'apport en vitamines dans l'application Vitamine de Martspec.",
         "ALT4": "L'Apple Watch affiche les informations d'Apple Health dans l'application Vitamin de Martspec.",
