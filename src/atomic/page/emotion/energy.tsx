@@ -1,9 +1,7 @@
 import * as React from "react";
-import _, { Locale } from "@/i18n/locale";
-import { useScrollSpy } from "@/hooks";
+import _ from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import ContentsList from "@/atomic/molecule/contents-list";
 import PageHeader from "@/atomic/molecule/page-header";
 import { getAppId } from "@/service/AppleService";
 
@@ -14,10 +12,6 @@ export default function Energy() {
     const LIST4_1_COUNT = 4;
     const LIST4_2_COUNT = 4;
     const LIST5_COUNT = 10;
-
-    const CONTENTS_COUNT = 5;
-
-    useScrollSpy("contents-list");
 
     return (
         <>
@@ -36,7 +30,7 @@ export default function Energy() {
 
                 <section>
                     <div className="row">
-                        <div className="col-lg-8 order-lg-1 order-2">
+                        <div className="col-lg-8 mx-auto">
                             <div id="section-1" className="content-wrapper">
                                 <h2>{_("ENERGY.HEAD1")}</h2>
                                 <p>{_("ENERGY.DESK1_1")}</p>
@@ -120,12 +114,6 @@ export default function Energy() {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 order-lg-2 order-1">
-                            <div className="contents-list">
-                                <h3>{_("ENERGY.CONTENTS")}</h3>
-                                <ContentsList PAGE="ENERGY" CONTENTS_COUNT={CONTENTS_COUNT} />
-                            </div>
-                        </div>
                     </div>
                 </section>
             </div>

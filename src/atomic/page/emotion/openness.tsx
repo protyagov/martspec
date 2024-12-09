@@ -1,9 +1,7 @@
 import * as React from "react";
-import _, { Locale } from "@/i18n/locale";
+import _ from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import ContentsList from "@/atomic/molecule/contents-list";
-import { useScrollSpy } from "@/hooks";
 import PageHeader from "@/atomic/molecule/page-header";
 import { getAppId } from "@/service/AppleService";
 
@@ -12,10 +10,6 @@ export default function Openness() {
     const LIST3_COUNT = 6;
     const LIST5_1_COUNT = 6;
     const LIST5_2_COUNT = 6;
-
-    const CONTENTS_COUNT = 6;
-
-    useScrollSpy("contents-list");
 
     return (
         <>
@@ -34,7 +28,7 @@ export default function Openness() {
 
                 <section>
                     <div className="row">
-                        <div className="col-lg-8 order-lg-1 order-2">
+                        <div className="col-lg-8 mx-auto">
                             <div id="section-1" className="content-wrapper">
                                 <h2>{_("OPENNESS.HEAD1")}</h2>
                                 <p>{_("OPENNESS.DESK1_1")}</p>
@@ -115,12 +109,6 @@ export default function Openness() {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 order-lg-2 order-1">
-                            <div className="contents-list">
-                                <h3>{_("OPENNESS.CONTENTS")}</h3>
-                                <ContentsList PAGE="OPENNESS" CONTENTS_COUNT={CONTENTS_COUNT} />
-                            </div>
-                        </div>
                     </div>
                 </section>
             </div>
