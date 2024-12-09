@@ -116,10 +116,6 @@
             "LI3_HEAD": "Vitaminas y minerales",
             "LI3_TEXT": "Disfrute del soporte completo de vitaminas y minerales para su bienestar, disponible en Apple Salud."
         },
-        "HEAD2": "¿Por qué Vitamina?",
-        "DESC2_1": "\"Vitamina\" del latín \"vita\" significa \"vida\". Nuestra vida no es posible sin vitaminas.",
-        "DESC2_2": "La aplicación rastrea las vitaminas, los minerales tomados y su cantidad. Puede agregar sus propios elementos.",
-        "DESC2_3": "Cree un horario y reciba una notificación push sobre la toma de vitaminas en el momento establecido.",
         "HEAD3": "Vitaminas y Minerales",
         "DESC3_1": "La herramienta definitiva para seguir y optimizar su ingesta de nutrientes. Diseñada especialmente para sincronizarse perfectamente con Apple Salud, esta aplicación le proporciona información detallada sobre cada elemento esencial, incluyendo las dosis diarias recomendadas y máximas. La aplicación muestra información sobre opciones de alimentos ricos en vitaminas y minerales específicos, capacitándolo para tomar decisiones informadas sobre su alimentación.",
         "DESC3_2": "La información de cada elemento incluye:",
@@ -157,7 +153,6 @@
             "LI4_HEAD": "20",
             "LI4_TEXT": "Elementos personalizados"
         },
-        "ALT1": "iPhone que muestra estadísticas de vitaminas y Apple Watch que muestra una lista de vitaminas dentro de la aplicación Vitamina de Martspec.",
         "ALT2": "iPhone que muestra estadísticas de vitaminas y una lista de vitaminas dentro de la aplicación Vitamina de Martspec.",
         "ALT3": "iPad, iPhone y Apple Watch muestran información sobre la ingesta de vitaminas en la aplicación Vitamina de Martspec.",
         "ALT4": "El Apple Watch muestra información de Apple Health en la aplicación Vitamina de Martspec.",
