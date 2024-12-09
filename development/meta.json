@@ -170,17 +170,6 @@
       "namedExport": "CardVitaminStory",
       "meta": {}
     },
-    "molecule--contents-list": {
-      "name": "Contents list",
-      "levels": [
-        "Molecule"
-      ],
-      "locStart": 11,
-      "locEnd": 17,
-      "filePath": "src/stories/molecule/contents-list.stories.tsx",
-      "namedExport": "ContentsListStory",
-      "meta": {}
-    },
     "molecule--icon-title-text-elem": {
       "name": "Icon title text elem",
       "levels": [
