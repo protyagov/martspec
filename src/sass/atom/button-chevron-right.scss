@@ -1,0 +1,89 @@
+@import "@/sass/atom/color"; 
+
+.btn-chevron-right {
+  .learn-more {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    width: 16.75rem;
+    height: auto;
+
+    .circle {
+      position: relative;
+      display: block;
+      margin: 0;
+      width: 3rem;
+      height: 3rem;
+      background: $ms-color-button-new;
+      border-radius: 1.625rem;
+      transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+
+      .icon {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: $ms-color-bg-secondary;
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+
+        &.arrow {
+          left: 0.625rem;
+          width: 1.25rem;
+          height: 0.125rem;
+          background: none;
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: -0.25rem;
+            right: 0.0625rem;
+            width: 0.625rem;
+            height: 0.625rem;
+            border-top: 0.125rem solid $ms-color-bg-secondary;
+            border-right: 0.125rem solid $ms-color-bg-secondary;
+            transform: rotate(45deg);
+          }
+        }
+      }
+    }
+
+    .button-text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0.81rem 0;
+      margin: 0 2.5rem 0 4.25rem;
+      color: $ms-color-button-new;
+      font-family: os3;
+      line-height: 1.35rem;
+      text-align: center;
+      text-transform: none;
+      white-space: nowrap;
+      font-size: 18px;
+      transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    }
+
+    &:hover {
+      .circle {
+        width: 100%;
+
+        .icon {
+          &.arrow {
+            background: $ms-color-bg-secondary;
+            transform: translate(1rem, 0);
+          }
+        }
+      }
+
+      .button-text {
+        color: $ms-color-bg-secondary;
+      }
+    }
+  }
+}
