@@ -20,7 +20,7 @@ interface IReview {
     appId: number;
 }
 
-const LG_BOOTSTRAP = 992;
+const LG_BOOTSTRAP = 991;
 const XXL_BOOTSTRAP = 1400;
 
 export default function Review({ text, appId, codes }: IReview) {
