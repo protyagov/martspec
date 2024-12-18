@@ -16,6 +16,17 @@
       "namedExport": "ButtonAppleStory",
       "meta": {}
     },
+    "atom--button-chevron-right": {
+      "name": "Button chevron right",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 12,
+      "locEnd": 20,
+      "filePath": "src/stories/atom/button-chevron-right.stories.tsx",
+      "namedExport": "ButtonChevronRightStory",
+      "meta": {}
+    },
     "atom--icon-chevron-circle": {
       "name": "Icon chevron circle",
       "levels": [
