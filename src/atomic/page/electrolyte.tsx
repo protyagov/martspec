@@ -8,6 +8,7 @@ import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
+import ScrollButton from "../atom/scroll-button";
 
 export default function Electrolyte() {
     const appId = getAppId();
@@ -168,6 +169,7 @@ export default function Electrolyte() {
                 </div>
 
                 <Footer />
+                <ScrollButton color="#8079CC"/>
             </div>
         </>
     );

@@ -2,6 +2,7 @@ import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
+import ScrollButton from "@/atomic/atom/scroll-button";
 
 const COLORS = [
     "97938E", // Gray
@@ -512,6 +513,7 @@ export default function ColorTest() {
             </div>
 
             <Footer />
+            <ScrollButton color="#7B62FE"/>
         </>
     );
 }

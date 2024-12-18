@@ -12,6 +12,7 @@ import { getAppId } from "@/service/AppleService";
 import CardImage from "@/atomic/molecule/card-image";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
+import ScrollButton from "../atom/scroll-button";
 
 export default function Bodymass() {
     const appId = getAppId();
@@ -196,6 +197,7 @@ export default function Bodymass() {
             </div>
 
             <Footer />
+            <ScrollButton color="#FEB215"/>
         </>
     );
 }

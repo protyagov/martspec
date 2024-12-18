@@ -4,6 +4,7 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import PageHeader from "@/atomic/molecule/page-header";
 import { getAppId } from "@/service/AppleService";
+import ScrollButton from "@/atomic/atom/scroll-button";
 
 export default function Harmony() {
     const appId = getAppId();
@@ -86,6 +87,7 @@ export default function Harmony() {
             </div>
 
             <Footer />
+            <ScrollButton />
         </>
     );
 }

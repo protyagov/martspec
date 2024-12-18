@@ -17,6 +17,7 @@ import Review from "@/atomic/prototype/review";
 import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
 import Accordion, * as VitaminAccordion from "@/atomic/molecule/accordion";
 import { getAppId } from "@/service/AppleService";
+import ScrollButton from "../atom/scroll-button";
 
 interface VitaminGroup {
     groupName: string;
@@ -419,6 +420,7 @@ export default function Vitamin() {
                 </section>
             </div>
             <Footer />
+            <ScrollButton />
         </>
     );
 }

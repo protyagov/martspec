@@ -3,6 +3,7 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import _ from "@/i18n/locale";
 import PageHeader from "@/atomic/molecule/page-header";
+import ScrollButton from "../atom/scroll-button";
 
 export default function PrivacyPolicy() {
     return (
@@ -485,6 +486,7 @@ export default function PrivacyPolicy() {
                 <br className="my-5" />
             </div>
             <Footer />
+            <ScrollButton />
         </>
     );
 }

@@ -6,6 +6,7 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
+import ScrollButton from "../atom/scroll-button";
 
 export default function BodySize() {
     const appId = getAppId();
@@ -117,6 +118,7 @@ export default function BodySize() {
                 {/* <img src="/img/size_bottom.512.webp" className="img-fluid mb-3 px-4" height={512} alt={_("SIZE.IMG")} /> */}
             </div>
             <Footer />
+            <ScrollButton />
         </>
     );
 }

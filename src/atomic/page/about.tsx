@@ -3,6 +3,7 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import _ from "@/i18n/locale";
 import PageHeader from "@/atomic/molecule/page-header";
+import ScrollButton from "../atom/scroll-button";
 
 export default function About() {
     return (
@@ -28,6 +29,7 @@ export default function About() {
                 </section>
             </div>
             <Footer />
+            <ScrollButton />
         </>
     );
 }
