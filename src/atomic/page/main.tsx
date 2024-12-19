@@ -307,7 +307,7 @@ export default function LandingPage() {
             */}
             <div className="ms-base-page ms-base-new">
                 <Review
-                    appId={allAppIds[getRandomArbitrary(0, allAppIds.length)]}
+                    appId={allAppIds[getRandomArbitrary(0, allAppIds.length - 1)]}
                     codes={{
                         countryCode: Locale.countryCode,
                         languageCode: Locale.language,
