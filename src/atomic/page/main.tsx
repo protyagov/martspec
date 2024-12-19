@@ -4,6 +4,11 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import ScrollButton from "../atom/scroll-button";
+import appIds from "@/data/app-ids.json";
+import Review from "@/atomic/prototype/review";
+
+const getRandomArbitrary = (min: number, max: number) => Math.floor(Math.random() * (max + 1 - min) + min);
+const allAppIds = Object.values(appIds);
 
 export default function LandingPage() {
     return (
@@ -294,6 +299,34 @@ export default function LandingPage() {
                     </div>
                 </div>
             </section>
+
+            {/*
+                div wrapper for proper side margins and fonts, 
+                it's only needed for this page 
+                and can be easily removed when this page is redesigned.
+            */}
+            <div className="ms-base-page ms-base-new">
+                <Review
+                    appId={allAppIds[getRandomArbitrary(0, allAppIds.length)]}
+                    codes={{
+                        countryCode: Locale.countryCode,
+                        languageCode: Locale.language,
+                    }}
+                    text={{
+                        head: _("REVIEW.HEAD"),
+                        description: _("REVIEW.DESCRIPTION"),
+                        link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        fillerCard: {
+                            head: [
+                                _("REVIEW.FILLER_CARD.HEAD1"),
+                                _("REVIEW.FILLER_CARD.HEAD2"),
+                                _("REVIEW.FILLER_CARD.HEAD3"),
+                            ],
+                            link: _("REVIEW.FILLER_CARD.LINK"),
+                        },
+                    }}
+                />
+            </div>
 
             {/* <ContactUs setIsLoading={setIsLoading} /> */}
             <Footer />
