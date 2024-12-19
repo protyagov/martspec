@@ -35,17 +35,19 @@
         justify-content: left !important;
     }
 
-    > img {
-        top: 40%;
-        right: -15%
+    @media (max-width: 649px) and (max-width: 1400px) {
+        > img {
+            top: 40%;
+            right: -15%
+        }
     }
-
-    @media (min-width: 650px) and (max-width: 1400px) {
+    
+    @media (min-width: 650px) {
         > img {
             width: 22rem;
             height: auto;
             object-fit: cover;
-            top: 30%;
+            top: 25%;
             right: -7%
         }
     }
