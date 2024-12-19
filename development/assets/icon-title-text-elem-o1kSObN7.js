@@ -1,1 +1,0 @@
-import{j as s}from"./index-npSwCVua.js";const i=({icon:e,title:l,subtitle:c})=>s.jsxs("li",{children:[s.jsx("div",{className:`icon${e.src.includes("icon-apple-health.svg")?" no-filter":""}`,children:s.jsx("img",{src:e.src,alt:e.alt})}),s.jsxs("div",{children:[s.jsx("h3",{children:l}),s.jsx("p",{children:c})]})]});export{i as I};
