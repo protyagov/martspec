@@ -3,6 +3,7 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
+import ScrollButton from "../atom/scroll-button";
 
 export default function LandingPage() {
     return (
@@ -296,6 +297,7 @@ export default function LandingPage() {
 
             {/* <ContactUs setIsLoading={setIsLoading} /> */}
             <Footer />
+            <ScrollButton />
         </div>
     );
 }

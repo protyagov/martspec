@@ -5,6 +5,7 @@ import _ from "@/i18n/locale";
 import TeamMember from "@/atomic/molecule/team-Member";
 import teamData from "@/data/team.json";
 import PageHeader from "@/atomic/molecule/page-header";
+import ScrollButton from "../atom/scroll-button";
 
 export default function Team() {
     return (
@@ -24,6 +25,7 @@ export default function Team() {
             </div>
 
             <Footer />
+            <ScrollButton />
         </>
     );
 }

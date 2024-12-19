@@ -12,6 +12,7 @@ import Header from "@/atomic/organism/header";
 import BulletList from "@/atomic/molecule/bullet-list";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
+import ScrollButton from "../atom/scroll-button";
 
 export default function Emotion() {
     const appId = getAppId();
@@ -423,6 +424,7 @@ export default function Emotion() {
             </div>
 
             <Footer />
+            <ScrollButton color="#7B62FE"/>
         </>
     );
 }

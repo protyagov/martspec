@@ -10,6 +10,7 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
+import ScrollButton from "../atom/scroll-button";
 
 export default function BodyZinc() {
     const appId = getAppId();
@@ -160,6 +161,7 @@ export default function BodyZinc() {
                 </section>
             </div>
             <Footer />
+            <ScrollButton color="#72E796"/>
         </>
     );
 }

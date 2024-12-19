@@ -4,6 +4,7 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import PageHeader from "@/atomic/molecule/page-header";
 import { getAppId } from "@/service/AppleService";
+import ScrollButton from "@/atomic/atom/scroll-button";
 
 export default function Energy() {
     const appId = getAppId();
@@ -119,6 +120,7 @@ export default function Energy() {
             </div>
 
             <Footer />
+            <ScrollButton />
         </>
     );
 }

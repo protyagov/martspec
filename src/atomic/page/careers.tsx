@@ -4,6 +4,7 @@ import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
+import ScrollButton from "../atom/scroll-button";
 
 const careers = [
     {
@@ -149,6 +150,7 @@ const Careers = () => {
                 </section>
             </div>
             <Footer />
+            <ScrollButton />
         </>
     );
 };

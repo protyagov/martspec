@@ -10,6 +10,7 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
+import ScrollButton from "../atom/scroll-button";
 
 export default function WaistLine() {
     const appId = getAppId();
@@ -172,6 +173,7 @@ export default function WaistLine() {
             </div>
 
             <Footer />
+            <ScrollButton />
         </>
     );
 }

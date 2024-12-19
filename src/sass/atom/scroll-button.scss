@@ -1,0 +1,68 @@
+.wrapper-scroll-btn {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 80px;
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: 10;
+    pointer-events: none;
+
+    &.hidden {
+        display: none;
+    }
+
+    .scroll-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        opacity: 1;
+        transition: opacity 0.3s ease, cursor 0.3s ease, display 0s 0.3s;
+        pointer-events: auto;
+    
+        &.scrolling {
+            opacity: 0.5;
+        }
+    
+        svg {
+            width: 70px;
+            height: 70px;
+        
+            rect {
+                width: 70px;
+                height: 70px;
+                rx: 35;
+                fill: var(--color-btn, #1686FF);
+            }
+        
+            path {
+                stroke: white;
+                stroke-width: 3;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                d: path("M45.5 39L35 29L24 39");
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        bottom: 40px;
+
+        .scroll-btn svg {
+            width: 60px;
+            height: 60px;
+
+            rect {
+                width: 60px;
+                height: 60px;
+                rx: 30;
+            }
+
+            path {
+                stroke-width: 3;
+                d: path("M40.5 34L30 24L19 34");
+            }
+        }
+    }
+}

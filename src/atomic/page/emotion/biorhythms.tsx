@@ -6,6 +6,7 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
 import CallToAction from "@/atomic/organism/call-to-action";
 import { getAppId } from "@/service/AppleService";
+import ScrollButton from "@/atomic/atom/scroll-button";
 
 export default function Biorhythms() {
     const appId = getAppId();
@@ -294,6 +295,7 @@ export default function Biorhythms() {
             </div>
 
             <Footer />
+            <ScrollButton color="#7B62FE"/>
         </>
     );
 }
