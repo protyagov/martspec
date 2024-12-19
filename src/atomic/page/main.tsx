@@ -3,6 +3,7 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
+import CardAppLarge from "@/atomic/molecule/card-app-large";
 
 export default function LandingPage() {
     return (
@@ -33,6 +34,27 @@ export default function LandingPage() {
                     </div>
                 </div>
             </section>
+
+            {/* <section className="ms-s-product">
+                <div className="ms-s-offset">
+                    <CardAppLarge
+                        backgroundColor="#F9F9FF"
+                        icon={<img width={70} height={70} src="/img/page/vitamin/logo-vitamin.svg" alt={_("VITAMIN.ICO")} />}
+                        title={_("VITAMIN.HEAD")}
+                        subtitle={_("VITAMIN.SUBHEAD")}
+                        content={_("VITAMIN.TEXT")}
+                        button={{
+                        text: _("CAREERS.BUTTON3"),
+                        link: "",
+                        color: "#1686FF",
+                        }}
+                        imageSrc="/img/page/vitamin/vitamin-app-main-page.webp"
+                        imageAlt={_("VITAMIN.IMG")}
+                        useI18NImage={true}
+                        isImageOnLeft={false}
+                    />
+                </div>
+            </section> */}
 
             <section className="ms-s-product">
                 <div className="ms-s-offset">

@@ -95,7 +95,8 @@
 
     p {
         font-size: 1.1rem;
-        color: $ms-color-text-orange;
+        //should comment orange text
+        color: $ms-color-text-orange; 
         margin-bottom: 0;
         display: inline-block;
 
@@ -144,6 +145,7 @@
         }
     }
 
+    //should comment bg color
     &:nth-child(odd) {
         background-color: $ms-color-bg-secondary;
     }
