@@ -15,7 +15,7 @@ export interface TextLinkArrowProps {
     color?: CSSProperties["color"];
     hoverColor?: CSSProperties["color"];
     fontFamily?: CSSProperties["fontFamily"];
-    fontSize?: CSSProperties["fontSize"]; // Новый пропс
+    fontSize?: CSSProperties["fontSize"]; 
     hasUnderlineHover?: boolean;
 }
 
@@ -27,7 +27,7 @@ export default function TextLinkArrow({
     color = "#0d6efd",
     hoverColor = "#0a58ca",
     fontFamily = "",
-    fontSize = "1.2rem", // Значение по умолчанию
+    fontSize = "1.2rem", 
     hasUnderlineHover = true,
 }: TextLinkArrowProps) {
     const newTabProps = isNewTab && { target: "_blank", rel: "noreferrer noopener" };
