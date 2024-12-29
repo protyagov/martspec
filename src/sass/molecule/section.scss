@@ -95,7 +95,7 @@
 
     p {
         font-size: 1.1rem;
-        color: $ms-color-text-orange;
+        // color: $ms-color-text-orange;
         margin-bottom: 0;
         display: inline-block;
 
@@ -144,9 +144,9 @@
         }
     }
 
-    &:nth-child(odd) {
-        background-color: $ms-color-bg-secondary;
-    }
+    // &:nth-child(odd) {
+    //     background-color: $ms-color-bg-secondary;
+    // }
 
     &:nth-child(even) {
         .p-container {

@@ -1,0 +1,19 @@
+.card-app-large {
+    .link-button {
+      max-width: fit-content;
+      transition: background-color 0.3s ease;
+    }
+  
+    .link-button:hover {
+      background-color: #0872e3 !important;
+    }
+  
+    @media (max-width: 1200px) {
+      flex-direction: column; 
+  
+      .img-container img {
+        width: 66vw !important;
+        height: auto;
+      }
+    }
+  }
