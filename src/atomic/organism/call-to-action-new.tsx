@@ -58,7 +58,6 @@ export default function CallToAction(props: WithImage<CallToActionProps> | Witho
                     {button}
                 </div>
 
-
                 {imgPosition === "right" && (
                     <ImageI18N src={imgSrc} h={400} w={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={imgAlt} />
                 )}

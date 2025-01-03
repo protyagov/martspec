@@ -20,7 +20,7 @@ export const CallToActionStory: Story = () => (
 //            textList={[_("VITAMIN.ABOUT_1"), _("VITAMIN.ABOUT_2"), _("VITAMIN.ABOUT_3")]}
             imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
             imgAlt={_("VITAMIN.ALT3")}
-            imgPosition="right"
+//            imgPosition="right"
         />
     </section>
 );
