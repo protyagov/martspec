@@ -16,12 +16,11 @@ export const CallToActionStory: Story = () => (
         <CallToAction
             title={_("VITAMIN.HEAD6")}
             subtitle={_("VITAMIN.DESC6")}
-            button={<ButtonApple appId={appIds["vitamin"]} appDownloadTitle={"Vitamin"} />}
-            textList={""}
-            appId={2}
-            appDownloadTitle={_("VITAMIN.DWN")}
+            button={<ButtonApple appId={appIds["vitamin"]} appDownloadTitle={_("VITAMIN.DWN")} />}
+//            textList={[_("VITAMIN.ABOUT_1"), _("VITAMIN.ABOUT_2"), _("VITAMIN.ABOUT_3")]}
             imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
             imgAlt={_("VITAMIN.ALT3")}
+            imgPosition="right"
         />
     </section>
 );
