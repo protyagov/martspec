@@ -22,13 +22,7 @@ type WithoutImage<Props> = Props & {
     imgW?: never;
     imgAlt: never;
 };
-interface ImageI18NModel {
-    src: string; // image url. Should have postfix with .en. EX: /img/vitamin.en.512.webp
-    alt?: string; // alt text to show when image fails to load
-    cls?: string; // classNames to apply from css
-    h: number; // element height
-    w: number; // element width
-}
+
 export default function CallToAction(props: WithImage<CallToActionProps> | WithoutImage<CallToActionProps>) {
     const { title, subtitle, textList, button, bgColor, imgSrc, imgAlt, imgPosition = "right" } = props;
     const marginBot = { marginBottom: "3rem" };
