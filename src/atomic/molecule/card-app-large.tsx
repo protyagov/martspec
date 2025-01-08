@@ -12,6 +12,7 @@ type CardAppLargeProps = {
     text: string;
     link: string;
     color?: string;
+    textColor?: string;
   };
   imageSrc: string;
   imageAlt?: string;
@@ -51,14 +52,15 @@ const CardAppLarge: React.FC<CardAppLargeProps> = ({
         </div>
 
         {/* Описание */}
-        <p className="fs-5 mt-4 mb-5">{content}</p>
+        <p className="fs-5 mt-4 mb-4">{content}</p>
 
         {/* Кнопка */}
         <LinkStyledButton
           text={button.text}
           link={button.link}
           color={button.color}
-          className="link-button fs-4 rounded-5 py-2 px-5"
+          textColor={button.textColor}
+          className="link-button fs-4 rounded-5 py-2 px-5 mt-auto"
         />
       </div>
 

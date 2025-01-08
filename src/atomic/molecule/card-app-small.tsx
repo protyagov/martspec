@@ -43,7 +43,7 @@ const CardAppSmall: React.FC<CardAppSmallProps> = ({
       <ButtonChevronRight
         text={button.text}
         link={button.link}
-        className="fs-4 rounded-5 py-2 px-5"
+        className="fs-4 rounded-5 p-0 mt-auto" 
       />
     </div>
   );
