@@ -9,7 +9,8 @@
     "MAIN": {
         "HEAD": "Simplicidade de rastreamento de saúde",
         "SUBHEAD": "Aplicativos para tornar as tarefas diárias ágeis e sem esforço",
-        "IMG": "Aplicativos de bem-estar e saúde Apple Watch"
+        "IMG": "Aplicativos de bem-estar e saúde Apple Watch",
+        "OUR_PRODUCTS": "Nossos produtos"
     },
     "REVIEW": {
         "HEAD": "Já foi dito sobre nós",
@@ -31,8 +32,9 @@
         "IMG": "Registre eletrólitos e minerais com seu Apple Watch, Electrolyte, Aplicativo, Apple Watch, Aplicativo de saúde",
         "DWN": "Baixe o aplicativo gratuito Eletrólito tracker da Apple AppStore",
         "SUBHEAD": "equilíbrio hídrico-salino",
-    "TEXT": "Os eletrólitos desempenham um papel vital na manutenção da homeostase no corpo. Regulam o funcionamento do coração, funções neurológicas, equilíbrio de fluidos, entrega de oxigênio aos tecidos, equilíbrio ácido-base e muito mais.",
-    "ICO": "Ícone para o rastreador de eletrólitos mais simples para Apple Watch. Acompanhe a sua ingestão de magnésio, cálcio, potássio e ferro. Sincronização com o Apple Health. Sem anúncios.",
+        "TEXT": "Os eletrólitos desempenham um papel vital na manutenção da homeostase no corpo. Regulam o funcionamento do coração, funções neurológicas, equilíbrio de fluidos, entrega de oxigênio aos tecidos, equilíbrio ácido-base e muito mais.",
+        "TEXT1": "Os eletrólitos ajudam a manter o funcionamento do coração e participam de outros processos fisiológicos. Controle os níveis de eletrólitos no corpo com nosso aplicativo.",
+        "ICO": "Ícone para o rastreador de eletrólitos mais simples para Apple Watch. Acompanhe a sua ingestão de magnésio, cálcio, potássio e ferro. Sincronização com o Apple Health. Sem anúncios.",
         "ABOUT_1": "Monitore minerais importantes",
         "ABOUT_2": "Forma fácil e conveniente de inserir leituras de eletrólitos do Apple Watch",
         "ABOUT_3": "Sincronização com o aplicativo Apple Saúde",
@@ -57,6 +59,7 @@
     "MASS": {
         "HEAD": "Peso",
         "SUBHEAD": "O diário de peso mais conveniente",
+        "ICO": "Ícone do diário de peso mais conveniente. Sincronização com iCloud. Sem anúncios e autenticação.",
         "IMG": "Uma mulher está em uma balança, medindo seu peso usando um Apple Watch executando o aplicativo Peso da Martspec.",
         "TEXT": "Rastrear seu peso aumenta sua eficiência em termos de tempo e exercícios. Não só o levará a fazer melhor, mas também o levará a ser seu próprio competidor!",
         "DWN": "Baixe o aplicativo Peso gratuito na Apple Store",
@@ -105,6 +108,10 @@
         "TEXT": "Rastrear suas vitaminas essenciais tem muitos benefícios, desde ajudar a controlar as intolerâncias alimentares até aumentar a energia, evitar mudanças no humor e alimentar o ritmo do seu dia.",
         "BTN": "Consulte Mais informação",
         "IMG": "Rastreie as vitaminas mais essenciais diretamente no seu pulso",
+        "HEAD1": "Anel de Vitamina", 
+        "SUBHEAD1": "Rastreador de nutrientes e medicamentos", 
+        "TEXT1": "Rastreador conveniente de ingestão de vitaminas. Sincronização do aplicativo com o Apple Health. Backup no iCloud. Funciona de graça. Sem anúncios e compras dentro do aplicativo.", 
+        "ICO1": "Ícone do aplicativo Anel de Vitamina, o melhor rastreador de ingestão de vitaminas. Sincronização com Apple Health e backup no iCloud. Grátis e sem anúncios.",
         "DWN": "Baixe o aplicativo de rastreamento gratuito de vitaminas e nutrientes da Apple AppStore",
         "ABOUT_1": "Controle sua ingestão de vitaminas e minerais importantes todos os dias",
         "ABOUT_2": "A energia da alimentação saudável e uma vida feliz",
@@ -1446,6 +1453,10 @@
         "DESK6_2": "É importante observar que, embora a independência possa contribuir para o sucesso nesses campos, as habilidades de colaboração e comunicação eficazes também são valiosas na maioria das profissões. Encontrar um equilíbrio entre independência e trabalho em equipe é essencial para uma carreira gratificante. Além disso, as pessoas são únicas e sua carreira pode ser influenciada por uma combinação de características e interesses que não sejam a independência."
     },
     "ENERGY": {
+        "HEAD_MAIN": "Energia", 
+        "ICO_MAIN": "Ícone do aplicativo para rastrear diariamente o seu nível de energia.", 
+        "SUBHEAD_MAIN": "Desafios diários com rastreamento de progresso", 
+        "TEXT_MAIN": "Aceite desafios diários e acompanhe seu progresso pessoal para alcançar seu objetivo. Perder dias resultará no fracasso da sua missão. Ganhe recompensas por conquistas, escolha o nível de dificuldade e muito mais no aplicativo ‘Energia’.", 
         "HEAD": "Energia",
         "IMG": "Energia",
         "DWN": "Obtenha o aplicativo Emoção gratuito para Apple Watch, iPhone ou iPad diretamente na Apple App Store.",
@@ -1663,7 +1674,8 @@
         "TEXT_1": "Estamos a trabalhar arduamente para lhe proporcionar a melhor página web possível.",
         "TEXT_2": "Obrigado pela vossa paciência.",
         "BTN": "Início",
-        "CTA": "Siga-nos"
+        "CTA": "Siga-nos",
+        "SOON_BTN": "Em desenvolvimento"
     },
     "MISSION": {
         "HEAD": "Missão",
