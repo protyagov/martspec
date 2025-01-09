@@ -35,6 +35,18 @@
         justify-content: left !important;
     }
 
+    div {
+        height: 100% !important;
+        display: grid !important;
+    }
+
+    a {
+        position: absolute; 
+        bottom: 0px; 
+        left: 0px; 
+        width: fit-content !important;
+    }
+
     @media (max-width: 649px) and (max-width: 1400px) {
         > img {
             top: 40%;
