@@ -291,6 +291,17 @@
       "namedExport": "TitleTextLinkCardStory",
       "meta": {}
     },
+    "organism--call-to-action-new": {
+      "name": "Call to action new",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 14,
+      "locEnd": 26,
+      "filePath": "src/stories/organism/call-to-action-new.stories.tsx",
+      "namedExport": "CallToActionStory",
+      "meta": {}
+    },
     "organism--call-to-action": {
       "name": "Call to action",
       "levels": [
