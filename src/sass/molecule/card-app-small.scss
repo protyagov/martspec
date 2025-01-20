@@ -1,0 +1,8 @@
+.card-app-small{
+    @media (max-width: 768px) {
+        .icon img{
+            width: 10vw;
+            height: auto;
+        }
+    }
+}
