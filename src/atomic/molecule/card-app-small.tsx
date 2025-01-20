@@ -29,7 +29,7 @@ const CardAppSmall: React.FC<CardAppSmallProps> = ({
     >
       {/* Верхняя часть с иконкой, заголовком и подзаголовком */}
       <div className="d-flex align-items-center gap-3 mb-4">
-        <div>{icon}</div>
+        <div className="icon">{icon}</div>
         <div>
           <h1 className="mb-1">{title}</h1>
           <h2 className="fs-5">{subtitle}</h2>

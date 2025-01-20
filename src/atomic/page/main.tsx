@@ -55,7 +55,7 @@ export default function LandingPage() {
                             content={_("VITAMIN.TEXT")}
                             button={{
                                 text: _("CAREERS.BUTTON3"),
-                                link: "",
+                                link: Locale.i18nLink("vitamin"),
                                 color: "#1686FF",
                             }}
                             imageSrc="/img/page/vitamin/vitamin-app-main-page.webp"
@@ -77,7 +77,7 @@ export default function LandingPage() {
                             content={_("VITAMIN.TEXT1")}
                             button={{
                                 text: _("CAREERS.BUTTON3"),
-                                link: "",
+                                link: Locale.i18nLink("vitamin"),
                                 color: "#1686FF",
                             }}
                         />
@@ -92,7 +92,7 @@ export default function LandingPage() {
                             content={_("ELECTROLYTE.TEXT1")}
                             button={{
                                 text: _("CAREERS.BUTTON3"),
-                                link: "",
+                                link: Locale.i18nLink("electrolyte"),
                                 color: "#1686FF",
                             }}
                         />
@@ -107,7 +107,7 @@ export default function LandingPage() {
                             content={_("ZINC.TEXT1")}
                             button={{
                                 text: _("CAREERS.BUTTON3"),
-                                link: "",
+                                link: Locale.i18nLink("bodyzinc"),
                                 color: "#1686FF",
                             }}
                         />
@@ -124,7 +124,7 @@ export default function LandingPage() {
                         content={_("SIZE.TEXT")}
                         button={{
                             text: _("CAREERS.BUTTON3"),
-                            link: "",
+                            link: Locale.i18nLink("bodysize"),
                             color: "#1686FF",
                         }}
                         imageSrc="/img/page/body-size/body-size-main-page.webp"
@@ -135,7 +135,7 @@ export default function LandingPage() {
                 </div>
 
                 <div className="row mb-5">
-                    <div className="col-6 d-flex">
+                    <div className="col-12 col-md-6 d-flex mb-3 mb-md-0">
                         {/* Вес */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -145,12 +145,12 @@ export default function LandingPage() {
                             content={_("MASS.TEXT")}
                             button={{
                                 text: _("CAREERS.BUTTON3"),
-                                link: "",
+                                link: Locale.i18nLink("bodymass"),
                                 color: "#1686FF",
                             }}
                         />
                     </div>
-                    <div className="col-6 d-flex">
+                    <div className="col-12 col-md-6 d-flex">
                         {/* Талия */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -160,7 +160,7 @@ export default function LandingPage() {
                             content={_("WAIST.TEXT")}
                             button={{
                                 text: _("CAREERS.BUTTON3"),
-                                link: "",
+                                link: Locale.i18nLink("waistline"),
                                 color: "#1686FF",
                             }}
                         />
@@ -177,7 +177,7 @@ export default function LandingPage() {
                         content={_("EMOTION.TEXT")}
                         button={{
                             text: _("CAREERS.BUTTON3"),
-                            link: "",
+                            link: Locale.i18nLink("emotion"),
                             color: "#1686FF",
                         }}
                         imageSrc="/img/page/emotion/emotion-main-page.webp"
@@ -197,7 +197,7 @@ export default function LandingPage() {
                         content={_("ENERGY.TEXT_MAIN")}
                         button={{
                             text: _("COMING_SOON.SOON_BTN"),
-                            link: "",
+                            link: Locale.i18nLink("coming-soon"),
                             color: "#E5EEFF",
                             textColor: "#1686FF"
                         }}

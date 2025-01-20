@@ -35,7 +35,7 @@ const CardAppLarge: React.FC<CardAppLargeProps> = ({
 }) => {
   return (
     <div
-      className={`card-app-large d-flex flex-wrap justify-content-between px-5 py-4 rounded-4 ${
+      className={`card-app-large d-flex flex-wrap justify-content-between rounded-4 ${
         isImageOnLeft ? "flex-row-reverse" : "flex-row"
       }`}
       style={{ backgroundColor }}
@@ -44,7 +44,7 @@ const CardAppLarge: React.FC<CardAppLargeProps> = ({
       <div className="col-12 col-xl-5 d-flex flex-column gap-3 text-start">
         {/* Иконка + Заголовки */}
         <div className="d-flex align-items-center gap-4">
-          <div>{icon}</div>
+          <div className="icon">{icon}</div>
           <div>
             <h1 className="mb-1">{title}</h1>
             <h2 className="fs-5">{subtitle}</h2>
