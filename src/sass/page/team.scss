@@ -100,7 +100,8 @@
 
             img {
                 aspect-ratio: 1 / 1 !important;
-                max-width: 80%;
+                width: 80%;
+                max-width: 22.5rem;
                 object-fit: cover;
                 filter: grayscale(1);
                 -webkit-filter: grayscale(1);
