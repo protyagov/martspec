@@ -1,10 +1,10 @@
 import React from "react";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import CardImage from "./card-image";
 import LinkStyledButton from "@/atomic/atom/link-styled-button";
 
 type CardAppLargeProps = {
-  icon: React.ReactNode;
+  iconSrc: string;
+  iconAlt: string;
   title: string;
   subtitle: string;
   content: string;
@@ -16,20 +16,19 @@ type CardAppLargeProps = {
   };
   imageSrc: string;
   imageAlt?: string;
-  useI18NImage?: boolean;
   isImageOnLeft?: boolean;
   backgroundColor?: string;
 };
 
 const CardAppLarge: React.FC<CardAppLargeProps> = ({
-  icon,
+  iconSrc,
+  iconAlt,
   title,
   subtitle,
   content,
   button,
   imageSrc,
   imageAlt = "Image",
-  useI18NImage = false,
   isImageOnLeft = false,
   backgroundColor = "#FFFFFF",
 }) => {
@@ -44,7 +43,9 @@ const CardAppLarge: React.FC<CardAppLargeProps> = ({
       <div className="col-12 col-xl-5 d-flex flex-column gap-3 text-start">
         {/* Иконка + Заголовки */}
         <div className="d-flex align-items-center gap-4">
-          <div className="icon">{icon}</div>
+          <div className="icon">
+            <img src={iconSrc} alt={iconAlt} width={70} height={70} />
+          </div>
           <div>
             <h1 className="mb-1">{title}</h1>
             <h2 className="fs-5">{subtitle}</h2>
@@ -66,24 +67,13 @@ const CardAppLarge: React.FC<CardAppLargeProps> = ({
 
       {/* Картинка */}
       <div className="img-container d-flex justify-content-center align-items-center mt-5 mt-xl-0 col-xl-6">
-        {useI18NImage ? (
-          <ImageI18N
-            src={imageSrc}
-            alt={imageAlt}
-            cls="img-fluid rounded-4"
-            h={342}
-            w={559}
-          />
-        ) : (
-          <CardImage
-            imgSrc={imageSrc}
-            imgAlt={imageAlt}
-            imgH={342}
-            imgW={559}
-            alignItems="center"
-            justifyContent="center"
-          />
-        )}
+        <ImageI18N
+          src={imageSrc}
+          alt={imageAlt}
+          cls="img-fluid rounded-4"
+          h={342}
+          w={559}
+        />
       </div>
     </div>
   );

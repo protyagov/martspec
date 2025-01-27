@@ -49,7 +49,8 @@ export default function LandingPage() {
                         {/* Витамин */}
                         <CardAppLarge
                             backgroundColor="#F9F9FF"
-                            icon={<img width={70} height={70} src="/img/page/vitamin/logo-vitamin.svg" alt={_("VITAMIN.ICO")} />}
+                            iconSrc="/img/page/vitamin/logo-vitamin.svg"
+                            iconAlt={_("VITAMIN.ICO")}
                             title={_("VITAMIN.HEAD")}
                             subtitle={_("VITAMIN.SUBHEAD")}
                             content={_("VITAMIN.TEXT")}
@@ -60,7 +61,6 @@ export default function LandingPage() {
                             }}
                             imageSrc="/img/page/vitamin/vitamin-app-main-page.webp"
                             imageAlt={_("VITAMIN.IMG")}
-                            useI18NImage={true}
                             isImageOnLeft={false}
                         />
                     </div>
@@ -71,7 +71,8 @@ export default function LandingPage() {
                         {/* Кольцо Витамин */}
                         <CardAppSmall
                             backgroundColor="transparent"
-                            icon={<img width={70} height={70} src="/img/page/vitamin/vitamin-ring-icon-main-page.svg" alt={_("VITAMIN.ICO1")} />}
+                            iconSrc="/img/page/vitamin/vitamin-ring-icon-main-page.svg"
+                            iconAlt={_("VITAMIN.ICO1")}
                             title={_("VITAMIN.HEAD1")}
                             subtitle={_("VITAMIN.SUBHEAD1")}
                             content={_("VITAMIN.TEXT1")}
@@ -86,7 +87,8 @@ export default function LandingPage() {
                         {/* Электролит */}
                         <CardAppSmall
                             backgroundColor="transparent"
-                            icon={<img width={70} height={70} src="/img/page/electrolyte/electrolyte-icon-main-page.svg" alt={_("ELECTROLYTE.ICO")} />}
+                            iconSrc="/img/page/electrolyte/electrolyte-icon-main-page.svg"
+                            iconAlt={_("ELECTROLYTE.ICO")}
                             title={_("ELECTROLYTE.HEAD")}
                             subtitle={_("ELECTROLYTE.SUBHEAD")}
                             content={_("ELECTROLYTE.TEXT1")}
@@ -101,7 +103,8 @@ export default function LandingPage() {
                         {/* Цинк */}
                         <CardAppSmall
                             backgroundColor="transparent"
-                            icon={<img width={70} height={70} src="/img/page/zinc/zinc-icon-main-page.svg" alt={_("ZINC.ICO")} />}
+                            iconSrc="/img/page/zinc/zinc-icon-main-page.svg"
+                            iconAlt={_("ZINC.ICO")}
                             title={_("ZINC.HEAD")}
                             subtitle={_("ZINC.SUBHEAD")}
                             content={_("ZINC.TEXT1")}
@@ -118,7 +121,8 @@ export default function LandingPage() {
                     {/* Фигура */}
                     <CardAppLarge
                         backgroundColor="#F9F9FF"
-                        icon={<img width={70} height={70} src="/img/page/body-size/bodysize-icon-main-page.svg" alt={_("SIZE.ICO")} />}
+                        iconSrc="/img/page/body-size/bodysize-icon-main-page.svg"
+                        iconAlt={_("SIZE.ICO")}
                         title={_("SIZE.HEAD")}
                         subtitle={_("SIZE.SUBHEAD")}
                         content={_("SIZE.TEXT")}
@@ -129,7 +133,6 @@ export default function LandingPage() {
                         }}
                         imageSrc="/img/page/body-size/body-size-main-page.webp"
                         imageAlt={_("VITAMIN.IMG")}
-                        useI18NImage={false}
                         isImageOnLeft={true}
                     />
                 </div>
@@ -139,7 +142,8 @@ export default function LandingPage() {
                         {/* Вес */}
                         <CardAppSmall
                             backgroundColor="transparent"
-                            icon={<img width={70} height={70} src="/img/page/body-mass/body-mass-icon-main-page.svg" alt={_("MASS.ICO")} />}
+                            iconSrc="/img/page/body-mass/body-mass-icon-main-page.svg"
+                            iconAlt={_("MASS.ICO")}
                             title={_("MASS.HEAD")}
                             subtitle={_("MASS.SUBHEAD")}
                             content={_("MASS.TEXT")}
@@ -154,7 +158,8 @@ export default function LandingPage() {
                         {/* Талия */}
                         <CardAppSmall
                             backgroundColor="transparent"
-                            icon={<img width={70} height={70} src="/img/page/waistline/waist-icon-main-page.svg" alt={_("WAIST.ICO")} />}
+                            iconSrc="/img/page/waistline/waist-icon-main-page.svg"
+                            iconAlt={_("WAIST.ICO")}
                             title={_("WAIST.HEAD")}
                             subtitle={_("WAIST.SUBHEAD")}
                             content={_("WAIST.TEXT")}
@@ -171,7 +176,8 @@ export default function LandingPage() {
                     {/* Эмоция */}
                     <CardAppLarge
                         backgroundColor="#F9F9FF"
-                        icon={<img width={70} height={70} src="/img/page/emotion/emotion-icon-main-page.png" alt={_("EMOTION.ICO")} />}
+                        iconSrc="/img/page/emotion/emotion-icon-main-page.png"
+                        iconAlt={_("EMOTION.ICO")}
                         title={_("EMOTION.HEAD")}
                         subtitle={_("EMOTION.SUBHEAD")}
                         content={_("EMOTION.TEXT")}
@@ -182,7 +188,6 @@ export default function LandingPage() {
                         }}
                         imageSrc="/img/page/emotion/emotion-main-page.webp"
                         imageAlt={_("EMOTION.IMG")}
-                        useI18NImage={true}
                         isImageOnLeft={false}
                     />
                 </div>
@@ -191,7 +196,8 @@ export default function LandingPage() {
                     {/* Энергия */}
                     <CardAppLarge
                         backgroundColor="#F9F9FF"
-                        icon={<img width={70} height={70} src="/img/page/energy/energy-icon-main-page.svg" alt={_("ENERGY.ICO_MAIN")} />}
+                        iconSrc="/img/page/energy/energy-icon-main-page.svg"
+                        iconAlt={_("ENERGY.ICO_MAIN")}
                         title={_("ENERGY.HEAD_MAIN")}
                         subtitle={_("ENERGY.SUBHEAD_MAIN")}
                         content={_("ENERGY.TEXT_MAIN")}
@@ -203,7 +209,6 @@ export default function LandingPage() {
                         }}
                         imageSrc="/img/page/energy/energy-main-page.webp"
                         imageAlt={_("ENERGY.IMG")}
-                        useI18NImage={false}
                         isImageOnLeft={true}
                     />
                 </div>

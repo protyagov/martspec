@@ -2,7 +2,8 @@ import React from "react";
 import ButtonChevronRight from "@/atomic/atom/button-chevron-right"; // Импортируем новый компонент
 
 type CardAppSmallProps = {
-  icon: React.ReactNode;
+  iconSrc: string;
+  iconAlt: string;
   title: string;
   subtitle: string;
   content: string;
@@ -15,7 +16,8 @@ type CardAppSmallProps = {
 };
 
 const CardAppSmall: React.FC<CardAppSmallProps> = ({
-  icon,
+  iconSrc,
+  iconAlt,
   title,
   subtitle,
   content,
@@ -29,7 +31,9 @@ const CardAppSmall: React.FC<CardAppSmallProps> = ({
     >
       {/* Верхняя часть с иконкой, заголовком и подзаголовком */}
       <div className="d-flex align-items-center gap-3 mb-4">
-        <div className="icon">{icon}</div>
+        <div className="icon">
+          <img src={iconSrc} alt={iconAlt} width={50} height={50} />
+        </div>
         <div>
           <h1 className="mb-1">{title}</h1>
           <h2 className="fs-5">{subtitle}</h2>
