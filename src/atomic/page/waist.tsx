@@ -2,7 +2,7 @@ import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import PageHeader from "@/atomic/molecule/page-header";
+import Header from "../organism/header";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import ImageI18N from "@/atomic/atom/img-i18n";
@@ -53,16 +53,21 @@ export default function WaistLine() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new waist">
-                <PageHeader
+                <Header
                     title={_("WAIST.HEAD")}
-                    subtitleLevel1={_("WAIST.ABOUT_1")}
-                    subtitleLevel2={_("WAIST.ABOUT_2")}
                     appId={appId}
                     appDownloadTitle={_("WAIST.DWN")}
-                    imgSrc="/img/page/waistline/waist.svg"
+                    imgSrc="/img/page/waistline/waistline-header-en.webp"
                     imgAlt={_("WAIST.IMG")}
-                    imgH={468}
-                    imgW={430}
+                    imgH={531}
+                    imgW={722}
+                    content={
+                        <ul className="header-content-list">
+                            <li>{_("WAIST.ABOUT_1")}</li>
+                            <li>{_("WAIST.ABOUT_2")}</li>
+                            <li>{_("WAIST.ABOUT_3")}</li>
+                        </ul>
+                    }
                 />
 
                 <section>

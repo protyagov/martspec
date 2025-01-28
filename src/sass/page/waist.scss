@@ -46,4 +46,8 @@
             line-height: 147%;
         }
     }
+
+    .header-content-list li::marker {
+        color: #1686ff;
+    }
 }
