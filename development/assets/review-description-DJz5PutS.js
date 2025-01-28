@@ -1,0 +1,1 @@
+import{j as t}from"./index-DcB9E1HL.js";import{u as i}from"./review-context-Bfm5FN-q.js";function o(){const{text:e}=i();return t.jsx("p",{className:"review__description",children:e.description})}export{o as R};
