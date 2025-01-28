@@ -8,7 +8,7 @@ interface Icon {
 export interface IconTitleText {
     icon: Icon;
     title: string;
-    subtitle: string;
+    subtitle?: string;
 }
 
 interface IconTitleTextElemProps extends IconTitleText {}
@@ -24,7 +24,7 @@ const IconTitleTextElem = ({ icon, title, subtitle }: IconTitleTextElemProps): J
             </div>
             <div>
                 <h3>{title}</h3>
-                <p>{subtitle}</p>
+                {subtitle && <p>{subtitle}</p>}
             </div>
         </li>
     );
