@@ -4,15 +4,15 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import PageHeader from "@/atomic/molecule/page-header";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
-import CardTitleText from "../molecule/card-title-text";
-import CardTitleTextImage from "../molecule/card-title-text-image";
-import CardImage from "../molecule/card-image";
+import CardTitleText from "@/atomic/molecule/card-title-text";
+import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
+import CardImage from "@/atomic/molecule/card-image";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 
 export default function WaistLine() {
     const appId = getAppId();
