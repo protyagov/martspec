@@ -873,7 +873,8 @@
         "IMG": "直接从手臂追踪腰围大小（腹部按钮）",
         "DWN": "从 Apple App Store 下载免费的腰身应用程序",
         "ABOUT_1": "方便簡單的腰部日記",
-        "ABOUT_2": "適用於您的 Apple Watch",
+        "ABOUT_2": "觀察您的健康狀況",
+        "ABOUT_3": "適用於您的 Apple Watch",
         "LIST1": {
             "LI1_HEAD": "腰圍",
             "LI1_TEXT": "自動計算您腰圍的變化",
@@ -906,6 +907,8 @@
         "DESC5": "立即下載應用程序，並開始以方便的格式監測您腰圍的變化",
         "ALT1": "Apple Watch 螢幕在 Martspec 的 Waist 應用程式中全天即時顯示您的腰圍",
         "ALT2": "Apple Watch 畫面顯示目前腰圍以及 Martspec 的 Waist 應用程式中的統計數據",
+        "ALT3_1": "追踪腰围变化的便捷工具",
+        "ALT3_2": "无需 iPhone 即可访问统计数据",
         "BTN_OPEN": "減少"
     },
     "ZINC": {

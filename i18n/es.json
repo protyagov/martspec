@@ -874,7 +874,8 @@
         "IMG": "Lleve un registro del tamaño de su cintura (ombligo) directamente desde su brazo",
         "DWN": "Descargue la aplicación de cintura gratuita desde la App Store de Apple",
         "ABOUT_1": "Un diario de medida de cintura conveniente y sencillo",
-        "ABOUT_2": "Para su Apple Watch",
+        "ABOUT_2": "Observe su salud",
+        "ABOUT_3": "Para su Apple Watch",
         "LIST1": {
             "LI1_HEAD": "Registro de circunferencia de la cintura",
             "LI1_TEXT": "Cálculo automático de cambios en el tamaño de tu cintura",
@@ -907,6 +908,8 @@
         "DESC5": "Descargue la aplicación ahora mismo y comience a seguir los cambios en el tamaño de tu cintura en un formato conveniente",
         "ALT1": "Pantallas del Apple Watch que muestran tu circunferencia de cintura en tiempo real y durante todo el día en la aplicación Cintura de Martspec",
         "ALT2": "Pantallas de Apple Watch que muestran la circunferencia de cintura actual y estadísticas en la aplicación Cintura de Martspec",
+        "ALT3_1": "Una herramienta conveniente para rastrear cambios en la circunferencia de la cintura",
+        "ALT3_2": "Acceso a estadísticas sin un iPhone",
         "BTN_OPEN": "Tonifique su abdomen"
     },
     "ZINC": {

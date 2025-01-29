@@ -874,7 +874,8 @@
         "IMG": "Behalten Sie Ihre Taillengröße (Bauchnabel) direkt von Ihrem Arm aus im Auge",
         "DWN": "Laden Sie die kostenlose Taillen-App aus dem Apple App Store herunter",
         "ABOUT_1": "Praktisches und einfaches Taillentagebuch",
-        "ABOUT_2": "Für Ihre Apple Watch",
+        "ABOUT_2": "Beobachten Sie Ihre Gesundheit",
+        "ABOUT_3": "Für Ihre Apple Watch",
         "LIST1": {
             "LI1_HEAD": "Taillenumfang",
             "LI1_TEXT": "Automatische Berechnung der Änderungen Ihres Taillenumfangs",
@@ -910,6 +911,8 @@
         "DESC5": "Laden Sie die Anwendung jetzt herunter und beginnen Sie mit der Überwachung der Veränderungen Ihres Taillenumfangs in einem praktischen Format",
         "ALT1": "Apple Watch-Bildschirme zeigen Ihren Taillenumfang in Echtzeit und den ganzen Tag über in der Taillen-App von Martspec",
         "ALT2": "Apple Watch-Bildschirme zeigen den aktuellen Taillenumfang und Statistiken in der Waist-App von Martspec",
+        "ALT3_1": "Ein praktisches Werkzeug zur Verfolgung von Veränderungen des Taillenumfangs",
+        "ALT3_2": "Zugriff auf Statistiken ohne iPhone",
         "BTN_OPEN": "Verringern"
     },
     "ZINC": {
