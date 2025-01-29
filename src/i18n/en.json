@@ -874,7 +874,8 @@
         "IMG": "Keep track of your waist size (belly button) directly from your arm",
         "DWN": "Download Free body waist app from the Apple AppStore",
         "ABOUT_1": "Convenient and simple waist diary",
-        "ABOUT_2": "For your Apple Watch",
+        "ABOUT_2": "Monitor your health",
+        "ABOUT_3": "For your Apple Watch",
         "LIST1": {
             "LI1_HEAD": "Waist circumference",
             "LI1_TEXT": "Automatic calculation of changes in your waist size",

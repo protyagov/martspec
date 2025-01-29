@@ -47,8 +47,12 @@
         }
     }
 
-    .no-mx-5 .card-title-text-image .align-self-center{
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
+  .header-content-list li::marker {
+      color: #1686ff;
+  }
+
+  .no-mx-5 .card-title-text-image .align-self-center {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+  }
 }
