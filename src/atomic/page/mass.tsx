@@ -12,7 +12,7 @@ import { getAppId } from "@/service/AppleService";
 import CardImage from "@/atomic/molecule/card-image";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 
 export default function Bodymass() {
     const appId = getAppId();
@@ -93,10 +93,10 @@ export default function Bodymass() {
                             <CardTitleTextImage
                                 title={_("MASS.LIST1.LI1_HEAD")}
                                 text={_("MASS.LIST1.LI1_TEXT")}
-                                imgSrc="/img/page/body-mass/card_bg.webp"
+                                imgSrc="/img/page/body-mass/mid-pic-illustration.png"
                                 imgH={239}
                                 imgW={400}
-                                imgPosition="bottom-right"
+                                imgPosition="default"
                             />
                         </div>
                         <div className="col p-0">
@@ -119,10 +119,12 @@ export default function Bodymass() {
                         </div>
                         <div className="col col-md-12">
                             <CardImage
-                                imgSrc="/img/page/body-mass/card_img.webp"
+                                imgSrc="/img/page/body-mass/mid-pic-girl-and-apple.png"
                                 imgH={720}
                                 imgW={664}
-                                bgColor="#F2F2F5"
+                                bgColor="#F4F7FA"
+                                alignItems="end"
+                                justifyContent="end"
                             />
                         </div>
                     </div>
