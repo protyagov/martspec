@@ -4,13 +4,15 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import PageHeader from "@/atomic/molecule/page-header";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
-import TitleTextCard from "@/atomic/molecule/title-text-card";
+import CardTitleText from "@/atomic/molecule/card-title-text";
+import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
+import CardImage from "@/atomic/molecule/card-image";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 
 export default function WaistLine() {
     const appId = getAppId();
@@ -66,22 +68,44 @@ export default function WaistLine() {
                 />
 
                 <section>
-                    <div className="row g-4">
-                        <TitleTextCard
-                            title={_("WAIST.LIST1.LI1_HEAD")}
-                            text={_("WAIST.LIST1.LI1_TEXT")}
-                            bgColor="#FFB34066"
-                        />
-                        <TitleTextCard
-                            title={_("WAIST.LIST1.LI2_HEAD")}
-                            text={_("WAIST.LIST1.LI2_TEXT")}
-                            bgColor="#3D9AD166"
-                        />
-                        <TitleTextCard
-                            title={_("WAIST.LIST1.LI3_HEAD")}
-                            text={_("WAIST.LIST1.LI3_TEXT")}
-                            bgColor="#FFB34066"
-                        />
+                    <div className="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
+                        <div className="col no-mx-5">
+                            <CardTitleTextImage
+                                title={_("WAIST.LIST1.LI1_HEAD")}
+                                text={_("WAIST.LIST1.LI1_TEXT")}
+                                imgSrc="/img/page/waistline/middle-section-pic-apple.png"
+                                imgH={239}
+                                imgW={400}
+                                imgAlt={_("WAIST.ALT3_1")}
+                            />
+                        </div>
+                        <div className="col p-0">
+                            <div className="row row-cols-1 h-100 p-0">
+                                <div className="col py-0">
+                                    <CardTitleText
+                                        title={_("WAIST.LIST1.LI2_HEAD")}
+                                        text={_("WAIST.LIST1.LI2_TEXT")}
+                                        bgColor="#FFF3E9"
+                                    />
+                                </div>
+                                <div className="col py-0 mt-4">
+                                    <CardTitleText
+                                        title={_("WAIST.LIST1.LI3_HEAD")}
+                                        text={_("WAIST.LIST1.LI3_TEXT")}
+                                        bgColor="#DDE9FF"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col col-md-12">
+                            <CardImage
+                                imgSrc="/img/page/waistline/middle-section-pic-statistics.png"
+                                imgH={720}
+                                imgW={664}
+                                imgAlt={_("WAIST.ALT3_2")}
+                                bgColor="#F4F5F8"
+                            />
+                        </div>
                     </div>
                 </section>
 
