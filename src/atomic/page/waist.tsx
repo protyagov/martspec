@@ -7,9 +7,9 @@ import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardImage from "@/atomic/molecule/card-image";
-import ImageI18N from "@/atomic/atom/img-i18n";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
-import CallToAction from "@/atomic/organism/call-to-action";
+import CallToActionNew from "@/atomic/organism/call-to-action-new";
+import CallToAction from "../organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
@@ -114,45 +114,27 @@ export default function WaistLine() {
                     </div>
                 </section>
 
-                <section>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h2>{_("WAIST.HEAD1")}</h2>
-                            <p className="mb-4">{_("WAIST.DESC1")}</p>
-                            <h4>{_("WAIST.HEAD2")}</h4>
-
-                            {/* Better than BMI */}
-                            <p className="mb-4">
-                                <a
-                                    href="https://www.heart.org/en/news/2019/03/19/waist-size-predicts-heart-attacks-better-than-bmi-especially-in-women"
-                                    target="_blank"
-                                >
-                                    {_("WAIST.LINK2")}
-                                </a>
-                                {_("WAIST.DESC2")}
-                            </p>
-                            <h4>{_("WAIST.HEAD3")}</h4>
-
-                            {/* Medical Fact */}
-                            <p className="mb-4">
-                                <a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm" target="_blank">
-                                    {_("WAIST.LINK3")}
-                                </a>
-                                {_("WAIST.DESC3")}
-                            </p>
-                        </div>
-
-                        <div className="col-lg-6">
-                            <ImageI18N
-                                src="/img/page/waistline/main-pic-en.webp"
-                                w={435}
-                                h={397}
-                                cls="ms-base-image mt-mob-xs"
-                                alt={_("WAIST.ALT1")}
-                            />
-                        </div>
-                    </div>
-                </section>
+                <div className="ms-base-page ms-base-new waist call-to-action why-waist-section">
+                    <CallToActionNew
+                        title={_("WAIST.HEAD1")}
+                        subtitle={_("WAIST.DESC1")}
+                        textList={[
+                            <>
+                                <strong>{_("WAIST.LINK2")}</strong> {_("WAIST.DESC2")}
+                            </>,
+                            <>
+                                <strong>{_("WAIST.LINK3")}</strong> {_("WAIST.DESC3")}
+                            </>,
+                        ]}
+                        textListTitle={_("WAIST.HEAD3")}
+                        imgSrc="/img/page/waistline/waist-whywaist-en.webp"
+                        imgH={390}
+                        imgW={620}
+                        imgAlt={_("WAIST.ALT1")}
+                        imgPosition="left"
+                        bgColor={"#FFFFFF"}
+                    />
+                </div>
 
                 <section>
                     <div className="row">
