@@ -8,8 +8,8 @@ import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardImage from "@/atomic/molecule/card-image";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
-import CallToActionNew from "@/atomic/organism/call-to-action-new";
-import CallToAction from "../organism/call-to-action";
+import CallToAction from "@/atomic/organism/call-to-action-new";
+import ButtonApple from "../atom/button-apple";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
@@ -115,7 +115,7 @@ export default function WaistLine() {
                 </section>
 
                 <div className="ms-base-page ms-base-new waist call-to-action why-waist-section">
-                    <CallToActionNew
+                    <CallToAction
                         title={_("WAIST.HEAD1")}
                         subtitle={_("WAIST.DESC1")}
                         textList={[
@@ -171,11 +171,10 @@ export default function WaistLine() {
                 <section>
                     <div className="row">
                         <CallToAction
-                            bgColor={{ backgroundColor: "#FFB34066" }}
+                            bgColor={"#FFB34066"}
                             title={_("WAIST.HEAD5")}
                             subtitle={_("WAIST.DESC5")}
-                            appId={appId}
-                            appDownloadTitle={_("WAIST.DWN")}
+                            button={<ButtonApple appId={appId} appDownloadTitle={_("WAIST.DWN")} />}
                             imgSrc="/img/page/waistline/call-to-action-en.webp"
                             imgAlt={_("WAIST.ALT2")}
                         />
