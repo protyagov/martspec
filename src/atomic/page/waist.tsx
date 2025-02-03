@@ -47,7 +47,7 @@ export default function WaistLine() {
                 alt: _("MASS.ALT5_5"),
             },
             title: _("WAIST.LIST2.LI4_HEAD"),
-            subtitle: _("WAIST.LIST2.LI4_TEXT"),
+            subtitle: _("WAIST.LIST2.LI4_HEAD"),
         },
     ];
     return (
@@ -155,8 +155,8 @@ export default function WaistLine() {
                 </section>
 
                 <section>
-                    <div className="row">
-                        <div className="col-12 mb-2">
+                    <div className="row our-advantages-section">
+                        <div className="col-12">
                             <h2>{_("WAIST.HEAD4")}</h2>
                         </div>
                         <div className="col-12">
