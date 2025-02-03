@@ -7,9 +7,23 @@
         "WIKI": "Read full article on WiKi"
     },
     "MAIN": {
-        "HEAD": "Simplicity of health tracking",
-        "SUBHEAD": "Apps to make daily tasks agile and effortless",
-        "IMG": "Apple Watch wellness and health apps"
+        "HEAD": "Make health care a habit",
+        "SUBHEAD": "Discover an innovative approach to a healthy lifestyle with us",
+        "ALT": "Vitamin and Emotion apps for your iPhone and Apple Watch",
+        "COUNTERS": {
+            "COUNTER_1": {
+                "NUM": "11 000",
+                "TEXT": "users"
+            },
+            "COUNTER_2": {
+                "NUM": "250+",
+                "TEXT": "reviews"
+            },
+            "COUNTER_3": {
+                "NUM": "20 000",
+                "TEXT": "downloads"
+            }
+        }
     },
     "REVIEW": {
         "HEAD": "It's been said about us",

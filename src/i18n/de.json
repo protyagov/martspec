@@ -7,9 +7,23 @@
         "WIKI": "Lesen Sie den vollständigen Artikel über WiKi"
     },
     "MAIN": {
-        "HEAD": "Gesundheit & Wohlbefinden",
-        "SUBHEAD": "Machen Sie tägliche Aufgaben agil und mühelos",
-        "IMG": "Einfachheit der Gesundheitsverfolgung, Apple Watch Wellness- und Gesundheits-Apps"
+        "HEAD": "Machen Sie Gesundheitspflege zur Gewohnheit",
+        "SUBHEAD": "Entdecken Sie einen innovativen Ansatz für einen gesunden Lebensstil mit uns",
+        "ALT": "Vitamin- und Emotion-Apps für Ihr iPhone und Ihre Apple Watch",
+        "COUNTERS": {
+            "COUNTER_1": {
+                "NUM": "11 000",
+                "TEXT": "Nutzer"
+            },
+            "COUNTER_2": {
+                "NUM": "250+",
+                "TEXT": "Bewertungen"
+            },
+            "COUNTER_3": {
+                "NUM": "20 000",
+                "TEXT": "Downloads"
+            }
+        }
     },
     "REVIEW": {
         "HEAD": "Es wurde schon über uns gesagt",

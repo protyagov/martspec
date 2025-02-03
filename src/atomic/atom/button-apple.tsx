@@ -3,7 +3,7 @@ import _, { Locale } from "@/i18n/locale";
 
 interface ButtonAppleProps {
     appId: number;
-    appDownloadTitle: string;
+    appDownloadTitle?: string;
 }
 
 const ButtonApple: React.FC<ButtonAppleProps> = ({ appId, appDownloadTitle }) => {

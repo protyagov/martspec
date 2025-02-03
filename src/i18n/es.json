@@ -7,9 +7,23 @@
         "WIKI": "Leer artículo completo sobre WiKi"
     },
     "MAIN": {
-        "HEAD": "Sencillez del seguimiento de la salud",
-        "SUBHEAD": "Aplicaciones para hacer más eficientes y ágiles las tareas diarias",
-        "IMG": "Aplicaciones de salud y bienestar de Apple Watch"
+        "HEAD": "Haz que cuidar tu salud sea un hábito",
+        "SUBHEAD": "Descubre un enfoque innovador hacia un estilo de vida saludable con nosotros",
+        "ALT": "Aplicaciones de Vitamina y Emoción para tu iPhone y Apple Watch",
+        "COUNTERS": {
+            "COUNTER_1": {
+                "NUM": "11 000",
+                "TEXT": "usuarios"
+            },
+            "COUNTER_2": {
+                "NUM": "250+",
+                "TEXT": "reseñas"
+            },
+            "COUNTER_3": {
+                "NUM": "20 000",
+                "TEXT": "descargas"
+            }
+        }
     },
     "REVIEW": {
         "HEAD": "Se ha dicho de nosotros",
