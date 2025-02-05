@@ -59,7 +59,7 @@ export default function LandingPage() {
                                 link: Locale.i18nLink("vitamin"),
                                 color: "#1686FF",
                             }}
-                            imageSrc="/img/page/vitamin/vitamin-app-main-page.webp"
+                            imageSrc="/img/page/vitamin/Img-Our-Products-Vitamin-en.webp"
                             imageAlt={_("VITAMIN.IMG")}
                             isImageOnLeft={false}
                         />
@@ -186,7 +186,7 @@ export default function LandingPage() {
                             link: Locale.i18nLink("emotion"),
                             color: "#1686FF",
                         }}
-                        imageSrc="/img/page/emotion/emotion-main-page.webp"
+                        imageSrc="/img/page/emotion/Img-Our-Products-Emotion-en.webp"
                         imageAlt={_("EMOTION.IMG")}
                         isImageOnLeft={false}
                     />
