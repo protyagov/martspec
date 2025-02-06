@@ -896,11 +896,11 @@
         "HEAD4": "Avantages",
         "LIST2": {
             "LI1_HEAD": "Protection des données",
-            "LI1_TEXT": "Nous NE stockons PAS vos données sur nos serveurs",
+            "LI1_TEXT": "Nous ne stockons pas vos données sur nos serveurs",
             "LI2_HEAD": "Sans autorisation",
             "LI2_TEXT": "Aucun compte requis pour cette application",
             "LI3_HEAD": "Pas de pubs",
-            "LI3_TEXT": "Nous n'avons PAS de publicités ennuyeuses",
+            "LI3_TEXT": "Nous n'avons pas de publicités ennuyeuses",
             "LI4_HEAD": "Apple Health",
             "LI4_TEXT": "Intégration des données de lecture et d'écriture"
         },
