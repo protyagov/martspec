@@ -7,8 +7,9 @@
   }
 
   .link-button:hover {
-    background-color: #0872e3 !important;
-    color: white !important;
+    background-color: transparent !important;
+    color: #1686FF !important;
+    border: solid 1px #1686FF !important;
   }
 
   @media (min-width: 769px) and (max-width: 1200px) {
