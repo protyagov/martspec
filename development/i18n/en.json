@@ -896,11 +896,11 @@
         "HEAD4": "Advantages",
         "LIST2": {
             "LI1_HEAD": "Data protection",
-            "LI1_TEXT": "We DO NOT store your data on our servers",
+            "LI1_TEXT": "We do not store your data on our servers",
             "LI2_HEAD": "Without authorization",
             "LI2_TEXT": "No account required for this app",
             "LI3_HEAD": "Ad-free",
-            "LI3_TEXT": "We DO NOT have annoying ads",
+            "LI3_TEXT": "We do not have annoying ads",
             "LI4_HEAD": "Synchronization with Apple Health",
             "LI4_TEXT": "Between devices via iCloud and with Apple Health"
         },

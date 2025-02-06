@@ -898,11 +898,11 @@
         "HEAD4": "Vantagens",
         "LIST2": {
             "LI1_HEAD": "Proteção de dados",
-            "LI1_TEXT": "NÃO armazenamos seus dados em nossos servidores",
+            "LI1_TEXT": "Não armazenamos seus dados em nossos servidores",
             "LI2_HEAD": "Sem autorização",
             "LI2_TEXT": "Nenhuma conta é necessária para este aplicativo",
             "LI3_HEAD": "Sem anúncios",
-            "LI3_TEXT": "NÃO temos anúncios irritantes",
+            "LI3_TEXT": "Não temos anúncios irritantes",
             "LI4_HEAD": "Apple Health",
             "LI4_TEXT": "Integração de leitura e gravação de dados"
         },
