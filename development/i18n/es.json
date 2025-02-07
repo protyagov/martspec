@@ -9,7 +9,8 @@
     "MAIN": {
         "HEAD": "Sencillez del seguimiento de la salud",
         "SUBHEAD": "Aplicaciones para hacer más eficientes y ágiles las tareas diarias",
-        "IMG": "Aplicaciones de salud y bienestar de Apple Watch"
+        "IMG": "Aplicaciones de salud y bienestar de Apple Watch",
+        "OUR_PRODUCTS": "Nuestros productos"
     },
     "REVIEW": {
         "HEAD": "Se ha dicho de nosotros",
@@ -31,8 +32,9 @@
         "IMG": "Registra electrolitos y minerales con tu Apple Watch, Electrolyte, aplicación para Apple Watch, aplicación de salud",
         "DWN": "Descargue la aplicación gratuita de seguimiento de electrolitos de la AppStore de Apple",
         "SUBHEAD": "equilibrio hídrico-salino",
-    "TEXT": "Los electrolitos juegan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Regulan el funcionamiento del corazón, las funciones neurológicas, el equilibrio de líquidos, la entrega de oxígeno a los tejidos, el equilibrio ácido-base y mucho más.",
-    "ICO": "Ícono para el rastreador de electrolitos más simple para Apple Watch. Siga su consumo de magnesio, calcio, potasio, hierro. Sincronización con Apple Salud. Sin publicidad.",
+        "TEXT": "Los electrolitos juegan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Regulan el funcionamiento del corazón, las funciones neurológicas, el equilibrio de líquidos, la entrega de oxígeno a los tejidos, el equilibrio ácido-base y mucho más.",
+        "TEXT1": "Los electrolitos apoyan el funcionamiento del corazón y participan en otros procesos fisiológicos. Controle el nivel de electrolitos en su cuerpo con nuestra aplicación.",
+        "ICO": "Ícono para el rastreador de electrolitos más simple para Apple Watch. Siga su consumo de magnesio, calcio, potasio, hierro. Sincronización con Apple Salud. Sin publicidad.",
         "ABOUT_1": "Controla minerales importantes",
         "ABOUT_2": "Forma fácil y conveniente de ingresar lecturas de electrolitos desde el Apple Watch",
         "ABOUT_3": "Sincronización con la aplicación Apple Health",
@@ -57,6 +59,7 @@
     "MASS": {
         "HEAD": "Peso",
         "SUBHEAD": "El diario de control de peso más conveniente",
+        "ICO": "Icono del diario de peso más conveniente. Sincronización con iCloud. Sin anuncios ni autenticación.",
         "IMG": "Una mujer sube a una báscula y mide su peso con un Apple Watch que ejecuta la aplicación Peso de Martspec.",
         "TEXT": "El seguimiento de su peso aumenta su eficiencia en cuanto a su tiempo y entrenamientos. ¡No solo lo impulsará a mejorar, sino que también lo motivará a competir consigo mismo!",
         "DWN": "Descarga la aplicación gratuita Peso desde Apple Store",
@@ -104,6 +107,10 @@
         "ICO": "Ícono de la mejor aplicación de seguimiento de vitaminas y minerales para su Apple Watch, iPhone y iPad. Se sincroniza a la perfección con La app Salud. Cero anuncios.",
         "TEXT": "El seguimiento de sus vitaminas esenciales tiene muchos beneficios, desde ayudar a controlar las intolerancias alimentarias hasta aumentar la energía, evitar cambios de humor y estimular el ritmo de su día.",
         "IMG": "Realice un seguimiento de las vitaminas más esenciales directamente en su muñeca",
+        "HEAD1": "Anillo de Vitaminas",
+        "SUBHEAD1": "Rastreador de nutrientes y medicamentos",
+        "TEXT1": "Rastreador conveniente para la toma de vitaminas. Sincronización de la aplicación con Apple Health. Copia de seguridad en iCloud. Funciona de forma gratuita. Sin anuncios ni compras dentro de la aplicación.",
+        "ICO1": "Icono de la aplicación Anillo de Vitaminas, el mejor rastreador de vitaminas. Sincronización con Apple Health y copia de seguridad en iCloud. Gratis y sin anuncios.",
         "DWN": "Descargue la aplicación gratuita de seguimiento de vitaminas y nutrientes de la AppStore de Apple",
         "ABOUT_1": "Controle su consumo de vitaminas y minerales importantes todos los días",
         "ABOUT_2": "La energía de la alimentación saludable y una vida feliz",
@@ -917,6 +924,7 @@
         "SUBHEAD": "Rastreador de zinc para su reloj",
         "ICO": "Ícono de nuestra aplicación gratuita Apple Watch que lo ayuda a rastrear el consumo de zinc. Realice registros sobre el zinc dietético desde sus relojes Apple y sincronícelos con La app Salud. No se necesita una aplicación de iPhone complementaria para funcionar. Cero anuncios.",
         "TEXT": "El zinc puede potenciar la función inmunológica, estabilizar los niveles de azúcar en la sangre y contribuir a mantener saludables la piel, los ojos y el corazón.",
+        "TEXT1": "Rastreador del contenido de zinc en su cuerpo para Apple Watch. Sincronización con Apple Health. Entrada de datos conveniente. Funciona de forma gratuita y sin anuncios.",
         "IMG": "Rastrea su consumo diario de suplemento de zinc",
         "DWN": "Recibe la aplicación gratuita de Bodyzinc de Apple Store",
         "ABOUT_1": "Rastreador de zinc sencillo y fácil de usar",
@@ -1445,6 +1453,10 @@
         "DESK6_2": "Es importante señalar que, si bien la independencia puede contribuir al éxito en estos campos, la colaboración y las habilidades de comunicación efectiva también son valiosas en la mayoría de las profesiones. Encontrar un equilibrio entre independencia y trabajo en equipo es esencial para una carrera profesional satisfactoria. Además, las personas son únicas y su trayectoria profesional puede verse influenciada por una combinación de rasgos e intereses distintos de la independencia."
     },
     "ENERGY": {
+        "HEAD_MAIN": "Energía",
+        "ICO_MAIN": "Icono de la aplicación para el seguimiento diario de su nivel de energía.",
+        "SUBHEAD_MAIN": "Desafíos diarios con seguimiento del progreso",
+        "TEXT_MAIN": "Realice desafíos diarios y siga su progreso personal para alcanzar su meta. Saltarse días llevará al fracaso de su misión. Obtenga recompensas por sus logros, elija el nivel de dificultad y mucho más en la aplicación „Energía“.",
         "HEAD": "Energía",
         "IMG": "Energía",
         "DWN": "Obtenga la aplicación Emoción gratuita para Apple Watch, iPhone o iPad directamente desde la App Store de Apple.",
@@ -1662,7 +1674,8 @@
         "TEXT_1": "Estamos trabajando duro para ofrecerle la mejor página web.",
         "TEXT_2": "Gracias por su paciencia.",
         "BTN": "Inicio",
-        "CTA": "Síganos en"
+        "CTA": "Síganos en",
+        "SOON_BTN": "En desarrollo"
     },
     "MISSION": {
         "HEAD": "Misión",
