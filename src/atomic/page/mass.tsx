@@ -75,7 +75,7 @@ export default function Bodymass() {
                     title={_("MASS.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("MASS.DWN")}
-                    imgSrc="/img/page/body-mass/mass-header.webp"
+                    imgSrc="/img/page/body-mass/mass-header-en.webp"
                     imgAlt={_("MASS.IMG")}
                     imgH={531}
                     imgW={722}
@@ -132,7 +132,7 @@ export default function Bodymass() {
                     <div className="row d-flex align-items-center justify-content-between g-4">
                         <div className="col-12 col-xxl-6">
                             <ImageI18N
-                                src="/img/page/body-mass/mass-watches-ru.webp"
+                                src="/img/page/body-mass/why-mass-en.webp"
                                 w={487}
                                 h={515}
                                 cls="ms-base-image mt-mob-xs"

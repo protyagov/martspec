@@ -12,9 +12,15 @@ const ButtonChevronRight: React.FC<ButtonChevronRight> = ({ text, link, classNam
         <a href={link} target="_blank" rel="noopener noreferrer" className={`btn btn-chevron-right ${className}`}>
             <div id="container">
                 <button className="learn-more">
-                    <span className="circle">
-                        <span className="icon arrow"></span>
-                    </span>
+                    <div className="circle">
+                    <img src="/img/atom/button_chevron_right/arrow-initial.svg"
+                    className="icon arrow-initial"
+                    />
+                    <img src="/img/atom/button_chevron_right/arrow-hover.svg"
+                    className="icon arrow-hover"
+                    />
+                        {/* <span className="icon arrow"></span> */}
+                    </div>
                     <span className="button-text">{text}</span>
                 </button>
             </div>
