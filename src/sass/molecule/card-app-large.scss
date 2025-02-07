@@ -1,0 +1,38 @@
+.card-app-large {
+  padding: 1.5rem 3rem;
+
+  .link-button {
+    max-width: fit-content;
+    transition: background-color 0.3s ease;
+  }
+
+  .link-button:hover {
+    background-color: transparent !important;
+    color: #1686FF !important;
+    border: solid 1px #1686FF !important;
+  }
+
+  @media (min-width: 769px) and (max-width: 1200px) {
+    padding: 1rem 2rem;
+    flex-direction: column; 
+
+    .img-container img {
+      width: 66vw !important;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem 1rem;
+
+    .icon img{
+      width: 10vw;
+      height: auto;
+    }
+
+    .img-container img {
+      width: 100vw !important; 
+      height: auto; 
+    }
+  }
+}

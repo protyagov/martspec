@@ -89,13 +89,12 @@
     font-family: os4;
 
     h1 {
-        font-family: os6;
+        font-family: os5;
         margin-bottom: 0;
     }
 
     p {
         font-size: 1.1rem;
-        color: $ms-color-text-orange;
         margin-bottom: 0;
         display: inline-block;
 
@@ -142,10 +141,6 @@
                 "text"
                 / 100% 100% 100% !important;
         }
-    }
-
-    &:nth-child(odd) {
-        background-color: $ms-color-bg-secondary;
     }
 
     &:nth-child(even) {
