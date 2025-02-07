@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ButtonApple from "@/atomic/atom/button-apple";
 import ImageI18N from "@/atomic/atom/img-i18n";
 
@@ -26,77 +26,48 @@ type WithoutImage<Props> = Props & {
 };
 
 export default function Header(props: WithImage<HeaderProps> | WithoutImage<HeaderProps>) {
-    const { 
-        title, 
-        imgSrc, 
-        imgH, 
-        imgW, 
-        imgAlt, 
-        appId, 
-        appDownloadTitle, 
-        content, 
-        whichContent = "apple-button", 
-        tripleRowContent 
-    } = props;
+    const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, content, whichContent = "apple-button", tripleRowContent } = props;
 
-    const [isDesktop, setIsDesktop] = useState<boolean>(typeof window !== "undefined" ? window.innerWidth > 991 : false);
+    const [isDesktop, setIsDesktop] = useState<boolean>(window.innerWidth >= 992);
 
     useEffect(() => {
-        const handleResize = () => {
-            setIsDesktop(window.innerWidth > 991);
-        };
-
+        const handleResize = () => setIsDesktop(window.innerWidth >= 992);
         window.addEventListener("resize", handleResize);
-        handleResize(); 
-
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
+        return () => window.removeEventListener("resize", handleResize);
     }, []);
 
     return (
-        <>
-            {whichContent === "apple-button" ? (
-                <section className="new-page-header">
-                    <div className="row">
-                        <div className="col">
-                            <div className="headings">
-                                <h1>{title}</h1>
-                                {content}
-                                {appId && <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle} />}
+        <section className="new-page-header">
+            <div className="row">
+                <div className="col">
+                    <div className="headings">
+                        <h1>{title}</h1>
+                        {content}
+                        {whichContent === "row-items" && isDesktop && (
+                            <div className="triple-row-content">
+                                {tripleRowContent}
                             </div>
-                            {imgSrc && (
-                                <ImageI18N src={imgSrc} h={imgH} w={imgW} cls="header-image" alt={imgAlt} />
-                            )}
-                        </div>
+                        )}
+                        {whichContent === "apple-button" && appId && (
+                            <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle} />
+                        )}
                     </div>
-                </section>
-            ) : (
-                <section className="new-page-header">
-                    <div className="row">
-                        <div className="col">
-                            <div className="headings">
-                                <h1>{title}</h1>
-                                {content}
-                                {isDesktop && tripleRowContent && (
-                                    <div className="triple-row-content">{tripleRowContent}</div>
-                                )}
-                            </div>
-                            {isDesktop && imgSrc && (
-                                <ImageI18N src={imgSrc} h={imgH} w={imgW} cls="header-image" alt={imgAlt} />
-                            )}
-                            {!isDesktop && (
-                                <div className="content-container">
-                                    {tripleRowContent && <div className="triple-row-content">{tripleRowContent}</div>}
-                                    {imgSrc && (
-                                        <ImageI18N src={imgSrc} h={imgH} w={imgW} cls="header-image-lg-sm" alt={imgAlt} />
-                                    )}
-                                </div>
-                            )}
-                        </div>
-                    </div>
-                </section>
+                    {imgSrc && (
+                        <ImageI18N 
+                            src={imgSrc} 
+                            h={imgH} 
+                            w={imgW} 
+                            cls="header-image"
+                            alt={imgAlt} 
+                        />
+                    )}
+                </div>
+            </div>
+            {!isDesktop && whichContent === "row-items" && tripleRowContent && (
+                <div className="triple-row-content mobile">
+                    {tripleRowContent}
+                </div>
             )}
-        </>
+        </section>
     );
 }
