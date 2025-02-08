@@ -3,9 +3,11 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 import appIds from "@/data/app-ids.json";
 import Review from "@/atomic/prototype/review";
+import CardAppSmall from "@/atomic/molecule/card-app-small";
+import CardAppLarge from "@/atomic/molecule/card-app-large";
 
 const getRandomArbitrary = (min: number, max: number) => Math.floor(Math.random() * (max + 1 - min) + min);
 const allAppIds = Object.values(appIds);
@@ -40,264 +42,177 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            <section className="ms-s-product">
-                <div className="ms-s-offset">
-                    <div className="row">
-                        <div className="col p-container">
-                            <div className="d-flex p-head">
-                                <img
-                                    src="/img/page/vitamin/logo-vitamin.svg"
-                                    className="img-fluid me-3"
-                                    height={48}
-                                    width={48}
-                                    alt={_("VITAMIN.ICO")}
-                                />
-                                <div>
-                                    <h1>{_("VITAMIN.HEAD")}</h1>
-                                    <p>{_("VITAMIN.SUBHEAD")}</p>
-                                </div>
-                            </div>
-                            <div className="p-img">
-                                <ImageI18N
-                                    src="/img/page/vitamin/vitamin-home-en.webp"
-                                    w={512}
-                                    h={512}
-                                    cls="mx-auto my-4 img-fluid"
-                                    alt={_("VITAMIN.IMG")}
-                                />
-                            </div>
-                            <div className="p-text">
-                                <h4>{_("VITAMIN.TEXT")}</h4>
-                                <a href={Locale.i18nLink("vitamin")} className="mt-3 ms-btn-large">
-                                    {_("VITAMIN.BTN_OPEN")}
-                                </a>
-                            </div>
-                        </div>
+            <section className="ms-s-offset ms-s-product">
+                <h1 className="mb-5 pb-5 display-5 h1 fw-bold">{_("MAIN.OUR_PRODUCTS")}</h1>
+                <div className="row mb-5">
+                    <div className="col-12">
+                        {/* Витамин */}
+                        <CardAppLarge
+                            backgroundColor="#F9F9FF"
+                            iconSrc="/img/page/vitamin/logo-vitamin.svg"
+                            iconAlt={_("VITAMIN.ICO")}
+                            title={_("VITAMIN.HEAD")}
+                            subtitle={_("VITAMIN.SUBHEAD")}
+                            content={_("VITAMIN.TEXT")}
+                            button={{
+                                text: _("CAREERS.BUTTON3"),
+                                link: Locale.i18nLink("vitamin"),
+                                color: "#1686FF",
+                            }}
+                            imageSrc="/img/page/vitamin/Img-Our-Products-Vitamin-en.webp"
+                            imageAlt={_("VITAMIN.IMG")}
+                            isImageOnLeft={false}
+                        />
                     </div>
                 </div>
-            </section>
+                
+                <div className="row g-3 d-flex align-items-stretch mb-5">
+                    <div className="col-xl-4 col-sm-6 d-flex">
+                        {/* Кольцо Витамин */}
+                        <CardAppSmall
+                            backgroundColor="transparent"
+                            iconSrc="/img/page/vitamin/vitamin-ring-icon-main-page.svg"
+                            iconAlt={_("VITAMIN.ICO1")}
+                            title={_("VITAMIN.HEAD1")}
+                            subtitle={_("VITAMIN.SUBHEAD1")}
+                            content={_("VITAMIN.TEXT1")}
+                            button={{
+                                text: _("CAREERS.BUTTON3"),
+                                link: Locale.i18nLink("vitamin"),
+                                color: "#1686FF",
+                            }}
+                        />
+                    </div>
+                    <div className="col-xl-4 col-sm-6 d-flex">
+                        {/* Электролит */}
+                        <CardAppSmall
+                            backgroundColor="transparent"
+                            iconSrc="/img/page/electrolyte/electrolyte-icon-main-page.svg"
+                            iconAlt={_("ELECTROLYTE.ICO")}
+                            title={_("ELECTROLYTE.HEAD")}
+                            subtitle={_("ELECTROLYTE.SUBHEAD")}
+                            content={_("ELECTROLYTE.TEXT1")}
+                            button={{
+                                text: _("CAREERS.BUTTON3"),
+                                link: Locale.i18nLink("electrolyte"),
+                                color: "#1686FF",
+                            }}
+                        />
+                    </div>
+                    <div className="col-xl-4 col-sm-12 d-flex">
+                        {/* Цинк */}
+                        <CardAppSmall
+                            backgroundColor="transparent"
+                            iconSrc="/img/page/zinc/zinc-icon-main-page.svg"
+                            iconAlt={_("ZINC.ICO")}
+                            title={_("ZINC.HEAD")}
+                            subtitle={_("ZINC.SUBHEAD")}
+                            content={_("ZINC.TEXT1")}
+                            button={{
+                                text: _("CAREERS.BUTTON3"),
+                                link: Locale.i18nLink("bodyzinc"),
+                                color: "#1686FF",
+                            }}
+                        />
+                    </div>
+                </div>
 
-            <section className="ms-s-product">
-                <div className="ms-s-offset">
-                    <div className="row">
-                        <div className="col p-container">
-                            <div className="d-flex p-head">
-                                <img
-                                    src="/img/page/body-size/logo-size.svg"
-                                    className="img-fluid me-3"
-                                    height={48}
-                                    width={48}
-                                    alt={_("SIZE.ICO")}
-                                />
-                                <div>
-                                    <h1>{_("SIZE.HEAD")}</h1>
-                                    <p>{_("SIZE.SUBHEAD")}</p>
-                                </div>
-                            </div>
-                            <div className="p-img">
-                                <ImageI18N
-                                    src="/img/page/body-size/size-home-en.webp"
-                                    w={512}
-                                    h={512}
-                                    cls="mx-auto my-4 img-fluid"
-                                    alt={_("SIZE.IMG")}
-                                />
-                            </div>
-                            <div className="p-text">
-                                <h4>{_("SIZE.TEXT")}</h4>
-                                <a href={Locale.i18nLink("bodysize")} className="mt-3 ms-btn-large">
-                                    {_("SIZE.BTN_OPEN")}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div className="col-12 mb-5">
+                    {/* Фигура */}
+                    <CardAppLarge
+                        backgroundColor="#F9F9FF"
+                        iconSrc="/img/page/body-size/bodysize-icon-main-page.svg"
+                        iconAlt={_("SIZE.ICO")}
+                        title={_("SIZE.HEAD")}
+                        subtitle={_("SIZE.SUBHEAD")}
+                        content={_("SIZE.TEXT")}
+                        button={{
+                            text: _("CAREERS.BUTTON3"),
+                            link: Locale.i18nLink("bodysize"),
+                            color: "#1686FF",
+                        }}
+                        imageSrc="/img/page/body-size/body-size-main-page.webp"
+                        imageAlt={_("VITAMIN.IMG")}
+                        isImageOnLeft={true}
+                    />
                 </div>
-            </section>
 
-            <section className="ms-s-product">
-                <div className="ms-s-offset">
-                    <div className="row">
-                        <div className="col p-container">
-                            <div className="d-flex p-head">
-                                <img
-                                    src="/img/page/electrolyte/logo-electrolyte.svg"
-                                    className="img-fluid me-3"
-                                    height={48}
-                                    width={48}
-                                    alt={_("ELECTROLYTE.ICO")}
-                                />
-                                <div>
-                                    <h1>{_("ELECTROLYTE.HEAD")}</h1>
-                                    <p>{_("ELECTROLYTE.SUBHEAD")}</p>
-                                </div>
-                            </div>
-                            <div className="p-img">
-                                <ImageI18N
-                                    src="/img/page/electrolyte/electrolyte-home.webp"
-                                    w={512}
-                                    h={512}
-                                    cls="mx-auto my-4 img-fluid"
-                                    alt={_("ELECTROLYTE.IMG")}
-                                />
-                            </div>
-                            <div className="p-text">
-                                <h4>{_("ELECTROLYTE.TEXT")}</h4>
-                                <a href={Locale.i18nLink("electrolyte")} className="mt-3 ms-btn-large">
-                                    {_("ELECTROLYTE.BTN_MORE")}
-                                </a>
-                            </div>
-                        </div>
+                <div className="row mb-5">
+                    <div className="col-12 col-md-6 d-flex mb-3 mb-md-0">
+                        {/* Вес */}
+                        <CardAppSmall
+                            backgroundColor="transparent"
+                            iconSrc="/img/page/body-mass/body-mass-icon-main-page.svg"
+                            iconAlt={_("MASS.ICO")}
+                            title={_("MASS.HEAD")}
+                            subtitle={_("MASS.SUBHEAD")}
+                            content={_("MASS.TEXT")}
+                            button={{
+                                text: _("CAREERS.BUTTON3"),
+                                link: Locale.i18nLink("bodymass"),
+                                color: "#1686FF",
+                            }}
+                        />
+                    </div>
+                    <div className="col-12 col-md-6 d-flex">
+                        {/* Талия */}
+                        <CardAppSmall
+                            backgroundColor="transparent"
+                            iconSrc="/img/page/waistline/waist-icon-main-page.svg"
+                            iconAlt={_("WAIST.ICO")}
+                            title={_("WAIST.HEAD")}
+                            subtitle={_("WAIST.SUBHEAD")}
+                            content={_("WAIST.TEXT")}
+                            button={{
+                                text: _("CAREERS.BUTTON3"),
+                                link: Locale.i18nLink("waistline"),
+                                color: "#1686FF",
+                            }}
+                        />
                     </div>
                 </div>
-            </section>
 
-            <section className="ms-s-product">
-                <div className="ms-s-offset">
-                    <div className="row">
-                        <div className="col p-container">
-                            <div className="d-flex p-head">
-                                <img
-                                    src="/img/page/body-mass/logo-mass.svg"
-                                    className="img-fluid me-3"
-                                    height={48}
-                                    width={48}
-                                    alt={_("MASS.ICO")}
-                                />
-                                <div>
-                                    <h1>{_("MASS.HEAD")}</h1>
-                                    <p>{_("MASS.SUBHEAD")}</p>
-                                </div>
-                            </div>
-                            <div className="p-img">
-                                <ImageI18N
-                                    src="/img/page/body-mass/mass-home-en.webp"
-                                    w={512}
-                                    h={512}
-                                    cls="mx-auto my-4 px-lg-4 px-0 img-fluid"
-                                    alt={_("MASS.IMG")}
-                                />
-                            </div>
-                            <div className="p-text">
-                                <h4>{_("MASS.TEXT")}</h4>
-                                <a href={Locale.i18nLink("bodymass")} className="mt-3 ms-btn-large">
-                                    {_("MASS.BTN_OPEN")}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div className="col-12 mb-5">
+                    {/* Эмоция */}
+                    <CardAppLarge
+                        backgroundColor="#F9F9FF"
+                        iconSrc="/img/page/emotion/emotion-icon-main-page.png"
+                        iconAlt={_("EMOTION.ICO")}
+                        title={_("EMOTION.HEAD")}
+                        subtitle={_("EMOTION.SUBHEAD")}
+                        content={_("EMOTION.TEXT")}
+                        button={{
+                            text: _("CAREERS.BUTTON3"),
+                            link: Locale.i18nLink("emotion"),
+                            color: "#1686FF",
+                        }}
+                        imageSrc="/img/page/emotion/Img-Our-Products-Emotion-en.webp"
+                        imageAlt={_("EMOTION.IMG")}
+                        isImageOnLeft={false}
+                    />
                 </div>
-            </section>
 
-            <section className="ms-s-product">
-                <div className="ms-s-offset">
-                    <div className="row">
-                        <div className="col p-container">
-                            <div className="d-flex p-head">
-                                <img
-                                    src="/img/page/zinc/logo-zinc.svg"
-                                    className="img-fluid me-3"
-                                    height={48}
-                                    width={48}
-                                    alt={_("ZINC.ICO")}
-                                />
-                                <div>
-                                    <h1>{_("ZINC.HEAD")}</h1>
-                                    <p>{_("ZINC.SUBHEAD")}</p>
-                                </div>
-                            </div>
-                            <div className="p-img">
-                                {/* <ImageI18N src="/img/p_zinc.512.webp" w={512} h={512} cls="mx-auto my-4 img-fluid" alt={_("ZINC.IMG")} /> */}
-                                <ImageI18N
-                                    src="/img/page/zinc/zinc-app-en.webp"
-                                    w={512}
-                                    h={512}
-                                    cls="mx-auto my-4 img-fluid"
-                                    alt={_("ZINC.IMG")}
-                                />
-                            </div>
-                            <div className="p-text">
-                                <h4>{_("ZINC.TEXT")}</h4>
-                                <a href={Locale.i18nLink("bodyzinc")} className="mt-3 ms-btn-large">
-                                    {_("ZINC.BTN_OPEN")}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div className="col-12 mb-5">
+                    {/* Энергия */}
+                    <CardAppLarge
+                        backgroundColor="#F9F9FF"
+                        iconSrc="/img/page/energy/energy-icon-main-page.svg"
+                        iconAlt={_("ENERGY.ICO_MAIN")}
+                        title={_("ENERGY.HEAD_MAIN")}
+                        subtitle={_("ENERGY.SUBHEAD_MAIN")}
+                        content={_("ENERGY.TEXT_MAIN")}
+                        button={{
+                            text: _("COMING_SOON.SOON_BTN"),
+                            link: Locale.i18nLink("coming-soon"),
+                            color: "#E5EEFF",
+                            textColor: "#1686FF"
+                        }}
+                        imageSrc="/img/page/energy/energy-main-page.webp"
+                        imageAlt={_("ENERGY.IMG")}
+                        isImageOnLeft={true}
+                    />
                 </div>
-            </section>
 
-            <section className="ms-s-product my-5">
-                <div className="ms-s-offset">
-                    <div className="row">
-                        <div className="col p-container">
-                            <div className="d-flex p-head">
-                                <img
-                                    src="/img/page/waistline/logo-waist.svg"
-                                    className="img-fluid me-3"
-                                    height={48}
-                                    width={48}
-                                    alt={_("WAIST.ICO")}
-                                />
-                                <div>
-                                    <h1>{_("WAIST.HEAD")}</h1>
-                                    <p>{_("WAIST.SUBHEAD")}</p>
-                                </div>
-                            </div>
-                            <div className="p-img">
-                                <ImageI18N
-                                    src="/img/page/waistline/waist-home-en.webp"
-                                    w={512}
-                                    h={512}
-                                    cls="mx-auto my-4 px-lg-4 px-0 img-fluid"
-                                    alt={_("WAIST.IMG")}
-                                />
-                            </div>
-                            <div className="p-text">
-                                <h4>{_("WAIST.TEXT")}</h4>
-                                <a href={Locale.i18nLink("waistline")} className="mt-3 ms-btn-large">
-                                    {_("WAIST.BTN_OPEN")}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="ms-s-product">
-                <div className="ms-s-offset">
-                    <div className="row">
-                        <div className="col p-container">
-                            <div className="d-flex p-head">
-                                <img
-                                    src="/img/page/emotion/logo-emotion.svg"
-                                    className="img-fluid me-3"
-                                    height={48}
-                                    width={48}
-                                    alt={_("EMOTION.ICO")}
-                                />
-                                <div>
-                                    <h1>{_("EMOTION.HEAD")}</h1>
-                                    <p>{_("EMOTION.SUBHEAD")}</p>
-                                </div>
-                            </div>
-                            <div className="p-img">
-                                <ImageI18N
-                                    src="/img/page/emotion/emotion-home-en.webp"
-                                    w={512}
-                                    h={512}
-                                    cls="mx-auto my-4 img-fluid"
-                                    alt={_("EMOTION.IMG")}
-                                />
-                            </div>
-                            <div className="p-text">
-                                <h4>{_("EMOTION.TEXT")}</h4>
-                                <a href={Locale.i18nLink("emotion")} className="mt-3 ms-btn-large">
-                                    {_("EMOTION.BTN_OPEN")}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </section>
 
             {/*

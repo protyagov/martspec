@@ -3,7 +3,7 @@ import _, { Locale } from "@/i18n/locale";
 import type { Story, StoryDefault } from "@ladle/react";
 
 import ButtonChevronRight from "@/atomic/atom/button-chevron-right";
-import { PageWrapper } from ".ladle/decorators";
+import { IconWrapper, PageWrapper } from ".ladle/decorators";
 
 export default {
     title: "Atom",
@@ -25,5 +25,5 @@ ButtonChevronRightStory.args = {
     className: "",
 };
 
-ButtonChevronRightStory.decorators = [PageWrapper];
+ButtonChevronRightStory.decorators = [IconWrapper,PageWrapper];
 ButtonChevronRightStory.storyName = "ButtonChevronRight";

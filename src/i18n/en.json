@@ -9,7 +9,8 @@
     "MAIN": {
         "HEAD": "Simplicity of health tracking",
         "SUBHEAD": "Apps to make daily tasks agile and effortless",
-        "IMG": "Apple Watch wellness and health apps"
+        "IMG": "Apple Watch wellness and health apps",
+        "OUR_PRODUCTS": "Our products"
     },
     "REVIEW": {
         "HEAD": "It's been said about us",
@@ -31,8 +32,9 @@
         "IMG": "Record electrolytes and minerals with your Apple Watch, Electrolyte, Apple Watch app, Health app",
         "DWN": "Download Free Electrolyte tracker app from the Apple AppStore",
         "SUBHEAD": "water-salt balance",
-    "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They regulate heart function, neurological functions, fluid balance, oxygen delivery to tissues, acid-base balance, and much more.",
-    "ICO": "Icon for the simplest electrolyte intake tracker for Apple Watch. Keep track of your magnesium, calcium, potassium, and iron intake. Sync with Apple Health. No ads.",
+        "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They regulate heart function, neurological functions, fluid balance, oxygen delivery to tissues, acid-base balance, and much more.",
+        "TEXT1": "Electrolytes support heart function and participate in other physiological processes. Monitor your electrolyte levels with our app.",
+        "ICO": "Icon for the simplest electrolyte intake tracker for Apple Watch. Keep track of your magnesium, calcium, potassium, and iron intake. Sync with Apple Health. No ads.",
         "ABOUT_1": "Monitor important minerals",
         "ABOUT_2": "Easy and convenient way to input electrolyte readings from Apple Watch",
         "ABOUT_3": "Sync with the Apple Health app",
@@ -57,6 +59,7 @@
     "MASS": {
         "HEAD": "Body Mass",
         "SUBHEAD": "The most convenient weight diary",
+        "ICO": "Icon of the most convenient weight diary. Syncs with iCloud. No ads or sign-ups.",
         "IMG": "A woman stands on a scale, measuring her weight using an Apple Watch running the Body Mass app from Martspec.",
         "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
         "DWN": "Download the free Body Mass app from the Apple Store",
@@ -99,12 +102,15 @@
         "BTN_OPEN": "Give up the fat"
     },
     "VITAMIN": {
-        "HEAD": "Vitamin Book",
+        "HEAD": "Vitamin",
         "SUBHEAD": "the ultimate vitamin tracker",
         "ICO": "Icon for the best vitamins and minerals tracker app for your Apple Watch, iPhone and iPad. Syncs seamlessly with Apple Health. Zero ads.",
         "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
         "IMG": "Track the most essential vitamins directly on your wrist",
         "DWN": "Download Free Book Vitamin app from the Apple AppStore",
+        "HEAD1": "Vitamin Ring",
+        "SUBHEAD1": "Nutrient and Medication Tracker",
+        "TEXT1": "A convenient tracker for vitamin intake. Syncs with Apple Health. Backup to iCloud. Works for free. No ads or in-app purchases.",
         "ABOUT_1": "Control your intake of important vitamins and minerals every day",
         "ABOUT_2": "The energy of healthy eating and a happy life",
         "ABOUT_3": "Set a reminder so you don't miss taking your vitamins",
@@ -153,16 +159,16 @@
             "LI4_HEAD": "20",
             "LI4_TEXT": "Custom items"
         },
-        "ALT2": "iPhone displaying vitamin stats and a list of vitamins within the Vitamin Book app by Martspec.",
-        "ALT3": "iPad, iPhone, and Apple Watch display information about vitamin intake in the Vitamin Book app by Martspec.",
-        "ALT4": "Apple Watches display information from the Apple Health in the Vitamin Book app by Martspec.",
+        "ALT2": "iPhone displaying vitamin stats and a list of vitamins within the Vitamin app by Martspec.",
+        "ALT3": "iPad, iPhone, and Apple Watch display information about vitamin intake in the Vitamin app by Martspec.",
+        "ALT4": "Apple Watches display information from the Apple Health in the Vitamin app by Martspec.",
         "ALT5_1": "Protecting your information is our direct goal. Martspec does not store your data, this is a guarantee of the security of your data.",
         "ALT5_2": "Sync via iCloud for even greater convenience. All data is automatically available on all your devices.",
         "ALT5_3": "There is no need for login and password authorization. An account is not required to operate the application.",
         "ALT5_4": "We care about our users, so we do not use any intrusive advertising in the application.",
         "ALT5_5": "Convenient notification about taking vitamins. The reminder comes by hour and day of the week.",
         "ALT5_6": "Synchronization with the Apple Health application - the best base of all vitamins and microelements.",
-        "ALT6": "iPhone displaying foods rich in vitamin K within the Vitamin Book app by Martspec.",
+        "ALT6": "iPhone displaying foods rich in vitamin K within the Vitamin app by Martspec.",
         "HEAD6": "Vitamin - an application for controlling the balance of necessary vitamins and minerals.",
         "DESC6": "Install the app for iOS for free and enjoy health and vitality.",
         "BTN_OPEN": "Vitaminize",
@@ -896,11 +902,11 @@
         "HEAD4": "Advantages",
         "LIST2": {
             "LI1_HEAD": "Data protection",
-            "LI1_TEXT": "We DO NOT store your data on our servers",
+            "LI1_TEXT": "We do not store your data on our servers",
             "LI2_HEAD": "Without authorization",
             "LI2_TEXT": "No account required for this app",
             "LI3_HEAD": "Ad-free",
-            "LI3_TEXT": "We DO NOT have annoying ads",
+            "LI3_TEXT": "We do not have annoying ads",
             "LI4_HEAD": "Synchronization with Apple Health",
             "LI4_TEXT": "Between devices via iCloud and with Apple Health"
         },
@@ -917,6 +923,7 @@
         "SUBHEAD": "AmaZinc tracker for your watch",
         "ICO": "Icon for our free Apple Watch app that helps you track zinc consumption. Make records about dietary zinc from your Apple Watches and sync with Apple Health. No needed companion iPhone app to work. Zero ads.",
         "TEXT": "Zinc may enhance immune function, stabilize blood sugar levels, and help keep your skin, eyes, and heart healthy.",
+        "TEXT1": "A zinc level tracker for your body designed for Apple Watch. Syncs with Apple Health. Easy data entry. Works for free and without ads.",
         "IMG": "Track your everyday consumption of zinc supplement",
         "DWN": "Get free of charge BodyZinc application from Apple Store",
         "ABOUT_1": "Simple and easy to use zinc tracker",
@@ -1445,6 +1452,10 @@
         "DESK6_2": "It is important to note that while independence can contribute to success in these fields, collaboration and effective communication skills are also valuable in most professions. Finding a balance between independence and teamwork is essential to a fulfilling career path. Additionally, people are unique and their career path may be influenced by a combination of traits and interests other than independence."
     },
     "ENERGY": {
+        "HEAD_MAIN": "Energy",
+        "ICO_MAIN": "Icon of an app for daily tracking of your energy levels.",
+        "SUBHEAD_MAIN": "Daily Challenges with Progress Tracking",
+        "TEXT_MAIN": "Take on daily challenges and track your personal progress to achieve your goals. Skipping days leads to mission failure. Earn rewards for achievements, choose difficulty levels, and much more in the 'Energy' app.",
         "HEAD": "Energy",
         "IMG": "Energy",
         "DWN": "Get the free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store.",
@@ -1662,7 +1673,8 @@
         "TEXT_1": "We are working hard to give you the best experience.",
         "TEXT_2": "Thank you for your patience.",
         "BTN": "Home",
-        "CTA": "Follow us"
+        "CTA": "Follow us",
+        "SOON_BTN": "In Development"
     },
     "MISSION": {
         "HEAD": "Mission",
