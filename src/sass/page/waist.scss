@@ -56,10 +56,51 @@
       margin-right: 0 !important;
   }
 
+
+    .why-waist-section {
+        .block {
+            box-shadow: none !important;
+            align-items: center;
+            text-align: start;
+            column-gap: 8rem !important;
+
+            h2 {
+                margin-bottom: 1.5rem !important;
+            }
+
+            p {
+                margin-bottom: 1.5rem !important;
+                line-height: 120%;
+            }
+
+            h3 {
+                line-height: 120%;
+                margin-bottom: 0.7rem;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 1.4rem;
+                color: #595959;
+
+                li {
+                    line-height: 1.6rem;
+                    &::marker {
+                        color: #1686ff;
+                    }
+                }
+            }
+        }
+    }
+
+    
+
   .our-advantages-section {
     h2 {
         font-size: 3.08rem;
         margin-bottom: 3.85rem;
     }
   }
+
 }
