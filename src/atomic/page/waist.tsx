@@ -13,6 +13,7 @@ import ButtonApple from "../atom/button-apple";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
+import CardIconTitleText from "../molecule/card-icon-title-text";
 
 export default function WaistLine() {
     const appId = getAppId();
@@ -135,6 +136,53 @@ export default function WaistLine() {
                         bgColor={"#FFFFFF"}
                     />
                 </div>
+
+                <section>
+                    <div className="ms-base-new row waist-info-section">
+                        <h2>{_("WAIST.HEAD6")}</h2>
+                        <p>{_("WAIST.DESC6")}</p>
+                        <div className="info-list row g-4">
+                            <div className="col-lg-4 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-patient.svg",
+                                            alt: _("WAIST.ALT4_1"),
+                                        },
+                                        title: _("WAIST.LIST3.LI1_HEAD"),
+                                    }}
+                                    text={_("WAIST.LIST3.LI1_TEXT")}
+                                    bgColor="#DDE9FF"
+                                />
+                            </div>
+                            <div className="col-lg-4 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-performance.svg",
+                                            alt: _("WAIST.ALT4_2"),
+                                        },
+                                        title: _("WAIST.LIST3.LI2_HEAD"),
+                                    }}
+                                    text={_("WAIST.LIST3.LI2_TEXT")}
+                                />
+                            </div>
+                            <div className="col-lg-4 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-rehabilitation.svg",
+                                            alt: _("WAIST.ALT4_3"),
+                                        },
+                                        title: _("WAIST.LIST3.LI3_HEAD"),
+                                    }}
+                                    text={_("WAIST.LIST3.LI3_TEXT")}
+                                    bgColor="#DDE9FF"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <section>
                     <div className="row our-advantages-section">
