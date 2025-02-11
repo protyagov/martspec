@@ -169,14 +169,16 @@ export default function WaistLine() {
                 />
 
                 <section>
-                    <div className="row">
+                    <div className="row call-to-action">
                         <CallToAction
-                            bgColor={"#FFB34066"}
-                            title={_("WAIST.HEAD5")}
+                            bgColor={"#FFFFFF"}
+                            title={_("MASS.HEAD4")}
                             subtitle={_("WAIST.DESC5")}
                             button={<ButtonApple appId={appId} appDownloadTitle={_("WAIST.DWN")} />}
-                            imgSrc="/img/page/waistline/call-to-action-en.webp"
+                            imgSrc="/img/page/waistline/waist-banner-en.webp"
                             imgAlt={_("WAIST.ALT2")}
+                            imgH={585}
+                            imgW={590}
                         />
                     </div>
                 </section>
