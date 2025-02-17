@@ -917,6 +917,19 @@
         "ALT2": "Écrans Apple Watch affichant le tour de taille actuel et les statistiques dans l'application Waist de Martspec",
         "ALT3_1": "Un outil pratique pour suivre les changements de tour de taille",
         "ALT3_2": "Accès aux statistiques sans iPhone",
+        "HEAD6": "Graisse viscérale : Un danger caché",
+        "DESC6": "La graisse viscérale est une graisse gélatineuse qui entoure des organes comme le foie et les reins, et se cache profondément dans l'abdomen, augmentant la taille de la taille. Un gros ventre n'est pas seulement un problème esthétique, mais aussi un risque grave pour la santé.",
+        "ALT4_1": "La graisse viscérale augmente le risque de problèmes de santé",
+        "ALT4_2": "La graisse viscérale provoque le diabète de type 2",
+        "ALT4_3": "Lutter contre la graisse viscérale aidera à réduire le risque de maladies graves",
+        "LIST3": {
+            "LI1_HEAD": "Augmente le risque de problèmes de santé",
+            "LI1_TEXT": "La graisse viscérale provoque de l'inflammation, perturbe le fonctionnement des hormones et augmente le risque d'obésité, de diabète, de maladies cardiaques, d'AVC, de cancer, de troubles du sommeil, d'arthrite, de dysfonctionnement sexuel et de dépression",
+            "LI2_HEAD": "Provoque le diabète de type 2",
+            "LI2_TEXT": "Lorsque le corps n'utilise pas l'insuline efficacement, le pancréas doit travailler davantage pour contrôler le taux de sucre dans le sang, ce qui peut entraîner un pré-diabète et un diabète de type 2",
+            "LI3_HEAD": "Lutter contre la graisse viscérale",
+            "LI3_TEXT": "Réduire la graisse viscérale est essentiel pour améliorer votre santé. Lutter contre cette graisse aidera à briser le cercle vicieux et à réduire le risque de maladies graves"
+        },
         "BTN_OPEN": "Diminuer"
     },
     "ZINC": {

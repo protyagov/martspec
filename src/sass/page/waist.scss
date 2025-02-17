@@ -94,8 +94,6 @@
         }
     }
 
-    
-
   .our-advantages-section {
     h2 {
         font-size: 3.08rem;
@@ -128,4 +126,23 @@
     }
   }
 
+  .waist-info-section {
+    h2 {
+        font-size: 3.08rem;
+    }
+    p {
+        font-size: 1.39rem;
+        line-height: 120%;
+        max-width: 800px;
+    }
+    .info-list {
+        padding: 0;
+        p {
+            margin-bottom: 1rem !important;
+        }
+        .card-icon-title-text {
+            flex-grow: 1;
+        }
+    }
+  }
 }

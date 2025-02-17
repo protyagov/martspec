@@ -920,6 +920,19 @@
         "ALT2": "Apple Watch-Bildschirme zeigen den aktuellen Taillenumfang und Statistiken in der Waist-App von Martspec",
         "ALT3_1": "Ein praktisches Werkzeug zur Verfolgung von Veränderungen des Taillenumfangs",
         "ALT3_2": "Zugriff auf Statistiken ohne iPhone",
+        "HEAD6": "Viszeralfett: Eine versteckte Gefahr",
+        "DESC6": "Viszeralfett ist ein gelartiges Fett, das Organe wie Leber und Nieren umhüllt und sich tief im Bauchraum verbirgt und die Taille vergrößert. Ein dicker Bauch ist nicht nur ein kosmetisches Problem, sondern auch ein ernstes Gesundheitsrisiko",
+        "ALT4_1": "Viszerales Fett erhöht das Risiko von Gesundheitsproblemen",
+        "ALT4_2": "Viszerales Fett ist Auslöser für Typ-2-Diabetes",
+        "ALT4_3": "Der Kampf gegen das viszerale Fett kann das Risiko schwerer Krankheiten verringern",
+        "LIST3": {
+            "LI1_HEAD": "Erhöht das Risiko von Gesundheitsproblemen",
+            "LI1_TEXT": "Viszerales Fett provoziert Entzündungen, stört den Hormonhaushalt und erhöht das Risiko von Fettleibigkeit, Diabetes, Herzkrankheiten, Schlaganfall, Krebs, Schlafstörungen, Arthritis, sexueller Dysfunktion und Depression.",
+            "LI2_HEAD": "Verursacht Typ-2-Diabetes",
+            "LI2_TEXT": "Wenn der Körper das Insulin nicht effektiv nutzt, muss die Bauchspeicheldrüse härter arbeiten, um den Zuckerspiegel zu kontrollieren, was zu Prädiabetes und Diabetes Typ 2 führen kann.",
+            "LI3_HEAD": "Bekämpfung von viszeralem Fett",
+            "LI3_TEXT": "Die Verringerung des viszeralen Fettes ist entscheidend für die Verbesserung Ihrer Gesundheit. Die Bekämpfung dieses Fettes kann dazu beitragen, den Kreislauf zu durchbrechen und Ihr Risiko für schwere Krankheiten zu verringern"
+        },
         "BTN_OPEN": "Verringern"
     },
     "ZINC": {
