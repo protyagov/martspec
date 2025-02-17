@@ -7,10 +7,23 @@
         "WIKI": "Lire l'article complet sur WiKi"
     },
     "MAIN": {
-        "HEAD": "Simplicité du suivi de la santé",
-        "SUBHEAD": "Des applications pour rendre les tâches quotidiennes agiles et sans effort",
-        "IMG": "Applications de bien-être et de santé Apple Watch",
-        "OUR_PRODUCTS": "Nos produits"
+        "HEAD": "Simplifier le chemin vers la santé",
+        "SUBHEAD": "Fait avec soin pour vous",
+        "ALT": "Applications Vitamin et Emotion pour votre iPhone et Apple Watch",
+        "COUNTERS": {
+            "COUNTER_1": {
+                "NUM": "23K+",
+                "TEXT": "utilisateurs"
+            },
+            "COUNTER_2": {
+                "NUM": "629",
+                "TEXT": "avis"
+            },
+            "COUNTER_3": {
+                "NUM": "176K+",
+                "TEXT": "téléchargements"
+            }
+        }
     },
     "REVIEW": {
         "HEAD": "On a dit de nous",
@@ -32,9 +45,8 @@
         "IMG": "Enregistrez des électrolytes et des minéraux avec votre Apple Watch, Electrolyte, application pour Apple Watch, application de santé",
         "DWN": "Téléchargez l'application gratuite Electrolyte Tracker sur l'AppStore d'Apple",
         "SUBHEAD": "Équilibre hydrosalé",
-        "TEXT": "Les électrolytes jouent un rôle vital dans le maintien de l'homéostasie dans le corps. Ils régulent le fonctionnement du cœur, les fonctions neurologiques, l'équilibre des fluides, la distribution de l'oxygène aux tissus, l'équilibre acido-basique et bien plus encore.",
-        "TEXT1": "Les électrolytes soutiennent le fonctionnement du cœur et participent à d'autres processus physiologiques. Contrôlez le niveau d'électrolytes dans votre corps avec notre application.",
-        "ICO": "Icône pour le tracker d'électrolytes le plus simple pour l'Apple Watch. Suivez votre consommation de magnésium, calcium, potassium, fer. Synchronisation avec Apple Santé. Sans publicité.",
+    "TEXT": "Les électrolytes jouent un rôle vital dans le maintien de l'homéostasie dans le corps. Ils régulent le fonctionnement du cœur, les fonctions neurologiques, l'équilibre des fluides, la distribution de l'oxygène aux tissus, l'équilibre acido-basique et bien plus encore.",
+    "ICO": "Icône pour le tracker d'électrolytes le plus simple pour l'Apple Watch. Suivez votre consommation de magnésium, calcium, potassium, fer. Synchronisation avec Apple Santé. Sans publicité.",
         "ABOUT_1": "Surveillez les minéraux importants",
         "ABOUT_2": "Un moyen facile et pratique d'entrer les relevés d'électrolytes depuis l'Apple Watch",
         "ABOUT_3": "Synchronisation avec l'application Apple Santé",
@@ -59,7 +71,6 @@
     "MASS": {
         "HEAD": "Poids",
         "SUBHEAD": "Le journal de poids le plus pratique",
-        "ICO": "Icône du journal de poids le plus pratique. Synchronisation avec iCloud. Pas de publicités ni d'authentification.",
         "IMG": "Une femme se tient debout sur une balance et mesure son poids à l'aide d'une Apple Watch exécutant l'application Body Mass de Martspec.",
         "TEXT": "Le suivi de votre poids augmente votre efficacité en termes de temps et d'entraînement. Non seulement cela vous poussera à faire mieux, mais vous conduira également à être votre propre compétition!",
         "DWN": "Téléchargez l'application gratuite Poids sur l'Apple Store",
@@ -107,10 +118,6 @@
         "ICO": "Icône de la meilleure application de suivi des vitamines et minéraux pour votre Apple Watch, iPhone et iPad. Se synchronise de manière transparente avec l’app Santé. Zéro publicité.",
         "TEXT": "Le suivi de vos vitamines essentielles présente de nombreux avantages, allant de la gestion des intolérances alimentaires à l'augmentation de l'énergie, en évitant les changements d'humeur et en alimentant les rythmes de votre journée.",
         "IMG": "Suivez les vitamines les plus essentielles directement sur votre poignet",
-        "HEAD1": "Anneau de Vitamines",
-        "SUBHEAD1": "Suivi des nutriments et des médicaments",
-        "TEXT1": "Suivi pratique de la prise de vitamines. Synchronisation de l'application avec Apple Health. Sauvegarde dans iCloud. Fonctionne gratuitement. Pas de publicité ni d'achats intégrés.",
-        "ICO1": "Icône de l'application Anneau de Vitamines, le meilleur suivi de la prise de vitamines. Synchronisation avec Apple Health et sauvegarde dans iCloud. Gratuit et sans publicité.",
         "DWN": "Téléchargez l'application gratuite de suivi des vitamines et des nutriments sur l'AppStore d'Apple",
         "ABOUT_1": "Contrôlez chaque jour votre consommation de vitamines et de minéraux importants",
         "ABOUT_2": "L'énergie d'une alimentation saine et d'une vie heureuse",
@@ -892,22 +899,22 @@
             "LI3_TEXT": "Application indépendante de l'iPhone - accès aux statistiques même sans téléphone"
         },
         "HEAD1": "Pourquoi Talia ?",
-        "DESC1": "Le poids ne change pas forcément lorsque la masse musculaire augmente et que la graisse diminue. La silhouette est donc un meilleur reflet de la santé. L'application Waist vous aide à suivre ces paramètres",
+        "DESC1": "Lorsque vous gagnez du muscle et que vous perdez des centimètres de graisse, votre poids peut ne pas changer beaucoup. C'est pourquoi la composition corporelle peut vous en dire plus que l'échelle, elle vous raconte la vraie histoire.",
         "LINK1": "Les Instituts nationaux de la Santé, états-unis",
         "HEAD2": "Mieux que l'IMC",
         "LINK2": "Étude réalisée par l'American Heart Association",
-        "DESC2": " ont montré que le tour de taille est un meilleur prédicteur du risque de maladie cardiaque que l'IMC",
-        "HEAD3": "Faits médicaux",
-        "DESC3": " montrer - le risque de diabète de type 2 et de maladies cardiovasculaires est plus élevé lorsque la graisse est localisée au niveau de la taille plutôt que des hanches",
+        "DESC2": " a montré que la mesure de la taille pourrait être un meilleur moyen de prédire le risque de maladie cardiaque qu'un indice de masse corporelle largement utilisé.",
+        "HEAD3": "Fait Médical",
+        "DESC3": " montrent que le risque de diabète de type 2 et de maladies cardiovasculaires augmente lorsque davantage de dépôts graisseux se situent autour de la taille plutôt qu'autour des hanches.",
         "LINK3": "Étude des National Institutes of Health des États-Unis",
         "HEAD4": "Avantages",
         "LIST2": {
             "LI1_HEAD": "Protection des données",
-            "LI1_TEXT": "Nous ne stockons pas vos données sur nos serveurs",
+            "LI1_TEXT": "Nous NE stockons PAS vos données sur nos serveurs",
             "LI2_HEAD": "Sans autorisation",
             "LI2_TEXT": "Aucun compte requis pour cette application",
             "LI3_HEAD": "Pas de pubs",
-            "LI3_TEXT": "Nous n'avons pas de publicités ennuyeuses",
+            "LI3_TEXT": "Nous n'avons PAS de publicités ennuyeuses",
             "LI4_HEAD": "Apple Health",
             "LI4_TEXT": "Intégration des données de lecture et d'écriture"
         },
@@ -924,7 +931,6 @@
         "SUBHEAD": "suivi la consommation de zinc",
         "ICO": "Icône de notre application Apple Watch gratuite qui vous aide à suivre la consommation de zinc. Créez des enregistrements sur le zinc alimentaire à partir de vos montres Apple et synchronisez-les avec l’app Santé. Aucune application iPhone complémentaire nécessaire pour fonctionner. Zéro publicité.",
         "TEXT": "Magnifique dans sa simplicité, son corps de traqueur en zinc pour votre montre. l’app Santé activé. De vrais résultats. Libérer. Zéro publicité.",
-        "TEXT1": "Suivi du taux de zinc dans votre corps pour Apple Watch. Synchronisation avec Apple Health. Saisie des données facile. Fonctionne gratuitement et sans publicité.",
         "IMG": "Suivez votre consommation quotidienne de supplément de zinc",
         "DWN": "Obtenez une application Bodyzinc gratuite d'Apple Store",
         "ABOUT_1": "Facile à utiliser le tracker zinc diététique",
@@ -1453,10 +1459,6 @@
         "DESK6_2": "Il est important de noter que même si l’indépendance peut contribuer à la réussite dans ces domaines, les compétences en matière de collaboration et de communication efficace sont également précieuses dans la plupart des professions. Trouver un équilibre entre indépendance et travail d’équipe est essentiel à un parcours professionnel épanouissant. De plus, les gens sont uniques et leur cheminement de carrière peut être influencé par une combinaison de traits et d’intérêts autres que l’indépendance."
     },
     "ENERGY": {
-        "HEAD_MAIN": "Énergie",
-        "ICO_MAIN": "Icône de l'application pour suivre quotidiennement votre niveau d'énergie.",
-        "SUBHEAD_MAIN": "Défis quotidiens avec suivi des progrès",
-        "TEXT_MAIN": "Relevez des défis quotidiens et suivez vos progrès personnels pour atteindre votre objectif. Sauter des jours entraînera l'échec de votre mission. Obtenez des récompenses pour vos réussites, choisissez le niveau de difficulté et bien plus encore dans l'application „Énergie“.",
         "HEAD": "Énergie",
         "IMG": "Énergie",
         "DWN": "Obtenez l'application gratuite Émotion pour Apple Watch, iPhone ou iPad directement depuis l'App Store d'Apple.",
@@ -1674,8 +1676,7 @@
         "TEXT_1": "Nous travaillons dur pour vous offrir la meilleure page web possible.",
         "TEXT_2": "Nous vous remercions de votre patience.",
         "BTN": "Accueil",
-        "CTA": "Suivez-nous",
-        "SOON_BTN": "En développement"
+        "CTA": "Suivez-nous"
     },
     "MISSION": {
         "HEAD": "Mission",
@@ -1716,7 +1717,7 @@
         "NATALIA": "Natalia",
         "DARIA": "Daria",
         "ROMAN": "Romain",
-        "PAVEL": "Pavel"
+        "VITALY": "Vitali"
     },
     "CAREERS": {
         "HEAD": "Carrières",
