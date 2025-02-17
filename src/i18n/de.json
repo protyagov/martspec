@@ -7,20 +7,20 @@
         "WIKI": "Lesen Sie den vollständigen Artikel über WiKi"
     },
     "MAIN": {
-        "HEAD": "Machen Sie Gesundheitspflege zur Gewohnheit",
-        "SUBHEAD": "Entdecken Sie einen innovativen Ansatz für einen gesunden Lebensstil mit uns",
+        "HEAD": "Den Weg zur Gesundheit vereinfachen",
+        "SUBHEAD": "Mit Sorge für Sie gemacht",
         "ALT": "Vitamin- und Emotion-Apps für Ihr iPhone und Ihre Apple Watch",
         "COUNTERS": {
             "COUNTER_1": {
-                "NUM": "11 000",
+                "NUM": "23K+",
                 "TEXT": "Nutzer"
             },
             "COUNTER_2": {
-                "NUM": "250+",
+                "NUM": "629",
                 "TEXT": "Bewertungen"
             },
             "COUNTER_3": {
-                "NUM": "20 000",
+                "NUM": "176K+",
                 "TEXT": "Downloads"
             }
         }
@@ -1720,7 +1720,7 @@
         "NATALIA": "Natalia",
         "DARIA": "Daria",
         "ROMAN": "Roman",
-        "PAVEL": "Pawel"
+        "VITALY": "Vitalij"
     },
     "CAREERS": {
         "HEAD": "Karriere",

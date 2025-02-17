@@ -7,20 +7,20 @@
         "WIKI": "阅读有关WiKi的完整文章"
     },
     "MAIN": {
-        "HEAD": "把健康护理变成一种习惯",
-        "SUBHEAD": "与我们一起发现创新的健康生活方式",
+        "HEAD": "简化通往健康的道路",
+        "SUBHEAD": "为了您，精心制作",
         "ALT": "适用于您的iPhone和Apple Watch的维生素和情感应用",
         "COUNTERS": {
             "COUNTER_1": {
-                "NUM": "11 000",
+                "NUM": "23K+",
                 "TEXT": "用户"
             },
             "COUNTER_2": {
-                "NUM": "250+",
+                "NUM": "629",
                 "TEXT": "评论"
             },
             "COUNTER_3": {
-                "NUM": "20 000",
+                "NUM": "176K+",
                 "TEXT": "下载"
             }
         }
@@ -1716,7 +1716,7 @@
         "NATALIA": "娜塔莉亚",
         "DARIA": "达莉亚",
         "ROMAN": "罗曼",
-        "PAVEL": "帕维尔"
+        "VITALY": "维塔利"
     },
     "CAREERS": {
         "HEAD": "职业机会",

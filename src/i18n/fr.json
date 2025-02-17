@@ -7,20 +7,20 @@
         "WIKI": "Lire l'article complet sur WiKi"
     },
     "MAIN": {
-        "HEAD": "Faites de prendre soin de votre santé une habitude",
-        "SUBHEAD": "Découvrez une approche innovante du mode de vie sain avec nous",
+        "HEAD": "Simplifier le chemin vers la santé",
+        "SUBHEAD": "Fait avec soin pour vous",
         "ALT": "Applications Vitamin et Emotion pour votre iPhone et Apple Watch",
         "COUNTERS": {
             "COUNTER_1": {
-                "NUM": "11 000",
+                "NUM": "23K+",
                 "TEXT": "utilisateurs"
             },
             "COUNTER_2": {
-                "NUM": "250+",
+                "NUM": "629",
                 "TEXT": "avis"
             },
             "COUNTER_3": {
-                "NUM": "20 000",
+                "NUM": "176K+",
                 "TEXT": "téléchargements"
             }
         }
@@ -1717,7 +1717,7 @@
         "NATALIA": "Natalia",
         "DARIA": "Daria",
         "ROMAN": "Romain",
-        "PAVEL": "Pavel"
+        "VITALY": "Vitali"
     },
     "CAREERS": {
         "HEAD": "Carrières",
