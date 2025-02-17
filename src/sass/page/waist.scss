@@ -101,6 +101,31 @@
     }
   }
 
+  .call-to-action {
+    .block {
+        padding: 0;
+        box-shadow: none;
+        align-items: center;
+        text-align: start;
+        div {
+            min-height: 324px;
+            max-width: 510px;
+            h2 {
+                font-size: 3.08rem;
+            }
+            p {
+                font-size: 1.5rem;
+                line-height: 120%;
+            }
+        }
+        .ms-btn-apple {
+            img {
+                margin: 0;
+            }
+        }
+    }
+  }
+
   .waist-info-section {
     h2 {
         font-size: 3.08rem;
