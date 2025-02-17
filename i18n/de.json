@@ -7,23 +7,10 @@
         "WIKI": "Lesen Sie den vollständigen Artikel über WiKi"
     },
     "MAIN": {
-        "HEAD": "Den Weg zur Gesundheit vereinfachen",
-        "SUBHEAD": "Mit Sorge für Sie gemacht",
-        "ALT": "Vitamin- und Emotion-Apps für Ihr iPhone und Ihre Apple Watch",
-        "COUNTERS": {
-            "COUNTER_1": {
-                "NUM": "23K+",
-                "TEXT": "Nutzer"
-            },
-            "COUNTER_2": {
-                "NUM": "629",
-                "TEXT": "Bewertungen"
-            },
-            "COUNTER_3": {
-                "NUM": "176K+",
-                "TEXT": "Downloads"
-            }
-        }
+        "HEAD": "Gesundheit & Wohlbefinden",
+        "SUBHEAD": "Machen Sie tägliche Aufgaben agil und mühelos",
+        "IMG": "Einfachheit der Gesundheitsverfolgung, Apple Watch Wellness- und Gesundheits-Apps",
+        "OUR_PRODUCTS": "Unsere Produkte"
     },
     "REVIEW": {
         "HEAD": "Es wurde schon über uns gesagt",
@@ -45,8 +32,9 @@
         "IMG": "Nehmen Sie Elektrolyte und Mineralien mit Ihrer Apple Watch auf, Elektrolyt, Apple Watch App, Gesundheits-App",
         "DWN": "Laden Sie die kostenlose Elektrolyt-Tracker-App aus dem Apple AppStore herunter",
         "SUBHEAD": "Wasser-Salz-Gleichgewicht",
-    "TEXT": "Elektrolyte spielen eine entscheidende Rolle bei der Aufrechterhaltung der Homöostase im Körper. Sie regulieren die Herzfunktion, neurologische Funktionen, den Flüssigkeitshaushalt, die Sauerstoffzufuhr zu Geweben, das Säure-Basen-Gleichgewicht und vieles mehr.",
-    "ICO": "Symbol für den einfachsten Elektrolyt-Tracker für die Apple Watch. Verfolgen Sie Ihren Magnesium-, Kalzium-, Kalium- und Eisenkonsum. Synchronisierung mit Apple Health. Ohne Werbung.",
+        "TEXT": "Elektrolyte spielen eine entscheidende Rolle bei der Aufrechterhaltung der Homöostase im Körper. Sie regulieren die Herzfunktion, neurologische Funktionen, den Flüssigkeitshaushalt, die Sauerstoffzufuhr zu Geweben, das Säure-Basen-Gleichgewicht und vieles mehr.",
+        "TEXT1": "Elektrolyte unterstützen die Funktion des Herzens und sind an anderen physiologischen Prozessen beteiligt. Überwachen Sie den Elektrolytspiegel in Ihrem Körper mit unserer App.",
+        "ICO": "Symbol für den einfachsten Elektrolyt-Tracker für die Apple Watch. Verfolgen Sie Ihren Magnesium-, Kalzium-, Kalium- und Eisenkonsum. Synchronisierung mit Apple Health. Ohne Werbung.",
         "ABOUT_1": "Überwachen Sie wichtige Mineralien",
         "ABOUT_2": "Ein einfacher und bequemer Weg zur Eingabe von Elektrolytwerten von der Apple Watch",
         "ABOUT_3": "Synchronisation mit der Apple Health App",
@@ -71,6 +59,7 @@
     "MASS": {
         "HEAD": "Gewicht",
         "SUBHEAD": "Das bequemste Gewichtstagebuch",
+        "ICO": "Ikone des bequemsten Gewichtstagebuchs. Synchronisierung mit iCloud. Keine Werbung und Autorisierung.",
         "IMG": "Eine Frau steht auf einer Waage und misst ihr Gewicht mithilfe einer Apple Watch, auf der die Gewicht-App von Martspec läuft.",
         "TEXT": "Das Verfolgen Ihres Gewichts steigert Ihre Effizienz in Bezug auf Ihre Zeit und Ihr Training. Es wird Sie nicht nur dazu bringen, es besser zu machen, sondern Sie auch dazu bringen, Ihre eigene Konkurrenz zu sein!",
         "DWN": "Laden Sie die kostenlose Gewicht-App aus dem Apple Store herunter",
@@ -118,6 +107,10 @@
         "ICO": "Symbol für die beste Vitamin- und Mineralien-Tracker-App für Ihre Apple Watch, iPhone und iPad. Synchronisiert nahtlos mit die Health App. Null Werbung.",
         "TEXT": "Das Verfolgen Ihrer essentiellen Vitamine hat viele Vorteile, angefangen bei der Behandlung von Nahrungsmittelunverträglichkeiten bis hin zur Steigerung der Energie, zur Vermeidung von Stimmungsschwankungen und zur Förderung des Tagesrhythmus.",
         "IMG": "Verfolgen Sie die wichtigsten Vitamine direkt am Handgelenk",
+        "HEAD1": "Vitamin Ring",
+        "SUBHEAD1": "Nährstoff- und Medikamenten-Tracker",
+        "TEXT1": "Praktischer Tracker für die Einnahme von Vitaminen. Synchronisierung der App mit Apple Health. Sicherung in iCloud. Funktioniert kostenlos. Keine Werbung und In-App-Käufe.",
+        "ICO1": "App-Ikone des Vitamin Ring, der besten App zur Vitamin-Einnahme. Synchronisierung mit Apple Health und Sicherung in iCloud. Kostenlos und ohne Werbung.",
         "DWN": "Laden Sie die kostenlose Vitamin- und Nährstoffverfolgungs-App aus dem Apple AppStore herunter",
         "ABOUT_1": "Kontrolle Ihrer Aufnahme wichtiger Vitamine und Mineralien jeden Tag",
         "ABOUT_2": "Die Energie der gesunden Ernährung und ein glückliches Leben",
@@ -899,25 +892,25 @@
             "LI3_TEXT": "iPhone-unabhängige Anwendung – Zugriff auf Statistiken auch ohne Telefon"
         },
         "HEAD1": "Warum Talia?",
-        "DESC1": "Wenn Sie Muskeln aufbauen und Zentimeter Fett verlieren, ändert sich Ihr Gewicht möglicherweise nicht wesentlich. Deshalb kann die Körperzusammensetzung Ihnen mehr als die Skala erzählen, sie erzählt Ihnen die wahre Geschichte.",
+        "DESC1": "Das Gewicht ändert sich möglicherweise nicht, wenn die Muskelmasse zunimmt und das Fett abnimmt, daher ist die Körperform ein besseres Abbild der Gesundheit. Mit der Waist-App können Sie diese Parameter verfolgen",
         "LINK1": "National Institutes of Health, USA",
         "HEAD2": "Wichtiger als der Body-Mass-Index",
         "LINK2": "Forschung der American Heart Association",
-        "DESC2": " zeigten, dass Messungen des Taillenumfangs eine bessere Aussagekraft über das Risiko einer Herzerkrankung haben als der weit verbreitete BMI (Body Mass Index).",
-        "HEAD3": "Medizinische Tatsache",
-        "DESC3": " zeigen, dass das Risiko für Typ-2-Diabetes und Herzerkrankungen steigt, wenn sich mehr Fett um die Taille als um die Hüften befindet.",
+        "DESC2": " haben gezeigt, dass der Taillenumfang ein besserer Prädiktor für das Risiko von Herzerkrankungen ist als der BMI",
+        "HEAD3": "Medizinische Fakten",
+        "DESC3": " zeigen - das Risiko für Typ-2-Diabetes und Herz-Kreislauf-Erkrankungen ist höher, wenn sich mehr Fett an der Taille als an den Hüften befindet",
         "LINK3": "Untersuchungen der US-amerikanischen National Institutes of Health",
         "HEAD4": "Vorteile",
         "LIST2": {
             "LI1_HEAD": "Datenschutz",
-            "LI1_TEXT": "Wir speichern Ihre Daten NICHT auf unseren Servern",
+            "LI1_TEXT": "Wir speichern Ihre Daten nicht auf unseren Servern",
             "LI2_HEAD": "Ohne Genehmigung",
             "HEAD2": "Besser als BMI",
             "LINK2": "Studie der American Heart Association",
             "DESC2": " hat gezeigt, dass die Messung der Taille ein besserer Weg ist, um das Risiko von Herzerkrankungen vorherzusagen, als der weit verbreitete Body-Mass-Index.",
             "LI2_TEXT": "Für diese App ist kein Konto erforderlich",
             "LI3_HEAD": "Werbefrei",
-            "LI3_TEXT": "Wir haben KEINE lästige Werbung",
+            "LI3_TEXT": "Wir haben keine lästige Werbung",
             "LI4_HEAD": "Apple Health",
             "LI4_TEXT": "Integration von Lese- und Schreibdaten"
         },
@@ -927,6 +920,19 @@
         "ALT2": "Apple Watch-Bildschirme zeigen den aktuellen Taillenumfang und Statistiken in der Waist-App von Martspec",
         "ALT3_1": "Ein praktisches Werkzeug zur Verfolgung von Veränderungen des Taillenumfangs",
         "ALT3_2": "Zugriff auf Statistiken ohne iPhone",
+        "HEAD6": "Viszeralfett: Eine versteckte Gefahr",
+        "DESC6": "Viszeralfett ist ein gelartiges Fett, das Organe wie Leber und Nieren umhüllt und sich tief im Bauchraum verbirgt und die Taille vergrößert. Ein dicker Bauch ist nicht nur ein kosmetisches Problem, sondern auch ein ernstes Gesundheitsrisiko",
+        "ALT4_1": "Viszerales Fett erhöht das Risiko von Gesundheitsproblemen",
+        "ALT4_2": "Viszerales Fett ist Auslöser für Typ-2-Diabetes",
+        "ALT4_3": "Der Kampf gegen das viszerale Fett kann das Risiko schwerer Krankheiten verringern",
+        "LIST3": {
+            "LI1_HEAD": "Erhöht das Risiko von Gesundheitsproblemen",
+            "LI1_TEXT": "Viszerales Fett provoziert Entzündungen, stört den Hormonhaushalt und erhöht das Risiko von Fettleibigkeit, Diabetes, Herzkrankheiten, Schlaganfall, Krebs, Schlafstörungen, Arthritis, sexueller Dysfunktion und Depression.",
+            "LI2_HEAD": "Verursacht Typ-2-Diabetes",
+            "LI2_TEXT": "Wenn der Körper das Insulin nicht effektiv nutzt, muss die Bauchspeicheldrüse härter arbeiten, um den Zuckerspiegel zu kontrollieren, was zu Prädiabetes und Diabetes Typ 2 führen kann.",
+            "LI3_HEAD": "Bekämpfung von viszeralem Fett",
+            "LI3_TEXT": "Die Verringerung des viszeralen Fettes ist entscheidend für die Verbesserung Ihrer Gesundheit. Die Bekämpfung dieses Fettes kann dazu beitragen, den Kreislauf zu durchbrechen und Ihr Risiko für schwere Krankheiten zu verringern"
+        },
         "BTN_OPEN": "Verringern"
     },
     "ZINC": {
@@ -934,6 +940,7 @@
         "SUBHEAD": "verfolgung der zinkaufnahme",
         "ICO": "Symbol für unsere kostenlose Apple Watch App, mit der Sie den Zinkverbrauch verfolgen können. Machen Sie Aufzeichnungen über diätetisches Zink von Ihren Apple Watches und synchronisieren Sie sie mit die Health App. Keine benötigte begleitende iPhone-App, um zu funktionieren. Null Werbung.",
         "TEXT": "Schön in seiner Einfachheit Körper Zink Tracker für Ihre Uhr. die Health App aktiviert. Echte Ergebnisse. Kostenlos. Keine Werbung.",
+        "TEXT1": "Tracker für den Zinkgehalt in Ihrem Körper für die Apple Watch. Synchronisierung mit Apple Health. Einfache Dateneingabe. Funktioniert kostenlos und ohne Werbung.",
         "IMG": "Verfolgen Sie Ihren Alltagsverbrauch von Zinkergänzungen",
         "DWN": "Holen Sie sich kostenlos Bodyzinc-Anwendung von Apple Store",
         "ABOUT_1": "Einfacher und leicht zu bedienender Zink-Tracker",
@@ -1462,6 +1469,10 @@
         "DESK6_2": "Es ist wichtig zu beachten, dass Unabhängigkeit in diesen Bereichen zwar zum Erfolg beitragen kann, Zusammenarbeit und effektive Kommunikationsfähigkeiten jedoch in den meisten Berufen auch wertvoll sind. Für einen erfüllenden Karriereweg ist es wichtig, ein Gleichgewicht zwischen Unabhängigkeit und Teamarbeit zu finden. Darüber hinaus sind Menschen einzigartig und ihr beruflicher Werdegang kann durch eine Kombination anderer Eigenschaften und Interessen als der Unabhängigkeit beeinflusst werden."
     },
     "ENERGY": {
+        "HEAD_MAIN": "Energie",
+        "ICO_MAIN": "App-Ikone zur täglichen Verfolgung Ihres Energielevels.",
+        "SUBHEAD_MAIN": "Tägliche Herausforderungen mit Fortschrittsverfolgung",
+        "TEXT_MAIN": "Nehmen Sie tägliche Herausforderungen an und verfolgen Sie Ihren persönlichen Fortschritt, um Ihr Ziel zu erreichen. Das Überspringen von Tagen führt zum Scheitern Ihrer Mission. Verdienen Sie Belohnungen für Ihre Erfolge, wählen Sie den Schwierigkeitsgrad und vieles mehr in der App „Energie“.",
         "HEAD": "Energie",
         "IMG": "Energie",
         "DWN": "Holen Sie sich die kostenlose Emotion-App für Apple Watch, iPhone oder iPad direkt im Apple App Store.",
@@ -1679,7 +1690,8 @@
         "TEXT_1": "Wir arbeiten hart daran, Ihnen die bestaussehende Webseite zu bieten.",
         "TEXT_2": "Wir danken Ihnen für Ihre Geduld.",
         "BTN": "Startseite",
-        "CTA": "Folgen Sie uns"
+        "CTA": "Folgen Sie uns",
+        "SOON_BTN": "In Entwicklung"
     },
     "MISSION": {
         "HEAD": "Mission",
@@ -1720,7 +1732,7 @@
         "NATALIA": "Natalia",
         "DARIA": "Daria",
         "ROMAN": "Roman",
-        "VITALY": "Vitalij"
+        "PAVEL": "Pawel"
     },
     "CAREERS": {
         "HEAD": "Karriere",

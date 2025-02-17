@@ -7,23 +7,10 @@
         "WIKI": "Leer artículo completo sobre WiKi"
     },
     "MAIN": {
-        "HEAD": "Simplificando el camino hacia la salud",
-        "SUBHEAD": "Hecho con cuidado para ti",
-        "ALT": "Aplicaciones de Vitamina y Emoción para tu iPhone y Apple Watch",
-        "COUNTERS": {
-            "COUNTER_1": {
-                "NUM": "23K+",
-                "TEXT": "usuarios"
-            },
-            "COUNTER_2": {
-                "NUM": "629",
-                "TEXT": "reseñas"
-            },
-            "COUNTER_3": {
-                "NUM": "176K+",
-                "TEXT": "descargas"
-            }
-        }
+        "HEAD": "Sencillez del seguimiento de la salud",
+        "SUBHEAD": "Aplicaciones para hacer más eficientes y ágiles las tareas diarias",
+        "IMG": "Aplicaciones de salud y bienestar de Apple Watch",
+        "OUR_PRODUCTS": "Nuestros productos"
     },
     "REVIEW": {
         "HEAD": "Se ha dicho de nosotros",
@@ -45,8 +32,9 @@
         "IMG": "Registra electrolitos y minerales con tu Apple Watch, Electrolyte, aplicación para Apple Watch, aplicación de salud",
         "DWN": "Descargue la aplicación gratuita de seguimiento de electrolitos de la AppStore de Apple",
         "SUBHEAD": "equilibrio hídrico-salino",
-    "TEXT": "Los electrolitos juegan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Regulan el funcionamiento del corazón, las funciones neurológicas, el equilibrio de líquidos, la entrega de oxígeno a los tejidos, el equilibrio ácido-base y mucho más.",
-    "ICO": "Ícono para el rastreador de electrolitos más simple para Apple Watch. Siga su consumo de magnesio, calcio, potasio, hierro. Sincronización con Apple Salud. Sin publicidad.",
+        "TEXT": "Los electrolitos juegan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Regulan el funcionamiento del corazón, las funciones neurológicas, el equilibrio de líquidos, la entrega de oxígeno a los tejidos, el equilibrio ácido-base y mucho más.",
+        "TEXT1": "Los electrolitos apoyan el funcionamiento del corazón y participan en otros procesos fisiológicos. Controle el nivel de electrolitos en su cuerpo con nuestra aplicación.",
+        "ICO": "Ícono para el rastreador de electrolitos más simple para Apple Watch. Siga su consumo de magnesio, calcio, potasio, hierro. Sincronización con Apple Salud. Sin publicidad.",
         "ABOUT_1": "Controla minerales importantes",
         "ABOUT_2": "Forma fácil y conveniente de ingresar lecturas de electrolitos desde el Apple Watch",
         "ABOUT_3": "Sincronización con la aplicación Apple Health",
@@ -71,6 +59,7 @@
     "MASS": {
         "HEAD": "Peso",
         "SUBHEAD": "El diario de control de peso más conveniente",
+        "ICO": "Icono del diario de peso más conveniente. Sincronización con iCloud. Sin anuncios ni autenticación.",
         "IMG": "Una mujer sube a una báscula y mide su peso con un Apple Watch que ejecuta la aplicación Peso de Martspec.",
         "TEXT": "El seguimiento de su peso aumenta su eficiencia en cuanto a su tiempo y entrenamientos. ¡No solo lo impulsará a mejorar, sino que también lo motivará a competir consigo mismo!",
         "DWN": "Descarga la aplicación gratuita Peso desde Apple Store",
@@ -118,6 +107,10 @@
         "ICO": "Ícono de la mejor aplicación de seguimiento de vitaminas y minerales para su Apple Watch, iPhone y iPad. Se sincroniza a la perfección con La app Salud. Cero anuncios.",
         "TEXT": "El seguimiento de sus vitaminas esenciales tiene muchos beneficios, desde ayudar a controlar las intolerancias alimentarias hasta aumentar la energía, evitar cambios de humor y estimular el ritmo de su día.",
         "IMG": "Realice un seguimiento de las vitaminas más esenciales directamente en su muñeca",
+        "HEAD1": "Anillo de Vitaminas",
+        "SUBHEAD1": "Rastreador de nutrientes y medicamentos",
+        "TEXT1": "Rastreador conveniente para la toma de vitaminas. Sincronización de la aplicación con Apple Health. Copia de seguridad en iCloud. Funciona de forma gratuita. Sin anuncios ni compras dentro de la aplicación.",
+        "ICO1": "Icono de la aplicación Anillo de Vitaminas, el mejor rastreador de vitaminas. Sincronización con Apple Health y copia de seguridad en iCloud. Gratis y sin anuncios.",
         "DWN": "Descargue la aplicación gratuita de seguimiento de vitaminas y nutrientes de la AppStore de Apple",
         "ABOUT_1": "Controle su consumo de vitaminas y minerales importantes todos los días",
         "ABOUT_2": "La energía de la alimentación saludable y una vida feliz",
@@ -899,18 +892,18 @@
             "LI3_TEXT": "La aplicación es independiente del iPhone: acceso a estadísticas incluso sin teléfono"
         },
         "HEAD1": "¿Por qué la Cintura?",
-        "DESC1": "El peso puede permanecer constante mientras se aumenta la masa muscular y se elimina la grasa. Es por eso que la forma y la figura de su cuerpo reflejan mejor su salud. Nuestra aplicación le ayudará a rastrear estos parámetros de manera más conveniente.",
+        "DESC1": "El peso puede no cambiar a medida que aumenta la masa muscular y disminuye la grasa, por lo que la forma corporal es un mejor reflejo de la salud. La app Cintura te ayuda a hacer un seguimiento de estos parámetros",
         "LINK1": "Institutos Nacionales de Salud, EE. UU.",
         "HEAD2": "Más Importante que el Índice de Masa Corporal",
         "LINK2": "Estudios de la Asociación Americana de Cardiología",
-        "DESC2": " han demostrado que las medidas de la circunferencia de la cintura predicen con mayor precisión el riesgo de enfermedades cardíacas que el ampliamente utilizado Índice de Masa Corporal (IMC).",
-        "HEAD3": "Hecho médico",
-        "DESC3": " muestran que el riesgo de diabetes tipo 2 y enfermedades cardiovasculares aumenta cuando hay más acumulación de grasa en la cintura que en la cadera.",
+        "DESC2": " han demostrado que el tamaño de la cintura predice mejor el riesgo de cardiopatía que el IMC",
+        "HEAD3": "Datos médicos",
+        "DESC3": " mostrar - el riesgo de diabetes de tipo 2 y de enfermedades cardiovasculares es mayor cuando la grasa se localiza más en la cintura que en las caderas",
         "LINK3": "Investigaciones del Instituto Nacional de Salud de los Estados Unidos",
         "HEAD4": "Nuestras ventajas",
         "LIST2": {
             "LI1_HEAD": "Protección de Datos",
-            "LI1_TEXT": "NO almacenamos sus datos en nuestros servidores",
+            "LI1_TEXT": "No almacenamos sus datos en nuestros servidores",
             "LI2_HEAD": "Sin autorización",
             "LI2_TEXT": "No se requiere cuenta para esta aplicación",
             "LI3_HEAD": "Sin publicidad",
@@ -924,6 +917,19 @@
         "ALT2": "Pantallas de Apple Watch que muestran la circunferencia de cintura actual y estadísticas en la aplicación Cintura de Martspec",
         "ALT3_1": "Una herramienta conveniente para rastrear cambios en la circunferencia de la cintura",
         "ALT3_2": "Acceso a estadísticas sin un iPhone",
+        "HEAD6": "Grasa visceral: Un peligro oculto",
+        "DESC6": "La grasa visceral es una grasa en forma de gel que rodea órganos como el hígado y los riñones, y se oculta profundamente en el abdomen, aumentando la cintura. Un abdomen grande no es solo un problema estético, sino también un grave riesgo para la salud.",
+        "ALT4_1": "La grasa visceral aumenta el riesgo de problemas de salud",
+        "ALT4_2": "La grasa visceral provoca diabetes tipo 2",
+        "ALT4_3": "Luchar contra la grasa visceral ayudará a reducir el riesgo de enfermedades graves",
+        "LIST3": {
+            "LI1_HEAD": "Aumenta el riesgo de problemas de salud",
+            "LI1_TEXT": "La grasa visceral provoca inflamación, interrumpe el funcionamiento hormonal y aumenta el riesgo de obesidad, diabetes, enfermedades cardíacas, accidentes cerebrovasculares, cáncer, trastornos del sueño, artritis, disfunción sexual y depresión",
+            "LI2_HEAD": "Provoca diabetes tipo 2",
+            "LI2_TEXT": "Cuando el cuerpo no utiliza insulina de manera eficiente, el páncreas debe trabajar más para controlar los niveles de azúcar en la sangre, lo que puede llevar a la prediabetes y la diabetes tipo 2",
+            "LI3_HEAD": "Luchar contra la grasa visceral",
+            "LI3_TEXT": "Reducir la grasa visceral es crucial para mejorar tu salud. Luchar contra esta grasa ayudará a romper el círculo vicioso y reducir el riesgo de enfermedades graves"
+        },
         "BTN_OPEN": "Tonifique su abdomen"
     },
     "ZINC": {
@@ -931,6 +937,7 @@
         "SUBHEAD": "Rastreador de zinc para su reloj",
         "ICO": "Ícono de nuestra aplicación gratuita Apple Watch que lo ayuda a rastrear el consumo de zinc. Realice registros sobre el zinc dietético desde sus relojes Apple y sincronícelos con La app Salud. No se necesita una aplicación de iPhone complementaria para funcionar. Cero anuncios.",
         "TEXT": "El zinc puede potenciar la función inmunológica, estabilizar los niveles de azúcar en la sangre y contribuir a mantener saludables la piel, los ojos y el corazón.",
+        "TEXT1": "Rastreador del contenido de zinc en su cuerpo para Apple Watch. Sincronización con Apple Health. Entrada de datos conveniente. Funciona de forma gratuita y sin anuncios.",
         "IMG": "Rastrea su consumo diario de suplemento de zinc",
         "DWN": "Recibe la aplicación gratuita de Bodyzinc de Apple Store",
         "ABOUT_1": "Rastreador de zinc sencillo y fácil de usar",
@@ -1459,6 +1466,10 @@
         "DESK6_2": "Es importante señalar que, si bien la independencia puede contribuir al éxito en estos campos, la colaboración y las habilidades de comunicación efectiva también son valiosas en la mayoría de las profesiones. Encontrar un equilibrio entre independencia y trabajo en equipo es esencial para una carrera profesional satisfactoria. Además, las personas son únicas y su trayectoria profesional puede verse influenciada por una combinación de rasgos e intereses distintos de la independencia."
     },
     "ENERGY": {
+        "HEAD_MAIN": "Energía",
+        "ICO_MAIN": "Icono de la aplicación para el seguimiento diario de su nivel de energía.",
+        "SUBHEAD_MAIN": "Desafíos diarios con seguimiento del progreso",
+        "TEXT_MAIN": "Realice desafíos diarios y siga su progreso personal para alcanzar su meta. Saltarse días llevará al fracaso de su misión. Obtenga recompensas por sus logros, elija el nivel de dificultad y mucho más en la aplicación „Energía“.",
         "HEAD": "Energía",
         "IMG": "Energía",
         "DWN": "Obtenga la aplicación Emoción gratuita para Apple Watch, iPhone o iPad directamente desde la App Store de Apple.",
@@ -1676,7 +1687,8 @@
         "TEXT_1": "Estamos trabajando duro para ofrecerle la mejor página web.",
         "TEXT_2": "Gracias por su paciencia.",
         "BTN": "Inicio",
-        "CTA": "Síganos en"
+        "CTA": "Síganos en",
+        "SOON_BTN": "En desarrollo"
     },
     "MISSION": {
         "HEAD": "Misión",
@@ -1717,7 +1729,7 @@
         "NATALIA": "Natalia",
         "DARIA": "Daria",
         "ROMAN": "Román",
-        "VITALY": "Vitalio"
+        "PAVEL": "Pável"
     },
     "CAREERS": {
         "HEAD": "Carreras",
