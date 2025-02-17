@@ -919,6 +919,19 @@
         "ALT2": "Telas do Apple Watch mostrando a circunferência da cintura atual e estatísticas no aplicativo Cintura da Martspec",
         "ALT3_1": "Uma ferramenta conveniente para acompanhar mudanças na circunferência da cintura",
         "ALT3_2": "Acesso a estatísticas sem iPhone",
+        "HEAD6": "Gordura visceral: Um perigo oculto",
+        "DESC6": "A gordura visceral é uma gordura gelatinosa que envolve órgãos como o fígado e os rins, escondendo-se profundamente no abdômen, aumentando a cintura. Uma barriga grande não é apenas um problema estético, mas também um risco grave para a saúde.",
+        "ALT4_1": "A gordura visceral aumenta o risco de problemas de saúde",
+        "ALT4_2": "A gordura visceral provoca diabetes tipo 2",
+        "ALT4_3": "Lutar contra a gordura visceral ajudará a reduzir o risco de doenças graves",
+        "LIST3": {
+            "LI1_HEAD": "Aumenta o risco de problemas de saúde",
+            "LI1_TEXT": "A gordura visceral provoca inflamação, interfere na função hormonal e aumenta o risco de obesidade, diabetes, doenças cardíacas, acidente vascular cerebral, câncer, distúrbios do sono, artrite, disfunção sexual e depressão",
+            "LI2_HEAD": "Provoca diabetes tipo 2",
+            "LI2_TEXT": "Quando o corpo não usa a insulina de forma eficaz, o pâncreas precisa trabalhar mais para controlar os níveis de açúcar no sangue, o que pode levar a pré-diabetes e diabetes tipo 2",
+            "LI3_HEAD": "Lutar contra a gordura visceral",
+            "LI3_TEXT": "Reduzir a gordura visceral é crucial para melhorar a sua saúde. Combater essa gordura ajudará a romper o ciclo vicioso e reduzirá o risco de doenças graves"
+        },
         "BTN_OPEN": "Diminuir"
     },
     "ZINC": {

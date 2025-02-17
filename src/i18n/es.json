@@ -917,6 +917,19 @@
         "ALT2": "Pantallas de Apple Watch que muestran la circunferencia de cintura actual y estadísticas en la aplicación Cintura de Martspec",
         "ALT3_1": "Una herramienta conveniente para rastrear cambios en la circunferencia de la cintura",
         "ALT3_2": "Acceso a estadísticas sin un iPhone",
+        "HEAD6": "Grasa visceral: Un peligro oculto",
+        "DESC6": "La grasa visceral es una grasa en forma de gel que rodea órganos como el hígado y los riñones, y se oculta profundamente en el abdomen, aumentando la cintura. Un abdomen grande no es solo un problema estético, sino también un grave riesgo para la salud.",
+        "ALT4_1": "La grasa visceral aumenta el riesgo de problemas de salud",
+        "ALT4_2": "La grasa visceral provoca diabetes tipo 2",
+        "ALT4_3": "Luchar contra la grasa visceral ayudará a reducir el riesgo de enfermedades graves",
+        "LIST3": {
+            "LI1_HEAD": "Aumenta el riesgo de problemas de salud",
+            "LI1_TEXT": "La grasa visceral provoca inflamación, interrumpe el funcionamiento hormonal y aumenta el riesgo de obesidad, diabetes, enfermedades cardíacas, accidentes cerebrovasculares, cáncer, trastornos del sueño, artritis, disfunción sexual y depresión",
+            "LI2_HEAD": "Provoca diabetes tipo 2",
+            "LI2_TEXT": "Cuando el cuerpo no utiliza insulina de manera eficiente, el páncreas debe trabajar más para controlar los niveles de azúcar en la sangre, lo que puede llevar a la prediabetes y la diabetes tipo 2",
+            "LI3_HEAD": "Luchar contra la grasa visceral",
+            "LI3_TEXT": "Reducir la grasa visceral es crucial para mejorar tu salud. Luchar contra esta grasa ayudará a romper el círculo vicioso y reducir el riesgo de enfermedades graves"
+        },
         "BTN_OPEN": "Tonifique su abdomen"
     },
     "ZINC": {
