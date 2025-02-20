@@ -7,12 +7,13 @@ import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardImage from "@/atomic/molecule/card-image";
-import ImageI18N from "@/atomic/atom/img-i18n";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
-import CallToAction from "@/atomic/organism/call-to-action";
+import CallToAction from "@/atomic/organism/call-to-action-new";
+import ButtonApple from "../atom/button-apple";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
+import CardIconTitleText from "../molecule/card-icon-title-text";
 
 export default function WaistLine() {
     const appId = getAppId();
@@ -47,7 +48,7 @@ export default function WaistLine() {
                 alt: _("MASS.ALT5_5"),
             },
             title: _("WAIST.LIST2.LI4_HEAD"),
-            subtitle: _("WAIST.LIST2.LI4_TEXT"),
+            subtitle: _("WAIST.LIST2.LI4_HEAD"),
         },
     ];
     return (
@@ -114,49 +115,78 @@ export default function WaistLine() {
                     </div>
                 </section>
 
+                <div className="ms-base-page ms-base-new waist call-to-action why-waist-section">
+                    <CallToAction
+                        title={_("WAIST.HEAD1")}
+                        subtitle={_("WAIST.DESC1")}
+                        textList={[
+                            <>
+                                <strong>{_("WAIST.LINK2")}</strong> {_("WAIST.DESC2")}
+                            </>,
+                            <>
+                                <strong>{_("WAIST.LINK3")}</strong> {_("WAIST.DESC3")}
+                            </>,
+                        ]}
+                        textListTitle={_("WAIST.HEAD3")}
+                        imgSrc="/img/page/waistline/waist-whywaist-en.webp"
+                        imgH={390}
+                        imgW={620}
+                        imgAlt={_("WAIST.ALT1")}
+                        imgPosition="left"
+                        bgColor={"#FFFFFF"}
+                    />
+                </div>
+
                 <section>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h2>{_("WAIST.HEAD1")}</h2>
-                            <p className="mb-4">{_("WAIST.DESC1")}</p>
-                            <h4>{_("WAIST.HEAD2")}</h4>
-
-                            {/* Better than BMI */}
-                            <p className="mb-4">
-                                <a
-                                    href="https://www.heart.org/en/news/2019/03/19/waist-size-predicts-heart-attacks-better-than-bmi-especially-in-women"
-                                    target="_blank"
-                                >
-                                    {_("WAIST.LINK2")}
-                                </a>
-                                {_("WAIST.DESC2")}
-                            </p>
-                            <h4>{_("WAIST.HEAD3")}</h4>
-
-                            {/* Medical Fact */}
-                            <p className="mb-4">
-                                <a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm" target="_blank">
-                                    {_("WAIST.LINK3")}
-                                </a>
-                                {_("WAIST.DESC3")}
-                            </p>
-                        </div>
-
-                        <div className="col-lg-6">
-                            <ImageI18N
-                                src="/img/page/waistline/main-pic-en.webp"
-                                w={435}
-                                h={397}
-                                cls="ms-base-image mt-mob-xs"
-                                alt={_("WAIST.ALT1")}
-                            />
+                    <div className="ms-base-new row waist-info-section">
+                        <h2>{_("WAIST.HEAD6")}</h2>
+                        <p>{_("WAIST.DESC6")}</p>
+                        <div className="info-list row g-4">
+                            <div className="col-lg-4 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-patient.svg",
+                                            alt: _("WAIST.ALT4_1"),
+                                        },
+                                        title: _("WAIST.LIST3.LI1_HEAD"),
+                                    }}
+                                    text={_("WAIST.LIST3.LI1_TEXT")}
+                                    bgColor="#DDE9FF"
+                                />
+                            </div>
+                            <div className="col-lg-4 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-performance.svg",
+                                            alt: _("WAIST.ALT4_2"),
+                                        },
+                                        title: _("WAIST.LIST3.LI2_HEAD"),
+                                    }}
+                                    text={_("WAIST.LIST3.LI2_TEXT")}
+                                />
+                            </div>
+                            <div className="col-lg-4 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-rehabilitation.svg",
+                                            alt: _("WAIST.ALT4_3"),
+                                        },
+                                        title: _("WAIST.LIST3.LI3_HEAD"),
+                                    }}
+                                    text={_("WAIST.LIST3.LI3_TEXT")}
+                                    bgColor="#DDE9FF"
+                                />
+                            </div>
                         </div>
                     </div>
                 </section>
 
                 <section>
-                    <div className="row">
-                        <div className="col-12 mb-2">
+                    <div className="row our-advantages-section">
+                        <div className="col-12">
                             <h2>{_("WAIST.HEAD4")}</h2>
                         </div>
                         <div className="col-12">
@@ -187,15 +217,16 @@ export default function WaistLine() {
                 />
 
                 <section>
-                    <div className="row">
+                    <div className="row call-to-action">
                         <CallToAction
-                            bgColor={{ backgroundColor: "#FFB34066" }}
-                            title={_("WAIST.HEAD5")}
+                            bgColor={"#FFFFFF"}
+                            title={_("MASS.HEAD4")}
                             subtitle={_("WAIST.DESC5")}
-                            appId={appId}
-                            appDownloadTitle={_("WAIST.DWN")}
-                            imgSrc="/img/page/waistline/call-to-action-en.webp"
+                            button={<ButtonApple appId={appId} appDownloadTitle={_("WAIST.DWN")} />}
+                            imgSrc="/img/page/waistline/waist-banner-en.webp"
                             imgAlt={_("WAIST.ALT2")}
+                            imgH={585}
+                            imgW={590}
                         />
                     </div>
                 </section>

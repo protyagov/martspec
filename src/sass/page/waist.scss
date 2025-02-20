@@ -55,4 +55,94 @@
       margin-left: 0 !important;
       margin-right: 0 !important;
   }
+
+
+    .why-waist-section {
+        .block {
+            box-shadow: none !important;
+            align-items: center;
+            text-align: start;
+            column-gap: 8rem !important;
+
+            h2 {
+                margin-bottom: 1.5rem !important;
+            }
+
+            p {
+                margin-bottom: 1.5rem !important;
+                line-height: 120%;
+            }
+
+            h3 {
+                line-height: 120%;
+                margin-bottom: 0.7rem;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 1.4rem;
+                color: #595959;
+
+                li {
+                    line-height: 1.6rem;
+                    &::marker {
+                        color: #1686ff;
+                    }
+                }
+            }
+        }
+    }
+
+  .our-advantages-section {
+    h2 {
+        font-size: 3.08rem;
+        margin-bottom: 3.85rem;
+    }
+  }
+
+  .call-to-action {
+    .block {
+        padding: 0;
+        box-shadow: none;
+        align-items: center;
+        text-align: start;
+        div {
+            min-height: 324px;
+            max-width: 510px;
+            h2 {
+                font-size: 3.08rem;
+            }
+            p {
+                font-size: 1.5rem;
+                line-height: 120%;
+            }
+        }
+        .ms-btn-apple {
+            img {
+                margin: 0;
+            }
+        }
+    }
+  }
+
+  .waist-info-section {
+    h2 {
+        font-size: 3.08rem;
+    }
+    p {
+        font-size: 1.39rem;
+        line-height: 120%;
+        max-width: 800px;
+    }
+    .info-list {
+        padding: 0;
+        p {
+            margin-bottom: 1rem !important;
+        }
+        .card-icon-title-text {
+            flex-grow: 1;
+        }
+    }
+  }
 }

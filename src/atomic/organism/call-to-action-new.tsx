@@ -5,33 +5,36 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 type CallToActionProps = {
     title: string;
     subtitle?: string;
-    textList?: string[];
+    textList?: ReactNode[];
+    textListTitle?: string;
     button?: ReactNode;
     imgPosition?: "left" | "right";
-    bgColor?: CSSProperties;
+    bgColor?: CSSProperties["color"];
 };
 
 type WithImage<Props> = Props & {
     imgSrc: string;
+    imgH?: number;
+    imgW?: number;
     imgAlt: string;
 };
 
 type WithoutImage<Props> = Props & {
-    imgSrc: never;
+    imgSrc?: never;
     imgH?: never;
     imgW?: never;
-    imgAlt: never;
+    imgAlt?: never;
 };
 
 export default function CallToAction(props: WithImage<CallToActionProps> | WithoutImage<CallToActionProps>) {
-    const { title, subtitle, textList, button, bgColor, imgSrc, imgAlt, imgPosition = "right" } = props;
+    const { title, subtitle, textList, textListTitle, button, bgColor="#d6e3fc", imgSrc="", imgH=400, imgW=400, imgAlt, imgPosition = "right" } = props;
     const marginBot = { marginBottom: "3rem" };
 
     return (
         <div className="row text-lg-start text-center page-bottom">
-            <div className="col-12 block bg-blue" style={bgColor}>
+            <div className="col-12 block" style={{backgroundColor: bgColor}}>
                 {imgPosition === "left" && (
-                    <ImageI18N src={imgSrc} h={400} w={400} cls="ms-base-image ms-lg-auto" alt={imgAlt} />
+                    <ImageI18N src={imgSrc} h={imgH} w={imgW} cls="ms-base-image ms-lg-auto" alt={imgAlt} />
                 )}
 
                 <div>
@@ -42,10 +45,13 @@ export default function CallToAction(props: WithImage<CallToActionProps> | Witho
                         </p>
                     )}
                     {/* TODO: создать компонент для отображения textList c возможностью передачи цвета буллет-поинтов, локализацией и улучшенной стилизацией */}
+                    {textListTitle && (
+                        <h3>{_(textListTitle)}</h3>
+                    )}
                     {textList && (
                         <ul style={{ listStyleType: "disc", paddingLeft: "1rem" }}>
                             {textList.map((item, index) => (
-                                <li key={index}>{_(item)}</li>
+                                <li key={index}>{item}</li>
                             ))}
                         </ul>
                     )}
@@ -53,7 +59,7 @@ export default function CallToAction(props: WithImage<CallToActionProps> | Witho
                 </div>
 
                 {imgPosition === "right" && (
-                    <ImageI18N src={imgSrc} h={400} w={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={imgAlt} />
+                    <ImageI18N src={imgSrc} h={imgH} w={imgW} cls="ms-base-image ms-lg-auto me-lg-0" alt={imgAlt} />
                 )}
             </div>
         </div>

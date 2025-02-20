@@ -89,13 +89,12 @@
     font-family: os4;
 
     h1 {
-        font-family: os6;
+        font-family: os5;
         margin-bottom: 0;
     }
 
     p {
         font-size: 1.1rem;
-        color: $ms-color-text-orange;
         margin-bottom: 0;
         display: inline-block;
 
@@ -144,10 +143,6 @@
         }
     }
 
-    &:nth-child(odd) {
-        background-color: $ms-color-bg-secondary;
-    }
-
     &:nth-child(even) {
         .p-container {
             grid-template:
@@ -157,5 +152,12 @@
                 "img ."
                 / 30% 55%;
         }
+    }
+
+    .energy-card .card-app-large .link-button:hover {
+        background-color: #E5EEFF !important;
+        color: #1686FF !important;
+        border: solid 1px transparent !important;
+        transition: none !important;
     }
 }
