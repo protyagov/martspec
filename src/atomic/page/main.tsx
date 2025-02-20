@@ -2,6 +2,8 @@ import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
+import Header from "@/atomic/organism/header";
+import Counter from "@/atomic/atom/counter";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import appIds from "@/data/app-ids.json";
@@ -17,30 +19,33 @@ export default function LandingPage() {
         <div className="flex-grow-1 flex-shrink-0">
             <NavigationBar />
 
-            <section id="header" className="ms-s-header">
-                <div className="ms-s-offset text-center">
-                    <div className="row justify-content-center">
-                        <div className="col-auto">
-                            <ImageI18N
-                                src="/img/header_screens.en.512.webp"
-                                w={512}
-                                h={298}
-                                cls="ms-base-image"
-                                alt={_("MAIN.HEAD")}
+            <div className="ms-base-page ms-base-new">
+                <Header
+                    title={_("MAIN.HEAD")}
+                    content={<p className="font-normal">{_("MAIN.SUBHEAD")}</p>}
+                    whichContent="row-items"
+                    tripleRowContent={
+                        <>
+                            <Counter
+                                title={_("MAIN.COUNTERS.COUNTER_1.NUM")}
+                                subtitle={_("MAIN.COUNTERS.COUNTER_1.TEXT")}
                             />
-                            <h1>{_("MAIN.HEAD")}</h1>
-                            <h4>{_("MAIN.SUBHEAD")}</h4>
-                            <img
-                                src="/img/header_watches.webp"
-                                width={241}
-                                height={160}
-                                className="d-block float-end float-sm-start watches-img"
-                                alt={_("MAIN.IMG")}
+                            <Counter
+                                title={_("MAIN.COUNTERS.COUNTER_2.NUM")}
+                                subtitle={_("MAIN.COUNTERS.COUNTER_2.TEXT")}
                             />
-                        </div>
-                    </div>
-                </div>
-            </section>
+                            <Counter
+                                title={_("MAIN.COUNTERS.COUNTER_3.NUM")}
+                                subtitle={_("MAIN.COUNTERS.COUNTER_3.TEXT")}
+                            />
+                        </>
+                    }
+                    imgSrc="/img/main-page-header-ru.webp"
+                    imgH={496}
+                    imgW={674}
+                    imgAlt={_("MAIN.ALT")}
+                />
+            </div>
 
             <section className="ms-s-offset ms-s-product">
                 <h1 className="mb-5 pb-5 display-5 h1 fw-bold">{_("MAIN.OUR_PRODUCTS")}</h1>
@@ -215,11 +220,11 @@ export default function LandingPage() {
 
             </section>
 
-            {/*
-                div wrapper for proper side margins and fonts, 
-                it's only needed for this page 
-                and can be easily removed when this page is redesigned.
-            */}
+                {/*
+                    div wrapper for proper side margins and fonts, 
+                    it's only needed for this page 
+                    and can be easily removed when this page is redesigned.
+                */}
             <div className="ms-base-page ms-base-new">
                 <Review
                     appId={allAppIds[getRandomArbitrary(0, allAppIds.length - 1)]}

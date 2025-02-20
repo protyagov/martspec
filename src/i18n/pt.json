@@ -7,9 +7,23 @@
         "WIKI": "Leia o artigo completo sobre WiKi"
     },
     "MAIN": {
-        "HEAD": "Simplicidade de rastreamento de saúde",
-        "SUBHEAD": "Aplicativos para tornar as tarefas diárias ágeis e sem esforço",
-        "IMG": "Aplicativos de bem-estar e saúde Apple Watch",
+        "HEAD": "Simplificando o caminho para a saúde",
+        "SUBHEAD": " Feito com carinho para você",
+        "ALT": "Aplicativos Vitamin e Emotion para seu iPhone e Apple Watch",
+        "COUNTERS": {
+            "COUNTER_1": {
+                "NUM": "23K+",
+                "TEXT": "usuários"
+            },
+            "COUNTER_2": {
+                "NUM": "629",
+                "TEXT": "avaliações"
+            },
+            "COUNTER_3": {
+                "NUM": "176K+",
+                "TEXT": "downloads"
+            }
+        },
         "OUR_PRODUCTS": "Aplicativos"
     },
     "REVIEW": {
@@ -1732,7 +1746,7 @@
         "NATALIA": "Natália",
         "DARIA": "Daria",
         "ROMAN": "Romão",
-        "PAVEL": "Pavel"
+        "VITALY": "Vitalio"
     },
     "CAREERS": {
         "HEAD": "Carreiras",
