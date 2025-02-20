@@ -7,9 +7,23 @@
         "WIKI": "WiKiに関する記事全文を読む"
     },
     "MAIN": {
-        "HEAD": "健康追跡のシンプルさ",
-        "SUBHEAD": "日常業務を機敏かつ簡単にするためのアプリケーション",
-        "IMG": "Apple Watch ウェルネスおよびヘルスアプリ",
+        "HEAD": "健康への道を簡素化する",
+        "SUBHEAD": "あなたのために注意して作られています",
+        "ALT": "iPhoneとApple Watch用のビタミンとエモーションアプリ",
+        "COUNTERS": {
+            "COUNTER_1": {
+                "NUM": "23K+",
+                "TEXT": "ユーザー"
+            },
+            "COUNTER_2": {
+                "NUM": "629",
+                "TEXT": "レビュー"
+            },
+            "COUNTER_3": {
+                "NUM": "176K+",
+                "TEXT": "ダウンロード"
+            }
+        },
         "OUR_PRODUCTS": "アプリ"
     },
     "REVIEW": {
@@ -1729,7 +1743,7 @@
         "NATALIA": "ナタリア",
         "DARIA": "ダリア",
         "ROMAN": "ロマン",
-        "PAVEL": "パヴェル"
+        "VITALY": "ヴィタリー "
     },
     "CAREERS": {
         "HEAD": "キャリア",

@@ -7,9 +7,23 @@
         "WIKI": "Lire l'article complet sur WiKi"
     },
     "MAIN": {
-        "HEAD": "Simplicité du suivi de la santé",
-        "SUBHEAD": "Des applications pour rendre les tâches quotidiennes agiles et sans effort",
-        "IMG": "Applications de bien-être et de santé Apple Watch",
+        "HEAD": "Simplifier le chemin vers la santé",
+        "SUBHEAD": "Fait avec soin pour vous",
+        "ALT": "Applications Vitamin et Emotion pour votre iPhone et Apple Watch",
+        "COUNTERS": {
+            "COUNTER_1": {
+                "NUM": "23K+",
+                "TEXT": "utilisateurs"
+            },
+            "COUNTER_2": {
+                "NUM": "629",
+                "TEXT": "avis"
+            },
+            "COUNTER_3": {
+                "NUM": "176K+",
+                "TEXT": "téléchargements"
+            }
+        },
         "OUR_PRODUCTS": "Applications"
     },
     "REVIEW": {
@@ -1729,7 +1743,7 @@
         "NATALIA": "Natalia",
         "DARIA": "Daria",
         "ROMAN": "Romain",
-        "PAVEL": "Pavel"
+        "VITALY": "Vitali"
     },
     "CAREERS": {
         "HEAD": "Carrières",

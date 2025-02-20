@@ -7,9 +7,26 @@
         "WIKI": "Read full article on WiKi"
     },
     "MAIN": {
-        "HEAD": "Simplicity of health tracking",
-        "SUBHEAD": "Apps to make daily tasks agile and effortless",
-        "IMG": "Apple Watch wellness and health apps",
+        "HEAD": "Simplifying Path to Wellness",
+        "SUBHEAD": "Made with care for you",
+        "ALT": "Discover an innovative approach to a healthy lifestyle with us",
+        "COUNTERS": {
+            "COUNTER_1": {
+                "NUM": "23K+",
+                "TEXT": "users",
+                "ALT": "Martspec has more than 23,000 users worldwide"
+            },
+            "COUNTER_2": {
+                "NUM": "629",
+                "TEXT": "reviews",
+                "ALT": "How many reviews Martspec has received from users for all apps worldwide"
+            },
+            "COUNTER_3": {
+                "NUM": "176K+",
+                "TEXT": "downloads",
+                "ALT": "How many downloads Martspec apps have received worldwide"
+            }
+        },
         "OUR_PRODUCTS": "Applications"
     },
     "REVIEW": {
@@ -869,7 +886,8 @@
             "FACT_8": "Researchers hypothesize that zinc depletion might play a role in diabetes progression. The evidence to date is insufficient to support any conclusions",
             "FACT_9": "Used in medicine to treat wounds",
             "FACT_10": "Can defend against sunburns",
-            "FACT_11": "Zinc and copper interfere with each other's absorption, so taking them at different times, such as morning and evening, is recommended"
+            "FACT_11": "Zinc and copper interfere with each other's absorption, so taking them at different times, such as morning and evening, is recommended",
+            "FACT_12": "Helps to produce melanin, a pigment that protects the retina, and supports the conversion of vitamin A into a form that the eye can use"
         }
     },
     "WAIST": {
@@ -1729,7 +1747,7 @@
         "NATALIA": "Natalia",
         "DARIA": "Daria",
         "ROMAN": "Roman",
-        "PAVEL": "Pavel"
+        "VITALY": "Vitaly"
     },
     "CAREERS": {
         "HEAD": "Careers",

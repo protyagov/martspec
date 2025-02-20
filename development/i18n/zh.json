@@ -7,9 +7,23 @@
         "WIKI": "阅读有关WiKi的完整文章"
     },
     "MAIN": {
-        "HEAD": "健康追踪的简单性",
-        "SUBHEAD": "使日常任务变得敏捷而轻松的应用程序",
-        "IMG": "Apple Watch 健康与健康应用",
+        "HEAD": "简化通往健康的道路",
+        "SUBHEAD": "为了您，精心制作",
+        "ALT": "适用于您的iPhone和Apple Watch的维生素和情感应用",
+        "COUNTERS": {
+            "COUNTER_1": {
+                "NUM": "23K+",
+                "TEXT": "用户"
+            },
+            "COUNTER_2": {
+                "NUM": "629",
+                "TEXT": "评论"
+            },
+            "COUNTER_3": {
+                "NUM": "176K+",
+                "TEXT": "下载"
+            }
+        },
         "OUR_PRODUCTS": "应用"
     },
     "REVIEW": {
@@ -1728,7 +1742,7 @@
         "NATALIA": "娜塔莉亚",
         "DARIA": "达莉亚",
         "ROMAN": "罗曼",
-        "PAVEL": "帕维尔"
+        "VITALY": "维塔利"
     },
     "CAREERS": {
         "HEAD": "职业机会",
