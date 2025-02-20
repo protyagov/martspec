@@ -192,10 +192,10 @@ export default function LandingPage() {
                     />
                 </div>
 
-                <div className="col-12 mb-5">
+                <div className="col-12 mb-5 energy-card">
                     {/* Энергия */}
                     <CardAppLarge
-                        backgroundColor="#F9F9FF"
+                        backgroundColor="#fff"
                         iconSrc="/img/page/energy/energy-icon-main-page.svg"
                         iconAlt={_("ENERGY.ICO_MAIN")}
                         title={_("ENERGY.HEAD_MAIN")}
