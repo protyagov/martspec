@@ -4,7 +4,6 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import Header from "@/atomic/organism/header";
 import Counter from "@/atomic/atom/counter";
-import ImageI18N from "@/atomic/atom/img-i18n";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import appIds from "@/data/app-ids.json";
 import Review from "@/atomic/prototype/review";
@@ -40,7 +39,8 @@ export default function LandingPage() {
                             />
                         </>
                     }
-                    imgSrc="/img/main-page-header-ru.webp"
+
+                    imgSrc="/img/page/main/Img-Header-en.webp"
                     imgH={496}
                     imgW={674}
                     imgAlt={_("MAIN.ALT")}
