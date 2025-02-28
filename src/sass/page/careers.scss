@@ -27,3 +27,22 @@ html[lang="zh"] h1 {
     overflow-wrap: anywhere;
     hyphens: none;
 }
+
+.triple-row-content {
+    gap: 5% !important;
+}
+
+.triple-row-content.mobile {
+    gap: 2rem !important;
+}
+
+.header-image {
+    max-width: 80% !important;
+    height: auto;
+}
+
+@include media-breakpoint-down(sm) {
+    .header-image {
+        max-width: 70%;
+    }
+}

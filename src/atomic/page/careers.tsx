@@ -4,7 +4,9 @@ import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
+import Header from "@/atomic/organism/header";
+import Counter from "@/atomic/atom/counter";
 
 const careers = [
     {
@@ -56,23 +58,28 @@ const Careers = () => {
         <>
             <NavigationBar />
             <div className="ms-base-page ms-base-new careers">
-                <section className="text-center">
-                    <div className="row justify-content-center">
-                        <div className="col col-lg-8">
-                            <div className="headings">
-                                <h1>{_("CAREERS.SUBHEAD")}</h1>
-                                <p>{_("CAREERS.ABOUT")}</p>
-                                <img
-                                    src={"/img/page/careers/main-pic-top.webp"}
-                                    height={476}
-                                    width={667}
-                                    className="ms-base-image"
-                                    alt={_("CAREERS.IMG")}
-                                />
+                <Header
+                    title={_("CAREERS.SUBHEAD")}
+                    content={<p className="font-normal">{_("CAREERS.ABOUT")}</p>}
+                    whichContent="row-items"
+                    tripleRowContent={
+                        <>
+                            <div style={{ padding: "8px 16px", backgroundColor: "#E5F4D9", borderRadius: "8px", fontSize: "18px" }}>
+                                Удаленка
                             </div>
-                        </div>
-                    </div>
-                </section>
+                            <div style={{ padding: "8px 16px", backgroundColor: "#F1F6FF", borderRadius: "8px", fontSize: "18px" }}>
+                                Сотрудничество
+                            </div>
+                            <div style={{ padding: "8px 16px", backgroundColor: "#FFE9E9", borderRadius: "8px", fontSize: "18px" }}>
+                                Перспективы
+                            </div>
+                        </>
+                    }
+                    imgSrc="/img/page/careers/careers-header-img.webp"
+                    imgH={496}
+                    imgW={674}
+                    imgAlt={_("MAIN.ALT")}
+                />
 
                 <section>
                     <div className="row">
