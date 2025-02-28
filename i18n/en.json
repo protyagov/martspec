@@ -27,6 +27,16 @@
                 "ALT": "How many downloads Martspec apps have received worldwide"
             }
         },
+        "ALT2": "Health care with Martspec products",  
+        "HEAD2": "Ready to simplify your life?",  
+        "LIST": {  
+            "LI1_HEAD": "Easy and clear: ",  
+            "LI1_TEXT": "Users around the world highly rate our apps for their user-friendly interface. Keep track of your health with Martspec products",  
+            "LI2_HEAD": "Health harmony: ",  
+            "LI2_TEXT": "Monitor your physical and mental state with our apps. Make informed decisions about your health",  
+            "LI3_HEAD": "Trusted technology: ",  
+            "LI3_TEXT": "Privacy protection is a fundamental human right. We integrate this principle into our products from the very beginning. Our apps do not collect your personal data or track your activities"  
+        },
         "OUR_PRODUCTS": "Applications"
     },
     "REVIEW": {
