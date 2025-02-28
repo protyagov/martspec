@@ -106,25 +106,27 @@
         transform: translateY(-50%);
     }
     
-    @media (max-width: 769px) {
+    @media (max-width: 992px) {
         .triple-row-content.mobile {
-            top: 6%;
-            left: 5rem;
+            top: 7%;
+            left: 9rem;
             h2 {
-                font-size: 2.4rem !important;
+                font-size: 3.4rem !important;
             }
         }
     }
 
-    @media (max-width: 577px) {
+    @media (max-width: 768px) {
         .triple-row-content.mobile {
-            left: 3rem;
+            top: 6.6%;
+            left: 7rem;
         }
     }
 
-    @media (max-width: 421px) {
+    @media (max-width: 576px) {
         .triple-row-content.mobile {
             top: 7%;
+            left: 3rem;
         }
     }
 }
