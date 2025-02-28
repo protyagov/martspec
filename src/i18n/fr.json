@@ -24,6 +24,16 @@
                 "TEXT": "téléchargements"
             }
         },
+        "ALT2": "Prendre soin de sa santé avec les produits de Martspec",  
+        "HEAD2": "Prêt à simplifier votre vie ?",  
+        "LIST": {  
+            "LI1_HEAD": "Simple et clair : ",  
+            "LI1_TEXT": "Les utilisateurs du monde entier évaluent nos applications très positivement pour leur interface conviviale. Prenez soin de votre santé avec les produits de Martspec",  
+            "LI2_HEAD": "Harmonie de la santé : ",  
+            "LI2_TEXT": "Suivez votre état physique et mental avec nos applications. Prenez des décisions éclairées sur votre santé",  
+            "LI3_HEAD": "Technologies de confiance : ",  
+            "LI3_TEXT": "La protection de la vie privée est un droit humain fondamental. Nous intégrons ce principe dans nos produits dès leur création. Nos applications ne collectent pas vos données personnelles et ne suivent pas vos activités"  
+        },  
         "OUR_PRODUCTS": "Applications"
     },
     "REVIEW": {

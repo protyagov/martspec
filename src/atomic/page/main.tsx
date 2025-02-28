@@ -9,6 +9,7 @@ import appIds from "@/data/app-ids.json";
 import Review from "@/atomic/prototype/review";
 import CardAppSmall from "@/atomic/molecule/card-app-small";
 import CardAppLarge from "@/atomic/molecule/card-app-large";
+import ImageI18N from "@/atomic/atom/img-i18n";
 
 const getRandomArbitrary = (min: number, max: number) => Math.floor(Math.random() * (max + 1 - min) + min);
 const allAppIds = Object.values(appIds);
@@ -46,6 +47,34 @@ export default function LandingPage() {
                     imgAlt={_("MAIN.ALT")}
                 />
             </div>
+
+            <section className="ms-s-offset mb-0 ms-base-new ms-base-page">
+                <div className="d-flex flex-lg-row flex-column align-items-center p-0 " style={{ gap: "5rem" }}>
+                    <div className="col-lg-6">
+                        <ImageI18N
+                            src="/img/page/main/Img-Simplify-life.webp"
+                            w={620}
+                            h={390}
+                            cls="ms-base-image mt-mob-xs"
+                            alt={_("MAIN.ALT2")}
+                        />
+                    </div>
+                    <div>
+                        <h2 className="mb-4 m-0" style={{fontSize: "3.08rem"}}>{_("MAIN.HEAD2")}</h2>
+                        <ul className="d-flex flex-column gap-4 simplify-life-list" style={{ listStyleType: "disc", paddingLeft: "1rem" }}>
+                            <li>
+                                <strong>{_("MAIN.LIST.LI1_HEAD")}</strong>{_("MAIN.LIST.LI1_TEXT")}
+                            </li>
+                            <li>
+                                <strong>{_("MAIN.LIST.LI2_HEAD")}</strong>{_("MAIN.LIST.LI2_TEXT")}
+                            </li>
+                            <li>
+                                <strong>{_("MAIN.LIST.LI3_HEAD")}</strong>{_("MAIN.LIST.LI3_TEXT")}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
             <section className="ms-s-offset ms-s-product">
                 <h1 className="mb-5 pb-5 display-5 h1 fw-bold">{_("MAIN.OUR_PRODUCTS")}</h1>
