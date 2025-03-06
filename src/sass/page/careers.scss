@@ -11,44 +11,6 @@
             background: #0a58ca !important;
         }
     }
-
-    .triple-row-content {
-        gap: 5% !important;
-    }
-    
-    .triple-row-content.mobile {
-        top: 12% !important;
-        gap: 2rem !important;
-    }
-    
-    @media (max-width: 992px) {
-        .triple-row-content.mobile {
-            top: 7%;
-        }
-    }
-    
-    @media (max-width: 768px) {
-        .triple-row-content.mobile {
-            top: 6.6%;
-        }
-    }
-    
-    @media (max-width: 576px) {
-        .triple-row-content.mobile {
-            top: 7%;
-        }
-    }
-    
-    .header-image {
-        max-width: 80% !important;
-        height: auto;
-    }
-    
-    @include media-breakpoint-down(sm) {
-        .header-image {
-            max-width: 70%;
-        }
-    }
 }
 
 .careers h1 {

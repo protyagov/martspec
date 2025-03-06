@@ -22,9 +22,8 @@ export default function LandingPage() {
             <div className="ms-base-page ms-base-new">
                 <Header
                     title={_("MAIN.HEAD")}
-                    content={<p className="font-normal">{_("MAIN.SUBHEAD")}</p>}
-                    whichContent="row-items"
-                    tripleRowContent={
+                    content={<p className="font-normal mb-1">{_("MAIN.SUBHEAD")}</p>}
+                    rowItems={
                         <>
                             <Counter
                                 title={_("MAIN.COUNTERS.COUNTER_1.NUM")}
@@ -39,7 +38,7 @@ export default function LandingPage() {
                                 subtitle={_("MAIN.COUNTERS.COUNTER_3.TEXT")}
                             />
                         </>
-                    }
+                        }
                     imgSrc="/img/main-page-header-ru.webp"
                     imgH={496}
                     imgW={674}

@@ -6,7 +6,6 @@ import TitleTextCard from "@/atomic/molecule/title-text-card";
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
-import Counter from "@/atomic/atom/counter";
 
 const careers = [
     {
@@ -61,8 +60,7 @@ const Careers = () => {
                 <Header
                     title={_("CAREERS.SUBHEAD")}
                     content={<p className="font-normal">{_("CAREERS.ABOUT")}</p>}
-                    whichContent="row-items"
-                    tripleRowContent={
+                    rowItems={
                         <>
                             <div style={{ padding: "8px 16px", backgroundColor: "#E5F4D9", borderRadius: "8px", fontSize: "18px" }}>
                                 Удаленка
