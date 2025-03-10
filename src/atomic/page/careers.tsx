@@ -53,9 +53,9 @@ const careers = [
 ];
 
 const rowItemsData = [
-    { text: _("CAREERS.PROP_1"), bgColor: "#E5F4D9" },
-    { text: _("CAREERS.PROP_2"), bgColor: "#F1F6FF" },
-    { text: _("CAREERS.PROP_3"), bgColor: "#FFE9E9" },
+    { getText: () => _("CAREERS.PROP_1"), bgColor: "#E5F4D9" },
+    { getText: () => _("CAREERS.PROP_2"), bgColor: "#F1F6FF" },
+    { getText: () => _("CAREERS.PROP_3"), bgColor: "#FFE9E9" },
 ];
 
 const Careers = () => {
@@ -69,8 +69,8 @@ const Careers = () => {
                     rowItems={
                         <>
                             {rowItemsData.map((item, index) => (
-                                <div key={index} className="row-item" style={{ backgroundColor: item.bgColor}}>
-                                    {item.text}
+                                <div key={index} className="row-item" style={{ backgroundColor: item.bgColor }}>
+                                    {item.getText()}
                                 </div>
                             ))}
                         </>
