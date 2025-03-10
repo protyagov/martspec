@@ -52,6 +52,12 @@ const careers = [
     },
 ];
 
+const rowItemsData = [
+    { text: _("CAREERS.PROP_1"), bgColor: "#E5F4D9" },
+    { text: _("CAREERS.PROP_2"), bgColor: "#F1F6FF" },
+    { text: _("CAREERS.PROP_3"), bgColor: "#FFE9E9" },
+];
+
 const Careers = () => {
     return (
         <>
@@ -62,15 +68,11 @@ const Careers = () => {
                     content={<p className="font-normal">{_("CAREERS.ABOUT")}</p>}
                     rowItems={
                         <>
-                            <div style={{ padding: "8px 16px", backgroundColor: "#E5F4D9", borderRadius: "8px", fontSize: "18px" }}>
-                                Удаленка
-                            </div>
-                            <div style={{ padding: "8px 16px", backgroundColor: "#F1F6FF", borderRadius: "8px", fontSize: "18px" }}>
-                                Сотрудничество
-                            </div>
-                            <div style={{ padding: "8px 16px", backgroundColor: "#FFE9E9", borderRadius: "8px", fontSize: "18px" }}>
-                                Перспективы
-                            </div>
+                            {rowItemsData.map((item, index) => (
+                                <div key={index} className="row-item" style={{ backgroundColor: item.bgColor}}>
+                                    {item.text}
+                                </div>
+                            ))}
                         </>
                     }
                     imgSrc="/img/page/careers/careers-header-img.webp"

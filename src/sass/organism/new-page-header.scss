@@ -107,7 +107,7 @@
 
     .mid-position{
         @media (max-width: 992px) {
-            transform: translate(0rem, 0rem);
+            transform: translate(0rem, 0rem) !important;
             margin-top: 5rem;
         }
     }
