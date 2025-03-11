@@ -4,7 +4,8 @@ import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
+import Header from "@/atomic/organism/header";
 
 const careers = [
     {
@@ -51,28 +52,34 @@ const careers = [
     },
 ];
 
+const rowItemsData = [
+    { getText: () => _("CAREERS.PROP_1"), bgColor: "#E5F4D9" },
+    { getText: () => _("CAREERS.PROP_2"), bgColor: "#F1F6FF" },
+    { getText: () => _("CAREERS.PROP_3"), bgColor: "#FFE9E9" },
+];
+
 const Careers = () => {
     return (
         <>
             <NavigationBar />
             <div className="ms-base-page ms-base-new careers">
-                <section className="text-center">
-                    <div className="row justify-content-center">
-                        <div className="col col-lg-8">
-                            <div className="headings">
-                                <h1>{_("CAREERS.SUBHEAD")}</h1>
-                                <p>{_("CAREERS.ABOUT")}</p>
-                                <img
-                                    src={"/img/page/careers/main-pic-top.webp"}
-                                    height={476}
-                                    width={667}
-                                    className="ms-base-image"
-                                    alt={_("CAREERS.IMG")}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <Header
+                    title={_("CAREERS.SUBHEAD")}
+                    content={<p className="font-normal">{_("CAREERS.ABOUT")}</p>}
+                    rowItems={
+                        <>
+                            {rowItemsData.map((item, index) => (
+                                <div key={index} className="row-item" style={{ backgroundColor: item.bgColor }}>
+                                    {item.getText()}
+                                </div>
+                            ))}
+                        </>
+                    }
+                    imgSrc="/img/page/careers/careers-header-img.webp"
+                    imgH={496}
+                    imgW={674}
+                    imgAlt={_("MAIN.ALT")}
+                />
 
                 <section>
                     <div className="row">
