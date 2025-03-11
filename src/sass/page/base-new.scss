@@ -304,6 +304,16 @@
         }
     }
 
+    .simplify-life-list {
+        li {
+            font-size: 1.4rem;
+            line-height: 120%;
+            &::marker {
+                color: #1686ff;
+            }
+        }
+    }
+
     // Ensure bootstrap class apply in case of same specifity
 
     .g-4 {
