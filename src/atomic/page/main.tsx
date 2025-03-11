@@ -39,7 +39,7 @@ export default function LandingPage() {
                             />
                         </>
                         }
-                    imgSrc="/img/main-page-header-ru.webp"
+                    imgSrc="/img/page/main/Img-Header-en.webp"
                     imgH={496}
                     imgW={674}
                     imgAlt={_("MAIN.ALT")}
