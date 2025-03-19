@@ -1,0 +1,1 @@
+import{j as s}from"./index-D1LWKwoG.js";const l=({text:r,link:e,color:o="#8079CC",textColor:t="#fff",className:n=""})=>s.jsx("a",{href:e,target:"_blank",rel:"noopener noreferrer",className:`btn ${n}`,style:{backgroundColor:o,color:t},children:r});export{l as L};
