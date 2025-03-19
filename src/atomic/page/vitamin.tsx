@@ -222,7 +222,7 @@ export default function Vitamin() {
                 />
 
                 <section>
-                    <div className="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
+                    <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
                         <div className="col">
                             <CardTitleTextImage
                                 title={_("VITAMIN.LIST1.LI1_HEAD")}
@@ -251,7 +251,7 @@ export default function Vitamin() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col col-md-12">
+                        <div className="col col-md-4">
                             <CardImage
                                 imgSrc="/img/page/vitamin/vitamin-watches-en.webp"
                                 imgH={720}
@@ -315,7 +315,7 @@ export default function Vitamin() {
                 <section>
                     <div className="row mb-0">
                         <h2 className="col-xl-6 col-lg-8 col-12 mb-5">{_("VITAMIN.HEAD5")}</h2>
-                        <div className="row row-cols-xl-2 row-cols-1 mb-0 p-0 g-4">
+                        <div className="row row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 p-0 g-4">
                             <div className="col px-0">
                                 <ul className="row row-cols-2 p-0 g-4">
                                     {trackItems.map((item) => (
