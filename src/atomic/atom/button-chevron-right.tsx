@@ -9,7 +9,7 @@ interface ButtonChevronRight {
 
 const ButtonChevronRight: React.FC<ButtonChevronRight> = ({ text, link, className = "" }) => {
     return (
-        <a href={link} target="_blank" rel="noopener noreferrer" className={`btn btn-chevron-right ${className}`}>
+        <a href={link} target="_blank" rel="noopener noreferrer" className={`btn-chevron-right ${className}`}>
             <div id="container">
                 <button className="learn-more">
                     <div className="circle">
