@@ -78,7 +78,18 @@
         "DESC6_1": "Une partie vitale de l'hémoglobine et de la myoglobine, des protéines qui transportent l'oxygène vers les tissus et les muscles du corps. Les globules rouges contiennent plus de la moitié du fer du corps humain.",
         "HEAD7": "Des risques",
         "DESC7_1": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte. Dans certains cas, des niveaux élevés d'électrolytes peuvent indiquer des conditions graves. Par exemple, des niveaux élevés de potassium sont souvent le signe d'une insuffisance rénale.",
-        "BTN_LINK": "Équilibrer maintenant"
+        "BTN_LINK": "Équilibrer maintenant",
+        "HEAD8": "Nos Avantages",
+        "LIST": {
+            "LI1_HEAD": "Suivi des Minéraux",
+            "LI1_TEXT": "Surveillance gratuite des minéraux essentiels",
+            "LI2_HEAD": "Synchronisation",
+            "LI2_TEXT": "Les données sont automatiquement transférées sur tous les appareils",
+            "LI3_HEAD": "Protection des Données",
+            "LI3_TEXT": "Nous ne stockons pas vos données sur nos serveurs",
+            "LI4_HEAD": "Widgets pour Montres",
+            "LI4_TEXT": "Compatible avec toutes les tailles de montres"
+        }
     },
     "MASS": {
         "HEAD": "Poids",

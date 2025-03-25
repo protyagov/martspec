@@ -71,7 +71,8 @@ $careers-colors: (
 
 $electrolyte-colors: (
     "main": #8079CC, 
-    "main-filter": brightness(0) saturate(100%) invert(16%) sepia(59%) saturate(1209%) hue-rotate(227deg) brightness(93%) contrast(97%),
+    "main-filter": brightness(0) saturate(100%) invert(45%) sepia(30%) saturate(500%) hue-rotate(220deg) brightness(100%) contrast(105%),
     "hover": #6760b7, 
+    "bg":map-get($bgs-new, "new-gray"),
 );
 
