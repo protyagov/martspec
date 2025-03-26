@@ -78,7 +78,18 @@
         "DESC6_1": "Ein lebenswichtiger Bestandteil von Hämoglobin und Myoglobin, Proteinen, die Sauerstoff zu den Körperzellen und Muskeln transportieren. Rote Blutkörperchen enthalten mehr als die Hälfte des Eisens im Körper.",
         "HEAD7": "Risiken",
         "DESC7_1": "Ein Ungleichgewicht der Elektrolyte kann durch übermäßigen oder unzureichenden Konsum sowie durch übermäßige oder unzureichende Verluste entstehen. Ein Übermaß an Elektrolyten deutet häufig auf ernsthafte Erkrankungen hin. Ein erhöhter Kaliumspiegel kann beispielsweise auf Nierenversagen hinweisen.",
-        "BTN_LINK": "Gleichgewicht"
+        "BTN_LINK": "Gleichgewicht",
+        "HEAD8": "Unsere Vorteile",
+        "LIST": {
+            "LI1_HEAD": "Mineralien-Tracker",
+            "LI1_TEXT": "Kostenlose Überwachung der notwendigen Mineralien",
+            "LI2_HEAD": "Synchronisation",
+            "LI2_TEXT": "Daten werden automatisch auf alle Geräte übertragen",
+            "LI3_HEAD": "Datenschutz",
+            "LI3_TEXT": "Wir speichern Ihre Daten nicht auf unseren Servern",
+            "LI4_HEAD": "Uhren-Widgets",
+            "LI4_TEXT": "Kompatibel mit allen Uhrengrößen"
+        }
     },
     "MASS": {
         "HEAD": "Gewicht",

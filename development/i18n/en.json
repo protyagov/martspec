@@ -81,7 +81,18 @@
         "DESC6_1": "A vital part of hemoglobin and myoglobin, proteins that carry oxygen to body tissues and muscles. Red blood cells contain more than half of the human body's iron.",
         "HEAD7": "Risks",
         "DESC7_1": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. In some cases, elevated electrolyte levels may indicate serious conditions. For example, high potassium levels can signal kidney failure.",
-        "BTN_LINK": "Balance Now"
+        "BTN_LINK": "Balance Now",
+        "HEAD8": "Our Advantages",
+        "LIST": {
+            "LI1_HEAD": "Mineral Tracker",
+            "LI1_TEXT": "Free monitoring of essential minerals",
+            "LI2_HEAD": "Synchronization",
+            "LI2_TEXT": "Data is automatically transferred to all devices",
+            "LI3_HEAD": "Data Protection",
+            "LI3_TEXT": "We do not store your data on our servers",
+            "LI4_HEAD": "Watch Widgets",
+            "LI4_TEXT": "Compatible with all watch sizes"
+        }
     },
     "MASS": {
         "HEAD": "Body Mass",
