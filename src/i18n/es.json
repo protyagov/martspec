@@ -78,7 +78,18 @@
         "DESC6_1": "Una parte vital de la hemoglobina y la mioglobina, proteínas que transportan oxígeno a los tejidos y músculos del cuerpo. Los glóbulos rojos contienen más de la mitad del hierro del cuerpo humano.",
         "HEAD7": "Riesgos",
         "DESC7_1": "Los desequilibrios de electrolitos pueden desarrollarse al consumir muy poco o demasiado electrolito, así como al excretar muy poco o demasiado electrolito. En algunos casos, los niveles elevados de electrolitos pueden ser indicativos de afecciones graves. Por ejemplo, los niveles altos de potasio suelen indicar insuficiencia renal.",
-        "BTN_LINK": "Equilibrar ahora"
+        "BTN_LINK": "Equilibrar ahora",
+        "HEAD8": "Nuestras Ventajas",
+        "LIST": {
+            "LI1_HEAD": "Rastreador de Minerales",
+            "LI1_TEXT": "Monitoreo gratuito de minerales esenciales",
+            "LI2_HEAD": "Sincronización",
+            "LI2_TEXT": "Los datos se transfieren automáticamente a todos los dispositivos",
+            "LI3_HEAD": "Protección de Datos",
+            "LI3_TEXT": "No almacenamos tus datos en nuestros servidores",
+            "LI4_HEAD": "Widgets para Relojes",
+            "LI4_TEXT": "Compatible con todos los tamaños de relojes"
+        }
     },
     "MASS": {
         "HEAD": "Peso",

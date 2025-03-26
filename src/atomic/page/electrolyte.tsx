@@ -9,9 +9,45 @@ import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
+import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
+import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 
 export default function Electrolyte() {
     const appId = getAppId();
+    const advantages: Array<IconTitleText> = [
+        {
+            icon: {
+                src: "/img/atom/icons/icon-minerals.svg",
+                alt: _("MASS.ALT5_1"),
+            },
+            title: _("ELECTROLYTE.LIST.LI1_HEAD"),
+            subtitle: _("ELECTROLYTE.LIST.LI1_TEXT"),
+        },
+        {
+            icon: {
+                src: "/img/atom/icons/icon-sync.svg",
+                alt: _("MASS.ALT5_3"),
+            },
+            title: _("ELECTROLYTE.LIST.LI2_HEAD"),
+            subtitle: _("ELECTROLYTE.LIST.LI2_TEXT"),
+        },
+        {
+            icon: {
+                src: "/img/atom/icons/icon-defense.svg",
+                alt: _("MASS.ALT5_4"),
+            },
+            title: _("ELECTROLYTE.LIST.LI3_HEAD"),
+            subtitle: _("ELECTROLYTE.LIST.LI3_TEXT"),
+        },
+        {
+            icon: {
+                src: "/img/atom/icons/icon-watch-widget.svg",
+                alt: _("MASS.ALT5_5"),
+            },
+            title: _("ELECTROLYTE.LIST.LI4_HEAD"),
+            subtitle: _("ELECTROLYTE.LIST.LI4_HEAD"),
+        },
+    ];
     return (
         <>
             <NavigationBar />
@@ -135,6 +171,17 @@ export default function Electrolyte() {
                             </div>
                         </div>
                     </section>
+
+                    <section>
+                    <div className="row our-advantages-section">
+                        <div className="col-12">
+                            <h2>{_("ELECTROLYTE.HEAD8")}</h2>
+                        </div>
+                        <div className="col-12">
+                            <IconTitleTextList items={advantages} />
+                        </div>
+                    </div>
+                </section>
 
                     <Review
                         appId={appId}

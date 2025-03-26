@@ -1,4 +1,13 @@
 .electrolyte {
+    $colors: $electrolyte-colors;
+
+    .icon {
+        background: map-get($colors, "bg");
+
+        &:not(.no-filter) > img {
+            filter: map-get($colors, "main-filter");
+        }
+    }
     .header-content-list li::marker {
         color: #656AA1;
     }
