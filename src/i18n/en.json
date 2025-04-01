@@ -1503,6 +1503,24 @@
         },
         "DESK6_2": "It is important to note that while independence can contribute to success in these fields, collaboration and effective communication skills are also valuable in most professions. Finding a balance between independence and teamwork is essential to a fulfilling career path. Additionally, people are unique and their career path may be influenced by a combination of traits and interests other than independence."
     },
+    "MAGNESIUM": {
+        "HEAD": "Magnesium",
+        "ICO": "App icon for daily tracking of your magnesium levels.",
+        "SUBHEAD": "Magnesium tracker for watch",
+        "TEXT": "Seamless magnesium tracking, right on your wrist. Minimalist design, watch complication widgets, and Apple Health sync. No ads, no login."
+    },
+    "CALCIUM": {
+        "HEAD": "Calcium",
+        "ICO": "App icon for daily tracking of your calcium levels.",
+        "SUBHEAD": "Calcium tracker for watch",
+        "TEXT": "Simple calcium tracking, directly on your wrist. Watch complication widgets and Apple Health sync make it easy. Clean design, zero ads, no logins required."
+    },
+    "IRON": {
+        "HEAD": "Iron",
+        "ICO": "App icon for daily tracking of your iron levels.",
+        "SUBHEAD": "Iron tracker for watch",
+        "TEXT": "Efficient iron tracking on your Apple Watch. Monitor your daily intake with ease. Minimalist design, watch widgets, and Apple Health sync. Free from ads and unnecessary steps."
+    },
     "ENERGY": {
         "HEAD_MAIN": "Energy",
         "ICO_MAIN": "Icon of an app for daily tracking of your energy levels.",

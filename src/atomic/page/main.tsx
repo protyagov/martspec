@@ -58,8 +58,8 @@ export default function LandingPage() {
                         />
                     </div>
                     <div>
-                        <h2 className="mb-4 m-0" style={{fontSize: "3.08rem"}}>{_("MAIN.HEAD2")}</h2>
-                        <ul className="d-flex flex-column gap-4 simplify-life-list" style={{ listStyleType: "disc", paddingLeft: "1rem" }}>
+                        <h2 className="mb-5 m-0" style={{fontSize: "3.08rem"}}>{_("MAIN.HEAD2")}</h2>
+                        <ul className="d-flex flex-column gap-4 simplify-life-list" style={{ listStyleType: "disc", paddingLeft: "1.4rem" }}>
                             <li>
                                 <strong>{_("MAIN.LIST.LI1_HEAD")}</strong>{_("MAIN.LIST.LI1_TEXT")}
                             </li>
@@ -109,6 +109,7 @@ export default function LandingPage() {
                             subtitle={_("VITAMIN.SUBHEAD1")}
                             content={_("VITAMIN.TEXT1")}
                             button={{
+                                buttonType: "ButtonChevronRight",
                                 text: _("CAREERS.BUTTON3"),
                                 link: Locale.i18nLink("vitamin"),
                                 color: "#1686FF",
@@ -125,6 +126,7 @@ export default function LandingPage() {
                             subtitle={_("ELECTROLYTE.SUBHEAD")}
                             content={_("ELECTROLYTE.TEXT1")}
                             button={{
+                                buttonType: "ButtonChevronRight",
                                 text: _("CAREERS.BUTTON3"),
                                 link: Locale.i18nLink("electrolyte"),
                                 color: "#1686FF",
@@ -141,6 +143,7 @@ export default function LandingPage() {
                             subtitle={_("ZINC.SUBHEAD")}
                             content={_("ZINC.TEXT1")}
                             button={{
+                                buttonType: "ButtonChevronRight",
                                 text: _("CAREERS.BUTTON3"),
                                 link: Locale.i18nLink("bodyzinc"),
                                 color: "#1686FF",
@@ -180,6 +183,7 @@ export default function LandingPage() {
                             subtitle={_("MASS.SUBHEAD")}
                             content={_("MASS.TEXT")}
                             button={{
+                                buttonType: "ButtonChevronRight",
                                 text: _("CAREERS.BUTTON3"),
                                 link: Locale.i18nLink("bodymass"),
                                 color: "#1686FF",
@@ -196,6 +200,7 @@ export default function LandingPage() {
                             subtitle={_("WAIST.SUBHEAD")}
                             content={_("WAIST.TEXT")}
                             button={{
+                                buttonType: "ButtonChevronRight",
                                 text: _("CAREERS.BUTTON3"),
                                 link: Locale.i18nLink("waistline"),
                                 color: "#1686FF",
@@ -224,10 +229,67 @@ export default function LandingPage() {
                     />
                 </div>
 
+                <div className="row g-3 d-flex align-items-stretch mb-5">
+                    <div className="col-xl-4 col-sm-6 d-flex">
+                        {/* Магний */}
+                        <CardAppSmall
+                            backgroundColor="transparent"
+                            iconSrc="/img/magnesium-icon-main-page.svg"
+                            iconAlt={_("MAGNESIUM.ICO")}
+                            title={_("MAGNESIUM.HEAD")}
+                            subtitle={_("MAGNESIUM.SUBHEAD")}
+                            content={_("MAGNESIUM.TEXT")}
+                            button={{
+                                buttonType: "LinkStyledButton",
+                                text: _("COMING_SOON.SOON_BTN"),
+                                link: Locale.i18nLink("coming-soon"),
+                                color: "#E5EEFF",
+                                textColor: "#1686FF"
+                            }}
+                        />
+                    </div>
+                    <div className="col-xl-4 col-sm-6 d-flex">
+                        {/* Кальций */}
+                        <CardAppSmall
+                            backgroundColor="transparent"
+                            iconSrc="/img/calcium-icon-main-page.svg"
+                            iconAlt={_("CALCIUM.ICO")}
+                            title={_("CALCIUM.HEAD")}
+                            subtitle={_("CALCIUM.SUBHEAD")}
+                            content={_("CALCIUM.TEXT")}
+                            button={{
+                                buttonType: "LinkStyledButton",
+                                text: _("COMING_SOON.SOON_BTN"),
+                                link: Locale.i18nLink("coming-soon"),
+                                color: "#E5EEFF",
+                                textColor: "#1686FF"
+                            }}
+                        />
+                    </div>
+                    <div className="col-xl-4 col-sm-12 d-flex">
+                        {/* Железо */}
+                        <CardAppSmall
+                            backgroundColor="transparent"
+                            iconSrc="/img/iron-icon-main-page.svg"
+                            iconAlt={_("IRON.ICO")}
+                            title={_("IRON.HEAD")}
+                            subtitle={_("IRON.SUBHEAD")}
+                            content={_("IRON.TEXT")}
+                            button={{
+                                buttonType: "LinkStyledButton",
+                                text: _("COMING_SOON.SOON_BTN"),
+                                link: Locale.i18nLink("coming-soon"),
+                                color: "#E5EEFF",
+                                textColor: "#1686FF"
+                            }}
+                        />
+                    </div>
+                </div>
+
                 <div className="col-12 mb-5 energy-card">
                     {/* Энергия */}
                     <CardAppLarge
-                        backgroundColor="#fff"
+                        backgroundColor="#F9F9FF"
                         iconSrc="/img/page/energy/energy-icon-main-page.svg"
                         iconAlt={_("ENERGY.ICO_MAIN")}
                         title={_("ENERGY.HEAD_MAIN")}
@@ -244,7 +306,6 @@ export default function LandingPage() {
                         isImageOnLeft={true}
                     />
                 </div>
-
             </section>
 
                 {/*
