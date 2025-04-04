@@ -22,12 +22,8 @@
         }
     }
 
-    .new-page-header h1 {
-        white-space: nowrap;
-    }
-
     .row-items {
-        gap: 2rem;
+        gap: 2rem !important;
     }
 
     .row-item {
@@ -46,7 +42,7 @@
         @media (max-width: 1400px) {
             width: 80% !important;
             margin: 0 auto !important;
-    }
+        }
     }
 
     .card-title-text-button .btn-container a {
