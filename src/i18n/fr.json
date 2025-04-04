@@ -1500,6 +1500,24 @@
         },
         "DESK6_2": "Il est important de noter que même si l’indépendance peut contribuer à la réussite dans ces domaines, les compétences en matière de collaboration et de communication efficace sont également précieuses dans la plupart des professions. Trouver un équilibre entre indépendance et travail d’équipe est essentiel à un parcours professionnel épanouissant. De plus, les gens sont uniques et leur cheminement de carrière peut être influencé par une combinaison de traits et d’intérêts autres que l’indépendance."
     },
+    "MAGNESIUM": {
+        "HEAD": "Magnésium",
+        "ICO": "Icône de l'application pour le suivi quotidien de vos niveaux de magnésium.",
+        "SUBHEAD": "Tracker de magnésium pour montre",
+        "TEXT": "Suivi simple du magnésium directement sur votre poignet. Design minimaliste, widgets pour la montre et synchronisation avec Apple Health. Sans publicités et sans inscription."
+    },
+    "CALCIUM": {
+        "HEAD": "Calcium",
+        "ICO": "Icône de l'application pour le suivi quotidien de vos niveaux de calcium.",
+        "SUBHEAD": "Tracker de calcium pour montre",
+        "TEXT": "Suivi simple du calcium directement sur votre poignet. Les widgets pour la montre et la synchronisation avec Apple Health le rendent pratique. Design épuré, sans publicités et sans besoin de se connecter."
+    },
+    "IRON": {
+        "HEAD": "Fer",
+        "ICO": "Icône de l'application pour le suivi quotidien de vos niveaux de fer.",
+        "SUBHEAD": "Tracker de fer pour montre",
+        "TEXT": "Suivi efficace du fer sur votre Apple Watch. Suivi facile de votre consommation quotidienne. Design minimaliste, widgets pour la montre et synchronisation avec Apple Health. Sans publicités et sans étapes inutiles."
+    },
     "ENERGY": {
         "HEAD_MAIN": "Énergie",
         "ICO_MAIN": "Icône de l'application pour suivre quotidiennement votre niveau d'énergie.",

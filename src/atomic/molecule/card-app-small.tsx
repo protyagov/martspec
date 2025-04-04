@@ -1,5 +1,6 @@
 import React from "react";
 import ButtonChevronRight from "@/atomic/atom/button-chevron-right"; // Импортируем новый компонент
+import LinkStyledButton from "@/atomic/atom/link-styled-button";
 
 type CardAppSmallProps = {
   iconSrc: string;
@@ -11,6 +12,8 @@ type CardAppSmallProps = {
     text: string;
     link: string;
     color?: string;
+    textColor?: string;
+    buttonType: "LinkStyledButton" | "ButtonChevronRight";
   };
   backgroundColor?: string;
 };
@@ -26,7 +29,7 @@ const CardAppSmall: React.FC<CardAppSmallProps> = ({
 }) => {
   return (
     <div
-      className="card-app-small d-flex flex-column align-items-start px-4 py-4 rounded-4"
+      className="card-app-small d-flex flex-column align-items-start px-4 py-4 rounded-5"
       style={{ backgroundColor }}
     >
       {/* Верхняя часть с иконкой, заголовком и подзаголовком */}
@@ -43,12 +46,23 @@ const CardAppSmall: React.FC<CardAppSmallProps> = ({
       {/* Описание */}
       <p className="fs-5 mb-5">{content}</p>
 
-      {/* Кнопка с использованием ButtonChevronRight */}
-      <ButtonChevronRight
-        text={button.text}
-        link={button.link}
-        className="fs-4 rounded-5 p-0 mt-auto" 
-      />
+      {/* Кнопка с использованием LinkStyledButton или ButtonChevronRight */}
+      {button.buttonType === "LinkStyledButton" ? (
+        <LinkStyledButton
+            text={button.text}
+            link={button.link}
+            color={button.color}
+            textColor={button.textColor}
+            className="link-button fs-4 rounded-5 py-2 px-5 mt-auto"
+        />
+      ) : (
+        <ButtonChevronRight
+          text={button.text}
+          link={button.link}
+          className="fs-4 rounded-5 p-0 mt-auto" 
+        />
+      )}
+      
     </div>
   );
 };

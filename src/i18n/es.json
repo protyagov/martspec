@@ -1500,6 +1500,24 @@
         },
         "DESK6_2": "Es importante señalar que, si bien la independencia puede contribuir al éxito en estos campos, la colaboración y las habilidades de comunicación efectiva también son valiosas en la mayoría de las profesiones. Encontrar un equilibrio entre independencia y trabajo en equipo es esencial para una carrera profesional satisfactoria. Además, las personas son únicas y su trayectoria profesional puede verse influenciada por una combinación de rasgos e intereses distintos de la independencia."
     },
+    "MAGNESIUM": {
+        "HEAD": "Magnesio",
+        "ICO": "Ícono de la aplicación para el seguimiento diario de tus niveles de magnesio.",
+        "SUBHEAD": "Rastreador de magnesio para reloj",
+        "TEXT": "Seguimiento simple de magnesio directamente en tu muñeca. Diseño minimalista, widgets para el reloj y sincronización con Apple Health. Sin anuncios y sin registro."
+    },
+    "CALCIUM": {
+        "HEAD": "Calcio",
+        "ICO": "Ícono de la aplicación para el seguimiento diario de tus niveles de calcio.",
+        "SUBHEAD": "Rastreador de calcio para reloj",
+        "TEXT": "Seguimiento simple de calcio directamente en tu muñeca. Los widgets para el reloj y la sincronización con Apple Health lo hacen conveniente. Diseño limpio, sin anuncios y sin necesidad de iniciar sesión."
+    },
+    "IRON": {
+        "HEAD": "Hierro",
+        "ICO": "Ícono de la aplicación para el seguimiento diario de tus niveles de hierro.",
+        "SUBHEAD": "Rastreador de hierro para reloj",
+        "TEXT": "Monitoreo eficiente de hierro en tu Apple Watch. Realiza un seguimiento fácil de tu ingesta diaria. Diseño minimalista, widgets para el reloj y sincronización con Apple Health. Sin anuncios y sin pasos innecesarios."
+    },
     "ENERGY": {
         "HEAD_MAIN": "Energía",
         "ICO_MAIN": "Icono de la aplicación para el seguimiento diario de su nivel de energía.",
