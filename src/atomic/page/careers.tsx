@@ -6,6 +6,8 @@ import TitleTextCard from "@/atomic/molecule/title-text-card";
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
+import ImageI18N from "@/atomic/atom/img-i18n";
+import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 
 const careers = [
     {
@@ -82,26 +84,24 @@ const Careers = () => {
                 />
 
                 <section>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h2>{_("CAREERS.HEAD1")}</h2>
-                            <p className="mb-4">{_("CAREERS.TEXT1_1")}</p>
-                            <p className="mb-4">{_("CAREERS.TEXT1_2")}</p>
-                            <p className="mb-4">{_("CAREERS.TEXT1_3")}</p>
-                        </div>
-                        <div className="col-lg-6">
-                            <img
-                                src="/img/page/careers/main-pic-middle.webp"
-                                width={600}
-                                height={429}
-                                className="ms-base-image mt-mob-xs"
-                                alt={_("CAREERS.ALT1")}
+                    <div className="row d-flex justify-content-between g-4">
+                        <div className="col-12 col-xxl-5 order-2 order-xxl-1">
+                            <ImageI18N
+                                src="/img/page/careers/careers-middle-pic.webp"
+                                w={487}
+                                h={515}
+                                cls="ms-base-image mt-mob-xs mb-6"
+                                alt={_("CAREERS.IMG")}
                             />
                         </div>
-                        <div>
-                            <a href={Locale.i18nLink("team")} className="mt-2 ms-btn-large">
-                                {_("CAREERS.BUTTON1")}
-                            </a>
+                        <div className="col-12 col-xxl-6 order-1 order-xxl-2">
+                            <CardTitleTextButton
+                                title={_("CAREERS.HEAD1")}
+                                textContent={[_("CAREERS.TEXT1_1"), _("CAREERS.TEXT1_2")]}
+                                buttonText={_("CAREERS.BUTTON3")}
+                                buttonLink={Locale.i18nLink(`team`)}
+                                buttonColor="#1686FF"
+                            />
                         </div>
                     </div>
                 </section>
