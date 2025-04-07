@@ -87,8 +87,13 @@
     .row-items {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         gap: 3rem;
         margin-top: auto;
+
+        @media (min-width: 992px) {
+            flex-wrap: nowrap;
+        }
     }
 
     @media (max-width: 992px) {
