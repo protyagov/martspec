@@ -44,6 +44,16 @@ function NavigationBarLanguageDropdown() {
     );
 }
 
+const menuItems = [
+    { key: "vitamin", labelKey: "VITAMIN.HEAD" },
+    { key: "bodysize", labelKey: "SIZE.HEAD" },
+    { key: "bodymass", labelKey: "MASS.HEAD" },
+    { key: "waistline", labelKey: "WAIST.HEAD" },
+    { key: "bodyzinc", labelKey: "ZINC.HEAD" },
+    { key: "emotion", labelKey: "EMOTION.HEAD" },
+    { key: "electrolyte", labelKey: "ELECTROLYTE.HEAD" }
+];
+
 export default function NavigationBar() {
     return (
         <nav className="ms-navbar navbar-expand-lg">
@@ -129,41 +139,19 @@ export default function NavigationBar() {
                                 className="dropdown-menu dropdown-menu-end fade-down"
                                 aria-labelledby="navbarDropdownPages"
                             >
-                                <li>
-                                    <a className="nav-link dropdown-item" href={Locale.i18nLink("vitamin")}>
-                                        {_("VITAMIN.HEAD")}
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="nav-link dropdown-item" href={Locale.i18nLink("bodysize")}>
-                                        {_("SIZE.HEAD")}
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="nav-link dropdown-item" href={Locale.i18nLink("bodymass")}>
-                                        {_("MASS.HEAD")}
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="nav-link dropdown-item" href={Locale.i18nLink("waistline")}>
-                                        {_("WAIST.HEAD")}
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="nav-link dropdown-item" href={Locale.i18nLink("bodyzinc")}>
-                                        {_("ZINC.HEAD")}
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="nav-link dropdown-item" href={Locale.i18nLink("emotion")}>
-                                        {_("EMOTION.HEAD")}
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="nav-link dropdown-item" href={Locale.i18nLink("electrolyte")}>
-                                        {_("ELECTROLYTE.HEAD")}
-                                    </a>
-                                </li>
+                                {menuItems
+                                    .map(({key, labelKey}) => ({
+                                        key,
+                                        text: _(labelKey)
+                                    }))
+                                    .sort((a, b) => a.text.localeCompare(b.text))
+                                    .map(({key, text}) => (
+                                        <li key={key}>
+                                            <a className="nav-link dropdown-item" href={Locale.i18nLink(key)}>
+                                                {text}
+                                            </a>
+                                        </li>
+                                ))}
                             </ul>
                         </li>
                     </ul>
