@@ -115,7 +115,7 @@ export default function WaistLine() {
                     </div>
                 </section>
 
-                <div className="ms-base-page ms-base-new waist call-to-action why-waist-section">
+                <div className="ms-base-page ms-base-new row waist call-to-action why-waist-section">
                     <CallToAction
                         title={_("WAIST.HEAD1")}
                         subtitle={_("WAIST.DESC1")}

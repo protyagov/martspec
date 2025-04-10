@@ -135,8 +135,8 @@ export default function Bodymass() {
                         <div className="col-12 col-xxl-6">
                             <ImageI18N
                                 src="/img/page/body-mass/why-mass-en.webp"
-                                w={487}
-                                h={515}
+                                w={620}
+                                h={390}
                                 cls="ms-base-image mt-mob-xs"
                             />
                         </div>
