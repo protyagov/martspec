@@ -23,6 +23,7 @@
     }
 
     &.has-bg-color {
+        box-shadow: none;
         .icon {
             background-color: white;
         }
