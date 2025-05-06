@@ -401,6 +401,17 @@
       "namedExport": "SocialBarStory",
       "meta": {}
     },
+    "organism--article-section": {
+      "name": "Article section",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 14,
+      "locEnd": 18,
+      "filePath": "src/stories/prototype/article-section.stories.tsx",
+      "namedExport": "ArticleSectionStory",
+      "meta": {}
+    },
     "prototype--review": {
       "name": "Review",
       "levels": [
