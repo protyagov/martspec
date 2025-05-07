@@ -27,7 +27,6 @@ const Counter: React.FC<CounterProps> = ({ title, subtitle, altText, titleColor 
         <h2 className="fs-1 text-nowrap m-0 font-bold text-left lh-1" style={{ color: titleColor }}>{title}</h2>
         <p className="font-normal m-0 text-left" style={{ color: subtitleColor }}>{subtitle}</p>
 
-        {/* Tooltip flutuante mostrando apenas ALT */}
         {isHovered && (
             <div 
               style={{
@@ -45,7 +44,7 @@ const Counter: React.FC<CounterProps> = ({ title, subtitle, altText, titleColor 
                 pointerEvents: "none"
               }}
             >
-              {altText} {/* Agora a legenda exibe apenas ALT */}
+              {altText}
             </div>
         )}
     </div>
