@@ -28,14 +28,17 @@ export default function LandingPage() {
                             <Counter
                                 title={_("MAIN.COUNTERS.COUNTER_1.NUM")}
                                 subtitle={_("MAIN.COUNTERS.COUNTER_1.TEXT")}
+                                altText={_("MAIN.COUNTERS.COUNTER_1.ALT")}
                             />
                             <Counter
                                 title={_("MAIN.COUNTERS.COUNTER_2.NUM")}
                                 subtitle={_("MAIN.COUNTERS.COUNTER_2.TEXT")}
+                                altText={_("MAIN.COUNTERS.COUNTER_2.ALT")}
                             />
                             <Counter
                                 title={_("MAIN.COUNTERS.COUNTER_3.NUM")}
                                 subtitle={_("MAIN.COUNTERS.COUNTER_3.TEXT")}
+                                altText={_("MAIN.COUNTERS.COUNTER_3.ALT")}
                             />
                         </>
                         }
