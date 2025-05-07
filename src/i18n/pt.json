@@ -13,15 +13,18 @@
         "COUNTERS": {
             "COUNTER_1": {
                 "NUM": "23K+",
-                "TEXT": "usuários"
+                "TEXT": "usuários",
+                "ALT": "A Martspec tem mais de 23.000 usuários em todo o mundo"
             },
             "COUNTER_2": {
                 "NUM": "629",
-                "TEXT": "avaliações"
+                "TEXT": "avaliações",
+                "ALT": "Quantas avaliações a Martspec recebeu dos usuários para todos os aplicativos no mundo inteiro"
             },
             "COUNTER_3": {
                 "NUM": "176K+",
-                "TEXT": "downloads"
+                "TEXT": "downloads",
+                "ALT": "Quantos downloads os aplicativos da Martspec receberam no mundo inteiro"
             }
         },
         "ALT2": "Cuidado com a saúde com os produtos da Martspec",  
@@ -974,7 +977,7 @@
         "SUBHEAD": "rastreamento ingestão zinco",
         "ICO": "Ícone do nosso aplicativo Apple Watch gratuito que ajuda você a monitorar o consumo de zinco. Faça registros sobre o zinco na dieta de seus Apple Watches e sincronize com o app Saúde da Apple. Não é necessário um aplicativo complementar para iPhone para funcionar. Zero anúncios.",
         "TEXT": "Bonito em sua simplicidade rastreador de zinco no corpo para o seu relógio. app Saúde da Apple ativado. Resultados reais. Livre. Zero anúncios.",
-        "TEXT1": "Um rastreador de níveis de zinco para o seu corpo, desenvolvido para Apple Watch. Sincroniza com o Apple Health. Entrada de dados fácil. Funciona gratuitamente e sem anúncios.",
+        "TEXT1": "Um rastreador de níveis de zinco para o seu corpo, desenvolvido para Apple Watch. Sincroniza com o Apple Health. Entrada de dados fácil. Funciona gratuitamente e sem anyarn úncios.",
         "BTN": "Descubra bem-estar",
         "IMG": "Acompanhe seu consumo diário de suplemento de zinco",
         "DWN": "Obtenha gratuitamente o aplicativo BodyZinc da Apple Store",
