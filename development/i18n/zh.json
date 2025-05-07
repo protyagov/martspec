@@ -13,15 +13,18 @@
         "COUNTERS": {
             "COUNTER_1": {
                 "NUM": "23K+",
-                "TEXT": "用户"
+                "TEXT": "用户",
+                "ALT": "Martspec在全球拥有超过23,000名用户"
             },
             "COUNTER_2": {
                 "NUM": "629",
-                "TEXT": "评论"
+                "TEXT": "评论",
+                "ALT": "Martspec在全球所有应用程序中收到了多少用户评价"
             },
             "COUNTER_3": {
                 "NUM": "176K+",
-                "TEXT": "下载"
+                "TEXT": "下载",
+                "ALT_ZH": "Martspec应用程序在全球收到了多少次下载"
             }
         },
         "ALT2": "通过Martspec产品关心健康",  

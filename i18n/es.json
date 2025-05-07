@@ -13,15 +13,18 @@
         "COUNTERS": {
             "COUNTER_1": {
                 "NUM": "23K+",
-                "TEXT": "usuarios"
+                "TEXT": "usuarios",
+                "ALT": "Martspec tiene más de 23,000 usuarios en todo el mundo"
             },
             "COUNTER_2": {
                 "NUM": "629",
-                "TEXT": "reseñas"
+                "TEXT": "reseñas",
+                "ALT": "Cuántas reseñas ha recibido Martspec de los usuarios para todas las aplicaciones en todo el mundo"
             },
             "COUNTER_3": {
                 "NUM": "176K+",
-                "TEXT": "descargas"
+                "TEXT": "descargas",
+                "ALT": "Cuántas descargas han recibido las aplicaciones de Martspec en todo el mundo"
             }
         },
         "ALT2": "Cuidado de la salud con los productos de Martspec",  
