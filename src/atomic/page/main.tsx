@@ -123,7 +123,7 @@ export default function LandingPage() {
                         {/* Электролит */}
                         <CardAppSmall
                             backgroundColor="transparent"
-                            iconSrc="/img/page/electrolyte/electrolyte-icon-main-page.svg"
+                            iconSrc="/img/page/electrolyte/electrolyte-icon-main-page.png"
                             iconAlt={_("ELECTROLYTE.ICO")}
                             title={_("ELECTROLYTE.HEAD")}
                             subtitle={_("ELECTROLYTE.SUBHEAD")}
