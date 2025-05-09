@@ -11,6 +11,7 @@ import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 
 export default function Electrolyte() {
     const appId = getAppId();
@@ -101,12 +102,12 @@ export default function Electrolyte() {
                             </div>
 
                             <div className="row g-4 p-0">
-                            <TitleTextLinkCard
+                                <TitleTextLinkCard
                                     title={_("ELECTROLYTE.HEAD3")}
                                     text={_("ELECTROLYTE.DESC3_1")}
                                     link={{
                                         text: _("ELECTROLYTE.BTN_LINK"),
-                                        href:  Locale.i18nLink(`vitamin/magnesium`),
+                                        href: Locale.i18nLink(`vitamin/magnesium`),
                                     }}
                                     gridColumnClass="col-xxl-6"
                                     bgColor="#E5EEFF"
@@ -121,7 +122,7 @@ export default function Electrolyte() {
                                     text={_("ELECTROLYTE.DESC4_1")}
                                     link={{
                                         text: _("ELECTROLYTE.BTN_LINK"),
-                                        href:  Locale.i18nLink(`vitamin/calcium`),
+                                        href: Locale.i18nLink(`vitamin/calcium`),
                                     }}
                                     image="/img/page/electrolyte/calcium.webp"
                                     alt="calcium"
@@ -140,7 +141,7 @@ export default function Electrolyte() {
                                     text={_("ELECTROLYTE.DESC5_1")}
                                     link={{
                                         text: _("ELECTROLYTE.BTN_LINK"),
-                                        href:  Locale.i18nLink(`vitamin/potassium`),
+                                        href: Locale.i18nLink(`vitamin/potassium`),
                                     }}
                                     image="/img/page/electrolyte/potassium.webp"
                                     alt="potassium"
@@ -159,7 +160,7 @@ export default function Electrolyte() {
                                     text={_("ELECTROLYTE.DESC6_1")}
                                     link={{
                                         text: _("ELECTROLYTE.BTN_LINK"),
-                                        href:  Locale.i18nLink(`vitamin/iron`),
+                                        href: Locale.i18nLink(`vitamin/iron`),
                                     }}
                                     gridColumnClass="col-xxl-6"
                                     bgColor="#F4F5F8"
@@ -173,15 +174,15 @@ export default function Electrolyte() {
                     </section>
 
                     <section>
-                    <div className="row our-advantages-section">
-                        <div className="col-12">
-                            <h2>{_("ELECTROLYTE.HEAD8")}</h2>
+                        <div className="row our-advantages-section">
+                            <div className="col-12">
+                                <h2>{_("ELECTROLYTE.HEAD8")}</h2>
+                            </div>
+                            <div className="col-12">
+                                <IconTitleTextList items={advantages} />
+                            </div>
                         </div>
-                        <div className="col-12">
-                            <IconTitleTextList items={advantages} />
-                        </div>
-                    </div>
-                </section>
+                    </section>
 
                     <Review
                         appId={appId}
@@ -203,20 +204,21 @@ export default function Electrolyte() {
                             },
                         }}
                     />
-                </div>
 
-                <div className="container mb-5 pb-5 text-center">
-                    <img
-                        src="/img/page/electrolyte/electrolyte-app.webp"
-                        alt={_("MAIN.P1.IMG")}
-                        className="ms-base-image"
-                        width="512px"
-                        height="512px"
-                    />
+                    <section>
+                        <CallToAction
+                            title="ELECTROLYTE.HEAD9"
+                            subtitle="ELECTROLYTE.DESC9"
+                            appId={appId}
+                            appDownloadTitle={_("EMOTION.DWN")}
+                            imgSrc="/img/page/electrolyte/img-banner-en.webp"
+                            imgAlt={_("ZINC.ALT2")}
+                        />
+                    </section>
                 </div>
 
                 <Footer />
-                <ScrollButton color="#8079CC"/>
+                <ScrollButton color="#8079CC" />
             </div>
         </>
     );

@@ -83,6 +83,8 @@
         "DESC7_1": "Des déséquilibres électrolytiques peuvent se développer en consommant trop ou trop peu d'électrolyte et en excrétant trop peu ou trop d'électrolyte. Dans certains cas, des niveaux élevés d'électrolytes peuvent indiquer des conditions graves. Par exemple, des niveaux élevés de potassium sont souvent le signe d'une insuffisance rénale.",
         "BTN_LINK": "Équilibrer maintenant",
         "HEAD8": "Nos Avantages",
+        "HEAD9": "Notre application est disponible sur tout appareil Apple Watch",
+        "DESC9": "Téléchargez l'application dès maintenant et commencez à suivre vos minéraux essentiels",
         "LIST": {
             "LI1_HEAD": "Suivi des Minéraux",
             "LI1_TEXT": "Surveillance gratuite des minéraux essentiels",
