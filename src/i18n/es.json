@@ -83,6 +83,8 @@
         "DESC7_1": "Los desequilibrios de electrolitos pueden desarrollarse al consumir muy poco o demasiado electrolito, así como al excretar muy poco o demasiado electrolito. En algunos casos, los niveles elevados de electrolitos pueden ser indicativos de afecciones graves. Por ejemplo, los niveles altos de potasio suelen indicar insuficiencia renal.",
         "BTN_LINK": "Equilibrar ahora",
         "HEAD8": "Nuestras Ventajas",
+        "HEAD9": "Nuestra aplicación está disponible para cualquier dispositivo Apple Watch",
+        "DESC9": "Descarga la aplicación ahora y comienza a hacer un seguimiento de tus minerales esenciales",
         "LIST": {
             "LI1_HEAD": "Rastreador de Minerales",
             "LI1_TEXT": "Monitoreo gratuito de minerales esenciales",

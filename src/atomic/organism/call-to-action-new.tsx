@@ -1,5 +1,6 @@
 import React, { CSSProperties, ReactNode } from "react";
 import _ from "@/i18n/locale";
+import ButtonApple from "@/atomic/atom/button-apple";
 import ImageI18N from "@/atomic/atom/img-i18n";
 
 type CallToActionProps = {
@@ -8,58 +9,57 @@ type CallToActionProps = {
     textList?: ReactNode[];
     textListTitle?: string;
     button?: ReactNode;
-    imgPosition?: "left" | "right";
     bgColor?: CSSProperties["color"];
-};
-
-type WithImage<Props> = Props & {
-    imgSrc: string;
-    imgH?: number;
+    appId?: number;
+    appDownloadTitle?: string;
+    imgSrc?: string;
+    imgAlt?: string;
     imgW?: number;
-    imgAlt: string;
+    imgH?: number;
+    imgPosition?: "left" | "right";
 };
 
-type WithoutImage<Props> = Props & {
-    imgSrc?: never;
-    imgH?: never;
-    imgW?: never;
-    imgAlt?: never;
-};
-
-export default function CallToAction(props: WithImage<CallToActionProps> | WithoutImage<CallToActionProps>) {
-    const { title, subtitle, textList, textListTitle, button, bgColor="#d6e3fc", imgSrc="", imgH=400, imgW=400, imgAlt, imgPosition = "right" } = props;
-    const marginBot = { marginBottom: "3rem" };
+export default function CallToAction(props: CallToActionProps) {
+    const { title, subtitle, textList, textListTitle, button, bgColor = "#FFFFFF",
+        imgSrc, imgAlt, imgW = 590, imgH = 585, appId, appDownloadTitle } = props;
 
     return (
-        <div className="row text-lg-start text-center page-bottom">
-            <div className="col-12 block" style={{backgroundColor: bgColor}}>
-                {imgPosition === "left" && (
-                    <ImageI18N src={imgSrc} h={imgH} w={imgW} cls="ms-base-image ms-lg-auto" alt={imgAlt} />
-                )}
+        <div className="container my-4" style={{ backgroundColor: bgColor }}>
+            <div className="row align-items-center justify-content-center">
+                <div className="col-12 text-start col-lg-6 text-lg-start">
+                    <h2 className="fs-1 fw-medium mb-3">{_(title)}</h2>
 
-                <div>
-                    <h2>{_(title)}</h2>
-                    {subtitle && (
-                        <p className="flex-grow-1" style={marginBot}>
-                            {_(subtitle)}
-                        </p>
-                    )}
-                    {/* TODO: создать компонент для отображения textList c возможностью передачи цвета буллет-поинтов, локализацией и улучшенной стилизацией */}
-                    {textListTitle && (
-                        <h3>{_(textListTitle)}</h3>
-                    )}
+                    {subtitle && <p className="fs-5 mb-4">{_(subtitle)}</p>}
+
+                    {textListTitle && <h3>{_(textListTitle)}</h3>}
+
                     {textList && (
-                        <ul style={{ listStyleType: "disc", paddingLeft: "1rem" }}>
+                        <ul className="list-unstyled">
                             {textList.map((item, index) => (
-                                <li key={index}>{item}</li>
+                                <li key={index} className="mb-2">{item}</li>
                             ))}
                         </ul>
                     )}
+
+                    {appId && appDownloadTitle && (
+                        <div className="mb-3 d-flex justify-content-start">
+                            <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle} />
+                        </div>
+                    )}
+
                     {button}
                 </div>
 
-                {imgPosition === "right" && (
-                    <ImageI18N src={imgSrc} h={imgH} w={imgW} cls="ms-base-image ms-lg-auto me-lg-0" alt={imgAlt} />
+                {imgSrc && (
+                    <div className="col-12 col-lg-6 mt-4 mt-lg-0 text-center">
+                        <ImageI18N
+                            src={imgSrc}
+                            h={imgH}
+                            w={imgW}
+                            cls="img-fluid mx-auto d-block"
+                            alt={imgAlt}
+                        />
+                    </div>
                 )}
             </div>
         </div>
