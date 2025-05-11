@@ -6,7 +6,7 @@ import Header from "@/atomic/organism/header";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
-import CallToAction from "@/atomic/organism/call-to-action";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import CardImage from "@/atomic/molecule/card-image";
@@ -185,17 +185,16 @@ export default function Bodymass() {
                     }}
                 />
 
-                <section>
-                    <CallToAction
-                        bgColor={{ backgroundColor: "#E8FAE0" }}
-                        title={_("MASS.HEAD4")}
-                        subtitle={_("MASS.DESC4")}
-                        appId={appId}
-                        appDownloadTitle={_("MASS.DWN")}
-                        imgSrc="/img/org/call-to-action/bodymass/call-to-action-en.webp"
-                        imgAlt={_("MASS.ALT2")}
-                    />
-                </section>
+                    <section>
+                        <CallToAction
+                            title="MASS.HEAD4"
+                            subtitle="MASS.DESC4"
+                            appId={appId}
+                            appDownloadTitle={_("MASS.DWN")}
+                            imgSrc="/img/page/body-mass/Img-Banner-en.webp"
+                            imgAlt={_("MASS.ALT2")}
+                        />
+                    </section>
             </div>
 
             <Footer />
