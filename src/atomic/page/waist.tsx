@@ -216,21 +216,19 @@ export default function WaistLine() {
                     }}
                 />
 
-                <section>
-                    <div className="row call-to-action">
-                        <CallToAction
-                            bgColor={"#FFFFFF"}
-                            title={_("MASS.HEAD4")}
-                            subtitle={_("WAIST.DESC5")}
-                            button={<ButtonApple appId={appId} appDownloadTitle={_("WAIST.DWN")} />}
-                            imgSrc="/img/page/waistline/waist-banner-en.webp"
-                            imgAlt={_("WAIST.ALT2")}
-                            imgH={585}
-                            imgW={590}
-                        />
-                    </div>
-                </section>
+
             </div>
+            
+            <section className="ms-base-page ms-base-new">
+                <CallToAction
+                    title="MASS.HEAD4"
+                    subtitle="WAIST.DESC5"
+                    appId={appId}
+                    appDownloadTitle={_("WAIST.DWN")}
+                    imgSrc="/img/page/waistline/waist-banner-en.webp"
+                    imgAlt={_("WAIST.ALT2")}
+                />
+            </section>
 
             <Footer />
             <ScrollButton />
