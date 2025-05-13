@@ -88,7 +88,7 @@ export default function Bodymass() {
                 />
 
                 <section>
-                    <div className="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
+                    <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
                         <div className="col">
                             <CardTitleTextImage
                                 title={_("MASS.LIST1.LI1_HEAD")}
@@ -117,7 +117,7 @@ export default function Bodymass() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col col-md-12">
+                        <div className="col col-md-4">
                             <CardImage
                                 imgSrc="/img/page/body-mass/mid-pic-girl-and-apple.png"
                                 imgH={720}
