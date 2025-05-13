@@ -4,7 +4,7 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
-import CallToAction from "@/atomic/organism/call-to-action";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
@@ -399,32 +399,19 @@ export default function Emotion() {
 
                 <section>
                     <CallToAction
-                        // bgColor={bg_color}
-                        title={_("EMOTION.HEAD8")}
-                        subtitle={_("EMOTION.DESK8")}
+                        title="EMOTION.HEAD8"
+                        subtitle="EMOTION.DESK8"
                         appId={appId}
                         appDownloadTitle={_("EMOTION.DWN")}
-                        imgSrc="/img/org/call-to-action/emotion/emotion-screen-app-en.webp"
+                        imgSrc="/img/page/emotion/img-cta-en.webp"
                         imgAlt={_("EMOTION.ALT4")}
                     />
-                    {/* <div className="row text-lg-start text-center page-bottom">
-                    <div className="col-12 block bg-violet">
-                        <div>
-                            <h2>{_("EMOTION.HEAD8")}</h2>
-                            <p className="flex-grow-1">{_("EMOTION.DESK8")}</p>
-                            <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                                target="_blank" title={_("EMOTION.DWN")} className="ms-btn-apple mt-5 mx-lg-0 mx-auto"
-                                style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                            </a>
-                        </div>
-                        <ImageI18N src="/img/page/emotion/emotion-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("EMOTION.ALT4")} />
-                    </div>
-                </div> */}
                 </section>
             </div>
 
+
             <Footer />
-            <ScrollButton color="#7B62FE"/>
+            <ScrollButton color="#7B62FE" />
         </>
     );
 }

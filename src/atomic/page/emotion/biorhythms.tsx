@@ -4,7 +4,7 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
-import CallToAction from "@/atomic/organism/call-to-action";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
 
@@ -267,35 +267,22 @@ export default function Biorhythms() {
                         </div>
                     </div>
                 </section>
-
                 <section>
                     <CallToAction
-                        // bgColor={bg_color}
-                        title={_("BIORHYTHMS.HEAD5")}
-                        subtitle={_("BIORHYTHMS.DESK5")}
+                        title="BIORHYTHMS.HEAD5"
+                        subtitle="BIORHYTHMS.DESK5"
                         appId={appId}
                         appDownloadTitle={_("BIORHYTHMS.DWN")}
-                        imgSrc="/img/org/call-to-action/emotion/emotion-screen-app-en.webp"
+                        imgSrc="/img/page/biorhythms/img-cta-en.webp"
                         imgAlt={_("BIORHYTHMS.ALT5")}
                     />
-                    {/* <div className="row text-lg-start text-center page-bottom">
-                    <div className="col-12 block bg-violet">
-                        <div>
-                            <h2>{_("BIORHYTHMS.HEAD5")}</h2>
-                            <p className="flex-grow-1">{_("BIORHYTHMS.DESK5")}</p>
-                            <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                                target="_blank" title={_("BIORHYTHMS.DWN")} className="ms-btn-apple mt-5 mx-lg-0 mx-auto"
-                                style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                            </a>
-                        </div>
-                        <ImageI18N src="/img/page/emotion/emotion-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("BIORHYTHMS.ALT5")} />
-                    </div>
-                </div> */}
                 </section>
+
             </div>
 
+
             <Footer />
-            <ScrollButton color="#7B62FE"/>
+            <ScrollButton color="#7B62FE" />
         </>
     );
 }
