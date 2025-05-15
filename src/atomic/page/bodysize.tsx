@@ -7,6 +7,7 @@ import PageHeader from "@/atomic/molecule/page-header";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
+import Header from "../organism/header";
 
 export default function BodySize() {
     const appId = getAppId();
@@ -14,16 +15,22 @@ export default function BodySize() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new pb-5">
-                <PageHeader
+            <div className="ms-base-page ms-base-new bodysize">
+                <Header
                     title={_("SIZE.HEAD")}
-                    subtitleLevel2={_("SIZE.ABOUT")}
                     appId={appId}
                     appDownloadTitle={_("SIZE.DWN")}
-                    imgSrc="/img/page/body-size/size-head.svg"
+                    imgSrc="/img/page/body-size/img-header-en.png"
                     imgAlt={_("SIZE.IMG")}
-                    imgH={512}
-                    imgW={512}
+                    imgH={537}
+                    imgW={563}
+                    content={
+                        <ul className="header-content-list">
+                            <li>{_("SIZE.ABOUT_1")}</li>
+                            <li>{_("SIZE.ABOUT_2")}</li>
+                            <li>{_("SIZE.ABOUT_3")}</li>
+                        </ul>
+                    }
                 />
 
                 {/* Body compostion */}

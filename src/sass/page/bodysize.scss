@@ -1,0 +1,26 @@
+.bodysize {
+    .new-page-header {
+        margin: 2.5rem auto 9.375rem!important;
+        .header-image{
+            @include media-breakpoint-down(md) {
+                transform: none;
+            }
+        }
+    }
+    .header-content-list {
+        li {
+            &::marker {
+                color: #fd7e14;
+            }
+        }
+    }
+
+    .headings {
+        h1 {
+            font-size: 5rem;
+            @include media-breakpoint-down(sm) {
+                font-size: 3rem;
+            }
+        }
+    }
+}
