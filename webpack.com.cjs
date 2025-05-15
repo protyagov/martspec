@@ -164,7 +164,7 @@ module.exports = {
                 { context: "src/img/page/vitamin/", from: "*", to: "img/page/vitamin" },
                 { context: "src/img/page/main/", from: "*", to: "img/page/main" },
                 { context: "src/img/org/call-to-action/vitamin/", from: "*", to: "img/org/call-to-action/vitamin" },
-                { context: "src/img/org/call-to-action/emotion/", from: "*", to: "img/org/call-to-action/emotion" },
+                { context: "src/img/page/biorhythms", from: "*", to: "img/page/biorhythms" },
                 { context: "src/img/org/call-to-action/bodymass/", from: "*", to: "img/org/call-to-action/bodymass" },
                 { context: "src/img/page/team/", from: "*", to: "img/page/team" },
                 { context: "src/img/page/careers/", from: "*", to: "img/page/careers" },
