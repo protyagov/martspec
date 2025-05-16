@@ -74,7 +74,7 @@ export default function WaistLine() {
                 />
 
                 <section>
-                    <div className="row row-cols-xl-3 row-cols-md-2 row-cols-1 g-4">
+                    <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
                         <div className="col no-mx-5">
                             <CardTitleTextImage
                                 title={_("WAIST.LIST1.LI1_HEAD")}
@@ -103,7 +103,7 @@ export default function WaistLine() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col col-md-12">
+                        <div className="col col-md-4">
                             <CardImage
                                 imgSrc="/img/page/waistline/middle-section-pic-statistics.png"
                                 imgH={720}
