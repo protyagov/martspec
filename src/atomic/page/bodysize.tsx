@@ -7,7 +7,7 @@ import PageHeader from "@/atomic/molecule/page-header";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
-import Header from "../organism/header";
+import Header from "@/atomic/organism/header";
 
 export default function BodySize() {
     const appId = getAppId();
