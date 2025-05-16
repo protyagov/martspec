@@ -1038,7 +1038,10 @@
         "DESC4": "Beweise zeigen, dass Fett um die Oberschenkel und Backside schwieriger ist, sich um die Taille zu verschieben, als Fett zu verschieben. Die Taillen-to-HIPS-Verhältnis wird üblicherweise als Indikator oder Gesundheitsmaß verwendet, und das Risiko, ernsthafte Gesundheitszustände zu entwickeln.",
         "HEAD5": "Körperform",
         "DESC5": "Ist Ihre Körperform ein Apfel 🍎 oder eine Birne 🍐? Oder vielleicht eine Sanduhr? Ihre wahre Körperform herauszufinden ist mehr als nur einer dieser sinnlosen Online-Tests. Das Verständnis Ihrer Körperform kann Ihnen helfen, das effektivste Training zu finden. Studien deuten darauf hin, dass es helfen kann, Ihre Gesundheit zu verbessern.",
-        "BTN_OPEN": "Schiene"
+        "BTN_OPEN": "Schiene",
+        "ABOUT_1": "Automatische Berechnung der Körperform mit der Bradley-Bayou-Forme",
+        "ABOUT_2": "Volle Unterstützung für Apple Gesundheit",
+        "ABOUT_3": "Sicherungskopie wird in Ihrer persönlichen iCloud gespeichert"
     },
     "EMOTION": {
         "HEAD": "Emotion",
