@@ -1035,10 +1035,7 @@
         "DESC4": "Evidence shows that fat around the thighs and backside is harder to shift than fat around the waist. The waist-to-hips ratio is commonly used as an indicator or measure of health, and the risk of developing serious health conditions.",
         "HEAD5": "Body Shape",
         "DESC5": "Are you a pear 🍐? An apple 🍎 ? Or maybe a hourglass? Finding out your true body shape is more than one of those pointless online tests. Understanding your body shape might help you discover the most effective workout. Several studies suggest that it can help improve your health.",
-        "BTN_OPEN": "Measure it",
-        "ABOUT_1": "Automatic body shape calculation using the Bradley Bayou formula",
-        "ABOUT_2": "Full support for Apple Health",
-        "ABOUT_3": "Backup saved to your personal iCloud"
+        "BTN_OPEN": "Measure it"
     },
     "EMOTION": {
         "HEAD": "Emotion",
