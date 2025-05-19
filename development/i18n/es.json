@@ -981,8 +981,9 @@
         "TEXT1": "Rastreador del contenido de zinc en su cuerpo para Apple Watch. Sincronización con Apple Health. Entrada de datos conveniente. Funciona de forma gratuita y sin anuncios.",
         "IMG": "Rastrea su consumo diario de suplemento de zinc",
         "DWN": "Recibe la aplicación gratuita de Bodyzinc de Apple Store",
-        "ABOUT_1": "Rastreador de zinc sencillo y fácil de usar",
-        "ABOUT_2": "Para el reloj Apple",
+        "ABOUT_1": "Un rastreador de zinc simple y fácil de usar",
+        "ABOUT_2": "Usa la aplicación en tu Apple Watch",
+        "ABOUT_3": "Sincronización con la app Salud de Apple",
         "LIST1": {
             "LI1_HEAD": "Cuidando su salud",
             "LI1_TEXT": "El uso cómodo de nuestra aplicación le permitirá realizar fácilmente un seguimiento de su ingesta diaria de zinc",
@@ -1036,7 +1037,10 @@
         "DESC4": "La evidencia muestra que la grasa alrededor de los muslos y la parte trasera es más difícil de cambiar que la grasa alrededor de la cintura. La proporción de cintura a cadera se usa comúnmente como un indicador o medida de salud, y el riesgo de desarrollar condiciones de salud graves.",
         "HEAD5": "Forma del cuerpo",
         "DESC5": "¿Tu cuerpo tiene forma de manzana 🍎 o de pera 🍐? ¿O quizás un reloj de arena? Descubrir la verdadera forma de su cuerpo es más que una de esas pruebas en línea inútiles. Comprender la forma de su cuerpo puede ayudarlo a descubrir el entrenamiento más efectivo. Los estudios sugieren que puede ayudar a mejorar su salud.",
-        "BTN_OPEN": "Mídalo"
+        "BTN_OPEN": "Mídalo",
+        "ABOUT_1": "Cálculo automático de la forma corporal usando la fórmula de Bradley Bayou",
+        "ABOUT_2": "Compatibilidad total con Apple Salud",
+        "ABOUT_3": "Copia de seguridad guardada en tu nube personal de iCloud"
     },
     "EMOTION": {
         "HEAD": "Emoción",

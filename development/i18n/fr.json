@@ -981,8 +981,9 @@
         "TEXT1": "Suivi du taux de zinc dans votre corps pour Apple Watch. Synchronisation avec Apple Health. Saisie des données facile. Fonctionne gratuitement et sans publicité.",
         "IMG": "Suivez votre consommation quotidienne de supplément de zinc",
         "DWN": "Obtenez une application Bodyzinc gratuite d'Apple Store",
-        "ABOUT_1": "Facile à utiliser le tracker zinc diététique",
-        "ABOUT_2": "Pour Apple Watch",
+        "ABOUT_1": "Un traceur de zinc simple et facile à utiliser",
+        "ABOUT_2": "Utilisez l’application sur votre Apple Watch",
+        "ABOUT_3": "Synchronisation avec l’app Santé d’Apple",
         "LIST1": {
             "LI1_HEAD": "Prendre soin de sa santé",
             "LI1_TEXT": "L'utilisation confortable de notre application vous permettra de suivre facilement votre consommation quotidienne de zinc",
@@ -1036,7 +1037,10 @@
         "DESC4": "Les preuves montrent que la graisse autour des cuisses et de l'arrière est plus difficile à déplacer que la graisse autour de la taille. Le ratio de taille à hanches est couramment utilisé comme indicateur ou mesure de la santé et le risque de développer des conditions de santé graves.",
         "HEAD5": "Forme du corps",
         "DESC5": "Votre corps a-t-il la forme d'une pomme 🍎 ou d'une poire 🍐? Ou peut-être un sablier ? Découvrir la vraie forme de votre corps est plus qu'un de ces tests en ligne inutiles. Comprendre la forme de votre corps peut vous aider à découvrir l'entraînement le plus efficace. Des études suggèrent que cela peut aider à améliorer votre santé.",
-        "BTN_OPEN": "Mesure"
+        "BTN_OPEN": "Mesure",
+        "ABOUT_1": "Calcul automatique de la morphologie corporelle à l'aide de la formule de Bradley Bayou",
+        "ABOUT_2": "Compatibilité complète avec Apple Santé",
+        "ABOUT_3": "Sauvegarde enregistrée dans votre cloud personnel iCloud"
     },
     "EMOTION": {
         "HEAD": "Émotion",

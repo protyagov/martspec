@@ -27,15 +27,15 @@
                 "ALT": "Quantos downloads os aplicativos da Martspec receberam no mundo inteiro"
             }
         },
-        "ALT2": "Cuidado com a saúde com os produtos da Martspec",  
-        "HEAD2": "Pronto para simplificar sua vida?",  
-        "LIST": {  
-            "LI1_HEAD": "Fácil e claro: ",  
-            "LI1_TEXT": "Usuários em todo o mundo avaliam nossos aplicativos altamente por sua interface amigável. Mantenha sua saúde em dia com os produtos da Martspec",  
-            "LI2_HEAD": "Harmonia da saúde: ",  
-            "LI2_TEXT": "Monitore seu estado físico e mental com nossos aplicativos. Tome decisões informadas sobre sua saúde",  
-            "LI3_HEAD": "Tecnologia de confiança: ",  
-            "LI3_TEXT": "A proteção da privacidade é um direito humano fundamental. Nós integramos esse princípio em nossos produtos desde o início. Nossos aplicativos não coletam seus dados pessoais e não rastreiam suas atividades"  
+        "ALT2": "Cuidado com a saúde com os produtos da Martspec",
+        "HEAD2": "Pronto para simplificar sua vida?",
+        "LIST": {
+            "LI1_HEAD": "Fácil e claro: ",
+            "LI1_TEXT": "Usuários em todo o mundo avaliam nossos aplicativos altamente por sua interface amigável. Mantenha sua saúde em dia com os produtos da Martspec",
+            "LI2_HEAD": "Harmonia da saúde: ",
+            "LI2_TEXT": "Monitore seu estado físico e mental com nossos aplicativos. Tome decisões informadas sobre sua saúde",
+            "LI3_HEAD": "Tecnologia de confiança: ",
+            "LI3_TEXT": "A proteção da privacidade é um direito humano fundamental. Nós integramos esse princípio em nossos produtos desde o início. Nossos aplicativos não coletam seus dados pessoais e não rastreiam suas atividades"
         },
         "OUR_PRODUCTS": "Aplicativos"
     },
@@ -148,9 +148,9 @@
         "TEXT": "Rastrear suas vitaminas essenciais tem muitos benefícios, desde ajudar a controlar as intolerâncias alimentares até aumentar a energia, evitar mudanças no humor e alimentar o ritmo do seu dia.",
         "BTN": "Consulte Mais informação",
         "IMG": "Rastreie as vitaminas mais essenciais diretamente no seu pulso",
-        "HEAD1": "Anel de Vitamina", 
-        "SUBHEAD1": "Rastreador de nutrientes e medicamentos", 
-        "TEXT1": "Rastreador conveniente de ingestão de vitaminas. Sincronização do aplicativo com o Apple Health. Backup no iCloud. Funciona de graça. Sem anúncios e compras dentro do aplicativo.", 
+        "HEAD1": "Anel de Vitamina",
+        "SUBHEAD1": "Rastreador de nutrientes e medicamentos",
+        "TEXT1": "Rastreador conveniente de ingestão de vitaminas. Sincronização do aplicativo com o Apple Health. Backup no iCloud. Funciona de graça. Sem anúncios e compras dentro do aplicativo.",
         "ICO1": "Ícone do aplicativo Anel de Vitamina, o melhor rastreador de ingestão de vitaminas. Sincronização com Apple Health e backup no iCloud. Grátis e sem anúncios.",
         "DWN": "Baixe o aplicativo de rastreamento gratuito de vitaminas e nutrientes da Apple AppStore",
         "ABOUT_1": "Controle sua ingestão de vitaminas e minerais importantes todos os dias",
@@ -984,8 +984,9 @@
         "BTN": "Descubra bem-estar",
         "IMG": "Acompanhe seu consumo diário de suplemento de zinco",
         "DWN": "Obtenha gratuitamente o aplicativo BodyZinc da Apple Store",
-        "ABOUT_1": "Rastreador de zinco simples e fácil de utilizar",
-        "ABOUT_2": "Para o seu Apple Watch",
+        "ABOUT_1": "Rastreador de zinco simples e fácil de usar",
+        "ABOUT_2": "Use o aplicativo no seu Apple Watch",
+        "ABOUT_3": "Sincronização com o app Apple Saúde",
         "LIST1": {
             "LI1_HEAD": "Cuidar da sua saúde",
             "LI1_TEXT": "A utilização confortável da nossa aplicação facilita o controlo da sua ingestão diária de zinco",
@@ -1040,7 +1041,10 @@
         "DESC4": "Evidências mostram que gordura em torno das coxas e parte traseira é mais difícil de mudar do que gordura ao redor da cintura. A proporção de cintura para quadris é comumente usada como indicador ou medida de saúde, e o risco de desenvolver graves condições de saúde.",
         "HEAD5": "Formato corporal",
         "DESC5": "O formato do seu corpo é uma maçã 🍎 ou uma pêra 🍐? Ou talvez uma ampulheta? Descobrir a verdadeira forma do seu corpo é mais do que um daqueles testes online inúteis. Compreender a forma do seu corpo pode ajudá-lo a descobrir o treino mais eficaz. Estudos sugerem que pode ajudar a melhorar sua saúde.",
-        "BTN_OPEN": "Medir"
+        "BTN_OPEN": "Medir",
+        "ABOUT_1": "Cálculo automático do formato corporal usando a fórmula de Bradley Bayou",
+        "ABOUT_2": "Compatibilidade total com o Apple Saúde",
+        "ABOUT_3": "Backup salvo na sua nuvem pessoal do iCloud"
     },
     "EMOTION": {
         "HEAD": "Emoção",
@@ -1529,10 +1533,10 @@
         "TEXT": "Monitoramento eficiente de ferro no seu Apple Watch. Fácil rastreamento da ingestão diária. Design minimalista, widgets para o relógio e sincronização com o Apple Health. Sem anúncios e sem passos desnecessários."
     },
     "ENERGY": {
-        "HEAD_MAIN": "Energia", 
-        "ICO_MAIN": "Ícone do aplicativo para rastrear diariamente o seu nível de energia.", 
-        "SUBHEAD_MAIN": "Desafios diários com rastreamento de progresso", 
-        "TEXT_MAIN": "Aceite desafios diários e acompanhe seu progresso pessoal para alcançar seu objetivo. Perder dias resultará no fracasso da sua missão. Ganhe recompensas por conquistas, escolha o nível de dificuldade e muito mais no aplicativo ‘Energia’.", 
+        "HEAD_MAIN": "Energia",
+        "ICO_MAIN": "Ícone do aplicativo para rastrear diariamente o seu nível de energia.",
+        "SUBHEAD_MAIN": "Desafios diários com rastreamento de progresso",
+        "TEXT_MAIN": "Aceite desafios diários e acompanhe seu progresso pessoal para alcançar seu objetivo. Perder dias resultará no fracasso da sua missão. Ganhe recompensas por conquistas, escolha o nível de dificuldade e muito mais no aplicativo ‘Energia’.",
         "HEAD": "Energia",
         "IMG": "Energia",
         "DWN": "Obtenha o aplicativo Emoção gratuito para Apple Watch, iPhone ou iPad diretamente na Apple App Store.",

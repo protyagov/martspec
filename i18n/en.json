@@ -980,8 +980,9 @@
         "TEXT1": "A zinc level tracker for your body designed for Apple Watch. Syncs with Apple Health. Easy data entry. Works for free and without ads.",
         "IMG": "Track your everyday consumption of zinc supplement",
         "DWN": "Get free of charge BodyZinc application from Apple Store",
-        "ABOUT_1": "Simple and easy to use zinc tracker",
-        "ABOUT_2": "For your Apple Watch",
+        "ABOUT_1": "A simple and easy-to-use zinc tracker",
+        "ABOUT_2": "Use the app on your Apple Watch",
+        "ABOUT_3": "Syncs with the Apple Health app",
         "LIST1": {
             "LI1_HEAD": "Taking care of your health",
             "LI1_TEXT": "Comfortable use of our application will allow you to easily track daily zinc consumption",
@@ -1035,7 +1036,10 @@
         "DESC4": "Evidence shows that fat around the thighs and backside is harder to shift than fat around the waist. The waist-to-hips ratio is commonly used as an indicator or measure of health, and the risk of developing serious health conditions.",
         "HEAD5": "Body Shape",
         "DESC5": "Are you a pear 🍐? An apple 🍎 ? Or maybe a hourglass? Finding out your true body shape is more than one of those pointless online tests. Understanding your body shape might help you discover the most effective workout. Several studies suggest that it can help improve your health.",
-        "BTN_OPEN": "Measure it"
+        "BTN_OPEN": "Measure it",
+        "ABOUT_1": "Automatic body shape calculation using the Bradley Bayou formula",
+        "ABOUT_2": "Full support for Apple Health",
+        "ABOUT_3": "Backup saved to your personal iCloud"
     },
     "EMOTION": {
         "HEAD": "Emotion",
