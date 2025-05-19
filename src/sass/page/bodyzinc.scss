@@ -2,7 +2,12 @@
 
 .zinc {
     $colors: $bodyzinc-colors;
-
+   .new-page-header {
+        margin: 8rem auto 9.375rem!important;
+       @include media-breakpoint-down(lg) {
+           margin: 8rem auto 4rem!important;
+       }
+    }
     .icon {
         background: map-get($colors, "main");
 

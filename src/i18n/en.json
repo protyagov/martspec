@@ -980,8 +980,9 @@
         "TEXT1": "A zinc level tracker for your body designed for Apple Watch. Syncs with Apple Health. Easy data entry. Works for free and without ads.",
         "IMG": "Track your everyday consumption of zinc supplement",
         "DWN": "Get free of charge BodyZinc application from Apple Store",
-        "ABOUT_1": "Simple and easy to use zinc tracker",
-        "ABOUT_2": "For your Apple Watch",
+        "ABOUT_1": "A simple and easy-to-use zinc tracker",
+        "ABOUT_2": "Use the app on your Apple Watch",
+        "ABOUT_3": "Syncs with the Apple Health app",
         "LIST1": {
             "LI1_HEAD": "Taking care of your health",
             "LI1_TEXT": "Comfortable use of our application will allow you to easily track daily zinc consumption",

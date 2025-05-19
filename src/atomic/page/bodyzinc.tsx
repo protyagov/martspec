@@ -11,6 +11,7 @@ import CallToAction from "@/atomic/organism/call-to-action";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
+import Header from "@/atomic/organism/header";
 
 export default function BodyZinc() {
     const appId = getAppId();
@@ -53,16 +54,21 @@ export default function BodyZinc() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new zinc">
-                <PageHeader
+                <Header
                     title={_("ZINC.HEAD")}
-                    subtitleLevel1={_("ZINC.ABOUT_1")}
-                    subtitleLevel2={_("ZINC.ABOUT_2")}
                     appId={appId}
                     appDownloadTitle={_("ZINC.DWN")}
-                    imgSrc="/img/page/zinc/body_zinc.svg"
-                    imgAlt="ZINC.IMG"
-                    imgW={443}
-                    imgH={421.27}
+                    imgSrc="/img/page/zinc/img-header-en.webp"
+                    imgAlt={_("ZINC.IMG")}
+                    imgH={531}
+                    imgW={722}
+                    content={
+                        <ul className="header-content-list">
+                            <li>{_("ZINC.ABOUT_1")}</li>
+                            <li>{_("ZINC.ABOUT_2")}</li>
+                            <li>{_("ZINC.ABOUT_3")}</li>
+                        </ul>
+                    }
                 />
 
                 <section>

@@ -980,8 +980,9 @@
         "TEXT1": "Apple Watch上您体内锌含量的追踪器。与Apple Health同步。数据输入方便。免费使用且无广告",
         "IMG": "跟踪您的日常消费锌补充剂",
         "DWN": "从Apple Store免费获得FeedZinc应用程序",
-        "ABOUT_1": "简单易用的锌跟踪器",
-        "ABOUT_2": "Apple Watch 专用",
+        "ABOUT_1": "简单易用的锌追踪器",
+        "ABOUT_2": "在 Apple Watch 上使用应用程序",
+        "ABOUT_3": "与 Apple 健康应用同步",
         "LIST1": {
             "LI1_HEAD": "关爱健康",
             "LI1_TEXT": "使用我们的应用程序，您可以轻松跟踪每天的锌摄入量。",
