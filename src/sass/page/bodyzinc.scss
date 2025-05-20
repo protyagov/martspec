@@ -2,10 +2,25 @@
 
 .zinc {
     $colors: $bodyzinc-colors;
+    .headings {
+      h1{
+        font-size: 5rem;
+        @include media-breakpoint-down(sm) {
+          font-size: 3rem;
+        }
+      }
+    }
+  .header-content-list {
+    li {
+      &::marker {
+        color: #71B520;
+      }
+    }
+  }
    .new-page-header {
-        margin: 8rem auto 9.375rem!important;
+        margin: 6.8rem auto 10rem!important;
        @include media-breakpoint-down(lg) {
-           margin: 8rem auto 4rem!important;
+           margin: 6.8rem auto 4rem!important;
        }
     }
     .icon {
