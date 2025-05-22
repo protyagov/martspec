@@ -60,8 +60,8 @@ export default function BodyZinc() {
                     appDownloadTitle={_("ZINC.DWN")}
                     imgSrc="/img/page/zinc/img-header-en.webp"
                     imgAlt={_("ZINC.IMG")}
-                    imgH={531}
-                    imgW={722}
+                    imgH={405}
+                    imgW={550}
                     content={
                         <ul className="header-content-list">
                             <li>{_("ZINC.ABOUT_1")}</li>

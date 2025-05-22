@@ -2,9 +2,22 @@
 
 .zinc {
     $colors: $bodyzinc-colors;
+  .ms-btn-apple{
+    margin-left: 8px;
+    @include media-breakpoint-down(md) {
+      margin-left: 0;
+    }
+  }
     .headings {
+      li{
+        margin-bottom: 1.2rem;
+        &:last-child{
+          margin-bottom: 0.6rem;
+        }
+      }
       h1{
-        font-size: 5rem;
+        font-size: 80px;
+        line-height: 91%;
         @include media-breakpoint-down(sm) {
           font-size: 3rem;
         }
@@ -19,8 +32,13 @@
   }
    .new-page-header {
         margin: 6.8rem auto 10rem!important;
+     .row > .col{
+       align-items: flex-start;
+       padding-left: 2%;
+       padding-right: 2%;
+     }
        @include media-breakpoint-down(lg) {
-           margin: 6.8rem auto 4rem!important;
+           margin: 6.5rem auto 4rem!important;
        }
     }
     .icon {
