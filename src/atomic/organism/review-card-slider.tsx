@@ -8,7 +8,6 @@ import { SendReviewsLink } from "@/atomic/organism/review-link";
 export default function ReviewCardSlider() {
     const { data, text } = useReviewContext();
 
-    // 🔧 Выделяем только "настоящие" отзывы
     const realReviews = data.reviews.filter((r) => !("filler" in r));
 
     let cardsToRender = [];
@@ -19,7 +18,6 @@ export default function ReviewCardSlider() {
             { filler: true }, 
         ];
     } else {
-        // 🔧 <3: добиваем до 3 филлерами
         const fillerCount = 3 - realReviews.length;
         const fillerCards = Array.from({ length: fillerCount }, () => ({ filler: true }));
         cardsToRender = [...realReviews, ...fillerCards];
