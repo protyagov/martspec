@@ -64,21 +64,22 @@ export default function Bodymass() {
             },
             title: _("MASS.LIST3.LI6_HEAD"),
             subtitle: _("MASS.LIST3.LI6_TEXT"),
-        }
+        },
     ];
     return (
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new bodymass">
-                    <Header
+            <div className="ms-base-page ms-base-new">
+                <Header
                     title={_("MASS.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("MASS.DWN")}
                     imgSrc="/img/page/body-mass/mass-header-en.webp"
                     imgAlt={_("MASS.IMG")}
-                    imgH={531}
-                    imgW={722}
+                    imgH={405}
+                    imgW={550}
+                    contentClassName="bodymass"
                     content={
                         <ul className="header-content-list">
                             <li>{_("MASS.ABOUT_1")}</li>
@@ -94,8 +95,8 @@ export default function Bodymass() {
                                 title={_("MASS.LIST1.LI1_HEAD")}
                                 text={_("MASS.LIST1.LI1_TEXT")}
                                 imgSrc="/img/page/body-mass/mid-pic-illustration.png"
-                                imgH={239}
-                                imgW={400}
+                                imgH={405}
+                                imgW={550}
                                 imgPosition="default"
                             />
                         </div>
@@ -185,20 +186,20 @@ export default function Bodymass() {
                     }}
                 />
 
-                    <section>
-                        <CallToAction
-                            title="MASS.HEAD4"
-                            subtitle="MASS.DESC4"
-                            appId={appId}
-                            appDownloadTitle={_("MASS.DWN")}
-                            imgSrc="/img/page/body-mass/Img-Banner-en.webp"
-                            imgAlt={_("MASS.ALT2")}
-                        />
-                    </section>
+                <section>
+                    <CallToAction
+                        title="MASS.HEAD4"
+                        subtitle="MASS.DESC4"
+                        appId={appId}
+                        appDownloadTitle={_("MASS.DWN")}
+                        imgSrc="/img/page/body-mass/Img-Banner-en.webp"
+                        imgAlt={_("MASS.ALT2")}
+                    />
+                </section>
             </div>
 
             <Footer />
-            <ScrollButton color="#FEB215"/>
+            <ScrollButton color="#FEB215" />
         </>
     );
 }

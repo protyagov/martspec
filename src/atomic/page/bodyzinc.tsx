@@ -53,7 +53,7 @@ export default function BodyZinc() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new zinc">
+            <div className="ms-base-page ms-base-new">
                 <Header
                     title={_("ZINC.HEAD")}
                     appId={appId}
@@ -62,6 +62,7 @@ export default function BodyZinc() {
                     imgAlt={_("ZINC.IMG")}
                     imgH={405}
                     imgW={550}
+                    contentClassName="zinc"
                     content={
                         <ul className="header-content-list">
                             <li>{_("ZINC.ABOUT_1")}</li>
@@ -167,7 +168,7 @@ export default function BodyZinc() {
                 </section>
             </div>
             <Footer />
-            <ScrollButton color="#72E796"/>
+            <ScrollButton color="#72E796" />
         </>
     );
 }

@@ -8,7 +8,8 @@ interface HeaderProps {
     appId?: number;
     appDownloadTitle?: string;
     content?: React.ReactNode;
-    rowItems?: React.ReactNode; 
+    rowItems?: React.ReactNode;
+    contentClassName?: string;
 }
 
 interface WithImageProps extends HeaderProps {
@@ -26,7 +27,7 @@ interface WithoutImageProps extends HeaderProps {
 }
 
 export default function Header(props: WithImageProps | WithoutImageProps) {
-    const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, content, rowItems } = props;
+    const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, content, rowItems, contentClassName } = props;
 
     return (
         <section className="new-page-header">
@@ -34,7 +35,9 @@ export default function Header(props: WithImageProps | WithoutImageProps) {
                 <div className="col">
                     <div className={`headings ${rowItems ? "spaced" : ""}`}>
                         <h1>{title}</h1>
-                        {content}
+                        <div className={contentClassName}>
+                            {content}
+                        </div>
                         {rowItems != null ? (
                             <div className="row-items">{rowItems}</div>
                         ) : (

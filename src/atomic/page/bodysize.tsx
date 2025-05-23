@@ -15,17 +15,18 @@ export default function BodySize() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new bodysize">
+            <div className="ms-base-page ms-base-new">
                 <Header
                     title={_("SIZE.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("SIZE.DWN")}
                     imgSrc="/img/page/body-size/img-header-en.png"
                     imgAlt={_("SIZE.IMG")}
-                    imgH={537}
-                    imgW={563}
+                    imgH={305}
+                    imgW={450}
+                    contentClassName="bodysize"
                     content={
-                        <ul className="header-content-list">
+                        <ul className="header-content-list ">
                             <li>{_("SIZE.ABOUT_1")}</li>
                             <li>{_("SIZE.ABOUT_2")}</li>
                             <li>{_("SIZE.ABOUT_3")}</li>
