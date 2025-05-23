@@ -25,7 +25,6 @@ export const ReviewCardSliderStory: Story = () => {
 
     const { reviews } = useReviewData({
         codes,
-        arrLength,
         appId,
     });
 

@@ -28,11 +28,11 @@ export default function Review({ text, appId, codes }: IReview) {
     const isTablet = useMediaQuery(`(max-width: ${XXL_BOOTSTRAP}px)`);
 
     const arrLength = isMobile ? 1 : isTablet ? 2 : 3;
+
     const { reviews } = useReviewData({
         codes,
-        arrLength,
         appId,
-    });
+      });
 
     if (!reviews || !appId) return <></>;
 
@@ -40,7 +40,7 @@ export default function Review({ text, appId, codes }: IReview) {
         <ReviewContext.Provider
             value={{
                 data: {
-                    reviews: reviews.slice(0, arrLength),
+                    reviews: reviews, 
                     appId,
                     countryCode: codes.countryCode,
                 },

@@ -6,23 +6,24 @@ import { TCountryCode, TLanguageCode } from "@/model/TCodes";
 
 interface IUseReviewDataProps {
     appId: number;
-    arrLength?: number;
-
     codes: {
         countryCode: TCountryCode;
         languageCode: TLanguageCode;
     };
 }
 
-export const useReviewData = ({ codes, arrLength = 3, appId }: IUseReviewDataProps) => {
+export const useReviewData = ({ codes, appId }: IUseReviewDataProps) => {
     const [reviews, setReviews] = useState<IReviewWithFiller | null>(null);
 
     useEffect(() => {
         getReviewData({ appId, countryCode: codes.countryCode || "us" })
-            .then((d) => validateReviewData({ reviewData: d.feed.entry, arrLength }))
+            .then((d) => validateReviewData({ reviewData: d.feed.entry })) 
             .then((r) => sortReviews({ validatedData: r, lang: codes.languageCode || "en" }))
             .then((r) => setReviews(r))
-            .catch(() => validateReviewData({ reviewData: [], arrLength }).then((r) => setReviews(r)));
+            .catch(() =>
+                validateReviewData({ reviewData: [] }) 
+                    .then((r) => setReviews(r))
+            );
     }, []);
 
     return { reviews };
