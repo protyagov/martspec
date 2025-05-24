@@ -62,15 +62,15 @@ export default function BodyZinc() {
                     imgAlt={_("ZINC.IMG")}
                     imgH={405}
                     imgW={550}
-                    contentClassName="zinc"
-                    content={
+                >
+                    <div className="zinc">
                         <ul className="header-content-list">
                             <li>{_("ZINC.ABOUT_1")}</li>
                             <li>{_("ZINC.ABOUT_2")}</li>
                             <li>{_("ZINC.ABOUT_3")}</li>
                         </ul>
-                    }
-                />
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row g-4">

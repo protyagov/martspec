@@ -62,15 +62,15 @@ export default function Electrolyte() {
                     imgAlt={_("ELECTROLYTE.IMG")}
                     imgH={405}
                     imgW={550}
-                    contentClassName="electrolyte"
-                    content={
+                >
+                    <div className="electrolyte">
                         <ul className="header-content-list">
                             <li>{_("ELECTROLYTE.ABOUT_1")}</li>
                             <li>{_("ELECTROLYTE.ABOUT_2")}</li>
                             <li>{_("ELECTROLYTE.ABOUT_3")}</li>
                         </ul>
-                    }
-                />
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row d-flex justify-content-between g-4">

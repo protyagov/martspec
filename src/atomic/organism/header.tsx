@@ -7,9 +7,9 @@ interface HeaderProps {
     title: string;
     appId?: number;
     appDownloadTitle?: string;
-    content?: React.ReactNode;
     rowItems?: React.ReactNode;
-    contentClassName?: string;
+    content?: React.ReactNode;
+    children?: React.ReactNode;
 }
 
 interface WithImageProps extends HeaderProps {
@@ -27,7 +27,7 @@ interface WithoutImageProps extends HeaderProps {
 }
 
 export default function Header(props: WithImageProps | WithoutImageProps) {
-    const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, content, rowItems, contentClassName } = props;
+    const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, rowItems, content, children } = props;
 
     return (
         <section className="new-page-header">
@@ -35,20 +35,24 @@ export default function Header(props: WithImageProps | WithoutImageProps) {
                 <div className="col">
                     <div className={`headings ${rowItems ? "spaced" : ""}`}>
                         <h1>{title}</h1>
-                        <div className={contentClassName}>
-                            {content}
-                        </div>
+                        {children}
                         {rowItems != null ? (
                             <div className="row-items">{rowItems}</div>
                         ) : (
                             appId && <ButtonApple appId={appId} appDownloadTitle={appDownloadTitle || ""} />
                         )}
                     </div>
-                    {imgSrc && <ImageI18N src={imgSrc} h={imgH} w={imgW} cls={`header-image ${rowItems ? "mid-position" : ""}`} alt={imgAlt} />}
+                    {imgSrc && (
+                        <ImageI18N
+                            src={imgSrc}
+                            h={imgH}
+                            w={imgW}
+                            cls={`header-image ${rowItems ? "mid-position" : ""}`}
+                            alt={imgAlt}
+                        />
+                    )}
                 </div>
             </div>
         </section>
     );
 }
-
-

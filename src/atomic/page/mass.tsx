@@ -79,14 +79,14 @@ export default function Bodymass() {
                     imgAlt={_("MASS.IMG")}
                     imgH={405}
                     imgW={550}
-                    contentClassName="bodymass"
-                    content={
+                >
+                    <div className="bodymass">
                         <ul className="header-content-list">
                             <li>{_("MASS.ABOUT_1")}</li>
                             <li>{_("MASS.ABOUT_2")}</li>
                         </ul>
-                    }
-                />
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">

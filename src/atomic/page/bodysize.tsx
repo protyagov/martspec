@@ -24,15 +24,15 @@ export default function BodySize() {
                     imgAlt={_("SIZE.IMG")}
                     imgH={305}
                     imgW={450}
-                    contentClassName="bodysize"
-                    content={
-                        <ul className="header-content-list ">
+                >
+                    <div className="bodysize">
+                        <ul className="header-content-list">
                             <li>{_("SIZE.ABOUT_1")}</li>
                             <li>{_("SIZE.ABOUT_2")}</li>
                             <li>{_("SIZE.ABOUT_3")}</li>
                         </ul>
-                    }
-                />
+                    </div>
+                </Header>
 
                 {/* Body compostion */}
                 <section className="row">
