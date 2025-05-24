@@ -62,16 +62,17 @@ export default function WaistLine() {
                     appDownloadTitle={_("WAIST.DWN")}
                     imgSrc="/img/page/waistline/waistline-header-en.webp"
                     imgAlt={_("WAIST.IMG")}
-                    imgH={531}
-                    imgW={722}
-                    content={
+                    imgH={405}
+                    imgW={550}
+                >
+                    <div className="waist">
                         <ul className="header-content-list">
                             <li>{_("WAIST.ABOUT_1")}</li>
                             <li>{_("WAIST.ABOUT_2")}</li>
                             <li>{_("WAIST.ABOUT_3")}</li>
                         </ul>
-                    }
-                />
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
@@ -215,10 +216,8 @@ export default function WaistLine() {
                         },
                     }}
                 />
-
-
             </div>
-            
+
             <section className="ms-base-page ms-base-new">
                 <CallToAction
                     title="MASS.HEAD4"

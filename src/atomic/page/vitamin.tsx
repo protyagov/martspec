@@ -210,16 +210,17 @@ export default function Vitamin() {
                     appDownloadTitle={_("VITAMIN.DWN")}
                     imgSrc="/img/page/vitamin/vitamin-header-en.webp"
                     imgAlt={_("VITAMIN.IMG")}
-                    imgH={531}
-                    imgW={722}
-                    content={
+                    imgH={405}
+                    imgW={550}
+                >
+                    <div className="vitamin">
                         <ul className="header-content-list">
                             <li>{_("VITAMIN.ABOUT_1")}</li>
                             <li>{_("VITAMIN.ABOUT_2")}</li>
                             <li>{_("VITAMIN.ABOUT_3")}</li>
                         </ul>
-                    }
-                />
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
