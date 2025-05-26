@@ -1,7 +1,28 @@
+@import "@/sass/atom/base-new-vars";
 .zinc {
+  $colors: $bodyzinc-colors;
+  .header-content-list{
     li {
       &::marker {
         color: #71B520;
       }
+    }
+  }
+  .icon {
+    background: map-get($colors, "main");
+    &:not(.no-filter) > img {
+      filter: map-get($colors, "main-filter");
+    }
+  }
+  .btn {
+    background-color: #252525;
+    border-radius: 700px;
+    color: #ffffff;
+    padding: 12px 39px;
+    margin-right: 10px;
+  }
+  .col-lg-6 .mb-4 {
+    list-style-type: disc;
+    margin-left: 25px;
   }
 }

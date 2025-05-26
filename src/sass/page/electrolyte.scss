@@ -1,7 +1,9 @@
 .electrolyte {
-  li {
-    &::marker {
-      color: #656AA1;
+  .header-content-list{
+    li {
+      &::marker {
+        color: #656AA1;
+      }
     }
   }
 }

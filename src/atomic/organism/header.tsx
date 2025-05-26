@@ -8,7 +8,6 @@ interface HeaderProps {
     appId?: number;
     appDownloadTitle?: string;
     rowItems?: React.ReactNode;
-    content?: React.ReactNode;
     children?: React.ReactNode;
 }
 
@@ -27,7 +26,7 @@ interface WithoutImageProps extends HeaderProps {
 }
 
 export default function Header(props: WithImageProps | WithoutImageProps) {
-    const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, rowItems, content, children } = props;
+    const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, rowItems, children } = props;
 
     return (
         <section className="new-page-header">

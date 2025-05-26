@@ -1,7 +1,9 @@
 .bodysize {
-    li {
-        &::marker {
-            color: #FD7E14;
+    .header-content-list{
+        li {
+            &::marker {
+                color: #FD7E14;
+            }
         }
     }
 }

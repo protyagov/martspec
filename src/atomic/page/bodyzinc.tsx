@@ -53,7 +53,7 @@ export default function BodyZinc() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new">
+            <div className="ms-base-page ms-base-new zinc">
                 <Header
                     title={_("ZINC.HEAD")}
                     appId={appId}

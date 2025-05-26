@@ -1,7 +1,9 @@
 .bodymass {
-    li {
-        &::marker {
-            color: #F0606C;
+    .header-content-list{
+        li {
+            &::marker {
+                color: #F0606C;
+            }
         }
     }
 }
