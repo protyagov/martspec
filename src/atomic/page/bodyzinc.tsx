@@ -7,7 +7,7 @@ import PageHeader from "@/atomic/molecule/page-header";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
-import CallToAction from "@/atomic/organism/call-to-action";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
@@ -155,7 +155,6 @@ export default function BodyZinc() {
                 <section>
                     <div className="row">
                         <CallToAction
-                            bgColor={{ backgroundColor: "#AAF1CF" }}
                             title={_("ZINC.HEAD5")}
                             subtitle={_("ZINC.DESC5")}
                             appId={appId}
