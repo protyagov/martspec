@@ -2,6 +2,7 @@ import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import PageHeader from "@/atomic/molecule/page-header";
 import Review from "@/atomic/prototype/review";
@@ -115,14 +116,15 @@ export default function BodySize() {
             </div>
 
             <div className="pb-5 text-center">
-                <ImageI18N
-                    src="/img/page/body-size/size-bottom-en.webp"
-                    w={512}
-                    h={512}
-                    cls="img-fluid mb-3 px-4"
-                    alt={_("SIZE.IMG")}
+                <CallToAction
+                    title={_("SIZE.CALL_TO_ACTION.HEAD")}
+                    subtitle={_("SIZE.CALL_TO_ACTION.DESC")}
+                    appId={appId}
+                    appDownloadTitle={_("SIZE.DWN")}
+                    imgSrc="/img/page/body-size/size-bottom-new-en.webp"
+                    imgAlt={_("SIZE.IMG")}
                 />
-                {/* <img src="/img/size_bottom.512.webp" className="img-fluid mb-3 px-4" height={512} alt={_("SIZE.IMG")} /> */}
+                {/* <img src="/img/size_bottom.512.webp" className="img-fluid mb-3 px-4" width={512} height={512} alt={_("SIZE.IMG")} /> */}
             </div>
             <Footer />
             <ScrollButton />
