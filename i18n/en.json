@@ -7,7 +7,7 @@
         "WIKI": "Read full article on WiKi"
     },
     "MAIN": {
-        "HEAD": "Making Health a Habit",
+        "HEAD": "Making Health a\u00A0Habit",
         "SUBHEAD": "Unlock your full potential with science-driven tech — made with care for you",
         "ALT": "Discover an innovative approach to a healthy lifestyle with us",
         "COUNTERS": {
@@ -1039,7 +1039,11 @@
         "BTN_OPEN": "Measure it",
         "ABOUT_1": "Automatic body shape calculation using the Bradley Bayou formula",
         "ABOUT_2": "Full support for Apple Health",
-        "ABOUT_3": "Backup saved to your personal iCloud"
+        "ABOUT_3": "Backup saved to your personal iCloud",
+        "CALL_TO_ACTION": {
+            "HEAD": "Take Control of Your Body Mindfully",
+            "DESC": "Personalize your progress tracking and achieve your goals with customizable measurements. Make your journey toward ideal health and fitness more mindful, accurate, and tailored to you"
+        }
     },
     "EMOTION": {
         "HEAD": "Emotion",

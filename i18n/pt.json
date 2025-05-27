@@ -1044,7 +1044,11 @@
         "BTN_OPEN": "Medir",
         "ABOUT_1": "Cálculo automático do formato corporal usando a fórmula de Bradley Bayou",
         "ABOUT_2": "Compatibilidade total com o Apple Saúde",
-        "ABOUT_3": "Backup salvo na sua nuvem pessoal do iCloud"
+        "ABOUT_3": "Backup salvo na sua nuvem pessoal do iCloud",
+        "CALL_TO_ACTION": {
+            "HEAD": "Assuma o controlo do seu corpo com atenção plena",
+            "DESC": "Personalize o seu acompanhamento de progresso e atinja os seus objetivos com medições personalizáveis. Torne a sua jornada rumo à saúde e ao fitness ideais mais consciente, precisa e personalizada para si"
+        }
     },
     "EMOTION": {
         "HEAD": "Emoção",

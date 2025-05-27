@@ -1042,7 +1042,11 @@
         "BTN_OPEN": "Schiene",
         "ABOUT_1": "Automatische Berechnung der Körperform mit der Bradley-Bayou-Forme",
         "ABOUT_2": "Volle Unterstützung für Apple Gesundheit",
-        "ABOUT_3": "Sicherungskopie wird in Ihrer persönlichen iCloud gespeichert"
+        "ABOUT_3": "Sicherungskopie wird in Ihrer persönlichen iCloud gespeichert",
+        "CALL_TO_ACTION": {
+            "HEAD": "Übernehmen Sie bewusst die Kontrolle über Ihren Körper",
+            "DESC": "Personalisieren Sie Ihre Fortschrittsverfolgung und erreichen Sie Ihre Ziele mit anpassbaren Messungen. Gestalten Sie Ihren Weg zu optimaler Gesundheit und Fitness bewusster, präziser und individueller"
+        }
     },
     "EMOTION": {
         "HEAD": "Emotion",
