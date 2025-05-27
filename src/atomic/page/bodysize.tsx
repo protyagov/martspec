@@ -12,6 +12,26 @@ import Header from "@/atomic/organism/header";
 
 export default function BodySize() {
     const appId = getAppId();
+
+    const lang = Locale.language;
+
+    const imgSrcMap: Record<string, string> = {
+        en: "/img/page/body-size/img-cta-en.webp",
+        ru: "/img/page/body-size/img-cta-ru.webp",
+        fr: "/img/page/body-size/img-cta-fr.webp",
+        de: "/img/page/body-size/img-cta-de.webp",
+        es: "/img/page/body-size/img-cta-es.webp",
+        pt: "/img/page/body-size/img-cta-pt.webp",
+        uk: "/img/page/body-size/img-cta-uk.webp",
+        ja: "/img/page/body-size/img-cta-ja.webp",
+        hi: "/img/page/body-size/img-cta-hi.webp",
+        ar: "/img/page/body-size/img-cta-ar.webp",
+        zh: "/img/page/body-size/img-cta-zh.webp",
+    };
+
+    const fallbackImg = "/img/page/body-size/img-cta-en.webp";
+    const imageSrc = imgSrcMap[lang] || fallbackImg;
+
     return (
         <>
             <NavigationBar />
@@ -121,7 +141,7 @@ export default function BodySize() {
                     subtitle={_("SIZE.CALL_TO_ACTION.DESC")}
                     appId={appId}
                     appDownloadTitle={_("SIZE.DWN")}
-                    imgSrc="/img/page/body-size/size-bottom-new-en.webp"
+                    imgSrc={imageSrc}
                     imgAlt={_("SIZE.IMG")}
                 />
                 {/* <img src="/img/size_bottom.512.webp" className="img-fluid mb-3 px-4" width={512} height={512} alt={_("SIZE.IMG")} /> */}
