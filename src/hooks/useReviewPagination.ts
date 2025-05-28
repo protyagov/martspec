@@ -1,26 +1,30 @@
 import { useState, useMemo } from "react";
-import { IReviewWithFiller } from "@/model/IReviewWithFiller";
+import { IReview } from "@/model/IReviewData";
 
-export const useReviewPagination = (reviews: IReviewWithFiller[], perPage: number = 3) => {
-  const [currentPage, setCurrentPage] = useState(0);
+export function useReviewPagination(reviews: IReview[]) {
+    const [currentPage, setCurrentPage] = useState(0);
+    const reviewsPerPage = 3;
 
-  const totalPages = Math.ceil(reviews.length / perPage);
+    const totalPages = useMemo(() => {
+        if (!reviews?.length) return 0;
+        return Math.ceil(reviews.length / reviewsPerPage);
+    }, [reviews]);
 
-  const paginatedReviews = useMemo(() => {
-    const start = currentPage * perPage;
-    return reviews.slice(start, start + perPage);
-  }, [reviews, currentPage, perPage]);
+    const paginatedReviews = useMemo(() => {
+        if (!reviews?.length) return [];
+        const startIndex = currentPage * reviewsPerPage;
+        return reviews.slice(startIndex, startIndex + reviewsPerPage);
+    }, [reviews, currentPage]);
 
-  const goToPage = (page: number) => {
-    if (page >= 0 && page < totalPages) {
-      setCurrentPage(page);
-    }
-  };
+    const goToPage = (page: number) => {
+        if (page < 0 || page >= totalPages) return;
+        setCurrentPage(page);
+    };
 
-  return {
-    currentPage,
-    totalPages,
-    paginatedReviews,
-    goToPage,
-  };
-};
+    return {
+        currentPage,
+        totalPages,
+        paginatedReviews,
+        goToPage,
+    };
+}

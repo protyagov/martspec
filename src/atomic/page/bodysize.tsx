@@ -111,6 +111,7 @@ export default function BodySize() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor="#FD7E14"
                 />
             </div>
 

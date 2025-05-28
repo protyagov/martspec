@@ -1,4 +1,4 @@
- .review {
+.review {
         display: grid;
         gap: 1.54rem;
 
@@ -33,67 +33,143 @@
             grid-auto-flow: column;
             grid-auto-columns: 1fr;
             gap: 3rem;
-
             padding: 0;
+            transition: transform 0.6s ease-in-out;
+            will-change: transform;
         }
 
+        .card-bg {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 1;
+            z-index: 1;
+            pointer-events: none;
+        }
+        
+        .card-base {
+            position: relative;
+            overflow: hidden;
+            border-radius: 2.3rem;
+            border: 0.1rem solid #F4F5F8;
+            box-shadow: 0rem 1.84rem 2.21rem 0rem #959DA51A;
+        
+            & > * {
+            position: relative;
+            z-index: 2;
+            color: #151515;
+            }
+        }
+        
         .review-card {
+            @extend .card-base;
             display: flex;
             flex-direction: column;
             gap: 1.93rem;
-
-            border: 0.1rem solid #F4F5F8;
-            border-radius: 2.31rem;
-            box-shadow: 0rem 1.84rem 2.21rem 0rem #959DA51A;
-
             padding: 3.1rem;
-
-            & > * {
-                color: #151515;
-            } 
-
+        
+            .review-card__bg {
+            @extend .card-bg;
+            }
+        
             .review-card__header {
-                display: grid;
+            display: grid;
+            gap: 0.8rem;
+        
+            .review-card__header-main {
+                display: flex;
                 gap: 0.8rem;
-                
-                .review-card__header-main {
-                    display: flex;
-                    gap: 0.8rem;
-                }
-    
-                .review-card__header-rating {
-                    display: flex;
-                    align-items: center;
-                    padding-top: 0.25rem;
-                    height: fit-content;
-                }
+            }
+        
+            .review-card__header-rating {
+                display: flex;
+                align-items: center;
+                padding-top: 0.25rem;
+                height: fit-content;
+            }
             }
         }
-
+        
         .filler-card {
+            @extend .card-base;
             display: grid;
             text-align: center;
             min-height: 25rem;
-
+        
+            .review-card__bg {
+            @extend .card-bg;
+            }
+        
             .filler-card__header {
-                align-self: end;
-                width: 85%;
+            align-self: end;
+            width: 85%;
             }
-
-            .text-link-arrow {
-                align-self: start;
+        
+            .text-link-arrow,
+            .filler-card__header3 {
+            padding-top: 1.93rem;
+            align-self: start;
             }
-
-            .filler-card__header3, .text-link-arrow {
-                padding-top: 1.93rem;
-            }
-
+        
             .filler-card__wrapper {
-                display: grid;
-                gap: 0.5rem;
-                grid-template-rows: 1.1fr 1fr;
-                justify-items: center;
-                align-content: center;
+            display: grid;
+            gap: 0.5rem;
+            grid-template-rows: 1.1fr 1fr;
+            justify-items: center;
+            align-content: center;
+            }
+        }
+        
+        .review-pagination {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2rem;
+        
+            .review-pagination__arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 3.7rem;
+            height: 3.7rem;
+            border-radius: 50%;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            z-index: 1;
+            transition: opacity 0.2s ease;
+        
+            &:hover {
+                opacity: 0.8;
+            }
+        
+            &--left {
+                left: 0;
+            }
+        
+            &--right {
+                right: 0;
+            }
+            }
+        
+            .review-pagination__dots {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            }
+        
+            .review-pagination__dot {
+            width: 0.6875rem;
+            height: 0.6875rem;
+            border-radius: 50%;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            transition: transform 0.2s ease, opacity 0.2s ease;
             }
         }
     }

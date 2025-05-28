@@ -150,6 +150,7 @@ export default function BodyZinc() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor="#71B520"
                 />
 
                 <section>

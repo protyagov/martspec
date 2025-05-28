@@ -14,17 +14,35 @@ interface IUseReviewDataProps {
 
 export const useReviewData = ({ codes, appId }: IUseReviewDataProps) => {
     const [reviews, setReviews] = useState<IReviewWithFiller | null>(null);
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
+        let isMounted = true;
+        setIsLoading(true);
+
         getReviewData({ appId, countryCode: codes.countryCode || "us" })
             .then((d) => validateReviewData({ reviewData: d.feed.entry })) 
             .then((r) => sortReviews({ validatedData: r, lang: codes.languageCode || "en" }))
-            .then((r) => setReviews(r))
-            .catch(() =>
-                validateReviewData({ reviewData: [] }) 
-                    .then((r) => setReviews(r))
-            );
-    }, []);
+            .then((r) => {
+                if (isMounted) {
+                    setReviews(r);
+                    setIsLoading(false);
+                }
+            })
+            .catch(() => {
+                if (isMounted) {
+                    validateReviewData({ reviewData: [] })
+                        .then((r) => {
+                            setReviews(r);
+                            setIsLoading(false);
+                        });
+                }
+            });
 
-    return { reviews };
+        return () => {
+            isMounted = false;
+        };
+    }, [appId, codes.countryCode, codes.languageCode]);
+
+    return { reviews, isLoading };
 };

@@ -203,6 +203,7 @@ export default function Electrolyte() {
                                 link: _("REVIEW.FILLER_CARD.LINK"),
                             },
                         }}
+                        themeColor="#8079CC"
                     />
 
                     <section>

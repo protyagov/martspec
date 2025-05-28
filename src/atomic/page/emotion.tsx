@@ -395,6 +395,7 @@ export default function Emotion() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor="#7B62FE"
                 />
 
                 <section>

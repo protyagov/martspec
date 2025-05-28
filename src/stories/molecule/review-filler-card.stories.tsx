@@ -29,11 +29,17 @@ export const ReviewFillerCardStory: Story = () => (
                     link: _("REVIEW.FILLER_CARD.LINK"),
                 },
             },
+            themeColor: "#1686FF"
         }}
     >
         <div className="row review py-5 justify-content-center">
             <ul className="review__list" style={{ maxWidth: "378px" }}>
-                <ReviewFillerCard link={<SendReviewsLink />} posIndex={1} key={_("REVIEW.FILLER_CARD.HEAD2")} />
+                <ReviewFillerCard 
+                    link={<SendReviewsLink />} 
+                    posIndex={1} 
+                    key={_("REVIEW.FILLER_CARD.HEAD2")} 
+                    bgImage={new URL("@/img/org/second-review-bg.svg", import.meta.url).href}
+                />
             </ul>
         </div>
     </ReviewContext.Provider>

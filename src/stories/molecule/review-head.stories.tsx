@@ -28,9 +28,12 @@ export const ReviewHeadStory: Story = () => (
                     link: _("REVIEW.FILLER_CARD.LINK"),
                 },
             },
+            themeColor: "#1686FF"
         }}
     >
-        <ReviewHead />
+        <div className="row review py-5 justify-content-center">
+            <ReviewHead />
+        </div>
     </ReviewContext.Provider>
 );
 

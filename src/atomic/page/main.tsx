@@ -336,6 +336,7 @@ export default function LandingPage() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor="#1686FF"
                 />
             </div>
 

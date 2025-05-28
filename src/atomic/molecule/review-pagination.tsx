@@ -1,18 +1,19 @@
 import React from "react";
+import { useReviewContext } from "./review-context";
 
 interface ReviewPaginationProps {
   totalPages: number;
   currentPage: number;
   onPageChange: (page: number) => void;
-  color: string;
 }
 
 export default function ReviewPagination({
   totalPages,
   currentPage,
   onPageChange,
-  color,
 }: ReviewPaginationProps) {
+  const { themeColor } = useReviewContext();
+
   const handlePrev = () => {
     if (currentPage > 0) {
       onPageChange(currentPage - 1);
@@ -25,35 +26,42 @@ export default function ReviewPagination({
     }
   };
 
+  const handlePageChange = (page: number) => {
+    if (page !== currentPage) {
+      onPageChange(page);
+    }
+  };
+
   return (
-    <div className="flex items-center justify-center gap-4 mt-4">
+    <div className="review-pagination">
       {/* Left Arrow */}
       <button
         onClick={handlePrev}
-        className="w-10 h-10 rounded-full flex items-center justify-center"
-        style={{ backgroundColor: color }}
-      >
-        <img
-          src="/img/slider-pagination-arrow-01.svg"
-          alt="Previous"
-          width={16}
-          height={16}
-        />
-      </button>
+        className="review-pagination__arrow review-pagination__arrow--left"
+        style={{
+          backgroundColor: themeColor,
+          backgroundImage: 'url("/img/slider-pagination-arrow-02.svg")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+        aria-label="Previous page"
+        disabled={currentPage === 0}
+      />
 
       {/* Dots */}
-      <div className="flex items-center gap-2">
+      <div className="review-pagination__dots">
         {Array.from({ length: totalPages }).map((_, i) => (
           <button
             key={i}
-            onClick={() => onPageChange(i)}
-            className="w-3 h-3 rounded-full"
+            onClick={() => handlePageChange(i)}
+            className="review-pagination__dot"
             style={{
-              backgroundColor: i === currentPage ? color : `${color}55`,
-              transform: i === currentPage ? 'scale(1.25)' : 'scale(1)',
+              backgroundColor: i === currentPage ? themeColor : `${themeColor}55`,
+              transform: i === currentPage ? "scale(1.25)" : "scale(1)",
               opacity: i === currentPage ? 1 : 0.5,
-              transition: 'transform 0.2s ease, opacity 0.2s ease',
             }}
+            aria-label={`Go to page ${i + 1}`}
           />
         ))}
       </div>
@@ -61,16 +69,17 @@ export default function ReviewPagination({
       {/* Right Arrow */}
       <button
         onClick={handleNext}
-        className="w-10 h-10 rounded-full flex items-center justify-center"
-        style={{ backgroundColor: color }}
-      >
-        <img
-          src="/img/slider-pafgination-arrow-02.svg"
-          alt="Next"
-          width={16}
-          height={16}
-        />
-      </button>
+        className="review-pagination__arrow review-pagination__arrow--right"
+        style={{
+          backgroundColor: themeColor,
+          backgroundImage: 'url("/img/slider-pagination-arrow-01.svg")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+        aria-label="Next page"
+        disabled={currentPage === totalPages - 1}
+      />
     </div>
   );
 }

@@ -4,34 +4,38 @@ import ReviewCard from "@/atomic/molecule/review-card";
 import ReviewFillerCard from "@/atomic/molecule/review-filler-card";
 import { useReviewContext } from "@/atomic/molecule/review-context";
 import { SendReviewsLink } from "@/atomic/organism/review-link";
+import { IReview } from "@/model/IReviewData";
+import { IFiller } from "@/model/IReviewWithFiller";
 
-export default function ReviewCardSlider() {
-    const { data, text } = useReviewContext();
+const backgroundImages = [
+    new URL("@/img/org/first-review-bg.svg", import.meta.url).href,
+    new URL("@/img/org/second-review-bg.svg", import.meta.url).href,
+    new URL("@/img/org/third-review-bg.svg", import.meta.url).href,
+];
 
-    const realReviews = data.reviews.filter((r) => !("filler" in r));
+function isFiller(r: IReview | IFiller): r is IFiller {
+    return "filler" in r;
+}
 
-    let cardsToRender = [];
+interface ReviewCardSliderProps {
+    reviews: (IReview | IFiller)[];
+}
 
-    if (realReviews.length >= 3) {
-        cardsToRender = [
-            ...realReviews,
-            { filler: true }, 
-        ];
-    } else {
-        const fillerCount = 3 - realReviews.length;
-        const fillerCards = Array.from({ length: fillerCount }, () => ({ filler: true }));
-        cardsToRender = [...realReviews, ...fillerCards];
-    }
+export default function ReviewCardSlider({ reviews }: ReviewCardSliderProps) {
+    const { text } = useReviewContext();
 
     return (
         <ul className="review__list">
-            {cardsToRender.map((r, i) => {
-                if ("filler" in r) {
+            {reviews.map((r, i) => {
+                const bgImage = backgroundImages[i % 3];
+
+                if (isFiller(r)) {
                     return (
                         <ReviewFillerCard
                             link={<SendReviewsLink />}
                             posIndex={i}
-                            key={text.fillerCard.head[i] ?? `filler-${i}`} 
+                            key={text.fillerCard.head[i] ?? `filler-${i}`}
+                            bgImage={bgImage}
                         />
                     );
                 }
@@ -43,6 +47,7 @@ export default function ReviewCardSlider() {
                         reviewText={r.content.label}
                         reviewerNickname={r.author.name.label}
                         rating={r["im:rating"].label}
+                        bgImage={bgImage}
                     />
                 );
             })}

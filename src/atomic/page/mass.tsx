@@ -183,6 +183,7 @@ export default function Bodymass() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor="#F0606C"
                 />
 
                     <section>

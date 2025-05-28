@@ -394,6 +394,7 @@ export default function Vitamin() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor="#1686FF"
                 />
 
                 <section>

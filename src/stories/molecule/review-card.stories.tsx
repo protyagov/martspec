@@ -18,6 +18,7 @@ export const ReviewCardStory: Story = () => (
                 reviewText="Это приложение стало настоящим открытием для меня! С его помощью я легко контролирую ежедневный прием необходимых витаминов, микроэлементов и пищевых..."
                 reviewerNickname="Vasprot"
                 rating="5"
+                bgImage={new URL("@/img/org/first-review-bg.svg", import.meta.url).href}
             />
         </ul>
     </div>

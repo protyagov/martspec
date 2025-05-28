@@ -21,6 +21,7 @@ interface IReviewContextData {
 interface IReviewContext {
     data: IReviewContextData;
     text: IReviewContextText;
+    themeColor?: string;
 }
 
 export const ReviewContext = createContext<IReviewContext | null>(null);
