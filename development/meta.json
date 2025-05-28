@@ -352,7 +352,7 @@
         "Organism"
       ],
       "locStart": 12,
-      "locEnd": 33,
+      "locEnd": 32,
       "filePath": "src/stories/organism/header.stories.tsx",
       "namedExport": "HeaderStory",
       "meta": {}
