@@ -46,19 +46,25 @@ export default function Review({ text, appId, codes, themeColor = "#1686FF" }: I
         [reviews]
     );
     
-    const { currentPage, totalPages, paginatedReviews, goToPage } = useReviewPagination(realReviews);
+    const cardsPerPage = React.useMemo(() => {
+        if (isMobile) return 1;
+        if (isTablet) return 2;
+        return 3;
+    }, [isMobile, isTablet]);
+    
+    const { currentPage, totalPages, paginatedReviews, goToPage } = useReviewPagination(realReviews, cardsPerPage);
 
     const cardsToRender = React.useMemo(() => {
         const cards: (IReview | IFiller)[] = [...paginatedReviews];
 
-        const fillerCount = 3 - cards.length;
+        const fillerCount = cardsPerPage - cards.length;
         if (fillerCount > 0) {
             const fillerCards = Array.from({ length: fillerCount }, () => ({ filler: true } as IFiller));
             cards.push(...fillerCards);
         }
 
         return cards;
-    }, [paginatedReviews]);
+    }, [paginatedReviews, cardsPerPage]);
 
     const sliderContent = (
         <>
