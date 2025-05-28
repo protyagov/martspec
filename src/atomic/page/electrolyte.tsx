@@ -52,174 +52,173 @@ export default function Electrolyte() {
     return (
         <>
             <NavigationBar />
-            <div className="electrolyte">
-                <div className="ms-base-page ms-base-new">
-                    <Header
-                        title={_("ELECTROLYTE.HEAD")}
+
+            <div className="ms-base-page ms-base-new">
+                <Header
+                    title={_("ELECTROLYTE.HEAD")}
+                    appId={appId}
+                    appDownloadTitle={_("ELECTROLYTE.DWN")}
+                    imgSrc="/img/page/electrolyte/Img-Header-en.webp"
+                    imgAlt={_("ELECTROLYTE.IMG")}
+                    imgH={405}
+                    imgW={550}
+                >
+                    <div className="electrolyte">
+                        <ul className="header-content-list">
+                            <li>{_("ELECTROLYTE.ABOUT_1")}</li>
+                            <li>{_("ELECTROLYTE.ABOUT_2")}</li>
+                            <li>{_("ELECTROLYTE.ABOUT_3")}</li>
+                        </ul>
+                    </div>
+                </Header>
+
+                <section>
+                    <div className="row d-flex justify-content-between g-4">
+                        <div className="col-12 col-xxl-6">
+                            <ImageI18N
+                                src="/img/page/electrolyte/Img-WhyElectrolit-en.webp"
+                                w={487}
+                                h={515}
+                                cls="ms-base-image mt-mob-xs mb-6"
+                                alt={_("ELECTROLYTE.IMG")}
+                            />
+                        </div>
+                        <div className="col-12 col-xxl-6">
+                            <CardTitleTextButton
+                                title={_("ELECTROLYTE.HEAD2")}
+                                textContent={[_("ELECTROLYTE.DESC2_1"), _("ELECTROLYTE.DESC2_2")]}
+                                buttonText={_("ELECTROLYTE.BTN_MORE")}
+                                buttonLink={Locale.i18nLink(`coming-soon`)}
+                                buttonColor="#8079CC"
+                            />
+                        </div>
+                    </div>
+                </section>
+
+                <section className="section">
+                    <div className="row mb-0">
+                        <div className="col-12 mb-2">
+                            <h2>{_("ELECTROLYTE.MINERALS_H2")}</h2>
+                            <p>{_("ELECTROLYTE.MINERALS_P")}</p>
+                        </div>
+
+                        <div className="row g-4 p-0">
+                            <TitleTextLinkCard
+                                title={_("ELECTROLYTE.HEAD3")}
+                                text={_("ELECTROLYTE.DESC3_1")}
+                                link={{
+                                    text: _("ELECTROLYTE.BTN_LINK"),
+                                    href: Locale.i18nLink(`vitamin/magnesium`),
+                                }}
+                                gridColumnClass="col-xxl-6"
+                                bgColor="#E5EEFF"
+                                additionalCardClass="electrolyte-card-style"
+                                arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                                color="#8079CC"
+                                hoverColor="#6760b7"
+                            />
+
+                            <TitleTextLinkCard
+                                title={_("ELECTROLYTE.HEAD4")}
+                                text={_("ELECTROLYTE.DESC4_1")}
+                                link={{
+                                    text: _("ELECTROLYTE.BTN_LINK"),
+                                    href: Locale.i18nLink(`vitamin/calcium`),
+                                }}
+                                image="/img/page/electrolyte/calcium.webp"
+                                alt="calcium"
+                                gridColumnClass="col-xxl-6"
+                                additionalCardClass="electrolyte-card-style"
+                                hasShadow={true}
+                                bgColor="transparent"
+                                imageZIndex={-1}
+                                arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                                color="#8079CC"
+                                hoverColor="#6760b7"
+                            />
+
+                            <TitleTextLinkCard
+                                title={_("ELECTROLYTE.HEAD5")}
+                                text={_("ELECTROLYTE.DESC5_1")}
+                                link={{
+                                    text: _("ELECTROLYTE.BTN_LINK"),
+                                    href: Locale.i18nLink(`vitamin/potassium`),
+                                }}
+                                image="/img/page/electrolyte/potassium.webp"
+                                alt="potassium"
+                                gridColumnClass="col-xxl-6"
+                                hasShadow={true}
+                                bgColor="transparent"
+                                additionalCardClass="electrolyte-card-style"
+                                imageZIndex={-1}
+                                arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                                color="#8079CC"
+                                hoverColor="#6760b7"
+                            />
+
+                            <TitleTextLinkCard
+                                title={_("ELECTROLYTE.HEAD6")}
+                                text={_("ELECTROLYTE.DESC6_1")}
+                                link={{
+                                    text: _("ELECTROLYTE.BTN_LINK"),
+                                    href: Locale.i18nLink(`vitamin/iron`),
+                                }}
+                                gridColumnClass="col-xxl-6"
+                                bgColor="#F4F5F8"
+                                additionalCardClass="electrolyte-card-style"
+                                arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
+                                color="#8079CC"
+                                hoverColor="#6760b7"
+                            />
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="row our-advantages-section">
+                        <div className="col-12">
+                            <h2>{_("ELECTROLYTE.HEAD8")}</h2>
+                        </div>
+                        <div className="col-12">
+                            <IconTitleTextList items={advantages} />
+                        </div>
+                    </div>
+                </section>
+
+                <Review
+                    appId={appId}
+                    codes={{
+                        countryCode: Locale.countryCode,
+                        languageCode: Locale.language,
+                    }}
+                    text={{
+                        head: _("REVIEW.HEAD"),
+                        description: _("REVIEW.DESCRIPTION"),
+                        link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        fillerCard: {
+                            head: [
+                                _("REVIEW.FILLER_CARD.HEAD1"),
+                                _("REVIEW.FILLER_CARD.HEAD2"),
+                                _("REVIEW.FILLER_CARD.HEAD3"),
+                            ],
+                            link: _("REVIEW.FILLER_CARD.LINK"),
+                        },
+                    }}
+                />
+
+                <section>
+                    <CallToAction
+                        title="ELECTROLYTE.HEAD9"
+                        subtitle="ELECTROLYTE.DESC9"
                         appId={appId}
-                        appDownloadTitle={_("ELECTROLYTE.DWN")}
-                        imgSrc="/img/page/electrolyte/Img-Header-en.webp"
-                        imgAlt={_("ELECTROLYTE.IMG")}
-                        imgH={531}
-                        imgW={722}
-                        content={
-                            <ul className="header-content-list">
-                                <li>{_("ELECTROLYTE.ABOUT_1")}</li>
-                                <li>{_("ELECTROLYTE.ABOUT_2")}</li>
-                                <li>{_("ELECTROLYTE.ABOUT_3")}</li>
-                            </ul>
-                        }
+                        appDownloadTitle={_("EMOTION.DWN")}
+                        imgSrc="/img/page/electrolyte/img-banner-en.webp"
+                        imgAlt={_("ZINC.ALT2")}
                     />
-
-                    <section>
-                        <div className="row d-flex justify-content-between g-4">
-                            <div className="col-12 col-xxl-6">
-                                <ImageI18N
-                                    src="/img/page/electrolyte/Img-WhyElectrolit-en.webp"
-                                    w={487}
-                                    h={515}
-                                    cls="ms-base-image mt-mob-xs mb-6"
-                                    alt={_("ELECTROLYTE.IMG")}
-                                />
-                            </div>
-                            <div className="col-12 col-xxl-6">
-                                <CardTitleTextButton
-                                    title={_("ELECTROLYTE.HEAD2")}
-                                    textContent={[_("ELECTROLYTE.DESC2_1"), _("ELECTROLYTE.DESC2_2")]}
-                                    buttonText={_("ELECTROLYTE.BTN_MORE")}
-                                    buttonLink={Locale.i18nLink(`coming-soon`)}
-                                    buttonColor="#8079CC"
-                                />
-                            </div>
-                        </div>
-                    </section>
-
-                    <section className="section">
-                        <div className="row mb-0">
-                            <div className="col-12 mb-2">
-                                <h2>{_("ELECTROLYTE.MINERALS_H2")}</h2>
-                                <p>{_("ELECTROLYTE.MINERALS_P")}</p>
-                            </div>
-
-                            <div className="row g-4 p-0">
-                                <TitleTextLinkCard
-                                    title={_("ELECTROLYTE.HEAD3")}
-                                    text={_("ELECTROLYTE.DESC3_1")}
-                                    link={{
-                                        text: _("ELECTROLYTE.BTN_LINK"),
-                                        href: Locale.i18nLink(`vitamin/magnesium`),
-                                    }}
-                                    gridColumnClass="col-xxl-6"
-                                    bgColor="#E5EEFF"
-                                    additionalCardClass="electrolyte-card-style"
-                                    arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
-                                    color="#8079CC"
-                                    hoverColor="#6760b7"
-                                />
-
-                                <TitleTextLinkCard
-                                    title={_("ELECTROLYTE.HEAD4")}
-                                    text={_("ELECTROLYTE.DESC4_1")}
-                                    link={{
-                                        text: _("ELECTROLYTE.BTN_LINK"),
-                                        href: Locale.i18nLink(`vitamin/calcium`),
-                                    }}
-                                    image="/img/page/electrolyte/calcium.webp"
-                                    alt="calcium"
-                                    gridColumnClass="col-xxl-6"
-                                    additionalCardClass="electrolyte-card-style"
-                                    hasShadow={true}
-                                    bgColor="transparent"
-                                    imageZIndex={-1}
-                                    arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
-                                    color="#8079CC"
-                                    hoverColor="#6760b7"
-                                />
-
-                                <TitleTextLinkCard
-                                    title={_("ELECTROLYTE.HEAD5")}
-                                    text={_("ELECTROLYTE.DESC5_1")}
-                                    link={{
-                                        text: _("ELECTROLYTE.BTN_LINK"),
-                                        href: Locale.i18nLink(`vitamin/potassium`),
-                                    }}
-                                    image="/img/page/electrolyte/potassium.webp"
-                                    alt="potassium"
-                                    gridColumnClass="col-xxl-6"
-                                    hasShadow={true}
-                                    bgColor="transparent"
-                                    additionalCardClass="electrolyte-card-style"
-                                    imageZIndex={-1}
-                                    arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
-                                    color="#8079CC"
-                                    hoverColor="#6760b7"
-                                />
-
-                                <TitleTextLinkCard
-                                    title={_("ELECTROLYTE.HEAD6")}
-                                    text={_("ELECTROLYTE.DESC6_1")}
-                                    link={{
-                                        text: _("ELECTROLYTE.BTN_LINK"),
-                                        href: Locale.i18nLink(`vitamin/iron`),
-                                    }}
-                                    gridColumnClass="col-xxl-6"
-                                    bgColor="#F4F5F8"
-                                    additionalCardClass="electrolyte-card-style"
-                                    arrowImage={<img src="/img/page/electrolyte/arrow-icon.webp" width={19} />}
-                                    color="#8079CC"
-                                    hoverColor="#6760b7"
-                                />
-                            </div>
-                        </div>
-                    </section>
-
-                    <section>
-                        <div className="row our-advantages-section">
-                            <div className="col-12">
-                                <h2>{_("ELECTROLYTE.HEAD8")}</h2>
-                            </div>
-                            <div className="col-12">
-                                <IconTitleTextList items={advantages} />
-                            </div>
-                        </div>
-                    </section>
-
-                    <Review
-                        appId={appId}
-                        codes={{
-                            countryCode: Locale.countryCode,
-                            languageCode: Locale.language,
-                        }}
-                        text={{
-                            head: _("REVIEW.HEAD"),
-                            description: _("REVIEW.DESCRIPTION"),
-                            link: _("REVIEW.LINK_ALL_REVIEWS"),
-                            fillerCard: {
-                                head: [
-                                    _("REVIEW.FILLER_CARD.HEAD1"),
-                                    _("REVIEW.FILLER_CARD.HEAD2"),
-                                    _("REVIEW.FILLER_CARD.HEAD3"),
-                                ],
-                                link: _("REVIEW.FILLER_CARD.LINK"),
-                            },
-                        }}
-                    />
-
-                    <section>
-                        <CallToAction
-                            title="ELECTROLYTE.HEAD9"
-                            subtitle="ELECTROLYTE.DESC9"
-                            appId={appId}
-                            appDownloadTitle={_("EMOTION.DWN")}
-                            imgSrc="/img/page/electrolyte/img-banner-en.webp"
-                            imgAlt={_("ZINC.ALT2")}
-                        />
-                    </section>
-                </div>
-
-                <Footer />
-                <ScrollButton color="#8079CC" />
+                </section>
             </div>
+            <Footer />
+            <ScrollButton color="#8079CC" />
         </>
     );
 }

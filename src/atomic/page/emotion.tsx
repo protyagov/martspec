@@ -62,16 +62,17 @@ export default function Emotion() {
                     appDownloadTitle={_("EMOTION.DWN")}
                     imgSrc="/img/page/emotion/emotion-header-img-en.webp"
                     imgAlt={_("EMOTION.IMG")}
-                    imgH={531}
-                    imgW={722}
-                    content={
+                    imgH={405}
+                    imgW={550}
+                >
+                    <div className="emotion">
                         <ul className="header-content-list">
                             <li>{_("EMOTION.ABOUT_1")}</li>
                             <li>{_("EMOTION.ABOUT_2")}</li>
                             <li>{_("EMOTION.ABOUT_3")}</li>
                         </ul>
-                    }
-                />
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row g-4">

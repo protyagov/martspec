@@ -22,7 +22,6 @@ export default function LandingPage() {
             <div className="ms-base-page ms-base-new">
                 <Header
                     title={_("MAIN.HEAD")}
-                    content={<p className="font-normal mb-1">{_("MAIN.SUBHEAD")}</p>}
                     rowItems={
                         <>
                             <Counter
@@ -41,12 +40,14 @@ export default function LandingPage() {
                                 altText={_("MAIN.COUNTERS.COUNTER_3.ALT")}
                             />
                         </>
-                        }
+                    }
                     imgSrc="/img/page/main/Img-Header-en.webp"
                     imgH={496}
                     imgW={674}
                     imgAlt={_("MAIN.ALT")}
-                />
+                >
+                    <p className="font-normal mb-1">{_("MAIN.SUBHEAD")}</p>
+                </Header>
             </div>
 
             <section className="ms-s-offset mb-0 ms-base-new ms-base-page">
@@ -61,16 +62,24 @@ export default function LandingPage() {
                         />
                     </div>
                     <div>
-                        <h2 className="mb-5 m-0" style={{fontSize: "3.08rem"}}>{_("MAIN.HEAD2")}</h2>
-                        <ul className="d-flex flex-column gap-4 simplify-life-list" style={{ listStyleType: "disc", paddingLeft: "1.4rem" }}>
+                        <h2 className="mb-5 m-0" style={{ fontSize: "3.08rem" }}>
+                            {_("MAIN.HEAD2")}
+                        </h2>
+                        <ul
+                            className="d-flex flex-column gap-4 simplify-life-list"
+                            style={{ listStyleType: "disc", paddingLeft: "1.4rem" }}
+                        >
                             <li>
-                                <strong>{_("MAIN.LIST.LI1_HEAD")}</strong>{_("MAIN.LIST.LI1_TEXT")}
+                                <strong>{_("MAIN.LIST.LI1_HEAD")}</strong>
+                                {_("MAIN.LIST.LI1_TEXT")}
                             </li>
                             <li>
-                                <strong>{_("MAIN.LIST.LI2_HEAD")}</strong>{_("MAIN.LIST.LI2_TEXT")}
+                                <strong>{_("MAIN.LIST.LI2_HEAD")}</strong>
+                                {_("MAIN.LIST.LI2_TEXT")}
                             </li>
                             <li>
-                                <strong>{_("MAIN.LIST.LI3_HEAD")}</strong>{_("MAIN.LIST.LI3_TEXT")}
+                                <strong>{_("MAIN.LIST.LI3_HEAD")}</strong>
+                                {_("MAIN.LIST.LI3_TEXT")}
                             </li>
                         </ul>
                     </div>
@@ -100,7 +109,7 @@ export default function LandingPage() {
                         />
                     </div>
                 </div>
-                
+
                 <div className="row g-3 d-flex align-items-stretch mb-5">
                     <div className="col-xl-4 col-sm-6 d-flex">
                         {/* Кольцо Витамин */}
@@ -247,7 +256,7 @@ export default function LandingPage() {
                                 text: _("COMING_SOON.SOON_BTN"),
                                 link: Locale.i18nLink("coming-soon"),
                                 color: "#E5EEFF",
-                                textColor: "#1686FF"
+                                textColor: "#1686FF",
                             }}
                         />
                     </div>
@@ -265,7 +274,7 @@ export default function LandingPage() {
                                 text: _("COMING_SOON.SOON_BTN"),
                                 link: Locale.i18nLink("coming-soon"),
                                 color: "#E5EEFF",
-                                textColor: "#1686FF"
+                                textColor: "#1686FF",
                             }}
                         />
                     </div>
@@ -283,7 +292,7 @@ export default function LandingPage() {
                                 text: _("COMING_SOON.SOON_BTN"),
                                 link: Locale.i18nLink("coming-soon"),
                                 color: "#E5EEFF",
-                                textColor: "#1686FF"
+                                textColor: "#1686FF",
                             }}
                         />
                     </div>
@@ -302,7 +311,7 @@ export default function LandingPage() {
                             text: _("COMING_SOON.SOON_BTN"),
                             link: Locale.i18nLink("coming-soon"),
                             color: "#E5EEFF",
-                            textColor: "#1686FF"
+                            textColor: "#1686FF",
                         }}
                         imageSrc="/img/page/energy/energy-main-page.webp"
                         imageAlt={_("ENERGY.IMG")}
@@ -311,7 +320,7 @@ export default function LandingPage() {
                 </div>
             </section>
 
-                {/*
+            {/*
                     div wrapper for proper side margins and fonts, 
                     it's only needed for this page 
                     and can be easily removed when this page is redesigned.
