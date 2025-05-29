@@ -1040,7 +1040,11 @@
         "BTN_OPEN": "Mesure",
         "ABOUT_1": "Calcul automatique de la morphologie corporelle à l'aide de la formule de Bradley Bayou",
         "ABOUT_2": "Compatibilité complète avec Apple Santé",
-        "ABOUT_3": "Sauvegarde enregistrée dans votre cloud personnel iCloud"
+        "ABOUT_3": "Sauvegarde enregistrée dans votre cloud personnel iCloud",
+        "CALL_TO_ACTION": {
+            "HEAD": "Prenez le contrôle de votre corps en pleine conscience",
+            "DESC": "Personnalisez votre suivi de progression et atteignez vos objectifs grâce à des mesures personnalisables. Rendez votre parcours vers une santé et une forme idéales plus conscient, précis et personnalisé"
+        }
     },
     "EMOTION": {
         "HEAD": "Émotion",
