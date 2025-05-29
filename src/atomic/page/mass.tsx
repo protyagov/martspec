@@ -77,8 +77,8 @@ export default function Bodymass() {
                     appDownloadTitle={_("MASS.DWN")}
                     imgSrc="/img/page/body-mass/mass-header-en.webp"
                     imgAlt={_("MASS.IMG")}
-                    imgH={405}
-                    imgW={550}
+                    imgH={314}
+                    imgW={425}
                 >
                     <div className="bodymass">
                         <ul className="header-content-list">
