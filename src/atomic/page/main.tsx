@@ -42,8 +42,8 @@ export default function LandingPage() {
                         </>
                     }
                     imgSrc="/img/page/main/Img-Header-en.webp"
-                    imgH={496}
-                    imgW={674}
+                    imgH={405}
+                    imgW={550}
                     imgAlt={_("MAIN.ALT")}
                 >
                     <p className="font-normal mb-1">{_("MAIN.SUBHEAD")}</p>
