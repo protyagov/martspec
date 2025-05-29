@@ -40,7 +40,7 @@
         "OUR_PRODUCTS": "应用"
     },
     "REVIEW": {
-        "HEAD": "用户评价",
+        "HEAD": "砐竷謺 桏譔桏譔",
         "DESCRIPTION": "我们重视您对我们产品的意见，并随时回复评论。更多评论请访问 App Store 的应用程序页面",
         "LINK_ALL_REVIEWS": "阅读更多评论",
         "FILLER_CARD": {
@@ -97,7 +97,7 @@
         }
     },
     "MASS": {
-        "HEAD": "体重记录",
+        "HEAD": "体重",
         "SUBHEAD": "最方便的体重日记",
         "ICO": "最便捷体重日记的图标。与iCloud同步。无广告和授权。",
         "IMG": "一位女士站在体重秤上，使用运行 Martspec 体重应用程序的 Apple Watch 测量体重。",
