@@ -48,6 +48,8 @@ export default function ReviewCardSlider({ reviews }: ReviewCardSliderProps) {
                         reviewerNickname={r.author.name.label}
                         rating={r["im:rating"].label}
                         bgImage={bgImage}
+                        reviewLink={r.link.attributes.href}
+                        readMoreText={text.readMoreLink} 
                     />
                 );
             })}

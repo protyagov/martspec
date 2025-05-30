@@ -1,5 +1,6 @@
 import React from "react";
 import StarIcon from "@/atomic/atom/star-icon";
+import RightArrowIcon from "../atom/right-arrow-icon";
 import { useReviewValidatedMsg } from "@/hooks/useReviewValidatedMsg";
 import { useReviewContext } from "./review-context";
 
@@ -9,11 +10,13 @@ interface IReviewCardProps {
     reviewText: string;
     rating: string;
     bgImage: string;
+    reviewLink: string;
+    readMoreText: string; 
 }
 
 const formatDate = (date: string) => new Date(date).toLocaleDateString("ru-RU");
 
-export default function ReviewCard({ reviewerNickname, createdDate, reviewText, rating, bgImage }: IReviewCardProps) {
+export default function ReviewCard({ reviewerNickname, createdDate, reviewText, rating, bgImage, reviewLink, readMoreText }: IReviewCardProps) {
     const { themeColor } = useReviewContext();
     const { reviewTextRef, validatedData } = useReviewValidatedMsg({
         data: { origMsg: reviewText },
@@ -35,7 +38,21 @@ export default function ReviewCard({ reviewerNickname, createdDate, reviewText, 
                 <time dateTime={createdDate}>{formatDate(createdDate)}</time>
             </header>
 
-            <p ref={reviewTextRef}>{validatedData.content}</p>
+            <div className="review-card__content">
+                <p ref={reviewTextRef}>{validatedData.content}</p>
+                {validatedData.overflowFlag && (
+                    <a 
+                        href={reviewLink}
+                        className="review-card__read-more"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: themeColor }}
+                    >
+                        <span>{readMoreText}</span>
+                        <RightArrowIcon style={{ marginLeft: "0.5em", verticalAlign: "middle" }} />
+                    </a>
+                )}
+            </div>
         </li>
     );
 }

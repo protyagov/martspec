@@ -19,6 +19,8 @@ export const ReviewCardStory: Story = () => (
                 reviewerNickname="Vasprot"
                 rating="5"
                 bgImage={new URL("@/img/org/first-review-bg.svg", import.meta.url).href}
+                reviewLink="https://apps.apple.com/ru/app/id123456789?action=write-review"
+                readMoreText={_("REVIEW.READ_MORE_LINK")}
             />
         </ul>
     </div>

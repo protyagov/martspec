@@ -7,6 +7,7 @@ export interface IReviewContextText {
     head: string;
     link: string;
     description: string;
+    readMoreLink: string;
     fillerCard: {
         head: [string, string, string];
         link: string;
