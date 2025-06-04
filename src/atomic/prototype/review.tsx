@@ -68,7 +68,12 @@ export default function Review({ text, appId, codes, themeColor = "#1686FF" }: I
 
     const sliderContent = (
         <>
-            <ReviewCardSlider reviews={cardsToRender} />
+            <ReviewCardSlider 
+                reviews={cardsToRender} 
+                currentPage={currentPage}
+                onPageChange={goToPage}
+                totalPages={totalPages}
+            />
             {!isLoading && (
                 <ReviewPagination
                     totalPages={totalPages}

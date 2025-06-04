@@ -1,5 +1,6 @@
 import React from "react";
 import { useMediaQuery } from "@/hooks";
+import { useSwipeable } from "react-swipeable";
 
 import ReviewCard from "@/atomic/molecule/review-card";
 import ReviewFillerCard from "@/atomic/molecule/review-filler-card";
@@ -20,14 +21,32 @@ function isFiller(r: IReview | IFiller): r is IFiller {
 
 interface ReviewCardSliderProps {
     reviews: (IReview | IFiller)[];
+    currentPage: number;
+    onPageChange: (page: number) => void;
+    totalPages: number;
 }
 
-export default function ReviewCardSlider({ reviews }: ReviewCardSliderProps) {
+export default function ReviewCardSlider({ reviews, currentPage, onPageChange, totalPages }: ReviewCardSliderProps) {
     const { text } = useReviewContext();
     const isMobile = useMediaQuery("(max-width: 991px)");
 
+    const handlers = useSwipeable({
+        onSwipedLeft: () => {
+            if (isMobile && currentPage < totalPages - 1) {
+                onPageChange(currentPage + 1);
+            }
+        },
+        onSwipedRight: () => {
+            if (isMobile && currentPage > 0) {
+                onPageChange(currentPage - 1);
+            }
+        },
+        preventScrollOnSwipe: true,
+        trackMouse: false
+    });
+
     return (
-        <ul className="review__list">
+        <ul className="review__list" {...handlers}>
             {reviews.map((r, i) => {
                 const bgImage = backgroundImages[i % 3];
 
