@@ -1,4 +1,5 @@
 import React from "react";
+import { useMediaQuery } from "@/hooks";
 
 import ReviewCard from "@/atomic/molecule/review-card";
 import ReviewFillerCard from "@/atomic/molecule/review-filler-card";
@@ -23,6 +24,7 @@ interface ReviewCardSliderProps {
 
 export default function ReviewCardSlider({ reviews }: ReviewCardSliderProps) {
     const { text } = useReviewContext();
+    const isMobile = useMediaQuery("(max-width: 991px)");
 
     return (
         <ul className="review__list">

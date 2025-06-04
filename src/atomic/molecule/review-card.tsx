@@ -3,6 +3,7 @@ import StarIcon from "@/atomic/atom/star-icon";
 import RightArrowIcon from "../atom/right-arrow-icon";
 import { useReviewValidatedMsg } from "@/hooks/useReviewValidatedMsg";
 import { useReviewContext } from "./review-context";
+import { useMediaQuery } from "@/hooks";
 
 interface IReviewCardProps {
     reviewerNickname: string;
@@ -18,14 +19,15 @@ const formatDate = (date: string) => new Date(date).toLocaleDateString("ru-RU");
 
 export default function ReviewCard({ reviewerNickname, createdDate, reviewText, rating, bgImage, reviewLink, readMoreText }: IReviewCardProps) {
     const { themeColor } = useReviewContext();
+    const isMobile = useMediaQuery("(max-width: 991px)");
     const { reviewTextRef, validatedData } = useReviewValidatedMsg({
         data: { origMsg: reviewText },
         settings: { rows: 8, resizeDelay: 100, endElem: <span key={reviewText}>...</span> },
     });
 
     return (
-        <li className="review-card" style={{ backgroundColor: themeColor }}>
-            <div className="review-card__bg" style={{ backgroundImage: `url(${bgImage})` }} />
+        <li className="review-card" style={{ backgroundColor: isMobile ? 'transparent' : themeColor }}>
+            {!isMobile && <div className="review-card__bg" style={{ backgroundImage: `url(${bgImage})` }} />}
             <header className="review-card__header">
                 <div className="review-card__header-main">
                     <h3>{reviewerNickname}</h3>

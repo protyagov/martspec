@@ -143,5 +143,4 @@ export const ReviewCardSliderStory: Story = () => (
     </ReviewContext.Provider>
 );
 
-ReviewCardSliderStory.decorators = [PageWrapper];
 ReviewCardSliderStory.storyName = "ReviewCardSlider";
