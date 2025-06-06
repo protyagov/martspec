@@ -50,25 +50,6 @@ export default function Electrolyte() {
         },
     ];
 
-    const lang = Locale.language;
-
-    const imgSrcMap: Record<string, string> = {
-        en: "/img/page/electrolyte/img-banner-en.webp",
-        ru: "/img/page/electrolyte/img-banner-ru.webp",
-        fr: "/img/page/electrolyte/img-banner-fr.webp",
-        de: "/img/page/electrolyte/img-banner-de.webp",
-        es: "/img/page/electrolyte/img-banner-es.webp",
-        pt: "/img/page/electrolyte/img-banner-pt.webp",
-        uk: "/img/page/electrolyte/img-banner-uk.webp",
-        ja: "/img/page/electrolyte/img-banner-ja.webp",
-        hi: "/img/page/electrolyte/img-banner-hi.webp",
-        ar: "/img/page/electrolyte/img-banner-ar.webp",
-        zh: "/img/page/electrolyte/img-banner-zh.webp",
-    };
-
-    const fallbackImg = "/img/page/electrolyte/img-banner-en.webp";
-    const imageSrc = imgSrcMap[lang] || fallbackImg;
-
     return (
         <>
             <NavigationBar />
@@ -232,7 +213,7 @@ export default function Electrolyte() {
                         subtitle="ELECTROLYTE.DESC9"
                         appId={appId}
                         appDownloadTitle={_("EMOTION.DWN")}
-                        imgSrc={imageSrc}
+                        imgSrc="/img/page/electrolyte/img-banner-en.webp"
                         imgAlt={_("ZINC.ALT2")}
                     />
                 </section>
