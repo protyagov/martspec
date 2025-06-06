@@ -60,7 +60,7 @@ export default function Bodymass() {
         {
             icon: {
                 src: "/img/atom/icons/icon-watch-widget.svg",
-                alt: _("MASS.ALT5_5"),
+                alt: _("MASS.ALT5_6"),
             },
             title: _("MASS.LIST3.LI6_HEAD"),
             subtitle: _("MASS.LIST3.LI6_TEXT"),

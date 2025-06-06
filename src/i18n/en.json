@@ -142,6 +142,7 @@
         "ALT5_3": "There is no need for login and password authorization. An account is not required to operate the application.",
         "ALT5_4": "We care about our users, so we do not use any intrusive advertising in the application.",
         "ALT5_5": "Sync with Apple Health.",
+        "ALT5_6": "Smartwatch icon showing app's support for Apple Watch widgets, allowing users to track data easily right from their wrist.",
         "BTN_OPEN": "Give up the fat"
     },
     "VITAMIN": {
