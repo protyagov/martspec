@@ -101,11 +101,6 @@ export default function NavigationBar() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="nav-link dropdown-item" href={Locale.i18nLink("mission")}>
-                                        {_("MISSION.HEAD")}
-                                    </a>
-                                </li>
-                                <li>
                                     <a className="nav-link dropdown-item" href={Locale.i18nLink("team")}>
                                         {_("TEAM.HEAD")}
                                     </a>

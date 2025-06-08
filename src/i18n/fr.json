@@ -1757,24 +1757,37 @@
         "CTA": "Suivez-nous",
         "SOON_BTN": "En développement"
     },
-    "MISSION": {
-        "HEAD": "Mission",
-        "M": "Nous permettons à chacun de suivre rapidement et facilement sa santé et son bien-être.",
-        "ABOUT_1": "Nous permettons à chacun de suivre rapidement et facilement sa santé et son bien-être.",
-        "P1": "Notre mission nous amène à faire tout notre possible pour développer le potentiel humain. Nous le faisons en suivant 3 concepts de base :",
-        "P1_1": "Créer des innovations technologiques révolutionnaires",
-        "P1_2": "Rendre nos applications plus inspirantes et plus belles",
-        "P1_3": "Écouter les commentaires de nos communautés",
-        "P2": "Pour réaliser notre ambition, nous commençons par la science. La recherche et l'analyse scientifiques publiées jouent un rôle important dans le développement d'améliorations. Avec nos utilisateurs, nous cherchons des moyens de suivre, de mesurer et d'appliquer le bien-être plus efficacement. Les commentaires sont un outil important pour débloquer les innovations futures, y compris la création de nouvelles applications, l'amélioration des applications existantes et même la suppression d'applications qui ne profitent pas aux utilisateurs."
-    },
     "ABOUT": {
-        "HEAD": "À propos de nous",
-        "P1": "Martspec a été fondée 🌱 au printemps 2020. Pendant cette période, de nombreuses personnes travaillaient à domicile et leurs routines quotidiennes ont changé, ce qui a amené beaucoup d'entre elles à arrêter de faire de l'exercice régulièrement. Cela a entraîné des changements importants dans leur corps et leur santé.",
-        "P2": "Nos applications de bien-être sont spécialement conçues pour fournir aux utilisateurs les outils nécessaires pour cultiver des habitudes saines. En suivant méticuleusement leurs progrès, les individus se souviennent chaque jour de leur dévouement inébranlable envers leur santé, ce qui conduit finalement à des améliorations substantielles de leur bien-être général.",
-        "P3": "Les personnes qui surveillent quotidiennement leur bien-être ont tendance à réaliser de plus grands progrès que celles qui ne le font pas.",
-        "P4": "Nous croyons passionnément au pouvoir des idées pour changer les attitudes, les vies et, en fin de compte, le monde. Notre première idée était de créer une application qui suit le poids corporel directement à partir d'appareils portables. Nous avons développé l’application Poids pour Apple Watch, facilitant le suivi du poids corporel et enregistrant automatiquement les mesures dans L’app Santé. Le design épuré et minimaliste de l’application l’a rendue très populaire.",
-        "P5": "L'une de nos dernières applications, Émotion, vise à promouvoir le bien-être mental en proposant un test de personnalité rapide et simple. En plus du bien-être physique et du suivi de la santé, nous avons créé notre première application, Émotion, pour promouvoir le bien-être mental. Depuis sa création, ce produit n’a reçu que des avis positifs et bénéficie presque exclusivement de notes 5 étoiles.",
-        "P6": "Nos applications sont construites avec une technologie de pointe et sont disponibles dans plusieurs langues dans le monde. Cependant, rien de tout cela n’a d’importance. Il ne s’agit pas seulement du nombre d’applications et de logiciels de pointe. Martspec concerne les gens. Martspec, c'est la confiance dans la technologie qui permet aux individus d'assurer leur santé et leur bien-être personnels."
+        "HEAD": "Notre histoire",
+        "HEAD1": "Mission",
+        "DESC1": "Nous nous efforçons de permettre à chacun de suivre sa santé de manière simple et accessible. Nos applications sont développées avec des technologies de pointe et sont disponibles en plusieurs langues à travers le monde. Martspec incarne la confiance dans la technologie qui permet aux gens de prendre soin de leur santé et de leur bien-être",
+        "P1": "Nous avons commencé avec un petit projet inspiré par l'idée de rendre les solutions numériques plus accessibles et compréhensibles. Depuis, nous sommes devenus une équipe qui crée des applications utilisées chaque jour par des milliers de personnes.",
+        "P2": "Découvrez nos applications sur l'App Store",
+        "P3": "Découvrez comment les technologies de Martspec vous aident à suivre votre santé, à créer des habitudes et à vous sentir mieux chaque jour",
+        "P4": "L'entreprise Martspec a été fondée au printemps 2020. À cette époque, de nombreuses personnes travaillaient à domicile et leur routine quotidienne a changé. En conséquence, la plupart ont cessé de faire de l'exercice régulièrement, ce qui a entraîné des changements importants dans leur corps et leur santé.",
+        "P5": "Nos applications sont conçues pour fournir aux utilisateurs des outils leur permettant d'adopter des habitudes saines. En suivant leurs progrès, les gens se rappellent chaque jour leur engagement envers leur santé, ce qui améliore leur bien-être général.",
+        "P6": "Les personnes qui prennent soin de leur bien-être au quotidien font plus de progrès.",
+        "P7": "Début",
+        "CART": {
+            "ALT1": "Innovation",
+            "ALT2": "Produits élégants",
+            "ALT3": "Avis des clients",
+            "TITLE1": "Nous créons des innovations technologiques",
+            "TITLE2": "Nous rendons nos produits pratiques et esthétiques",
+            "TITLE3": "Nous étudions attentivement les retours de nos utilisateurs",
+            "TEXT1": "Les recherches scientifiques publiées et les analyses jouent un rôle important dans le développement des améliorations. Nos produits aident les gens à mieux comprendre leur corps, à surveiller leur taux de nutriments et à adopter de bonnes habitudes",
+            "TEXT2": "Nous développons des applications pratiques et élégantes avec un design réfléchi, afin que les utilisateurs puissent facilement et avec plaisir suivre leurs indicateurs de santé et adopter des habitudes saines",
+            "TEXT3": "Avec nos utilisateurs, nous cherchons les meilleures façons de suivre et de mesurer efficacement les indicateurs de santé. Le retour d’information est un outil essentiel pour créer de nouvelles applications et améliorer celles existantes"
+        },
+        "NOW": {
+            "HEAD1": "Maintenant",
+            "TEXT1": "Nous croyons au pouvoir des idées capables de changer notre vision de la vie. La première idée était de créer une application qui suit le poids corporel à l’aide d’appareils portables.",
+            "TEXT2": "Nous avons développé l’application Poids pour l’Apple Watch. Elle facilite le suivi du poids et enregistre automatiquement les mesures dans Apple Santé.",
+            "TEXT3": "L'une de nos applications les plus récentes, Émotion, aide à suivre la santé mentale et l'état physique en proposant un test de personnalité rapide et simple.",
+            "TEXT4": "Depuis son lancement, ce produit a reçu de nombreux avis positifs et possède une note de 5,0.",
+            "TEXTBTN": "En savoir plus"
+        },
+        "IMG": "Découvrez nos applications sur l'App Store"
     },
     "TEAM": {
         "HEAD": "L'équipe",

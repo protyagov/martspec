@@ -1759,24 +1759,37 @@
         "CTA": "Folgen Sie uns",
         "SOON_BTN": "In Entwicklung"
     },
-    "MISSION": {
-        "HEAD": "Mission",
-        "M": "Wir machen es jedem schnell und einfach, seine Gesundheit und sein Wohlbefinden zu verfolgen.",
-        "ABOUT_1": "Wir machen es jedem schnell und einfach, seine Gesundheit und sein Wohlbefinden zu verfolgen.",
-        "P1": "Unsere Mission besteht darin, alles zu tun, um das menschliche Potenzial zu erweitern. Wir tun dies, indem wir die drei grundlegenden Konzepte befolgen:",
-        "P1_1": "Bahnbrechende technologische Innovationen schaffen",
-        "P1_2": "Unsere Apps inspirierender und schöner machen",
-        "P1_3": "Auf das Feedback unserer Communities hören",
-        "P2": "Um unser Ziel zu erreichen, beginnen wir mit der Wissenschaft. Veröffentlichte wissenschaftliche Forschungsergebnisse und Analysen spielen eine wichtige Rolle bei der Entwicklung von Verbesserungen. Gemeinsam mit unseren Nutzern suchen wir nach Möglichkeiten, Wellness effizienter zu verfolgen, zu messen und anzuwenden. Feedback ist ein wichtiges Instrument, um zukünftige Innovationen freizusetzen, einschließlich der Erstellung neuer Apps, Verbesserungen bestehender Apps und sogar der Einstellung von Apps, die den Menschen nicht zugute kommen."
-    },
     "ABOUT": {
-        "HEAD": "Über uns",
-        "P1": "In den frühen 1900er Jahren machte sich die Familie Martin auf den Weg aus ihrem kleinen Dorf in Deutschland in das Land der unbegrenzten Möglichkeiten - die Vereinigten Staaten. Mit dem Traum von einer besseren Zukunft ließen sie sich in einer belebten Stadt nieder und brachten die reichen Traditionen und Werte ihrer Heimat mit.",
-        "P2": "Jahre später gründete ihr Nachfahre, inspiriert von der Widerstandsfähigkeit und dem Engagement seiner Vorfahren, im Frühjahr 2020 🌱 Martspec. In dieser Zeit arbeiteten viele Menschen von zu Hause aus und ihre Tagesabläufe änderten sich, so dass viele aufhörten, regelmäßig Sport zu treiben. Dies führte zu erheblichen Veränderungen in ihrem Körper und ihrer Gesundheit. Martspec wurde aus dem Wunsch heraus geboren, Menschen dabei zu helfen, ihr Wohlbefinden trotz dieser Herausforderungen zu erhalten.",
-        "P3": "Die Wellness-Apps von Martspec wurden speziell entwickelt, um den Nutzern die Werkzeuge an die Hand zu geben, mit denen sie gesunde Gewohnheiten pflegen können. Durch die akribische Verfolgung ihrer Fortschritte werden die Menschen jeden Tag daran erinnert, dass sie sich ihrer Gesundheit widmen, was letztendlich zu einer erheblichen Verbesserung ihres allgemeinen Wohlbefindens führt. Personen, die ihr Wohlbefinden täglich überwachen, erzielen in der Regel größere Fortschritte als diejenigen, die dies nicht tun.",
-        "P4": "Das Unternehmen glaubt leidenschaftlich an die Kraft von Ideen, die Einstellungen, Leben und letztlich die Welt verändern können. Die erste Idee war, eine App zu entwickeln, die das Körpergewicht direkt über tragbare Geräte erfasst. Dies führte zur Entwicklung der Body Mass App für die Apple Watch, die die Verfolgung des Körpergewichts erleichtert und die Messungen automatisch in Apple Health aufzeichnet. Das klare und minimalistische Design der App machte sie sehr beliebt.",
-        "P5": "Eine der neuesten Apps, Emotion, zielt darauf ab, das mentale Wohlbefinden zu fördern, indem sie einen schnellen und einfachen Persönlichkeitstest anbietet. Neben dem körperlichen Wohlbefinden und der Überwachung der Gesundheit fördert Emotion auch das geistige Wohlbefinden. Seit seiner Entwicklung hat dieses Produkt nur positive Bewertungen erhalten und wird fast ausschließlich mit 5 Sternen bewertet.",
-        "P6": "Die Apps von Martspec werden mit modernster Technologie entwickelt und sind weltweit in mehreren Sprachen verfügbar. Was jedoch wirklich zählt, ist nicht nur das beeindruckende Angebot an Apps und branchenführender Software. Im Kern geht es bei Martspec um Menschen - um das Vertrauen in eine Technologie, die es dem Einzelnen ermöglicht, die Kontrolle über seine persönliche Gesundheit und sein Wohlbefinden zu übernehmen. So ist die Geschichte von Martin Specialties ein Zeugnis für die Kraft der Träume, der Entschlossenheit und des beständigen Geistes, der das Unternehmen vorantreibt. 🌟"
+        "HEAD": "Unsere Geschichte",
+        "HEAD1": "Mission",
+        "DESC1": "Wir streben danach, dass jeder Mensch einfach und unkompliziert seine Gesundheit im Blick behalten kann. Unsere Apps basieren auf modernster Technologie und sind in verschiedenen Sprachen weltweit verfügbar. Martspec steht für Vertrauen in Technologien, die es den Menschen ermöglichen, sich um ihre Gesundheit und ihr Wohlbefinden zu kümmern",
+        "P1": "Wir begannen mit einem kleinen Projekt, das von der Idee inspiriert war, digitale Lösungen zugänglicher und verständlicher zu machen. Seitdem sind wir zu einem Team gewachsen, das Apps entwickelt, die täglich von Tausenden Menschen genutzt werden.",
+        "P2": "Entdecken Sie unsere Apps im App Store",
+        "P3": "Erfahren Sie, wie Martspec-Technologien Ihnen helfen, Ihre Gesundheit zu verfolgen, Gewohnheiten zu entwickeln und sich jeden Tag besser zu fühlen",
+        "P4": "Das Unternehmen Martspec wurde im Frühjahr 2020 gegründet. Zu dieser Zeit arbeiteten viele Menschen von zu Hause aus, und ihr Tagesablauf änderte sich. Infolgedessen hörten die meisten auf, regelmäßig Sport zu treiben, was zu erheblichen Veränderungen in ihrem Körper und ihrer Gesundheit führte.",
+        "P5": "Unsere Apps wurden entwickelt, um den Nutzern Werkzeuge zur Entwicklung gesunder Gewohnheiten bereitzustellen. Indem sie ihren Fortschritt verfolgen, erinnern sich die Menschen täglich an ihr Engagement für ihre Gesundheit, was ihr allgemeines Wohlbefinden verbessert.",
+        "P6": "Menschen, die täglich auf ihr Wohlbefinden achten, erzielen größere Fortschritte.",
+        "P7": "Start",
+        "CART": {
+            "ALT1": "Innovationen",
+            "ALT2": "Schöne Produkte",
+            "ALT3": "Kundenmeinungen",
+            "TITLE1": "Wir schaffen technologische Innovationen",
+            "TITLE2": "Wir machen unsere Produkte benutzerfreundlich und schön",
+            "TITLE3": "Wir hören aufmerksam auf das Feedback unserer Nutzer",
+            "TEXT1": "Veröffentlichte wissenschaftliche Studien und Analysen spielen eine wichtige Rolle bei der Entwicklung von Verbesserungen. Unsere Produkte helfen den Menschen, ihren Körper besser zu verstehen, den Nährstoffgehalt zu kontrollieren und gesunde Gewohnheiten zu entwickeln",
+            "TEXT2": "Wir entwickeln benutzerfreundliche und stilvolle Apps mit durchdachtem Design, damit Nutzer ihre Gesundheitsdaten einfach und mit Freude verfolgen und gesunde Gewohnheiten entwickeln können",
+            "TEXT3": "Gemeinsam mit unseren Nutzern suchen wir nach den besten Möglichkeiten, Gesundheitsdaten effektiv zu verfolgen und zu messen. Feedback ist ein wichtiges Instrument zur Entwicklung neuer Apps und zur Verbesserung bestehender"
+        },
+        "NOW": {
+            "HEAD1": "Jetzt",
+            "TEXT1": "Wir glauben an die Kraft von Ideen, die unsere Einstellung zum Leben verändern können. Die erste Idee war, eine App zu entwickeln, die das Körpergewicht über tragbare Geräte verfolgt.",
+            "TEXT2": "Wir haben die App 'Gewicht' für die Apple Watch entwickelt. Sie vereinfacht die Gewichtserfassung und speichert die Messwerte automatisch in Apple Health.",
+            "TEXT3": "Eine unserer neuesten Apps, Emotion, hilft dabei, die psychische Gesundheit und den körperlichen Zustand zu verfolgen, indem sie einen schnellen und einfachen Persönlichkeitstest anbietet.",
+            "TEXT4": "Seit ihrer Einführung hat dieses Produkt viele positive Bewertungen erhalten und eine Bewertung von 5,0.",
+            "TEXTBTN": "Mehr erfahren"
+        },
+        "IMG": "Entdecken Sie unsere Apps im App Store"
     },
     "TEAM": {
         "HEAD": "Mannschaft",

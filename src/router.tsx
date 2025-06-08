@@ -14,7 +14,6 @@ import Emotion from "@/atomic/page/emotion";
 import Productivity from "@/atomic/page/emotion/productivity";
 import Biorhythms from "@/atomic/page/emotion/biorhythms";
 import About from "@/atomic/page/about";
-import Mission from "@/atomic/page/mission";
 import Team from "@/atomic/page/team";
 import Anxiety from "@/atomic/page/emotion/anxiety";
 import Harmony from "@/atomic/page/emotion/harmony";
@@ -73,8 +72,6 @@ export function App() {
             return <PrivacyPolicy />;
         case "/about":
             return <About />;
-        case "/mission":
-            return <Mission />;
         case "/team":
             return <Team />;
         case "/careers":
