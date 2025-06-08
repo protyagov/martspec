@@ -49,6 +49,7 @@ export default function Electrolyte() {
             subtitle: _("ELECTROLYTE.LIST.LI4_HEAD"),
         },
     ];
+
     return (
         <>
             <NavigationBar />
