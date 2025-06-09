@@ -1756,24 +1756,37 @@
         "CTA": "Follow us",
         "SOON_BTN": "In Development"
     },
-    "MISSION": {
-        "HEAD": "Mission",
-        "M": "We make it quick and easy for everyone to track their health and wellness.",
-        "ABOUT_1": "We make it quick and easy for everyone to track their health and wellness.",
-        "P1": "Our mission pushes us to do everything possible to expand human potential. We do that by following basic 3 concepts:",
-        "P1_1": "Create groundbreaking technology innovations",
-        "P1_2": "Make our apps more inspiring and beautiful",
-        "P1_3": "Listen to our communities' feedback",
-        "P2": "To achieve our ambition, we are starting with science. Published scientific research and analytics play an important part in the development of enhancements. With our active community, we are looking at ways to track, measure, and employ wellness more efficiently. Feedback is an important tool for unlocking future innovations, including creation of new apps, improvements to existing ones, and even sunsetting apps that do not benefit the people."
-    },
     "ABOUT": {
-        "HEAD": "About us",
-        "P1": "Martspec was founded 🌱 in the spring of 2020. During that time, many people worked from home and their daily routines changed, causing many to stop exercising regularly. This led to significant changes in their bodies and health.",
-        "P2": "Our wellness apps are specifically crafted to provide users with the tools to cultivate healthy habits. By meticulously tracking their progress, individuals are effectively reminded every day of their unwavering dedication to their health, which ultimately leads to substantial improvements in their overall well-being.",
-        "P3": "Individuals who monitor their well-being daily tend to achieve greater progress compared to those who do not.",
-        "P4": "We believe passionately in the power of ideas to change attitudes, lives, and, ultimately, the world. Our first idea was to create an app that tracks body weight directly from wearable devices. We developed the Body Mass app for Apple Watch, making bodyweight tracking easy and automatically recording measurements in Apple Health. The clean and minimalistic design of the app has made it very popular.",
-        "P5": "One of our latest apps, Emotion, aims to promote mental wellness by providing a fast and easy personality test. In addition to physical wellness and health tracking, we have created our first app, Emotion, to promote mental wellness. Since its creation, this product has received only positive reviews and has almost exclusively 5-star ratings.",
-        "P6": "Our apps are built with cutting-edge technology and are available in multiple languages globally. However, none of that matters. It isn't just about the number of apps and industry-leading software. Martspec is about people. Martspec is about trust in technology that empowers individuals with personal health and wellness."
+        "HEAD": "Our Story",
+        "HEAD1": "Mission",
+        "DESC1": "We strive to ensure that everyone can easily and simply monitor their health. Our apps are developed using advanced technologies and are available in multiple languages around the world. Martspec represents trust in technology that empowers people to take care of their health and well-being",
+        "P1": "We started with a small project inspired by the idea of making digital solutions more accessible and understandable. Since then, we've grown into a team creating apps used by thousands of people every day.",
+        "P2": "Explore our apps on the App Store",
+        "P3": "Discover how Martspec technologies help you track your health, build habits, and feel better every day",
+        "P4": "Martspec was founded in the spring of 2020. At that time, many people were working from home, and their daily routines changed. As a result, most stopped exercising regularly, which led to significant changes in their bodies and health.",
+        "P5": "Our apps are designed to provide users with tools to develop healthy habits. By tracking their progress, people are reminded every day of their commitment to health, which improves their overall well-being.",
+        "P6": "People who monitor their well-being daily achieve greater progress.",
+        "P7": "Start",
+        "CART": {
+            "ALT1": "Innovation",
+            "ALT2": "Beautiful Products",
+            "ALT3": "Customer Feedback",
+            "TITLE1": "We Create Technological Innovations",
+            "TITLE2": "We Make Our Products Convenient and Beautiful",
+            "TITLE3": "We Carefully Study Our Users’ Feedback",
+            "TEXT1": "Published scientific research and analytics play an important role in developing improvements. Our products help people better understand their bodies, monitor nutrient levels, and build healthy habits",
+            "TEXT2": "We design convenient and stylish apps with thoughtful design so users can easily and enjoyably track their health indicators and build healthy habits",
+            "TEXT3": "Together with users, we explore the best ways to effectively track and measure health indicators. Feedback is a crucial tool for creating new apps and improving existing ones"
+        },
+        "NOW": {
+            "HEAD1": "Now",
+            "TEXT1": "We believe in the power of ideas that can change the way we look at life. The first idea was to create an app that tracks body weight using wearable devices.",
+            "TEXT2": "We developed the Weight app for Apple Watch. It simplifies weight tracking and automatically records measurements in Apple Health.",
+            "TEXT3": "One of our latest apps, Emotion, helps track mental health and physical condition by offering a quick and simple personality test.",
+            "TEXT4": "Since its launch, this product has received many positive reviews and holds a 5.0 rating.",
+            "TEXTBTN": "Learn more"
+        },
+        "IMG": "Explore our apps on the App Store"
     },
     "TEAM": {
         "HEAD": "Our Team",
