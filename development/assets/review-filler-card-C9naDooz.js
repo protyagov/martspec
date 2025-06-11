@@ -1,0 +1,1 @@
+import{j as e}from"./index-CpyLt1x5.js";import{u as l}from"./review-context-DTr5U-vK.js";function d({link:r,posIndex:a}){const{text:i}=l();return e.jsx("li",{className:"review-card filler-card",children:e.jsxs("div",{className:"filler-card__wrapper",children:[e.jsx("h3",{className:"filler-card__header",children:i.fillerCard.head[a]}),r]})})}export{d as R};
