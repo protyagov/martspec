@@ -407,17 +407,6 @@ export default function Vitamin() {
                         imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
                         imgAlt={_("VITAMIN.ALT3")}
                     />
-                    {/* <div>
-                            <h2>{_("VITAMIN.HEAD6")}</h2>
-                            <p className="flex-grow-1">{_("VITAMIN.DESC6")}</p>
-                            <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
-                                target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-5 mx-lg-0 mx-auto"
-                                style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                            </a>
-                        </div>
-                        <ImageI18N src="/img/page/vitamin/vitamin-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("VITAMIN.ALT4")} /> */}
-                    {/* </div> */}
-                    {/* </div> */}
                 </section>
             </div>
             <Footer />

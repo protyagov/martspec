@@ -14,5 +14,6 @@ Allow: /img/
 Allow: /icon/
 Allow: /privacy-policy
 Disallow: /font/
+Disallow: /development
 
 Sitemap: https://martspec.com/sitemap.xml
