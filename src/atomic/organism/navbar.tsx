@@ -110,11 +110,8 @@ export default function NavigationBar() {
                                         {_("CAREERS.HEAD")}
                                     </a>
                                 </li>
-                                <li>
-                                    <a className="nav-link dropdown-item" href={Locale.i18nLink("privacy-policy")}>
-                                        {_("PP.HEAD")}
-                                    </a>
-                                </li>
+                                
+                                
                             </ul>
                         </li>
 
