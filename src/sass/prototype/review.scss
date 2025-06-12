@@ -42,7 +42,8 @@
 
     @mixin card-base {
     position: relative;
-    overflow: -moz-hidden-unscrollable;
+    // overflow: -moz-hidden-unscrollable;
+    overflow: hidden;
     border-radius: 2.3rem;
     border: 0.1rem solid #F4F5F8;
     box-shadow: 0 1.84rem 2.21rem 0 #959DA51A;

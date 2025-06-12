@@ -74,7 +74,7 @@ export default function Review({ text, appId, codes, themeColor = "#1686FF" }: I
                 onPageChange={goToPage}
                 totalPages={totalPages}
             />
-            {!isLoading && (
+            {!isLoading && !isMobile && (
                 <ReviewPagination
                     totalPages={totalPages}
                     currentPage={currentPage}
