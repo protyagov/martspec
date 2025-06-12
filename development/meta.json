@@ -324,17 +324,6 @@
       "namedExport": "CallToActionStory",
       "meta": {}
     },
-    "organism--call-to-action": {
-      "name": "Call to action",
-      "levels": [
-        "Organism"
-      ],
-      "locStart": 12,
-      "locEnd": 23,
-      "filePath": "src/stories/organism/call-to-action.stories.tsx",
-      "namedExport": "CallToActionStory",
-      "meta": {}
-    },
     "organism--footer": {
       "name": "Footer",
       "levels": [
