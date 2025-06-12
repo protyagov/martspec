@@ -109,9 +109,7 @@ export default function NavigationBar() {
                                     <a className="nav-link dropdown-item" href={Locale.i18nLink("careers")}>
                                         {_("CAREERS.HEAD")}
                                     </a>
-                                </li>
-                                
-                                
+                                </li>  
                             </ul>
                         </li>
 
