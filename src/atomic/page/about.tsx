@@ -30,7 +30,7 @@ export default function About() {
                     <p className="font-normal">{_("ABOUT.P1")}</p>
                 </Header>
                 <section>
-                    <div className="row d-flex flex-xxl-OURCORErap align-items-center justify-content-between gap-5">
+                    <div className="row d-flex flex-xxl-nowrap align-items-center justify-content-between gap-5">
                         <div className="col-12 col-xxl-6 order-2 order-xxl-1 me-xxl-5">
                             <ImageI18N
                                 src="/img/story-start.webp"
