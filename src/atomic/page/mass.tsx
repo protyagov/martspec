@@ -60,7 +60,7 @@ export default function Bodymass() {
         {
             icon: {
                 src: "/img/atom/icons/icon-watch-widget.svg",
-                alt: _("MASS.ALT5_5"),
+                alt: _("MASS.ALT5_6"),
             },
             title: _("MASS.LIST3.LI6_HEAD"),
             subtitle: _("MASS.LIST3.LI6_TEXT"),
@@ -76,7 +76,7 @@ export default function Bodymass() {
                     appId={appId}
                     appDownloadTitle={_("MASS.DWN")}
                     imgSrc="/img/page/body-mass/mass-header-en.webp"
-                    imgAlt={_("MASS.IMG")}
+                    imgAlt={_("MASS.IMG_HEAD_ALT")}
                     imgH={314}
                     imgW={425}
                 >
@@ -97,6 +97,7 @@ export default function Bodymass() {
                                 imgSrc="/img/page/body-mass/mid-pic-illustration.png"
                                 imgH={405}
                                 imgW={550}
+                                imgAlt={_("MASS.LI1_IMG_ALT")}
                                 imgPosition="default"
                             />
                         </div>
@@ -123,6 +124,7 @@ export default function Bodymass() {
                                 imgSrc="/img/page/body-mass/mid-pic-girl-and-apple.png"
                                 imgH={720}
                                 imgW={664}
+                                imgAlt={_("MASS.IMG_LIST_ALT")}
                                 bgColor="#F4F7FA"
                                 alignItems="end"
                                 justifyContent="end"
@@ -138,6 +140,7 @@ export default function Bodymass() {
                                 src="/img/page/body-mass/why-mass-en.webp"
                                 w={620}
                                 h={390}
+                                alt={_("MASS.IMG2_ALT")}
                                 cls="ms-base-image mt-mob-xs"
                             />
                         </div>
@@ -193,7 +196,7 @@ export default function Bodymass() {
                         appId={appId}
                         appDownloadTitle={_("MASS.DWN")}
                         imgSrc="/img/page/body-mass/Img-Banner-en.webp"
-                        imgAlt={_("MASS.ALT2")}
+                        imgAlt={_("MASS.IMG_CTA_ALT2")}
                     />
                 </section>
             </div>
