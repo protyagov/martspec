@@ -55,8 +55,8 @@ export default function About() {
                         <div className="d-flex flex-wrap justify-content-between about-command-block">
                             <div className="col-12 col-xxl-6">
                                 <CardTitleTextButton
-                                    title={_("ABOUT.NOW.HEAD1")}
-                                    textContent={[_("ABOUT.NOW.TEXT1"), _("ABOUT.NOW.TEXT2")]}
+                                    title={_("ABOUT.OURCORE.HEAD1")}
+                                    textContent={[_("ABOUT.OURCORE.TEXT1"), _("ABOUT.OURCORE.TEXT2"), _("ABOUT.OURCORE.TEXT3")]}
                                     buttonText={_("CAREERS.BUTTON3")}
                                     buttonLink={Locale.i18nLink(`bodymass`)}
                                     buttonColor="#1686FF"
@@ -84,12 +84,12 @@ export default function About() {
                             </div>
                             <div className="col-12 col-xxl-6 order-1 order-xxl-2">
                                 <ul className="d-flex flex-column gap-4 about__list">
-                                    <li>{_("ABOUT.NOW.TEXT3")}</li>
-                                    <li>{_("ABOUT.NOW.TEXT4")}</li>
+                                    <li>{_("ABOUT.OURCORE.TEXT4")}</li>
+                                    <li>{_("ABOUT.OURCORE.TEXT5")}</li>
                                 </ul>
                                 <div className="btn-container">
                                     <LinkStyledButton
-                                        text={_("ABOUT.NOW.TEXTBTN")}
+                                        text={_("ABOUT.OURCORE.TEXTBTN")}
                                         link={'/emotion'}
                                         color = "rgb(22, 134, 255)"
                                         textColor = "#fff"

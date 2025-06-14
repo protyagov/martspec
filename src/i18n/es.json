@@ -1780,12 +1780,13 @@
             "TEXT2": "Desarrollamos aplicaciones cómodas y con estilo, con un diseño bien pensado, para que los usuarios puedan seguir sus indicadores de salud de forma fácil y agradable, y formar hábitos saludables",
             "TEXT3": "Junto con los usuarios, buscamos las mejores formas de hacer un seguimiento y medición eficaz de los indicadores de salud. La retroalimentación es una herramienta clave para crear nuevas aplicaciones y mejorar las existentes"
         },
-        "NOW": {
-            "HEAD1": "Ahora",
-            "TEXT1": "Creemos en el poder de las ideas que pueden cambiar la forma en que vemos la vida. La primera idea fue crear una aplicación que rastrea el peso corporal mediante dispositivos portátiles.",
-            "TEXT2": "Desarrollamos la aplicación Peso para Apple Watch. Facilita el seguimiento del peso y registra automáticamente las mediciones en Apple Salud.",
-            "TEXT3": "Una de nuestras aplicaciones más recientes, Emoción, ayuda a monitorear la salud mental y el estado físico, ofreciendo una prueba de personalidad rápida y sencilla.",
-            "TEXT4": "Desde su lanzamiento, este producto ha recibido muchas opiniones positivas y tiene una calificación de 5.0.",
+        "OURCORE": {
+            "HEAD1": "Nuestra idea",
+            "TEXT1": "Creemos que una idea puede cambiarlo todo. ¿Nuestra primera idea? Una pequeña aplicación para Apple Watch que hace que el seguimiento de tu peso sea sencillo: solo toca y se sincroniza con Apple Health.",
+            "TEXT2": "Simple. Elegante. Instantáneo.",
+            "TEXT3": "Ya no es solo una idea. Está en tu muñeca.",
+            "TEXT4": "Una de nuestras aplicaciones más recientes, Emoción, ayuda a monitorear la salud mental y el estado físico, ofreciendo una prueba de personalidad rápida y sencilla.",
+            "TEXT5": "Desde su lanzamiento, este producto ha recibido muchas opiniones positivas y tiene una calificación de 5.0.",
             "TEXTBTN": "Saber más"
         },
         "IMG": "Descubre nuestras aplicaciones en la App Store"
