@@ -1778,12 +1778,13 @@
             "TEXT2": "We design convenient and stylish apps with thoughtful design so users can easily and enjoyably track their health indicators and build healthy habits",
             "TEXT3": "Together with users, we explore the best ways to effectively track and measure health indicators. Feedback is a crucial tool for creating new apps and improving existing ones"
         },
-        "NOW": {
-            "HEAD1": "Now",
-            "TEXT1": "We believe in the power of ideas that can change the way we look at life. The first idea was to create an app that tracks body weight using wearable devices.",
-            "TEXT2": "We developed the Weight app for Apple Watch. It simplifies weight tracking and automatically records measurements in Apple Health.",
-            "TEXT3": "One of our latest apps, Emotion, helps track mental health and physical condition by offering a quick and simple personality test.",
-            "TEXT4": "Since its launch, this product has received many positive reviews and holds a 5.0 rating.",
+        "OURCORE": {
+            "HEAD1": "Our Core",
+            "TEXT1": "We believe one idea can change everything. Our first idea? A tiny app for Apple Watch that makes tracking your weight effortless — just tap, and it syncs with Apple Health.",
+            "TEXT2": "Simple. Elegant. Instant.",
+            "TEXT3": "It’s not just an idea anymore. It’s on your wrist.",
+            "TEXT4": "One of our latest apps, Emotion, helps track mental health and physical condition by offering a quick and simple personality test.",
+            "TEXT5": "Since its launch, this product has received many positive reviews and holds a 5.0 rating.",
             "TEXTBTN": "Learn more"
         },
         "IMG": "Explore our apps on the App Store"

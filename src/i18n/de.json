@@ -1781,12 +1781,13 @@
             "TEXT2": "Wir entwickeln benutzerfreundliche und stilvolle Apps mit durchdachtem Design, damit Nutzer ihre Gesundheitsdaten einfach und mit Freude verfolgen und gesunde Gewohnheiten entwickeln können",
             "TEXT3": "Gemeinsam mit unseren Nutzern suchen wir nach den besten Möglichkeiten, Gesundheitsdaten effektiv zu verfolgen und zu messen. Feedback ist ein wichtiges Instrument zur Entwicklung neuer Apps und zur Verbesserung bestehender"
         },
-        "NOW": {
-            "HEAD1": "Jetzt",
-            "TEXT1": "Wir glauben an die Kraft von Ideen, die unsere Einstellung zum Leben verändern können. Die erste Idee war, eine App zu entwickeln, die das Körpergewicht über tragbare Geräte verfolgt.",
-            "TEXT2": "Wir haben die App 'Gewicht' für die Apple Watch entwickelt. Sie vereinfacht die Gewichtserfassung und speichert die Messwerte automatisch in Apple Health.",
-            "TEXT3": "Eine unserer neuesten Apps, Emotion, hilft dabei, die psychische Gesundheit und den körperlichen Zustand zu verfolgen, indem sie einen schnellen und einfachen Persönlichkeitstest anbietet.",
-            "TEXT4": "Seit ihrer Einführung hat dieses Produkt viele positive Bewertungen erhalten und eine Bewertung von 5,0.",
+        "OURCORE": {
+            "HEAD1": "Unsere Idee",
+            "TEXT1": "Wir glauben, dass eine Idee alles verändern kann. Unsere erste Idee? Eine winzige App für die Apple Watch, die das Verfolgen Ihres Gewichts mühelos macht - einfach tippen, und es synchronisiert sich mit Apple Health.",
+            "TEXT2": "Einfach. Elegant. Sofort.",
+            "TEXT3": "Es ist nicht mehr nur eine Idee. Es ist an Ihrem Handgelenk.",
+            "TEXT4": "Eine unserer neuesten Apps, Emotion, hilft dabei, die psychische Gesundheit und den körperlichen Zustand zu verfolgen, indem sie einen schnellen und einfachen Persönlichkeitstest anbietet.",
+            "TEXT5": "Seit ihrer Einführung hat dieses Produkt viele positive Bewertungen erhalten und eine Bewertung von 5,0.",
             "TEXTBTN": "Mehr erfahren"
         },
         "IMG": "Entdecken Sie unsere Apps im App Store"

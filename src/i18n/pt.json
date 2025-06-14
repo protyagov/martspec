@@ -1783,12 +1783,13 @@
             "TEXT2": "Desenvolvemos aplicativos práticos e estilosos com um design bem pensado, para que os usuários possam acompanhar facilmente seus indicadores de saúde com prazer e formar hábitos saudáveis",
             "TEXT3": "Junto com os usuários, buscamos as melhores formas de acompanhar e medir com eficácia os indicadores de saúde. O feedback é uma ferramenta essencial para criar novos aplicativos e melhorar os existentes"
         },
-        "NOW": {
-            "HEAD1": "Agora",
-            "TEXT1": "Acreditamos no poder das ideias que podem mudar a maneira como vemos a vida. A primeira ideia foi criar um aplicativo que acompanha o peso corporal usando dispositivos vestíveis.",
-            "TEXT2": "Desenvolvemos o app Peso para Apple Watch. Ele facilita o acompanhamento do peso e registra automaticamente as medições no Apple Saúde.",
-            "TEXT3": "Um dos nossos aplicativos mais recentes, Emoção, ajuda a monitorar a saúde mental e o bem-estar físico, oferecendo um teste de personalidade rápido e simples.",
-            "TEXT4": "Desde o seu lançamento, este produto recebeu muitos comentários positivos e tem uma classificação de 5.0.",
+        "OURCORE": {
+            "HEAD1": "Nossa ideia",
+            "TEXT1": "Acreditamos que uma ideia pode mudar tudo. Nossa primeira ideia? Um pequeno aplicativo para Apple Watch que torna o acompanhamento do seu peso fácil - basta tocar e ele sincroniza com o Apple Health.",
+            "TEXT2": "Simples. Elegante. Instantâneo.",
+            "TEXT3": "Não é mais apenas uma ideia. Está no seu pulso.",
+            "TEXT4": "Um dos nossos aplicativos mais recentes, Emoção, ajuda a monitorar a saúde mental e o bem-estar físico, oferecendo um teste de personalidade rápido e simples.",
+            "TEXT5": "Desde o seu lançamento, este produto recebeu muitos comentários positivos e tem uma classificação de 5.0.",
             "TEXTBTN": "Saiba mais"
         },
         "IMG": "Descubra nossos aplicativos na App Store"
