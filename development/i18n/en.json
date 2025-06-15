@@ -1763,7 +1763,9 @@
     "ABOUT": {
         "HEAD": "Our Story",
         "HEAD1": "Mission",
-        "DESC1": "We strive to ensure that everyone can easily and simply monitor their health. Our apps are developed using advanced technologies and are available in multiple languages around the world. Martspec represents trust in technology that empowers people to take care of their health and well-being",
+        "DESC1": "Taking control of your well-being should be effortless. It should be intuitive. It should simply work. For everyone, everywhere. On any device - on your iPhone, your Watch, your iPad.",
+        "DESC2": "That's why we pour our hearts into building apps that combine advanced tech with human-centered design. Simple. Universal. Magical.",
+        "DESC3": "Martspec isn't just a name; it's a promise. A promise of unwavering trust in technology that truly empowers you. Technology designed not to track you, but to free you to live a happier, healthier, more vibrant life.",
         "P1": "We started with a small project inspired by the idea of making digital solutions more accessible and understandable. Since then, we've grown into a team creating apps used by thousands of people every day.",
         "P2": "Explore our apps on the App Store",
         "P3": "Discover how Martspec technologies help you track your health, build habits, and feel better every day",
