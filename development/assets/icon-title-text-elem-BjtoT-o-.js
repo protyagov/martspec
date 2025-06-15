@@ -1,1 +1,0 @@
-import{j as s}from"./index-84fJMsBB.js";const p=({icon:e,title:c,subtitle:l})=>s.jsxs("li",{children:[s.jsx("div",{className:`icon${e.src.includes("icon-apple-health.svg")?" no-filter":""}`,children:s.jsx("img",{src:e.src,alt:e.alt})}),s.jsxs("div",{children:[s.jsx("h3",{children:c}),l&&s.jsx("p",{children:l})]})]});export{p as I};

@@ -1,1 +1,0 @@
-import{r as t}from"./index-84fJMsBB.js";const o=t.createContext(null);function n(){const e=t.useContext(o);if(!e)throw new Error("ReviewContext must be used inside ReviewProvider");return e}export{o as R,n as u};
