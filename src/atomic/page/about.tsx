@@ -86,6 +86,7 @@ export default function About() {
                                 <ul className="d-flex flex-column gap-4 about__list">
                                     <li>{_("ABOUT.OURCORE.TEXT4")}</li>
                                     <li>{_("ABOUT.OURCORE.TEXT5")}</li>
+                                    <li>{_("ABOUT.OURCORE.TEXT6")}</li>
                                 </ul>
                                 <div className="btn-container">
                                     <LinkStyledButton
