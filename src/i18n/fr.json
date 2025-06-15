@@ -1780,12 +1780,13 @@
             "TEXT2": "Nous développons des applications pratiques et élégantes avec un design réfléchi, afin que les utilisateurs puissent facilement et avec plaisir suivre leurs indicateurs de santé et adopter des habitudes saines",
             "TEXT3": "Avec nos utilisateurs, nous cherchons les meilleures façons de suivre et de mesurer efficacement les indicateurs de santé. Le retour d’information est un outil essentiel pour créer de nouvelles applications et améliorer celles existantes"
         },
-        "NOW": {
-            "HEAD1": "Maintenant",
-            "TEXT1": "Nous croyons au pouvoir des idées capables de changer notre vision de la vie. La première idée était de créer une application qui suit le poids corporel à l’aide d’appareils portables.",
-            "TEXT2": "Nous avons développé l’application Poids pour l’Apple Watch. Elle facilite le suivi du poids et enregistre automatiquement les mesures dans Apple Santé.",
-            "TEXT3": "L'une de nos applications les plus récentes, Émotion, aide à suivre la santé mentale et l'état physique en proposant un test de personnalité rapide et simple.",
-            "TEXT4": "Depuis son lancement, ce produit a reçu de nombreux avis positifs et possède une note de 5,0.",
+        "OURCORE": {
+            "HEAD1": "Notre essence",
+            "TEXT1": "Nous croyons qu'une seule idée peut tout changer. Notre première idée ? Une petite application pour Apple Watch qui rend le suivi de votre poids facile - il suffit de taper, et elle se synchronise avec Apple Health.",
+            "TEXT2": "Simple. Élégant. Instantané.",
+            "TEXT3": "Ce n'est plus juste une idée. C'est à votre poignet.",
+            "TEXT4": "L'une de nos applications les plus récentes, Émotion, aide à suivre la santé mentale et l'état physique en proposant un test de personnalité rapide et simple.",
+            "TEXT5": "Depuis son lancement, ce produit a reçu de nombreux avis positifs et possède une note de 5,0.",
             "TEXTBTN": "En savoir plus"
         },
         "IMG": "Découvrez nos applications sur l'App Store"
