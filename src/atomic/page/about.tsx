@@ -106,6 +106,8 @@ export default function About() {
                     <div className="ms-base-new row about-info-section">
                         <h2>{_("ABOUT.HEAD1")}</h2>
                         <p>{_("ABOUT.DESC1")}</p>
+                        <p>{_("ABOUT.DESC2")}</p>
+                        <p>{_("ABOUT.DESC3")}</p>
                         <div className="row about-info-list">
                             <div className="col-lg-4 d-flex">
                                 <CardIconTitleText
