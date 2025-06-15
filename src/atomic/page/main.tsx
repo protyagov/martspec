@@ -297,7 +297,6 @@ export default function LandingPage() {
                         />
                     </div>
                 </div>
-AXAX
                 <div className="col-12 mb-5 energy-card">
                     {/* Энергия */}
                     <CardAppLarge
