@@ -3,10 +3,10 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import PageHeader from "@/atomic/molecule/page-header";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
+import Header from "@/atomic/organism/header";
 
 export default function Biorhythms() {
     const appId = getAppId();
@@ -38,15 +38,23 @@ export default function Biorhythms() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion biorhythms">
-                <PageHeader
+                <Header
                     title={_("BIORHYTHMS.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("BIORHYTHMS.DWN")}
-                    imgSrc="/img/biorhythms.png"
+                    imgSrc="/img/page/emotion/bioritms-header-en.webp"
                     imgAlt={_("BIORHYTHMS.IMG")}
-                    imgH={512}
-                    imgW={512}
-                />
+                    imgH={435}
+                    imgW={435}
+                >
+                    <div className="biorhythms-lists">
+                        <ul className="header-content-list">
+                            <li>{_("BIORHYTHMS.ABOUT_1")}</li>
+                            <li>{_("BIORHYTHMS.ABOUT_2")}</li>
+                            <li>{_("BIORHYTHMS.ABOUT_3")}</li>
+                        </ul>
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row">
