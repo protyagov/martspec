@@ -1244,7 +1244,10 @@
                 "LI5": "Logic",
                 "LI6": "Learning"
             }
-        }
+        },
+        "ABOUT_1": "Track your physical, emotional, and intellectual activity",
+        "ABOUT_2": "Plan important tasks in sync with your biorhythms",
+        "ABOUT_3": "Improve your productivity and well-being every day"
     },
     "PRODUCTIVITY": {
         "HEAD": "Productivity",

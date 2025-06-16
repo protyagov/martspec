@@ -1242,7 +1242,10 @@
                 "LI5": "Lógica",
                 "LI6": "Capacidad de aprendizaje"
             }
-        }
+        },
+        "ABOUT_1": "Haz un seguimiento de tu actividad física, emocional e intelectual",
+        "ABOUT_2": "Planifica tareas importantes en sincronía con tus biorritmos",
+        "ABOUT_3": "Mejora tu productividad y bienestar cada día"
     },
     "ANXIETY": {
         "HEAD": "Ansiedad",
