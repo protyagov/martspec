@@ -5,6 +5,10 @@
     "CONDITIONS_H2": "Conditions du stage",
     "FEATURES_H2": "Pourquoi nous choisir :",
     "RESPONSE_BTN": "Postuler",
+    "VACANCY_STATUS": {
+        "OPEN": "Le poste est ouvert",
+        "CLOSED": "Le recrutement est suspendu"
+    },
     "POSITIONS": {
         "DESIGNER": {
             "TITLE": "Designer",
@@ -47,7 +51,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
+            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5",
+            "VACANCY_STATUS": "OPEN"
         },
         "MOBILE_DEVELOPER": {
             "TITLE": "Ingénieur iOS",
@@ -89,7 +94,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
+            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7",
+            "VACANCY_STATUS": "OPEN"
         },
         "FRONTEND": {
             "TITLE": "Développeur Frontend",
@@ -132,7 +138,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA",
+            "VACANCY_STATUS": "CLOSED"
         },
         "QUALITY_ASSURANCE": {
             "TITLE": "Ingénieur QA",
@@ -175,7 +182,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7",
+            "VACANCY_STATUS": "OPEN"
         },
         "BUSINESS_ANALYST": {
             "TITLE": "Analyste d'affaires",
@@ -223,7 +231,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA",
+            "VACANCY_STATUS": "OPEN"
         },
         "COPYWRITER": {
             "TITLE": "Rédacteur",
@@ -271,7 +280,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
+            "VACANCY_STATUS": "OPEN"
         }
     },
     "CONDITIONS": [

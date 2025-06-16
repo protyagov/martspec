@@ -3,6 +3,7 @@ import { Locale } from "@/i18n/locale";
 import NavigationBar from "@/atomic/organism/navbar";
 import BulletList from "@/atomic/molecule/bullet-list";
 import { Footer } from "@/atomic/organism/footer";
+import VacancyStatus from "@/atomic/atom/vacancy-status";
 
 interface VacancyDetailsProps {
     position: string;
@@ -18,6 +19,7 @@ interface VacancyData {
     DESC: string;
     EXPECTATIONS: Expectation[];
     APPLY_LINK: string;
+    VACANCY_STATUS: string;
 }
 
 interface CareerData {
@@ -32,6 +34,10 @@ interface CareerData {
     CONDITIONS: string[];
     FEATURES: string[];
     RESPONSE_BTN: string;
+    VACANCY_STATUS: {
+        OPEN: string,
+        CLOSED: string,    
+    };
 }
 
 const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
@@ -86,6 +92,7 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
                                 <div className="row">
                                     <div className="col-lg-8">
                                         <h1>{vacancyData.TITLE}</h1>
+                                        <div>{<VacancyStatus isOpened={vacancyData.VACANCY_STATUS === 'OPEN'} text={data.VACANCY_STATUS} />}</div>
                                         <p className="p">{data.PAY}</p>
                                         <p style={{ color: '#212529' }}>{data.FORMAT}</p>
                                     </div>
