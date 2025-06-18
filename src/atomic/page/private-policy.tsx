@@ -2,8 +2,8 @@ import * as React from "react";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import _ from "@/i18n/locale";
-import PageHeader from "@/atomic/molecule/page-header";
 import ScrollButton from "../atom/scroll-button";
+import Header from "@/atomic/organism/header";
 
 export default function PrivacyPolicy() {
     return (
@@ -11,10 +11,16 @@ export default function PrivacyPolicy() {
             <NavigationBar />
 
             <div className="ms-base-page pb-5">
-                <PageHeader title={_("PP.HEAD")} imgSrc="/img/privacy.svg" imgAlt={_("PP.IMG")} imgH={360} imgW={428} />
-
+                <Header 
+                    title={_("PP.HEAD")} 
+                    imgSrc="/img/privacy.svg" 
+                    imgAlt={_("PP.IMG")} 
+                    imgH={398}
+                    imgW={542}
+                >
+                    <p>{_("PP.DATE")}</p>
+                </Header>
                 <section>
-                    <h6>{_("PP.DATE")}</h6>
                     <p>{_("PP.P1")}</p>
                     <p>{_("PP.P2")}</p>
                     <p>{_("PP.P3")}</p>
