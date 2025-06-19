@@ -5,26 +5,26 @@
     width: 20rem;
     height: 3rem;
     border-radius: 60px;
-
-    .text {
-        font-size: medium;
-        font-weight: 400;
-        white-space: nowrap
-    }
-
-    &.open {
-        background-color: #E5F4D9;
-
-        .text {
-            color: #219B3F;
-        }
-    }
-
-    &.closed {
-        background-color: #FFF3E9;
-
-        .text {
-            color: #FD7E14;
-        }
-    }
 }
+
+.text {
+    font-size: medium;
+    font-weight: 400;
+    white-space: nowrap
+}
+
+// &.open {
+//     background-color: #E5F4D9;
+
+//     .text {
+//         color: #219B3F;
+//     }
+// }
+
+// &.closed {
+//     background-color: #FFF3E9;
+
+//     .text {
+//         color: #FD7E14;
+//     }
+// }
