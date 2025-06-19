@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
                     imgH={398}
                     imgW={542}
                 >
-                    <p>{_("PP.DATE")}</p>
+                    <p className="font-normal">{_("PP.DATE")}</p>
                 </Header>
                 <section>
                     <p>{_("PP.P1")}</p>
