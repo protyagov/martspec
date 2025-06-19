@@ -95,7 +95,6 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
                                     <h1>{vacancyData.TITLE}</h1>
                                     <div>
                                         <PillText
-                                            className="vacancy-status text"
                                             text={
                                                 vacancyData.VACANCY_STATUS === "OPEN"
                                                     ? _("VACANCY.VACANCY_STATUS.OPEN")

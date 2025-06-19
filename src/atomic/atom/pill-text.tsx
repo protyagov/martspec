@@ -1,23 +1,34 @@
 import React from "react";
 
 interface Props {
-    className?: string;
     textColor?: string;
     backgroundColor?: string;
     text?: string;
     isOpened?: boolean;
 }
 
-export default function PillText({ text, backgroundColor, textColor, className }: Props) {
+export default function PillText({ text, backgroundColor, textColor }: Props) {
     return (
         <div
-            className={className}
             style={{
                 color: textColor,
                 backgroundColor: backgroundColor,
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                width: "20rem",
+                height: "3rem",
+                borderRadius: "60px",
             }}
         >
-            <span className="text">{text}</span>
+            <span style={{
+                fontSize: "medium",
+                fontWeight: "400",
+                whiteSpace: "nowrap"
+            }}
+            >
+                {text}
+            </span>
         </div>
     );
 }
