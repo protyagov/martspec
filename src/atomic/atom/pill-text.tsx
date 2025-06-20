@@ -4,7 +4,6 @@ interface Props {
     textColor?: string;
     backgroundColor?: string;
     text?: string;
-    isOpened?: boolean;
 }
 
 export default function PillText({ text, backgroundColor, textColor }: Props) {
