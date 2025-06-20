@@ -4,7 +4,6 @@ import NavigationBar from "@/atomic/organism/navbar";
 import BulletList from "@/atomic/molecule/bullet-list";
 import { Footer } from "@/atomic/organism/footer";
 import PillText from "@/atomic/atom/pill-text";
-import "@/sass/atom/vacancy-status"
 
 interface VacancyDetailsProps {
     position: string;
