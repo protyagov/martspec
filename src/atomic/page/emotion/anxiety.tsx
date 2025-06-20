@@ -39,7 +39,7 @@ export default function Anxiety() {
                     <div className="row">
                         <div className="col-lg-8 mx-auto">
                             <div id="section-1" className="content-wrapper">
-                                 <h2>{_("ANXIETY.HEAD1")}</h2>
+                                <h2>{_("ANXIETY.HEAD1")}</h2>
                                 <p>{_("ANXIETY.DESK1_1")}</p>
                                 <p>{_("ANXIETY.DESK1_2")}</p>
                                 <p>{_("ANXIETY.DESK1_3")}</p>
