@@ -2234,5 +2234,31 @@
                 }
             }
         }
+    },
+    "VACANCY": {
+        "VACANCY_STATUS": {
+            "OPEN": "Вакансия открыта",
+            "CLOSED": "Набор приостановлен"
+        },
+        "POSITIONS": {
+            "DESIGNER": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "MOBILE_DEVELOPER": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "FRONTEND": {
+                "VACANCY_STATUS": "CLOSED"
+            },
+            "QUALITY_ASSURANCE": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "BUSINESS_ANALYST": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "COPYWRITER": {
+                "VACANCY_STATUS": "OPEN"
+            }
+        }
     }
 }
