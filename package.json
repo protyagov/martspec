@@ -41,7 +41,7 @@
         "webpack-merge": "^5.9.0"
     },
     "dependencies": {
-        "@ladle/react": "^4.1.2",
+        "@ladle/react": "^5.0.3",
         "bootstrap": "^5.3.3",
         "node-polyglot": "^2.4.0",
         "react": "^18.1.0",
