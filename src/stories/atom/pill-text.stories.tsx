@@ -2,7 +2,6 @@ import React from "react";
 import _ from "@/i18n/locale";
 import type { StoryDefault } from "@ladle/react";
 import PillText from "@/atomic/atom/pill-text";
-import "@/sass/atom/vacancy-status.scss";
 
 const CenterDecorator = (Story: () => JSX.Element) => (
     <div
