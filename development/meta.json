@@ -71,6 +71,30 @@
       "namedExport": "LinkStyledButtonStory",
       "meta": {}
     },
+    "atom--pilltext--closed": {
+      "name": "Closed",
+      "levels": [
+        "Atom",
+        "Pilltext"
+      ],
+      "locStart": 28,
+      "locEnd": 30,
+      "filePath": "src/stories/atom/pill-text.stories.tsx",
+      "namedExport": "closed",
+      "meta": {}
+    },
+    "atom--pilltext--open": {
+      "name": "Open",
+      "levels": [
+        "Atom",
+        "Pilltext"
+      ],
+      "locStart": 24,
+      "locEnd": 26,
+      "filePath": "src/stories/atom/pill-text.stories.tsx",
+      "namedExport": "open",
+      "meta": {}
+    },
     "atom--right-arrow-icon": {
       "name": "Right arrow icon",
       "levels": [

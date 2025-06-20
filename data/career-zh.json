@@ -5,6 +5,10 @@
     "CONDITIONS_H2": "实习条件",
     "FEATURES_H2": "为什么选择我们：",
     "RESPONSE_BTN": "申请",
+    "VACANCY_STATUS": {
+        "OPEN": "职位空缺",
+        "CLOSED": "招聘暂停"
+    },
     "POSITIONS": {
         "DESIGNER": {
             "TITLE": "设计师",
@@ -47,7 +51,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
+            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5",
+            "VACANCY_STATUS": "OPEN"
         },
         "MOBILE_DEVELOPER": {
             "TITLE": "iOS工程师",
@@ -89,7 +94,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
+            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7",
+            "VACANCY_STATUS": "OPEN"
         },
         "FRONTEND": {
             "TITLE": "前端开发工程师",
@@ -132,7 +138,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA",
+            "VACANCY_STATUS": "CLOSED"
         },
         "QUALITY_ASSURANCE": {
             "TITLE": "QA工程师",
@@ -175,7 +182,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7",
+            "VACANCY_STATUS": "OPEN"
         },
         "BUSINESS_ANALYST": {
             "TITLE": "业务分析师",
@@ -223,7 +231,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA",
+            "VACANCY_STATUS": "OPEN"
         },
         "COPYWRITER": {
             "TITLE": "文案撰稿人",
@@ -271,7 +280,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
+            "VACANCY_STATUS": "OPEN"
         }
     },
     "CONDITIONS": [

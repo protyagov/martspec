@@ -5,6 +5,10 @@
     "CONDITIONS_H2": "Условия стажировки",
     "FEATURES_H2": "Почему стоит выбрать нас:",
     "RESPONSE_BTN": "Откликнуться",
+    "VACANCY_STATUS": {
+        "OPEN": "Вакансия открыта",
+        "CLOSED": "Набор приостановлен"
+    },
     "POSITIONS": {
         "DESIGNER": {
             "TITLE": "Дизайнер",
@@ -47,7 +51,8 @@
                 ]
             }
         ],
-        "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
+        "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5",
+        "VACANCY_STATUS": "OPEN"
     },
     "MOBILE_DEVELOPER": {
             "TITLE": "IOS разработчик",
@@ -90,7 +95,8 @@
                 ]
             }
         ],
-        "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
+        "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7",
+        "VACANCY_STATUS": "OPEN"
     },
     "FRONTEND": {
             "TITLE": "Фронтенд-разработчик",
@@ -134,7 +140,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA",
+            "VACANCY_STATUS": "CLOSED"
         },
         "QUALITY_ASSURANCE": {
             "TITLE": "Тестировщик",
@@ -178,7 +185,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7",
+            "VACANCY_STATUS": "OPEN"
         },
         "BUSINESS_ANALYST": {
             "TITLE": "Бизнес-аналитик",
@@ -227,7 +235,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA",
+            "VACANCY_STATUS": "OPEN"
         },
         "COPYWRITER": {
             "TITLE": "Копирайтер",
@@ -275,7 +284,8 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
+            "VACANCY_STATUS": "OPEN"
         }
     },
     "CONDITIONS": [
