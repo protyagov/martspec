@@ -1302,7 +1302,11 @@
         "DESK5_2": "La aplicación móvil Emotion ofrece una forma cómoda y accesible de evaluar su nivel de ansiedad y recibir recomendaciones sobre cómo gestionarlo. La aplicación brinda la posibilidad de rastrear sus estados emocionales y analizar los factores que causan ansiedad.",
         "DESK5_3": "El tratamiento de la ansiedad es un proceso complejo que puede incluir psicoterapia, terapia farmacológica y cambios en el estilo de vida. Aunque cada trastorno de ansiedad tiene características únicas, la mayoría responde bien a dos tipos de tratamiento: psicoterapia o “terapia de conversación” y medicación. La terapia cognitivo-conductual (TCC), un tipo de psicoterapia, puede ayudar a una persona a aprender diferentes formas de pensar, reaccionar y comportarse para reducir la ansiedad. Los medicamentos no curarán los trastornos de ansiedad, pero pueden aliviar significativamente los síntomas. Los medicamentos más utilizados son los ansiolíticos y los antidepresivos.",
         "DESK5_4": "Las aplicaciones móviles pueden ser herramientas efectivas para el autocontrol de la ansiedad en las primeras etapas, pero siempre se recomienda buscar asesoramiento y apoyo de un profesional calificado.",
-        "DESK5_5": "En general, el uso de aplicaciones móviles es una dirección prometedora en el diagnóstico de ansiedad. Ayudan a las personas a comprender mejor su estado emocional, aprender a gestionar la ansiedad y mejorar su calidad de vida."
+        "DESK5_5": "En general, el uso de aplicaciones móviles es una dirección prometedora en el diagnóstico de ansiedad. Ayudan a las personas a comprender mejor su estado emocional, aprender a gestionar la ansiedad y mejorar su calidad de vida.",
+
+        "ABOUT_1": "¿Estrés, ansiedad, depresión?",
+        "ABOUT_2": "Descubre la causa de tus cambios de humor",
+        "ABOUT_3": "Mejora tu bienestar con nuestras técnicas exclusivas"
     },
     "PRODUCTIVITY": {
         "HEAD": "Productividad",

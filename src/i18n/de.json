@@ -1304,7 +1304,11 @@
         "DESK5_2": "Die mobile Emotion-App bietet eine bequeme und leicht zugängliche Möglichkeit, Ihr Angstniveau einzuschätzen und Empfehlungen zum Umgang damit zu erhalten. Die Anwendung bietet die Möglichkeit, Ihre emotionalen Zustände zu verfolgen und Faktoren zu analysieren, die Angst verursachen.",
         "DESK5_3": "Die Behandlung von Angstzuständen ist ein komplexer Prozess, der Psychotherapie, pharmakologische Therapie und Änderungen des Lebensstils umfassen kann. Obwohl jede Angststörung einzigartige Merkmale aufweist, sprechen die meisten gut auf zwei Arten der Behandlung an: Psychotherapie oder \"Gesprächstherapie\" und Medikamente. Die kognitive Verhaltenstherapie (kurz: KVT), eine Form der Gesprächstherapie, kann einer Person dabei helfen, verschiedene Denk-, Reaktions- und Verhaltensweisen zu erlernen, um Ängste abzubauen. Medikamente heilen Angststörungen nicht, können aber die Symptome deutlich lindern. Die am häufigsten verwendeten Medikamente sind angstlösende Medikamente und Antidepressiva.",
         "DESK5_4": "Mobile Apps können wirksame Hilfsmittel zur Selbstbewältigung von Angstzuständen im Anfangsstadium sein, es wird jedoch immer empfohlen, professionellen Rat und Unterstützung von einer qualifizierten Fachkraft einzuholen.",
-        "DESK5_5": "Generell ist der Einsatz mobiler Anwendungen eine vielversprechende Richtung bei der Diagnose von Angstzuständen. Sie helfen Menschen, ihren emotionalen Zustand besser zu verstehen, mit Ängsten umzugehen und ihre Lebensqualität zu verbessern."
+        "DESK5_5": "Generell ist der Einsatz mobiler Anwendungen eine vielversprechende Richtung bei der Diagnose von Angstzuständen. Sie helfen Menschen, ihren emotionalen Zustand besser zu verstehen, mit Ängsten umzugehen und ihre Lebensqualität zu verbessern.",
+
+        "ABOUT_1": "Stress, Ängste, Depression?",
+        "ABOUT_2": "Finden Sie die Ursache für Stimmungsschwankungen heraus",
+        "ABOUT_3": "Steigern Sie Ihr Wohlbefinden mit unseren exklusiven Methoden"
     },
     "PRODUCTIVITY": {
         "HEAD": "Produktivität",
