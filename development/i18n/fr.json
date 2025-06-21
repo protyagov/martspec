@@ -1302,7 +1302,11 @@
         "DESK5_2": "L'application mobile Émotion offre un moyen pratique et accessible d'évaluer votre niveau d'anxiété et de recevoir des recommandations sur la façon de le gérer. L'application offre la possibilité de suivre vos états émotionnels et d'analyser les facteurs qui provoquent l'anxiété.",
         "DESK5_3": "Le traitement de l'anxiété est un processus complexe qui peut inclure une psychothérapie, une thérapie pharmacologique et des changements de mode de vie. Bien que chaque trouble anxieux ait des caractéristiques uniques, la plupart répondent bien à deux types de traitement: la psychothérapie ou \"thérapie par la parole\" et les médicaments. La thérapie cognitivo-comportementale (TCC), un type de thérapie par la parole, peut aider une personne à apprendre différentes façons de penser, de réagir et de se comporter pour réduire son anxiété. Les médicaments ne guérissent pas les troubles anxieux, mais ils peuvent soulager considérablement les symptômes. Les médicaments les plus couramment utilisés sont les anxiolytiques et les antidépresseurs.",
         "DESK5_4": "Les applications mobiles peuvent être des outils efficaces pour l’autogestion de l’anxiété dès les premiers stades, mais il est toujours recommandé de demander conseil et le soutien d’un professionnel qualifié.",
-        "DESK5_5": "En général, l'utilisation d'applications mobiles constitue une voie prometteuse dans le diagnostic de l'anxiété. Ils aident les gens à mieux comprendre leur état émotionnel, à apprendre à gérer leur anxiété et à améliorer leur qualité de vie."
+        "DESK5_5": "En général, l'utilisation d'applications mobiles constitue une voie prometteuse dans le diagnostic de l'anxiété. Ils aident les gens à mieux comprendre leur état émotionnel, à apprendre à gérer leur anxiété et à améliorer leur qualité de vie.",
+
+        "ABOUT_1": "Stress, anxiété, dépression ?",
+        "ABOUT_2": "Découvrez la cause de vos sautes d'humeur",
+        "ABOUT_3": "Améliorez votre bien-être grâce à nos techniques exclusives"
     },
     "PRODUCTIVITY": {
         "HEAD": "Productivité",
