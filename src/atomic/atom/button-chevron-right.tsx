@@ -3,10 +3,9 @@ import React, { useState, CSSProperties } from "react";
 interface ButtonChevronRightProps {
     text: string;
     link: string;
-    className?: string;
 }
 
-const ButtonChevronRight: React.FC<ButtonChevronRightProps> = ({ text, link, className = "" }) => {
+const ButtonChevronRight: React.FC<ButtonChevronRightProps> = ({ text, link }) => {
     const [isHovered, setIsHovered] = useState(false);
 const learnMoreStyle: CSSProperties = {
     position: "relative",
@@ -73,7 +72,7 @@ const textStyle: CSSProperties = {
 };
 
     return (
-        <a href={link} target="_blank" rel="noopener noreferrer" className={className}>
+        <a href={link} target="_blank" rel="noopener noreferrer">
             <button
                 style={learnMoreStyle}
                 onMouseEnter={() => setIsHovered(true)}
