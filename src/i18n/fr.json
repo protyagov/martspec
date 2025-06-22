@@ -1388,7 +1388,11 @@
             "LI4_TEXT": "Ventes.",
             "LI5_TEXT": "Travail intensif et courant."
         },
-        "DESK6_3": "N'oubliez pas que la clé est de trouver un équilibre entre une carrière qui correspond à vos inclinations naturelles et une carrière qui vous met au défi et vous passionne. Même si certaines carrières peuvent sembler plus adaptées aux personnes productives, la passion personnelle, l’apprentissage continu et la capacité d’adaptation peuvent conduire au succès dans un large éventail de domaines."
+        "DESK6_3": "N'oubliez pas que la clé est de trouver un équilibre entre une carrière qui correspond à vos inclinations naturelles et une carrière qui vous met au défi et vous passionne. Même si certaines carrières peuvent sembler plus adaptées aux personnes productives, la passion personnelle, l’apprentissage continu et la capacité d’adaptation peuvent conduire au succès dans un large éventail de domaines.",
+
+        "ABOUT_1": "Stress, anxiété, dépression ?",
+        "ABOUT_2": "Découvrez la cause de vos sautes d'humeur",
+        "ABOUT_3": "Améliorez votre bien-être grâce à nos techniques exclusives"
     },
     "HARMONY": {
         "HEAD": "Harmonie",

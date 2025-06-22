@@ -1329,7 +1329,11 @@
             "LI4_TEXT": "Sales.",
             "LI5_TEXT": "Routine intensive work."
         },
-        "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning and the ability to adaptations can lead to success in a wide range of areas."
+        "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning and the ability to adaptations can lead to success in a wide range of areas.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "ANXIETY": {
         "HEAD": "Anxiety",
