@@ -1450,7 +1450,12 @@
             "LI8_HEAD": "Ich suche Unterstützung:",
             "LI8_TEXT": "Wenden Sie sich bei Bedarf an Freunde, Familie oder einen Psychologen. Über Ihre Gefühle und Probleme zu sprechen kann Klarheit schaffen und emotionale Belastungen lindern."
         },
-        "DESK5": "Denken Sie daran, dass das Erreichen innerer Harmonie eine ständige Reise ist und es ganz natürlich ist, dass Ihr emotionaler Zustand schwankt. Seien Sie geduldig mit sich selbst und feiern Sie unterwegs kleine Erfolge. Die Integration dieser Praktiken in Ihr tägliches Leben kann nach und nach zu einem größeren Gefühl von innerem Frieden und Wohlbefinden führen."
+        "DESK5": "Denken Sie daran, dass das Erreichen innerer Harmonie eine ständige Reise ist und es ganz natürlich ist, dass Ihr emotionaler Zustand schwankt. Seien Sie geduldig mit sich selbst und feiern Sie unterwegs kleine Erfolge. Die Integration dieser Praktiken in Ihr tägliches Leben kann nach und nach zu einem größeren Gefühl von innerem Frieden und Wohlbefinden führen.",
+
+        "ABOUT_1": "Stress, Ängste, Depression?",
+        "ABOUT_2": "Finden Sie die Ursache für Stimmungsschwankungen heraus",
+        "ABOUT_3": "Steigern Sie Ihr Wohlbefinden mit unseren exklusiven Methoden"
+
     },
     "INDEPENDENCE": {
         "HEAD": "Unabhängigkeit",

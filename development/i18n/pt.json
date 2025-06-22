@@ -1452,7 +1452,11 @@
             "LI8_HEAD": "Procurando apoio:",
             "LI8_TEXT": "entre em contato com amigos, familiares ou um profissional de saúde mental quando necessário. Falar sobre seus sentimentos e problemas pode trazer clareza e aliviar a carga emocional."
         },
-        "DESK5": "Lembre-se de que alcançar a harmonia interna é uma jornada contínua e é natural experimentar flutuações no seu estado emocional. Seja paciente consigo mesmo e comemore pequenas vitórias ao longo do caminho. Incorporar essas práticas em sua vida diária pode levar gradualmente a uma maior sensação de paz interior e bem-estar."
+        "DESK5": "Lembre-se de que alcançar a harmonia interna é uma jornada contínua e é natural experimentar flutuações no seu estado emocional. Seja paciente consigo mesmo e comemore pequenas vitórias ao longo do caminho. Incorporar essas práticas em sua vida diária pode levar gradualmente a uma maior sensação de paz interior e bem-estar.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "INDEPENDENCE": {
         "HEAD": "Independência",

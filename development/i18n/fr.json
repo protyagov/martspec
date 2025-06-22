@@ -1448,7 +1448,11 @@
             "LI8_HEAD": "Recherche de soutien:",
             "LI8_TEXT": "contactez vos amis, votre famille ou un professionnel de la santé mentale en cas de besoin. Parler de vos sentiments et de vos problèmes peut apporter de la clarté et alléger le fardeau émotionnel."
         },
-        "DESK5": "N'oubliez pas que parvenir à l'harmonie interne est un voyage continu et qu'il est naturel de ressentir des fluctuations dans votre état émotionnel. Soyez patient avec vous-même et célébrez les petites victoires en cours de route. L’intégration de ces pratiques dans votre vie quotidienne peut progressivement conduire à un plus grand sentiment de paix intérieure et de bien-être."
+        "DESK5": "N'oubliez pas que parvenir à l'harmonie interne est un voyage continu et qu'il est naturel de ressentir des fluctuations dans votre état émotionnel. Soyez patient avec vous-même et célébrez les petites victoires en cours de route. L’intégration de ces pratiques dans votre vie quotidienne peut progressivement conduire à un plus grand sentiment de paix intérieure et de bien-être.",
+
+        "ABOUT_1": "Stress, anxiété, dépression ?",
+        "ABOUT_2": "Découvrez la cause de vos sautes d'humeur",
+        "ABOUT_3": "Améliorez votre bien-être grâce à nos techniques exclusives"
     },
     "INDEPENDENCE": {
         "HEAD": "Indépendance",
