@@ -1388,7 +1388,11 @@
             "LI4_TEXT": "Ventas.",
             "LI5_TEXT": "Trabajo intensivo de rutina."
         },
-        "DESK6_3": "Recuerde, la clave es encontrar un equilibrio entre una carrera que se adapte a sus inclinaciones naturales y una carrera que lo desafíe y lo entusiasme. Si bien algunas carreras pueden parecer más adecuadas para personas productivas, la pasión personal, el aprendizaje continuo y la capacidad de adaptación pueden conducir al éxito en una amplia gama de áreas."
+        "DESK6_3": "Recuerde, la clave es encontrar un equilibrio entre una carrera que se adapte a sus inclinaciones naturales y una carrera que lo desafíe y lo entusiasme. Si bien algunas carreras pueden parecer más adecuadas para personas productivas, la pasión personal, el aprendizaje continuo y la capacidad de adaptación pueden conducir al éxito en una amplia gama de áreas.",
+
+        "ABOUT_1": "¿Estrés, ansiedad, depresión?",
+        "ABOUT_2": "Descubre la causa de tus cambios de humor",
+        "ABOUT_3": "Mejora tu bienestar con nuestras técnicas exclusivas"
     },
     "HARMONY": {
         "HEAD": "Armonía",
