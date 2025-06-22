@@ -1450,7 +1450,11 @@
             "LI8_HEAD": "Seeking support:",
             "LI8_TEXT": "reach out to friends, family or a mental health professional when needed. Talking about your feelings and problems can bring clarity and alleviate emotional burden."
         },
-        "DESK5": "Remember, achieving internal harmony is an ongoing journey and it's natural to experience fluctuations in your emotional state. Be patient with yourself and celebrate small victories along the way. Incorporating these practices into your daily life can gradually lead to a greater sense of inner peace and well-being."
+        "DESK5": "Remember, achieving internal harmony is an ongoing journey and it's natural to experience fluctuations in your emotional state. Be patient with yourself and celebrate small victories along the way. Incorporating these practices into your daily life can gradually lead to a greater sense of inner peace and well-being.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "INDEPENDENCE": {
         "HEAD": "Independence",

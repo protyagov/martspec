@@ -1448,7 +1448,11 @@
             "LI8_HEAD": "Buscando apoyo:",
             "LI8_TEXT": "comuníquese con amigos, familiares o un profesional de salud mental cuando sea necesario. Hablar de sus sentimientos y problemas puede aportar claridad y aliviar la carga emocional."
         },
-        "DESK5": "Recuerde, lograr la armonía interna es un viaje continuo y es natural experimentar fluctuaciones en su estado emocional. Ten paciencia contigo mismo y celebra las pequeñas victorias en el camino. Incorporar estas prácticas a tu vida diaria puede conducirte gradualmente a una mayor sensación de paz interior y bienestar."
+        "DESK5": "Recuerde, lograr la armonía interna es un viaje continuo y es natural experimentar fluctuaciones en su estado emocional. Ten paciencia contigo mismo y celebra las pequeñas victorias en el camino. Incorporar estas prácticas a tu vida diaria puede conducirte gradualmente a una mayor sensación de paz interior y bienestar.",
+
+        "ABOUT_1": "¿Estrés, ansiedad, depresión?",
+        "ABOUT_2": "Descubre la causa de tus cambios de humor",
+        "ABOUT_3": "Mejora tu bienestar con nuestras técnicas exclusivas"
     },
     "INDEPENDENCE": {
         "HEAD": "Independencia",
