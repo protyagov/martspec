@@ -1390,7 +1390,11 @@
             "LI4_TEXT": "Verkäufe.",
             "LI5_TEXT": "Routine intensive Arbeit."
         },
-        "DESK6_3": "Denken Sie daran, der Schlüssel ist, ein Gleichgewicht zwischen einer Karriere zu finden, die zu Ihren natürlichen Neigungen passt, und einer Karriere, die Sie herausfordert und begeistert. Während einige Karrieren für produktive Menschen besser geeignet zu sein scheinen, können persönliche Leidenschaft, kontinuierliches Lernen und die Fähigkeit zu Anpassungen zu einem Erfolg in einer Vielzahl von Bereichen führen."
+        "DESK6_3": "Denken Sie daran, der Schlüssel ist, ein Gleichgewicht zwischen einer Karriere zu finden, die zu Ihren natürlichen Neigungen passt, und einer Karriere, die Sie herausfordert und begeistert. Während einige Karrieren für produktive Menschen besser geeignet zu sein scheinen, können persönliche Leidenschaft, kontinuierliches Lernen und die Fähigkeit zu Anpassungen zu einem Erfolg in einer Vielzahl von Bereichen führen.",
+
+        "ABOUT_1": "Stress, Ängste, Depression?",
+        "ABOUT_2": "Finden Sie die Ursache für Stimmungsschwankungen heraus",
+        "ABOUT_3": "Steigern Sie Ihr Wohlbefinden mit unseren exklusiven Methoden"
     },
     "HARMONY": {
         "HEAD": "Harmonie",

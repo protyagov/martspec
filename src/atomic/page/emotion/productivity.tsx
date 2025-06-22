@@ -2,9 +2,9 @@ import * as React from "react";
 import _ from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import PageHeader from "@/atomic/molecule/page-header";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
+import Header from "@/atomic/organism/header";
 
 export default function Productivity() {
     const appId = getAppId();
@@ -20,15 +20,24 @@ export default function Productivity() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion personality-trait">
-                <PageHeader
+                <Header
                     title={_("PRODUCTIVITY.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("PRODUCTIVITY.DWN")}
-                    imgSrc="/img/page/productivity/productivity.webp"
+                    imgSrc="/img/page/productivity/productivity.svg"
                     imgAlt={_("PRODUCTIVITY.IMG")}
                     imgH={390}
-                    imgW={410}
-                />
+                    imgW={512}
+                >
+                    <div className="productivity-lists">
+                        <ul className="header-content-list-productivity" >
+                            <li>{_("PRODUCTIVITY.ABOUT_1")}</li>
+                            <li>{_("PRODUCTIVITY.ABOUT_2")}</li>
+                            <li>{_("PRODUCTIVITY.ABOUT_3")}</li>
+                        </ul>
+                    </div>
+                </Header>
+
 
                 <section>
                     <div className="row">
