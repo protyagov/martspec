@@ -14,7 +14,7 @@ export const ButtonChevronRightStory: Story<{
     link: string;
     className?: string;
 }> = (props) => (
-    <div className="btn-chevron-right">
+    <div>
         <ButtonChevronRight {...props} />
     </div>
 );
