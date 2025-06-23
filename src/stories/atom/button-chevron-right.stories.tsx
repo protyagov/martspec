@@ -14,7 +14,7 @@ export const ButtonChevronRightStory: Story<{
     link: string;
     className?: string;
 }> = (props) => (
-    <div>
+    <div className="btn-chevron-right">
         <ButtonChevronRight {...props} />
     </div>
 );
@@ -25,5 +25,5 @@ ButtonChevronRightStory.args = {
     className: "",
 };
 
-ButtonChevronRightStory.decorators = [IconWrapper,PageWrapper];
+ButtonChevronRightStory.decorators = [IconWrapper, PageWrapper];
 ButtonChevronRightStory.storyName = "ButtonChevronRight";
