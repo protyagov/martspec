@@ -1528,7 +1528,11 @@
             "LI8_TEXT": "Universités et recherche.",
             "LI9_TEXT": "Activités artistiques."
         },
-        "DESK6_2": "Il est important de noter que même si l’indépendance peut contribuer à la réussite dans ces domaines, les compétences en matière de collaboration et de communication efficace sont également précieuses dans la plupart des professions. Trouver un équilibre entre indépendance et travail d’équipe est essentiel à un parcours professionnel épanouissant. De plus, les gens sont uniques et leur cheminement de carrière peut être influencé par une combinaison de traits et d’intérêts autres que l’indépendance."
+        "DESK6_2": "Il est important de noter que même si l’indépendance peut contribuer à la réussite dans ces domaines, les compétences en matière de collaboration et de communication efficace sont également précieuses dans la plupart des professions. Trouver un équilibre entre indépendance et travail d’équipe est essentiel à un parcours professionnel épanouissant. De plus, les gens sont uniques et leur cheminement de carrière peut être influencé par une combinaison de traits et d’intérêts autres que l’indépendance.",
+
+        "ABOUT_1": "Stress, anxiété, dépression ?",
+        "ABOUT_2": "Découvrez la cause de vos sautes d'humeur",
+        "ABOUT_3": "Améliorez votre bien-être grâce à nos techniques exclusives"
     },
     "MAGNESIUM": {
         "HEAD": "Magnésium",
