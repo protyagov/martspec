@@ -1532,7 +1532,11 @@
             "LI8_TEXT": "Academia e pesquisa.",
             "LI9_TEXT": "Atividades artísticas."
         },
-        "DESK6_2": "É importante observar que, embora a independência possa contribuir para o sucesso nesses campos, as habilidades de colaboração e comunicação eficazes também são valiosas na maioria das profissões. Encontrar um equilíbrio entre independência e trabalho em equipe é essencial para uma carreira gratificante. Além disso, as pessoas são únicas e sua carreira pode ser influenciada por uma combinação de características e interesses que não sejam a independência."
+        "DESK6_2": "É importante observar que, embora a independência possa contribuir para o sucesso nesses campos, as habilidades de colaboração e comunicação eficazes também são valiosas na maioria das profissões. Encontrar um equilíbrio entre independência e trabalho em equipe é essencial para uma carreira gratificante. Além disso, as pessoas são únicas e sua carreira pode ser influenciada por uma combinação de características e interesses que não sejam a independência.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "MAGNESIUM": {
         "HEAD": "Magnésio",
