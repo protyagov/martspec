@@ -1628,7 +1628,11 @@
             "LI9_TEXT": "Guia turístico.",
             "LI10_TEXT": "Indústria de moda e beleza."
         },
-        "DESK5_2": "Pessoas energéticas devem considerar os seus pontos fortes, interesses e valores ao escolher opções de carreira. É importante encontrar um plano de carreira que corresponda às suas qualidades naturais, mas que também deixe espaço para o crescimento pessoal e o bem-estar."
+        "DESK5_2": "Pessoas energéticas devem considerar os seus pontos fortes, interesses e valores ao escolher opções de carreira. É importante encontrar um plano de carreira que corresponda às suas qualidades naturais, mas que também deixe espaço para o crescimento pessoal e o bem-estar.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "OPENNESS": {
         "HEAD": "Abertura",
