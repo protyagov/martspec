@@ -2,9 +2,9 @@ import * as React from "react";
 import _ from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import PageHeader from "@/atomic/molecule/page-header";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
+import Header from "@/atomic/organism/header";
 
 export default function Harmony() {
     const appId = getAppId();
@@ -17,15 +17,23 @@ export default function Harmony() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion personality-trait">
-                <PageHeader
+                <Header
                     title={_("HARMONY.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("HARMONY.DWN")}
-                    imgSrc="/img/page/harmony/harmony.webp"
+                    imgSrc="/img/page/harmony/harmony.svg"
                     imgAlt={_("HARMONY.IMG")}
                     imgH={390}
-                    imgW={421}
-                />
+                    imgW={512}
+                >
+                    <div className="harmony-lists">
+                        <ul className="header-content-list-harmony" >
+                            <li>{_("HARMONY.ABOUT_1")}</li>
+                            <li>{_("HARMONY.ABOUT_2")}</li>
+                            <li>{_("HARMONY.ABOUT_3")}</li>
+                        </ul>
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row">

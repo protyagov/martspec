@@ -1390,7 +1390,11 @@
             "LI4_TEXT": "Verkäufe.",
             "LI5_TEXT": "Routine intensive Arbeit."
         },
-        "DESK6_3": "Denken Sie daran, der Schlüssel ist, ein Gleichgewicht zwischen einer Karriere zu finden, die zu Ihren natürlichen Neigungen passt, und einer Karriere, die Sie herausfordert und begeistert. Während einige Karrieren für produktive Menschen besser geeignet zu sein scheinen, können persönliche Leidenschaft, kontinuierliches Lernen und die Fähigkeit zu Anpassungen zu einem Erfolg in einer Vielzahl von Bereichen führen."
+        "DESK6_3": "Denken Sie daran, der Schlüssel ist, ein Gleichgewicht zwischen einer Karriere zu finden, die zu Ihren natürlichen Neigungen passt, und einer Karriere, die Sie herausfordert und begeistert. Während einige Karrieren für produktive Menschen besser geeignet zu sein scheinen, können persönliche Leidenschaft, kontinuierliches Lernen und die Fähigkeit zu Anpassungen zu einem Erfolg in einer Vielzahl von Bereichen führen.",
+
+        "ABOUT_1": "Stress, Ängste, Depression?",
+        "ABOUT_2": "Finden Sie die Ursache für Stimmungsschwankungen heraus",
+        "ABOUT_3": "Steigern Sie Ihr Wohlbefinden mit unseren exklusiven Methoden"
     },
     "HARMONY": {
         "HEAD": "Harmonie",
@@ -1446,7 +1450,12 @@
             "LI8_HEAD": "Ich suche Unterstützung:",
             "LI8_TEXT": "Wenden Sie sich bei Bedarf an Freunde, Familie oder einen Psychologen. Über Ihre Gefühle und Probleme zu sprechen kann Klarheit schaffen und emotionale Belastungen lindern."
         },
-        "DESK5": "Denken Sie daran, dass das Erreichen innerer Harmonie eine ständige Reise ist und es ganz natürlich ist, dass Ihr emotionaler Zustand schwankt. Seien Sie geduldig mit sich selbst und feiern Sie unterwegs kleine Erfolge. Die Integration dieser Praktiken in Ihr tägliches Leben kann nach und nach zu einem größeren Gefühl von innerem Frieden und Wohlbefinden führen."
+        "DESK5": "Denken Sie daran, dass das Erreichen innerer Harmonie eine ständige Reise ist und es ganz natürlich ist, dass Ihr emotionaler Zustand schwankt. Seien Sie geduldig mit sich selbst und feiern Sie unterwegs kleine Erfolge. Die Integration dieser Praktiken in Ihr tägliches Leben kann nach und nach zu einem größeren Gefühl von innerem Frieden und Wohlbefinden führen.",
+
+        "ABOUT_1": "Stress, Ängste, Depression?",
+        "ABOUT_2": "Finden Sie die Ursache für Stimmungsschwankungen heraus",
+        "ABOUT_3": "Steigern Sie Ihr Wohlbefinden mit unseren exklusiven Methoden"
+
     },
     "INDEPENDENCE": {
         "HEAD": "Unabhängigkeit",
@@ -1522,7 +1531,11 @@
             "LI8_TEXT": "Wissenschaft und Forschung.",
             "LI9_TEXT": "Kunstaktivitäten."
         },
-        "DESK6_2": "Es ist wichtig zu beachten, dass Unabhängigkeit in diesen Bereichen zwar zum Erfolg beitragen kann, Zusammenarbeit und effektive Kommunikationsfähigkeiten jedoch in den meisten Berufen auch wertvoll sind. Für einen erfüllenden Karriereweg ist es wichtig, ein Gleichgewicht zwischen Unabhängigkeit und Teamarbeit zu finden. Darüber hinaus sind Menschen einzigartig und ihr beruflicher Werdegang kann durch eine Kombination anderer Eigenschaften und Interessen als der Unabhängigkeit beeinflusst werden."
+        "DESK6_2": "Es ist wichtig zu beachten, dass Unabhängigkeit in diesen Bereichen zwar zum Erfolg beitragen kann, Zusammenarbeit und effektive Kommunikationsfähigkeiten jedoch in den meisten Berufen auch wertvoll sind. Für einen erfüllenden Karriereweg ist es wichtig, ein Gleichgewicht zwischen Unabhängigkeit und Teamarbeit zu finden. Darüber hinaus sind Menschen einzigartig und ihr beruflicher Werdegang kann durch eine Kombination anderer Eigenschaften und Interessen als der Unabhängigkeit beeinflusst werden.",
+
+        "ABOUT_1": "Stress, Ängste, Depression?",
+        "ABOUT_2": "Finden Sie die Ursache für Stimmungsschwankungen heraus",
+        "ABOUT_3": "Steigern Sie Ihr Wohlbefinden mit unseren exklusiven Methoden"
     },
     "MAGNESIUM": {
         "HEAD": "Magnesium",

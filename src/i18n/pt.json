@@ -1392,7 +1392,11 @@
             "LI4_TEXT": "Vendas.",
             "LI5_TEXT": "Trabalho rotineiro intensivo."
         },
-        "DESK6_3": "Lembre-se de que o segredo é encontrar um equilíbrio entre uma carreira que atenda às suas inclinações naturais e uma carreira que o desafie e entusiasme. Embora algumas carreiras possam parecer mais adequadas a pessoas produtivas, a paixão pessoal, a aprendizagem contínua e a capacidade de adaptações podem levar ao sucesso numa vasta gama de áreas."
+        "DESK6_3": "Lembre-se de que o segredo é encontrar um equilíbrio entre uma carreira que atenda às suas inclinações naturais e uma carreira que o desafie e entusiasme. Embora algumas carreiras possam parecer mais adequadas a pessoas produtivas, a paixão pessoal, a aprendizagem contínua e a capacidade de adaptações podem levar ao sucesso numa vasta gama de áreas.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "HARMONY": {
         "HEAD": "Harmonia",
@@ -1448,7 +1452,11 @@
             "LI8_HEAD": "Procurando apoio:",
             "LI8_TEXT": "entre em contato com amigos, familiares ou um profissional de saúde mental quando necessário. Falar sobre seus sentimentos e problemas pode trazer clareza e aliviar a carga emocional."
         },
-        "DESK5": "Lembre-se de que alcançar a harmonia interna é uma jornada contínua e é natural experimentar flutuações no seu estado emocional. Seja paciente consigo mesmo e comemore pequenas vitórias ao longo do caminho. Incorporar essas práticas em sua vida diária pode levar gradualmente a uma maior sensação de paz interior e bem-estar."
+        "DESK5": "Lembre-se de que alcançar a harmonia interna é uma jornada contínua e é natural experimentar flutuações no seu estado emocional. Seja paciente consigo mesmo e comemore pequenas vitórias ao longo do caminho. Incorporar essas práticas em sua vida diária pode levar gradualmente a uma maior sensação de paz interior e bem-estar.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "INDEPENDENCE": {
         "HEAD": "Independência",
@@ -1524,7 +1532,11 @@
             "LI8_TEXT": "Academia e pesquisa.",
             "LI9_TEXT": "Atividades artísticas."
         },
-        "DESK6_2": "É importante observar que, embora a independência possa contribuir para o sucesso nesses campos, as habilidades de colaboração e comunicação eficazes também são valiosas na maioria das profissões. Encontrar um equilíbrio entre independência e trabalho em equipe é essencial para uma carreira gratificante. Além disso, as pessoas são únicas e sua carreira pode ser influenciada por uma combinação de características e interesses que não sejam a independência."
+        "DESK6_2": "É importante observar que, embora a independência possa contribuir para o sucesso nesses campos, as habilidades de colaboração e comunicação eficazes também são valiosas na maioria das profissões. Encontrar um equilíbrio entre independência e trabalho em equipe é essencial para uma carreira gratificante. Além disso, as pessoas são únicas e sua carreira pode ser influenciada por uma combinação de características e interesses que não sejam a independência.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "MAGNESIUM": {
         "HEAD": "Magnésio",
