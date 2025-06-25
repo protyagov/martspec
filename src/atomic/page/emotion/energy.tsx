@@ -2,9 +2,10 @@ import * as React from "react";
 import _ from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import PageHeader from "@/atomic/molecule/page-header";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
+import Header from "@/atomic/organism/header";
+
 
 export default function Energy() {
     const appId = getAppId();
@@ -19,15 +20,23 @@ export default function Energy() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion personality-trait">
-                <PageHeader
+                <Header
                     title={_("ENERGY.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("ENERGY.DWN")}
-                    imgSrc="/img/page/energy/energy.webp"
+                    imgSrc="/img/page/energy/energy.svg"
                     imgAlt={_("ENERGY.IMG")}
                     imgH={390}
                     imgW={421}
-                />
+                >
+                    <div className="energy-lists">
+                        <ul className="header-content-list-energy" >
+                            <li>{_("ENERGY.ABOUT_1")}</li>
+                            <li>{_("ENERGY.ABOUT_2")}</li>
+                            <li>{_("ENERGY.ABOUT_3")}</li>
+                        </ul>
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row">

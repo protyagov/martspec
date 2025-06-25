@@ -1627,7 +1627,11 @@
             "LI9_TEXT": "Guía turístico.",
             "LI10_TEXT": "Industria de la moda y la belleza."
         },
-        "DESK5_2": "Las personas enérgicas deben considerar sus fortalezas, intereses y valores al elegir opciones profesionales. Es importante encontrar una trayectoria profesional que coincida con sus cualidades naturales, pero que también deje espacio para el crecimiento y el bienestar personal."
+        "DESK5_2": "Las personas enérgicas deben considerar sus fortalezas, intereses y valores al elegir opciones profesionales. Es importante encontrar una trayectoria profesional que coincida con sus cualidades naturales, pero que también deje espacio para el crecimiento y el bienestar personal.",
+
+        "ABOUT_1": "¿Estrés, ansiedad, depresión?",
+        "ABOUT_2": "Descubre la causa de tus cambios de humor",
+        "ABOUT_3": "Mejora tu bienestar con nuestras técnicas exclusivas"
     },
     "OPENNESS": {
         "HEAD": "Apertura",

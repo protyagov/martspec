@@ -1627,7 +1627,11 @@
             "LI9_TEXT": "Guide touristique.",
             "LI10_TEXT": "Industrie de la mode et de la beauté."
         },
-        "DESK5_2": "Les personnes énergiques doivent tenir compte de leurs forces, de leurs intérêts et de leurs valeurs lorsqu’elles choisissent leurs options de carrière. Il est important de trouver un cheminement de carrière qui corresponde à leurs qualités naturelles, mais qui laisse également place à l’épanouissement personnel et au bien-être."
+        "DESK5_2": "Les personnes énergiques doivent tenir compte de leurs forces, de leurs intérêts et de leurs valeurs lorsqu’elles choisissent leurs options de carrière. Il est important de trouver un cheminement de carrière qui corresponde à leurs qualités naturelles, mais qui laisse également place à l’épanouissement personnel et au bien-être.",
+
+        "ABOUT_1": "Stress, anxiété, dépression ?",
+        "ABOUT_2": "Découvrez la cause de vos sautes d'humeur",
+        "ABOUT_3": "Améliorez votre bien-être grâce à nos techniques exclusives"
     },
     "OPENNESS": {
         "HEAD": "Ouverture",

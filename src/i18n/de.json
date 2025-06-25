@@ -1630,7 +1630,11 @@
             "LI9_TEXT": "Reiseführer.",
             "LI10_TEXT": "Mode- und Schönheitsindustrie."
         },
-        "DESK5_2": "Energiegeladene Menschen sollten bei der Wahl ihrer Karrieremöglichkeiten ihre Stärken, Interessen und Werte berücksichtigen. Es ist wichtig, einen Karriereweg zu finden, der ihren natürlichen Qualitäten entspricht, aber auch Raum für persönliches Wachstum und Wohlbefinden lässt."
+        "DESK5_2": "Energiegeladene Menschen sollten bei der Wahl ihrer Karrieremöglichkeiten ihre Stärken, Interessen und Werte berücksichtigen. Es ist wichtig, einen Karriereweg zu finden, der ihren natürlichen Qualitäten entspricht, aber auch Raum für persönliches Wachstum und Wohlbefinden lässt.",
+
+        "ABOUT_1": "Stress, Ängste, Depression?",
+        "ABOUT_2": "Finden Sie die Ursache für Stimmungsschwankungen heraus",
+        "ABOUT_3": "Steigern Sie Ihr Wohlbefinden mit unseren exklusiven Methoden"
     },
     "OPENNESS": {
         "HEAD": "Offenheit",
