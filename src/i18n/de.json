@@ -1551,9 +1551,12 @@
     },
     "IRON": {
         "HEAD": "Eisen",
-        "ICO": "App-Icon zur täglichen Verfolgung deines Eisenspiegels.",
+        "ABOUT_1": "Ein benutzerfreundlicher und intuitiver Eisen-Tracker",
+        "ABOUT_2": "Verwenden Sie die App auf Ihrer Apple Watch",
+        "ABOUT_3": "Synchronisierung mit der Apple Health App",
+        "ICO": "App-Symbol zur täglichen Überwachung Ihres Eisenwerts.",
         "SUBHEAD": "Eisen-Tracker für die Uhr",
-        "TEXT": "Effektive Eisenüberwachung auf deiner Apple Watch. Einfaches Verfolgen deiner täglichen Einnahme. Minimalistisches Design, Uhr-Widgets und Synchronisierung mit Apple Health. Keine Werbung und keine unnötigen Schritte."
+        "TEXT": "Effizientes Eisen-Monitoring auf Ihrer Apple Watch. Verfolgen Sie Ihre tägliche Aufnahme ganz einfach. Minimalistisches Design, Watch-Widgets und Synchronisierung mit Apple Health. Keine Werbung und keine unnötigen Schritte."
     },
     "ENERGY": {
         "HEAD_MAIN": "Energie",
