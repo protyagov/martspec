@@ -1552,9 +1552,12 @@
     },
     "IRON": {
         "HEAD": "Ferro",
-        "ICO": "Ícone do aplicativo para rastrear diariamente seus níveis de ferro.",
+        "ABOUT_1": "Um rastreador de ferro fácil e intuitivo",
+        "ABOUT_2": "Use o aplicativo no seu Apple Watch",
+        "ABOUT_3": "Sincronização com o app Apple Saúde",
+        "ICO": "Ícone do aplicativo para monitoramento diário dos seus níveis de ferro.",
         "SUBHEAD": "Rastreador de ferro para relógio",
-        "TEXT": "Monitoramento eficiente de ferro no seu Apple Watch. Fácil rastreamento da ingestão diária. Design minimalista, widgets para o relógio e sincronização com o Apple Health. Sem anúncios e sem passos desnecessários."
+        "TEXT": "Monitoramento eficiente de ferro no seu Apple Watch. Acompanhe facilmente sua ingestão diária. Design minimalista, widgets para o relógio e sincronização com o Apple Saúde. Sem anúncios ou etapas desnecessárias."
     },
     "ENERGY": {
         "HEAD_MAIN": "Energia",
@@ -1628,7 +1631,11 @@
             "LI9_TEXT": "Guia turístico.",
             "LI10_TEXT": "Indústria de moda e beleza."
         },
-        "DESK5_2": "Pessoas energéticas devem considerar os seus pontos fortes, interesses e valores ao escolher opções de carreira. É importante encontrar um plano de carreira que corresponda às suas qualidades naturais, mas que também deixe espaço para o crescimento pessoal e o bem-estar."
+        "DESK5_2": "Pessoas energéticas devem considerar os seus pontos fortes, interesses e valores ao escolher opções de carreira. É importante encontrar um plano de carreira que corresponda às suas qualidades naturais, mas que também deixe espaço para o crescimento pessoal e o bem-estar.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "OPENNESS": {
         "HEAD": "Abertura",

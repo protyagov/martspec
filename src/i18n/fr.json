@@ -1548,9 +1548,12 @@
     },
     "IRON": {
         "HEAD": "Fer",
-        "ICO": "Icône de l'application pour le suivi quotidien de vos niveaux de fer.",
-        "SUBHEAD": "Tracker de fer pour montre",
-        "TEXT": "Suivi efficace du fer sur votre Apple Watch. Suivi facile de votre consommation quotidienne. Design minimaliste, widgets pour la montre et synchronisation avec Apple Health. Sans publicités et sans étapes inutiles."
+        "ABOUT_1": "Un suivi du fer simple et intuitif",
+        "ABOUT_2": "Utilisez l’application sur votre Apple Watch",
+        "ABOUT_3": "Synchronisation avec l’application Apple Santé",
+        "ICO": "Icône de l’application pour suivre quotidiennement votre taux de fer.",
+        "SUBHEAD": "Suivi du fer pour montre connectée",
+        "TEXT": "Suivi efficace du fer sur votre Apple Watch. Suivez facilement votre consommation quotidienne. Design minimaliste, widgets pour montre et synchronisation avec Apple Santé. Sans publicité ni étapes superflues."
     },
     "ENERGY": {
         "HEAD_MAIN": "Énergie",
@@ -1624,7 +1627,11 @@
             "LI9_TEXT": "Guide touristique.",
             "LI10_TEXT": "Industrie de la mode et de la beauté."
         },
-        "DESK5_2": "Les personnes énergiques doivent tenir compte de leurs forces, de leurs intérêts et de leurs valeurs lorsqu’elles choisissent leurs options de carrière. Il est important de trouver un cheminement de carrière qui corresponde à leurs qualités naturelles, mais qui laisse également place à l’épanouissement personnel et au bien-être."
+        "DESK5_2": "Les personnes énergiques doivent tenir compte de leurs forces, de leurs intérêts et de leurs valeurs lorsqu’elles choisissent leurs options de carrière. Il est important de trouver un cheminement de carrière qui corresponde à leurs qualités naturelles, mais qui laisse également place à l’épanouissement personnel et au bien-être.",
+
+        "ABOUT_1": "Stress, anxiété, dépression ?",
+        "ABOUT_2": "Découvrez la cause de vos sautes d'humeur",
+        "ABOUT_3": "Améliorez votre bien-être grâce à nos techniques exclusives"
     },
     "OPENNESS": {
         "HEAD": "Ouverture",
