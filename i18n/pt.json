@@ -1552,9 +1552,12 @@
     },
     "IRON": {
         "HEAD": "Ferro",
-        "ICO": "Ícone do aplicativo para rastrear diariamente seus níveis de ferro.",
+        "ABOUT_1": "Um rastreador de ferro fácil e intuitivo",
+        "ABOUT_2": "Use o aplicativo no seu Apple Watch",
+        "ABOUT_3": "Sincronização com o app Apple Saúde",
+        "ICO": "Ícone do aplicativo para monitoramento diário dos seus níveis de ferro.",
         "SUBHEAD": "Rastreador de ferro para relógio",
-        "TEXT": "Monitoramento eficiente de ferro no seu Apple Watch. Fácil rastreamento da ingestão diária. Design minimalista, widgets para o relógio e sincronização com o Apple Health. Sem anúncios e sem passos desnecessários."
+        "TEXT": "Monitoramento eficiente de ferro no seu Apple Watch. Acompanhe facilmente sua ingestão diária. Design minimalista, widgets para o relógio e sincronização com o Apple Saúde. Sem anúncios ou etapas desnecessárias."
     },
     "ENERGY": {
         "HEAD_MAIN": "Energia",

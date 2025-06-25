@@ -1550,9 +1550,12 @@
     },
     "IRON": {
         "HEAD": "Iron",
+        "ABOUT_1": "A user-friendly and intuitive iron tracker",
+        "ABOUT_2": "Use the app on your Apple Watch",
+        "ABOUT_3": "Syncs with the Apple Health app",
         "ICO": "App icon for daily tracking of your iron levels.",
-        "SUBHEAD": "Iron tracker for watch",
-        "TEXT": "Efficient iron tracking on your Apple Watch. Monitor your daily intake with ease. Minimalist design, watch widgets, and Apple Health sync. Free from ads and unnecessary steps."
+        "SUBHEAD": "Iron tracker for your watch",
+        "TEXT": "Efficient iron monitoring on your Apple Watch. Easily track your daily intake. Minimalist design, watch widgets, and Apple Health sync. No ads or unnecessary steps."
     },
     "ENERGY": {
         "HEAD_MAIN": "Energy",
