@@ -1329,7 +1329,11 @@
             "LI4_TEXT": "Sales.",
             "LI5_TEXT": "Routine intensive work."
         },
-        "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning and the ability to adaptations can lead to success in a wide range of areas."
+        "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning and the ability to adaptations can lead to success in a wide range of areas.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "ANXIETY": {
         "HEAD": "Anxiety",
@@ -1386,7 +1390,11 @@
         "DESK5_2": "The Emotion mobile app offers a convenient and accessible way to assess your anxiety level and receive recommendations on how to manage it. The application provides the ability to track your emotional states and analyze factors that cause anxiety.",
         "DESK5_3": "Treating anxiety is a complex process that may include psychotherapy, pharmacological therapy and lifestyle changes. Although each anxiety disorder has unique characteristics, most respond well to two types of treatment: psychotherapy or \"talk therapy\" and medication. Cognitive behavioral therapy a type of talk therapy, can help a person learn different ways of thinking, reacting and behaving to reduce anxiety. Medications will not cure anxiety disorders, but they can significantly relieve symptoms. The most commonly used medications are anti-anxiety medications and antidepressants.",
         "DESK5_4": "Mobile apps can be effective tools for self-management of anxiety in the early stages, but it is always recommended to seek professional advice and support from a qualified professional.",
-        "DESK5_5": "In general, the use of mobile applications is a promising direction in diagnosing anxiety. They help people better understand their emotional state, learn to manage anxiety and improve their quality of life."
+        "DESK5_5": "In general, the use of mobile applications is a promising direction in diagnosing anxiety. They help people better understand their emotional state, learn to manage anxiety and improve their quality of life.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "HARMONY": {
         "HEAD": "Harmony",
@@ -1442,7 +1450,11 @@
             "LI8_HEAD": "Seeking support:",
             "LI8_TEXT": "reach out to friends, family or a mental health professional when needed. Talking about your feelings and problems can bring clarity and alleviate emotional burden."
         },
-        "DESK5": "Remember, achieving internal harmony is an ongoing journey and it's natural to experience fluctuations in your emotional state. Be patient with yourself and celebrate small victories along the way. Incorporating these practices into your daily life can gradually lead to a greater sense of inner peace and well-being."
+        "DESK5": "Remember, achieving internal harmony is an ongoing journey and it's natural to experience fluctuations in your emotional state. Be patient with yourself and celebrate small victories along the way. Incorporating these practices into your daily life can gradually lead to a greater sense of inner peace and well-being.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "INDEPENDENCE": {
         "HEAD": "Independence",
@@ -1518,7 +1530,11 @@
             "LI8_TEXT": "Academia and Research.",
             "LI9_TEXT": "Art activities."
         },
-        "DESK6_2": "It is important to note that while independence can contribute to success in these fields, collaboration and effective communication skills are also valuable in most professions. Finding a balance between independence and teamwork is essential to a fulfilling career path. Additionally, people are unique and their career path may be influenced by a combination of traits and interests other than independence."
+        "DESK6_2": "It is important to note that while independence can contribute to success in these fields, collaboration and effective communication skills are also valuable in most professions. Finding a balance between independence and teamwork is essential to a fulfilling career path. Additionally, people are unique and their career path may be influenced by a combination of traits and interests other than independence.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "MAGNESIUM": {
         "HEAD": "Magnesium",
@@ -1538,9 +1554,12 @@
     },
     "IRON": {
         "HEAD": "Iron",
+        "ABOUT_1": "A user-friendly and intuitive iron tracker",
+        "ABOUT_2": "Use the app on your Apple Watch",
+        "ABOUT_3": "Syncs with the Apple Health app",
         "ICO": "App icon for daily tracking of your iron levels.",
-        "SUBHEAD": "Iron tracker for watch",
-        "TEXT": "Efficient iron tracking on your Apple Watch. Monitor your daily intake with ease. Minimalist design, watch widgets, and Apple Health sync. Free from ads and unnecessary steps."
+        "SUBHEAD": "Iron tracker for your watch",
+        "TEXT": "Efficient iron monitoring on your Apple Watch. Easily track your daily intake. Minimalist design, watch widgets, and Apple Health sync. No ads or unnecessary steps."
     },
     "ENERGY": {
         "HEAD_MAIN": "Energy",
@@ -1614,7 +1633,11 @@
             "LI9_TEXT": "Tour guide.",
             "LI10_TEXT": "Fashion and beauty industry."
         },
-        "DESK5_2": "Energetic people should consider their strengths, interests and values when choosing career options. It is important to find a career path that matches their natural qualities, but also leaves room for personal growth and well-being."
+        "DESK5_2": "Energetic people should consider their strengths, interests and values when choosing career options. It is important to find a career path that matches their natural qualities, but also leaves room for personal growth and well-being.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "OPENNESS": {
         "HEAD": "Openness",
@@ -1677,7 +1700,11 @@
         "DESK6_2": "Forget endless questionnaires with their dry \"strongly agree\" scales. Ditch the labels and unlock your authentic openness to experience, and more, in a mere 60 seconds with the Emotion app. This revolutionary tool skips the tedious analysis and plunges straight into the vibrant depths of your subconscious.",
         "DESK6_3": "Intrigued by how open you truly are? Do you crave adventures in learning, brushstrokes of creativity, and handshakes with the unknown? Or do you thrive on predictable rhythms, the logic of numbers, and the comfort of clear-cut rules? Your answer lies in the fascinating world of Openness to Experience! The Emotion app paints a detailed portrait of your inner landscape, revealing your preferences that no other app can offer.",
         "DESK6_4": "High on this scale? You might be a free-spirited explorer, roaming through galleries, devouring knowledge like a starving artist, and befriending strangers like lost puzzle pieces. Low on openness? You could be a grounded traditionalist, finding solace in routines, building castles of logic, and appreciating the beauty of a perfectly balanced spreadsheet.",
-        "DESK6_5": "And guess what? Both are equally awesome! The Emotion app helps you discover your unique openness blend (plus a whole rainbow of other emotional traits) in just 60 seconds. No labels, no judgment, just pure self-discovery to guide you to fulfilling choices and a personalized path to growth."
+        "DESK6_5": "And guess what? Both are equally awesome! The Emotion app helps you discover your unique openness blend (plus a whole rainbow of other emotional traits) in just 60 seconds. No labels, no judgment, just pure self-discovery to guide you to fulfilling choices and a personalized path to growth.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "COLOR_TEST": {
         "HEAD1": "Emotion Test",

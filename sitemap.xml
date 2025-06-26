@@ -10,7 +10,11 @@
       <loc>https://martspec.com/bodymass</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+      <url>
+      <loc>https://martspec.com/iron</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/magnesium</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -225,10 +229,6 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
-      <loc>https://martspec.com/en/magnesium</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
       <loc>https://martspec.com/en/vitamin</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -436,10 +436,6 @@
    </url>
    <url>
       <loc>https://martspec.com/ar/bodymass</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-    <url>
-      <loc>https://martspec.com/ar/magnesium</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -650,10 +646,6 @@
    </url>
    <url>
       <loc>https://martspec.com/zh/bodymass</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-     <url>
-      <loc>https://martspec.com/zh/magnesium</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -867,10 +859,6 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
-      <loc>https://martspec.com/fr/magnesium</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
       <loc>https://martspec.com/fr/vitamin</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1078,10 +1066,6 @@
    </url>
    <url>
       <loc>https://martspec.com/de/bodymass</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-     <url>
-      <loc>https://martspec.com/de/magnesium</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1292,10 +1276,6 @@
    </url>
    <url>
       <loc>https://martspec.com/hi/bodymass</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-      <url>
-      <loc>https://martspec.com/hi/magnesium</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1509,10 +1489,6 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
-      <loc>https://martspec.com/ja/magnesium</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
       <loc>https://martspec.com/ja/vitamin</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1720,10 +1696,6 @@
    </url>
    <url>
       <loc>https://martspec.com/pt/bodymass</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-    <url>
-      <loc>https://martspec.com/pt/magnesium</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1937,10 +1909,6 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
-      <loc>https://martspec.com/ru/magnesium</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
       <loc>https://martspec.com/ru/vitamin</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -2148,10 +2116,6 @@
    </url>
    <url>
       <loc>https://martspec.com/es/bodymass</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-     <url>
-      <loc>https://martspec.com/es/magnesium</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2362,10 +2326,6 @@
    </url>
    <url>
       <loc>https://martspec.com/uk/bodymass</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-    <url>
-      <loc>https://martspec.com/uk/magnesium</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>

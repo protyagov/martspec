@@ -1306,7 +1306,11 @@
         "DESK5_2": "O aplicativo móvel Emoção oferece uma maneira conveniente e acessível de avaliar seu nível de ansiedade e receber recomendações sobre como gerenciá-lo. O aplicativo oferece a capacidade de rastrear seus estados emocionais e analisar fatores que causam ansiedade.",
         "DESK5_3": "O tratamento da ansiedade é um processo complexo que pode incluir psicoterapia, terapia farmacológica e mudanças no estilo de vida. Embora cada transtorno de ansiedade tenha características únicas, a maioria responde bem a dois tipos de tratamento: psicoterapia ou \"talkoterapia\" e medicação. A terapia cognitivo-comportamental (TCC), um tipo de psicoterapia, pode ajudar uma pessoa a aprender diferentes maneiras de pensar, reagir e se comportar para reduzir a ansiedade. Os medicamentos não curam os transtornos de ansiedade, mas podem aliviar significativamente os sintomas. Os medicamentos mais comumente usados são ansiolíticos e antidepressivos.",
         "DESK5_4": "Os aplicativos móveis podem ser ferramentas eficazes para o autogerenciamento da ansiedade nos estágios iniciais, mas é sempre recomendável buscar aconselhamento e apoio profissional de um profissional qualificado.",
-        "DESK5_5": "Em geral, o uso de aplicativos móveis é uma direção promissora no diagnóstico de ansiedade. Eles ajudam as pessoas a compreender melhor seu estado emocional, aprender a controlar a ansiedade e a melhorar sua qualidade de vida."
+        "DESK5_5": "Em geral, o uso de aplicativos móveis é uma direção promissora no diagnóstico de ansiedade. Eles ajudam as pessoas a compreender melhor seu estado emocional, aprender a controlar a ansiedade e a melhorar sua qualidade de vida.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "PRODUCTIVITY": {
         "HEAD": "Produtividade",
@@ -1388,7 +1392,11 @@
             "LI4_TEXT": "Vendas.",
             "LI5_TEXT": "Trabalho rotineiro intensivo."
         },
-        "DESK6_3": "Lembre-se de que o segredo é encontrar um equilíbrio entre uma carreira que atenda às suas inclinações naturais e uma carreira que o desafie e entusiasme. Embora algumas carreiras possam parecer mais adequadas a pessoas produtivas, a paixão pessoal, a aprendizagem contínua e a capacidade de adaptações podem levar ao sucesso numa vasta gama de áreas."
+        "DESK6_3": "Lembre-se de que o segredo é encontrar um equilíbrio entre uma carreira que atenda às suas inclinações naturais e uma carreira que o desafie e entusiasme. Embora algumas carreiras possam parecer mais adequadas a pessoas produtivas, a paixão pessoal, a aprendizagem contínua e a capacidade de adaptações podem levar ao sucesso numa vasta gama de áreas.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "HARMONY": {
         "HEAD": "Harmonia",
@@ -1444,7 +1452,11 @@
             "LI8_HEAD": "Procurando apoio:",
             "LI8_TEXT": "entre em contato com amigos, familiares ou um profissional de saúde mental quando necessário. Falar sobre seus sentimentos e problemas pode trazer clareza e aliviar a carga emocional."
         },
-        "DESK5": "Lembre-se de que alcançar a harmonia interna é uma jornada contínua e é natural experimentar flutuações no seu estado emocional. Seja paciente consigo mesmo e comemore pequenas vitórias ao longo do caminho. Incorporar essas práticas em sua vida diária pode levar gradualmente a uma maior sensação de paz interior e bem-estar."
+        "DESK5": "Lembre-se de que alcançar a harmonia interna é uma jornada contínua e é natural experimentar flutuações no seu estado emocional. Seja paciente consigo mesmo e comemore pequenas vitórias ao longo do caminho. Incorporar essas práticas em sua vida diária pode levar gradualmente a uma maior sensação de paz interior e bem-estar.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "INDEPENDENCE": {
         "HEAD": "Independência",
@@ -1520,7 +1532,11 @@
             "LI8_TEXT": "Academia e pesquisa.",
             "LI9_TEXT": "Atividades artísticas."
         },
-        "DESK6_2": "É importante observar que, embora a independência possa contribuir para o sucesso nesses campos, as habilidades de colaboração e comunicação eficazes também são valiosas na maioria das profissões. Encontrar um equilíbrio entre independência e trabalho em equipe é essencial para uma carreira gratificante. Além disso, as pessoas são únicas e sua carreira pode ser influenciada por uma combinação de características e interesses que não sejam a independência."
+        "DESK6_2": "É importante observar que, embora a independência possa contribuir para o sucesso nesses campos, as habilidades de colaboração e comunicação eficazes também são valiosas na maioria das profissões. Encontrar um equilíbrio entre independência e trabalho em equipe é essencial para uma carreira gratificante. Além disso, as pessoas são únicas e sua carreira pode ser influenciada por uma combinação de características e interesses que não sejam a independência.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "MAGNESIUM": {
         "HEAD": "Magnésio",
@@ -1539,9 +1555,12 @@
     },
     "IRON": {
         "HEAD": "Ferro",
-        "ICO": "Ícone do aplicativo para rastrear diariamente seus níveis de ferro.",
+        "ABOUT_1": "Um rastreador de ferro fácil e intuitivo",
+        "ABOUT_2": "Use o aplicativo no seu Apple Watch",
+        "ABOUT_3": "Sincronização com o app Apple Saúde",
+        "ICO": "Ícone do aplicativo para monitoramento diário dos seus níveis de ferro.",
         "SUBHEAD": "Rastreador de ferro para relógio",
-        "TEXT": "Monitoramento eficiente de ferro no seu Apple Watch. Fácil rastreamento da ingestão diária. Design minimalista, widgets para o relógio e sincronização com o Apple Health. Sem anúncios e sem passos desnecessários."
+        "TEXT": "Monitoramento eficiente de ferro no seu Apple Watch. Acompanhe facilmente sua ingestão diária. Design minimalista, widgets para o relógio e sincronização com o Apple Saúde. Sem anúncios ou etapas desnecessárias."
     },
     "ENERGY": {
         "HEAD_MAIN": "Energia",
@@ -1615,7 +1634,11 @@
             "LI9_TEXT": "Guia turístico.",
             "LI10_TEXT": "Indústria de moda e beleza."
         },
-        "DESK5_2": "Pessoas energéticas devem considerar os seus pontos fortes, interesses e valores ao escolher opções de carreira. É importante encontrar um plano de carreira que corresponda às suas qualidades naturais, mas que também deixe espaço para o crescimento pessoal e o bem-estar."
+        "DESK5_2": "Pessoas energéticas devem considerar os seus pontos fortes, interesses e valores ao escolher opções de carreira. É importante encontrar um plano de carreira que corresponda às suas qualidades naturais, mas que também deixe espaço para o crescimento pessoal e o bem-estar.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "OPENNESS": {
         "HEAD": "Abertura",
@@ -1678,7 +1701,11 @@
         "DESK6_2": "Esqueça os intermináveis questionários com suas escalas áridas de \"concordo totalmente\". Livre-se dos rótulos e desbloqueie sua autêntica abertura à experiência e muito mais em apenas 60 segundos com o aplicativo Emotion. Esta ferramenta revolucionária evita a tediosa análise e mergulha direto nas profundezas vibrantes do seu subconsciente.",
         "DESK6_3": "Intrigado com o quão aberto você realmente é? Você almeja aventuras de aprendizado, pinceladas de criatividade e apertos de mão com o desconhecido? Ou você prospera com ritmos previsíveis, com a lógica dos números e com o conforto de regras bem definidas? A sua resposta está no fascinante mundo da Abertura à Experiência! O aplicativo Emotion pinta um retrato detalhado de sua paisagem interior, revelando suas preferências que nenhum outro aplicativo pode oferecer.",
         "DESK6_4": "Você está no topo desta escala? Você pode ser um explorador de espírito livre, vagando por galerias, devorando conhecimento como um artista faminto e fazendo amizade com estranhos como peças perdidas de um quebra-cabeça. Baixa abertura? Você poderia ser um tradicionalista fundamentado, encontrando consolo nas rotinas, construindo castelos de lógica e apreciando a beleza de uma planilha perfeitamente equilibrada.",
-        "DESK6_5": "E adivinha? Ambos são igualmente incríveis! O aplicativo Emotion ajuda você a descobrir sua mistura única de abertura (além de todo um arco-íris de outros traços emocionais) em apenas 60 segundos. Sem rótulos, sem julgamento, apenas pura autodescoberta para guiá-lo para escolhas satisfatórias e um caminho personalizado para o crescimento."
+        "DESK6_5": "E adivinha? Ambos são igualmente incríveis! O aplicativo Emotion ajuda você a descobrir sua mistura única de abertura (além de todo um arco-íris de outros traços emocionais) em apenas 60 segundos. Sem rótulos, sem julgamento, apenas pura autodescoberta para guiá-lo para escolhas satisfatórias e um caminho personalizado para o crescimento.",
+
+        "ABOUT_1": "Estresse, ansiedade, depressão?",
+        "ABOUT_2": "Descubra a causa das variações de humor",
+        "ABOUT_3": "Melhore seu bem-estar com nossas técnicas exclusivas"
     },
     "COLOR_TEST": {
         "HEAD1": "Teste de Emoção",

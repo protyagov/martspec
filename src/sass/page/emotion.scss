@@ -34,6 +34,24 @@
         }
     }
     .header-content-list li::marker {
-        color: #7b62fe;
+        color: #7b62fe; 
+    }
+    .header-content-list-anxiety li::marker {
+        color: #85B9CD;
+    }
+    .header-content-list-productivity li::marker {
+        color: #DF9A5B;
+    }
+    .header-content-list-harmony li::marker {
+        color: #BA90F9;
+    }
+    .header-content-list-independence li::marker {
+        color: #FF8675;
+    }
+    .header-content-list-openness li::marker {
+        color: #76E449;
+    }
+    .header-content-list-energy li::marker {
+        color: #E4B921;
     }
 }

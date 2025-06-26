@@ -25,6 +25,7 @@ import ColorTest from "@/atomic/page/emotion/color-test";
 import Careers from "@/atomic/page/careers";
 import VacancyDetails from "@/atomic/prototype/vacancy-details";
 import ComingSoon from "@/atomic/page/coming-soon";
+import Iron from "@/atomic/page/iron";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -79,6 +80,8 @@ export function App() {
             return <Team />;
         case "/careers":
             return <Careers />;
+        case "/iron":
+            return <Iron />;
         case "/coming-soon":
             return <ComingSoon />;
             default:

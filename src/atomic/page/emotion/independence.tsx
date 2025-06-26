@@ -2,9 +2,9 @@ import * as React from "react";
 import _ from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import PageHeader from "@/atomic/molecule/page-header";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
+import Header from "@/atomic/organism/header";
 
 export default function Independence() {
     const appId = getAppId();
@@ -18,15 +18,23 @@ export default function Independence() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion personality-trait">
-                <PageHeader
+                <Header
                     title={_("INDEPENDENCE.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("INDEPENDENCE.DWN")}
-                    imgSrc="/img/page/independence/independence.webp"
+                    imgSrc="/img/page/independence/independence.svg"
                     imgAlt={_("INDEPENDENCE.IMG")}
                     imgH={390}
-                    imgW={421}
-                />
+                    imgW={512}
+                >
+                    <div className="independence-lists">
+                        <ul className="header-content-list-independence" >
+                            <li>{_("INDEPENDENCE.ABOUT_1")}</li>
+                            <li>{_("INDEPENDENCE.ABOUT_2")}</li>
+                            <li>{_("INDEPENDENCE.ABOUT_3")}</li>
+                        </ul>
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row">
