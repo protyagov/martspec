@@ -1522,7 +1522,10 @@
         "HEAD": "Magnésium",
         "ICO": "Icône de l'application pour le suivi quotidien de vos niveaux de magnésium.",
         "SUBHEAD": "Tracker de magnésium pour montre",
-        "TEXT": "Suivi simple du magnésium directement sur votre poignet. Design minimaliste, widgets pour la montre et synchronisation avec Apple Health. Sans publicités et sans inscription."
+        "TEXT": "Suivi simple du magnésium directement sur votre poignet. Design minimaliste, widgets pour la montre et synchronisation avec Apple Health. Sans publicités et sans inscription.",
+        "ABOUT_1": "Un traceur de magnésium pratique et facile à utiliser pour Apple Watch",
+        "ABOUT_2": "Sauvegardes automatiques sur iCloud",
+        "ABOUT_3": "Intégration complète avec Apple Health"
     },
     "CALCIUM": {
         "HEAD": "Calcium",

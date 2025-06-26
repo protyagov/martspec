@@ -1,0 +1,9 @@
+.magnesium {
+  .header-content-list {
+    li {
+      &::marker {
+        color: #FE460A;
+      }
+    }
+  }
+}

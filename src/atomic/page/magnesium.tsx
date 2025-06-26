@@ -1,34 +1,37 @@
 import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
+import { getAppId } from "@/service/AppleService";
 import Header from "@/atomic/organism/header";
 import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
 import ScrollButton from "../atom/scroll-button";
+//import '@/sass/page/magnesium.scss'
 
-export default function Magnesium() { 
-  return (
-      <>
-          <NavigationBar />
-          <Header
-              title={_("SIZE.HEAD")}
-              //appId={appId}
-              appDownloadTitle={_("SIZE.DWN")}
-              imgSrc="/img/page/body-size/img-header-en.png"
-              imgAlt={_("SIZE.IMG")}
-              imgH={305}
-              imgW={450}
-          >
-              <div className="bodysize">
-                  <ul className="header-content-list">
-                      <li>{_("SIZE.ABOUT_1")}</li>
-                      <li>{_("SIZE.ABOUT_2")}</li>
-                      <li>{_("SIZE.ABOUT_3")}</li>
-                  </ul>
-              </div>
-          </Header>
+export default function Magnesium() {
+    const appId = getAppId();
+    return (
+        <>
+            <NavigationBar />
+            <Header
+                title={_("MAGNESIUM.HEAD")}
+                appId={appId}
+                appDownloadTitle={_("MAGNESIUM.DWN")}
+                imgSrc="/img/page/magnesium/Img-MG-header-en.webp"
+                imgAlt={_("MAGNESIUM.IMG")}
+                imgH={305}
+                imgW={450}
+            >
+                <div className="magnesium">
+                    <ul className="header-content-list">
+                        <li>{_("MAGNESIUM.ABOUT_1")}</li>
+                        <li>{_("MAGNESIUM.ABOUT_2")}</li>
+                        <li>{_("MAGNESIUM.ABOUT_3")}</li>
+                    </ul>
+                </div>
+            </Header>
 
-          <Footer />
-          <ScrollButton />
-      </>
-  );
+            <Footer />
+            <ScrollButton />
+        </>
+    );
 }

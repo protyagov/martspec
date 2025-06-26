@@ -1524,7 +1524,11 @@
         "HEAD": "Magnesium",
         "ICO": "App icon for daily tracking of your magnesium levels.",
         "SUBHEAD": "Magnesium tracker for watch",
-        "TEXT": "Seamless magnesium tracking, right on your wrist. Minimalist design, watch complication widgets, and Apple Health sync. No ads, no login."
+        "TEXT": "Seamless magnesium tracking, right on your wrist. Minimalist design, watch complication widgets, and Apple Health sync. No ads, no login.",
+        "ABOUT_1": "A convenient and easy-to-use magnesium tracker for Apple Watch",
+        "ABOUT_2": "Automatic backups to iCloud",
+        "ABOUT_3": "Full integration with Apple Health"
+        
     },
     "CALCIUM": {
         "HEAD": "Calcium",

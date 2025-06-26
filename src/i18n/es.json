@@ -1522,7 +1522,10 @@
         "HEAD": "Magnesio",
         "ICO": "Ícono de la aplicación para el seguimiento diario de tus niveles de magnesio.",
         "SUBHEAD": "Rastreador de magnesio para reloj",
-        "TEXT": "Seguimiento simple de magnesio directamente en tu muñeca. Diseño minimalista, widgets para el reloj y sincronización con Apple Health. Sin anuncios y sin registro."
+        "TEXT": "Seguimiento simple de magnesio directamente en tu muñeca. Diseño minimalista, widgets para el reloj y sincronización con Apple Health. Sin anuncios y sin registro.",
+        "ABOUT_1": "Un rastreador de magnesio cómodo y fácil de usar para Apple Watch",
+        "ABOUT_2": "Copias de seguridad automáticas en iCloud",
+        "ABOUT_3": "Integración completa con Apple Health"
     },
     "CALCIUM": {
         "HEAD": "Calcio",
