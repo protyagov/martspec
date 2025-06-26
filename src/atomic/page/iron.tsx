@@ -3,7 +3,7 @@ import _, { Locale } from "@/i18n/locale";
 import { getAppId } from "@/service/AppleService";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
 
 export default function Iron() {
