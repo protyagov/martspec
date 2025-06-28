@@ -1541,7 +1541,10 @@
         "HEAD": "Magnesium",
         "ICO": "App-Icon zur täglichen Verfolgung deines Magnesiumspiegels.",
         "SUBHEAD": "Magnesium-Tracker für die Uhr",
-        "TEXT": "Einfache Magnesiumverfolgung direkt am Handgelenk. Minimalistisches Design, Widgets für die Uhr und Synchronisierung mit Apple Health. Keine Werbung und keine Registrierung."
+        "TEXT": "Einfache Magnesiumverfolgung direkt am Handgelenk. Minimalistisches Design, Widgets für die Uhr und Synchronisierung mit Apple Health. Keine Werbung und keine Registrierung.",
+        "ABOUT_1": "Bequemer und einfach zu bedienender Magnesium-Tracker für die Apple Watch",
+        "ABOUT_2": "Automatische Backups in iCloud",
+        "ABOUT_3": "Volle Integration mit Apple Health"
     },
     "CALCIUM": {
         "HEAD": "Calcium",
