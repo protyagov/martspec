@@ -1537,7 +1537,10 @@
         "HEAD": "镁",
         "ICO": "用于每日跟踪您镁水平的应用图标。",
         "SUBHEAD": "手表镁跟踪器",
-        "TEXT": "直接在您的手腕上简单地跟踪镁。极简设计，手表小部件，并与Apple Health同步。无广告，无需注册。"
+        "TEXT": "直接在您的手腕上简单地跟踪镁。极简设计，手表小部件，并与Apple Health同步。无广告，无需注册。",
+        "ABOUT_1": "适用于 Apple Watch 的便捷且易用的镁跟踪器",
+        "ABOUT_2": "自动备份到 iCloud",
+        "ABOUT_3": "与 Apple Health 的完整集成"
     },
     "CALCIUM": {
         "HEAD": "钙",
