@@ -99,7 +99,7 @@ export default function LandingPage() {
                             subtitle={_("VITAMIN.SUBHEAD")}
                             content={_("VITAMIN.TEXT")}
                             button={{
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("VITAMIN.BUTTON_OPEN"),
                                 link: Locale.i18nLink("vitamin"),
                                 color: "#1686FF",
                             }}
@@ -112,7 +112,7 @@ export default function LandingPage() {
 
                 <div className="row g-3 d-flex align-items-stretch mb-5">
                     <div className="col-xl-4 col-sm-6 d-flex">
-                        {/* Кольцо Витамин */}
+                        {/* Нутриенты */}
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/vitamin/vitamin-ring-icon-main-page.svg"
@@ -122,7 +122,7 @@ export default function LandingPage() {
                             content={_("VITAMIN.TEXT1")}
                             button={{
                                 buttonType: "ButtonChevronRight",
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("VITAMIN.BUTTON_OPEN_NUTRIENTS"),
                                 link: Locale.i18nLink("vitamin"),
                                 color: "#1686FF",
                             }}
@@ -139,7 +139,7 @@ export default function LandingPage() {
                             content={_("ELECTROLYTE.TEXT1")}
                             button={{
                                 buttonType: "ButtonChevronRight",
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("ELECTROLYTE.BUTTON_OPEN"),
                                 link: Locale.i18nLink("electrolyte"),
                                 color: "#1686FF",
                             }}
@@ -156,7 +156,7 @@ export default function LandingPage() {
                             content={_("ZINC.TEXT1")}
                             button={{
                                 buttonType: "ButtonChevronRight",
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("ZINC.BUTTON_OPEN"),
                                 link: Locale.i18nLink("bodyzinc"),
                                 color: "#1686FF",
                             }}
@@ -174,7 +174,7 @@ export default function LandingPage() {
                         subtitle={_("SIZE.SUBHEAD")}
                         content={_("SIZE.TEXT")}
                         button={{
-                            text: _("CAREERS.BUTTON3"),
+                            text: _("SIZE.BUTTON_OPEN"),
                             link: Locale.i18nLink("bodysize"),
                             color: "#1686FF",
                         }}
@@ -196,7 +196,7 @@ export default function LandingPage() {
                             content={_("MASS.TEXT")}
                             button={{
                                 buttonType: "ButtonChevronRight",
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("MASS.BUTTON_OPEN"),
                                 link: Locale.i18nLink("bodymass"),
                                 color: "#1686FF",
                             }}
@@ -213,7 +213,7 @@ export default function LandingPage() {
                             content={_("WAIST.TEXT")}
                             button={{
                                 buttonType: "ButtonChevronRight",
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("WAIST.BUTTON_OPEN"),
                                 link: Locale.i18nLink("waistline"),
                                 color: "#1686FF",
                             }}
@@ -231,7 +231,7 @@ export default function LandingPage() {
                         subtitle={_("EMOTION.SUBHEAD")}
                         content={_("EMOTION.TEXT")}
                         button={{
-                            text: _("CAREERS.BUTTON3"),
+                            text: _("EMOTION.BUTTON_OPEN"),
                             link: Locale.i18nLink("emotion"),
                             color: "#1686FF",
                         }}
@@ -253,7 +253,7 @@ export default function LandingPage() {
                             content={_("MAGNESIUM.TEXT")}
                             button={{
                                 buttonType: "LinkStyledButton",
-                                text: _("COMING_SOON.SOON_BTN"),
+                                text: _("MAGNESIUM.BUTTON_OPEN"),
                                 link: Locale.i18nLink("coming-soon"),
                                 color: "#E5EEFF",
                                 textColor: "#1686FF",
@@ -271,7 +271,7 @@ export default function LandingPage() {
                             content={_("CALCIUM.TEXT")}
                             button={{
                                 buttonType: "LinkStyledButton",
-                                text: _("COMING_SOON.SOON_BTN"),
+                                text: _("CALCIUM.BUTTON_OPEN"),
                                 link: Locale.i18nLink("coming-soon"),
                                 color: "#E5EEFF",
                                 textColor: "#1686FF",
@@ -289,7 +289,7 @@ export default function LandingPage() {
                             content={_("IRON.TEXT")}
                             button={{
                                 buttonType: "LinkStyledButton",
-                                text: _("COMING_SOON.SOON_BTN"),
+                                text: _("IRON.BUTTON_OPEN"),
                                 link: Locale.i18nLink("coming-soon"),
                                 color: "#E5EEFF",
                                 textColor: "#1686FF",
@@ -307,7 +307,7 @@ export default function LandingPage() {
                         subtitle={_("ENERGY.SUBHEAD_MAIN")}
                         content={_("ENERGY.TEXT_MAIN")}
                         button={{
-                            text: _("COMING_SOON.SOON_BTN"),
+                            text: _("ENERGY.BUTTON_OPEN"),
                             link: Locale.i18nLink("coming-soon"),
                             color: "#E5EEFF",
                             textColor: "#1686FF",
