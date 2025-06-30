@@ -11,74 +11,44 @@ export const Footer = () => (
                     <div className="col-md-4 col-7 d-flex flex-column">
                         <h2 className="mb-4"> {_("NAV.ABOUT").toUpperCase()} </h2>
                         <div className="footer-link mb-1">
-                            <a href={Locale.i18nLink("about")}>
-                                {" "}
-                                {_("ABOUT.HEAD")}{" "}
-                            </a>
+                            <a href={Locale.i18nLink("about")}> {_("ABOUT.HEAD")} </a>
                         </div>
                         <div className="footer-link mb-1">
-                            <a href={Locale.i18nLink("team")}>
-                                {" "}
-                                {_("TEAM.HEAD")}{" "}
-                            </a>
+                            <a href={Locale.i18nLink("team")}> {_("TEAM.HEAD")} </a>
                         </div>
                         <div className="footer-link mb-1">
-                            <a href={Locale.i18nLink("careers")}>
-                                {" "}
-                                {_("CAREERS.HEAD")}{" "}
-                            </a>
+                            <a href={Locale.i18nLink("careers")}> {_("CAREERS.HEAD")} </a>
                         </div>
                         <div className="footer-link">
-                            <a href={Locale.i18nLink("privacy-policy")}>
-                                {" "}
-                                {_("PP.HEAD")}{" "}
-                            </a>
+                            <a href={Locale.i18nLink("privacy-policy")}> {_("PP.HEAD")} </a>
                         </div>
                     </div>
 
                     <div className="col-md-4 col-5 d-flex flex-column">
                         <h2 className="mb-4"> {_("NAV.APPS").toUpperCase()} </h2>
                         <div className="footer-link mb-1">
-                            <a href={Locale.i18nLink("vitamin")}>
-                                {" "}
-                                {_("VITAMIN.HEAD")}{" "}
-                            </a>
+                            <a href={Locale.i18nLink("vitamin")}> {_("VITAMIN.HEAD")} </a>
                         </div>
                         <div className="footer-link mb-1">
-                            <a href={Locale.i18nLink("bodysize")}>
-                                {" "}
-                                {_("SIZE.HEAD")}{" "}
-                            </a>
+                            <a href={Locale.i18nLink("bodysize")}> {_("SIZE.HEAD")} </a>
                         </div>
                         <div className="footer-link mb-1">
-                            <a href={Locale.i18nLink("bodymass")}>
-                                {" "}
-                                {_("MASS.HEAD")}{" "}
-                            </a>
+                            <a href={Locale.i18nLink("bodymass")}> {_("MASS.HEAD")} </a>
                         </div>
                         <div className="footer-link mb-1">
-                            <a href={Locale.i18nLink("waistline")}>
-                                {" "}
-                                {_("WAIST.HEAD")}{" "}
-                            </a>
+                            <a href={Locale.i18nLink("waistline")}> {_("WAIST.HEAD")} </a>
                         </div>
                         <div className="footer-link mb-1">
-                            <a href={Locale.i18nLink("bodyzinc")}>
-                                {" "}
-                                {_("ZINC.HEAD")}{" "}
-                            </a>
+                            <a href={Locale.i18nLink("bodyzinc")}> {_("ZINC.HEAD")} </a>
                         </div>
                         <div className="footer-link mb-1">
-                            <a href={Locale.i18nLink("emotion")}>
-                                {" "}
-                                {_("EMOTION.HEAD")}{" "}
-                            </a>
+                            <a href={Locale.i18nLink("emotion")}> {_("EMOTION.HEAD")} </a>
                         </div>
                         <div className="footer-link mb-1">
-                            <a href={Locale.i18nLink("electrolyte")}>
-                                {" "}
-                                {_("ELECTROLYTE.HEAD")}{" "}   
-                            </a>
+                            <a href={Locale.i18nLink("electrolyte")}> {_("ELECTROLYTE.HEAD")} </a>
+                        </div>
+                        <div className="footer-link mb-1">
+                            <a href={Locale.i18nLink("magnesium")}> {_("MAGNESIUM.HEAD")} </a>
                         </div>
                     </div>
 

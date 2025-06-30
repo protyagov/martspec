@@ -5,7 +5,7 @@ import WaistLine from "@/atomic/page/waist";
 import Electrolyte from "@/atomic/page/electrolyte";
 import Bodymass from "@/atomic/page/mass";
 import Vitamin from "@/atomic/page/vitamin";
-import Magnesium from "./atomic/page/magnesium";
+import Magnesium from "@/atomic/page/magnesium";
 import VitaminElement from "@/atomic/prototype/vitamin-element";
 import PrivacyPolicy from "@/atomic/page/private-policy";
 import { Locale } from "@/i18n/locale";
