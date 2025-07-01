@@ -238,17 +238,6 @@
       "namedExport": "IconTitleTextElemStory",
       "meta": {}
     },
-    "molecule--page-header": {
-      "name": "Page header",
-      "levels": [
-        "Molecule"
-      ],
-      "locStart": 12,
-      "locEnd": 25,
-      "filePath": "src/stories/molecule/page-header.stories.tsx",
-      "namedExport": "PageHeaderStory",
-      "meta": {}
-    },
     "molecule--review-card": {
       "name": "Review card",
       "levels": [
