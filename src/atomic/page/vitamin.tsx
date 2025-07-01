@@ -2,7 +2,6 @@ import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import PageHeader from "@/atomic/molecule/page-header";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
