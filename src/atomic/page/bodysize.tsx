@@ -4,7 +4,6 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import PageHeader from "@/atomic/molecule/page-header";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
