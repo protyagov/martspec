@@ -1571,7 +1571,39 @@
         "ICO": "Ícone do aplicativo para monitoramento diário dos seus níveis de ferro.",
         "SUBHEAD": "Rastreador de ferro para relógio",
         "TEXT": "Monitoramento eficiente de ferro no seu Apple Watch. Acompanhe facilmente sua ingestão diária. Design minimalista, widgets para o relógio e sincronização com o Apple Saúde. Sem anúncios ou etapas desnecessárias.",
-        "BUTTON_OPEN": "Combata a fadiga"
+        "BUTTON_OPEN": "Combata a fadiga",
+        "HEAD1": "Nossas vantagens",
+        "HEAD2": "Por que ferro",
+        "LIST1": {
+            "LI1_HEAD": "Acompanhe facilmente seu nível de ferro",
+            "LI2_HEAD": "Mostradores avançados",
+            "LI3_HEAD": "Funciona sem iPhone",
+            "LI1_TEXT": "O app ajuda você a monitorar sua ingestão diária de ferro e acompanhar seu progresso sem esforço — sem tabelas complicadas ou etapas extras",
+            "LI2_TEXT": "Acesso fácil às estatísticas direto no relógio, mesmo em versões antigas a partir do WatchOS 6, compatível com qualquer mostrador",
+            "LI3_TEXT": "O app funciona de forma independente do iPhone — acesso às estatísticas mesmo sem o celular"
+        },
+        "LI1_IMG_ALT": "App para acompanhar o nível de ferro",
+        "LI2_IMG_ALT": "Acompanhe facilmente seu nível de ferro",
+        "DESC2_1": "O ferro é um elemento essencial para a saúde do sangue e o bem-estar geral",
+        "DESC2_2": "O ferro é necessário para transportar oxigênio pelo corpo, apoiando a energia e a clareza mental",
+        "DESC2_3": "A deficiência de ferro é a principal causa de anemia, que leva à fraqueza e ao cansaço",
+        "DESC2_4": "Participa das funções cognitivas e fortalece o sistema imunológico",
+        "BTN_MORE": "Saiba mais",
+        "LIST2": {
+            "LI2_1_TITLE": "Proteção de dados",
+            "LI2_1_TEXT": "Não armazenamos seus dados em nossos servidores",
+            "LI2_2_TITLE": "Sem necessidade de login",
+            "LI2_2_TEXT": "Não é preciso criar uma conta para usar o app",
+            "LI2_3_TITLE": "Sem anúncios",
+            "LI2_3_TEXT": "Não exibimos anúncios irritantes",
+            "LI2_4_TITLE": "Sincronização com Apple",
+            "LI2_4_TEXT": "Sincroniza com o Apple Saúde"
+        },
+        "IMG_ALT": "A deficiência de ferro é a principal causa de anemia, que leva à fraqueza e ao cansaço",
+        "IMG1_ALT": "Proteção de dados",
+        "IMG2_ALT": "Sem necessidade de login",
+        "IMG3_ALT": "Sem anúncios",
+        "IMG4_ALT": "Sincronização com Apple"
     },
     "ENERGY": {
         "HEAD_MAIN": "Energia",
