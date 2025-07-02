@@ -4,7 +4,6 @@ import NavigationBar from "@/atomic/organism/navbar";
 import _ from "@/i18n/locale";
 import TeamMember from "@/atomic/molecule/team-Member";
 import teamData from "@/data/team.json";
-import PageHeader from "@/atomic/molecule/page-header";
 import ScrollButton from "../atom/scroll-button";
 
 export default function Team() {
@@ -13,7 +12,6 @@ export default function Team() {
             <NavigationBar />
 
             <div className="ms-base-page pb-5 text-center ms-team">
-                <PageHeader title={_("TEAM.HEAD")} subtitleLevel2={_("TEAM.ABOUT")} />
 
                 <section>
                     <div className=" d-flex flex-wrap justify-content-center members-list">
