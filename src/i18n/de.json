@@ -1570,7 +1570,39 @@
         "ICO": "App-Symbol zur täglichen Überwachung Ihres Eisenwerts.",
         "SUBHEAD": "Eisen-Tracker für die Uhr",
         "TEXT": "Effizientes Eisen-Monitoring auf Ihrer Apple Watch. Verfolgen Sie Ihre tägliche Aufnahme ganz einfach. Minimalistisches Design, Watch-Widgets und Synchronisierung mit Apple Health. Keine Werbung und keine unnötigen Schritte.",
-        "BUTTON_OPEN": "Müdigkeit bekämpfen"
+        "BUTTON_OPEN": "Müdigkeit bekämpfen",
+        "HEAD1": "Unsere Vorteile",
+        "HEAD2": "Warum Eisen",
+        "LIST1": {
+            "LI1_HEAD": "Eisenwerte einfach verfolgen",
+            "LI2_HEAD": "Erweiterte Zifferblätter",
+            "LI3_HEAD": "Funktioniert ohne iPhone",
+            "LI1_TEXT": "Die App hilft dir, deine tägliche Eisenaufnahme im Blick zu behalten und Fortschritte einfach zu verfolgen – ganz ohne komplizierte Tabellen oder zusätzlichen Aufwand",
+            "LI2_TEXT": "Bequemer Zugriff auf Statistiken direkt über die Uhr, auch mit älteren Versionen ab WatchOS 6, mit Unterstützung für alle Zifferblätter",
+            "LI3_TEXT": "Die App funktioniert unabhängig vom iPhone – du kannst die Statistiken auch ohne dein Handy einsehen"
+        },
+        "LI1_IMG_ALT": "App zur Überwachung des Eisenwerts",
+        "LI2_IMG_ALT": "Eisenwerte einfach verfolgen",
+        "DESC2_1": "Eisen ist ein Schlüsselelement für die Gesundheit des Blutes und das allgemeine Wohlbefinden",
+        "DESC2_2": "Eisen ist notwendig für den Sauerstofftransport im Körper, unterstützt Energie und geistige Klarheit",
+        "DESC2_3": "Eisenmangel ist die Hauptursache für Anämie, die mit Schwäche und Müdigkeit einhergeht",
+        "DESC2_4": "Unterstützt kognitive Funktionen und stärkt das Immunsystem",
+        "BTN_MORE": "Mehr erfahren",
+        "LIST2": {
+            "LI2_1_TITLE": "Datenschutz",
+            "LI2_1_TEXT": "Wir speichern deine Daten nicht auf unseren Servern",
+            "LI2_2_TITLE": "Keine Anmeldung erforderlich",
+            "LI2_2_TEXT": "Für diese App ist kein Benutzerkonto notwendig",
+            "LI2_3_TITLE": "Keine Werbung",
+            "LI2_3_TEXT": "Wir haben keine störende Werbung",
+            "LI2_4_TITLE": "Synchronisation mit Apple",
+            "LI2_4_TEXT": "Synchronisierung mit Apple Health"
+        },
+        "IMG_ALT": "Eisenmangel ist die Hauptursache für Anämie, die mit Schwäche und Müdigkeit einhergeht",
+        "IMG1_ALT": "Datenschutz",
+        "IMG2_ALT": "Keine Anmeldung erforderlich",
+        "IMG3_ALT": "Keine Werbung",
+        "IMG4_ALT": "Synchronisation mit Apple"
     },
     "ENERGY": {
         "HEAD_MAIN": "Energie",

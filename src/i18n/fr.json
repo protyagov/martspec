@@ -1567,7 +1567,39 @@
         "ICO": "Icône de l’application pour suivre quotidiennement votre taux de fer.",
         "SUBHEAD": "Suivi du fer pour montre connectée",
         "TEXT": "Suivi efficace du fer sur votre Apple Watch. Suivez facilement votre consommation quotidienne. Design minimaliste, widgets pour montre et synchronisation avec Apple Santé. Sans publicité ni étapes superflues.",
-        "BUTTON_OPEN": "Lutte contre la fatigue"
+        "BUTTON_OPEN": "Lutte contre la fatigue",
+        "HEAD1": "Nos avantages",
+        "HEAD2": "Pourquoi le fer",
+        "LIST1": {
+            "LI1_HEAD": "Suivez facilement votre taux de fer",
+            "LI2_HEAD": "Cadrans avancés",
+            "LI3_HEAD": "Fonctionne sans iPhone",
+            "LI1_TEXT": "L’application vous aide à surveiller votre apport quotidien en fer et à suivre vos progrès sans effort — pas besoin de tableaux compliqués ni d’étapes supplémentaires",
+            "LI2_TEXT": "Accès pratique aux statistiques directement sur la montre, même avec les anciennes versions à partir de WatchOS 6, compatible avec tous les cadrans",
+            "LI3_TEXT": "L’application fonctionne indépendamment de l’iPhone — accédez à vos statistiques même sans votre téléphone"
+        },
+        "LI1_IMG_ALT": "Application pour suivre le taux de fer",
+        "LI2_IMG_ALT": "Suivez facilement votre taux de fer",
+        "DESC2_1": "Le fer est un élément clé pour la santé du sang et le bien-être général",
+        "DESC2_2": "Le fer est essentiel pour transporter l’oxygène dans le corps, il soutient l’énergie et la clarté mentale",
+        "DESC2_3": "Une carence en fer est la principale cause de l’anémie, qui entraîne fatigue et faiblesse",
+        "DESC2_4": "Il participe aux fonctions cognitives et soutient le système immunitaire",
+        "BTN_MORE": "En savoir plus",
+        "LIST2": {
+            "LI2_1_TITLE": "Protection des données",
+            "LI2_1_TEXT": "Nous ne stockons pas vos données sur nos serveurs",
+            "LI2_2_TITLE": "Sans inscription",
+            "LI2_2_TEXT": "Aucun compte n’est nécessaire pour utiliser cette application",
+            "LI2_3_TITLE": "Sans publicité",
+            "LI2_3_TEXT": "Nous n’avons aucune publicité intrusive",
+            "LI2_4_TITLE": "Synchronisation avec Apple",
+            "LI2_4_TEXT": "Synchronisation avec Apple Santé"
+        },
+        "IMG_ALT": "La carence en fer est la principale cause de l’anémie, entraînant fatigue et faiblesse",
+        "IMG1_ALT": "Protection des données",
+        "IMG2_ALT": "Sans inscription",
+        "IMG3_ALT": "Sans publicité",
+        "IMG4_ALT": "Synchronisation avec Apple"
     },
     "ENERGY": {
         "HEAD_MAIN": "Énergie",
