@@ -1570,39 +1570,7 @@
         "ICO": "App icon for daily tracking of your iron levels.",
         "SUBHEAD": "Iron tracker for your watch",
         "TEXT": "Efficient iron monitoring on your Apple Watch. Easily track your daily intake. Minimalist design, watch widgets, and Apple Health sync. No ads or unnecessary steps.",
-        "BUTTON_OPEN": "Fight Fatigue",
-        "HEAD1": "Our Advantages",
-        "HEAD2": "Why Iron",
-        "LIST1": {
-            "LI1_HEAD": "Easily track your iron levels",
-            "LI2_HEAD": "Advanced watch faces",
-            "LI3_HEAD": "Works without an iPhone",
-            "LI1_TEXT": "The app helps you monitor your daily iron intake and track your progress effortlessly — no complicated charts or extra effort needed",
-            "LI2_TEXT": "Convenient access to stats right on your watch, even with older software versions starting from WatchOS 6, and compatible with any watch face",
-            "LI3_TEXT": "The app works independently from your iPhone — access your stats even without your phone"
-        },
-        "LI1_IMG_ALT": "App for tracking iron levels",
-        "LI2_IMG_ALT": "Easily track your iron levels",
-        "DESC2_1": "Iron is a key element for healthy blood and overall well-being",
-        "DESC2_2": "Iron is essential for transporting oxygen throughout the body, supporting energy and mental clarity",
-        "DESC2_3": "Iron deficiency is the main cause of anemia, which leads to weakness and fatigue",
-        "DESC2_4": "It plays a role in cognitive functions and supports the immune system",
-        "BTN_MORE": "Learn more",
-        "LIST2": {
-            "LI2_1_TITLE": "Data protection",
-            "LI2_1_TEXT": "We do not store your data on our servers",
-            "LI2_2_TITLE": "No sign-in required",
-            "LI2_2_TEXT": "You don’t need an account to use this app",
-            "LI2_3_TITLE": "No ads",
-            "LI2_3_TEXT": "We don’t have any annoying ads",
-            "LI2_4_TITLE": "Sync with Apple",
-            "LI2_4_TEXT": "Syncs with Apple Health"
-        },
-        "IMG_ALT": "Iron deficiency is the main cause of anemia, which leads to weakness and fatigue",
-        "IMG1_ALT": "Data protection",
-        "IMG2_ALT": "No sign-in required",
-        "IMG3_ALT": "No ads",
-        "IMG4_ALT": "Sync with Apple"
+        "BUTTON_OPEN": "Fight Fatigue"
     },
     "ENERGY": {
         "HEAD_MAIN": "Energy",
