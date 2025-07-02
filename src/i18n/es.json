@@ -1571,6 +1571,7 @@
         "ICO": "Icono de la app para el seguimiento diario de tus niveles de hierro.",
         "SUBHEAD": "Rastreador de hierro para tu reloj",
         "TEXT": "Monitorea tus niveles de hierro de forma efectiva en tu Apple Watch. Haz un seguimiento fácil de tu consumo diario. Diseño minimalista, widgets para el reloj y sincronización con Apple Salud. Sin anuncios ni pasos innecesarios.",
+        "BUTTON_OPEN": "Combate fatiga",
         "LIST1": {
             "LI1_HEAD": "Sigue tu hierro fácilmente",
             "LI2_HEAD": "Esferas avanzadas",

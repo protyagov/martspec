@@ -1574,6 +1574,7 @@
         "ICO": "App icon for daily tracking of your iron levels.",
         "SUBHEAD": "Iron tracker for your watch",
         "TEXT": "Effectively monitor your iron levels on your Apple Watch. Easily track your daily intake. Minimalist design, watch widgets, and seamless Apple Health integration. No ads, no unnecessary steps.",
+        "BUTTON_OPEN": "Fight Fatigue",
         "LIST1": {
             "LI1_HEAD": "Track your iron easily",
             "LI2_HEAD": "Advanced watch faces",

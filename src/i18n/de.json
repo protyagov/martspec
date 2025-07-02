@@ -1574,6 +1574,7 @@
         "ICO": "App-Icon zur täglichen Überwachung Ihres Eisenwerts.",
         "SUBHEAD": "Eisen-Tracker für die Uhr",
         "TEXT": "Effektives Eisen-Monitoring direkt auf Ihrer Apple Watch. Verfolgen Sie Ihre tägliche Aufnahme ganz einfach. Minimalistisches Design, Watch-Widgets und Synchronisierung mit Apple Health. Keine Werbung und keine unnötigen Schritte.",
+        "BUTTON_OPEN": "Müdigkeit bekämpfen",
         "LIST1": {
             "LI1_HEAD": "Eisenaufnahme einfach verfolgen",
             "LI2_HEAD": "Erweiterte Zifferblätter",
