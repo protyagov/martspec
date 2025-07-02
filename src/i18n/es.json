@@ -1567,39 +1567,7 @@
         "ICO": "Ícono de la app para el seguimiento diario de tus niveles de hierro.",
         "SUBHEAD": "Rastreador de hierro para el reloj",
         "TEXT": "Monitorea eficientemente el hierro en tu Apple Watch. Sigue fácilmente tu consumo diario. Diseño minimalista, widgets para el reloj y sincronización con Apple Salud. Sin anuncios ni pasos innecesarios.",
-        "BUTTON_OPEN": "Combate fatiga",
-        "HEAD1": "Nuestras ventajas",
-        "HEAD2": "Por qué hierro",
-        "LIST1": {
-            "LI1_HEAD": "Controla tu nivel de hierro fácilmente",
-            "LI2_HEAD": "Esferas avanzadas",
-            "LI3_HEAD": "Funciona sin iPhone",
-            "LI1_TEXT": "La app te ayuda a controlar tu consumo diario de hierro y a seguir tu progreso sin esfuerzo — sin tablas complicadas ni pasos adicionales",
-            "LI2_TEXT": "Acceso cómodo a las estadísticas directamente desde tu reloj, incluso con versiones antiguas del sistema desde WatchOS 6, compatible con cualquier esfera",
-            "LI3_TEXT": "La app funciona de forma independiente al iPhone — accede a tus estadísticas incluso sin el móvil"
-        },
-        "LI1_IMG_ALT": "App para controlar el nivel de hierro",
-        "LI2_IMG_ALT": "Controla tu nivel de hierro fácilmente",
-        "DESC2_1": "El hierro es un elemento clave para la salud de la sangre y el bienestar general",
-        "DESC2_2": "El hierro es esencial para transportar oxígeno por el cuerpo, apoyando la energía y la claridad mental",
-        "DESC2_3": "La deficiencia de hierro es la causa principal de la anemia, que provoca debilidad y fatiga",
-        "DESC2_4": "Contribuye a las funciones cognitivas y apoya el sistema inmunológico",
-        "BTN_MORE": "Saber más",
-        "LIST2": {
-            "LI2_1_TITLE": "Protección de datos",
-            "LI2_1_TEXT": "No almacenamos tus datos en nuestros servidores",
-            "LI2_2_TITLE": "Sin registro",
-            "LI2_2_TEXT": "No necesitas una cuenta para usar esta app",
-            "LI2_3_TITLE": "Sin anuncios",
-            "LI2_3_TEXT": "No tenemos anuncios molestos",
-            "LI2_4_TITLE": "Sincronización con Apple",
-            "LI2_4_TEXT": "Sincroniza con Apple Salud"
-        },
-        "IMG_ALT": "La deficiencia de hierro es la causa principal de la anemia, que provoca debilidad y fatiga",
-        "IMG1_ALT": "Protección de datos",
-        "IMG2_ALT": "Sin registro",
-        "IMG3_ALT": "Sin anuncios",
-        "IMG4_ALT": "Sincronización con Apple"
+        "BUTTON_OPEN": "Combate fatiga"
     },
     "ENERGY": {
         "HEAD_MAIN": "Energía",
