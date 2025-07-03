@@ -51,10 +51,14 @@
         }
     },
     "NAV": {
-        "APPS": "Applications",
-        "ABOUT": "À propos de nous"
+        "APPS": "Tous les appareils",
+        "ABOUT": "À propos de nous",
+        "WATCH": "Montres"
     },
-   "ELECTROLYTE": {
+    "PROTEIN": {
+        "HEAD": "Protéine"
+    },
+    "ELECTROLYTE": {
         "HEAD": "Électrolyte",
         "IMG": "Enregistrez des électrolytes et des minéraux avec votre Apple Watch, Electrolyte, application pour Apple Watch, application de santé",
         "DWN": "Téléchargez l'application gratuite Electrolyte Tracker sur l'AppStore d'Apple",
@@ -153,6 +157,7 @@
         "IMG": "Suivez les vitamines les plus essentielles directement sur votre poignet",
         "HEAD1": "Nutriments",
         "SUBHEAD1": "Suivi des nutriments et des médicaments",
+        "SUBHEAD2": "Suivi des nutriments",
         "TEXT1": "Un suivi pratique des apports en vitamines & minéraux avec rappels. Synchronisation Apple Health. Sauvegardes iCloud sécurisées. Gratuit. Sans publicité ni achats intégrés.",
         "BUTTON_OPEN_NUTRIENTS": "Journal nutriments",
         "ICO1": "Icône de l'application Anneau de Vitamines, le meilleur suivi de la prise de vitamines. Synchronisation avec Apple Health et sauvegarde dans iCloud. Gratuit et sans publicité.",
@@ -1806,7 +1811,9 @@
         "BTN_AGAIN": "Refaites le test"
     },
     "FOOTER": {
-        "C": "© 2025 Martspec LLC. Tous les droits sont réservés.",
+        "C": "© Martspec LLC, 2025.",
+        "R": "Tous droits réservés.",
+        "P": "Politique de confidentialité.",
         "APPLE_BTN": {
             "TITLE": "Voir toutes les applications martspec sur notre Apple AppStore",
             "ALT": "Voir toutes nos applications sur Martpsec AppStore chez Apple"
