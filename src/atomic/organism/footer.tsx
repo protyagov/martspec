@@ -11,7 +11,7 @@ export const Footer = () => (
 
                     <div className="col-lg-2 col-md-12 d-flex flex-column text-center text-lg-start mb-5 mb-lg-0">
                         <a href={Locale.i18nLink("/")}>
-                            <img src="/img/footer-logo.svg" alt={_("ERROR.404_BTN")} />
+                            <img src="/img/logo.svg" alt={_("ERROR.404_BTN")} />
                         </a>
                     </div>
 
