@@ -51,8 +51,12 @@
         }
     },
     "NAV": {
-        "APPS": "应用",
-        "ABOUT": "关于我们"
+        "APPS": "所有设备",
+        "ABOUT": "关于我们",
+        "WATCH": "手表"
+    },
+    "PROTEIN": {
+        "HEAD": "蛋白质"
     },
     "ELECTROLYTE": {
         "HEAD": "电解质",
@@ -147,6 +151,7 @@
     "VITAMIN": {
         "HEAD": "维生素",
         "SUBHEAD": "最终的维生素追踪器",
+        "SUBHEAD2": "营养素追踪器",
         "ICO": "适用于 Apple Watch、iPhone 和 iPad 的最佳维生素和矿物质追踪器应用程序图标。与 与苹果健康同步 无缝同步。零广告。",
         "TEXT": "跟踪必需的维生素有很多好处，从帮助解决食物不耐症到增加能量，避免情绪变化以及为您的日常节奏加油。",
         "BUTTON_OPEN": "追踪摄入",
@@ -1805,7 +1810,9 @@
         "BTN_AGAIN": "再次参加测试"
     },
     "FOOTER": {
-        "C": "© 2025 Martspec LLC. 版权所有。",
+        "C": "© Martspec LLC, 2025.",
+        "R": "版权所有。",
+        "P": "隐私政策。",
         "APPLE_BTN": {
             "TITLE": "在我们的 Apple AppStore 上查看所有 martspec 应用程序",
             "ALT": "在 Apple 的 Martpsec AppStore 上查看我们所有的应用程序"

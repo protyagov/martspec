@@ -51,8 +51,12 @@
         }
     },
     "NAV": {
-        "APPS": "Anwendungen",
-        "ABOUT": "Über uns"
+        "APPS": "Alle Geräte",
+        "ABOUT": "Über uns",
+        "WATCH": "Uhren"
+    },
+    "PROTEIN": {
+        "HEAD": "Protein"
     },
     "ELECTROLYTE": {
         "HEAD": "Elektrolyt",
@@ -147,6 +151,7 @@
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "Der ultimative Vitamin Tracker",
+        "SUBHEAD2": "Nährstoff-Tracker",
         "ICO": "Symbol für die beste Vitamin- und Mineralien-Tracker-App für Ihre Apple Watch, iPhone und iPad. Synchronisiert nahtlos mit die Health App. Null Werbung.",
         "TEXT": "Das Verfolgen Ihrer essentiellen Vitamine hat viele Vorteile, angefangen bei der Behandlung von Nahrungsmittelunverträglichkeiten bis hin zur Steigerung der Energie, zur Vermeidung von Stimmungsschwankungen und zur Förderung des Tagesrhythmus.",
         "BUTTON_OPEN": "Vitamine tracken",
@@ -1809,7 +1814,9 @@
         "BTN_AGAIN": "Machen Sie den Test noch einmal"
     },
     "FOOTER": {
-        "C": "© 2025 Martspec LLC. Alle Rechte vorbehalten.",
+        "C": "© Martspec LLC, 2025.",
+        "R": "Alle Rechte vorbehalten.",
+        "P": "Datenschutzrichtlinie.",
         "APPLE_BTN": {
             "TITLE": "Alle martspec-Anwendungen finden Sie in unserem Apple AppStore",
             "ALT": "Sehen Sie sich alle unsere Apps im Martpsec AppStore bei Apple an"
