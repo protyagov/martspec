@@ -69,7 +69,7 @@ export default function Biorhythms() {
                                         href="#firstCollapse"
                                         aria-expanded={!shouldContentCollapse}
                                         aria-controls="firstCollapse"
-                                        className="ms-read-more-btn ms-content-collapse-btn d-lg-none"
+                                        className="ms-read-more-btn-emotion ms-content-collapse-btn d-lg-none"
                                     >
                                         <span>{_("BIORHYTHMS.BTN1")}</span>
                                     </a>
@@ -197,10 +197,10 @@ export default function Biorhythms() {
                                 <div className="mb-6">
                                     <h3>{_("BIORHYTHMS.DESK3_2")}</h3>
                                     <ul className="checkmark-list">
-                                        <li>{_("BIORHYTHMS.LIST3.LI1_TEXT")}</li>
-                                        <li>{_("BIORHYTHMS.LIST3.LI2_TEXT")}</li>
-                                        <li>{_("BIORHYTHMS.LIST3.LI3_TEXT")}</li>
-                                        <li>{_("BIORHYTHMS.LIST3.LI4_TEXT")}</li>
+                                        <li className="li">{_("BIORHYTHMS.LIST3.LI1_TEXT")}</li>
+                                        <li className="li">{_("BIORHYTHMS.LIST3.LI2_TEXT")}</li>
+                                        <li className="li">{_("BIORHYTHMS.LIST3.LI3_TEXT")}</li>
+                                        <li className="li">{_("BIORHYTHMS.LIST3.LI4_TEXT")}</li>
                                     </ul>
                                 </div>
                                 <ImageI18N
@@ -285,9 +285,7 @@ export default function Biorhythms() {
                         imgAlt={_("BIORHYTHMS.ALT5")}
                     />
                 </section>
-
             </div>
-
 
             <Footer />
             <ScrollButton color="#7B62FE" />

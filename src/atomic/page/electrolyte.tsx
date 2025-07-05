@@ -54,7 +54,7 @@ export default function Electrolyte() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new">
+            <div className="ms-base-page">
                 <Header
                     title={_("ELECTROLYTE.HEAD")}
                     appId={appId}
@@ -76,13 +76,15 @@ export default function Electrolyte() {
                 <section>
                     <div className="row d-flex justify-content-between g-4">
                         <div className="col-12 col-xxl-6">
-                            <ImageI18N
-                                src="/img/page/electrolyte/Img-WhyElectrolit-en.webp"
-                                w={487}
-                                h={515}
-                                cls="ms-base-image mt-mob-xs mb-6"
-                                alt={_("ELECTROLYTE.IMG")}
-                            />
+                            <div className="top">
+                                <ImageI18N
+                                    src="/img/page/electrolyte/Img-WhyElectrolit-en.webp"
+                                    w={487}
+                                    h={515}
+                                    cls="ms-base-image mt-mob-xs mb-6"
+                                    alt={_("ELECTROLYTE.IMG")}
+                                />
+                            </div>
                         </div>
                         <div className="col-12 col-xxl-6">
                             <CardTitleTextButton

@@ -1,8 +1,8 @@
 @import "@/sass/atom/base-new-vars";
 
 .biorhythms {
-    &-lists{
-        .header-content-list{
+    &-lists {
+        .header-content-list {
             li {
                 &::marker {
                     color: #7B62FE;
@@ -58,9 +58,11 @@
             a {
                 display: block;
                 text-decoration: none;
+
                 * {
                     color: #afafaf;
                 }
+
                 &.active * {
                     color: $ms-color-text-black;
                 }
@@ -88,6 +90,16 @@
         .carousel-item-next.carousel-item-start,
         .carousel-item-prev.carousel-item-end {
             @include transition($carousel-fade-transition);
+        }
+    }
+
+    .li {
+        display: flex;
+
+        &::before {
+            content: url("@/img/atom/icons/icon-check.svg");
+            margin-top: 4px;
+            margin-right: 14px;
         }
     }
 }

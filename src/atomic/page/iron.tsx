@@ -58,7 +58,7 @@ export default function Iron() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new">
+            <div className="ms-base-page">
                 <Header
                     title={_("IRON.HEAD")}
                     appId={appId}

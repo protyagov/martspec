@@ -19,7 +19,7 @@ export default function LandingPage() {
         <div className="flex-grow-1 flex-shrink-0">
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new">
+            <div className="ms-base-page">
                 <Header
                     title={_("MAIN.HEAD")}
                     rowItems={
@@ -110,8 +110,8 @@ export default function LandingPage() {
                     </div>
                 </div>
 
-                <div className="row g-3 d-flex align-items-stretch mb-5">
-                    <div className="col-xl-4 col-sm-6 d-flex">
+                <div className="row g-3 gap-10-responsive align-items-stretch mb-5">
+                    <div className="col-xl col-sm d-flex">
                         {/* Нутриенты */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -128,7 +128,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-xl-4 col-sm-6 d-flex">
+                    <div className="col-xl col-sm d-flex">
                         {/* Электролит */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -145,7 +145,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-xl-4 col-sm-12 d-flex">
+                    <div className="col-xl col-sm-12 d-flex">
                         {/* Цинк */}
                         <CardAppSmall
                             backgroundColor="transparent"
