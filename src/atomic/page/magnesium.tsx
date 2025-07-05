@@ -11,7 +11,7 @@ export default function Magnesium() {
     return (
         <>
             <NavigationBar />
-            <div className="ms-base-page ms-base-new">
+            <div className="ms-base-page">
                 <Header
                     title={_("MAGNESIUM.HEAD")}
                     appId={appId}
