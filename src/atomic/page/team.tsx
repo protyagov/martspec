@@ -22,7 +22,7 @@ export default function Team() {
                     <p className="font-normal">{_("TEAM.ABOUT")}</p>
                 </Header>
                 <div className="">
-                        <div className="row justify-content-center">
+                        <div className="row justify-content-center ">
                             {teamData.slice(0, 2).map((member, index) => (
                                 <TeamMember 
                                 key={`big-${index}`} 
