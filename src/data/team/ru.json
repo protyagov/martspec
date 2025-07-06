@@ -1,0 +1,24 @@
+{   "COUNTRY_CODE": "ru",
+
+    "TEAM": {
+
+    "ENGINEER_MOBILE": "iOS Разработчик",
+    "ENGINEER_WEB": "Веб-разработчик",
+    "DESIGNER_UI_UX": "UI/UX дизайнер",
+    "ENGINEER_QA": "QA-инженер",
+    "COPYWRITER": "Копирайтер",
+    "MARKETER": "Маркетолог",
+    "ALEX": "Алекс",
+    "VICTORIA": "Виктория",
+    "DIAS": "Диас",
+    "SVETLANA": "Светлана",
+    "NADEZHDA": "Надежда",
+    "DMITRY": "Дмитрий",
+    "SERGEY_K": "Сергей",
+    "ELVIRA": "Эльвира",
+    "NATALIA": "Наталья",
+    "DARIA": "Дарья",
+    "ROMAN": "Роман",
+    "VITALY": "Виталий"
+    }
+}

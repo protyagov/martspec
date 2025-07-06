@@ -1,24 +1,51 @@
 .ms-team {
     section {
-        margin-top: 0;
-        padding-top: 7vmin;
+        /*margin-top: 0;
+        padding-top: 0vmin;*/
     }
 
     .members-list {
-        padding-top: 3vmin;
+        /*padding-top: 3vmin;
         padding-bottom: 7vmin;
         column-gap: 8%;
         row-gap: 4rem;
+        font-size: 20px;*/
+
+        //max-width: 1400px;
+        //margin: 0 auto;
     }
 
+    .font-normal {
+    /*margin-bottom: 0rem;*/
+    }
+
+  &-info-section {
+    p {
+      max-width: 906px;
+      font-size: 20px;
+      line-height: 150%;
+      opacity: 80%;
+    }
+
+    h2 {
+      font-size: 30px;
+      color: #212529;
+    }
+
+    li {
+      font-size: 20px;
+      line-height: 120%;
+      color: #595959;
+    }
+  }
     .team-member {
         // flex: 0 0;
         // flex-basis: 25%;
         // align-items: flex-end;
-        text-align: left;
+        /*text-align: left;*/
 
         .team-members {
-            flex: 0 0;
+            /*flex: 0 0;
             flex-basis: 25%;
 
             @include media-breakpoint-down(md) {
@@ -31,7 +58,7 @@
 
             overflow-wrap: break-word;
             word-wrap: break-word;
-            hyphens: auto;
+            hyphens: auto;*/
 
             // .team-img {
             //   align-items: flex-end;
@@ -54,15 +81,15 @@
 
                 width: 2.875rem;
                 height: 2.875rem;
+                //text-align: right !important;
             }
 
             a {
                 // float: right;
-                position: relative;
+                /*position: relative;
                 top: 68%;
 
                 left: 80%;
-                border-radius: 6.25rem;
                 width: 2.875rem;
                 height: 2.875rem;
                 display: inline-flex;
@@ -70,7 +97,7 @@
                 align-items: flex-start;
                 gap: 0.75rem;
                 background: #258de3;
-                z-index: 2;
+                z-index: 2;*/
             }
 
             // расположения иконки linkedin в safari
@@ -95,13 +122,14 @@
             }
 
             img {
-                aspect-ratio: 1 / 1 !important;
-                width: 80%;
-                max-width: 22.5rem;
+                /*//*aspect-ratio: 16/9 !important;
+                //width: 90%;
+                width: 250px;
+                height: 222px;
+                //top: 1;
+                //max-width: 22.5rem;
                 object-fit: cover;
-                filter: grayscale(1);
-                -webkit-filter: grayscale(1);
-                z-index: -1;
+                //z-index: -1;*/
             }
 
             // .team-text {
@@ -112,7 +140,7 @@
         }
 
         .text-block {
-            width: 300px;
+            /*width: 300px;
             height: 1.875rem;
             font-size: 0.875rem;
             // border: 1px solid black;
@@ -120,7 +148,7 @@
 
             &:hover {
                 cursor: pointer;
-            }
+            }*/
         }
 
         // .text-block:hover {
@@ -128,16 +156,63 @@
         // }
 
         .text-block_active {
-            height: auto;
+            /*height: auto;*/
         }
 
         .team-btn {
-            border: none;
+            /*border: none;
             background: transparent;
             font-size: 14px;
             font-weight: bold;
             text-decoration: underline;
-            text-align: right;
+            text-align: right;*/
         }
     }
+    .bg-card {
+        background-color: #F2F7FF;
+        border: none;
 }
+    .img-card { 
+        //width: 250;
+        
+        object-fit: cover;
+        width: 100%;
+        object-position: left !important;
+        padding: 0px !important;
+        }
+
+///////
+.card {
+  flex-direction: row;
+}
+.card-title {
+  font-weight: bold;
+}
+.card img {
+  width: 100%;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+@media only screen and (max-width: 768px) {
+  a {
+    display: none;
+  }
+  .card-body {
+    padding: 0.5em 1.2em;
+  }
+  .card-body .card-text {
+    margin: 0;
+  }
+  .card img {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card img {
+    width: 40%;
+  }
+}
+
+
+}
+

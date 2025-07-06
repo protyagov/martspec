@@ -1,9 +1,9 @@
-[
+[    
     {
-        "name": "SVETLANA",
-        "title": "COPYWRITER",
-        "avatar": "/img/page/team/team_svetlana.webp",
-        "link": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/",
+        "name": "ALEX",
+        "title": "ENGINEER_MOBILE",
+        "avatar": "/img/page/team/team_alex.webp",
+        "link": "https://www.linkedin.com/in/protyagov/",
         "text": ""
     },
     {
@@ -11,6 +11,13 @@
         "title": "ENGINEER_QA",
         "avatar": "/img/page/team/team_sergeyK.webp",
         "link": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b?",
+        "text": ""
+    },
+        {
+        "name": "SVETLANA",
+        "title": "COPYWRITER",
+        "avatar": "/img/page/team/team_svetlana.webp",
+        "link": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/",
         "text": ""
     },
     {
@@ -53,13 +60,6 @@
         "title": "ENGINEER_MOBILE",
         "avatar": "/img/page/team/team_vitaliy.webp",
         "link": "",
-        "text": ""
-    },
-    {
-        "name": "ALEX",
-        "title": "ENGINEER_MOBILE",
-        "avatar": "/img/page/team/team_alex.webp",
-        "link": "https://www.linkedin.com/in/protyagov/",
         "text": ""
     },
     {
