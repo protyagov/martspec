@@ -1555,7 +1555,17 @@
         "BUTTON_OPEN": "Favorise la relaxation",
         "ABOUT_1": "Un traceur de magnésium pratique et facile à utiliser pour Apple Watch",
         "ABOUT_2": "Sauvegardes automatiques sur iCloud",
-        "ABOUT_3": "Intégration complète avec Apple Health"
+        "ABOUT_3": "Intégration complète avec Apple Health",
+        "LIST1": {
+            "LI1_HEAD": "Algorithme de calcul et adaptation",
+            "LI2_HEAD": "Toutes les fonctionnalités utiles",
+            "LI3_HEAD": "Widgets informatifs",
+            "LI1_TEXT": "L’algorithme de calcul de l’apport quotidien utilise vos données provenant d’Apple Health et les adapte en fonction des recommandations officielles issues de sources médicales",
+            "LI2_TEXT": "Planifiez votre suivi personnel et votre consommation de magnésium grâce à un emploi du temps et à l’historique des prises",
+            "LI3_TEXT": "Des widgets pratiques avec les informations essentielles et des rappels pour la prise et le suivi du magnésium"
+        },
+        "LI1_IMG_ALT": "Application de suivi du niveau de magnésium",
+        "LI2_IMG_ALT": "Suivez facilement votre taux de magnésium"
     },
     "CALCIUM": {
         "HEAD": "Calcium",
