@@ -1555,7 +1555,17 @@
         "BUTTON_OPEN": "Mejora relajación",
         "ABOUT_1": "Un rastreador de magnesio cómodo y fácil de usar para Apple Watch",
         "ABOUT_2": "Copias de seguridad automáticas en iCloud",
-        "ABOUT_3": "Integración completa con Apple Health"
+        "ABOUT_3": "Integración completa con Apple Health",
+        "LIST1": {
+            "LI1_HEAD": "Algoritmo de cálculo y adaptación",
+            "LI2_HEAD": "Todas las funciones útiles",
+            "LI3_HEAD": "Widgets informativos",
+            "LI1_TEXT": "El algoritmo para calcular la dosis diaria utiliza tus datos de Apple Health y los adapta según recomendaciones oficiales de fuentes médicas",
+            "LI2_TEXT": "Planifica tu monitoreo personal y el consumo de magnesio con horarios e historial de tomas",
+            "LI3_TEXT": "Widgets prácticos con la información necesaria y recordatorios para la ingesta y el seguimiento del magnesio"
+        },
+        "LI1_IMG_ALT": "Aplicación para el seguimiento del nivel de magnesio",
+        "LI2_IMG_ALT": "Controla fácilmente tu nivel de magnesio"
     },
     "CALCIUM": {
         "HEAD": "Calcio",
