@@ -50,14 +50,14 @@ export default function TeamMember(props: TeamMemberProps) {
    
     if (props.isBig) {
             return (
-                <div className="col-12 col-lg-6 mb-4 d-flex">
+                <div className="col-12 col-lg-6 mb-4 ">
                     <div className="card bg-card rounded-5 flex-row flex-grow-1 h-100" >
-                        <div className="col-md-5 d-flex  p-3">
+                        <div className="col-md-5 d-flex p-3">
                             <img 
                                 src={props.avatar}
                                 onError={(e) => (e.currentTarget.src = "/img/team_placeholder.png")}
                                 alt={_("TEAM." + props.title) + " " + props.name}
-                                className=" rounded-5  w-100"
+                                className=" img-card rounded-5  w-100"
                                 
                             />
                         </div>
@@ -75,7 +75,7 @@ export default function TeamMember(props: TeamMemberProps) {
         }
 
     return (
-        <div className="col mb-3">
+        <div className="col mb-2">
             <div className="card bg-card rounded-5 h-100 d-flex flex-column " >
                 <div className="p-3 pb-0 " >
                     
@@ -92,7 +92,7 @@ export default function TeamMember(props: TeamMemberProps) {
                         src={props.avatar}
                         onError={(e) => (e.currentTarget.src = "/img/team_placeholder.png")}
                         alt={_("TEAM." + props.title) + " " + props.name}
-                        className="   rounded-5"
+                        className=" img-card  rounded-5"
                         
                         
                     />

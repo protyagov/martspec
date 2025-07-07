@@ -3,7 +3,6 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import TeamMember from "@/atomic/molecule/team-Member";
-import BigTeamMember from "@/atomic/molecule/team-Member";
 import teamData from "@/data/team/team.json";
 import ScrollButton from "../atom/scroll-button";
 import Header from "@/atomic/organism/header";
