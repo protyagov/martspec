@@ -64,7 +64,7 @@ const Careers = () => {
     return (
         <>
             <NavigationBar />
-            <div className="ms-base-page ms-base-new careers">
+            <div className="ms-base-page careers">
                 <Header
                     title={_("CAREERS.SUBHEAD")}
                     rowItems={

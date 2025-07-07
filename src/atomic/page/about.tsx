@@ -17,7 +17,7 @@ export default function About() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new about">
+            <div className="ms-base-page about">
                 <Header
                     title={_("ABOUT.HEAD")}
                     imgSrc="/img/story.webp"
@@ -32,12 +32,7 @@ export default function About() {
                 <section>
                     <div className="row d-flex flex-xxl-nowrap align-items-center justify-content-between gap-5">
                         <div className="col-12 col-xxl-6 order-2 order-xxl-1 me-xxl-5">
-                            <ImageI18N
-                                src="/img/story-start.webp"
-                                w={620}
-                                h={390}
-                                cls="ms-base-image"
-                            />
+                            <ImageI18N src="/img/story-start.webp" w={620} h={390} cls="ms-base-image" />
                         </div>
                         <div className="col-12 col-xxl-6 order-1 order-xxl-2">
                             <h2 className="about__start-title">{_("ABOUT.P7")}</h2>
@@ -56,7 +51,11 @@ export default function About() {
                             <div className="col-12 col-xxl-6">
                                 <CardTitleTextButton
                                     title={_("ABOUT.OURCORE.HEAD1")}
-                                    textContent={[_("ABOUT.OURCORE.TEXT1"), _("ABOUT.OURCORE.TEXT2"), _("ABOUT.OURCORE.TEXT3")]}
+                                    textContent={[
+                                        _("ABOUT.OURCORE.TEXT1"),
+                                        _("ABOUT.OURCORE.TEXT2"),
+                                        _("ABOUT.OURCORE.TEXT3"),
+                                    ]}
                                     buttonText={_("CAREERS.BUTTON3")}
                                     buttonLink={Locale.i18nLink(`bodymass`)}
                                     buttonColor="#1686FF"
@@ -91,9 +90,9 @@ export default function About() {
                                 <div className="btn-container">
                                     <LinkStyledButton
                                         text={_("ABOUT.OURCORE.TEXTBTN")}
-                                        link={'/emotion'}
-                                        color = "rgb(22, 134, 255)"
-                                        textColor = "#fff"
+                                        link={"/emotion"}
+                                        color="rgb(22, 134, 255)"
+                                        textColor="#fff"
                                         className="about-link-btn"
                                     />
                                 </div>
@@ -105,9 +104,9 @@ export default function About() {
                 <section>
                     <div className="ms-base-new row about-info-section">
                         <h2>{_("ABOUT.HEAD1")}</h2>
-                        <p>{_("ABOUT.DESC1")}</p>
-                        <p>{_("ABOUT.DESC2")}</p>
-                        <p>{_("ABOUT.DESC3")}</p>
+                        <p className="bottom">{_("ABOUT.DESC1")}</p>
+                        <p className="bottom">{_("ABOUT.DESC2")}</p>
+                        <p className="bottom">{_("ABOUT.DESC3")}</p>
                         <div className="row about-info-list">
                             <div className="col-lg-4 d-flex">
                                 <CardIconTitleText
@@ -150,7 +149,6 @@ export default function About() {
                         </div>
                     </div>
                 </section>
-
 
                 <section>
                     <CallToAction

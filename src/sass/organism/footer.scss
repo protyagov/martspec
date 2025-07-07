@@ -1,5 +1,5 @@
 footer {
-    background-color: $ms-color-bg-dark;
+    background-color: $ms-footer-bg-gray;
     width: 100%;
     color: white;
 
@@ -43,12 +43,12 @@ footer {
 
     .icon-container {
         margin-top: 0rem;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: end;
-        gap: 1rem 0rem;
+        gap: 2rem 0rem;
 
         @include media-breakpoint-down(md) {
-            margin-top: 2rem;
+            margin-top: 5rem;
             align-items: start;
 
             div:first-child {
@@ -68,5 +68,17 @@ footer {
         justify-content: start !important;
         margin-bottom: 0;
         opacity: 0.6;
+        a{
+           color: inherit;
+            text-decoration: underline;
+            text-decoration-color: inherit;
+        }
+    }
+    .social-bar-white{
+        gap: 13px;
+    }
+    .social-bar-white a{
+        background-color: #616972;
+        border-radius: 6px;
     }
 }

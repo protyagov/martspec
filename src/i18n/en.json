@@ -51,8 +51,12 @@
         }
     },
     "NAV": {
-        "APPS": "Applications",
-        "ABOUT": "About Us"
+        "APPS": "All devices",
+        "ABOUT": "About Us",
+        "WATCH": "Watches"
+    },
+    "PROTEIN": {
+        "HEAD": "Protein"
     },
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",
@@ -150,6 +154,7 @@
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "the ultimate vitamin tracker",
+        "SUBHEAD2": "Nutrient tracker",
         "ICO": "Icon for the best vitamins and minerals tracker app for your Apple Watch, iPhone and iPad. Syncs seamlessly with Apple Health. Zero ads.",
         "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
         "BUTTON_OPEN": "Track Vitamins",
@@ -1564,13 +1569,47 @@
     },
     "IRON": {
         "HEAD": "Iron",
-        "ABOUT_1": "A user-friendly and intuitive iron tracker",
+        "HEAD1": "Our Advantages",
+        "HEAD2": "Why Iron",
+        "ABOUT_1": "A simple and intuitive iron tracker",
         "ABOUT_2": "Use the app on your Apple Watch",
-        "ABOUT_3": "Syncs with the Apple Health app",
+        "ABOUT_3": "Syncs with Apple Health",
+        "ABOUT_4": "Our app is available for any Apple Watch device",
+        "ABOUT_5": "Download the app now and start tracking your essential minerals",
         "ICO": "App icon for daily tracking of your iron levels.",
         "SUBHEAD": "Iron tracker for your watch",
-        "TEXT": "Efficient iron monitoring on your Apple Watch. Easily track your daily intake. Minimalist design, watch widgets, and Apple Health sync. No ads or unnecessary steps.",
-        "BUTTON_OPEN": "Fight Fatigue"
+        "TEXT": "Effectively monitor your iron levels on your Apple Watch. Easily track your daily intake. Minimalist design, watch widgets, and seamless Apple Health integration. No ads, no unnecessary steps.",
+        "BUTTON_OPEN": "Fight Fatigue",
+        "LIST1": {
+            "LI1_HEAD": "Track your iron easily",
+            "LI2_HEAD": "Advanced watch faces",
+            "LI3_HEAD": "Works without iPhone",
+            "LI1_TEXT": "The app helps you keep track of your daily iron intake and monitor your progress — no complicated tables or extra effort.",
+            "LI2_TEXT": "Quick access to your stats right on your watch, starting from WatchOS 6, with support for all watch faces.",
+            "LI3_TEXT": "The app works independently from your iPhone — check your stats even without your phone."
+        },
+        "LI1_IMG_ALT": "App for tracking iron levels",
+        "LI2_IMG_ALT": "Track your iron easily",
+        "DESC2_1": "Iron is a key element for blood health and overall well-being.",
+        "DESC2_2": "Iron is essential for oxygen transport in the body, supporting energy and mental clarity.",
+        "DESC2_3": "Iron deficiency is a leading cause of anemia, resulting in weakness and fatigue.",
+        "DESC2_4": "It supports cognitive functions and strengthens the immune system.",
+        "BTN_MORE": "Learn more",
+        "LIST2": {
+            "LI2_1_TITLE": "Data Protection",
+            "LI2_1_TEXT": "We do not store your data on our servers",
+            "LI2_2_TITLE": "No Sign-Up",
+            "LI2_2_TEXT": "An account is not required for this app",
+            "LI2_3_TITLE": "No Ads",
+            "LI2_3_TEXT": "We don’t have any annoying ads",
+            "LI2_4_TITLE": "Sync with Apple",
+            "LI2_4_TEXT": "Syncs with Apple Health"
+        },
+        "IMG_ALT": "The main cause of anemia accompanied by weakness and fatigue is iron deficiency",
+        "IMG1_ALT": "Data Protection",
+        "IMG2_ALT": "No Sign-Up",
+        "IMG3_ALT": "No Ads",
+        "IMG4_ALT": "Sync with Apple"
     },
     "ENERGY": {
         "HEAD_MAIN": "Energy",
@@ -1775,7 +1814,9 @@
         "BTN_AGAIN": "Take the test again"
     },
     "FOOTER": {
-        "C": "© 2025 Martspec LLC. All rights reserved.",
+        "C": "© Martspec LLC, 2025.",
+        "R": "All rights reserved.",
+        "P": "Privacy Policy.",
         "APPLE_BTN": {
             "TITLE": "See all martspec applications on our Apple AppStore",
             "ALT": "See all our apps on Martpsec AppStore at Apple"

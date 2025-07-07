@@ -202,7 +202,7 @@ export default function Vitamin() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new vitamin">
+            <div className="ms-base-page vitamin">
                 <Header
                     title={_("VITAMIN.HEAD")}
                     appId={appId}
