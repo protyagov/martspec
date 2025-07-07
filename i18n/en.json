@@ -1557,8 +1557,17 @@
         "TEXT": "Seamless magnesium tracking, right on your wrist. Minimalist design, watch complication widgets, and Apple Health sync. No ads, no login.",
         "ABOUT_1": "A convenient and easy-to-use magnesium tracker for Apple Watch",
         "ABOUT_2": "Automatic backups to iCloud",
-        "ABOUT_3": "Full integration with Apple Health"
-        
+        "ABOUT_3": "Full integration with Apple Health",
+        "LIST1": {
+            "LI1_HEAD": "Calculation Algorithm & Adaptation",
+            "LI2_HEAD": "All essential features",
+            "LI3_HEAD": "Informative widgets",
+            "LI1_TEXT": "The daily intake calculation algorithm uses your Apple Health data and adapts it based on official medical data sources",
+            "LI2_TEXT": "Plan your personal magnesium intake and monitoring with scheduling and intake history",
+            "LI3_TEXT": "Convenient widgets with essential information and reminders for magnesium intake and tracking"
+        },
+        "LI1_IMG_ALT": "Magnesium Tracking App",
+        "LI2_IMG_ALT": "Easily monitor your magnesium levels"
     },
     "CALCIUM": {
         "HEAD": "Calcium",

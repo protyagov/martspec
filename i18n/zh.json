@@ -1554,7 +1554,17 @@
         "BUTTON_OPEN": "放松身心",
         "ABOUT_1": "适用于 Apple Watch 的便捷且易用的镁跟踪器",
         "ABOUT_2": "自动备份到 iCloud",
-        "ABOUT_3": "与 Apple Health 的完整集成"
+        "ABOUT_3": "与 Apple Health 的完整集成",
+        "LIST1": {
+            "LI1_HEAD": "计算算法与适应性调整",
+            "LI2_HEAD": "所有实用功能",
+            "LI3_HEAD": "信息丰富的小组件",
+            "LI1_TEXT": "每日摄入量计算算法将使用您的 Apple Health 数据，并根据官方医学数据来源的建议进行调整。",
+            "LI2_TEXT": "通过时间表和服用记录，规划您的镁摄入和个人健康监测",
+            "LI3_TEXT": "实用的小组件提供必要的信息和镁摄入及跟踪提醒。"
+        },
+        "LI1_IMG_ALT": "镁水平追踪应用",
+        "LI2_IMG_ALT": "轻松追踪您的镁含量。"
     },
     "CALCIUM": {
         "HEAD": "钙",
