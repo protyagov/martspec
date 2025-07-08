@@ -51,8 +51,12 @@
         }
     },
     "NAV": {
-        "APPS": "Applications",
-        "ABOUT": "About Us"
+        "APPS": "All devices",
+        "ABOUT": "About Us",
+        "WATCH": "Watches"
+    },
+    "PROTEIN": {
+        "HEAD": "Protein"
     },
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",
@@ -150,6 +154,7 @@
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "the ultimate vitamin tracker",
+        "SUBHEAD2": "Nutrient tracker",
         "ICO": "Icon for the best vitamins and minerals tracker app for your Apple Watch, iPhone and iPad. Syncs seamlessly with Apple Health. Zero ads.",
         "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
         "BUTTON_OPEN": "Track Vitamins",
@@ -1552,8 +1557,17 @@
         "TEXT": "Seamless magnesium tracking, right on your wrist. Minimalist design, watch complication widgets, and Apple Health sync. No ads, no login.",
         "ABOUT_1": "A convenient and easy-to-use magnesium tracker for Apple Watch",
         "ABOUT_2": "Automatic backups to iCloud",
-        "ABOUT_3": "Full integration with Apple Health"
-        
+        "ABOUT_3": "Full integration with Apple Health",
+        "LIST1": {
+            "LI1_HEAD": "Calculation Algorithm & Adaptation",
+            "LI2_HEAD": "All essential features",
+            "LI3_HEAD": "Informative widgets",
+            "LI1_TEXT": "The daily intake calculation algorithm uses your Apple Health data and adapts it based on official medical data sources",
+            "LI2_TEXT": "Plan your personal magnesium intake and monitoring with scheduling and intake history",
+            "LI3_TEXT": "Convenient widgets with essential information and reminders for magnesium intake and tracking"
+        },
+        "LI1_IMG_ALT": "Magnesium Tracking App",
+        "LI2_IMG_ALT": "Easily monitor your magnesium levels"
     },
     "CALCIUM": {
         "HEAD": "Calcium",
@@ -1809,7 +1823,9 @@
         "BTN_AGAIN": "Take the test again"
     },
     "FOOTER": {
-        "C": "© 2025 Martspec LLC. All rights reserved.",
+        "C": "© Martspec LLC, 2025.",
+        "R": "All rights reserved.",
+        "P": "Privacy Policy.",
         "APPLE_BTN": {
             "TITLE": "See all martspec applications on our Apple AppStore",
             "ALT": "See all our apps on Martpsec AppStore at Apple"

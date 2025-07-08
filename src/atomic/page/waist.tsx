@@ -55,7 +55,7 @@ export default function WaistLine() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new waist">
+            <div className="ms-base-page waist">
                 <Header
                     title={_("WAIST.HEAD")}
                     appId={appId}

@@ -51,8 +51,12 @@
         }
     },
     "NAV": {
-        "APPS": "Anwendungen",
-        "ABOUT": "Über uns"
+        "APPS": "Alle Geräte",
+        "ABOUT": "Über uns",
+        "WATCH": "Uhren"
+    },
+    "PROTEIN": {
+        "HEAD": "Protein"
     },
     "ELECTROLYTE": {
         "HEAD": "Elektrolyt",
@@ -147,6 +151,7 @@
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "Der ultimative Vitamin Tracker",
+        "SUBHEAD2": "Nährstoff-Tracker",
         "ICO": "Symbol für die beste Vitamin- und Mineralien-Tracker-App für Ihre Apple Watch, iPhone und iPad. Synchronisiert nahtlos mit die Health App. Null Werbung.",
         "TEXT": "Das Verfolgen Ihrer essentiellen Vitamine hat viele Vorteile, angefangen bei der Behandlung von Nahrungsmittelunverträglichkeiten bis hin zur Steigerung der Energie, zur Vermeidung von Stimmungsschwankungen und zur Förderung des Tagesrhythmus.",
         "BUTTON_OPEN": "Vitamine tracken",
@@ -1553,7 +1558,17 @@
         "BUTTON_OPEN": "Entspannung fördern",
         "ABOUT_1": "Bequemer und einfach zu bedienender Magnesium-Tracker für die Apple Watch",
         "ABOUT_2": "Automatische Backups in iCloud",
-        "ABOUT_3": "Volle Integration mit Apple Health"
+        "ABOUT_3": "Volle Integration mit Apple Health",
+        "LIST1": {
+            "LI1_HEAD": "Berechnungsalgorithmus und Anpassung",
+            "LI2_HEAD": "Alle nützlichen Funktionen",
+            "LI3_HEAD": "Informative Widgets",
+            "LI1_TEXT": "Der Algorithmus zur Berechnung der täglichen Magnesiumzufuhr nutzt Ihre Daten aus Apple Health und passt sie basierend auf offiziellen medizinischen Quellen an",
+            "LI2_TEXT": "Planen Sie Ihre persönliche Überwachung und Magnesiumaufnahme mithilfe von Zeitplänen und Einnahmehistorie",
+            "LI3_TEXT": "Praktische Widgets mit wichtigen Informationen und Erinnerungen an die Einnahme und Überwachung von Magnesium"
+        },
+        "LI1_IMG_ALT": "App zur Verfolgung des Magnesiumspiegels",
+        "LI2_IMG_ALT": "Überwachen Sie Ihren Magnesiumspiegel ganz einfach"
     },
     "CALCIUM": {
         "HEAD": "Calcium",
@@ -1809,7 +1824,9 @@
         "BTN_AGAIN": "Machen Sie den Test noch einmal"
     },
     "FOOTER": {
-        "C": "© 2025 Martspec LLC. Alle Rechte vorbehalten.",
+        "C": "© Martspec LLC, 2025.",
+        "R": "Alle Rechte vorbehalten.",
+        "P": "Datenschutzrichtlinie.",
         "APPLE_BTN": {
             "TITLE": "Alle martspec-Anwendungen finden Sie in unserem Apple AppStore",
             "ALT": "Sehen Sie sich alle unsere Apps im Martpsec AppStore bei Apple an"

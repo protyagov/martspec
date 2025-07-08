@@ -11,22 +11,16 @@ export default function PrivacyPolicy() {
             <NavigationBar />
 
             <div className="ms-base-page pb-5">
-                <Header 
-                    title={_("PP.HEAD")} 
-                    imgSrc="/img/privacy.svg" 
-                    imgAlt={_("PP.IMG")} 
-                    imgH={398}
-                    imgW={542}
-                >
+                <Header title={_("PP.HEAD")} imgSrc="/img/privacy.svg" imgAlt={_("PP.IMG")} imgH={398} imgW={542}>
                     <p className="font-normal">{_("PP.DATE")}</p>
                 </Header>
-                <section>
+                <section style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <p>{_("PP.P1")}</p>
                     <p>{_("PP.P2")}</p>
                     <p>{_("PP.P3")}</p>
                 </section>
 
-                <section>
+                <section style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <hr />
                     <h4>{_("PP.DEFINITION.HEAD")}</h4>
                     <p>{_("PP.DEFINITION.P1")}</p>
@@ -135,7 +129,7 @@ export default function PrivacyPolicy() {
                     </ul>
                 </section>
 
-                <section>
+                <section style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <hr />
                     <h4>{_("PP.TYPES_OF_DATA.HEAD4")}</h4>
                     <h5>{_("PP.TYPES_OF_DATA.HEAD5.PERSONAL_DATA")}</h5>
@@ -177,7 +171,7 @@ export default function PrivacyPolicy() {
                     </p>
                 </section>
 
-                <section>
+                <section style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <hr />
                     <h4>{_("PP.TRACKING.HEAD4")}</h4>
                     <p>
@@ -209,7 +203,7 @@ export default function PrivacyPolicy() {
                     <p>{_("PP.TRACKING.P3")}</p>
                 </section>
 
-                <section>
+                <section style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <hr />
                     <h4>{_("PP.PERSONAL_DATA.USE.HEAD4")}</h4>
                     <h5>{_("PP.PERSONAL_DATA.USE.HEAD5.DISCLOSE")}</h5>
@@ -307,13 +301,13 @@ export default function PrivacyPolicy() {
                     <p>{_("PP.PERSONAL_DATA.SECURITY.P")}</p>
                 </section>
 
-                <section>
+                <section style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <hr />
                     <h4>{_("PP.CHILD.HEAD4")}</h4>
                     <p>{_("PP.CHILD.P")}</p>
                 </section>
 
-                <section>
+                <section style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <hr />
                     <h4>{_("PP.RIGHTS.HEAD4")}</h4>
                     <p>{_("PP.RIGHTS.P1")}</p>
@@ -345,7 +339,7 @@ export default function PrivacyPolicy() {
                     <p>{_("PP.RIGHTS.P5")}</p>
                 </section>
 
-                <section>
+                <section style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <hr />
                     <h4>{_("PP.CCPA.HEAD4.CCPA")}</h4>
 
@@ -439,21 +433,20 @@ export default function PrivacyPolicy() {
                     <p>{_("PP.CCPA.P15")}</p>
                 </section>
 
-                <section>
+                <section style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <hr />
                     <h4>{_("PP.LINK.HEAD4")}</h4>
                     <p>{_("PP.LINK.P1")}</p>
                     <p>{_("PP.LINK.P2")}</p>
                 </section>
 
-                <section>
+                <section style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <hr />
                     <h4>{_("PP.CHANGES.HEAD4")}</h4>
                     <p>{_("PP.CHANGES.P1")}</p>
                     <p>{_("PP.CHANGES.P2")}</p>
                 </section>
-
-                <section>
+                <section style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <hr />
                     <h4>{_("PP.CONTACT.HEAD4")}</h4>
                     <p>{_("PP.CONTACT.TEXT")}</p>

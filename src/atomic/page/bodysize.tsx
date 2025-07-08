@@ -35,7 +35,7 @@ export default function BodySize() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new">
+            <div className="ms-base-page">
                 <Header
                     title={_("SIZE.HEAD")}
                     appId={appId}
