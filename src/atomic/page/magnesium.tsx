@@ -8,6 +8,8 @@ import ScrollButton from "@/atomic/atom/scroll-button";
 import CardImage from "@/atomic/molecule/card-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
+import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
+import ImageI18N from "@/atomic/atom/img-i18n";
 
 export default function Magnesium() {
     const appId = getAppId();
@@ -71,6 +73,34 @@ export default function Magnesium() {
                                 bgColor="#F8FAFB"
                                 alignItems="center"
                                 justifyContent="center"
+                            />
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="row d-flex align-items-center justify-content-between iron__section">
+                        <div className="col-12 col-xxl-6 order-2 order-xxl-1">
+                            <ImageI18N
+                                src="/img/page/magnesium/Img-MG-whyMag-en.webp"
+                                w={620}
+                                h={390}
+                                alt={_("MAGNESIUM.IMG_ALT")}
+                                cls="ms-base-image mt-mob-xs"
+                            />
+                        </div>
+                        <div className="col-12 offset-xxl-1 col-xxl-5 order-1 order-xxl-2">
+                            <CardTitleTextButton
+                                title={_("MAGNESIUM.HEAD2")}
+                                textContent={[
+                                    _("MAGNESIUM.DESC2_1"),
+                                    _("MAGNESIUM.DESC2_2"),
+                                    _("MAGNESIUM.DESC2_3"),
+                                    _("MAGNESIUM.DESC2_4"),
+                                ]}
+                                buttonText={_("MAGNESIUM.BTN_MORE")}
+                                buttonLink={Locale.i18nLink(`coming-soon`)}
+                                buttonColor="#1686FF"
                             />
                         </div>
                     </div>
