@@ -1552,6 +1552,7 @@
     },
     "MAGNESIUM": {
         "HEAD": "Magnesium",
+        "HEAD2": "Warum Magnesium",
         "ICO": "App-Icon zur täglichen Verfolgung deines Magnesiumspiegels.",
         "SUBHEAD": "Magnesium-Tracker für die Uhr",
         "TEXT": "Einfache Magnesiumverfolgung direkt am Handgelenk. Minimalistisches Design, Widgets für die Uhr und Synchronisierung mit Apple Health. Keine Werbung und keine Registrierung.",
@@ -1568,7 +1569,13 @@
             "LI3_TEXT": "Praktische Widgets mit wichtigen Informationen und Erinnerungen an die Einnahme und Überwachung von Magnesium"
         },
         "LI1_IMG_ALT": "App zur Verfolgung des Magnesiumspiegels",
-        "LI2_IMG_ALT": "Überwachen Sie Ihren Magnesiumspiegel ganz einfach"
+        "LI2_IMG_ALT": "Überwachen Sie Ihren Magnesiumspiegel ganz einfach",
+        "DESC2_1": "Magnesium unterstützt die Herzgesundheit, indem es den Herzrhythmus reguliert und das Risiko von Bluthochdruck senkt",
+        "DESC2_2": "Es reduziert Muskelverspannungen und beugt Krämpfen vor, indem es die Funktion des neuromuskulären Systems verbessert",
+        "DESC2_3": "Hilft bei der Stressbewältigung, verbessert die Schlafqualität und unterstützt das seelische Gleichgewicht",
+        "DESC2_4": "Beteiligt am Energiestoffwechsel, steigert die körperliche Ausdauer und geistige Leistungsfähigkeit",
+        "BTN_MORE": "Mehr erfahren",
+        "IMG_ALT": "Die Hauptursache für Muskelverspannungen, Krämpfe und schlechten Schlaf ist Magnesiummangel"
     },
     "CALCIUM": {
         "HEAD": "Calcium",
