@@ -1553,6 +1553,7 @@
     },
     "MAGNESIUM": {
         "HEAD": "Magnésio",
+        "HEAD2": "Por que magnésio",
         "ICO": "Ícone do aplicativo para rastrear diariamente seus níveis de magnésio.",
         "SUBHEAD": "Rastreador de magnésio para relógio",
         "TEXT": "Rastreamento simples de magnésio diretamente no seu pulso. Design minimalista, widgets para o relógio e sincronização com o Apple Health. Sem anúncios e sem registro.",
@@ -1569,7 +1570,13 @@
             "LI3_TEXT": "Widgets práticos com as informações essenciais e lembretes para a ingestão e o acompanhamento do magnésio"
         },
         "LI1_IMG_ALT": "Aplicativo para monitoramento do nível de magnésio",
-        "LI2_IMG_ALT": "Monitore facilmente seus níveis de magnésio"
+        "LI2_IMG_ALT": "Monitore facilmente seus níveis de magnésio",
+        "DESC2_1": "O magnésio ajuda na saúde do coração ao regular o ritmo cardíaco e reduzir o risco de hipertensão arterial",
+        "DESC2_2": "Reduz a tensão muscular e previne câimbras ao melhorar o funcionamento do sistema neuromuscular",
+        "DESC2_3": "Ajuda no controle do estresse, melhora a qualidade do sono e promove o equilíbrio mental",
+        "DESC2_4": "Participa do metabolismo energético, aumentando a resistência física e o desempenho mental",
+        "BTN_MORE": "Saiba mais",
+        "IMG_ALT": "A principal causa de tensão muscular, câimbras e sono ruim é a deficiência de magnésio"
     },
     "CALCIUM": {
         "HEAD": "Cálcio",

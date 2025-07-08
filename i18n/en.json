@@ -1551,6 +1551,7 @@
     },
     "MAGNESIUM": {
         "HEAD": "Magnesium",
+        "HEAD2": "Why Magnesium",
         "ICO": "App icon for daily tracking of your magnesium levels.",
         "SUBHEAD": "Magnesium tracker for watch",
         "BUTTON_OPEN": "Boost Relaxation",
@@ -1567,7 +1568,13 @@
             "LI3_TEXT": "Convenient widgets with essential information and reminders for magnesium intake and tracking"
         },
         "LI1_IMG_ALT": "Magnesium Tracking App",
-        "LI2_IMG_ALT": "Easily monitor your magnesium levels"
+        "LI2_IMG_ALT": "Easily monitor your magnesium levels",
+        "DESC2_1": "Magnesium supports heart health by regulating heart rhythm and reducing the risk of arterial hypertension",
+        "DESC2_2": "It reduces muscle tension and prevents cramps by improving the functioning of the neuromuscular system",
+        "DESC2_3": "Helps manage stress, improves sleep quality, and supports mental balance",
+        "DESC2_4": "Involved in energy metabolism, increasing physical endurance and mental performance",
+        "BTN_MORE": "Learn more",
+        "IMG_ALT": "The main cause of muscle tension, cramps, and poor sleep is magnesium deficiency"
     },
     "CALCIUM": {
         "HEAD": "Calcium",

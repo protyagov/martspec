@@ -1549,6 +1549,7 @@
     },
     "MAGNESIUM": {
         "HEAD": "Magnésium",
+        "HEAD2": "Pourquoi le magnésium",
         "ICO": "Icône de l'application pour le suivi quotidien de vos niveaux de magnésium.",
         "SUBHEAD": "Tracker de magnésium pour montre",
         "TEXT": "Suivi simple du magnésium directement sur votre poignet. Design minimaliste, widgets pour la montre et synchronisation avec Apple Health. Sans publicités et sans inscription.",
@@ -1565,7 +1566,13 @@
             "LI3_TEXT": "Des widgets pratiques avec les informations essentielles et des rappels pour la prise et le suivi du magnésium"
         },
         "LI1_IMG_ALT": "Application de suivi du niveau de magnésium",
-        "LI2_IMG_ALT": "Suivez facilement votre taux de magnésium"
+        "LI2_IMG_ALT": "Suivez facilement votre taux de magnésium",
+        "DESC2_1": "Le magnésium soutient la santé cardiaque en régulant le rythme cardiaque et en réduisant le risque d’hypertension artérielle",
+        "DESC2_2": "Il réduit les tensions musculaires et prévient les crampes en améliorant le fonctionnement du système neuromusculaire",
+        "DESC2_3": "Aide à gérer le stress, améliore la qualité du sommeil et soutient l’équilibre mental",
+        "DESC2_4": "Participe au métabolisme énergétique, augmentant l’endurance physique et les performances mentales",
+        "BTN_MORE": "En savoir plus",
+        "IMG_ALT": "La principale cause des tensions musculaires, des crampes et du mauvais sommeil est une carence en magnésium"
     },
     "CALCIUM": {
         "HEAD": "Calcium",

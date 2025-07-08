@@ -1549,6 +1549,7 @@
     },
     "MAGNESIUM": {
         "HEAD": "Magnesio",
+        "HEAD2": "Por qué magnesio",
         "ICO": "Ícono de la aplicación para el seguimiento diario de tus niveles de magnesio.",
         "SUBHEAD": "Rastreador de magnesio para reloj",
         "TEXT": "Seguimiento simple de magnesio directamente en tu muñeca. Diseño minimalista, widgets para el reloj y sincronización con Apple Health. Sin anuncios y sin registro.",
@@ -1565,7 +1566,13 @@
             "LI3_TEXT": "Widgets prácticos con la información necesaria y recordatorios para la ingesta y el seguimiento del magnesio"
         },
         "LI1_IMG_ALT": "Aplicación para el seguimiento del nivel de magnesio",
-        "LI2_IMG_ALT": "Controla fácilmente tu nivel de magnesio"
+        "LI2_IMG_ALT": "Controla fácilmente tu nivel de magnesio",
+            "DESC2_1": "El magnesio favorece la salud del corazón al regular el ritmo cardíaco y reducir el riesgo de hipertensión arterial",
+        "DESC2_2": "Reduce la tensión muscular y previene los calambres al mejorar el funcionamiento del sistema neuromuscular",
+        "DESC2_3": "Ayuda a manejar el estrés, mejora la calidad del sueño y apoya el equilibrio mental",
+        "DESC2_4": "Participa en el metabolismo energético, aumentando la resistencia física y el rendimiento mental",
+        "BTN_MORE": "Más información",
+        "IMG_ALT": "La causa principal de la tensión muscular, los calambres y el mal sueño es la deficiencia de magnesio"
     },
     "CALCIUM": {
         "HEAD": "Calcio",
