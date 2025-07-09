@@ -37,6 +37,10 @@
       line-height: 120%;
       color: #595959;
     }
+    h4 {
+      font-size: 30px;
+      color: #258DE3;
+    }
   }
     .team-member {
         // flex: 0 0;
@@ -76,7 +80,7 @@
                 // float: right;
                 position: relative;
                 top: 68%;
-
+                color: #258DE3;
                 left: 80%;
 
                 width: 2.875rem;
@@ -179,14 +183,29 @@
         width: 100%;
         object-position: left !important;
         padding: 0px !important;
+        margin: 0;
         }
 
 ///////
 .card {
   flex-direction: row;
 }
+.card-title-big {
+  font-weight: bold;
+  font-size: 30px;
+  color: #212529;
+  line-height: 5px;
+  margin-top: 70px!important;
+  margin: 0px;
+}
+}
 .card-title {
   font-weight: bold;
+  font-size: 30px;
+  color: #212529;
+  line-height: 5px;
+  margin-top: 10px!important;
+  margin: 0px;
 }
 .card img {
   width: 100%;
@@ -202,6 +221,8 @@
   }
   .card-body .card-text {
     margin: 0;
+    font-size: 30px;
+    color: #258DE3;
   }
   .card img {
     width: 100%;
@@ -214,5 +235,5 @@
 }
 
 
-}
+
 

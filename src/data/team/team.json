@@ -21,24 +21,10 @@
         "text": ""
     },
     {
-        "name": "NATALIA",
-        "title": "ENGINEER_QA",
-        "avatar": "/img/page/team/team_natalia.webp",
-        "link": "https://www.linkedin.com/in/natalia-borisova-ba2545216/",
-        "text": ""
-    },
-    {
         "name": "ELVIRA",
         "title": "DESIGNER_UI_UX",
         "avatar": "/img/page/team/team_elvira.webp",
         "link": "www.linkedin.com/in/elviragilfanova",
-        "text": ""
-    },
-    {
-        "name": "DMITRY",
-        "title": "ENGINEER_WEB",
-        "avatar": "/img/page/team/team_dmitry.webp",
-        "link": "https://www.linkedin.com/in/chigrindmitry/",
         "text": ""
     },
     {
@@ -58,22 +44,8 @@
     {
         "name": "VITALY",
         "title": "ENGINEER_MOBILE",
-        "avatar": "/img/page/team/team_vitaliy.webp",
+        "avatar": "/img/page/team/team_vitalyV.webp",
         "link": "",
-        "text": ""
-    },
-    {
-        "name": "NADEZHDA",
-        "title": "ENGINEER_WEB",
-        "avatar": "/img/page/team/team_nadezhda.webp",
-        "link": "https://www.linkedin.com/in/nadezhda-sokolova-168652295/",
-        "text": ""
-    },
-    {
-        "name": "VICTORIA",
-        "title": "ENGINEER_MOBILE",
-        "avatar": "/img/page/team/team_victoria.webp",
-        "link": "https://www.linkedin.com/in/victoria-samsonova-9b79a8335/",
         "text": ""
     }
 ]
