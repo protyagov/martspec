@@ -211,7 +211,9 @@ html {
             display: grid;
             grid-template-columns: auto 1fr;
             gap: 1.5rem;
-            align-items: center;
+            align-items: start;
+            align-self: stretch;
+            height: 100%;
         }
 
         h3 {
