@@ -1575,7 +1575,23 @@
         "DESC2_3": "Hilft bei der Stressbewältigung, verbessert die Schlafqualität und unterstützt das seelische Gleichgewicht",
         "DESC2_4": "Beteiligt am Energiestoffwechsel, steigert die körperliche Ausdauer und geistige Leistungsfähigkeit",
         "BTN_MORE": "Mehr erfahren",
-        "IMG_ALT": "Die Hauptursache für Muskelverspannungen, Krämpfe und schlechten Schlaf ist Magnesiummangel"
+        "IMG_ALT": "Die Hauptursache für Muskelverspannungen, Krämpfe und schlechten Schlaf ist Magnesiummangel",
+        "SECTION": {
+            "TITLE": "Magnesiummangel: Das unsichtbare Risiko",
+            "TEXT": "Magnesium ist an über 300 biochemischen Reaktionen beteiligt – von der DNA-Synthese bis zur Regulierung der Herz- und Muskelfunktion. Dennoch leiden Millionen von Menschen weltweit an einem Mangel, ohne es zu wissen"
+        },
+        "LIST_IMG_1": {
+            "TITLE": "Eine nachdenklich stimmende Statistik",
+            "TEXT": "Laut der Weltgesundheitsorganisation (WHO) haben bis zu 30 % der Weltbevölkerung einen Magnesiummangel. In Industrieländern ist jeder zweite Erwachsene betroffen"
+        },
+        "LIST_IMG_2": {
+            "TITLE": "Interessanter Fakt",
+            "TEXT": "Selbst bei ausgewogener Ernährung erreichen 50 % der Menschen nicht die empfohlene tägliche Magnesiumzufuhr. Der Grund: ausgelaugte Böden und der Einsatz von Düngemitteln, die den Mineralstoffgehalt in Gemüse und Getreide verringern"
+        },
+        "LIST_IMG_3": {
+            "TITLE": "Wie kann man den Mangel ausgleichen?",
+            "TEXT": "Um einen Magnesiummangel wirksam auszugleichen, ist es wichtig, nicht nur magnesiumreiche Lebensmittel und empfohlene Nahrungsergänzungsmittel zu sich zu nehmen, sondern auch die tägliche Aufnahme zu kontrollieren"
+        }
     },
     "CALCIUM": {
         "HEAD": "Calcium",
