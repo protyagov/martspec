@@ -20,14 +20,16 @@ const IconTitleTextElem = ({ icon, title, subtitle, forwardedRef }: IconTitleTex
     const appleIconClass = "no-filter";
 
     return (
-        <div className="d-flex h-100 gap-3 align-items-start">
+        <div className="d-flex h-100 gap-3 align-items-center">
             <div className={`icon${icon.src?.includes(appleIconName) ? ` ${appleIconClass}` : ""}`}>
                 {icon.component ? icon.component : icon.src ? <img src={icon.src} alt={icon.alt || ""} /> : null}
             </div>
-            <h3 className="mb-2" ref={forwardedRef}>
-                {title}
-            </h3>
-            {subtitle && <p className="mb-0">{subtitle}</p>}
+            <div>
+                <h3 className="mb-2" ref={forwardedRef}>
+                    {title}
+                </h3>
+                {subtitle && <p className="mb-0">{subtitle}</p>}
+            </div>
         </div>
     );
 };
