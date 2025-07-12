@@ -1572,7 +1572,23 @@
         "DESC2_3": "Ayuda a manejar el estrés, mejora la calidad del sueño y apoya el equilibrio mental",
         "DESC2_4": "Participa en el metabolismo energético, aumentando la resistencia física y el rendimiento mental",
         "BTN_MORE": "Más información",
-        "IMG_ALT": "La causa principal de la tensión muscular, los calambres y el mal sueño es la deficiencia de magnesio"
+        "IMG_ALT": "La causa principal de la tensión muscular, los calambres y el mal sueño es la deficiencia de magnesio",
+        "SECTION": {
+            "TITLE": "Deficiencia de magnesio: el riesgo invisible",
+            "TEXT": "El magnesio participa en más de 300 reacciones bioquímicas, desde la síntesis del ADN hasta la regulación del funcionamiento del corazón y los músculos. Sin embargo, millones de personas en todo el mundo sufren su carencia sin siquiera saberlo"
+        },
+        "LIST_IMG_1": {
+            "TITLE": "Una estadística que da que pensar",
+            "TEXT": "Según la Organización Mundial de la Salud (OMS), hasta el 30 % de la población mundial sufre deficiencia de magnesio. En los países desarrollados, este problema afecta a uno de cada dos adultos"
+        },
+        "LIST_IMG_2": {
+            "TITLE": "Dato curioso",
+            "TEXT": "Incluso con una alimentación equilibrada, el 50 % de las personas no alcanza la cantidad diaria recomendada de magnesio. ¿La razón? El agotamiento del suelo y el uso de fertilizantes que reducen el contenido mineral de las verduras y los cereales"
+        },
+        "LIST_IMG_3": {
+            "TITLE": "¿Cómo compensar la deficiencia?",
+            "TEXT": "Para compensar eficazmente la deficiencia de magnesio, es importante no solo incluir alimentos ricos en este mineral y suplementos recomendados en la dieta, sino también controlar el consumo diario"
+        }
     },
     "CALCIUM": {
         "HEAD": "Calcio",

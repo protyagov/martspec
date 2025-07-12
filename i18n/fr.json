@@ -1572,7 +1572,23 @@
         "DESC2_3": "Aide à gérer le stress, améliore la qualité du sommeil et soutient l’équilibre mental",
         "DESC2_4": "Participe au métabolisme énergétique, augmentant l’endurance physique et les performances mentales",
         "BTN_MORE": "En savoir plus",
-        "IMG_ALT": "La principale cause des tensions musculaires, des crampes et du mauvais sommeil est une carence en magnésium"
+        "IMG_ALT": "La principale cause des tensions musculaires, des crampes et du mauvais sommeil est une carence en magnésium",
+        "SECTION": {
+            "TITLE": "Carence en magnésium : le risque invisible",
+            "TEXT": "Le magnésium est impliqué dans plus de 300 réactions biochimiques — de la synthèse de l’ADN à la régulation du cœur et des muscles. Pourtant, des millions de personnes dans le monde en manquent sans même s’en rendre compte"
+        },
+        "LIST_IMG_1": {
+            "TITLE": "Une statistique préoccupante",
+            "TEXT": "Selon l’Organisation mondiale de la santé (OMS), jusqu’à 30 % de la population mondiale souffre d’une carence en magnésium. Dans les pays développés, ce problème touche un adulte sur deux"
+        },
+        "LIST_IMG_2": {
+            "TITLE": "Fait intéressant",
+            "TEXT": "Même avec une alimentation équilibrée, 50 % des personnes n’atteignent pas l’apport quotidien recommandé en magnésium. La cause ? L’appauvrissement des sols et l’utilisation d’engrais qui réduisent la teneur en minéraux des légumes et des céréales"
+        },
+        "LIST_IMG_3": {
+            "TITLE": "Comment compenser cette carence ?",
+            "TEXT": "Pour compenser efficacement une carence en magnésium, il est essentiel non seulement d’inclure des aliments riches en magnésium et des compléments recommandés dans son alimentation, mais aussi de surveiller sa consommation quotidienne"
+        }
     },
     "CALCIUM": {
         "HEAD": "Calcium",

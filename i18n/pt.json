@@ -1576,7 +1576,23 @@
         "DESC2_3": "Ajuda no controle do estresse, melhora a qualidade do sono e promove o equilíbrio mental",
         "DESC2_4": "Participa do metabolismo energético, aumentando a resistência física e o desempenho mental",
         "BTN_MORE": "Saiba mais",
-        "IMG_ALT": "A principal causa de tensão muscular, câimbras e sono ruim é a deficiência de magnésio"
+        "IMG_ALT": "A principal causa de tensão muscular, câimbras e sono ruim é a deficiência de magnésio",
+        "SECTION": {
+            "TITLE": "Deficiência de Magnésio: o Risco Invisível",
+            "TEXT": "O magnésio está envolvido em mais de 300 reações bioquímicas — desde a síntese de DNA até a regulação do funcionamento do coração e dos músculos. No entanto, milhões de pessoas ao redor do mundo sofrem com a deficiência sem sequer saber"
+        },
+        "LIST_IMG_1": {
+            "TITLE": "Uma estatística que chama a atenção",
+            "TEXT": "Segundo a Organização Mundial da Saúde (OMS), até 30% da população mundial apresenta deficiência de magnésio. Nos países desenvolvidos, o problema afeta um em cada dois adultos"
+        },
+        "LIST_IMG_2": {
+            "TITLE": "Fato interessante",
+            "TEXT": "Mesmo com uma alimentação equilibrada, 50% das pessoas não atingem a ingestão diária recomendada de magnésio. O motivo? O empobrecimento do solo e o uso de fertilizantes que reduzem o teor mineral de vegetais e grãos"
+        },
+        "LIST_IMG_3": {
+            "TITLE": "Como compensar a deficiência?",
+            "TEXT": "Para compensar de forma eficaz a deficiência de magnésio, é importante não apenas incluir alimentos ricos nesse mineral e suplementos recomendados na dieta, mas também monitorar o consumo diário"
+        }
     },
     "CALCIUM": {
         "HEAD": "Cálcio",

@@ -1,0 +1,1 @@
+import{j as t}from"./index-Cv4fK0DB.js";import{u as i}from"./review-context-C6n_6_Q4.js";function o(){const{text:e}=i();return t.jsx("p",{className:"review__description",children:e.description})}export{o as R};

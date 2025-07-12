@@ -1574,7 +1574,23 @@
         "DESC2_3": "Helps manage stress, improves sleep quality, and supports mental balance",
         "DESC2_4": "Involved in energy metabolism, increasing physical endurance and mental performance",
         "BTN_MORE": "Learn more",
-        "IMG_ALT": "The main cause of muscle tension, cramps, and poor sleep is magnesium deficiency"
+        "IMG_ALT": "The main cause of muscle tension, cramps, and poor sleep is magnesium deficiency",
+        "SECTION": {
+            "TITLE": "Magnesium Deficiency: The Invisible Risk",
+            "TEXT": "Magnesium is involved in over 300 biochemical reactions — from DNA synthesis to regulating the heart and muscles. Yet millions of people around the world suffer from a deficiency without even realizing it"
+        },
+        "LIST_IMG_1": {
+            "TITLE": "A Statistic That Raises Concern",
+            "TEXT": "According to the World Health Organization (WHO), up to 30% of the global population is magnesium-deficient. In developed countries, this issue affects every second adult"
+        },
+        "LIST_IMG_2": {
+            "TITLE": "An Interesting Fact",
+            "TEXT": "Even with a balanced diet, 50% of people fail to meet the daily recommended intake of magnesium. The reason? Soil depletion and the use of fertilizers, which reduce the mineral content in vegetables and grains"
+        },
+        "LIST_IMG_3": {
+            "TITLE": "How to Replenish It?",
+            "TEXT": "To effectively address magnesium deficiency, it’s important not only to include magnesium-rich foods and recommended supplements in your diet but also to monitor your daily intake"
+        }
     },
     "CALCIUM": {
         "HEAD": "Calcium",
