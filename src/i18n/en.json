@@ -1551,6 +1551,7 @@
     },
     "MAGNESIUM": {
         "HEAD": "Magnesium",
+        "HEAD1": "Our Advantages",
         "HEAD2": "Why Magnesium",
         "ICO": "App icon for daily tracking of your magnesium levels.",
         "SUBHEAD": "Magnesium tracker for watch",
@@ -1590,7 +1591,21 @@
         "LIST_IMG_3": {
             "TITLE": "How to Replenish It?",
             "TEXT": "To effectively address magnesium deficiency, it’s important not only to include magnesium-rich foods and recommended supplements in your diet but also to monitor your daily intake"
-        }
+        },
+        "LIST2": {
+            "LI2_1_TITLE": "Data Protection",
+            "LI2_1_TEXT": "We do not store your data on our servers",
+            "LI2_2_TITLE": "No Sign-Up",
+            "LI2_2_TEXT": "An account is not required for this app",
+            "LI2_3_TITLE": "No Ads",
+            "LI2_3_TEXT": "We don’t have any annoying ads",
+            "LI2_4_TITLE": "Sync with Apple",
+            "LI2_4_TEXT": "Syncs with Apple Health"
+        },
+        "IMG1_ALT": "Data Protection",
+        "IMG2_ALT": "No Sign-Up",
+        "IMG3_ALT": "No Ads",
+        "IMG4_ALT": "Sync with Apple"
     },
     "CALCIUM": {
         "HEAD": "Calcium",

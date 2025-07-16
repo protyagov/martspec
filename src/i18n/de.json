@@ -1552,6 +1552,7 @@
     },
     "MAGNESIUM": {
         "HEAD": "Magnesium",
+        "HEAD1": "Unsere Vorteile",
         "HEAD2": "Warum Magnesium",
         "ICO": "App-Icon zur täglichen Verfolgung deines Magnesiumspiegels.",
         "SUBHEAD": "Magnesium-Tracker für die Uhr",
@@ -1591,7 +1592,21 @@
         "LIST_IMG_3": {
             "TITLE": "Wie kann man den Mangel ausgleichen?",
             "TEXT": "Um einen Magnesiummangel wirksam auszugleichen, ist es wichtig, nicht nur magnesiumreiche Lebensmittel und empfohlene Nahrungsergänzungsmittel zu sich zu nehmen, sondern auch die tägliche Aufnahme zu kontrollieren"
-        }
+        },
+        "LIST2": {
+            "LI2_1_TITLE": "Datenschutz",
+            "LI2_1_TEXT": "Wir speichern Ihre Daten nicht auf unseren Servern",
+            "LI2_2_TITLE": "Keine Anmeldung",
+            "LI2_2_TEXT": "Für diese App ist kein Konto erforderlich",
+            "LI2_3_TITLE": "Keine Werbung",
+            "LI2_3_TEXT": "Wir zeigen keine störende Werbung",
+            "LI2_4_TITLE": "Synchronisierung mit Apple",
+            "LI2_4_TEXT": "Synchronisiert mit Apple Health"
+        },
+        "IMG1_ALT": "Datenschutz",
+        "IMG2_ALT": "Keine Anmeldung",
+        "IMG3_ALT": "Keine Werbung",
+        "IMG4_ALT": "Synchronisierung mit Apple"
     },
     "CALCIUM": {
         "HEAD": "Calcium",
