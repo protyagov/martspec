@@ -1549,6 +1549,7 @@
     },
     "MAGNESIUM": {
         "HEAD": "Magnesio",
+        "HEAD1": "Nuestras ventajas",
         "HEAD2": "Por qué magnesio",
         "ICO": "Ícono de la aplicación para el seguimiento diario de tus niveles de magnesio.",
         "SUBHEAD": "Rastreador de magnesio para reloj",
@@ -1588,7 +1589,21 @@
         "LIST_IMG_3": {
             "TITLE": "¿Cómo compensar la deficiencia?",
             "TEXT": "Para compensar eficazmente la deficiencia de magnesio, es importante no solo incluir alimentos ricos en este mineral y suplementos recomendados en la dieta, sino también controlar el consumo diario"
-        }
+        },
+        "LIST2": {
+            "LI2_1_TITLE": "Protección de datos",
+            "LI2_1_TEXT": "No almacenamos tus datos en nuestros servidores",
+            "LI2_2_TITLE": "Sin registro",
+            "LI2_2_TEXT": "No se necesita una cuenta para usar esta aplicación",
+            "LI2_3_TITLE": "Sin anuncios",
+            "LI2_3_TEXT": "No mostramos anuncios molestos",
+            "LI2_4_TITLE": "Sincronización con Apple",
+            "LI2_4_TEXT": "Se sincroniza con Apple Health"
+        },
+        "IMG1_ALT": "Se sincroniza con Apple Health",
+        "IMG2_ALT": "Sin registro",
+        "IMG3_ALT": "Sin anuncios",
+        "IMG4_ALT": "Sincronización con Apple"
     },
     "CALCIUM": {
         "HEAD": "Calcio",

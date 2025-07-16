@@ -1549,6 +1549,7 @@
     },
     "MAGNESIUM": {
         "HEAD": "Magnésium",
+        "HEAD1": "Nos avantages",
         "HEAD2": "Pourquoi le magnésium",
         "ICO": "Icône de l'application pour le suivi quotidien de vos niveaux de magnésium.",
         "SUBHEAD": "Tracker de magnésium pour montre",
@@ -1588,7 +1589,21 @@
         "LIST_IMG_3": {
             "TITLE": "Comment compenser cette carence ?",
             "TEXT": "Pour compenser efficacement une carence en magnésium, il est essentiel non seulement d’inclure des aliments riches en magnésium et des compléments recommandés dans son alimentation, mais aussi de surveiller sa consommation quotidienne"
-        }
+        },
+        "LIST2": {
+            "LI2_1_TITLE": "Protection des données",
+            "LI2_1_TEXT": "Nous ne stockons pas vos données sur nos serveurs",
+            "LI2_2_TITLE": "Pas d’inscription",
+            "LI2_2_TEXT": "Aucun compte n’est requis pour utiliser cette application",
+            "LI2_3_TITLE": "Sans publicité",
+            "LI2_3_TEXT": "Nous n’affichons aucune publicité gênante",
+            "LI2_4_TITLE": "Synchronisation avec Apple",
+            "LI2_4_TEXT": "Se synchronise avec Apple Health"
+        },
+        "IMG1_ALT": "Protection des données",
+        "IMG2_ALT": "Pas d’inscription",
+        "IMG3_ALT": "Sans publicité",
+        "IMG4_ALT": "Synchronisation avec Apple"
     },
     "CALCIUM": {
         "HEAD": "Calcium",
