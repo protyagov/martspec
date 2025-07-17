@@ -75,7 +75,7 @@ export default function About() {
                         <div className="d-flex flex-wrap align-items-center justify-content-between about-command-block">
                             <div className="col-12 col-xxl-6 order-2 order-xxl-1">
                                 <ImageI18N
-                                    src="/img/about-now-en.webp"
+                                    src="/img/page/emotion/emotion-header-img-en.webp"
                                     w={487}
                                     h={515}
                                     cls="ms-base-image mt-mob-xs mb-6"
