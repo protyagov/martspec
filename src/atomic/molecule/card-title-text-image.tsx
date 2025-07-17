@@ -35,7 +35,7 @@ export default function CardTitleTextImage({
                     {text}
                 </p>
             </div>
-            <div className={`mx-5 mt-auto align-self-center ${imgPosition === 'bottom-right' ? 'img-bottom-right' : ''}`}>
+            <div className={`mx-5${imgPosition === 'bottom-right' ? 'img-bottom-right' : ''}`}>
                 <ImageI18N src={imgSrc} w={imgW} h={imgH} alt={imgAlt} cls="img-fluid m-0" />
             </div>
         </div>

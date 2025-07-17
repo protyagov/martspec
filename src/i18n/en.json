@@ -51,8 +51,12 @@
         }
     },
     "NAV": {
-        "APPS": "Applications",
-        "ABOUT": "About Us"
+        "APPS": "All devices",
+        "ABOUT": "About Us",
+        "WATCH": "Watches"
+    },
+    "PROTEIN": {
+        "HEAD": "Protein"
     },
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",
@@ -61,6 +65,7 @@
         "SUBHEAD": "Water-salt balance",
         "TEXT": "Electrolytes play a vital role in maintaining homeostasis in the body. They regulate heart function, neurological functions, fluid balance, oxygen delivery to tissues, acid-base balance, and much more.",
         "TEXT1": "Electrolytes support heart function and participate in other physiological processes. Monitor your electrolyte levels with our app.",
+        "BUTTON_OPEN": "Stay Hydrated",
         "ICO": "Icon for the simplest electrolyte intake tracker for Apple Watch. Keep track of your magnesium, calcium, potassium, and iron intake. Sync with Apple Health. No ads.",
         "ABOUT_1": "Monitor important minerals",
         "ABOUT_2": "Easy and convenient way to input electrolyte readings from Apple Watch",
@@ -100,21 +105,25 @@
         "HEAD": "Body Mass",
         "SUBHEAD": "The most convenient weight diary",
         "ICO": "Icon of the most convenient weight diary. Syncs with iCloud. No ads or sign-ups.",
-        "IMG": "A woman stands on a scale, measuring her weight using an Apple Watch running the Body Mass app from Martspec.",
+        "IMG_HEAD_ALT": "A woman stands on a scale, measuring her weight using an Apple Watch running the Body Mass app from Martspec.",
         "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
+        "BUTTON_OPEN": "Record Weight",
         "DWN": "Download the free Body Mass app from the Apple Store",
         "ABOUT_1": "Track weight effortlessly on the go",
         "ABOUT_2": "Fits your Watch, fits your life - enjoy quick data entry & insights",
         "LIST1": {
             "LI1_HEAD": "Watch Widget",
             "LI1_TEXT": "Dive into your stats effortlessly with seamless access to key metrics empowering you to track progress and optimize your well-being",
+            "LI1_IMG_ALT": "Apple Watch ring data chart and a colorful measurement progress card, showing the app's feature of helping users to monitor weight changes and maintain a healthy habit through daily body mass tracking",
             "LI2_HEAD": "Log Weight with a Twist",
             "LI2_TEXT": "Use the watch crown to enter weight on your Apple watch. Track your progress, goals, and notes with Weight Diary.",
             "LI3_HEAD": "Works without iPhone",
             "LI3_TEXT": "Enjoy true independence - No iPhone needed! This Watch-only app delivers stats straight to your wrist"
         },
+        "IMG_LIST_ALT": "A sporty woman with a red apple and a fan chart, representing how the app supports building healthy body habits by helping users track weight and understand physical progress",
         "HEAD2": "Why Body Mass?",
         "DESC2": "Tracking your body weight daily will help you form a healthy habit. Quickly and conveniently entering weights from your wrists will make it easier to achieve your weight loss or muscle gain goals and remind you to strive for a healthy lifestyle. Try not to miss a single day! After all, if you miss a day today, then tomorrow it will be easier for you to skip two, and the day after tomorrow - three... and so on until you return to old habits.",
+        "IMG2_ALT": "Two Apple Watch screens showing real-time body mass tracking data from our app, showing how it helps users monitor weight changes directly on their wrist and build healthy habits through a minimalist design and clear visualization of weight trends",
         "HEAD3": "Our advantages",
         "LIST3": {
             "LI1_HEAD": "Data protection",
@@ -133,24 +142,28 @@
         "HEAD4": "Our app is available for any Apple Watch device",
         "DESC4": "Download the app now and start tracking your essential indicators",
         "ALT1": "Apple Watch screens with information about weight now and 10 days ago in the Body Mass app from Martspec",
-        "ALT2": "Apple Watch screens with information about current weight and statistics in the Body Mass app from Martspec",
+        "IMG_CTA_ALT2": "Apple Watch screens with information about current weight and statistics in the Body Mass app from Martspec",
         "ALT5_1": "Protecting your information is our direct goal. Martspec does not store your data, this is a guarantee of the security of your data.",
         "ALT5_2": "Sync via iCloud for even greater convenience. All data is automatically available on all your devices.",
         "ALT5_3": "There is no need for login and password authorization. An account is not required to operate the application.",
         "ALT5_4": "We care about our users, so we do not use any intrusive advertising in the application.",
         "ALT5_5": "Sync with Apple Health.",
+        "ALT5_6": "Smartwatch icon showing app's support for Apple Watch widgets, allowing users to track data easily right from their wrist.",
         "BTN_OPEN": "Give up the fat"
     },
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "the ultimate vitamin tracker",
+        "SUBHEAD2": "Nutrient tracker",
         "ICO": "Icon for the best vitamins and minerals tracker app for your Apple Watch, iPhone and iPad. Syncs seamlessly with Apple Health. Zero ads.",
         "TEXT": "Tracking your essential vitamins has many benefits, from helping to manage food intolerances to increasing energy, avoiding changes in mood, and fueling the rhythms of your day.",
+        "BUTTON_OPEN": "Track Vitamins",
         "IMG": "Track the most essential vitamins directly on your wrist",
         "DWN": "Download Free Book Vitamin app from the Apple AppStore",
-        "HEAD1": "Vitamin Ring",
+        "HEAD1": "Nutrients",
         "SUBHEAD1": "Nutrient and Medication Tracker",
-        "TEXT1": "A convenient tracker for vitamin intake. Syncs with Apple Health. Backup to iCloud. Works for free. No ads or in-app purchases.",
+        "TEXT1": "A convenient tracker for vitamin & mineral intake with reminders. Apple Health Sync. Secure iCloud Backups. Free. No ads or in-app purchases.",
+        "BUTTON_OPEN_NUTRIENTS": "Log Nutrients",
         "ABOUT_1": "Control your intake of important vitamins and minerals every day",
         "ABOUT_2": "The energy of healthy eating and a happy life",
         "ABOUT_3": "Set a reminder so you don't miss taking your vitamins",
@@ -918,6 +931,7 @@
         "SUBHEAD": "tiny waist - healthy heart",
         "ICO": "Icon for the best waistline circumference tracking Apple Watch app. Full synchronization with Apple Health. Use easily without ADs, payments and registration.",
         "TEXT": "The easiest way to track waist circumference on Apple Watch. All records get synced to your Apple Health.",
+        "BUTTON_OPEN": "Trim Waist",
         "IMG": "Keep track of your waistline (belly button) directly from your arm",
         "DWN": "Download Free body waist app from the Apple AppStore",
         "ABOUT_1": "Quick and simple waist tracking",
@@ -978,6 +992,7 @@
         "ICO": "Icon for our free Apple Watch app that helps you track zinc consumption. Make records about dietary zinc from your Apple Watches and sync with Apple Health. No needed companion iPhone app to work. Zero ads.",
         "TEXT": "Zinc may enhance immune function, stabilize blood sugar levels, and help keep your skin, eyes, and heart healthy.",
         "TEXT1": "A zinc level tracker for your body designed for Apple Watch. Syncs with Apple Health. Easy data entry. Works for free and without ads.",
+        "BUTTON_OPEN": "Aid Immunity",
         "IMG": "Track your everyday consumption of zinc supplement",
         "DWN": "Get free of charge BodyZinc application from Apple Store",
         "ABOUT_1": "A simple and easy-to-use zinc tracker",
@@ -1023,6 +1038,7 @@
         "SUBHEAD": "Beautiful body. Built by you!",
         "ICO": "Icon for the best body body size tracker on App Store for Apple Watch, iPhone, iPad and Mac M computers. Body Size lets you learn about yourself to help you get in shape. Measurements are automatically synced to the Health Mate app, which means you can visualize results with easy-to-read charts. Zero ADs.",
         "TEXT": "Track your hips, waist and chest with this app directly from your Apple Watch. Full support of Apple Health. Fast load time. Absolutely free.",
+        "BUTTON_OPEN": "Measure Up",
         "IMG": "Measure chest size, bust width, waist circumference and hips length using watch on your wrist",
         "DWN": "Get for free BodySize app for Apple Watch directly from the Apple App Store",
         "ABOUT": "Track your hips, waist and chest on your Apple Watch. Auto calculates body shape using Bradley Bayou formula. Full support of Apple Health. iCloud backups. Fast load time. Absolutely free.",
@@ -1050,6 +1066,7 @@
         "SUBHEAD": "quickest psychology test",
         "ICO": "Icon for fastest and world most known psychology test. Get a chance to understand and predict your moods. Simply select 8 colors that you like and don't like. For free, no ads.",
         "TEXT": "Unexpected mood swings? Intense emotional changes? Figure out the root cause in just 1 minute.",
+        "BUTTON_OPEN": "Know Yourself",
         "IMG": "The worlds quickest personality test. Select 8 colors and know you current mind state.",
         "DWN": "Get for free app for Apple Watch, iPhone or iPad directly from the Apple App Store",
         "ABOUT_1": "Stress, anxiety, depression?",
@@ -1240,7 +1257,10 @@
                 "LI5": "Logic",
                 "LI6": "Learning"
             }
-        }
+        },
+        "ABOUT_1": "Track your physical, emotional, and intellectual activity",
+        "ABOUT_2": "Plan important tasks in sync with your biorhythms",
+        "ABOUT_3": "Improve your productivity and well-being every day"
     },
     "PRODUCTIVITY": {
         "HEAD": "Productivity",
@@ -1322,7 +1342,11 @@
             "LI4_TEXT": "Sales.",
             "LI5_TEXT": "Routine intensive work."
         },
-        "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning and the ability to adaptations can lead to success in a wide range of areas."
+        "DESK6_3": "Remember, the key is to find a balance between a career that suits your natural inclinations and a career that challenges and excites you. While some careers may seem more suited to productive people, personal passion, continuous learning and the ability to adaptations can lead to success in a wide range of areas.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "ANXIETY": {
         "HEAD": "Anxiety",
@@ -1379,7 +1403,11 @@
         "DESK5_2": "The Emotion mobile app offers a convenient and accessible way to assess your anxiety level and receive recommendations on how to manage it. The application provides the ability to track your emotional states and analyze factors that cause anxiety.",
         "DESK5_3": "Treating anxiety is a complex process that may include psychotherapy, pharmacological therapy and lifestyle changes. Although each anxiety disorder has unique characteristics, most respond well to two types of treatment: psychotherapy or \"talk therapy\" and medication. Cognitive behavioral therapy a type of talk therapy, can help a person learn different ways of thinking, reacting and behaving to reduce anxiety. Medications will not cure anxiety disorders, but they can significantly relieve symptoms. The most commonly used medications are anti-anxiety medications and antidepressants.",
         "DESK5_4": "Mobile apps can be effective tools for self-management of anxiety in the early stages, but it is always recommended to seek professional advice and support from a qualified professional.",
-        "DESK5_5": "In general, the use of mobile applications is a promising direction in diagnosing anxiety. They help people better understand their emotional state, learn to manage anxiety and improve their quality of life."
+        "DESK5_5": "In general, the use of mobile applications is a promising direction in diagnosing anxiety. They help people better understand their emotional state, learn to manage anxiety and improve their quality of life.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "HARMONY": {
         "HEAD": "Harmony",
@@ -1435,7 +1463,11 @@
             "LI8_HEAD": "Seeking support:",
             "LI8_TEXT": "reach out to friends, family or a mental health professional when needed. Talking about your feelings and problems can bring clarity and alleviate emotional burden."
         },
-        "DESK5": "Remember, achieving internal harmony is an ongoing journey and it's natural to experience fluctuations in your emotional state. Be patient with yourself and celebrate small victories along the way. Incorporating these practices into your daily life can gradually lead to a greater sense of inner peace and well-being."
+        "DESK5": "Remember, achieving internal harmony is an ongoing journey and it's natural to experience fluctuations in your emotional state. Be patient with yourself and celebrate small victories along the way. Incorporating these practices into your daily life can gradually lead to a greater sense of inner peace and well-being.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "INDEPENDENCE": {
         "HEAD": "Independence",
@@ -1511,31 +1543,112 @@
             "LI8_TEXT": "Academia and Research.",
             "LI9_TEXT": "Art activities."
         },
-        "DESK6_2": "It is important to note that while independence can contribute to success in these fields, collaboration and effective communication skills are also valuable in most professions. Finding a balance between independence and teamwork is essential to a fulfilling career path. Additionally, people are unique and their career path may be influenced by a combination of traits and interests other than independence."
+        "DESK6_2": "It is important to note that while independence can contribute to success in these fields, collaboration and effective communication skills are also valuable in most professions. Finding a balance between independence and teamwork is essential to a fulfilling career path. Additionally, people are unique and their career path may be influenced by a combination of traits and interests other than independence.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "MAGNESIUM": {
         "HEAD": "Magnesium",
+        "HEAD2": "Why Magnesium",
         "ICO": "App icon for daily tracking of your magnesium levels.",
         "SUBHEAD": "Magnesium tracker for watch",
-        "TEXT": "Seamless magnesium tracking, right on your wrist. Minimalist design, watch complication widgets, and Apple Health sync. No ads, no login."
+        "BUTTON_OPEN": "Boost Relaxation",
+        "TEXT": "Seamless magnesium tracking, right on your wrist. Minimalist design, watch complication widgets, and Apple Health sync. No ads, no login.",
+        "ABOUT_1": "A convenient and easy-to-use magnesium tracker for Apple Watch",
+        "ABOUT_2": "Automatic backups to iCloud",
+        "ABOUT_3": "Full integration with Apple Health",
+        "LIST1": {
+            "LI1_HEAD": "Calculation Algorithm & Adaptation",
+            "LI2_HEAD": "All essential features",
+            "LI3_HEAD": "Informative widgets",
+            "LI1_TEXT": "The daily intake calculation algorithm uses your Apple Health data and adapts it based on official medical data sources",
+            "LI2_TEXT": "Plan your personal magnesium intake and monitoring with scheduling and intake history",
+            "LI3_TEXT": "Convenient widgets with essential information and reminders for magnesium intake and tracking"
+        },
+        "LI1_IMG_ALT": "Magnesium Tracking App",
+        "LI2_IMG_ALT": "Easily monitor your magnesium levels",
+        "DESC2_1": "Magnesium supports heart health by regulating heart rhythm and reducing the risk of arterial hypertension",
+        "DESC2_2": "It reduces muscle tension and prevents cramps by improving the functioning of the neuromuscular system",
+        "DESC2_3": "Helps manage stress, improves sleep quality, and supports mental balance",
+        "DESC2_4": "Involved in energy metabolism, increasing physical endurance and mental performance",
+        "BTN_MORE": "Learn more",
+        "IMG_ALT": "The main cause of muscle tension, cramps, and poor sleep is magnesium deficiency",
+        "SECTION": {
+            "TITLE": "Magnesium Deficiency: The Invisible Risk",
+            "TEXT": "Magnesium is involved in over 300 biochemical reactions — from DNA synthesis to regulating the heart and muscles. Yet millions of people around the world suffer from a deficiency without even realizing it"
+        },
+        "LIST_IMG_1": {
+            "TITLE": "A Statistic That Raises Concern",
+            "TEXT": "According to the World Health Organization (WHO), up to 30% of the global population is magnesium-deficient. In developed countries, this issue affects every second adult"
+        },
+        "LIST_IMG_2": {
+            "TITLE": "An Interesting Fact",
+            "TEXT": "Even with a balanced diet, 50% of people fail to meet the daily recommended intake of magnesium. The reason? Soil depletion and the use of fertilizers, which reduce the mineral content in vegetables and grains"
+        },
+        "LIST_IMG_3": {
+            "TITLE": "How to Replenish It?",
+            "TEXT": "To effectively address magnesium deficiency, it’s important not only to include magnesium-rich foods and recommended supplements in your diet but also to monitor your daily intake"
+        }
     },
     "CALCIUM": {
         "HEAD": "Calcium",
         "ICO": "App icon for daily tracking of your calcium levels.",
         "SUBHEAD": "Calcium tracker for watch",
-        "TEXT": "Simple calcium tracking, directly on your wrist. Watch complication widgets and Apple Health sync make it easy. Clean design, zero ads, no logins required."
+        "TEXT": "Simple calcium tracking, directly on your wrist. Watch complication widgets and Apple Health sync make it easy. Clean design, zero ads, no logins required.",
+        "BUTTON_OPEN": "Fortify Bones"
     },
     "IRON": {
         "HEAD": "Iron",
+        "HEAD1": "Our Advantages",
+        "HEAD2": "Why Iron",
+        "ABOUT_1": "A simple and intuitive iron tracker",
+        "ABOUT_2": "Use the app on your Apple Watch",
+        "ABOUT_3": "Syncs with Apple Health",
+        "ABOUT_4": "Our app is available for any Apple Watch device",
+        "ABOUT_5": "Download the app now and start tracking your essential minerals",
         "ICO": "App icon for daily tracking of your iron levels.",
-        "SUBHEAD": "Iron tracker for watch",
-        "TEXT": "Efficient iron tracking on your Apple Watch. Monitor your daily intake with ease. Minimalist design, watch widgets, and Apple Health sync. Free from ads and unnecessary steps."
+        "SUBHEAD": "Iron tracker for your watch",
+        "TEXT": "Effectively monitor your iron levels on your Apple Watch. Easily track your daily intake. Minimalist design, watch widgets, and seamless Apple Health integration. No ads, no unnecessary steps.",
+        "BUTTON_OPEN": "Fight Fatigue",
+        "LIST1": {
+            "LI1_HEAD": "Track your iron easily",
+            "LI2_HEAD": "Advanced watch faces",
+            "LI3_HEAD": "Works without iPhone",
+            "LI1_TEXT": "The app helps you keep track of your daily iron intake and monitor your progress — no complicated tables or extra effort.",
+            "LI2_TEXT": "Quick access to your stats right on your watch, starting from WatchOS 6, with support for all watch faces.",
+            "LI3_TEXT": "The app works independently from your iPhone — check your stats even without your phone."
+        },
+        "LI1_IMG_ALT": "App for tracking iron levels",
+        "LI2_IMG_ALT": "Track your iron easily",
+        "DESC2_1": "Iron is a key element for blood health and overall well-being.",
+        "DESC2_2": "Iron is essential for oxygen transport in the body, supporting energy and mental clarity.",
+        "DESC2_3": "Iron deficiency is a leading cause of anemia, resulting in weakness and fatigue.",
+        "DESC2_4": "It supports cognitive functions and strengthens the immune system.",
+        "BTN_MORE": "Learn more",
+        "LIST2": {
+            "LI2_1_TITLE": "Data Protection",
+            "LI2_1_TEXT": "We do not store your data on our servers",
+            "LI2_2_TITLE": "No Sign-Up",
+            "LI2_2_TEXT": "An account is not required for this app",
+            "LI2_3_TITLE": "No Ads",
+            "LI2_3_TEXT": "We don’t have any annoying ads",
+            "LI2_4_TITLE": "Sync with Apple",
+            "LI2_4_TEXT": "Syncs with Apple Health"
+        },
+        "IMG_ALT": "The main cause of anemia accompanied by weakness and fatigue is iron deficiency",
+        "IMG1_ALT": "Data Protection",
+        "IMG2_ALT": "No Sign-Up",
+        "IMG3_ALT": "No Ads",
+        "IMG4_ALT": "Sync with Apple"
     },
     "ENERGY": {
         "HEAD_MAIN": "Energy",
         "ICO_MAIN": "Icon of an app for daily tracking of your energy levels.",
         "SUBHEAD_MAIN": "Daily Challenges with Progress Tracking",
         "TEXT_MAIN": "Take on daily challenges and track your personal progress to achieve your goals. Skipping days leads to mission failure. Earn rewards for achievements, choose difficulty levels, and much more in the 'Energy' app.",
+        "BUTTON_OPEN": "Thrive Naturally",
         "HEAD": "Energy",
         "IMG": "Energy",
         "DWN": "Get the free Emotion app for Apple Watch, iPhone or iPad directly from the Apple App Store.",
@@ -1603,7 +1716,11 @@
             "LI9_TEXT": "Tour guide.",
             "LI10_TEXT": "Fashion and beauty industry."
         },
-        "DESK5_2": "Energetic people should consider their strengths, interests and values when choosing career options. It is important to find a career path that matches their natural qualities, but also leaves room for personal growth and well-being."
+        "DESK5_2": "Energetic people should consider their strengths, interests and values when choosing career options. It is important to find a career path that matches their natural qualities, but also leaves room for personal growth and well-being.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "OPENNESS": {
         "HEAD": "Openness",
@@ -1666,7 +1783,11 @@
         "DESK6_2": "Forget endless questionnaires with their dry \"strongly agree\" scales. Ditch the labels and unlock your authentic openness to experience, and more, in a mere 60 seconds with the Emotion app. This revolutionary tool skips the tedious analysis and plunges straight into the vibrant depths of your subconscious.",
         "DESK6_3": "Intrigued by how open you truly are? Do you crave adventures in learning, brushstrokes of creativity, and handshakes with the unknown? Or do you thrive on predictable rhythms, the logic of numbers, and the comfort of clear-cut rules? Your answer lies in the fascinating world of Openness to Experience! The Emotion app paints a detailed portrait of your inner landscape, revealing your preferences that no other app can offer.",
         "DESK6_4": "High on this scale? You might be a free-spirited explorer, roaming through galleries, devouring knowledge like a starving artist, and befriending strangers like lost puzzle pieces. Low on openness? You could be a grounded traditionalist, finding solace in routines, building castles of logic, and appreciating the beauty of a perfectly balanced spreadsheet.",
-        "DESK6_5": "And guess what? Both are equally awesome! The Emotion app helps you discover your unique openness blend (plus a whole rainbow of other emotional traits) in just 60 seconds. No labels, no judgment, just pure self-discovery to guide you to fulfilling choices and a personalized path to growth."
+        "DESK6_5": "And guess what? Both are equally awesome! The Emotion app helps you discover your unique openness blend (plus a whole rainbow of other emotional traits) in just 60 seconds. No labels, no judgment, just pure self-discovery to guide you to fulfilling choices and a personalized path to growth.",
+
+        "ABOUT_1": "Stress, anxiety, depression?",
+        "ABOUT_2": "Discover the cause of mood swings",
+        "ABOUT_3": "Enhance your well-being with our exclusive techniques"
     },
     "COLOR_TEST": {
         "HEAD1": "Emotion Test",
@@ -1725,7 +1846,9 @@
         "BTN_AGAIN": "Take the test again"
     },
     "FOOTER": {
-        "C": "© 2025 Martspec LLC. All rights reserved.",
+        "C": "© Martspec LLC, 2025.",
+        "R": "All rights reserved.",
+        "P": "Privacy Policy.",
         "APPLE_BTN": {
             "TITLE": "See all martspec applications on our Apple AppStore",
             "ALT": "See all our apps on Martpsec AppStore at Apple"
@@ -1759,14 +1882,16 @@
     "ABOUT": {
         "HEAD": "Our Story",
         "HEAD1": "Mission",
-        "DESC1": "We strive to ensure that everyone can easily and simply monitor their health. Our apps are developed using advanced technologies and are available in multiple languages around the world. Martspec represents trust in technology that empowers people to take care of their health and well-being",
+        "DESC1": "Taking control of your well-being should be effortless. It should be intuitive. It should simply work. For everyone, everywhere. On any device - on your iPhone, your Watch, your iPad.",
+        "DESC2": "That's why we pour our hearts into building apps that combine advanced tech with human-centered design. Simple. Universal. Magical.",
+        "DESC3": "Martspec isn't just a name; it's a promise. A promise of unwavering trust in technology that truly empowers you. Technology designed not to track you, but to free you to live a happier, healthier, more vibrant life.",
         "P1": "We started with a small project inspired by the idea of making digital solutions more accessible and understandable. Since then, we've grown into a team creating apps used by thousands of people every day.",
         "P2": "Explore our apps on the App Store",
         "P3": "Discover how Martspec technologies help you track your health, build habits, and feel better every day",
-        "P4": "Martspec was founded in the spring of 2020. At that time, many people were working from home, and their daily routines changed. As a result, most stopped exercising regularly, which led to significant changes in their bodies and health.",
-        "P5": "Our apps are designed to provide users with tools to develop healthy habits. By tracking their progress, people are reminded every day of their commitment to health, which improves their overall well-being.",
-        "P6": "People who monitor their well-being daily achieve greater progress.",
-        "P7": "Start",
+        "P4": "Founded in spring 2020, Martspec emerged during the shift to remote work that disrupted people's routines. As home offices replaced traditional workspaces and exercise habits declined, many people noticed a drop in their well-being.",
+        "P5": "Recognizing the need for accessible, user-focused solutions, we developed a suite of apps with simple, minimalist design. We never include intrusive ads—our clean interfaces and intuitive tools keep the focus on what matters most to you.",
+        "P6": "Consistent self-monitoring is the catalyst for real transformation—people who track their well-being daily achieve greater progress.",
+        "P7": "The Beginning",
         "CART": {
             "ALT1": "Innovation",
             "ALT2": "Beautiful Products",
@@ -1778,12 +1903,14 @@
             "TEXT2": "We design convenient and stylish apps with thoughtful design so users can easily and enjoyably track their health indicators and build healthy habits",
             "TEXT3": "Together with users, we explore the best ways to effectively track and measure health indicators. Feedback is a crucial tool for creating new apps and improving existing ones"
         },
-        "NOW": {
-            "HEAD1": "Now",
-            "TEXT1": "We believe in the power of ideas that can change the way we look at life. The first idea was to create an app that tracks body weight using wearable devices.",
-            "TEXT2": "We developed the Weight app for Apple Watch. It simplifies weight tracking and automatically records measurements in Apple Health.",
-            "TEXT3": "One of our latest apps, Emotion, helps track mental health and physical condition by offering a quick and simple personality test.",
-            "TEXT4": "Since its launch, this product has received many positive reviews and holds a 5.0 rating.",
+        "OURCORE": {
+            "HEAD1": "Our Core",
+            "TEXT1": "We believe one idea can change everything. Our first idea? A tiny app for Apple Watch that makes tracking your weight effortless — just tap, and it syncs with Apple Health.",
+            "TEXT2": "Simple. Elegant. Instant.",
+            "TEXT3": "It’s not just an idea anymore. It’s on your wrist.",
+            "TEXT4": "And we kept going.",
+            "TEXT5": "Our latest app, Emotion, brings mental wellness into focus—offering a quick, insightful personality test that helps you check in with yourself in seconds.",
+            "TEXT6": "It’s easy, intuitive, and already making an impact.",
             "TEXTBTN": "Learn more"
         },
         "IMG": "Explore our apps on the App Store"
@@ -2231,5 +2358,32 @@
                 }
             }
         }
+    },
+    "VACANCY": {
+        "VACANCY_STATUS": {
+            "OPEN": "The position is open",
+            "CLOSED": "Recruitment is suspended"
+        },
+        "POSITIONS": {
+            "DESIGNER": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "MOBILE_DEVELOPER": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "FRONTEND": {
+                "VACANCY_STATUS": "CLOSED"
+            },
+            "QUALITY_ASSURANCE": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "BUSINESS_ANALYST": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "COPYWRITER": {
+                "VACANCY_STATUS": "OPEN"
+            }
+        }
     }
 }
+

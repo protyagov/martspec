@@ -2,9 +2,8 @@ import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import PageHeader from "@/atomic/molecule/page-header";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import CallToAction from "@/atomic/organism/call-to-action";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import Header from "@/atomic/organism/header";
@@ -203,7 +202,7 @@ export default function Vitamin() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new vitamin">
+            <div className="ms-base-page vitamin">
                 <Header
                     title={_("VITAMIN.HEAD")}
                     appId={appId}
@@ -404,7 +403,7 @@ export default function Vitamin() {
                         subtitle={_("VITAMIN.DESC6")}
                         appId={appId}
                         appDownloadTitle={_("VITAMIN.DWN")}
-                        imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
+                        imgSrc="/img/org/call-to-action/vitamin/Img-CallToAction-en.webp"
                         imgAlt={_("VITAMIN.ALT3")}
                     />
                 </section>

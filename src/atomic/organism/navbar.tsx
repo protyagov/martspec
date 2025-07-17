@@ -51,7 +51,8 @@ const menuItems = [
     { key: "waistline", labelKey: "WAIST.HEAD" },
     { key: "bodyzinc", labelKey: "ZINC.HEAD" },
     { key: "emotion", labelKey: "EMOTION.HEAD" },
-    { key: "electrolyte", labelKey: "ELECTROLYTE.HEAD" }
+    { key: "electrolyte", labelKey: "ELECTROLYTE.HEAD" },
+    { key: "iron", labelKey: "IRON.HEAD" },
 ];
 
 export default function NavigationBar() {
@@ -109,12 +110,7 @@ export default function NavigationBar() {
                                     <a className="nav-link dropdown-item" href={Locale.i18nLink("careers")}>
                                         {_("CAREERS.HEAD")}
                                     </a>
-                                </li>
-                                <li>
-                                    <a className="nav-link dropdown-item" href={Locale.i18nLink("privacy-policy")}>
-                                        {_("PP.HEAD")}
-                                    </a>
-                                </li>
+                                </li>  
                             </ul>
                         </li>
 

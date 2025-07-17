@@ -1,7 +1,11 @@
 @import "@/sass/atom/color.scss";
 
 .ms-navbar {
-    $navbar-height-lg: 75px;
+    $navbar-height-lg: 30px;
+    padding: 40px 0;
+    @include media-breakpoint-down(lg) {
+        padding: 15px 0;
+    }
 
     @extend .navbar;
 
@@ -60,11 +64,6 @@
             height: $navbar-height-lg;
         }
 
-        @include media-breakpoint-down(lg) {
-            img {
-                height: 52px;
-            }
-        }
     }
 
     .navbar-toggler {

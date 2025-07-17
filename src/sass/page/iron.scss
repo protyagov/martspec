@@ -1,0 +1,13 @@
+.iron {
+    .header-content-list{
+        li {
+            &::marker {
+                color: #FE460A;
+            }
+        }
+    }
+}
+
+html[lang="es"] .card-title-text .pe-4{
+    padding-right: 0 !important;
+}

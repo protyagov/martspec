@@ -19,7 +19,9 @@ module.exports = {
         // --------------- Static Content EN ---------------
         new HtmlWebpackPlugin({ template: "./src/template/en/main.ejs", filename: "index.html", inject: "body" }),
         new HtmlWebpackPlugin({ template: "./src/template/en/bodymass.ejs", filename: "bodymass/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/iron.ejs", filename: "iron/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/electrolyte.ejs", filename: "electrolyte/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/magnesium.ejs", filename: "magnesium/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin.ejs", filename: "vitamin/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/waistline.ejs", filename: "waistline/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/bodyzinc.ejs", filename: "bodyzinc/index.html", inject: "body", }),
@@ -73,7 +75,9 @@ module.exports = {
 
         // --------------- Static Content EN Without Slash---------------
         new HtmlWebpackPlugin({ template: "./src/template/en/bodymass.ejs", filename: "bodymass.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/iron.ejs", filename: "iron.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/electrolyte.ejs", filename: "electrolyte.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/magnesium.ejs", filename: "magnesium.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin.ejs", filename: "vitamin.html", inject: "body" }),
         new HtmlWebpackPlugin({ template: "./src/template/en/waistline.ejs", filename: "waistline.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/bodyzinc.ejs", filename: "bodyzinc.html", inject: "body", }),
@@ -148,6 +152,7 @@ module.exports = {
                 { context: "src/img/", from: "*.webp", to: "img" },
                 { context: "src/img/", from: "*.jpg", to: "img" },
                 { context: "src/img/page/zinc/", from: "*", to: "img/page/zinc" },
+                { context: "src/img/page/magnesium/", from: "*", to: "img/page/magnesium" },
                 { context: "src/img/page/productivity/", from: "*", to: "img/page/productivity" },
                 { context: "src/img/page/anxiety/", from: "*", to: "img/page/anxiety" },
                 { context: "src/img/page/harmony/", from: "*", to: "img/page/harmony" },
@@ -178,7 +183,9 @@ module.exports = {
     ].concat(...[...["ar", "de", "en", "es", "fr", "hi", "ja", "pt", "ru", "zh", "uk"].map((x) => [
         new HtmlWebpackPlugin({ template: `./src/template/${x}/main.ejs`, filename: x + "/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodymass.ejs`, filename: x + "/bodymass/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/iron.ejs`, filename: x + "/iron/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/electrolyte.ejs`, filename: x + "/electrolyte/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/magnesium.ejs`, filename: x + "/magnesium/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/vitamin.ejs`, filename: x + "/vitamin/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/waistline.ejs`, filename: x + "/waistline/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodyzinc.ejs`, filename: x + "/bodyzinc/index.html", inject: "body", }),
@@ -233,7 +240,9 @@ module.exports = {
         // Without slash at the end
         new HtmlWebpackPlugin({ template: `./src/template/${x}/main.ejs`, filename: x + ".html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodymass.ejs`, filename: x + "/bodymass.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/iron.ejs`, filename: x + "/iron.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/electrolyte.ejs`, filename: x + "/electrolyte.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/magnesium.ejs`, filename: x + "/magnesium.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/vitamin.ejs`, filename: x + "/vitamin.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/waistline.ejs`, filename: x + "/waistline.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/bodyzinc.ejs`, filename: x + "/bodyzinc.html", inject: "body", }),

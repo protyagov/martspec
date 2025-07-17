@@ -6,7 +6,6 @@
 @import "atom/scroll-button";
 
 @import "molecule/section";
-@import "molecule/page-header";
 @import "molecule/title-text-link-card";
 @import "molecule/card-title-text-button";
 @import "molecule/text-link-arrow";
@@ -16,7 +15,7 @@
 @import "molecule/card-icon-title-text.scss";
 
 
-@import "organism/new-page-header.scss";
+@import "organism/header.scss";
 @import "organism/navigation";
 @import "organism/footer";
 @import "organism/social-bar";
@@ -26,7 +25,6 @@
 @import "prototype/review";
 
 @import "page/base";
-@import "page/base-new";
 @import "page/team";
 @import "page/vitamin";
 @import "page/electrolyte";
@@ -40,4 +38,7 @@
 @import "page/bodyzinc.scss";
 @import "page/bodysize.scss";
 @import "page/about.scss";
+@import "page/magnesium.scss";
+@import "page/iron.scss";
+
 

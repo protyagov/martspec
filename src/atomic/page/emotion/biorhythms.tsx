@@ -3,10 +3,10 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import PageHeader from "@/atomic/molecule/page-header";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
+import Header from "@/atomic/organism/header";
 
 export default function Biorhythms() {
     const appId = getAppId();
@@ -38,15 +38,23 @@ export default function Biorhythms() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion biorhythms">
-                <PageHeader
+                <Header
                     title={_("BIORHYTHMS.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("BIORHYTHMS.DWN")}
-                    imgSrc="/img/biorhythms.png"
+                    imgSrc="/img/page/emotion/bioritms-header-en.webp"
                     imgAlt={_("BIORHYTHMS.IMG")}
-                    imgH={512}
-                    imgW={512}
-                />
+                    imgH={435}
+                    imgW={435}
+                >
+                    <div className="biorhythms-lists">
+                        <ul className="header-content-list">
+                            <li>{_("BIORHYTHMS.ABOUT_1")}</li>
+                            <li>{_("BIORHYTHMS.ABOUT_2")}</li>
+                            <li>{_("BIORHYTHMS.ABOUT_3")}</li>
+                        </ul>
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row">
@@ -61,7 +69,7 @@ export default function Biorhythms() {
                                         href="#firstCollapse"
                                         aria-expanded={!shouldContentCollapse}
                                         aria-controls="firstCollapse"
-                                        className="ms-read-more-btn ms-content-collapse-btn d-lg-none"
+                                        className="ms-read-more-btn-emotion ms-content-collapse-btn d-lg-none"
                                     >
                                         <span>{_("BIORHYTHMS.BTN1")}</span>
                                     </a>
@@ -189,10 +197,10 @@ export default function Biorhythms() {
                                 <div className="mb-6">
                                     <h3>{_("BIORHYTHMS.DESK3_2")}</h3>
                                     <ul className="checkmark-list">
-                                        <li>{_("BIORHYTHMS.LIST3.LI1_TEXT")}</li>
-                                        <li>{_("BIORHYTHMS.LIST3.LI2_TEXT")}</li>
-                                        <li>{_("BIORHYTHMS.LIST3.LI3_TEXT")}</li>
-                                        <li>{_("BIORHYTHMS.LIST3.LI4_TEXT")}</li>
+                                        <li className="li">{_("BIORHYTHMS.LIST3.LI1_TEXT")}</li>
+                                        <li className="li">{_("BIORHYTHMS.LIST3.LI2_TEXT")}</li>
+                                        <li className="li">{_("BIORHYTHMS.LIST3.LI3_TEXT")}</li>
+                                        <li className="li">{_("BIORHYTHMS.LIST3.LI4_TEXT")}</li>
                                     </ul>
                                 </div>
                                 <ImageI18N
@@ -277,9 +285,7 @@ export default function Biorhythms() {
                         imgAlt={_("BIORHYTHMS.ALT5")}
                     />
                 </section>
-
             </div>
-
 
             <Footer />
             <ScrollButton color="#7B62FE" />
