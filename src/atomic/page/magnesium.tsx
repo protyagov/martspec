@@ -13,6 +13,7 @@ import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import CardIconTitleText from "@/atomic/molecule/card-icon-title-text";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
+import Review from "@/atomic/prototype/review";
 
 export default function Magnesium() {
     const appId = getAppId();
@@ -230,6 +231,27 @@ export default function Magnesium() {
                         />
                     </div>
                 </section>
+
+                <Review
+                    appId={appId}
+                    codes={{
+                        countryCode: Locale.countryCode,
+                        languageCode: Locale.language,
+                    }}
+                    text={{
+                        head: _("REVIEW.HEAD"),
+                        description: _("REVIEW.DESCRIPTION"),
+                        link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        fillerCard: {
+                            head: [
+                                _("REVIEW.FILLER_CARD.HEAD1"),
+                                _("REVIEW.FILLER_CARD.HEAD2"),
+                                _("REVIEW.FILLER_CARD.HEAD3"),
+                            ],
+                            link: _("REVIEW.FILLER_CARD.LINK"),
+                        },
+                    }}
+                />
             </div>
             <Footer />
             <ScrollButton />
