@@ -14,6 +14,7 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 import CardIconTitleText from "@/atomic/molecule/card-icon-title-text";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Review from "@/atomic/prototype/review";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 
 export default function Magnesium() {
     const appId = getAppId();
@@ -253,6 +254,17 @@ export default function Magnesium() {
                     }}
                 />
             </div>
+
+            <section>
+                <CallToAction
+                    title="MAGNESIUM.ABOUT_4"
+                    subtitle="MAGNESIUM.ABOUT_5"
+                    appId={1}
+                    appDownloadTitle="Download"
+                    imgSrc="/img/page/magnesium/Img-MG-header-en.webp"
+                    imgAlt={_("ABOUT.IMG")}
+                />
+            </section>
             <Footer />
             <ScrollButton />
         </>
