@@ -25,11 +25,13 @@
       font-size: 20px;
       line-height: 150%;
       opacity: 80%;
+      margin-bottom: 0px !important;
     }
 
     h2 {
       font-size: 30px;
       color: #212529;
+      margin-top: 0px!important;
     }
 
     li {
@@ -40,6 +42,7 @@
     h4 {
       font-size: 30px;
       color: #258DE3;
+      margin-bottom: 0px !important;
     }
   }
     .team-member {
@@ -88,9 +91,9 @@
                 //text-align: right !important;
             }
 
-            a {
-                // float: right;
-                /*position: relative;
+            .a {
+                 float: right;
+                position: relative;
                 top: 68%;
 
                 left: 80%;
@@ -101,7 +104,7 @@
                 align-items: flex-start;
                 gap: 0.75rem;
                 background: #258de3;
-                z-index: 2;*/
+                z-index: 2;
             }
 
             // расположения иконки linkedin в safari
@@ -177,10 +180,10 @@
         border: none;
 }
     .img-card { 
-        //width: 250;
+        //height: 360;
         
         object-fit: cover;
-        width: 100%;
+        width: 100% !important;
         object-position: left !important;
         padding: 0px !important;
         margin: 0;
@@ -189,13 +192,14 @@
 ///////
 .card {
   flex-direction: row;
+  margin-bottom: 0px !important;
 }
 .card-title-big {
   font-weight: bold;
   font-size: 30px;
   color: #212529;
   line-height: 5px;
-  margin-top: 70px!important;
+  padding-bottom: 0px !important;
   margin: 0px;
 }
 }
@@ -204,18 +208,15 @@
   font-size: 30px;
   color: #212529;
   line-height: 5px;
-  margin-top: 10px!important;
+  margin-top: 20px!important;
   margin: 0px;
 }
-.card img {
-  width: 100%;
+.card-img {
+  width: 100% !important;
   
  
 }
 @media only screen and (max-width: 768px) {
-  a {
-    display: none;
-  }
   .card-body {
     padding: 0.5em 1.2em;
   }
@@ -234,6 +235,24 @@
   }
 }
 
+.linkedin-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #258DE3;
+    padding: 6px;
+    transition: transform 0.2s;
+}
 
+.linkedin-icon:hover {
+    transform: scale(1.1);
+}
+
+.linkedin-icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
 

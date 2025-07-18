@@ -15,13 +15,15 @@ export default function Team() {
             <NavigationBar />
 
             <div className="ms-base-page pb-5 ms-team row ms-team-info-section">
-                <Header
+                <section className="mb-1 mt-1">
+                <Header 
                     title={_("TEAM.HEAD")}
                 >
                     <p className="font-normal">{_("TEAM.ABOUT")}</p>
                 </Header>
-                <div className="">
-                        <div className="row justify-content-center ms-team-info-section-h4">
+                </section>
+                <section className="mb-5 mt-1">
+                        <div className="row justify-content-center ms-team-info-section-h4 mb-1">
                             {teamData.slice(0, 2).map((member, index) => (
                                 <TeamMember 
                                 key={`big-${index}`} 
@@ -38,17 +40,18 @@ export default function Team() {
                             ))}
                         </div>
                     
-                </div>
-                <section>
-                    <div className="card-body row d-flex g-4 justify-content-between ">
+                </section>
+                <section className="m-1">
+                    <div className="row d-flex justify-content-between g-4">
                         <div className="col-12 col-xxl-5 order-2 order-xxl-1">
                             <ImageI18N
                                 src="/img/page/team/team_card.svg"
-                                w={720}
-                                h={315}
+                                w={620}
+                                h={360}
+                                cls="ms-base-image mt-mob-xs mb-6"
                             />
                         </div>
-                        <div className="row col-12 col-xxl-6 order-1 order-xxl-2 d-flex justify-content-between g-4">
+                        <div className="col-12 col-xxl-6 order-1 order-xxl-2 ms-team-info-section-h2">
                             <CardTitleTextButton
                                 title={_("TEAM.HEAD1")}
                                 textContent={[_("TEAM.TEXT1_1")]}
