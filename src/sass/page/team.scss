@@ -191,7 +191,6 @@
 
 ///////
 .card {
-  flex-direction: row;
   margin-bottom: 0px !important;
 }
 .card-title-big {
@@ -216,14 +215,31 @@
   
  
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+  .card {
+    flex-direction: column !important;
+    }
+  .col-md-5 {
+    width: 100% !important;
+    height: 417px !important;
+    }
+  .position-absolute.top-0.end-0 {
+    position: relative !important;
+    text-align: right;
+    padding: 1rem 1rem 0 0 !important;
+  }
   .card-body {
-    padding: 0.5em 1.2em;
+    padding: 1rem !important;
   }
   .card-body .card-text {
     margin: 0;
     font-size: 30px;
     color: #258DE3;
+  }
+  .position-absolute.top-0.end-0 {
+    position: relative !important;
+    text-align: right;
+    padding: 0.5rem !important;
   }
   .card img {
     width: 100%;

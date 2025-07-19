@@ -21,26 +21,32 @@ export default function Team() {
                 >
                     <p className="font-normal">{_("TEAM.ABOUT")}</p>
                 </Header>
+
                 </section>
+                
+
                 <section className="mb-5 mt-1">
-                        <div className="row justify-content-center ms-team-info-section-h4 mb-1">
-                            {teamData.slice(0, 2).map((member, index) => (
-                                <TeamMember 
-                                key={`big-${index}`} 
-                                {...member} 
-                                isBig={true} 
-                                />
-                            ))}
-                        </div>
-                        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center ">
-                            {teamData.slice(2).map((member, index) => (
-                                <TeamMember key={`normal-${index}`} 
-                {...member}
-                />
-                            ))}
-                        </div>
-                    
+                <div className="d-none d-md-block">
+                    <div className="row justify-content-center ms-team-info-section-h4 mb-1">
+                    {teamData.slice(0, 2).map((member, index) => (
+                        <TeamMember key={`big-${index}`} {...member} isBig={true} />
+                    ))}
+                    </div>
+                    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
+                    {teamData.slice(2).map((member, index) => (
+                        <TeamMember key={`normal-${index}`} {...member} />
+                    ))}
+                    </div>
+                </div>
+                <div className="d-md-none">
+                    <div className="row row-cols-1 g-4 justify-content-center">
+                    {teamData.map((member, index) => (
+                        <TeamMember key={`mobile-${index}`} {...member} />
+                    ))}
+                    </div>
+                </div>
                 </section>
+
                 <section className="m-1">
                     <div className="row d-flex justify-content-between g-4">
                         <div className="col-12 col-xxl-5 order-2 order-xxl-1">

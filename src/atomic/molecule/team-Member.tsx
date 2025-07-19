@@ -51,25 +51,32 @@ export default function TeamMember(props: TeamMemberProps) {
    
     if (props.isBig) {
             return (
-                <div className="col-12 col-lg-6 mb-4 " style={{ height: '320px' }} >
-                    <div className="card bg-card rounded-5  h-100 w-100">
-                        <div className="col-md-5 g-0 d-flex p-3">
-                            <img style={{ width: '100%', objectFit: 'fill', objectPosition: 'top'}}
-                                src={props.avatar}
-                                onError={(e) => (e.currentTarget.src = "/img/team_placeholder.png")}
-                                alt={_("TEAM." + props.title) + " " + props.name}
-                                className=" img-fluid rounded-5 card-img w-100"
-                                
-                            />
-                        </div>
-                        <div className="col-md-7 d-flex flex-column justify-content-end p-4 position-relative ">
-                            <div className=" position-absolute top-0 end-0 p-3 ">
+                <div className="col-12 col-lg-6 mb-4 "  >
+                    <div className="card bg-card rounded-5 h-100 w-100 overflow-hidden  mb-0" style={{ minHeight: '300px' }}>
+                        <div className="col-md-5 row g-0  mb-0 p-3">
+                            <div className="col-md-5 h-100 p-0">
+                                <img 
+                                    src={props.avatar}
+                                    onError={(e) => (e.currentTarget.src = "/img/team_placeholder.png")}
+                                    alt={_("TEAM." + props.title) + " " + props.name}
+                                    className=" img-fluid rounded-5 card-img w-100 h-100 w-100 object-fit-cover rounded-start-5"
+                                    style={{
+                                objectPosition: 'top left',
+                                minWidth: '320px',
+                                minHeight: '290px'
+                            }}
+                                />
+                            </div>
+                        <div className="col-md-7 d-flex  justify-content-end p-4 position-relative">
+                            <div className=" position-absolute  top-0 end-0 p- ">
                                 <ItemLink />
                             </div>
-                            <h3 className="card-title-big ms-team-info-section-h4  text-lg-start end-0 bottom-0 ">{_("TEAM." + props.name)}</h3>
-                            <h5 className="card-subtitle text-muted  text-lg-start mb-3 end-0 bottom-0 ">{_("TEAM." + props.title)}</h5>
+                            <div className="mt-auto">
+                            <h3 className="card-title-big ms-team-info-section-h4 justify-content-end text-lg-start pr-5">{_("TEAM." + props.name)}</h3>
+                            <h5 className="card-subtitle text-muted justify-content-end text-lg-start mb-3 pr-5">{_("TEAM." + props.title)}</h5>
                             {props.text && <p className="card-text  text-lg-start">{_(props.text)}</p>}
-                            
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
