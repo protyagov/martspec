@@ -120,6 +120,7 @@
                 font-size: 1.6rem;
                 font-weight: 600;
                 margin-top: 1rem;
+                padding-left: 20px;
             }
 
             h5 {
@@ -198,8 +199,14 @@
   font-size: 30px;
   color: #212529;
   line-height: 5px;
-  padding-bottom: 0px !important;
-  margin: 0px;
+  margin-left: 70px;
+  
+}
+
+.card-subtitle-big {
+  
+  margin-left: 70px;
+  
 }
 }
 .card-title {
@@ -212,9 +219,43 @@
 }
 .card-img {
   width: 100% !important;
-  
- 
 }
+@media (max-width: 1399px){
+  .card-title-big, .card-subtitle-big {
+    margin-left: 80px !important;
+  }
+} 
+@media (max-width: 1335px) {
+  .big-card-row .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .row-cols-md-3 > * {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+
+  .big-card-row .col-md-5 {
+    min-width: 220px !important;
+  }
+
+.card-title-big, .card-subtitle-big {
+    margin-left: 0px !important; 
+  }
+}
+
+@media (max-width: 918px){
+  .card-title-big, .card-subtitle-big {
+    margin-left: 20px !important; /* Уменьшенный отступ */
+  }
+}
+
+@media (max-width: 870px){
+  .card-title-big, .card-subtitle-big {
+    margin-left: 60px !important; /* Уменьшенный отступ */
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .card {
     flex-direction: column !important;
@@ -245,11 +286,8 @@
     width: 100%;
   }
 }
-@media only screen and (max-width: 1200px) {
-  .card img {
-    width: 100%;
-  }
-}
+
+
 
 .linkedin-icon {
     display: inline-block;
@@ -272,3 +310,19 @@
 }
 
 
+
+@media (max-width: 813px) {
+    .linkedin-icon {
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .linkedin-icon {
+        width: 40px;
+        height: 40px;
+        padding: 6px;
+    }
+}

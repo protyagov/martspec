@@ -27,7 +27,7 @@ export default function Team() {
 
                 <section className="mb-5 mt-1">
                 <div className="d-none d-md-block">
-                    <div className="row justify-content-center ms-team-info-section-h4 mb-1">
+                    <div className="row justify-content-center ms-team-info-section-h4 mb-1 big-card-row">
                     {teamData.slice(0, 2).map((member, index) => (
                         <TeamMember key={`big-${index}`} {...member} isBig={true} />
                     ))}

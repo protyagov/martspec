@@ -48,13 +48,14 @@ export default function TeamMember(props: TeamMemberProps) {
         return <div ></div>;
     }
 
+    
    
     if (props.isBig) {
             return (
                 <div className="col-12 col-lg-6 mb-4 "  >
                     <div className="card bg-card rounded-5 h-100 w-100 overflow-hidden  mb-0" style={{ minHeight: '300px' }}>
-                        <div className="col-md-5 row g-0  mb-0 p-3">
-                            <div className="col-md-5 h-100 p-0">
+                        <div className="col-md-5 row g-0  mb-0 p-4">
+                            <div className="col-md-5 h-100 p-0" >
                                 <img 
                                     src={props.avatar}
                                     onError={(e) => (e.currentTarget.src = "/img/team_placeholder.png")}
@@ -67,16 +68,16 @@ export default function TeamMember(props: TeamMemberProps) {
                             }}
                                 />
                             </div>
-                        <div className="col-md-7 d-flex  justify-content-end p-4 position-relative">
-                            <div className=" position-absolute  top-0 end-0 p- ">
-                                <ItemLink />
+                            <div className="col-md-7 flex-grow-1 d-flex flex-column p-4 position-relative">
+                                <div className=" position-absolute  top-0 end-0 ">
+                                    <ItemLink />
+                                </div>
+                                <div className="mt-auto  position-static"  style={{ marginLeft: '20px' }}>
+                                <h3 className="card-title-big ms-team-info-section-h4  ">{_("TEAM." + props.name)}</h3>
+                                <h5 className="card-subtitle-big text-muted  ">{_("TEAM." + props.title)}</h5>
+                                {props.text && <p className="card-text  ">{_(props.text)}</p>}
+                                </div>
                             </div>
-                            <div className="mt-auto">
-                            <h3 className="card-title-big ms-team-info-section-h4 justify-content-end text-lg-start pr-5">{_("TEAM." + props.name)}</h3>
-                            <h5 className="card-subtitle text-muted justify-content-end text-lg-start mb-3 pr-5">{_("TEAM." + props.title)}</h5>
-                            {props.text && <p className="card-text  text-lg-start">{_(props.text)}</p>}
-                            </div>
-                        </div>
                         </div>
                     </div>
                 </div>
@@ -86,7 +87,7 @@ export default function TeamMember(props: TeamMemberProps) {
     return (
         <div className="col mb-2">
             <div className="card bg-card rounded-5 h-100 d-flex flex-column " >
-                <div className="p-3 pb-0 " >
+                <div className="p-4 pb-0 " >
                     
                     {/* <a href={_( props.link )} target="_blank"
                 rel="noopener"
