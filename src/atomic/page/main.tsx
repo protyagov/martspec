@@ -254,7 +254,7 @@ export default function LandingPage() {
                             button={{
                                 buttonType: "LinkStyledButton",
                                 text: _("MAGNESIUM.BUTTON_OPEN"),
-                                link: Locale.i18nLink("coming-soon"),
+                                link: Locale.i18nLink("magnesium"),
                                 color: "#E5EEFF",
                                 textColor: "#1686FF",
                             }}
@@ -272,7 +272,7 @@ export default function LandingPage() {
                             button={{
                                 buttonType: "LinkStyledButton",
                                 text: _("CALCIUM.BUTTON_OPEN"),
-                                link: Locale.i18nLink("coming-soon"),
+                                link: Locale.i18nLink("vitamin/calcium"),
                                 color: "#E5EEFF",
                                 textColor: "#1686FF",
                             }}
@@ -290,7 +290,7 @@ export default function LandingPage() {
                             button={{
                                 buttonType: "LinkStyledButton",
                                 text: _("IRON.BUTTON_OPEN"),
-                                link: Locale.i18nLink("coming-soon"),
+                                link: Locale.i18nLink("iron"),
                                 color: "#E5EEFF",
                                 textColor: "#1686FF",
                             }}
@@ -308,7 +308,7 @@ export default function LandingPage() {
                         content={_("ENERGY.TEXT_MAIN")}
                         button={{
                             text: _("ENERGY.BUTTON_OPEN"),
-                            link: Locale.i18nLink("coming-soon"),
+                            link: Locale.i18nLink("emotion/energy"),
                             color: "#E5EEFF",
                             textColor: "#1686FF",
                         }}
