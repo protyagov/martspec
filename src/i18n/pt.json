@@ -1886,24 +1886,10 @@
     },
     "TEAM": {
         "HEAD": "Nossa equipe",
-        "ABOUT": "As pessoas por trás da empresa são tão importantes quanto a própria empresa. Conheça nossa talentosa equipe.",
-        "ENGINEER_MOBILE": "Engenheiro de software móvel",
-        "ENGINEER_WEB": "Engenheiro de Software Web",
-        "DESIGNER_UI_UX": "UI/UX Designer",
-        "ENGINEER_QA": "Engenheiro de QA",
-        "COPYWRITER": "Copywriter",
-        "MARKETER": "Marketter",
-        "ALEX": "Alex",
-        "VICTORIA": "Vitória",
-        "SVETLANA": "Svetlana",
-        "NADEZHDA": "Nadezhda",
-        "DMITRY": "Dmitri",
-        "SERGEY_K": "Serguei",
-        "ELVIRA": "Elvira",
-        "NATALIA": "Natália",
-        "DARIA": "Daria",
-        "ROMAN": "Romão",
-        "VITALY": "Vitalio"
+        "ABOUT": "Somos uma equipe que cria aplicativos modernos de saúde, projetados para uso em relógios, smartphones e tablets. Nossa equipe inclui desenvolvedores iOS, engenheiros QA, designers e engenheiros de software. Juntos, desenvolvemos soluções convenientes, elegantes e confiáveis que ajudam os usuários a melhorar sua qualidade de vida.",
+        "HEAD1": "Junte-se à equipe",
+        "TEXT1_1": "Estamos procurando pessoas talentosas prontas para criar aplicativos inovadores de saúde. Torne-se parte da equipe e ajude-nos a mudar a vida das pessoas para melhor!",
+        "BUTTON": "Escreva para nós"
     },
     "CAREERS": {
         "HEAD": "Carreiras",

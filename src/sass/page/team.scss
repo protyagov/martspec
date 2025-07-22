@@ -1,31 +1,10 @@
 .ms-team {
-    section {
-        /*margin-top: 0;
-        padding-top: 0vmin;*/
-    }
-
-    .members-list {
-        /*padding-top: 3vmin;
-        padding-bottom: 7vmin;
-        row-gap: 4rem;
-        font-size: 20px;*/
-        
-        column-gap: 2%;
-        //max-width: 1400px;
-        //margin: 0 auto;
-    }
-
-    .font-normal {
-    /*margin-bottom: 0rem;*/
-    }
-
   &-info-section {
     p {
       max-width: 906px;
       font-size: 20px;
       line-height: 150%;
       opacity: 80%;
-      margin-bottom: 0px !important;
     }
 
     h2 {
@@ -45,152 +24,61 @@
       margin-bottom: 0px !important;
     }
   }
-    .team-member {
-        // flex: 0 0;
-        // flex-basis: 25%;
-        // align-items: flex-end;
-        /*text-align: left;*/
 
-        .team-members {
-            /*flex: 0 0;
-            flex-basis: 25%;
+  .team-member {
+    .team-members {
 
-            @include media-breakpoint-down(md) {
-                flex-basis: 28%;
-            }
+      .a {
+          float: right;
+          position: relative;
+          top: 68%;
+          left: 80%;
+          width: 2.875rem;
+          height: 2.875rem;
+          display: inline-flex;
+          padding: 0.75rem;
+          align-items: flex-start;
+          gap: 0.75rem;
+          background: #258de3;
+          z-index: 2;
+      }
 
-            @include media-breakpoint-down(md) {
-                flex-basis: 46%;
-            }
+      // расположения иконки linkedin в safari
+      _::-webkit-full-page-media,
+      _:future,
+      :root .safari_only,
+      a {
+          top: 240px;
+      }
 
-            overflow-wrap: break-word;
-            word-wrap: break-word;
-            hyphens: auto;*/
+      h4 {
+          color: #000000;
+          font-size: 1.6rem;
+          font-weight: 600;
+          margin-top: 1rem;
+          padding-left: 20px;
+      }
 
-            // .team-img {
-            //   align-items: flex-end;
-            // }
-            // .team-link {
-            //   position: relative;
-            //   bottom: 54px;
-            //   left: 105px;
-            // .itelLink {}
-            // .itemLink {
-            //   width: 2.875rem;
-            //   height: 2.875rem;
-            // }
-            .itemLink {
-                // float: right;
-                position: relative;
-                top: 68%;
-                color: #258DE3;
-                left: 80%;
-
-                width: 2.875rem;
-                height: 2.875rem;
-                //text-align: right !important;
-            }
-
-            .a {
-                 float: right;
-                position: relative;
-                top: 68%;
-
-                left: 80%;
-                width: 2.875rem;
-                height: 2.875rem;
-                display: inline-flex;
-                padding: 0.75rem;
-                align-items: flex-start;
-                gap: 0.75rem;
-                background: #258de3;
-                z-index: 2;
-            }
-
-            // расположения иконки linkedin в safari
-            _::-webkit-full-page-media,
-            _:future,
-            :root .safari_only,
-            a {
-                top: 240px;
-            }
-
-            h4 {
-                color: #000000;
-                font-size: 1.6rem;
-                font-weight: 600;
-                margin-top: 1rem;
-                padding-left: 20px;
-            }
-
-            h5 {
-                font-family: os3;
-                margin-top: 0.1rem;
-                color: #8a8a8a;
-            }
-
-            img {
-                /*//*aspect-ratio: 16/9 !important;
-                //width: 90%;
-                width: 250px;
-                height: 222px;
-                //top: 1;
-                //max-width: 22.5rem;
-                object-fit: cover;
-                //z-index: -1;*/
-            }
-
-            // .team-text {
-            //   display: none;
-            //   width: 300px;
-            //   height: 20px;
-            // }
-        }
-
-        .text-block {
-            /*width: 300px;
-            height: 1.875rem;
-            font-size: 0.875rem;
-            // border: 1px solid black;
-            overflow: hidden;
-
-            &:hover {
-                cursor: pointer;
-            }*/
-        }
-
-        // .text-block:hover {
-        //   cursor: pointer;
-        // }
-
-        .text-block_active {
-            /*height: auto;*/
-        }
-
-        .team-btn {
-            /*border: none;
-            background: transparent;
-            font-size: 14px;
-            font-weight: bold;
-            text-decoration: underline;
-            text-align: right;*/
-        }
+      h5 {
+          font-family: os3;
+          margin-top: 0.1rem;
+          color: #8a8a8a;
+      }
     }
-    .bg-card {
-        background-color: #F2F7FF;
-        border: none;
-}
-    .img-card { 
-        //height: 360;
-        
-        object-fit: cover;
-        width: 100% !important;
-        object-position: left !important;
-        padding: 0px !important;
-        margin: 0;
-        }
+  }
 
-///////
+.bg-card {
+  background-color: #F2F7FF;
+  border: none;
+}
+.img-card { 
+  object-fit: cover;
+  width: 100% !important;
+  object-position: left !important;
+  padding: 0px !important;
+  margin: 0;
+  }
+
 .card {
   margin-bottom: 0px !important;
 }
@@ -204,7 +92,6 @@
 }
 
 .card-subtitle-big {
-  
   margin-left: 70px;
   
 }
@@ -217,9 +104,8 @@
   margin-top: 20px!important;
   margin: 0px;
 }
-.card-img {
-  width: 100% !important;
-}
+
+
 @media (max-width: 1399px){
   .card-title-big, .card-subtitle-big {
     margin-left: 80px !important;
@@ -243,19 +129,16 @@
     margin-left: 0px !important; 
   }
 }
-
 @media (max-width: 918px){
   .card-title-big, .card-subtitle-big {
-    margin-left: 20px !important; /* Уменьшенный отступ */
+    margin-left: 20px !important;
   }
 }
-
 @media (max-width: 870px){
   .card-title-big, .card-subtitle-big {
-    margin-left: 60px !important; /* Уменьшенный отступ */
+    margin-left: 60px !important;
   }
 }
-
 @media only screen and (max-width: 767px) {
   .card {
     flex-direction: column !important;
@@ -282,12 +165,13 @@
     text-align: right;
     padding: 0.5rem !important;
   }
-  .card img {
-    width: 100%;
+}
+@media (max-width: 855px) {
+  .members-list .col {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 }
-
-
 
 .linkedin-icon {
     display: inline-block;
@@ -309,8 +193,6 @@
     display: block;
 }
 
-
-
 @media (max-width: 813px) {
     .linkedin-icon {
         width: 35px;
@@ -318,7 +200,6 @@
         padding: 5px;
     }
 }
-
 @media (max-width: 767px) {
     .linkedin-icon {
         width: 40px;

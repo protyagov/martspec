@@ -3,13 +3,60 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import TeamMember from "@/atomic/molecule/team-Member";
-import teamData from "@/data/team/team.json";
+
 import ScrollButton from "../atom/scroll-button";
 import Header from "@/atomic/organism/header";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 
-export default function Team() {
+const teamData = [
+    {
+        id: "ALEX"
+    },
+    {
+        id: "SERGEY_K"
+    },
+    {
+        id: "SVETLANA"
+    },
+    {
+        id: "ELVIRA"
+    },
+    {
+        id: "DARIA"
+    },
+    {
+        id: "ROMAN"
+    },
+    {
+        id: "VITALY_V"
+    },
+    {
+        id: "MAKSYM"
+    },
+    {
+        id: "ELINA"
+    },
+    {
+        id: "NATALIIA"
+    },
+    {
+        id: "JOANNA"
+    },
+    {
+        id: "VITALY_G"
+    },
+    {
+        id: "ABEL"
+    },
+    {
+        id: "LEYLI"
+    },
+    {
+        id: "PEDRO"
+    }
+];
+const Team = () => {
     return (
         <>
             <NavigationBar />
@@ -21,18 +68,16 @@ export default function Team() {
                 >
                     <p className="font-normal">{_("TEAM.ABOUT")}</p>
                 </Header>
-
                 </section>
-                
 
                 <section className="mb-5 mt-1">
                 <div className="d-none d-md-block">
-                    <div className="row justify-content-center ms-team-info-section-h4 mb-1 big-card-row">
+                    <div className="row justify-content-center  mb-1 big-card-row">
                     {teamData.slice(0, 2).map((member, index) => (
                         <TeamMember key={`big-${index}`} {...member} isBig={true} />
                     ))}
                     </div>
-                    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
+                    <div className="members-list row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
                     {teamData.slice(2).map((member, index) => (
                         <TeamMember key={`normal-${index}`} {...member} />
                     ))}
@@ -61,18 +106,17 @@ export default function Team() {
                             <CardTitleTextButton
                                 title={_("TEAM.HEAD1")}
                                 textContent={[_("TEAM.TEXT1_1")]}
-                                buttonText={_("CAREERS.BUTTON3")}
-                                buttonLink={Locale.i18nLink(`team`)}
-                                buttonColor="#1686FF"
-                                
+                                buttonText={_("TEAM.BUTTON")}
+                                buttonLink={`mailto:support@martspec.com?subject=Martspec Question&body=I have a question about your products.`}
+                                buttonColor="#1686FF"   
                             />
                         </div>
                     </div>
                 </section>
             </div>
-
             <Footer />
             <ScrollButton />
         </>
     );
 }
+export default Team;
