@@ -1,105 +1,95 @@
 {
   "COUNTRY_CODE": "ru",
   "TEAM": {
-    
-    "POSITIONS": {
-      "ENGINEER_MOBILE": "iOS Разработчик",
-      "ENGINEER_WEB": "Веб-разработчик",
-      "DESIGNER_UI_UX": "UI/UX Дизайнер",
-      "ENGINEER_QA": "QA-инженер",
-      "COPYWRITER": "Копирайтер",
-      "MARKETER": "Маркетолог",
-      "BUSINESS_ANALYST": "Бизнес Аналитик"
-    },
     "MEMBERS": {
       "ALEX": {
         "NAME": "Алекс",
-        "TITLE": "ENGINEER_MOBILE",
+        "TITLE": "iOS Разработчик",
         "AVATAR": "/img/page/team/team_alex.webp",
         "LINK": "https://www.linkedin.com/in/protyagov/"
       },
       "SERGEY_K": {
         "NAME": "Сергей",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "QA-инженер",
         "AVATAR": "/img/page/team/team_sergeyK.webp",
         "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
       },
       "SVETLANA": {
         "NAME": "Светлана",
-        "TITLE": "COPYWRITER",
+        "TITLE": "Копирайтер",
         "AVATAR": "/img/page/team/team_svetlana.webp",
         "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
       },
       "ELVIRA":{
         "NAME": "Эльвира",
-        "TITLE": "DESIGNER_UI_UX",
+        "TITLE": "UI/UX Дизайнер",
         "AVATAR": "/img/page/team/team_elvira.webp",
         "LINK": "www.linkedin.com/in/elviragilfanova"
     },
     "DARIA":{
         "NAME": "Дарья",
-        "TITLE": "DESIGNER_UI_UX",
+        "TITLE": "UI/UX Дизайнер",
         "AVATAR": "/img/page/team/team_daria.webp",
         "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
     },
     "ROMAN":{
         "NAME": "Роман",
-        "TITLE": "DESIGNER_UI_UX",
+        "TITLE": "UI/UX Дизайнер",
         "AVATAR": "/img/page/team/team_roman.webp",
         "LINK": "https://www.linkedin.com/in/roman-grabovsky/",
        "text": ""
     },
     "VITALY_V":{
         "NAME": "Виталий",
-        "TITLE": "ENGINEER_MOBILE",
+        "TITLE": "iOS Разработчик",
         "AVATAR": "/img/page/team/team_vitalyV.webp",
         "LINK": ""
     },
     "MAKSYM":{
         "NAME": "Максим",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "QA-инженер",
         "AVATAR": "/img/page/team/team_maksym.webp",
         "LINK": ""
     },
     "ELINA":{
         "NAME": "Элина",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "QA-инженер",
         "AVATAR": "/img/page/team/team_elina.webp",
         "LINK": "https://www.linkedin.com/in/elina-zubko-633853259/"
     },
     "NATALIIA":{
         "NAME": "Наталья",
-        "TITLE": "ENGINEER_WEB",
+        "TITLE": "Веб-разработчик",
         "AVATAR": "/img/page/team/team_nataliia.webp",
         "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
     },
     "JOANNA":{
         "NAME": "Джоанна",
-        "TITLE": "BUSINESS_ANALYST",
+        "TITLE": "Бизнес Аналитик",
         "AVATAR": "/img/page/team/team_joanna.webp",
         "LINK": "https://www.linkedin.com/in/jingqiao-lei/"
     },
     "VITALY_G":{
         "NAME": "Виталий",
-        "TITLE": "ENGINEER_WEB",
+        "TITLE": "Веб-разработчик",
         "AVATAR": "/img/page/team/team_vitalyG.webp",
         "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
     },
     "ABEL":{
         "NAME": "Абель",
-        "TITLE": "ENGINEER_MOBILE",
+        "TITLE": "iOS Разработчик",
         "AVATAR": "/img/page/team/team_abel.webp",
         "LINK": "https://www.linkedin.com/in/abel-rodriguez-medel-62280918a/"
     },
     "LEYLI":{
         "NAME": "Лейли",
-        "TITLE": "ENGINEER_WEB",
+        "TITLE": "Веб-разработчик",
         "AVATAR": "/img/page/team/team_leyli.webp",
         "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
     },
     "PEDRO":{
         "NAME": "Педро",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "QA-инженер",
         "AVATAR": "/img/page/team/team_pedro.webp",
         "LINK": ""
     }

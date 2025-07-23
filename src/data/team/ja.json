@@ -1,103 +1,94 @@
 {
   "COUNTRY_CODE": "ja",
   "TEAM": {
-    "POSITIONS": {
-      "ENGINEER_MOBILE": "iOS開発者",
-      "ENGINEER_WEB": "ウェブ開発者",
-      "DESIGNER_UI_UX": "UI/UXデザイナー",
-      "ENGINEER_QA": "QAエンジニア",
-      "COPYWRITER": "コピーライター",
-      "MARKETER": "マーケター",
-      "BUSINESS_ANALYST": "ビジネスアナリスト"
-    },
     "MEMBERS": {
       "ALEX": {
         "NAME": "アレックス",
-        "TITLE": "ENGINEER_MOBILE",
+        "TITLE": "iOS開発者",
         "AVATAR": "/img/page/team/team_alex.webp",
         "LINK": "https://www.linkedin.com/in/protyagov/"
       },
       "SERGEY_K": {
         "NAME": "セルゲイ",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "QAエンジニア",
         "AVATAR": "/img/page/team/team_sergeyK.webp",
         "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
       },
       "SVETLANA": {
         "NAME": "スベトラーナ",
-        "TITLE": "COPYWRITER",
+        "TITLE": "コピーライター",
         "AVATAR": "/img/page/team/team_svetlana.webp",
         "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
       },
       "ELVIRA": {
         "NAME": "エルヴィラ",
-        "TITLE": "DESIGNER_UI_UX",
+        "TITLE": "UI/UXデザイナー",
         "AVATAR": "/img/page/team/team_elvira.webp",
         "LINK": "www.linkedin.com/in/elviragilfanova"
       },
       "DARIA": {
         "NAME": "ダリア",
-        "TITLE": "DESIGNER_UI_UX",
+        "TITLE": "UI/UXデザイナー",
         "AVATAR": "/img/page/team/team_daria.webp",
         "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
       },
       "ROMAN": {
         "NAME": "ロマン",
-        "TITLE": "DESIGNER_UI_UX",
+        "TITLE": "UI/UXデザイナー",
         "AVATAR": "/img/page/team/team_roman.webp",
         "LINK": "https://www.linkedin.com/in/roman-grabovsky/"
       },
       "VITALY_V": {
         "NAME": "ヴィタリー",
-        "TITLE": "ENGINEER_MOBILE",
+        "TITLE": "iOS開発者",
         "AVATAR": "/img/page/team/team_vitalyV.webp",
         "LINK": ""
       },
       "MAKSYM": {
         "NAME": "マクシム",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "QAエンジニア",
         "AVATAR": "/img/page/team/team_maksym.webp",
         "LINK": ""
       },
       "ELINA": {
         "NAME": "エリナ",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "QAエンジニア",
         "AVATAR": "/img/page/team/team_elina.webp",
         "LINK": "https://www.linkedin.com/in/elina-zubko-633853259/"
       },
       "NATALIIA": {
         "NAME": "ナタリア",
-        "TITLE": "ENGINEER_WEB",
+        "TITLE": "ウェブ開発者",
         "AVATAR": "/img/page/team/team_nataliia.webp",
         "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
       },
       "JOANNA": {
         "NAME": "ジョアンナ",
-        "TITLE": "BUSINESS_ANALYST",
+        "TITLE": "ビジネスアナリスト",
         "AVATAR": "/img/page/team/team_joanna.webp",
         "LINK": "https://www.linkedin.com/in/jingqiao-lei/"
       },
       "VITALY_G": {
         "NAME": "ヴィタリー",
-        "TITLE": "ENGINEER_WEB",
+        "TITLE": "ウェブ開発者",
         "AVATAR": "/img/page/team/team_vitalyG.webp",
         "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
       },
       "ABEL": {
         "NAME": "アベル",
-        "TITLE": "ENGINEER_MOBILE",
+        "TITLE": "iOS開発者",
         "AVATAR": "/img/page/team/team_abel.webp",
         "LINK": "https://www.linkedin.com/in/abel-rodriguez-medel-62280918a/"
       },
       "LEYLI": {
         "NAME": "レイリ",
-        "TITLE": "ENGINEER_WEB",
+        "TITLE": "ウェブ開発者",
         "AVATAR": "/img/page/team/team_leyli.webp",
         "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
       },
       "PEDRO":{
         "NAME": "ペドロ",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "QAエンジニア",
         "AVATAR": "/img/page/team/team_pedro.webp",
         "LINK": ""
     }

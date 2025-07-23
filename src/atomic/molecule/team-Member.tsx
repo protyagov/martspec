@@ -9,9 +9,7 @@ interface TeamMemberProps {
     // color: "white" | "black";
 }
 interface TeamData {
-    POSITIONS: {
-        [key: string]: string;
-    };
+
     MEMBERS: {
         [key: string]: {
             NAME: string;
@@ -43,7 +41,6 @@ export default function TeamMember(props: TeamMemberProps) {
     
     
     const member = teamData.MEMBERS[props.id];
-    const position = teamData.POSITIONS[member.TITLE];
     const iconSize = props.size || 22;
 
     const svgAttrs = {
@@ -83,7 +80,7 @@ export default function TeamMember(props: TeamMemberProps) {
                                 <img 
                                     src={member.AVATAR}
                                     onError={(e) => (e.currentTarget.src = "/img/team_placeholder.png")}
-                                    alt={`${member.NAME} - ${position}`}
+                                    alt={`${member.NAME} - ${member.TITLE}`}
                                     className="rounded-5 w-100 object-fit-cover"
                                     style={{
                                 objectPosition: 'top left',
@@ -98,7 +95,7 @@ export default function TeamMember(props: TeamMemberProps) {
                                 </div>
                                 <div className="mt-auto position-static" style={{ marginLeft: '20px' }}>
                                 <h3 className="card-title-big ms-team-info-section-h4">{member.NAME}</h3>
-                                <h5 className="card-subtitle-big text-muted">{position}</h5>
+                                <h5 className="card-subtitle-big text-muted">{member.TITLE}</h5>
                                 </div>
                             </div>
                         </div>
@@ -114,13 +111,13 @@ export default function TeamMember(props: TeamMemberProps) {
                     <img
                         src={member.AVATAR}
                         onError={(e) => (e.currentTarget.src = "/img/team_placeholder.png")}
-                        alt={`${member.NAME} - ${position}`}
+                        alt={`${member.NAME} - ${member.TITLE}`}
                         className="img-card rounded-5"
                     />
                 </div>
                 <div className="card-body">
                     <h4 className="card-title text-black"> {member.NAME} </h4>
-                    <h5 className="card-subtitle text-muted pe-4"> {_(position)}
+                    <h5 className="card-subtitle text-muted pe-4"> {_(member.TITLE)}
                         <div className="position-absolute end-0 bottom-0 p-3">
                         <ItemLink />
                         </div>

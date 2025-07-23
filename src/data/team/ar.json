@@ -1,103 +1,94 @@
 {
   "COUNTRY_CODE": "ar",
   "TEAM": {
-    "POSITIONS": {
-      "ENGINEER_MOBILE": "مطور iOS",
-      "ENGINEER_WEB": "مطور ويب",
-      "DESIGNER_UI_UX": "مصمم واجهات المستخدم",
-      "ENGINEER_QA": "مهندس ضمان الجودة",
-      "COPYWRITER": "كاتب محتوى",
-      "MARKETER": "مسوق",
-      "BUSINESS_ANALYST": "محلل أعمال"
-    },
     "MEMBERS": {
       "ALEX": {
         "NAME": "أليكس",
-        "TITLE": "ENGINEER_MOBILE",
+        "TITLE": "مطور iOS",
         "AVATAR": "/img/page/team/team_alex.webp",
         "LINK": "https://www.linkedin.com/in/protyagov/"
       },
       "SERGEY_K": {
         "NAME": "سيرجي",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "مهندس ضمان الجودة",
         "AVATAR": "/img/page/team/team_sergeyK.webp",
         "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
       },
       "SVETLANA": {
         "NAME": "سفيتلانا",
-        "TITLE": "COPYWRITER",
+        "TITLE": "كاتب محتوى",
         "AVATAR": "/img/page/team/team_svetlana.webp",
         "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
       },
       "ELVIRA": {
         "NAME": "إلفيرا",
-        "TITLE": "DESIGNER_UI_UX",
+        "TITLE": "مصمم واجهات المستخدم",
         "AVATAR": "/img/page/team/team_elvira.webp",
         "LINK": "www.linkedin.com/in/elviragilfanova"
       },
       "DARIA": {
         "NAME": "داريا",
-        "TITLE": "DESIGNER_UI_UX",
+        "TITLE": "مصمم واجهات المستخدم",
         "AVATAR": "/img/page/team/team_daria.webp",
         "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
       },
       "ROMAN": {
         "NAME": "رومان",
-        "TITLE": "DESIGNER_UI_UX",
+        "TITLE": "مصمم واجهات المستخدم",
         "AVATAR": "/img/page/team/team_roman.webp",
         "LINK": "https://www.linkedin.com/in/roman-grabovsky/"
       },
       "VITALY_V": {
         "NAME": "فيتالي",
-        "TITLE": "ENGINEER_MOBILE",
+        "TITLE": "مطور iOS",
         "AVATAR": "/img/page/team/team_vitalyV.webp",
         "LINK": ""
       },
       "MAKSYM": {
         "NAME": "ماكسيم",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "مهندس ضمان الجودة",
         "AVATAR": "/img/page/team/team_maksym.webp",
         "LINK": ""
       },
       "ELINA": {
         "NAME": "إلينا",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "مهندس ضمان الجودة",
         "AVATAR": "/img/page/team/team_elina.webp",
         "LINK": "https://www.linkedin.com/in/elina-zubko-633853259/"
       },
       "NATALIIA": {
         "NAME": "ناتاليا",
-        "TITLE": "ENGINEER_WEB",
+        "TITLE": "مطور ويب",
         "AVATAR": "/img/page/team/team_nataliia.webp",
         "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
       },
       "JOANNA": {
         "NAME": "جوانا",
-        "TITLE": "BUSINESS_ANALYST",
+        "TITLE": "محلل أعمال",
         "AVATAR": "/img/page/team/team_joanna.webp",
         "LINK": "https://www.linkedin.com/in/jingqiao-lei/"
       },
       "VITALY_G": {
         "NAME": "فيتالي",
-        "TITLE": "ENGINEER_WEB",
+        "TITLE": "مطور ويب",
         "AVATAR": "/img/page/team/team_vitalyG.webp",
         "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
       },
       "ABEL": {
         "NAME": "هابيل",
-        "TITLE": "ENGINEER_MOBILE",
+        "TITLE": "مطور iOS",
         "AVATAR": "/img/page/team/team_abel.webp",
         "LINK": "https://www.linkedin.com/in/abel-rodriguez-medel-62280918a/"
       },
       "LEYLI": {
         "NAME": "ليلى",
-        "TITLE": "ENGINEER_WEB",
+        "TITLE": "مطور ويب",
         "AVATAR": "/img/page/team/team_leyli.webp",
         "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
       },
     "PEDRO":{
         "NAME": "بيترو",
-        "TITLE": "ENGINEER_QA",
+        "TITLE": "مهندس ضمان الجودة",
         "AVATAR": "/img/page/team/team_pedro.webp",
         "LINK": ""
     }
