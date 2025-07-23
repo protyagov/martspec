@@ -287,8 +287,8 @@
       "levels": [
         "Molecule"
       ],
-      "locStart": 11,
-      "locEnd": 25,
+      "locStart": 17,
+      "locEnd": 26,
       "filePath": "src/stories/molecule/team-member.stories.tsx",
       "namedExport": "TeamMemberStory",
       "meta": {}

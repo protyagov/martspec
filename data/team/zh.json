@@ -1,0 +1,92 @@
+{
+  "ALEX": {
+    "NAME": "亚历克斯",
+    "TITLE": "iOS开发工程师",
+    "AVATAR": "/img/page/team/team_alex.webp",
+    "LINK": "https://www.linkedin.com/in/protyagov/"
+  },
+  "SERGEY_K": {
+    "NAME": "谢尔盖",
+    "TITLE": "质量保证工程师",
+    "AVATAR": "/img/page/team/team_sergeyK.webp",
+    "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
+  },
+  "SVETLANA": {
+    "NAME": "斯韦特兰娜",
+    "TITLE": "文案撰稿人",
+    "AVATAR": "/img/page/team/team_svetlana.webp",
+    "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
+  },
+  "ELVIRA": {
+    "NAME": "埃尔维拉",
+    "TITLE": "UI/UX设计师",
+    "AVATAR": "/img/page/team/team_elvira.webp",
+    "LINK": "www.linkedin.com/in/elviragilfanova"
+  },
+  "DARIA": {
+    "NAME": "达莉娅",
+    "TITLE": "UI/UX设计师",
+    "AVATAR": "/img/page/team/team_daria.webp",
+    "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
+  },
+  "ROMAN": {
+    "NAME": "罗曼",
+    "TITLE": "UI/UX设计师",
+    "AVATAR": "/img/page/team/team_roman.webp",
+    "LINK": "https://www.linkedin.com/in/roman-grabovsky/"
+  },
+  "VITALY_V": {
+    "NAME": "维塔利",
+    "TITLE": "iOS开发工程师",
+    "AVATAR": "/img/page/team/team_vitalyV.webp",
+    "LINK": ""
+  },
+  "MAKSYM": {
+    "NAME": "马克西姆",
+    "TITLE": "质量保证工程师",
+    "AVATAR": "/img/page/team/team_maksym.webp",
+    "LINK": ""
+  },
+  "ELINA": {
+    "NAME": "艾琳娜",
+    "TITLE": "质量保证工程师",
+    "AVATAR": "/img/page/team/team_elina.webp",
+    "LINK": "https://www.linkedin.com/in/elina-zubko-633853259/"
+  },
+  "NATALIIA": {
+    "NAME": "娜塔莉娅",
+    "TITLE": "网页开发工程师",
+    "AVATAR": "/img/page/team/team_nataliia.webp",
+    "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
+  },
+  "JOANNA": {
+    "NAME": "乔安娜",
+    "TITLE": "业务分析师",
+    "AVATAR": "/img/page/team/team_joanna.webp",
+    "LINK": "https://www.linkedin.com/in/jingqiao-lei/"
+  },
+  "VITALY_G": {
+    "NAME": "维塔利",
+    "TITLE": "网页开发工程师",
+    "AVATAR": "/img/page/team/team_vitalyG.webp",
+    "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
+  },
+  "ABEL": {
+    "NAME": "阿贝尔",
+    "TITLE": "iOS开发工程师",
+    "AVATAR": "/img/page/team/team_abel.webp",
+    "LINK": "https://www.linkedin.com/in/abel-rodriguez-medel-62280918a/"
+  },
+  "LEYLI": {
+    "NAME": "莱莉",
+    "TITLE": "网页开发工程师",
+    "AVATAR": "/img/page/team/team_leyli.webp",
+    "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
+  },
+  "PEDRO":{
+    "NAME": "佩德罗",
+    "TITLE": "质量保证工程师",
+    "AVATAR": "/img/page/team/team_pedro.webp",
+    "LINK": ""
+}
+}
