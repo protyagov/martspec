@@ -272,7 +272,7 @@ export default function LandingPage() {
                             button={{
                                 buttonType: "LinkStyledButton",
                                 text: _("CALCIUM.BUTTON_OPEN"),
-                                link: Locale.i18nLink("vitamin/calcium"),
+                                link: Locale.i18nLink("coming-soon"),
                                 color: "#E5EEFF",
                                 textColor: "#1686FF",
                             }}
