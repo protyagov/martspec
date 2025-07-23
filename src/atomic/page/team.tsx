@@ -8,54 +8,29 @@ import Header from "@/atomic/organism/header";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 
-const teamData = [
-    {
-        id: "ALEX"
-    },
-    {
-        id: "SERGEY_K"
-    },
-    {
-        id: "SVETLANA"
-    },
-    {
-        id: "ELVIRA"
-    },
-    {
-        id: "DARIA"
-    },
-    {
-        id: "ROMAN"
-    },
-    {
-        id: "VITALY_V"
-    },
-    {
-        id: "MAKSYM"
-    },
-    {
-        id: "ELINA"
-    },
-    {
-        id: "NATALIIA"
-    },
-    {
-        id: "JOANNA"
-    },
-    {
-        id: "VITALY_G"
-    },
-    {
-        id: "ABEL"
-    },
-    {
-        id: "LEYLI"
-    },
-    {
-        id: "PEDRO"
-    }
-];
-const Team = () => {
+interface TeamMembers {
+  [key: string]: {
+    NAME: string;
+    TITLE: string;
+    AVATAR: string;
+    LINK: string;
+  };
+}
+
+export default function Team() {
+    const [teamMembers, setTeamMembers] = React.useState<TeamMembers | null>(null);
+
+    React.useEffect(() => {
+    const fetchTeamData = async () => {
+        const response = await fetch(`/data/team/${Locale.language}.json`);
+        const data = await response.json();
+        setTeamMembers(data);
+    };
+    fetchTeamData();
+    },[Locale.language])
+
+    const memberIds = Object.keys(teamMembers || {});
+
     return (
         <>
             <NavigationBar />
@@ -72,20 +47,20 @@ const Team = () => {
                 <section className="mb-5 mt-1">
                 <div className="d-none d-md-block">
                     <div className="row justify-content-center  mb-1 big-card-row">
-                    {teamData.slice(0, 2).map((member, index) => (
-                        <TeamMember key={`big-${index}`} {...member} isBig={true} />
+                    {memberIds.slice(0, 2).map((memberId) => (
+                        <TeamMember key={`wide-${memberId}`} member={teamMembers![memberId]} isWide={true} />
                     ))}
                     </div>
                     <div className="members-list row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
-                    {teamData.slice(2).map((member, index) => (
-                        <TeamMember key={`normal-${index}`} {...member} />
+                    {memberIds.slice(2).map((memberId) => (
+                        <TeamMember key={`normal-${memberId}`} member={teamMembers![memberId]} />
                     ))}
                     </div>
                 </div>
                 <div className="d-md-none">
                     <div className="row row-cols-1 g-4 justify-content-center">
-                    {teamData.map((member, index) => (
-                        <TeamMember key={`mobile-${index}`} {...member} />
+                    {memberIds.map((memberId) => (
+                        <TeamMember key={`mobile-${memberId}`} member={teamMembers![memberId]} />
                     ))}
                     </div>
                 </div>
@@ -118,4 +93,3 @@ const Team = () => {
         </>
     );
 }
-export default Team;
