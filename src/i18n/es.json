@@ -1558,6 +1558,8 @@
         "ABOUT_1": "Un rastreador de magnesio cómodo y fácil de usar para Apple Watch",
         "ABOUT_2": "Copias de seguridad automáticas en iCloud",
         "ABOUT_3": "Integración completa con Apple Health",
+        "ABOUT_4": "Nuestra aplicación está disponible para cualquier dispositivo Apple Watch",
+        "ABOUT_5": "Descarga la aplicación ahora y empieza a controlar tus minerales esenciales",
         "LIST1": {
             "LI1_HEAD": "Algoritmo de cálculo y adaptación",
             "LI2_HEAD": "Todas las funciones útiles",
@@ -1930,25 +1932,10 @@
     },
     "TEAM": {
         "HEAD": "Equipo",
-        "ABOUT": "Las personas detrás de la empresa son tan importantes como la propia empresa. Conozca a nuestro talentoso equipo.",
-        "ENGINEER_MOBILE": "Ingeniero de software móvil",
-        "ENGINEER_WEB": "Ingeniero de software web",
-        "DESIGNER_UI_UX": "Diseñador de UI / UX",
-        "ENGINEER_QA": "Ingeniero de control de calidad",
-        "COPYWRITER": "Copywriter",
-        "MARKETER": "Comercializadora",
-        "ALEX": "Alex",
-        "VICTORIA": "Victoria",
-        "DIAS": "Días",
-        "SVETLANA": "Svetlana",
-        "NADEZHDA": "Nadezhda",
-        "DMITRY": "Dmitri",
-        "SERGEY_K": "Serguéi",
-        "ELVIRA": "Elvira",
-        "NATALIA": "Natalia",
-        "DARIA": "Daria",
-        "ROMAN": "Román",
-        "VITALY": "Vitalio"
+        "ABOUT": "Somos un equipo que crea aplicaciones modernas para la salud, diseñadas para su uso en relojes, smartphones y tablets. Nuestro equipo incluye desarrolladores iOS, ingenieros QA, diseñadores e ingenieros de software. Juntos desarrollamos soluciones convenientes, elegantes y confiables que ayudan a los usuarios a mejorar su calidad de vida.",
+        "HEAD1": "Únete al equipo",
+        "TEXT1_1": "Buscamos personas talentosas dispuestas a crear aplicaciones innovadoras para la salud. ¡Conviértete en parte del equipo y ayúdanos a cambiar la vida de las personas para mejor!",
+        "BUTTON": "Escríbenos"
     },
     "CAREERS": {
         "HEAD": "Carreras",

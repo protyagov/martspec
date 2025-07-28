@@ -174,6 +174,7 @@ module.exports = {
                 { context: "src/img/icon/", from: "*", to: "icon" },
                 { from: "src/img/atom/", to: "img/atom" },
                 { context: "src/data/", from: "*.json", to: "data" },
+                {context: "src/data/team/", from: "*.json", to: "data/team" },
             ],
             options: {
                 concurrency: 100,

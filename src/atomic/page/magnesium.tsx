@@ -15,6 +15,8 @@ import CardIconTitleText from "@/atomic/molecule/card-icon-title-text";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
+import Review from "@/atomic/prototype/review";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 
 export default function Magnesium() {
 const iconTitleTextListItems: Array<IconTitleText> = [
@@ -102,8 +104,8 @@ const iconTitleTextListItems: Array<IconTitleText> = [
                     </div>
                 </Header>
                 <section>
-                    <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
-                        <div className="col">
+                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                        <div className="col col-md-4">
                             <CardTitleTextImage
                                 title={_("MAGNESIUM.LIST1.LI1_HEAD")}
                                 text={_("MAGNESIUM.LIST1.LI1_TEXT")}
@@ -113,7 +115,7 @@ const iconTitleTextListItems: Array<IconTitleText> = [
                                 imgAlt={_("MAGNESIUM.LI1_IMG_ALT")}
                             />
                         </div>
-                        <div className="col p-0">
+                        <div className="col col-md-4 p-0">
                             <div className="row row-cols-1 h-100 p-0">
                                 <div className="col py-0">
                                     <CardTitleText
@@ -278,7 +280,39 @@ const iconTitleTextListItems: Array<IconTitleText> = [
                         </div>
                     </div>
                 </section>
+
+                <Review
+                    appId={appId}
+                    codes={{
+                        countryCode: Locale.countryCode,
+                        languageCode: Locale.language,
+                    }}
+                    text={{
+                        head: _("REVIEW.HEAD"),
+                        description: _("REVIEW.DESCRIPTION"),
+                        link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        fillerCard: {
+                            head: [
+                                _("REVIEW.FILLER_CARD.HEAD1"),
+                                _("REVIEW.FILLER_CARD.HEAD2"),
+                                _("REVIEW.FILLER_CARD.HEAD3"),
+                            ],
+                            link: _("REVIEW.FILLER_CARD.LINK"),
+                        },
+                    }}
+                />
             </div>
+
+            <section>
+                <CallToAction
+                    title="MAGNESIUM.ABOUT_4"
+                    subtitle="MAGNESIUM.ABOUT_5"
+                    appId={1}
+                    appDownloadTitle="Download"
+                    imgSrc="/img/page/magnesium/Img-MG-header-en.webp"
+                    imgAlt={_("ABOUT.IMG")}
+                />
+            </section>
             <Footer />
             <ScrollButton />
         </>
