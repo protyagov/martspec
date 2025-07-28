@@ -78,8 +78,8 @@ export default function Iron() {
                 </Header>
 
                 <section>
-                    <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
-                        <div className="col">
+                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                        <div className="col col-md-4">
                             <CardTitleTextImage
                                 title={_("IRON.LIST1.LI1_HEAD")}
                                 text={_("IRON.LIST1.LI1_TEXT")}
@@ -90,7 +90,7 @@ export default function Iron() {
                                 imgPosition="default"
                             />
                         </div>
-                        <div className="col p-0">
+                        <div className="col col-md-4 p-0">
                             <div className="row row-cols-1 h-100 p-0">
                                 <div className="col py-0">
                                     <CardTitleText
@@ -136,7 +136,12 @@ export default function Iron() {
                         <div className="col-12 offset-xxl-1 col-xxl-5 order-1 order-xxl-2">
                             <CardTitleTextButton
                                 title={_("IRON.HEAD2")}
-                                textContent={[_("IRON.DESC2_1"), _("IRON.DESC2_2"), _("IRON.DESC2_3"), _("IRON.DESC2_4")]}
+                                textContent={[
+                                    _("IRON.DESC2_1"),
+                                    _("IRON.DESC2_2"),
+                                    _("IRON.DESC2_3"),
+                                    _("IRON.DESC2_4"),
+                                ]}
                                 buttonText={_("IRON.BTN_MORE")}
                                 buttonLink={Locale.i18nLink(`coming-soon`)}
                                 buttonColor="#FE460A"
@@ -187,7 +192,6 @@ export default function Iron() {
                         imgAlt={_("ABOUT.IMG")}
                     />
                 </section>
-
             </div>
 
             <Footer />
