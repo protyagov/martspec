@@ -1,0 +1,24 @@
+{
+    "header": {
+        "title": "str",
+        "imgUrl": "str", 
+        "body" : "str", 
+        "appId": "str"
+    },
+    "body": [ 
+        { 
+            "title": "str", 
+            "imgUrl": "str", 
+            "content": "str", 
+            "accentColor": "str", 
+            "bgColor": "str" 
+
+        }
+    ],
+    "callToAction": {
+        "title": "str",
+        "subtitle": "str",
+        "imgUrl": "str", 
+        "appId": "str"
+    }
+}
