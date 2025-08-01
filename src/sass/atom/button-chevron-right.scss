@@ -1,6 +1,7 @@
 @import "@/sass/atom/color";
 
 .btn-chevron-right {
+   margin-top:auto;
   .learn-more {
     position: relative;
     display: inline-block;
@@ -8,7 +9,7 @@
     outline: none;
     border: 0;
     background: transparent;
-    width: 19.6rem;
+    width: 22rem;
     height: auto;
 
     .circle {
@@ -83,6 +84,10 @@
       .button-text {
         color: $ms-color-bg-secondary;
       }
+    }
+    &.-light {
+    display: flex;
+    justify-content: center;
     }
   }
 }
