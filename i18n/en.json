@@ -1059,6 +1059,16 @@
         "CALL_TO_ACTION": {
             "HEAD": "Take Control of Your Body Mindfully",
             "DESC": "Personalize your progress tracking and achieve your goals with customizable measurements. Make your journey toward ideal health and fitness more mindful, accurate, and tailored to you"
+        },
+            "LIST1": {
+            "LI1_HEAD": "Body shape",
+            "DESC1": "Weight may remain unchanged while simultaneously building muscle and losing fat. That's why your body shape better reflects health.",
+            "LI2_HEAD": "Body type",
+            "DESC2": "Understanding your body type can help find the most effective workout and improve health",
+            "LI3_HEAD": "Adonis Index",
+            "DESC3": "The Adonis Index is based on the shoulder-to-waist ratio associated with the golden ratio (1.61). It's key to human perception of beauty and attractiveness",
+            "LI4_HEAD": "Somatotype",
+            "DESC4": "Somatotype is the hereditary development program of bone, fat and muscle tissue, as well as the speed and level of metabolism in the body"
         }
     },
     "EMOTION": {
