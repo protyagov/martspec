@@ -8,6 +8,10 @@ import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
 import Header from "@/atomic/organism/header";
+import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
+import CardTitleText from "@/atomic/molecule/card-title-text";
+import CardImage from "@/atomic/molecule/card-image";
+
 
 export default function BodySize() {
     const appId = getAppId();
@@ -34,12 +38,51 @@ export default function BodySize() {
                         </ul>
                     </div>
                 </Header>
+                <section>
+                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                        <div className="col col-md-4">
+                            <CardTitleTextImage
+                                title={_("SIZE.LIST1.LI1_HEAD")}
+                                text={_("SIZE.LIST1.DESC1")}
+                                imgSrc="/img/page/body-size/section-left-en.webp"
+                                imgH={1000}
+                                imgW={2000}
+                            />
+                        </div>
+                        <div className="col col-md-4 p-0">
+                            <div className="row row-cols-1 h-100 p-0">
+                                <div className="col py-0">
+                                    <CardTitleText
+                                        title={_("SIZE.LIST1.LI2_HEAD")}
+                                        text={_("SIZE.LIST1.DESC2")}
+                                        bgColor="#E5F4D9"
+                                    />
+                                </div>
+                                <div className="col py-0 mt-4">
+                                    <CardTitleText
+                                        title={_("SIZE.LIST1.LI3_HEAD")}
+                                        text={_("SIZE.LIST1.DESC3")}
+                                        bgColor="#FFECDB"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col col-md-4" >
+                            <CardTitleTextImage
+                                title={_("SIZE.LIST1.LI4_HEAD")}
+                                text={_("SIZE.LIST1.DESC4")}
+                                imgSrc="/img/page/body-size/section-right.webp"
+                                imgH={270}
+                                imgW={300}
+                                bgColor="#F4F5F8"
+                                
+                            />
+                        </div>
+                    </div>
+                </section>
 
                 {/* Body compostion */}
-                <section className="row">
-                    <h4>{_("SIZE.HEAD1")}</h4>
-                    <p className="mt-3">{_("SIZE.DESC1")}</p>
-                </section>
+                
 
                 <ImageI18N
                     src="/img/page/body-size/size-middle-en.webp"

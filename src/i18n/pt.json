@@ -1061,6 +1061,16 @@
         "CALL_TO_ACTION": {
             "HEAD": "Assuma o Controle do seu Corpo com Consciência",
             "DESC": "Personalize o acompanhamento do seu progresso e alcance seus objetivos com medições sob medida. Torne sua jornada rumo à saúde e ao condicionamento físico ideal mais consciente, precisa e feita especialmente para você"
+        },
+            "LIST1": {
+            "LI1_HEAD": "Forma do corpo",
+            "DESC1": "O peso pode permanecer inalterado enquanto ganha massa muscular e perde gordura. Por isso a forma do seu corpo reflete melhor a saúde.",
+            "LI2_HEAD": "Tipo corporal",
+            "DESC2": "Entender seu tipo corporal pode ajudar a encontrar o treino mais eficaz e melhorar a saúde",
+            "LI3_HEAD": "Índice de Adônis",
+            "DESC3": "O Índice de Adônis é baseado na proporção ombro-cintura associada à razão áurea (1.61). É chave para a percepção humana de beleza e atratividade",
+            "LI4_HEAD": "Somatótipo",
+            "DESC4": "Somatótipo é o programa hereditário de desenvolvimento de tecido ósseo, adiposo e muscular, bem como a velocidade e nível de metabolismo no corpo"
         }
     },
     "EMOTION": {
