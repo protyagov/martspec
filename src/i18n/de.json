@@ -1059,6 +1059,16 @@
         "CALL_TO_ACTION": {
             "HEAD": "Übernehmen Sie bewusst die Kontrolle über Ihren Körper",
             "DESC": "Personalisieren Sie Ihre Fortschrittsverfolgung und erreichen Sie Ihre Ziele mit anpassbaren Messungen. Gestalten Sie Ihren Weg zu optimaler Gesundheit und Fitness bewusster, präziser und individueller"
+        },
+            "LIST1": {
+            "LI1_HEAD": "Körperform",
+            "DESC1": "Das Gewicht kann unverändert bleiben, während gleichzeitig Muskeln aufgebaut und Fett abgebaut werden. Deshalb spiegelt Ihre Körperform die Gesundheit besser wider.",
+            "LI2_HEAD": "Körpertyp",
+            "DESC2": "Das Verständnis Ihres Körpertyps kann helfen, das effektivste Training zu finden und die Gesundheit zu verbessern",
+            "LI3_HEAD": "Adonis-Index",
+            "DESC3": "Der Adonis-Index basiert auf dem Schulter-Taillen-Verhältnis, das mit dem goldenen Schnitt (1,61) verbunden ist. Er ist entscheidend für die menschliche Wahrnehmung von Schönheit und Attraktivität",
+            "LI4_HEAD": "Somatotyp",
+            "DESC4": "Somatotyp ist das erbliche Entwicklungsprogramm von Knochen-, Fett- und Muskelgewebe sowie die Geschwindigkeit und das Niveau des Stoffwechsels im Körper"
         }
     },
     "EMOTION": {

@@ -1057,6 +1057,16 @@
         "CALL_TO_ACTION": {
             "HEAD": "Toma Control de tu Cuerpo de Forma Consciente",
             "DESC": "Personaliza el seguimiento de tu progreso y alcanza tus metas con mediciones adaptadas a ti. Haz que tu camino hacia la salud y forma física ideal sea más consciente, preciso y diseñado para ti"
+        },
+            "LIST1": {
+            "LI1_HEAD": "Forma corporal",
+            "DESC1": "El peso puede permanecer igual mientras se gana músculo y se pierde grasa. Por eso la forma de tu cuerpo refleja mejor la salud.",
+            "LI2_HEAD": "Tipo de cuerpo",
+            "DESC2": "Comprender tu tipo de cuerpo puede ayudar a encontrar el entrenamiento más efectivo y mejorar la salud",
+            "LI3_HEAD": "Índice de Adonis",
+            "DESC3": "El Índice de Adonis se basa en la proporción hombros-cintura asociada con la proporción áurea (1.61). Es clave para la percepción humana de belleza y atractivo",
+            "LI4_HEAD": "Somatotipo",
+            "DESC4": "El somatotipo es el programa hereditario de desarrollo de tejido óseo, graso y muscular, así como la velocidad y nivel de metabolismo en el cuerpo"
         }
     },
     "EMOTION": {
