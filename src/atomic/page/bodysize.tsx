@@ -11,6 +11,7 @@ import Header from "@/atomic/organism/header";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardImage from "@/atomic/molecule/card-image";
+import BulletList from "@/atomic/molecule/bullet-list";
 
 
 export default function BodySize() {
@@ -81,6 +82,53 @@ export default function BodySize() {
                     </div>
                 </section>
 
+                <section>
+                    <div className="row">
+                        <div className="col-lg-6 how-head mt-4">
+                            <h2>{_("SIZE.HEAD2")}</h2>
+                            <p>{_("SIZE.DESC2_1")}</p>
+                            <ImageI18N
+                                src="/img/page/body-size/img-howitworks-en.webp"
+                                w={729}
+                                h={675}
+                                cls="ms-base-image d-none d-lg-block"
+                            />
+                        </div>
+                        <div className="col-lg-6 how-head">
+                            <h3>{_("SIZE.SUBHEAD2_1")}</h3>
+                            <ul className="d-flex gap-4 how-list">
+                                <li className="bg-green">{_("SIZE.LIST.LI1_TEXT")}</li>
+                                <li className="bg-pink">{_("SIZE.LIST.LI2_TEXT")}</li>
+                                <li className="bg-violet">{_("SIZE.LIST.LI3_TEXT")}</li>
+                                <li className="bg-orange">{_("SIZE.LIST.LI4_TEXT")}</li>
+                                <li className="bg-blue">{_("SIZE.LIST.LI5_TEXT")}</li>
+                            </ul>
+                            <p className="mt-4">{_("SIZE.DESC2_2")}</p>
+                            
+                            <ImageI18N
+                            
+                                src="/img/page/body-size/img-howitworks-en.webp"
+                                w={487}
+                                h={515}
+                                cls="ms-base-image d-block d-lg-none mb-mob-xs"
+                            />
+                            <h3>{_("SIZE.SUBHEAD2_2")}</h3>
+                            <BulletList
+                                items={[
+                                    _("SIZE.LIST2.LI1_TEXT"),
+                                    _("SIZE.LIST2.LI2_TEXT"),
+                                    _("SIZE.LIST2.LI3_TEXT"),
+                                    _("SIZE.LIST2.LI4_TEXT"),
+                                    _("SIZE.LIST2.LI5_TEXT"),
+                                    _("SIZE.LIST2.LI6_TEXT"),
+                                ]}
+                                iconColor="#FD7E14"
+                                className="bullet-list"
+                            />
+                        </div>
+                    </div>
+                </section>
+                
                 {/* Body compostion */}
                 
 
