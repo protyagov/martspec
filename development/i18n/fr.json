@@ -1086,7 +1086,22 @@
             "DESC3": "L'indice d'Adonis est basé sur le rapport épaule/taille associé au nombre d'or (1,61). C'est la clé de la perception humaine de la beauté et de l'attractivité",
             "LI4_HEAD": "Somatotype",
             "DESC4": "Le somatotype est le programme de développement héréditaire des tissus osseux, adipeux et musculaires, ainsi que la vitesse et le niveau de métabolisme dans le corps"
-        }
+        },
+        "HEAD6": "Nos avantages",
+        "LIST3": {
+            "LI3_1_TITLE": "Protection des données",
+            "LI3_1_TEXT": "Nous ne stockons pas vos données sur nos serveurs",
+            "LI3_2_TITLE": "Pas d'inscription",
+            "LI3_2_TEXT": "Aucun compte n'est requis pour cette application",
+            "LI3_3_TITLE": "Pas de publicités",
+            "LI3_3_TEXT": "Nous n'avons pas de publicités ennuyeuses",
+            "LI3_4_TITLE": "Synchronisation",
+            "LI3_4_TEXT": "Les données sont automatiquement transférées vers tous les appareils"
+        },
+        "IMG1_ALT": "Protection des données",
+        "IMG2_ALT": "Pas d'inscription",
+        "IMG3_ALT": "Pas de publicités",
+        "IMG4_ALT": "Synchronisation automatique"
     },
     "EMOTION": {
         "HEAD": "Émotion",

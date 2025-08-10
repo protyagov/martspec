@@ -1086,7 +1086,22 @@
             "DESC3": "El Índice de Adonis se basa en la proporción hombros-cintura asociada con la proporción áurea (1.61). Es clave para la percepción humana de belleza y atractivo",
             "LI4_HEAD": "Somatotipo",
             "DESC4": "El somatotipo es el programa hereditario de desarrollo de tejido óseo, graso y muscular, así como la velocidad y nivel de metabolismo en el cuerpo"
-        }
+        },
+        "HEAD6": "Nuestras ventajas",
+        "LIST3": {
+            "LI3_1_TITLE": "Protección de datos",
+            "LI3_1_TEXT": "No almacenamos tus datos en nuestros servidores",
+            "LI3_2_TITLE": "Sin registro",
+            "LI3_2_TEXT": "No se requiere una cuenta para esta aplicación",
+            "LI3_3_TITLE": "Sin anuncios",
+            "LI3_3_TEXT": "No tenemos anuncios molestos",
+            "LI3_4_TITLE": "Sincronización",
+            "LI3_4_TEXT": "Los datos se transfieren automáticamente a todos los dispositivos"
+        },
+        "IMG1_ALT": "Protección de datos",
+        "IMG2_ALT": "Sin registro",
+        "IMG3_ALT": "Sin anuncios",
+        "IMG4_ALT": "Sincronización automática"
     },
     "EMOTION": {
         "HEAD": "Emoción",

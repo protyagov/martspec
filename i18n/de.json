@@ -1088,7 +1088,22 @@
             "DESC3": "Der Adonis-Index basiert auf dem Schulter-Taillen-Verhältnis, das mit dem goldenen Schnitt (1,61) verbunden ist. Er ist entscheidend für die menschliche Wahrnehmung von Schönheit und Attraktivität",
             "LI4_HEAD": "Somatotyp",
             "DESC4": "Somatotyp ist das erbliche Entwicklungsprogramm von Knochen-, Fett- und Muskelgewebe sowie die Geschwindigkeit und das Niveau des Stoffwechsels im Körper"
-        }
+        },
+        "HEAD6": "Unsere Vorteile",
+        "LIST3": {
+            "LI3_1_TITLE": "Datenschutz",
+            "LI3_1_TEXT": "Wir speichern Ihre Daten nicht auf unseren Servern",
+            "LI3_2_TITLE": "Keine Anmeldung",
+            "LI3_2_TEXT": "Für diese App ist kein Konto erforderlich",
+            "LI3_3_TITLE": "Keine Werbung",
+            "LI3_3_TEXT": "Wir haben keine lästigen Anzeigen",
+            "LI3_4_TITLE": "Synchronisierung",
+            "LI3_4_TEXT": "Daten werden automatisch auf alle Geräte übertragen"
+        },
+        "IMG1_ALT": "Datenschutz",
+        "IMG2_ALT": "Keine Anmeldung",
+        "IMG3_ALT": "Keine Werbung",
+        "IMG4_ALT": "Automatische Synchronisierung"
     },
     "EMOTION": {
         "HEAD": "Emotion",
