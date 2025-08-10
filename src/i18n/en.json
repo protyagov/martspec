@@ -1088,7 +1088,22 @@
             "DESC3": "The Adonis Index is based on the shoulder-to-waist ratio associated with the golden ratio (1.61). It's key to human perception of beauty and attractiveness",
             "LI4_HEAD": "Somatotype",
             "DESC4": "Somatotype is the hereditary development program of bone, fat and muscle tissue, as well as the speed and level of metabolism in the body"
-        }
+        },
+        "HEAD6": "Our Advantages",
+        "LIST3": {
+            "LI3_1_TITLE": "Data Protection",
+            "LI3_1_TEXT": "We do not store your data on our servers",
+            "LI3_2_TITLE": "No Sign-Up",
+            "LI3_2_TEXT": "An account is not required for this app",
+            "LI3_3_TITLE": "No Ads",
+            "LI3_3_TEXT": "We don’t have any annoying ads",
+            "LI3_4_TITLE": "Sync with Apple",
+            "LI3_4_TEXT": "Syncs with Apple Health"
+        },
+        "IMG1_ALT": "Data Protection",
+        "IMG2_ALT": "No Sign-Up",
+        "IMG3_ALT": "No Ads",
+        "IMG4_ALT": "Sync with Apple"
     },
     "EMOTION": {
         "HEAD": "Emotion",

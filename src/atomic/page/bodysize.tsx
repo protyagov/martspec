@@ -12,9 +12,45 @@ import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardImage from "@/atomic/molecule/card-image";
 import BulletList from "@/atomic/molecule/bullet-list";
+import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
+import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 
 
 export default function BodySize() {
+    const iconTitleTextListItems: Array<IconTitleText> = [
+    {
+        icon: {
+            src: "/img/bodysize-icon-data-protection.png",
+            alt: _("SIZE.IMG1_ALT"),
+        },
+        title: _("SIZE.LIST3.LI3_1_TITLE"),
+        subtitle: _("SIZE.LIST3.LI3_1_TEXT"),
+    },
+    {
+        icon: {
+            src: "/img/bodysize-icon-data-sync.png",
+            alt: _("SIZE.IMG4_ALT"),
+        },
+        title: _("SIZE.LIST3.LI3_4_TITLE"),
+        subtitle: _("SIZE.LIST3.LI3_4_TEXT"),
+    },
+    {
+        icon: {
+            src: "/img/bodysize-icon-no-ads.png",
+            alt: _("SIZE.IMG3_ALT"),
+        },
+        title: _("SIZE.LIST3.LI3_3_TITLE"),
+        subtitle: _("SIZE.LIST3.LI3_3_TEXT"),
+    },
+    {
+        icon: {
+            src: "/img/bodysize-icon-no-sign-up.png",
+            alt: _("SIZE.IMG2_ALT"),
+        },
+        title: _("SIZE.LIST3.LI3_2_TITLE"),
+        subtitle: _("SIZE.LIST3.LI3_2_TEXT"),
+    }
+];
     const appId = getAppId();
 
     return (
@@ -125,6 +161,17 @@ export default function BodySize() {
                                 iconColor="#FD7E14"
                                 className="bullet-list"
                             />
+                        </div>
+                    </div>
+                </section>
+                
+                <section>
+                    <div className="row">
+                        <div className="col-12 mb-2">
+                            <h2>{_("SIZE.HEAD6")}</h2>
+                        </div>
+                        <div className="col-12">
+                            <IconTitleTextList items={iconTitleTextListItems} />
                         </div>
                     </div>
                 </section>
