@@ -160,7 +160,7 @@ export default function Iron() {
                         </div>
                     </div>
                 </section>
-
+                <div className="iron__reviews">
                 <Review
                     appId={appId}
                     codes={{
@@ -181,6 +181,7 @@ export default function Iron() {
                         },
                     }}
                 />
+                </div>
 
                 <section className="iron__call-to-action">
                     <CallToAction
