@@ -1040,10 +1040,29 @@
         "IMG": "Mida el tamaño del pecho, el ancho del busto, la circunferencia de la cintura y la longitud de las caderas usando un reloj en su muñeca",
         "DWN": "Obtenga la aplicación gratuita de tamaño corporal para Apple Watch directamente desde Apple App Store",
         "ABOUT": "Rastrea tus caderas, cintura y pecho en tu Apple Watch. Auto calcula la forma del cuerpo usando la fórmula de Bradley Bayou. Soporte completo de La app Salud. Copias de seguridad de iCloud. Tiempo de carga rápido. Absolutamente libre.",
+        "HEAD2": "Cómo funciona",
+        "DESC2_1": "Con la aplicación podrás comprender mejor cómo cambia tu cuerpo e identificar aspectos clave para trabajar en ti mismo. Las mediciones precisas y los cálculos bien pensados proporcionan no solo números, sino una imagen completa de tu condición física, ayudándote a establecer objetivos realistas y realizar un seguimiento del progreso.",
+        "SUBHEAD2_1": "Las métricas personalizadas incluyen:",
+        "LIST": {
+            "LI1_TEXT": "Tipo de cuerpo",
+            "LI2_TEXT": "IMC",
+            "LI3_TEXT": "Requerimientos energéticos",
+            "LI4_TEXT": "Somatotipo",
+            "LI5_TEXT": "Índice de Adonis"
+        },
+        "DESC2_2": "Nuestra aplicación es una herramienta conveniente para rastrear los parámetros de tu cuerpo que hace que el proceso de medición sea preciso, informativo y atractivo. Te ayuda a medir circunferencias corporales y pliegues cutáneos para luego calcular métricas importantes como somatotipo, tipo de cuerpo, índice de masa corporal (IMC) y muchos otros. Ahora el monitoreo corporal no es solo una parte esencial de un estilo de vida saludable, sino también un proceso inspirador y motivador.",
+        "SUBHEAD2_2": "Fácil de usar:",
+        "LIST2": {
+            "LI1_TEXT": "Añadir mediciones",
+            "LI2_TEXT": "Ver progreso",
+            "LI3_TEXT": "Establecer y alcanzar metas",
+            "LI4_TEXT": "Obtener recomendaciones",
+            "LI5_TEXT": "Inspirarte en tus éxitos",
+            "LI6_TEXT": "Descubrir cosas nuevas sobre ti"
+        },
         "HEAD1": "Composición corporal",
         "DESC1": "Cuando estás ganando músculo y perdiendo pulgadas de grasa, tu peso podría no cambiar mucho. Es por eso que la composición corporal puede decirte más que la escala, le dice la historia real.",
         "LINK1": "Línea de salud",
-        "HEAD2": "Pecho",
         "DESC2": "¿Por qué medir? No somos conscientes de cualquier necesidad médica o de bienestar para eso. Sin embargo, el ancho del cofre (busto) es una de las mediciones más importantes de las proporciones del cuerpo perfecto. Se cree que las proporciones correctas son más atractivas que el tamaño general o la altura del cuerpo.",
         "HEAD3": "Cintura",
         "HEAD4": "Caderas",
@@ -1057,7 +1076,32 @@
         "CALL_TO_ACTION": {
             "HEAD": "Toma Control de tu Cuerpo de Forma Consciente",
             "DESC": "Personaliza el seguimiento de tu progreso y alcanza tus metas con mediciones adaptadas a ti. Haz que tu camino hacia la salud y forma física ideal sea más consciente, preciso y diseñado para ti"
-        }
+        },
+            "LIST1": {
+            "LI1_HEAD": "Forma corporal",
+            "DESC1": "El peso puede permanecer igual mientras se gana músculo y se pierde grasa. Por eso la forma de tu cuerpo refleja mejor la salud.",
+            "LI2_HEAD": "Tipo de cuerpo",
+            "DESC2": "Comprender tu tipo de cuerpo puede ayudar a encontrar el entrenamiento más efectivo y mejorar la salud",
+            "LI3_HEAD": "Índice de Adonis",
+            "DESC3": "El Índice de Adonis se basa en la proporción hombros-cintura asociada con la proporción áurea (1.61). Es clave para la percepción humana de belleza y atractivo",
+            "LI4_HEAD": "Somatotipo",
+            "DESC4": "El somatotipo es el programa hereditario de desarrollo de tejido óseo, graso y muscular, así como la velocidad y nivel de metabolismo en el cuerpo"
+        },
+        "HEAD6": "Nuestras ventajas",
+        "LIST3": {
+            "LI3_1_TITLE": "Protección de datos",
+            "LI3_1_TEXT": "No almacenamos tus datos en nuestros servidores",
+            "LI3_2_TITLE": "Sin registro",
+            "LI3_2_TEXT": "No se requiere una cuenta para esta aplicación",
+            "LI3_3_TITLE": "Sin anuncios",
+            "LI3_3_TEXT": "No tenemos anuncios molestos",
+            "LI3_4_TITLE": "Sincronización",
+            "LI3_4_TEXT": "Los datos se transfieren automáticamente a todos los dispositivos"
+        },
+        "IMG1_ALT": "Protección de datos",
+        "IMG2_ALT": "Sin registro",
+        "IMG3_ALT": "Sin anuncios",
+        "IMG4_ALT": "Sincronización automática"
     },
     "EMOTION": {
         "HEAD": "Emoción",

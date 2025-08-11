@@ -1042,10 +1042,29 @@
         "IMG": "Messen Sie die Brustgröße, die Büste Breite, den Taillenumfang und die Hüftlänge mit der Uhr an Ihrem Handgelenk",
         "DWN": "Holen Sie sich die kostenlose Körperform-App für Apple Watch direkt aus dem Apple App Store",
         "ABOUT": "Verfolgen Sie Ihre Hüften, Taille und Brust auf Ihrer Apple Watch. Auto berechnet die Körperform mithilfe der Bradley Bayou-Formel. Volle Unterstützung von die Health App. iCloud-Backups. Schnelle Ladezeit. Absolut frei.",
+        "HEAD2": "Wie es funktioniert",
+        "DESC2_1": "Mit der App können Sie besser verstehen, wie sich Ihr Körper verändert und wichtige Aspekte für die Arbeit an sich selbst identifizieren. Präzise Messungen und durchdachte Berechnungen liefern nicht nur Zahlen, sondern ein vollständiges Bild Ihres körperlichen Zustands, das Ihnen hilft, realistische Ziele zu setzen und Fortschritte zu verfolgen.",
+        "SUBHEAD2_1": "Personalisierte Metriken umfassen:",
+        "LIST": {
+            "LI1_TEXT": "Körpertyp",
+            "LI2_TEXT": "BMI",
+            "LI3_TEXT": "Energiebedarf",
+            "LI4_TEXT": "Somatotyp",
+            "LI5_TEXT": "Adonis-Index"
+        },
+        "DESC2_2": "Unsere App ist ein praktisches Tool zur Verfolgung Ihrer Körperparameter, das den Messprozess präzise, informativ und ansprechend gestaltet. Sie hilft Ihnen, Körperumfänge und Hautfalten zu messen, um dann wichtige Kennzahlen wie Somatotyp, Körpertyp, Body-Mass-Index (BMI) und viele andere zu berechnen. Die Körperkontrolle ist jetzt nicht nur ein wesentlicher Bestandteil eines gesunden Lebensstils, sondern auch ein inspirierender und motivierender Prozess.",
+        "SUBHEAD2_2": "Einfach zu bedienen:",
+        "LIST2": {
+            "LI1_TEXT": "Messungen hinzufügen",
+            "LI2_TEXT": "Fortschritt anzeigen",
+            "LI3_TEXT": "Ziele setzen und erreichen",
+            "LI4_TEXT": "Empfehlungen erhalten",
+            "LI5_TEXT": "Von Ihren Erfolgen inspirieren lassen",
+            "LI6_TEXT": "Neues über sich entdecken"
+        },
         "HEAD1": "Körperzusammensetzung",
         "DESC1": "Wenn Sie Muskeln gewinnen und Zentimeter Fett verlieren, ändert sich Ihr Gewicht möglicherweise nicht viel. Deshalb kann die Körperkomposition Ihnen mehr als die Waage erzählen, er sagt Ihnen die wahre Geschichte.",
         "LINK1": "Gesundheitslinie",
-        "HEAD2": "Brustf / Busen",
         "DESC2": "Warum messen? Wir sind keinem medizinischen oder Wellnessbedürfnis dafür bewusst. Die Brust-Breite ist jedoch einer der wichtigsten Messungen perfekter Körperanteile. Es wird angenommen, dass korrekte Anteile attraktiver sind als die Gesamtgröße oder Höhe des Körpers.",
         "HEAD3": "Taille",
         "HEAD4": "Hüfte",
@@ -1059,7 +1078,32 @@
         "CALL_TO_ACTION": {
             "HEAD": "Übernehmen Sie bewusst die Kontrolle über Ihren Körper",
             "DESC": "Personalisieren Sie Ihre Fortschrittsverfolgung und erreichen Sie Ihre Ziele mit anpassbaren Messungen. Gestalten Sie Ihren Weg zu optimaler Gesundheit und Fitness bewusster, präziser und individueller"
-        }
+        },
+            "LIST1": {
+            "LI1_HEAD": "Körperform",
+            "DESC1": "Das Gewicht kann unverändert bleiben, während gleichzeitig Muskeln aufgebaut und Fett abgebaut werden. Deshalb spiegelt Ihre Körperform die Gesundheit besser wider.",
+            "LI2_HEAD": "Körpertyp",
+            "DESC2": "Das Verständnis Ihres Körpertyps kann helfen, das effektivste Training zu finden und die Gesundheit zu verbessern",
+            "LI3_HEAD": "Adonis-Index",
+            "DESC3": "Der Adonis-Index basiert auf dem Schulter-Taillen-Verhältnis, das mit dem goldenen Schnitt (1,61) verbunden ist. Er ist entscheidend für die menschliche Wahrnehmung von Schönheit und Attraktivität",
+            "LI4_HEAD": "Somatotyp",
+            "DESC4": "Somatotyp ist das erbliche Entwicklungsprogramm von Knochen-, Fett- und Muskelgewebe sowie die Geschwindigkeit und das Niveau des Stoffwechsels im Körper"
+        },
+        "HEAD6": "Unsere Vorteile",
+        "LIST3": {
+            "LI3_1_TITLE": "Datenschutz",
+            "LI3_1_TEXT": "Wir speichern Ihre Daten nicht auf unseren Servern",
+            "LI3_2_TITLE": "Keine Anmeldung",
+            "LI3_2_TEXT": "Für diese App ist kein Konto erforderlich",
+            "LI3_3_TITLE": "Keine Werbung",
+            "LI3_3_TEXT": "Wir haben keine lästigen Anzeigen",
+            "LI3_4_TITLE": "Synchronisierung",
+            "LI3_4_TEXT": "Daten werden automatisch auf alle Geräte übertragen"
+        },
+        "IMG1_ALT": "Datenschutz",
+        "IMG2_ALT": "Keine Anmeldung",
+        "IMG3_ALT": "Keine Werbung",
+        "IMG4_ALT": "Automatische Synchronisierung"
     },
     "EMOTION": {
         "HEAD": "Emotion",
