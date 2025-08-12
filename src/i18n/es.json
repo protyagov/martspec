@@ -1101,7 +1101,19 @@
         "IMG1_ALT": "Protección de datos",
         "IMG2_ALT": "Sin registro",
         "IMG3_ALT": "Sin anuncios",
-        "IMG4_ALT": "Sincronización automática"
+        "IMG4_ALT": "Sincronización automática",
+        "HEAD7": "¿Por qué es importante la forma del cuerpo?",
+        "LIST4": {
+            "LI4_1_TITLE": "Refleja con mayor precisión el estado de salud",
+            "LI4_1_TEXT": "El peso puede permanecer igual mientras se gana músculo y se pierde grasa al mismo tiempo. Por eso la forma de tu cuerpo refleja mejor tu salud",
+            "LI4_2_TITLE": "Eficacia del entrenamiento",
+            "LI4_2_TEXT": "Descubrir tu verdadera forma corporal es más que una de esas pruebas en línea sin sentido. Comprender la forma del cuerpo puede ayudar a encontrar el entrenamiento más efectivo y mejorar la salud",
+            "LI4_3_TITLE": "Atractivo estético",
+            "LI4_3_TEXT": "El ancho del pecho (busto) es uno de los indicadores más importantes de las proporciones corporales ideales. Se considera que las proporciones correctas son más atractivas que la altura o el tamaño general del cuerpo"
+        },
+        "IMG4_1_ALT": "Salud",
+        "IMG4_2_ALT": "Entrenamiento",
+        "IMG4_3_ALT": "Atractivo"
     },
     "EMOTION": {
         "HEAD": "Emoción",

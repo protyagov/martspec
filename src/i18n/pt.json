@@ -1105,7 +1105,19 @@
         "IMG1_ALT": "Proteção de dados",
         "IMG2_ALT": "Sem cadastro",
         "IMG3_ALT": "Sem anúncios",
-        "IMG4_ALT": "Sincronização automática"
+        "IMG4_ALT": "Sincronização automática",
+        "HEAD7": "Por que a forma do corpo é importante?",
+        "LIST4": {
+            "LI4_1_TITLE": "Reflete com mais precisão o estado de saúde",
+            "LI4_1_TEXT": "O peso pode permanecer o mesmo enquanto se ganha músculo e perde gordura ao mesmo tempo. É por isso que a forma do seu corpo reflete melhor sua saúde",
+            "LI4_2_TITLE": "Eficácia do treino",
+            "LI4_2_TEXT": "Descobrir sua verdadeira forma corporal é mais do que um daqueles testes online sem sentido. Entender a forma do corpo pode ajudar a encontrar o treino mais eficaz e melhorar a saúde",
+            "LI4_3_TITLE": "Atração estética",
+            "LI4_3_TEXT": "A largura do peito (busto) é um dos indicadores mais importantes de proporções corporais ideais. Proporções corretas são consideradas mais atraentes do que altura ou tamanho geral do corpo"
+        },
+        "IMG4_1_ALT": "Saúde",
+        "IMG4_2_ALT": "Treino",
+        "IMG4_3_ALT": "Atração"
     },
     "EMOTION": {
         "HEAD": "Emoção",
