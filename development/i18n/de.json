@@ -1103,7 +1103,19 @@
         "IMG1_ALT": "Datenschutz",
         "IMG2_ALT": "Keine Anmeldung",
         "IMG3_ALT": "Keine Werbung",
-        "IMG4_ALT": "Automatische Synchronisierung"
+        "IMG4_ALT": "Automatische Synchronisierung",
+        "HEAD7": "Warum ist die Körperform wichtig?",
+        "LIST4": {
+            "LI4_1_TITLE": "Genauere Darstellung des Gesundheitszustands",
+            "LI4_1_TEXT": "Das Gewicht kann gleich bleiben, während gleichzeitig Muskeln aufgebaut und Fett abgebaut werden. Deshalb spiegelt Ihre Körperform Ihre Gesundheit besser wider",
+            "LI4_2_TITLE": "Effektivität des Trainings",
+            "LI4_2_TEXT": "Die Ermittlung Ihrer wahren Körperform ist mehr als nur ein sinnloser Online-Test. Das Verständnis Ihrer Körperform kann helfen, das effektivste Training zu finden und die Gesundheit zu verbessern",
+            "LI4_3_TITLE": "Ästhetische Attraktivität",
+            "LI4_3_TEXT": "Die Brustbreite (Brustumfang) ist einer der wichtigsten Indikatoren für ideale Körperproportionen. Richtige Proportionen gelten als attraktiver als Größe oder allgemeine Körpermaße"
+        },
+        "IMG4_1_ALT": "Gesundheit",
+        "IMG4_2_ALT": "Training",
+        "IMG4_3_ALT": "Attraktivität"
     },
     "EMOTION": {
         "HEAD": "Emotion",

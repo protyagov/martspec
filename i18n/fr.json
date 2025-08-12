@@ -1101,7 +1101,19 @@
         "IMG1_ALT": "Protection des données",
         "IMG2_ALT": "Pas d'inscription",
         "IMG3_ALT": "Pas de publicités",
-        "IMG4_ALT": "Synchronisation automatique"
+        "IMG4_ALT": "Synchronisation automatique",
+        "HEAD7": "Pourquoi la forme du corps est-elle importante ?",
+        "LIST4": {
+            "LI4_1_TITLE": "Reflète plus précisément l'état de santé",
+            "LI4_1_TEXT": "Le poids peut rester inchangé tout en gagnant du muscle et en perdant de la graisse. C'est pourquoi la forme de votre corps reflète mieux votre santé",
+            "LI4_2_TITLE": "Efficacité de l'entraînement",
+            "LI4_2_TEXT": "Découvrir votre véritable forme corporelle est plus qu'un simple test en ligne inutile. Comprendre la forme du corps peut aider à trouver l'entraînement le plus efficace et à améliorer la santé",
+            "LI4_3_TITLE": "Attrait esthétique",
+            "LI4_3_TEXT": "La largeur de la poitrine (buste) est l'un des indicateurs les plus importants des proportions corporelles idéales. Les bonnes proportions sont considérées comme plus attrayantes que la taille ou la taille globale du corps"
+        },
+        "IMG4_1_ALT": "Santé",
+        "IMG4_2_ALT": "Entraînement",
+        "IMG4_3_ALT": "Attrait"
     },
     "EMOTION": {
         "HEAD": "Émotion",
