@@ -1103,7 +1103,19 @@
         "IMG1_ALT": "Data Protection",
         "IMG2_ALT": "No Sign-Up",
         "IMG3_ALT": "No Ads",
-        "IMG4_ALT": "Sync with Apple"
+        "IMG4_ALT": "Sync with Apple",
+        "HEAD7": "Why is body shape important?",
+        "LIST4": {
+            "LI4_1_TITLE": "More accurately reflects health status",
+            "LI4_1_TEXT": "Weight can remain unchanged while building muscle and losing fat simultaneously. That’s why your body shape better reflects your health",
+            "LI4_2_TITLE": "Workout effectiveness",
+            "LI4_2_TEXT": "Discovering your true body shape is more than one of those meaningless online tests. Understanding body shape can help find the most effective workout and improve health",
+            "LI4_3_TITLE": "Aesthetic appeal",
+            "LI4_3_TEXT": "Chest (bust) width is one of the most important indicators of ideal body proportions. Correct proportions are considered more attractive than height or overall body size"
+        },
+        "IMG4_1_ALT": "Health",
+        "IMG4_2_ALT": "Workout",
+        "IMG4_3_ALT": "Appeal"
     },
     "EMOTION": {
         "HEAD": "Emotion",

@@ -14,6 +14,7 @@ import CardImage from "@/atomic/molecule/card-image";
 import BulletList from "@/atomic/molecule/bullet-list";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
+import CardIconTitleText from "../molecule/card-icon-title-text";
 
 
 export default function BodySize() {
@@ -176,7 +177,7 @@ export default function BodySize() {
                     </div>
                 </section>
                 
-                {/* Body compostion */}
+                {/* Body compostion 
                 
 
                 <ImageI18N
@@ -185,15 +186,15 @@ export default function BodySize() {
                     h={512}
                     cls="mx-auto img-fluid"
                     alt={_("SIZE.IMG")}
-                />
+                />*/}
 
-                {/* Chest and Bust */}
+                {/* Chest and Bust 
                 <section className="row">
                     <h4>{_("SIZE.HEAD2")}</h4>
                     <p className="mt-3">{_("SIZE.DESC2")}</p>
                 </section>
 
-                {/* Waist Circumferance */}
+                {/* Waist Circumferance 
                 <section className="row">
                     <h4>{_("SIZE.HEAD3")}</h4>
                     <p className="mt-3">
@@ -205,9 +206,9 @@ export default function BodySize() {
                         </a>
                         {_("WAIST.DESC2")}
                     </p>
-                </section>
+                </section>*/}
 
-                {/* Hips Width */}
+                {/* Hips Width 
                 <section className="row">
                     <h4>{_("SIZE.HEAD4")}</h4>
                     <p className="mt-3">{_("SIZE.DESC4")}</p>
@@ -224,12 +225,57 @@ export default function BodySize() {
                             </small>
                         </a>
                     </p>
-                </section>
+                </section>*/}
 
-                {/* Body Shape */}
+                {/* Body Shape 
                 <section className="row">
                     <h4>{_("SIZE.HEAD5")}</h4>
                     <p className="mt-3">{_("SIZE.DESC5")}</p>
+                </section>*/}
+                <section>
+                    <div className="ms-base-new row waist-info-section">
+                        <h2>{_("SIZE.HEAD7")}</h2>
+                        <div className="info-list row g-4">
+                            <div className="col-lg-4 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-health-condition.svg",
+                                            alt: _("SIZE.IMG4_1_ALT"),
+                                        },
+                                        title: _("SIZE.LIST4.LI4_1_TITLE"),
+                                    }}
+                                    text={_("SIZE.LIST4.LI4_1_TEXT")}
+                                    bgColor="#FFECDB"
+                                />
+                            </div>
+                            <div className="col-lg-4 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-training-efficiency.svg",
+                                            alt: _("SIZE.IMG4_2_ALT"),
+                                        },
+                                        title: _("SIZE.LIST4.LI4_2_TITLE"),
+                                    }}
+                                    text={_("SIZE.LIST4.LI4_2_TEXT")}
+                                />
+                            </div>
+                            <div className="col-lg-4 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-attractiveness.svg",
+                                            alt: _("SIZE.IMG4_3_ALT"),
+                                        },
+                                        title: _("SIZE.LIST4.LI4_3_TITLE"),
+                                    }}
+                                    text={_("SIZE.LIST4.LI4_3_TEXT")}
+                                    bgColor="#FFECDB"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 <Review

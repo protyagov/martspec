@@ -37,3 +37,18 @@
             }
         }
     }
+.waist-info-section {
+    h2 {
+        font-size: 3.08rem;
+        margin-bottom: 1.9rem;
+    }
+}
+.info-list {
+        padding: 0px!important;
+        p {
+            margin-bottom: 1rem !important;
+        }
+        .card-icon-title-text {
+            flex-grow: 1;
+        }
+    }
