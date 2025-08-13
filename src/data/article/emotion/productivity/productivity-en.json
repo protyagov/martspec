@@ -1,0 +1,59 @@
+{
+  "HEADER": {
+    "TITLE": "Productivity",
+    "IMG_URL": "/img/page/productivity/productivity.svg", 
+    "HEADER_BODY" : {
+      "LI_1": "Stress, anxiety, depression?",
+      "LI_2": "Find out the cause of mood swings",
+      "LI_3": "Enhance your well-being using our exclusive methods"
+    },
+    "ALT": "Access to statistics without an iPhone",
+    "ACCENT_COLOR": "#DF9A5B"
+  }, 
+  "TITLE": "What is productivity?",
+  "IMG_URL": "/img/page/article/productivity-top.webp",
+  "IMG_ALT": "Efficient workspace organization",
+  "BODY": [ 
+    { 
+      "TITLE": "", 
+      "CONTENT": "It is important to understand the difference between productivity and performance. Performance refers to the amount of work completed within a certain period of time, whereas productivity is focused on achieving better results within the same period. \n\nWhen we talk about working faster and with higher quality, this relates to improving performance. It involves completing a greater number of tasks in a given timeframe, which requires effective time management and the ability to allocate working hours efficiently. \n\nOn the other hand, productivity is the focus on delivering better outcomes when performing work. It means a continuous effort to improve the quality of work by developing new skills or using more effective methods. \n\nKey factors for achieving high productivity and performance are not only the speed of task completion or the amount of work done in a given period but also the level of its quality. This challenge can be addressed through proper planning, time management, and continuous development of skills and knowledge.", 
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "" 
+    },
+    { 
+      "TITLE": "### Characteristics of a productive person", 
+      "CONTENT": "Improving productivity — is not something that happens overnight. Although it may seem easy to some people, their ability to plan and use their time effectively is often more related to established habits that over time contribute to increased productivity. To become more productive, focus on the following key strategies: \n\n **Set Clear Goals:** Define specific, achievable goals to guide your efforts. \n\n Prioritize Tasks: Identify high-impact tasks and tackle them first. \n\n **Minimize Distractions:** Minimize distractions by creating a purposeful workspace and limiting interruptions. \n\n **Plan and Organize:** Use to-do lists, calendars, and tools for effective planning. \n\n **Take Breaks Between Tasks:** Break tasks into smaller, manageable steps to maintain motivation. \n\n **Delegate:** When possible, assign tasks to others to free up your time. \n\n **Leverage Technology:** Use apps and tools to optimize tasks and communication. \n\n Want to be more productive? Try to follow these rules. Goal orientation, organization, focus, self-care, and the ability to manage distractions — these are all important skills for anyone who wants to make the most effective use of their time.", 
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "#F4F5F8" 
+    },
+    { 
+      "TITLE": "### Productivity and performance", 
+      "CONTENT": "A productive person can excel in a wide range of professions thanks to effective time management, purposeful thinking, and a focus on achieving results. However, when choosing a career, it is important to consider individual strengths, interests, and values. Here are some examples of professions where productive people may thrive. \n\n These findings show that highly open individuals tend to gravitate toward careers that involve working with abstract ideas, creativity, design, open research, and unstructured environments. While there is a broad range of professions that fit this description, several examples of careers with high artistic, high investigative, and low conventional interests include: \n\n- Entrepreneurship \n- Project Management \n- Freelancing \n- Consulting \n- Researcher or Analyst \n- IT and Programming \n- Leadership Roles \n- Digital Marketing \n- Content Creation \n- Healthcare Professions \n\n Careers where productivity traits may not align: \n\n- Creative Arts \n\n- Social Work \n\n- Unstructured Roles \n\n- Sales \n\n- Routine Intensive Work \n\n- Commercial Pilot \n\n Remember, the key is to find a balance between a career that matches your natural inclinations and one that challenges and engages you. While some professions may seem more suited for productive people, personal passion, continuous learning, and adaptability can lead to success across a wide range of fields.", 
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "" 
+    },
+    { 
+      "TITLE": "### Advantages of productivity", 
+      "CONTENT": "Causes of anxiety disorders are currently unknown, but they likely involve a combination of factors, including genetic, environmental, psychological, and developmental influences.\nSome factors that have been involved include:\n\n- **Brain chemistry.** Severe or prolonged stress may contribute to changes in the brain’s chemical balance.\n- **Experiences.** Stressful or traumatic events can also contribute to the onset of anxiety feelings.\n- **Family history.** Having close family members with symptoms of an anxiety disorder increases the risk that a person may also develop an anxiety condition.\n- **Genetic factors.** Certain genes may predispose a person to a higher likelihood of developing an anxiety disorder.\n- **Illnesses.** Some underlying medical conditions may contribute to the onset of anxiety feelings. These include chronic pain, heart disease, diabetes, thyroid problems, respiratory diseases, drug use, and drug withdrawal.\n- **Diet.** Recently, more people have been paying attention to the connection between diet and anxiety. Factors such as GMOs, gluten, and pesticides found in processed foods may negatively affect the state of our gut and microbial colonies. A probiotic supplement high in bifidobacteria may be beneficial for maintaining a healthy gut flora composition.", 
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "#F4F5F8"
+    },
+    { 
+      "TITLE": "### How to become more productive?", 
+      "CONTENT": "Improving productivity — is not something that happens overnight. Although it may seem easy to some people, their ability to plan and use their time effectively is often more related to established habits that over time contribute to increased productivity. To become more productive, focus on the following key strategies: \n\n **Set Clear Goals:** Define specific, achievable goals to guide your efforts. \n\n **Prioritize Tasks:** Identify high-impact tasks and tackle them first. \n\n **Minimize Distractions:** Minimize distractions by creating a purposeful workspace and limiting interruptions. \n\n Plan and Organize: Use to-do lists, calendars, and tools for effective planning. \n\n **Take Breaks Between Tasks:** Break tasks into smaller, manageable steps to maintain motivation. \n\n **Delegate:** When possible, assign tasks to others to free up your time. \n\n **Leverage Technology:** Use apps and tools to optimize tasks and communication. \n\n **Want to be more productive?** Try to follow these rules. Goal orientation, organization, focus, self-care, and the ability to manage distractions — these are all important skills for anyone who wants to make the most effective use of their time.", 
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "" 
+    },
+    { 
+      "TITLE": "### Careers for productive people", 
+      "CONTENT": "A productive person can excel in a wide range of professions thanks to effective time management, purposeful thinking, and a focus on achieving results. However, when choosing a career, it is important to consider individual strengths, interests, and values. Here are some examples of professions where productive people may thrive. \n\n These findings show that highly open individuals tend to gravitate toward careers that involve working with abstract ideas, creativity, design, open research, and unstructured environments. While there is a broad range of professions that fit this description, several examples of careers with high artistic, high investigative, and low conventional interests include: \n\n- Entrepreneurship \n- Project Management \n- Freelancing \n- Consulting \n- Researcher or Analyst \n- IT and Programming \n- Leadership Roles \n- Digital Marketing \n- Content Creation \n- Healthcare Professions \n\n Careers where productivity traits may not align: \n- Creative Arts \n- Social Work \n- Unstructured Roles \n- Sales \n- Routine Intensive Work \n- Commercial Pilot \n Remember, the key is to find a balance between a career that matches your natural inclinations and one that challenges and engages you. While some professions may seem more suited for productive people, personal passion, continuous learning, and adaptability can lead to success across a wide range of fields.", 
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "#F4F5F8" 
+    }
+  ],
+  "CALL_TO_ACTION": {
+    "TITLE": "Our app is available for any device",
+    "SUBTITLE": "Download the app right now and start tracking your mood changes even within the same day",
+    "ALT": "Access to statistics without an iPhone"
+  }
+}

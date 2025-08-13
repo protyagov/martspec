@@ -1,0 +1,53 @@
+{
+  "HEADER": {
+    "TITLE": "Angst",
+    "IMG_URL": "/img/page/anxiety/anxiety.svg",
+    "HEADER_BODY": {
+      "LI_1": "Stress, Angst, Depression?",
+      "LI_2": "Finde die Ursache von Stimmungsschwankungen heraus",
+      "LI_3": "Verbessere dein Wohlbefinden mit unseren exklusiven Methoden"
+    },
+    "ALT": "Zugang zu Statistiken ohne iPhone",
+    "ACCENT_COLOR": "#85B9CD"
+  },
+  "TITLE": "Was ist Angst?",
+  "IMG_URL": "/img/page/article/anxiety-top.webp",
+  "IMG_ALT": "Illustration einer jungen Frau, die Angst erlebt",
+  "BODY": [
+    {
+      "TITLE": "",
+      "CONTENT": "Angst ist ein Gefühl, das durch Spannungen, Furcht, Sorge und sogar Beklommenheit gekennzeichnet ist. Es kann Schwitzen, Unruhe, Anspannung und einen schnellen Herzschlag verursachen.  \nAngst kann dir Energie geben oder dir helfen, dich zu konzentrieren.  \nAber für Menschen mit Angststörungen ist die Angst nicht vorübergehend und kann überwältigend sein.\n\nFurcht ist eine emotionale Reaktion auf eine unmittelbare Bedrohung und steht enger im Zusammenhang mit **der Kampf-oder-Flucht-Reaktion** — der Wahl, entweder zu bleiben und zu kämpfen oder zu fliehen, um Gefahr zu vermeiden.\n\nEine Angststörung ist ein Zustand, der sich allmählich nach einer Phase übermäßiger Sorge entwickelt. Die Symptome können in ihrer Intensität variieren und über längere Zeiträume anhalten. Angststörungen können dazu führen, dass Menschen Situationen vermeiden, die ihre Symptome auslösen oder verschlimmern. Dies kann die Arbeitsleistung, das Studium und persönliche Beziehungen beeinträchtigen.",
+      "ACCENT_COLOR": "#85B9CD",
+      "BG_COLOR": ""
+    },
+    {
+      "TITLE": "### Arten von Angststörungen",
+      "CONTENT": "Das durchschnittliche Alter des Beginns von Angststörungen liegt bei 20–24 Jahren.\nSie können zusammen mit anderen psychischen Gesundheitsstörungen wie Depressionen oder posttraumatischer Belastungsstörung (PTBS) auftreten.\nEs gibt mehrere Arten von Angststörungen, darunter:\n\n- **Generalisierte Angststörung (GAD).** Menschen mit GAD sorgen sich um alltägliche Probleme wie Gesundheit, Geld, Arbeit und Familie.\n  Sie tritt oft zusammen mit anderen Angststörungen oder Depressionen auf, und die Sorgen bestehen fast täglich über mehrere Monate.\n\n- **Panikstörung.** Menschen mit Panikstörung erleben Panikattacken.\n  Diese sind plötzliche, wiederkehrende Phasen intensiver Angst, wenn keine reale Gefahr besteht.\n  Die Attacken treten schnell auf und können mehrere Minuten oder länger dauern.\n\n- **Phobien.** Menschen mit Phobien haben eine intensive Angst vor etwas, das wenig oder keine reale Gefahr darstellt.\n  Ihre Angst kann mit Spinnen, Fliegen, überfüllten Orten oder sozialen Situationen zusammenhängen.",
+      "ACCENT_COLOR": "#85B9CD",
+      "BG_COLOR": "#F4F5F8"
+    },
+    {
+      "TITLE": "### Symptome",
+      "CONTENT": "Angststörungen haben viele Symptome.\nJede Störung hat unterschiedliche Symptome.\nSymptome, die bei Angststörungen allgemein vorkommen, sind:\n\n- Nervosität, Angst oder Anspannung\n- Ein Gefühl drohender Gefahr, Panik oder Unheil\n- Schneller Herzschlag\n- Zittern\n- Schwäche oder Müdigkeit\n- Konzentrationsschwierigkeiten oder Unfähigkeit, an etwas anderes als die aktuelle Sorge zu denken\n- Schlafprobleme\n- Magen-Darm-Probleme\n- Schwitzige oder kalte Hände und/oder Füße",
+      "ACCENT_COLOR": "#85B9CD",
+      "BG_COLOR": ""
+    },
+    {
+      "TITLE": "### Anzeichen einer Angststörung",
+      "CONTENT": "Die Ursachen von Angststörungen sind derzeit unbekannt, aber wahrscheinlich spielen eine Kombination von Faktoren eine Rolle, darunter genetische, Umwelt-, psychologische und entwicklungsbedingte Einflüsse.\nEinige Faktoren, die beteiligt sein könnten, umfassen:\n\n- **Gehirnchemie.** Schwerer oder anhaltender Stress kann zu Veränderungen im chemischen Gleichgewicht des Gehirns beitragen.\n- **Erfahrungen.** Stressige oder traumatische Ereignisse können ebenfalls zum Auftreten von Angstgefühlen beitragen.\n- **Familiengeschichte.** Das Vorhandensein von nahen Familienmitgliedern mit Symptomen einer Angststörung erhöht das Risiko, selbst eine Angststörung zu entwickeln.\n- **Genetische Faktoren.** Bestimmte Gene können eine Person anfälliger für die Entwicklung einer Angststörung machen.\n- **Krankheiten.** Einige zugrundeliegende medizinische Zustände können zum Auftreten von Angstgefühlen beitragen. Dazu gehören chronische Schmerzen, Herzerkrankungen, Diabetes, Schilddrüsenprobleme, Atemwegserkrankungen, Drogenkonsum und Drogenentzug.\n- **Ernährung.** In letzter Zeit achten mehr Menschen auf den Zusammenhang zwischen Ernährung und Angst. Faktoren wie gentechnisch veränderte Organismen (GVO), Gluten und Pestizide in verarbeiteten Lebensmitteln können den Zustand unseres Darms und der mikrobiellen Kolonien negativ beeinflussen. Ein Probiotikum mit hohem Gehalt an Bifidobakterien kann zur Erhaltung einer gesunden Darmflora hilfreich sein.",
+      "ACCENT_COLOR": "#85B9CD",
+      "BG_COLOR": "#F4F5F8"
+    },
+    {
+      "TITLE": "### Diagnose und Behandlung",
+      "CONTENT": "In der heutigen Welt ist Angst ein häufiges Problem, das die Lebensqualität und das psychische Wohlbefinden einer Person ernsthaft beeinträchtigen kann.\nDank technologischer Fortschritte können wir jedoch auf mobile Anwendungen wie *Emotsiya* und andere innovative Lösungen zurückgreifen, um Angst zu diagnostizieren und sogar bei der Behandlung zu unterstützen.\n\nDie Behandlung von Angst ist ein komplexer Prozess, der Psychotherapie, medikamentöse Therapie und Änderungen des Lebensstils umfassen kann.\nObwohl jede Angststörung einzigartige Merkmale aufweist, sprechen die meisten gut auf zwei Arten der Behandlung an: Psychotherapie oder „Gesprächstherapie“ und Medikamente.\nDie kognitive Verhaltenstherapie (KVT), eine Form der Gesprächstherapie, kann einer Person helfen, andere Denk-, Reaktions- und Verhaltensweisen zu erlernen, um Angst zu reduzieren.\nMedikamente heilen Angststörungen nicht, können aber die Symptome erheblich lindern.\nDie am häufigsten verwendeten Medikamente sind Beruhigungsmittel und Antidepressiva.\n\n> Mobile Anwendungen können wirksame Werkzeuge zur Selbstverwaltung von Angst in frühen Stadien sein, aber es wird immer empfohlen, professionelle Beratung und Unterstützung von einem qualifizierten Spezialisten zu suchen.\n\nInsgesamt stellt die Nutzung mobiler Anwendungen einen vielversprechenden Ansatz in der Angstdiagnose dar.\nSie helfen Menschen, ihren emotionalen Zustand besser zu verstehen, Angst zu bewältigen und ihre Lebensqualität zu verbessern.\nDie mobile Anwendung *Emotsiya* bietet eine bequeme und zugängliche Möglichkeit, Angstniveaus zu bewerten und Empfehlungen zur Bewältigung zu erhalten.\nDie App ermöglicht das Verfolgen emotionaler Zustände und die Analyse von Faktoren, die Angst verursachen.",
+      "ACCENT_COLOR": "#85B9CD",
+      "BG_COLOR": ""
+    }
+  ],
+  "CALL_TO_ACTION": {
+    "TITLE": "Unsere App ist für jedes Gerät verfügbar",
+    "SUBTITLE": "Lade die App jetzt herunter und beginne noch am selben Tag, deine Stimmungsschwankungen zu verfolgen",
+    "ALT": "Zugang zu Statistiken ohne iPhone"
+  }
+}

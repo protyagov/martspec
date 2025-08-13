@@ -45,7 +45,8 @@
         "bootstrap": "^5.3.3",
         "node-polyglot": "^2.4.0",
         "react": "^18.1.0",
-        "react-dom": "^18.1.0"
+        "react-dom": "^18.1.0",
+        "react-markdown": "^10.1.0"
     },
     "scripts": {
         "predeploy": "yarn prod && yarn ladle build",
