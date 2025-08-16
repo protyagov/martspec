@@ -9,13 +9,14 @@ import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
 import Header from "@/atomic/organism/header";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
+import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardImage from "@/atomic/molecule/card-image";
 import BulletList from "@/atomic/molecule/bullet-list";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CardIconTitleText from "../molecule/card-icon-title-text";
-
+import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 
 export default function BodySize() {
     const iconTitleTextListItems: Array<IconTitleText> = [
@@ -220,9 +221,9 @@ export default function BodySize() {
                         {_("WAIST.DESC1")}
                         <a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm" target="_blank">
                             <br />
-                            <small>
+                            <Custom>
                                 <i>{_("WAIST.LINK1")}</i>
-                            </small>
+                            </Custom>
                         </a>
                     </p>
                 </section>*/}
@@ -232,6 +233,64 @@ export default function BodySize() {
                     <h4>{_("SIZE.HEAD5")}</h4>
                     <p className="mt-3">{_("SIZE.DESC5")}</p>
                 </section>*/}
+                <section>
+                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                        <div className="col col-md-4 p-0">
+                            <div className="row row-cols-1 h-100 p-0">
+                                <div className="col py-0 img-wrapper">
+                                    <CardTitleTextImageCustom
+                                        title={_("SIZE.HEAD9")}
+                                        text={_("SIZE.DESC9")}
+                                        bgColor="#FFFFFF"
+                                        imgSrc="/img/page/body-size/Vector.png"
+                                        imgPosition="right-bottom"
+                                        shadow={true}
+                                        cardHeight="220px"
+                                        cardWidht="340px"
+                                        imgH="70px"
+                                    />
+                                </div>
+                                <div className="col py-0 mt-4 img-wrapper">
+                                    <CardTitleTextImageCustom
+                                        title={_("SIZE.HEAD10")}
+                                        text={_("SIZE.DESC10")}
+                                        bgColor="#FFFFFF"
+                                        imgSrc="/img/page/body-size/Vector1.png"
+                                        imgPosition="left-bottom"
+                                        shadow={true}
+                                        cardHeight="220px"
+                                        cardWidht="340px"
+                                        imgH="70px"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="col col-md-4 img-wrapper-big" >
+                            <CardTitleTextImageCustom
+                                        title={_("SIZE.HEAD11")}
+                                        text={_("SIZE.DESC11")}
+                                        bgColor="#FFFFFF"
+                                        imgSrc="/img/page/body-size/Biorhythms.png"
+                                        imgPosition="right-bottom"
+                                        shadow={true}
+                                        cardHeight="440px"
+                                        cardWidht="340px"
+                                        imgH="300px"
+                                    />
+                        </div>
+                        <div className="col col-md-4">
+                            <CardTitleTextButton
+                                title={_("SIZE.HEAD8")}
+                                textContent={[_("SIZE.DESC8_1"), _("SIZE.DESC8_2")]}
+                                buttonText={_("SIZE.BTN_MORE")}
+                                buttonLink={Locale.i18nLink(`coming-soon`)}
+                                buttonColor="#FD7E14"
+                            />
+                        </div> 
+                    </div>
+                </section>
+
                 <section>
                     <div className="ms-base-new row waist-info-section">
                         <h2>{_("SIZE.HEAD7")}</h2>
@@ -277,6 +336,7 @@ export default function BodySize() {
                         </div>
                     </div>
                 </section>
+
 
                 <Review
                     appId={appId}
