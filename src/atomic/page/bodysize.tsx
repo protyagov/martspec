@@ -6,7 +6,7 @@ import CallToAction from "@/atomic/organism/call-to-action-new";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
@@ -242,12 +242,12 @@ export default function BodySize() {
                                         title={_("SIZE.HEAD9")}
                                         text={_("SIZE.DESC9")}
                                         bgColor="#FFFFFF"
-                                        imgSrc="/img/page/body-size/Vector.png"
+                                        imgSrc="/img/page/body-size/orange_curly_ine.png"
                                         imgPosition="right-bottom"
                                         shadow={true}
-                                        cardHeight="220px"
-                                        cardWidht="340px"
-                                        imgH="70px"
+                                        cardHeight="17rem"
+                                        cardWidht="27rem"
+                                        imgH="5rem"
                                     />
                                 </div>
                                 <div className="col py-0 mt-4 img-wrapper">
@@ -255,12 +255,12 @@ export default function BodySize() {
                                         title={_("SIZE.HEAD10")}
                                         text={_("SIZE.DESC10")}
                                         bgColor="#FFFFFF"
-                                        imgSrc="/img/page/body-size/Vector1.png"
+                                        imgSrc="/img/page/body-size/green_curly_line.png"
                                         imgPosition="left-bottom"
                                         shadow={true}
-                                        cardHeight="220px"
-                                        cardWidht="340px"
-                                        imgH="70px"
+                                        cardHeight="17rem"
+                                        cardWidht="27rem"
+                                        imgH="5rem"
                                     />
                                 </div>
                             </div>
@@ -271,12 +271,12 @@ export default function BodySize() {
                                         title={_("SIZE.HEAD11")}
                                         text={_("SIZE.DESC11")}
                                         bgColor="#FFFFFF"
-                                        imgSrc="/img/page/body-size/Biorhythms.png"
+                                        imgSrc="/img/page/body-size/masks.png"
                                         imgPosition="right-bottom"
                                         shadow={true}
-                                        cardHeight="440px"
-                                        cardWidht="340px"
-                                        imgH="300px"
+                                        cardHeight="35rem"
+                                        cardWidht="27rem"
+                                        imgH="19rem"
                                     />
                         </div>
                         <div className="col col-md-4">
@@ -284,7 +284,7 @@ export default function BodySize() {
                                 title={_("SIZE.HEAD8")}
                                 textContent={[_("SIZE.DESC8_1"), _("SIZE.DESC8_2")]}
                                 buttonText={_("SIZE.BTN_MORE")}
-                                buttonLink={Locale.i18nLink(`coming-soon`)}
+                                buttonLink={Locale.i18nLink(`emotion/biorhythms`)}
                                 buttonColor="#FD7E14"
                             />
                         </div> 

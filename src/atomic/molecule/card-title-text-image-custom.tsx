@@ -12,7 +12,7 @@ interface CardTitleTextImageCustomProps {
     titleFontFam?: CSSProperties["fontFamily"];
     textFontFam?: CSSProperties["fontFamily"];
     imgSrc?: string;
-    imgPosition?: "left-bottom" | "right-bottom";
+    imgPosition?: "left-bottom" | "right-bottom" | "center-bottom";
     shadow?: boolean;
     cardHeight?: string;
     cardWidht?: string;
@@ -73,7 +73,10 @@ export default function CardTitleTextImageCustom({
                     className="position-absolute "
                     style={{
                         bottom: 0,
-                        [imgPosition === "right-bottom" ? "right" : "left"]: 0,
+                        ...(imgPosition === "right-bottom" ? { right: 0 } : 
+                            imgPosition === "left-bottom" ? { left: 0 } : 
+                            imgPosition === "center-bottom" ? { center: 0 } : 
+                            { left: "50%"}),
                         width: "auto",
                         height: imgH,
                         overflow: "hidden"
