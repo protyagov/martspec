@@ -39,8 +39,8 @@ const Article = ({ emotion }: { emotion: string }) => {
                     appId={appId}
                     imgSrc={articleData?.HEADER.IMG_URL ?? ""}
                     imgAlt={articleData?.HEADER.ALT ?? ""}
-                    imgH={278}
-                    imgW={600}
+                    imgH={378}
+                    imgW={700}
                 >
                     <div
                         className="article"
@@ -118,7 +118,7 @@ const Article = ({ emotion }: { emotion: string }) => {
                     subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}
                     appId={appId}
                     appDownloadTitle={_("ANXIETY.DWN")}
-                    imgSrc="/img/page/article/anxiety-call-to-action/call-to-action-en.webp"
+                    imgSrc="/img/page/article/call-to-action/call-to-action-en.webp"
                     imgAlt={articleData?.CALL_TO_ACTION.ALT}
                 />
             </section>
