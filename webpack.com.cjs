@@ -177,7 +177,6 @@ module.exports = {
                 { context: "src/data/team/", from: "*.json", to: "data/team" },
                 { context: "src/data/article/emotion/", from: "**/*.json", to: "data/article/emotion/[path][name][ext]" },
                 { context: "src/img/page/article/", from: "**/*", to: "img/page/article" },
-
             ],
             options: {
                 concurrency: 100,

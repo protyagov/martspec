@@ -16,30 +16,40 @@
   "BODY": [ 
     { 
       "TITLE": "", 
-      "CONTENT": "Anxiety is an emotion characterized by feelings of tension, fear, worry, and even dread. It can cause sweating, restlessness, tension, and a rapid heartbeat.  \nAnxiety can give you energy or help you focus.  \nBut for people with anxiety disorders, fear is not temporary and can be overwhelming.\n\nFear is an emotional response to an immediate threat, and it is more closely related to **the fight-or-flight** reaction  —  the choice to either stay and fight or leave to avoid danger.\n\n Anxiety disorder is a condition that develops gradually after a period of excessive worry. Symptoms can vary in intensity and may persist for extended periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. This can affect work performance, studies, and personal relationships.", 
+      "IMG_SRC": "",
+      "IMG_ALT": "",
+      "CONTENT": "Anxiety is an emotion characterized by feelings of tension, fear, worry, and even dread. It can cause sweating, restlessness, tension, and a rapid heartbeat.  \nAnxiety can give you energy or help you focus.  \nBut for people with anxiety disorders, fear is not temporary and can be overwhelming.\n\nFear is an emotional response to an immediate threat, and it is more closely related to **the fight-or-flight** reaction  —  the choice to either stay and fight or leave to avoid danger.\n\n> Anxiety disorder is a condition that develops gradually after a period of excessive worry. Symptoms can vary in intensity and may persist for extended periods of time. Anxiety disorders can cause people to avoid situations that trigger or worsen their symptoms. This can affect work performance, studies, and personal relationships.", 
       "ACCENT_COLOR": "#85B9CD",
       "BG_COLOR": "" 
     },
     { 
       "TITLE": "### Types of anxiety disorders", 
+      "IMG_SRC": "",
+      "IMG_ALT": "",
       "CONTENT": "The average age of onset for anxiety disorders is 20–24 years.\nThey can occur alongside other mental health disorders, such as depression or post-traumatic stress disorder (PTSD).\nThere are several types of anxiety disorders, including:\n\n- **Generalized Anxiety Disorder (GAD).** People with GAD worry about everyday problems such as health, money, work, and family.\n  It often occurs together with other anxiety disorders or depression, and the worries happen nearly every day for several months.\n\n- **Panic Disorder.** People with panic disorder experience panic attacks.\n  These are sudden, repeated periods of intense fear when there is no real danger.\n  The attacks come on quickly and can last for several minutes or longer.\n\n- **Phobias.** People with phobias have an intense fear of something that poses little or no real danger.\n  Their fear may be related to spiders, flying, crowded places, or social situations.", 
       "ACCENT_COLOR": "#85B9CD",
       "BG_COLOR": "#F4F5F8" 
     },
     { 
       "TITLE": "### Symptoms", 
+      "IMG_SRC": "",
+      "IMG_ALT": "",
       "CONTENT": "Anxiety disorders have many symptoms.\nEach disorder has different symptoms.\nSymptoms common to anxiety disorders generally include:\n\n- Feeling nervous, anxious, or tense\n- A sense of impending danger, panic, or doom\n- Rapid heartbeat\n- Trembling\n- Feeling weak or tired\n- Difficulty concentrating or thinking about anything other than present worry\n- Sleep problems\n- Gastrointestinal (GI) issues\n- Sweaty or cold hands and/or feet", 
       "ACCENT_COLOR": "#85B9CD",
       "BG_COLOR": "" 
     },
     { 
       "TITLE": "### Signs of an anxiety disorder", 
+      "IMG_SRC": "",
+      "IMG_ALT": "",
       "CONTENT": "Causes of anxiety disorders are currently unknown, but they likely involve a combination of factors, including genetic, environmental, psychological, and developmental influences.\nSome factors that have been involved include:\n\n- **Brain chemistry.** Severe or prolonged stress may contribute to changes in the brain’s chemical balance.\n- **Experiences.** Stressful or traumatic events can also contribute to the onset of anxiety feelings.\n- **Family history.** Having close family members with symptoms of an anxiety disorder increases the risk that a person may also develop an anxiety condition.\n- **Genetic factors.** Certain genes may predispose a person to a higher likelihood of developing an anxiety disorder.\n- **Illnesses.** Some underlying medical conditions may contribute to the onset of anxiety feelings. These include chronic pain, heart disease, diabetes, thyroid problems, respiratory diseases, drug use, and drug withdrawal.\n- **Diet.** Recently, more people have been paying attention to the connection between diet and anxiety. Factors such as GMOs, gluten, and pesticides found in processed foods may negatively affect the state of our gut and microbial colonies. A probiotic supplement high in bifidobacteria may be beneficial for maintaining a healthy gut flora composition.", 
       "ACCENT_COLOR": "#85B9CD",
       "BG_COLOR": "#F4F5F8"
     },
     { 
       "TITLE": "### Diagnosis and Treatment", 
+      "IMG_SRC": "/img/page/article/anxiety-bottom.webp",
+      "IMG_ALT": "Man is smiling and looking at the phone screen",
       "CONTENT": "In today's world, anxiety has become a common problem that can seriously affect a person's quality of life and psychological well-being.\nHowever, thanks to technological advancements, we can turn to mobile applications such as *Emotsiya* and other innovative solutions for diagnosing and even assisting in the treatment of anxiety.\n\nTreatment of anxiety is a complex process that may include psychotherapy, pharmacological therapy, and lifestyle changes.\nAlthough each anxiety disorder has unique characteristics, most respond well to two types of treatment: psychotherapy or \"talk therapy\" and medication.\nCognitive Behavioral Therapy (CBT), a type of talk therapy, can help a person learn different ways of thinking, reacting, and behaving to reduce anxiety.\nMedications do not cure anxiety disorders but can significantly alleviate symptoms.\nThe most commonly used medications are sedatives and antidepressants.\n\n> Mobile applications can be effective tools for self-managing anxiety at early stages, but it is always recommended to seek professional consultation and support from a qualified specialist.\n\nOverall, the use of mobile applications represents a promising direction in anxiety diagnosis.\nThey help people better understand their emotional state, learn to manage anxiety, and improve their quality of life.\nThe *Emotsiya* mobile application offers a convenient and accessible way to assess anxiety levels and receive management recommendations.\nThe app provides the ability to track emotional states and analyze factors causing anxiety.", 
       "ACCENT_COLOR": "#85B9CD",
       "BG_COLOR": "" 

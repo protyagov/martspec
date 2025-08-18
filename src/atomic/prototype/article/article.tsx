@@ -39,8 +39,8 @@ const Article = ({ emotion }: { emotion: string }) => {
                     appId={appId}
                     imgSrc={articleData?.HEADER.IMG_URL ?? ""}
                     imgAlt={articleData?.HEADER.ALT ?? ""}
-                    imgH={390}
-                    imgW={712}
+                    imgH={278}
+                    imgW={600}
                 >
                     <div
                         className="article"
@@ -57,7 +57,7 @@ const Article = ({ emotion }: { emotion: string }) => {
                 </Header>
             </div>
 
-            <div className="container">
+            <div className="article__container">
                 <h2 className="article-title">{articleData?.TITLE}</h2>
                 <img
                     className="img-fluid"
@@ -80,7 +80,32 @@ const Article = ({ emotion }: { emotion: string }) => {
                                 className={`article-section ${hasBg ? "article-section--with-bg" : ""}`}
                             >
                                 <ReactMarkdown>{item.TITLE}</ReactMarkdown>
-                                <ReactMarkdown>{item.CONTENT}</ReactMarkdown>
+                                {item.IMG_SRC ? (
+                                    <img
+                                        className="img-fluid"
+                                        src={item.IMG_SRC}
+                                        alt={item.IMG_ALT}
+                                        width={1300}
+                                        height={700}
+                                    />
+                                ) : null}
+                                <div>
+                                    <ReactMarkdown
+                                        components={{
+                                            blockquote: ({ node, ...props }) => (
+                                                <blockquote
+                                                    {...props}
+                                                    style={{
+                                                        borderLeft: `6px solid ${item.ACCENT_COLOR ?? "#ccc"}`,
+                                                    }}
+                                                    className="quotes"
+                                                />
+                                            ),
+                                        }}
+                                    >
+                                        {item.CONTENT}
+                                    </ReactMarkdown>
+                                </div>
                             </div>
                         </section>
                     );
@@ -92,8 +117,8 @@ const Article = ({ emotion }: { emotion: string }) => {
                     title={articleData?.CALL_TO_ACTION.TITLE ?? ""}
                     subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}
                     appId={appId}
-                    appDownloadTitle={_("WAIST.DWN")}
-                    imgSrc="/img/page/waistline/waist-banner-en.webp"
+                    appDownloadTitle={_("ANXIETY.DWN")}
+                    imgSrc="/img/page/article/anxiety-call-to-action/call-to-action-en.webp"
                     imgAlt={articleData?.CALL_TO_ACTION.ALT}
                 />
             </section>
