@@ -26,6 +26,7 @@ import Careers from "@/atomic/page/careers";
 import VacancyDetails from "@/atomic/prototype/vacancy-details";
 import ComingSoon from "@/atomic/page/coming-soon";
 import Iron from "@/atomic/page/iron";
+import Article from "@/atomic/prototype/article/article";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -54,12 +55,12 @@ export function App() {
             return <Magnesium />
         case "/emotion":
             return <Emotion />;
-        case "/emotion/productivity":
-            return <Productivity />;
+        // case "/emotion/productivity":
+        //     return <Productivity />;
         case "/emotion/biorhythms":
             return <Biorhythms />;
-        case "/emotion/anxiety":
-            return <Anxiety />;
+        // case "/emotion/anxiety":
+        //     return <Anxiety />;
         case "/emotion/harmony":
             return <Harmony />;
         case "/emotion/independence":
@@ -88,7 +89,8 @@ export function App() {
                 const [, pagePath, currentPath] = url.split("/");
     
                 if (pagePath === "vitamin") return <VitaminElement id={currentPath} />;
-                if (pagePath === "careers") return <VacancyDetails position={currentPath}/>;
+            if (pagePath === "careers") return <VacancyDetails position={currentPath} />;
+            if (pagePath === "emotion") return <Article emotion={currentPath} />;
 
             return <Error_404 />;
     }

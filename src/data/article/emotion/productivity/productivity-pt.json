@@ -1,0 +1,71 @@
+{
+  "HEADER": {
+    "TITLE": "Produtividade",
+    "IMG_URL": "/img/page/productivity/productivity.svg", 
+    "HEADER_BODY" : {
+      "LI_1": "Estresse, ansiedade, depressão?",
+      "LI_2": "Descubra a causa das mudanças de humor",
+      "LI_3": "Melhore o bem-estar aplicando nossos métodos exclusivos"
+    },
+    "ALT": "Acesso às estatísticas sem iPhone",
+    "ACCENT_COLOR": "#DF9A5B"
+  }, 
+  "TITLE": "O que é produtividade?",
+  "IMG_URL": "/img/page/article/productivity-top.webp",
+  "IMG_ALT": "Organização eficaz do espaço de trabalho",
+  "BODY": [ 
+    { 
+      "TITLE": "",
+      "IMG_SRC": "",
+      "IMG_ALT": "", 
+      "CONTENT": "Produtividade é um termo usado nos negócios, embora na realidade possa ser aplicado a todas as áreas da vida. A produtividade pessoal significa quão consistentemente e de forma eficaz uma pessoa executa tarefas ou alcança objetivos.\n> Gerenciamento de tempo é um conjunto de habilidades e ferramentas que ajudam no uso eficaz do tempo. No entanto, a palavra produtividade vem de produto, e por isso coloca o foco justamente no produto. Tempo e recursos são secundários.", 
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "" 
+    },
+    { 
+      "TITLE": "### Características de uma pessoa produtiva",
+      "IMG_SRC": "",
+      "IMG_ALT": "", 
+      "CONTENT": "Uma pessoa produtiva é aquela que consistentemente gerencia de forma eficaz seu tempo, recursos e esforços para alcançar objetivos e resultados significativos. Pessoas produtivas são conhecidas por sua capacidade de executar tarefas de maneira eficiente sem sacrificar a qualidade. Aqui estão algumas características e hábitos-chave de uma pessoa produtiva:\n\n- **Foco em objetivos.** Pessoas produtivas estabelecem metas e prioridades claras. Elas sabem exatamente o que querem alcançar e trabalham com determinação para isso.\n\n- **Gerenciamento de tempo.** Valorizam seu tempo e o utilizam com sabedoria. Priorizam tarefas, dedicam tempo às ações importantes e evitam atividades que desperdiçam tempo.\n\n- **Foco e concentração.** Mantêm a atenção nas tarefas, evitando distrações e a multitarefa. Isso as ajuda a realizar o trabalho de forma mais eficiente e com melhor qualidade.\n\n- **Priorização de tarefas.** Identificam as tarefas mais impactantes e as executam antes das menos importantes, garantindo que o essencial seja concluído primeiro.\n\n- **Comunicação eficaz.** Comunicadores claros e diretos, evitam conversas desnecessárias, minimizando mal-entendidos e economizando tempo.\n\n- **Aprendizado contínuo.** Estão abertas a aprender novas habilidades e a melhorar seus conhecimentos. Essa mentalidade adaptável as mantém eficazes em um mundo em constante mudança.\n\n- **Saber dizer “não”.** Conhecem seus limites e não hesitam em recusar tarefas adicionais quando já estão sobrecarregadas.\n\n- **Equilíbrio entre vida pessoal e profissional.** A produtividade não vem às custas do bem-estar. Elas entendem a importância do equilíbrio e reservam tempo para descanso, hobbies e momentos com entes queridos.", 
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "#F4F5F8" 
+    },
+    { 
+      "TITLE": "### Produtividade e desempenho",
+      "IMG_SRC": "/img/page/article/productivity-bottom.webp",
+      "IMG_ALT": "A equipe está trabalhando, brainstorming", 
+      "CONTENT": "É importante entender a diferença entre produtividade e desempenho. Desempenho se refere à quantidade de trabalho realizada em um período específico, enquanto produtividade se concentra em alcançar melhores resultados no mesmo período.\n\nQuando falamos em trabalhar mais rápido e melhor, estamos falando de aumentar o desempenho, ou seja, fazer mais tarefas em menos tempo, o que exige bom gerenciamento do tempo e capacidade de organizar o trabalho.\n\nPor outro lado, produtividade é o foco em garantir melhores resultados na execução do trabalho. Isso significa buscar constantemente melhorar a qualidade, desenvolvendo novas habilidades ou usando métodos mais eficazes.\n\n> Os principais fatores para alcançar alta produtividade e desempenho não são apenas a velocidade ou a quantidade de trabalho feito, mas também o nível de qualidade. Isso pode ser resolvido com bom planejamento, gerenciamento do tempo e desenvolvimento contínuo de habilidades e conhecimentos.", 
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "" 
+    },
+    { 
+      "TITLE": "### Vantagens da produtividade",
+      "IMG_SRC": "",
+      "IMG_ALT": "", 
+      "CONTENT": "Pessoas produtivas possuem um conjunto valioso de habilidades e hábitos que aumentam significativamente a qualidade de suas vidas. Elas sentem menos estresse graças à capacidade de resolver tarefas de forma eficaz, e essa tranquilidade se reflete nos relacionamentos, fortalecendo os laços com os outros. Sua mentalidade orientada para resultados muitas vezes leva ao crescimento profissional, pois são valorizadas por suas entregas consistentes e de alta qualidade.\n\nO impacto da produtividade vai além das conquistas pessoais, já que pessoas produtivas tendem a ser colaboradores e membros de equipe eficientes. Sua organização e cumprimento de prazos as tornam ativos valiosos em trabalhos coletivos. Além disso, sua inclinação para o crescimento pessoal inspira os outros e cria uma cultura de aprendizado contínuo.\n\nEm essência, pessoas produtivas estão mais preparadas para aproveitar oportunidades, sentir satisfação pessoal e influenciar positivamente quem está ao seu redor. Sua capacidade de alinhar esforços e objetivos contribui para uma vida marcada por conquistas, contentamento e conexões significativas.", 
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "#F4F5F8"
+    },
+    { 
+      "TITLE": "### Como se tornar mais produtivo?",
+      "IMG_SRC": "",
+      "IMG_ALT": "", 
+      "CONTENT": "Aumentar a produtividade não acontece da noite para o dia. Embora para algumas pessoas isso pareça fácil, sua habilidade de planejar e usar o tempo com eficiência geralmente vem de hábitos sólidos desenvolvidos ao longo do tempo. Para se tornar mais produtivo, foque nas seguintes estratégias:\n\n- **Defina metas claras:** estabeleça objetivos específicos e alcançáveis para guiar seus esforços.\n\n- **Priorize tarefas:** identifique as tarefas mais importantes e realize-as primeiro.\n\n- **Minimize distrações:** crie um espaço de trabalho focado e reduza ao máximo as interrupções.\n\n- **Planeje e organize-se:** use listas de tarefas, calendários e ferramentas para planejar de forma eficaz.\n\n- **Faça pausas entre tarefas:** divida grandes tarefas em etapas menores para manter a motivação.\n\n- **Delegue:** sempre que possível, passe tarefas para outras pessoas a fim de liberar seu tempo.\n\n- **Use a tecnologia:** aproveite aplicativos e ferramentas para otimizar tarefas e comunicações.\n\n> Quer ser mais produtivo? Procure seguir essas regras. Foco, organização, atenção, autocuidado e gestão das distrações são habilidades essenciais para aproveitar ao máximo seu tempo.", 
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "" 
+    },
+    {
+      "TITLE": "### Carreiras para pessoas produtivas",
+      "IMG_SRC": "",
+      "IMG_ALT": "",
+      "CONTENT": "Uma pessoa produtiva pode ter sucesso em uma ampla variedade de profissões graças ao gerenciamento eficaz do tempo, mentalidade focada em resultados e capacidade de concentração. No entanto, ao escolher uma carreira, é importante considerar pontos fortes, interesses e valores pessoais. Aqui vão alguns exemplos de áreas nas quais pessoas produtivas podem se destacar.\n\nEsses resultados mostram que pessoas muito abertas tendem a preferir carreiras que envolvem ideias abstratas, criatividade, design, pesquisa aberta e ambientes não estruturados. Embora exista uma ampla gama de profissões com esse perfil, alguns exemplos com alto teor artístico, alto teor investigativo e baixo teor tradicional incluem:\n\n- Empreendedorismo\n- Gestão de projetos\n- Trabalho freelance\n- Consultoria\n- Pesquisador ou analista\n- TI e programação\n- Funções de liderança\n- Marketing digital\n- Criação de conteúdo\n- Profissões na área da saúde\n\nCarreiras nas quais as qualidades da produtividade podem não se encaixar tão bem:\n- Artes criativas\n- Serviço social\n- Funções não estruturadas\n- Vendas\n- Trabalho repetitivo e intensivo\n- Piloto comercial\n\nLembre-se: o mais importante é encontrar um equilíbrio entre uma carreira que se alinhe às suas habilidades naturais e uma que o desafie e inspire. Embora algumas profissões pareçam mais adequadas para pessoas produtivas, paixão pessoal, aprendizado contínuo e adaptabilidade podem levar ao sucesso em várias áreas.",
+      "ACCENT_COLOR": "#DF9A5B",
+      "BG_COLOR": "#F4F5F8"
+    }
+  ],
+  "CALL_TO_ACTION": {
+    "TITLE": "Nosso aplicativo está disponível para qualquer dispositivo",
+    "SUBTITLE": "Baixe o aplicativo agora e comece a monitorar as mudanças de humor até mesmo ao longo de um único dia",
+    "ALT": "Acesso às estatísticas sem iPhone"
+  }
+}
