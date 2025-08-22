@@ -77,3 +77,8 @@ $electrolyte-colors: (
     "bg":map-get($bgs-new, "new-gray"),
 );
 
+$body-size-breakpoints: (
+  "wide": 1170px,
+  "medium": 800px
+);
+
