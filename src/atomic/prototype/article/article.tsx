@@ -39,8 +39,8 @@ const Article = ({ emotion }: { emotion: string }) => {
                     appId={appId}
                     imgSrc={articleData?.HEADER.IMG_URL ?? ""}
                     imgAlt={articleData?.HEADER.ALT ?? ""}
-                    imgH={378}
-                    imgW={700}
+                    imgH={405}
+                    imgW={505}
                 >
                     <div
                         className="article"

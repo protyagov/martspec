@@ -63,8 +63,8 @@ export function App() {
         //     return <Anxiety />;
         case "/emotion/harmony":
             return <Harmony />;
-        case "/emotion/independence":
-            return <Independence />;
+        // case "/emotion/independence":
+        //     return <Independence />;
         case "/emotion/energy":
             return <Energy />;
         case "/emotion/openness":
