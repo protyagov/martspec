@@ -1,0 +1,63 @@
+{
+  "HEADER": {
+    "TITLE": "Independence",
+    "IMG_URL": "/img/page/independence/independence.svg", 
+    "HEADER_BODY" : {
+      "LI_1": "Stress, anxiety, depression?",
+      "LI_2": "Find out the cause of mood swings",
+      "LI_3": "Enhance your well-being using our exclusive methods"
+    },
+    "ALT": "Access to statistics without an iPhone",
+    "ACCENT_COLOR": "#FF8675"
+  }, 
+  "TITLE": "What is independence?",
+  "IMG_URL": "/img/page/article/independence-top.webp",
+  "IMG_ALT": "A woman in a business suit is smiling",
+  "BODY": [ 
+    { 
+      "TITLE": "", 
+      "IMG_SRC": "",
+      "IMG_ALT": "",
+      "CONTENT": "Independence is a personality trait in which a person consistently prefers to act based on their own thoughts and feelings rather than listening to the opinions of others. This means that you do not rely on others to achieve your goals and face life’s challenges head-on. \n People with independent personality types are usually very self-confident and resourceful, and they often have a strong sense of self-reliance. They can also be considered stubborn and resilient, and they usually prefer to take responsibility rather than follow someone else’s lead. \n> People with independent personality types are often very successful in fields that require creative thinking or problem-solving, as they are not afraid to think outside the box. However, they may also find it difficult to work in a team, as they can resist authority figures.", 
+      "ACCENT_COLOR": "#FF8675",
+      "BG_COLOR": "" 
+    },
+    { 
+      "TITLE": "### Types and Characteristics of Independence", 
+      "IMG_SRC": "",
+      "IMG_ALT": "",
+      "CONTENT": "- **Personal independence.** This involves making decisions about one’s personal life, such as career choices, lifestyle, and relationships, without the need for constant approval or involvement from others. \n\n- **Intellectual independence.** People with intellectual independence can form their own opinions, beliefs, and viewpoints based on their own research and analysis, rather than accepting ideas uncritically. \n\n- **Financial independence.** Financially independent people are able to manage their finances, make investment decisions, and meet financial obligations without relying on others. \n\n- **Emotional independence.** Emotionally independent people can manage their emotions, pursue personal growth, and find inner satisfaction rather than depending on emotional support from others. \n\n- **Professional independence.** This refers to the ability to work autonomously, show initiative, and make decisions in a professional context without constant supervision.", 
+      "ACCENT_COLOR": "#FF8675",
+      "BG_COLOR": "#F4F5F8" 
+    },
+    { 
+      "TITLE": "### How to Determine if You Have an Independent Personality Type?", 
+      "IMG_SRC": "/img/page/article/independence-bottom.webp",
+      "IMG_ALT": "A woman is walking confidently down the street",
+      "CONTENT": "Determining whether you have an independent personality type involves self-awareness, self-reflection, and consideration of your behavior, preferences, and tendencies. Such people often prefer to make decisions based on their own judgments and values, solving problems on their own without seeking help. \n\nThey tend to be confident and assertive, with a strong sense of self, and they often express their unique points of view. They prefer to maintain control over their lives and tasks. They are less likely to give in to peer pressure or societal expectations if these contradict their own beliefs and desires. People with independent personality types also tend to actively seek opportunities for self-improvement and personal growth, often pursuing them on their own. \n\nRemember that personality traits exist on a wide spectrum, and no one is entirely independent or entirely dependent on others. People may display varying degrees of independence in different areas of their lives and depending on the context. Moreover, having an independent personality type does not mean you should avoid collaboration or teamwork; rather, it is about finding the balance that works best for you.", 
+      "ACCENT_COLOR": "",
+      "BG_COLOR": "" 
+    },
+    { 
+      "TITLE": "### Problems of an Independent Personality Type", 
+      "IMG_SRC": "",
+      "IMG_ALT": "",
+      "CONTENT": "Although having an independent personality can be advantageous in many ways, it is important to understand that this trait also comes with challenges and potential problems. Here are some issues that people with a strong independent personality type may face: \n\n- **Stubbornness.** A tendency to rely solely on one’s own perspective and decisions can lead to stubbornness. This may make it difficult to accept alternative viewpoints or adapt to changing circumstances. \n\n- **Limited collaboration.** A highly independent person may struggle to collaborate effectively in a group. They may resist compromise or have difficulty relinquishing control. \n\n- **Perfectionism.** Independent individuals may set high standards for themselves and strive for perfection. This can result in excessive stress and frustration when things don’t go as planned. \n\n- **Resistance to authority.** Those with strong independence may resist authority figures or rules that they perceive as restricting their autonomy. \n\n- **Limited feedback.** A reluctance to accept feedback from others can hinder personal growth and improvement. Avoiding constructive criticism deprives them of opportunities for self-development. \n\n- **Relationship challenges.** Strongly independent people may find it difficult to form deep emotional connections in relationships due to a fear of relying on others. This can affect both friendships and romantic partnerships. \n\n- **Missed opportunities.** A reluctance to rely on others or seek collaboration may cause them to miss valuable opportunities that require teamwork or collective effort. \n\nIt is important to note that these challenges are not universal for all people with an independent personality type. Many of them can be mitigated through self-awareness, deliberate efforts to develop emotional intelligence and communication skills, and a willingness to find a healthy balance between independence and collaboration.", 
+      "ACCENT_COLOR": "#FF8675",
+      "BG_COLOR": "#F4F5F8"
+    },
+    {
+      "TITLE": "### Career Interests for Independent People",
+      "IMG_SRC": "",
+      "IMG_ALT": "",
+      "CONTENT": "Independence as a personality trait reflects a person’s ability and tendency to think and act autonomously, without relying heavily on external influence for guidance or validation. Independent people tend to make decisions based on their own beliefs, values, and judgments rather than conforming to social norms or seeking constant approval. This trait is often associated with self-confidence, critical thinking, and a strong sense of individuality. Suitable careers for such individuals include: \n\n- Entrepreneurship \n- Freelancing or consulting \n- Creative professions: art, music, and design \n- Research and analysis \n- Leadership positions \n- Innovation and startups \n- Consulting and strategy \n- Academic and research careers \n- Artistic work \n\nIt is important to note that while independence can contribute to success in these fields, collaboration and effective communication skills are also valuable in most professions. Finding a balance between independence and teamwork is crucial for a fulfilling career path. Additionally, individuals are unique, and their career trajectory can be influenced by a combination of traits and interests beyond just independence.",
+      "ACCENT_COLOR": "#FF8675",
+      "BG_COLOR": ""
+    }
+  ],
+  "CALL_TO_ACTION": {
+    "TITLE": "Our app is available for any device",
+    "SUBTITLE": "Download the app right now and start tracking your mood changes even within the same day",
+    "ALT": "Access to statistics without an iPhone"
+  }
+}

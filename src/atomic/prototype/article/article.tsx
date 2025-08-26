@@ -39,8 +39,8 @@ const Article = ({ emotion }: { emotion: string }) => {
                     appId={appId}
                     imgSrc={articleData?.HEADER.IMG_URL ?? ""}
                     imgAlt={articleData?.HEADER.ALT ?? ""}
-                    imgH={378}
-                    imgW={700}
+                    imgH={405}
+                    imgW={505}
                 >
                     <div
                         className="article"
@@ -112,7 +112,7 @@ const Article = ({ emotion }: { emotion: string }) => {
                 })}
             </div>
 
-            <section>
+            <section className="article__container">
                 <CallToAction
                     title={articleData?.CALL_TO_ACTION.TITLE ?? ""}
                     subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}
