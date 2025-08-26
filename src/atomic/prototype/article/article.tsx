@@ -112,7 +112,7 @@ const Article = ({ emotion }: { emotion: string }) => {
                 })}
             </div>
 
-            <section>
+            <section className="article__container">
                 <CallToAction
                     title={articleData?.CALL_TO_ACTION.TITLE ?? ""}
                     subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}

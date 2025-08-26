@@ -86,9 +86,22 @@
     max-width: 370px;
   }
 }
+
+@media (min-width: 450px) {
+  .article__container {
+    max-width: 420px;
+  }
+}
+
 @media (min-width: 500px) {
   .article__container {
     max-width: 470px;
+  }
+}
+
+@media (min-width: 550px) {
+  .article__container {
+    max-width: 520px;
   }
 }
 
@@ -99,10 +112,6 @@
 }
 
 @media (min-width: 900px) {
-  .article__container {
-    max-width: 850px;
-  }
-  
   .article-section--with-bg {
     padding: 50px;
   }
