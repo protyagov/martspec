@@ -11,6 +11,7 @@ interface CardTitleTextImageProps {
     imgAlt?: string;
     titleColor?: CSSProperties["color"];
     textColor?: CSSProperties["color"];
+    bgColor?: CSSProperties["color"];
     imgPosition?: "default" | "bottom-right"
 }
 
@@ -23,10 +24,13 @@ export default function CardTitleTextImage({
     imgAlt,
     titleColor = "#212529",
     textColor = "#595959",
+    bgColor = "#FFFFFF",
     imgPosition="default"
 }: CardTitleTextImageProps): React.ReactNode {
     return (
-        <div className="card-title-text-image d-flex flex-column h-100 rounded-5 shadow">
+        <div className="card-title-text-image d-flex flex-column h-100 rounded-5 shadow"
+        {...(bgColor && { style: { backgroundColor: bgColor } })}
+        >
             <div className="p-lg-5 p-4 mb-3">
                 <h3 className="mb-3 pe-5 fs-4 lh-sm" style={{ color: titleColor }}>
                     {title}
@@ -35,7 +39,7 @@ export default function CardTitleTextImage({
                     {text}
                 </p>
             </div>
-            <div className={`mx-5 mt-auto align-self-center ${imgPosition === 'bottom-right' ? 'img-bottom-right' : ''}`}>
+            <div className={`mx-5${imgPosition === 'bottom-right' ? 'img-bottom-right' : ''}`}>
                 <ImageI18N src={imgSrc} w={imgW} h={imgH} alt={imgAlt} cls="img-fluid m-0" />
             </div>
         </div>

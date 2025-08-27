@@ -19,10 +19,9 @@ export default function LandingPage() {
         <div className="flex-grow-1 flex-shrink-0">
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new">
+            <div className="ms-base-page">
                 <Header
                     title={_("MAIN.HEAD")}
-                    content={<p className="font-normal mb-1">{_("MAIN.SUBHEAD")}</p>}
                     rowItems={
                         <>
                             <Counter
@@ -41,12 +40,14 @@ export default function LandingPage() {
                                 altText={_("MAIN.COUNTERS.COUNTER_3.ALT")}
                             />
                         </>
-                        }
+                    }
                     imgSrc="/img/page/main/Img-Header-en.webp"
-                    imgH={496}
-                    imgW={674}
+                    imgH={405}
+                    imgW={550}
                     imgAlt={_("MAIN.ALT")}
-                />
+                >
+                    <p className="font-normal mb-1">{_("MAIN.SUBHEAD")}</p>
+                </Header>
             </div>
 
             <section className="ms-s-offset mb-0 ms-base-new ms-base-page">
@@ -61,16 +62,24 @@ export default function LandingPage() {
                         />
                     </div>
                     <div>
-                        <h2 className="mb-5 m-0" style={{fontSize: "3.08rem"}}>{_("MAIN.HEAD2")}</h2>
-                        <ul className="d-flex flex-column gap-4 simplify-life-list" style={{ listStyleType: "disc", paddingLeft: "1.4rem" }}>
+                        <h2 className="mb-5 m-0" style={{ fontSize: "3.08rem" }}>
+                            {_("MAIN.HEAD2")}
+                        </h2>
+                        <ul
+                            className="d-flex flex-column gap-4 simplify-life-list"
+                            style={{ listStyleType: "disc", paddingLeft: "1.4rem" }}
+                        >
                             <li>
-                                <strong>{_("MAIN.LIST.LI1_HEAD")}</strong>{_("MAIN.LIST.LI1_TEXT")}
+                                <strong>{_("MAIN.LIST.LI1_HEAD")}</strong>
+                                {_("MAIN.LIST.LI1_TEXT")}
                             </li>
                             <li>
-                                <strong>{_("MAIN.LIST.LI2_HEAD")}</strong>{_("MAIN.LIST.LI2_TEXT")}
+                                <strong>{_("MAIN.LIST.LI2_HEAD")}</strong>
+                                {_("MAIN.LIST.LI2_TEXT")}
                             </li>
                             <li>
-                                <strong>{_("MAIN.LIST.LI3_HEAD")}</strong>{_("MAIN.LIST.LI3_TEXT")}
+                                <strong>{_("MAIN.LIST.LI3_HEAD")}</strong>
+                                {_("MAIN.LIST.LI3_TEXT")}
                             </li>
                         </ul>
                     </div>
@@ -90,7 +99,7 @@ export default function LandingPage() {
                             subtitle={_("VITAMIN.SUBHEAD")}
                             content={_("VITAMIN.TEXT")}
                             button={{
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("VITAMIN.BUTTON_OPEN"),
                                 link: Locale.i18nLink("vitamin"),
                                 color: "#1686FF",
                             }}
@@ -100,10 +109,10 @@ export default function LandingPage() {
                         />
                     </div>
                 </div>
-                
-                <div className="row g-3 d-flex align-items-stretch mb-5">
-                    <div className="col-xl-4 col-sm-6 d-flex">
-                        {/* Кольцо Витамин */}
+
+                <div className="row g-3 gap-10-responsive align-items-stretch mb-5">
+                    <div className="col-xl col-sm d-flex">
+                        {/* Нутриенты */}
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/vitamin/vitamin-ring-icon-main-page.svg"
@@ -113,13 +122,13 @@ export default function LandingPage() {
                             content={_("VITAMIN.TEXT1")}
                             button={{
                                 buttonType: "ButtonChevronRight",
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("VITAMIN.BUTTON_OPEN_NUTRIENTS"),
                                 link: Locale.i18nLink("vitamin"),
                                 color: "#1686FF",
                             }}
                         />
                     </div>
-                    <div className="col-xl-4 col-sm-6 d-flex">
+                    <div className="col-xl col-sm d-flex">
                         {/* Электролит */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -130,13 +139,13 @@ export default function LandingPage() {
                             content={_("ELECTROLYTE.TEXT1")}
                             button={{
                                 buttonType: "ButtonChevronRight",
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("ELECTROLYTE.BUTTON_OPEN"),
                                 link: Locale.i18nLink("electrolyte"),
                                 color: "#1686FF",
                             }}
                         />
                     </div>
-                    <div className="col-xl-4 col-sm-12 d-flex">
+                    <div className="col-xl col-sm-12 d-flex">
                         {/* Цинк */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -147,7 +156,7 @@ export default function LandingPage() {
                             content={_("ZINC.TEXT1")}
                             button={{
                                 buttonType: "ButtonChevronRight",
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("ZINC.BUTTON_OPEN"),
                                 link: Locale.i18nLink("bodyzinc"),
                                 color: "#1686FF",
                             }}
@@ -165,7 +174,7 @@ export default function LandingPage() {
                         subtitle={_("SIZE.SUBHEAD")}
                         content={_("SIZE.TEXT")}
                         button={{
-                            text: _("CAREERS.BUTTON3"),
+                            text: _("SIZE.BUTTON_OPEN"),
                             link: Locale.i18nLink("bodysize"),
                             color: "#1686FF",
                         }}
@@ -187,7 +196,7 @@ export default function LandingPage() {
                             content={_("MASS.TEXT")}
                             button={{
                                 buttonType: "ButtonChevronRight",
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("MASS.BUTTON_OPEN"),
                                 link: Locale.i18nLink("bodymass"),
                                 color: "#1686FF",
                             }}
@@ -204,7 +213,7 @@ export default function LandingPage() {
                             content={_("WAIST.TEXT")}
                             button={{
                                 buttonType: "ButtonChevronRight",
-                                text: _("CAREERS.BUTTON3"),
+                                text: _("WAIST.BUTTON_OPEN"),
                                 link: Locale.i18nLink("waistline"),
                                 color: "#1686FF",
                             }}
@@ -222,7 +231,7 @@ export default function LandingPage() {
                         subtitle={_("EMOTION.SUBHEAD")}
                         content={_("EMOTION.TEXT")}
                         button={{
-                            text: _("CAREERS.BUTTON3"),
+                            text: _("EMOTION.BUTTON_OPEN"),
                             link: Locale.i18nLink("emotion"),
                             color: "#1686FF",
                         }}
@@ -244,10 +253,10 @@ export default function LandingPage() {
                             content={_("MAGNESIUM.TEXT")}
                             button={{
                                 buttonType: "LinkStyledButton",
-                                text: _("COMING_SOON.SOON_BTN"),
-                                link: Locale.i18nLink("coming-soon"),
+                                text: _("MAGNESIUM.BUTTON_OPEN"),
+                                link: Locale.i18nLink("magnesium"),
                                 color: "#E5EEFF",
-                                textColor: "#1686FF"
+                                textColor: "#1686FF",
                             }}
                         />
                     </div>
@@ -262,10 +271,10 @@ export default function LandingPage() {
                             content={_("CALCIUM.TEXT")}
                             button={{
                                 buttonType: "LinkStyledButton",
-                                text: _("COMING_SOON.SOON_BTN"),
+                                text: _("CALCIUM.BUTTON_OPEN"),
                                 link: Locale.i18nLink("coming-soon"),
                                 color: "#E5EEFF",
-                                textColor: "#1686FF"
+                                textColor: "#1686FF",
                             }}
                         />
                     </div>
@@ -280,15 +289,14 @@ export default function LandingPage() {
                             content={_("IRON.TEXT")}
                             button={{
                                 buttonType: "LinkStyledButton",
-                                text: _("COMING_SOON.SOON_BTN"),
-                                link: Locale.i18nLink("coming-soon"),
+                                text: _("IRON.BUTTON_OPEN"),
+                                link: Locale.i18nLink("iron"),
                                 color: "#E5EEFF",
-                                textColor: "#1686FF"
+                                textColor: "#1686FF",
                             }}
                         />
                     </div>
                 </div>
-
                 <div className="col-12 mb-5 energy-card">
                     {/* Энергия */}
                     <CardAppLarge
@@ -299,10 +307,10 @@ export default function LandingPage() {
                         subtitle={_("ENERGY.SUBHEAD_MAIN")}
                         content={_("ENERGY.TEXT_MAIN")}
                         button={{
-                            text: _("COMING_SOON.SOON_BTN"),
-                            link: Locale.i18nLink("coming-soon"),
+                            text: _("ENERGY.BUTTON_OPEN"),
+                            link: Locale.i18nLink("emotion/energy"),
                             color: "#E5EEFF",
-                            textColor: "#1686FF"
+                            textColor: "#1686FF",
                         }}
                         imageSrc="/img/page/energy/energy-main-page.webp"
                         imageAlt={_("ENERGY.IMG")}
@@ -311,7 +319,7 @@ export default function LandingPage() {
                 </div>
             </section>
 
-                {/*
+            {/*
                     div wrapper for proper side margins and fonts, 
                     it's only needed for this page 
                     and can be easily removed when this page is redesigned.

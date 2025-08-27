@@ -3,7 +3,6 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import PageHeader from "@/atomic/molecule/page-header";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
@@ -55,23 +54,24 @@ export default function Emotion() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new emotion">
+            <div className="ms-base-page emotion">
                 <Header
                     title={_("EMOTION.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("EMOTION.DWN")}
                     imgSrc="/img/page/emotion/emotion-header-img-en.webp"
                     imgAlt={_("EMOTION.IMG")}
-                    imgH={531}
-                    imgW={722}
-                    content={
+                    imgH={405}
+                    imgW={550}
+                >
+                    <div className="emotion">
                         <ul className="header-content-list">
                             <li>{_("EMOTION.ABOUT_1")}</li>
                             <li>{_("EMOTION.ABOUT_2")}</li>
                             <li>{_("EMOTION.ABOUT_3")}</li>
                         </ul>
-                    }
-                />
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row g-4">
@@ -254,7 +254,7 @@ export default function Emotion() {
                             <div className="block bg-violet">
                                 <h3>{_("EMOTION.LIST6.LI1_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST6.LI1_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/anxiety")} className="ms-read-more-btn">
+                                <a href={Locale.i18nLink("emotion/anxiety")} className="ms-read-more-btn-emotion">
                                     <span>{_("EMOTION.LIST6.BTN")}</span>
                                 </a>
                             </div>
@@ -263,7 +263,7 @@ export default function Emotion() {
                             <div className="block bg-green">
                                 <h3>{_("EMOTION.LIST6.LI2_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST6.LI2_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/productivity")} className="ms-read-more-btn">
+                                <a href={Locale.i18nLink("emotion/productivity")} className="ms-read-more-btn-emotion">
                                     <span>{_("EMOTION.LIST6.BTN")}</span>
                                 </a>
                             </div>
@@ -272,7 +272,7 @@ export default function Emotion() {
                             <div className="block bg-aqua">
                                 <h3>{_("EMOTION.LIST6.LI3_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST6.LI3_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/harmony")} className="ms-read-more-btn">
+                                <a href={Locale.i18nLink("emotion/harmony")} className="ms-read-more-btn-emotion">
                                     <span>{_("EMOTION.LIST6.BTN")}</span>
                                 </a>
                             </div>
@@ -281,7 +281,7 @@ export default function Emotion() {
                             <div className="block bg-orange">
                                 <h3>{_("EMOTION.LIST6.LI4_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST6.LI4_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/independence")} className="ms-read-more-btn">
+                                <a href={Locale.i18nLink("emotion/independence")} className="ms-read-more-btn-emotion">
                                     <span>{_("EMOTION.LIST6.BTN")}</span>
                                 </a>
                             </div>
@@ -290,7 +290,7 @@ export default function Emotion() {
                             <div className="block bg-yellow">
                                 <h3>{_("EMOTION.LIST6.LI5_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST6.LI5_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/energy")} className="ms-read-more-btn">
+                                <a href={Locale.i18nLink("emotion/energy")} className="ms-read-more-btn-emotion">
                                     <span>{_("EMOTION.LIST6.BTN")}</span>
                                 </a>
                             </div>
@@ -299,7 +299,7 @@ export default function Emotion() {
                             <div className="block bg-blue">
                                 <h3>{_("EMOTION.LIST6.LI6_HEAD")}</h3>
                                 <p>{_("EMOTION.LIST6.LI6_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/openness")} className="ms-read-more-btn">
+                                <a href={Locale.i18nLink("emotion/openness")} className="ms-read-more-btn-emotion">
                                     <span>{_("EMOTION.LIST6.BTN")}</span>
                                 </a>
                             </div>
@@ -410,7 +410,6 @@ export default function Emotion() {
                     />
                 </section>
             </div>
-
 
             <Footer />
             <ScrollButton color="#7B62FE" />

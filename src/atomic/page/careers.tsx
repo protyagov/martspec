@@ -64,10 +64,9 @@ const Careers = () => {
     return (
         <>
             <NavigationBar />
-            <div className="ms-base-page ms-base-new careers">
+            <div className="ms-base-page careers">
                 <Header
                     title={_("CAREERS.SUBHEAD")}
-                    content={<p className="font-normal">{_("CAREERS.ABOUT")}</p>}
                     rowItems={
                         <>
                             {rowItemsData.map((item, index) => (
@@ -81,7 +80,9 @@ const Careers = () => {
                     imgH={496}
                     imgW={674}
                     imgAlt={_("MAIN.ALT")}
-                />
+                >
+                    <p className="font-normal">{_("CAREERS.ABOUT")}</p>
+                </Header>
 
                 <section>
                     <div className="row d-flex justify-content-between g-4">
@@ -145,7 +146,7 @@ const Careers = () => {
                                 image={image}
                                 imageOpacity={0.3}
                                 alt={getAlt()}
-                                arrowImage={<img src="/img/arrow-right.svg" width={7} height="auto"/>}
+                                arrowImage={<img src="/img/arrow-right.svg" width={7} height="auto" />}
                                 color="#248ce1"
                                 hoverColor="#0a58ca"
                                 imageZIndex={0}

@@ -2,9 +2,8 @@ import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import PageHeader from "@/atomic/molecule/page-header";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import CallToAction from "@/atomic/organism/call-to-action";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import Header from "@/atomic/organism/header";
@@ -203,27 +202,28 @@ export default function Vitamin() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new vitamin">
+            <div className="ms-base-page vitamin">
                 <Header
                     title={_("VITAMIN.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("VITAMIN.DWN")}
                     imgSrc="/img/page/vitamin/vitamin-header-en.webp"
                     imgAlt={_("VITAMIN.IMG")}
-                    imgH={531}
-                    imgW={722}
-                    content={
+                    imgH={405}
+                    imgW={550}
+                >
+                    <div className="vitamin">
                         <ul className="header-content-list">
                             <li>{_("VITAMIN.ABOUT_1")}</li>
                             <li>{_("VITAMIN.ABOUT_2")}</li>
                             <li>{_("VITAMIN.ABOUT_3")}</li>
                         </ul>
-                    }
-                />
+                    </div>
+                </Header>
 
                 <section>
-                    <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
-                        <div className="col">
+                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                        <div className="col col-md-4">
                             <CardTitleTextImage
                                 title={_("VITAMIN.LIST1.LI1_HEAD")}
                                 text={_("VITAMIN.LIST1.LI1_TEXT")}
@@ -233,7 +233,7 @@ export default function Vitamin() {
                                 imgAlt={_("VITAMIN.ALT6")}
                             />
                         </div>
-                        <div className="col p-0">
+                        <div className="col col-md-4 p-0">
                             <div className="row row-cols-1 h-100 p-0">
                                 <div className="col py-0">
                                     <CardTitleText
@@ -251,7 +251,7 @@ export default function Vitamin() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col col-md-4">
+                        <div className="col col-md-4 col-md-4">
                             <CardImage
                                 imgSrc="/img/page/vitamin/vitamin-watches-en.webp"
                                 imgH={720}
@@ -405,20 +405,9 @@ export default function Vitamin() {
                         subtitle={_("VITAMIN.DESC6")}
                         appId={appId}
                         appDownloadTitle={_("VITAMIN.DWN")}
-                        imgSrc="/img/org/call-to-action/vitamin/vitamin-screen-app-en.webp"
+                        imgSrc="/img/org/call-to-action/vitamin/Img-CallToAction-en.webp"
                         imgAlt={_("VITAMIN.ALT3")}
                     />
-                    {/* <div>
-                            <h2>{_("VITAMIN.HEAD6")}</h2>
-                            <p className="flex-grow-1">{_("VITAMIN.DESC6")}</p>
-                            <a href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
-                                target="_blank" title={_("VITAMIN.DWN")} className="ms-btn-apple mt-5 mx-lg-0 mx-auto"
-                                style={{ backgroundImage: 'url(/img/apple_btn/' + Locale.language + '.svg)' }}>
-                            </a>
-                        </div>
-                        <ImageI18N src="/img/page/vitamin/vitamin-screen-app-en.webp" w={400} h={400} cls="ms-base-image ms-lg-auto me-lg-0" alt={_("VITAMIN.ALT4")} /> */}
-                    {/* </div> */}
-                    {/* </div> */}
                 </section>
             </div>
             <Footer />

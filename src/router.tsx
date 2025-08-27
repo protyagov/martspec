@@ -5,6 +5,7 @@ import WaistLine from "@/atomic/page/waist";
 import Electrolyte from "@/atomic/page/electrolyte";
 import Bodymass from "@/atomic/page/mass";
 import Vitamin from "@/atomic/page/vitamin";
+import Magnesium from "@/atomic/page/magnesium";
 import VitaminElement from "@/atomic/prototype/vitamin-element";
 import PrivacyPolicy from "@/atomic/page/private-policy";
 import { Locale } from "@/i18n/locale";
@@ -14,7 +15,6 @@ import Emotion from "@/atomic/page/emotion";
 import Productivity from "@/atomic/page/emotion/productivity";
 import Biorhythms from "@/atomic/page/emotion/biorhythms";
 import About from "@/atomic/page/about";
-import Mission from "@/atomic/page/mission";
 import Team from "@/atomic/page/team";
 import Anxiety from "@/atomic/page/emotion/anxiety";
 import Harmony from "@/atomic/page/emotion/harmony";
@@ -25,6 +25,8 @@ import ColorTest from "@/atomic/page/emotion/color-test";
 import Careers from "@/atomic/page/careers";
 import VacancyDetails from "@/atomic/prototype/vacancy-details";
 import ComingSoon from "@/atomic/page/coming-soon";
+import Iron from "@/atomic/page/iron";
+import Article from "@/atomic/prototype/article/article";
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -49,14 +51,16 @@ export function App() {
             return <Vitamin />;
         case "/bodyzinc":
             return <BodyZinc />;
+        case "/magnesium":
+            return <Magnesium />
         case "/emotion":
             return <Emotion />;
-        case "/emotion/productivity":
-            return <Productivity />;
+        // case "/emotion/productivity":
+        //     return <Productivity />;
         case "/emotion/biorhythms":
             return <Biorhythms />;
-        case "/emotion/anxiety":
-            return <Anxiety />;
+        // case "/emotion/anxiety":
+        //     return <Anxiety />;
         case "/emotion/harmony":
             return <Harmony />;
         case "/emotion/independence":
@@ -73,19 +77,20 @@ export function App() {
             return <PrivacyPolicy />;
         case "/about":
             return <About />;
-        case "/mission":
-            return <Mission />;
         case "/team":
             return <Team />;
         case "/careers":
             return <Careers />;
+        case "/iron":
+            return <Iron />;
         case "/coming-soon":
             return <ComingSoon />;
             default:
                 const [, pagePath, currentPath] = url.split("/");
     
                 if (pagePath === "vitamin") return <VitaminElement id={currentPath} />;
-                if (pagePath === "careers") return <VacancyDetails position={currentPath}/>;
+            if (pagePath === "careers") return <VacancyDetails position={currentPath} />;
+            if (pagePath === "emotion") return <Article emotion={currentPath} />;
 
             return <Error_404 />;
     }

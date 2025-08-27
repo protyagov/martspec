@@ -20,14 +20,13 @@ export const HeaderStory: Story = () => {
                 imgAlt={_("VITAMIN.IMG")}
                 imgH={531}
                 imgW={722}
-                content={
-                    <ul className="header-content-list">
-                        <li>{_("VITAMIN.ABOUT_1")}</li>
-                        <li>{_("VITAMIN.ABOUT_2")}</li>
-                        <li>{_("VITAMIN.ABOUT_3")}</li>
-                    </ul>
-                }
-            />
+            >
+                <ul className="header-content-list">
+                    <li>{_("VITAMIN.ABOUT_1")}</li>
+                    <li>{_("VITAMIN.ABOUT_2")}</li>
+                    <li>{_("VITAMIN.ABOUT_3")}</li>
+                </ul>
+            </Header>
         </div>
     );
 };

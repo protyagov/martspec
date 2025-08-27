@@ -18,7 +18,6 @@ const LinkStyledButton: React.FC<LinkStyledButtonProps> = ({
   return (
     <a 
       href={link} 
-      target="_blank" 
       rel="noopener noreferrer"
       className={`btn ${className}`} 
       style={{ backgroundColor: color, color: textColor }}  

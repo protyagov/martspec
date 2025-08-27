@@ -1,0 +1,18 @@
+.iron {
+    .header-content-list{
+        li {
+            &::marker {
+                color: #FE460A;
+            }
+        }
+    }
+    &__reviews{
+        .text-link-arrow{
+            color: rgba(254, 70, 10, 1) !important;
+        }
+    }
+}
+
+html[lang="es"] .card-title-text .pe-4{
+    padding-right: 0 !important;
+}

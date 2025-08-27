@@ -1,27 +1,54 @@
 .bodysize {
-    padding-top: 60px;
-    .new-page-header {
-        margin: 2.5rem auto 9.375rem!important;
-        .header-image{
-            @include media-breakpoint-down(md) {
-                transform: none;
-            }
-        }
-    }
-    .header-content-list {
+    .header-content-list{
         li {
             &::marker {
-                color: #fd7e14;
+                color: #FD7E14;
             }
         }
     }
-
-    .headings {
-        h1 {
-            font-size: 5rem;
-            @include media-breakpoint-down(sm) {
-                font-size: 3rem;
-            }
-        }
+    
+}
+.how-head{
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 18px;
+        max-width: 549px;
     }
 }
+.how-list {
+        flex-wrap: wrap;
+
+        li {
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 8px;
+        }
+
+        @include media-breakpoint-down(md) {
+            li {
+                flex-basis: calc(50% - (#{$column-x-gap} / 2));
+            }
+
+            li:last-child {
+                flex-basis: 100%;
+            }
+        }
+    }
+.waist-info-section {
+    h2 {
+        font-size: 3.08rem;
+        margin-bottom: 1.9rem;
+    }
+}
+.info-list {
+        padding: 0px!important;
+        p {
+            margin-bottom: 1rem !important;
+        }
+        .card-icon-title-text {
+            flex-grow: 1;
+        }
+    }

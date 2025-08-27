@@ -3,11 +3,10 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import PageHeader from "@/atomic/molecule/page-header";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
-import CallToAction from "@/atomic/organism/call-to-action";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
@@ -53,23 +52,24 @@ export default function BodyZinc() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new zinc">
+            <div className="ms-base-page zinc">
                 <Header
                     title={_("ZINC.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("ZINC.DWN")}
                     imgSrc="/img/page/zinc/img-header-en.webp"
                     imgAlt={_("ZINC.IMG")}
-                    imgH={531}
-                    imgW={722}
-                    content={
+                    imgH={405}
+                    imgW={550}
+                >
+                    <div className="zinc">
                         <ul className="header-content-list">
                             <li>{_("ZINC.ABOUT_1")}</li>
                             <li>{_("ZINC.ABOUT_2")}</li>
                             <li>{_("ZINC.ABOUT_3")}</li>
                         </ul>
-                    }
-                />
+                    </div>
+                </Header>
 
                 <section>
                     <div className="row g-4">
@@ -157,7 +157,6 @@ export default function BodyZinc() {
                 <section>
                     <div className="row">
                         <CallToAction
-                            bgColor={{ backgroundColor: "#AAF1CF" }}
                             title={_("ZINC.HEAD5")}
                             subtitle={_("ZINC.DESC5")}
                             appId={appId}
@@ -169,7 +168,7 @@ export default function BodyZinc() {
                 </section>
             </div>
             <Footer />
-            <ScrollButton color="#72E796"/>
+            <ScrollButton color="#72E796" />
         </>
     );
 }

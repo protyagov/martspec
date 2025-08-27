@@ -7,8 +7,8 @@
         "WIKI": "Leer artículo completo sobre WiKi"
     },
     "MAIN": {
-        "HEAD": "Haz del cuidado de tu salud un hábito",
-        "SUBHEAD": "Hecho con cuidado para ti",
+        "HEAD": "Convertir la salud en un hábito",
+        "SUBHEAD": "Libera todo tu potencial con tecnología basada en la ciencia, creada con cuidado para ti",
         "ALT": "Aplicaciones de Vitamina y Emoción para tu iPhone y Apple Watch",
         "COUNTERS": {
             "COUNTER_1": {
@@ -52,8 +52,12 @@
         }
     },
     "NAV": {
-        "APPS": "Aplicaciones",
-        "ABOUT": "Sobre nosotros"
+        "APPS": "Todos los dispositivos",
+        "ABOUT": "Sobre nosotros",
+        "WATCH": "Relojes"
+    },
+    "PROTEIN": {
+        "HEAD": "Proteína"
     },
     "ELECTROLYTE": {
         "HEAD": "Electrólito",
@@ -62,6 +66,7 @@
         "SUBHEAD": "equilibrio hídrico-salino",
         "TEXT": "Los electrolitos juegan un papel vital en el mantenimiento de la homeostasis en el cuerpo. Regulan el funcionamiento del corazón, las funciones neurológicas, el equilibrio de líquidos, la entrega de oxígeno a los tejidos, el equilibrio ácido-base y mucho más.",
         "TEXT1": "Los electrolitos apoyan el funcionamiento del corazón y participan en otros procesos fisiológicos. Controle el nivel de electrolitos en su cuerpo con nuestra aplicación.",
+        "BUTTON_OPEN": "Saber más",
         "ICO": "Ícono para el rastreador de electrolitos más simple para Apple Watch. Siga su consumo de magnesio, calcio, potasio, hierro. Sincronización con Apple Salud. Sin publicidad.",
         "ABOUT_1": "Controla minerales importantes",
         "ABOUT_2": "Forma fácil y conveniente de ingresar lecturas de electrolitos desde el Apple Watch",
@@ -103,6 +108,7 @@
         "ICO": "Icono del diario de peso más conveniente. Sincronización con iCloud. Sin anuncios ni autenticación.",
         "IMG": "Una mujer sube a una báscula y mide su peso con un Apple Watch que ejecuta la aplicación Peso de Martspec.",
         "TEXT": "El seguimiento de su peso aumenta su eficiencia en cuanto a su tiempo y entrenamientos. ¡No solo lo impulsará a mejorar, sino que también lo motivará a competir consigo mismo!",
+        "BUTTON_OPEN": "Saber más",
         "DWN": "Descarga la aplicación gratuita Peso desde Apple Store",
         "ABOUT_1": "El diario de control de peso para Apple Watch",
         "ABOUT_2": "Diseñado para adaptarse a la pequeña pantalla del reloj",
@@ -140,6 +146,7 @@
         "ALT5_3": "No es necesaria la autorización de inicio de sesión y contraseña. No se requiere una cuenta para operar la aplicación.",
         "ALT5_4": "Nos preocupamos por nuestros usuarios, por eso no utilizamos publicidad intrusiva en la aplicación.",
         "ALT5_5": "Sincronizar con Apple Salud.",
+        "ALT5_6": "Ícono de reloj inteligente que muestra la compatibilidad de la aplicación con los widgets de Apple Watch, lo que permite a los usuarios rastrear datos fácilmente directamente desde su muñeca.",
         "BTN_OPEN": "Deshágase de la grasa"
     },
     "VITAMIN": {
@@ -147,10 +154,13 @@
         "SUBHEAD": "el mejor rastreador de vitaminas",
         "ICO": "Ícono de la mejor aplicación de seguimiento de vitaminas y minerales para su Apple Watch, iPhone y iPad. Se sincroniza a la perfección con La app Salud. Cero anuncios.",
         "TEXT": "El seguimiento de sus vitaminas esenciales tiene muchos beneficios, desde ayudar a controlar las intolerancias alimentarias hasta aumentar la energía, evitar cambios de humor y estimular el ritmo de su día.",
-        "IMG": "Realice un seguimiento de las vitaminas más esenciales directamente en su muñeca",
-        "HEAD1": "Anillo de Vitaminas",
+        "BUTTON_OPEN": "Saber más",
+      "IMG": "Realice un seguimiento de las vitaminas más esenciales directamente en su muñeca",
+        "HEAD1": "Nutrientes",
         "SUBHEAD1": "Rastreador de nutrientes y medicamentos",
-        "TEXT1": "Rastreador conveniente para la toma de vitaminas. Sincronización de la aplicación con Apple Health. Copia de seguridad en iCloud. Funciona de forma gratuita. Sin anuncios ni compras dentro de la aplicación.",
+        "SUBHEAD2": "Seguidor de nutrientes",
+        "TEXT1": "Un práctico rastreador de ingesta de vitaminas & minerales con recordatorios. Sincronización con Apple Health. Copias de seguridad seguras en iCloud. Gratis. Sin anuncios ni compras dentro de la app.",
+        "BUTTON_OPEN_NUTRIENTS": "Saber más",
         "ICO1": "Icono de la aplicación Anillo de Vitaminas, el mejor rastreador de vitaminas. Sincronización con Apple Health y copia de seguridad en iCloud. Gratis y sin anuncios.",
         "DWN": "Descargue la aplicación gratuita de seguimiento de vitaminas y nutrientes de la AppStore de Apple",
         "ABOUT_1": "Controle su consumo de vitaminas y minerales importantes todos los días",
@@ -920,7 +930,8 @@
         "SUBHEAD": "cintura pequeña - corazón sano",
         "ICO": "Ícono de la mejor aplicación de Apple Watch para rastrear la circunferencia de la cintura. Sincronización completa con La app Salud. Úselo fácilmente sin anuncios, pagos y registro.",
         "TEXT": "La forma más sencilla de realizar un seguimiento de la circunferencia de la cintura en el Apple Watch. Todos los registros se sincronizan con su app Salud de Apple.",
-        "IMG": "Lleve un registro del tamaño de su cintura (ombligo) directamente desde su brazo",
+        "BUTTON_OPEN": "Saber más",
+      "IMG": "Lleve un registro del tamaño de su cintura (ombligo) directamente desde su brazo",
         "DWN": "Descargue la aplicación de cintura gratuita desde la App Store de Apple",
         "ABOUT_1": "Un diario de medida de cintura conveniente y sencillo",
         "ABOUT_2": "Observe su salud",
@@ -980,6 +991,7 @@
         "ICO": "Ícono de nuestra aplicación gratuita Apple Watch que lo ayuda a rastrear el consumo de zinc. Realice registros sobre el zinc dietético desde sus relojes Apple y sincronícelos con La app Salud. No se necesita una aplicación de iPhone complementaria para funcionar. Cero anuncios.",
         "TEXT": "El zinc puede potenciar la función inmunológica, estabilizar los niveles de azúcar en la sangre y contribuir a mantener saludables la piel, los ojos y el corazón.",
         "TEXT1": "Rastreador del contenido de zinc en su cuerpo para Apple Watch. Sincronización con Apple Health. Entrada de datos conveniente. Funciona de forma gratuita y sin anuncios.",
+        "BUTTON_OPEN": "Saber más",
         "IMG": "Rastrea su consumo diario de suplemento de zinc",
         "DWN": "Recibe la aplicación gratuita de Bodyzinc de Apple Store",
         "ABOUT_1": "Un rastreador de zinc simple y fácil de usar",
@@ -1025,13 +1037,33 @@
         "SUBHEAD": "Cuerpo hermoso. ¡Construido por usted!",
         "ICO": "Ícono del mejor rastreador de tamaño corporal en App Store para computadoras Apple Watch, iPhone, iPad y Mac M. Body Size te permite aprender sobre ti mismo para ayudarte a ponerte en forma. Las mediciones se sincronizan automáticamente con la aplicación Health Mate, lo que significa que puede visualizar los resultados con gráficos fáciles de leer. Cero anuncios.",
         "TEXT": "Haga un seguimiento de sus caderas, cintura y pecho con esta aplicación directamente desde su Apple Watch. Total compatibilidad con la app Salud de Apple. Tiempo de carga rápido. Absolutamente gratuita.",
+        "BUTTON_OPEN": "Saber más",
         "IMG": "Mida el tamaño del pecho, el ancho del busto, la circunferencia de la cintura y la longitud de las caderas usando un reloj en su muñeca",
         "DWN": "Obtenga la aplicación gratuita de tamaño corporal para Apple Watch directamente desde Apple App Store",
         "ABOUT": "Rastrea tus caderas, cintura y pecho en tu Apple Watch. Auto calcula la forma del cuerpo usando la fórmula de Bradley Bayou. Soporte completo de La app Salud. Copias de seguridad de iCloud. Tiempo de carga rápido. Absolutamente libre.",
+        "HEAD2": "Cómo funciona",
+        "DESC2_1": "Con la aplicación podrás comprender mejor cómo cambia tu cuerpo e identificar aspectos clave para trabajar en ti mismo. Las mediciones precisas y los cálculos bien pensados proporcionan no solo números, sino una imagen completa de tu condición física, ayudándote a establecer objetivos realistas y realizar un seguimiento del progreso.",
+        "SUBHEAD2_1": "Las métricas personalizadas incluyen:",
+        "LIST": {
+            "LI1_TEXT": "Tipo de cuerpo",
+            "LI2_TEXT": "IMC",
+            "LI3_TEXT": "Requerimientos energéticos",
+            "LI4_TEXT": "Somatotipo",
+            "LI5_TEXT": "Índice de Adonis"
+        },
+        "DESC2_2": "Nuestra aplicación es una herramienta conveniente para rastrear los parámetros de tu cuerpo que hace que el proceso de medición sea preciso, informativo y atractivo. Te ayuda a medir circunferencias corporales y pliegues cutáneos para luego calcular métricas importantes como somatotipo, tipo de cuerpo, índice de masa corporal (IMC) y muchos otros. Ahora el monitoreo corporal no es solo una parte esencial de un estilo de vida saludable, sino también un proceso inspirador y motivador.",
+        "SUBHEAD2_2": "Fácil de usar:",
+        "LIST2": {
+            "LI1_TEXT": "Añadir mediciones",
+            "LI2_TEXT": "Ver progreso",
+            "LI3_TEXT": "Establecer y alcanzar metas",
+            "LI4_TEXT": "Obtener recomendaciones",
+            "LI5_TEXT": "Inspirarte en tus éxitos",
+            "LI6_TEXT": "Descubrir cosas nuevas sobre ti"
+        },
         "HEAD1": "Composición corporal",
         "DESC1": "Cuando estás ganando músculo y perdiendo pulgadas de grasa, tu peso podría no cambiar mucho. Es por eso que la composición corporal puede decirte más que la escala, le dice la historia real.",
         "LINK1": "Línea de salud",
-        "HEAD2": "Pecho",
         "DESC2": "¿Por qué medir? No somos conscientes de cualquier necesidad médica o de bienestar para eso. Sin embargo, el ancho del cofre (busto) es una de las mediciones más importantes de las proporciones del cuerpo perfecto. Se cree que las proporciones correctas son más atractivas que el tamaño general o la altura del cuerpo.",
         "HEAD3": "Cintura",
         "HEAD4": "Caderas",
@@ -1041,13 +1073,55 @@
         "BTN_OPEN": "Mídalo",
         "ABOUT_1": "Cálculo automático de la forma corporal usando la fórmula de Bradley Bayou",
         "ABOUT_2": "Compatibilidad total con Apple Salud",
-        "ABOUT_3": "Copia de seguridad guardada en tu nube personal de iCloud"
+        "ABOUT_3": "Copia de seguridad guardada en tu nube personal de iCloud",
+        "CALL_TO_ACTION": {
+            "HEAD": "Toma Control de tu Cuerpo de Forma Consciente",
+            "DESC": "Personaliza el seguimiento de tu progreso y alcanza tus metas con mediciones adaptadas a ti. Haz que tu camino hacia la salud y forma física ideal sea más consciente, preciso y diseñado para ti"
+        },
+            "LIST1": {
+            "LI1_HEAD": "Forma corporal",
+            "DESC1": "El peso puede permanecer igual mientras se gana músculo y se pierde grasa. Por eso la forma de tu cuerpo refleja mejor la salud.",
+            "LI2_HEAD": "Tipo de cuerpo",
+            "DESC2": "Comprender tu tipo de cuerpo puede ayudar a encontrar el entrenamiento más efectivo y mejorar la salud",
+            "LI3_HEAD": "Índice de Adonis",
+            "DESC3": "El Índice de Adonis se basa en la proporción hombros-cintura asociada con la proporción áurea (1.61). Es clave para la percepción humana de belleza y atractivo",
+            "LI4_HEAD": "Somatotipo",
+            "DESC4": "El somatotipo es el programa hereditario de desarrollo de tejido óseo, graso y muscular, así como la velocidad y nivel de metabolismo en el cuerpo"
+        },
+        "HEAD6": "Nuestras ventajas",
+        "LIST3": {
+            "LI3_1_TITLE": "Protección de datos",
+            "LI3_1_TEXT": "No almacenamos tus datos en nuestros servidores",
+            "LI3_2_TITLE": "Sin registro",
+            "LI3_2_TEXT": "No se requiere una cuenta para esta aplicación",
+            "LI3_3_TITLE": "Sin anuncios",
+            "LI3_3_TEXT": "No tenemos anuncios molestos",
+            "LI3_4_TITLE": "Sincronización",
+            "LI3_4_TEXT": "Los datos se transfieren automáticamente a todos los dispositivos"
+        },
+        "IMG1_ALT": "Protección de datos",
+        "IMG2_ALT": "Sin registro",
+        "IMG3_ALT": "Sin anuncios",
+        "IMG4_ALT": "Sincronización automática",
+        "HEAD7": "¿Por qué es importante la forma del cuerpo?",
+        "LIST4": {
+            "LI4_1_TITLE": "Refleja con mayor precisión el estado de salud",
+            "LI4_1_TEXT": "El peso puede permanecer igual mientras se gana músculo y se pierde grasa al mismo tiempo. Por eso la forma de tu cuerpo refleja mejor tu salud",
+            "LI4_2_TITLE": "Eficacia del entrenamiento",
+            "LI4_2_TEXT": "Descubrir tu verdadera forma corporal es más que una de esas pruebas en línea sin sentido. Comprender la forma del cuerpo puede ayudar a encontrar el entrenamiento más efectivo y mejorar la salud",
+            "LI4_3_TITLE": "Atractivo estético",
+            "LI4_3_TEXT": "El ancho del pecho (busto) es uno de los indicadores más importantes de las proporciones corporales ideales. Se considera que las proporciones correctas son más atractivas que la altura o el tamaño general del cuerpo"
+        },
+        "IMG4_1_ALT": "Salud",
+        "IMG4_2_ALT": "Entrenamiento",
+        "IMG4_3_ALT": "Atractivo"
     },
     "EMOTION": {
         "HEAD": "Emoción",
         "SUBHEAD": "prueba de psicología más rápida",
         "ICO": "Ícono de la prueba de psicología más rápida y conocida en el mundo. Obtén la oportunidad de entender y predecir tus estados de ánimo. Simplemente selecciona 8 colores que te gusten y que no te gusten. Gratis, sin anuncios.",
         "TEXT": "¿Cambio de humor inesperado? ¿Cambios emocionales intensos? Descubra la causa raíz en solo 1 minuto.",
+        "BUTTON_OPEN": "Saber más",
         "IMG": "La prueba de personalidad más rápida del mundo. Selecciona 8 colores y conoce tu estado mental actual.",
         "DWN": "Obtenga la aplicación gratuita para Apple Watch, iPhone o iPad directamente desde la App Store de Apple",
         "ABOUT_1": "¿Estrés, ansiedad, depresión?",
@@ -1238,7 +1312,10 @@
                 "LI5": "Lógica",
                 "LI6": "Capacidad de aprendizaje"
             }
-        }
+        },
+        "ABOUT_1": "Haz un seguimiento de tu actividad física, emocional e intelectual",
+        "ABOUT_2": "Planifica tareas importantes en sincronía con tus biorritmos",
+        "ABOUT_3": "Mejora tu productividad y bienestar cada día"
     },
     "ANXIETY": {
         "HEAD": "Ansiedad",
@@ -1295,7 +1372,11 @@
         "DESK5_2": "La aplicación móvil Emotion ofrece una forma cómoda y accesible de evaluar su nivel de ansiedad y recibir recomendaciones sobre cómo gestionarlo. La aplicación brinda la posibilidad de rastrear sus estados emocionales y analizar los factores que causan ansiedad.",
         "DESK5_3": "El tratamiento de la ansiedad es un proceso complejo que puede incluir psicoterapia, terapia farmacológica y cambios en el estilo de vida. Aunque cada trastorno de ansiedad tiene características únicas, la mayoría responde bien a dos tipos de tratamiento: psicoterapia o “terapia de conversación” y medicación. La terapia cognitivo-conductual (TCC), un tipo de psicoterapia, puede ayudar a una persona a aprender diferentes formas de pensar, reaccionar y comportarse para reducir la ansiedad. Los medicamentos no curarán los trastornos de ansiedad, pero pueden aliviar significativamente los síntomas. Los medicamentos más utilizados son los ansiolíticos y los antidepresivos.",
         "DESK5_4": "Las aplicaciones móviles pueden ser herramientas efectivas para el autocontrol de la ansiedad en las primeras etapas, pero siempre se recomienda buscar asesoramiento y apoyo de un profesional calificado.",
-        "DESK5_5": "En general, el uso de aplicaciones móviles es una dirección prometedora en el diagnóstico de ansiedad. Ayudan a las personas a comprender mejor su estado emocional, aprender a gestionar la ansiedad y mejorar su calidad de vida."
+        "DESK5_5": "En general, el uso de aplicaciones móviles es una dirección prometedora en el diagnóstico de ansiedad. Ayudan a las personas a comprender mejor su estado emocional, aprender a gestionar la ansiedad y mejorar su calidad de vida.",
+
+        "ABOUT_1": "¿Estrés, ansiedad, depresión?",
+        "ABOUT_2": "Descubre la causa de tus cambios de humor",
+        "ABOUT_3": "Mejora tu bienestar con nuestras técnicas exclusivas"
     },
     "PRODUCTIVITY": {
         "HEAD": "Productividad",
@@ -1377,7 +1458,11 @@
             "LI4_TEXT": "Ventas.",
             "LI5_TEXT": "Trabajo intensivo de rutina."
         },
-        "DESK6_3": "Recuerde, la clave es encontrar un equilibrio entre una carrera que se adapte a sus inclinaciones naturales y una carrera que lo desafíe y lo entusiasme. Si bien algunas carreras pueden parecer más adecuadas para personas productivas, la pasión personal, el aprendizaje continuo y la capacidad de adaptación pueden conducir al éxito en una amplia gama de áreas."
+        "DESK6_3": "Recuerde, la clave es encontrar un equilibrio entre una carrera que se adapte a sus inclinaciones naturales y una carrera que lo desafíe y lo entusiasme. Si bien algunas carreras pueden parecer más adecuadas para personas productivas, la pasión personal, el aprendizaje continuo y la capacidad de adaptación pueden conducir al éxito en una amplia gama de áreas.",
+
+        "ABOUT_1": "¿Estrés, ansiedad, depresión?",
+        "ABOUT_2": "Descubre la causa de tus cambios de humor",
+        "ABOUT_3": "Mejora tu bienestar con nuestras técnicas exclusivas"
     },
     "HARMONY": {
         "HEAD": "Armonía",
@@ -1433,7 +1518,11 @@
             "LI8_HEAD": "Buscando apoyo:",
             "LI8_TEXT": "comuníquese con amigos, familiares o un profesional de salud mental cuando sea necesario. Hablar de sus sentimientos y problemas puede aportar claridad y aliviar la carga emocional."
         },
-        "DESK5": "Recuerde, lograr la armonía interna es un viaje continuo y es natural experimentar fluctuaciones en su estado emocional. Ten paciencia contigo mismo y celebra las pequeñas victorias en el camino. Incorporar estas prácticas a tu vida diaria puede conducirte gradualmente a una mayor sensación de paz interior y bienestar."
+        "DESK5": "Recuerde, lograr la armonía interna es un viaje continuo y es natural experimentar fluctuaciones en su estado emocional. Ten paciencia contigo mismo y celebra las pequeñas victorias en el camino. Incorporar estas prácticas a tu vida diaria puede conducirte gradualmente a una mayor sensación de paz interior y bienestar.",
+
+        "ABOUT_1": "¿Estrés, ansiedad, depresión?",
+        "ABOUT_2": "Descubre la causa de tus cambios de humor",
+        "ABOUT_3": "Mejora tu bienestar con nuestras técnicas exclusivas"
     },
     "INDEPENDENCE": {
         "HEAD": "Independencia",
@@ -1509,31 +1598,129 @@
             "LI8_TEXT": "Ámbito académico e investigación.",
             "LI9_TEXT": "Actividades artísticas."
         },
-        "DESK6_2": "Es importante señalar que, si bien la independencia puede contribuir al éxito en estos campos, la colaboración y las habilidades de comunicación efectiva también son valiosas en la mayoría de las profesiones. Encontrar un equilibrio entre independencia y trabajo en equipo es esencial para una carrera profesional satisfactoria. Además, las personas son únicas y su trayectoria profesional puede verse influenciada por una combinación de rasgos e intereses distintos de la independencia."
+        "DESK6_2": "Es importante señalar que, si bien la independencia puede contribuir al éxito en estos campos, la colaboración y las habilidades de comunicación efectiva también son valiosas en la mayoría de las profesiones. Encontrar un equilibrio entre independencia y trabajo en equipo es esencial para una carrera profesional satisfactoria. Además, las personas son únicas y su trayectoria profesional puede verse influenciada por una combinación de rasgos e intereses distintos de la independencia.",
+
+        "ABOUT_1": "¿Estrés, ansiedad, depresión?",
+        "ABOUT_2": "Descubre la causa de tus cambios de humor",
+        "ABOUT_3": "Mejora tu bienestar con nuestras técnicas exclusivas"
     },
     "MAGNESIUM": {
         "HEAD": "Magnesio",
+        "HEAD1": "Nuestras ventajas",
+        "HEAD2": "Por qué magnesio",
         "ICO": "Ícono de la aplicación para el seguimiento diario de tus niveles de magnesio.",
         "SUBHEAD": "Rastreador de magnesio para reloj",
-        "TEXT": "Seguimiento simple de magnesio directamente en tu muñeca. Diseño minimalista, widgets para el reloj y sincronización con Apple Health. Sin anuncios y sin registro."
+        "TEXT": "Seguimiento simple de magnesio directamente en tu muñeca. Diseño minimalista, widgets para el reloj y sincronización con Apple Health. Sin anuncios y sin registro.",
+        "BUTTON_OPEN": "Mejora relajación",
+        "ABOUT_1": "Un rastreador de magnesio cómodo y fácil de usar para Apple Watch",
+        "ABOUT_2": "Copias de seguridad automáticas en iCloud",
+        "ABOUT_3": "Integración completa con Apple Health",
+        "ABOUT_4": "Nuestra aplicación está disponible para cualquier dispositivo Apple Watch",
+        "ABOUT_5": "Descarga la aplicación ahora y empieza a controlar tus minerales esenciales",
+        "LIST1": {
+            "LI1_HEAD": "Algoritmo de cálculo y adaptación",
+            "LI2_HEAD": "Todas las funciones útiles",
+            "LI3_HEAD": "Widgets informativos",
+            "LI1_TEXT": "El algoritmo para calcular la dosis diaria utiliza tus datos de Apple Health y los adapta según recomendaciones oficiales de fuentes médicas",
+            "LI2_TEXT": "Planifica tu monitoreo personal y el consumo de magnesio con horarios e historial de tomas",
+            "LI3_TEXT": "Widgets prácticos con la información necesaria y recordatorios para la ingesta y el seguimiento del magnesio"
+        },
+        "LI1_IMG_ALT": "Aplicación para el seguimiento del nivel de magnesio",
+        "LI2_IMG_ALT": "Controla fácilmente tu nivel de magnesio",
+            "DESC2_1": "El magnesio favorece la salud del corazón al regular el ritmo cardíaco y reducir el riesgo de hipertensión arterial",
+        "DESC2_2": "Reduce la tensión muscular y previene los calambres al mejorar el funcionamiento del sistema neuromuscular",
+        "DESC2_3": "Ayuda a manejar el estrés, mejora la calidad del sueño y apoya el equilibrio mental",
+        "DESC2_4": "Participa en el metabolismo energético, aumentando la resistencia física y el rendimiento mental",
+        "BTN_MORE": "Más información",
+        "IMG_ALT": "La causa principal de la tensión muscular, los calambres y el mal sueño es la deficiencia de magnesio",
+        "SECTION": {
+            "TITLE": "Deficiencia de magnesio: el riesgo invisible",
+            "TEXT": "El magnesio participa en más de 300 reacciones bioquímicas, desde la síntesis del ADN hasta la regulación del funcionamiento del corazón y los músculos. Sin embargo, millones de personas en todo el mundo sufren su carencia sin siquiera saberlo"
+        },
+        "LIST_IMG_1": {
+            "TITLE": "Una estadística que da que pensar",
+            "TEXT": "Según la Organización Mundial de la Salud (OMS), hasta el 30 % de la población mundial sufre deficiencia de magnesio. En los países desarrollados, este problema afecta a uno de cada dos adultos"
+        },
+        "LIST_IMG_2": {
+            "TITLE": "Dato curioso",
+            "TEXT": "Incluso con una alimentación equilibrada, el 50 % de las personas no alcanza la cantidad diaria recomendada de magnesio. ¿La razón? El agotamiento del suelo y el uso de fertilizantes que reducen el contenido mineral de las verduras y los cereales"
+        },
+        "LIST_IMG_3": {
+            "TITLE": "¿Cómo compensar la deficiencia?",
+            "TEXT": "Para compensar eficazmente la deficiencia de magnesio, es importante no solo incluir alimentos ricos en este mineral y suplementos recomendados en la dieta, sino también controlar el consumo diario"
+        },
+        "LIST2": {
+            "LI2_1_TITLE": "Protección de datos",
+            "LI2_1_TEXT": "No almacenamos tus datos en nuestros servidores",
+            "LI2_2_TITLE": "Sin registro",
+            "LI2_2_TEXT": "No se necesita una cuenta para usar esta aplicación",
+            "LI2_3_TITLE": "Sin anuncios",
+            "LI2_3_TEXT": "No mostramos anuncios molestos",
+            "LI2_4_TITLE": "Sincronización con Apple",
+            "LI2_4_TEXT": "Se sincroniza con Apple Health"
+        },
+        "IMG1_ALT": "Se sincroniza con Apple Health",
+        "IMG2_ALT": "Sin registro",
+        "IMG3_ALT": "Sin anuncios",
+        "IMG4_ALT": "Sincronización con Apple"
     },
     "CALCIUM": {
         "HEAD": "Calcio",
         "ICO": "Ícono de la aplicación para el seguimiento diario de tus niveles de calcio.",
         "SUBHEAD": "Rastreador de calcio para reloj",
-        "TEXT": "Seguimiento simple de calcio directamente en tu muñeca. Los widgets para el reloj y la sincronización con Apple Health lo hacen conveniente. Diseño limpio, sin anuncios y sin necesidad de iniciar sesión."
+        "TEXT": "Seguimiento simple de calcio directamente en tu muñeca. Los widgets para el reloj y la sincronización con Apple Health lo hacen conveniente. Diseño limpio, sin anuncios y sin necesidad de iniciar sesión.",
+        "BUTTON_OPEN": "Fortalece huesos"
     },
     "IRON": {
         "HEAD": "Hierro",
-        "ICO": "Ícono de la aplicación para el seguimiento diario de tus niveles de hierro.",
-        "SUBHEAD": "Rastreador de hierro para reloj",
-        "TEXT": "Monitoreo eficiente de hierro en tu Apple Watch. Realiza un seguimiento fácil de tu ingesta diaria. Diseño minimalista, widgets para el reloj y sincronización con Apple Health. Sin anuncios y sin pasos innecesarios."
+        "HEAD1": "Nuestras ventajas",
+        "HEAD2": "¿Por qué el hierro?",
+        "ABOUT_1": "Un rastreador de hierro simple e intuitivo",
+        "ABOUT_2": "Usa la app en tu Apple Watch",
+        "ABOUT_3": "Sincronización con Apple Salud",
+        "ABOUT_4": "Nuestra aplicación está disponible para cualquier dispositivo Apple Watch",
+        "ABOUT_5": "Descarga la aplicación ahora y empieza a controlar tus minerales esenciales",
+        "ICO": "Icono de la app para el seguimiento diario de tus niveles de hierro.",
+        "SUBHEAD": "Rastreador de hierro para tu reloj",
+        "TEXT": "Monitorea tus niveles de hierro de forma efectiva en tu Apple Watch. Haz un seguimiento fácil de tu consumo diario. Diseño minimalista, widgets para el reloj y sincronización con Apple Salud. Sin anuncios ni pasos innecesarios.",
+        "BUTTON_OPEN": "Combate fatiga",
+        "LIST1": {
+            "LI1_HEAD": "Sigue tu hierro fácilmente",
+            "LI2_HEAD": "Esferas avanzadas",
+            "LI3_HEAD": "Funciona sin iPhone",
+            "LI1_TEXT": "La app te ayuda a controlar tu ingesta diaria de hierro y a seguir tu progreso sin complicadas tablas ni esfuerzos extra.",
+            "LI2_TEXT": "Acceso rápido a tus estadísticas directamente en el reloj, compatible con todas las esferas desde WatchOS 6.",
+            "LI3_TEXT": "La app funciona de forma independiente del iPhone — consulta tus estadísticas incluso sin el teléfono."
+        },
+        "LI1_IMG_ALT": "App para controlar el nivel de hierro",
+        "LI2_IMG_ALT": "Sigue tu hierro fácilmente",
+        "DESC2_1": "El hierro es un elemento clave para la salud de la sangre y el bienestar general.",
+        "DESC2_2": "El hierro es esencial para transportar oxígeno en el cuerpo y mantener la energía y la claridad mental.",
+        "DESC2_3": "La deficiencia de hierro es una de las principales causas de anemia, lo que provoca debilidad y fatiga.",
+        "DESC2_4": "Apoya las funciones cognitivas y fortalece el sistema inmunológico.",
+        "BTN_MORE": "Saber más",
+        "LIST2": {
+            "LI2_1_TITLE": "Protección de datos",
+            "LI2_1_TEXT": "No almacenamos tus datos en nuestros servidores",
+            "LI2_2_TITLE": "Sin registro",
+            "LI2_2_TEXT": "No se requiere cuenta para esta aplicación",
+            "LI2_3_TITLE": "Sin anuncios",
+            "LI2_3_TEXT": "No tenemos anuncios molestos",
+            "LI2_4_TITLE": "Sincronización con Apple",
+            "LI2_4_TEXT": "Sincroniza con Apple Salud"
+        },
+        "IMG_ALT": "La causa principal de la anemia acompañada de debilidad y fatiga es la deficiencia de hierro",
+        "IMG1_ALT": "Protección de datos",
+        "IMG2_ALT": "Sin registro",
+        "IMG3_ALT": "Sin anuncios",
+        "IMG4_ALT": "Sincronización con Apple"
     },
     "ENERGY": {
         "HEAD_MAIN": "Energía",
         "ICO_MAIN": "Icono de la aplicación para el seguimiento diario de su nivel de energía.",
         "SUBHEAD_MAIN": "Desafíos diarios con seguimiento del progreso",
         "TEXT_MAIN": "Realice desafíos diarios y siga su progreso personal para alcanzar su meta. Saltarse días llevará al fracaso de su misión. Obtenga recompensas por sus logros, elija el nivel de dificultad y mucho más en la aplicación „Energía“.",
+        "BUTTON_OPEN": "Prospera naturalmente",
         "HEAD": "Energía",
         "IMG": "Energía",
         "DWN": "Obtenga la aplicación Emoción gratuita para Apple Watch, iPhone o iPad directamente desde la App Store de Apple.",
@@ -1601,7 +1788,11 @@
             "LI9_TEXT": "Guía turístico.",
             "LI10_TEXT": "Industria de la moda y la belleza."
         },
-        "DESK5_2": "Las personas enérgicas deben considerar sus fortalezas, intereses y valores al elegir opciones profesionales. Es importante encontrar una trayectoria profesional que coincida con sus cualidades naturales, pero que también deje espacio para el crecimiento y el bienestar personal."
+        "DESK5_2": "Las personas enérgicas deben considerar sus fortalezas, intereses y valores al elegir opciones profesionales. Es importante encontrar una trayectoria profesional que coincida con sus cualidades naturales, pero que también deje espacio para el crecimiento y el bienestar personal.",
+
+        "ABOUT_1": "¿Estrés, ansiedad, depresión?",
+        "ABOUT_2": "Descubre la causa de tus cambios de humor",
+        "ABOUT_3": "Mejora tu bienestar con nuestras técnicas exclusivas"
     },
     "OPENNESS": {
         "HEAD": "Apertura",
@@ -1664,7 +1855,11 @@
         "DESK6_2": "Olvide los interminables cuestionarios con sus secas escalas de \"totalmente de acuerdo\". Deseche las etiquetas y descubre su auténtica apertura a la experiencia, y más, en tan solo 60 segundos con la aplicación Emotion. Esta herramienta revolucionaria salta el análisis tedioso y se sumerge directamente en las vibrantes profundidades de su subconsciente.",
         "DESK6_3": "¿Intrigado por descubrir cuán abierto es realmente? ¿Anhelas aventuras en el aprendizaje, pinceladas de creatividad y saludos a lo desconocido? ¿O prospera en ritmos predecibles, la lógica de los números y la comodidad de reglas claras? ¡Su respuesta se encuentra en el fascinante mundo de la apertura a la experiencia! La aplicación Emotion pinta un retrato detallado de su paisaje interior, revelando sus preferencias de una manera que ninguna otra aplicación puede ofrecer.",
         "DESK6_4": "¿Está alto en esta escala? Podría ser un explorador de espíritu libre, deambulando por galerías, devorando conocimiento como un artista hambriento y haciendo amistad con desconocidos como piezas de un rompecabezas perdido. ¿Bajo en apertura? Podría ser un tradicionalista arraigado, encontrando consuelo en las rutinas, construyendo castillos de lógica y apreciando la belleza de una hoja de cálculo perfectamente equilibrada.",
-        "DESK6_5": "¿Y sabe qué? ¡Ambos son igualmente impresionantes! La aplicación Emotion le ayuda a descubrir su combinación única de apertura (además de todo un arcoíris de otras características emocionales) en tan solo 60 segundos. Sin etiquetas, sin juicios, simplemente una auténtica autodescubrimiento para guiarle hacia elecciones satisfactorias y un camino personalizado hacia el crecimiento."
+        "DESK6_5": "¿Y sabe qué? ¡Ambos son igualmente impresionantes! La aplicación Emotion le ayuda a descubrir su combinación única de apertura (además de todo un arcoíris de otras características emocionales) en tan solo 60 segundos. Sin etiquetas, sin juicios, simplemente una auténtica autodescubrimiento para guiarle hacia elecciones satisfactorias y un camino personalizado hacia el crecimiento.",
+
+        "ABOUT_1": "¿Estrés, ansiedad, depresión?",
+        "ABOUT_2": "Descubre la causa de tus cambios de humor",
+        "ABOUT_3": "Mejora tu bienestar con nuestras técnicas exclusivas"
     },
     "COLOR_TEST": {
         "HEAD1": "Prueba de emociones",
@@ -1723,7 +1918,9 @@
         "BTN_AGAIN": "Haga la prueba nuevamente"
     },
     "FOOTER": {
-        "C": "© 2025 Martspec LLC. Todos los derechos reservados.",
+        "C": "© Martspec LLC, 2025.",
+        "R": "Todos los derechos reservados.",
+        "P": "Política de privacidad.",
         "APPLE_BTN": {
             "TITLE": "Vea todas nuestras aplicaciones de Martspec en App Store de Apple",
             "ALT": "Vea todas nuestras aplicaciones de Martspec en App Store de Apple"
@@ -1754,46 +1951,48 @@
         "CTA": "Síganos en",
         "SOON_BTN": "En desarrollo"
     },
-    "MISSION": {
-        "HEAD": "Misión",
-        "M": "Hacemos que sea rápido y fácil para todos hacer un seguimiento de su salud y bienestar.",
-        "ABOUT_1": "Hacemos que sea rápido y fácil para todos hacer un seguimiento de su salud y bienestar.",
-        "P1": "Nuestra misión nos lleva a hacer todo lo posible para expandir el potencial humano. Lo hacemos siguiendo 3 conceptos básicos:",
-        "P1_1": "Creación de innovaciones tecnológicas innovadoras",
-        "P1_2": "Hacer que nuestras aplicaciones sean más inspiradoras y hermosas",
-        "P1_3": "Escuchar los comentarios de nuestras comunidades",
-        "P2": "Para lograr nuestra ambición, estamos comenzando con la ciencia. La investigación científica y los análisis publicados juegan un papel importante en el desarrollo de mejoras. Con nuestros usuarios, estamos buscando formas de rastrear, medir y aplicar el bienestar de manera más eficiente. La retroalimentación es una herramienta importante para desbloquear futuras innovaciones, incluida la creación de nuevas aplicaciones, mejoras a las existentes e incluso la eliminación de aplicaciones que no benefician a las personas."
-    },
     "ABOUT": {
-        "HEAD": "Sobre nosotros",
-        "P1": "Martspec se fundó 🌱 en la primavera de 2020. Durante ese tiempo, muchas personas trabajaron desde casa y sus rutinas diarias cambiaron, lo que provocó que muchos dejaran de hacer ejercicio con regularidad. Esto llevó cambios significativos en sus cuerpos y su salud.",
-        "P2": "Nuestras aplicaciones de bienestar están diseñadas específicamente para brindar a los usuarios las herramientas necesarias para cultivar hábitos saludables. Al realizar un seguimiento meticuloso de su progreso, a las personas se les recuerda de manera efectiva todos los días su dedicación inquebrantable a su salud, lo que en última instancia conduce a mejoras sustanciales en su bienestar general.",
-        "P3": "Las personas que controlan su bienestar diariamente tienden a lograr mayores avances en comparación con quienes no lo hacen.",
-        "P4": "Creemos apasionadamente en el poder de las ideas para cambiar actitudes, vidas y, en última instancia, el mundo. Nuestra primera idea fue crear una aplicación que realizara un seguimiento del peso corporal directamente desde dispositivos vestibles. Desarrollamos la aplicación Peso para Apple Watch, lo que facilita el seguimiento del peso corporal y registra las mediciones automáticamente en la app Salud de Apple. El diseño limpio y minimalista de la aplicación la ha hecho muy popular.",
-        "P5": "Una de nuestras aplicaciones, Emoción, tiene como objetivo promover el bienestar mental proporcionando una prueba de personalidad rápida y sencilla. Además del seguimiento del bienestar físico y la salud, hemos creado nuestra primera aplicación, Emoción, para promover el bienestar mental. Desde su creación, este producto ha recibido solo reseñas positivas y casi exclusivamente valoraciones de 5 estrellas.",
-        "P6": "Nuestras aplicaciones están diseñadas con tecnología de vanguardia y están disponibles en varios idiomas a nivel mundial. Sin embargo, nada de eso importa. No se trata sólo de la cantidad de aplicaciones y software líder en la industria. Martspec se trata de personas. Martspec se trata de confiar en la tecnología que capacita a las personas con la salud y el bienestar personal."
+        "HEAD": "Nuestra historia",
+        "HEAD1": "Misión",
+        "DESC1": "Controlar tu bienestar debería ser fácil. Intuitivo. Simplemente funcionar. Para todos, en todas partes. En cualquier dispositivo - en tu iPhone, tu Watch, tu iPad.",
+        "DESC2": "Por eso creamos apps que unen tecnología avanzada y diseño humano. Simple. Universal. Mágico.",
+        "DESC3": "Martspec no es solo un nombre; es una promesa de tecnología que empodera, no rastrea. Para una vida más feliz y saludable.",
+        "P1": "Comenzamos con un pequeño proyecto inspirado en la idea de hacer que las soluciones digitales sean más accesibles y comprensibles. Desde entonces, hemos crecido hasta convertirnos en un equipo que crea aplicaciones utilizadas por miles de personas cada día.",
+        "P2": "Descubre nuestras aplicaciones en la App Store",
+        "P3": "Descubre cómo las tecnologías de Martspec te ayudan a controlar tu salud, crear hábitos y sentirte mejor cada día",
+        "P4": "Fundada en la primavera de 2020, la empresa Martspec surgió durante la transición al teletrabajo que alteró la rutina de las personas. A medida que las oficinas en casa reemplazaron los espacios de trabajo tradicionales y los hábitos de ejercicio disminuyeron, muchos notaron un deterioro en su bienestar.",
+        "P5": "Conscientes de la necesidad de soluciones accesibles y centradas en el usuario, desarrollamos un conjunto de aplicaciones con diseño simple y minimalista. Nunca incluimos anuncios intrusivos — nuestras interfaces limpias y herramientas intuitivas mantienen el enfoque en lo que más te importa.",
+        "P6": "El autocontrol constante es el catalizador de una verdadera transformación — quienes monitorean su bienestar a diario logran mayores avances.",
+        "P7": "El comienzo",
+        "CART": {
+            "ALT1": "Innovación",
+            "ALT2": "Productos bonitos",
+            "ALT3": "Opiniones de los clientes",
+            "TITLE1": "Creamos innovaciones tecnológicas",
+            "TITLE2": "Hacemos nuestros productos cómodos y atractivos",
+            "TITLE3": "Estudiamos atentamente las opiniones de nuestros usuarios",
+            "TEXT1": "Las investigaciones científicas publicadas y los análisis desempeñan un papel importante en el desarrollo de mejoras. Nuestros productos ayudan a las personas a entender mejor su cuerpo, controlar el nivel de nutrientes y formar hábitos saludables",
+            "TEXT2": "Desarrollamos aplicaciones cómodas y con estilo, con un diseño bien pensado, para que los usuarios puedan seguir sus indicadores de salud de forma fácil y agradable, y formar hábitos saludables",
+            "TEXT3": "Junto con los usuarios, buscamos las mejores formas de hacer un seguimiento y medición eficaz de los indicadores de salud. La retroalimentación es una herramienta clave para crear nuevas aplicaciones y mejorar las existentes"
+        },
+        "OURCORE": {
+            "HEAD1": "Nuestra idea",
+            "TEXT1": "Creemos que una idea puede cambiarlo todo. ¿Nuestra primera idea? Una pequeña aplicación para Apple Watch que hace que el seguimiento de tu peso sea sencillo: solo toca y se sincroniza con Apple Health.",
+            "TEXT2": "Simple. Elegante. Instantáneo.",
+            "TEXT3": "Ya no es solo una idea. Está en tu muñeca.",
+            "TEXT4": "Y seguimos adelante.",
+            "TEXT5": "Nuestra última aplicación, Emoción, enfoca el bienestar mental — ofreciendo un test de personalidad rápido y perspicaz que te ayuda a evaluarte en segundos.",
+            "TEXT6": "Fácil, intuitivo y ya está causando impacto.",
+            "TEXTBTN": "Saber más"
+        },
+        "IMG": "Descubre nuestras aplicaciones en la App Store"
     },
     "TEAM": {
         "HEAD": "Equipo",
-        "ABOUT": "Las personas detrás de la empresa son tan importantes como la propia empresa. Conozca a nuestro talentoso equipo.",
-        "ENGINEER_MOBILE": "Ingeniero de software móvil",
-        "ENGINEER_WEB": "Ingeniero de software web",
-        "DESIGNER_UI_UX": "Diseñador de UI / UX",
-        "ENGINEER_QA": "Ingeniero de control de calidad",
-        "COPYWRITER": "Copywriter",
-        "MARKETER": "Comercializadora",
-        "ALEX": "Alex",
-        "VICTORIA": "Victoria",
-        "DIAS": "Días",
-        "SVETLANA": "Svetlana",
-        "NADEZHDA": "Nadezhda",
-        "DMITRY": "Dmitri",
-        "SERGEY_K": "Serguéi",
-        "ELVIRA": "Elvira",
-        "NATALIA": "Natalia",
-        "DARIA": "Daria",
-        "ROMAN": "Román",
-        "VITALY": "Vitalio"
+        "ABOUT": "Somos un equipo que crea aplicaciones modernas para la salud, diseñadas para su uso en relojes, smartphones y tablets. Nuestro equipo incluye desarrolladores iOS, ingenieros QA, diseñadores e ingenieros de software. Juntos desarrollamos soluciones convenientes, elegantes y confiables que ayudan a los usuarios a mejorar su calidad de vida.",
+        "HEAD1": "Únete al equipo",
+        "TEXT1_1": "Buscamos personas talentosas dispuestas a crear aplicaciones innovadoras para la salud. ¡Conviértete en parte del equipo y ayúdanos a cambiar la vida de las personas para mejor!",
+        "BUTTON": "Escríbenos"
     },
     "CAREERS": {
         "HEAD": "Carreras",
@@ -2213,6 +2412,32 @@
                     "A": "Martspec @ LinkedIn",
                     "LINK": "https://www.linkedin.com/company/martspec/"
                 }
+            }
+        }
+    },
+    "VACANCY": {
+        "VACANCY_STATUS": {
+            "OPEN": "La vacante está abierta",
+            "CLOSED":"La contratación está suspendida"
+        },
+        "POSITIONS": {
+            "DESIGNER": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "MOBILE_DEVELOPER": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "FRONTEND": {
+                "VACANCY_STATUS": "CLOSED"
+            },
+            "QUALITY_ASSURANCE": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "BUSINESS_ANALYST": {
+                "VACANCY_STATUS": "OPEN"
+            },
+            "COPYWRITER": {
+                "VACANCY_STATUS": "OPEN"
             }
         }
     }

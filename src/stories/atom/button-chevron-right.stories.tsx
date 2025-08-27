@@ -25,5 +25,5 @@ ButtonChevronRightStory.args = {
     className: "",
 };
 
-ButtonChevronRightStory.decorators = [IconWrapper,PageWrapper];
+ButtonChevronRightStory.decorators = [IconWrapper, PageWrapper];
 ButtonChevronRightStory.storyName = "ButtonChevronRight";
