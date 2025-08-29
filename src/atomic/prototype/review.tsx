@@ -23,6 +23,7 @@ interface IReviewProps {
     };
     appId: number;
     themeColor?: string;
+    hasUnderlineHover?: boolean;
 }
 
 const LG_BOOTSTRAP = 991;
@@ -32,7 +33,7 @@ function isFiller(r: IReview | IFiller): r is IFiller {
     return "filler" in r;
 }
 
-export default function Review({ text, appId, codes, themeColor = "#1686FF" }: IReviewProps) {
+export default function Review({ text, appId, codes, themeColor = "#1686FF", hasUnderlineHover = true, }: IReviewProps) {
     const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
     const isTablet = useMediaQuery(`(max-width: ${XXL_BOOTSTRAP}px)`);
 
@@ -73,6 +74,7 @@ export default function Review({ text, appId, codes, themeColor = "#1686FF" }: I
                 currentPage={currentPage}
                 onPageChange={goToPage}
                 totalPages={totalPages}
+                hasUnderlineHover={hasUnderlineHover}
             />
             {!isLoading && !isMobile && (
                 <ReviewPagination
@@ -102,14 +104,14 @@ export default function Review({ text, appId, codes, themeColor = "#1686FF" }: I
                 <ReviewMobile
                     head={<ReviewHead />}
                     description={<ReviewDescription />}
-                    link={<AllReviewsLink />}
+                    link={<AllReviewsLink hasUnderlineHover={hasUnderlineHover} />}
                     slider={sliderContent}
                 />
             ) : (
                 <ReviewDesktop
                     head={<ReviewHead />}
                     description={<ReviewDescription />}
-                    link={<AllReviewsLink />}
+                    link={<AllReviewsLink hasUnderlineHover={hasUnderlineHover} />}
                     slider={sliderContent}
                 />
             )}

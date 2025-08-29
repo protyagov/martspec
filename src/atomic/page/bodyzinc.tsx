@@ -152,6 +152,7 @@ export default function BodyZinc() {
                         },
                     }}
                     themeColor="#71B520"
+                    hasUnderlineHover={false}
                 />
 
                 <section>

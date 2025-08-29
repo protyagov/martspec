@@ -396,6 +396,7 @@ export default function Vitamin() {
                         },
                     }}
                     themeColor="#1686FF"
+                    hasUnderlineHover={false}
                 />
 
                 <section>

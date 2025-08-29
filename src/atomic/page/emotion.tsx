@@ -397,6 +397,7 @@ export default function Emotion() {
                         },
                     }}
                     themeColor="#7B62FE"
+                    hasUnderlineHover={false}
                 />
 
                 <section>

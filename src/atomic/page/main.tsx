@@ -346,6 +346,7 @@ export default function LandingPage() {
                         },
                     }}
                     themeColor="#1686FF"
+                    hasUnderlineHover={false}
                 />
             </div>
 

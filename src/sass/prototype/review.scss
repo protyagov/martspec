@@ -6,14 +6,20 @@
     margin: 0;
     }
 
+
     .review__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+      h2{
+        font-size: 40px;
+      }
     }
 
     .review__description {
     margin-bottom: 2rem;
+    font-size: 20px;
+    line-height: 120%;
 
     @include media-breakpoint-up(lg) {
         max-width: 50%;
@@ -73,7 +79,13 @@
     gap: 1.93rem;
     padding: 3.1rem;
     min-height: 25rem;
-    height: 100%; 
+    height: 100%;
+
+      time{
+        font-size: 16px;
+        line-height: 120%;
+        font-family: os4;
+      }
 
     .review-card__bg {
         @include card-bg;
@@ -89,6 +101,9 @@
         gap: 0.8rem;
             h3 {
                 color: #212529;
+                margin: 0;
+                font-family: os5;
+                font-size: 30px;
             }
         }
 
@@ -97,6 +112,8 @@
         align-items: center;
         padding-top: 0.25rem;
         height: fit-content;
+        font-size: 16px;
+
         }
     }
 
@@ -112,6 +129,9 @@
         flex: 1;
         overflow: hidden;
         color: #151515;
+        font-size: 18px;
+        line-height: 120%;
+        font-family: os4;
         }
 
         .review-card__read-more {

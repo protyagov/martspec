@@ -189,6 +189,7 @@ export default function Bodymass() {
                         },
                     }}
                     themeColor="#F0606C"
+                    hasUnderlineHover={false}
                 />
 
                 <section>

@@ -22,9 +22,10 @@ interface ReviewCardSliderProps {
     currentPage: number;
     onPageChange: (page: number) => void;
     totalPages: number;
+    hasUnderlineHover?: boolean;
 }
 
-export default function ReviewCardSlider({ reviews, currentPage, onPageChange, totalPages }: ReviewCardSliderProps) {
+export default function ReviewCardSlider({ reviews, currentPage, onPageChange, totalPages, hasUnderlineHover = true, }: ReviewCardSliderProps) {
     const { text } = useReviewContext();
     const isMobile = useMediaQuery("(max-width: 991px)");
 
@@ -36,7 +37,7 @@ export default function ReviewCardSlider({ reviews, currentPage, onPageChange, t
                 if (isFiller(r)) {
                     return (
                         <ReviewFillerCard
-                            link={<SendReviewsLink />}
+                            link={<SendReviewsLink hasUnderlineHover={hasUnderlineHover} />}
                             posIndex={i}
                             key={text.fillerCard.head[i] ?? `filler-${i}`}
                             bgImage={bgImage}
@@ -53,7 +54,8 @@ export default function ReviewCardSlider({ reviews, currentPage, onPageChange, t
                         rating={r["im:rating"].label}
                         bgImage={bgImage}
                         reviewLink={r.link.attributes.href}
-                        readMoreText={text.readMoreLink} 
+                        readMoreText={text.readMoreLink}
+                        hasUnderlineHover={hasUnderlineHover}
                     />
                 );
             })}

@@ -217,6 +217,7 @@ export default function WaistLine() {
                         },
                     }}
                     themeColor="#1686FF"
+                    hasUnderlineHover={false}
                 />
             </div>
 

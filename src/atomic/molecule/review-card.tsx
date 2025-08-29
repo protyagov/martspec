@@ -4,6 +4,7 @@ import RightArrowIcon from "../atom/right-arrow-icon";
 import { useReviewValidatedMsg } from "@/hooks/useReviewValidatedMsg";
 import { useReviewContext } from "./review-context";
 import { useMediaQuery } from "@/hooks";
+import TextLinkArrow from "@/atomic/molecule/text-link-arrow";
 
 interface IReviewCardProps {
     reviewerNickname: string;
@@ -12,12 +13,13 @@ interface IReviewCardProps {
     rating: string;
     bgImage: string;
     reviewLink: string;
-    readMoreText: string; 
+    readMoreText: string;
+    hasUnderlineHover?: boolean
 }
 
 const formatDate = (date: string) => new Date(date).toLocaleDateString("ru-RU");
 
-export default function ReviewCard({ reviewerNickname, createdDate, reviewText, rating, bgImage, reviewLink, readMoreText }: IReviewCardProps) {
+export default function ReviewCard({ reviewerNickname, createdDate, reviewText, rating, bgImage, reviewLink, readMoreText,  hasUnderlineHover = true, }: IReviewCardProps & { hasUnderlineHover?: boolean }) {
     const { themeColor } = useReviewContext();
     const isMobile = useMediaQuery("(max-width: 991px)");
     const { reviewTextRef, validatedData } = useReviewValidatedMsg({
@@ -43,16 +45,15 @@ export default function ReviewCard({ reviewerNickname, createdDate, reviewText, 
             <div className="review-card__content">
                 <p ref={reviewTextRef}>{validatedData.content}</p>
                 {validatedData.overflowFlag && (
-                    <a 
+                    <TextLinkArrow
                         href={reviewLink}
-                        className="review-card__read-more"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ color: themeColor }}
-                    >
-                        <span>{readMoreText}</span>
-                        <RightArrowIcon style={{ marginLeft: "0.5em", verticalAlign: "middle" }} />
-                    </a>
+                        text={readMoreText}
+                        rightIcon={<RightArrowIcon style={{ marginLeft: "0.5em", verticalAlign: "middle" }} />}
+                        isNewTab={true}
+                        color={themeColor}
+                        hoverColor={themeColor}
+                        hasUnderlineHover={hasUnderlineHover}
+                    />
                 )}
             </div>
         </li>

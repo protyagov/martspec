@@ -299,6 +299,7 @@ export default function BodySize() {
                         },
                     }}
                     themeColor="#FD7E14"
+                    hasUnderlineHover={false}
                 />
             </div>
 
