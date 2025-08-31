@@ -67,6 +67,8 @@ export default function Review({ text, appId, codes, themeColor = "#1686FF", has
         return cards;
     }, [paginatedReviews, cardsPerPage]);
 
+    const showPagination = !isLoading && !isMobile && realReviews.length > 4;
+
     const sliderContent = (
         <>
             <ReviewCardSlider 
@@ -76,7 +78,7 @@ export default function Review({ text, appId, codes, themeColor = "#1686FF", has
                 totalPages={totalPages}
                 hasUnderlineHover={hasUnderlineHover}
             />
-            {!isLoading && !isMobile && (
+            {showPagination && (
                 <ReviewPagination
                     totalPages={totalPages}
                     currentPage={currentPage}
