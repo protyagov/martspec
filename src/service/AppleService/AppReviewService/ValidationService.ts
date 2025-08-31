@@ -23,7 +23,6 @@ interface IValidateSettings {
 // props
 interface IValidateReviewData {
     reviewData: IReviewData["feed"]["entry"];
-    arrLength: number;
 }
 
 export interface IValidateReviewMsg {
@@ -217,33 +216,17 @@ class ValidationService implements IValidationService {
         parseFloat(data.origElemStyles.lineHeight) || parseFloat(data.origElemStyles.fontSize);
 
     // -----------------------------------------
-
-    // validation always returns an array with review or filler data
-    validateReviewData: TValidateReviewData = async ({ reviewData, arrLength }) => {
-        // if no data return fillers
+    validateReviewData: TValidateReviewData = async ({ reviewData }) => {
         if (!reviewData) {
-            return this.#fillerArray(arrLength);
+            return [];
         }
-
-        // if review is a single object return data + fillers
+    
         if (!Array.isArray(reviewData)) {
-            return [reviewData, ...this.#fillerArray(arrLength - 1)];
+            return [reviewData];
         }
-
-        // if review is array but length less than needed return data + fillers
-        if (reviewData.length < arrLength) {
-            return [...reviewData, ...this.#fillerArray(arrLength - reviewData.length)];
-        }
-
-        // by default, return reviews
+    
         return reviewData;
     };
-
-    // create filler object
-    #fillerObject = (): IFiller => ({ filler: true });
-
-    // create an array of fillers to be used in the validateReviewData
-    #fillerArray = (arrLength: number): IFiller[] => Array(arrLength).fill(this.#fillerObject());
 }
 
 export const { validateReviewData, validateReviewMsg } = new ValidationService();

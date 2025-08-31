@@ -7,6 +7,7 @@ export interface IReviewContextText {
     head: string;
     link: string;
     description: string;
+    readMoreLink: string;
     fillerCard: {
         head: [string, string, string];
         link: string;
@@ -21,6 +22,7 @@ interface IReviewContextData {
 interface IReviewContext {
     data: IReviewContextData;
     text: IReviewContextText;
+    themeColor?: string;
 }
 
 export const ReviewContext = createContext<IReviewContext | null>(null);

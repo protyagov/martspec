@@ -5,16 +5,24 @@ import NavigationBar from "@/atomic/organism/navbar";
 import Header from "@/atomic/organism/header";
 import Counter from "@/atomic/atom/counter";
 import ScrollButton from "@/atomic/atom/scroll-button";
-import appIds from "@/data/app-ids.json";
 import Review from "@/atomic/prototype/review";
 import CardAppSmall from "@/atomic/molecule/card-app-small";
 import CardAppLarge from "@/atomic/molecule/card-app-large";
 import ImageI18N from "@/atomic/atom/img-i18n";
 
 const getRandomArbitrary = (min: number, max: number) => Math.floor(Math.random() * (max + 1 - min) + min);
-const allAppIds = Object.values(appIds);
+
+const selectedApps = {
+    vitamin: { id: 1519596234, themeColor: "#1686FF" },
+    emotion: { id: 1562956213, themeColor: "#7B62FE" },
+    bodysize: { id: 1564205068, themeColor: "#FD7E14" },
+} as const;
+
+const allApps = Object.values(selectedApps);
 
 export default function LandingPage() {
+    const randomIndex = getRandomArbitrary(0, allApps.length - 1);
+    const pick = allApps[randomIndex];
     return (
         <div className="flex-grow-1 flex-shrink-0">
             <NavigationBar />
@@ -326,7 +334,7 @@ export default function LandingPage() {
                 */}
             <div className="ms-base-page ms-base-new">
                 <Review
-                    appId={allAppIds[getRandomArbitrary(0, allAppIds.length - 1)]}
+                    appId={pick.id}
                     codes={{
                         countryCode: Locale.countryCode,
                         languageCode: Locale.language,
@@ -335,6 +343,7 @@ export default function LandingPage() {
                         head: _("REVIEW.HEAD"),
                         description: _("REVIEW.DESCRIPTION"),
                         link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
                         fillerCard: {
                             head: [
                                 _("REVIEW.FILLER_CARD.HEAD1"),
@@ -344,6 +353,8 @@ export default function LandingPage() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor={pick.themeColor}
+                    hasUnderlineHover={false}
                 />
             </div>
 
