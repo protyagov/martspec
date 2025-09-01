@@ -194,6 +194,17 @@
       "namedExport": "CardTitleTextButtonStory",
       "meta": {}
     },
+    "molecule--card-title-text-image-custom": {
+      "name": "Card title text image custom",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 25,
+      "filePath": "src/stories/molecule/card-title-text-image-custom.stories.tsx",
+      "namedExport": "CardTitleTextImageCustomStory",
+      "meta": {}
+    },
     "molecule--card-title-text-image": {
       "name": "Card title text image",
       "levels": [
