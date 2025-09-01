@@ -233,7 +233,7 @@ export default function BodySize() {
                     <h4>{_("SIZE.HEAD5")}</h4>
                     <p className="mt-3">{_("SIZE.DESC5")}</p>
                 </section>*/}
-                <section>
+                <section className="bodysize-container">
                     <div className="row row-cols-xl-3 row-cols-1 g-4">
                         <div className="col col-md-4 p-0">
                             <div className="row row-cols-1 h-100 p-0">
@@ -245,9 +245,10 @@ export default function BodySize() {
                                         imgSrc="/img/page/body-size/orange_curly_ine.png"
                                         imgPosition="right-bottom"
                                         shadow={true}
-                                        cardHeight="17rem"
-                                        cardWidht="27rem"
-                                        imgH="5rem"
+                                        cardHeight="15rem"
+                                        cardWidth="27rem"
+                                        imgH="6rem"
+                                        responsive={true}
                                     />
                                 </div>
                                 <div className="col py-0 mt-4 img-wrapper">
@@ -258,9 +259,10 @@ export default function BodySize() {
                                         imgSrc="/img/page/body-size/green_curly_line.png"
                                         imgPosition="left-bottom"
                                         shadow={true}
-                                        cardHeight="17rem"
-                                        cardWidht="27rem"
-                                        imgH="5rem"
+                                        cardHeight="15rem"
+                                        cardWidth="27rem"
+                                        imgH="6rem"
+                                        responsive={true}
                                     />
                                 </div>
                             </div>
@@ -274,9 +276,10 @@ export default function BodySize() {
                                         imgSrc="/img/page/body-size/masks.png"
                                         imgPosition="right-bottom"
                                         shadow={true}
-                                        cardHeight="35rem"
-                                        cardWidht="27rem"
-                                        imgH="19rem"
+                                        cardHeight="33rem"
+                                        cardWidth="27rem"
+                                        imgH="25rem"
+                                        responsive={true}
                                     />
                         </div>
                         <div className="col col-md-4">

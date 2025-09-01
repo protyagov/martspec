@@ -15,8 +15,9 @@ interface CardTitleTextImageCustomProps {
     imgPosition?: "left-bottom" | "right-bottom" | "center-bottom";
     shadow?: boolean;
     cardHeight?: string;
-    cardWidht?: string;
+    cardWidth?: string;
     imgH: string;
+    responsive?: boolean;
 }
 
 export default function CardTitleTextImageCustom({
@@ -33,16 +34,20 @@ export default function CardTitleTextImageCustom({
     imgPosition = "right-bottom",
     shadow = true,
     cardHeight = "100%",
-    cardWidht = "100%",
+    cardWidth = "100%",
     imgH = "100%",
+    responsive = true,
 }: CardTitleTextImageCustomProps): React.ReactNode {
     return (
         <div
-            className={`card-title-text h-100 rounded-5 p-lg-5 p-4 pb-5 position-relative ${shadow ? "shadow" : ""}`}
+            className={`card-title-text h-100 rounded-5 p-lg-5 p-4 pb-5 position-relative ${shadow ? "shadow" : ""} ${responsive ? "responsive-card" : ""}`}
             style={{ 
                 backgroundColor: bgColor,
-                maxHeight: cardHeight,
-                maxWidth: cardWidht,
+                height: responsive ? "auto" : cardHeight,
+                width: responsive ? "100%" : cardWidth,
+                minHeight: cardHeight,
+                minWidth: cardWidth,
+                maxWidth: "100%",
                 
             }}
         >

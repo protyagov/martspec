@@ -53,46 +53,59 @@
         }
     }
 
-.img-wrapper-big {
-  max-height: 440px;
-  width: auto;
-}
-.img-wrapper .img-wrapper {
-  height: 70px !important;
-}
-@media (max-width: map-get($body-size-breakpoints, "medium")) {
-  .img-wrapper-big {
-    height: 350px !important;}
-  }
-
-@media (max-width: map-get($body-size-breakpoints, "wide")) {
-  .row-cols-xl-3 {
-    flex-wrap: wrap;
-  }
-  
-  .row-cols-xl-3 > .col:nth-child(1),
-  .row-cols-xl-3 > .col:nth-child(2) {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-  
-  .row-cols-xl-3 > .col:nth-child(3) {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-top: 30px;
-  }
-}
-@media (max-width: map-get($body-size-breakpoints, "medium")) {
-  .row-cols-xl-3 > .col {
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
-  }
-  .row-cols-xl-3 > .col:not(:last-child) {
-    margin-bottom: 20px;
-  }
-  .img-wrapper,
-  .img-wrapper-big {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
+.bodysize-container {
+    .img-wrapper-big {
+        max-height: 440px;
+        width: auto;
+        
+        @media (max-width: map-get($body-size-breakpoints, "medium")) {
+            height: 350px ;
+        }
+    }
+    
+    .img-wrapper {
+        .img-wrapper {
+            height: 70px ;
+        }
+        
+      
+    }
+    .responsive-card {
+        @media (min-width: map-get($body-size-breakpoints, "wide")) {
+            height: var(--cardHeight, 15rem) !important;
+            width: var(--cardWidth, 23rem) !important;
+        }
+        
+        @media (max-width: map-get($body-size-breakpoints, "medium")) {
+            min-height: 12rem;
+        }
+    }
+    .row-cols-xl-3 {
+        flex-wrap: wrap;
+        
+        @media (max-width: map-get($body-size-breakpoints, "wide")) {
+            > .col:nth-child(1),
+            > .col:nth-child(2) {
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+            
+            > .col:nth-child(3) {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-top: 30px;
+            }
+        }
+        
+        @media (max-width: map-get($body-size-breakpoints, "medium")) {
+            > .col {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
 }
