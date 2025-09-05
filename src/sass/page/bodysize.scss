@@ -57,23 +57,10 @@
     .img-wrapper-big {
         max-height: 440px;
         width: auto;
-        
-        @media (max-width: map-get($body-size-breakpoints, "medium")) {
-            height: 350px ;
-        }
-    }
-    
-    .img-wrapper {
-        .img-wrapper {
-            height: 70px ;
-        }
-        
-      
     }
     .responsive-card {
         @media (min-width: map-get($body-size-breakpoints, "wide")) {
-            height: var(--cardHeight, 15rem) !important;
-            width: var(--cardWidth, 23rem) !important;
+            width: 28rem !important;;
         }
         
         @media (max-width: map-get($body-size-breakpoints, "medium")) {

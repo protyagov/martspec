@@ -246,7 +246,6 @@ export default function BodySize() {
                                         imgPosition="right-bottom"
                                         shadow={true}
                                         cardHeight="15rem"
-                                        cardWidth="27rem"
                                         imgH="6rem"
                                         responsive={true}
                                     />
@@ -260,7 +259,6 @@ export default function BodySize() {
                                         imgPosition="left-bottom"
                                         shadow={true}
                                         cardHeight="15rem"
-                                        cardWidth="27rem"
                                         imgH="6rem"
                                         responsive={true}
                                     />
@@ -277,7 +275,6 @@ export default function BodySize() {
                                         imgPosition="right-bottom"
                                         shadow={true}
                                         cardHeight="33rem"
-                                        cardWidth="27rem"
                                         imgH="25rem"
                                         responsive={true}
                                     />
