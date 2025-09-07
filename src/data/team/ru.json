@@ -17,12 +17,6 @@
     "AVATAR": "/img/page/team/team_svetlana.webp",
     "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
   },
-  "ELVIRA":{
-    "NAME": "Эльвира",
-    "TITLE": "UI/UX Дизайнер",
-    "AVATAR": "/img/page/team/team_elvira.webp",
-    "LINK": "www.linkedin.com/in/elviragilfanova"
-},
 "DARIA":{
     "NAME": "Дарья",
     "TITLE": "UI/UX Дизайнер",
@@ -40,12 +34,6 @@
     "NAME": "Виталий",
     "TITLE": "iOS Разработчик",
     "AVATAR": "/img/page/team/team_vitalyV.webp",
-    "LINK": ""
-},
-"MAKSYM":{
-    "NAME": "Максим",
-    "TITLE": "QA-инженер",
-    "AVATAR": "/img/page/team/team_maksym.webp",
     "LINK": ""
 },
 "ELINA":{
