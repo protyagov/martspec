@@ -1114,7 +1114,17 @@
         },
         "IMG4_1_ALT": "Salud",
         "IMG4_2_ALT": "Entrenamiento",
-        "IMG4_3_ALT": "Atractivo"
+        "IMG4_3_ALT": "Atractivo",
+        "HEAD8": "Biorritmos",
+        "DESC8_1": "La aplicación ofrece 3 ciclos que te permiten rastrear repeticiones regulares o periódicas en todos los procesos vitales.",
+        "DESC8_2": "Cada ciclo tiene 5 fases, que describen características específicas y rasgos del estado con más detalle",
+        "HEAD9": "Físico",
+        "DESC9": "Afecta la resistencia, velocidad, tiempo de reacción y fuerza muscular",
+        "HEAD10": "Intelectual",
+        "DESC10": "Se caracteriza por agudeza mental, resolución fácil de problemas, pero también incomodidad y estrés",
+        "HEAD11": "Emocional",
+        "DESC11": "Refleja la naturaleza cíclica de la sensibilidad, el potencial creativo y el estado mental general",
+        "BTN_MORE": "Saber más"
     },
     "EMOTION": {
         "HEAD": "Emoción",

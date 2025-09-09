@@ -1116,7 +1116,17 @@
         },
         "IMG4_1_ALT": "Health",
         "IMG4_2_ALT": "Workout",
-        "IMG4_3_ALT": "Appeal"
+        "IMG4_3_ALT": "Appeal",
+        "HEAD8": "Biorhythms",
+        "DESC8_1": "The app offers 3 cycles that allow you to track regular or periodic repetitions in all life processes.",
+        "DESC8_2": "Each cycle has 5 phases, which describe specific characteristics and state features in more detail",
+        "HEAD9": "Physical",
+        "DESC9": "Affects endurance, speed, reaction time, and muscle strength",
+        "HEAD10": "Intellectual",
+        "DESC10": "Characterized by mental sharpness, easy problem-solving, but also discomfort and stress",
+        "HEAD11": "Emotional",
+        "DESC11": "Reflects the cyclical nature of sensitivity, creative potential, and overall mental state",
+        "BTN_MORE": "Learn more"
     },
     "EMOTION": {
         "HEAD": "Emotion",

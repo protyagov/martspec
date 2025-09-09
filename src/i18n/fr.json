@@ -1114,7 +1114,17 @@
         },
         "IMG4_1_ALT": "Santé",
         "IMG4_2_ALT": "Entraînement",
-        "IMG4_3_ALT": "Attrait"
+        "IMG4_3_ALT": "Attrait",
+        "HEAD8": "Biorythmes",
+        "DESC8_1": "L'application propose 3 cycles qui vous permettent de suivre les répétitions régulières ou périodiques dans tous les processus vitaux.",
+        "DESC8_2": "Chaque cycle a 5 phases, décrivant plus en détail des caractéristiques spécifiques et des traits d'état",
+        "HEAD9": "Physique",
+        "DESC9": "Affecte l'endurance, la vitesse, le temps de réaction et la force musculaire",
+        "HEAD10": "Intellectuel",
+        "DESC10": "Caractérisé par une acuité mentale, une résolution facile des problèmes, mais aussi un inconfort et un stress",
+        "HEAD11": "Émotionnel",
+        "DESC11": "Reflète la nature cyclique de la sensibilité, le potentiel créatif et l'état mental général",
+        "BTN_MORE": "En savoir plus"
     },
     "EMOTION": {
         "HEAD": "Émotion",

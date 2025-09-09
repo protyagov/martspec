@@ -1116,7 +1116,17 @@
         },
         "IMG4_1_ALT": "Gesundheit",
         "IMG4_2_ALT": "Training",
-        "IMG4_3_ALT": "Attraktivität"
+        "IMG4_3_ALT": "Attraktivität",
+        "HEAD8": "Biorhythmen",
+        "DESC8_1": "Die App bietet 3 Zyklen, mit denen Sie regelmäßige oder periodische Wiederholungen in allen Lebensprozessen verfolgen können.",
+        "DESC8_2": "Jeder Zyklus hat 5 Phasen, die spezifische Merkmale und Zustandseigenschaften detaillierter beschreiben",
+        "HEAD9": "Physisch",
+        "DESC9": "Beeinflusst Ausdauer, Geschwindigkeit, Reaktionszeit und Muskelkraft",
+        "HEAD10": "Intellektuell",
+        "DESC10": "Gekennzeichnet durch geistige Schärfe, einfache Problemlösung, aber auch Unbehagen und Stress",
+        "HEAD11": "Emotional",
+        "DESC11": "Spiegelt die zyklische Natur der Sensibilität, kreatives Potenzial und den allgemeinen mentalen Zustand wider",
+        "BTN_MORE": "Mehr erfahren"
     },
     "EMOTION": {
         "HEAD": "Emotion",
