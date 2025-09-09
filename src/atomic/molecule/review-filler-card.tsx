@@ -11,8 +11,16 @@ export default function ReviewFillerCard({ link, posIndex, bgImage }: IReviewFil
     const { text, themeColor } = useReviewContext();
 
     return (
-        <li className="review-card filler-card" style={{ backgroundColor: themeColor }}>
-            <div className="review-card__bg" style={{ backgroundImage: `url(${bgImage})` }} />
+        <li
+            className="review-card filler-card"
+            style={{
+                backgroundColor: themeColor,
+                backgroundImage: `url(${bgImage})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+            }}
+        >
+
             <div className="filler-card__wrapper">
                 <h3 className="filler-card__header">{text.fillerCard.head[posIndex]}</h3>
                 {link}

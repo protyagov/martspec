@@ -20,14 +20,15 @@ function PaginationArrow({ direction, onClick, disabled, themeColor }: Paginatio
             className={`review-pagination__arrow review-pagination__arrow--${direction}`}
             style={{
                 backgroundColor: themeColor,
-                backgroundImage: `url("/img/slider-pagination-arrow-${direction === "left" ? "02" : "01"}.svg")`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
             }}
             aria-label={`${direction === "left" ? "Previous" : "Next"} page`}
             disabled={disabled}
-        />
+        >
+            <img
+                src={`/img/slider-pagination-arrow-${direction === "left" ? "02" : "01"}.svg`}
+                alt=""
+            />
+        </button>
     );
 }
 

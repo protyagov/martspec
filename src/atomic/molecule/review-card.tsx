@@ -28,8 +28,15 @@ export default function ReviewCard({ reviewerNickname, createdDate, reviewText, 
     });
 
     return (
-        <li className="review-card" style={{ backgroundColor: isMobile ? 'transparent' : themeColor }}>
-            {!isMobile && <div className="review-card__bg" style={{ backgroundImage: `url(${bgImage})` }} />}
+        <li
+            className="review-card"
+            style={{
+                backgroundColor: isMobile ? 'transparent' : themeColor,
+                backgroundImage: !isMobile ? `url(${bgImage})` : 'none',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+            }}
+        >
             <header className="review-card__header">
                 <div className="review-card__header-main">
                     <h3>{reviewerNickname}</h3>
