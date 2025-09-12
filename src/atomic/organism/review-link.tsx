@@ -5,8 +5,8 @@ import TextLinkArrow, { TextLinkArrowProps } from "@/atomic/molecule/text-link-a
 import { useReviewContext } from "@/atomic/molecule/review-context";
 import { getAppStoreLink } from "@/service/AppleService";
 
-export function SendReviewsLink() {
-    const { data, text } = useReviewContext();
+export function SendReviewsLink({ hasUnderlineHover = true }: { hasUnderlineHover?: boolean }) {
+    const { data, text, themeColor } = useReviewContext();
 
     return (
         <ReviewLinkBase
@@ -15,12 +15,15 @@ export function SendReviewsLink() {
                 data: { appId: data.appId, countryCode: data.countryCode },
                 option: "action=write-review",
             })}
+            color={themeColor}
+            hoverColor={themeColor}
+            hasUnderlineHover={hasUnderlineHover}
         />
     );
 }
 
-export function AllReviewsLink() {
-    const { data, text } = useReviewContext();
+export function AllReviewsLink({ hasUnderlineHover = true }: { hasUnderlineHover?: boolean }) {
+    const { data, text, themeColor } = useReviewContext();
 
     return (
         <ReviewLinkBase
@@ -29,10 +32,13 @@ export function AllReviewsLink() {
                 data: { appId: data.appId, countryCode: data.countryCode },
                 option: "see-all=reviews",
             })}
+            color={themeColor}
+            hoverColor={themeColor}
+            hasUnderlineHover={hasUnderlineHover}
         />
     );
 }
 
-function ReviewLinkBase(props: Pick<TextLinkArrowProps, "text" | "href">) {
+function ReviewLinkBase( props: Pick<TextLinkArrowProps, "text" | "href" | "color" | "hoverColor" | "hasUnderlineHover">) {
     return <TextLinkArrow rightIcon={<RightArrowIcon />} isNewTab={true} {...props} />;
 }
