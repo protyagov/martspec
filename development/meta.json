@@ -255,7 +255,7 @@
         "Molecule"
       ],
       "locStart": 12,
-      "locEnd": 24,
+      "locEnd": 27,
       "filePath": "src/stories/molecule/review-card.stories.tsx",
       "namedExport": "ReviewCardStory",
       "meta": {}
@@ -266,7 +266,7 @@
         "Molecule"
       ],
       "locStart": 14,
-      "locEnd": 37,
+      "locEnd": 39,
       "filePath": "src/stories/molecule/review-description.stories.tsx",
       "namedExport": "ReviewDescriptionStory",
       "meta": {}
@@ -277,7 +277,7 @@
         "Molecule"
       ],
       "locStart": 15,
-      "locEnd": 40,
+      "locEnd": 47,
       "filePath": "src/stories/molecule/review-filler-card.stories.tsx",
       "namedExport": "ReviewFillerCardStory",
       "meta": {}
@@ -288,9 +288,20 @@
         "Molecule"
       ],
       "locStart": 14,
-      "locEnd": 35,
+      "locEnd": 39,
       "filePath": "src/stories/molecule/review-head.stories.tsx",
       "namedExport": "ReviewHeadStory",
+      "meta": {}
+    },
+    "molecule--review-link": {
+      "name": "Review link",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 14,
+      "locEnd": 39,
+      "filePath": "src/stories/molecule/review-link.stories.tsx",
+      "namedExport": "ReviewLinkStory",
       "meta": {}
     },
     "molecule--team-member": {
@@ -397,8 +408,8 @@
       "levels": [
         "Organism"
       ],
-      "locStart": 20,
-      "locEnd": 64,
+      "locStart": 26,
+      "locEnd": 152,
       "filePath": "src/stories/organism/review-card-slider.stories.tsx",
       "namedExport": "ReviewCardSliderStory",
       "meta": {}
@@ -409,7 +420,7 @@
         "Organism"
       ],
       "locStart": 14,
-      "locEnd": 38,
+      "locEnd": 39,
       "filePath": "src/stories/organism/review-link.stories.tsx",
       "namedExport": "ReviewLinkStory",
       "meta": {}
@@ -431,7 +442,7 @@
         "Prototype"
       ],
       "locStart": 13,
-      "locEnd": 30,
+      "locEnd": 32,
       "filePath": "src/stories/prototype/review.stories.tsx",
       "namedExport": "ReviewStory",
       "meta": {}
