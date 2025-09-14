@@ -17,6 +17,50 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CardIconTitleText from "../molecule/card-icon-title-text";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
+import Accordion, * as MetricAccordion from "@/atomic/molecule/accordion";
+import CardBodyMetric, * as CardBody from "@/atomic/molecule/card-body-metric";
+
+interface DropdownList {
+    groupName: string;
+    header: {
+        bgImg: MetricAccordion.BackgroundImage;
+        mobileBgResized: boolean;
+        defaultExpanded?: boolean;
+    };
+    bgImg: CardBody.BackgroundImage;
+    bgColor: React.CSSProperties["color"];
+    primaryColor: React.CSSProperties["color"];
+    linkHoverColor: React.CSSProperties["color"];
+    itemList: string[];
+}
+
+const dropdownlist: DropdownList[] = [
+    {
+        groupName: "BODY_GIRTHS",
+        header: {
+            bgImg: { src: "/img/page/body-size/bodysize-list-header-1.svg", width: 114, height: 132 },
+            mobileBgResized: false,
+            defaultExpanded: true,
+        },
+        bgImg: { src: "/img/page/body-size/body-circumferences.svg", width: 181, height: 87},
+        bgColor: "#FFECDB",
+        primaryColor: "#FD7E14",
+        linkHoverColor: "#FD7E14",
+        itemList: ["NECK", "SHOULDERS", "BREAST", "WAIST", "BUTTOCKS", "HAND", "HIP", "HEIGHT", "WEIGHT", "KNEE", "SHIN", "ELBOW"],
+    },
+    {
+        groupName: "SKIN_FOLDS",
+        header: {
+            bgImg: { src: "/img/page/body-size/bodysize-list-header-2.svg", width: 134, height: 160 },
+            mobileBgResized: true,
+        },
+        bgImg: { src: "/img/page/body-size/skinfold-measurement.svg", width: 69, height: 94},
+        bgColor: "#E5F4D9",
+        primaryColor: "#639C35",
+        linkHoverColor: "#639C35",
+        itemList: ["TRICEPS", "UNDER_SHOULDER", "STOMACH", "SHIN"],
+    },
+];
 
 export default function BodySize() {
     const iconTitleTextListItems: Array<IconTitleText> = [
@@ -233,6 +277,87 @@ export default function BodySize() {
                     <h4>{_("SIZE.HEAD5")}</h4>
                     <p className="mt-3">{_("SIZE.DESC5")}</p>
                 </section>*/}
+                <section>    
+                    <div className="row mb-0 "><h2 className="adaptive-padding">{_("SIZE.HEAD12")} </h2></div>
+                    {dropdownlist.map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
+                        <section key={`dropdownlist-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mb-0">
+                            <div className="col-12 d-flex flex-column">
+                                <Accordion
+                                    title={_(`SIZE.${groupName}`)}
+                                    bgColor={bgColor}
+                                    expandIconColor={primaryColor}
+                                    bgImg={header.bgImg}
+                                    mobileBgResized={header.mobileBgResized}
+                                    defaultExpanded={header.defaultExpanded}
+                                >
+                                    <ul className="d-grid dropdown-list">
+                                        {itemList.map((card) => (
+                                            <li key={card}>
+                                                <CardBodyMetric
+                                                    title={_(`SIZE.${card}`)}
+                                                    actionLink={{
+                                                        text: _("SIZE.BTN_HOW"),
+                                                        href: Locale.i18nLink("coming-soon"),
+                                                    }}
+                                                    primaryColor={primaryColor}
+                                                    linkHoverColor={linkHoverColor}
+                                                    bgImg={bgImg}
+                                                />
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </Accordion>
+                            </div>
+                        </section>
+                    ))}
+                    <section key={`dropdownlist-group-MEASUREMENTS`} className="row mt-4 mt-lg-5 pt-4 mb-0">
+                            <div className="col-12 d-flex flex-column">
+                                <Accordion
+                                    title={_(`SIZE.MEASUREMENTS`)}
+                                    bgColor="#EAF1FD"
+                                    expandIconColor="#1686FF"
+                                    bgImg={{
+                                    src: "/img/page/body-size/bodysize-list-header-3.svg",
+                                    width: 129,
+                                    height: 118}}
+                                    mobileBgResized={true}
+                                >
+                                    <div className="row p-0">
+                                    <div className="col-md-6">
+                                        <div className="pe-3">
+                                            <p className="mt-5">
+                                                {_("SIZE.MEASUREMENTS_DESC")}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <h3 className="mb-3 "style={{ color: "#444444" }}>{_("SIZE.MEASUREMENTS_LIST_TITLE")}</h3>
+                                        <ul className="">
+                                            <li className="d-flex  align-items-start mb-2">
+                                                <span className="blue-dot me-2"></span>
+                                                {_("SIZE.MEASUREMENTS_ITEM_1")}
+                                            </li>
+                                            <li className="d-flex  align-items-start mb-2">
+                                                <span className="blue-dot me-2"></span>
+                                                {_("SIZE.MEASUREMENTS_ITEM_2")}
+                                            </li>
+                                            <li className="d-flex  align-items-start mb-2">
+                                                <span className="blue-dot me-2"></span>
+                                                {_("SIZE.MEASUREMENTS_ITEM_3")}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                </Accordion>
+                            </div>
+
+
+                </section>
+
+                </section>
+
+
+
                 <section className="bodysize-container">
                     <div className="row row-cols-xl-3 row-cols-1 g-4">
                         <div className="col col-md-4 p-0">
