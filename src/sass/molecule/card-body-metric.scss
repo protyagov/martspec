@@ -1,6 +1,8 @@
 .card-body-metric {
     padding: 2.31rem;
     gap: 1.54rem;
+    position: relative;
+    overflow: hidden;
 
     .title {
         font-family: os5, sans-serif;
