@@ -221,7 +221,7 @@ export default function Vitamin() {
                     </div>
                 </Header>
 
-                <section>
+                <section className="section">
                     <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
                         <div className="col">
                             <CardTitleTextImage
@@ -263,7 +263,7 @@ export default function Vitamin() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row">
                         <div className="col-lg-6">
                             <ImageI18N
@@ -301,18 +301,18 @@ export default function Vitamin() {
                     </div>
                 </section>
 
-                <section className="bg-gray">
+                <section className="section bg-gray">
                     <div className="row">
                         <div className="col-12 mb-2">
                             <h2>{_("VITAMIN.HEAD4")}</h2>
                         </div>
-                        <div className="col-12">
+                        <div className="col-12 row bg-gray">
                             <IconTitleTextList items={advantages} />
                         </div>
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row mb-0">
                         <h2 className="col-xl-6 col-lg-8 col-12 mb-5">{_("VITAMIN.HEAD5")}</h2>
                         <div className="row row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 p-0 g-4">
@@ -396,7 +396,7 @@ export default function Vitamin() {
                     }}
                 />
 
-                <section>
+                <section className="section">
                     <CallToAction
                         // bgColor={bg_color}
                         title={_("VITAMIN.HEAD6")}

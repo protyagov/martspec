@@ -1,14 +1,40 @@
-.electrolyte {
-  .header-content-list{
+@import "@/sass/atom/base-new-vars";
+
+.electrolyte__.header-content-list{
     li {
       &::marker {
         color: #656AA1;
       }
     }
   }
+
+.electrolyet li {
+  font-size: 1.4rem;
+  font-family: os3;
+  margin-bottom: 0;
+  line-height: 150%;
 }
 
 .top {
   margin-top: 40px;
 
+}
+
+.electrolyte img {
+  max-width: 100%;
+  height: auto;
+}
+
+.electrolyte h2 {
+    margin-top: 1rem;
+    font-family: os6;
+    font-size: clamp(2rem, calc(1.8rem + max(1.5dvw, 1.5dvh)), 4rem);
+    margin-bottom: 1rem;
+    color: rgba($color: #000000, $alpha: 1.0);
+}
+
+.electrolyte p {
+  font-family: os3;
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }

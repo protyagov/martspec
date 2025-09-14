@@ -1,13 +1,13 @@
 @import "@/sass/atom/base-new-vars";
 
 .new-page-header {
-    margin: 6.8rem auto 10rem!important;
-    @include media-breakpoint-down(lg) {
-        margin: 6.5rem auto 4rem!important;
-    }
-    @include media-breakpoint-down(sm) {
-        margin: 1.875rem auto 3.75rem!important;
-    }
+    // margin: 6.8rem auto 10rem!important;
+    // @include media-breakpoint-down(lg) {
+    //     margin: 6.5rem auto 4rem!important;
+    // }
+    // @include media-breakpoint-down(sm) {
+    //     margin: 1.875rem auto 3.75rem!important;
+    // }
     h1,
     h2,
     h3,
@@ -40,7 +40,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        row-gap: map-get($section-y-gap, "xxs");
+        //row-gap: map-get($section-y-gap, "xxs");
     }
 
     .headings {
@@ -55,7 +55,7 @@
             text-align: left;
             max-width: 526px;
             margin-bottom: 1.3rem;
-            margin-left: 1.8rem;
+            //margin-left: 1.8rem;
 
             li {
                 margin-bottom: 1.2rem;
@@ -124,7 +124,7 @@
 
     .header-image {
         @extend .img-fluid;
-        @extend .mx-auto;
+       // @extend .mx-auto;
 
         @include media-breakpoint-down($base-breakpoint) {
             margin: 0;

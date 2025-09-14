@@ -88,7 +88,7 @@ export default function Bodymass() {
                     </div>
                 </Header>
 
-                <section>
+                <section className="section">
                     <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
                         <div className="col">
                             <CardTitleTextImage
@@ -133,7 +133,7 @@ export default function Bodymass() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row d-flex align-items-center justify-content-between g-4">
                         <div className="col-12 col-xxl-6">
                             <ImageI18N
@@ -157,12 +157,12 @@ export default function Bodymass() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row">
                         <div className="col-12 mb-2">
                             <h2>{_("MASS.HEAD3")}</h2>
                         </div>
-                        <div className="col-12">
+                        <div className="col-12 row">
                             <IconTitleTextList items={advantages} />
                         </div>
                     </div>
@@ -189,7 +189,7 @@ export default function Bodymass() {
                     }}
                 />
 
-                <section>
+                <section className="section">
                     <CallToAction
                         title="MASS.HEAD4"
                         subtitle="MASS.DESC4"

@@ -36,7 +36,7 @@ export default function BodySize() {
                 </Header>
 
                 {/* Body compostion */}
-                <section className="row">
+                <section className="section row">
                     <h4>{_("SIZE.HEAD1")}</h4>
                     <p className="mt-3">{_("SIZE.DESC1")}</p>
                 </section>
@@ -50,13 +50,13 @@ export default function BodySize() {
                 />
 
                 {/* Chest and Bust */}
-                <section className="row">
+                <section className="section row">
                     <h4>{_("SIZE.HEAD2")}</h4>
                     <p className="mt-3">{_("SIZE.DESC2")}</p>
                 </section>
 
                 {/* Waist Circumferance */}
-                <section className="row">
+                <section className="section row">
                     <h4>{_("SIZE.HEAD3")}</h4>
                     <p className="mt-3">
                         <a
@@ -70,7 +70,7 @@ export default function BodySize() {
                 </section>
 
                 {/* Hips Width */}
-                <section className="row">
+                <section className="section row">
                     <h4>{_("SIZE.HEAD4")}</h4>
                     <p className="mt-3">{_("SIZE.DESC4")}</p>
                 </section>
@@ -89,7 +89,7 @@ export default function BodySize() {
                 </section>
 
                 {/* Body Shape */}
-                <section className="row">
+                <section className="section row">
                     <h4>{_("SIZE.HEAD5")}</h4>
                     <p className="mt-3">{_("SIZE.DESC5")}</p>
                 </section>
@@ -116,7 +116,7 @@ export default function BodySize() {
                 />
             </div>
 
-            <div className="pb-5 text-center">
+            <section className="section pb-5 text-center">
                 <CallToAction
                     title={_("SIZE.CALL_TO_ACTION.HEAD")}
                     subtitle={_("SIZE.CALL_TO_ACTION.DESC")}
@@ -126,7 +126,7 @@ export default function BodySize() {
                     imgAlt={_("SIZE.IMG")}
                 />
                 {/* <img src="/img/size_bottom.512.webp" className="img-fluid mb-3 px-4" width={512} height={512} alt={_("SIZE.IMG")} /> */}
-            </div>
+            </section>
             <Footer />
             <ScrollButton />
         </>

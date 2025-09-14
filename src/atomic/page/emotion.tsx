@@ -73,7 +73,7 @@ export default function Emotion() {
                     </div>
                 </Header>
 
-                <section>
+                <section className="section">
                     <div className="row g-4">
                         <TitleTextCard
                             title={_("EMOTION.LIST1.LI1_HEAD")}
@@ -102,7 +102,7 @@ export default function Emotion() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row">
                         <div className="col-lg-6">
                             <h2>{_("EMOTION.HEAD1")}</h2>
@@ -123,7 +123,7 @@ export default function Emotion() {
                     </div>
                 </section>
 
-                <section className="bg-gray">
+                <section className="section bg-gray">
                     <div className="row">
                         <div className="col-lg-6">
                             <h2>{_("EMOTION.HEAD2")}</h2>
@@ -161,7 +161,7 @@ export default function Emotion() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row">
                         <div className="col-lg-6">
                             <h2>{_("EMOTION.HEAD3")}</h2>
@@ -194,7 +194,7 @@ export default function Emotion() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row">
                         <div className="col-lg-6">
                             <ImageI18N
@@ -232,18 +232,18 @@ export default function Emotion() {
                     </div>
                 </section>
 
-                <section className="bg-gray">
+                <section className="section bg-gray">
                     <div className="row">
                         <div className="col-12 mb-2">
                             <h2>{_("EMOTION.HEAD5")}</h2>
                         </div>
-                        <div className="col-12">
+                        <div className="col-12 row">
                             <IconTitleTextList items={advantages} />
                         </div>
                     </div>
                 </section>
 
-                <section className="bg-gray bg-merge-top personality-traits-list">
+                <section className="section bg-gray bg-merge-top personality-traits-list">
                     <div className="row mb-0">
                         <div className="col-12 mb-2">
                             <h2>{_("EMOTION.HEAD6")}</h2>
@@ -307,7 +307,7 @@ export default function Emotion() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row">
                         <div className="col-lg-6">
                             <h2>{_("EMOTION.HEAD7")}</h2>
@@ -397,7 +397,7 @@ export default function Emotion() {
                     }}
                 />
 
-                <section>
+                <section className="section">
                     <CallToAction
                         title="EMOTION.HEAD8"
                         subtitle="EMOTION.DESK8"

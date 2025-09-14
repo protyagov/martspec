@@ -1,0 +1,29 @@
+.home__image {
+  max-width: 100%;
+  height: auto;
+}
+
+.home p {
+  font-family: os3;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.home li::marker {
+  color: #1686ff;
+}
+
+.home h2 {
+  margin-top: 1rem;
+  font-family: os6;
+  font-size: clamp(2rem, calc(1.8rem + max(1.5dvw, 1.5dvh)), 4rem);
+  margin-bottom: 1rem;
+  color: $ms-color-text-black;
+}
+
+.home li {
+  font-size: 1.4rem;
+  font-family: os3;
+  margin-bottom: 0;
+  line-height: 120%;
+}

@@ -33,7 +33,7 @@ const Article = ({ emotion }: { emotion: string }) => {
     return (
         <div>
             <NavigationBar />
-            <div className="ms-base-page">
+            <div className="article__container">
                 <Header
                     title={articleData?.HEADER.TITLE ?? ""}
                     appId={appId}

@@ -12,6 +12,7 @@ import ScrollButton from "../atom/scroll-button";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CallToAction from "@/atomic/organism/call-to-action-new";
+import "@/sass/page/electrolyte.scss";
 
 export default function Electrolyte() {
     const appId = getAppId();
@@ -54,7 +55,7 @@ export default function Electrolyte() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page">
+            <div className="ms-base-page electrolyte">
                 <Header
                     title={_("ELECTROLYTE.HEAD")}
                     appId={appId}
@@ -64,7 +65,7 @@ export default function Electrolyte() {
                     imgH={405}
                     imgW={550}
                 >
-                    <div className="electrolyte">
+                    <div className="electrolyte__header-content-list">
                         <ul className="header-content-list">
                             <li>{_("ELECTROLYTE.ABOUT_1")}</li>
                             <li>{_("ELECTROLYTE.ABOUT_2")}</li>
@@ -73,7 +74,7 @@ export default function Electrolyte() {
                     </div>
                 </Header>
 
-                <section>
+                <section className="section">
                     <div className="row d-flex justify-content-between g-4">
                         <div className="col-12 col-xxl-6">
                             <div className="top">
@@ -177,12 +178,12 @@ export default function Electrolyte() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row our-advantages-section">
                         <div className="col-12">
                             <h2>{_("ELECTROLYTE.HEAD8")}</h2>
                         </div>
-                        <div className="col-12">
+                        <div className="col-12 row">
                             <IconTitleTextList items={advantages} />
                         </div>
                     </div>
@@ -209,7 +210,7 @@ export default function Electrolyte() {
                     }}
                 />
 
-                <section>
+                <section className="section">
                     <CallToAction
                         title="ELECTROLYTE.HEAD9"
                         subtitle="ELECTROLYTE.DESC9"

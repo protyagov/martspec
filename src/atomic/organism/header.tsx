@@ -30,7 +30,7 @@ export default function Header(props: WithImageProps | WithoutImageProps) {
 
     return (
         <section className="new-page-header">
-            <div className="row">
+            <div className="">
                 <div className="col">
                     <div className={`headings ${rowItems ? "spaced" : ""}`}>
                         <h1>{title}</h1>

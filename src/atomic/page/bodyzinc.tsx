@@ -71,7 +71,7 @@ export default function BodyZinc() {
                     </div>
                 </Header>
 
-                <section>
+                <section className="section">
                     <div className="row g-4">
                         <TitleTextCard
                             title={_("ZINC.LIST1.LI1_HEAD")}
@@ -91,7 +91,7 @@ export default function BodyZinc() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row">
                         <div className="col-lg-6">
                             <h2>{_("ZINC.HEAD1")}</h2>
@@ -120,12 +120,12 @@ export default function BodyZinc() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row">
                         <div className="col-12 mb-2">
                             <h2>{_("ZINC.HEAD4")}</h2>
                         </div>
-                        <div className="col-12">
+                        <div className="col-12 row">
                             <IconTitleTextList items={iconTitleTextListItems} />
                         </div>
                     </div>
@@ -152,7 +152,7 @@ export default function BodyZinc() {
                     }}
                 />
 
-                <section>
+                <section className="section">
                     <div className="row">
                         <CallToAction
                             title={_("ZINC.HEAD5")}

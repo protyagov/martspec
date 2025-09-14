@@ -22,271 +22,353 @@ html {
     }
 }
 
+// .text-section-block {
+//     @extend .container-xxl;
+
+//     padding-left: 1%;
+//     padding-right: 1%;
+//     margin-bottom: 2.5rem;
+
+//     @include media-breakpoint-down(sm) {
+//         padding-left: 3%;
+//         padding-right: 3%;
+//         margin-top: 0.5rem;
+//         margin-bottom: 2rem;
+//     }
+
+//     @include media-breakpoint-up(xxl) {
+//         padding-left: 3%;
+//         padding-right: 3%;
+//     }
+// }
+
 .ms-base-page {
-    flex: 1 0;
-    font-size: 1.9rem;
+    width: 222px;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+}
 
-    section {
-        @extend .ms-s-offset;
-    }
-
-
-    h1 {
-        margin-top: 1rem;
-        font-family: os6;
-        font-size: clamp(2rem, calc(1.8rem + max(1.5dvw, 1.5dvh)), 4rem);
-        margin-bottom: 1rem;
-        color: $ms-color-text-black;
-    }
-
-    h2 {
-        margin-top: 2rem;
-        font-family: os6;
-        font-size: 2rem;
-        margin-bottom: 1.85rem;
-        color: #212529;
-        overflow-wrap: anywhere;
-    }
-
-    h3 {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        font-family: os5;
-        font-size: 2rem;
-        color: $ms-color-text-darker;
-        overflow-wrap: anywhere;
-    }
-
-    h4 {
-        margin-top: 3rem;
-        font-family: os4;
-        font-size: 1.9rem;
-        margin-bottom: 0.4rem;
-        color: $ms-color-text-blue;
-    }
-
-    h5 {
-        margin-top: 1.8rem;
-        font-family: os4;
-        font-size: 1.4rem;
-        margin-bottom: 0.3rem;
-        color: $ms-color-text-blue;
-    }
-
-    ul {
-        list-style-type: none;
-        padding-left: 0;
-    }
-
-    li,
-    p {
-        font-family: os3;
-        font-size: 1.5rem;
-        margin-bottom: 0;
-    }
-
-    .font-normal {
-        font-family: os4;
-    }
-
-    .simplify-life-list {
-        li {
-            font-size: 1.4rem;
-            line-height: 120%;
-
-            &::marker {
-                color: #1686ff;
-            }
-        }
-    }
-
-    img {
-        display: block;
-    }
-
-    section {
-        max-width: 100%;
-        padding: 0;
-        margin: map-get($section-y-gap, "l") auto;
-
-        &.bg-gray {
-            padding: map-get($section-y-gap, "m") 0;
-        }
-
-        &.bg-merge-top {
-            margin-top: -(map-get($section-y-gap, "m")) * 2;
-        }
-
-        @include media-breakpoint-down($base-breakpoint) {
-            margin: 2rem auto;
-        }
-    }
-
-    @each $color,
-    $hex in $bgs-new {
-        .bg-#{$color} {
-            background: $hex;
-        }
-    }
-
-    @each $gap,
-    $rem in $section-y-gap {
-        .mt-mob-#{$gap} {
-            @include media-breakpoint-down($base-breakpoint) {
-                margin-top: $rem #{"!important"};
-            }
-        }
-
-        .mb-mob-#{$gap} {
-            @include media-breakpoint-down($base-breakpoint) {
-                margin-bottom: $rem #{"!important"};
-            }
-        }
-    }
-
-    .mb-6 {
-        margin-bottom: map-get($section-y-gap, "xxs");
-    }
-
-    %with-shadow {
-        box-shadow:
-            0px 4px 8px 0px #0000000a,
-            0px 0px 4px 0px #0000000f;
-    }
-
-    %p-smaller {
-        font-size: 1.35rem;
-        line-height: 147%;
-        margin-bottom: 0;
-    }
-
-    .col-lg-6 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .row {
-        @extend .ms-s-offset;
-
-        margin-top: 0;
-
-        &.g-4 {
-            margin-top: -1.5rem; // necessary for correct offsets
-        }
-
-        &:not(:only-child):not(:last-child) {
-            margin-bottom: map-get($section-y-gap, "s");
-        }
-    }
-
-    .block {
-        @extend %with-shadow;
-
-        height: 100%;
-        padding: 3rem;
-        border-radius: 38px;
-
-        h3 {
-            margin-bottom: 1rem;
-        }
-
-        p,
-        li {
-            @extend %p-smaller;
-        }
-    }
-
-    .list-with-icons {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: $column-x-gap;
-        row-gap: 2.5rem;
-
-        @include media-breakpoint-down($base-breakpoint) {
-            grid-template-columns: 1fr;
-        }
-
-        li {
-            display: grid;
-            grid-template-columns: auto 1fr;
-            gap: 1.5rem;
-            align-items: start;
-            align-self: stretch;
-            height: 100%;
-        }
-
-        h3 {
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
-        p {
-            @extend %p-smaller;
-        }
-
-        &.extended {
-            grid-template-columns: repeat(3, 1fr);
-            row-gap: 5rem;
-
-            li {
-                grid-template-rows: min-content;
-                grid-template-columns: 1fr;
-                gap: map-get($section-y-gap, "xxs");
-            }
-
-            h3 {
-                margin-bottom: 1rem;
-            }
-
-            @include media-breakpoint-down($base-breakpoint) {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            @include media-breakpoint-down(md) {
-                grid-template-columns: 1fr;
-                row-gap: 1.5rem;
-
-                li {
-                    padding: 3rem;
-                    border-radius: 38px;
-                    background: #f8f8f8;
-                }
-
-                .icon {
-                    order: 3;
-                }
-            }
-        }
-    }
-
-    .our-advantages-section {
-        h2 {
-            font-size: 3.08rem;
-            margin-bottom: 3.85rem;
-        }
-    }
-
-    // Ensure bootstrap class apply in case of same specifity
-
-    .g-4 {
-        @extend .g-4;
+@media (min-width: 360px) {
+    .ms-base-page {
+        width: 328px;
     }
 }
 
-.ms-base-image {
-    @extend .img-fluid;
-    @extend .mx-auto;
-
-    @include media-breakpoint-down(md) {
-        margin-top: 5rem;
-        margin-bottom: 5rem;
+@media (min-width: 400px) {
+    .ms-base-page {
+        width: 360px;
     }
 }
 
-.gap-10-responsive {
-    @media (min-width: 600px) {
-        display: flex;
-        gap: 10px;
+@media (min-width: 500px) {
+    .ms-base-page {
+        width: 460px;
     }
 }
+
+@media (min-width: 768px) {
+    .ms-base-page {
+        width: 615px;
+    }
+}
+
+@media (min-width: 900px) {
+    .ms-base-page {
+        width: 720px;
+        padding: 110px 0 0 0;
+    }
+}
+
+@media (min-width: 1000px) {
+    .ms-base-page {
+        width: 800px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ms-base-page {
+        width: 960px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .ms-base-page {
+        width: 1236px;
+    }
+}
+
+.section {
+    margin: 8.8rem auto;
+}
+
+.bg-gray {
+    background-color: #f4f4f4;
+} 
+
+
+    //flex: 1 0;
+    //font-size: 1.9rem;
+
+    // section {
+    //     @extend .ms-s-offset;
+    // }
+
+
+//     h1 {
+//         margin-top: 1rem;
+//         font-family: os6;
+//         font-size: clamp(2rem, calc(1.8rem + max(1.5dvw, 1.5dvh)), 4rem);
+//         margin-bottom: 1rem;
+//         color: $ms-color-text-black;
+//     }
+
+//     h2 {
+//         margin-top: 2rem;
+//         font-family: os6;
+//         font-size: 2rem;
+//         margin-bottom: 1.85rem;
+//         color: #212529;
+//         overflow-wrap: anywhere;
+//     }
+
+//     h3 {
+//         margin-top: 2rem;
+//         margin-bottom: 2rem;
+//         font-family: os5;
+//         font-size: 2rem;
+//         color: $ms-color-text-darker;
+//         overflow-wrap: anywhere;
+//     }
+
+//     h4 {
+//         margin-top: 3rem;
+//         font-family: os4;
+//         font-size: 1.9rem;
+//         margin-bottom: 0.4rem;
+//         color: $ms-color-text-blue;
+//     }
+
+//     h5 {
+//         margin-top: 1.8rem;
+//         font-family: os4;
+//         font-size: 1.4rem;
+//         margin-bottom: 0.3rem;
+//         color: $ms-color-text-blue;
+//     }
+
+//     ul {
+//         list-style-type: none;
+//         padding-left: 0;
+//     }
+
+//     li,
+//     p {
+//         font-family: os3;
+//         font-size: 1.5rem;
+//         margin-bottom: 0;
+//     }
+
+//     .font-normal {
+//         font-family: os4;
+//     }
+
+//     .simplify-life-list {
+//         li {
+//             font-size: 1.4rem;
+//             line-height: 120%;
+
+//            &::marker {
+//                 color: #1686ff;
+//             } 
+//         }
+//     }
+
+//     img {
+//         display: block;
+//     }
+
+//     section {
+//         max-width: 100%;
+//         padding: 0;
+//         margin: map-get($section-y-gap, "l") auto;
+
+//         &.bg-gray {
+//             padding: map-get($section-y-gap, "m") 0;
+//         }
+
+//         &.bg-merge-top {
+//             margin-top: -(map-get($section-y-gap, "m")) * 2;
+//         }
+
+//         @include media-breakpoint-down($base-breakpoint) {
+//             margin: 2rem auto;
+//         }
+//     }
+
+//     @each $color,
+//     $hex in $bgs-new {
+//         .bg-#{$color} {
+//             background: $hex;
+//         }
+//     }
+
+//     @each $gap,
+//     $rem in $section-y-gap {
+//         .mt-mob-#{$gap} {
+//             @include media-breakpoint-down($base-breakpoint) {
+//                 margin-top: $rem #{"!important"};
+//             }
+//         }
+
+//         .mb-mob-#{$gap} {
+//             @include media-breakpoint-down($base-breakpoint) {
+//                 margin-bottom: $rem #{"!important"};
+//             }
+//         }
+//     }
+
+//     .mb-6 {
+//         margin-bottom: map-get($section-y-gap, "xxs");
+//     }
+
+//     %with-shadow {
+//         box-shadow:
+//             0px 4px 8px 0px #0000000a,
+//             0px 0px 4px 0px #0000000f;
+//     }
+
+//     %p-smaller {
+//         font-size: 1.35rem;
+//         line-height: 147%;
+//         margin-bottom: 0;
+//     }
+
+//     .col-lg-6 {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//     }
+
+//     .row {
+//         @extend .ms-s-offset;
+
+//         margin-top: 0;
+
+//         &.g-4 {
+//             margin-top: -1.5rem; // necessary for correct offsets
+//         }
+
+//         &:not(:only-child):not(:last-child) {
+//             margin-bottom: map-get($section-y-gap, "s");
+//         }
+//     }
+
+//     .block {
+//         @extend %with-shadow;
+
+//         height: 100%;
+//         padding: 3rem;
+//         border-radius: 38px;
+
+//         h3 {
+//             margin-bottom: 1rem;
+//         }
+
+//         p,
+//         li {
+//             @extend %p-smaller;
+//         }
+//     }
+
+    // .list-with-icons {
+    //     display: grid;
+    //     grid-template-columns: repeat(2, 1fr);
+    //     column-gap: $column-x-gap;
+    //     row-gap: 2.5rem;
+
+    //     @include media-breakpoint-down($base-breakpoint) {
+    //         grid-template-columns: 1fr;
+    //     }
+
+    //     li {
+    //         display: grid;
+    //         grid-template-columns: auto 1fr;
+    //         gap: 1.5rem;
+    //         align-items: start;
+    //         align-self: stretch;
+    //         height: 100%;
+    //     }
+
+    //     h3 {
+    //         margin-top: 0;
+    //         margin-bottom: 0;
+    //     }
+
+    //     p {
+    //         @extend %p-smaller;
+    //     }
+
+    //     &.extended {
+    //         grid-template-columns: repeat(3, 1fr);
+    //         row-gap: 5rem;
+
+    //         li {
+    //             grid-template-rows: min-content;
+    //             grid-template-columns: 1fr;
+    //             gap: map-get($section-y-gap, "xxs");
+    //         }
+
+    //         h3 {
+    //             margin-bottom: 1rem;
+    //         }
+
+    //         @include media-breakpoint-down($base-breakpoint) {
+    //             grid-template-columns: repeat(2, 1fr);
+    //         }
+
+    //         @include media-breakpoint-down(md) {
+    //             grid-template-columns: 1fr;
+    //             row-gap: 1.5rem;
+
+    //             li {
+    //                 padding: 3rem;
+    //                 border-radius: 38px;
+    //                 background: #f8f8f8;
+    //             }
+
+    //             .icon {
+    //                 order: 3;
+    //             }
+    //         }
+    //     }
+    // }
+
+//     .our-advantages-section {
+//         h2 {
+//             font-size: 3.08rem;
+//             margin-bottom: 3.85rem;
+//         }
+//     }
+
+//     // Ensure bootstrap class apply in case of same specifity
+
+//     .g-4 {
+//         @extend .g-4;
+//     }
+// }
+
+// .ms-base-image {
+//     @extend .img-fluid;
+//     @extend .mx-auto;
+
+//     @include media-breakpoint-down(md) {
+//         margin-top: 5rem;
+//         margin-bottom: 5rem;
+//     }
+// }
+
+// .gap-10-responsive {
+//     @media (min-width: 600px) {
+//         display: flex;
+//         gap: 10px;
+//     }

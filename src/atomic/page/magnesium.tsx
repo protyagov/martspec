@@ -66,7 +66,8 @@ export default function Magnesium() {
                         </ul>
                     </div>
                 </Header>
-                <section>
+
+                <section className="section">
                     <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
                         <div className="col">
                             <CardTitleTextImage
@@ -110,7 +111,7 @@ export default function Magnesium() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row d-flex align-items-center justify-content-between iron__section">
                         <div className="col-12 col-xxl-6 order-2 order-xxl-1">
                             <ImageI18N
@@ -138,7 +139,7 @@ export default function Magnesium() {
                     </div>
                 </section>
 
-                <section className="row">
+                <section className="row section">
                     <TitleTextCard
                         className=""
                         title={_("MAGNESIUM.SECTION.TITLE")}
@@ -146,7 +147,7 @@ export default function Magnesium() {
                     />
                 </section>
 
-                <section className="row gap-3 gap-md-0">
+                <section className="section row gap-3 gap-md-0">
                     <div className="col-12 col-md-4 d-grid">
                         <CardIconTitleText
                             iconProps={{
@@ -255,7 +256,7 @@ export default function Magnesium() {
                 />
             </div>
 
-            <section>
+            <section className="ms-base-page section">
                 <CallToAction
                     title="MAGNESIUM.ABOUT_4"
                     subtitle="MAGNESIUM.ABOUT_5"

@@ -74,7 +74,7 @@ export default function WaistLine() {
                     </div>
                 </Header>
 
-                <section>
+                <section className="section">
                     <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
                         <div className="col no-mx-5">
                             <CardTitleTextImage
@@ -138,7 +138,7 @@ export default function WaistLine() {
                     />
                 </div>
 
-                <section>
+                <section className="section">
                     <div className="ms-base-new row waist-info-section">
                         <h2>{_("WAIST.HEAD6")}</h2>
                         <p>{_("WAIST.DESC6")}</p>
@@ -185,12 +185,12 @@ export default function WaistLine() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row our-advantages-section">
                         <div className="col-12">
                             <h2>{_("WAIST.HEAD4")}</h2>
                         </div>
-                        <div className="col-12">
+                        <div className="col-12 row">
                             <IconTitleTextList items={advantages} />
                         </div>
                     </div>
@@ -218,7 +218,7 @@ export default function WaistLine() {
                 />
             </div>
 
-            <section className="ms-base-page ms-base-new">
+            <section className="section ms-base-page">
                 <CallToAction
                     title="MASS.HEAD4"
                     subtitle="WAIST.DESC5"
