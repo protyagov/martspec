@@ -52,7 +52,7 @@ export function App() {
         case "/bodyzinc":
             return <BodyZinc />;
         case "/magnesium":
-            return <Magnesium />
+            return <Magnesium />;
         case "/emotion":
             return <Emotion />;
         case "/emotion/biorhythms":
@@ -79,10 +79,10 @@ export function App() {
             return <Iron />;
         case "/coming-soon":
             return <ComingSoon />;
-            default:
-                const [, pagePath, currentPath] = url.split("/");
-    
-                if (pagePath === "vitamin") return <VitaminElement id={currentPath} />;
+        default:
+            const [, pagePath, currentPath] = url.split("/");
+
+            if (pagePath === "vitamin") return <VitaminElement id={currentPath} />;
             if (pagePath === "careers") return <VacancyDetails position={currentPath} />;
             if (pagePath === "emotion") return <Article emotion={currentPath} />;
 

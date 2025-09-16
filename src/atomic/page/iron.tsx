@@ -77,7 +77,7 @@ export default function Iron() {
                     </div>
                 </Header>
 
-                <section>
+                <section className="section">
                     <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
                         <div className="col">
                             <CardTitleTextImage
@@ -122,7 +122,7 @@ export default function Iron() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row d-flex align-items-center justify-content-between iron__section">
                         <div className="col-12 col-xxl-6 order-2 order-xxl-1">
                             <ImageI18N
@@ -145,12 +145,12 @@ export default function Iron() {
                     </div>
                 </section>
 
-                <section className="iron__advantages">
+                <section className="section iron__advantages">
                     <div className="row">
                         <div className="col-12 mb-2">
                             <h2>{_("IRON.HEAD1")}</h2>
                         </div>
-                        <div className="col-12">
+                        <div className="col-12 row">
                             <IconTitleTextList items={iconTitleTextListItems} />
                         </div>
                     </div>

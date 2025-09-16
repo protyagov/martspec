@@ -84,7 +84,7 @@ const Careers = () => {
                     <p className="font-normal">{_("CAREERS.ABOUT")}</p>
                 </Header>
 
-                <section>
+                <section className="section">
                     <div className="row d-flex justify-content-between g-4">
                         <div className="col-12 col-xxl-5 order-2 order-xxl-1">
                             <ImageI18N
@@ -107,7 +107,7 @@ const Careers = () => {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row g-4">
                         <h2>{_("CAREERS.HEAD2")}</h2>
                         <TitleTextCard
@@ -128,7 +128,7 @@ const Careers = () => {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row g-4">
                         <h2>{_("CAREERS.HEAD3")}</h2>
                         {careers.map(({ id, getTitle, getText, image, getAlt }) => (

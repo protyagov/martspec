@@ -9,25 +9,25 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 
 interface TeamMembers {
-  [key: string]: {
-    NAME: string;
-    TITLE: string;
-    AVATAR: string;
-    LINK: string;
-  };
+    [key: string]: {
+        NAME: string;
+        TITLE: string;
+        AVATAR: string;
+        LINK: string;
+    };
 }
 
 export default function Team() {
     const [teamMembers, setTeamMembers] = React.useState<TeamMembers | null>(null);
 
     React.useEffect(() => {
-    const fetchTeamData = async () => {
-        const response = await fetch(`/data/team/${Locale.language}.json`);
-        const data = await response.json();
-        setTeamMembers(data);
-    };
-    fetchTeamData();
-    },[Locale.language])
+        const fetchTeamData = async () => {
+            const response = await fetch(`/data/team/${Locale.language}.json`);
+            const data = await response.json();
+            setTeamMembers(data);
+        };
+        fetchTeamData();
+    }, [Locale.language]);
 
     const memberIds = Object.keys(teamMembers || {});
 
@@ -37,36 +37,34 @@ export default function Team() {
 
             <div className="ms-base-page pb-5 ms-team row ms-team-info-section">
                 <section className="mb-1 mt-1">
-                <Header 
-                    title={_("TEAM.HEAD")}
-                >
-                    <p className="font-normal">{_("TEAM.ABOUT")}</p>
-                </Header>
+                    <Header title={_("TEAM.HEAD")}>
+                        <p className="font-normal">{_("TEAM.ABOUT")}</p>
+                    </Header>
                 </section>
 
-                <section className="mb-5 mt-1">
-                <div className="d-none d-md-block">
-                    <div className="row justify-content-center  mb-1 big-card-row">
-                    {memberIds.slice(0, 2).map((memberId) => (
-                        <TeamMember key={`wide-${memberId}`} member={teamMembers![memberId]} isWide={true} />
-                    ))}
+                <section className="section mb-5 mt-1">
+                    <div className="d-none d-md-block">
+                        <div className="row justify-content-center  mb-1 big-card-row">
+                            {memberIds.slice(0, 2).map((memberId) => (
+                                <TeamMember key={`wide-${memberId}`} member={teamMembers![memberId]} isWide={true} />
+                            ))}
+                        </div>
+                        <div className="members-list row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
+                            {memberIds.slice(2).map((memberId) => (
+                                <TeamMember key={`normal-${memberId}`} member={teamMembers![memberId]} />
+                            ))}
+                        </div>
                     </div>
-                    <div className="members-list row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
-                    {memberIds.slice(2).map((memberId) => (
-                        <TeamMember key={`normal-${memberId}`} member={teamMembers![memberId]} />
-                    ))}
+                    <div className="d-md-none">
+                        <div className="row row-cols-1 g-4 justify-content-center">
+                            {memberIds.map((memberId) => (
+                                <TeamMember key={`mobile-${memberId}`} member={teamMembers![memberId]} />
+                            ))}
+                        </div>
                     </div>
-                </div>
-                <div className="d-md-none">
-                    <div className="row row-cols-1 g-4 justify-content-center">
-                    {memberIds.map((memberId) => (
-                        <TeamMember key={`mobile-${memberId}`} member={teamMembers![memberId]} />
-                    ))}
-                    </div>
-                </div>
                 </section>
 
-                <section className="m-1">
+                <section className="section m-1">
                     <div className="row d-flex justify-content-between g-4">
                         <div className="col-12 col-xxl-5 order-2 order-xxl-1">
                             <ImageI18N
@@ -82,7 +80,7 @@ export default function Team() {
                                 textContent={[_("TEAM.TEXT1_1")]}
                                 buttonText={_("TEAM.BUTTON")}
                                 buttonLink={`mailto:support@martspec.com?subject=Martspec Question&body=I have a question about your products.`}
-                                buttonColor="#1686FF"   
+                                buttonColor="#1686FF"
                             />
                         </div>
                     </div>

@@ -5,7 +5,7 @@ import SocialBar from "@/atomic/organism/social-bar";
 export default function ComingSoon() {
     return (
         <div className="ms-base-page text-center py-5">
-            <section>
+            <section className="section">
                 <img
                     src="/img/coming_soon.webp"
                     className="ms-base-image mb-4"
@@ -23,7 +23,7 @@ export default function ComingSoon() {
                     {_("COMING_SOON.BTN")}
                 </a>
             </section>
-            <section>
+            <section className="section">
                 <p className="pt-3 mb-1" style={{ fontFamily: "os4", color: "#444444" }}>
                     {_("COMING_SOON.CTA")}
                 </p>

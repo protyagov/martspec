@@ -117,7 +117,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                             </section>
                         </div>
 
-                        <section>
+                        <section className="section">
                             <div className="row mt-5">
                                 <div className="col">
                                     <h2>{_("VITAMIN.CONTENT.FUNC")}</h2>
@@ -147,7 +147,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                             )}
                         </section>
 
-                        <section>
+                        <section className="section">
                             <div className="row">
                                 <div className="col-md col-12 vit-def">
                                     <h3>{_("VITAMIN.CONTENT.DEF")}</h3>
@@ -213,7 +213,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                             );
                         })}
 
-                        <section>
+                        <section className="section">
                             <div className="row">
                                 <div className="col">
                                     <h2>
@@ -251,7 +251,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                             </div>
                         </section>
 
-                        <section>
+                        <section className="section">
                             <div className="row">
                                 <div className="col vit-facts">
                                     <h2>{_("VITAMIN.CONTENT.FACTS")}</h2>
@@ -260,7 +260,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                             </div>
                         </section>
 
-                        <section>
+                        <section className="section">
                             <div className="row">
                                 <div className="col text-center">
                                     <a

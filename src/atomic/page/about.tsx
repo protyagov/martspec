@@ -29,7 +29,7 @@ export default function About() {
                 >
                     <p className="font-normal">{_("ABOUT.P1")}</p>
                 </Header>
-                <section>
+                <section className="section">
                     <div className="row d-flex flex-xxl-nowrap align-items-center justify-content-between gap-5">
                         <div className="col-12 col-xxl-6 order-2 order-xxl-1 me-xxl-5">
                             <ImageI18N src="/img/story-start.webp" w={620} h={390} cls="ms-base-image" />
@@ -45,7 +45,7 @@ export default function About() {
                     </div>
                 </section>
 
-                <section className="about-command">
+                <section className="section about-command">
                     <div className="row">
                         <div className="d-flex flex-wrap justify-content-between about-command-block">
                             <div className="col-12 col-xxl-6">
@@ -101,7 +101,7 @@ export default function About() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="ms-base-new row about-info-section">
                         <h2>{_("ABOUT.HEAD1")}</h2>
                         <p className="bottom">{_("ABOUT.DESC1")}</p>
@@ -150,7 +150,7 @@ export default function About() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <CallToAction
                         title="ABOUT.P2"
                         subtitle="ABOUT.P3"
