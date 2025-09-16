@@ -34,27 +34,45 @@ export default function CardBodyMetric({
 
     return (
         <div className="card-body-metric d-flex flex-column h-100 position-relative rounded-5 shadow">
-            <p className="title lh-1 mb-0 z-2">
-                {title}
-            </p>
-            <div className="card-action">
-                <TextLinkArrow
-                    rightIcon={<RightArrowIcon />}
-                    {...actionLink}
-                    color={primaryColor}
-                    hoverColor={linkHoverColor}
-                    hasUnderlineHover={hasUnderlineHover}
-                />
-            </div>
-            {bgImg && (
-                <img
-                    className="position-absolute top-0 end-0 z-1"
-                    src={bgImg.src}
-                    alt=""
-                    width={bgImg.width}
-                    height={bgImg.height}
-                />
-            )}
+    {/* Контент */}
+    <div className="position-relative z-2" style={{ flex: 1 }}>
+        <p className="title lh-1 mb-0">
+            {title}
+        </p>
+        <div className="card-action pt-4">
+            <TextLinkArrow
+                rightIcon={<RightArrowIcon />}
+                {...actionLink}
+                color={primaryColor}
+                hoverColor={linkHoverColor}
+                hasUnderlineHover={hasUnderlineHover}
+            />
         </div>
+    </div>
+    {bgImg && (
+        <div 
+            className="position-absolute"
+            style={{
+                top: 0,
+                right: 0,
+                width: "auto",
+                height: "70%",
+                overflow: "hidden",
+                zIndex: 1
+            }}
+        >
+            <img 
+                src={bgImg.src}
+                className="h-100"
+                style={{
+                    objectFit: "contain", // меняем на contain чтобы вся картинка была видна
+                    objectPosition: "right top",
+                    transition: "transform 0.3s ease"
+                }}
+                alt=""
+            />
+        </div>
+    )}
+</div>
     );
 }

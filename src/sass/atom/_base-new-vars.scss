@@ -29,7 +29,8 @@ $bgs-new: (
     "blue": #d6e3fc,
     "aqua": #d6f7fc,
     "gray": #f4f4f4,
-    "new-gray": #F4F5F8
+    "new-gray": #F4F5F8,
+    "pink":#FAEBFF
     // "gray": $ms-color-bg-secondary,
 );
 
@@ -74,5 +75,10 @@ $electrolyte-colors: (
     "main-filter": brightness(0) saturate(100%) invert(45%) sepia(30%) saturate(500%) hue-rotate(220deg) brightness(100%) contrast(105%),
     "hover": #6760b7, 
     "bg":map-get($bgs-new, "new-gray"),
+);
+
+$body-size-breakpoints: (
+  "wide": 1399px,
+  "medium": 855px
 );
 

@@ -17,12 +17,6 @@
     "AVATAR": "/img/page/team/team_svetlana.webp",
     "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
   },
-  "ELVIRA": {
-    "NAME": "إلفيرا",
-    "TITLE": "مصمم واجهات المستخدم",
-    "AVATAR": "/img/page/team/team_elvira.webp",
-    "LINK": "www.linkedin.com/in/elviragilfanova"
-  },
   "DARIA": {
     "NAME": "داريا",
     "TITLE": "مصمم واجهات المستخدم",
@@ -39,12 +33,6 @@
     "NAME": "فيتالي",
     "TITLE": "مطور iOS",
     "AVATAR": "/img/page/team/team_vitalyV.webp",
-    "LINK": ""
-  },
-  "MAKSYM": {
-    "NAME": "ماكسيم",
-    "TITLE": "مهندس ضمان الجودة",
-    "AVATAR": "/img/page/team/team_maksym.webp",
     "LINK": ""
   },
   "ELINA": {

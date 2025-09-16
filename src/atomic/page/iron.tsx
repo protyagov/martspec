@@ -77,9 +77,12 @@ export default function Iron() {
                     </div>
                 </Header>
 
+
+                    {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
+                        <div className="col"> */}
                 <section className="section">
-                    <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
-                        <div className="col">
+                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                        <div className="col col-md-4">
                             <CardTitleTextImage
                                 title={_("IRON.LIST1.LI1_HEAD")}
                                 text={_("IRON.LIST1.LI1_TEXT")}
@@ -90,7 +93,7 @@ export default function Iron() {
                                 imgPosition="default"
                             />
                         </div>
-                        <div className="col p-0">
+                        <div className="col col-md-4 p-0">
                             <div className="row row-cols-1 h-100 p-0">
                                 <div className="col py-0">
                                     <CardTitleText
@@ -136,7 +139,12 @@ export default function Iron() {
                         <div className="col-12 offset-xxl-1 col-xxl-5 order-1 order-xxl-2">
                             <CardTitleTextButton
                                 title={_("IRON.HEAD2")}
-                                textContent={[_("IRON.DESC2_1"), _("IRON.DESC2_2"), _("IRON.DESC2_3"), _("IRON.DESC2_4")]}
+                                textContent={[
+                                    _("IRON.DESC2_1"),
+                                    _("IRON.DESC2_2"),
+                                    _("IRON.DESC2_3"),
+                                    _("IRON.DESC2_4"),
+                                ]}
                                 buttonText={_("IRON.BTN_MORE")}
                                 buttonLink={Locale.i18nLink(`coming-soon`)}
                                 buttonColor="#FE460A"
@@ -155,7 +163,7 @@ export default function Iron() {
                         </div>
                     </div>
                 </section>
-
+                <div className="iron__reviews">
                 <Review
                     appId={appId}
                     codes={{
@@ -166,6 +174,7 @@ export default function Iron() {
                         head: _("REVIEW.HEAD"),
                         description: _("REVIEW.DESCRIPTION"),
                         link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
                         fillerCard: {
                             head: [
                                 _("REVIEW.FILLER_CARD.HEAD1"),
@@ -175,7 +184,10 @@ export default function Iron() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor="#FE460A"
+                    hasUnderlineHover={false}
                 />
+                </div>
 
                 <section className="iron__call-to-action">
                     <CallToAction
@@ -187,7 +199,6 @@ export default function Iron() {
                         imgAlt={_("ABOUT.IMG")}
                     />
                 </section>
-
             </div>
 
             <Footer />

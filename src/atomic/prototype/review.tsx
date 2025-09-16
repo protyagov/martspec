@@ -7,32 +7,86 @@ import { ReviewDesktop, ReviewMobile } from "@/atomic/molecule/review-layouts";
 import ReviewHead from "@/atomic/molecule/review-head";
 import ReviewDescription from "@/atomic/molecule/review-description";
 import ReviewCardSlider from "@/atomic/organism/review-card-slider";
+import ReviewPagination from "@/atomic/molecule/review-pagination";
 import { AllReviewsLink } from "@/atomic/organism/review-link";
+import { useReviewPagination } from "@/hooks/useReviewPagination";
+import { IReview } from "@/model/IReviewData";
+import { IFiller } from "@/model/IReviewWithFiller";
 
 import { TCountryCode, TLanguageCode } from "@/model/TCodes";
 
-interface IReview {
+interface IReviewProps {
     text: IReviewContextText;
     codes: {
         countryCode: TCountryCode;
         languageCode: TLanguageCode;
     };
     appId: number;
+    themeColor?: string;
+    hasUnderlineHover?: boolean;
 }
 
 const LG_BOOTSTRAP = 991;
 const XXL_BOOTSTRAP = 1400;
 
-export default function Review({ text, appId, codes }: IReview) {
+function isFiller(r: IReview | IFiller): r is IFiller {
+    return "filler" in r;
+}
+
+export default function Review({ text, appId, codes, themeColor = "#1686FF", hasUnderlineHover = true, }: IReviewProps) {
     const isMobile = useMediaQuery(`(max-width: ${LG_BOOTSTRAP}px)`);
     const isTablet = useMediaQuery(`(max-width: ${XXL_BOOTSTRAP}px)`);
 
-    const arrLength = isMobile ? 1 : isTablet ? 2 : 3;
-    const { reviews } = useReviewData({
+    const { reviews, isLoading } = useReviewData({
         codes,
-        arrLength,
         appId,
     });
+
+    const realReviews = React.useMemo(() => 
+        reviews?.filter((r): r is IReview => !isFiller(r)) ?? [], 
+        [reviews]
+    );
+    
+    const cardsPerPage = React.useMemo(() => {
+        if (isMobile) return 1;
+        if (isTablet) return 2;
+        return 3;
+    }, [isMobile, isTablet]);
+    
+    const { currentPage, totalPages, paginatedReviews, goToPage } = useReviewPagination(realReviews, cardsPerPage);
+
+    const cardsToRender = React.useMemo(() => {
+        const cards: (IReview | IFiller)[] = [...paginatedReviews];
+
+        const fillerCount = cardsPerPage - cards.length;
+        if (fillerCount > 0) {
+            const fillerCards = Array.from({ length: fillerCount }, () => ({ filler: true } as IFiller));
+            cards.push(...fillerCards);
+        }
+
+        return cards;
+    }, [paginatedReviews, cardsPerPage]);
+
+    const showPagination = !isLoading && !isMobile && realReviews.length > 4;
+
+    const sliderContent = (
+        <>
+            <ReviewCardSlider 
+                reviews={cardsToRender} 
+                currentPage={currentPage}
+                onPageChange={goToPage}
+                totalPages={totalPages}
+                hasUnderlineHover={hasUnderlineHover}
+            />
+            {showPagination && (
+                <ReviewPagination
+                    totalPages={totalPages}
+                    currentPage={currentPage}
+                    onPageChange={goToPage}
+                />
+            )}
+        </>
+    );
 
     if (!reviews || !appId) return <></>;
 
@@ -40,26 +94,27 @@ export default function Review({ text, appId, codes }: IReview) {
         <ReviewContext.Provider
             value={{
                 data: {
-                    reviews: reviews.slice(0, arrLength),
+                    reviews: reviews,
                     appId,
                     countryCode: codes.countryCode,
                 },
                 text,
+                themeColor,
             }}
         >
             {isMobile ? (
                 <ReviewMobile
                     head={<ReviewHead />}
                     description={<ReviewDescription />}
-                    link={<AllReviewsLink />}
-                    slider={<ReviewCardSlider />}
+                    link={<AllReviewsLink hasUnderlineHover={hasUnderlineHover} />}
+                    slider={sliderContent}
                 />
             ) : (
                 <ReviewDesktop
                     head={<ReviewHead />}
                     description={<ReviewDescription />}
-                    link={<AllReviewsLink />}
-                    slider={<ReviewCardSlider />}
+                    link={<AllReviewsLink hasUnderlineHover={hasUnderlineHover} />}
+                    slider={sliderContent}
                 />
             )}
         </ReviewContext.Provider>

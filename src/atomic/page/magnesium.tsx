@@ -13,10 +13,47 @@ import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import CardIconTitleText from "@/atomic/molecule/card-icon-title-text";
 import TitleTextCard from "@/atomic/molecule/title-text-card";
+import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
+import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import Review from "@/atomic/prototype/review";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 
 export default function Magnesium() {
+const iconTitleTextListItems: Array<IconTitleText> = [
+    {
+        icon: {
+            src: "/img/magnesium-protection-data.svg",
+            alt: _("MAGNESIUM.IMG1_ALT"),
+        },
+        title: _("MAGNESIUM.LIST2.LI2_1_TITLE"),
+        subtitle: _("MAGNESIUM.LIST2.LI2_1_TEXT"),
+    },
+    {
+        icon: {
+            src: "/img/magnesium-without-autorization.svg",
+            alt: _("MAGNESIUM.IMG2_ALT"),
+        },
+        title: _("MAGNESIUM.LIST2.LI2_2_TITLE"),
+        subtitle: _("MAGNESIUM.LIST2.LI2_2_TEXT"),
+    },
+    {
+        icon: {
+            src: "/img/magnesium-no-ads.svg",
+            alt: _("MAGNESIUM.IMG3_ALT"),
+        },
+        title: _("IRON.LIST2.LI2_3_TITLE"),
+        subtitle: _("IRON.LIST2.LI2_3_TEXT"),
+    },
+    {
+        icon: {
+            src: "/img/magnesium-health-sincronization.svg",
+            alt: _("MAGNESIUM.IMG4_ALT"),
+        },
+        title: _("MAGNESIUM.LIST2.LI2_4_TITLE"),
+        subtitle: _("MAGNESIUM.LIST2.LI2_4_TEXT"),
+    },
+];
+
     const appId = getAppId();
 
     const titleRef1 = useRef<HTMLHeadingElement>(null);
@@ -67,9 +104,11 @@ export default function Magnesium() {
                     </div>
                 </Header>
 
+                    {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
+                        <div className="col"> */}
                 <section className="section">
-                    <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
-                        <div className="col">
+                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                        <div className="col col-md-4">
                             <CardTitleTextImage
                                 title={_("MAGNESIUM.LIST1.LI1_HEAD")}
                                 text={_("MAGNESIUM.LIST1.LI1_TEXT")}
@@ -79,7 +118,7 @@ export default function Magnesium() {
                                 imgAlt={_("MAGNESIUM.LI1_IMG_ALT")}
                             />
                         </div>
-                        <div className="col p-0">
+                        <div className="col col-md-4 p-0">
                             <div className="row row-cols-1 h-100 p-0">
                                 <div className="col py-0">
                                     <CardTitleText
@@ -234,6 +273,17 @@ export default function Magnesium() {
                     </div>
                 </section>
 
+                <section>
+                    <div className="row">
+                        <div className="col-12 mb-2">
+                            <h2>{_("MAGNESIUM.HEAD1")}</h2>
+                        </div>
+                        <div className="col-12">
+                            <IconTitleTextList items={iconTitleTextListItems} />
+                        </div>
+                    </div>
+                </section>
+
                 <Review
                     appId={appId}
                     codes={{
@@ -244,6 +294,7 @@ export default function Magnesium() {
                         head: _("REVIEW.HEAD"),
                         description: _("REVIEW.DESCRIPTION"),
                         link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
                         fillerCard: {
                             head: [
                                 _("REVIEW.FILLER_CARD.HEAD1"),
@@ -253,6 +304,8 @@ export default function Magnesium() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor="#1686FF"
+                    hasUnderlineHover={false}
                 />
             </div>
 

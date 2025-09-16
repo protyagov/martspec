@@ -386,6 +386,7 @@ export default function Emotion() {
                         head: _("REVIEW.HEAD"),
                         description: _("REVIEW.DESCRIPTION"),
                         link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
                         fillerCard: {
                             head: [
                                 _("REVIEW.FILLER_CARD.HEAD1"),
@@ -395,6 +396,8 @@ export default function Emotion() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor="#7B62FE"
+                    hasUnderlineHover={false}
                 />
 
                 <section className="section">

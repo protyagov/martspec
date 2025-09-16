@@ -220,10 +220,11 @@ export default function Vitamin() {
                         </ul>
                     </div>
                 </Header>
-
+                    {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
+                        <div className="col"> */}
                 <section className="section">
-                    <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
-                        <div className="col">
+                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                        <div className="col col-md-4">
                             <CardTitleTextImage
                                 title={_("VITAMIN.LIST1.LI1_HEAD")}
                                 text={_("VITAMIN.LIST1.LI1_TEXT")}
@@ -233,7 +234,7 @@ export default function Vitamin() {
                                 imgAlt={_("VITAMIN.ALT6")}
                             />
                         </div>
-                        <div className="col p-0">
+                        <div className="col col-md-4 p-0">
                             <div className="row row-cols-1 h-100 p-0">
                                 <div className="col py-0">
                                     <CardTitleText
@@ -251,7 +252,7 @@ export default function Vitamin() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col col-md-4">
+                        <div className="col col-md-4 col-md-4">
                             <CardImage
                                 imgSrc="/img/page/vitamin/vitamin-watches-en.webp"
                                 imgH={720}
@@ -385,6 +386,7 @@ export default function Vitamin() {
                         head: _("REVIEW.HEAD"),
                         description: _("REVIEW.DESCRIPTION"),
                         link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
                         fillerCard: {
                             head: [
                                 _("REVIEW.FILLER_CARD.HEAD1"),
@@ -394,6 +396,8 @@ export default function Vitamin() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor="#1686FF"
+                    hasUnderlineHover={false}
                 />
 
                 <section className="section">

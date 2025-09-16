@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import { useReviewContext } from "@/atomic/molecule/review-context";
 
 interface IReviewProps {
     head: ReactNode;
@@ -8,6 +9,7 @@ interface IReviewProps {
 }
 
 export function ReviewDesktop({ head, description, link, slider }: IReviewProps) {
+    const { themeColor = "#1686FF" } = useReviewContext();
     return (
         <ReviewBase>
             <header className="review__header">

@@ -6,4 +6,137 @@
             }
         }
     }
+    
+}
+.how-head{
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 18px;
+        max-width: 549px;
+    }
+}
+.how-list {
+        flex-wrap: wrap;
+
+        li {
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 8px;
+        }
+
+        @include media-breakpoint-down(md) {
+            li {
+                flex-basis: calc(50% - (#{$column-x-gap} / 2));
+            }
+
+            li:last-child {
+                flex-basis: 100%;
+            }
+        }
+    }
+.waist-info-section {
+    h2 {
+        font-size: 3.08rem;
+        margin-bottom: 1.9rem;
+    }
+}
+.info-list {
+        padding: 0px!important;
+        p {
+            margin-bottom: 1rem !important;
+        }
+        .card-icon-title-text {
+            flex-grow: 1;
+        }
+    }
+  .adaptive-padding {
+    padding-right: 50%;
+    font-size: 40px;
+    margin: 0px !important;
+     
+    @media (max-width: 1300px) {
+        padding-right: 30%;
+    }     
+    @media (max-width: 800px) {
+        padding-right: 0%;
+    }
+
+}
+
+.bodysize-container {
+    .img-wrapper-big {
+        max-height: 440px;
+        width: auto;
+    }
+    .responsive-card {
+        @media (min-width: map-get($body-size-breakpoints, "wide")) {
+            width: 28rem !important;;
+        }
+        
+        @media (max-width: map-get($body-size-breakpoints, "medium")) {
+            min-height: 12rem;
+        }
+    }
+    .row-cols-xl-3 {
+        flex-wrap: wrap;
+        
+        @media (max-width: map-get($body-size-breakpoints, "wide")) {
+            > .col:nth-child(1),
+            > .col:nth-child(2) {
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+            
+            > .col:nth-child(3) {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-top: 30px;
+            }
+        }
+        
+        @media (max-width: map-get($body-size-breakpoints, "medium")) {
+            > .col {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+    .dropdown-list {
+        margin-top: 2.5rem;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+
+        @include media-breakpoint-up(md) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include media-breakpoint-up(lg) {
+            margin-top: 4.625rem;
+            gap: 3rem 1.5rem;
+        }
+
+        @include media-breakpoint-up(xl) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @include media-breakpoint-up(xxl) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+        .blue-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background-color: #1686FF;
+            flex-shrink: 0;
+            margin-top: 0.5em;
 }

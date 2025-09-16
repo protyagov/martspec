@@ -87,10 +87,11 @@ export default function Bodymass() {
                         </ul>
                     </div>
                 </Header>
-
+                    {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
+                        <div className="col"> */}
                 <section className="section">
-                    <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
-                        <div className="col">
+                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                        <div className="col col-md-4">
                             <CardTitleTextImage
                                 title={_("MASS.LIST1.LI1_HEAD")}
                                 text={_("MASS.LIST1.LI1_TEXT")}
@@ -101,7 +102,7 @@ export default function Bodymass() {
                                 imgPosition="default"
                             />
                         </div>
-                        <div className="col p-0">
+                        <div className="col col-md-4 p-0">
                             <div className="row row-cols-1 h-100 p-0">
                                 <div className="col py-0">
                                     <CardTitleText
@@ -178,6 +179,7 @@ export default function Bodymass() {
                         head: _("REVIEW.HEAD"),
                         description: _("REVIEW.DESCRIPTION"),
                         link: _("REVIEW.LINK_ALL_REVIEWS"),
+                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
                         fillerCard: {
                             head: [
                                 _("REVIEW.FILLER_CARD.HEAD1"),
@@ -187,6 +189,8 @@ export default function Bodymass() {
                             link: _("REVIEW.FILLER_CARD.LINK"),
                         },
                     }}
+                    themeColor="#F0606C"
+                    hasUnderlineHover={false}
                 />
 
                 <section className="section">
