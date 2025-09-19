@@ -359,10 +359,10 @@ export default function BodySize() {
 
 
                 <section className="bodysize-container">
-                    <div className="row row-cols-xl-3 row-cols-1 g-4">
-                        <div className="col col-md-4 p-0">
+                    <div className="row row-cols-xl-3 row-cols-1">
+                        <div className="col col-md-4 p-0 card-alignment-small">
                             <div className="row row-cols-1 h-100 p-0">
-                                <div className="col py-0 img-wrapper">
+                                <div className="col  img-wrapper ">
                                     <CardTitleTextImageCustom
                                         title={_("SIZE.HEAD9")}
                                         text={_("SIZE.DESC9")}
@@ -375,7 +375,7 @@ export default function BodySize() {
                                         responsive={true}
                                     />
                                 </div>
-                                <div className="col py-0 mt-4 img-wrapper">
+                                <div className="col  mt-5 img-wrapper">
                                     <CardTitleTextImageCustom
                                         title={_("SIZE.HEAD10")}
                                         text={_("SIZE.DESC10")}
@@ -391,7 +391,7 @@ export default function BodySize() {
                             </div>
                         </div>
                         
-                        <div className="col col-md-4 img-wrapper-big" >
+                        <div className="col col-md-4 img-wrapper-big card-alignment-big" >
                             <CardTitleTextImageCustom
                                         title={_("SIZE.HEAD11")}
                                         text={_("SIZE.DESC11")}
@@ -399,12 +399,12 @@ export default function BodySize() {
                                         imgSrc="/img/page/body-size/masks.png"
                                         imgPosition="right-bottom"
                                         shadow={true}
-                                        cardHeight="33rem"
+                                        cardHeight="35.5rem"
                                         imgH="25rem"
                                         responsive={true}
                                     />
                         </div>
-                        <div className="col col-md-4">
+                        <div  className="col col-md-4 text-alignment" >
                             <CardTitleTextButton
                                 title={_("SIZE.HEAD8")}
                                 textContent={[_("SIZE.DESC8_1"), _("SIZE.DESC8_2")]}

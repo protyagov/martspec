@@ -65,17 +65,31 @@
     }
 
 }
-
+    .text-alignment{
+        flex: 1;
+        @media (min-width: 1399px) {
+            padding-left: 8rem !important;
+            
+        }}
+        .card-alignment-big{
+        @media (min-width: 1399px) {
+            padding-right: 2.2rem !important;
+            padding-left: 2.2rem !important;
+            max-width: 28rem !important;
+            
+            
+        }}
+        .card-alignment-small{
+        @media (min-width: 1399px) {
+            max-width: 25rem !important;
+            
+        }}
 .bodysize-container {
     .img-wrapper-big {
         max-height: 440px;
         width: auto;
     }
     .responsive-card {
-        @media (min-width: map-get($body-size-breakpoints, "wide")) {
-            width: 28rem !important;;
-        }
-        
         @media (max-width: map-get($body-size-breakpoints, "medium")) {
             min-height: 12rem;
         }
