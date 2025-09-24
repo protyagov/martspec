@@ -121,8 +121,6 @@ export default function LandingPage() {
                     </div>
                 </div>
 
-                {/* <div className="row g-3 gap-10-responsive align-items-stretch mb-5">
-                    <div className="col-xl col-sm d-flex"> */}
                 <div className="row g-3 d-flex align-items-stretch mb-5">
                     <div className="col-xl-4">
                         {/* Нутриенты */}
@@ -271,9 +269,6 @@ export default function LandingPage() {
                                 color: "#E5EEFF",
                                 textColor: "#1686FF",
                             }}
-                            // imageSrc="/img/page/energy/energy-main-page.webp"
-                            // imageAlt={_("ENERGY.IMG")}
-                            // isImageOnLeft={true}
                         />
                     </div>
                     <div className="col-xl-4 col-sm-6 d-flex">

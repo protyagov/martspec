@@ -73,8 +73,6 @@ export default function WaistLine() {
                         </ul>
                     </div>
                 </Header>
-                {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
-                        <div className="col no-mx-5"> */}
                 <section className="ms-base-page section">
                     <div className="row row-cols-xl-3 row-cols-1 g-4 p-4">
                         <div className="col col-md-4 no-mx-5">

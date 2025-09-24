@@ -5,8 +5,7 @@
                 color: #FD7E14;
             }
         }
-    }
-    
+    }   
 }
 .how-head{
     h2{
@@ -52,11 +51,10 @@
             flex-grow: 1;
         }
     }
-  .adaptive-padding {
+.adaptive-padding {
     padding-right: 50%;
     font-size: 40px;
-    margin: 0px !important;
-     
+    margin: 0px !important; 
     @media (max-width: 1300px) {
         padding-right: 30%;
     }     

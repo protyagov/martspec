@@ -100,7 +100,6 @@ const vitamins: VitaminGroup[] = [
 export default function Vitamin() {
     const appId = getAppId();
 
-    // const bgColor={background: "#1FF"}
     const advantages: Array<IconTitleText> = [
         {
             icon: {
@@ -220,8 +219,6 @@ export default function Vitamin() {
                         </ul>
                     </div>
                 </Header>
-                {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
-                        <div className="col"> */}
                 <section className="ms-base-page section">
                     <div className="row row-cols-xl-3 row-cols-1 g-4 p-4">
                         <div className="col col-md-4">
@@ -410,7 +407,6 @@ export default function Vitamin() {
 
                 <section className="section">
                     <CallToAction
-                        // bgColor={bg_color}
                         title={_("VITAMIN.HEAD6")}
                         subtitle={_("VITAMIN.DESC6")}
                         appId={appId}
