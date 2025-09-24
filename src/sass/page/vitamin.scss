@@ -1,12 +1,33 @@
 @import "@/sass/atom/base-new-vars";
 
+.vitamin__header-content-list {
+    li {
+        margin-left: 1.8rem;
+
+        &::marker {
+            color: #1686ff;
+        }
+    }
+}
+
+.vitamin ul {
+    font-family: os3;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.minerals {
+    font-family: os3;
+    font-size: 1.5rem;
+}
+
 .vitamin {
     $colors: $vitamin-colors;
 
     .icon {
         background: map-get($colors, "bg");
 
-        &:not(.no-filter) > img {
+        &:not(.no-filter)>img {
             filter: map-get($colors, "main-filter");
         }
     }
@@ -63,7 +84,24 @@
         }
     }
 
+    .vitamin-list ol,
+    ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
     .header-content-list li::marker {
         color: #1686ff;
+    }
+
+    .background-gray {
+        background-color: #f4f4f4;
+    }
+}
+
+@media (min-width: 600px) {
+    .paddingLeft {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }

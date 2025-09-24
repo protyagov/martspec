@@ -7,3 +7,16 @@
         }
     }
 }
+
+.bodymass li {
+    font-size: 1.4rem;
+    font-family: os3;
+    margin-bottom: 0;
+    line-height: 150%;
+}
+
+@media (min-width: 1400px) {
+    .mass img {
+        margin: 0 auto;
+    }
+}

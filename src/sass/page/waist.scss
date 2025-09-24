@@ -1,15 +1,34 @@
 @import "@/sass/atom/base-new-vars";
 
+.waist__header-content-list {
+    li {
+        &::marker {
+            color: #1686ff;
+        }
+    }
+}
+
+.waist__image {
+    margin: 0 auto;
+}
+
+.waist ul {
+    font-family: os3;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
 .waist {
     $colors: $waist-colors;
 
     .icon {
         background: map-get($colors, "main");
 
-        &:not(.no-filter) > img {
+        &:not(.no-filter)>img {
             filter: map-get($colors, "main-filter");
         }
     }
+
     .col-lg-6 {
         h4 {
             font-weight: 400;
@@ -18,43 +37,51 @@
             margin-bottom: 0.6rem;
             color: $ms-color-text-black;
         }
+
         p {
             line-height: 118%;
         }
+
         .mb-4 {
             margin: 0 !important;
         }
+
         .ms-base-image {
             margin-right: 0 !important;
         }
     }
+
     .text-center {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .block {
         padding: 2.7rem;
+
         h2 {
             font-weight: 500;
             font-size: 2.6rem;
         }
+
         h3 {
             margin-bottom: 0.9rem;
             line-height: 118.5%;
         }
+
         p {
             line-height: 147%;
         }
     }
 
-  .header-content-list li::marker {
-      color: #1686ff;
-  }
+    //   .header-content-list li::marker {
+    //       color: #1686ff;
+    //   }
 
-  .no-mx-5 .card-title-text-image {
-      margin-left: 0 !important;
-      margin-right: 0 !important;
-  }
+    .no-mx-5 .card-title-text-image {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
 
 
     .why-waist-section {
@@ -86,6 +113,7 @@
 
                 li {
                     line-height: 1.6rem;
+
                     &::marker {
                         color: #1686ff;
                     }
@@ -94,50 +122,58 @@
         }
     }
 
-  .call-to-action {
-    .block {
-        padding: 0;
-        box-shadow: none;
-        align-items: center;
-        text-align: start;
-        div {
-            min-height: 324px;
-            max-width: 510px;
-            h2 {
-                font-size: 3.08rem;
-            }
-            p {
-                font-size: 1.5rem;
-                line-height: 120%;
-            }
-        }
-        .ms-btn-apple {
-            img {
-                margin: 0;
-            }
-        }
-    }
-  }
+    .call-to-action {
+        .block {
+            padding: 0;
+            box-shadow: none;
+            align-items: center;
+            text-align: start;
 
-  .waist-info-section {
-    h2 {
-        font-size: 3.08rem;
-        margin-bottom: 1.9rem;
+            div {
+                min-height: 324px;
+                max-width: 510px;
+
+                h2 {
+                    font-size: 3.08rem;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                    line-height: 120%;
+                }
+            }
+
+            .ms-btn-apple {
+                img {
+                    margin: 0;
+                }
+            }
+        }
     }
-    p {
-        font-size: 1.39rem;
-        line-height: 120%;
-        max-width: 800px;
-        margin-bottom: 5rem;
-    }
-    .info-list {
-        padding: 0;
+
+    .waist-info-section {
+        h2 {
+            font-size: 3.08rem;
+            margin-bottom: 1.9rem;
+        }
+
         p {
-            margin-bottom: 1rem !important;
+            font-size: 1.39rem;
+            line-height: 120%;
+            max-width: 800px;
+            margin-bottom: 5rem;
         }
-        .card-icon-title-text {
-            flex-grow: 1;
+
+        .info-list {
+            padding: 0;
+
+            p {
+                margin-bottom: 1rem !important;
+            }
+
+            .card-icon-title-text {
+                flex-grow: 1;
+            }
         }
     }
-  }
 }

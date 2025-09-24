@@ -55,7 +55,7 @@ export default function Electrolyte() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page electrolyte">
+            <div className="ms-base-page ms-s-offset electrolyte">
                 <Header
                     title={_("ELECTROLYTE.HEAD")}
                     appId={appId}
@@ -77,7 +77,7 @@ export default function Electrolyte() {
                 <section className="section">
                     <div className="row d-flex justify-content-between g-4">
                         <div className="col-12 col-xxl-6">
-                            <div className="top">
+                            <div className="top ms-base-image" style={{display: 'flex', justifyContent: 'center'}}>
                                 <ImageI18N
                                     src="/img/page/electrolyte/Img-WhyElectrolit-en.webp"
                                     w={487}
@@ -87,7 +87,7 @@ export default function Electrolyte() {
                                 />
                             </div>
                         </div>
-                        <div className="col-12 col-xxl-6">
+                        <div className="col-12 col-xxl-6 section">
                             <CardTitleTextButton
                                 title={_("ELECTROLYTE.HEAD2")}
                                 textContent={[_("ELECTROLYTE.DESC2_1"), _("ELECTROLYTE.DESC2_2")]}
@@ -99,7 +99,7 @@ export default function Electrolyte() {
                     </div>
                 </section>
 
-                <section className="section">
+                <section className="ms-base-page section">
                     <div className="row mb-0">
                         <div className="col-12 mb-2">
                             <h2>{_("ELECTROLYTE.MINERALS_H2")}</h2>
@@ -178,7 +178,7 @@ export default function Electrolyte() {
                     </div>
                 </section>
 
-                <section className="section">
+                <section className="ms-base-page section">
                     <div className="row our-advantages-section">
                         <div className="col-12">
                             <h2>{_("ELECTROLYTE.HEAD8")}</h2>
@@ -189,31 +189,33 @@ export default function Electrolyte() {
                     </div>
                 </section>
 
-                <Review
-                    appId={appId}
-                    codes={{
-                        countryCode: Locale.countryCode,
-                        languageCode: Locale.language,
-                    }}
-                    text={{
-                        head: _("REVIEW.HEAD"),
-                        description: _("REVIEW.DESCRIPTION"),
-                        link: _("REVIEW.LINK_ALL_REVIEWS"),
-                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
-                        fillerCard: {
-                            head: [
-                                _("REVIEW.FILLER_CARD.HEAD1"),
-                                _("REVIEW.FILLER_CARD.HEAD2"),
-                                _("REVIEW.FILLER_CARD.HEAD3"),
-                            ],
-                            link: _("REVIEW.FILLER_CARD.LINK"),
-                        },
-                    }}
-                    themeColor="#8079CC"
-                    hasUnderlineHover={false}
-                />
+                <section className="ms-base-page">
+                    <Review
+                        appId={appId}
+                        codes={{
+                            countryCode: Locale.countryCode,
+                            languageCode: Locale.language,
+                        }}
+                        text={{
+                            head: _("REVIEW.HEAD"),
+                            description: _("REVIEW.DESCRIPTION"),
+                            link: _("REVIEW.LINK_ALL_REVIEWS"),
+                            readMoreLink: _("REVIEW.READ_MORE_LINK"),
+                            fillerCard: {
+                                head: [
+                                    _("REVIEW.FILLER_CARD.HEAD1"),
+                                    _("REVIEW.FILLER_CARD.HEAD2"),
+                                    _("REVIEW.FILLER_CARD.HEAD3"),
+                                ],
+                                link: _("REVIEW.FILLER_CARD.LINK"),
+                            },
+                        }}
+                        themeColor="#8079CC"
+                        hasUnderlineHover={false}
+                    />
+                </section>
 
-                <section className="section">
+                <section className="ms-base-page section">
                     <CallToAction
                         title="ELECTROLYTE.HEAD9"
                         subtitle="ELECTROLYTE.DESC9"

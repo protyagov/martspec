@@ -49,6 +49,7 @@ export function App() {
             return <WaistLine />;
         case "/vitamin":
             return <Vitamin />;
+//отсюда
         case "/bodyzinc":
             return <BodyZinc />;
         case "/magnesium":

@@ -202,7 +202,7 @@ export default function Vitamin() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page vitamin">
+            <div className="ms-base-page ms-s-offset vitamin">
                 <Header
                     title={_("VITAMIN.HEAD")}
                     appId={appId}
@@ -212,7 +212,7 @@ export default function Vitamin() {
                     imgH={405}
                     imgW={550}
                 >
-                    <div className="vitamin">
+                    <div className="vitamin__header-content-list">
                         <ul className="header-content-list">
                             <li>{_("VITAMIN.ABOUT_1")}</li>
                             <li>{_("VITAMIN.ABOUT_2")}</li>
@@ -220,10 +220,10 @@ export default function Vitamin() {
                         </ul>
                     </div>
                 </Header>
-                    {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
+                {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
                         <div className="col"> */}
-                <section className="section">
-                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                <section className="ms-base-page section">
+                    <div className="row row-cols-xl-3 row-cols-1 g-4 p-4">
                         <div className="col col-md-4">
                             <CardTitleTextImage
                                 title={_("VITAMIN.LIST1.LI1_HEAD")}
@@ -264,8 +264,8 @@ export default function Vitamin() {
                     </div>
                 </section>
 
-                <section className="section">
-                    <div className="row">
+                <section className="ms-base-page ms-s-offset paddingLeft section">
+                    <div className="row align-items-center">
                         <div className="col-lg-6">
                             <ImageI18N
                                 src="/img/page/vitamin/vitamin-screen-edit-en.webp"
@@ -277,7 +277,7 @@ export default function Vitamin() {
                         </div>
                         <div className="col-lg-6">
                             <h2>{_("VITAMIN.HEAD3")}</h2>
-                            <p>{_("VITAMIN.DESC3_1")}</p>
+                            <p className="minerals paddingLeft">{_("VITAMIN.DESC3_1")}</p>
                             <ImageI18N
                                 src="/img/page/vitamin/vitamin-screen-edit-en.webp"
                                 w={487}
@@ -285,7 +285,7 @@ export default function Vitamin() {
                                 cls="ms-base-image d-block d-lg-none mb-mob-xs"
                                 alt={_("VITAMIN.ALT2")}
                             />
-                            <h3>{_("VITAMIN.DESC3_2")}</h3>
+                            <h3 className="pt-4 pb-4">{_("VITAMIN.DESC3_2")}</h3>
                             <BulletList
                                 items={[
                                     _("VITAMIN.LIST3.LI1_TEXT"),
@@ -302,21 +302,24 @@ export default function Vitamin() {
                     </div>
                 </section>
 
-                <section className="section bg-gray">
+                <section className="ms-base-page ms-s-offset paddingLeft section">
                     <div className="row">
                         <div className="col-12 mb-2">
                             <h2>{_("VITAMIN.HEAD4")}</h2>
                         </div>
-                        <div className="col-12 row bg-gray">
+                        <div className="col-12 row">
                             <IconTitleTextList items={advantages} />
                         </div>
                     </div>
                 </section>
 
                 <section className="section">
-                    <div className="row mb-0">
+                    <div className="row mb-0" style={{ margin: "0 auto" }}>
                         <h2 className="col-xl-6 col-lg-8 col-12 mb-5">{_("VITAMIN.HEAD5")}</h2>
-                        <div className="row row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 p-0 g-4">
+                        <div
+                            className="row row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 p-0 g-4"
+                            style={{ margin: "0 auto" }}
+                        >
                             <div className="col px-0">
                                 <ul className="row row-cols-2 p-0 g-4">
                                     {trackItems.map((item) => (
@@ -341,7 +344,10 @@ export default function Vitamin() {
                     </div>
 
                     {vitamins.map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
-                        <section key={`vitamins-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mb-0">
+                        <section
+                            key={`vitamins-group-${groupName}`}
+                            className="ms-base-page row mt-4 mt-lg-5 pt-4 mb-0"
+                        >
                             <div className="col-12 d-flex flex-column">
                                 <Accordion
                                     title={_(`VITAMIN.${groupName}.NAME`)}
@@ -376,29 +382,31 @@ export default function Vitamin() {
                     ))}
                 </section>
 
-                <Review
-                    appId={appId}
-                    codes={{
-                        countryCode: Locale.countryCode,
-                        languageCode: Locale.language,
-                    }}
-                    text={{
-                        head: _("REVIEW.HEAD"),
-                        description: _("REVIEW.DESCRIPTION"),
-                        link: _("REVIEW.LINK_ALL_REVIEWS"),
-                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
-                        fillerCard: {
-                            head: [
-                                _("REVIEW.FILLER_CARD.HEAD1"),
-                                _("REVIEW.FILLER_CARD.HEAD2"),
-                                _("REVIEW.FILLER_CARD.HEAD3"),
-                            ],
-                            link: _("REVIEW.FILLER_CARD.LINK"),
-                        },
-                    }}
-                    themeColor="#1686FF"
-                    hasUnderlineHover={false}
-                />
+                <section className="ms-base-page ms-s-offset paddingLeft section">
+                    <Review
+                        appId={appId}
+                        codes={{
+                            countryCode: Locale.countryCode,
+                            languageCode: Locale.language,
+                        }}
+                        text={{
+                            head: _("REVIEW.HEAD"),
+                            description: _("REVIEW.DESCRIPTION"),
+                            link: _("REVIEW.LINK_ALL_REVIEWS"),
+                            readMoreLink: _("REVIEW.READ_MORE_LINK"),
+                            fillerCard: {
+                                head: [
+                                    _("REVIEW.FILLER_CARD.HEAD1"),
+                                    _("REVIEW.FILLER_CARD.HEAD2"),
+                                    _("REVIEW.FILLER_CARD.HEAD3"),
+                                ],
+                                link: _("REVIEW.FILLER_CARD.LINK"),
+                            },
+                        }}
+                        themeColor="#1686FF"
+                        hasUnderlineHover={false}
+                    />
+                </section>
 
                 <section className="section">
                     <CallToAction

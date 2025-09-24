@@ -1,8 +1,16 @@
 .list-with-icons {
-  column-gap: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+  /* по умолчанию — одна колонка */
+  column-gap: 1.5rem;
   row-gap: 2.5rem;
+}
+
+/* начиная с 576px (sm) — две колонки */
+@media (min-width: 768px) {
+  .list-with-icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
   // display: grid;
   // grid-template-columns: repeat(2, 1fr);

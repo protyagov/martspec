@@ -137,7 +137,7 @@ export default function BodySize() {
 
                 {/* <h4>{_("SIZE.HEAD1")}</h4>
                     <p className="mt-3">{_("SIZE.DESC1")}</p> */}
-                <section>
+                <section className="section">
                     <div className="row row-cols-xl-3 row-cols-1 g-4">
                         <div className="col col-md-4">
                             <CardTitleTextImage
@@ -179,7 +179,7 @@ export default function BodySize() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row">
                         <div className="col-lg-6 how-head mt-4">
                             <h2>{_("SIZE.HEAD2")}</h2>
@@ -225,7 +225,7 @@ export default function BodySize() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="row">
                         <div className="col-12 mb-2">
                             <h2>{_("SIZE.HEAD6")}</h2>
@@ -427,7 +427,7 @@ export default function BodySize() {
                     </div>
                 </section>
 
-                <section>
+                <section className="section">
                     <div className="ms-base-new row waist-info-section">
                         <h2>{_("SIZE.HEAD7")}</h2>
                         <div className="info-list row g-4">

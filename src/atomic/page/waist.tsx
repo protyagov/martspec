@@ -55,7 +55,7 @@ export default function WaistLine() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page waist">
+            <div className="ms-base-page ms-s-offset waist">
                 <Header
                     title={_("WAIST.HEAD")}
                     appId={appId}
@@ -65,7 +65,7 @@ export default function WaistLine() {
                     imgH={405}
                     imgW={550}
                 >
-                    <div className="waist">
+                    <div className="waist__header-content-list">
                         <ul className="header-content-list">
                             <li>{_("WAIST.ABOUT_1")}</li>
                             <li>{_("WAIST.ABOUT_2")}</li>
@@ -73,10 +73,10 @@ export default function WaistLine() {
                         </ul>
                     </div>
                 </Header>
-                    {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
+                {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
                         <div className="col no-mx-5"> */}
-                <section className="section">
-                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                <section className="ms-base-page section">
+                    <div className="row row-cols-xl-3 row-cols-1 g-4 p-4">
                         <div className="col col-md-4 no-mx-5">
                             <CardTitleTextImage
                                 title={_("WAIST.LIST1.LI1_HEAD")}
@@ -117,7 +117,7 @@ export default function WaistLine() {
                     </div>
                 </section>
 
-                <div className="ms-base-page ms-base-new row waist call-to-action why-waist-section">
+                <div className="ms-base-page row waist call-to-action why-waist-section">
                     <CallToAction
                         title={_("WAIST.HEAD1")}
                         subtitle={_("WAIST.DESC1")}
@@ -139,12 +139,12 @@ export default function WaistLine() {
                     />
                 </div>
 
-                <section className="section">
-                    <div className="ms-base-new row waist-info-section">
+                <section className="ms-base-page section">
+                    <div className="row waist-info-section">
                         <h2>{_("WAIST.HEAD6")}</h2>
                         <p>{_("WAIST.DESC6")}</p>
-                        <div className="info-list row g-4">
-                            <div className="col-lg-4 d-flex">
+                        <div className="info-list row g-4" style={{margin: '0 auto'}}>
+                            <div className="col-12 col-xl-4 d-flex">
                                 <CardIconTitleText
                                     iconProps={{
                                         icon: {
@@ -157,7 +157,7 @@ export default function WaistLine() {
                                     bgColor="#DDE9FF"
                                 />
                             </div>
-                            <div className="col-lg-4 d-flex">
+                            <div className="col-12 col-xl-4 d-flex">
                                 <CardIconTitleText
                                     iconProps={{
                                         icon: {
@@ -169,7 +169,7 @@ export default function WaistLine() {
                                     text={_("WAIST.LIST3.LI2_TEXT")}
                                 />
                             </div>
-                            <div className="col-lg-4 d-flex">
+                            <div className="col-12 col-xl-4 d-flex">
                                 <CardIconTitleText
                                     iconProps={{
                                         icon: {
@@ -186,7 +186,7 @@ export default function WaistLine() {
                     </div>
                 </section>
 
-                <section className="section">
+                <section className="ms-base-page section">
                     <div className="row our-advantages-section">
                         <div className="col-12">
                             <h2>{_("WAIST.HEAD4")}</h2>
@@ -197,32 +197,34 @@ export default function WaistLine() {
                     </div>
                 </section>
 
-                <Review
-                    appId={appId}
-                    codes={{
-                        countryCode: Locale.countryCode,
-                        languageCode: Locale.language,
-                    }}
-                    text={{
-                        head: _("REVIEW.HEAD"),
-                        description: _("REVIEW.DESCRIPTION"),
-                        link: _("REVIEW.LINK_ALL_REVIEWS"),
-                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
-                        fillerCard: {
-                            head: [
-                                _("REVIEW.FILLER_CARD.HEAD1"),
-                                _("REVIEW.FILLER_CARD.HEAD2"),
-                                _("REVIEW.FILLER_CARD.HEAD3"),
-                            ],
-                            link: _("REVIEW.FILLER_CARD.LINK"),
-                        },
-                    }}
-                    themeColor="#1686FF"
-                    hasUnderlineHover={false}
-                />
+                <section className="ms-base-page section">
+                    <Review
+                        appId={appId}
+                        codes={{
+                            countryCode: Locale.countryCode,
+                            languageCode: Locale.language,
+                        }}
+                        text={{
+                            head: _("REVIEW.HEAD"),
+                            description: _("REVIEW.DESCRIPTION"),
+                            link: _("REVIEW.LINK_ALL_REVIEWS"),
+                            readMoreLink: _("REVIEW.READ_MORE_LINK"),
+                            fillerCard: {
+                                head: [
+                                    _("REVIEW.FILLER_CARD.HEAD1"),
+                                    _("REVIEW.FILLER_CARD.HEAD2"),
+                                    _("REVIEW.FILLER_CARD.HEAD3"),
+                                ],
+                                link: _("REVIEW.FILLER_CARD.LINK"),
+                            },
+                        }}
+                        themeColor="#1686FF"
+                        hasUnderlineHover={false}
+                    />
+                </section>
             </div>
 
-            <section className="section ms-base-page">
+            <section className="section ms-base-page ms-s-offset">
                 <CallToAction
                     title="MASS.HEAD4"
                     subtitle="WAIST.DESC5"

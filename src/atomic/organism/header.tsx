@@ -29,7 +29,7 @@ export default function Header(props: WithImageProps | WithoutImageProps) {
     const { title, imgSrc, imgH, imgW, imgAlt, appId, appDownloadTitle, rowItems, children } = props;
 
     return (
-        <section className="new-page-header">
+        <section className="new-page-header section">
             <div className="">
                 <div className="col">
                     <div className={`headings ${rowItems ? "spaced" : ""}`}>

@@ -70,7 +70,7 @@ export default function Bodymass() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page">
+            <div className="ms-base-page ms-s-offset mass">
                 <Header
                     title={_("MASS.HEAD")}
                     appId={appId}
@@ -87,9 +87,9 @@ export default function Bodymass() {
                         </ul>
                     </div>
                 </Header>
-                    {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
+                {/* <div className="row row-cols-xl-3 row-cols-md-3 row-cols-1 g-4">
                         <div className="col"> */}
-                <section className="section">
+                <section className="section ms-base-page">
                     <div className="row row-cols-xl-3 row-cols-1 g-4">
                         <div className="col col-md-4">
                             <CardTitleTextImage
@@ -134,9 +134,9 @@ export default function Bodymass() {
                     </div>
                 </section>
 
-                <section className="section">
+                <section className="ms-base-page section">
                     <div className="row d-flex align-items-center justify-content-between g-4">
-                        <div className="col-12 col-xxl-6">
+                        <div className="col-12 col-xxl-6" style={{ display: "flex", justifyContent: "center" }}>
                             <ImageI18N
                                 src="/img/page/body-mass/why-mass-en.webp"
                                 w={620}
@@ -158,7 +158,7 @@ export default function Bodymass() {
                     </div>
                 </section>
 
-                <section className="section">
+                <section className="ms-base-page section">
                     <div className="row">
                         <div className="col-12 mb-2">
                             <h2>{_("MASS.HEAD3")}</h2>
@@ -169,31 +169,33 @@ export default function Bodymass() {
                     </div>
                 </section>
 
-                <Review
-                    appId={appId}
-                    codes={{
-                        countryCode: Locale.countryCode,
-                        languageCode: Locale.language,
-                    }}
-                    text={{
-                        head: _("REVIEW.HEAD"),
-                        description: _("REVIEW.DESCRIPTION"),
-                        link: _("REVIEW.LINK_ALL_REVIEWS"),
-                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
-                        fillerCard: {
-                            head: [
-                                _("REVIEW.FILLER_CARD.HEAD1"),
-                                _("REVIEW.FILLER_CARD.HEAD2"),
-                                _("REVIEW.FILLER_CARD.HEAD3"),
-                            ],
-                            link: _("REVIEW.FILLER_CARD.LINK"),
-                        },
-                    }}
-                    themeColor="#F0606C"
-                    hasUnderlineHover={false}
-                />
+                <section className="ms-base-page">
+                    <Review
+                        appId={appId}
+                        codes={{
+                            countryCode: Locale.countryCode,
+                            languageCode: Locale.language,
+                        }}
+                        text={{
+                            head: _("REVIEW.HEAD"),
+                            description: _("REVIEW.DESCRIPTION"),
+                            link: _("REVIEW.LINK_ALL_REVIEWS"),
+                            readMoreLink: _("REVIEW.READ_MORE_LINK"),
+                            fillerCard: {
+                                head: [
+                                    _("REVIEW.FILLER_CARD.HEAD1"),
+                                    _("REVIEW.FILLER_CARD.HEAD2"),
+                                    _("REVIEW.FILLER_CARD.HEAD3"),
+                                ],
+                                link: _("REVIEW.FILLER_CARD.LINK"),
+                            },
+                        }}
+                        themeColor="#F0606C"
+                        hasUnderlineHover={false}
+                    />
+                </section>
 
-                <section className="section">
+                <section className="ms-base-page">
                     <CallToAction
                         title="MASS.HEAD4"
                         subtitle="MASS.DESC4"
