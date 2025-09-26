@@ -277,6 +277,181 @@ export default function BodySize() {
                     <h4>{_("SIZE.HEAD5")}</h4>
                     <p className="mt-3">{_("SIZE.DESC5")}</p>
                 </section>*/}
+
+            <section className="complex-cards-section">
+                <div className="row mb-4 "><h2 className="adaptive-padding">{_("SIZE.INDICATORS_LIST.INDICATORS_HEAD")} </h2></div>
+                <div className="row mb-5 "><p className="adaptive-padding">{_("SIZE.INDICATORS_LIST.DESC")} </p></div>
+                    <div className="row g-4 mb-4">
+                        <div className="col-12 col-lg-4">
+                            <CardTitleTextImageCustom
+                            title={_("SIZE.INDICATORS_LIST.HEAD2")}
+                            text={_("SIZE.INDICATORS_LIST.DESC2")}
+                            bgColor="#FFECDB"
+                            imgSrc="/img/page/body-size/somatotype.svg"
+                            imgPosition="right-bottom"
+                            shadow={false}
+                            cardHeight="29rem"
+                            imgH="21rem"
+                            imgMobileH="15rem"
+                            mobileBreakpoint={1380}
+                            responsive={true}
+                            actionLink={{
+                            text: _("SIZE.INDICATORS_LIST.BTN"),
+                            href: Locale.i18nLink("coming-soon"),}}
+                            primaryColor="#FD7E14"
+                            linkHoverColor="#FD7E14"
+                            />
+                        </div>
+                        <div className="col-12 col-lg-4 order-2">
+                            <div className="d-flex flex-column h-100 gap-4">
+                                <CardTitleTextImageCustom
+                                    title={_("SIZE.INDICATORS_LIST.HEAD3")}
+                                    text={_("SIZE.INDICATORS_LIST.DESC3")}
+                                    bgColor="#FFFFFF"
+                                    imgSrc="/img/page/body-size/figure.svg"
+                                    imgPosition="right-bottom"
+                                    shadow={true}
+                                    cardHeight="22rem"
+                                    imgH="12rem"
+                                    responsive={true}
+                                    actionLink={{
+                                    text: _("SIZE.INDICATORS_LIST.BTN"),
+                                    href: Locale.i18nLink("coming-soon"),}}
+                                    primaryColor="#FD7E14"
+                                    linkHoverColor="#FD7E14"
+                                />
+                                <CardTitleTextImageCustom
+                                    title={_("SIZE.INDICATORS_LIST.HEAD4")}
+                                    text={_("SIZE.INDICATORS_LIST.DESC4")}
+                                    bgColor="#FFFFFF"
+                                    shadow={true}
+                                    cardHeight="12rem"
+                                    responsive={true}
+                                />
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-4 order-4">
+                            <div className="d-flex flex-column h-100 gap-4">
+                                <CardTitleTextImageCustom
+                                title={_("SIZE.INDICATORS_LIST.HEAD5")}
+                                text={_("SIZE.INDICATORS_LIST.DESC5")}
+                                bgColor="#F4F5F8"
+                                shadow={false}
+                                cardHeight="22rem"
+                                cardMobileHeight="16rem"
+                                responsive={true}
+                                mobileBreakpoint={991}
+                                />
+                                <CardTitleTextImageCustom
+                                    title={_("SIZE.INDICATORS_LIST.HEAD6")}
+                                    text={_("SIZE.INDICATORS_LIST.DESC6")}
+                                    bgColor="#FFFFFF"
+                                    shadow={true}
+                                    cardHeight="12rem"
+                                    responsive={true}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row g-4 mb-4">
+                        <div className="col-12 col-lg-6">
+                            <CardTitleTextImageCustom
+                                title={_("SIZE.INDICATORS_LIST.HEAD7")}
+                                text={_("SIZE.INDICATORS_LIST.DESC7")}
+                                bgColor="#F4F5F8"
+                                shadow={false}
+                                cardHeight="15rem"
+                                responsive={true}
+                            />
+                        </div>
+                        <div className="col-12 col-lg-6 custom-card-padding">
+                            <CardTitleTextImageCustom
+                                title={_("SIZE.INDICATORS_LIST.HEAD8")}
+                                text={_("SIZE.INDICATORS_LIST.DESC8")}
+                                bgColor="#FFFFFF"
+                                imgSrc="/img/page/body-size/water.svg"
+                                imgPosition="right-bottom"
+                                shadow={true}
+                                cardHeight="15rem"
+                                imgH="12rem"
+                                responsive={true}
+                            />
+                        </div>
+                    </div>
+                    <div className="row g-4">
+                        <div className="col-12 col-lg-4">
+                            <div className="d-flex flex-column h-100 gap-4">
+                                <CardTitleTextImageCustom
+                                    title={_("SIZE.INDICATORS_LIST.HEAD9")}
+                                    text={_("SIZE.INDICATORS_LIST.DESC9")}
+                                    bgColor="#FFFFFF"
+                                    imgSrc="/img/page/body-size/waist-index.svg"
+                                    imgPosition="right-bottom"
+                                    shadow={true}
+                                    cardHeight="22rem"
+                                    imgH="12rem"
+                                    imgMobileH="12rem"
+                                    mobileBreakpoint={1230}
+                                    responsive={true}
+                                />
+                                <CardTitleTextImageCustom
+                                    title={_("SIZE.INDICATORS_LIST.HEAD10")}
+                                    text={_("SIZE.INDICATORS_LIST.DESC10")}
+                                    bgColor="#FFFFFF"
+                                    shadow={true}
+                                    cardHeight="12rem"
+                                    responsive={true}
+                                />
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-4">
+                            <div className="d-flex flex-column h-100 gap-4">
+                                <CardTitleTextImageCustom
+                                    title={_("SIZE.INDICATORS_LIST.HEAD11")}
+                                    text={_("SIZE.INDICATORS_LIST.DESC11")}
+                                    bgColor="#FFFFFF"
+                                    imgSrc="/img/page/body-size/energy.svg"
+                                    imgPosition="right-bottom"
+                                    shadow={true}
+                                    cardHeight="22rem"
+                                    imgMobileH="12rem"
+                                    mobileBreakpoint={1230}
+                                    imgH="12rem"
+                                    responsive={true}
+                                />
+                                <CardTitleTextImageCustom
+                                    title={_("SIZE.INDICATORS_LIST.HEAD12")}
+                                    text={_("SIZE.INDICATORS_LIST.DESC12")}
+                                    bgColor="#F4F5F8"
+                                    shadow={false}
+                                    cardHeight="12rem"
+                                    responsive={true}
+                                />
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-4">
+                            <CardTitleTextImageCustom
+                                title={_("SIZE.INDICATORS_LIST.HEAD13")}
+                                text={_("SIZE.INDICATORS_LIST.DESC13")}
+                                bgColor="#FFFFFF"
+                                imgSrc="/img/page/body-size/Adonis-index.svg"
+                                imgPosition="right-bottom"
+                                shadow={true}
+                                cardHeight="29rem"
+                                imgMobileH="15rem"
+                                mobileBreakpoint={1380}
+                                imgH="21rem"
+                                responsive={true}
+                                actionLink={{
+                                text: _("SIZE.INDICATORS_LIST.BTN"),
+                                href: Locale.i18nLink("coming-soon"),}}
+                                primaryColor="#FD7E14"
+                                linkHoverColor="#FD7E14"
+                                />
+                        </div>
+                    </div>
+                </section>
+
                 <section>    
                     <div className="row mb-0 "><h2 className="adaptive-padding">{_("SIZE.HEAD12")} </h2></div>
                     {dropdownlist.map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
@@ -353,10 +528,7 @@ export default function BodySize() {
 
 
                 </section>
-
                 </section>
-
-
 
                 <section className="bodysize-container">
                     <div className="row row-cols-xl-3 row-cols-1">
