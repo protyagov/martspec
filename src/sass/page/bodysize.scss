@@ -65,6 +65,12 @@
     }
 
 }
+
+.custom-card-padding .card-title-text {
+    padding-right: 10rem !important;
+    padding-bottom: 5rem !important;
+}
+
     .text-alignment{
         flex: 1;
         @media (min-width: 1399px) {

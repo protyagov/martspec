@@ -9,7 +9,7 @@ interface CSSPropertiesWithVars extends CSSProperties {
 
 export interface TextLinkArrowProps {
     href: string;
-    rightIcon: ReactNode;
+    rightIcon?: ReactNode;
     text: string | ReactNode;
     isNewTab?: boolean;
     color?: CSSProperties["color"];
