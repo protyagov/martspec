@@ -1,7 +1,7 @@
 import React, { CSSProperties, useState, useEffect} from "react";
 import "@/sass/molecule/card-title-text-image-custom.scss";
 import TextLinkArrow from "@/atomic/molecule/text-link-arrow";
-import RightArrowIcon from "../atom/right-arrow-icon";
+import RightArrowIcon from "@/atomic/atom/right-arrow-icon";
 
 interface ActionLink {
     text: string;
