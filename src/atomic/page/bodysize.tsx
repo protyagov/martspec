@@ -121,48 +121,50 @@ export default function BodySize() {
                         </ul>
                     </div>
                 </Header>
-                <section>
-                    <div className="row row-cols-xl-3 row-cols-1 g-4">
-                        <div className="col col-md-4">
-                            <CardTitleTextImage
-                                title={_("SIZE.LIST1.LI1_HEAD")}
-                                text={_("SIZE.LIST1.DESC1")}
-                                imgSrc="/img/page/body-size/section-left-en.webp"
-                                imgH={1000}
-                                imgW={2000}
-                            />
-                        </div>
-                        <div className="col col-md-4 p-0">
-                            <div className="row row-cols-1 h-100 p-0">
-                                <div className="col py-0">
-                                    <CardTitleText
-                                        title={_("SIZE.LIST1.LI2_HEAD")}
-                                        text={_("SIZE.LIST1.DESC2")}
-                                        bgColor="#E5F4D9"
-                                    />
-                                </div>
-                                <div className="col py-0 mt-4">
-                                    <CardTitleText
-                                        title={_("SIZE.LIST1.LI3_HEAD")}
-                                        text={_("SIZE.LIST1.DESC3")}
-                                        bgColor="#FFECDB"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col col-md-4" >
-                            <CardTitleTextImage
-                                title={_("SIZE.LIST1.LI4_HEAD")}
-                                text={_("SIZE.LIST1.DESC4")}
-                                imgSrc="/img/page/body-size/section-right.webp"
-                                imgH={270}
-                                imgW={300}
-                                bgColor="#F4F5F8"
-                                
-                            />
-                        </div>
+                
+            <div className="row g-4">
+                <div className="col-12 col-lg-4">
+                    <CardTitleTextImageCustom
+                        title={_("SIZE.LIST1.LI1_HEAD")}
+                        text={_("SIZE.LIST1.DESC1")}
+                        imgSrc="/img/page/body-size/section-left-en.webp"
+                        cardHeight="30rem"
+                        imgPosition="center-bottom"
+                        imgH="18rem"
+                        shadow={true}
+                    />
+                </div>
+                <div className="col-12 col-lg-4">
+                    <div className="d-flex flex-column h-100 gap-4">
+                    <CardTitleTextImageCustom
+                        title={_("SIZE.LIST1.LI2_HEAD")}
+                        text={_("SIZE.LIST1.DESC2")}
+                        bgColor="#E5F4D9"
+                        cardHeight="15rem"
+                        shadow={false}
+                    />
+                    <CardTitleTextImageCustom
+                        title={_("SIZE.LIST1.LI3_HEAD")}
+                        text={_("SIZE.LIST1.DESC3")}
+                        bgColor="#FFECDB"
+                        cardHeight="15rem"
+                        shadow={false}
+                    />
                     </div>
-                </section>
+                </div>
+                <div className="col-12 col-lg-4">
+                    <CardTitleTextImageCustom
+                        title={_("SIZE.LIST1.LI4_HEAD")}
+                        text={_("SIZE.LIST1.DESC4")}
+                        imgSrc="/img/page/body-size/section-right.webp"
+                        bgColor="#F4F5F8"
+                        cardHeight="30rem"
+                        imgPosition="center-bottom"
+                        imgH="18rem"
+                        shadow={false}
+                    />
+                </div>
+            </div>
 
                 <section>
                     <div className="row">
