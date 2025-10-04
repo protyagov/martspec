@@ -129,8 +129,10 @@ export default function CardTitleTextImageCustom({
                         bottom: 0,
                         ...(imgPosition === "right-bottom" ? { right: 0 } : 
                             imgPosition === "left-bottom" ? { left: 0 } : 
-                            imgPosition === "center-bottom" ? { center: 0 } : 
-                            { left: "50%"}),
+                            imgPosition === "center-bottom" ? { 
+                            left: "50%", 
+                            transform: "translateX(-50%)" 
+                        } : { left: "50%"}),
                         width: "auto",
                         height: currentImgH,
                         overflow: "hidden"
