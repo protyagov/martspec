@@ -55,16 +55,10 @@ export function App() {
             return <Magnesium />
         case "/emotion":
             return <Emotion />;
-        // case "/emotion/productivity":
-        //     return <Productivity />;
         case "/emotion/biorhythms":
             return <Biorhythms />;
-        // case "/emotion/anxiety":
-        //     return <Anxiety />;
         case "/emotion/harmony":
             return <Harmony />;
-        case "/emotion/independence":
-            return <Independence />;
         case "/emotion/energy":
             return <Energy />;
         case "/emotion/openness":

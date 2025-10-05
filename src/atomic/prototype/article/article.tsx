@@ -9,7 +9,6 @@ import { Footer } from "@/atomic/organism/footer";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import Header from "@/atomic/organism/header";
-import "@/sass/prototype/article.scss";
 
 const Article = ({ emotion }: { emotion: string }) => {
     const [articleData, setArticleData] = useState<IArticleModel | null>(null);
@@ -33,14 +32,14 @@ const Article = ({ emotion }: { emotion: string }) => {
     return (
         <div>
             <NavigationBar />
-            <div className="ms-base-page">
+            <div className="article__container">
                 <Header
                     title={articleData?.HEADER.TITLE ?? ""}
                     appId={appId}
                     imgSrc={articleData?.HEADER.IMG_URL ?? ""}
                     imgAlt={articleData?.HEADER.ALT ?? ""}
-                    imgH={378}
-                    imgW={700}
+                    imgH={405}
+                    imgW={505}
                 >
                     <div
                         className="article"
@@ -48,7 +47,7 @@ const Article = ({ emotion }: { emotion: string }) => {
                             ["--marker-color" as any]: articleData?.HEADER.ACCENT_COLOR,
                         }}
                     >
-                        <ul className="header-content-list">
+                        <ul className="header-content-list article__header-list">
                             <li>{articleData?.HEADER.HEADER_BODY.LI_1}</li>
                             <li>{articleData?.HEADER.HEADER_BODY.LI_2}</li>
                             <li>{articleData?.HEADER.HEADER_BODY.LI_3}</li>
@@ -112,7 +111,7 @@ const Article = ({ emotion }: { emotion: string }) => {
                 })}
             </div>
 
-            <section>
+            <section className="article__container article__text">
                 <CallToAction
                     title={articleData?.CALL_TO_ACTION.TITLE ?? ""}
                     subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}
