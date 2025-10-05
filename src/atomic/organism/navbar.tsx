@@ -48,6 +48,7 @@ const menuItems = [
     { key: "vitamin", labelKey: "VITAMIN.HEAD" },
     { key: "bodysize", labelKey: "SIZE.HEAD" },
     { key: "bodymass", labelKey: "MASS.HEAD" },
+    { key: "magnesium", labelKey: "MAGNESIUM.HEAD" },
     { key: "waistline", labelKey: "WAIST.HEAD" },
     { key: "bodyzinc", labelKey: "ZINC.HEAD" },
     { key: "emotion", labelKey: "EMOTION.HEAD" },

@@ -1,5 +1,4 @@
 import * as React from "react";
-import { useEffect, useRef } from "react";
 import _, { Locale } from "@/i18n/locale";
 import { getAppId } from "@/service/AppleService";
 import Header from "@/atomic/organism/header";
@@ -55,32 +54,6 @@ const iconTitleTextListItems: Array<IconTitleText> = [
 ];
 
     const appId = getAppId();
-
-    const titleRef1 = useRef<HTMLHeadingElement>(null);
-    const titleRef2 = useRef<HTMLHeadingElement>(null);
-    const titleRef3 = useRef<HTMLHeadingElement>(null);
-
-    useEffect(() => {
-        const refs = [titleRef1.current, titleRef2.current, titleRef3.current];
-
-        const alignHeights = () => {
-            refs.forEach((el) => {
-                if (el) el.style.height = "auto";
-            });
-
-            const maxHeight = Math.max(...refs.map((el) => el?.offsetHeight || 0));
-
-            refs.forEach((el) => {
-                if (el) el.style.height = `${maxHeight}px`; 
-            });
-        };
-
-        alignHeights();
-
-        window.addEventListener("resize", alignHeights);
-
-        return () => window.removeEventListener("resize", alignHeights);
-    }, []);
 
     return (
         <>
@@ -146,7 +119,6 @@ const iconTitleTextListItems: Array<IconTitleText> = [
                         </div>
                     </div>
                 </section>
-
                 <section>
                     <div className="row d-flex align-items-center justify-content-between iron__section">
                         <div className="col-12 col-xxl-6 order-2 order-xxl-1">
@@ -159,32 +131,36 @@ const iconTitleTextListItems: Array<IconTitleText> = [
                             />
                         </div>
                         <div className="col-12 offset-xxl-1 col-xxl-5 order-1 order-xxl-2">
-                            <CardTitleTextButton
-                                title={_("MAGNESIUM.HEAD2")}
-                                textContent={[
-                                    _("MAGNESIUM.DESC2_1"),
-                                    _("MAGNESIUM.DESC2_2"),
-                                    _("MAGNESIUM.DESC2_3"),
-                                    _("MAGNESIUM.DESC2_4"),
-                                ]}
-                                buttonText={_("MAGNESIUM.BTN_MORE")}
-                                buttonLink={Locale.i18nLink(`coming-soon`)}
-                                buttonColor="#1686FF"
-                            />
+                            <div className="magnesium">
+                                <CardTitleTextButton
+                                    title={_("MAGNESIUM.HEAD2")}
+                                    textContent={[
+                                        _("MAGNESIUM.DESC2_1"),
+                                        _("MAGNESIUM.DESC2_2"),
+                                        _("MAGNESIUM.DESC2_3"),
+                                        _("MAGNESIUM.DESC2_4"),
+                                    ]}
+                                    buttonText={_("MAGNESIUM.BTN_MORE")}
+                                    buttonLink={Locale.i18nLink(`coming-soon`)}
+                                    buttonColor="#1686FF"
+                                />
+                            </div>
                         </div>
                     </div>
                 </section>
 
-                <section className="row">
-                    <TitleTextCard
-                        className=""
-                        title={_("MAGNESIUM.SECTION.TITLE")}
-                        text={_("MAGNESIUM.SECTION.TEXT")}
-                    />
+                <section className="magnesium magnesium-section">
+                    <div className="row">
+                        <TitleTextCard
+                            className=""
+                            title={_("MAGNESIUM.SECTION.TITLE")}
+                            text={_("MAGNESIUM.SECTION.TEXT")}
+                        />
+                    </div>
                 </section>
 
-                <section className="row gap-3 gap-md-0">
-                    <div className="col-12 col-md-4 d-grid">
+                <section className="row gap-4 gap-lg-0 magnesium">
+                    <div className="col-12 col-xl-4 col-lg-6 col-md-12 d-grid magnesium__icon-white">
                         <CardIconTitleText
                             iconProps={{
                                 icon: {
@@ -214,10 +190,9 @@ const iconTitleTextListItems: Array<IconTitleText> = [
                             }}
                             text={_("MAGNESIUM.LIST_IMG_1.TEXT")}
                             bgColor="#F3F7FF"
-                            forwardedRef={titleRef1}
                         />
                     </div>
-                    <div className="col-12 col-md-4 d-grid">
+                    <div className="col-12 col-xl-4 col-lg-6 col-md-12 d-grid">
                         <CardIconTitleText
                             iconProps={{
                                 icon: {
@@ -239,10 +214,9 @@ const iconTitleTextListItems: Array<IconTitleText> = [
                                 title: _("MAGNESIUM.LIST_IMG_2.TITLE"),
                             }}
                             text={_("MAGNESIUM.LIST_IMG_2.TEXT")}
-                            forwardedRef={titleRef2}
                         />
                     </div>
-                    <div className="col-12 col-md-4 d-grid">
+                    <div className="col-12 col-xl-4 col-lg-12 col-md-12 mt-lg-4 mt-xl-0 d-grid magnesium__icon-white">
                         <CardIconTitleText
                             iconProps={{
                                 icon: {
@@ -265,13 +239,12 @@ const iconTitleTextListItems: Array<IconTitleText> = [
                             }}
                             text={_("MAGNESIUM.LIST_IMG_3.TEXT")}
                             bgColor="#F3F7FF"
-                            forwardedRef={titleRef3}
                         />
                     </div>
                 </section>
 
-                <section>
-                    <div className="row">
+                <section className="magnesium magnesium-section">
+                    <div className="row magnesium-advantages">
                         <div className="col-12 mb-2">
                             <h2>{_("MAGNESIUM.HEAD1")}</h2>
                         </div>
@@ -281,41 +254,43 @@ const iconTitleTextListItems: Array<IconTitleText> = [
                     </div>
                 </section>
 
-                <Review
-                    appId={appId}
-                    codes={{
-                        countryCode: Locale.countryCode,
-                        languageCode: Locale.language,
-                    }}
-                    text={{
-                        head: _("REVIEW.HEAD"),
-                        description: _("REVIEW.DESCRIPTION"),
-                        link: _("REVIEW.LINK_ALL_REVIEWS"),
-                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
-                        fillerCard: {
-                            head: [
-                                _("REVIEW.FILLER_CARD.HEAD1"),
-                                _("REVIEW.FILLER_CARD.HEAD2"),
-                                _("REVIEW.FILLER_CARD.HEAD3"),
-                            ],
-                            link: _("REVIEW.FILLER_CARD.LINK"),
-                        },
-                    }}
-                    themeColor="#1686FF"
-                    hasUnderlineHover={false}
-                />
-            </div>
+                <div className="magnesium-section">
+                    <Review
+                        appId={appId}
+                        codes={{
+                            countryCode: Locale.countryCode,
+                            languageCode: Locale.language,
+                        }}
+                        text={{
+                            head: _("REVIEW.HEAD"),
+                            description: _("REVIEW.DESCRIPTION"),
+                            link: _("REVIEW.LINK_ALL_REVIEWS"),
+                            readMoreLink: _("REVIEW.READ_MORE_LINK"),
+                            fillerCard: {
+                                head: [
+                                    _("REVIEW.FILLER_CARD.HEAD1"),
+                                    _("REVIEW.FILLER_CARD.HEAD2"),
+                                    _("REVIEW.FILLER_CARD.HEAD3"),
+                                ],
+                                link: _("REVIEW.FILLER_CARD.LINK"),
+                            },
+                        }}
+                        themeColor="#1686FF"
+                        hasUnderlineHover={false}
+                    />
+                </div>
 
-            <section>
-                <CallToAction
-                    title="MAGNESIUM.ABOUT_4"
-                    subtitle="MAGNESIUM.ABOUT_5"
-                    appId={1}
-                    appDownloadTitle="Download"
-                    imgSrc="/img/page/magnesium/Img-MG-header-en.webp"
-                    imgAlt={_("ABOUT.IMG")}
-                />
-            </section>
+                <section>
+                    <CallToAction
+                        title="MAGNESIUM.ABOUT_4"
+                        subtitle="MAGNESIUM.ABOUT_5"
+                        appId={1}
+                        appDownloadTitle="Download"
+                        imgSrc="/img/page/magnesium/Img-MG-header-en.webp"
+                        imgAlt={_("ABOUT.IMG")}
+                    />
+                </section>
+            </div>
             <Footer />
             <ScrollButton />
         </>
