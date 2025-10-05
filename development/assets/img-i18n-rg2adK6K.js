@@ -1,0 +1,1 @@
+import{L as r,j as c}from"./index-C_XspqlI.js";function s(a){const e=a.src.replace("-en.",`-${r.language}.`);return c.jsx("img",{src:e,width:a.w,height:a.h,className:a.cls,alt:a.alt,onError:t=>t.currentTarget.src=a.src})}export{s as I};
