@@ -103,7 +103,7 @@ export default function BodySize() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page">
+    <div className="ms-base-page">
                 <Header
                     title={_("SIZE.HEAD")}
                     appId={appId}
@@ -223,62 +223,6 @@ export default function BodySize() {
                         </div>
                     </div>
                 </section>
-                
-                {/* Body compostion 
-                
-
-                <ImageI18N
-                    src="/img/page/body-size/size-middle-en.webp"
-                    w={512}
-                    h={512}
-                    cls="mx-auto img-fluid"
-                    alt={_("SIZE.IMG")}
-                />*/}
-
-                {/* Chest and Bust 
-                <section className="row">
-                    <h4>{_("SIZE.HEAD2")}</h4>
-                    <p className="mt-3">{_("SIZE.DESC2")}</p>
-                </section>
-
-                {/* Waist Circumferance 
-                <section className="row">
-                    <h4>{_("SIZE.HEAD3")}</h4>
-                    <p className="mt-3">
-                        <a
-                            href="https://www.heart.org/en/news/2019/03/19/waist-size-predicts-heart-attacks-better-than-bmi-especially-in-women"
-                            target="_blank"
-                        >
-                            {_("WAIST.LINK2")}
-                        </a>
-                        {_("WAIST.DESC2")}
-                    </p>
-                </section>*/}
-
-                {/* Hips Width 
-                <section className="row">
-                    <h4>{_("SIZE.HEAD4")}</h4>
-                    <p className="mt-3">{_("SIZE.DESC4")}</p>
-                </section>
-
-                <section className="row">
-                    <h4>{_("WAIST.HEAD1")}</h4>
-                    <p className="mt-3">
-                        {_("WAIST.DESC1")}
-                        <a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm" target="_blank">
-                            <br />
-                            <Custom>
-                                <i>{_("WAIST.LINK1")}</i>
-                            </Custom>
-                        </a>
-                    </p>
-                </section>*/}
-
-                {/* Body Shape 
-                <section className="row">
-                    <h4>{_("SIZE.HEAD5")}</h4>
-                    <p className="mt-3">{_("SIZE.DESC5")}</p>
-                </section>*/}
 
             <section className="complex-cards-section">
                 <div className="row mb-4 "><h2 className="adaptive-padding">{_("SIZE.INDICATORS_LIST.INDICATORS_HEAD")} </h2></div>
@@ -527,9 +471,7 @@ export default function BodySize() {
                                 </div>
                                 </Accordion>
                             </div>
-
-
-                </section>
+                    </section>
                 </section>
 
                 <section className="bodysize-container">
@@ -636,7 +578,6 @@ export default function BodySize() {
                     </div>
                 </section>
 
-
                 <Review
                     appId={appId}
                     codes={{
@@ -660,7 +601,6 @@ export default function BodySize() {
                     themeColor="#FD7E14"
                     hasUnderlineHover={false}
                 />
-            </div>
 
             <div className="pb-5 text-center">
                 <CallToAction
@@ -671,8 +611,8 @@ export default function BodySize() {
                     imgSrc="/img/page/body-size/img-cta-en.webp"
                     imgAlt={_("SIZE.IMG")}
                 />
-                {/* <img src="/img/size_bottom.512.webp" className="img-fluid mb-3 px-4" width={512} height={512} alt={_("SIZE.IMG")} /> */}
             </div>
+    </div>
             <Footer />
             <ScrollButton />
         </>
