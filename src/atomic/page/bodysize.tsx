@@ -128,26 +128,29 @@ export default function BodySize() {
                         title={_("SIZE.LIST1.LI1_HEAD")}
                         text={_("SIZE.LIST1.DESC1")}
                         imgSrc="/img/page/body-size/section-left-en.webp"
-                        cardHeight="30rem"
+                        cardHeight="37rem"
                         imgPosition="center-bottom"
-                        imgH="18rem"
+                        imgH="19rem"
+                        imgMobileH="18rem"
                         shadow={true}
+                        mobileBreakpoint={1040}
+                        responsive={true}
                     />
                 </div>
-                <div className="col-12 col-lg-4">
+                <div className="col-12 col-lg-4 small-card ">
                     <div className="d-flex flex-column h-100 gap-4">
                     <CardTitleTextImageCustom
                         title={_("SIZE.LIST1.LI2_HEAD")}
                         text={_("SIZE.LIST1.DESC2")}
                         bgColor="#E5F4D9"
-                        cardHeight="15rem"
+                        cardHeight="17rem"
                         shadow={false}
                     />
                     <CardTitleTextImageCustom
                         title={_("SIZE.LIST1.LI3_HEAD")}
                         text={_("SIZE.LIST1.DESC3")}
                         bgColor="#FFECDB"
-                        cardHeight="15rem"
+                        cardHeight="17rem"
                         shadow={false}
                     />
                     </div>
@@ -158,10 +161,13 @@ export default function BodySize() {
                         text={_("SIZE.LIST1.DESC4")}
                         imgSrc="/img/page/body-size/section-right.webp"
                         bgColor="#F4F5F8"
-                        cardHeight="30rem"
+                        cardHeight="37rem"
                         imgPosition="center-bottom"
-                        imgH="18rem"
+                        imgH="20rem"
+                        imgMobileH="18rem"
                         shadow={false}
+                        mobileBreakpoint={1040}
+                        responsive={true}
                     />
                 </div>
             </div>
