@@ -539,10 +539,10 @@ export default function BodySize() {
                 </section>
 
                 <section>
-                    <div className="ms-base-new row waist-info-section">
+                    <div className=" row waist-info-section bodysize-container-1">
                         <h2>{_("SIZE.HEAD7")}</h2>
                         <div className="info-list row g-4">
-                            <div className="col-lg-4 d-flex">
+                            <div className="col-12 col-xxl-4 col-lg-6 d-flex">
                                 <CardIconTitleText
                                     iconProps={{
                                         icon: {
@@ -555,7 +555,7 @@ export default function BodySize() {
                                     bgColor="#FFECDB"
                                 />
                             </div>
-                            <div className="col-lg-4 d-flex">
+                            <div className="col-12 col-xxl-4 col-lg-6 d-flex">
                                 <CardIconTitleText
                                     iconProps={{
                                         icon: {
@@ -567,7 +567,7 @@ export default function BodySize() {
                                     text={_("SIZE.LIST4.LI4_2_TEXT")}
                                 />
                             </div>
-                            <div className="col-lg-4 d-flex">
+                            <div className="col-12 col-xxl-4 col-lg-12 d-flex">
                                 <CardIconTitleText
                                     iconProps={{
                                         icon: {

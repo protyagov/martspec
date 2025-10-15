@@ -38,6 +38,10 @@
         }
     }
 .waist-info-section {
+    h3 {
+        font-size: 1.55rem;
+        margin: 0px !important;
+    }
     h2 {
         font-size: 3.08rem;
         margin-bottom: 1.9rem;
@@ -124,6 +128,26 @@
                 
                 &:not(:last-child) {
                     margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+.bodysize-container-1 {
+    .waist-info-section {
+        .info-list {
+            @media (max-width: 1300px) {
+                > .col-lg-4:nth-child(1),
+                > .col-lg-4:nth-child(2) {
+                    flex: 0 0 50% !important;
+                    max-width: 50% !important;
+                }
+                
+                > .col-lg-4:nth-child(3) {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-top: 30px;
                 }
             }
         }
