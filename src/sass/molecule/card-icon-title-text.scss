@@ -1,6 +1,6 @@
 .card-icon-title-text {
     border-radius: 38px;
-    padding: 2.31rem;
+    padding: 1.9rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.039),0 0 4px 0 rgba(0,0,0,.059);
 
     @include media-breakpoint-down(lg) {
@@ -12,8 +12,8 @@
         background-color: #F4F5F8 !important;
 
         @include media-breakpoint-down(lg) {
-            max-height: 50px;
-            max-width: 50px;
+            max-height: 45px;
+            max-width: 45px;
             border-radius: 10px !important;
 
             img {
