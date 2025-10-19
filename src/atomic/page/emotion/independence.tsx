@@ -5,6 +5,8 @@ import NavigationBar from "@/atomic/organism/navbar";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 export default function Independence() {
     const appId = getAppId();
@@ -12,12 +14,16 @@ export default function Independence() {
     const LIST3_COUNT = 5;
     const LIST5_COUNT = 7;
     const LIST6_COUNT = 9;
+    const items = useBreadcrumbs();
 
     return (
         <>
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion personality-trait">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("INDEPENDENCE.HEAD")}
                     appId={appId}

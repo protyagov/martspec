@@ -15,9 +15,12 @@ import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import Review from "@/atomic/prototype/review";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
 
 export default function Iron() {
     const appId = getAppId();
+    const items = useBreadcrumbs();
 
     const iconTitleTextListItems: Array<IconTitleText> = [
         {
@@ -59,6 +62,9 @@ export default function Iron() {
             <NavigationBar />
 
             <div className="ms-base-page">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("IRON.HEAD")}
                     appId={appId}

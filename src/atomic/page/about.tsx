@@ -11,13 +11,19 @@ import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardIconTitleText from "@/atomic/molecule/card-icon-title-text";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import LinkStyledButton from "@/atomic/atom/link-styled-button";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
 
 export default function About() {
+    const items = useBreadcrumbs();
     return (
         <>
             <NavigationBar />
 
             <div className="ms-base-page about">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("ABOUT.HEAD")}
                     imgSrc="/img/story.webp"

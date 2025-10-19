@@ -7,9 +7,12 @@ import CallToAction from "@/atomic/organism/call-to-action-new";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 export default function Biorhythms() {
     const appId = getAppId();
+    const items = useBreadcrumbs();
     const rhythmsList = [
         {
             name: "PHYS",
@@ -38,6 +41,9 @@ export default function Biorhythms() {
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion biorhythms">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("BIORHYTHMS.HEAD")}
                     appId={appId}

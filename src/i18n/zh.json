@@ -51,7 +51,29 @@
             "LINK": "写信给我们"
         }
     },
-    "NAV": {
+    "BREADCRUMB": {
+      "HOME": "主页",
+      "EMOTION": "情绪",
+      "ANXIETY": "焦虑",
+      "INDEPENDENCE": "独立",
+      "BIORHYTHMS": "生物节律",
+      "ENERGY": "能量",
+      "HARMONY": "和谐",
+      "OPENNESS": "开放性",
+      "PRODUCTIVITY": "生产力",
+      "BODYMASS": "体重",
+      "IRON": "铁",
+      "MAGNESIUM": "镁",
+      "WAISTLINE": "腰围",
+      "BODYSIZE": "体型",
+      "BODYZINC": "锌",
+      "ELECTROLYTE": "电解质",
+      "VITAMIN": "维生素",
+      "TEAM": "我们的团队",
+      "ABOUT": "我们的故事",
+      "CAREERS": "招聘信息"
+    },
+  "NAV": {
         "APPS": "所有设备",
         "ABOUT": "关于我们",
         "WATCH": "手表"

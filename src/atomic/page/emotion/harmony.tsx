@@ -5,18 +5,24 @@ import NavigationBar from "@/atomic/organism/navbar";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 export default function Harmony() {
     const appId = getAppId();
     const LIST2_COUNT = 7;
     const LIST3_COUNT = 5;
     const LIST4_COUNT = 8;
+    const items = useBreadcrumbs();
 
     return (
         <>
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion personality-trait">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("HARMONY.HEAD")}
                     appId={appId}

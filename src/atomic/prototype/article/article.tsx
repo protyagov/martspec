@@ -9,9 +9,12 @@ import { Footer } from "@/atomic/organism/footer";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import Header from "@/atomic/organism/header";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 const Article = ({ emotion }: { emotion: string }) => {
     const [articleData, setArticleData] = useState<IArticleModel | null>(null);
+    const items = useBreadcrumbs();
 
     useEffect(() => {
         const fetchData = async () => {
@@ -33,6 +36,9 @@ const Article = ({ emotion }: { emotion: string }) => {
         <div>
             <NavigationBar />
             <div className="article__container">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={articleData?.HEADER.TITLE ?? ""}
                     appId={appId}

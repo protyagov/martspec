@@ -51,7 +51,29 @@
             "LINK": "Schreiben Sie uns"
         }
     },
-    "NAV": {
+    "BREADCRUMB": {
+      "HOME": "Startseite",
+      "EMOTION": "Emotion",
+      "ANXIETY": "Angst",
+      "INDEPENDENCE": "Unabhängigkeit",
+      "BIORHYTHMS": "Biorhythmen",
+      "ENERGY": "Energie",
+      "HARMONY": "Harmonie",
+      "OPENNESS": "Offenheit",
+      "PRODUCTIVITY": "Produktivität",
+      "BODYMASS": "Gewicht",
+      "IRON": "Eisen",
+      "MAGNESIUM": "Magnesium",
+      "WAISTLINE": "Taille",
+      "BODYSIZE": "Körperform",
+      "BODYZINC": "Zink",
+      "ELECTROLYTE": "Elektrolyt",
+      "VITAMIN": "Vitamin",
+      "TEAM": "Unser Team",
+      "ABOUT": "Unsere Geschichte",
+      "CAREERS": "Karriere"
+    },
+  "NAV": {
         "APPS": "Alle Geräte",
         "ABOUT": "Über uns",
         "WATCH": "Uhren"

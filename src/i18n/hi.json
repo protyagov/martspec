@@ -51,7 +51,29 @@
             "LINK": "हमें लिखें"
         }
     },
-    "NAV": {
+    "BREADCRUMB": {
+      "HOME": "मुख्य पृष्ठ",
+      "EMOTION": "भावना",
+      "ANXIETY": "चिंता",
+      "INDEPENDENCE": "स्वतंत्रता",
+      "BIORHYTHMS": "जैविक लय",
+      "ENERGY": "ऊर्जा",
+      "HARMONY": "सामंजस्य",
+      "OPENNESS": "खुलापन",
+      "PRODUCTIVITY": "उत्पादकता",
+      "BODYMASS": "वज़न",
+      "IRON": "लोहा",
+      "MAGNESIUM": "मैग्नीशियम",
+      "WAISTLINE": "कमर",
+      "BODYSIZE": "शरीर का आकार",
+      "BODYZINC": "जिंक",
+      "ELECTROLYTE": "इलेक्ट्रोलाइट",
+      "VITAMIN": "विटामिन",
+      "TEAM": "हमारी टीम",
+      "ABOUT": "हमारी कहानी",
+      "CAREERS": "करियर"
+    },
+  "NAV": {
         "APPS": "सभी डिवाइस",
         "ABOUT": "हमारे बारे में",
         "WATCH": "घड़ियाँ"

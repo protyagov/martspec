@@ -13,9 +13,12 @@ import CardImage from "@/atomic/molecule/card-image";
 import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import ScrollButton from "@/atomic/atom/scroll-button";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
 
 export default function Bodymass() {
     const appId = getAppId();
+    const items = useBreadcrumbs();
     const advantages: Array<IconTitleText> = [
         {
             icon: {
@@ -71,6 +74,9 @@ export default function Bodymass() {
             <NavigationBar />
 
             <div className="ms-base-page">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("MASS.HEAD")}
                     appId={appId}

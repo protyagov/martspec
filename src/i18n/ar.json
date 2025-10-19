@@ -51,7 +51,29 @@
             "LINK": "اكتب لنا"
         }
     },
-    "NAV": {
+    "BREADCRUMB": {
+      "HOME": "الصفحة الرئيسية",
+      "EMOTION": "العاطفة",
+      "ANXIETY": "القلق",
+      "INDEPENDENCE": "الاستقلال",
+      "BIORHYTHMS": "الإيقاعات الحيوية",
+      "ENERGY": "الطاقة",
+      "HARMONY": "الانسجام",
+      "OPENNESS": "الانفتاح",
+      "PRODUCTIVITY": "الإنتاجية",
+      "BODYMASS": "الوزن",
+      "IRON": "الحديد",
+      "MAGNESIUM": "المغنيسيوم",
+      "WAISTLINE": "الخصر",
+      "BODYSIZE": "القوام",
+      "BODYZINC": "الزنك",
+      "ELECTROLYTE": "الالكتروليت",
+      "VITAMIN": "الفيتامين",
+      "TEAM": "فريقنا",
+      "ABOUT": "قصتنا",
+      "CAREERS": "الوظائف"
+    },
+  "NAV": {
         "APPS": "جميع الأجهزة",
         "ABOUT": "معلومات عنا",
         "WATCH": "ساعات"

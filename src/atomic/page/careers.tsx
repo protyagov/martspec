@@ -8,6 +8,8 @@ import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
 
 const careers = [
     {
@@ -61,10 +63,14 @@ const rowItemsData = [
 ];
 
 const Careers = () => {
+    const items = useBreadcrumbs();
     return (
         <>
             <NavigationBar />
             <div className="ms-base-page careers">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("CAREERS.SUBHEAD")}
                     rowItems={

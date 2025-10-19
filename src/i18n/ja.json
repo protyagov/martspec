@@ -51,7 +51,29 @@
             "LINK": "私たちに手紙を書く"
         }
     },
-    "NAV": {
+    "BREADCRUMB": {
+      "HOME": "ホーム",
+      "EMOTION": "感情",
+      "ANXIETY": "不安",
+      "INDEPENDENCE": "自立",
+      "BIORHYTHMS": "バイオリズム",
+      "ENERGY": "エネルギー",
+      "HARMONY": "調和",
+      "OPENNESS": "開放性",
+      "PRODUCTIVITY": "生産性",
+      "BODYMASS": "体重",
+      "IRON": "鉄",
+      "MAGNESIUM": "マグネシウム",
+      "WAISTLINE": "ウエスト",
+      "BODYSIZE": "体型",
+      "BODYZINC": "亜鉛",
+      "ELECTROLYTE": "電解質",
+      "VITAMIN": "ビタミン",
+      "TEAM": "私たちのチーム",
+      "ABOUT": "私たちの物語",
+      "CAREERS": "採用情報"
+    },
+  "NAV": {
         "APPS": "すべてのデバイス",
         "ABOUT": "私たちに関しては",
         "WATCH": "時計"

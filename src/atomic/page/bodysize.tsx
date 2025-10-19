@@ -19,6 +19,8 @@ import CardIconTitleText from "../molecule/card-icon-title-text";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import Accordion, * as MetricAccordion from "@/atomic/molecule/accordion";
 import CardBodyMetric, * as CardBody from "@/atomic/molecule/card-body-metric";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 interface DropdownList {
     groupName: string;
@@ -63,6 +65,7 @@ const dropdownlist: DropdownList[] = [
 ];
 
 export default function BodySize() {
+    const items = useBreadcrumbs();
     const iconTitleTextListItems: Array<IconTitleText> = [
     {
         icon: {
@@ -104,6 +107,9 @@ export default function BodySize() {
             <NavigationBar />
 
     <div className="ms-base-page">
+        <div className="row">
+            <Breadcrumb items={items} />
+        </div>
                 <Header
                     title={_("SIZE.HEAD")}
                     appId={appId}
