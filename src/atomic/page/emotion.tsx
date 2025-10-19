@@ -12,6 +12,7 @@ import BulletList from "@/atomic/molecule/bullet-list";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
+import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
 
 export default function Emotion() {
     const appId = getAppId();
@@ -73,34 +74,55 @@ export default function Emotion() {
                     </div>
                 </Header>
 
-                <section>
-                    <div className="row g-4">
-                        <TitleTextCard
+                <div className="row g-4">
+                    <div className="col-12 col-lg-4">
+                        <CardTitleTextImageCustom
                             title={_("EMOTION.LIST1.LI1_HEAD")}
-                            text={_("EMOTION.LIST1.LI1_TEXT")}
-                            bgColor="#EDE1FF"
-                            className="col-lg-8 col-md-6"
-                        />
-                        <TitleTextCard
-                            title={_("EMOTION.LIST1.LI2_HEAD")}
-                            text={_("EMOTION.LIST1.LI2_TEXT")}
-                            bgColor="#FFF9E3"
-                            className="col-lg-4 col-md-6"
-                        />
-                        <TitleTextCard
-                            title={_("EMOTION.LIST1.LI3_HEAD")}
-                            text={_("EMOTION.LIST1.LI3_TEXT")}
-                            bgColor="#EDE1FF"
-                            className="col-lg-8 col-md-6 order-md-4"
-                        />
-                        <TitleTextCard
-                            title={_("EMOTION.LIST1.LI4_HEAD")}
-                            text={_("EMOTION.LIST1.LI4_TEXT")}
-                            bgColor="#FFF9E3"
-                            className="col-lg-4 col-md-6"
+                            text={_("EMOTION.LIST1.DESC1")}
+                            imgSrc={`/img/page/emotion/section-left-${Locale.language}.svg`}
+                            cardHeight="30rem"
+                            imgPosition="center-bottom"
+                            imgH="19rem"
+                            imgMobileH="17rem"
+                            shadow={true}
+                            mobileBreakpoint={1150}
+                            responsive={true}
                         />
                     </div>
-                </section>
+                    <div className="col-12 col-lg-4">
+                        <div className="d-flex flex-column h-100 gap-4">
+                        <CardTitleTextImageCustom
+                            title={_("EMOTION.LIST1.LI2_HEAD")}
+                            text={_("EMOTION.LIST1.DESC2")}
+                            bgColor="#E5EEFF"
+                            cardHeight="15rem"
+                            shadow={false}
+                        />
+                        <CardTitleTextImageCustom
+                            title={_("EMOTION.LIST1.LI3_HEAD")}
+                            text={_("EMOTION.LIST1.DESC3")}
+                            bgColor="#FAEBFF"
+                            cardHeight="15rem"
+                            shadow={false}
+                        />
+                        </div>
+                    </div>
+                    <div className="col-12 col-lg-4">
+                        <CardTitleTextImageCustom
+                            title={_("EMOTION.LIST1.LI4_HEAD")}
+                            text={_("EMOTION.LIST1.DESC4")}
+                            imgSrc="/img/page/emotion/section-right.svg"
+                            bgColor="#F4F5F8"
+                            cardHeight="30rem"
+                            imgPosition="right-bottom"
+                            imgH="19rem"
+                            imgMobileH="15rem"
+                            shadow={false}
+                            mobileBreakpoint={1150}
+                            responsive={true}
+                        />
+                    </div>
+                </div>
 
                 <section>
                     <div className="row">
