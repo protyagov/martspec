@@ -52,26 +52,7 @@
         }
     },
     "BREADCRUMB": {
-      "HOME": "Головна",
-      "EMOTION": "Емоція",
-      "ANXIETY": "Тривожність",
-      "INDEPENDENCE": "Незалежність",
-      "BIORHYTHMS": "Біоритми",
-      "ENERGY": "Енергія",
-      "HARMONY": "Гармонія",
-      "OPENNESS": "Відкритість",
-      "PRODUCTIVITY": "Продуктивність",
-      "BODYMASS": "Вага",
-      "IRON": "Залізо",
-      "MAGNESIUM": "Магній",
-      "WAISTLINE": "Талія",
-      "BODYSIZE": "Фігура",
-      "BODYZINC": "Цинк",
-      "ELECTROLYTE": "Електроліт",
-      "VITAMIN": "Вітамін",
-      "TEAM": "Наша команда",
-      "ABOUT": "Наша історія",
-      "CAREERS": "Кар'єра"
+      "HOME": "Головна"
     },
   "NAV": {
         "APPS": "Усі пристрої",

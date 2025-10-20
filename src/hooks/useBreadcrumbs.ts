@@ -10,33 +10,33 @@ interface BreadcrumbItem {
 export const useBreadcrumbs = (): BreadcrumbItem[] => {
     return useMemo(() => {
         const path: string[] = window.location.pathname.split("/").filter(Boolean);
-        const supportedLanguages: string[] = ["ar", "de", "en", "es", "fr", "hi", "ja", "pt", "ru", "uk", "zh"];
-        const cleanPath: string[] = supportedLanguages.includes(path[0]) ? path.slice(1) : path;
+        const locales = Locale.SUPPORTED_LANG;
+        const cleanPath: string[] = locales.includes(path[0]) ? path.slice(1) : path;
 
         const labelMap: Record<string, string> = {
-            emotion: _("BREADCRUMB.EMOTION"),
-            anxiety: _("BREADCRUMB.ANXIETY"),
-            independence: _("BREADCRUMB.INDEPENDENCE"),
-            vitamin: _("BREADCRUMB.VITAMIN"),
-            team: _("BREADCRUMB.TEAM"),
-            about: _("BREADCRUMB.ABOUT"),
-            careers: _("BREADCRUMB.CAREERS"),
-            productivity: _("BREADCRUMB.PRODUCTIVITY"),
-            bodymass: _("BREADCRUMB.BODYMASS"),
-            iron: _("BREADCRUMB.IRON"),
-            magnesium: _("BREADCRUMB.MAGNESIUM"),
-            waistline: _("BREADCRUMB.WAISTLINE"),
-            bodysize: _("BREADCRUMB.BODYSIZE"),
-            bodyzinc: _("BREADCRUMB.BODYZINC"),
-            electrolyte: _("BREADCRUMB.ELECTROLYTE"),
-            openness: _("BREADCRUMB.OPENNESS"),
-            energy: _("BREADCRUMB.ENERGY"),
-            harmony: _("BREADCRUMB.HARMONY"),
-            biorhythms: _("BREADCRUMB.BIORHYTHMS"),
+            emotion: _("EMOTION.HEAD"),
+            anxiety: _("ANXIETY.HEAD"),
+            independence: _("INDEPENDENCE.HEAD"),
+            vitamin: _("VITAMIN.HEAD"),
+            team: _("TEAM.HEAD"),
+            about: _("ABOUT.HEAD"),
+            careers: _("CAREERS.HEAD"),
+            productivity: _("PRODUCTIVITY.HEAD"),
+            bodymass: _("MASS.HEAD"),
+            iron: _("IRON.HEAD"),
+            magnesium: _("MAGNESIUM.HEAD"),
+            waistline: _("WAIST.HEAD"),
+            bodysize: _("SIZE.HEAD"),
+            bodyzinc: _("ZINC.HEAD"),
+            electrolyte: _("ELECTROLYTE.HEAD"),
+            openness: _("OPENNESS.HEAD"),
+            energy: _("ENERGY.HEAD"),
+            harmony: _("HARMONY.HEAD"),
+            biorhythms: _("BIORHYTHMS.HEAD"),
         };
 
         const items: BreadcrumbItem[] = cleanPath.map((segment, index) => {
-            const hrefSegments: string[] = supportedLanguages.includes(path[0])
+            const hrefSegments: string[] = locales.includes(path[0])
                 ? [path[0], ...cleanPath.slice(0, index + 1)]
                 : cleanPath.slice(0, index + 1);
 
@@ -47,7 +47,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
         });
 
         const homeLabel: string = _("BREADCRUMB.HOME");
-        const homeHref: string = supportedLanguages.includes(path[0]) ? `/${path[0]}` : "/";
+        const homeHref: string = locales.includes(path[0]) ? `/${path[0]}` : "/";
 
         return [{ label: homeLabel, href: homeHref }, ...items];
     }, [Locale.language]);

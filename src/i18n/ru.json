@@ -46,26 +46,7 @@
         }
     },
     "BREADCRUMB": {
-      "HOME": "Главная",
-      "EMOTION": "Эмоция",
-      "ANXIETY": "Тревожность",
-      "INDEPENDENCE": "Независимость",
-      "BIORHYTHMS": "Биоритмы",
-      "ENERGY": "Энергия",
-      "HARMONY": "Гармония",
-      "OPENNESS": "Открытость",
-      "PRODUCTIVITY": "Продуктивность",
-      "BODYMASS": "Вес",
-      "IRON": "Железо",
-      "MAGNESIUM": "Магний",
-      "WAISTLINE": "Талия",
-      "BODYSIZE": "Фигура",
-      "BODYZINC": "Цинк",
-      "ELECTROLYTE": "Электролит",
-      "VITAMIN": "Витамин",
-      "TEAM": "Наша команда",
-      "ABOUT": "Наша история",
-      "CAREERS": "Карьера"
+      "HOME": "Главная"
     },
     "NAV": {
         "APPS": "Все устройства",

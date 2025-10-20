@@ -1,5 +1,5 @@
 import React from "react";
-import { BreadcrumbList } from "../molecule/breadcrumb-list";
+import { BreadcrumbList } from "@/atomic/molecule/breadcrumb-list";
 
 interface BreadcrumbItem {
     label: string;

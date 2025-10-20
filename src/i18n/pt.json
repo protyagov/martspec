@@ -52,26 +52,7 @@
         }
     },
     "BREADCRUMB": {
-      "HOME": "Início",
-      "EMOTION": "Emoção",
-      "ANXIETY": "Ansiedade",
-      "INDEPENDENCE": "Independência",
-      "BIORHYTHMS": "Biorritmos",
-      "ENERGY": "Energia",
-      "HARMONY": "Harmonia",
-      "OPENNESS": "Abertura",
-      "PRODUCTIVITY": "Produtividade",
-      "BODYMASS": "Peso corporal",
-      "IRON": "Ferro",
-      "MAGNESIUM": "Magnésio",
-      "WAISTLINE": "Cintura",
-      "BODYSIZE": "Tamanho corporal",
-      "BODYZINC": "Zinco",
-      "ELECTROLYTE": "Eletrólito",
-      "VITAMIN": "Vitamina",
-      "TEAM": "Nossa equipe",
-      "ABOUT": "Nossa história",
-      "CAREERS": "Carreiras"
+      "HOME": "Início"
     },
     "NAV": {
         "APPS": "Todos os dispositivos",

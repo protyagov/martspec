@@ -1,5 +1,5 @@
 import React from "react";
-import { BreadcrumbLink } from "../atom/breadcrumb-link";
+import {BreadcrumbLink} from "@/atomic/atom/breadcrumb-link";
 
 interface BreadcrumbItem {
     label: string;
