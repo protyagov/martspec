@@ -8,10 +8,7 @@ import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
-import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
-import CardTitleText from "@/atomic/molecule/card-title-text";
-import CardImage from "@/atomic/molecule/card-image";
 import BulletList from "@/atomic/molecule/bullet-list";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
@@ -133,7 +130,7 @@ export default function BodySize() {
                     <CardTitleTextImageCustom
                         title={_("SIZE.LIST1.LI1_HEAD")}
                         text={_("SIZE.LIST1.DESC1")}
-                        imgSrc="/img/page/body-size/section-left-en.webp"
+                        imgSrc={`/img/page/body-size/section-left-${Locale.language}.webp`}
                         cardHeight="37rem"
                         imgPosition="center-bottom"
                         imgH="19rem"
