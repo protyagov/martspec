@@ -1,0 +1,42 @@
+@import "@/sass/atom/color";
+
+.breadcrumbs {
+  margin-top: 15px;
+
+  .breadcrumb {
+    .breadcrumb-item {
+      display: flex;
+      align-items: center;
+      font-family: os4, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 120%;
+
+      a {
+        color: $ms-breadcrumb-link-color;
+        text-decoration: none;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: $ms-color-text-blue;
+        }
+
+        &:focus {
+          outline: none;
+          text-decoration: underline;
+        }
+      }
+
+      &.active {
+        color: $ms-breadcrumb-link-active-color;
+      }
+    }
+
+    .breadcrumb-item + .breadcrumb-item::before {
+      content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxMiAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggb3BhY2l0eT0iMC43IiBkPSJNNC41IDkuNUw3LjUgNi41TDQuNSAzLjUiIHN0cm9rZT0iIzI2MjYyNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=");
+      position: relative;
+      top: 1px;
+    }
+  }
+}
+

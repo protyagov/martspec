@@ -51,7 +51,10 @@
             "LINK": "Écrivez-nous un"
         }
     },
-    "NAV": {
+    "BREADCRUMB": {
+      "HOME": "Accueil"
+    },
+  "NAV": {
         "APPS": "Tous les appareils",
         "ABOUT": "À propos de nous",
         "WATCH": "Montres"

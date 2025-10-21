@@ -14,9 +14,12 @@ import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
 import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
 
 export default function Emotion() {
     const appId = getAppId();
+    const items = useBreadcrumbs();
     const advantages: Array<IconTitleText> = [
         {
             icon: {
@@ -57,6 +60,9 @@ export default function Emotion() {
             <NavigationBar />
 
             <div className="ms-base-page emotion">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("EMOTION.HEAD")}
                     appId={appId}

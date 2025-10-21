@@ -5,7 +5,6 @@ import NavigationBar from "@/atomic/organism/navbar";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
-
 export default function Anxiety() {
     const appId = getAppId();
     const LIST2_COUNT = 3;

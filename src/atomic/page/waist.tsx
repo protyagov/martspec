@@ -14,9 +14,12 @@ import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import CardIconTitleText from "../molecule/card-icon-title-text";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
 
 export default function WaistLine() {
     const appId = getAppId();
+    const items = useBreadcrumbs();
     const advantages: Array<IconTitleText> = [
         {
             icon: {
@@ -56,6 +59,9 @@ export default function WaistLine() {
             <NavigationBar />
 
             <div className="ms-base-page waist">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("WAIST.HEAD")}
                     appId={appId}
