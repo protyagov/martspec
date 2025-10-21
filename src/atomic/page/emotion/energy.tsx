@@ -5,7 +5,8 @@ import NavigationBar from "@/atomic/organism/navbar";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
-
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 export default function Energy() {
     const appId = getAppId();
@@ -14,12 +15,17 @@ export default function Energy() {
     const LIST4_1_COUNT = 4;
     const LIST4_2_COUNT = 4;
     const LIST5_COUNT = 10;
+    const items = useBreadcrumbs();
 
     return (
         <>
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion personality-trait">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
+
                 <Header
                     title={_("ENERGY.HEAD")}
                     appId={appId}
@@ -30,7 +36,7 @@ export default function Energy() {
                     imgW={421}
                 >
                     <div className="energy-lists">
-                        <ul className="header-content-list-energy" >
+                        <ul className="header-content-list-energy">
                             <li>{_("ENERGY.ABOUT_1")}</li>
                             <li>{_("ENERGY.ABOUT_2")}</li>
                             <li>{_("ENERGY.ABOUT_3")}</li>
@@ -123,7 +129,6 @@ export default function Energy() {
                                 <p>{_("ENERGY.DESK5_2")}</p>
                             </div>
                         </div>
-
                     </div>
                 </section>
             </div>

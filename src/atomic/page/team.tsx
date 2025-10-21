@@ -7,6 +7,8 @@ import ScrollButton from "../atom/scroll-button";
 import Header from "@/atomic/organism/header";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
 
 interface TeamMembers {
   [key: string]: {
@@ -19,6 +21,7 @@ interface TeamMembers {
 
 export default function Team() {
     const [teamMembers, setTeamMembers] = React.useState<TeamMembers | null>(null);
+    const items = useBreadcrumbs();
 
     React.useEffect(() => {
     const fetchTeamData = async () => {
@@ -36,6 +39,9 @@ export default function Team() {
             <NavigationBar />
 
             <div className="ms-base-page pb-5 ms-team row ms-team-info-section">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <section className="mb-1 mt-1">
                 <Header 
                     title={_("TEAM.HEAD")}

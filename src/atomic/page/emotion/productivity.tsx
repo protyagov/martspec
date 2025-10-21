@@ -5,6 +5,8 @@ import NavigationBar from "@/atomic/organism/navbar";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 export default function Productivity() {
     const appId = getAppId();
@@ -14,12 +16,15 @@ export default function Productivity() {
         LIST6_1: 10,
         LIST6_2: 5,
     };
-
+    const items = useBreadcrumbs();
     return (
         <>
             <NavigationBar />
 
             <div className="ms-base-page ms-base-new emotion personality-trait">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("PRODUCTIVITY.HEAD")}
                     appId={appId}

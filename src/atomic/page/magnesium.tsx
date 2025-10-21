@@ -16,6 +16,8 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import Review from "@/atomic/prototype/review";
 import CallToAction from "@/atomic/organism/call-to-action-new";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
 
 export default function Magnesium() {
 const iconTitleTextListItems: Array<IconTitleText> = [
@@ -54,11 +56,15 @@ const iconTitleTextListItems: Array<IconTitleText> = [
 ];
 
     const appId = getAppId();
+    const items = useBreadcrumbs();
 
     return (
         <>
             <NavigationBar />
             <div className="ms-base-page">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("MAGNESIUM.HEAD")}
                     appId={appId}

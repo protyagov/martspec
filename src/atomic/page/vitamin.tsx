@@ -17,6 +17,8 @@ import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
 import Accordion, * as VitaminAccordion from "@/atomic/molecule/accordion";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 interface VitaminGroup {
     groupName: string;
@@ -99,6 +101,7 @@ const vitamins: VitaminGroup[] = [
 
 export default function Vitamin() {
     const appId = getAppId();
+    const items = useBreadcrumbs();
 
     // const bgColor={background: "#1FF"}
     const advantages: Array<IconTitleText> = [
@@ -203,6 +206,9 @@ export default function Vitamin() {
             <NavigationBar />
 
             <div className="ms-base-page vitamin">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("VITAMIN.HEAD")}
                     appId={appId}

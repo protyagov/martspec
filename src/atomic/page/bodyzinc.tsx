@@ -11,9 +11,12 @@ import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
 import Header from "@/atomic/organism/header";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 export default function BodyZinc() {
     const appId = getAppId();
+    const items = useBreadcrumbs();
     const iconTitleTextListItems: Array<IconTitleText> = [
         {
             icon: {
@@ -53,6 +56,9 @@ export default function BodyZinc() {
             <NavigationBar />
 
             <div className="ms-base-page zinc">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("ZINC.HEAD")}
                     appId={appId}

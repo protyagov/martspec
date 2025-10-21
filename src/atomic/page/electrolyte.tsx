@@ -12,9 +12,12 @@ import ScrollButton from "../atom/scroll-button";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CallToAction from "@/atomic/organism/call-to-action-new";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 export default function Electrolyte() {
     const appId = getAppId();
+    const items = useBreadcrumbs();
     const advantages: Array<IconTitleText> = [
         {
             icon: {
@@ -55,6 +58,9 @@ export default function Electrolyte() {
             <NavigationBar />
 
             <div className="ms-base-page">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("ELECTROLYTE.HEAD")}
                     appId={appId}
