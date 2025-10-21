@@ -51,7 +51,10 @@
             "LINK": "Schreiben Sie uns"
         }
     },
-    "NAV": {
+    "BREADCRUMB": {
+      "HOME": "Startseite"
+    },
+  "NAV": {
         "APPS": "Alle Geräte",
         "ABOUT": "Über uns",
         "WATCH": "Uhren"

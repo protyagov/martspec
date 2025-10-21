@@ -51,7 +51,10 @@
             "LINK": "写信给我们"
         }
     },
-    "NAV": {
+    "BREADCRUMB": {
+      "HOME": "主页"
+    },
+  "NAV": {
         "APPS": "所有设备",
         "ABOUT": "关于我们",
         "WATCH": "手表"
