@@ -13,6 +13,7 @@ import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
 import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
+import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
 
@@ -151,41 +152,61 @@ export default function Emotion() {
                     </div>
                 </section>
 
-                <section className="bg-gray">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h2>{_("EMOTION.HEAD2")}</h2>
-                            <p>{_("EMOTION.DESK2")}</p>
-                            <a href={Locale.i18nLink("emotion/biorhythms")} className="ms-btn-large">
-                                {_("EMOTION.BTN_BIORHYTHM")}
-                            </a>
+                <section className="biorhythms-container">
+                    <div className="row row-cols-xl-3 row-cols-1">
+                        <div className="col col-md-4 p-0 card-alignment-small">
+                            <div className="row row-cols-1 h-100 p-0">
+                                <div className="col  img-wrapper ">
+                                    <CardTitleTextImageCustom
+                                        title={_("SIZE.HEAD9")}
+                                        text={_("SIZE.DESC9")}
+                                        bgColor="#FFFFFF"
+                                        imgSrc="/img/page/body-size/orange_curly_ine.png"
+                                        imgPosition="right-bottom"
+                                        shadow={true}
+                                        cardHeight="15rem"
+                                        imgH="6rem"
+                                        responsive={true}
+                                    />
+                                </div>
+                                <div className="col  mt-5 img-wrapper">
+                                    <CardTitleTextImageCustom
+                                        title={_("SIZE.HEAD10")}
+                                        text={_("SIZE.DESC10")}
+                                        bgColor="#FFFFFF"
+                                        imgSrc="/img/page/body-size/green_curly_line.png"
+                                        imgPosition="left-bottom"
+                                        shadow={true}
+                                        cardHeight="15rem"
+                                        imgH="6rem"
+                                        responsive={true}
+                                    />
+                                </div>
+                            </div>
                         </div>
-                        <div className="col-lg-6 order-lg-first">
-                            <ImageI18N
-                                src="/img/page/emotion/emotion-diagram.webp"
-                                w={512}
-                                h={367}
-                                cls="mx-lg-0 ms-base-image mt-mob-s"
-                                alt={_("EMOTION.ALT2")}
+                        
+                        <div className="col col-md-4 img-wrapper-big card-alignment-big" >
+                            <CardTitleTextImageCustom
+                                        title={_("SIZE.HEAD11")}
+                                        text={_("SIZE.DESC11")}
+                                        bgColor="#FFFFFF"
+                                        imgSrc="/img/page/emotion/masks.svg"
+                                        imgPosition="right-bottom"
+                                        shadow={true}
+                                        cardHeight="35.5rem"
+                                        imgH="25rem"
+                                        responsive={true}
+                                    />
+                        </div>
+                        <div  className="col col-md-4 text-alignment" >
+                            <CardTitleTextButton
+                                title={_("SIZE.HEAD8")}
+                                textContent={[_("SIZE.DESC8_1"), _("SIZE.DESC8_2")]}
+                                buttonText={_("SIZE.BTN_MORE")}
+                                buttonLink={Locale.i18nLink(`emotion/biorhythms`)}
+                                buttonColor="#7B62FE"
                             />
-                        </div>
-                    </div>
-                    <div className="row g-4">
-                        <TitleTextCard
-                            title={_("EMOTION.LIST2.LI1_HEAD")}
-                            text={_("EMOTION.LIST2.LI1_TEXT")}
-                            bgColor="#FFF9E3"
-                        />
-                        <TitleTextCard
-                            title={_("EMOTION.LIST2.LI2_HEAD")}
-                            text={_("EMOTION.LIST2.LI2_TEXT")}
-                            bgColor="#E8FAE0"
-                        />
-                        <TitleTextCard
-                            title={_("EMOTION.LIST2.LI3_HEAD")}
-                            text={_("EMOTION.LIST2.LI3_TEXT")}
-                            bgColor="#EDE1FF"
-                        />
+                        </div> 
                     </div>
                 </section>
 
