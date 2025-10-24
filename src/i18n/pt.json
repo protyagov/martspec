@@ -1297,7 +1297,10 @@
         "HEAD8": "O aplicativo Emoção está disponível para qualquer dispositivo Apple",
         "DESK8": "Comece a rastrear suas mudanças de humor hoje mesmo baixando o aplicativo agora.",
         "ALT8": "Capturas de tela de um aplicativo que permitirá que você acompanhe seu estado psicológico regularmente, confortavelmente e em qualquer dispositivo",
-        "BTN_OPEN": "Desmascarar"
+        "BTN_OPEN": "Desmascarar",
+        "HEAD9": "Eu Hoje",
+        "DESC9_1": "O que você fez hoje? Abriu mão de doces, praticou exercícios ou talvez comeu comida saudável? Você teve estresse ou, pelo contrário, se sentiu a pessoa mais feliz?",
+        "DESC9_2": "Nossa nova funcionalidade - 'Eu Hoje' dará a você a oportunidade de avaliar sua condição todos os dias. E se você não encontrar o indicador de que precisa, pode criar o seu próprio"
     },
     "BIORHYTHMS": {
         "HEAD": "Biorritmos",
