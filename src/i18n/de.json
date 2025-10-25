@@ -1295,7 +1295,10 @@
         "HEAD8": "Die Emotion-App ist für jedes Apple-Gerät verfügbar",
         "DESK8": "Beginnen Sie noch heute mit der Verfolgung Ihrer Stimmungsschwankungen, indem Sie die App jetzt herunterladen",
         "ALT8": "Screenshots einer Anwendung, mit der Sie Ihren psychischen Zustand regelmäßig, bequem und auf jedem Gerät verfolgen können",
-        "BTN_OPEN": "Aufdecken"
+        "BTN_OPEN": "Aufdecken",
+        "HEAD9": "Ich heute",
+        "DESC9_1": "Was haben Sie heute gemacht? Haben Sie auf Süßigkeiten verzichtet, Sport getrieben oder vielleicht gesund gegessen? Hatten Sie Stress oder fühlten Sie sich im Gegenteil wie der glücklichste Mensch?",
+        "DESC9_2": "Unsere neue Funktion - 'Ich heute' gibt Ihnen die Möglichkeit, Ihren Zustand jeden Tag zu bewerten. Und wenn Sie den gewünschten Indikator nicht gefunden haben, können Sie Ihren eigenen erstellen"
     },
     "BIORHYTHMS": {
         "HEAD": "Biorhythmen",

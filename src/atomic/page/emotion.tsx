@@ -209,6 +209,32 @@ export default function Emotion() {
                         </div> 
                     </div>
                 </section>
+                
+                <section>
+                    <div className="row">
+                        <div className="row block p-0" style={{backgroundColor: "#ECE9FF", overflow: "hidden"}}>
+                            <div className="col-lg-6 p-5" >
+                                <CardTitleTextButton
+                                    title={_("EMOTION.HEAD9")}
+                                    textContent={[_("EMOTION.DESC9_1"), _("EMOTION.DESC9_2")]}
+                                    buttonText={_("SIZE.BTN_MORE")}
+                                    buttonLink={Locale.i18nLink(`emotion/biorhythms`)}
+                                    buttonColor="#7B62FE"
+                                />
+                            </div>
+
+                            <div className="col-lg-6 d-flex justify-content-end align-items-end">
+                                <ImageI18N
+                                    src="/img/page/emotion/img-metoday-en.svg"
+                                    w={600}
+                                    h={450}
+                                    cls="ms-base-image mt-mob-xs m-0 img-fluid"
+                                    alt={_("ZINC.ALT1")}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <section>
                     <div className="row">
