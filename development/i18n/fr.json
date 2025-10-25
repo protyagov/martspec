@@ -1293,7 +1293,10 @@
         "HEAD8": "L'application Emotion est disponible pour tous les appareils Apple",
         "DESK8": "Commencez dès aujourd'hui à suivre vos changements d'humeur en téléchargeant l'application maintenant",
         "ALT8": "Captures d'écran d'une application qui vous permet de suivre régulièrement et confortablement votre état psychologique sur n'importe quel appareil",
-        "BTN_OPEN": "Soutien"
+        "BTN_OPEN": "Soutien",
+        "HEAD9": "Moi Aujourd'hui",
+        "DESC9_1": "Qu'avez-vous fait aujourd'hui ? Avez-vous renoncé aux sucreries, fait du sport ou peut-être mangé de la nourriture saine ? Avez-vous eu du stress ou, au contraire, vous êtes-vous senti comme la personne la plus heureuse ?",
+        "DESC9_2": "Notre nouvelle fonctionnalité - 'Moi Aujourd'hui' vous donnera l'opportunité d'évaluer votre état chaque jour. Et si vous ne trouvez pas l'indicateur dont vous avez besoin, vous pouvez créer le vôtre"
     },
     "BIORHYTHMS": {
         "HEAD": "Biorythmes",

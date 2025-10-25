@@ -1295,7 +1295,10 @@
         "HEAD8": "Emotion app is available for any Apple device",
         "DESK8": "Start tracking your mood changes today by downloading the app now",
         "ALT8": "Screenshots of an application that will allow you to track your psychological state regularly, comfortably and on any device",
-        "BTN_OPEN": "Know Yourself"
+        "BTN_OPEN": "Know Yourself",
+        "HEAD9": "Me Today",
+        "DESC9_1": "What did you do today? Did you give up sweets, exercise, or maybe eat healthy food? Did you have stress or, on the contrary, did you feel like the happiest person?",
+        "DESC9_2": "Our new feature - 'Me Today' will give you the opportunity to evaluate your condition every day. And if you didn't find the indicator you need, you can create your own"
     },
     "BIORHYTHMS": {
         "HEAD": "Biorhythms",
