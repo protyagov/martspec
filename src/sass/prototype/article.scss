@@ -8,48 +8,54 @@
   font-size: 1.5rem;
 }
 
+.article__image {
+  border-radius: 20px;
+}
+
 .article-content {
   list-style-type: disc;
   margin-bottom: 1rem;
   list-style-position: outside;
 
   img {
+    margin-bottom: 30px;
+    border-radius: 20px;
+  }
+
+  h1,
+  h2 {
+    font-family: os6;
+    font-size: 24px;
     padding-bottom: 30px;
   }
 
-  h1, h2 {
-      font-family: os6;
-      font-size: 24px;
-      padding-bottom: 30px;
-    }
-  
-    h3 {
-      font-family: os5;
-      font-size: 24px;
-      padding-bottom: 30px;
-    }
-  
-    h4 {
-      font-family: os4;
-      font-size: 1.9rem;
-      padding-bottom: 30px;
-    }
-  
-    h5 {
-      font-family: os4;
-      font-size: 1.4rem;
-      padding-bottom: 30px;
-    }
-  
-    p,
-    li {
-      font-family: os3;
-      font-size: 1.5rem;
-    }
+  h3 {
+    font-family: os5;
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
 
-    ul li::marker {
-      color: var(--marker-color);
-    }
+  h4 {
+    font-family: os4;
+    font-size: 1.9rem;
+    padding-bottom: 30px;
+  }
+
+  h5 {
+    font-family: os4;
+    font-size: 1.4rem;
+    padding-bottom: 30px;
+  }
+
+  p,
+  li {
+    font-family: os3;
+    font-size: 1.5rem;
+  }
+
+  ul li::marker {
+    color: var(--marker-color);
+  }
 }
 
 .article {
@@ -67,12 +73,18 @@
 }
 
 .article-section--with-bg {
-  padding: 24px; 
-  border-radius: 20px; 
+  padding: 24px;
+  border-radius: 20px;
 }
 
 .article-title {
+  font-size: 40px;
+  font-family: os6;
   padding-bottom: 30px;
+}
+
+.article__section-title h2 {
+  font-size: 40px;
 }
 
 .quotes {
@@ -135,10 +147,11 @@
 
 @media (min-width: 900px) {
   .article__container {
-      max-width: 720px;
-    }
+    max-width: 720px;
+  }
+
   .article-section--with-bg {
-      padding: 50px;
+    padding: 50px;
   }
 }
 
@@ -156,11 +169,13 @@
 
 @media (min-width: 1200px) {
   .article__container {
-      max-width: 960px;
-    }
+    max-width: 960px;
+  }
+
   .article-section {
     padding: 60px 0;
   }
+
   .article-section--with-bg {
     padding: 50px;
   }

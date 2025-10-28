@@ -35,6 +35,7 @@ const Article = ({ emotion }: { emotion: string }) => {
     return (
         <div>
             <NavigationBar />
+
             <div className="article__container">
                 <div className="row">
                     <Breadcrumb items={items} />
@@ -47,12 +48,7 @@ const Article = ({ emotion }: { emotion: string }) => {
                     imgH={405}
                     imgW={505}
                 >
-                    <div
-                        className="article"
-                        style={{
-                            ["--marker-color" as any]: articleData?.HEADER.ACCENT_COLOR,
-                        }}
-                    >
+                    <div className="article" style={{ ["--marker-color" as any]: articleData?.HEADER.ACCENT_COLOR }}>
                         <ul className="header-content-list article__header-list">
                             <li>{articleData?.HEADER.HEADER_BODY.LI_1}</li>
                             <li>{articleData?.HEADER.HEADER_BODY.LI_2}</li>
@@ -65,12 +61,13 @@ const Article = ({ emotion }: { emotion: string }) => {
             <div className="article__container">
                 <h2 className="article-title">{articleData?.TITLE}</h2>
                 <img
-                    className="img-fluid"
+                    className="img-fluid article__image"
                     src={articleData?.IMG_URL ?? ""}
                     alt={articleData?.IMG_ALT}
                     width={1300}
                     height={420}
                 />
+
                 {articleData?.BODY.map((item, index) => {
                     const hasBg = !!item.BG_COLOR;
                     const markerColor = item.ACCENT_COLOR;
@@ -84,8 +81,11 @@ const Article = ({ emotion }: { emotion: string }) => {
                                 }}
                                 className={`article-section ${hasBg ? "article-section--with-bg" : ""}`}
                             >
-                                <ReactMarkdown>{item.TITLE}</ReactMarkdown>
-                                {item.IMG_SRC ? (
+                                <div className="article__section-title">
+                                    <ReactMarkdown>{item.TITLE}</ReactMarkdown>
+                                </div>
+
+                                {item.IMG_SRC && (
                                     <img
                                         className="img-fluid"
                                         src={item.IMG_SRC}
@@ -93,24 +93,22 @@ const Article = ({ emotion }: { emotion: string }) => {
                                         width={1300}
                                         height={700}
                                     />
-                                ) : null}
-                                <div>
-                                    <ReactMarkdown
-                                        components={{
-                                            blockquote: ({ node, ...props }) => (
-                                                <blockquote
-                                                    {...props}
-                                                    style={{
-                                                        borderLeft: `6px solid ${item.ACCENT_COLOR ?? "#ccc"}`,
-                                                    }}
-                                                    className="quotes"
-                                                />
-                                            ),
-                                        }}
-                                    >
-                                        {item.CONTENT}
-                                    </ReactMarkdown>
-                                </div>
+                                )}
+                                <ReactMarkdown
+                                    components={{
+                                        blockquote: ({ node, ...props }) => (
+                                            <blockquote
+                                                {...props}
+                                                style={{
+                                                    borderLeft: `6px solid ${item.ACCENT_COLOR ?? "#ccc"}`,
+                                                }}
+                                                className="quotes"
+                                            />
+                                        ),
+                                    }}
+                                >
+                                    {item.CONTENT}
+                                </ReactMarkdown>
                             </div>
                         </section>
                     );
@@ -127,6 +125,7 @@ const Article = ({ emotion }: { emotion: string }) => {
                     imgAlt={articleData?.CALL_TO_ACTION.ALT}
                 />
             </section>
+
             <Footer />
             <ScrollButton />
         </div>
