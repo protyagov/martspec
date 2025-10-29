@@ -238,58 +238,28 @@ export default function Emotion() {
 
                 <section>
                     <div className="row">
-                        <div className="col-lg-6">
-                            <h2>{_("EMOTION.HEAD3")}</h2>
+                        <div className="col-lg-6 how-head mt-3">
+                            <h2 className="mt-0">{_("SIZE.HEAD2")}</h2>
                             <p>{_("EMOTION.DESK3_1")}</p>
                             <ImageI18N
-                                src="/img/page/emotion/emotion-screen-stress-en.webp"
-                                w={512}
-                                h={522}
-                                cls="ms-base-image d-block d-lg-none mt-mob-xs mb-mob-xs"
-                                alt={_("EMOTION.ALT3")}
+                                src="/img/page/emotion/img-howthisworks-en.svg"
+                                w={629}
+                                h={575}
+                                cls="ms-base-image d-none d-lg-block"
                             />
+                        </div>
+                        <div className="col-lg-6 how-head">
                             <h3>{_("EMOTION.DESK3_2")}</h3>
                             <ul className="d-flex gap-4 how-list">
-                                <li className="bg-orange">{_("EMOTION.LIST3.LI1_TEXT")}</li>
-                                <li className="bg-aqua">{_("EMOTION.LIST3.LI2_TEXT")}</li>
-                                <li className="bg-yellow">{_("EMOTION.LIST3.LI3_TEXT")}</li>
+                                <li className="bg-green">{_("EMOTION.LIST3.LI1_TEXT")}</li>
+                                <li className="bg-pink">{_("EMOTION.LIST3.LI2_TEXT")}</li>
                                 <li className="bg-violet">{_("EMOTION.LIST3.LI4_TEXT")}</li>
+                                <li className="bg-orange">{_("EMOTION.LIST3.LI3_TEXT")}</li>
                                 <li className="bg-blue">{_("EMOTION.LIST3.LI5_TEXT")}</li>
                             </ul>
-                        </div>
-                        <div className="col-lg-6">
-                            <ImageI18N
-                                src="/img/page/emotion/emotion-screen-stress-en.webp"
-                                w={512}
-                                h={443}
-                                cls="ms-base-image d-none d-lg-block"
-                                alt={_("EMOTION.ALT3")}
-                            />
-                        </div>
-                    </div>
-                </section>
-
-                <section>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <ImageI18N
-                                src="/img/page/emotion/emotion-screen-test-en.webp"
-                                w={390}
-                                h={512}
-                                cls="ms-base-image d-none d-lg-block"
-                                alt={_("EMOTION.ALT4")}
-                            />
-                        </div>
-                        <div className="col-lg-6">
-                            <h2>{_("EMOTION.HEAD4")}</h2>
-                            <p>{_("EMOTION.DESK4_1")}</p>
-                            <ImageI18N
-                                src="/img/page/emotion/emotion-screen-test-en.webp"
-                                w={390}
-                                h={512}
-                                cls="ms-base-image d-block d-lg-none mt-mob-xs mb-mob-xs"
-                                alt={_("EMOTION.ALT4")}
-                            />
+                            <p className="mt-4">{_("EMOTION.DESK4_1")}</p>
+                            
+                            
                             <h3>{_("EMOTION.DESK4_2")}</h3>
                             <BulletList
                                 items={[
@@ -306,6 +276,8 @@ export default function Emotion() {
                         </div>
                     </div>
                 </section>
+
+                
 
                 <section className="bg-gray">
                     <div className="row">
