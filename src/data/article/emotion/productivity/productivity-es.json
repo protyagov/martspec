@@ -1,15 +1,4 @@
 {
-  "HEADER": {
-    "TITLE": "Productividad",
-    "IMG_URL": "/img/page/productivity/productivity.svg", 
-    "HEADER_BODY" : {
-      "LI_1": "¿Estrés, ansiedad, depresión?",
-      "LI_2": "Descubre la causa de los cambios de humor",
-      "LI_3": "Mejora tu bienestar aplicando nuestras metodologías exclusivas"
-    },
-    "ALT": "Acceso a las estadísticas sin iPhone",
-    "ACCENT_COLOR": "#DF9A5B"
-  }, 
   "TITLE": "¿Qué es la productividad?",
   "IMG_URL": "/img/page/article/productivity-top.webp",
   "IMG_ALT": "Organización eficiente del espacio de trabajo",
@@ -23,7 +12,7 @@
       "BG_COLOR": "" 
     },
     { 
-      "TITLE": "## Características de una persona productiva",
+      "TITLE": "### Características de una persona productiva",
       "IMG_SRC": "",
       "IMG_ALT": "", 
       "CONTENT": "Una persona productiva es aquella que gestiona de forma constante y eficaz su tiempo, recursos y esfuerzos para alcanzar objetivos y resultados significativos. Las personas productivas son conocidas por su capacidad de realizar tareas de manera eficiente sin sacrificar la calidad. Estas son algunas características y hábitos clave de una persona productiva: \n\n- **Orientación a objetivos.** Las personas productivas establecen metas y prioridades claras. Saben exactamente lo que quieren lograr y trabajan con determinación para alcanzar esos objetivos.\n\n- **Gestión del tiempo.** Valoran su tiempo y lo usan de manera inteligente. Priorizan tareas, dedican tiempo a acciones importantes y evitan actividades que desperdicien tiempo.\n\n- **Enfoque y concentración.** Mantienen la atención en sus tareas, evitando distracciones y la multitarea. Esto les ayuda a realizar el trabajo de manera más eficiente y con mayor calidad. \n\n- **Priorización de tareas.** Identifican las tareas con mayor impacto y les dan prioridad sobre las menos importantes. Así se aseguran de que las tareas de alta prioridad se realicen primero. \n\n- **Comunicación efectiva.** Se comunican de manera clara y concisa, evitando conversaciones innecesarias. Esto minimiza los malentendidos y ahorra tiempo. \n\n- **Aprendizaje continuo.** Están abiertos a aprender nuevas habilidades y mejorar sus conocimientos. Esta mentalidad adaptable les ayuda a seguir siendo efectivos en un mundo que cambia rápidamente. \n\n- **Saber decir «no».** Conocen sus límites y no temen rechazar tareas u obligaciones adicionales cuando ya tienen la agenda llena. \n\n- **Equilibrio entre trabajo y vida personal.** La productividad no se logra a costa del bienestar personal. Reconocen la importancia del equilibrio y dedican tiempo al descanso, hobbies y a compartir con sus seres queridos.", 
@@ -31,7 +20,7 @@
       "BG_COLOR": "#F4F5F8" 
     },
     { 
-      "TITLE": "## Productividad y rendimiento", 
+      "TITLE": "### Productividad y rendimiento", 
       "IMG_SRC": "/img/page/article/productivity-bottom.webp",
       "IMG_ALT": "El equipo está trabajando, lluvia de ideas",
       "CONTENT": "Es importante entender la diferencia entre productividad y rendimiento. El rendimiento se refiere a la cantidad de trabajo realizado en un periodo de tiempo determinado, mientras que la productividad se centra en lograr mejores resultados en el mismo periodo. \n\nCuando hablamos de trabajar más rápido y con mayor calidad, esto está relacionado con el aumento del rendimiento. Implica realizar más tareas en un periodo determinado, lo que requiere una gestión eficaz del tiempo y la capacidad de distribuir el tiempo de trabajo. \n\nPor otro lado, la productividad es el enfoque en garantizar mejores resultados al realizar el trabajo. Esto significa un esfuerzo constante por mejorar la calidad del trabajo desarrollando nuevas habilidades o utilizando métodos más eficaces. \n\n> Los factores clave para lograr una alta productividad y rendimiento no son solo la velocidad de ejecución o la cantidad de trabajo realizado, sino también su nivel de calidad. Esta meta se puede alcanzar mediante una planificación adecuada, la gestión del tiempo y el desarrollo continuo de habilidades y conocimientos.", 
@@ -39,7 +28,7 @@
       "BG_COLOR": "" 
     },
     { 
-      "TITLE": "## Ventajas de la productividad", 
+      "TITLE": "### Ventajas de la productividad", 
       "IMG_SRC": "",
       "IMG_ALT": "",
       "CONTENT": "Las personas productivas poseen un valioso conjunto de habilidades y hábitos que mejoran significativamente su calidad de vida. Experimentan menos estrés gracias a su capacidad para resolver tareas de forma eficaz, y esta calma se extiende a sus relaciones, fomentando vínculos más profundos con sus seres queridos. Su mentalidad orientada al éxito a menudo conduce al crecimiento profesional, ya que se les valora por su contribución y por realizar constantemente un trabajo de alta calidad. \n\nEl impacto de la productividad va más allá de los logros personales, ya que las personas productivas suelen ser empleados y compañeros de equipo eficientes. Su enfoque organizado y su capacidad para cumplir plazos los convierten en activos valiosos en el trabajo en grupo. Además, su inclinación hacia el crecimiento personal y la superación inspira a otros y crea una cultura de aprendizaje y desarrollo continuo. \n\nEn esencia, las personas productivas están mejor preparadas para aprovechar oportunidades, experimentar satisfacción personal e influir positivamente en los demás. Su capacidad para armonizar sus esfuerzos con sus objetivos contribuye a una vida marcada por logros, satisfacción y relaciones significativas.", 
@@ -47,7 +36,7 @@
       "BG_COLOR": "#F4F5F8"
     },
     { 
-      "TITLE": "## ¿Cómo ser más productivo?",
+      "TITLE": "### ¿Cómo ser más productivo?",
       "IMG_SRC": "",
       "IMG_ALT": "", 
       "CONTENT": "Aumentar la productividad no es algo que ocurra de la noche a la mañana. Aunque para algunas personas parezca fácil, su capacidad para planificar y usar su tiempo de manera eficaz suele estar más relacionada con hábitos consolidados que, con el tiempo, contribuyen a un mejor rendimiento. Para ser más productivo, concéntrate en las siguientes estrategias clave: \n\n- **Establece objetivos claros:** define metas concretas y alcanzables que guíen tus esfuerzos. \n\n- **Prioriza tareas:** identifica las tareas de mayor impacto y abórdalas primero. \n\n- **Minimiza las distracciones:** crea un espacio de trabajo enfocado y limita las interrupciones. \n\n- **Planifica y organiza:** utiliza listas de tareas, calendarios y herramientas para una planificación eficiente. \n\n- **Descansa entre tareas:** divide las tareas en pasos más pequeños y manejables para mantener la motivación. \n\n- **Delegar:** siempre que sea posible, asigna tareas a otros para liberar tu tiempo. \n\n- **Usa la tecnología:** emplea aplicaciones y herramientas para optimizar tareas y la comunicación. \n\n> ¿Quieres ser más productivo? Trata de seguir estas reglas. La orientación a objetivos, la organización, la concentración, el autocuidado y la capacidad de manejar distracciones son habilidades clave para cualquiera que quiera aprovechar al máximo su tiempo.", 
@@ -55,7 +44,7 @@
       "BG_COLOR": "" 
     },
     {
-      "TITLE": "## Carrera para personas productivas",
+      "TITLE": "### Carrera para personas productivas",
       "IMG_SRC": "",
       "IMG_ALT": "",
       "CONTENT": "Una persona productiva puede destacar en una amplia gama de profesiones gracias a su gestión eficaz del tiempo, su mentalidad enfocada y su atención en los resultados. Sin embargo, al elegir una carrera es importante tener en cuenta las fortalezas, intereses y valores individuales. Aquí hay algunos ejemplos de profesiones en las que las personas productivas pueden sobresalir. \n\nLos resultados muestran que las personas muy abiertas tienden a carreras que requieren trabajar con ideas abstractas, creatividad, diseño, investigación abierta y entornos no estructurados. Aunque existe una amplia gama de profesiones que se ajustan a esta descripción, algunos ejemplos de carreras con altos intereses artísticos, altos intereses investigativos y bajos intereses tradicionales incluyen: \n\n- Emprendimiento \n- Gestión de proyectos \n- Trabajo freelance \n- Consultoría \n- Investigador o analista \n- TI y programación \n- Roles de liderazgo \n- Marketing digital \n- Creación de contenido \n- Profesiones en el sector sanitario \n\nCarreras en las que las cualidades de productividad pueden no coincidir: \n- Artes creativas \n- Trabajo social \n- Roles no estructurados \n- Ventas \n- Trabajo rutinario intensivo \n- Piloto comercial \n\nRecuerda, lo principal es encontrar un equilibrio entre una carrera que se alinee con tus inclinaciones naturales y una que te desafíe y te apasione. Aunque algunas profesiones pueden parecer más adecuadas para personas productivas, la pasión personal, el aprendizaje constante y la capacidad de adaptación pueden llevar al éxito en una amplia variedad de campos.",
