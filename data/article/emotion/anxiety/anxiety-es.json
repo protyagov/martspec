@@ -1,15 +1,4 @@
 {
-  "HEADER": {
-    "TITLE": "Ansiedad",
-    "IMG_URL": "/img/page/anxiety/anxiety.svg",
-    "HEADER_BODY": {
-      "LI_1": "¿Estrés, ansiedad, depresión?",
-      "LI_2": "Descubre la causa de los cambios de humor",
-      "LI_3": "Mejora tu bienestar con nuestros métodos exclusivos"
-    },
-    "ALT": "Acceso a estadísticas sin un iPhone",
-    "ACCENT_COLOR": "#85B9CD"
-  },
   "TITLE": "¿Qué es la ansiedad?",
   "IMG_URL": "/img/page/article/anxiety-top.webp",
   "IMG_ALT": "Ilustración de una joven experimentando ansiedad",
@@ -23,7 +12,7 @@
       "BG_COLOR": ""
     },
     {
-      "TITLE": "## Tipos de trastornos de ansiedad",
+      "TITLE": "### Tipos de trastornos de ansiedad",
       "IMG_SRC": "",
       "IMG_ALT": "",
       "CONTENT": "La edad promedio de inicio de los trastornos de ansiedad es de 20 a 24 años.\nPueden ocurrir junto con otros trastornos de salud mental, como depresión o trastorno de estrés postraumático (TEPT).\nExisten varios tipos de trastornos de ansiedad, incluyendo:\n\n- **Trastorno de Ansiedad Generalizada (TAG).** Las personas con TAG se preocupan por problemas cotidianos como la salud, el dinero, el trabajo y la familia.\n  A menudo ocurre junto con otros trastornos de ansiedad o depresión, y las preocupaciones ocurren casi todos los días durante varios meses.\n\n- **Trastorno de Pánico.** Las personas con trastorno de pánico experimentan ataques de pánico.\n  Estos son períodos repentinos y repetidos de miedo intenso cuando no hay un peligro real.\n  Los ataques aparecen rápidamente y pueden durar varios minutos o más.\n\n- **Fobias.** Las personas con fobias tienen un miedo intenso a algo que representa poco o ningún peligro real.\n  Su miedo puede estar relacionado con arañas, volar, lugares concurridos o situaciones sociales.",
@@ -31,7 +20,7 @@
       "BG_COLOR": "#F4F5F8"
     },
     {
-      "TITLE": "## Síntomas",
+      "TITLE": "### Síntomas",
       "IMG_SRC": "",
       "IMG_ALT": "",
       "CONTENT": "Los trastornos de ansiedad tienen muchos síntomas.\nCada trastorno tiene síntomas diferentes.\nLos síntomas comunes a los trastornos de ansiedad generalmente incluyen:\n\n- Sentirse nervioso, ansioso o tenso\n- Una sensación de peligro inminente, pánico o fatalidad\n- Latidos cardíacos rápidos\n- Temblor\n- Sentirse débil o cansado\n- Dificultad para concentrarse o pensar en algo que no sea la preocupación presente\n- Problemas para dormir\n- Problemas gastrointestinales (GI)\n- Manos y/o pies sudorosos o fríos",
@@ -39,7 +28,7 @@
       "BG_COLOR": ""
     },
     {
-      "TITLE": "## Causas de los trastornos de ansiedad",
+      "TITLE": "### Causas de los trastornos de ansiedad",
       "IMG_SRC": "",
       "IMG_ALT": "",
       "CONTENT": "Las causas de los trastornos de ansiedad son actualmente desconocidas, pero probablemente involucran una combinación de factores, incluyendo influencias genéticas, ambientales, psicológicas y de desarrollo.\nAlgunos factores involucrados incluyen:\n\n- **Química cerebral.** El estrés severo o prolongado puede contribuir a cambios en el equilibrio químico del cerebro.\n- **Experiencias.** Eventos estresantes o traumáticos también pueden contribuir al inicio de sentimientos de ansiedad.\n- **Historia familiar.** Tener familiares cercanos con síntomas de un trastorno de ansiedad aumenta el riesgo de que una persona también desarrolle esta condición.\n- **Factores genéticos.** Algunos genes pueden predisponer a una persona a una mayor probabilidad de desarrollar un trastorno de ansiedad.\n- **Enfermedades.** Algunas condiciones médicas subyacentes pueden contribuir al inicio de sentimientos de ansiedad. Estas incluyen dolor crónico, enfermedades cardíacas, diabetes, problemas tiroideos, enfermedades respiratorias, uso de drogas y abstinencia de drogas.\n- **Dieta.** Recientemente, más personas han prestado atención a la conexión entre dieta y ansiedad. Factores como los organismos modificados genéticamente (OMG), el gluten y los pesticidas encontrados en alimentos procesados pueden afectar negativamente el estado de nuestro intestino y las colonias microbianas. Un suplemento probiótico alto en bifidobacterias puede ser beneficioso para mantener una composición saludable de la flora intestinal.",
@@ -47,7 +36,7 @@
       "BG_COLOR": "#F4F5F8"
     },
     {
-      "TITLE": "## Diagnóstico y tratamiento",
+      "TITLE": "### Diagnóstico y tratamiento",
       "IMG_SRC": "/img/page/article/anxiety-bottom.webp",
       "IMG_ALT": "Hombre sonríe y mira la pantalla del teléfono",
       "CONTENT": "En el mundo actual, la ansiedad se ha convertido en un problema común que puede afectar seriamente la calidad de vida y el bienestar psicológico de una persona.\nSin embargo, gracias a los avances tecnológicos, podemos recurrir a aplicaciones móviles como *Emotsiya* y otras soluciones innovadoras para diagnosticar e incluso ayudar en el tratamiento de la ansiedad.\n\nEl tratamiento de la ansiedad es un proceso complejo que puede incluir psicoterapia, terapia farmacológica y cambios en el estilo de vida.\nAunque cada trastorno de ansiedad tiene características únicas, la mayoría responde bien a dos tipos de tratamiento: psicoterapia o \"terapia de conversación\" y medicación.\nLa Terapia Cognitivo Conductual (TCC), un tipo de terapia de conversación, puede ayudar a una persona a aprender diferentes formas de pensar, reaccionar y comportarse para reducir la ansiedad.\nLos medicamentos no curan los trastornos de ansiedad pero pueden aliviar significativamente los síntomas.\nLos medicamentos más comúnmente usados son sedantes y antidepresivos.\n\n> Las aplicaciones móviles pueden ser herramientas efectivas para el autocontrol de la ansiedad en etapas tempranas, pero siempre se recomienda buscar consulta profesional y apoyo de un especialista calificado.\n\nEn general, el uso de aplicaciones móviles representa una dirección prometedora en el diagnóstico de la ansiedad.\nAyudan a las personas a comprender mejor su estado emocional, aprender a manejar la ansiedad y mejorar su calidad de vida.\nLa aplicación móvil *Emotsiya* ofrece una forma conveniente y accesible de evaluar los niveles de ansiedad y recibir recomendaciones para su manejo.\nLa app brinda la capacidad de seguir los estados emocionales y analizar los factores que causan ansiedad.",
