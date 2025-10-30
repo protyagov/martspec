@@ -40,26 +40,10 @@ const Article = ({ emotion }: { emotion: string }) => {
                 <div className="row">
                     <Breadcrumb items={items} />
                 </div>
-                <Header
-                    title={articleData?.HEADER.TITLE ?? ""}
-                    appId={appId}
-                    imgSrc={articleData?.HEADER.IMG_URL ?? ""}
-                    imgAlt={articleData?.HEADER.ALT ?? ""}
-                    imgH={405}
-                    imgW={505}
-                >
-                    <div className="article" style={{ ["--marker-color" as any]: articleData?.HEADER.ACCENT_COLOR }}>
-                        <ul className="header-content-list article__header-list">
-                            <li>{articleData?.HEADER.HEADER_BODY.LI_1}</li>
-                            <li>{articleData?.HEADER.HEADER_BODY.LI_2}</li>
-                            <li>{articleData?.HEADER.HEADER_BODY.LI_3}</li>
-                        </ul>
-                    </div>
-                </Header>
             </div>
 
             <div className="article__container">
-                <h2 className="article-title">{articleData?.TITLE}</h2>
+                <h1 className="article-title">{articleData?.TITLE}</h1>
                 <img
                     className="img-fluid article__image"
                     src={articleData?.IMG_URL ?? ""}
