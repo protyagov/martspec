@@ -277,7 +277,7 @@ export default function Emotion() {
                     </div>
                 </section>
 
-                <section className="">
+                <section>
                     <div className="row">
                         <div className="col-12 mb-2">
                             <h2>{_("EMOTION.HEAD5")}</h2>
