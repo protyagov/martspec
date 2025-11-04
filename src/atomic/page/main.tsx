@@ -24,10 +24,10 @@ export default function LandingPage() {
     const randomIndex = getRandomArbitrary(0, allApps.length - 1);
     const pick = allApps[randomIndex];
     return (
-        <div className="flex-grow-1 flex-shrink-0">
+        <div>
             <NavigationBar />
 
-            <div className="ms-base-page">
+            <div className="ms-s-offset home">
                 <Header
                     title={_("MAIN.HEAD")}
                     rowItems={
@@ -58,9 +58,9 @@ export default function LandingPage() {
                 </Header>
             </div>
 
-            <section className="ms-s-offset mb-0 ms-base-new ms-base-page">
+            <section className="home ms-s-offset home section">
                 <div className="d-flex flex-lg-row flex-column align-items-center p-0 " style={{ gap: "5rem" }}>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 ms-base-image">
                         <ImageI18N
                             src="/img/page/main/Img-Simplify-life.webp"
                             w={620}
@@ -94,7 +94,7 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            <section className="ms-s-offset ms-s-product">
+            <section className="home ms-s-offset section">
                 <h1 className="mb-5 pb-5 display-5 h1 fw-bold">{_("MAIN.OUR_PRODUCTS")}</h1>
                 <div className="row mb-5">
                     <div className="col-12">
@@ -118,7 +118,7 @@ export default function LandingPage() {
                     </div>
                 </div>
 
-                <div className="row g-3 gap-10-responsive align-items-stretch mb-5">
+                <div className="row g-3 d-flex align-items-stretch mb-5">
                     <div className="col-xl col-sm d-flex">
                         {/* Нутриенты */}
                         <CardAppSmall
@@ -136,7 +136,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-xl col-sm d-flex">
+                    <div className="col-xl col-sm">
                         {/* Электролит */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -153,7 +153,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-xl col-sm-12 d-flex">
+                    <div className="col-xl col-sm-12">
                         {/* Цинк */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -193,7 +193,7 @@ export default function LandingPage() {
                 </div>
 
                 <div className="row mb-5">
-                    <div className="col-12 col-md-6 d-flex mb-3 mb-md-0">
+                    <div className="col-12 col-md-6 mb-3 mb-md-0">
                         {/* Вес */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -210,7 +210,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-12 col-md-6 d-flex">
+                    <div className="col-12 col-md-6">
                         {/* Талия */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -326,13 +326,8 @@ export default function LandingPage() {
                     />
                 </div>
             </section>
-
-            {/*
-                    div wrapper for proper side margins and fonts, 
-                    it's only needed for this page 
-                    and can be easily removed when this page is redesigned.
-                */}
-            <div className="ms-base-page ms-base-new">
+            
+            <section className="home ms-s-offset">
                 <Review
                     appId={pick.id}
                     codes={{
@@ -356,9 +351,7 @@ export default function LandingPage() {
                     themeColor={pick.themeColor}
                     hasUnderlineHover={false}
                 />
-            </div>
-
-            {/* <ContactUs setIsLoading={setIsLoading} /> */}
+            </section>
             <Footer />
             <ScrollButton />
         </div>

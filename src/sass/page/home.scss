@@ -1,0 +1,29 @@
+.home {
+  width: 100%;
+  margin: 0 auto;
+
+  @include media-breakpoint-up(sm) {
+    max-width: 576px;
+
+    @include media-breakpoint-up(md) {
+      max-width: 768px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-width: 992px;
+      padding-top: 110px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      max-width: 1200px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      max-width: 1320px;
+    }
+  }
+
+  .section {
+    padding-top: 30px;
+  }
+}
