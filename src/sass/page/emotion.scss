@@ -127,6 +127,46 @@
     }
 }
 
+.emotion-info-section {
+    h3 {
+        font-size: 1.55rem;
+        margin: 0px !important;
+    }
+    h2 {
+        font-size: 3.08rem;
+        margin-bottom: 1.9rem;
+    }
+}
+.info-list {
+        padding: 0px!important;
+        p {
+            margin-bottom: 1rem !important;
+        }
+        .card-icon-title-text {
+            flex-grow: 1;
+        }
+}
+
+.UseCasses-container {
+    .emotion-info-section {
+        .info-list {
+            @media (max-width: 1300px) {
+                > .col-lg-4:nth-child(1),
+                > .col-lg-4:nth-child(2) {
+                    flex: 0 0 50% !important;
+                    max-width: 50% !important;
+                }
+                
+                > .col-lg-4:nth-child(3) {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
 .PersonalityTraits-container {
     @media (max-width: 1400px) and (min-width: 856px) {
         .row > .col-lg-6 {
