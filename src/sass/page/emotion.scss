@@ -127,6 +127,42 @@
     }
 }
 
+.PersonalityTraits-container {
+    @media (max-width: 1400px) and (min-width: 856px) {
+        .row > .col-lg-6 {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+        }
+        .col-lg-6 .row .col-md-6 {
+            flex: 0 0 50% !important;
+            max-width: 50% !important;
+        }
+    }
+
+    @media (max-width: 855px) {
+        .col-md-6 {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+        }
+        .row > .col-lg-6 {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+        }
+    }
+.custom-card-padding .card-title-text {
+    padding-right: 14rem !important;
+    padding-bottom: 5rem !important;
+     @media (max-width: 500px){
+        padding-right: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+}
+.card-big{
+        @media (max-width: 1000px) {
+            min-height: 28rem !important;  
+        }}    
+}
+
 .biorhythms-container {
     .img-wrapper-big {
         max-height: 440px;
