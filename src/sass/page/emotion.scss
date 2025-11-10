@@ -167,6 +167,54 @@
     }
 }
 
+.why-emotion-container {
+    .position-absolute .bg-white {
+        transform: translateX(-30%);
+        z-index: 10;
+        min-width: 200px !important;
+        
+        @media (max-width: 768px) {
+            transform: translateX(-10%);
+            width: 160px !important;
+            min-width: 160px !important;
+        }
+    }
+    .emotion-overlay-card {
+        .text-danger {
+            color: #cc3ad6 !important;
+            font-weight: bold;
+            line-height: 1;
+        }
+        .d-flex.justify-content-center {
+            align-items: baseline;
+        }
+    }
+    .position-relative {
+        z-index: 1;
+    }
+    .custom-card-padding-1 {
+        padding-right: 10rem !important;
+        
+        @media (max-width: 500px){
+            padding-right: 0rem !important;
+        }
+    }
+    .emotion-cards-container {
+        .emotion-overlay-card {
+            width: auto !important;
+            min-width: 200px !important;
+            
+            @media (max-width: 768px) {
+                min-width: 160px !important;
+            }
+            
+            @media (max-width: 576px) {
+                min-width: 140px !important;
+            }
+        }
+    }
+}
+
 .PersonalityTraits-container {
     @media (max-width: 1400px) and (min-width: 856px) {
         .row > .col-lg-6 {

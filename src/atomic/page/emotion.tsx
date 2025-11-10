@@ -131,23 +131,49 @@ export default function Emotion() {
                     </div>
                 </div>
 
-                <section>
+                <section className="why-emotion-container">
                     <div className="row">
-                        <div className="col-lg-6">
-                            <h2>{_("EMOTION.HEAD1")}</h2>
-                            <p>{_("EMOTION.DESK1")}</p>
-                            <a href={Locale.i18nLink("emotion/color-test")} className="ms-btn-large">
-                                {_("EMOTION.BTN1")}
-                            </a>
+                        <div className="col-lg-6 pe-5 custom-card-padding-1">
+                            <CardTitleTextButton
+                                title={_("EMOTION.HEAD1")}
+                                textContent={[_("EMOTION.DESK1")]}
+                                buttonText={_("EMOTION.BTN1")}
+                                buttonLink={Locale.i18nLink(`emotion/color-test`)}
+                                buttonColor="#7B62FE"
+                            />
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 position-relative">
                             <ImageI18N
-                                src="/img/page/emotion/emotion-screen-april-en.webp"
-                                w={512}
-                                h={598}
-                                cls="ms-base-image mt-mob-xs"
+                                src={`/img/page/emotion/why-emotion.svg`}
+                                w={400}
+                                h={300}
+                                cls="ms-base-image mt-mob-xs w-100"
                                 alt={_("EMOTION.ALT1")}
                             />
+                            
+                            <div className="position-absolute top-0 start-0 h-100 d-flex flex-column justify-content-center ps-4 emotion-cards-container">
+                                <div className="bg-white rounded-3 shadow p-3 mb-3 emotion-overlay-card d-flex flex-column justify-content-between">
+                                    <h5 className="text-center mt-0 flex-grow-0">{_("EMOTION.LIST6.LI1_HEAD")}</h5>
+                                    <div className="d-flex justify-content-center align-items-baseline flex-grow-0">
+                                        <span className="text-danger fw-bold fs-5">85</span>
+                                        <span className="text-secondary ms-2 fs-5">%</span>
+                                    </div>
+                                </div>
+                                <div className="bg-white rounded-3 shadow p-3 mb-3 emotion-overlay-card d-flex flex-column justify-content-between">
+                                    <h5 className="text-center mt-0 flex-grow-0">{_("EMOTION.LIST6.LI5_HEAD")}</h5>
+                                    <div className="d-flex justify-content-center align-items-baseline flex-grow-0">
+                                        <span className="text-danger fw-bold fs-5">72</span>
+                                        <span className="text-secondary ms-2 fs-5">%</span>
+                                    </div>
+                                </div>
+                                <div className="bg-white rounded-3 shadow p-3 emotion-overlay-card d-flex flex-column justify-content-between">
+                                    <h5 className="text-center mt-0 flex-grow-0">{_("EMOTION.LIST6.LI3_HEAD")}</h5>
+                                    <div className="d-flex justify-content-center align-items-baseline flex-grow-0">
+                                        <span className="text-danger fw-bold fs-5">63</span>
+                                        <span className="text-secondary ms-2 fs-5">%</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
