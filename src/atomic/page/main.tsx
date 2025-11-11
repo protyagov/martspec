@@ -27,7 +27,7 @@ export default function LandingPage() {
         <div>
             <NavigationBar />
 
-            <div className="ms-s-offset home">
+            <div className="ms-s-offset home fs-5">
                 <Header
                     title={_("MAIN.HEAD")}
                     rowItems={
@@ -58,7 +58,7 @@ export default function LandingPage() {
                 </Header>
             </div>
 
-            <section className="home ms-s-offset home section">
+            <section className="home ms-s-offset home section fs-5">
                 <div className="d-flex flex-lg-row flex-column align-items-center p-0 " style={{ gap: "5rem" }}>
                     <div className="col-lg-6 ms-base-image">
                         <ImageI18N
@@ -136,7 +136,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-xl col-sm">
+                    <div className="col-xl col-sm d-flex">
                         {/* Электролит */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -153,7 +153,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-xl col-sm-12">
+                    <div className="col-xl col-sm-12 d-flex">
                         {/* Цинк */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -327,7 +327,7 @@ export default function LandingPage() {
                 </div>
             </section>
             
-            <section className="home ms-s-offset">
+            <section className="home ms-s-offset" style={{marginTop: '150px'}}>
                 <Review
                     appId={pick.id}
                     codes={{
