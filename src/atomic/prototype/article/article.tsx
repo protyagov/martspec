@@ -44,18 +44,19 @@ const Article = ({ emotion }: { emotion: string }) => {
 
             <div className="article__container">
                 <h1 className="article-title">{articleData?.TITLE}</h1>
-                <img
-                    className="img-fluid article__image"
-                    src={articleData?.IMG_URL ?? ""}
-                    alt={articleData?.IMG_ALT}
-                    width={1300}
-                    height={420}
-                />
-
+                {articleData?.IMG_URL && (
+                    <img
+                        className="img-fluid article__image"
+                        src={articleData?.IMG_URL ?? ""}
+                        alt={articleData?.IMG_ALT}
+                        width={1300}
+                        height={420}
+                    />
+                )}
                 {articleData?.BODY.map((item, index) => {
                     const hasBg = !!item.BG_COLOR;
                     const markerColor = item.ACCENT_COLOR;
-
+                    const hasRightColumn = !!item.RIGHT_COLUMN;
                     return (
                         <section key={index} className="article-content">
                             <div
@@ -63,36 +64,57 @@ const Article = ({ emotion }: { emotion: string }) => {
                                     backgroundColor: item.BG_COLOR ?? "transparent",
                                     ["--marker-color" as any]: markerColor,
                                 }}
-                                className={`article-section ${hasBg ? "article-section--with-bg" : ""}`}
+                                className={`article-section ${hasBg ? "article-section--with-bg" : ""}${hasRightColumn ? "article-section--two-column" : ""}`}
                             >
-                                <div className="article__section-title">
-                                    <ReactMarkdown>{item.TITLE}</ReactMarkdown>
-                                </div>
-
-                                {item.IMG_SRC && (
-                                    <img
-                                        className="img-fluid"
-                                        src={item.IMG_SRC}
-                                        alt={item.IMG_ALT}
-                                        width={1300}
-                                        height={700}
-                                    />
-                                )}
-                                <ReactMarkdown
-                                    components={{
-                                        blockquote: ({ node, ...props }) => (
-                                            <blockquote
-                                                {...props}
-                                                style={{
-                                                    borderLeft: `6px solid ${item.ACCENT_COLOR ?? "#ccc"}`,
-                                                }}
-                                                className="quotes"
+                                <div className="article-section__inner">
+                                    <div className="article-section__left">
+                                        <div className="article__section-title">
+                                            <ReactMarkdown>{item.TITLE}</ReactMarkdown>
+                                        </div>
+                                        {item.IMG_SRC && (
+                                            <img
+                                                className="img-fluid"
+                                                src={item.IMG_SRC}
+                                                alt={item.IMG_ALT}
+                                                width={1300}
+                                                height={700}
                                             />
-                                        ),
-                                    }}
-                                >
-                                    {item.CONTENT}
-                                </ReactMarkdown>
+                                        )}
+                                        <ReactMarkdown
+                                            components={{
+                                                blockquote: ({ node, ...props }) => (
+                                                    <blockquote
+                                                        {...props}
+                                                        style={{
+                                                            borderLeft: `6px solid ${item.ACCENT_COLOR ?? "#ccc"}`,
+                                                        }}
+                                                        className="quotes"
+                                                    />
+                                                ),
+                                            }}
+                                        >
+                                            {item.CONTENT}
+                                        </ReactMarkdown>
+                                    </div>
+                                    {hasRightColumn && (
+                                        <aside className="article-section__right">
+                                            {item.RIGHT_COLUMN?.CONTENT && (
+                                                <ReactMarkdown>
+                                                    {item.RIGHT_COLUMN.CONTENT}
+                                                </ReactMarkdown>
+                                            )}
+                                            {item.RIGHT_COLUMN?.IMG_SRC && (
+                                                <img
+                                                    className="img-fluid"
+                                                    src={item.RIGHT_COLUMN.IMG_SRC}
+                                                    alt={item.RIGHT_COLUMN.IMG_ALT}
+                                                    width={400}
+                                                    height={400}
+                                                />
+                                            )}
+                                        </aside>
+                                    )}
+                                </div>
                             </div>
                         </section>
                     );

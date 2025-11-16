@@ -1,0 +1,49 @@
+{
+    "TITLE": "O que é harmonia?",
+    "IMG_URL": "",
+    "IMG_ALT": "",
+    "BODY": [
+        {
+            "TITLE": "",
+            "IMG_SRC": "",
+            "IMG_ALT": "",
+            "CONTENT": "A harmonia interior, frequentemente chamada de paz interior ou equilíbrio emocional, é um estado de bem-estar. Seus pensamentos, emoções e ações estão alinhados. Ela envolve uma sensação de calma, satisfação e ausência de conflito interno. Alcançar a harmonia interior pode trazer um melhor equilíbrio emocional, uma saúde mental mais estável e uma vida mais plena.\n\n>A harmonia é a coerência entre quatro elementos: o que dizemos, o que pensamos, o que sentimos e o que fazemos. Quando há concordância, alinhamento e consistência entre nossos pensamentos, emoções, ações e palavras, experimentamos uma sensação de paz interna e externa chamada harmonia. Na psicologia, harmonia significa um estado positivo de tranquilidade interior, equilíbrio e sensação de unidade com o mundo.",
+            "ACCENT_COLOR": "#BA90F9",
+            "BG_COLOR": ""
+        },
+        {
+            "TITLE": "### Por que você precisa de harmonia interior?",
+            "IMG_SRC": "",
+            "IMG_ALT": "",
+            "CONTENT": "Quando uma pessoa está em acordo consigo mesma — quando seus pensamentos, palavras, ações e sentimentos estão sincronizados — ela não sente necessidade de culpar outras pessoas, criticar, reclamar ou julgar com dureza. Estando em harmonia interna, é mais fácil ignorar os erros, imperfeições e falhas dos outros. A harmonia interior é essencial para o seu bem-estar geral e para a sua saúde mental. Ela leva a:\n\n- Redução do estresse e da ansiedade\n\n- Maior resiliência emocional\n\n- Melhor capacidade de tomada de decisões\n\n- Melhores relacionamentos interpessoais\n\n- Maior concentração e clareza\n\n- Aumento da autoconsciência\n\n- Maior criatividade e crescimento pessoal",
+            "ACCENT_COLOR": "#BA90F9",
+            "BG_COLOR": "",
+            "RIGHT_COLUMN": {
+                "CONTENT": "O aplicativo Emotion foi criado para ajudar você a compreender o equilíbrio entre seus pensamentos, sentimentos, palavras e ações. **A harmonia** começa pelo autoconhecimento, e as ferramentas interativas do aplicativo são voltadas ao desenvolvimento da autoconsciência e do equilíbrio interior.",
+                "IMG_SRC": "/img/page/article/harmony-card.webp",
+                "IMG_ALT": "Captura de tela do aplicativo"
+            }
+        },
+        {
+            "TITLE": "### Características da harmonia interior",
+            "IMG_SRC": "",
+            "IMG_ALT": "",
+            "CONTENT": "A harmonia interior é um estado em que você sente calma, satisfação e ausência de conflito interno. Ela inclui características como:\n\n- **Estabilidade emocional**: você mantém um equilíbrio emocional constante.\n\n- **Aceitação**: você aceita a si mesmo e suas emoções sem julgamento.\n\n- **Perspectiva positiva**: você tende a enxergar as situações com otimismo e esperança.\n\n- **Flexibilidade**: você se adapta bem a mudanças e desafios inesperados.\n\n- **Força interior**: você consegue enfrentar altos e baixos da vida com dignidade.\n\n- **Mente tranquila**: sua mente está relativamente livre de preocupações excessivas e pensamentos repetitivos.",
+            "ACCENT_COLOR": "#BA90F9",
+            "BG_COLOR": "#F4F5F8"
+        },
+        {
+            "TITLE": "### Como alcançar a harmonia interior?",
+            "IMG_SRC": "/img/page/article/harmony-bottom.webp",
+            "IMG_ALT": "",
+            "CONTENT": "A harmonia é uma escolha consciente. Ela é um estado mental, não um ambiente físico. Você pode encontrar e manter sua harmonia interior adotando uma postura equilibrada diante da vida. Aqui estão alguns passos que podem ajudar:\n\n- **Autoconsciência**: compreenda suas emoções, gatilhos e padrões de pensamento. Perceba quando está perdendo o equilíbrio ou sentindo confusão interna.\n\n- **Aceitação**: aceite a si mesmo, suas emoções e experiências sem julgamento. Reconheça tanto sentimentos positivos quanto negativos como parte da experiência humana.\n\n- **Desapego**: liberte-se do apego a arrependimentos do passado e preocupações com o futuro. Foque no momento presente.\n\n- **Diálogo interno positivo**: substitua pensamentos autocríticos por afirmações positivas e uma conversa interna compassiva. Trate-se com a mesma gentileza que ofereceria a um amigo.\n\n- **Limites saudáveis**: estabeleça limites claros para proteger seu bem-estar emocional. Aprenda a dizer “não” quando necessário.\n\n- **Prática de gratidão**: expresse regularmente gratidão pelos aspectos positivos da sua vida. Isso pode deslocar seu foco do negativo para o positivo.\n\n- **Bem-estar físico**: mantenha hábitos saudáveis como boa alimentação, exercícios regulares e sono adequado. O bem-estar físico influencia diretamente o equilíbrio emocional.\n\n- **Busque apoio**: quando necessário, converse com amigos, familiares ou um profissional de saúde mental. Falar sobre seus sentimentos pode trazer clareza e aliviar o peso emocional. Alcançar a harmonia interior é uma jornada contínua, e é natural que suas emoções oscilem. Seja paciente consigo mesmo e celebre pequenos progressos ao longo do caminho.",
+            "ACCENT_COLOR": "#BA90F9",
+            "BG_COLOR": ""
+        }
+    ],
+    "CALL_TO_ACTION": {
+        "TITLE": "Nosso app está disponível para qualquer dispositivo",
+        "SUBTITLE": "Baixe o app agora e comece a acompanhar suas mudanças de humor até mesmo no mesmo dia",
+        "ALT": "Acesso às estatísticas sem um iPhone"
+    }
+}
