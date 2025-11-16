@@ -6,7 +6,6 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
-import TitleTextCard from "@/atomic/molecule/title-text-card";
 import Header from "@/atomic/organism/header";
 import BulletList from "@/atomic/molecule/bullet-list";
 import Review from "@/atomic/prototype/review";
@@ -15,7 +14,8 @@ import ScrollButton from "../atom/scroll-button";
 import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
-import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
+import CardIconTitleText from "../molecule/card-icon-title-text"
 
 export default function Emotion() {
     const appId = getAppId();
@@ -131,23 +131,49 @@ export default function Emotion() {
                     </div>
                 </div>
 
-                <section>
+                <section className="why-emotion-container">
                     <div className="row">
-                        <div className="col-lg-6">
-                            <h2>{_("EMOTION.HEAD1")}</h2>
-                            <p>{_("EMOTION.DESK1")}</p>
-                            <a href={Locale.i18nLink("emotion/color-test")} className="ms-btn-large">
-                                {_("EMOTION.BTN1")}
-                            </a>
+                        <div className="col-lg-6 pe-5 custom-card-padding-1">
+                            <CardTitleTextButton
+                                title={_("EMOTION.HEAD1")}
+                                textContent={[_("EMOTION.DESK1")]}
+                                buttonText={_("EMOTION.BTN1")}
+                                buttonLink={Locale.i18nLink(`emotion/color-test`)}
+                                buttonColor="#7B62FE"
+                            />
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 position-relative">
                             <ImageI18N
-                                src="/img/page/emotion/emotion-screen-april-en.webp"
-                                w={512}
-                                h={598}
-                                cls="ms-base-image mt-mob-xs"
+                                src={`/img/page/emotion/why-emotion.svg`}
+                                w={400}
+                                h={300}
+                                cls="ms-base-image mt-mob-xs w-100"
                                 alt={_("EMOTION.ALT1")}
                             />
+                            
+                            <div className="position-absolute top-0 start-0 h-100 d-flex flex-column justify-content-center ps-4 emotion-cards-container">
+                                <div className="bg-white rounded-3 shadow p-3 mb-3 emotion-overlay-card d-flex flex-column justify-content-between">
+                                    <h5 className="text-center mt-0 flex-grow-0">{_("EMOTION.LIST6.LI1_HEAD")}</h5>
+                                    <div className="d-flex justify-content-center align-items-baseline flex-grow-0">
+                                        <span className="text-danger fw-bold fs-5">85</span>
+                                        <span className="text-secondary ms-2 fs-5">%</span>
+                                    </div>
+                                </div>
+                                <div className="bg-white rounded-3 shadow p-3 mb-3 emotion-overlay-card d-flex flex-column justify-content-between">
+                                    <h5 className="text-center mt-0 flex-grow-0">{_("EMOTION.LIST6.LI5_HEAD")}</h5>
+                                    <div className="d-flex justify-content-center align-items-baseline flex-grow-0">
+                                        <span className="text-danger fw-bold fs-5">72</span>
+                                        <span className="text-secondary ms-2 fs-5">%</span>
+                                    </div>
+                                </div>
+                                <div className="bg-white rounded-3 shadow p-3 emotion-overlay-card d-flex flex-column justify-content-between">
+                                    <h5 className="text-center mt-0 flex-grow-0">{_("EMOTION.LIST6.LI3_HEAD")}</h5>
+                                    <div className="d-flex justify-content-center align-items-baseline flex-grow-0">
+                                        <span className="text-danger fw-bold fs-5">63</span>
+                                        <span className="text-secondary ms-2 fs-5">%</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -277,9 +303,7 @@ export default function Emotion() {
                     </div>
                 </section>
 
-                
-
-                <section className="bg-gray">
+                <section>
                     <div className="row">
                         <div className="col-12 mb-2">
                             <h2>{_("EMOTION.HEAD5")}</h2>
@@ -290,135 +314,199 @@ export default function Emotion() {
                     </div>
                 </section>
 
-                <section className="bg-gray bg-merge-top personality-traits-list">
-                    <div className="row mb-0">
-                        <div className="col-12 mb-2">
+                <section className="PersonalityTraits-container">
+                    <div className="row g-4 mb-1">
+                        <div className="col-12 mb-2 ">
                             <h2>{_("EMOTION.HEAD6")}</h2>
+                            <p>{_("EMOTION.DESC6")}</p>
+                        </div>
+                        <div className="col-12 col-lg-6 p-0">
+                            <div className="row h-100 g-4 p-0">
+                                <div className="col-12 mt-1 p-3 pb-0 custom-card-padding card-big">
+                                    <CardTitleTextImageCustom
+                                        cardHeight="14rem"
+                                        title={_("EMOTION.LIST6.LI1_HEAD")}
+                                        text={_("EMOTION.LIST6.LI1_TEXT")}
+                                        imgSrc="/img/page/emotion/traits-mask-1.svg"
+                                        imgPosition="right-bottom"
+                                        imgH="17rem"
+                                        responsive={true}
+                                        actionLink={{
+                                        text: _("SIZE.INDICATORS_LIST.BTN"),
+                                        href: Locale.i18nLink("emotion/anxiety"),}}
+                                        primaryColor="#7B62FE"
+                                        linkHoverColor="#7B62FE"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-6 p-0">
+                            <div className="row h-100 g-4 p-0">
+                                <div className="col-12 col-md-6 mt-1 p-3 pb-0">
+                                    <CardTitleTextImageCustom
+                                        cardHeight="14rem"
+                                        title={_("EMOTION.LIST6.LI2_HEAD")}
+                                        text={_("EMOTION.LIST6.LI2_TEXT")}
+                                        actionLink={{
+                                        text: _("SIZE.INDICATORS_LIST.BTN"),
+                                        href: Locale.i18nLink("emotion/productivity"),}}
+                                        primaryColor="#7B62FE"
+                                        linkHoverColor="#7B62FE"
+                                    />
+                                </div>
+                                <div className="col-12 col-md-6 mt-1 p-3 pb-0">
+                                    <CardTitleTextImageCustom
+                                        cardHeight="14rem"
+                                        title={_("EMOTION.LIST6.LI3_HEAD")}
+                                        text={_("EMOTION.LIST6.LI3_TEXT")}
+                                        actionLink={{
+                                        text: _("SIZE.INDICATORS_LIST.BTN"),
+                                        href: Locale.i18nLink("emotion/harmony"),}}
+                                        primaryColor="#7B62FE"
+                                        linkHoverColor="#7B62FE"
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="row g-4">
-                        <div className="col-lg-6">
-                            <div className="block bg-violet">
-                                <h3>{_("EMOTION.LIST6.LI1_HEAD")}</h3>
-                                <p>{_("EMOTION.LIST6.LI1_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/anxiety")} className="ms-read-more-btn-emotion">
-                                    <span>{_("EMOTION.LIST6.BTN")}</span>
-                                </a>
+                        <div className="col-12 col-lg-6 p-0">
+                            <div className="row h-100 g-4 p-0">
+                                <div className="col-12 col-md-6 mt-1 p-3">
+                                    <CardTitleTextImageCustom
+                                        cardHeight="14rem"
+                                        title={_("EMOTION.LIST6.LI4_HEAD")}
+                                        text={_("EMOTION.LIST6.LI4_TEXT")}
+                                        actionLink={{
+                                        text: _("SIZE.INDICATORS_LIST.BTN"),
+                                        href: Locale.i18nLink("emotion/independence"),}}
+                                        primaryColor="#7B62FE"
+                                        linkHoverColor="#7B62FE"
+                                    />
+                                </div>
+                                <div className="col-12 col-md-6 mt-1 p-3">
+                                    <CardTitleTextImageCustom
+                                        cardHeight="14rem"
+                                        title={_("EMOTION.LIST6.LI5_HEAD")}
+                                        text={_("EMOTION.LIST6.LI5_TEXT")}
+                                        actionLink={{
+                                        text: _("SIZE.INDICATORS_LIST.BTN"),
+                                        href: Locale.i18nLink("emotion/energy"),}}
+                                        primaryColor="#7B62FE"
+                                        linkHoverColor="#7B62FE"
+                                    />
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className="block bg-green">
-                                <h3>{_("EMOTION.LIST6.LI2_HEAD")}</h3>
-                                <p>{_("EMOTION.LIST6.LI2_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/productivity")} className="ms-read-more-btn-emotion">
-                                    <span>{_("EMOTION.LIST6.BTN")}</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="block bg-aqua">
-                                <h3>{_("EMOTION.LIST6.LI3_HEAD")}</h3>
-                                <p>{_("EMOTION.LIST6.LI3_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/harmony")} className="ms-read-more-btn-emotion">
-                                    <span>{_("EMOTION.LIST6.BTN")}</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="block bg-orange">
-                                <h3>{_("EMOTION.LIST6.LI4_HEAD")}</h3>
-                                <p>{_("EMOTION.LIST6.LI4_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/independence")} className="ms-read-more-btn-emotion">
-                                    <span>{_("EMOTION.LIST6.BTN")}</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="block bg-yellow">
-                                <h3>{_("EMOTION.LIST6.LI5_HEAD")}</h3>
-                                <p>{_("EMOTION.LIST6.LI5_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/energy")} className="ms-read-more-btn-emotion">
-                                    <span>{_("EMOTION.LIST6.BTN")}</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="block bg-blue">
-                                <h3>{_("EMOTION.LIST6.LI6_HEAD")}</h3>
-                                <p>{_("EMOTION.LIST6.LI6_TEXT")}</p>
-                                <a href={Locale.i18nLink("emotion/openness")} className="ms-read-more-btn-emotion">
-                                    <span>{_("EMOTION.LIST6.BTN")}</span>
-                                </a>
+                        <div className="col-12 col-lg-6 p-0">
+                            <div className="row h-100 g-4 p-0">
+                                <div className="col-12 mt-1 p-3 custom-card-padding card-big">
+                                    <CardTitleTextImageCustom
+                                        cardHeight="14rem"
+                                        title={_("EMOTION.LIST6.LI6_HEAD")}
+                                        text={_("EMOTION.LIST6.LI6_TEXT")}
+                                        imgSrc="/img/page/emotion/traits-mask-2.svg"
+                                        imgPosition="right-bottom"
+                                        imgH="17rem"
+                                        responsive={true}
+                                        actionLink={{
+                                        text: _("SIZE.INDICATORS_LIST.BTN"),
+                                        href: Locale.i18nLink("emotion/openness"),}}
+                                        primaryColor="#7B62FE"
+                                        linkHoverColor="#7B62FE"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
 
                 <section>
-                    <div className="row">
+                    <div className="row mb-6">
                         <div className="col-lg-6">
                             <h2>{_("EMOTION.HEAD7")}</h2>
                             <p className="mb-0">{_("EMOTION.DESK7")}</p>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <ul className="list-with-icons extended">
-                                <li>
-                                    <div className="icon">
-                                        <img src="/img/atom/icons/icon-sport.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <h3>{_("EMOTION.LIST7.LI1_HEAD")}</h3>
-                                        <p>{_("EMOTION.LIST7.LI1_TEXT")}</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="icon">
-                                        <img src="/img/atom/icons/icon-bag.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <h3>{_("EMOTION.LIST7.LI2_HEAD")}</h3>
-                                        <p>{_("EMOTION.LIST7.LI2_TEXT")}</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="icon">
-                                        <img src="/img/atom/icons/icon-health.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <h3>{_("EMOTION.LIST7.LI3_HEAD")}</h3>
-                                        <p>{_("EMOTION.LIST7.LI3_TEXT")}</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="icon">
-                                        <img src="/img/atom/icons/icon-research.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <h3>{_("EMOTION.LIST7.LI4_HEAD")}</h3>
-                                        <p>{_("EMOTION.LIST7.LI4_TEXT")}</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="icon">
-                                        <img src="/img/atom/icons/icon-note.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <h3>{_("EMOTION.LIST7.LI5_HEAD")}</h3>
-                                        <p>{_("EMOTION.LIST7.LI5_TEXT")}</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="icon">
-                                        <img src="/img/atom/icons/icon-heart.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <h3>{_("EMOTION.LIST7.LI6_HEAD")}</h3>
-                                        <p>{_("EMOTION.LIST7.LI6_TEXT")}</p>
-                                    </div>
-                                </li>
-                            </ul>
+                    <div className="row emotion-info-section UseCasses-container  mb-0">
+                        <div className="info-list row g-4">
+                            <div className="col-12 col-xxl-4 col-lg-6 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-sport.svg",
+                                        },
+                                        title: _("EMOTION.LIST7.LI1_HEAD"),
+                                    }}
+                                    text={_("EMOTION.LIST7.LI1_TEXT")}
+                                    bgColor="#ECE9FF"
+                                />
+                            </div>
+                            <div className="col-12 col-xxl-4 col-lg-6 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-bag.svg",
+                                        },
+                                        title: _("EMOTION.LIST7.LI2_HEAD"),
+                                    }}
+                                    text={_("EMOTION.LIST7.LI2_TEXT")}
+                                    bgColor="#FFFFFF"
+                                />
+                            </div>
+                            <div className="col-12 col-xxl-4 col-lg-12 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-health.svg",
+                                        },
+                                        title: _("EMOTION.LIST7.LI3_HEAD"),
+                                    }}
+                                    text={_("EMOTION.LIST7.LI3_TEXT")}
+                                    bgColor="#ECE9FF"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row waist-info-section UseCasses-container">
+                        <div className="info-list row g-4">
+                            <div className="col-12 col-xxl-4 col-lg-6 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-research.svg",
+                                        },
+                                        title: _("EMOTION.LIST7.LI4_HEAD"),
+                                    }}
+                                    text={_("EMOTION.LIST7.LI4_TEXT")}
+                                    bgColor="#FFFFFF"
+                                    
+                                />
+                            </div>
+                            <div className="col-12 col-xxl-4 col-lg-6 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-note.svg",
+                                        },
+                                        title: _("EMOTION.LIST7.LI5_HEAD"),
+                                    }}
+                                    text={_("EMOTION.LIST7.LI5_TEXT")}
+                                    bgColor="#ECE9FF"
+                                />
+                            </div>
+                            <div className="col-12 col-xxl-4 col-lg-12 d-flex">
+                                <CardIconTitleText
+                                    iconProps={{
+                                        icon: {
+                                            src: "/img/atom/icons/icon-heart.svg",
+                                        },
+                                        title: _("EMOTION.LIST7.LI6_HEAD"),
+                                    }}
+                                    text={_("EMOTION.LIST7.LI6_TEXT")}
+                                    bgColor="#FFFFFF"
+                                />
+                            </div>
                         </div>
                     </div>
                 </section>

@@ -127,6 +127,130 @@
     }
 }
 
+.emotion-info-section {
+    h3 {
+        font-size: 1.55rem;
+        margin: 0px !important;
+    }
+    h2 {
+        font-size: 3.08rem;
+        margin-bottom: 1.9rem;
+    }
+}
+.info-list {
+        padding: 0px!important;
+        p {
+            margin-bottom: 1rem !important;
+        }
+        .card-icon-title-text {
+            flex-grow: 1;
+        }
+}
+
+.UseCasses-container {
+    .emotion-info-section {
+        .info-list {
+            @media (max-width: 1300px) {
+                > .col-lg-4:nth-child(1),
+                > .col-lg-4:nth-child(2) {
+                    flex: 0 0 50% !important;
+                    max-width: 50% !important;
+                }
+                
+                > .col-lg-4:nth-child(3) {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+.why-emotion-container {
+    .position-absolute .bg-white {
+        transform: translateX(-30%);
+        z-index: 10;
+        min-width: 200px !important;
+        
+        @media (max-width: 768px) {
+            transform: translateX(-10%);
+            width: 160px !important;
+            min-width: 160px !important;
+        }
+    }
+    .emotion-overlay-card {
+        .text-danger {
+            color: #cc3ad6 !important;
+            font-weight: bold;
+            line-height: 1;
+        }
+        .d-flex.justify-content-center {
+            align-items: baseline;
+        }
+    }
+    .position-relative {
+        z-index: 1;
+    }
+    .custom-card-padding-1 {
+        padding-right: 10rem !important;
+        
+        @media (max-width: 500px){
+            padding-right: 0rem !important;
+        }
+    }
+    .emotion-cards-container {
+        .emotion-overlay-card {
+            width: auto !important;
+            min-width: 200px !important;
+            
+            @media (max-width: 768px) {
+                min-width: 160px !important;
+            }
+            
+            @media (max-width: 576px) {
+                min-width: 140px !important;
+            }
+        }
+    }
+}
+
+.PersonalityTraits-container {
+    @media (max-width: 1400px) and (min-width: 856px) {
+        .row > .col-lg-6 {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+        }
+        .col-lg-6 .row .col-md-6 {
+            flex: 0 0 50% !important;
+            max-width: 50% !important;
+        }
+    }
+
+    @media (max-width: 855px) {
+        .col-md-6 {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+        }
+        .row > .col-lg-6 {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+        }
+    }
+.custom-card-padding .card-title-text {
+    padding-right: 14rem !important;
+    padding-bottom: 5rem !important;
+     @media (max-width: 500px){
+        padding-right: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+}
+.card-big{
+        @media (max-width: 1000px) {
+            min-height: 28rem !important;  
+        }}    
+}
+
 .biorhythms-container {
     .img-wrapper-big {
         max-height: 440px;
