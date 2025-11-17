@@ -1,5 +1,11 @@
 import type { Components } from "react-markdown";
 
+export interface IRightColumn {
+    CONTENT?: string;
+    IMG_SRC?: string;
+    IMG_ALT?: string;
+}
+
 export interface IArticleHeader {
   TITLE: string;
   IMG_URL?: string;
@@ -17,6 +23,7 @@ export interface IArticleSection {
   IMG_SRC?: string | null;
   IMG_ALT: string;
   components?: Components;
+  RIGHT_COLUMN?: IRightColumn;
 }
 
 export interface IArticleCallToAction {
