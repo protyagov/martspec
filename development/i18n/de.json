@@ -248,7 +248,11 @@
             "SHORT": "Elektrolyt",
             "DESC": "Elektrolyte sind lebenswichtige Mineralien, die eine entscheidende Rolle bei der Aufrechterhaltung der Körperfunktionen wie Flüssigkeitshaushalt, Nervenfunktion und Muskelkontraktion spielen. Eine ausgewogene Ernährung trägt dazu bei, den für eine optimale Gesundheit wichtigen Elektrolythaushalt aufrechtzuerhalten."
         },
-        "CONTENT": {
+        "FOODADDITIVES": {
+            "NAME": "Nahrungsergänzungsmittel",
+            "SHORT": "Zusatz"
+        },
+                "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",
                 "VITAMIN_WATER": "Vitamin",
@@ -925,6 +929,76 @@
             "FACT_10": "Forscher gehen davon aus, dass Zinkmangel beim Fortschreiten von Diabetes eine Rolle spielen könnte. Die bisherigen Beweise reichen nicht aus, um irgendwelche Schlussfolgerungen zu stützen",
             "FACT_11": "Zink und Kupfer stören sich gegenseitig bei der Aufnahme, daher wird empfohlen, sie zu unterschiedlichen Zeiten einzunehmen, z. B. morgens und abends.",
             "FACT_12": "Hilft bei der Produktion von Melanin, einem Pigment, das die Netzhaut schützt, und unterstützt die Umwandlung von Vitamin A in eine für das Auge verwertbare Form"
+        },
+        "CHAGA_MUSHROOM": {
+            "HEAD": "Chg",
+            "NAME": "Chaga-Pilz",
+            "DESK": "Chaga ist ein erstaunlicher Heilpilz mit ausgeprägten immunmodulatorischen und antioxidativen Eigenschaften."
+        },
+        "CURCUMIN": {
+            "HEAD": "Cur",
+            "NAME": "Curcumin",
+            "DESK": "Kurkuma ist ein starkes Gewürz mit vielen potenziellen gesundheitlichen Vorteilen."
+        },
+        "ACAI": {
+            "HEAD": "Aci",
+            "NAME": "Acai",
+            "DESK": "Acai ist eine Beere, die von der Acai-Palme in den tropischen Wäldern Südamerikas geerntet wird, ein Produkt mit einzigartiger Zusammensetzung und großem therapeutischem Potenzial."
+        },
+        "ASTRAGALUS": {
+            "HEAD": "Asg",
+            "NAME": "Tragant",
+            "DESK": "Tragant unterstützt die Gesundheit des Immunsystems, indem er die Produktion weißer Blutkörperchen steigert und die Zytokinspiegel reguliert, was eine effektive, aber ausgewogene Immunantwort fördert."
+        },
+        "LIONS_MANE": {
+            "HEAD": "Lmn",
+            "NAME": "Löwenmähnen-Pilz",
+            "DESK": "Der Löwenmähnen-Pilz enthält starke natürliche Verbindungen, die sowohl Entzündungen als auch oxidative Schäden bekämpfen."
+        },
+        "COLLAGEN_PEPTIDES": {
+            "HEAD": "Clp",
+            "NAME": "Kollagenpeptide",
+            "DESK": "Kollagen ist das Hauptstrukturprotein des Körpers (es macht etwa 30 % des gesamten Körperproteins aus) und verleiht Haut, Knochen, Bändern und Knorpel Festigkeit und Elastizität."
+        },
+        "ASHWAGANDHA_EXTRACT": {
+            "HEAD": "Awe",
+            "NAME": "Ashwagandha-Extrakt",
+            "DESK": "Ashwagandha ist eine der wichtigsten Pflanzen in der ayurvedischen Medizin und wird seit über 3000 Jahren zur Stärkung des Körpers, zur Wiederherstellung des Gleichgewichts und zur Verlängerung der Lebensdauer verwendet."
+        },
+        "GINKGO_BILOBA": {
+            "HEAD": "Gkb",
+            "NAME": "Ginkgo biloba",
+            "DESK": "Ginkgo biloba kann dazu beitragen, Ängste zu reduzieren und das emotionale Gleichgewicht zu erhalten."
+        },
+        "TURKEY_TAIL": {
+            "HEAD": "Tkt",
+            "NAME": "Truthahnschwanz-Pilz",
+            "DESK": "Er wurde von der Wissenschaft weitgehend als Heilpilz untersucht, der für seine immunmodulatorischen und adaptogenen Eigenschaften bekannt ist."
+        },
+        "MACA": {
+            "HEAD": "Mca",
+            "NAME": "Maca",
+            "DESK": "Maca ist am besten für seine Fähigkeit bekannt, das hormonelle Gleichgewicht und die reproduktive Gesundheit zu unterstützen - und das auf natürliche Weise, da es keine Pflanzenhormone enthält."
+        },
+        "FIREWEED_TEA": {
+            "HEAD": "Frw",
+            "NAME": "Weidenröschen-Tee",
+            "DESK": "Er bietet eine starke Unterstützung für die Darm- und Verdauungsgesundheit dank seiner einzigartigen Kombination natürlicher Verbindungen."
+        },
+        "CORDYCEPS_POWDER": {
+            "HEAD": "Crp",
+            "NAME": "Cordyceps-Pulver",
+            "DESK": "Dieser einzigartige Pilz wird in der traditionellen chinesischen Medizin sehr geschätzt für seine Fähigkeit, Energie, Ausdauer und allgemeine Vitalität zu steigern."
+        },
+        "COCOA_POWDER": {
+            "HEAD": "Ccp",
+            "NAME": "Kakaopulver",
+            "DESK": "Natürliche Polyphenole und Flavonoide helfen, chronische Entzündungen zu reduzieren und die Zellen des Körpers vor Schäden zu schützen, die zu Alterung und Krankheiten beitragen."
+        },
+        "KOMBUCHA": {
+            "HEAD": "Cmb",
+            "NAME": "Kombucha-Teepilz",
+            "DESK": "Er fördert die Wiederherstellung des Darmmikrobioms und verbessert die Nährstoffaufnahme."
         }
     },
     "WAIST": {

@@ -248,6 +248,10 @@
             "SHORT": "Electrólito",
             "DESC": "Los electrolitos son minerales vitales que desempeñan papeles cruciales en el mantenimiento de las funciones corporales adecuadas, como el equilibrio de líquidos, la función nerviosa y la contracción muscular. Una dieta equilibrada con alimentos ricos en nutrientes ayuda a mantener los niveles esenciales de electrolitos para una salud óptima."
         },
+        "FOODADDITIVES": {
+            "NAME": "Suplementos Alimenticios",
+            "SHORT": "Suplemento"
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamina",
@@ -926,6 +930,76 @@
             "FACT_10": "Los investigadores plantean la hipótesis de que el agotamiento del zinc podría desempeñar un papel en la progresión de la diabetes. La evidencia hasta la fecha es insuficiente para respaldar cualquier conclusión",
             "FACT_11": "El zinc y el cobre interfieren mutuamente en su absorción, por lo que se recomienda tomarlos en momentos diferentes, por ejemplo por la mañana y por la noche",
             "FACT_12": "Ayuda a producir melanina, un pigmento que protege la retina, y favorece la conversión de la vitamina A en una forma que el ojo puede usar"
+        },
+        "CHAGA_MUSHROOM": {
+            "HEAD": "Chg",
+            "NAME": "Hongo Chaga",
+            "DESK": "Chaga es un increíble hongo medicinal con pronunciadas propiedades inmunomoduladoras y antioxidantes."
+        },
+        "CURCUMIN": {
+            "HEAD": "Cur",
+            "NAME": "Curcumina",
+            "DESK": "La cúrcuma es una especia poderosa con muchos potenciales beneficios para la salud."
+        },
+        "ACAI": {
+            "HEAD": "Aci",
+            "NAME": "Acai",
+            "DESK": "Acai es una baya recolectada de la palma de acai en los bosques tropicales de América del Sur, un producto con una composición única y gran potencial terapéutico."
+        },
+        "ASTRAGALUS": {
+            "HEAD": "Asg",
+            "NAME": "Astrágalo",
+            "DESK": "El astrágalo apoya la salud del sistema inmunológico al aumentar la producción de glóbulos blancos y regular los niveles de citoquinas, promoviendo una respuesta inmune efectiva pero equilibrada."
+        },
+        "LIONS_MANE": {
+            "HEAD": "Lmn",
+            "NAME": "Hongo Melena de León",
+            "DESK": "El hongo Melena de León contiene compuestos naturales poderosos que ayudan a combatir tanto la inflamación como el daño oxidativo."
+        },
+        "COLLAGEN_PEPTIDES": {
+            "HEAD": "Clp",
+            "NAME": "Péptidos de colágeno",
+            "DESK": "El colágeno es la principal proteína estructural del cuerpo (constituye aproximadamente el 30% de la proteína total en el cuerpo), proporcionando fuerza y elasticidad a la piel, huesos, ligamentos y cartílagos."
+        },
+        "ASHWAGANDHA_EXTRACT": {
+            "HEAD": "Awe",
+            "NAME": "Extracto de Ashwagandha",
+            "DESK": "Ashwagandha es una de las plantas más importantes en la medicina ayurvédica, utilizada durante más de 3000 años para fortalecer el cuerpo, restaurar el equilibrio y promover la longevidad."
+        },
+        "GINKGO_BILOBA": {
+            "HEAD": "Gkb",
+            "NAME": "Ginkgo biloba",
+            "DESK": "El Ginkgo biloba puede ayudar a reducir la ansiedad y mantener el equilibrio emocional."
+        },
+        "TURKEY_TAIL": {
+            "HEAD": "Tkt",
+            "NAME": "Hongo Cola de Pavo",
+            "DESK": "Ha sido ampliamente estudiado por la ciencia como un hongo medicinal conocido por sus propiedades inmunomoduladoras y adaptógenas."
+        },
+        "MACA": {
+            "HEAD": "Mca",
+            "NAME": "Maca",
+            "DESK": "La maca es más conocida por su capacidad para apoyar el equilibrio hormonal y la salud reproductiva; lo hace de forma natural, sin contener hormonas vegetales."
+        },
+        "FIREWEED_TEA": {
+            "HEAD": "Frw",
+            "NAME": "Té de Epilobio",
+            "DESK": "Proporciona un apoyo poderoso para la salud intestinal y digestiva gracias a su combinación única de compuestos naturales."
+        },
+        "CORDYCEPS_POWDER": {
+            "HEAD": "Crp",
+            "NAME": "Polvo de Cordyceps",
+            "DESK": "Este hongo único ha sido muy valorado en la medicina tradicional china por su capacidad para aumentar la energía, la resistencia y la vitalidad general."
+        },
+        "COCOA_POWDER": {
+            "HEAD": "Ccp",
+            "NAME": "Polvo de cacao",
+            "DESK": "Los polifenoles y flavonoides naturales ayudan a reducir la inflamación crónica y protegen las células del cuerpo de daños que contribuyen al envejecimiento y las enfermedades."
+        },
+        "KOMBUCHA": {
+            "HEAD": "Cmb",
+            "NAME": "Hongo de té Kombucha",
+            "DESK": "Promueve la restauración del microbioma intestinal y mejora la absorción de nutrientes."
         }
     },
     "WAIST": {

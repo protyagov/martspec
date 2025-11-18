@@ -250,6 +250,10 @@
             "SHORT": "Electrolyte",
             "DESC": "Electrolytes are vital minerals that play crucial roles in maintaining proper bodily functions such as fluid balance, nerve function, and muscle contraction. Eating balanced diet with nutrient-rich foods helps maintaining essential electrolyte levels for optimal health."
         },
+        "FOODADDITIVES": {
+            "NAME": "Food Additives",
+            "SHORT": "Additive"
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",
@@ -928,7 +932,77 @@
             "FACT_10": "Can defend against sunburns",
             "FACT_11": "Zinc and copper interfere with each other's absorption, so taking them at different times, such as morning and evening, is recommended",
             "FACT_12": "Helps to produce melanin, a pigment that protects the retina, and supports the conversion of vitamin A into a form that the eye can use"
-        }
+        },
+        "CHAGA_MUSHROOM": {
+            "HEAD": "Chg",
+            "NAME": "Chaga mushroom",
+            "DESK": "Chaga is an amazing medicinal mushroom with pronounced immunomodulatory and antioxidant properties."
+        },
+        "CURCUMIN": {
+            "HEAD": "Cur", 
+            "NAME": "Curcumin",
+            "DESK": "Turmeric is a powerful spice with many potential health benefits."
+        },
+        "ACAI": {
+            "HEAD": "Aci",
+            "NAME": "Acai",
+            "DESK": "Acai is a berry harvested from the acai palm in the tropical forests of South America, a product with a unique composition and great therapeutic potential."
+        },
+        "ASTRAGALUS": {
+            "HEAD": "Asg",
+            "NAME": "Astragalus",
+            "DESK": "Astragalus supports immune system health by increasing white blood cell production and regulating cytokine levels, promoting an effective but balanced immune response."
+        },
+        "LIONS_MANE": {
+            "HEAD": "Lmn",
+            "NAME": "Lion's Mane mushroom",
+            "DESK": "Lion's Mane mushroom contains powerful natural compounds that help combat both inflammation and oxidative damage."
+        },
+        "COLLAGEN_PEPTIDES": {
+            "HEAD": "Clp",
+            "NAME": "Collagen peptides",
+            "DESK": "Collagen is the body's main structural protein (making up about 30% of the total protein in the body), providing strength and elasticity to the skin, bones, ligaments, and cartilage."
+        },
+        "ASHWAGANDHA_EXTRACT": {
+            "HEAD": "Awe",
+            "NAME": "Ashwagandha extract",
+            "DESK": "Ashwagandha is one of the most important plants in Ayurvedic medicine, used for over 3000 years to strengthen the body, restore balance, and promote longevity."
+        },
+        "GINKGO_BILOBA": {
+            "HEAD": "Gkb",
+            "NAME": "Ginkgo biloba",
+            "DESK": "Ginkgo biloba may help reduce anxiety and maintain emotional balance."
+        },
+        "TURKEY_TAIL": {
+            "HEAD": "Tkt",
+            "NAME": "Turkey Tail mushroom",
+            "DESK": "It has been widely studied by science as a medicinal mushroom known for its immunomodulatory and adaptogenic properties."
+        },
+        "MACA": {
+            "HEAD": "Mca",
+            "NAME": "Maca",
+            "DESK": "Maca is best known for its ability to support hormonal balance and reproductive health - it does this naturally, containing no plant hormones."
+        },
+        "FIREWEED_TEA": {
+            "HEAD": "Frw",
+            "NAME": "Fireweed tea",
+            "DESK": "It provides powerful support for gut and digestive health thanks to its unique combination of natural compounds."
+        },
+        "CORDYCEPS_POWDER": {
+            "HEAD": "Crp",
+            "NAME": "Cordyceps powder",
+            "DESK": "This unique mushroom has been highly valued in traditional Chinese medicine for its ability to increase energy, endurance, and overall vitality."
+        },
+        "COCOA_POWDER": {
+            "HEAD": "Ccp",
+            "NAME": "Cocoa powder",
+            "DESK": "Natural polyphenols and flavonoids help reduce chronic inflammation and protect the body's cells from damage that contributes to aging and disease."
+        },
+        "KOMBUCHA": {
+            "HEAD": "Cmb",
+            "NAME": "Kombucha tea mushroom",
+            "DESK": "It promotes the restoration of the gut microbiome and improves nutrient absorption."
+  }
     },
     "WAIST": {
         "HEAD": "Waistline",

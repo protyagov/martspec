@@ -697,5 +697,61 @@
             "FOOD_ALMOND": 3.1,
             "FOOD_SHRIMP": 1.64
         }
+    },
+    "CHAGA_MUSHROOM": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "CURCUMIN": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "ACAI": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "ASTRAGALUS": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "LIONS_MANE": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "COLLAGEN_PEPTIDES": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "ASHWAGANDHA_EXTRACT": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "GINKGO_BILOBA": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "TURKEY_TAIL": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "MACA": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "FIREWEED_TEA": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "CORDYCEPS_POWDER": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "COCOA_POWDER": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
+    },
+    "KOMBUCHA": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
     }
 }
