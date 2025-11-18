@@ -51,7 +51,7 @@ export const Footer = () => (
                         </div>
                         <div className="row text-center text-lg-start">
                             <div className="col-md-6 col-sm-6 col-6">
-                                <div className="footer-link mb-3">
+                                <div className="footer-link mb-2">
                                     <a href={Locale.i18nLink("vitamin")}> {_("VITAMIN.SUBHEAD2")} </a>
                                 </div>
                                 <div className="footer-link mb-2">

@@ -248,6 +248,10 @@
             "SHORT": "Électrolyte",
             "DESC": "Les électrolytes sont des minéraux vitaux qui jouent un rôle crucial dans le maintien de fonctions corporelles adéquates telles que l'équilibre des fluides, la fonction nerveuse et la contraction musculaire. Une alimentation équilibrée permet de maintenir les niveaux d'électrolytes essentiels pour une santé optimale."
         },
+        "FOODADDITIVES": {
+            "NAME": "Compléments Alimentaires",
+            "SHORT": "Complément"
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamine",
@@ -926,6 +930,76 @@
             "FACT_10": "Les chercheurs émettent l'hypothèse que la déplétion en zinc pourrait jouer un rôle dans la progression du diabète. Les preuves à ce jour sont insuffisantes pour étayer des conclusions",
             "FACT_11": "Le zinc et le cuivre interfèrent dans l'absorption de l'un par l'autre, c'est pourquoi il est recommandé de les prendre à des moments différents, par exemple le matin et le soir",
             "FACT_12": "Aide à produire la mélanine, un pigment qui protège la rétine, et soutient la conversion de la vitamine A en une forme que l’œil peut utiliser"
+        },
+        "CHAGA_MUSHROOM": {
+            "HEAD": "Chg",
+            "NAME": "Champignon Chaga",
+            "DESK": "Le Chaga est un champignon médicinal étonnant aux propriétés immunomodulatrices et antioxydantes prononcées."
+        },
+        "CURCUMIN": {
+            "HEAD": "Cur",
+            "NAME": "Curcumine",
+            "DESK": "Le curcuma est une épice puissante aux nombreux bienfaits potentiels pour la santé."
+        },
+        "ACAI": {
+            "HEAD": "Aci",
+            "NAME": "Açaï",
+            "DESK": "L'açaï est une baie récoltée sur le palmier açaï dans les forêts tropicales d'Amérique du Sud, un produit à la composition unique et au grand potentiel thérapeutique."
+        },
+        "ASTRAGALUS": {
+            "HEAD": "Asg",
+            "NAME": "Astragale",
+            "DESK": "L'astragale soutient la santé du système immunitaire en augmentant la production de globules blancs et en régulant les niveaux de cytokines, favorisant une réponse immunitaire efficace mais équilibrée."
+        },
+        "LIONS_MANE": {
+            "HEAD": "Lmn",
+            "NAME": "Champignon Crinière de Lion",
+            "DESK": "Le champignon Crinière de Lion contient des composés naturels puissants qui aident à lutter contre l'inflammation et les dommages oxydatifs."
+        },
+        "COLLAGEN_PEPTIDES": {
+            "HEAD": "Clp",
+            "NAME": "Peptides de collagène",
+            "DESK": "Le collagène est la principale protéine structurelle du corps (représentant environ 30 % des protéines totales du corps), conférant force et élasticité à la peau, aux os, aux ligaments et au cartilage."
+        },
+        "ASHWAGANDHA_EXTRACT": {
+            "HEAD": "Awe",
+            "NAME": "Extrait d'Ashwagandha",
+            "DESK": "L'Ashwagandha est l'une des plantes les plus importantes de la médecine ayurvédique, utilisée depuis plus de 3000 ans pour renforcer le corps, rétablir l'équilibre et promouvoir la longévité."
+        },
+        "GINKGO_BILOBA": {
+            "HEAD": "Gkb",
+            "NAME": "Ginkgo biloba",
+            "DESK": "Le Ginkgo biloba peut aider à réduire l'anxiété et à maintenir l'équilibre émotionnel."
+        },
+        "TURKEY_TAIL": {
+            "HEAD": "Tkt",
+            "NAME": "Champignon Queue de Dinde",
+            "DESK": "Il a été largement étudié par la science en tant que champignon médicinal connu pour ses propriétés immunomodulatrices et adaptogènes."
+        },
+        "MACA": {
+            "HEAD": "Mca",
+            "NAME": "Maca",
+            "DESK": "La maca est surtout connue pour sa capacité à soutenir l'équilibre hormonal et la santé reproductive - elle le fait naturellement, sans contenir d'hormones végétales."
+        },
+        "FIREWEED_TEA": {
+            "HEAD": "Frw",
+            "NAME": "Thé d'Épilobe",
+            "DESK": "Il fournit un soutien puissant pour la santé intestinale et digestive grâce à sa combinaison unique de composés naturels."
+        },
+        "CORDYCEPS_POWDER": {
+            "HEAD": "Crp",
+            "NAME": "Poudre de Cordyceps",
+            "DESK": "Ce champignon unique a été très prisé en médecine traditionnelle chinoise pour sa capacité à augmenter l'énergie, l'endurance et la vitalité générale."
+        },
+        "COCOA_POWDER": {
+            "HEAD": "Ccp",
+            "NAME": "Poudre de cacao",
+            "DESK": "Les polyphénols et flavonoïdes naturels aident à réduire l'inflammation chronique et protègent les cellules du corps des dommages contribuant au vieillissement et aux maladies."
+        },
+        "KOMBUCHA": {
+            "HEAD": "Cmb",
+            "NAME": "Champignon de thé Kombucha",
+            "DESK": "Il favorise la restauration du microbiome intestinal et améliore l'absorption des nutriments."
         }
     },
     "WAIST": {
