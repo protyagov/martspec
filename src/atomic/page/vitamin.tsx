@@ -35,8 +35,7 @@ interface VitaminGroup {
 }
 const COMING_SOON_PAGES = new Set([
             "CHAGA_MUSHROOM",
-            "CURCUMIN", 
-            "ACAI",
+            "CURCUMIN",
             "ASTRAGALUS",
             "LIONS_MANE",
             "COLLAGEN_PEPTIDES",
@@ -387,7 +386,8 @@ export default function Vitamin() {
                         </div>
                     </div>
                     
-                    {vitamins.map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
+                    {/* СТАРЫЕ ВИТАМИНЫ */}
+                    {vitamins.filter(group => group.groupName !== "FOODADDITIVES").map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
                         <section key={`vitamins-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mb-0">
                             <div className="col-12 d-flex flex-column">
                                 <Accordion
@@ -410,6 +410,44 @@ export default function Vitamin() {
                                                         href: COMING_SOON_PAGES.has(vit)
                                                             ? Locale.i18nLink("coming-soon")
                                                             : Locale.i18nLink(`vitamin/${vit.toLowerCase()}`),
+                                                    }}
+                                                    bgColor={bgColor}
+                                                    primaryColor={primaryColor}
+                                                    linkHoverColor={linkHoverColor}
+                                                    bgImg={bgImg}
+                                                />
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </Accordion>
+                            </div>
+                        </section>
+                    ))}
+
+                    {/* НОВЫЕ СТАТЬИ (Food Additives) */}
+                    {vitamins.filter(group => group.groupName === "FOODADDITIVES").map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
+                        <section key={`articles-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mb-0">
+                            <div className="col-12 d-flex flex-column">
+                                <Accordion
+                                    title={_(`VITAMIN.${groupName}.NAME`)}
+                                    bgColor={bgColor}
+                                    expandIconColor={primaryColor}
+                                    bgImg={header.bgImg}
+                                    mobileBgResized={header.mobileBgResized}
+                                    defaultExpanded={header.defaultExpanded}
+                                >
+                                    <ul className="d-grid vitamin-list">
+                                        {itemList.map((article) => (
+                                            <li key={article}>
+                                                <CardVitamin
+                                                    title={_(`VITAMIN.${article}.HEAD`)}
+                                                    subtitle={_(`VITAMIN.${article}.NAME`)}
+                                                    description={_(`VITAMIN.${article}.DESK`)}
+                                                    actionLink={{
+                                                        text: _("VITAMIN.BTN_GO"),
+                                                        href: COMING_SOON_PAGES.has(article)
+                                                            ? Locale.i18nLink("coming-soon")
+                                                            : Locale.i18nLink(`vitamin/${article.toLowerCase()}`), // ← меняем на article/
                                                     }}
                                                     bgColor={bgColor}
                                                     primaryColor={primaryColor}

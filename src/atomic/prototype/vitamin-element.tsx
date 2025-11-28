@@ -2,6 +2,7 @@ import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
+import ReactMarkdown from "react-markdown";
 
 interface VitaminElementProps {
     id: string;
@@ -32,9 +33,66 @@ const VIT_AGE = [
     "LACT_14_18",
     "LACT_19_50",
 ];
+    const ArticleVit = ({ vitamin }: { vitamin: string }) => {
+    const [articleData, setArticleData] = React.useState<any>(null);
 
+    React.useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch(`/data/article/vitamin/${vitamin}/${vitamin}-en.json`);
+                if (!response.ok) throw new Error("Failed to load article");
+                const data = await response.json();
+                setArticleData(data);
+            } catch (error) {
+                console.error("Error", error);
+            }
+        };
+        fetchData();
+    }, [vitamin]);
+
+    if (!articleData) return <div>Loading...</div>;
+
+    return (
+        <>
+            <NavigationBar />
+            <div className="article__container">
+                <h1 className="article-title">{articleData.HEADER.TITLE}</h1>
+                
+                {articleData.IMG_SRC && (
+                    <img
+                        className="img-fluid article__image"
+                        src={articleData.IMG_SRC}
+                        alt={articleData.IMG_ALT}
+                        width={1300}
+                        height={420}
+                    />
+                )}
+                
+                {articleData.BODY.map((item: any, index: number) => (
+                    <section key={index} className="article-content">
+                        <div style={{ backgroundColor: item.BG_COLOR ?? "transparent" }}>
+                            <div className="article-section__inner">
+                                <div className="article-section__left">
+                                    <div className="article__section-title">
+                                        <ReactMarkdown>{item.TITLE}</ReactMarkdown>
+                                    </div>
+                                    <ReactMarkdown>{item.CONTENT}</ReactMarkdown>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                ))}
+            </div>
+            <Footer />
+        </>
+    );
+};
 export default function VitaminElement(props: VitaminElementProps) {
     const id = props.id.toUpperCase();
+    
+    if (typeof window !== 'undefined' && (window as any).__IS_ARTICLE__) {
+    return <ArticleVit vitamin={props.id} />;
+    }
 
     const [data, setData] = React.useState<VitaminElement | null>(null);
 
@@ -225,7 +283,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                 <div className="col">
                                     <table className="table vit-table vit-charts">
                                         <tbody>
-                                            {Object.entries(data.FOOD_100G).map(([food, g], idx, arr) => {
+                                            {Object.entries(data.FOOD_100G || {}).map(([food, g], idx, arr) => {
                                                 let max = getValueForAmount(0, arr[0][1]);
 
                                                 return (

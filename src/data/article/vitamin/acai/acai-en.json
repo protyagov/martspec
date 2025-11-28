@@ -1,0 +1,41 @@
+{   "TYPE": "FOODADDITIVES",
+    "HEADER": {
+        "TITLE": "Acai Powder",
+        "IMG_URL": "/img/page/vitamin/acai-powder/header-en.webp",
+        "HEADER_BODY": {},
+        "ALT": "Acai powder product",
+        "ACCENT_COLOR": "#4a7c59"
+    },
+    "TITLE": "Acai Powder",
+    "IMG_URL": "/img/page/vitamin/acai-powder/header-en.webp",
+    "IMG_ALT": "Acai powder product",
+    "IMG_SRC": "/img/page/vitamin/acai-powder/header-en.webp",
+    "BODY": [
+        {
+            "TITLE": "Quality",
+            "IMG_URL": null,
+            "CONTENT": "The efficacy of acai powder depends greatly on its processing method. Research shows that **freeze-dried (lyophilized) acai** retains far more antioxidants than frozen, air-, or spray-dried versions.\n\nNever buy powders that contain added sugars, natural or artificial flavors, or fillers; choose products grown without pesticides.",
+            "ACCENT_COLOR": "#4a7c59",
+            "BG_COLOR": null,
+            "IMG_SRC": null,
+            "IMG_ALT": "",
+            "RIGHT_COLUMN": null
+        },
+        {
+            "TITLE": "Key Components",
+            "IMG_URL": null,
+            "CONTENT": "### Nutrient Density & Composition:\n\n- **Unusually high in healthy fats** and low in sugar compared to other fruits.\n- Per 100 g frozen pulp: ~70 Calories, 5 g fat, 4 g carbohydrates, only 2 g sugar.\n- Contains all **essential amino acids** (~7.6% of total weight).",
+            "ACCENT_COLOR": "#6b8e6b",
+            "BG_COLOR": "#f8f9fa",
+            "IMG_SRC": null,
+            "IMG_ALT": "",
+            "RIGHT_COLUMN": null
+        }
+    ],
+    "CALL_TO_ACTION": {
+        "TITLE": "Discover More About Acai Powder",
+        "SUBTITLE": "Learn how to incorporate acai into your daily routine",
+        "IMG_URL": "/img/page/vitamin/call-to-action/call-to-action-en.webp",
+        "ALT": "Acai powder benefits"
+    }
+}

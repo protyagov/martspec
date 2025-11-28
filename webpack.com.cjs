@@ -66,6 +66,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/selenium.ejs", filename: "vitamin/selenium/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/sodium.ejs", filename: "vitamin/sodium/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/zinc.ejs", filename: "vitamin/zinc/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/acai.ejs", filename: "vitamin/acai/index.html", inject: "body" }),
         new HtmlWebpackPlugin({ template: "./src/template/en/career/business-analyst.ejs", filename: "careers/business-analyst/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/career/copywriter.ejs", filename: "careers/copywriter/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/career/designer.ejs", filename: "careers/designer/index.html", inject: "body", }),
