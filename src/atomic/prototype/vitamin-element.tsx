@@ -3,7 +3,7 @@ import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import ReactMarkdown from "react-markdown";
-import ArticleVitamin from "@/article/vitamin/article-vitamin";
+import Article from "@/atomic/prototype/article/article";
 
 interface VitaminElementProps {
     id: string;
@@ -39,8 +39,7 @@ export default function VitaminElement(props: VitaminElementProps) {
     const id = props.id.toUpperCase();
     
 if (typeof window !== 'undefined' && (window as any).__IS_ARTICLE__) {
-    const ArticleComp = ArticleVitamin as any;
-    return <ArticleComp vitamin={props.id} />;
+    return <Article articleType="vitamin" articleId={props.id} />;
 }
 
     const [data, setData] = React.useState<VitaminElement | null>(null);

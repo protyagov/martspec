@@ -1,37 +1,70 @@
 {
-    "HEADER": {
-        "TITLE": "Acai Powder",
-        "IMG_URL": "/img/page/vitamin/acai-powder/header-en.webp",
-        "HEADER_BODY": {},
-        "ALT": "Acai powder product",
-        "ACCENT_COLOR": "#4a7c59"
+  "TITLE": "Acai Powder: Unveiling the Science, Benefits, and Cautions",
+  "IMG_URL": "/img/page/article/acai.png",
+  "IMG_ALT": "Illustration of Acai Powder",
+  "BODY": [ 
+    { 
+      "TITLE": "", 
+      "IMG_SRC": "",
+      "IMG_ALT": "",
+      "CONTENT": "Acai (Euterpe oleracea) is a berry, harvested from the acai palm tree in the rainforests of South America, a nutritionally unique ingredient with significant therapeutic potential. Its distinction lies in its atypical macronutrient profile for a fruit, coupled with an exceptionally high concentration of potent phytochemicals. The powder itself is deep purple in color, fine in texture, and carries a naturally earthy, slightly tangy aroma.",
+      "BG_COLOR": "" 
     },
-    "TITLE": "Acai Powder",
-    "IMG_SRC": "/img/page/vitamin/acai-powder/header-en.webp",
-    "IMG_ALT": "Acai powder product",
-    "BODY": [
-        {
-            "TITLE": "Quality",
-            "IMG_SRC": null,
-            "IMG_ALT": "",
-            "CONTENT": "The efficacy of acai powder depends greatly on its processing method. Research shows that **freeze-dried (lyophilized) acai** retains far more antioxidants than frozen, air-, or spray-dried versions.\n\nNever buy powders that contain added sugars, natural or artificial flavors, or fillers; choose products grown without pesticides.",
-            "ACCENT_COLOR": "#4a7c59",
-            "BG_COLOR": null,
-            "RIGHT_COLUMN": null
-        },
-        {
-            "TITLE": "Key Components",
-            "IMG_SRC": null,
-            "IMG_ALT": "",
-            "CONTENT": "### Nutrient Density & Composition:\n\n- **Unusually high in healthy fats** and low in sugar compared to other fruits.\n- Per 100 g frozen pulp: ~70 Calories, 5 g fat, 4 g carbohydrates, only 2 g sugar.\n- Contains all **essential amino acids** (~7.6% of total weight).",
-            "ACCENT_COLOR": "#6b8e6b",
-            "BG_COLOR": "#f8f9fa",
-            "RIGHT_COLUMN": null
-        }
-    ],
-    "CALL_TO_ACTION": {
-        "TITLE": "Discover More About Acai Powder",
-        "SUBTITLE": "Learn how to incorporate acai into your daily routine",
-        "ALT": "Acai powder benefits"
+    { 
+      "TITLE": "### Quality", 
+      "CONTENT": "The efficacy of acai powder depends greatly on its processing method. Research shows that **freeze-dried (lyophilized)** acai retains far more antioxidants than frozen, air-, or spray-dried versions.\nNever buy powders that contain added sugars, natural or artificial flavors, or fillers; choose products grown without pesticides.",
+      "BG_COLOR": "" 
+    },
+    { 
+      "TITLE": "### Key Components", 
+      "CONTENT": "**Nutrient Density & Composition:**\n\n- Unusually high in healthy fats and low in sugar compared to other fruits.\n\n- Per 100 g frozen pulp: ~70 Calories, 5 g fat, 4 g carbohydrates, only 2 g sugar.\n\n- Contains all essential amino acids (~7.6% of total weight).\n\n**Healthy Fats for Better Absorption:**\n\n- Rich in monounsaturated and saturated fats — primarily oleic acid (~54%) and palmitic acid (~27%).\n\n- These fats enhance the bioavailability of antioxidants, acting as a built-in lipid delivery system.\n\n**Micronutrient Spectrum:**\n\n- Provides vitamins A, C, E; minerals like calcium and potassium; and trace elements including manganese, zinc, copper, and chromium.",
+      "BG_COLOR": "#F4F5F8" 
+    },
+    {
+      "TITLE": "### Positive Health Effects (The ''Why'')", 
+      "CONTENT": "**Antioxidant and Anti-Inflammatory Effects**\n\nAcai has an exceptionally high **ORAC score**, higher than blueberries, and is rich in polyphenols. These compounds lower oxidative stress and support cellular repair while modulating inflammation by calming the **NF‑κB pathway**, partially inhibiting **COX‑2**, reducing nitric oxide production, and lowering **VCAM‑1 expression**. Together with favorable effects on blood lipids, these actions protect blood vessels and metabolic health, and because some antioxidants cross the blood‑brain barrier, acai also offers neuroprotective benefits.\n\n- Research published in the Journal of Agricultural and Food Chemistry demonstrated that acai pulp triggered a potent antioxidant response in human cells.",
+      "BG_COLOR": "" 
+    },
+    { 
+      "CONTENT": "**Cardiovascular Health**\n\nAcai contains plant **sterols** (β‑sitosterol, campesterol, stigmasterol) that help balance cholesterol by competing with dietary cholesterol for absorption, which can lower “bad“ **LDL** and support “good“ **HDL**. Its high dietary fiber aids digestion, increases satiety, and helps regulate blood sugar. **Polyphenols** and anti‑inflammatory compounds protect the blood‑vessel lining, boost **eNO** (endothelial nitric oxide) to relax vessels and support healthy blood pressure and circulation, and reduce **LDL oxidation**, lowering atherosclerosis risk.\n\n- Studies in overweight adults found improved cholesterol numbers after 30–60 days of 100–200 g pulp equivalent.",
+      "BG_COLOR": "" 
+    },
+    { 
+      "CONTENT": "**Lipid and blood sugar regulation**\n\nAcai may help regulate blood sugar and metabolism by improving insulin sensitivity and lowering post-meal glucose in overweight people, which could reduce type 2 diabetes risk. Its compounds also influence lipid metabolism and reduce oxidative stress, supporting healthier weight and metabolic markers and helping prevent conditions like metabolic syndrome, dyslipidemia, and fatty liver.\n\n- Lab findings: acai extract prevented fat buildup in liver cell models (reduced lipid droplet accumulation) and cut fat storage by about 40% in inflamed primary adipocytes, showing strong antidyslipidemic and anti‑obesity potential.",
+      "BG_COLOR": "" 
+    },
+    { 
+      "CONTENT": "**Skin Health and Anti-Aging**\n\nAcai’s antioxidants, notably anthocyanins and vanillic acid, protect skin from free‑radical damage caused by UV light and pollution, helping prevent premature aging, reduce wrinkles, improve complexion, and support skin moisture retention. \n\n- Study highlights: preclinical data show acai extracts accelerated scratch‑wound healing within 24 hours and demonstrate anti‑proliferative activity, suggesting potential benefits for tissue repair and future dermatological research.",
+      "BG_COLOR": "" 
+    },
+    {  
+      "CONTENT": "**Detox and Gut Health**\n\nAcai is high in fiber, which has a prebiotic effect, feeding good gut bacteria and helping the body clear some toxins.  Added sugar cancels many of acai’s health benefits. Besides digestive support, early-stage research has found initial evidence of antimicrobial activity and effects on certain disease markers.",
+      "BG_COLOR": "" 
+    },
+    { 
+      "TITLE": "### Possible Negative Effects (The ''What to Avoid'')", 
+      "CONTENT": "\n\n- Acai berries contain purines, which the body breaks down into uric acid. For individuals prone to gout or kidney issues, high levels of uric acid can trigger painful flare-ups.\n\n- Avoid taking it at the same time as iron supplements or iron‑rich meals to prevent interference with iron absorption. Absorption of iron from various iron compounds is reduced by approximately **70%**.  Separate meals by 2-4h.\n\n- Should not be combined with excessive added simple sugars, such as high-fructose corn syrup, honey, or overly sweetened concentrated juices. The core metabolic benefit of acai rests on its low natural sugar content.\n\n- Do not blend your acai smoothie with products containing processed seed oils like soybean, corn, or canola oil. These are high in pro-inflammatory omega-6 fats.",
+      "BG_COLOR": "#F4F5F8" 
+    },
+    { 
+      "TITLE": "### When to Consume ", 
+      "CONTENT": "Acai’s key compounds, polyphenols, are absorbed quickly and usually reach peak levels in the blood about 45 minutes to 4 hours after you eat them, then fall again within hours. Because their effect is short-lived, acai works best as a regular part of your diet rather than an occasional boost.\n\nTake acai in the morning or around workouts because its healthy fats, fiber, and carbohydrates provide steady energy. Avoid large doses near bedtime. Dosage recommendations 1-2g per day. ",
+      "BG_COLOR": "" 
+    },
+    { 
+      "TITLE": "### How to Consume", 
+      "CONTENT": "Acai’s key antioxidants are absorbed slowly and not completely, so mix the powder with fat and fiber to get more into your bloodstream.\n\n- Combine acai with vitamin C, vitamin E, or selenium to boost antioxidant effects. Good mixers are non‑dairy yogurt, almond or other nut milks, and seeds like chia or flax.\n\n- Simple idea: make acai overnight oats with rolled oats, flaxseed meal, chia seeds, and a spoonful of nut butter—fat plus fiber in one bowl.",
+      "BG_COLOR": "#F4F5F8" 
+    },
+    { 
+      "TITLE": "### Synergistic Nootropic Combinations", 
+      "CONTENT": "\n\n\nAcai’s most powerful antioxidants are **fat-soluble**, meaning they’re absorbed best when paired with healthy fats. Add almond, sprinkle chia, walnuts, flaxseeds,  or hemp seeds, or blend in a bit of avocado or coconut milk. These ingredients not only enhance absorption but also make your smoothie richer and creamier.\n\nCombining with other antioxidant-rich foods creates a stronger defense against oxidative stress and inflammation. Mix it with blueberries, raspberries, or blackberries for an extra antioxidant punch. Cacao nibs or dark chocolate chips add crunch and more flavonoids for heart and skin health.\n\n**Vitamin C** protects acai’s delicate antioxidants and boosts collagen for healthier skin. \n\nPairing with **fiber** and **protein** supports digestion, balances blood sugar, and helps maintain energy. Add oats, granola, flaxseed meal, or Greek yogurt to keep you full and your gut happy.",
+      "BG_COLOR": "" 
     }
+  ],
+  "CALL_TO_ACTION": {
+    "TITLE": "Our app is available for any device",
+    "SUBTITLE": "Download the app right now and start tracking your mood changes even within the same day",
+    "ALT": "Access to statistics without an iPhone"
+  }
 }

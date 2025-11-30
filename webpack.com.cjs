@@ -123,6 +123,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/selenium.ejs", filename: "vitamin/selenium.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/sodium.ejs", filename: "vitamin/sodium.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/zinc.ejs", filename: "vitamin/zinc.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/vitamin/acai.ejs", filename: "vitamin/acai.html", inject: "body" }),
         new HtmlWebpackPlugin({ template: "./src/template/en/career/business-analyst.ejs", filename: "careers/business-analyst.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/career/copywriter.ejs", filename: "careers/copywriter.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/career/designer.ejs", filename: "careers/designer.html", inject: "body", }),
@@ -177,6 +178,7 @@ module.exports = {
                 { context: "src/data/", from: "*.json", to: "data" },
                 { context: "src/data/team/", from: "*.json", to: "data/team" },
                 { context: "src/data/article/emotion/", from: "**/*.json", to: "data/article/emotion/[path][name][ext]" },
+                { context: "src/data/article/vitamin/", from: "**/*.json", to: "data/article/vitamin/[path][name][ext]" },
                 { context: "src/img/page/article/", from: "**/*", to: "img/page/article" },
             ],
             options: {

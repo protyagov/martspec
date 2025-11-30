@@ -78,8 +78,7 @@ export function App() {
     
                 if (pagePath === "vitamin") return <VitaminElement id={currentPath} />;
             if (pagePath === "careers") return <VacancyDetails position={currentPath} />;
-            if (pagePath === "emotion") return <Article emotion={currentPath} />;
-
+            if (pagePath === "emotion") return <Article articleType="emotion" articleId={currentPath} />;
             return <Error_404 />;
     }
 }

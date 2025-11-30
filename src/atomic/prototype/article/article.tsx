@@ -12,23 +12,28 @@ import Header from "@/atomic/organism/header";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
-const Article = ({ emotion }: { emotion: string }) => {
+interface ArticleProps {
+    articleType: "emotion" | "vitamin"; 
+    articleId: string;                  
+}
+
+const Article = ({ articleType, articleId }: ArticleProps) => {
     const [articleData, setArticleData] = useState<IArticleModel | null>(null);
     const items = useBreadcrumbs();
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`/data/article/emotion/${emotion}/${emotion}-${Locale.language}.json`);
+                const response = await fetch(`/data/article/${articleType}/${articleId}/${articleId}-${Locale.language}.json`);
                 if (!response.ok) throw new Error("Failed to load article");
-                const emotionData: IArticleModel = await response.json();
-                setArticleData(emotionData);
+                const Data: IArticleModel = await response.json();
+                setArticleData(Data);
             } catch (error) {
                 console.error("Error", error);
             }
         };
         fetchData();
-    }, [emotion]);
+    }, [articleType, articleId]);
 
     const appId = getAppId();
 
@@ -127,7 +132,11 @@ const Article = ({ emotion }: { emotion: string }) => {
                     subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}
                     appId={appId}
                     appDownloadTitle={_("ANXIETY.DWN")}
-                    imgSrc="/img/page/article/call-to-action/call-to-action-en.webp"
+                    imgSrc={
+                        articleType === "emotion" 
+                            ? "/img/page/article/call-to-action/call-to-action-en.webp"
+                            : "/img/org/call-to-action/vitamin/Img-CallToAction-en.webp"
+                    }
                     imgAlt={articleData?.CALL_TO_ACTION.ALT}
                 />
             </section>
