@@ -2,6 +2,8 @@ import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
+import ReactMarkdown from "react-markdown";
+import Article from "@/atomic/prototype/article/article";
 
 interface VitaminElementProps {
     id: string;
@@ -35,6 +37,10 @@ const VIT_AGE = [
 
 export default function VitaminElement(props: VitaminElementProps) {
     const id = props.id.toUpperCase();
+    
+if (typeof window !== 'undefined' && (window as any).__IS_ARTICLE__) {
+    return <Article articleType="vitamin" articleId={props.id} />;
+}
 
     const [data, setData] = React.useState<VitaminElement | null>(null);
 
@@ -225,7 +231,7 @@ export default function VitaminElement(props: VitaminElementProps) {
                                 <div className="col">
                                     <table className="table vit-table vit-charts">
                                         <tbody>
-                                            {Object.entries(data.FOOD_100G).map(([food, g], idx, arr) => {
+                                            {Object.entries(data.FOOD_100G || {}).map(([food, g], idx, arr) => {
                                                 let max = getValueForAmount(0, arr[0][1]);
 
                                                 return (
