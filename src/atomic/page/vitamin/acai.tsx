@@ -18,7 +18,7 @@ export default function AcaiPowder() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`/data/article/vitamin/acai-powder/acai-powder-${Locale.language}.json`);
+                const response = await fetch(`/src/data/article/vitamin/acai/acai-${Locale.language}.json`);
                 if (!response.ok) throw new Error("Failed to load article");
                 const vitaminData: IArticleModel = await response.json();
                 setArticleData(vitaminData);
@@ -126,16 +126,7 @@ export default function AcaiPowder() {
                 })}
             </div>
 
-            <section className="article__container article__text">
-                <CallToAction
-                    title={articleData?.CALL_TO_ACTION.TITLE ?? ""}
-                    subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}
-                    appId={appId}
-                    appDownloadTitle={_("VITAMIN.DWN")}
-                    imgSrc={articleData?.CALL_TO_ACTION.IMG_URL || "/img/page/vitamin/call-to-action/call-to-action-en.webp"}
-                    imgAlt={articleData?.CALL_TO_ACTION.ALT}
-                />
-            </section>
+
 
             <Footer />
             <ScrollButton />

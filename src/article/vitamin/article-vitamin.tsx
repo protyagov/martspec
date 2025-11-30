@@ -7,11 +7,12 @@ import { IArticleModel } from "@/atomic/prototype/article/interfaces";
 import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
 import ScrollButton from "@/atomic/atom/scroll-button";
-import CallToAction from "@/atomic/organism/call-to-action-new";
+import Header from "@/atomic/organism/header";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
+import CallToAction from "@/atomic/organism/call-to-action-new";
 
-const VitaminArticle = ({ vitamin }: { vitamin: string }) => {
+const ArticleVitamin = ({ vitamin }: { vitamin: string }) => {
     const [articleData, setArticleData] = useState<IArticleModel | null>(null);
     const items = useBreadcrumbs();
 
@@ -20,18 +21,19 @@ const VitaminArticle = ({ vitamin }: { vitamin: string }) => {
             try {
                 const response = await fetch(`/data/article/vitamin/${vitamin}/${vitamin}-${Locale.language}.json`);
                 if (!response.ok) throw new Error("Failed to load article");
-                const vitaminData: IArticleModel = await response.json();
-                setArticleData(vitaminData);
+                const emotionData: IArticleModel = await response.json();
+                setArticleData(emotionData);
             } catch (error) {
                 console.error("Error", error);
             }
-        };
+    };
         fetchData();
     }, [vitamin]);
 
+
     const appId = getAppId();
 
-    return (
+        return (
         <div>
             <NavigationBar />
 
@@ -42,14 +44,11 @@ const VitaminArticle = ({ vitamin }: { vitamin: string }) => {
             </div>
 
             <div className="article__container">
-                {/* Используем HEADER.TITLE вместо TITLE */}
-                <h1 className="article-title">{articleData?.HEADER.TITLE}</h1>
-                
-                {/* Используем IMG_SRC вместо IMG_URL */}
-                {articleData?.IMG_SRC && (
+                <h1 className="article-title">{articleData?.TITLE}</h1>
+                {articleData?.IMG_URL && (
                     <img
                         className="img-fluid article__image"
-                        src={articleData?.IMG_SRC ?? ""}
+                        src={articleData?.IMG_URL ?? ""}
                         alt={articleData?.IMG_ALT}
                         width={1300}
                         height={420}
@@ -109,7 +108,7 @@ const VitaminArticle = ({ vitamin }: { vitamin: string }) => {
                                                 <img
                                                     className="img-fluid"
                                                     src={item.RIGHT_COLUMN.IMG_SRC}
-                                                    alt={item.RIGHT_COLUMN.IMG_ALT || ""}
+                                                    alt={item.RIGHT_COLUMN.IMG_ALT}
                                                     width={400}
                                                     height={400}
                                                 />
@@ -128,8 +127,8 @@ const VitaminArticle = ({ vitamin }: { vitamin: string }) => {
                     title={articleData?.CALL_TO_ACTION.TITLE ?? ""}
                     subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}
                     appId={appId}
-                    appDownloadTitle={_("VITAMIN.DWN")}
-                    imgSrc={articleData?.CALL_TO_ACTION.IMG_URL || "/img/page/vitamin/call-to-action/call-to-action-en.webp"}
+                    appDownloadTitle={_("ANXIETY.DWN")}
+                    imgSrc="/img/page/article/call-to-action/call-to-action-en.webp"
                     imgAlt={articleData?.CALL_TO_ACTION.ALT}
                 />
             </section>
@@ -140,4 +139,4 @@ const VitaminArticle = ({ vitamin }: { vitamin: string }) => {
     );
 };
 
-export default VitaminArticle;
+export default ArticleVitamin;

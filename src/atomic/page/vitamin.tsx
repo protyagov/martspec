@@ -385,8 +385,6 @@ export default function Vitamin() {
                             </div>
                         </div>
                     </div>
-                    
-                    {/* СТАРЫЕ ВИТАМИНЫ */}
                     {vitamins.filter(group => group.groupName !== "FOODADDITIVES").map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
                         <section key={`vitamins-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mb-0">
                             <div className="col-12 d-flex flex-column">
@@ -423,8 +421,6 @@ export default function Vitamin() {
                             </div>
                         </section>
                     ))}
-
-                    {/* НОВЫЕ СТАТЬИ (Food Additives) */}
                     {vitamins.filter(group => group.groupName === "FOODADDITIVES").map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
                         <section key={`articles-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mb-0">
                             <div className="col-12 d-flex flex-column">
@@ -447,7 +443,7 @@ export default function Vitamin() {
                                                         text: _("VITAMIN.BTN_GO"),
                                                         href: COMING_SOON_PAGES.has(article)
                                                             ? Locale.i18nLink("coming-soon")
-                                                            : Locale.i18nLink(`vitamin/${article.toLowerCase()}`), // ← меняем на article/
+                                                            : Locale.i18nLink(`vitamin/${article.toLowerCase()}`),
                                                     }}
                                                     bgColor={bgColor}
                                                     primaryColor={primaryColor}

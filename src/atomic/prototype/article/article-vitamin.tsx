@@ -7,12 +7,11 @@ import { IArticleModel } from "./interfaces";
 import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
 import ScrollButton from "@/atomic/atom/scroll-button";
-import CallToAction from "@/atomic/organism/call-to-action-new";
 import Header from "@/atomic/organism/header";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
-const ArticleVit = ({ vitamin }: { vitamin: string }) => {
+const ArticleVitamin = ({ vitamin }: { vitamin: string }) => {
     const [articleData, setArticleData] = useState<IArticleModel | null>(null);
     const items = useBreadcrumbs();
 
@@ -21,14 +20,15 @@ const ArticleVit = ({ vitamin }: { vitamin: string }) => {
             try {
                 const response = await fetch(`/data/article/vitamin/${vitamin}/${vitamin}-${Locale.language}.json`);
                 if (!response.ok) throw new Error("Failed to load article");
-                const vitaminData: IArticleModel = await response.json();
-                setArticleData(vitaminData);
+                const emotionData: IArticleModel = await response.json();
+                setArticleData(emotionData);
             } catch (error) {
                 console.error("Error", error);
             }
-        };
+    };
         fetchData();
     }, [vitamin]);
+
 
     const appId = getAppId();
 
@@ -121,16 +121,7 @@ const ArticleVit = ({ vitamin }: { vitamin: string }) => {
                 })}
             </div>
 
-            <section className="article__container article__text">
-                <CallToAction
-                    title={articleData?.CALL_TO_ACTION.TITLE ?? ""}
-                    subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}
-                    appId={appId}
-                    appDownloadTitle={_("ANXIETY.DWN")}
-                    imgSrc="/img/page/article/call-to-action/call-to-action-en.webp"
-                    imgAlt={articleData?.CALL_TO_ACTION.ALT}
-                />
-            </section>
+
 
             <Footer />
             <ScrollButton />
@@ -138,4 +129,4 @@ const ArticleVit = ({ vitamin }: { vitamin: string }) => {
     );
 };
 
-export default ArticleVit;
+export default ArticleVitamin;
