@@ -33,7 +33,22 @@ interface VitaminGroup {
     linkHoverColor: React.CSSProperties["color"];
     itemList: string[];
 }
-
+const COMING_SOON_PAGES = new Set([
+            "CHAGA_MUSHROOM",
+            "CURCUMIN", 
+            "ACAI",
+            "ASTRAGALUS",
+            "LIONS_MANE",
+            "COLLAGEN_PEPTIDES",
+            "ASHWAGANDHA_EXTRACT",
+            "GINKGO_BILOBA",
+            "TURKEY_TAIL",
+            "MACA",
+            "FIREWEED_TEA",
+            "CORDYCEPS_POWDER",
+            "COCOA_POWDER",
+            "KOMBUCHA"
+]);
 const vitamins: VitaminGroup[] = [
     {
         groupName: "VITAMIN_FAT",
@@ -95,6 +110,33 @@ const vitamins: VitaminGroup[] = [
             "SELENIUM",
             "SODIUM",
             "ZINC",
+        ],
+    },
+    {
+        groupName: "FOODADDITIVES",
+        header: {
+            bgImg: { src: "/img/page/vitamin/vitamin-list-header-FoodAdditives-bg.svg", width: 80, height: 110 },
+            mobileBgResized: true,
+        },
+        bgImg: { src: "/img/page/vitamin/vitamin-card-FoodAdditives-bg.png", width: 100, height: 160 },
+        bgColor: "#ECD6EAA3",
+        primaryColor: "#AD43D7",
+        linkHoverColor: "#CB30E0",
+        itemList: [
+            "ACAI",
+            "ASHWAGANDHA_EXTRACT", 
+            "ASTRAGALUS",
+            "CHAGA_MUSHROOM",
+            "COCOA_POWDER",
+            "COLLAGEN_PEPTIDES",
+            "CORDYCEPS_POWDER",
+            "CURCUMIN",
+            "FIREWEED_TEA",
+            "GINKGO_BILOBA",
+            "KOMBUCHA",
+            "LIONS_MANE",
+            "MACA",
+            "TURKEY_TAIL"
         ],
     },
 ];
@@ -344,7 +386,7 @@ export default function Vitamin() {
                             </div>
                         </div>
                     </div>
-
+                    
                     {vitamins.map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
                         <section key={`vitamins-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mb-0">
                             <div className="col-12 d-flex flex-column">
@@ -365,7 +407,9 @@ export default function Vitamin() {
                                                     description={_(`VITAMIN.${vit}.DESK`)}
                                                     actionLink={{
                                                         text: _("VITAMIN.BTN_GO"),
-                                                        href: Locale.i18nLink(`vitamin/${vit.toLowerCase()}`),
+                                                        href: COMING_SOON_PAGES.has(vit)
+                                                            ? Locale.i18nLink("coming-soon")
+                                                            : Locale.i18nLink(`vitamin/${vit.toLowerCase()}`),
                                                     }}
                                                     bgColor={bgColor}
                                                     primaryColor={primaryColor}

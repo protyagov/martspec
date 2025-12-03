@@ -249,6 +249,10 @@
             "SHORT": "Eletrólito",
             "DESC": "Os electrólitos são minerais vitais que desempenham papéis cruciais na manutenção de funções corporais adequadas, como o equilíbrio de fluidos, a função nervosa e a contracção muscular. Uma dieta equilibrada com alimentos ricos em nutrientes ajuda a manter os níveis essenciais de electrólitos para uma saúde óptima."
         },
+        "FOODADDITIVES": {
+            "NAME": "Suplementos Alimentares",
+            "SHORT": "Suplemento"
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamina",
@@ -927,6 +931,76 @@
             "FACT_10": "Pode se defender contra queimaduras solares",
             "FACT_11": "O zinco e o cobre interferem na absorção um do outro, portanto, recomenda-se tomá-los em horários diferentes, como de manhã e à noite",
             "FACT_12": "Ajuda a produzir melanina, um pigmento que protege a retina, e apoia a conversão da vitamina A em uma forma que o olho pode usar"
+        },
+        "CHAGA_MUSHROOM": {
+            "HEAD": "Chg",
+            "NAME": "Cogumelo Chaga",
+            "DESK": "Chaga é um cogumelo medicinal incrível com propriedades imunomoduladoras e antioxidantes pronunciadas."
+        },
+        "CURCUMIN": {
+            "HEAD": "Cur",
+            "NAME": "Curcumina",
+            "DESK": "Açafrão-da-terra é uma especiaria poderosa com muitos benefícios potenciais para a saúde."
+        },
+        "ACAI": {
+            "HEAD": "Aci",
+            "NAME": "Açaí",
+            "DESK": "Açaí é uma baga colhida do palmiteiro nas florestas tropicais da América do Sul, um produto com composição única e grande potencial terapêutico."
+        },
+        "ASTRAGALUS": {
+            "HEAD": "Asg",
+            "NAME": "Astragalus",
+            "DESK": "Astragalus apoia a saúde do sistema imunológico ao aumentar a produção de glóbulos brancos e regular os níveis de citocinas, promovendo uma resposta imune eficaz mas equilibrada."
+        },
+        "LIONS_MANE": {
+            "HEAD": "Lmn",
+            "NAME": "Cogumelo Juba de Leão",
+            "DESK": "O cogumelo Juba de Leão contém compostos naturais poderosos que ajudam a combater tanto a inflamação quanto os danos oxidativos."
+        },
+        "COLLAGEN_PEPTIDES": {
+            "HEAD": "Clp",
+            "NAME": "Peptídeos de colágeno",
+            "DESK": "O colágeno é a principal proteína estrutural do corpo (representando cerca de 30% da proteína total no corpo), conferindo força e elasticidade à pele, ossos, ligamentos e cartilagens."
+        },
+        "ASHWAGANDHA_EXTRACT": {
+            "HEAD": "Awe",
+            "NAME": "Extrato de Ashwagandha",
+            "DESK": "Ashwagandha é uma das plantas mais importantes da medicina ayurvédica, usada há mais de 3000 anos para fortalecer o corpo, restaurar o equilíbrio e promover a longevidade."
+        },
+        "GINKGO_BILOBA": {
+            "HEAD": "Gkb",
+            "NAME": "Ginkgo biloba",
+            "DESK": "Ginkgo biloba pode ajudar a reduzir a ansiedade e manter o equilíbrio emocional."
+        },
+        "TURKEY_TAIL": {
+            "HEAD": "Tkt",
+            "NAME": "Cogumelo Cauda de Peru",
+            "DESK": "Tem sido amplamente estudado pela ciência como um cogumelo medicinal conhecido por suas propriedades imunomoduladoras e adaptogênicas."
+        },
+        "MACA": {
+            "HEAD": "Mca",
+            "NAME": "Maca",
+            "DESK": "A maca é mais conhecida por sua capacidade de apoiar o equilíbrio hormonal e a saúde reprodutiva - ela faz isso naturalmente, não contendo hormônios vegetais."
+        },
+        "FIREWEED_TEA": {
+            "HEAD": "Frw",
+            "NAME": "Chá de Fireweed",
+            "DESK": "Fornece um suporte poderoso para a saúde intestinal e digestiva graças à sua combinação única de compostos naturais."
+        },
+        "CORDYCEPS_POWDER": {
+            "HEAD": "Crp",
+            "NAME": "Pó de Cordyceps",
+            "DESK": "Este cogumelo único tem sido altamente valorizado na medicina tradicional chinesa por sua capacidade de aumentar a energia, a resistência e a vitalidade geral."
+        },
+        "COCOA_POWDER": {
+            "HEAD": "Ccp",
+            "NAME": "Pó de cacau",
+            "DESK": "Polifenóis e flavonoides naturais ajudam a reduzir a inflamação crônica e protegem as células do corpo de danos que contribuem para o envelhecimento e doenças."
+        },
+        "KOMBUCHA": {
+            "HEAD": "Cmb",
+            "NAME": "Cogumelo de chá Kombucha",
+            "DESK": "Promove a restauração do microbioma intestinal e melhora a absorção de nutrientes."
         }
     },
     "WAIST": {
