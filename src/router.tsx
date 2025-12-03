@@ -12,13 +12,9 @@ import { Locale } from "@/i18n/locale";
 import BodyZinc from "@/atomic/page/bodyzinc";
 import BodySize from "@/atomic/page/bodysize";
 import Emotion from "@/atomic/page/emotion";
-import Productivity from "@/atomic/page/emotion/productivity";
 import Biorhythms from "@/atomic/page/emotion/biorhythms";
 import About from "@/atomic/page/about";
 import Team from "@/atomic/page/team";
-import Anxiety from "@/atomic/page/emotion/anxiety";
-import Independence from "@/atomic/page/emotion/independence";
-import Openness from "@/atomic/page/emotion/openness";
 import ColorTest from "@/atomic/page/emotion/color-test";
 import Careers from "@/atomic/page/careers";
 import VacancyDetails from "@/atomic/prototype/vacancy-details";
@@ -55,8 +51,6 @@ export function App() {
             return <Emotion />;
         case "/emotion/biorhythms":
             return <Biorhythms />;
-        case "/emotion/openness":
-            return <Openness />;
         case "/emotion/color-test":
             return <ColorTest />;
         case "/bodysize":

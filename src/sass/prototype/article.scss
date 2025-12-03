@@ -107,7 +107,8 @@
   font-size: 1.5rem;
 }
 
-.article__container > .article-content:first-of-type .article-section[style*="--marker-color: #BA90F9"] {
+.article__container > .article-content:first-of-type .article-section[style*="--marker-color: #BA90F9"],
+.article__container > .article-content:first-of-type .article-section[style*="--marker-color: #76E449"] {
   padding-top: 0;
   padding-bottom: 0;
 }
