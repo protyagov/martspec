@@ -3,37 +3,30 @@ import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import _, { Locale } from "@/i18n/locale";
 import { getAppId } from "@/service/AppleService";
-import { IArticleModel } from "./interfaces";
+import { IArticleModel } from "@/atomic/prototype/article/interfaces";
 import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
 import ScrollButton from "@/atomic/atom/scroll-button";
-import CallToAction from "@/atomic/organism/call-to-action-new";
-import Header from "@/atomic/organism/header";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
-interface ArticleProps {
-    articleType: "emotion" | "vitamin"; 
-    articleId: string;                  
-}
-
-const Article = ({ articleType, articleId }: ArticleProps) => {
+export default function AcaiPowder() {
     const [articleData, setArticleData] = useState<IArticleModel | null>(null);
     const items = useBreadcrumbs();
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`/data/article/${articleType}/${articleId}/${articleId}-${Locale.language}.json`);
+                const response = await fetch(`/src/data/article/vitamin/acai/acai-${Locale.language}.json`);
                 if (!response.ok) throw new Error("Failed to load article");
-                const Data: IArticleModel = await response.json();
-                setArticleData(Data);
+                const vitaminData: IArticleModel = await response.json();
+                setArticleData(vitaminData);
             } catch (error) {
                 console.error("Error", error);
             }
         };
         fetchData();
-    }, [articleType, articleId]);
+    }, []);
 
     const appId = getAppId();
 
@@ -48,20 +41,23 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
             </div>
 
             <div className="article__container">
-                <h1 className="article-title">{articleData?.TITLE}</h1>
-                {articleData?.IMG_URL && (
+                <h1 className="article-title">{articleData?.HEADER.TITLE}</h1>
+                
+                {articleData?.IMG_SRC && (
                     <img
                         className="img-fluid article__image"
-                        src={articleData?.IMG_URL ?? ""}
+                        src={articleData?.IMG_SRC ?? ""}
                         alt={articleData?.IMG_ALT}
                         width={1300}
                         height={420}
                     />
                 )}
+                
                 {articleData?.BODY.map((item, index) => {
                     const hasBg = !!item.BG_COLOR;
                     const markerColor = item.ACCENT_COLOR;
                     const hasRightColumn = !!item.RIGHT_COLUMN;
+                    
                     return (
                         <section key={index} className="article-content">
                             <div
@@ -76,6 +72,7 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                                         <div className="article__section-title">
                                             <ReactMarkdown>{item.TITLE}</ReactMarkdown>
                                         </div>
+                                        
                                         {item.IMG_SRC && (
                                             <img
                                                 className="img-fluid"
@@ -85,6 +82,7 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                                                 height={700}
                                             />
                                         )}
+                                        
                                         <ReactMarkdown
                                             components={{
                                                 blockquote: ({ node, ...props }) => (
@@ -101,18 +99,19 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                                             {item.CONTENT}
                                         </ReactMarkdown>
                                     </div>
-                                    {hasRightColumn && (
+                                    
+                                    {hasRightColumn && item.RIGHT_COLUMN && (
                                         <aside className="article-section__right">
-                                            {item.RIGHT_COLUMN?.CONTENT && (
+                                            {item.RIGHT_COLUMN.CONTENT && (
                                                 <ReactMarkdown>
                                                     {item.RIGHT_COLUMN.CONTENT}
                                                 </ReactMarkdown>
                                             )}
-                                            {item.RIGHT_COLUMN?.IMG_SRC && (
+                                            {item.RIGHT_COLUMN.IMG_SRC && (
                                                 <img
                                                     className="img-fluid"
                                                     src={item.RIGHT_COLUMN.IMG_SRC}
-                                                    alt={item.RIGHT_COLUMN.IMG_ALT}
+                                                    alt={item.RIGHT_COLUMN.IMG_ALT || ""}
                                                     width={400}
                                                     height={400}
                                                 />
@@ -126,25 +125,10 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                 })}
             </div>
 
-            <section className="article__container article__text">
-                <CallToAction
-                    title={articleData?.CALL_TO_ACTION.TITLE ?? ""}
-                    subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}
-                    appId={appId}
-                    appDownloadTitle={_("ANXIETY.DWN")}
-                    imgSrc={
-                        articleType === "emotion" 
-                            ? "/img/page/article/call-to-action/call-to-action-en.webp"
-                            : "/img/org/call-to-action/vitamin/Img-CallToAction-en.webp"
-                    }
-                    imgAlt={articleData?.CALL_TO_ACTION.ALT}
-                />
-            </section>
+
 
             <Footer />
             <ScrollButton />
         </div>
     );
-};
-
-export default Article;
+}
