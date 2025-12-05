@@ -7,7 +7,6 @@ import { IArticleModel } from "@/atomic/prototype/article/interfaces";
 import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
 import ScrollButton from "@/atomic/atom/scroll-button";
-import CallToAction from "@/atomic/organism/call-to-action-new";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 

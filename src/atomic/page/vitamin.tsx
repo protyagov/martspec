@@ -405,9 +405,7 @@ export default function Vitamin() {
                                                     description={_(`VITAMIN.${vit}.DESK`)}
                                                     actionLink={{
                                                         text: _("VITAMIN.BTN_GO"),
-                                                        href: COMING_SOON_PAGES.has(vit)
-                                                            ? Locale.i18nLink("coming-soon")
-                                                            : Locale.i18nLink(`vitamin/${vit.toLowerCase()}`),
+                                                        href: Locale.i18nLink(`vitamin/${vit.toLowerCase()}`),
                                                     }}
                                                     bgColor={bgColor}
                                                     primaryColor={primaryColor}
