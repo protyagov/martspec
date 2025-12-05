@@ -26,6 +26,7 @@ import ComingSoon from "@/atomic/page/coming-soon";
 import Iron from "@/atomic/page/iron";
 import Article from "@/atomic/prototype/article/article";
 
+const articleVitamins = ["acai"];
 export function App() {
     var redirect = sessionStorage.redirect;
     delete sessionStorage.redirect;
@@ -78,7 +79,12 @@ export function App() {
     
             if (pagePath === "careers") return <VacancyDetails position={currentPath} />;
             if (pagePath === "emotion") return <Article articleType="emotion" articleId={currentPath} />;
-            if (pagePath === "vitamin") return <Article articleType="vitamin" articleId={currentPath} />;
+            if (pagePath === "vitamin") {
+            if (articleVitamins.includes(currentPath.toLowerCase())) {
+            return <Article articleType="vitamin" articleId={currentPath} />;} 
+            else {
+                return <VitaminElement id={currentPath} />;}
+        }
             return <Error_404 />;
     }
 }
