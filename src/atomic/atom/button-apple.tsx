@@ -18,6 +18,8 @@ const ButtonApple: React.FC<ButtonAppleProps> = ({ appId, appDownloadTitle }) =>
         className="ms-btn-apple">
         <img
             src={`/img/atom/button_apple/${bType}/${Locale.language}.svg`}
+            width="150px"
+            height="50px"
             alt={appDownloadTitle}
         />
     </a>
