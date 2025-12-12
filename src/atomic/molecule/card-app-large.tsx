@@ -34,7 +34,7 @@ const CardAppLarge: React.FC<CardAppLargeProps> = ({
 }) => {
   return (
     <div
-      className={`card-app-large d-flex flex-wrap justify-content-between rounded-4 ${
+      className={`card-app-large d-flex flex-wrap justify-content-between rounded-5 ${
         isImageOnLeft ? "flex-row-reverse" : "flex-row"
       }`}
       style={{ backgroundColor }}
@@ -70,7 +70,7 @@ const CardAppLarge: React.FC<CardAppLargeProps> = ({
         <ImageI18N
           src={imageSrc}
           alt={imageAlt}
-          cls="img-fluid rounded-4"
+          cls="img-fluid rounded-5"
           h={342}
           w={559}
         />
