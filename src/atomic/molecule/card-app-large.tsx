@@ -53,7 +53,7 @@ const CardAppLarge: React.FC<CardAppLargeProps> = ({
         </div>
 
         {/* Описание */}
-        <p className="fs-5 mt-4 content">{content}</p>
+        <p className="mt-4 content">{content}</p>
 
         {/* Кнопка */}
         <LinkStyledButton

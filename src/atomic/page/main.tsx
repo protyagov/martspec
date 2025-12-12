@@ -23,11 +23,13 @@ const allApps = Object.values(selectedApps);
 export default function LandingPage() {
     const randomIndex = getRandomArbitrary(0, allApps.length - 1);
     const pick = allApps[randomIndex];
+
     return (
         <div>
             <NavigationBar />
 
-            <div className="ms-s-offset home" style={{ fontSize: "1.5rem" }}>
+            {/* Header */}
+            <div className="container-xl ms-s-offset fs-3 pt-lg-5">
                 <Header
                     title={_("MAIN.HEAD")}
                     rowItems={
@@ -54,27 +56,26 @@ export default function LandingPage() {
                     imgW={550}
                     imgAlt={_("MAIN.ALT")}
                 >
-                    <p className="font-normal mb-1">{_("MAIN.SUBHEAD")}</p>
+                    <p className="mb-1">{_("MAIN.SUBHEAD")}</p>
                 </Header>
             </div>
 
-            <section style={{ fontSize: "1.5rem" }} className="home ms-s-offset home home__text section">
-                <div className="d-flex flex-lg-row flex-column align-items-center p-0 " style={{ gap: "5rem" }}>
-                    <div className="col-lg-6 ms-base-image">
+            {/* Simplify Life Section */}
+            <section className="container-xl ms-s-offset fs-3 pt-4">
+                <div className="d-flex flex-column flex-lg-row align-items-center gap-5 p-0">
+                    <div className="col-lg-6">
                         <ImageI18N
                             src="/img/page/main/Img-Simplify-life.webp"
                             w={620}
                             h={390}
-                            cls="ms-base-image mt-mob-xs"
+                            cls="img-fluid rounded mt-3"
                             alt={_("MAIN.ALT2")}
                         />
                     </div>
                     <div>
-                        <h2 className="mb-5 m-0" style={{ fontSize: "3.08rem" }}>
-                            {_("MAIN.HEAD2")}
-                        </h2>
+                        <h2 className="mb-5 m-0 fs-1">{_("MAIN.HEAD2")}</h2>
                         <ul
-                            className="d-flex flex-column gap-4 simplify-life-list"
+                            className="d-flex flex-column gap-3"
                             style={{ listStyleType: "disc", paddingLeft: "1.4rem" }}
                         >
                             <li>
@@ -94,11 +95,13 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            <section style={{ fontSize: "1.5rem" }} className="home ms-s-offset section">
-                <h1 className="mb-5 pb-5 display-5 h1 fw-bold">{_("MAIN.OUR_PRODUCTS")}</h1>
+            {/* Our Products Section */}
+            <section className="container-xl ms-s-offset fs-3 pt-4">
+                <h1 className="display-5 fw-bold mb-5 pb-5">{_("MAIN.OUR_PRODUCTS")}</h1>
+
+                {/* Large Card - Vitamin */}
                 <div className="row mb-5">
                     <div className="col-12">
-                        {/* Витамин */}
                         <CardAppLarge
                             backgroundColor="#F9F9FF"
                             iconSrc="/img/page/vitamin/logo-vitamin.svg"
@@ -118,9 +121,9 @@ export default function LandingPage() {
                     </div>
                 </div>
 
-                <div style={{ fontSize: "1.5rem" }} className="row g-3 d-flex align-items-stretch mb-5">
-                    <div className="col-xl col-sm d-flex">
-                        {/* Нутриенты */}
+                {/* Small Cards Row */}
+                <div className="row g-3 mb-5">
+                    <div className="col-sm col-xl d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/vitamin/vitamin-ring-icon-main-page.svg"
@@ -136,8 +139,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div style={{ fontSize: "1.5rem" }} className="col-xl col-sm d-flex">
-                        {/* Электролит */}
+                    <div className="col-sm col-xl d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/electrolyte/electrolyte-icon-main-page.png"
@@ -153,8 +155,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div style={{ fontSize: "1.5rem" }} className="col-xl col-sm-12 d-flex">
-                        {/* Цинк */}
+                    <div className="col-sm-12 col-xl d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/zinc/zinc-icon-main-page.svg"
@@ -172,8 +173,8 @@ export default function LandingPage() {
                     </div>
                 </div>
 
-                <div style={{ fontSize: "1.5rem" }} className="col-12 mb-5">
-                    {/* Фигура */}
+                {/* Additional Cards */}
+                <div className="col-12 mb-5">
                     <CardAppLarge
                         backgroundColor="#F9F9FF"
                         iconSrc="/img/page/body-size/bodysize-icon-main-page.svg"
@@ -181,20 +182,16 @@ export default function LandingPage() {
                         title={_("SIZE.HEAD")}
                         subtitle={_("SIZE.SUBHEAD")}
                         content={_("SIZE.TEXT")}
-                        button={{
-                            text: _("SIZE.BUTTON_OPEN"),
-                            link: Locale.i18nLink("bodysize"),
-                            color: "#1686FF",
-                        }}
+                        button={{ text: _("SIZE.BUTTON_OPEN"), link: Locale.i18nLink("bodysize"), color: "#1686FF" }}
                         imageSrc="/img/page/body-size/body-size-main-page.webp"
                         imageAlt={_("VITAMIN.IMG")}
                         isImageOnLeft={true}
                     />
                 </div>
 
+                {/* More Small Cards - Body Mass / Waist */}
                 <div className="row mb-5">
-                    <div style={{ fontSize: "1.5rem" }} className="col-12 col-md-6 mb-3 mb-md-0">
-                        {/* Вес */}
+                    <div className="col-12 col-md-6 mb-3 mb-md-0 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/body-mass/body-mass-icon-main-page.svg"
@@ -210,8 +207,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-12 col-md-6" style={{ fontSize: "1.5rem" }}>
-                        {/* Талия */}
+                    <div className="col-12 col-md-6 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/waistline/waist-icon-main-page.svg"
@@ -229,8 +225,8 @@ export default function LandingPage() {
                     </div>
                 </div>
 
-                <div style={{ fontSize: "1.5rem" }} className="col-12 mb-5">
-                    {/* Эмоция */}
+                {/* Emotion Card */}
+                <div className="col-12 mb-5">
                     <CardAppLarge
                         backgroundColor="#F9F9FF"
                         iconSrc="/img/page/emotion/emotion-icon-main-page.png"
@@ -238,20 +234,16 @@ export default function LandingPage() {
                         title={_("EMOTION.HEAD")}
                         subtitle={_("EMOTION.SUBHEAD")}
                         content={_("EMOTION.TEXT")}
-                        button={{
-                            text: _("EMOTION.BUTTON_OPEN"),
-                            link: Locale.i18nLink("emotion"),
-                            color: "#1686FF",
-                        }}
+                        button={{ text: _("EMOTION.BUTTON_OPEN"), link: Locale.i18nLink("emotion"), color: "#1686FF" }}
                         imageSrc="/img/page/emotion/Img-Our-Products-Emotion-en.webp"
                         imageAlt={_("EMOTION.IMG")}
                         isImageOnLeft={false}
                     />
                 </div>
 
-                <div style={{ fontSize: "1.5rem" }} className="row g-3 d-flex align-items-stretch mb-5">
-                    <div className="col-xl-4 col-sm-6 d-flex">
-                        {/* Магний */}
+                {/* Mineral Cards */}
+                <div className="row g-3 mb-5">
+                    <div className="col-sm-6 col-xl-4 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/magnesium-icon-main-page.svg"
@@ -268,8 +260,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-xl-4 col-sm-6 d-flex">
-                        {/* Кальций */}
+                    <div className="col-sm-6 col-xl-4 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/calcium-icon-main-page.svg"
@@ -286,8 +277,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-xl-4 col-sm-12 d-flex">
-                        {/* Железо */}
+                    <div className="col-sm-12 col-xl-4 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/iron-icon-main-page.svg"
@@ -305,8 +295,9 @@ export default function LandingPage() {
                         />
                     </div>
                 </div>
-                <div className="col-12 mb-5 energy-card">
-                    {/* Энергия */}
+
+                {/* Energy Card */}
+                <div className="col-12 mb-5">
                     <CardAppLarge
                         backgroundColor="#F9F9FF"
                         iconSrc="/img/page/energy/energy-icon-main-page.svg"
@@ -327,13 +318,11 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            <section className="home ms-s-offset" style={{ fontSize: "1.5rem", marginTop: "150px" }}>
+            {/* Review Section */}
+            <section className="container-xl ms-s-offset fs-3 mt-5">
                 <Review
                     appId={pick.id}
-                    codes={{
-                        countryCode: Locale.countryCode,
-                        languageCode: Locale.language,
-                    }}
+                    codes={{ countryCode: Locale.countryCode, languageCode: Locale.language }}
                     text={{
                         head: _("REVIEW.HEAD"),
                         description: _("REVIEW.DESCRIPTION"),
@@ -352,6 +341,7 @@ export default function LandingPage() {
                     hasUnderlineHover={false}
                 />
             </section>
+
             <Footer />
             <ScrollButton />
         </div>

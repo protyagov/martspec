@@ -44,7 +44,7 @@ const CardAppSmall: React.FC<CardAppSmallProps> = ({
       </div>
 
       {/* Описание */}
-      <p className="fs-5 mb-4">{content}</p>
+      <p className="mb-4">{content}</p>
 
       {/* Кнопка с использованием LinkStyledButton или ButtonChevronRight */}
       {button.buttonType === "LinkStyledButton" ? (
