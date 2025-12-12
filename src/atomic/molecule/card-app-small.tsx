@@ -29,7 +29,7 @@ const CardAppSmall: React.FC<CardAppSmallProps> = ({
 }) => {
   return (
     <div
-      className="card-app-small d-flex flex-column align-items-start px-4 py-4 rounded-5"
+      className="card-app-small d-flex flex-column align-items-start px-4 py-4 rounded-5 h-100"
       style={{ backgroundColor }}
     >
       {/* Верхняя часть с иконкой, заголовком и подзаголовком */}
@@ -44,7 +44,7 @@ const CardAppSmall: React.FC<CardAppSmallProps> = ({
       </div>
 
       {/* Описание */}
-      <p className="fs-5 mb-5">{content}</p>
+      <p className="mb-4">{content}</p>
 
       {/* Кнопка с использованием LinkStyledButton или ButtonChevronRight */}
       {button.buttonType === "LinkStyledButton" ? (
