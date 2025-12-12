@@ -27,7 +27,7 @@ export default function LandingPage() {
         <div>
             <NavigationBar />
 
-            <div className="ms-s-offset home fs-5">
+            <div className="ms-s-offset home" style={{ fontSize: "1.5rem" }}>
                 <Header
                     title={_("MAIN.HEAD")}
                     rowItems={
@@ -58,7 +58,7 @@ export default function LandingPage() {
                 </Header>
             </div>
 
-            <section className="home ms-s-offset home section fs-5">
+            <section style={{ fontSize: "1.5rem" }} className="home ms-s-offset home home__text section">
                 <div className="d-flex flex-lg-row flex-column align-items-center p-0 " style={{ gap: "5rem" }}>
                     <div className="col-lg-6 ms-base-image">
                         <ImageI18N
@@ -94,7 +94,7 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            <section className="home ms-s-offset section">
+            <section style={{ fontSize: "1.5rem" }} className="home ms-s-offset section">
                 <h1 className="mb-5 pb-5 display-5 h1 fw-bold">{_("MAIN.OUR_PRODUCTS")}</h1>
                 <div className="row mb-5">
                     <div className="col-12">
@@ -118,7 +118,7 @@ export default function LandingPage() {
                     </div>
                 </div>
 
-                <div className="row g-3 d-flex align-items-stretch mb-5">
+                <div style={{ fontSize: "1.5rem" }} className="row g-3 d-flex align-items-stretch mb-5">
                     <div className="col-xl col-sm d-flex">
                         {/* Нутриенты */}
                         <CardAppSmall
@@ -136,7 +136,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-xl col-sm d-flex">
+                    <div style={{ fontSize: "1.5rem" }} className="col-xl col-sm d-flex">
                         {/* Электролит */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -153,7 +153,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-xl col-sm-12 d-flex">
+                    <div style={{ fontSize: "1.5rem" }} className="col-xl col-sm-12 d-flex">
                         {/* Цинк */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -172,7 +172,7 @@ export default function LandingPage() {
                     </div>
                 </div>
 
-                <div className="col-12 mb-5">
+                <div style={{ fontSize: "1.5rem" }} className="col-12 mb-5">
                     {/* Фигура */}
                     <CardAppLarge
                         backgroundColor="#F9F9FF"
@@ -193,7 +193,7 @@ export default function LandingPage() {
                 </div>
 
                 <div className="row mb-5">
-                    <div className="col-12 col-md-6 mb-3 mb-md-0">
+                    <div style={{ fontSize: "1.5rem" }} className="col-12 col-md-6 mb-3 mb-md-0">
                         {/* Вес */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -210,7 +210,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-6" style={{ fontSize: "1.5rem" }}>
                         {/* Талия */}
                         <CardAppSmall
                             backgroundColor="transparent"
@@ -229,7 +229,7 @@ export default function LandingPage() {
                     </div>
                 </div>
 
-                <div className="col-12 mb-5">
+                <div style={{ fontSize: "1.5rem" }} className="col-12 mb-5">
                     {/* Эмоция */}
                     <CardAppLarge
                         backgroundColor="#F9F9FF"
@@ -249,7 +249,7 @@ export default function LandingPage() {
                     />
                 </div>
 
-                <div className="row g-3 d-flex align-items-stretch mb-5">
+                <div style={{ fontSize: "1.5rem" }} className="row g-3 d-flex align-items-stretch mb-5">
                     <div className="col-xl-4 col-sm-6 d-flex">
                         {/* Магний */}
                         <CardAppSmall
@@ -326,8 +326,8 @@ export default function LandingPage() {
                     />
                 </div>
             </section>
-            
-            <section className="home ms-s-offset" style={{marginTop: '150px'}}>
+
+            <section className="home ms-s-offset" style={{ fontSize: "1.5rem", marginTop: "150px" }}>
                 <Review
                     appId={pick.id}
                     codes={{

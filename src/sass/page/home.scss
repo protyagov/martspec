@@ -1,6 +1,10 @@
+@import "font.scss";
+
 .home {
   width: 100%;
   margin: 0 auto;
+  font-family: os3;
+  font-size: 1.5rem !important;
 
   @include media-breakpoint-up(sm) {
     max-width: 576px;
@@ -20,7 +24,11 @@
 
     @include media-breakpoint-up(xxl) {
       max-width: 1320px;
-    }
+    }   
+  }
+
+  .home__text {
+    font-size: 1.5rem;
   }
 
   .section {
