@@ -29,7 +29,7 @@ export default function CallToAction(props: CallToActionProps) {
                 <div className="col-12 text-start col-lg-6 text-lg-start">
                     <h2 className="fs-1 fw-medium mb-3">{_(title)}</h2>
 
-                    {subtitle && <p className="fs-5 mb-4">{_(subtitle)}</p>}
+                    {subtitle && <p className="mb-4">{_(subtitle)}</p>}
 
                     {textListTitle && <h3>{_(textListTitle)}</h3>}
 

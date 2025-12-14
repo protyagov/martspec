@@ -25,7 +25,7 @@ const CardTitleTextButton = ({
                 ))}
             </ul>
 
-            <div className="btn-container">
+            <div className="fs-4 rounded-5 py-2 mt-auto">
                 <LinkStyledButton
                     text={buttonText}  
                     link={buttonLink}  
