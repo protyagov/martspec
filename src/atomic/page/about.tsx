@@ -6,8 +6,6 @@ import Header from "@/atomic/organism/header";
 import ScrollButton from "../atom/scroll-button";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
-import CardTitleText from "@/atomic/molecule/card-title-text";
 import CardIconTitleText from "@/atomic/molecule/card-icon-title-text";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import LinkStyledButton from "@/atomic/atom/link-styled-button";
@@ -16,14 +14,17 @@ import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
 
 export default function About() {
     const items = useBreadcrumbs();
+
     return (
         <>
             <NavigationBar />
 
-            <div className="ms-base-page about">
-                <div className="row">
+            <div className="container-xl ms-s-offset fs-3 pt-lg-5">
+
+                <div className="row mb-3">
                     <Breadcrumb items={items} />
                 </div>
+
                 <Header
                     title={_("ABOUT.HEAD")}
                     imgSrc="/img/story.webp"
@@ -33,16 +34,19 @@ export default function About() {
                     appId={1}
                     appDownloadTitle="Download"
                 >
-                    <p className="font-normal">{_("ABOUT.P1")}</p>
+                    <p className="font-normal mb-0">{_("ABOUT.P1")}</p>
                 </Header>
-                <section>
-                    <div className="row d-flex flex-xxl-nowrap align-items-center justify-content-between gap-5">
-                        <div className="col-12 col-xxl-6 order-2 order-xxl-1 me-xxl-5">
-                            <ImageI18N src="/img/story-start.webp" w={620} h={390} cls="ms-base-image" />
+
+                {/* Story section */}
+                <section className="pt-4">
+                    <div className="row align-items-center g-5">
+                        <div className="col-12 col-xxl-6 order-2 order-xxl-1">
+                            <ImageI18N src="/img/story-start.webp" w={620} h={390} cls="img-fluid rounded mt-3" />
                         </div>
+
                         <div className="col-12 col-xxl-6 order-1 order-xxl-2">
-                            <h2 className="about__start-title">{_("ABOUT.P7")}</h2>
-                            <ul className="d-flex flex-column gap-4 about__list">
+                            <h2 className="mb-5 m-0 fs-1">{_("ABOUT.P7")}</h2>
+                            <ul className="d-flex flex-column gap-3 list-unstyled">
                                 <li>{_("ABOUT.P4")}</li>
                                 <li>{_("ABOUT.P5")}</li>
                                 <li>{_("ABOUT.P6")}</li>
@@ -51,112 +55,117 @@ export default function About() {
                     </div>
                 </section>
 
-                <section className="about-command">
-                    <div className="row">
-                        <div className="d-flex flex-wrap justify-content-between about-command-block">
-                            <div className="col-12 col-xxl-6">
-                                <CardTitleTextButton
-                                    title={_("ABOUT.OURCORE.HEAD1")}
-                                    textContent={[
-                                        _("ABOUT.OURCORE.TEXT1"),
-                                        _("ABOUT.OURCORE.TEXT2"),
-                                        _("ABOUT.OURCORE.TEXT3"),
-                                    ]}
-                                    buttonText={_("CAREERS.BUTTON3")}
-                                    buttonLink={Locale.i18nLink(`bodymass`)}
-                                    buttonColor="#1686FF"
-                                />
-                            </div>
-                            <div className="col-12 col-xxl-5">
-                                <ImageI18N
-                                    src="/img/page/body-mass/mass-header-en.webp"
-                                    w={487}
-                                    h={515}
-                                    cls="ms-base-image mt-mob-xs mb-6"
-                                    alt={_("CAREERS.IMG")}
-                                />
-                            </div>
+                {/* Our Core – Body Mass */}
+                <section className="container-xl fs-3 pt-5">
+                    <div className="row align-items-center g-5 mb-5">
+                        <div className="col-12 col-xxl-6">
+                            <CardTitleTextButton
+                                title={_("ABOUT.OURCORE.HEAD1")}
+                                textContent={[
+                                    _("ABOUT.OURCORE.TEXT1"),
+                                    _("ABOUT.OURCORE.TEXT2"),
+                                    _("ABOUT.OURCORE.TEXT3"),
+                                ]}
+                                buttonText={_("CAREERS.BUTTON3")}
+                                buttonLink={Locale.i18nLink("bodymass")}
+                                buttonColor="#1686FF"
+                            />
                         </div>
-                        <div className="d-flex flex-wrap align-items-center justify-content-between about-command-block">
-                            <div className="col-12 col-xxl-6 order-2 order-xxl-1">
-                                <ImageI18N
-                                    src="/img/page/emotion/emotion-header-img-en.webp"
-                                    w={487}
-                                    h={515}
-                                    cls="ms-base-image mt-mob-xs mb-6"
-                                    alt={_("CAREERS.IMG")}
-                                />
-                            </div>
-                            <div className="col-12 col-xxl-6 order-1 order-xxl-2">
-                                <ul className="d-flex flex-column gap-4 about__list">
-                                    <li>{_("ABOUT.OURCORE.TEXT4")}</li>
-                                    <li>{_("ABOUT.OURCORE.TEXT5")}</li>
-                                    <li>{_("ABOUT.OURCORE.TEXT6")}</li>
-                                </ul>
-                                <div className="btn-container">
-                                    <LinkStyledButton
-                                        text={_("ABOUT.OURCORE.TEXTBTN")}
-                                        link={"/emotion"}
-                                        color="rgb(22, 134, 255)"
-                                        textColor="#fff"
-                                        className="about-link-btn"
-                                    />
-                                </div>
-                            </div>
+
+                        <div className="col-12 col-xxl-5">
+                            <ImageI18N
+                                src="/img/page/body-mass/mass-header-en.webp"
+                                w={487}
+                                h={515}
+                                cls="img-fluid rounded mt-3"
+                                alt={_("CAREERS.IMG")}
+                            />
+                        </div>
+                    </div>
+
+                    {/* Our Core – Emotion */}
+                    <div className="row align-items-center g-5">
+                        <div className="col-12 col-xxl-6 order-2 order-xxl-1">
+                            <ImageI18N
+                                src="/img/page/emotion/emotion-header-img-en.webp"
+                                w={487}
+                                h={515}
+                                cls="img-fluid rounded mt-3"
+                                alt={_("CAREERS.IMG")}
+                            />
+                        </div>
+
+                        <div className="col-12 col-xxl-6 order-1 order-xxl-2">
+                            <ul className="d-flex flex-column gap-3 mb-4 list-unstyled">
+                                <li>{_("ABOUT.OURCORE.TEXT4")}</li>
+                                <li>{_("ABOUT.OURCORE.TEXT5")}</li>
+                                <li>{_("ABOUT.OURCORE.TEXT6")}</li>
+                            </ul>
+
+                            <LinkStyledButton
+                                text={_("ABOUT.OURCORE.TEXTBTN")}
+                                link="/emotion"
+                                color="rgb(22, 134, 255)"
+                                textColor="#fff"
+                                className="link-button fs-4 rounded-5 py-2 px-5 mt-auto"
+                            />
                         </div>
                     </div>
                 </section>
 
-                <section>
-                    <div className="ms-base-new row about-info-section">
-                        <h2>{_("ABOUT.HEAD1")}</h2>
-                        <p className="bottom">{_("ABOUT.DESC1")}</p>
-                        <p className="bottom">{_("ABOUT.DESC2")}</p>
-                        <p className="bottom">{_("ABOUT.DESC3")}</p>
-                        <div className="row about-info-list">
-                            <div className="col-lg-4 d-flex">
-                                <CardIconTitleText
-                                    iconProps={{
-                                        icon: {
-                                            src: "/img/atom/icons/icon-patient-innovation.svg",
-                                            alt: _("ABOUT.CART.ALT1"),
-                                        },
-                                        title: _("ABOUT.CART.TITLE1"),
-                                    }}
-                                    text={_("ABOUT.CART.TEXT1")}
-                                    bgColor="#DDE9FF"
-                                />
-                            </div>
-                            <div className="col-lg-4 d-flex">
-                                <CardIconTitleText
-                                    iconProps={{
-                                        icon: {
-                                            src: "/img/atom/icons/icon-performance-innovation.svg",
-                                            alt: _("ABOUT.CART.ALT2"),
-                                        },
-                                        title: _("ABOUT.CART.TITLE2"),
-                                    }}
-                                    text={_("ABOUT.CART.TEXT2")}
-                                />
-                            </div>
-                            <div className="col-lg-4 d-flex">
-                                <CardIconTitleText
-                                    iconProps={{
-                                        icon: {
-                                            src: "/img/atom/icons/icon-rehabilitation-innovation.svg",
-                                            alt: _("ABOUT.CART.ALT3"),
-                                        },
-                                        title: _("ABOUT.CART.TITLE3"),
-                                    }}
-                                    text={_("ABOUT.CART.TEXT3")}
-                                    bgColor="#DDE9FF"
-                                />
-                            </div>
+                {/* Info section */}
+                <section className="container-xl fs-3 pt-5">
+                    <h2 className="mb-5 m-0 fs-1">{_("ABOUT.HEAD1")}</h2>
+
+                    <p className="mb-2">{_("ABOUT.DESC1")}</p>
+                    <p className="mb-2">{_("ABOUT.DESC2")}</p>
+                    <p className="mb-5">{_("ABOUT.DESC3")}</p>
+
+                    <div className="row g-4">
+                        <div className="col-lg-4 d-flex">
+                            <CardIconTitleText
+                                iconProps={{
+                                    icon: {
+                                        src: "/img/atom/icons/icon-patient-innovation.svg",
+                                        alt: _("ABOUT.CART.ALT1"),
+                                    },
+                                    title: _("ABOUT.CART.TITLE1"),
+                                }}
+                                text={_("ABOUT.CART.TEXT1")}
+                                bgColor="#DDE9FF"
+                            />
+                        </div>
+
+                        <div className="col-lg-4 d-flex">
+                            <CardIconTitleText
+                                iconProps={{
+                                    icon: {
+                                        src: "/img/atom/icons/icon-performance-innovation.svg",
+                                        alt: _("ABOUT.CART.ALT2"),
+                                    },
+                                    title: _("ABOUT.CART.TITLE2"),
+                                }}
+                                text={_("ABOUT.CART.TEXT2")}
+                            />
+                        </div>
+
+                        <div className="col-lg-4 d-flex">
+                            <CardIconTitleText
+                                iconProps={{
+                                    icon: {
+                                        src: "/img/atom/icons/icon-rehabilitation-innovation.svg",
+                                        alt: _("ABOUT.CART.ALT3"),
+                                    },
+                                    title: _("ABOUT.CART.TITLE3"),
+                                }}
+                                text={_("ABOUT.CART.TEXT3")}
+                                bgColor="#DDE9FF"
+                            />
                         </div>
                     </div>
                 </section>
 
-                <section>
+                <section className="pt-5">
                     <CallToAction
                         title="ABOUT.P2"
                         subtitle="ABOUT.P3"
@@ -167,6 +176,7 @@ export default function About() {
                     />
                 </section>
             </div>
+
             <Footer />
             <ScrollButton />
         </>
