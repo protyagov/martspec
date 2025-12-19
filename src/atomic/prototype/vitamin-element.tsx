@@ -95,34 +95,35 @@ if (typeof window !== 'undefined' && (window as any).__IS_ARTICLE__) {
     };
 
     return (
-        <>
-            <NavigationBar />
+    <>
+        <NavigationBar />
 
-            <div className="ms-base-page pb-5 vitamin-element">
-                {data && (
-                    <>
-                        <div
-                            className="header py-5 mt-0"
-                            style={{ "--vitamin-bg-color": "#" + data.HEX } as React.CSSProperties}
-                        >
-                            <section>
-                                <div className="ms-s-offset text-center">
-                                    <div className="row">
-                                        <div className="col">
-                                            <h1 className="pt-5">{getNameWithType(data)}</h1>
-                                            <img
-                                                src={data.LOGO}
-                                                className="ms-base-image"
-                                                alt={_("VITAMIN." + id + ".NAME")}
-                                                height={512}
-                                                width={512}
-                                            />
-                                        </div>
+        <div className="ms-base-page pb-5 vitamin-element">
+            {data && (
+                <>
+                    <div
+                        className="header py-5 mt-0"
+                        style={{ "--vitamin-bg-color": "#" + data.HEX } as React.CSSProperties}
+                    >
+                        <section>
+                            <div className="ms-s-offset text-center">
+                                <div className="row">
+                                    <div className="col">
+                                        <h1 className="pt-5">{getNameWithType(data)}</h1>
+                                        <img
+                                            src={data.LOGO}
+                                            className="ms-base-image"
+                                            alt={_("VITAMIN." + id + ".NAME")}
+                                            height={512}
+                                            width={512}
+                                        />
                                     </div>
                                 </div>
-                            </section>
-                        </div>
+                            </div>
+                        </section>
+                    </div>
 
+                    <div className="container">
                         <section>
                             <div className="row mt-5">
                                 <div className="col">
@@ -169,52 +170,51 @@ if (typeof window !== 'undefined' && (window as any).__IS_ARTICLE__) {
                         {["DOSE_RDV", "DOSE_UL"].map((SECTION) => {
                             return (
                                 data[SECTION] && (
-                                    <section key={SECTION}>
-                                        <div className="row">
-                                            <div className="col d-flex align-items-center">
-                                                <img
-                                                    src={"/img/page/vitamin/vitamin-" + SECTION + "-icon.webp"}
-                                                    className="p-0 mt-3 ms-0 me-3"
-                                                    alt={_("VITAMIN.CONTENT." + SECTION)}
-                                                    height="40px"
-                                                    width="40px"
-                                                />
-                                                <h2>{_("VITAMIN.CONTENT." + SECTION)}</h2>
-                                            </div>
+                                <section key={SECTION}>
+                                    <div className="row">
+                                        <div className="col d-flex align-items-center">
+                                            <img
+                                                src={"/img/page/vitamin/vitamin-" + SECTION + "-icon.webp"}
+                                                className="p-0 mt-3 ms-0 me-3"
+                                                alt={_("VITAMIN.CONTENT." + SECTION)}
+                                                height="40px"
+                                                width="40px"
+                                            />
+                                            <h2>{_("VITAMIN.CONTENT." + SECTION)}</h2>
                                         </div>
-                                        <table className="table table-bordered vit-table">
-                                            <thead>
-                                                <tr>
-                                                    <td style={{ width: "50%" }}>{_("VITAMIN.CONTENT.AGE.HEAD")}</td>
-                                                    <td>{_("VITAMIN.CONTENT.MALE")}</td>
-                                                    <td>{_("VITAMIN.CONTENT.FEMA")}</td>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                {VIT_AGE.map((age, idx) => {
-                                                    return (
+                                    </div>
+                                    
+                                    <div className="row">
+                                        <div className="col-12 pe-2 m-0"> 
+                                            <table className="table table-bordered vit-table w-100 m-0"> 
+                                                <thead>
+                                                    <tr className="table-secondary">
+                                                        <td style={{ width: "50%" }}>{_("VITAMIN.CONTENT.AGE.HEAD")}</td>
+                                                        <td>{_("VITAMIN.CONTENT.MALE")}</td>
+                                                        <td>{_("VITAMIN.CONTENT.FEMA")}</td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    {VIT_AGE.map((age, idx) => (
                                                         <tr key={SECTION + "-" + age}>
                                                             <td>{_("VITAMIN.CONTENT.AGE." + age)}</td>
                                                             <td>
                                                                 {data[SECTION].MALE[idx]
-                                                                    ? data[SECTION].MALE[idx] +
-                                                                      " " +
-                                                                      _("VITAMIN.CONTENT." + data.UNIT)
+                                                                    ? data[SECTION].MALE[idx] + " " + _("VITAMIN.CONTENT." + data.UNIT)
                                                                     : ""}
                                                             </td>
                                                             <td>
                                                                 {data[SECTION].FEMA[idx]
-                                                                    ? data[SECTION].FEMA[idx] +
-                                                                      " " +
-                                                                      _("VITAMIN.CONTENT." + data.UNIT)
+                                                                    ? data[SECTION].FEMA[idx] + " " + _("VITAMIN.CONTENT." + data.UNIT)
                                                                     : ""}
                                                             </td>
                                                         </tr>
-                                                    );
-                                                })}
-                                            </tbody>
-                                        </table>
-                                    </section>
+                                                    ))}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </section>
                                 )
                             );
                         })}
@@ -279,11 +279,12 @@ if (typeof window !== 'undefined' && (window as any).__IS_ARTICLE__) {
                                 </div>
                             </div>
                         </section>
-                    </>
-                )}
-            </div>
+                    </div>
+                </>
+            )}
+        </div>
 
-            <Footer />
-        </>
-    );
+        <Footer />
+    </>
+);
 }

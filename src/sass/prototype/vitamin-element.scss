@@ -72,17 +72,20 @@
     }
 
     .vit-def,
-    .vit-over,
-    .vit-facts {
-        ul > * {
+    .vit-over {
+        ul {
+        list-style-type: disc !important;
+        padding-left: 1.5rem; 
+        
+        li {
             font-size: 1.2rem;
             font-family: os4;
-        }
-        li {
             margin-top: 1rem;
             margin-bottom: 1rem;
+            display: list-item; 
         }
     }
+}
 
     .vit-def {
         h3 {
