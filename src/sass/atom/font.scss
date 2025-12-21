@@ -28,6 +28,28 @@
     font-style: normal;
 }
 
+:root {
+    /* Heading H1 */
+    --ms-h1-font-family: os6, sans-serif;
+    --ms-h1-font-size: clamp(2rem,
+            calc(1.8rem + max(1.5dvw, 1.5dvh)),
+            4rem);
+    /* Paragraph P */
+    --ms-p-font-family: os3, sans-serif;
+    --ms-p-font-size: 1.5rem;
+}
+
+h1 {
+    font-family: var(--ms-h1-font-family);
+    font-size: var(--ms-h1-font-size);
+}
+
+p {
+    font-family: var(--ms-p-font-family);
+    font-size: var(--ms-p-font-size);
+}
+
+
 // @font-face {
 //     font-family: os7;
 //     src: url(../font/rubik-v12-700.woff2) format("woff2");
