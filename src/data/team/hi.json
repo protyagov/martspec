@@ -62,13 +62,13 @@
   "LENA": {
     "NAME": "लीना",
     "TITLE": "UI/UX डिज़ाइनर",
-    "AVATAR": "/img/page/team/team_lena.jpg",
+    "AVATAR": "/img/page/team/team_lena.webp",
     "LINK": ""
   },
   "VICTORIA": {
     "NAME": "विका",
     "TITLE": "UI/UX डिज़ाइनर",
-    "AVATAR": "/img/page/team/team_vika.jpeg",
+    "AVATAR": "/img/page/team/team_vika.webp",
     "LINK": ""
   }
 }
