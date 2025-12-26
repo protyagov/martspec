@@ -36,12 +36,6 @@
     "AVATAR": "/img/page/team/team_vitalyV.webp",
     "LINK": ""
 },
-"ELINA":{
-    "NAME": "Элина",
-    "TITLE": "QA-инженер",
-    "AVATAR": "/img/page/team/team_elina.webp",
-    "LINK": "https://www.linkedin.com/in/elina-zubko-633853259/"
-},
 "NATALIIA":{
     "NAME": "Наталья",
     "TITLE": "Веб-разработчик",
@@ -60,22 +54,22 @@
     "AVATAR": "/img/page/team/team_vitalyG.webp",
     "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
 },
-"ABEL":{
-    "NAME": "Абель",
-    "TITLE": "iOS Разработчик",
-    "AVATAR": "/img/page/team/team_abel.webp",
-    "LINK": "https://www.linkedin.com/in/abel-rodriguez-medel-62280918a/"
-},
 "LEYLI":{
     "NAME": "Лейли",
     "TITLE": "Веб-разработчик",
     "AVATAR": "/img/page/team/team_leyli.webp",
     "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
 },
-"PEDRO":{
-    "NAME": "Педро",
-    "TITLE": "QA-инженер",
-    "AVATAR": "/img/page/team/team_pedro.webp",
+"LENA":{ 
+    "NAME": "Лена",
+    "TITLE": "UI/UX Дизайнер",
+    "AVATAR": "/img/page/team/team_lena.jpg",
     "LINK": ""
-}
+  },
+"VICTORIA":{ 
+    "NAME": "Вика",
+    "TITLE": "UI/UX Дизайнер",
+    "AVATAR": "/img/page/team/team_vika.jpeg",
+    "LINK": ""
+  }
 }

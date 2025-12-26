@@ -35,12 +35,6 @@
     "AVATAR": "/img/page/team/team_vitalyV.webp",
     "LINK": ""
   },
-  "ELINA": {
-    "NAME": "Elina",
-    "TITLE": "Engenheiro QA",
-    "AVATAR": "/img/page/team/team_elina.webp",
-    "LINK": "https://www.linkedin.com/in/elina-zubko-633853259/"
-  },
   "NATALIIA": {
     "NAME": "Natália",
     "TITLE": "Desenvolvedor Web",
@@ -59,22 +53,22 @@
     "AVATAR": "/img/page/team/team_vitalyG.webp",
     "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
   },
-  "ABEL": {
-    "NAME": "Abel",
-    "TITLE": "Desenvolvedor iOS",
-    "AVATAR": "/img/page/team/team_abel.webp",
-    "LINK": "https://www.linkedin.com/in/abel-rodriguez-medel-62280918a/"
-  },
   "LEYLI": {
     "NAME": "Leyli",
     "TITLE": "Desenvolvedor Web",
     "AVATAR": "/img/page/team/team_leyli.webp",
     "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
   },
-  "PEDRO":{
-    "NAME": "Pedro",
-    "TITLE": "Engenheiro QA",
-    "AVATAR": "/img/page/team/team_pedro.webp",
+  "LENA": {
+    "NAME": "Lena",
+    "TITLE": "Designer UI/UX",
+    "AVATAR": "/img/page/team/team_lena.jpg",
     "LINK": ""
-}
+  },
+  "VICTORIA": {
+    "NAME": "Vika",
+    "TITLE": "Designer UI/UX",
+    "AVATAR": "/img/page/team/team_vika.jpeg",
+    "LINK": ""
+  }
 }
