@@ -35,12 +35,6 @@
     "AVATAR": "/img/page/team/team_vitalyV.webp",
     "LINK": ""
   },
-  "ELINA": {
-    "NAME": "إلينا",
-    "TITLE": "مهندس ضمان الجودة",
-    "AVATAR": "/img/page/team/team_elina.webp",
-    "LINK": "https://www.linkedin.com/in/elina-zubko-633853259/"
-  },
   "NATALIIA": {
     "NAME": "ناتاليا",
     "TITLE": "مطور ويب",
@@ -59,22 +53,22 @@
     "AVATAR": "/img/page/team/team_vitalyG.webp",
     "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
   },
-  "ABEL": {
-    "NAME": "هابيل",
-    "TITLE": "مطور iOS",
-    "AVATAR": "/img/page/team/team_abel.webp",
-    "LINK": "https://www.linkedin.com/in/abel-rodriguez-medel-62280918a/"
-  },
   "LEYLI": {
     "NAME": "ليلى",
     "TITLE": "مطور ويب",
     "AVATAR": "/img/page/team/team_leyli.webp",
     "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
   },
-"PEDRO":{
-    "NAME": "بيترو",
-    "TITLE": "مهندس ضمان الجودة",
-    "AVATAR": "/img/page/team/team_pedro.webp",
+  "LENA": {
+    "NAME": "لينا",
+    "TITLE": "مصمم واجهة وتجربة المستخدم",
+    "AVATAR": "/img/page/team/team_lena.webp",
     "LINK": ""
-}
+  },
+  "VICTORIA": {
+    "NAME": "فيكا",
+    "TITLE": "مصمم واجهة وتجربة المستخدم",
+    "AVATAR": "/img/page/team/team_vika.webp",
+    "LINK": ""
+  }
 }

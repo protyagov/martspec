@@ -35,12 +35,6 @@
     "AVATAR": "/img/page/team/team_vitalyV.webp",
     "LINK": ""
   },
-  "ELINA": {
-    "NAME": "艾琳娜",
-    "TITLE": "质量保证工程师",
-    "AVATAR": "/img/page/team/team_elina.webp",
-    "LINK": "https://www.linkedin.com/in/elina-zubko-633853259/"
-  },
   "NATALIIA": {
     "NAME": "娜塔莉娅",
     "TITLE": "网页开发工程师",
@@ -59,22 +53,22 @@
     "AVATAR": "/img/page/team/team_vitalyG.webp",
     "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
   },
-  "ABEL": {
-    "NAME": "阿贝尔",
-    "TITLE": "iOS开发工程师",
-    "AVATAR": "/img/page/team/team_abel.webp",
-    "LINK": "https://www.linkedin.com/in/abel-rodriguez-medel-62280918a/"
-  },
   "LEYLI": {
     "NAME": "莱莉",
     "TITLE": "网页开发工程师",
     "AVATAR": "/img/page/team/team_leyli.webp",
     "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
   },
-  "PEDRO":{
-    "NAME": "佩德罗",
-    "TITLE": "质量保证工程师",
-    "AVATAR": "/img/page/team/team_pedro.webp",
+  "LENA": {
+    "NAME": "莉娜",
+    "TITLE": "UI/UX 设计师",
+    "AVATAR": "/img/page/team/team_lena.webp",
     "LINK": ""
-}
+  },
+  "VICTORIA": {
+    "NAME": "维卡",
+    "TITLE": "UI/UX 设计师",
+    "AVATAR": "/img/page/team/team_vika.webp",
+    "LINK": ""
+  }
 }
