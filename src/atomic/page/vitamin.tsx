@@ -246,30 +246,33 @@ export default function Vitamin() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page vitamin">
-                <div className="row">
+            <div className="vitamin container d-flex flex-column">
+                <div className="row mx-5">
                     <Breadcrumb items={items} />
                 </div>
-                <Header
-                    title={_("VITAMIN.HEAD")}
-                    appId={appId}
-                    appDownloadTitle={_("VITAMIN.DWN")}
-                    imgSrc="/img/page/vitamin/vitamin-header-en.webp"
-                    imgAlt={_("VITAMIN.IMG")}
-                    imgH={405}
-                    imgW={550}
-                >
-                    <div className="vitamin">
-                        <ul className="header-content-list">
-                            <li>{_("VITAMIN.ABOUT_1")}</li>
-                            <li>{_("VITAMIN.ABOUT_2")}</li>
-                            <li>{_("VITAMIN.ABOUT_3")}</li>
-                        </ul>
-                    </div>
-                </Header>
+                <section className="mx-5 mb-5">
+                            <Header
+                                title={_("VITAMIN.HEAD")}
+                                appId={appId}
+                                appDownloadTitle={_("VITAMIN.DWN")}
+                                imgSrc="/img/page/vitamin/vitamin-header-en.webp"
+                                imgAlt={_("VITAMIN.IMG")}
+                                imgH={405}
+                                imgW={550}
+                            >
+                                
+                                <div className="vitamin">
+                                    <ul className="header-content-list ">
+                                        <li>{_("VITAMIN.ABOUT_1")}</li>
+                                        <li>{_("VITAMIN.ABOUT_2")}</li>
+                                        <li>{_("VITAMIN.ABOUT_3")}</li>
+                                    </ul>
+                                </div>
+                            </Header>
+                </section>
 
                 <section>
-                    <div className="row row-cols-xl-3 row-cols-1 g-4">
+                    <div className="row row-cols-xl-3 row-cols-1 g-4 mx-5 mb-5">
                         <div className="col col-md-4">
                             <CardTitleTextImage
                                 title={_("VITAMIN.LIST1.LI1_HEAD")}
@@ -311,7 +314,7 @@ export default function Vitamin() {
                 </section>
 
                 <section>
-                    <div className="row">
+                    <div className="row mx-5 mt-5">
                         <div className="col-lg-6">
                             <ImageI18N
                                 src="/img/page/vitamin/vitamin-screen-edit-en.webp"
@@ -342,15 +345,15 @@ export default function Vitamin() {
                                     _("VITAMIN.LIST3.LI6_TEXT"),
                                 ]}
                                 iconColor="#1686FF"
-                                className="bullet-list"
+                                className="bullet-list p-0"
                             />
                         </div>
                     </div>
                 </section>
 
-                <section className="bg-gray">
+                <section className="mx-5 mb-5">
                     <div className="row">
-                        <div className="col-12 mb-2">
+                        <div className="col-12 mb-4 p-3">
                             <h2>{_("VITAMIN.HEAD4")}</h2>
                         </div>
                         <div className="col-12">
@@ -360,11 +363,11 @@ export default function Vitamin() {
                 </section>
 
                 <section>
-                    <div className="row mb-0">
-                        <h2 className="col-xl-6 col-lg-8 col-12 mb-5">{_("VITAMIN.HEAD5")}</h2>
-                        <div className="row row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 p-0 g-4">
+                    <div className="row mx-5 mb-5">
+                        <h2 className="col-xl-6 col-lg-8 col-12 mt-5 p-0">{_("VITAMIN.HEAD5")}</h2>
+                        <div className="row row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 px-0 g-4">
                             <div className="col px-0">
-                                <ul className="row row-cols-2 p-0 g-4">
+                                <ul className="row row-cols-2 px-0 g-4 list-unstyled">
                                     {trackItems.map((item) => (
                                         <li key={item.title} className="col">
                                             <CardTitleSubtitle {...item} />
@@ -372,10 +375,10 @@ export default function Vitamin() {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="col">
+                            <div className="col pb-2 px-3">
                                 <CardImage
                                     imgSrc="/img/page/vitamin/vitamin-screen-minr-en.webp"
-                                    imgH={722}
+                                    imgH={600}
                                     imgW={840}
                                     imgAlt={_("VITAMIN.ALT2")}
                                     bgColor="#F4F5F8"
@@ -386,7 +389,7 @@ export default function Vitamin() {
                         </div>
                     </div>
                     {vitamins.filter(group => group.groupName !== "FOODADDITIVES").map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
-                        <section key={`vitamins-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mb-0">
+                        <section key={`vitamins-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mx-4 mb-4">
                             <div className="col-12 d-flex flex-column">
                                 <Accordion
                                     title={_(`VITAMIN.${groupName}.NAME`)}
@@ -396,7 +399,7 @@ export default function Vitamin() {
                                     mobileBgResized={header.mobileBgResized}
                                     defaultExpanded={header.defaultExpanded}
                                 >
-                                    <ul className="d-grid vitamin-list">
+                                    <ul className="d-grid vitamin-list list-unstyled">
                                         {itemList.map((vit) => (
                                             <li key={vit}>
                                                 <CardVitamin
@@ -420,7 +423,7 @@ export default function Vitamin() {
                         </section>
                     ))}
                     {vitamins.filter(group => group.groupName === "FOODADDITIVES").map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
-                        <section key={`articles-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mb-0">
+                        <section key={`articles-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mx-4 mb-5">
                             <div className="col-12 d-flex flex-column">
                                 <Accordion
                                     title={_(`VITAMIN.${groupName}.NAME`)}
@@ -457,6 +460,7 @@ export default function Vitamin() {
                     ))}
                 </section>
 
+                <section className="row mt-4 mt-lg-5 pt-4 mx-4 mb-5">
                 <Review
                     appId={appId}
                     codes={{
@@ -480,8 +484,9 @@ export default function Vitamin() {
                     themeColor="#1686FF"
                     hasUnderlineHover={false}
                 />
+                </section>
 
-                <section>
+                <section className="row mt-4 mt-lg-5 pt-4 mx-4 mb-5">
                     <CallToAction
                         // bgColor={bg_color}
                         title={_("VITAMIN.HEAD6")}
