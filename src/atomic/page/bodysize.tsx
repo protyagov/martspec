@@ -103,10 +103,13 @@ export default function BodySize() {
         <>
             <NavigationBar />
 
-    <div className="ms-base-page">
-        <div className="row">
-            <Breadcrumb items={items} />
-        </div>
+            <div className="container-xl ms-s-offset fs-3 pt-lg-5">
+                {/* Breadcrumbs */}
+                <section className="pt-4">
+                    <div className="row">
+                        <Breadcrumb items={items} />
+                    </div>
+                </section>
                 <Header
                     title={_("SIZE.HEAD")}
                     appId={appId}
@@ -118,67 +121,67 @@ export default function BodySize() {
                 >
                     <div className="bodysize">
                         <ul className="header-content-list">
-                            <li>{_("SIZE.ABOUT_1")}</li>
+                            <li className="font-normal">{_("SIZE.ABOUT_1")}</li>
                             <li>{_("SIZE.ABOUT_2")}</li>
                             <li>{_("SIZE.ABOUT_3")}</li>
                         </ul>
                     </div>
                 </Header>
-                
-            <div className="row g-4">
-                <div className="col-12 col-lg-4">
-                    <CardTitleTextImageCustom
-                        title={_("SIZE.LIST1.LI1_HEAD")}
-                        text={_("SIZE.LIST1.DESC1")}
-                        imgSrc={`/img/page/body-size/section-left-${Locale.language}.webp`}
-                        cardHeight="37rem"
-                        imgPosition="center-bottom"
-                        imgH="19rem"
-                        imgMobileH="18rem"
-                        shadow={true}
-                        mobileBreakpoint={1040}
-                        responsive={true}
-                    />
-                </div>
-                <div className="col-12 col-lg-4 small-card ">
-                    <div className="d-flex flex-column h-100 gap-4">
-                    <CardTitleTextImageCustom
-                        title={_("SIZE.LIST1.LI2_HEAD")}
-                        text={_("SIZE.LIST1.DESC2")}
-                        bgColor="#E5F4D9"
-                        cardHeight="17rem"
-                        shadow={false}
-                    />
-                    <CardTitleTextImageCustom
-                        title={_("SIZE.LIST1.LI3_HEAD")}
-                        text={_("SIZE.LIST1.DESC3")}
-                        bgColor="#FFECDB"
-                        cardHeight="17rem"
-                        shadow={false}
-                    />
+
+                <div className="row g-4">
+                    <div className="col-12 col-lg-4">
+                        <CardTitleTextImageCustom
+                            title={_("SIZE.LIST1.LI1_HEAD")}
+                            text={_("SIZE.LIST1.DESC1")}
+                            imgSrc={`/img/page/body-size/section-left-${Locale.language}.webp`}
+                            cardHeight="37rem"
+                            imgPosition="center-bottom"
+                            imgH="19rem"
+                            imgMobileH="18rem"
+                            shadow={true}
+                            mobileBreakpoint={1040}
+                            responsive={true}
+                        />
+                    </div>
+                    <div className="col-12 col-lg-4">
+                        <div className="d-flex flex-column h-100 gap-4">
+                            <CardTitleTextImageCustom
+                                title={_("SIZE.LIST1.LI2_HEAD")}
+                                text={_("SIZE.LIST1.DESC2")}
+                                bgColor="#E5F4D9"
+                                cardHeight="17rem"
+                                shadow={false}
+                            />
+                            <CardTitleTextImageCustom
+                                title={_("SIZE.LIST1.LI3_HEAD")}
+                                text={_("SIZE.LIST1.DESC3")}
+                                bgColor="#FFECDB"
+                                cardHeight="17rem"
+                                shadow={false}
+                            />
+                        </div>
+                    </div>
+                    <div className="col-12 col-lg-4">
+                        <CardTitleTextImageCustom
+                            title={_("SIZE.LIST1.LI4_HEAD")}
+                            text={_("SIZE.LIST1.DESC4")}
+                            imgSrc="/img/page/body-size/section-right.webp"
+                            bgColor="#F4F5F8"
+                            cardHeight="37rem"
+                            imgPosition="center-bottom"
+                            imgH="20rem"
+                            imgMobileH="18rem"
+                            shadow={false}
+                            mobileBreakpoint={1040}
+                            responsive={true}
+                        />
                     </div>
                 </div>
-                <div className="col-12 col-lg-4">
-                    <CardTitleTextImageCustom
-                        title={_("SIZE.LIST1.LI4_HEAD")}
-                        text={_("SIZE.LIST1.DESC4")}
-                        imgSrc="/img/page/body-size/section-right.webp"
-                        bgColor="#F4F5F8"
-                        cardHeight="37rem"
-                        imgPosition="center-bottom"
-                        imgH="20rem"
-                        imgMobileH="18rem"
-                        shadow={false}
-                        mobileBreakpoint={1040}
-                        responsive={true}
-                    />
-                </div>
-            </div>
 
-                <section>
+                <section className="mt-5">
                     <div className="row">
                         <div className="col-lg-6 how-head mt-4">
-                            <h2>{_("SIZE.HEAD2")}</h2>
+                            <h2 className="mb-5 bodysize__h2">{_("SIZE.HEAD2")}</h2>
                             <p>{_("SIZE.DESC2_1")}</p>
                             <ImageI18N
                                 src="/img/page/body-size/img-howitworks-en.webp"
@@ -188,8 +191,8 @@ export default function BodySize() {
                             />
                         </div>
                         <div className="col-lg-6 how-head">
-                            <h3>{_("SIZE.SUBHEAD2_1")}</h3>
-                            <ul className="d-flex gap-4 how-list">
+                            <h3 className="bodysize__h3">{_("SIZE.SUBHEAD2_1")}</h3>
+                            <ul className="d-flex gap-4 list-unstyled how-list">
                                 <li className="bg-green">{_("SIZE.LIST.LI1_TEXT")}</li>
                                 <li className="bg-pink">{_("SIZE.LIST.LI2_TEXT")}</li>
                                 <li className="bg-violet">{_("SIZE.LIST.LI3_TEXT")}</li>
@@ -197,35 +200,35 @@ export default function BodySize() {
                                 <li className="bg-blue">{_("SIZE.LIST.LI5_TEXT")}</li>
                             </ul>
                             <p className="mt-4">{_("SIZE.DESC2_2")}</p>
-                            
+
                             <ImageI18N
-                            
                                 src="/img/page/body-size/img-howitworks-en.webp"
                                 w={487}
                                 h={515}
                                 cls="ms-base-image d-block d-lg-none mb-mob-xs"
                             />
-                            <h3>{_("SIZE.SUBHEAD2_2")}</h3>
-                            <BulletList
-                                items={[
-                                    _("SIZE.LIST2.LI1_TEXT"),
-                                    _("SIZE.LIST2.LI2_TEXT"),
-                                    _("SIZE.LIST2.LI3_TEXT"),
-                                    _("SIZE.LIST2.LI4_TEXT"),
-                                    _("SIZE.LIST2.LI5_TEXT"),
-                                    _("SIZE.LIST2.LI6_TEXT"),
-                                ]}
-                                iconColor="#FD7E14"
-                                className="bullet-list"
-                            />
+                            <h3 className="bodysize__h3">{_("SIZE.SUBHEAD2_2")}</h3>
+                            
+                                <BulletList
+                                    items={[
+                                        _("SIZE.LIST2.LI1_TEXT"),
+                                        _("SIZE.LIST2.LI2_TEXT"),
+                                        _("SIZE.LIST2.LI3_TEXT"),
+                                        _("SIZE.LIST2.LI4_TEXT"),
+                                        _("SIZE.LIST2.LI5_TEXT"),
+                                        _("SIZE.LIST2.LI6_TEXT"),
+                                    ]}
+                                    iconColor="#FD7E14"
+                                    className="bullet-list ps-0"
+                                />                       
                         </div>
                     </div>
                 </section>
-                
+
                 <section>
                     <div className="row">
-                        <div className="col-12 mb-2">
-                            <h2>{_("SIZE.HEAD6")}</h2>
+                        <div className="col-12 mb-2 mt-5">
+                            <h2 className="bodysize__h3">{_("SIZE.HEAD6")}</h2>
                         </div>
                         <div className="col-12">
                             <IconTitleTextList items={iconTitleTextListItems} />
@@ -233,28 +236,33 @@ export default function BodySize() {
                     </div>
                 </section>
 
-            <section className="complex-cards-section">
-                <div className="row mb-4 "><h2 className="adaptive-padding">{_("SIZE.INDICATORS_LIST.INDICATORS_HEAD")} </h2></div>
-                <div className="row mb-5 "><p className="adaptive-padding">{_("SIZE.INDICATORS_LIST.DESC")} </p></div>
+                <section className="complex-cards-section">
+                    <div className="row mb-4 mt-5">
+                        <h2 className="adaptive-padding bodysize__h3">{_("SIZE.INDICATORS_LIST.INDICATORS_HEAD")} </h2>
+                    </div>
+                    <div className="row mb-5">
+                        <p className="adaptive-padding fs-4">{_("SIZE.INDICATORS_LIST.DESC")} </p>
+                    </div>
                     <div className="row g-4 mb-4">
                         <div className="col-12 col-lg-4">
                             <CardTitleTextImageCustom
-                            title={_("SIZE.INDICATORS_LIST.HEAD2")}
-                            text={_("SIZE.INDICATORS_LIST.DESC2")}
-                            bgColor="#FFECDB"
-                            imgSrc="/img/page/body-size/somatotype.svg"
-                            imgPosition="right-bottom"
-                            shadow={false}
-                            cardHeight="29rem"
-                            imgH="21rem"
-                            imgMobileH="15rem"
-                            mobileBreakpoint={1380}
-                            responsive={true}
-                            actionLink={{
-                            text: _("SIZE.INDICATORS_LIST.BTN"),
-                            href: Locale.i18nLink("coming-soon"),}}
-                            primaryColor="#FD7E14"
-                            linkHoverColor="#FD7E14"
+                                title={_("SIZE.INDICATORS_LIST.HEAD2")}
+                                text={_("SIZE.INDICATORS_LIST.DESC2")}
+                                bgColor="#FFECDB"
+                                imgSrc="/img/page/body-size/somatotype.svg"
+                                imgPosition="right-bottom"
+                                shadow={false}
+                                cardHeight="29rem"
+                                imgH="21rem"
+                                imgMobileH="15rem"
+                                mobileBreakpoint={1380}
+                                responsive={true}
+                                actionLink={{
+                                    text: _("SIZE.INDICATORS_LIST.BTN"),
+                                    href: Locale.i18nLink("coming-soon"),
+                                }}
+                                primaryColor="#FD7E14"
+                                linkHoverColor="#FD7E14"
                             />
                         </div>
                         <div className="col-12 col-lg-4 order-2">
@@ -270,8 +278,9 @@ export default function BodySize() {
                                     imgH="12rem"
                                     responsive={true}
                                     actionLink={{
-                                    text: _("SIZE.INDICATORS_LIST.BTN"),
-                                    href: Locale.i18nLink("coming-soon"),}}
+                                        text: _("SIZE.INDICATORS_LIST.BTN"),
+                                        href: Locale.i18nLink("coming-soon"),
+                                    }}
                                     primaryColor="#FD7E14"
                                     linkHoverColor="#FD7E14"
                                 />
@@ -288,14 +297,14 @@ export default function BodySize() {
                         <div className="col-12 col-lg-4 order-4">
                             <div className="d-flex flex-column h-100 gap-4">
                                 <CardTitleTextImageCustom
-                                title={_("SIZE.INDICATORS_LIST.HEAD5")}
-                                text={_("SIZE.INDICATORS_LIST.DESC5")}
-                                bgColor="#F4F5F8"
-                                shadow={false}
-                                cardHeight="22rem"
-                                cardMobileHeight="16rem"
-                                responsive={true}
-                                mobileBreakpoint={991}
+                                    title={_("SIZE.INDICATORS_LIST.HEAD5")}
+                                    text={_("SIZE.INDICATORS_LIST.DESC5")}
+                                    bgColor="#F4F5F8"
+                                    shadow={false}
+                                    cardHeight="22rem"
+                                    cardMobileHeight="16rem"
+                                    responsive={true}
+                                    mobileBreakpoint={991}
                                 />
                                 <CardTitleTextImageCustom
                                     title={_("SIZE.INDICATORS_LIST.HEAD6")}
@@ -398,70 +407,76 @@ export default function BodySize() {
                                 imgH="21rem"
                                 responsive={true}
                                 actionLink={{
-                                text: _("SIZE.INDICATORS_LIST.BTN"),
-                                href: Locale.i18nLink("coming-soon"),}}
+                                    text: _("SIZE.INDICATORS_LIST.BTN"),
+                                    href: Locale.i18nLink("coming-soon"),
+                                }}
                                 primaryColor="#FD7E14"
                                 linkHoverColor="#FD7E14"
-                                />
+                            />
                         </div>
                     </div>
                 </section>
 
-                <section>    
-                    <div className="row mb-0 "><h2 className="adaptive-padding">{_("SIZE.HEAD12")} </h2></div>
-                    {dropdownlist.map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
-                        <section key={`dropdownlist-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mb-0">
-                            <div className="col-12 d-flex flex-column">
-                                <Accordion
-                                    title={_(`SIZE.${groupName}`)}
-                                    bgColor={bgColor}
-                                    expandIconColor={primaryColor}
-                                    bgImg={header.bgImg}
-                                    mobileBgResized={header.mobileBgResized}
-                                    defaultExpanded={header.defaultExpanded}
-                                >
-                                    <ul className="d-grid dropdown-list">
-                                        {itemList.map((card) => (
-                                            <li key={card}>
-                                                <CardBodyMetric
-                                                    title={_(`SIZE.${card}`)}
-                                                    actionLink={{
-                                                        text: _("SIZE.BTN_HOW"),
-                                                        href: Locale.i18nLink("coming-soon"),
-                                                    }}
-                                                    primaryColor={primaryColor}
-                                                    linkHoverColor={linkHoverColor}
-                                                    bgImg={bgImg}
-                                                />
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </Accordion>
-                            </div>
-                        </section>
-                    ))}
+                <section>
+                    <div className="row mb-0 mt-5">
+                        <h2 className="bodysize__h2 mb-5">{_("SIZE.HEAD12")} </h2>
+                    </div>
+                    {dropdownlist.map(
+                        ({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
+                            <section key={`dropdownlist-group-${groupName}`} className="row mt-4 pt-4 mb-0">
+                                <div className="col-12 d-flex flex-column">
+                                    <Accordion
+                                        title={_(`SIZE.${groupName}`)}
+                                        bgColor={bgColor}
+                                        expandIconColor={primaryColor}
+                                        bgImg={header.bgImg}
+                                        mobileBgResized={header.mobileBgResized}
+                                        defaultExpanded={header.defaultExpanded}
+                                    >
+                                        <ul className="d-grid dropdown-list list-unstyled">
+                                            {itemList.map((card) => (
+                                                <li key={card}>
+                                                    <CardBodyMetric
+                                                        title={_(`SIZE.${card}`)}
+                                                        actionLink={{
+                                                            text: _("SIZE.BTN_HOW"),
+                                                            href: Locale.i18nLink("coming-soon"),
+                                                        }}
+                                                        primaryColor={primaryColor}
+                                                        linkHoverColor={linkHoverColor}
+                                                        bgImg={bgImg}
+                                                    />
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </Accordion>
+                                </div>
+                            </section>
+                        )
+                    )}
                     <section key={`dropdownlist-group-MEASUREMENTS`} className="row mt-4 mt-lg-5 pt-4 mb-0">
-                            <div className="col-12 d-flex flex-column">
-                                <Accordion
-                                    title={_(`SIZE.MEASUREMENTS`)}
-                                    bgColor="#EAF1FD"
-                                    expandIconColor="#1686FF"
-                                    bgImg={{
+                        <div className="col-12 d-flex flex-column">
+                            <Accordion
+                                title={_(`SIZE.MEASUREMENTS`)}
+                                bgColor="#EAF1FD"
+                                expandIconColor="#1686FF"
+                                bgImg={{
                                     src: "/img/page/body-size/bodysize-list-header-3.svg",
                                     width: 129,
-                                    height: 118}}
-                                    mobileBgResized={true}
-                                >
-                                    <div className="row p-0">
+                                    height: 118,
+                                }}
+                                mobileBgResized={true}
+                            >
+                                <div className="row p-0">
                                     <div className="col-md-6">
                                         <div className="pe-3">
-                                            <p className="mt-5">
-                                                {_("SIZE.MEASUREMENTS_DESC")}
-                                            </p>
+                                            <p className="mt-5">{_("SIZE.MEASUREMENTS_DESC")}</p>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
-                                        <h3 className="mb-3 "style={{ color: "#444444" }}>{_("SIZE.MEASUREMENTS_LIST_TITLE")}</h3>
+                                        <h3 className="mb-3 " style={{ color: "#444444" }}>
+                                            {_("SIZE.MEASUREMENTS_LIST_TITLE")}
+                                        </h3>
                                         <ul className="">
                                             <li className="d-flex  align-items-start mb-2">
                                                 <span className="blue-dot me-2"></span>
@@ -478,12 +493,12 @@ export default function BodySize() {
                                         </ul>
                                     </div>
                                 </div>
-                                </Accordion>
-                            </div>
+                            </Accordion>
+                        </div>
                     </section>
                 </section>
 
-                <section className="bodysize-container">
+                <section className="bodysize-container mt-5">
                     <div className="row row-cols-xl-3 row-cols-1">
                         <div className="col col-md-4 p-0 card-alignment-small">
                             <div className="row row-cols-1 h-100 p-0">
@@ -500,7 +515,7 @@ export default function BodySize() {
                                         responsive={true}
                                     />
                                 </div>
-                                <div className="col  mt-5 img-wrapper">
+                                <div className="col mt-5 img-wrapper">
                                     <CardTitleTextImageCustom
                                         title={_("SIZE.HEAD10")}
                                         text={_("SIZE.DESC10")}
@@ -515,21 +530,21 @@ export default function BodySize() {
                                 </div>
                             </div>
                         </div>
-                        
-                        <div className="col col-md-4 img-wrapper-big card-alignment-big" >
+
+                        <div className="col col-md-4 card-alignment-big">
                             <CardTitleTextImageCustom
-                                        title={_("SIZE.HEAD11")}
-                                        text={_("SIZE.DESC11")}
-                                        bgColor="#FFFFFF"
-                                        imgSrc="/img/page/body-size/masks.png"
-                                        imgPosition="right-bottom"
-                                        shadow={true}
-                                        cardHeight="35.5rem"
-                                        imgH="25rem"
-                                        responsive={true}
-                                    />
+                                title={_("SIZE.HEAD11")}
+                                text={_("SIZE.DESC11")}
+                                bgColor="#FFFFFF"
+                                imgSrc="/img/page/body-size/masks.png"
+                                imgPosition="right-bottom"
+                                shadow={true}
+                                cardHeight="35.5rem"
+                                imgH="25rem"
+                                responsive={true}
+                            />
                         </div>
-                        <div  className="col col-md-4 text-alignment" >
+                        <div className="col col-md-4 text-alignment">
                             <CardTitleTextButton
                                 title={_("SIZE.HEAD8")}
                                 textContent={[_("SIZE.DESC8_1"), _("SIZE.DESC8_2")]}
@@ -537,13 +552,13 @@ export default function BodySize() {
                                 buttonLink={Locale.i18nLink(`emotion/biorhythms`)}
                                 buttonColor="#FD7E14"
                             />
-                        </div> 
+                        </div>
                     </div>
                 </section>
 
                 <section>
-                    <div className=" row waist-info-section bodysize-container-1">
-                        <h2>{_("SIZE.HEAD7")}</h2>
+                    <div className="row waist-info-section bodysize-container-1">
+                        <h2 className="bodysize__h2 mt-5">{_("SIZE.HEAD7")}</h2>
                         <div className="info-list row g-4">
                             <div className="col-12 col-xxl-4 col-lg-6 d-flex">
                                 <CardIconTitleText
@@ -611,17 +626,17 @@ export default function BodySize() {
                     hasUnderlineHover={false}
                 />
 
-            <div className="pb-5 text-center">
-                <CallToAction
-                    title={_("SIZE.CALL_TO_ACTION.HEAD")}
-                    subtitle={_("SIZE.CALL_TO_ACTION.DESC")}
-                    appId={appId}
-                    appDownloadTitle={_("SIZE.DWN")}
-                    imgSrc="/img/page/body-size/img-cta-en.webp"
-                    imgAlt={_("SIZE.IMG")}
-                />
+                <div className="pb-5 text-center">
+                    <CallToAction
+                        title={_("SIZE.CALL_TO_ACTION.HEAD")}
+                        subtitle={_("SIZE.CALL_TO_ACTION.DESC")}
+                        appId={appId}
+                        appDownloadTitle={_("SIZE.DWN")}
+                        imgSrc="/img/page/body-size/img-cta-en.webp"
+                        imgAlt={_("SIZE.IMG")}
+                    />
+                </div>
             </div>
-    </div>
             <Footer />
             <ScrollButton />
         </>

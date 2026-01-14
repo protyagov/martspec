@@ -11,10 +11,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-      h2{
+    
+    h2 {
         font-size: 40px;
-      }
+        color: #212529;
+        font-family: os6;
+        margin-bottom: 1.85rem;
+        margin-top: 2rem;
+        overflow-wrap: anywhere;
     }
+}
 
     .review__description {
     margin-bottom: 2rem;
