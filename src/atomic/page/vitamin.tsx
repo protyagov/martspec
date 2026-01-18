@@ -246,11 +246,11 @@ export default function Vitamin() {
         <>
             <NavigationBar />
 
-            <div className="vitamin container d-flex flex-column">
-                <div className="row mx-5">
+            <div className="vitamin">
+                <div className="row">
                     <Breadcrumb items={items} />
                 </div>
-                <section className="mx-5 mb-5">
+                <section className="m-0">
                             <Header
                                 title={_("VITAMIN.HEAD")}
                                 appId={appId}
@@ -272,8 +272,8 @@ export default function Vitamin() {
                 </section>
 
                 <section>
-                    <div className="row row-cols-xl-3 row-cols-1 g-4 mx-5 mb-5">
-                        <div className="col col-md-4">
+                    <div className="row g-4">
+                        <div className="col-md-4 mt-3">
                             <CardTitleTextImage
                                 title={_("VITAMIN.LIST1.LI1_HEAD")}
                                 text={_("VITAMIN.LIST1.LI1_TEXT")}
@@ -283,16 +283,16 @@ export default function Vitamin() {
                                 imgAlt={_("VITAMIN.ALT6")}
                             />
                         </div>
-                        <div className="col col-md-4 p-0">
-                            <div className="row row-cols-1 h-100 p-0">
-                                <div className="col py-0">
+                        <div className="col-md-4 mt-3">
+                            <div className="d-flex flex-column gap-4 h-100">
+                                <div className="flex-grow-1">
                                     <CardTitleText
                                         title={_("VITAMIN.LIST1.LI2_HEAD")}
                                         text={_("VITAMIN.LIST1.LI2_TEXT")}
                                         bgColor="#E5F4D9"
                                     />
                                 </div>
-                                <div className="col py-0 mt-4">
+                                <div className="flex-grow-1">
                                     <CardTitleText
                                         title={_("VITAMIN.LIST1.LI3_HEAD")}
                                         text={_("VITAMIN.LIST1.LI3_TEXT")}
@@ -301,7 +301,7 @@ export default function Vitamin() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col col-md-4 col-md-4">
+                        <div className="col-md-4 mt-3">
                             <CardImage
                                 imgSrc="/img/page/vitamin/vitamin-watches-en.webp"
                                 imgH={720}
@@ -314,7 +314,7 @@ export default function Vitamin() {
                 </section>
 
                 <section>
-                    <div className="row mx-5 mt-5">
+                    <div className="row">
                         <div className="col-lg-6">
                             <ImageI18N
                                 src="/img/page/vitamin/vitamin-screen-edit-en.webp"
@@ -351,9 +351,9 @@ export default function Vitamin() {
                     </div>
                 </section>
 
-                <section className="mx-5 mb-5">
+                <section className="bg-gray m-0">
                     <div className="row">
-                        <div className="col-12 mb-4 p-3">
+                        <div className="col-12">
                             <h2>{_("VITAMIN.HEAD4")}</h2>
                         </div>
                         <div className="col-12">
@@ -363,19 +363,19 @@ export default function Vitamin() {
                 </section>
 
                 <section>
-                    <div className="row mx-5 mb-5">
+                    <div className="row">
                         <h2 className="col-xl-6 col-lg-8 col-12 mt-5 p-0">{_("VITAMIN.HEAD5")}</h2>
                         <div className="row row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 px-0 g-4">
                             <div className="col px-0">
-                                <ul className="row row-cols-2 px-0 g-4 list-unstyled">
+                                <ul className="row row-cols-2 p-0 g-4 list-unstyled">
                                     {trackItems.map((item) => (
-                                        <li key={item.title} className="col">
+                                        <li key={item.title} className="col pb-3">
                                             <CardTitleSubtitle {...item} />
                                         </li>
                                     ))}
                                 </ul>
                             </div>
-                            <div className="col pb-2 px-3">
+                            <div className="col">
                                 <CardImage
                                     imgSrc="/img/page/vitamin/vitamin-screen-minr-en.webp"
                                     imgH={600}
@@ -389,7 +389,7 @@ export default function Vitamin() {
                         </div>
                     </div>
                     {vitamins.filter(group => group.groupName !== "FOODADDITIVES").map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
-                        <section key={`vitamins-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mx-4 mb-4">
+                        <section key={`vitamins-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4">
                             <div className="col-12 d-flex flex-column">
                                 <Accordion
                                     title={_(`VITAMIN.${groupName}.NAME`)}
@@ -423,7 +423,7 @@ export default function Vitamin() {
                         </section>
                     ))}
                     {vitamins.filter(group => group.groupName === "FOODADDITIVES").map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
-                        <section key={`articles-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4 mx-4 mb-5">
+                        <section key={`articles-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4">
                             <div className="col-12 d-flex flex-column">
                                 <Accordion
                                     title={_(`VITAMIN.${groupName}.NAME`)}
@@ -460,7 +460,7 @@ export default function Vitamin() {
                     ))}
                 </section>
 
-                <section className="row mt-4 mt-lg-5 pt-4 mx-4 mb-5">
+                <section className="row p-0 mt-0">
                 <Review
                     appId={appId}
                     codes={{
@@ -486,7 +486,7 @@ export default function Vitamin() {
                 />
                 </section>
 
-                <section className="row mt-4 mt-lg-5 pt-4 mx-4 mb-5">
+                <section className="row p-0 mt-0">
                     <CallToAction
                         // bgColor={bg_color}
                         title={_("VITAMIN.HEAD6")}

@@ -1,12 +1,63 @@
 @import "@/sass/atom/base-new-vars";
 
+%with-shadow {
+    box-shadow: 0px 4px 8px 0px #0000000a, 0px 0px 4px 0px #0000000f;
+}
+
+%p-smaller {
+    font-size: 1.35rem;
+    line-height: 147%;
+    margin-bottom: 0;
+}
+
 .vitamin {
+    flex: 1 0;
     font-family: os3;
     font-size: 1.5rem;
 
-    h1 { font-family: os6; font-size: clamp(2rem, 4vw, 4rem); color: #000; }
-    h2 { font-family: os6; font-size: 2.5rem; color: #212529; }
-    h3 { font-family: os5; font-size: 2rem; color: #333; }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    h1 { 
+        font-family: os6; 
+        font-size: clamp(2rem, calc(1.8rem + max(1.5dvw, 1.5dvh)), 4rem); 
+        color: #000; 
+        margin-bottom: 1rem;
+    }
+    h2 { 
+        font-family: os6; 
+        font-size: 2.5rem; 
+        color: #212529; 
+        margin-top: 2rem;
+        margin-bottom: 1.85rem;
+    }
+    h3 { 
+        font-family: os5; 
+        font-size: 2rem; 
+        color: #333; 
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    section, .row {
+        @extend .ms-s-offset; 
+    }
+
+    section {
+        max-width: 100%;
+        padding: 0;
+        margin: map-get($section-y-gap, "l") auto;
+
+        &.bg-gray {
+            padding: map-get($section-y-gap, "m") 0;
+            background: #f8f8f8;
+        }
+
+        @include media-breakpoint-down($base-breakpoint) {
+            margin: 2rem auto;
+        }
+    }
 
         .list-with-icons {
         padding: 0px !important;
