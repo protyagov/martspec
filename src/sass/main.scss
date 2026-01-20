@@ -11,8 +11,8 @@
 @import "molecule/text-link-arrow";
 @import "molecule/card-app-large.scss";
 @import "molecule/card-app-small.scss";
-
 @import "molecule/card-icon-title-text.scss";
+@import "molecule/icon-title-text-elem.scss";
 
 
 @import "organism/header.scss";
@@ -20,6 +20,7 @@
 @import "organism/footer";
 @import "organism/social-bar";
 @import "organism/breadcrumb";
+@import "organism/icon-title-text-list.scss";
 
 @import "prototype/vitamin-element";
 @import "prototype/vacancy-details.scss";
