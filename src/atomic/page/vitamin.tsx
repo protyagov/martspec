@@ -364,10 +364,10 @@ export default function Vitamin() {
 
                 <section>
                     <div className="row">
-                        <h2 className="col-xl-6 col-lg-8 col-12 mt-5 p-0">{_("VITAMIN.HEAD5")}</h2>
-                        <div className="row row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 px-0 g-4">
+                        <h2 className="col-xl-7 col-lg-8 col-12 mt-5 p-0">{_("VITAMIN.HEAD5")}</h2>
+                        <div className="row align-items-stretch row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 px-0 g-4">
                             <div className="col px-0">
-                                <ul className="row row-cols-2 p-0 g-4 list-unstyled">
+                                <ul className="row row-cols-2 p-0 m-0 g-4 list-unstyled">
                                     {trackItems.map((item) => (
                                         <li key={item.title} className="col pb-3">
                                             <CardTitleSubtitle {...item} />
@@ -375,7 +375,7 @@ export default function Vitamin() {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="col">
+                            <div className="col pb-2">
                                 <CardImage
                                     imgSrc="/img/page/vitamin/vitamin-screen-minr-en.webp"
                                     imgH={600}
