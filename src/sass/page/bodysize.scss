@@ -56,11 +56,11 @@
             flex-grow: 1;
         }
     }
-  .adaptive-padding {
+.adaptive-padding {
     padding-right: 50%;
     font-size: 40px;
     margin: 0px !important;
-     
+    
     @media (max-width: 1300px) {
         padding-right: 30%;
     }     
@@ -183,4 +183,37 @@
             background-color: #1686FF;
             flex-shrink: 0;
             margin-top: 0.5em;
+}
+
+.bg-green {
+    background: #e8fae0;
+}
+.bg-pink {
+    background: #faebff;
+}
+.bg-violet {
+    background: #ede1ff;
+}
+.bg-orange {
+    background: #fde3cb;
+}
+.bg-blue {
+    background: #d6e3fc;
+}
+
+.bodysize__h2 {
+    color: #212529;
+    font-family: os6;
+    margin-bottom: 1.85rem;
+    margin-top: 2rem;
+    overflow-wrap: anywhere;
+}
+
+.bodysize__h3 {
+    color: #444;
+    font-family: os5;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    overflow-wrap: anywhere;
 }

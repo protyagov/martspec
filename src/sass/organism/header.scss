@@ -1,15 +1,17 @@
 @import "@/sass/atom/base-new-vars";
 
 .new-page-header {
-    margin: 6.8rem auto 10rem !important;
+    // margin: 6.8rem auto 10rem !important;
 
-    @include media-breakpoint-down(lg) {
-        margin: 6.5rem auto 4rem !important;
-    }
+    // @include media-breakpoint-down(lg) {
+    //     margin: 6.5rem auto 4rem !important;
+    // }
 
-    @include media-breakpoint-down(sm) {
-        margin: 1.875rem auto 3.75rem !important;
-    }
+    // @include media-breakpoint-down(sm) {
+    //     margin: 1.875rem auto 3.75rem !important;
+    // }
+    margin-top: 6.6rem;
+    margin-bottom: 2rem;
 
     h1,
     h2,

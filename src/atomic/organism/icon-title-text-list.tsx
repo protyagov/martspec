@@ -7,7 +7,7 @@ interface IconTitleTextListProps {
 
 const IconTitleTextList = ({ items }: IconTitleTextListProps): JSX.Element => {
     return (
-        <ul className="list-with-icons">
+        <ul className="list-with-icons ps-0">
             {items.map((item, index) => (
                 <IconTitleTextElem key={index} icon={item.icon} title={item.title} subtitle={item.subtitle} />
             ))}

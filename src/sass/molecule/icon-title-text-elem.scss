@@ -1,0 +1,11 @@
+.icon {
+  background: map-get($colors, "bg");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .039), 0 0 4px 0 rgba(0, 0, 0, .059);
+  align-items: center;
+  border-radius: 18px;
+  display: flex;
+  flex: 0 0 70px;
+  height: 70px;
+  justify-content: center;
+  width: 70px;
+}
