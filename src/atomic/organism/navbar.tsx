@@ -61,7 +61,13 @@ export default function NavigationBar() {
         <nav className="ms-navbar navbar-expand-lg">
             <div className="ms-s-offset my-0">
                 <a className="ms-navbar-brand" href={Locale.i18nLink("/")}>
-                    <img src="/img/logo.svg" alt={_("ERROR.404_BTN")} className="d-inline-block align-text-top" />
+                    <img
+                        src="/img/logo.svg"
+                        width="87"
+                        height="30"
+                        alt={_("ERROR.404_BTN")}
+                        className="d-inline-block align-text-top"
+                    />
                 </a>
 
                 <button
@@ -111,7 +117,7 @@ export default function NavigationBar() {
                                     <a className="nav-link dropdown-item" href={Locale.i18nLink("careers")}>
                                         {_("CAREERS.HEAD")}
                                     </a>
-                                </li>  
+                                </li>
                             </ul>
                         </li>
 
@@ -132,18 +138,18 @@ export default function NavigationBar() {
                                 aria-labelledby="navbarDropdownPages"
                             >
                                 {menuItems
-                                    .map(({key, labelKey}) => ({
+                                    .map(({ key, labelKey }) => ({
                                         key,
-                                        text: _(labelKey)
+                                        text: _(labelKey),
                                     }))
                                     .sort((a, b) => a.text.localeCompare(b.text))
-                                    .map(({key, text}) => (
+                                    .map(({ key, text }) => (
                                         <li key={key}>
                                             <a className="nav-link dropdown-item" href={Locale.i18nLink(key)}>
                                                 {text}
                                             </a>
                                         </li>
-                                ))}
+                                    ))}
                             </ul>
                         </li>
                     </ul>
