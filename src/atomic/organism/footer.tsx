@@ -8,10 +8,14 @@ export const Footer = () => (
         <div className="px-0 py-5">
             <div className="ms-s-offset my-2">
                 <div className="row">
-
                     <div className="col-lg-2 col-md-12 d-flex flex-column text-center text-lg-start mb-5 mb-lg-0">
                         <a href={Locale.i18nLink("/")}>
-                            <img src="/img/logo.svg" alt={_("ERROR.404_BTN")} />
+                            <img
+                                src="/img/logo.svg"
+                                width="110"
+                                height="38"
+                                alt={_("ERROR.404_BTN")}
+                            />
                         </a>
                     </div>
 
@@ -42,7 +46,6 @@ export const Footer = () => (
                         <div className="footer-link mb-2">
                             <a href={Locale.i18nLink("coming-soon")}> {_("ENERGY.HEAD_MAIN")} </a>
                         </div>
-
                     </div>
 
                     <div className="col-lg-4 col-md-12 d-flex flex-column">
@@ -88,8 +91,6 @@ export const Footer = () => (
                         <SocialBar color="white" />
                         <ButtonApple appId={1} appDownloadTitle={_("FOOTER.APPLE_BTN.ALT")} />
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -102,7 +103,9 @@ export const Footer = () => (
             <div className="row text-center text-md-start">
                 <div className="col-md-4 col-sm-12">{_("FOOTER.C")}</div>
                 <div className="col-md-2 col-sm-12">{_("FOOTER.R")}</div>
-                <div className="col-md-4 col-sm-12"><a href={Locale.i18nLink("privacy-policy")}> {_("FOOTER.P")} </a></div>
+                <div className="col-md-4 col-sm-12">
+                    <a href={Locale.i18nLink("privacy-policy")}> {_("FOOTER.P")} </a>
+                </div>
             </div>
         </div>
 
