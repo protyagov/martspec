@@ -37,7 +37,6 @@ const COMING_SOON_PAGES = new Set([
             "CHAGA_MUSHROOM",
             "CURCUMIN",
             "ASTRAGALUS",
-            "LIONS_MANE",
             "COLLAGEN_PEPTIDES",
             "ASHWAGANDHA_EXTRACT",
             "GINKGO_BILOBA",
@@ -133,7 +132,7 @@ const vitamins: VitaminGroup[] = [
             "FIREWEED_TEA",
             "GINKGO_BILOBA",
             "KOMBUCHA",
-            "LIONS_MANE",
+            "LION",
             "MACA",
             "TURKEY_TAIL"
         ],
