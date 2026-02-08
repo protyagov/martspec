@@ -134,7 +134,7 @@
       <loc>https://martspec.com/waistline</loc>
       <changefreq>monthly</changefreq>
    </url>
-    <url>
+   <url>
       <loc>https://martspec.com/electrolyte</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -142,11 +142,15 @@
       <loc>https://martspec.com/vitamin/acai</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
+      <loc>https://martspec.com/vitamin/turmeric</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/bodysize</loc>
       <changefreq>monthly</changefreq>
    </url>
-       <url>
+   <url>
       <loc>https://martspec.com/bodyzinc</loc>
       <changefreq>monthly</changefreq>
    </url>
