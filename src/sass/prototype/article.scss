@@ -58,6 +58,11 @@
   }
 }
 
+.article-section--accent {
+  border-left: 6px solid var(--marker-color);
+  padding-left: 24px;
+}
+
 .article {
   .header-content-list {
     li {
