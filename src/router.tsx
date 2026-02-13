@@ -22,7 +22,7 @@ import ComingSoon from "@/atomic/page/coming-soon";
 import Iron from "@/atomic/page/iron";
 import Article from "@/atomic/prototype/article/article";
 
-const articleVitamins = ["acai", "lion", "turmeric"];
+const articleVitamins = ["acai", "lion", "turmeric", "collagen"];
 
 export function App() {
     var redirect = sessionStorage.redirect;
