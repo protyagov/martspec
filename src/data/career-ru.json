@@ -141,7 +141,7 @@
                 }
             ],
             "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA",
-            "VACANCY_STATUS": "CLOSED"
+            "VACANCY_STATUS": "OPEN"
         },
         "QUALITY_ASSURANCE": {
             "TITLE": "Тестировщик",
@@ -236,7 +236,7 @@
                 }
             ],
             "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA",
-            "VACANCY_STATUS": "OPEN"
+            "VACANCY_STATUS": "CLOSED"
         },
         "COPYWRITER": {
             "TITLE": "Копирайтер",
