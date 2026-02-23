@@ -54,6 +54,13 @@ const careers = [
         image: "/img/page/careers/vacancy-pic-copywriter.webp",
         getAlt: () => _("CAREERS.LIST3.LI6_HEAD"),
     },
+    {
+        id: "marketologist",
+        getTitle: () => _("CAREERS.LIST3.LI7_HEAD"),
+        getText: () => _("CAREERS.LIST3.LI7_TEXT"),
+        image: "/img/page/careers/vacancy-pic-ba.webp",
+        getAlt: () => _("CAREERS.LIST3.LI7_HEAD"),
+    },
 ];
 
 const rowItemsData = [

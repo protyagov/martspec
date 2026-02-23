@@ -282,6 +282,41 @@
             ],
             "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
             "VACANCY_STATUS": "OPEN"
+        },
+        "MARKETOLOGIST": {
+            "TITLE": "Chargé de marketing",
+            "DESC": "Rejoignez notre équipe en tant que stagiaire Marketing et aidez-nous à développer nos applications santé et fitness sur la plateforme Apple. Vous créerez du contenu qui accroche, vous vous appuierez sur les tendances bien-être et vous trouverez des façons authentiques de toucher les personnes qui veulent se sentir plus fortes, en meilleure santé et plus confiantes. Votre travail impactera directement les téléchargements, la visibilité et la croissance réelle des utilisateurs.\n\nVous ferez partie d'une startup en mouvement rapide où vos idées sont vraiment mises en œuvre — et vous aurez une vraie liberté pour tester des concepts audacieux, essayer de nouveaux angles et voir ce qui marche. Si le fitness, le bien-être, les réseaux sociaux et construire quelque chose qui améliore le quotidien vous parlent — faisons grandir tout ça ensemble.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Gestion et Surveillance des Réseaux Sociaux",
+                    "UL": [
+                        "Gérer et développer les réseaux sociaux de la marque (Facebook, X, LinkedIn, TikTok, etc.)",
+                        "Surveiller les discussions concernant la marque, les concurrents et le marché"
+                    ]
+                },
+                {
+                    "H3": "Création de Contenu",
+                    "UL": [
+                        "Concevoir et créer du contenu : textes, concepts, formats, storytelling"
+                    ]
+                },
+                {
+                    "H3": "Campagnes et Promotion",
+                    "UL": [
+                        "Lancer des promotions et des campagnes marketing, et analyser les résultats",
+                        "Générer du trafic et des prospects à partir des réseaux sociaux"
+                    ]
+                },
+                {
+                    "H3": "Analyse et Optimisation",
+                    "UL": [
+                        "Tester de nouveaux formats et stratégies d'engagement de l'audience",
+                        "Analyser les performances des réseaux sociaux et le ROI"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A",
+            "VACANCY_STATUS": "OPEN"
         }
     },
     "CONDITIONS": [
