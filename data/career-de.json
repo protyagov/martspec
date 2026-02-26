@@ -282,6 +282,41 @@
             ],
             "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
             "VACANCY_STATUS": "OPEN"
+        },
+        "MARKETOLOGIST": {
+            "TITLE": "Marketingmanager",
+            "DESC": "Treten Sie unserem Team als Marketing-Praktikant bei und helfen Sie uns, unsere Gesundheits- und Fitness-Apps auf der Apple-Plattform zu vergrößern. Sie erstellen Inhalte, die Aufmerksamkeit wecken, nutzen Wellness-Trends und finden authentische Wege, Menschen zu erreichen, die sich stärker, gesünder und selbstbewusster fühlen wollen. Ihre Arbeit wirkt sich direkt auf Downloads, Sichtbarkeit und echtes Nutzerwachstum aus.\n\nSie sind Teil eines schnelllebigen Startups, in dem Ihre Ideen wirklich umgesetzt werden — und Sie haben echte Freiheit, mutige Konzepte zu testen, neue Ansätze auszuprobieren und zu sehen, was funktioniert. Wenn Fitness, Wellness, Social Media und der Aufbau von etwas, das den Alltag verbessert, zu Ihnen passen — lassen Sie uns gemeinsam wachsen.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Social-Media-Management & Monitoring",
+                    "UL": [
+                        "Verwaltung und Ausbau der Social-Media-Kanäle der Marke (Facebook, X, LinkedIn, TikTok usw.)",
+                        "Überwachung von Diskussionen über die Marke, Wettbewerber und den Markt"
+                    ]
+                },
+                {
+                    "H3": "Content-Erstellung",
+                    "UL": [
+                        "Ideenfindung und Erstellung von Inhalten: Texte, Konzepte, Formate, Storytelling"
+                    ]
+                },
+                {
+                    "H3": "Kampagnen & Promotion",
+                    "UL": [
+                        "Starten von Promotions und Marketingkampagnen sowie Analyse der Ergebnisse",
+                        "Generierung von Traffic und Leads über soziale Netzwerke"
+                    ]
+                },
+                {
+                    "H3": "Analytik & Optimierung",
+                    "UL": [
+                        "Testen neuer Formate und Strategien zur Zielgruppenbindung",
+                        "Analyse der Social-Media-Performance und des ROI"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A",
+            "VACANCY_STATUS": "OPEN"
         }
     },
     "CONDITIONS": [

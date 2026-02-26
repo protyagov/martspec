@@ -282,6 +282,41 @@
             ],
             "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
             "VACANCY_STATUS": "OPEN"
+        },
+        "MARKETOLOGIST": {
+            "TITLE": "Marketing Specialist",
+            "DESC": "Join our team as a Marketing Intern and help us grow our health and fitness apps on the Apple platform. You'll create scroll-stopping content, tap into wellness trends, and find authentic ways to connect with people who want to feel stronger, healthier, and more confident. Your work will directly impact downloads, visibility, and real user growth.\n\nYou'll be part of a fast-moving startup where your ideas actually go live — and you'll have real freedom to test bold concepts, experiment with new angles, and see what works. If you're into fitness, wellness, social media, and building something that improves everyday lives — let's grow it together.",
+            "EXPECTATIONS": [
+                {
+                    "H3": "Social Media Management & Monitoring",
+                    "UL": [
+                        "Manage and grow brand social media (Facebook, X, LinkedIn, TikTok, etc.)",
+                        "Monitor discussions regarding the brand, competitors, and the market"
+                    ]
+                },
+                {
+                    "H3": "Content Creation",
+                    "UL": [
+                        "Ideate and create content: copy, concepts, formats, storytelling"
+                    ]
+                },
+                {
+                    "H3": "Campaigns & Promotion",
+                    "UL": [
+                        "Launch promotions and marketing campaigns, and analyze results",
+                        "Drive traffic and leads from social networks"
+                    ]
+                },
+                {
+                    "H3": "Analytics & Optimization",
+                    "UL": [
+                        "Test new formats and audience engagement strategies",
+                        "Analyze social media performance and ROI"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A",
+            "VACANCY_STATUS": "OPEN"
         }
     },
     "CONDITIONS": [
