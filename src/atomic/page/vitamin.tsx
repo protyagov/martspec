@@ -35,7 +35,6 @@ interface VitaminGroup {
 }
 const COMING_SOON_PAGES = new Set([
             "CHAGA_MUSHROOM",
-            "CURCUMIN",
             "ASTRAGALUS",
             "ASHWAGANDHA_EXTRACT",
             "GINKGO_BILOBA",
@@ -127,7 +126,7 @@ const vitamins: VitaminGroup[] = [
             "COCOA_POWDER",
             "COLLAGEN",
             "CORDYCEPS_POWDER",
-            "CURCUMIN",
+            "TURMERIC",
             "FIREWEED_TEA",
             "GINKGO_BILOBA",
             "KOMBUCHA",
