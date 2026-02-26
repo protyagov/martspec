@@ -76,6 +76,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: "./src/template/en/career/frontend-engineer.ejs", filename: "careers/frontend-engineer/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/career/ios-engineer.ejs", filename: "careers/ios-engineer/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/career/qa-engineer.ejs", filename: "careers/qa-engineer/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/marketologist.ejs", filename: "careers/marketologist/index.html", inject: "body", }),
 
         // --------------- Static Content EN Without Slash---------------
         new HtmlWebpackPlugin({ template: "./src/template/en/bodymass.ejs", filename: "bodymass.html", inject: "body", }),
@@ -136,6 +137,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: "./src/template/en/career/frontend-engineer.ejs", filename: "careers/frontend-engineer.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/career/ios-engineer.ejs", filename: "careers/ios-engineer.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: "./src/template/en/career/qa-engineer.ejs", filename: "careers/qa-engineer.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: "./src/template/en/career/marketologist.ejs", filename: "careers/marketologist.html", inject: "body", }),
 
         new HtmlWebpackInjectPreload({
             files: [
@@ -252,6 +254,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/career/frontend-engineer.ejs`, filename: x + "/careers/frontend-engineer/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/career/ios-engineer.ejs`, filename: x + "/careers/ios-engineer/index.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/career/qa-engineer.ejs`, filename: x + "/careers/qa-engineer/index.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/marketologist.ejs`, filename: x + "/careers/marketologist/index.html", inject: "body", }),
         
         // Without slash at the end
         new HtmlWebpackPlugin({ template: `./src/template/${x}/main.ejs`, filename: x + ".html", inject: "body", }),
@@ -313,6 +316,7 @@ module.exports = {
         new HtmlWebpackPlugin({ template: `./src/template/${x}/career/frontend-engineer.ejs`, filename: x + "/careers/frontend-engineer.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/career/ios-engineer.ejs`, filename: x + "/careers/ios-engineer.html", inject: "body", }),
         new HtmlWebpackPlugin({ template: `./src/template/${x}/career/qa-engineer.ejs`, filename: x + "/careers/qa-engineer.html", inject: "body", }),
+        new HtmlWebpackPlugin({ template: `./src/template/${x}/career/marketologist.ejs`, filename: x + "/careers/marketologist.html", inject: "body", }),
     ]),]),
     //--------------------------------------------------------------------------------------------------------------------------------------------
     resolve: {

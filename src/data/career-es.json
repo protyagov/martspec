@@ -282,6 +282,41 @@
             ],
             "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
             "VACANCY_STATUS": "OPEN"
+        },
+        "MARKETOLOGIST": {
+            "TITLE": "Especialista en Marketing",
+            "DESC": "Únete a nuestro equipo como becario de Marketing y ayúdanos a hacer crecer nuestras apps de salud y fitness en la plataforma Apple. Crearás contenido que enganche, te apoyarás en tendencias de bienestar y encontrarás formas auténticas de conectar con personas que quieren sentirse más fuertes, sanas y seguras. Tu trabajo impactará directamente en descargas, visibilidad y crecimiento real de usuarios.\n\nFormarás parte de una startup ágil donde tus ideas se materializan de verdad — y tendrás libertad real para probar conceptos atrevidos, experimentar con nuevos enfoques y ver qué funciona. Si te apasionan el fitness, el bienestar, las redes sociales y construir algo que mejore el día a día — crezcamos juntos.",
+            "EXPECTATIONS": [
+             {
+                    "H3": "Gestión y Monitoreo de Redes Sociales",
+                    "UL": [
+                        "Gestionar y hacer crecer las redes sociales de la marca (Facebook, X, LinkedIn, TikTok, etc.)",
+                        "Monitorear conversaciones sobre la marca, los competidores y el mercado"
+                    ]
+                },
+                {
+                    "H3": "Creación de Contenido",
+                    "UL": [
+                        "Idear y crear contenido: textos, conceptos, formatos, storytelling"
+                    ]
+                },
+                {
+                    "H3": "Campañas y Promoción",
+                    "UL": [
+                        "Lanzar promociones y campañas de marketing, y analizar resultados",
+                        "Generar tráfico y leads desde las redes sociales"
+                    ]
+                },
+                {
+                    "H3": "Analítica y Optimización",
+                    "UL": [
+                        "Probar nuevos formatos y estrategias de interacción con la audiencia",
+                        "Analizar el rendimiento de las redes sociales y el ROI"
+                    ]
+                }
+            ],
+            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A",
+            "VACANCY_STATUS": "OPEN"
         }
     },
     "CONDITIONS": [
