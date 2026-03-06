@@ -1,0 +1,20 @@
+.link-button-animated {
+  max-width: fit-content;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(22, 134, 255);
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  padding: 12px 0;
+}
+
+.link-button-animated:hover {
+  background-color: transparent;
+  color: rgb(22, 134, 255);
+  border-color: rgb(22, 134, 255);
+  transform: scale(1.03);
+}
+
+

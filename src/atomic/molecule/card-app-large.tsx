@@ -1,6 +1,6 @@
 import React from "react";
 import ImageI18N from "@/atomic/atom/img-i18n";
-import LinkStyledButton from "@/atomic/atom/link-styled-button";
+import ButtonLinkStyleAnimated from "@/atomic/atom/buttonLinkStyleAnimated";
 
 type CardAppLargeProps = {
   iconSrc: string;
@@ -56,12 +56,9 @@ const CardAppLarge: React.FC<CardAppLargeProps> = ({
         <p className="mt-4 content">{content}</p>
 
         {/* Кнопка */}
-        <LinkStyledButton
+        <ButtonLinkStyleAnimated
           text={button.text}
           link={button.link}
-          color={button.color}
-          textColor={button.textColor}
-          className="link-button fs-4 rounded-5 py-2 px-5 mt-auto"
         />
       </div>
 

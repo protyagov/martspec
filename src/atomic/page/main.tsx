@@ -252,7 +252,7 @@ export default function LandingPage() {
                             subtitle={_("MAGNESIUM.SUBHEAD")}
                             content={_("MAGNESIUM.TEXT")}
                             button={{
-                                buttonType: "LinkStyledButton",
+                                buttonType: "ButtonLinkStylePlain",
                                 text: _("MAGNESIUM.BUTTON_OPEN"),
                                 link: Locale.i18nLink("magnesium"),
                                 color: "#E5EEFF",
@@ -269,7 +269,7 @@ export default function LandingPage() {
                             subtitle={_("CALCIUM.SUBHEAD")}
                             content={_("CALCIUM.TEXT")}
                             button={{
-                                buttonType: "LinkStyledButton",
+                                buttonType: "ButtonLinkStylePlain",
                                 text: _("CALCIUM.BUTTON_OPEN"),
                                 link: Locale.i18nLink("coming-soon"),
                                 color: "#E5EEFF",
@@ -286,7 +286,7 @@ export default function LandingPage() {
                             subtitle={_("IRON.SUBHEAD")}
                             content={_("IRON.TEXT")}
                             button={{
-                                buttonType: "LinkStyledButton",
+                                buttonType: "ButtonLinkStylePlain",
                                 text: _("IRON.BUTTON_OPEN"),
                                 link: Locale.i18nLink("iron"),
                                 color: "#E5EEFF",

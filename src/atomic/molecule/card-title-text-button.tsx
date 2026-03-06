@@ -1,5 +1,5 @@
 import * as React from "react";
-import LinkStyledButton from "@/atomic/atom/link-styled-button";
+import ButtonLinkStylePlain from "@/atomic/atom/buttonLinkStylePlain";
 
 interface Props {
     title: string;
@@ -21,16 +21,14 @@ const CardTitleTextButton = ({
             <h2>{title}</h2>
             <ul>
                 {textContent.map((item, index) => (
-                    <li key={index} className="mb-4">{item}</li>
+                    <li key={index} className="mb-4">
+                        {item}
+                    </li>
                 ))}
             </ul>
 
             <div className="fs-4 rounded-5 py-2 mt-auto">
-                <LinkStyledButton
-                    text={buttonText}  
-                    link={buttonLink}  
-                    color={buttonColor} 
-                />
+                <ButtonLinkStylePlain text={buttonText} link={buttonLink} buttonColor={buttonColor} />
             </div>
         </div>
     );
