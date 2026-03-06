@@ -2,30 +2,41 @@ import React from "react";
 import _, { Locale } from "@/i18n/locale";
 import type { Story, StoryDefault } from "@ladle/react";
 
-import LinkStyledButton from "@/atomic/atom/link-styled-button";
+import ButtonLinkStylePlain from "@/atomic/atom/buttonLinkStylePlain";
+import ButtonLinkStyleAnimated from "@/atomic/atom/buttonLinkStyleAnimated";
+
 import { PageWrapper } from ".ladle/decorators";
 
 export default {
-    title: "Atom",
+    title: "Atom/Buttons",
 } satisfies StoryDefault;
 
-export const LinkStyledButtonStory: Story<{
-    text: string;
-    link: string;
-    color?: string;
-    className?: string;
-}> = (props) => (
+// ---- Plain Button Story ----
+export const ButtonLinkStylePlainStory: Story<{ text: string; link: string }> = ({ text, link }) => (
     <div className="card-title-text-button">
-        <LinkStyledButton {...props} />
+        <ButtonLinkStylePlain text={text} link={link} />
     </div>
 );
 
-LinkStyledButtonStory.args = {
+ButtonLinkStylePlainStory.args = {
     text: _("ELECTROLYTE.BTN_MORE"),
-    link: Locale.i18nLink(`coming-soon`),
-    color: "#8079CC",
-    className: "btn",
+    link: Locale.i18nLink("coming-soon"),
 };
 
-LinkStyledButtonStory.decorators = [PageWrapper];
-LinkStyledButtonStory.storyName = "LinkStyledButton";
+ButtonLinkStylePlainStory.decorators = [PageWrapper];
+ButtonLinkStylePlainStory.storyName = "ButtonLinkStylePlain";
+
+// ---- Animated Button Story ----
+export const ButtonLinkStyleAnimatedStory: Story<{ text: string; link: string }> = ({ text, link }) => (
+    <div className="card-title-text-button">
+        <ButtonLinkStyleAnimated text={text} link={link} />
+    </div>
+);
+
+ButtonLinkStyleAnimatedStory.args = {
+    text: _("ELECTROLYTE.BTN_MORE"),
+    link: Locale.i18nLink("coming-soon"),
+};
+
+ButtonLinkStyleAnimatedStory.decorators = [PageWrapper];
+ButtonLinkStyleAnimatedStory.storyName = "ButtonLinkStyleAnimated";
