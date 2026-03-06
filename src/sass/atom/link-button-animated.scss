@@ -11,7 +11,8 @@
 }
 
 .link-button-animated:hover {
-  background-color: #fff;
+  background-color: transparent;
   color: rgb(22, 134, 255);
   border-color: rgb(22, 134, 255);
+  transform: scale(1.03);
 }
