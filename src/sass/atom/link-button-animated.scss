@@ -1,0 +1,16 @@
+.link-button-animated {
+  max-width: fit-content;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.5rem;
+  background-color: var(--bs-primary);
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.link-button-animated:hover {
+  background-color: #fff;
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}

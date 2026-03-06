@@ -8,9 +8,9 @@ import CallToAction from "@/atomic/organism/call-to-action-new";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import CardIconTitleText from "@/atomic/molecule/card-icon-title-text";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
-import LinkStyledButton from "@/atomic/atom/link-styled-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
+import ButtonLinkStyleAnimated from "@/atomic/atom/buttonLinkStyleAnimated";
 
 export default function About() {
     const items = useBreadcrumbs();
@@ -20,7 +20,6 @@ export default function About() {
             <NavigationBar />
 
             <div className="container-xl ms-s-offset fs-3 pt-lg-5">
-
                 <div className="row mb-3">
                     <Breadcrumb items={items} />
                 </div>
@@ -101,13 +100,9 @@ export default function About() {
                                 <li>{_("ABOUT.OURCORE.TEXT5")}</li>
                                 <li>{_("ABOUT.OURCORE.TEXT6")}</li>
                             </ul>
-
-                            <LinkStyledButton
-                                text={_("ABOUT.OURCORE.TEXTBTN")}
-                                link="/emotion"
-                                color="rgb(22, 134, 255)"
-                                textColor="#fff"
-                                className="link-button fs-4 rounded-5 py-2 px-5 mt-auto"
+                            
+                            <ButtonLinkStyleAnimated text={_("ABOUT.OURCORE.TEXTBTN")}
+                            link="/emotion"
                             />
                         </div>
                     </div>
