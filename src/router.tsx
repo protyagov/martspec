@@ -20,6 +20,7 @@ import Careers from "@/atomic/page/careers";
 import VacancyDetails from "@/atomic/prototype/vacancy-details";
 import ComingSoon from "@/atomic/page/coming-soon";
 import Iron from "@/atomic/page/iron";
+import Calcium from "@/atomic/page/calcium";
 import Article from "@/atomic/prototype/article/article";
 
 const articleVitamins = ["acai", "lion", "turmeric", "collagen", "ginko"];
@@ -67,6 +68,8 @@ export function App() {
             return <Careers />;
         case "/iron":
             return <Iron />;
+        case "/calcium":
+            return <Calcium />;
         case "/coming-soon":
             return <ComingSoon />;
             default:

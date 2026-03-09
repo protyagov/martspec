@@ -190,6 +190,7 @@ module.exports = {
                 { context: "src/data/article/emotion/", from: "**/*.json", to: "data/article/emotion/[path][name][ext]" },
                 { context: "src/data/article/vitamin/", from: "**/*.json", to: "data/article/vitamin/[path][name][ext]" },
                 { context: "src/img/page/article/", from: "**/*", to: "img/page/article" },
+                { context: "src/img/page/calcium/", from: "*", to: "img/page/calcium" },
             ],
             options: {
                 concurrency: 100,
