@@ -1814,6 +1814,11 @@
     },
     "CALCIUM": {
         "HEAD": "Calcium",
+        "ABOUT_1": "Ein einfacher und benutzerfreundlicher Kalzium-Tracker",
+        "ABOUT_2": "Nutzen Sie die App für Ihre Apple Watch",
+        "ABOUT_3": "Synchronisierung mit der Apple Health App",
+        "IMG": "Illustration der Kalzium-App",
+        "DWN": "Holen Sie sich die kostenlose Kalzium-App für die Apple Watch direkt aus dem Apple App Store.",
         "ICO": "App-Icon zur täglichen Verfolgung deines Calciumspiegels.",
         "SUBHEAD": "Calcium-Tracker für die Uhr",
         "TEXT": "Einfache Calciumverfolgung direkt am Handgelenk. Uhr-Widgets und Synchronisierung mit Apple Health machen es praktisch. Sauberes Design, keine Werbung und keine Anmeldung erforderlich.",
