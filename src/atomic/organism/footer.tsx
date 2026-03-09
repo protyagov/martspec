@@ -75,7 +75,7 @@ export const Footer = () => (
                                     <a href={Locale.i18nLink("iron")}> {_("IRON.HEAD")} </a>
                                 </div>
                                 <div className="footer-link mb-2">
-                                    <a href={Locale.i18nLink("coming-soon")}> {_("CALCIUM.HEAD")} </a>
+                                    <a href={Locale.i18nLink("calcium")}> {_("CALCIUM.HEAD")} </a>
                                 </div>
                                 <div className="footer-link mb-2">
                                     <a href={Locale.i18nLink("magnesium")}> {_("MAGNESIUM.HEAD")} </a>

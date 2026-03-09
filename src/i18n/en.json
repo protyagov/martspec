@@ -1813,6 +1813,11 @@
     },
     "CALCIUM": {
         "HEAD": "Calcium",
+        "ABOUT_1": "A simple and easy-to-use calcium tracker",
+        "ABOUT_2": "Use the app for your Apple Watch",
+        "ABOUT_3": "Sync with the Apple Health app",
+        "IMG": "Illustration of the Calcium app",
+        "DWN": "Get the free Calcium app for Apple Watch directly from the Apple App Store.",
         "ICO": "App icon for daily tracking of your calcium levels.",
         "SUBHEAD": "Calcium tracker for watch",
         "TEXT": "Simple calcium tracking, directly on your wrist. Watch complication widgets and Apple Health sync make it easy. Clean design, zero ads, no logins required.",

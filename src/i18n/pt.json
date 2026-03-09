@@ -1815,6 +1815,11 @@
     },
     "CALCIUM": {
         "HEAD": "Cálcio",
+        "ABOUT_1": "Um rastreador de cálcio simples e fácil de usar",
+        "ABOUT_2": "Use a aplicação para o seu Apple Watch",
+        "ABOUT_3": "Sincronização com a aplicação Apple Saúde",
+        "IMG": "Ilustração da aplicação Cálcio",
+        "DWN": "Obtenha a aplicação gratuita Cálcio para o Apple Watch diretamente da Apple App Store.",
         "ICO": "Ícone do aplicativo para rastrear diariamente seus níveis de cálcio.",
         "SUBHEAD": "Rastreador de cálcio para relógio",
         "TEXT": "Rastreamento simples de cálcio diretamente no seu pulso. Widgets para o relógio e sincronização com o Apple Health tornam isso conveniente. Design limpo, sem anúncios e sem necessidade de login.",

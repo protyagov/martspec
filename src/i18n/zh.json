@@ -1810,6 +1810,11 @@
     },
     "CALCIUM": {
         "HEAD": "钙",
+        "ABOUT_1": "简单易用的钙质追踪器",
+        "ABOUT_2": "在您的 Apple Watch 上使用该应用程序",
+        "ABOUT_3": "与 Apple 健康应用程序同步",
+        "IMG": "钙质应用程序插图",
+        "DWN": "直接从 Apple App Store 获取适用于 Apple Watch 的免费钙质应用程序。",
         "ICO": "用于每日跟踪您钙水平的应用图标。",
         "SUBHEAD": "手表钙跟踪器",
         "TEXT": "直接在您的手腕上简单地跟踪钙。手表小部件和与Apple Health同步使其更加便捷。简洁设计，无广告，无需登录。",

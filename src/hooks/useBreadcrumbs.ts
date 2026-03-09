@@ -33,6 +33,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             energy: _("ENERGY.HEAD"),
             harmony: _("HARMONY.HEAD"),
             biorhythms: _("BIORHYTHMS.HEAD"),
+            calcium: _("CALCIUM.HEAD"),
         };
 
         const items: BreadcrumbItem[] = cleanPath.map((segment, index) => {
