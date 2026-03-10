@@ -10,6 +10,10 @@
       <loc>https://martspec.com/bodymass</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/calcium</loc>
+      <changefreq>monthly</changefreq>
+   </url>
       <url>
       <loc>https://martspec.com/iron</loc>
       <changefreq>monthly</changefreq>
@@ -250,6 +254,10 @@
    </url>
    <url>
       <loc>https://martspec.com/en/bodymass</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
@@ -494,6 +502,10 @@
       <loc>https://martspec.com/ar/bodymass</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/ar/calcium</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/ar/iron</loc>
       <changefreq>monthly</changefreq>
@@ -734,6 +746,10 @@
    </url>
    <url>
       <loc>https://martspec.com/zh/bodymass</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
@@ -978,6 +994,10 @@
       <loc>https://martspec.com/fr/bodymass</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/fr/calcium</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/fr/iron</loc>
       <changefreq>monthly</changefreq>
@@ -1218,6 +1238,10 @@
    </url>
    <url>
       <loc>https://martspec.com/de/bodymass</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
@@ -1462,6 +1486,10 @@
       <loc>https://martspec.com/hi/bodymass</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/hi/calcium</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/hi/iron</loc>
       <changefreq>monthly</changefreq>
@@ -1702,6 +1730,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ja/bodymass</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
@@ -1946,6 +1978,10 @@
       <loc>https://martspec.com/pt/bodymass</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/pt/calcium</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/pt/iron</loc>
       <changefreq>monthly</changefreq>
@@ -2186,6 +2222,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ru/bodymass</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>
@@ -2430,6 +2470,10 @@
       <loc>https://martspec.com/es/bodymass</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/es/calcium</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/es/iron</loc>
       <changefreq>monthly</changefreq>
@@ -2670,6 +2714,10 @@
    </url>
    <url>
       <loc>https://martspec.com/uk/bodymass</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
     <url>

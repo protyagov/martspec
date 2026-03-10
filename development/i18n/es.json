@@ -1811,6 +1811,11 @@
     },
     "CALCIUM": {
         "HEAD": "Calcio",
+        "ABOUT_1": "Un rastreador de calcio simple y fácil de usar",
+        "ABOUT_2": "Usa la aplicación para tu Apple Watch",
+        "ABOUT_3": "Sincronización con la aplicación Apple Health",
+        "IMG": "Ilustración de la aplicación Calcio",
+        "DWN": "Obtén la aplicación gratuita Calcio para Apple Watch directamente desde la Apple App Store.",
         "ICO": "Ícono de la aplicación para el seguimiento diario de tus niveles de calcio.",
         "SUBHEAD": "Rastreador de calcio para reloj",
         "TEXT": "Seguimiento simple de calcio directamente en tu muñeca. Los widgets para el reloj y la sincronización con Apple Health lo hacen conveniente. Diseño limpio, sin anuncios y sin necesidad de iniciar sesión.",
