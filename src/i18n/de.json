@@ -1822,7 +1822,15 @@
         "ICO": "App-Icon zur täglichen Verfolgung deines Calciumspiegels.",
         "SUBHEAD": "Calcium-Tracker für die Uhr",
         "TEXT": "Einfache Calciumverfolgung direkt am Handgelenk. Uhr-Widgets und Synchronisierung mit Apple Health machen es praktisch. Sauberes Design, keine Werbung und keine Anmeldung erforderlich.",
-        "BUTTON_OPEN": "Knochen stärken"
+        "BUTTON_OPEN": "Knochen stärken",
+        "LIST1":{
+            "LI1_HEAD": "Sorge um Ihre Gesundheit",
+            "DESC1": "Überwachen Sie den Kalziumspiegel in Ihrem Körper mit unserer App, um jeden Tag gesund zu bleiben und Ihre tägliche Aufnahme mühelos zu verfolgen",
+            "LI2_HEAD": "Erweiterte Zifferblätter",
+            "DESC2": "Bequemer Zugriff auf Statistiken auf Uhren mit frühen Softwareversionen, ab WatchOS 6, mit Unterstützung für beliebige Zifferblätter",
+            "LI3_HEAD": "Funktioniert ohne iPhone",
+            "DESC3": "Die App ist unabhängig vom iPhone – Zugriff auf Statistiken auch ohne Telefon"
+        }
     },
     "IRON": {
         "HEAD": "Eisen",

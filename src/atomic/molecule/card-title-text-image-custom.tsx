@@ -15,8 +15,8 @@ export interface BackgroundImage {
 }
 
 interface CardTitleTextImageCustomProps {
-    title: string;
-    text: string;
+    title?: string;
+    text?: string;
     bgColor?: CSSProperties["color"];
     titleColor?: CSSProperties["color"];
     textColor?: CSSProperties["color"];
