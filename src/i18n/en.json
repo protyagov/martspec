@@ -1821,8 +1821,16 @@
         "ICO": "App icon for daily tracking of your calcium levels.",
         "SUBHEAD": "Calcium tracker for watch",
         "TEXT": "Simple calcium tracking, directly on your wrist. Watch complication widgets and Apple Health sync make it easy. Clean design, zero ads, no logins required.",
-        "BUTTON_OPEN": "Fortify Bones"
-    },
+        "BUTTON_OPEN": "Fortify Bones",
+        "LIST1":{
+            "LI1_HEAD": "Caring for Your Health",
+            "DESC1": "Monitor your body's calcium levels with our app to maintain health every day and effortlessly track daily intake",
+            "LI2_HEAD": "Advanced Watch Faces",
+            "DESC2": "Convenient access to statistics on watches with early software versions, starting with WatchOS 6, with support for any watch faces",
+            "LI3_HEAD": "Works without iPhone",
+            "DESC3": "The app is independent of iPhone — access statistics even without a phone"
+        }
+            },
     "IRON": {
         "HEAD": "Iron",
         "HEAD1": "Our Advantages",

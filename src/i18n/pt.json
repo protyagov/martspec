@@ -1823,7 +1823,15 @@
         "ICO": "Ícone do aplicativo para rastrear diariamente seus níveis de cálcio.",
         "SUBHEAD": "Rastreador de cálcio para relógio",
         "TEXT": "Rastreamento simples de cálcio diretamente no seu pulso. Widgets para o relógio e sincronização com o Apple Health tornam isso conveniente. Design limpo, sem anúncios e sem necessidade de login.",
-        "BUTTON_OPEN": "Fortaleça ossos"
+        "BUTTON_OPEN": "Fortaleça ossos",
+        "LIST1":{
+            "LI1_HEAD": "Cuidar da Sua Saúde",
+            "DESC1": "Controle os níveis de cálcio no seu corpo com a nossa aplicação para manter a saúde todos os dias e monitorizar sem esforço o consumo diário",
+            "LI2_HEAD": "Mostradores de Relógio Avançados",
+            "DESC2": "Acesso conveniente a estatísticas em relógios com versões de software antigas, a partir do WatchOS 6, com suporte para quaisquer mostradores",
+            "LI3_HEAD": "Funciona sem iPhone",
+            "DESC3": "A aplicação é independente do iPhone — aceda às estatísticas mesmo sem o telemóvel"
+        }
     },
     "IRON": {
         "HEAD": "Ferro",

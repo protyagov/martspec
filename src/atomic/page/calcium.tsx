@@ -88,16 +88,16 @@ export default function Calcium() {
                     </div>
                 </Header>
 
-                {/*<div className="row g-4">
+                <div className="row g-4">
                     <div className="col-12 col-lg-4">
                         <CardTitleTextImageCustom
-                            title={_("SIZE.LIST1.LI1_HEAD")}
-                            text={_("SIZE.LIST1.DESC1")}
-                            imgSrc={`/img/page/body-size/section-left-${Locale.language}.webp`}
-                            cardHeight="37rem"
+                            title={_("CALCIUM.LIST1.LI1_HEAD")}
+                            text={_("CALCIUM.LIST1.DESC1")}
+                            imgSrc={`/img/page/calcium/Ca.webp`}
+                            cardHeight="33rem"
                             imgPosition="center-bottom"
-                            imgH="19rem"
-                            imgMobileH="18rem"
+                            imgH="15rem"
+                            imgMobileH="14rem"
                             shadow={true}
                             mobileBreakpoint={1040}
                             responsive={true}
@@ -106,37 +106,35 @@ export default function Calcium() {
                     <div className="col-12 col-lg-4">
                         <div className="d-flex flex-column h-100 gap-4">
                             <CardTitleTextImageCustom
-                                title={_("SIZE.LIST1.LI2_HEAD")}
-                                text={_("SIZE.LIST1.DESC2")}
-                                bgColor="#E5F4D9"
-                                cardHeight="17rem"
+                                title={_("CALCIUM.LIST1.LI2_HEAD")}
+                                text={_("CALCIUM.LIST1.DESC2")}
+                                bgColor="#F3FFE4"
+                                cardHeight="13rem"
                                 shadow={false}
                             />
                             <CardTitleTextImageCustom
-                                title={_("SIZE.LIST1.LI3_HEAD")}
-                                text={_("SIZE.LIST1.DESC3")}
-                                bgColor="#FFECDB"
-                                cardHeight="17rem"
+                                title={_("CALCIUM.LIST1.LI3_HEAD")}
+                                text={_("CALCIUM.LIST1.DESC3")}
+                                bgColor="#FFFADD"
+                                cardHeight="13rem"
                                 shadow={false}
                             />
                         </div>
                     </div>
                     <div className="col-12 col-lg-4">
                         <CardTitleTextImageCustom
-                            title={_("SIZE.LIST1.LI4_HEAD")}
-                            text={_("SIZE.LIST1.DESC4")}
-                            imgSrc="/img/page/body-size/section-right.webp"
+                            imgSrc="/img/page/calcium/people.webp"
                             bgColor="#F4F5F8"
-                            cardHeight="37rem"
-                            imgPosition="center-bottom"
-                            imgH="20rem"
-                            imgMobileH="18rem"
+                            cardHeight="33rem"
+                            imgPosition="right-bottom"
+                            imgH="30rem"
+                            imgMobileH="27rem"
                             shadow={false}
                             mobileBreakpoint={1040}
                             responsive={true}
                         />
                     </div>
-                </div>*/}
+                </div>
 
 
            
