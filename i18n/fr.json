@@ -1819,7 +1819,15 @@
         "ICO": "Icône de l'application pour le suivi quotidien de vos niveaux de calcium.",
         "SUBHEAD": "Tracker de calcium pour montre",
         "TEXT": "Suivi simple du calcium directement sur votre poignet. Les widgets pour la montre et la synchronisation avec Apple Health le rendent pratique. Design épuré, sans publicités et sans besoin de se connecter.",
-        "BUTTON_OPEN": "Renforce les os"
+        "BUTTON_OPEN": "Renforce les os",
+        "LIST1":{
+            "LI1_HEAD": "Prendre soin de votre santé",
+            "DESC1": "Contrôlez le taux de calcium dans votre corps avec notre application pour rester en bonne santé chaque jour et suivre sans effort votre consommation quotidienne",
+            "LI2_HEAD": "Cadrans de montre avancés",
+            "DESC2": "Accès pratique aux statistiques sur les montres équipées d'anciennes versions logicielles, à partir de WatchOS 6, avec prise en charge de tous les cadrans",
+            "LI3_HEAD": "Fonctionne sans iPhone",
+            "DESC3": "L'application est indépendante de l'iPhone — accédez aux statistiques même sans téléphone"
+        }
     },
     "IRON": {
         "HEAD": "Fer",
