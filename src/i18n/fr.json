@@ -1827,7 +1827,13 @@
             "DESC2": "Accès pratique aux statistiques sur les montres équipées d'anciennes versions logicielles, à partir de WatchOS 6, avec prise en charge de tous les cadrans",
             "LI3_HEAD": "Fonctionne sans iPhone",
             "DESC3": "L'application est indépendante de l'iPhone — accédez aux statistiques même sans téléphone"
-        }
+        },
+        "HEAD2": "Pourquoi le Calcium",
+        "DESC2_1": "Aide à prévenir l'ostéoporose et renforce les dents.",
+        "DESC2_2": "Nécessaire aux contractions musculares, y compris le travail du muscle cardiaque.",
+        "DESC2_3": "Aide à transmettre les influx nerveux, assurant un fonctionnement cérébral normal et la stabilité du système nerveux.",
+        "DESC2_4": "Participe aux processus de coagulation sanguine, essentiels pour la cicatrisation et la prévention des hémorragies.",
+        "BTN_MORE": "En savoir plus"
     },
     "IRON": {
         "HEAD": "Fer",

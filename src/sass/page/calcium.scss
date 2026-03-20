@@ -1,0 +1,65 @@
+@import "@/sass/atom/base-new-vars";
+.calcium {
+  .header{
+      li {
+          &::marker {
+              color: #6EAD4F;
+          }
+      }
+  }
+
+  .card-title-text-button {
+    li {
+      &::marker {
+      color: #6EAD4F;
+      }
+    }
+    ul {
+      list-style: disc;
+    }
+  }
+  h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .card-icon-title-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    p{
+      margin-top: auto;
+    }
+  }
+  .block{
+    background-color: unset;
+    box-shadow: unset;
+    padding: 0;
+    max-width: 800px;
+    h3{
+      font-size: 40px;
+      color: $ms-color-text-black;
+      @include media-breakpoint-down(md) {
+        font-size: 28px;
+      }
+    }
+  }
+  .row{
+    margin-bottom: 64px;
+  }
+  &__icon-white .icon{
+    background-color:#fff!important;
+  }
+  .list-with-icons {
+    .icon{
+      background-color: #F4F5F8;
+    }
+  }
+  &-advantages{
+    h2{
+      font-size: 40px;
+      @include media-breakpoint-down(md) {
+        font-size: 28px;
+      }
+    }
+  }
+}

@@ -79,8 +79,8 @@ export default function Calcium() {
                     imgH={305}
                     imgW={450}
                 >
-                    <div className="bodysize">
-                        <ul className="header-content-list">
+                    <div className="calcium fs-4">
+                        <ul className="header">
                             <li className="font-normal">{_("CALCIUM.ABOUT_1")}</li>
                             <li>{_("CALCIUM.ABOUT_2")}</li>
                             <li>{_("CALCIUM.ABOUT_3")}</li>
@@ -136,6 +136,35 @@ export default function Calcium() {
                     </div>
                 </div>
 
+                <div className="mt-5 calcium">
+                    <div className="row d-flex align-items-center justify-content-between iron__section">
+                        <div className="col-12 col-xxl-6 order-2 order-xxl-1">
+                            <ImageI18N
+                                src="/img/page/calcium/why-calcium.webp"
+                                w={620}
+                                h={390}
+                                alt={_("CALCIUM.IMG_ALT")}
+                                cls="ms-base-image mt-mob-xs"
+                            />
+                        </div>
+                        <div className="mt-5 pt-5 calcium col-12 offset-xxl-1 col-xxl-5 order-1 order-xxl-2 ps-5 pb-2">
+                            <div className="card-title-text-button fs-4">
+                                <CardTitleTextButton
+                                    title={_("CALCIUM.HEAD2")}
+                                    textContent={[
+                                        _("CALCIUM.DESC2_1"),
+                                        _("CALCIUM.DESC2_2"),
+                                        _("CALCIUM.DESC2_3"),
+                                        _("CALCIUM.DESC2_4"),
+                                    ]}
+                                    buttonText={_("CALCIUM.BTN_MORE")}
+                                    buttonLink={Locale.i18nLink(`vitamin/calcium`)}
+                                    buttonColor="#6EAD4F"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
            
 

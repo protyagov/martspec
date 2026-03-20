@@ -1830,7 +1830,13 @@
             "DESC2": "Bequemer Zugriff auf Statistiken auf Uhren mit frühen Softwareversionen, ab WatchOS 6, mit Unterstützung für beliebige Zifferblätter",
             "LI3_HEAD": "Funktioniert ohne iPhone",
             "DESC3": "Die App ist unabhängig vom iPhone – Zugriff auf Statistiken auch ohne Telefon"
-        }
+        },
+        "HEAD2": "Warum Kalzium",
+        "DESC2_1": "Hilft Osteoporose vorzubeugen und stärkt die Zähne.",
+        "DESC2_2": "Notwendig für Muskelkontraktionen, einschließlich der Herzmuskelfunktion.",
+        "DESC2_3": "Hilft bei der Übertragung von Nervenimpulsen und sorgt für eine normale Gehirnfunktion und Stabilität des Nervensystems.",
+        "DESC2_4": "Beteiligt an Blutgerinnungsprozessen, was wichtig für die Wundheilung und Vorbeugung von Blutungen ist.",
+        "BTN_MORE": "Mehr erfahren"
     },
     "IRON": {
         "HEAD": "Eisen",
