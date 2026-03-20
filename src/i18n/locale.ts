@@ -51,7 +51,7 @@ export class Locale {
             case "ru":
                 return "Русский";
             case "de":
-                return "Deutsche";
+                return "Deutsch";
             case "fr":
                 return "Français";
             case "hi":
