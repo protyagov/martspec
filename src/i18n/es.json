@@ -1827,7 +1827,13 @@
             "DESC2": "Acceso cómodo a estadísticas en relojes con versiones de software antiguas, a partir de WatchOS 6, con soporte para cualquier esfera de reloj",
             "LI3_HEAD": "Funciona sin iPhone",
             "DESC3": "La aplicación es independiente del iPhone: accede a las estadísticas incluso sin el teléfono"
-        }
+        },
+        "HEAD2": "Por qué el Calcio",
+        "DESC2_1": "Ayuda a prevenir la osteoporosis y fortalece los dientes.",
+        "DESC2_2": "Esencial para las contracciones musculares, incluyendo el funcionamiento del músculo cardíaco.",
+        "DESC2_3": "Ayuda a transmitir los impulsos nerviosos, asegurando el funcionamiento normal del cerebro y la estabilidad del sistema nervioso.",
+        "DESC2_4": "Participa en los procesos de coagulación de la sangre, lo cual es importante para la cicatrización de heridas y la prevención de hemorragias.",
+        "BTN_MORE": "Saber más"
     },
     "IRON": {
         "HEAD": "Hierro",

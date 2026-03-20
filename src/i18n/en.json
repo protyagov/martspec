@@ -1829,7 +1829,13 @@
             "DESC2": "Convenient access to statistics on watches with early software versions, starting with WatchOS 6, with support for any watch faces",
             "LI3_HEAD": "Works without iPhone",
             "DESC3": "The app is independent of iPhone — access statistics even without a phone"
-        }
+        },
+        "HEAD2": "Why Calcium",
+        "DESC2_1": "Helps prevent osteoporosis and strengthens teeth.",
+        "DESC2_2": "Essential for muscle contractions, including heart muscle function.",
+        "DESC2_3": "Helps transmit nerve impulses, ensuring normal brain function and nervous system stability.",
+        "DESC2_4": "Participates in blood clotting processes, which is vital for wound healing and preventing bleeding.",
+        "BTN_MORE": "Learn more"
             },
     "IRON": {
         "HEAD": "Iron",
