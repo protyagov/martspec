@@ -271,7 +271,7 @@ export default function LandingPage() {
                             button={{
                                 buttonType: "ButtonLinkStylePlain",
                                 text: _("CALCIUM.BUTTON_OPEN"),
-                                link: Locale.i18nLink("coming-soon"),
+                                link: Locale.i18nLink("calcium"),
                                 color: "#E5EEFF",
                                 textColor: "#1686FF",
                             }}
