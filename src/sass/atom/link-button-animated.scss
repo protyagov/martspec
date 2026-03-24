@@ -1,3 +1,4 @@
+
 .link-button-animated {
   max-width: fit-content;
   padding: 0.5rem 1.2rem;
@@ -10,11 +11,13 @@
   padding: 12px 0;
 }
 
-.link-button-animated:hover {
+.link-button-animated:active {
+  animation: pulse-once 0.6s ease-in-out;
   background-color: transparent;
   color: rgb(22, 134, 255);
   border-color: rgb(22, 134, 255);
-  transform: scale(1.03);
+  transform: scale(0.95);
+  transition: transform 0.05s ease;
 }
 
 
