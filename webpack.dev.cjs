@@ -20,6 +20,12 @@ module.exports = merge(common, {
                 name: "google-chrome",
             },
         },
+        proxy: [
+            {
+                context: ['/development'],
+                target: 'http://localhost:3001', // The port we will give to Ladle
+                changeOrigin: true,
+            }],
         historyApiFallback: true,
     },
 
