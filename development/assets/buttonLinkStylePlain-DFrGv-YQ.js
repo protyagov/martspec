@@ -1,0 +1,1 @@
+import{j as o}from"./index-ByLc28uJ.js";const s=({text:r,link:e,buttonColor:n})=>o.jsx("a",{href:e,style:{backgroundColor:n},rel:"noopener noreferrer",className:"link-button-plain fs-4 rounded-5 px-5 mt-auto",children:r});export{s as B};
