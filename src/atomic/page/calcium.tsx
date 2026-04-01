@@ -26,7 +26,7 @@ export default function Calcium() {
     const iconTitleTextListItems: Array<IconTitleText> = [
     {
         icon: {
-            src: "/img/bodysize-icon-data-protection.png",
+            src: "/img/page/calcium/data-protection.png",
             alt: _("SIZE.IMG1_ALT"),
         },
         title: _("SIZE.LIST3.LI3_1_TITLE"),
@@ -34,7 +34,7 @@ export default function Calcium() {
     },
     {
         icon: {
-            src: "/img/bodysize-icon-data-sync.png",
+            src: "/img/page/calcium/data-sync.png",
             alt: _("SIZE.IMG4_ALT"),
         },
         title: _("SIZE.LIST3.LI3_4_TITLE"),
@@ -42,7 +42,7 @@ export default function Calcium() {
     },
     {
         icon: {
-            src: "/img/bodysize-icon-no-ads.png",
+            src: "/img/page/calcium/no-ads.png",
             alt: _("SIZE.IMG3_ALT"),
         },
         title: _("SIZE.LIST3.LI3_3_TITLE"),
@@ -50,7 +50,7 @@ export default function Calcium() {
     },
     {
         icon: {
-            src: "/img/bodysize-icon-no-sign-up.png",
+            src: "/img/page/calcium/no-sign-up.png",
             alt: _("SIZE.IMG2_ALT"),
         },
         title: _("SIZE.LIST3.LI3_2_TITLE"),
@@ -165,7 +165,17 @@ export default function Calcium() {
                         </div>
                     </div>
                 </div>
-
+                
+                <section>
+                    <div className="row">
+                        <div className="col-12 mb-2">
+                            <h2 className="bodysize__h3">{_("SIZE.HEAD6")}</h2>
+                        </div>
+                        <div className="col-12">
+                            <IconTitleTextList items={iconTitleTextListItems} />
+                        </div>
+                    </div>
+                </section>
            
 
 
