@@ -18,15 +18,17 @@ import Accordion, * as MetricAccordion from "@/atomic/molecule/accordion";
 import CardBodyMetric, * as CardBody from "@/atomic/molecule/card-body-metric";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
+import { SvgFactory } from "@/atomic/atom/svg-factory";
 
 
 
 export default function Calcium() {
     const items = useBreadcrumbs();
+    const iconColor = "#6ead4f";
     const iconTitleTextListItems: Array<IconTitleText> = [
     {
         icon: {
-            src: "/img/bodysize-icon-data-protection.png",
+            component: SvgFactory('shield', iconColor),
             alt: _("SIZE.IMG1_ALT"),
         },
         title: _("SIZE.LIST3.LI3_1_TITLE"),
@@ -34,7 +36,7 @@ export default function Calcium() {
     },
     {
         icon: {
-            src: "/img/bodysize-icon-data-sync.png",
+            component: SvgFactory('sync', iconColor),
             alt: _("SIZE.IMG4_ALT"),
         },
         title: _("SIZE.LIST3.LI3_4_TITLE"),
@@ -42,7 +44,7 @@ export default function Calcium() {
     },
     {
         icon: {
-            src: "/img/bodysize-icon-no-ads.png",
+            component: SvgFactory('no-ads', iconColor),
             alt: _("SIZE.IMG3_ALT"),
         },
         title: _("SIZE.LIST3.LI3_3_TITLE"),
@@ -50,7 +52,7 @@ export default function Calcium() {
     },
     {
         icon: {
-            src: "/img/bodysize-icon-no-sign-up.png",
+            component: SvgFactory('no-sign-up', iconColor),
             alt: _("SIZE.IMG2_ALT"),
         },
         title: _("SIZE.LIST3.LI3_2_TITLE"),
@@ -165,7 +167,17 @@ export default function Calcium() {
                         </div>
                     </div>
                 </div>
-
+                
+                <section>
+                    <div className="row">
+                        <div className="col-12 mb-2">
+                            <h2 className="bodysize__h3">{_("SIZE.HEAD6")}</h2>
+                        </div>
+                        <div className="col-12">
+                            <IconTitleTextList items={iconTitleTextListItems} />
+                        </div>
+                    </div>
+                </section>
            
 
 
