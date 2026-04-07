@@ -3,7 +3,8 @@ import React, { ForwardedRef } from "react";
 interface Icon {
     src?: string;
     alt?: string;
-    component?: JSX.Element;
+    svg?: string;
+    component?: JSX.Element| null;
 }
 
 export interface IconTitleText {
@@ -23,7 +24,15 @@ const IconTitleTextElem = ({ icon, title, subtitle, forwardedRef }: IconTitleTex
     return (
         <div className="d-flex h-100 gap-3 align-items-center">
             <div className={`icon ${icon.src?.includes(appleIconName) ? ` ${appleIconClass}` : ""}`}>
-                {icon.component ? icon.component : icon.src ? <img src={icon.src} alt={icon.alt || ""} /> : null}
+
+                {icon.component ? (
+                    icon.component
+                ) : icon.svg ? (
+                    <div dangerouslySetInnerHTML={{ __html: icon.svg }} />
+                ) : icon.src ? (
+                    <img src={icon.src} alt={icon.alt || ""} />
+                ) : null}
+                
             </div>
             <div>
                 <h3 className={`mb-2 ${classNameH3}`} ref={forwardedRef}>
@@ -34,6 +43,5 @@ const IconTitleTextElem = ({ icon, title, subtitle, forwardedRef }: IconTitleTex
         </div>
     );
 };
-
 
 export default IconTitleTextElem;
