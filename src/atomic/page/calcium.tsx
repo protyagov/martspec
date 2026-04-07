@@ -28,7 +28,7 @@ export default function Calcium() {
     const iconTitleTextListItems: Array<IconTitleText> = [
     {
         icon: {
-            component: SvgFactory('shield', iconColor),
+            component: <SvgFactory type="shield" color={iconColor} />,
             alt: _("SIZE.IMG1_ALT"),
         },
         title: _("SIZE.LIST3.LI3_1_TITLE"),
@@ -36,7 +36,7 @@ export default function Calcium() {
     },
     {
         icon: {
-            component: SvgFactory('sync', iconColor),
+            component: <SvgFactory type="sync" color={iconColor} />,
             alt: _("SIZE.IMG4_ALT"),
         },
         title: _("SIZE.LIST3.LI3_4_TITLE"),
@@ -44,7 +44,7 @@ export default function Calcium() {
     },
     {
         icon: {
-            component: SvgFactory('no-ads', iconColor),
+            component: <SvgFactory type="noads" color={iconColor} />,
             alt: _("SIZE.IMG3_ALT"),
         },
         title: _("SIZE.LIST3.LI3_3_TITLE"),
@@ -52,13 +52,13 @@ export default function Calcium() {
     },
     {
         icon: {
-            component: SvgFactory('no-sign-up', iconColor),
+            component: <SvgFactory type="nosignup" color={iconColor} />,
             alt: _("SIZE.IMG2_ALT"),
         },
         title: _("SIZE.LIST3.LI3_2_TITLE"),
         subtitle: _("SIZE.LIST3.LI3_2_TEXT"),
     }
-];
+    ];
     const appId = getAppId();
 
     return (
