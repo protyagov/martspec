@@ -15,6 +15,8 @@ module.exports = merge(common, {
     devServer: {
         port: 3000,
         allowedHosts: "all",
+        hot: true,          // Enable Hot Module Replacement
+        liveReload: true,   // Reload the page if HMR fails
         open: {
             app: {
                 name: "google-chrome",
@@ -40,6 +42,7 @@ module.exports = merge(common, {
                         loader: "sass-loader",
                         options: {
                             // Prefer `dart-sass`
+                            api: "modern",
                             implementation: require("sass"),
                         },
                     },
