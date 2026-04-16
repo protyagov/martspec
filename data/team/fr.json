@@ -1,0 +1,74 @@
+{
+  "ALEX": {
+    "NAME": "Alex",
+    "TITLE": "Développeur iOS",
+    "AVATAR": "/img/page/team/team_alex.webp",
+    "LINK": "https://www.linkedin.com/in/protyagov/"
+  },
+  "SERGEY_K": {
+    "NAME": "Sergueï",
+    "TITLE": "Ingénieur QA",
+    "AVATAR": "/img/page/team/team_sergeyK.webp",
+    "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
+  },
+  "SVETLANA": {
+    "NAME": "Svetlana",
+    "TITLE": "Rédacteur",
+    "AVATAR": "/img/page/team/team_svetlana.webp",
+    "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
+  },
+  "DARIA": {
+    "NAME": "Daria",
+    "TITLE": "Designer UI/UX",
+    "AVATAR": "/img/page/team/team_daria.webp",
+    "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
+  },
+  "ROMAN": {
+    "NAME": "Roman",
+    "TITLE": "Designer UI/UX",
+    "AVATAR": "/img/page/team/team_roman.webp",
+    "LINK": "https://www.linkedin.com/in/roman-grabovsky/"
+  },
+  "VITALY_V": {
+    "NAME": "Vitali",
+    "TITLE": "Développeur iOS",
+    "AVATAR": "/img/page/team/team_vitalyV.webp",
+    "LINK": ""
+  },
+  "NATALIIA": {
+    "NAME": "Natalia",
+    "TITLE": "Développeur Web",
+    "AVATAR": "/img/page/team/team_nataliia.webp",
+    "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
+  },
+  "JOANNA": {
+    "NAME": "Joanna",
+    "TITLE": "Analyste d'affaires",
+    "AVATAR": "/img/page/team/team_joanna.webp",
+    "LINK": "https://www.linkedin.com/in/jingqiao-lei/"
+  },
+  "VITALY_G": {
+    "NAME": "Vitali",
+    "TITLE": "Développeur Web",
+    "AVATAR": "/img/page/team/team_vitalyG.webp",
+    "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
+  },
+  "LEYLI": {
+    "NAME": "Leyli",
+    "TITLE": "Développeur Web",
+    "AVATAR": "/img/page/team/team_leyli.webp",
+    "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
+  },
+  "LENA": {
+    "NAME": "Lena",
+    "TITLE": "Designer UI/UX",
+    "AVATAR": "/img/page/team/team_lena.webp",
+    "LINK": ""
+  },
+  "VICTORIA": {
+    "NAME": "Vika",
+    "TITLE": "Designer UI/UX",
+    "AVATAR": "/img/page/team/team_vika.webp",
+    "LINK": ""
+  }
+}
