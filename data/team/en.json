@@ -1,0 +1,74 @@
+{
+  "ALEX": {
+    "NAME": "Alex",
+    "TITLE": "iOS Developer",
+    "AVATAR": "/img/page/team/team_alex.webp",
+    "LINK": "https://www.linkedin.com/in/protyagov/"
+  },
+  "SERGEY_K": {
+    "NAME": "Sergey",
+    "TITLE": "QA Engineer",
+    "AVATAR": "/img/page/team/team_sergeyK.webp",
+    "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
+  },
+  "SVETLANA": {
+    "NAME": "Svetlana",
+    "TITLE": "Copywriter",
+    "AVATAR": "/img/page/team/team_svetlana.webp",
+    "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
+  },
+  "DARIA":{
+    "NAME": "Daria",
+    "TITLE": "UI/UX Designer",
+    "AVATAR": "/img/page/team/team_daria.webp",
+    "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
+  },
+  "ROMAN":{
+    "NAME": "Roman",
+    "TITLE": "UI/UX Designer",
+    "AVATAR": "/img/page/team/team_roman.webp",
+    "LINK": "https://www.linkedin.com/in/roman-grabovsky/"
+  },
+  "VITALY_V":{
+    "NAME": "Vitaly",
+    "TITLE": "iOS Developer",
+    "AVATAR": "/img/page/team/team_vitalyV.webp",
+    "LINK": ""
+  },
+  "NATALIIA":{
+    "NAME": "Nataliia",
+    "TITLE": "Web Developer",
+    "AVATAR": "/img/page/team/team_nataliia.webp",
+    "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
+  },
+  "JOANNA":{
+    "NAME": "Joanna",
+    "TITLE": "Business Analyst",
+    "AVATAR": "/img/page/team/team_joanna.webp",
+    "LINK": "https://www.linkedin.com/in/jingqiao-lei/"
+  },
+  "VITALY_G":{
+    "NAME": "Vitaly",
+    "TITLE": "Web Developer",
+    "AVATAR": "/img/page/team/team_vitalyG.webp",
+    "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
+  },
+  "LEYLI":{
+    "NAME": "Leyli",
+    "TITLE": "Web Developer",
+    "AVATAR": "/img/page/team/team_leyli.webp",
+    "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
+  },
+  "LENA": {
+    "NAME": "Lena",
+    "TITLE": "UI/UX Designer",
+    "AVATAR": "/img/page/team/team_lena.webp",
+    "LINK": ""
+  },
+  "VICTORIA": {
+    "NAME": "Vika",
+    "TITLE": "UI/UX Designer",
+    "AVATAR": "/img/page/team/team_vika.webp",
+    "LINK": ""
+  }
+}

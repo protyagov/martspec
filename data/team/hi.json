@@ -1,0 +1,74 @@
+{
+  "ALEX": {
+    "NAME": "एलेक्स",
+    "TITLE": "iOS डेवलपर",
+    "AVATAR": "/img/page/team/team_alex.webp",
+    "LINK": "https://www.linkedin.com/in/protyagov/"
+  },
+  "SERGEY_K": {
+    "NAME": "सर्गेई",
+    "TITLE": "QA इंजीनियर",
+    "AVATAR": "/img/page/team/team_sergeyK.webp",
+    "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
+  },
+  "SVETLANA": {
+    "NAME": "स्वेतलाना",
+    "TITLE": "कॉपीराइटर",
+    "AVATAR": "/img/page/team/team_svetlana.webp",
+    "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
+  },
+  "DARIA": {
+    "NAME": "दरिया",
+    "TITLE": "UI/UX डिज़ाइनर",
+    "AVATAR": "/img/page/team/team_daria.webp",
+    "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
+  },
+  "ROMAN": {
+    "NAME": "रोमन",
+    "TITLE": "UI/UX डिज़ाइनर",
+    "AVATAR": "/img/page/team/team_roman.webp",
+    "LINK": "https://www.linkedin.com/in/roman-grabovsky/"
+  },
+  "VITALY_V": {
+    "NAME": "विटाली",
+    "TITLE": "iOS डेवलपर",
+    "AVATAR": "/img/page/team/team_vitalyV.webp",
+    "LINK": ""
+  },
+  "NATALIIA": {
+    "NAME": "नतालिया",
+    "TITLE": "वेब डेवलपर",
+    "AVATAR": "/img/page/team/team_nataliia.webp",
+    "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
+  },
+  "JOANNA": {
+    "NAME": "जोअना",
+    "TITLE": "व्यवसाय विश्लेषक",
+    "AVATAR": "/img/page/team/team_joanna.webp",
+    "LINK": "https://www.linkedin.com/in/jingqiao-lei/"
+  },
+  "VITALY_G": {
+    "NAME": "विटाली",
+    "TITLE": "वेब डेवलपर",
+    "AVATAR": "/img/page/team/team_vitalyG.webp",
+    "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
+  },
+  "LEYLI": {
+    "NAME": "लेयली",
+    "TITLE": "वेब डेवलपर",
+    "AVATAR": "/img/page/team/team_leyli.webp",
+    "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
+  },
+  "LENA": {
+    "NAME": "लीना",
+    "TITLE": "UI/UX डिज़ाइनर",
+    "AVATAR": "/img/page/team/team_lena.webp",
+    "LINK": ""
+  },
+  "VICTORIA": {
+    "NAME": "विका",
+    "TITLE": "UI/UX डिज़ाइनर",
+    "AVATAR": "/img/page/team/team_vika.webp",
+    "LINK": ""
+  }
+}

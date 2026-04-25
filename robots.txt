@@ -1,0 +1,19 @@
+# Group 1 -- All Crawlers
+User-agent: *
+Allow: /
+Allow: /electrolyte
+Allow: /bodymass
+Allow: /waistline
+Allow: /vitamin
+Allow: /bodyzinc
+Allow: /bodysize
+Allow: /emotion
+Allow: /about
+Allow: /mission
+Allow: /img/
+Allow: /icon/
+Allow: /privacy-policy
+Disallow: /font/
+Disallow: /development
+
+Sitemap: https://martspec.com/sitemap.xml

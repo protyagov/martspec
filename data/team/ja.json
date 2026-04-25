@@ -1,0 +1,74 @@
+{
+  "ALEX": {
+    "NAME": "アレックス",
+    "TITLE": "iOS開発者",
+    "AVATAR": "/img/page/team/team_alex.webp",
+    "LINK": "https://www.linkedin.com/in/protyagov/"
+  },
+  "SERGEY_K": {
+    "NAME": "セルゲイ",
+    "TITLE": "QAエンジニア",
+    "AVATAR": "/img/page/team/team_sergeyK.webp",
+    "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
+  },
+  "SVETLANA": {
+    "NAME": "スベトラーナ",
+    "TITLE": "コピーライター",
+    "AVATAR": "/img/page/team/team_svetlana.webp",
+    "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
+  },
+  "DARIA": {
+    "NAME": "ダリア",
+    "TITLE": "UI/UXデザイナー",
+    "AVATAR": "/img/page/team/team_daria.webp",
+    "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
+  },
+  "ROMAN": {
+    "NAME": "ロマン",
+    "TITLE": "UI/UXデザイナー",
+    "AVATAR": "/img/page/team/team_roman.webp",
+    "LINK": "https://www.linkedin.com/in/roman-grabovsky/"
+  },
+  "VITALY_V": {
+    "NAME": "ヴィタリー",
+    "TITLE": "iOS開発者",
+    "AVATAR": "/img/page/team/team_vitalyV.webp",
+    "LINK": ""
+  },
+  "NATALIIA": {
+    "NAME": "ナタリア",
+    "TITLE": "ウェブ開発者",
+    "AVATAR": "/img/page/team/team_nataliia.webp",
+    "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
+  },
+  "JOANNA": {
+    "NAME": "ジョアンナ",
+    "TITLE": "ビジネスアナリスト",
+    "AVATAR": "/img/page/team/team_joanna.webp",
+    "LINK": "https://www.linkedin.com/in/jingqiao-lei/"
+  },
+  "VITALY_G": {
+    "NAME": "ヴィタリー",
+    "TITLE": "ウェブ開発者",
+    "AVATAR": "/img/page/team/team_vitalyG.webp",
+    "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
+  },
+  "LEYLI": {
+    "NAME": "レイリ",
+    "TITLE": "ウェブ開発者",
+    "AVATAR": "/img/page/team/team_leyli.webp",
+    "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
+  },
+  "LENA": {
+    "NAME": "レナ",
+    "TITLE": "UI/UXデザイナー",
+    "AVATAR": "/img/page/team/team_lena.webp",
+    "LINK": ""
+  },
+  "VICTORIA": {
+    "NAME": "ヴィカ",
+    "TITLE": "UI/UXデザイナー",
+    "AVATAR": "/img/page/team/team_vika.webp",
+    "LINK": ""
+  }
+}

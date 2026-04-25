@@ -1,0 +1,44 @@
+{
+  "TITLE": "What is energy?",
+  "IMG_URL": "/img/page/article/energy-top.webp",
+  "IMG_ALT": "Illustration of a young woman experiencing anxiety",
+  "BODY": [ 
+    { 
+      "TITLE": "", 
+      "IMG_SRC": "",
+      "IMG_ALT": "",
+      "CONTENT": "People with a high energy level are active, lively, and full of enthusiasm. They are sociable, competitive, cheerful, and open. They feel comfortable interacting with strangers, visiting new places, and starting new activities. People with a low energy level are quieter, more reserved, and withdrawn. They tend to conserve energy, accumulate strength, and have an attitude focused on minimizing effort and avoiding active engagement.\n\n>Energy can refer to a person's level of enthusiasm and vitality. Although it is not traditionally considered a distinct personality trait, a person's energy level can greatly influence their behavior, interactions, and overall approach to life.\n\nIt is important to note that a higher energy level indicates greater activation of the sympathetic nervous system and metabolic processes. However, if this level remains too high for an extended period, it may lead to harmful stress reactions.",
+      "ACCENT_COLOR": "#E4B921",
+      "BG_COLOR": "" 
+    },
+    {
+       "TITLE": "### Characteristics of an Energetic Person",
+       "IMG_SRC": "",
+       "IMG_ALT": "",
+       "CONTENT": "An energetic person demonstrates unique traits that influence their lifestyle and interactions with the world around them. Such a person is characterized by vitality, sociability, and adaptability. These traits help them live a fulfilling life, achieve success in various fields, and build meaningful relationships with others. \n\n- **Vitality** — distinguishes a person through their high level of energy and activity. It manifests in their drive to achieve goals and complete tasks. An energetic person is full of enthusiasm, passion, and determination to overcome challenges. Thanks to this trait, they can turn every challenge into a new opportunity for growth and development. People with high vitality are often easy to recognize at work through their physical energy, attentiveness, and excitement. They enjoy change and variety and actively seek situations that provide these. Those with lower vitality tend to be calmer, slower-paced, and more deliberate in their actions. Some may perceive them as lacking motivation or enthusiasm, but that is not necessarily true—they simply don’t express their excitement as visibly and prefer not to be the center of attention. \n\n- **Sociability** — is another remarkable quality of an energetic person. Such people gravitate toward communication and find joy and inspiration in connecting with others. They easily make new acquaintances, actively participate in group events, and are not afraid to speak in public. Their sociability helps them build strong relationships, create supportive networks, and access new opportunities. People with high sociability are the “social butterflies” of any company, known across departments. They enjoy being involved in what’s happening around them and quickly establish connections, making them invaluable team members. Those with lower sociability are more reserved and private. They take longer to integrate into new teams and may feel less comfortable in social situations. Others may need more time to get to know them, and they often have fewer but deeper relationships. \n\n- **Adaptability.** People with high adaptability are curious and open-minded. They can easily adjust to new situations and respond quickly to changes in their environment. This allows them to solve problems effectively and adapt swiftly to new demands and challenges. When faced with difficulties, they like hearing others’ opinions and find group idea exchange inspiring. On the other hand, people with lower adaptability prefer to work on problems independently and present their conclusions after careful thought and consideration.",
+       "ACCENT_COLOR": "#E4B921",
+       "BG_COLOR": "#F4F5F8"
+    },
+    {
+       "TITLE": "### Manifestation of Energy",
+       "IMG_SRC": "/img/page/article/energy-bottom.webp",
+       "IMG_ALT": "",
+       "CONTENT": "Energetic people are characterized by a high level of enthusiasm, vigor, and life force. They radiate a sense of liveliness and are often perceived as dynamic and engaging individuals. Here’s how energy can manifest as a personality trait:  \n\n- **High Energy**: Individuals with high energy levels are often enthusiastic, lively, and actively engaged in various activities. They exude positivity and vitality in their interactions. Energetic people are typically sociable, enjoy communication, and often become the life of the party. They approach tasks with determination and openness to new experiences. Their energy can be contagious and inspiring to those around them. \n\n- **Moderate Energy**: People with moderate energy levels find a balance between high and low states of activity. They can adapt their energy levels to different situations, showing enthusiasm when needed while also appreciating moments of calm. Moderately energetic people often enjoy socializing but also value solitude and reflection. They tend to maintain a steady work pace without overexerting themselves. \n\n- **Low Energy**: People with lower energy levels are usually more reserved and introspective. They recharge through solitude and may require more time to regain strength. Although they may not display high levels of enthusiasm, they often possess deep concentration, self-awareness, and thoughtfulness. Low-energy individuals can be highly productive when working on tasks that align with their interests and values.",
+       "ACCENT_COLOR": "#E4B921",
+       "BG_COLOR": ""
+    },
+    {
+       "TITLE": "### Career Interests for Energetic People",
+        "IMG_SRC": "",
+        "IMG_ALT": "",
+        "CONTENT": "Energetic people thrive in activities that let them express their vitality and interact with others. Suitable activities can include team sports, dance, outdoor adventures like hiking or cycling, networking events, public speaking, and high-energy creative pursuits such as acting or performing. Here are some career interests that may appeal to energetic people:  \n\n- Sales and Marketing  \n\n- Event Planning  \n\n- Public Relations  \n\n- Entertainment Industry  \n\n- Fitness and Personal Training  \n\n- Advertising  \n\n- Entrepreneurship  \n\n- Media and Broadcasting  \n\n- Tour Guiding  \n\n- Fashion and Beauty Industry  \n\n> Energetic individuals should consider their strengths, interests, and values when choosing career options. It’s important to find a path that aligns with their natural qualities while leaving room for personal growth and well-being.",
+        "ACCENT_COLOR": "#E4B921",
+        "BG_COLOR": "#F4F5F8"
+    }
+  ],
+  "CALL_TO_ACTION": {
+    "TITLE": "Our app is available for any device",
+    "SUBTITLE": "Download the app right now and start tracking your mood changes even within the same day",
+    "ALT": "Access to statistics without an iPhone"
+  }
+}
