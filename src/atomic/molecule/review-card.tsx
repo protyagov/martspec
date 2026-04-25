@@ -5,6 +5,7 @@ import { useReviewValidatedMsg } from "@/hooks/useReviewValidatedMsg";
 import { useReviewContext } from "./review-context";
 import { useMediaQuery } from "@/hooks";
 import TextLinkArrow from "@/atomic/molecule/text-link-arrow";
+import { getAppStoreLink } from "@/service/AppleService";
 
 interface IReviewCardProps {
     reviewerNickname: string;
@@ -19,12 +20,29 @@ interface IReviewCardProps {
 
 const formatDate = (date: string) => new Date(date).toLocaleDateString("ru-RU");
 
-export default function ReviewCard({ reviewerNickname, createdDate, reviewText, rating, bgImage, reviewLink, readMoreText,  hasUnderlineHover = true, }: IReviewCardProps & { hasUnderlineHover?: boolean }) {
-    const { themeColor } = useReviewContext();
+export default function ReviewCard({
+    reviewerNickname,
+    createdDate,
+    reviewText,
+    rating,
+    bgImage,
+    readMoreText,
+    hasUnderlineHover = true,
+}: IReviewCardProps & { hasUnderlineHover?: boolean }) {
+    const { themeColor, data } = useReviewContext();
     const isMobile = useMediaQuery("(max-width: 991px)");
+
     const { reviewTextRef, validatedData } = useReviewValidatedMsg({
         data: { origMsg: reviewText },
         settings: { rows: 8, resizeDelay: 100, endElem: <span key={reviewText}>...</span> },
+    });
+
+    const reviewHref = getAppStoreLink({
+        data: {
+            appId: data.appId,
+            countryCode: data.countryCode,
+        },
+        option: "see-all=reviews",
     });
 
     return (
@@ -51,9 +69,10 @@ export default function ReviewCard({ reviewerNickname, createdDate, reviewText, 
 
             <div className="review-card__content">
                 <p ref={reviewTextRef}>{validatedData.content}</p>
+
                 {validatedData.overflowFlag && (
                     <TextLinkArrow
-                        href={reviewLink}
+                        href={reviewHref}   
                         text={readMoreText}
                         rightIcon={<RightArrowIcon style={{ marginLeft: "0.5em", verticalAlign: "middle" }} />}
                         isNewTab={true}
