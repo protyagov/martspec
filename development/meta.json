@@ -1,0 +1,464 @@
+{
+  "about": {
+    "homepage": "https://www.ladle.dev",
+    "github": "https://github.com/tajo/ladle",
+    "version": 1
+  },
+  "stories": {
+    "atom--button-apple": {
+      "name": "Button apple",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 12,
+      "locEnd": 12,
+      "filePath": "src/stories/atom/button-apple.stories.tsx",
+      "namedExport": "ButtonAppleStory",
+      "meta": {}
+    },
+    "atom--button-chevron-right": {
+      "name": "Button chevron right",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 12,
+      "locEnd": 20,
+      "filePath": "src/stories/atom/button-chevron-right.stories.tsx",
+      "namedExport": "ButtonChevronRightStory",
+      "meta": {}
+    },
+    "atom--icon-chevron-circle": {
+      "name": "Icon chevron circle",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 11,
+      "locEnd": 15,
+      "filePath": "src/stories/atom/icon-chevron-circle.stories.tsx",
+      "namedExport": "IconChevronCircleStory",
+      "meta": {}
+    },
+    "atom--icon-with-load": {
+      "name": "Icon with load",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 11,
+      "locEnd": 16,
+      "filePath": "src/stories/atom/icon-with-load.stories.tsx",
+      "namedExport": "IconWithLoadStory",
+      "meta": {}
+    },
+    "atom--image-i18-n": {
+      "name": "Image i18 n",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 11,
+      "locEnd": 17,
+      "filePath": "src/stories/atom/img-i18n.stories.tsx",
+      "namedExport": "ImageI18NStory",
+      "meta": {}
+    },
+    "atom--buttons--button-link-style-animated": {
+      "name": "Button link style animated",
+      "levels": [
+        "Atom",
+        "Buttons"
+      ],
+      "locStart": 30,
+      "locEnd": 34,
+      "filePath": "src/stories/atom/link-styled-button.stories.tsx",
+      "namedExport": "ButtonLinkStyleAnimatedStory",
+      "meta": {}
+    },
+    "atom--buttons--button-link-style-plain": {
+      "name": "Button link style plain",
+      "levels": [
+        "Atom",
+        "Buttons"
+      ],
+      "locStart": 15,
+      "locEnd": 19,
+      "filePath": "src/stories/atom/link-styled-button.stories.tsx",
+      "namedExport": "ButtonLinkStylePlainStory",
+      "meta": {}
+    },
+    "atom--pilltext--closed": {
+      "name": "Closed",
+      "levels": [
+        "Atom",
+        "Pilltext"
+      ],
+      "locStart": 28,
+      "locEnd": 30,
+      "filePath": "src/stories/atom/pill-text.stories.tsx",
+      "namedExport": "closed",
+      "meta": {}
+    },
+    "atom--pilltext--open": {
+      "name": "Open",
+      "levels": [
+        "Atom",
+        "Pilltext"
+      ],
+      "locStart": 24,
+      "locEnd": 26,
+      "filePath": "src/stories/atom/pill-text.stories.tsx",
+      "namedExport": "open",
+      "meta": {}
+    },
+    "atom--right-arrow-icon": {
+      "name": "Right arrow icon",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 11,
+      "locEnd": 13,
+      "filePath": "src/stories/atom/right-arrow-icon.stories.tsx",
+      "namedExport": "RightArrowIconStory",
+      "meta": {}
+    },
+    "atom--star-icon": {
+      "name": "Star icon",
+      "levels": [
+        "Atom"
+      ],
+      "locStart": 11,
+      "locEnd": 11,
+      "filePath": "src/stories/atom/star-icon.stories.tsx",
+      "namedExport": "StarIconStory",
+      "meta": {}
+    },
+    "molecule--accordion": {
+      "name": "Accordion",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 25,
+      "filePath": "src/stories/molecule/accordion.stories.tsx",
+      "namedExport": "AccordionStory",
+      "meta": {}
+    },
+    "molecule--bullet-list": {
+      "name": "Bullet list",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 22,
+      "filePath": "src/stories/molecule/bullet-list.stories.tsx",
+      "namedExport": "BulletListStory",
+      "meta": {}
+    },
+    "molecule--card-body-metric": {
+      "name": "Card body metric",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 11,
+      "locEnd": 36,
+      "filePath": "src/stories/molecule/card-body-metric.stories.tsx",
+      "namedExport": "CardBodyMetricStory",
+      "meta": {}
+    },
+    "molecule--card-icon-title-text": {
+      "name": "Card icon title text",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 26,
+      "filePath": "src/stories/molecule/card-icon-title-text.stories.tsx",
+      "namedExport": "CardIconTitleTextStory",
+      "meta": {}
+    },
+    "molecule--card-image": {
+      "name": "Card image",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 28,
+      "filePath": "src/stories/molecule/card-image.stories.tsx",
+      "namedExport": "CardImageStory",
+      "meta": {}
+    },
+    "molecule--card-title-subtitle": {
+      "name": "Card title subtitle",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 22,
+      "filePath": "src/stories/molecule/card-title-subtitle.stories.tsx",
+      "namedExport": "CardTitleSubtitleStory",
+      "meta": {}
+    },
+    "molecule--card-title-text-button": {
+      "name": "Card title text button",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 22,
+      "filePath": "src/stories/molecule/card-title-text-button.stories.tsx",
+      "namedExport": "CardTitleTextButtonStory",
+      "meta": {}
+    },
+    "molecule--card-title-text-image-custom": {
+      "name": "Card title text image custom",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 25,
+      "filePath": "src/stories/molecule/card-title-text-image-custom.stories.tsx",
+      "namedExport": "CardTitleTextImageCustomStory",
+      "meta": {}
+    },
+    "molecule--card-title-text-image": {
+      "name": "Card title text image",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 23,
+      "filePath": "src/stories/molecule/card-title-text-image.stories.tsx",
+      "namedExport": "CardTitleTextImageStory",
+      "meta": {}
+    },
+    "molecule--card-title-text": {
+      "name": "Card title text",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 20,
+      "filePath": "src/stories/molecule/card-title-text.stories.tsx",
+      "namedExport": "CardTitleTextStory",
+      "meta": {}
+    },
+    "molecule--card-vitamin": {
+      "name": "Card vitamin",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 28,
+      "filePath": "src/stories/molecule/card-vitamin.stories.tsx",
+      "namedExport": "CardVitaminStory",
+      "meta": {}
+    },
+    "molecule--icon-title-text-elem": {
+      "name": "Icon title text elem",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 23,
+      "filePath": "src/stories/molecule/icon-title-text-elem.stories.tsx",
+      "namedExport": "IconTitleTextElemStory",
+      "meta": {}
+    },
+    "molecule--review-card": {
+      "name": "Review card",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 27,
+      "filePath": "src/stories/molecule/review-card.stories.tsx",
+      "namedExport": "ReviewCardStory",
+      "meta": {}
+    },
+    "molecule--review-description": {
+      "name": "Review description",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 14,
+      "locEnd": 39,
+      "filePath": "src/stories/molecule/review-description.stories.tsx",
+      "namedExport": "ReviewDescriptionStory",
+      "meta": {}
+    },
+    "molecule--review-filler-card": {
+      "name": "Review filler card",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 15,
+      "locEnd": 47,
+      "filePath": "src/stories/molecule/review-filler-card.stories.tsx",
+      "namedExport": "ReviewFillerCardStory",
+      "meta": {}
+    },
+    "molecule--review-head": {
+      "name": "Review head",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 14,
+      "locEnd": 39,
+      "filePath": "src/stories/molecule/review-head.stories.tsx",
+      "namedExport": "ReviewHeadStory",
+      "meta": {}
+    },
+    "molecule--review-link": {
+      "name": "Review link",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 14,
+      "locEnd": 39,
+      "filePath": "src/stories/molecule/review-link.stories.tsx",
+      "namedExport": "ReviewLinkStory",
+      "meta": {}
+    },
+    "molecule--team-member": {
+      "name": "Team member",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 17,
+      "locEnd": 26,
+      "filePath": "src/stories/molecule/team-member.stories.tsx",
+      "namedExport": "TeamMemberStory",
+      "meta": {}
+    },
+    "molecule--text-link-arrow": {
+      "name": "Text link arrow",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 13,
+      "locEnd": 22,
+      "filePath": "src/stories/molecule/text-link-arrow.stories.tsx",
+      "namedExport": "TextLinkArrowStory",
+      "meta": {}
+    },
+    "molecule--title-text-card": {
+      "name": "Title text card",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 21,
+      "filePath": "src/stories/molecule/title-text-card.stories.tsx",
+      "namedExport": "TitleTextCardStory",
+      "meta": {}
+    },
+    "molecule--title-text-link-card": {
+      "name": "Title text link card",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 33,
+      "filePath": "src/stories/molecule/title-text-link-card.stories.tsx",
+      "namedExport": "TitleTextLinkCardStory",
+      "meta": {}
+    },
+    "organism--call-to-action-new": {
+      "name": "Call to action new",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 14,
+      "locEnd": 26,
+      "filePath": "src/stories/organism/call-to-action-new.stories.tsx",
+      "namedExport": "CallToActionStory",
+      "meta": {}
+    },
+    "organism--footer": {
+      "name": "Footer",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 9,
+      "locEnd": 13,
+      "filePath": "src/stories/organism/footer.stories.tsx",
+      "namedExport": "FooterStory",
+      "meta": {}
+    },
+    "organism--header": {
+      "name": "Header",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 12,
+      "locEnd": 32,
+      "filePath": "src/stories/organism/header.stories.tsx",
+      "namedExport": "HeaderStory",
+      "meta": {}
+    },
+    "organism--icon-title-text-list": {
+      "name": "Icon title text list",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 12,
+      "locEnd": 71,
+      "filePath": "src/stories/organism/icon-title-text-list.stories.tsx",
+      "namedExport": "IconTitleTextListStory",
+      "meta": {}
+    },
+    "organism--navigation-bar": {
+      "name": "Navigation bar",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 11,
+      "locEnd": 17,
+      "filePath": "src/stories/organism/navbar.stories.tsx",
+      "namedExport": "NavigationBarStory",
+      "meta": {}
+    },
+    "organism--review-card-slider": {
+      "name": "Review card slider",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 26,
+      "locEnd": 152,
+      "filePath": "src/stories/organism/review-card-slider.stories.tsx",
+      "namedExport": "ReviewCardSliderStory",
+      "meta": {}
+    },
+    "organism--review-link": {
+      "name": "Review link",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 14,
+      "locEnd": 39,
+      "filePath": "src/stories/organism/review-link.stories.tsx",
+      "namedExport": "ReviewLinkStory",
+      "meta": {}
+    },
+    "organism--social-bar": {
+      "name": "Social bar",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 12,
+      "locEnd": 19,
+      "filePath": "src/stories/organism/social-bar.stories.tsx",
+      "namedExport": "SocialBarStory",
+      "meta": {}
+    },
+    "prototype--review": {
+      "name": "Review",
+      "levels": [
+        "Prototype"
+      ],
+      "locStart": 13,
+      "locEnd": 32,
+      "filePath": "src/stories/prototype/review.stories.tsx",
+      "namedExport": "ReviewStory",
+      "meta": {}
+    }
+  }
+}
