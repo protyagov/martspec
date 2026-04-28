@@ -124,11 +124,11 @@ const vitamins: VitaminGroup[] = [
             "CHAGA_MUSHROOM",
             "COCOA_POWDER",
             "COLLAGEN",
+            "KOMBUCHA",
             "CORDYCEPS_POWDER",
             "TURMERIC",
             "FIREWEED_TEA",
             "GINKO",
-            "KOMBUCHA",
             "LION",
             "MACA",
             "TURKEY_TAIL"

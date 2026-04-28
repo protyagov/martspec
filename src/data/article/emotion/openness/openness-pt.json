@@ -14,6 +14,7 @@
         {
             "TITLE": "### O que é abertura à experiência?",
             "IMG_SRC": "/img/page/article/openness-top.webp",
+            "IS_SMALL": true,
             "IMG_ALT": "",
             "CONTENT": "Abertura à experiência é uma dimensão ampla da personalidade que reflete traços ligados à curiosidade, à imaginação, aos interesses artísticos, à preferência pela novidade e à tolerância à ambiguidade. A abertura à experiência, ou simplesmente abertura, é uma das cinco dimensões do modelo dos “Big Five” de traços de personalidade.\n\nEssas pessoas demonstram um alto nível de curiosidade intelectual, gostam de novas experiências, de aprendizado contínuo e tendem a ser originais por causa de sua mentalidade de “pensar fora da caixa”. Pessoas com pontuações baixas em abertura à experiência preferem rotina, familiaridade e formas tradicionais ou socialmente aceitas de fazer as coisas. São menos criativas e inventivas e preferem o concreto ao pensamento abstrato.",
             "ACCENT_COLOR": "#BA90F9",

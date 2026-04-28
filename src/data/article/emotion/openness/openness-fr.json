@@ -14,6 +14,7 @@
         {
             "TITLE": "### Qu’est-ce que l’ouverture à l’expérience ?",
             "IMG_SRC": "/img/page/article/openness-top.webp",
+            "IS_SMALL": true,
             "IMG_ALT": "",
             "CONTENT": "L’ouverture à l’expérience est une large dimension de la personnalité qui reflète des traits liés à la curiosité, à l’imagination, aux intérêts artistiques, à la préférence pour la nouveauté et à la tolérance à l’ambiguïté. L’ouverture à l’expérience, ou simplement l’ouverture, est l’un des cinq grands domaines du modèle de personnalité des « Big Five ».\n\nCes personnes manifestent un niveau élevé de curiosité, apprécient les nouvelles expériences, l’apprentissage continu et tendent à être originales en raison de leur mentalité de « pensée hors des sentiers battus ». Les personnes ayant de faibles scores d’ouverture à l’expérience préfèrent la routine, le familier et les façons de faire traditionnelles ou socialement acceptées. Elles sont moins créatives et inventives et privilégient le concret à la pensée abstraite.",
             "ACCENT_COLOR": "#BA90F9",

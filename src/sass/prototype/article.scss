@@ -21,20 +21,35 @@
 }
 
 .article__image {
+  width: 100%;
+  height: auto;
   border-radius: 20px;
   aspect-ratio: 1300 / 420;
   /* ← helps CLS even more */
+  object-fit: cover;
+  object-position: center;
 }
+
+
 
 .article-content {
   list-style-type: disc;
   margin-bottom: 1rem;
   list-style-position: outside;
 
+.article__image--content {
+    aspect-ratio: 1170 / 700;
+}
+.article__image--small {
+    aspect-ratio: 1300 / 420;
+}
+
   img {
     margin-bottom: 30px;
     border-radius: 20px;
-    aspect-ratio: 1300 / 700;
+    aspect-ratio: 1170 / 700;
+    object-fit: cover;
+    object-position: center;
     /* ← helps CLS */
   }
 
@@ -90,6 +105,11 @@
 .article-section {
   padding: 30px 0;
 
+  .article-section__right-img--high {
+  aspect-ratio: auto; 
+  max-height: 800px;
+  }
+
   &__right {
     display: flex;
     flex-direction: column;
@@ -99,6 +119,7 @@
     border-radius: 30px;
 
     img {
+      border-radius: 0px;
       margin-bottom: 0;
     }
   }

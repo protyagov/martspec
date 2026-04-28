@@ -14,6 +14,7 @@
         {
             "TITLE": "### ¿Qué es la apertura a la experiencia?",
             "IMG_SRC": "/img/page/article/openness-top.webp",
+            "IS_SMALL": true,
             "IMG_ALT": "",
             "CONTENT": "La apertura a la experiencia es una dimensión amplia de la personalidad que refleja rasgos relacionados con la curiosidad, la imaginación, los intereses artísticos, la preferencia por la novedad y la tolerancia a la ambigüedad. La apertura a la experiencia, o simplemente apertura, es una de las cinco áreas de la taxonomía de rasgos de personalidad del modelo de los \"Cinco Grandes\".\n\nEstas personas muestran un alto nivel de curiosidad, disfrutan de las nuevas experiencias y del aprendizaje continuo, y tienden a ser originales debido a su mentalidad de \"pensar fuera de la caja\". Las personas con puntuaciones bajas en apertura a la experiencia prefieren la rutina, lo familiar y las formas tradicionales o socialmente aceptadas. Son menos creativas e inventivas y prefieren lo concreto al pensamiento abstracto.",
             "ACCENT_COLOR": "#BA90F9",

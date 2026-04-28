@@ -14,6 +14,7 @@
         {
             "TITLE": "### What is openness to experience?",
             "IMG_SRC": "/img/page/article/openness-top.webp",
+            "IS_SMALL": true,
             "IMG_ALT": "",
             "CONTENT": "Openness to experience is a broad personality dimension that reflects traits related to curiosity, imagination, artistic interests, a preference for novelty, and tolerance for ambiguity. Openness to experience, or simply openness, is one of the five domains in the Big Five personality trait taxonomy.\n\nThese people show a high level of inquisitiveness, they enjoy new experiences, continuous learning, and they tend to be original because of their \"out-of-the-box thinking\" mentality. People with low scores on openness to experience prefer routine, familiarity, and traditional or commonly accepted ways. They are less creative and inventive and prefer the concrete to abstract thinking.",
             "ACCENT_COLOR": "#BA90F9",

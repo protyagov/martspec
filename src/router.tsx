@@ -77,6 +77,7 @@ export function App() {
     
             if (pagePath === "careers") return <VacancyDetails position={currentPath} />;
             if (pagePath === "emotion") return <Article articleType="emotion" articleId={currentPath} />;
+            if (pagePath === "bodysize") return <Article articleType="bodysize" articleId={currentPath} />;
             if (pagePath === "vitamin") {
             if (articleVitamins.includes(currentPath.toLowerCase())) {
             return <Article articleType="vitamin" articleId={currentPath} />;} 
