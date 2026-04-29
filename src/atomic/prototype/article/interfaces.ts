@@ -4,6 +4,7 @@ export interface IRightColumn {
     CONTENT?: string;
     IMG_SRC?: string;
     IMG_ALT?: string;
+    IS_HIGH?: boolean;
 }
 
 export interface IArticleHeader {
@@ -24,6 +25,7 @@ export interface IArticleSection {
   IMG_ALT: string;
   components?: Components;
   RIGHT_COLUMN?: IRightColumn;
+  IS_SMALL?: boolean;
 }
 
 export interface IArticleCallToAction {

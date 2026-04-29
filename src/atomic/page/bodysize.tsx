@@ -408,7 +408,7 @@ export default function BodySize() {
                                 responsive={true}
                                 actionLink={{
                                     text: _("SIZE.INDICATORS_LIST.BTN"),
-                                    href: Locale.i18nLink("coming-soon"),
+                                    href: Locale.i18nLink("bodysize/adonis"),
                                 }}
                                 primaryColor="#FD7E14"
                                 linkHoverColor="#FD7E14"

@@ -12,9 +12,15 @@ import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 interface ArticleProps {
-  articleType: "emotion" | "vitamin";
+  articleType: "emotion" | "vitamin"  | "bodysize";
   articleId: string;
 }
+
+const CALL_TO_ACTION_IMGS: Record<ArticleProps['articleType'], string> = {
+  emotion: "/img/page/article/call-to-action/call-to-action-en.webp",
+  vitamin: "/img/org/call-to-action/vitamin/Img-CallToAction-en.webp",
+  bodysize: "/img/page/article/bodysize/Img-CallToAction-en.webp",
+};
 
 const ArticleSkeleton = () => (
   <div className="article__container">
@@ -106,7 +112,7 @@ const ArticleSkeleton = () => (
                 <div
                   className="img-fluid skeleton-image"
                   style={{
-                    aspectRatio: "400 / 400",
+                    aspectRatio: "800 / 400",
                     backgroundColor: "#e5e7eb",
                     animation: "pulse 1.5s infinite ease-in-out",
                     borderRadius: "20px",
@@ -195,11 +201,11 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                       </div>
                       {item.IMG_SRC && (
                         <img
-                          className="img-fluid"
+                          className={`img-fluid ${item.IS_SMALL ? 'article__image--small' : 'article__image--content'}`}
                           src={item.IMG_SRC}
                           alt={item.IMG_ALT}
-                          width={1300}
-                          height={700}
+                          width={item.IS_SMALL ? 1300 : 1170} 
+                          height={item.IS_SMALL ? 420 : 700}
                         />
                       )}
                       <ReactMarkdown
@@ -227,11 +233,11 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                         )}
                         {item.RIGHT_COLUMN?.IMG_SRC && (
                           <img
-                            className="img-fluid"
+                            className={`img-fluid article-section__right-img ${item.RIGHT_COLUMN.IS_HIGH ? 'article-section__right-img--high' : ''}`}
                             src={item.RIGHT_COLUMN.IMG_SRC}
                             alt={item.RIGHT_COLUMN.IMG_ALT}
                             width={400}
-                            height={400}
+                            height={item.RIGHT_COLUMN.IS_HIGH ? 600 : 400}
                           />
                         )}
                       </aside>
@@ -261,11 +267,7 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
             subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}
             appId={appId}
             appDownloadTitle={_("ANXIETY.DWN")}
-            imgSrc={
-              articleType === "emotion"
-                ? "/img/page/article/call-to-action/call-to-action-en.webp"
-                : "/img/org/call-to-action/vitamin/Img-CallToAction-en.webp"
-            }
+            imgSrc={CALL_TO_ACTION_IMGS[articleType]}
             imgAlt={articleData?.CALL_TO_ACTION.ALT}
           />
         )}
