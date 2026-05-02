@@ -1,519 +1,121 @@
 import * as React from "react";
-import _, { Locale } from "@/i18n/locale";
+
 import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
 import ScrollButton from "@/atomic/atom/scroll-button";
 
-const COLORS = [
-    "97938E", // Gray
-    "1C497F", // Blue
-    "489474", // Green
-    "DE4332", // Red
-    "EFDD4A", // Yellow
-    "C3397F", // Purple
-    "B75931", // Brown
-    "221F20", // Black
-] as const;
+import { COLORS } from "@/utils/color-test/constants";
+import { SectorModel, TestResult, ResultGroup } from "@/utils/color-test/types";
 
-const RESULT_GROUPS = ["E", "A", "P", "G", "I", "O"] as const;
+/* HOOKS */
+import { useShuffled } from "@/hooks/color-test/useShuffled";
+import { useSelected } from "@/hooks/color-test/useSelected";
+import { useTestResultScroll } from "@/hooks/color-test/useTestResultScroll";
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
-const useShuffled = ([modelCollection, setCollection]: [
-    SectorModel[],
-    React.Dispatch<React.SetStateAction<SectorModel[]>>,
-]) => {
-    const shuffle = () => {
-        setCollection((current) => [...current].sort(() => Math.random() - 0.5));
-    };
-
-    const hasWrongOrder = () => {
-        for (let i = 0; i <= 7; i++) {
-            if (isNextTo(i)) {
-                return true;
-            }
-        }
-        return false;
-    };
-
-    const isNextTo = (id: number) => {
-        if (!isGBB(id)) {
-            return false;
-        }
-
-        const idxBefore = id === 0 ? 7 : id - 1;
-        const idxAfter = id === 7 ? 0 : id + 1;
-
-        return isGBB(idxBefore) || isGBB(idxAfter);
-    };
-
-    const isGBB = (id: number) => {
-        return modelCollection[id].id === 7 || modelCollection[id].id < 2;
-    };
-
-    React.useLayoutEffect(() => {
-        if (hasWrongOrder()) {
-            shuffle();
-        }
-    }, [modelCollection]);
-};
-
-type SectorModel = {
-    id: SectorModelId;
-    color: (typeof COLORS)[number];
-};
-
-type SectorModelId = number;
-
-const useSelected = ([selectedCollection, setResult]: [
-    SectorModel["id"][],
-    React.Dispatch<React.SetStateAction<TestResult>>,
-]) => {
-    const sc = selectedCollection;
-
-    const percForValue = (v: number, scF: number): number => Math.min(Math.floor((v * 100) / scF), 100);
-
-    const monEnergy = (): number => {
-        let iRed = 0,
-            iYel = 0,
-            iBlu = 0,
-            iGrn = 0;
-
-        for (let i = 0; i <= 7; i++) {
-            switch (sc[i]) {
-                case 3:
-                    iRed = i + 1;
-                    break;
-                case 4:
-                    iYel = i + 1;
-                    break;
-                case 2:
-                    iGrn = i + 1;
-                    break;
-                case 1:
-                    iBlu = i + 1;
-                    break;
-                default:
-                    continue;
-            }
-        }
-
-        return (18 - iRed - iYel) / (18 - iBlu - iGrn);
-    };
-
-    const energyForValue = (v: number): TestResultModel => {
-        const common = {
-            perc: percForValue(v, 2.8),
-        };
-
-        switch (true) {
-            case v >= -1 && v < 0.5:
-                return {
-                    ...common,
-                    lev: "E1",
-                    icons: [v >= 0.2 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.RED,
-                };
-            case v >= 0.5 && v < 0.9:
-                return {
-                    ...common,
-                    lev: "E2",
-                    icons: [Icon.FULL, v >= 0.7 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.YELLOW,
-                };
-            case v >= 0.9 && v < 1.3:
-                return {
-                    ...common,
-                    lev: "E3",
-                    icons: [Icon.FULL, Icon.FULL, v >= 1.1 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.GREEN,
-                };
-            case v >= 1.3 && v < 1.9:
-                return {
-                    ...common,
-                    lev: "E3",
-                    icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 1.6 ? Icon.HALF : Icon.NULL, Icon.NULL],
-                    color: IconColor.ORANGE,
-                };
-            default:
-                return {
-                    ...common,
-                    lev: "E4",
-                    icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v <= 2.6 ? Icon.HALF : Icon.FULL],
-                    color: IconColor.RED,
-                };
-        }
-    };
-
-    const monProductivity = (): number => {
-        const autogenNormArr = [7, 5, 3, 1, 2, 4, 6, 8];
-
-        let tdfan = 0;
-
-        for (let i = 0; i <= 6; i++) {
-            const colorNumber = sc[i];
-            if (colorNumber >= 0 && colorNumber <= 7) {
-                const normIdx = autogenNormArr[colorNumber];
-                tdfan += Math.abs(normIdx - (i + 1));
-            }
-        }
-
-        return 32 - tdfan;
-    };
-
-    const productivityForValue = (v: number): TestResultModel => {
-        const common = {
-            perc: percForValue(v, 35),
-        };
-
-        switch (true) {
-            case v >= 0 && v <= 7:
-                return {
-                    ...common,
-                    lev: "P1",
-                    icons: [v >= 3 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.RED,
-                };
-            case v >= 8 && v <= 13:
-                return {
-                    ...common,
-                    lev: "P2",
-                    icons: [Icon.FULL, v >= 10 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.ORANGE,
-                };
-            case v >= 14 && v <= 21:
-                return {
-                    ...common,
-                    lev: "P3",
-                    icons: [Icon.FULL, Icon.FULL, v >= 17 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.YELLOW,
-                };
-            case v >= 22 && v <= 27:
-                return {
-                    ...common,
-                    lev: "P4",
-                    icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 24 ? Icon.HALF : Icon.NULL, Icon.NULL],
-                    color: IconColor.L_GREEN,
-                };
-            default:
-                return {
-                    ...common,
-                    lev: "P5",
-                    icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v <= 29 ? Icon.HALF : Icon.FULL],
-                    color: IconColor.GREEN,
-                };
-        }
-    };
-
-    function monAnxiety() {
-        const scTypes = sc.map((id) => colorTypeById(id));
-
-        function colorTypeById(id: number) {
-            switch (id) {
-                case 0:
-                case 6:
-                case 7:
-                    return "Acrom";
-                case 1:
-                case 2:
-                case 3:
-                case 4:
-                    return "Prime";
-                default:
-                    return "Mixed";
-            }
-        }
-
-        const resALev = [];
-
-        if (scTypes[5] === "Prime") {
-            resALev[5] = 1;
-        }
-        if (scTypes[6] === "Prime") {
-            resALev[6] = 2;
-        }
-        if (scTypes[7] === "Prime") {
-            resALev[7] = 3;
-        }
-        if (scTypes[2] === "Acrom") {
-            resALev[2] = 1;
-        }
-        if (scTypes[1] === "Acrom") {
-            resALev[1] = 2;
-        }
-        if (scTypes[0] === "Acrom") {
-            resALev[0] = 3;
-        }
-
-        return resALev.reduce((sum, value) => sum + value, 0);
-    }
-
-    const anxietyForValue = (v: number) => {
-        const common = {
-            perc: percForValue(v, 15),
-        };
-
-        switch (true) {
-            case v >= 0 && v < 3:
-                return {
-                    ...common,
-                    lev: "A1",
-                    icons: [v >= 1 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.GREEN,
-                };
-            case v >= 3 && v < 5:
-                return {
-                    ...common,
-                    lev: "A2",
-                    icons: [Icon.FULL, v >= 4 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.L_GREEN,
-                };
-            case v >= 5 && v < 8:
-                return {
-                    ...common,
-                    lev: "A3",
-                    icons: [Icon.FULL, Icon.FULL, v >= 6 ? Icon.HALF : Icon.NULL, Icon.NULL, Icon.NULL],
-                    color: IconColor.YELLOW,
-                };
-            case v >= 8 && v < 10:
-                return {
-                    ...common,
-                    lev: "A4",
-                    icons: [Icon.FULL, Icon.FULL, Icon.FULL, v >= 9 ? Icon.HALF : Icon.NULL, Icon.NULL],
-                    color: IconColor.ORANGE,
-                };
-            default:
-                return {
-                    ...common,
-                    lev: "A5",
-                    icons: [Icon.FULL, Icon.FULL, Icon.FULL, Icon.FULL, v < 11 ? Icon.HALF : Icon.FULL],
-                    color: IconColor.RED,
-                };
-        }
-    };
-
-    React.useLayoutEffect(() => {
-        const scFull = sc.length === COLORS.length;
-
-        if (!scFull) return;
-
-        const result = {
-            E: energyForValue(monEnergy()),
-            P: productivityForValue(monProductivity()),
-            A: anxietyForValue(monAnxiety()),
-        };
-
-        setResult(result);
-    }, [selectedCollection]);
-};
-
-type TestResult<T = TestResultModel> = {
-    [key in (typeof RESULT_GROUPS)[number]]?: T;
-};
-
-type TestResultModel = {
-    lev: string;
-    icons: Icon[];
-    color: IconColor;
-    perc: number;
-};
-
-const enum Icon {
-    NULL = "NULL",
-    HALF = "HALF",
-    FULL = "FULL",
-}
-
-const enum IconColor {
-    RED = "FF392E",
-    ORANGE = "FE8429",
-    YELLOW = "E0BD64",
-    GREEN = "489474",
-    L_GREEN = "A3E23D",
-}
-
-const useTestResultScroll = ([resultExists, resultRef]: [boolean, React.RefObject<HTMLElement>]) => {
-    React.useLayoutEffect(() => {
-        if (!resultExists || !resultRef.current) return;
-        resultRef.current.scrollIntoView({ behavior: "smooth" });
-    }, [resultExists]);
-};
+/* ORGANISMS */
+import { ColorTestHeader } from "@/atomic/organism/color-test-header";
+import { ColorsPlaySection } from "@/atomic/molecule/colors-play-section";
+import { ColorTestResult } from "@/atomic/organism/color-test-result";
+import { ColorTestCTA } from "@/atomic/organism/color-test-CTA";
+import { ColorTestInfoSection } from "@/atomic/organism/color-test-info-section";
+import { Breadcrumb } from "@/atomic/organism/breadcrumb";
+import { ColorTestResultPreview } from "@/atomic/organism/color-test-result-preview";
 
 export default function ColorTest() {
-    const initSectors = COLORS.map((color, id) => ({ color, id }));
+    /* ---------------- INIT ---------------- */
 
-    const [sectorModelCollection, setSectorModelCollection] = React.useState<SectorModel[]>(initSectors);
+    const initSectors = React.useMemo(
+        () => COLORS.map((color, id) => ({ color, id })),
+        []
+    );
 
-    const [userSelectionCollection, setUserSelectionCollection] = React.useState<SectorModelId[]>([]);
+    const [sectorModelCollection, setSectorModelCollection] =
+        React.useState<SectorModel[]>(initSectors);
+
+    const [userSelectionCollection, setUserSelectionCollection] = React.useState<
+        SectorModel["id"][]
+    >([]);
 
     const [testResult, setTestResult] = React.useState<TestResult | null>(null);
 
-    const [displayedResult, setDisplayedResult] = React.useState<(typeof RESULT_GROUPS)[number]>("E");
+    const [displayedResult, setDisplayedResult] =
+        React.useState<ResultGroup>("E");
 
-    const testResultRef = React.useRef<HTMLElement>(null);
+    /* ---------------- LOGIC HOOKS ---------------- */
 
-    useShuffled([sectorModelCollection, setSectorModelCollection]);
+    useShuffled(sectorModelCollection, setSectorModelCollection);
 
-    useSelected([userSelectionCollection, setTestResult]);
+    useSelected(userSelectionCollection, setTestResult);
 
-    useTestResultScroll([!!testResult, testResultRef]);
+    useTestResultScroll(!!testResult);
+
+    const items = useBreadcrumbs();
+
+    /* ---------------- HANDLERS ---------------- */
+
+    const handleSelectSector = (id: number) => {
+        setUserSelectionCollection((prevSelected) => {
+            if (prevSelected.includes(id)) return prevSelected;
+
+            const nextSelected = [...prevSelected, id];
+
+            setSectorModelCollection((prevSectors) => {
+                const remaining = prevSectors.filter(
+                    (sector) => !nextSelected.includes(sector.id)
+                );
+
+                if (remaining.length === 1) {
+                    return [];
+                }
+
+                return prevSectors.filter((sector) => sector.id !== id);
+            });
+
+            return nextSelected;
+        });
+    };
+    /* ---------------- RENDER ---------------- */
 
     return (
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new emotion color-test">
-                <section className="text-center my-0">
-                    <div className="row">
-                        <div className="col-9 mx-auto">
-                            <h2>{_("COLOR_TEST.HEAD1")}</h2>
-                            <p className="mb-0">{_("COLOR_TEST.DESC1")}</p>
-                            {testResult && (
-                                <a href={Locale.i18nLink("emotion/color-test")} className="ms-btn-large">
-                                    {_("COLOR_TEST.BTN_AGAIN")}
-                                </a>
-                            )}
-                        </div>
-                    </div>
-                </section>
+            <Breadcrumb items={items} />
 
+            <div className="ms-base-page ms-base-new emotion color-test">
+                {/* HEADER */}
+                <ColorTestHeader hasResult={!!testResult} />
+
+                {/* TEST OR RESULT */}
                 {!testResult ? (
-                    <section>
-                        <div className="row text-center mb-0">
-                            <div className="col-10 mx-auto">
-                                <h1>{_("COLOR_TEST.TEST_HEAD")}</h1>
-                                <p className="mb-6">{_("COLOR_TEST.TEST_DESC")}</p>
-                            </div>
-                        </div>
-                        <div className="row g-4">
-                            <div className="color-sectors">
-                                {sectorModelCollection.map((sector) => (
-                                    <div key={sector.color}>
-                                        <button
-                                            onClick={() =>
-                                                setUserSelectionCollection((current) => [...current, sector.id])
-                                            }
-                                            className={
-                                                "sector" +
-                                                (userSelectionCollection.includes(sector.id) ? " selected" : "")
-                                            }
-                                            style={{ background: "#" + sector.color }}
-                                        ></button>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </section>
+                    <ColorsPlaySection
+                        sectors={sectorModelCollection}
+                        selected={userSelectionCollection}
+                        onSelect={handleSelectSector}
+                    />
                 ) : (
                     <>
-                        <section ref={testResultRef} className="test-result">
-                            <div className="row mb-0">
-                                <div className="col-12">
-                                    <h2 className="mb-7">{_("COLOR_TEST.RES")}</h2>
-                                </div>
-                            </div>
-                            <div className="row g-4">
-                                {RESULT_GROUPS.map((groupTitle, idx, all) => {
-                                    const groupResultExists = groupTitle in testResult;
-                                    const result =
-                                        testResult[groupTitle] || testResult[all[idx - 4]] || testResult["A"];
+                        <ColorTestResult
+                            result={testResult}
+                            onSelect={setDisplayedResult}
+                        />
 
-                                    return (
-                                        result && (
-                                            <div
-                                                key={groupTitle}
-                                                className="col-lg-4 col-sm-6 col-12"
-                                                onClick={() => groupResultExists && setDisplayedResult(groupTitle)}
-                                            >
-                                                <div className={"block bg-gray" + (groupResultExists ? "" : " blured")}>
-                                                    <h3>{_("COLOR_TEST.GROUP_TITLE_" + groupTitle)}</h3>
-                                                    <div
-                                                        className="d-flex"
-                                                        style={{ "--color": "#" + result.color } as React.CSSProperties}
-                                                    >
-                                                        {result.icons.map((icon, idx) => (
-                                                            <div
-                                                                key={groupTitle + "-icon-" + idx}
-                                                                className={"me-2 test-result-icon " + icon}
-                                                            ></div>
-                                                        ))}
-                                                    </div>
-                                                    <p className="mt-2">{_("COLOR_TEST._" + result.lev)}</p>
-                                                </div>
-                                            </div>
-                                        )
-                                    );
-                                })}
-                            </div>
+                        <ColorTestResultPreview
+                            result={testResult}
+                            activeGroup={displayedResult}
+                        />
 
-                            <div className="row mb-0">
-                                <div className="col-12">
-                                    <p className="mb-7">{_("COLOR_TEST." + testResult[displayedResult]?.lev)}</p>
-                                </div>
-                            </div>
-                            <div className="row g-4">
-                                <div className="col-md-6 col-12 text-center">
-                                    <div className="block bg-violet">
-                                        <p>{_("COLOR_TEST.LEV")}</p>
-                                        <h2 className="mb-0">{_("COLOR_TEST._" + testResult[displayedResult]?.lev)}</h2>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-12 text-center">
-                                    <div className="block bg-yellow">
-                                        <p>{_("COLOR_TEST.PERC")}</p>
-                                        <h2 className="mb-0">{testResult[displayedResult]?.perc + "%"}</h2>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="row">
-                                <div className="col-12">
-                                    <h3 className="mb-3">{_("COLOR_TEST.GROUP_DESC")}</h3>
-                                    <p className="mb-0">{_("COLOR_TEST.GROUP_DESC_" + displayedResult)}</p>
-                                </div>
-                            </div>
-                        </section>
-
-                        <section>
-                            <div className="row text-center">
-                                <div className="col-8 mx-auto">
-                                    <h2>{_("COLOR_TEST.CTA_HEAD")}</h2>
-                                    <p>{_("COLOR_TEST.CTA_DESC")}</p>
-                                    <a
-                                        href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1562956213?l=${Locale.language}`}
-                                        target="_blank"
-                                        title={_("EMOTION.HEAD")}
-                                        className="ms-btn-apple"
-                                        style={{
-                                            backgroundImage: "url(/img/apple_btn/" + Locale.language + ".svg)",
-                                        }}
-                                    ></a>
-                                </div>
-                            </div>
-                        </section>
+                        <ColorTestCTA />
                     </>
                 )}
 
-                <section>
-                    <div className="row">
-                        <div className="block bg-gray test-principles">
-                            <div className="col-12">
-                                <h2>{_("COLOR_TEST.HEAD2")}</h2>
-                                <p>{_("COLOR_TEST.DESC2")}</p>
-                            </div>
-                            <div className="col-12">
-                                <h2>{_("COLOR_TEST.HEAD3")}</h2>
-                                <p>{_("COLOR_TEST.DESC3")}</p>
-                            </div>
-                            <div className="col-12">
-                                <h2>{_("COLOR_TEST.HEAD4")}</h2>
-                                <p>{_("COLOR_TEST.DESC4")}</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                {/* INFO BLOCK */}
+                <ColorTestInfoSection />
             </div>
 
             <Footer />
-            <ScrollButton color="#7B62FE"/>
+            <ScrollButton color="#7B62FE" />
         </>
     );
 }

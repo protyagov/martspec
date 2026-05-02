@@ -2,6 +2,6 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "workbench.preferredDarkColorTheme": "Default Light+",
-    "workbench.colorTheme": "Default Light+"
+    "workbench.preferredDarkColorTheme": "Light+",
+    "workbench.colorTheme": "Dark 2026"
 }
