@@ -5,6 +5,7 @@ type Props = {
     color: string;
     selected?: boolean;
     onClick: (id: number) => void;
+    hidden?: boolean;
 };
 
 export function ColorSwatch({
@@ -17,7 +18,9 @@ export function ColorSwatch({
         <button
             type="button"
             className={`sector ${selected ? "selected" : ""}`}
-            style={{ background: `#${color}` }}
+            style={{
+                backgroundColor: `#${color}`,
+            }}
             onClick={() => onClick(id)}
             aria-pressed={selected}
         />

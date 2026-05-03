@@ -55,27 +55,18 @@ export default function ColorTest() {
     /* ---------------- HANDLERS ---------------- */
 
     const handleSelectSector = (id: number) => {
-        setUserSelectionCollection((prevSelected) => {
-            if (prevSelected.includes(id)) return prevSelected;
+    setUserSelectionCollection((prevSelected) => {
+        if (prevSelected.includes(id)) return prevSelected;
 
-            const nextSelected = [...prevSelected, id];
-
-            setSectorModelCollection((prevSectors) => {
-                const remaining = prevSectors.filter(
-                    (sector) => !nextSelected.includes(sector.id)
-                );
-
-                if (remaining.length === 1) {
-                    return [];
-                }
-
-                return prevSectors.filter((sector) => sector.id !== id);
-            });
-
-            return nextSelected;
-        });
-    };
+        return [...prevSelected, id];
+    });
+};
     /* ---------------- RENDER ---------------- */
+
+React.useEffect(() => {
+    console.log("selected:", userSelectionCollection.length);
+    console.log("result:", testResult);
+}, [userSelectionCollection, testResult]);
 
     return (
         <>

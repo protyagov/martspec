@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 import { SectorModel } from "@/utils/color-test/types";
 import { ColorSwatch } from "@/atomic/atom/color-swatch";
 
@@ -23,15 +23,25 @@ export function ColorsPlaySection({
             </div>
 
             <div className="color-sectors">
-                {sectors.map((sector) => (
-                    <ColorSwatch
-                        key={sector.id}
-                        id={sector.id}
-                        color={sector.color}
-                        selected={selected.includes(sector.id)}
-                        onClick={onSelect}
-                    />
-                ))}
+                {sectors.map((sector) => {
+                    const isSelected = selected.includes(sector.id);
+
+                    return (
+                        <div
+                            key={sector.id}
+                            className="color-sector-slot"
+                        >
+                                <ColorSwatch
+                                    id={sector.id}
+                                    color={sector.color}
+                                    selected={isSelected}
+                                    onClick={onSelect}
+                                    hidden={isSelected}
+                                />
+                            </div>
+                      
+                    );
+                })}
             </div>
         </section>
     );
