@@ -34,6 +34,13 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             harmony: _("EMOTION.LIST6.LI3_HEAD"),
             biorhythms: _("BIORHYTHMS.HEAD"),
             calcium: _("CALCIUM.HEAD"),
+            lion: _("VITAMIN.LION.NAME"),
+            acai: _("VITAMIN.ACAI.NAME"),
+            collagen: _("VITAMIN.COLLAGEN.NAME"),
+            turmeric: _("VITAMIN.TURMERIC.NAME"),
+            ginko: _("VITAMIN.GINKO.NAME"),
+            adonis: _("SIZE.LIST.LI5_TEXT"),
+
         };
 
         const items: BreadcrumbItem[] = cleanPath.map((segment, index) => {
