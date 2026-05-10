@@ -8,7 +8,7 @@ type Props = {
 
 export function ColorTestHeader({ hasResult }: Props) {
     return (
-        <section className="text-center my-0 color-test-header">
+        <section className="text-center my-0 color-test">
             <div className="row">
                 <div className="col-9 mx-auto">
                     <h2>{_("COLOR_TEST.HEAD1")}</h2>

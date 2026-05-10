@@ -1,30 +1,26 @@
 import * as React from "react";
-
-import NavigationBar from "@/atomic/organism/navbar";
-import { Footer } from "@/atomic/organism/footer";
-import ScrollButton from "@/atomic/atom/scroll-button";
+import _ from "@/i18n/locale";
 
 import { COLORS } from "@/utils/color-test/constants";
 import { SectorModel, TestResult, ResultGroup } from "@/utils/color-test/types";
 
-/* HOOKS */
 import { useShuffled } from "@/hooks/color-test/useShuffled";
 import { useSelected } from "@/hooks/color-test/useSelected";
 import { useTestResultScroll } from "@/hooks/color-test/useTestResultScroll";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
-/* ORGANISMS */
+import ScrollButton from "@/atomic/atom/scroll-button";
+import NavigationBar from "@/atomic/organism/navbar";
+import { Footer } from "@/atomic/organism/footer";
 import { ColorTestHeader } from "@/atomic/organism/color-test-header";
 import { ColorsPlaySection } from "@/atomic/molecule/colors-play-section";
-import { ColorTestResult } from "@/atomic/organism/color-test-result";
+import { ColorTestResultGrid } from "@/atomic/organism/color-test-result-grid";
 import { ColorTestCTA } from "@/atomic/organism/color-test-CTA";
 import { ColorTestInfoSection } from "@/atomic/organism/color-test-info-section";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
-import { ColorTestResultPreview } from "@/atomic/organism/color-test-result-preview";
+import { ColorTestResultDetails } from "@/atomic/organism/color-test-result-details";
 
 export default function ColorTest() {
-    /* ---------------- INIT ---------------- */
-
     const initSectors = React.useMemo(
         () => COLORS.map((color, id) => ({ color, id })),
         []
@@ -42,8 +38,6 @@ export default function ColorTest() {
     const [displayedResult, setDisplayedResult] =
         React.useState<ResultGroup>("E");
 
-    /* ---------------- LOGIC HOOKS ---------------- */
-
     useShuffled(sectorModelCollection, setSectorModelCollection);
 
     useSelected(userSelectionCollection, setTestResult);
@@ -52,33 +46,26 @@ export default function ColorTest() {
 
     const items = useBreadcrumbs();
 
-    /* ---------------- HANDLERS ---------------- */
-
     const handleSelectSector = (id: number) => {
-    setUserSelectionCollection((prevSelected) => {
-        if (prevSelected.includes(id)) return prevSelected;
+        setUserSelectionCollection((prevSelected) => {
+            if (prevSelected.includes(id)) return prevSelected;
 
-        return [...prevSelected, id];
-    });
-};
-    /* ---------------- RENDER ---------------- */
-
-React.useEffect(() => {
-    console.log("selected:", userSelectionCollection.length);
-    console.log("result:", testResult);
-}, [userSelectionCollection, testResult]);
+            return [...prevSelected, id];
+        });
+    };
 
     return (
         <>
             <NavigationBar />
+            <div className="container container-xl ms-s-offset fs-3 pt-lg-5">
+                <Breadcrumb items={items} />
+            </div>
 
-            <Breadcrumb items={items} />
-
-            <div className="ms-base-page ms-base-new emotion color-test">
-                {/* HEADER */}
+            <div className="fs-3 pt-lg-5 emotion color-test">
                 <ColorTestHeader hasResult={!!testResult} />
+            </div>
 
-                {/* TEST OR RESULT */}
+            <div className="container container-xl ms-s-offset fs-3 pt-lg-5 color-test">
                 {!testResult ? (
                     <ColorsPlaySection
                         sectors={sectorModelCollection}
@@ -87,12 +74,13 @@ React.useEffect(() => {
                     />
                 ) : (
                     <>
-                        <ColorTestResult
+                        <div className="color-test__h2"><h2>{_(`COLOR_TEST.RES`)}</h2></div>
+                        <ColorTestResultGrid
                             result={testResult}
                             onSelect={setDisplayedResult}
                         />
 
-                        <ColorTestResultPreview
+                        <ColorTestResultDetails
                             result={testResult}
                             activeGroup={displayedResult}
                         />
@@ -100,8 +88,9 @@ React.useEffect(() => {
                         <ColorTestCTA />
                     </>
                 )}
+            </div>
 
-                {/* INFO BLOCK */}
+            <div className="container container-xl ms-s-offset fs-3 pt-lg-5">
                 <ColorTestInfoSection />
             </div>
 

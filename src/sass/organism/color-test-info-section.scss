@@ -1,0 +1,23 @@
+.color-test-info {
+    background-color: #f4f4f4;
+    border-radius: 38px;
+    padding: 8rem;
+    margin-bottom: 8rem;
+
+    h2 {
+        color: #212529;
+        font-family: os6;
+        font-size: 2rem;
+        margin-bottom: 1.85rem;
+        margin-top: 2rem;
+    }
+
+    p {
+        font-family: os3;
+        color: rgb(33, 37, 41)
+    }
+
+     @media (min-width: 600px) {
+         padding: 3rem;
+     }
+}

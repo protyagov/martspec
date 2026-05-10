@@ -1,0 +1,24 @@
+.sector {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+
+    visibility: visible;
+    opacity: 1;
+
+    &.selected {
+        visibility: hidden;
+        opacity: 0;
+        transition:
+            opacity 0.2s,
+            visibility 0s 0.2s ease-in-out;
+    }
+}
+
+.sector.empty {
+    opacity: 0;
+    pointer-events: none;
+}
