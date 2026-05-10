@@ -473,21 +473,21 @@ export default function BodySize() {
                                             <p className="mt-5">{_("SIZE.MEASUREMENTS_DESC")}</p>
                                         </div>
                                     </div>
-                                    <div className="col-md-6">
-                                        <h3 className="mb-3 " style={{ color: "#444444" }}>
+                                    <div className="col-md-6 mt-5">
+                                        <h3 className="ps-0 mb-3" style={{ color: "#444444" }}>
                                             {_("SIZE.MEASUREMENTS_LIST_TITLE")}
                                         </h3>
-                                        <ul className="">
+                                        <ul className="ps-0">
                                             <li className="d-flex  align-items-start mb-2">
-                                                <span className="blue-dot me-2"></span>
+                                                <span className="blue-dot ps-0 me-2"></span>
                                                 {_("SIZE.MEASUREMENTS_ITEM_1")}
                                             </li>
                                             <li className="d-flex  align-items-start mb-2">
-                                                <span className="blue-dot me-2"></span>
+                                                <span className="blue-dot ps-0 me-2"></span>
                                                 {_("SIZE.MEASUREMENTS_ITEM_2")}
                                             </li>
                                             <li className="d-flex  align-items-start mb-2">
-                                                <span className="blue-dot me-2"></span>
+                                                <span className="blue-dot ps-0 me-2"></span>
                                                 {_("SIZE.MEASUREMENTS_ITEM_3")}
                                             </li>
                                         </ul>

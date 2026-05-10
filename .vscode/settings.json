@@ -1,7 +1,0 @@
-{
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "workbench.preferredDarkColorTheme": "Light+",
-    "workbench.colorTheme": "Dark 2026"
-}
