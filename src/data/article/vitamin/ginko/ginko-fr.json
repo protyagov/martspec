@@ -21,6 +21,7 @@
     {
       "TITLE": "### Mode d'emploi",
       "IMG_SRC": "/img/page/article/spoon_with_ginko.webp",
+      "IS_SMALL": true,
       "IMG_ALT": "Illustration de Ginkgo Biloba",
       "CONTENT": "Prenez le ginkgo le matin ou en début de journée pour des bénéfices cognitifs ou énergétiques, toujours au cours d'un repas pour améliorer l'absorption et soulager l'estomac ; la régularité importe plus que l'heure exacte. Évitez la prise tardive si cela vous stimule trop. Des études cliniques ont utilisé des extraits standardisés en toute sécurité jusqu'à 6 ans.\n\n> Le ginkgo est préférable sous forme d'extrait de feuille standardisé (cherchez 24 % de glycosides flavonoïdes et 6 % de lactones terpéniques, souvent marqués EGb 761) en capsules ou comprimés ; les doses typiques sont de 120–240 mg par jour, souvent divisées en 2–3 doses, commencez par une faible dose, prenez pendant les repas et évitez les feuilles ou graines crues.",
       "ACCENT_COLOR": "#468B00"

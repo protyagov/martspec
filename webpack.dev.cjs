@@ -42,7 +42,6 @@ module.exports = merge(common, {
                         loader: "sass-loader",
                         options: {
                             // Prefer `dart-sass`
-                            api: "modern",
                             implementation: require("sass"),
                         },
                     },

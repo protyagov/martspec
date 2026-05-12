@@ -22,6 +22,7 @@
     {
       "TITLE": "### Como tomar?",
       "IMG_SRC": "/img/page/article/turmeric-bottom.webp",
+      "IS_SMALL": true,
       "IMG_ALT": "Ilustração de cúrcuma, canela e outros temperos",
       "CONTENT": "O maior problema relacionado à curcumina é sua baixa biodisponibilidade, ou seja, ela não é facilmente absorvida pelo corpo. Pesquisas mostram que apenas cerca de 1-2% da curcumina é absorvida sem potencializadores, levando a metabolismo rápido e excreção. Por isso, combinações com outras substâncias são fundamentais, conforme explicado abaixo:\n\n**Pimenta-do-reino.** Este é o passo mais importante. A pimenta contém piperina, uma substância natural que, segundo pesquisas da Johns Hopkins e outros estudos, pode aumentar a absorção de curcumina em 2000%.\n\n**Gorduras saudáveis.** A curcumina é solúvel em gordura. Consumir com gorduras saudáveis, como óleo de coco, azeite, abacate ou leite integral (animal ou vegetal), permite sua absorção direta na corrente sanguínea.\n> O Comitê Conjunto de Especialistas FAO/OMS (JECFA) estabeleceu a ingestão diária aceitável de curcumina em 3 mg por kg de peso corporal; por exemplo, cerca de 210 mg por dia para um adulto de 70 kg.",
       "ACCENT_COLOR": "#FFD30F",
