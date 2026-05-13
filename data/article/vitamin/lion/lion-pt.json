@@ -16,6 +16,7 @@
     {
       "TITLE": "### Como tomar?",
       "IMG_SRC": "/img/page/article/lion/lionpowder.webp",
+      "IS_SMALL": true,
       "IMG_ALT": "Ilustração de Juba de Leão em pó",
       "CONTENT": "**Dosagem.** Recomendam-se 1–3 g de pó por dia. Para maior efeito cognitivo, os estudos utilizam 3–5 g.\n\n **Quando tomar.** Idealmente pela manhã com o café da manhã. Melhora a clareza mental sem estimulação excessiva. A toma à noite é segura, mas menos eficaz.\n\n **Como tomar.** Para máxima absorção, use água quente ou extratos duplos, e combine com gorduras saudáveis para melhorar a absorção dos compostos neuro-regenerativos."
     },
@@ -32,6 +33,7 @@
     {
       "TITLE": "### Por que funciona?",
       "IMG_SRC": "/img/page/article/lion/smile.webp",
+      "IS_SMALL": true,
       "IMG_ALT": "Ilustração de um sorriso",
       "CONTENT": "Apoia o cérebro, intestino e sistema imunitário.\n\n- **Antioxidante.** Reduz a inflamação e o envelhecimento celular.\n\n- **Eixo intestino-cérebro.** Atua como prebiótico.\n\n- **Memória.** Estimula NGF e BDNF.\n\n- **Humor.** Atua como adaptógeno contra a ansiedade.\n\n> A Juba de Leão é uma ferramenta de suporte a longo prazo para o equilíbrio emocional.",
       "ACCENT_COLOR": "#FBC98A"

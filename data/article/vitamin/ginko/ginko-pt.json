@@ -21,6 +21,7 @@
     {
       "TITLE": "### Modo de Utilização",
       "IMG_SRC": "/img/page/article/spoon_with_ginko.webp",
+      "IS_SMALL": true,
       "IMG_ALT": "Ilustração de Ginkgo Biloba",
       "CONTENT": "Tome ginkgo de manhã ou no início do dia para benefícios cognitivos ou energéticos, sempre com as refeições para melhorar a absorção e aliviar o mal-estar estomacal; a consistência importa mais do que a hora exata. Evite a toma ao final do dia se o fizer sentir-se alerta. Estudos clínicos utilizaram extratos padronizados com segurança por até 6 anos.\n\n> O ginkgo é melhor consumido como extrato de folha padronizado (procure 24% de glicosídeos flavonoides e 6% de lactonas terpénicas, frequentemente marcado como EGb 761) em forma de cápsula ou comprimido; doses típicas são 120–240 mg por dia, frequentemente divididas em 2–3 doses. Comece com uma dose baixa para verificar a tolerância.",
       "ACCENT_COLOR": "#468B00"

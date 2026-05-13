@@ -21,6 +21,7 @@
     {
       "TITLE": "### How to Use",
       "IMG_SRC": "/img/page/article/spoon_with_ginko.webp",
+      "IS_SMALL": true,
       "IMG_ALT": "Ginkgo Biloba Illustration",
       "CONTENT": "Take ginkgo in the morning or early afternoon for cognitive or energy benefits, always with a meal to improve absorption and cut stomach upset; consistency matters more than exact timing, avoid taking it late in the day if it makes you feel alert. Clinical studies have used standardized leaf extracts safely for up to 6 years.\n\n> Ginkgo is best taken as a standardized leaf extract (look for 24% flavonoid glycosides and 6% terpene lactones, often labeled EGb 761) in capsule or tablet form for consistent effects; typical doses are 120–240 mg per day, often split into 2–3 doses (for cognitive decline some studies use 40 mg three times daily), start low to test tolerance, take with meals for better absorption and less stomach upset, and avoid raw leaves or seeds.",
       "ACCENT_COLOR": "#468B00"
