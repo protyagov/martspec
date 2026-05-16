@@ -215,6 +215,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/team</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -462,6 +466,10 @@
    </url>
    <url>
       <loc>https://martspec.com/en/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/team</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -715,6 +723,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ar/team</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/ar/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -962,6 +974,10 @@
    </url>
    <url>
       <loc>https://martspec.com/zh/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/team</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1215,6 +1231,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/fr/team</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/fr/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1462,6 +1482,10 @@
    </url>
    <url>
       <loc>https://martspec.com/de/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/team</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1715,6 +1739,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/hi/team</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/hi/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1962,6 +1990,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ja/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/team</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2215,6 +2247,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/pt/team</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/pt/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -2462,6 +2498,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ru/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/team</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2715,6 +2755,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/es/team</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/es/careers</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -2962,6 +3006,10 @@
    </url>
    <url>
       <loc>https://martspec.com/uk/about</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/team</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
