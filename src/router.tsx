@@ -15,7 +15,7 @@ import Emotion from "@/atomic/page/emotion";
 import Biorhythms from "@/atomic/page/emotion/biorhythms";
 import About from "@/atomic/page/about";
 import Team from "@/atomic/page/team";
-import ColorTest from "@/atomic/page/emotion/color-test";
+import { ColorTest } from "@/atomic/page/emotion/color-test";
 import Careers from "@/atomic/page/careers";
 import VacancyDetails from "@/atomic/prototype/vacancy-details";
 import ComingSoon from "@/atomic/page/coming-soon";

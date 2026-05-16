@@ -2,7 +2,7 @@ import { anxietyRanges } from "./ranges/anxietyRanges";
 import { energyRanges } from "./ranges/energyRanges";
 import { productivityRanges } from "./ranges/productivityRanges";
 
-import { TestResultModel } from "./types";
+import { TestResultModel } from "../types";
 import { calculatePercent } from "./calculatePercent";
 
 /* =========================================================

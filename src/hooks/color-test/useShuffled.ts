@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { SectorModel } from "@/utils/color-test/types";
+import { SectorModel } from "@/atomic/page/emotion/color-test/types";
 
 const shuffleArray = <T,>(arr: T[]): T[] => {
     const copy = [...arr];

@@ -1,4 +1,4 @@
-import { Icon, IconColor } from "@/utils/color-test/constants";
+import { Icon, IconColor } from "@/atomic/page/emotion/color-test/constants";
 
 export const anxietyRanges = [
     {

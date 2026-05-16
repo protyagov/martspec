@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Icon } from "@/utils/color-test/constants";
+import { Icon } from "@/atomic/page/emotion/color-test/constants";
 
 type Props = {
     icons: Icon[];

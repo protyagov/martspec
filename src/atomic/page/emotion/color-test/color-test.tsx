@@ -1,8 +1,8 @@
 import * as React from "react";
 import _ from "@/i18n/locale";
 
-import { COLORS } from "@/utils/color-test/constants";
-import { SectorModel, TestResult, ResultGroup } from "@/utils/color-test/types";
+import { COLORS } from "@/atomic/page/emotion/color-test/constants";
+import { SectorModel, TestResult, ResultGroup } from "@/atomic/page/emotion/color-test/types";
 
 import { useShuffled } from "@/hooks/color-test/useShuffled";
 import { useSelected } from "@/hooks/color-test/useSelected";
@@ -12,13 +12,12 @@ import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
-import { ColorTestHeader } from "@/atomic/organism/color-test-header";
-import { ColorsPlaySection } from "@/atomic/molecule/colors-play-section";
-import { ColorTestResultGrid } from "@/atomic/organism/color-test-result-grid";
-import { ColorTestCTA } from "@/atomic/organism/color-test-CTA";
-import { ColorTestInfoSection } from "@/atomic/organism/color-test-info-section";
+import { ColorTestHeader } from "@/atomic/page/emotion/color-test";
+import { ColorsPlaySection } from "@/atomic/page/emotion/color-test";
+import { ColorTestResultGrid } from "@/atomic/page/emotion/color-test";
+import { ColorTestInfoSection } from "@/atomic/page/emotion/color-test";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
-import { ColorTestResultDetails } from "@/atomic/organism/color-test-result-details";
+import { ColorTestResultDetails } from "@/atomic/page/emotion/color-test";
 
 export default function ColorTest() {
     const initSectors = React.useMemo(
@@ -85,7 +84,10 @@ export default function ColorTest() {
                             activeGroup={displayedResult}
                         />
 
-                        <ColorTestCTA />
+                        <section className="text-center color-test-cta">
+                            <h2>{_("COLOR_TEST.CTA_HEAD")}</h2>
+                            <p>{_("COLOR_TEST.CTA_DESC")}</p>
+                        </section>
                     </>
                 )}
             </div>

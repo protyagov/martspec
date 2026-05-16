@@ -1,4 +1,4 @@
-import { RESULT_GROUPS, IconColor, Icon } from "@/utils/color-test/constants";
+import { RESULT_GROUPS, IconColor, Icon } from "@/atomic/page/emotion/color-test/constants";
 
 export type SectorModel = {
     id: number;

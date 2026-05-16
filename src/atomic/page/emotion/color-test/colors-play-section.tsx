@@ -1,7 +1,7 @@
 import React from "react";
 import _ from "@/i18n/locale";
-import { SectorModel } from "@/utils/color-test/types";
-import { ColorSwatch } from "@/atomic/atom/color-swatch";
+import { SectorModel } from "@/atomic/page/emotion/color-test/types";
+import { ColorItem } from "@/atomic/page/emotion/color-test";
 
 type Props = {
     sectors: SectorModel[];
@@ -29,7 +29,7 @@ export function ColorsPlaySection({
 
                     return (
 
-                        <ColorSwatch
+                        <ColorItem
                             id={sector.id}
                             color={sector.color}
                             selected={isSelected}

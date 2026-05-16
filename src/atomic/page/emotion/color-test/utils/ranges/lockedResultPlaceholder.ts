@@ -1,4 +1,4 @@
-import { Icon } from "@/utils/color-test/constants";
+import { Icon } from "@/atomic/page/emotion/color-test/constants";
 
 export const lockedResultPlaceholder = {
     icons: [

@@ -3,7 +3,7 @@ import _ from "@/i18n/locale";
 import {
     TestResult,
     ResultGroup,
-} from "@/utils/color-test/types";
+} from "@/atomic/page/emotion/color-test/types";
 
 type Props = {
     result: TestResult;

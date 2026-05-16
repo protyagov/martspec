@@ -8,7 +8,7 @@ type Props = {
     hidden?: boolean;
 };
 
-export function ColorSwatch({
+export function ColorItem({
     id,
     color,
     selected = false,

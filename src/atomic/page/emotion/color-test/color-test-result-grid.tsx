@@ -1,9 +1,9 @@
 import * as React from "react";
 import _ from "@/i18n/locale";
-import { RESULT_GROUPS } from "@/utils/color-test/constants";
-import { ResultGroup, TestResult } from "@/utils/color-test/types";
-import { lockedResultPlaceholder } from "@/utils/color-test/ranges/lockedResultPlaceholder";
-import { ColorTestIcons } from "@/atomic/molecule/color-test-icons";
+import { RESULT_GROUPS } from "@/atomic/page/emotion/color-test/constants";
+import { ResultGroup, TestResult } from "@/atomic/page/emotion/color-test/types";
+import { lockedResultPlaceholder } from "@/atomic/page/emotion/color-test/utils/ranges/lockedResultPlaceholder";
+import { ColorTestIcons } from "@/atomic/page/emotion/color-test";
 
 type Props = {
     result: TestResult;
