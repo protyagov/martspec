@@ -9,6 +9,7 @@
     "main": "index.js",
     "devDependencies": {
         "@principalstudio/html-webpack-inject-preload": "^1.2.7",
+        "@swc/core": "^1.15.33",
         "@types/bootstrap": "^5.2.10",
         "@types/node-polyglot": "^2.4.1",
         "@types/react": "^18.2.20",
@@ -32,7 +33,7 @@
         "sass-loader": "^16.0.0",
         "source-map-loader": "^4.0.0",
         "style-loader": "^4.0.0",
-        "ts-loader": "^9.4.4",
+        "swc-loader": "^0.2.7",
         "typescript": "^5.1.6",
         "webpack": "^5.99.9",
         "webpack-bundle-analyzer": "^4.9.0",
@@ -51,7 +52,7 @@
     "scripts": {
         "predeploy": "yarn prod && yarn ladle build",
         "deploy": "gh-pages -d build",
-        "prod": "webpack --config webpack.prd.cjs",        
+        "prod": "webpack --config webpack.prd.cjs",
         "svr": "webpack serve --config webpack.dev.cjs",
         "dev": "webpack serve --config webpack.dev.cjs & ladle serve --port 3001"
     },
