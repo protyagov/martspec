@@ -150,7 +150,22 @@
         "ALT5_4": "Nos preocupamos por nuestros usuarios, por eso no utilizamos publicidad intrusiva en la aplicación.",
         "ALT5_5": "Sincronizar con Apple Salud.",
         "ALT5_6": "Ícono de reloj inteligente que muestra la compatibilidad de la aplicación con los widgets de Apple Watch, lo que permite a los usuarios rastrear datos fácilmente directamente desde su muñeca.",
-        "BTN_OPEN": "Deshágase de la grasa"
+        "BTN_OPEN": "Deshágase de la grasa",
+
+        "HEAD5": "Consejos para el control de peso",
+        "DESC5": "Controlar su peso corporal de manera efectiva requiere constancia, conciencia y los hábitos correctos. Aquí hay algunos consejos prácticos para ayudarle a mantenerse en el camino correcto:",
+        "LIST4": {
+            "LI1_HEAD": "Registre su peso diariamente",
+            "LI1_TEXT": "Pesarse todos los días le ayuda a estar al tanto de los cambios y detectar tendencias temprano. Usar una aplicación de Apple Watch como Body Mass hace que el seguimiento diario sea rápido, sencillo y sin esfuerzo.",
+            "LI2_HEAD": "Concéntrese en una dieta equilibrada",
+            "LI2_TEXT": "Elija alimentos ricos en nutrientes como frutas, verduras, cereales integrales, proteínas magras y grasas saludables. Cuide el tamaño de las porciones y manténgase hidratado: controle la ingesta de calorías y los pequeños cambios se sumarán con el tiempo.",
+            "LI3_HEAD": "Manténgase activo",
+            "LI3_TEXT": "Trate de realizar actividad física de forma regular: incluso los entrenamientos cortos cuentan. Elija ejercicios que disfrute para crear hábitos duraderos. Ya sea que su objetivo sea perder peso o mantener su forma actual, la constancia es clave.",
+            "LI4_HEAD": "Combine el seguimiento con hábitos conscientes",
+            "LI4_TEXT": "El sueño, el estrés y el estado de ánimo afectan su peso. Asegúrese de descansar lo suficiente, controlar los niveles de estrés y apoyar a su cuerpo de manera integral, no solo a través de la comida y el ejercicio.",
+            "LI5_HEAD": "Cree una rutina y mantenga la responsabilidad",
+            "LI5_TEXT": "Haga que el control del peso sea parte de su ritmo diario, como cepillarse los dientes. Ser constante genera impulso. También puede formar equipo con amigos o usar grupos de apoyo para obtener motivación adicional."
+        }
     },
     "VITAMIN": {
         "HEAD": "Vitamina",

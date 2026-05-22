@@ -153,7 +153,22 @@
         "ALT5_4": "We care about our users, so we do not use any intrusive advertising in the application.",
         "ALT5_5": "Sync with Apple Health.",
         "ALT5_6": "Smartwatch icon showing app's support for Apple Watch widgets, allowing users to track data easily right from their wrist.",
-        "BTN_OPEN": "Give up the fat"
+        "BTN_OPEN": "Give up the fat",
+
+        "HEAD5": "Weight Management Tips",
+        "DESC5": "Managing your body weight effectively takes consistency, awareness, and the right habits. Here are some practical tips to help you stay on track:",
+        "LIST4": {
+            "LI1_HEAD": "Track Your Weight Daily",
+            "LI1_TEXT": "Weighing yourself each day helps you stay aware of changes and spot trends early. Using an Apple Watch app like Body Mass makes daily tracking fast, simple, and effortless.",
+            "LI2_HEAD": "Focus on a Balanced Diet",
+            "LI2_TEXT": "Choose nutrient-rich foods like fruits, vegetables, whole grains, lean proteins, and healthy fats. Watch portion sizes and stay hydrated — control calorie intake and small changes add up over time.",
+            "LI3_HEAD": "Stay Active",
+            "LI3_TEXT": "Aim for regular physical activity — even short workouts count. Choose exercises you enjoy to build lasting habits. Whether your goal is to lose weight or maintain your current shape, consistency is key.",
+            "LI4_HEAD": "Combine Tracking with Mindful Habits",
+            "LI4_TEXT": "Sleep, stress, and mood all affect your weight. Make sure you're getting enough rest, managing stress levels, and supporting your body holistically — not just through food and exercise.",
+            "LI5_HEAD": "Build a Routine & Stay Accountable",
+            "LI5_TEXT": "Make weight tracking part of your daily rhythm — like brushing your teeth. Staying consistent builds momentum. You can also team up with friends or use support groups for extra motivation."
+        }
     },
     "VITAMIN": {
         "HEAD": "Vitamin",
