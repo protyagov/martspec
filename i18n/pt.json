@@ -150,7 +150,22 @@
         "ALT5_4": "Nos preocupamos com nossos usuários, por isso não utilizamos nenhuma publicidade intrusiva no aplicativo.",
         "ALT5_5": "Sincronize com o Apple Health.",
         "ALT5_6": "Ícone de smartwatch que mostra o suporte do app para widgets do Apple Watch, permitindo que os usuários acompanhem dados facilmente direto do pulso.",
-        "BTN_OPEN": "Acompanhar"
+        "BTN_OPEN": "Acompanhar",
+
+        "HEAD5": "Dicas para o controle de peso",
+        "DESC5": "Gerenciar seu peso corporal de forma eficaz exige consistência, conscientização e os hábitos certos. Aqui estão algumas dicas práticas para ajudá-lo a se manter no caminho certo:",
+        "LIST4": {
+            "LI1_HEAD": "Acompanhe seu peso diariamente",
+            "LI1_TEXT": "Pesar-se todos os dias ajuda você a se manter ciente das mudanças e identificar tendências precocemente. Usar um aplicativo do Apple Watch como o Body Mass torna o acompanhamento diário rápido, simples e sem esforço.",
+            "LI2_HEAD": "Concentre-se em uma dieta balanceada",
+            "LI2_TEXT": "Escolha alimentos ricos em nutrientes, como frutas, vegetais, grãos integrais, proteínas magras e gorduras saudáveis. Preste atenção ao tamanho das porções e mantenha-se hidratado — controle a ingestão de calorias e pequenas mudanças se somarão com o tempo.",
+            "LI3_HEAD": "Mantenha-se ativo",
+            "LI3_TEXT": "Tenha como objetivo a atividade física regular — até mesmo treinos curtos contam. Escolha exercícios que você goste para construir hábitos duradouros. Se o seu objetivo é perder peso ou manter sua forma atual, a consistência é fundamental.",
+            "LI4_HEAD": "Combine o acompanhamento com hábitos conscientes",
+            "LI4_TEXT": "Sono, estresse e humor afetam seu peso. Certifique-se de descansar o suficiente, gerenciar os níveis de estresse e apoiar seu corpo de forma holística — não apenas por meio de alimentação e exercícios.",
+            "LI5_HEAD": "Crie uma rotina e mantenha a responsabilidade",
+            "LI5_TEXT": "Faça do acompanhamento do peso parte do seu ritmo diário — como escovar os dentes. Manter a consistência cria impulso. Você também pode se juntar a amigos ou usar grupos de apoio para motivação extra."
+        }
     },
     "VITAMIN": {
         "HEAD": "Vitamina",

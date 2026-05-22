@@ -150,7 +150,22 @@
         "ALT5_4": "Nous nous soucions de nos utilisateurs, c'est pourquoi nous n'utilisons aucune publicité intrusive dans l'application.",
         "ALT5_5": "Synchronisez avec Apple Health.",
         "ALT5_6": "Icône de montre connectée indiquant la prise en charge des widgets Apple Watch par l’application, permettant aux utilisateurs de suivre facilement leurs données directement depuis leur poignet.",
-        "BTN_OPEN": "Piste"
+        "BTN_OPEN": "Piste",
+
+        "HEAD5": "Conseils pour le contrôle du poids",
+        "DESC5": "Gérer efficacement votre poids corporel nécessite de la régularité, de la conscience et de bonnes habitudes. Voici quelques conseils pratiques pour vous aider à garder le cap :",
+        "LIST4": {
+            "LI1_HEAD": "Suivez votre poids quotidiennement",
+            "LI1_TEXT": "Vous peser chaque jour vous aide à rester conscient des changements et à repérer les tendances rapidement. L'utilisation d'une application Apple Watch comme Body Mass rend le suivi quotidien rapide, simple et sans effort.",
+            "LI2_HEAD": "Concentrez-vous sur une alimentation équilibrée",
+            "LI2_TEXT": "Choisissez des aliments riches en nutriments comme les fruits, les légumes, les céréales complètes, les protéines maigres et les graisses saines. Surveillez la taille des portions et restez hydraté : contrôlez l'apport calorique et de petits changements s'additionneront avec le temps.",
+            "LI3_HEAD": "Restez actif",
+            "LI3_TEXT": "Visez une activité physique régulière : même les petits entraînements comptent. Choisissez des exercices que vous aimez pour créer des habitudes durables. Que votre objectif soit de perdre du poids ou de conserver votre silhouette actuelle, la constance est la clé.",
+            "LI4_HEAD": "Combinez le suivi avec des habitudes conscientes",
+            "LI4_TEXT": "Le sommeil, le stress et l'humeur affectent tous votre poids. Assurez-vous de vous reposer suffisamment, de gérer votre niveau de stress et de soutenir votre corps de manière globale, et pas seulement par la nourriture et l'exercice.",
+            "LI5_HEAD": "Créez une routine et restez responsable",
+            "LI5_TEXT": "Faites du suivi du poids une partie de votre rythme quotidien, comme vous brosser les dents. Rester régulier crée une dynamique. Vous pouvez également faire équipe avec des amis ou utiliser des groupes de soutien pour une motivation supplémentaire."
+        }
     },
     "VITAMIN": {
         "HEAD": "Vitamine",

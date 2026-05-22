@@ -150,7 +150,22 @@
         "ALT5_4": "Wir kümmern uns um unsere Benutzer, daher verwenden wir in der Anwendung keine aufdringliche Werbung.",
         "ALT5_5": "Mit Apple Health synchronisieren.",
         "ALT5_6": "Smartwatch-Symbol, das die Unterstützung von Apple Watch-Widgets durch die App anzeigt und es den Nutzern ermöglicht, Daten direkt vom Handgelenk aus einfach zu verfolgen.",
-        "BTN_OPEN": "Schiene"
+        "BTN_OPEN": "Schiene",
+
+        "HEAD5": "Tipps zur Gewichtskontrolle",
+        "DESC5": "Die effektive Kontrolle Ihres Körpergewichts erfordert Konsequenz, Bewusstsein und die richtigen Gewohnheiten. Hier sind einige praktische Tipps, die Ihnen helfen, auf dem richtigen Weg zu bleiben:",
+        "LIST4": {
+            "LI1_HEAD": "Verfolgen Sie Ihr Gewicht täglich",
+            "LI1_TEXT": "Tägliches Wiegen hilft Ihnen, Veränderungen im Auge zu behalten und Trends frühzeitig zu erkennen. Die Verwendung einer Apple Watch-App wie Body Mass macht das tägliche Tracking schnell, einfach und mühelos.",
+            "LI2_HEAD": "Achten Sie auf eine ausgewogene Ernährung",
+            "LI2_TEXT": "Wählen Sie nährstoffreiche Lebensmittel wie Obst, Gemüse, Vollkornprodukte, magere Proteine und gesunde Fette. Achten Sie auf die Portionsgrößen und bleiben Sie hydriert – kontrollieren Sie die Kalorienzufuhr, denn kleine Veränderungen summieren sich im Laufe der Zeit.",
+            "LI3_HEAD": "Bleiben Sie aktiv",
+            "LI3_TEXT": "Streben Sie regelmäßige körperliche Aktivität an – auch kurze Trainingseinheiten zählen. Wählen Sie Übungen, die Ihnen Spaß machen, um dauerhafte Gewohnheiten aufzubauen. Unabhängig davon, ob Ihr Ziel darin besteht, Gewicht zu verlieren oder Ihre aktuelle Form zu halten, ist Konsequenz der Schlüssel.",
+            "LI4_HEAD": "Kombinieren Sie Tracking mit bewussten Gewohnheiten",
+            "LI4_TEXT": "Schlaf, Stress und Stimmung beeinflussen alle Ihr Gewicht. Stellen Sie sicher, dass Sie sich ausreichend ausruhen, Ihr Stresslevel kontrollieren und Ihren Körper ganzheitlich unterstützen – nicht nur durch Ernährung und Bewegung.",
+            "LI5_HEAD": "Bauen Sie eine Routine auf und bleiben Sie verantwortlich",
+            "LI5_TEXT": "Machen Sie die Gewichtskontrolle zu einem Teil Ihres täglichen Rhythmus – wie das Zähneputzen. Konsequenz baut Dynamik auf. Sie können sich auch mit Freunden zusammenschließen oder Selbsthilfegruppen für zusätzliche Motivation nutzen."
+        }
     },
     "VITAMIN": {
         "HEAD": "Vitamin",
