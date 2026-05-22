@@ -15,6 +15,7 @@ import CardTitleText from "@/atomic/molecule/card-title-text";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
+import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
 
 export default function Bodymass() {
     const appId = getAppId();
@@ -159,6 +160,87 @@ export default function Bodymass() {
                                 titleFontFam={"os5"}
                                 textFontFam={"os3"}
                             />
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="row mb-4 mt-5">
+                        <h2 className="adaptive-padding bodysize__h3">{_("MASS.HEAD5")} </h2>
+                    </div>
+                    <div className="row mb-5">
+                        <p className="adaptive-padding fs-4">{_("MASS.DESC5")} </p>
+                    </div>
+                    <div className="row g-4 mb-4">
+                        <div className="col-12 col-lg-6">
+                            <CardTitleTextImageCustom
+                                title={_("MASS.LIST4.LI1_HEAD")}
+                                text={_("MASS.LIST4.LI1_TEXT")}
+                                bgColor="#FFF1D2"
+                                shadow={false}
+                                cardHeight="10rem"
+                                responsive={true}
+                            />
+                        </div>
+                        <div className="col-12 col-lg-6 custom-card-padding">
+                            <CardTitleTextImageCustom
+                                title={_("MASS.LIST4.LI2_HEAD")}
+                                text={_("MASS.LIST4.LI1_TEXT")}
+                                bgColor="#FFFFFF"
+                                imgSrc="/img/page/body-mass/avocado.svg"
+                                imgPosition="right-bottom"
+                                shadow={true}
+                                cardHeight="10rem"
+                                imgH="12rem"
+                                responsive={true}
+                            />
+                        </div>
+                    </div>
+
+                    <div className="row g-4 mb-4 bodymass">
+                        <div className="col-12 col-lg-4 custom-card-padding-b">
+                            <CardTitleTextImageCustom
+                                title={_("MASS.LIST4.LI3_HEAD")}
+                                text={_("MASS.LIST4.LI3_TEXT")}
+                                bgColor="#FFFFFF"
+                                imgSrc="/img/page/body-mass/gloves.svg"
+                                imgPosition="right-bottom"
+                                shadow={true}
+                                cardHeight="20rem"
+                                imgH="12rem"
+                                imgMobileH="15rem"
+                                mobileBreakpoint={1380}
+                                responsive={true}
+                            />
+                        </div>
+                        <div className="col-12 col-lg-4 order-2 bodymass">
+                            <div className="d-flex flex-column h-100 gap-4 custom-card-padding-b">
+                                <CardTitleTextImageCustom
+                                    title={_("MASS.LIST4.LI4_HEAD")}
+                                    text={_("MASS.LIST4.LI4_TEXT")}
+                                    bgColor="#FFFFFF"
+                                    imgSrc="/img/page/body-mass/watch.svg"
+                                    imgPosition="right-bottom"
+                                    shadow={true}
+                                    cardHeight="20rem"
+                                    imgH="12rem"
+                                    responsive={true}
+                                />
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-4 order-4">
+                            <div className="d-flex flex-column h-100 gap-4">
+                                <CardTitleTextImageCustom
+                                    title={_("MASS.LIST4.LI5_HEAD")}
+                                    text={_("MASS.LIST4.LI5_TEXT")}
+                                    bgColor="#F4F5F8"
+                                    shadow={false}
+                                    cardHeight="20rem"
+                                    cardMobileHeight="16rem"
+                                    responsive={true}
+                                    mobileBreakpoint={991}
+                                />
+                            </div>
                         </div>
                     </div>
                 </section>
