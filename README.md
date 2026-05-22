@@ -9,7 +9,7 @@
 
 ```
 nvm current                         # Check current *node* version
-nvm use 16.16.0                     # Use *node* version 16
+nvm use 20                          # Use *node* version 20
 
 git clone <repo link>               # Clone repo to your local computer
 yarn install                        # Install all dependencies
