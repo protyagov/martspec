@@ -109,9 +109,13 @@ function createHtmlPlugin(lang, route, flat = false) {
     }
   } else {
     if (flat) {
-      filename = `${lang}/${route.output}.html`;
+      filename = lang === "en"
+        ? `${route.output}.html`
+        : `${lang}/${route.output}.html`;
     } else {
-      filename = `${lang}/${route.output}/index.html`;
+      filename = lang === "en"
+        ? `${route.output}/index.html`
+        : `${lang}/${route.output}/index.html`;
     }
   }
 
