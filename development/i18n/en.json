@@ -1695,8 +1695,8 @@
     },
     "ERROR": {
         "404_HEAD": "Page Not Found",
-        "404_TEXT": "This page does not exist. Please make sure you used the correct URL.",
-        "404_BTN": "Home"
+        "404_TEXT": "It looks like the requested page does not exist or has been moved",
+        "404_BTN": "Go to homepage"
     },
     "COMING_SOON": {
         "HEAD": "Under Construction",
