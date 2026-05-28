@@ -1693,8 +1693,8 @@
     },
     "ERROR": {
         "404_HEAD": "Page non trouvée",
-        "404_TEXT": "Cette page n'existe pas. Veuillez vous assurer que vous avez utilisé la bonne URL.",
-        "404_BTN": "Domicile"
+        "404_TEXT": "Il semble que la page demandée n'existe pas ou a été déplacée",
+        "404_BTN": "Retour à l'accueil"
     },
     "COMING_SOON": {
         "HEAD": "En construction",

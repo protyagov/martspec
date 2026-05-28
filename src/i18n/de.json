@@ -1695,8 +1695,8 @@
     },
     "ERROR": {
         "404_HEAD": "Seite nicht gefunden",
-        "404_TEXT": "Diese Seite existiert nicht. Bitte stellen Sie sicher, dass Sie die richtige URL verwendet haben.",
-        "404_BTN": "Hauptseite"
+        "404_TEXT": "Die angeforderte Seite existiert offenbar nicht oder wurde verschoben",
+        "404_BTN": "Zur Startseite"
     },
     "COMING_SOON": {
         "HEAD": "Im Aufbau",
