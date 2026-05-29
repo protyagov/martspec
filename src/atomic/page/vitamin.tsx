@@ -36,7 +36,6 @@ interface VitaminGroup {
 const COMING_SOON_PAGES = new Set([
             "CHAGA_MUSHROOM",
             "ASTRAGALUS",
-            "ASHWAGANDHA_EXTRACT",
             "TURKEY_TAIL",
             "MACA",
             "FIREWEED_TEA",
@@ -119,7 +118,7 @@ const vitamins: VitaminGroup[] = [
         linkHoverColor: "#CB30E0",
         itemList: [
             "ACAI",
-            "ASHWAGANDHA_EXTRACT", 
+            "ASHWAGANDHA", 
             "ASTRAGALUS",
             "CHAGA_MUSHROOM",
             "COCOA_POWDER",

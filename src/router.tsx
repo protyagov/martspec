@@ -23,7 +23,7 @@ import Iron from "@/atomic/page/iron";
 import Calcium from "@/atomic/page/calcium";
 import Article from "@/atomic/prototype/article/article";
 
-const articleVitamins = ["acai", "lion", "turmeric", "collagen", "ginko"];
+const articleVitamins = ["acai", "lion", "turmeric", "collagen", "ginko", "ashwagandha"];
 
 export function App() {
     var redirect = sessionStorage.redirect;
