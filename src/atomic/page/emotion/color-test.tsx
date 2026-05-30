@@ -385,20 +385,34 @@ export default function ColorTest() {
                         </div>
                         <div className="row g-4">
                             <div className="color-sectors">
-                                {sectorModelCollection.map((sector) => (
-                                    <div key={sector.color}>
-                                        <button
-                                            onClick={() =>
-                                                setUserSelectionCollection((current) => [...current, sector.id])
-                                            }
-                                            className={
-                                                "sector" +
-                                                (userSelectionCollection.includes(sector.id) ? " selected" : "")
-                                            }
-                                            style={{ background: "#" + sector.color }}
-                                        ></button>
-                                    </div>
-                                ))}
+                                {sectorModelCollection
+                                    .filter((sector) => {
+
+                                        const selectedCount = userSelectionCollection.length;
+
+                                        if (
+                                            selectedCount === COLORS.length - 1 &&
+                                            !userSelectionCollection.includes(sector.id)
+                                        ) {
+                                            return false;
+                                        }
+
+                                        return true;
+                                    })
+                                    .map((sector) => (
+                                        <div key={sector.color}>
+                                            <button
+                                                onClick={() =>
+                                                    setUserSelectionCollection((current) => [...current, sector.id])
+                                                }
+                                                className={
+                                                    "sector" +
+                                                    (userSelectionCollection.includes(sector.id) ? " selected" : "")
+                                                }
+                                                style={{ background: "#" + sector.color }}
+                                            ></button>
+                                        </div>
+                                    ))}
                             </div>
                         </div>
                     </section>
@@ -513,7 +527,7 @@ export default function ColorTest() {
             </div>
 
             <Footer />
-            <ScrollButton color="#7B62FE"/>
+            <ScrollButton color="#7B62FE" />
         </>
     );
 }
