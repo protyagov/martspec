@@ -65,7 +65,7 @@ type SectorModelId = number;
 
 const useSelected = ([selectedCollection, setResult]: [
     SectorModel["id"][],
-    React.Dispatch<React.SetStateAction<TestResult>>,
+    React.Dispatch<React.SetStateAction<TestResult | null>>,
 ]) => {
     const sc = selectedCollection;
 
@@ -291,7 +291,7 @@ const useSelected = ([selectedCollection, setResult]: [
     };
 
     React.useLayoutEffect(() => {
-        const scFull = sc.length === COLORS.length;
+        const scFull = sc.length === COLORS.length - 1;
 
         if (!scFull) return;
 
