@@ -185,7 +185,7 @@ export default function Bodymass() {
                         <div className="col-12 col-lg-6 custom-card-padding">
                             <CardTitleTextImageCustom
                                 title={_("MASS.LIST4.LI2_HEAD")}
-                                text={_("MASS.LIST4.LI1_TEXT")}
+                                text={_("MASS.LIST4.LI2_TEXT")}
                                 bgColor="#FFFFFF"
                                 imgSrc="/img/page/body-mass/avocado.svg"
                                 imgPosition="right-bottom"
