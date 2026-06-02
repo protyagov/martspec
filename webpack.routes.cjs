@@ -94,42 +94,45 @@ const ROUTES = [
   })),
 ];
 
-function createHtmlPlugin(lang, route, flat = false) {
+function createHtmlPlugins(lang, route, flat = false) {
   const template = `./src/template/${lang}/${route.template}.ejs`;
 
-  let filename;
+  let targetPaths = [];
 
   // Main page
   if (route.output === "") {
     if (flat) {
-      filename = lang === "en" ? "index.html" : `${lang}.html`;
+      targetPaths.push(lang === "en" ? "index.html" : `${lang}.html`);
+      if (lang === "en") targetPaths.push("en/index.html");
     } else {
-      filename = lang === "en"
-        ? "index.html"
-        : `${lang}/index.html`;
+      targetPaths.push(lang === "en" ? "index.html" : `${lang}/index.html`);
+      if (lang === "en") targetPaths.push("en/index.html");
     }
   } else {
     if (flat) {
-      filename = lang === "en"
-        ? `${route.output}.html`
-        : `${lang}/${route.output}.html`;
+      targetPaths.push(lang === "en" ? `${route.output}.html` : `${lang}/${route.output}.html`);
+      if (lang === "en") targetPaths.push(`en/${route.output}.html`);
     } else {
-      filename = lang === "en"
-        ? `${route.output}/index.html`
-        : `${lang}/${route.output}/index.html`;
+      targetPaths.push(lang === "en" ? `${route.output}/index.html` : `${lang}/${route.output}/index.html`);
+      if (lang === "en") targetPaths.push(`en/${route.output}/index.html`);
     }
   }
 
-  return new HtmlWebpackPlugin({
-    template,
-    filename,
-    inject: "body",
-  });
+  // Map the array of paths to an array of Webpack Plugins
+  return targetPaths.map(
+    (filename) =>
+      new HtmlWebpackPlugin({
+        template,
+        filename,
+        inject: "body",
+      })
+  );
 }
 
+// Use flatMap on ROUTES to flatten the arrays returned by createHtmlPlugins
 const htmlPlugins = LANGUAGES.flatMap((lang) => [
-  ...ROUTES.map((route) => createHtmlPlugin(lang, route, false)),
-  ...ROUTES.map((route) => createHtmlPlugin(lang, route, true)),
+  ...ROUTES.flatMap((route) => createHtmlPlugins(lang, route, false)),
+  ...ROUTES.flatMap((route) => createHtmlPlugins(lang, route, true)),
 ]);
 
 module.exports = htmlPlugins;
