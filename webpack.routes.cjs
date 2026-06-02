@@ -74,6 +74,7 @@ const ROUTES = [
     "ginko",
     "collagen",
     "ashwagandha",
+    "maca",
   ].map((x) => ({
     template: `vitamin/${x}`,
     output: `vitamin/${x}`,
