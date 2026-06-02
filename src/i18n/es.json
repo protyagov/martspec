@@ -1122,7 +1122,22 @@
         "ALT3_3": "Nos preocupamos por nuestros usuarios, por eso no utilizamos publicidad intrusiva en la aplicación.",
         "ALT3_4": "Sincronización con el programa Apple Health: la mejor base de todas las vitaminas y microelementos.",
         "BTN_MORE": "MÁS DETALLES",
-        "BTN_OPEN": "Zinc Asombroso"
+        "BTN_OPEN": "Zinc Asombroso",
+
+        "HEAD6": "Compruebe su nivel de zinc en casa",
+        "DESC6": "Puede evaluar sus niveles de zinc sin necesidad de un laboratorio. Se puede realizar una prueba rápida con sulfato de zinc en casa en un minuto: simplemente coloque una pequeña cantidad de sulfato de zinc líquido en la boca y evalúe el sabor.",
+        "HEAD7": "Qué muestra la prueba:",
+        "LIST3": {
+            "LI1_HEAD": "Sin sabor metálico",
+            "LI1_TEXT": "Probablemente un nivel bajo de zinc",
+            "LI2_HEAD": "Sabor metálico leve",
+            "LI2_TEXT": "Adecuado, pero se puede mejorar",
+            "LI3_HEAD": "Sabor metálico retardado",
+            "LI3_TEXT": "Posible deficiencia leve",
+            "LI4_HEAD": "Sabor metálico fuerte",
+            "LI4_TEXT": "Probablemente un nivel óptimo de zinc"
+        },
+        "DESC7": "Es rápido, económico y sorprendentemente revelador: un primer paso sencillo para comprender un mineral que desempeña un papel crucial en la inmunidad, las hormonas, el metabolismo y la recuperación."
     },
     "SIZE": {
         "HEAD": "Medida",

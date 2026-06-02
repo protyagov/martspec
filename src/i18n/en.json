@@ -1124,7 +1124,22 @@
         "ALT3_3": "We care about our users, so we do not use any intrusive advertising in the application.",
         "ALT3_4": "Sync with Apple Health.",
         "BTN_MORE": "MORE",
-        "BTN_OPEN": "AmaZinc element"
+        "BTN_OPEN": "AmaZinc element",
+
+        "HEAD6": "Check Your Zinc Levels at Home",
+        "DESC6": "You can assess your zinc levels without a lab. A quick zinc sulfate test can be done at home in a minute — simply place a small amount of liquid zinc sulfate in your mouth and evaluate the taste.",
+        "HEAD7": "What the test shows:",
+        "LIST3": {
+            "LI1_HEAD": "No metallic taste",
+            "LI1_TEXT": "Likely low zinc levels",
+            "LI2_HEAD": "Slight metallic taste",
+            "LI2_TEXT": "Adequate, but could be improved",
+            "LI3_HEAD": "Delayed metallic taste",
+            "LI3_TEXT": "Possible mild deficiency",
+            "LI4_HEAD": "Strong metallic taste",
+            "LI4_TEXT": "Likely optimal zinc levels"
+        },
+        "DESC7": "It's quick, inexpensive, and surprisingly telling — a simple first step to understanding a mineral that plays a crucial role in immunity, hormones, metabolism, and recovery."
     },
     "SIZE": {
         "HEAD": "Body Size",
