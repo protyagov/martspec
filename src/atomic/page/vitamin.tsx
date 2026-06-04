@@ -34,14 +34,13 @@ interface VitaminGroup {
     itemList: string[];
 }
 const COMING_SOON_PAGES = new Set([
-            "CHAGA_MUSHROOM",
-            "ASTRAGALUS",
-            "TURKEY_TAIL",
-            "MACA",
-            "FIREWEED_TEA",
-            "CORDYCEPS_POWDER",
-            "COCOA_POWDER",
-            "KOMBUCHA"
+    "CHAGA_MUSHROOM",
+    "ASTRAGALUS",
+    "TURKEY_TAIL",
+    "MACA",
+    "CORDYCEPS_POWDER",
+    "COCOA_POWDER",
+    "KOMBUCHA",
 ]);
 const vitamins: VitaminGroup[] = [
     {
@@ -118,7 +117,7 @@ const vitamins: VitaminGroup[] = [
         linkHoverColor: "#CB30E0",
         itemList: [
             "ACAI",
-            "ASHWAGANDHA", 
+            "ASHWAGANDHA",
             "ASTRAGALUS",
             "CHAGA_MUSHROOM",
             "COCOA_POWDER",
@@ -130,7 +129,7 @@ const vitamins: VitaminGroup[] = [
             "GINKO",
             "LION",
             "MACA",
-            "TURKEY_TAIL"
+            "TURKEY_TAIL",
         ],
     },
 ];
@@ -246,24 +245,23 @@ export default function Vitamin() {
                     <Breadcrumb items={items} />
                 </div>
                 <section className="m-0">
-                            <Header
-                                title={_("VITAMIN.HEAD")}
-                                appId={appId}
-                                appDownloadTitle={_("VITAMIN.DWN")}
-                                imgSrc="/img/page/vitamin/vitamin-header-en.webp"
-                                imgAlt={_("VITAMIN.IMG")}
-                                imgH={405}
-                                imgW={550}
-                            >
-                                
-                                <div className="vitamin">
-                                    <ul className="header-content-list ">
-                                        <li>{_("VITAMIN.ABOUT_1")}</li>
-                                        <li>{_("VITAMIN.ABOUT_2")}</li>
-                                        <li>{_("VITAMIN.ABOUT_3")}</li>
-                                    </ul>
-                                </div>
-                            </Header>
+                    <Header
+                        title={_("VITAMIN.HEAD")}
+                        appId={appId}
+                        appDownloadTitle={_("VITAMIN.DWN")}
+                        imgSrc="/img/page/vitamin/vitamin-header-en.webp"
+                        imgAlt={_("VITAMIN.IMG")}
+                        imgH={405}
+                        imgW={550}
+                    >
+                        <div className="vitamin">
+                            <ul className="header-content-list ">
+                                <li>{_("VITAMIN.ABOUT_1")}</li>
+                                <li>{_("VITAMIN.ABOUT_2")}</li>
+                                <li>{_("VITAMIN.ABOUT_3")}</li>
+                            </ul>
+                        </div>
+                    </Header>
                 </section>
 
                 <section>
@@ -383,102 +381,106 @@ export default function Vitamin() {
                             </div>
                         </div>
                     </div>
-                    {vitamins.filter(group => group.groupName !== "FOODADDITIVES").map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
-                        <section key={`vitamins-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4">
-                            <div className="col-12 d-flex flex-column">
-                                <Accordion
-                                    title={_(`VITAMIN.${groupName}.NAME`)}
-                                    bgColor={bgColor}
-                                    expandIconColor={primaryColor}
-                                    bgImg={header.bgImg}
-                                    mobileBgResized={header.mobileBgResized}
-                                    defaultExpanded={header.defaultExpanded}
-                                >
-                                    <ul className="d-grid vitamin-list list-unstyled">
-                                        {itemList.map((vit) => (
-                                            <li key={vit}>
-                                                <CardVitamin
-                                                    title={_(`VITAMIN.${vit}.HEAD`)}
-                                                    subtitle={_(`VITAMIN.${vit}.NAME`)}
-                                                    description={_(`VITAMIN.${vit}.DESK`)}
-                                                    actionLink={{
-                                                        text: _("VITAMIN.BTN_GO"),
-                                                        href: Locale.i18nLink(`vitamin/${vit.toLowerCase()}`),
-                                                    }}
-                                                    bgColor={bgColor}
-                                                    primaryColor={primaryColor}
-                                                    linkHoverColor={linkHoverColor}
-                                                    bgImg={bgImg}
-                                                />
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </Accordion>
-                            </div>
-                        </section>
-                    ))}
-                    {vitamins.filter(group => group.groupName === "FOODADDITIVES").map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
-                        <section key={`articles-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4">
-                            <div className="col-12 d-flex flex-column">
-                                <Accordion
-                                    title={_(`VITAMIN.${groupName}.NAME`)}
-                                    bgColor={bgColor}
-                                    expandIconColor={primaryColor}
-                                    bgImg={header.bgImg}
-                                    mobileBgResized={header.mobileBgResized}
-                                    defaultExpanded={header.defaultExpanded}
-                                >
-                                    <ul className="d-grid vitamin-list">
-                                        {itemList.map((article) => (
-                                            <li key={article}>
-                                                <CardVitamin
-                                                    title={_(`VITAMIN.${article}.HEAD`)}
-                                                    subtitle={_(`VITAMIN.${article}.NAME`)}
-                                                    description={_(`VITAMIN.${article}.DESK`)}
-                                                    actionLink={{
-                                                        text: _("VITAMIN.BTN_GO"),
-                                                        href: COMING_SOON_PAGES.has(article)
-                                                            ? Locale.i18nLink("coming-soon")
-                                                            : Locale.i18nLink(`vitamin/${article.toLowerCase()}`),
-                                                    }}
-                                                    bgColor={bgColor}
-                                                    primaryColor={primaryColor}
-                                                    linkHoverColor={linkHoverColor}
-                                                    bgImg={bgImg}
-                                                />
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </Accordion>
-                            </div>
-                        </section>
-                    ))}
+                    {vitamins
+                        .filter((group) => group.groupName !== "FOODADDITIVES")
+                        .map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
+                            <section key={`vitamins-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4">
+                                <div className="col-12 d-flex flex-column">
+                                    <Accordion
+                                        title={_(`VITAMIN.${groupName}.NAME`)}
+                                        bgColor={bgColor}
+                                        expandIconColor={primaryColor}
+                                        bgImg={header.bgImg}
+                                        mobileBgResized={header.mobileBgResized}
+                                        defaultExpanded={header.defaultExpanded}
+                                    >
+                                        <ul className="d-grid vitamin-list list-unstyled">
+                                            {itemList.map((vit) => (
+                                                <li key={vit}>
+                                                    <CardVitamin
+                                                        title={_(`VITAMIN.${vit}.HEAD`)}
+                                                        subtitle={_(`VITAMIN.${vit}.NAME`)}
+                                                        description={_(`VITAMIN.${vit}.DESK`)}
+                                                        actionLink={{
+                                                            text: _("VITAMIN.BTN_GO"),
+                                                            href: Locale.i18nLink(`vitamin/${vit.toLowerCase()}`),
+                                                        }}
+                                                        bgColor={bgColor}
+                                                        primaryColor={primaryColor}
+                                                        linkHoverColor={linkHoverColor}
+                                                        bgImg={bgImg}
+                                                    />
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </Accordion>
+                                </div>
+                            </section>
+                        ))}
+                    {vitamins
+                        .filter((group) => group.groupName === "FOODADDITIVES")
+                        .map(({ groupName, header, bgImg, bgColor, primaryColor, linkHoverColor, itemList }) => (
+                            <section key={`articles-group-${groupName}`} className="row mt-4 mt-lg-5 pt-4">
+                                <div className="col-12 d-flex flex-column">
+                                    <Accordion
+                                        title={_(`VITAMIN.${groupName}.NAME`)}
+                                        bgColor={bgColor}
+                                        expandIconColor={primaryColor}
+                                        bgImg={header.bgImg}
+                                        mobileBgResized={header.mobileBgResized}
+                                        defaultExpanded={header.defaultExpanded}
+                                    >
+                                        <ul className="d-grid vitamin-list">
+                                            {itemList.map((article) => (
+                                                <li key={article}>
+                                                    <CardVitamin
+                                                        title={_(`VITAMIN.${article}.HEAD`)}
+                                                        subtitle={_(`VITAMIN.${article}.NAME`)}
+                                                        description={_(`VITAMIN.${article}.DESK`)}
+                                                        actionLink={{
+                                                            text: _("VITAMIN.BTN_GO"),
+                                                            href: COMING_SOON_PAGES.has(article)
+                                                                ? Locale.i18nLink("coming-soon")
+                                                                : Locale.i18nLink(`vitamin/${article.toLowerCase()}`),
+                                                        }}
+                                                        bgColor={bgColor}
+                                                        primaryColor={primaryColor}
+                                                        linkHoverColor={linkHoverColor}
+                                                        bgImg={bgImg}
+                                                    />
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </Accordion>
+                                </div>
+                            </section>
+                        ))}
                 </section>
 
                 <section className="row p-0 mt-0">
-                <Review
-                    appId={appId}
-                    codes={{
-                        countryCode: Locale.countryCode,
-                        languageCode: Locale.language,
-                    }}
-                    text={{
-                        head: _("REVIEW.HEAD"),
-                        description: _("REVIEW.DESCRIPTION"),
-                        link: _("REVIEW.LINK_ALL_REVIEWS"),
-                        readMoreLink: _("REVIEW.READ_MORE_LINK"),
-                        fillerCard: {
-                            head: [
-                                _("REVIEW.FILLER_CARD.HEAD1"),
-                                _("REVIEW.FILLER_CARD.HEAD2"),
-                                _("REVIEW.FILLER_CARD.HEAD3"),
-                            ],
-                            link: _("REVIEW.FILLER_CARD.LINK"),
-                        },
-                    }}
-                    themeColor="#1686FF"
-                    hasUnderlineHover={false}
-                />
+                    <Review
+                        appId={appId}
+                        codes={{
+                            countryCode: Locale.countryCode,
+                            languageCode: Locale.language,
+                        }}
+                        text={{
+                            head: _("REVIEW.HEAD"),
+                            description: _("REVIEW.DESCRIPTION"),
+                            link: _("REVIEW.LINK_ALL_REVIEWS"),
+                            readMoreLink: _("REVIEW.READ_MORE_LINK"),
+                            fillerCard: {
+                                head: [
+                                    _("REVIEW.FILLER_CARD.HEAD1"),
+                                    _("REVIEW.FILLER_CARD.HEAD2"),
+                                    _("REVIEW.FILLER_CARD.HEAD3"),
+                                ],
+                                link: _("REVIEW.FILLER_CARD.LINK"),
+                            },
+                        }}
+                        themeColor="#1686FF"
+                        hasUnderlineHover={false}
+                    />
                 </section>
 
                 <section className="row p-0 mt-0">
