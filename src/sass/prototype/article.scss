@@ -27,6 +27,7 @@
   /* ← helps CLS even more */
   object-fit: cover;
   object-position: center;
+  aspect-ratio: 1300 / 420;
 }
 
 
@@ -113,6 +114,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: #fff;
     gap: 15px;
     box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
     border-radius: 30px;
@@ -199,7 +201,7 @@
   .article-section--two-column .article-section__inner {
     display: grid;
     gap: 32px;
-    align-items: stretch;
+    align-items: start;
     grid-template-columns: 1fr;
   }
 }
