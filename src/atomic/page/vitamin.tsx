@@ -119,7 +119,7 @@ const vitamins: VitaminGroup[] = [
             "ACAI",
             "ASHWAGANDHA", 
             "ASTRAGALUS",
-            "CHAGA_MUSHROOM",
+            "CHAGA",
             "COCOA_POWDER",
             "COLLAGEN",
             "KOMBUCHA",

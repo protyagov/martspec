@@ -1,6 +1,6 @@
 {
     "TITLE": "Chaga-Pilz-Pulver: Das schwarze Gold des Waldes",
-    "IMG_URL": "/img/page/article/chaga_mushroom/chaga.webp",
+    "IMG_URL": "/img/page/article/chaga/chaga.webp",
     "IMG_ALT": "Illustration von Chaga-Pilzpulver",
     "BODY": [
         {
@@ -16,11 +16,8 @@
         {
             "TITLE": "### Positive gesundheitliche Wirkungen von Chaga",
             "CONTENT": "- **Immunsystem**\n\nDie gesundheitlichen Vorteile von Chaga beruhen auf seiner reichen und einzigartigen Zusammensetzung, die er hauptsächlich von den Birken bezieht, auf denen er wächst. Chaga nimmt Betulin aus der Birke auf und wandelt es in Betulinsäure um — eine Verbindung, die wegen ihrer immununterstützenden Wirkung untersucht wird.\n\nBeta-D-Glucane regulieren und „trainieren“ das Immunsystem, indem sie die Zytokin-Signalgebung modulieren und Makrophagen sowie natürliche Killerzellen (NK-Zellen) unterstützen. Anders als ein einfacher „Immun-Boost“ stärken sie die Abwehr gegen Infektionen und beruhigen zugleich überschießende Reaktionen. Als Adaptogene verbessern sie die Stressresilienz und helfen, eine ausgewogene Immunantwort wiederherzustellen.\n\n- **Antioxidantien**\n\nChaga besitzt einen der höchsten ORAC-Werte (146.700) weltweit. Seine phenolischen Verbindungen neutralisieren schädliche freie Radikale, während seine Melanine — dasselbe Pigment, das die menschliche Haut schützt — die Zellen vor oxidativem Stress abschirmen. Indem sie diesen Stress verringern, helfen sie, die mit Alterung und vielen Krankheiten verbundenen chronischen Entzündungen zu senken.\n\n- **Krebs**\n\nModerne Forschung zeigt vielversprechende Wirkungen von Chaga in Tierstudien. Extrakte scheinen das Tumorwachstum zu verlangsamen und können Krebszellen zur Selbstzerstörung (Apoptose) anregen, ohne gesunde Zellen zu schädigen. Betulin aus Chaga zielt direkt auf die Mitochondrien von Tumorzellen — die zellulären Kraftwerke, die für die Energieproduktion verantwortlich sind. Durch Störung der Mitochondrienfunktion löst es Apoptose (programmierten Zelltod) gezielt in Krebszellen aus — ein Mechanismus, der sogar gegen Tumorarten Wirkung zeigte, die gegen herkömmliche Chemotherapie resistent sind.\n\n- **Leber**\n\nChaga kann auch helfen, die Leber vor Schäden zu schützen und oxidativen Stress zu verringern, der mit Erkrankungen wie der Fettleber zusammenhängt.\n\n- **Entzündung**\n\nBetulin aus Chaga senkt systemische Entzündungen, indem es die Produktion entzündungsfördernder Zytokine hemmt — Moleküle, die Immunreaktionen modulieren. Betulinsäure, die eine Carboxylgruppe besitzt, zeigt ebenfalls vielversprechende biologische Aktivitäten, darunter Anti-HIV- und breite antimikrobielle Wirkungen.\n\n- **Darmgesundheit**\n\nDie entzündungshemmenden Eigenschaften von Chaga können Menschen mit entzündlichen Darmerkrankungen zugutekommen. Außerdem helfen seine Polysaccharide als Präbiotikum, das nützliche Mikrobiom zu nähren, was für die allgemeine Gesundheit entscheidend ist.\n\n> Eine in der Zeitschrift Molecules (NCBI — WWW Error Blocked Diagnostic) veröffentlichte Studie ergab, dass sowohl wasser- als auch alkoholbasierte Extrakte Zellen vor Entzündungen schützten, die durch pathogene Mikroben ausgelöst wurden, was das Potenzial von Chaga unterstreicht, die Darmintegrität und das allgemeine Immungleichgewicht zu unterstützen.\n\n- **Blutzucker**\n\nTierstudien zeigen, dass Chaga den Nüchtern- und postprandialen Glukosespiegel senken, die Insulinproduktion der Bauchspeicheldrüse steigern, die Insulinresistenz verringern und kohlenhydratspaltende Enzyme (wie Alpha-Glucosidase) hemmen kann, um Glukosespitzen abzumildern.\n\n- **Cholesterin**\n\nIn präklinischen Studien zeigten sich blutfettsenkende Wirkungen: Senkung des LDL („schlechten“) Cholesterins und der Triglyceride bei gleichzeitiger Erhöhung des HDL („guten“) — Veränderungen, die das Herz-Kreislauf-Risiko senken können.",
-            "ACCENT_COLOR": "#1686FF"
-        },
-        {
-            "CONTENT": "",
-            "IMG_SRC": "/img/page/article/chaga_mushroom/chaga-2.webp",
+            "ACCENT_COLOR": "#1686FF",
+            "IMG_SRC": "/img/page/article/chaga/chaga-2.webp",
             "IMG_ALT": "Chaga-Pulver in einer Holzschale mit Birkenstücken",
             "IS_SMALL": true
         },
@@ -60,15 +57,12 @@
             "ACCENT_COLOR": "#1686FF"
         },
         {
-            "CONTENT": "",
-            "IMG_SRC": "/img/page/article/chaga_mushroom/chaga-3.webp",
-            "IMG_ALT": "Chaga-Pulver auf einem Holzlöffel",
-            "IS_SMALL": true
-        },
-        {
             "TITLE": "### Fazit",
             "CONTENT": "**Ein kraftvoller pilzlicher Verbündeter, der Respekt und Vorsicht verlangt**\n\nChaga ist ein bemerkenswerter Heilpilz mit tiefgreifenden immunmodulierenden und antioxidativen Eigenschaften. Seine Fähigkeit, dem Körper bei der Anpassung an Stress zu helfen und oxidative Schäden zu bekämpfen, macht ihn zu einem wertvollen Werkzeug im modernen Wellness-Arsenal. Sein hoher Oxalatgehalt stellt jedoch ein ernstes und nicht verhandelbares Risiko für einen erheblichen Teil der Bevölkerung dar.",
-            "ACCENT_COLOR": "#1686FF"
+            "ACCENT_COLOR": "#1686FF",
+            "IMG_SRC": "/img/page/article/chaga/chaga-3.webp",
+            "IMG_ALT": "Chaga-Pulver auf einem Holzlöffel",
+            "IS_SMALL": true
         }
     ],
     "CALL_TO_ACTION": {

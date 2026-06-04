@@ -1,6 +1,6 @@
 {
     "TITLE": "Chaga Mushroom Powder: The Black Gold of the Forest",
-    "IMG_URL": "/img/page/article/chaga_mushroom/chaga.webp",
+    "IMG_URL": "/img/page/article/chaga/chaga.webp",
     "IMG_ALT": "Illustration of Chaga mushroom powder",
     "BODY": [
         {
@@ -16,11 +16,8 @@
         {
             "TITLE": "### Positive health effects of chaga",
             "CONTENT": "- **Immune system**\n\nChaga's health benefits are attributed to its rich and unique composition, which it derives primarily from the birch trees it grows on. Chaga absorbs betulin from the birch tree and turns it into betulinic acid, a compound studied for its immune-supporting effects.\n\nBeta-D-glucans regulate and 'train' the immune system by modulating cytokine signalling and supporting macrophages and natural killer (NK) cells. Unlike a simple 'immune boost,' they strengthen defenses against infection while calming overactive responses. As adaptogens, they improve resilience to stress and help restore balanced immune responses.\n\n- **Antioxidants**\n\nChaga has one of the highest ORAC scores (146,700) in the world. Its phenolic compounds neutralize harmful free radicals, while its melanins—the same pigment that protects human skin—help shield cells from oxidative stress. These neutralize free radicals, protect cells from oxidative stress, and, by reducing that stress, help lower chronic inflammation linked to aging and many diseases.\n\n- **Cancer**\n\nModern research shows promising effects of Chaga in animal studies. Extracts appear to slow tumor growth and can trigger cancer cells to self-destruct (apoptosis) without harming healthy cells. Betulin from Chaga directly targets the mitochondria of tumor cells, the cellular powerhouses responsible for energy production. By disrupting mitochondrial function, it triggers apoptosis (programmed cell death) specifically within cancerous cells, a pathway that has shown efficacy even against tumor types resistant to conventional chemotherapy.\n\n- **Liver**\n\nChaga may also help protect the liver from damage and reduce oxidative stress linked to conditions like fatty liver disease.\n\n- **Inflammation**\n\nBetulin from Chaga reduces systemic inflammation by inhibiting the production of pro-inflammatory cytokines, molecules that modulate immune responses. Betulinic acid, which features a carboxyl group, also exhibits promising biological activities, including anti-HIV and broad antimicrobial effects.\n\n- **Gut health**\n\nThe anti-inflammatory properties of Chaga may benefit individuals with inflammatory bowel conditions. Furthermore, as a prebiotic, the polysaccharides can help nourish the beneficial microbiome, which is crucial for overall health.\n\n> A study published in Molecules (NCBI — WWW Error Blocked Diagnostic) found that both water- and alcohol-based extracts protected cells from inflammation triggered by pathogenic microbes, underscoring Chaga's potential to support gut integrity and overall immune balance.\n\n- **Blood sugar**\n\nAnimal studies show Chaga can lower fasting and post-meal glucose, enhance pancreatic insulin production, reduce insulin resistance, and inhibit carbohydrate-digesting enzymes (like alpha-glucosidase) to blunt glucose spikes.\n\n- **Cholesterol**\n\nHypolipidemic effects were shown in preclinical studies, lowering LDL ('bad') and triglycerides while raising HDL ('good'), changes that may reduce cardiovascular risk.",
-            "ACCENT_COLOR": "#1686FF"
-        },
-        {
-            "CONTENT": "",
-            "IMG_SRC": "/img/page/article/chaga_mushroom/chaga-2.webp",
+            "ACCENT_COLOR": "#1686FF",
+            "IMG_SRC": "/img/page/article/chaga/chaga-2.webp",
             "IMG_ALT": "Chaga powder in a wooden bowl with birch chunks",
             "IS_SMALL": true
         },
@@ -60,15 +57,12 @@
             "ACCENT_COLOR": "#1686FF"
         },
         {
-            "CONTENT": "",
-            "IMG_SRC": "/img/page/article/chaga_mushroom/chaga-3.webp",
-            "IMG_ALT": "Chaga powder on a wooden spoon",
-            "IS_SMALL": true
-        },
-        {
             "TITLE": "### Conclusion",
             "CONTENT": "**A powerful fungal ally, demanding respect and caution**\n\nChaga is a remarkable medicinal fungus with profound immune-modulating and antioxidant properties. Its ability to help the body adapt to stress and fight oxidative damage makes it a valuable tool in the modern wellness arsenal. However, its high oxalate content presents a serious and non-negotiable risk for a significant portion of the population.",
-            "ACCENT_COLOR": "#1686FF"
+            "ACCENT_COLOR": "#1686FF",
+            "IMG_SRC": "/img/page/article/chaga/chaga-3.webp",
+            "IMG_ALT": "Chaga powder on a wooden spoon",
+            "IS_SMALL": true
         }
     ],
     "CALL_TO_ACTION": {

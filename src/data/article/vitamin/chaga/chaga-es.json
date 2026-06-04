@@ -1,6 +1,6 @@
 {
     "TITLE": "Polvo de chaga: el oro negro del bosque",
-    "IMG_URL": "/img/page/article/chaga_mushroom/chaga.webp",
+    "IMG_URL": "/img/page/article/chaga/chaga.webp",
     "IMG_ALT": "Ilustración de polvo de hongo chaga",
     "BODY": [
         {
@@ -16,11 +16,8 @@
         {
             "TITLE": "### Efectos positivos del chaga para la salud",
             "CONTENT": "- **Sistema inmunitario**\n\nLos beneficios del chaga para la salud se atribuyen a su composición rica y única, que obtiene principalmente de los abedules en los que crece. El chaga absorbe betulina del abedul y la convierte en ácido betulínico, un compuesto estudiado por sus efectos de apoyo inmunitario.\n\nLos betaglucanos beta-D regulan y «entrenan» el sistema inmunitario modulando la señalización de citoquinas y apoyando a los macrófagos y a las células asesinas naturales (NK). A diferencia de un simple «refuerzo inmunitario», fortalecen las defensas contra las infecciones a la vez que calman las respuestas excesivas. Como adaptógenos, mejoran la resiliencia al estrés y ayudan a restaurar respuestas inmunitarias equilibradas.\n\n- **Antioxidantes**\n\nEl chaga tiene uno de los valores ORAC más altos (146.700) del mundo. Sus compuestos fenólicos neutralizan los radicales libres dañinos, mientras que sus melaninas —el mismo pigmento que protege la piel humana— ayudan a proteger las células del estrés oxidativo. Al reducir ese estrés, ayudan a disminuir la inflamación crónica vinculada al envejecimiento y a muchas enfermedades.\n\n- **Cáncer**\n\nLa investigación moderna muestra efectos prometedores del chaga en estudios con animales. Los extractos parecen ralentizar el crecimiento tumoral y pueden inducir la autodestrucción de las células cancerosas (apoptosis) sin dañar las células sanas. La betulina del chaga actúa directamente sobre las mitocondrias de las células tumorales, las centrales energéticas celulares responsables de la producción de energía. Al alterar la función mitocondrial, desencadena la apoptosis (muerte celular programada) específicamente en las células cancerosas, una vía que ha mostrado eficacia incluso contra tipos de tumores resistentes a la quimioterapia convencional.\n\n- **Hígado**\n\nEl chaga también puede ayudar a proteger el hígado del daño y a reducir el estrés oxidativo vinculado a afecciones como el hígado graso.\n\n- **Inflamación**\n\nLa betulina del chaga reduce la inflamación sistémica al inhibir la producción de citoquinas proinflamatorias, moléculas que modulan las respuestas inmunitarias. El ácido betulínico, que posee un grupo carboxilo, también exhibe actividades biológicas prometedoras, incluidos efectos anti-VIH y antimicrobianos de amplio espectro.\n\n- **Salud intestinal**\n\nLas propiedades antiinflamatorias del chaga pueden beneficiar a las personas con enfermedades inflamatorias intestinales. Además, como prebiótico, sus polisacáridos ayudan a nutrir el microbioma beneficioso, crucial para la salud en general.\n\n> Un estudio publicado en la revista Molecules (NCBI — WWW Error Blocked Diagnostic) halló que tanto los extractos a base de agua como los de alcohol protegían las células de la inflamación provocada por microbios patógenos, subrayando el potencial del chaga para apoyar la integridad intestinal y el equilibrio inmunitario general.\n\n- **Azúcar en sangre**\n\nLos estudios con animales muestran que el chaga puede reducir la glucosa en ayunas y posprandial, potenciar la producción de insulina del páncreas, reducir la resistencia a la insulina e inhibir las enzimas digestivas de carbohidratos (como la alfa-glucosidasa) para atenuar los picos de glucosa.\n\n- **Colesterol**\n\nEn estudios preclínicos se observaron efectos hipolipemiantes: reducción del colesterol LDL («malo») y de los triglicéridos, con aumento del HDL («bueno»), cambios que pueden reducir el riesgo cardiovascular.",
-            "ACCENT_COLOR": "#1686FF"
-        },
-        {
-            "CONTENT": "",
-            "IMG_SRC": "/img/page/article/chaga_mushroom/chaga-2.webp",
+            "ACCENT_COLOR": "#1686FF",
+            "IMG_SRC": "/img/page/article/chaga/chaga-2.webp",
             "IMG_ALT": "Polvo de chaga en un cuenco de madera con trozos de abedul",
             "IS_SMALL": true
         },
@@ -60,15 +57,12 @@
             "ACCENT_COLOR": "#1686FF"
         },
         {
-            "CONTENT": "",
-            "IMG_SRC": "/img/page/article/chaga_mushroom/chaga-3.webp",
-            "IMG_ALT": "Polvo de chaga en una cuchara de madera",
-            "IS_SMALL": true
-        },
-        {
             "TITLE": "### Conclusión",
             "CONTENT": "**Un poderoso aliado fúngico que exige respeto y precaución**\n\nEl chaga es un hongo medicinal notable con profundas propiedades inmunomoduladoras y antioxidantes. Su capacidad para ayudar al cuerpo a adaptarse al estrés y combatir el daño oxidativo lo convierte en una herramienta valiosa en el arsenal moderno del bienestar. Sin embargo, su alto contenido de oxalatos presenta un riesgo grave e innegociable para una parte significativa de la población.",
-            "ACCENT_COLOR": "#1686FF"
+            "ACCENT_COLOR": "#1686FF",
+            "IMG_SRC": "/img/page/article/chaga/chaga-3.webp",
+            "IMG_ALT": "Polvo de chaga en una cuchara de madera",
+            "IS_SMALL": true
         }
     ],
     "CALL_TO_ACTION": {
