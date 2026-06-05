@@ -225,11 +225,23 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                       </ReactMarkdown>
                     </div>
                     {hasRightColumn && (
-                      <aside className="article-section__right">
+                      <aside
+                          className="article-section__right"
+                          style={item.RIGHT_COLUMN?.VIDEO_URL ? { alignSelf: 'start' } : undefined}
+                      >
                         {item.RIGHT_COLUMN?.CONTENT && (
                           <ReactMarkdown>
                             {item.RIGHT_COLUMN.CONTENT}
                           </ReactMarkdown>
+                        )}
+                        {item.RIGHT_COLUMN?.VIDEO_URL && (
+                            <iframe
+                                className="article-section__right-video"
+                                src={item.RIGHT_COLUMN.VIDEO_URL}
+                                title="Video"
+                                allow="autoplay; encrypted-media"
+                                allowFullScreen
+                            />
                         )}
                         {item.RIGHT_COLUMN?.IMG_SRC && (
                           <img

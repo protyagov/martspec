@@ -34,7 +34,11 @@
       "IMG_ALT": "",
       "CONTENT": "Although turmeric supplements are generally safe, high doses may cause issues:\n\n- **Digestive upset.** The most common side effect is stomach discomfort, including nausea, diarrhea, or acid reflux, especially at high doses.\n\n- **Increased risk of bleeding.** Turmeric has natural blood-thinning properties, which may increase the risk of bleeding and bruising.\n\n- **Iron absorption.** High doses of curcumin may interfere with iron absorption, potentially leading to anemia in susceptible individuals.\n\n- **Kidney stones.** Turmeric is rich in oxalates, which can bind to calcium and contribute to kidney stone formation in people prone to them.\n\n- **Lead contamination.** A serious concern is the potential presence of lead in turmeric powder from certain regions. It is important to purchase high-quality products from reliable sources.\n\n- **Pregnancy and hormonal effects.** Avoid high doses during pregnancy due to potential uterine stimulation.\n\n- **Drug interactions.** In addition to blood thinners, turmeric may interact with diabetes medications (enhancing their effect and lowering blood sugar too much) and acid-reducing drugs (such as omeprazole), potentially increasing acid production.",
       "ACCENT_COLOR": "#FFD30F",
-      "BG_COLOR": "#F4F5F8"
+      "BG_COLOR": "#F4F5F8",
+      "RIGHT_COLUMN": {
+      "CONTENT": "**How to make golden milk with turmeric**",
+      "VIDEO_URL": "https://www.youtube.com/embed/af8qk3O3GWs"
+      }
     },
     {
       "TITLE": "### What to combine it with?",
@@ -52,9 +56,8 @@
       "ACCENT_COLOR": "#FFD30F",
       "BG_COLOR": "",
       "RIGHT_COLUMN": {
-        "CONTENT": "Track your turmeric or curcumin intake in the **Vitamin** app by Martspec. Log dosages, receive reminders to take it with food, and monitor factors that affect absorption. All history is stored in one place and can be used during consultations with a specialist.",
-        "IMG_SRC": "/img/page/article/harmony-card.webp",
-        "IMG_ALT": "App screenshot"
+      "CONTENT": "**How to make golden milk with turmeric**",
+      "VIDEO_URL": "https://www.youtube.com/embed/af8qk3O3GWs"
       }
     }
   ],
