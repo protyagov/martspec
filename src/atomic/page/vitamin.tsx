@@ -36,7 +36,6 @@ interface VitaminGroup {
 const COMING_SOON_PAGES = new Set([
             "ASTRAGALUS",
             "TURKEY_TAIL",
-            "MACA",
             "FIREWEED_TEA",
             "CORDYCEPS_POWDER",
             "COCOA_POWDER",

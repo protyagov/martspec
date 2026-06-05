@@ -192,7 +192,7 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                   }}
                   className={`article-section ${
                     hasBg ? "article-section--with-bg" : ""
-                  }${hasRightColumn ? "article-section--two-column" : ""}`}
+                  }${hasRightColumn ? " article-section--two-column" : ""}`}
                 >
                   <div className="article-section__inner">
                     <div className="article-section__left">
