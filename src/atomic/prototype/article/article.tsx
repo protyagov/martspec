@@ -192,7 +192,9 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                   }}
                   className={`article-section ${
                     hasBg ? "article-section--with-bg" : ""
-                  }${hasRightColumn ? "article-section--two-column" : ""}`}
+                  }${hasRightColumn ? " article-section--two-column" : ""}${
+                    item.RIGHT_COLUMN?.VIDEO_URL ? " article-section--video" : ""
+                  }`}
                 >
                   <div className="article-section__inner">
                     <div className="article-section__left">
@@ -225,11 +227,27 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                       </ReactMarkdown>
                     </div>
                     {hasRightColumn && (
-                      <aside className="article-section__right">
+                      <aside
+                        className="article-section__right"
+                        style={item.RIGHT_COLUMN?.VIDEO_URL ? { alignSelf: 'start' } : undefined}
+                      >
                         {item.RIGHT_COLUMN?.CONTENT && (
                           <ReactMarkdown>
                             {item.RIGHT_COLUMN.CONTENT}
                           </ReactMarkdown>
+                        )}
+                        {item.RIGHT_COLUMN?.VIDEO_URL && (
+                          <div className="article-section__video-wrapper">
+                            <iframe
+                              className="article-section__right-video"
+                              src={item.RIGHT_COLUMN.VIDEO_URL}
+                              title="Video"
+                              allow="autoplay; encrypted-media"
+                              allowFullScreen
+                              width="100%" 
+                              height="100%"
+                            />
+                          </div>
                         )}
                         {item.RIGHT_COLUMN?.IMG_SRC && (
                           <img
