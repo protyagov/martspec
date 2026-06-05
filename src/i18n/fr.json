@@ -946,7 +946,7 @@
             "FACT_11": "Le zinc et le cuivre interfèrent dans l'absorption de l'un par l'autre, c'est pourquoi il est recommandé de les prendre à des moments différents, par exemple le matin et le soir",
             "FACT_12": "Aide à produire la mélanine, un pigment qui protège la rétine, et soutient la conversion de la vitamine A en une forme que l’œil peut utiliser"
         },
-        "CHAGA_MUSHROOM": {
+        "CHAGA": {
             "HEAD": "Chg",
             "NAME": "Champignon Chaga",
             "DESK": "Le Chaga est un champignon médicinal étonnant aux propriétés immunomodulatrices et antioxydantes prononcées."
@@ -1122,7 +1122,22 @@
         "ALT3_3": "Nous nous soucions de nos utilisateurs, c'est pourquoi nous n'utilisons aucune publicité intrusive dans l'application.",
         "ALT3_4": "Synchronisation avec le programme Apple Health - la meilleure base de toutes les vitamines et microéléments.",
         "BTN_MORE": "PLUS DE DÉTAILS",
-        "BTN_OPEN": "Soutien"
+        "BTN_OPEN": "Soutien",
+
+        "HEAD6": "Vérifiez votre taux de zinc à la maison",
+        "DESC6": "Vous pouvez évaluer votre taux de zinc sans laboratoire. Un test rapide au sulfate de zinc peut être réalisé à la maison en une minute — déposez simplement une petite quantité de sulfate de zinc liquide dans votre bouche et évaluez le goût.",
+        "HEAD7": "Ce que montre le test :",
+        "LIST3": {
+            "LI1_HEAD": "Aucun goût métallique",
+            "LI1_TEXT": "Probablement un faible taux de zinc",
+            "LI2_HEAD": "Léger goût métallique",
+            "LI2_TEXT": "Adéquat, mais peut être amélioré",
+            "LI3_HEAD": "Goût métallique retardé",
+            "LI3_TEXT": "Possible carence légère",
+            "LI4_HEAD": "Fort goût métallique",
+            "LI4_TEXT": "Probablement un taux de zinc optimal"
+        },
+        "DESC7": "C'est rapide, peu coûteux et étonnamment révélateur — une première étape simple pour comprendre un minéral qui joue un rôle crucial dans l'immunité, les hormones, le métabolisme et la récupération."
     },
     "SIZE": {
         "HEAD": "Belle Forme",

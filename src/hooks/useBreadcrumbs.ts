@@ -42,6 +42,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             adonis: _("SIZE.LIST.LI5_TEXT"),
             ashwagandha: _("VITAMIN.ASHWAGANDHA.NAME"),
             maca: _("VITAMIN.MACA.NAME"),
+            chaga: _("VITAMIN.CHAGA.NAME"),
 
         };
 

@@ -947,7 +947,7 @@
             "FACT_11": "O zinco e o cobre interferem na absorção um do outro, portanto, recomenda-se tomá-los em horários diferentes, como de manhã e à noite",
             "FACT_12": "Ajuda a produzir melanina, um pigmento que protege a retina, e apoia a conversão da vitamina A em uma forma que o olho pode usar"
         },
-        "CHAGA_MUSHROOM": {
+        "CHAGA": {
             "HEAD": "Chg",
             "NAME": "Cogumelo Chaga",
             "DESK": "Chaga é um cogumelo medicinal incrível com propriedades imunomoduladoras e antioxidantes pronunciadas."
@@ -1125,7 +1125,22 @@
         "ALT3_3": "Nos preocupamos com nossos usuários, por isso não utilizamos nenhuma publicidade intrusiva no aplicativo.",
         "ALT3_4": "Sincronização com o programa Apple Health - a melhor base de todas as vitaminas e microelementos.",
         "BTN_MORE": "MAIS DETALHES",
-        "BTN_OPEN": "Apoiar"
+        "BTN_OPEN": "Apoiar",
+
+        "HEAD6": "Verifique o seu nível de zinco em casa",
+        "DESC6": "Pode avaliar os seus níveis de zinco sem necessidade de um laboratório. Um teste rápido com sulfato de zinco pode ser feito em casa em um minuto — basta colocar uma pequena quantidade de sulfato de zinco líquido na boca e avaliar o sabor.",
+        "HEAD7": "O que o teste mostra:",
+        "LIST3": {
+            "LI1_HEAD": "Sem sabor metálico",
+            "LI1_TEXT": "Provavelmente um nível baixo de zinco",
+            "LI2_HEAD": "Sabor metálico leve",
+            "LI2_TEXT": "Adequado, mas pode ser melhorado",
+            "LI3_HEAD": "Sabor metálico retardado",
+            "LI3_TEXT": "Possível deficiência leve",
+            "LI4_HEAD": "Sabor metálico forte",
+            "LI4_TEXT": "Provavelmente um nível ideal de zinco"
+        },
+        "DESC7": "É rápido, económico e surpreendentemente revelador — um primeiro passo simples para compreender um mineral que desempenha um papel crucial na imunidade, nas hormonas, no metabolismo e na recuperação."
     },
     "SIZE": {
         "HEAD": "Medidas",

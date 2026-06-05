@@ -2,6 +2,7 @@ import React, { CSSProperties, useState, useEffect} from "react";
 import "@/sass/molecule/card-title-text-image-custom.scss";
 import TextLinkArrow from "@/atomic/molecule/text-link-arrow";
 import RightArrowIcon from "@/atomic/atom/right-arrow-icon";
+import BulletList from "@/atomic/molecule/bullet-list";
 
 interface ActionLink {
     text: string;
@@ -16,7 +17,7 @@ export interface BackgroundImage {
 
 interface CardTitleTextImageCustomProps {
     title?: string;
-    text?: string;
+    text?: string | string[];
     bgColor?: CSSProperties["color"];
     titleColor?: CSSProperties["color"];
     textColor?: CSSProperties["color"];
@@ -36,6 +37,8 @@ interface CardTitleTextImageCustomProps {
     primaryColor?: CSSProperties["color"];
     linkHoverColor?: CSSProperties["color"];
     mobileBreakpoint?: number;
+    bulletList?: boolean;
+    bulletColor?: CSSProperties["color"];
 }
 
 export default function CardTitleTextImageCustom({
@@ -60,6 +63,8 @@ export default function CardTitleTextImageCustom({
     primaryColor,
     linkHoverColor,
     mobileBreakpoint = 855,
+    bulletList = false,
+    bulletColor,
 }: CardTitleTextImageCustomProps): React.ReactNode {
     const [isMobile, setIsMobile] = useState(false);
     
@@ -98,16 +103,29 @@ export default function CardTitleTextImageCustom({
             >
                 {title}
             </h3>
-            <p
-                className="text mb-0  lh-sm"
-                style={{
-                    color: textColor,
-                    fontSize: textFontSize,
-                    fontFamily: textFontFam,
-                }}
-            >
-                {text}
-            </p>
+            {text && (
+                Array.isArray(text) ? (
+                    bulletList ? (
+                        <BulletList
+                            items={text}
+                            iconColor={bulletColor as string}
+                            className="bullet-list"
+                        />
+                    ) : (
+                        <ul className="mb-0">
+                            {text.map((item, index) => (
+                                <li key={index} className="mb-4" style={{ color: textColor, fontSize: textFontSize, fontFamily: textFontFam }}>
+                                    {item}
+                                </li>
+                            ))}
+                        </ul>
+                    )
+                ) : (
+                    <p className="text mb-0 lh-sm" style={{ color: textColor, fontSize: textFontSize, fontFamily: textFontFam }}>
+                        {text}
+                    </p>
+                )
+            )}
             </div>
             
             {actionLink && (
