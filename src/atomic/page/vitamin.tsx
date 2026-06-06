@@ -33,15 +33,7 @@ interface VitaminGroup {
     linkHoverColor: React.CSSProperties["color"];
     itemList: string[];
 }
-const COMING_SOON_PAGES = new Set([
-    "CHAGA_MUSHROOM",
-    "ASTRAGALUS",
-    "TURKEY_TAIL",
-    "MACA",
-    "CORDYCEPS_POWDER",
-    "COCOA_POWDER",
-    "KOMBUCHA",
-]);
+const COMING_SOON_PAGES = new Set(["ASTRAGALUS", "TURKEY_TAIL", "CORDYCEPS_POWDER", "COCOA_POWDER", "KOMBUCHA"]);
 const vitamins: VitaminGroup[] = [
     {
         groupName: "VITAMIN_FAT",
@@ -119,7 +111,7 @@ const vitamins: VitaminGroup[] = [
             "ACAI",
             "ASHWAGANDHA",
             "ASTRAGALUS",
-            "CHAGA_MUSHROOM",
+            "CHAGA",
             "COCOA_POWDER",
             "COLLAGEN",
             "KOMBUCHA",

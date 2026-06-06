@@ -41,6 +41,8 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             ginko: _("VITAMIN.GINKO.NAME"),
             adonis: _("SIZE.LIST.LI5_TEXT"),
             ashwagandha: _("VITAMIN.ASHWAGANDHA.NAME"),
+            maca: _("VITAMIN.MACA.NAME"),
+            chaga: _("VITAMIN.CHAGA.NAME"),
             fireweed: _("VITAMIN.FIREWEED.NAME"),
         };
 
