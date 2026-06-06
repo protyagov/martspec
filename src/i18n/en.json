@@ -27,15 +27,15 @@
                 "ALT": "How many downloads Martspec apps have received worldwide"
             }
         },
-        "ALT2": "Health care with Martspec products",  
-        "HEAD2": "Ready to simplify your life?",  
-        "LIST": {  
-            "LI1_HEAD": "Easy and clear: ",  
-            "LI1_TEXT": "Users around the world highly rate our apps for their user-friendly interface. Keep track of your health with Martspec products",  
-            "LI2_HEAD": "Health harmony: ",  
-            "LI2_TEXT": "Monitor your physical and mental state with our apps. Make informed decisions about your health",  
-            "LI3_HEAD": "Trusted technology: ",  
-            "LI3_TEXT": "Privacy protection is a fundamental human right. We integrate this principle into our products from the very beginning. Our apps do not collect your personal data or track your activities"  
+        "ALT2": "Health care with Martspec products",
+        "HEAD2": "Ready to simplify your life?",
+        "LIST": {
+            "LI1_HEAD": "Easy and clear: ",
+            "LI1_TEXT": "Users around the world highly rate our apps for their user-friendly interface. Keep track of your health with Martspec products",
+            "LI2_HEAD": "Health harmony: ",
+            "LI2_TEXT": "Monitor your physical and mental state with our apps. Make informed decisions about your health",
+            "LI3_HEAD": "Trusted technology: ",
+            "LI3_TEXT": "Privacy protection is a fundamental human right. We integrate this principle into our products from the very beginning. Our apps do not collect your personal data or track your activities"
         },
         "OUR_PRODUCTS": "Applications"
     },
@@ -52,9 +52,9 @@
         }
     },
     "BREADCRUMB": {
-      "HOME": "Home"
+        "HOME": "Home"
     },
-  "NAV": {
+    "NAV": {
         "APPS": "All devices",
         "ABOUT": "About Us",
         "WATCH": "Watches"
@@ -954,7 +954,7 @@
             "DESK": "Chaga is an amazing medicinal mushroom with pronounced immunomodulatory and antioxidant properties."
         },
         "TURMERIC": {
-            "HEAD": "Cur", 
+            "HEAD": "Cur",
             "NAME": "Curcumin",
             "DESK": "Turmeric is a powerful spice with many potential health benefits."
         },
@@ -998,7 +998,7 @@
             "NAME": "Maca",
             "DESK": "Maca is best known for its ability to support hormonal balance and reproductive health - it does this naturally, containing no plant hormones."
         },
-        "FIREWEED_TEA": {
+        "FIREWEED": {
             "HEAD": "Frw",
             "NAME": "Fireweed tea",
             "DESK": "It provides powerful support for gut and digestive health thanks to its unique combination of natural compounds."
@@ -1017,7 +1017,7 @@
             "HEAD": "Cmb",
             "NAME": "Kombucha tea mushroom",
             "DESK": "It promotes the restoration of the gut microbiome and improves nutrient absorption."
-  }
+        }
     },
     "WAIST": {
         "HEAD": "Waistline",
@@ -1025,7 +1025,7 @@
         "ICO": "Icon for the best waistline circumference tracking Apple Watch app. Full synchronization with Apple Health. Use easily without ADs, payments and registration.",
         "TEXT": "The easiest way to track waist circumference on Apple Watch. All records get synced to your Apple Health.",
         "BUTTON_OPEN": "Learn More",
-      "IMG": "Keep track of your waistline (belly button) directly from your arm",
+        "IMG": "Keep track of your waistline (belly button) directly from your arm",
         "DWN": "Download Free body waist app from the Apple AppStore",
         "ABOUT_1": "Quick and simple waist tracking",
         "ABOUT_2": "Effortless health monitoring",
@@ -1187,7 +1187,7 @@
             "HEAD": "Take Control of Your Body Mindfully",
             "DESC": "Personalize your progress tracking and achieve your goals with customizable measurements. Make your journey toward ideal health and fitness more mindful, accurate, and tailored to you"
         },
-            "LIST1": {
+        "LIST1": {
             "LI1_HEAD": "Body shape",
             "DESC1": "Weight may remain unchanged while simultaneously building muscle and losing fat. That's why your body shape better reflects health.",
             "LI2_HEAD": "Body type",
@@ -1260,34 +1260,34 @@
         "MEASUREMENTS_ITEM_2": "For people who find it important to track changes in specific body parts",
         "MEASUREMENTS_ITEM_3": "For users with individual goals, such as rehabilitation after injuries or achieving aesthetic results",
         "INDICATORS_LIST": {
-        "INDICATORS_HEAD": "Indicators",
-        "DESC": "View personalized indicators such as body shape, energy needs, BMI, and more.",
-        "HEAD2": "Somatotype",
-        "DESC2": "The hereditary program for the development of bone, fat and muscle tissue, as well as the speed and level of metabolism in the body",
-        "HEAD3": "Body Type",
-        "DESC3": "Classification of human body build based on body proportions, weight distribution and overall shapes",
-        "HEAD4": "Fat",
-        "DESC4": "Excess or deficiency of adipose tissue can negatively affect health, hormonal levels and overall well-being",
-        "HEAD5": "Waist-to-Height Ratio",
-        "DESC5": "Waist-to-Height Ratio. This index determines the distribution of fat in the body and is a better indicator of the risk of cardiovascular disease, diabetes and stroke than BMI",
-        "HEAD6": "Body Mass Index",
-        "DESC6": "This is the classic indicator of body fat, based on height and weight. BMI is used to classify a person's weight",
-        "HEAD7": "Metrics",
-        "DESC7": "Indicators that help track physical condition and progress towards goals",
-        "HEAD8": "Water",
-        "DESC8": "Regular water consumption is vital for maintaining health. It is recommended to drink about 30-40 ml of water per kilogram of body weight per day",
-        "HEAD9": "Waist-to-Hip Ratio",
-        "DESC9": "Waist-to-Hip Ratio. Higher numbers mean more fat around the waist. Waist-to-Hip Ratio is a measure of body shape and an assessment of health risks",
-        "HEAD10": "Fullness",
-        "DESC10": "This is a measure of body composition, a measure of obesity, the relationship between mass and height",
-        "HEAD11": "Energy",
-        "DESC11": "Resting Metabolic Rate. This is the amount of calories that you burn when your body performs basic life-sustaining functions",
-        "HEAD12": "Body Surface Area",
-        "DESC12": "Body surface area in m². Body Surface Area may be a better indicator of metabolic mass than body weight because it is less affected by abnormal fat mass",
-        "HEAD13": "Adonis Index",
-        "DESC13": "The most important ratio for the overall appearance of the body and the key to the perception of beauty and attractiveness",
-        "BTN": "Go"
-    }
+            "INDICATORS_HEAD": "Indicators",
+            "DESC": "View personalized indicators such as body shape, energy needs, BMI, and more.",
+            "HEAD2": "Somatotype",
+            "DESC2": "The hereditary program for the development of bone, fat and muscle tissue, as well as the speed and level of metabolism in the body",
+            "HEAD3": "Body Type",
+            "DESC3": "Classification of human body build based on body proportions, weight distribution and overall shapes",
+            "HEAD4": "Fat",
+            "DESC4": "Excess or deficiency of adipose tissue can negatively affect health, hormonal levels and overall well-being",
+            "HEAD5": "Waist-to-Height Ratio",
+            "DESC5": "Waist-to-Height Ratio. This index determines the distribution of fat in the body and is a better indicator of the risk of cardiovascular disease, diabetes and stroke than BMI",
+            "HEAD6": "Body Mass Index",
+            "DESC6": "This is the classic indicator of body fat, based on height and weight. BMI is used to classify a person's weight",
+            "HEAD7": "Metrics",
+            "DESC7": "Indicators that help track physical condition and progress towards goals",
+            "HEAD8": "Water",
+            "DESC8": "Regular water consumption is vital for maintaining health. It is recommended to drink about 30-40 ml of water per kilogram of body weight per day",
+            "HEAD9": "Waist-to-Hip Ratio",
+            "DESC9": "Waist-to-Hip Ratio. Higher numbers mean more fat around the waist. Waist-to-Hip Ratio is a measure of body shape and an assessment of health risks",
+            "HEAD10": "Fullness",
+            "DESC10": "This is a measure of body composition, a measure of obesity, the relationship between mass and height",
+            "HEAD11": "Energy",
+            "DESC11": "Resting Metabolic Rate. This is the amount of calories that you burn when your body performs basic life-sustaining functions",
+            "HEAD12": "Body Surface Area",
+            "DESC12": "Body surface area in m². Body Surface Area may be a better indicator of metabolic mass than body weight because it is less affected by abnormal fat mass",
+            "HEAD13": "Adonis Index",
+            "DESC13": "The most important ratio for the overall appearance of the body and the key to the perception of beauty and attractiveness",
+            "BTN": "Go"
+        }
     },
     "EMOTION": {
         "HEAD": "Emotion",
@@ -1313,7 +1313,7 @@
             "DESC3": "The test takes less than a minute and immediately provides ready results",
             "LI4_HEAD": "Detailed Diagnostics",
             "DESC4": "Shows the causes of the current state by categories, the actual situation and expectations"
-            },
+        },
         "HEAD2": "Biorhythms",
         "DESK2": "Know your biorhythm peaks and critical days. Use your internal resources as efficiently as possible. Recognize when energy conservation and rest is most needed. A proper assessment of your abilities can lead to efficient energy use and prevent potential problems.",
         "BTN_BIORHYTHM": "Learn More",
@@ -1565,7 +1565,7 @@
         "SUBHEAD": "Calcium tracker for watch",
         "TEXT": "Simple calcium tracking, directly on your wrist. Watch complication widgets and Apple Health sync make it easy. Clean design, zero ads, no logins required.",
         "BUTTON_OPEN": "Fortify Bones",
-        "LIST1":{
+        "LIST1": {
             "LI1_HEAD": "Caring for Your Health",
             "DESC1": "Monitor your body's calcium levels with our app to maintain health every day and effortlessly track daily intake",
             "LI2_HEAD": "Advanced Watch Faces",
@@ -1579,7 +1579,7 @@
         "DESC2_3": "Helps transmit nerve impulses, ensuring normal brain function and nervous system stability.",
         "DESC2_4": "Participates in blood clotting processes, which is vital for wound healing and preventing bleeding.",
         "BTN_MORE": "Learn more"
-            },
+    },
     "IRON": {
         "HEAD": "Iron",
         "HEAD1": "Our Advantages",
@@ -2214,4 +2214,3 @@
         }
     }
 }
-

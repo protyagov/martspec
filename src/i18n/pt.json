@@ -52,7 +52,7 @@
         }
     },
     "BREADCRUMB": {
-      "HOME": "Início"
+        "HOME": "Início"
     },
     "NAV": {
         "APPS": "Todos os dispositivos",
@@ -997,7 +997,7 @@
             "NAME": "Maca",
             "DESK": "A maca é mais conhecida por sua capacidade de apoiar o equilíbrio hormonal e a saúde reprodutiva - ela faz isso naturalmente, não contendo hormônios vegetais."
         },
-        "FIREWEED_TEA": {
+        "FIREWEED": {
             "HEAD": "Frw",
             "NAME": "Chá de Fireweed",
             "DESK": "Fornece um suporte poderoso para a saúde intestinal e digestiva graças à sua combinação única de compostos naturais."
@@ -1085,7 +1085,7 @@
         "ICO": "Ícone do nosso aplicativo Apple Watch gratuito que ajuda você a monitorar o consumo de zinco. Faça registros sobre o zinco na dieta de seus Apple Watches e sincronize com o app Saúde da Apple. Não é necessário um aplicativo complementar para iPhone para funcionar. Zero anúncios.",
         "TEXT": "Bonito em sua simplicidade rastreador de zinco no corpo para o seu relógio. app Saúde da Apple ativado. Resultados reais. Livre. Zero anúncios.",
         "TEXT1": "Um rastreador de níveis de zinco para o seu corpo, desenvolvido para Apple Watch. Sincroniza com o Apple Health. Entrada de dados fácil. Funciona gratuitamente e sem anúncios.",
-         "BUTTON_OPEN": "Saiba mais",
+        "BUTTON_OPEN": "Saiba mais",
         "BTN": "Descubra bem-estar",
         "IMG": "Acompanhe seu consumo diário de suplemento de zinco",
         "DWN": "Obtenha gratuitamente o aplicativo BodyZinc da Apple Store",
@@ -1189,7 +1189,7 @@
             "HEAD": "Assuma o Controle do seu Corpo com Consciência",
             "DESC": "Personalize o acompanhamento do seu progresso e alcance seus objetivos com medições sob medida. Torne sua jornada rumo à saúde e ao condicionamento físico ideal mais consciente, precisa e feita especialmente para você"
         },
-            "LIST1": {
+        "LIST1": {
             "LI1_HEAD": "Forma do corpo",
             "DESC1": "O peso pode permanecer inalterado enquanto ganha massa muscular e perde gordura. Por isso a forma do seu corpo reflete melhor a saúde.",
             "LI2_HEAD": "Tipo corporal",
@@ -1262,34 +1262,34 @@
         "MEASUREMENTS_ITEM_2": "Para pessoas para quem é importante acompanhar mudanças em partes específicas do corpo",
         "MEASUREMENTS_ITEM_3": "Para usuários com objetivos individuais, como reabilitação após lesões ou alcance de resultados estéticos",
         "INDICATORS_LIST": {
-        "INDICATORS_HEAD": "Indicadores",
-        "DESC": "Visualize indicadores personalizados como forma corporal, necessidades energéticas, IMC e muito mais.",
-        "HEAD2": "Somatotipo",
-        "DESC2": "O programa hereditário para o desenvolvimento de tecido ósseo, adiposo e muscular, bem como a velocidade e o nível do metabolismo no corpo",
-        "HEAD3": "Tipo de Corpo",
-        "DESC3": "Classificação da constituição corporal humana com base nas proporções corporais, distribuição de peso e formas gerais",
-        "HEAD4": "Gordura",
-        "DESC4": "Excesso ou deficiência de tecido adiposo pode afetar negativamente a saúde, os níveis hormonais e o bem-estar geral",
-        "HEAD5": "Relação Cintura/Altura",
-        "DESC5": "Relação Cintura/Altura. Este índice determina a distribuição de gordura no corpo e é um indicador melhor do risco de doenças cardiovasculares, diabetes e AVC do que o IMC",
-        "HEAD6": "Índice de Massa Corporal",
-        "DESC6": "Este é o indicador clássico de gordura corporal, baseado na altura e no peso. O IMC é usado para classificar o peso de uma pessoa",
-        "HEAD7": "Métricas",
-        "DESC7": "Indicadores que ajudam a acompanhar a condição física e o progresso em direção aos objetivos",
-        "HEAD8": "Água",
-        "DESC8": "O consumo regular de água é vital para manter a saúde. Recomenda-se beber cerca de 30-40 ml de água por quilograma de peso corporal por dia",
-        "HEAD9": "Relação Cintura/Quadril",
-        "DESC9": "Relação Cintura/Quadril. Números mais altos significam mais gordura ao redor da cintura. A Relação Cintura/Quadril é uma medida da forma corporal e uma avaliação de riscos à saúde",
-        "HEAD10": "Plenitude",
-        "DESC10": "Esta é uma medida da composição corporal, uma medida de obesidade, a relação entre massa e altura",
-        "HEAD11": "Energia",
-        "DESC11": "Taxa Metabólica Basal. Esta é a quantidade de calorias que você queima quando seu corpo executa funções básicas de sustentação da vida",
-        "HEAD12": "Superfície Corporal",
-        "DESC12": "Área de superfície corporal em m². A Superfície Corporal pode ser um indicador melhor da massa metabólica do que o peso corporal, porque é menos afetada pela massa gorda anormal",
-        "HEAD13": "Índice de Adônis",
-        "DESC13": "A proporção mais importante para a aparência geral do corpo e a chave para a percepção de beleza e atratividade",
-        "BTN": "Ir"
-    }
+            "INDICATORS_HEAD": "Indicadores",
+            "DESC": "Visualize indicadores personalizados como forma corporal, necessidades energéticas, IMC e muito mais.",
+            "HEAD2": "Somatotipo",
+            "DESC2": "O programa hereditário para o desenvolvimento de tecido ósseo, adiposo e muscular, bem como a velocidade e o nível do metabolismo no corpo",
+            "HEAD3": "Tipo de Corpo",
+            "DESC3": "Classificação da constituição corporal humana com base nas proporções corporais, distribuição de peso e formas gerais",
+            "HEAD4": "Gordura",
+            "DESC4": "Excesso ou deficiência de tecido adiposo pode afetar negativamente a saúde, os níveis hormonais e o bem-estar geral",
+            "HEAD5": "Relação Cintura/Altura",
+            "DESC5": "Relação Cintura/Altura. Este índice determina a distribuição de gordura no corpo e é um indicador melhor do risco de doenças cardiovasculares, diabetes e AVC do que o IMC",
+            "HEAD6": "Índice de Massa Corporal",
+            "DESC6": "Este é o indicador clássico de gordura corporal, baseado na altura e no peso. O IMC é usado para classificar o peso de uma pessoa",
+            "HEAD7": "Métricas",
+            "DESC7": "Indicadores que ajudam a acompanhar a condição física e o progresso em direção aos objetivos",
+            "HEAD8": "Água",
+            "DESC8": "O consumo regular de água é vital para manter a saúde. Recomenda-se beber cerca de 30-40 ml de água por quilograma de peso corporal por dia",
+            "HEAD9": "Relação Cintura/Quadril",
+            "DESC9": "Relação Cintura/Quadril. Números mais altos significam mais gordura ao redor da cintura. A Relação Cintura/Quadril é uma medida da forma corporal e uma avaliação de riscos à saúde",
+            "HEAD10": "Plenitude",
+            "DESC10": "Esta é uma medida da composição corporal, uma medida de obesidade, a relação entre massa e altura",
+            "HEAD11": "Energia",
+            "DESC11": "Taxa Metabólica Basal. Esta é a quantidade de calorias que você queima quando seu corpo executa funções básicas de sustentação da vida",
+            "HEAD12": "Superfície Corporal",
+            "DESC12": "Área de superfície corporal em m². A Superfície Corporal pode ser um indicador melhor da massa metabólica do que o peso corporal, porque é menos afetada pela massa gorda anormal",
+            "HEAD13": "Índice de Adônis",
+            "DESC13": "A proporção mais importante para a aparência geral do corpo e a chave para a percepção de beleza e atratividade",
+            "BTN": "Ir"
+        }
     },
     "EMOTION": {
         "HEAD": "Emoção",
@@ -1315,7 +1315,7 @@
             "DESC3": "O teste é realizado em menos de um minuto e fornece resultados prontos imediatamente",
             "LI4_HEAD": "Diagnóstico detalhado",
             "DESC4": "Mostra as causas do estado atual por categorias, a situação real e as expectativas"
-            },
+        },
         "HEAD2": "Biorritmos",
         "DESK2": "Conheça seus picos de biorritmo e dias críticos. Use seus recursos internos da maneira mais eficiente possível. Reconheça quando a conservação de energia e o descanso são mais necessários. Uma avaliação adequada de suas habilidades pode levar ao uso eficiente de energia e evitar problemas potenciais.",
         "BTN_BIORHYTHM": "Saiba Mais",
@@ -1567,7 +1567,7 @@
         "SUBHEAD": "Rastreador de cálcio para relógio",
         "TEXT": "Rastreamento simples de cálcio diretamente no seu pulso. Widgets para o relógio e sincronização com o Apple Health tornam isso conveniente. Design limpo, sem anúncios e sem necessidade de login.",
         "BUTTON_OPEN": "Fortaleça ossos",
-        "LIST1":{
+        "LIST1": {
             "LI1_HEAD": "Cuidar da Sua Saúde",
             "DESC1": "Controle os níveis de cálcio no seu corpo com a nossa aplicação para manter a saúde todos os dias e monitorizar sem esforço o consumo diário",
             "LI2_HEAD": "Mostradores de Relógio Avançados",

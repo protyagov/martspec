@@ -41,7 +41,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             ginko: _("VITAMIN.GINKO.NAME"),
             adonis: _("SIZE.LIST.LI5_TEXT"),
             ashwagandha: _("VITAMIN.ASHWAGANDHA.NAME"),
-            fireweed: _("VITAMIN.FIREWEED_TEA.NAME"),
+            fireweed: _("VITAMIN.FIREWEED.NAME"),
         };
 
         const items: BreadcrumbItem[] = cleanPath.map((segment, index) => {

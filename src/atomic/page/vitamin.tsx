@@ -125,7 +125,7 @@ const vitamins: VitaminGroup[] = [
             "KOMBUCHA",
             "CORDYCEPS_POWDER",
             "TURMERIC",
-            "FIREWEED_TEA",
+            "FIREWEED",
             "GINKO",
             "LION",
             "MACA",
