@@ -27,16 +27,16 @@
                 "ALT": "Wie viele Downloads haben Martspec-Apps weltweit erhalten"
             }
         },
-        "ALT2": "Gesundheitsfürsorge mit den Produkten von Martspec",  
-        "HEAD2": "Bereit, dein Leben zu vereinfachen?",  
-        "LIST": {  
-            "LI1_HEAD": "Einfach und verständlich: ",  
-            "LI1_TEXT": "Nutzer auf der ganzen Welt bewerten unsere Apps hoch für ihre benutzerfreundliche Oberfläche. Behalte deine Gesundheit im Blick mit den Produkten von Martspec",  
-            "LI2_HEAD": "Gesundheit in Harmonie: ",  
-            "LI2_TEXT": "Verfolge deinen körperlichen und mentalen Zustand mit unseren Apps. Triff fundierte Entscheidungen über deine Gesundheit",  
-            "LI3_HEAD": "Vertrauenswürdige Technologien: ",  
-            "LI3_TEXT": "Der Schutz der Privatsphäre ist ein grundlegendes Menschenrecht. Wir integrieren dieses Prinzip von Anfang an in unsere Produkte. Unsere Apps sammeln keine persönlichen Daten und verfolgen dein Verhalten nicht" 
-        },  
+        "ALT2": "Gesundheitsfürsorge mit den Produkten von Martspec",
+        "HEAD2": "Bereit, dein Leben zu vereinfachen?",
+        "LIST": {
+            "LI1_HEAD": "Einfach und verständlich: ",
+            "LI1_TEXT": "Nutzer auf der ganzen Welt bewerten unsere Apps hoch für ihre benutzerfreundliche Oberfläche. Behalte deine Gesundheit im Blick mit den Produkten von Martspec",
+            "LI2_HEAD": "Gesundheit in Harmonie: ",
+            "LI2_TEXT": "Verfolge deinen körperlichen und mentalen Zustand mit unseren Apps. Triff fundierte Entscheidungen über deine Gesundheit",
+            "LI3_HEAD": "Vertrauenswürdige Technologien: ",
+            "LI3_TEXT": "Der Schutz der Privatsphäre ist ein grundlegendes Menschenrecht. Wir integrieren dieses Prinzip von Anfang an in unsere Produkte. Unsere Apps sammeln keine persönlichen Daten und verfolgen dein Verhalten nicht"
+        },
         "OUR_PRODUCTS": "Anwendungen"
     },
     "REVIEW": {
@@ -52,9 +52,9 @@
         }
     },
     "BREADCRUMB": {
-      "HOME": "Startseite"
+        "HOME": "Startseite"
     },
-  "NAV": {
+    "NAV": {
         "APPS": "Alle Geräte",
         "ABOUT": "Über uns",
         "WATCH": "Uhren"
@@ -267,7 +267,7 @@
             "NAME": "Nahrungsergänzungsmittel",
             "SHORT": "Zusatz"
         },
-                "CONTENT": {
+        "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",
                 "VITAMIN_WATER": "Vitamin",
@@ -995,7 +995,7 @@
             "NAME": "Maca",
             "DESK": "Maca ist am besten für seine Fähigkeit bekannt, das hormonelle Gleichgewicht und die reproduktive Gesundheit zu unterstützen - und das auf natürliche Weise, da es keine Pflanzenhormone enthält."
         },
-        "FIREWEED_TEA": {
+        "FIREWEED": {
             "HEAD": "Frw",
             "NAME": "Weidenröschen-Tee",
             "DESK": "Er bietet eine starke Unterstützung für die Darm- und Verdauungsgesundheit dank seiner einzigartigen Kombination natürlicher Verbindungen."
@@ -1022,7 +1022,7 @@
         "ICO": "Symbol für die beste Apple Watch-App zur Verfolgung des Taillenumfangs. Vollständige Synchronisierung mit die Health App. Einfache Nutzung ohne Anzeigen, Zahlungen und Registrierung.",
         "TEXT": "Der einfachste Weg, um den Taillenumfang auf der Apple Watch zu verfolgen. Alle Datensätze werden mit Ihrer die Health App synchronisiert.",
         "BUTTON_OPEN": "Mehr erfahren",
-      "IMG": "Behalten Sie Ihre Taillengröße (Bauchnabel) direkt von Ihrem Arm aus im Auge",
+        "IMG": "Behalten Sie Ihre Taillengröße (Bauchnabel) direkt von Ihrem Arm aus im Auge",
         "DWN": "Laden Sie die kostenlose Taillen-App aus dem Apple App Store herunter",
         "ABOUT_1": "Praktisches und einfaches Taillentagebuch",
         "ABOUT_2": "Beobachten Sie Ihre Gesundheit",
@@ -1187,7 +1187,7 @@
             "HEAD": "Übernehmen Sie bewusst die Kontrolle über Ihren Körper",
             "DESC": "Personalisieren Sie Ihre Fortschrittsverfolgung und erreichen Sie Ihre Ziele mit anpassbaren Messungen. Gestalten Sie Ihren Weg zu optimaler Gesundheit und Fitness bewusster, präziser und individueller"
         },
-            "LIST1": {
+        "LIST1": {
             "LI1_HEAD": "Körperform",
             "DESC1": "Das Gewicht kann unverändert bleiben, während gleichzeitig Muskeln aufgebaut und Fett abgebaut werden. Deshalb spiegelt Ihre Körperform die Gesundheit besser wider.",
             "LI2_HEAD": "Körpertyp",
@@ -1260,34 +1260,34 @@
         "MEASUREMENTS_ITEM_2": "Für Menschen, denen es wichtig ist, Veränderungen in bestimmten Körperpartien zu verfolgen",
         "MEASUREMENTS_ITEM_3": "Für Benutzer mit individuellen Zielen, wie Rehabilitation nach Verletzungen oder das Erreichen ästhetischer Ergebnisse",
         "INDICATORS_LIST": {
-        "INDICATORS_HEAD": "Indikatoren",
-        "DESC": "Sehen Sie sich personalisierte Indikatoren wie Körperform, Energiebedarf, BMI und mehr an.",
-        "HEAD2": "Somatotyp",
-        "DESC2": "Das erbliche Programm für die Entwicklung von Knochen-, Fett- und Muskelgewebe sowie die Geschwindigkeit und das Niveau des Stoffwechsels im Körper",
-        "HEAD3": "Körperform-Typ",
-        "DESC3": "Klassifizierung des menschlichen Körperbaus basierend auf Körperproportionen, Gewichtsverteilung und allgemeinen Formen",
-        "HEAD4": "Fett",
-        "DESC4": "Überschuss oder Mangel an Fettgewebe kann sich negativ auf Gesundheit, Hormonspiegel und allgemeines Wohlbefinden auswirken",
-        "HEAD5": "Taillen-Größen-Verhältnis",
-        "DESC5": "Taillen-Größen-Verhältnis. Dieser Index bestimmt die Fettverteilung im Körper und ist ein besserer Indikator für das Risiko von Herz-Kreislauf-Erkrankungen, Diabetes und Schlaganfall als der BMI",
-        "HEAD6": "Body-Mass-Index",
-        "DESC6": "Dies ist der klassische Indikator für Körperfett, basierend auf Größe und Gewicht. Der BMI wird zur Klassifizierung des Gewichts einer Person verwendet",
-        "HEAD7": "Metriken",
-        "DESC7": "Indikatoren, die helfen, den körperlichen Zustand und den Fortschritt bei der Zielerreichung zu verfolgen",
-        "HEAD8": "Wasser",
-        "DESC8": "Regelmäßiger Wasserkonsum ist entscheidend für die Gesundheit. Es wird empfohlen, täglich etwa 30-40 ml Wasser pro Kilogramm Körpergewicht zu trinken",
-        "HEAD9": "Taillen-Hüft-Verhältnis",
-        "DESC9": "Taillen-Hüft-Verhältnis. Höhere Werte bedeuten mehr Fett um die Taille. Das Taillen-Hüft-Verhältnis ist ein Maß für die Körperform und eine Bewertung von Gesundheitsrisiken",
-        "HEAD10": "Vollheit",
-        "DESC10": "Dies ist ein Maß für die Körperzusammensetzung, ein Maß für Fettleibigkeit, das Verhältnis zwischen Masse und Größe",
-        "HEAD11": "Energie",
-        "DESC11": "Ruhestoffwechselrate. Dies ist die Menge an Kalorien, die Sie verbrennen, wenn Ihr Körper grundlegende lebenserhaltende Funktionen ausführt",
-        "HEAD12": "Körperoberfläche",
-        "DESC12": "Körperoberfläche in m². Die Körperoberfläche kann ein besserer Indikator für die metabolische Masse als das Körpergewicht sein, da sie weniger von abnormaler Fettmasse beeinflusst wird",
-        "HEAD13": "Adonis-Index",
-        "DESC13": "Das wichtigste Verhältnis für das Gesamterscheinungsbild des Körpers und der Schlüssel zur Wahrnehmung von Schönheit und Attraktivität",
-        "BTN": "Weiter"
-    }
+            "INDICATORS_HEAD": "Indikatoren",
+            "DESC": "Sehen Sie sich personalisierte Indikatoren wie Körperform, Energiebedarf, BMI und mehr an.",
+            "HEAD2": "Somatotyp",
+            "DESC2": "Das erbliche Programm für die Entwicklung von Knochen-, Fett- und Muskelgewebe sowie die Geschwindigkeit und das Niveau des Stoffwechsels im Körper",
+            "HEAD3": "Körperform-Typ",
+            "DESC3": "Klassifizierung des menschlichen Körperbaus basierend auf Körperproportionen, Gewichtsverteilung und allgemeinen Formen",
+            "HEAD4": "Fett",
+            "DESC4": "Überschuss oder Mangel an Fettgewebe kann sich negativ auf Gesundheit, Hormonspiegel und allgemeines Wohlbefinden auswirken",
+            "HEAD5": "Taillen-Größen-Verhältnis",
+            "DESC5": "Taillen-Größen-Verhältnis. Dieser Index bestimmt die Fettverteilung im Körper und ist ein besserer Indikator für das Risiko von Herz-Kreislauf-Erkrankungen, Diabetes und Schlaganfall als der BMI",
+            "HEAD6": "Body-Mass-Index",
+            "DESC6": "Dies ist der klassische Indikator für Körperfett, basierend auf Größe und Gewicht. Der BMI wird zur Klassifizierung des Gewichts einer Person verwendet",
+            "HEAD7": "Metriken",
+            "DESC7": "Indikatoren, die helfen, den körperlichen Zustand und den Fortschritt bei der Zielerreichung zu verfolgen",
+            "HEAD8": "Wasser",
+            "DESC8": "Regelmäßiger Wasserkonsum ist entscheidend für die Gesundheit. Es wird empfohlen, täglich etwa 30-40 ml Wasser pro Kilogramm Körpergewicht zu trinken",
+            "HEAD9": "Taillen-Hüft-Verhältnis",
+            "DESC9": "Taillen-Hüft-Verhältnis. Höhere Werte bedeuten mehr Fett um die Taille. Das Taillen-Hüft-Verhältnis ist ein Maß für die Körperform und eine Bewertung von Gesundheitsrisiken",
+            "HEAD10": "Vollheit",
+            "DESC10": "Dies ist ein Maß für die Körperzusammensetzung, ein Maß für Fettleibigkeit, das Verhältnis zwischen Masse und Größe",
+            "HEAD11": "Energie",
+            "DESC11": "Ruhestoffwechselrate. Dies ist die Menge an Kalorien, die Sie verbrennen, wenn Ihr Körper grundlegende lebenserhaltende Funktionen ausführt",
+            "HEAD12": "Körperoberfläche",
+            "DESC12": "Körperoberfläche in m². Die Körperoberfläche kann ein besserer Indikator für die metabolische Masse als das Körpergewicht sein, da sie weniger von abnormaler Fettmasse beeinflusst wird",
+            "HEAD13": "Adonis-Index",
+            "DESC13": "Das wichtigste Verhältnis für das Gesamterscheinungsbild des Körpers und der Schlüssel zur Wahrnehmung von Schönheit und Attraktivität",
+            "BTN": "Weiter"
+        }
     },
     "EMOTION": {
         "HEAD": "Emotion",
@@ -1313,7 +1313,7 @@
             "DESC3": "Der Test dauert weniger als eine Minute und liefert sofort fertige Ergebnisse",
             "LI4_HEAD": "Detaillierte Diagnose",
             "DESC4": "Zeigt die Ursachen des aktuellen Zustands nach Kategorien, die tatsächliche Situation und Erwartungen"
-            },
+        },
         "HEAD2": "Biorhythmen",
         "DESK2": "Kennen Sie Ihre Biorhythmus-Höhepunkte und kritischen Tage. Nutzen Sie Ihre internen Ressourcen so effizient wie möglich. Erkennen Sie, wann Energieeinsparung und Ruhe am dringendsten benötigt werden. Eine ordnungsgemäße Bewertung Ihrer Fähigkeiten kann zu einer effizienten Nutzung von Energie führen und mögliche Probleme verhindern.",
         "BTN_BIORHYTHM": "Erfahren Sie mehr",
@@ -1565,7 +1565,7 @@
         "SUBHEAD": "Calcium-Tracker für die Uhr",
         "TEXT": "Einfache Calciumverfolgung direkt am Handgelenk. Uhr-Widgets und Synchronisierung mit Apple Health machen es praktisch. Sauberes Design, keine Werbung und keine Anmeldung erforderlich.",
         "BUTTON_OPEN": "Knochen stärken",
-        "LIST1":{
+        "LIST1": {
             "LI1_HEAD": "Sorge um Ihre Gesundheit",
             "DESC1": "Überwachen Sie den Kalziumspiegel in Ihrem Körper mit unserer App, um jeden Tag gesund zu bleiben und Ihre tägliche Aufnahme mühelos zu verfolgen",
             "LI2_HEAD": "Erweiterte Zifferblätter",
@@ -2214,4 +2214,3 @@
         }
     }
 }
-

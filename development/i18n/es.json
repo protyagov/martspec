@@ -27,16 +27,16 @@
                 "ALT": "Cuántas descargas han recibido las aplicaciones de Martspec en todo el mundo"
             }
         },
-        "ALT2": "Cuidado de la salud con los productos de Martspec",  
-        "HEAD2": "¿Listo para simplificar tu vida?",  
-        "LIST": {  
-            "LI1_HEAD": "Fácil y claro: ",  
-            "LI1_TEXT": "Usuarios de todo el mundo califican altamente nuestras aplicaciones por su interfaz fácil de usar. Cuida tu salud con los productos de Martspec",  
-            "LI2_HEAD": "Armonía en la salud: ",  
-            "LI2_TEXT": "Monitorea tu estado físico y mental con nuestras aplicaciones. Toma decisiones informadas sobre tu salud",  
-            "LI3_HEAD": "Tecnología de confianza: ",  
-            "LI3_TEXT": "La protección de la privacidad es un derecho humano fundamental. Integramos este principio en nuestros productos desde el inicio. Nuestras aplicaciones no recopilan tus datos personales ni rastrean tus actividades"  
-        },  
+        "ALT2": "Cuidado de la salud con los productos de Martspec",
+        "HEAD2": "¿Listo para simplificar tu vida?",
+        "LIST": {
+            "LI1_HEAD": "Fácil y claro: ",
+            "LI1_TEXT": "Usuarios de todo el mundo califican altamente nuestras aplicaciones por su interfaz fácil de usar. Cuida tu salud con los productos de Martspec",
+            "LI2_HEAD": "Armonía en la salud: ",
+            "LI2_TEXT": "Monitorea tu estado físico y mental con nuestras aplicaciones. Toma decisiones informadas sobre tu salud",
+            "LI3_HEAD": "Tecnología de confianza: ",
+            "LI3_TEXT": "La protección de la privacidad es un derecho humano fundamental. Integramos este principio en nuestros productos desde el inicio. Nuestras aplicaciones no recopilan tus datos personales ni rastrean tus actividades"
+        },
         "OUR_PRODUCTS": "Aplicaciones"
     },
     "REVIEW": {
@@ -52,9 +52,9 @@
         }
     },
     "BREADCRUMB": {
-      "HOME": "Inicio"
+        "HOME": "Inicio"
     },
-  "NAV": {
+    "NAV": {
         "APPS": "Todos los dispositivos",
         "ABOUT": "Sobre nosotros",
         "WATCH": "Relojes"
@@ -173,7 +173,7 @@
         "ICO": "Ícono de la mejor aplicación de seguimiento de vitaminas y minerales para su Apple Watch, iPhone y iPad. Se sincroniza a la perfección con La app Salud. Cero anuncios.",
         "TEXT": "El seguimiento de sus vitaminas esenciales tiene muchos beneficios, desde ayudar a controlar las intolerancias alimentarias hasta aumentar la energía, evitar cambios de humor y estimular el ritmo de su día.",
         "BUTTON_OPEN": "Saber más",
-      "IMG": "Realice un seguimiento de las vitaminas más esenciales directamente en su muñeca",
+        "IMG": "Realice un seguimiento de las vitaminas más esenciales directamente en su muñeca",
         "HEAD1": "Nutrientes",
         "SUBHEAD1": "Rastreador de nutrientes y medicamentos",
         "SUBHEAD2": "Seguidor de nutrientes",
@@ -996,7 +996,7 @@
             "NAME": "Maca",
             "DESK": "La maca es más conocida por su capacidad para apoyar el equilibrio hormonal y la salud reproductiva; lo hace de forma natural, sin contener hormonas vegetales."
         },
-        "FIREWEED_TEA": {
+        "FIREWEED": {
             "HEAD": "Frw",
             "NAME": "Té de Epilobio",
             "DESK": "Proporciona un apoyo poderoso para la salud intestinal y digestiva gracias a su combinación única de compuestos naturales."
@@ -1023,7 +1023,7 @@
         "ICO": "Ícono de la mejor aplicación de Apple Watch para rastrear la circunferencia de la cintura. Sincronización completa con La app Salud. Úselo fácilmente sin anuncios, pagos y registro.",
         "TEXT": "La forma más sencilla de realizar un seguimiento de la circunferencia de la cintura en el Apple Watch. Todos los registros se sincronizan con su app Salud de Apple.",
         "BUTTON_OPEN": "Saber más",
-      "IMG": "Lleve un registro del tamaño de su cintura (ombligo) directamente desde su brazo",
+        "IMG": "Lleve un registro del tamaño de su cintura (ombligo) directamente desde su brazo",
         "DWN": "Descargue la aplicación de cintura gratuita desde la App Store de Apple",
         "ABOUT_1": "Un diario de medida de cintura conveniente y sencillo",
         "ABOUT_2": "Observe su salud",
@@ -1185,7 +1185,7 @@
             "HEAD": "Toma Control de tu Cuerpo de Forma Consciente",
             "DESC": "Personaliza el seguimiento de tu progreso y alcanza tus metas con mediciones adaptadas a ti. Haz que tu camino hacia la salud y forma física ideal sea más consciente, preciso y diseñado para ti"
         },
-            "LIST1": {
+        "LIST1": {
             "LI1_HEAD": "Forma corporal",
             "DESC1": "El peso puede permanecer igual mientras se gana músculo y se pierde grasa. Por eso la forma de tu cuerpo refleja mejor la salud.",
             "LI2_HEAD": "Tipo de cuerpo",
@@ -1258,34 +1258,34 @@
         "MEASUREMENTS_ITEM_2": "Para personas a quienes es importante rastrear cambios en partes específicas del cuerpo",
         "MEASUREMENTS_ITEM_3": "Para usuarios con objetivos individuales, como rehabilitación después de lesiones o lograr resultados estéticos",
         "INDICATORS_LIST": {
-        "INDICATORS_HEAD": "Indicadores",
-        "DESC": "Visualiza indicadores personalizados como forma corporal, necesidades energéticas, IMC y más.",
-        "HEAD2": "Somototipo",
-        "DESC2": "El programa hereditario para el desarrollo de tejido óseo, graso y muscular, así como la velocidad y el nivel del metabolismo en el cuerpo",
-        "HEAD3": "Tipo de figura",
-        "DESC3": "Clasificación de la constitución corporal humana basada en proporciones corporales, distribución del peso y formas generales",
-        "HEAD4": "Grasa",
-        "DESC4": "El exceso o deficiencia de tejido adiposo puede afectar negativamente la salud, los niveles hormonales y el bienestar general",
-        "HEAD5": "ÍCA",
-        "DESC5": "Índice Cintura/Altura. Este índice determina la distribución de grasa en el cuerpo y es un mejor indicador del riesgo de enfermedades cardiovasculares, diabetes y accidente cerebrovascular que el IMC",
-        "HEAD6": "Índice de Masa Corporal",
-        "DESC6": "Este es el indicador clásico de grasa corporal, basado en la altura y el peso. El IMC se utiliza para clasificar el peso de una persona",
-        "HEAD7": "Métricas",
-        "DESC7": "Indicadores que ayudan a rastrear la condición física y el progreso hacia los objetivos",
-        "HEAD8": "Agua",
-        "DESC8": "El consumo regular de agua es vital para mantener la salud. Se recomienda beber alrededor de 30-40 ml de agua por kilogramo de peso corporal al día",
-        "HEAD9": "ÍCC",
-        "DESC9": "Índice Cintura/Cadera. Números más altos significan más grasa alrededor de la cintura. El Índice Cintura/Cadera es una medida de la forma corporal y una evaluación de riesgos para la salud",
-        "HEAD10": "Plenitud",
-        "DESC10": "Es una medida de la composición corporal, una medida de obesidad, la relación entre masa y altura",
-        "HEAD11": "Energía",
-        "DESC11": "Tasa Metabólica en Reposo. Esta es la cantidad de calorías que quemas cuando tu cuerpo realiza funciones básicas para mantener la vida",
-        "HEAD12": "Superficie Corporal",
-        "DESC12": "Superficie corporal en m². La Superficie Corporal puede ser un mejor indicador de la masa metabólica que el peso corporal porque está menos influenciada por la masa grasa anormal",
-        "HEAD13": "Índice de Adonis",
-        "DESC13": "La proporción más importante para la apariencia general del cuerpo y la clave para la percepción de la belleza y el atractivo",
-        "BTN": "Ir"
-    }
+            "INDICATORS_HEAD": "Indicadores",
+            "DESC": "Visualiza indicadores personalizados como forma corporal, necesidades energéticas, IMC y más.",
+            "HEAD2": "Somototipo",
+            "DESC2": "El programa hereditario para el desarrollo de tejido óseo, graso y muscular, así como la velocidad y el nivel del metabolismo en el cuerpo",
+            "HEAD3": "Tipo de figura",
+            "DESC3": "Clasificación de la constitución corporal humana basada en proporciones corporales, distribución del peso y formas generales",
+            "HEAD4": "Grasa",
+            "DESC4": "El exceso o deficiencia de tejido adiposo puede afectar negativamente la salud, los niveles hormonales y el bienestar general",
+            "HEAD5": "ÍCA",
+            "DESC5": "Índice Cintura/Altura. Este índice determina la distribución de grasa en el cuerpo y es un mejor indicador del riesgo de enfermedades cardiovasculares, diabetes y accidente cerebrovascular que el IMC",
+            "HEAD6": "Índice de Masa Corporal",
+            "DESC6": "Este es el indicador clásico de grasa corporal, basado en la altura y el peso. El IMC se utiliza para clasificar el peso de una persona",
+            "HEAD7": "Métricas",
+            "DESC7": "Indicadores que ayudan a rastrear la condición física y el progreso hacia los objetivos",
+            "HEAD8": "Agua",
+            "DESC8": "El consumo regular de agua es vital para mantener la salud. Se recomienda beber alrededor de 30-40 ml de agua por kilogramo de peso corporal al día",
+            "HEAD9": "ÍCC",
+            "DESC9": "Índice Cintura/Cadera. Números más altos significan más grasa alrededor de la cintura. El Índice Cintura/Cadera es una medida de la forma corporal y una evaluación de riesgos para la salud",
+            "HEAD10": "Plenitud",
+            "DESC10": "Es una medida de la composición corporal, una medida de obesidad, la relación entre masa y altura",
+            "HEAD11": "Energía",
+            "DESC11": "Tasa Metabólica en Reposo. Esta es la cantidad de calorías que quemas cuando tu cuerpo realiza funciones básicas para mantener la vida",
+            "HEAD12": "Superficie Corporal",
+            "DESC12": "Superficie corporal en m². La Superficie Corporal puede ser un mejor indicador de la masa metabólica que el peso corporal porque está menos influenciada por la masa grasa anormal",
+            "HEAD13": "Índice de Adonis",
+            "DESC13": "La proporción más importante para la apariencia general del cuerpo y la clave para la percepción de la belleza y el atractivo",
+            "BTN": "Ir"
+        }
     },
     "EMOTION": {
         "HEAD": "Emoción",
@@ -1311,7 +1311,7 @@
             "DESC3": "La prueba se realiza en menos de un minuto y proporciona resultados listos inmediatamente",
             "LI4_HEAD": "Diagnóstico detallado",
             "DESC4": "Muestra las causas del estado actual por categorías, la situación real y las expectativas"
-            },
+        },
         "HEAD2": "Biorritmos",
         "DESK2": "Conozca los picos y días críticos de sus biorritmos. Utilice sus recursos internos de manera tan eficiente como sea posible. Reconozca cuándo es más necesario conservar energía y descansar. Una evaluación adecuada de sus habilidades puede llevar a un uso eficiente de la energía y prevenir problemas potenciales.",
         "BTN_BIORHYTHM": "Más información",
@@ -1515,7 +1515,7 @@
         },
         "LI1_IMG_ALT": "Aplicación para el seguimiento del nivel de magnesio",
         "LI2_IMG_ALT": "Controla fácilmente tu nivel de magnesio",
-            "DESC2_1": "El magnesio favorece la salud del corazón al regular el ritmo cardíaco y reducir el riesgo de hipertensión arterial",
+        "DESC2_1": "El magnesio favorece la salud del corazón al regular el ritmo cardíaco y reducir el riesgo de hipertensión arterial",
         "DESC2_2": "Reduce la tensión muscular y previene los calambres al mejorar el funcionamiento del sistema neuromuscular",
         "DESC2_3": "Ayuda a manejar el estrés, mejora la calidad del sueño y apoya el equilibrio mental",
         "DESC2_4": "Participa en el metabolismo energético, aumentando la resistencia física y el rendimiento mental",
@@ -1563,7 +1563,7 @@
         "SUBHEAD": "Rastreador de calcio para reloj",
         "TEXT": "Seguimiento simple de calcio directamente en tu muñeca. Los widgets para el reloj y la sincronización con Apple Health lo hacen conveniente. Diseño limpio, sin anuncios y sin necesidad de iniciar sesión.",
         "BUTTON_OPEN": "Fortalece huesos",
-        "LIST1":{
+        "LIST1": {
             "LI1_HEAD": "Cuidado de tu salud",
             "DESC1": "Controla los niveles de calcio en tu cuerpo con nuestra aplicación para mantenerte saludable cada día y realizar un seguimiento sin esfuerzo de tu ingesta diaria",
             "LI2_HEAD": "Esferas de reloj avanzadas",
@@ -2188,7 +2188,7 @@
     "VACANCY": {
         "VACANCY_STATUS": {
             "OPEN": "La vacante está abierta",
-            "CLOSED":"La contratación está suspendida"
+            "CLOSED": "La contratación está suspendida"
         },
         "POSITIONS": {
             "DESIGNER": {
