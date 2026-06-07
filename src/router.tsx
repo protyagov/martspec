@@ -23,7 +23,7 @@ import Iron from "@/atomic/page/iron";
 import Calcium from "@/atomic/page/calcium";
 import Article from "@/atomic/prototype/article/article";
 
-const articleVitamins = ["acai", "lion", "turmeric", "collagen", "ginko", "ashwagandha", "chaga", "maca"];
+const articleVitamins = ["acai", "lion", "turmeric", "collagen", "ginko", "ashwagandha", "chaga", "maca", "fireweed"];
 
 export function App() {
     var redirect = sessionStorage.redirect;
@@ -49,7 +49,7 @@ export function App() {
         case "/bodyzinc":
             return <BodyZinc />;
         case "/magnesium":
-            return <Magnesium />
+            return <Magnesium />;
         case "/emotion":
             return <Emotion />;
         case "/emotion/biorhythms":
@@ -72,18 +72,19 @@ export function App() {
             return <Calcium />;
         case "/coming-soon":
             return <ComingSoon />;
-            default:
-                const [, pagePath, currentPath] = url.split("/");
-    
+        default:
+            const [, pagePath, currentPath] = url.split("/");
+
             if (pagePath === "careers") return <VacancyDetails position={currentPath} />;
             if (pagePath === "emotion") return <Article articleType="emotion" articleId={currentPath} />;
             if (pagePath === "bodysize") return <Article articleType="bodysize" articleId={currentPath} />;
             if (pagePath === "vitamin") {
-            if (articleVitamins.includes(currentPath.toLowerCase())) {
-            return <Article articleType="vitamin" articleId={currentPath} />;} 
-            else {
-                return <VitaminElement id={currentPath} />;}
-        }
+                if (articleVitamins.includes(currentPath.toLowerCase())) {
+                    return <Article articleType="vitamin" articleId={currentPath} />;
+                } else {
+                    return <VitaminElement id={currentPath} />;
+                }
+            }
             return <Error_404 />;
     }
 }

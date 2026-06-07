@@ -43,7 +43,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             ashwagandha: _("VITAMIN.ASHWAGANDHA.NAME"),
             maca: _("VITAMIN.MACA.NAME"),
             chaga: _("VITAMIN.CHAGA.NAME"),
-
+            fireweed: _("VITAMIN.FIREWEED.NAME"),
         };
 
         const items: BreadcrumbItem[] = cleanPath.map((segment, index) => {
