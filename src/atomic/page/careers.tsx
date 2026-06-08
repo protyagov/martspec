@@ -10,6 +10,7 @@ import ImageI18N from "@/atomic/atom/img-i18n";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
+import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
 
 const careers = [
     {
@@ -138,6 +139,43 @@ const Careers = () => {
                             text={_("CAREERS.LIST2.LI3_TEXT")}
                             bgColor="#FFB34066"
                         />
+                    </div>
+                </section>
+
+                <section>
+                    <div className="row">
+                        <div className="row block p-0 shadow-none" style={{backgroundColor: "#F1F6FF", overflow: "hidden"}}>
+                            <div className="col-lg-7 pe-5 pt-2">
+                                <div className="row p-0">
+                                        <div className="d-flex align-items-start gap-3 pt-4 px-4">
+                                            <div className="flex-shrink-0">
+                                                <img className="ps-2" src="/img/page/careers/shield.svg"/>
+                                            </div>
+                                            <div className="flex-grow-1">
+                                                <h3 className="m-0 pt-4"> {_("CAREERS.HEAD4")}</h3>
+                                            </div>
+                                        </div>
+                                    <CardTitleTextImageCustom
+                                            text={_("CAREERS.DESC1")}
+                                            actionLink={{
+                                            text: _("CAREERS.BUTTON4"),
+                                            href: Locale.i18nLink("coming-soon"),}}
+                                            primaryColor="#0A65C1"
+                                            linkHoverColor="#0A65C1"
+                                            shadow={false}
+                                        />
+                                </div>
+                            </div>
+                            <div className="col-lg-5 d-flex justify-content-center align-items-center p-0">
+                                <ImageI18N
+                                    src="/img/page/careers/safety.webp"
+                                    w={490}
+                                    h={300}
+                                    cls="p-4 img-fluid"
+                                    alt={_("CAREERS.ALT2")}
+                                />
+                            </div>
+                        </div>
                     </div>
                 </section>
 

@@ -83,57 +83,44 @@ export default function CardTitleTextImageCustom({
     const currentImgH = imgMobileH && isMobile ? imgMobileH : imgH;
     const currentCardHeight = cardMobileHeight && isMobile ? cardMobileHeight : cardHeight;
     return (
-        <div
-            className={`card-title-text h-100 rounded-5 p-lg-5 p-4 pb-5 position-relative ${shadow ? "shadow" : ""} ${responsive ? "responsive-card" : ""}`}
-            style={{ 
-                backgroundColor: bgColor,
-                minHeight: currentCardHeight,
-                width: "auto",
-                
-            }}
-        >
+        <div className={`card-title-text h-100 rounded-5 p-lg-5 p-4 pb-5 position-relative ${shadow ? "shadow" : ""} ${responsive ? "responsive-card" : ""}`} style={{backgroundColor: bgColor, minHeight: currentCardHeight, width: "auto",}}>
             <div className="position-relative" style={{ zIndex: 2 }}>
-            <h3
-                className="mb-3 mt-0 pe-5 lh-sm"
-                style={{
-                    color: titleColor,
-                    fontSize: titleFontSize,
-                    fontFamily: titleFontFam,
-                }}
-            >
-                {title}
-            </h3>
-            {text && (
-                Array.isArray(text) ? (
-                    bulletList ? (
-                        <BulletList
-                            items={text}
-                            iconColor={bulletColor as string}
-                            className="bullet-list"
-                        />
-                    ) : (
-                        <ul className="mb-0">
-                            {text.map((item, index) => (
-                                <li key={index} className="mb-4" style={{ color: textColor, fontSize: textFontSize, fontFamily: textFontFam }}>
-                                    {item}
-                                </li>
-                            ))}
-                        </ul>
-                    )
-                ) : (
-                    <p className="text mb-0 lh-sm" style={{ color: textColor, fontSize: textFontSize, fontFamily: textFontFam }}>
-                        {text}
-                    </p>
-                )
-            )}
+                <h3 className="mb-3 mt-0 pe-5 lh-sm"
+                    style={{color: titleColor, fontSize: titleFontSize, fontFamily: titleFontFam}}>
+                    {title}
+                </h3>
+
+                    {text && (
+                        Array.isArray(text) ? (
+                            bulletList ? (
+                                <BulletList
+                                    items={text}
+                                    iconColor={bulletColor as string}
+                                    className="bullet-list"
+                                />
+                            ) : (
+                                <ul className="mb-0">
+                                    {text.map((item, index) => (
+                                        <li key={index} className="mb-4" style={{ color: textColor, fontSize: textFontSize, fontFamily: textFontFam }}>
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                            )
+                        ) : (
+                            <p className="text mb-0 lh-sm" style={{ color: textColor, fontSize: textFontSize, fontFamily: textFontFam }}>
+                                {text}
+                            </p>
+                        )
+                    )}
             </div>
             
             {actionLink && (
                 <div className="card-action pt-4">
                     <TextLinkArrow
                         rightIcon={<RightArrowIcon />}
-                        text={actionLink.text} // Передаем явно
-                        href={actionLink.href} // Передаем явно
+                        text={actionLink.text}
+                        href={actionLink.href}
                         color={primaryColor}
                         hoverColor={linkHoverColor}
                     />
@@ -141,21 +128,16 @@ export default function CardTitleTextImageCustom({
             )}
             
             {imgSrc && (
-                <div 
-                    className="position-absolute "
+                <div className="position-absolute"
                     style={{
                         bottom: 0,
                         ...(imgPosition === "right-bottom" ? { right: 0 } : 
                             imgPosition === "left-bottom" ? { left: 0 } : 
-                            imgPosition === "center-bottom" ? { 
-                            left: "50%", 
-                            transform: "translateX(-50%)" 
-                        } : { left: "50%"}),
+                            imgPosition === "center-bottom" ? {left: "50%", transform: "translateX(-50%)" } : { left: "50%"}),
                         width: "auto",
                         height: currentImgH,
                         overflow: "hidden"
-                    }}
-                >
+                    }}>
                     <img 
                         src={imgSrc}
                         className="h-100"
