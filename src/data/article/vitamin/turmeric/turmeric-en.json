@@ -37,7 +37,7 @@
       "BG_COLOR": "#F4F5F8",
       "RIGHT_COLUMN": {
       "CONTENT": "**How to make golden milk with turmeric**",
-      "VIDEO_URL": "https://www.youtube.com/embed/af8qk3O3GWs"
+      "VIDEO_URL": "https://player.vimeo.com/video/1060374150"
       }
     },
     {
@@ -57,7 +57,7 @@
       "BG_COLOR": "",
       "RIGHT_COLUMN": {
       "CONTENT": "**How to make golden milk with turmeric**",
-      "VIDEO_URL": "https://www.youtube.com/embed/af8qk3O3GWs"
+      "AUDIO_URL": "/img/example.mp3"
       }
     }
   ],

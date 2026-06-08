@@ -130,7 +130,14 @@
     border-radius: 12px;
     margin-bottom: 30px;
     }
-  }
+
+    .article-section__right-audio {
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    }
+  } 
 }
 
 .article-section--with-bg {
@@ -298,7 +305,7 @@
   }
 
   .article-section--two-column .article-section__inner {
-    grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1.6fr);
   }
 
   .article-section--with-bg {

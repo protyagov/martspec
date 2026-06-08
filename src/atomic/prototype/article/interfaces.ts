@@ -6,6 +6,7 @@ export interface IRightColumn {
     IMG_ALT?: string;
     IS_HIGH?: boolean;
     VIDEO_URL?: string;
+    AUDIO_URL?: string;
 }
 
 export interface IArticleHeader {

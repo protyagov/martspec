@@ -227,7 +227,7 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                     {hasRightColumn && (
                       <aside
                           className="article-section__right"
-                          style={item.RIGHT_COLUMN?.VIDEO_URL ? { alignSelf: 'start' } : undefined}
+                          style={(item.RIGHT_COLUMN?.VIDEO_URL || item.RIGHT_COLUMN?.AUDIO_URL) ? { alignSelf: 'start' } : undefined}
                       >
                         {item.RIGHT_COLUMN?.CONTENT && (
                           <ReactMarkdown>
@@ -242,6 +242,23 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                                 allow="autoplay; encrypted-media"
                                 allowFullScreen
                             />
+                        )}
+                        {item.RIGHT_COLUMN?.AUDIO_URL && (
+                            <div className="article-section__audio-wrapper">
+                            <audio 
+                              className="article-section__right-audio"
+                              src={item.RIGHT_COLUMN.AUDIO_URL} 
+                              controls 
+                            >
+                              Ваш браузер не поддерживает элемент audio.
+                            </audio>
+                          </div>
+                          // <iframe
+                          // className="article-section__right-audio"
+                          // src={item.RIGHT_COLUMN.AUDIO_URL}
+                          // title="Audio"
+                          // allow="autoplay; encrypted-media"
+                          // />
                         )}
                         {item.RIGHT_COLUMN?.IMG_SRC && (
                           <img
