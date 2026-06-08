@@ -1014,6 +1014,11 @@
             "HEAD": "Cmb",
             "NAME": "Kombucha-Teepilz",
             "DESK": "Er fördert die Wiederherstellung des Darmmikrobioms und verbessert die Nährstoffaufnahme."
+        },
+        "TREMELLA": {
+            "HEAD": "Tml",
+            "NAME": "tremella-pilz",
+            "DESK": "Die ultimative Feuchtigkeitsversorgung der Natur. Bindet das 500-fache seines Gewichts an Wasser für strahlende Haut und anhaltende Schönheit."
         }
     },
     "WAIST": {

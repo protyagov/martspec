@@ -1017,6 +1017,11 @@
             "HEAD": "Cmb",
             "NAME": "Kombucha tea mushroom",
             "DESK": "It promotes the restoration of the gut microbiome and improves nutrient absorption."
+        },
+        "TREMELLA": {
+            "HEAD": "Tml",
+            "NAME": "tremella mushroom",
+            "DESK": "Nature’s ultimate hydration. Holds 500x its weight in water for glowing skin, deep moisture, and lasting beauty."
         }
     },
     "WAIST": {
