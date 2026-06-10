@@ -1801,7 +1801,12 @@
             "LI7_TEXT": "Desde cualquier parte del mundo"
         },
         "BUTTON3": "Aprenda más",
-        "ALT1": "Un grupo de jóvenes y prometedores especialistas de Martspec"
+        "ALT1": "Un grupo de jóvenes y prometedores especialistas de Martspec",
+
+        "HEAD4": "Su seguridad es importante",
+        "DESC1": "Nunca pedimos pagos, datos personales ni documentos. Descubra cómo protegemos a los candidatos y cómo reconocer estafas de empleo.",
+        "BUTTON4": "Más información sobre la contratación segura",
+        "ALT2": "Contratación segura"
     },
     "PP": {
         "HEAD": "Política de privacidad",
