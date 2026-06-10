@@ -1803,7 +1803,12 @@
             "LI7_TEXT": "Von überall auf der Welt"
         },
         "BUTTON3": "Erfahren Sie mehr",
-        "ALT1": "Eine Gruppe junger und vielversprechender Spezialisten aus Martspec"
+        "ALT1": "Eine Gruppe junger und vielversprechender Spezialisten aus Martspec",
+
+        "HEAD4": "Ihre Sicherheit ist wichtig",
+        "DESC1": "Wir fragen niemals nach Bezahlung, persönlichen Daten oder Dokumenten. Erfahren Sie, wie wir Bewerber schützen und wie Sie Betrüger bei der Jobsuche erkennen.",
+        "BUTTON4": "Mehr über sichere Einstellung erfahren",
+        "ALT2": "Sichere Einstellung"
     },
     "PP": {
         "HEAD": "Datenschutz",
