@@ -753,5 +753,9 @@
     "KOMBUCHA": {
         "TYPE": "FOODADDITIVES",
         "UNIT": ""
+    },
+    "TREMELLA": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
     }
 }

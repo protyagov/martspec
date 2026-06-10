@@ -122,6 +122,7 @@ const vitamins: VitaminGroup[] = [
             "LION",
             "MACA",
             "TURKEY_TAIL",
+            "TREMELLA",
         ],
     },
 ];
