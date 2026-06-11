@@ -35,34 +35,46 @@
     "AVATAR": "/img/page/team/team_nataliia.webp",
     "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
   },
-  "JOANNA": {
-    "NAME": "Joanna",
-    "TITLE": "Analista de Negocios",
-    "AVATAR": "/img/page/team/team_joanna.webp",
-    "LINK": "https://www.linkedin.com/in/jingqiao-lei/"
-  },
-  "VITALY_G": {
-    "NAME": "Vitali",
-    "TITLE": "Desarrollador Web",
-    "AVATAR": "/img/page/team/team_vitalyG.webp",
-    "LINK": "https://www.linkedin.com/in/vitaliy-galata-22a86046/"
-  },
   "LEYLI": {
     "NAME": "Leyli",
     "TITLE": "Desarrollador Web",
     "AVATAR": "/img/page/team/team_leyli.webp",
     "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
   },
-  "LENA": {
-    "NAME": "Lena",
-    "TITLE": "Diseñador UI/UX",
-    "AVATAR": "/img/page/team/team_lena.webp",
-    "LINK": ""
-  },
   "VICTORIA": {
     "NAME": "Vika",
     "TITLE": "Diseñador UI/UX",
     "AVATAR": "/img/page/team/team_vika.webp",
     "LINK": ""
+  },
+  "AYAN": {
+    "NAME": "Ayan",
+    "TITLE": "Desarrollador Web",
+    "AVATAR": "/img/page/team/team_ayan.webp",
+    "LINK": "https://www.linkedin.com/in/ayan-baryshev-4a38a2366/"
+  },
+  "ANDRII": {
+    "NAME": "Andrii",
+    "TITLE": "Ingeniero QA",
+    "AVATAR": "/img/page/team/team_andrii.webp",
+    "LINK": ""
+  },
+  "LIUDMILA": {
+    "NAME": "Liudmila",
+    "TITLE": "Diseñador UI/UX",
+    "AVATAR": "/img/page/team/team_liudmila.webp",
+    "LINK": ""
+  },
+  "EVGEN": {
+    "NAME": "Evgeny",
+    "TITLE": "Desarrollador Web",
+    "AVATAR": "/img/page/team/team_evgeny.webp",
+    "LINK": "https://www.linkedin.com/in/evgen-khamitcevich"
+  },
+  "ANDREI": {
+    "NAME": "Andrei",
+    "TITLE": "Desarrollador Web",
+    "AVATAR": "/img/page/team/team_andrei.webp",
+    "LINK": "https://www.linkedin.com/in/andrei-bogdanovich/"
   }
 }
