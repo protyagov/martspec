@@ -77,6 +77,7 @@ const ROUTES = [
         "maca",
         "chaga",
         "fireweed",
+        "cocoa"
     ].map((x) => ({
         template: `vitamin/${x}`,
         output: `vitamin/${x}`,

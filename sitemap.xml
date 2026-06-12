@@ -162,6 +162,10 @@
       <loc>https://martspec.com/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+     <url>
+      <loc>https://martspec.com/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/bodysize/adonis</loc>
       <changefreq>monthly</changefreq>
@@ -416,6 +420,10 @@
       <loc>https://martspec.com/en/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+    <url>
+      <loc>https://martspec.com/en/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/en/bodysize/adonis</loc>
       <changefreq>monthly</changefreq>
@@ -668,6 +676,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ar/vitamin/collagen</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/ar/vitamin/cocoa</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -925,6 +937,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/zh/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/zh/bodysize/adonis</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1176,6 +1192,10 @@
    </url>
    <url>
       <loc>https://martspec.com/fr/vitamin/collagen</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/fr/vitamin/cocoa</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1432,6 +1452,10 @@
       <loc>https://martspec.com/de/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+    <url>
+      <loc>https://martspec.com/de/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/de/bodysize/adonis</loc>
       <changefreq>monthly</changefreq>
@@ -1684,6 +1708,10 @@
    </url>
    <url>
       <loc>https://martspec.com/hi/vitamin/collagen</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/hi/vitamin/cocoa</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1940,6 +1968,10 @@
       <loc>https://martspec.com/ja/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+    <url>
+      <loc>https://martspec.com/ja/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/ja/bodysize/adonis</loc>
       <changefreq>monthly</changefreq>
@@ -2192,6 +2224,10 @@
    </url>
    <url>
       <loc>https://martspec.com/pt/vitamin/collagen</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+     <url>
+      <loc>https://martspec.com/pt/vitamin/cocoa</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2448,6 +2484,10 @@
       <loc>https://martspec.com/ru/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+      <url>
+      <loc>https://martspec.com/ru/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/ru/bodysize/adonis</loc>
       <changefreq>monthly</changefreq>
@@ -2702,6 +2742,10 @@
       <loc>https://martspec.com/es/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+    <url>
+      <loc>https://martspec.com/es/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/es/bodysize/adonis</loc>
       <changefreq>monthly</changefreq>
@@ -2954,6 +2998,10 @@
    </url>
    <url>
       <loc>https://martspec.com/uk/vitamin/collagen</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/vitamin/cocoa</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
