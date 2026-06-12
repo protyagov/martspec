@@ -1015,6 +1015,11 @@
             "HEAD": "Cmb",
             "NAME": "Hongo de té Kombucha",
             "DESK": "Promueve la restauración del microbioma intestinal y mejora la absorción de nutrientes."
+        },
+        "TREMELLA": {
+            "HEAD": "Tml",
+            "NAME": "Seta tremella",
+            "DESK": "La mejor hidratación natural. Retiene 500 veces su peso en agua para una piel radiante y belleza duradera."
         }
     },
     "WAIST": {
@@ -1801,7 +1806,12 @@
             "LI7_TEXT": "Desde cualquier parte del mundo"
         },
         "BUTTON3": "Aprenda más",
-        "ALT1": "Un grupo de jóvenes y prometedores especialistas de Martspec"
+        "ALT1": "Un grupo de jóvenes y prometedores especialistas de Martspec",
+
+        "HEAD4": "Su seguridad es importante",
+        "DESC1": "Nunca pedimos pagos, datos personales ni documentos. Descubra cómo protegemos a los candidatos y cómo reconocer estafas de empleo.",
+        "BUTTON4": "Más información sobre la contratación segura",
+        "ALT2": "Contratación segura"
     },
     "PP": {
         "HEAD": "Política de privacidad",

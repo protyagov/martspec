@@ -1017,6 +1017,11 @@
             "HEAD": "Cmb",
             "NAME": "Kombucha tea mushroom",
             "DESK": "It promotes the restoration of the gut microbiome and improves nutrient absorption."
+        },
+        "TREMELLA": {
+            "HEAD": "Tml",
+            "NAME": "Tremella mushroom",
+            "DESK": "Nature’s ultimate hydration. Holds 500x its weight in water for glowing skin, deep moisture, and lasting beauty."
         }
     },
     "WAIST": {
@@ -1803,7 +1808,12 @@
             "LI7_TEXT": "From anywhere in the world"
         },
         "BUTTON3": "Learn more",
-        "ALT1": "A group of young and promising specialists from Martspec"
+        "ALT1": "A group of young and promising specialists from Martspec",
+
+        "HEAD4": "Your safety matters",
+        "DESC1": "We never ask for payment, personal data, or documents. Learn how we protect candidates and how to spot employment scams.",
+        "BUTTON4": "Learn more about safe hiring",
+        "ALT2": "Safe hiring"
     },
     "PP": {
         "HEAD": "Privacy Policy",
