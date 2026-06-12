@@ -34,6 +34,7 @@ const articleVitamins = [
     "maca",
     "fireweed",
     "tremella",
+    "kombucha",
 ];
 
 export function App() {
