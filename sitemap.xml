@@ -162,6 +162,10 @@
       <loc>https://martspec.com/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+     <url>
+      <loc>https://martspec.com/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/vitamin/chaga</loc>
       <changefreq>monthly</changefreq>
@@ -438,6 +442,10 @@
    </url>
    <url>
       <loc>https://martspec.com/en/vitamin/collagen</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/en/vitamin/cocoa</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -718,6 +726,10 @@
       <loc>https://martspec.com/ar/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+    <url>
+      <loc>https://martspec.com/ar/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/ar/vitamin/chaga</loc>
       <changefreq>monthly</changefreq>
@@ -993,10 +1005,6 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
-      <loc>https://martspec.com/zh/vitamin/collagen</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
       <loc>https://martspec.com/zh/vitamin/chaga</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1018,6 +1026,14 @@
    </url>
    <url>
       <loc>https://martspec.com/zh/vitamin/kombucha</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/vitamin/collagen</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/vitamin/cocoa</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1272,6 +1288,10 @@
    </url>
    <url>
       <loc>https://martspec.com/fr/vitamin/collagen</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/fr/vitamin/cocoa</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1552,6 +1572,10 @@
       <loc>https://martspec.com/de/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+    <url>
+      <loc>https://martspec.com/de/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/de/vitamin/chaga</loc>
       <changefreq>monthly</changefreq>
@@ -1828,6 +1852,10 @@
    </url>
    <url>
       <loc>https://martspec.com/hi/vitamin/collagen</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+    <url>
+      <loc>https://martspec.com/hi/vitamin/cocoa</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2108,6 +2136,10 @@
       <loc>https://martspec.com/ja/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+    <url>
+      <loc>https://martspec.com/ja/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/ja/vitamin/chaga</loc>
       <changefreq>monthly</changefreq>
@@ -2384,6 +2416,10 @@
    </url>
    <url>
       <loc>https://martspec.com/pt/vitamin/collagen</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+     <url>
+      <loc>https://martspec.com/pt/vitamin/cocoa</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2664,6 +2700,10 @@
       <loc>https://martspec.com/ru/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+      <url>
+      <loc>https://martspec.com/ru/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/ru/vitamin/chaga</loc>
       <changefreq>monthly</changefreq>
@@ -2942,6 +2982,10 @@
       <loc>https://martspec.com/es/vitamin/collagen</loc>
       <changefreq>monthly</changefreq>
    </url>
+    <url>
+      <loc>https://martspec.com/es/vitamin/cocoa</loc>
+      <changefreq>monthly</changefreq>
+   </url>
    <url>
       <loc>https://martspec.com/es/vitamin/chaga</loc>
       <changefreq>monthly</changefreq>
@@ -3216,11 +3260,7 @@
       <loc>https://martspec.com/uk/vitamin/lion</loc>
       <changefreq>monthly</changefreq>
    </url>
-   <url>
-      <loc>https://martspec.com/uk/vitamin/collagen</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
+     <url>
       <loc>https://martspec.com/uk/vitamin/chaga</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -3240,8 +3280,16 @@
       <loc>https://martspec.com/uk/vitamin/tremella</loc>
       <changefreq>monthly</changefreq>
    </url>
-   <url>
+     <url>
       <loc>https://martspec.com/uk/vitamin/kombucha</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/vitamin/collagen</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/vitamin/cocoa</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
