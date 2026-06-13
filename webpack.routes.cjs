@@ -79,6 +79,7 @@ const ROUTES = [
         "fireweed",
         "tremella",
         "kombucha",
+        "cocoa"
     ].map((x) => ({
         template: `vitamin/${x}`,
         output: `vitamin/${x}`,
