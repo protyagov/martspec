@@ -1,1 +1,0 @@
-import{j as t}from"./index-CscQzQ3G.js";import{u as i}from"./review-context-DWbX89EZ.js";function o(){const{text:e}=i();return t.jsx("p",{className:"review__description",children:e.description})}export{o as R};
