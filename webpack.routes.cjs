@@ -30,6 +30,7 @@ const ROUTES = [
     { template: "pp", output: "privacy-policy" },
     { template: "team", output: "team" },
     { template: "careers", output: "careers" },
+    { template: "sp", output: "scam-protection" },
 
     { template: "bodysize/adonis", output: "bodysize/adonis" },
 

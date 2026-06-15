@@ -159,7 +159,7 @@ const Careers = () => {
                                             text={_("CAREERS.DESC1")}
                                             actionLink={{
                                             text: _("CAREERS.BUTTON4"),
-                                            href: Locale.i18nLink("coming-soon"),}}
+                                            href: Locale.i18nLink("scam-protection"),}}
                                             primaryColor="#0A65C1"
                                             linkHoverColor="#0A65C1"
                                             shadow={false}
