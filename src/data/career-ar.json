@@ -5,10 +5,6 @@
     "CONDITIONS_H2": "شروط التدريب",
     "FEATURES_H2": "لماذا تختارنا:",
     "RESPONSE_BTN": "تقديم الطلب",
-    "VACANCY_STATUS": {
-        "OPEN": "الوظيفة شاغرة",
-        "CLOSED": "التوظيف معلق"
-    },
     "POSITIONS": {
         "DESIGNER": {
             "TITLE": "مصمم",
@@ -51,8 +47,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5",
-            "VACANCY_STATUS": "CLOSED"
+            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
         },
         "MOBILE_DEVELOPER": {
             "TITLE": "مهندس iOS",
@@ -94,8 +89,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
         },
         "FRONTEND": {
             "TITLE": "مطور واجهات أمامية",
@@ -138,8 +132,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
         },
         "QUALITY_ASSURANCE": {
             "TITLE": "مهندس ضمان الجودة",
@@ -182,8 +175,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
         },
         "BUSINESS_ANALYST": {
             "TITLE": "محلل أعمال",
@@ -231,8 +223,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA",
-            "VACANCY_STATUS": "CLOSED"
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
         },
         "COPYWRITER": {
             "TITLE": "كاتب محتوى",
@@ -280,8 +271,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
         },
         "MARKETOLOGIST": {
             "TITLE": "أخصائي تسويق",
@@ -315,8 +305,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A"
         }
     },
     "CONDITIONS": [
