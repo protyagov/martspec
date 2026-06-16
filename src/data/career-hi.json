@@ -5,10 +5,6 @@
     "CONDITIONS_H2": "इंटर्नशिप की शर्तें",
     "FEATURES_H2": "हमें क्यों चुनें:",
     "RESPONSE_BTN": "आवेदन करें",
-    "VACANCY_STATUS": {
-        "OPEN": "पद खुला है",
-        "CLOSED": "भर्ती स्थगित है"
-    },
     "POSITIONS": {
         "DESIGNER": {
             "TITLE": "डिज़ाइनर",
@@ -51,8 +47,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5",
-            "VACANCY_STATUS": "CLOSED"
+            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
         },
         "MOBILE_DEVELOPER": {
             "TITLE": "आईओएस इंजीनियर",
@@ -94,8 +89,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
         },
         "FRONTEND": {
             "TITLE": "फ्रंटेंड डेवलपर",
@@ -138,8 +132,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
         },
         "QUALITY_ASSURANCE": {
             "TITLE": "QA इंजीनियर",
@@ -182,8 +175,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
         },
         "BUSINESS_ANALYST": {
             "TITLE": "बिजनेस एनालिस्ट",
@@ -231,8 +223,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA",
-            "VACANCY_STATUS": "CLOSED"
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
         },
         "COPYWRITER": {
             "TITLE": "कॉपीराइटर",
@@ -280,8 +271,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
         },
         "MARKETOLOGIST": {
             "TITLE": "मार्केटिंग विशेषज्ञ",
@@ -315,15 +305,14 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A"
         }
     },
     "CONDITIONS": [
-    "— यह 2-3 महीने की बिना वेतन की इंटर्नशिप है, — आपके काम का भुगतान नहीं किया जाएगा, आपको ज्ञान और कार्य अनुभव प्राप्त होगा",
-    "— कोई सख्त समय नहीं है, आप किसी भी सुविधाजनक समय पर काम कर सकते हैं",
-    "— घर से अपने स्वयं के डिवाइस पर काम करें",
-    "— अगर आपको कुछ दिनों के लिए प्रोजेक्ट से दूर रहना है — यह ठीक है, लेकिन कृपया हमें पहले से बता दें ताकि आपकी इंटर्नशिप समय से पहले समाप्त न हो"
+        "— यह 2-3 महीने की बिना वेतन की इंटर्नशिप है, — आपके काम का भुगतान नहीं किया जाएगा, आपको ज्ञान और कार्य अनुभव प्राप्त होगा",
+        "— कोई सख्त समय नहीं है, आप किसी भी सुविधाजनक समय पर काम कर सकते हैं",
+        "— घर से अपने स्वयं के डिवाइस पर काम करें",
+        "— अगर आपको कुछ दिनों के लिए प्रोजेक्ट से दूर रहना है — यह ठीक है, लेकिन कृपया हमें पहले से बता दें ताकि आपकी इंटर्नशिप समय से पहले समाप्त न हो"
     ],
     "FEATURES": [
         "— दोस्ताना और प्रेरणादायक स्टार्टअप माहौल",

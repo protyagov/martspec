@@ -5,10 +5,6 @@
     "CONDITIONS_H2": "インターンシップの条件",
     "FEATURES_H2": "なぜ私たちを選ぶべきか:",
     "RESPONSE_BTN": "応募する",
-    "VACANCY_STATUS": {
-        "OPEN": "ポジションは空いています",
-        "CLOSED": "採用は中止されています"
-    },
     "POSITIONS": {
         "DESIGNER": {
             "TITLE": "デザイナー",
@@ -51,8 +47,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5",
-            "VACANCY_STATUS": "CLOSED"
+            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
         },
         "MOBILE_DEVELOPER": {
             "TITLE": "iOSエンジニア",
@@ -94,8 +89,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
         },
         "FRONTEND": {
             "TITLE": "フロントエンド開発者",
@@ -138,8 +132,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
         },
         "QUALITY_ASSURANCE": {
             "TITLE": "QAエンジニア",
@@ -182,8 +175,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
         },
         "BUSINESS_ANALYST": {
             "TITLE": "ビジネスアナリスト",
@@ -231,8 +223,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA",
-            "VACANCY_STATUS": "CLOSED"
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
         },
         "COPYWRITER": {
             "TITLE": "コピーライター",
@@ -280,14 +271,13 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
         },
         "MARKETOLOGIST": {
             "TITLE": "マーケティングスペシャリスト",
             "DESC": "マーケティングインターンとして私たちのチームに参加し、Appleプラットフォームでヘルス＆フィットネスアプリの成長を支えてください。スクロールを止めるコンテンツを作り、ウェルネスのトレンドを取り入れ、より強く、より健康に、より自信を持ちたい人々と本物のつながりを作る方法を見つけます。あなたの仕事はダウンロード数、認知度、実際のユーザー成長に直接影響します。\n\nアイデアが本当に形になるスピード感のあるスタートアップの一員となり、大胆なコンセプトを試し、新しい角度で実験し、何が効くか確かめる自由があります。フィットネス、ウェルネス、SNS、そして日常をよくするものづくりに興味があるなら—一緒に育てていきましょう。",
             "EXPECTATIONS": [
-              {
+                {
                     "H3": "ソーシャルメディアの管理とモニタリング",
                     "UL": [
                         "ブランドのソーシャルメディア（Facebook、X、LinkedIn、TikTokなど）の管理と成長",
@@ -315,8 +305,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A"
         }
     },
     "CONDITIONS": [

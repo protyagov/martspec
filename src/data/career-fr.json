@@ -5,10 +5,6 @@
     "CONDITIONS_H2": "Conditions du stage",
     "FEATURES_H2": "Pourquoi nous choisir :",
     "RESPONSE_BTN": "Postuler",
-    "VACANCY_STATUS": {
-        "OPEN": "Le poste est ouvert",
-        "CLOSED": "Le recrutement est suspendu"
-    },
     "POSITIONS": {
         "DESIGNER": {
             "TITLE": "Designer",
@@ -51,8 +47,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5",
-            "VACANCY_STATUS": "CLOSED"
+            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
         },
         "MOBILE_DEVELOPER": {
             "TITLE": "Ingénieur iOS",
@@ -94,8 +89,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
         },
         "FRONTEND": {
             "TITLE": "Développeur Frontend",
@@ -138,8 +132,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
         },
         "QUALITY_ASSURANCE": {
             "TITLE": "Ingénieur QA",
@@ -182,8 +175,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
         },
         "BUSINESS_ANALYST": {
             "TITLE": "Analyste d'affaires",
@@ -231,8 +223,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA",
-            "VACANCY_STATUS": "CLOSED"
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
         },
         "COPYWRITER": {
             "TITLE": "Rédacteur",
@@ -280,8 +271,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
         },
         "MARKETOLOGIST": {
             "TITLE": "Chargé de marketing",
@@ -315,8 +305,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A"
         }
     },
     "CONDITIONS": [
