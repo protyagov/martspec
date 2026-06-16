@@ -151,7 +151,6 @@
         "ALT5_5": "与Apple Health同步。",
         "ALT5_6": "智能手表图标，表示应用支持 Apple Watch 小组件，用户可以直接在手腕上便捷查看追踪数据。",
         "BTN_OPEN": "追蹤",
-
         "HEAD5": "体重管理提示",
         "DESC5": "有效管理您的体重需要坚持、意识和正确的习惯。以下是一些实用的建议，帮助您保持正轨：",
         "LIST4": {
@@ -1127,7 +1126,6 @@
         "ALT3_4": "與蘋果健康計劃同步—所有維生素和微量元素的最佳基礎。",
         "BTN_MORE": "更多細節",
         "BTN_OPEN": "支援",
-
         "HEAD6": "在家检查您的锌水平",
         "DESC6": "无需实验室即可评估锌含量。在家里用一分钟就能完成硫酸锌快速测试——只需将少量液体硫酸锌放入嘴里并评估味道即可",
         "HEAD7": "测试显示什么：",
@@ -1806,7 +1804,6 @@
         },
         "BUTTON3": "了解更多",
         "ALT1": "一群年轻有为的专家 Martspec",
-
         "HEAD4": "您的安全很重要",
         "DESC1": "我们绝不会要求提供付款、个人数据或文件。了解我们如何保护候选人以及如何识别招聘诈骗。",
         "BUTTON4": "了解有关安全招聘的更多信息",
@@ -2191,32 +2188,6 @@
                     "A": "Martspec @ LinkedIn",
                     "LINK": "https://www.linkedin.com/company/martspec/"
                 }
-            }
-        }
-    },
-    "VACANCY": {
-        "VACANCY_STATUS": {
-            "OPEN": "职位空缺",
-            "CLOSED": "招聘暂停"
-        },
-        "POSITIONS": {
-            "DESIGNER": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "MOBILE_DEVELOPER": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "FRONTEND": {
-                "VACANCY_STATUS": "CLOSED"
-            },
-            "QUALITY_ASSURANCE": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "BUSINESS_ANALYST": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "COPYWRITER": {
-                "VACANCY_STATUS": "OPEN"
             }
         }
     }

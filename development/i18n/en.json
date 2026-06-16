@@ -7,7 +7,7 @@
         "WIKI": "Read full article on WiKi"
     },
     "MAIN": {
-        "HEAD": "Making Health a\u00A0Habit",
+        "HEAD": "Making Health a Habit",
         "SUBHEAD": "Unlock your full potential with science-driven tech — made with care for you",
         "ALT": "Discover an innovative approach to a healthy lifestyle with us",
         "COUNTERS": {
@@ -154,7 +154,6 @@
         "ALT5_5": "Sync with Apple Health.",
         "ALT5_6": "Smartwatch icon showing app's support for Apple Watch widgets, allowing users to track data easily right from their wrist.",
         "BTN_OPEN": "Give up the fat",
-
         "HEAD5": "Weight Management Tips",
         "DESC5": "Managing your body weight effectively takes consistency, awareness, and the right habits. Here are some practical tips to help you stay on track:",
         "LIST4": {
@@ -1130,7 +1129,6 @@
         "ALT3_4": "Sync with Apple Health.",
         "BTN_MORE": "MORE",
         "BTN_OPEN": "AmaZinc element",
-
         "HEAD6": "Check Your Zinc Levels at Home",
         "DESC6": "You can assess your zinc levels without a lab. A quick zinc sulfate test can be done at home in a minute — simply place a small amount of liquid zinc sulfate in your mouth and evaluate the taste.",
         "HEAD7": "What the test shows:",
@@ -1809,7 +1807,6 @@
         },
         "BUTTON3": "Learn more",
         "ALT1": "A group of young and promising specialists from Martspec",
-
         "HEAD4": "Your safety matters",
         "DESC1": "We never ask for payment, personal data, or documents. Learn how we protect candidates and how to spot employment scams.",
         "BUTTON4": "Learn more about safe hiring",
@@ -2194,32 +2191,6 @@
                     "A": "Martspec @ LinkedIn",
                     "LINK": "https://www.linkedin.com/company/martspec/"
                 }
-            }
-        }
-    },
-    "VACANCY": {
-        "VACANCY_STATUS": {
-            "OPEN": "The position is open",
-            "CLOSED": "Recruitment is suspended"
-        },
-        "POSITIONS": {
-            "DESIGNER": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "MOBILE_DEVELOPER": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "FRONTEND": {
-                "VACANCY_STATUS": "CLOSED"
-            },
-            "QUALITY_ASSURANCE": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "BUSINESS_ANALYST": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "COPYWRITER": {
-                "VACANCY_STATUS": "OPEN"
             }
         }
     }

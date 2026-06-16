@@ -151,7 +151,6 @@
         "ALT5_5": "Apple Health と同期します。",
         "ALT5_6": "スマートウォッチのアイコンは、アプリがApple Watchのウィジェットに対応していることを示しており、ユーザーは手首から簡単にデータを確認できます。",
         "BTN_OPEN": "追跡",
-
         "HEAD5": "体重管理のヒント",
         "DESC5": "体重を効果的に管理するには、継続性、意識、そして適切な習慣が必要です。目標に向かって順調に進むための実践的なヒントをいくつかご紹介します。",
         "LIST4": {
@@ -1128,7 +1127,6 @@
         "ALT3_4": "Apple Health プログラムとの同期 - すべてのビタミンと微量元素の最良のベース。",
         "BTN_MORE": "さらに詳しく",
         "BTN_OPEN": "サポート",
-
         "HEAD6": "自宅で亜鉛レベルをチェックする",
         "DESC6": "研究室に行かなくても亜鉛の含有量を評価できます。硫酸亜鉛を使った簡単なテストは、自宅で1分で行うことができます。少量の液体硫酸亜鉛を口に含み、味を評価するだけです。",
         "HEAD7": "テストが示すもの：",
@@ -1807,7 +1805,6 @@
         },
         "BUTTON3": "もっと詳しく知る",
         "ALT1": "若手有望なスペシャリスト集団 Martspec",
-
         "HEAD4": "あなたの安全は重要です",
         "DESC1": "当社が支払い、個人データ、書類を要求することは決してありません。当社がどのように候補者を保護し、採用詐欺をどう見分けるかについてご確認ください。",
         "BUTTON4": "安全な採用についてさらに詳しく",
@@ -2192,32 +2189,6 @@
                     "A": "Martspec @ LinkedIn",
                     "LINK": "https://www.linkedin.com/company/martspec/"
                 }
-            }
-        }
-    },
-    "VACANCY": {
-        "VACANCY_STATUS": {
-            "OPEN": "ポジションは空いています",
-            "CLOSED": "採用は中止されています"
-        },
-        "POSITIONS": {
-            "DESIGNER": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "MOBILE_DEVELOPER": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "FRONTEND": {
-                "VACANCY_STATUS": "CLOSED"
-            },
-            "QUALITY_ASSURANCE": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "BUSINESS_ANALYST": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "COPYWRITER": {
-                "VACANCY_STATUS": "OPEN"
             }
         }
     }

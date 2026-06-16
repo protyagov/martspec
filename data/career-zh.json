@@ -5,10 +5,6 @@
     "CONDITIONS_H2": "实习条件",
     "FEATURES_H2": "为什么选择我们：",
     "RESPONSE_BTN": "申请",
-    "VACANCY_STATUS": {
-        "OPEN": "职位空缺",
-        "CLOSED": "招聘暂停"
-    },
     "POSITIONS": {
         "DESIGNER": {
             "TITLE": "设计师",
@@ -51,8 +47,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5",
-            "VACANCY_STATUS": "CLOSED"
+            "APPLY_LINK": "https://forms.gle/ngf8BAFmXmyxb3zr5"
         },
         "MOBILE_DEVELOPER": {
             "TITLE": "iOS工程师",
@@ -94,8 +89,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/oozhCEzuyCJUMKSe7"
         },
         "FRONTEND": {
             "TITLE": "前端开发工程师",
@@ -138,8 +132,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/T6CRKYzWCGEHuaZUA"
         },
         "QUALITY_ASSURANCE": {
             "TITLE": "QA工程师",
@@ -182,8 +175,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/hgzrtG275gWFn66p7"
         },
         "BUSINESS_ANALYST": {
             "TITLE": "业务分析师",
@@ -231,8 +223,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA",
-            "VACANCY_STATUS": "CLOSED"
+            "APPLY_LINK": "https://forms.gle/8izfS61QE6xwFhvMA"
         },
         "COPYWRITER": {
             "TITLE": "文案撰稿人",
@@ -280,14 +271,13 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/yEDKN88AfVpyVYuN8"
         },
         "MARKETOLOGIST": {
             "TITLE": "市场营销专员",
             "DESC": "加入我们，成为营销实习生，帮助我们在 Apple 平台上发展健康与健身类应用。你将创作吸引人的内容、把握健康潮流，并以真诚的方式连接那些希望变得更强大、更健康、更自信的用户。你的工作将直接影响下载量、曝光度和真实用户增长。\n\n你将加入一个快速发展的创业团队，你的想法会真正落地——你可以自由地尝试大胆创意、探索新角度并验证效果。如果你热爱健身、健康、社交媒体，并想打造能改善日常生活的产品——我们一起成长。",
             "EXPECTATIONS": [
-                {   
+                {
                     "H3": "社交媒体管理与监控",
                     "UL": [
                         "管理和发展品牌社交媒体（Facebook、X、LinkedIn、TikTok 等）",
@@ -315,8 +305,7 @@
                     ]
                 }
             ],
-            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A",
-            "VACANCY_STATUS": "OPEN"
+            "APPLY_LINK": "https://forms.gle/9SSDZL2VAyCumgW4A"
         }
     },
     "CONDITIONS": [
