@@ -74,6 +74,7 @@ const ROUTES = [
         "ginko",
         "collagen",
         "ashwagandha",
+        "astragalus",
         "maca",
         "chaga",
         "fireweed",
