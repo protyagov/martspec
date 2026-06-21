@@ -151,7 +151,6 @@
         "ALT5_5": "Sincronize com o Apple Health.",
         "ALT5_6": "Ícone de smartwatch que mostra o suporte do app para widgets do Apple Watch, permitindo que os usuários acompanhem dados facilmente direto do pulso.",
         "BTN_OPEN": "Acompanhar",
-
         "HEAD5": "Dicas para o controle de peso",
         "DESC5": "Gerenciar seu peso corporal de forma eficaz exige consistência, conscientização e os hábitos certos. Aqui estão algumas dicas práticas para ajudá-lo a se manter no caminho certo:",
         "LIST4": {
@@ -1131,7 +1130,6 @@
         "ALT3_4": "Sincronização com o programa Apple Health - a melhor base de todas as vitaminas e microelementos.",
         "BTN_MORE": "MAIS DETALHES",
         "BTN_OPEN": "Apoiar",
-
         "HEAD6": "Verifique o seu nível de zinco em casa",
         "DESC6": "Pode avaliar os seus níveis de zinco sem necessidade de um laboratório. Um teste rápido com sulfato de zinco pode ser feito em casa em um minuto — basta colocar uma pequena quantidade de sulfato de zinco líquido na boca e avaliar o sabor.",
         "HEAD7": "O que o teste mostra:",
@@ -1811,7 +1809,6 @@
         },
         "BUTTON3": "Saber mais",
         "ALT1": "Um grupo de jovens e promissores especialistas de Martspec",
-
         "HEAD4": "A sua segurança é importante",
         "DESC1": "Nunca pedimos pagamentos, dados pessoais ou documentos. Saiba como protegemos os candidatos e como reconhecer fraudes de emprego.",
         "BUTTON4": "Saiba mais sobre contratação segura",
@@ -2196,32 +2193,6 @@
                     "A": "Martspec @ LinkedIn",
                     "LINK": "https://www.linkedin.com/company/martspec/"
                 }
-            }
-        }
-    },
-    "VACANCY": {
-        "VACANCY_STATUS": {
-            "OPEN": "A vaga está aberta",
-            "CLOSED": "O recrutamento está suspenso"
-        },
-        "POSITIONS": {
-            "DESIGNER": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "MOBILE_DEVELOPER": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "FRONTEND": {
-                "VACANCY_STATUS": "CLOSED"
-            },
-            "QUALITY_ASSURANCE": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "BUSINESS_ANALYST": {
-                "VACANCY_STATUS": "OPEN"
-            },
-            "COPYWRITER": {
-                "VACANCY_STATUS": "OPEN"
             }
         }
     }
