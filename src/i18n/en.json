@@ -1762,6 +1762,11 @@
         },
         "IMG": "Explore our apps on the App Store"
     },
+    "SP": {
+        "HEAD": "Job Scam Protection",
+        "DESC": "At Martspec, we understand that applying for jobs online sometimes comes with risks. We sympathize with those who encounter employment fraud and strive to help job seekers reduce the risk of falling victim to such schemes.",
+        "ALT": "Job Scam Protection"
+    },
     "TEAM": {
         "HEAD": "Our Team",
         "ABOUT": "We are a team that creates modern health applications designed for use on watches, smartphones and tablets. Our team includes iOS developers, QA engineers, designers and software engineers. Together we develop convenient, stylish and reliable solutions that help users improve their quality of life.",

@@ -67,7 +67,7 @@ export function App() {
             return <Team />;
         case "/careers":
             return <Careers />;
-        case "/scam-protection":
+        case "/careers/scam-protection":
             return <ScamProtection />;
         case "/iron":
             return <Iron />;

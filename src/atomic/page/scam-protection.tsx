@@ -19,33 +19,22 @@ export default function ScamProtection() {
         <>
             <NavigationBar />
 
-            {/*<div className="container-xl ms-s-offset fs-3 pt-lg-5">
+            <div className="container-xl fs-3 pt-lg-5">
                 <div className="row mb-3">
                     <Breadcrumb items={items} />
                 </div>
 
                 <Header
-                    title={_("ABOUT.HEAD")}
-                    imgSrc="/img/story.webp"
-                    imgAlt={_("ABOUT.IMG")}
+                    title={_("SP.HEAD")}
+                    imgSrc="/img/page/scam-protection/safety1.webp"
+                    imgAlt={_("SP.ALT")}
                     imgH={398}
                     imgW={542}
-                    appDownloadTitle="Download"
                 >
-                    <p className="font-normal mb-0">{_("ABOUT.P1")}</p>
+                    <p className="font-normal mb-0">{_("SP.DESC")}</p>
                 </Header>
 
-                <section className="pt-5">
-                    <CallToAction
-                        title="ABOUT.P2"
-                        subtitle="ABOUT.P3"
-                        appId={1}
-                        appDownloadTitle="Download"
-                        imgSrc="/img/about-statistik-en.webp"
-                        imgAlt={_("ABOUT.IMG")}
-                    />
-                </section>
-            </div>*/}
+            </div>
 
             <Footer />
             <ScrollButton />
