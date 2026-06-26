@@ -25,13 +25,13 @@ export default function ScamProtection() {
                 </div>
 
                 <Header
-                    title={_("SP.HEAD")}
+                    title={_("SCAM_PROTECTION.HEAD")}
                     imgSrc="/img/page/scam-protection/safety1.webp"
-                    imgAlt={_("SP.ALT")}
+                    imgAlt={_("SCAM_PROTECTION.ALT")}
                     imgH={398}
                     imgW={542}
                 >
-                    <p className="font-normal mb-0">{_("SP.DESC")}</p>
+                    <p className="font-normal mb-0">{_("SCAM_PROTECTION.DESC")}</p>
                 </Header>
 
             </div>
