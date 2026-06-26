@@ -290,6 +290,10 @@
       <loc>https://martspec.com/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/careers/scam-protection</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- English  -->
    <url>
@@ -578,6 +582,10 @@
    </url>
    <url>
       <loc>https://martspec.com/en/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/careers/scam-protection</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -870,6 +878,10 @@
       <loc>https://martspec.com/ar/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/ar/careers/scam-protection</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- China ZH  -->
    <url>
@@ -1158,6 +1170,10 @@
    </url>
    <url>
       <loc>https://martspec.com/zh/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/careers/scam-protection</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -1450,6 +1466,10 @@
       <loc>https://martspec.com/fr/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/fr/careers/scam-protection</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- German DE  -->
    <url>
@@ -1738,6 +1758,10 @@
    </url>
    <url>
       <loc>https://martspec.com/de/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/careers/scam-protection</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -2030,6 +2054,10 @@
       <loc>https://martspec.com/hi/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/hi/careers/scam-protection</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- Japanise JA  -->
    <url>
@@ -2318,6 +2346,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ja/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/careers/scam-protection</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -2610,6 +2642,10 @@
       <loc>https://martspec.com/pt/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/pt/careers/scam-protection</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- Russian RU  -->
    <url>
@@ -2898,6 +2934,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ru/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/careers/scam-protection</loc>
       <changefreq>monthly</changefreq>
    </url>
 
@@ -3190,6 +3230,10 @@
       <loc>https://martspec.com/es/privacy-policy</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/es/careers/scam-protection</loc>
+      <changefreq>monthly</changefreq>
+   </url>
 
 <!-- Ukrainian UK  -->
    <url>
@@ -3478,6 +3522,10 @@
    </url>
    <url>
       <loc>https://martspec.com/uk/privacy-policy</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/careers/scam-protection</loc>
       <changefreq>monthly</changefreq>
    </url>
 

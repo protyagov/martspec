@@ -1758,6 +1758,11 @@
         },
         "IMG": "Descubre nuestras aplicaciones en la App Store"
     },
+    "SCAM_PROTECTION": {
+        "HEAD": "Seguridad en la búsqueda de empleo",
+        "DESC": "En Martspec, entendemos que solicitar empleo en línea a veces conlleva riesgos. Nos solidarizamos con quienes se enfrentan al fraude laboral y nos esforzamos por ayudar a los solicitantes de empleo a reducir el riesgo de ser víctimas de este tipo de estafas.",
+        "ALT": "Seguridad en la búsqueda de empleo"
+    },
     "TEAM": {
         "HEAD": "Equipo",
         "ABOUT": "Somos un equipo que crea aplicaciones modernas para la salud, diseñadas para su uso en relojes, smartphones y tablets. Nuestro equipo incluye desarrolladores iOS, ingenieros QA, diseñadores e ingenieros de software. Juntos desarrollamos soluciones convenientes, elegantes y confiables que ayudan a los usuarios a mejorar su calidad de vida.",
