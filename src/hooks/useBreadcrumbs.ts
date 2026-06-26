@@ -21,6 +21,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             team: _("TEAM.HEAD"),
             about: _("ABOUT.HEAD"),
             careers: _("CAREERS.HEAD"),
+            "scam-protection": _("SCAM_PROTECTION.HEAD"),
             productivity: _("EMOTION.LIST6.LI2_HEAD"),
             bodymass: _("MASS.HEAD"),
             iron: _("IRON.HEAD"),

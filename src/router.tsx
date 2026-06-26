@@ -14,6 +14,7 @@ import BodySize from "@/atomic/page/bodysize";
 import Emotion from "@/atomic/page/emotion";
 import Biorhythms from "@/atomic/page/emotion/biorhythms";
 import About from "@/atomic/page/about";
+import ScamProtection from "@/atomic/page/scam-protection";
 import Team from "@/atomic/page/team";
 import ColorTest from "@/atomic/page/emotion/color-test";
 import Careers from "@/atomic/page/careers";
@@ -81,6 +82,8 @@ export function App() {
             return <Team />;
         case "/careers":
             return <Careers />;
+        case "/careers/scam-protection":
+            return <ScamProtection />;
         case "/iron":
             return <Iron />;
         case "/calcium":
