@@ -1,80 +1,86 @@
 {
-  "ALEX": {
-    "NAME": "एलेक्स",
-    "TITLE": "iOS डेवलपर",
-    "AVATAR": "/img/page/team/team_alex.webp",
-    "LINK": "https://www.linkedin.com/in/protyagov/"
-  },
-  "SERGEY_K": {
-    "NAME": "सर्गेई",
-    "TITLE": "QA इंजीनियर",
-    "AVATAR": "/img/page/team/team_sergeyK.webp",
-    "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
-  },
-  "SVETLANA": {
-    "NAME": "स्वेतलाना",
-    "TITLE": "कॉपीराइटर",
-    "AVATAR": "/img/page/team/team_svetlana.webp",
-    "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
-  },
-  "DARIA": {
-    "NAME": "दरिया",
-    "TITLE": "UI/UX डिज़ाइनर",
-    "AVATAR": "/img/page/team/team_daria.webp",
-    "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
-  },
-  "VITALY_V": {
-    "NAME": "विटाली",
-    "TITLE": "iOS डेवलपर",
-    "AVATAR": "/img/page/team/team_vitalyV.webp",
-    "LINK": ""
-  },
-  "NATALIIA": {
-    "NAME": "नतालिया",
-    "TITLE": "वेब डेवलपर",
-    "AVATAR": "/img/page/team/team_nataliia.webp",
-    "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
-  },
-  "LEYLI": {
-    "NAME": "लेयली",
-    "TITLE": "वेब डेवलपर",
-    "AVATAR": "/img/page/team/team_leyli.webp",
-    "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
-  },
-  "VICTORIA": {
-    "NAME": "विका",
-    "TITLE": "UI/UX डिज़ाइनर",
-    "AVATAR": "/img/page/team/team_vika.webp",
-    "LINK": ""
-  },
-  "AYAN": {
-    "NAME": "अयान",
-    "TITLE": "वेब डेवलपर",
-    "AVATAR": "/img/page/team/team_ayan.webp",
-    "LINK": "https://www.linkedin.com/in/ayan-baryshev-4a38a2366/"
-  },
-  "ANDRII": {
-    "NAME": "एंड्री",
-    "TITLE": "QA इंजीनियर",
-    "AVATAR": "/img/page/team/team_andrii.webp",
-    "LINK": ""
-  },
-  "LIUDMILA": {
-    "NAME": "ल्यूडमिला",
-    "TITLE": "UI/UX डिज़ाइनर",
-    "AVATAR": "/img/page/team/team_liudmila.webp",
-    "LINK": ""
-  },
-  "EVGEN": {
-    "NAME": "एव्गेनि",
-    "TITLE": "वेब डेवलपर",
-    "AVATAR": "/img/page/team/team_evgeny.webp",
-    "LINK": "https://www.linkedin.com/in/evgen-khamitcevich"
-  },
-  "ANDREI": {
-    "NAME": "एंड्री",
-    "TITLE": "वेब डेवलपर",
-    "AVATAR": "/img/page/team/team_andrei.webp",
-    "LINK": "https://www.linkedin.com/in/andrei-bogdanovich/"
-  }
+    "ALEX": {
+        "NAME": "एलेक्स",
+        "TITLE": "iOS डेवलपर",
+        "AVATAR": "/img/page/team/team_alex.webp",
+        "LINK": "https://www.linkedin.com/in/protyagov/"
+    },
+    "SERGEY_K": {
+        "NAME": "सर्गेई",
+        "TITLE": "QA इंजीनियर",
+        "AVATAR": "/img/page/team/team_sergeyK.webp",
+        "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
+    },
+    "SVETLANA": {
+        "NAME": "स्वेतलाना",
+        "TITLE": "कॉपीराइटर",
+        "AVATAR": "/img/page/team/team_svetlana.webp",
+        "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
+    },
+    "DARIA": {
+        "NAME": "दरिया",
+        "TITLE": "UI/UX डिज़ाइनर",
+        "AVATAR": "/img/page/team/team_daria.webp",
+        "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
+    },
+    "VITALY_V": {
+        "NAME": "विटाली",
+        "TITLE": "iOS डेवलपर",
+        "AVATAR": "/img/page/team/team_vitalyV.webp",
+        "LINK": ""
+    },
+    "NATALIIA": {
+        "NAME": "नतालिया",
+        "TITLE": "वेब डेवलपर",
+        "AVATAR": "/img/page/team/team_nataliia.webp",
+        "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
+    },
+    "LEYLI": {
+        "NAME": "लेयली",
+        "TITLE": "वेब डेवलपर",
+        "AVATAR": "/img/page/team/team_leyli.webp",
+        "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
+    },
+    "VICTORIA": {
+        "NAME": "विका",
+        "TITLE": "UI/UX डिज़ाइनर",
+        "AVATAR": "/img/page/team/team_vika.webp",
+        "LINK": ""
+    },
+    "AYAN": {
+        "NAME": "अयान",
+        "TITLE": "वेब डेवलपर",
+        "AVATAR": "/img/page/team/team_ayan.webp",
+        "LINK": "https://www.linkedin.com/in/ayan-baryshev-4a38a2366/"
+    },
+    "ANDRII": {
+        "NAME": "एंड्री",
+        "TITLE": "QA इंजीनियर",
+        "AVATAR": "/img/page/team/team_andrii.webp",
+        "LINK": ""
+    },
+    "EVGEN": {
+        "NAME": "एव्गेनि",
+        "TITLE": "वेब डेवलपर",
+        "AVATAR": "/img/page/team/team_evgeny.webp",
+        "LINK": "https://www.linkedin.com/in/evgen-khamitcevich"
+    },
+    "ANDREI": {
+        "NAME": "एंड्री",
+        "TITLE": "वेब डेवलपर",
+        "AVATAR": "/img/page/team/team_andrei.webp",
+        "LINK": "https://www.linkedin.com/in/andrei-bogdanovich/"
+    },
+    "ARINA": {
+        "NAME": "अरीना",
+        "TITLE": "ल्यूडमिला",
+        "AVATAR": "/img/page/team/team_arina.webp",
+        "LINK": "https://www.linkedin.com/in/arina-tikhomirova-11729b3b3/"
+    },
+    "ULIA": {
+        "NAME": "यूलिया",
+        "TITLE": "iOS डेवलपर",
+        "AVATAR": "/img/page/team/team_ulia.webp",
+        "LINK": "https://www.linkedin.com/in/yuliya-yamgurova-412075374/?locale=ru-RU"
+    }
 }
