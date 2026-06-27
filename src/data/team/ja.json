@@ -82,5 +82,17 @@
         "TITLE": "iOS開発者",
         "AVATAR": "/img/page/team/team_ulia.webp",
         "LINK": "https://www.linkedin.com/in/yuliya-yamgurova-412075374/?locale=ru-RU"
+    },
+    "KATE": {
+        "NAME": "エカテリーナ",
+        "TITLE": "UI/UXデザイナー",
+        "AVATAR": "/img/page/team/team_kate.webp",
+        "LINK": ""
+    },
+    "ZHANEL": {
+        "NAME": "ジャネル",
+        "TITLE": "UI/UXデザイナー",
+        "AVATAR": "/img/page/team/team_zhanel.webp",
+        "LINK": ""
     }
 }
