@@ -12,7 +12,7 @@ interface IReviewCardProps {
     createdDate: string;
     reviewText: string;
     rating: string;
-    bgImage: string;
+    bgImage?: string | null;
     reviewLink: string;
     readMoreText: string;
     hasUnderlineHover?: boolean
@@ -45,12 +45,17 @@ export default function ReviewCard({
         option: "see-all=reviews",
     });
 
+    const hasBgImage = !!bgImage;
+
+    console.log("cardBg:", bgImage);
+
     return (
         <li
             className="review-card"
             style={{
                 backgroundColor: isMobile ? 'transparent' : "#fff",
-                backgroundImage: !isMobile ? `url(${bgImage})` : 'none',
+                // backgroundImage: !isMobile ? `url(${bgImage})` : 'none',
+                backgroundImage: !isMobile && hasBgImage ? `url(${bgImage})` : undefined,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}

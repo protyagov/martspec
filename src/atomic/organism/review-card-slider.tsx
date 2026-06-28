@@ -27,12 +27,14 @@ export default function ReviewCardSlider({ reviews, currentPage, onPageChange, t
 
     const middleIndex = 1; 
 
+    console.log("bgImage:", backgroundImages);
+
     return (
         <ul className="review__list">
             {reviews.map((r, i) => {
                 const isMiddleCard = i === middleIndex;
 
-                const cardBg = isMiddleCard ? backgroundImages : '';
+                const cardBg = isMiddleCard ? backgroundImages : null;
 
                 if (isFiller(r)) {
                     return (
