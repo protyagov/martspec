@@ -135,7 +135,7 @@ export default function Vitamin() {
     const advantages: Array<IconTitleText> = [
         {
             icon: {
-                src: "/img/atom/icons/icon-defense.svg",
+                src: "/img/atom/icons/vitamin/defence.webp",
                 alt: _("VITAMIN.ALT5_1"),
             },
             title: _("VITAMIN.LIST4.LI1_HEAD"),
@@ -143,7 +143,7 @@ export default function Vitamin() {
         },
         {
             icon: {
-                src: "/img/atom/icons/icon-sync.svg",
+                src: "/img/atom/icons/vitamin/arrows.webp",
                 alt: _("VITAMIN.ALT5_2"),
             },
             title: _("VITAMIN.LIST4.LI2_HEAD"),
@@ -151,7 +151,7 @@ export default function Vitamin() {
         },
         {
             icon: {
-                src: "/img/atom/icons/icon-no-auth.svg",
+                src: "/img/atom/icons/vitamin/ads.webp",
                 alt: _("VITAMIN.ALT5_3"),
             },
             title: _("VITAMIN.LIST4.LI3_HEAD"),
@@ -159,7 +159,7 @@ export default function Vitamin() {
         },
         {
             icon: {
-                src: "/img/atom/icons/icon-no-ads.svg",
+                src: "/img/atom/icons/vitamin/auth.webp",
                 alt: _("VITAMIN.ALT5_4"),
             },
             title: _("VITAMIN.LIST4.LI4_HEAD"),
@@ -167,7 +167,7 @@ export default function Vitamin() {
         },
         {
             icon: {
-                src: "/img/atom/icons/icon-bell.svg",
+                src: "/img/atom/icons/vitamin/bell.webp",
                 alt: _("VITAMIN.ALT5_5"),
             },
             title: _("VITAMIN.LIST4.LI5_HEAD"),
@@ -302,8 +302,9 @@ export default function Vitamin() {
                 <section>
                     <div className="row">
                         <div className="col-lg-6">
+                         
                             <ImageI18N
-                                src="/img/page/vitamin/vitamin-screen-edit-en.webp"
+                                src="/img/page/vitamin/Img-Block3-en.webp"
                                 w={487}
                                 h={515}
                                 cls="ms-base-image d-none d-lg-block"
@@ -337,7 +338,7 @@ export default function Vitamin() {
                     </div>
                 </section>
 
-                <section className="bg-gray m-0">
+                <section className="m-0">
                     <div className="row">
                         <div className="col-12">
                             <h2>{_("VITAMIN.HEAD4")}</h2>
@@ -350,7 +351,7 @@ export default function Vitamin() {
 
                 <section>
                     <div className="row">
-                        <h2 className="col-xl-7 col-lg-8 col-12 mt-5 p-0">{_("VITAMIN.HEAD5")}</h2>
+                        <h2 className="col-xl-7 col-lg-8 col-12 mt-5 p-0" style={{fontSize: '40px'}}>{_("VITAMIN.HEAD5")}</h2>
                         <div className="row align-items-stretch row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 px-0 g-4">
                             <div className="col px-0">
                                 <ul className="row row-cols-2 p-0 m-0 g-4 list-unstyled">

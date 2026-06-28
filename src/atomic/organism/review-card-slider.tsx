@@ -7,11 +7,7 @@ import { SendReviewsLink } from "@/atomic/organism/review-link";
 import { IReview } from "@/model/IReviewData";
 import { IFiller } from "@/model/IReviewWithFiller";
 
-const backgroundImages = [
-    new URL("@/img/org/first-review-bg.svg", import.meta.url).href,
-    new URL("@/img/org/second-review-bg.svg", import.meta.url).href,
-    new URL("@/img/org/third-review-bg.svg", import.meta.url).href,
-];
+const backgroundImages = new URL("@/img/page/vitamin/Card-Blue-Review.webp", import.meta.url).href;
 
 function isFiller(r: IReview | IFiller): r is IFiller {
     return "filler" in r;
@@ -29,10 +25,14 @@ export default function ReviewCardSlider({ reviews, currentPage, onPageChange, t
     const { text } = useReviewContext();
     const isMobile = useMediaQuery("(max-width: 991px)");
 
+    const middleIndex = 1; 
+
     return (
         <ul className="review__list">
             {reviews.map((r, i) => {
-                const bgImage = backgroundImages[i % 3];
+                const isMiddleCard = i === middleIndex;
+
+                const cardBg = isMiddleCard ? backgroundImages : '';
 
                 if (isFiller(r)) {
                     return (
@@ -40,7 +40,7 @@ export default function ReviewCardSlider({ reviews, currentPage, onPageChange, t
                             link={<SendReviewsLink hasUnderlineHover={hasUnderlineHover} />}
                             posIndex={i}
                             key={text.fillerCard.head[i] ?? `filler-${i}`}
-                            bgImage={bgImage}
+                            bgImage=''
                         />
                     );
                 }
@@ -52,7 +52,7 @@ export default function ReviewCardSlider({ reviews, currentPage, onPageChange, t
                         reviewText={r.content.label}
                         reviewerNickname={r.author.name.label}
                         rating={r["im:rating"].label}
-                        bgImage={bgImage}
+                        bgImage={cardBg}
                         reviewLink={r.link.attributes.href}
                         readMoreText={text.readMoreLink}
                         hasUnderlineHover={hasUnderlineHover}

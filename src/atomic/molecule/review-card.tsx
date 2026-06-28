@@ -49,7 +49,7 @@ export default function ReviewCard({
         <li
             className="review-card"
             style={{
-                backgroundColor: isMobile ? 'transparent' : themeColor,
+                backgroundColor: isMobile ? 'transparent' : "#fff",
                 backgroundImage: !isMobile ? `url(${bgImage})` : 'none',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',

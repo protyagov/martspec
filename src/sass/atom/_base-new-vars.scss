@@ -40,12 +40,14 @@ $emotion-colors: (
     "hover": #c17add,
     "active": #780ba3,
     "bg": map-get($bgs-new, "violet"),
+    
 );
 
 $vitamin-colors: (
     "main": #0066cc,
-    "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
-    "bg": map-get($bgs-new, "blue"),
+    // "main-filter": brightness(0) saturate(100%) invert(24%) sepia(95%) saturate(7485%) hue-rotate(199deg) brightness(97%) contrast(101%),
+    // "bg": map-get($bgs-new, "blue"),
+    "bg": #F4F5F8
 );
 
 $bodymass-colors: (
