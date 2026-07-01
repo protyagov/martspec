@@ -135,7 +135,7 @@ export default function Vitamin() {
     const advantages: Array<IconTitleText> = [
         {
             icon: {
-                src: "/img/atom/icons/vitamin/defence.webp",
+                src: "/img/atom/icons/vitamin/defence.svg",
                 alt: _("VITAMIN.ALT5_1"),
             },
             title: _("VITAMIN.LIST4.LI1_HEAD"),
@@ -143,7 +143,7 @@ export default function Vitamin() {
         },
         {
             icon: {
-                src: "/img/atom/icons/vitamin/arrows.webp",
+                src: "/img/atom/icons/vitamin/auth.svg",
                 alt: _("VITAMIN.ALT5_2"),
             },
             title: _("VITAMIN.LIST4.LI2_HEAD"),
@@ -151,7 +151,7 @@ export default function Vitamin() {
         },
         {
             icon: {
-                src: "/img/atom/icons/vitamin/ads.webp",
+                src: "/img/atom/icons/vitamin/ads.svg",
                 alt: _("VITAMIN.ALT5_3"),
             },
             title: _("VITAMIN.LIST4.LI3_HEAD"),
@@ -159,7 +159,7 @@ export default function Vitamin() {
         },
         {
             icon: {
-                src: "/img/atom/icons/vitamin/auth.webp",
+                src: "/img/atom/icons/vitamin/bell.svg",
                 alt: _("VITAMIN.ALT5_4"),
             },
             title: _("VITAMIN.LIST4.LI4_HEAD"),
@@ -167,7 +167,7 @@ export default function Vitamin() {
         },
         {
             icon: {
-                src: "/img/atom/icons/vitamin/bell.webp",
+                src: "/img/atom/icons/vitamin/sync.svg",
                 alt: _("VITAMIN.ALT5_5"),
             },
             title: _("VITAMIN.LIST4.LI5_HEAD"),

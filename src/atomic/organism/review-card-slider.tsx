@@ -76,9 +76,9 @@ import { IReview } from "@/model/IReviewData";
 import { IFiller } from "@/model/IReviewWithFiller";
 
 const backgroundImages = [
-    new URL("@/img/org/first-review-bg.svg", import.meta.url).href,
+    new URL("@/img/org/background-review-white.svg", import.meta.url).href,
     new URL("@/img/org/second-review-bg.svg", import.meta.url).href,
-    new URL("@/img/org/third-review-bg.svg", import.meta.url).href,
+    new URL("@/img/org/background-review-white.svg", import.meta.url).href,
 ];
 
 function isFiller(r: IReview | IFiller): r is IFiller {
