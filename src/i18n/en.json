@@ -950,76 +950,91 @@
         "CHAGA": {
             "HEAD": "Chg",
             "NAME": "Chaga mushroom",
+            "CATEGORY": "mushroom",
             "DESK": "Chaga is an amazing medicinal mushroom with pronounced immunomodulatory and antioxidant properties."
         },
         "TURMERIC": {
             "HEAD": "Cur",
             "NAME": "Curcumin",
+            "CATEGORY": "extract",
             "DESK": "Turmeric is a powerful spice with many potential health benefits."
         },
         "ACAI": {
             "HEAD": "Aci",
             "NAME": "Acai",
+            "CATEGORY": "berry",
             "DESK": "Acai is a berry harvested from the acai palm in the tropical forests of South America, a product with a unique composition and great therapeutic potential."
         },
         "ASTRAGALUS": {
             "HEAD": "Asg",
             "NAME": "Astragalus",
+            "CATEGORY": "extract",
             "DESK": "Astragalus supports immune system health by increasing white blood cell production and regulating cytokine levels, promoting an effective but balanced immune response."
         },
         "LION": {
             "HEAD": "Lmn",
             "NAME": "Lion's Mane mushroom",
+            "CATEGORY": "mushroom",
             "DESK": "Lion's Mane mushroom contains powerful natural compounds that help combat both inflammation and oxidative damage."
         },
         "COLLAGEN": {
             "HEAD": "Clp",
             "NAME": "Collagen peptides",
+            "CATEGORY": "protein",
             "DESK": "Collagen is the body's main structural protein (making up about 30% of the total protein in the body), providing strength and elasticity to the skin, bones, ligaments, and cartilage."
         },
         "ASHWAGANDHA": {
             "HEAD": "Awe",
             "NAME": "Ashwagandha extract",
+            "CATEGORY": "extract",
             "DESK": "Ashwagandha is one of the most important plants in Ayurvedic medicine, used for over 3000 years to strengthen the body, restore balance, and promote longevity."
         },
         "GINKO": {
             "HEAD": "Gkb",
             "NAME": "Ginkgo biloba",
+            "CATEGORY": "extract",
             "DESK": "Ginkgo biloba may help reduce anxiety and maintain emotional balance."
         },
         "TURKEY_TAIL": {
             "HEAD": "Tkt",
             "NAME": "Turkey Tail mushroom",
+            "CATEGORY": "mushroom",
             "DESK": "It has been widely studied by science as a medicinal mushroom known for its immunomodulatory and adaptogenic properties."
         },
         "MACA": {
             "HEAD": "Mca",
             "NAME": "Maca",
+            "CATEGORY": "extract",
             "DESK": "Maca is best known for its ability to support hormonal balance and reproductive health - it does this naturally, containing no plant hormones."
         },
         "FIREWEED": {
             "HEAD": "Frw",
             "NAME": "Fireweed tea",
+            "CATEGORY": "herbal blend",
             "DESK": "It provides powerful support for gut and digestive health thanks to its unique combination of natural compounds."
         },
         "CORDYCEPS_POWDER": {
             "HEAD": "Crp",
             "NAME": "Cordyceps powder",
+            "CATEGORY": "mushroom",
             "DESK": "This unique mushroom has been highly valued in traditional Chinese medicine for its ability to increase energy, endurance, and overall vitality."
         },
         "COCOA_POWDER": {
             "HEAD": "Ccp",
             "NAME": "Cocoa powder",
+            "CATEGORY": "superfood",
             "DESK": "Natural polyphenols and flavonoids help reduce chronic inflammation and protect the body's cells from damage that contributes to aging and disease."
         },
         "KOMBUCHA": {
             "HEAD": "Cmb",
             "NAME": "Kombucha tea mushroom",
+            "CATEGORY": "fermented product",
             "DESK": "It promotes the restoration of the gut microbiome and improves nutrient absorption."
         },
         "TREMELLA": {
             "HEAD": "Tml",
             "NAME": "Tremella mushroom",
+            "CATEGORY": "mushroom",
             "DESK": "Nature’s ultimate hydration. Holds 500x its weight in water for glowing skin, deep moisture, and lasting beauty."
         }
     },
