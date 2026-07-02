@@ -33,6 +33,25 @@ interface VitaminGroup {
     linkHoverColor: React.CSSProperties["color"];
     itemList: string[];
 }
+
+const CATEGORY_ICON: Record<string, string> = {
+    ACAI: "berry",
+    ASHWAGANDHA: "extract",
+    ASTRAGALUS: "extract",
+    CHAGA: "mushroom",
+    COCOA_POWDER: "superfood",
+    COLLAGEN: "protein",
+    KOMBUCHA: "fermented-product",
+    CORDYCEPS_POWDER: "mushroom",
+    TURMERIC: "extract",
+    FIREWEED: "herbal-blend",
+    GINKO: "extract",
+    LION: "mushroom",
+    MACA: "extract",
+    TURKEY_TAIL: "mushroom",
+    TREMELLA: "mushroom",
+};
+
 const COMING_SOON_PAGES = new Set(["CORDYCEPS_POWDER", "COCOA_POWDER"]);
 const vitamins: VitaminGroup[] = [
     {
@@ -103,7 +122,7 @@ const vitamins: VitaminGroup[] = [
             bgImg: { src: "/img/page/vitamin/vitamin-list-header-FoodAdditives-bg.svg", width: 80, height: 110 },
             mobileBgResized: true,
         },
-        bgImg: { src: "/img/page/vitamin/vitamin-card-FoodAdditives-bg.png", width: 100, height: 160 },
+        bgImg: { src: "/img/page/vitamin/vitamin-card-FoodAdditives-bg.svg", width: 100, height: 160, position: "bottom" },
         bgColor: "#ECD6EAA3",
         primaryColor: "#AD43D7",
         linkHoverColor: "#CB30E0",
@@ -113,7 +132,7 @@ const vitamins: VitaminGroup[] = [
             "ASTRAGALUS",
             "CHAGA",
             "COCOA_POWDER",
-            "COLLAGEN",
+            "COLLAGEN", 
             "KOMBUCHA",
             "CORDYCEPS_POWDER",
             "TURMERIC",
@@ -429,6 +448,10 @@ export default function Vitamin() {
                                                     <CardVitamin
                                                         title={_(`VITAMIN.${article}.HEAD`)}
                                                         subtitle={_(`VITAMIN.${article}.NAME`)}
+                                                        category={_(`VITAMIN.${article}.CATEGORY`)}
+                                                        iconSrc={CATEGORY_ICON[article]
+                                                        ? `/img/page/vitamin/vitamin-card-icon-${CATEGORY_ICON[article]}.svg`
+                                                        : undefined}
                                                         description={_(`VITAMIN.${article}.DESK`)}
                                                         actionLink={{
                                                             text: _("VITAMIN.BTN_GO"),
