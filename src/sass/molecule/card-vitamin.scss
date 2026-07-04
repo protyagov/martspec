@@ -5,27 +5,57 @@
 .card-vitamin {
     .title {
         font-family: os5, sans-serif;
-        font-size: 6.625rem;
-        margin-top: 2.5rem;
+        font-size: 4.5rem;
+        
     }
 
     .title-subscript {
+        font-family: os4, sans-serif;
         font-size: 2.25rem;
         vertical-align: bottom;
     }
 
-    .subtitle,
+    .title-circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 7.80rem;
+        height: 7.80rem;
+        border-radius: 50%;
+        margin-top: 3.5rem;
+        background: #fff;
+    }
+    
+    .title-icon {
+        width: 60%;
+        height: 60%;
+        object-fit: contain;
+    }
+
+    .subtitle-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 6.875rem;
+    }
+
+    .subtitle {
+        font-family: os5, sans-serif;
+        font-size: 1.375rem;
+        max-width: 15ch;
+        word-break: keep-all;
+        text-transform: capitalize;
+    }
+
+    .category {
+        font-family: os4, sans-serif;
+        font-size: 1rem;
+    }
+
     .card-content,
     .description,
     .card-action {
         font-family: os4, sans-serif;
-    }
-
-    .subtitle {
-        font-size: 18px;
-        min-height: 6.875rem;
-        max-width: 15ch;
-        word-break: keep-all;
     }
 
     .card-action {
@@ -53,17 +83,20 @@
 
     @include media-breakpoint-up(lg) {
         .title {
-            font-size: 6.125rem;
-            margin-top: 3rem;
+            font-size: 3.5rem;
+            
         }
 
         .title-subscript {
             font-size: 2rem;
         }
 
-        .subtitle {
-            font-size: 18px;
+        .subtitle-group {
             min-height: 7.125rem;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
         }
 
         .description {
