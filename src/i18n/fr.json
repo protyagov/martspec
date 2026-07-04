@@ -191,42 +191,42 @@
             "LI3_HEAD": "Toutes les vitamines et minéraux de la santé des pommes",
             "LI3_TEXT": "Nous soutenons la gamme complète des vitamines et minéraux essentiels d'Apple."
         },
-        "HEAD3": "Vitamines et minéraux",
-        "DESC3_1": "L'outil ultime pour suivre et optimiser votre apport en nutriments.  Spécialement conçue pour se synchroniser en toute transparence avec Apple Health, cette application vous fournit des informations détaillées sur chaque élément essentiel, y compris les doses journalières et maximales recommandées. L'application vous donne un aperçu des choix alimentaires riches en vitamines et minéraux spécifiques, ce qui vous permet de prendre des décisions éclairées sur ce que vous mangez. ",
-        "DESC3_2": "Les informations sur chaque élément comprennent :",
+        "HEAD3": "Principe de fonctionnement",
+        "DESC3_1": "Le suivi de la prise de vitamines favorise une alimentation équilibrée et aide à adopter une approche plus consciente du choix des aliments, ce qui a un effet positif sur l’état du corps et de l’esprit.",
+        "DESC3_2": "Il fournit des informations sur chaque vitamine :",
         "LIST3": {
-            "LI1_TEXT": "Aliments riches en cet élément",
-            "LI2_TEXT": "Signes de carence en élément",
-            "LI3_TEXT": "Limite d'apport journalière et supérieure",
+            "LI1_TEXT": "Aliments contenant cet élément",
+            "LI2_TEXT": "Signes de carence de cet élément dans l’organisme",
+            "LI3_TEXT": "Apports journaliers et maximaux recommandés",
             "LI4_TEXT": "Informations sur le surdosage",
-            "LI5_TEXT": "Fonction de l'élément dans votre corps",
-            "LI6_TEXT": "Faits intéressants concernant l'élément"
+            "LI5_TEXT": "Fonction de l’élément sélectionné",
+            "LI6_TEXT": "Fait intéressant sur l’élément"
         },
-        "HEAD4": "Avantages de la vitamine",
+        "HEAD4": "Avantages des vitamines",
         "LIST4": {
             "LI1_HEAD": "Protection des données",
-            "LI1_TEXT": "Nous ne stockons pas vos données sur nos serveurs.",
+            "LI1_TEXT": "Nous ne stockons pas vos données sur nos serveurs",
             "LI2_HEAD": "Synchronisation",
-            "LI2_TEXT": "Les données sont automatiquement transférées sur tous les appareils.",
-            "LI3_HEAD": "Aucune autorisation",
-            "LI3_TEXT": "Un compte n'est pas nécessaire pour utiliser l'application.",
-            "LI4_HEAD": "Pas de pubs",
-            "LI4_TEXT": "Nous n'avons pas de publicités ennuyeuses.",
-            "LI5_HEAD": "Remarquez sur la prise de vitamines",
-            "LI5_TEXT": "Rappelle le rendez-vous par heures, jours et semaines.",
-            "LI6_HEAD": "Synchroniser avec Apple Health",
-            "LI6_TEXT": "Entre les appareils via iCloud et l'application Apple Health."
+            "LI2_TEXT": "Les données sont automatiquement synchronisées sur tous les appareils",
+            "LI3_HEAD": "Sans publicité",
+            "LI3_TEXT": "Nous n’avons pas de publicités intrusives",
+            "LI4_HEAD": "Sans authentification",
+            "LI4_TEXT": "Aucun compte n’est requis pour cette application",
+            "LI5_HEAD": "Notifications de prise de vitamines",
+            "LI5_TEXT": "Vous rappelle de prendre vos vitamines par heures, jours et semaines",
+            "LI6_HEAD": "Synchronisation avec Apple Health",
+            "LI6_TEXT": "Entre appareils via iCloud et l’application Apple Health"
         },
-        "HEAD5": "L'application suit les vitamines et minéraux essentiels:",
+        "HEAD5": "L’application suit les vitamines et minéraux essentiels :",
         "LIST5": {
             "LI1_HEAD": "4",
             "LI1_TEXT": "Vitamines liposolubles",
             "LI2_HEAD": "9",
-            "LI2_TEXT": "Vitamines solubles dans l'eau",
+            "LI2_TEXT": "Vitamines hydrosolubles",
             "LI3_HEAD": "14",
             "LI3_TEXT": "Minéraux",
-            "LI4_HEAD": "20",
-            "LI4_TEXT": "Ajoutez vos articles"
+            "LI4_HEAD": "80",
+            "LI4_TEXT": "éléments"
         },
         "ALT2": "iPhone affichant des statistiques sur les vitamines et une liste de vitamines dans l'application Vitamine de Martspec.",
         "ALT3": "L'iPad, l'iPhone et l'Apple Watch affichent des informations sur l'apport en vitamines dans l'application Vitamine de Martspec.",
@@ -948,76 +948,91 @@
         "CHAGA": {
             "HEAD": "Chg",
             "NAME": "Champignon Chaga",
+            "CATEGORY": "champignon",
             "DESK": "Le Chaga est un champignon médicinal étonnant aux propriétés immunomodulatrices et antioxydantes prononcées."
         },
         "TURMERIC": {
             "HEAD": "Cur",
             "NAME": "Curcumine",
+            "CATEGORY": "extrait",
             "DESK": "Le curcuma est une épice puissante aux nombreux bienfaits potentiels pour la santé."
         },
         "ACAI": {
             "HEAD": "Aci",
             "NAME": "Açaï",
+            "CATEGORY": "baie",
             "DESK": "L'açaï est une baie récoltée sur le palmier açaï dans les forêts tropicales d'Amérique du Sud, un produit à la composition unique et au grand potentiel thérapeutique."
         },
         "ASTRAGALUS": {
             "HEAD": "Asg",
             "NAME": "Astragale",
+            "CATEGORY": "extrait",
             "DESK": "L'astragale soutient la santé du système immunitaire en augmentant la production de globules blancs et en régulant les niveaux de cytokines, favorisant une réponse immunitaire efficace mais équilibrée."
         },
         "LION": {
             "HEAD": "Lmn",
             "NAME": "Champignon Crinière de Lion",
+            "CATEGORY": "champignon",
             "DESK": "Le champignon Crinière de Lion contient des composés naturels puissants qui aident à lutter contre l'inflammation et les dommages oxydatifs."
         },
         "COLLAGEN": {
             "HEAD": "Clp",
             "NAME": "Peptides de collagène",
+            "CATEGORY": "protéine",
             "DESK": "Le collagène est la principale protéine structurelle du corps (représentant environ 30 % des protéines totales du corps), conférant force et élasticité à la peau, aux os, aux ligaments et au cartilage."
         },
         "ASHWAGANDHA": {
             "HEAD": "Awe",
             "NAME": "Extrait d'Ashwagandha",
+            "CATEGORY": "extrait",
             "DESK": "L'Ashwagandha est l'une des plantes les plus importantes de la médecine ayurvédique, utilisée depuis plus de 3000 ans pour renforcer le corps, rétablir l'équilibre et promouvoir la longévité."
         },
         "GINKO": {
             "HEAD": "Gkb",
             "NAME": "Ginkgo biloba",
+            "CATEGORY": "extrait",
             "DESK": "Le Ginkgo biloba peut aider à réduire l'anxiété et à maintenir l'équilibre émotionnel."
         },
         "TURKEY_TAIL": {
             "HEAD": "Tkt",
             "NAME": "Champignon Queue de Dinde",
+            "CATEGORY": "champignon",
             "DESK": "Il a été largement étudié par la science en tant que champignon médicinal connu pour ses propriétés immunomodulatrices et adaptogènes."
         },
         "MACA": {
             "HEAD": "Mca",
             "NAME": "Maca",
+            "CATEGORY": "extrait",
             "DESK": "La maca est surtout connue pour sa capacité à soutenir l'équilibre hormonal et la santé reproductive - elle le fait naturellement, sans contenir d'hormones végétales."
         },
         "FIREWEED": {
             "HEAD": "Frw",
             "NAME": "Thé d'Épilobe",
+            "CATEGORY": "mélange d'herbes",
             "DESK": "Il fournit un soutien puissant pour la santé intestinale et digestive grâce à sa combinaison unique de composés naturels."
         },
         "CORDYCEPS_POWDER": {
             "HEAD": "Crp",
             "NAME": "Poudre de Cordyceps",
+            "CATEGORY": "champignon",
             "DESK": "Ce champignon unique a été très prisé en médecine traditionnelle chinoise pour sa capacité à augmenter l'énergie, l'endurance et la vitalité générale."
         },
         "COCOA_POWDER": {
             "HEAD": "Ccp",
             "NAME": "Poudre de cacao",
+            "CATEGORY": "superaliment",
             "DESK": "Les polyphénols et flavonoïdes naturels aident à réduire l'inflammation chronique et protègent les cellules du corps des dommages contribuant au vieillissement et aux maladies."
         },
         "KOMBUCHA": {
             "HEAD": "Cmb",
             "NAME": "Champignon de thé Kombucha",
+            "CATEGORY": "produit fermenté",
             "DESK": "Il favorise la restauration du microbiome intestinal et améliore l'absorption des nutriments."
         },
         "TREMELLA": {
             "HEAD": "Tml",
             "NAME": "Champignon tremella",
+            "CATEGORY": "champignon",
             "DESK": "L’hydratation ultime de la nature. Retient 500 fois son poids en eau pour une peau éclatante et une beauté durable."
         }
     },
