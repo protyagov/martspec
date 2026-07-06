@@ -1763,7 +1763,23 @@
     "SCAM_PROTECTION": {
         "HEAD": "Job Scam Protection",
         "DESC": "At Martspec, we understand that applying for jobs online sometimes comes with risks. We sympathize with those who encounter employment fraud and strive to help job seekers reduce the risk of falling victim to such schemes.",
-        "ALT": "Job Scam Protection"
+        "ALT": "Job Scam Protection",
+        "LIST1": {
+        "HEAD": "How we protect your data",
+        "DESC1": "Before we get to common signs of fraud, we want to clarify our hiring process. At Martspec, everything is based solely on a person's professional qualities, skills, contributions, and results — regardless of gender, age, personal connections, or other factors.",
+        "SUBHEAD1": "What we never ask for:",
+        "TEXT1": "Actual date of birth or age",
+        "TEXT2": "Passport",
+        "TEXT3": "Driver's license",
+        "TEXT4": "Phone number",
+        "TEXT5": "Social Security number",
+        "TEXT6": "Any other sensitive personal data",
+        "SUBHEAD2": "What data we actually need",
+        "DESC2": "For most candidates, we only need:",
+        "TEXT7": "Name (so we can address you correctly)",
+        "TEXT8": "Email for communication",
+        "TEXT9": "Sometimes - time zone (our team works across different time zones, so we don't want to disturb you in the middle of the night)"
+    }
     },
     "TEAM": {
         "HEAD": "Our Team",

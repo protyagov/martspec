@@ -12,6 +12,12 @@
     font-family: os3;
     font-size: 1.5rem;
 
+    .bullet {
+        font-family: os3;
+        font-weight: 0;
+        font-size: 19px;
+    }
+
     ul {
         list-style-type: none;
         padding-left: 0;
@@ -96,4 +102,11 @@
         }
     }
 
+    @media (max-width: 1300px) {
+        .row.block > .col-lg-6 {
+            width: 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
 }

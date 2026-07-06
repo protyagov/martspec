@@ -4,14 +4,16 @@ import '@/sass/molecule/bullet-list.scss';
 interface BulletListProps {
   items: string[];
   iconColor: string;
-  className?: string; 
+  className?: string;
+  type?: "tick" | "cross";
 }
 
-const BulletList: React.FC<BulletListProps> = ({ items, iconColor, className }) => {
+const BulletList: React.FC<BulletListProps> = ({ items, iconColor, className, type = "tick" }) => {
   return (
       <ul className={className}>
         {items.map((item, index) => (
           <li key={index}>
+          {type === "tick" ? (
             <svg
               className="bullet-list__icon"
               width="23"
@@ -27,9 +29,25 @@ const BulletList: React.FC<BulletListProps> = ({ items, iconColor, className }) 
                 fill={iconColor}
               />
             </svg>
-            <span className="bullet-list__text">{item}</span>
-          </li>
-        ))}
+          ) : (
+            <svg
+              className="bullet-list__icon"
+              width="23"
+              height="23"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path 
+                d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM17.4639 6.46387C17.2686 6.26862 16.9521 6.26864 16.7568 6.46387L12 11.2197L7.24316 6.46387C7.04789 6.26873 6.73135 6.26865 6.53613 6.46387C6.34151 6.65914 6.3412 6.97583 6.53613 7.1709L11.293 11.9268L6.51367 16.7061C6.31879 16.9013 6.31865 17.2179 6.51367 17.4131C6.70885 17.6079 7.02553 17.6079 7.2207 17.4131L12 12.6338L16.7793 17.4131C16.9745 17.6081 17.2911 17.6081 17.4863 17.4131C17.6814 17.2179 17.6814 16.9013 17.4863 16.7061L12.707 11.9268L17.4639 7.1709C17.6589 6.97586 17.6584 6.65917 17.4639 6.46387Z" 
+                fill={iconColor}
+              />
+            </svg>
+          )}
+
+          <span className="bullet-list__text">{item}</span>
+        </li>
+      ))}
       </ul>
   );
 };

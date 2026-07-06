@@ -1765,7 +1765,23 @@
     "SCAM_PROTECTION": {
         "HEAD": "Segurança na candidatura de emprego",
         "DESC": "Na Martspec, entendemos que candidatar-se a empregos online às vezes envolve riscos. Nós nos solidarizamos com aqueles que enfrentam fraudes de emprego e nos esforçamos para ajudar os candidatos a reduzir o risco de se tornarem vítimas de tais esquemas.",
-        "ALT": "Segurança na candidatura de emprego"
+        "ALT": "Segurança na candidatura de emprego",
+        "LIST1": {
+        "HEAD": "Como protegemos os seus dados",
+        "DESC1": "Antes de passarmos aos sinais comuns de fraude, queremos esclarecer totalmente o nosso processo de contratação. Na Martspec, tudo se baseia exclusivamente nas qualidades profissionais, competências, contributos e resultados de uma pessoa — independentemente do género, idade, ligações pessoais ou outros fatores.",
+        "SUBHEAD1": "O que nunca pedimos:",
+        "TEXT1": "Data de nascimento real ou idade",
+        "TEXT2": "Passaporte",
+        "TEXT3": "Carta de condução",
+        "TEXT4": "Número de telefone",
+        "TEXT5": "Número de segurança social",
+        "TEXT6": "Quaisquer outros dados pessoais confidenciais",
+        "SUBHEAD2": "Quais os dados de que realmente precisamos",
+        "DESC2": "Para a maioria dos candidatos, precisamos apenas de:",
+        "TEXT7": "Nome (para o podermos tratar corretamente)",
+        "TEXT8": "E-mail para comunicação",
+        "TEXT9": "Às vezes - fuso horário (a nossa equipa trabalha em diferentes fusos horários, por isso não queremos incomodá-lo a meio da noite)"
+    }
     },
     "TEAM": {
         "HEAD": "Nossa equipe",
