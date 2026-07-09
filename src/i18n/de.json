@@ -1778,7 +1778,23 @@
     "SCAM_PROTECTION": {
         "HEAD": "Sicherheit bei der Bewerbung",
         "DESC": "Wir bei Martspec verstehen, dass Online-Bewerbungen manchmal mit Risiken verbunden sind. Wir haben Mitgefühl mit denjenigen, die mit Stellenbetrug konfrontiert werden, und bemühen uns, Arbeitssuchenden dabei zu helfen, das Risiko zu verringern, Opfer solcher Machenschaften zu werden.",
-        "ALT": "Sicherheit bei der Bewerbung"
+        "ALT": "Sicherheit bei der Bewerbung",
+        "LIST1": {
+        "HEAD": "Wie wir Ihre Daten schützen",
+        "DESC1": "Bevor wir auf häufige Anzeichen von Betrug eingehen, möchten wir unseren Einstellungsprozess vollständig klären. Bei Martspec basiert alles ausschließlich auf den beruflichen Qualitäten, Fähigkeiten, Beiträgen und Ergebnissen einer Person – unabhängig von Geschlecht, Alter, persönlichen Verbindungen oder anderen Faktoren.",
+        "SUBHEAD1": "Was wir niemals anfordern:",
+        "TEXT1": "Tatsächliches Geburtsdatum oder Alter",
+        "TEXT2": "Reisepass",
+        "TEXT3": "Führerschein",
+        "TEXT4": "Telefonnummer",
+        "TEXT5": "Sozialversicherungsnummer",
+        "TEXT6": "Jegliche anderen vertraulichen persönlichen Daten",
+        "SUBHEAD2": "Welche Daten wir wirklich benötigen",
+        "DESC2": "Für die meisten Bewerber benötigen wir nur:",
+        "TEXT7": "Name (damit wir Sie korrekt ansprechen können)",
+        "TEXT8": "E-Mail für die Kommunikation",
+        "TEXT9": "Manchmal – Zeitzone (unser Team arbeitet in verschiedenen Zeitzonen, daher möchten wir Sie nicht mitten in der Nacht stören)"
+    }
     },
     "TEAM": {
         "HEAD": "Mannschaft",
