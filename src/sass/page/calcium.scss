@@ -1,65 +1,114 @@
 @import "@/sass/atom/base-new-vars";
-.calcium {
-  .header{
-      li {
-          &::marker {
-              color: #6EAD4F;
-          }
-      }
-  }
 
-  .card-title-text-button {
-    li {
-      &::marker {
-      color: #6EAD4F;
-      }
+.calcium-page {
+    flex: 1 0;
+    font-size: 1.9rem;
+
+    li,
+    p {
+        font-family: os3;
+        font-size: 1.5rem;
+        margin-bottom: 0;
     }
-    ul {
-      list-style: disc;
+
+    .font-normal {
+        font-family: os4;
     }
-  }
-  h3 {
-    font-size: 20px;
-    margin: 0;
-  }
-  .card-icon-title-text{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    p{
-      margin-top: auto;
+
+    section {
+        max-width: 100%;
+        padding: 0;
+        margin: map-get($section-y-gap, "l") auto;
+
+        &.bg-gray {
+            padding: map-get($section-y-gap, "m") 0;
+        }
+
+        &.bg-merge-top {
+            margin-top: -(map-get($section-y-gap, "m")) * 2;
+        }
+
+        @include media-breakpoint-down($base-breakpoint) {
+            margin: 2rem auto;
+        }
     }
-  }
-  .block{
-    background-color: unset;
-    box-shadow: unset;
-    padding: 0;
-    max-width: 800px;
-    h3{
-      font-size: 40px;
-      color: $ms-color-text-black;
-      @include media-breakpoint-down(md) {
-        font-size: 28px;
-      }
+
+    .row {
+        @extend .ms-s-offset;
+
+        margin-top: 0;
+
+        &.g-4 {
+            margin-top: -1.5rem;
+        }
+
+        &:not(:only-child):not(:last-child) {
+            margin-bottom: map-get($section-y-gap, "s");
+        }
     }
-  }
-  .row{
-    margin-bottom: 64px;
-  }
-  &__icon-white .icon{
-    background-color:#fff!important;
-  }
-  .list-with-icons {
-    .icon{
-      background-color: #F4F5F8;
+}
+
+.calcium {
+    .header {
+        li {
+            &::marker {
+                color: #6ead4f;
+            }
+        }
     }
-  }
-  &-advantages{
-    h2{
-      font-size: 40px;
-      @include media-breakpoint-down(md) {
-        font-size: 28px;
-      }
+
+    .card-title-text-button {
+        li {
+            &::marker {
+                color: #6ead4f;
+            }
+        }
+        ul {
+            list-style: disc;
+        }
     }
-  }
+    h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+    .card-icon-title-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        p {
+            margin-top: auto;
+        }
+    }
+    .block {
+        background-color: unset;
+        box-shadow: unset;
+        padding: 0;
+        max-width: 800px;
+        h3 {
+            font-size: 40px;
+            color: $ms-color-text-black;
+            @include media-breakpoint-down(md) {
+                font-size: 28px;
+            }
+        }
+    }
+    .row {
+        margin-bottom: 64px;
+    }
+    &__icon-white .icon {
+        background-color: #fff !important;
+    }
+    .list-with-icons {
+        .icon {
+            background-color: #f4f5f8;
+        }
+    }
+    &-advantages {
+        h2 {
+            font-size: 40px;
+            @include media-breakpoint-down(md) {
+                font-size: 28px;
+            }
+        }
+    }
 }

@@ -63,8 +63,7 @@ export default function Calcium() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page calcium">
-                {/* Breadcrumbs */}
+            <div className="calcium-page calcium">
                 <div className="row">
                     <Breadcrumb items={items} />
                 </div>

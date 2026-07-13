@@ -116,8 +116,7 @@ export default function BodySize() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page bodysize">
-                {/* Breadcrumbs */}
+            <div className="bodysize-page bodysize">
                 <div className="row">
                     <Breadcrumb items={items} />
                 </div>
