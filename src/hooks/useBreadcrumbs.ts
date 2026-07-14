@@ -49,6 +49,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             tremella: _("VITAMIN.TREMELLA.NAME"),
             kombucha: _("VITAMIN.KOMBUCHA.NAME"),
             turkey_tail: _("VITAMIN.TURKEY_TAIL.NAME"),
+            cordyceps_powder: _("VITAMIN.CORDYCEPS_POWDER.NAME"),
         };
 
         const items: BreadcrumbItem[] = cleanPath.map((segment, index) => {

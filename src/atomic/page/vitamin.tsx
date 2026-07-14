@@ -52,7 +52,7 @@ const CATEGORY_ICON: Record<string, string> = {
     TREMELLA: "mushroom",
 };
 
-const COMING_SOON_PAGES = new Set(["CORDYCEPS_POWDER", "COCOA_POWDER"]);
+const COMING_SOON_PAGES = new Set(["COCOA_POWDER"]);
 const vitamins: VitaminGroup[] = [
     {
         groupName: "VITAMIN_FAT",
