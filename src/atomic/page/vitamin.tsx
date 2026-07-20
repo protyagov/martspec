@@ -52,7 +52,7 @@ const CATEGORY_ICON: Record<string, string> = {
     TREMELLA: "mushroom",
 };
 
-const COMING_SOON_PAGES = new Set(["CORDYCEPS_POWDER", "COCOA_POWDER"]);
+const COMING_SOON_PAGES = new Set(["CORDYCEPS_POWDER"]);
 const vitamins: VitaminGroup[] = [
     {
         groupName: "VITAMIN_FAT",
@@ -131,7 +131,7 @@ const vitamins: VitaminGroup[] = [
             "ASHWAGANDHA",
             "ASTRAGALUS",
             "CHAGA",
-            "COCOA_POWDER",
+            "COCOA",
             "COLLAGEN", 
             "KOMBUCHA",
             "CORDYCEPS_POWDER",
@@ -334,7 +334,7 @@ export default function Vitamin() {
                             <h2>{_("VITAMIN.HEAD3")}</h2>
                             <p>{_("VITAMIN.DESC3_1")}</p>
                             <ImageI18N
-                                src="/img/page/vitamin/vitamin-screen-edit-en.webp"
+                                src="/img/page/vitamin/Img-Block3-en.webp"
                                 w={487}
                                 h={515}
                                 cls="ms-base-image d-block d-lg-none mb-mob-xs"

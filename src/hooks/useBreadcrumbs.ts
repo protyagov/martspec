@@ -38,6 +38,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             lion: _("VITAMIN.LION.NAME"),
             acai: _("VITAMIN.ACAI.NAME"),
             collagen: _("VITAMIN.COLLAGEN.NAME"),
+            cocoa: _("VITAMIN.COCOA.NAME"),
             turmeric: _("VITAMIN.TURMERIC.NAME"),
             ginko: _("VITAMIN.GINKO.NAME"),
             adonis: _("SIZE.LIST.LI5_TEXT"),
