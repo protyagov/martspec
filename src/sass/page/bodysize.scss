@@ -15,6 +15,11 @@
         font-family: os4;
     }
 
+    section,
+    .row {
+        @extend .ms-s-offset;
+    }
+
     section {
         max-width: 100%;
         padding: 0;
@@ -24,26 +29,14 @@
             padding: map-get($section-y-gap, "m") 0;
         }
 
-        &.bg-merge-top {
-            margin-top: -(map-get($section-y-gap, "m")) * 2;
-        }
-
         @include media-breakpoint-down($base-breakpoint) {
             margin: 2rem auto;
         }
     }
 
     .row {
-        @extend .ms-s-offset;
-
-        margin-top: 0;
-
         &.g-4 {
-            margin-top: -1.5rem;
-        }
-
-        &:not(:only-child):not(:last-child) {
-            margin-bottom: map-get($section-y-gap, "s");
+            row-gap: 1.5rem;
         }
     }
 }
