@@ -39,6 +39,7 @@ const articleVitamins = [
     "kombucha",
     "cocoa",
     "turkey_tail",
+    "cordyceps",
 ];
 
 export function App() {

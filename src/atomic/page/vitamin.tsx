@@ -42,7 +42,7 @@ const CATEGORY_ICON: Record<string, string> = {
     COCOA_POWDER: "superfood",
     COLLAGEN: "protein",
     KOMBUCHA: "fermented-product",
-    CORDYCEPS_POWDER: "mushroom",
+    CORDYCEPS: "mushroom",
     TURMERIC: "extract",
     FIREWEED: "herbal-blend",
     GINKO: "extract",
@@ -52,7 +52,7 @@ const CATEGORY_ICON: Record<string, string> = {
     TREMELLA: "mushroom",
 };
 
-const COMING_SOON_PAGES = new Set(["CORDYCEPS_POWDER"]);
+const COMING_SOON_PAGES = new Set<string>([]);
 const vitamins: VitaminGroup[] = [
     {
         groupName: "VITAMIN_FAT",
@@ -134,7 +134,7 @@ const vitamins: VitaminGroup[] = [
             "COCOA",
             "COLLAGEN", 
             "KOMBUCHA",
-            "CORDYCEPS_POWDER",
+            "CORDYCEPS",
             "TURMERIC",
             "FIREWEED",
             "GINKO",
