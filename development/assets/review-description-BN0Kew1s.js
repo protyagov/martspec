@@ -1,1 +1,0 @@
-import{j as t}from"./index-DksOfPew.js";import{u as i}from"./review-context-DZ8VGHEu.js";function o(){const{text:e}=i();return t.jsx("p",{className:"review__description",children:e.description})}export{o as R};
