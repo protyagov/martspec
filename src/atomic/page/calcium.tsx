@@ -78,7 +78,7 @@ export default function Calcium() {
                 >
                     <div className="calcium fs-4">
                         <ul className="header">
-                            <li className="font-normal">{_("CALCIUM.ABOUT_1")}</li>
+                            <li>{_("CALCIUM.ABOUT_1")}</li>
                             <li>{_("CALCIUM.ABOUT_2")}</li>
                             <li>{_("CALCIUM.ABOUT_3")}</li>
                         </ul>

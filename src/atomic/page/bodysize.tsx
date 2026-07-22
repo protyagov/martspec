@@ -131,7 +131,7 @@ export default function BodySize() {
                 >
                     <div className="bodysize">
                         <ul className="header-content-list">
-                            <li className="font-normal">{_("SIZE.ABOUT_1")}</li>
+                            <li>{_("SIZE.ABOUT_1")}</li>
                             <li>{_("SIZE.ABOUT_2")}</li>
                             <li>{_("SIZE.ABOUT_3")}</li>
                         </ul>
