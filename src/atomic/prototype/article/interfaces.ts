@@ -7,6 +7,13 @@ export interface IRightColumn {
     IS_HIGH?: boolean;
 }
 
+export interface ILeftColumn {
+    ICON?: string;
+    CONTENT?: string;
+    AUDIO_URL?: string;
+    BG_IMAGE?: string;
+}
+
 export interface IArticleHeader {
   TITLE: string;
   IMG_URL?: string;
@@ -25,6 +32,7 @@ export interface IArticleSection {
   IMG_ALT: string;
   components?: Components;
   RIGHT_COLUMN?: IRightColumn;
+  LEFT_COLUMN?: ILeftColumn;
   IS_SMALL?: boolean;
 }
 
