@@ -20,44 +20,42 @@ import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 import { SvgFactory } from "@/atomic/atom/svg-factory";
 
-
-
 export default function Calcium() {
     const items = useBreadcrumbs();
     const iconColor = "#6ead4f";
     const iconTitleTextListItems: Array<IconTitleText> = [
-    {
-        icon: {
-            component: <SvgFactory type="shield" color={iconColor} />,
-            alt: _("SIZE.IMG1_ALT"),
+        {
+            icon: {
+                component: <SvgFactory type="shield" color={iconColor} />,
+                alt: _("SIZE.IMG1_ALT"),
+            },
+            title: _("SIZE.LIST3.LI3_1_TITLE"),
+            subtitle: _("SIZE.LIST3.LI3_1_TEXT"),
         },
-        title: _("SIZE.LIST3.LI3_1_TITLE"),
-        subtitle: _("SIZE.LIST3.LI3_1_TEXT"),
-    },
-    {
-        icon: {
-            component: <SvgFactory type="sync" color={iconColor} />,
-            alt: _("SIZE.IMG4_ALT"),
+        {
+            icon: {
+                component: <SvgFactory type="sync" color={iconColor} />,
+                alt: _("SIZE.IMG4_ALT"),
+            },
+            title: _("SIZE.LIST3.LI3_4_TITLE"),
+            subtitle: _("SIZE.LIST3.LI3_4_TEXT"),
         },
-        title: _("SIZE.LIST3.LI3_4_TITLE"),
-        subtitle: _("SIZE.LIST3.LI3_4_TEXT"),
-    },
-    {
-        icon: {
-            component: <SvgFactory type="noads" color={iconColor} />,
-            alt: _("SIZE.IMG3_ALT"),
+        {
+            icon: {
+                component: <SvgFactory type="noads" color={iconColor} />,
+                alt: _("SIZE.IMG3_ALT"),
+            },
+            title: _("SIZE.LIST3.LI3_3_TITLE"),
+            subtitle: _("SIZE.LIST3.LI3_3_TEXT"),
         },
-        title: _("SIZE.LIST3.LI3_3_TITLE"),
-        subtitle: _("SIZE.LIST3.LI3_3_TEXT"),
-    },
-    {
-        icon: {
-            component: <SvgFactory type="nosignup" color={iconColor} />,
-            alt: _("SIZE.IMG2_ALT"),
+        {
+            icon: {
+                component: <SvgFactory type="nosignup" color={iconColor} />,
+                alt: _("SIZE.IMG2_ALT"),
+            },
+            title: _("SIZE.LIST3.LI3_2_TITLE"),
+            subtitle: _("SIZE.LIST3.LI3_2_TEXT"),
         },
-        title: _("SIZE.LIST3.LI3_2_TITLE"),
-        subtitle: _("SIZE.LIST3.LI3_2_TEXT"),
-    }
     ];
     const appId = getAppId();
 
@@ -76,7 +74,7 @@ export default function Calcium() {
                     title={_("CALCIUM.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("CALCIUM.DWN")}
-                    imgSrc="/img/page/calcium/calcium-header.webp"
+                    imgSrc="/img/page/calcium/calcium-header-en.webp"
                     imgAlt={_("CALCIUM.IMG")}
                     imgH={305}
                     imgW={450}
@@ -167,7 +165,7 @@ export default function Calcium() {
                         </div>
                     </div>
                 </div>
-                
+
                 <section>
                     <div className="row">
                         <div className="col-12 mb-2">
@@ -178,9 +176,6 @@ export default function Calcium() {
                         </div>
                     </div>
                 </section>
-           
-
-
 
                 <Review
                     appId={appId}
@@ -212,7 +207,7 @@ export default function Calcium() {
                         subtitle={_("IRON.ABOUT_5")}
                         appId={appId}
                         appDownloadTitle={_("CALCIUM.DWN")}
-                        imgSrc="/img/page/calcium/calcium-header.webp"
+                        imgSrc="/img/page/calcium/calcium-header-en.webp"
                         imgAlt={_("CALCIUM.IMG")}
                     />
                 </div>
