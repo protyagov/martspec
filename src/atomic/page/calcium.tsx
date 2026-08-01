@@ -139,7 +139,7 @@ export default function Calcium() {
                     <div className="row d-flex align-items-center justify-content-between iron__section">
                         <div className="col-12 col-xxl-6 order-2 order-xxl-1">
                             <ImageI18N
-                                src="/img/page/calcium/why-calcium.webp"
+                                src="/img/page/calcium/why-calcium-en.webp"
                                 w={620}
                                 h={390}
                                 alt={_("CALCIUM.IMG_ALT")}
