@@ -183,15 +183,36 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
             const hasBg = !!item.BG_COLOR;
             const markerColor = item.ACCENT_COLOR;
             const hasRightColumn = !!item.RIGHT_COLUMN;
+            const hasLeftColumn = !!item.LEFT_COLUMN;
             return (
               <section key={index} className="article-content">
+                <div className={hasLeftColumn ? "article-section--audio-layout" : ""}>
+                {hasLeftColumn && (
+                  <aside
+                      className="article-section__left-audio"
+                      style={{ backgroundImage: `url(${item.LEFT_COLUMN?.BG_IMAGE})` }}
+                  >
+                      {item.LEFT_COLUMN?.ICON && (
+                          <img src={item.LEFT_COLUMN.ICON} alt="Podcast" />
+                      )}
+                      {item.LEFT_COLUMN?.CONTENT && (
+                          <ReactMarkdown>{item.LEFT_COLUMN.CONTENT}</ReactMarkdown>
+                      )}
+                      {item.LEFT_COLUMN?.AUDIO_URL && (
+                          <audio controls src={item.LEFT_COLUMN.AUDIO_URL}>
+                              Your browser does not support the audio element.
+                          </audio>
+                      )}
+                  </aside>
+
+                )}
                 <div
                   style={{
                     backgroundColor: item.BG_COLOR ?? "transparent",
                     ["--marker-color" as any]: markerColor,
                   }}
-                  className={`article-section ${
-                    hasBg ? "article-section--with-bg" : ""
+                 className={`article-section ${
+                      hasBg ? "article-section--with-bg" : ""
                   }${hasRightColumn ? " article-section--two-column" : ""}`}
                 >
                   <div className="article-section__inner">
@@ -244,6 +265,7 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                     )}
                   </div>
                 </div>
+                 </div>
               </section>
             );
           })}

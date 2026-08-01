@@ -11,7 +11,13 @@
             "TITLE": "### Quality",
             "CONTENT": "**Wild-harvested sclerotium — the true canker taken from a birch tree**\n\nMycelium grown on grain (IoMFG) — Grain-grown (rice or oats) mycelium often ends up similar to the cereal it's grown on: relatively low in beta-glucans and high in alpha-glucans, which are mostly inactive starches that dilute the mushroom's active compounds.\n\nThe difference matters because the healing reputation of Chaga depends largely on its beta-glucans, beneficial structural carbohydrates found in the true sclerotium. Quick buying tips:\n\n- Look for 'sclerotium' or 'fruiting body' on the label rather than \"mycelium on grain\".\n\n- Check for beta-glucan percent or standardized extract—higher numbers mean more of the active stuff.\n\n- Prefer dual (hot water + alcohol) extracts or clearly labeled high-beta-glucan powders rather than plain powdered chips or grain-based mycelium.",
             "ACCENT_COLOR": "#1686FF",
-            "BG_COLOR": "#F4F5F8"
+            "BG_COLOR": "#F4F5F8",
+            "LEFT_COLUMN": {
+            "ICON": "/img/page/article/audio-icon.svg",
+            "CONTENT": "### Discover Chaga's Deadly Secret\n\n**The Life-Saving Extraction Method That Separates Potent Superfood from Fatal Risk**\n\nDiscover key facts, research highlights and practical recommendations in this short audio companion.",
+            "AUDIO_URL": "https://letstag.app/audio/chaga.mp3",
+            "BG_IMAGE": "/img/page/article/chaga/chaga-audio.webp"
+        }
         },
         {
             "TITLE": "### Positive health effects of chaga",

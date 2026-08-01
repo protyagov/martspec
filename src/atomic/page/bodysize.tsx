@@ -41,11 +41,24 @@ const dropdownlist: DropdownList[] = [
             mobileBgResized: false,
             defaultExpanded: true,
         },
-        bgImg: { src: "/img/page/body-size/body-circumferences.svg", width: 181, height: 87},
+        bgImg: { src: "/img/page/body-size/body-circumferences.svg", width: 181, height: 87 },
         bgColor: "#FFECDB",
         primaryColor: "#FD7E14",
         linkHoverColor: "#FD7E14",
-        itemList: ["NECK", "SHOULDERS", "BREAST", "WAIST", "BUTTOCKS", "HAND", "HIP", "HEIGHT", "WEIGHT", "KNEE", "SHIN", "ELBOW"],
+        itemList: [
+            "NECK",
+            "SHOULDERS",
+            "BREAST",
+            "WAIST",
+            "BUTTOCKS",
+            "HAND",
+            "HIP",
+            "HEIGHT",
+            "WEIGHT",
+            "KNEE",
+            "SHIN",
+            "ELBOW",
+        ],
     },
     {
         groupName: "SKIN_FOLDS",
@@ -53,7 +66,7 @@ const dropdownlist: DropdownList[] = [
             bgImg: { src: "/img/page/body-size/bodysize-list-header-2.svg", width: 134, height: 160 },
             mobileBgResized: true,
         },
-        bgImg: { src: "/img/page/body-size/skinfold-measurement.svg", width: 69, height: 94},
+        bgImg: { src: "/img/page/body-size/skinfold-measurement.svg", width: 69, height: 94 },
         bgColor: "#E5F4D9",
         primaryColor: "#639C35",
         linkHoverColor: "#639C35",
@@ -64,52 +77,49 @@ const dropdownlist: DropdownList[] = [
 export default function BodySize() {
     const items = useBreadcrumbs();
     const iconTitleTextListItems: Array<IconTitleText> = [
-    {
-        icon: {
-            src: "/img/bodysize-icon-data-protection.png",
-            alt: _("SIZE.IMG1_ALT"),
+        {
+            icon: {
+                src: "/img/bodysize-icon-data-protection.png",
+                alt: _("SIZE.IMG1_ALT"),
+            },
+            title: _("SIZE.LIST3.LI3_1_TITLE"),
+            subtitle: _("SIZE.LIST3.LI3_1_TEXT"),
         },
-        title: _("SIZE.LIST3.LI3_1_TITLE"),
-        subtitle: _("SIZE.LIST3.LI3_1_TEXT"),
-    },
-    {
-        icon: {
-            src: "/img/bodysize-icon-data-sync.png",
-            alt: _("SIZE.IMG4_ALT"),
+        {
+            icon: {
+                src: "/img/bodysize-icon-data-sync.png",
+                alt: _("SIZE.IMG4_ALT"),
+            },
+            title: _("SIZE.LIST3.LI3_4_TITLE"),
+            subtitle: _("SIZE.LIST3.LI3_4_TEXT"),
         },
-        title: _("SIZE.LIST3.LI3_4_TITLE"),
-        subtitle: _("SIZE.LIST3.LI3_4_TEXT"),
-    },
-    {
-        icon: {
-            src: "/img/bodysize-icon-no-ads.png",
-            alt: _("SIZE.IMG3_ALT"),
+        {
+            icon: {
+                src: "/img/bodysize-icon-no-ads.png",
+                alt: _("SIZE.IMG3_ALT"),
+            },
+            title: _("SIZE.LIST3.LI3_3_TITLE"),
+            subtitle: _("SIZE.LIST3.LI3_3_TEXT"),
         },
-        title: _("SIZE.LIST3.LI3_3_TITLE"),
-        subtitle: _("SIZE.LIST3.LI3_3_TEXT"),
-    },
-    {
-        icon: {
-            src: "/img/bodysize-icon-no-sign-up.png",
-            alt: _("SIZE.IMG2_ALT"),
+        {
+            icon: {
+                src: "/img/bodysize-icon-no-sign-up.png",
+                alt: _("SIZE.IMG2_ALT"),
+            },
+            title: _("SIZE.LIST3.LI3_2_TITLE"),
+            subtitle: _("SIZE.LIST3.LI3_2_TEXT"),
         },
-        title: _("SIZE.LIST3.LI3_2_TITLE"),
-        subtitle: _("SIZE.LIST3.LI3_2_TEXT"),
-    }
-];
+    ];
     const appId = getAppId();
 
     return (
         <>
             <NavigationBar />
 
-            <div className="container-xl ms-s-offset fs-3 pt-lg-5">
-                {/* Breadcrumbs */}
-                <section className="pt-4">
-                    <div className="row">
-                        <Breadcrumb items={items} />
-                    </div>
-                </section>
+            <div className="bodysize-page bodysize">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("SIZE.HEAD")}
                     appId={appId}
@@ -121,62 +131,64 @@ export default function BodySize() {
                 >
                     <div className="bodysize">
                         <ul className="header-content-list">
-                            <li className="font-normal">{_("SIZE.ABOUT_1")}</li>
+                            <li>{_("SIZE.ABOUT_1")}</li>
                             <li>{_("SIZE.ABOUT_2")}</li>
                             <li>{_("SIZE.ABOUT_3")}</li>
                         </ul>
                     </div>
                 </Header>
 
-                <div className="row g-4">
-                    <div className="col-12 col-lg-4">
-                        <CardTitleTextImageCustom
-                            title={_("SIZE.LIST1.LI1_HEAD")}
-                            text={_("SIZE.LIST1.DESC1")}
-                            imgSrc={`/img/page/body-size/section-left-${Locale.language}.webp`}
-                            cardHeight="37rem"
-                            imgPosition="center-bottom"
-                            imgH="19rem"
-                            imgMobileH="18rem"
-                            shadow={true}
-                            mobileBreakpoint={1040}
-                            responsive={true}
-                        />
-                    </div>
-                    <div className="col-12 col-lg-4">
-                        <div className="d-flex flex-column h-100 gap-4">
+                <section>
+                    <div className="row g-4">
+                        <div className="col-12 col-lg-4">
                             <CardTitleTextImageCustom
-                                title={_("SIZE.LIST1.LI2_HEAD")}
-                                text={_("SIZE.LIST1.DESC2")}
-                                bgColor="#E5F4D9"
-                                cardHeight="17rem"
-                                shadow={false}
+                                title={_("SIZE.LIST1.LI1_HEAD")}
+                                text={_("SIZE.LIST1.DESC1")}
+                                imgSrc={`/img/page/body-size/section-left-${Locale.language}.webp`}
+                                cardHeight="37rem"
+                                imgPosition="center-bottom"
+                                imgH="19rem"
+                                imgMobileH="18rem"
+                                shadow={true}
+                                mobileBreakpoint={1040}
+                                responsive={true}
                             />
+                        </div>
+                        <div className="col-12 col-lg-4">
+                            <div className="d-flex flex-column h-100 gap-4">
+                                <CardTitleTextImageCustom
+                                    title={_("SIZE.LIST1.LI2_HEAD")}
+                                    text={_("SIZE.LIST1.DESC2")}
+                                    bgColor="#E5F4D9"
+                                    cardHeight="17rem"
+                                    shadow={false}
+                                />
+                                <CardTitleTextImageCustom
+                                    title={_("SIZE.LIST1.LI3_HEAD")}
+                                    text={_("SIZE.LIST1.DESC3")}
+                                    bgColor="#FFECDB"
+                                    cardHeight="17rem"
+                                    shadow={false}
+                                />
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-4">
                             <CardTitleTextImageCustom
-                                title={_("SIZE.LIST1.LI3_HEAD")}
-                                text={_("SIZE.LIST1.DESC3")}
-                                bgColor="#FFECDB"
-                                cardHeight="17rem"
+                                title={_("SIZE.LIST1.LI4_HEAD")}
+                                text={_("SIZE.LIST1.DESC4")}
+                                imgSrc="/img/page/body-size/section-right.webp"
+                                bgColor="#F4F5F8"
+                                cardHeight="37rem"
+                                imgPosition="center-bottom"
+                                imgH="20rem"
+                                imgMobileH="18rem"
                                 shadow={false}
+                                mobileBreakpoint={1040}
+                                responsive={true}
                             />
                         </div>
                     </div>
-                    <div className="col-12 col-lg-4">
-                        <CardTitleTextImageCustom
-                            title={_("SIZE.LIST1.LI4_HEAD")}
-                            text={_("SIZE.LIST1.DESC4")}
-                            imgSrc="/img/page/body-size/section-right.webp"
-                            bgColor="#F4F5F8"
-                            cardHeight="37rem"
-                            imgPosition="center-bottom"
-                            imgH="20rem"
-                            imgMobileH="18rem"
-                            shadow={false}
-                            mobileBreakpoint={1040}
-                            responsive={true}
-                        />
-                    </div>
-                </div>
+                </section>
 
                 <section className="mt-5">
                     <div className="row">
@@ -208,19 +220,19 @@ export default function BodySize() {
                                 cls="ms-base-image d-block d-lg-none mb-mob-xs"
                             />
                             <h3 className="bodysize__h3">{_("SIZE.SUBHEAD2_2")}</h3>
-                            
-                                <BulletList
-                                    items={[
-                                        _("SIZE.LIST2.LI1_TEXT"),
-                                        _("SIZE.LIST2.LI2_TEXT"),
-                                        _("SIZE.LIST2.LI3_TEXT"),
-                                        _("SIZE.LIST2.LI4_TEXT"),
-                                        _("SIZE.LIST2.LI5_TEXT"),
-                                        _("SIZE.LIST2.LI6_TEXT"),
-                                    ]}
-                                    iconColor="#FD7E14"
-                                    className="bullet-list ps-0"
-                                />                       
+
+                            <BulletList
+                                items={[
+                                    _("SIZE.LIST2.LI1_TEXT"),
+                                    _("SIZE.LIST2.LI2_TEXT"),
+                                    _("SIZE.LIST2.LI3_TEXT"),
+                                    _("SIZE.LIST2.LI4_TEXT"),
+                                    _("SIZE.LIST2.LI5_TEXT"),
+                                    _("SIZE.LIST2.LI6_TEXT"),
+                                ]}
+                                iconColor="#FD7E14"
+                                className="bullet-list ps-0"
+                            />
                         </div>
                     </div>
                 </section>

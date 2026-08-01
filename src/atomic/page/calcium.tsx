@@ -63,13 +63,10 @@ export default function Calcium() {
         <>
             <NavigationBar />
 
-            <div className="container-xl ms-s-offset fs-3 pt-lg-5">
-                {/* Breadcrumbs */}
-                <section className="pt-4">
-                    <div className="row">
-                        <Breadcrumb items={items} />
-                    </div>
-                </section>
+            <div className="calcium-page calcium">
+                <div className="row">
+                    <Breadcrumb items={items} />
+                </div>
                 <Header
                     title={_("CALCIUM.HEAD")}
                     appId={appId}
@@ -81,62 +78,64 @@ export default function Calcium() {
                 >
                     <div className="calcium fs-4">
                         <ul className="header">
-                            <li className="font-normal">{_("CALCIUM.ABOUT_1")}</li>
+                            <li>{_("CALCIUM.ABOUT_1")}</li>
                             <li>{_("CALCIUM.ABOUT_2")}</li>
                             <li>{_("CALCIUM.ABOUT_3")}</li>
                         </ul>
                     </div>
                 </Header>
 
-                <div className="row g-4">
-                    <div className="col-12 col-lg-4">
-                        <CardTitleTextImageCustom
-                            title={_("CALCIUM.LIST1.LI1_HEAD")}
-                            text={_("CALCIUM.LIST1.DESC1")}
-                            imgSrc={`/img/page/calcium/Ca.webp`}
-                            cardHeight="33rem"
-                            imgPosition="center-bottom"
-                            imgH="15rem"
-                            imgMobileH="14rem"
-                            shadow={true}
-                            mobileBreakpoint={1040}
-                            responsive={true}
-                        />
-                    </div>
-                    <div className="col-12 col-lg-4">
-                        <div className="d-flex flex-column h-100 gap-4">
+                <section>
+                    <div className="row g-4">
+                        <div className="col-12 col-lg-4">
                             <CardTitleTextImageCustom
-                                title={_("CALCIUM.LIST1.LI2_HEAD")}
-                                text={_("CALCIUM.LIST1.DESC2")}
-                                bgColor="#F3FFE4"
-                                cardHeight="13rem"
-                                shadow={false}
+                                title={_("CALCIUM.LIST1.LI1_HEAD")}
+                                text={_("CALCIUM.LIST1.DESC1")}
+                                imgSrc={`/img/page/calcium/Ca.webp`}
+                                cardHeight="33rem"
+                                imgPosition="center-bottom"
+                                imgH="15rem"
+                                imgMobileH="14rem"
+                                shadow={true}
+                                mobileBreakpoint={1040}
+                                responsive={true}
                             />
+                        </div>
+                        <div className="col-12 col-lg-4">
+                            <div className="d-flex flex-column h-100 gap-4">
+                                <CardTitleTextImageCustom
+                                    title={_("CALCIUM.LIST1.LI2_HEAD")}
+                                    text={_("CALCIUM.LIST1.DESC2")}
+                                    bgColor="#F3FFE4"
+                                    cardHeight="13rem"
+                                    shadow={false}
+                                />
+                                <CardTitleTextImageCustom
+                                    title={_("CALCIUM.LIST1.LI3_HEAD")}
+                                    text={_("CALCIUM.LIST1.DESC3")}
+                                    bgColor="#FFFADD"
+                                    cardHeight="13rem"
+                                    shadow={false}
+                                />
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-4">
                             <CardTitleTextImageCustom
-                                title={_("CALCIUM.LIST1.LI3_HEAD")}
-                                text={_("CALCIUM.LIST1.DESC3")}
-                                bgColor="#FFFADD"
-                                cardHeight="13rem"
+                                imgSrc="/img/page/calcium/people.webp"
+                                bgColor="#F4F5F8"
+                                cardHeight="33rem"
+                                imgPosition="right-bottom"
+                                imgH="30rem"
+                                imgMobileH="27rem"
                                 shadow={false}
+                                mobileBreakpoint={1040}
+                                responsive={true}
                             />
                         </div>
                     </div>
-                    <div className="col-12 col-lg-4">
-                        <CardTitleTextImageCustom
-                            imgSrc="/img/page/calcium/people.webp"
-                            bgColor="#F4F5F8"
-                            cardHeight="33rem"
-                            imgPosition="right-bottom"
-                            imgH="30rem"
-                            imgMobileH="27rem"
-                            shadow={false}
-                            mobileBreakpoint={1040}
-                            responsive={true}
-                        />
-                    </div>
-                </div>
+                </section>
 
-                <div className="mt-5 calcium">
+                <section>
                     <div className="row d-flex align-items-center justify-content-between iron__section">
                         <div className="col-12 col-xxl-6 order-2 order-xxl-1">
                             <ImageI18N
@@ -164,7 +163,7 @@ export default function Calcium() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
                 <section>
                     <div className="row">
