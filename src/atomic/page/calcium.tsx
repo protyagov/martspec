@@ -71,7 +71,7 @@ export default function Calcium() {
                     title={_("CALCIUM.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("CALCIUM.DWN")}
-                    imgSrc="/img/page/calcium/calcium-header.webp"
+                    imgSrc="/img/page/calcium/calcium-header-en.webp"
                     imgAlt={_("CALCIUM.IMG")}
                     imgH={305}
                     imgW={450}
@@ -206,7 +206,7 @@ export default function Calcium() {
                         subtitle={_("IRON.ABOUT_5")}
                         appId={appId}
                         appDownloadTitle={_("CALCIUM.DWN")}
-                        imgSrc="/img/page/calcium/calcium-header.webp"
+                        imgSrc="/img/page/calcium/calcium-header-en.webp"
                         imgAlt={_("CALCIUM.IMG")}
                     />
                 </div>
