@@ -1,30 +1,14 @@
 @import "@/sass/atom/base-new-vars";
+@import "@/sass/atom/body-size-breakpoints";
 
 .emotion {
-    $colors: $emotion-colors;
-
-    p {
-        margin-bottom: 4rem;
-    }
-
-    .how-list {
-        flex-wrap: wrap;
-
-        li {
-            padding: 1rem;
-            border-radius: 8px;
-        }
-
-        @include media-breakpoint-down(md) {
-            li {
-                flex-basis: calc(50% - (#{$column-x-gap} / 2));
-            }
-
-            li:last-child {
-                flex-basis: 100%;
-            }
-        }
-    }
+    $colors: (
+        "main": #ad43d7,
+        "main-filter": invert(43%) sepia(46%) saturate(7466%) hue-rotate(265deg) brightness(90%) contrast(85%),
+        "hover": #c17add,
+        "active": #780ba3,
+        "bg": map-get($bgs-new, "violet"),
+    );
 
     .ms-btn-large {
         background: map-get($colors, "main");
@@ -41,7 +25,7 @@
     .icon {
         background: map-get($colors, "bg");
 
-        &>img {
+        & > img {
             filter: map-get($colors, "main-filter");
         }
     }
