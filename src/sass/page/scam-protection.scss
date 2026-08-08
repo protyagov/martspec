@@ -1,4 +1,5 @@
 @import "@/sass/atom/base-new-vars";
+@import "@/sass/atom/blue-colors";
 
 
 %p-smaller {
@@ -63,7 +64,7 @@
     }
     
     img { display: block; max-width: 100%; height: auto; }
-    $colors: $vitamin-colors;
+    $colors: $blue-colors;
 
     .icon {
         background: map-get($colors, "bg");
