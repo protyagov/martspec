@@ -1,5 +1,5 @@
 @import "@/sass/atom/base-new-vars";
-@import "@/sass/atom/body-size-breakpoints";
+@import "@/sass/atom/page-breakpoints";
 
 .emotion {
     $colors: (
@@ -217,14 +217,14 @@
         width: auto;
     }
     .responsive-card {
-        @media (max-width: map-get($body-size-breakpoints, "medium")) {
+        @media (max-width: map-get($page-breakpoints, "medium")) {
             min-height: 12rem;
         }
     }
     .row-cols-xl-3 {
         flex-wrap: wrap;
         
-        @media (max-width: map-get($body-size-breakpoints, "wide")) {
+        @media (max-width: map-get($page-breakpoints, "wide")) {
             > .col:nth-child(1),
             > .col:nth-child(2) {
                 flex: 0 0 50%;
@@ -238,7 +238,7 @@
             }
         }
         
-        @media (max-width: map-get($body-size-breakpoints, "medium")) {
+        @media (max-width: map-get($page-breakpoints, "medium")) {
             > .col {
                 flex: 0 0 100% !important;
                 max-width: 100% !important;
