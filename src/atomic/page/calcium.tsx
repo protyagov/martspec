@@ -72,7 +72,7 @@ export default function Calcium() {
                     appId={appId}
                     appDownloadTitle={_("CALCIUM.DWN")}
                     imgSrc="/img/page/calcium/calcium-header-en.webp"
-                    imgAlt={_("CALCIUM.IMG")}
+                    imgAlt={_("CALCIUM.IMG_ALT_1")}
                     imgH={305}
                     imgW={450}
                 >
@@ -142,7 +142,7 @@ export default function Calcium() {
                                 src="/img/page/calcium/why-calcium-en.webp"
                                 w={620}
                                 h={390}
-                                alt={_("CALCIUM.IMG_ALT")}
+                                alt={_("CALCIUM.IMG_ALT_2")}
                                 cls="ms-base-image mt-mob-xs"
                             />
                         </div>
@@ -207,7 +207,7 @@ export default function Calcium() {
                         appId={appId}
                         appDownloadTitle={_("CALCIUM.DWN")}
                         imgSrc="/img/page/calcium/calcium-header-en.webp"
-                        imgAlt={_("CALCIUM.IMG")}
+                        imgAlt={_("CALCIUM.IMG_ALT_1")}
                     />
                 </div>
             </div>
