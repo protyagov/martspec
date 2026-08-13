@@ -1,7 +1,10 @@
 @import "@/sass/atom/base-new-vars";
 
 .waist {
-    $colors: $waist-colors;
+    $colors: (
+        "main": #F4F5F8,
+        "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
+    );
 
     .icon {
         background: map-get($colors, "main");

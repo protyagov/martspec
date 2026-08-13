@@ -1,70 +1,62 @@
 {
-  "TITLE": "Açaí em Pó: Revelando a Ciência, Benefícios e Precauções",
-  "IMG_URL": "/img/page/article/acai.png",
-  "IMG_ALT": "Ilustração de Açaí em Pó",
-  "BODY": [
-    {
-      "TITLE": "",
-      "IMG_SRC": "",
-      "IMG_ALT": "",
-      "CONTENT": "O açaí (Euterpe oleracea) é uma baga colhida da palmeira açaí nas florestas tropicais da América do Sul, um ingrediente nutricionalmente único com significativo potencial terapêutico. A sua distinção reside no seu perfil de macronutrientes atípico para uma fruta, associado a uma concentração excecionalmente elevada de fitoquímicos potentes. O pó em si é de cor púrpura profunda, textura fina e possui um aroma naturalmente terroso e ligeiramente ácido.",
-      "BG_COLOR": ""
-    },
-    {
-      "TITLE": "### Qualidade",
-      "CONTENT": "A eficácia do pó de açaí depende muito do seu método de processamento. A investigação mostra que o açaí **liofilizado (freeze-dried)** retém muito mais antioxidantes do que as versões congeladas, secas ao ar ou por pulverização.\nNunca compre pós que contenham açúcares adicionados, aromas naturais ou artificiais, ou enchimentos; escolha produtos cultivados sem pesticidas.",
-      "BG_COLOR": ""
-    },
-    {
-      "TITLE": "### Componentes Chave",
-      "CONTENT": "**Densidade Nutricional e Composição:**\n\n- Invulgarmente rico em gorduras saudáveis e pobre em açúcar em comparação com outras frutas.\n\n- Por 100 g de polpa congelada: ~70 Calorias, 5 g de gordura, 4 g de hidratos de carbono, apenas 2 g de açúcar.\n\n- Contém todos os aminoácidos essenciais (~7,6% do peso total).\n\n**Gorduras Saudáveis para Melhor Absorção:**\n\n- Rico em gorduras monoinsaturadas e saturadas — principalmente ácido oleico (~54%) e ácido palmítico (~27%).\n\n- Estas gorduras aumentam a biodisponibilidade dos antioxidantes, agindo como um sistema de entrega de lípidos incorporado.\n\n**Espectro de Micronutrientes:**\n\n- Fornece vitaminas A, C, E; minerais como cálcio e potássio; e oligoelementos incluindo manganês, zinco, cobre e crómio.",
-      "BG_COLOR": "#F4F5F8"
-    },
-    {
-      "TITLE": "### Efeitos Positivos na Saúde (O ''Porquê'')",
-      "CONTENT": "**Efeitos Antioxidantes e Anti-inflamatórios**\n\nO açaí tem uma pontuação **ORAC** excecionalmente alta, superior à dos mirtilos, e é rico em polifenóis. Estes compostos reduzem o stress oxidativo e apoiam a reparação celular enquanto modulam a inflamação acalmando a **via NF‑κB**, inibindo parcialmente a **COX‑2**, reduzindo a produção de óxido nítrico e diminuindo a **expressão de VCAM‑1**. Juntamente com efeitos favoráveis nos lípidos sanguíneos, estas ações protegem os vasos sanguíneos e a saúde metabólica, e como alguns antioxidantes atravessam a barreira hematoencefálica, o açaí também oferece benefícios neuroprotetores.\n\n- Uma investigação publicada no Journal of Agricultural and Food Chemistry demonstrou que a polpa de açaí desencadeou uma potente resposta antioxidante em células humanas.",
-      "BG_COLOR": ""
-    },
-    {
-      "CONTENT": "**Saúde Cardiovascular**\n\nO açaí contém **esteróis** vegetais (β‑sitosterol, campesterol, estigmasterol) que ajudam a equilibrar o colesterol competindo com o colesterol dietético pela absorção, o que pode baixar o \"mau\" **LDL** e apoiar o \"bom\" **HDL**. A sua elevada fibra dietética ajuda a digestão, aumenta a saciedade e ajuda a regular o açúcar no sangue. **Polifenóis** e compostos anti-inflamatórios protegem o revestimento dos vasos sanguíneos, aumentam o **eNO** (óxido nítrico endotelial) para relaxar os vasos e apoiar uma pressão arterial e circulação saudáveis, e reduzem a **oxidação do LDL**, diminuindo o risco de aterosclerose.\n\n- Estudos em adultos com excesso de peso encontraram números de colesterol melhorados após 30–60 dias com o equivalente a 100–200 g de polpa.",
-      "BG_COLOR": ""
-    },
-    {
-      "CONTENT": "**Regulação de lípidos e açúcar no sangue**\n\nO açaí pode ajudar a regular o açúcar no sangue e o metabolismo melhorando a sensibilidade à insulina e baixando a glicose pós-refeição em pessoas com excesso de peso, o que poderia reduzir o risco de diabetes tipo 2. Os seus compostos também influenciam o metabolismo lipídico e reduzem o stress oxidativo, apoiando um peso e marcadores metabólicos mais saudáveis e ajudando a prevenir condições como a síndrome metabólica, a dislipidemia e o fígado gordo.\n\n- Descobertas de laboratório: o extrato de açaí preveniu a acumulação de gordura em modelos de células hepáticas (reduziu a acumulação de gotículas lipídicas) e cortou o armazenamento de gordura em cerca de 40% em adipócitos primários inflamados, mostrando um forte potencial antidislipidémico e antiobesidade.",
-      "BG_COLOR": ""
-    },
-    {
-      "CONTENT": "**Saúde da Pele e Antienvelhecimento**\n\nOs antioxidantes do açaí, notavelmente as antocianinas e o ácido vanílico, protegem a pele dos danos dos radicais livres causados pela luz UV e poluição, ajudando a prevenir o envelhecimento prematuro, reduzir rugas, melhorar a tez e apoiar a retenção de humidade da pele.\n\n- Destaques do estudo: dados pré-clínicos mostram que extratos de açaí aceleraram a cicatrização de feridas por arranhão em 24 horas e demonstram atividade antiproliferativa, sugerindo potenciais benefícios para a reparação de tecidos e futura investigação dermatológica.",
-      "BG_COLOR": ""
-    },
-    {
-      "CONTENT": "**Detox e Saúde Intestinal**\n\nO açaí é rico em fibra, que tem um efeito prebiótico, alimentando as boas bactérias intestinais e ajudando o corpo a eliminar algumas toxinas. O açúcar adicionado anula muitos dos benefícios de saúde do açaí. Além do suporte digestivo, a investigação em fase inicial encontrou evidências iniciais de atividade antimicrobiana e efeitos em certos marcadores de doenças.",
-      "BG_COLOR": ""
-    },
-    {
-      "TITLE": "### Possíveis Efeitos Negativos (O ''O que Evitar'')",
-      "CONTENT": "\n\n- As bagas de açaí contêm purinas, que o corpo decompõe em ácido úrico. Para indivíduos propensos a gota ou problemas renais, níveis elevados de ácido úrico podem desencadear crises dolorosas.\n\n- Evite tomar ao mesmo tempo que suplementos de ferro ou refeições ricas em ferro para prevenir interferências com a absorção de ferro. A absorção de ferro de vários compostos de ferro é reduzida em aproximadamente **70%**. Separe as refeições por 2-4h.\n\n- Não deve ser combinado com açúcares simples adicionados excessivos, como xarope de milho rico em frutose, mel ou sumos concentrados excessivamente adoçados. O principal benefício metabólico do açaí repousa no seu baixo teor natural de açúcar.\n\n- Não misture o seu smoothie de açaí com produtos que contenham óleos de sementes processados como óleo de soja, milho ou canola. Estes são ricos em gorduras ómega-6 pró-inflamatórias.",
-      "BG_COLOR": "#F4F5F8"
-    },
-    {
-      "TITLE": "### Quando Consumir",
-      "CONTENT": "Os compostos chave do açaí, polifenóis, são absorvidos rapidamente e geralmente atingem níveis de pico no sangue cerca de 45 minutos a 4 horas depois de os comer, caindo depois novamente em horas. Porque o seu efeito é de curta duração, o açaí funciona melhor como uma parte regular da sua dieta do que como um impulso ocasional.\n\nTome açaí de manhã ou perto dos treinos porque as suas gorduras saudáveis, fibras e hidratos de carbono fornecem energia constante. Evite grandes doses perto da hora de deitar. Recomendações de dosagem 1-2g por dia.",
-      "BG_COLOR": ""
-    },
-    {
-      "TITLE": "### Como Consumir",
-      "CONTENT": "Os principais antioxidantes do açaí são absorvidos lentamente e não completamente, por isso misture o pó com gordura e fibra para obter mais na sua corrente sanguínea.\n\n- Combine açaí com vitamina C, vitamina E ou selénio para aumentar os efeitos antioxidantes. Bons misturadores são iogurte não lácteo, leite de amêndoa ou de outras nozes, e sementes como chia ou linhaça.\n\n- Ideia simples: faça aveia adormecida (overnight oats) de açaí com flocos de aveia, farinha de linhaça, sementes de chia e uma colher de manteiga de noz—gordura mais fibra numa tigela.",
-      "BG_COLOR": "#F4F5F8"
-    },
-    {
-      "TITLE": "### Combinações Nootrópicas Sinérgicas",
-      "CONTENT": "\n\n\nOs antioxidantes mais poderosos do açaí são **lipossolúveis**, o que significa que são melhor absorvidos quando emparelhados com gorduras saudáveis. Adicione amêndoas, polvilhe chia, nozes, linhaça ou sementes de cânhamo, ou misture um pouco de abacate ou leite de coco. Estes ingredientes não só melhoram a absorção como também tornam o seu smoothie mais rico e cremoso.\n\nA combinação com outros alimentos ricos em antioxidantes cria uma defesa mais forte contra o stress oxidativo e a inflamação. Misture com mirtilos, framboesas ou amoras para um reforço extra de antioxidantes. Nibs de cacau ou pepitas de chocolate preto adicionam crocância e mais flavonoides para a saúde do coração e da pele.\n\nA **Vitamina C** protege os antioxidantes delicados do açaí e aumenta o colagénio para uma pele mais saudável.\n\nEmparelhar com **fibra** e **proteína** apoia a digestão, equilibra o açúcar no sangue e ajuda a manter a energia. Adicione aveia, granola, farinha de linhaça ou iogurte grego para o manter saciado e o seu intestino feliz.",
-      "BG_COLOR": ""
+    "TITLE": "Pó de açaí: energia limpa, pele clara, metabolismo forte",
+    "IMG_URL": "/img/page/article/acai-top.webp",
+    "IMG_ALT": "Ilustração de pó de açaí",
+    "BODY": [
+        {
+            "CONTENT": "O açaí (Euterpe oleracea) é uma baga, colhida da palmeira de açaí nas florestas tropicais da América do Sul, um ingrediente nutricionalmente único com significativo potencial terapêutico. Sua distinção reside no seu perfil de macronutrientes atípico para uma fruta, aliado a uma concentração excecionalmente elevada de potentes fitoquímicos. O pó em si é de cor roxa profunda, textura fina e possui um aroma naturalmente terroso e ligeiramente ácido."
+        },
+        {
+            "TITLE": "### Qualidade",
+            "CONTENT": "\n\n- **Escolha produtos certificados**\n\n Ao comprar pó de açaí, procure produtos rotulados como USDA Organic, liofilizados e feitos com 100% de baga de açaí (Euterpe oleracea). A lista de ingredientes deve idealmente conter apenas um ingrediente: açaí orgânico liofilizado. Evite produtos comercializados como misturas de açaí, misturas de superalimentos, pós de sumo ou concentrados, pois podem conter enchimentos, adoçantes ou quantidades menores de açaí real.\n\n- **Pureza e testes**\n\n Para a maior pureza, escolha marcas que forneçam testes de terceiros ou que estejam dispostas a partilhar um Certificado de Análise (COA) que demonstre testes para metais pesados, resíduos de pesticidas e contaminação microbiana. Sempre que possível, selecione açaí originário do Brasil, particularmente das regiões do Pará ou Amapá, onde o açaí é tradicionalmente cultivado.\n\n- **Aparência e frescura**\n\n O pó de açaí de alta qualidade deve ter uma cor roxa profunda a quase preto-arroxeada e um aroma suave a baga. Pós acinzentados, acastanhados ou desbotados podem indicar oxidação ou más condições de armazenamento. Como regra geral, o açaí liofilizado premium é relativamente caro, pelo que produtos com preços anormalmente baixos podem merecer um escrutínio mais atento. Um produto que cumpre estes critérios tem maior probabilidade de oferecer melhor qualidade nutricional, frescura e menor exposição a contaminantes.",
+            "ACCENT_COLOR": "#B34060",
+            "BG_COLOR": "#F4F5F8"
+        },
+        {
+            "TITLE": "### Componentes principais",
+            "CONTENT": "**Densidade nutricional e composição:**\n\n- Riqueza invulgar em gorduras saudáveis e baixo teor de açúcar em comparação com outras frutas.\n\n- Por 100 g de polpa congelada: ~70 calorias, 5 g de gordura, 4 g de hidratos de carbono, apenas 2 g de açúcar.\n\n- Contém todos os aminoácidos essenciais (~7,6% do peso total).\n\n**Gorduras saudáveis para melhor absorção:**\n\n- Rico em gorduras monoinsaturadas e saturadas — principalmente ácido oleico (~54%) e ácido palmítico (~27%).\n\n- Estas gorduras melhoram a biodisponibilidade dos antioxidantes, atuando como um sistema de entrega lipídico integrado.\n\n**Espectro de micronutrientes:**\n\n- Fornece vitaminas A, C, E; minerais como cálcio e potássio; e oligoelementos como manganês, zinco, cobre e crómio.",
+            "ACCENT_COLOR": "#B34060"
+        },
+        {
+            "IMG_SRC": "/img/page/article/acai-middle.webp",
+            "IS_SMALL": true,
+            "IMG_ALT": "Ilustração de pó de açaí"
+        },
+        {
+            "TITLE": "### Efeitos positivos para a saúde",
+            "CONTENT": "**Efeitos antioxidantes e anti-inflamatórios**\n\nO açaí tem uma pontuação ORAC excecionalmente alta, superior à dos mirtilos, e é rico em polifenóis. Estes compostos reduzem o stress oxidativo e apoiam a reparação celular, enquanto modulam a inflamação ao acalmar a via NF‑κB, inibir parcialmente a COX‑2, reduzir a produção de óxido nítrico e diminuir a expressão de VCAM‑1. Juntamente com efeitos favoráveis nos lípidos sanguíneos, estas ações protegem os vasos sanguíneos e a saúde metabólica, e porque alguns antioxidantes atravessam a barreira hematoencefálica, o açaí também oferece benefícios neuroprotetores.\n\n> Estudos em adultos com excesso de peso encontraram melhorias nos níveis de colesterol após 30–60 dias com o equivalente a 100–200 g de polpa.\n\n **Saúde cardiovascular**\n\n O açaí contém esteróis vegetais (β‑sitosterol, campesterol, estigmasterol) que ajudam a equilibrar o colesterol ao competir com o colesterol dietético pela absorção, o que pode reduzir o LDL \"mau\" e apoiar o HDL \"bom\". A sua elevada fibra dietética auxilia a digestão, aumenta a saciedade e ajuda a regular o açúcar no sangue. Os polifenóis e compostos anti-inflamatórios protegem o revestimento dos vasos sanguíneos, aumentam o eNO (óxido nítrico endotelial) para relaxar os vasos e apoiar uma pressão arterial e circulação saudáveis, e reduzem a oxidação do LDL, diminuindo o risco de aterosclerose.\n\n> Investigação publicada no Journal of Agricultural and Food Chemistry demonstrou que a polpa de açaí desencadeou uma potente resposta antioxidante em células humanas.\n\n **Regulação de lípidos e açúcar no sangue**\n\nO açaí pode ajudar a regular o açúcar no sangue e o metabolismo ao melhorar a sensibilidade à insulina e reduzir a glicose pós-prandial em pessoas com excesso de peso, o que pode reduzir o risco de diabetes tipo 2. Os seus compostos também influenciam o metabolismo lipídico e reduzem o stress oxidativo, apoiando um peso mais saudável e melhores marcadores metabólicos, e ajudando a prevenir condições como síndrome metabólica, dislipidemia e fígado gordo.\n\n> Resultados laboratoriais: o extrato de açaí preveniu a acumulação de gordura em modelos de células hepáticas (redução da acumulação de gotículas lipídicas) e reduziu o armazenamento de gordura em cerca de 40% em adipócitos primários inflamados, mostrando um forte potencial antidislipidémico e anti-obesidade.\n\n **Saúde da pele e antienvelhecimento**\n\nOs antioxidantes do açaí, nomeadamente as antocianinas e o ácido vanílico, protegem a pele dos danos causados pelos radicais livres devido à luz UV e poluição, ajudando a prevenir o envelhecimento prematuro, reduzir rugas, melhorar a tez e apoiar a retenção de humidade da pele.\n\n > Destaques do estudo: dados pré-clínicos mostram que os extratos de açaí aceleraram a cicatrização de feridas por arranhão em 24 horas e demonstram atividade antiproliferativa, sugerindo benefícios potenciais para a reparação de tecidos e futura investigação dermatológica.\n\n **Desintoxicação e saúde intestinal**\n\nO açaí é rico em fibra, que tem um efeito prebiótico, alimentando as boas bactérias intestinais e ajudando o corpo a eliminar algumas toxinas. O açúcar adicionado anula muitos dos benefícios do açaí para a saúde. Além do suporte digestivo, investigação em fase inicial encontrou evidências iniciais de atividade antimicrobiana e efeitos em certos marcadores de doenças.",
+            "ACCENT_COLOR": "#B34060"
+        },
+        {
+            "TITLE": "### Possíveis efeitos negativos",
+            "CONTENT": "\n\n- As bagas de açaí contêm purinas, que o corpo decompõe em ácido úrico. Para indivíduos propensos a gota ou problemas renais, níveis elevados de ácido úrico podem desencadear crises dolorosas.\n\n- Evite tomá-lo ao mesmo tempo que suplementos de ferro ou refeições ricas em ferro para prevenir interferência na absorção de ferro. A absorção de ferro a partir de vários compostos férricos é reduzida em aproximadamente 70%. Separe as refeições por 2-4 horas.\n\n- Não deve ser combinado com açúcares simples adicionados em excesso, como xarope de milho rico em frutose, mel ou sumos concentrados demasiado adoçados. O benefício metabólico central do açaí baseia-se no seu baixo teor natural de açúcar.\n\n- Não misture o seu smoothie de açaí com produtos que contenham óleos de sementes processados como óleo de soja, milho ou canola. Estes são ricos em gorduras ómega‑6 pró-inflamatórias.",
+            "ACCENT_COLOR": "#B34060"
+        },
+        {
+            "IMG_SRC": "/img/page/article/acai-bottom.webp",
+            "IS_SMALL": true,
+            "IMG_ALT": "Ilustração de pó de açaí"
+        },
+        {
+            "TITLE": "### Quando consumir",
+            "CONTENT": "Os principais compostos do açaí, os polifenóis, são absorvidos rapidamente e geralmente atingem níveis máximos no sangue cerca de 45 minutos a 4 horas após a ingestão, caindo novamente dentro de horas. Como o seu efeito é de curta duração, o açaí funciona melhor como parte regular da sua dieta em vez de um impulso ocasional. Tome açaí de manhã ou em torno dos treinos porque as suas gorduras saudáveis, fibra e hidratos de carbono fornecem energia estável. Evite grandes doses perto da hora de dormir. Recomendação de dosagem: 1-2 g por dia.",
+            "BG_COLOR": "#F4F5F8"
+        },
+        {
+            "TITLE": "### Como consumir",
+            "CONTENT": "Os principais antioxidantes do açaí são absorvidos lentamente e não completamente, por isso misture o pó com gordura e fibra para obter mais na sua corrente sanguínea.\n\n- Combine o açaí com vitamina C, vitamina E ou selénio para potenciar os efeitos antioxidantes. Bons misturadores são iogurte não lácteo, leite de amêndoa ou outros leites de frutos secos, e sementes como chia ou linhaça.\n\n- Ideia simples: faça aveia noturna de açaí com flocos de aveia, farinha de linhaça, sementes de chia e uma colher de manteiga de frutos secos — gordura e fibra numa só tigela.",
+            "BG_COLOR": "#F4F5F8",
+            "ACCENT_COLOR": "#B34060"
+        },
+        {
+            "TITLE": "### Combinações nootrópicas sinérgicas",
+            "CONTENT": "\n\n Os antioxidantes mais poderosos do açaí são lipossolúveis, o que significa que são melhor absorvidos quando combinados com gorduras saudáveis. Adicione amêndoas, polvilhe sementes de chia, nozes, linhaça ou sementes de cânhamo, ou misture um pouco de abacate ou leite de coco. Estes ingredientes não só melhoram a absorção, mas também tornam o seu smoothie mais rico e cremoso.\n\n> Combinar com outros alimentos ricos em antioxidantes cria uma defesa mais forte contra o stress oxidativo e a inflamação. Misture com mirtilos, framboesas ou amoras para um impulso antioxidante extra. Os nibs de cacau ou pepitas de chocolate preto adicionam crocância e mais flavonoides para a saúde do coração e da pele. A vitamina C protege os delicados antioxidantes do açaí e estimula o colagénio para uma pele mais saudável.\n Combinar com fibra e proteína apoia a digestão, equilibra o açúcar no sangue e ajuda a manter a energia. Adicione aveia, granola, farinha de linhaça ou iogurte grego para se manter saciado e manter o seu intestino feliz.",
+            "ACCENT_COLOR": "#B34060"
+        }
+    ],
+    "CALL_TO_ACTION": {
+        "TITLE": "A nossa aplicação está disponível para qualquer dispositivo",
+        "SUBTITLE": "Descarregue a aplicação agora e comece a acompanhar as suas mudanças de humor até dentro do mesmo dia",
+        "ALT": "Acesso a estatísticas sem um iPhone"
     }
-  ],
-  "CALL_TO_ACTION": {
-    "TITLE": "A nossa aplicação está disponível para qualquer dispositivo",
-    "SUBTITLE": "Descarregue a aplicação agora mesmo e comece a monitorizar as suas mudanças de humor mesmo dentro do mesmo dia",
-    "ALT": "Acesso a estatísticas sem um iPhone"
-  }
 }
