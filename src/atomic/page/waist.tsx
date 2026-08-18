@@ -15,7 +15,7 @@ import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import CardIconTitleText from "../molecule/card-icon-title-text";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
-import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
 export default function WaistLine() {
     const appId = getAppId();
@@ -122,27 +122,29 @@ export default function WaistLine() {
                     </div>
                 </section>
 
-                <div className="ms-base-page ms-base-new row waist call-to-action why-waist-section">
-                    <CallToAction
-                        title={_("WAIST.HEAD1")}
-                        subtitle={_("WAIST.DESC1")}
-                        textList={[
-                            <>
-                                <strong>{_("WAIST.LINK2")}</strong> {_("WAIST.DESC2")}
-                            </>,
-                            <>
-                                <strong>{_("WAIST.LINK3")}</strong> {_("WAIST.DESC3")}
-                            </>,
-                        ]}
-                        textListTitle={_("WAIST.HEAD3")}
-                        imgSrc="/img/page/waistline/waist-whywaist-en.webp"
-                        imgH={390}
-                        imgW={620}
-                        imgAlt={_("WAIST.ALT1")}
-                        imgPosition="left"
-                        bgColor={"#FFFFFF"}
-                    />
-                </div>
+                <section>
+                    <div className="why-waist-section">
+                        <CallToAction
+                            title={_("WAIST.HEAD1")}
+                            subtitle={_("WAIST.DESC1")}
+                            textList={[
+                                <>
+                                    <strong>{_("WAIST.LINK2")}</strong> {_("WAIST.DESC2")}
+                                </>,
+                                <>
+                                    <strong>{_("WAIST.LINK3")}</strong> {_("WAIST.DESC3")}
+                                </>,
+                            ]}
+                            textListTitle={_("WAIST.HEAD3")}
+                            imgSrc="/img/page/waistline/waist-whywaist-en.webp"
+                            imgH={390}
+                            imgW={620}
+                            imgAlt={_("WAIST.ALT1")}
+                            imgPosition="left"
+                            bgColor={"#FFFFFF"}
+                        />
+                    </div>
+                </section>
 
                 <section>
                     <div className="ms-base-new row waist-info-section">
