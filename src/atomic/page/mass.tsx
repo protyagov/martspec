@@ -14,8 +14,9 @@ import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardTitleText from "@/atomic/molecule/card-title-text";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
-import { useBreadcrumbs } from "@/hooks/useBreadcrumbs"
+import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
+import BulletList from "@/atomic/molecule/bullet-list";
 
 export default function Bodymass() {
     const appId = getAppId();
@@ -239,6 +240,62 @@ export default function Bodymass() {
                                     cardMobileHeight="16rem"
                                     responsive={true}
                                     mobileBreakpoint={991}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="row">
+                        <div className="row block p-0" style={{ backgroundColor: "#FFEFEF", overflow: "hidden" }}>
+                            <div className="col-lg-6 ps-5 py-5 pr-0">
+                                <h1 className="fs-1">{_("MASS.HEAD6")}</h1>
+                                <p className="mb-3">{_("MASS.DESC6")}</p>
+
+                                <BulletList
+                                    items={[_("MASS.LIST5.LI1_HEAD")]}
+                                    iconColor="#F0606C"
+                                    className="col-bullet-list fw-bold text-muted m-0"
+                                />
+                                <p className="m-0 mb-3">{_("MASS.LIST5.LI1_TEXT")}</p>
+
+                                <BulletList
+                                    items={[_("MASS.LIST5.LI2_HEAD")]}
+                                    iconColor="#F0606C"
+                                    className="col-bullet-list fw-bold text-muted m-0"
+                                />
+                                <p className="m-0 mb-3">{_("ZINC.LIST3.LI2_TEXT")}</p>
+
+                                <BulletList
+                                    items={[_("MASS.LIST5.LI3_HEAD")]}
+                                    iconColor="#F0606C"
+                                    className="col-bullet-list fw-bold text-muted m-0"
+                                />
+                                <p className="m-0 mb-3">{_("ZINC.LIST3.LI3_TEXT")}</p>
+
+                                <BulletList
+                                    items={[_("MASS.LIST5.LI4_HEAD")]}
+                                    iconColor="#F0606C"
+                                    className="col-bullet-list fw-bold text-muted m-0"
+                                />
+                                <p className="m-0 mb-3">{_("MASS.LIST5.LI4_TEXT")}</p>
+
+                                <BulletList
+                                    items={[_("MASS.LIST5.LI5_HEAD")]}
+                                    iconColor="#F0606C"
+                                    className="col-bullet-list fw-bold text-muted m-0"
+                                />
+                                <p className="m-0 mb-3">{_("MASS.LIST5.LI5_TEXT")}</p>
+                            </div>
+
+                            <div className="col-lg-6 d-flex justify-content-end align-items-end p-0">
+                                <ImageI18N
+                                    src="/img/page/body-size/loss-weight.svg"
+                                    w={600}
+                                    h={450}
+                                    cls="m-0 img-fluid"
+                                    alt={_("ZINC.ALT1")}
                                 />
                             </div>
                         </div>

@@ -167,6 +167,20 @@
             "LI4_TEXT": "Sleep, stress, and mood all affect your weight. Make sure you're getting enough rest, managing stress levels, and supporting your body holistically — not just through food and exercise.",
             "LI5_HEAD": "Build a Routine & Stay Accountable",
             "LI5_TEXT": "Make weight tracking part of your daily rhythm — like brushing your teeth. Staying consistent builds momentum. You can also team up with friends or use support groups for extra motivation."
+        },
+        "HEAD6": "How to Track Weight Loss or Gain",
+        "DESC6": "Tracking your weight consistently is one of the most effective ways to stay accountable and monitor your progress. Here's how to do it in a way that works:",
+        "LIST5": {
+            "LI1_HEAD": "Choose a Consistent Time",
+            "LI1_TEXT": "Weigh yourself at the same time every day — ideally in the morning, before eating, and after using the bathroom. This helps reduce fluctuations caused by food, water, or activity.",
+            "LI2_HEAD": "Track Daily or Weekly — But Stay Consistent",
+            "LI2_TEXT": "Daily tracking gives more detail and helps you spot small changes, while weekly tracking can reduce stress over natural day-to-day fluctuations. Choose what works best for you.",
+            "LI3_HEAD": "Use the Right Tools",
+            "LI3_TEXT": "Apps like Body Mass on your Apple Watch make logging effortless and sync automatically with Apple Health. You can also use a smart scale to track changes over time.",
+            "LI4_HEAD": "Focus on Trends, Not Just Numbers",
+            "LI4_TEXT": "Body weight can vary daily due to hydration, sleep, and other factors. Look at overall trends across weeks, not individual days.",
+            "LI5_HEAD": "Take Notes When Needed",
+            "LI5_TEXT": "If your weight changes suddenly, note what might have contributed — a big meal, stress, or intense workout. Over time, you'll understand your body better."
         }
     },
     "VITAMIN": {
