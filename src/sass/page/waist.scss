@@ -2,7 +2,7 @@
 
 .waist {
     $colors: (
-        "main": #F4F5F8,
+        "main": #f4f5f8,
         "main-filter": invert(22%) sepia(97%) saturate(4223%) hue-rotate(199deg) brightness(95%) contrast(101%),
     );
 
@@ -50,22 +50,30 @@
         }
     }
 
-  .header-content-list li::marker {
-      color: #1686ff;
-  }
+    .header-content-list li::marker {
+        color: #1686ff;
+    }
 
-  .no-mx-5 .card-title-text-image {
-      margin-left: 0 !important;
-      margin-right: 0 !important;
-  }
-
+    .no-mx-5 .card-title-text-image {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
 
     .why-waist-section {
+        margin-bottom: map-get($section-y-gap, "l") !important;
+
+        .container {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            max-width: 100% !important;
+        }
+
         .block {
             box-shadow: none !important;
             align-items: center;
             text-align: start;
             column-gap: 8rem !important;
+            padding: 0 !important;
 
             h2 {
                 margin-bottom: 1.5rem !important;
@@ -97,50 +105,50 @@
         }
     }
 
-  .call-to-action {
-    .block {
-        padding: 0;
-        box-shadow: none;
-        align-items: center;
-        text-align: start;
-        div {
-            min-height: 324px;
-            max-width: 510px;
-            h2 {
-                font-size: 3.08rem;
+    .call-to-action {
+        .block {
+            padding: 0;
+            box-shadow: none;
+            align-items: center;
+            text-align: start;
+            div {
+                min-height: 324px;
+                max-width: 510px;
+                h2 {
+                    font-size: 3.08rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                    line-height: 120%;
+                }
             }
-            p {
-                font-size: 1.5rem;
-                line-height: 120%;
-            }
-        }
-        .ms-btn-apple {
-            img {
-                margin: 0;
+            .ms-btn-apple {
+                img {
+                    margin: 0;
+                }
             }
         }
     }
-  }
 
-  .waist-info-section {
-    h2 {
-        font-size: 3.08rem;
-        margin-bottom: 1.9rem;
-    }
-    p {
-        font-size: 1.39rem;
-        line-height: 120%;
-        max-width: 800px;
-        margin-bottom: 5rem;
-    }
-    .info-list {
-        padding: 0;
+    .waist-info-section {
+        h2 {
+            font-size: 3.08rem;
+            margin-bottom: 1.9rem;
+        }
         p {
-            margin-bottom: 1rem !important;
+            font-size: 1.39rem;
+            line-height: 120%;
+            max-width: 800px;
+            margin-bottom: 5rem;
         }
-        .card-icon-title-text {
-            flex-grow: 1;
+        .info-list {
+            padding: 0;
+            p {
+                margin-bottom: 1rem !important;
+            }
+            .card-icon-title-text {
+                flex-grow: 1;
+            }
         }
     }
-  }
 }
