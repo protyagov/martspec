@@ -164,6 +164,20 @@
             "LI4_TEXT": "Le sommeil, le stress et l'humeur affectent tous votre poids. Assurez-vous de vous reposer suffisamment, de gérer votre niveau de stress et de soutenir votre corps de manière globale, et pas seulement par la nourriture et l'exercice.",
             "LI5_HEAD": "Créez une routine et restez responsable",
             "LI5_TEXT": "Faites du suivi du poids une partie de votre rythme quotidien, comme vous brosser les dents. Rester régulier crée une dynamique. Vous pouvez également faire équipe avec des amis ou utiliser des groupes de soutien pour une motivation supplémentaire."
+        },
+        "HEAD6": "Comment suivre une perte ou une prise de poids",
+        "DESC6": "Suivre votre poids de manière cohérente est l'un des moyens les plus efficaces de rester responsable et de surveiller vos progrès. Voici comment procéder de manière efficace :",
+        "LIST5": {
+            "LI1_HEAD": "Choisissez une heure fixe",
+            "LI1_TEXT": "Pesez-vous à la même heure chaque jour — idéalement le matin, avant de manger et après être allé aux toilettes. Cela permet de réduire les fluctuations causées par la nourriture, l'eau ou l'activité.",
+            "LI2_HEAD": "Suivi quotidien ou hebdomadaire — mais restez cohérent",
+            "LI2_TEXT": "Le suivi quotidien donne plus de détails et vous aide à repérer les petits changements, tandis que le suivi hebdomadaire peut réduire le stress lié aux fluctuations naturelles quotidiennes. Choisissez ce qui vous convient le mieux.",
+            "LI3_HEAD": "Utilisez les bons outils",
+            "LI3_TEXT": "Des applications comme Body Mass sur votre Apple Watch facilitent la saisie et se synchronisent automatiquement avec Apple Health. Vous pouvez également utiliser une balance intelligente pour suivre les changements au fil du temps.",
+            "LI4_HEAD": "Concentrez-vous sur les tendances, pas seulement sur les chiffres",
+            "LI4_TEXT": "Le poids corporel peut varier quotidiennement en raison de l'hydratation, du sommeil et d'autres facteurs. Regardez les tendances globales sur plusieurs semaines, pas les jours individuels.",
+            "LI5_HEAD": "Prenez des notes si nécessaire",
+            "LI5_TEXT": "Si votre poids change soudainement, notez ce qui a pu y contribuer — un gros repas, du stress ou un entraînement intense. Avec le temps, vous comprendrez mieux votre corps."
         }
     },
     "VITAMIN": {
@@ -1778,21 +1792,21 @@
         "DESC": "Chez Martspec, nous comprenons que postuler à des emplois en ligne comporte parfois des risques. Nous compatissons avec ceux qui sont confrontés à la fraude à l'emploi et nous nous efforçons d'aider les demandeurs d'emploi à réduire le risque d'être victimes de telles escroqueries.",
         "ALT": "Sécurité lors de la candidature",
         "LIST1": {
-        "HEAD": "Comment nous protégeons vos données",
-        "DESC1": "Avant d'aborder les signes courants de fraude, nous souhaitons clarifier entièrement notre processus de recrutement. Chez Martspec, tout repose exclusivement sur les qualités professionnelles, les compétences, les contributions et les résultats d'une personne — indépendamment du genre, de l'âge, des relations personnelles ou d'autres facteurs.",
-        "SUBHEAD1": "Ce que nous ne demandons jamais :",
-        "TEXT1": "Date de naissance réelle ou âge",
-        "TEXT2": "Passeport",
-        "TEXT3": "Permis de conduire",
-        "TEXT4": "Numéro de téléphone",
-        "TEXT5": "Numéro de sécurité sociale",
-        "TEXT6": "Toutes autres données personnelles confidentielles",
-        "SUBHEAD2": "Quelles données nous sont réellement nécessaires",
-        "DESC2": "Pour la plupart des candidats, nous avons seulement besoin de :",
-        "TEXT7": "Nom (pour pouvoir vous adresser correctement)",
-        "TEXT8": "E-mail pour la communication",
-        "TEXT9": "Parfois - fuseau horaire (notre équipe travaille dans différents fuseaux horaires, nous ne voulons donc pas vous déranger au milieu de la nuit)"
-    }
+            "HEAD": "Comment nous protégeons vos données",
+            "DESC1": "Avant d'aborder les signes courants de fraude, nous souhaitons clarifier entièrement notre processus de recrutement. Chez Martspec, tout repose exclusivement sur les qualités professionnelles, les compétences, les contributions et les résultats d'une personne — indépendamment du genre, de l'âge, des relations personnelles ou d'autres facteurs.",
+            "SUBHEAD1": "Ce que nous ne demandons jamais :",
+            "TEXT1": "Date de naissance réelle ou âge",
+            "TEXT2": "Passeport",
+            "TEXT3": "Permis de conduire",
+            "TEXT4": "Numéro de téléphone",
+            "TEXT5": "Numéro de sécurité sociale",
+            "TEXT6": "Toutes autres données personnelles confidentielles",
+            "SUBHEAD2": "Quelles données nous sont réellement nécessaires",
+            "DESC2": "Pour la plupart des candidats, nous avons seulement besoin de :",
+            "TEXT7": "Nom (pour pouvoir vous adresser correctement)",
+            "TEXT8": "E-mail pour la communication",
+            "TEXT9": "Parfois - fuseau horaire (notre équipe travaille dans différents fuseaux horaires, nous ne voulons donc pas vous déranger au milieu de la nuit)"
+        }
     },
     "TEAM": {
         "HEAD": "L'équipe",

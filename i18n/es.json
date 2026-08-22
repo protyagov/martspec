@@ -164,6 +164,20 @@
             "LI4_TEXT": "El sueño, el estrés y el estado de ánimo afectan su peso. Asegúrese de descansar lo suficiente, controlar los niveles de estrés y apoyar a su cuerpo de manera integral, no solo a través de la comida y el ejercicio.",
             "LI5_HEAD": "Cree una rutina y mantenga la responsabilidad",
             "LI5_TEXT": "Haga que el control del peso sea parte de su ritmo diario, como cepillarse los dientes. Ser constante genera impulso. También puede formar equipo con amigos o usar grupos de apoyo para obtener motivación adicional."
+        },
+                "HEAD6": "Cómo hacer un seguimiento de la pérdida o aumento de peso",
+        "DESC6": "Hacer un seguimiento constante de su peso es una de las formas más efectivas de mantenerse responsable y monitorear su progreso. Así es como hacerlo de manera efectiva:",
+        "LIST5": {
+            "LI1_HEAD": "Elija una hora constante",
+            "LI1_TEXT": "Pésese a la misma hora todos los días — idealmente por la mañana, antes de comer y después de ir al baño. Esto ayuda a reducir las fluctuaciones causadas por la comida, el agua o la actividad.",
+            "LI2_HEAD": "Realice un seguimiento diario o semanal — pero mantenga la constancia",
+            "LI2_TEXT": "El seguimiento diario brinda más detalles y ayuda a detectar pequeños cambios, mientras que el seguimiento semanal puede reducir el estrés por las fluctuaciones naturales del día a día. Elija lo que mejor funcione para usted.",
+            "LI3_HEAD": "Utilice las herramientas adecuadas",
+            "LI3_TEXT": "Aplicaciones como Body Mass en su Apple Watch hacen que el registro sea sencillo y se sincronizan automáticamente con Apple Health. También puede usar una báscula inteligente para rastrear los cambios a lo largo del tiempo.",
+            "LI4_HEAD": "Concéntrese en las tendencias, no solo en los números",
+            "LI4_TEXT": "El peso corporal puede variar diariamente debido a la hidratación, el sueño y otros factores. Mire las tendencias generales a lo largo de las semanas, no los días individuales.",
+            "LI5_HEAD": "Tome notas cuando sea necesario",
+            "LI5_TEXT": "Si su peso cambia repentinamente, anote lo que pudo haber contribuido — una comida abundante, estrés o un entrenamiento intenso. Con el tiempo, comprenderá mejor su cuerpo."
         }
     },
     "VITAMIN": {
