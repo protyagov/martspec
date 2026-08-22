@@ -1,12 +1,12 @@
 .bodymass {
-    .header-content-list{
+    .header-content-list {
         li {
             &::marker {
-                color: #F0606C;
+                color: #f0606c;
             }
         }
     }
-    .custom-card-padding-b .card-title-text{
-    padding-bottom: 10rem !important;
-}
+    .custom-card-padding-b .card-title-text {
+        padding-bottom: 10rem !important;
+    }
 }

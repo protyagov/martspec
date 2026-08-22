@@ -164,6 +164,20 @@
             "LI4_TEXT": "Sono, estresse e humor afetam seu peso. Certifique-se de descansar o suficiente, gerenciar os níveis de estresse e apoiar seu corpo de forma holística — não apenas por meio de alimentação e exercícios.",
             "LI5_HEAD": "Crie uma rotina e mantenha a responsabilidade",
             "LI5_TEXT": "Faça do acompanhamento do peso parte do seu ritmo diário — como escovar os dentes. Manter a consistência cria impulso. Você também pode se juntar a amigos ou usar grupos de apoio para motivação extra."
+        },
+        "HEAD6": "Como acompanhar a perda ou ganho de peso",
+        "DESC6": "Acompanhar seu peso de forma consistente é uma das maneiras mais eficazes de se manter responsável e monitorar seu progresso. Veja como fazer isso de forma eficaz:",
+        "LIST5": {
+            "LI1_HEAD": "Escolha um horário consistente",
+            "LI1_TEXT": "Pese-se no mesmo horário todos os dias — idealmente pela manhã, antes de comer e depois de ir ao banheiro. Isso ajuda a reduzir as flutuações causadas por comida, água ou atividade.",
+            "LI2_HEAD": "Acompanhe diariamente ou semanalmente — mas mantenha a consistência",
+            "LI2_TEXT": "O acompanhamento diário fornece mais detalhes e ajuda a identificar pequenas mudanças, enquanto o acompanhamento semanal pode reduzir o estresse com as flutuações naturais do dia a dia. Escolha o que funciona melhor para você.",
+            "LI3_HEAD": "Use as ferramentas certas",
+            "LI3_TEXT": "Aplicativos como Body Mass no seu Apple Watch facilitam o registro e sincronizam automaticamente com o Apple Health. Você também pode usar uma balança inteligente para acompanhar as mudanças ao longo do tempo.",
+            "LI4_HEAD": "Foque nas tendências, não apenas nos números",
+            "LI4_TEXT": "O peso corporal pode variar diariamente devido à hidratação, sono e outros fatores. Observe as tendências gerais ao longo de semanas, não dias isolados.",
+            "LI5_HEAD": "Faça anotações quando necessário",
+            "LI5_TEXT": "Se o seu peso mudar repentinamente, anote o que pode ter contribuído — uma refeição grande, estresse ou um treino intenso. Com o tempo, você entenderá melhor o seu corpo."
         }
     },
     "VITAMIN": {
@@ -1782,21 +1796,21 @@
         "DESC": "Na Martspec, entendemos que candidatar-se a empregos online às vezes envolve riscos. Nós nos solidarizamos com aqueles que enfrentam fraudes de emprego e nos esforçamos para ajudar os candidatos a reduzir o risco de se tornarem vítimas de tais esquemas.",
         "ALT": "Segurança na candidatura de emprego",
         "LIST1": {
-        "HEAD": "Como protegemos os seus dados",
-        "DESC1": "Antes de passarmos aos sinais comuns de fraude, queremos esclarecer totalmente o nosso processo de contratação. Na Martspec, tudo se baseia exclusivamente nas qualidades profissionais, competências, contributos e resultados de uma pessoa — independentemente do género, idade, ligações pessoais ou outros fatores.",
-        "SUBHEAD1": "O que nunca pedimos:",
-        "TEXT1": "Data de nascimento real ou idade",
-        "TEXT2": "Passaporte",
-        "TEXT3": "Carta de condução",
-        "TEXT4": "Número de telefone",
-        "TEXT5": "Número de segurança social",
-        "TEXT6": "Quaisquer outros dados pessoais confidenciais",
-        "SUBHEAD2": "Quais os dados de que realmente precisamos",
-        "DESC2": "Para a maioria dos candidatos, precisamos apenas de:",
-        "TEXT7": "Nome (para o podermos tratar corretamente)",
-        "TEXT8": "E-mail para comunicação",
-        "TEXT9": "Às vezes - fuso horário (a nossa equipa trabalha em diferentes fusos horários, por isso não queremos incomodá-lo a meio da noite)"
-    }
+            "HEAD": "Como protegemos os seus dados",
+            "DESC1": "Antes de passarmos aos sinais comuns de fraude, queremos esclarecer totalmente o nosso processo de contratação. Na Martspec, tudo se baseia exclusivamente nas qualidades profissionais, competências, contributos e resultados de uma pessoa — independentemente do género, idade, ligações pessoais ou outros fatores.",
+            "SUBHEAD1": "O que nunca pedimos:",
+            "TEXT1": "Data de nascimento real ou idade",
+            "TEXT2": "Passaporte",
+            "TEXT3": "Carta de condução",
+            "TEXT4": "Número de telefone",
+            "TEXT5": "Número de segurança social",
+            "TEXT6": "Quaisquer outros dados pessoais confidenciais",
+            "SUBHEAD2": "Quais os dados de que realmente precisamos",
+            "DESC2": "Para a maioria dos candidatos, precisamos apenas de:",
+            "TEXT7": "Nome (para o podermos tratar corretamente)",
+            "TEXT8": "E-mail para comunicação",
+            "TEXT9": "Às vezes - fuso horário (a nossa equipa trabalha em diferentes fusos horários, por isso não queremos incomodá-lo a meio da noite)"
+        }
     },
     "TEAM": {
         "HEAD": "Nossa equipe",
