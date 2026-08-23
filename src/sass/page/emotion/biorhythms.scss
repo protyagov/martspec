@@ -16,7 +16,6 @@
 
         display: grid;
         grid-template: max-content / repeat($columns-count, 1fr);
-        gap: $column-x-gap;
 
         p {
             margin-bottom: 0;

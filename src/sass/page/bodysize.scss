@@ -72,7 +72,7 @@
 
     @include media-breakpoint-down(md) {
         li {
-            flex-basis: calc(50% - (#{$column-x-gap} / 2));
+            flex-basis: calc(50% - (1.5rem / 2));
         }
 
         li:last-child {

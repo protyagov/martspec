@@ -1,7 +1,6 @@
 .list-with-icons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: $column-x-gap;
   row-gap: 2.5rem;
 
   @include media-breakpoint-down($base-breakpoint) {

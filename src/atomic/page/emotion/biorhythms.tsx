@@ -66,7 +66,7 @@ export default function Biorhythms() {
                     <div className="row">
                         <div className="col-12">
                             <h2>{_("BIORHYTHMS.HEAD1")}</h2>
-                            <div className="columns-with-collapse">
+                            <div className="columns-with-collapse gap-4">
                                 <div>
                                     <p>{_("BIORHYTHMS.DESK1_1")}</p>
                                     <a
