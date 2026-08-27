@@ -282,6 +282,32 @@
             "NAME": "Food Additives",
             "SHORT": "Additive"
         },
+        "CAPSULES": {
+            "CAPTION": "Gelatin vs vegan capsules. The capsule you choose matters. ",
+            "EMPTY": " ",
+            "HEAD1": "GELATIN CAPSULES: AN ANIMAL-BASED DILEMMA",
+            "HEAD2": "VEGAN CAPSULES: A PLANT-BASED ALTERNATIVE",
+            "FIRST_COL": {
+                "Source": "Source",
+                "Dissolving_speed": "Dissolving speed",
+                "Suitability": "Suitability",
+                "Concerns": "Concerns"
+            },
+            "TEXT": {
+                "GELATIN": {
+                    "0": "Derived from animal collagen (pork or beef bones and skin). Not suitable for vegetarians or vegans.",
+                    "1": "Typically dissolves in 15-30 minutes. May vary with stomach acidity and temperature.",
+                    "2": "Suitable for most omnivores. Not suitable for vegetarians, vegans, or those with certain dietary beliefs",
+                    "3": "Potential for animal-borne contaminants, allergens, and ethical concerns. Not hypoallergenic."
+                },
+                "VEGAN": {
+                    "0": "Made from plant cellulose (usually HPMC) derived from wood pulp or cotton. 100% plant-based.",
+                    "1": "Typically dissolves in 20-40 minutes. Designed for consistent release and performance.",
+                    "2": "Suitable for vegetarians, vegans, and most dietary lifestyles. Often allergen-free.",
+                    "3": "Lower risk of allergens. Non-animal derived with fewer ethical concerns. Generally well tolerated."
+                }
+            }
+        },
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",
