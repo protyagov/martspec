@@ -19,6 +19,7 @@ import { getAppId } from "@/service/AppleService";
 import ScrollButton from "../atom/scroll-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
+import Table, { TableData } from "@/atomic/molecule/table";
 
 interface VitaminGroup {
     groupName: string;
@@ -247,7 +248,32 @@ export default function Vitamin() {
             },
         },
     ];
+    
+    {/*const FIRST_COL = [
+    "Source",
+    "Dissolving_speed",
+    "Suitability",
+    "Concerns"
+    ];
 
+    const tableData: TableData = {
+        caption: _("VITAMIN.CAPSULES.CAPTION"), //SEO описание
+        headers: [
+            _("VITAMIN.CAPSULES.EMPTY"),
+            _("VITAMIN.CAPSULES.HEAD1"),
+            _("VITAMIN.CAPSULES.HEAD2")
+        ],
+        rows: FIRST_COL.map((colname, idx) => {
+            const gelatin = _("VITAMIN.CAPSULES.TEXT.GELATIN")[idx];
+            const vegan = _("VITAMIN.CAPSULES.TEXT.VEGAN")[idx];
+            
+            return [
+                _("VITAMIN.CAPSULES.FIRST_COL." + colname),
+                gelatin ? `${_("VITAMIN.CAPSULES.TEXT.GELATIN." + [idx])}` : " ",
+                vegan ? `${_("VITAMIN.CAPSULES.TEXT.VEGAN." + [idx])}` : " "
+            ];
+        })
+    };*/}
     return (
         <>
             <NavigationBar />
@@ -275,6 +301,20 @@ export default function Vitamin() {
                         </div>
                     </Header>
                 </section>
+                
+                {/*ТАБЛИЦА ВИТАМИННЫЕ КАПСУЛЫ*/}
+                {/*<section>
+                        <div className="row">
+                            <div className="col-12 pe-2 m-0">
+                                <Table 
+                                    data={tableData} 
+                                    transformMobile={true} 
+                                    headerBgColor="#F5EFFF"
+                                    firstColumnBgColor="#F9F5FF" 
+                                />
+                            </div>
+                        </div>
+                </section>*/}
 
                 <section>
                     <div className="row g-4">
