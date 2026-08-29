@@ -1,5 +1,13 @@
 @import "@/sass/atom/base-new-vars";
 
+$section-y-gap: (
+    "l": 8.8rem,
+    "m": 7.7rem,
+    "s": 6.6rem,
+    "xs": 4.4rem,
+    "xxs": 4rem,
+);
+
 #root {
     display: flex;
     flex-direction: column;
