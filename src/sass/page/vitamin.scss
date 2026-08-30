@@ -48,10 +48,10 @@
     section {
         max-width: 100%;
         padding: 0;
-        margin: map-get($section-y-gap, "l") auto;
+        margin: 8.8rem auto;
 
         &.bg-gray {
-            padding: map-get($section-y-gap, "m") 0;
+            padding: 7.7rem 0;
             background: #f8f8f8;
         }
 

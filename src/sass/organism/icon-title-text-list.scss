@@ -32,7 +32,7 @@
     li {
       grid-template-rows: min-content;
       grid-template-columns: 1fr;
-      gap: map-get($section-y-gap, "xxs");
+      gap: 4rem;
     }
 
     h3 {

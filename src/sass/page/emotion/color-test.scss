@@ -7,7 +7,7 @@
     }
 
     section:first-of-type {
-        padding: map-get($section-y-gap, "m") 0;
+        padding: 7.7rem 0;
 
         .ms-btn-large {
             margin-top: 2.7rem;
@@ -121,7 +121,7 @@
             gap: 3rem;
 
             @include media-breakpoint-up(sm) {
-                padding: map-get($section-y-gap, "m");
+                padding: 7.7rem;
             }
         }
     }
