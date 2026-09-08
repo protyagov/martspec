@@ -189,6 +189,7 @@ export default function Bodymass() {
                                 text={_("MASS.LIST4.LI2_TEXT")}
                                 bgColor="#FFFFFF"
                                 imgSrc="/img/page/body-mass/avocado.svg"
+                                imgAlt={_("MASS.LIST4.LI2_IMG_ALT")}
                                 imgPosition="right-bottom"
                                 shadow={true}
                                 cardHeight="10rem"
@@ -205,6 +206,7 @@ export default function Bodymass() {
                                 text={_("MASS.LIST4.LI3_TEXT")}
                                 bgColor="#FFFFFF"
                                 imgSrc="/img/page/body-mass/gloves.svg"
+                                imgAlt={_("MASS.LIST4.LI3_IMG_ALT")}
                                 imgPosition="right-bottom"
                                 shadow={true}
                                 cardHeight="20rem"
@@ -221,6 +223,7 @@ export default function Bodymass() {
                                     text={_("MASS.LIST4.LI4_TEXT")}
                                     bgColor="#FFFFFF"
                                     imgSrc="/img/page/body-mass/watch.svg"
+                                    imgAlt={_("MASS.LIST4.LI4_IMG_ALT")}
                                     imgPosition="right-bottom"
                                     shadow={true}
                                     cardHeight="20rem"
