@@ -964,7 +964,7 @@
         },
         "CHAGA": {
             "HEAD": "Chg",
-            "NAME": "Hongo Chaga",
+            "NAME": "Chaga",
             "CATEGORY": "hongo",
             "DESK": "Chaga es un increíble hongo medicinal con pronunciadas propiedades inmunomoduladoras y antioxidantes."
         },
@@ -988,7 +988,7 @@
         },
         "LION": {
             "HEAD": "Lmn",
-            "NAME": "Hongo Melena de León",
+            "NAME": "Melena de León",
             "CATEGORY": "hongo",
             "DESK": "El hongo Melena de León contiene compuestos naturales poderosos que ayudan a combatir tanto la inflamación como el daño oxidativo."
         },
@@ -1000,7 +1000,7 @@
         },
         "ASHWAGANDHA": {
             "HEAD": "Awe",
-            "NAME": "Extracto de Ashwagandha",
+            "NAME": "Ashwagandha",
             "CATEGORY": "extracto",
             "DESK": "Ashwagandha es una de las plantas más importantes en la medicina ayurvédica, utilizada durante más de 3000 años para fortalecer el cuerpo, restaurar el equilibrio y promover la longevidad."
         },
@@ -1012,7 +1012,7 @@
         },
         "TURKEY_TAIL": {
             "HEAD": "Tkt",
-            "NAME": "Hongo Cola de Pavo",
+            "NAME": "Cola de Pavo",
             "CATEGORY": "hongo",
             "DESK": "Ha sido ampliamente estudiado por la ciencia como un hongo medicinal conocido por sus propiedades inmunomoduladoras y adaptógenas."
         },
@@ -1024,7 +1024,7 @@
         },
         "FIREWEED": {
             "HEAD": "Frw",
-            "NAME": "Té de Epilobio",
+            "NAME": "Té de epilobio",
             "CATEGORY": "mezcla de hierbas",
             "DESK": "Proporciona un apoyo poderoso para la salud intestinal y digestiva gracias a su combinación única de compuestos naturales."
         },
@@ -1042,13 +1042,13 @@
         },
         "KOMBUCHA": {
             "HEAD": "Cmb",
-            "NAME": "Hongo de té Kombucha",
+            "NAME": "Té Kombucha",
             "CATEGORY": "producto fermentado",
             "DESK": "Promueve la restauración del microbioma intestinal y mejora la absorción de nutrientes."
         },
         "TREMELLA": {
             "HEAD": "Tml",
-            "NAME": "Seta tremella",
+            "NAME": "Tremella",
             "CATEGORY": "hongo",
             "DESK": "La mejor hidratación natural. Retiene 500 veces su peso en agua para una piel radiante y belleza duradera."
         }
