@@ -992,7 +992,7 @@
         },
         "CHAGA": {
             "HEAD": "Chg",
-            "NAME": "Chaga mushroom",
+            "NAME": "Chaga",
             "CATEGORY": "mushroom",
             "DESK": "Chaga is an amazing medicinal mushroom with pronounced immunomodulatory and antioxidant properties."
         },
@@ -1016,7 +1016,7 @@
         },
         "LION": {
             "HEAD": "Lmn",
-            "NAME": "Lion's Mane mushroom",
+            "NAME": "Lion's Mane",
             "CATEGORY": "mushroom",
             "DESK": "Lion's Mane mushroom contains powerful natural compounds that help combat both inflammation and oxidative damage."
         },
@@ -1028,7 +1028,7 @@
         },
         "ASHWAGANDHA": {
             "HEAD": "Awe",
-            "NAME": "Ashwagandha extract",
+            "NAME": "Ashwagandha",
             "CATEGORY": "extract",
             "DESK": "Ashwagandha is one of the most important plants in Ayurvedic medicine, used for over 3000 years to strengthen the body, restore balance, and promote longevity."
         },
@@ -1040,7 +1040,7 @@
         },
         "TURKEY_TAIL": {
             "HEAD": "Tkt",
-            "NAME": "Turkey Tail mushroom",
+            "NAME": "Turkey Tail",
             "CATEGORY": "mushroom",
             "DESK": "It has been widely studied by science as a medicinal mushroom known for its immunomodulatory and adaptogenic properties."
         },
@@ -1076,7 +1076,7 @@
         },
         "TREMELLA": {
             "HEAD": "Tml",
-            "NAME": "Tremella mushroom",
+            "NAME": "Tremella",
             "CATEGORY": "mushroom",
             "DESK": "Nature’s ultimate hydration. Holds 500x its weight in water for glowing skin, deep moisture, and lasting beauty."
         }

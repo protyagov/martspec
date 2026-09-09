@@ -964,7 +964,7 @@
         },
         "CHAGA": {
             "HEAD": "Chg",
-            "NAME": "Champignon Chaga",
+            "NAME": "Chaga",
             "CATEGORY": "champignon",
             "DESK": "Le Chaga est un champignon médicinal étonnant aux propriétés immunomodulatrices et antioxydantes prononcées."
         },
@@ -988,7 +988,7 @@
         },
         "LION": {
             "HEAD": "Lmn",
-            "NAME": "Champignon Crinière de Lion",
+            "NAME": "Hydne hérisson",
             "CATEGORY": "champignon",
             "DESK": "Le champignon Crinière de Lion contient des composés naturels puissants qui aident à lutter contre l'inflammation et les dommages oxydatifs."
         },
@@ -1000,7 +1000,7 @@
         },
         "ASHWAGANDHA": {
             "HEAD": "Awe",
-            "NAME": "Extrait d'Ashwagandha",
+            "NAME": "Ashwagandha",
             "CATEGORY": "extrait",
             "DESK": "L'Ashwagandha est l'une des plantes les plus importantes de la médecine ayurvédique, utilisée depuis plus de 3000 ans pour renforcer le corps, rétablir l'équilibre et promouvoir la longévité."
         },
@@ -1012,7 +1012,7 @@
         },
         "TURKEY_TAIL": {
             "HEAD": "Tkt",
-            "NAME": "Champignon Queue de Dinde",
+            "NAME": "Tramète versicolore",
             "CATEGORY": "champignon",
             "DESK": "Il a été largement étudié par la science en tant que champignon médicinal connu pour ses propriétés immunomodulatrices et adaptogènes."
         },
@@ -1024,13 +1024,13 @@
         },
         "FIREWEED": {
             "HEAD": "Frw",
-            "NAME": "Thé d'Épilobe",
+            "NAME": "Thé d'épilobe",
             "CATEGORY": "mélange d'herbes",
             "DESK": "Il fournit un soutien puissant pour la santé intestinale et digestive grâce à sa combinaison unique de composés naturels."
         },
         "CORDYCEPS": {
             "HEAD": "Crp",
-            "NAME": "Poudre de Cordyceps",
+            "NAME": "Poudre de cordyceps",
             "CATEGORY": "champignon",
             "DESK": "Ce champignon unique a été très prisé en médecine traditionnelle chinoise pour sa capacité à augmenter l'énergie, l'endurance et la vitalité générale."
         },
@@ -1042,13 +1042,13 @@
         },
         "KOMBUCHA": {
             "HEAD": "Cmb",
-            "NAME": "Champignon de thé Kombucha",
+            "NAME": "Kombucha",
             "CATEGORY": "produit fermenté",
             "DESK": "Il favorise la restauration du microbiome intestinal et améliore l'absorption des nutriments."
         },
         "TREMELLA": {
             "HEAD": "Tml",
-            "NAME": "Champignon tremella",
+            "NAME": "Tremella",
             "CATEGORY": "champignon",
             "DESK": "L’hydratation ultime de la nature. Retient 500 fois son poids en eau pour une peau éclatante et une beauté durable."
         }

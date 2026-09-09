@@ -965,7 +965,7 @@
         },
         "CHAGA": {
             "HEAD": "Chg",
-            "NAME": "Cogumelo Chaga",
+            "NAME": "Chaga",
             "CATEGORY": "cogumelo",
             "DESK": "Chaga é um cogumelo medicinal incrível com propriedades imunomoduladoras e antioxidantes pronunciadas."
         },
@@ -983,13 +983,13 @@
         },
         "ASTRAGALUS": {
             "HEAD": "Asg",
-            "NAME": "Astragalus",
+            "NAME": "Astrágalo",
             "CATEGORY": "extrato",
             "DESK": "Astragalus apoia a saúde do sistema imunológico ao aumentar a produção de glóbulos brancos e regular os níveis de citocinas, promovendo uma resposta imune eficaz mas equilibrada."
         },
         "LION": {
             "HEAD": "Lmn",
-            "NAME": "Cogumelo Juba de Leão",
+            "NAME": "Juba de Leão",
             "CATEGORY": "cogumelo",
             "DESK": "O cogumelo Juba de Leão contém compostos naturais poderosos que ajudam a combater tanto a inflamação quanto os danos oxidativos."
         },
@@ -1001,7 +1001,7 @@
         },
         "ASHWAGANDHA": {
             "HEAD": "Awe",
-            "NAME": "Extrato de Ashwagandha",
+            "NAME": "Ashwagandha",
             "CATEGORY": "extrato",
             "DESK": "Ashwagandha é uma das plantas mais importantes da medicina ayurvédica, usada há mais de 3000 anos para fortalecer o corpo, restaurar o equilíbrio e promover a longevidade."
         },
@@ -1013,7 +1013,7 @@
         },
         "TURKEY_TAIL": {
             "HEAD": "Tkt",
-            "NAME": "Cogumelo Cauda de Peru",
+            "NAME": "Trametes versicolor",
             "CATEGORY": "cogumelo",
             "DESK": "Tem sido amplamente estudado pela ciência como um cogumelo medicinal conhecido por suas propriedades imunomoduladoras e adaptogênicas."
         },
@@ -1025,31 +1025,31 @@
         },
         "FIREWEED": {
             "HEAD": "Frw",
-            "NAME": "Chá de Fireweed",
+            "NAME": "Chá de epilóbio",
             "CATEGORY": "mistura de ervas",
             "DESK": "Fornece um suporte poderoso para a saúde intestinal e digestiva graças à sua combinação única de compostos naturais."
         },
         "CORDYCEPS": {
             "HEAD": "Crp",
-            "NAME": "Pó de Cordyceps",
+            "NAME": "Cordyceps em pó",
             "CATEGORY": "cogumelo",
             "DESK": "Este cogumelo único tem sido altamente valorizado na medicina tradicional chinesa por sua capacidade de aumentar a energia, a resistência e a vitalidade geral."
         },
         "COCOA": {
             "HEAD": "Ccp",
-            "NAME": "Pó de cacau",
+            "NAME": "Cacau em pó",
             "CATEGORY": "superalimento",
             "DESK": "Polifenóis e flavonoides naturais ajudam a reduzir a inflamação crônica e protegem as células do corpo de danos que contribuem para o envelhecimento e doenças."
         },
         "KOMBUCHA": {
             "HEAD": "Cmb",
-            "NAME": "Cogumelo de chá Kombucha",
+            "NAME": "Kombucha",
             "CATEGORY": "produto fermentado",
             "DESK": "Promove a restauração do microbioma intestinal e melhora a absorção de nutrientes."
         },
         "TREMELLA": {
             "HEAD": "Tml",
-            "NAME": "Cogumelo tremella",
+            "NAME": "Tremella",
             "CATEGORY": "cogumelo",
             "DESK": "Hidratação suprema da natureza. Retém 500 vezes seu peso em água para pele luminosa e beleza duradoura."
         }
