@@ -26,6 +26,7 @@ interface CardTitleTextImageCustomProps {
     titleFontFam?: CSSProperties["fontFamily"];
     textFontFam?: CSSProperties["fontFamily"];
     imgSrc?: string;
+    imgAlt?: string;
     imgPosition?: "left-bottom" | "right-bottom" | "center-bottom";
     shadow?: boolean;
     cardHeight?: string;
@@ -52,6 +53,7 @@ export default function CardTitleTextImageCustom({
     titleFontFam = "",
     textFontFam = "",
     imgSrc,
+    imgAlt,
     imgPosition = "right-bottom",
     shadow = true,
     cardHeight = "100%",
@@ -145,6 +147,7 @@ export default function CardTitleTextImageCustom({
                             objectFit: "cover",
                             transition: "transform 3s ease"
                         }}
+                        alt={imgAlt}
                     />
                 </div>
             )}
