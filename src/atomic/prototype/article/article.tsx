@@ -193,7 +193,7 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                       style={{ backgroundImage: `url(${item.LEFT_COLUMN?.BG_IMAGE})` }}
                   >
                       {item.LEFT_COLUMN?.ICON && (
-                          <img src={item.LEFT_COLUMN.ICON} alt="Podcast" />
+                          <img src={item.LEFT_COLUMN.ICON} alt={item.LEFT_COLUMN.IMG_ALT ?? ""} />
                       )}
                       {item.LEFT_COLUMN?.CONTENT && (
                           <ReactMarkdown>{item.LEFT_COLUMN.CONTENT}</ReactMarkdown>

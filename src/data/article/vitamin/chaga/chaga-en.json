@@ -13,11 +13,12 @@
             "ACCENT_COLOR": "#1686FF",
             "BG_COLOR": "#F4F5F8",
             "LEFT_COLUMN": {
-            "ICON": "/img/page/article/audio-icon.svg",
-            "CONTENT": "### Discover Chaga's Deadly Secret\n\n**The Life-Saving Extraction Method That Separates Potent Superfood from Fatal Risk**\n\nDiscover key facts, research highlights and practical recommendations in this short audio companion.",
-            "AUDIO_URL": "https://letstag.app/audio/chaga.mp3",
-            "BG_IMAGE": "/img/page/article/chaga/chaga-audio.webp"
-        }
+                "ICON": "/img/page/article/audio-icon.svg",
+                "CONTENT": "### Discover Chaga's Deadly Secret\n\n**The Life-Saving Extraction Method That Separates Potent Superfood from Fatal Risk**\n\nDiscover key facts, research highlights and practical recommendations in this short audio companion.",
+                "AUDIO_URL": "https://letstag.app/audio/chaga.mp3",
+                "BG_IMAGE": "/img/page/article/chaga/chaga-audio.webp",
+                "IMG_ALT": "Chaga safe extraction podcast audio player"
+            }
         },
         {
             "TITLE": "### Positive health effects of chaga",

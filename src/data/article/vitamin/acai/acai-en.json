@@ -21,7 +21,8 @@
                 "ICON": "/img/page/article/audio-icon.svg",
                 "CONTENT": "### Acai's Hidden Power\n\n **High-Fat Fruit Science, ORAC Scores, and Crucial Warnings Before Your MRI or Iron Supplement**\n\n Discover key facts, research highlights and practical recommendations in this short audio companion.",
                 "AUDIO_URL": "https://letstag.app/audio/acai.mp3",
-                "BG_IMAGE": "/img/page/article/acai-audio.webp"
+                "BG_IMAGE": "/img/page/article/acai-audio.webp",
+                "IMG_ALT": "Acai benefits podcast audio player"
             }
         },
         {
