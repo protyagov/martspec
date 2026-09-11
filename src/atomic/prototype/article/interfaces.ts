@@ -12,6 +12,7 @@ export interface ILeftColumn {
     CONTENT?: string;
     AUDIO_URL?: string;
     BG_IMAGE?: string;
+    IMG_ALT?: string;
 }
 
 export interface IArticleHeader {
