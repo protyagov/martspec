@@ -2246,5 +2246,17 @@
                 }
             }
         }
+    },
+    "WORKOUT": {
+        "HEAD": "Training", "SUBHEAD": "Ein vollständiges Trainingstagebuch zum Planen von Einheiten, Festhalten von Ergebnissen und Analysieren deiner Fortschritte.",
+        "TRACKING_TITLE": "Jede Aktivität erfassen", "TRACKING_TEXT": "Erfasse Arbeitsgewicht, Körpergewichtsübungen, Wiederholungen und Gesamtvolumen beim Krafttraining; Seite, Haltezeit und Wiederholungen beim Dehnen; sowie Geschwindigkeit, Intensität, Distanz und Dauer beim Cardio.",
+        "BUILDER_TITLE": "Trainings nach deinen Regeln", "BUILDER_TEXT": "Der Katalog bietet über 200 Übungen mit Anleitungen und Bildern. Suche nach Name, Muskel oder Equipment oder erstelle eigene Übungen mit Fotos, Belastungswerten, MET und beanspruchten Muskeln. Kombiniere Übungen und Supersätze mit bis zu drei Übungen, Notizen, Fotos, kopierten Sätzen und schnellen Änderungen.",
+        "FEATURES_TITLE": "Alle Details im Blick", "CATALOG_TITLE": "Timer und vollständige Trainingsprotokolle", "CATALOG_TEXT": "Eingebaute Timer für Training, Pausen und zeitbasierte Übungen halten dich im Rhythmus. Nach dem Abschluss erstellt die App ein detailliertes Protokoll mit Kalorien, Gesamtgewicht, Dauer und wichtigsten Muskelgruppen.",
+        "PROGRESS_TITLE": "Messbarer Fortschritt", "PROGRESS_TEXT": "Wissenschaftlich fundierte MET-Werte schätzen Kalorien während und vor geplanten Einheiten. Die Übungshistorie bewahrt jeden Satz, persönliche Rekorde und Vergleiche mit früheren Trainings für eine langfristige Kraft- und Ausdaueranalyse.",
+        "PRIVACY_TITLE": "Privat, offline und synchron", "PRIVACY_TEXT": "Deine Daten werden ausschließlich über dein persönliches iCloud synchronisiert. Wir sammeln, analysieren oder speichern sie nicht auf unseren Servern. Die App funktioniert vollständig offline, synchronisiert zwischen deinen Geräten und unterstützt helle und dunkle Designs.",
+        "CALENDAR_TITLE": "Mit einem flexiblen Kalender planen", "CALENDAR_TEXT": "Sieh geplante, aktive und abgeschlossene Trainings an jedem Datum. Kopiere Programme für einen oder mehrere Tage und bearbeite abgeschlossene Einheiten später: Übungen, Zeiten, Notizen und Fotos.",
+        "SHARING_TITLE": "Ergebnisse teilen", "SHARING_TEXT": "Erstelle nach dem Training eine schöne Ergebnis-Karte mit einem ausgewählten Foto, um sie mit Freunden zu teilen oder zu veröffentlichen.",
+        "CTA_TITLE": "Ein Trainingstagebuch, das deine Daten respektiert", "CTA_TEXT": "Vom ersten Plan bis zum nächsten persönlichen Rekord hält Training Details, Zeit und Fortschritt an einem privaten Ort.",
+        "ALT_CATALOG": "Trainingstimer und detaillierte Übungsprotokolle", "ALT_PROGRESS": "Trainingsfortschritt und persönliche Rekorde", "ALT_PRIVACY": "Private iCloud-Synchronisierung"
     }
 }

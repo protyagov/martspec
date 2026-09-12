@@ -2244,5 +2244,17 @@
                 }
             }
         }
+    },
+    "WORKOUT": {
+        "HEAD": "Entraînements", "SUBHEAD": "Un journal d’entraînement complet pour planifier les séances, consigner les résultats et analyser vos progrès.",
+        "TRACKING_TITLE": "Consignez chaque activité", "TRACKING_TEXT": "Suivez poids de travail, exercices au poids du corps, répétitions et volume en musculation ; côté, durée de maintien et répétitions pour les étirements ; vitesse, intensité, distance et durée pour le cardio.",
+        "BUILDER_TITLE": "Créez vos séances", "BUILDER_TEXT": "Le catalogue réunit plus de 200 exercices avec instructions et images. Recherchez par nom, muscle ou matériel, ou créez vos propres exercices avec photos, paramètres de charge, MET et muscles sollicités. Combinez exercices et supersets de trois mouvements maximum, avec notes, photos, séries copiées et modifications rapides.",
+        "FEATURES_TITLE": "Chaque détail en vue", "CATALOG_TITLE": "Minuteurs et journaux complets", "CATALOG_TEXT": "Des minuteurs intégrés pour l’entraînement, le repos et les exercices chronométrés gardent votre rythme. À la fin, l’app crée un journal détaillé avec calories, poids total, durée et principaux groupes musculaires.",
+        "PROGRESS_TITLE": "Des progrès mesurables", "PROGRESS_TEXT": "Des valeurs MET scientifiquement établies estiment les calories pendant et avant les séances planifiées. L’historique conserve chaque série, record personnel et comparaison avec les séances précédentes pour analyser force et endurance sur la durée.",
+        "PRIVACY_TITLE": "Privé, hors ligne et synchronisé", "PRIVACY_TEXT": "Vos données se synchronisent uniquement via votre iCloud personnel. Nous ne les collectons, n’analysons ni ne stockons sur nos serveurs. L’app fonctionne entièrement hors ligne, se synchronise entre appareils et prend en charge les thèmes clair et sombre.",
+        "CALENDAR_TITLE": "Planifiez avec un calendrier flexible", "CALENDAR_TEXT": "Consultez les séances planifiées, actives et terminées à toute date. Copiez un programme pour un ou plusieurs jours et modifiez ensuite les séances terminées : exercices, horaires, notes et photos.",
+        "SHARING_TITLE": "Partagez le résultat", "SHARING_TEXT": "Après une séance, créez une belle carte de résultats avec une photo choisie pour la partager ou la publier.",
+        "CTA_TITLE": "Un journal qui respecte vos données", "CTA_TEXT": "Du premier plan au prochain record, Entraînements conserve détails, temps et progrès dans un espace privé.",
+        "ALT_CATALOG": "Minuteurs et journaux d’exercices détaillés", "ALT_PROGRESS": "Progrès et records personnels", "ALT_PRIVACY": "Synchronisation iCloud privée"
     }
 }

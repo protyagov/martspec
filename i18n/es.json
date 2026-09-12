@@ -2244,5 +2244,17 @@
                 }
             }
         }
+    },
+    "WORKOUT": {
+        "HEAD": "Entrenamientos", "SUBHEAD": "Un diario de entrenamiento completo para planificar sesiones, registrar resultados y analizar tu progreso.",
+        "TRACKING_TITLE": "Registra toda actividad", "TRACKING_TEXT": "Registra peso de trabajo, ejercicios con peso corporal, repeticiones y volumen total en fuerza; lado, tiempo de mantenimiento y repeticiones en estiramientos; y velocidad, intensidad, distancia y duración en cardio.",
+        "BUILDER_TITLE": "Crea tus entrenamientos", "BUILDER_TEXT": "El catálogo incluye más de 200 ejercicios con instrucciones e imágenes. Busca por nombre, músculo o equipo, o crea ejercicios propios con fotos, parámetros de carga, MET y músculos implicados. Combina ejercicios y superseries de hasta tres movimientos, con notas, fotos, series copiadas y edición rápida.",
+        "FEATURES_TITLE": "Todos los detalles a la vista", "CATALOG_TITLE": "Temporizadores y registros completos", "CATALOG_TEXT": "Los temporizadores de entrenamiento, descanso y ejercicios por tiempo mantienen el ritmo. Al terminar, la app crea un registro detallado con calorías, peso total, duración y grupos musculares principales.",
+        "PROGRESS_TITLE": "Progreso medible", "PROGRESS_TEXT": "Los valores MET basados en ciencia estiman calorías durante y antes de sesiones planificadas. El historial guarda cada serie, récords personales y comparaciones con entrenamientos anteriores para analizar fuerza y resistencia a largo plazo.",
+        "PRIVACY_TITLE": "Privado, sin conexión y sincronizado", "PRIVACY_TEXT": "Tus datos se sincronizan solo mediante tu iCloud personal. No los recopilamos, analizamos ni guardamos en nuestros servidores. La app funciona totalmente sin conexión, se sincroniza entre dispositivos y admite temas claro y oscuro.",
+        "CALENDAR_TITLE": "Planifica con un calendario flexible", "CALENDAR_TEXT": "Consulta entrenamientos planificados, activos y terminados en cualquier fecha. Copia un programa para uno o varios días y edita sesiones completadas después: añade ejercicios, cambia horas, notas y fotos.",
+        "SHARING_TITLE": "Comparte el resultado", "SHARING_TEXT": "Después de entrenar, crea una bonita tarjeta de resultados con una foto elegida para compartir con amigos o publicar.",
+        "CTA_TITLE": "Un diario que respeta tus datos", "CTA_TEXT": "Del primer plan al próximo récord personal, Entrenamientos mantiene detalles, tiempo y progreso en un lugar privado.",
+        "ALT_CATALOG": "Temporizadores y registros detallados", "ALT_PROGRESS": "Progreso y récords personales", "ALT_PRIVACY": "Sincronización privada con iCloud"
     }
 }
