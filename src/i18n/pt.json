@@ -2248,5 +2248,17 @@
                 }
             }
         }
+    },
+    "WORKOUT": {
+        "HEAD": "Treinos", "SUBHEAD": "Um diário de treino completo para planear sessões, registar resultados e analisar a sua evolução.",
+        "TRACKING_TITLE": "Registe qualquer atividade", "TRACKING_TEXT": "Registe peso de trabalho, exercícios de peso corporal, repetições e volume total na força; lado, tempo de manutenção e repetições nos alongamentos; e velocidade, intensidade, distância e duração no cardio.",
+        "BUILDER_TITLE": "Crie os seus treinos", "BUILDER_TEXT": "O catálogo inclui mais de 200 exercícios com instruções e imagens. Pesquise por nome, músculo ou equipamento, ou crie exercícios próprios com fotos, parâmetros de carga, MET e músculos envolvidos. Combine exercícios e superséries de até três movimentos, com notas, fotos, séries copiadas e edição rápida.",
+        "FEATURES_TITLE": "Todos os detalhes à vista", "CATALOG_TITLE": "Temporizadores e registos completos", "CATALOG_TEXT": "Temporizadores de treino, descanso e exercícios cronometrados mantêm o ritmo. No final, a app cria um registo detalhado com calorias, peso total, duração e principais grupos musculares.",
+        "PROGRESS_TITLE": "Evolução mensurável", "PROGRESS_TEXT": "Valores MET cientificamente fundamentados estimam calorias durante e antes de sessões planeadas. O histórico guarda cada série, recordes pessoais e comparações com treinos anteriores para analisar força e resistência a longo prazo.",
+        "PRIVACY_TITLE": "Privado, offline e sincronizado", "PRIVACY_TEXT": "Os seus dados sincronizam-se apenas através do seu iCloud pessoal. Não os recolhemos, analisamos nem armazenamos nos nossos servidores. A app funciona totalmente offline, sincroniza entre dispositivos e suporta temas claro e escuro.",
+        "CALENDAR_TITLE": "Planeie com um calendário flexível", "CALENDAR_TEXT": "Veja treinos planeados, ativos e concluídos em qualquer data. Copie um programa para um ou vários dias e edite sessões concluídas mais tarde: exercícios, horários, notas e fotos.",
+        "SHARING_TITLE": "Partilhe o resultado", "SHARING_TEXT": "Depois do treino, crie um cartão de resultados com uma foto escolhida para partilhar com amigos ou publicar.",
+        "CTA_TITLE": "Um diário que respeita os seus dados", "CTA_TEXT": "Do primeiro plano ao próximo recorde, Treinos mantém detalhes, tempo e evolução num local privado.",
+        "ALT_CATALOG": "Temporizadores e registos detalhados", "ALT_PROGRESS": "Evolução e recordes pessoais", "ALT_PRIVACY": "Sincronização privada com iCloud"
     }
 }

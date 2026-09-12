@@ -2273,5 +2273,29 @@
                 }
             }
         }
+    },
+    "WORKOUT": {
+        "HEAD": "Workout",
+        "SUBHEAD": "A complete workout diary for planning sessions, recording results, and understanding your progress.",
+        "TRACKING_TITLE": "Log every kind of activity",
+        "TRACKING_TEXT": "Track working weight, bodyweight exercises, reps and total volume for strength work; sides, hold time and reps for stretching; and speed, intensity, distance and duration for cardio.",
+        "BUILDER_TITLE": "Build workouts your way",
+        "BUILDER_TEXT": "Use a catalog of 200+ exercises with instructions and images, search by name, muscle or equipment, or create your own exercises with photos, load settings, MET values and targeted muscles. Combine exercises and supersets of up to three movements, with notes, photos, copied sets and quick edits.",
+        "FEATURES_TITLE": "Everything stays in view",
+        "CATALOG_TITLE": "Timers and complete workout logs",
+        "CATALOG_TEXT": "Built-in workout, rest and timed-exercise timers keep the session moving. When you finish, the app creates a detailed log with calories, total weight, duration and key muscle groups.",
+        "PROGRESS_TITLE": "Progress you can measure",
+        "PROGRESS_TEXT": "Scientific MET values estimate calories during and before planned sessions. Exercise history preserves every set, personal records and comparisons with previous workouts for long-term strength and endurance analysis.",
+        "PRIVACY_TITLE": "Private, offline and in sync",
+        "PRIVACY_TEXT": "Your data syncs only through your personal iCloud. We do not collect, analyze or store it on our servers. The app works fully offline, syncs between your devices, and supports light and dark themes.",
+        "CALENDAR_TITLE": "Plan with a flexible calendar",
+        "CALENDAR_TEXT": "See planned, active and completed workouts on any date. Copy a program forward for one or many days, then edit completed sessions later: add exercises, adjust times, notes and photos.",
+        "SHARING_TITLE": "Celebrate the result",
+        "SHARING_TEXT": "After a workout, create a polished results card with a selected photo to share with friends or publish wherever you like.",
+        "CTA_TITLE": "A training diary that respects your data",
+        "CTA_TEXT": "From the first plan to the next personal record, Workout keeps the details, timing and progress in one private place.",
+        "ALT_CATALOG": "Workout timers and detailed exercise logs",
+        "ALT_PROGRESS": "Workout progress and personal records",
+        "ALT_PRIVACY": "Private iCloud synchronization"
     }
 }

@@ -15,6 +15,7 @@ const ROUTES = [
     { template: "waistline", output: "waistline" },
     { template: "bodyzinc", output: "bodyzinc" },
     { template: "bodysize", output: "bodysize" },
+    { template: "workout", output: "workout" },
 
     { template: "emotion", output: "emotion" },
     { template: "emotion/biorhythms", output: "emotion/biorhythms" },
@@ -129,14 +130,7 @@ function createHtmlPlugins(lang, route, flat = false) {
     }
 
     // Map the array of paths to an array of Webpack Plugins
-    return targetPaths.map(
-        (filename) =>
-            new HtmlWebpackPlugin({
-                template,
-                filename,
-                inject: "body",
-            })
-    );
+    return targetPaths.map((filename) => new HtmlWebpackPlugin({ template, filename, inject: "body" }));
 }
 
 // Use flatMap on ROUTES to flatten the arrays returned by createHtmlPlugins

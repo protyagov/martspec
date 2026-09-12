@@ -1,0 +1,16 @@
+.workout-page {
+    &__intro {
+        max-width: 48rem;
+        font-size: 1.65rem;
+        line-height: 1.45;
+    }
+
+    &__highlights .list-with-icons {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+
+        @media (max-width: 991px) {
+            grid-template-columns: 1fr;
+        }
+    }
+}
