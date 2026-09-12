@@ -215,6 +215,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/workout</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -510,6 +514,10 @@
    </url>
        <url>
       <loc>https://martspec.com/en/bodyzinc</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/workout</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -811,6 +819,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ar/workout</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/ar/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1109,6 +1121,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/zh/workout</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/zh/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1404,6 +1420,10 @@
    </url>
    <url>
       <loc>https://martspec.com/fr/bodyzinc</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/fr/workout</loc>
       <changefreq>monthly</changefreq>
    </url>
        <url>
@@ -1705,6 +1725,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/de/workout</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/de/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -2000,6 +2024,10 @@
    </url>
        <url>
       <loc>https://martspec.com/hi/bodyzinc</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/hi/workout</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2301,6 +2329,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ja/workout</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/ja/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -2596,6 +2628,10 @@
    </url>
    <url>
       <loc>https://martspec.com/pt/bodyzinc</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/pt/workout</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2897,6 +2933,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ru/workout</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/ru/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -3192,6 +3232,10 @@
    </url>
    <url>
       <loc>https://martspec.com/es/bodyzinc</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/es/workout</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -3493,6 +3537,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/uk/workout</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/uk/emotion</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -3574,50 +3622,6 @@
    </url>
    <url>
       <loc>https://martspec.com/uk/careers/scam-protection</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
-      <loc>https://martspec.com/workout</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
-      <loc>https://martspec.com/ar/workout</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
-      <loc>https://martspec.com/de/workout</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
-      <loc>https://martspec.com/es/workout</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
-      <loc>https://martspec.com/fr/workout</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
-      <loc>https://martspec.com/hi/workout</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
-      <loc>https://martspec.com/ja/workout</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
-      <loc>https://martspec.com/pt/workout</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
-      <loc>https://martspec.com/ru/workout</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
-      <loc>https://martspec.com/uk/workout</loc>
-      <changefreq>monthly</changefreq>
-   </url>
-   <url>
-      <loc>https://martspec.com/zh/workout</loc>
       <changefreq>monthly</changefreq>
    </url>
 
