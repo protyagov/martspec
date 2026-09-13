@@ -1,4 +1,3 @@
-@import "@/sass/atom/base-new-vars";
 @import "@/sass/atom/page-breakpoints";
 
 .emotion {
@@ -7,7 +6,7 @@
         "main-filter": invert(43%) sepia(46%) saturate(7466%) hue-rotate(265deg) brightness(90%) contrast(85%),
         "hover": #c17add,
         "active": #780ba3,
-        "bg": map-get($bgs-new, "violet"),
+        "bg": #ede1ff,
     );
 
     .ms-btn-large {

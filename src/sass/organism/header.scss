@@ -1,5 +1,3 @@
-@import "@/sass/atom/base-new-vars";
-
 .new-page-header {
     // margin: 6.8rem auto 10rem !important;
 
@@ -91,7 +89,7 @@
             }
         }
 
-        @include media-breakpoint-down($base-breakpoint) {
+        @include media-breakpoint-down(lg) {
             min-width: auto;
         }
 
@@ -105,7 +103,7 @@
         height: 90%;
     }
 
-    @include media-breakpoint-down($base-breakpoint) {
+    @include media-breakpoint-down(lg) {
         .col {
             flex-direction: column;
             row-gap: 0;
@@ -135,7 +133,7 @@
         @extend .img-fluid;
         @extend .mx-auto;
 
-        @include media-breakpoint-down($base-breakpoint) {
+        @include media-breakpoint-down(lg) {
             margin: 0;
         }
 

@@ -1,5 +1,3 @@
-@import "@/sass/atom/base-new-vars";
-
 .calcium-page {
     flex: 1 0;
     font-size: 1.9rem;
@@ -29,7 +27,7 @@
             padding: 7.7rem 0;
         }
 
-        @include media-breakpoint-down($base-breakpoint) {
+        @include media-breakpoint-down(lg) {
             margin: 2rem auto;
         }
     }

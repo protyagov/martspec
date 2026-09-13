@@ -1,4 +1,3 @@
-@import "@/sass/atom/base-new-vars";
 @import "@/sass/atom/page-breakpoints";
 
 .bodysize-page {
@@ -30,7 +29,7 @@
             padding: 7.7rem 0;
         }
 
-        @include media-breakpoint-down($base-breakpoint) {
+        @include media-breakpoint-down(lg) {
             margin: 2rem auto;
         }
     }
