@@ -3,7 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   row-gap: 2.5rem;
 
-  @include media-breakpoint-down($base-breakpoint) {
+  @include media-breakpoint-down(lg) {
     grid-template-columns: 1fr;
   }
 
@@ -39,7 +39,7 @@
       margin-bottom: 1rem;
     }
 
-    @include media-breakpoint-down($base-breakpoint) {
+    @include media-breakpoint-down(lg) {
       grid-template-columns: repeat(2, 1fr);
     }
 

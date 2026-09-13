@@ -1,7 +1,3 @@
-@import "@/sass/atom/base-new-vars";
-@import "@/sass/atom/blue-colors";
-
-
 %p-smaller {
     font-size: 1.35rem;
     line-height: 147%;
@@ -24,28 +20,32 @@
         padding-left: 0;
     }
 
-    h1 { 
-        font-family: os6; 
-        font-size: clamp(2rem, calc(1.8rem + max(1.5dvw, 1.5dvh)), 4rem); 
-        color: #000; 
+    h1 {
+        font-family: os6;
+        font-size: clamp(2rem, calc(1.8rem + max(1.5dvw, 1.5dvh)), 4rem);
+        color: #000;
         margin-bottom: 1rem;
     }
-    h2 { 
-        font-family: os6; 
-        font-size: 2.5rem; 
-        color: #212529; 
+
+    h2 {
+        font-family: os6;
+        font-size: 2.5rem;
+        color: #212529;
         margin-top: 2rem;
         margin-bottom: 1.85rem;
     }
-    h3 { 
-        font-family: os5; 
-        font-size: 2rem; 
-        color: #333; 
+
+    h3 {
+        font-family: os5;
+        font-size: 2rem;
+        color: #333;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    section, .row {
-        @extend .ms-s-offset; 
+
+    section,
+    .row {
+        @extend .ms-s-offset;
     }
 
     section {
@@ -58,56 +58,66 @@
             background: #f8f8f8;
         }
 
-        @include media-breakpoint-down($base-breakpoint) {
+        @include media-breakpoint-down(lg) {
             margin: 2rem auto;
         }
     }
-    
-    img { display: block; max-width: 100%; height: auto; }
-    $colors: $blue-colors;
 
-    .icon {
-        background: map-get($colors, "bg");
-
-        &:not(.no-filter) > img {
-            filter: map-get($colors, "main-filter");
-        }
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
     }
 
-    .counters-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 1fr;
-        gap: 1.5rem;
+    $colors: (
+        "main": #0066cc,
+        // "main-filter": brightness(0) saturate(100%) invert(24%) sepia(95%) saturate(7485%) hue-rotate(199deg) brightness(97%) contrast(101%),
+        // "bg": map-get($bgs-new, "blue"),
+        "bg": #F4F5F8
+    );
 
+.icon {
+    background: map-get($colors, "bg");
+
+    &:not(.no-filter)>img {
+        filter: map-get($colors, "main-filter");
+    }
+}
+
+.counters-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 1.5rem;
+
+    h1 {
+        color: map-get($colors, "main");
+        margin: 0;
+        margin-bottom: 0.4rem;
+    }
+
+    p {
+        width: 75%;
+        font-size: 1.5rem;
+    }
+
+    @include media-breakpoint-down(#{xl}) {
         h1 {
-            color: map-get($colors, "main");
-            margin: 0;
-            margin-bottom: 0.4rem;
+            text-align: center;
         }
 
         p {
-            width: 75%;
-            font-size: 1.5rem;
-        }
-
-        @include media-breakpoint-down(#{xl}) {
-            h1 {
-                text-align: center;
-            }
-
-            p {
-                width: 100%;
-                text-align: center;
-            }
-        }
-    }
-
-    @media (max-width: 1300px) {
-        .row.block > .col-lg-6 {
             width: 100%;
-            flex: 0 0 100%;
-            max-width: 100%;
+            text-align: center;
         }
     }
+}
+
+@media (max-width: 1300px) {
+    .row.block>.col-lg-6 {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
 }

@@ -1,11 +1,21 @@
-@import "@/sass/atom/base-new-vars";
-
 $section-y-gap: (
     "l": 8.8rem,
     "m": 7.7rem,
     "s": 6.6rem,
     "xs": 4.4rem,
     "xxs": 4rem,
+);
+
+$colors: (
+    "violet": #ede1ff,
+    "yellow": #fff9e3,
+    "green": #e8fae0,
+    "orange": #fde3cb,
+    "blue": #d6e3fc,
+    "aqua": #d6f7fc,
+    "gray": #f4f4f4,
+    "new-gray": #f4f5f8,
+    "pink": #faebff
 );
 
 #root {
@@ -125,13 +135,13 @@ html {
             margin-top: -(map-get($section-y-gap, "m")) * 2;
         }
 
-        @include media-breakpoint-down($base-breakpoint) {
+        @include media-breakpoint-down(lg) {
             margin: 2rem auto;
         }
     }
 
     @each $color,
-    $hex in $bgs-new {
+    $hex in $colors {
         .bg-#{$color} {
             background: $hex;
         }
@@ -140,13 +150,13 @@ html {
     @each $gap,
     $rem in $section-y-gap {
         .mt-mob-#{$gap} {
-            @include media-breakpoint-down($base-breakpoint) {
+            @include media-breakpoint-down(lg) {
                 margin-top: $rem #{"!important"};
             }
         }
 
         .mb-mob-#{$gap} {
-            @include media-breakpoint-down($base-breakpoint) {
+            @include media-breakpoint-down(lg) {
                 margin-bottom: $rem #{"!important"};
             }
         }
