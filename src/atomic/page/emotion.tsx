@@ -86,7 +86,7 @@ export default function Emotion() {
                         <CardTitleTextImageCustom
                             title={_("EMOTION.LIST1.LI1_HEAD")}
                             text={_("EMOTION.LIST1.DESC1")}
-                            imgSrc={`/img/page/emotion/section-left-${Locale.language}.svg`}
+                            imgSrc={`/img/page/emotion/section-left-${Locale.language}.avif`}
                             cardHeight="30rem"
                             imgPosition="center-bottom"
                             imgH="19rem"
@@ -118,7 +118,7 @@ export default function Emotion() {
                         <CardTitleTextImageCustom
                             title={_("EMOTION.LIST1.LI4_HEAD")}
                             text={_("EMOTION.LIST1.DESC4")}
-                            imgSrc="/img/page/emotion/section-right.svg"
+                            imgSrc="/img/page/emotion/section-right.avif"
                             bgColor="#F4F5F8"
                             cardHeight="30rem"
                             imgPosition="right-bottom"
@@ -144,7 +144,7 @@ export default function Emotion() {
                         </div>
                         <div className="col-lg-6 position-relative">
                             <ImageI18N
-                                src={`/img/page/emotion/why-emotion.svg`}
+                                src={`/img/page/emotion/why-emotion.avif`}
                                 w={400}
                                 h={300}
                                 cls="ms-base-image mt-mob-xs w-100"
@@ -251,7 +251,7 @@ export default function Emotion() {
 
                             <div className="col-lg-6 d-flex justify-content-end align-items-end">
                                 <ImageI18N
-                                    src="/img/page/emotion/img-metoday-en.svg"
+                                    src="/img/page/emotion/img-metoday-en.avif"
                                     w={600}
                                     h={450}
                                     cls="ms-base-image mt-mob-xs m-0 img-fluid"
@@ -268,7 +268,7 @@ export default function Emotion() {
                             <h2 className="mt-0">{_("SIZE.HEAD2")}</h2>
                             <p>{_("EMOTION.DESK3_1")}</p>
                             <ImageI18N
-                                src="/img/page/emotion/img-howthisworks-en.svg"
+                                src="/img/page/emotion/img-howthisworks-en.avif"
                                 w={629}
                                 h={575}
                                 cls="ms-base-image d-none d-lg-block"

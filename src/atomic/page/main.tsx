@@ -142,7 +142,7 @@ export default function LandingPage() {
                     <div className="col-sm col-xl d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
-                            iconSrc="/img/page/electrolyte/electrolyte-icon-main-page.png"
+                            iconSrc="/img/page/electrolyte/electrolyte-icon-main-page.avif"
                             iconAlt={_("ELECTROLYTE.ICO")}
                             title={_("ELECTROLYTE.HEAD")}
                             subtitle={_("ELECTROLYTE.SUBHEAD")}

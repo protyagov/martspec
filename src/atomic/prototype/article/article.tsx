@@ -18,8 +18,8 @@ interface ArticleProps {
 
 const CALL_TO_ACTION_IMGS: Record<ArticleProps['articleType'], string> = {
   emotion: "/img/page/article/call-to-action/call-to-action-en.webp",
-  vitamin: "/img/org/call-to-action/vitamin/Img-CallToAction-en.webp",
-  bodysize: "/img/page/article/bodysize/Img-CallToAction-en.webp",
+  vitamin: "/img/org/call-to-action/vitamin/Img-CallToAction-en.avif",
+  bodysize: "/img/page/article/bodysize/Img-CallToAction-en.avif",
 };
 
 const ArticleSkeleton = () => (
