@@ -44,6 +44,10 @@ export default function ScamProtection() {
 
                 <section>
                     <div className="row block g-4 shadow-none" style={{ overflow: "hidden" }}>
+                        <div className="col">
+                            <h2 className="mb-4">{_("SCAM_PROTECTION.LIST1.HEAD")}</h2>
+                            <p className="font-normal">{_("SCAM_PROTECTION.LIST1.DESC1")}</p>
+                        </div>
                         <div className="col-lg-6 p-3">
                             <div className="h-100 rounded-5 p-4" style={{ backgroundColor: "#FFE9E9" }}>
                                 
