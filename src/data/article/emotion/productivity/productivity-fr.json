@@ -1,6 +1,6 @@
 {
   "TITLE": "Qu’est-ce que la productivité ?",
-  "IMG_URL": "/img/page/article/productivity-top.webp",
+  "IMG_URL": "/img/page/article/productivity-top.avif",
   "IMG_ALT": "Organisation efficace de l’espace de travail",
   "BODY": [ 
     { 
@@ -19,7 +19,7 @@
     },
     { 
       "TITLE": "### Productivité et performance", 
-      "IMG_SRC": "/img/page/article/productivity-bottom.webp",
+      "IMG_SRC": "/img/page/article/productivity-bottom.avif",
       "IMG_ALT": "L’équipe travaille, brainstorming",
       "CONTENT": "Il est important de comprendre la différence entre productivité et performance. La performance se réfère à la quantité de travail effectué dans un certain laps de temps, tandis que la productivité vise à obtenir de meilleurs résultats dans le même laps de temps. \n\n Lorsque nous parlons de travailler plus vite et mieux, cela concerne l’augmentation de la performance. Cela implique d’accomplir davantage de tâches en un temps donné, ce qui nécessite une gestion efficace du temps et la capacité de répartir le travail de manière appropriée. \n\n D’un autre côté, la productivité se concentre sur l’obtention de meilleurs résultats lors de l’exécution du travail. Cela signifie un effort constant pour améliorer la qualité en développant de nouvelles compétences ou en utilisant des méthodes plus efficaces. \n\n> Les facteurs clés pour atteindre une productivité et une performance élevées ne sont pas seulement la rapidité ou la quantité de travail réalisée, mais aussi son niveau de qualité. Ce défi peut être relevé grâce à une bonne planification, une gestion du temps efficace et un développement continu des compétences et connaissances.", 
       "ACCENT_COLOR": "#DF9A5B",
