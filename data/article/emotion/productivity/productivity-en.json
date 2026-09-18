@@ -1,6 +1,6 @@
 {
   "TITLE": "What is productivity?",
-  "IMG_URL": "/img/page/article/productivity-top.webp",
+  "IMG_URL": "/img/page/article/productivity-top.avif",
   "IMG_ALT": "Efficient workspace organization",
   "BODY": [ 
     { 
@@ -17,7 +17,7 @@
     },
     { 
       "TITLE": "### Productivity and performance",
-      "IMG_SRC": "/img/page/article/productivity-bottom.webp",
+      "IMG_SRC": "/img/page/article/productivity-bottom.avif",
       "IMG_ALT": "The team is working, brainstorming.", 
       "CONTENT": "It is important to understand the difference between productivity and performance. Performance refers to the amount of work completed within a certain period of time, whereas productivity is focused on achieving better results within the same period. \n\nWhen we talk about working faster and with higher quality, this relates to improving performance. It involves completing a greater number of tasks in a given timeframe, which requires effective time management and the ability to allocate working hours efficiently. \n\nOn the other hand, productivity is the focus on delivering better outcomes when performing work. It means a continuous effort to improve the quality of work by developing new skills or using more effective methods. \n\n> Key factors for achieving high productivity and performance are not only the speed of task completion or the amount of work done in a given period but also the level of its quality. This challenge can be addressed through proper planning, time management, and continuous development of skills and knowledge.", 
       "ACCENT_COLOR": "#DF9A5B",
