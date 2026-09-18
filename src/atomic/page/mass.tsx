@@ -105,7 +105,7 @@ export default function Bodymass() {
                                 imgSrc="/img/page/body-mass/mid-pic-illustration.png"
                                 imgH={405}
                                 imgW={550}
-                                imgAlt={_("MASS.LI1_IMG_ALT")}
+                                imgAlt={_("MASS.LIST1.LI1_IMG_ALT")}
                                 imgPosition="default"
                             />
                         </div>
@@ -298,7 +298,7 @@ export default function Bodymass() {
                                     w={600}
                                     h={450}
                                     cls="m-0 img-fluid"
-                                    alt={_("ZINC.ALT1")}
+                                    alt={_("MASS.IMG6_ALT")}
                                 />
                             </div>
                         </div>
