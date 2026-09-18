@@ -109,6 +109,7 @@
         "HEAD": "Peso",
         "SUBHEAD": "El diario de control de peso más conveniente",
         "ICO": "Icono del diario de peso más conveniente. Sincronización con iCloud. Sin anuncios ni autenticación.",
+        "IMG_HEAD_ALT": "Apple Watch mostrando la aplicación Body Mass de Martspec junto a una báscula y una manzana",
         "IMG": "Una mujer sube a una báscula y mide su peso con un Apple Watch que ejecuta la aplicación Peso de Martspec.",
         "TEXT": "El seguimiento de su peso aumenta su eficiencia en cuanto a su tiempo y entrenamientos. ¡No solo lo impulsará a mejorar, sino que también lo motivará a competir consigo mismo!",
         "BUTTON_OPEN": "Saber más",
@@ -118,13 +119,16 @@
         "LIST1": {
             "LI1_HEAD": "Esferas de reloj avanzadas",
             "LI1_TEXT": "Acceso conveniente a estadísticas en el reloj a partir de WatchOS 6, compatible con cualquier esfera del reloj",
+            "LI1_IMG_ALT": "Ilustración de métricas de progreso con coloridos anillos de actividad",
             "LI2_HEAD": "Barra de progreso",
             "LI2_TEXT": "Realice un seguimiento fácil de su peso mínimo, máximo y actual",
             "LI3_HEAD": "Funciona sin iPhone",
             "LI3_TEXT": "La aplicación es independiente del iPhone: acceso a estadísticas incluso sin teléfono"
         },
+        "IMG_LIST_ALT": "Una mujer deportista con una manzana roja y un gráfico de abanico, que representa cómo la aplicación apoya el desarrollo de hábitos corporales saludables al ayudar a los usuarios a realizar un seguimiento del peso y comprender el progreso físico",
         "HEAD2": "¿Por qué el Peso?",
         "DESC2": "Hacer un seguimiento diario de su peso corporal le ayudará a formar un hábito beneficioso. La introducción rápido y conveniente de su peso desde su muñeca facilitará el logro de sus objetivos de pérdida de peso o aumento de masa muscular, y le recordará su compromiso con un estilo de vida saludable. ¡Intente no perder ni un solo día! Porque si usted no lo hace hoy, mañana será más fácil saltarse dos, y pasado mañana tres... y así sucesivamente hasta que vuelvas a los viejos hábitos.",
+        "IMG2_ALT": "Dos pantallas de Apple Watch que muestran datos de seguimiento de la masa corporal en tiempo real de nuestra aplicación, demostrando cómo ayuda a los usuarios a monitorear los cambios de peso directamente en su muñeca y a desarrollar hábitos saludables a través de un diseño minimalista y una visualización clara de las tendencias de peso",
         "HEAD3": "Nuestras ventajas",
         "LIST3": {
             "LI1_HEAD": "Protección de Datos",
@@ -143,6 +147,7 @@
         "HEAD4": "Nuestra aplicación está disponible para cualquier dispositivo Apple Watch",
         "DESC4": "Descarga la aplicación ahora y comienza a hacer un seguimiento de tus indicadores esenciales",
         "ALT1": "Pantallas del Apple Watch con información sobre el peso actual y hace 10 días en la app Peso de Martspec",
+        "IMG_CTA_ALT2": "Apple Watch mostrando información sobre el peso corporal con una báscula y una manzana de fondo",
         "ALT2": "Pantallas del Apple Watch con información sobre el peso actual y estadísticas en la app Peso de Martspec",
         "ALT5_1": "Proteger su información es nuestro objetivo directo. Martspec no almacena tus datos, esto es garantía de la seguridad de tus datos.",
         "ALT5_2": "Sincroniza a través de iCloud para una comodidad aún mayor. Todos los datos están disponibles automáticamente en todos sus dispositivos.",
@@ -181,7 +186,8 @@
             "LI4_TEXT": "El peso corporal puede variar diariamente debido a la hidratación, el sueño y otros factores. Mire las tendencias generales a lo largo de las semanas, no los días individuales.",
             "LI5_HEAD": "Tome notas cuando sea necesario",
             "LI5_TEXT": "Si su peso cambia repentinamente, anote lo que pudo haber contribuido — una comida abundante, estrés o un entrenamiento intenso. Con el tiempo, comprenderá mejor su cuerpo."
-        }
+        },
+        "IMG6_ALT": "Báscula de peso corporal con cinta métrica e íconos que representan la salud del corazón, el estómago, las articulaciones y la sangre"
     },
     "VITAMIN": {
         "HEAD": "Vitamina",
