@@ -109,6 +109,7 @@
         "HEAD": "Gewicht",
         "SUBHEAD": "Das bequemste Gewichtstagebuch",
         "ICO": "Ikone des bequemsten Gewichtstagebuchs. Synchronisierung mit iCloud. Keine Werbung und Autorisierung.",
+        "IMG_HEAD_ALT": "Apple Watch, die die Body Mass App von Martspec anzeigt, neben einer Waage und einem Apfel",
         "IMG": "Eine Frau steht auf einer Waage und misst ihr Gewicht mithilfe einer Apple Watch, auf der die Gewicht-App von Martspec läuft.",
         "TEXT": "Das Verfolgen Ihres Gewichts steigert Ihre Effizienz in Bezug auf Ihre Zeit und Ihr Training. Es wird Sie nicht nur dazu bringen, es besser zu machen, sondern Sie auch dazu bringen, Ihre eigene Konkurrenz zu sein!",
         "BUTTON_OPEN": "Mehr erfahren",
@@ -118,13 +119,16 @@
         "LIST1": {
             "LI1_HEAD": "Erweiterte Zifferblätter",
             "LI1_TEXT": "Einfacher Zugriff auf Statistiken auf Ihrer Uhr ab WatchOS 6, mit Unterstützung für jedes Zifferblatt",
+            "LI1_IMG_ALT": "Illustration von Fortschrittsmetriken mit bunten Aktivitätsringen",
             "LI2_HEAD": "Fortschrittsanzeige",
             "LI2_TEXT": "Verfolgen Sie ganz einfach Ihr minimales, maximales und aktuelles Gewicht",
             "LI3_HEAD": "Funktioniert ohne iPhone",
             "LI3_TEXT": "iPhone-unabhängige App – Zugriff auf Statistiken auch ohne Telefon"
         },
+        "IMG_LIST_ALT": "Eine sportliche Frau mit einem roten Apfel und einem Fächerdiagramm, was darstellt, wie die App den Aufbau gesunder Körpergewohnheiten unterstützt, indem sie Benutzern hilft, das Gewicht zu verfolgen und den körperlichen Fortschritt zu verstehen",
         "HEAD2": "Warum Gewicht?",
         "DESC2": "Die tägliche Überwachung Ihres Körpergewichts wird Ihnen dabei helfen, eine gesunde Gewohnheit zu entwickeln. Durch die schnelle und bequeme Eingabe von Gewichten über Ihre Handgelenke können Sie Ihre Gewichtsverlust- oder Muskelaufbauziele leichter erreichen und werden daran erinnert, einen gesunden Lebensstil anzustreben. Versuchen Sie, keinen einzigen Tag zu verpassen! Denn wenn Sie heute einen Tag verpassen, fällt es Ihnen morgen leichter, zwei zu überspringen, und übermorgen drei ... und so weiter, bis Sie zu alten Gewohnheiten zurückkehren.",
+        "IMG2_ALT": "Zwei Apple Watch-Bildschirme, die Echtzeit-Tracking-Daten zur Körpermasse aus unserer App anzeigen und demonstrieren, wie sie Nutzern hilft, Gewichtsveränderungen direkt am Handgelenk zu überwachen und durch ein minimalistisches Design und eine klare Visualisierung von Gewichtstrends gesunde Gewohnheiten aufzubauen",
         "HEAD3": "Unsere Vorteile",
         "LIST3": {
             "LI1_HEAD": "Datenschutz",
@@ -143,6 +147,7 @@
         "HEAD4": "Unsere App ist für jedes Apple Watch-Gerät verfügbar",
         "DESC4": "Laden Sie die App jetzt herunter und beginnen Sie, Ihre wichtigen Indikatoren zu verfolgen",
         "ALT1": "Apple Watch-Bildschirme mit Informationen zum Gewicht jetzt und vor 10 Tagen in der Gewicht-App von Martspec",
+        "IMG_CTA_ALT2": "Apple Watch, die Informationen zum Körpergewicht anzeigt, mit einer Waage und einem Apfel im Hintergrund",
         "ALT2": "Apple Watch-Bildschirme mit Informationen zum aktuellen Gewicht und Statistiken in der Gewicht-App von Martspec",
         "ALT5_1": "Der Schutz Ihrer Daten ist unser unmittelbares Ziel. Martspec speichert Ihre Daten nicht, dies ist eine Garantie für die Sicherheit Ihrer Daten.",
         "ALT5_2": "Für noch mehr Komfort synchronisieren Sie über iCloud. Alle Daten sind automatisch auf allen Ihren Geräten verfügbar.",
@@ -181,7 +186,8 @@
             "LI4_TEXT": "Das Körpergewicht kann täglich aufgrund von Flüssigkeitszufuhr, Schlaf und anderen Faktoren schwanken. Betrachten Sie die Gesamttrends über Wochen hinweg, nicht einzelne Tage.",
             "LI5_HEAD": "Machen Sie bei Bedarf Notizen",
             "LI5_TEXT": "Wenn sich Ihr Gewicht plötzlich ändert, notieren Sie, was dazu beigetragen haben könnte — eine große Mahlzeit, Stress oder ein intensives Training. Mit der Zeit werden Sie Ihren Körper besser verstehen."
-        }
+        },
+        "IMG6_ALT": "Personenwaage mit Maßband und Symbolen, die die Gesundheit von Herz, Magen, Gelenken und Blut darstellen"
     },
     "VITAMIN": {
         "HEAD": "Vitamin",

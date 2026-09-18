@@ -109,7 +109,7 @@
         "HEAD": "Body Mass",
         "SUBHEAD": "The most convenient weight diary",
         "ICO": "Icon of the most convenient weight diary. Syncs with iCloud. No ads or sign-ups.",
-        "IMG_HEAD_ALT": "A woman stands on a scale, measuring her weight using an Apple Watch running the Body Mass app from Martspec.",
+        "IMG_HEAD_ALT": "Apple Watch displaying the Body Mass app from Martspec next to a weight scale and apple",
         "TEXT": "Tracking your weight boosts your efficiency in terms of your time and workouts. Not only will it push you to do better, but will also drive you to be your own competition!",
         "BUTTON_OPEN": "Learn More",
         "DWN": "Download the free Body Mass app from the Apple Store",
@@ -118,7 +118,7 @@
         "LIST1": {
             "LI1_HEAD": "Watch Widget",
             "LI1_TEXT": "Dive into your stats effortlessly with seamless access to key metrics empowering you to track progress and optimize your well-being",
-            "LI1_IMG_ALT": "Apple Watch ring data chart and a colorful measurement progress card, showing the app's feature of helping users to monitor weight changes and maintain a healthy habit through daily body mass tracking",
+            "LI1_IMG_ALT": "Illustration of progress metrics with colorful activity rings",
             "LI2_HEAD": "Log Weight with a Twist",
             "LI2_TEXT": "Use the watch crown to enter weight on your Apple watch. Track your progress, goals, and notes with Weight Diary.",
             "LI3_HEAD": "Works without iPhone",
@@ -146,7 +146,7 @@
         "HEAD4": "Our app is available for any Apple Watch device",
         "DESC4": "Download the app now and start tracking your essential indicators",
         "ALT1": "Apple Watch screens with information about weight now and 10 days ago in the Body Mass app from Martspec",
-        "IMG_CTA_ALT2": "Apple Watch screens with information about current weight and statistics in the Body Mass app from Martspec",
+        "IMG_CTA_ALT2": "Apple Watch showing body weight information with a scale and apple in the background.",
         "ALT5_1": "Protecting your information is our direct goal. Martspec does not store your data, this is a guarantee of the security of your data.",
         "ALT5_2": "Sync via iCloud for even greater convenience. All data is automatically available on all your devices.",
         "ALT5_3": "Use the app instantly with no sign-up, no login, and no registration required. Enjoy a private, account-free experience with full access from the start.",
@@ -184,7 +184,8 @@
             "LI4_TEXT": "Body weight can vary daily due to hydration, sleep, and other factors. Look at overall trends across weeks, not individual days.",
             "LI5_HEAD": "Take Notes When Needed",
             "LI5_TEXT": "If your weight changes suddenly, note what might have contributed — a big meal, stress, or intense workout. Over time, you'll understand your body better."
-        }
+        },
+        "IMG6_ALT": "Body weight scale with measuring tape and icons representing heart, stomach, joint, and blood health"
     },
     "VITAMIN": {
         "HEAD": "Vitamin",
