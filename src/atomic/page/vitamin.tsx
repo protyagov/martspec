@@ -547,7 +547,7 @@ export default function Vitamin() {
                         subtitle={_("VITAMIN.DESC6")}
                         appId={appId}
                         appDownloadTitle={_("VITAMIN.DWN")}
-                        imgSrc="/img/org/call-to-action/vitamin/Img-CallToAction-en.avif"
+                        imgSrc="/img/org/call-to-action/vitamin/Img-CallToAction-en.webp"
                         imgAlt={_("VITAMIN.ALT3")}
                     />
                 </section>
