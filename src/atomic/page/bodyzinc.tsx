@@ -102,6 +102,16 @@ export default function BodyZinc() {
                 <section>
                     <div className="row">
                         <div className="col-lg-6">
+                            <ImageI18N
+                                src="/img/page/zinc/middle-pic-new-en.webp"
+                                w={438}
+                                h={438}
+                                cls="ms-base-image mt-mob-xs ms-image-left"
+                                alt={_("ZINC.ALT1")}
+                            />
+                        </div>
+
+                        <div className="col-lg-6">
                             <h2>{_("ZINC.HEAD1")}</h2>
                             <ul>
                                 <li className="mb-4">{_("ZINC.DESC1")}</li>
@@ -111,19 +121,9 @@ export default function BodyZinc() {
                             </ul>
                             <div className="btn-container">
                                 <a href={Locale.i18nLink(`vitamin/zinc`)} className="btn">
-                                    {_("ZINC.BTN_MORE")}
+                                    {_("ZINC.BUTTON_OPEN")}
                                 </a>
                             </div>
-                        </div>
-
-                        <div className="col-lg-6">
-                            <ImageI18N
-                                src="/img/page/zinc/middle-pic-en.webp"
-                                w={438}
-                                h={438}
-                                cls="ms-base-image mt-mob-xs"
-                                alt={_("ZINC.ALT1")}
-                            />
                         </div>
                     </div>
                 </section>
