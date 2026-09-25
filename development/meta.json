@@ -243,8 +243,8 @@
       "levels": [
         "Molecule"
       ],
-      "locStart": 12,
-      "locEnd": 27,
+      "locStart": 14,
+      "locEnd": 53,
       "filePath": "src/stories/molecule/review-card.stories.tsx",
       "namedExport": "ReviewCardStory",
       "meta": {}
