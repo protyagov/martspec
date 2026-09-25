@@ -33,22 +33,4 @@
     margin-left: 25px;
   }
 
-    .col-lg-6 {
-        ul li::marker {
-            color: #78B800;
-        }
-    }
-
-    .ms-image-left {
-        margin-left: 0!important;
-        width: 80%;
-    }
-
-    @media (max-width: 991.98px) {
-        .ms-image-left {
-            margin-left: auto!important;
-            width: 100%;
-        }
-    }
-
 }

@@ -15,6 +15,7 @@ import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
 import BulletList from "@/atomic/molecule/bullet-list";
+import CardTitleTextButton from "../molecule/card-title-text-button";
 
 export default function BodyZinc() {
     const appId = getAppId();
@@ -104,25 +105,29 @@ export default function BodyZinc() {
                         <div className="col-lg-6">
                             <ImageI18N
                                 src="/img/page/zinc/middle-pic-new-en.webp"
-                                w={438}
-                                h={438}
-                                cls="ms-base-image mt-mob-xs ms-image-left"
+                                w={620}
+                                h={390}
+                                cls="ms-base-image mt-mob-xs ms-lg-0 me-lg-auto"
                                 alt={_("ZINC.ALT1")}
                             />
                         </div>
 
-                        <div className="col-lg-6">
-                            <h2>{_("ZINC.HEAD1")}</h2>
-                            <ul>
-                                <li className="mb-4">{_("ZINC.DESC1")}</li>
-                                <li className="mb-4">{_("ZINC.DESC2")}</li>
-                                <li className="mb-4">{_("ZINC.DESC3")}</li>
-                                <li className="mb-4">{_("ZINC.DESC4")}</li>
-                            </ul>
-                            <div className="btn-container">
-                                <a href={Locale.i18nLink(`vitamin/zinc`)} className="btn">
-                                    {_("ZINC.BUTTON_OPEN")}
-                                </a>
+                        <div className="mt-5 pt-5 calcium col-lg-6 offset-xxl-1 col-xxl-5 order-1 ps-5 pb-2">
+                            <div className="card-title-text-button fs-4">
+                                <div className="card-title-text-button">
+                                    <CardTitleTextButton
+                                        title={_("ZINC.HEAD1")}
+                                        textContent={[
+                                            _("ZINC.DESC1"),
+                                            _("ZINC.DESC2"),
+                                            _("ZINC.DESC3"),
+                                            _("ZINC.DESC4"),
+                                        ]}
+                                        buttonText={_("ZINC.BTN_MORE")}
+                                        buttonLink={Locale.i18nLink(`vitamin/zinc`)}
+                                        buttonColor="#6EAD4F"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
