@@ -360,7 +360,7 @@ export default function ColorTest() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new emotion color-test">
+            <div className="ms-base-page emotion color-test">
                 <section className="text-center my-0">
                     <div className="row">
                         <div className="col-9 mx-auto">
