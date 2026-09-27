@@ -118,6 +118,16 @@ export default function Workout() {
                     hasUnderlineHover={false}
                 />
             </div>
+            <a href="https://peerpush.com/p/body-workout"
+                target="_blank"
+                rel="noopener"
+            >
+                <img
+                    src="https://peerpush.com/p/body-workout/rating-badge.png"
+                    alt="Body Workout rating on PeerPush"
+                    style={{ width: "100%", maxWidth: "340px", padding: "20px", display: "block", margin: "0 auto" }}
+                />
+            </a>
             <Footer />
             <ScrollButton color="#5F63D8" />
         </>
