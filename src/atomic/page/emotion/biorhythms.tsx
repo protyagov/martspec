@@ -40,7 +40,7 @@ export default function Biorhythms() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page ms-base-new emotion biorhythms">
+            <div className="ms-base-page emotion biorhythms">
                 <div className="row">
                     <Breadcrumb items={items} />
                 </div>
