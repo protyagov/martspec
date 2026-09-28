@@ -293,6 +293,17 @@
       "namedExport": "ReviewLinkStory",
       "meta": {}
     },
+    "molecule--table": {
+      "name": "Table",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 11,
+      "locEnd": 34,
+      "filePath": "src/stories/molecule/table.stories.tsx",
+      "namedExport": "TableStory",
+      "meta": {}
+    },
     "molecule--team-member": {
       "name": "Team member",
       "levels": [
@@ -335,6 +346,17 @@
       "locEnd": 33,
       "filePath": "src/stories/molecule/title-text-link-card.stories.tsx",
       "namedExport": "TitleTextLinkCardStory",
+      "meta": {}
+    },
+    "organism--breadcrumb": {
+      "name": "Breadcrumb",
+      "levels": [
+        "Organism"
+      ],
+      "locStart": 11,
+      "locEnd": 31,
+      "filePath": "src/stories/organism/breadcrumb.stories.tsx",
+      "namedExport": "BreadcrumbStory",
       "meta": {}
     },
     "organism--call-to-action-new": {
