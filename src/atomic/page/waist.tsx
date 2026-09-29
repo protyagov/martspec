@@ -147,7 +147,7 @@ export default function WaistLine() {
                 </section>
 
                 <section>
-                    <div className="ms-base-new row waist-info-section">
+                    <div className="row waist-info-section">
                         <h2>{_("WAIST.HEAD6")}</h2>
                         <p>{_("WAIST.DESC6")}</p>
                         <div className="info-list row g-4">

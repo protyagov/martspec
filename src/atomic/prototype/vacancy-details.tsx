@@ -81,7 +81,7 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
     return (
         <>
             <NavigationBar />
-            <div className="ms-base-page ms-base-new vacancy-details">
+            <div className="ms-base-page vacancy-details">
                 {vacancyData && data && (
                     <>
                         <section>

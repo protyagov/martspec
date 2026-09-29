@@ -11,7 +11,7 @@ export const IconWrapper = (Component: Story) => (
 );
 
 export const PageWrapper = (Component: Story) => (
-    <article className="ms-base-page ms-base-new h-100 d-flex justify-content-center align-items-center">
+    <article className="ms-base-page h-100 d-flex justify-content-center align-items-center">
         <Component />
     </article>
 );

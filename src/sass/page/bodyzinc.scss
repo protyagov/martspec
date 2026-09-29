@@ -18,16 +18,19 @@
         &:not(.no-filter) > img {
             filter: map-get($colors, "main-filter");
         }
-  }
+    }
+
   .btn {
-    background-color: #252525;
+    background-color: #78B800;
     border-radius: 700px;
     color: #ffffff;
     padding: 12px 39px;
     margin-right: 10px;
   }
+
   .col-lg-6 .mb-4 {
     list-style-type: disc;
     margin-left: 25px;
   }
+
 }

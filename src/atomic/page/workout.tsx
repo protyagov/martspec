@@ -118,6 +118,23 @@ export default function Workout() {
                     hasUnderlineHover={false}
                 />
             </div>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", flexWrap: "nowrap" }}>
+                <a href="https://peerpush.com/p/body-workout" target="_blank" rel="noopener">
+                    <img
+                        src="https://peerpush.com/p/body-workout/rating-badge.png"
+                        alt="Body Workout rating on PeerPush"
+                        style={{ width: "100%", maxWidth: "340px", padding: "20px", display: "block", margin: "0 auto" }}
+                    />
+                </a>
+
+                <a href="https://www.producthunt.com/products/body-workout-exercise-tracker?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-body-workout-exercise-tracker" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="Body Workout — Exercise Tracker - Strength, Cardio &amp; Flexibility | Product Hunt"
+                        style={{ width: "100%", maxWidth: "340px", padding: "20px", display: "block", margin: "0 auto" }}
+                        src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1262801&theme=neutral&t=1790559825474"
+                    />
+                </a>                
+            </div>
             <Footer />
             <ScrollButton color="#5F63D8" />
         </>
