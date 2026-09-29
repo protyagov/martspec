@@ -10,18 +10,22 @@ export default {
 } satisfies StoryDefault;
 
 export const CardIconTitleTextStory: Story = () => (
-    <div className="waist" style={{ maxWidth: "400px", minHeight: "306px", display: "flex" }}>
-        <CardIconTitleText
-            iconProps={{
-                icon: {
-                    src: "/img/atom/icons/icon-patient.svg",
-                    alt: _("VITAMIN. ALT5_1"),
-                },
-                title: "Повышает риск возникновения проблем со здоровьем",
-            }}
-            text={"Висцеральный жир провоцирует воспаление, нарушает работу гормонов и повышает риск ожирения, диабета, болезней сердца, инсульта, рака, нарушения сна, артрита, сексуальной дисфункции, депрессии"}
-            bgColor="#DDE9FF"
-        />
+    <div className="waist-info-section">
+        <div className="info-list row g-4">
+            <div className="col-lg-4 d-flex">
+                <CardIconTitleText
+                    iconProps={{
+                        icon: {
+                            src: "/img/atom/icons/icon-patient.svg",
+                            alt: _("WAIST.ALT4_1"),
+                        },
+                        title: _("WAIST.LIST3.LI1_HEAD"),
+                    }}
+                    text={_("WAIST.LIST3.LI1_TEXT")}
+                    bgColor="#DDE9FF"
+                />
+            </div>
+        </div>
     </div>
 );
 

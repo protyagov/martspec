@@ -17,9 +17,7 @@ const CardIconTitleText = React.forwardRef<HTMLDivElement, CardIconTitleTextProp
                 style={bgColor ? { backgroundColor: bgColor } : undefined}
             >
                 <div className="d-flex align-items-center p-0 m-0">
-                    <IconTitleTextElem {...iconProps}
-                        forwardedRef={forwardedRef}
-                    />
+                    <IconTitleTextElem {...iconProps} forwardedRef={forwardedRef} />
                 </div>
                 <p>{text}</p>
             </div>
