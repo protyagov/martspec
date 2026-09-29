@@ -221,8 +221,8 @@
       "levels": [
         "Molecule"
       ],
-      "locStart": 12,
-      "locEnd": 28,
+      "locStart": 18,
+      "locEnd": 70,
       "filePath": "src/stories/molecule/card-vitamin.stories.tsx",
       "namedExport": "CardVitaminStory",
       "meta": {}
