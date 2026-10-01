@@ -34,6 +34,7 @@ export interface IArticleSection {
   components?: Components;
   RIGHT_COLUMN?: IRightColumn;
   LEFT_COLUMN?: ILeftColumn;
+  COMPARISON_CARDS?: IArticleComparison[];
   IS_SMALL?: boolean;
 }
 
@@ -52,4 +53,10 @@ export interface IArticleModel {
   IMG_SRC: string;
   BODY: IArticleSection[];
   CALL_TO_ACTION: IArticleCallToAction;
+}
+
+export interface IArticleComparison {
+  TITLE: string;
+  CONTENT: string;
+  BG_COLOR?: string | null; 
 }
