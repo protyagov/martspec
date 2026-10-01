@@ -1057,6 +1057,12 @@
             "NAME": "Tremella",
             "CATEGORY": "champignon",
             "DESK": "L’hydratation ultime de la nature. Retient 500 fois son poids en eau pour une peau éclatante et une beauté durable."
+        },
+        "REISHI": {
+            "HEAD": "Rsh",
+            "NAME": "Poudre de Reishi",
+            "CATEGORY": "champignon",
+            "DESK": "Le champignon Reishi est un champignon ligneux et coriace originaire des régions chaudes et humides d'Asie. Connu sous le nom de « Lingzhi » dans la médecine traditionnelle chinoise, il est vénéré depuis plus de 2 000 ans comme le « champignon de l'immortalité »."
         }
     },
     "WAIST": {

@@ -1056,6 +1056,12 @@
             "NAME": "Tremella",
             "CATEGORY": "Pilz",
             "DESK": "Die ultimative Feuchtigkeitsversorgung der Natur. Bindet das 500-fache seines Gewichts an Wasser für strahlende Haut und anhaltende Schönheit."
+        },
+        "REISHI": {
+            "HEAD": "Rsh",
+            "NAME": "Reishi-Pulver",
+            "CATEGORY": "Pilz",
+            "DESK": "Der Reishi-Pilz ist ein zäher, holziger Pilz, der in heißen und feuchten Regionen Asiens heimisch ist. In der traditionellen chinesischen Medizin als 'Lingzhi' bekannt, wird er seit über 2.000 Jahren als 'Pilz der Unsterblichkeit' verehrt."
         }
     },
     "WAIST": {

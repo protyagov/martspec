@@ -757,5 +757,9 @@
     "TREMELLA": {
         "TYPE": "FOODADDITIVES",
         "UNIT": ""
+    },
+    "REISHI": {
+        "TYPE": "FOODADDITIVES",
+        "UNIT": ""
     }
 }
