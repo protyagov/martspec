@@ -204,68 +204,83 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                           </audio>
                       )}
                   </aside>
-
                 )}
-                <div
-                  style={{
-                    backgroundColor: item.BG_COLOR ?? "transparent",
-                    ["--marker-color" as any]: markerColor,
-                  }}
-                 className={`article-section ${
-                      hasBg ? "article-section--with-bg" : ""
-                  }${hasRightColumn ? " article-section--two-column" : ""}`}
-                >
-                  <div className="article-section__inner">
-                    <div className="article-section__left">
-                      <div className="article__section-title">
-                        <ReactMarkdown>{item.TITLE}</ReactMarkdown>
-                      </div>
-                      {item.IMG_SRC && (
-                        <img
-                          className={`img-fluid ${item.IS_SMALL ? 'article__image--small' : 'article__image--content'}`}
-                          src={item.IMG_SRC}
-                          alt={item.IMG_ALT}
-                          width={item.IS_SMALL ? 1300 : 1170} 
-                          height={item.IS_SMALL ? 420 : 700}
-                        />
-                      )}
-                      <ReactMarkdown
-                        components={{
-                          blockquote: ({ node, ...props }) => (
-                            <blockquote
-                              {...props}
-                              style={{
-                                borderLeft: `6px solid ${item.ACCENT_COLOR ?? "#ccc"}`,
-                              }}
-                              className="quotes"
-                            />
-                          ),
-                        }}
-                      >
-                        {item.CONTENT}
-                      </ReactMarkdown>
-                    </div>
-                    {hasRightColumn && (
-                      <aside className="article-section__right">
-                        {item.RIGHT_COLUMN?.CONTENT && (
-                          <ReactMarkdown>
-                            {item.RIGHT_COLUMN.CONTENT}
-                          </ReactMarkdown>
-                        )}
-                        {item.RIGHT_COLUMN?.IMG_SRC && (
+                  <div
+                    style={{
+                      backgroundColor: item.BG_COLOR ?? "transparent",
+                      ["--marker-color" as any]: markerColor,
+                    }}
+                  className={`article-section ${
+                        hasBg ? "article-section--with-bg" : ""
+                    }${hasRightColumn ? " article-section--two-column" : ""}`}
+                  >
+                    <div className="article-section__inner">
+                      <div className="article-section__left">
+                        <div className="article__section-title">
+                          <ReactMarkdown>{item.TITLE}</ReactMarkdown>
+                        </div>
+                        {item.IMG_SRC && (
                           <img
-                            className={`img-fluid article-section__right-img ${item.RIGHT_COLUMN.IS_HIGH ? 'article-section__right-img--high' : ''}`}
-                            src={item.RIGHT_COLUMN.IMG_SRC}
-                            alt={item.RIGHT_COLUMN.IMG_ALT}
-                            width={400}
-                            height={item.RIGHT_COLUMN.IS_HIGH ? 600 : 400}
+                            className={`img-fluid ${item.IS_SMALL ? 'article__image--small' : 'article__image--content'}`}
+                            src={item.IMG_SRC}
+                            alt={item.IMG_ALT}
+                            width={item.IS_SMALL ? 1300 : 1170} 
+                            height={item.IS_SMALL ? 420 : 700}
                           />
                         )}
-                      </aside>
-                    )}
+                        <ReactMarkdown
+                          components={{
+                            blockquote: ({ node, ...props }) => (
+                              <blockquote
+                                {...props}
+                                style={{
+                                  borderLeft: `6px solid ${item.ACCENT_COLOR ?? "#ccc"}`,
+                                }}
+                                className="quotes"
+                              />
+                            ),
+                          }}
+                        >
+                          {item.CONTENT}
+                        </ReactMarkdown>
+                      </div>
+                      {hasRightColumn && (
+                        <aside className="article-section__right">
+                          {item.RIGHT_COLUMN?.CONTENT && (
+                            <ReactMarkdown>
+                              {item.RIGHT_COLUMN.CONTENT}
+                            </ReactMarkdown>
+                          )}
+                          {item.RIGHT_COLUMN?.IMG_SRC && (
+                            <img
+                              className={`img-fluid article-section__right-img ${item.RIGHT_COLUMN.IS_HIGH ? 'article-section__right-img--high' : ''}`}
+                              src={item.RIGHT_COLUMN.IMG_SRC}
+                              alt={item.RIGHT_COLUMN.IMG_ALT}
+                              width={400}
+                              height={item.RIGHT_COLUMN.IS_HIGH ? 600 : 400}
+                            />
+                          )}
+                        </aside>
+                      )}
+                    </div>
                   </div>
                 </div>
-                 </div>
+                {item.COMPARISON_CARDS && (
+                  <div className="article-comparison">
+                    {item.COMPARISON_CARDS.map((card, index) => (
+                      <div
+                        key={index}
+                        className="article-comparison__card"
+                        style={{
+                          backgroundColor: card.BG_COLOR ?? "transparent",
+                        }}
+                      >
+                        <ReactMarkdown>{card.TITLE}</ReactMarkdown>
+                        <ReactMarkdown>{card.CONTENT}</ReactMarkdown>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </section>
             );
           })}

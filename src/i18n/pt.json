@@ -1058,6 +1058,12 @@
             "NAME": "Tremella",
             "CATEGORY": "cogumelo",
             "DESK": "Hidratação suprema da natureza. Retém 500 vezes seu peso em água para pele luminosa e beleza duradoura."
+        },
+        "REISHI": {
+            "HEAD": "Rsh",
+            "NAME": "Reishi em pó",
+            "CATEGORY": "cogumelo",
+            "DESK": "O cogumelo Reishi é um fungo duro e lenhoso nativo das regiões quentes e úmidas da Ásia. Conhecido como 'Lingzhi' na Medicina Tradicional Chinesa, ele tem sido reverenciado por mais de 2.000 anos como o 'cogumelo da imortalidade'."
         }
     },
     "WAIST": {

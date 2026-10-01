@@ -51,6 +51,7 @@ const CATEGORY_ICON: Record<string, string> = {
     MACA: "extract",
     TURKEY_TAIL: "mushroom",
     TREMELLA: "mushroom",
+    REISHI: "mushroom"
 };
 
 const COMING_SOON_PAGES = new Set<string>([]);
@@ -143,6 +144,7 @@ const vitamins: VitaminGroup[] = [
             "MACA",
             "TURKEY_TAIL",
             "TREMELLA",
+            "REISHI",
         ],
     },
 ];
