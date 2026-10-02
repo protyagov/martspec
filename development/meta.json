@@ -128,6 +128,17 @@
       "namedExport": "BulletListStory",
       "meta": {}
     },
+    "molecule--card-article-audio": {
+      "name": "Card article audio",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 15,
+      "locEnd": 42,
+      "filePath": "src/stories/molecule/card-article-audio.stories.tsx",
+      "namedExport": "CardArticleAudioStory",
+      "meta": {}
+    },
     "molecule--card-body-metric": {
       "name": "Card body metric",
       "levels": [
