@@ -7,7 +7,7 @@ export default function PageError_404() {
     return (
         <>
             <NavigationBar />
-            <div className="ms-base-page error-404 text-center px-3">
+            <div className="error-404 text-center px-3">
                 <div className="error-404-content">
                     <div className="error-404-image-wrap">
                         <img src="/img/error_404.svg" alt={_("ERROR.404_HEAD")} className="error-404-image" />
