@@ -40,6 +40,10 @@ html {
     }
 }
 
+img {
+        display: block;
+    }
+
 .ms-base-page {
     flex: 1 0;
     font-size: 1.9rem;
@@ -116,10 +120,6 @@ html {
                 color: #1686ff;
             }
         }
-    }
-
-    img {
-        display: block;
     }
 
     section {
