@@ -21,7 +21,7 @@
 
 .article__image {
     width: 100%;
-    height: auto;
+    height: 220px;
     border-radius: 20px;
     /* ← helps CLS even more */
     object-fit: cover;
@@ -37,7 +37,10 @@
         aspect-ratio: 1170 / 700;
     }
     .article__image--small {
-        aspect-ratio: 1300 / 420;
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        object-position: center;
     }
 
     img {
@@ -205,7 +208,7 @@
 
 .article-title {
     font-family: os5;
-    font-size: clamp(32px, 5vw, 40px);
+    font-size: clamp(24px, 5vw, 40px);
     padding-bottom: 30px;
 }
 
@@ -228,6 +231,23 @@
 .article__container > .article-content:first-of-type .article-section[style*="--marker-color: #76E449"] {
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.article-comparison {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.article-comparison__card {
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+
+    h3 {
+        margin-top: 0;
+        padding-bottom: 1rem;
+    }
 }
 
 /* ====================== SKELETON STYLES ====================== */
@@ -347,6 +367,25 @@
 
     .article-section--with-bg {
         padding: 50px;
+    }
+
+    .article__image {
+        height: 420px;
+    }
+
+    .article-comparison {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2.5rem;
+    }
+
+    .article-comparison__card {
+        padding: 3rem;
+    }
+
+    .article-content { 
+        .article__image--small {
+            height: 420px;
+        }
     }
 }
 
