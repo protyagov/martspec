@@ -189,6 +189,56 @@
         },
         "IMG6_ALT": "Báscula de peso corporal con cinta métrica e íconos que representan la salud del corazón, el estómago, las articulaciones y la sangre"
     },
+    "CAPSULES": {
+        "HEAD": "Cápsulas de vitaminas: lo que las grandes farmacéuticas no quieren que sepas",
+        "DESC": "Las cápsulas de vitaminas pueden contener mucho más que solo ingredientes activos. Sus cubiertas pueden incluir gelatina o materiales de origen vegetal, colorantes, rellenos y otros aditivos. Comprender qué hay en su interior puede ayudarte a elegir una cápsula que se adapte mejor a tu salud, estilo de vida y valores.",
+        "HEAD2": "Cápsulas de gelatina frente a cápsulas veganas",
+        "DESC2": "La cápsula que elijas es importante. Desde su procedencia hasta cómo funcionan en tu cuerpo, así es como se comparan las cápsulas de gelatina y las veganas en los factores clave que afectan tu salud y tus valores.",
+        "HEAD3": "Los químicos ocultos que acechan en el interior",
+        "DESC3": "Más allá de la cubierta de la cápsula, los fabricantes a menudo agregan químicos para mejorar la apariencia, la textura o la vida útil, muchos de los cuales están mal regulados o poco estudiados:",
+        "HEAD4": "Revisa siempre la etiqueta",
+        "DESC4": "La calidad y la transparencia importan más que la cápsula en sí",
+        "ALT": "La verdad sobre las cápsulas de vitaminas",
+        "ALT1": "Qué hay dentro de las cápsulas de vitaminas",
+        "CARDS": {
+            "HEAD": "COLORANTES",
+            "DESC": "Para distinguir entre diferentes tipos de cápsulas y ayudar en la identificación, los fabricantes agregan colorantes. Estos tintes mejoran el atractivo visual y ayudan a los usuarios a llevar un control de su régimen de pastillas. Sin embargo, algunos colorantes sintéticos (como el Rojo 40, el Amarillo 5 o el Dióxido de Titanio) se han relacionado con reacciones alérgicas, hiperactividad en niños e incluso riesgos cancerígenos en estudios con animales. Si bien Europa prohíbe muchos de estos colorantes, siguen siendo comunes en los suplementos de EE. UU.",
+            "HEAD2": "LUBRICANTES",
+            "DESC2": "Para hacer que las cápsulas sean más fáciles de tragar, se utilizan lubricantes como el estearato de magnesio. Aunque generalmente se reconocen como seguros, algunos estudios sugieren que en dosis altas, especialmente con el uso diario a largo plazo, estos aditivos podrían suprimir la función inmunológica o alterar las bacterias intestinales.",
+            "HEAD3": "RELLENOS",
+            "DESC3": "Dado que la dosis del ingrediente activo a menudo ocupa solo una pequeña parte de la cápsula, se agregan rellenos para aumentar el volumen y estabilizar el contenido. Se utilizan rellenos comunes como lactosa, talco, celulosa microcristalina y almidón. La lactosa puede causar problemas a quienes son intolerantes, y el talco ha sido objeto de escrutinio por posible contaminación con asbesto. Los efectos a largo plazo de muchos rellenos siguen sin estar claros.",
+            "HEAD4": "CONSERVANTES",
+            "DESC4": "Para prolongar la vida útil y evitar la degradación de las vitaminas, es común agregar conservantes (como BHT o benzoato de sodio). Si bien ayudan a mantener la eficacia de los suplementos, su impacto acumulativo en la salud debido a la exposición a largo plazo es motivo de preocupación, ya que algunos conservantes están relacionados con daño hepático y riesgos cancerígenos."
+        },
+        "CAPSULES_HEAD": "¿Qué hay realmente dentro de las cápsulas de vitaminas?",
+        "CAPSULES_DESK": "Aprende de qué están hechas realmente las cápsulas de vitaminas, desde cubiertas de gelatina y de origen vegetal hasta rellenos, colorantes, conservantes y otros ingredientes inactivos. Descubre qué debes revisar en la etiqueta y cómo hacer una elección más informada al seleccionar suplementos.",
+        "CAPSULES": {
+            "CAPTION": "Cápsulas de gelatina frente a cápsulas veganas. La cápsula que elijas es importante. ",
+            "EMPTY": " ",
+            "HEAD1": "CÁPSULAS DE GELATINA: UN DILEMA DE ORIGEN ANIMAL",
+            "HEAD2": "CÁPSULAS VEGANAS: UNA ALTERNATIVA DE ORIGEN VEGETAL",
+            "FIRST_COL": {
+                "Source": "Origen",
+                "Dissolving_speed": "Velocidad de disolución",
+                "Suitability": "Idoneidad",
+                "Concerns": "Preocupaciones"
+            },
+            "TEXT": {
+                "GELATIN": {
+                    "0": "Derivadas de colágeno animal (huesos y piel de cerdo o vaca). No aptas para vegetarianos ni veganos.",
+                    "1": "Típicamente se disuelven en 15-30 minutos. Puede variar según la acidez estomacal y la temperatura.",
+                    "2": "Aptas para la mayoría de los omnívoros. No aptas para vegetarianos, veganos o personas con ciertas creencias dietéticas.",
+                    "3": "Potencial de contaminantes transmitidos por animales, alérgenos y problemas éticos. No son hipoalergénicas."
+                },
+                "VEGAN": {
+                    "0": "Hechas de celulosa vegetal (generalmente HPMC) derivada de pulpa de madera o algodón. 100% de origen vegetal.",
+                    "1": "Típicamente se disuelven en 20-40 minutos. Diseñadas para una liberación y un rendimiento constantes.",
+                    "2": "Aptas para vegetarianos, veganos y la mayoría de los estilos de vida dietéticos. A menudo libres de alérgenos.",
+                    "3": "Menor riesgo de alérgenos. No derivadas de animales con menos problemas éticos. Generalmente bien toleradas."
+                }
+            }
+        }
+    },
     "VITAMIN": {
         "HEAD": "Vitamina",
         "SUBHEAD": "el mejor rastreador de vitaminas",

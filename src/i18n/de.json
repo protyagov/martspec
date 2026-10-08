@@ -189,6 +189,56 @@
         },
         "IMG6_ALT": "Personenwaage mit Maßband und Symbolen, die die Gesundheit von Herz, Magen, Gelenken und Blut darstellen"
     },
+    "CAPSULES": {
+        "HEAD": "Vitaminkapseln – Was Big Pharma Ihnen verschweigen will",
+        "DESC": "Vitaminkapseln können mehr als nur Wirkstoffe enthalten. Ihre Hüllen können Gelatine oder pflanzliche Materialien, Farbstoffe, Füllstoffe und andere Zusatzstoffe enthalten. Wenn Sie verstehen, was drin ist, können Sie eine Kapsel wählen, die besser zu Ihrer Gesundheit, Ihrem Lebensstil und Ihren Werten passt.",
+        "HEAD2": "Gelatine- vs. vegane Kapseln",
+        "DESC2": "Die Kapsel, die Sie wählen, ist wichtig. Von der Herkunft bis zur Wirkungsweise in Ihrem Körper – hier sehen Sie, wie Gelatine- und vegane Kapseln in Bezug auf die wichtigsten Faktoren abschneiden, die Ihre Gesundheit und Werte beeinflussen.",
+        "HEAD3": "Die versteckten Chemikalien darin",
+        "DESC3": "Neben der Kapselhülle fügen Hersteller oft Chemikalien hinzu, um Aussehen, Textur oder Haltbarkeit zu verbessern – viele davon sind schlecht reguliert oder unzureichend erforscht:",
+        "HEAD4": "Immer das Etikett prüfen",
+        "DESC4": "Qualität und Transparenz sind wichtiger als die Kapsel selbst",
+        "ALT": "Die Wahrheit über Vitaminkapseln",
+        "ALT1": "Was in Vitaminkapseln steckt",
+        "CARDS": {
+            "HEAD": "FARBSTOFFE",
+            "DESC": "Um zwischen verschiedenen Arten von Kapseln zu unterscheiden und die Identifizierung zu erleichtern, fügen Hersteller Farbstoffe hinzu. Diese Farbstoffe verbessern die Optik und helfen Anwendern, ihre Tabletteneinnahme zu verfolgen. Einige synthetische Farbstoffe (wie Rot 40, Gelb 5 oder Titandioxid) wurden jedoch in Tierstudien mit allergischen Reaktionen, Hyperaktivität bei Kindern und sogar krebserregenden Risiken in Verbindung gebracht. Während Europa viele dieser Farbstoffe verbietet, sind sie in US-Nahrungsergänzungsmitteln weiterhin üblich.",
+            "HEAD2": "SCHMIERMITTEL",
+            "DESC2": "Um das Schlucken der Kapseln zu erleichtern, werden Schmiermittel wie Magnesiumstearat verwendet. Obwohl sie allgemein als sicher gelten, deuten einige Studien darauf hin, dass diese Zusatzstoffe in hohen Dosen – insbesondere bei täglicher, langfristiger Anwendung – die Immunfunktion unterdrücken oder die Darmbakterien stören könnten.",
+            "HEAD3": "FÜLLSTOFFE",
+            "DESC3": "Da die Dosis des Wirkstoffs oft nur einen kleinen Teil der Kapsel einnimmt, werden Füllstoffe hinzugefügt, um das Volumen zu vergrößern und den Inhalt zu stabilisieren. Häufig werden Füllstoffe wie Laktose, Talkum, mikrokristalline Cellulose und Stärke verwendet. Laktose kann bei Laktoseintoleranz Probleme bereiten, und Talkum geriet wegen möglicher Asbestkontamination in die Kritik. Die langfristigen Auswirkungen vieler Füllstoffe bleiben unklar.",
+            "HEAD4": "KONSERVIERUNGSSTOFFE",
+            "DESC4": "Um die Haltbarkeit zu verlängern und den Abbau von Vitaminen zu verhindern, werden häufig Konservierungsstoffe (wie BHT oder Natriumbenzoat) hinzugefügt. Während sie helfen, die Wirksamkeit der Nahrungsergänzungsmittel aufrechtzuerhalten, sind ihre kumulativen gesundheitlichen Auswirkungen bei langfristiger Exposition besorgniserregend, da einige Konservierungsstoffe mit Leberschäden und krebserregenden Risiken in Verbindung gebracht werden."
+        },
+        "CAPSULES_HEAD": "Was steckt wirklich in Vitaminkapseln?",
+        "CAPSULES_DESK": "Erfahren Sie, woraus Vitaminkapseln wirklich bestehen – von Gelatine- und pflanzlichen Hüllen bis hin zu Füllstoffen, Farbstoffen, Konservierungsstoffen und anderen inaktiven Inhaltsstoffen. Entdecken Sie, worauf Sie auf dem Etikett achten müssen und wie Sie bei der Auswahl von Nahrungsergänzungsmitteln eine fundiertere Entscheidung treffen können.",
+        "CAPSULES": {
+            "CAPTION": "Gelatine- vs. vegane Kapseln. Die Kapsel, die Sie wählen, ist wichtig. ",
+            "EMPTY": " ",
+            "HEAD1": "GELATINEKAPSELN: EIN TIERISCHES DILEMMA",
+            "HEAD2": "VEGANE KAPSELN: EINE PFLANZLICHE ALTERNATIVE",
+            "FIRST_COL": {
+                "Source": "Quelle",
+                "Dissolving_speed": "Auflösungsgeschwindigkeit",
+                "Suitability": "Eignung",
+                "Concerns": "Bedenken"
+            },
+            "TEXT": {
+                "GELATIN": {
+                    "0": "Gewonnen aus tierischem Kollagen (Schweine- oder Rinderknochen und -haut). Nicht für Vegetarier oder Veganer geeignet.",
+                    "1": "Löst sich typischerweise in 15-30 Minuten auf. Kann je nach Magensäure und Temperatur variieren.",
+                    "2": "Geeignet für die meisten Allesesser. Nicht geeignet für Vegetarier, Veganer oder Personen mit bestimmten Ernährungsüberzeugungen.",
+                    "3": "Potenzial für tierische Verunreinigungen, Allergene und ethische Bedenken. Nicht hypoallergen."
+                },
+                "VEGAN": {
+                    "0": "Hergestellt aus pflanzlicher Cellulose (meist HPMC), die aus Zellstoff oder Baumwolle gewonnen wird. 100% pflanzlich.",
+                    "1": "Löst sich typischerweise in 20-40 Minuten auf. Entwickelt für gleichmäßige Freisetzung und Leistung.",
+                    "2": "Geeignet für Vegetarier, Veganer und die meisten Ernährungsstile. Oft allergenfrei.",
+                    "3": "Geringeres Allergierisiko. Nicht tierischen Ursprungs mit weniger ethischen Bedenken. Im Allgemeinen gut verträglich."
+                }
+            }
+        }
+    },
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "Der ultimative Vitamin Tracker",

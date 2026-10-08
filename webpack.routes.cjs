@@ -12,6 +12,8 @@ const ROUTES = [
     { template: "electrolyte", output: "electrolyte" },
     { template: "magnesium", output: "magnesium" },
     { template: "vitamin", output: "vitamin" },
+    { template: "vitamin/capsules", output: "vitamin/capsules" },
+    { template: "vitamin/capsules", output: "vitamin/capsules" },
     { template: "waistline", output: "waistline" },
     { template: "bodyzinc", output: "bodyzinc" },
     { template: "bodysize", output: "bodysize" },

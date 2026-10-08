@@ -189,6 +189,56 @@
         },
         "IMG6_ALT": "Pèse-personne avec ruban à mesurer et icônes représentant la santé du cœur, de l'estomac, des articulations et du sang"
     },
+    "CAPSULES": {
+        "HEAD": "Gélules de vitamines — Ce que l'industrie pharmaceutique ne veut pas que vous sachiez",
+        "DESC": "Les gélules de vitamines peuvent contenir bien plus que des ingrédients actifs. Leurs enveloppes peuvent inclure de la gélatine ou des matériaux d'origine végétale, des colorants, des agents de remplissage et d'autres additifs. Comprendre ce qu'il y a à l'intérieur peut vous aider à choisir une gélule qui correspond mieux à votre santé, votre style de vie et vos valeurs.",
+        "HEAD2": "Gélules en gélatine vs gélules végétaliennes",
+        "DESC2": "La gélule que vous choisissez a de l'importance. De leur origine à la façon dont elles agissent dans votre corps, voici comment les gélules en gélatine et végétaliennes se comparent sur les facteurs clés qui impactent votre santé et vos valeurs.",
+        "HEAD3": "Les produits chimiques cachés à l'intérieur",
+        "DESC3": "Au-delà de l'enveloppe de la gélule, les fabricants ajoutent souvent des produits chimiques pour améliorer l'apparence, la texture ou la durée de conservation — dont beaucoup sont mal réglementés ou peu étudiés :",
+        "HEAD4": "Vérifiez toujours l'étiquette",
+        "DESC4": "La qualité et la transparence comptent plus que la gélule elle-même",
+        "ALT": "La vérité sur les gélules de vitamines",
+        "ALT1": "Ce qu'il y a dans les gélules de vitamines",
+        "CARDS": {
+            "HEAD": "COLORANTS",
+            "DESC": "Pour faire la distinction entre les différents types de gélules et faciliter leur identification, les fabricants ajoutent des colorants. Ces teintures améliorent l'aspect visuel et aident les utilisateurs à suivre leur traitement. Cependant, certains colorants synthétiques (comme le Rouge 40, le Jaune 5 ou le dioxyde de titane) ont été liés à des réactions allergiques, à l'hyperactivité chez les enfants et même à des risques cancérigènes dans des études sur les animaux. Alors que l'Europe interdit bon nombre de ces colorants, ils restent courants dans les compléments américains.",
+            "HEAD2": "LUBRIFIANTS",
+            "DESC2": "Pour rendre les gélules plus faciles à avaler, des lubrifiants tels que le stéarate de magnésium sont utilisés. Bien qu'ils soient généralement reconnus comme sûrs, certaines études suggèrent qu'à fortes doses — en particulier avec une utilisation quotidienne et à long terme — ces additifs pourraient supprimer la fonction immunitaire ou perturber les bactéries intestinales.",
+            "HEAD3": "AGENTS DE REMPLISSAGE (EXCIPIENTS)",
+            "DESC3": "Étant donné que la dose de l'ingrédient actif ne prend souvent qu'une petite partie de la gélule, des agents de remplissage sont ajoutés pour donner du volume et stabiliser le contenu. Des agents courants comme le lactose, le talc, la cellulose microcristalline et l'amidon sont utilisés. Le lactose peut gêner les personnes intolérantes, et le talc a été examiné pour une éventuelle contamination par l'amiante. Les effets à long terme de nombreux agents de remplissage restent flous.",
+            "HEAD4": "CONSERVATEURS",
+            "DESC4": "Pour prolonger la durée de conservation et empêcher la dégradation des vitamines, des conservateurs (tels que le BHT ou le benzoate de sodium) sont couramment ajoutés. Bien qu'ils aident à maintenir l'efficacité des compléments, leur impact cumulatif sur la santé lors d'une exposition à long terme est préoccupant, certains conservateurs étant liés à des dommages au foie et à des risques cancérigènes."
+        },
+        "CAPSULES_HEAD": "Qu'y a-t-il vraiment à l'intérieur des gélules de vitamines ?",
+        "CAPSULES_DESK": "Découvrez de quoi sont vraiment faites les gélules de vitamines — des enveloppes en gélatine et végétales aux excipients, colorants, conservateurs et autres ingrédients inactifs. Découvrez ce qu'il faut vérifier sur l'étiquette et comment faire un choix plus éclairé lors de la sélection de vos compléments.",
+        "CAPSULES": {
+            "CAPTION": "Gélules en gélatine vs végétaliennes. La gélule que vous choisissez a de l'importance. ",
+            "EMPTY": " ",
+            "HEAD1": "GÉLULES EN GÉLATINE : UN DILEMME D'ORIGINE ANIMALE",
+            "HEAD2": "GÉLULES VÉGÉTALIENNES : UNE ALTERNATIVE VÉGÉTALE",
+            "FIRST_COL": {
+                "Source": "Origine",
+                "Dissolving_speed": "Vitesse de dissolution",
+                "Suitability": "Convient à",
+                "Concerns": "Préoccupations"
+            },
+            "TEXT": {
+                "GELATIN": {
+                    "0": "Dérivées du collagène animal (os et peau de porc ou de bœuf). Ne conviennent pas aux végétariens ou végétaliens.",
+                    "1": "Se dissolvent généralement en 15 à 30 minutes. Peut varier en fonction de l'acidité de l'estomac et de la température.",
+                    "2": "Conviennent à la plupart des omnivores. Ne conviennent pas aux végétariens, végétaliens ou aux personnes ayant certaines croyances alimentaires.",
+                    "3": "Risque potentiel de contaminants d'origine animale, d'allergènes et problèmes éthiques. Non hypoallergéniques."
+                },
+                "VEGAN": {
+                    "0": "Fabriquées à partir de cellulose végétale (généralement HPMC) dérivée de pulpe de bois ou de coton. 100 % d'origine végétale.",
+                    "1": "Se dissolvent généralement en 20 à 40 minutes. Conçues pour une libération et des performances constantes.",
+                    "2": "Conviennent aux végétariens, végétaliens et à la plupart des modes de vie alimentaires. Souvent sans allergènes.",
+                    "3": "Risque d'allergènes plus faible. Non dérivées d'animaux, avec moins de problèmes éthiques. Généralement bien tolérées."
+                }
+            }
+        }
+    },
     "VITAMIN": {
         "HEAD": "Vitamine",
         "SUBHEAD": "le traqueur ultime de vitamines",

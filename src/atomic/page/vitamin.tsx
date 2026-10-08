@@ -20,6 +20,7 @@ import ScrollButton from "../atom/scroll-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 import Table, { TableData } from "@/atomic/molecule/table";
+import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 
 interface VitaminGroup {
     groupName: string;
@@ -514,6 +515,32 @@ export default function Vitamin() {
                                 </div>
                             </section>
                         ))}
+                </section>
+
+                <section>
+                    <div className="row">
+                        <div className="row block p-0 rounded-5" style={{backgroundColor: "#F7F4F8", overflow: "hidden"}}>
+                            <div className="col-lg-6 p-5 py-3" >
+                                <CardTitleTextButton
+                                    title={_("CAPSULES.CAPSULES_HEAD")}
+                                    textContent={[_("CAPSULES.CAPSULES_DESK")]}
+                                    buttonText={_("SIZE.BTN_MORE")}
+                                    buttonLink={Locale.i18nLink(`vitamin/capsules`)}
+                                    buttonColor="#1686FF"
+                                />
+                            </div>
+
+                            <div className="col-lg-6 pb-4 d-flex justify-content-end align-items-end">
+                                <ImageI18N
+                                    src="/img/page/vitamin/to_capsules_q90.avif"
+                                    w={400}
+                                    h={400}
+                                    cls="ms-base-image mt-mob-xs m-0 img-fluid"
+                                    alt={_("CAPSULES.ALT1")}
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 <section className="row p-0 mt-0">
