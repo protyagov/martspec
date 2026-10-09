@@ -1,0 +1,40 @@
+.card-title-text-list-button {
+    h2 {
+        font-family: os5;
+        font-size: 2.5rem;
+        color: #212529;
+        margin-bottom: 1.5rem;
+    }
+
+    &__description {
+        font-family: os3;
+        font-size: 1.5rem;
+        color: #595959;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+    }
+
+    h3 {
+        font-family: os5;
+        font-size: 1.75rem;
+        color: #212529;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style: disc;
+        padding-left: 1.5rem;
+        margin-bottom: 2rem;
+
+        li {
+            font-family: os3;
+            font-size: 1.5rem;
+            color: #595959;
+            margin-bottom: 1rem;
+
+            &::marker {
+                color: #7C53CE;
+            }
+        }
+    }
+}

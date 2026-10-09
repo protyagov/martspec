@@ -9,6 +9,7 @@ const ROUTES = [
     { template: "bodymass", output: "bodymass" },
     { template: "iron", output: "iron" },
     { template: "calcium", output: "calcium" },
+    { template: "protein", output: "protein" },
     { template: "electrolyte", output: "electrolyte" },
     { template: "magnesium", output: "magnesium" },
     { template: "vitamin", output: "vitamin" },

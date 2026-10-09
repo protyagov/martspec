@@ -60,7 +60,60 @@
         "WATCH": "Watches"
     },
     "PROTEIN": {
-        "HEAD": "Protein"
+        "HEAD": "Protein",
+        "ABOUT_1": "Track your protein target right on your watch face",
+        "ABOUT_2": "A simple and quick way to log entries",
+        "ABOUT_3": "Sync with the Apple Health app",
+        "IMG": "Illustration of the Protein app",
+        "DWN": "Get the free Protein app for Apple Watch directly from the Apple App Store.",
+        "LIST1": {
+            "LI1_HEAD": "Quick tracking and flexible scheduling",
+            "DESC1": "The app allows you to keep a protein intake journal and set up flexible notifications directly from your watch screen.",
+            "LI2_HEAD": "Visual analytics and intake history",
+            "DESC2": "The watch screen shows your daily progress, set goals, and the full history of previous entries.",
+            "LI3_HEAD": "Sync with Apple Health",
+            "DESC3": "Protein intake data is automatically transferred to Apple Health and complements metrics from other trackers."
+        },
+        "HEAD2": "Why Protein?",
+        "DESC2_1": "Protein strengthens immunity, provides energy, and accelerates recovery. Tracking your daily intake helps you meet your target and build healthy habits.",
+        "SUB_HEAD": "Medical facts",
+        "DESC2_2": "National Institutes of Health (NIH): protein reduces hunger hormone levels and prolongs satiety.",
+        "DESC2_3": "American College of Sports Medicine (ACSM): consistent protein intake throughout the day is essential for muscle growth and bone strength.",
+        "BTN_MORE": "Learn more",
+        "HEAD3": "Our advantages",
+        "LIST2": {
+            "LI2_1_TITLE": "Sync with Apple Health",
+            "LI2_1_TEXT": "Automatic data reading and writing",
+            "IMG1_ALT": "Sync with Apple",
+            "LI2_2_TITLE": "Ad-free",
+            "LI2_2_TEXT": "No unnecessary content or distractions",
+            "IMG2_ALT": "Ad-free",
+            "LI2_3_TITLE": "Complete privacy",
+            "LI2_3_TEXT": "We do not store your data on external servers",
+            "IMG3_ALT": "Data protection",
+            "LI2_4_TITLE": "No Apple Sign-In required",
+            "LI2_4_TEXT": "The app is ready to use immediately without registration",
+            "IMG4_ALT": "No registration"
+        },
+         "HEAD4": "How to spot protein deficiency?",
+        "DESC3": "With regular workouts and a fast-paced lifestyle, your protein needs increase. If your body doesn't get enough, endurance drops and recovery takes longer. Complete this short checklist to evaluate your diet and well-being.",
+        "SUB_HEAD2": "Signs of protein deficiency:",
+        "LIST3": {
+            "LI1_HEAD": "Cravings for snacks and sweets",
+            "LI1_TEXT": "Hunger returns too quickly even after a filling meal.",
+            "LI2_HEAD": "Decline in athletic performance",
+            "LI2_TEXT": "The body lacks building blocks to repair muscles and tissues.",
+            "LI3_HEAD": "Carbohydrate-heavy menu",
+            "LI3_TEXT": "Your diet lacks meat, fish, eggs, or dairy products, while snacks consist of baked goods and chips.",
+            "LI4_HEAD": "Energy swings and fatigue",
+            "LI4_TEXT": "Fatigue and sudden sleepiness hit as early as midday."
+        },
+        "SUB_HEAD3": "Download Protein for Apple Watch",
+        "DESC4": "Address your protein deficit with simple tracking. Install the app on your watch and monitor your daily goal in a couple of taps.",
+        "IMG6_ALT": "Bathroom scale with a measuring tape and icons representing heart, stomach, joint, and blood health",
+        "HEAD5": "Our app is available for any Apple Watch model",
+        "DESC5": "Download the app right now and start monitoring your essential metrics",
+        "IMG_CTA_ALT1": "Apple Watch displaying body weight information, with a scale and an apple in the background"
     },
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",

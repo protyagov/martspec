@@ -23,6 +23,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             careers: _("CAREERS.HEAD"),
             "scam-protection": _("SCAM_PROTECTION.HEAD"),
             productivity: _("EMOTION.LIST6.LI2_HEAD"),
+            protein: _("PROTEIN.HEAD"),
             bodymass: _("MASS.HEAD"),
             iron: _("IRON.HEAD"),
             magnesium: _("MAGNESIUM.HEAD"),
