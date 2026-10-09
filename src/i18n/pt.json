@@ -189,6 +189,56 @@
         },
         "IMG6_ALT": "Balança de peso corporal com fita métrica e ícones que representam a saúde do coração, estômago, articulações e sangue"
     },
+    "CAPSULES": {
+        "HEAD": "Cápsulas de vitaminas — O que as grandes farmacêuticas não querem que você saiba",
+        "DESC": "As cápsulas de vitaminas podem conter mais do que apenas ingredientes ativos. Os seus invólucros podem incluir gelatina ou materiais à base de plantas, corantes, enchimentos e outros aditivos. Compreender o que está lá dentro pode ajudá-lo a escolher uma cápsula que melhor se adapte à sua saúde, estilo de vida e valores.",
+        "HEAD2": "Cápsulas de gelatina vs cápsulas veganas",
+        "DESC2": "A cápsula que você escolhe importa. Da sua origem até como funcionam no seu corpo, eis como as cápsulas de gelatina e veganas se comparam nos principais fatores que afetam a sua saúde e valores.",
+        "HEAD3": "Os produtos químicos ocultos no interior",
+        "DESC3": "Além do invólucro da cápsula, os fabricantes frequentemente adicionam produtos químicos para melhorar a aparência, a textura ou a vida útil — muitos dos quais são pouco regulamentados ou insuficientemente estudados:",
+        "HEAD4": "Verifique sempre o rótulo",
+        "DESC4": "A qualidade e a transparência importam mais do que a cápsula em si",
+        "ALT": "A verdade sobre as cápsulas de vitaminas",
+        "ALT1": "O que há dentro das cápsulas de vitaminas",
+        "CARDS": {
+            "HEAD": "CORANTES",
+            "DESC": "Para distinguir entre diferentes tipos de cápsulas e auxiliar na identificação, os fabricantes adicionam corantes. Esses corantes melhoram o apelo visual e ajudam os utilizadores a acompanhar o seu regime de comprimidos. No entanto, alguns corantes sintéticos (como o Vermelho 40, o Amarelo 5 ou o Dióxido de Titânio) foram associados a reações alérgicas, hiperatividade em crianças e até mesmo a riscos cancerígenos em estudos com animais. Embora a Europa proíba muitos desses corantes, eles continuam a ser comuns em suplementos nos EUA.",
+            "HEAD2": "LUBRIFICANTES",
+            "DESC2": "Para tornar as cápsulas mais fáceis de engolir, utilizam-se lubrificantes como o estearato de magnésio. Embora geralmente reconhecidos como seguros, alguns estudos sugerem que em altas doses — especialmente com uso diário prolongado — estes aditivos podem suprimir a função imunitária ou perturbar as bactérias intestinais.",
+            "HEAD3": "ENCHIMENTOS (EXCIPIENTES)",
+            "DESC3": "Visto que a dose do ingrediente ativo muitas vezes ocupa apenas uma pequena parte da cápsula, são adicionados enchimentos para dar volume e estabilizar o conteúdo. São utilizados enchimentos comuns como lactose, talco, celulose microcristalina e amido. A lactose pode causar problemas àqueles que são intolerantes, e o talco tem sido alvo de escrutínio devido a uma potencial contaminação com amianto. Os efeitos a longo prazo de muitos enchimentos continuam por esclarecer.",
+            "HEAD4": "CONSERVANTES",
+            "DESC4": "Para prolongar o prazo de validade e prevenir a degradação das vitaminas, são frequentemente adicionados conservantes (como BHT ou benzoato de sódio). Embora ajudem a manter a eficácia dos suplementos, o seu impacto cumulativo na saúde ao longo de exposições prolongadas é uma preocupação, com alguns conservantes sendo associados a danos hepáticos e riscos cancerígenos."
+        },
+        "CAPSULES_HEAD": "O que há realmente dentro das cápsulas de vitaminas?",
+        "CAPSULES_DESK": "Saiba do que são realmente feitas as cápsulas de vitaminas — desde invólucros de gelatina e vegetais até enchimentos, corantes, conservantes e outros ingredientes inativos. Descubra o que deve verificar no rótulo e como fazer uma escolha mais informada ao selecionar suplementos.",
+        "CAPSULES": {
+            "CAPTION": "Cápsulas de gelatina vs cápsulas veganas. A cápsula que você escolhe importa. ",
+            "EMPTY": " ",
+            "HEAD1": "CÁPSULAS DE GELATINA: UM DILEMA DE ORIGEM ANIMAL",
+            "HEAD2": "CÁPSULAS VEGANAS: UMA ALTERNATIVA DE ORIGEM VEGETAL",
+            "FIRST_COL": {
+                "Source": "Origem",
+                "Dissolving_speed": "Velocidade de dissolução",
+                "Suitability": "Adequação",
+                "Concerns": "Preocupações"
+            },
+            "TEXT": {
+                "GELATIN": {
+                    "0": "Derivadas de colagénio animal (ossos e pele de porco ou bovino). Não adequadas para vegetarianos ou veganos.",
+                    "1": "Normalmente dissolvem-se em 15-30 minutos. Pode variar com a acidez do estômago e a temperatura.",
+                    "2": "Adequadas para a maioria dos omnívoros. Não adequadas para vegetarianos, veganos ou pessoas com certas crenças alimentares.",
+                    "3": "Potencial para contaminantes de origem animal, alérgenos e questões éticas. Não são hipoalergénicas."
+                },
+                "VEGAN": {
+                    "0": "Feitas de celulose vegetal (geralmente HPMC) derivada da polpa de madeira ou algodão. 100% de origem vegetal.",
+                    "1": "Normalmente dissolvem-se em 20-40 minutos. Concebidas para libertação e desempenho consistentes.",
+                    "2": "Adequadas para vegetarianos, veganos e a maioria dos estilos de vida alimentares. Muitas vezes isentas de alérgenos.",
+                    "3": "Menor risco de alérgenos. Não derivadas de animais, com menos problemas éticos. Geralmente bem toleradas."
+                }
+            }
+        }
+    },
     "VITAMIN": {
         "HEAD": "Vitamina",
         "SUBHEAD": "o melhor rastreador de vitaminas",
