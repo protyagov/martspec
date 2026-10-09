@@ -60,29 +60,26 @@ export default function Capsules() {
                     <Breadcrumb items={items} />
                 </div>
                 <section className="mt-0">
-                    <div className="">
+                    <div>
                         <div className="row align-items-center">
-                        {/* Текстовый блок (половина ширины) */}
-                        <div className="col-12 col-lg-6">
-                            <h1>{_("CAPSULES.HEAD")}</h1>
-                            <p>{_("CAPSULES.DESC")}</p>
-                        </div>
+                            <div className="col-12 col-lg-6">
+                                <h1>{_("CAPSULES.HEAD")}</h1>
+                                <p>{_("CAPSULES.DESC")}</p>
+                            </div>
 
-                        {/* Блок с картинкой (половина ширины) */}
-                        <div className="col-12 col-lg-6 mx-0">
-                            <ImageI18N
-                            src="/img/page/vitamin/capsules_header.avif"
-                            w={425}
-                            h={314}
-                            cls="ms-base-image mx-0"
-                            alt={_("CAPSULES.ALT")}
-                            />
-                        </div>
+                            <div className="col-12 col-lg-6 mx-0">
+                                <ImageI18N
+                                src="/img/page/vitamin/capsules_header.avif"
+                                w={425}
+                                h={314}
+                                cls="ms-base-image mx-0"
+                                alt={_("CAPSULES.ALT")}
+                                />
+                            </div>
                         </div>
                     </div>
                 </section>
 
-                {/*ТАБЛИЦА ВИТАМИННЫЕ КАПСУЛЫ*/}
                 <section>
                     <div className="row">
                         <h1>{_("CAPSULES.HEAD2")}</h1>
@@ -100,7 +97,7 @@ export default function Capsules() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="">
+                        <div>
                             <CardTitleTextImageCustom
                             cardHeight="8rem"
                             title={_("CAPSULES.HEAD4")}
@@ -122,9 +119,8 @@ export default function Capsules() {
                         <h1>{_("CAPSULES.HEAD3")}</h1>
                         <p>{_("CAPSULES.DESC3")}</p>
                     </div>
-                    <div className="">
+                    <div>
                         <div className="row">
-                            {/* Карточка 1: DYES */}
                             <div className="col-12 col-md-6 py-3">
                                 <CardTitleTextImageCustom
                                 cardHeight="14rem"
@@ -140,7 +136,6 @@ export default function Capsules() {
                                 />
                             </div>
 
-                            {/* Карточка 2: LUBRICANTS */}
                             <div className="col-12 col-md-6 py-3">
                                 <CardTitleTextImageCustom
                                 cardHeight="14rem"
@@ -156,7 +151,6 @@ export default function Capsules() {
                                 />
                             </div>
 
-                            {/* Карточка 3: FILLERS */}
                             <div className="col-12 col-md-6 py-3">
                                 <CardTitleTextImageCustom
                                 cardHeight="14rem"
@@ -172,7 +166,6 @@ export default function Capsules() {
                                 />
                             </div>
 
-                            {/* Карточка 4: PRESERVATIVES */}
                             <div className="col-12 col-md-6 py-3">
                                 <CardTitleTextImageCustom
                                 cardHeight="14rem"
