@@ -156,7 +156,7 @@
         "Molecule"
       ],
       "locStart": 12,
-      "locEnd": 26,
+      "locEnd": 30,
       "filePath": "src/stories/molecule/card-icon-title-text.stories.tsx",
       "namedExport": "CardIconTitleTextStory",
       "meta": {}
