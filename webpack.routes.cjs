@@ -25,6 +25,7 @@ const ROUTES = [
     { template: "emotion/productivity", output: "emotion/productivity" },
     { template: "emotion/energy", output: "emotion/energy" },
     { template: "emotion/openness", output: "emotion/openness" },
+    { template: "emotion/5-habits", output: "emotion/5-habits" },
     { template: "emotion/color-test", output: "emotion/color-test" },
 
     { template: "about", output: "about" },

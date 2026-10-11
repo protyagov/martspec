@@ -33,6 +33,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             openness: _("EMOTION.LIST6.LI6_HEAD"),
             energy: _("EMOTION.LIST6.LI5_HEAD"),
             harmony: _("EMOTION.LIST6.LI3_HEAD"),
+            "5-habits": _("EMOTION.BANNER_5_HABITS.BREADCRUMB"),
             biorhythms: _("BIORHYTHMS.HEAD"),
             calcium: _("CALCIUM.HEAD"),
             lion: _("VITAMIN.LION.NAME"),

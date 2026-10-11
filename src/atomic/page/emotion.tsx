@@ -422,6 +422,32 @@ export default function Emotion() {
                 </section>
 
                 <section>
+                    <div className="row">
+                        <div className="row block p-0" style={{backgroundColor: "#ECE9FF", overflow: "hidden"}}>
+                            <div className="col-lg-6 p-5">
+                                <CardTitleTextButton
+                                    title={_("EMOTION.BANNER_5_HABITS.HEAD")}
+                                    textContent={[_("EMOTION.BANNER_5_HABITS.TEXT")]}
+                                    buttonText={_("EMOTION.BANNER_5_HABITS.BTN")}
+                                    buttonLink={Locale.i18nLink(`emotion/5-habits`)}
+                                    buttonColor="#7B62FE"
+                                />
+                            </div>
+
+                            <div className="col-lg-6 d-flex justify-content-end align-items-end">
+                                <ImageI18N
+                                    src="/img/page/emotion/5-habits-banner.avif"
+                                    w={463}
+                                    h={476}
+                                    cls="ms-base-image mt-mob-xs m-0 img-fluid"
+                                    alt={_("EMOTION.BANNER_5_HABITS.ALT")}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
                     <div className="row mb-6">
                         <div className="col-lg-6">
                             <h2>{_("EMOTION.HEAD7")}</h2>

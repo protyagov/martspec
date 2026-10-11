@@ -1,4 +1,5 @@
 import type { Components } from "react-markdown";
+import type appIds from "@/data/app-ids.json";
 
 export interface IRightColumn {
     CONTENT?: string;
@@ -13,6 +14,20 @@ export interface ILeftColumn {
     AUDIO_URL?: string;
     BG_IMAGE?: string;
     IMG_ALT?: string;
+}
+
+export interface IMediaPanel {
+    TITLE?: string;
+    CONTENT: string;
+    IMG_SRC: string;
+    IMG_ALT: string;
+    IMG_POSITION: "left" | "right";
+    IMG_FIRST_ON_MOBILE?: boolean;
+    BG_COLOR?: string;
+    CARD_COLOR?: string;
+    LIST_STYLE?: "check";
+    DECOR_SRC?: string;
+    WIDE_CONTENT?: boolean;
 }
 
 export interface IArticleHeader {
@@ -35,6 +50,7 @@ export interface IArticleSection {
   RIGHT_COLUMN?: IRightColumn;
   LEFT_COLUMN?: ILeftColumn;
   COMPARISON_CARDS?: IArticleComparison[];
+  MEDIA_PANEL?: IMediaPanel;
   IS_SMALL?: boolean;
 }
 
@@ -52,11 +68,17 @@ export interface IArticleModel {
   IMG_ALT: string;
   IMG_SRC: string;
   BODY: IArticleSection[];
-  CALL_TO_ACTION: IArticleCallToAction;
+  CALL_TO_ACTION?: IArticleCallToAction;
 }
 
 export interface IArticleComparison {
   TITLE: string;
   CONTENT: string;
-  BG_COLOR?: string | null; 
+  BG_COLOR?: string | null;
+  IMG_SRC?: string;
+  IMG_ALT?: string;
+  BG_IMAGE?: string;
+  BG_IMAGE_MOBILE?: string;
+  APP?: keyof typeof appIds;
+  LIST_STYLE?: "check";
 }

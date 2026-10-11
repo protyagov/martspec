@@ -1426,6 +1426,13 @@
             "LI6_TEXT": "Capacité à embrasser de nouvelles idées et expériences",
             "BTN": "Apprendre encore plus"
         },
+        "BANNER_5_HABITS": {
+            "HEAD": "Qu'est-ce qui détermine votre productivité ?",
+            "TEXT": "L'état de votre cerveau et ses fonctions cognitives sont à la base de votre efficacité. Ils sont directement liés à la façon dont vous prenez soin de vous. Découvrez ce qui affecte exactement votre cerveau et retrouvez votre énergie et votre concentration.",
+            "BTN": "En savoir plus",
+            "ALT": "Une jeune femme médite en position du lotus, avec au-dessus d'elle des icônes de café, d'eau, de fruits, d'un livre et d'une plante",
+            "BREADCRUMB": "5 habitudes"
+        },
         "HEAD7": "Cas d'utilisation",
         "DESK7": "Le test peut mesurer avec précision l'état émotionnel, même pour les personnes atteintes de daltonisme. Pour optimiser les résultats, choisissez les couleurs en fonction de vos préférences actuelles en laissant le subconscient faire le travail. Choisissez les couleurs en fonction de vos préférences personnelles, et non en fonction d'associations avec des objets comme des voitures ou des bâtiments.",
         "LIST7": {

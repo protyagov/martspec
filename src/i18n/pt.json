@@ -1430,6 +1430,13 @@
             "LI6_TEXT": "Capacidade de abraçar novas ideias e experiências",
             "BTN": "Saiba Mais"
         },
+        "BANNER_5_HABITS": {
+            "HEAD": "O que determina a sua produtividade?",
+            "TEXT": "O estado do cérebro e as suas funções cognitivas são a base da sua eficácia. Eles estão diretamente relacionados à forma como você cuida de si mesmo. Descubra exatamente o que afeta o seu cérebro e recupere a sua energia e foco.",
+            "BTN": "Saiba mais",
+            "ALT": "Uma jovem medita na posição de lótus, com ícones de café, água, fruta, um livro e uma planta por cima",
+            "BREADCRUMB": "5 hábitos"
+        },
         "HEAD7": "Casos de Uso",
         "DESK7": "O teste pode medir com precisão o estado emocional, mesmo para pessoas com daltonismo. Para otimizar os resultados, escolha cores com base nas preferências atuais, deixando o subconsciente fazer o trabalho. Escolha cores com base na preferência pessoal, não em associações com objetos como carros ou prédios.",
         "LIST7": {
