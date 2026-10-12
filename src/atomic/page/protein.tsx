@@ -12,7 +12,6 @@ import CardTitleTextImage from '../molecule/card-title-text-image';
 import ImageI18N from '../atom/img-i18n';
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CardTitleTextButton from '../molecule/card-title-text-button';
-import CardTitleTextListButton from '../molecule/card-title-text-list-button';
 import BulletList from '../molecule/bullet-list';
 import ButtonApple from '../atom/button-apple';
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
@@ -65,7 +64,7 @@ export default function ProteinPage() {
         <>
             <NavigationBar />
 
-            <div className="ms-base-page protein">
+            <div className="protein-page protein">
                 <div className="row">
                     <Breadcrumb items={items} />
                 </div>
@@ -74,7 +73,7 @@ export default function ProteinPage() {
                     title={_("PROTEIN.HEAD")}
                     appId={appID}
                     appDownloadTitle={_("PROTEIN.DWN")}
-                    imgSrc="/img/page/protein/protein-header-en.webp"
+                    imgSrc="/img/page/protein/protein-header-en.avif"
                     imgAlt={_("PROTEIN.IMG")}
                     imgH={305}
                     imgW={450}
@@ -137,7 +136,7 @@ export default function ProteinPage() {
                     <div className="row d-flex align-items-center justify-content-between g-4">
                         <div className="col-12 col-xxl-6">
                             <ImageI18N
-                                src="/img/page/protein/why-protein-en.webp"
+                                src="/img/page/protein/why-protein-en.avif"
                                 w={620}
                                 h={390}
                                 alt={_("PROTEIN.IMG2_ALT")}
@@ -145,11 +144,11 @@ export default function ProteinPage() {
                             />
                         </div>
                         <div className="mt-5 pt-5 protein col-12 offset-xxl-1 col-xxl-5 order-1 order-xxl-2 pb-2">
-                            <CardTitleTextListButton
+                            <CardTitleTextButton
                                 title={_("PROTEIN.HEAD2")}
                                 description={_("PROTEIN.DESC2_1")}
                                 subtitle={_("PROTEIN.SUB_HEAD")}
-                                listItems={[
+                                textContent={[
                                     _("PROTEIN.DESC2_2"),
                                     _("PROTEIN.DESC2_3"),
                                 ]}
@@ -247,7 +246,7 @@ export default function ProteinPage() {
                         subtitle="PROTEIN.DESC5"
                         appId={appID}
                         appDownloadTitle={_("PROTEIN.DWN")}
-                        imgSrc="/img/page/protein/protein-header-en.webp"
+                        imgSrc="/img/page/protein/protein-footer-en.avif"
                         imgAlt={_("PROTEIN.IMG_CTA_ALT1")}
                     />
                 </section>

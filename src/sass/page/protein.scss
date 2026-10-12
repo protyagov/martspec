@@ -1,3 +1,44 @@
+.protein-page {
+    flex: 1 0;
+    font-size: 1.9rem;
+
+    li,
+    p {
+        font-family: os3;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .font-normal {
+        font-family: os4;
+    }
+
+    section,
+    .row {
+        @extend .ms-s-offset;
+    }
+
+    section {
+        max-width: 100%;
+        padding: 0;
+        margin: 8.8rem auto;
+
+        &.bg-gray {
+            padding: 7.7rem 0;
+        }
+
+        @include media-breakpoint-down(lg) {
+            margin: 2rem auto;
+        }
+    }
+
+    .row {
+        &.g-4 {
+            row-gap: 1.5rem;
+        }
+    }
+}
+
 .protein {
     .header li::marker {
         color: #7C53CE;

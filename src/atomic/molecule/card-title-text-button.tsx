@@ -3,6 +3,8 @@ import ButtonLinkStylePlain from "@/atomic/atom/buttonLinkStylePlain";
 
 interface Props {
     title: string;
+    description?: string;
+    subtitle?: string;
     textContent: string[];  
     buttonText: string;
     buttonLink: string;
@@ -11,6 +13,8 @@ interface Props {
 
 const CardTitleTextButton = ({
     title,
+    description,
+    subtitle,
     textContent,
     buttonText,
     buttonLink,
@@ -19,6 +23,8 @@ const CardTitleTextButton = ({
     return (
         <div className="card-title-text-button">
             <h2>{title}</h2>
+            {description && <p className="card-title-text-button__description">{description}</p>}
+            {subtitle && <h3>{subtitle}</h3>}
             <ul>
                 {textContent.map((item, index) => (
                     <li key={index} className="mb-4">
