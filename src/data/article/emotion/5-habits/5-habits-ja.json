@@ -1,6 +1,6 @@
 {
     "TITLE": "脳細胞を静かに破壊する5つの無害な習慣：その止め方",
-    "IMG_URL": "/img/page/article/5-habits-top.avif",
+    "IMG_URL": "/img/page/article/5-habits/5-habits-top.avif",
     "IMG_ALT": "医師の開いた手のひらの上に浮かぶ人間の脳のホログラム",
     "BODY": [
         {
@@ -20,7 +20,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**今日からできること：**\n\n- カフェの店員やレジの担当者と、少なくとも二、三の言葉を交わすことをルールにする。\n- イヤホンを外して、1日30分は外で過ごす。\n- 週に1回はアプリを使わず、実際のスーパーで買い物をする。\n- いつも音声メッセージに「いいね」を押すだけの友人に電話をかけてみる。",
-                "IMG_SRC": "/img/page/article/5-habits-first-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-first-habit.avif",
                 "IMG_ALT": "スマートフォンの画面の中に座る男性に手を伸ばす女性",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -36,7 +36,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "キャパシティを超えた脳は、物理的にクリエイティブな解決策を生み出すことができません。ここでパラドックスが生じます。収入を増やすために1日14時間働いているのに、認知機能が低下しているため、14時間かけて通常の8時間分の仕事しかできないのです。残業は今日の財布を潤しますが、明日の神経系を破産させます。\n\n**今日からできること：**\n\n- 仕事のタスクに対して厳格な「門限」を設ける（例：19時以降はノートパソコンを閉じる）。\n- スマートフォンのホーム画面から仕事用メールのアイコンを削除する。\n- 就寝前の2時間は一切スクリーンを見ない、というルールを導入する。",
-                "IMG_SRC": "/img/page/article/5-habits-second-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-second-habit.avif",
                 "IMG_ALT": "重いファイルの束を運ぶ男性と、そばにある時計とほぼ空のバッテリー",
                 "IMG_POSITION": "left",
                 "BG_COLOR": "#ECE9FF"
@@ -51,7 +51,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**今日からできること：**\n\n- HEPAフィルター付きの空気清浄機に投資する（クリアな頭脳を保つための最高の買い物です）。\n- 部屋の換気は、早朝か激しい雨の後にのみ行う。\n- 加湿器を導入する：空気が湿っていると、空気中に浮遊するほこりが肺に入らず、床に落ちやすくなります。",
-                "IMG_SRC": "/img/page/article/5-habits-third-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-third-habit.avif",
                 "IMG_ALT": "植物と一緒に保護ドームの中にいる男性と、その背後のスモッグに包まれた街",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -67,7 +67,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "脳の重量は体重の約2%にすぎませんが、体全体のエネルギーの最大20%を消費します。8時間の睡眠後に朝の燃料を与えないままにすると、人為的に血糖値を下げることになります。その結果は？正午頃にはイライラし、集中力はゼロになり、7桁の電話番号すら記憶に留められなくなります。健康的な断続的断食において、朝食を抜くことは必須ではありません。\n\n**今日からできること：**\n\n- 夕食の時間を早めて、自然な食欲とともに目覚められるようにする。\n- 「遅い」エネルギーになる朝食を用意する：卵、アボカド、全粒粉パン、または調理時間の長いオートミールなど。速い炭水化物（クロワッサンなど）は、わずか40分間しかエネルギーの急増をもたらしません。",
-                "IMG_SRC": "/img/page/article/5-habits-forth-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-forth-habit.avif",
                 "IMG_ALT": "コーヒーを手に急ぎながら時計を見る男性と、手つかずの朝食",
                 "IMG_POSITION": "left",
                 "BG_COLOR": "#ECE9FF"
@@ -82,7 +82,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**今日からできること：**\n\n- 透明なガラスの水筒をキーボードのすぐ前に置く（私たちは視界に入ったものを飲む傾向があります）。\n- SNSをチェックする前に、朝一番でコップ1杯の白湯を飲む。\n- 日中に飲むお茶の一部を、レモンを添えたただの水に置き換える。",
-                "IMG_SRC": "/img/page/article/5-habits-fifth-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-fifth-habit.avif",
                 "IMG_ALT": "水滴が表示された大きなスマートフォンのそばで水を飲む男性",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -99,12 +99,12 @@
             "MEDIA_PANEL": {
                 "TITLE": "### まとめ：ニューロンを救うチェックリスト",
                 "CONTENT": "- **孤立を克服する**  \n**問題：** 孤立は神経回路の萎縮を招く  \n**解決策：** 見知らぬ人と短い会話を交わす\n- **燃え尽き（バーンアウト）を防ぐ**  \n**問題：** 過労は認知機能の枯渇を引き起こす  \n**解決策：** 19時にデジタル機器をオフにする\n- **きれいな空気に気を配る**  \n**問題：** 汚れた空気は組織の微小な炎症を誘発する  \n**解決策：** 家でHEPAフィルターを使用する\n- **朝の食事を正常化する**  \n**問題：** ちゃんとした食事の代わりにコーヒーだけを飲むとブドウ糖が不足する  \n**解決策：** タンパク質と脂質を多く含むしっかりとした朝食をとる\n- **水分のバランスを取り戻す**  \n**問題：** 水分不足により脳細胞が2%収縮する  \n**解決策：** きれいな水を入れたボトルを目の前に置く",
-                "IMG_SRC": "/img/page/article/5-habits-summary.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-summary.avif",
                 "IMG_ALT": "チェック済みの項目、ハート、脳のアイコンが描かれたクリップボードのチェックリスト",
                 "IMG_POSITION": "right",
                 "BG_COLOR": "#F4F5F8",
                 "LIST_STYLE": "check",
-                "DECOR_SRC": "/img/page/article/5-habits-summary-bg.svg",
+                "DECOR_SRC": "/img/page/article/5-habits/5-habits-summary-bg.svg",
                 "WIDE_CONTENT": true
             }
         },
@@ -120,10 +120,10 @@
                     "TITLE": "### アプリ「Emotion（感情）」でストレスをデジタル化する",
                     "CONTENT": "測定できないものを管理することは不可能です。アプリ「Emotion」は、あなた自身の神経系のパーソナル・ダッシュボードとして作られており、自分自身を誤魔化すことを防ぎます。\n\n長くて退屈なアンケートの代わりに、このアプリは潜在意識に働きかけるメソッドを使用します。例えば、たった1分で終わる簡単なカラーテスト「感情 — 感情と魂の色」などです。色の組み合わせに対する私たちの反応は、何千年にもわたる進化の過程で形成されたものであり、意志の力でごまかすことはできません。\n\n**このアプリが提供するもの：**\n\n- **感情状態の客観的な分析**  \n脳が単に「疲れている」だけなのか、それとも臨床的なバーンアウトの一歩手前にあるのかを正確に把握できます。\n- **神経的緊張のトラッキング**  \n隠れた潜在的なストレスが心身症に発展する前に、それを追跡することができます。\n- **習慣との明確な関連性**  \n昨晩遅くまでの仕事や朝食を抜いたことが、今日のあなたの生産性を具体的にどう低下させたかを、グラフがはっきりと示してくれます。",
                     "BG_COLOR": "#ECE9FF",
-                    "IMG_SRC": "/img/page/article/5-habits-emotion-phone.avif",
+                    "IMG_SRC": "/img/page/article/5-habits/5-habits-emotion-phone.avif",
                     "IMG_ALT": "1か月の感情の状態をグラフで表示するアプリ「Emotion（感情）」の画面",
-                    "BG_IMAGE": "/img/page/article/5-habits-emotion-bg.avif",
-                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits-emotion-bg-mob.avif",
+                    "BG_IMAGE": "/img/page/article/5-habits/5-habits-emotion-bg.avif",
+                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits/5-habits-emotion-bg-mob.avif",
                     "APP": "emotion",
                     "LIST_STYLE": "check"
                 },
@@ -131,10 +131,10 @@
                     "TITLE": "### アプリ「Energy（エネルギー）」でバイオリズムを整える",
                     "CONTENT": "リソースが漏れ出している「穴」を見つけたら、体には燃料が必要です。この段階で多くの人が間違いを犯します。何リットルものコーヒーを飲んだり、エナジードリンクやスマートドラッグ（向知性薬）を買ったりするのです。しかし、興奮剤はエネルギーを与えてはくれません。莫大な利子をつけて「明日の自分」からエネルギーを前借りしているだけなのです。\n\nアプリ「Energy」は、根本的に異なるアプローチ、すなわち薬を使わないバイオハッキングを提案します。これは、健康的な習慣を無理なく取り入れることだけに特化した、スマートなトラッカーです。\n\n**機能の仕組み：**\n\n- **化学物質や興奮剤は一切不使用**  \n水分バランス、睡眠サイクル、栄養、デジタルの休憩など、基本的な生理機能を整えます。\n- **無理をするのではなく、小さなステップで**  \nアルゴリズムは、脳がそれをストレス（負担）と感じないほど自然に、有益な行動を取り入れるよう提案します。\n- **蓄積効果**  \n自然なエネルギーを回復させ、本来の人間が持つクリアで活力ある朝の目覚めを取り戻します。",
                     "BG_COLOR": "#FFECED",
-                    "IMG_SRC": "/img/page/article/5-habits-energy-phone.avif",
+                    "IMG_SRC": "/img/page/article/5-habits/5-habits-energy-phone.avif",
                     "IMG_ALT": "アクティブなミッションの一覧を表示するアプリ「Energy（エネルギー）」の画面",
-                    "BG_IMAGE": "/img/page/article/5-habits-energy-bg.avif",
-                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits-energy-bg-mob.avif",
+                    "BG_IMAGE": "/img/page/article/5-habits/5-habits-energy-bg.avif",
+                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits/5-habits-energy-bg-mob.avif",
                     "APP": "energy",
                     "LIST_STYLE": "check"
                 }

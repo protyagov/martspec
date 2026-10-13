@@ -1,6 +1,6 @@
 {
     "TITLE": "5个在不知不觉中扼杀脑细胞的看似无害的习惯：如何阻止这一切",
-    "IMG_URL": "/img/page/article/5-habits-top.avif",
+    "IMG_URL": "/img/page/article/5-habits/5-habits-top.avif",
     "IMG_ALT": "医生摊开的手掌上方漂浮着人脑全息影像",
     "BODY": [
         {
@@ -20,7 +20,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**今天就可以做的事：**\n\n- 养成至少与咖啡师或收银员聊上几句的习惯。\n- 每天不戴耳机在户外待30分钟。\n- 每周去实体超市买一次东西，而不是通过手机软件下单。\n- 给您通常只会给其语音留言点赞的朋友打个电话。",
-                "IMG_SRC": "/img/page/article/5-habits-first-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-first-habit.avif",
                 "IMG_ALT": "一位女孩向坐在智能手机屏幕里的男孩伸出手",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -36,7 +36,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "超负荷的大脑在生理上是无法想出创意方案的。这就产生了一个悖论：您每天工作14个小时是为了赚更多的钱，但由于认知能力下降，您这14个小时里完成的工作量仅仅相当于正常的8小时工作日。加班今天填饱了您的钱包，明天却会让您的神经系统破产。\n\n**今天就可以做的事：**\n\n- 为工作任务设定严格的“宵禁”（例如，晚上19:00后关闭笔记本电脑）。\n- 从智能手机的主屏幕上移除工作邮箱。\n- 强制执行一条规则：睡前2小时绝对不看任何屏幕。完全不看。",
-                "IMG_SRC": "/img/page/article/5-habits-second-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-second-habit.avif",
                 "IMG_ALT": "一名男子扛着一摞沉重的文件夹，旁边是时钟和电量几乎耗尽的电池",
                 "IMG_POSITION": "left",
                 "BG_COLOR": "#ECE9FF"
@@ -51,7 +51,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**今天就可以做的事：**\n\n- 投资一台带有HEPA滤网的空气净化器（这是为了保持头脑清醒而做出的最佳消费）。\n- 仅在清晨或大雨过后才开窗通风。\n- 购置一台加湿器：湿润的空气会让悬浮的灰尘沉降到地板上，而不是进入您的肺部。",
-                "IMG_SRC": "/img/page/article/5-habits-third-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-third-habit.avif",
                 "IMG_ALT": "一名男子站在带有植物的保护罩下，身后是笼罩在雾霾中的城市",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -67,7 +67,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "大脑消耗人体高达20%的能量，尽管它的重量仅占约2%。在经历了8小时的睡眠后，如果不给它提供早晨的燃料，您就是在人为地拉低血糖水平。结果呢？到了中午就会感到烦躁，注意力为零，甚至记不住一个七位数的电话号码。健康的间歇性断食并不意味着必须不吃早餐。\n\n**今天就可以做的事：**\n\n- 把晚餐时间提前，这样早上醒来时就会有自然的食欲。\n- 准备一份“慢能量”早餐：鸡蛋、牛油果、全麦面包或需要慢煮的燕麦粥。快速碳水化合物（如牛角面包）只能提供正好维持40分钟的能量激增。",
-                "IMG_SRC": "/img/page/article/5-habits-forth-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-forth-habit.avif",
                 "IMG_ALT": "一名男子手拿咖啡匆忙看表，旁边是一份没动过的早餐",
                 "IMG_POSITION": "left",
                 "BG_COLOR": "#ECE9FF"
@@ -82,7 +82,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**今天就可以做的事：**\n\n- 在键盘正前方放一个透明的玻璃水瓶（我们往往会喝视野范围内的东西）。\n- 早上在查看社交媒体之前，先喝一杯温水。\n- 把白天喝的部分茶水替换成加了柠檬片的纯净水。",
-                "IMG_SRC": "/img/page/article/5-habits-fifth-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-fifth-habit.avif",
                 "IMG_ALT": "一名男子在一部大智能手机旁喝水，屏幕上有一滴水",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -99,12 +99,12 @@
             "MEDIA_PANEL": {
                 "TITLE": "### 总结：拯救神经元的检查清单",
                 "CONTENT": "- **战胜孤独**  \n**问题：** 孤独导致神经连接萎缩  \n**解药：** 与陌生人进行简短的交谈\n- **防止倦怠**  \n**问题：** 过度工作引发认知耗竭  \n**解药：** 晚上19:00实行“数字熄灯”\n- **关注空气净化**  \n**问题：** 脏空气引发组织微发炎  \n**解药：** 在家里使用HEPA滤网\n- **规范早间饮食**  \n**问题：** 用咖啡代替丰盛的食物会造成葡萄糖缺乏  \n**解药：** 做一份富含蛋白质和优质脂肪的丰盛早餐\n- **恢复水分平衡**  \n**问题：** 缺水会导致脑细胞萎缩2%  \n**解药：** 把一瓶纯净水放在眼前",
-                "IMG_SRC": "/img/page/article/5-habits-summary.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-summary.avif",
                 "IMG_ALT": "写字板上的检查清单，带有已勾选的项目、一颗心和一个大脑图标",
                 "IMG_POSITION": "right",
                 "BG_COLOR": "#F4F5F8",
                 "LIST_STYLE": "check",
-                "DECOR_SRC": "/img/page/article/5-habits-summary-bg.svg",
+                "DECOR_SRC": "/img/page/article/5-habits/5-habits-summary-bg.svg",
                 "WIDE_CONTENT": true
             }
         },
@@ -120,10 +120,10 @@
                     "TITLE": "### 使用“情绪”(Emotion) 应用程序将压力数字化",
                     "CONTENT": "无法测量，就无法管理。“情绪”APP 被设计成您神经系统的个人仪表盘，它不会让您自欺欺人。\n\n该应用不使用冗长乏味的问卷，而是采用与潜意识互动的方法——例如，只需1分钟的“情绪——感觉与灵魂的颜色”快速色彩测试。我们对色彩组合的反应是经过几千年的进化形成的，无法凭借意志力来伪装。\n\n**该应用能提供什么：**\n\n- **对情绪状态的客观剖析**  \n您能清楚地知道大脑什么时候只是“累了”，什么时候又处于临床倦怠的边缘。\n- **神经紧张追踪**  \n可以在隐藏的背景压力演变成身心疾病之前追踪到它。\n- **与习惯的直观联系**  \n图表能清晰地向您展示昨晚熬夜工作或今天不吃早餐是如何摧毁您今天的生产力的。",
                     "BG_COLOR": "#ECE9FF",
-                    "IMG_SRC": "/img/page/article/5-habits-emotion-phone.avif",
+                    "IMG_SRC": "/img/page/article/5-habits/5-habits-emotion-phone.avif",
                     "IMG_ALT": "“情绪”(Emotion) 应用程序界面，显示每月情绪状态图表",
-                    "BG_IMAGE": "/img/page/article/5-habits-emotion-bg.avif",
-                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits-emotion-bg-mob.avif",
+                    "BG_IMAGE": "/img/page/article/5-habits/5-habits-emotion-bg.avif",
+                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits/5-habits-emotion-bg-mob.avif",
                     "APP": "emotion",
                     "LIST_STYLE": "check"
                 },
@@ -131,10 +131,10 @@
                     "TITLE": "### 使用“能量”(Energy) 应用程序调节您的生物节律",
                     "CONTENT": "当发现了导致资源流失的“漏洞”后，身体就需要补充燃料。在这个阶段，大多数人都会犯一个错误：喝大量的咖啡，购买能量饮料或促智药。但是兴奋剂并不能给您带来能量——它们只是以极高的利息向您的明天借用能量。\n\n“能量”APP 提供了一种截然不同的方法：不依赖药物的生物黑客技术 (Biohacking)。这是一款智能追踪器，专门致力于温和地培养健康习惯。\n\n**它是如何运作的：**\n\n- **零化学物质和兴奋剂**  \n该应用能调节您的基本生理指标：水分平衡、睡眠周期、营养摄入和数字暂停。\n- **循序渐进的微小步骤，而非强迫自己**  \n算法建议自然地融入有益的行动，大脑甚至不会将其视为压力负荷。\n- **累积效应**  \n恢复您的自然能量，找回大自然赋予您的那种清晨清醒的活力。",
                     "BG_COLOR": "#FFECED",
-                    "IMG_SRC": "/img/page/article/5-habits-energy-phone.avif",
+                    "IMG_SRC": "/img/page/article/5-habits/5-habits-energy-phone.avif",
                     "IMG_ALT": "“能量”(Energy) 应用程序界面，显示进行中的任务列表",
-                    "BG_IMAGE": "/img/page/article/5-habits-energy-bg.avif",
-                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits-energy-bg-mob.avif",
+                    "BG_IMAGE": "/img/page/article/5-habits/5-habits-energy-bg.avif",
+                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits/5-habits-energy-bg-mob.avif",
                     "APP": "energy",
                     "LIST_STYLE": "check"
                 }

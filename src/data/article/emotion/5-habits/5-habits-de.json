@@ -1,6 +1,6 @@
 {
     "TITLE": "5 harmlose Gewohnheiten, die unbemerkt Gehirnzellen abtöten: So stoppen Sie es",
-    "IMG_URL": "/img/page/article/5-habits-top.avif",
+    "IMG_URL": "/img/page/article/5-habits/5-habits-top.avif",
     "IMG_ALT": "Hologramm eines menschlichen Gehirns über der offenen Handfläche eines Arztes",
     "BODY": [
         {
@@ -20,7 +20,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**Was Sie heute noch tun können:**\n\n- Machen Sie es sich zur Regel, zumindest ein paar Worte mit dem Barista oder dem Kassierer zu wechseln.\n- Verbringen Sie täglich 30 Minuten ohne Kopfhörer an der frischen Luft.\n- Kaufen Sie einmal pro Woche in einem echten Supermarkt ein, anstatt über eine App zu bestellen.\n- Rufen Sie einen Freund an, dessen Sprachnachrichten Sie normalerweise nur liken.",
-                "IMG_SRC": "/img/page/article/5-habits-first-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-first-habit.avif",
                 "IMG_ALT": "Eine junge Frau streckt die Hand nach einem jungen Mann aus, der im Bildschirm eines Smartphones sitzt",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -36,7 +36,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "Ein überlastetes Gehirn ist physisch nicht in der Lage, kreative Lösungen hervorzubringen. Es entsteht ein Paradoxon: Sie arbeiten 14 Stunden am Tag, um mehr zu verdienen, aber aufgrund der gesunkenen kognitiven Leistungsfähigkeit schaffen Sie in diesen 14 Stunden nur das Pensum eines Achtstundentages. Überstunden füllen heute Ihren Geldbeutel, treiben aber morgen Ihr Nervensystem in den Ruin.\n\n**Was Sie heute noch tun können:**\n\n- Richten Sie eine strenge „Sperrstunde“ für Arbeitsaufgaben ein (z. B. nach 19:00 Uhr wird der Laptop zugeklappt).\n- Entfernen Sie die geschäftliche E-Mail-App vom Startbildschirm Ihres Smartphones.\n- Führen Sie folgende Regel ein: Keine Bildschirme in den 2 Stunden vor dem Schlafengehen. Ausnahmslos.",
-                "IMG_SRC": "/img/page/article/5-habits-second-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-second-habit.avif",
                 "IMG_ALT": "Ein Mann trägt einen schweren Stapel Ordner, daneben eine Uhr und ein fast leerer Akku",
                 "IMG_POSITION": "left",
                 "BG_COLOR": "#ECE9FF"
@@ -51,7 +51,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**Was Sie heute noch tun können:**\n\n- Investieren Sie in einen Luftreiniger mit HEPA-Filter (das ist die beste Anschaffung für einen klaren Verstand).\n- Lüften Sie die Wohnung nur am frühen Morgen oder nach einem starken Regen.\n- Schaffen Sie sich einen Luftbefeuchter an: Feuchte Luft sorgt dafür, dass sich Schwebstaub auf dem Boden absetzt und nicht in Ihre Lungen gelangt.",
-                "IMG_SRC": "/img/page/article/5-habits-third-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-third-habit.avif",
                 "IMG_ALT": "Ein Mann unter einer schützenden Kuppel mit einer Pflanze, hinter ihm eine Stadt in einer Smogwolke",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -67,7 +67,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "Das Gehirn verbraucht bis zu 20 % der gesamten Körperenergie, obwohl es nur etwa 2 % des Körpergewichts ausmacht. Wenn Sie es nach 8 Stunden Schlaf ohne morgendlichen Treibstoff lassen, senken Sie den Blutzuckerspiegel künstlich ab. Das Ergebnis? Reizbarkeit bis zur Mittagszeit, null Konzentration und die Unfähigkeit, sich eine siebenstellige Telefonnummer zu merken. Gesundes Intervallfasten schließt ein Frühstück nicht zwingend aus.\n\n**Was Sie heute noch tun können:**\n\n- Verlegen Sie das Abendessen auf eine frühere Zeit, um morgens mit einem natürlichen Appetit aufzuwachen.\n- Stellen Sie ein „langsames“ Frühstück zusammen: Eier, Avocado, Vollkornbrot oder Haferbrei. Schnelle Kohlenhydrate (wie ein Croissant) liefern Ihnen lediglich einen Energieschub für genau 40 Minuten.",
-                "IMG_SRC": "/img/page/article/5-habits-forth-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-forth-habit.avif",
                 "IMG_ALT": "Ein Mann eilt mit Kaffee in der Hand und schaut auf die Uhr, daneben ein unberührtes Frühstück",
                 "IMG_POSITION": "left",
                 "BG_COLOR": "#ECE9FF"
@@ -82,7 +82,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**Was Sie heute noch tun können:**\n\n- Stellen Sie eine transparente Glasflasche mit Wasser direkt vor Ihre Tastatur (wir trinken das, was sich in unserem direkten Sichtfeld befindet).\n- Beginnen Sie den Morgen mit einem Glas warmem Wasser, noch bevor Sie Ihre Social-Media-Kanäle checken.\n- Ersetzen Sie einen Teil Ihres täglichen Teekonsums durch einfaches Wasser mit einer Scheibe Zitrone.",
-                "IMG_SRC": "/img/page/article/5-habits-fifth-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-fifth-habit.avif",
                 "IMG_ALT": "Ein Mann trinkt Wasser neben einem großen Smartphone mit einem Wassertropfen auf dem Bildschirm",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -99,12 +99,12 @@
             "MEDIA_PANEL": {
                 "TITLE": "### Zusammenfassung: Checkliste zur Rettung der Neuronen",
                 "CONTENT": "- **Isolation überwinden**  \n**Problem:** Isolation führt zur Atrophie neuronaler Verbindungen.  \n**Gegenmittel:** Ein kurzes Gespräch mit einem Fremden beginnen.\n- **Vor Burnout schützen**  \n**Problem:** Überstunden verursachen kognitive Erschöpfung.  \n**Gegenmittel:** Um 19:00 Uhr einen digitalen Feierabend einlegen.\n- **Für saubere Luft sorgen**  \n**Problem:** Verschmutzte Luft provoziert Mikroentzündungen des Gewebes.  \n**Gegenmittel:** Einen HEPA-Filter zu Hause verwenden.\n- **Morgendliche Ernährung normalisieren**  \n**Problem:** Kaffee statt einer vollwertigen Mahlzeit erzeugt ein Glukosedefizit.  \n**Gegenmittel:** Ein vollwertiges Eiweiß-Fett-Frühstück zubereiten.\n- **Wasserhaushalt wiederherstellen**  \n**Problem:** Wassermangel führt dazu, dass die Gehirnzellen um 2 % schrumpfen.  \n**Gegenmittel:** Eine Flasche reines Wasser direkt ins Sichtfeld stellen.",
-                "IMG_SRC": "/img/page/article/5-habits-summary.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-summary.avif",
                 "IMG_ALT": "Eine Checkliste auf einem Klemmbrett mit einem abgehakten Punkt, einem Herz und einem Gehirn-Symbol",
                 "IMG_POSITION": "right",
                 "BG_COLOR": "#F4F5F8",
                 "LIST_STYLE": "check",
-                "DECOR_SRC": "/img/page/article/5-habits-summary-bg.svg",
+                "DECOR_SRC": "/img/page/article/5-habits/5-habits-summary-bg.svg",
                 "WIDE_CONTENT": true
             }
         },
@@ -120,10 +120,10 @@
                     "TITLE": "### Digitalisieren Sie Stress mit der App „Emotziya“",
                     "CONTENT": "Man kann nicht steuern, was man nicht misst. Die App „Emotziya“ wurde als persönliches Dashboard Ihres Nervensystems entwickelt, das verhindert, dass Sie sich selbst belügen.\n\nStatt langer, monotoner Fragebögen nutzt die App Methoden, die das Unterbewusstsein ansprechen – zum Beispiel den schnellen Farbtest „Emotion – Farbe der Gefühle und der Seele“, der exakt 1 Minute dauert. Unsere Reaktion auf Farben wurde durch Jahrtausende der Evolution geprägt und lässt sich durch bloße Willenskraft nicht vortäuschen.\n\n**Was die App bietet:**\n\n- **Einen objektiven Überblick über den emotionalen Zustand**  \nSie wissen genau, wann das Gehirn einfach nur „müde“ ist und wann es sich nur noch einen Schritt vom klinischen Burnout entfernt befindet.\n- **Tracking der nervlichen Anspannung**  \nErmöglicht es, versteckten Hintergrundstress aufzuspüren, bevor er sich psychosomatisch äußert.\n- **Veranschaulichung der Verbindung zu Gewohnheiten**  \nDiagramme zeigen Ihnen deutlich, wie genau die gestrige Arbeit bis in die Nacht oder das ausgelassene Frühstück heute Ihre Produktivität ruiniert haben.",
                     "BG_COLOR": "#ECE9FF",
-                    "IMG_SRC": "/img/page/article/5-habits-emotion-phone.avif",
+                    "IMG_SRC": "/img/page/article/5-habits/5-habits-emotion-phone.avif",
                     "IMG_ALT": "Bildschirm der App „Emotziya“ mit einem Monatsdiagramm des emotionalen Zustands",
-                    "BG_IMAGE": "/img/page/article/5-habits-emotion-bg.avif",
-                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits-emotion-bg-mob.avif",
+                    "BG_IMAGE": "/img/page/article/5-habits/5-habits-emotion-bg.avif",
+                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits/5-habits-emotion-bg-mob.avif",
                     "APP": "emotion",
                     "LIST_STYLE": "check"
                 },
@@ -131,10 +131,10 @@
                     "TITLE": "### Passen Sie Ihre Biorhythmen mit der App „Energiya“ an",
                     "CONTENT": "Wenn die „Lecks“, durch die Ihre Ressourcen abfließen, gefunden sind, braucht der Körper Treibstoff. In dieser Phase machen die meisten Menschen einen Fehler: Sie trinken literweise Kaffee, kaufen Energy-Drinks oder Nootropika. Aber Aufputschmittel spenden keine Energie – sie leihen sie sich lediglich von Ihrem morgigen Tag zu einem enormen Zinssatz.\n\nDie App „Energiya“ bietet einen grundlegend anderen Ansatz: Biohacking ohne Apotheke. Es handelt sich um einen smarten Tracker, der ausschließlich auf die schonende Integration gesunder Gewohnheiten ausgerichtet ist.\n\n**Wie es funktioniert:**\n\n- **Keine Chemie und keine Aufputschmittel**  \nDie App optimiert die grundlegende Physiologie: Wasserhaushalt, Schlafzyklen, Ernährung und digitale Pausen.\n- **Mikroschritte statt Zwang**  \nDie Algorithmen schlagen vor, nützliche Handlungen so organisch zu integrieren, dass das Gehirn sie nicht als Stressbelastung wahrnimmt.\n- **Kumulativer Effekt**  \nStellt die natürliche Energie wieder her und bringt jene klare, morgendliche Frische zurück, die von der Natur vorgesehen ist.",
                     "BG_COLOR": "#FFECED",
-                    "IMG_SRC": "/img/page/article/5-habits-energy-phone.avif",
+                    "IMG_SRC": "/img/page/article/5-habits/5-habits-energy-phone.avif",
                     "IMG_ALT": "Bildschirm der App „Energiya“ mit einer Liste aktiver Missionen",
-                    "BG_IMAGE": "/img/page/article/5-habits-energy-bg.avif",
-                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits-energy-bg-mob.avif",
+                    "BG_IMAGE": "/img/page/article/5-habits/5-habits-energy-bg.avif",
+                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits/5-habits-energy-bg-mob.avif",
                     "APP": "energy",
                     "LIST_STYLE": "check"
                 }

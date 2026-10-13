@@ -436,7 +436,7 @@ export default function Emotion() {
 
                             <div className="col-lg-6 d-flex justify-content-end align-items-end">
                                 <ImageI18N
-                                    src="/img/page/emotion/5-habits-banner.avif"
+                                    src="/img/page/article/5-habits/5-habits-banner.avif"
                                     w={463}
                                     h={476}
                                     cls="ms-base-image mt-mob-xs m-0 img-fluid"

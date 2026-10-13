@@ -1,6 +1,6 @@
 {
     "TITLE": "5 hábitos inofensivos que destroem as células do cérebro silenciosamente: como evitar isso",
-    "IMG_URL": "/img/page/article/5-habits-top.avif",
+    "IMG_URL": "/img/page/article/5-habits/5-habits-top.avif",
     "IMG_ALT": "Holograma de um cérebro humano sobre a palma aberta de um médico",
     "BODY": [
         {
@@ -20,7 +20,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**O que fazer ainda hoje:**\n\n- Faça questão de trocar pelo menos algumas palavras com o barista ou o operador de caixa.\n- Passe 30 minutos por dia ao ar livre sem usar fones de ouvido.\n- Uma vez por semana, faça as suas compras num supermercado físico em vez de usar uma aplicação.\n- Ligue para aquele amigo a quem normalmente apenas deixa um \"gosto\" nas mensagens de voz.",
-                "IMG_SRC": "/img/page/article/5-habits-first-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-first-habit.avif",
                 "IMG_ALT": "Uma jovem estende a mão para um jovem sentado dentro do ecrã de um smartphone",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -36,7 +36,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "Um cérebro sobrecarregado é fisicamente incapaz de gerar soluções criativas. Surge assim um paradoxo: trabalha 14 horas por dia para ganhar mais dinheiro, mas, devido à quebra na capacidade cognitiva, produz nessas 14 horas o equivalente ao volume de um dia normal de 8 horas. Fazer horas extraordinárias pode encher a carteira hoje, mas levará o seu sistema nervoso à falência amanhã.\n\n**O que fazer ainda hoje:**\n\n- Estabeleça um \"recolher obrigatório\" rigoroso para as tarefas profissionais (por exemplo, fechar o portátil depois das 19:00).\n- Remova o e-mail de trabalho do ecrã principal do seu smartphone.\n- Implemente uma regra de ouro: zero ecrãs 2 horas antes de dormir. De todo.",
-                "IMG_SRC": "/img/page/article/5-habits-second-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-second-habit.avif",
                 "IMG_ALT": "Um homem carrega uma pilha pesada de pastas, ao lado de um relógio e de uma bateria quase vazia",
                 "IMG_POSITION": "left",
                 "BG_COLOR": "#ECE9FF"
@@ -51,7 +51,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**O que fazer ainda hoje:**\n\n- Invista num purificador de ar com filtro HEPA (será a sua melhor compra para manter a mente lúcida).\n- Areje a casa apenas de manhã cedo ou após uma chuva forte.\n- Adquira um humidificador: o ar húmido faz com que as partículas de pó em suspensão assentem no chão, em vez de irem parar aos seus pulmões.",
-                "IMG_SRC": "/img/page/article/5-habits-third-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-third-habit.avif",
                 "IMG_ALT": "Um homem sob uma cúpula protetora com uma planta e, atrás dele, uma cidade numa nuvem de smog",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -67,7 +67,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "O cérebro consome até 20% de toda a energia do organismo, embora represente apenas cerca de 2% do seu peso. Ao deixá-lo sem o combustível matinal após 8 horas de sono, reduz artificialmente os níveis de glicose. O resultado? Irritabilidade perto do meio-dia, zero concentração e a incapacidade de memorizar um número de telefone de sete dígitos. O jejum intermitente saudável não tem de excluir o pequeno-almoço.\n\n**O que fazer ainda hoje:**\n\n- Antecipe o seu jantar para acordar com um apetite natural.\n- Prepare um pequeno-almoço de \"energia lenta\": ovos, abacate, pão integral ou papas de aveia de longa cozedura. Os hidratos de carbono rápidos (como um croissant) darão um pico de energia que dura exatamente 40 minutos.",
-                "IMG_SRC": "/img/page/article/5-habits-forth-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-forth-habit.avif",
                 "IMG_ALT": "Um homem apressado, com um café na mão, olha para o relógio, ao lado de um pequeno-almoço intocado",
                 "IMG_POSITION": "left",
                 "BG_COLOR": "#ECE9FF"
@@ -82,7 +82,7 @@
             "BG_COLOR": "",
             "MEDIA_PANEL": {
                 "CONTENT": "**O que fazer ainda hoje:**\n\n- Coloque uma garrafa de vidro transparente com água mesmo à frente do teclado (nós bebemos aquilo que está no nosso campo de visão).\n- Comece a manhã com um copo de água morna antes sequer de verificar as redes sociais.\n- Substitua parte dos chás que bebe ao longo do dia por água normal com uma rodela de limão.",
-                "IMG_SRC": "/img/page/article/5-habits-fifth-habit.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-fifth-habit.avif",
                 "IMG_ALT": "Um homem bebe água junto a um smartphone grande com uma gota de água no ecrã",
                 "IMG_POSITION": "right",
                 "IMG_FIRST_ON_MOBILE": true,
@@ -99,12 +99,12 @@
             "MEDIA_PANEL": {
                 "TITLE": "### Resumo: Checklist para salvar os seus neurónios",
                 "CONTENT": "- **Vencer o isolamento**  \n**Problema:** o isolamento leva à atrofia das ligações neurais.  \n**Antídoto:** iniciar uma breve conversa com um estranho.\n- **Proteger-se contra o burnout**  \n**Problema:** o excesso de trabalho causa exaustão cognitiva.  \n**Antídoto:** estabelecer um recolher obrigatório digital às 19:00.\n- **Cuidar da pureza do ar**  \n**Problema:** o ar poluído provoca microinflamações nos tecidos.  \n**Antídoto:** utilizar um filtro HEPA em casa.\n- **Normalizar a alimentação matinal**  \n**Problema:** o café em vez de uma refeição adequada cria um défice de glicose.  \n**Antídoto:** preparar um pequeno-almoço completo, rico em proteínas e gorduras boas.\n- **Restaurar o equilíbrio hídrico**  \n**Problema:** a falta de água faz com que as células cerebrais encolham em 2%.  \n**Antídoto:** colocar uma garrafa de água limpa mesmo à frente dos olhos.",
-                "IMG_SRC": "/img/page/article/5-habits-summary.avif",
+                "IMG_SRC": "/img/page/article/5-habits/5-habits-summary.avif",
                 "IMG_ALT": "Uma checklist numa prancheta com um item assinalado, um coração e um ícone de cérebro",
                 "IMG_POSITION": "right",
                 "BG_COLOR": "#F4F5F8",
                 "LIST_STYLE": "check",
-                "DECOR_SRC": "/img/page/article/5-habits-summary-bg.svg",
+                "DECOR_SRC": "/img/page/article/5-habits/5-habits-summary-bg.svg",
                 "WIDE_CONTENT": true
             }
         },
@@ -120,10 +120,10 @@
                     "TITLE": "### Digitalize o seu stress com a aplicação \"Emoção\"",
                     "CONTENT": "É impossível gerir aquilo que não se mede. A aplicação \"Emoção\" foi criada como um painel de controlo pessoal para o seu sistema nervoso, que não permitirá que se engane a si mesmo.\n\nEm vez de questionários longos e aborrecidos, a aplicação utiliza métodos de interação com o subconsciente — como, por exemplo, o teste rápido \"Emoção — A Cor dos Sentidos e da Alma\", que demora exatamente 1 minuto. A nossa reação à paleta de cores foi moldada por milénios de evolução; é impossível simulá-la apenas com a força de vontade.\n\n**O que a aplicação oferece:**\n\n- **Um raio-x objetivo do seu estado emocional**  \nSaberá exatamente quando o seu cérebro está apenas \"cansado\" e quando está a um passo do burnout clínico.\n- **Monitorização da tensão nervosa**  \nPermite rastrear o stress de fundo oculto antes que este se transforme num problema psicossomático.\n- **Ligação visual com os seus hábitos**  \nOs gráficos mostram claramente como o facto de ter trabalhado até tarde ontem ou ter saltado o pequeno-almoço arruinou a sua produtividade de hoje.",
                     "BG_COLOR": "#ECE9FF",
-                    "IMG_SRC": "/img/page/article/5-habits-emotion-phone.avif",
+                    "IMG_SRC": "/img/page/article/5-habits/5-habits-emotion-phone.avif",
                     "IMG_ALT": "Ecrã da aplicação \"Emoção\" com um gráfico mensal do estado emocional",
-                    "BG_IMAGE": "/img/page/article/5-habits-emotion-bg.avif",
-                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits-emotion-bg-mob.avif",
+                    "BG_IMAGE": "/img/page/article/5-habits/5-habits-emotion-bg.avif",
+                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits/5-habits-emotion-bg-mob.avif",
                     "APP": "emotion",
                     "LIST_STYLE": "check"
                 },
@@ -131,10 +131,10 @@
                     "TITLE": "### Regule os seus biorritmos com a aplicação \"Energia\"",
                     "CONTENT": "Quando se descobrem as \"fugas\" por onde os seus recursos se esvaem, o corpo precisa de combustível. É nesta fase que a maioria das pessoas comete um erro: bebem litros de café e compram bebidas energéticas ou nootrópicos. No entanto, os estimulantes não lhe dão energia — apenas a pedem emprestada ao seu dia de amanhã, a uma taxa de juros colossal.\n\nA aplicação \"Energia\" propõe uma abordagem radicalmente diferente: um biohacking sem farmácia. É um monitorizador inteligente focado exclusivamente na integração cuidadosa de hábitos saudáveis.\n\n**Como funciona:**\n\n- **Zero químicos e estimulantes**  \nA aplicação ajusta a sua fisiologia básica: equilíbrio hídrico, ciclos de sono, nutrição e pausas digitais.\n- **Micro-passos em vez de se forçar**  \nOs algoritmos sugerem a implementação de ações benéficas de forma tão orgânica que o cérebro não as encara como uma carga de stress.\n- **Efeito cumulativo**  \nRestaura a sua energia natural, devolvendo-lhe o vigor matinal claro e lúcido com o qual a natureza o dotou.",
                     "BG_COLOR": "#FFECED",
-                    "IMG_SRC": "/img/page/article/5-habits-energy-phone.avif",
+                    "IMG_SRC": "/img/page/article/5-habits/5-habits-energy-phone.avif",
                     "IMG_ALT": "Ecrã da aplicação \"Energia\" com a lista de missões ativas",
-                    "BG_IMAGE": "/img/page/article/5-habits-energy-bg.avif",
-                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits-energy-bg-mob.avif",
+                    "BG_IMAGE": "/img/page/article/5-habits/5-habits-energy-bg.avif",
+                    "BG_IMAGE_MOBILE": "/img/page/article/5-habits/5-habits-energy-bg-mob.avif",
                     "APP": "energy",
                     "LIST_STYLE": "check"
                 }
