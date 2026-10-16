@@ -87,6 +87,10 @@
          <changefreq>monthly</changefreq>
    </url>
    <url>
+         <loc>https://martspec.com/vitamin/protein</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
          <loc>https://martspec.com/vitamin/chloride</loc>
          <changefreq>monthly</changefreq>
    </url>
@@ -324,6 +328,10 @@
       <loc>https://martspec.com/en/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/en/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/en/iron</loc>
       <changefreq>monthly</changefreq>
@@ -394,6 +402,10 @@
    </url>
    <url>
          <loc>https://martspec.com/en/vitamin/calcium</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
+         <loc>https://martspec.com/en/vitamin/protein</loc>
          <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -634,6 +646,10 @@
       <loc>https://martspec.com/ar/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/ar/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/ar/iron</loc>
       <changefreq>monthly</changefreq>
@@ -704,6 +720,10 @@
    </url>
    <url>
          <loc>https://martspec.com/ar/vitamin/calcium</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
+         <loc>https://martspec.com/ar/vitamin/protein</loc>
          <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -944,6 +964,10 @@
       <loc>https://martspec.com/zh/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/zh/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/zh/iron</loc>
       <changefreq>monthly</changefreq>
@@ -1014,6 +1038,10 @@
    </url>
    <url>
          <loc>https://martspec.com/zh/vitamin/calcium</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
+         <loc>https://martspec.com/zh/vitamin/protein</loc>
          <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1254,6 +1282,10 @@
       <loc>https://martspec.com/fr/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/fr/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/fr/iron</loc>
       <changefreq>monthly</changefreq>
@@ -1324,6 +1356,10 @@
    </url>
    <url>
          <loc>https://martspec.com/fr/vitamin/calcium</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
+         <loc>https://martspec.com/fr/vitamin/protein</loc>
          <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1564,6 +1600,10 @@
       <loc>https://martspec.com/de/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/de/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/de/iron</loc>
       <changefreq>monthly</changefreq>
@@ -1634,6 +1674,10 @@
    </url>
    <url>
          <loc>https://martspec.com/de/vitamin/calcium</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
+         <loc>https://martspec.com/de/vitamin/protein</loc>
          <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1874,6 +1918,10 @@
       <loc>https://martspec.com/hi/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/hi/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/hi/iron</loc>
       <changefreq>monthly</changefreq>
@@ -1944,6 +1992,10 @@
    </url>
    <url>
          <loc>https://martspec.com/hi/vitamin/calcium</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
+         <loc>https://martspec.com/hi/vitamin/protein</loc>
          <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2184,6 +2236,10 @@
       <loc>https://martspec.com/ja/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/ja/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/ja/iron</loc>
       <changefreq>monthly</changefreq>
@@ -2254,6 +2310,10 @@
    </url>
    <url>
          <loc>https://martspec.com/ja/vitamin/calcium</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
+         <loc>https://martspec.com/ja/vitamin/protein</loc>
          <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2494,6 +2554,10 @@
       <loc>https://martspec.com/pt/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/pt/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/pt/iron</loc>
       <changefreq>monthly</changefreq>
@@ -2564,6 +2628,10 @@
    </url>
    <url>
          <loc>https://martspec.com/pt/vitamin/calcium</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
+         <loc>https://martspec.com/pt/vitamin/protein</loc>
          <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2804,6 +2872,10 @@
       <loc>https://martspec.com/ru/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/ru/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/ru/iron</loc>
       <changefreq>monthly</changefreq>
@@ -2874,6 +2946,10 @@
    </url>
    <url>
          <loc>https://martspec.com/ru/vitamin/calcium</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
+         <loc>https://martspec.com/ru/vitamin/protein</loc>
          <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -3114,6 +3190,14 @@
       <loc>https://martspec.com/es/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/es/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/es/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/es/iron</loc>
       <changefreq>monthly</changefreq>
@@ -3184,6 +3268,10 @@
    </url>
    <url>
          <loc>https://martspec.com/es/vitamin/calcium</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
+         <loc>https://martspec.com/es/vitamin/protein</loc>
          <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -3424,6 +3512,10 @@
       <loc>https://martspec.com/uk/calcium</loc>
       <changefreq>monthly</changefreq>
    </url>
+   <url>
+      <loc>https://martspec.com/uk/protein</loc>
+      <changefreq>monthly</changefreq>
+   </url>
     <url>
       <loc>https://martspec.com/uk/iron</loc>
       <changefreq>monthly</changefreq>
@@ -3494,6 +3586,10 @@
    </url>
    <url>
          <loc>https://martspec.com/uk/vitamin/calcium</loc>
+         <changefreq>monthly</changefreq>
+   </url>
+   <url>
+         <loc>https://martspec.com/uk/vitamin/protein</loc>
          <changefreq>monthly</changefreq>
    </url>
    <url>

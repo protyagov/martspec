@@ -60,7 +60,60 @@
         "WATCH": "Montres"
     },
     "PROTEIN": {
-        "HEAD": "Protéine"
+        "HEAD": "Protéine",
+        "ABOUT_1": "Suivez votre objectif de protéines directement sur le cadran de votre montre",
+        "ABOUT_2": "Un moyen simple et rapide d'enregistrer des entrées",
+        "ABOUT_3": "Synchronisation avec l'application Apple Santé",
+        "IMG": "Illustration de l'application Protéine",
+        "DWN": "Obtenez l'application gratuite Protéine pour Apple Watch directamente sur l'App Store d'Apple.",
+        "LIST1": {
+            "LI1_HEAD": "Suivi rapide et planification flexible",
+            "DESC1": "L'application vous permet de tenir un journal de consommation de protéines et de configurer des notifications flexibles directement depuis l'écran de votre montre.",
+            "LI2_HEAD": "Analyses visuelles et historique de consommation",
+            "DESC2": "L'écran de la montre affiche vos progrès quotidiens, les objectifs fixés et l'historique complet des entrées précédentes.",
+            "LI3_HEAD": "Synchronisation avec Apple Santé",
+            "DESC3": "Les données de consommation de protéines sont automatiquement transférées vers Apple Health et complètent les métriques d'autres trackers."
+        },
+        "HEAD2": "Pourquoi les Protéines ?",
+        "DESC2_1": "Les protéines renforcent l'immunité, fournissent de l'énergie et accélèrent la récupération. Le suivi de votre apport quotidien vous aide à atteindre votre objectif et à adopter de saines habitudes.",
+        "SUB_HEAD": "Faits médicaux",
+        "DESC2_2": "Instituts Nationaux de la Santé (NIH) : les protéines réduisent les niveaux d'hormone de la faim et prolongent la satiété.",
+        "DESC2_3": "American College of Sports Medicine (ACSM) : un apport constant en protéines tout au long de la journée est essentiel pour la croissance musculaire et la solidité des os.",
+        "BTN_MORE": "En savoir plus",
+        "HEAD3": "Nos avantages",
+        "LIST2": {
+            "LI2_1_TITLE": "Synchronisation avec Apple Santé",
+            "LI2_1_TEXT": "Lecture et écriture automatiques des données",
+            "IMG1_ALT": "Synchronisation avec Apple",
+            "LI2_2_TITLE": "Sans publicité",
+            "LI2_2_TEXT": "Aucun contenu inutile ou distraction",
+            "IMG2_ALT": "Sans publicité",
+            "LI2_3_TITLE": "Confidentialité totale",
+            "LI2_3_TEXT": "Nous ne stockons pas vos données sur des serveurs externes",
+            "IMG3_ALT": "Protection des données",
+            "LI2_4_TITLE": "Aucune connexion avec Apple requise",
+            "LI2_4_TEXT": "L'application est prête à être utilisée immédiatement sans inscription",
+            "IMG4_ALT": "Sans inscription"
+        },
+        "HEAD4": "Comment repérer une carence en protéines ?",
+        "DESC3": "Avec des entraînements réguliers et un rythme de vie effréné, vos besoins en protéines augmentent. Si votre corps n'en reçoit pas assez, l'endurance diminue et la récupération prend plus de temps. Remplissez cette courte liste de contrôle pour évaluer votre alimentation et votre bien-être.",
+        "SUB_HEAD2": "Signes d'une carence en protéines :",
+        "LIST3": {
+            "LI1_HEAD": "Envie de collations et de sucreries",
+            "LI1_TEXT": "La faim revient trop vite, même après un repas copieux.",
+            "LI2_HEAD": "Baisse des performances sportives",
+            "LI2_TEXT": "Le corps manque de blocs de construction pour réparer les muscles et les tissus.",
+            "LI3_HEAD": "Menu riche en glucides",
+            "LI3_TEXT": "Votre alimentation manque de viande, de poisson, d'œufs ou de produits laitiers, tandis que les collations se composent de pâtisseries et de chips.",
+            "LI4_HEAD": "Variations d'énergie et fatigue",
+            "LI4_TEXT": "La fatigue et la somnolence soudaine frappent dès le milieu de la journée."
+        },
+        "SUB_HEAD3": "Télécharger Protéine pour Apple Watch",
+        "DESC4": "Comblez votre déficit en protéines grâce à un suivi simple. Installez l'application sur votre montre et surveillez votre objectif quotidien en quelques clics.",
+        "IMG6_ALT": "Pèse-personne avec ruban à mesurer et icônes représentant la santé du cœur, de l'estomac, des articulations et du sang",
+        "HEAD5": "Notre application est disponible pour n'importe quel modèle d'Apple Watch",
+        "DESC5": "Téléchargez l'application dès maintenant et commencez à surveiller vos mesures essentielles",
+        "IMG_CTA_ALT1": "Apple Watch affichant des informations sur le poids corporel, avec un pèse-personne et une pomme en arrière-plan"
     },
     "ELECTROLYTE": {
         "HEAD": "Électrolyte",
