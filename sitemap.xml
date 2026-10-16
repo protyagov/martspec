@@ -27,6 +27,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/vitamin/capsules</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
          <loc>https://martspec.com/vitamin/vitamin_a</loc>
          <changefreq>monthly</changefreq>
    </url>
@@ -338,6 +342,10 @@
    </url>
    <url>
       <loc>https://martspec.com/en/vitamin</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/vitamin/capsules</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -655,6 +663,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ar/vitamin/capsules</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
          <loc>https://martspec.com/ar/vitamin/vitamin_a</loc>
          <changefreq>monthly</changefreq>
    </url>
@@ -966,6 +978,10 @@
    </url>
    <url>
       <loc>https://martspec.com/zh/vitamin</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/vitamin/capsules</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1283,6 +1299,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/fr/vitamin/capsules</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
          <loc>https://martspec.com/fr/vitamin/vitamin_a</loc>
          <changefreq>monthly</changefreq>
    </url>
@@ -1594,6 +1614,10 @@
    </url>
    <url>
       <loc>https://martspec.com/de/vitamin</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/vitamin/capsules</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1911,6 +1935,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/hi/vitamin/capsules</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
          <loc>https://martspec.com/hi/vitamin/vitamin_a</loc>
          <changefreq>monthly</changefreq>
    </url>
@@ -2222,6 +2250,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ja/vitamin</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/vitamin/capsules</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2539,6 +2571,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/pt/vitamin/capsules</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
          <loc>https://martspec.com/pt/vitamin/vitamin_a</loc>
          <changefreq>monthly</changefreq>
    </url>
@@ -2850,6 +2886,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ru/vitamin</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/vitamin/capsules</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -3171,6 +3211,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/es/vitamin/capsules</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
          <loc>https://martspec.com/es/vitamin/vitamin_a</loc>
          <changefreq>monthly</changefreq>
    </url>
@@ -3482,6 +3526,10 @@
    </url>
    <url>
       <loc>https://martspec.com/uk/vitamin</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/vitamin/capsules</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
