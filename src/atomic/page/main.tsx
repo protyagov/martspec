@@ -133,7 +133,7 @@ export default function LandingPage() {
                             content={_("VITAMIN.TEXT1")}
                             button={{
                                 buttonType: "ButtonChevronRight",
-                                text: _("VITAMIN.BUTTON_OPEN_NUTRIENTS"),
+                                text: _("VITAMIN.BTN_MORE"),
                                 link: Locale.i18nLink("vitamin"),
                                 color: "#1686FF",
                             }}

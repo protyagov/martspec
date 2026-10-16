@@ -173,7 +173,7 @@
             "LI5_HEAD": "Cree una rutina y mantenga la responsabilidad",
             "LI5_TEXT": "Haga que el control del peso sea parte de su ritmo diario, como cepillarse los dientes. Ser constante genera impulso. También puede formar equipo con amigos o usar grupos de apoyo para obtener motivación adicional."
         },
-                "HEAD6": "Cómo hacer un seguimiento de la pérdida o aumento de peso",
+        "HEAD6": "Cómo hacer un seguimiento de la pérdida o aumento de peso",
         "DESC6": "Hacer un seguimiento constante de su peso es una de las formas más efectivas de mantenerse responsable y monitorear su progreso. Así es como hacerlo de manera efectiva:",
         "LIST5": {
             "LI1_HEAD": "Elija una hora constante",
@@ -250,7 +250,7 @@
         "SUBHEAD1": "Rastreador de nutrientes y medicamentos",
         "SUBHEAD2": "Seguidor de nutrientes",
         "TEXT1": "Un práctico rastreador de ingesta de vitaminas & minerales con recordatorios. Sincronización con Apple Health. Copias de seguridad seguras en iCloud. Gratis. Sin anuncios ni compras dentro de la app.",
-        "BUTTON_OPEN_NUTRIENTS": "Saber más",
+        "BTN_MORE": "Saber más",
         "ICO1": "Icono de la aplicación Anillo de Vitaminas, el mejor rastreador de vitaminas. Sincronización con Apple Health y copia de seguridad en iCloud. Gratis y sin anuncios.",
         "DWN": "Descargue la aplicación gratuita de seguimiento de vitaminas y nutrientes de la AppStore de Apple",
         "ABOUT_1": "Controle su consumo de vitaminas y minerales importantes todos los días",
@@ -1857,21 +1857,21 @@
         "DESC": "En Martspec, entendemos que solicitar empleo en línea a veces conlleva riesgos. Nos solidarizamos con quienes se enfrentan al fraude laboral y nos esforzamos por ayudar a los solicitantes de empleo a reducir el riesgo de ser víctimas de este tipo de estafas.",
         "ALT": "Seguridad en la búsqueda de empleo",
         "LIST1": {
-        "HEAD": "Cómo protegemos sus datos",
-        "DESC1": "Antes de pasar a las señales comunes de fraude, queremos aclarar por completo nuestro proceso de contratación. En Martspec, todo se basa exclusivamente en las cualidades profesionales, habilidades, aportes y resultados de una persona, independientemente de su género, edad, conexiones personales u otros factores.",
-        "SUBHEAD1": "Lo que nunca solicitamos:",
-        "TEXT1": "Fecha de nacimiento real o edad",
-        "TEXT2": "Pasaporte",
-        "TEXT3": "Licencia de conducir",
-        "TEXT4": "Número de teléfono",
-        "TEXT5": "Número de seguro social",
-        "TEXT6": "Cualquier otro dato personal confidencial",
-        "SUBHEAD2": "Qué datos necesitamos realmente",
-        "DESC2": "Para la mayoría de los candidatos, solo necesitamos:",
-        "TEXT7": "Nombre (para dirigirnos a usted correctamente)",
-        "TEXT8": "Correo electrónico para comunicación",
-        "TEXT9": "A veces - zona horaria (nuestro equipo trabaja en diferentes zonas horarias, por lo que no queremos molestarlo en medio de la noche)"
-    }
+            "HEAD": "Cómo protegemos sus datos",
+            "DESC1": "Antes de pasar a las señales comunes de fraude, queremos aclarar por completo nuestro proceso de contratación. En Martspec, todo se basa exclusivamente en las cualidades profesionales, habilidades, aportes y resultados de una persona, independientemente de su género, edad, conexiones personales u otros factores.",
+            "SUBHEAD1": "Lo que nunca solicitamos:",
+            "TEXT1": "Fecha de nacimiento real o edad",
+            "TEXT2": "Pasaporte",
+            "TEXT3": "Licencia de conducir",
+            "TEXT4": "Número de teléfono",
+            "TEXT5": "Número de seguro social",
+            "TEXT6": "Cualquier otro dato personal confidencial",
+            "SUBHEAD2": "Qué datos necesitamos realmente",
+            "DESC2": "Para la mayoría de los candidatos, solo necesitamos:",
+            "TEXT7": "Nombre (para dirigirnos a usted correctamente)",
+            "TEXT8": "Correo electrónico para comunicación",
+            "TEXT9": "A veces - zona horaria (nuestro equipo trabaja en diferentes zonas horarias, por lo que no queremos molestarlo en medio de la noche)"
+        }
     },
     "TEAM": {
         "HEAD": "Equipo",
@@ -2308,15 +2308,27 @@
         }
     },
     "WORKOUT": {
-        "HEAD": "Entrenamientos", "SUBHEAD": "Un diario de entrenamiento completo para planificar sesiones, registrar resultados y analizar tu progreso.",
-        "TRACKING_TITLE": "Registra toda actividad", "TRACKING_TEXT": "Registra peso de trabajo, ejercicios con peso corporal, repeticiones y volumen total en fuerza; lado, tiempo de mantenimiento y repeticiones en estiramientos; y velocidad, intensidad, distancia y duración en cardio.",
-        "BUILDER_TITLE": "Crea tus entrenamientos", "BUILDER_TEXT": "El catálogo incluye más de 200 ejercicios con instrucciones e imágenes. Busca por nombre, músculo o equipo, o crea ejercicios propios con fotos, parámetros de carga, MET y músculos implicados. Combina ejercicios y superseries de hasta tres movimientos, con notas, fotos, series copiadas y edición rápida.",
-        "FEATURES_TITLE": "Todos los detalles a la vista", "CATALOG_TITLE": "Temporizadores y registros completos", "CATALOG_TEXT": "Los temporizadores de entrenamiento, descanso y ejercicios por tiempo mantienen el ritmo. Al terminar, la app crea un registro detallado con calorías, peso total, duración y grupos musculares principales.",
-        "PROGRESS_TITLE": "Progreso medible", "PROGRESS_TEXT": "Los valores MET basados en ciencia estiman calorías durante y antes de sesiones planificadas. El historial guarda cada serie, récords personales y comparaciones con entrenamientos anteriores para analizar fuerza y resistencia a largo plazo.",
-        "PRIVACY_TITLE": "Privado, sin conexión y sincronizado", "PRIVACY_TEXT": "Tus datos se sincronizan solo mediante tu iCloud personal. No los recopilamos, analizamos ni guardamos en nuestros servidores. La app funciona totalmente sin conexión, se sincroniza entre dispositivos y admite temas claro y oscuro.",
-        "CALENDAR_TITLE": "Planifica con un calendario flexible", "CALENDAR_TEXT": "Consulta entrenamientos planificados, activos y terminados en cualquier fecha. Copia un programa para uno o varios días y edita sesiones completadas después: añade ejercicios, cambia horas, notas y fotos.",
-        "SHARING_TITLE": "Comparte el resultado", "SHARING_TEXT": "Después de entrenar, crea una bonita tarjeta de resultados con una foto elegida para compartir con amigos o publicar.",
-        "CTA_TITLE": "Un diario que respeta tus datos", "CTA_TEXT": "Del primer plan al próximo récord personal, Entrenamientos mantiene detalles, tiempo y progreso en un lugar privado.",
-        "ALT_CATALOG": "Temporizadores y registros detallados", "ALT_PROGRESS": "Progreso y récords personales", "ALT_PRIVACY": "Sincronización privada con iCloud"
+        "HEAD": "Entrenamientos",
+        "SUBHEAD": "Un diario de entrenamiento completo para planificar sesiones, registrar resultados y analizar tu progreso.",
+        "TRACKING_TITLE": "Registra toda actividad",
+        "TRACKING_TEXT": "Registra peso de trabajo, ejercicios con peso corporal, repeticiones y volumen total en fuerza; lado, tiempo de mantenimiento y repeticiones en estiramientos; y velocidad, intensidad, distancia y duración en cardio.",
+        "BUILDER_TITLE": "Crea tus entrenamientos",
+        "BUILDER_TEXT": "El catálogo incluye más de 200 ejercicios con instrucciones e imágenes. Busca por nombre, músculo o equipo, o crea ejercicios propios con fotos, parámetros de carga, MET y músculos implicados. Combina ejercicios y superseries de hasta tres movimientos, con notas, fotos, series copiadas y edición rápida.",
+        "FEATURES_TITLE": "Todos los detalles a la vista",
+        "CATALOG_TITLE": "Temporizadores y registros completos",
+        "CATALOG_TEXT": "Los temporizadores de entrenamiento, descanso y ejercicios por tiempo mantienen el ritmo. Al terminar, la app crea un registro detallado con calorías, peso total, duración y grupos musculares principales.",
+        "PROGRESS_TITLE": "Progreso medible",
+        "PROGRESS_TEXT": "Los valores MET basados en ciencia estiman calorías durante y antes de sesiones planificadas. El historial guarda cada serie, récords personales y comparaciones con entrenamientos anteriores para analizar fuerza y resistencia a largo plazo.",
+        "PRIVACY_TITLE": "Privado, sin conexión y sincronizado",
+        "PRIVACY_TEXT": "Tus datos se sincronizan solo mediante tu iCloud personal. No los recopilamos, analizamos ni guardamos en nuestros servidores. La app funciona totalmente sin conexión, se sincroniza entre dispositivos y admite temas claro y oscuro.",
+        "CALENDAR_TITLE": "Planifica con un calendario flexible",
+        "CALENDAR_TEXT": "Consulta entrenamientos planificados, activos y terminados en cualquier fecha. Copia un programa para uno o varios días y edita sesiones completadas después: añade ejercicios, cambia horas, notas y fotos.",
+        "SHARING_TITLE": "Comparte el resultado",
+        "SHARING_TEXT": "Después de entrenar, crea una bonita tarjeta de resultados con una foto elegida para compartir con amigos o publicar.",
+        "CTA_TITLE": "Un diario que respeta tus datos",
+        "CTA_TEXT": "Del primer plan al próximo récord personal, Entrenamientos mantiene detalles, tiempo y progreso en un lugar privado.",
+        "ALT_CATALOG": "Temporizadores y registros detallados",
+        "ALT_PROGRESS": "Progreso y récords personales",
+        "ALT_PRIVACY": "Sincronización privada con iCloud"
     }
 }
