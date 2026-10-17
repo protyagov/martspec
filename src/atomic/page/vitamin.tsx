@@ -394,13 +394,13 @@ export default function Vitamin() {
                                 </div>
                             </div>
 
-                            <div className="col-12 col-lg-6 d-flex justify-content-end align-items-end p-0">
+                            <div className="col-lg-6 pb-4 d-flex justify-content-end align-items-end">
                                 <ImageI18N
                                     src="/img/page/vitamin/vitamin-card-bones.webp"
-                                    w={400}
+                                    w={520}
                                     h={400}
                                     alt={_("VITAMIN.ALT_7")}
-                                    cls="ms-base-image m-0 w-100 h-100 object-fit-cover"
+                                    cls="ms-base-image mt-mob-xs m-0 img-fluid"
                                 />
                             </div>
                         </div>
