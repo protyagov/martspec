@@ -259,6 +259,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/emotion/5-habits</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/emotion/color-test</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -566,6 +570,10 @@
    </url>
    <url>
       <loc>https://martspec.com/en/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/en/emotion/5-habits</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -879,6 +887,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/ar/emotion/5-habits</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/ar/emotion/color-test</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1186,6 +1198,10 @@
    </url>
    <url>
       <loc>https://martspec.com/zh/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/zh/emotion/5-habits</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -1499,6 +1515,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/fr/emotion/5-habits</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/fr/emotion/color-test</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -1806,6 +1826,10 @@
    </url>
    <url>
       <loc>https://martspec.com/de/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/de/emotion/5-habits</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2119,6 +2143,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/hi/emotion/5-habits</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/hi/emotion/color-test</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -2426,6 +2454,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ja/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ja/emotion/5-habits</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -2739,6 +2771,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/pt/emotion/5-habits</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/pt/emotion/color-test</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -3046,6 +3082,10 @@
    </url>
    <url>
       <loc>https://martspec.com/ru/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/ru/emotion/5-habits</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
@@ -3359,6 +3399,10 @@
       <changefreq>monthly</changefreq>
    </url>
    <url>
+      <loc>https://martspec.com/es/emotion/5-habits</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
       <loc>https://martspec.com/es/emotion/color-test</loc>
       <changefreq>monthly</changefreq>
    </url>
@@ -3666,6 +3710,10 @@
    </url>
    <url>
       <loc>https://martspec.com/uk/emotion/openness</loc>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>https://martspec.com/uk/emotion/5-habits</loc>
       <changefreq>monthly</changefreq>
    </url>
    <url>
