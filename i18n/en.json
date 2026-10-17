@@ -1474,6 +1474,13 @@
             "LI6_TEXT": "Capacity to embrace novel ideas and experiences",
             "BTN": "Learn More"
         },
+        "BANNER_5_HABITS": {
+            "HEAD": "What determines your productivity?",
+            "TEXT": "The condition of your brain and its cognitive functions are at the core of your efficiency. They are directly related to how you take care of yourself. Find out exactly what affects your brain, and regain your energy and focus.",
+            "BTN": "Learn more",
+            "ALT": "A young woman meditating in the lotus position, with icons of coffee, water, fruit, a book and a plant above her",
+            "BREADCRUMB": "5 habits"
+        },
         "HEAD7": "Use Cases",
         "DESK7": "The test can accurately measure emotional state, even for colorblind individuals. To optimize results, choose colors based on current preferences by letting the subconscious do the work. Choose colors based on personal preference, not associations with objects like cars or buildings.",
         "LIST7": {
