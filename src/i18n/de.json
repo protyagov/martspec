@@ -60,7 +60,60 @@
         "WATCH": "Uhren"
     },
     "PROTEIN": {
-        "HEAD": "Protein"
+        "HEAD": "Protein",
+        "ABOUT_1": "Verfolge dein Proteinziel direkt auf deinem Zifferblatt",
+        "ABOUT_2": "Eine einfache und schnelle Möglichkeit, Einträge zu protokollieren",
+        "ABOUT_3": "Synchronisierung mit der Apple Health App",
+        "IMG": "Illustration der Protein-App",
+        "DWN": "Hol dir die kostenlose Protein-App für die Apple Watch direkt aus dem Apple App Store.",
+        "LIST1": {
+            "LI1_HEAD": "Schnelles Tracking und flexible Zeitplanung",
+            "DESC1": "Die App ermöglicht es dir, ein Tagebuch über deine Proteinaufnahme zu führen und flexible Benachrichtigungen direkt auf dem Bildschirm deiner Uhr einzurichten.",
+            "LI2_HEAD": "Visuelle Analysen und Aufnahmeprotokoll",
+            "DESC2": "Der Uhrenbildschirm zeigt deinen täglichen Fortschritt, die gesetzten Ziele und den gesamten Verlauf der vorherigen Einträge.",
+            "LI3_HEAD": "Mit Apple Health synchronisieren",
+            "DESC3": "Die Daten zur Proteinaufnahme werden automatisch an Apple Health übertragen und ergänzen die Messwerte anderer Tracker."
+        },
+        "HEAD2": "Warum Protein?",
+        "DESC2_1": "Protein stärkt das Immunsystem, liefert Energie und beschleunigt die Erholung. Die Verfolgung deiner täglichen Aufnahme hilft dir, dein Ziel zu erreichen und gesunde Gewohnheiten aufzubauen.",
+        "SUB_HEAD": "Medizinische Fakten",
+        "DESC2_2": "National Institutes of Health (NIH): Protein senkt den Spiegel des Hungerhormons und verlängert das Sättigungsgefühl.",
+        "DESC2_3": "American College of Sports Medicine (ACSM): Eine gleichmäßige Proteinaufnahme über den Tag verteilt ist für Muskelwachstum und Knochenstärke unerlässlich.",
+        "BTN_MORE": "Mehr erfahren",
+        "HEAD3": "Unsere Vorteile",
+        "LIST2": {
+            "LI2_1_TITLE": "Mit Apple Health synchronisieren",
+            "LI2_1_TEXT": "Automatisches Lesen und Schreiben von Daten",
+            "IMG1_ALT": "Mit Apple synchronisieren",
+            "LI2_2_TITLE": "Werbefrei",
+            "LI2_2_TEXT": "Keine unnötigen Inhalte oder Ablenkungen",
+            "IMG2_ALT": "Werbefrei",
+            "LI2_3_TITLE": "Komplette Privatsphäre",
+            "LI2_3_TEXT": "Wir speichern deine Daten nicht auf externen Servern",
+            "IMG3_ALT": "Datenschutz",
+            "LI2_4_TITLE": "Kein „Mit Apple anmelden“ erforderlich",
+            "LI2_4_TEXT": "Die App ist ohne Registrierung sofort einsatzbereit",
+            "IMG4_ALT": "Keine Registrierung"
+        },
+        "HEAD4": "Wie erkennt man einen Proteinmangel?",
+        "DESC3": "Bei regelmäßigem Training und einem schnelllebigen Lebensstil steigt dein Proteinbedarf. Wenn dein Körper nicht genug bekommt, sinkt die Ausdauer und die Erholung dauert länger. Fülle diese kurze Checkliste aus, um deine Ernährung und dein Wohlbefinden zu bewerten.",
+        "SUB_HEAD2": "Anzeichen eines Proteinmangels:",
+        "LIST3": {
+            "LI1_HEAD": "Heißhunger auf Snacks und Süßigkeiten",
+            "LI1_TEXT": "Der Hunger kehrt selbst nach einer sättigenden Mahlzeit zu schnell zurück.",
+            "LI2_HEAD": "Rückgang der sportlichen Leistungsfähigkeit",
+            "LI2_TEXT": "Dem Körper fehlen Bausteine, um Muskeln und Gewebe zu reparieren.",
+            "LI3_HEAD": "Kohlenhydratlastiges Menü",
+            "LI3_TEXT": "Deiner Ernährung fehlt es an Fleisch, Fisch, Eiern oder Milchprodukten, während Snacks aus Backwaren und Chips bestehen.",
+            "LI4_HEAD": "Energieschwankungen und Müdigkeit",
+            "LI4_TEXT": "Müdigkeit und plötzliche Schläfrigkeit treten bereits mittags auf."
+        },
+        "SUB_HEAD3": "Lade Protein für die Apple Watch herunter",
+        "DESC4": "Behebe dein Proteindefizit mit einfachem Tracking. Installiere die App auf deiner Uhr und überwache dein tägliches Ziel mit ein paar Fingertipps.",
+        "IMG6_ALT": "Personenwaage mit Maßband und Symbolen für die Gesundheit von Herz, Magen, Gelenken und Blut",
+        "HEAD5": "Unsere App ist für jedes Apple Watch-Modell verfügbar",
+        "DESC5": "Lade die App jetzt herunter und beginne mit der Überwachung deiner wichtigsten Kennzahlen",
+        "IMG_CTA_ALT1": "Apple Watch zeigt Körpergewichtsinformationen an, mit einer Waage und einem Apfel im Hintergrund"
     },
     "ELECTROLYTE": {
         "HEAD": "Elektrolyt",

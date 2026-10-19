@@ -55,6 +55,7 @@ const menuItems = [
     { key: "electrolyte", labelKey: "ELECTROLYTE.HEAD" },
     { key: "iron", labelKey: "IRON.HEAD" },
     { key: "calcium", labelKey: "CALCIUM.HEAD" },
+    { key: "protein", labelKey: "PROTEIN.HEAD" },
 ];
 
 export default function NavigationBar() {
