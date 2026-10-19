@@ -60,7 +60,60 @@
         "WATCH": "Relojes"
     },
     "PROTEIN": {
-        "HEAD": "Proteína"
+        "HEAD": "Proteína",
+        "ABOUT_1": "Controla tu objetivo de proteínas directamente en la esfera de tu reloj",
+        "ABOUT_2": "Una forma sencilla y rápida de registrar entradas",
+        "ABOUT_3": "Sincronización con la app Salud de Apple",
+        "IMG": "Ilustración de la aplicación Proteína",
+        "DWN": "Obtén la aplicación gratuita Proteína para Apple Watch directamente en la App Store de Apple.",
+        "LIST1": {
+            "LI1_HEAD": "Registro rápido y programación flexible",
+            "DESC1": "La aplicación te permite llevar un diario de ingesta de proteínas y configurar notificaciones flexibles directamente desde la pantalla de tu reloj.",
+            "LI2_HEAD": "Análisis visual e historial de ingesta",
+            "DESC2": "La pantalla del reloj muestra tu progreso diario, los objetivos establecidos y el historial completo de entradas anteriores.",
+            "LI3_HEAD": "Sincronización con Salud de Apple",
+            "DESC3": "Los datos de ingesta de proteínas se transfieren automáticamente a Salud de Apple y complementan las métricas de otros rastreadores."
+        },
+        "HEAD2": "¿Por qué Proteína?",
+        "DESC2_1": "La proteína fortalece la inmunidad, proporciona energía y acelera la recuperación. Hacer un seguimiento de tu ingesta diaria te ayuda a alcanzar tu objetivo y a desarrollar hábitos saludables.",
+        "SUB_HEAD": "Datos médicos",
+        "DESC2_2": "Institutos Nacionales de Salud (NIH): la proteína reduce los niveles de la hormona del hambre y prolonga la saciedad.",
+        "DESC2_3": "Colegio Americano de Medicina Deportiva (ACSM): una ingesta constante de proteínas durante el día es esencial para el crecimiento muscular y la fuerza ósea.",
+        "BTN_MORE": "Saber más",
+        "HEAD3": "Nuestras ventajas",
+        "LIST2": {
+            "LI2_1_TITLE": "Sincronización con Salud de Apple",
+            "LI2_1_TEXT": "Lectura y escritura automática de datos",
+            "IMG1_ALT": "Sincronización con Apple",
+            "LI2_2_TITLE": "Sin publicidad",
+            "LI2_2_TEXT": "Sin contenido innecesario ni distracciones",
+            "IMG2_ALT": "Sin publicidad",
+            "LI2_3_TITLE": "Privacidad completa",
+            "LI2_3_TEXT": "No almacenamos tus datos en servidores externos",
+            "IMG3_ALT": "Protección de datos",
+            "LI2_4_TITLE": "No requiere Iniciar sesión con Apple",
+            "LI2_4_TEXT": "La aplicación está lista para usarse inmediatamente sin necesidad de registro",
+            "IMG4_ALT": "Sin registro"
+        },
+        "HEAD4": "¿Cómo detectar la deficiencia de proteínas?",
+        "DESC3": "Con entrenamientos regulares y un estilo de vida acelerado, tus necesidades de proteínas aumentan. Si tu cuerpo no recibe la cantidad suficiente, la resistencia disminuye y la recuperación tarda más. Completa esta breve lista de verificación para evaluar tu dieta y bienestar.",
+        "SUB_HEAD2": "Signos de deficiencia de proteínas:",
+        "LIST3": {
+            "LI1_HEAD": "Antojos de bocadillos y dulces",
+            "LI1_TEXT": "El hambre regresa demasiado rápido incluso después de una comida abundante.",
+            "LI2_HEAD": "Disminución del rendimiento deportivo",
+            "LI2_TEXT": "El cuerpo carece de los componentes básicos para reparar músculos y tejidos.",
+            "LI3_HEAD": "Menú rico en carbohidratos",
+            "LI3_TEXT": "A tu dieta le faltan carnes, pescados, huevos o productos lácteos, mientras que los bocadillos consisten en productos horneados y patatas fritas.",
+            "LI4_HEAD": "Cambios de energía y fatiga",
+            "LI4_TEXT": "La fatiga y la somnolencia repentina aparecen ya al mediodía."
+        },
+        "SUB_HEAD3": "Descarga Proteína para Apple Watch",
+        "DESC4": "Aborda tu déficit de proteínas con un seguimiento sencillo. Instala la aplicación en tu reloj y controla tu objetivo diario con un par de toques.",
+        "IMG6_ALT": "Báscula de baño con cinta métrica e íconos que representan la salud del corazón, el estómago, las articulaciones y la sangre",
+        "HEAD5": "Nuestra aplicación está disponible para cualquier modelo de Apple Watch",
+        "DESC5": "Descarga la aplicación ahora mismo y comienza a monitorear tus métricas esenciales",
+        "IMG_CTA_ALT1": "Apple Watch que muestra información sobre el peso corporal, con una báscula y una manzana de fondo"
     },
     "ELECTROLYTE": {
         "HEAD": "Electrólito",
