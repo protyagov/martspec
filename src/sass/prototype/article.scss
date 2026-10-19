@@ -241,12 +241,147 @@
 }
 
 .article-comparison__card {
-    padding: 1.5rem;
+    --card-pad: 1.5rem;
+    padding: var(--card-pad);
     border-radius: 1.5rem;
 
     h3 {
         margin-top: 0;
         padding-bottom: 1rem;
+    }
+}
+
+.article-comparison__card--with-img {
+    --card-pad: 2.4rem;
+
+    h3 {
+        font-size: clamp(24px, 2.5vw, 32px);
+        line-height: 1.2;
+    }
+
+    p > strong {
+        font-family: os5;
+        font-weight: 500;
+    }
+
+    li strong {
+        font-family: os5;
+        font-weight: 500;
+    }
+}
+
+.article-media-panel__media img,
+.article-comparison__footer img {
+    margin: 0;
+    border-radius: 0;
+    aspect-ratio: auto;
+    object-fit: fill;
+}
+
+.article-comparison__footer {
+    margin: auto calc(-1 * var(--card-pad)) calc(-1 * var(--card-pad));
+    padding-top: 1.5rem;
+
+    .ms-btn-apple {
+        position: relative;
+        z-index: 1;
+        margin-left: var(--card-pad);
+    }
+}
+
+.article-comparison__bg-mobile {
+    display: block;
+}
+
+.article-comparison__bg-desktop {
+    display: none;
+}
+
+.article-comparison__phone {
+    top: 8.8%;
+    left: 6.4%;
+    width: 45.1%;
+}
+
+.article-media-panel {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+
+    &--with-bg,
+    &__content--card {
+        padding: 24px;
+    }
+
+    &__content--card {
+        border-radius: 20px;
+    }
+
+    &--img-first &__media {
+        order: -1;
+    }
+
+    &__title {
+        grid-column: 1 / -1;
+        order: -2;
+
+        h3 {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    }
+
+    &__content > :last-child,
+    &__content ul:last-child li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.article-media-panel--decor {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+
+    .article-media-panel__media {
+        position: relative;
+        justify-self: center;
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .article-media-panel__decor {
+        left: -43.6%;
+        bottom: 0;
+        width: 257.1%;
+        aspect-ratio: 828 / 978;
+        transform: translateY(70.3%) scaleY(-1);
+    }
+}
+
+.article-list--check {
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    ul li {
+        position: relative;
+        padding-left: 2.5rem;
+        margin-bottom: 1rem;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.2em;
+            width: 1.6rem;
+            height: 1.6rem;
+            background-color: #7b62fe;
+            -webkit-mask: url("@/img/atom/icons/icon-check.svg") center / contain no-repeat;
+            mask: url("@/img/atom/icons/icon-check.svg") center / contain no-repeat;
+        }
     }
 }
 
@@ -379,10 +514,77 @@
     }
 
     .article-comparison__card {
-        padding: 3rem;
+        --card-pad: 3rem;
     }
 
-    .article-content { 
+    .article-comparison--with-img {
+        gap: 40px;
+    }
+
+    .article-comparison__card--with-img {
+        --card-pad: 3.5rem;
+    }
+
+    .article-comparison__footer .ms-btn-apple {
+        position: absolute;
+        top: 1.5rem;
+        right: 8.2%;
+        margin: 2.66% 0 0;
+    }
+
+    .article-comparison__bg-mobile {
+        display: none;
+    }
+
+    .article-comparison__bg-desktop {
+        display: block;
+    }
+
+    .article-comparison__phone {
+        top: 0;
+        left: 8.2%;
+        width: 41.45%;
+    }
+
+    .article-media-panel {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: center;
+        gap: 40px;
+
+        &--with-bg,
+        &__content--card {
+            padding: 50px;
+        }
+
+        &--img-right &__media {
+            order: 1;
+        }
+
+        &--img-left &__media {
+            order: -1;
+        }
+
+        &--wide-content {
+            grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+        }
+    }
+
+    .article-media-panel--decor {
+        .article-media-panel__media {
+            position: static;
+        }
+
+        .article-media-panel__decor {
+            left: 66%;
+            top: -10.6%;
+            bottom: auto;
+            height: 137%;
+            width: auto;
+            transform: none;
+        }
+    }
+
+    .article-content {
         .article__image--small {
             height: 420px;
         }

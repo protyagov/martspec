@@ -240,26 +240,26 @@
         },
         "IMG6_ALT": "Body weight scale with measuring tape and icons representing heart, stomach, joint, and blood health"
     },
-    "CAPSULES":{
+    "CAPSULES": {
         "HEAD": "Vitamin Capsules — What Big Pharma Does Not Want You to Know",
         "DESC": "Vitamin capsules may contain more than just active ingredients. Their shells can include gelatin or plant-based materials, dyes, fillers, and other additives. Understanding what’s inside can help you choose a capsule that better fits your health, lifestyle, and values.",
-        "HEAD2":"Gelatin vs vegan capsules",
-        "DESC2":"The capsule you choose matters. From where they come from to how they perform in your body, there’s how gelatinand vegan capsules compare across the key factors that impact your  health and values.",
-        "HEAD3":"The hidden chemicals lurking inside",
-        "DESC3":"Beyond the capsule shell, manufacturers often add chemicals to enhance appearance, texture, or shelf-life—manyof which are poorly regulated or understudied:",
-        "HEAD4":"Always check the label",
-        "DESC4":"Quality and transparency matter more than the capsule itself",
-        "ALT":"The Truth About Vitamin Capsules",
-        "ALT1":"What’s Inside Vitamin Capsules",
-        "CARDS":{
-            "HEAD":"DYES",
-            "DESC":"To distinguish between different types of capsules and aid in identification, manufacturers add dyes. These colorants enhance visual appeal and help users track their pill regimen. However, some synthetic dyes (like Red 40, Yellow 5, or Titanium Dioxide) have been linked to allergic reactions, hyperactivity in children, and even carcinogenic risks in animal studies. While Europe bans many of these dyes, they remain common in U.S. supplements.",
-            "HEAD2":"LUBRICANTS",
-            "DESC2":"To make capsules easier to swallow, lubricants such as magnesium stearate are used. Although generally recognized as safe, some studies suggest that in high doses—especially with daily, long-term use—these additives might suppress immune function or disrupt gut bacteria.",
-            "HEAD3":"FILLERS",
-            "DESC3":"Since the active ingredient’s dose often takes up only a small part of the capsule, fillers are added to bulk up and stabilize the contents. Common fillers like lactose, talc, microcrystalline cellulose, and starch are used. Lactose can trouble those who are lactose-intolerant, and talc has faced scrutiny for potential asbestos contamination. The long-term effects of many fillers remain unclear.",
-            "HEAD4":"PRESERVATIVES",
-            "DESC4":"To extend shelf life and prevent vitamin degradation, preservatives (such as BHT or sodium benzoate) ar e commonly added. While they help maintain supplement effectiveness, their cumulative health impact over long-term exposure is a concern, with some preservatives being linked to liver damage and carcinogenic risks."
+        "HEAD2": "Gelatin vs vegan capsules",
+        "DESC2": "The capsule you choose matters. From where they come from to how they perform in your body, there’s how gelatinand vegan capsules compare across the key factors that impact your  health and values.",
+        "HEAD3": "The hidden chemicals lurking inside",
+        "DESC3": "Beyond the capsule shell, manufacturers often add chemicals to enhance appearance, texture, or shelf-life—manyof which are poorly regulated or understudied:",
+        "HEAD4": "Always check the label",
+        "DESC4": "Quality and transparency matter more than the capsule itself",
+        "ALT": "The Truth About Vitamin Capsules",
+        "ALT1": "What’s Inside Vitamin Capsules",
+        "CARDS": {
+            "HEAD": "DYES",
+            "DESC": "To distinguish between different types of capsules and aid in identification, manufacturers add dyes. These colorants enhance visual appeal and help users track their pill regimen. However, some synthetic dyes (like Red 40, Yellow 5, or Titanium Dioxide) have been linked to allergic reactions, hyperactivity in children, and even carcinogenic risks in animal studies. While Europe bans many of these dyes, they remain common in U.S. supplements.",
+            "HEAD2": "LUBRICANTS",
+            "DESC2": "To make capsules easier to swallow, lubricants such as magnesium stearate are used. Although generally recognized as safe, some studies suggest that in high doses—especially with daily, long-term use—these additives might suppress immune function or disrupt gut bacteria.",
+            "HEAD3": "FILLERS",
+            "DESC3": "Since the active ingredient’s dose often takes up only a small part of the capsule, fillers are added to bulk up and stabilize the contents. Common fillers like lactose, talc, microcrystalline cellulose, and starch are used. Lactose can trouble those who are lactose-intolerant, and talc has faced scrutiny for potential asbestos contamination. The long-term effects of many fillers remain unclear.",
+            "HEAD4": "PRESERVATIVES",
+            "DESC4": "To extend shelf life and prevent vitamin degradation, preservatives (such as BHT or sodium benzoate) ar e commonly added. While they help maintain supplement effectiveness, their cumulative health impact over long-term exposure is a concern, with some preservatives being linked to liver damage and carcinogenic risks."
         },
         "CAPSULES_HEAD": "What’s Really Inside Vitamin Capsules?",
         "CAPSULES_DESK": "Learn what vitamin capsules are really made of—from gelatin and plant-based shells to fillers, dyes, preservatives, and other inactive ingredients. Discover what to check on the label and how to make a more informed choice when selecting supplements.",
@@ -1526,6 +1526,13 @@
             "LI6_HEAD": "Openness",
             "LI6_TEXT": "Capacity to embrace novel ideas and experiences",
             "BTN": "Learn More"
+        },
+        "BANNER_5_HABITS": {
+            "HEAD": "What determines your productivity?",
+            "TEXT": "The condition of your brain and its cognitive functions are at the core of your efficiency. They are directly related to how you take care of yourself. Find out exactly what affects your brain, and regain your energy and focus.",
+            "BTN": "Learn more",
+            "ALT": "A young woman meditating in the lotus position, with icons of coffee, water, fruit, a book and a plant above her",
+            "BREADCRUMB": "5 habits"
         },
         "HEAD7": "Use Cases",
         "DESK7": "The test can accurately measure emotional state, even for colorblind individuals. To optimize results, choose colors based on current preferences by letting the subconscious do the work. Choose colors based on personal preference, not associations with objects like cars or buildings.",
