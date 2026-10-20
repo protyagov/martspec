@@ -268,14 +268,14 @@ export default function Bodymass() {
                                     iconColor="#F0606C"
                                     className="col-bullet-list fw-bold text-muted m-0 mb-1"
                                 />
-                                <p className="m-0 mb-3">{_("ZINC.LIST3.LI2_TEXT")}</p>
+                                <p className="m-0 mb-3">{_("MASS.LIST5.LI2_TEXT")}</p>
 
                                 <BulletList
                                     items={[_("MASS.LIST5.LI3_HEAD")]}
                                     iconColor="#F0606C"
                                     className="col-bullet-list fw-bold text-muted m-0 mb-1"
                                 />
-                                <p className="m-0 mb-3">{_("ZINC.LIST3.LI3_TEXT")}</p>
+                                <p className="m-0 mb-3">{_("MASS.LIST5.LI3_TEXT")}</p>
 
                                 <BulletList
                                     items={[_("MASS.LIST5.LI4_HEAD")]}
