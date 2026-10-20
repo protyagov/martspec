@@ -1113,6 +1113,9 @@
             "NAME": "Polvo de Reishi",
             "CATEGORY": "hongo",
             "DESK": "El hongo Reishi es un hongo duro y leñoso nativo de las regiones cálidas y húmedas de Asia. Conocido como 'Lingzhi' en la medicina tradicional china, ha sido venerado durante más de 2000 años como el 'hongo de la inmortalidad'."
+        },
+        "RED_LIGHT_THERAPY": {
+            "NAME": "Terapia de Luz Roja"
         }
     },
     "WAIST": {

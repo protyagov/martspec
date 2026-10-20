@@ -54,6 +54,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             turkey_tail: _("VITAMIN.TURKEY_TAIL.NAME"),
             cordyceps: _("VITAMIN.CORDYCEPS.NAME"),
             reishi: _("VITAMIN.REISHI.NAME"),
+            "red-light-therapy": _("VITAMIN.RED_LIGHT_THERAPY.NAME"),
         };
 
         const items: BreadcrumbItem[] = cleanPath.map((segment, index) => {

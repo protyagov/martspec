@@ -1111,6 +1111,9 @@
             "NAME": "Reishi powder",
             "CATEGORY": "mushroom",
             "DESK": "Reishi mushroom is a tough, woody fungus native to hot and humid regions of Asia. Known as 'Lingzhi' in traditional Chinese medicine, it has been revered for over 2,000 years as the 'mushroom of immortality'."
+        },
+        "RED_LIGHT_THERAPY": {
+            "NAME": "Red Light Therapy"
         }
     },
     "WAIST": {
