@@ -237,6 +237,9 @@
             }
         }
     },
+    "BONE_HEALTH": {
+        "HEAD": "How to Stop Bone Decline and Rebuild Strength"
+    },
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "the ultimate vitamin tracker",

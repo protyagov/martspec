@@ -388,7 +388,7 @@ export default function Vitamin() {
                                         title={_("VITAMIN.HEAD_7")}
                                         textContent={[_("VITAMIN.TEXT_3")]}
                                         buttonText={_("VITAMIN.BTN_MORE")}
-                                        buttonLink={Locale.i18nLink(`coming-soon`)}
+                                        buttonLink={Locale.i18nLink(`vitamin/bone-health`)}
                                         buttonColor="#1686FF"
                                     />
                                 </div>
@@ -396,7 +396,7 @@ export default function Vitamin() {
 
                             <div className="col-lg-6 pb-4 d-flex justify-content-end align-items-end">
                                 <ImageI18N
-                                    src="/img/page/vitamin/vitamin-card-bones.webp"
+                                    src="/img/page/vitamin/card-bone-health.webp"
                                     w={520}
                                     h={400}
                                     alt={_("VITAMIN.ALT_7")}
