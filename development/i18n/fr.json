@@ -1166,6 +1166,9 @@
             "NAME": "Poudre de Reishi",
             "CATEGORY": "champignon",
             "DESK": "Le champignon Reishi est un champignon ligneux et coriace originaire des régions chaudes et humides d'Asie. Connu sous le nom de « Lingzhi » dans la médecine traditionnelle chinoise, il est vénéré depuis plus de 2 000 ans comme le « champignon de l'immortalité »."
+        },
+        "RED_LIGHT_THERAPY": {
+            "NAME": "Thérapie par la lumière rouge"
         }
     },
     "WAIST": {
