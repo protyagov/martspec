@@ -187,7 +187,11 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
             const hasRightColumn = !!item.RIGHT_COLUMN;
             const hasLeftColumn = !!item.LEFT_COLUMN;
             return (
-              <section key={index} className="article-content">
+              <section
+                key={index}
+                className="article-content"
+                style={{ ["--marker-color" as any]: markerColor }}
+              >
                 <div className={hasLeftColumn ? "article-section--audio-layout" : ""}>
                 {hasLeftColumn && (
                   <aside
@@ -221,6 +225,16 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                         <div className="article__section-title">
                           <ReactMarkdown>{item.TITLE}</ReactMarkdown>
                         </div>
+                        {item.CALLOUT && (
+                          <div className="article-callout d-flex">
+                            {item.CALLOUT.ICON && (
+                              <img className="article-callout__icon" src={item.CALLOUT.ICON} alt="" />
+                            )}
+                            <div className="article-callout__content">
+                              <ReactMarkdown>{item.CALLOUT.CONTENT}</ReactMarkdown>
+                            </div>
+                          </div>
+                        )}
                         {item.IMG_SRC && (
                           <img
                             className={`img-fluid ${item.IS_SMALL ? 'article__image--small' : 'article__image--content'}`}
@@ -269,13 +283,21 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                 </div>
                 {item.MEDIA_PANEL && (
                   <div
-                    className={`article-media-panel article-media-panel--img-${item.MEDIA_PANEL.IMG_POSITION}${
+                    className={`article-media-panel ${
+                      item.MEDIA_PANEL.IMG_POSITION === "left"
+                        ? "article-media-panel--img-left"
+                        : "article-media-panel--img-right"
+                    }${
                       item.MEDIA_PANEL.BG_COLOR ? " article-media-panel--with-bg" : ""
                     }${item.MEDIA_PANEL.IMG_FIRST_ON_MOBILE ? " article-media-panel--img-first" : ""}${
                       item.MEDIA_PANEL.DECOR_SRC ? " article-media-panel--decor" : ""
-                    }${item.MEDIA_PANEL.WIDE_CONTENT ? " article-media-panel--wide-content" : ""}`}
+                    }${item.MEDIA_PANEL.WIDE_CONTENT ? " article-media-panel--wide-content" : ""}${
+                      item.MEDIA_PANEL.TITLE_IN_CONTENT ? " article-media-panel--title-in-content" : ""
+                    }${item.MEDIA_PANEL.MEDIA_OUTSIDE_ON_MOBILE ? " article-media-panel--media-outside" : ""}`}
                     style={{
-                      backgroundColor: item.MEDIA_PANEL.BG_COLOR ?? "transparent",
+                      ...(item.MEDIA_PANEL.MEDIA_OUTSIDE_ON_MOBILE
+                        ? { ["--panel-bg" as any]: item.MEDIA_PANEL.BG_COLOR ?? "transparent" }
+                        : { backgroundColor: item.MEDIA_PANEL.BG_COLOR ?? "transparent" }),
                       ["--marker-color" as any]: markerColor,
                     }}
                   >
@@ -284,11 +306,16 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                         <ReactMarkdown>{item.MEDIA_PANEL.TITLE}</ReactMarkdown>
                       </div>
                     )}
+                    {item.MEDIA_PANEL.INTRO && (
+                      <div className="article-media-panel__intro">
+                        <ReactMarkdown>{item.MEDIA_PANEL.INTRO}</ReactMarkdown>
+                      </div>
+                    )}
                     <div
                       className={`article-media-panel__content${
                         item.MEDIA_PANEL.CARD_COLOR ? " article-media-panel__content--card" : ""
                       }${item.MEDIA_PANEL.LIST_STYLE === "check" ? " article-list--check" : ""}`}
-                      style={{ backgroundColor: item.MEDIA_PANEL.CARD_COLOR ?? "transparent" }}
+                      style={item.MEDIA_PANEL.CARD_COLOR ? { backgroundColor: item.MEDIA_PANEL.CARD_COLOR } : undefined}
                     >
                       <ReactMarkdown>{item.MEDIA_PANEL.CONTENT}</ReactMarkdown>
                     </div>
@@ -298,11 +325,48 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                           <img className="d-block w-100 h-100" src={item.MEDIA_PANEL.DECOR_SRC} alt="" />
                         </div>
                       )}
-                      <img
-                        className="img-fluid w-100"
-                        src={item.MEDIA_PANEL.IMG_SRC}
-                        alt={item.MEDIA_PANEL.IMG_ALT}
-                      />
+                      {item.MEDIA_PANEL.MEDIA_CARD ? (
+                        <div className="article-media-panel__card d-flex flex-column w-100 overflow-hidden">
+                          {item.MEDIA_PANEL.MEDIA_CARD.CONTENT && (
+                            <ReactMarkdown>{item.MEDIA_PANEL.MEDIA_CARD.CONTENT}</ReactMarkdown>
+                          )}
+                          {item.MEDIA_PANEL.MEDIA_CARD.APP && (
+                            <div className="d-flex">
+                              <ButtonApple
+                                appId={appIds[item.MEDIA_PANEL.MEDIA_CARD.APP]}
+                                appDownloadTitle={_("ANXIETY.DWN")}
+                              />
+                            </div>
+                          )}
+                          <div className="article-media-panel__card-media position-relative">
+                            {item.MEDIA_PANEL.MEDIA_CARD.BG_IMAGE && (
+                              <>
+                                <img
+                                  className="article-media-panel__card-bg article-media-panel__card-bg--mobile position-absolute"
+                                  src={item.MEDIA_PANEL.MEDIA_CARD.BG_IMAGE_MOBILE ?? item.MEDIA_PANEL.MEDIA_CARD.BG_IMAGE}
+                                  alt=""
+                                />
+                                <img
+                                  className="article-media-panel__card-bg article-media-panel__card-bg--desktop position-absolute"
+                                  src={item.MEDIA_PANEL.MEDIA_CARD.BG_IMAGE}
+                                  alt=""
+                                />
+                              </>
+                            )}
+                            <img
+                              className="article-media-panel__card-img position-relative"
+                              src={item.MEDIA_PANEL.IMG_SRC}
+                              alt={item.MEDIA_PANEL.IMG_ALT}
+                            />
+                          </div>
+                        </div>
+                      ) : (
+                        <img
+                          className="img-fluid w-100"
+                          src={item.MEDIA_PANEL.IMG_SRC}
+                          alt={item.MEDIA_PANEL.IMG_ALT}
+                        />
+                      )}
                     </div>
                   </div>
                 )}

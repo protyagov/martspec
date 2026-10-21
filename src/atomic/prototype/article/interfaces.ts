@@ -16,8 +16,21 @@ export interface ILeftColumn {
     IMG_ALT?: string;
 }
 
+export interface ICallout {
+    ICON?: string;
+    CONTENT: string;
+}
+
+export interface IMediaCard {
+    CONTENT?: string;
+    APP?: keyof typeof appIds;
+    BG_IMAGE?: string;
+    BG_IMAGE_MOBILE?: string;
+}
+
 export interface IMediaPanel {
     TITLE?: string;
+    INTRO?: string;
     CONTENT: string;
     IMG_SRC: string;
     IMG_ALT: string;
@@ -28,6 +41,9 @@ export interface IMediaPanel {
     LIST_STYLE?: "check";
     DECOR_SRC?: string;
     WIDE_CONTENT?: boolean;
+    TITLE_IN_CONTENT?: boolean;
+    MEDIA_CARD?: IMediaCard;
+    MEDIA_OUTSIDE_ON_MOBILE?: boolean;
 }
 
 export interface IArticleHeader {
@@ -52,6 +68,7 @@ export interface IArticleSection {
   COMPARISON_CARDS?: IArticleComparison[];
   MEDIA_PANEL?: IMediaPanel;
   IS_SMALL?: boolean;
+  CALLOUT?: ICallout;
 }
 
 export interface IArticleCallToAction {

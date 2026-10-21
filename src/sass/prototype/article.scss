@@ -222,6 +222,30 @@
     padding-left: 26px;
 }
 
+.article-callout {
+    --callout-icon-size: 25px;
+    align-items: flex-start;
+    gap: 13px;
+    margin-bottom: 1.5rem;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f4f5f8;
+
+    .article-callout__icon {
+        flex: 0 0 auto;
+        width: var(--callout-icon-size);
+        height: auto;
+        margin: 0;
+        border-radius: 0;
+        aspect-ratio: auto;
+        object-fit: contain;
+    }
+
+    &__content > :last-child {
+        margin-bottom: 0;
+    }
+}
+
 .article__text p {
     font-family: os3;
     font-size: 1.5rem;
@@ -276,6 +300,10 @@
     border-radius: 0;
     aspect-ratio: auto;
     object-fit: fill;
+}
+
+.article-media-panel__media > img {
+    border-radius: 20px;
 }
 
 .article-comparison__footer {
@@ -336,6 +364,85 @@
     &__content > :last-child,
     &__content ul:last-child li:last-child {
         margin-bottom: 0;
+    }
+}
+
+.article-media-panel__intro {
+    grid-column: 1 / -1;
+    order: -2;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.article-media-panel__card {
+    --card-pad: 20px;
+    gap: 20px;
+    padding: var(--card-pad) var(--card-pad) 0;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+
+    p {
+        margin: 0;
+        font-size: 14px;
+    }
+}
+
+.article-media-panel__card-media {
+    margin: 0 calc(-1 * var(--card-pad));
+    aspect-ratio: 328 / 181;
+    /* height comes from aspect-ratio only; the image may overflow it (cropped by the card) */
+    min-height: 0;
+}
+
+/* background is exported at the size of the media area: keep it on the card's bottom edge */
+.article-media-panel__card-bg {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.article-media-panel__card-bg--desktop {
+    display: none;
+}
+
+/* higher specificity than the `.article-media-panel__media img { margin: 0 }` reset */
+.article-media-panel__card .article-media-panel__card-img {
+    display: block;
+    width: 81%;
+    margin: 2.9% auto 0;
+}
+
+.article-media-panel--media-outside {
+    row-gap: 0;
+    padding: 0;
+    background-color: transparent;
+
+    > .article-media-panel__title,
+    > .article-media-panel__intro,
+    > .article-media-panel__content {
+        padding: 24px 24px 0;
+        background-color: var(--panel-bg);
+    }
+
+    > :first-child {
+        border-radius: 20px 20px 0 0;
+    }
+
+    > .article-media-panel__content {
+        padding-bottom: 24px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    > .article-media-panel__content:first-child {
+        border-radius: 20px;
+    }
+
+    > .article-media-panel__media {
+        margin-top: 24px;
     }
 }
 
@@ -567,6 +674,87 @@
         &--wide-content {
             grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
         }
+
+        &--title-in-content {
+            grid-template-rows: auto 1fr;
+            align-items: start;
+
+            .article-media-panel__title,
+            .article-media-panel__content {
+                grid-column: 1;
+            }
+
+            .article-media-panel__title {
+                grid-row: 1;
+            }
+
+            .article-media-panel__content {
+                grid-row: 2;
+            }
+
+            .article-media-panel__media {
+                grid-column: 2;
+                grid-row: 1 / span 2;
+            }
+        }
+
+        &--title-in-content#{&}--img-left {
+            .article-media-panel__title,
+            .article-media-panel__content {
+                grid-column: 2;
+            }
+
+            .article-media-panel__media {
+                grid-column: 1;
+            }
+        }
+    }
+
+    .article-media-panel--media-outside {
+        background-color: var(--panel-bg);
+
+        > .article-media-panel__title,
+        > .article-media-panel__intro,
+        > .article-media-panel__content {
+            padding: 0;
+            background-color: transparent;
+            border-radius: 0;
+        }
+
+        > .article-media-panel__media {
+            margin-top: 0;
+        }
+    }
+
+    .article-media-panel__card {
+        --card-pad: 30px;
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .article-media-panel__card-media {
+        aspect-ratio: 400 / 278;
+    }
+
+    .article-media-panel__card-bg--mobile {
+        display: none;
+    }
+
+    .article-media-panel__card-bg--desktop {
+        display: block;
+    }
+
+    .article-media-panel__card .article-media-panel__card-img {
+        width: 100%;
+        margin-top: -4.1%;
+    }
+
+    .article-callout {
+        --callout-icon-size: 45px;
+        align-items: center;
+        gap: 21px;
     }
 
     .article-media-panel--decor {

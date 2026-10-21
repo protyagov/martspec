@@ -44,6 +44,7 @@ const articleVitamins = [
     "turkey_tail",
     "cordyceps",
     "reishi",
+    "red-light-therapy",
 ];
 
 export function App() {
