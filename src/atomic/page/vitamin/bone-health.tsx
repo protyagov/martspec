@@ -16,7 +16,7 @@ import Review from "@/atomic/prototype/review";
 import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
 import Accordion, * as VitaminAccordion from "@/atomic/molecule/accordion";
 import { getAppId } from "@/service/AppleService";
-//import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 import Table, { TableData } from "@/atomic/molecule/table";
@@ -24,6 +24,7 @@ import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
 
 export default function BoneHealth() {
+    const appId = getAppId();
     const items = useBreadcrumbs();
     // const FIRST_COL = ["Source", "Dissolving_speed", "Suitability", "Concerns"];
 
@@ -53,134 +54,110 @@ export default function BoneHealth() {
                 <div className="row">
                     <Breadcrumb items={items} />
                 </div>
-                {/* <section className="mt-0">
-                    <div>
-                        <div className="row align-items-center">
-                            <div className="col-12 col-lg-6">
-                                <h1>{_("CAPSULES.HEAD")}</h1>
-                                <p>{_("CAPSULES.DESC")}</p>
+                <section className="mt-0">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="col-12 col-md-6">
+                                <h1>{_("BONE_HEALTH.HEAD")}</h1>
                             </div>
 
-                            <div className="col-12 col-lg-6 mx-0">
-                                <ImageI18N
-                                src="/img/page/vitamin/capsules_header.avif"
-                                w={425}
+                            <ImageI18N
+                                src="/img/page/vitamin/bones-woman-work-out.webp"
+                                w={500}
                                 h={314}
-                                cls="ms-base-image mx-0"
-                                alt={_("CAPSULES.ALT")}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-
-                {/* <section>
-                    <div className="row">
-                        <h1>{_("CAPSULES.HEAD2")}</h1>
-                        <p>{_("CAPSULES.DESC2")}</p>
-                    </div>
-
-                    <div className="row mb-2">
-                        <div className="col-12 pe-2 m-0">
-                            <Table
-                                data={tableData}
-                                transformMobile={true}
-                                headerBgColor="#F5EFFF"
-                                firstColumnBgColor="#F9F5FF"
+                                cls="ms-base-image w-100 my-3 my-lg-4"
+                                alt={_("BONE_HEALTH.ALT1")}
                             />
+
+                            <p>{_("BONE_HEALTH.DESC1")}</p>
+                            <p>{_("BONE_HEALTH.DESC2")}</p>
                         </div>
                     </div>
+                </section>
+
+                <section>
                     <div className="row">
-                        <div>
+                        <h2>{_("BONE_HEALTH.HEAD2")}</h2>
+                        <p>{_("BONE_HEALTH.DESC3")}</p>
+                        <p>
+                            <strong>{_("BONE_HEALTH.SUBHEADS.HEAD1")}</strong> {_("BONE_HEALTH.SUBTITLES.TITLE1")}
+                        </p>
+                    </div>
+
+                    <div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                        <div className="col">
                             <CardTitleTextImageCustom
-                            cardHeight="8rem"
-                            title={_("CAPSULES.HEAD4")}
-                            text={_("CAPSULES.DESC4")}
-                            imgSrc="/img/page/vitamin/pill.avif"
-                            imgPosition="right-bottom"
-                            imgH="8.2rem"
-                            responsive={true}
-                            shadow={false}
-                            bgColor="#F9F5FF"
-                            primaryColor="#F9F5FF"
+                                title={_("BONE_HEALTH.CARDS.HEAD1")}
+                                text={_("BONE_HEALTH.CARDS.DESC1")}
+                                shadow={true}
+                            />
+                        </div>
+                        <div className="col">
+                            <CardTitleTextImageCustom
+                                title={_("BONE_HEALTH.CARDS.HEAD2")}
+                                text={_("BONE_HEALTH.CARDS.DESC2")}
+                                bgColor="#F4F5F8"
+                                shadow={true}
+                            />
+                        </div>
+                        <div className="col">
+                            <CardTitleTextImageCustom
+                                title={_("BONE_HEALTH.CARDS.HEAD3")}
+                                text={_("BONE_HEALTH.CARDS.DESC3")}
+                                shadow={true}
                             />
                         </div>
                     </div>
-                </section> */}
 
-                {/* <section>
-                    <div className="row mb-1">
-                        <h1>{_("CAPSULES.HEAD3")}</h1>
-                        <p>{_("CAPSULES.DESC3")}</p>
-                    </div>
-                    <div>
-                        <div className="row">
-                            <div className="col-12 col-md-6 py-3">
-                                <CardTitleTextImageCustom
-                                cardHeight="14rem"
-                                title={_("CAPSULES.CARDS.HEAD")}
-                                text={_("CAPSULES.CARDS.DESC")}
-                                imgSrc="/img/page/vitamin/card1.avif"
-                                imgPosition="right-bottom"
-                                imgH="17rem"
-                                responsive={true}
-                                shadow={true}
-                                bgColor="#FFFFFF"
-                                primaryColor="#7B62FE"
-                                />
-                            </div>
+                    <div
+                        className="row g-0 shadow rounded-3 align-items-center"
+                        style={{ backgroundColor: "#F8FDEA", overflow: "hidden" }}
+                    >
+                        <div className="col-12 col-xxl-6 order-2 order-xxl-2">
+                            <ImageI18N
+                                src="/img/page/vitamin/bones-back-ache.webp"
+                                w={620}
+                                h={390}
+                                alt={_("BONE_HEALTH.ALT2")}
+                                cls="ms-base-image mt-mob-xs"
+                            />
+                        </div>
 
-                            <div className="col-12 col-md-6 py-3">
-                                <CardTitleTextImageCustom
-                                cardHeight="14rem"
-                                title={_("CAPSULES.CARDS.HEAD2")}
-                                text={_("CAPSULES.CARDS.DESC2")}
-                                imgSrc="/img/page/vitamin/card2.avif"
-                                imgPosition="right-bottom"
-                                imgH="17rem"
-                                responsive={true}
-                                shadow={true}
-                                bgColor="#FFFFFF"
-                                primaryColor="#7B62FE"
-                                />
-                            </div>
-
-                            <div className="col-12 col-md-6 py-3">
-                                <CardTitleTextImageCustom
-                                cardHeight="14rem"
-                                title={_("CAPSULES.CARDS.HEAD3")}
-                                text={_("CAPSULES.CARDS.DESC3")}
-                                imgSrc="/img/page/vitamin/card3.avif"
-                                imgPosition="right-bottom"
-                                imgH="17rem"
-                                responsive={true}
-                                shadow={true}
-                                bgColor="#FFFFFF"
-                                primaryColor="#7B62FE"
-                                />
-                            </div>
-
-                            <div className="col-12 col-md-6 py-3">
-                                <CardTitleTextImageCustom
-                                cardHeight="14rem"
-                                title={_("CAPSULES.CARDS.HEAD4")}
-                                text={_("CAPSULES.CARDS.DESC4")}
-                                imgSrc="/img/page/vitamin/card4.avif"
-                                imgPosition="right-bottom"
-                                imgH="17rem"
-                                responsive={true}
-                                shadow={true}
-                                bgColor="#FFFFFF"
-                                primaryColor="#7B62FE"
-                                />
-                            </div>
+                        <div className="col-12 col-xxl-5 order-1 order-xxl-1 p-4 p-lg-5 bone-health">
+                            <p>
+                                <strong>{_("BONE_HEALTH.SUBHEADS.HEAD2")}</strong> {_("BONE_HEALTH.SUBTITLES.TITLE2")}
+                            </p>
+                            <ul className="header-content-list">
+                                <li>{_("BONE_HEALTH.LIST.1")}</li>
+                                <li>{_("BONE_HEALTH.LIST.2")}</li>
+                                <li>{_("BONE_HEALTH.LIST.3")}</li>
+                                <li>{_("BONE_HEALTH.LIST.4")}</li>
+                            </ul>
+                            <p>{_("BONE_HEALTH.SUBTITLES.TITLE3")}</p>
                         </div>
                     </div>
-                </section> */}
+
+                    <div className="row">
+                        <p>
+                            <strong>{_("BONE_HEALTH.SUBHEADS.HEAD3")}</strong> {_("BONE_HEALTH.SUBTITLES.TITLE4")}
+                        </p>
+                    </div>
+                </section>
+
+                <section className="row p-0 mt-0">
+                    <CallToAction
+                        title={_("VITAMIN.HEAD6")}
+                        subtitle={_("VITAMIN.DESC6")}
+                        appId={appId}
+                        appDownloadTitle={_("VITAMIN.DWN")}
+                        imgSrc="/img/org/call-to-action/vitamin/Img-CallToAction-en.webp"
+                        imgAlt={_("VITAMIN.ALT3")}
+                    />
+                </section>
             </div>
 
             <Footer />
-            {/*<ScrollButton color="#FEB215" />*/}
+            <ScrollButton />
         </>
     );
 }

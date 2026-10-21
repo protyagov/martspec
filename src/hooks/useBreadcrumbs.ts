@@ -19,7 +19,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             independence: _("EMOTION.LIST6.LI4_HEAD"),
             vitamin: _("VITAMIN.HEAD"),
             capsules: _("CAPSULES.HEAD"),
-            "bone-health": _("BONE_HEALTH.HEAD"),
+            "bone-health": _("BONE_HEALTH.NAME"),
             team: _("TEAM.HEAD"),
             about: _("ABOUT.HEAD"),
             careers: _("CAREERS.HEAD"),

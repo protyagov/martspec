@@ -396,7 +396,7 @@ export default function Vitamin() {
 
                             <div className="col-lg-6 pb-4 d-flex justify-content-end align-items-end">
                                 <ImageI18N
-                                    src="/img/page/vitamin/card-bone-health.webp"
+                                    src="/img/page/vitamin/bones-to-article.webp"
                                     w={520}
                                     h={400}
                                     alt={_("VITAMIN.ALT_7")}

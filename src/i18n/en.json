@@ -238,7 +238,39 @@
         }
     },
     "BONE_HEALTH": {
-        "HEAD": "How to Stop Bone Decline and Rebuild Strength"
+        "NAME": "Bone Health",
+        "HEAD": "How to stop bone decline & rebuild skeleton",
+        "DESC1": "Strong bones are the foundation of a vibrant, active life. They mean better movement, greater strength, and longer independence. If your bones are denser than the average person's, that single metric predicts you will live longer, move better, and stay independent for more time. Having weak bones can trigger a dangerous chain reaction: you break a bone, you hurt yourself, you can't work out, you lose muscle, and that leads to even less exercise. It continues a vicious domino effect on your body.",
+        "DESC2": "A study of women over 65 found that those with stronger bones were about 50% less likely to die and had a third fewer walking problems. For men aged 65 to 75, even small improvements in bone health made them about 25% less likely to die over the next several years. Don't lose hope—your body replaces its bones roughly every 10 years. By applying the appropriate exercise, nutrition, and habits like sleep, you can literally rebuild your bone density. Let’s break down what it takes to build and maintain peak bone health for life.",
+        "ALT1": "Athletic woman working out with a dumbbell in her hand",
+        "ALT2": "Man clutching his lower back in pain, with pain-relief patches visible on his lower back",
+        "HEAD2": "The Three Pillars of Bone Health",
+        "DESC3": "Building and maintaining your bones comes down to three key pillars: nutrition, healthy habits, and exercise.",
+        "SUBHEADS": {
+            "HEAD1": "Pillar 1: Smart Nutrition.",
+            "HEAD2": "Pillar 2: Healthy Habits.",
+            "HEAD3": "Pillar 3: Load-Bearing Exercise."
+        },
+        "SUBTITLES": {
+            "TITLE1": "When you're thinking about bone density, think about building a bridge. To stay on top of your intake, consider using a tool like the Martspec Vitamin app, which makes it simple to monitor and manage your daily needs. It also provides suggestions on whole, USDA-recommended organic foods to help you get those elements naturally if you prefer not to take capsules.",
+            "TITLE2": "Certain habits can undermine even the best nutrition plan. Avoid these bone saboteurs:",
+            "TITLE3": "These habits disrupt your body's calcium balance and weaken bone structure over time. Paired with quality sleep, avoiding them creates an environment where your bones can thrive.",
+            "TITLE4": "You can have all the right materials, but they won't become a solid structure without work. Bones need to be put under load to become strong. The most effective method is weight-bearing resistance training. Adding load to your exercises—whether through weights, bands, or bodyweight movements—forces your bones to adapt by building and mineralizing. The effect is powerful. Without mechanical load, bone loss accelerates dramatically. Astronauts in microgravity can lose up to 1.6% of their bone density per month, about ten times the typical rate on Earth."
+        },
+        "LIST": {
+            "1": "Smoking",
+            "2": "Excess Sodium",
+            "3": "Sugary Sodas",
+            "4": "Heavy Drinking"
+        },
+        "CARDS": {
+            "HEAD1": "The Framework (Collagen)",
+            "DESC1": "Collagen, an important type of protein, is the steel rebar — the framework that gives the structure its shape and tensile strength. To keep it solid, you need adequate amount of this protein — typically between 1.2g and 2.2g per kilogram of body weight.",
+            "HEAD2": "The Concrete (Minerals)",
+            "DESC2": "Minerals like Calcium, Phosphorus, Magnesium, and Boron are the concrete that fills in the framework, hardening and strengthening the structure. Without them, your skeleton would be like a bridge made only of steel cables—flexible but dangerously fragile.",
+            "HEAD3": "The Construction Crew (Vitamins D & K2)",
+            "DESC3": "Vitamin D acts as the delivery driver, picking up calcium and delivering to where your bones need it. K2 is the locksmith, activating the proteins that bind calcium firmly into the collagen framework. Without them, the raw materials sit unused."
+        }
     },
     "VITAMIN": {
         "HEAD": "Vitamin",
