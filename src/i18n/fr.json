@@ -292,6 +292,48 @@
             }
         }
     },
+    "BONE_HEALTH": {
+        "NAME": "Santé osseuse",
+        "HEAD": "Comment arrêter la dégradation osseuse et reconstruire le squelette",
+        "DESC1": "Des os solides sont la base d'une vie vibrante et active. Ils signifient un meilleur mouvement, une plus grande force et une indépendance plus longue. Si vos os sont plus denses que ceux d'une personne moyenne, cette seule mesure prédit que vous vivrez plus longtemps, bougerez mieux et resterez indépendant plus longtemps. Avoir des os faibles peut déclencher une dangereuse réaction en chaîne : vous vous cassez un os, vous vous blessez, vous ne pouvez pas faire d'exercice, vous perdez du muscle, ce qui entraîne encore moins d'exercice. Cela continue un effet domino vicieux sur votre corps.",
+        "DESC2": "Une étude menée auprès de femmes de plus de 65 ans a révélé que celles qui avaient des os plus solides étaient environ 50 % moins susceptibles de mourir et avaient un tiers de problèmes de marche en moins. Pour les hommes âgés de 65 à 75 ans, même de petites améliorations de la santé osseuse les rendaient environ 25 % moins susceptibles de mourir au cours des années suivantes. Ne perdez pas espoir — votre corps remplace ses os environ tous les 10 ans. En appliquant l'exercice, la nutrition et les habitudes appropriées comme le sommeil, vous pouvez littéralement reconstruire votre densité osseuse. Décomposons ce qu'il faut pour construire et maintenir une santé osseuse optimale pour la vie.",
+        "ALT1": "Femme athlétique s'entraînant avec un haltère à la main",
+        "ALT2": "Homme se tenant le bas du dos de douleur, avec des patchs antidouleur visibles sur le bas du dos",
+        "HEAD2": "Les trois piliers de la santé osseuse",
+        "DESC3": "Construire et maintenir vos os se résume à trois piliers clés : la nutrition, les habitudes saines et l'exercice.",
+        "SUBHEADS": {
+            "HEAD1": "Pilier 1 : Nutrition intelligente.",
+            "HEAD2": "Pilier 2 : Habitudes saines.",
+            "HEAD3": "Pilier 3 : Exercice en charge."
+        },
+        "SUBTITLES": {
+            "TITLE1": "Lorsque vous pensez à la densité osseuse, pensez à la construction d'un pont. Pour rester au fait de vos apports, envisagez d'utiliser un outil comme l'application Martspec Vitamin, qui facilite la surveillance et la gestion de vos besoins quotidiens. Elle fournit également des suggestions d'aliments biologiques complets recommandés par l'USDA pour vous aider à obtenir ces éléments naturellement si vous préférez ne pas prendre de capsules.",
+            "TITLE2": "Certaines habitudes peuvent saper même le meilleur plan nutritionnel. Évitez ces saboteurs d'os :",
+            "TITLE3": "Ces habitudes perturbent l'équilibre calcique de votre corps et affaiblissent la structure osseuse au fil du temps. Associées à un sommeil de qualité, les éviter crée un environnement où vos os peuvent prospérer.",
+            "TITLE4": "Vous pouvez avoir tous les bons matériaux, mais ils ne deviendront pas une structure solide sans travail. Les os doivent être soumis à une charge pour devenir forts. La méthode la plus efficace est l'entraînement en résistance avec charge. Ajouter une charge à vos exercices — que ce soit par des poids, des bandes ou des mouvements au poids du corps — force vos os à s'adapter en construisant et en se minéralisant. L'effet est puissant. Sans charge mécanique, la perte osseuse s'accélère considérablement. Les astronautes en microgravité peuvent perdre jusqu'à 1,6 % de leur densité osseuse par mois, soit environ dix fois le taux typique sur Terre."
+        },
+        "LIST": {
+            "1": "Tabagisme",
+            "2": "Excès de sodium",
+            "3": "Sodas sucrés",
+            "4": "Consommation excessive d'alcool"
+        },
+        "CARDS": {
+            "HEAD1": "La charpente (Collagène)",
+            "DESC1": "Le collagène, un type important de protéine, est l'acier d'armature — la charpente qui donne à la structure sa forme et sa résistance à la traction. Pour le garder solide, vous avez besoin d'une quantité adéquate de cette protéine — généralement entre 1,2 g et 2,2 g par kilogramme de poids corporel.",
+            "HEAD2": "Le béton (Minéraux)",
+            "DESC2": "Des minéraux comme le calcium, le phosphore, le magnésium et le bore sont le béton qui remplit la charpente, durcissant et renforçant la structure. Sans eux, votre squelette serait comme un pont fait uniquement de câbles en acier — flexible mais dangereusement fragile.",
+            "HEAD3": "L'équipe de construction (Vitamines D et K2)",
+            "DESC3": "La vitamine D agit comme le livreur, ramassant le calcium et le livrant là où vos os en ont besoin. La K2 est le serrurier, activant les protéines qui lient fermement le calcium à la charpente de collagène. Sans elles, les matières premières restent inutilisées."
+        },
+        "HEAD3": "Conclusion : Prenez le contrôle de votre squelette",
+        "DESC4": "La santé osseuse peut être améliorée à tout âge. Avec une nutrition appropriée et des exercices de renforcement, vous pouvez construire un squelette plus fort pour une meilleure mobilité, indépendance et vitalité.",
+        "DESC5": "DEXA Scan : personnalisez et suivez les progrès. Commencer avec trop peut causer des ballonnements, des gaz ou des maux d'estomac.",
+        "DESC6": "Si vous voulez plus de précision et un moyen mesurable de suivre les changements, faites un scan DEXA. La densité osseuse atteint généralement son pic entre 25 et 30 ans, après quoi elle diminue progressivement. Pour les femmes, cette baisse peut être dramatique — jusqu'à 20 % de la densité osseuse peut être perdue dans les premières années de la ménopause.",
+        "DESC7": "Score T : Compare vos os à ceux d'une personne en bonne santé de 30 ans du même sexe.",
+        "DESC8": "Score Z : Compare vos os à ceux de personnes de votre âge, sexe et taille.",
+        "DESC9": "Si vous avez la vingtaine ou le début de la trentaine, ce score est votre pic — une référence à maintenir pour la vie. Si votre score n'est pas ce que vous espériez, ne vous inquiétez pas. Votre squelette a une capacité remarquable à se renouveler en quelques années. Avec la bonne stratégie, vous pouvez reconstruire."
+    },
     "VITAMIN": {
         "HEAD": "Vitamine",
         "SUBHEAD": "le traqueur ultime de vitamines",
@@ -303,7 +345,7 @@
         "SUBHEAD1": "Suivi des nutriments et des médicaments",
         "SUBHEAD2": "Suivi des nutriments",
         "TEXT1": "Un suivi pratique des apports en vitamines & minéraux avec rappels. Synchronisation Apple Health. Sauvegardes iCloud sécurisées. Gratuit. Sans publicité ni achats intégrés.",
-        "BUTTON_OPEN_NUTRIENTS": "En savoir plus",
+        "BTN_MORE": "En savoir plus",
         "ICO1": "Icône de l'application Anneau de Vitamines, le meilleur suivi de la prise de vitamines. Synchronisation avec Apple Health et sauvegarde dans iCloud. Gratuit et sans publicité.",
         "DWN": "Téléchargez l'application gratuite de suivi des vitamines et des nutriments sur l'AppStore d'Apple",
         "ABOUT_1": "Contrôlez chaque jour votre consommation de vitamines et de minéraux importants",
@@ -364,6 +406,9 @@
         "ALT5_5": "Notification pratique concernant la prise de vitamines. Le rappel arrive par heure et jour de la semaine.",
         "ALT5_6": "Synchronisation avec l'application Apple Health - la meilleure base de toutes les vitamines et microéléments.",
         "ALT6": "iPhone affichant les aliments riches en vitamine K dans l'application Vitamine de Martspec.",
+        "ALT_7": "Personne soulevant des haltères pour la santé osseuse, entourée d'icônes de vitamines, d'une pomme et d'un bouclier, avec un squelette représenté sur ses vêtements.",
+        "HEAD_7": "Santé osseuse : votre squelette atteint son pic à 30 ans.",
+        "TEXT_3": "Des os solides sont la base d'une vie active et énergique. Ils offrent une meilleure mobilité, une plus grande force et une indépendance plus longue. Si vos os sont plus denses que la moyenne, cet unique indicateur prédit que vous vivrez plus longtemps, que vous bougerez mieux et que vous resterez indépendant plus longtemps.",
         "HEAD6": "Vitamine - Une application pour contrôler l'équilibre des vitamines et minéraux nécessaires.",
         "DESC6": "Installez l'application pour iOS gratuitement et profitez de la santé et de la vitalité.",
         "BTN_OPEN": "Vérifier",
@@ -2371,15 +2416,27 @@
         }
     },
     "WORKOUT": {
-        "HEAD": "Entraînements", "SUBHEAD": "Un journal d’entraînement complet pour planifier les séances, consigner les résultats et analyser vos progrès.",
-        "TRACKING_TITLE": "Consignez chaque activité", "TRACKING_TEXT": "Suivez poids de travail, exercices au poids du corps, répétitions et volume en musculation ; côté, durée de maintien et répétitions pour les étirements ; vitesse, intensité, distance et durée pour le cardio.",
-        "BUILDER_TITLE": "Créez vos séances", "BUILDER_TEXT": "Le catalogue réunit plus de 200 exercices avec instructions et images. Recherchez par nom, muscle ou matériel, ou créez vos propres exercices avec photos, paramètres de charge, MET et muscles sollicités. Combinez exercices et supersets de trois mouvements maximum, avec notes, photos, séries copiées et modifications rapides.",
-        "FEATURES_TITLE": "Chaque détail en vue", "CATALOG_TITLE": "Minuteurs et journaux complets", "CATALOG_TEXT": "Des minuteurs intégrés pour l’entraînement, le repos et les exercices chronométrés gardent votre rythme. À la fin, l’app crée un journal détaillé avec calories, poids total, durée et principaux groupes musculaires.",
-        "PROGRESS_TITLE": "Des progrès mesurables", "PROGRESS_TEXT": "Des valeurs MET scientifiquement établies estiment les calories pendant et avant les séances planifiées. L’historique conserve chaque série, record personnel et comparaison avec les séances précédentes pour analyser force et endurance sur la durée.",
-        "PRIVACY_TITLE": "Privé, hors ligne et synchronisé", "PRIVACY_TEXT": "Vos données se synchronisent uniquement via votre iCloud personnel. Nous ne les collectons, n’analysons ni ne stockons sur nos serveurs. L’app fonctionne entièrement hors ligne, se synchronise entre appareils et prend en charge les thèmes clair et sombre.",
-        "CALENDAR_TITLE": "Planifiez avec un calendrier flexible", "CALENDAR_TEXT": "Consultez les séances planifiées, actives et terminées à toute date. Copiez un programme pour un ou plusieurs jours et modifiez ensuite les séances terminées : exercices, horaires, notes et photos.",
-        "SHARING_TITLE": "Partagez le résultat", "SHARING_TEXT": "Après une séance, créez une belle carte de résultats avec une photo choisie pour la partager ou la publier.",
-        "CTA_TITLE": "Un journal qui respecte vos données", "CTA_TEXT": "Du premier plan au prochain record, Entraînements conserve détails, temps et progrès dans un espace privé.",
-        "ALT_CATALOG": "Minuteurs et journaux d’exercices détaillés", "ALT_PROGRESS": "Progrès et records personnels", "ALT_PRIVACY": "Synchronisation iCloud privée"
+        "HEAD": "Entraînements",
+        "SUBHEAD": "Un journal d’entraînement complet pour planifier les séances, consigner les résultats et analyser vos progrès.",
+        "TRACKING_TITLE": "Consignez chaque activité",
+        "TRACKING_TEXT": "Suivez poids de travail, exercices au poids du corps, répétitions et volume en musculation ; côté, durée de maintien et répétitions pour les étirements ; vitesse, intensité, distance et durée pour le cardio.",
+        "BUILDER_TITLE": "Créez vos séances",
+        "BUILDER_TEXT": "Le catalogue réunit plus de 200 exercices avec instructions et images. Recherchez par nom, muscle ou matériel, ou créez vos propres exercices avec photos, paramètres de charge, MET et muscles sollicités. Combinez exercices et supersets de trois mouvements maximum, avec notes, photos, séries copiées et modifications rapides.",
+        "FEATURES_TITLE": "Chaque détail en vue",
+        "CATALOG_TITLE": "Minuteurs et journaux complets",
+        "CATALOG_TEXT": "Des minuteurs intégrés pour l’entraînement, le repos et les exercices chronométrés gardent votre rythme. À la fin, l’app crée un journal détaillé avec calories, poids total, durée et principaux groupes musculaires.",
+        "PROGRESS_TITLE": "Des progrès mesurables",
+        "PROGRESS_TEXT": "Des valeurs MET scientifiquement établies estiment les calories pendant et avant les séances planifiées. L’historique conserve chaque série, record personnel et comparaison avec les séances précédentes pour analyser force et endurance sur la durée.",
+        "PRIVACY_TITLE": "Privé, hors ligne et synchronisé",
+        "PRIVACY_TEXT": "Vos données se synchronisent uniquement via votre iCloud personnel. Nous ne les collectons, n’analysons ni ne stockons sur nos serveurs. L’app fonctionne entièrement hors ligne, se synchronise entre appareils et prend en charge les thèmes clair et sombre.",
+        "CALENDAR_TITLE": "Planifiez avec un calendrier flexible",
+        "CALENDAR_TEXT": "Consultez les séances planifiées, actives et terminées à toute date. Copiez un programme pour un ou plusieurs jours et modifiez ensuite les séances terminées : exercices, horaires, notes et photos.",
+        "SHARING_TITLE": "Partagez le résultat",
+        "SHARING_TEXT": "Après une séance, créez une belle carte de résultats avec une photo choisie pour la partager ou la publier.",
+        "CTA_TITLE": "Un journal qui respecte vos données",
+        "CTA_TEXT": "Du premier plan au prochain record, Entraînements conserve détails, temps et progrès dans un espace privé.",
+        "ALT_CATALOG": "Minuteurs et journaux d’exercices détaillés",
+        "ALT_PROGRESS": "Progrès et records personnels",
+        "ALT_PRIVACY": "Synchronisation iCloud privée"
     }
 }
