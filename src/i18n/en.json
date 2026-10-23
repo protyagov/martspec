@@ -270,7 +270,14 @@
             "DESC2": "Minerals like Calcium, Phosphorus, Magnesium, and Boron are the concrete that fills in the framework, hardening and strengthening the structure. Without them, your skeleton would be like a bridge made only of steel cables—flexible but dangerously fragile.",
             "HEAD3": "The Construction Crew (Vitamins D & K2)",
             "DESC3": "Vitamin D acts as the delivery driver, picking up calcium and delivering to where your bones need it. K2 is the locksmith, activating the proteins that bind calcium firmly into the collagen framework. Without them, the raw materials sit unused."
-        }
+        },
+        "HEAD3": "Conclusion: Take Control of Your Skeleton",
+        "DESC4": "Bone health can be improved at any age. With proper nutrition and strengthening exercises, you can build a stronger skeleton for greater mobility, independence, and vitality.",
+        "DESC5": "DEXA Scan: personalize and track progress.  Starting with too much can cause bloating, gas, or stomach upset.",
+        "DESC6": "If you want more precision and a measurable way to track changes, get a DEXA scan. Bone density typically peaks between ages 25 and 30, after which it gradually declines. For women, this drop can be dramatic—up to 20% of bone density can be lost in the first few years of menopause.",
+        "DESC7": "T-score: Compares your bones to a healthy 30-year-old of the same sex.",
+        "DESC8": "Z-score: Compares your bones to people of your own age, sex, and size.",
+        "DESC9": "If you’re in your 20s or early 30s, this score is your peak—a benchmark to maintain for life. If your score isn’t what you hoped, don’t worry. Your skeleton has a remarkable ability to renew itself within several years. With the right strategy, you can rebuild."
     },
     "VITAMIN": {
         "HEAD": "Vitamin",

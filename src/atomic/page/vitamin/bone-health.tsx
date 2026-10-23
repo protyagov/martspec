@@ -125,6 +125,24 @@ export default function BoneHealth() {
                     </div>
                 </section>
 
+                <section>
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="bone-health-section shadow rounded-5 p-4 p-lg-5">
+                                <h2>{_("BONE_HEALTH.HEAD3")}</h2>
+                                <p>{_("BONE_HEALTH.DESC4")}</p>
+                                <p>{_("BONE_HEALTH.DESC5")}</p>
+                                <p>{_("BONE_HEALTH.DESC6")}</p>
+                                <ul className="header-content-list">
+                                    <li>{_("BONE_HEALTH.DESC7")}</li>
+                                    <li>{_("BONE_HEALTH.DESC8")}</li>
+                                </ul>
+                                <p>{_("BONE_HEALTH.DESC9")}</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section className="row p-0 mt-0">
                     <CallToAction
                         title={_("VITAMIN.HEAD6")}
