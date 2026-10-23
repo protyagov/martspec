@@ -9,6 +9,7 @@ const ROUTES = [
     { template: "bodymass", output: "bodymass" },
     { template: "iron", output: "iron" },
     { template: "calcium", output: "calcium" },
+    { template: "protein", output: "protein" },
     { template: "electrolyte", output: "electrolyte" },
     { template: "magnesium", output: "magnesium" },
     { template: "vitamin", output: "vitamin" },
@@ -27,6 +28,7 @@ const ROUTES = [
     { template: "emotion/productivity", output: "emotion/productivity" },
     { template: "emotion/energy", output: "emotion/energy" },
     { template: "emotion/openness", output: "emotion/openness" },
+    { template: "emotion/5-habits", output: "emotion/5-habits" },
     { template: "emotion/color-test", output: "emotion/color-test" },
 
     { template: "about", output: "about" },
@@ -88,6 +90,10 @@ const ROUTES = [
         "turkey_tail",
         "cordyceps",
         "reishi",
+<<<<<<< HEAD
+=======
+        "red-light-therapy"
+>>>>>>> master
     ].map((x) => ({
         template: `vitamin/${x}`,
         output: `vitamin/${x}`,

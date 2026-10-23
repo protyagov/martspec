@@ -1,5 +1,5 @@
 .vacancy-details {
-    #no-padding{
+    #no-padding {
         padding: 0;
     }
 
@@ -14,7 +14,7 @@
         margin-bottom: 1rem;
     }
 }
-    
+
 .vacancy-details h1 {
     // Базовые настройки
     word-break: break-word;
@@ -23,9 +23,121 @@
 }
 
 // Настройки для специфичных языков
-html[lang="ja"] h1, 
+html[lang="ja"] h1,
 html[lang="zh"] h1 {
     word-break: break-all;
     overflow-wrap: anywhere;
     hyphens: none;
+}
+
+.vacancy-details {
+    padding: 0 10%;
+    margin: 8.8rem auto 8.8rem auto;
+
+    @media (min-width: 320px) and (max-width: 599px) {
+        padding: 0 7%;
+        margin: 2rem auto;
+    }
+
+    @media (min-width: 600px) and (max-width: 991px) {
+        padding: 0 10%;
+        margin: 2rem auto;
+    }
+
+      @media (min-width: 1400px) {
+        max-width: 1320px;
+        padding: 0 3%;
+    }
+}
+
+.vacancy-details__pre-last-child {
+    margin-bottom: 6.6rem !important;
+}
+
+.vacancy-details__last-child {
+    margin-top: 6.6rem !important;
+    margin-bottom: 2.5rem !important;
+}
+
+.vacancy-details__mb-0 {
+    margin-bottom: 0 !important;
+    color: #212529;
+}
+
+.vacancy-details__p {
+    color: #212529;
+}
+
+.vacancy-details__li {
+    font-family: os3;
+    font-size: 1.5rem;
+}
+
+.vacancy-details__list-style {
+    list-style: none;
+    padding-left: 0;
+}
+
+.vacancy-details__h1 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.vacancy-details__h2 {
+    color: #212529;
+    font-family: os6;
+    font-size: 2rem;
+    margin-bottom: 1.85rem;
+    margin-top: 2rem;
+    overflow-wrap: anywhere;
+}
+
+.vacancy-details__mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.vacancy-details__h3 {
+    color: #444;
+    font-family: os5;
+    font-size: 2rem;
+    overflow-wrap: anywhere;
+}
+
+.vacancy-details__ml-0 {
+    margin-left: 0 !important;
+}
+
+.vacancy-details__button {
+    margin-bottom: 4rem;
+}
+
+.vacancy-details__col {
+    margin-bottom: 2rem;
+}
+
+.vacancy-details__bullet-list {
+    display: grid;
+    gap: 1rem;
+    padding-left: 0 !important;
+
+    li {
+        display: flex;
+        align-items: flex-start;
+
+        .bullet-list__icon {
+            margin-top: 4px;
+            width: 23px;
+            height: 23px;
+            fill: currentColor;
+            margin-right: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .bullet-list__text {
+            flex-grow: 1;
+            font-family: os3;
+            font-size: 1.5rem;
+            margin-left: 0.5rem;
+        }
+    }
 }

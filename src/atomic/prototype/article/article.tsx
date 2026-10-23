@@ -3,11 +3,13 @@ import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import _, { Locale } from "@/i18n/locale";
 import { getAppId } from "@/service/AppleService";
+import appIds from "@/data/app-ids.json";
 import { IArticleModel } from "./interfaces";
 import NavigationBar from "@/atomic/organism/navbar";
 import { Footer } from "@/atomic/organism/footer";
 import ScrollButton from "@/atomic/atom/scroll-button";
 import CallToAction from "@/atomic/organism/call-to-action-new";
+import ButtonApple from "@/atomic/atom/button-apple";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
@@ -185,7 +187,11 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
             const hasRightColumn = !!item.RIGHT_COLUMN;
             const hasLeftColumn = !!item.LEFT_COLUMN;
             return (
-              <section key={index} className="article-content">
+              <section
+                key={index}
+                className="article-content"
+                style={{ ["--marker-color" as any]: markerColor }}
+              >
                 <div className={hasLeftColumn ? "article-section--audio-layout" : ""}>
                 {hasLeftColumn && (
                   <aside
@@ -219,6 +225,16 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                         <div className="article__section-title">
                           <ReactMarkdown>{item.TITLE}</ReactMarkdown>
                         </div>
+                        {item.CALLOUT && (
+                          <div className="article-callout d-flex">
+                            {item.CALLOUT.ICON && (
+                              <img className="article-callout__icon" src={item.CALLOUT.ICON} alt="" />
+                            )}
+                            <div className="article-callout__content">
+                              <ReactMarkdown>{item.CALLOUT.CONTENT}</ReactMarkdown>
+                            </div>
+                          </div>
+                        )}
                         {item.IMG_SRC && (
                           <img
                             className={`img-fluid ${item.IS_SMALL ? 'article__image--small' : 'article__image--content'}`}
@@ -265,18 +281,135 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                     </div>
                   </div>
                 </div>
+                {item.MEDIA_PANEL && (
+                  <div
+                    className={`article-media-panel ${
+                      item.MEDIA_PANEL.IMG_POSITION === "left"
+                        ? "article-media-panel--img-left"
+                        : "article-media-panel--img-right"
+                    }${
+                      item.MEDIA_PANEL.BG_COLOR ? " article-media-panel--with-bg" : ""
+                    }${item.MEDIA_PANEL.IMG_FIRST_ON_MOBILE ? " article-media-panel--img-first" : ""}${
+                      item.MEDIA_PANEL.DECOR_SRC ? " article-media-panel--decor" : ""
+                    }${item.MEDIA_PANEL.WIDE_CONTENT ? " article-media-panel--wide-content" : ""}${
+                      item.MEDIA_PANEL.TITLE_IN_CONTENT ? " article-media-panel--title-in-content" : ""
+                    }${item.MEDIA_PANEL.MEDIA_OUTSIDE_ON_MOBILE ? " article-media-panel--media-outside" : ""}`}
+                    style={{
+                      ...(item.MEDIA_PANEL.MEDIA_OUTSIDE_ON_MOBILE
+                        ? { ["--panel-bg" as any]: item.MEDIA_PANEL.BG_COLOR ?? "transparent" }
+                        : { backgroundColor: item.MEDIA_PANEL.BG_COLOR ?? "transparent" }),
+                      ["--marker-color" as any]: markerColor,
+                    }}
+                  >
+                    {item.MEDIA_PANEL.TITLE && (
+                      <div className="article__section-title article-media-panel__title">
+                        <ReactMarkdown>{item.MEDIA_PANEL.TITLE}</ReactMarkdown>
+                      </div>
+                    )}
+                    {item.MEDIA_PANEL.INTRO && (
+                      <div className="article-media-panel__intro">
+                        <ReactMarkdown>{item.MEDIA_PANEL.INTRO}</ReactMarkdown>
+                      </div>
+                    )}
+                    <div
+                      className={`article-media-panel__content${
+                        item.MEDIA_PANEL.CARD_COLOR ? " article-media-panel__content--card" : ""
+                      }${item.MEDIA_PANEL.LIST_STYLE === "check" ? " article-list--check" : ""}`}
+                      style={item.MEDIA_PANEL.CARD_COLOR ? { backgroundColor: item.MEDIA_PANEL.CARD_COLOR } : undefined}
+                    >
+                      <ReactMarkdown>{item.MEDIA_PANEL.CONTENT}</ReactMarkdown>
+                    </div>
+                    <div className="article-media-panel__media d-flex align-items-center justify-content-center">
+                      {item.MEDIA_PANEL.DECOR_SRC && (
+                        <div className="article-media-panel__decor position-absolute z-n1 pe-none" aria-hidden="true">
+                          <img className="d-block w-100 h-100" src={item.MEDIA_PANEL.DECOR_SRC} alt="" />
+                        </div>
+                      )}
+                      {item.MEDIA_PANEL.MEDIA_CARD ? (
+                        <div className="article-media-panel__card d-flex flex-column w-100 overflow-hidden">
+                          {item.MEDIA_PANEL.MEDIA_CARD.CONTENT && (
+                            <ReactMarkdown>{item.MEDIA_PANEL.MEDIA_CARD.CONTENT}</ReactMarkdown>
+                          )}
+                          {item.MEDIA_PANEL.MEDIA_CARD.APP && (
+                            <div className="d-flex">
+                              <ButtonApple
+                                appId={appIds[item.MEDIA_PANEL.MEDIA_CARD.APP]}
+                                appDownloadTitle={_("ANXIETY.DWN")}
+                              />
+                            </div>
+                          )}
+                          <div className="article-media-panel__card-media position-relative">
+                            {item.MEDIA_PANEL.MEDIA_CARD.BG_IMAGE && (
+                              <>
+                                <img
+                                  className="article-media-panel__card-bg article-media-panel__card-bg--mobile position-absolute"
+                                  src={item.MEDIA_PANEL.MEDIA_CARD.BG_IMAGE_MOBILE ?? item.MEDIA_PANEL.MEDIA_CARD.BG_IMAGE}
+                                  alt=""
+                                />
+                                <img
+                                  className="article-media-panel__card-bg article-media-panel__card-bg--desktop position-absolute"
+                                  src={item.MEDIA_PANEL.MEDIA_CARD.BG_IMAGE}
+                                  alt=""
+                                />
+                              </>
+                            )}
+                            <img
+                              className="article-media-panel__card-img position-relative"
+                              src={item.MEDIA_PANEL.IMG_SRC}
+                              alt={item.MEDIA_PANEL.IMG_ALT}
+                            />
+                          </div>
+                        </div>
+                      ) : (
+                        <img
+                          className="img-fluid w-100"
+                          src={item.MEDIA_PANEL.IMG_SRC}
+                          alt={item.MEDIA_PANEL.IMG_ALT}
+                        />
+                      )}
+                    </div>
+                  </div>
+                )}
                 {item.COMPARISON_CARDS && (
-                  <div className="article-comparison">
+                  <div
+                    className={`article-comparison${
+                      item.COMPARISON_CARDS.some((card) => card.IMG_SRC) ? " article-comparison--with-img" : ""
+                    }`}
+                  >
                     {item.COMPARISON_CARDS.map((card, index) => (
                       <div
                         key={index}
-                        className="article-comparison__card"
+                        className={`article-comparison__card${
+                          card.LIST_STYLE === "check" ? " article-list--check" : ""
+                        }${card.IMG_SRC ? " article-comparison__card--with-img d-flex flex-column overflow-hidden" : ""}`}
                         style={{
                           backgroundColor: card.BG_COLOR ?? "transparent",
                         }}
                       >
                         <ReactMarkdown>{card.TITLE}</ReactMarkdown>
                         <ReactMarkdown>{card.CONTENT}</ReactMarkdown>
+                        {(card.APP || card.IMG_SRC) && (
+                          <div className="article-comparison__footer position-relative d-flex flex-column align-items-start">
+                            {card.APP && (
+                              <ButtonApple appId={appIds[card.APP]} appDownloadTitle={_("ANXIETY.DWN")} />
+                            )}
+                            {card.IMG_SRC && (
+                              <div className="position-relative w-100">
+                                {card.BG_IMAGE && (
+                                  <>
+                                    <img className="article-comparison__bg-mobile w-100" src={card.BG_IMAGE_MOBILE ?? card.BG_IMAGE} alt="" />
+                                    <img className="article-comparison__bg-desktop w-100" src={card.BG_IMAGE} alt="" />
+                                  </>
+                                )}
+                                <img
+                                  className="article-comparison__phone position-absolute"
+                                  src={card.IMG_SRC}
+                                  alt={card.IMG_ALT ?? ""}
+                                />
+                              </div>
+                            )}
+                          </div>
+                        )}
                       </div>
                     ))}
                   </div>
@@ -287,28 +420,30 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
         </div>
       )}
 
-      <section className="article__container article__text">
-        {isLoading ? (
-          <div
-            className="skeleton-cta"
-            style={{
-              height: "420px",
-              backgroundColor: "#e5e7eb",
-              animation: "pulse 1.5s infinite ease-in-out",
-              borderRadius: "12px",
-            }}
-          />
-        ) : (
-          <CallToAction
-            title={articleData?.CALL_TO_ACTION.TITLE ?? ""}
-            subtitle={articleData?.CALL_TO_ACTION.SUBTITLE}
-            appId={appId}
-            appDownloadTitle={_("ANXIETY.DWN")}
-            imgSrc={CALL_TO_ACTION_IMGS[articleType]}
-            imgAlt={articleData?.CALL_TO_ACTION.ALT}
-          />
-        )}
-      </section>
+      {(isLoading || articleData?.CALL_TO_ACTION) && (
+        <section className="article__container article__text">
+          {isLoading ? (
+            <div
+              className="skeleton-cta"
+              style={{
+                height: "420px",
+                backgroundColor: "#e5e7eb",
+                animation: "pulse 1.5s infinite ease-in-out",
+                borderRadius: "12px",
+              }}
+            />
+          ) : (
+            <CallToAction
+              title={articleData?.CALL_TO_ACTION?.TITLE ?? ""}
+              subtitle={articleData?.CALL_TO_ACTION?.SUBTITLE}
+              appId={appId}
+              appDownloadTitle={_("ANXIETY.DWN")}
+              imgSrc={CALL_TO_ACTION_IMGS[articleType]}
+              imgAlt={articleData?.CALL_TO_ACTION?.ALT}
+            />
+          )}
+        </section>
+      )}
 
       <Footer />
       <ScrollButton />

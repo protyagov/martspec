@@ -26,6 +26,7 @@ import Iron from "@/atomic/page/iron";
 import Calcium from "@/atomic/page/calcium";
 import Workout from "@/atomic/page/workout";
 import Article from "@/atomic/prototype/article/article";
+import Protein from "./atomic/page/protein";
 
 const articleVitamins = [
     "acai",
@@ -44,6 +45,7 @@ const articleVitamins = [
     "turkey_tail",
     "cordyceps",
     "reishi",
+    "red-light-therapy",
 ];
 
 export function App() {
@@ -97,6 +99,8 @@ export function App() {
             return <Iron />;
         case "/calcium":
             return <Calcium />;
+        case "/protein":
+            return <Protein />;
         case "/workout":
             return <Workout />;
         case "/coming-soon":

@@ -25,6 +25,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             careers: _("CAREERS.HEAD"),
             "scam-protection": _("SCAM_PROTECTION.HEAD"),
             productivity: _("EMOTION.LIST6.LI2_HEAD"),
+            protein: _("PROTEIN.HEAD"),
             bodymass: _("MASS.HEAD"),
             iron: _("IRON.HEAD"),
             magnesium: _("MAGNESIUM.HEAD"),
@@ -35,6 +36,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             openness: _("EMOTION.LIST6.LI6_HEAD"),
             energy: _("EMOTION.LIST6.LI5_HEAD"),
             harmony: _("EMOTION.LIST6.LI3_HEAD"),
+            "5-habits": _("EMOTION.BANNER_5_HABITS.BREADCRUMB"),
             biorhythms: _("BIORHYTHMS.HEAD"),
             calcium: _("CALCIUM.HEAD"),
             lion: _("VITAMIN.LION.NAME"),
@@ -54,6 +56,7 @@ export const useBreadcrumbs = (): BreadcrumbItem[] => {
             turkey_tail: _("VITAMIN.TURKEY_TAIL.NAME"),
             cordyceps: _("VITAMIN.CORDYCEPS.NAME"),
             reishi: _("VITAMIN.REISHI.NAME"),
+            "red-light-therapy": _("VITAMIN.RED_LIGHT_THERAPY.NAME"),
         };
 
         const items: BreadcrumbItem[] = cleanPath.map((segment, index) => {
