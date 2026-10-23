@@ -26,26 +26,7 @@ import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-cu
 export default function BoneHealth() {
     const appId = getAppId();
     const items = useBreadcrumbs();
-    // const FIRST_COL = ["Source", "Dissolving_speed", "Suitability", "Concerns"];
 
-    // const tableData: TableData = {
-    //     caption: _("CAPSULES.CAPSULES.CAPTION"), //SEO описание
-    //     headers: [
-    //         _("CAPSULES.CAPSULES.EMPTY"),
-    //         _("CAPSULES.CAPSULES.HEAD1"),
-    //         _("CAPSULES.CAPSULES.HEAD2")
-    //     ],
-    //     rows: FIRST_COL.map((colname, idx) => {
-    //         const gelatin = _("CAPSULES.CAPSULES.TEXT.GELATIN")[idx];
-    //         const vegan = _("CAPSULES.CAPSULES.TEXT.VEGAN")[idx];
-
-    //         return [
-    //             _("CAPSULES.CAPSULES.FIRST_COL." + colname),
-    //             gelatin ? `${_("CAPSULES.CAPSULES.TEXT.GELATIN." + [idx])}` : " ",
-    //             vegan ? `${_("CAPSULES.CAPSULES.TEXT.VEGAN." + [idx])}` : " "
-    //         ];
-    //     })
-    // };
     return (
         <>
             <NavigationBar />
@@ -83,7 +64,6 @@ export default function BoneHealth() {
                             <strong>{_("BONE_HEALTH.SUBHEADS.HEAD1")}</strong> {_("BONE_HEALTH.SUBTITLES.TITLE1")}
                         </p>
                     </div>
-
                     <div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                         <div className="col">
                             <CardTitleTextImageCustom
@@ -108,32 +88,33 @@ export default function BoneHealth() {
                             />
                         </div>
                     </div>
+                    <div className="row bone-health">
+                        <div className="col-12">
+                            <div className="bone-health-card d-flex flex-wrap align-items-center justify-content-between shadow rounded-5">
+                                <div className="col-12 col-xxl-6 order-2 order-xxl-2 my-4 rounded-5 overflow-hidden">
+                                    <ImageI18N
+                                        src="/img/page/vitamin/bones-back-ache.webp"
+                                        w={480}
+                                        h={360}
+                                        alt={_("BONE_HEALTH.ALT2")}
+                                        cls="ms-base-image mt-mob-xs rounded-5"
+                                    />
+                                </div>
 
-                    <div
-                        className="row g-0 shadow rounded-3 align-items-center"
-                        style={{ backgroundColor: "#F8FDEA", overflow: "hidden" }}
-                    >
-                        <div className="col-12 col-xxl-6 order-2 order-xxl-2">
-                            <ImageI18N
-                                src="/img/page/vitamin/bones-back-ache.webp"
-                                w={620}
-                                h={390}
-                                alt={_("BONE_HEALTH.ALT2")}
-                                cls="ms-base-image mt-mob-xs"
-                            />
-                        </div>
-
-                        <div className="col-12 col-xxl-5 order-1 order-xxl-1 p-4 p-lg-5 bone-health">
-                            <p>
-                                <strong>{_("BONE_HEALTH.SUBHEADS.HEAD2")}</strong> {_("BONE_HEALTH.SUBTITLES.TITLE2")}
-                            </p>
-                            <ul className="header-content-list">
-                                <li>{_("BONE_HEALTH.LIST.1")}</li>
-                                <li>{_("BONE_HEALTH.LIST.2")}</li>
-                                <li>{_("BONE_HEALTH.LIST.3")}</li>
-                                <li>{_("BONE_HEALTH.LIST.4")}</li>
-                            </ul>
-                            <p>{_("BONE_HEALTH.SUBTITLES.TITLE3")}</p>
+                                <div className="col-12 col-xxl-5 order-1 order-xxl-1 p-4 p-lg-5">
+                                    <p>
+                                        <strong>{_("BONE_HEALTH.SUBHEADS.HEAD2")}</strong>{" "}
+                                        {_("BONE_HEALTH.SUBTITLES.TITLE2")}
+                                    </p>
+                                    <ul className="header-content-list">
+                                        <li>{_("BONE_HEALTH.LIST.1")}</li>
+                                        <li>{_("BONE_HEALTH.LIST.2")}</li>
+                                        <li>{_("BONE_HEALTH.LIST.3")}</li>
+                                        <li>{_("BONE_HEALTH.LIST.4")}</li>
+                                    </ul>
+                                    <p>{_("BONE_HEALTH.SUBTITLES.TITLE3")}</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
