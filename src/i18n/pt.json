@@ -239,6 +239,48 @@
             }
         }
     },
+    "BONE_HEALTH": {
+        "NAME": "Saúde óssea",
+        "HEAD": "Como parar o declínio ósseo e reconstruir o esqueleto",
+        "DESC1": "Ossos fortes são a base de uma vida vibrante e ativa. Eles significam melhor movimento, maior força e independência mais longa. Se seus ossos são mais densos que os de uma pessoa média, essa única métrica prevê que você viverá mais, se moverá melhor e permanecerá independente por mais tempo. Ter ossos fracos pode desencadear uma reação em cadeia perigosa: você quebra um osso, se machuca, não consegue treinar, perde músculo, e isso leva a ainda menos exercício. Continua um efeito dominó vicioso no seu corpo.",
+        "DESC2": "Um estudo com mulheres com mais de 65 anos descobriu que aquelas com ossos mais fortes tinham cerca de 50% menos probabilidade de morrer e tinham um terço menos problemas de caminhada. Para homens de 65 a 75 anos, mesmo pequenas melhorias na saúde óssea os tornaram cerca de 25% menos propensos a morrer nos anos seguintes. Não perca a esperança — seu corpo substitui seus ossos aproximadamente a cada 10 anos. Aplicando exercícios, nutrição e hábitos adequados como o sono, você pode literalmente reconstruir sua densidade óssea. Vamos detalhar o que é necessário para construir e manter a saúde óssea máxima por toda a vida.",
+        "ALT1": "Mulher atlética treinando com um haltere na mão",
+        "ALT2": "Homem segurando a lombar com dor, com adesivos de alívio da dor visíveis na lombar",
+        "HEAD2": "Os três pilares da saúde óssea",
+        "DESC3": "Construir e manter seus ossos se resume a três pilares principais: nutrição, hábitos saudáveis e exercício.",
+        "SUBHEADS": {
+            "HEAD1": "Pilar 1: Nutrição inteligente.",
+            "HEAD2": "Pilar 2: Hábitos saudáveis.",
+            "HEAD3": "Pilar 3: Exercício com carga."
+        },
+        "SUBTITLES": {
+            "TITLE1": "Quando você pensa em densidade óssea, pense em construir uma ponte. Para ficar por dentro da sua ingestão, considere usar uma ferramenta como o aplicativo Martspec Vitamin, que torna simples monitorar e gerenciar suas necessidades diárias. Ele também fornece sugestões de alimentos orgânicos integrais recomendados pelo USDA para ajudá-lo a obter esses elementos naturalmente se você preferir não tomar cápsulas.",
+            "TITLE2": "Certos hábitos podem minar até o melhor plano de nutrição. Evite estes sabotadores de ossos:",
+            "TITLE3": "Esses hábitos perturbam o equilíbrio de cálcio do seu corpo e enfraquecem a estrutura óssea com o tempo. Combinados com sono de qualidade, evitá-los cria um ambiente onde seus ossos podem prosperar.",
+            "TITLE4": "Você pode ter todos os materiais certos, mas eles não se tornarão uma estrutura sólida sem trabalho. Os ossos precisam ser colocados sob carga para se tornarem fortes. O método mais eficaz é o treinamento de resistência com carga. Adicionar carga aos seus exercícios — seja através de pesos, faixas ou movimentos com o peso corporal — força seus ossos a se adaptarem construindo e mineralizando. O efeito é poderoso. Sem carga mecânica, a perda óssea acelera dramaticamente. Astronautas em microgravidade podem perder até 1,6% de sua densidade óssea por mês, cerca de dez vezes a taxa típica na Terra."
+        },
+        "LIST": {
+            "1": "Fumar",
+            "2": "Excesso de sódio",
+            "3": "Refrigerantes açucarados",
+            "4": "Consumo excessivo de álcool"
+        },
+        "CARDS": {
+            "HEAD1": "A estrutura (Colágeno)",
+            "DESC1": "O colágeno, um tipo importante de proteína, é o vergalhão de aço — a estrutura que dá forma e resistência à tração à estrutura. Para mantê-lo sólido, você precisa de uma quantidade adequada dessa proteína — tipicamente entre 1,2 g e 2,2 g por quilograma de peso corporal.",
+            "HEAD2": "O concreto (Minerais)",
+            "DESC2": "Minerais como Cálcio, Fósforo, Magnésio e Boro são o concreto que preenche a estrutura, endurecendo e fortalecendo a estrutura. Sem eles, seu esqueleto seria como uma ponte feita apenas de cabos de aço — flexível mas perigosamente frágil.",
+            "HEAD3": "A equipe de construção (Vitaminas D e K2)",
+            "DESC3": "A vitamina D atua como o motorista de entrega, pegando cálcio e entregando onde seus ossos precisam. A K2 é o chaveiro, ativando as proteínas que ligam o cálcio firmemente à estrutura de colágeno. Sem elas, as matérias-primas ficam sem uso."
+        },
+        "HEAD3": "Conclusão: Assuma o controle do seu esqueleto",
+        "DESC4": "A saúde óssea pode ser melhorada em qualquer idade. Com nutrição adequada e exercícios de fortalecimento, você pode construir um esqueleto mais forte para maior mobilidade, independência e vitalidade.",
+        "DESC5": "DEXA Scan: personalize e acompanhe o progresso. Começar com muito pode causar inchaço, gases ou desconforto estomacal.",
+        "DESC6": "Se você quer mais precisão e uma maneira mensurável de rastrear mudanças, faça um exame DEXA. A densidade óssea geralmente atinge o pico entre 25 e 30 anos, após o que diminui gradualmente. Para as mulheres, essa queda pode ser dramática — até 20% da densidade óssea pode ser perdida nos primeiros anos da menopausa.",
+        "DESC7": "Escore T: Compara seus ossos com os de uma pessoa saudável de 30 anos do mesmo sexo.",
+        "DESC8": "Escore Z: Compara seus ossos com pessoas da sua própria idade, sexo e tamanho.",
+        "DESC9": "Se você está na casa dos 20 ou início dos 30, esse escore é o seu pico — uma referência para manter por toda a vida. Se o seu escore não é o que você esperava, não se preocupe. Seu esqueleto tem uma capacidade notável de se renovar em vários anos. Com a estratégia certa, você pode reconstruir."
+    },
     "VITAMIN": {
         "HEAD": "Vitamina",
         "SUBHEAD": "o melhor rastreador de vitaminas",

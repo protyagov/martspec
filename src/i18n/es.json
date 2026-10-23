@@ -239,6 +239,48 @@
             }
         }
     },
+    "BONE_HEALTH": {
+        "NAME": "Salud ósea",
+        "HEAD": "Cómo detener el deterioro óseo y reconstruir el esqueleto",
+        "DESC1": "Los huesos fuertes son la base de una vida vibrante y activa. Significan mejor movimiento, mayor fuerza y más independencia. Si tus huesos son más densos que los de una persona promedio, esa única métrica predice que vivirás más tiempo, te moverás mejor y permanecerás independiente por más tiempo. Tener huesos débiles puede desencadenar una peligrosa reacción en cadena: te rompes un hueso, te lesionas, no puedes hacer ejercicio, pierdes músculo, y eso lleva aun menos ejercicio. Continúa un efecto dominó vicioso en tu cuerpo.",
+        "DESC2": "Un estudio de mujeres mayores de 65 años encontró que aquellas con huesos más fuertes tenían aproximadamente un 50 % menos de probabilidad de morir y un tercio menos de problemas para caminar. Para los hombres de 65 a 75 años, incluso pequeñas mejoras en la salud ósea los hicieron aproximadamente un 25 % menos propensos a morir en los siguientes años. No pierdas la esperanza — tu cuerpo reemplaza sus huesos aproximadamente cada 10 años. Aplicando el ejercicio, la nutrición y los hábitos adecuados como el sueño, puedes literalmente reconstruir tu densidad ósea. Desglosemos lo que se necesita para construir y mantener una salud ósea óptima de por vida.",
+        "ALT1": "Mujer atlética entrenando con una mancuerna en la mano",
+        "ALT2": "Hombre agarrando su espalda baja con dolor, con parches para aliviar el dolor visibles en su espalda baja",
+        "HEAD2": "Los tres pilares de la salud ósea",
+        "DESC3": "Construir y mantener tus huesos se reduce a tres pilares clave: nutrición, hábitos saludables y ejercicio.",
+        "SUBHEADS": {
+            "HEAD1": "Pilar 1: Nutrición inteligente.",
+            "HEAD2": "Pilar 2: Hábitos saludables.",
+            "HEAD3": "Pilar 3: Ejercicio con carga."
+        },
+        "SUBTITLES": {
+            "TITLE1": "Cuando pienses en la densidad ósea, piensa en construir un puente. Para mantener el control de tu ingesta, considera usar una herramienta como la aplicación Martspec Vitamin, que facilita el monitoreo y la gestión de tus necesidades diarias. También ofrece sugerencias sobre alimentos orgánicos integrales recomendados por el USDA para ayudarte a obtener esos elementos naturalmente si prefieres no tomar cápsulas.",
+            "TITLE2": "Ciertos hábitos pueden socavar incluso el mejor plan de nutrición. Evita estos saboteadores de huesos:",
+            "TITLE3": "Estos hábitos alteran el equilibrio de calcio de tu cuerpo y debilitan la estructura ósea con el tiempo. Combinados con un sueño de calidad, evitarlos crea un entorno donde tus huesos pueden prosperar.",
+            "TITLE4": "Puedes tener todos los materiales correctos, pero no se convertirán en una estructura sólida sin trabajo. Los huesos necesitan ser sometidos a carga para volverse fuertes. El método más efectivo es el entrenamiento de resistencia con carga. Agregar carga a tus ejercicios — ya sea con pesas, bandas o movimientos con el peso corporal — obliga a tus huesos a adaptarse construyendo y mineralizándose. El efecto es poderoso. Sin carga mecánica, la pérdida ósea se acelera dramáticamente. Los astronautas en microgravedad pueden perder hasta un 1,6 % de su densidad ósea por mes, aproximadamente diez veces la tasa típica en la Tierra."
+        },
+        "LIST": {
+            "1": "Fumar",
+            "2": "Exceso de sodio",
+            "3": "Refrescos azucarados",
+            "4": "Consumo excesivo de alcohol"
+        },
+        "CARDS": {
+            "HEAD1": "El marco (Colágeno)",
+            "DESC1": "El colágeno, un tipo importante de proteína, es el acero de refuerzo — el marco que da forma y resistencia a la tracción a la estructura. Para mantenerlo sólido, necesitas una cantidad adecuada de esta proteína — típicamente entre 1,2 g y 2,2 g por kilogramo de peso corporal.",
+            "HEAD2": "El concreto (Minerales)",
+            "DESC2": "Minerales como el calcio, el fósforo, el magnesio y el boro son el concreto que llena el marco, endureciendo y fortaleciendo la estructura. Sin ellos, tu esqueleto sería como un puente hecho solo de cables de acero — flexible pero peligrosamente frágil.",
+            "HEAD3": "El equipo de construcción (Vitaminas D y K2)",
+            "DESC3": "La vitamina D actúa como el repartidor, recogiendo calcio y entregándolo donde tus huesos lo necesitan. La K2 es el cerrajero, activando las proteínas que unen el calcio firmemente al marco de colágeno. Sin ellas, las materias primas quedan sin usar."
+        },
+        "HEAD3": "Conclusión: Toma el control de tu esqueleto",
+        "DESC4": "La salud ósea puede mejorarse a cualquier edad. Con una nutrición adecuada y ejercicios de fortalecimiento, puedes construir un esqueleto más fuerte para mayor movilidad, independencia y vitalidad.",
+        "DESC5": "DEXA Scan: personaliza y realiza un seguimiento del progreso. Comenzar con demasiado puede causar hinchazón, gases o malestar estomacal.",
+        "DESC6": "Si deseas más precisión y una forma medible de rastrear cambios, hazte una exploración DEXA. La densidad ósea alcanza su punto máximo típicamente entre los 25 y 30 años, después de lo cual disminuye gradualmente. Para las mujeres, esta caída puede ser dramática — hasta un 20 % de la densidad ósea se puede perder en los primeros años de la menopausia.",
+        "DESC7": "Puntuación T: Compara tus huesos con los de una persona sana de 30 años del mismo sexo.",
+        "DESC8": "Puntuación Z: Compara tus huesos con personas de tu misma edad, sexo y tamaño.",
+        "DESC9": "Si tienes veintitantos o principios de los treinta, esta puntuación es tu punto máximo — un punto de referencia para mantener de por vida. Si tu puntuación no es lo que esperabas, no te preocupes. Tu esqueleto tiene una capacidad notable para renovarse en varios años. Con la estrategia correcta, puedes reconstruir."
+    },
     "VITAMIN": {
         "HEAD": "Vitamina",
         "SUBHEAD": "el mejor rastreador de vitaminas",

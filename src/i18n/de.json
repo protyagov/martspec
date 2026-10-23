@@ -239,6 +239,48 @@
             }
         }
     },
+    "BONE_HEALTH": {
+        "NAME": "Knochengesundheit",
+        "HEAD": "Wie Sie Knochenschwund stoppen und Ihr Skelett wieder aufbauen",
+        "DESC1": "Starke Knochen sind die Grundlage für ein vitales, aktives Leben. Sie bedeuten bessere Bewegung, größere Kraft und längere Unabhängigkeit. Wenn Ihre Knochen dichter sind als die eines Durchschnittsmenschen, sagt diese eine Kennzahl voraus, dass Sie länger leben, sich besser bewegen und länger unabhängig bleiben. Schwache Knochen können eine gefährliche Kettenreaktion auslösen: Sie brechen sich einen Knochen, verletzen sich, können nicht trainieren, verlieren Muskeln, was zu noch weniger Bewegung führt. Das setzt einen teuflischen Dominoeffekt in Ihrem Körper in Gang.",
+        "DESC2": "Eine Studie an Frauen über 65 ergab, dass diejenigen mit stärkeren Knochen etwa 50 % seltener starben und ein Drittel weniger Gehprobleme hatten. Bei Männern im Alter von 65 bis 75 Jahren machten selbst kleine Verbesserungen der Knochengesundheit sie in den folgenden Jahren etwa 25 % seltener sterblich. Verlieren Sie nicht die Hoffnung — Ihr Körper ersetzt seine Knochen etwa alle 10 Jahre. Durch die richtige Bewegung, Ernährung und Gewohnheiten wie Schlaf können Sie Ihre Knochendichte buchstäblich wieder aufbauen. Lassen Sie uns aufschlüsseln, was nötig ist, um Spitzenknochengesundheit ein Leben lang aufzubauen und zu erhalten.",
+        "ALT1": "Sportliche Frau, die mit einer Hantel in der Hand trainiert",
+        "ALT2": "Mann, der sich vor Schmerzen den unteren Rücken hält, mit sichtbaren Schmerzpflastern am unteren Rücken",
+        "HEAD2": "Die drei Säulen der Knochengesundheit",
+        "DESC3": "Der Aufbau und die Erhaltung Ihrer Knochen hängt von drei Schlüsselsäulen ab: Ernährung, gesunde Gewohnheiten und Bewegung.",
+        "SUBHEADS": {
+            "HEAD1": "Säule 1: Intelligente Ernährung.",
+            "HEAD2": "Säule 2: Gesunde Gewohnheiten.",
+            "HEAD3": "Säule 3: Belastungstraining."
+        },
+        "SUBTITLES": {
+            "TITLE1": "Wenn Sie an Knochendichte denken, denken Sie an den Bau einer Brücke. Um Ihre Zufuhr im Blick zu behalten, sollten Sie ein Tool wie die Martspec Vitamin App in Betracht ziehen, mit der Sie Ihren täglichen Bedarf einfach überwachen und verwalten können. Sie bietet auch Vorschläge für vollwertige, von der USDA empfohlene Bio-Lebensmittel, damit Sie diese Elemente auf natürliche Weise erhalten können, wenn Sie lieber keine Kapseln einnehmen möchten.",
+            "TITLE2": "Bestimmte Gewohnheiten können selbst den besten Ernährungsplan untergraben. Vermeiden Sie diese Knochensaboteure:",
+            "TITLE3": "Diese Gewohnheiten stören Ihren Kalziumhaushalt und schwächen die Knochenstruktur im Laufe der Zeit. In Kombination mit qualitativem Schlaf und deren Vermeidung schaffen Sie eine Umgebung, in der Ihre Knochen gedeihen können.",
+            "TITLE4": "Sie können alle richtigen Materialien haben, aber ohne Arbeit werden sie keine solide Struktur. Knochen müssen unter Last gesetzt werden, um stark zu werden. Die effektivste Methode ist kraftvolles Widerstandstraining. Das Hinzufügen von Last zu Ihren Übungen — sei es durch Gewichte, Bänder oder Körpergewichtsübungen — zwingt Ihre Knochen, sich durch Aufbau und Mineralisierung anzupassen. Die Wirkung ist stark. Ohne mechanische Belastung beschleunigt sich der Knochenverlust dramatisch. Astronauten in der Mikrogravitation können bis zu 1,6 % ihrer Knochendichte pro Monat verlieren, etwa das Zehnfache der typischen Rate auf der Erde."
+        },
+        "LIST": {
+            "1": "Rauchen",
+            "2": "Überschüssiges Natrium",
+            "3": "Zuckerhaltige Limonaden",
+            "4": "Starker Alkoholkonsum"
+        },
+        "CARDS": {
+            "HEAD1": "Das Gerüst (Kollagen)",
+            "DESC1": "Kollagen, eine wichtige Proteinart, ist der Bewehrungsstahl — das Gerüst, das der Struktur ihre Form und Zugfestigkeit verleiht. Um es stabil zu halten, benötigen Sie eine ausreichende Menge dieses Proteins — typischerweise zwischen 1,2 g und 2,2 g pro Kilogramm Körpergewicht.",
+            "HEAD2": "Der Beton (Mineralien)",
+            "DESC2": "Mineralien wie Kalzium, Phosphor, Magnesium und Bor sind der Beton, der das Gerüst ausfüllt, es härtet und stärkt. Ohne sie wäre Ihr Skelett wie eine Brücke, die nur aus Stahlseilen besteht — flexibel, aber gefährlich zerbrechlich.",
+            "HEAD3": "Die Bautruppe (Vitamine D & K2)",
+            "DESC3": "Vitamin D wirkt als Lieferfahrer, nimmt Kalzium auf und liefert es dorthin, wo Ihre Knochen es brauchen. K2 ist der Schlüsseldienst, der die Proteine aktiviert, die Kalzium fest in das Kollagengerüst einbinden. Ohne sie bleiben die Rohstoffe ungenutzt."
+        },
+        "HEAD3": "Fazit: Übernehmen Sie die Kontrolle über Ihr Skelett",
+        "DESC4": "Knochengesundheit kann in jedem Alter verbessert werden. Mit richtiger Ernährung und Kräftigungsübungen können Sie ein stärkeres Skelett für mehr Mobilität, Unabhängigkeit und Vitalität aufbauen.",
+        "DESC5": "DEXA-Scan: Personalisieren und Fortschritt verfolgen. Der Start mit zu viel kann Blähungen, Gas oder Magenbeschwerden verursachen.",
+        "DESC6": "Wenn Sie mehr Präzision und eine messbare Möglichkeit zur Verfolgung von Veränderungen wünschen, lassen Sie einen DEXA-Scan durchführen. Die Knochendichte erreicht typischerweise zwischen 25 und 30 Jahren ihren Höhepunkt, danach nimmt sie allmählich ab. Bei Frauen kann dieser Rückgang dramatisch sein — bis zu 20 % der Knochendichte können in den ersten Jahren der Menopause verloren gehen.",
+        "DESC7": "T-Wert: Vergleicht Ihre Knochen mit denen eines gesunden 30-Jährigen des gleichen Geschlechts.",
+        "DESC8": "Z-Wert: Vergleicht Ihre Knochen mit Menschen Ihres eigenen Alters, Geschlechts und Ihrer Größe.",
+        "DESC9": "Wenn Sie in Ihren 20ern oder frühen 30ern sind, ist dieser Wert Ihr Höhepunkt — ein Maßstab, den es ein Leben lang zu erhalten gilt. Wenn Ihr Wert nicht Ihren Erwartungen entspricht, machen Sie sich keine Sorgen. Ihr Skelett hat die bemerkenswerte Fähigkeit, sich innerhalb mehrerer Jahre zu erneuern. Mit der richtigen Strategie können Sie wieder aufbauen."
+    },
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "Der ultimative Vitamin Tracker",
