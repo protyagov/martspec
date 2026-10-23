@@ -60,7 +60,60 @@
         "WATCH": "Relógios"
     },
     "PROTEIN": {
-        "HEAD": "Proteína"
+        "HEAD": "Proteína",
+        "ABOUT_1": "Acompanhe sua meta de proteínas diretamente no mostrador do seu relógio",
+        "ABOUT_2": "Uma maneira simples e rápida de registrar entradas",
+        "ABOUT_3": "Sincronização com o app Saúde da Apple",
+        "IMG": "Ilustração do aplicativo Proteína",
+        "DWN": "Obtenha o aplicativo gratuito Proteína para Apple Watch diretamente na App Store da Apple.",
+        "LIST1": {
+            "LI1_HEAD": "Registro rápido e agendamento flexível",
+            "DESC1": "O aplicativo permite manter um diário de ingestão de proteínas e configurar notificações flexíveis diretamente da tela do relógio.",
+            "LI2_HEAD": "Análise visual e histórico de ingestão",
+            "DESC2": "A tela do relógio mostra seu progresso diário, metas definidas e o histórico completo de entradas anteriores.",
+            "LI3_HEAD": "Sincronização com o Saúde da Apple",
+            "DESC3": "Os dados de ingestão de proteínas são transferidos automaticamente para o Apple Health e complementam métricas de outros rastreadores."
+        },
+        "HEAD2": "Por que Proteína?",
+        "DESC2_1": "A proteína fortalece a imunidade, fornece energia e acelera a recuperação. Acompanhar sua ingestão diária ajuda a atingir sua meta e criar hábitos saudáveis.",
+        "SUB_HEAD": "Fatos médicos",
+        "DESC2_2": "Institutos Nacionais de Saúde (NIH): a proteína reduz os níveis do hormônio da fome e prolonga a saciedade.",
+        "DESC2_3": "Colégio Americano de Medicina Esportiva (ACSM): a ingestão consistente de proteínas ao longo do dia é essencial para o crescimento muscular e a força óssea.",
+        "BTN_MORE": "Saiba mais",
+        "HEAD3": "Nossas vantagens",
+        "LIST2": {
+            "LI2_1_TITLE": "Sincronização com o Saúde da Apple",
+            "LI2_1_TEXT": "Leitura e gravação automática de dados",
+            "IMG1_ALT": "Sincronização com a Apple",
+            "LI2_2_TITLE": "Sem anúncios",
+            "LI2_2_TEXT": "Nenhum conteúdo desnecessário ou distrações",
+            "IMG2_ALT": "Sem anúncios",
+            "LI2_3_TITLE": "Privacidade total",
+            "LI2_3_TEXT": "Não armazenamos seus dados em servidores externos",
+            "IMG3_ALT": "Proteção de dados",
+            "LI2_4_TITLE": "Não é necessário Iniciar sessão com a Apple",
+            "LI2_4_TEXT": "O aplicativo está pronto para uso imediato, sem registro",
+            "IMG4_ALT": "Sem registro"
+        },
+        "HEAD4": "Como identificar a deficiência de proteínas?",
+        "DESC3": "Com treinos regulares e um estilo de vida agitado, suas necessidades de proteína aumentam. Se seu corpo não ingerir o suficiente, a resistência diminui e a recuperação leva mais tempo. Preencha esta pequena lista de verificação para avaliar sua dieta e bem-estar.",
+        "SUB_HEAD2": "Sinais de deficiência de proteínas:",
+        "LIST3": {
+            "LI1_HEAD": "Desejos por lanches e doces",
+            "LI1_TEXT": "A fome retorna muito rápido mesmo depois de uma refeição farta.",
+            "LI2_HEAD": "Queda no desempenho atlético",
+            "LI2_TEXT": "O corpo não tem os blocos de construção para reparar músculos e tecidos.",
+            "LI3_HEAD": "Menu rico em carboidratos",
+            "LI3_TEXT": "Sua dieta não tem carne, peixe, ovos ou laticínios, enquanto os lanches consistem em assados e salgadinhos.",
+            "LI4_HEAD": "Oscilações de energia e fadiga",
+            "LI4_TEXT": "Fadiga e sonolência repentina surgem logo ao meio-dia."
+        },
+        "SUB_HEAD3": "Baixe o Proteína para Apple Watch",
+        "DESC4": "Resolva seu déficit de proteínas com um monitoramento simples. Instale o aplicativo no seu relógio e monitore sua meta diária em alguns toques.",
+        "IMG6_ALT": "Balança de banheiro com fita métrica e ícones que representam a saúde do coração, estômago, articulações e sangue",
+        "HEAD5": "Nosso aplicativo está disponível para qualquer modelo de Apple Watch",
+        "DESC5": "Baixe o aplicativo agora mesmo e comece a monitorar suas métricas essenciais",
+        "IMG_CTA_ALT1": "Apple Watch exibindo informações de peso corporal, com uma balança e uma maçã ao fundo"
     },
     "ELECTROLYTE": {
         "HEAD": "Eletrólito",
@@ -188,6 +241,56 @@
             "LI5_TEXT": "Se o seu peso mudar repentinamente, anote o que pode ter contribuído — uma refeição grande, estresse ou um treino intenso. Com o tempo, você entenderá melhor o seu corpo."
         },
         "IMG6_ALT": "Balança de peso corporal com fita métrica e ícones que representam a saúde do coração, estômago, articulações e sangue"
+    },
+    "CAPSULES": {
+        "HEAD": "Cápsulas de vitaminas — O que as grandes farmacêuticas não querem que você saiba",
+        "DESC": "As cápsulas de vitaminas podem conter mais do que apenas ingredientes ativos. Os seus invólucros podem incluir gelatina ou materiais à base de plantas, corantes, enchimentos e outros aditivos. Compreender o que está lá dentro pode ajudá-lo a escolher uma cápsula que melhor se adapte à sua saúde, estilo de vida e valores.",
+        "HEAD2": "Cápsulas de gelatina vs cápsulas veganas",
+        "DESC2": "A cápsula que você escolhe importa. Da sua origem até como funcionam no seu corpo, eis como as cápsulas de gelatina e veganas se comparam nos principais fatores que afetam a sua saúde e valores.",
+        "HEAD3": "Os produtos químicos ocultos no interior",
+        "DESC3": "Além do invólucro da cápsula, os fabricantes frequentemente adicionam produtos químicos para melhorar a aparência, a textura ou a vida útil — muitos dos quais são pouco regulamentados ou insuficientemente estudados:",
+        "HEAD4": "Verifique sempre o rótulo",
+        "DESC4": "A qualidade e a transparência importam mais do que a cápsula em si",
+        "ALT": "A verdade sobre as cápsulas de vitaminas",
+        "ALT1": "O que há dentro das cápsulas de vitaminas",
+        "CARDS": {
+            "HEAD": "CORANTES",
+            "DESC": "Para distinguir entre diferentes tipos de cápsulas e auxiliar na identificação, os fabricantes adicionam corantes. Esses corantes melhoram o apelo visual e ajudam os utilizadores a acompanhar o seu regime de comprimidos. No entanto, alguns corantes sintéticos (como o Vermelho 40, o Amarelo 5 ou o Dióxido de Titânio) foram associados a reações alérgicas, hiperatividade em crianças e até mesmo a riscos cancerígenos em estudos com animais. Embora a Europa proíba muitos desses corantes, eles continuam a ser comuns em suplementos nos EUA.",
+            "HEAD2": "LUBRIFICANTES",
+            "DESC2": "Para tornar as cápsulas mais fáceis de engolir, utilizam-se lubrificantes como o estearato de magnésio. Embora geralmente reconhecidos como seguros, alguns estudos sugerem que em altas doses — especialmente com uso diário prolongado — estes aditivos podem suprimir a função imunitária ou perturbar as bactérias intestinais.",
+            "HEAD3": "ENCHIMENTOS (EXCIPIENTES)",
+            "DESC3": "Visto que a dose do ingrediente ativo muitas vezes ocupa apenas uma pequena parte da cápsula, são adicionados enchimentos para dar volume e estabilizar o conteúdo. São utilizados enchimentos comuns como lactose, talco, celulose microcristalina e amido. A lactose pode causar problemas àqueles que são intolerantes, e o talco tem sido alvo de escrutínio devido a uma potencial contaminação com amianto. Os efeitos a longo prazo de muitos enchimentos continuam por esclarecer.",
+            "HEAD4": "CONSERVANTES",
+            "DESC4": "Para prolongar o prazo de validade e prevenir a degradação das vitaminas, são frequentemente adicionados conservantes (como BHT ou benzoato de sódio). Embora ajudem a manter a eficácia dos suplementos, o seu impacto cumulativo na saúde ao longo de exposições prolongadas é uma preocupação, com alguns conservantes sendo associados a danos hepáticos e riscos cancerígenos."
+        },
+        "CAPSULES_HEAD": "O que há realmente dentro das cápsulas de vitaminas?",
+        "CAPSULES_DESK": "Saiba do que são realmente feitas as cápsulas de vitaminas — desde invólucros de gelatina e vegetais até enchimentos, corantes, conservantes e outros ingredientes inativos. Descubra o que deve verificar no rótulo e como fazer uma escolha mais informada ao selecionar suplementos.",
+        "CAPSULES": {
+            "CAPTION": "Cápsulas de gelatina vs cápsulas veganas. A cápsula que você escolhe importa. ",
+            "EMPTY": " ",
+            "HEAD1": "CÁPSULAS DE GELATINA: UM DILEMA DE ORIGEM ANIMAL",
+            "HEAD2": "CÁPSULAS VEGANAS: UMA ALTERNATIVA DE ORIGEM VEGETAL",
+            "FIRST_COL": {
+                "Source": "Origem",
+                "Dissolving_speed": "Velocidade de dissolução",
+                "Suitability": "Adequação",
+                "Concerns": "Preocupações"
+            },
+            "TEXT": {
+                "GELATIN": {
+                    "0": "Derivadas de colagénio animal (ossos e pele de porco ou bovino). Não adequadas para vegetarianos ou veganos.",
+                    "1": "Normalmente dissolvem-se em 15-30 minutos. Pode variar com a acidez do estômago e a temperatura.",
+                    "2": "Adequadas para a maioria dos omnívoros. Não adequadas para vegetarianos, veganos ou pessoas com certas crenças alimentares.",
+                    "3": "Potencial para contaminantes de origem animal, alérgenos e questões éticas. Não são hipoalergénicas."
+                },
+                "VEGAN": {
+                    "0": "Feitas de celulose vegetal (geralmente HPMC) derivada da polpa de madeira ou algodão. 100% de origem vegetal.",
+                    "1": "Normalmente dissolvem-se em 20-40 minutos. Concebidas para libertação e desempenho consistentes.",
+                    "2": "Adequadas para vegetarianos, veganos e a maioria dos estilos de vida alimentares. Muitas vezes isentas de alérgenos.",
+                    "3": "Menor risco de alérgenos. Não derivadas de animais, com menos problemas éticos. Geralmente bem toleradas."
+                }
+            }
+        }
     },
     "VITAMIN": {
         "HEAD": "Vitamina",
@@ -1064,6 +1167,9 @@
             "NAME": "Reishi em pó",
             "CATEGORY": "cogumelo",
             "DESK": "O cogumelo Reishi é um fungo duro e lenhoso nativo das regiões quentes e úmidas da Ásia. Conhecido como 'Lingzhi' na Medicina Tradicional Chinesa, ele tem sido reverenciado por mais de 2.000 anos como o 'cogumelo da imortalidade'."
+        },
+        "RED_LIGHT_THERAPY": {
+            "NAME": "Terapia de Luz Vermelha"
         }
     },
     "WAIST": {
@@ -1429,6 +1535,13 @@
             "LI6_HEAD": "Abertura",
             "LI6_TEXT": "Capacidade de abraçar novas ideias e experiências",
             "BTN": "Saiba Mais"
+        },
+        "BANNER_5_HABITS": {
+            "HEAD": "O que determina a sua produtividade?",
+            "TEXT": "O estado do cérebro e as suas funções cognitivas são a base da sua eficácia. Eles estão diretamente relacionados à forma como você cuida de si mesmo. Descubra exatamente o que afeta o seu cérebro e recupere a sua energia e foco.",
+            "BTN": "Saiba mais",
+            "ALT": "Uma jovem medita na posição de lótus, com ícones de café, água, fruta, um livro e uma planta por cima",
+            "BREADCRUMB": "5 hábitos"
         },
         "HEAD7": "Casos de Uso",
         "DESK7": "O teste pode medir com precisão o estado emocional, mesmo para pessoas com daltonismo. Para otimizar os resultados, escolha cores com base nas preferências atuais, deixando o subconsciente fazer o trabalho. Escolha cores com base na preferência pessoal, não em associações com objetos como carros ou prédios.",

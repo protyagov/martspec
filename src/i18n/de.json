@@ -60,7 +60,60 @@
         "WATCH": "Uhren"
     },
     "PROTEIN": {
-        "HEAD": "Protein"
+        "HEAD": "Protein",
+        "ABOUT_1": "Verfolge dein Proteinziel direkt auf deinem Zifferblatt",
+        "ABOUT_2": "Eine einfache und schnelle Möglichkeit, Einträge zu protokollieren",
+        "ABOUT_3": "Synchronisierung mit der Apple Health App",
+        "IMG": "Illustration der Protein-App",
+        "DWN": "Hol dir die kostenlose Protein-App für die Apple Watch direkt aus dem Apple App Store.",
+        "LIST1": {
+            "LI1_HEAD": "Schnelles Tracking und flexible Zeitplanung",
+            "DESC1": "Die App ermöglicht es dir, ein Tagebuch über deine Proteinaufnahme zu führen und flexible Benachrichtigungen direkt auf dem Bildschirm deiner Uhr einzurichten.",
+            "LI2_HEAD": "Visuelle Analysen und Aufnahmeprotokoll",
+            "DESC2": "Der Uhrenbildschirm zeigt deinen täglichen Fortschritt, die gesetzten Ziele und den gesamten Verlauf der vorherigen Einträge.",
+            "LI3_HEAD": "Mit Apple Health synchronisieren",
+            "DESC3": "Die Daten zur Proteinaufnahme werden automatisch an Apple Health übertragen und ergänzen die Messwerte anderer Tracker."
+        },
+        "HEAD2": "Warum Protein?",
+        "DESC2_1": "Protein stärkt das Immunsystem, liefert Energie und beschleunigt die Erholung. Die Verfolgung deiner täglichen Aufnahme hilft dir, dein Ziel zu erreichen und gesunde Gewohnheiten aufzubauen.",
+        "SUB_HEAD": "Medizinische Fakten",
+        "DESC2_2": "National Institutes of Health (NIH): Protein senkt den Spiegel des Hungerhormons und verlängert das Sättigungsgefühl.",
+        "DESC2_3": "American College of Sports Medicine (ACSM): Eine gleichmäßige Proteinaufnahme über den Tag verteilt ist für Muskelwachstum und Knochenstärke unerlässlich.",
+        "BTN_MORE": "Mehr erfahren",
+        "HEAD3": "Unsere Vorteile",
+        "LIST2": {
+            "LI2_1_TITLE": "Mit Apple Health synchronisieren",
+            "LI2_1_TEXT": "Automatisches Lesen und Schreiben von Daten",
+            "IMG1_ALT": "Mit Apple synchronisieren",
+            "LI2_2_TITLE": "Werbefrei",
+            "LI2_2_TEXT": "Keine unnötigen Inhalte oder Ablenkungen",
+            "IMG2_ALT": "Werbefrei",
+            "LI2_3_TITLE": "Komplette Privatsphäre",
+            "LI2_3_TEXT": "Wir speichern deine Daten nicht auf externen Servern",
+            "IMG3_ALT": "Datenschutz",
+            "LI2_4_TITLE": "Kein „Mit Apple anmelden“ erforderlich",
+            "LI2_4_TEXT": "Die App ist ohne Registrierung sofort einsatzbereit",
+            "IMG4_ALT": "Keine Registrierung"
+        },
+        "HEAD4": "Wie erkennt man einen Proteinmangel?",
+        "DESC3": "Bei regelmäßigem Training und einem schnelllebigen Lebensstil steigt dein Proteinbedarf. Wenn dein Körper nicht genug bekommt, sinkt die Ausdauer und die Erholung dauert länger. Fülle diese kurze Checkliste aus, um deine Ernährung und dein Wohlbefinden zu bewerten.",
+        "SUB_HEAD2": "Anzeichen eines Proteinmangels:",
+        "LIST3": {
+            "LI1_HEAD": "Heißhunger auf Snacks und Süßigkeiten",
+            "LI1_TEXT": "Der Hunger kehrt selbst nach einer sättigenden Mahlzeit zu schnell zurück.",
+            "LI2_HEAD": "Rückgang der sportlichen Leistungsfähigkeit",
+            "LI2_TEXT": "Dem Körper fehlen Bausteine, um Muskeln und Gewebe zu reparieren.",
+            "LI3_HEAD": "Kohlenhydratlastiges Menü",
+            "LI3_TEXT": "Deiner Ernährung fehlt es an Fleisch, Fisch, Eiern oder Milchprodukten, während Snacks aus Backwaren und Chips bestehen.",
+            "LI4_HEAD": "Energieschwankungen und Müdigkeit",
+            "LI4_TEXT": "Müdigkeit und plötzliche Schläfrigkeit treten bereits mittags auf."
+        },
+        "SUB_HEAD3": "Lade Protein für die Apple Watch herunter",
+        "DESC4": "Behebe dein Proteindefizit mit einfachem Tracking. Installiere die App auf deiner Uhr und überwache dein tägliches Ziel mit ein paar Fingertipps.",
+        "IMG6_ALT": "Personenwaage mit Maßband und Symbolen für die Gesundheit von Herz, Magen, Gelenken und Blut",
+        "HEAD5": "Unsere App ist für jedes Apple Watch-Modell verfügbar",
+        "DESC5": "Lade die App jetzt herunter und beginne mit der Überwachung deiner wichtigsten Kennzahlen",
+        "IMG_CTA_ALT1": "Apple Watch zeigt Körpergewichtsinformationen an, mit einer Waage und einem Apfel im Hintergrund"
     },
     "ELECTROLYTE": {
         "HEAD": "Elektrolyt",
@@ -188,6 +241,56 @@
             "LI5_TEXT": "Wenn sich Ihr Gewicht plötzlich ändert, notieren Sie, was dazu beigetragen haben könnte — eine große Mahlzeit, Stress oder ein intensives Training. Mit der Zeit werden Sie Ihren Körper besser verstehen."
         },
         "IMG6_ALT": "Personenwaage mit Maßband und Symbolen, die die Gesundheit von Herz, Magen, Gelenken und Blut darstellen"
+    },
+    "CAPSULES": {
+        "HEAD": "Vitaminkapseln – Was Big Pharma Ihnen verschweigen will",
+        "DESC": "Vitaminkapseln können mehr als nur Wirkstoffe enthalten. Ihre Hüllen können Gelatine oder pflanzliche Materialien, Farbstoffe, Füllstoffe und andere Zusatzstoffe enthalten. Wenn Sie verstehen, was drin ist, können Sie eine Kapsel wählen, die besser zu Ihrer Gesundheit, Ihrem Lebensstil und Ihren Werten passt.",
+        "HEAD2": "Gelatine- vs. vegane Kapseln",
+        "DESC2": "Die Kapsel, die Sie wählen, ist wichtig. Von der Herkunft bis zur Wirkungsweise in Ihrem Körper – hier sehen Sie, wie Gelatine- und vegane Kapseln in Bezug auf die wichtigsten Faktoren abschneiden, die Ihre Gesundheit und Werte beeinflussen.",
+        "HEAD3": "Die versteckten Chemikalien darin",
+        "DESC3": "Neben der Kapselhülle fügen Hersteller oft Chemikalien hinzu, um Aussehen, Textur oder Haltbarkeit zu verbessern – viele davon sind schlecht reguliert oder unzureichend erforscht:",
+        "HEAD4": "Immer das Etikett prüfen",
+        "DESC4": "Qualität und Transparenz sind wichtiger als die Kapsel selbst",
+        "ALT": "Die Wahrheit über Vitaminkapseln",
+        "ALT1": "Was in Vitaminkapseln steckt",
+        "CARDS": {
+            "HEAD": "FARBSTOFFE",
+            "DESC": "Um zwischen verschiedenen Arten von Kapseln zu unterscheiden und die Identifizierung zu erleichtern, fügen Hersteller Farbstoffe hinzu. Diese Farbstoffe verbessern die Optik und helfen Anwendern, ihre Tabletteneinnahme zu verfolgen. Einige synthetische Farbstoffe (wie Rot 40, Gelb 5 oder Titandioxid) wurden jedoch in Tierstudien mit allergischen Reaktionen, Hyperaktivität bei Kindern und sogar krebserregenden Risiken in Verbindung gebracht. Während Europa viele dieser Farbstoffe verbietet, sind sie in US-Nahrungsergänzungsmitteln weiterhin üblich.",
+            "HEAD2": "SCHMIERMITTEL",
+            "DESC2": "Um das Schlucken der Kapseln zu erleichtern, werden Schmiermittel wie Magnesiumstearat verwendet. Obwohl sie allgemein als sicher gelten, deuten einige Studien darauf hin, dass diese Zusatzstoffe in hohen Dosen – insbesondere bei täglicher, langfristiger Anwendung – die Immunfunktion unterdrücken oder die Darmbakterien stören könnten.",
+            "HEAD3": "FÜLLSTOFFE",
+            "DESC3": "Da die Dosis des Wirkstoffs oft nur einen kleinen Teil der Kapsel einnimmt, werden Füllstoffe hinzugefügt, um das Volumen zu vergrößern und den Inhalt zu stabilisieren. Häufig werden Füllstoffe wie Laktose, Talkum, mikrokristalline Cellulose und Stärke verwendet. Laktose kann bei Laktoseintoleranz Probleme bereiten, und Talkum geriet wegen möglicher Asbestkontamination in die Kritik. Die langfristigen Auswirkungen vieler Füllstoffe bleiben unklar.",
+            "HEAD4": "KONSERVIERUNGSSTOFFE",
+            "DESC4": "Um die Haltbarkeit zu verlängern und den Abbau von Vitaminen zu verhindern, werden häufig Konservierungsstoffe (wie BHT oder Natriumbenzoat) hinzugefügt. Während sie helfen, die Wirksamkeit der Nahrungsergänzungsmittel aufrechtzuerhalten, sind ihre kumulativen gesundheitlichen Auswirkungen bei langfristiger Exposition besorgniserregend, da einige Konservierungsstoffe mit Leberschäden und krebserregenden Risiken in Verbindung gebracht werden."
+        },
+        "CAPSULES_HEAD": "Was steckt wirklich in Vitaminkapseln?",
+        "CAPSULES_DESK": "Erfahren Sie, woraus Vitaminkapseln wirklich bestehen – von Gelatine- und pflanzlichen Hüllen bis hin zu Füllstoffen, Farbstoffen, Konservierungsstoffen und anderen inaktiven Inhaltsstoffen. Entdecken Sie, worauf Sie auf dem Etikett achten müssen und wie Sie bei der Auswahl von Nahrungsergänzungsmitteln eine fundiertere Entscheidung treffen können.",
+        "CAPSULES": {
+            "CAPTION": "Gelatine- vs. vegane Kapseln. Die Kapsel, die Sie wählen, ist wichtig. ",
+            "EMPTY": " ",
+            "HEAD1": "GELATINEKAPSELN: EIN TIERISCHES DILEMMA",
+            "HEAD2": "VEGANE KAPSELN: EINE PFLANZLICHE ALTERNATIVE",
+            "FIRST_COL": {
+                "Source": "Quelle",
+                "Dissolving_speed": "Auflösungsgeschwindigkeit",
+                "Suitability": "Eignung",
+                "Concerns": "Bedenken"
+            },
+            "TEXT": {
+                "GELATIN": {
+                    "0": "Gewonnen aus tierischem Kollagen (Schweine- oder Rinderknochen und -haut). Nicht für Vegetarier oder Veganer geeignet.",
+                    "1": "Löst sich typischerweise in 15-30 Minuten auf. Kann je nach Magensäure und Temperatur variieren.",
+                    "2": "Geeignet für die meisten Allesesser. Nicht geeignet für Vegetarier, Veganer oder Personen mit bestimmten Ernährungsüberzeugungen.",
+                    "3": "Potenzial für tierische Verunreinigungen, Allergene und ethische Bedenken. Nicht hypoallergen."
+                },
+                "VEGAN": {
+                    "0": "Hergestellt aus pflanzlicher Cellulose (meist HPMC), die aus Zellstoff oder Baumwolle gewonnen wird. 100% pflanzlich.",
+                    "1": "Löst sich typischerweise in 20-40 Minuten auf. Entwickelt für gleichmäßige Freisetzung und Leistung.",
+                    "2": "Geeignet für Vegetarier, Veganer und die meisten Ernährungsstile. Oft allergenfrei.",
+                    "3": "Geringeres Allergierisiko. Nicht tierischen Ursprungs mit weniger ethischen Bedenken. Im Allgemeinen gut verträglich."
+                }
+            }
+        }
     },
     "VITAMIN": {
         "HEAD": "Vitamin",
@@ -1062,6 +1165,9 @@
             "NAME": "Reishi-Pulver",
             "CATEGORY": "Pilz",
             "DESK": "Der Reishi-Pilz ist ein zäher, holziger Pilz, der in heißen und feuchten Regionen Asiens heimisch ist. In der traditionellen chinesischen Medizin als 'Lingzhi' bekannt, wird er seit über 2.000 Jahren als 'Pilz der Unsterblichkeit' verehrt."
+        },
+        "RED_LIGHT_THERAPY": {
+            "NAME": "Rotlichttherapie"
         }
     },
     "WAIST": {
@@ -1427,6 +1533,13 @@
             "LI6_HEAD": "Offenheit",
             "LI6_TEXT": "Fähigkeit, neue Ideen und Erfahrungen zu begrüßen",
             "BTN": "Erfahren Sie mehr"
+        },
+        "BANNER_5_HABITS": {
+            "HEAD": "Was bestimmt Ihre Produktivität?",
+            "TEXT": "Der Zustand Ihres Gehirns und seine kognitiven Funktionen bilden die Grundlage Ihrer Leistungsfähigkeit. Sie hängen direkt damit zusammen, wie Sie für sich selbst sorgen. Finden Sie heraus, was genau Ihr Gehirn beeinflusst, und gewinnen Sie Ihre Energie und Konzentration zurück.",
+            "BTN": "Mehr erfahren",
+            "ALT": "Eine junge Frau meditiert im Lotussitz, über ihr Symbole für Kaffee, Wasser, Obst, ein Buch und eine Pflanze",
+            "BREADCRUMB": "5 Gewohnheiten"
         },
         "HEAD7": "Anwendungsfälle",
         "DESK7": "Der Test kann den emotionalen Zustand auch bei farbenblinden Personen genau messen. Um die Ergebnisse zu optimieren, wählen Sie Farben auf der Grundlage Ihrer aktuellen Vorlieben aus, indem Sie Ihr Unterbewusstsein die Arbeit erledigen lassen. Wählen Sie Farben basierend auf persönlichen Vorlieben, nicht auf Verbindungen mit Objekten wie Autos oder Gebäuden.",

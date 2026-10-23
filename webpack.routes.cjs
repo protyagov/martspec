@@ -9,9 +9,11 @@ const ROUTES = [
     { template: "bodymass", output: "bodymass" },
     { template: "iron", output: "iron" },
     { template: "calcium", output: "calcium" },
+    { template: "protein", output: "protein" },
     { template: "electrolyte", output: "electrolyte" },
     { template: "magnesium", output: "magnesium" },
     { template: "vitamin", output: "vitamin" },
+    { template: "vitamin/capsules", output: "vitamin/capsules" },
     { template: "waistline", output: "waistline" },
     { template: "bodyzinc", output: "bodyzinc" },
     { template: "bodysize", output: "bodysize" },
@@ -25,6 +27,7 @@ const ROUTES = [
     { template: "emotion/productivity", output: "emotion/productivity" },
     { template: "emotion/energy", output: "emotion/energy" },
     { template: "emotion/openness", output: "emotion/openness" },
+    { template: "emotion/5-habits", output: "emotion/5-habits" },
     { template: "emotion/color-test", output: "emotion/color-test" },
 
     { template: "about", output: "about" },
@@ -85,7 +88,8 @@ const ROUTES = [
         "cocoa",
         "turkey_tail",
         "cordyceps",
-        "reishi"
+        "reishi",
+        "red-light-therapy"
     ].map((x) => ({
         template: `vitamin/${x}`,
         output: `vitamin/${x}`,

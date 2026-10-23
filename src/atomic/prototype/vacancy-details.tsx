@@ -81,57 +81,59 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
     return (
         <>
             <NavigationBar />
-            <div className="ms-base-page vacancy-details">
+            <div>
                 {vacancyData && data && (
                     <>
-                        <section>
+                        <section className="vacancy-details">
                             <div className="row">
                                 <div className="col-lg-8">
-                                    <h1>{vacancyData.TITLE}</h1>
+                                    <h1 className="vacancy-details__h1">{vacancyData.TITLE}</h1>
                                     <p className="p">{data.PAY}</p>
-                                    <p style={{ color: "#212529" }}>{data.FORMAT}</p>
+                                    <p className="vacancy-detail__p vacancy-details__mb-0">{data.FORMAT}</p>
                                 </div>
-                                <p style={{ color: "#212529", marginBottom: "0" }}>{vacancyData.DESC}</p>
+                                <p className="">{vacancyData.DESC}</p>
                             </div>
                         </section>
 
-                        <section className="row">
-                            <h2>{data.EXPECTATIONS_H2}</h2>
-                            <div className="row row-cols-lg-2 row-cols-1 p-0 g-4">
+                        <section className="row vacancy-details">
+                            <h2 className="vacancy-details__h2">{data.EXPECTATIONS_H2}</h2>
+                            <div className="row vacancy-details__ml-0 row-cols-lg-2 row-cols-1 p-0 g-4">
                                 {vacancyData.EXPECTATIONS.map((expectation: Expectation, index: number) => (
-                                    <div className="col" key={index}>
-                                        <h3 className="mb-3">{expectation.H3}</h3>
+                                    <div className="col vacancy-details__col" key={index}>
+                                        <h3 className="vacancy-details__h3 mb-3">{expectation.H3}</h3>
+                                        
                                         <BulletList
                                             items={expectation.UL}
                                             iconColor="#FFB340"
-                                            className="col-bullet-list"
+                                            className="vacancy-details__bullet-list"
                                         />
+                                        
                                     </div>
                                 ))}
                             </div>
                         </section>
 
-                        <section className="row">
-                            <h2>{data.CONDITIONS_H2}</h2>
+                        <section className="row vacancy-details">
+                            <h2 className="vacancy-details__h2">{data.CONDITIONS_H2}</h2>
                             <ul>
                                 {data.CONDITIONS.map((condition: string, index: number) => (
-                                    <li key={index}>{condition}</li>
+                                    <li className="vacancy-details__li vacancy-details__list-style" key={index}>{condition}</li>
                                 ))}
                             </ul>
                         </section>
 
-                        <section className="row">
-                            <h2>{data.FEATURES_H2}</h2>
+                        <section className="row vacancy-details vacancy-details__pre-last-child">
+                            <h2 className="vacancy-details__h2">{data.FEATURES_H2}</h2>
                             <ul>
                                 {data.FEATURES.map((feature: string, index: number) => (
-                                    <li key={index}>{feature}</li>
+                                    <li className="vacancy-details__li vacancy-details__list-style" key={index}>{feature}</li>
                                 ))}
                             </ul>
                         </section>
 
-                        <section className="row">
+                        <section className="row vacancy-details vacancy-details__last-child">
                             <button
-                                className="mt-2 ms-btn-large mb-6 w-auto"
+                                className="vacancy-details__button mt-2 ms-btn-large mb-6 w-auto"
                                 onClick={() => window.open(vacancyData.APPLY_LINK, "_blank", "noopener,noreferrer")}
                             >
                                 {data.RESPONSE_BTN}

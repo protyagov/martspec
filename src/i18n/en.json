@@ -60,7 +60,60 @@
         "WATCH": "Watches"
     },
     "PROTEIN": {
-        "HEAD": "Protein"
+        "HEAD": "Protein",
+        "ABOUT_1": "Track your protein target right on your watch face",
+        "ABOUT_2": "A simple and quick way to log entries",
+        "ABOUT_3": "Sync with the Apple Health app",
+        "IMG": "Illustration of the Protein app",
+        "DWN": "Get the free Protein app for Apple Watch directly from the Apple App Store.",
+        "LIST1": {
+            "LI1_HEAD": "Quick tracking and flexible scheduling",
+            "DESC1": "The app allows you to keep a protein intake journal and set up flexible notifications directly from your watch screen.",
+            "LI2_HEAD": "Visual analytics and intake history",
+            "DESC2": "The watch screen shows your daily progress, set goals, and the full history of previous entries.",
+            "LI3_HEAD": "Sync with Apple Health",
+            "DESC3": "Protein intake data is automatically transferred to Apple Health and complements metrics from other trackers."
+        },
+        "HEAD2": "Why Protein?",
+        "DESC2_1": "Protein strengthens immunity, provides energy, and accelerates recovery. Tracking your daily intake helps you meet your target and build healthy habits.",
+        "SUB_HEAD": "Medical facts",
+        "DESC2_2": "National Institutes of Health (NIH): protein reduces hunger hormone levels and prolongs satiety.",
+        "DESC2_3": "American College of Sports Medicine (ACSM): consistent protein intake throughout the day is essential for muscle growth and bone strength.",
+        "BTN_MORE": "Learn more",
+        "HEAD3": "Our advantages",
+        "LIST2": {
+            "LI2_1_TITLE": "Sync with Apple Health",
+            "LI2_1_TEXT": "Automatic data reading and writing",
+            "IMG1_ALT": "Sync with Apple",
+            "LI2_2_TITLE": "Ad-free",
+            "LI2_2_TEXT": "No unnecessary content or distractions",
+            "IMG2_ALT": "Ad-free",
+            "LI2_3_TITLE": "Complete privacy",
+            "LI2_3_TEXT": "We do not store your data on external servers",
+            "IMG3_ALT": "Data protection",
+            "LI2_4_TITLE": "No Apple Sign-In required",
+            "LI2_4_TEXT": "The app is ready to use immediately without registration",
+            "IMG4_ALT": "No registration"
+        },
+         "HEAD4": "How to spot protein deficiency?",
+        "DESC3": "With regular workouts and a fast-paced lifestyle, your protein needs increase. If your body doesn't get enough, endurance drops and recovery takes longer. Complete this short checklist to evaluate your diet and well-being.",
+        "SUB_HEAD2": "Signs of protein deficiency:",
+        "LIST3": {
+            "LI1_HEAD": "Cravings for snacks and sweets",
+            "LI1_TEXT": "Hunger returns too quickly even after a filling meal.",
+            "LI2_HEAD": "Decline in athletic performance",
+            "LI2_TEXT": "The body lacks building blocks to repair muscles and tissues.",
+            "LI3_HEAD": "Carbohydrate-heavy menu",
+            "LI3_TEXT": "Your diet lacks meat, fish, eggs, or dairy products, while snacks consist of baked goods and chips.",
+            "LI4_HEAD": "Energy swings and fatigue",
+            "LI4_TEXT": "Fatigue and sudden sleepiness hit as early as midday."
+        },
+        "SUB_HEAD3": "Download Protein for Apple Watch",
+        "DESC4": "Address your protein deficit with simple tracking. Install the app on your watch and monitor your daily goal in a couple of taps.",
+        "IMG6_ALT": "Bathroom scale with a measuring tape and icons representing heart, stomach, joint, and blood health",
+        "HEAD5": "Our app is available for any Apple Watch model",
+        "DESC5": "Download the app right now and start monitoring your essential metrics",
+        "IMG_CTA_ALT1": "Apple Watch displaying body weight information, with a scale and an apple in the background"
     },
     "ELECTROLYTE": {
         "HEAD": "Electrolyte",
@@ -187,6 +240,56 @@
         },
         "IMG6_ALT": "Body weight scale with measuring tape and icons representing heart, stomach, joint, and blood health"
     },
+    "CAPSULES": {
+        "HEAD": "Vitamin Capsules — What Big Pharma Does Not Want You to Know",
+        "DESC": "Vitamin capsules may contain more than just active ingredients. Their shells can include gelatin or plant-based materials, dyes, fillers, and other additives. Understanding what’s inside can help you choose a capsule that better fits your health, lifestyle, and values.",
+        "HEAD2": "Gelatin vs vegan capsules",
+        "DESC2": "The capsule you choose matters. From where they come from to how they perform in your body, there’s how gelatinand vegan capsules compare across the key factors that impact your  health and values.",
+        "HEAD3": "The hidden chemicals lurking inside",
+        "DESC3": "Beyond the capsule shell, manufacturers often add chemicals to enhance appearance, texture, or shelf-life—manyof which are poorly regulated or understudied:",
+        "HEAD4": "Always check the label",
+        "DESC4": "Quality and transparency matter more than the capsule itself",
+        "ALT": "The Truth About Vitamin Capsules",
+        "ALT1": "What’s Inside Vitamin Capsules",
+        "CARDS": {
+            "HEAD": "DYES",
+            "DESC": "To distinguish between different types of capsules and aid in identification, manufacturers add dyes. These colorants enhance visual appeal and help users track their pill regimen. However, some synthetic dyes (like Red 40, Yellow 5, or Titanium Dioxide) have been linked to allergic reactions, hyperactivity in children, and even carcinogenic risks in animal studies. While Europe bans many of these dyes, they remain common in U.S. supplements.",
+            "HEAD2": "LUBRICANTS",
+            "DESC2": "To make capsules easier to swallow, lubricants such as magnesium stearate are used. Although generally recognized as safe, some studies suggest that in high doses—especially with daily, long-term use—these additives might suppress immune function or disrupt gut bacteria.",
+            "HEAD3": "FILLERS",
+            "DESC3": "Since the active ingredient’s dose often takes up only a small part of the capsule, fillers are added to bulk up and stabilize the contents. Common fillers like lactose, talc, microcrystalline cellulose, and starch are used. Lactose can trouble those who are lactose-intolerant, and talc has faced scrutiny for potential asbestos contamination. The long-term effects of many fillers remain unclear.",
+            "HEAD4": "PRESERVATIVES",
+            "DESC4": "To extend shelf life and prevent vitamin degradation, preservatives (such as BHT or sodium benzoate) ar e commonly added. While they help maintain supplement effectiveness, their cumulative health impact over long-term exposure is a concern, with some preservatives being linked to liver damage and carcinogenic risks."
+        },
+        "CAPSULES_HEAD": "What’s Really Inside Vitamin Capsules?",
+        "CAPSULES_DESK": "Learn what vitamin capsules are really made of—from gelatin and plant-based shells to fillers, dyes, preservatives, and other inactive ingredients. Discover what to check on the label and how to make a more informed choice when selecting supplements.",
+        "CAPSULES": {
+            "CAPTION": "Gelatin vs vegan capsules. The capsule you choose matters. ",
+            "EMPTY": " ",
+            "HEAD1": "GELATIN CAPSULES: AN ANIMAL-BASED DILEMMA",
+            "HEAD2": "VEGAN CAPSULES: A PLANT-BASED ALTERNATIVE",
+            "FIRST_COL": {
+                "Source": "Source",
+                "Dissolving_speed": "Dissolving speed",
+                "Suitability": "Suitability",
+                "Concerns": "Concerns"
+            },
+            "TEXT": {
+                "GELATIN": {
+                    "0": "Derived from animal collagen (pork or beef bones and skin). Not suitable for vegetarians or vegans.",
+                    "1": "Typically dissolves in 15-30 minutes. May vary with stomach acidity and temperature.",
+                    "2": "Suitable for most omnivores. Not suitable for vegetarians, vegans, or those with certain dietary beliefs",
+                    "3": "Potential for animal-borne contaminants, allergens, and ethical concerns. Not hypoallergenic."
+                },
+                "VEGAN": {
+                    "0": "Made from plant cellulose (usually HPMC) derived from wood pulp or cotton. 100% plant-based.",
+                    "1": "Typically dissolves in 20-40 minutes. Designed for consistent release and performance.",
+                    "2": "Suitable for vegetarians, vegans, and most dietary lifestyles. Often allergen-free.",
+                    "3": "Lower risk of allergens. Non-animal derived with fewer ethical concerns. Generally well tolerated."
+                }
+            }
+        }
+    },
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "the ultimate vitamin tracker",
@@ -286,32 +389,7 @@
             "NAME": "Food Additives",
             "SHORT": "Additive"
         },
-        "CAPSULES": {
-            "CAPTION": "Gelatin vs vegan capsules. The capsule you choose matters. ",
-            "EMPTY": " ",
-            "HEAD1": "GELATIN CAPSULES: AN ANIMAL-BASED DILEMMA",
-            "HEAD2": "VEGAN CAPSULES: A PLANT-BASED ALTERNATIVE",
-            "FIRST_COL": {
-                "Source": "Source",
-                "Dissolving_speed": "Dissolving speed",
-                "Suitability": "Suitability",
-                "Concerns": "Concerns"
-            },
-            "TEXT": {
-                "GELATIN": {
-                    "0": "Derived from animal collagen (pork or beef bones and skin). Not suitable for vegetarians or vegans.",
-                    "1": "Typically dissolves in 15-30 minutes. May vary with stomach acidity and temperature.",
-                    "2": "Suitable for most omnivores. Not suitable for vegetarians, vegans, or those with certain dietary beliefs",
-                    "3": "Potential for animal-borne contaminants, allergens, and ethical concerns. Not hypoallergenic."
-                },
-                "VEGAN": {
-                    "0": "Made from plant cellulose (usually HPMC) derived from wood pulp or cotton. 100% plant-based.",
-                    "1": "Typically dissolves in 20-40 minutes. Designed for consistent release and performance.",
-                    "2": "Suitable for vegetarians, vegans, and most dietary lifestyles. Often allergen-free.",
-                    "3": "Lower risk of allergens. Non-animal derived with fewer ethical concerns. Generally well tolerated."
-                }
-            }
-        },
+
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",
@@ -1086,6 +1164,9 @@
             "NAME": "Reishi powder",
             "CATEGORY": "mushroom",
             "DESK": "Reishi mushroom is a tough, woody fungus native to hot and humid regions of Asia. Known as 'Lingzhi' in traditional Chinese medicine, it has been revered for over 2,000 years as the 'mushroom of immortality'."
+        },
+        "RED_LIGHT_THERAPY": {
+            "NAME": "Red Light Therapy"
         }
     },
     "WAIST": {
@@ -1448,6 +1529,13 @@
             "LI6_HEAD": "Openness",
             "LI6_TEXT": "Capacity to embrace novel ideas and experiences",
             "BTN": "Learn More"
+        },
+        "BANNER_5_HABITS": {
+            "HEAD": "What determines your productivity?",
+            "TEXT": "The condition of your brain and its cognitive functions are at the core of your efficiency. They are directly related to how you take care of yourself. Find out exactly what affects your brain, and regain your energy and focus.",
+            "BTN": "Learn more",
+            "ALT": "A young woman meditating in the lotus position, with icons of coffee, water, fruit, a book and a plant above her",
+            "BREADCRUMB": "5 habits"
         },
         "HEAD7": "Use Cases",
         "DESK7": "The test can accurately measure emotional state, even for colorblind individuals. To optimize results, choose colors based on current preferences by letting the subconscious do the work. Choose colors based on personal preference, not associations with objects like cars or buildings.",
