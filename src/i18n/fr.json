@@ -1169,6 +1169,12 @@
         },
         "RED_LIGHT_THERAPY": {
             "NAME": "Thérapie par la lumière rouge"
+        },
+        "BANNER_RED_LIGHT_THERAPY": {
+            "HEAD": "Que peut réellement faire la thérapie par la lumière rouge ?",
+            "TEXT": "Découvrez comment la lumière rouge et l'infrarouge proche affectent vos cellules, explorez les bienfaits et risques potentiels pour la santé, et apprenez à utiliser la luminothérapie de manière sûre et efficace.",
+            "BTN": "En savoir plus",
+            "ALT": "Une femme méditant à côté d'un panneau de thérapie par la lumière rouge entourée de plantes"
         }
     },
     "WAIST": {
