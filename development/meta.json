@@ -321,7 +321,7 @@
         "Molecule"
       ],
       "locStart": 17,
-      "locEnd": 26,
+      "locEnd": 24,
       "filePath": "src/stories/molecule/team-member.stories.tsx",
       "namedExport": "TeamMemberStory",
       "meta": {}
