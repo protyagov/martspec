@@ -3,11 +3,11 @@ import type { Story, StoryDefault } from "@ladle/react";
 import TeamMember from "@/atomic/molecule/team-Member";
 import { PageWrapper } from ".ladle/decorators";
 
-const Member = {
-  NAME: "",
-  TITLE: "",
-  AVATAR: "",
-  LINK: ""
+const member = {
+    NAME: "John Doe",
+    TITLE: "Frontend Developer",
+    AVATAR: "https://i.pravatar.cc/300?img=12",
+    LINK: "https://example.com",
 };
 
 export default {
@@ -16,11 +16,9 @@ export default {
 
 export const TeamMemberStory: Story = () => (
     <div className="ms-base-page pb-5 text-center ms-team">
-        <div className="d-flex flex-wrap justify-content-center members-list">
-            <TeamMember
-                member={Member}
-                isWide={false}
-            />
+        <div className="d-flex flex-wrap justify-content-center members-list gap-4">
+            <TeamMember member={member} isWide={false} />
+            <TeamMember member={member} isWide={true} />
         </div>
     </div>
 );

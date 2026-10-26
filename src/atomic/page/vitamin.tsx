@@ -409,9 +409,39 @@ export default function Vitamin() {
 
                 <section>
                     <div className="row">
+                        <div
+                            className="row block p-0 rounded-5"
+                            style={{ backgroundColor: "#F4F5F8", overflow: "hidden" }}
+                        >
+                            <div className="col-lg-6 p-5">
+                                <CardTitleTextButton
+                                    title={_("VITAMIN.BANNER_RED_LIGHT_THERAPY.HEAD")}
+                                    textContent={[_("VITAMIN.BANNER_RED_LIGHT_THERAPY.TEXT")]}
+                                    buttonText={_("VITAMIN.BANNER_RED_LIGHT_THERAPY.BTN")}
+                                    buttonLink={Locale.i18nLink(`vitamin/red-light-therapy`)}
+                                    buttonColor="#1686FF"
+                                />
+                            </div>
+
+                            <div className="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center p-4 p-lg-5">
+                                <ImageI18N
+                                    src="/img/page/article/red-light-therapy/red-light-therapy-banner.avif"
+                                    w={450}
+                                    h={294}
+                                    cls="m-0 img-fluid"
+                                    alt={_("VITAMIN.BANNER_RED_LIGHT_THERAPY.ALT")}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="row">
                         <h2 className="col-xl-7 col-lg-8 col-12 mt-5 p-0" style={{ fontSize: "40px" }}>
                             {_("VITAMIN.HEAD5")}
                         </h2>
+
                         <div className="row align-items-stretch row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 px-0 g-4">
                             <div className="col px-0">
                                 <ul className="row row-cols-2 p-0 m-0 g-4 list-unstyled">
