@@ -90,10 +90,7 @@ const ROUTES = [
         "turkey_tail",
         "cordyceps",
         "reishi",
-<<<<<<< HEAD
-=======
-        "red-light-therapy"
->>>>>>> master
+        "red-light-therapy",
     ].map((x) => ({
         template: `vitamin/${x}`,
         output: `vitamin/${x}`,

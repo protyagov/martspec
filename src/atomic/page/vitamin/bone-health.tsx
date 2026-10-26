@@ -93,7 +93,7 @@ export default function BoneHealth() {
                             <div className="bone-health-card d-flex flex-wrap align-items-center justify-content-between shadow rounded-5">
                                 <div className="col-12 col-xxl-6 order-2 order-xxl-2 my-4 rounded-5 overflow-hidden">
                                     <ImageI18N
-                                        src="/img/page/vitamin/bones-back-ache.webp"
+                                        src="/img/page/vitamin/bones-back-ache.avif"
                                         w={480}
                                         h={360}
                                         alt={_("BONE_HEALTH.ALT2")}
