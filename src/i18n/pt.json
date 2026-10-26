@@ -1215,6 +1215,12 @@
         },
         "RED_LIGHT_THERAPY": {
             "NAME": "Terapia de Luz Vermelha"
+        },
+        "BANNER_RED_LIGHT_THERAPY": {
+            "HEAD": "O que a Terapia de Luz Vermelha realmente pode fazer?",
+            "TEXT": "Descubra como a luz vermelha e infravermelha próxima afeta suas células, explore os potenciais benefícios e riscos para a saúde e aprenda a usar a terapia de luz de forma segura e eficaz.",
+            "BTN": "Saiba mais",
+            "ALT": "Uma mulher meditando ao lado de um painel de terapia de luz vermelha cercada por plantas"
         }
     },
     "WAIST": {

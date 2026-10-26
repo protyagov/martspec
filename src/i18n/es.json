@@ -1214,6 +1214,12 @@
         },
         "RED_LIGHT_THERAPY": {
             "NAME": "Terapia de Luz Roja"
+        },
+        "BANNER_RED_LIGHT_THERAPY": {
+            "HEAD": "¿Qué puede hacer realmente la Terapia de Luz Roja?",
+            "TEXT": "Descubre cómo la luz roja e infrarroja cercana afecta a tus células, explora los posibles beneficios y riesgos para la salud, y aprende a utilizar la terapia de luz de forma segura y eficaz.",
+            "BTN": "Más información",
+            "ALT": "Una mujer meditando junto a un panel de terapia de luz roja rodeada de plantas"
         }
     },
     "WAIST": {

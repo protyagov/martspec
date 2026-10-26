@@ -1212,6 +1212,12 @@
         },
         "RED_LIGHT_THERAPY": {
             "NAME": "Red Light Therapy"
+        },
+        "BANNER_RED_LIGHT_THERAPY": {
+            "HEAD": "What can Red Light Therapy really do?",
+            "TEXT": "Discover how red and near-infrared light affect your cells, explore potential health benefits and risks, and learn how to use light therapy safely and effectively.",
+            "BTN": "Learn more",
+            "ALT": "Woman meditating beside a red light therapy panel surrounded by plants"
         }
     },
     "WAIST": {

@@ -1213,6 +1213,12 @@
         },
         "RED_LIGHT_THERAPY": {
             "NAME": "Rotlichttherapie"
+        },
+        "BANNER_RED_LIGHT_THERAPY": {
+            "HEAD": "Was kann die Rotlichttherapie wirklich bewirken?",
+            "TEXT": "Entdecken Sie, wie rotes und Nahinfrarotlicht Ihre Zellen beeinflussen, erkunden Sie potenzielle gesundheitliche Vorteile sowie Risiken und lernen Sie, wie Sie die Lichttherapie sicher und effektiv anwenden.",
+            "BTN": "Mehr erfahren",
+            "ALT": "Eine Frau meditiert neben einem Rotlichttherapie-Panel, umgeben von Pflanzen"
         }
     },
     "WAIST": {
