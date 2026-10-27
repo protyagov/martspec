@@ -75,30 +75,32 @@ const Careers = () => {
     return (
         <>
             <NavigationBar />
-            <div className="ms-base-page careers">
-                <div className="row">
+            <div>
+                <div className="row careers__bread-crumb">
                     <Breadcrumb items={items} />
                 </div>
-                <Header
-                    title={_("CAREERS.SUBHEAD")}
-                    rowItems={
-                        <>
-                            {rowItemsData.map((item, index) => (
-                                <div key={index} className="row-item" style={{ backgroundColor: item.bgColor }}>
-                                    {item.getText()}
-                                </div>
-                            ))}
-                        </>
-                    }
-                    imgSrc="/img/page/careers/careers-header-img.webp"
-                    imgH={496}
-                    imgW={674}
-                    imgAlt={_("MAIN.ALT")}
-                >
-                    <p className="font-normal">{_("CAREERS.ABOUT")}</p>
-                </Header>
+                <div className="careers">
+                    <Header
+                        title={_("CAREERS.SUBHEAD")}
+                        rowItems={
+                            <>
+                                {rowItemsData.map((item, index) => (
+                                    <div key={index} className="row-item" style={{ backgroundColor: item.bgColor }}>
+                                        {item.getText()}
+                                    </div>
+                                ))}
+                            </>
+                        }
+                        imgSrc="/img/page/careers/careers-header-img.webp"
+                        imgH={496}
+                        imgW={674}
+                        imgAlt={_("MAIN.ALT")}
+                    >
+                        <p className="font-normal careers__p">{_("CAREERS.ABOUT")}</p>
+                    </Header>
+                </div>
 
-                <section>
+                <section className="careers">
                     <div className="row d-flex justify-content-between g-4">
                         <div className="col-12 col-xxl-5 order-2 order-xxl-1">
                             <ImageI18N
@@ -121,9 +123,9 @@ const Careers = () => {
                     </div>
                 </section>
 
-                <section>
+                <section className="careers">
                     <div className="row g-4">
-                        <h2>{_("CAREERS.HEAD2")}</h2>
+                        <h2 className="careers__h2">{_("CAREERS.HEAD2")}</h2>
                         <TitleTextCard
                             title={_("CAREERS.LIST2.LI1_HEAD")}
                             text={_("CAREERS.LIST2.LI1_TEXT")}
@@ -142,28 +144,29 @@ const Careers = () => {
                     </div>
                 </section>
 
-                <section>
+                <section className="careers">
                     <div className="row">
-                        <div className="row block p-0 shadow-none" style={{backgroundColor: "#F1F6FF", overflow: "hidden"}}>
+                        <div className="row block p-0 shadow-none careers__block" style={{ backgroundColor: "#F1F6FF", overflow: "hidden" }}>
                             <div className="col-lg-7 pe-5 pt-2">
                                 <div className="row p-0">
-                                        <div className="d-flex align-items-start gap-3 pt-4 px-4">
-                                            <div className="flex-shrink-0">
-                                                <img className="ps-2" src="/img/page/careers/shield.svg"/>
-                                            </div>
-                                            <div className="flex-grow-1">
-                                                <h3 className="m-0 pt-4"> {_("CAREERS.HEAD4")}</h3>
-                                            </div>
+                                    <div className="d-flex align-items-start gap-3 pt-4 px-4">
+                                        <div className="flex-shrink-0">
+                                            <img className="ps-2" src="/img/page/careers/shield.svg" />
                                         </div>
+                                        <div className="flex-grow-1">
+                                            <h3 className="m-0 pt-4 careers__h3"> {_("CAREERS.HEAD4")}</h3>
+                                        </div>
+                                    </div>
                                     <CardTitleTextImageCustom
-                                            text={_("CAREERS.DESC1")}
-                                            actionLink={{
+                                        text={_("CAREERS.DESC1")}
+                                        actionLink={{
                                             text: _("CAREERS.BUTTON4"),
-                                            href: Locale.i18nLink("careers/scam-protection"),}}
-                                            primaryColor="#0A65C1"
-                                            linkHoverColor="#0A65C1"
-                                            shadow={false}
-                                        />
+                                            href: Locale.i18nLink("careers/scam-protection"),
+                                        }}
+                                        primaryColor="#0A65C1"
+                                        linkHoverColor="#0A65C1"
+                                        shadow={false}
+                                    />
                                 </div>
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center align-items-center p-0">
@@ -179,9 +182,9 @@ const Careers = () => {
                     </div>
                 </section>
 
-                <section>
+                <section className="careers">
                     <div className="row g-4">
-                        <h2>{_("CAREERS.HEAD3")}</h2>
+                        <h2 className="careers__h2">{_("CAREERS.HEAD3")}</h2>
                         {careers.map(({ id, getTitle, getText, image, getAlt }) => (
                             <TitleTextLinkCard
                                 key={id}
