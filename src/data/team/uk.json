@@ -1,6 +1,6 @@
 {
     "ALEX": {
-        "NAME": "Олексій",
+        "NAME": "Олександр",
         "TITLE": "iOS-розробник",
         "AVATAR": "/img/page/team/team_alex.webp",
         "LINK": "https://www.linkedin.com/in/protyagov/"
@@ -9,19 +9,7 @@
         "NAME": "Сергій",
         "TITLE": "QA-інженер",
         "AVATAR": "/img/page/team/team_sergeyK.webp",
-        "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
-    },
-    "SVETLANA": {
-        "NAME": "Світлана",
-        "TITLE": "Копірайтер",
-        "AVATAR": "/img/page/team/team_svetlana.webp",
-        "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
-    },
-    "DARIA": {
-        "NAME": "Дарія",
-        "TITLE": "UI/UX-дизайнер",
-        "AVATAR": "/img/page/team/team_daria.webp",
-        "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
+        "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b/"
     },
     "VITALY_V": {
         "NAME": "Віталій",
@@ -47,52 +35,46 @@
         "AVATAR": "/img/page/team/team_vika.webp",
         "LINK": ""
     },
-    "AYAN": {
-        "NAME": "Аян",
-        "TITLE": "Веб-розробник",
-        "AVATAR": "/img/page/team/team_ayan.webp",
-        "LINK": "https://www.linkedin.com/in/ayan-baryshev-4a38a2366/"
-    },
-    "ANDRII": {
-        "NAME": "Андрій",
-        "TITLE": "QA-інженер",
-        "AVATAR": "/img/page/team/team_andrii.webp",
-        "LINK": ""
-    },
     "EVGEN": {
         "NAME": "Евгеній",
         "TITLE": "Веб-розробник",
         "AVATAR": "/img/page/team/team_evgeny.webp",
         "LINK": "https://www.linkedin.com/in/evgen-khamitcevich"
     },
-    "ANDREI": {
-        "NAME": "Андрій",
-        "TITLE": "Веб-розробник",
-        "AVATAR": "/img/page/team/team_andrei.webp",
-        "LINK": "https://www.linkedin.com/in/andrei-bogdanovich/"
-    },
-    "ARINA": {
-        "NAME": "Аріна",
+    "KSENIA": {
+        "NAME": "Ксенія",
         "TITLE": "UI/UX-дизайнер",
-        "AVATAR": "/img/page/team/team_arina.webp",
-        "LINK": "https://www.linkedin.com/in/arina-tikhomirova-11729b3b3/"
-    },
-    "ULIA": {
-        "NAME": "Юлія",
-        "TITLE": "iOS-розробник",
-        "AVATAR": "/img/page/team/team_ulia.webp",
-        "LINK": "https://www.linkedin.com/in/yuliya-yamgurova-412075374/?locale=ru-RU"
-    },
-    "KATE": {
-        "NAME": "Катерина",
-        "TITLE": "UI/UX-дизайнер",
-        "AVATAR": "/img/page/team/team_kate.webp",
+        "AVATAR": "/img/page/team/team_ksenia.webp",
         "LINK": ""
     },
-    "ZHANEL": {
-        "NAME": "Жанель",
+    "DANIL": {
+        "NAME": "Даніл",
+        "TITLE": "iOS-розробник",
+        "AVATAR": "/img/page/team/team_danil.webp",
+        "LINK": "https://www.linkedin.com/in/danilkazakov/"
+    },
+    "IRINA": {
+        "NAME": "Ірина",
+        "TITLE": "Веб-розробник",
+        "AVATAR": "/img/page/team/team_irina.webp",
+        "LINK": "https://www.linkedin.com/in/irina-dedova/"
+    },
+    "DIMA": {
+        "NAME": "Діма",
+        "TITLE": "Веб-розробник",
+        "AVATAR": "/img/page/team/team_dima.webp",
+        "LINK": ""
+    },
+    "DIANA": {
+        "NAME": "Діана",
+        "TITLE": "iOS-розробник",
+        "AVATAR": "/img/page/team/team_diana.webp",
+        "LINK": "https://www.linkedin.com/in/dianakuchaeva/"
+    },
+    "VIKA_S": {
+        "NAME": "Віка",
         "TITLE": "UI/UX-дизайнер",
-        "AVATAR": "/img/page/team/team_zhanel.webp",
+        "AVATAR": "/img/page/team/team_vikaS.webp",
         "LINK": ""
     }
 }
