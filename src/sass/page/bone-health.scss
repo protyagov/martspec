@@ -1,0 +1,22 @@
+.vitamin .header-content-list {
+    list-style: disc;
+    padding-left: 1.25rem;
+}
+
+.vitamin .header-content-list li {
+    list-style: disc;
+}
+
+.vitamin .header-content-list li::marker {
+    color: #1686ff;
+}
+
+.vitamin .bone-health-card {
+    background-color: #e9effb;
+    overflow: hidden;
+}
+
+.vitamin .bone-health-section {
+    background-color: #f4f5f8;
+    overflow: hidden;
+}

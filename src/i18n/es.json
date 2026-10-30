@@ -226,7 +226,7 @@
             "LI5_HEAD": "Cree una rutina y mantenga la responsabilidad",
             "LI5_TEXT": "Haga que el control del peso sea parte de su ritmo diario, como cepillarse los dientes. Ser constante genera impulso. También puede formar equipo con amigos o usar grupos de apoyo para obtener motivación adicional."
         },
-                "HEAD6": "Cómo hacer un seguimiento de la pérdida o aumento de peso",
+        "HEAD6": "Cómo hacer un seguimiento de la pérdida o aumento de peso",
         "DESC6": "Hacer un seguimiento constante de su peso es una de las formas más efectivas de mantenerse responsable y monitorear su progreso. Así es como hacerlo de manera efectiva:",
         "LIST5": {
             "LI1_HEAD": "Elija una hora constante",
@@ -292,6 +292,48 @@
             }
         }
     },
+    "BONE_HEALTH": {
+        "NAME": "Salud ósea",
+        "HEAD": "Cómo detener el deterioro óseo y reconstruir el esqueleto",
+        "DESC1": "Los huesos fuertes son la base de una vida vibrante y activa. Significan mejor movimiento, mayor fuerza y más independencia. Si tus huesos son más densos que los de una persona promedio, esa única métrica predice que vivirás más tiempo, te moverás mejor y permanecerás independiente por más tiempo. Tener huesos débiles puede desencadenar una peligrosa reacción en cadena: te rompes un hueso, te lesionas, no puedes hacer ejercicio, pierdes músculo, y eso lleva aun menos ejercicio. Continúa un efecto dominó vicioso en tu cuerpo.",
+        "DESC2": "Un estudio de mujeres mayores de 65 años encontró que aquellas con huesos más fuertes tenían aproximadamente un 50 % menos de probabilidad de morir y un tercio menos de problemas para caminar. Para los hombres de 65 a 75 años, incluso pequeñas mejoras en la salud ósea los hicieron aproximadamente un 25 % menos propensos a morir en los siguientes años. No pierdas la esperanza — tu cuerpo reemplaza sus huesos aproximadamente cada 10 años. Aplicando el ejercicio, la nutrición y los hábitos adecuados como el sueño, puedes literalmente reconstruir tu densidad ósea. Desglosemos lo que se necesita para construir y mantener una salud ósea óptima de por vida.",
+        "ALT1": "Mujer atlética entrenando con una mancuerna en la mano",
+        "ALT2": "Hombre agarrando su espalda baja con dolor, con parches para aliviar el dolor visibles en su espalda baja",
+        "HEAD2": "Los tres pilares de la salud ósea",
+        "DESC3": "Construir y mantener tus huesos se reduce a tres pilares clave: nutrición, hábitos saludables y ejercicio.",
+        "SUBHEADS": {
+            "HEAD1": "Pilar 1: Nutrición inteligente.",
+            "HEAD2": "Pilar 2: Hábitos saludables.",
+            "HEAD3": "Pilar 3: Ejercicio con carga."
+        },
+        "SUBTITLES": {
+            "TITLE1": "Cuando pienses en la densidad ósea, piensa en construir un puente. Para mantener el control de tu ingesta, considera usar una herramienta como la aplicación Martspec Vitamin, que facilita el monitoreo y la gestión de tus necesidades diarias. También ofrece sugerencias sobre alimentos orgánicos integrales recomendados por el USDA para ayudarte a obtener esos elementos naturalmente si prefieres no tomar cápsulas.",
+            "TITLE2": "Ciertos hábitos pueden socavar incluso el mejor plan de nutrición. Evita estos saboteadores de huesos:",
+            "TITLE3": "Estos hábitos alteran el equilibrio de calcio de tu cuerpo y debilitan la estructura ósea con el tiempo. Combinados con un sueño de calidad, evitarlos crea un entorno donde tus huesos pueden prosperar.",
+            "TITLE4": "Puedes tener todos los materiales correctos, pero no se convertirán en una estructura sólida sin trabajo. Los huesos necesitan ser sometidos a carga para volverse fuertes. El método más efectivo es el entrenamiento de resistencia con carga. Agregar carga a tus ejercicios — ya sea con pesas, bandas o movimientos con el peso corporal — obliga a tus huesos a adaptarse construyendo y mineralizándose. El efecto es poderoso. Sin carga mecánica, la pérdida ósea se acelera dramáticamente. Los astronautas en microgravedad pueden perder hasta un 1,6 % de su densidad ósea por mes, aproximadamente diez veces la tasa típica en la Tierra."
+        },
+        "LIST": {
+            "1": "Fumar",
+            "2": "Exceso de sodio",
+            "3": "Refrescos azucarados",
+            "4": "Consumo excesivo de alcohol"
+        },
+        "CARDS": {
+            "HEAD1": "El marco (Colágeno)",
+            "DESC1": "El colágeno, un tipo importante de proteína, es el acero de refuerzo — el marco que da forma y resistencia a la tracción a la estructura. Para mantenerlo sólido, necesitas una cantidad adecuada de esta proteína — típicamente entre 1,2 g y 2,2 g por kilogramo de peso corporal.",
+            "HEAD2": "El concreto (Minerales)",
+            "DESC2": "Minerales como el calcio, el fósforo, el magnesio y el boro son el concreto que llena el marco, endureciendo y fortaleciendo la estructura. Sin ellos, tu esqueleto sería como un puente hecho solo de cables de acero — flexible pero peligrosamente frágil.",
+            "HEAD3": "El equipo de construcción (Vitaminas D y K2)",
+            "DESC3": "La vitamina D actúa como el repartidor, recogiendo calcio y entregándolo donde tus huesos lo necesitan. La K2 es el cerrajero, activando las proteínas que unen el calcio firmemente al marco de colágeno. Sin ellas, las materias primas quedan sin usar."
+        },
+        "HEAD3": "Conclusión: Toma el control de tu esqueleto",
+        "DESC4": "La salud ósea puede mejorarse a cualquier edad. Con una nutrición adecuada y ejercicios de fortalecimiento, puedes construir un esqueleto más fuerte para mayor movilidad, independencia y vitalidad.",
+        "DESC5": "DEXA Scan: personaliza y realiza un seguimiento del progreso. Comenzar con demasiado puede causar hinchazón, gases o malestar estomacal.",
+        "DESC6": "Si deseas más precisión y una forma medible de rastrear cambios, hazte una exploración DEXA. La densidad ósea alcanza su punto máximo típicamente entre los 25 y 30 años, después de lo cual disminuye gradualmente. Para las mujeres, esta caída puede ser dramática — hasta un 20 % de la densidad ósea se puede perder en los primeros años de la menopausia.",
+        "DESC7": "Puntuación T: Compara tus huesos con los de una persona sana de 30 años del mismo sexo.",
+        "DESC8": "Puntuación Z: Compara tus huesos con personas de tu misma edad, sexo y tamaño.",
+        "DESC9": "Si tienes veintitantos o principios de los treinta, esta puntuación es tu punto máximo — un punto de referencia para mantener de por vida. Si tu puntuación no es lo que esperabas, no te preocupes. Tu esqueleto tiene una capacidad notable para renovarse en varios años. Con la estrategia correcta, puedes reconstruir."
+    },
     "VITAMIN": {
         "HEAD": "Vitamina",
         "SUBHEAD": "el mejor rastreador de vitaminas",
@@ -303,7 +345,7 @@
         "SUBHEAD1": "Rastreador de nutrientes y medicamentos",
         "SUBHEAD2": "Seguidor de nutrientes",
         "TEXT1": "Un práctico rastreador de ingesta de vitaminas & minerales con recordatorios. Sincronización con Apple Health. Copias de seguridad seguras en iCloud. Gratis. Sin anuncios ni compras dentro de la app.",
-        "BUTTON_OPEN_NUTRIENTS": "Saber más",
+        "BTN_MORE": "Saber más",
         "ICO1": "Icono de la aplicación Anillo de Vitaminas, el mejor rastreador de vitaminas. Sincronización con Apple Health y copia de seguridad en iCloud. Gratis y sin anuncios.",
         "DWN": "Descargue la aplicación gratuita de seguimiento de vitaminas y nutrientes de la AppStore de Apple",
         "ABOUT_1": "Controle su consumo de vitaminas y minerales importantes todos los días",
@@ -364,6 +406,9 @@
         "ALT5_5": "Conveniente notificación de tomar vitaminas. El recordatorio llega a la hora y día de la semana específicos.",
         "ALT5_6": "Sincronización con la aplicación Apple Health, la mejor base de todas las vitaminas y microelementos.",
         "ALT6": "iPhone muestra alimentos ricos en vitamina K en la aplicación Vitamina de Martspec.",
+        "ALT_7": "Persona levantando mancuernas para la salud ósea, rodeada de iconos de vitaminas, una manzana y un escudo, con un esqueleto mostrado en su ropa.",
+        "HEAD_7": "Salud ósea: tu esqueleto alcanza su punto máximo a los 30 años.",
+        "TEXT_3": "Unos huesos fuertes son la base de una vida activa y llena de energía. Proporcionan mejor movilidad, mayor fuerza y una independencia más prolongada. Si tus huesos son más densos que el promedio, este único indicador predice que vivirás más tiempo, te moverás mejor y permanecerás independiente por más tiempo.",
         "HEAD6": "Vitamina: una aplicación para controlar el equilibrio de las vitaminas y minerales necesarios.",
         "DESC6": "Instale la aplicación para iOS de forma gratuita y disfrute de la salud y la vitalidad.",
         "BTN_OPEN": "Vitaminícese",
@@ -1926,21 +1971,21 @@
         "DESC": "En Martspec, entendemos que solicitar empleo en línea a veces conlleva riesgos. Nos solidarizamos con quienes se enfrentan al fraude laboral y nos esforzamos por ayudar a los solicitantes de empleo a reducir el riesgo de ser víctimas de este tipo de estafas.",
         "ALT": "Seguridad en la búsqueda de empleo",
         "LIST1": {
-        "HEAD": "Cómo protegemos sus datos",
-        "DESC1": "Antes de pasar a las señales comunes de fraude, queremos aclarar por completo nuestro proceso de contratación. En Martspec, todo se basa exclusivamente en las cualidades profesionales, habilidades, aportes y resultados de una persona, independientemente de su género, edad, conexiones personales u otros factores.",
-        "SUBHEAD1": "Lo que nunca solicitamos:",
-        "TEXT1": "Fecha de nacimiento real o edad",
-        "TEXT2": "Pasaporte",
-        "TEXT3": "Licencia de conducir",
-        "TEXT4": "Número de teléfono",
-        "TEXT5": "Número de seguro social",
-        "TEXT6": "Cualquier otro dato personal confidencial",
-        "SUBHEAD2": "Qué datos necesitamos realmente",
-        "DESC2": "Para la mayoría de los candidatos, solo necesitamos:",
-        "TEXT7": "Nombre (para dirigirnos a usted correctamente)",
-        "TEXT8": "Correo electrónico para comunicación",
-        "TEXT9": "A veces - zona horaria (nuestro equipo trabaja en diferentes zonas horarias, por lo que no queremos molestarlo en medio de la noche)"
-    }
+            "HEAD": "Cómo protegemos sus datos",
+            "DESC1": "Antes de pasar a las señales comunes de fraude, queremos aclarar por completo nuestro proceso de contratación. En Martspec, todo se basa exclusivamente en las cualidades profesionales, habilidades, aportes y resultados de una persona, independientemente de su género, edad, conexiones personales u otros factores.",
+            "SUBHEAD1": "Lo que nunca solicitamos:",
+            "TEXT1": "Fecha de nacimiento real o edad",
+            "TEXT2": "Pasaporte",
+            "TEXT3": "Licencia de conducir",
+            "TEXT4": "Número de teléfono",
+            "TEXT5": "Número de seguro social",
+            "TEXT6": "Cualquier otro dato personal confidencial",
+            "SUBHEAD2": "Qué datos necesitamos realmente",
+            "DESC2": "Para la mayoría de los candidatos, solo necesitamos:",
+            "TEXT7": "Nombre (para dirigirnos a usted correctamente)",
+            "TEXT8": "Correo electrónico para comunicación",
+            "TEXT9": "A veces - zona horaria (nuestro equipo trabaja en diferentes zonas horarias, por lo que no queremos molestarlo en medio de la noche)"
+        }
     },
     "TEAM": {
         "HEAD": "Equipo",
@@ -2377,15 +2422,27 @@
         }
     },
     "WORKOUT": {
-        "HEAD": "Entrenamientos", "SUBHEAD": "Un diario de entrenamiento completo para planificar sesiones, registrar resultados y analizar tu progreso.",
-        "TRACKING_TITLE": "Registra toda actividad", "TRACKING_TEXT": "Registra peso de trabajo, ejercicios con peso corporal, repeticiones y volumen total en fuerza; lado, tiempo de mantenimiento y repeticiones en estiramientos; y velocidad, intensidad, distancia y duración en cardio.",
-        "BUILDER_TITLE": "Crea tus entrenamientos", "BUILDER_TEXT": "El catálogo incluye más de 200 ejercicios con instrucciones e imágenes. Busca por nombre, músculo o equipo, o crea ejercicios propios con fotos, parámetros de carga, MET y músculos implicados. Combina ejercicios y superseries de hasta tres movimientos, con notas, fotos, series copiadas y edición rápida.",
-        "FEATURES_TITLE": "Todos los detalles a la vista", "CATALOG_TITLE": "Temporizadores y registros completos", "CATALOG_TEXT": "Los temporizadores de entrenamiento, descanso y ejercicios por tiempo mantienen el ritmo. Al terminar, la app crea un registro detallado con calorías, peso total, duración y grupos musculares principales.",
-        "PROGRESS_TITLE": "Progreso medible", "PROGRESS_TEXT": "Los valores MET basados en ciencia estiman calorías durante y antes de sesiones planificadas. El historial guarda cada serie, récords personales y comparaciones con entrenamientos anteriores para analizar fuerza y resistencia a largo plazo.",
-        "PRIVACY_TITLE": "Privado, sin conexión y sincronizado", "PRIVACY_TEXT": "Tus datos se sincronizan solo mediante tu iCloud personal. No los recopilamos, analizamos ni guardamos en nuestros servidores. La app funciona totalmente sin conexión, se sincroniza entre dispositivos y admite temas claro y oscuro.",
-        "CALENDAR_TITLE": "Planifica con un calendario flexible", "CALENDAR_TEXT": "Consulta entrenamientos planificados, activos y terminados en cualquier fecha. Copia un programa para uno o varios días y edita sesiones completadas después: añade ejercicios, cambia horas, notas y fotos.",
-        "SHARING_TITLE": "Comparte el resultado", "SHARING_TEXT": "Después de entrenar, crea una bonita tarjeta de resultados con una foto elegida para compartir con amigos o publicar.",
-        "CTA_TITLE": "Un diario que respeta tus datos", "CTA_TEXT": "Del primer plan al próximo récord personal, Entrenamientos mantiene detalles, tiempo y progreso en un lugar privado.",
-        "ALT_CATALOG": "Temporizadores y registros detallados", "ALT_PROGRESS": "Progreso y récords personales", "ALT_PRIVACY": "Sincronización privada con iCloud"
+        "HEAD": "Entrenamientos",
+        "SUBHEAD": "Un diario de entrenamiento completo para planificar sesiones, registrar resultados y analizar tu progreso.",
+        "TRACKING_TITLE": "Registra toda actividad",
+        "TRACKING_TEXT": "Registra peso de trabajo, ejercicios con peso corporal, repeticiones y volumen total en fuerza; lado, tiempo de mantenimiento y repeticiones en estiramientos; y velocidad, intensidad, distancia y duración en cardio.",
+        "BUILDER_TITLE": "Crea tus entrenamientos",
+        "BUILDER_TEXT": "El catálogo incluye más de 200 ejercicios con instrucciones e imágenes. Busca por nombre, músculo o equipo, o crea ejercicios propios con fotos, parámetros de carga, MET y músculos implicados. Combina ejercicios y superseries de hasta tres movimientos, con notas, fotos, series copiadas y edición rápida.",
+        "FEATURES_TITLE": "Todos los detalles a la vista",
+        "CATALOG_TITLE": "Temporizadores y registros completos",
+        "CATALOG_TEXT": "Los temporizadores de entrenamiento, descanso y ejercicios por tiempo mantienen el ritmo. Al terminar, la app crea un registro detallado con calorías, peso total, duración y grupos musculares principales.",
+        "PROGRESS_TITLE": "Progreso medible",
+        "PROGRESS_TEXT": "Los valores MET basados en ciencia estiman calorías durante y antes de sesiones planificadas. El historial guarda cada serie, récords personales y comparaciones con entrenamientos anteriores para analizar fuerza y resistencia a largo plazo.",
+        "PRIVACY_TITLE": "Privado, sin conexión y sincronizado",
+        "PRIVACY_TEXT": "Tus datos se sincronizan solo mediante tu iCloud personal. No los recopilamos, analizamos ni guardamos en nuestros servidores. La app funciona totalmente sin conexión, se sincroniza entre dispositivos y admite temas claro y oscuro.",
+        "CALENDAR_TITLE": "Planifica con un calendario flexible",
+        "CALENDAR_TEXT": "Consulta entrenamientos planificados, activos y terminados en cualquier fecha. Copia un programa para uno o varios días y edita sesiones completadas después: añade ejercicios, cambia horas, notas y fotos.",
+        "SHARING_TITLE": "Comparte el resultado",
+        "SHARING_TEXT": "Después de entrenar, crea una bonita tarjeta de resultados con una foto elegida para compartir con amigos o publicar.",
+        "CTA_TITLE": "Un diario que respeta tus datos",
+        "CTA_TEXT": "Del primer plan al próximo récord personal, Entrenamientos mantiene detalles, tiempo y progreso en un lugar privado.",
+        "ALT_CATALOG": "Temporizadores y registros detallados",
+        "ALT_PROGRESS": "Progreso y récords personales",
+        "ALT_PRIVACY": "Sincronización privada con iCloud"
     }
 }

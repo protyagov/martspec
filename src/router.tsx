@@ -6,6 +6,7 @@ import Electrolyte from "@/atomic/page/electrolyte";
 import Bodymass from "@/atomic/page/mass";
 import Vitamin from "@/atomic/page/vitamin";
 import Capsules from "@/atomic/page/vitamin/capsules";
+import BoneHealth from "@/atomic/page/vitamin/bone-health";
 import Magnesium from "@/atomic/page/magnesium";
 import VitaminElement from "@/atomic/prototype/vitamin-element";
 import PrivacyPolicy from "@/atomic/page/private-policy";
@@ -70,6 +71,8 @@ export function App() {
             return <Vitamin />;
         case "/vitamin/capsules":
             return <Capsules />;
+        case "/vitamin/bone-health":
+            return <BoneHealth />;
         case "/bodyzinc":
             return <BodyZinc />;
         case "/magnesium":
