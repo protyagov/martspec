@@ -38,12 +38,12 @@ export default function BoneHealth() {
                 <section className="mt-0">
                     <div className="row">
                         <div className="col-12">
-                            <div className="col-12 col-md-6">
+                            <div className="col-12 col-md-9">
                                 <h1>{_("BONE_HEALTH.HEAD")}</h1>
                             </div>
 
                             <ImageI18N
-                                src="/img/page/vitamin/bones-woman-work-out.webp"
+                                src="/img/page/vitamin/bones-woman-work-out.avif"
                                 w={500}
                                 h={314}
                                 cls="ms-base-image w-100 my-3 my-lg-4"
@@ -77,7 +77,7 @@ export default function BoneHealth() {
                                 title={_("BONE_HEALTH.CARDS.HEAD2")}
                                 text={_("BONE_HEALTH.CARDS.DESC2")}
                                 bgColor="#F4F5F8"
-                                shadow={true}
+                                shadow={false}
                             />
                         </div>
                         <div className="col">
@@ -90,7 +90,7 @@ export default function BoneHealth() {
                     </div>
                     <div className="row bone-health">
                         <div className="col-12">
-                            <div className="bone-health-card d-flex flex-wrap align-items-center justify-content-between shadow rounded-5">
+                            <div className="bone-health-card d-flex flex-wrap align-items-center justify-content-between shadow-none rounded-5">
                                 <div className="col-12 col-xxl-6 order-2 order-xxl-2 my-4 rounded-5 overflow-hidden">
                                     <ImageI18N
                                         src="/img/page/vitamin/bones-back-ache.avif"
@@ -128,7 +128,7 @@ export default function BoneHealth() {
                 <section>
                     <div className="row">
                         <div className="col-12">
-                            <div className="bone-health-section shadow rounded-5 p-4 p-lg-5">
+                            <div className="bone-health-section shadow-none rounded-5 p-4 p-lg-5">
                                 <h2>{_("BONE_HEALTH.HEAD3")}</h2>
                                 <p>{_("BONE_HEALTH.DESC4")}</p>
                                 <p>{_("BONE_HEALTH.DESC5")}</p>
