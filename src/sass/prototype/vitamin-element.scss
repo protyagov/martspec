@@ -74,18 +74,18 @@
     .vit-def,
     .vit-over {
         ul {
-        list-style-type: disc !important;
-        padding-left: 1.5rem; 
-        
-        li {
-            font-size: 1.2rem;
-            font-family: os4;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-            display: list-item; 
+            list-style-type: disc !important;
+            padding-left: 1.5rem;
+
+            li {
+                font-size: 1.2rem;
+                font-family: os4;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                display: list-item;
+            }
         }
     }
-}
 
     .vit-def {
         h3 {
@@ -121,19 +121,52 @@
     }
 
     .vit-charts {
+        table-layout: fixed;
+        width: 100%;
+
         td {
-            width: 1%;
-            white-space: nowrap;
+            width: auto;
+            white-space: normal;
             vertical-align: middle;
+            word-break: break-word;
+            overflow-wrap: anywhere;
         }
+
+        td:first-child {
+            width: 40%;
+        }
+
         .chart-container {
-            width: 100%;
+            width: auto;
+            padding-left: 0.25rem !important;
+            padding-right: 0.25rem !important;
         }
+
+        td:last-child {
+            width: 20%;
+            white-space: nowrap;
+            text-align: right;
+        }
+
         .chart {
             height: 1rem;
-
+            min-width: 2px;
             background-color: #3bbb00;
             opacity: 0.45;
+        }
+
+        @media (max-width: 400px) {
+            font-size: 1rem;
+
+            td:first-child {
+                width: 45%;
+                padding-right: 0.25rem !important;
+            }
+
+            td:last-child {
+                width: 18%;
+                padding-left: 0.25rem !important;
+            }
         }
     }
 
