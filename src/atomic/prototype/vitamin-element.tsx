@@ -38,10 +38,10 @@ const VIT_AGE = [
 
 export default function VitaminElement(props: VitaminElementProps) {
     const id = props.id.toUpperCase();
-    
-if (typeof window !== 'undefined' && (window as any).__IS_ARTICLE__) {
-    return <Article articleType="vitamin" articleId={props.id} />;
-}
+
+    if (typeof window !== "undefined" && (window as any).__IS_ARTICLE__) {
+        return <Article articleType="vitamin" articleId={props.id} />;
+    }
 
     const [data, setData] = React.useState<VitaminElement | null>(null);
 
@@ -96,79 +96,79 @@ if (typeof window !== 'undefined' && (window as any).__IS_ARTICLE__) {
     };
 
     return (
-    <>
-        <NavigationBar />
+        <>
+            <NavigationBar />
 
-        <div className="ms-base-page pb-5 vitamin-element">
-            {data && (
-                <>
-                    <div
-                        className="header py-5 mt-0"
-                        style={{ "--vitamin-bg-color": "#" + data.HEX } as React.CSSProperties}
-                    >
-                        <section>
-                            <div className="ms-s-offset text-center">
-                                <div className="row">
-                                    <div className="col">
-                                        <h1 className="pt-5">{getNameWithType(data)}</h1>
-                                        <img
-                                            src={data.LOGO}
-                                            className="ms-base-image"
-                                            alt={_("VITAMIN." + id + ".NAME")}
-                                            height={512}
-                                            width={512}
-                                        />
+            <div className="ms-base-page pb-5 vitamin-element">
+                {data && (
+                    <>
+                        <div
+                            className="header py-5 mt-0"
+                            style={{ "--vitamin-bg-color": "#" + data.HEX } as React.CSSProperties}
+                        >
+                            <section>
+                                <div className="ms-s-offset text-center">
+                                    <div className="row">
+                                        <div className="col">
+                                            <h1 className="pt-5">{getNameWithType(data)}</h1>
+                                            <img
+                                                src={data.LOGO}
+                                                className="ms-base-image"
+                                                alt={_("VITAMIN." + id + ".NAME")}
+                                                height={512}
+                                                width={512}
+                                            />
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
-                    </div>
+                            </section>
+                        </div>
 
-                    <div className="container">
-                        <section>
-                            <div className="row mt-5">
-                                <div className="col">
-                                    <h2>{_("VITAMIN.CONTENT.FUNC")}</h2>
-                                    <p>{_("VITAMIN." + id + ".FUNC")}</p>
-                                </div>
-                            </div>
-                            {data.TYPE && (
-                                <div className="row">
+                        <div className="container">
+                            <section>
+                                <div className="row mt-5">
                                     <div className="col">
-                                        <div className="vit-type">
-                                            <button
-                                                data-bs-toggle="collapse"
-                                                data-bs-target="#vit-type-collapse"
-                                                aria-expanded="false"
-                                                aria-controls="vit-type-collapse"
-                                            >
-                                                {_("VITAMIN." + data.TYPE + ".SHORT")}
-                                            </button>
-                                            <div className="collapse collapse-content" id="vit-type-collapse">
-                                                <div className="content-padding">
-                                                    {_("VITAMIN." + data.TYPE + ".DESC")}
+                                        <h2>{_("VITAMIN.CONTENT.FUNC")}</h2>
+                                        <p>{_("VITAMIN." + id + ".FUNC")}</p>
+                                    </div>
+                                </div>
+                                {data.TYPE && (
+                                    <div className="row">
+                                        <div className="col">
+                                            <div className="vit-type">
+                                                <button
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#vit-type-collapse"
+                                                    aria-expanded="false"
+                                                    aria-controls="vit-type-collapse"
+                                                >
+                                                    {_("VITAMIN." + data.TYPE + ".SHORT")}
+                                                </button>
+                                                <div className="collapse collapse-content" id="vit-type-collapse">
+                                                    <div className="content-padding">
+                                                        {_("VITAMIN." + data.TYPE + ".DESC")}
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            )}
-                        </section>
+                                )}
+                            </section>
 
-                        <section>
-                            <div className="row">
-                                <div className="col-md col-12 vit-def">
-                                    <h3>{_("VITAMIN.CONTENT.DEF")}</h3>
-                                    <ul>{getListFromCount(data, "DEF")}</ul>
+                            <section>
+                                <div className="row">
+                                    <div className="col-md col-12 vit-def">
+                                        <h3>{_("VITAMIN.CONTENT.DEF")}</h3>
+                                        <ul>{getListFromCount(data, "DEF")}</ul>
+                                    </div>
+                                    <div className="col-md col-12 vit-over">
+                                        <h3>{_("VITAMIN.CONTENT.OVER")}</h3>
+                                        <ul>{getListFromCount(data, "OVER")}</ul>
+                                    </div>
                                 </div>
-                                <div className="col-md col-12 vit-over">
-                                    <h3>{_("VITAMIN.CONTENT.OVER")}</h3>
-                                    <ul>{getListFromCount(data, "OVER")}</ul>
-                                </div>
-                            </div>
-                        </section>
+                            </section>
 
-                        {/*{["DOSE_RDV", "DOSE_UL"].map((SECTION) => {
+                            {/*{["DOSE_RDV", "DOSE_UL"].map((SECTION) => {
                             return (
                                 data[SECTION] && (
                                 <section key={SECTION}>
@@ -184,10 +184,10 @@ if (typeof window !== 'undefined' && (window as any).__IS_ARTICLE__) {
                                             <h2>{_("VITAMIN.CONTENT." + SECTION)}</h2>
                                         </div>
                                     </div>
-                                    
+
                                     <div className="row">
-                                        <div className="col-12 pe-2 m-0"> 
-                                            <table className="table table-bordered vit-table w-100 m-0"> 
+                                        <div className="col-12 pe-2 m-0">
+                                            <table className="table table-bordered vit-table w-100 m-0">
                                                 <thead>
                                                     <tr className="table-secondary">
                                                         <td style={{ width: "50%" }}>{_("VITAMIN.CONTENT.AGE.HEAD")}</td>
@@ -219,122 +219,126 @@ if (typeof window !== 'undefined' && (window as any).__IS_ARTICLE__) {
                                 )
                             );
                         })}*/}
-                        {["DOSE_RDV", "DOSE_UL"].map((SECTION) => {
-                            if (!data[SECTION]) return null;
+                            {["DOSE_RDV", "DOSE_UL"].map((SECTION) => {
+                                if (!data[SECTION]) return null;
 
-                            const tableData: TableData = {
-                                caption: `Таблица ${_("VITAMIN.CONTENT." + SECTION)} для ${getNameWithType(data)}`,
-                                headers: [
-                                    _("VITAMIN.CONTENT.AGE.HEAD"),
-                                    _("VITAMIN.CONTENT.MALE"),
-                                    _("VITAMIN.CONTENT.FEMA")
-                                ],
-                                rows: VIT_AGE.map((age, idx) => {
-                                    const maleValue = data[SECTION].MALE[idx];
-                                    const femaValue = data[SECTION].FEMA[idx];
-                                    
-                                    return [
-                                        _("VITAMIN.CONTENT.AGE." + age),
-                                        maleValue ? `${maleValue} ${_("VITAMIN.CONTENT." + data.UNIT)}` : " ",
-                                        femaValue ? `${femaValue} ${_("VITAMIN.CONTENT." + data.UNIT)}` : " "
-                                    ];
-                                })
-                            };
+                                const tableData: TableData = {
+                                    caption: `Таблица ${_("VITAMIN.CONTENT." + SECTION)} для ${getNameWithType(data)}`,
+                                    headers: [
+                                        _("VITAMIN.CONTENT.AGE.HEAD"),
+                                        _("VITAMIN.CONTENT.MALE"),
+                                        _("VITAMIN.CONTENT.FEMA"),
+                                    ],
+                                    rows: VIT_AGE.map((age, idx) => {
+                                        const maleValue = data[SECTION].MALE[idx];
+                                        const femaValue = data[SECTION].FEMA[idx];
 
-                            return (
-                                <section key={SECTION}>
-                                    <div className="row m-2">
-                                        <div className="col d-flex align-items-center">
-                                            <img
-                                                src={`/img/page/vitamin/vitamin-${SECTION}-icon.webp`}
-                                                className="p-0 mt-3 ms-0 me-3"
-                                                alt={_("VITAMIN.CONTENT." + SECTION)}
-                                                height="40px"
-                                                width="40px"
-                                            />
-                                            <h2>{_("VITAMIN.CONTENT." + SECTION)}</h2>
+                                        return [
+                                            _("VITAMIN.CONTENT.AGE." + age),
+                                            maleValue ? `${maleValue} ${_("VITAMIN.CONTENT." + data.UNIT)}` : " ",
+                                            femaValue ? `${femaValue} ${_("VITAMIN.CONTENT." + data.UNIT)}` : " ",
+                                        ];
+                                    }),
+                                };
+
+                                return (
+                                    <section key={SECTION}>
+                                        <div className="row m-2">
+                                            <div className="col d-flex align-items-center">
+                                                <img
+                                                    src={`/img/page/vitamin/vitamin-${SECTION}-icon.webp`}
+                                                    className="p-0 mt-3 ms-0 me-3"
+                                                    alt={_("VITAMIN.CONTENT." + SECTION)}
+                                                    height="40px"
+                                                    width="40px"
+                                                />
+                                                <h2>{_("VITAMIN.CONTENT." + SECTION)}</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                    
-                                    <div className="row">
-                                        <div className="col-12 pe-2 m-0">
-                                            <Table 
-                                                data={tableData} 
-                                                transformMobile={true} 
-                                                headerBgColor="#E2E3E5"
-                                                firstColumnBgColor="#F8F9FA" 
-                                            />
-                                        </div>
-                                    </div>
-                                </section>
-                            );
-                        })}
-                        <section>
-                            <div className="row">
-                                <div className="col">
-                                    <h2>
-                                        {_("VITAMIN.CONTENT.FOOD_100G", { unit: _("VITAMIN.CONTENT." + data.UNIT) })}
-                                    </h2>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col">
-                                    <table className="table vit-table vit-charts">
-                                        <tbody>
-                                            {Object.entries(data.FOOD_100G || {}).map(([food, g], idx, arr) => {
-                                                let max = getValueForAmount(0, arr[0][1]);
 
-                                                return (
-                                                    <tr key={"FOOD_100G-" + food}>
-                                                        <td className="pe-5">{_("VITAMIN.CONTENT." + food)}</td>
-                                                        <td className="chart-container">
-                                                            <div
-                                                                className="chart"
-                                                                style={{
-                                                                    width:
-                                                                        +((100 * getValueForAmount(idx, g)) / max) +
-                                                                        "%",
-                                                                }}
-                                                            ></div>
-                                                        </td>
-                                                        <td className="ps-5">{g}</td>
-                                                    </tr>
-                                                );
+                                        <div className="row">
+                                            <div className="col-12 pe-2 m-0">
+                                                <Table
+                                                    data={tableData}
+                                                    transformMobile={true}
+                                                    headerBgColor="#E2E3E5"
+                                                    firstColumnBgColor="#F8F9FA"
+                                                />
+                                            </div>
+                                        </div>
+                                    </section>
+                                );
+                            })}
+                            <section>
+                                <div className="row">
+                                    <div className="col">
+                                        <h2>
+                                            {_("VITAMIN.CONTENT.FOOD_100G", {
+                                                unit: _("VITAMIN.CONTENT." + data.UNIT),
                                             })}
-                                        </tbody>
-                                    </table>
+                                        </h2>
+                                    </div>
                                 </div>
-                            </div>
-                        </section>
+                                <div className="row">
+                                    <div className="col">
+                                        <table className="table vit-table vit-charts">
+                                            <tbody>
+                                                {Object.entries(data.FOOD_100G || {}).map(([food, g], idx, arr) => {
+                                                    let max = getValueForAmount(0, arr[0][1]);
 
-                        <section>
-                            <div className="row">
-                                <div className="col vit-facts">
-                                    <h2>{_("VITAMIN.CONTENT.FACTS")}</h2>
-                                    <ul className="p-0">{getListFromCount(data, "FACT")}</ul>
+                                                    return (
+                                                        <tr key={"FOOD_100G-" + food}>
+                                                            <td className="pe-3">{_("VITAMIN.CONTENT." + food)}</td>
+                                                            <td className="chart-container">
+                                                                <div
+                                                                    className="chart"
+                                                                    style={{
+                                                                        width:
+                                                                            +((100 * getValueForAmount(idx, g)) / max) +
+                                                                            "%",
+                                                                    }}
+                                                                ></div>
+                                                            </td>
+                                                            <td className="ps-3">{g}</td>
+                                                        </tr>
+                                                    );
+                                                })}
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
-                            </div>
-                        </section>
+                            </section>
 
-                        <section>
-                            <div className="row">
-                                <div className="col text-center">
-                                    <a
-                                        href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
-                                        target="_blank"
-                                        title={_("VITAMIN.DWN")}
-                                        className="ms-btn-apple mt-5"
-                                        style={{ backgroundImage: "url(/img/apple_btn/" + Locale.language + ".svg)" }}
-                                    ></a>
+                            <section>
+                                <div className="row">
+                                    <div className="col vit-facts">
+                                        <h2>{_("VITAMIN.CONTENT.FACTS")}</h2>
+                                        <ul className="p-0">{getListFromCount(data, "FACT")}</ul>
+                                    </div>
                                 </div>
-                            </div>
-                        </section>
-                    </div>
-                </>
-            )}
-        </div>
+                            </section>
 
-        <Footer />
-    </>
-);
+                            <section>
+                                <div className="row">
+                                    <div className="col text-center">
+                                        <a
+                                            href={`https://apps.apple.com/${_("COUNTRY_CODE")}/app/id1519596234?l=${Locale.language}`}
+                                            target="_blank"
+                                            title={_("VITAMIN.DWN")}
+                                            className="ms-btn-apple mt-5"
+                                            style={{
+                                                backgroundImage: "url(/img/apple_btn/" + Locale.language + ".svg)",
+                                            }}
+                                        ></a>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </>
+                )}
+            </div>
+
+            <Footer />
+        </>
+    );
 }
