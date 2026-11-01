@@ -14,6 +14,7 @@ const ROUTES = [
     { template: "magnesium", output: "magnesium" },
     { template: "vitamin", output: "vitamin" },
     { template: "vitamin/capsules", output: "vitamin/capsules" },
+    { template: "vitamin/bone-health", output: "vitamin/bone-health" },
     { template: "waistline", output: "waistline" },
     { template: "bodyzinc", output: "bodyzinc" },
     { template: "bodysize", output: "bodysize" },
@@ -89,7 +90,7 @@ const ROUTES = [
         "turkey_tail",
         "cordyceps",
         "reishi",
-        "red-light-therapy"
+        "red-light-therapy",
     ].map((x) => ({
         template: `vitamin/${x}`,
         output: `vitamin/${x}`,
