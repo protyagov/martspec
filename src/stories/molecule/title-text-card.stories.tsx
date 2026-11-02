@@ -13,7 +13,7 @@ export const TitleTextCardStory: Story = () => (
     <div style={{ maxWidth: "793px" }}>
         <TitleTextCard
             title={_("EMOTION.LIST1.LI1_HEAD")}
-            text={_("EMOTION.LIST1.LI1_TEXT")}
+            text={_("EMOTION.LIST1.DESC1")}
             bgColor="#EDE1FF"
             className="col-lg-8 col-md-6 w-100"
         />
