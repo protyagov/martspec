@@ -38,17 +38,6 @@
       "namedExport": "IconChevronCircleStory",
       "meta": {}
     },
-    "atom--icon-with-load": {
-      "name": "Icon with load",
-      "levels": [
-        "Atom"
-      ],
-      "locStart": 11,
-      "locEnd": 16,
-      "filePath": "src/stories/atom/icon-with-load.stories.tsx",
-      "namedExport": "IconWithLoadStory",
-      "meta": {}
-    },
     "atom--image-i18-n": {
       "name": "Image i18 n",
       "levels": [
@@ -126,6 +115,28 @@
       "locEnd": 22,
       "filePath": "src/stories/molecule/bullet-list.stories.tsx",
       "namedExport": "BulletListStory",
+      "meta": {}
+    },
+    "molecule--card-app-large": {
+      "name": "Card app large",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 12,
+      "locEnd": 31,
+      "filePath": "src/stories/molecule/card-app-large.stories.tsx",
+      "namedExport": "CardAppLargeStory",
+      "meta": {}
+    },
+    "molecule--card-app-small": {
+      "name": "Card app small",
+      "levels": [
+        "Molecule"
+      ],
+      "locStart": 13,
+      "locEnd": 46,
+      "filePath": "src/stories/molecule/card-app-small.stories.tsx",
+      "namedExport": "CardAppSmallStory",
       "meta": {}
     },
     "molecule--card-article-audio": {
