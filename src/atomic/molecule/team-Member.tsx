@@ -48,7 +48,7 @@ export default function TeamMember({ member, isWide, size = 22 }: TeamMemberProp
                             <div className="col-md-5 h-100 p-0">
                                 <img 
                                     src={member.AVATAR}
-                                    onError={(e) => (e.currentTarget.src = "/img/team_placeholder.png")}
+                                    onError={(e) => (e.currentTarget.src = "/img/page/team/team_placeholder.webp")}
                                     alt={`${member.NAME} - ${member.TITLE}`}
                                     className="rounded-5 w-100 object-fit-cover"
                                     style={{
@@ -79,7 +79,7 @@ export default function TeamMember({ member, isWide, size = 22 }: TeamMemberProp
                 <div className="p-4 pb-0">
                     <img
                         src={member.AVATAR}
-                        onError={(e) => (e.currentTarget.src = "/img/team_placeholder.png")}
+                        onError={(e) => (e.currentTarget.src = "/img/page/team/team_placeholder.webp")}
                         alt={`${member.NAME} - ${member.TITLE}`}
                         className="img-card rounded-5"
                     />
