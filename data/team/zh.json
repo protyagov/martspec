@@ -9,19 +9,7 @@
         "NAME": "谢尔盖",
         "TITLE": "质量保证工程师",
         "AVATAR": "/img/page/team/team_sergeyK.webp",
-        "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b"
-    },
-    "SVETLANA": {
-        "NAME": "斯韦特兰娜",
-        "TITLE": "文案撰稿人",
-        "AVATAR": "/img/page/team/team_svetlana.webp",
-        "LINK": "https://www.linkedin.com/in/svetlana-stolyarchuk-5a1553252/"
-    },
-    "DARIA": {
-        "NAME": "达莉娅",
-        "TITLE": "UI/UX设计师",
-        "AVATAR": "/img/page/team/team_daria.webp",
-        "LINK": "https://www.linkedin.com/in/daria-tatarchenko-09aa06263/"
+        "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b/"
     },
     "VITALY_V": {
         "NAME": "维塔利",
@@ -47,52 +35,46 @@
         "AVATAR": "/img/page/team/team_vika.webp",
         "LINK": ""
     },
-    "AYAN": {
-        "NAME": "阿彦",
-        "TITLE": "网页开发工程师",
-        "AVATAR": "/img/page/team/team_ayan.webp",
-        "LINK": "https://www.linkedin.com/in/ayan-baryshev-4a38a2366/"
-    },
-    "ANDRII": {
-        "NAME": "安德烈",
-        "TITLE": "质量保证工程师",
-        "AVATAR": "/img/page/team/team_andrii.webp",
-        "LINK": ""
-    },
     "EVGEN": {
         "NAME": "叶夫根尼",
         "TITLE": "网页开发工程师",
         "AVATAR": "/img/page/team/team_evgeny.webp",
         "LINK": "https://www.linkedin.com/in/evgen-khamitcevich"
     },
-    "ANDREI": {
-        "NAME": "安德烈",
-        "TITLE": "网页开发工程师",
-        "AVATAR": "/img/page/team/team_andrei.webp",
-        "LINK": "https://www.linkedin.com/in/andrei-bogdanovich/"
-    },
-    "ARINA": {
-        "NAME": "阿琳娜",
-        "TITLE": "UI/UX 设计师r",
-        "AVATAR": "/img/page/team/team_arina.webp",
-        "LINK": "https://www.linkedin.com/in/arina-tikhomirova-11729b3b3/"
-    },
-    "ULIA": {
-        "NAME": "尤利娅",
-        "TITLE": "iOS开发工程师",
-        "AVATAR": "/img/page/team/team_ulia.webp",
-        "LINK": "https://www.linkedin.com/in/yuliya-yamgurova-412075374/?locale=ru-RU"
-    },
-    "KATE": {
-        "NAME": "叶卡捷琳娜",
-        "TITLE": "UI/UX 设计师r",
-        "AVATAR": "/img/page/team/team_kate.webp",
+    "KSENIA": {
+        "NAME": "克谢尼娅",
+        "TITLE": "UI/UX 设计师",
+        "AVATAR": "/img/page/team/team_ksenia.webp",
         "LINK": ""
     },
-    "ZHANEL": {
-        "NAME": "扎内尔",
-        "TITLE": "UI/UX 设计师r",
-        "AVATAR": "/img/page/team/team_zhanel.webp",
+    "DANIL": {
+        "NAME": "达尼尔",
+        "TITLE": "iOS开发工程师",
+        "AVATAR": "/img/page/team/team_danil.webp",
+        "LINK": "https://www.linkedin.com/in/danilkazakov/"
+    },
+    "IRINA": {
+        "NAME": "伊琳娜",
+        "TITLE": "网页开发工程师",
+        "AVATAR": "/img/page/team/team_irina.webp",
+        "LINK": "https://www.linkedin.com/in/irina-dedova/"
+    },
+    "DIMA": {
+        "NAME": "季马",
+        "TITLE": "网页开发工程师",
+        "AVATAR": "/img/page/team/team_dima.webp",
+        "LINK": ""
+    },
+    "DIANA": {
+        "NAME": "迪亚娜",
+        "TITLE": "iOS开发工程师",
+        "AVATAR": "/img/page/team/team_diana.webp",
+        "LINK": "https://www.linkedin.com/in/dianakuchaeva/"
+    },
+    "VIKA_S": {
+        "NAME": "维卡",
+        "TITLE": "UI/UX 设计师",
+        "AVATAR": "/img/page/team/team_vikaS.webp",
         "LINK": ""
     }
 }
