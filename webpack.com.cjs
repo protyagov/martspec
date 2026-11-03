@@ -37,6 +37,7 @@ module.exports = {
       patterns: [
         { context: "src/i18n/", from: "*.json", to: "i18n" },
         { context: "src/img/icon/", from: "*", to: "icon" },
+        { context: "src/.well-known/", from: "**/*", to: ".well-known" },
 
         { from: "robots.txt" },
         { from: "1d497fbf494e42508c9a2efb761151fc.txt" },

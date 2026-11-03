@@ -51,7 +51,7 @@
     },
     "scripts": {
         "predeploy": "yarn prod && yarn ladle build",
-        "deploy": "gh-pages -d build",
+        "deploy": "gh-pages -d build --dotfiles",
         "prod": "webpack --config webpack.prd.cjs",
         "svr": "webpack serve --config webpack.dev.cjs",
         "dev": "webpack serve --config webpack.dev.cjs & ladle serve --port 3001"

@@ -1,0 +1,27 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "GRXDTY49GF.com.martspec.body.type",
+        "paths": ["/bodysize", "/bodysize/*"]
+      },
+      {
+        "appID": "GRXDTY49GF.com.martspec.submind",
+        "paths": ["/emotion", "/emotion/*"]
+      },
+      {
+        "appID": "GRXDTY49GF.com.martspec.energy",
+        "paths": ["/energy", "/energy/*"]
+      },
+      {
+        "appID": "GRXDTY49GF.com.martspec.workout",
+        "paths": ["/workout"]
+      },
+      {
+        "appID": "GRXDTY49GF.com.martspec.body.vitamin",
+        "paths": ["/vitamin", "/vitamin/*"]
+      }
+    ]
+  }
+}
