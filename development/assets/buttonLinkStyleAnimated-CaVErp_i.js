@@ -1,0 +1,1 @@
+import{j as n}from"./index-rblR8oLy.js";const a=({text:e,link:r,buttonColor:t})=>n.jsx("a",{href:r,style:{backgroundColor:t},rel:"noopener noreferrer",className:"link-button-animated fs-4 rounded-5 px-5 mt-auto",children:e});export{a as B};
