@@ -123,7 +123,7 @@ export default function LandingPage() {
 
                 {/* Small Cards Row */}
                 <div className="row g-3 mb-5">
-                    <div className="col-sm col-xl d-flex">
+                    <div className="col-12 col-lg-6 col-xxl-4 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/vitamin/vitamin-ring-icon-main-page.svg"
@@ -139,7 +139,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-sm col-xl d-flex">
+                    <div className="col-12 col-lg-6 col-xxl-4 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/electrolyte/electrolyte-icon-main-page.avif"
@@ -155,7 +155,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-sm-12 col-xl d-flex">
+                    <div className="col-12 col-xxl-4 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/zinc/zinc-icon-main-page.svg"
@@ -190,8 +190,8 @@ export default function LandingPage() {
                 </div>
 
                 {/* More Small Cards - Body Mass / Waist */}
-                <div className="row mb-5">
-                    <div className="col-12 col-md-6 mb-3 mb-md-0 d-flex">
+                <div className="row g-3 mb-5">
+                    <div className="col-12 col-lg-6 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/body-mass/body-mass-icon-main-page.svg"
@@ -207,7 +207,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-12 col-md-6 d-flex">
+                    <div className="col-12 col-lg-6 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/page/waistline/waist-icon-main-page.svg"
@@ -243,7 +243,7 @@ export default function LandingPage() {
 
                 {/* Mineral Cards */}
                 <div className="row g-3 mb-5">
-                    <div className="col-sm-6 col-xl-4 d-flex">
+                    <div className="col-12 col-lg-6 col-xxl-4 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/magnesium-icon-main-page.svg"
@@ -260,7 +260,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-sm-6 col-xl-4 d-flex">
+                    <div className="col-12 col-lg-6 col-xxl-4 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/calcium-icon-main-page.svg"
@@ -277,7 +277,7 @@ export default function LandingPage() {
                             }}
                         />
                     </div>
-                    <div className="col-sm-12 col-xl-4 d-flex">
+                    <div className="col-12 col-xxl-4 d-flex">
                         <CardAppSmall
                             backgroundColor="transparent"
                             iconSrc="/img/iron-icon-main-page.svg"
