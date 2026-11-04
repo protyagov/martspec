@@ -1,5 +1,10 @@
 .card-app-small{
     border: 1px solid #D8DEE8;
+
+    h1 {
+        @include font-size(3.5rem);
+    }
+    
     @media (max-width: 768px) {
         .icon img{
             width: 10vw;
