@@ -28,100 +28,100 @@ function EnglishPrivacyPolicy() {
                     <p className="private-policy__mb-0">{_("PP.P1")}</p>
                     <p className="private-policy__mb-0">
                         <strong>
-                            {_("PP.LOCAL.PHILOSOPHY_LABEL")} {_("PP.LOCAL.PHILOSOPHY_TEXT")}
+                            {_("PP.PHILOSOPHY_LABEL")} {_("PP.PHILOSOPHY_TEXT")}
                         </strong>
                     </p>
                 </section>
 
                 <section className="private-policy">
                     <hr />
-                    <h4 className="private-policy__h4">{_("PP.LOCAL.INFORMATION_HEAD")}</h4>
+                    <h4 className="private-policy__h4">{_("PP.INFORMATION_HEAD")}</h4>
                     <p className="private-policy__mb-0">
-                        {_("PP.LOCAL.INFORMATION_INTRO")} <strong>{_("PP.LOCAL.INFORMATION_NOTICE")}</strong>
+                        {_("PP.INFORMATION_INTRO")} <strong>{_("PP.INFORMATION_NOTICE")}</strong>
                     </p>
                     <ul className="private-policy__list-style private-policy__mb-0">
                         <li className="private-policy__li">
-                            <strong>{_("PP.LOCAL.HEALTH_LABEL")}</strong>
-                            {_("PP.LOCAL.HEALTH_TEXT")}
+                            <strong>{_("PP.HEALTH_LABEL")}</strong>
+                            {_("PP.HEALTH_TEXT")}
                         </li>
                         <li className="private-policy__li">
-                            <strong>{_("PP.LOCAL.ACCOUNTS_LABEL")}</strong>
-                            {_("PP.LOCAL.ACCOUNTS_TEXT")}
+                            <strong>{_("PP.ACCOUNTS_LABEL")}</strong>
+                            {_("PP.ACCOUNTS_TEXT")}
                         </li>
                         <li className="private-policy__li">
-                            <strong>{_("PP.LOCAL.TRACKING_LABEL")}</strong>
-                            {_("PP.LOCAL.TRACKING_TEXT")}
+                            <strong>{_("PP.TRACKING_LABEL")}</strong>
+                            {_("PP.TRACKING_TEXT")}
                         </li>
                     </ul>
                 </section>
 
                 <section className="private-policy">
                     <hr />
-                    <h4 className="private-policy__h4">{_("PP.LOCAL.INTEGRATION_HEAD")}</h4>
-                    <p className="private-policy__mb-0">{_("PP.LOCAL.INTEGRATION_INTRO")}</p>
+                    <h4 className="private-policy__h4">{_("PP.INTEGRATION_HEAD")}</h4>
+                    <p className="private-policy__mb-0">{_("PP.INTEGRATION_INTRO")}</p>
                     <ul className="private-policy__list-style private-policy__mb-0">
-                        <li className="private-policy__li">{_("PP.LOCAL.INTEGRATION_DEVICE")}</li>
-                        <li className="private-policy__li">{_("PP.LOCAL.INTEGRATION_SERVERS")}</li>
-                        <li className="private-policy__li">{_("PP.LOCAL.INTEGRATION_REVOKE")}</li>
+                        <li className="private-policy__li">{_("PP.INTEGRATION_DEVICE")}</li>
+                        <li className="private-policy__li">{_("PP.INTEGRATION_SERVERS")}</li>
+                        <li className="private-policy__li">{_("PP.INTEGRATION_REVOKE")}</li>
                     </ul>
                 </section>
 
                 <section className="private-policy">
                     <hr />
-                    <h4 className="private-policy__h4">{_("PP.LOCAL.SHARING_HEAD")}</h4>
+                    <h4 className="private-policy__h4">{_("PP.SHARING_HEAD")}</h4>
                     <p className="private-policy__mb-0">
-                        <strong>{_("PP.LOCAL.SHARING_NOTICE")}</strong>{" "}
-                        {_("PP.LOCAL.SHARING_TEXT")}
+                        <strong>{_("PP.SHARING_NOTICE")}</strong>{" "}
+                        {_("PP.SHARING_TEXT")}
                     </p>
                 </section>
 
                 <section className="private-policy">
                     <hr />
-                    <h4 className="private-policy__h4">{_("PP.LOCAL.RIGHTS_HEAD")}</h4>
-                    <p className="private-policy__mb-0">{_("PP.LOCAL.RIGHTS_INTRO")}</p>
-                    <p className="private-policy__mb-0">{_("PP.LOCAL.RIGHTS_CONTROL")}</p>
-                    <p className="private-policy__mb-0">{_("PP.LOCAL.RIGHTS_MANAGE")}</p>
+                    <h4 className="private-policy__h4">{_("PP.RIGHTS_HEAD")}</h4>
+                    <p className="private-policy__mb-0">{_("PP.RIGHTS_INTRO")}</p>
+                    <p className="private-policy__mb-0">{_("PP.RIGHTS_CONTROL")}</p>
+                    <p className="private-policy__mb-0">{_("PP.RIGHTS_MANAGE")}</p>
                     <ul className="private-policy__list-style private-policy__mb-0">
                         <li className="private-policy__li">
-                            <strong>{_("PP.LOCAL.VIEW_LABEL")}</strong>
-                            {_("PP.LOCAL.VIEW_TEXT")}
+                            <strong>{_("PP.VIEW_LABEL")}</strong>
+                            {_("PP.VIEW_TEXT")}
                         </li>
                         <li className="private-policy__li">
-                            <strong>{_("PP.LOCAL.DELETE_LABEL")}</strong>
-                            {_("PP.LOCAL.DELETE_TEXT")}
+                            <strong>{_("PP.DELETE_LABEL")}</strong>
+                            {_("PP.DELETE_TEXT")}
                         </li>
                     </ul>
                 </section>
 
                 <section className="private-policy">
                     <hr />
-                    <h4 className="private-policy__h4">{_("PP.LOCAL.CHILDREN_HEAD")}</h4>
-                    <p className="private-policy__mb-0">{_("PP.LOCAL.CHILDREN_TEXT")}</p>
+                    <h4 className="private-policy__h4">{_("PP.CHILDREN_HEAD")}</h4>
+                    <p className="private-policy__mb-0">{_("PP.CHILDREN_TEXT")}</p>
                 </section>
 
                 <section className="private-policy">
                     <hr />
-                    <h4 className="private-policy__h4">{_("PP.LOCAL.CHANGES_HEAD")}</h4>
-                    <p className="private-policy__mb-0">{_("PP.LOCAL.CHANGES_TEXT")}</p>
+                    <h4 className="private-policy__h4">{_("PP.CHANGES_HEAD")}</h4>
+                    <p className="private-policy__mb-0">{_("PP.CHANGES_TEXT")}</p>
                 </section>
 
                 <section className="private-policy">
                     <hr />
-                    <h4 className="private-policy__h4">{_("PP.LOCAL.CONTACT_HEAD")}</h4>
-                    <p className="private-policy__mb-0">{_("PP.LOCAL.CONTACT_TEXT")}</p>
+                    <h4 className="private-policy__h4">{_("PP.CONTACT_HEAD")}</h4>
+                    <p className="private-policy__mb-0">{_("PP.CONTACT_TEXT")}</p>
                     <ul className="private-policy__list-style private-policy__mb-0">
                         <li className="private-policy__li">
-                            <strong>{_("PP.LOCAL.EMAIL_LABEL")}</strong>{" "}
-                            <a href={_("PP.LOCAL.EMAIL_LINK")}>{_("PP.LOCAL.EMAIL")}</a>
+                            <strong>{_("PP.EMAIL_LABEL")}</strong>{" "}
+                            <a href="mailto:privacy@martspec.com">privacy@martspec.com</a>
                         </li>
                         <li className="private-policy__li">
-                            <strong>{_("PP.LOCAL.WEBSITE_LABEL")}</strong>{" "}
-                            <a href={_("PP.LOCAL.WEBSITE_URL")} rel="external nofollow noopener" target="_blank">
-                                {_("PP.LOCAL.WEBSITE_URL")}
+                            <strong>{_("PP.WEBSITE_LABEL")}</strong>{" "}
+                            <a href={_("PP.WEBSITE_URL")} rel="external nofollow noopener" target="_blank">
+                                {_("PP.WEBSITE_URL")}
                             </a>
                         </li>
                         <li className="private-policy__li">
-                            <strong>{_("PP.LOCAL.ADDRESS_LABEL")}</strong> {_("PP.LOCAL.ADDRESS_TEXT")}
+                            <strong>{_("PP.ADDRESS_LABEL")}</strong> {_("PP.ADDRESS_TEXT")}
                         </li>
                     </ul>
                 </section>
