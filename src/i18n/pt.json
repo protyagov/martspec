@@ -2043,387 +2043,49 @@
         "BUTTON4": "Saiba mais sobre contratação segura",
         "ALT2": "Contratação segura"
     },
-    "PP": {
+    "PP":     {
         "HEAD": "Política de Privacidade",
-        "DATE": "Última atualização: 20 de agosto de 2022",
-        "P1": "Proteger suas informações privadas é nossa prioridade. Esta Política de Privacidade descreve nossas políticas e procedimentos sobre a coleta, uso e divulgação de suas informações quando você usa qualquer um de nossos aplicativos móveis, visita nosso site em martspec.com ou interage conosco de outras formas relacionadas - incluindo vendas, marketing ou eventos.",
-        "P2": "O objetivo deste aviso de privacidade é explicar da maneira mais clara possível quais informações coletamos, como as usamos e quais direitos você tem em relação a elas. Se houver algum termo neste aviso de privacidade com o qual você não concorde, interrompa o uso de nossos Serviços imediatamente.",
-        "P3": "Usamos Seus dados pessoais para fornecer e melhorar o Serviço. Ao usar o Serviço ou qualquer um de nossos aplicativos móveis, você concorda com a coleta e o uso de informações de acordo com esta Política de Privacidade.",
-        "DEFINITION": {
-            "HEAD": "Interpretação e Definições",
-            "P1": "As palavras cuja letra inicial é maiúscula têm significados definidos nas seguintes condições. As seguintes definições terão o mesmo significado independentemente de aparecerem no singular ou no plural.",
-            "P2": "Para efeitos desta Política de Privacidade:",
-            "UL": {
-                "ACCOUNT": {
-                    "STRONG": "Conta",
-                    "P1": "significa uma conta exclusiva criada para Você acessar nosso Serviço ou partes de nosso Serviço."
-                },
-                "APP": {
-                    "STRONG": "Aplicativa",
-                    "P1": "refere-se a qualquer aplicativo móvel nosso que faça referência ou esteja vinculado a esta política e projetado para smartphones, dispositivos vestíveis, tablets ou computadores."
-                },
-                "BUSINESS": {
-                    "STRONG": "O negócio",
-                    "P1": ", para fins da CCPA (Lei de Privacidade do Consumidor da Califórnia), refere-se à Empresa como a pessoa jurídica que coleta as informações pessoais dos Consumidores e determina os propósitos e meios de processamento das informações pessoais dos Consumidores, ou em nome da qual tais informações é coletado e que sozinho, ou em conjunto com outros, determina as finalidades e os meios de processamento das informações pessoais dos consumidores, que fazem negócios no Estado da Califórnia."
-                },
-                "COMPANY": {
-                    "STRONG": "Empresa",
-                    "P1": "(referido como \"a Empresa\", \"Nós\", \"Nós\" ou \"Nosso\" neste Contrato) refere-se a Martspec LLC, Austin, TX 78749."
-                },
-                "CONSUMER": {
-                    "STRONG": "Consumidor",
-                    "P1": ", para efeitos da CCPA (Lei de Privacidade do Consumidor da Califórnia), significa uma pessoa física residente na Califórnia. Um residente, conforme definido na lei, inclui (1) todo indivíduo que está nos EUA para fins não temporários ou transitórios e (2) todo indivíduo domiciliado nos EUA que está fora dos EUA para um propósito temporário ou propósito transitório."
-                },
-                "COOKIES": {
-                    "STRONG": "Biscoitos",
-                    "P1": "são pequenos arquivos que são colocados em seu computador, dispositivo móvel ou qualquer outro dispositivo por um site, contendo os detalhes de seu histórico de navegação nesse site entre seus muitos usos."
-                },
-                "COUNTRY": {
-                    "STRONG": "País",
-                    "P1": "refere-se a: Texas, Estados Unidos"
-                },
-                "DEVICE": {
-                    "STRONG": "Dispositivo",
-                    "P1": "significa qualquer dispositivo que possa acessar o Serviço, como um computador, celular ou tablet digital."
-                },
-                "PERSONAL_DATA": {
-                    "STRONG": "Dados pessoais",
-                    "P1": "é qualquer informação relacionada a um indivíduo identificado ou identificável.",
-                    "P2": "Para os fins da CCPA, Dados Pessoais significam qualquer informação que identifique, se relacione, descreva ou possa ser associada ou possa ser razoavelmente vinculada, direta ou indiretamente, a Você."
-                },
-                "SALE": {
-                    "STRONG": "Venda",
-                    "P1": ", para os fins da CCPA (Lei de Privacidade do Consumidor da Califórnia), significa vender, alugar, liberar, divulgar, disseminar, disponibilizar, transferir ou de outra forma comunicar oralmente, por escrito ou por meio eletrônico ou outros meios, as informações pessoais de um consumidor para outra empresa ou um terceiro para consideração monetária ou outra consideração valiosa."
-                },
-                "SERVICE": {
-                    "STRONG": "Serviço",
-                    "P1": "refere-se ao nosso site, aplicativo e outros serviços relacionados, incluindo vendas, marketing ou eventos."
-                },
-                "SERVICE_PROVIDER": {
-                    "STRONG": "Provedor de serviço",
-                    "P1": "significa qualquer pessoa física ou jurídica que processa os dados em nome da Empresa. Refere-se a empresas terceirizadas ou indivíduos empregados pela Empresa para facilitar o Serviço, fornecer o Serviço em nome da Empresa, realizar serviços relacionados ao Serviço ou auxiliar a Empresa na análise de como o Serviço é usado."
-                },
-                "THIRD_PARTY_MEDIA": {
-                    "STRONG": "Serviço de mídia social de terceiros",
-                    "P1": "refere-se a qualquer site ou site de rede social através do qual um Usuário pode fazer login ou criar uma conta para usar o Serviço."
-                },
-                "USAGE_DATA": {
-                    "STRONG": "Dados de uso",
-                    "P1": "refere-se a dados coletados automaticamente, gerados pelo uso do Serviço ou da própria infraestrutura do Serviço (por exemplo, a duração de uma visita à página)."
-                },
-                "WEBSITE": {
-                    "STRONG": "Local na rede Internet",
-                    "P1": "refere-se a Martspec, acessível em ",
-                    "A": "https://martspec.com/"
-                },
-                "YOU": {
-                    "STRONG": "Vocês",
-                    "P1": "significa o indivíduo acessando ou usando o Serviço, ou a empresa ou outra pessoa jurídica em nome da qual tal indivíduo está acessando ou usando o Serviço, conforme aplicável."
-                }
-            }
-        },
-        "TYPES_OF_DATA": {
-            "HEAD4": "Tipos de dados coletados",
-            "HEAD5": {
-                "PERSONAL_DATA": "Dados pessoais",
-                "USAGE_DATA": "Dados de uso",
-                "INFORMATION_COLLECTED": "Informações coletadas no dispositivo com nosso aplicativo"
-            },
-            "P1": "Ao usar nosso serviço, podemos solicitar que você nos forneça certas informações de identificação pessoal que podem ser usadas para contatá-lo ou identificá-lo. Informações de identificação pessoal podem incluir, mas não estão limitadas a:",
-            "P2": "Os Dados de Uso são coletados automaticamente ao usar o Serviço.",
-            "P3": "Os Dados de uso podem incluir informações como o endereço de protocolo de Internet do seu dispositivo (por exemplo, endereço IP), tipo de navegador, versão do navegador, as páginas do nosso serviço que você visita, a hora e a data da sua visita, o tempo gasto nessas páginas, o dispositivo exclusivo identificadores e outros dados de diagnóstico.",
-            "P4": "Quando você acessa o Serviço por ou através de um dispositivo móvel, podemos coletar certas informações automaticamente, incluindo, mas não limitado a, o tipo de dispositivo móvel que você usa, o ID exclusivo do seu dispositivo móvel, o endereço IP do seu dispositivo móvel, seu sistema operacional, o tipo de navegador de Internet móvel que você usa, identificadores exclusivos de dispositivo e outros dados de diagnóstico.",
-            "P5": "Também podemos coletar informações que seu navegador envia sempre que você visita nosso serviço ou quando acessa o serviço por ou por meio de um dispositivo móvel.",
-            "P6": "Podemos solicitar acesso ou permissão a determinados recursos do seu dispositivo, incluindo o seu dispositivo móvel e outros recursos. Se desejar alterar o nosso acesso ou permissões, poderá fazê-lo nas configurações do seu dispositivo. Essas informações são necessárias principalmente para manter a segurança e a operação de nosso aplicativo, para solução de problemas e para fins de análise e geração de relatórios internos.",
-            "UL1": {
-                "EMAIL": "Endereço de email",
-                "FIRST_LAST_NAMES": "Nome e sobrenome",
-                "USAGE_DATA": "Dados de uso"
-            },
-            "UL2": {
-                "MOBILE_ACCESS": {
-                    "STRONG": "Acesso a Dispositivos Móveis.",
-                    "TEXT": "Podemos solicitar acesso ou permissão a determinados recursos do seu dispositivo móvel, incluindo a saúde da apple do seu dispositivo móvel e outros recursos. Se desejar alterar o nosso acesso ou permissões, poderá fazê-lo nas configurações do seu dispositivo."
-                },
-                "MOBILE_DATA": {
-                    "STRONG": "Dados do dispositivo móvel.",
-                    "TEXT": "Coletamos automaticamente informações do dispositivo (como ID, modelo e fabricante do seu dispositivo móvel), sistema operacional, informações de versão e informações de configuração do sistema, números de identificação do dispositivo e do aplicativo, tipo e versão do navegador, modelo de hardware e endereço de Protocolo de Internet (IP) ( ou servidor proxy). Se você estiver usando nosso aplicativo, também podemos coletar informações sobre a rede telefônica associada ao seu dispositivo móvel, o sistema operacional ou a plataforma do seu dispositivo móvel, o tipo de dispositivo móvel que você usa, o ID exclusivo do dispositivo móvel e informações sobre os recursos de nosso App que você acessou."
-                },
-                "PUSH_NOTIFICATIONS": {
-                    "STRONG": "Notificações via push.",
-                    "TEXT": "Podemos solicitar o envio de notificações push sobre sua conta ou determinados recursos do aplicativo. Se você deseja cancelar o recebimento desses tipos de comunicação, pode desativá-los nas configurações do seu dispositivo."
-                }
-            }
-        },
-        "TRACKING": {
-            "HEAD4": "tecnologias de rastreamento",
-            "HEAD5": "Controle para recursos DO-NOT-TRACK",
-            "P1": {
-                "TEXT": "Usamos cookies ou tecnologias de rastreamento semelhantes para rastrear a atividade em nosso serviço e armazenar determinadas informações. As tecnologias de rastreamento podem incluir\nmas não se limitam a beacons, armazenamento de sessão do navegador, Cookies, tags e scripts para coletar e rastrear informações e para melhorar e analisar Nosso Serviço.\nVocê pode instruir Seu navegador a recusar todos os Cookies ou indicar quando um Cookie está sendo enviado.\nSaiba mais sobre cookies:",
-                "A": "Tudo Sobre Cookies"
-            },
-            "P2": "Usamos \"Persistente\" (permanece em seu computador pessoal ou dispositivo móvel quando você fica off-line) e \"Sessão\" (excluída assim que você fecha o navegador da Web)\ntecnologia de rastreamento para os fins descritos abaixo:",
-            "P3": "A maioria dos navegadores da web e alguns sistemas operacionais móveis e aplicativos móveis incluem um recurso ou configuração Do-Not-Track (\"DNT\") que você pode ativar para sinalizar sua preferência de privacidade para não ter dados sobre suas atividades de navegação online monitorados e coletados. Nesta fase, nenhum padrão de tecnologia uniforme para reconhecer e implementar sinais DNT foi finalizado. Como tal, atualmente não respondemos aos sinais do navegador DNT ou a qualquer outro mecanismo que comunique automaticamente sua escolha de não ser rastreado online. Se for adotado um padrão de rastreamento online que devemos seguir no futuro, iremos informá-lo sobre essa prática em uma versão revisada deste aviso de privacidade.",
-            "UL": {
-                "NECESSARY": {
-                    "P1": "Necessário / Essencial",
-                    "P2": "Tipo: Sessão",
-                    "P3": "Administrado por: Nós",
-                    "P4": "Finalidade: Fornecer a Você os serviços disponíveis através do Site e permitir que Você use alguns de seus recursos. Ele ajuda a autenticar usuários\ne evitar o uso fraudulento de contas de usuário. Sem ele, os serviços que você solicitou não podem ser fornecidos e nós os usamos apenas para fornecer esses serviços a você."
-                },
-                "FUNCTIONALITY": {
-                    "P1": "Funcionalidade",
-                    "P2": "Tipo: Persistente",
-                    "P3": "Administrado por: Nós",
-                    "P4": "Objetivo: nos permite lembrar as escolhas que você faz ao usar o site, como lembrar seus detalhes de login ou preferência de idioma. O objetivo deles é fornecer a você uma experiência mais pessoal e evitar que você tenha que inserir novamente suas preferências sempre que usar o site."
-                }
-            }
-        },
-        "PERSONAL_DATA": {
-            "USE": {
-                "HEAD4": "Uso de seus dados pessoais",
-                "HEAD5": {
-                    "DISCLOSE": "A divulgação de suas informações pessoais pode acontecer nas seguintes situações:",
-                    "USE": "A utilização dos seus Dados Pessoais pode ter as seguintes finalidades:",
-                    "SHARING": "O compartilhamento de suas informações pessoais pode ocorrer nas seguintes situações:"
-                },
-                "UL1": {
-                    "LAW_ENFORCEMENT": {
-                        "STRONG": "Aplicação da lei:",
-                        "TEXT": " Podemos divulgar suas informações quando formos legalmente obrigados a fazê-lo para cumprir a lei aplicável, solicitações governamentais, um processo judicial, ordem judicial ou processo legal, como em resposta a uma ordem judicial ou intimação (inclusive em resposta às autoridades públicas para atender aos requisitos de segurança nacional ou de aplicação da lei)."
-                    },
-                    "BUSINESS_TRANSFER": {
-                        "STRONG": "Para Transferências Empresariais:",
-                        "TEXT": " Podemos compartilhar ou transferir suas informações em conexão ou durante negociações de qualquer fusão, venda de ativos da empresa, financiamento ou aquisição de todo ou parte de nossos negócios para outra empresa."
-                    },
-                    "OTHER": {
-                        "STRONG": "Outros requisitos legais:",
-                        "TEXT": "A Empresa pode divulgar Seus Dados Pessoais na crença de boa fé de que tal ação é necessária para:",
-                        "UL": {
-                            "L1": "Cumprir uma obrigação legal",
-                            "L2": "Proteger e defender os direitos ou propriedade da Empresa",
-                            "L3": "Prevenir ou investigar possíveis irregularidades relacionadas ao Serviço",
-                            "L4": "Proteger a segurança pessoal dos Usuários do Serviço ou do público",
-                            "L5": "Proteger contra responsabilidade legal"
-                        }
-                    }
-                },
-                "UL2": {
-                    "L1": {
-                        "STRONG": "Para fornecer e manter nosso Serviço",
-                        "TEXT": ", inclusive para monitorar o uso do nosso Serviço."
-                    },
-                    "L2": {
-                        "STRONG": "Para gerenciar sua conta:",
-                        "TEXT": "para gerenciar Seu registro como usuário do Serviço. Os Dados Pessoais que Você fornece podem lhe dar acesso a diferentes funcionalidades do Serviço que estão disponíveis para Você como um usuário registrado."
-                    },
-                    "L3": {
-                        "STRONG": "Para a execução de um contrato:",
-                        "TEXT": " Quando celebramos um contrato com você, podemos processar suas informações pessoais para cumprir os termos do nosso contrato."
-                    },
-                    "L4": {
-                        "STRONG": "Para entrar em contato com você:",
-                        "TEXT": " Para entrar em contato com Você por e-mail, telefonemas, SMS ou outras formas equivalentes de comunicação eletrônica, como notificações push de um aplicativo móvel sobre atualizações ou comunicações informativas relacionadas às funcionalidades, produtos ou serviços contratados, incluindo atualizações de segurança, quando necessário ou razoável para sua implementação."
-                    },
-                    "L5": {
-                        "STRONG": "Para fornecer a você",
-                        "TEXT": " com notícias, ofertas especiais e informações gerais sobre outros bens, serviços e eventos que oferecemos que sejam semelhantes aos que você já comprou ou perguntou, a menos que tenha optado por não receber tais informações."
-                    },
-                    "L6": {
-                        "STRONG": "Para Interesses Legítimos:",
-                        "TEXT": " Podemos processar seus dados quando for razoavelmente necessário para alcançar nossos interesses comerciais legítimos."
-                    },
-                    "L7": {
-                        "STRONG": "Para gerenciar Suas solicitações:",
-                        "TEXT": " Para atender e gerenciar Seus pedidos para Nós."
-                    },
-                    "L8": {
-                        "STRONG": "Solicite comentários.",
-                        "TEXT": " Podemos usar suas informações para solicitar feedback e contatá-lo sobre o uso de nossos Serviços."
-                    }
-                },
-                "UL3": {
-                    "L1": {
-                        "STRONG": "Com prestadores de serviços:",
-                        "TEXT": " Podemos compartilhar suas informações pessoais com provedores de serviços para monitorar e analisar o uso de nosso serviço, para entrar em contato com você."
-                    },
-                    "L2": {
-                        "STRONG": "Para transferências empresariais:",
-                        "TEXT": " Podemos compartilhar ou transferir suas informações pessoais em conexão com, ou durante negociações de, qualquer fusão, venda de ativos da empresa, financiamento ou aquisição de todo ou parte de nossos negócios para outra empresa."
-                    },
-                    "L3": {
-                        "STRONG": "Com afiliados:",
-                        "TEXT": " Podemos compartilhar suas informações com nossas afiliadas e, nesse caso, exigiremos que essas afiliadas honrem esta Política de privacidade. As afiliadas incluem nossa empresa-mãe e quaisquer outras subsidiárias, parceiros de joint venture ou outras empresas que controlamos ou que estão sob controle comum conosco."
-                    },
-                    "L4": {
-                        "STRONG": "Com parceiros de negócios:",
-                        "TEXT": " Podemos compartilhar suas informações com nossos parceiros de negócios para oferecer a você determinados produtos, serviços ou promoções."
-                    },
-                    "L5": {
-                        "STRONG": "Com outros usuários:",
-                        "TEXT": " quando Você compartilha informações pessoais ou interage de outra forma nas áreas públicas com outros usuários, essas informações podem ser visualizadas por todos os usuários e podem ser distribuídas publicamente fora. Se você interagir com outros usuários ou se registrar por meio de um serviço de mídia social de terceiros, seus contatos no serviço de mídia social de terceiros poderão ver seu nome, perfil, fotos e descrição de sua atividade. Da mesma forma, outros usuários poderão visualizar as descrições de sua atividade, comunicar-se com você e visualizar seu perfil."
-                    }
-                }
-            },
-            "RETENTION": {
-                "HEAD4": "Retenção de seus dados pessoais",
-                "P1": "A Empresa reterá Seus Dados Pessoais apenas pelo tempo necessário para os fins estabelecidos nesta Política de\nPrivacidade. Reteremos e usaremos Seus dados pessoais na medida do necessário para cumprir nossas obrigações legais (por exemplo,\nse formos obrigados a reter seus dados para cumprir as leis aplicáveis), resolver disputas e aplicar nossos acordos e políticas legais.",
-                "P2": "A Empresa também reterá Dados de Uso para fins de análise interna. Os dados de uso geralmente são retidos por um período de tempo mais curto,\nexceto quando esses dados são usados para fortalecer a segurança ou melhorar a funcionalidade do nosso serviço, ou somos legalmente obrigados\n a reter esses dados por períodos de tempo mais longos.",
-                "P3": "Quando não tivermos uma necessidade comercial legítima contínua de processar suas informações pessoais, excluiremos ou tornaremos essas\ninformações anônimas ou, se isso não for possível (por exemplo, porque suas informações pessoais foram armazenadas em arquivos de backup),\nnós armazenará com segurança suas informações pessoais e as isolará de qualquer processamento adicional até que a exclusão seja possível."
-            },
-            "TRANSFER": {
-                "HEAD4": "Transferência de seus dados pessoais",
-                "P1": "Suas informações, incluindo Dados Pessoais, são processadas nos escritórios operacionais da Empresa e em quaisquer outros locais onde as partes envolvidas no processamento estejam localizadas. Isso significa que essas informações podem ser transferidas para — e mantidas em — computadores localizados fora de seu estado, província, país ou outra jurisdição governamental onde as leis de proteção de dados podem diferir daquelas de sua jurisdição.",
-                "P2": "Ao usar nosso Serviço, você concorda com esta Política de Privacidade e Sua concordância com essa transferência.",
-                "P3": "A Empresa tomará todas as medidas razoavelmente necessárias para garantir que Seus dados sejam tratados com segurança e de acordo com esta Política de Privacidade e nenhuma transferência de Seus Dados Pessoais ocorrerá para uma organização ou país, a menos que haja controles adequados em vigor, incluindo a segurança de Seus dados e outras informações pessoais."
-            },
-            "SECURITY": {
-                "HEAD4": "Segurança de seus dados pessoais",
-                "P": "A segurança de seus dados pessoais é importante para nós, mas lembre-se de que nenhum método de transmissão pela Internet ou método de armazenamento eletrônico é 100% seguro. Embora nos esforcemos para usar meios comercialmente aceitáveis para proteger seus dados pessoais, não podemos garantir sua segurança absoluta."
-            }
-        },
-        "CHILD": {
-            "HEAD4": "Crianças com menos de treze anos",
-            "P": "Não coletamos intencionalmente informações de identificação pessoal de crianças menores de treze anos. Se você tem menos de treze anos, você deve\npedir permissão a seus pais ou responsáveis para usar este Serviço ou qualquer um de nossos aplicativos móveis."
-        },
-        "RIGHTS": {
-            "HEAD4": "Quais são os seus direitos de privacidade?",
-            "HEAD5": "Informação da conta",
-            "P1": "Em algumas regiões (como o EEE e o Reino Unido), você tem certos direitos sob as leis de proteção de dados aplicáveis. Isso pode incluir o direito de (i) solicitar acesso e obter uma cópia de suas informações pessoais, (ii) solicitar retificação ou exclusão; (iii) restringir o processamento\ndas suas informações pessoais; e (iv) se aplicável, à portabilidade de dados. Em certas circunstâncias, você também pode ter o direito de se opor processamento de suas informações pessoais. Para fazer tal solicitação, use os <b>detalhes de contato</b> fornecidos abaixo. Iremos\nconsiderar e agir de acordo com qualquer solicitação de acordo com as leis de proteção de dados aplicáveis.",
-            "P2": "Se estivermos contando com o seu consentimento para processar suas informações pessoais, você tem o direito de retirar seu consentimento a qualquer momento. No entanto,\nobserve que isso não afetará a legalidade do processamento antes de sua retirada, nem afetará o processamento de suas\ninformações pessoais conduzidas com base em motivos legais de processamento que não sejam consentimento.",
-            "P3": {
-                "TEXT": "Se você residir no EEE ou no Reino Unido e acreditar que estamos processando suas informações pessoais ilegalmente, você também tem o direito\n de reclamar com a autoridade supervisora de proteção de dados local. Você pode encontrar seus detalhes de contato aqui: ",
-                "A": "https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.html"
-            },
-            "P4": {
-                "TEXT": "Se você reside na Suíça, os dados de contato das autoridades de proteção de dados estão disponíveis aqui: ",
-                "A": "https://www.edoeb.admin.ch/edoeb/en/home.html"
-            },
-            "P5": "Se você quiser, a qualquer momento, revisar ou alterar as informações em sua conta ou encerrá-la, você pode:\nFazer login nas configurações de sua conta e atualizar sua conta de usuário.\nSe você solicitar o encerramento de sua conta, desativaremos ou exclua sua conta e informações de nossos bancos de dados ativos. No entanto, podemos reter algumas informações em nossos arquivos para evitar fraudes, solucionar problemas, auxiliar em quaisquer investigações, fazer cumprir nossos Termos de Uso e/ou cumprir com os requisitos legais aplicáveis."
-        },
-        "CCPA": {
-            "HEAD4": {
-                "CCPA": "Privacidade da CCPA",
-                "CALIFORNIA": "Seus direitos de privacidade na Califórnia (lei Shine the Light da Califórnia)",
-                "MINOR": "Direitos de privacidade da Califórnia para usuários menores (Seção 22581 do Código de Negócios e Profissões da Califórnia)",
-                "EXERCISING": "Exercendo seus direitos de proteção de dados da CCPA",
-                "YOUR_RIGHTS": "Seus direitos sob o CCPA",
-                "PERSONAL_INFORMATION": "Coleta e compartilhamento de informações pessoais de acordo com a CCPA"
-            },
-            "HEAD5": {
-                "SHARED": "Suas informações serão compartilhadas com mais alguém?",
-                "YOUR_RIGHTS": "Seus direitos em relação aos seus dados pessoais",
-                "OTHER": "Outros direitos de privacidade"
-            },
-            "P1": "De acordo com a Seção 1798 do Código Civil da Califórnia (lei Shine the Light da Califórnia), os residentes da Califórnia com um relacionamento comercial estabelecido conosco podem solicitar informações uma vez por ano sobre o compartilhamento de seus Dados Pessoais com terceiros para fins de marketing direto de terceiros.",
-            "P2": "Se você quiser solicitar mais informações sobre a lei Shine the Light da Califórnia e se for residente da Califórnia, entre em contato conosco usando as informações de contato fornecidas abaixo.",
-            "P3": "Se você for menor de 18 anos, residir na Califórnia e tiver uma conta registrada em um Serviço, terá o direito de solicitar a remoção de dados indesejados que publicar publicamente nos Serviços. Para solicitar a remoção desses dados, entre em contato conosco usando as informações de contato fornecidas abaixo e inclua o endereço de e-mail associado à sua conta e uma declaração de que você reside na Califórnia. Garantiremos que os dados não sejam exibidos publicamente nos Serviços, mas esteja ciente de que os dados podem não ser removidos completa ou exaustivamente de todos os nossos sistemas (por exemplo, backups, etc.).",
-            "P4": "A seção 22581 do Código de Negócios e Profissões da Califórnia permite que residentes da Califórnia com menos de 18 anos que sejam usuários registrados de sites, serviços ou aplicativos online solicitem e obtenham a remoção de conteúdo ou informações que publicaram publicamente.",
-            "P5": "Para solicitar a remoção desses dados, e se você residir na Califórnia, entre em contato conosco usando as informações de contato fornecidas abaixo e inclua o endereço de e-mail associado à sua conta.",
-            "P6": "Esteja ciente de que Sua solicitação não garante a remoção completa ou abrangente de conteúdo ou informações postadas online e que a lei pode não permitir ou exigir a remoção em determinadas circunstâncias.",
-            "P7": {
-                "TEXT1": "Para exercer qualquer um dos Seus direitos sob a CCPA, e se você for residente da Califórnia. O Código de Regulamentações da Califórnia define um \"residente\" como:",
-                "TEXT2": "Todos os outros indivíduos são definidos como \"não residentes\".\nSe esta definição de \"residente\" se aplica a você, devemos aderir a certos direitos e obrigações em relação às suas informações pessoais.",
-                "UL": {
-                    "L1": "todo indivíduo que está no Estado da Califórnia para fins que não sejam temporários ou transitórios e",
-                    "L2": " todo indivíduo domiciliado no Estado da Califórnia que está fora do Estado da Califórnia para fins temporários ou transitórios"
-                }
-            },
-            "P8": "A Empresa divulgará e entregará as informações necessárias gratuitamente dentro de 45 dias após o recebimento de Sua solicitação verificável. O prazo para fornecer as informações necessárias pode ser prorrogado uma vez por mais 45 dias, quando razoavelmente necessário e com aviso prévio.",
-            "P9": "De acordo com esta Política de Privacidade e por lei, se você residir na Califórnia, você tem os seguintes direitos:",
-            "P10": "Não vendemos informações pessoais. Mais informações sobre nossas práticas de coleta e compartilhamento de dados podem ser encontradas neste aviso de privacidade.\nVocê pode entrar em contato conosco consultando os detalhes de contato na parte inferior deste documento.",
-            "P11": "Se você estiver usando um agente autorizado para exercer seu direito de exclusão, poderemos negar uma solicitação se o agente autorizado\nnão enviar prova de que foi validamente autorizado a agir em seu nome.",
-            "P12": "Podemos divulgar suas informações pessoais com nossos provedores de serviço de acordo com um contrato por escrito entre nós e cada provedor de serviço. Cada provedor de serviços é uma entidade com fins lucrativos que processa as informações em nosso nome.",
-            "P13": "Podemos usar suas informações pessoais para nossos próprios fins comerciais, como para realizar pesquisas internas para demonstração e desenvolvimento tecnológico. Isso não é considerado \"venda\" de seus dados pessoais.",
-            "P14": "A Martspec LLC não divulgou ou vendeu nenhuma informação pessoal a terceiros para fins comerciais ou comerciais nos últimos 12 meses. A Martspec LLC não venderá informações pessoais no futuro pertencentes a visitantes do site, usuários e outros consumidores.",
-            "P15": "Para exercer esses direitos, você pode entrar em contato conosco, referindo-se aos detalhes de contato na parte inferior deste documento. Se você tiver uma reclamação sobre como lidamos com seus dados, gostaríamos de ouvi-lo.  ",
-            "UL1": {
-                "L1": {
-                    "STRONG": "O direito de aviso.",
-                    "TEXT": " Você deve ser devidamente notificado sobre quais categorias de Dados Pessoais estão sendo coletadas e as finalidades para as quais os Dados Pessoais estão sendo usados."
-                },
-                "L2": {
-                    "STRONG": "O direito de acesso / o direito de solicitar.",
-                    "TEXT": " A CCPA permite que Você solicite e obtenha da Empresa informações sobre a divulgação de Seus Dados Pessoais que foram coletados nos últimos 12 meses pela Empresa ou suas subsidiárias a terceiros para fins de marketing direto de terceiros."
-                },
-                "L3": {
-                    "STRONG": "O direito de dizer não à venda de Dados Pessoais.",
-                    "TEXT": " Você também tem o direito de pedir à Empresa que não venda Seus Dados Pessoais a terceiros. Você pode enviar tal solicitação visitando nossa seção ou página da web \"Não vender minhas informações pessoais\"."
-                },
-                "L4": {
-                    "STRONG": "O direito de saber sobre seus dados pessoais.",
-                    "TEXT": " Você tem o direito de solicitar e obter da Empresa informações sobre a divulgação do seguinte:",
-                    "UL": {
-                        "L1": "As categorias de Dados Pessoais coletados",
-                        "L2": "As fontes de onde os Dados Pessoais foram coletados",
-                        "L3": "O objetivo comercial ou comercial para coletar ou vender os Dados Pessoais",
-                        "L4": "Categorias de terceiros com quem compartilhamos Dados Pessoais",
-                        "L5": "As partes específicas de Dados Pessoais que coletamos sobre Você"
-                    }
-                },
-                "L5": {
-                    "STRONG": "O direito de excluir Dados Pessoais.",
-                    "TEXT": " Você também tem o direito de solicitar a exclusão de seus dados pessoais coletados nos últimos 12 meses."
-                },
-                "L6": {
-                    "STRONG": "O direito de não ser discriminado.",
-                    "TEXT": " Você tem o direito de não ser discriminado por exercer qualquer um dos direitos do seu consumidor, inclusive por:",
-                    "UL": {
-                        "L1": "Negar bens ou serviços a Você",
-                        "L2": "Cobrar preços ou taxas diferentes para bens ou serviços, incluindo o uso de descontos ou outros benefícios ou imposição de penalidades",
-                        "L3": "Fornecer um nível ou qualidade diferente de bens ou serviços para Você",
-                        "L4": "Sugerir que você receberá um preço ou taxa diferente para bens ou serviços ou um nível ou qualidade diferente de bens ou serviços."
-                    }
-                }
-            },
-            "UL2": {
-                "L1": "Direito de solicitar a exclusão dos dados - Solicitação de exclusão",
-                "L2": "Direito de ser informado - Pedir para saber",
-                "L3": "Direito à Não Discriminação para o Exercício dos Direitos de Privacidade do Consumidor",
-                "L4": "Processo de verificação"
-            },
-            "UL3": {
-                "L1": "pode opor-se ao tratamento dos seus dados pessoais",
-                "L2": "você pode solicitar a correção de seus dados pessoais se estiverem incorretos ou não forem mais relevantes, ou pedir para restringir o processamento dos dados",
-                "L3": "você pode designar um agente autorizado para fazer uma solicitação de acordo com a CCPA em seu nome. Podemos negar uma solicitação de um agente autorizado que não apresente prova de que foi validamente autorizado a agir em seu nome de acordo com a CCPA.",
-                "L4": "você pode solicitar a exclusão da venda futura de suas informações pessoais a terceiros. Ao receber uma solicitação de exclusão, agiremos de acordo com a solicitação o mais rápido possível, mas no máximo 15 dias a partir da data de envio da solicitação."
-            }
-        },
-        "LINK": {
-            "HEAD4": "Links para outros sites",
-            "P1": "Nosso Serviço pode conter links para outros sites que não são operados por Nós. Se você clicar em um link de terceiros, será direcionado para o site desse terceiro. Aconselhamos vivamente que reveja a Política de Privacidade de cada site que visitar.",
-            "P2": "Não temos controle e não assumimos nenhuma responsabilidade pelo conteúdo, políticas de privacidade ou práticas de quaisquer sites ou serviços de terceiros."
-        },
-        "CHANGES": {
-            "HEAD4": "Alterações a esta Política de Privacidade",
-            "P1": "Podemos atualizar nossa Política de Privacidade de tempos em tempos. A versão atualizada será indicada por uma data atualizada de \"Última atualização\" e a versão atualizada entrará em vigor assim que estiver acessível. ",
-            "P2": "Você é aconselhado a revisar esta Política de Privacidade periodicamente para quaisquer alterações. As alterações a esta Política de Privacidade entram em vigor quando são publicadas nesta página."
-        },
-        "CONTACT": {
-            "HEAD4": "Contate-nos",
-            "TEXT": "Se você tiver alguma dúvida sobre esta Política de Privacidade, pode entrar em contato conosco:",
-            "UL": {
-                "L1": {
-                    "TEXT": "Ao visitar esta página em nosso site: ",
-                    "A": "https://martspec.com/privacy-policy"
-                },
-                "L2": {
-                    "TEXT": "Através do nosso messenger do Facebook em ",
-                    "A": "Martspec @ FaceBook",
-                    "LINK": "https://www.facebook.com/martspec"
-                },
-                "L3": {
-                    "TEXT": "Através do nosso X messager em ",
-                    "A": "Martspec @ X",
-                    "LINK": "https://twitter.com/MartspecCom"
-                },
-                "L4": {
-                    "TEXT": "Através do nosso grupo do LinkedIn em ",
-                    "A": "Martspec @ LinkedIn",
-                    "LINK": "https://www.linkedin.com/company/martspec/"
-                }
-            }
-        }
+        "DATE_LABEL": "Última atualização:",
+        "DATE": "November 6, 2026",
+        "P1": "Proteger suas informações privadas é nossa prioridade. Esta Política de Privacidade descreve como a Martspec LLC (\"Empresa\", \"Nós\", \"Nosso\" ou \"Nossa\") trata as informações quando você usa nossos aplicativos móveis e visita nosso site em martspec.com.",
+        "PHILOSOPHY_LABEL": "Nossa filosofia de privacidade é simples:",
+        "PHILOSOPHY_TEXT": "Não coletamos, baixamos nem armazenamos seus dados pessoais em nossos servidores. Seus dados pertencem a você.",
+        "INFORMATION_HEAD": "1. Informações que NÃO coletamos",
+        "INFORMATION_INTRO": "Como nossos aplicativos foram desenvolvidos com uma arquitetura que prioriza a privacidade e o armazenamento local,",
+        "INFORMATION_NOTICE": "não temos acesso a nenhum dos seus dados pessoais ou sensíveis.",
+        "HEALTH_LABEL": "Não coletamos dados de saúde:",
+        "HEALTH_TEXT": " Todos os dados de saúde, fisiológicos e de condicionamento físico (como níveis de vitaminas, tamanho corporal, estado emocional, energia, nutrição e acompanhamento de eletrólitos) são armazenados exclusivamente no seu dispositivo e na sua conta pessoal e criptografada do Apple iCloud.",
+        "ACCOUNTS_LABEL": "Não há contas de usuário:",
+        "ACCOUNTS_TEXT": " A autenticação é feita inteiramente e com segurança pela Apple. Não criamos, gerenciamos nem armazenamos contas de usuário ou senhas em nossos servidores.",
+        "TRACKING_LABEL": "Não rastreamos dispositivos:",
+        "TRACKING_TEXT": " Não coletamos nem armazenamos automaticamente seu endereço IP, identificadores do dispositivo ou dados de uso do aplicativo em nossos servidores.",
+        "INTEGRATION_HEAD": "2. Integrações locais do aplicativo (Apple Health)",
+        "INTEGRATION_INTRO": "Para oferecer as principais funcionalidades do aplicativo, nossos aplicativos podem solicitar sua permissão para ler ou gravar dados no Apple Health (HealthKit).",
+        "INTEGRATION_DEVICE": "Esse processamento ocorre inteiramente no seu dispositivo.",
+        "INTEGRATION_SERVERS": "Não transmitimos esses dados aos nossos servidores nem os usamos para marketing ou publicidade.",
+        "INTEGRATION_REVOKE": "Você pode revogar essas permissões a qualquer momento nos ajustes do app Saúde do seu dispositivo iOS.",
+        "SHARING_HEAD": "3. Como suas informações são compartilhadas",
+        "SHARING_NOTICE": "Não podemos compartilhar, vender nem divulgar seus dados porque não os temos.",
+        "SHARING_TEXT": "Como seus dados permanecem exclusivamente no seu dispositivo e na sua conta pessoal do Apple iCloud, a Martspec LLC não pode visualizá-los nem compartilhá-los com terceiros, prestadores de serviços ou autoridades policiais.",
+        "RIGHTS_HEAD": "4. Como gerenciar seus dados e direitos de privacidade",
+        "RIGHTS_INTRO": "De acordo com leis de privacidade como a CCPA/CPRA, o GDPR e outras leis estaduais dos EUA, os usuários têm o direito de acessar, corrigir ou excluir seus dados pessoais.",
+        "RIGHTS_CONTROL": "Como não mantemos nenhum dos seus dados, você já tem controle total sobre eles.",
+        "RIGHTS_MANAGE": "Para exercer seus direitos sobre os dados, você deve gerenciá-los diretamente no seu dispositivo:",
+        "VIEW_LABEL": "Para visualizar ou corrigir seus dados:",
+        "VIEW_TEXT": " Abra o aplicativo Martspec ou o Apple Health no seu dispositivo.",
+        "DELETE_LABEL": "Para excluir seus dados:",
+        "DELETE_TEXT": " Você pode excluir seus dados diretamente no aplicativo Apple Health, gerenciar os ajustes de armazenamento do iCloud ou simplesmente apagar o aplicativo do seu dispositivo.",
+        "CHILDREN_HEAD": "5. Privacidade de crianças",
+        "CHILDREN_TEXT": "Nosso Serviço não se destina a pessoas com menos de 13 anos. Como não coletamos dados pessoais de nenhum usuário, não coletamos dados pessoais de crianças.",
+        "CHANGES_HEAD": "6. Alterações nesta Política",
+        "CHANGES_TEXT": "Podemos atualizar esta Política de Privacidade periodicamente para refletir mudanças nos recursos do aplicativo ou nos requisitos legais. A versão atualizada será indicada pela data de \"Última atualização\" no início deste documento.",
+        "CONTACT_HEAD": "7. Fale conosco",
+        "CONTACT_TEXT": "Se você tiver dúvidas sobre esta Política de Privacidade ou nossas práticas de privacidade, entre em contato conosco pelo:",
+        "EMAIL_LABEL": "E-mail:",
+        "WEBSITE_LABEL": "Site:",
+        "WEBSITE_URL": "https://martspec.com/privacy-policy",
+        "ADDRESS_LABEL": "Endereço:",
+        "ADDRESS_TEXT": "Martspec LLC, Austin, TX 78749"
     },
     "WORKOUT": {
         "HEAD": "Treinos",
