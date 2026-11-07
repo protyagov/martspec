@@ -1,11 +1,5 @@
 {
     "COUNTRY_CODE": "pt",
-    "BTN": {
-        "SRC1": "Leia o artigo fonte",
-        "FACT": "Veja os fatos",
-        "SRC2": "Obtenha fatos do artigo de origem",
-        "WIKI": "Leia o artigo completo sobre WiKi"
-    },
     "MAIN": {
         "HEAD": "Tornar a saúde um hábito",
         "SUBHEAD": "Desperte todo o seu potencial com tecnologia guiada pela ciência — feita com cuidado para você",
@@ -80,20 +74,14 @@
         "DESC2_2": "Institutos Nacionais de Saúde (NIH): a proteína reduz os níveis do hormônio da fome e prolonga a saciedade.",
         "DESC2_3": "Colégio Americano de Medicina Esportiva (ACSM): a ingestão consistente de proteínas ao longo do dia é essencial para o crescimento muscular e a força óssea.",
         "BTN_MORE": "Saiba mais",
-        "HEAD3": "Nossas vantagens",
         "LIST2": {
             "LI2_1_TITLE": "Sincronização com o Saúde da Apple",
-            "LI2_1_TEXT": "Leitura e gravação automática de dados",
-            "IMG1_ALT": "Sincronização com a Apple",
             "LI2_2_TITLE": "Sem anúncios",
             "LI2_2_TEXT": "Nenhum conteúdo desnecessário ou distrações",
-            "IMG2_ALT": "Sem anúncios",
             "LI2_3_TITLE": "Privacidade total",
             "LI2_3_TEXT": "Não armazenamos seus dados em servidores externos",
-            "IMG3_ALT": "Proteção de dados",
             "LI2_4_TITLE": "Não é necessário Iniciar sessão com a Apple",
-            "LI2_4_TEXT": "O aplicativo está pronto para uso imediato, sem registro",
-            "IMG4_ALT": "Sem registro"
+            "LI2_4_TEXT": "O aplicativo está pronto para uso imediato, sem registro"
         },
         "HEAD4": "Como identificar a deficiência de proteínas?",
         "DESC3": "Com treinos regulares e um estilo de vida agitado, suas necessidades de proteína aumentam. Se seu corpo não ingerir o suficiente, a resistência diminui e a recuperação leva mais tempo. Preencha esta pequena lista de verificação para avaliar sua dieta e bem-estar.",
@@ -141,8 +129,6 @@
         "DESC5_1": "Participa de quase todos os processos do corpo, incluindo o funcionamento correto dos rins e do coração, as contrações musculares e a transmissão de sinais nervosos.",
         "HEAD6": "Ferro",
         "DESC6_1": "Parte vital da hemoglobina e mioglobina, proteínas responsáveis por transportar oxigênio para os tecidos e músculos do corpo. Mais da metade do ferro do corpo humano está nos glóbulos vermelhos.",
-        "HEAD7": "Riscos",
-        "DESC7_1": "Os desequilíbrios eletrolíticos podem ocorrer tanto pelo consumo excessivo quanto pela falta de eletrólitos, bem como por excreção excessiva ou insuficiente. Níveis elevados de potássio podem indicar insuficiência renal, enquanto a deficiência de sais pode causar fadiga, tontura e arritmia. É importante consultar um especialista se esses sintomas ocorrerem.",
         "BTN_LINK": "Equilibrar agora",
         "HEAD8": "Nossas Vantagens",
         "HEAD9": "Nosso aplicativo está disponível para qualquer dispositivo Apple Watch",
@@ -154,8 +140,7 @@
             "LI2_TEXT": "Os dados são transferidos automaticamente para todos os dispositivos",
             "LI3_HEAD": "Proteção de Dados",
             "LI3_TEXT": "Não armazenamos seus dados em nossos servidores",
-            "LI4_HEAD": "Widgets para Relógios",
-            "LI4_TEXT": "Compatível com todos os tamanhos de relógios"
+            "LI4_HEAD": "Widgets para Relógios"
         }
     },
     "MASS": {
@@ -199,7 +184,6 @@
         },
         "HEAD4": "Nosso aplicativo está disponível para qualquer dispositivo Apple Watch",
         "DESC4": "Baixe o aplicativo agora e comece a acompanhar seus indicadores essenciais",
-        "ALT1": "Telas do Apple Watch com informações sobre peso agora e há 10 dias no app Peso da Martspec",
         "IMG_CTA_ALT2": "Apple Watch exibindo informações sobre o peso corporal com uma balança e uma maçã ao fundo",
         "ALT2": "Telas do Apple Watch com informações sobre peso atual e estatísticas no app Peso da Martspec",
         "ALT5_1": "Proteger suas informações é nosso objetivo direto. A Martspec não armazena os seus dados, isso é uma garantia da segurança dos seus dados.",
@@ -208,7 +192,6 @@
         "ALT5_4": "Nos preocupamos com nossos usuários, por isso não utilizamos nenhuma publicidade intrusiva no aplicativo.",
         "ALT5_5": "Sincronize com o Apple Health.",
         "ALT5_6": "Ícone de smartwatch que mostra o suporte do app para widgets do Apple Watch, permitindo que os usuários acompanhem dados facilmente direto do pulso.",
-        "BTN_OPEN": "Acompanhar",
         "HEAD5": "Dicas para o controle de peso",
         "DESC5": "Gerenciar seu peso corporal de forma eficaz exige consistência, conscientização e os hábitos certos. Aqui estão algumas dicas práticas para ajudá-lo a se manter no caminho certo:",
         "LIST4": {
@@ -1245,8 +1228,6 @@
         },
         "HEAD1": "Porquê a cintura?",
         "DESC1": "O peso pode não mudar à medida que a massa muscular aumenta e a gordura diminui, pelo que a forma do corpo é um melhor reflexo da saúde. A aplicação Waist ajuda-o a controlar estes parâmetros",
-        "LINK1": "National Institutes of Health, EUA",
-        "HEAD2": "Melhor que IMC",
         "LINK2": "Estudo da American Heart Association",
         "DESC2": " demonstraram que o tamanho da cintura é um melhor indicador do risco de doença cardíaca do que o IMC",
         "HEAD3": "Factos médicos",
@@ -1260,10 +1241,8 @@
             "LI2_TEXT": "Nenhuma conta é necessária para este aplicativo",
             "LI3_HEAD": "Sem anúncios",
             "LI3_TEXT": "Não temos anúncios irritantes",
-            "LI4_HEAD": "Apple Health",
-            "LI4_TEXT": "Integração de leitura e gravação de dados"
+            "LI4_HEAD": "Apple Health"
         },
-        "HEAD5": "A cintura é o seu diário pessoal e o seu ajudante para alcançar uma figura saudável",
         "DESC5": "Baixe o aplicativo agora mesmo e comece a monitorar as mudanças no tamanho da sua cintura em um formato conveniente",
         "ALT1": "Telas do Apple Watch com informações sobre sua circunferência da cintura em tempo real e durante todo o dia no app Cintura da Martspec",
         "ALT2": "Telas do Apple Watch mostrando a circunferência da cintura atual e estatísticas no aplicativo Cintura da Martspec",
@@ -1281,8 +1260,7 @@
             "LI2_TEXT": "Quando o corpo não usa a insulina de forma eficaz, o pâncreas precisa trabalhar mais para controlar os níveis de açúcar no sangue, o que pode levar a pré-diabetes e diabetes tipo 2",
             "LI3_HEAD": "Lutar contra a gordura visceral",
             "LI3_TEXT": "Reduzir a gordura visceral é crucial para melhorar a sua saúde. Combater essa gordura ajudará a romper o ciclo vicioso e reduzirá o risco de doenças graves"
-        },
-        "BTN_OPEN": "Diminuir"
+        }
     },
     "ZINC": {
         "HEAD": "Zinco",
@@ -1330,7 +1308,6 @@
         "ALT3_3": "Nos preocupamos com nossos usuários, por isso não utilizamos nenhuma publicidade intrusiva no aplicativo.",
         "ALT3_4": "Sincronização com o programa Apple Health - a melhor base de todas as vitaminas e microelementos.",
         "BTN_MORE": "Saiba mais",
-        "BTN_OPEN": "Apoiar",
         "HEAD6": "Verifique o seu nível de zinco em casa",
         "DESC6": "Pode avaliar os seus níveis de zinco sem necessidade de um laboratório. Um teste rápido com sulfato de zinco pode ser feito em casa em um minuto — basta colocar uma pequena quantidade de sulfato de zinco líquido na boca e avaliar o sabor.",
         "HEAD7": "O que o teste mostra:",
@@ -1520,22 +1497,8 @@
             "LI4_HEAD": "Diagnóstico detalhado",
             "DESC4": "Mostra as causas do estado atual por categorias, a situação real e as expectativas"
         },
-        "HEAD2": "Biorritmos",
-        "DESK2": "Conheça seus picos de biorritmo e dias críticos. Use seus recursos internos da maneira mais eficiente possível. Reconheça quando a conservação de energia e o descanso são mais necessários. Uma avaliação adequada de suas habilidades pode levar ao uso eficiente de energia e evitar problemas potenciais.",
-        "BTN_BIORHYTHM": "Saiba Mais",
-        "ALT2": "Imagem do teste psicológico que ajuda você a acompanhar a dinâmica de seus biorritmos",
-        "LIST2": {
-            "LI1_HEAD": "Físico",
-            "LI1_TEXT": "O biorritmo físico está relacionado aos ciclos físicos e níveis de energia do corpo. Afeta resistência, velocidade, tempo de reação e força muscular.",
-            "LI2_HEAD": "Emocional",
-            "LI2_TEXT": "O biorritmo emocional reflete estabilidade mental, sensibilidade, variações de humor, potencial criativo e bem-estar geral.",
-            "LI3_HEAD": "Intelectual",
-            "LI3_TEXT": "O biorritmo intelectual afeta processos mentais, incluindo clareza mental, resolução de problemas, capacidade de aprendizado, memorização, pensamento analítico, lógica e tomada de decisões."
-        },
-        "HEAD3": "Como Funciona",
         "DESK3_1": "Escolha a cor que mais lhe chama a atenção primeiro no anel colorido. Em seguida, selecione a mais agradável das cores restantes. Repita até escolher todas as cores.",
         "DESK3_2": "Testes profundos mostram:",
-        "ALT3": "Uma imagem de um teste de personalidade que usa cores para rastrear seu estado psicológico, entender seus desejos e encontrar fontes de estresse",
         "LIST3": {
             "LI1_TEXT": "O que você realmente deseja agora",
             "LI2_TEXT": "Problema atual",
@@ -1543,7 +1506,6 @@
             "LI4_TEXT": "Fontes de estresse",
             "LI5_TEXT": "O que você sente no momento"
         },
-        "HEAD4": "Por que Funciona",
         "DESK4_1": "As cores sempre influenciaram a humanidade, desde os fatores incontroláveis da noite e do dia até os significados subconscientes incorporados em nossa psique. Cores e sua influência subconsciente estão presentes, gostemos ou não. Essa influência está presente independentemente de raça, idioma, nível de educação ou status social.",
         "DESK4_2": "A Emoção é adequada para:",
         "ALT4": "Imagem de um aplicativo útil para pessoas que buscam se conhecer e controlar seu estado interno, usando a análise psicológica das preferências de cores",
@@ -1584,8 +1546,7 @@
             "LI5_HEAD": "Energia",
             "LI5_TEXT": "Quantidade de energia em reserva para alcançar metas e objetivos",
             "LI6_HEAD": "Abertura",
-            "LI6_TEXT": "Capacidade de abraçar novas ideias e experiências",
-            "BTN": "Saiba Mais"
+            "LI6_TEXT": "Capacidade de abraçar novas ideias e experiências"
         },
         "BANNER_5_HABITS": {
             "HEAD": "O que determina a sua produtividade?",
@@ -1612,8 +1573,6 @@
         },
         "HEAD8": "O aplicativo Emoção está disponível para qualquer dispositivo Apple",
         "DESK8": "Comece a rastrear suas mudanças de humor hoje mesmo baixando o aplicativo agora.",
-        "ALT8": "Capturas de tela de um aplicativo que permitirá que você acompanhe seu estado psicológico regularmente, confortavelmente e em qualquer dispositivo",
-        "BTN_OPEN": "Desmascarar",
         "HEAD9": "Eu Hoje",
         "DESC9_1": "O que você fez hoje? Abriu mão de doces, praticou exercícios ou talvez comeu comida saudável? Você teve estresse ou, pelo contrário, se sentiu a pessoa mais feliz?",
         "DESC9_2": "Nossa nova funcionalidade - 'Eu Hoje' dará a você a oportunidade de avaliar sua condição todos os dias. E se você não encontrar o indicador de que precisa, pode criar o seu próprio"
@@ -1757,8 +1716,6 @@
             "LI2_1_TEXT": "Não armazenamos seus dados em nossos servidores",
             "LI2_2_TITLE": "Sem cadastro",
             "LI2_2_TEXT": "Não é necessário ter uma conta para usar este aplicativo",
-            "LI2_3_TITLE": "Sem anúncios",
-            "LI2_3_TEXT": "Não exibimos anúncios irritantes",
             "LI2_4_TITLE": "Sincronização com a Apple",
             "LI2_4_TEXT": "Sincroniza com o Apple Health"
         },
@@ -1905,7 +1862,6 @@
         "R": "Todos os direitos reservados.",
         "P": "Política de Privacidade.",
         "APPLE_BTN": {
-            "TITLE": "Veja todos os aplicativos martspec em nossa Apple AppStore",
             "ALT": "Veja todos os nossos aplicativos na Martpsec AppStore na Apple"
         },
         "LINKEDIN_BTN": {
@@ -1931,8 +1887,7 @@
         "TEXT_1": "Estamos a trabalhar arduamente para lhe proporcionar a melhor página web possível.",
         "TEXT_2": "Obrigado pela vossa paciência.",
         "BTN": "Início",
-        "CTA": "Siga-nos",
-        "SOON_BTN": "Em desenvolvimento"
+        "CTA": "Siga-nos"
     },
     "ABOUT": {
         "HEAD": "Nossa História",
@@ -2009,7 +1964,6 @@
         "HEAD1": "Sobre nossa equipe",
         "TEXT1_1": "Criamos aplicativos inovadores que ajudam as pessoas a cuidar da saúde de forma abrangente: treinos, nutrição, bem-estar psicológico e outros aspectos da saúde.",
         "TEXT1_2": "Nossos estagiários trabalham em projetos e tarefas reais, adquirindo experiência valiosa para um início de carreira bem-sucedido. Os resultados falam por si mesmos: 5 de nossos graduados tornaram-se especialistas em QA, 3 se tornaram designers talentosos, 1 tornou-se um profissional de marketing bem-sucedido, 2 desenvolvedores iniciaram suas carreiras na programação e outro estagiário trabalha com sucesso na Holanda!",
-        "BUTTON1": "Mais detalhes",
         "HEAD2": "Por que Martspec?",
         "LIST2": {
             "LI1_HEAD": "Trabalho remoto",
@@ -2037,7 +1991,6 @@
             "LI7_TEXT": "De qualquer lugar do mundo"
         },
         "BUTTON3": "Saber mais",
-        "ALT1": "Um grupo de jovens e promissores especialistas de Martspec",
         "HEAD4": "A sua segurança é importante",
         "DESC1": "Nunca pedimos pagamentos, dados pessoais ou documentos. Saiba como protegemos os candidatos e como reconhecer fraudes de emprego.",
         "BUTTON4": "Saiba mais sobre contratação segura",

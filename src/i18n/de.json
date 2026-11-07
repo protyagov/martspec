@@ -1,11 +1,5 @@
 {
     "COUNTRY_CODE": "de",
-    "BTN": {
-        "SRC1": "Quellartikel lesen",
-        "FACT": "Siehe Fakten",
-        "SRC2": "Holen Sie sich Fakten aus dem Quellartikel",
-        "WIKI": "Lesen Sie den vollständigen Artikel über WiKi"
-    },
     "MAIN": {
         "HEAD": "Pflegen Sie Ihre Gesundheit",
         "SUBHEAD": "Entfalte dein Potenzial mit Wissenschafts-Technologie – für dich gemacht",
@@ -80,20 +74,14 @@
         "DESC2_2": "National Institutes of Health (NIH): Protein senkt den Spiegel des Hungerhormons und verlängert das Sättigungsgefühl.",
         "DESC2_3": "American College of Sports Medicine (ACSM): Eine gleichmäßige Proteinaufnahme über den Tag verteilt ist für Muskelwachstum und Knochenstärke unerlässlich.",
         "BTN_MORE": "Mehr erfahren",
-        "HEAD3": "Unsere Vorteile",
         "LIST2": {
             "LI2_1_TITLE": "Mit Apple Health synchronisieren",
-            "LI2_1_TEXT": "Automatisches Lesen und Schreiben von Daten",
-            "IMG1_ALT": "Mit Apple synchronisieren",
             "LI2_2_TITLE": "Werbefrei",
             "LI2_2_TEXT": "Keine unnötigen Inhalte oder Ablenkungen",
-            "IMG2_ALT": "Werbefrei",
             "LI2_3_TITLE": "Komplette Privatsphäre",
             "LI2_3_TEXT": "Wir speichern deine Daten nicht auf externen Servern",
-            "IMG3_ALT": "Datenschutz",
             "LI2_4_TITLE": "Kein „Mit Apple anmelden“ erforderlich",
-            "LI2_4_TEXT": "Die App ist ohne Registrierung sofort einsatzbereit",
-            "IMG4_ALT": "Keine Registrierung"
+            "LI2_4_TEXT": "Die App ist ohne Registrierung sofort einsatzbereit"
         },
         "HEAD4": "Wie erkennt man einen Proteinmangel?",
         "DESC3": "Bei regelmäßigem Training und einem schnelllebigen Lebensstil steigt dein Proteinbedarf. Wenn dein Körper nicht genug bekommt, sinkt die Ausdauer und die Erholung dauert länger. Fülle diese kurze Checkliste aus, um deine Ernährung und dein Wohlbefinden zu bewerten.",
@@ -141,8 +129,6 @@
         "DESC5_1": "Beteiligt sich an fast allen Körperprozessen, einschließlich der korrekten Funktion der Nieren und des Herzens, Muskelkontraktionen und der Übertragung von Nervensignalen.",
         "HEAD6": "Eisen",
         "DESC6_1": "Ein lebenswichtiger Bestandteil von Hämoglobin und Myoglobin, Proteinen, die Sauerstoff zu den Körperzellen und Muskeln transportieren. Rote Blutkörperchen enthalten mehr als die Hälfte des Eisens im Körper.",
-        "HEAD7": "Risiken",
-        "DESC7_1": "Ein Ungleichgewicht der Elektrolyte kann durch übermäßigen oder unzureichenden Konsum sowie durch übermäßige oder unzureichende Verluste entstehen. Ein Übermaß an Elektrolyten deutet häufig auf ernsthafte Erkrankungen hin. Ein erhöhter Kaliumspiegel kann beispielsweise auf Nierenversagen hinweisen.",
         "BTN_LINK": "Gleichgewicht",
         "HEAD8": "Unsere Vorteile",
         "HEAD9": "Unsere App ist für jedes Apple Watch-Gerät verfügbar",
@@ -154,8 +140,7 @@
             "LI2_TEXT": "Daten werden automatisch auf alle Geräte übertragen",
             "LI3_HEAD": "Datenschutz",
             "LI3_TEXT": "Wir speichern Ihre Daten nicht auf unseren Servern",
-            "LI4_HEAD": "Uhren-Widgets",
-            "LI4_TEXT": "Kompatibel mit allen Uhrengrößen"
+            "LI4_HEAD": "Uhren-Widgets"
         }
     },
     "MASS": {
@@ -199,7 +184,6 @@
         },
         "HEAD4": "Unsere App ist für jedes Apple Watch-Gerät verfügbar",
         "DESC4": "Laden Sie die App jetzt herunter und beginnen Sie, Ihre wichtigen Indikatoren zu verfolgen",
-        "ALT1": "Apple Watch-Bildschirme mit Informationen zum Gewicht jetzt und vor 10 Tagen in der Gewicht-App von Martspec",
         "IMG_CTA_ALT2": "Apple Watch, die Informationen zum Körpergewicht anzeigt, mit einer Waage und einem Apfel im Hintergrund",
         "ALT2": "Apple Watch-Bildschirme mit Informationen zum aktuellen Gewicht und Statistiken in der Gewicht-App von Martspec",
         "ALT5_1": "Der Schutz Ihrer Daten ist unser unmittelbares Ziel. Martspec speichert Ihre Daten nicht, dies ist eine Garantie für die Sicherheit Ihrer Daten.",
@@ -208,7 +192,6 @@
         "ALT5_4": "Wir kümmern uns um unsere Benutzer, daher verwenden wir in der Anwendung keine aufdringliche Werbung.",
         "ALT5_5": "Mit Apple Health synchronisieren.",
         "ALT5_6": "Smartwatch-Symbol, das die Unterstützung von Apple Watch-Widgets durch die App anzeigt und es den Nutzern ermöglicht, Daten direkt vom Handgelenk aus einfach zu verfolgen.",
-        "BTN_OPEN": "Schiene",
         "HEAD5": "Tipps zur Gewichtskontrolle",
         "DESC5": "Die effektive Kontrolle Ihres Körpergewichts erfordert Konsequenz, Bewusstsein und die richtigen Gewohnheiten. Hier sind einige praktische Tipps, die Ihnen helfen, auf dem richtigen Weg zu bleiben:",
         "LIST4": {
@@ -1242,8 +1225,6 @@
         },
         "HEAD1": "Warum Talia?",
         "DESC1": "Das Gewicht ändert sich möglicherweise nicht, wenn die Muskelmasse zunimmt und das Fett abnimmt, daher ist die Körperform ein besseres Abbild der Gesundheit. Mit der Waist-App können Sie diese Parameter verfolgen",
-        "LINK1": "National Institutes of Health, USA",
-        "HEAD2": "Wichtiger als der Body-Mass-Index",
         "LINK2": "Forschung der American Heart Association",
         "DESC2": " haben gezeigt, dass der Taillenumfang ein besserer Prädiktor für das Risiko von Herzerkrankungen ist als der BMI",
         "HEAD3": "Medizinische Fakten",
@@ -1260,10 +1241,8 @@
             "LI2_TEXT": "Für diese App ist kein Konto erforderlich",
             "LI3_HEAD": "Werbefrei",
             "LI3_TEXT": "Wir haben keine lästige Werbung",
-            "LI4_HEAD": "Apple Health",
-            "LI4_TEXT": "Integration von Lese- und Schreibdaten"
+            "LI4_HEAD": "Apple Health"
         },
-        "HEAD5": "Taille – Ihr persönliches Tagebuch und Helfer für eine gesunde Figur",
         "DESC5": "Laden Sie die Anwendung jetzt herunter und beginnen Sie mit der Überwachung der Veränderungen Ihres Taillenumfangs in einem praktischen Format",
         "ALT1": "Apple Watch-Bildschirme zeigen Ihren Taillenumfang in Echtzeit und den ganzen Tag über in der Taillen-App von Martspec",
         "ALT2": "Apple Watch-Bildschirme zeigen den aktuellen Taillenumfang und Statistiken in der Waist-App von Martspec",
@@ -1281,8 +1260,7 @@
             "LI2_TEXT": "Wenn der Körper das Insulin nicht effektiv nutzt, muss die Bauchspeicheldrüse härter arbeiten, um den Zuckerspiegel zu kontrollieren, was zu Prädiabetes und Diabetes Typ 2 führen kann.",
             "LI3_HEAD": "Bekämpfung von viszeralem Fett",
             "LI3_TEXT": "Die Verringerung des viszeralen Fettes ist entscheidend für die Verbesserung Ihrer Gesundheit. Die Bekämpfung dieses Fettes kann dazu beitragen, den Kreislauf zu durchbrechen und Ihr Risiko für schwere Krankheiten zu verringern"
-        },
-        "BTN_OPEN": "Verringern"
+        }
     },
     "ZINC": {
         "HEAD": "Zink",
@@ -1329,7 +1307,6 @@
         "ALT3_3": "Wir kümmern uns um unsere Benutzer, daher verwenden wir in der Anwendung keine aufdringliche Werbung.",
         "ALT3_4": "Synchronisation mit dem Apple Health Programm – die beste Basis aller Vitamine und Mikroelemente.",
         "BTN_MORE": "Mehr erfahren",
-        "BTN_OPEN": "Unterstützung",
         "HEAD6": "Überprüfen Sie Ihren Zinkspiegel zu Hause",
         "DESC6": "Sie können Ihren Zinkgehalt auch ohne Labor beurteilen. Ein Schnelltest mit Zinksulfat lässt sich zu Hause in einer Minute durchführen – geben Sie einfach eine kleine Menge flüssiges Zinksulfat in den Mund und bewerten Sie den Geschmack.",
         "HEAD7": "Was der Test zeigt:",
@@ -1518,22 +1495,8 @@
             "LI4_HEAD": "Detaillierte Diagnose",
             "DESC4": "Zeigt die Ursachen des aktuellen Zustands nach Kategorien, die tatsächliche Situation und Erwartungen"
         },
-        "HEAD2": "Biorhythmen",
-        "DESK2": "Kennen Sie Ihre Biorhythmus-Höhepunkte und kritischen Tage. Nutzen Sie Ihre internen Ressourcen so effizient wie möglich. Erkennen Sie, wann Energieeinsparung und Ruhe am dringendsten benötigt werden. Eine ordnungsgemäße Bewertung Ihrer Fähigkeiten kann zu einer effizienten Nutzung von Energie führen und mögliche Probleme verhindern.",
-        "BTN_BIORHYTHM": "Erfahren Sie mehr",
-        "ALT2": "Bild für den psychologischen Test, der Ihnen hilft, die Dynamik Ihrer Biorhythmen zu verfolgen",
-        "LIST2": {
-            "LI1_HEAD": "Physisch",
-            "LI1_TEXT": "Der physische Biorhythmus ist mit den körperlichen Zyklen und Energieleveln des Körpers verbunden. Er beeinflusst Ausdauer, Geschwindigkeit, Reaktionszeit und Muskelkraft.",
-            "LI2_HEAD": "Emotional",
-            "LI2_TEXT": "Der emotionale Biorhythmus spiegelt die mentale Stabilität, Sensibilität, Stimmungsschwankungen, kreatives Potenzial und das allgemeine Wohlbefinden wider.",
-            "LI3_HEAD": "Intellektuell",
-            "LI3_TEXT": "Der intellektuelle Biorhythmus beeinflusst geistige Prozesse, einschließlich Schärfe des Verstandes, Problemlösung, Lernfähigkeit, Merkfähigkeit, analytisches Denken, Logik und Entscheidungsfindung."
-        },
-        "HEAD3": "Wie es funktioniert",
         "DESK3_1": "Wählen Sie die Farbe aus, die Sie zuerst aus dem farbigen Ring angezogen hat. Wählen Sie dann die angenehmste der verbleibenden Farben aus. Wiederholen Sie dies, bis alle Farben ausgewählt sind.",
         "DESK3_2": "Tiefgreifende Tests zeigen:",
-        "ALT3": "Ein Bild eines Persönlichkeitstests, der Farben verwendet, um Ihren psychischen Zustand zu verfolgen, Ihre Wünsche zu verstehen und Stressquellen zu finden",
         "LIST3": {
             "LI1_TEXT": "Was Sie wirklich gerade wünschen",
             "LI2_TEXT": "Aktuelles Problem",
@@ -1541,7 +1504,6 @@
             "LI4_TEXT": "Stressquellen",
             "LI5_TEXT": "Was fühlen Sie im Moment"
         },
-        "HEAD4": "Warum es funktioniert",
         "DESK4_1": "Farben haben die Menschheit schon immer beeinflusst, von den unkontrollierbaren Faktoren von Tag und Nacht bis zu den unbewussten Bedeutungen, die in unserer Psyche verankert sind. Farben und ihr unbewusster Einfluss sind da, ob wir es mögen oder nicht. Dieser Einfluss ist unabhängig von Rasse, Sprache, Bildungsniveau oder sozialem Status vorhanden.",
         "DESK4_2": "Emotion ist geeignet für:",
         "ALT4": "Bild für eine Anwendung, die für Menschen nützlich ist, die sich selbst kennenlernen und ihren inneren Zustand kontrollieren möchten, indem sie die psychologische Analyse von Farbvorlieben verwenden",
@@ -1582,8 +1544,7 @@
             "LI5_HEAD": "Energie",
             "LI5_TEXT": "Menge an Kraftstoff in Reserve zur Erreichung von Zielen und Aufgaben",
             "LI6_HEAD": "Offenheit",
-            "LI6_TEXT": "Fähigkeit, neue Ideen und Erfahrungen zu begrüßen",
-            "BTN": "Erfahren Sie mehr"
+            "LI6_TEXT": "Fähigkeit, neue Ideen und Erfahrungen zu begrüßen"
         },
         "BANNER_5_HABITS": {
             "HEAD": "Was bestimmt Ihre Produktivität?",
@@ -1610,8 +1571,6 @@
         },
         "HEAD8": "Die Emotion-App ist für jedes Apple-Gerät verfügbar",
         "DESK8": "Beginnen Sie noch heute mit der Verfolgung Ihrer Stimmungsschwankungen, indem Sie die App jetzt herunterladen",
-        "ALT8": "Screenshots einer Anwendung, mit der Sie Ihren psychischen Zustand regelmäßig, bequem und auf jedem Gerät verfolgen können",
-        "BTN_OPEN": "Aufdecken",
         "HEAD9": "Ich heute",
         "DESC9_1": "Was haben Sie heute gemacht? Haben Sie auf Süßigkeiten verzichtet, Sport getrieben oder vielleicht gesund gegessen? Hatten Sie Stress oder fühlten Sie sich im Gegenteil wie der glücklichste Mensch?",
         "DESC9_2": "Unsere neue Funktion - 'Ich heute' gibt Ihnen die Möglichkeit, Ihren Zustand jeden Tag zu bewerten. Und wenn Sie den gewünschten Indikator nicht gefunden haben, können Sie Ihren eigenen erstellen"
@@ -1755,8 +1714,6 @@
             "LI2_1_TEXT": "Wir speichern Ihre Daten nicht auf unseren Servern",
             "LI2_2_TITLE": "Keine Anmeldung",
             "LI2_2_TEXT": "Für diese App ist kein Konto erforderlich",
-            "LI2_3_TITLE": "Keine Werbung",
-            "LI2_3_TEXT": "Wir zeigen keine störende Werbung",
             "LI2_4_TITLE": "Synchronisierung mit Apple",
             "LI2_4_TEXT": "Synchronisiert mit Apple Health"
         },
@@ -1903,7 +1860,6 @@
         "R": "Alle Rechte vorbehalten.",
         "P": "Datenschutzrichtlinie.",
         "APPLE_BTN": {
-            "TITLE": "Alle martspec-Anwendungen finden Sie in unserem Apple AppStore",
             "ALT": "Sehen Sie sich alle unsere Apps im Martpsec AppStore bei Apple an"
         },
         "LINKEDIN_BTN": {
@@ -1929,8 +1885,7 @@
         "TEXT_1": "Wir arbeiten hart daran, Ihnen die bestaussehende Webseite zu bieten.",
         "TEXT_2": "Wir danken Ihnen für Ihre Geduld.",
         "BTN": "Startseite",
-        "CTA": "Folgen Sie uns",
-        "SOON_BTN": "In Entwicklung"
+        "CTA": "Folgen Sie uns"
     },
     "ABOUT": {
         "HEAD": "Unsere Geschichte",
@@ -2007,7 +1962,6 @@
         "HEAD1": "Über unser Team",
         "TEXT1_1": "Wir entwickeln innovative Anwendungen, die Menschen helfen, sich ganzheitlich um ihre Gesundheit zu kümmern: Training, Ernährung, psychischer Zustand und andere Gesundheitsaspekte.",
         "TEXT1_2": "Unsere Praktikanten arbeiten an realen Projekten und Aufgaben und sammeln dabei unschätzbare Erfahrungen für einen erfolgreichen Karrierestart. Die Ergebnisse sprechen für sich: 5 unserer Absolventen wurden QA-Spezialisten, 3 talentierte Designer, 1 erfolgreicher Marketingspezialist, 2 Entwickler begannen ihre Karriere in der Softwareentwicklung, und ein weiterer Praktikant arbeitet erfolgreich in den Niederlanden!",
-        "BUTTON1": "Mehr Details",
         "HEAD2": "Warum Martspec?",
         "LIST2": {
             "LI1_HEAD": "Heimarbeit",
@@ -2035,7 +1989,6 @@
             "LI7_TEXT": "Von überall auf der Welt"
         },
         "BUTTON3": "Erfahren Sie mehr",
-        "ALT1": "Eine Gruppe junger und vielversprechender Spezialisten aus Martspec",
         "HEAD4": "Ihre Sicherheit ist wichtig",
         "DESC1": "Wir fragen niemals nach Bezahlung, persönlichen Daten oder Dokumenten. Erfahren Sie, wie wir Bewerber schützen und wie Sie Betrüger bei der Jobsuche erkennen.",
         "BUTTON4": "Mehr über sichere Einstellung erfahren",
