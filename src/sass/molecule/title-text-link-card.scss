@@ -4,8 +4,8 @@
     padding: 2.75rem;
     border-radius: 1.5rem;
     overflow: hidden;
-    
-    > img {
+
+    >img {
         position: absolute;
         height: 100%;
         width: auto;
@@ -19,11 +19,11 @@
     }
 
     &.bordered {
-        border: 1px solid #212529; 
+        border: 1px solid #212529;
     }
 }
 
-.electrolyte-card-style{
+.electrolyte-card-style {
     padding: 2rem !important;
 
     p {
@@ -39,21 +39,32 @@
     }
 
     a {
-        position: absolute; 
-        bottom: 0px; 
-        left: 0px; 
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
         width: fit-content !important;
     }
 
+    .title-text-link-card__h3 {
+        color: #444;
+        font-family: os5;
+        font-size: 2rem;
+        overflow-wrap: anywhere;
+    }
+
+    .title-text-link-card__m-2 {
+        margin: 2rem 0;
+    }
+
     @media (max-width: 649px) and (max-width: 1400px) {
-        > img {
+        >img {
             top: 40%;
             right: -15%
         }
     }
-    
+
     @media (min-width: 650px) {
-        > img {
+        >img {
             width: 22rem;
             height: auto;
             object-fit: cover;

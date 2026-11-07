@@ -58,6 +58,7 @@
 
     .card-title-text-button ul li{
         font-family: os4;
+        font-size: 1.5rem;
     }
 }
 
@@ -74,5 +75,84 @@ html[lang="zh"] h1 {
     word-break: break-all;
     overflow-wrap: anywhere;
     hyphens: none;
+}
+
+.careers {
+    padding: 0 10%;
+    margin: 8.8rem auto;
+
+    @media (min-width: 320px) and (max-width: 599px) {
+        padding: 0 7%;
+        margin: 2rem auto;
+    }
+
+    @media (min-width: 600px) and (max-width: 991px) {
+        padding: 0 10%;
+        margin: 2rem auto;
+    }
+
+      @media (min-width: 1400px) {
+        max-width: 1320px;
+        padding: 0 3%;
+    }
+}
+
+.careers__bread-crumb {
+    padding: 0 10%;
+    margin: 0 auto;
+
+    @media (min-width: 320px) and (max-width: 599px) {
+        padding: 0 7%;
+        margin: 0 auto;
+    }
+
+    @media (min-width: 600px) and (max-width: 991px) {
+        padding: 0 10%;
+        margin: 0 auto;
+    }
+
+      @media (min-width: 1400px) {
+        max-width: 1320px;
+        padding: 0 3%;
+    }
+}
+
+.careers__h1 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.careers__h2 {
+    color: #212529;
+    font-family: os6;
+    font-size: 2rem;
+    margin-bottom: 1.85rem;
+    margin-top: 2rem;
+    overflow-wrap: anywhere;
+}
+
+.careers__h3 {
+    color: #444;
+    font-family: os5;
+    font-size: 2rem;
+    overflow-wrap: anywhere;
+}
+
+.careers__m-2 {
+    margin: 2rem 0;
+}
+
+.careers__p {
+    font-family: os4;
+    font-size: 1.5rem;
+}
+
+.careers__block {
+    border-radius: 38px;
+    height: 100%;
+}
+
+.careers__p-0 {
+    padding: 0 !important;
 }
 

@@ -15,7 +15,7 @@ const TitleTextCard = ({
 }: TitleTextCardProps): JSX.Element => {
     return (
         <div className={className}>
-            <div className="block" style={{ backgroundColor: bgColor }}>
+            <div className="title-text-card__block" style={{ backgroundColor: bgColor }}>
                 <h3>{title}</h3>
                 <p>{text}</p>
             </div>

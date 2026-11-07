@@ -1,0 +1,20 @@
+.title-text-card__block {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .039), 0 0 4px 0 rgba(0, 0, 0, .059);
+    height: 100%;
+    padding: 3rem;
+    border-radius: 38px;
+
+    h3 {
+        color: #444;
+        font-family: os5;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        overflow-wrap: anywhere;
+    }
+
+    p {
+        font-family: os3;
+        font-size: 1.35rem;
+    }
+}
