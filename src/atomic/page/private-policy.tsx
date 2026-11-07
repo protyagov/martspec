@@ -1,11 +1,142 @@
 import * as React from "react";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
-import _ from "@/i18n/locale";
+import _, { Locale } from "@/i18n/locale";
 import ScrollButton from "../atom/scroll-button";
 import Header from "@/atomic/organism/header";
 
+function EnglishPrivacyPolicy() {
+    return (
+        <>
+            <NavigationBar />
+            <div className="pb-5">
+                <div className="private-policy">
+                    <Header
+                        title={_("PP.HEAD")}
+                        imgSrc="/img/privacy.svg"
+                        imgAlt={_("PP.HEAD")}
+                        imgH={398}
+                        imgW={542}
+                    >
+                        <p className="font-normal private-policy__p">
+                            <strong>{_("PP.DATE_LABEL")}</strong> {_("PP.DATE")}
+                        </p>
+                    </Header>
+                </div>
+
+                <section className="private-policy">
+                    <p className="private-policy__mb-0">{_("PP.P1")}</p>
+                    <p className="private-policy__mb-0">
+                        <strong>
+                            {_("PP.LOCAL.PHILOSOPHY_LABEL")} {_("PP.LOCAL.PHILOSOPHY_TEXT")}
+                        </strong>
+                    </p>
+                </section>
+
+                <section className="private-policy">
+                    <hr />
+                    <h4 className="private-policy__h4">{_("PP.LOCAL.INFORMATION_HEAD")}</h4>
+                    <p className="private-policy__mb-0">
+                        {_("PP.LOCAL.INFORMATION_INTRO")} <strong>{_("PP.LOCAL.INFORMATION_NOTICE")}</strong>
+                    </p>
+                    <ul className="private-policy__list-style private-policy__mb-0">
+                        <li className="private-policy__li">
+                            <strong>{_("PP.LOCAL.HEALTH_LABEL")}</strong>
+                            {_("PP.LOCAL.HEALTH_TEXT")}
+                        </li>
+                        <li className="private-policy__li">
+                            <strong>{_("PP.LOCAL.ACCOUNTS_LABEL")}</strong>
+                            {_("PP.LOCAL.ACCOUNTS_TEXT")}
+                        </li>
+                        <li className="private-policy__li">
+                            <strong>{_("PP.LOCAL.TRACKING_LABEL")}</strong>
+                            {_("PP.LOCAL.TRACKING_TEXT")}
+                        </li>
+                    </ul>
+                </section>
+
+                <section className="private-policy">
+                    <hr />
+                    <h4 className="private-policy__h4">{_("PP.LOCAL.INTEGRATION_HEAD")}</h4>
+                    <p className="private-policy__mb-0">{_("PP.LOCAL.INTEGRATION_INTRO")}</p>
+                    <ul className="private-policy__list-style private-policy__mb-0">
+                        <li className="private-policy__li">{_("PP.LOCAL.INTEGRATION_DEVICE")}</li>
+                        <li className="private-policy__li">{_("PP.LOCAL.INTEGRATION_SERVERS")}</li>
+                        <li className="private-policy__li">{_("PP.LOCAL.INTEGRATION_REVOKE")}</li>
+                    </ul>
+                </section>
+
+                <section className="private-policy">
+                    <hr />
+                    <h4 className="private-policy__h4">{_("PP.LOCAL.SHARING_HEAD")}</h4>
+                    <p className="private-policy__mb-0">
+                        <strong>{_("PP.LOCAL.SHARING_NOTICE")}</strong>{" "}
+                        {_("PP.LOCAL.SHARING_TEXT")}
+                    </p>
+                </section>
+
+                <section className="private-policy">
+                    <hr />
+                    <h4 className="private-policy__h4">{_("PP.LOCAL.RIGHTS_HEAD")}</h4>
+                    <p className="private-policy__mb-0">{_("PP.LOCAL.RIGHTS_INTRO")}</p>
+                    <p className="private-policy__mb-0">{_("PP.LOCAL.RIGHTS_CONTROL")}</p>
+                    <p className="private-policy__mb-0">{_("PP.LOCAL.RIGHTS_MANAGE")}</p>
+                    <ul className="private-policy__list-style private-policy__mb-0">
+                        <li className="private-policy__li">
+                            <strong>{_("PP.LOCAL.VIEW_LABEL")}</strong>
+                            {_("PP.LOCAL.VIEW_TEXT")}
+                        </li>
+                        <li className="private-policy__li">
+                            <strong>{_("PP.LOCAL.DELETE_LABEL")}</strong>
+                            {_("PP.LOCAL.DELETE_TEXT")}
+                        </li>
+                    </ul>
+                </section>
+
+                <section className="private-policy">
+                    <hr />
+                    <h4 className="private-policy__h4">{_("PP.LOCAL.CHILDREN_HEAD")}</h4>
+                    <p className="private-policy__mb-0">{_("PP.LOCAL.CHILDREN_TEXT")}</p>
+                </section>
+
+                <section className="private-policy">
+                    <hr />
+                    <h4 className="private-policy__h4">{_("PP.LOCAL.CHANGES_HEAD")}</h4>
+                    <p className="private-policy__mb-0">{_("PP.LOCAL.CHANGES_TEXT")}</p>
+                </section>
+
+                <section className="private-policy">
+                    <hr />
+                    <h4 className="private-policy__h4">{_("PP.LOCAL.CONTACT_HEAD")}</h4>
+                    <p className="private-policy__mb-0">{_("PP.LOCAL.CONTACT_TEXT")}</p>
+                    <ul className="private-policy__list-style private-policy__mb-0">
+                        <li className="private-policy__li">
+                            <strong>{_("PP.LOCAL.EMAIL_LABEL")}</strong>{" "}
+                            <a href={_("PP.LOCAL.EMAIL_LINK")}>{_("PP.LOCAL.EMAIL")}</a>
+                        </li>
+                        <li className="private-policy__li">
+                            <strong>{_("PP.LOCAL.WEBSITE_LABEL")}</strong>{" "}
+                            <a href={_("PP.LOCAL.WEBSITE_URL")} rel="external nofollow noopener" target="_blank">
+                                {_("PP.LOCAL.WEBSITE_URL")}
+                            </a>
+                        </li>
+                        <li className="private-policy__li">
+                            <strong>{_("PP.LOCAL.ADDRESS_LABEL")}</strong> {_("PP.LOCAL.ADDRESS_TEXT")}
+                        </li>
+                    </ul>
+                </section>
+
+                <br className="my-5" />
+            </div>
+            <Footer />
+            <ScrollButton />
+        </>
+    );
+}
+
 export default function PrivacyPolicy() {
+    if (Locale.language === "en") return <EnglishPrivacyPolicy />;
+
     return (
         <>
             <NavigationBar />
