@@ -2,7 +2,7 @@ import * as React from "react";
 import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import _ from "@/i18n/locale";
-import ScrollButton from "src/atomic/atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
 
 export default function PrivacyPolicy() {
