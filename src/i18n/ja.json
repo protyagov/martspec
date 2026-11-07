@@ -2077,11 +2077,7 @@
         "CHANGES_TEXT": "当社は、アプリの機能変更や法的要件を反映するために、本データ保護方針を定期的に更新する場合があります。更新されたバージョンは、本文書の冒頭にある「最終更新日」によって示されます。",
         "CONTACT_HEAD": "7. お問い合わせ",
         "CONTACT_TEXT": "本データ保護方針または当社のプライバシーに関する取り組みについてご質問がある場合は、以下までお問い合わせください：",
-        "EMAIL_LABEL": "Eメール：",
-        "WEBSITE_LABEL": "ウェブサイト：",
-        "WEBSITE_URL": "https://martspec.com/privacy-policy",
-        "ADDRESS_LABEL": "住所：",
-        "ADDRESS_TEXT": "Martspec LLC, Austin, TX 78749"
+        "EMAIL_LABEL": "Eメール："
     },
     "WORKOUT": {
         "HEAD": "ワークアウト",

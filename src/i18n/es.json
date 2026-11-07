@@ -2077,11 +2077,7 @@
         "CHANGES_TEXT": "Podemos actualizar esta Protección de datos periódicamente para reflejar cambios en las características de nuestra aplicación o en los requisitos legales. La versión actualizada se indicará con la fecha de \"Última actualización\" en la parte superior de este documento.",
         "CONTACT_HEAD": "7. Contáctenos",
         "CONTACT_TEXT": "Si tiene preguntas sobre esta Protección de datos o nuestras prácticas de privacidad, comuníquese con nosotros a:",
-        "EMAIL_LABEL": "Correo electrónico:",
-        "WEBSITE_LABEL": "Sitio web:",
-        "WEBSITE_URL": "https://martspec.com/privacy-policy",
-        "ADDRESS_LABEL": "Dirección:",
-        "ADDRESS_TEXT": "Martspec LLC, Austin, TX 78749"
+        "EMAIL_LABEL": "Correo electrónico:"
     },
     "WORKOUT": {
         "HEAD": "Entrenamientos",

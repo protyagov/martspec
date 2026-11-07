@@ -113,15 +113,6 @@ export default function PrivacyPolicy() {
                             <strong>{_("PP.EMAIL_LABEL")}</strong>{" "}
                             <a href="mailto:privacy@martspec.com">privacy@martspec.com</a>
                         </li>
-                        <li className="private-policy__li">
-                            <strong>{_("PP.WEBSITE_LABEL")}</strong>{" "}
-                            <a href={_("PP.WEBSITE_URL")} rel="external nofollow noopener" target="_blank">
-                                {_("PP.WEBSITE_URL")}
-                            </a>
-                        </li>
-                        <li className="private-policy__li">
-                            <strong>{_("PP.ADDRESS_LABEL")}</strong> {_("PP.ADDRESS_TEXT")}
-                        </li>
                     </ul>
                 </section>
 

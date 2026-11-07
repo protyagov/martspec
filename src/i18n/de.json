@@ -2079,11 +2079,7 @@
         "CHANGES_TEXT": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um Änderungen an unseren App-Funktionen oder rechtlichen Anforderungen Rechnung zu tragen. Die aktualisierte Version wird durch das Datum der „Letzten Aktualisierung“ oben in diesem Dokument gekennzeichnet.",
         "CONTACT_HEAD": "7. Kontakt",
         "CONTACT_TEXT": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Datenschutzpraktiken haben, kontaktieren Sie uns bitte unter:",
-        "EMAIL_LABEL": "E-Mail:",
-        "WEBSITE_LABEL": "Website:",
-        "WEBSITE_URL": "https://martspec.com/privacy-policy",
-        "ADDRESS_LABEL": "Adresse:",
-        "ADDRESS_TEXT": "Martspec LLC, Austin, TX 78749"
+        "EMAIL_LABEL": "E-Mail:"
     },
     "WORKOUT": {
         "HEAD": "Training",
