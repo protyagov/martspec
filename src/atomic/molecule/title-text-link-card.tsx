@@ -58,7 +58,7 @@ const TitleTextLinkCard: React.FC<Props> = ({
                     />
                 )}
                 <div>
-                    <h3 style={{zIndex: 10, position: "relative"}}>{title}</h3>
+                    <h3 className="title-text-link-card__h3 title-text-link-card__m-2" style={{zIndex: 10, position: "relative"}}>{title}</h3>
                     <p style={{zIndex: 10, position: "relative"}}>{text}</p>
                     <TextLinkArrow
                         href={link.href}
