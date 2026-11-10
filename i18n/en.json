@@ -1,11 +1,5 @@
 {
     "COUNTRY_CODE": "us",
-    "BTN": {
-        "SRC1": "Read source article",
-        "FACT": "See Facts",
-        "SRC2": "Get facts from the source article",
-        "WIKI": "Read full article on WiKi"
-    },
     "MAIN": {
         "HEAD": "Making Health a Habit",
         "SUBHEAD": "Unlock your full potential with science-driven tech — made with care for you",
@@ -80,20 +74,14 @@
         "DESC2_2": "National Institutes of Health (NIH): protein reduces hunger hormone levels and prolongs satiety.",
         "DESC2_3": "American College of Sports Medicine (ACSM): consistent protein intake throughout the day is essential for muscle growth and bone strength.",
         "BTN_MORE": "Learn more",
-        "HEAD3": "Our advantages",
         "LIST2": {
             "LI2_1_TITLE": "Sync with Apple Health",
-            "LI2_1_TEXT": "Automatic data reading and writing",
-            "IMG1_ALT": "Sync with Apple",
             "LI2_2_TITLE": "Ad-free",
             "LI2_2_TEXT": "No unnecessary content or distractions",
-            "IMG2_ALT": "Ad-free",
             "LI2_3_TITLE": "Complete privacy",
             "LI2_3_TEXT": "We do not store your data on external servers",
-            "IMG3_ALT": "Data protection",
             "LI2_4_TITLE": "No Apple Sign-In required",
-            "LI2_4_TEXT": "The app is ready to use immediately without registration",
-            "IMG4_ALT": "No registration"
+            "LI2_4_TEXT": "The app is ready to use immediately without registration"
         },
          "HEAD4": "How to spot protein deficiency?",
         "DESC3": "With regular workouts and a fast-paced lifestyle, your protein needs increase. If your body doesn't get enough, endurance drops and recovery takes longer. Complete this short checklist to evaluate your diet and well-being.",
@@ -141,8 +129,6 @@
         "DESC5_1": "Participates in almost all bodily processes, including the proper functioning of kidneys and the heart, muscle contractions, and nerve signal transmission.",
         "HEAD6": "Iron",
         "DESC6_1": "A vital part of hemoglobin and myoglobin, proteins that carry oxygen to body tissues and muscles. Red blood cells contain more than half of the human body's iron.",
-        "HEAD7": "Risks",
-        "DESC7_1": "Electrolyte imbalances can develop by consuming too little or too much electrolyte as well as excreting too little or too much electrolyte. In some cases, elevated electrolyte levels may indicate serious conditions. For example, high potassium levels can signal kidney failure.",
         "BTN_LINK": "Balance Now",
         "HEAD8": "Our Advantages",
         "HEAD9": "Our app is available for any Apple Watch device",
@@ -154,8 +140,7 @@
             "LI2_TEXT": "Data is automatically transferred to all devices",
             "LI3_HEAD": "Data Protection",
             "LI3_TEXT": "We do not store your data on our servers",
-            "LI4_HEAD": "Watch Widgets",
-            "LI4_TEXT": "Compatible with all watch sizes"
+            "LI4_HEAD": "Watch Widgets"
         }
     },
     "MASS": {
@@ -198,7 +183,6 @@
         },
         "HEAD4": "Our app is available for any Apple Watch device",
         "DESC4": "Download the app now and start tracking your essential indicators",
-        "ALT1": "Apple Watch screens with information about weight now and 10 days ago in the Body Mass app from Martspec",
         "IMG_CTA_ALT2": "Apple Watch showing body weight information with a scale and apple in the background.",
         "ALT5_1": "Protecting your information is our direct goal. Martspec does not store your data, this is a guarantee of the security of your data.",
         "ALT5_2": "Sync via iCloud for even greater convenience. All data is automatically available on all your devices.",
@@ -206,7 +190,6 @@
         "ALT5_4": "We care about our users, so we do not use any intrusive advertising in the application.",
         "ALT5_5": "Sync with Apple Health.",
         "ALT5_6": "Smartwatch icon showing app's support for Apple Watch widgets, allowing users to track data easily right from their wrist.",
-        "BTN_OPEN": "Give up the fat",
         "HEAD5": "Weight Management Tips",
         "DESC5": "Managing your body weight effectively takes consistency, awareness, and the right habits. Here are some practical tips to help you stay on track:",
         "LIST4": {
@@ -1241,8 +1224,6 @@
         },
         "HEAD1": "Why waist?",
         "DESC1": "While weight can remain unchanged as muscle replaces fat, waistline is a more accurate indicator of health. The Waistline app lets you track your waist measurements to monitor changes and progress effectively.",
-        "LINK1": "National Institutes of Health, USA",
-        "HEAD2": "Better than BMI",
         "LINK2": "Study by American Heart Association",
         "DESC2": "  have shown that waistline is a better predictor of heart disease risk than BMI",
         "HEAD3": "Medical Facts",
@@ -1256,10 +1237,8 @@
             "LI2_TEXT": "Use instantly — no registration, no login",
             "LI3_HEAD": "Ad-free",
             "LI3_TEXT": "We do not have annoying ads",
-            "LI4_HEAD": "Synchronization with Apple Health",
-            "LI4_TEXT": "Between devices via iCloud and with Apple Health"
+            "LI4_HEAD": "Synchronization with Apple Health"
         },
-        "HEAD5": "Waist - your personal diary and assistant for achieving a healthy figure",
         "DESC5": "Download the application right now and start monitoring changes in your waistline in a convenient format",
         "ALT1": "Apple Watch screens showing your waist circumference in real time and all day in the Waist app from Martspec",
         "ALT2": "Apple Watch screens showing current waist circumference and statistics in the Waist app from Martspec",
@@ -1277,8 +1256,7 @@
             "LI2_TEXT": "When the body does not use insulin effectively, the pancreas has to work harder to control blood sugar levels, which can lead to prediabetes and type 2 diabetes",
             "LI3_HEAD": "Fighting visceral fat",
             "LI3_TEXT": "Reducing visceral fat is crucial for improving your health. Fighting this fat will help break the vicious cycle and lower the risk of serious diseases"
-        },
-        "BTN_OPEN": "Flat your belly"
+        }
     },
     "ZINC": {
         "HEAD": "Zinc",
@@ -1325,7 +1303,6 @@
         "ALT3_3": "We care about our users, so we do not use any intrusive advertising in the application.",
         "ALT3_4": "Sync with Apple Health.",
         "BTN_MORE": "Learn more",
-        "BTN_OPEN": "AmaZinc element",
         "HEAD6": "Check Your Zinc Levels at Home",
         "DESC6": "You can assess your zinc levels without a lab. A quick zinc sulfate test can be done at home in a minute — simply place a small amount of liquid zinc sulfate in your mouth and evaluate the taste.",
         "HEAD7": "What the test shows:",
@@ -1514,22 +1491,8 @@
             "LI4_HEAD": "Detailed Diagnostics",
             "DESC4": "Shows the causes of the current state by categories, the actual situation and expectations"
         },
-        "HEAD2": "Biorhythms",
-        "DESK2": "Know your biorhythm peaks and critical days. Use your internal resources as efficiently as possible. Recognize when energy conservation and rest is most needed. A proper assessment of your abilities can lead to efficient energy use and prevent potential problems.",
-        "BTN_BIORHYTHM": "Learn More",
-        "ALT2": "Image for the psychological test that helps you to track the dynamics of your biorhythms",
-        "LIST2": {
-            "LI1_HEAD": "Physical",
-            "LI1_TEXT": "The physical biorhythm is related to the body's physical cycles and energy levels. It affects endurance, speed, reaction time and muscle strength.",
-            "LI2_HEAD": "Emotional",
-            "LI2_TEXT": "The emotional biorhythm reflects mental stability, sensitivity, mood variations, creative potential, and overall well-being.",
-            "LI3_HEAD": "Intellectual",
-            "LI3_TEXT": "Intellectual biorhythm affects mental processes, including sharpness of mind, problem solving, learning ability, memorization, analytical thinking, logic, and decision making."
-        },
-        "HEAD3": "How It Works",
         "DESK3_1": "Pick the color you are drawn to first from the colored ring. Then select the most pleasant of the remaining colors. Repeat until all colors are chosen.",
         "DESK3_2": "Deep testing shows:",
-        "ALT3": "An image of a personality test that uses color to track your psychological state, understand your desires and find sources of stress",
         "LIST3": {
             "LI1_TEXT": "What you truly desire now",
             "LI2_TEXT": "Actual problem",
@@ -1537,7 +1500,6 @@
             "LI4_TEXT": "Stress sources",
             "LI5_TEXT": "What do you feel at the moment"
         },
-        "HEAD4": "Why It Works",
         "DESK4_1": "Colors have always influenced humanity, from the uncontrollable factors of night and day to the subconscious meanings embedded in our psyche. Colors and their subconscious influence are there, whether we like it or not. This influence is present regardless of race, language, education level, or social status.",
         "DESK4_2": "Emotion is suitable for:",
         "ALT4": "Image for an application that is useful for people seeking to know themselves and control their inner state, using the psychological analysis of color preferences",
@@ -1578,8 +1540,7 @@
             "LI5_HEAD": "Energy",
             "LI5_TEXT": "Amount of fuel in reserve for achieving goals and objectives",
             "LI6_HEAD": "Openness",
-            "LI6_TEXT": "Capacity to embrace novel ideas and experiences",
-            "BTN": "Learn More"
+            "LI6_TEXT": "Capacity to embrace novel ideas and experiences"
         },
         "BANNER_5_HABITS": {
             "HEAD": "What determines your productivity?",
@@ -1606,8 +1567,6 @@
         },
         "HEAD8": "Emotion app is available for any Apple device",
         "DESK8": "Start tracking your mood changes today by downloading the app now",
-        "ALT8": "Screenshots of an application that will allow you to track your psychological state regularly, comfortably and on any device",
-        "BTN_OPEN": "Know Yourself",
         "HEAD9": "Me Today",
         "DESC9_1": "What did you do today? Did you give up sweets, exercise, or maybe eat healthy food? Did you have stress or, on the contrary, did you feel like the happiest person?",
         "DESC9_2": "Our new feature - 'Me Today' will give you the opportunity to evaluate your condition every day. And if you didn't find the indicator you need, you can create your own"
@@ -1751,8 +1710,6 @@
             "LI2_1_TEXT": "We do not store your data on our servers",
             "LI2_2_TITLE": "No Sign-Up",
             "LI2_2_TEXT": "An account is not required for this app",
-            "LI2_3_TITLE": "No Ads",
-            "LI2_3_TEXT": "We don’t have any annoying ads",
             "LI2_4_TITLE": "Sync with Apple",
             "LI2_4_TEXT": "Syncs with Apple Health"
         },
@@ -1900,7 +1857,6 @@
         "R": "All rights reserved.",
         "P": "Privacy Policy.",
         "APPLE_BTN": {
-            "TITLE": "See all martspec applications on our Apple AppStore",
             "ALT": "See all our apps on Martpsec AppStore at Apple"
         },
         "LINKEDIN_BTN": {
@@ -1926,8 +1882,7 @@
         "TEXT_1": "We are working hard to give you the best experience.",
         "TEXT_2": "Thank you for your patience.",
         "BTN": "Home",
-        "CTA": "Follow us",
-        "SOON_BTN": "In Development"
+        "CTA": "Follow us"
     },
     "ABOUT": {
         "HEAD": "Our Story",
@@ -2004,7 +1959,6 @@
         "HEAD1": "About our team",
         "TEXT1_1": "We create innovative applications that help people take care of their health comprehensively: workouts, nutrition, mental state, and other aspects of health.",
         "TEXT1_2": "Our interns work on real projects and tasks, gaining invaluable experience for a successful career start. The results speak for themselves: 5 of our graduates became QA specialists, 3 - talented designers, 1 - successful marketer, 2 programmers started their careers in development, and another intern successfully works in the Netherlands!",
-        "BUTTON1": "Learn more",
         "HEAD2": "Why Martspec?",
         "LIST2": {
             "LI1_HEAD": "Remote work",
@@ -2032,7 +1986,6 @@
             "LI7_TEXT": "From anywhere in the world"
         },
         "BUTTON3": "Learn more",
-        "ALT1": "A group of young and promising specialists from Martspec",
         "HEAD4": "Your safety matters",
         "DESC1": "We never ask for payment, personal data, or documents. Learn how we protect candidates and how to spot employment scams.",
         "BUTTON4": "Learn more about safe hiring",
