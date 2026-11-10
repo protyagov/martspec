@@ -65,7 +65,7 @@ export default function Electrolyte() {
                     title={_("ELECTROLYTE.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("ELECTROLYTE.DWN")}
-                    imgSrc="/img/page/electrolyte/Img-Header-en.webp"
+                    imgSrc="/img/page/electrolyte/Img-Header-en.avif"
                     imgAlt={_("ELECTROLYTE.IMG")}
                     imgH={405}
                     imgW={550}
