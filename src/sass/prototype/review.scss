@@ -137,6 +137,15 @@
         // font-size: 18px;
         line-height: 120%;
         font-family: os4;
+
+            &[data-overflow-flag="true"] {
+                flex: 1 1 0;
+                min-height: calc(var(--review-rows) * 1.2em);
+            }
+        }
+
+        p:not([data-truncated="true"]) + .text-link-arrow {
+            visibility: hidden;
         }
 
         .review-card__read-more {

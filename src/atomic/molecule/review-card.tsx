@@ -113,6 +113,8 @@ interface IReviewCardProps {
 
 const formatDate = (date: string) => new Date(date).toLocaleDateString("ru-RU");
 
+const REVIEW_ROWS = 8;
+
 export default function ReviewCard({
     reviewerNickname,
     createdDate,
@@ -125,9 +127,9 @@ export default function ReviewCard({
     const { themeColor, data } = useReviewContext();
     const isMobile = useMediaQuery("(max-width: 991px)");
 
-    const { reviewTextRef, validatedData } = useReviewValidatedMsg({
+    const { reviewTextRef, validatedData, longTextFlag } = useReviewValidatedMsg({
         data: { origMsg: reviewText },
-        settings: { rows: 8, resizeDelay: 100, endElem: <span key={reviewText}>...</span> },
+        settings: { rows: REVIEW_ROWS, endElem: <span key={reviewText}>...</span> },
     });
 
     const reviewHref = getAppStoreLink({
@@ -161,9 +163,15 @@ export default function ReviewCard({
             </header>
 
             <div className="review-card__content">
-                <p ref={reviewTextRef}>{validatedData.content}</p>
+                <p
+                    ref={reviewTextRef}
+                    data-truncated={validatedData.overflowFlag}
+                    style={{ "--review-rows": REVIEW_ROWS } as React.CSSProperties}
+                >
+                    {validatedData.content}
+                </p>
 
-                {validatedData.overflowFlag && (
+                {longTextFlag && (
                     <TextLinkArrow
                         href={reviewHref}   
                         text={readMoreText}
