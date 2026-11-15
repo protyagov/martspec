@@ -1,4 +1,4 @@
-@import "@/sass/atom/color.scss";
+@use "@/sass/atom/color.scss" as *;
 
 .social-bar {
     &-white a {

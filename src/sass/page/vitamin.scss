@@ -1,3 +1,6 @@
+@use "@/sass/molecule/section" as *;
+@use "bootstrap/scss/bootstrap" as *;
+@use "sass:map";
 %with-shadow {
     box-shadow: 0px 4px 8px 0px #0000000a, 0px 0px 4px 0px #0000000f;
 }
@@ -70,15 +73,15 @@
     $colors: (
         "main": #0066cc,
         // "main-filter": brightness(0) saturate(100%) invert(24%) sepia(95%) saturate(7485%) hue-rotate(199deg) brightness(97%) contrast(101%),
-        // "bg": map-get($bgs-new, "blue"),
+        // "bg": map.get($bgs-new, "blue"),
         "bg": #F4F5F8
     );
 
 .icon {
-    background: map-get($colors, "bg");
+    background: map.get($colors, "bg");
 
     &:not(.no-filter)>img {
-        filter: map-get($colors, "main-filter");
+        filter: map.get($colors, "main-filter");
     }
 }
 
@@ -89,7 +92,7 @@
     gap: 1.5rem;
 
     h1 {
-        color: map-get($colors, "main");
+        color: map.get($colors, "main");
         margin: 0;
         margin-bottom: 0.4rem;
     }

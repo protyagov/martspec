@@ -16,7 +16,7 @@ import Review from "@/atomic/prototype/review";
 import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
 import Accordion, * as VitaminAccordion from "@/atomic/molecule/accordion";
 import { getAppId } from "@/service/AppleService";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 import Table, { TableData } from "@/atomic/molecule/table";
@@ -52,7 +52,7 @@ const CATEGORY_ICON: Record<string, string> = {
     MACA: "extract",
     TURKEY_TAIL: "mushroom",
     TREMELLA: "mushroom",
-    REISHI: "mushroom"
+    REISHI: "mushroom",
 };
 
 const COMING_SOON_PAGES = new Set<string>([]);
@@ -125,7 +125,12 @@ const vitamins: VitaminGroup[] = [
             bgImg: { src: "/img/page/vitamin/vitamin-list-header-FoodAdditives-bg.svg", width: 80, height: 110 },
             mobileBgResized: true,
         },
-        bgImg: { src: "/img/page/vitamin/vitamin-card-FoodAdditives-bg.svg", width: 100, height: 160, position: "bottom" },
+        bgImg: {
+            src: "/img/page/vitamin/vitamin-card-FoodAdditives-bg.svg",
+            width: 100,
+            height: 160,
+            position: "bottom",
+        },
         bgColor: "#ECD6EAA3",
         primaryColor: "#AD43D7",
         linkHoverColor: "#CB30E0",
@@ -135,7 +140,7 @@ const vitamins: VitaminGroup[] = [
             "ASTRAGALUS",
             "CHAGA",
             "COCOA",
-            "COLLAGEN", 
+            "COLLAGEN",
             "KOMBUCHA",
             "CORDYCEPS",
             "TURMERIC",
@@ -251,7 +256,7 @@ export default function Vitamin() {
             },
         },
     ];
-    
+
     return (
         <>
             <NavigationBar />
@@ -325,7 +330,6 @@ export default function Vitamin() {
                 <section>
                     <div className="row">
                         <div className="col-lg-6">
-                         
                             <ImageI18N
                                 src="/img/page/vitamin/Img-Block3-en.webp"
                                 w={487}
@@ -374,7 +378,70 @@ export default function Vitamin() {
 
                 <section>
                     <div className="row">
-                        <h2 className="col-xl-7 col-lg-8 col-12 mt-5 p-0" style={{fontSize: '40px'}}>{_("VITAMIN.HEAD5")}</h2>
+                        <div
+                            className="row block p-0 rounded-5"
+                            style={{ backgroundColor: "#F4F5F8", overflow: "hidden" }}
+                        >
+                            <div className="col-12 col-lg-6 p-5 py-3">
+                                <div className="vitamin">
+                                    <CardTitleTextButton
+                                        title={_("VITAMIN.HEAD_7")}
+                                        textContent={[_("VITAMIN.TEXT_3")]}
+                                        buttonText={_("VITAMIN.BTN_MORE")}
+                                        buttonLink={Locale.i18nLink(`vitamin/bone-health`)}
+                                        buttonColor="#1686FF"
+                                    />
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 pb-4 d-flex justify-content-end align-items-end">
+                                <ImageI18N
+                                    src="/img/page/vitamin/bones-to-article.avif"
+                                    w={520}
+                                    h={400}
+                                    alt={_("VITAMIN.ALT_7")}
+                                    cls="ms-base-image mt-mob-xs m-0 img-fluid"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="row">
+                        <div
+                            className="row block p-0 rounded-5"
+                            style={{ backgroundColor: "#F4F5F8", overflow: "hidden" }}
+                        >
+                            <div className="col-lg-6 p-5">
+                                <CardTitleTextButton
+                                    title={_("VITAMIN.BANNER_RED_LIGHT_THERAPY.HEAD")}
+                                    textContent={[_("VITAMIN.BANNER_RED_LIGHT_THERAPY.TEXT")]}
+                                    buttonText={_("VITAMIN.BANNER_RED_LIGHT_THERAPY.BTN")}
+                                    buttonLink={Locale.i18nLink(`vitamin/red-light-therapy`)}
+                                    buttonColor="#1686FF"
+                                />
+                            </div>
+
+                            <div className="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center p-4 p-lg-5">
+                                <ImageI18N
+                                    src="/img/page/article/red-light-therapy/red-light-therapy-banner.avif"
+                                    w={450}
+                                    h={294}
+                                    cls="m-0 img-fluid"
+                                    alt={_("VITAMIN.BANNER_RED_LIGHT_THERAPY.ALT")}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="row">
+                        <h2 className="col-xl-7 col-lg-8 col-12 mt-5 p-0" style={{ fontSize: "40px" }}>
+                            {_("VITAMIN.HEAD5")}
+                        </h2>
+
                         <div className="row align-items-stretch row-cols-xl-2 row-cols-1 row-cols-md-2 mb-0 px-0 g-4">
                             <div className="col px-0">
                                 <ul className="row row-cols-2 p-0 m-0 g-4 list-unstyled">
@@ -454,9 +521,11 @@ export default function Vitamin() {
                                                         title={_(`VITAMIN.${article}.HEAD`)}
                                                         subtitle={_(`VITAMIN.${article}.NAME`)}
                                                         category={_(`VITAMIN.${article}.CATEGORY`)}
-                                                        iconSrc={CATEGORY_ICON[article]
-                                                        ? `/img/page/vitamin/vitamin-card-icon-${CATEGORY_ICON[article]}.svg`
-                                                        : undefined}
+                                                        iconSrc={
+                                                            CATEGORY_ICON[article]
+                                                                ? `/img/page/vitamin/vitamin-card-icon-${CATEGORY_ICON[article]}.svg`
+                                                                : undefined
+                                                        }
                                                         description={_(`VITAMIN.${article}.DESK`)}
                                                         actionLink={{
                                                             text: _("VITAMIN.BTN_GO"),
@@ -480,8 +549,11 @@ export default function Vitamin() {
 
                 <section>
                     <div className="row">
-                        <div className="row block p-0 rounded-5" style={{backgroundColor: "#F7F4F8", overflow: "hidden"}}>
-                            <div className="col-lg-6 p-5 py-3" >
+                        <div
+                            className="row block p-0 rounded-5"
+                            style={{ backgroundColor: "#F7F4F8", overflow: "hidden" }}
+                        >
+                            <div className="col-lg-6 p-5 py-3">
                                 <CardTitleTextButton
                                     title={_("CAPSULES.CAPSULES_HEAD")}
                                     textContent={[_("CAPSULES.CAPSULES_DESK")]}

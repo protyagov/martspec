@@ -1,7 +1,8 @@
-@import "@/sass/page/base.scss";
+@use "color" as *;
+@use "bootstrap/scss/bootstrap" as *;
+@use "@/sass/page/base.scss" as *;
 
 .ms-btn {
-    @extend .btn;
     border-radius: 2rem;
     font-size: 1rem;
     font-family: os6; // padding: 3rem 4÷rem;
@@ -18,7 +19,6 @@
 }
 
 .ms-btn-large {
-    @extend .ms-btn;
     color: white !important;
     font-family: os6;
     padding: 0.9rem 3 + rem;
@@ -26,9 +26,6 @@
 }
 
 .ms-btn-lang {
-    @extend .btn;
-    @extend .btn-link;
-    @extend .nav-link;
     color: white;
 
     &:active {

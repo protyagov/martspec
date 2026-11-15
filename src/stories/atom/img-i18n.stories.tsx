@@ -17,7 +17,7 @@ export const ImageI18NStory: Story<{
 }> = (props) => <ImageI18N {...props} />;
 
 ImageI18NStory.args = {
-    src: "/img/page/vitamin/vitamin-home-en.webp",
+    src: "/img/page/vitamin/vitamin-screen-edit-en.webp",
     alt: "Track the most essential vitamins directly on your wrist",
     cls: "mx-auto my-4 img-fluid",
     h: 512,

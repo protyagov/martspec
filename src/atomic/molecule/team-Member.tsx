@@ -48,7 +48,7 @@ export default function TeamMember({ member, isWide, size = 22 }: TeamMemberProp
                             <div className="col-md-5 h-100 p-0">
                                 <img 
                                     src={member.AVATAR}
-                                    onError={(e) => (e.currentTarget.src = "/img/team_placeholder.png")}
+                                    onError={(e) => (e.currentTarget.src = "/img/page/team/team_placeholder.webp")}
                                     alt={`${member.NAME} - ${member.TITLE}`}
                                     className="rounded-5 w-100 object-fit-cover"
                                     style={{
@@ -60,7 +60,7 @@ export default function TeamMember({ member, isWide, size = 22 }: TeamMemberProp
                             </div>
                             <div className="col-md-7 flex-grow-1 d-flex flex-column p-4 position-relative">
                                 <div className="position-absolute top-0 end-0 ">
-                                    <ItemLink />
+                                    {/* <ItemLink /> */}
                                 </div>
                                 <div className="mt-auto position-static" style={{ marginLeft: '20px' }}>
                                 <h3 className="card-title-big ms-team-info-section-h4">{member.NAME}</h3>
@@ -79,7 +79,7 @@ export default function TeamMember({ member, isWide, size = 22 }: TeamMemberProp
                 <div className="p-4 pb-0">
                     <img
                         src={member.AVATAR}
-                        onError={(e) => (e.currentTarget.src = "/img/team_placeholder.png")}
+                        onError={(e) => (e.currentTarget.src = "/img/page/team/team_placeholder.webp")}
                         alt={`${member.NAME} - ${member.TITLE}`}
                         className="img-card rounded-5"
                     />
@@ -88,7 +88,7 @@ export default function TeamMember({ member, isWide, size = 22 }: TeamMemberProp
                     <h4 className="card-title text-black"> {member.NAME} </h4>
                     <h5 className="card-subtitle text-muted pe-4"> {_(member.TITLE)}
                         <div className="position-absolute end-0 bottom-0 p-3">
-                        <ItemLink />
+                        {/* <ItemLink /> */}
                         </div>
                     </h5> 
                 </div>

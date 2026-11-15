@@ -1,14 +1,14 @@
 import * as React from "react";
 import _, { Locale } from "@/i18n/locale";
 import { Footer } from "@/atomic/organism/footer";
-import ImageI18N from "../atom/img-i18n";
+import ImageI18N from "@/atomic/atom/img-i18n";
 import NavigationBar from "@/atomic/organism/navbar";
 import Header from "@/atomic/organism/header";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import TitleTextLinkCard from "@/atomic/molecule/title-text-link-card";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
 import CallToAction from "@/atomic/organism/call-to-action-new";
@@ -65,7 +65,7 @@ export default function Electrolyte() {
                     title={_("ELECTROLYTE.HEAD")}
                     appId={appId}
                     appDownloadTitle={_("ELECTROLYTE.DWN")}
-                    imgSrc="/img/page/electrolyte/Img-Header-en.webp"
+                    imgSrc="/img/page/electrolyte/Img-Header-en.avif"
                     imgAlt={_("ELECTROLYTE.IMG")}
                     imgH={405}
                     imgW={550}

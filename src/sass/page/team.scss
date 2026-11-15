@@ -74,7 +74,8 @@
 .img-card { 
   object-fit: cover;
   width: 100% !important;
-  object-position: left !important;
+  aspect-ratio: 1 / 1;
+  object-position: center top !important;
   padding: 0px !important;
   margin: 0;
   }

@@ -1,55 +1,69 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
+// Sass can emit percentage-based colors in Bootstrap's SVG data URLs.
+// Escape percent signs before the other characters so those URLs remain valid.
+@use "bootstrap/scss/bootstrap" as * with (
+    $escaped-characters: (("%", "%25"), ("<", "%3c"), (">", "%3e"), ("#", "%23"), ("(", "%28"), (")", "%29"))
+);
 
-@import "atom/color";
-@import "atom/font";
-@import "atom/button";
-@import "atom/scroll-button";
-@import "atom/link-button-animated";
-@import "atom/link-button-plain";
-@import "atom/page-breakpoints.scss";
+@use "atom/color" as *;
+@use "atom/font" as *;
+@use "atom/button" as *;
+@use "atom/scroll-button" as *;
+@use "atom/link-button-animated" as *;
+@use "atom/link-button-plain" as *;
+@use "atom/page-breakpoints.scss" as *;
 
-@import "molecule/section";
-@import "molecule/title-text-link-card";
-@import "molecule/card-title-text-button";
-@import "molecule/text-link-arrow";
-@import "molecule/card-app-large.scss";
-@import "molecule/card-app-small.scss";
-@import "molecule/card-icon-title-text.scss";
-@import "molecule/icon-title-text-elem.scss";
-@import "molecule/title-text-card.scss";
+@use "molecule/section" as *;
+@use "molecule/title-text-link-card" as *;
+@use "molecule/card-title-text-button" as *;
+@use "molecule/text-link-arrow" as *;
+@use "molecule/card-app-large.scss" as *;
+@use "molecule/card-app-small.scss" as *;
+@use "molecule/card-icon-title-text.scss" as *;
+@use "molecule/icon-title-text-elem.scss" as *;
 
+@use "organism/header.scss" as *;
+@use "organism/navigation" as *;
+@use "organism/footer" as *;
+@use "organism/social-bar" as *;
+@use "organism/breadcrumb" as *;
+@use "organism/icon-title-text-list.scss" as *;
 
-@import "organism/header.scss";
-@import "organism/navigation";
-@import "organism/footer";
-@import "organism/social-bar";
-@import "organism/breadcrumb";
-@import "organism/icon-title-text-list.scss";
+@use "prototype/vitamin-element" as *;
+@use "prototype/vacancy-details.scss" as *;
+@use "prototype/review" as *;
+@use "prototype/article.scss" as *;
 
-@import "prototype/vitamin-element";
-@import "prototype/vacancy-details.scss";
-@import "prototype/review";
-@import "prototype/article.scss";
+@use "page/base" as *;
+@use "page/team" as *;
+@use "page/vitamin" as *;
+@use "page/bone-health" as *;
+@use "page/electrolyte" as *;
+@use "page/workout" as *;
+@use "page/bodymass.scss" as *;
+@use "page/emotion" as *;
+@use "page/emotion/biorhythms" as *;
+@use "page/emotion/personality-trait" as *;
+@use "page/emotion/color-test" as *;
+@use "page/waist.scss" as *;
+@use "page/careers.scss" as *;
+@use "page/bodyzinc.scss" as *;
+@use "page/bodysize.scss" as *;
+@use "page/magnesium.scss" as *;
+@use "page/iron.scss" as *;
+@use "page/calcium.scss" as *;
+@use "page/error-404.scss" as *;
+@use "page/private-policy.scss" as *;
+@use "page/scam-protection.scss" as *;
+@use "page/protein.scss" as *;
+@use "page/coming-soon.scss" as *;
 
-@import "page/base";
-@import "page/team";
-@import "page/vitamin";
-@import "page/electrolyte";
-@import "page/workout";
-@import "page/bodymass.scss";
-@import "page/emotion";
-@import "page/emotion/biorhythms";
-@import "page/emotion/personality-trait";
-@import "page/emotion/color-test";
-@import "page/waist.scss";
-@import "page/careers.scss";
-@import "page/bodyzinc.scss";
-@import "page/bodysize.scss";
-@import "page/magnesium.scss";
-@import "page/iron.scss";
-@import "page/calcium.scss";
-@import "page/error-404.scss";
-@import "page/private-policy.scss";
-@import "page/scam-protection.scss";
-@import "page/protein.scss";
-@import "page/coming-soon.scss";
+// Preserve the global selector extensions used by the former @import bundle.
+// @use scopes extensions to dependencies, so apply cross-module aliases here.
+@for $level from 1 through 6 {
+    .h#{$level} { @extend h#{$level} !optional; }
+}
+.ms-btn { @extend .btn; }
+.ms-btn-large { @extend .ms-btn; }
+.ms-btn-lang { @extend .btn; @extend .btn-link; @extend .nav-link; }
+.icon { @extend %with-shadow; }
+.list-with-icons p { @extend %p-smaller; }

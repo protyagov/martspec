@@ -1,11 +1,5 @@
 {
     "COUNTRY_CODE": "de",
-    "BTN": {
-        "SRC1": "Quellartikel lesen",
-        "FACT": "Siehe Fakten",
-        "SRC2": "Holen Sie sich Fakten aus dem Quellartikel",
-        "WIKI": "Lesen Sie den vollständigen Artikel über WiKi"
-    },
     "MAIN": {
         "HEAD": "Pflegen Sie Ihre Gesundheit",
         "SUBHEAD": "Entfalte dein Potenzial mit Wissenschafts-Technologie – für dich gemacht",
@@ -80,20 +74,14 @@
         "DESC2_2": "National Institutes of Health (NIH): Protein senkt den Spiegel des Hungerhormons und verlängert das Sättigungsgefühl.",
         "DESC2_3": "American College of Sports Medicine (ACSM): Eine gleichmäßige Proteinaufnahme über den Tag verteilt ist für Muskelwachstum und Knochenstärke unerlässlich.",
         "BTN_MORE": "Mehr erfahren",
-        "HEAD3": "Unsere Vorteile",
         "LIST2": {
             "LI2_1_TITLE": "Mit Apple Health synchronisieren",
-            "LI2_1_TEXT": "Automatisches Lesen und Schreiben von Daten",
-            "IMG1_ALT": "Mit Apple synchronisieren",
             "LI2_2_TITLE": "Werbefrei",
             "LI2_2_TEXT": "Keine unnötigen Inhalte oder Ablenkungen",
-            "IMG2_ALT": "Werbefrei",
             "LI2_3_TITLE": "Komplette Privatsphäre",
             "LI2_3_TEXT": "Wir speichern deine Daten nicht auf externen Servern",
-            "IMG3_ALT": "Datenschutz",
             "LI2_4_TITLE": "Kein „Mit Apple anmelden“ erforderlich",
-            "LI2_4_TEXT": "Die App ist ohne Registrierung sofort einsatzbereit",
-            "IMG4_ALT": "Keine Registrierung"
+            "LI2_4_TEXT": "Die App ist ohne Registrierung sofort einsatzbereit"
         },
         "HEAD4": "Wie erkennt man einen Proteinmangel?",
         "DESC3": "Bei regelmäßigem Training und einem schnelllebigen Lebensstil steigt dein Proteinbedarf. Wenn dein Körper nicht genug bekommt, sinkt die Ausdauer und die Erholung dauert länger. Fülle diese kurze Checkliste aus, um deine Ernährung und dein Wohlbefinden zu bewerten.",
@@ -141,8 +129,6 @@
         "DESC5_1": "Beteiligt sich an fast allen Körperprozessen, einschließlich der korrekten Funktion der Nieren und des Herzens, Muskelkontraktionen und der Übertragung von Nervensignalen.",
         "HEAD6": "Eisen",
         "DESC6_1": "Ein lebenswichtiger Bestandteil von Hämoglobin und Myoglobin, Proteinen, die Sauerstoff zu den Körperzellen und Muskeln transportieren. Rote Blutkörperchen enthalten mehr als die Hälfte des Eisens im Körper.",
-        "HEAD7": "Risiken",
-        "DESC7_1": "Ein Ungleichgewicht der Elektrolyte kann durch übermäßigen oder unzureichenden Konsum sowie durch übermäßige oder unzureichende Verluste entstehen. Ein Übermaß an Elektrolyten deutet häufig auf ernsthafte Erkrankungen hin. Ein erhöhter Kaliumspiegel kann beispielsweise auf Nierenversagen hinweisen.",
         "BTN_LINK": "Gleichgewicht",
         "HEAD8": "Unsere Vorteile",
         "HEAD9": "Unsere App ist für jedes Apple Watch-Gerät verfügbar",
@@ -154,8 +140,7 @@
             "LI2_TEXT": "Daten werden automatisch auf alle Geräte übertragen",
             "LI3_HEAD": "Datenschutz",
             "LI3_TEXT": "Wir speichern Ihre Daten nicht auf unseren Servern",
-            "LI4_HEAD": "Uhren-Widgets",
-            "LI4_TEXT": "Kompatibel mit allen Uhrengrößen"
+            "LI4_HEAD": "Uhren-Widgets"
         }
     },
     "MASS": {
@@ -199,7 +184,6 @@
         },
         "HEAD4": "Unsere App ist für jedes Apple Watch-Gerät verfügbar",
         "DESC4": "Laden Sie die App jetzt herunter und beginnen Sie, Ihre wichtigen Indikatoren zu verfolgen",
-        "ALT1": "Apple Watch-Bildschirme mit Informationen zum Gewicht jetzt und vor 10 Tagen in der Gewicht-App von Martspec",
         "IMG_CTA_ALT2": "Apple Watch, die Informationen zum Körpergewicht anzeigt, mit einer Waage und einem Apfel im Hintergrund",
         "ALT2": "Apple Watch-Bildschirme mit Informationen zum aktuellen Gewicht und Statistiken in der Gewicht-App von Martspec",
         "ALT5_1": "Der Schutz Ihrer Daten ist unser unmittelbares Ziel. Martspec speichert Ihre Daten nicht, dies ist eine Garantie für die Sicherheit Ihrer Daten.",
@@ -208,7 +192,6 @@
         "ALT5_4": "Wir kümmern uns um unsere Benutzer, daher verwenden wir in der Anwendung keine aufdringliche Werbung.",
         "ALT5_5": "Mit Apple Health synchronisieren.",
         "ALT5_6": "Smartwatch-Symbol, das die Unterstützung von Apple Watch-Widgets durch die App anzeigt und es den Nutzern ermöglicht, Daten direkt vom Handgelenk aus einfach zu verfolgen.",
-        "BTN_OPEN": "Schiene",
         "HEAD5": "Tipps zur Gewichtskontrolle",
         "DESC5": "Die effektive Kontrolle Ihres Körpergewichts erfordert Konsequenz, Bewusstsein und die richtigen Gewohnheiten. Hier sind einige praktische Tipps, die Ihnen helfen, auf dem richtigen Weg zu bleiben:",
         "LIST4": {
@@ -292,6 +275,48 @@
             }
         }
     },
+    "BONE_HEALTH": {
+        "NAME": "Knochengesundheit",
+        "HEAD": "Wie Sie Knochenschwund stoppen und Ihr Skelett wieder aufbauen",
+        "DESC1": "Starke Knochen sind die Grundlage für ein vitales, aktives Leben. Sie bedeuten bessere Bewegung, größere Kraft und längere Unabhängigkeit. Wenn Ihre Knochen dichter sind als die eines Durchschnittsmenschen, sagt diese eine Kennzahl voraus, dass Sie länger leben, sich besser bewegen und länger unabhängig bleiben. Schwache Knochen können eine gefährliche Kettenreaktion auslösen: Sie brechen sich einen Knochen, verletzen sich, können nicht trainieren, verlieren Muskeln, was zu noch weniger Bewegung führt. Das setzt einen teuflischen Dominoeffekt in Ihrem Körper in Gang.",
+        "DESC2": "Eine Studie an Frauen über 65 ergab, dass diejenigen mit stärkeren Knochen etwa 50 % seltener starben und ein Drittel weniger Gehprobleme hatten. Bei Männern im Alter von 65 bis 75 Jahren machten selbst kleine Verbesserungen der Knochengesundheit sie in den folgenden Jahren etwa 25 % seltener sterblich. Verlieren Sie nicht die Hoffnung — Ihr Körper ersetzt seine Knochen etwa alle 10 Jahre. Durch die richtige Bewegung, Ernährung und Gewohnheiten wie Schlaf können Sie Ihre Knochendichte buchstäblich wieder aufbauen. Lassen Sie uns aufschlüsseln, was nötig ist, um Spitzenknochengesundheit ein Leben lang aufzubauen und zu erhalten.",
+        "ALT1": "Sportliche Frau, die mit einer Hantel in der Hand trainiert",
+        "ALT2": "Mann, der sich vor Schmerzen den unteren Rücken hält, mit sichtbaren Schmerzpflastern am unteren Rücken",
+        "HEAD2": "Die drei Säulen der Knochengesundheit",
+        "DESC3": "Der Aufbau und die Erhaltung Ihrer Knochen hängt von drei Schlüsselsäulen ab: Ernährung, gesunde Gewohnheiten und Bewegung.",
+        "SUBHEADS": {
+            "HEAD1": "Säule 1: Intelligente Ernährung.",
+            "HEAD2": "Säule 2: Gesunde Gewohnheiten.",
+            "HEAD3": "Säule 3: Belastungstraining."
+        },
+        "SUBTITLES": {
+            "TITLE1": "Wenn Sie an Knochendichte denken, denken Sie an den Bau einer Brücke. Um Ihre Zufuhr im Blick zu behalten, sollten Sie ein Tool wie die Martspec Vitamin App in Betracht ziehen, mit der Sie Ihren täglichen Bedarf einfach überwachen und verwalten können. Sie bietet auch Vorschläge für vollwertige, von der USDA empfohlene Bio-Lebensmittel, damit Sie diese Elemente auf natürliche Weise erhalten können, wenn Sie lieber keine Kapseln einnehmen möchten.",
+            "TITLE2": "Bestimmte Gewohnheiten können selbst den besten Ernährungsplan untergraben. Vermeiden Sie diese Knochensaboteure:",
+            "TITLE3": "Diese Gewohnheiten stören Ihren Kalziumhaushalt und schwächen die Knochenstruktur im Laufe der Zeit. In Kombination mit qualitativem Schlaf und deren Vermeidung schaffen Sie eine Umgebung, in der Ihre Knochen gedeihen können.",
+            "TITLE4": "Sie können alle richtigen Materialien haben, aber ohne Arbeit werden sie keine solide Struktur. Knochen müssen unter Last gesetzt werden, um stark zu werden. Die effektivste Methode ist kraftvolles Widerstandstraining. Das Hinzufügen von Last zu Ihren Übungen — sei es durch Gewichte, Bänder oder Körpergewichtsübungen — zwingt Ihre Knochen, sich durch Aufbau und Mineralisierung anzupassen. Die Wirkung ist stark. Ohne mechanische Belastung beschleunigt sich der Knochenverlust dramatisch. Astronauten in der Mikrogravitation können bis zu 1,6 % ihrer Knochendichte pro Monat verlieren, etwa das Zehnfache der typischen Rate auf der Erde."
+        },
+        "LIST": {
+            "1": "Rauchen",
+            "2": "Überschüssiges Natrium",
+            "3": "Zuckerhaltige Limonaden",
+            "4": "Starker Alkoholkonsum"
+        },
+        "CARDS": {
+            "HEAD1": "Das Gerüst (Kollagen)",
+            "DESC1": "Kollagen, eine wichtige Proteinart, ist der Bewehrungsstahl — das Gerüst, das der Struktur ihre Form und Zugfestigkeit verleiht. Um es stabil zu halten, benötigen Sie eine ausreichende Menge dieses Proteins — typischerweise zwischen 1,2 g und 2,2 g pro Kilogramm Körpergewicht.",
+            "HEAD2": "Der Beton (Mineralien)",
+            "DESC2": "Mineralien wie Kalzium, Phosphor, Magnesium und Bor sind der Beton, der das Gerüst ausfüllt, es härtet und stärkt. Ohne sie wäre Ihr Skelett wie eine Brücke, die nur aus Stahlseilen besteht — flexibel, aber gefährlich zerbrechlich.",
+            "HEAD3": "Die Bautruppe (Vitamine D & K2)",
+            "DESC3": "Vitamin D wirkt als Lieferfahrer, nimmt Kalzium auf und liefert es dorthin, wo Ihre Knochen es brauchen. K2 ist der Schlüsseldienst, der die Proteine aktiviert, die Kalzium fest in das Kollagengerüst einbinden. Ohne sie bleiben die Rohstoffe ungenutzt."
+        },
+        "HEAD3": "Fazit: Übernehmen Sie die Kontrolle über Ihr Skelett",
+        "DESC4": "Knochengesundheit kann in jedem Alter verbessert werden. Mit richtiger Ernährung und Kräftigungsübungen können Sie ein stärkeres Skelett für mehr Mobilität, Unabhängigkeit und Vitalität aufbauen.",
+        "DESC5": "DEXA-Scan: Personalisieren und Fortschritt verfolgen. Der Start mit zu viel kann Blähungen, Gas oder Magenbeschwerden verursachen.",
+        "DESC6": "Wenn Sie mehr Präzision und eine messbare Möglichkeit zur Verfolgung von Veränderungen wünschen, lassen Sie einen DEXA-Scan durchführen. Die Knochendichte erreicht typischerweise zwischen 25 und 30 Jahren ihren Höhepunkt, danach nimmt sie allmählich ab. Bei Frauen kann dieser Rückgang dramatisch sein — bis zu 20 % der Knochendichte können in den ersten Jahren der Menopause verloren gehen.",
+        "DESC7": "T-Wert: Vergleicht Ihre Knochen mit denen eines gesunden 30-Jährigen des gleichen Geschlechts.",
+        "DESC8": "Z-Wert: Vergleicht Ihre Knochen mit Menschen Ihres eigenen Alters, Geschlechts und Ihrer Größe.",
+        "DESC9": "Wenn Sie in Ihren 20ern oder frühen 30ern sind, ist dieser Wert Ihr Höhepunkt — ein Maßstab, den es ein Leben lang zu erhalten gilt. Wenn Ihr Wert nicht Ihren Erwartungen entspricht, machen Sie sich keine Sorgen. Ihr Skelett hat die bemerkenswerte Fähigkeit, sich innerhalb mehrerer Jahre zu erneuern. Mit der richtigen Strategie können Sie wieder aufbauen."
+    },
     "VITAMIN": {
         "HEAD": "Vitamin",
         "SUBHEAD": "Der ultimative Vitamin Tracker",
@@ -303,7 +328,7 @@
         "HEAD1": "Nutrients",
         "SUBHEAD1": "Nährstoff- und Medikamenten-Tracker",
         "TEXT1": "Ein praktischer Tracker für Vitamin- & Mineralstoffaufnahme mit Erinnerungen. Apple Health-Sync. Sichere iCloud-Backups. Kostenlos. Keine Werbung oder In-App-Käufe.",
-        "BUTTON_OPEN_NUTRIENTS": "Mehr erfahren",
+        "BTN_MORE": "Mehr erfahren",
         "ICO1": "App-Ikone des Vitamin Ring, der besten App zur Vitamin-Einnahme. Synchronisierung mit Apple Health und Sicherung in iCloud. Kostenlos und ohne Werbung.",
         "DWN": "Laden Sie die kostenlose Vitamin- und Nährstoffverfolgungs-App aus dem Apple AppStore herunter",
         "ABOUT_1": "Kontrolle Ihrer Aufnahme wichtiger Vitamine und Mineralien jeden Tag",
@@ -364,6 +389,9 @@
         "ALT5_5": "Bequeme Benachrichtigung über die Einnahme von Vitaminen. Die Erinnerung erfolgt nach Stunde und Wochentag.",
         "ALT5_6": "Synchronisierung mit der Apple Health-Anwendung – die beste Basis aller Vitamine und Mikroelemente.",
         "ALT6": "Das iPhone zeigt Vitamin-K-reiche Lebensmittel in der Vitamin-App von Martspec an.",
+        "ALT_7": "Person, die Hanteln für die Knochengesundheit hebt, umgeben von Vitamin-, Apfel- und Schutzschild-Symbolen, mit einem Skelett auf der Kleidung.",
+        "HEAD_7": "Knochengesundheit: Ihr Skelett erreicht seinen Höhepunkt mit 30 Jahren.",
+        "TEXT_3": "Starke Knochen sind die Grundlage für ein aktives und energiegeladenes Leben. Sie ermöglichen bessere Mobilität, größere Kraft und längere Unabhängigkeit. Wenn Ihre Knochen dichter sind als der Durchschnitt, sagt dieser eine Indikator voraus, dass Sie länger leben, sich besser bewegen und länger unabhängig bleiben.",
         "HEAD6": "Vitamin - Eine Anwendung zur Kontrolle des Gleichgewichts der erforderlichen Vitamine und Mineralien.",
         "DESC6": "Installieren Sie die App für iOS kostenlos und genießen Sie Gesundheit und Vitalität.",
         "BTN_OPEN": "Überprüfen",
@@ -1168,6 +1196,12 @@
         },
         "RED_LIGHT_THERAPY": {
             "NAME": "Rotlichttherapie"
+        },
+        "BANNER_RED_LIGHT_THERAPY": {
+            "HEAD": "Was kann die Rotlichttherapie wirklich bewirken?",
+            "TEXT": "Entdecken Sie, wie rotes und Nahinfrarotlicht Ihre Zellen beeinflussen, erkunden Sie potenzielle gesundheitliche Vorteile sowie Risiken und lernen Sie, wie Sie die Lichttherapie sicher und effektiv anwenden.",
+            "BTN": "Mehr erfahren",
+            "ALT": "Eine Frau meditiert neben einem Rotlichttherapie-Panel, umgeben von Pflanzen"
         }
     },
     "WAIST": {
@@ -1191,8 +1225,6 @@
         },
         "HEAD1": "Warum Talia?",
         "DESC1": "Das Gewicht ändert sich möglicherweise nicht, wenn die Muskelmasse zunimmt und das Fett abnimmt, daher ist die Körperform ein besseres Abbild der Gesundheit. Mit der Waist-App können Sie diese Parameter verfolgen",
-        "LINK1": "National Institutes of Health, USA",
-        "HEAD2": "Wichtiger als der Body-Mass-Index",
         "LINK2": "Forschung der American Heart Association",
         "DESC2": " haben gezeigt, dass der Taillenumfang ein besserer Prädiktor für das Risiko von Herzerkrankungen ist als der BMI",
         "HEAD3": "Medizinische Fakten",
@@ -1209,10 +1241,8 @@
             "LI2_TEXT": "Für diese App ist kein Konto erforderlich",
             "LI3_HEAD": "Werbefrei",
             "LI3_TEXT": "Wir haben keine lästige Werbung",
-            "LI4_HEAD": "Apple Health",
-            "LI4_TEXT": "Integration von Lese- und Schreibdaten"
+            "LI4_HEAD": "Apple Health"
         },
-        "HEAD5": "Taille – Ihr persönliches Tagebuch und Helfer für eine gesunde Figur",
         "DESC5": "Laden Sie die Anwendung jetzt herunter und beginnen Sie mit der Überwachung der Veränderungen Ihres Taillenumfangs in einem praktischen Format",
         "ALT1": "Apple Watch-Bildschirme zeigen Ihren Taillenumfang in Echtzeit und den ganzen Tag über in der Taillen-App von Martspec",
         "ALT2": "Apple Watch-Bildschirme zeigen den aktuellen Taillenumfang und Statistiken in der Waist-App von Martspec",
@@ -1230,8 +1260,7 @@
             "LI2_TEXT": "Wenn der Körper das Insulin nicht effektiv nutzt, muss die Bauchspeicheldrüse härter arbeiten, um den Zuckerspiegel zu kontrollieren, was zu Prädiabetes und Diabetes Typ 2 führen kann.",
             "LI3_HEAD": "Bekämpfung von viszeralem Fett",
             "LI3_TEXT": "Die Verringerung des viszeralen Fettes ist entscheidend für die Verbesserung Ihrer Gesundheit. Die Bekämpfung dieses Fettes kann dazu beitragen, den Kreislauf zu durchbrechen und Ihr Risiko für schwere Krankheiten zu verringern"
-        },
-        "BTN_OPEN": "Verringern"
+        }
     },
     "ZINC": {
         "HEAD": "Zink",
@@ -1278,7 +1307,6 @@
         "ALT3_3": "Wir kümmern uns um unsere Benutzer, daher verwenden wir in der Anwendung keine aufdringliche Werbung.",
         "ALT3_4": "Synchronisation mit dem Apple Health Programm – die beste Basis aller Vitamine und Mikroelemente.",
         "BTN_MORE": "Mehr erfahren",
-        "BTN_OPEN": "Unterstützung",
         "HEAD6": "Überprüfen Sie Ihren Zinkspiegel zu Hause",
         "DESC6": "Sie können Ihren Zinkgehalt auch ohne Labor beurteilen. Ein Schnelltest mit Zinksulfat lässt sich zu Hause in einer Minute durchführen – geben Sie einfach eine kleine Menge flüssiges Zinksulfat in den Mund und bewerten Sie den Geschmack.",
         "HEAD7": "Was der Test zeigt:",
@@ -1467,22 +1495,8 @@
             "LI4_HEAD": "Detaillierte Diagnose",
             "DESC4": "Zeigt die Ursachen des aktuellen Zustands nach Kategorien, die tatsächliche Situation und Erwartungen"
         },
-        "HEAD2": "Biorhythmen",
-        "DESK2": "Kennen Sie Ihre Biorhythmus-Höhepunkte und kritischen Tage. Nutzen Sie Ihre internen Ressourcen so effizient wie möglich. Erkennen Sie, wann Energieeinsparung und Ruhe am dringendsten benötigt werden. Eine ordnungsgemäße Bewertung Ihrer Fähigkeiten kann zu einer effizienten Nutzung von Energie führen und mögliche Probleme verhindern.",
-        "BTN_BIORHYTHM": "Erfahren Sie mehr",
-        "ALT2": "Bild für den psychologischen Test, der Ihnen hilft, die Dynamik Ihrer Biorhythmen zu verfolgen",
-        "LIST2": {
-            "LI1_HEAD": "Physisch",
-            "LI1_TEXT": "Der physische Biorhythmus ist mit den körperlichen Zyklen und Energieleveln des Körpers verbunden. Er beeinflusst Ausdauer, Geschwindigkeit, Reaktionszeit und Muskelkraft.",
-            "LI2_HEAD": "Emotional",
-            "LI2_TEXT": "Der emotionale Biorhythmus spiegelt die mentale Stabilität, Sensibilität, Stimmungsschwankungen, kreatives Potenzial und das allgemeine Wohlbefinden wider.",
-            "LI3_HEAD": "Intellektuell",
-            "LI3_TEXT": "Der intellektuelle Biorhythmus beeinflusst geistige Prozesse, einschließlich Schärfe des Verstandes, Problemlösung, Lernfähigkeit, Merkfähigkeit, analytisches Denken, Logik und Entscheidungsfindung."
-        },
-        "HEAD3": "Wie es funktioniert",
         "DESK3_1": "Wählen Sie die Farbe aus, die Sie zuerst aus dem farbigen Ring angezogen hat. Wählen Sie dann die angenehmste der verbleibenden Farben aus. Wiederholen Sie dies, bis alle Farben ausgewählt sind.",
         "DESK3_2": "Tiefgreifende Tests zeigen:",
-        "ALT3": "Ein Bild eines Persönlichkeitstests, der Farben verwendet, um Ihren psychischen Zustand zu verfolgen, Ihre Wünsche zu verstehen und Stressquellen zu finden",
         "LIST3": {
             "LI1_TEXT": "Was Sie wirklich gerade wünschen",
             "LI2_TEXT": "Aktuelles Problem",
@@ -1490,7 +1504,6 @@
             "LI4_TEXT": "Stressquellen",
             "LI5_TEXT": "Was fühlen Sie im Moment"
         },
-        "HEAD4": "Warum es funktioniert",
         "DESK4_1": "Farben haben die Menschheit schon immer beeinflusst, von den unkontrollierbaren Faktoren von Tag und Nacht bis zu den unbewussten Bedeutungen, die in unserer Psyche verankert sind. Farben und ihr unbewusster Einfluss sind da, ob wir es mögen oder nicht. Dieser Einfluss ist unabhängig von Rasse, Sprache, Bildungsniveau oder sozialem Status vorhanden.",
         "DESK4_2": "Emotion ist geeignet für:",
         "ALT4": "Bild für eine Anwendung, die für Menschen nützlich ist, die sich selbst kennenlernen und ihren inneren Zustand kontrollieren möchten, indem sie die psychologische Analyse von Farbvorlieben verwenden",
@@ -1531,8 +1544,7 @@
             "LI5_HEAD": "Energie",
             "LI5_TEXT": "Menge an Kraftstoff in Reserve zur Erreichung von Zielen und Aufgaben",
             "LI6_HEAD": "Offenheit",
-            "LI6_TEXT": "Fähigkeit, neue Ideen und Erfahrungen zu begrüßen",
-            "BTN": "Erfahren Sie mehr"
+            "LI6_TEXT": "Fähigkeit, neue Ideen und Erfahrungen zu begrüßen"
         },
         "BANNER_5_HABITS": {
             "HEAD": "Was bestimmt Ihre Produktivität?",
@@ -1559,8 +1571,6 @@
         },
         "HEAD8": "Die Emotion-App ist für jedes Apple-Gerät verfügbar",
         "DESK8": "Beginnen Sie noch heute mit der Verfolgung Ihrer Stimmungsschwankungen, indem Sie die App jetzt herunterladen",
-        "ALT8": "Screenshots einer Anwendung, mit der Sie Ihren psychischen Zustand regelmäßig, bequem und auf jedem Gerät verfolgen können",
-        "BTN_OPEN": "Aufdecken",
         "HEAD9": "Ich heute",
         "DESC9_1": "Was haben Sie heute gemacht? Haben Sie auf Süßigkeiten verzichtet, Sport getrieben oder vielleicht gesund gegessen? Hatten Sie Stress oder fühlten Sie sich im Gegenteil wie der glücklichste Mensch?",
         "DESC9_2": "Unsere neue Funktion - 'Ich heute' gibt Ihnen die Möglichkeit, Ihren Zustand jeden Tag zu bewerten. Und wenn Sie den gewünschten Indikator nicht gefunden haben, können Sie Ihren eigenen erstellen"
@@ -1704,8 +1714,6 @@
             "LI2_1_TEXT": "Wir speichern Ihre Daten nicht auf unseren Servern",
             "LI2_2_TITLE": "Keine Anmeldung",
             "LI2_2_TEXT": "Für diese App ist kein Konto erforderlich",
-            "LI2_3_TITLE": "Keine Werbung",
-            "LI2_3_TEXT": "Wir zeigen keine störende Werbung",
             "LI2_4_TITLE": "Synchronisierung mit Apple",
             "LI2_4_TEXT": "Synchronisiert mit Apple Health"
         },
@@ -1852,7 +1860,6 @@
         "R": "Alle Rechte vorbehalten.",
         "P": "Datenschutzrichtlinie.",
         "APPLE_BTN": {
-            "TITLE": "Alle martspec-Anwendungen finden Sie in unserem Apple AppStore",
             "ALT": "Sehen Sie sich alle unsere Apps im Martpsec AppStore bei Apple an"
         },
         "LINKEDIN_BTN": {
@@ -1878,8 +1885,7 @@
         "TEXT_1": "Wir arbeiten hart daran, Ihnen die bestaussehende Webseite zu bieten.",
         "TEXT_2": "Wir danken Ihnen für Ihre Geduld.",
         "BTN": "Startseite",
-        "CTA": "Folgen Sie uns",
-        "SOON_BTN": "In Entwicklung"
+        "CTA": "Folgen Sie uns"
     },
     "ABOUT": {
         "HEAD": "Unsere Geschichte",
@@ -1956,7 +1962,6 @@
         "HEAD1": "Über unser Team",
         "TEXT1_1": "Wir entwickeln innovative Anwendungen, die Menschen helfen, sich ganzheitlich um ihre Gesundheit zu kümmern: Training, Ernährung, psychischer Zustand und andere Gesundheitsaspekte.",
         "TEXT1_2": "Unsere Praktikanten arbeiten an realen Projekten und Aufgaben und sammeln dabei unschätzbare Erfahrungen für einen erfolgreichen Karrierestart. Die Ergebnisse sprechen für sich: 5 unserer Absolventen wurden QA-Spezialisten, 3 talentierte Designer, 1 erfolgreicher Marketingspezialist, 2 Entwickler begannen ihre Karriere in der Softwareentwicklung, und ein weiterer Praktikant arbeitet erfolgreich in den Niederlanden!",
-        "BUTTON1": "Mehr Details",
         "HEAD2": "Warum Martspec?",
         "LIST2": {
             "LI1_HEAD": "Heimarbeit",
@@ -1984,404 +1989,75 @@
             "LI7_TEXT": "Von überall auf der Welt"
         },
         "BUTTON3": "Erfahren Sie mehr",
-        "ALT1": "Eine Gruppe junger und vielversprechender Spezialisten aus Martspec",
         "HEAD4": "Ihre Sicherheit ist wichtig",
         "DESC1": "Wir fragen niemals nach Bezahlung, persönlichen Daten oder Dokumenten. Erfahren Sie, wie wir Bewerber schützen und wie Sie Betrüger bei der Jobsuche erkennen.",
         "BUTTON4": "Mehr über sichere Einstellung erfahren",
         "ALT2": "Sichere Einstellung"
     },
     "PP": {
-        "HEAD": "Datenschutz",
-        "DATE": "Zuletzt aktualisiert: 20. August 2022",
-        "P1": "Der Schutz Ihrer personenbezogenen Daten ist unsere Priorität. Die Datenschutzrichtlinie beschreibt unsere Richtlinien und Verfahren in Bezug auf die Erfassung, Verwendung und Offenlegung Ihrer Daten, insbesondere wenn Sie eine unserer mobilen Anwendungen verwenden, unsere Website unter martspec.com besuchen oder Interaktion mit uns auf andere relevante Weise, einschließlich Verkauf, Marketing oder Veranstaltungen.",
-        "P2": "Der Zweck dieser Datenschutzerklärung besteht darin, Ihnen so klar wie möglich zu erklären, welche Informationen wir sammeln, wie wir sie verwenden und welche Rechte Sie diesbezüglich haben Wenn Sie nicht einverstanden sind, hören Sie bitte sofort auf, unsere Dienste zu nutzen.",
-        "P3": "Wir verwenden Ihre personenbezogenen Daten, um den Service bereitzustellen und zu verbessern. Durch die Nutzung des Service oder einer unserer mobilen Anwendungen stimmen Sie der Erfassung und Nutzung von Informationen gemäß der aktuellen Datenschutzrichtlinie zu.",
-        "DEFINITION": {
-            "HEAD": "Interpretation und Definitionen",
-            "P1": "Wörter, in denen der Anfangsbuchstabe großgeschrieben wird, haben die folgenden Definitionen. Die folgenden Definitionen haben dieselbe Bedeutung, egal ob sie im Singular oder Plural stehen.",
-            "P2": "Für die Zwecke der aktuellen Datenschutzrichtlinie:",
-            "UL": {
-                "ACCOUNT": {
-                    "STRONG": "Konto",
-                    "P1": " bedeutet ein einzigartiges Konto, das für Sie erstellt wurde, um auf unseren Dienst oder Teile davon zuzugreifen."
-                },
-                "APP": {
-                    "STRONG": "Bewerbung",
-                    "P1": " bezieht sich auf eine unserer mobilen Anwendungen, die auf diese Richtlinie verweist oder verweist und für Smartphones, Wearables, Tablets oder Computer bestimmt ist."
-                },
-                "BUSINESS": {
-                    "STRONG": "Geschäftlich",
-                    "P1": " für die Zwecke des \"CCPA\" (Kalifornisches Verbraucherschutzgesetz) bezieht sich auf das Unternehmen als die Einheit, die die personenbezogenen Daten der Verbraucher sammelt und die Zwecke und Mittel der Verarbeitung der personenbezogenen Daten der Verbraucher festlegt, oder auf deren Grundlage dass diese Informationen gesammelt werden, und dass allein oder gemeinsam mit anderen die Zwecke und Mittel der Verarbeitung der personenbezogenen Daten von Verbrauchern bestimmt, die im US-Bundesstaat Kalifornien geschäftlich tätig sind."
-                },
-                "COMPANY": {
-                    "STRONG": "Unternehmen",
-                    "P1": " (im Folgenden in dieser Vereinbarung als das \"Unternehmen\", \"wir\", \"uns\" oder \"unser\" bezeichnet) bezieht sich auf Martspec LLC, Austin, TX 78749."
-                },
-                "CONSUMER": {
-                    "STRONG": "Verbraucher",
-                    "P1": " bezeichnet für die Zwecke des \"CCPA\" (California Consumer Privacy Act) eine Person, die in Kalifornien ansässig ist. Ein Einwohner im Sinne des Gesetzes ist (1) jede Person, die sich im Vereinigten Staaten nicht vorübergehend oder zu vorübergehenden Zwecken, und (2) jede in den USA ansässige Person, die sich zu einem vorübergehenden oder vorübergehenden Zweck außerhalb der USA aufhält."
-                },
-                "COOKIES": {
-                    "STRONG": "\"Cookies\"",
-                    "P1": " (dies sind kleine Dateien, die von einer Website auf Ihrem Computer, Mobilgerät oder einem anderen Gerät abgelegt werden und unter anderem Informationen über Ihren Browserverlauf auf dieser Website enthalten."
-                },
-                "COUNTRY": {
-                    "STRONG": "Land",
-                    "P1": " gilt für: Texas, USA"
-                },
-                "DEVICE": {
-                    "STRONG": "Gerät",
-                    "P1": " bedeutet jedes Gerät, das auf den Dienst zugreifen kann, wie z. B. ein Computer, ein Mobiltelefon oder ein digitales Tablet."
-                },
-                "PERSONAL_DATA": {
-                    "STRONG": "Persönliche Daten",
-                    "P1": " alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.",
-                    "P2": " Für die Zwecke des \"CCPA\" sind personenbezogene Daten alle Informationen, die Sie identifizieren, sich auf Sie beziehen, beschreiben oder mit Ihnen in Verbindung stehen können oder vernünftigerweise direkt oder indirekt mit Ihnen verknüpft werden können."
-                },
-                "SALE": {
-                    "STRONG": "Ausverkauf",
-                    "P1": " für die Zwecke des \"CCPA\" (California Consumer Privacy Act) bezeichnet den Verkauf, die Vermietung, die Freigabe, die Offenlegung, den Vertrieb, die Bereitstellung, die Übertragung oder andere Kommunikation, ob mündlich, schriftlich, elektronisch oder auf andere Weise, der personenbezogenen Daten eines Verbrauchers an eine andere Person, ein Unternehmen oder einen Dritten gegen eine finanzielle oder andere geldwerte Gegenleistung."
-                },
-                "SERVICE": {
-                    "STRONG": "Dienst",
-                    "P1": " bezieht sich auf unsere Website, App und andere damit verbundene Dienste, einschließlich Verkäufe, Marketing oder Veranstaltungen."
-                },
-                "SERVICE_PROVIDER": {
-                    "STRONG": "Dienstanbieter",
-                    "P1": " bezeichnet jede natürliche oder juristische Person, die Daten im Namen des Unternehmens verarbeitet. Dies bezieht sich auf Drittunternehmen oder Einzelpersonen, die vom Unternehmen beschäftigt werden, um den Service zu erleichtern, den Service im Namen des Unternehmens bereitzustellen und Dienstleistungen zu erbringen im Zusammenhang mit dem Dienst oder um dem Unternehmen bei der Analyse der Nutzung des Dienstes zu helfen."
-                },
-                "THIRD_PARTY_MEDIA": {
-                    "STRONG": "Social Media-Dienst von Drittanbietern",
-                    "P1": " bezieht sich auf jede Website oder Website eines sozialen Netzwerks, über die sich der Benutzer anmelden oder ein Konto erstellen kann, um den Service zu nutzen."
-                },
-                "USAGE_DATA": {
-                    "STRONG": "Nutzungsdaten",
-                    "P1": " bezieht sich auf automatisch gesammelte Daten, die entweder bei der Nutzung des Dienstes oder von der Infrastruktur des Dienstes selbst generiert werden (z. B. die Dauer eines Seitenbesuchs)."
-                },
-                "WEBSITE": {
-                    "STRONG": "Website",
-                    "P1": " bezieht sich auf die Martspec, die von verfügbar ist ",
-                    "A": "https://martspec.com/"
-                },
-                "YOU": {
-                    "STRONG": "Du",
-                    "P1": " bedeutet die Person, die auf den Dienst zugreift oder ihn nutzt, oder das Unternehmen oder eine andere juristische Person, in deren Namen diese Person auf den Dienst zugreift oder ihn nutzt, je nach Fall."
-                }
-            }
-        },
-        "TYPES_OF_DATA": {
-            "HEAD4": "Arten der erhobenen Daten",
-            "HEAD5": {
-                "PERSONAL_DATA": "Persönliche Daten",
-                "USAGE_DATA": "Nutzungsdaten",
-                "INFORMATION_COLLECTED": "Mit unserer Anwendung auf Ihrem Gerät erfasste Informationen"
-            },
-            "P1": "Bei der Nutzung unseres Dienstes können wir Sie bitten, uns bestimmte personenbezogene Daten zur Verfügung zu stellen, die verwendet werden können, um Sie zu kontaktieren oder zu identifizieren. Zu den personenbezogenen Daten können unter anderem gehören:",
-            "P2": "Nutzungsdaten werden automatisch erhoben, wenn Sie den Service nutzen.",
-            "P3": "Nutzungsdaten können Informationen wie die Internetprotokolladresse Ihres Geräts (z. B. IP-Adresse), den Browsertyp, die Browserversion, die von Ihnen besuchten Seiten unseres Dienstes, die Uhrzeit und das Datum Ihrer Besuche sowie die dafür verbrachte Zeit enthalten Seiten, eindeutige Gerätekennungen und andere Diagnosedaten.",
-            "P4": "Wenn Sie von oder über ein mobiles Gerät auf den Dienst zugreifen, erfassen wir möglicherweise automatisch bestimmte Informationen, einschließlich, aber nicht beschränkt auf den Typ des von Ihnen verwendeten mobilen Geräts, die eindeutige Kennung Ihres mobilen Geräts, die IP Ihres mobilen Geräts Adresse, Ihr mobiles Betriebssystem, Typ des von Ihnen verwendeten mobilen Internetbrowsers, eindeutige Gerätekennungen und andere Diagnosedaten.",
-            "P5": "Wir können auch Informationen sammeln, die Ihr Browser sendet, wenn Sie unseren Service besuchen oder wenn Sie von oder über ein mobiles Gerät auf den Service zugreifen.",
-            "P6": "Wir können Zugriff oder Berechtigungen für bestimmte Funktionen Ihres Geräts anfordern, einschließlich der Funktionen Ihres Mobilgeräts und anderer Funktionen. Wenn Sie unseren Zugriff oder unsere Berechtigungen ändern möchten, können Sie dies in Ihren Geräteeinstellungen tun. Diese Informationen sind in erster Linie für die Sicherheit und den Betrieb unserer App, für die Fehlerbehebung und für unsere internen Analysen und Berichte erforderlich.",
-            "UL1": {
-                "EMAIL": "E-Mail-Adresse",
-                "FIRST_LAST_NAMES": "Vor- und Nachname",
-                "USAGE_DATA": "Nutzungsdaten"
-            },
-            "UL2": {
-                "MOBILE_ACCESS": {
-                    "STRONG": "Mobilgerätezugriff. ",
-                    "TEXT": "Wir können Zugriff auf oder Berechtigungen für bestimmte Funktionen Ihres Mobilgeräts anfordern, einschließlich die Health App und anderer Funktionen Ihres Mobilgeräts. Wenn Sie unseren Zugriff oder unsere Berechtigungen ändern möchten, können Sie dies in Ihren Geräteeinstellungen tun."
-                },
-                "MOBILE_DATA": {
-                    "STRONG": "Mobilgerätedaten.",
-                    "TEXT": "Wir erfassen automatisch Geräteinformationen (wie Ihre Mobilgerät-ID, Modell und Hersteller), Betriebssystem, Versionsinformationen und Systemkonfigurationsinformationen, Geräte- und Anwendungsidentifikationsnummern, Browsertyp und -version, Hardwaremodell und Internetprotokoll ( IP)-Adresse (oder Proxy-Server) Wenn Sie unsere Anwendung verwenden, können wir auch Informationen über das mit Ihrem Mobilgerät verbundene Telefonnetz, das Betriebssystem oder die Plattform Ihres Mobilgeräts, den Typ des von Ihnen verwendeten Mobilgeräts und die eindeutige ID erfassen Ihr mobiles Gerät und Informationen über die Funktionen unserer Anwendung, auf die Sie zugegriffen haben."
-                },
-                "PUSH_NOTIFICATIONS": {
-                    "STRONG": "Popup-Benachrichtigung.",
-                    "TEXT": "Wir können verlangen, dass wir Ihnen Push-Benachrichtigungen über Ihr Konto oder bestimmte Funktionen der App senden. Wenn Sie den Erhalt solcher Mitteilungen ablehnen möchten, können Sie sie in Ihren Geräteeinstellungen deaktivieren."
-                }
-            }
-        },
-        "TRACKING": {
-            "HEAD4": "Tracking-Technologien",
-            "HEAD5": "Verwaltung der Funktionen \"DO-NOT-TRACK\"",
-            "P1": {
-                "TEXT": "Wir verwenden Cookies oder ähnliche Tracking-Technologien, um Aktivitäten auf unserem Service zu verfolgen und bestimmte Informationen zu speichern. Tracking-Technologien können unter anderem Beacons, Speicherung von Browsersitzungen, Cookies, Tags und Skripte zum Sammeln und Verfolgen umfassen Informationen zu erhalten und unseren Service zu verbessern und zu analysieren.\nSie können Ihren Browser so einstellen, dass er alle Cookies ablehnt oder anzeigt, wenn ein Cookie gesendet wird.\nMehr über Cookies: ",
-                "A": "Alles über \"Cookies\""
-            },
-            "P2": "Wir verwenden \"Persistent\" (bleibt auf Ihrem PC oder Mobilgerät, wenn Sie sich abmelden) und \"Session\" (gelöscht, sobald Sie Ihren Webbrowser schließen)\nTracking-Technologie für die Zwecke von unter:",
-            "P3": "Die meisten Webbrowser und einige mobile Betriebssysteme und mobile Anwendungen enthalten eine \"Do Not Track\"-Funktion (\"DNT\") oder eine Einstellung, die Sie aktivieren können, um Ihre Datenschutzpräferenzen zu signalisieren, dass keine Daten über Ihre Online-Aktivitäten verfolgt und gesammelt werden. Derzeit gibt es keinen einzigen technologischen Standard für die Erkennung und Implementierung von DNT-Signalen. Daher reagieren wir derzeit nicht auf Browser-DNT-Signale oder andere Mechanismen, die Sie automatisch über Ihre Entscheidung informieren, nicht im Internet verfolgt zu werden Online-Tracking-Standard, den wir in Zukunft befolgen müssen, werden wir Sie in einer überarbeiteten Version dieser Datenschutzerklärung über diese Praxis informieren.",
-            "UL": {
-                "NECESSARY": {
-                    "P1": "Erforderlich/wesentlich",
-                    "P2": "Typ: Sitzung",
-                    "P3": "Betrieben von: Uns",
-                    "P4": "Zweck: Um Ihnen die über die Website verfügbaren Dienste bereitzustellen und Ihnen die Nutzung einiger ihrer Funktionen zu ermöglichen. Dies hilft, Benutzer zu authentifizieren\nund betrügerische Verwendung von Benutzerkonten zu verhindern. Ohne sie können die von Ihnen angeforderten Dienste nicht ausgeführt werden bereitgestellt und wir verwenden sie nur, um Ihnen diese Dienste bereitzustellen."
-                },
-                "FUNCTIONALITY": {
-                    "P1": "Funktionalität",
-                    "P2": "Typ: Permanent",
-                    "P3": "Betrieben von: Uns",
-                    "P4": "Zweck: Ermöglicht es uns, uns an die Entscheidungen zu erinnern, die Sie während der Nutzung der Website getroffen haben, z. B. an Ihre Registrierungsdaten oder Spracheinstellungen -Geben Sie bei jeder Nutzung der Website Ihre Präferenzen ein."
-                }
-            }
-        },
-        "PERSONAL_DATA": {
-            "USE": {
-                "HEAD4": "Verwendung Ihrer personenbezogenen Daten",
-                "HEAD5": {
-                    "DISCLOSE": "Die Offenlegung Ihrer personenbezogenen Daten kann in den folgenden Situationen erfolgen:",
-                    "USE": "Ihre personenbezogenen Daten können für folgende Zwecke verwendet werden:",
-                    "SHARING": "Ihre personenbezogenen Daten können in den folgenden Situationen weitergegeben werden:"
-                },
-                "UL1": {
-                    "LAW_ENFORCEMENT": {
-                        "STRONG": "Strafverfolgung:",
-                        "TEXT": " Wir können Ihre Daten offenlegen, wenn dies gesetzlich vorgeschrieben ist, um geltendem Recht, behördlichen Anfragen, Gerichtsverfahren, Gerichtsbeschlüssen oder Gerichtsverfahren nachzukommen, wie beispielsweise als Reaktion auf einen Gerichtsbeschluss oder eine Vorladung (einschließlich einer Reaktion an Behörden). Anforderungen der nationalen Sicherheit oder der Strafverfolgung erfüllen)."
-                    },
-                    "BUSINESS_TRANSFER": {
-                        "STRONG": "Geschäftsübertragung:",
-                        "TEXT": " Wir können Ihre Informationen im Zusammenhang mit oder während Verhandlungen über eine Fusion, den Verkauf von Unternehmensvermögen, die Finanzierung oder den Erwerb unseres gesamten oder eines Teils unseres Geschäfts an ein anderes Unternehmen weitergeben oder übertragen."
-                    },
-                    "OTHER": {
-                        "STRONG": "Andere rechtliche Anforderungen:",
-                        "TEXT": " Das Unternehmen kann Ihre personenbezogenen Daten in gutem Glauben offenlegen, dass eine solche Maßnahme erforderlich ist, um:",
-                        "UL": {
-                            "L1": "Einer rechtlichen Verpflichtung nachkommen",
-                            "L2": "Um die Rechte oder das Eigentum des Unternehmens zu schützen und zu schützen",
-                            "L3": "Um mögliche Straftaten im Zusammenhang mit dem Dienst zu verhindern oder zu untersuchen",
-                            "L4": "Schutz der persönlichen Sicherheit von Dienstnutzern oder der Öffentlichkeit",
-                            "L5": "Schutz vor gesetzlicher Haftung"
-                        }
-                    }
-                },
-                "UL2": {
-                    "L1": {
-                        "STRONG": "Um unseren Service bereitzustellen und aufrechtzuerhalten",
-                        "TEXT": ", einschließlich zur Überwachung der Nutzung unseres Dienstes."
-                    },
-                    "L2": {
-                        "STRONG": "Um Ihr Konto zu verwalten:",
-                        "TEXT": " Um Ihre Registrierung als Benutzer des Dienstes zu verwalten. Die von Ihnen angegebenen personenbezogenen Daten können Ihnen Zugriff auf verschiedene Funktionen des Dienstes geben, die Ihnen als registrierter Benutzer zur Verfügung stehen."
-                    },
-                    "L3": {
-                        "STRONG": "Zur Vertragsausführung:",
-                        "TEXT": " Wenn wir mit Ihnen einen Vertrag abgeschlossen haben, können wir Ihre personenbezogenen Daten verarbeiten, um die Bedingungen unseres Vertrags zu erfüllen."
-                    },
-                    "L4": {
-                        "STRONG": "Um Sie zu kontaktieren:",
-                        "TEXT": " Um mit Ihnen über E-Mail, Telefonanrufe, SMS oder andere gleichwertige Formen der elektronischen Kommunikation zu kommunizieren, wie z sinnvoll für ihre Umsetzung."
-                    },
-                    "L5": {
-                        "STRONG": "Um Sie zu versorgen:",
-                        "TEXT": " Neuigkeiten, Sonderangebote und allgemeine Informationen über andere Waren, Dienstleistungen und Veranstaltungen, die wir anbieten und denen ähneln, die Sie bereits gekauft oder nach denen Sie sich erkundigt haben, es sei denn, Sie haben sich entschieden, solche Informationen nicht zu erhalten."
-                    },
-                    "L6": {
-                        "STRONG": "Für legitime Interessen:",
-                        "TEXT": " Wir können Ihre Daten verarbeiten, wenn dies vernünftigerweise erforderlich ist, um unsere legitimen Geschäftsinteressen zu erfüllen."
-                    },
-                    "L7": {
-                        "STRONG": "Um Ihre Anfragen zu verwalten:",
-                        "TEXT": " Um Ihre Anfragen an uns zu bearbeiten und zu verwalten."
-                    },
-                    "L8": {
-                        "STRONG": "Feedback anfordern:",
-                        "TEXT": " Wir können Ihre Informationen verwenden, um Feedback anzufordern und Sie bezüglich Ihrer Nutzung unserer Dienste zu kontaktieren."
-                    }
-                },
-                "UL3": {
-                    "L1": {
-                        "STRONG": "Mit Dienstanbietern:",
-                        "TEXT": " Wir können Ihre personenbezogenen Daten an Dienstleister weitergeben, um die Nutzung unseres Dienstes zu überwachen und zu analysieren, um Sie zu kontaktieren."
-                    },
-                    "L2": {
-                        "STRONG": "Für Geschäftsübertragungen:",
-                        "TEXT": " Wir können Ihre personenbezogenen Daten im Zusammenhang mit oder während Verhandlungen über eine Fusion, den Verkauf von Unternehmensvermögen, die Finanzierung oder den Erwerb unseres gesamten oder eines Teils unseres Geschäfts an ein anderes Unternehmen weitergeben oder übertragen."
-                    },
-                    "L3": {
-                        "STRONG": "Mit Verzweigungen:",
-                        "TEXT": " Wir können Ihre Daten an unsere verbundenen Unternehmen weitergeben, in diesem Fall verlangen wir von diesen verbundenen Unternehmen, dass sie diese Datenschutzrichtlinie einhalten. Zu den verbundenen Unternehmen gehören unsere Muttergesellschaft und alle anderen Tochtergesellschaften, Joint-Venture-Partner oder andere Unternehmen, die wir kontrollieren oder die unter gemeinsamer Kontrolle mit uns stehen."
-                    },
-                    "L4": {
-                        "STRONG": "Mit Geschäftspartnern:",
-                        "TEXT": " Wir können Ihre Daten an unsere Geschäftspartner weitergeben, um Ihnen bestimmte Produkte, Dienstleistungen oder Werbeaktionen anzubieten."
-                    },
-                    "L5": {
-                        "STRONG": "Mit anderen Benutzern:",
-                        "TEXT": " Wenn Sie persönliche Informationen teilen oder anderweitig in öffentlichen Bereichen mit anderen Benutzern interagieren, können diese Informationen von allen Benutzern eingesehen und öffentlich geteilt werden. Wenn Sie mit anderen Benutzern interagieren oder sich über einen sozialen Netzwerkdienst eines Drittanbieters registrieren können Ihre Kontakte im sozialen Netzwerk des Drittanbieters Ihren Namen, Ihr Profil, Ihre Bilder und eine Beschreibung Ihrer Aktivitäten sehen. Auf die gleiche Weise können andere Benutzer Beschreibungen Ihrer Aktivitäten anzeigen, mit Ihnen kommunizieren und Ihr Profil anzeigen ."
-                    }
-                }
-            },
-            "RETENTION": {
-                "HEAD4": "Speicherung Ihrer personenbezogenen Daten",
-                "P1": "Das Unternehmen speichert Ihre personenbezogenen Daten nur so lange, wie dies für die in dieser Datenschutzrichtlinie dargelegten Zwecke erforderlich ist. Wir speichern und verwenden Ihre personenbezogenen Daten in dem Umfang, der zur Erfüllung unserer gesetzlichen Verpflichtungen erforderlich ist (z beispielsweise,\nwenn wir verpflichtet sind, Ihre Daten gemäß geltendem Recht aufzubewahren), Streitigkeiten beizulegen und unsere rechtlichen Vereinbarungen\nund Richtlinien durchzusetzen.",
-                "P2": "Das Unternehmen speichert Nutzungsdaten auch für interne Analysezwecke. Nutzungsdaten werden im Allgemeinen für einen kürzeren Zeitraum gespeichert,\naußer wenn die Daten zur Erhöhung der Sicherheit oder zur Verbesserung der Funktionalität unseres Dienstes verwendet werden oder wenn wir gesetzlich verpflichtet,\ndiese Daten länger aufzubewahren.",
-                "P3": "Sofern wir keine anhaltende berechtigte geschäftliche Notwendigkeit haben, Ihre personenbezogenen Daten zu verarbeiten, werden wir diese Daten entweder löschen oder anonymisieren\noder, wenn dies nicht möglich ist (z. B. weil Ihre personenbezogenen Daten in Backup-Archiven gespeichert wurden), \nWir werden Ihre personenbezogenen Daten sicher speichern und von der weiteren Verarbeitung isolieren, bis eine Löschung möglich ist."
-            },
-            "TRANSFER": {
-                "HEAD4": "Teilen Ihrer personenbezogenen Daten",
-                "P1": "Ihre Informationen, einschließlich personenbezogener Daten, werden in den Betriebsbüros des Unternehmens und an allen anderen Orten verarbeitet, an denen sich die an der Verarbeitung beteiligten Parteien befinden. Dies bedeutet, dass diese Informationen an Computer außerhalb von übertragen und dort gespeichert werden können Ihr Bundesstaat, Ihre Provinz, Ihr Land oder eine andere staatliche Gerichtsbarkeit, in der die Datenschutzgesetze von denen in Ihrer Gerichtsbarkeit abweichen können.",
-                "P2": "Durch die Nutzung unseres Dienstes stimmen Sie dieser Datenschutzrichtlinie zu und stimmen einer solchen Übertragung zu.",
-                "P3": "Das Unternehmen wird alle vernünftigerweise notwendigen Schritte unternehmen, um sicherzustellen, dass Ihre Daten in Übereinstimmung mit dieser Datenschutzrichtlinie sicher behandelt werden und dass keine Übertragung Ihrer personenbezogenen Daten an eine Organisation oder ein Land erfolgt, es sei denn, es sind angemessene Kontrollen vorhanden. einschließlich der Sicherheit Ihrer Daten und anderer persönlicher Informationen."
-            },
-            "SECURITY": {
-                "HEAD4": "Sicherheit Ihrer personenbezogenen Daten",
-                "P": "Die Sicherheit Ihrer personenbezogenen Daten ist uns wichtig, aber denken Sie daran, dass keine Übertragungsmethode über das Internet oder elektronische Speichermethode 100 % sicher ist. wir können ihre absolute Sicherheit nicht garantieren."
-            }
-        },
-        "CHILD": {
-            "HEAD4": "Kinder unter dreizehn",
-            "P": "Wir erfassen wissentlich keine personenbezogenen Daten von Kindern unter dreizehn Jahren. Wenn Sie unter dreizehn Jahre alt sind, müssen Sie \n Ihre Eltern oder Ihren Vormund um Erlaubnis bitten, diesen Dienst oder eine unserer mobilen Anwendungen zu nutzen ."
-        },
-        "RIGHTS": {
-            "HEAD4": "Welche Datenschutzrechte haben Sie?",
-            "HEAD5": "Kontoinformationen",
-            "P1": "In einigen Regionen (z. B. dem EWR und dem Vereinigten Königreich) haben Sie gemäß den geltenden Datenschutzgesetzen bestimmte Rechte. Dazu kann das Recht gehören, \nZugriff auf Ihre personenbezogenen Daten anzufordern und eine Kopie davon zu erhalten (ii ) Berichtigung oder Löschung verlangen, (iii) die Verarbeitung\n Ihrer personenbezogenen Daten einschränken und (iv) gegebenenfalls Datenübertragbarkeit. Unter bestimmten Umständen haben Sie möglicherweise auch das Recht, der Verarbeitung Ihrer personenbezogenen Daten zu widersprechen. Um eine solche Anfrage zu stellen, verwenden Sie bitte die unten stehenden <b>Kontaktdaten</b>. Wir\nwerden jede Anfrage prüfen und Maßnahmen in Übereinstimmung mit den geltenden Datenschutzgesetzen ergreifen.",
-            "P2": "Falls wir uns auf Ihre Einwilligung zur Verarbeitung Ihrer personenbezogenen Daten stützen, haben Sie das Recht, Ihre Einwilligung jederzeit zu widerrufen. Bitte beachten Sie jedoch, dass dies die Rechtmäßigkeit der Verarbeitung vor dem Widerruf nicht berührt es wirkt sich auf die Verarbeitung Ihrer \npersönlichen Daten aus, die aus anderen legitimen Gründen als der Einwilligung durchgeführt wird.",
-            "P3": {
-                "TEXT": "Wenn Sie im EWR oder im Vereinigten Königreich ansässig sind und glauben, dass wir Ihre personenbezogenen Daten rechtswidrig verarbeiten, haben Sie auch das Recht, eine Beschwerde bei Ihrer örtlichen Datenschutzbehörde einzureichen. Ihre Kontaktdaten finden Sie hier: ",
-                "A": "https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm"
-            },
-            "P4": {
-                "TEXT": "Wenn Sie ansässig sind, sind die Kontaktdaten der Datenschutzbehörden hier geschützt: ",
-                "A": "https://www.edoeb.admin.ch/edoeb/en/home.html"
-            },
-            "P5": "Wenn Sie Ihre Kontoinformationen überprüfen oder ändern oder Ihr Konto jederzeit kündigen möchten, haben Sie folgende Möglichkeiten:\nGehen Sie zu Ihren Kontoeinstellungen und aktualisieren Sie Ihr Benutzerkonto.\nAuf Ihren Wunsch hin, Ihr Konto zu löschen, werden wir Ihr Konto deaktivieren oder entfernen und Informationen aus unseren aktiven Datenbanken. Wir können jedoch einige Informationen in unseren Dateien aufbewahren, um Betrug zu verhindern, Probleme zu beheben, bei Ermittlungen zu helfen, unsere Nutzungsbedingungen durchzusetzen und/oder geltende gesetzliche Anforderungen zu erfüllen."
-        },
-        "CCPA": {
-            "HEAD4": {
-                "CCPA": "\"CCPA\" Vertraulichkeit",
-                "CALIFORNIA": "Ihre Datenschutzrechte in Kalifornien (kalifornisches Gesetz \"Shine the Light\")",
-                "MINOR": "Kalifornische Datenschutzrechte für Minderjährige (California Code of Business and Professions Section 22581)",
-                "EXERCISING": "Ausübung Ihrer Datenschutzrechte \"CCPA\"",
-                "YOUR_RIGHTS": "Ihre Rechte gemäß \"CCPA\"",
-                "PERSONAL_INFORMATION": "Erfassung und Weitergabe personenbezogener Daten gemäß \"CCPA\""
-            },
-            "HEAD5": {
-                "SHARED": "Werden Ihre Informationen mit anderen geteilt?",
-                "YOUR_RIGHTS": "Ihre Rechte in Bezug auf Ihre personenbezogenen Daten",
-                "OTHER": "Andere Datenschutzrechte"
-            },
-            "P1": "Vorbehaltlich Abschnitt 1798 des kalifornischen Zivilgesetzbuchs (California Shine the Light Act) können Einwohner Kaliforniens, die eine bestehende Geschäftsbeziehung mit uns haben, einmal im Jahr Informationen über die Übertragung ihrer personenbezogenen Daten an Dritte für die Zwecke des Direktmarketings durch Dritte.",
-            "P2": "Wenn Sie zusätzliche Informationen gemäß dem kalifornischen Shine the Light-Gesetz anfordern möchten und in Kalifornien ansässig sind, können Sie uns über die unten stehenden Kontaktdaten kontaktieren.",
-            "P3": "Wenn Sie unter 18 Jahre alt sind, Ihren Wohnsitz in Kalifornien haben und ein registriertes Konto beim Dienst haben, haben Sie das Recht, die Löschung anstößiger Inhalte zu verlangen, die Sie öffentlich in den Diensten posten. Die Löschung solcher Inhalte zu verlangen Inhalte kontaktieren Sie uns bitte unter den untenstehenden Informationen und geben Sie die mit Ihrem Konto verknüpfte E-Mail-Adresse und eine Erklärung an, dass Sie in Kalifornien leben. Wir werden sicherstellen, dass die Daten nicht öffentlich auf den Diensten angezeigt werden, aber bitte beachten Sie, dass die Daten nicht vollständig oder vollständig von allen unseren Systemen entfernt (z. B. aus Backups etc.).",
-            "P4": "Section 22581 des California Business and Professions Code gestattet kalifornischen Einwohnern unter 18 Jahren, die registrierte Benutzer von Online-Sites, -Diensten oder -Anwendungen sind, die Entfernung von Inhalten oder Informationen, die sie öffentlich zugänglich gemacht haben, zu verlangen und durchzusetzen. ",
-            "P5": "Um die Löschung solcher Daten anzufordern, und wenn Sie in Kalifornien ansässig sind, können Sie uns über die nachstehenden Kontaktinformationen kontaktieren und die mit Ihrem Konto verknüpfte E-Mail-Adresse angeben.",
-            "P6": "Bitte beachten Sie, dass Ihre Anfrage keine vollständige oder umfassende Entfernung von Inhalten oder Informationen garantiert, die im Internet veröffentlicht wurden, und dass das Gesetz die Entfernung unter bestimmten Umständen möglicherweise nicht erlaubt oder verlangt.",
-            "P7": {
-                "TEXT1": "Um eines Ihrer Rechte gemäß \"CCPA\" auszuüben, und wenn Sie in Kalifornien ansässig sind. Der kalifornische Verhaltenskodex definiert \"Einwohner\" als:",
-                "TEXT2": "Alle anderen Personen werden als \"Nichtansässige\" definiert.\nWenn diese Definition von \"Ansässigen\" auf Sie zutrifft, müssen wir bestimmte Rechte und Pflichten in Bezug auf Ihre personenbezogenen Daten einhalten.",
-                "UL": {
-                    "L1": "jede Person, die sich zu einem nicht vorübergehenden oder vorübergehenden Zweck im Bundesstaat Kalifornien aufhält, und",
-                    "L2": "jede Person mit Wohnsitz im Bundesstaat Kalifornien, die sich für einen vorübergehenden oder vorübergehenden Zweck außerhalb des Bundesstaates Kalifornien aufhält"
-                }
-            },
-            "P8": "Das Unternehmen wird die erforderlichen Informationen innerhalb von 45 Tagen nach Erhalt Ihrer überprüfbaren Anfrage kostenlos offenlegen und bereitstellen. Die Frist für die Bereitstellung der erforderlichen Informationen kann einmalig um weitere 45 Tage verlängert werden, wenn dies vernünftigerweise erforderlich ist und mit vorheriger Ankündigung .",
-            "P9": "Gemäß dieser Datenschutzrichtlinie und dem Gesetz haben Sie als Einwohner Kaliforniens die folgenden Rechte:",
-            "P10": "Wir verkaufen keine personenbezogenen Daten. Weitere Informationen zu unserer Datenerfassung und -weitergabe finden Sie in dieser Datenschutzerklärung.\nSie können uns über die Kontaktinformationen am Ende dieses Dokuments kontaktieren.",
-            "P11": "Wenn Sie zur Ausübung Ihres Widerrufsrechts einen Bevollmächtigten einsetzen, können wir den Antrag ablehnen, wenn der Bevollmächtigte\nnicht nachweist, dass er tatsächlich bevollmächtigt ist, in Ihrem Namen zu handeln.",
-            "P12": "Wir können Ihre personenbezogenen Daten gemäß einer schriftlichen Vereinbarung zwischen uns und jedem Dienstanbieter an unsere Dienstanbieter weitergeben. Jeder Dienstanbieter ist eine kommerzielle Einheit, die Informationen in unserem Auftrag verarbeitet.",
-            "P13": "Wir können Ihre personenbezogenen Daten für unsere eigenen Geschäftszwecke verwenden, wie z. B. die Durchführung interner Forschungsarbeiten zur Entwicklung und Demonstration von Technologien. Dies wird nicht als \"Verkauf\" Ihrer personenbezogenen Daten betrachtet.",
-            "P14": "\"Martspec\" LLC hat in den letzten 12 Monaten keine personenbezogenen Daten für geschäftliche oder kommerzielle Zwecke an Dritte weitergegeben oder verkauft. \"Martspec\" LLC wird keine personenbezogenen Daten von Besuchern der zukünftigen Website, Benutzern und anderen verkaufen Verbraucher.",
-            "P15": "Um diese Rechte auszuüben, können Sie uns über die Kontaktinformationen am Ende dieses Dokuments kontaktieren. Wenn Sie eine Beschwerde darüber haben, wie wir Ihre Daten verarbeiten, würden wir gerne von Ihnen hören.",
-            "UL1": {
-                "L1": {
-                    "STRONG": "Recht auf Bemerkung.",
-                    "TEXT": " Sie müssen ordnungsgemäß darüber informiert werden, welche Kategorien personenbezogener Daten erhoben und für welche Zwecke sie verwendet werden."
-                },
-                "L2": {
-                    "STRONG": "Recht auf Zugriff / Recht auf Anfrage.",
-                    "TEXT": " \"CCPA\" ermöglicht es Ihnen, vom Unternehmen Informationen über die Offenlegung Ihrer personenbezogenen Daten anzufordern und zu erhalten, die das Unternehmen oder seine Tochtergesellschaften in den letzten 12 Monaten an Dritte für das Direktmarketing von Dritten gesammelt haben Zwecke."
-                },
-                "L3": {
-                    "STRONG": "Recht, dem Verkauf personenbezogener Daten zu widersprechen.",
-                    "TEXT": " Sie haben auch das Recht, das Unternehmen aufzufordern, Ihre personenbezogenen Daten nicht an Dritte zu verkaufen. Sie können eine solche Anfrage stellen, indem Sie unseren Abschnitt \"Meine personenbezogenen Daten nicht verkaufen\" oder unsere Webseite besuchen."
-                },
-                "L4": {
-                    "STRONG": "Das Recht auf Auskunft über Ihre personenbezogenen Daten.",
-                    "TEXT": " Sie haben das Recht, vom Unternehmen Informationen über die Offenlegung des Folgenden anzufordern und zu erhalten:",
-                    "UL": {
-                        "L1": "Kategorien der erhobenen personenbezogenen Daten",
-                        "L2": "Quellen, aus denen die personenbezogenen Daten erhoben wurden",
-                        "L3": "Der geschäftliche oder kommerzielle Zweck der Erhebung oder des Verkaufs personenbezogener Daten",
-                        "L4": "Kategorien von Dritten, an die wir personenbezogene Daten weitergeben",
-                        "L5": "Bestimmte personenbezogene Daten, die wir über Sie gesammelt haben"
-                    }
-                },
-                "L5": {
-                    "STRONG": "Recht auf Löschung personenbezogener Daten.",
-                    "TEXT": " Sie haben auch das Recht, die Löschung Ihrer in den letzten 12 Monaten erhobenen personenbezogenen Daten zu verlangen."
-                },
-                "L6": {
-                    "STRONG": "Das Recht, nicht diskriminiert zu werden.",
-                    "TEXT": " Sie haben das Recht, nicht wegen der Ausübung Ihrer Verbraucherrechte diskriminiert zu werden, einschließlich:",
-                    "UL": {
-                        "L1": "Weigerung, Ihnen Waren oder Dienstleistungen bereitzustellen",
-                        "L2": "Berechnung unterschiedlicher Preise oder Tarife für Waren oder Dienstleistungen, einschließlich der Nutzung von Rabatten oder anderen Vorteilen oder der Verhängung von Strafen",
-                        "L3": "Bereitstellung von Waren oder Dienstleistungen eines anderen Niveaus oder einer anderen Qualität",
-                        "L4": "Angenommen, Sie erhalten einen anderen Preis oder Tarif für Waren oder Dienstleistungen oder ein anderes Niveau oder eine andere Qualität von Waren oder Dienstleistungen."
-                    }
-                }
-            },
-            "UL2": {
-                "L1": "Recht auf Löschung von Daten – Antrag auf Löschung",
-                "L2": "Recht auf Auskunft – Auskunftsersuchen",
-                "L3": "Das Recht auf Nichtdiskriminierung bei der Ausübung des Rechts des Verbrauchers auf Privatsphäre",
-                "L4": "Verifizierungsprozess"
-            },
-            "UL3": {
-                "L1": "Sie können der Verarbeitung Ihrer personenbezogenen Daten widersprechen",
-                "L2": "Sie können die Berichtigung Ihrer personenbezogenen Daten verlangen, wenn diese unrichtig oder nicht mehr relevant sind, oder die Einschränkung der Datenverarbeitung verlangen",
-                "L3": "Sie können einen bevollmächtigten Vertreter ernennen, um in Ihrem Namen einen Antrag gemäß \"CCPA\" zu stellen. Wir können einen Antrag eines bevollmächtigten Vertreters ablehnen, der nicht nachweist, dass er tatsächlich bevollmächtigt war, in Ihrem Namen gemäß zu handeln mit \"CCPA\".",
-                "L4": "Sie können ein Opt-out für den zukünftigen Verkauf Ihrer personenbezogenen Daten an Dritte beantragen. Nach Erhalt einer Opt-out-Anfrage werden wir der Anfrage so schnell wie möglich nachkommen, jedoch nicht später als 15 Tage ab dem Datum der Anfrage."
-            }
-        },
-        "LINK": {
-            "HEAD4": "Links zu anderen Websites",
-            "P1": "Unser Service kann Links zu anderen Websites enthalten, die wir nicht betreiben. Wenn Sie auf einen Link eines Drittanbieters klicken, werden Sie auf die Website dieses Drittanbieters weitergeleitet. Wir empfehlen Ihnen dringend, die Datenschutzrichtlinie des jeweiligen Drittanbieters zu lesen Website, die Sie besuchen.",
-            "P2": "Wir haben keine Kontrolle über und sind nicht verantwortlich für den Inhalt, die Datenschutzrichtlinien oder Praktiken von Websites oder Diensten Dritter."
-        },
-        "CHANGES": {
-            "HEAD4": "Änderungen an dieser Datenschutzrichtlinie",
-            "P1": "Wir können unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Eine aktualisierte Version wird mit einem aktualisierten \"Zuletzt aktualisiert\"-Datum gekennzeichnet und die aktualisierte Version tritt in Kraft, sobald sie verfügbar ist.",
-            "P2": "Sie werden ermutigt, diese Datenschutzrichtlinie regelmäßig auf Änderungen zu überprüfen. Änderungen an dieser Datenschutzrichtlinie treten in Kraft, wenn sie auf dieser Seite veröffentlicht werden."
-        },
-        "CONTACT": {
-            "HEAD4": "Kontaktieren Sie uns",
-            "TEXT": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, können Sie uns kontaktieren:",
-            "UL": {
-                "L1": {
-                    "TEXT": "Durch den Besuch dieser Seite auf unserer Website: ",
-                    "A": "https://martspec.com/privacy-policy"
-                },
-                "L2": {
-                    "TEXT": "Über unseren Facebook-Messenger unter ",
-                    "A": "Martspec @ FaceBook",
-                    "LINK": "https://www.facebook.com/martspec"
-                },
-                "L3": {
-                    "TEXT": "Über unseren X-Messager unter ",
-                    "A": "Martspec @ X",
-                    "LINK": "https://twitter.com/MartspecCom"
-                },
-                "L4": {
-                    "TEXT": "Über unsere LinkedIn-Gruppe unter ",
-                    "A": "Martspec @ LinkedIn",
-                    "LINK": "https://www.linkedin.com/company/martspec/"
-                }
-            }
-        }
+        "HEAD": "Datenschutzerklärung",
+        "DATE_LABEL": "Zuletzt aktualisiert:",
+        "DATE": "6. November 2026",
+        "P1": "Der Schutz Ihrer privaten Daten hat für uns oberste Priorität. Diese Datenschutzerklärung beschreibt, wie die Martspec LLC („Unternehmen“, „wir“, „uns“ oder „unser“) Informationen verarbeitet, wenn Sie unsere mobilen Anwendungen nutzen und unsere Website unter martspec.com besuchen.",
+        "PHILOSOPHY_LABEL": "Unsere Datenschutzphilosophie ist einfach:",
+        "PHILOSOPHY_TEXT": "Wir erfassen, laden oder speichern keine Ihrer personenbezogenen Daten auf unseren Servern. Ihre Daten gehören Ihnen.",
+        "INFORMATION_HEAD": "1. Informationen, die wir NICHT erfassen",
+        "INFORMATION_INTRO": "Da unsere Apps von Grund auf auf Datenschutz und lokale Speicherung ausgelegt sind,",
+        "INFORMATION_NOTICE": "haben wir keinerlei Zugriff auf Ihre persönlichen oder sensiblen Daten.",
+        "HEALTH_LABEL": "Keine Erfassung von Gesundheitsdaten:",
+        "HEALTH_TEXT": " Alle Gesundheits-, physiologischen und Fitnessdaten (wie Vitaminspiegel, Körpermaße, emotionaler Zustand, Energie, Ernährung und Elektrolyt-Tracking) werden ausschließlich lokal auf Ihrem Gerät und in Ihrem persönlichen, verschlüsselten Apple iCloud-Konto gespeichert.",
+        "ACCOUNTS_LABEL": "Keine Benutzerkonten:",
+        "ACCOUNTS_TEXT": " Die Authentifizierung erfolgt vollständig und sicher über Apple. Wir erstellen, verwalten oder speichern keine Benutzerkonten oder Passwörter auf unseren Servern.",
+        "TRACKING_LABEL": "Kein Geräte-Tracking:",
+        "TRACKING_TEXT": " Wir erfassen oder speichern Ihre IP-Adresse, Geräte-IDs oder App-Nutzungsdaten nicht automatisch auf unseren Servern.",
+        "INTEGRATION_HEAD": "2. Lokale App-Integrationen (Apple Health)",
+        "INTEGRATION_INTRO": "Um die Kernfunktionen der App bereitzustellen, können unsere Anwendungen Ihre Erlaubnis anfordern, Daten aus Apple Health (HealthKit) zu lesen oder dorthin zu schreiben.",
+        "INTEGRATION_DEVICE": "Diese Verarbeitung findet vollständig auf Ihrem Gerät statt.",
+        "INTEGRATION_SERVERS": "Wir übertragen diese Daten nicht an unsere Server und verwenden sie auch nicht für Marketing- oder Werbezwecke.",
+        "INTEGRATION_REVOKE": "Sie können diese Berechtigungen jederzeit über die Einstellungen der Health-App auf Ihrem iOS-Gerät widerrufen.",
+        "SHARING_HEAD": "3. Wie Ihre Informationen weitergegeben werden",
+        "SHARING_NOTICE": "Wir können Ihre Daten nicht weitergeben, verkaufen oder offenlegen, da wir sie nicht besitzen.",
+        "SHARING_TEXT": "Da Ihre Daten strikt auf Ihrem Gerät und in Ihrem persönlichen Apple iCloud-Konto verbleiben, hat die Martspec LLC keine Möglichkeit, Ihre Daten einzusehen. Ebenso wenig können wir sie an Dritte, Dienstleister oder Strafverfolgungsbehörden weitergeben.",
+        "RIGHTS_HEAD": "4. Verwaltung Ihrer Daten & Datenschutzrechte",
+        "RIGHTS_INTRO": "Gemäß Datenschutzgesetzen wie CCPA/CPRA, DSGVO und anderen US-Bundesstaatsgesetzen haben Benutzer das Recht auf Auskunft, Berichtigung oder Löschung ihrer personenbezogenen Daten.",
+        "RIGHTS_CONTROL": "Da wir keine Ihrer Daten speichern, haben Sie bereits die volle Kontrolle darüber.",
+        "RIGHTS_MANAGE": "Um Ihre Datenschutzrechte auszuüben, müssen Sie Ihre Daten direkt auf Ihrem Gerät verwalten:",
+        "VIEW_LABEL": "Um Ihre Daten einzusehen oder zu korrigieren:",
+        "VIEW_TEXT": " Öffnen Sie die Martspec-App oder die Apple Health-App auf Ihrem Gerät.",
+        "DELETE_LABEL": "Um Ihre Daten zu löschen:",
+        "DELETE_TEXT": " Sie können Ihre Daten direkt in der Apple Health-App löschen, Ihre iCloud-Speichereinstellungen verwalten oder einfach die App von Ihrem Gerät löschen.",
+        "CHILDREN_HEAD": "5. Datenschutz bei Kindern",
+        "CHILDREN_TEXT": "Unser Service richtet sich nicht an Personen unter 13 Jahren. Da wir von keinem Nutzer personenbezogene Daten erfassen, erfassen wir auch keine personenbezogenen Daten von Kindern.",
+        "API_HEAD": "6. Entwickler-API-Dienste (letstag.app)",
+        "API_TEXT": "Diese Datenschutzerklärung gilt ausschließlich für die mobilen Verbraucher-Apps von Martspec. Martspec betreibt auch einen separaten Business-to-Business-Entwickler-API-Dienst unter letstag.app. Da die API die Erstellung eines Entwicklerkontos und eine Abrechnung erfordert, unterliegt sie einer eigenen Datenschutzerklärung unter",
+        "CHANGES_HEAD": "7. Änderungen an dieser Datenschutzerklärung",
+        "CHANGES_TEXT": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um Änderungen an unseren App-Funktionen oder rechtlichen Anforderungen Rechnung zu tragen. Die aktualisierte Version wird durch das Datum der „Letzten Aktualisierung“ oben in diesem Dokument gekennzeichnet.",
+        "CONTACT_HEAD": "8. Kontakt",
+        "CONTACT_TEXT": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Datenschutzpraktiken haben, kontaktieren Sie uns bitte unter:",
+        "EMAIL_LABEL": "E-Mail:"
     },
     "WORKOUT": {
-        "HEAD": "Training", "SUBHEAD": "Ein vollständiges Trainingstagebuch zum Planen von Einheiten, Festhalten von Ergebnissen und Analysieren deiner Fortschritte.",
-        "TRACKING_TITLE": "Jede Aktivität erfassen", "TRACKING_TEXT": "Erfasse Arbeitsgewicht, Körpergewichtsübungen, Wiederholungen und Gesamtvolumen beim Krafttraining; Seite, Haltezeit und Wiederholungen beim Dehnen; sowie Geschwindigkeit, Intensität, Distanz und Dauer beim Cardio.",
-        "BUILDER_TITLE": "Trainings nach deinen Regeln", "BUILDER_TEXT": "Der Katalog bietet über 200 Übungen mit Anleitungen und Bildern. Suche nach Name, Muskel oder Equipment oder erstelle eigene Übungen mit Fotos, Belastungswerten, MET und beanspruchten Muskeln. Kombiniere Übungen und Supersätze mit bis zu drei Übungen, Notizen, Fotos, kopierten Sätzen und schnellen Änderungen.",
-        "FEATURES_TITLE": "Alle Details im Blick", "CATALOG_TITLE": "Timer und vollständige Trainingsprotokolle", "CATALOG_TEXT": "Eingebaute Timer für Training, Pausen und zeitbasierte Übungen halten dich im Rhythmus. Nach dem Abschluss erstellt die App ein detailliertes Protokoll mit Kalorien, Gesamtgewicht, Dauer und wichtigsten Muskelgruppen.",
-        "PROGRESS_TITLE": "Messbarer Fortschritt", "PROGRESS_TEXT": "Wissenschaftlich fundierte MET-Werte schätzen Kalorien während und vor geplanten Einheiten. Die Übungshistorie bewahrt jeden Satz, persönliche Rekorde und Vergleiche mit früheren Trainings für eine langfristige Kraft- und Ausdaueranalyse.",
-        "PRIVACY_TITLE": "Privat, offline und synchron", "PRIVACY_TEXT": "Deine Daten werden ausschließlich über dein persönliches iCloud synchronisiert. Wir sammeln, analysieren oder speichern sie nicht auf unseren Servern. Die App funktioniert vollständig offline, synchronisiert zwischen deinen Geräten und unterstützt helle und dunkle Designs.",
-        "CALENDAR_TITLE": "Mit einem flexiblen Kalender planen", "CALENDAR_TEXT": "Sieh geplante, aktive und abgeschlossene Trainings an jedem Datum. Kopiere Programme für einen oder mehrere Tage und bearbeite abgeschlossene Einheiten später: Übungen, Zeiten, Notizen und Fotos.",
-        "SHARING_TITLE": "Ergebnisse teilen", "SHARING_TEXT": "Erstelle nach dem Training eine schöne Ergebnis-Karte mit einem ausgewählten Foto, um sie mit Freunden zu teilen oder zu veröffentlichen.",
-        "CTA_TITLE": "Ein Trainingstagebuch, das deine Daten respektiert", "CTA_TEXT": "Vom ersten Plan bis zum nächsten persönlichen Rekord hält Training Details, Zeit und Fortschritt an einem privaten Ort.",
-        "ALT_CATALOG": "Trainingstimer und detaillierte Übungsprotokolle", "ALT_PROGRESS": "Trainingsfortschritt und persönliche Rekorde", "ALT_PRIVACY": "Private iCloud-Synchronisierung"
+        "HEAD": "Training",
+        "SUBHEAD": "Ein vollständiges Trainingstagebuch zum Planen von Einheiten, Festhalten von Ergebnissen und Analysieren deiner Fortschritte.",
+        "TRACKING_TITLE": "Jede Aktivität erfassen",
+        "TRACKING_TEXT": "Erfasse Arbeitsgewicht, Körpergewichtsübungen, Wiederholungen und Gesamtvolumen beim Krafttraining; Seite, Haltezeit und Wiederholungen beim Dehnen; sowie Geschwindigkeit, Intensität, Distanz und Dauer beim Cardio.",
+        "BUILDER_TITLE": "Trainings nach deinen Regeln",
+        "BUILDER_TEXT": "Der Katalog bietet über 200 Übungen mit Anleitungen und Bildern. Suche nach Name, Muskel oder Equipment oder erstelle eigene Übungen mit Fotos, Belastungswerten, MET und beanspruchten Muskeln. Kombiniere Übungen und Supersätze mit bis zu drei Übungen, Notizen, Fotos, kopierten Sätzen und schnellen Änderungen.",
+        "FEATURES_TITLE": "Alle Details im Blick",
+        "CATALOG_TITLE": "Timer und vollständige Trainingsprotokolle",
+        "CATALOG_TEXT": "Eingebaute Timer für Training, Pausen und zeitbasierte Übungen halten dich im Rhythmus. Nach dem Abschluss erstellt die App ein detailliertes Protokoll mit Kalorien, Gesamtgewicht, Dauer und wichtigsten Muskelgruppen.",
+        "PROGRESS_TITLE": "Messbarer Fortschritt",
+        "PROGRESS_TEXT": "Wissenschaftlich fundierte MET-Werte schätzen Kalorien während und vor geplanten Einheiten. Die Übungshistorie bewahrt jeden Satz, persönliche Rekorde und Vergleiche mit früheren Trainings für eine langfristige Kraft- und Ausdaueranalyse.",
+        "PRIVACY_TITLE": "Privat, offline und synchron",
+        "PRIVACY_TEXT": "Deine Daten werden ausschließlich über dein persönliches iCloud synchronisiert. Wir sammeln, analysieren oder speichern sie nicht auf unseren Servern. Die App funktioniert vollständig offline, synchronisiert zwischen deinen Geräten und unterstützt helle und dunkle Designs.",
+        "CALENDAR_TITLE": "Mit einem flexiblen Kalender planen",
+        "CALENDAR_TEXT": "Sieh geplante, aktive und abgeschlossene Trainings an jedem Datum. Kopiere Programme für einen oder mehrere Tage und bearbeite abgeschlossene Einheiten später: Übungen, Zeiten, Notizen und Fotos.",
+        "SHARING_TITLE": "Ergebnisse teilen",
+        "SHARING_TEXT": "Erstelle nach dem Training eine schöne Ergebnis-Karte mit einem ausgewählten Foto, um sie mit Freunden zu teilen oder zu veröffentlichen.",
+        "CTA_TITLE": "Ein Trainingstagebuch, das deine Daten respektiert",
+        "CTA_TEXT": "Vom ersten Plan bis zum nächsten persönlichen Rekord hält Training Details, Zeit und Fortschritt an einem privaten Ort.",
+        "ALT_CATALOG": "Trainingstimer und detaillierte Übungsprotokolle",
+        "ALT_PROGRESS": "Trainingsfortschritt und persönliche Rekorde",
+        "ALT_PRIVACY": "Private iCloud-Synchronisierung"
     }
 }

@@ -1,3 +1,4 @@
+@use "sass:map";
 .zinc {
     $colors: (
         "main": #72e79633,
@@ -13,10 +14,10 @@
     }
 
     .icon {
-        background: map-get($colors, "main");
+        background: map.get($colors, "main");
 
         &:not(.no-filter) > img {
-            filter: map-get($colors, "main-filter");
+            filter: map.get($colors, "main-filter");
         }
     }
 

@@ -16,7 +16,7 @@ import Review from "@/atomic/prototype/review";
 import CardVitamin, * as VitaminCard from "@/atomic/molecule/card-vitamin";
 import Accordion, * as VitaminAccordion from "@/atomic/molecule/accordion";
 import { getAppId } from "@/service/AppleService";
-//import ScrollButton from "../atom/scroll-button";
+//import ScrollButton from "@/atomic/page/atom/scroll-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 import Table, { TableData } from "@/atomic/molecule/table";

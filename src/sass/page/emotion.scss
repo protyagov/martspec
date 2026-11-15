@@ -1,4 +1,6 @@
-@import "@/sass/atom/page-breakpoints";
+@use "base" as *;
+@use "sass:map";
+@use "@/sass/atom/page-breakpoints" as *;
 
 .emotion {
     $colors: (
@@ -10,22 +12,22 @@
     );
 
     .ms-btn-large {
-        background: map-get($colors, "main");
+        background: map.get($colors, "main");
 
         &:hover {
-            background: map-get($colors, "hover");
+            background: map.get($colors, "hover");
         }
 
         &:active {
-            background: map-get($colors, "active") !important;
+            background: map.get($colors, "active") !important;
         }
     }
 
     .icon {
-        background: map-get($colors, "bg");
+        background: map.get($colors, "bg");
 
         & > img {
-            filter: map-get($colors, "main-filter");
+            filter: map.get($colors, "main-filter");
         }
     }
 
@@ -37,7 +39,7 @@
 
     &.color-test {
         section:first-of-type {
-            background: map-get($colors, "bg");
+            background: map.get($colors, "bg");
         }
     }
 
@@ -66,7 +68,7 @@
 }
 
 .icon {
-    @extend %with-shadow;
+    // The bundle applies this cross-module extension in main.scss.
 
     $icon-size: 70px;
 
@@ -216,14 +218,14 @@
         width: auto;
     }
     .responsive-card {
-        @media (max-width: map-get($page-breakpoints, "medium")) {
+        @media (max-width: map.get($page-breakpoints, "medium")) {
             min-height: 12rem;
         }
     }
     .row-cols-xl-3 {
         flex-wrap: wrap;
         
-        @media (max-width: map-get($page-breakpoints, "wide")) {
+        @media (max-width: map.get($page-breakpoints, "wide")) {
             > .col:nth-child(1),
             > .col:nth-child(2) {
                 flex: 0 0 50%;
@@ -237,7 +239,7 @@
             }
         }
         
-        @media (max-width: map-get($page-breakpoints, "medium")) {
+        @media (max-width: map.get($page-breakpoints, "medium")) {
             > .col {
                 flex: 0 0 100% !important;
                 max-width: 100% !important;
