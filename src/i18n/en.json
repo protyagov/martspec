@@ -83,7 +83,7 @@
             "LI2_4_TITLE": "No Apple Sign-In required",
             "LI2_4_TEXT": "The app is ready to use immediately without registration"
         },
-         "HEAD4": "How to spot protein deficiency?",
+        "HEAD4": "How to spot protein deficiency?",
         "DESC3": "With regular workouts and a fast-paced lifestyle, your protein needs increase. If your body doesn't get enough, endurance drops and recovery takes longer. Complete this short checklist to evaluate your diet and well-being.",
         "SUB_HEAD2": "Signs of protein deficiency:",
         "LIST3": {
@@ -417,7 +417,6 @@
             "NAME": "Food Additives",
             "SHORT": "Additive"
         },
-
         "CONTENT": {
             "GROUP": {
                 "VITAMIN_FAT": "Vitamin",
@@ -2025,9 +2024,11 @@
         "DELETE_TEXT": " You can delete your data directly within the Apple Health app, manage your iCloud storage settings, or simply delete the app from your device.",
         "CHILDREN_HEAD": "5. Children's Privacy",
         "CHILDREN_TEXT": "Our Service is not directed to individuals under the age of 13. Because we do not collect personal data from any users, we do not collect personal data from children.",
-        "CHANGES_HEAD": "6. Changes to this Policy",
+        "API_HEAD": "6. Developer API Services (letstag.app)",
+        "API_TEXT": "This privacy policy applies exclusively to Martspec's consumer mobile applications. Martspec also operates a separate business-to-business developer API service at letstag.app. Because that API requires developer account creation and billing, it is governed by its own separate privacy policy available at",
+        "CHANGES_HEAD": "7. Changes to this Policy",
         "CHANGES_TEXT": "We may update this Privacy Policy periodically to reflect changes in our app features or legal requirements. The updated version will be indicated by the \"Last Updated\" date at the top of this document.",
-        "CONTACT_HEAD": "7. Contact Us",
+        "CONTACT_HEAD": "8. Contact Us",
         "CONTACT_TEXT": "If you have questions about this Privacy Policy or our privacy practices, please contact us at:",
         "EMAIL_LABEL": "Email:"
     },

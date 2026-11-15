@@ -112,6 +112,9 @@ const ROUTES = [
 ];
 
 function createHtmlPlugins(lang, route, flat = false) {
+    // Both layouts use the same filenames for the English homepage.
+    if (flat && lang === "en" && route.output === "") return [];
+
     const template = `./src/template/${lang}/${route.template}.ejs`;
 
     let targetPaths = [];

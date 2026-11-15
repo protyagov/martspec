@@ -2028,9 +2028,11 @@
         "DELETE_TEXT": " Sie können Ihre Daten direkt in der Apple Health-App löschen, Ihre iCloud-Speichereinstellungen verwalten oder einfach die App von Ihrem Gerät löschen.",
         "CHILDREN_HEAD": "5. Datenschutz bei Kindern",
         "CHILDREN_TEXT": "Unser Service richtet sich nicht an Personen unter 13 Jahren. Da wir von keinem Nutzer personenbezogene Daten erfassen, erfassen wir auch keine personenbezogenen Daten von Kindern.",
-        "CHANGES_HEAD": "6. Änderungen an dieser Datenschutzerklärung",
+        "API_HEAD": "6. Entwickler-API-Dienste (letstag.app)",
+        "API_TEXT": "Diese Datenschutzerklärung gilt ausschließlich für die mobilen Verbraucher-Apps von Martspec. Martspec betreibt auch einen separaten Business-to-Business-Entwickler-API-Dienst unter letstag.app. Da die API die Erstellung eines Entwicklerkontos und eine Abrechnung erfordert, unterliegt sie einer eigenen Datenschutzerklärung unter",
+        "CHANGES_HEAD": "7. Änderungen an dieser Datenschutzerklärung",
         "CHANGES_TEXT": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um Änderungen an unseren App-Funktionen oder rechtlichen Anforderungen Rechnung zu tragen. Die aktualisierte Version wird durch das Datum der „Letzten Aktualisierung“ oben in diesem Dokument gekennzeichnet.",
-        "CONTACT_HEAD": "7. Kontakt",
+        "CONTACT_HEAD": "8. Kontakt",
         "CONTACT_TEXT": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Datenschutzpraktiken haben, kontaktieren Sie uns bitte unter:",
         "EMAIL_LABEL": "E-Mail:"
     },

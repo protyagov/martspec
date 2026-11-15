@@ -100,6 +100,14 @@ export default function PrivacyPolicy() {
 
                 <section className="private-policy">
                     <hr />
+                    <h4 className="private-policy__h4">{_("PP.API_HEAD")}</h4>
+                    <p className="private-policy__mb-0">
+                        {_("PP.API_TEXT")} <a href="https://letstag.app/privacy">https://letstag.app/privacy</a>.
+                    </p>
+                </section>
+
+                <section className="private-policy">
+                    <hr />
                     <h4 className="private-policy__h4">{_("PP.CHANGES_HEAD")}</h4>
                     <p className="private-policy__mb-0">{_("PP.CHANGES_TEXT")}</p>
                 </section>

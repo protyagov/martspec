@@ -3,8 +3,9 @@
         "outDir": "./build/",
         "sourceMap": true,
         "noImplicitAny": true,
+        "skipLibCheck": true,
         "module": "esnext",
-        "moduleResolution": "node",
+        "moduleResolution": "bundler",
         "allowSyntheticDefaultImports": true,
         //Allow default imports from modules with no default export. This does not affect code emit, just typechecking.
         "preserveConstEnums": true,
@@ -13,10 +14,10 @@
         "strictNullChecks": true,
         "target": "es2019",
         "jsx": "react",
-        "baseUrl": "./",
         "allowJs": true,
         "paths": {
-            "@/*": ["./src/*"]
+            "@/*": ["./src/*"],
+            //".ladle/*": ["./.ladle/*"]
         }
     },
     "include": ["./src/**/*", "./.ladle/**/*"]

@@ -3,7 +3,7 @@ const { merge } = require("webpack-merge"),
     common = require("./webpack.com.cjs"),
     MiniCssExtractPlugin = require("mini-css-extract-plugin"),
     // FaviconsWebpackPlugin = require('favicons-webpack-plugin'),
-    OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin"),
+    CssMinimizerPlugin = require("css-minimizer-webpack-plugin"),
     { PurgeCSSPlugin } = require("purgecss-webpack-plugin"),
     glob = require("glob"),
     path = require("path");
@@ -22,10 +22,14 @@ module.exports = merge(common, {
             },
         ],
     },
+    optimization: {
+        minimizer: ["...", new CssMinimizerPlugin({
+            minimizerOptions: {
+                preset: ["default", { discardComments: { removeAll: true } }],
+            }
+        })]
+    },
     plugins: [
-        new OptimizeCssAssetsPlugin({
-            cssProcessorPluginOptions: { preset: ["default", { discardComments: { removeAll: true } }] },
-        }),
         new MiniCssExtractPlugin({
             filename: "style.[chunkhash:3].css",
         }),
