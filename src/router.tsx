@@ -26,7 +26,7 @@ import Iron from "@/atomic/page/iron";
 import Calcium from "@/atomic/page/calcium";
 import Workout from "@/atomic/page/workout";
 import Article from "@/atomic/prototype/article/article";
-import Protein from "./atomic/page/protein";
+import Protein from "@/atomic/page/protein";
 
 const articleVitamins = [
     "acai",

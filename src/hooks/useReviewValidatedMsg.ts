@@ -1,23 +1,38 @@
-import { useLayoutEffect, useRef, useState } from "react";
-import { useWindowSize } from "@/hooks/useWindowSize";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 import { TValidatedContentLabel } from "@/model/IReviewData";
 import { IValidateReviewMsg, validateReviewMsg } from "@/service/AppleService";
 
 interface IUseReviewValidatedMsg {
     data: Pick<IValidateReviewMsg["data"], "origMsg">;
-    settings: IValidateReviewMsg["settings"] & {
-        resizeDelay?: number;
-    };
+    settings: IValidateReviewMsg["settings"];
 }
 
 export const useReviewValidatedMsg = ({ data, settings }: IUseReviewValidatedMsg) => {
     const reviewTextRef = useRef<HTMLParagraphElement>(null);
-    const resizeFlag = useWindowSize(settings.resizeDelay);
+    const [layoutFlag, setLayoutFlag] = useState(0);
     const [validatedData, setValidatedData] = useState<TValidatedContentLabel>({
         overflowFlag: false,
         content: [data.origMsg],
     });
+    const [longTextFlag, setLongTextFlag] = useState(false);
+
+    useEffect(() => {
+        const reviewTextElem = reviewTextRef.current;
+        if (!reviewTextElem) return;
+
+        let isActive = true;
+        const relayout = () => isActive && setLayoutFlag((flag) => flag + 1);
+
+        const resizeObserver = typeof ResizeObserver !== "undefined" ? new ResizeObserver(relayout) : null;
+        resizeObserver?.observe(reviewTextElem);
+        document.fonts?.ready.then(relayout);
+
+        return () => {
+            isActive = false;
+            resizeObserver?.disconnect();
+        };
+    }, []);
 
     useLayoutEffect(() => {
         const reviewTextElem = reviewTextRef.current;
@@ -26,9 +41,12 @@ export const useReviewValidatedMsg = ({ data, settings }: IUseReviewValidatedMsg
             validateReviewMsg({
                 data: { ...data, origElem: reviewTextElem },
                 settings,
-            }).then((d) => setValidatedData(d));
+            }).then((d) => {
+                setValidatedData(d);
+                setLongTextFlag(reviewTextElem.dataset.overflowFlag === "true");
+            });
         }
-    }, [resizeFlag]);
+    }, [layoutFlag, data.origMsg]);
 
-    return { validatedData, reviewTextRef };
+    return { validatedData, longTextFlag, reviewTextRef };
 };

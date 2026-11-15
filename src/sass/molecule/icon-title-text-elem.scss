@@ -1,5 +1,7 @@
+@use "bootstrap/scss/bootstrap" as *;
+@use "sass:map";
 .icon {
-  background: map-get($colors, "bg");
+  background: map.get($colors, "bg");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .039), 0 0 4px 0 rgba(0, 0, 0, .059);
   align-items: center;
   border-radius: 18px;

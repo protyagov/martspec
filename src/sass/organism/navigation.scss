@@ -1,4 +1,5 @@
-@import "@/sass/atom/color.scss";
+@use "bootstrap/scss/bootstrap" as *;
+@use "@/sass/atom/color.scss" as *;
 
 .ms-navbar {
     $navbar-height-lg: 30px;

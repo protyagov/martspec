@@ -1,4 +1,7 @@
-@import "@/sass/atom/page-breakpoints";
+@use "@/sass/molecule/section" as *;
+@use "bootstrap/scss/bootstrap" as *;
+@use "sass:map";
+@use "@/sass/atom/page-breakpoints" as *;
 
 .bodysize-page {
     flex: 1 0;
@@ -140,14 +143,14 @@
         width: auto;
     }
     .responsive-card {
-        @media (max-width: map-get($page-breakpoints, "medium")) {
+        @media (max-width: map.get($page-breakpoints, "medium")) {
             min-height: 12rem;
         }
     }
     .row-cols-xl-3 {
         flex-wrap: wrap;
 
-        @media (max-width: map-get($page-breakpoints, "wide")) {
+        @media (max-width: map.get($page-breakpoints, "wide")) {
             > .col:nth-child(1),
             > .col:nth-child(2) {
                 flex: 0 0 50%;
@@ -161,7 +164,7 @@
             }
         }
 
-        @media (max-width: map-get($page-breakpoints, "medium")) {
+        @media (max-width: map.get($page-breakpoints, "medium")) {
             > .col {
                 flex: 0 0 100% !important;
                 max-width: 100% !important;

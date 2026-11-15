@@ -1,6 +1,6 @@
 import React from "react";
 import ButtonChevronRight from "@/atomic/atom/button-chevron-right";
-import ButtonLinkStylePlain from "../atom/buttonLinkStylePlain";
+import ButtonLinkStylePlain from "@/atomic/atom/buttonLinkStylePlain";
 
 type CardAppSmallProps = {
     iconSrc: string;

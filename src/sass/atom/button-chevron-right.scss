@@ -1,4 +1,5 @@
-@import "@/sass/atom/color";
+@use "color" as *;
+@use "@/sass/atom/color" as *;
 
 .btn-chevron-right {
    margin-top:auto;

@@ -1,3 +1,5 @@
+@use "@/sass/atom/color" as *;
+@use "sass:map";
 .waist {
     $colors: (
         "main": #f4f5f8,
@@ -5,10 +7,10 @@
     );
 
     .icon {
-        background: map-get($colors, "main");
+        background: map.get($colors, "main");
 
         &:not(.no-filter) > img {
-            filter: map-get($colors, "main-filter");
+            filter: map.get($colors, "main-filter");
         }
     }
     .col-lg-6 {

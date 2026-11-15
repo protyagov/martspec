@@ -1,3 +1,5 @@
+@use "@/sass/atom/color" as *;
+@use "bootstrap/scss/bootstrap" as *;
 .biorhythms {
     &-lists {
         .header-content-list {

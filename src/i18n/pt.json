@@ -2030,9 +2030,11 @@
         "DELETE_TEXT": " Você pode excluir seus dados diretamente no aplicativo Saúde da Apple, gerenciar as configurações de armazenamento do iCloud ou simplesmente excluir o aplicativo do seu dispositivo.",
         "CHILDREN_HEAD": "5. Privacidade de crianças",
         "CHILDREN_TEXT": "Nosso Serviço não é direcionado a menores de 13 anos. Como não coletamos dados pessoais de nenhum usuário, também não coletamos dados pessoais de crianças.",
-        "CHANGES_HEAD": "6. Alterações nesta Política",
+        "API_HEAD": "6. Serviços de API para desenvolvedores (letstag.app)",
+        "API_TEXT": "Esta política de privacidade aplica-se exclusivamente aos aplicativos móveis de consumo da Martspec. A Martspec também opera um serviço separado de API para desenvolvedores entre empresas em letstag.app. Como a API exige a criação de uma conta de desenvolvedor e faturamento, ela é regida por sua própria política de privacidade disponível em",
+        "CHANGES_HEAD": "7. Alterações nesta Política",
         "CHANGES_TEXT": "Podemos atualizar esta Proteção de Dados periodicamente para refletir mudanças nos recursos do nosso aplicativo ou nas exigências legais. A versão atualizada será indicada pela data da \"Última atualização\" no topo deste documento.",
-        "CONTACT_HEAD": "7. Fale Conosco",
+        "CONTACT_HEAD": "8. Fale Conosco",
         "CONTACT_TEXT": "Se você tiver alguma dúvida sobre esta Proteção de Dados ou sobre nossas práticas de privacidade, entre em contato conosco em:",
         "EMAIL_LABEL": "E-mail:"
     },

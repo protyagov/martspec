@@ -10,12 +10,12 @@ import Header from "@/atomic/organism/header";
 import BulletList from "@/atomic/molecule/bullet-list";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
-import CardIconTitleText from "../molecule/card-icon-title-text"
+import CardIconTitleText from "@/atomic/molecule/card-icon-title-text"
 
 export default function Emotion() {
     const appId = getAppId();

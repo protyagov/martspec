@@ -9,15 +9,24 @@
 
 ```
 nvm current                         # Check current *node* version
-nvm use 20                          # Use *node* version 20
+nvm install                         # Install the Node version in .nvmrc
+nvm use                             # Use the repo’s Node version
 
-git clone <repo link>               # Clone repo to your local computer
-yarn install                        # Install all dependencies
+npm install -g corepack             # Install Corepack
+corepack enable                     # Enable the pinned Yarn version
+yarn install --immutable            # Install the locked dependencies
 yarn svr                            # Run website locally
-
-yarn outdated                       # See what packages can be updated
-yarn upgrade-interactive --latest   # Interactively update to the latest versions
 ```
+
+Uses Node 26.13.1 and Yarn 4.18.1, selected by Corepack from `package.json`. 
+
+`yarn svr` uses port 3000 to start server locally in dev mode.
+
+`yarn upgrade-interactive` to review dependency updates.
+
+`yarn dev` starts the website and Ladle together, with Ladle on port 3001 for the `/development` proxy. Stopping either process stops both. Port 3001 must be available for this combined command.
+
+
 
 ## Workflow
 

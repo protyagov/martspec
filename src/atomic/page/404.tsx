@@ -1,7 +1,7 @@
 import * as React from "react";
 import _ from "@/i18n/locale";
 import NavigationBar from "@/atomic/organism/navbar";
-import ButtonLinkStyleAnimated from "../atom/buttonLinkStyleAnimated";
+import ButtonLinkStyleAnimated from "@/atomic/atom/buttonLinkStyleAnimated";
 
 export default function PageError_404() {
     return (
