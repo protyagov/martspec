@@ -111,7 +111,10 @@ const ROUTES = [
     })),
 ];
 
-function createHtmlPlugins(lang, route, flat = false) {
+function createHtmlPages(lang, route, flat = false) {
+    // Both layouts use the same filenames for the English homepage.
+    if (flat && lang === "en" && route.output === "") return [];
+
     const template = `./src/template/${lang}/${route.template}.ejs`;
 
     let targetPaths = [];
@@ -135,14 +138,51 @@ function createHtmlPlugins(lang, route, flat = false) {
         }
     }
 
-    // Map the array of paths to an array of Webpack Plugins
-    return targetPaths.map((filename) => new HtmlWebpackPlugin({ template, filename, inject: "body" }));
+    return targetPaths.map((filename) => ({ template, filename }));
 }
 
-// Use flatMap on ROUTES to flatten the arrays returned by createHtmlPlugins
-const htmlPlugins = LANGUAGES.flatMap((lang) => [
-    ...ROUTES.flatMap((route) => createHtmlPlugins(lang, route, false)),
-    ...ROUTES.flatMap((route) => createHtmlPlugins(lang, route, true)),
+const pages = LANGUAGES.flatMap((lang) => [
+    ...ROUTES.flatMap((route) => createHtmlPages(lang, route, false)),
+    ...ROUTES.flatMap((route) => createHtmlPages(lang, route, true)),
 ]);
 
-module.exports = htmlPlugins;
+// Each template produces identical HTML at several paths. Render it once and
+// emit the other paths after HtmlWebpackPlugin has finished processing it.
+const pagesByTemplate = new Map();
+for (const { template, filename } of pages) {
+    if (!pagesByTemplate.has(template)) pagesByTemplate.set(template, []);
+    pagesByTemplate.get(template).push(filename);
+}
+
+class CopyHtmlPagesPlugin {
+    apply(compiler) {
+        compiler.hooks.thisCompilation.tap("CopyHtmlPagesPlugin", (compilation) => {
+            compilation.hooks.processAssets.tap(
+                {
+                    name: "CopyHtmlPagesPlugin",
+                    stage: compiler.webpack.Compilation.PROCESS_ASSETS_STAGE_OPTIMIZE_INLINE + 1,
+                },
+                () => {
+                    for (const filenames of pagesByTemplate.values()) {
+                        const [original, ...copies] = filenames;
+                        const asset = compilation.getAsset(original);
+                        if (!asset) {
+                            compilation.errors.push(new Error(`Missing generated HTML: ${original}`));
+                            continue;
+                        }
+                        for (const filename of copies) {
+                            compilation.emitAsset(filename, asset.source, asset.info);
+                        }
+                    }
+                }
+            );
+        });
+    }
+}
+
+module.exports = [
+    ...Array.from(pagesByTemplate, ([template, [filename]]) =>
+        new HtmlWebpackPlugin({ template, filename, inject: "body" })
+    ),
+    new CopyHtmlPagesPlugin(),
+];

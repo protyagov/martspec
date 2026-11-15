@@ -1,4 +1,4 @@
-@import "@/sass/atom/color";
+@use "@/sass/atom/color" as *;
 
 .breadcrumbs {
   margin-top: 15px;

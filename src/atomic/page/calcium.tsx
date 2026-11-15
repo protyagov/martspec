@@ -12,7 +12,7 @@ import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-cu
 import BulletList from "@/atomic/molecule/bullet-list";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import { IconTitleText } from "@/atomic/molecule/icon-title-text-elem";
-import CardIconTitleText from "../molecule/card-icon-title-text";
+import CardIconTitleText from "@/atomic/molecule/card-icon-title-text";
 import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 import Accordion, * as MetricAccordion from "@/atomic/molecule/accordion";
 import CardBodyMetric, * as CardBody from "@/atomic/molecule/card-body-metric";

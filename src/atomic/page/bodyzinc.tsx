@@ -9,13 +9,13 @@ import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 import Header from "@/atomic/organism/header";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 import CardTitleTextImageCustom from "@/atomic/molecule/card-title-text-image-custom";
 import BulletList from "@/atomic/molecule/bullet-list";
-import CardTitleTextButton from "../molecule/card-title-text-button";
+import CardTitleTextButton from "@/atomic/molecule/card-title-text-button";
 
 export default function BodyZinc() {
     const appId = getAppId();

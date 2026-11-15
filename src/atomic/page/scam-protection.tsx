@@ -3,7 +3,7 @@ import { Footer } from "@/atomic/organism/footer";
 import NavigationBar from "@/atomic/organism/navbar";
 import _, { Locale } from "@/i18n/locale";
 import Header from "@/atomic/organism/header";
-import ScrollButton from "../atom/scroll-button";
+import ScrollButton from "@/atomic/atom/scroll-button";
 import CallToAction from "@/atomic/organism/call-to-action-new";
 import ImageI18N from "@/atomic/atom/img-i18n";
 import CardIconTitleText from "@/atomic/molecule/card-icon-title-text";

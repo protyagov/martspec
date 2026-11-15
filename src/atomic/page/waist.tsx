@@ -9,11 +9,11 @@ import CardTitleTextImage from "@/atomic/molecule/card-title-text-image";
 import CardImage from "@/atomic/molecule/card-image";
 import IconTitleTextList from "@/atomic/organism/icon-title-text-list";
 import CallToAction from "@/atomic/organism/call-to-action-new";
-import ButtonApple from "../atom/button-apple";
+import ButtonApple from "@/atomic/atom/button-apple";
 import Review from "@/atomic/prototype/review";
 import { getAppId } from "@/service/AppleService";
 import ScrollButton from "@/atomic/atom/scroll-button";
-import CardIconTitleText from "../molecule/card-icon-title-text";
+import CardIconTitleText from "@/atomic/molecule/card-icon-title-text";
 import { Breadcrumb } from "@/atomic/organism/breadcrumb";
 import { useBreadcrumbs } from "@/hooks/useBreadcrumbs";
 
