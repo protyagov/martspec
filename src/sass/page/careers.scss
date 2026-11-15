@@ -98,6 +98,15 @@ html[lang="zh"] h1 {
     }
 }
 
+@media (min-width: 993px) {
+    .careers {
+        .new-page-header {
+            margin-top: 0 !important;
+            margin-bottom: 2rem !important;
+        }
+    }
+}
+
 @media (max-width: 992px) {
     .careers__header {
         margin-top: 0 !important;
