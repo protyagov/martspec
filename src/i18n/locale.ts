@@ -9,7 +9,8 @@ export class Locale {
 
     //-------------------------------------------------------------------------------------------------------
     public static init() {
-        let code = localStorage.getItem("locale");
+        const fromUrl = Locale.getLanguageFromUrl(window.location.pathname);
+        let code = fromUrl ?? localStorage.getItem("locale");
 
         if (code == null) {
             if (window.location.host == "martspec.ru") code = "ru";
@@ -130,6 +131,12 @@ export class Locale {
                 if (code != "en") Locale.language = "en";
                 else Locale.setTranslation(code, {});
             });
+    }
+
+    //-------------------------------------------------------------------------------------------------------
+    private static getLanguageFromUrl(path: string): string | null {
+        const seg = path.split("/")[1];
+        return seg && seg.length === 2 && Locale.SUPPORTED_LANG.includes(seg) ? seg : null;
     }
 }
 

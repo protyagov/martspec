@@ -1,5 +1,5 @@
 import * as React from "react";
-import _ from "@/i18n/locale";
+import _, { Locale } from "@/i18n/locale";
 import SocialBar from "@/atomic/organism/social-bar";
 
 export default function ComingSoon() {
@@ -19,7 +19,7 @@ export default function ComingSoon() {
                 <p className="mb-4" style={{ fontFamily: "os4", color: "#444444" }}>
                     {_("COMING_SOON.TEXT_2")}
                 </p>
-                <a href="/" className="ms-btn-large mt-1 mb-4">
+                <a href={Locale.i18nLink("/")} className="ms-btn-large mt-1 mb-4">
                     {_("COMING_SOON.BTN")}
                 </a>
             </section>
