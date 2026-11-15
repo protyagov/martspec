@@ -1,4 +1,4 @@
-@import "@/sass/atom/color"; 
+@use "@/sass/atom/color" as *;
 
 .bullet-list {
   width: 100%;

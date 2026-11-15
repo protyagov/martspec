@@ -15,22 +15,23 @@ nvm current                         # Check current *node* version
 nvm install                         # Install the Node version in .nvmrc
 nvm use                             # Use the repo’s Node version
 
-yarn install --frozen-lockfile      # Install the locked dependencies
+npm install -g corepack             # Install Corepack (not bundled with Node 26)
+corepack enable                     # Enable the pinned Yarn version
+yarn install --immutable            # Install the locked dependencies
 yarn svr                            # Run website locally
 
-yarn outdated                       # See what packages can be updated
-yarn upgrade-interactive --latest   # Interactively update to the latest versions
+yarn upgrade-interactive            # Review dependency updates
 ```
 
-The project uses Node 22.22.3 and Yarn Classic 1.22.22. Use `yarn.lock` as the dependency lockfile; do not mix npm installs with Yarn.
+The project uses Node 26.13.1 and Yarn 4.18.1, selected by Corepack from `package.json`. Yarn uses the `node_modules` layout and `yarn.lock` for reproducible installs. If another global Yarn installation takes precedence, use `corepack yarn` or adjust your PATH.
 
-`yarn svr` selects an available port (starting at 8080); open the URL printed by webpack. To request a specific port, run `yarn svr --port 3000`. If that reports `EADDRINUSE`, another process owns that port: reuse its server, stop it yourself, or choose another port.
+`yarn svr` uses port 3000. To request a different port, run `yarn svr --port 8080`, or use `yarn svr --port auto` to select an available port. If a port reports `EADDRINUSE`, another process owns it: reuse its server, stop it yourself, or choose another port.
 
 `yarn dev` starts the website and Ladle together, with Ladle on port 3001 for the `/development` proxy. Stopping either process stops both. Port 3001 must be available for this combined command.
 
-Validation: `yarn typecheck`, `yarn prod`, and `yarn ladle build`. React stays on 18.x for Ladle’s inspector peer compatibility, and TypeScript stays on 6.x because Ladle’s published typings fail under 7.x. Third-party declaration checking is skipped; application and story code are still checked.
+Validation: `yarn typecheck` and `yarn build` (the site and Ladle builds). `yarn deploy` runs `yarn build` before publishing to GitHub Pages. React stays on 18.x for Ladle’s inspector peer compatibility, and TypeScript stays on 6.x because Ladle’s published typings fail under 7.x. Third-party declaration checking is skipped; application and story code are still checked.
 
-Sass currently emits deprecation warnings for the existing styles and Bootstrap. These remain visible in the terminal; only build errors open the browser overlay.
+Project styles use Sass modules (`@use`) and namespaced built-in functions. Sass deprecations from dependencies are excluded with `quietDeps` while Bootstrap 5 still uses legacy Sass internally; warnings in project styles remain enabled. Cross-module selector aliases are collected at the end of `src/sass/main.scss` to preserve the existing styles.
 
 Development builds use Webpack's filesystem cache in `node_modules/.cache/webpack` and reuse the Sass compiler. The first build populates the cache; later server starts can reuse it. Webpack tracks source and configuration dependencies to invalidate cached results when they change.
 

@@ -1,6 +1,6 @@
 // import React from "react";
 // import StarIcon from "@/atomic/atom/star-icon";
-// import RightArrowIcon from "../atom/right-arrow-icon";
+// import RightArrowIcon from "@/atomic/atom/right-arrow-icon";
 // import { useReviewValidatedMsg } from "@/hooks/useReviewValidatedMsg";
 // import { useReviewContext } from "./review-context";
 // import { useMediaQuery } from "@/hooks";
@@ -93,7 +93,7 @@
 
 import React from "react";
 import StarIcon from "@/atomic/atom/star-icon";
-import RightArrowIcon from "../atom/right-arrow-icon";
+import RightArrowIcon from "@/atomic/atom/right-arrow-icon";
 import { useReviewValidatedMsg } from "@/hooks/useReviewValidatedMsg";
 import { useReviewContext } from "./review-context";
 import { useMediaQuery } from "@/hooks";

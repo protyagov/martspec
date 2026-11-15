@@ -17,7 +17,7 @@
         "allowJs": true,
         "paths": {
             "@/*": ["./src/*"],
-            //".ladle/*": ["./.ladle/*"]
+            ".ladle/*": ["./.ladle/*"]
         }
     },
     "include": ["./src/**/*", "./.ladle/**/*"]

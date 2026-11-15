@@ -18,7 +18,14 @@ module.exports = merge(common, {
         rules: [
             {
                 test: /\.(sa|sc|c)ss$/,
-                use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+                use: [MiniCssExtractPlugin.loader, "css-loader", {
+                    loader: "sass-loader",
+                    options: {
+                        api: "modern-compiler",
+                        // Keep project warnings visible; Bootstrap owns its Sass migration.
+                        sassOptions: { quietDeps: true },
+                    },
+                }],
             },
         ],
     },

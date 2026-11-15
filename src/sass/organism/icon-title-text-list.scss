@@ -1,3 +1,5 @@
+@use "@/sass/page/base" as *;
+@use "bootstrap/scss/bootstrap" as *;
 .list-with-icons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -22,7 +24,7 @@
   }
 
   p {
-    @extend %p-smaller;
+    // The bundle applies this cross-module extension in main.scss.
   }
 
   &.extended {

@@ -6,6 +6,8 @@ module.exports = merge(common, {
     mode: "development",
     cache: {
         type: "filesystem",
+        // Discard warnings cached before Bootstrap dependency warnings were quieted.
+        version: "2",
         buildDependencies: {
             config: [__filename],
         },
@@ -51,6 +53,8 @@ module.exports = merge(common, {
                             // Prefer `dart-sass`
                             api: "modern-compiler",
                             implementation: require("sass"),
+                            // Bootstrap 5 still uses deprecated Sass internally.
+                            sassOptions: { quietDeps: true },
                         },
                     },
                 ],

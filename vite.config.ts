@@ -42,7 +42,12 @@ const serveHandlers = {
 
 // Vite configuration
 export default defineConfig({
-    base: "development",
+    base: "/development/",
+    css: {
+        preprocessorOptions: {
+            scss: { quietDeps: true },
+        },
+    },
     plugins: [
         react(),
         {

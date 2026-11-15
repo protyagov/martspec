@@ -13,15 +13,18 @@
         "@principalstudio/html-webpack-inject-preload": "^1.2.7",
         "@swc/core": "^1.16.22",
         "@types/bootstrap": "^5.2.11",
+        "@types/fs-extra": "^11",
         "@types/node": "22",
         "@types/node-polyglot": "^2.5.0",
         "@types/react": "18",
         "@types/react-dom": "18",
+        "@vitejs/plugin-react": "^4.5.2",
         "acorn": "^8.19.0",
         "concurrently": "^10.0.7",
         "copy-webpack-plugin": "^14.0.0",
         "css-loader": "^7.1.5",
         "css-minimizer-webpack-plugin": "^8.0.0",
+        "fs-extra": "^11.1.1",
         "gh-pages": "^6.3.0",
         "glob": "^14.0.6",
         "html-webpack-plugin": "^5.6.8",
@@ -33,6 +36,7 @@
         "style-loader": "^4.0.0",
         "swc-loader": "^0.2.7",
         "typescript": "6",
+        "vite": "^6.3.5",
         "webpack": "^5.112.2",
         "webpack-cli": "^7.3.1",
         "webpack-dev-server": "^6.1.0",
@@ -46,16 +50,16 @@
         "react-markdown": "^10.1.0"
     },
     "scripts": {
-        "predeploy": "yarn prod && yarn ladle build",
-        "deploy": "gh-pages -d build --dotfiles",
+        "deploy": "yarn build && gh-pages -d build --dotfiles",
         "prod": "webpack --config webpack.prd.cjs",
         "svr": "webpack serve --config webpack.dev.cjs",
         "dev": "concurrently --kill-others --names site,stories \"yarn svr\" \"yarn ladle serve --port 3001\"",
-        "typecheck": "tsc --noEmit"
+        "typecheck": "tsc --noEmit",
+        "build": "yarn prod && yarn ladle build"
     },
-    "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+    "packageManager": "yarn@4.18.1",
     "engines": {
         "node": "^22.22.3 || >=24.0.0",
-        "yarn": "^1.22.22"
+        "yarn": "^4.18.1"
     }
 }

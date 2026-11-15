@@ -1,3 +1,7 @@
+@use "@/sass/molecule/section" as *;
+@use "@/sass/atom/color" as *;
+@use "bootstrap/scss/bootstrap" as *;
+@use "sass:map";
 $section-y-gap: (
     "l": 8.8rem,
     "m": 7.7rem,
@@ -125,14 +129,14 @@ img {
     section {
         max-width: 100%;
         padding: 0;
-        margin: map-get($section-y-gap, "l") auto;
+        margin: map.get($section-y-gap, "l") auto;
 
         &.bg-gray {
-            padding: map-get($section-y-gap, "m") 0;
+            padding: map.get($section-y-gap, "m") 0;
         }
 
         &.bg-merge-top {
-            margin-top: -(map-get($section-y-gap, "m")) * 2;
+            margin-top: -(map.get($section-y-gap, "m")) * 2;
         }
 
         @include media-breakpoint-down(lg) {
@@ -163,7 +167,7 @@ img {
     }
 
     .mb-6 {
-        margin-bottom: map-get($section-y-gap, "xxs");
+        margin-bottom: map.get($section-y-gap, "xxs");
     }
 
     %with-shadow {
@@ -194,7 +198,7 @@ img {
         }
 
         &:not(:only-child):not(:last-child) {
-            margin-bottom: map-get($section-y-gap, "s");
+            margin-bottom: map.get($section-y-gap, "s");
         }
     }
 

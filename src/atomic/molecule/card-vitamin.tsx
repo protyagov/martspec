@@ -1,6 +1,6 @@
 import React, { CSSProperties, useState } from "react";
 import TextLinkArrow from "@/atomic/molecule/text-link-arrow";
-import RightArrowIcon from "../atom/right-arrow-icon";
+import RightArrowIcon from "@/atomic/atom/right-arrow-icon";
 import "@/sass/molecule/card-vitamin.scss";
 
 interface ActionLink {
