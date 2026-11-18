@@ -84,7 +84,7 @@ export default function Electrolyte() {
                         <div className="col-12 col-xxl-6">
                             <div className="top">
                                 <ImageI18N
-                                    src="/img/page/electrolyte/Img-WhyElectrolit-en.webp"
+                                    src="/img/page/electrolyte/Img-WhyElectrolit-en.avif"
                                     w={487}
                                     h={515}
                                     cls="ms-base-image mt-mob-xs mb-6"
@@ -224,7 +224,7 @@ export default function Electrolyte() {
                         subtitle="ELECTROLYTE.DESC9"
                         appId={appId}
                         appDownloadTitle={_("EMOTION.DWN")}
-                        imgSrc="/img/page/electrolyte/img-banner-en.webp"
+                        imgSrc="/img/page/electrolyte/img-banner-en.avif"
                         imgAlt={_("ZINC.ALT2")}
                     />
                 </section>
