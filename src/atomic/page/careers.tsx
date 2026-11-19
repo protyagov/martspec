@@ -143,7 +143,7 @@ const Careers = () => {
                 </section>
 
                 <section>
-                    <div className="row careers__safety">
+                    <div className="row mx-0 careers__safety">
                         <div className="col-lg-7 pe-5 pt-2">
                             <div className="row p-0">
                                 <div className="d-flex align-items-start gap-3 pt-4 px-4">
