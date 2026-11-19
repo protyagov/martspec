@@ -1,4 +1,75 @@
 .careers {
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 10%;
+
+    @media (max-width: 599px) {
+        padding-inline: 7%;
+    }
+
+    @media (min-width: 1400px) {
+        max-width: 1320px;
+        padding-inline: 3%;
+    }
+
+    > section {
+        margin-block: 4rem;
+
+        @media (min-width: 992px) {
+            margin-block: 10rem;
+        }
+    }
+
+    .title-text-link-card p {
+        font-family: os3;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    &__intro {
+        font-family: os4;
+        font-size: 1.5rem;
+    }
+
+    &__section-title {
+        color: #212529;
+        font: 2rem/1.2 os6;
+        margin-block: 2rem 1.85rem;
+        overflow-wrap: anywhere;
+    }
+
+    h3 {
+        color: #444;
+        font-family: os5;
+        font-size: 2rem;
+        margin-block: 2rem;
+        overflow-wrap: anywhere;
+    }
+
+    &__benefits .block {
+        height: 100%;
+        padding: 3rem;
+        border-radius: 38px;
+        box-shadow: 0 4px 8px #0000000a, 0 0 4px #0000000f;
+
+        h3 {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-family: os3;
+            font-size: 1.35rem;
+            line-height: 147%;
+            margin-bottom: 0;
+        }
+    }
+
+    &__safety {
+        background-color: #f1f6ff;
+        border-radius: 38px;
+        overflow: hidden;
+    }
+
     .ms-btn-large {
         background: #248ce1;
         color: #ffffff;
@@ -58,6 +129,7 @@
 
     .card-title-text-button ul li{
         font-family: os4;
+        font-size: 1.5rem;
     }
 }
 
@@ -75,4 +147,3 @@ html[lang="zh"] h1 {
     overflow-wrap: anywhere;
     hyphens: none;
 }
-
