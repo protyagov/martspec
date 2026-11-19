@@ -1,0 +1,80 @@
+{
+    "ALEX": {
+        "NAME": "Alex",
+        "TITLE": "iOS Developer",
+        "AVATAR": "/img/page/team/team_alex.webp",
+        "LINK": "https://www.linkedin.com/in/protyagov/"
+    },
+    "SERGEY_K": {
+        "NAME": "Sergei",
+        "TITLE": "QA Engineer",
+        "AVATAR": "/img/page/team/team_sergeyK.webp",
+        "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b/"
+    },
+    "VITALY_V": {
+        "NAME": "Vitaly",
+        "TITLE": "iOS Developer",
+        "AVATAR": "/img/page/team/team_vitalyV.webp",
+        "LINK": ""
+    },
+    "NATALIIA": {
+        "NAME": "Nataliia",
+        "TITLE": "Web Developer",
+        "AVATAR": "/img/page/team/team_nataliia.webp",
+        "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
+    },
+    "LEYLI": {
+        "NAME": "Leyli",
+        "TITLE": "Web Developer",
+        "AVATAR": "/img/page/team/team_leyli.webp",
+        "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
+    },
+    "VICTORIA": {
+        "NAME": "Vika",
+        "TITLE": "UI/UX Designer",
+        "AVATAR": "/img/page/team/team_vika.webp",
+        "LINK": ""
+    },
+    "EVGEN": {
+        "NAME": "Evgeny",
+        "TITLE": "Web Developer",
+        "AVATAR": "/img/page/team/team_evgeny.webp",
+        "LINK": "https://www.linkedin.com/in/evgen-khamitcevich"
+    },
+    "KSENIA": {
+        "NAME": "Ksenia",
+        "TITLE": "UI/UX Designer",
+        "AVATAR": "/img/page/team/team_ksenia.webp",
+        "LINK": ""
+    },
+    "DANIL": {
+        "NAME": "Danil",
+        "TITLE": "iOS Developer",
+        "AVATAR": "/img/page/team/team_danil.webp",
+        "LINK": "https://www.linkedin.com/in/danilkazakov/"
+    },
+    "IRINA": {
+        "NAME": "Irina",
+        "TITLE": "Web Developer",
+        "AVATAR": "/img/page/team/team_irina.webp",
+        "LINK": "https://www.linkedin.com/in/irina-dedova/"
+    },
+    "DIMA": {
+        "NAME": "Dima",
+        "TITLE": "Web Developer",
+        "AVATAR": "/img/page/team/team_dima.webp",
+        "LINK": ""
+    },
+    "DIANA": {
+        "NAME": "Diana",
+        "TITLE": "iOS Developer",
+        "AVATAR": "/img/page/team/team_diana.webp",
+        "LINK": "https://www.linkedin.com/in/dianakuchaeva/"
+    },
+    "VIKA_S": {
+        "NAME": "Vika",
+        "TITLE": "UI/UX Designer",
+        "AVATAR": "/img/page/team/team_vikaS.webp",
+        "LINK": ""
+    }
+}

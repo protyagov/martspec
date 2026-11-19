@@ -1,0 +1,49 @@
+{
+    "TITLE": "Kombucha: Nutzen, Mythen und wie man ihn sicher trinkt",
+    "IMG_URL": "/img/page/article/kombucha/kombucha.webp",
+    "IMG_ALT": "Illustration eines Glases Kombucha mit Teeblättern, Ingwer und Zitrone",
+    "BODY": [
+        {
+            "CONTENT": "Kombucha wird durch die Fermentation von gesüßtem schwarzem oder grünem Tee mit einer lebenden Kultur namens SCOBY (Symbiotic Culture of Bacteria & Yeast) hergestellt. Während dieses natürlichen Fermentationsprozesses verbraucht der SCOBY den größten Teil des Zuckers und verwandelt den Tee in ein leicht kohlensäurehaltiges Getränk voller organischer Säuren, Antioxidantien und Probiotika.\n\n> Die Stärke des Getränks ergibt sich aus seiner komplexen Mischung bioaktiver Substanzen — und nicht aus einem einzelnen Inhaltsstoff.\n\nGeschmack und Nährwertprofil von Kombucha variieren je nach verwendetem Tee und Dauer der Fermentation, die typischerweise zwischen 7 und 14 Tagen liegt. Varianten auf Grünteebasis weisen oft eine höhere antioxidative Aktivität auf, während Schwarztee-Kombuchas mit der Zeit einen tieferen, volleren Geschmack entwickeln können. Einst als „Tee der Unsterblichkeit\" bekannt, ist Kombucha heute ein beliebtes modernes Wellnessgetränk geworden — eine Verbindung traditioneller Fermentationskunst mit dem heutigen Interesse an natürlichen, funktionellen Lebensmitteln.\n\nKommerzieller Kombucha wird unter strengen Sicherheitsstandards mit kontrolliertem Alkoholgehalt hergestellt und ist oft pasteurisiert (wärmebehandelt, um schädliche Mikroben zu beseitigen, was ihn sicherer und länger haltbar macht, jedoch einige lebende Kulturen und Vitamine verloren gehen). Roher Kombucha ist nicht pasteurisiert und enthält lebende Probiotika und Enzyme, die seine gesundheitlichen Vorteile und seinen Geschmack verstärken können, muss aber gekühlt und schnell konsumiert werden.",
+            "ACCENT_COLOR": "#FFD30F"
+        },
+        {
+            "TITLE": "### Positive gesundheitliche Wirkungen",
+            "CONTENT": "- **Darmgesundheit:** Dank seiner reichen Versorgung mit Probiotika und organischen Säuren (Essig-, Glucon- und Glucuronsäure) hilft Kombucha, das Darmmikrobiom wieder aufzubauen, die bakterielle Vielfalt zu fördern und Verdauung sowie Nährstoffaufnahme zu unterstützen. Diese Verbindungen tragen außerdem zur Aufrechterhaltung einer gesunden Darmschleimhaut bei, was vor „Leaky Gut\" und damit verbundenen Verdauungsproblemen schützen kann.\n\n- **Candida-Balance:** Kombucha kann ein hilfreicher Verbündeter im Umgang mit Candida-Überwucherung sein — einem häufigen Ungleichgewicht durch übermäßige Hefen im Darm. Ähnlich wie probiotische Lebensmittel wie Joghurt oder Kefir enthält Kombucha nützliche Bakterien, die das Verdauungssystem ins Gleichgewicht bringen. So kann das Wachstum schädlicher Hefen und Krankheitserreger auf natürliche Weise eingedämmt werden.\n\n- **Antioxidativer Schutz:** Die Polyphenole aus der Teebasis und die während der Fermentation gebildeten bioaktiven Verbindungen helfen, oxidativen Stress zu reduzieren — einen Hauptfaktor bei Alterung und chronischen Krankheiten. Sie unterstützen außerdem die Herzgesundheit, indem sie die Bildung arterieller Plaques verlangsamen. Die natürliche Produktion von Glucuronsäure unterstützt zusätzlich die Entgiftungsprozesse der Leber.\n\n- **Herz und Stoffwechsel:** Studien deuten darauf hin, dass Kombucha die Auswirkungen cholesterinreicher Ernährung mildern und einen milden blutzuckersenkenden Effekt haben kann. Da viele Kombucha-Getränke jedoch Zucker enthalten, sollten Menschen mit Stoffwechselstörungen oder solche, die auf Kalorien und Zucker achten, ihren Konsum sorgfältig überwachen.\n\n- **Unterstützung der Leber:** Kombucha unterstützt die Leberentgiftung durch Glucuronsäure, eine natürliche Verbindung, die Giftstoffe bindet und dem Körper hilft, sie auszuscheiden. Seine organischen Säuren und Polyphenole verstärken diesen Reinigungsprozess weiter, indem sie den Blutzucker stabilisieren, Leberzellen schützen und oxidativen Stress reduzieren. Forschungs- und Tierstudien legen nahe, dass Kombucha einer Fettleber vorbeugen und die allgemeine Leberfunktion unterstützen kann.",
+            "ACCENT_COLOR": "#FFD30F",
+            "BG_COLOR": "#F4F5F8"
+        },
+        {
+            "TITLE": "### Mögliche negative Wirkungen",
+            "CONTENT": "Obwohl Kombucha die Darm- und Lebergesundheit unterstützen kann, hat er auch mögliche Nachteile, wenn er im Übermaß oder unsachgemäß zubereitet konsumiert wird.\n\n> Seine hohe Säure (pH unter 4) kann den Zahnschmelz schwächen — am besten den Mund nach dem Trinken mit Wasser spülen. Bei manchen Menschen können Blähungen, Übelkeit oder Durchfall auftreten, besonders bei großen Mengen oder empfindlicher Verdauung.\n\nViele kommerzielle Marken enthalten zugesetzten Zucker, der den Blutzuckerspiegel erhöhen und die gesundheitlichen Vorteile mindern kann. Das Koffein aus dem Tee kann bei übermäßigem Konsum zu Nervosität oder Schlafproblemen führen. Das Getränk enthält außerdem geringe Mengen Alkohol (typischerweise 0,5–1,5 %), was für Schwangere, Kinder oder Menschen, die Alkohol meiden, ungeeignet sein kann.",
+            "ACCENT_COLOR": "#FFD30F"
+        },
+        {
+            "TITLE": "### Wann sollte man ihn trinken?",
+            "IMG_SRC": "/img/page/article/kombucha/kombucha-2.webp",
+            "IS_SMALL": true,
+            "IMG_ALT": "Flasche mit rohem Bio-Kombucha mit Beeren, Kräutern und Zitrone",
+            "CONTENT": "Für die meisten Menschen eignet sich Kombucha gut zu einer Mahlzeit. Seine milde Säure kann die Verdauung anregen, und die Probiotika profitieren von den Nährstoffen der Nahrung.\n\nManche bevorzugen Kombucha auf nüchternen Magen, um die Aufnahme der Probiotika zu verbessern, da weniger Magensäure mehr lebende Bakterien in den Darm gelangen lässt. Bei empfindlichen Personen kann dies jedoch Unwohlsein verursachen.\n\nDank seines geringen Koffein- und B-Vitamin-Gehalts kann er nachmittags als sanfter Energieschub dienen — eine gute Alternative zu Kaffee oder zuckerhaltigen Getränken. Bei Koffeinempfindlichkeit sollte man ihn abends meiden.",
+            "ACCENT_COLOR": "#FFD30F"
+        },
+        {
+            "TITLE": "### Wie sollte man ihn trinken?",
+            "CONTENT": "- **Langsam beginnen.** Mit 60–120 ml (2–4 oz) pro Tag anfangen und bei guter Verträglichkeit allmählich auf 240–480 ml (8–16 oz) steigern.\n\n- **Zähne schützen.** Gekühlt schmeckt er am besten. Trinke mit einem Strohhalm oder spüle den Mund anschließend mit Wasser, um den Zahnschmelz vor der natürlichen Säure zu schützen.\n\n- **Qualität wählen.** Bevorzuge zuckerarmen, biologischen, nicht pasteurisierten Kombucha für aktive Probiotika. Bei der Heimherstellung gefiltertes oder Quellwasser verwenden, da Chlor die nützlichen Bakterien abtötet.\n\n- **Wechselwirkungen beachten.** Kombucha nicht gleichzeitig mit hochdosierten Antibiotika einnehmen, da dies die Wirkung seiner Probiotika mindern kann.\n\n- **Maß halten.** Ein bis zwei Portionen pro Tag genügen, um die Vorteile ohne Nebenwirkungen wie Verdauungsbeschwerden, zusätzlichen Zucker oder Säureprobleme zu erhalten.",
+            "ACCENT_COLOR": "#FFD30F",
+            "BG_COLOR": "#F4F5F8"
+        },
+        {
+            "TITLE": "### Synergistische nootropische Kombinationen",
+            "IMG_SRC": "/img/page/article/kombucha/kombucha-3.webp",
+            "IS_SMALL": true,
+            "IMG_ALT": "Kombucha-Glas neben Kräutern und einem Buch",
+            "CONTENT": "Kombucha kann als hervorragende Basis für Kombinationen mit anderen funktionellen Inhaltsstoffen dienen. Je nach gewählten Komponenten können solche Kombinationen die kognitiven Funktionen unterstützen, dem Körper helfen, mit Stress umzugehen, die Darmgesundheit fördern und den antioxidativen Schutz ergänzen.\n\n- **Für ruhige Konzentration und Flow-Zustand.** Die Kombination von Kombucha mit L-Theanin verstärkt seinen natürlichen, ruhigen Fokus. L-Theanin glättet mögliche Koffein-Nebenwirkungen und fördert entspannte Wachsamkeit, oft als „Flow-Zustand\" beschrieben. Rhodiola Rosea erhöht die Stressresistenz und mentale Ausdauer, während Lion's Mane synergistisch mit den Probiotika der Kombucha die Darm-Hirn-Achse unterstützt und die kognitive Klarheit schärft.\n\n- **Für Gedächtnis und kognitive Leistung.** Die Kombination mit Alpha-GPC oder Citicolin versorgt das Gehirn mit essenziellem Cholin und steigert die Acetylcholin-Produktion — den Neurotransmitter für Lernen und Gedächtnis. Die natürlichen B-Vitamine der Kombucha wirken als Kofaktoren. Bacopa Monnieri unterstützt die langfristige Gedächtnisbildung und reduziert Angstgefühle, während die entzündungshemmenden und probiotischen Eigenschaften der Kombucha die neuroprotektive Wirkung verstärken.\n\n- **Für Bioverfügbarkeit und Neuroprotektion.** Eine Prise Piperin (aus schwarzem Pfeffer) mit Kombucha erhöht die Aufnahme vieler nützlicher Verbindungen — auch von Ergänzungsmitteln wie Curcumin. Curcumin ist ein starkes entzündungshemmendes Mittel, das Gehirnzellen vor oxidativem Stress schützt. Omega-3-Fettsäuren ergänzen diese Wirkung durch essenzielle Fette für das Gehirn.\n\n- **Für Stimmung und Darm-Hirn-Achse.** Die Kombination von Kombucha und Ashwagandha hilft, Stimmung und Stress auszugleichen. Ashwagandha senkt Cortisol und fördert Gelassenheit, während die Probiotika der Kombucha die Darmgesundheit stärken — die Grundlage für emotionale Balance und Stressresistenz.",
+            "ACCENT_COLOR": "#FFD30F"
+        }
+    ],
+    "CALL_TO_ACTION": {
+        "TITLE": "Unsere App ist für jedes Gerät verfügbar",
+        "SUBTITLE": "Lade die App jetzt herunter und verfolge Veränderungen deines Wohlbefindens schon innerhalb eines Tages",
+        "ALT": "Statistik ohne iPhone abrufen"
+    }
+}

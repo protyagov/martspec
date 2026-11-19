@@ -1,0 +1,80 @@
+{
+    "ALEX": {
+        "NAME": "أليكس",
+        "TITLE": "مطور iOS",
+        "AVATAR": "/img/page/team/team_alex.webp",
+        "LINK": "https://www.linkedin.com/in/protyagov/"
+    },
+    "SERGEY_K": {
+        "NAME": "سيرجي",
+        "TITLE": "مهندس ضمان الجودة",
+        "AVATAR": "/img/page/team/team_sergeyK.webp",
+        "LINK": "https://www.linkedin.com/in/sergei-krivonosov-50a50425b/"
+    },
+    "VITALY_V": {
+        "NAME": "فيتالي",
+        "TITLE": "مطور iOS",
+        "AVATAR": "/img/page/team/team_vitalyV.webp",
+        "LINK": ""
+    },
+    "NATALIIA": {
+        "NAME": "ناتاليا",
+        "TITLE": "مطور ويب",
+        "AVATAR": "/img/page/team/team_nataliia.webp",
+        "LINK": "https://www.linkedin.com/in/nataliia-danchenko-25b34626b/"
+    },
+    "LEYLI": {
+        "NAME": "ليلى",
+        "TITLE": "مطور ويب",
+        "AVATAR": "/img/page/team/team_leyli.webp",
+        "LINK": "https://www.linkedin.com/in/leyli-trifonova-389316376/"
+    },
+    "VICTORIA": {
+        "NAME": "فيكا",
+        "TITLE": "مصمم واجهة وتجربة المستخدم",
+        "AVATAR": "/img/page/team/team_vika.webp",
+        "LINK": ""
+    },
+    "EVGEN": {
+        "NAME": "إيفجيني",
+        "TITLE": "مطور ويب",
+        "AVATAR": "/img/page/team/team_evgeny.webp",
+        "LINK": "https://www.linkedin.com/in/evgen-khamitcevich"
+    },
+    "KSENIA": {
+        "NAME": "كسينيا",
+        "TITLE": "مصمم واجهة وتجربة المستخدم",
+        "AVATAR": "/img/page/team/team_ksenia.webp",
+        "LINK": ""
+    },
+    "DANIL": {
+        "NAME": "دانيل",
+        "TITLE": "مطور iOS",
+        "AVATAR": "/img/page/team/team_danil.webp",
+        "LINK": "https://www.linkedin.com/in/danilkazakov/"
+    },
+    "IRINA": {
+        "NAME": "إيرينا",
+        "TITLE": "مطور ويب",
+        "AVATAR": "/img/page/team/team_irina.webp",
+        "LINK": "https://www.linkedin.com/in/irina-dedova/"
+    },
+    "DIMA": {
+        "NAME": "ديما",
+        "TITLE": "مطور ويب",
+        "AVATAR": "/img/page/team/team_dima.webp",
+        "LINK": ""
+    },
+    "DIANA": {
+        "NAME": "ديانا",
+        "TITLE": "مطور iOS",
+        "AVATAR": "/img/page/team/team_diana.webp",
+        "LINK": "https://www.linkedin.com/in/dianakuchaeva/"
+    },
+    "VIKA_S": {
+        "NAME": "فيكا",
+        "TITLE": "مصمم واجهة وتجربة المستخدم",
+        "AVATAR": "/img/page/team/team_vikaS.webp",
+        "LINK": ""
+    }
+}

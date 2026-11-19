@@ -1,0 +1,49 @@
+{
+    "TITLE": "¿Qué es la armonía?",
+    "IMG_URL": "",
+    "IMG_ALT": "",
+    "BODY": [
+        {
+            "TITLE": "",
+            "IMG_SRC": "",
+            "IMG_ALT": "",
+            "CONTENT": "La armonía interior, a menudo llamada paz interior o equilibrio emocional, es un estado de bienestar. Tus pensamientos, emociones y acciones están alineados. Implica una sensación de calma, satisfacción y ausencia de conflicto interno. Alcanzar la armonía interior puede conducir a un mejor equilibrio interno, una mejor salud mental y una vida más plena.\n\n>La armonía es la coherencia de cuatro elementos: lo que decimos, lo que pensamos, lo que sentimos y lo que hacemos. Cuando existe acuerdo, alineación y coherencia entre nuestros pensamientos, sentimientos, acciones y palabras, experimentamos una sensación de paz interna y externa llamada armonía. En psicología, la armonía se refiere a un estado positivo de calma interior, equilibrio y sensación de unidad con el mundo.",
+            "ACCENT_COLOR": "#BA90F9",
+            "BG_COLOR": ""
+        },
+        {
+            "TITLE": "### ¿Por qué necesitas armonía interior?",
+            "IMG_SRC": "",
+            "IMG_ALT": "",
+            "CONTENT": "Cuando una persona está en sintonía consigo misma, cuando sus pensamientos, palabras, acciones y sentimientos están sincronizados, no siente la necesidad de buscar culpables, aferrarse, criticar o juzgar con dureza. Cuando una persona está en armonía interna, puede ignorar los defectos, errores e imperfecciones de los demás. La armonía interior es esencial para tu bienestar general y tu salud mental. Conduce a:\n\n- Reducción del estrés y la ansiedad\n\n- Mayor resiliencia emocional\n\n- Mejora en la toma de decisiones\n\n- Mejores relaciones con otras personas\n\n- Mayor concentración y claridad\n\n- Mayor autoconciencia\n\n- Mayor creatividad y crecimiento personal",
+            "ACCENT_COLOR": "#BA90F9",
+            "BG_COLOR": "",
+            "RIGHT_COLUMN": {
+                "CONTENT": "La aplicación Emotion está diseñada para ayudarte a comprender el equilibrio entre tus pensamientos, sentimientos, palabras y acciones. **La armonía** comienza con el autoconocimiento, y las herramientas interactivas de la aplicación están orientadas a desarrollar la autoconciencia y el equilibrio interior.",
+                "IMG_SRC": "/img/page/article/harmony-card.webp",
+                "IMG_ALT": "Captura de pantalla de la aplicación"
+            }
+        },
+        {
+            "TITLE": "### Características de la armonía interior",
+            "IMG_SRC": "",
+            "IMG_ALT": "",
+            "CONTENT": "La armonía interior implica un estado en el que experimentas calma, satisfacción y ausencia de conflicto interno. La armonía incluye las siguientes características:\n\n- **Estabilidad emocional**: experimentas un equilibrio emocional constante.\n\n- **Aceptación**: aceptas tus emociones y a ti mismo sin juzgar.\n\n- **Perspectiva positiva**: tiendes a ver las situaciones con optimismo y esperanza.\n\n- **Flexibilidad**: te adaptas bien a los cambios y desafíos inesperados.\n\n- **Fortaleza interior**: puedes enfrentar los altibajos de la vida con dignidad.\n\n- **Mente tranquila**: tu mente está relativamente libre de preocupaciones excesivas y pensamientos repetitivos.",
+            "ACCENT_COLOR": "#BA90F9",
+            "BG_COLOR": "#F4F5F8"
+        },
+        {
+            "TITLE": "### ¿Cómo alcanzar la armonía interior?",
+            "IMG_SRC": "/img/page/article/harmony-bottom.webp",
+            "IMG_ALT": "",
+            "CONTENT": "La armonía es una elección que puedes hacer conscientemente. Es un estado mental, no un entorno físico. Puedes encontrar y mantener tu armonía interior adoptando una actitud adecuada hacia la vida. Aquí tienes algunos pasos que pueden ayudarte a alcanzarla:\n\n- **Autoconciencia**: comprende tus emociones, desencadenantes y patrones de pensamiento. Reconoce cuando pierdes el equilibrio o experimentas confusión interior. La autoconciencia es el primer paso para recuperar la estabilidad.\n\n- **Aceptación**: acepta tus emociones y tus experiencias sin juzgar. Acepta tanto los sentimientos positivos como los negativos como parte de la experiencia humana. Acepta tus defectos e imperfecciones como parte de lo que te hace único.\n\n- **Soltar**: libera el apego a los remordimientos del pasado y a las preocupaciones del futuro. Concéntrate en el momento presente y aléjate de lo que está fuera de tu control.\n\n- **Diálogo interno positivo**: reemplaza el autodiálogo negativo con afirmaciones positivas y una voz interna compasiva. Trátate con la misma amabilidad que tratarías a un amigo.\n\n- **Límites saludables**: establece límites claros para proteger tu bienestar emocional. Aprende a decir “no” cuando sea necesario y prioriza actividades y relaciones que aporten positividad a tu vida.\n\n- **Práctica de gratitud**: expresa regularmente gratitud por los aspectos positivos de tu vida. Esta práctica puede alejar tu atención de la negatividad y aumentar la satisfacción.\n\n- **Bienestar físico**: mantén un estilo de vida saludable mediante una buena alimentación, actividad física regular y sueño adecuado. El bienestar físico influye profundamente en tu equilibrio emocional.\n\n- **Buscar apoyo**: si es necesario, habla con amigos, familiares o un profesional de la salud mental. Hablar sobre tus sentimientos y desafíos puede generar claridad y aliviar la carga emocional. Alcanzar la armonía interior es un proceso continuo y es completamente normal experimentar fluctuaciones emocionales. Sé paciente contigo mismo y celebra los pequeños avances. Integrar gradualmente estas prácticas en tu vida diaria puede conducirte a una sensación más profunda de paz interior y bienestar.",
+            "ACCENT_COLOR": "#BA90F9",
+            "BG_COLOR": ""
+        }
+    ],
+    "CALL_TO_ACTION": {
+        "TITLE": "Nuestra app está disponible para cualquier dispositivo",
+        "SUBTITLE": "Descarga la app ahora mismo y comienza a seguir tus cambios de ánimo incluso durante el mismo día",
+        "ALT": "Acceso a estadísticas sin un iPhone"
+    }
+}
