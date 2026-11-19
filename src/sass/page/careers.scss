@@ -1,4 +1,75 @@
 .careers {
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 10%;
+
+    @media (max-width: 599px) {
+        padding-inline: 7%;
+    }
+
+    @media (min-width: 1400px) {
+        max-width: 1320px;
+        padding-inline: 3%;
+    }
+
+    > section {
+        margin-block: 2rem;
+
+        @media (min-width: 992px) {
+            margin-block: 8.8rem;
+        }
+    }
+
+    .title-text-link-card p {
+        font-family: os3;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    &__intro {
+        font-family: os4;
+        font-size: 1.5rem;
+    }
+
+    &__section-title {
+        color: #212529;
+        font: 2rem/1.2 os6;
+        margin-block: 2rem 1.85rem;
+        overflow-wrap: anywhere;
+    }
+
+    h3 {
+        color: #444;
+        font-family: os5;
+        font-size: 2rem;
+        margin-block: 2rem;
+        overflow-wrap: anywhere;
+    }
+
+    &__benefits .block {
+        height: 100%;
+        padding: 3rem;
+        border-radius: 38px;
+        box-shadow: 0 4px 8px #0000000a, 0 0 4px #0000000f;
+
+        h3 {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-family: os3;
+            font-size: 1.35rem;
+            line-height: 147%;
+            margin-bottom: 0;
+        }
+    }
+
+    &__safety {
+        background-color: #f1f6ff;
+        border-radius: 38px;
+        overflow: hidden;
+    }
+
     .ms-btn-large {
         background: #248ce1;
         color: #ffffff;
@@ -76,103 +147,3 @@ html[lang="zh"] h1 {
     overflow-wrap: anywhere;
     hyphens: none;
 }
-
-.careers {
-    padding: 0 10%;
-    margin: 8.8rem auto;
-
-
-    @media (min-width: 320px) and (max-width: 599px) {
-        padding: 0 7%;
-        margin: 2rem auto;
-    }
-
-    @media (min-width: 600px) and (max-width: 991px) {
-        padding: 0 10%;
-        margin: 2rem auto;
-    }
-
-      @media (min-width: 1400px) {
-        max-width: 1320px;
-        padding: 0 3%;
-    }
-}
-
-@media (min-width: 993px) {
-    .careers {
-        .new-page-header {
-            margin-top: 0 !important;
-            margin-bottom: 2rem !important;
-        }
-    }
-}
-
-@media (max-width: 992px) {
-    .careers__header {
-        margin-top: 0 !important;
-    }
-
-    .careers__bottom {
-        margin-bottom: 2rem !important;
-    }
-}
-
-.careers__bread-crumb {
-    padding: 0 10%;
-    margin: 0 auto;
-
-    @media (min-width: 320px) and (max-width: 599px) {
-        padding: 0 7%;
-        margin: 0 auto;
-    }
-
-    @media (min-width: 600px) and (max-width: 991px) {
-        padding: 0 10%;
-        margin: 0 auto;
-    }
-
-      @media (min-width: 1400px) {
-        max-width: 1320px;
-        padding: 0 3%;
-    }
-}
-
-.careers__h1 {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-
-.careers__h2 {
-    color: #212529;
-    font-family: os6;
-    font-size: 2rem;
-    margin-bottom: 1.85rem;
-    margin-top: 2rem;
-    overflow-wrap: anywhere;
-}
-
-.careers__h3 {
-    color: #444;
-    font-family: os5;
-    font-size: 2rem;
-    overflow-wrap: anywhere;
-}
-
-.careers__m-2 {
-    margin: 2rem 0;
-}
-
-.careers__p {
-    font-family: os4;
-    font-size: 1.5rem;
-}
-
-.careers__block {
-    border-radius: 38px;
-    height: 100%;
-}
-
-.careers__p-0 {
-    padding: 0 !important;
-}
-
