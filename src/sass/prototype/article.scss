@@ -819,3 +819,15 @@
         max-width: 1170px;
     }
 }
+
+@media (min-width: 1200px) {
+    .article-section--audio-layout.article-section--audio-layout-reverse {
+        grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);      
+        > .article-section__left-audio {
+            order: 2;
+        }
+        > .article-section {
+            order: 1;
+        }
+    }
+}

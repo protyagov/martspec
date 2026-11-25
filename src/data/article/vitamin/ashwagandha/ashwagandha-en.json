@@ -48,7 +48,15 @@
     {
       "TITLE": "### Possible Negative Effects (The ''What to Avoid'')",
       "CONTENT": "Ashwagandha is generally safe for short-term use, but it does have some risks:\n\n- **Thyroid:** May overstimulate the thyroid. Avoid if you have hyperthyroidism or are on thyroid medication unless supervised by a doctor.\n\n- **Pregnancy & Breastfeeding:** Not considered safe in pregnancy (may raise miscarriage risk) and should be avoided while breastfeeding.\n\n- **Autoimmune Conditions:** Can stimulate the immune system and may worsen conditions like lupus, rheumatoid arthritis, multiple sclerosis, or Hashimoto's.\n\n- **Liver Health:** Rare cases of serious liver injury have been reported. People with liver disease should not use it.\n\n- **Sedatives & Alcohol:** Its calming effects can increase drowsiness when combined with alcohol, sleep aids, or anesthesia. Stop at least 2 weeks before surgery.\n\n- **Digestive Upset:** High doses may cause nausea, diarrhea, or stomach discomfort.\n\n- **Other Cautions:** Use carefully if you have prostate cancer or take medications for blood pressure, diabetes, or the immune system.\n\n- Long-term safety is unknown.",
-      "BG_COLOR": "#F4F5F8"
+      "BG_COLOR": "#F4F5F8",
+      "LEFT_COLUMN": {
+          "ICON": "/img/page/article/audio-icon.svg",
+          "CONTENT": "### Ashwagandha Audio Podcast \n\n **A science-focused discussion on ashwagandha covering its impact on stress and cortisol levels, potential benefits, and key safety warnings based on current evidence.**\n\n Discover key facts, research highlights and practical recommendations in this short audio companion.",
+          "AUDIO_URL": "https://letstag.app/audio/ashwagandha.mp3",
+          "BG_IMAGE": "/img/page/article/ashwagandha-audio.avif",
+          "IMG_ALT": "Ashwagandha benefits podcast audio player",
+          "POSITION": "right"
+      }
     },
     {
       "TITLE": "### When to Consume",
