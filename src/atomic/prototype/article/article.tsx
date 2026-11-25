@@ -192,7 +192,7 @@ const Article = ({ articleType, articleId }: ArticleProps) => {
                 className="article-content"
                 style={{ ["--marker-color" as any]: markerColor }}
               >
-                <div className={hasLeftColumn ? "article-section--audio-layout" : ""}>
+                <div className={`${hasLeftColumn ? "article-section--audio-layout" : ""} ${hasLeftColumn && item.LEFT_COLUMN?.POSITION === "right" ? "article-section--audio-layout-reverse" : ""}`}>
                 {hasLeftColumn && (
                   <aside
                       className="article-section__left-audio"

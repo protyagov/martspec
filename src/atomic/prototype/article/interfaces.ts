@@ -14,6 +14,7 @@ export interface ILeftColumn {
     AUDIO_URL?: string;
     BG_IMAGE?: string;
     IMG_ALT?: string;
+    POSITION?: "left" | "right";
 }
 
 export interface ICallout {
