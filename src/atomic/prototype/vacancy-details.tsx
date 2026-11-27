@@ -39,7 +39,6 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
     const [data, setData] = React.useState<CareerData | null>(null);
 
     React.useEffect(() => {
-
         const fetchData = async () => {
             const response = await fetch(`/data/career-${Locale.language}.json`);
             if (!response.ok) return;
@@ -71,11 +70,9 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
 
             setVacancyData(result.POSITIONS[key]);
             setData(result);
-            
         };
 
         fetchData();
-
     }, [position, Locale.language]);
 
     return (
@@ -89,7 +86,7 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
                                 <div className="col-lg-8">
                                     <h1 className="vacancy-details__h1">{vacancyData.TITLE}</h1>
                                     <p className="p">{data.PAY}</p>
-                                    <p className="vacancy-detail__p vacancy-details__mb-0">{data.FORMAT}</p>
+                                    <p>{data.FORMAT}</p>
                                 </div>
                                 <p className="">{vacancyData.DESC}</p>
                             </div>
@@ -101,13 +98,12 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
                                 {vacancyData.EXPECTATIONS.map((expectation: Expectation, index: number) => (
                                     <div className="col vacancy-details__col" key={index}>
                                         <h3 className="vacancy-details__h3 mb-3">{expectation.H3}</h3>
-                                        
+
                                         <BulletList
                                             items={expectation.UL}
                                             iconColor="#FFB340"
                                             className="vacancy-details__bullet-list"
                                         />
-                                        
                                     </div>
                                 ))}
                             </div>
@@ -117,7 +113,9 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
                             <h2 className="vacancy-details__h2">{data.CONDITIONS_H2}</h2>
                             <ul>
                                 {data.CONDITIONS.map((condition: string, index: number) => (
-                                    <li className="vacancy-details__li vacancy-details__list-style" key={index}>{condition}</li>
+                                    <li className="vacancy-details__li vacancy-details__list-style" key={index}>
+                                        {condition}
+                                    </li>
                                 ))}
                             </ul>
                         </section>
@@ -126,7 +124,9 @@ const VacancyDetails: React.FC<VacancyDetailsProps> = ({ position }) => {
                             <h2 className="vacancy-details__h2">{data.FEATURES_H2}</h2>
                             <ul>
                                 {data.FEATURES.map((feature: string, index: number) => (
-                                    <li className="vacancy-details__li vacancy-details__list-style" key={index}>{feature}</li>
+                                    <li className="vacancy-details__li vacancy-details__list-style" key={index}>
+                                        {feature}
+                                    </li>
                                 ))}
                             </ul>
                         </section>
